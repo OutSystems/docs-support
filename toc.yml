@@ -1,0 +1,411 @@
+# Support
+- placeholder: Enterprise Customers
+- topics:
+    
+    # Extensibility
+    - href: enterprise/extensibility/extensibility.md
+
+    # Integrations
+    - href: enterprise/integrations/integrate-ecosystem.md
+
+    # Infrastructure architecture
+    - href: enterprise/infra-architecture/intro.md
+    - topics:
+        - href: enterprise/infra-architecture/deploy-cloud.md
+
+    
+    # Licensing
+    - placeholder: Licensing
+    - topics:
+        #Overview
+        - placeholder: Overview
+        - topics:
+            - href: enterprise/licensing/overview/how-licensing-works.md
+            - href: enterprise/licensing/overview/access-your-platform.md
+            - href: enterprise/licensing/overview/app-object-count.md
+
+        #Manage and Upgrade 
+        - placeholder: 02 Manage and Upgrade
+        - topics:
+            - href: enterprise/licensing/manage/find-activation-code/find-activation-code.md
+            - href: enterprise/licensing/manage/add-new-environment.md
+            - href: enterprise/licensing/manage/get-license-for-env.md
+            - href: enterprise/licensing/manage/howto-install-license.md 
+            - href: enterprise/licensing/manage/free-up-environment.md
+            - href: enterprise/licensing/manage/check-license-includes.md               
+            - href: enterprise/licensing/manage/enable-db-replica.md
+        
+        # Intellectual Property Protection (IPP)
+        - placeholder: Intellectual Property Protection (IPP)
+        - topics:
+            - href: enterprise/licensing/ipp/what-is-ipp.md
+            - href: enterprise/licensing/ipp/used-ipp-portal.md
+            - href: enterprise/licensing/ipp/ip-rights-not-granted.md
+
+        # Troubleshooting
+        - placeholder: Troubleshooting
+        - topics:
+            - href: enterprise/licensing/troubleshooting/reached-license-limits.md
+            - href: enterprise/licensing/troubleshooting/upgraded-license-not-valid.md            
+            - href: enterprise/licensing/troubleshooting/change-hw-license-invalid.md
+
+    # Installation
+    - placeholder: Installation
+    - topics:
+        - href: enterprise/install/ssl-domain-cloud/ssl-domain-cloud.md
+        - href: enterprise/install/ssl-domain-cloud/ssl-domain-cloud-errors.md     
+        - href: enterprise/install/generate-csr.md
+        - href: enterprise/install/install-ssl-platform.md
+        - href: enterprise/install/install-ssl-certificate-linux.md       
+        - href: enterprise/install/installing-platform-fips-compliant.md
+        - href: enterprise/install/add-certificate-trusted.md
+        - href: enterprise/install/install-system-components.md           
+        - href: enterprise/install/mobile-builder-connectivity-requirements.md                
+        - href: enterprise/install/offline-installation.md    
+        - href: enterprise/install/lifetime-roles.md
+        - href: enterprise/install/size-environment-run-infra-mgmt-console.md
+        - href: enterprise/install/add-front-end/add-front-end.md    
+
+    # Maintenance and Operations
+    - placeholder: Maintenance and Operations
+    - topics:
+        - href: enterprise/maintenance/enable-ssl-protocols-tls.md
+        - href: enterprise/maintenance/access-database-paas/access-database-paas.md
+        - topics: 
+            - href: enterprise/maintenance/access-database-paas/temporary-access-database-backup.md
+        - href: enterprise/maintenance/whitelist-cloud-servers/whitelist-cloud-servers.md
+        - href: enterprise/maintenance/aws-direct-connect-os-cloud.md
+        - href: enterprise/maintenance/connect-tgw.md
+        - href: enterprise/maintenance/add-certificate-trusted-cloud.md
+        - href: enterprise/maintenance/install-client-side-certificate-paas.md
+        - href: enterprise/maintenance/apply-configurations.md      
+        - href: enterprise/maintenance/balanced-app-deploy.md
+        - href: enterprise/maintenance/balanced-app-deploy-java.md
+        - href: enterprise/maintenance/mobile-null-datetime.md
+        - href: enterprise/maintenance/bpt-automatic-activities-timeout.md
+        - href: enterprise/maintenance/monitor-env-activity.md
+        - href: enterprise/maintenance/change-pw-database-users.md
+        - href: enterprise/maintenance/install-client-side-cert-on-premise.md
+        - href: enterprise/maintenance/move-app-pool.md
+        - href: enterprise/maintenance/change-collation-db-sql-server.md
+        - href: enterprise/maintenance/oracle-configure-linguistic-sorting.md
+        - href: enterprise/maintenance/config-oracle-database.md     
+        - href: enterprise/maintenance/connection-pools.md
+        - href: enterprise/maintenance/container-deployment-preview.md
+        - href: enterprise/maintenance/cookie-usage.md
+        - href: enterprise/maintenance/solution-creating-all-comp.md 
+        - href: enterprise/maintenance/custom-dns-name-cloud.md
+        - href: enterprise/maintenance/database-optimization.md     
+        - href: enterprise/maintenance/database-storage-cloud.md                  
+        - href: enterprise/maintenance/altering-file-upload-limits.md
+        - href: enterprise/maintenance/reinstall-different-path.md
+        - href: enterprise/maintenance/cloud-maintenance-window.md
+        - href: enterprise/maintenance/does-safe-harbor-ecj-apply.md
+        - href: enterprise/maintenance/ip-range-cloud.md     
+        - href: enterprise/maintenance/viewport-fit-issue.md
+        - href: enterprise/maintenance/disk-space-usage-control.md
+        - href: enterprise/maintenance/transition-cloud-on-prem.md
+        - href: enterprise/maintenance/protect-android-ios-certificate.md
+        - href: enterprise/maintenance/build-multi-tenant-app.md
+        - href: enterprise/maintenance/find-ssid-activation-code.md
+        - href: enterprise/maintenance/migration-db-code-stacks.md
+        - href: enterprise/maintenance/mabs-versioning.md        
+        - href: enterprise/maintenance/multiple-db-catalogs-schemas.md
+        - href: enterprise/maintenance/no-default-credentials-server.md        
+        - href: enterprise/maintenance/cloud-timezones.md
+        - href: enterprise/maintenance/failover-procedures.md
+        - href: enterprise/maintenance/cloud-shared-responsibility.md        
+        - href: enterprise/maintenance/seo-friendly-urls.md
+        - href: enterprise/maintenance/timers-asynchronous-processes.md
+        - href: enterprise/maintenance/running-modes-dev-vs-prod.md
+        - href: enterprise/maintenance/service-studio-mac/service-studio-mac.md
+        - topics:
+            - href: enterprise/maintenance/service-studio-mac/tp-service-studio-mac.md
+            - href: enterprise/maintenance/service-studio-mac/tp-service-studio-mac-older.md
+        - href: enterprise/maintenance/reinstall-lifetime.md
+        - href: enterprise/maintenance/remove-infra-mgmt-console.md
+        - href: enterprise/maintenance/reset-lifetime-authentication.md
+        - href: enterprise/maintenance/restore-database.md
+        - href: enterprise/maintenance/secure-cookies-enable-secure-session.md
+        - href: enterprise/maintenance/vpn/vpn-support.md
+        - href: enterprise/maintenance/vpn/vpn-errors.md
+        - href: enterprise/maintenance/vpn/vpn-setup-previous.md
+        - href: enterprise/maintenance/sql-server-best-practices.md
+        - href: enterprise/maintenance/system-updates-paas.md
+        - href: enterprise/maintenance/timeouts-under-hood.md
+        - href: enterprise/maintenance/timezone-considerations.md
+        - href: enterprise/maintenance/chrome-samesite-cookie-changes.md
+        - href: enterprise/maintenance/dotnet-connection-strings-sql-server.md
+
+        # Cache Invalidation Service
+        - href: enterprise/maintenance/cache-invalidation/intro.md
+        - topics:
+            - href: enterprise/maintenance/cache-invalidation/enable-tls.md        
+            - href: enterprise/maintenance/cache-invalidation/installation.md     
+            - href: enterprise/maintenance/cache-invalidation/high-availability.md                   
+            - href: enterprise/maintenance/cache-invalidation/manage-troubleshoot.md
+
+         # Data Migration
+        - href: enterprise/maintenance/data-migration/intro.md
+        - topics:
+            - href: enterprise/maintenance/data-migration/sections/01-entity-types-classification.md
+            - href: enterprise/maintenance/data-migration/sections/02-factory-application-modules.md
+            - href: enterprise/maintenance/data-migration/sections/03-factory-database.md
+            - href: enterprise/maintenance/data-migration/sections/04-applicational-entities.md
+            - href: enterprise/maintenance/data-migration/sections/05-application-users-groups-roles.md
+            - href: enterprise/maintenance/data-migration/sections/06-static-entities.md
+            - href: enterprise/maintenance/data-migration/sections/07-business-process-technology-bpt.md
+            - href: enterprise/maintenance/data-migration/10-data-migration-guide.md
+            - href: enterprise/maintenance/data-migration/11-how-to-migrate-data.md
+
+        # Containers: delete an application that was deployed manually (workaround)
+        - href: enterprise/maintenance/manually-deployed-application.md
+
+        # Designing OutSystems Infrastructures
+        - href: enterprise/maintenance/design-infrastructure/designing-infrastructures.md
+        - topics:
+            - href: enterprise/maintenance/design-infrastructure/server-roles.md
+            - href: enterprise/maintenance/design-infrastructure/sizing-platform.md
+            - href: enterprise/maintenance/design-infrastructure/scaling-ha-servers.md
+            - href: enterprise/maintenance/design-infrastructure/disaster-recovery-high-availability.md
+            - href: enterprise/maintenance/design-infrastructure/exposing-your-apps.md
+            - href: enterprise/maintenance/design-infrastructure/infra-design-examples.md
+            - href: enterprise/maintenance/design-infrastructure/app-isolation.md
+
+        # Designing the Architecture of Your OutSystems apps            
+        - href: enterprise/maintenance/architecture/intro.md
+        - topics:
+            - href: enterprise/maintenance/architecture/01-4-layer-canvas.md    
+            - href: enterprise/maintenance/architecture/02-translating-business-app-modules.md  
+            - href: enterprise/maintenance/architecture/03-validating-app-architecture.md  
+            - href: enterprise/maintenance/architecture/04-soa-architectures.md  
+            - href: enterprise/maintenance/architecture/05-integration-patterns.md  
+            - href: enterprise/maintenance/architecture/06-app-composition/06-app-composition.md
+            - topics:
+                - href: enterprise/maintenance/architecture/06-app-composition/applying-4-layer-canvas-apps.md   
+                - href: enterprise/maintenance/architecture/06-app-composition/rules-correct-app-composition.md
+                - href: enterprise/maintenance/architecture/06-app-composition/isolating-app-theme.md                                 
+            - href: enterprise/maintenance/architecture/07-designing-multi-tenant-apps.md
+            - href: enterprise/maintenance/architecture/08-microservices-arch-outsystems.md
+
+        # Designing the Architecture of Your OutSystems apps            
+        - href: enterprise/maintenance/architecture/intro.md
+        - topics:
+            - href: enterprise/maintenance/architecture/01-4-layer-canvas.md                  
+
+        # Containers: Docker and PCF IIS routing rules
+        - href: enterprise/maintenance/containers-iis-routing/docker.md
+        - href: enterprise/maintenance/containers-iis-routing/pcf.md
+
+        # Load Balancing OutSystems Applications
+        - href: enterprise/maintenance/load-balancing-apps/load-balancing-apps.md
+        - topics:     
+            - href: enterprise/maintenance/load-balancing-apps/recommended-configs-load-balancing.md    
+            - href: enterprise/maintenance/load-balancing-apps/detecting-serverapp-availability.md    
+
+        # Deploy Apps to Containers with No Downtime
+        - href: enterprise/maintenance/apps-no-downtime/intro.md
+        - topics:
+            - href: enterprise/maintenance/apps-no-downtime/pcf.md
+            - href: enterprise/maintenance/apps-no-downtime/docker.md
+            - href: enterprise/maintenance/apps-no-downtime/amazon-ecs.md
+            - href: enterprise/maintenance/apps-no-downtime/azure.md            
+
+    # Upgrading
+    - placeholder: Upgrading
+    - topics:
+        - href: enterprise/upgrade/upgrade-platform.md
+        - href: enterprise/upgrade/balanced-upgrade-highly-loaded-farms.md
+        - href: enterprise/upgrade/early-access-features.md
+        - href: enterprise/upgrade/how-are-versions-numbered.md
+        - href: enterprise/upgrade/increase-computing-power-infrastructure.md
+        - href: enterprise/upgrade/client-data-transfer-optimization-tp.md
+        - href: enterprise/upgrade/try-newer-react-runtime-tp.md
+
+        # Migrating Traditional Application to Reactive Application
+        - href: enterprise/upgrade/reactiveapp-migration-guide/intro.md
+        - topics:
+            - href: enterprise/upgrade/reactiveapp-migration-guide/differences.md
+            - href: enterprise/upgrade/reactiveapp-migration-guide/stages.md
+            - href: enterprise/upgrade/reactiveapp-migration-guide/reference.md
+            - topics:
+                - href: enterprise/upgrade/reactiveapp-migration-guide/ref-module-elements.md
+                - href: enterprise/upgrade/reactiveapp-migration-guide/ref-frontend-intro.md
+                - topics:
+                    - href: enterprise/upgrade/reactiveapp-migration-guide/ref-frontend-ui.md
+                    - href: enterprise/upgrade/reactiveapp-migration-guide/ref-frontend-ui-flows.md
+                    - href: enterprise/upgrade/reactiveapp-migration-guide/ref-frontend-screen-and-block.md
+                    - href: enterprise/upgrade/reactiveapp-migration-guide/ref-system-actions.md
+                - href: enterprise/upgrade/reactiveapp-migration-guide/ref-core-widgets.md
+
+        # Log Database Split
+        - href: enterprise/upgrade/logging-db/intro.md
+        - topics:
+            - href: enterprise/upgrade/logging-db/configure-separate-db.md
+            - href: enterprise/upgrade/logging-db/update-applications.md
+
+        - href: enterprise/upgrade/log-service/log-service-clean.md
+
+        # Migrating UI of the Silk Web applications to OutSystems UI Framework
+        - href: enterprise/upgrade/ui-migration-guide/intro.md
+        - topics:
+            - href: enterprise/upgrade/ui-migration-guide/migrate-patterns.md
+            - href: enterprise/upgrade/ui-migration-guide/migrate-structure.md
+            - href: enterprise/upgrade/ui-migration-guide/migration-reference-tables.md
+
+        - href: enterprise/upgrade/organize-modules-applications.md
+        - href: enterprise/upgrade/outsystems-product-releases.md
+        - href: enterprise/upgrade/previous-version-number-format.md
+        - href: enterprise/upgrade/updating-lifetime-analytics.md
+
+        # Updating auth flows for supporting SAML 2.0        
+        - href: enterprise/upgrade/saml-update-auth-flows/update-reactive-app-flows.md
+        - href: enterprise/upgrade/saml-update-auth-flows/update-trad-web-app-flows.md
+
+        - href: enterprise/upgrade/upgrade-integer-long-integer.md
+        - href: enterprise/upgrade/upgrade-lifetime.md
+        - href: enterprise/upgrade/lifetime-versions.md
+
+    # Troubleshooting        
+    - placeholder: Troubleshooting
+    - topics:
+            - href: enterprise/troubleshooting/no-trust-relationship-ssltls.md
+            - href: enterprise/troubleshooting/too-many-failed-login.md
+            - href: enterprise/troubleshooting/mobile-issue-deployments-android.md
+            - href: enterprise/troubleshooting/vpn-troubleshooting-guide.md
+            - href: enterprise/troubleshooting/change-logging-levels.md
+            - href: enterprise/troubleshooting/concat-not-recognized.md
+            - href: enterprise/troubleshooting/dst-change-bpt-not-processed.md
+            - href: enterprise/troubleshooting/debugger-not-working.md
+            - href: enterprise/troubleshooting/deploy-apps-sc.md            
+            - href: enterprise/troubleshooting/env-deploy-controller-twice.md
+            - href: enterprise/troubleshooting/unexpected-link-app-error.md
+            - href: enterprise/troubleshooting/error-accessing-app-windows-token.md
+            - href: enterprise/troubleshooting/mgmt-console-not-authorized.md
+            - href: enterprise/troubleshooting/lifetime/lifetime-register-env-error.md
+            - href: enterprise/troubleshooting/generating-excel-web-screens.md
+            - href: enterprise/troubleshooting/more-information-troubleshooting.md
+            - href: enterprise/troubleshooting/problems-logging-integrated-auth.md
+            - href: enterprise/troubleshooting/badlock-vulnerability.md
+            - href: enterprise/troubleshooting/get-logs.md          
+            - href: enterprise/troubleshooting/information-logged.md
+            - href: enterprise/troubleshooting/attributes-limited-sqlite.md
+            - href: enterprise/troubleshooting/upload-not-work-videos-ios.md
+            - href: enterprise/troubleshooting/lifetime/lifetime-sync-stuck.md                
+            - href: enterprise/troubleshooting/mabs/troubleshoot-issues-with-mabs-6.md
+            - href: enterprise/troubleshooting/mabs-troubleshooting-android.md
+            - href: enterprise/troubleshooting/newtonsoft-json-error.md
+            - href: enterprise/troubleshooting/resource-nowait-specified.md            
+            - href: enterprise/troubleshooting/oracle-odp-net-issues.md
+            - href: enterprise/troubleshooting/os-diag-tool.md
+            - href: enterprise/troubleshooting/paas-certificate-change.md    
+            - href: enterprise/troubleshooting/reset-users-auth-preferences.md
+            - href: enterprise/troubleshooting/slow-publishing-117x.md
+            - href: enterprise/troubleshooting/test-env-connectivity.md
+            - href: enterprise/troubleshooting/mabs/troubleshoot-issues-with-mabs-5.md
+            - href: enterprise/troubleshooting/troubleshoot-mobile-apps-generation.md
+            - href: enterprise/troubleshooting/troubleshoot-platform-server.md        
+            - href: enterprise/troubleshooting/truechange-validation-combobox.md                           
+            - href: enterprise/troubleshooting/lifetime/lifetime-deploy-unable.md
+            - href: enterprise/troubleshooting/unable-register-front-end.md  
+            - href: enterprise/troubleshooting/it-users-vs-app-users.md                  
+            - href: enterprise/troubleshooting/library-hell.md                      
+            - href: enterprise/troubleshooting/wia-popup-shows.md
+            - href: enterprise/troubleshooting/could-not-create-fk.md
+            - href: enterprise/troubleshooting/app-not-in-users.md
+            - href: enterprise/troubleshooting/error-cannot-access-file.md
+            - href: enterprise/troubleshooting/troubleshoot-502.md
+            - href: enterprise/troubleshooting/cannot-decrypt/cannot-decrypt.md
+            
+            # Known issues
+            - href: enterprise/troubleshooting/known-issues/ki-11_10-downtime-CT/ki-11_10-downtime-CT.md
+            - href: enterprise/troubleshooting/known-issues/ki-11_10-site-properties/ki-11_10-site-properties.md
+        
+    
+    # Accessibility
+    - placeholder: Accessibility
+    - topics:
+        - href: enterprise/accessibility/accessibility.md
+        - href: enterprise/accessibility/vpat-template.md
+        
+    # Availability and scalability
+    - href: enterprise/ha-scalability/intro.md
+
+
+# Personal Environment
+- placeholder: Personal Environment
+- topics:
+    - href: personal/cant-reach-apps.md
+    - href: personal/recover-outsystems-pwd.md
+    - href: personal/send-emails.md
+    - href: personal/manage-database-space.md
+    - href: personal/move-apps-personal-enterprise.md
+    - href: personal/infrastructure-under-hood.md
+    - href: personal/service-unavailable-503.md
+    - href: personal/error-host-not-found.md
+    - href: personal/upgrade-latest-version.md
+    - href: personal/whats-a-personal.md
+
+# Archive
+- placeholder: Archive
+- topics:
+    - placeholder: 11
+    - topics:
+        - href: release-info/11/side-effects-breaking-changes.md
+        - href: detach/detach-11.md
+    - placeholder: 10.0
+    - topics: 
+        - href: detach/detach-10.md
+        
+# Security
+- placeholder: Security
+- topics:
+    - href: security/penetration-test-cloud.md
+    - href: security/static-application-security-testing.md
+    - href: security/secure-rest-client-certificate.md
+    - href: security/platform-server-hardening.md
+    - href: security/certificate-management/certificate-management.md
+    - href: security/cloud-certificate-change/cloud-certificate-change.md
+    - href: security/penetration-tests.md
+
+    # Application Security
+    - href: security/app-security/intro.md
+    - topics:
+        - href: security/app-security/app-security-owasp-top-10.md
+
+ 
+    # HIPAA compliance
+    - href: security/HIPAA/intro.md
+    - topics:
+        - href: security/HIPAA/hipaa-tech-safeguards.md
+    
+    # Vulnerabilities
+    - href: security/vulnerabilities/intro.md
+    - topics:
+        - href: security/vulnerabilities/vulnerability-RLIT-3368.md
+        - href: security/vulnerabilities/vulnerability-RPD-2322.md
+        - href: security/vulnerabilities/vulnerability-RPD-3849.md
+        - href: security/vulnerabilities/vulnerability-RPD-4260.md
+        - href: security/vulnerabilities/vulnerability-RLIT-2388.md
+        - href: security/vulnerabilities/vulnerability-RPD-2903.md
+        - href: security/vulnerabilities/vulnerability-RPD-3384.md
+        - href: security/vulnerabilities/vulnerability-RPD-4310.md
+        - href: security/vulnerabilities/vulnerability-RPD-5160.md
+        - href: security/vulnerabilities/vulnerability-RTAF-2226.md
+        - href: security/vulnerabilities/vulnerability-RTAF-3379.md
+        - href: security/vulnerabilities/vulnerability-RDEV-2256.md
+        - href: security/vulnerabilities/vulnerability-RICT-2849.md
+        - href: security/vulnerabilities/vulnerability-RPSFCT-55.md
+        - href: security/vulnerabilities/vulnerability-RICT-2855.md
+        - href: security/vulnerabilities/vulnerability-RCFT-4197.md
+        - href: security/vulnerabilities/vulnerability-RICT-2673.md
+
+    # How OutSystems Platform helps you develop secure applications
+    - href: security/develop-secure-apps/intro.md
+    - topics:
+        - href: security/develop-secure-apps/code-injection-css-attacks.md
+        - href: security/develop-secure-apps/authentication-vulnerabilities.md
+        - href: security/develop-secure-apps/access-control-vulnerabilities.md
+        - href: security/develop-secure-apps/encryption-ssl-tls.md
+        - href: security/develop-secure-apps/csrf-attacks.md
+        - href: security/develop-secure-apps/redirects-forwarders-vulnerabilities.md

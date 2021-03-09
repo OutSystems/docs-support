@@ -1,0 +1,29 @@
+on: [pull_request_target]
+jobs:
+  build-docs:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository content
+        uses: actions/checkout@v2
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.8
+      - name: Checkout toolchain
+        uses: actions/checkout@v2
+        with:
+          repository: 'OutSystems/docs-toolkit'
+          path: tools
+          token: ${{ secrets.DOC_TOOLS_TOKEN }}
+      - name: Install toolchain Python requirements
+        run: |
+          pip install -r tools/requirements.txt
+      - name: Set up config.yml
+        run: |
+          cp config.sample.yml config.yml    
+      - name: Run assemble-reference
+        run: |
+          python tools/assemble-reference_script.py  
+      - name: Run build
+        run: |
+          python tools/build_script.py  

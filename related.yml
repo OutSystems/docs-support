@@ -1,0 +1,167 @@
+- enterprise/maintenance/cache-invalidation/intro.md:
+    - enterprise/maintenance/cache-invalidation/enable-tls.md
+    - enterprise/maintenance/cache-invalidation/manage-troubleshoot.md
+    - enterprise/maintenance/cache-invalidation/installation.md
+    - enterprise/maintenance/cache-invalidation/high-availability.md
+
+- enterprise/upgrade/logging-db/intro.md:
+    - enterprise/upgrade/logging-db/configure-separate-db.md
+    - enterprise/upgrade/logging-db/update-applications.md
+
+- enterprise/maintenance/cache-invalidation/high-availability.md:
+    - external:
+        - Installing RabbitMQ on Windows:
+            https://www.rabbitmq.com/install-windows.html
+        - Installing NGINX on Windows:
+            https://nginx.org/en/docs/windows.html
+        - RabbitMQ Clustering Guide:
+            https://www.rabbitmq.com/clustering.html
+        - Distributed RabbitMQ Brokers:
+            https://www.rabbitmq.com/distributed.html
+        - Highly Available RabbitMQ Queues:
+            https://www.rabbitmq.com/ha.html
+        - TCP and UDP Load Balancing with NGINX:
+            https://docs.nginx.com/nginx/admin-guide/load-balancer/tcp-udp-load-balancer/
+        - An Introduction to HAProxy and Load Balancing Concepts – High Availability (DigitalOcean):
+            https://www.digitalocean.com/community/tutorials/an-introduction-to-haproxy-and-load-balancing-concepts#high-availability
+
+- security/develop-secure-apps/intro.md:
+    - security/develop-secure-apps/code-injection-css-attacks.md
+    - security/develop-secure-apps/authentication-vulnerabilities.md
+    - security/develop-secure-apps/access-control-vulnerabilities.md
+    - security/develop-secure-apps/encryption-ssl-tls.md
+    - security/develop-secure-apps/csrf-attacks.md
+    - security/develop-secure-apps/redirects-forwarders-vulnerabilities.md
+    - external:
+        - Harden the protection of mobile apps with AppShield:
+            https://success.outsystems.com/Documentation/11/Delivering_Mobile_Apps/Harden_the_protection_of_mobile_apps_with_AppShield
+
+
+- security/develop-secure-apps/code-injection-css-attacks:
+    - security/develop-secure-apps/authentication-vulnerabilities.md
+    - security/develop-secure-apps/access-control-vulnerabilities.md
+    - security/develop-secure-apps/encryption-ssl-tls.md
+    - security/develop-secure-apps/csrf-attacks.md
+    - security/develop-secure-apps/redirects-forwarders-vulnerabilities.md
+    - external:
+        - Harden the protection of mobile apps with AppShield:
+            https://success.outsystems.com/Documentation/11/Delivering_Mobile_Apps/Harden_the_protection_of_mobile_apps_with_AppShield
+
+- security/develop-secure-apps/authentication-vulnerabilities.md:
+    - security/develop-secure-apps/access-control-vulnerabilities.md
+    - security/develop-secure-apps/encryption-ssl-tls.md
+    - security/develop-secure-apps/csrf-attacks.md
+    - security/develop-secure-apps/redirects-forwarders-vulnerabilities.md
+    - external:
+        - Harden the protection of mobile apps with AppShield:
+            https://success.outsystems.com/Documentation/11/Delivering_Mobile_Apps/Harden_the_protection_of_mobile_apps_with_AppShield
+
+- security/develop-secure-apps/access-control-vulnerabilities.md:
+    - security/develop-secure-apps/encryption-ssl-tls.md
+    - security/develop-secure-apps/csrf-attacks.md
+    - security/develop-secure-apps/redirects-forwarders-vulnerabilities.md
+    - external:
+        - Harden the protection of mobile apps with AppShield:
+            https://success.outsystems.com/Documentation/11/Delivering_Mobile_Apps/Harden_the_protection_of_mobile_apps_with_AppShield
+
+- security/develop-secure-apps/encryption-ssl-tls.md:
+    - security/develop-secure-apps/csrf-attacks.md
+    - security/develop-secure-apps/redirects-forwarders-vulnerabilities.md
+    - external:
+        - Harden the protection of mobile apps with AppShield:
+            https://success.outsystems.com/Documentation/11/Delivering_Mobile_Apps/Harden_the_protection_of_mobile_apps_with_AppShield
+
+- security/develop-secure-apps/csrf-attacks.md:
+    - security/develop-secure-apps/redirects-forwarders-vulnerabilities.md
+    - external:
+        - Harden the protection of mobile apps with AppShield:
+            https://success.outsystems.com/Documentation/11/Delivering_Mobile_Apps/Harden_the_protection_of_mobile_apps_with_AppShield
+
+- security/static-application-security-testing.md:
+    - security/penetration-tests.md
+
+- security/penetration-tests.md:
+    - security/penetration-test-cloud.md
+
+- security/app-security/intro.md:
+    - security/app-security/app-security-owasp-top-10.md
+    
+# Data Migration Documentation
+
+- enterprise/maintenance/data-migration/intro.md:
+    - enterprise/maintenance/data-migration/sections/01-entity-types-classification.md
+    - enterprise/maintenance/data-migration/sections/02-factory-application-modules.md
+    - enterprise/maintenance/data-migration/sections/03-factory-database.md
+    - enterprise/maintenance/data-migration/sections/04-applicational-entities.md
+    - enterprise/maintenance/data-migration/sections/05-application-users-groups-roles.md
+    - enterprise/maintenance/data-migration/sections/06-static-entities.md
+    - enterprise/maintenance/data-migration/sections/07-business-process-technology-bpt.md
+    - enterprise/maintenance/data-migration/11-how-to-migrate-data.md
+
+- enterprise/maintenance/data-migration/sections/01-entity-types-classification.md:
+    - enterprise/maintenance/data-migration/sections/02-factory-application-modules.md
+    - enterprise/maintenance/data-migration/sections/03-factory-database.md
+    - enterprise/maintenance/data-migration/sections/04-applicational-entities.md
+    - enterprise/maintenance/data-migration/sections/05-application-users-groups-roles.md
+    - enterprise/maintenance/data-migration/sections/06-static-entities.md
+    - enterprise/maintenance/data-migration/sections/07-business-process-technology-bpt.md
+    - enterprise/maintenance/data-migration/11-how-to-migrate-data.md
+
+- enterprise/maintenance/data-migration/sections/02-factory-application-modules.md:
+    - enterprise/maintenance/data-migration/sections/03-factory-database.md
+    - enterprise/maintenance/data-migration/sections/04-applicational-entities.md
+    - enterprise/maintenance/data-migration/sections/05-application-users-groups-roles.md
+    - enterprise/maintenance/data-migration/sections/06-static-entities.md
+    - enterprise/maintenance/data-migration/sections/07-business-process-technology-bpt.md
+    - enterprise/maintenance/data-migration/11-how-to-migrate-data.md
+
+- enterprise/maintenance/data-migration/sections/03-factory-database.md:
+    - enterprise/maintenance/data-migration/sections/04-applicational-entities.md
+    - enterprise/maintenance/data-migration/sections/05-application-users-groups-roles.md
+    - enterprise/maintenance/data-migration/sections/06-static-entities.md
+    - enterprise/maintenance/data-migration/sections/07-business-process-technology-bpt.md
+    - enterprise/maintenance/data-migration/11-how-to-migrate-data.md
+
+- enterprise/maintenance/data-migration/sections/04-applicational-entities.md:
+    - enterprise/maintenance/data-migration/sections/05-application-users-groups-roles.md
+    - enterprise/maintenance/data-migration/sections/06-static-entities.md
+    - enterprise/maintenance/data-migration/sections/07-business-process-technology-bpt.md
+    - enterprise/maintenance/data-migration/11-how-to-migrate-data.md
+
+- enterprise/maintenance/data-migration/sections/05-application-users-groups-roles.md:
+    - enterprise/maintenance/data-migration/sections/06-static-entities.md
+    - enterprise/maintenance/data-migration/sections/07-business-process-technology-bpt.md
+    - enterprise/maintenance/data-migration/11-how-to-migrate-data.md
+
+- enterprise/maintenance/data-migration/sections/06-static-entities.md:
+    - enterprise/maintenance/data-migration/sections/07-business-process-technology-bpt.md
+    - enterprise/maintenance/data-migration/11-how-to-migrate-data.md
+
+- enterprise/maintenance/data-migration/sections/07-business-process-technology-bpt.md:
+    - enterprise/maintenance/data-migration/11-how-to-migrate-data.md
+ 
+- enterprise/licensing/manage/find-activation-code/find-activation-code.md:
+    - enterprise/licensing/overview/how-licensing-works.md
+
+
+# Containers deployment with no downtime
+- enterprise/maintenance/apps-no-downtime/intro.md:
+    - enterprise/maintenance/apps-no-downtime/pcf.md
+    - enterprise/maintenance/apps-no-downtime/docker.md
+    - enterprise/maintenance/apps-no-downtime/amazon-ecs.md
+    - enterprise/maintenance/apps-no-downtime/azure.md
+
+- enterprise/maintenance/add-certificate-trusted-cloud.md:
+    - enterprise/install/add-certificate-trusted.md
+    - external:
+        - Consume REST APIs:
+            https://success.outsystems.com/Documentation/11/Extensibility_and_Integration/REST/Consume_REST_APIs
+        - Consume SOAP webservices:
+            https://success.outsystems.com/Documentation/11/Extensibility_and_Integration/SOAP/Consuming_SOAP_Web_Services
+
+- enterprise/install/add-certificate-trusted.md:
+    - external:
+        - Consume REST APIs:
+            https://success.outsystems.com/Documentation/11/Extensibility_and_Integration/REST/Consume_REST_APIs
+        - Consume SOAP webservices:
+            https://success.outsystems.com/Documentation/11/Extensibility_and_Integration/SOAP/Consuming_SOAP_Web_Services

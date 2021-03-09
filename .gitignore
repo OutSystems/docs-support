@@ -1,0 +1,6 @@
+build/
+styles/
+rules/
+**/.vscode/
+**/.vs/
+config.yml
