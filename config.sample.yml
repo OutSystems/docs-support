@@ -9,4 +9,4 @@ publish:
     toc_url: https://success.outsystems.com/
     toc_root_path: Support
     skip_toc_publish: True
-    skip_edit_links: True
+    skip_edit_links: False
