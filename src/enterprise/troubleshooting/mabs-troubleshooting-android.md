@@ -1,5 +1,4 @@
 ---
-
 summary: Check how you can fix some of the mobile app build errors after upgrading from MABS 4 to MABS 5.
 ---
 

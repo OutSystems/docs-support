@@ -1,7 +1,5 @@
 ---
-
 summary: Understand how to design modular architecture implementations in which services all reside in their own infrastructure and are decoupled, communicating through loosely coupled, lightweight mechanisms.
-
 ---
 
 # Microservices Architecture in OutSystems

@@ -1,7 +1,5 @@
 ---
-
 summary:
-
 ---
 
 # Installing the Platform on a FIPS compliant system

@@ -1,7 +1,5 @@
 ---
-
 summary:
-
 ---
 
 # Information Logged by OutSystems Platform

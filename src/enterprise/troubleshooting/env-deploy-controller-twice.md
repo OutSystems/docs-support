@@ -1,7 +1,5 @@
 ---
-
 summary: 
-
 ---
 
 # Environment Health shows a Deployment controller twice

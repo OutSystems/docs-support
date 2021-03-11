@@ -1,7 +1,5 @@
 ---
-
 summary: When installing or upgrading OutSystems Platform, one of the steps in the installation checklist is to install the System Components. Learn how to do it.
-
 ---
 
 # Install System Components

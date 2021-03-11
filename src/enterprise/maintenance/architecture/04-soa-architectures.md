@@ -1,7 +1,5 @@
 ---
-
 summary: When abstracting your concepts into services, core OutSystems modules should always be layered for reusability, flexibility and handling change.
-
 ---
 
 # Service-Oriented Architectures for OutSystems applications

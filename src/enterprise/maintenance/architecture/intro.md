@@ -1,6 +1,5 @@
 ---
 summary: A top-notch architecture is crucial to allow your applications to grow and adapt to your OutSystems business requirements as they evolve, with minimal impacts.
-
 ---
 
 # Designing the Architecture of Your OutSystems Applications

@@ -1,3 +1,7 @@
+---
+summary:
+---
+
 # Load Balancing OutSystems Applications
 
 **Important: **This guide applies only to on-premises/private cloud installations. It does not apply to OutSystems Enterprise Cloud, where the load balancing mechanism is provided to the customer by OutSystems (where applicable).

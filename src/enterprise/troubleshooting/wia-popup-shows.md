@@ -1,3 +1,8 @@
+---
+summary:
+tags:
+---
+
 # Windows Integrated Authentication (WIA) login popup keeps showing up during application use
 
 ## Symptoms  

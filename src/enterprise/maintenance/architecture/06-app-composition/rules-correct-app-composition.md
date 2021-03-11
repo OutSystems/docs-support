@@ -1,7 +1,5 @@
 ---
-
 summary: Your composed OutSystems application architecture must be aligned with recommended principles and take business organization and strategy into account.
-
 ---
 
 # The 4 Rules for Correct Application Composition

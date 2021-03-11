@@ -1,7 +1,5 @@
 ---
-
 summary: 
-
 ---
 
 # CONCAT is not a recognized built-in function name

@@ -1,5 +1,5 @@
 ---
-summary
+summary:
 ---
 
 # BPT - Automatic Activities Timeout

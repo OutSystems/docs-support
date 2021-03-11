@@ -1,7 +1,5 @@
 ---
-
 summary: For a correctly designed architecure you must always adhere to 3 rules. Violations to these rules tell you how your OutSystems architecture should be improved.
-
 ---
 
 # Validating your application architecture

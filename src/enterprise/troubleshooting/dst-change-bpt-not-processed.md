@@ -1,7 +1,5 @@
 ---
-
 summary:
-
 ---
 
 # Daylight Savings time change can cause some BPT activities to not be processed

@@ -70,8 +70,4 @@ Bear in mind that, as with any operation involving databases, the appropriate ca
 
 If such change is incorrectly performed, errors may show up in runtime or when performing application deployments. Errors will have messages including something similar to:
 
-```
-Cannot resolve the collation conflict between
-
-"SQL_Latin1_General_CP1_CI_AI*" and "*Latin1_General_CI_AI"
-```
+```Cannot resolve the collation conflict between "SQL_Latin1_General_CP1_CI_AI*" and "*Latin1_General_CI_AI"```
