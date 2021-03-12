@@ -80,7 +80,7 @@ When upgrading your OutSystems environments, OutSystems recommendation is that y
 
 <div class="info" markdown="1">
 
-You always have the freedom to choose the order that's most convenient for you. Sometimes, to best coordinate with the development teams and on-going projects, you can start with another non-production environment (for example, Pre-Production) to fully validate the applications upgrade, and then upgrade the Production environment. Only after, upgrade the Development environment according to the development teams delivery sprints. **Bottom line is, you should always upgrade and test your applications in a non-production environment before proceeding to the Production environment**.
+You always have the freedom to choose the order that's most convenient for you. Sometimes, to best coordinate with the development teams and ongoing projects, you can start with another non-production environment (for example, Pre-Production) to fully validate the applications upgrade, and then upgrade the Production environment. Only after, upgrade the Development environment according to the development teams delivery sprints. **Bottom line is, you should always upgrade and test your applications in a non-production environment before proceeding to the Production environment**.
 
 </div>
 
@@ -136,7 +136,7 @@ In the OutSystems Cloud, the process of upgrading the Platform Server is handled
 
 1. OutSystems will promptly contact you to schedule and plan the Platform Server upgrade.
 
-1. OutSystems proceeds with the upgrade of the Platform Server component on the environment on the agreed schedule.
+1. On the agreed schedule, OutSystems proceeds with the upgrade of the Platform Server component in the environment. When upgrading the **Development environment** of your infrastructure, OutSystems also installs the latest version of [OutSystems UI](https://www.outsystems.com/forge/component-overview/1385/silk-ui-mobile).
 
 <div class="info" markdown="1">
 
