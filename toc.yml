@@ -370,6 +370,7 @@
     - href: security/app-security/intro.md
     - topics:
         - href: security/app-security/app-security-owasp-top-10.md
+        - href: security/app-security/mobile-app-server.md
 
  
     # HIPAA compliance
