@@ -43,6 +43,7 @@ If you are an OutSystems customer or partner and have access to our [Support Por
 Often, vulnerability scans, static code analysis or dynamic code analysis are performed by third party tools that output a report.Those reports shouldn’t be sent untreated to OutSystems. Instead, they should first be analysed.
 
 This means that customers and partners must first analyze the findings in such reports and determine if:
+
 1.  It’s related to application logic and was introduced during the development (related to application logic). In this case, it’s the customer's responsibility to address it.
 1. The finding is a false positive or not. It’s the customer's responsibility to consult the available documentation.
 1. Understand if the vulnerability falls under the customer or OutSystems responsibility.
