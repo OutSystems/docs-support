@@ -1,6 +1,6 @@
 ---
 summary: Overview of the way we tackle vulnerabilities found in the OutSystems Platform. 
-Tags: security-vulnerabilities
+Tags: security-vulnerabilities; article-page
 ---
 
 # Vulnerabilities
