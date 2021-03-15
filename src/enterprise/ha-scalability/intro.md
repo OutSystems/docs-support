@@ -95,7 +95,7 @@ To scale horizontally in the OutSystems Cloud, OutSystems deploys additional fro
 
 When considering a high availability infrastructure, there are different layers to keep in mind. Each layer serves a different function and requires distinct technologies to handle redundancy. 
 
-An infrastructure is composed of several environments, and you can decide to have redundancy on all of them or just some or them. For example, production environments are critical to be readily available while non-production environments, like development and testing, may not. It all depends on your specific needs.
+An infrastructure is composed of several environments, and you can decide to have redundancy on all of them or just some of them. For example, production environments are critical to be readily available while non-production environments, like development and testing, may not. It all depends on your specific needs.
 
 
 The following diagram depicts all the layers in the scope of a single environment.
