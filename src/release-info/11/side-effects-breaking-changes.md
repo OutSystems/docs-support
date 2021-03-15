@@ -519,6 +519,16 @@ This was never a supported configuration. Check [How to Use .NET Standard librar
 **Workaround**: As a temporary workaround for Platform Server 11.9.0, OutSystems added a new setting to the [Factory Configuration](https://www.outsystems.com/forge/component-overview/25/factory-configuration) application: "Force apps to use existing versions of third party libraries". When this setting is disabled, the platform reverts to the previous behavior.  
 You should only use this workaround if it's not viable to fix all the affected extensions in a timely fashion. This setting will be ignored in all platform versions above 11.9, so it's important that you fix the root causes of this issue.
 
+### Introduced in Platform Server 11.11.1
+
+**Issue**: HTTP responses from Consumed REST API integrations now are closed more aggressively.
+
+**Runtime**: Mobile, Web
+
+**Rationale**: When doing a large number of Consumed REST API requests, the number of used ports can increase rapidly and lead to port exhaustion problems. The new behavior prevents this situation and generally helps avoid leaking resources. However, this new behavior can also cause runtime changes in some edge cases. A known situation takes place when consuming an Exposed REST API in OutSystems that returns HTTP status code 204 (No Content), but sends data in the body, thus sending a "Content-Length" header with a value greater than zero. Although this is [invalid according to RFC 7230](https://httpwg.org/specs/rfc7230.html#header.content-length), it previously didn't cause an error. Additionally, you should validate other scenarios that might be affected by this breaking change.
+
+**Workaround**: For the example stated above, the workaround is to change the returned status code from 204 (No Content) to a different status code, if you wish to include data in the body. Alternatively, keep returning the 204 status code but don't include any content in the response body.
+
 
 ## Side Effects
 
