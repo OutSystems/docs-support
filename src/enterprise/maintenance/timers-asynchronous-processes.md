@@ -74,7 +74,7 @@ Here's the complete description of the attributes:
 | **Tenant_Id** | The reference to the tenant where the Timer is running.|
 | **Schedule** | After the Timer has finished its execution, this attribute is used to calculate the time of the next execution.<br/><br/> **For example:** Schedule: "02:00 10:00 18:00" (runs every day at 2 a.m., 10 a.m., and 6 p.m.). If a Timer finished on the 10-23-2012 at 18:00:50 then the Next_Run is set to 10-24-2012 at 2:00:00.<br/><br/>This property is initially set by the value defined in the **Default_Schedule** property of the **Meta_Cyclic_Job** entity, but it can be changed in Service Center. |
 | **Last_Run** | The date and time at which the Timer started its last execution (using the database clock).|
-| **Next_Run** | The date and time of the next execution (using the database clock).<br/><br/>The Scheduler Service executes Timers which have **Next_Run** >= current date time.|
+| **Next_Run** | The date and time of the next execution (using the database clock).<br/><br/>The Scheduler Service executes Timers which have **Next_Run** <= current date time.|
 | **Last_Duration** | The time in seconds the Timer took to finish its last execution.|
 | **Is_Running_Since** | The date and time when the Schedule Service started executing the Timer (database clock time).<br/><br/> This attribute is also used to synchronize the several Front-end Server nodes because the Scheduler Service doesn't execute Timers with this attribute set (unless in error recovering actions).<br/><br/> When the execution of the Timer finishes, this attribute is cleaned.|
 | **Is_Running_By** | This attribute has the name of the Front-end Server node that's executing the Timer. The  **Is_Running_Since**  attribute is also set.|
@@ -101,7 +101,7 @@ Here's the complete description of the attributes:
 | **Meta_Cyclic_Job_Id** | A reference to the **Meta_Cyclic_Job** entity.|
 | **Schedule** | After the Timer has finished its execution, this attribute is used to calculate the time of the next execution.<br/><br/> **For example**: Schedule: "02:00 10:00 18:00" (runs every day at 2 a.m., 10 a.m., and 6 p.m.). If a Timer finished on the 10-23-2012 at 18:00:50 then the Next_Run is set to 10-24-2012 at 2:00:00.<br/><br/> This property is initially set by the value defined in the **Default_Schedule** property of the **Meta_Cyclic_Job** entity, but it can be changed in Service Center.|
 | **Last_Run** | The date and time at which the Timer started its last execution.|
-| **Next_Run** | The date and time of the next execution.<br/><br/> The Scheduler Service executes Timers which have **Next_Run** >= current date time.|
+| **Next_Run** | The date and time of the next execution.<br/><br/> The Scheduler Service executes Timers which have **Next_Run** <= current date time.|
 | **Last_Duration** | The time in seconds the Timer took to finish its last execution.|
 | **Is_Running_Since** | The date and time when the Schedule Service started executing the Timer (database clock time).<br/><br/> This attribute is also used to synchronize the several Front-end Server nodes because the Scheduler Service doesn't execute Timers with this attribute set (unless in error recovering actions).<br/><br/> When the execution of the Timer finishes, this attribute is cleaned. |
 | **Is_Running_By** | This attribute has the name of the Front-end Server node that's executing the Timer. The **Is_Running_Since** attribute is also set.|
