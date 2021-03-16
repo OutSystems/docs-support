@@ -467,6 +467,20 @@ Upgrading a module in Service Studio will remove any dependencies on these entit
 
 **Workaround**: Change the application logic to ensure that there are no recursive iterations of a list.
 
+#### Logic
+
+37\. <a name="bc-37"></a>
+
+**Issue**: JSONDeserialize widget no longer truncates Decimals that are parsed to Text.
+
+**Runtime**: Mobile, Web
+
+**Rationale**: When using JSONDeserialized widget in Server Actions to deserialize a JSON string data to a record or list. If the deserialized data type contains a Text attribute but in the JSON string data that attribute value is sent as a Decimal, the trailing zeros are preserved when deserializing that Decimal attribute to Text. 
+
+For example, the sent decimal values `10.000` and `10.1000` are deserialized to `10.000` and `10.1000` and not to `10` and `10.1`. 
+
+**Workaround**: To truncate a value, change the deserialized attribute data type to Decimal instead of  Text. 
+
 ### Introduced in Platform Server Oct.2019
 
 **Issue**:  Integrations with external databases that use Oracle Database 10g Release 2 will stop working.
