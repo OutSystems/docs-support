@@ -14,17 +14,17 @@ Environment synchronization in LifeTime is taking longer than expected.
 
 When the synchronization of an environment in LifeTime is stuck, follow the validations below to troubleshoot a potential issue.
 
-### Check the connectivity between environments (on-premises only)
+### Check the connectivity between environments (self-managed only)
 
-If you have on-premises environments, make sure there is bidirectional communication between LifeTime and the synchronizing environment:
+If you have self-managed environments, make sure there is bidirectional communication between LifeTime and the synchronizing environment:
 
 1. [Test the connectivity](../test-env-connectivity.md) from **LifeTime** to the **synchronizing environment**.
 
 1. [Test the connectivity](../test-env-connectivity.md) from the **synchronizing environment** to **LifeTime**.
 
-### Check the servers Timezone (on-premises only)
+### Check the servers Timezone (self-managed only)
 
-If you have on-premises environments, make sure the database server and the application environment servers (controller and front-ends) are set with the same [Timezone](https://support.microsoft.com/en-us/help/4026213/windows-how-to-set-your-time-and-time-zone), as described in [OutSystems Timezone considerations](https://success.outsystems.com/Support/Enterprise_Customers/Maintenance_and_Operations/Timezone_considerations_in_the_OutSystems_Platform).
+If you have self-managed environments, make sure the database server and the application environment servers (controller and front-ends) are set with the same [Timezone](https://support.microsoft.com/en-us/help/4026213/windows-how-to-set-your-time-and-time-zone), as described in [OutSystems Timezone considerations](https://success.outsystems.com/Support/Enterprise_Customers/Maintenance_and_Operations/Timezone_considerations_in_the_OutSystems_Platform).
 
 ### Check the status of LifeTime Processes
 
@@ -44,9 +44,7 @@ If the above validations did not help you to solve the issue and you need furthe
 
 If you have a critical need to deploy an application to that environment, you can try to [deploy the application through Service Center](../deploy-apps-sc.md) as a workaround.
 
-<div class="style-wrap internal_info" if="user.groups['OutSystems']" markdown="1">
-
-If your infrastructure is on-premises (not required for OutSystems Cloud customers), make sure to attach the following information to your support case:
+If your infrastructure is self-managed (not required for OutSystems Cloud), make sure to attach the following information to your support case:
 
 * [**Error**, **General**, and **Integrations** log files](../get-logs.md#runtime-logs) from the Service Center console of the **synchronizing environment**
 
@@ -55,5 +53,3 @@ If your infrastructure is on-premises (not required for OutSystems Cloud custome
 * [LifeTime Report](../get-logs.md#lifetime-report)
 
 * [BPTUtils Troubleshooting Report](../get-logs.md#get-bptutils-troubleshooting-report)
-
-</div>
