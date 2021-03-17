@@ -136,7 +136,17 @@ In the OutSystems Cloud, the process of upgrading the Platform Server is handled
 
 1. OutSystems will promptly contact you to schedule and plan the Platform Server upgrade.
 
-1. On the agreed schedule, OutSystems proceeds with the upgrade of the Platform Server component in the environment. When upgrading the **Development environment** of your infrastructure, OutSystems also installs the latest version of [OutSystems UI](https://www.outsystems.com/forge/component-overview/1385/silk-ui-mobile).
+1. On the agreed schedule, OutSystems proceeds with the upgrade of the Platform Server component in the environment. When upgrading the **Development environment** of your infrastructure, OutSystems also installs the latest version of the following components:
+
+    * [OutSystems UI](https://www.outsystems.com/forge/component-overview/1385/silk-ui-mobile)
+    * [OutSystems UI Web](https://www.outsystems.com/forge/4143/)
+    * [OutSystems Charts](https://www.outsystems.com/forge/4141/)
+    * [OutSystems Charts Web](https://www.outsystems.com/forge/4142/)
+    * [OutSystems UI Templates Mobile](https://www.outsystems.com/forge/4148/)
+    * [OutSystems UI Templates Reactive](https://www.outsystems.com/forge/6335/)
+    * [OutSystems UI Web Screen Templates](https://www.outsystems.com/forge/4146/)
+    * [OutSystems Sample Data](https://www.outsystems.com/forge/4145/)
+
 
 <div class="info" markdown="1">
 
