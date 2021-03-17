@@ -182,12 +182,12 @@ For this setup, the following underlying servers are provisioned:
 * A shared database server or instance that carries all the catalogs for the LifeTime, Development and Test environments.
 * A dedicated database server for the Production environment.
 
-**Five front end servers:**
+**Four front end servers:**
 
 * 1 for LifeTime
 * 1 for Development
 * 1 for Test
-* 2 for Production that are behind a load balancer
+* 1 for Production
 
 #### Standard edition infrastructure
 
