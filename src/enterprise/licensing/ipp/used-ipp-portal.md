@@ -1,6 +1,5 @@
 ---
 summary: It may take up to an hour to change the activation code of your applications. If you haven't received an email, check your spam folder, or contact support@outsystems.com.
-en_title: 02 Used the IPP portal, but didn't receive an email
 ---
 
 # Used the IPP portal, but didn't receive an email
