@@ -107,7 +107,7 @@ On a high-demand scenario, if there are 50 concurrent user accesses to an applic
 <div class="info" markdown="1">
 Note that:
 
-* The number of connections in the log database does not scale with the number of concurrent user accesses. it will increase based only on how many types of logs need to be written concurrently.
+* The number of connections in the log database doesn't scale with the number of concurrent user accesses. It will increase based only on how many types of logs need to be written concurrently.
 
 * The numbers are an approximation only because one user session might require more than one database connection: the platform will perform optimizations that might mean that in an action flow more than one connection is used.
 </div>
