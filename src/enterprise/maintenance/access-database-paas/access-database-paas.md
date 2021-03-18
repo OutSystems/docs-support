@@ -1,6 +1,6 @@
 ---
 summary: How to request access to the databases of your OutSystems Cloud and what permissions are granted.
-tags: support-Cloud_Platform; support-Cloud_Platform-featured
+tags: support-Cloud_Platform; support-Cloud_Platform-featured; article-page
 ---
 
 # Access the database of your OutSystems Cloud
