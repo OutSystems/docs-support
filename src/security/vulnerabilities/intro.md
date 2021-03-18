@@ -5,11 +5,11 @@ Tags: security-vulnerabilities; article-page
 
 # Vulnerabilities
 
-## OutSystems public vulnerability disclosure policy
+## OutSystems public vulnerability policy
 
 This policy was created to provide our customers guidance and information in the event of a vulnerability reported in an OutSystems product. It's essential to ensure that our customers have a consistent and unambiguous resource to understand how OutSystems responds to events of this nature.
 
-The OutSystems vulnerability disclosure policy covers:
+The OutSystems vulnerability policy covers:
 
 * OutSystems components
 
