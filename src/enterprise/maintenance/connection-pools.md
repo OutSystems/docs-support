@@ -99,15 +99,22 @@ The numbers on the following examples are based on OutSystems 11.
 
 On a high-demand scenario, if there are 50 concurrent user accesses to an application module on each front-end:
 
-50 concurrent users require:
+50 concurrent users require aproximately:
 
 * 50 connections to the session database;
-* 50 connections to the log database 
 * 50 connections to the main database.
 
- One connection was already established on each front-end for each database, so we'll need additional 49 connections per front-end per database. This adds up to a total of 1494 connections: 
+<div class="info" markdown="1">
+Note that:
+
+* The number of connections in the log database doesn't scale with the number of concurrent user accesses. It will increase based only on how many types of logs need to be written concurrently.
+
+* The numbers are an approximation only because one user session might require more than one database connection: the platform will perform optimizations that might mean that in an action flow more than one connection is used.
+</div>
+
+ One connection was already established on each front-end for each database, so we'll need additional 49 connections per front-end for the session and main databases. This adds up to a total of 1396 connections: 
  
- ``1200 idle connections + (49 connections per frontend x 2 frontends x 3 database connections per frontend)``
+ ``1200 idle connections + (49 connections per frontend x 2 frontends x 2 database connections per frontend)``
 
 
 If that application module becomes even more popular and now receives 150 concurrent requests on each front-end:
@@ -119,8 +126,8 @@ If that application module becomes even more popular and now receives 150 concur
 Throughout this peak, the database will have:
 
 * The minimum 1200 connections open;
-* 99 connections per database per front-end server. On a minimum there's the session, log and main databases, a sub total of 594 connections.
-This adds up to a total of 1794 connections.
+* 99 connections per front-end server for the session and main databases, a sub total of 396 connections.
+This adds up to a total of 1596 connections.
 
 ### JAVA Stack
 
