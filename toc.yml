@@ -25,7 +25,7 @@
             - href: enterprise/licensing/overview/app-object-count.md
 
         #Manage and Upgrade 
-        - placeholder: 02 Manage and Upgrade
+        - placeholder: Manage and Upgrade
         - topics:
             - href: enterprise/licensing/manage/find-activation-code/find-activation-code.md
             - href: enterprise/licensing/manage/add-new-environment.md
