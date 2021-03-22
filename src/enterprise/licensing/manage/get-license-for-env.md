@@ -5,7 +5,7 @@ en_title: 03 Get a license file for an environment
 
 # Get a license file for an environment
 
-This article contains the steps to obtain OutSystems licensing files: necessary while installing and upgrading your OutSystems environments.
+This article contains the steps to obtain OutSystems licensing files: necessary while installing and upgrading your OutSystems self-managed environments.
 
 ## Cloud environments
 
@@ -54,17 +54,9 @@ The environment will become associated with the Serial Number you entered and yo
 
 ![](images/get-license-for-env_4.png)
 
-The following users are able to download license files directly:
+The permissions to download license files are managed at the [Customer Portal](https://success.outsystems.com/Support/Enterprise_Customers/OutSystems_Support/Managing_your_company_permissions_on_outsystems.com#Customer_Portal_permissions).
 
-* the **financial contact** (managed by OutSystems);
-
-* the **technical contact** (managed in the [Licensing Portal](https://www.outsystems.com/Licensing/));
-
-* users with **'Company Access' set to Admin** (managed in the [Customer Area](https://www.outsystems.com/CustomerArea/));
-
-* users registered as **infrastructure Administrators** (managed in the [Customer Area](https://www.outsystems.com/CustomerArea/)).
-
-All other users who try to download a license file will be taken through an additional validation step:
+Users without permissions to download a license file will be taken through an additional validation step:
 
 ![](images/get-license-for-env_5.png)
 
