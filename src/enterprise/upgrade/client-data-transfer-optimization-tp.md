@@ -13,14 +13,28 @@ To have your apps use server-to-client data transfer optimization, as part of a 
 
 * Platform Server 11.10.0 or later.
 * LifeTime 11.6.0 or later.
-* You activated the [technical preview](https://success.outsystems.com/Support/Enterprise_Customers/Upgrading/Technical_Preview_features) **Client-side optimizations for Reactive Web Apps** or **Client-side optimizations for Mobile Apps** in LifeTime. After you activate or deactivate  the feature, **publish your app** to apply the optimization changes.
+* Activation of the [technical preview](https://success.outsystems.com/Support/Enterprise_Customers/Upgrading/Technical_Preview_features) **Client-side optimizations for Reactive Web Apps** or **Client-side optimizations for Mobile Apps** in LifeTime. After you activate or deactivate  the feature, **publish your app** to apply the optimization changes.
 
-With the optimization the apps receive only the information that users of the app really need. You can activate this optimization as a technical preview, to try out the following benefits:
+After this optimization the apps receive only the information that users of the app really need. Activate this optimization as a technical preview to try out the following benefits:
 
 * Performance improvements, due to the reduced amount of data transfer. The improvement is noticeable in data-demanding apps that use complex database joins.
-* Improved security, as less data coming to the client reduces the possibility of an accidental data leak.
+* Improved security, since limiting the data coming to the client reduces the possibility of an accidental data leak.
 
-The optimization works for Screen Aggregates, Data Actions, and for the Server Actions in the logic flows of the Screen Client Actions. You can turn on the optimization for Mobile Apps or Reactive Web Apps, or for both.
+The optimization works for Screen Aggregates, Data Actions, and for the Server Actions in the logic flows of the Screen Client Actions. You can turn the optimization on for both Mobile Apps and Reactive Web Apps.
+
+## Selective Optimization
+
+Where certain apps, or certain modules, should not be optimized, they can be excluded in the following way.
+
+1. Download and install [Factory Configuration ](https://www.outsystems.com/forge/component-overview/25/factory-configuration) from the OutSystems Forge.
+2. Launch **Factory Configuration** in your browser from Service Center.
+![](images/factory-configuration-main-screen.png)
+3. Select the module that should be excluded from optimization by searching for it or scrolling through the list.
+4. With the module selected set the value of  **ClientSideOptimizerDisabled** to **True**.
+![](images/factory-configuration-remove-optimization.png)
+5. Click Define and then republish the app.
+
+The selected module is not longer optimized.
 
 ## Send feedback
 
