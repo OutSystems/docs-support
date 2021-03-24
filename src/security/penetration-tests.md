@@ -8,6 +8,7 @@ tags:
 ## Overview
 
 As a subscription customer, you may wish to perform penetration tests or vulnerability scans. This is possible as long as they're limited to your own OutSystems cloud, hybrid, or self-managed infrastructure.
+For OutSystems cloud, the tests are limited to the assets under the responsability of the Customer as described under the [OutSystems shared responsability model](https://success.outsystems.com/Support/Enterprise_Customers/Maintenance_and_Operations/OutSystems_Cloud_Shared_Responsibility_Model).
 
 ## Before you start
 
