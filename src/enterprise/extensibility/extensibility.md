@@ -129,6 +129,8 @@ Extensions may be used for any other use case that is not provided out of the bo
 
 You can integrate your OutSystems applications with REST APIs provided by other systems, or even by other OutSystems applications. Use this functionality either to obtain data from those systems or to request them to perform some action.
 
+Check our video about [consuming a REST API in 10 minutes with OutSystems](https://youtu.be/gNyWIeJYfG0).
+
 When importing the REST API, Service Studio does the following:
 
 * Creates the REST API
@@ -189,6 +191,8 @@ OutSystems continually tracks all of the dependencies to the underlying database
 If an external database is natively supported by OutSystems (SQL Server, SQL Azure, Oracle, MySQL, and DB2 iSeries), a developer can [create a connector](https://success.outsystems.com/Documentation/11/Extensibility_and_Integration/Integrate_with_an_External_Database) to integrate with it. Connectors enable teams to manipulate data in the visual editor.
 
 An on-premises database that isn't natively supported can be accessed, using [standard code](https://success.outsystems.com/Documentation/11/Extensibility_and_Integration/Extend_Logic_with_Your_Own_Code), with ODBC/JDBC drivers, or with native APIs. Developers can access big data repositories, such as CouchDB, MongoDB, or Hadoop, using their REST APIs.
+
+Take a look at how you can [build your first app using MongoDB as the back-end](https://www.youtube.com/watch?v=QSO4vIePxqs).
 
 By developing a custom connector, designers can extend the OutSystems platform to add native support for databases. Many such connectors have already been built by OutSystems users and shared, for your use, in OutSystems Forge.
 
