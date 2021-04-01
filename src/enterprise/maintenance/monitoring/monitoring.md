@@ -239,7 +239,7 @@ You can configure [App Feedback](https://success.outsystems.com/Documentation/11
 
 [MonitorProbe](https://www.outsystems.com/forge/component-overview/4559/monitorprobe), an open-code component available for free download from the Forge, can be used to expose all the relevant OutSystems monitoring data through a set of REST APIs of a specific environment.
 
-Like[Performance Monitoring API, MonitorProbe gives you access to data that is otherwise accessible only through a direct query to the OutSystems platform database, such as logs and timers.
+Like Performance Monitoring API, MonitorProbe gives you access to data that is otherwise accessible only through a direct query to the OutSystems platform database, such as logs and timers.
 
 ![Monitor Probe REST API](images/monitor-probe.png)
 
