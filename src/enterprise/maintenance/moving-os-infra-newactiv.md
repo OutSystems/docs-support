@@ -1,3 +1,7 @@
+---
+summary: Instructions to replace the license of one existing infrastructure from one Activation Code to another.
+---
+
 # Moving to a new Activation Code
 
 ## Introduction
