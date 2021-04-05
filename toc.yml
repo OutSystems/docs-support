@@ -137,6 +137,9 @@
         - href: enterprise/maintenance/chrome-samesite-cookie-changes.md
         - href: enterprise/maintenance/dotnet-connection-strings-sql-server.md
         - href: enterprise/maintenance/moving-os-infra-newactiv.md
+        
+        # Monitoring
+        - href: enterprise/maintenance/monitoring/monitoring.md
 
         # Cache Invalidation Service
         - href: enterprise/maintenance/cache-invalidation/intro.md
