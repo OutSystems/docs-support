@@ -25,15 +25,15 @@ In this scenario, we begin with a single infrastructure with the following envir
 
 This scenario still applies if you have more environments than the ones depicted, provided the requirements of the scenario are met:
 
-* All environments for which you wish to change the activation code are controlled by the LifeTime of your infrastructure. 
-* You change the activation code of all environments controlled by the LifeTime of your infrastructure. 
-* You change the activation code of the LifeTime of your infrastructure. 
+* All environments for which you wish to change the Activation Code are controlled by the LifeTime of your infrastructure. 
+* You change the Activation Code of all environments controlled by the LifeTime of your infrastructure. 
+* You change the Activation Code of the LifeTime of your infrastructure. 
 
 **Important** - Do not proceed if:
 
-* there are other environments where you wish to change the activation code, and those are not controlled by the same LifeTime.
-* you do not wish to change the activation code of one or more environments controlled by this LifeTime.
-* you do not wish to change the activation code of the LifeTime environment.
+* there are other environments where you wish to change the Activation Code, and those are not controlled by the same LifeTime.
+* you do not wish to change the Activation Code of one or more environments controlled by this LifeTime.
+* you do not wish to change the Activation Code of the LifeTime environment.
 
 ### Migration procedure
 
@@ -42,9 +42,9 @@ To move from the previous Activation Code (AAA in this text) to the new Activati
 
 1.  Pause all deployments to the Production environment.
 
-1.  For all environments, refresh the license file for the activation codes AAA with the new files. Let’s start with the Production environment:
+1.  For all environments, refresh the license file for the Activation Codes AAA with the new files. Let’s start with the Production environment:
 
-    a. Go to the [Licensing Portal](https://www.outsystems.com/licensing) and enter your old Production environment activation code AAA.
+    a. Go to the [Licensing Portal](https://www.outsystems.com/licensing) and enter your old Production environment Activation Code AAA.
         
     b. Navigate to the serial number of the Production environment and obtain the license file. Keep the file for backup purposes.
         
@@ -72,11 +72,11 @@ Go to **Factory** -> **Modules** and filter by ECT_Provider. Open the details of
 1.  Pause all deployments to the Production environment. 
 Development activities within an environment other than Production may continue.
 
-1.  For all environments that have licenses from activation code BBB, restore all license files with those backed up in step 3 above.
+1.  For all environments that have licenses from Activation Code BBB, restore all license files with those backed up in step 3 above.
 
     a. In Service Center for each particular environment, go to **Administration** -> **Licensing**, and choose **Upload a new License**. Upload each environment’s backed up license file.
 
-    b. Confirm that the activation code displayed is the old activation code AAA.
+    b. Confirm that the Activation Code displayed is the old Activation Code AAA.
 
     ![](images/move-infra-rollback-lt.png)
 
