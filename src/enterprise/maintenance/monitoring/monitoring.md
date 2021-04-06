@@ -95,7 +95,7 @@ The following workgroup app use cases are considered:
 * Providing links to the agenda and other resources
 * Sending reminders
 
-The **RSVP** app requires access to the company calendar, an internal database of resources and equipment, and the location for online documents. As such, operational monitoring is important, including such issues as server memory, application speed, and application errors.
+The **RSVP** app requires access to the company calendar, an internal database of resources and equipment, and the location for online documents. As such, operational monitoring is important, including such issues as application speed and application errors.
 The monitoring needs for the RSVP app can be met by scanning error logs every day in Service Center, as follows.
 
 ##### Service Center { #service-center }
