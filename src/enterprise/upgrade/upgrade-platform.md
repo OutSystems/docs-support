@@ -196,6 +196,8 @@ Having the Platform Server upgraded in the environment, you should upgrade your 
 
 For **mobile apps**, upon a Platform Server version upgrade in your **Production environment**, it's expected that many of the mobile app resources carry differences, which will trigger over-the-air (OTA) upgrades to all the end users. **Generating and distributing a new build** eliminates the need for OTA upgrades and it's an advisable practice that improves the end-user experience.
 
+For **Forge components**, it's a good practice to take the opportunity to upgrade them if there are new versions. Not only you can benefit from any bug fix but also the component might already be adjusted to any new feature or breaking change, saving you the effort to adjust the component. Make sure to validate any changes in the Forge components.
+
 ## Testing { #testing }
 
 Finally, you should create and run tests to ensure that your applications hot-points aren't affected by the upgrade. Test your applications (screens, workflows, operations, etc.), and check for application errors or background issues in [Service Center's Error Log](https://success.outsystems.com/Documentation/11/Managing_the_Applications_Lifecycle/Monitor_and_Troubleshoot/View_the_Environment_Logs_and_Status), to guarantee that all applications are running as expected.
