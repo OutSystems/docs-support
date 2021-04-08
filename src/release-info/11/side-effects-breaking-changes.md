@@ -293,7 +293,7 @@ OutSystems provides default Custom Handlers pages and some of those default page
 
 **Runtime**: Mobile, Web
 
-**Rationale**: These APIs are deprecated since 9.0 and OutSystems provides alternative ways of achieving the same funcionality.
+**Rationale**: These APIs are deprecated since 9.0 and OutSystems provides alternative ways of achieving the same functionality.
 
 **Workaround**: Use the new database access APIs available in the RuntimePublic.Db API.
 
@@ -502,6 +502,7 @@ For example, the sent decimal values `10.000` and `10.1000` are deserialized to 
 **Workaround**: This change has an impact on extensions that are using SharpZipLib to read ZIP files, or in extensions using libraries that have SharpZipLib as a dependency (like NPOI). It's recommended that you test any Zip and Excel-related functionalities of your applications after upgrading. If you find any issues, you must change any OutSystems extensions using third-party libraries that depend on SharpZipLib version 0.86.0. In the extensions, update the version of these third-party libraries to a version that uses SharpZipLib version 1.1.0.
 
 ### Introduced in Platform Server 11.9.0
+1\. <a name="bc119-1"></a>
 
 **Issue**: The platform now gives preference to usage of specific versions of third-party assemblies that are included in extensions. As a consequence, extensions that incorrectly include .NET Framework assemblies can prevent applications from working correctly due to conflicts between the included assemblies and the assemblies of the .NET Framework installed in the machine.
 
@@ -532,6 +533,16 @@ This was never a supported configuration. Check [How to Use .NET Standard librar
 
 **Workaround**: As a temporary workaround for Platform Server 11.9.0, OutSystems added a new setting to the [Factory Configuration](https://www.outsystems.com/forge/component-overview/25/factory-configuration) application: "Force apps to use existing versions of third party libraries". When this setting is disabled, the platform reverts to the previous behavior.  
 You should only use this workaround if it's not viable to fix all the affected extensions in a timely fashion. This setting will be ignored in all platform versions above 11.9, so it's important that you fix the root causes of this issue.
+
+2\. <a name="bc119-2"></a>
+
+**Issue**: The KeyStore and SAML actions were moved from the **Authentication** extension, `Authentication.xif`, to the **SAMLAuthentication** extension, `SAMLAuthentication.xif`. This can cause some broken references when using methods from Authentication.xif that moved to the new module.
+
+**Runtime**: Mobile, Web
+
+**Rationale**: This refactoring was necessary to support architectural changes to the SAML authentication.
+
+**Fix**: Replace dependencies to KeyStore and SAML actions from **Authentication** to the corresponding actions from **SAMLAuthentication**.
 
 ### Introduced in Platform Server 11.11.1
 
