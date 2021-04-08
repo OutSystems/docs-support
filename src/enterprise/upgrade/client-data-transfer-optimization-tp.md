@@ -22,19 +22,25 @@ After this optimization the apps receive only the information that users of the 
 
 The optimization works for Screen Aggregates, Data Actions, and for the Server Actions in the logic flows of the Screen Client Actions. You can turn the optimization on for both Mobile Apps and Reactive Web Apps.
 
-## Selective Optimization
+## Selective optimization
 
 Where certain apps, or certain modules, should not be optimized, they can be excluded in the following way.
 
 1. Download and install [Factory Configuration ](https://www.outsystems.com/forge/component-overview/25/factory-configuration) from the OutSystems Forge.
-2. Launch **Factory Configuration** in your browser from Service Center.
-![](images/factory-configuration-main-screen.png)
-3. Select the module that should be excluded from optimization by searching for it or scrolling through the list.
-4. With the module selected set the value of  **ClientSideOptimizerDisabled** to **True**.
-![](images/factory-configuration-remove-optimization.png)
-5. Click Define and then republish the app.
 
-The selected module is not longer optimized.
+2. Launch **Factory Configuration** in your browser from Service Center.
+
+    ![List of modules in Factory Configuration](images/factory-configuration-main-screen.png?width=700)
+
+3. Select the module that should be excluded from optimization by searching for it or scrolling through the list.
+
+4. With the module selected set the value of  **ClientSideOptimizerDisabled** to **True**.
+
+    ![Adding a new configuration value](images/factory-configuration-remove-optimization.png?width=700)
+
+5. Click **Define** and then republish the app.
+
+The platform skips the server-to-client data transfer optimization in this module.
 
 ## Send feedback
 
