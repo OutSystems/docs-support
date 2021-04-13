@@ -4,7 +4,7 @@ tags: protecting-outsystems-applications; outsystems-security; outsystems-secure
 en_title: 06 Protecting OutSystems apps from redirects forwarders vulnerabilities
 ---
 
-# Protecting Outsystems Apps From Redirects / Forwarders Vulnerabilities
+# Protecting OutSystems Apps From Redirects / Forwarders Vulnerabilities
 
 Attackers can trick users by taking advantage of unvalidated redirects or forwarders. In these cases victims trust your URL but are redirected to a malicious site.
 
