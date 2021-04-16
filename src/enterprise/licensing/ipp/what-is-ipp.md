@@ -24,13 +24,6 @@ By default when you deploy a **new module**, it is not marked with the [Activati
 
 In this example, applications developed in any ACME environment infrastructure can be deployed to any ACME environment. However, you can't deploy those applications to the EMCA infrastructure.
 
-If you are trying to deploy modules from other infrastructures, you might get the error message:
-
-```Invalid Intellectual Property: You are trying to upload or publish a solution that was created in a Platform Server and its intellectual Property is protected```
-
-If that’s the case, check [this article](ipp-error.md).
-
-
 ## IPP protected 
 
 When you deploy a module, it is marked with the [activation code](https://success.outsystems.com/Support/Enterprise_Customers/Licensing/Overview/01_How_OutSystems_Platform_licensing_works) of your infrastructure. From then on, you can only deploy this module to environments with the same activation code. In addition, you can't copy and paste parts of applications that are IPP-protected.
