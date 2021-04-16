@@ -1,26 +1,47 @@
 ---
-summary: The Intellectual Property Protection (IPP) feature ensures that your applications can't be deployed to another infrastructure without your consent.
+summary: The Intellectual Property Protection (IPP) feature ensures your applications can't be deployed to another infrastructure without your consent.
 ---
 
 # What is IPP (Intellectual Property Protection)
 
-The Intellectual Property Protection (IPP) feature **ensures that your applications can't be deployed to another infrastructure without your consent**. You can deploy applications across all the environments of the same infrastructure, but you'll not be able to deploy applications to environments belonging to other infrastructures.​
 
-## IPP under the hood
+<div class="info" markdown="1">
 
-When you deploy a module, it is marked with the [activation code](https://success.outsystems.com/Support/Enterprise_Customers/Licensing/Overview/01_How_OutSystems_Platform_licensing_works) of your infrastructure. From that moment on, that module can only be deployed to environments with the same activation code. You also won't be able to copy-paste parts of applications that are IPP-protected.
+**Important update**: License files made available from April 2021 onwards are issued with IPP **unprotected** to ensure you can share your apps with other infrastructures.
 
-![](images/what-is-ipp_0.png)
+</div>
 
-In this example, applications developed in any environment of the ACME infrastructure can be deployed to any environment of ACME. However, it won't be possible to deploy those applications to the EMCA infrastructure.
+The Intellectual Property Protection (IPP) feature **ensures that your apps can't be deployed to another infrastructure without your consent**. You should always be able to deploy apps between environments of the same infrastructure.
+By default, the IPP  is **unprotected**, which means your application can be deployed to other infrastructures. To request your IPP to be **protected**,  [contact support](https://success.outsystems.com/Support/Enterprise_Customers/OutSystems_Support/01_Contact_OutSystems_technical_support).
 
-## Deploy applications to other infrastructures
+When the IPP feature is **protected**, you can deploy applications across all the environments of the same infrastructure, but you can't deploy applications to environments belonging to other infrastructures.​
 
-To be able to deploy applications to outside the infrastructure they belong, use the [IPP portal](http://www.outsystems.com/ipp/). This service allows you to change the activation code of your applications. After going through the process, you'll be able to publish the applications in a different Infrastructure.
+## IPP unprotected 
 
-All IPP portal operations are logged. If you want to check the IPP operations performed in your applications, [contact support](https://success.outsystems.com/Support/Enterprise_Customers/OutSystems_Support/01_Contact_OutSystems_technical_support)
+By default when you deploy a **new module**, it is not marked with the [Activation Code](https://success.outsystems.com/Support/Enterprise_Customers/Licensing/Overview/How_OutSystems_licensing_works) of your infrastructure. From this point onwards you can share your modules with other infrastructures.
 
-## Block changes to your applications
+![IPP unprotected](images/what-is-ipp_unprotected.png)
 
-For additional protection of your intellectual property, you can block the use of the IPP Portal for all applications developed in your infrastructure. [Contact support](https://success.outsystems.com/Support/Enterprise_Customers/OutSystems_Support/01_Contact_OutSystems_technical_support) to learn more about this option.
+In this example, applications developed in any ACME environment infrastructure can be deployed to any ACME environment. However, you can't deploy those applications to the EMCA infrastructure.
 
+If you are trying to deploy modules from other infrastructures, you might get the error message:
+
+```Invalid Intellectual Property: You are trying to upload or publish a solution that was created in a Platform Server and its intellectual Property is protected```
+
+If that’s the case, check [this article](ipp-error.md).
+
+
+## IPP protected 
+
+When you deploy a module, it is marked with the [activation code](https://success.outsystems.com/Support/Enterprise_Customers/Licensing/Overview/01_How_OutSystems_Platform_licensing_works) of your infrastructure. From then on, you can only deploy this module to environments with the same activation code. In addition, you can't copy and paste parts of applications that are IPP-protected.
+
+![IPP protected](images/what-is-ipp_protected.png)
+
+In this example, applications developed in any ACME environment infrastructure can be deployed to any ACME environment. However, you can't deploy those applications to the EMCA infrastructure.
+
+
+### Deploy applications to other infrastructures 
+To deploy applications to an infrastructure to which they do not belong, use the [IPP portal](http://www.outsystems.com/ipp/). Using the IPP portal service you can change the activation code of your applications. When you complete the process, you can publish applications in different Infrastructures.  
+OutSystems logs all IPP portal operations. 
+
+To check the IPP operations performed in your applications, [contact support](https://success.outsystems.com/Support/Enterprise_Customers/OutSystems_Support/01_Contact_OutSystems_technical_support).
