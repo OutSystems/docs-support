@@ -12,7 +12,7 @@ template('OutSystems/OSVersionIndicator');
 
 Caching lets applications temporarily store a  subset of data making requests for the same data occur faster because reading data from cache is faster than reading the same data again from the database. Cache invalidation is the process where entries in the cache are replaced or removed.
 
-OutSystems stores cached data in the application server's memory. OutSystems also stores a reference to the module that produced the data and the tenant where the module exists. To refresh cached data, cache invalidation operations are done for either a module or for a tenant. When Cache Invalidation runs, it checks each front-end server for old or stale data. If an old cached value is found, Cache Invalidation  marks it as "dirty", and fetches new values from their original location.
+OutSystems stores cached data in the application server's memory. OutSystems also stores a reference to the module that produced the data and the tenant where the module exists. To refresh cached data, cache invalidation operations are done for either a module or for a tenant. When cache invalidation runs, it checks each front-end server for old or stale data. If an old cached value is found, cache invalidation marks it as "dirty", and fetches new values from their original location.
 
 Whenever a request is made, the application server gets the data required for processing from memory and, if that data doesn't exist or if it's marked as dirty, new data is fetched from the original source.
 
