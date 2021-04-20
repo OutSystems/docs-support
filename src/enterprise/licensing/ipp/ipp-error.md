@@ -5,7 +5,7 @@ summary:  Procedure to fix intellectual property errors when publishing or deplo
 # Resolve an intellectual property error
 
 During development you may receive an "Invalid Intellectual Property" (IPP) error message. 
-These error messages can occur if you are publishing a module for the first time in your environment or this module was protected at some point. Errors occur during development when publishing your module in Service Studio, in Service Center or deploying through LifeTime.
+These error messages can occur if you are publishing a module for the first time in your environment or this module was protected at some point. Errors occur during development when publishing your module in Service Studio, in Service Center, or deploying through LifeTime.
 
 ![IPP error publishing](images/ipp-error-publish_SS.png)
 
@@ -18,13 +18,15 @@ Following are two sample error messages:
 
 This error means that the module you’re trying to publish originated in an infrastructure with a different Activation Code. Because it’s intellectual property was never transferred, this error occurs.
 
-[Check here](what-is-ipp.md) further information about OutSystems intellectual property.
+[Check here](what-is-ipp.md) for more information about OutSystems intellectual property.
 
 
 ## Resolve the error for a single application
 
 
-The [IPP portal](http://www.outsystems.com/ipp/) allows you to transfer the intellectual property of modules. Once they’re transferred to your Activation Code, the IPP error will no longer occur.
+The [IPP portal](http://www.outsystems.com/ipp/) allows you to transfer the intellectual property of modules. Once the intellectual property is transferred to your Activation Code, the IPP error no longer occurs.
+
+To transfer the intellectual property, follow these steps:
 
 1. Upload the application in the [IPP portal](http://www.outsystems.com/ipp/) to change the activation code.
 
@@ -32,7 +34,7 @@ The [IPP portal](http://www.outsystems.com/ipp/) allows you to transfer the inte
 
 <div class="info" markdown="1">
 
-It may happen that apps previously published in your infrastructure return an IPP error when re-published. In this case, it’s advisable to check all the apps in  your infrastructure. The next section assists in that process.
+It may happen that apps previously published in your infrastructure return an IPP error when re-published. In this case, it’s advisable to check all the apps in  your infrastructure. The next section provides information to help you check your apps. 
 
 </div>
 
@@ -40,12 +42,12 @@ It may happen that apps previously published in your infrastructure return an IP
 
 Since it's difficult to find all occurrences of this pattern, we created an OutSystems app. You can deploy this app to your environment to locate modules with similar issues.
 
-With this app, you’ll be able to check all the modules of an environment and act only if modules are flagged.
+With this app, you can check all the modules of an environment and act only on flagged modules.
 
 The overall process consists of:
 
-1. Checking your environment  for modules that will have the IPP error.
-1. Fix modules that will get the IPP error.
+1. Checking your environment for modules that will have the IPP error.
+1. Fixing modules that will have an IPP error.
 
 ### Checking an environment for further errors
 
@@ -69,9 +71,9 @@ To confirm you have any modules that will have the IPP error when published, fol
 
 ### Fix modules that will get the IPP error
 
-If any modules or extensions were flagged with a red cross, you’ll need to fix the IPP issue on all of them.
+If any modules or extensions were flagged with a red cross, you’ll need to fix the IPP flagged issues.
 
-Follow these steps:
+To fix the errors, follow these steps:
 
 1. Click **See List** to display the list of modules that need to be updated to stop the IPP errors from occurring in your current factory.
 
@@ -81,7 +83,7 @@ Follow these steps:
 
     Note the **Name** of the modules listed. For your convenience, you can also export the results to Excel. In the Excel output, the modules are marked as "Not OK" in the "Label" column.
 
-1. Go to Service Center and create and download a solution that includes the modules from the list.
+1. Go to Service Center, create and download a solution that includes the modules from the list.
 
 1. Upload the solution in the [IPP portal](http://www.outsystems.com/ipp/) to change the activation code to your infrastructure.
 
