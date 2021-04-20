@@ -36,7 +36,7 @@ When you deploy a module, it is marked with the [activation code](https://succes
 
 ![IPP protected](images/what-is-ipp_protected.png)
 
-In this example, applications developed in any ACME environment infrastructure can be deployed to any ACME environment. However, you can't deploy those applications to the EMCA infrastructure.
+In this example, applications developed in an ACME environment infrastructure can be deployed to any ACME environment. However, you can't deploy those applications to the EMCA infrastructure.
 
 ### Deploy applications to other infrastructures 
 To deploy applications to an infrastructure to which they do not belong, use the [IPP portal](http://www.outsystems.com/ipp/). Using the IPP portal service you can change the activation code of your applications. When you complete the process, you can publish applications in different Infrastructures.  
