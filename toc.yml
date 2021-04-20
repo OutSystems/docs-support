@@ -39,6 +39,7 @@
         - placeholder: Intellectual Property Protection (IPP)
         - topics:
             - href: enterprise/licensing/ipp/what-is-ipp.md
+            - href: enterprise/licensing/ipp/ipp-error.md
             - href: enterprise/licensing/ipp/used-ipp-portal.md
             - href: enterprise/licensing/ipp/ip-rights-not-granted.md
 

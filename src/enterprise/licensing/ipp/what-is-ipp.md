@@ -16,6 +16,12 @@ By default, the IPP  is **unprotected**, which means your application can be dep
 
 When the IPP feature is **protected**, you can deploy applications across all the environments of the same infrastructure, but you can't deploy applications to environments belonging to other infrastructures.​
 
+If you are trying to deploy modules from other infrastructures, you might get the error message:
+
+```Invalid Intellectual Property: You are trying to upload or publish a solution that was created in a Platform Server and its intellectual Property is protected```
+
+If that’s the case, check [this article](ipp-error.md).
+
 ## IPP unprotected 
 
 By default when you deploy a **new module**, it is not marked with the [Activation Code](https://success.outsystems.com/Support/Enterprise_Customers/Licensing/Overview/How_OutSystems_licensing_works) of your infrastructure. From this point onwards you can share your modules with other infrastructures.
