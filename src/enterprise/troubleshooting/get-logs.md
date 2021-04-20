@@ -234,7 +234,7 @@ To obtain the Windows event logs for a specific environment, do the following:
 
     ![](images/get-logs-13.png?width=700)
 
-If you are getting these logs by request of OutSystems Support, fetch the file you saved from the local download folder and **attach it to your support case**.
+If you are getting these logs by request of OutSystems Support, unless specified, please save the **Application** and **System** logs, fetch the files you saved from the local download folder and **attach them to your support case**.
 
 ### IIS Manager Logs
 
