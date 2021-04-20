@@ -28,7 +28,7 @@ By default when you deploy a **new module**, it is not marked with the [Activati
 
 ![IPP unprotected](images/what-is-ipp_unprotected.png)
 
-In this example, applications developed in an ACME environment infrastructure can be deployed to any ACME environment. However, you can't deploy those applications to the EMCA infrastructure.
+In this example, applications developed in an ACME environment can be deployed to any ACME environment. However, you can't deploy those applications to the EMCA infrastructure.
 
 ## IPP protected 
 
