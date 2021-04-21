@@ -23,7 +23,11 @@ Protection against CSRF is shared between the client devices and the application
 * For traditional web applications find the token definition in [this article](https://success.outsystems.com/Support/Enterprise_Customers/Maintenance_and_Operations/Cookie_Usage_in_Web_Applications).
 * Reactive web applications the **nr2<user\>** token protects against CSRF attacks. Find detailed information about the token [this article](https://success.outsystems.com/Documentation/11/Managing_the_Applications_Lifecycle/Secure_the_Applications/Configure_App_Authentication#Authentication_Cookies).
 
-However, the token by itself, doesn't provide full CSRF protection. 
+Taking a traditional web application as an example, the CSRF token used is the value of the cookie osVisitor, generated the first time the end-user accesses the web server. The implementation of the protection mechanism consists of including the value of the CSRF token in the encrypted ViewState that is sent with each request. On the server side, when a request is received, the platform decrypts the ViewState and checks if the CSRF token sent in the ViewState is the same that the cookie contains to validate the request.
+
+The effectiveness of this mechanism is ensured by the encryption of the ViewState with the value of osVisitor. The ViewState is encrypted by the server, using a local private key that is never shared. Therefore, without having access to the private key, it’s not possible for an attacker to successfully forge a request.
+
+However, the token by itself, doesn't provide full CSRF protection.
 
 A browser performing a request to any website, attaches cookies associated to the request url. To avoid this kind of scenarios, recent versions of the commonly used browsers started enforcing the usage of the SameSite cookie. 
 
