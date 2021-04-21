@@ -55,7 +55,7 @@ To confirm you have any modules that will have the IPP error when published, fol
 
 1. Download the appropriate ActivationCodeCheck app for your infrastructure type:
 	* For [OutSystems 11](files/ActivationCodeCheck-O11.oap)
-	* For [OutSystems 10 .NET](files/ActivationCodeCheck-O10.oap)
+	* For [OutSystems 10 .NET](files/ActivationCodeCheck-O10.oap). In this version you'll get a warning message that states "Missing Module/Dependency BulkInsert". It's safe to dismiss it.
 	* For [OutSystems 10 Java](files/ActivationCodeCheck-O10-Java.oap)
 
 1. Publish the ActivationCodeCheck app in your environment.
