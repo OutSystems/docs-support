@@ -29,11 +29,11 @@ The license found is not valid for this server because it was issued to a server
 
 Since the serial number has changed the license installed is no longer valid and you will need to get a new one on the [Licensing portal](https://www.outsystems.com/licensing/):
 
-1. [find and release the previous environment in licensing](https://success.outsystems.com/Support/Enterprise_Customers/Licensing/02_Manage_and_Upgrade/05_How_to_free_up_an_existing_environment_in_licensing#Releasing_an_existing_environment); and
+1. [find and release the previous environment in licensing](../manage/free-up-environment.md); and
 
 2. [register the environment](../manage/get-license-for-env.md#register-env-serial-number) using the new serial number
 
-3. be sure to check [How to install an OutSystems Platform License](https://success.outsystems.com/Support/Enterprise_Customers/Licensing/02_Manage_and_Upgrade/04_How_to_install_a_license_file)
+3. be sure to check [How to install an OutSystems Platform License](../manage/howto-install-license.md)
 
 ### What can you do to prevent this from happening?
 
