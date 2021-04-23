@@ -47,3 +47,4 @@ With OutSystems, the development of APIs is entirely in the responsibility of th
 ## More information 
 
 To learn how to protect your OutSystems apps against other common types of attacks, check [how OutSystems helps you develop secure applications](intro.md).
+
