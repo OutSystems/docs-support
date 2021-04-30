@@ -62,9 +62,7 @@ Within the databases that the OutSystems Platform supports, there are several hi
 
 * [SQL Server](https://msdn.microsoft.com/en-us/ms190202.aspx)
 
-* [Oracle](http://docs.oracle.com/cd/B19306_01/server.102/b14210/hafeatures.htm)
-
-* MySQL (under evaluation)
+* [Oracle](https://docs.oracle.com/en/database/oracle/oracle-database/19/high-availability.html)
 
 Check the [Infrastructure Design Examples ](https://success.outsystems.com/Support/Enterprise_Customers/Maintenance_and_Operations/Designing_OutSystems_Infrastructures/06_OutSystems_Platform_infrastructure_design_examples)for some simple scenarios where database high availability is represented.
 
