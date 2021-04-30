@@ -32,7 +32,7 @@ When an OutSystems application using references is deployed, the libraries of ea
 
 ## A practical example
 
-For better understanding these concepts, a practical example can be useful. In this document, we will use a sample application with producers and consumers. The sample application is available on our forge [here](https://success.outsystems.com/Support/Enterprise_Customers/Troubleshooting/Why_are_changes_in_a_producer_not_reflected_in_the_consumers%3F_(aka_Library_Hell)#).
+For better understanding these concepts, a practical example can be useful. In this document, we will use a sample application with producers and consumers. The sample application is available [here](resources/LibraryHellDemo.osp).
 
 The structure of the application is as follows:
 
