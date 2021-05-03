@@ -21,24 +21,13 @@ This error means that the module you’re trying to publish originated in an inf
 [Check here](what-is-ipp.md) for more information about OutSystems intellectual property.
 
 
-## Resolve the error for a single application
-
-
-The [IPP portal](http://www.outsystems.com/ipp/) allows you to transfer the intellectual property of modules. Once the intellectual property is transferred to your Activation Code, the IPP error no longer occurs.
-
-To transfer the intellectual property, follow these steps:
-
-1. Upload the application in the [IPP portal](http://www.outsystems.com/ipp/) to change the activation code.
-
-1. When you receive the email, publish the app received in the email in the environment. 
+## Checking for further IPP errors in an infrastructure
 
 <div class="info" markdown="1">
 
 It may happen that apps previously published in your infrastructure return an IPP error when re-published. In this case, it’s advisable to check all the apps in  your infrastructure. The next section provides information to help you check your apps. 
 
 </div>
-
-## Checking for further IPP errors in an infrastructure
 
 Since it's difficult to find all occurrences of this pattern, we created an OutSystems app. You can deploy this app to your environment to locate modules with similar issues.
 
@@ -49,14 +38,17 @@ The overall process consists of:
 1. Checking your environment for modules that will have the IPP error.
 1. Fixing modules that will have an IPP error.
 
-### Checking an environment for further errors
+### Checking an environment for further errors { #check-environment }
 
 To confirm you have any modules that will have the IPP error when published, follow these steps:
 
 1. Download the appropriate ActivationCodeCheck app for your infrastructure type:
-	* For [OutSystems 11](files/ActivationCodeCheck-O11.oap)
-	* For [OutSystems 10 .NET](files/ActivationCodeCheck-O10.oap). In this version you'll get a warning message that states "Missing Module/Dependency BulkInsert". It's safe to dismiss it.
-	* For [OutSystems 10 Java](files/ActivationCodeCheck-O10-Java.oap)
+
+    | OutSystems version | App to download |
+    |---|---|
+    | **OutSystems 11** | [ActivationCodeCheck 11](files/ActivationCodeCheck-O11.oap) |
+    | **OutSystems 10 .NET** | [ActivationCodeCheck 10 .NET](files/ActivationCodeCheck-O10.oap) <br/> **Note**: In this version you'll get a warning message that states "Missing Module/Dependency BulkInsert". It's safe to dismiss it.|
+    | **OutSystems 10 Java** | [ActivationCodeCheck 10 .Java](files/ActivationCodeCheck-O10-Java.oap) |
 
 1. Publish the ActivationCodeCheck app in your environment.
 1. Open the ActivationCodeCheck app in your browser and login with your IT user credentials.
@@ -90,3 +82,14 @@ To fix the errors, follow these steps:
 1. When you receive the email with the solution, publish the solution in the email in the environment.
 
 1. Repeat this process for all non-production environments in your infrastructure. If your apps are all staged to production via LifeTime, it won’t be necessary to execute this procedure in production.
+
+## Resolve the error for a single application
+
+
+The [IPP portal](http://www.outsystems.com/ipp/) allows you to transfer the intellectual property of modules. Once the intellectual property is transferred to your Activation Code, the IPP error no longer occurs.
+
+To transfer the intellectual property, follow these steps:
+
+1. Upload the application in the [IPP portal](http://www.outsystems.com/ipp/) to change the activation code.
+
+1. When you receive the email, publish the app received in the email in the environment. 
