@@ -161,6 +161,8 @@ In the OutSystems Cloud, the process of upgrading the Platform Server is handled
 
 If the environment is self-managed (running in your own private cloud or on-premises) the upgrade process is fully managed by you, without the direct involvement of OutSystems. However, at any time you can [ask OutSystems Support](https://success.outsystems.com/Support/Enterprise_Customers/OutSystems_Support/01_Contact_OutSystems_technical_support) for assistance if you have any questions or get any errors in the process.​
 
+While upgrading the Platform Server component, consider [enabling maintenance mode in the environment](https://success.outsystems.com/Documentation/11/Managing_the_Applications_Lifecycle/Manage_Your_OutSystems_Infrastructure/Environment_in_maintenance_mode) to avoid unnecessary communication attempts from the LifeTime console.
+
 The process is the following:
 
 1. Download the latest version of the [Platform Server installer](https://www.outsystems.com/home/downloads/).
