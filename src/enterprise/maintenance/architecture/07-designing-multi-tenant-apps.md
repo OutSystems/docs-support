@@ -86,7 +86,7 @@ Separate specific tenants into their own production infrastructure. To achieve t
 
 #### Scenario 2: Manually Partitioning OutSystems Entities
 
-OutSystems does not have any mechanism for partitioning data from within the development tools, but changes to the meta-model can be applied manually. Refer to this article for further information on partitioning.
+OutSystems does not have any mechanism for partitioning data from within the development tools, but changes to the meta-model can be applied manually. 
 
 ### Security Concerns
 
