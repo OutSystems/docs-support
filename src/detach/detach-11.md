@@ -27,6 +27,8 @@ If at any step you run into a problem, you may need to repeat the previous steps
 
 The steps described in this document are not for evaluation purposes and are to be used only if you decide to stop using OutSystems.
 
+Nevertheless, you can follow the steps below if you want to test the OutSystems capabilities of detaching your application's source code by performing the Detach process using a **brand new Application Server** and a **new database**. Doing this will prevent unexpected behaviors with your existing OutSystems applications, since the detach process will require changes to the applicational server (IIS) and your database.
+
 ### What do you need?
 
 You need to fulfill the [system requirements](https://success.outsystems.com/Documentation/11/Setting_Up_OutSystems/OutSystems_system_requirements) and additionally must have Microsoft Build Tools 2019 installed.
