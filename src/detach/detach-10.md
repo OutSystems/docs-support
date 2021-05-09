@@ -29,6 +29,8 @@ Do you want to evaluate the detach source code process? For the purpose of evalu
 The steps described in this document are not for evaluation purposes and are to be used only if you decide to stop using OutSystems.  
 Please refer to the OutSystems Platform – Standard Architecture with No Lock-in technical note for more information.
 
+Nevertheless, you can follow the steps below if you want to test the OutSystems capabilities of detaching your application's source code by performing the Detach process using a **brand new Application Server** and a **new database**. Doing this will prevent unexpected behaviors with your existing OutSystems applications, since the detach process will require changes to the applicational server (IIS) and your database.
+
 ### What will you lose?
 
 If you choose to stop using OutSystems, you will no longer have access to all the application development, management, and operation capabilities of the platform. Also, you’ll no longer benefit from the embedded change technology (ECT), performance monitoring and logging capabilities, which means you’ll have to implement such functionality by resorting to other tools. You will however retain all core functionality of the applications you developed using Service Studio and Integration Studio, although any changes made to the detached source are not supported by OutSystems anymore.
