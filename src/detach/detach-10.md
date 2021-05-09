@@ -49,7 +49,7 @@ In order to minimize the risks of getting errors during and after the detach pro
 
 Since you will lose most of the OutSystems capabilities, you must guarantee that your personnel:
 
-* Fully understands the complete life cycle of .NET applications; This includes understanding how to create, modify and deploy those application, as well as creating and managing the references between them while having a good understanding of IIS. 
+* Fully understands the complete life cycle of .NET applications; This includes understanding how to create, modify and deploy those applications, as well as creating and managing the references between them while having a good understanding of IIS. 
 * Has access to the Database Server and have the ability to modify the existing data; During the detach process, it is necessary to change some of the OutSystems metadata. This is typically done by a DataBase Administrator (DBA); 
 * Knows how to develop, build and deploy Android and/or iOS apps (applies to mobile apps only). 
 
