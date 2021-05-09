@@ -490,15 +490,15 @@ If an application depends on another applications, you might need to deploy all 
 
 ## Final Steps
 
-When all applications have been successfully published, it is recommended that you test everything first before uninstalling OutSystems Plaform Server. If you moved from Application Server, skip section 5.1 and test your applications, since no uninstallation needs to be performed.
+When all applications have been successfully published, it is recommended that you test everything first before uninstalling OutSystems Platform Server. If you moved from Application Server, skip section 5.1 and test your applications, since no uninstallation needs to be performed.
 
 ### Before uninstalling
 
-If no error was found there’s a great chance you followed everything correctly, nevertheless some errors may appear when you uninstall the application. To safely test this without having to reinstall everything follow this steps:
+If no error was found there’s a great chance you followed everything correctly, nevertheless some errors may appear when you uninstall the OutSystems Platform Server. To safely test this without having to reinstall everything follow this steps:
 
 * Stop all OutSystems services; 
 
-* Store a copy of _C:\Program Files\OutSystems\Plaform Server_ on another location. After that, you can either change the name of _C:\Program Files\OutSystems\Plaform Server_, for example to _C:\Program Files\OutSystems1\Plaform Server_ or simply delete this folder. 
+* Store a copy of _C:\Program Files\OutSystems\Platform Server_ on another location. After that, you can either change the name of _C:\Program Files\OutSystems\Platform Server_, for example to _C:\Program Files\OutSystems1\Platform Server_ or simply delete this folder. 
 
 * If you are keeping the Scheduler Service after the detach you must keep the plugins folder in its original location (for example `C:\Program Files\OutSystems\Platform Server\plugins`) even after the Platform Server is unistalled and the detach process is complete.
 If the plugins folder and its content is not available, it will not be possible to run the service.
