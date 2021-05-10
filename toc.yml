@@ -8,6 +8,9 @@
     # Integrations
     - href: enterprise/integrations/integrate-ecosystem.md
 
+    # Technical Debt
+    - href: enterprise/techdebt/tech-debt.md
+
     # Infrastructure architecture
     - href: enterprise/infra-architecture/intro.md
     - topics:
