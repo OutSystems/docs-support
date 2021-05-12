@@ -166,6 +166,8 @@ OutSystems provides the flexibility to start with a simple infrastructure. Editi
 
 More about OutSystems editions [here](https://www.outsystems.com/pricing-and-editions/).
 
+Addons are available in addition to the default configurations. For information on the services and addons, visit [this page](https://success.outsystems.com/Support/Enterprise_Customers/OutSystems_Support/Cloud_services_catalog). 
+
 #### Basic edition infrastructure
 
 OutSystems Cloud on its Basic edition is used to deploy **departmental apps** that are used only by your employees, such as an HR onboarding app or even an ERP system.
