@@ -253,18 +253,15 @@ Or:
 
 To solve this issue you can try to update the plugin to the latest version. If this doesn't solve it, look for edit-config tags in the plugin.xml file. If you find a suspicious tag, change it or delete it. The uses-sdk tag, in particular, isn't required for MABS 5 or MABS 6.
 
-### Cannot Install App on Android less than 7.1
+### App can't be installed on Android 7.1 of lower
 
-When generating an application with an **applicationId** that starts with a capital letter (ex: `MyCompany.App`), although being a valid application Id will generate an app that cannot be installed in devices running android less than 7.1
+Androids apps with an **applicationId** that begin with a capital letter (ex: `MyCompany.App`) can't be installed on Android 7.1 or lower
+This is an Android issue found on prior versions of the operative system. 
 
-This is an android issue found on prior versions of the operative system. The alternatives are:
+The alternatives to deal with this issue are:
 
-* Do nothing, and drop support for those android versions
-
-    OR
-    
-* Change the **applicationId**. The **applicationId** uniquely identifies a single application. Changing the it should be carefully consider. More information in the [official Android documentation](https://developer.android.com/studio/build/application-id)
-
+* Do nothing, and drop support for those Android versions, or   
+* Change the **applicationId**. Because the **applicationId** uniquely identifies an app, changing it should be carefully considered. More information in the [official Android documentation](https://developer.android.com/studio/build/application-id).
 
 ## Some troubleshooting techniques
 
