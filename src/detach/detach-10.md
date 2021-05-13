@@ -26,8 +26,9 @@ If at any step you run into a problem, you may need to repeat the previous steps
 ## Before You Start
 
 Do you want to evaluate the detach source code process? For the purpose of evaluating the detach source code process, OutSystems provides a Service Studio embedded tutorial to guide you through the process.  
-The steps described in this document are not for evaluation purposes and are to be used only if you decide to stop using OutSystems.  
-Please refer to the OutSystems Platform – Standard Architecture with No Lock-in technical note for more information.
+The steps described in this document are to be used only if you decide to stop using OutSystems.  
+
+Nevertheless, you can follow the steps below if you want to test the OutSystems detach capabilities. In that case, follow the detach process using a **brand new Application Server** and a **new database**. This will prevent unexpected behaviors on your existing OutSystems applications since the detach process will require changes to the applicational server (IIS) and to your database.
 
 ### What will you lose?
 
