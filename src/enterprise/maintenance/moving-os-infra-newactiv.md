@@ -4,7 +4,6 @@ summary: Instructions to replace the license of one existing infrastructure from
 
 # Moving to a new Activation Code
 
-
 During the lifecycle of an OutSystems customer, you may need to replace the license of one existing infrastructure (a set of environments) from one Activation Code to another. This could be for a number of reasons, such as organization splitting for example, where an end-customer is split into multiple companies, each licensing OutSystems separately.
 
 Ensuring the change of licenses is done correctly ensures that downtime is avoided and the continued normal functioning of OutSystems.
