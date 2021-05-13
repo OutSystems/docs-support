@@ -613,15 +613,15 @@ To deploy your detached application to a PCF container, follow these steps:
 
 ## Final steps { #final-steps }
 
-When all applications have been successfully published, it's recommended that you test everything first before uninstalling OutSystems Plaform Server. If you moved from Application Server, skip the [Before uninstalling](#before-uninstall) and test your applications, since no uninstallation needs to be performed.
+When all applications have been successfully published, it's recommended that you test everything first before uninstalling OutSystems Platform Server. If you moved from Application Server, skip the [Before uninstalling](#before-uninstall) and test your applications, since no uninstallation needs to be performed.
 
 ### Before uninstalling { #before-uninstall }
 
-If no error was found there's a great chance you followed everything correctly, nevertheless some errors may appear when you uninstall the application. To safely test this without having to reinstall everything follow this steps:
+If no error was found there's a great chance you followed everything correctly, nevertheless some errors may appear when you uninstall the OutSystems Platform Server. To safely test this without having to reinstall everything follow this steps:
 
 * Stop all OutSystems services.
 
-* Store a copy of `C:\Program Files\OutSystems\Plaform Server` on another location. After that, you can either change the name of `C:\Program Files\OutSystems\Plaform Server`, for example to `C:\Program Files\OutSystems1\Plaform Server`, or delete this folder.
+* Store a copy of `C:\Program Files\OutSystems\Platform Server` on another location. After that, you can either change the name of `C:\Program Files\OutSystems\Platform Server`, for example to `C:\Program Files\OutSystems1\Platform Server`, or delete this folder.
 
 This way you can simulate an uninstall and you should be able to access all your applications.
 
