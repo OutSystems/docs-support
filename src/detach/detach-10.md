@@ -498,7 +498,7 @@ If no error was found there’s a great chance you followed everything correctly
 
 * Stop all OutSystems services; 
 
-* Store a copy of _C:\Program Files\OutSystems\Platform Server_ on another location. After that, you can either change the name of _C:\Program Files\OutSystems\Platform Server_, for example to _C:\Program Files\OutSystems1\Platform Server_ or simply delete this folder. 
+* Store a copy of `C:\Program Files\OutSystems\Platform Server` on another location. After that, you can either change the name of `C:\Program Files\OutSystems\Platform Server`, for example to `C:\Program Files\OutSystems1\Platform Server` or simply delete this folder. 
 
 * If you are keeping the Scheduler Service after the detach you must keep the plugins folder in its original location (for example `C:\Program Files\OutSystems\Platform Server\plugins`) even after the Platform Server is unistalled and the detach process is complete.
 If the plugins folder and its content is not available, it will not be possible to run the service.
