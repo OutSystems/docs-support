@@ -20,7 +20,7 @@ With the CSRF method, attackers are able to make requests to your application fr
 
 Protection against CSRF is shared between the client devices and the application implementation. Until recently, the most robust and generic form of protection was performed only at server side. It consists in including an anti-CSRF token within every or relevant requests:
 
-* For traditional web applications find the token definition in [this article](https://success.outsystems.com/Support/Enterprise_Customers/Maintenance_and_Operations/Cookie_Usage_in_Web_Applications).
+* For traditional web applications the **osVisitor** cookie stores a token that protects against CSRF attacks. Find the token definition in [this article](https://success.outsystems.com/Support/Enterprise_Customers/Maintenance_and_Operations/Cookie_Usage_in_Web_Applications).
 * Reactive web applications the **nr2<user\>** token protects against CSRF attacks. Find detailed information about the token [this article](https://success.outsystems.com/Documentation/11/Managing_the_Applications_Lifecycle/Secure_the_Applications/Configure_App_Authentication#Authentication_Cookies).
 
 However, the token by itself, doesn't provide full CSRF protection. 
