@@ -25,9 +25,9 @@ If at any step you run into a problem, you may need to repeat the previous steps
 
 ## Before you start { #before-you-start }
 
-The steps described in this document are not for evaluation purposes and are to be used only if you decide to stop using OutSystems.
+The steps described in this document are to be used only if you decide to stop using OutSystems.
 
-Nevertheless, you can follow the steps below if you want to test the OutSystems capabilities of detaching your application's source code by performing the Detach process using a **brand new Application Server** and a **new database**. Doing this will prevent unexpected behaviors with your existing OutSystems applications, since the detach process will require changes to the applicational server (IIS) and your database.
+Nevertheless, you can follow the steps below if you want to test the OutSystems detach capabilities. In that case, follow the detach process using a **brand new Application Server** and a **new database**. This will prevent unexpected behaviors on your existing OutSystems applications since the detach process will require changes to the applicational server (IIS) and to your database.
 
 ### What do you need?
 
