@@ -5,6 +5,9 @@
     # Extensibility
     - href: enterprise/extensibility/extensibility.md
 
+    # Tech debt
+    - href: enterprise/tech-debt/tech-debt.md
+
     # Integrations
     - href: enterprise/integrations/integrate-ecosystem.md
 
