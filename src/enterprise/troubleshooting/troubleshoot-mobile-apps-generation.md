@@ -1,5 +1,5 @@
 ---
-summary: This article contains information that is intended to help in the troubleshooting of issues when generating mobile apps to native platforms.
+summary: Troubleshooting issues when generating mobile apps to native platforms.
 tags: support-Mobile_Apps-featured
 ---
 
