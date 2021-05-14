@@ -2,7 +2,7 @@
 summary: OutSystems reduces technical debt during the development process by eliminating complilation errors and by helping identify issues in aArchitecture, performance, maintainability and security, so you can quickly understand what is going on in that particular areatrack down and correct any problems. 
 ---
 
-# Technical debt in OutSystems
+# Handling technical debt with OutSystems
 
 Since Ward Cunningham coined the phrase "technical debt" in 1992, it has sometimes been taken as an excuse for releasing quick-and-dirty code in the interests of development speed. Instead, it is better understood as an explanation for why it is sometimes OK to get a workable solution out the door—with a commitment to find an optimal one as soon as possible, and, in this way, repay a technical debt.
 
