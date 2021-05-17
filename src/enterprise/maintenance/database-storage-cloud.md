@@ -4,6 +4,12 @@ summary:
 
 # Database storage on OutSystems public cloud
 
+<div class="info" markdown="1">
+
+OutSystems Cloud now autogrows database storage as needed at no additional charge. Parts of this document are outdated. We're working to have this article updated.
+
+</div>
+
 OutSystems public cloud offers run on either SQL Server or Oracle RDS databases. When a customer purchases the platform, it does so with an initial database storage size. Storage can be increased if needed, up to a limit; after the storage has been increased, it can no longer be decreased.
 
 Please refer to the topics below for more context:
