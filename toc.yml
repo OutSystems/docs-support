@@ -5,9 +5,6 @@
     # Extensibility
     - href: enterprise/extensibility/extensibility.md
 
-    # Tech debt
-    - href: enterprise/tech-debt/tech-debt.md
-
     # Integrations
     - href: enterprise/integrations/integrate-ecosystem.md
 
@@ -108,6 +105,7 @@
         - href: enterprise/maintenance/ip-range-cloud.md     
         - href: enterprise/maintenance/viewport-fit-issue.md
         - href: enterprise/maintenance/disk-space-usage-control.md
+        - href: enterprise/maintenance/transition-cloud-on-prem.md
         - href: enterprise/maintenance/protect-android-ios-certificate.md
         - href: enterprise/maintenance/build-multi-tenant-app.md
         - href: enterprise/maintenance/find-ssid-activation-code.md
@@ -416,3 +414,12 @@
         - href: security/develop-secure-apps/encryption-ssl-tls.md
         - href: security/develop-secure-apps/csrf-attacks.md
         - href: security/develop-secure-apps/redirects-forwarders-vulnerabilities.md
+
+# Error reference documentation
+- href: error/intro.md
+#- topics:
+    #Integration Builder
+    #- href: error/inbl/intro.md
+    #- topics:
+        #- href: error/inbl/aaaa-bbbb-09999.md
+
