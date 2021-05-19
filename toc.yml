@@ -347,6 +347,14 @@
     - href: personal/upgrade-latest-version.md
     - href: personal/whats-a-personal.md
 
+# Forge
+- placeholder: Forge Components
+- topics:
+    - placeholder: Forge FAQs
+    - topics:
+        - href: forge/trusted-requirements.md
+
+
 # Archive
 - placeholder: Archive
 - topics:
