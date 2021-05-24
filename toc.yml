@@ -218,6 +218,8 @@
     - placeholder: Upgrading
     - topics:
         - href: enterprise/upgrade/upgrade-platform.md
+        - href: enterprise/upgrade/upgrade-platform-module-prep.md
+        - href: enterprise/upgrade/upgrade-platform-errors.md
         - href: enterprise/upgrade/balanced-upgrade-highly-loaded-farms.md
         - href: enterprise/upgrade/how-are-versions-numbered.md
         - href: enterprise/upgrade/increase-computing-power-infrastructure.md
