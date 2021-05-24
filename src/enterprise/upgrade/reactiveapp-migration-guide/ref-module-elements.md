@@ -17,11 +17,9 @@ You can also use the [accelerators for migrating Entities](reference.md#accelera
 
 ## Multilingual Locales { #multilingual }
 
-Starting with the Platform Server release 11.10, OutSystems has an integrated translations mechanism for adding and managing translations easily in Reactive Web and Mobile apps directly in Service Studio.
+Starting with the Platform Server release 11.10, OutSystems has an integrated translations mechanism for adding and managing translations in Reactive Web and Mobile apps directly in Service Studio. Refer to [Multilingual Reactive Web and Mobile Apps](https://success.outsystems.com/Documentation/11/Developing_an_Application/Design_UI/Multilingual_Reactive_Web_and_Mobile_Apps) for more information about this feature.
 
 If you used the [Multilingual Forge component](https://www.outsystems.com/forge/component-overview/1784/multilingual-component) to translate your app to several languages, you need to migrate your translations to Service Studio. Read the [How to reuse translations from Multilingual Forge component in Service Studio](https://success.outsystems.com/Documentation/How-to_Guides/Front-End/How_to_reuse_translations_from_Multilingual_Forge_component_in_Service_Studio) document to learn about this process.
-
-Refer to [Multilingual Reactive Web and Mobile Apps](https://success.outsystems.com/Documentation/11/Developing_an_Application/Design_UI/Technical_Preview_-_Multilingual_Reactive_Web_and_Mobile_Apps) for more information about this feature.
 
 ## On session start
 
