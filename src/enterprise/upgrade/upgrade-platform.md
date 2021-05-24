@@ -32,9 +32,9 @@ This information is also available offline, see the [Upgrade datasheet](resource
 
 Up to version **OutSystems 10**, upgrading OutSystems to a new major version means upgrading all the infrastructure - LifeTime management console and the application environments.
 
-From version **OutSystems 11 onwards**, [LifeTime is distributed independently](https://success.outsystems.com/Support/Enterprise_Customers/Upgrading/OutSystems_Release_Cycle#Release_Cycles) from the Platform Server, which enables both components to have different upgrading paces. For further details on the LifeTime upgrade process, see [this article](upgrade-lifetime.md).
+From version **OutSystems 11 onwards**, [LifeTime is distributed independently](https://success.outsystems.com/Support/Enterprise_Customers/Upgrading/OutSystems_Release_Cycle#Release_cycles) from the Platform Server, which enables both components to have different upgrading paces. For further details on the LifeTime upgrade process, see [this article](upgrade-lifetime.md).
 
-**When upgrading your infrastructure, make sure that LifeTime is the most up-to-date environment.** If you’re running OutSystems 11, LifeTime's [continuous release cycle](https://success.outsystems.com/Support/Enterprise_Customers/Upgrading/Continuous_update_of_LifeTime_management_console) enables you to benefit quicker from the latest features and fixes. If you are running OutSystems 10 or previous, first you must [upgrade your LifeTime Management console](https://success.outsystems.com/Support/Enterprise_Customers/Upgrading/Upgrade_LifeTime_management_console) to the latest version.
+**When upgrading your infrastructure, make sure that LifeTime is the most up-to-date environment.** If you’re running OutSystems 11, LifeTime's [continuous release cycle](https://success.outsystems.com/Support/Enterprise_Customers/Upgrading/OutSystems_Release_Cycle#Release_cycles) enables you to benefit quicker from the latest features and fixes. If you are running OutSystems 10 or previous, first you must [upgrade your LifeTime Management console](https://success.outsystems.com/Support/Enterprise_Customers/Upgrading/Upgrade_LifeTime_management_console) to the latest version.
 
 <div class="info" markdown="1">
 
@@ -42,7 +42,7 @@ Starting on version 11, LifeTime is only supported when installed in a dedicated
 
 </div>
 
-## Analysis and Preparation { #analysis }
+## Analysis and preparation { #analysis }
 
 Before you start the upgrade of your OutSystems infrastructure, you should consider the new features, improvements, security, and bug fixes of that release:
 
@@ -99,17 +99,17 @@ For pre-production, you should create a custom checklist containing all the requ
 
 ![](images/infrastructure-staging-lifecycle.png?width=800)
 
-#### Go Live Strategies { #go-live }
+#### Go live strategies { #go-live }
 
 When upgrading the Platform Server you should consider that the environment is literally under maintenance. Therefore, if you already have live applications, this process may impact them and, as such, you should define a strategy for the upgrade of your Production environment, based on the priority of your applications.
 
-##### Downtime Upgrade { #downtime }
+##### Downtime upgrade { #downtime }
 
 A Downtime approach is the safest way to perform an upgrade and advised when there are no business requirements for zero-downtime. By stopping the Production environment and preventing end-users access, the Upgrade process consistency is guaranteed, and a rollback can happen with no data loss.
 
 ![](images/downtime-upgrade.png?width=800)
 
-##### Zero-Downtime Upgrade { #zero-downtime }
+##### Zero-downtime upgrade { #zero-downtime }
 
 Choosing to do a Zero-Downtime Upgrade means that if you need to rollback, you will most certainly have data loss. To successfully perform a Zero-Downtime Upgrade, your environment requires multiple Front Ends in each OutSystems Zone. **If you don’t have this feature enabled you cannot proceed with this solution**. The Upgrade process is done by:
 
@@ -155,14 +155,16 @@ In the OutSystems Cloud, the process of upgrading the Platform Server is handled
 
 **OutSystems is responsible only for the Platform Server upgrade**. Once the OutSystems software (System Components included) is updated in the environment, the **customer is responsible for**:
 
-* Publishing your applications in the new version ([Upgrade Applications to the new version](#Upgrade_Applications_to_the_new_version))
+* Publishing your applications in the new version ([Upgrade Applications to the new version](#upgrade-apps))
 * Resolving any breaking changes
 
 </div>
 
-#### Your Datacenter (On-Premises / Private Cloud) { #upgrade-premises }
+#### Self-managed (private cloud / on-premises) { #upgrade-premises }
 
-If the environment is running in your own private cloud or on-premises, the upgrade process is fully managed by you, without the direct involvement of OutSystems. However, you can [contact OutSystems Support](https://success.outsystems.com/Support/Enterprise_Customers/OutSystems_Support/01_Contact_OutSystems_technical_support) at any time for assistance.​
+If the environment is self-managed (running in your own private cloud or on-premises) the upgrade process is fully managed by you, without the direct involvement of OutSystems. However, you can [contact OutSystems Support](https://success.outsystems.com/Support/Enterprise_Customers/OutSystems_Support/01_Contact_OutSystems_technical_support) at any time for assistance.​
+
+While upgrading the Platform Server component, consider [enabling maintenance mode in the environment](https://success.outsystems.com/Documentation/11/Managing_the_Applications_Lifecycle/Manage_Your_OutSystems_Infrastructure/Environment_in_maintenance_mode) to avoid unnecessary communication attempts from the LifeTime console.
 
 The process is the following:
 
@@ -229,6 +231,10 @@ Having the Platform Server upgraded in the environment, consider the following s
     Keep in mind that this approach for non-development environments is only applicable when the version of the applications on the previous environment is stable and ready to be staged to the next environment (upgrade must be aligned with your release cycle). If that’s not the case, you should perform a code-based upgrade, doing all the fixing and testing directly in each environment.
 
     </div>
+
+For **mobile apps**, upon a Platform Server version upgrade in your **Production environment**, it's expected that many of the mobile app resources carry differences, which will trigger over-the-air (OTA) upgrades to all the end users. **Generating and distributing a new build** eliminates the need for OTA upgrades and it's an advisable practice that improves the end-user experience.
+
+For **Forge components**, it's a good practice to take the opportunity to upgrade them if there are new versions. Not only you can benefit from any bug fix but also the component might already be adjusted to any new feature or breaking change, saving you the effort to adjust the component. Make sure to validate any changes in the Forge components.
 
 ## Testing { #testing }
 
