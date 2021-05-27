@@ -1,34 +1,27 @@
-
 ---
-summary: How to solve the problem of timeouts when deploying an application that contains new entity attributes.
+summary: Identify and solve a timeout issue when deploying an application after adding a new Entity Attribute.
+tags:
 ---
 
-# Slow publishes and timeout issues when adding a new column to existing tables that have a large number of records
+# Application deployment takes too long after adding a new Entity Attribute
 
 ## Symptoms
 
-When publishing new versions of an application, the deploy stage (namely, the update DB phase) for some modules, takes a long time or times out. The latter aborts the upgrade and may leave the metamodel in an inconsistent state.
+After adding a new [Entity Attribute](https://success.outsystems.com/Documentation/11/Reference/OutSystems_Language/Data/Modeling_Data/Entity_Attribute) to an existing [Entity](https://success.outsystems.com/Documentation/11/Reference/OutSystems_Language/Data/Modeling_Data/Entity), the new application version takes a long time to deploy or the deployment times out during the update database phase.
+
+This scenario occurs when the Entity with the new Attribute already has millions of records.
+
+The following use cases can also lead to this scenario:
+
+* Converting an Entity to multi-tenant (which results in adding a new Attribute to the Entity)
+* Adding a unique constraint over an existing Entity Attribute
 
 ## Cause
 
-These issues typically occur when adding a new column to an existing table that has a large number of records (for example, several millions of records).
-
-Until Platform Server 11.11.1, the platform performed the creation of the new column in two separate steps:
-
-    DDL statement to add the new column
-    DML statement to set the default value of the column
-
-The second step should be the one causing the big execution times in these cases since it will perform the query over the full table, potentially performing constraint validation steps along the way.
-
-Timeouts have been seen to occur mainly in 3 scenarios that involve publishes and tables with a large number of records:
-
-    Adding a new column to an existing table
-    Converting an entity to multitenant (which technically is adding a new column)
-    Adding a unique constraint over an existing column
+In environments with Platform Server 11.11.0 or earlier, the step to update the database model during the deployment runs a DML (Data Manipulation Language) statement to set the default value of the new database column. As this statement performs over the full table, it causes a timeout at the database side for tables having millions of records.
 
 ## Solution
 
-Upgrade to Platform Server 11.11.1, where the addition of default values is much faster in SQL Server Enterprise and in any edition of Oracle.
+For SQL Server Enterprise and Oracle databases, upgrade the environment to [Platform Server 11.11.1](https://success.outsystems.com/Support/Release_Notes/11/Platform_Server#Platform_Server_11.11.1), as this version provides the fix for this issue.
 
-This is because there is no longer a DML statement to add default values. 
-The DDL statement that adds the new columns also adds the default values in a very efficient way. However, while the addition is very quick for any edition of Oracle starting in Oracle 11g, the optimization is only enabled in SQL Server Enterprise and not in SQL Server Standard. This means that if the database is SQL Server Standard, the operation will still take some considerable time.
+As workaround, increase the query timeout by running the Configuration Tool and changing the **Default Query Timeout** under the Platform Tab (applies only to self managed environments).
