@@ -224,7 +224,7 @@ However, if you already have your own authentication systems and you want your I
 
 OutSystems also gives you the capability to [implement your own authentication plugin](https://success.outsystems.com/Documentation/11/Managing_the_Applications_Lifecycle/Secure_the_Applications/Implement_an_Authentication_Plugin).
 
-As an additional note, see the [SAML Platform Authentication](https://www.outsystems.com/forge/component-overview/4311/saml-platform-authentication) component, available in OutSystems Forge, as a sample implementation that allows your OutSystems tools, such as Service Studio, Integration Studio, Service Center, and Lifetime, to integrate with most common identity providers that support SAML 2.0 protocol for authentication purposes.
+As an additional note, see the [SAML Platform Authentication](https://www.outsystems.com/forge/component-overview/4311/saml-platform-authentication) component, available in OutSystems Forge, as a sample implementation that allows your OutSystems tools, such as Service Studio, Integration Studio, Service Center, and LifeTime, to integrate with most common identity providers that support SAML 2.0 protocol for authentication purposes.
 
 ### Secure data in transit { #secure-data-in-transit}
 
