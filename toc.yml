@@ -70,6 +70,11 @@
         - href: enterprise/install/size-environment-run-infra-mgmt-console.md
         - href: enterprise/install/add-front-end/add-front-end.md    
 
+    # Support
+    - placeholder: Support
+    - topics:
+        - href: enterprise/maintenance/deactivate-support-email.md
+
     # Maintenance and Operations
     - placeholder: Maintenance and Operations
     - topics:
