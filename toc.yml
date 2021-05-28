@@ -320,6 +320,7 @@
             - href: enterprise/troubleshooting/error-cannot-access-file.md
             - href: enterprise/troubleshooting/troubleshoot-502.md
             - href: enterprise/troubleshooting/cannot-decrypt/cannot-decrypt.md
+            - href: enterprise/troubleshooting/deploy-fail-new-entity-attribute.md
             
             # Known issues
             - href: enterprise/troubleshooting/known-issues/ki-11_10-downtime-CT/ki-11_10-downtime-CT.md
