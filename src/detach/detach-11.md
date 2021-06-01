@@ -25,7 +25,9 @@ If at any step you run into a problem, you may need to repeat the previous steps
 
 ## Before you start { #before-you-start }
 
-The steps described in this document are not for evaluation purposes and are to be used only if you decide to stop using OutSystems.
+The steps described in this document are to be used only if you decide to stop using OutSystems.
+
+Nevertheless, you can follow the steps below if you want to test the OutSystems detach capabilities. In that case, follow the detach process using a **brand new Application Server** and a **new database**. This will prevent unexpected behaviors on your existing OutSystems applications since the detach process will require changes to the applicational server (IIS) and to your database.
 
 ### What do you need?
 
@@ -53,7 +55,7 @@ To minimize the risks of getting errors during and after the detach process:
 
 Since you will lose most of the OutSystems capabilities, you must guarantee that your personnel:
 
-* Fully understands the complete life cycle of .NET applications. This includes understanding how to create, modify, and deploy those application, as well as creating and managing the references between them while having a good understanding of IIS.
+* Fully understands the complete life cycle of .NET applications. This includes understanding how to create, modify, and deploy those applications, as well as creating and managing the references between them while having a good understanding of IIS.
 
 * Has access to the Database Server and have the ability to modify the existing data. During the detach process, it's necessary to perform some changes in the OutSystems metadata. This is typically done by a DataBase Administrator (DBA).
 
@@ -613,15 +615,15 @@ To deploy your detached application to a PCF container, follow these steps:
 
 ## Final steps { #final-steps }
 
-When all applications have been successfully published, it's recommended that you test everything first before uninstalling OutSystems Plaform Server. If you moved from Application Server, skip the [Before uninstalling](#before-uninstall) and test your applications, since no uninstallation needs to be performed.
+When all applications have been successfully published, it's recommended that you test everything first before uninstalling OutSystems Platform Server. If you moved from Application Server, skip the [Before uninstalling](#before-uninstall) and test your applications, since no uninstallation needs to be performed.
 
 ### Before uninstalling { #before-uninstall }
 
-If no error was found there's a great chance you followed everything correctly, nevertheless some errors may appear when you uninstall the application. To safely test this without having to reinstall everything follow this steps:
+If no error was found there's a great chance you followed everything correctly, nevertheless some errors may appear when you uninstall the OutSystems Platform Server. To safely test this without having to reinstall everything follow this steps:
 
 * Stop all OutSystems services.
 
-* Store a copy of `C:\Program Files\OutSystems\Plaform Server` on another location. After that, you can either change the name of `C:\Program Files\OutSystems\Plaform Server`, for example to `C:\Program Files\OutSystems1\Plaform Server`, or delete this folder.
+* Store a copy of `C:\Program Files\OutSystems\Platform Server` on another location. After that, you can either change the name of `C:\Program Files\OutSystems\Platform Server`, for example to `C:\Program Files\OutSystems1\Platform Server`, or delete this folder.
 
 This way you can simulate an uninstall and you should be able to access all your applications.
 

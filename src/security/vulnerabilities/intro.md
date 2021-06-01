@@ -95,7 +95,7 @@ Any person that’s not an OutSystems customer or partner is welcome to report a
 OutSystems PSIRT may return to the reporter with additional questions or clarifications and provides the reporter with regular updates when relevant information comes to light.
 
 
-## OutSystems management of a reported vulnerability
+## OutSystems management of a reported vulnerability { #management }
 
 High level, the phases of tackling a vulnerability found at OutSystems products are as follows:
 
@@ -104,7 +104,7 @@ High level, the phases of tackling a vulnerability found at OutSystems products 
 
 It consists of 2 phases, the **embargo phase** and **public disclosure**.
 
-### Embargo phase
+### Embargo phase { #embargo }
 
 During this phase, and to protect customers, OutSystems doesn't disclose further details about the vulnerability. It’s important to note that the more details are divulged, the more probable it's that such information is used to exploit the vulnerability. Therefore, OutSystems allows reasonable time to protect your infrastructures before disclosing further.
 
@@ -130,7 +130,7 @@ For OutSystems Cloud customers, a patch schedule may also be communicated for al
 Self-managed infrastructures can be patched at the customer’s discretion.
 
 
-### Public disclosure
+### Public disclosure { #disclosure }
 
 Approximately 90 days after the fix release, OutSystems discloses further details about the vulnerability by updating the respective security bulletin.
 

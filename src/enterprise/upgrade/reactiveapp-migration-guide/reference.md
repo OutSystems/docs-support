@@ -31,6 +31,10 @@ Once you start migrating your app to the Reactive Web App, consider following th
 4. Web Screens
 5. Web Blocks, starting by the Web Blocks with no dependencies.
 
+## Customize or redirect the application URL
+
+To manage the site and page rules in your Reactive Web Apps see [Technical Preview - SEO in Reactive Web Apps](https://success.outsystems.com/Documentation/11/Developing_an_Application/Technical_Preview_-_SEO_in_Reactive_Web_Apps).
+
 ## Accelerators
 
 There are several accelerators that can help you migrate your app faster.

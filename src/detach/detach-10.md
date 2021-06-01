@@ -26,8 +26,9 @@ If at any step you run into a problem, you may need to repeat the previous steps
 ## Before You Start
 
 Do you want to evaluate the detach source code process? For the purpose of evaluating the detach source code process, OutSystems provides a Service Studio embedded tutorial to guide you through the process.  
-The steps described in this document are not for evaluation purposes and are to be used only if you decide to stop using OutSystems.  
-Please refer to the OutSystems Platform – Standard Architecture with No Lock-in technical note for more information.
+The steps described in this document are to be used only if you decide to stop using OutSystems.  
+
+Nevertheless, you can follow the steps below if you want to test the OutSystems detach capabilities. In that case, follow the detach process using a **brand new Application Server** and a **new database**. This will prevent unexpected behaviors on your existing OutSystems applications since the detach process will require changes to the applicational server (IIS) and to your database.
 
 ### What will you lose?
 
@@ -49,7 +50,7 @@ In order to minimize the risks of getting errors during and after the detach pro
 
 Since you will lose most of the OutSystems capabilities, you must guarantee that your personnel:
 
-* Fully understands the complete life cycle of .NET applications; This includes understanding how to create, modify and deploy those application, as well as creating and managing the references between them while having a good understanding of IIS. 
+* Fully understands the complete life cycle of .NET applications; This includes understanding how to create, modify and deploy those applications, as well as creating and managing the references between them while having a good understanding of IIS. 
 * Has access to the Database Server and have the ability to modify the existing data; During the detach process, it is necessary to change some of the OutSystems metadata. This is typically done by a DataBase Administrator (DBA); 
 * Knows how to develop, build and deploy Android and/or iOS apps (applies to mobile apps only). 
 
@@ -490,15 +491,15 @@ If an application depends on another applications, you might need to deploy all 
 
 ## Final Steps
 
-When all applications have been successfully published, it is recommended that you test everything first before uninstalling OutSystems Plaform Server. If you moved from Application Server, skip section 5.1 and test your applications, since no uninstallation needs to be performed.
+When all applications have been successfully published, it is recommended that you test everything first before uninstalling OutSystems Platform Server. If you moved from Application Server, skip section 5.1 and test your applications, since no uninstallation needs to be performed.
 
 ### Before uninstalling
 
-If no error was found there’s a great chance you followed everything correctly, nevertheless some errors may appear when you uninstall the application. To safely test this without having to reinstall everything follow this steps:
+If no error was found there’s a great chance you followed everything correctly, nevertheless some errors may appear when you uninstall the OutSystems Platform Server. To safely test this without having to reinstall everything follow this steps:
 
 * Stop all OutSystems services; 
 
-* Store a copy of _C:\Program Files\OutSystems\Plaform Server_ on another location. After that, you can either change the name of _C:\Program Files\OutSystems\Plaform Server_, for example to _C:\Program Files\OutSystems1\Plaform Server_ or simply delete this folder. 
+* Store a copy of `C:\Program Files\OutSystems\Platform Server` on another location. After that, you can either change the name of `C:\Program Files\OutSystems\Platform Server`, for example to `C:\Program Files\OutSystems1\Platform Server` or simply delete this folder. 
 
 * If you are keeping the Scheduler Service after the detach you must keep the plugins folder in its original location (for example `C:\Program Files\OutSystems\Platform Server\plugins`) even after the Platform Server is unistalled and the detach process is complete.
 If the plugins folder and its content is not available, it will not be possible to run the service.

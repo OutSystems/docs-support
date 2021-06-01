@@ -5,7 +5,8 @@ summary: This guide presents the steps required to successfully upgrade Platform
 # Balanced Platform Upgrade on Highly Loaded OutSystems Farms
 
 <div class="warning" markdown="1">
-**This guide applies exclusively to Platform Server upgrades/updates**. If you are also deploying application changes while performing a Platform Server upgrade/update, you will need to take extra steps which are outside the scope of this guide.
+**This guide applies exclusively to Platform Server upgrades/updates**. If you are also deploying application changes while performing a Platform Server upgrade/update, you will need to take extra steps which are outside the scope of this guide. For more information, see [Balanced Application Deployment on Highly Loaded OutSystems Farms](../maintenance/balanced-app-deploy.md).
+
 To follow this procedure the servers must be running at least OutSystems Platform Server version 4.2 or, if you are running the J2EE stack, the servers must be running at least OutSystems Platform Server version 4.2.4.79.
 </div>
 

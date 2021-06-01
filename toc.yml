@@ -5,6 +5,9 @@
     # Extensibility
     - href: enterprise/extensibility/extensibility.md
 
+    # Tech debt
+    - href: enterprise/tech-debt/tech-debt.md
+
     # Integrations
     - href: enterprise/integrations/integrate-ecosystem.md
 
@@ -39,6 +42,7 @@
         - placeholder: Intellectual Property Protection (IPP)
         - topics:
             - href: enterprise/licensing/ipp/what-is-ipp.md
+            - href: enterprise/licensing/ipp/ipp-error.md
             - href: enterprise/licensing/ipp/used-ipp-portal.md
             - href: enterprise/licensing/ipp/ip-rights-not-granted.md
 
@@ -65,6 +69,7 @@
         - href: enterprise/install/lifetime-roles.md
         - href: enterprise/install/size-environment-run-infra-mgmt-console.md
         - href: enterprise/install/add-front-end/add-front-end.md    
+    
 
     # Maintenance and Operations
     - placeholder: Maintenance and Operations
@@ -104,7 +109,6 @@
         - href: enterprise/maintenance/ip-range-cloud.md     
         - href: enterprise/maintenance/viewport-fit-issue.md
         - href: enterprise/maintenance/disk-space-usage-control.md
-        - href: enterprise/maintenance/transition-cloud-on-prem.md
         - href: enterprise/maintenance/protect-android-ios-certificate.md
         - href: enterprise/maintenance/build-multi-tenant-app.md
         - href: enterprise/maintenance/find-ssid-activation-code.md
@@ -219,6 +223,8 @@
     - placeholder: Upgrading
     - topics:
         - href: enterprise/upgrade/upgrade-platform.md
+        - href: enterprise/upgrade/upgrade-platform-module-prep.md
+        - href: enterprise/upgrade/upgrade-platform-errors.md
         - href: enterprise/upgrade/balanced-upgrade-highly-loaded-farms.md
         - href: enterprise/upgrade/how-are-versions-numbered.md
         - href: enterprise/upgrade/increase-computing-power-infrastructure.md
@@ -312,12 +318,14 @@
             - href: enterprise/troubleshooting/unable-register-front-end.md  
             - href: enterprise/troubleshooting/it-users-vs-app-users.md                  
             - href: enterprise/troubleshooting/library-hell.md                      
+            - href: enterprise/troubleshooting/multilingual.md                      
             - href: enterprise/troubleshooting/wia-popup-shows.md
             - href: enterprise/troubleshooting/could-not-create-fk.md
             - href: enterprise/troubleshooting/app-not-in-users.md
             - href: enterprise/troubleshooting/error-cannot-access-file.md
             - href: enterprise/troubleshooting/troubleshoot-502.md
             - href: enterprise/troubleshooting/cannot-decrypt/cannot-decrypt.md
+            - href: enterprise/troubleshooting/deploy-fail-new-entity-attribute.md
             
             # Known issues
             - href: enterprise/troubleshooting/known-issues/ki-11_10-downtime-CT/ki-11_10-downtime-CT.md
@@ -347,6 +355,14 @@
     - href: personal/error-host-not-found.md
     - href: personal/upgrade-latest-version.md
     - href: personal/whats-a-personal.md
+
+# Forge
+- placeholder: Forge Components
+- topics:
+    - placeholder: Forge FAQs
+    - topics:
+        - href: forge/trusted-requirements.md
+
 
 # Archive
 - placeholder: Archive
@@ -403,6 +419,10 @@
         - href: security/vulnerabilities/vulnerability-RICT-2855.md
         - href: security/vulnerabilities/vulnerability-RCFT-4197.md
         - href: security/vulnerabilities/vulnerability-RICT-2673.md
+        - href: security/vulnerabilities/vulnerability-RPM-657.md
+        - href: security/vulnerabilities/vulnerability-RPM-683.md
+        - href: security/vulnerabilities/vulnerability-RPM-786.md
+        - href: security/vulnerabilities/vulnerability-RPM-813.md
 
     # How OutSystems Platform helps you develop secure applications
     - href: security/develop-secure-apps/intro.md

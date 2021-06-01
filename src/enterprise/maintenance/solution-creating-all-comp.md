@@ -6,6 +6,9 @@ tags:
 
 It's a common practice in OutSystems Factory management to create and use a solution that contains all the components deployed on the environment. It's used to refresh references, republish application modules after an update/upgrade and for some troubleshooting tasks.
 
+An all components solution will publish and deploy all of the associated components.
+The main difference is that with a solution, all the references are refreshed in one take. This will ensure that consumers get their producers code updated, avoiding compilation errors.
+
 ## How to create
 
 ### Creating the solution

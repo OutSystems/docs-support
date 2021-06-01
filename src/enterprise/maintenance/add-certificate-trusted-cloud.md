@@ -8,6 +8,7 @@ tags: support-Cloud_Platform
 
 We've been working on this article. Please let us know how useful this new version is by voting.
 
+
 </div>
 
 When integrating with external systems such as, for example, consuming webservices, integrating with external databases or with an Active Directory, there is often the requirement to do so over HTTPS.
