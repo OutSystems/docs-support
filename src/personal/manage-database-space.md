@@ -24,27 +24,4 @@ You can also check how much is being used for system data, and application data.
 
 Note that these metrics are updated every hour, so they might not represent the real space you are using at the moment.
 
-## Free up system data
-
-OutSystems periodically cleans up system data, like older application versions. You can also free up some system data manually.
-
-1. Navigate to the environment management console at `https://<yourpersonal>.outsystemscloud.com/ServiceCenter`;
-
-2. Click the **Factory** tab;
-
-3. Click the **Modules** option. Then click the **Check Old Module Versions to Delete** link;
-
-4. Choose the time period to delete, and click the **Check Versions to Delete** button. 
-
-![](images/manage-database-space_2.png)
-
-You can then delete those module versions to free up some system data.
-
-## Free up application data
-
-Application data is basically all the information that is stored in the database Entities of your applications.
-
-Our recommendation to control the amount of application data stored, is to have a good data model, and only store in the database what you really need. If you store files or large chunks of data in the database and will never use them, consider deleting them from the database, or storing them on external services like [Amazon S3](https://www.outsystems.com/forge/component-overview/416/advanced-amazon-s3), [Google Drive](http://www.outsystems.com/forge/component/364/google-drive-connector/) or [Dropbox](http://www.outsystems.com/forge/component/587/dropbox-connector/).
-
-To prevent data loss, OutSystems never deletes any database table or column, even when you delete them on the IDE. So it's possible that some database storage is being used for this. You can use the [DB Cleaner API](https://success.outsystems.com/Documentation/11/Reference/OutSystems_APIs/DbCleaner_API) to programmatically delete these database columns and tables that are no longer in use.
-
+To clear database space of your Personal Environment, check [Best practices for a tidy and clean environment](https://success.outsystems.com/Documentation/Best_Practices/Lifecycle/Best_practices_for_a_tidy_and_clean_environment).
