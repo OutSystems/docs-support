@@ -2,9 +2,9 @@
 summary: OutSystems is deavtivating the support@outsystems.com email in favor of creating tickets through the Support Portal contacting us by phone.
 ---
 
-# Support Email Deactivation 
+# Change to Our Email Support Channel
 
-At OutSystems, we strive to make your interactions with us smooth and frictionless. With this important goal in mind, we are announcing a change to our online support channels.
+At OutSystems, we strive to make your interactions with us smooth and frictionless. With this important goal in mind, we are announcing a change to our email support channel.
 
 ## What's changing?
 In  analyzing your feedback and our internal processes, we found that our support@outsystems.com email channel was not producing the amazing support experiences we expect. Consequently, we decided to deactivate this email account and its ticket-generation process, and to consolidate online communications in our [Support Portal](https://success.outsystems.com/Support). 
