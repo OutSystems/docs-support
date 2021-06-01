@@ -37,7 +37,7 @@ This scenario still applies if you have more environments than the ones depicted
 
 <div class="warning" markdown="1">
 
-**Important** - Do not change your Activation Code if any of the following apply:
+**Important** - Do not change your Activation Code if **any** of the following apply:
 
 * Your infrastructure has environments that are either not registered in LifeTime or are registered in another LifeTime. 
 * You don’t want to change the Activation Code of one or more environments controlled by this LifeTime.
