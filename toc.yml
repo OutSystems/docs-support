@@ -123,9 +123,6 @@
         - href: enterprise/maintenance/timers-asynchronous-processes.md
         - href: enterprise/maintenance/running-modes-dev-vs-prod.md
         - href: enterprise/maintenance/service-studio-mac/service-studio-mac.md
-        - topics:
-            - href: enterprise/maintenance/service-studio-mac/tp-service-studio-mac.md
-            - href: enterprise/maintenance/service-studio-mac/tp-service-studio-mac-older.md
         - href: enterprise/maintenance/reinstall-lifetime.md
         - href: enterprise/maintenance/remove-infra-mgmt-console.md
         - href: enterprise/maintenance/reset-lifetime-authentication.md
