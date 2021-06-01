@@ -27,7 +27,7 @@ In this scenario, we begin with a single infrastructure with the following envir
 * 1 Quality
 * 1 Production
 
-![Infrastructure](images/move-infra-system-lt.png)
+    ![Infrastructure](images/change-ac-system.png)
 
 This scenario still applies if you have more environments than the ones depicted, as long as the requirements of the following scenario are met:
 
@@ -83,15 +83,15 @@ To move from the previous Activation Code (AAA in this text) to the new Activati
 
     c. In Service Center for the relevant environment, navigate to **Administration** > **Licensing**, and choose **Upload New License**. Upload the license file that you requested.
 
-    1. Still on the licensing page, filter for the feature "Intellectual Property".
+    d. Still on the licensing page, filter for the feature "Intellectual Property".
 
-        ![Check Intellectual Property feature in Service Center](images/change-ac-ipp-sc.png)
+    ![Check Intellectual Property feature in Service Center](images/change-ac-ipp-sc.png)
 
     If it reads **Unprotected** or **Protected**, you are good to go and you can continue to the next environment. 
 
     If not, your license is not prepared for the migration. Check **FAQ 3** in the [FAQ](#faqs) section.
 
-### Rollback procedure { #rollback }
+### Rollback { #rollback }
 
 Please read the complete procedure before starting to execute it. If you have any questions, please reach out to [OutSystems Support](https://success.outsystems.com/Support) ahead of execution. 
 
