@@ -110,7 +110,7 @@ Development activities on the other environments may continue.
 
     c. Perform a test republish of a module (e.g. ECT_Provider) in each environment. 
 
-    Go to **Factory** > **Modules** and filter by ECT_Provider. Open the details of the module, locate the version that is currently published and click Publish for that version.
+    d. Go to **Factory** > **Modules** and filter by ECT_Provider. Open the details of the module, locate the version that is currently published and click Publish for that version.
 
     ![Publish a module](images/change-ac-publish-sc.png)
 
