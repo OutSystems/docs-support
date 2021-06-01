@@ -19,6 +19,6 @@ Analysis revealed that email-generated support tickets did not enable our suppor
 We encourage you to contact OutSystems Support by [phone](https://success.outsystems.com/Support/Enterprise_Customers/OutSystems_Support/01_Contact_OutSystems_technical_support) or through the [Support Portal](https://success.outsystems.com/Support).
 
 ## Understood, so what's next?
-Between now and July 15th, 2021, creating a new support ticket by email will generate a response that reminds you of the upcoming change. After July 15th, XXXX?? 
+Between now and July 15th, 2021, creating a new support ticket by email generates a response that reminds you of the upcoming change. After July 15th, tickets are no longer created, and you receive an auto-reply that informs you of the same.
 
-Remember we are always here for you!
+Remember that we're always here for you!
