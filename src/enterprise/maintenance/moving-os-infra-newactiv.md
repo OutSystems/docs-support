@@ -71,19 +71,19 @@ To move from the previous Activation Code (AAA in this text) to the new Activati
 
         * For OutSystems 10, install [ActivationCodeCheck](../licensing/ipp/files/ActivationCodeCheck-O10.oap)
 
-    b. Open the application and log in with your IT user.
+    1. Open the application and log in with your IT user.
 
-    c. If you see a message saying "IP protected modules present in the factory. Are you executing a license change?", click **Start Wizard**. If this message isn't displayed, continue with step. 4. 
+    1. If you see a message saying "IP protected modules present in the factory. Are you executing a license change?", click **Start Wizard**. If this message isn't displayed, continue with step. 4. 
 
 1. For all environments, register and obtain the license file for Activation Code BBB from the [Licensing Portal](https://www.outsystems.com/licensing):
 
-    a. Go to [Licensing Portal](https://www.outsystems.com/licensing) and enter your new Activation Code BBB.
+    1. Go to [Licensing Portal](https://www.outsystems.com/licensing) and enter your new Activation Code BBB.
 
-    b. Register the serial number of the environment you’re currently working with and obtain the license file.
+    1. Register the serial number of the environment you’re currently working with and obtain the license file.
 
-    c. In Service Center for the relevant environment, navigate to **Administration** > **Licensing**, and choose **Upload New License**. Upload the license file that you requested.
+    1. In Service Center for the relevant environment, navigate to **Administration** > **Licensing**, and choose **Upload New License**. Upload the license file that you requested.
 
-    d. Still on the licensing page, filter for the feature "Intellectual Property".
+    1. Still on the licensing page, filter for the feature "Intellectual Property".
 
     ![Check Intellectual Property feature in Service Center](images/change-ac-ipp-sc.png)
 
@@ -102,15 +102,15 @@ Development activities on the other environments may continue.
 
 1. For all environments that have licenses from Activation Code BBB, restore all license files with those backed up in step 2 above.
 
-    a. In Service Center for each particular environment, go to **Administration** > **Licensing**, and choose **Upload New License**. Upload each environment’s backed up license file.
+    1. In Service Center for each particular environment, go to **Administration** > **Licensing**, and choose **Upload New License**. Upload each environment’s backed up license file.
 
-    b. Confirm that the Activation Code displayed is the old Activation Code AAA.
+    1. Confirm that the Activation Code displayed is the old Activation Code AAA.
 
     ![Confirm you see the old Activation Code](images/change-ac-rollback-sc.png)
 
-    c. Perform a test republish of a module (e.g. ECT_Provider) in each environment. 
+    1. Perform a test republish of a module (e.g. ECT_Provider) in each environment. 
 
-    d. Go to **Factory** > **Modules** and filter by ECT_Provider. Open the details of the module, locate the version that is currently published and click Publish for that version.
+    1. Go to **Factory** > **Modules** and filter by ECT_Provider. Open the details of the module, locate the version that's currently published and click Publish for that version.
 
     ![Publish a module](images/change-ac-publish-sc.png)
 
