@@ -11,13 +11,12 @@ This article describes the steps to deploy an application into a highly loaded O
 
 ![Highly loaded farm environment](images/balanced-app-deploy-1.png?width=700)
 
-This operation applies only to **on-premises** or **private cloud** installations.
 
 ## Prerequisites
 
 For the execution of this procedure, the following requirements must be met:
 
-* Have an **on-premises** or **private cloud** installation.
+* Have an on-premises or private cloud installation.
 
 * Have a **network load balancing mechanism** for distributing the application traffic between the front-ends.
 
