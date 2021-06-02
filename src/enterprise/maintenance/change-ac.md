@@ -1,3 +1,4 @@
+'detached head'
 ---
 summary: Instructions to replace the license of one existing infrastructure from one Activation Code to another.
 ---
@@ -10,17 +11,17 @@ This procedure applies to self-managed environments only.
 
 </div>
 
-During the lifecycle of your subscription, you may need to replace the license of one existing infrastructure from an activation code to another. This could be for a number of reasons, including:
+During the lifecycle of your subscription, you may need to replace the license of an existing infrastructure from one activation code to another. This could be for a number of reasons, including the following:
 
 * Organization splitting
 * Company mergers
 * Changes to the license agreement with OutSystems
 
-Changing the Activation Code correctly ensures that downtime is avoided and that your development activities continue normally.
+Changing the Activation Code of your infrastructure ensures that downtime is avoided and that your development activities continue as usual.
 
-This article covers a scenario where a full infrastructure, including LifeTime, will be moved from a source activation code AAA to a destination activation code BBB. It also covers a [rollback procedure](#rollback) in case of any problems. 
+This article covers a scenario where a full infrastructure, including LifeTime, is moved from a source activation code AAA to a destination activation code BBB. It also covers a [rollback procedure](#rollback) in case of any problems. 
 
-In this scenario, we begin with a single infrastructure with the following environments:
+In this scenario, we begin with a single infrastructure containing the following environments:
 
 * 1 LifeTime
 * 1 Development
@@ -47,12 +48,11 @@ Don't change your Activation Code if **any** of the following apply:
 
 ## Changing the Activation Code
 
-Please read the complete procedure before starting to execute it. If you have any questions, please reach out to [OutSystems Support](https://success.outsystems.com/Support) ahead of execution. 
+Before changing the Activation Code,  read the complete procedure first. If you have any questions, contact [OutSystems Support](https://success.outsystems.com/Support). 
 
+To move from the previous Activation Code (AAA in this text) to the new Activation Code (BBB in this text), follow these steps:
 
-To move from the previous Activation Code (AAA in this text) to the new Activation Code (BBB in this text), proceed as follows:
-
-1. Pause all deployments to Production. Development activities in other environments may continue.
+1. Pause all deployments to Production. Development activities in other environments can continue.
 
 1. For all environments, backup the license file for the Activation Code AAA.
 
@@ -62,7 +62,7 @@ To move from the previous Activation Code (AAA in this text) to the new Activati
 
     1. Save the file to disk and rename it to match the name of the environment.
 
-1. You now need to check if you have any modules with intellectual property protection:
+1. Check if you have any modules with intellectual property protection:
 
     1. Install the OutSystems **ActivationCodeCheck** application.
 
@@ -72,7 +72,7 @@ To move from the previous Activation Code (AAA in this text) to the new Activati
 
     1. Open the application and log in with your IT user.
 
-    1. If you see a message saying "IP protected modules present in the factory. Are you executing a license change?", click **Start Wizard**. If this message isn't displayed, continue with step. 4. 
+    1. If the message **IP protected modules present in the factory. Are you executing a license change?** is displayed , click **Start Wizard**. If this message is not displayed, proceed to step 4.  
 
 1. For all environments, register and obtain the license file for Activation Code BBB from the [Licensing Portal](https://www.outsystems.com/licensing):
 
@@ -82,37 +82,38 @@ To move from the previous Activation Code (AAA in this text) to the new Activati
 
     1. In Service Center for the relevant environment, navigate to **Administration** > **Licensing**, and choose **Upload New License**. Upload the license file that you requested.
 
-    1. Still on the licensing page, filter for the feature "Intellectual Property".
+    1. Still on the licensing page, filter for the **Intellectual Property** feature.
 
     ![Check Intellectual Property feature in Service Center](images/change-ac-ipp-sc.png)
 
-    If it reads **Unprotected** or **Protected**, you are good to go and you can continue. 
+    If the Intellectual Property is **Protected** or **Unprotected**, continue to the next environment. 
 
-    If not, your license isn't prepared for the migration. Check **FAQ 3** in the [FAQ](#faqs) section.
+    If not, your license is not prepared for the migration. For more information, see  [FAQ 3](#faqs) below.
 
 ### Test the changes 
 
-To test if changing the Activation Code was successful, republish a module, ECT_Provider for example.
+To test if changing the Activation Code was successful, republish a module, for example, the ECT_Provider module.
 
-1. Go to **Factory** > **Modules** and filter by ECT_Provider. Open the details of the module, locate the version that's currently published and click Publish for that version.
+1. Go to **Factory** > **Modules** and filter by **ECT_Provider**. 
+
+1. Open the details of the module, locate the version that's currently published, and click **Publish** for that version.
 
     ![Publish a module](images/change-ac-publish-sc.png)
 
-1. If it publishes successfully, you can repeat the procedure on the next environments. If you get any errors related to Intellectual Property, immediately pause the procedure for the other environments and jump to the [rollback procedure](#rollback).
-
+1. If it publishes successfully, you can repeat the procedure for the following environments. If you get any errors related to Intellectual Property, immediately pause the procedure for the other environments and jump to the [rollback procedure](#rollback).
 
 ### Rollback { #rollback }
 
-Please read the complete procedure before starting to execute it. If you have any questions, please reach out to [OutSystems Support](https://success.outsystems.com/Support) ahead of execution. 
+Before rolling back, read the complete procedure first. If you have any questions, contact [OutSystems Support](https://success.outsystems.com/Support). 
 
-To rollback to the previous Activation Code (AAA in this text), proceed as follows:
+To move to the previous Activation Code (AAA in this text), follow these steps:
 
 1. Pause all deployments to the Production environment. 
-Development activities on the other environments may continue.
+Development activities on the other environments can continue.
 
-1. For all environments that have licenses from Activation Code BBB, restore all license files with those backed up in step 2 above.
+1. Restore all license files (including those backed up in step 2 above), for all environments that have licenses from Activation Code BBB.
 
-    1. In Service Center for each particular environment, go to **Administration** > **Licensing**, and choose **Upload New License**. Upload each environment’s backed up license file.
+    1. In Service Center, for each environment, go to **Administration** > **Licensing**, and choose **Upload New License**. Upload each environment’s backed-up license file.
 
     1. Confirm that the Activation Code displayed is the old Activation Code AAA.
 
@@ -120,10 +121,11 @@ Development activities on the other environments may continue.
 
 #### Test the rollback
 
-After rolling back, test if the procedure was successful by republishing any module. In this example, we'll use ECT_Provider.
+After rolling back, test if the procedure was successful by republishing any module, for example, the ECT_Provider module.
 
+1. Go to **Factory** > **Modules** and filter by **ECT_Provider**. 
 
-1. Go to **Factory** > **Modules** and filter by ECT_Provider. Open the details of the module, locate the version that's currently published and click Publish for that version.
+1. Open the details of the module, locate the version that's currently published, and click **Publish** for that version.
 
     ![Publish a module](images/change-ac-publish-sc.png)
 
