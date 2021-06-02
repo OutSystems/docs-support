@@ -37,7 +37,7 @@ This scenario still applies if you have more environments than the ones depicted
 
 <div class="warning" markdown="1">
 
-**Important** - Do not change your Activation Code if **any** of the following apply:
+Don't change your Activation Code if **any** of the following apply:
 
 * Your infrastructure has environments that are either not registered in LifeTime or are registered in another LifeTime. 
 * You don’t want to change the Activation Code of one or more environments controlled by this LifeTime.
@@ -57,25 +57,25 @@ To move from the previous Activation Code (AAA in this text) to the new Activati
 
 1. For all environments, backup the license file for the Activation Code AAA.
 
-    a. Go to the [Licensing Portal](https://www.outsystems.com/licensing) and enter your old Production environment Activation Code AAA.
+    1. Go to the [Licensing Portal](https://www.outsystems.com/licensing) and enter your old Production environment Activation Code AAA.
 
-    b. Navigate to the serial number of the Production environment and obtain the license file. Keep the file for backup purposes.
+    1. Navigate to the serial number of the Production environment and obtain the license file. Keep the file for backup purposes.
 
-    c. Save the file to disk and rename it to match the name of the environment.
+    1. Save the file to disk and rename it to match the name of the environment.
 
 1. You now need to check if you have any modules with intellectual property protection:
 
-    a. Install the OutSystems **ActivationCodeCheck** application.
+    1. Install the OutSystems **ActivationCodeCheck** application.
 
-    * For 010, install [ActivationCodeCheck](../licensing/ipp/files/ActivationCodeCheck-O10.oap)
+        * For OutSystems 11, install [ActivationCodeCheck](../licensing/ipp/files/ActivationCodeCheck-O11.oap)
 
-    * For 011, install [ActivationCodeCheck](../licensing/ipp/files/ActivationCodeCheck-O10.oap)
+        * For OutSystems 10, install [ActivationCodeCheck](../licensing/ipp/files/ActivationCodeCheck-O10.oap)
 
     b. Open the application and log in with your IT user.
 
-    c. If you see a message saying “IP protected modules present in the factory. Are you executing a license change?”, click **Start Wizard**. If this message isn't displayed, continue with step. 4. 
+    c. If you see a message saying "IP protected modules present in the factory. Are you executing a license change?", click **Start Wizard**. If this message isn't displayed, continue with step. 4. 
 
-1. For all environments, register for and obtain the license file for Activation Code BBB from the [Licensing Portal](https://www.outsystems.com/licensing):
+1. For all environments, register and obtain the license file for Activation Code BBB from the [Licensing Portal](https://www.outsystems.com/licensing):
 
     a. Go to [Licensing Portal](https://www.outsystems.com/licensing) and enter your new Activation Code BBB.
 
@@ -89,7 +89,7 @@ To move from the previous Activation Code (AAA in this text) to the new Activati
 
     If it reads **Unprotected** or **Protected**, you are good to go and you can continue to the next environment. 
 
-    If not, your license is not prepared for the migration. Check **FAQ 3** in the [FAQ](#faqs) section.
+    If not, your license isn't prepared for the migration. Check **FAQ 3** in the [FAQ](#faqs) section.
 
 ### Rollback { #rollback }
 
