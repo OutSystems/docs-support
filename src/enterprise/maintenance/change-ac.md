@@ -49,7 +49,6 @@ Don't change your Activation Code if **any** of the following apply:
 
 Please read the complete procedure before starting to execute it. If you have any questions, please reach out to [OutSystems Support](https://success.outsystems.com/Support) ahead of execution. 
 
-If, while publishing, you get any errors related to Intellectual Property, immediately pause the procedure for the other environments and jump to the [rollback procedure](#rollback).
 
 To move from the previous Activation Code (AAA in this text) to the new Activation Code (BBB in this text), proceed as follows:
 
@@ -87,9 +86,20 @@ To move from the previous Activation Code (AAA in this text) to the new Activati
 
     ![Check Intellectual Property feature in Service Center](images/change-ac-ipp-sc.png)
 
-    If it reads **Unprotected** or **Protected**, you are good to go and you can continue to the next environment. 
+    If it reads **Unprotected** or **Protected**, you are good to go and you can continue. 
 
     If not, your license isn't prepared for the migration. Check **FAQ 3** in the [FAQ](#faqs) section.
+
+### Test the changes 
+
+To test if changing the Activation Code was successful, republish a module, ECT_Provider for example.
+
+1. Go to **Factory** > **Modules** and filter by ECT_Provider. Open the details of the module, locate the version that's currently published and click Publish for that version.
+
+    ![Publish a module](images/change-ac-publish-sc.png)
+
+1. If it publishes succesfully, you can repeat the procedure on the next environments. If you get any errors related to Intellectual Property, immediately pause the procedure for the other environments and jump to the [rollback procedure](#rollback).
+
 
 ### Rollback { #rollback }
 
@@ -108,21 +118,25 @@ Development activities on the other environments may continue.
 
     ![Confirm you see the old Activation Code](images/change-ac-rollback-sc.png)
 
-    1. Perform a test republish of a module (for example, ECT_Provider) in each environment. 
+#### Test the rollback
 
-    1. Go to **Factory** > **Modules** and filter by ECT_Provider. Open the details of the module, locate the version that's currently published and click Publish for that version.
+After rolling back, test if the procedure was successful by republishing any module. In this example, we'll use ECT_Provider.
+
+
+1. Go to **Factory** > **Modules** and filter by ECT_Provider. Open the details of the module, locate the version that's currently published and click Publish for that version.
 
     ![Publish a module](images/change-ac-publish-sc.png)
 
-1. Contact [OutSystems Support](https://success.outsystems.com/Support) to report the issues and to obtain assistance to move forward.
+1. If you're rolling back, you likely encountered an issue while changing your Activation Code. Contact [OutSystems Support](https://success.outsystems.com/Support) to report the issues and to obtain assistance to change your Activation Code.
 
 ### FAQs { #faqs }
 
-If something unexpected happens, refer to the [Frequently Asked Questions below](#faqs) or reach out to [OutSystems Support](https://success.outsystems.com/Support), referencing this article and indicating the step at which step something unexpected happened.
+If something unexpected happens, refer to the Frequently Asked Questions below or reach out to [OutSystems Support](https://success.outsystems.com/Support), referencing this article and indicating the step at which something unexpected happened.
 
 1. **I cannot find the serial number of my environment in the old Activation Code**
 
     Please contact OutSystems Support to obtain a license file in a different way. Before contacting Support, please confirm all environments which don't appear in the old Activation Code (AAA in the script) so you can ask for help for all those environments all at once.
+
 1. **The license I uploaded from the old Activation Code AAA is not prepared for the migration**
 
     Please contact OutSystems Support to obtain a license file in a different way. Before contacting Support, please finish uploading all licenses to the environments, so you can provide the complete list of environments that don't mention "Intellectual Property: Ignore" so we can help assist for all environments at once.
