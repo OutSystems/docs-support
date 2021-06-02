@@ -3,7 +3,7 @@ summary: This article describes the steps to deploy an application into a highly
 tags: support-Infrastuture_Architecture; support-maintenance
 ---
 
-# Balanced Application Deployment on Highly Loaded OutSystems Farms
+# Balanced application deployment
 
 OutSystems hot-deploys the new versions of your applications with no downtime. However, for highly loaded farm environments, our recommendation is that you perform a balanced application deployment.
 
