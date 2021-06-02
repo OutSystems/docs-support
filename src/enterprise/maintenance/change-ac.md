@@ -98,14 +98,14 @@ To test if changing the Activation Code was successful, republish a module, ECT_
 
     ![Publish a module](images/change-ac-publish-sc.png)
 
-1. If it publishes succesfully, you can repeat the procedure on the next environments. If you get any errors related to Intellectual Property, immediately pause the procedure for the other environments and jump to the [rollback procedure](#rollback).
+1. If it publishes successfully, you can repeat the procedure on the next environments. If you get any errors related to Intellectual Property, immediately pause the procedure for the other environments and jump to the [rollback procedure](#rollback).
 
 
 ### Rollback { #rollback }
 
 Please read the complete procedure before starting to execute it. If you have any questions, please reach out to [OutSystems Support](https://success.outsystems.com/Support) ahead of execution. 
 
-To move from the previous Activation Code (AAA in this text) to the new Activation Code (BBB in this text), proceed as follows:
+To rollback to the previous Activation Code (AAA in this text), proceed as follows:
 
 1. Pause all deployments to the Production environment. 
 Development activities on the other environments may continue.
