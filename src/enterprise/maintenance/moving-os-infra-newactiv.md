@@ -108,7 +108,7 @@ Development activities on the other environments may continue.
 
     ![Confirm you see the old Activation Code](images/change-ac-rollback-sc.png)
 
-    1. Perform a test republish of a module (e.g. ECT_Provider) in each environment. 
+    1. Perform a test republish of a module (for example, ECT_Provider) in each environment. 
 
     1. Go to **Factory** > **Modules** and filter by ECT_Provider. Open the details of the module, locate the version that's currently published and click Publish for that version.
 
@@ -122,11 +122,11 @@ If something unexpected happens, refer to the [Frequently Asked Questions below]
 
 1. **I cannot find the serial number of my environment in the old Activation Code**
 
-    Please contact OutSystems Support to obtain a license file in a different way. Before contacting Support, please confirm all environments which do not appear in the old Activation Code (AAA in the script) so you can ask for help for all those environments all at once.
+    Please contact OutSystems Support to obtain a license file in a different way. Before contacting Support, please confirm all environments which don't appear in the old Activation Code (AAA in the script) so you can ask for help for all those environments all at once.
 1. **The license I uploaded from the old Activation Code AAA is not prepared for the migration**
 
-    Please contact OutSystems Support to obtain a license file in a different way. Before contacting Support, please finish uploading all licenses to the environments, so you can provide the complete list of environments that do not mention “Intellectual Property: Ignore” so we can help assist for all environments at once.
+    Please contact OutSystems Support to obtain a license file in a different way. Before contacting Support, please finish uploading all licenses to the environments, so you can provide the complete list of environments that don't mention "Intellectual Property: Ignore" so we can help assist for all environments at once.
     
 1. **The license I uploaded from the new Activation Code BBB is not prepared for the migration**
 
-    Please contact OutSystems Support so we can correct the license definition at our end. Following that, you will need to repeat the obtaining of the licenses for all environments under Activation Code BBB.
+    Please contact OutSystems Support so we can correct the license definition. Following that, you'll need to repeat the obtaining of the licenses for all environments under Activation Code BBB.
