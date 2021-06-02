@@ -3,7 +3,7 @@ summary: How to perform no-downtime deployments when deploying OutSystems applic
 tags: article-page
 ---
 
-# Upgrading Apps Deployed to Container Technologies with No Downtime
+# Deployment strategies with containers
 
 <div class="info" markdown="1">
 
