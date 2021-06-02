@@ -55,33 +55,33 @@ To move from the previous Activation Code (AAA in this text) to the new Activati
 
 1. For all environments, backup the license file for the Activation Code AAA.
 
-    1. Go to the [Licensing Portal](https://www.outsystems.com/licensing) and enter your old Production environment Activation Code AAA.
+    a. Go to the [Licensing Portal](https://www.outsystems.com/licensing) and enter your old Production environment Activation Code AAA.
 
-    1. Navigate to the serial number of the Production environment and obtain the license file. Keep the file for backup purposes.
+    b. Navigate to the serial number of the Production environment and obtain the license file. Keep the file for backup purposes.
 
-    1. Save the file to disk and rename it to match the name of the environment.
+    c. Save the file to disk and rename it to match the name of the environment.
 
 1. Check if you have any modules with intellectual property protection:
 
-    1. Install the OutSystems **ActivationCodeCheck** application.
+    a. Install the OutSystems **ActivationCodeCheck** application.
 
         * For OutSystems 11, install [ActivationCodeCheck](../licensing/ipp/files/ActivationCodeCheck-O11.oap)
 
         * For OutSystems 10, install [ActivationCodeCheck](../licensing/ipp/files/ActivationCodeCheck-O10.oap)
 
-    1. Open the application and log in with your IT user.
+    b. Open the application and log in with your IT user.
 
-    1. If the message **IP protected modules present in the factory. Are you executing a license change?** is displayed , click **Start Wizard**. If this message is not displayed, proceed to step 4.  
+    c. If the message **IP protected modules present in the factory. Are you executing a license change?** is displayed , click **Start Wizard**. If this message is not displayed, proceed to step 4.  
 
 1. For all environments, register and obtain the license file for Activation Code BBB from the [Licensing Portal](https://www.outsystems.com/licensing):
 
-    1. Go to [Licensing Portal](https://www.outsystems.com/licensing) and enter your new Activation Code BBB.
+    a. Go to [Licensing Portal](https://www.outsystems.com/licensing) and enter your new Activation Code BBB.
 
-    1. Register the serial number of the environment you’re currently working with and obtain the license file.
+    b. Register the serial number of the environment you’re currently working with and obtain the license file.
 
-    1. In Service Center for the relevant environment, navigate to **Administration** > **Licensing**, and choose **Upload New License**. Upload the license file that you requested.
+    c. In Service Center for the relevant environment, navigate to **Administration** > **Licensing**, and choose **Upload New License**. Upload the license file that you requested.
 
-    1. Still on the licensing page, filter for the **Intellectual Property** feature.
+    d. Still on the licensing page, filter for the **Intellectual Property** feature.
 
     ![Check Intellectual Property feature in Service Center](images/change-ac-ipp-sc.png)
 
@@ -112,9 +112,9 @@ Development activities on the other environments can continue.
 
 1. Restore all license files (including those backed up in step 2 above), for all environments that have licenses from Activation Code BBB.
 
-    1. In Service Center, for each environment, go to **Administration** > **Licensing**, and choose **Upload New License**. Upload each environment’s backed-up license file.
+    a. In Service Center, for each environment, go to **Administration** > **Licensing**, and choose **Upload New License**. Upload each environment’s backed-up license file.
 
-    1. Confirm that the Activation Code displayed is the old Activation Code AAA.
+    b. Confirm that the Activation Code displayed is the old Activation Code AAA.
 
     ![Confirm you see the old Activation Code](images/change-ac-rollback-sc.png)
 
