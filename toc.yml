@@ -73,7 +73,7 @@
     # Support
     - placeholder: Support
     - topics:
-        - href: enterprise/maintenance/deactivate-support-email.md
+        - href: enterprise/outsystems-support/deactivate-support-email.md
 
     # Maintenance and Operations
     - placeholder: Maintenance and Operations
