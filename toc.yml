@@ -389,6 +389,7 @@
     - href: security/cloud-certificate-change/cloud-certificate-change.md
     - href: security/penetration-tests.md
     - href: security/rest-headers-hardening.md
+    # - href: security/data-masking.md
 
     # Application Security
     - href: security/app-security/intro.md
