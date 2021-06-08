@@ -27,7 +27,7 @@ In this scenario, we begin with a single infrastructure containing the following
 * 1 Quality
 * 1 Production
 
-    ![Infrastructure](images/change-ac-system.png)
+![Infrastructure](images/change-ac-system.png)
 
 This scenario still applies if you have more environments than the ones depicted, as long as the requirements of the following scenario are met:
 
@@ -65,9 +65,9 @@ To move from the previous Activation Code (AAA in this text) to the new Activati
 
     a. Install the OutSystems **ActivationCodeCheck** application.
 
-        * For OutSystems 11, install [ActivationCodeCheck](../licensing/ipp/files/ActivationCodeCheck-O11.oap)
+      * For OutSystems 11, install [ActivationCodeCheck](../licensing/ipp/files/ActivationCodeCheck-O11.oap)
 
-        * For OutSystems 10, install [ActivationCodeCheck](../licensing/ipp/files/ActivationCodeCheck-O10.oap)
+      * For OutSystems 10, install [ActivationCodeCheck](../licensing/ipp/files/ActivationCodeCheck-O10.oap)
 
     b. Open the application and log in with your IT user.
 
