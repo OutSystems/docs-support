@@ -11,15 +11,27 @@ Applying these techniques promotes SEO because the search engines (and users) gi
 
 **This feature is only available for the .NET stack.**
 
+<div class="info" markdown="1">
+
+This document applies to Traditional Web Apps. For Reactive Web Apps, see [Technical Preview - SEO in Reactive Web Apps](https://success.outsystems.com/Documentation/11/Developing_an_Application/Technical_Preview_-_SEO_in_Reactive_Web_Apps).
+
+</div>
+
 ## Configuring URL Rules
 
-In Service Center, the console of Platform Server, a set of configurations let you to define rules by which incoming URLs are handled and transformed in the OutSystems Platform. Find these configuration options under the **Administration** tab, in the **SEO URLs** option. 
+In Service Center, the console of Platform Server, a set of configurations let you to define rules by which incoming URLs are handled and transformed in the platform. Find these configuration options under the **Administration** tab, in the **SEO URLs** option. 
 
 ![ ](images/seo-friendly-urls_0.png)
 
 At runtime, when clicking on a link on a page of your application, OutSystems optimizes the destination URL, and changes it to the best path that takes the most of your SEO-friendly URLs configuration. 
 
 ### Page Rules
+
+<div class="info" markdown="1">
+
+This section applies to Traditional Web Apps. For Reactive Web Apps, see [Technical Preview - SEO in Reactive Web Apps](https://success.outsystems.com/Documentation/11/Developing_an_Application/Technical_Preview_-_SEO_in_Reactive_Web_Apps).
+
+</div>
 
 Use Page Rules to transform your URLs trailing information such as, page names and page parameters, into relevant keywords for search engines to rank them in a way that clearly describes your pages content. To specify these URLs transformations use the **New Page Rule** button.
 
@@ -60,7 +72,13 @@ Shows the following URL:
 ```
 http://www.example.com/InsterstateBuses/To-Faro
 ```
-### eSpaces Aliases 
+### eSpaces Aliases
+
+<div class="info" markdown="1">
+
+This section applies to Traditional Web Apps. For Reactive Web Apps, see [Technical Preview - SEO in Reactive Web Apps](https://success.outsystems.com/Documentation/11/Developing_an_Application/Technical_Preview_-_SEO_in_Reactive_Web_Apps).
+
+</div>
 
 An eSpace Alias is an alternative eSpace name to be used in URLs: normally a simpler, friendlier, and keyword relevant name. To check which eSpaces have aliases, select the ‘eSpace Alias List’ option.
 
@@ -125,6 +143,12 @@ http://www.example.com/uk/Home.aspx?TaxiType=Van
 Besides using the SEO Friendly URLs feature, there are other techniques you can apply when designing your web sites such as: setting unique and accurate page titles, adding meta tags to your HTML, etc. [Learn more about SEO techniques](https://support.google.com/webmasters/answer/7451184?hl=en&ref_topic=9268559).
 
 ## Installing ISAPI Filters and Logging
+
+<div class="info" markdown="1">
+
+You need to follow the instructions in this section if you're installing the platform yourself (you're performing the **on-premises installation**). **If you use the OutSystems cloud, ISAPI Filters are already installed in your environment**.
+
+</div>
 
 To start using the SEO Friendly URLs on OutSystems on-premises environments, you have to install ISAPI Filters in your Internet Information Services (IIS). For that, follow the steps described in the ‘Installing ISAPI Filters’ section. Regarding logging, useful for you to detect errors or malfunctions, check the ‘Logging’ section to see how to turn logging on (and off).
 

@@ -216,6 +216,8 @@
     - placeholder: Upgrading
     - topics:
         - href: enterprise/upgrade/upgrade-platform.md
+        - href: enterprise/upgrade/upgrade-platform-module-prep.md
+        - href: enterprise/upgrade/upgrade-platform-errors.md
         - href: enterprise/upgrade/balanced-upgrade-highly-loaded-farms.md
         - href: enterprise/upgrade/how-are-versions-numbered.md
         - href: enterprise/upgrade/increase-computing-power-infrastructure.md
@@ -309,6 +311,7 @@
             - href: enterprise/troubleshooting/unable-register-front-end.md  
             - href: enterprise/troubleshooting/it-users-vs-app-users.md                  
             - href: enterprise/troubleshooting/library-hell.md                      
+            - href: enterprise/troubleshooting/multilingual.md                      
             - href: enterprise/troubleshooting/wia-popup-shows.md
             - href: enterprise/troubleshooting/could-not-create-fk.md
             - href: enterprise/troubleshooting/app-not-in-users.md
@@ -344,6 +347,14 @@
     - href: personal/error-host-not-found.md
     - href: personal/upgrade-latest-version.md
     - href: personal/whats-a-personal.md
+
+# Forge
+- placeholder: Forge Components
+- topics:
+    - placeholder: Forge FAQs
+    - topics:
+        - href: forge/trusted-requirements.md
+
 
 # Archive
 - placeholder: Archive
