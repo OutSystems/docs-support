@@ -4,11 +4,11 @@ tags:
 en_title: OS-INBL-API-00008
 ---
 
-# OS-INBL-API-00008 - No integration was found for the "Key" with &lt;value&gt;.
+# OS-INBL-API-00008 - No integration was found for the "Key" with 'value'.
 
 ## Error message
 
-`No integration was found for the "Key" with value.`
+`No integration was found for the "Key" with <value>.`
 
 ## Cause
 

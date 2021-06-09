@@ -4,10 +4,11 @@ tags:
 en_title: OS-INBL-GEN-00032
 ---
 
-# OS-INBL-GEN-00032 - Publish failed with an error: &lt;OriginalErrorMessage&gt; For more details, check the Service Center Error logs of the remote server.
+# OS-INBL-GEN-00032 - Publish failed with an error: 'OriginalErrorMessage' For more details, check the Service Center Error logs of the remote server.
 
 ## Error message
-`Publish failed with an error: "<"OriginalErrorMessage">" For more details, check the Service Center Error logs of the remote server.`
+
+`Publish failed with an error: "<OriginalErrorMessage>" For more details, check the Service Center Error logs of the remote server.`
 
 ## Cause
 

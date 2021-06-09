@@ -4,11 +4,11 @@ tags:
 en_title: OS-INBL-API-20000
 ---
 
-# OS-INBL-API-20000 - "["&lt;"ErrorCode"&gt;"] "&lt;"Message"&gt;"
+# OS-INBL-API-20000 - "['ErrorCode'] 'Message'"
 
 ## Error message
 
-`"["<"ErrorCode">"] "<"Message">"`
+`"[<ErrorCode>] <Message>"`
 
 ## Cause
 

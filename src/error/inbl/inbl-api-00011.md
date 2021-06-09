@@ -4,7 +4,7 @@ tags:
 en_title: OS-INBL-API-00011
 ---
 
-# OS-INBL-API-00011 - Environment &lt;Hostname&gt; isn't authorized to access the Integration Builder. Contact OutSystems Support to confirm its authorization.
+# OS-INBL-API-00011 - Environment 'Hostname' isn't authorized to access the Integration Builder. Contact OutSystems Support to confirm its authorization.
 
 ## Error message
 
