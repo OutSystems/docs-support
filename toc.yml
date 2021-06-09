@@ -5,6 +5,9 @@
     # Extensibility
     - href: enterprise/extensibility/extensibility.md
 
+    # Tech debt
+    - href: enterprise/tech-debt/tech-debt.md
+
     # Integrations
     - href: enterprise/integrations/integrate-ecosystem.md
 
@@ -111,7 +114,6 @@
         - href: enterprise/maintenance/ip-range-cloud.md     
         - href: enterprise/maintenance/viewport-fit-issue.md
         - href: enterprise/maintenance/disk-space-usage-control.md
-        - href: enterprise/maintenance/transition-cloud-on-prem.md
         - href: enterprise/maintenance/protect-android-ios-certificate.md
         - href: enterprise/maintenance/build-multi-tenant-app.md
         - href: enterprise/maintenance/find-ssid-activation-code.md
