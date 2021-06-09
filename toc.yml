@@ -5,9 +5,6 @@
     # Extensibility
     - href: enterprise/extensibility/extensibility.md
 
-    # Tech debt
-    - href: enterprise/tech-debt/tech-debt.md
-
     # Integrations
     - href: enterprise/integrations/integrate-ecosystem.md
 
@@ -114,6 +111,7 @@
         - href: enterprise/maintenance/ip-range-cloud.md     
         - href: enterprise/maintenance/viewport-fit-issue.md
         - href: enterprise/maintenance/disk-space-usage-control.md
+        - href: enterprise/maintenance/transition-cloud-on-prem.md
         - href: enterprise/maintenance/protect-android-ios-certificate.md
         - href: enterprise/maintenance/build-multi-tenant-app.md
         - href: enterprise/maintenance/find-ssid-activation-code.md
@@ -437,3 +435,27 @@
         - href: security/develop-secure-apps/encryption-ssl-tls.md
         - href: security/develop-secure-apps/csrf-attacks.md
         - href: security/develop-secure-apps/redirects-forwarders-vulnerabilities.md
+
+# Error reference documentation
+- href: error/intro.md
+- topics:
+    #Integration Builder
+    - href: error/inbl/intro.md
+    - topics:
+        - href: error/inbl/inbl-api-00004.md
+        - href: error/inbl/inbl-api-00008.md
+        - href: error/inbl/inbl-api-00011.md
+        - href: error/inbl/inbl-api-00021.md
+        - href: error/inbl/inbl-api-00028.md
+        - href: error/inbl/inbl-api-00033.md
+        - href: error/inbl/inbl-api-00050.md
+        - href: error/inbl/inbl-api-00061.md
+        - href: error/inbl/inbl-api-00069.md
+        - href: error/inbl/inbl-api-00070.md
+        - href: error/inbl/inbl-api-20000.md
+        - href: error/inbl/inbl-gen-00032.md
+        - href: error/inbl/inbl-gen-50002.md
+        - href: error/inbl/inbl-gen-50004.md
+        - href: error/inbl/inbl-gen-50005.md
+        - href: error/inbl/inbl-gen-50028.md
+
