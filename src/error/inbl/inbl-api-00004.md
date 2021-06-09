@@ -1,4 +1,4 @@
-﻿---
+---
 summary:
 tags:
 en_title: OS-INBL-API-00004
