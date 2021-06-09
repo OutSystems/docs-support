@@ -4,7 +4,7 @@ tags:
 en_title: OS-INBL-API-00028
 ---
 
-# OS-INBL-API-00028 - The connection was updated locally, but we could not update the connection on the Microsoft's servers. You'll need to access Microsoft Azure Active Diretory if you want to update it manually. Error details: &lt;Message&gt;
+# OS-INBL-API-00028 - The connection was updated locally, but we could not update the connection on the Microsoft's servers. You'll need to access Microsoft Azure Active Diretory if you want to update it manually. Error details: 'Message'
 
 ## Error message
 
