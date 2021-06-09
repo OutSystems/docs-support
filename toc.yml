@@ -428,9 +428,23 @@
 
 # Error reference documentation
 - href: error/intro.md
-#- topics:
+- topics:
     #Integration Builder
-    #- href: error/inbl/intro.md
-    #- topics:
-        #- href: error/inbl/aaaa-bbbb-09999.md
+    - href: error/inbl/intro.md
+    - topics:
+        - href: error/inbl/inbl-api-00004.md
+        - href: error/inbl/inbl-api-00008.md
+        - href: error/inbl/inbl-api-00011.md
+        - href: error/inbl/inbl-api-00021.md
+        - href: error/inbl/inbl-api-00033.md
+        - href: error/inbl/inbl-api-00050.md
+        - href: error/inbl/inbl-api-00061.md
+        - href: error/inbl/inbl-api-00069.md
+        - href: error/inbl/inbl-api-00070.md
+        - href: error/inbl/inbl-api-20000.md
+        - href: error/inbl/inbl-gen-00032.md
+        - href: error/inbl/inbl-gen-50002.md
+        - href: error/inbl/inbl-gen-50004.md
+        - href: error/inbl/inbl-gen-50005.md
+        - href: error/inbl/inbl-gen-50028.md
 
