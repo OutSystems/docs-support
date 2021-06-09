@@ -3,21 +3,22 @@ summary: This article describes the steps to deploy an application into a highly
 tags: support-Infrastuture_Architecture; support-maintenance
 ---
 
-# Balanced Application Deployment on Highly Loaded OutSystems Farms
+# Balanced application deployment
 
-OutSystems hot-deploys the new versions of your applications with no downtime. However, for highly loaded farm environments, our recommendation is that you perform a balanced application deployment.
+OutSystems hot-deploys the new versions of your applications with no downtime. At any time, it's possible to [rollback to a previous version](https://success.outsystems.com/Documentation/11/Managing_the_Applications_Lifecycle/Deploy_Applications/Rollback_to_a_Previous_Version) if, for example, critical bugs are detected.
+
+For highly loaded farm environments, our recommendation is that you perform a balanced application deployment.
 
 This article describes the steps to deploy an application into a highly loaded OutSystems farm environment. The deployment process is balanced throughout the existing front-ends, guaranteeing no downtime for the applications.
 
 ![Highly loaded farm environment](images/balanced-app-deploy-1.png?width=700)
 
-This operation applies only to **on-premises** or **private cloud** installations.
 
 ## Prerequisites
 
 For the execution of this procedure, the following requirements must be met:
 
-* Have an **on-premises** or **private cloud** installation.
+* Have an on-premises or private cloud installation.
 
 * Have a **network load balancing mechanism** for distributing the application traffic between the front-ends.
 

@@ -3,7 +3,7 @@ summary: How to perform no-downtime deployments when deploying OutSystems applic
 tags: article-page
 ---
 
-# Upgrading Apps Deployed to Container Technologies with No Downtime
+# Deployment strategies with containers
 
 <div class="info" markdown="1">
 
@@ -45,7 +45,7 @@ Blue-Green
 
     ![Blue-Green deployment strategy diagram](images/strategy-blue-green.jpg?width=750)
 
-Rolling Update
+Rolling Update or Canary Deployment
 :   The rolling update strategy is a deployment strategy where the application is updated in a incremental fashion. Each container with the new application version is launched, replacing the old version. This process is done incrementally for each replica.
 
     This strategy optimizes resource usage and it's ideal for version updates.

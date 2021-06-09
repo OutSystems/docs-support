@@ -66,6 +66,12 @@
         - href: enterprise/install/lifetime-roles.md
         - href: enterprise/install/size-environment-run-infra-mgmt-console.md
         - href: enterprise/install/add-front-end/add-front-end.md    
+    
+
+    # OutSystems Support
+    - placeholder: OutSystems Support
+    - topics:
+        - href: enterprise/outsystems-support/deactivate-support-email.md
 
     # Maintenance and Operations
     - placeholder: Maintenance and Operations
@@ -134,6 +140,7 @@
         - href: enterprise/maintenance/timezone-considerations.md
         - href: enterprise/maintenance/chrome-samesite-cookie-changes.md
         - href: enterprise/maintenance/dotnet-connection-strings-sql-server.md
+        - href: enterprise/maintenance/change-ac.md
         
         # Monitoring
         - href: enterprise/maintenance/monitoring/monitoring.md
@@ -304,6 +311,7 @@
             - href: enterprise/troubleshooting/slow-publishing-117x.md
             - href: enterprise/troubleshooting/test-env-connectivity.md
             - href: enterprise/troubleshooting/mabs/troubleshoot-issues-with-mabs-5.md
+            - href: enterprise/troubleshooting/plugins-appshield/intro.md
             - href: enterprise/troubleshooting/troubleshoot-mobile-apps-generation.md
             - href: enterprise/troubleshooting/troubleshoot-platform-server.md        
             - href: enterprise/troubleshooting/truechange-validation-combobox.md                           
@@ -318,6 +326,7 @@
             - href: enterprise/troubleshooting/error-cannot-access-file.md
             - href: enterprise/troubleshooting/troubleshoot-502.md
             - href: enterprise/troubleshooting/cannot-decrypt/cannot-decrypt.md
+            - href: enterprise/troubleshooting/deploy-fail-new-entity-attribute.md
             
             # Known issues
             - href: enterprise/troubleshooting/known-issues/ki-11_10-downtime-CT/ki-11_10-downtime-CT.md
@@ -378,6 +387,7 @@
     - href: security/cloud-certificate-change/cloud-certificate-change.md
     - href: security/penetration-tests.md
     - href: security/rest-headers-hardening.md
+    # - href: security/data-masking.md
 
     # Application Security
     - href: security/app-security/intro.md
