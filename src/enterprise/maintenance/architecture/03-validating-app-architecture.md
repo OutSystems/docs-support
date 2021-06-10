@@ -36,7 +36,7 @@ In this example, **End-user A** is consuming some element of **End-user B** (may
 
 ### What is wrong?
 
-**End-user**or **Orchestration**modules should not provide reusable services. This ensures that they are correctly isolated, allowing them to have different lifecycles - different versioning paces due to different sponsors or project teams.
+**End-user** or **Orchestration** modules should not provide reusable services. This ensures that they are correctly isolated, allowing them to have different lifecycles - different versioning paces due to different sponsors or project teams.
 
 This isolation is critical since **End-users** and **Orchestrations** are at the top of the hierarchy. A reference to suchs modules tends to bring along a huge set of indirect dependencies from lower layers.
 
