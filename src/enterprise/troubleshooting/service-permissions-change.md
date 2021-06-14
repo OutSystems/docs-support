@@ -1,13 +1,13 @@
--------
+---
 summary: Troubleshoot a permissions-related error when you upgrade or install the Platform Server.
-Tags: 
--------
+tags: 
+---
 
-# Installation fails with error about service permissions
+# Installation fails with service permissions error
 
 ## Symptoms
 
-Your on-premises installation fails when you install or upgrade to Platform Server 11.12.0 or later. You see the following message about a failure to change service permisions.
+Your on-premises installation fails when you install or upgrade to Platform Server 11.12.0 or later. You see the following message about a failure to change permisions of services.
 
 ![](images/install-fail-permissions.png)
 
@@ -15,7 +15,7 @@ Your on-premises installation fails when you install or upgrade to Platform Serv
 
 In earlier versions, the Platform Server runs the Deployment Control service and the Scheduler service in the context of the Windows Local System account. This account has higher permissions than these services require. Starting with Platform Server 11.12.0, installation includes a powershell script that creates two new user accounts with lower permissions. The Deoployment Control and Scheduler services then run within the context of these lower-privilege accounts. See the table below for account details.
 
-Active Directory settings can block the installation script from creating users and changing policies associated with them. If OutSytems finds that  these services run with the Local System account, and it can't create new accounts, you see this error message. 
+Active Directory settings can block the installation script from creating users and from changing policies associated with them. If the script finds that these services run with the Local System account, and it can't create new accounts, you see this error message. 
 
 ## Resolution
 
