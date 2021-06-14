@@ -1,5 +1,5 @@
 ---
-summary: OutSystems is deactivating the support@outsystems.com email in favor of creating tickets through the Support Portal or contacting us by phone.
+summary: OutSystems is deactivating the email ticket-creation process thorugh support@outsystems.com.
 ---
 
 # Change to our email support channel

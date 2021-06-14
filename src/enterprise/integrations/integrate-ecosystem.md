@@ -397,7 +397,7 @@ Azure Machine Learning Studio publishes models as web services that can easily b
 
 ### Machine Learning Builder
 
-Machine Learning (ML) Builder, currently available through the OutSystems [Early Access Program](https://www.outsystems.com/eap/), is a cloud tool to help create apps with predictive capabilities using its built-in machine learning features. ML Builder requires only basic knowledge of machine learning concepts. The user interface guides developers through the process of connecting to your data and training a model. Once a model is ready, ML Builder exposes server actions to:
+[Machine Learning (ML) Builder](https://mlbuilder.outsystems.com/MLBuilder/Login) is a cloud tool to help create apps with predictive capabilities using its built-in machine learning features. ML Builder requires only basic knowledge of machine learning concepts. The user interface guides developers through the process of connecting to your data and training a model. Once a model is ready, ML Builder exposes server actions to:
 
 *   Build the logic of an app
 *   Create back-ends for administrators
