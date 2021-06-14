@@ -152,7 +152,7 @@
         - href: enterprise/maintenance/timezone-considerations.md
         - href: enterprise/maintenance/chrome-samesite-cookie-changes.md
         - href: enterprise/maintenance/dotnet-connection-strings-sql-server.md
-        - href: enterprise/maintenance/moving-os-infra-newactiv.md
+        #- href: enterprise/maintenance/moving-os-infra-newactiv.md
         - href: enterprise/maintenance/sql-compatibility-upgrade.md
         - href: enterprise/maintenance/change-ac.md
         
