@@ -21,7 +21,7 @@ Active Directory settings can block the installation script from creating users 
 
 Change your Active Directory settings to allow user and policy changes. You can use the Group Policy manager in Windows to change settings.
 
-Notes: 
+### Notes 
 
 * The Deployment Service requires higher privileges and continues to run in the context of the Local System account. 
 
