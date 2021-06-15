@@ -24,7 +24,9 @@ Change your Active Directory settings to allow user and policy changes. You can 
 Notes: 
 
 * The Deployment Service requires higher privileges and continues to run in the context of the Local System account. 
+
 * To check your current settings, open the Windows Services application and locate the Deployment Controller Service and Scheduler Service. Check the account name in the **Log On As** column. 
+
 * In your current environment, if the Deployment Controller Service and Scheduler Service don’t run in the context of the Local System user, then the script doesn't try to create new users. It assumes you’ve already changed permissions manually, and the installation completes. 
 
 ## Service and user details
