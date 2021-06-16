@@ -8,7 +8,7 @@ en_title: OS-INBL-API-00004
 
 ## Error message
 
-`User with this username <Username> was not found.`
+`User with username <Username> was not found.`
 
 ## Cause
 
