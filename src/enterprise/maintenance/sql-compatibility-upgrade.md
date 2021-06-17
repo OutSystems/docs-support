@@ -4,7 +4,7 @@ summary: Upgrade procedure for Microsoft SQL Server 2019  (15.x) to safeguard co
 
 # Upgrading SQL Server to a new compatibility level
 
-OutSystems platform 11.12 supports Microsoft SQL Server 2019  (15.x).  Customers with self-managed installations may choose to upgrade to this database engine, either to remain up-to-date or because of company compliance requirements. 
+OutSystems Platform Server 11.12.0 supports Microsoft SQL Server 2019  (15.x).  Customers with self-managed installations may choose to upgrade to this database engine, either to remain up-to-date or because of company compliance requirements. 
 
 By following the upgrade process described in this article, you can also safeguard correct application behavior for databases created with lower SQL Server compatibility levels.
 
@@ -18,7 +18,7 @@ This article discusses two possible paths for your operations/infrastructure tea
 Follow the procedure below to perform an upgrade in place.
 
 1. Stop [OutSystems Services](https://success.outsystems.com/Support/Enterprise_Customers/Troubleshooting/Manually_starting_services_of_the_OutSystems_Platform_-_how-to_and_caveats#Starting_services) and [IIS](https://docs.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2012-r2-and-2012/jj635851(v=ws.11)) to prevent database changes during the SQL Server engine upgrade.
-2. Create a backup of the platform, log. and session databases. Verify that this backup can be restored if needed.
+2. Create a backup of the platform, log, and session databases. Verify that this backup can be restored if needed.
 3. [Upgrade the SQL Server engine version](https://docs.microsoft.com/en-us/sql/database-engine/install-windows/supported-version-and-edition-upgrades-version-15?view=sql-server-ver15).
 4. Change the compatibility level of the platform, log, and session databases.
 5. Rebuild all indexes of the platform, log, and session databases.
