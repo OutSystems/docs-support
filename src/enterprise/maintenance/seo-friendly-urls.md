@@ -5,6 +5,8 @@ tags: runtime-traditionalweb
 
 # Customize or redirect the application URL
 
+<!-- Help id 30374 links to this document. -->
+
 The URLs that are easy to read, memorize, and type contribute to great user experience (UX) and search engine optimization (SEO). OutSystems lets you configure the app URLs for UX and SEO. This guide describes the available techniques to simplify the URLs of the Traditional Web Apps.
 
 Applying these techniques promotes SEO because the search engines (and users) give more relevance to friendly URLs. Furthermore, you're allowed to configure URLs for duplicate content across different domains, and to handle broken links from former indexed results when your URLs change.
@@ -156,8 +158,9 @@ If you are using the OutSystems PaaS, the necessary configurations are already a
 
 ### Installing ISAPI Filters 
 
-The OutSystems Platform works with ISAPI Filters installed in Microsoft Internet Information Services (IIS).
-To install the ISAPI Filter in Microsoft IIS, perform the following steps (instructions based on Windows Server 2016 and IIS 10.0):
+<!-- Help id 30374 links to this section. Edit the URL mapping if you change the title / URL of the doc. -->
+
+The OutSystems Platform works with ISAPI Filters installed in Microsoft Internet Information Services (IIS). To install the ISAPI Filter in Microsoft IIS, perform the following steps (instructions based on Windows Server 2016 and IIS 10.0):
 
 1. Make sure you have followed all the steps in the OutSystems Platform Server installation checklist;
 
