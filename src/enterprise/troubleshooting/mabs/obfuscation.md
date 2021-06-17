@@ -52,7 +52,7 @@ For more information about logs, see:
 Customized and non-supported mobile plugins might not work correctly with obfuscation. Unexpected results, app errors or a crashes, might occur because of obfuscation with any of the following:
 
 * A misconfigured dependency
-* Java code plugins or code from libraries imported using Gradie or JAR/AAR file
+* Java code plugins or code from libraries imported using Gradle or JAR/AAR file
 * Reflection to perform operations based on class/method name 
 
 For example, different class names can cause a ClassNotFound exception, or different method names can cause a MethodNotFound exception. Getting a `ClassNotFoundException` or `MethodNotFoundException` at runtime is a sign you're missing classes or methods. The class or method name might be obfuscated or missing because of some misconfigured dependencies.
