@@ -5,9 +5,9 @@ tags: support-devOps; support-upgrade
 
 # Modules preparation step during Platform Server upgrade
 
-Starting from **Platform Server 11.12**, the upgrade process includes a new **modules preparation** step.
+Starting from **Platform Server 11.12.0**, the upgrade process includes a new **modules preparation** step.
 
-When [upgrading your OutSystems environment](upgrade-platform.md#upgrade-ps) from **Platform Server 11.x** to **Platform Server 11.12 or later**, the Platform Server installation starts **preparing your modules** for the new version.
+When [upgrading your OutSystems environment](upgrade-platform.md#upgrade-ps) from **Platform Server 11.x** to **Platform Server 11.12.0 or later**, the Platform Server installation starts **preparing your modules** for the new version.
 
 During this step, the Platform Server performs a **background compilation** of all your modules using the new platform version, but it doesn't deploy them. Your running applications aren't changed during the upgrade.
 

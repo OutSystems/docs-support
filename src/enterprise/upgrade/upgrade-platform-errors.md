@@ -5,9 +5,9 @@ tags: support-devOps; support-upgrade
 
 # Possible errors when upgrading the Platform Server
 
-Starting from **Platform Server 11.12**, the [upgrade process](upgrade-platform.md) includes a new **modules preparation** step.
+Starting from **Platform Server 11.12.0**, the [upgrade process](upgrade-platform.md) includes a new **modules preparation** step.
 
-This article describes the possible errors that you can get during or after a [Platform Server upgrade](upgrade-platform.md) to Platform Server 11.12 or later, and the guidelines on how to proceed for each case.
+This article describes the possible errors that you can get during or after a [Platform Server upgrade](upgrade-platform.md) to Platform Server 11.12.0 or later, and the guidelines on how to proceed for each case.
 
 <a id="error-prep-modules"></a>
 

@@ -66,7 +66,7 @@ The second phase is the planning. Based on the breaking changes identified on th
 
 <div class="info" markdown="1">
 
-If you are upgrading from **Platform Server 11.x** to **Platform Server 11.12 or later**, after the Platform Server is upgraded, you can **publish your applications gradually**, following your teams' pace.
+If you are upgrading from **Platform Server 11.x** to **Platform Server 11.12.0 or later**, after the Platform Server is upgraded, you can **publish your applications gradually**, following your teams' pace.
 
 In the following upgrade scenarios, you must **publish all your applications** after the Platform Server is upgraded:
 
@@ -158,7 +158,7 @@ In the OutSystems Cloud, the process of upgrading the Platform Server is handled
     * [OutSystems UI Web Screen Templates](https://www.outsystems.com/forge/4146/)
     * [OutSystems Sample Data](https://www.outsystems.com/forge/4145/)
 
-1. If you are upgrading from **Platform Server 11.x** to **Platform Server 11.12 or later**, you receive an email indicating that the Platform Server has been upgraded in your environment, and OutSystems is now [preparing your modules](upgrade-platform-module-prep.md) for the new version. This operation takes place outside your maintenance window as it doesn't require any downtime. Once the modules preparation step finishes, you are able to [publish your applications in the new version](#upgrade-apps), at your own pace.
+1. If you are upgrading from **Platform Server 11.x** to **Platform Server 11.12.0 or later**, you receive an email indicating that the Platform Server has been upgraded in your environment, and OutSystems is now [preparing your modules](upgrade-platform-module-prep.md) for the new version. This operation takes place outside your maintenance window as it doesn't require any downtime. Once the modules preparation step finishes, you are able to [publish your applications in the new version](#upgrade-apps), at your own pace.
 
 <div class="info" markdown="1">
 
@@ -184,7 +184,7 @@ In the Installation Checklist, select the corresponding upgrade option, and foll
 
     ![](images/upgrade-checklist.png?width=800)
 
-If you are upgrading from **Platform Server 11.x** to **Platform Server 11.12 or later**, the Platform Server installer starts [preparing your modules](upgrade-platform-module-prep.md) for the new version.
+If you are upgrading from **Platform Server 11.x** to **Platform Server 11.12.0 or later**, the Platform Server installer starts [preparing your modules](upgrade-platform-module-prep.md) for the new version.
 
 When you click **Apply and Exit** in the Configuration Tool, as described in the Installation Checklist, you must confirm the execution of the following steps:
 
@@ -216,7 +216,7 @@ At this stage, it's important you have your teams' availability to perform the n
 
 </div>
 
-If you are upgrading from **Platform Server 11.x** to **Platform Server 11.12 or later**, after the upgrade, you can **publish your applications gradually**, following your teams' pace. You can only start publishing your applications after the [modules preparation step](upgrade-platform-module-prep.md) finishes. [Check the progress](upgrade-platform-module-prep.md#progress) of the modules preparation step in Service Center. You can also opt to **publish all your applications** by this time, but it's not a mandatory step.
+If you are upgrading from **Platform Server 11.x** to **Platform Server 11.12.0 or later**, after the upgrade, you can **publish your applications gradually**, following your teams' pace. You can only start publishing your applications after the [modules preparation step](upgrade-platform-module-prep.md) finishes. [Check the progress](upgrade-platform-module-prep.md#progress) of the modules preparation step in Service Center. You can also opt to **publish all your applications** by this time, but it's not a mandatory step.
 
 In the following upgrade scenarios, you must **publish all your applications** after the Platform Server is upgraded:
 
