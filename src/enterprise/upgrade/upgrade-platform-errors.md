@@ -1,9 +1,9 @@
 ---
-summary: Check here for the possible errors that you can get when upgrading your OutSystems environment to a new Platform Server version, and how to proceed for each case.
+summary: Check here for the possible errors related to the modules preparation step when upgrading your OutSystems environment to a new Platform Server version, and how to proceed for each case.
 tags: support-devOps; support-upgrade
 ---
 
-# Possible errors when upgrading the Platform Server
+# Possible errors related to modules preparation
 
 Starting from **Platform Server 11.12.0**, the [upgrade process](upgrade-platform.md) includes a new **modules preparation** step.
 
