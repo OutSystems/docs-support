@@ -21,7 +21,7 @@ In all cases, once an integration has been created and added to your environment
 
 The integrations available include:
 
-*   Web services to both consume and expose [REST](https://success.outsystems.com/Documentation/11/Extensibility_and_Integration/REST/Consume_REST_APIs)and [SOAP](https://success.outsystems.com/Documentation/11/Extensibility_and_Integration/SOAP/Consuming_SOAP_Web_Services)
+*   Web services to both consume and expose [REST](https://success.outsystems.com/Documentation/11/Extensibility_and_Integration/REST/Consume_REST_APIs) and [SOAP](https://success.outsystems.com/Documentation/11/Extensibility_and_Integration/SOAP/Consuming_SOAP_Web_Services)
 *   External databases
 *   Enterprise SoR (System of Record) for managing sales and collaboration
 *   End-user authentication
