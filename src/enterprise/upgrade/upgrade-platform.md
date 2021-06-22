@@ -153,6 +153,7 @@ In the OutSystems Cloud, the process of upgrading the Platform Server is handled
     * [OutSystems UI Web](https://www.outsystems.com/forge/4143/)
     * [OutSystems Charts](https://www.outsystems.com/forge/4141/)
     * [OutSystems Charts Web](https://www.outsystems.com/forge/4142/)
+    * [OutSystems Maps](https://www.outsystems.com/forge/component-overview/9909/)
     * [OutSystems UI Templates Mobile](https://www.outsystems.com/forge/4148/)
     * [OutSystems UI Templates Reactive](https://www.outsystems.com/forge/6335/)
     * [OutSystems UI Web Screen Templates](https://www.outsystems.com/forge/4146/)
