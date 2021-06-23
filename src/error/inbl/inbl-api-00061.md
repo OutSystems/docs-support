@@ -1,10 +1,9 @@
 ---
-summary:
+summary: Internal server error. If this problem persists, contact OutSystems support.
 tags:
-en_title: OS-INBL-API-00061
 ---
 
-# OS-INBL-API-00061 - Internal server error. If this problem persists, contact OutSystems support
+# OS-INBL-API-00061
 
 ## Error message
 

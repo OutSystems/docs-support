@@ -1,10 +1,9 @@
 ---
-summary:
+summary: There was an authentication error. Sign out and sign in again.
 tags:
-en_title: OS-INBL-API-20005
 ---
 
-# OS-INBL-API-20005 - There was an authentication error. Sign out and sign in again.
+# OS-INBL-API-20005
 
 ## Error message
 

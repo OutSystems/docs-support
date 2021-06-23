@@ -1,10 +1,9 @@
 ---
-summary:
+summary: "[<ErrorCode>] <Message>", a Salesforce error message.
 tags:
-en_title: OS-INBL-API-20000
 ---
 
-# OS-INBL-API-20000 - "['ErrorCode'] 'Message'"
+# OS-INBL-API-20000
 
 ## Error message
 

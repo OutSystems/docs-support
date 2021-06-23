@@ -1,10 +1,9 @@
 ---
-summary:
+summary: There was an error contacting an internal service.
 tags:
-en_title: OS-INBL-API-00070
 ---
 
-# OS-INBL-API-00070 - There was an error contacting an internal service.
+# OS-INBL-API-00070
 
 ## Error message
 

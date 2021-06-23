@@ -1,10 +1,9 @@
 ---
-summary:
+summary: This is an automated message returned by the external system The session ID or OAuth token used has expired or is invalid. The response body contains the message and errorCode.
 tags:
-en_title: OS-INBL-API-00050
 ---
 
-# OS-INBL-API-00050 - This is an automated message returned by the external system: The session ID or OAuth token used has expired or is invalid. The response body contains the message and errorCode.
+# OS-INBL-API-00050
 
 ## Error message
 

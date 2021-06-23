@@ -1,10 +1,9 @@
 ---
-summary:
+summary: User with username <Username> was not found.
 tags:
-en_title: OS-INBL-API-00004
 ---
 
-# OS-INBL-API-00004 - User with username 'Username' was not found.
+# OS-INBL-API-00004
 
 ## Error message
 

@@ -1,10 +1,9 @@
 ---
-summary:
+summary: No integration was found for the "Key" with <value>.
 tags:
-en_title: OS-INBL-API-00008
 ---
 
-# OS-INBL-API-00008 - No integration was found for the "Key" with 'value'.
+# OS-INBL-API-00008
 
 ## Error message
 

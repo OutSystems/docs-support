@@ -1,10 +1,9 @@
 ---
-summary:
+summary: The connection was deleted locally, but we could not delete the connection on the Microsoft's servers. You'll need to access Microsoft Azure Active Diretory if you want to delete it manually. Error details "<"Message">".
 tags:
-en_title: OS-INBL-API-00030
 ---
 
-# OS-INBL-API-00030 - The connection was deleted locally, but we could not delete the connection on the Microsoft's servers.
+# OS-INBL-API-00030
 
 ## Error message
 

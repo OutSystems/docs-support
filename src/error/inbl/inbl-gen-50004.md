@@ -1,10 +1,9 @@
 ---
-summary:
+summary: There was an unexpected error. If the problem persists, contact OutSystems Support`
 tags:
-en_title: OS-INBL-GEN-50004
 ---
 
-# OS-INBL-GEN-50004 - There was an unexpected error. If the problem persists, contact OutSystems Support
+# OS-INBL-GEN-50004
 
 ## Error message
 

@@ -1,10 +1,9 @@
 ---
-summary:
+summary: There was an error contacting an internal service.
 tags:
-en_title: OS-INBL-API-00069
 ---
 
-# OS-INBL-API-00069 - There was an error contacting an internal service.
+# OS-INBL-API-00069
 
 ## Error message
 

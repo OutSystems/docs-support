@@ -1,14 +1,13 @@
 ---
-summary:
+summary: There was an unexpected error. If the problem persists, contact OutSystems Support.
 tags:
-en_title: OS-INBL-GEN-50028
 ---
 
-# OS-INBL-GEN-50028 - There was an unexpected error. If the problem persists, contact OutSystems Support
+# OS-INBL-GEN-50028
 
 ## Error message
 
-`There was an unexpected error. If the problem persists, contact OutSystems Support`
+`There was an unexpected error. If the problem persists, contact OutSystems Support.`
 
 ## Cause
 
