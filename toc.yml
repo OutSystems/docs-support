@@ -286,6 +286,9 @@
         - href: enterprise/upgrade/upgrade-integer-long-integer.md
         - href: enterprise/upgrade/upgrade-lifetime.md
         - href: enterprise/upgrade/lifetime-versions.md
+        
+        # Migrate to the new Analytics mobile plugin        
+        - href: enterprise/upgrade/analytics-plugin/intro.md
 
     # Troubleshooting        
     - placeholder: Troubleshooting
