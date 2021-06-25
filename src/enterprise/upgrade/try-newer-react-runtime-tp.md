@@ -57,6 +57,14 @@ All unknown HTML attributes now show in the resulting HTML. React previously rem
 
 For related React documentation see [DOM Attributes in React 16](https://reactjs.org/blog/2017/09/08/dom-attributes-in-react-16.html).
 
+### Option HTML element only allows text as children
+
+By definition, the `option` HTML element only allows text as children. This is now enforced by React 16 and all children of an `option` element are now stringified, which may result in rendering `[object Object]` when that children is another HTML element, like a `span`.
+
+This affects custom implementations of a native dropdown making use of HTML Element widgets with an `option` tag. This pattern can instead be implemented using a Dropdown widget with the "Options Content" property set to `Text Only`.
+
+A temporary workaround is to remove the children of the `option` element and create a `label` attribute with the desired text.
+
 ## Known issues
 
 Here is the list of known issues that the OutSystems development team identified and is now **working to fix in a stable runtime release**.
