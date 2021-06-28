@@ -154,6 +154,7 @@
         - href: enterprise/maintenance/dotnet-connection-strings-sql-server.md
         - href: enterprise/maintenance/sql-compatibility-upgrade.md
         - href: enterprise/maintenance/change-ac.md
+        - href: enterprise/maintenance/iis-tuning.md
         
         # Monitoring
         - href: enterprise/maintenance/monitoring/monitoring.md

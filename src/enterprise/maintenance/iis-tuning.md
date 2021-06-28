@@ -29,11 +29,7 @@ The values of the attributes above are set based on the following rules:
 * minLocalRequestFreeThreads = 76 x `<Number of CPUs>`
 * maxConnection = `Int32.MaxValue`
 
-<!--- Even though setting autoconfig to true is the recommended setting, this doesn't work well with bursts of requests. IIS worker process analyses its state in a period of time too slow for it to react to handle a burst of requests. This configuration works better in steady increases in the workload. THIS WAS THE ORIGINAL WRITING AND I CHANGED IT TO THE BELOW PARAGRAPH, CHECKING IF I HAVEN'T CHANGED THE MEANING-->
-
-Even though setting autoconfig to true is the recommended setting, this doesn't work well with bursts of requests. Instead, this configuration is recommended for steady increases in the workload.
-
-The period of time IIS worker process takes to analyse its state is not adequate to react to a burst of requests. To account for this situation, you can tweak the values of the attributes.
+Even though setting autoconfig to true is the recommended setting, this doesn't work well with bursts of requests. IIS worker process analyses its state in a period of time too slow for it to react to handle a burst of requests. This configuration works better in steady increases in the workload. 
 
 * **minIoThreads**: to a value between `89` and `<maxIoThreads>`
 * and **minWorkerThreads**: to a value between `89` and `<maxWorkerThreads>`
