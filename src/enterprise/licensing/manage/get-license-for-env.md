@@ -45,7 +45,7 @@ Click '**Register Environment**', and **enter the Serial Number** and [**Service
 ![](images/get-license-for-env_3.png)
 
 <div class="info" markdown="1">
-Don't have any more environments available? See [how to free up an existing environment](https://success.outsystems.com/Support/Enterprise_Customers/Licensing/Manage_and_Upgrade/05_How_to_free_up_an_existing_environment_in_licensing) or contact your OutSystems account manager.
+Don't have any more environments available? See [how to free up an existing environment](free-up-environment.md) or contact your OutSystems account manager.
 </div>
 
 ### Getting the license file
@@ -68,5 +68,4 @@ Upon receiving the email above, any of the recipients can review your request an
 
 ## More Information
 
-To learn how to install a license in your environment, check [How to install a license file](https://success.outsystems.com/Support/Enterprise_Customers/Licensing/02_Manage_and_Upgrade/04_How_to_install_a_license_file).
-
+To learn how to install a license in your environment, check [How to install a license file](howto-install-license.md).

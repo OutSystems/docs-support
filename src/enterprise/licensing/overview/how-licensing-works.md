@@ -8,11 +8,11 @@ You may subscribe to OutSystems Cloud or use a self-managed infrastructure. A ty
 
 ![](images/how-licensing-works_0.png)
 
-Each OutSystems subscription has a unique [Activation Code](https://success.outsystems.com/Support/Enterprise_Customers/Licensing/Overview/01_How_OutSystems_Platform_licensing_works#What_is_an_Activation_Code.3F) that contains information about your subscription. And each environment has a unique [Serial Number](https://success.outsystems.com/Support/Enterprise_Customers/Licensing/Overview/01_How_OutSystems_Platform_licensing_works#What_is_a_Serial_Number.3F_How_does_it_relate_to_the_Activation_Code.3F) that identifies it.
+Each OutSystems subscription has a unique [Activation Code](#activation-code) that contains information about your subscription. And each environment has a unique [Serial Number](#serial-number) that identifies it.
 
 ## Frequently asked questions
 
-### What is an Activation Code?
+### What is an Activation Code? { #activation-code }
 
 An Activation Code is the unique identifier of your subscription. It has information about the configurations and features you've subscribed, such as:
 
@@ -28,7 +28,7 @@ An Activation Code is the unique identifier of your subscription. It has informa
 
 Your Activation Code won't change regardless of any changes to your subscription. As an example, even if you acquire more environments or change your support level, your Activation Code remains the same.
 
-### What's a serial number, and how does it relate to an Activation Code?
+### What's a serial number, and how does it relate to an Activation Code? { #serial-number }
 
 A Serial Number is a unique identifier of an environment.
 
@@ -46,7 +46,7 @@ No you don't. You only need a license for your cloud or on-premises infrastructu
 
 ### Where do I get my license files?
 
-With the Activation Code of your infrastructure at hand you can download your license files from the [Licensing portal](http://www.outsystems.com/licensing). Check [here](https://success.outsystems.com/Support/Enterprise_Customers/Licensing/02_Manage_and_Upgrade/03_Get_a_license_file_for_an_environment) for the instructions on how to get and install a license file.
+With the Activation Code of your infrastructure at hand you can download your license files from the [Licensing portal](http://www.outsystems.com/licensing). Check [here](../manage/get-license-for-env.md) for the instructions on how to get and install a license file.
 
 ### How to find out what my subscription includes?
 
