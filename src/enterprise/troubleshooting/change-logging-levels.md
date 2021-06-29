@@ -36,7 +36,8 @@ These files can be found at `C:\Program Files\OutSystems\Platform Server\`:
 if the file for configuration tool is missing, you may use [this configuration file](https://success.outsystems.com/@api/deki/files/4019/ConfigurationTool.exe.config?revision=1) as example.
 
 Locate the `LogLevel` and `MyListener` lines.
-If they are not present, add the following XML immediately after the `</configSections>` line:
+
+If they are not present, add the following XML immediately after the `</configSections>` or before the `<startup>` lines:
 
 ```
 <system.diagnostics>
