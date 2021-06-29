@@ -23,4 +23,4 @@ In LifeTime, if you edit the **Extensibility Configurations**, you must encode t
 2. Run the following JavaScript code: `encodeURIComponent("[public-key-certificate]")`.
 3. Copy the output of the command as the new value for the **GooglePlayAppSigningCertificate** key.
 
-For more information about google app signing, see [Google Play App Signing](https://developer.android.com/studio/publish/app-signing#app-signing-google-play).
+For more information about Google app signing, see [Google Play App Signing](https://developer.android.com/studio/publish/app-signing#app-signing-google-play).
