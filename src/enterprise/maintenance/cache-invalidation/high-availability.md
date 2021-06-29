@@ -31,15 +31,15 @@ In the picture above we assume that, after installing both servers, the OutSyste
 
 ### Step 2. Allow nodes to recover from network issues
 
-When RabbitMQ is running with multiple nodes in a cluster there is a chance that "network partition" events may occur, this really just means any case in which the different nodes of a cluster have communication interrupted without any node failing.
+When RabbitMQ is running with multiple nodes in a cluster there's a chance that "network partition" events may occur, which is when the different nodes of a cluster have their communication interrupted but none of the nodes actually failed.
 
-By default RabbitMQ will use a strategy of `ignore` in order to recover when a network partition event is over. This means that manual intervention will be required to re-sync the nodes within the RabbitMQ cluster. In most cases this is not likely to be the preferred behavior.
+By default RabbitMQ will use a strategy of `ignore` in order to recover from a network partition. This means that manual intervention will be required to re-sync the nodes within the RabbitMQ cluster. In most cases this is not likely to be the preferred behavior.
 
-Before you join nodes together it is important to configure a partition handling strategy by updating the `rabbitmq.conf` configuration file on each server.
+Before you join nodes together it's important to configure a partition handling strategy by updating the `rabbitmq.conf` configuration file on each server.
 
 If you installed RabbitMQ via Configuration Tool, the location of the `rabbitmq.conf` file to create or edit will be `%ALLUSERSPROFILE%\RabbitMQ\rabbitmq.conf`. 
 
-See Official RabbitMQ documentation [default configuration locations](<https://www.rabbitmq.com/configure.html#config-location>) to help determine the location of this file if RabbitMQ has been manually installed.
+See Official RabbitMQ documentation [default configuration locations](<https://www.rabbitmq.com/configure.html#config-location>) to determine the location of this file if RabbitMQ was manually installed.
 
 Add the following configuration setting to the `rabbitmq.conf` file.
 
@@ -64,7 +64,7 @@ If you installed RabbitMQ via Configuration Tool, the install folder is located 
 
 With this configuration, when the nodes are aggregated into a cluster they will be able to recover from network partition events without manual intervention.
 
-_Note:_ There are alternatives to the `autoheal` strategy  and you have the ability to apply the strategy that best suits your needs. See the official RabbitMQ documentation [Clustering and Network Partitions](<https://www.rabbitmq.com/partitions.html>) to understand what strategies are available for handling recovery after a network partition event.
+_Note:_ There are alternatives to the `autoheal` strategy and you have the ability to apply the strategy that best suits your needs. See the official RabbitMQ documentation [Clustering and Network Partitions](<https://www.rabbitmq.com/partitions.html>) to understand what strategies are available for handling recovery after a network partition event.
 
 ### Step 3. Aggregate the two nodes into a single cluster
 
