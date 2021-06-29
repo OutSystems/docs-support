@@ -39,7 +39,7 @@ Before you join nodes together it's important to configure a partition handling 
 
 If you installed RabbitMQ via Configuration Tool, the location of the `rabbitmq.conf` file to create or edit will be `%ALLUSERSPROFILE%\RabbitMQ\rabbitmq.conf`. 
 
-See Official RabbitMQ documentation [default configuration locations](<https://www.rabbitmq.com/configure.html#config-location>) to determine the location of this file if RabbitMQ was manually installed.
+Check the official RabbitMQ documentation [default configuration locations](<https://www.rabbitmq.com/configure.html#config-location>) to determine the location of this file if RabbitMQ was manually installed.
 
 Add the following configuration setting to the `rabbitmq.conf` file.
 
@@ -48,7 +48,7 @@ Add the following configuration setting to the `rabbitmq.conf` file.
 
 <div class="info" markdown="1">
 
-You will need to restart the RabbitMQ service for the configuration changes to take effect.
+You'll need to restart the RabbitMQ service for the configuration changes to take effect.
 
 </div>
 
