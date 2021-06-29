@@ -29,7 +29,44 @@ After installing RabbitMQ on two separate machines, each node will be completely
 
 In the picture above we assume that, after installing both servers, the OutSystems platform was configured with the address of "ServerA" for its cache invalidation service.
 
-### Step 2. Aggregate the two nodes into a single cluster
+### Step 2. Allow nodes to recover from network issues
+
+When RabbitMQ is running with multiple nodes in a cluster there's a chance that "network partition" events may occur, which is when the different nodes of a cluster have their communication interrupted but none of the nodes actually failed.
+
+By default RabbitMQ will use a strategy of `ignore` in order to recover from a network partition. This means that manual intervention will be required to re-sync the nodes within the RabbitMQ cluster. In most cases this is not likely to be the preferred behavior.
+
+Before you join nodes together it's important to configure a partition handling strategy by updating the `rabbitmq.conf` configuration file on each server.
+
+If you installed RabbitMQ via Configuration Tool, the location of the `rabbitmq.conf` file to create or edit will be `%ALLUSERSPROFILE%\RabbitMQ\rabbitmq.conf`. 
+
+Check the official RabbitMQ documentation [default configuration locations](<https://www.rabbitmq.com/configure.html#config-location>) to determine the location of this file if RabbitMQ was manually installed.
+
+Add the following configuration setting to the `rabbitmq.conf` file.
+
+    ## Recovery strategy.
+    cluster_partition_handling = autoheal
+
+<div class="info" markdown="1">
+
+You'll need to restart the RabbitMQ service for the configuration changes to take effect.
+
+</div>
+
+To restart the RabbitMQ service and detect config changes on windows do the following:
+1. Open a command-line in the `<RabbitMQ installation folder>\sbin` folder.  
+If you installed RabbitMQ via Configuration Tool, the install folder is located in `<OutSystems install folder>\Platform Server\thirdparty\RabbitMQ Server\rabbitmq_server-<version>`.
+
+1. Run the following commands,
+
+        rabbitmq-service.bat stop
+        rabbitmq-service.bat remove
+        rabbitmq-service.bat install
+
+With this configuration, when the nodes are aggregated into a cluster they will be able to recover from network partition events without manual intervention.
+
+_Note:_ There are alternatives to the `autoheal` strategy and you have the ability to apply the strategy that best suits your needs. See the official RabbitMQ documentation [Clustering and Network Partitions](<https://www.rabbitmq.com/partitions.html>) to understand what strategies are available for handling recovery after a network partition event.
+
+### Step 3. Aggregate the two nodes into a single cluster
 
 <div class="info" markdown="1">
 
