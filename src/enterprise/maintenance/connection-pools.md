@@ -1,12 +1,12 @@
 ---
-summary: The OutSystems platform uses connection pools to ensure your applications perform well as they scale. Read more to learn how the platform uses connection pools.
+summary:  OutSystems uses database connection pools to ensure your applications perform well as they scale. Read more to learn how the OutSystems platform uses  connection pools.
 ---
 
 # Connection pools in the OutSystems platform
 
-The OutSystems platform uses connection pools to ensure your applications perform well as they scale. With connection pools, an application doesn't open and close database connections. Instead, the application requests a connection and returns the connection to the pool when it's done.
+Database connection pools is one way OutSystems enforces rules to optimize your applications scalability and performance. With connection pools, applications don't open and close database connections. Instead, applications request a connection and return the connection to the pool when it's done.
 
-This avoids the performance overhead of opening and closing database connections. This way, a new connection is only opened if there is no available connection in the pool. Connections are closed after they're idle for a given period.
+Using connection pools you avoid the performance overhead of opening and closing database connections. A  new connection only opens if there is no available connection in the pool. Connections close after they're idle for a given period.
 
 For each database connection you define for a database server or schema, OutSystems creates a connection pool to manage that connection.
 
@@ -62,7 +62,7 @@ As an example, if you have:
 
 * 10 connection configured by default;
 * 10 application modules deployed;
-* 2 front-end servers 
+* 2 front-end servers
 
 You'll typically have 20 connections to the main database, and 20 connections to the sessions database.
 
@@ -94,28 +94,31 @@ Assuming that all application modules are eventually loaded:
 This adds to a total of 800 connections up until OutSystems 10 or 1200 connections for OutSystems 11.
 
 <div class="info" markdown="1">
-The numbers on the following examples are based on OutSystems 11.
-</div>
+
+The numbers on the following examples are based on OutSystems 11:
 
 On a high-demand scenario, if there are 50 concurrent user accesses to an application module on each front-end:
 
-50 concurrent users require aproximately:
+50 concurrent users require approximately:
 
 * 50 connections to the session database;
 * 50 connections to the main database.
 
+</div>
+
 <div class="info" markdown="1">
+
 Note that:
 
 * The number of connections in the log database doesn't scale with the number of concurrent user accesses. It will increase based only on how many types of logs need to be written concurrently.
 
 * The numbers are an approximation only because one user session might require more than one database connection: the platform will perform optimizations that might mean that in an action flow more than one connection is used.
+
 </div>
 
- One connection was already established on each front-end for each database, so we'll need additional 49 connections per front-end for the session and main databases. This adds up to a total of 1396 connections: 
- 
- ``1200 idle connections + (49 connections per frontend x 2 frontends x 2 database connections per frontend)``
+One connection was already established on each front-end for each database, so we'll need additional 49 connections per front-end for the session and main databases. This adds up to a total of 1396 connections:
 
+``1200 idle connections + (49 connections per frontend x 2 frontends x 2 database connections per frontend)``
 
 If that application module becomes even more popular and now receives 150 concurrent requests on each front-end:
 
@@ -154,4 +157,3 @@ During this high-usage peak, there's a total of 400 connections.
 ### More Information
 
 [This information was initially posted on the Community Forums](https://www.outsystems.com/forums/discussion/15171//).
-
