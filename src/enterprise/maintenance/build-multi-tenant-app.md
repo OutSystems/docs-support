@@ -106,7 +106,7 @@ Set the ‘Is Multi-tenant’ property of Timers to one of the following values:
 
 * **‘No’:** if the Timer is executed once, i.e., is able to read and manipulate data shared by all tenants;
 
-* **< Not defined >:** the Multi-tenant behavior of the Site Property is inherited from the Multi-tenant behavior of the eSpace.
+* **< Not defined >:** the Multi-tenant behavior of the Timer is inherited from the Multi-tenant behavior of the eSpace.
 
 ## Isolating Sessions per Tenant
 

@@ -28,14 +28,16 @@ These files can be found at `C:\Program Files\OutSystems\Platform Server\`:
 
 * Log Service: `LogServer.exe.config`
 
-* Scheduler Service: `Scheduler.exe.config`
+* Scheduler Service: `Scheduler.exe.config`, if a \Scheduler\ subfolder exists, change it there instead
 
 * SMS Connector: `SMSConnector.exe.config`
 
 * Configuration Tool:`ConfigurationTool.exe.config`
 if the file for configuration tool is missing, you may use [this configuration file](https://success.outsystems.com/@api/deki/files/4019/ConfigurationTool.exe.config?revision=1) as example.
 
-Add the following XML, immediately after the `</configSections>` line:
+Locate the `LogLevel` and `MyListener` lines.
+
+If they are not present, add the following XML immediately after the `</configSections>` or before the `<startup>` lines:
 
 ```
 <system.diagnostics>
@@ -56,7 +58,7 @@ For example, CompilerService.exe would write to `C:\Program Files\OutSystems\Pla
 
 After editing the log files, you need to restart the service that uses the configuration you've changed.
 
-You can specify a  log level from 0 (less verbose) to 4 (full details). When sending logs to Support team, always use the log level 4 (Errors + Warnings + Info + Debug).
+You can specify a  log level from 0 (less verbose) to 4 (full details) in the `LogLevel` line. When sending logs to Support team, always use the log level 4 (Errors + Warnings + Info + Debug).
 
 ### Java stack
 
