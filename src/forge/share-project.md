@@ -1,5 +1,5 @@
 ---
-summary: Know the set of requirements that a component shared in Forge must comply with to be considered a Trusted component.
+summary: Know the details of sharing a project in the OutSystems Forge.
 tags: forge_support_sharing
 ---
 
