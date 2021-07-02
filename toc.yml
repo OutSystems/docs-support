@@ -350,9 +350,9 @@
             # Known issues
             - href: enterprise/troubleshooting/known-issues/ki-11_10-downtime-CT/ki-11_10-downtime-CT.md
             - href: enterprise/troubleshooting/known-issues/ki-11_10-site-properties/ki-11_10-site-properties.md
+            - href: enterprise/troubleshooting/known-issues/ki-datagrid-reactive/ki-datagrid-reactive.md
             - href: enterprise/troubleshooting/known-issues/ki-map-reactive/ki-map-reactive.md
-        
-    
+      
     # Accessibility
     - placeholder: Accessibility
     - topics:
