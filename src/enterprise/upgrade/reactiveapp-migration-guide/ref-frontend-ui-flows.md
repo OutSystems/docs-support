@@ -19,7 +19,7 @@ In Reactive Web App development, the approach is different. You can use a **Bloc
 
 1. Add an **OnReady** event on the properties of the Block or Screen using your script.
 
-1. Open the **InReady** logic, and add a **JavaScript** node to initialize it.
+1. Open the **OnReady** logic, and add a **JavaScript** node to initialize it.
 
 ![Adding a JavaScript node to initialize plugins](images/ref-custom-patterns-js-plugin-init.png)
 
