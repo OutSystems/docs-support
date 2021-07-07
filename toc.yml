@@ -57,7 +57,8 @@
     - placeholder: Installation
     - topics:
         - href: enterprise/install/ssl-domain-cloud/ssl-domain-cloud.md
-        - href: enterprise/install/ssl-domain-cloud/ssl-domain-cloud-errors.md     
+        - topics:
+            - href: enterprise/install/ssl-domain-cloud/ssl-domain-cloud-errors.md     
         - href: enterprise/install/generate-csr.md
         - href: enterprise/install/install-ssl-platform.md
         - href: enterprise/install/install-ssl-certificate-linux.md       
