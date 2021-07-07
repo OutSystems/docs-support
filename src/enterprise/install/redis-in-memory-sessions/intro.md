@@ -1,3 +1,8 @@
+---
+summary:
+tags: article-page
+---
+
 # Configuring OutSystems with Redis in-memory session storage
 
 ## Session storage in Traditional Web Apps
