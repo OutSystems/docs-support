@@ -618,4 +618,4 @@ Note: It's not recommended to change the User Provider of modules with Processes
 
 **Rationale**: In environments whose purpose is not Development it is important that the actual published versions are kept; refreshing references would create different "fake" versions.
 
-**Workaround**: Refresh references manually. Alternatively, set the `EnableRefreshRefsInSolutionPublish` parameter in the OSSYS_PARAMETER table to `true` to override the behavior for all future solution publish operations.
+**Workaround**: Refresh references manually.
