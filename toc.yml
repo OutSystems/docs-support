@@ -96,6 +96,7 @@
         - topics: 
             - href: enterprise/maintenance/access-database-paas/temporary-access-database-backup.md
         - href: enterprise/maintenance/whitelist-cloud-servers/whitelist-cloud-servers.md
+        - href: enterprise/maintenance/restart-cloud/restart-cloud.md
         - href: enterprise/maintenance/aws-direct-connect-os-cloud.md
         - href: enterprise/maintenance/connect-tgw.md
         - href: enterprise/maintenance/add-certificate-trusted-cloud.md
