@@ -19,7 +19,18 @@ Active Directory settings can block the installation script from creating users 
 
 ## Resolution
 
-Change your Active Directory settings to allow user and policy changes. You can use the Group Policy manager in Windows to change settings.
+Change your Active Directory settings through the Group Policy Management console. For example, a user with global admin permissions can change settings on the domain controller as follows:
+
+1. Go to **Group Policy Management**. 
+2. Create a new group policy. 
+3. In **Policies** > **Security Settings** > **User Rights Assignment**, select **Create symbolic links** to open the Properties dialog box.
+4. Select **Define these policy settings**, and click **Add Users or Groups**.
+5. In the **User and group names field**, type the users **OSControllerUser** and **OSSchedulerUser** and click **Apply**. The users you added should appear in the **Policy Setting** column. 
+
+The following screen shows where **OSControllerUser** and **OSControllerUser** appear in **Security Settings**.
+
+![](images/permissions-group-policy-change.png)
+
 
 ### Notes 
 
