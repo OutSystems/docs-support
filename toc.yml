@@ -385,6 +385,7 @@
 - topics:
     - placeholder: Forge FAQs
     - topics:
+        - href: forge/forge-overview.md
         - href: forge/trusted-requirements.md
 
 
