@@ -390,3 +390,6 @@ Another way of finding out which plugins may be causing issues is removing one b
 ## Still having problems?
 
 If none of the approaches in this document helped troubleshooting the issue, consider [opening a support case](https://www.outsystems.com/SupportPortal/CaseOpen/) to get help from the OutSystems Support.
+
+______________________________________________________________
+_QR CODE is a registered trademark of Denso Wave Incorporated._
