@@ -143,11 +143,15 @@ Depending on if your environment is in the OutSystems Cloud or in your datacente
 
 In the OutSystems Cloud, the process of upgrading the Platform Server is handled by OutSystems, coordinating with you in every step of the way. This guarantees a successful and painfree procedure as possible:
 
-1. Make your upgrade request by opening a Support Case using [any of the available mechanisms](https://success.outsystems.com/Support/Enterprise_Customers/OutSystems_Support/01_Contact_OutSystems_technical_support).
+1. Make your upgrade request by opening a support ticket using [any of the available mechanisms](https://success.outsystems.com/Support/Enterprise_Customers/OutSystems_Support/01_Contact_OutSystems_technical_support) and provide the following:
 
-1. OutSystems will promptly contact you to schedule and plan the Platform Server upgrade.
+    * An [infrastructure admin's](https://success.outsystems.com/Support/Enterprise_Customers/OutSystems_Support/Managing_your_company_permissions_on_outsystems.com#Infra_Admin) approval. If you're an infrastructure admin, your request is authorized. If you're not an admin either ask your admin to submit the ticket or to leave a reply on the ticket stating the approval.
+    * What are the **environments** you want to upgrade and to what **version**. You can check [OutSystems release notes] for a list of available versions for Platform Server and LifeTime. We advise you to choose the latest version.
+    * Let us know **when** (date and time) you wish to upgrade each environment, make sure to refer the time zone. We advise to allow at least a day between the schedule of each environment to accommodate for testing. If you have any special needs, let us know.
 
-1. OutSystems proceeds with the upgrade of the Platform Server component on the environment to the agreed schedule. When upgrading the **Development environment** of your infrastructure to **Platform Server 11.11 or earlier**, OutSystems also installs the latest version of the following components:
+1. OutSystems will promptly contact you to discuss the schedule and plan for the upgrade.
+
+1. OutSystems proceeds with the upgrade of the environment on the agreed schedule. When upgrading the **Development environment** of your infrastructure to **Platform Server 11.11 or earlier**, OutSystems also installs the latest version of the following components:
 
     * [OutSystems UI](https://www.outsystems.com/forge/component-overview/1385/silk-ui-mobile)
     * [OutSystems UI Web](https://www.outsystems.com/forge/4143/)
