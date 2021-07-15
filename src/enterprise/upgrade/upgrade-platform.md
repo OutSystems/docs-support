@@ -144,8 +144,15 @@ Depending on if your environment is in the OutSystems Cloud or in your datacente
 In the OutSystems Cloud, the process of upgrading the Platform Server is handled by OutSystems, coordinating with you in every step of the way. This guarantees a successful and painfree procedure as possible:
 
 1. Make your upgrade request by opening a Support Case using [any of the available mechanisms](https://success.outsystems.com/Support/Enterprise_Customers/OutSystems_Support/01_Contact_OutSystems_technical_support).
+2. When doing so, please provide us with the following information:
+3. * A [Infrastructure Admin's](https://success.outsystems.com/Support/Enterprise_Customers/OutSystems_Support/Managing_your_company_permissions_on_outsystems.com#Infra_Admin) approval
+4. * Which **Environments** you want to upgrade
+5. * **Target Platform Version** for the upgrade (LifeTime and Platform Server)
+6. The Target Platform Version should be the [latest stable version](https://www.outsystems.com/downloads/) at the date your request is made. If you want a different one, please state your use case so that we can evaluate your situation and what is best for your company.
+5. * Proposed **Schedule** for all phases of the upgrade (i. e., affected Environments and database engines, if needed)
+6. It is highly advisable that all the necessary upgrades are done on different days. If you want an exception made for your use case, please state your special reason, so that we can evaluate that possibility.
 
-1. OutSystems will promptly contact you to schedule and plan the Platform Server upgrade.
+1. OutSystems will promptly contact you to discuss the schedule and plan for the Platform Server upgrade.
 
 1. OutSystems proceeds with the upgrade of the Platform Server component on the environment to the agreed schedule. When upgrading the **Development environment** of your infrastructure to **Platform Server 11.11 or earlier**, OutSystems also installs the latest version of the following components:
 
