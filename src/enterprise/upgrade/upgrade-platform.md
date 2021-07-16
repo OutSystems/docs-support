@@ -146,7 +146,7 @@ In the OutSystems Cloud, the process of upgrading the Platform Server is handled
 1. Make your upgrade request by opening a support ticket using [any of the available mechanisms](https://success.outsystems.com/Support/Enterprise_Customers/OutSystems_Support/01_Contact_OutSystems_technical_support) and provide the following:
 
     * An [infrastructure admin's](https://success.outsystems.com/Support/Enterprise_Customers/OutSystems_Support/Managing_your_company_permissions_on_outsystems.com#Infra_Admin) approval. If you're an infrastructure admin, your request is authorized. If you're not an admin either ask your admin to submit the ticket or to leave a reply on the ticket stating the approval.
-    * What are the **environments** you want to upgrade and to what **version**. You can check [OutSystems release notes] for a list of available versions for Platform Server and LifeTime. We advise you to choose the latest version.
+    * What are the **environments** you want to upgrade and to what **version**. You can check [OutSystems release notes](https://success.outsystems.com/Support/Release_Notes) for a list of available versions for Platform Server and LifeTime. We advise you to choose the latest version.
     * Let us know **when** (date and time) you wish to upgrade each environment, make sure to refer the time zone. We advise to allow at least a day between the schedule of each environment to accommodate for testing. If you have any special needs, let us know.
 
 1. OutSystems will promptly contact you to discuss the schedule and plan for the upgrade.
