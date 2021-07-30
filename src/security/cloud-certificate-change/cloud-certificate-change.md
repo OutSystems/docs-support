@@ -2,13 +2,13 @@
 summary: Since most web browsers will no longer trust certificates with a validity that exceeds one year, OutSystems will rotate the outsystemsenterprise.com certificate. This document provides further details about the operation and how it may impact you. It's especially relevant if you're using SSL pinning on your mobile apps.
 ---
 
-# OutSystems Cloud certificate change - September/October 2020
+# OutSystems Cloud certificate rotation
 
 ## Overview
 
 Most web browser vendors shared they'll be distrusting certificates with a validity that exceeds one year.
 
-To accommodate these changes, OutSystems will be rotating the `outsystemsenterprise.com` certificate, starting late September, by issuing a new certificate with no more than a one year validity.
+To accommodate these changes, OutSystems will be rotating the `outsystemsenterprise.com` certificate, starting late September 2020, by issuing a new certificate every year.
 
 This article addresses questions you may have about the certificate change.
 
