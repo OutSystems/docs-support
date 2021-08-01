@@ -9,25 +9,24 @@ Download the whitepaper version of this document by clicking [here](images/Integ
 </div>
 
 
-Developers need the ability to create seamless integration with the full range and scope of the business process management tools, data sources, and core business systems that your enterprise has developed over the years—as well as keep pace with future developments.
+Developers need the ability to create seamless integration with the full range and scope of the business process management tools, including data sources and core business systems, that your enterprise has developed over the years—as well as keep pace with future developments.
 
-OutSystems provides out-of-the-box capabilities to integrate with a myriad of external systems, and this toolkit can be extended with [OutSystems-supported](https://success.outsystems.com/Support/Forge_Components/Forge_FAQs/Curating_Projects#What_is_a_supported_project.3F) modules, connectors, UI components, and business solutions, available from the OutSystems [Forge](https://www.outsystems.com/forge/), a repository of reusable, open code.
+OutSystems provides out-of-the-box capabilities to integrate with external databases such as SQL Server, Oracle, MySQL, and iDB2, as well as a myriad of enterprise systems of record (SoR), including SAP, Salesforce, Microsoft Dynamics 365, Microsoft Dataverse, and Sharepoint Online. In addition, [OutSystems-supported](https://success.outsystems.com/Support/Forge_Components/Forge_FAQs/Curating_Projects#What_is_a_supported_project.3F) modules, connectors, UI components, and business solutions, are available from the OutSystems [Forge](https://www.outsystems.com/forge/), a repository of reusable, open code.
 
-The Forge is also an integral part of our thriving community. There, many have shared thousands of fully working, [community-supported connectors](https://success.outsystems.com/Support/Forge_Components/Forge_FAQs/Curating_Projects#What_is_a_Trusted_project.3F) to well known external systems, such as Google Drive, Dropbox, Sharepoint, Dynamics, to name just a few.
+The Forge is also an integral part of our thriving community. There, many have shared thousands of fully working, [community-supported connectors](https://success.outsystems.com/Support/Forge_Components/Forge_FAQs/Curating_Projects#What_is_a_Trusted_project.3F) to well known external systems, such as Google Drive, Dropbox, Slack, and Zendesk, to name just a few.
 
-In cases when your enterprise requires integrations to third-party [libraries](https://success.outsystems.com/Documentation/11/Extensibility_and_Integration/Extend_Logic_with_Your_Own_Code/Extension_Source_Files) or non-native technologies, developers can use [Integration Studio](https://success.outsystems.com/Documentation/11/Reference/Integration_Studio), an OutSystems desktop tool, to write custom [C# and .NET code](https://success.outsystems.com/Documentation/11/Extensibility_and_Integration/Extend_Logic_with_Your_Own_Code) to create an [extension](https://success.outsystems.com/Documentation/11/Extensibility_and_Integration/Extend_Logic_with_Your_Own_Code/Extension_Life_Cycle/Create_an_Extension), making its actions, entities, and structures available in Service Studio.
+If your enterprise requires integrations to third-party [libraries](https://success.outsystems.com/Documentation/11/Extensibility_and_Integration/Extend_Logic_with_Your_Own_Code/Extension_Source_Files) or non-native technologies, developers can use [Integration Studio](https://success.outsystems.com/Documentation/11/Reference/Integration_Studio), an OutSystems desktop tool, to write custom [C# and .NET code](https://success.outsystems.com/Documentation/11/Extensibility_and_Integration/Extend_Logic_with_Your_Own_Code) to create an [extension](https://success.outsystems.com/Documentation/11/Extensibility_and_Integration/Extend_Logic_with_Your_Own_Code/Extension_Life_Cycle/Create_an_Extension), making its actions, entities, and structures available in Service Studio.
 
 In all cases, once an integration has been created and added to your environment, it can be  used, and reused, by every developer for every app—as if they belong to OutSystems itself.
 
-The integrations available include:
+The available integrations include:
 
+*   Enterprise SoR (System of Record) for managing sales and collaboration, including SAP, Salesforce, Microsoft Dynamics, Microsoft Dataverse, and Sharepoint Online 
 *   Web services to both consume and expose [REST](https://success.outsystems.com/Documentation/11/Extensibility_and_Integration/REST/Consume_REST_APIs) and [SOAP](https://success.outsystems.com/Documentation/11/Extensibility_and_Integration/SOAP/Consuming_SOAP_Web_Services)
 *   External databases
-*   Enterprise SoR (System of Record) for managing sales and collaboration
 *   End-user authentication
 *   DevOps and CI/CD processes and tools for building, deploying, automating, testing, monitoring, and logging
 *   AI and chatbots
-
 There are many other integrations that don’t exactly fit into any particular category, including
 
 *   Augmented reality frameworks
@@ -35,6 +34,20 @@ There are many other integrations that don’t exactly fit into any particular c
 *   IoT gateways
 
 This document discusses the wide range of integrations made possible by OutSystems.
+
+## Integration Builder {#ib}
+
+[Integration Builder](https://www.outsystems.com/platform/integration-builder/) is a wizard-style tool for developers to quickly connect apps to major enterprise SoR platforms, including SAP, Salesforce, Microsoft Dynamics, Microsoft Dataverse, and Sharepoint Online. With a few clicks, developers can generate secure and scalable integrations of service modules with all of the code required to call an external system: authentication flow, encoding, and parsing.
+
+Some of the key features and capabilities of the Integration Builder include:
+
+* Connectors that ensure resilient integration between systems of record and OutSystems applications
+* Inspection of available APIs of external systems to select only the right ones for OutSystems applications
+* OutSystems-supported connectors designed to promote reusability, maintenance, and application independence
+* Limitless customization of generated connectors to extend connector logic to fulfill IT requirements
+* Easy configuration modifications to add fields, remove fields, or swap out existing connections
+
+To learn more about the capabilities of Integration Builder explore the [documentation here](https://www.outsystems.com/platform/integration-builder/).
 
 ## Web Service integration
 
@@ -104,7 +117,13 @@ Many pre-built connectors and utilities that can be used, as is, or modified as 
 
 ## SAP Integration
 
-OutSystems provides native support for SAP integration, one of the most widely used SoR platforms. Developers can use Service Studio to create mobile and web applications by leveraging data and processes from any SAP instance by using SAP OData services from the[ SAP Business Hub](https://api.sap.com/), Service Catalog, or RFC calls (BAPI or ZBAPI). Regardless of the chosen technology (RFC or SAP OData), even developers with limited or no knowledge of SAP Integration can easily integrate both SAP ECC and SAP S/4HANA.
+OutSystems provides native support to consume SAP functions to create mobile and web applications by leveraging data and processes from any SAP instance by using RFC calls (BAPI or ZBAPI). Even developers with limited or no knowledge of SAP Integration can easily integrate both SAP ECC and SAP S/4HANA.
+
+<div class="info" markdown="1">
+
+Use [Integration Builder](#ib) to import SAP OData services from the [SAP Business Hub](https://api.sap.com/) and Service Catalog.
+
+</div>
 
 Once a connection has been made, and remote functions have been imported, they can be used in your application the same way you use any other action.
 
@@ -116,22 +135,6 @@ If developers need to customize a SAP connection, calls to SAP remote functions,
 
 Other extensions that use the SAP Extensibility API are also available for download from OutSystems Forge.
 
-### Integration extensions for other SoR platforms
-
-OutSystems can also integrate with other popular enterprise SoR platforms, such as Salesforce, SharePoint and Dynamics 365, using their REST APIs or SOAP methods.
-
-Also, there are multiple connectors available on Forge which can be installed on your OutSystems environment and allow you to connect to hundreds of external systems.
-
-### Integration builder
-
-[Integration Builder](https://success.outsystems.com/Documentation/Integration_Builder_EAP/Introduction_to_Integration_Builder) allows developers to easily plug into your CRM or ERP system and quickly access the available data to enhance your OutSystems applications.
-
-Integration Builder removes the complexity of building integrations while allowing developers to quickly link their applications to data in existing systems by offering:
-
-*   Easy plug-and-play integration
-*   Dramatically reduced integration and app development lead times
-*   The ability for any developer to address complex integration scenarios
-*   The agility to easily change and augment existing integrations based on business requirements
 
 ## End-user authentication integration
 

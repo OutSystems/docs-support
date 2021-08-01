@@ -22,7 +22,9 @@ OutSystems is open by design. All application layers—front-end, back-end, data
 
 ## Extensions
 
-OutSystems [Integration Studio](https://success.outsystems.com/Documentation/11/Reference/Integration_Studio) is a design environment where developers with programming skills can create [extensions](https://success.outsystems.com/Documentation/11/Extensibility_and_Integration/Extend_Logic_with_Your_Own_Code/Extension_Life_Cycle/Create_an_Extension) to bridge custom C# and .NET to OutSystems, expanding and enhancing its existing functionality and data model.
+OutSystems provides out-of-the-box capabilities to integrate with external databases such as SQL Server, Oracle, MySQL, and iDB2, as well as a myriad of enterprise systems of record (SoR), including SAP, Salesforce, Microsoft Dynamics 365, Microsoft Dataverse, and Sharepoint Online.  
+
+For other external systems OutSystems provides [Integration Studio](https://success.outsystems.com/Documentation/11/Reference/Integration_Studio), a design environment where developers with programming skills can create [extensions](https://success.outsystems.com/Documentation/11/Extensibility_and_Integration/Extend_Logic_with_Your_Own_Code/Extension_Life_Cycle/Create_an_Extension) to bridge custom C# and .NET to OutSystems, expanding and enhancing its existing functionality and data model.
 
 An extension, as the term is used in Outsystems, is a specific set of actions, structures, entities, and resources that developers create in order to: 
 
@@ -94,11 +96,26 @@ By [importing a library into an application](https://success.outsystems.com/Docu
 
 ## Extending the back-end
 
-OutSystems has out-of-the-box capabilities that allow seamless integration via SOAP web services, REST APIs, and SAP systems. An integrated visual IDE in OutSystems allows rapid and efficient creation of extensions to integrate with core or legacy systems. When using the OutSystems environment, developers can click a link to open a source code editor, and, after editing the code, the developer can deploy it in  the integration IDE.
+OutSystems provides out-of-the-box capabilities to integrate with SQL Server, SQL Azure, Oracle, MySQL, and DB2 iSeries so developers can combine local and external data sources in minutes. And, by invoking [Integration Builder](https://www.outsystems.com/platform/integration-builder/) from Service Studio, developers click through a configuration process to connect with external systems of reccord such as SAP, Salesforce, Microsoft Dynamics, Microsoft Dataverse, and Sharepoint Online. 
 
-OutSystems simplifies the task of consuming and exposing functionality as standard SOAP web services, REST APIs, or SAP services without any hand-coding. More complex enterprise integration scenarios that require MQSeries, TIBCO, BizTalk, and other middleware ESBs, can be accomplished using web services.
+OutSystems simplifies the task of consuming and exposing functionality as standard SOAP web services and REST APIs without any hand-coding. More complex enterprise integration scenarios that require MQSeries, TIBCO, BizTalk, and other middleware ESBs, can be accomplished using web services.
 
-Once OutSystems has generated the methods and data structures to integrate with the external system, developers can use them visually in the application logic of Service Studio. From a developer’s perspective, there is no difference between invoking an OutSystems method, a SOAP web service, a REST API, or an SAP BAPI.
+In addition, [Integration Studio](https://success.outsystems.com/Documentation/11/Reference/Integration_Studio), a visual IDE in OutSystems, allows rapid and efficient creation of extensions to integrate with core or legacy systems. When using the OutSystems environment, developers can click a link to open a source code editor, and, after editing the code, the developer can deploy it in the integration IDE.
+
+Once OutSystems has generated methods and data structures to integrate with the external system, developers can use them visually in the application logic of Service Studio. From a developer’s perspective, invoking a SOAP web service, a REST API, SAP, Salesforce, Microsoft Dynamics, Microsoft Dataverse, or Sharepoint provides the same experience as any native OutSystems method.
+
+### Integration Builder {#ib}
+
+[Integration Builder](https://www.outsystems.com/platform/integration-builder/) is a wizard-style tool for developers to quickly connect apps to major SoR systems, including SAP, Salesforce, Microsoft Dynamics 365, Microsoft Dataverse, and Sharepoint Online. With a few clicks, service modules can be generated with all of the code required to call an external system, including authentication flow, encoding, and parsing, so they can be easily integrated into the development environment.
+
+Some of the key features and capabilities of the Integration Builder include:
+
+* Connectors to the most commonly used SAP, Salesforce, Microsoft Dynamics 365, Microsoft Dataverse, Sharepoint Online sources to ensure that integrations between systems of record and OutSystems applications are resilient and perform as expected
+* Review and inspection of available APIs of external systems and to select only the right ones for OutSystems applications
+* OutSystems-suported connectors designed to promote reusability, maintenance, application independence, security, and scalability
+* Limitless customization of generated connectors to extend connector logic to fulfill IT requirements, to add fields, to remove fields, or swap out existing connections
+
+To learn more about the capabilities of Integration Builder explore the [documentation here](https://www.outsystems.com/platform/integration-builder/).
 
 ### Integrating to existing systems using SOAP web services
 
@@ -148,7 +165,13 @@ There are hundreds of extensions that use the REST Extensibility API that you ca
 
 ### Integrating OutSystems applications with SAP
 
-With OutSystems, developers can create mobile and web applications that integrate with SAP by browsing available SAP functions. SAP OData services can be imported from the [SAP Business Hub](https://api.sap.com/) and Service Catalog. Finding the BAPI or ZBAPI for a specific function is simple, even with limited or no knowledge of SAP. Integration can be through SAP BAPIs or SAP OData services; both are available for SAP ECC and SAP S/4HANA.
+With OutSystems, developers can create mobile and web applications that integrate with SAP by browsing available SAP functions. Finding the BAPI or ZBAPI for a specific function is simple, even with limited or no knowledge of SAP. Integration through SAP BAPIs is available for SAP ECC and SAP S/4HANA.
+
+<div class="info" markdown="1">
+
+Import SAP OData services from the [SAP Business Hub](https://api.sap.com/) and Service Catalog using [Integration Builder](#ib).
+
+</div>
 
 Once a connection has been made and remote functions have been imported OutSystems does the following:
 
