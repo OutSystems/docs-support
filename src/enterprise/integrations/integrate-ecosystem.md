@@ -27,6 +27,7 @@ The available integrations include:
 *   End-user authentication
 *   DevOps and CI/CD processes and tools for building, deploying, automating, testing, monitoring, and logging
 *   AI and chatbots
+
 There are many other integrations that don’t exactly fit into any particular category, including
 
 *   Augmented reality frameworks
