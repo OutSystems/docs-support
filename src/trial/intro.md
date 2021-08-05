@@ -26,7 +26,7 @@ Follow these steps to create your Personal Environment when your trial ends, the
 
 The following screen displays when your trial ends.
 
-![trial ends next steps](images/trial-ends-no-personal-environment.png?width=300)
+![trial ends next steps](images/trial-ends-no-personal-environment.png)
 
 1. From **Continue with a free account**, click **Create Personal Environment**. A new tab opens with a form for you to complete. When done, return to this page and continue with the next step.
 
@@ -35,7 +35,7 @@ The following screen displays when your trial ends.
 1. From **Upload your apps**, click **Service Center**.  
 1. From **Service Center**, select **Factory**, then **Solutions**.
 
-    ![trials ends publish](images/trial-user-has-no-personal-environmen-with-numbers.png?width=300)
+    ![trials ends publish](images/trial-user-has-no-personal-environmen-with-numbers.png)
 
 1. From **Solutions**, click the **Upload & Publish link**.
 
@@ -55,7 +55,7 @@ Interested in upgrading to a paid subscription, see [Move apps from your Persona
 
 The following screen displays when your trial ends and you have a Personal Environment.
 
-![trial ends next steps](images/trial-ends-has-personal-environment.png?width=300)
+![trial ends next steps](images/trial-ends-has-personal-environment.png)
 
 1. From **Download your apps**, click either **Development environment apps** or **Production environment apps**. Your apps download as  *.osp files to your computer.
 
@@ -63,7 +63,7 @@ The following screen displays when your trial ends and you have a Personal Envir
 
 1. From **Service Center**, select **Factory**, then **Solutions**.
 
-    ![trials ends publish](images/trial-user-has-personal-environment-with-numbers.png?width=300)
+    ![trials ends publish](images/trial-user-has-personal-environment-with-numbers.png)
 
 1. From **Solutions**, click the **Upload & Publish link**.
 
