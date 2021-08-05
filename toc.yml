@@ -486,6 +486,4 @@
 # Trial offer
 - placeholder: Trial
 - topics:
-
-    # Backing up and continuing work ...    
-    - href: trial/intro.md
+    - href: trial/backup-apps-trial.md

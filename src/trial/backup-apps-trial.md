@@ -1,5 +1,5 @@
 ---
-summary:
+summary: After your trial has ended, you can backup your apps and continue to work on them on another environment. This article details the steps to achieve that.
 ---
 
 # Backing up and continuing work on your apps at the end of the trial
@@ -26,7 +26,7 @@ Follow these steps to create your Personal Environment when your trial ends, the
 
 The following screen displays when your trial ends.
 
-![trial ends next steps](images/trial-ends-no-personal-environment.png)
+![Your trial has ended, you can create a personal environment](images/backup-apps-trial-no-pe.png)
 
 1. From **Continue with a free account**, click **Create Personal Environment**. A new tab opens with a form for you to complete. When done, return to this page and continue with the next step.
 
@@ -35,7 +35,7 @@ The following screen displays when your trial ends.
 1. From **Upload your apps**, click **Service Center**.  
 1. From **Service Center**, select **Factory**, then **Solutions**.
 
-    ![trials ends publish](images/trial-user-has-no-personal-environmen-with-numbers.png)
+    ![Publishing the apps in your personal environment](images/backup-apps-trial-sc.png)
 
 1. From **Solutions**, click the **Upload & Publish link**.
 
@@ -55,7 +55,7 @@ Interested in upgrading to a paid subscription, see [Move apps from your Persona
 
 The following screen displays when your trial ends and you have a Personal Environment.
 
-![trial ends next steps](images/trial-ends-has-personal-environment.png)
+![Your trial has ended, upload the apps to your personal environment](images/backup-apps-trial-pe.png)
 
 1. From **Download your apps**, click either **Development environment apps** or **Production environment apps**. Your apps download as  *.osp files to your computer.
 
@@ -63,7 +63,7 @@ The following screen displays when your trial ends and you have a Personal Envir
 
 1. From **Service Center**, select **Factory**, then **Solutions**.
 
-    ![trials ends publish](images/trial-user-has-personal-environment-with-numbers.png)
+    ![trials ends publish](images/backup-apps-trial-pe-sc.png)
 
 1. From **Solutions**, click the **Upload & Publish link**.
 
