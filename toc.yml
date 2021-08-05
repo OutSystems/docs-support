@@ -484,4 +484,8 @@
         - href: error/inbl/inbl-gen-50028.md
 
 # Trial offer
-- href: trial/intro.md
+- placeholder: Trial
+- topics:
+
+    # Backing up and continuing work ...    
+    - href: trial/intro.md
