@@ -349,6 +349,7 @@
             - href: enterprise/troubleshooting/troubleshoot-502.md
             - href: enterprise/troubleshooting/cannot-decrypt/cannot-decrypt.md
             - href: enterprise/troubleshooting/deploy-fail-new-entity-attribute.md
+            - href: enterprise/troubleshooting/dot-net-core-3-1/dot-net-core-3-1.md
             
             # Known issues
             - href: enterprise/troubleshooting/known-issues/ki-11_10-downtime-CT/ki-11_10-downtime-CT.md
