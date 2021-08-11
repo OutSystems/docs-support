@@ -3,14 +3,21 @@ summary: Configure your OutSystems Cloud environments to use your company's doma
 tags: support-Application_Troubleshooting; support-Cloud_Platform; support-Cloud_Platform-featured; support-Installation_Configuration; support-installation; support-Security; article-page
 ---
 
-
 # Use your SSL domain in OutSystems Cloud
 
-Your OutSystems cloud environments include a valid SSL certificates with the ```outsystemsenterprise.com domain```. It's also possible to use your own domain by assigning your SSL certificate to the environments.
+Your OutSystems cloud environments include a valid SSL certificates with the `outsystemsenterprise.com domain`. It's also possible to use your own domain by assigning your SSL certificate to the environments.
 
 The steps of setting up your environments with your company domain include:
 
 ![](images/ssl-domain-cloud-steps.png)
+
+<div class="info" markdown="1">
+
+Setting up a different SSL domain changes the endpoint URL of the web services exposed by the environment, that will include the new domain instead. This change requires consumer applications to start using the new endpoint URLs.
+
+OutSystems applications consuming your [REST APIs](https://success.outsystems.com/Documentation/11/Extensibility_and_Integration/REST/Consume_REST_APIs/Configure_a_Consumed_REST_API_at_Runtime) or [SOAP Web Services](https://success.outsystems.com/Documentation/11/Extensibility_and_Integration/SOAP/Consuming_SOAP_Web_Services/Configure_a_SOAP_Web_Service_at_Runtime) can configure the new endpoint URLs at runtime in the Service Center console.
+
+</div>
 
 ## SSL domain requirements
 
