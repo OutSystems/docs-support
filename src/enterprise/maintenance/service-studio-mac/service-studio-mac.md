@@ -9,7 +9,7 @@ Service Studio is being rebuilt to ensure you have a native experience whether y
 
 ![New cross-platform Service Studio](images/ss-mac-new-ss.gif)
 
-The new cross-platform Service Studio is available for macOS in the [OutSystems Downloads]((https://www.outsystems.com/Downloads/).Download it now to start using the next generation of Service Studio that includes the following improvements:
+The new cross-platform Service Studio is available for macOS in [OutSystems Downloads](https://www.outsystems.com/Downloads/). Download it now to start using the next generation of Service Studio that includes the following improvements:
 
 * Native experience for macOS.
 
