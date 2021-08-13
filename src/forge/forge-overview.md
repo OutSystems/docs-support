@@ -5,7 +5,7 @@ tags: forge
 
 # Overview
 
-## What can I expect to find in the Forge?
+## What can I expect to find in the Forge? { #find-in-forge }
 
 The Forge is an OutSystems repository that enables community users to share and collaborate in software projects. Those software projects can be:
 
@@ -21,19 +21,19 @@ The Forge is also the place where OutSystems Partners distribute their Business 
 
 OutSystems also uses the Forge to distribute components that extend the platform’s capabilities. This enables faster and agile releases to the community, as these components are separate from the platform release cycle.
 
-## What do you mean when you say "open-source projects"? 
+## What do you mean when you say "open-source projects"? { #open-source }
 
 Individual contributors who share projects (that aren't Business Solutions) in the Forge follow a BSD licensing model, imposing minimal restrictions on the use and distribution of covered software. A project’s code is provided as-is and can be reused and changed at will. We believe this model promotes OutSystems Community collaboration. However, the open nature of the OutSystems Forge does not prevent individual contributors from sharing projects with other types of licenses, such as GPL. OutSystems doesn't monitor the licensing terms for any projects shared in the Forge by community members. It's the sole responsibility of the user of projects in the Forge to verify the licensing model being used and to comply with the respective terms.
 
 More info: [http://opensource.org/licenses/BSD-3-Clause](http://opensource.org/licenses/BSD-3-Clause)
 
-## Can I share my work in the Forge?
+## Can I share my work in the Forge? { #share-work }
 
 Yes. All members of the OutSystems Community can share their work. You can either start your own project from scratch or join a team that's already working on an existing one and contribute your expertise.
 
 Before sharing your project take into consideration that Forge is the place where the Community goes to accelerate development work or get a better grasp of how to implement a specific use case. Publishing test applications or code that is only to be shared with a specific small group of people do not fit this goal and because of that will be removed or rejected.
 
-## What kind of projects can I share or use?
+## What kind of projects can I share or use? { #project-kind }
 
 Software projects in Forge belong to one of the following categories:
 
@@ -77,7 +77,7 @@ Guides and examples that demonstrate how specific tasks, capabilities, or how co
 
 [OutSystems Maps Sample](https://www.outsystems.com/forge/component-overview/10984/outsystems-maps-sample) and [Data Grid Sample Reactive](https://www.outsystems.com/forge/component-overview/9765/data-grid-sample-reactive) are examples of Demos & samples projects.
 
-## What is an OutSystems Supported project?
+## What is an OutSystems Supported project? { #supported }
 
 An OutSystems Supported project is a component or application that's developed, maintained, and supported by OutSystems under the terms of a customer's subscription. Supported components are distributed in two different ways:
 
@@ -85,15 +85,21 @@ An OutSystems Supported project is a component or application that's developed, 
 
 * As a closed component that doesn’t allow customization. As part of the product, these components are under intellectual property protection.
 
-## What is a featured project?
+## What is a Trusted project? { #trusted }
+
+A Trusted project is a component that has been validated by the OutSystems Curation Team. This ensures the component delivers the promised functionality and that it was built based on best practices for security, documentation and code quality. Trusted components are supported by the Community.
+
+You can find the detailed requirements to trust a component in the [Trusted components requirements](trusted-requirements.md).
+
+## What is a featured project? { #featured }
 
 A featured project is a component or application, not necessarily developed by OutSystems, that we believe is valuable to customers, either because of its functionality or its content.
 
-## What is a deprecated project?
+## What is a deprecated project? { #deprecated }
 
 A deprecated project is a component or application that's no longer suitable or recommended for download. Most likely this is because another project with equivalent functionality has replaced it.
 
-## How do I get support for a specific project?
+## How do I get support for a specific project? { #get-support }
 
 Customers with an active subscription to OutSystems can submit a request via the OutSystems Support Portal for OutSystems Supported projects.
 
