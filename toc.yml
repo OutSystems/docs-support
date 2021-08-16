@@ -460,7 +460,7 @@
 # Error reference documentation
 - href: error/intro.md
 - topics:
-    #Integration Builder
+       #Integration Builder
     - href: error/inbl/intro.md
     - topics:
         - href: error/inbl/inbl-api-00004.md
@@ -479,4 +479,32 @@
         - href: error/inbl/inbl-gen-50004.md
         - href: error/inbl/inbl-gen-50005.md
         - href: error/inbl/inbl-gen-50028.md
-
+    #Workflow Builder
+    - href: src/error/wbl/intro.md
+    - topics:
+        - href: src/error/wbl/wfbl-api-00001.md 
+        - href: src/error/wbl/wfbl-api-00002.md 
+        - href: src/error/wbl/wfbl-api-00003.md 
+        - href: src/error/wbl/wfbl-api-10001.md 
+        - href: src/error/wbl/wfbl-conf-00001.md 
+        - href: src/error/wbl/wfbl-conf-00002.md 
+        - href: src/error/wbl/wfbl-conf-00003.md 
+        - href: src/error/wbl/wfbl-conf-00004.md 
+        - href: src/error/wbl/wfbl-conf-00005.md 
+        - href: src/error/wbl/wfbl-conf-00006.md 
+        - href: src/error/wbl/wfbl-conf-00007.md 
+        - href: src/error/wbl/wfbl-conf-00008.md 
+        - href: src/error/wbl/wfbl-gen-00000.md 
+        - href: src/error/wbl/wfbl-gen-00001.md 
+        - href: src/error/wbl/wfbl-gen-00002.md 
+        - href: src/error/wbl/wfbl-gen-00003.md 
+        - href: src/error/wbl/wfbl-gen-00004.md 
+        - href: src/error/wbl/wfbl-gen-00005.md 
+        - href: src/error/wbl/wfbl-gen-00006.md 
+        - href: src/error/wbl/wfbl-gen-00007.md 
+        - href: src/error/wbl/wfbl-gen-00008.md 
+        - href: src/error/wbl/wfbl-gen-00009.md 
+        - href: src/error/wbl/wfbl-gen-10001.md 
+        - href: src/error/wbl/wfbl-gen-40001.md 
+        - href: src/error/wbl/wfbl-gen-40002.md 
+        
