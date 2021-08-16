@@ -22,11 +22,11 @@ The following table lists the OutSystems elements that relate to Timers:
 
 | **Element** | **Description** |
 |---------|---------|
-| **OutSystems Scheduler Service**| This is the service that has the responsibility of checking for Timers to be executed. It's a multi-threaded service that allows having different Timers executing at the same time.|
-| **Runtime Database**| The Runtime Database contains all System Entities for managing Timers, such as:<br/> - The record of all existing Timers.<br/> - The schedule for executing Timers.<br/> - Current execution of Timers: when started, their timeout, or next execution.|
-| **Log Database** | When a Timer is executed, an entry is created in the Log Database.|
-| **Configuration Tool** | This is the tool that allows configuring the maximum number of Timers that may execute at the same time in each Front-end Server node.|
-| **OutSystems Log Service** | In Service Center, it's possible to have access the information about Timers. The Log Service has the responsibility of writing this data in the Log Database.|
+| **OutSystems Scheduler service**| This is the service that has the responsibility of checking for Timers to be executed. It's a multi-threaded service that allows having different Timers executing at the same time.|
+| **Runtime database**| The runtime database contains all System entities for managing Timers, such as:<br/> - The record of all existing Timers.<br/> - The schedule for executing Timers.<br/> - Current execution of Timers: when started, their timeout, or next execution.|
+| **Log database** | When a Timer is executed, an entry is created in the Log database.|
+| **Configuration Tool** | This is the tool that allows configuring the maximum number of Timers that may execute at the same time in each front-end server node.|
+| **OutSystems Log service** | In Service Center, it's possible to have access the information about Timers. The Log Service has the responsibility of writing this data in the Log database.|
 | **Deployed module (Application)** | The deployed application contains the code for the Timer. It has the application logic designed in the Action executed by the Timer, and also some stub code needed to get the system database up-to-date about the state of the Timer. |
 
 ### Runtime and Log databases
@@ -138,11 +138,11 @@ The steps to execute Timers are as follows:
 
 1. The Scheduler Service launches a thread to execute the Timer that calls a Web Service in the module where the Timer is defined for executing it.
 
-1. The Web Service checks first whether the Timer is already executing in any Front-end Server node. If not, the **Is_Runnining_Since** and **Is_Runnining_By** attributes of the **Cyclic_Job_Shared** entity are updated. This locks the Timer from executing in any other Front-end Server node.
+1. The Web Service checks first whether the Timer is already executing in any Front-end Server node. If not, the **Is_Running_Since** and **Is_Running_By** attributes of the **Cyclic_Job_Shared** entity are updated. This locks the Timer from executing in any other front-end server node.
 
 1. The module executes the action associated with the Timer.
 
-1. After the action execution is finished, the **Is_Runnining_Since** and **Is_Runnining_By** attributes are cleaned, which frees the Timer for a new execution. The Next_Run attribute is recalculated based on the Schedule attribute and the current date and time.
+1. After the action execution is finished, the **Is_Running_Since** and **Is_Running_By** attributes are cleaned, which frees the Timer for a new execution. The Next_Run attribute is recalculated based on the Schedule attribute and the current date and time.
 
     Regarding the **Next_Run** attribute, it's updated only if it didn't change during the execution of the action. This can happen if, for example, the action updates itself that attribute.
 
