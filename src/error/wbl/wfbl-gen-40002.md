@@ -11,8 +11,8 @@ tags:
 
 ## Cause
 
-This error occurs when the users browser can't contact the WorkflowBuilder servers.
-The &lt;<OriginalErrorMessage>&gt; includes information on the cause of the error.
+This error occurs when the users browser can't contact the Workflow Builder servers.
+The &lt;OriginalErrorMessage&gt; includes information on the cause of the error.
 
 ## Impact
 
