@@ -300,7 +300,6 @@
             - href: enterprise/troubleshooting/too-many-failed-login.md
             - href: enterprise/troubleshooting/vpn-troubleshooting-guide.md
             - href: enterprise/troubleshooting/change-logging-levels.md
-            - href: enterprise/troubleshooting/concat-not-recognized.md
             - href: enterprise/troubleshooting/dst-change-bpt-not-processed.md
             - href: enterprise/troubleshooting/debugger-not-working.md
             - href: enterprise/troubleshooting/deploy-apps-sc.md            
