@@ -479,8 +479,37 @@
         - href: error/inbl/inbl-gen-50004.md
         - href: error/inbl/inbl-gen-50005.md
         - href: error/inbl/inbl-gen-50028.md
-
+    #Workflow Builder
+    - href: error/wbl/intro.md
+    - topics:
+        - href: error/wbl/wfbl-api-00001.md 
+        - href: error/wbl/wfbl-api-00002.md 
+        - href: error/wbl/wfbl-api-00003.md 
+        - href: error/wbl/wfbl-api-10001.md 
+        - href: error/wbl/wfbl-conf-00001.md 
+        - href: error/wbl/wfbl-conf-00002.md 
+        - href: error/wbl/wfbl-conf-00003.md 
+        - href: error/wbl/wfbl-conf-00004.md 
+        - href: error/wbl/wfbl-conf-00005.md 
+        - href: error/wbl/wfbl-conf-00006.md 
+        - href: error/wbl/wfbl-conf-00007.md 
+        - href: error/wbl/wfbl-conf-00008.md 
+        - href: error/wbl/wfbl-gen-00000.md 
+        - href: error/wbl/wfbl-gen-00001.md 
+        - href: error/wbl/wfbl-gen-00002.md 
+        - href: error/wbl/wfbl-gen-00003.md 
+        - href: error/wbl/wfbl-gen-00004.md 
+        - href: error/wbl/wfbl-gen-00005.md 
+        - href: error/wbl/wfbl-gen-00006.md 
+        - href: error/wbl/wfbl-gen-00007.md 
+        - href: error/wbl/wfbl-gen-00008.md 
+        - href: error/wbl/wfbl-gen-00009.md 
+        - href: error/wbl/wfbl-gen-10001.md 
+        - href: error/wbl/wfbl-gen-40001.md 
+        - href: error/wbl/wfbl-gen-40002.md 
+        
 # Trial offer
 - placeholder: Trial
 - topics:
     - href: trial/backup-apps-trial.md
+    
