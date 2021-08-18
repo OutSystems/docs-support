@@ -479,4 +479,53 @@
         - href: error/inbl/inbl-gen-50004.md
         - href: error/inbl/inbl-gen-50005.md
         - href: error/inbl/inbl-gen-50028.md
-
+    #Case Management framework
+    - href: error/cmfr/intro.md
+    - topics: 
+        - href: src/error/cmfr/cmfr-bpt-00001.md 
+        - href: src/error/cmfr/cmfr-gen-00001.md 
+        - href: src/error/cmfr/cmfr-gen-00002.md 
+        - href: src/error/cmfr/cmfr-gen-00003.md 
+        - href: src/error/cmfr/cmfr-gen-00004.md 
+        - href: src/error/cmfr/cmfr-gen-00005.md 
+        - href: src/error/cmfr/cmfr-gen-00006.md 
+        - href: src/error/cmfr/cmfr-gen-00007.md 
+        - href: src/error/cmfr/cmfr-gen-00008.md 
+        - href: src/error/cmfr/cmfr-gen-00009.md 
+        - href: src/error/cmfr/cmfr-gen-00010.md 
+        - href: src/error/cmfr/cmfr-gen-00011.md 
+        - href: src/error/cmfr/cmfr-gen-00012.md 
+        - href: src/error/cmfr/cmfr-gen-00013.md 
+        - href: src/error/cmfr/cmfr-gen-00014.md 
+        - href: src/error/cmfr/cmfr-gen-00015.md 
+        - href: src/error/cmfr/cmfr-gen-00016.md 
+        - href: src/error/cmfr/cmfr-gen-00017.md 
+        - href: src/error/cmfr/cmfr-gen-00018.md 
+        - href: src/error/cmfr/cmfr-gen-00019.md 
+        - href: src/error/cmfr/cmfr-gen-00020.md 
+        - href: src/error/cmfr/cmfr-gen-00021.md 
+        - href: src/error/cmfr/cmfr-gen-00022.md 
+        - href: src/error/cmfr/cmfr-gen-00023.md 
+        - href: src/error/cmfr/cmfr-gen-00024.md 
+        - href: src/error/cmfr/cmfr-gen-00025.md 
+        - href: src/error/cmfr/cmfr-gen-00026.md 
+        - href: src/error/cmfr/cmfr-gen-00027.md 
+        - href: src/error/cmfr/cmfr-gen-00028.md 
+        - href: src/error/cmfr/cmfr-gen-00029.md 
+        - href: src/error/cmfr/cmfr-gen-00030.md 
+        - href: src/error/cmfr/cmfr-gen-00031.md 
+        - href: src/error/cmfr/cmfr-gen-00032.md 
+        - href: src/error/cmfr/cmfr-gen-00033.md 
+        - href: src/error/cmfr/cmfr-gen-00034.md 
+        - href: src/error/cmfr/cmfr-gen-00035.md 
+        - href: src/error/cmfr/cmfr-gen-00036.md 
+        - href: src/error/cmfr/cmfr-gen-00037.md 
+        - href: src/error/cmfr/cmfr-gen-00038.md 
+        - href: src/error/cmfr/cmfr-gen-20001.md 
+        - href: src/error/cmfr/cmfr-gen-20002.md 
+        - href: src/error/cmfr/cmfr-gen-20003.md 
+        - href: src/error/cmfr/cmfr-gen-20004.md 
+        - href: src/error/cmfr/cmfr-gen-20005.md 
+        - href: src/error/cmfr/cmfr-gen-20006.md 
+        - href: src/error/cmfr/cmfr-gen-20007.md 
+        - href: src/error/cmfr/cmfr-gen-20008.md 
