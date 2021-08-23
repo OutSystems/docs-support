@@ -19,7 +19,7 @@ To get a license for an environment, navigate to the **environment management co
 
 Then click the '**Request a New License**' link.
 
-![](images/get-license-for-env_0.png)
+![](images/get-license-for-env-sc.png)
 
 You'll be redirected to the [Licensing portal](http://www.outsystems.com/licensing/), where, after logging in with a valid OutSystems account you'll be able to pick which infrastructure you are managing:
 
