@@ -60,11 +60,11 @@ Users without permissions to download a license file will be taken through an ad
 
 ![](images/get-license-for-env_5.png)
 
-When you click '**Send License**' the license file is sent by e-mail to the contacts (**financial, technical and additional contacts**) registered for your subscription.
+When you click '**Send License**' the license file is sent by e-mail to the authorized contacts registered for your subscription.
 
 ![](images/get-license-for-env_6.png)
 
-Upon receiving the email above, any of the recipients can review your request and forward the license file so that you can continue with the OutSystems Platform installation.
+Upon receiving the email above, any of the recipients can review your request and forward the license file so that you can continue with the OutSystems Platform Server installation.
 
 ## More Information
 
