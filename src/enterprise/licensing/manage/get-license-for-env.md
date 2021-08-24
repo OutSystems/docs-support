@@ -1,19 +1,19 @@
 ---
-summary: On the cloud we'll manage the licensing for you. On-premises you need to get a license and install it on your environment. Use the Licensing portal for this.
+summary: On the OutSystems Cloud we'll manage the licensing for you. For self-managed you need to get a license and install it on your environment. Use the Customer Portal for this.
 en_title: 03 Get a license file for an environment
 ---
 
 # Get a license file for an environment
 
-This article contains the steps to obtain OutSystems licensing files: necessary while installing and upgrading your OutSystems self-managed environments.
+This article contains the steps to obtain OutSystems licensing files, which are required while installing and upgrading your OutSystems self-managed environments.
 
-## Cloud environments
+## OutSystems Cloud environments
 
-**The OutSystems team manages all the licensing** of your **cloud environments**. When you get a new cloud environment, it is already activated and ready for you to start using it.
+**The OutSystems team manages all the licensing** of your **OutSystems Cloud environments**. When you get a new cloud environment, it is already activated and ready for you to start using it.
 
-## On-premises environments
+## Self-managed environments
 
-For your **on-premises environments, you'll need to obtain and install the license in each environment**.
+For your **self-managed environments, you'll need to obtain and install the license in each environment**.
 
 To get a license for an environment, navigate to the **environment management console** at `http://<yourenvironment>/ServiceCenter`. In the '**Administration**' tab, navigate to the '**Licensing**' submenu.
 
@@ -21,7 +21,7 @@ Then click the '**Request a New License**' link.
 
 ![](images/get-license-for-env-sc.png)
 
-You'll be redirected to the [Licensing portal](http://www.outsystems.com/licensing/), where, after logging in with a valid OutSystems account you'll be able to pick which infrastructure you are managing:
+You'll be redirected to the [Customer Portal](http://www.outsystems.com/licensing/), where, after logging in with a valid OutSystems account you'll be able to pick which infrastructure you are managing:
 
 ![](images/get-license-for-env-1.png)
 
@@ -32,15 +32,15 @@ Only [authorized members](https://success.outsystems.com/Support/Enterprise_Cust
 
 ### Registering your environment (using the serial number) { #register-env-serial-number }
 
-If you haven't registered your environment yet on the Licensing portal, you'll have to first register it.
+If you haven't registered your environment yet on the Customer Portal, you'll have to first register it.
 
-Scroll down on the page to find an environment that doesn't have an associated serial number, taking special care to select it the right "environment type":
+Scroll down on the page to find an environment that doesn't have an associated serial number, taking special care to select the right "environment type":
 
 ![](images/get-license-for-env-2.png)
 
 The image above shows an infrastructure with a single environment of type "Development". What you will see on this page will vary depending on your OutSystems subscription.
 
-Click '**Register Environment**', and **enter the Serial Number** and [**Service Center Version**](https://success.outsystems.com/Support/Archive/What_version_of_OutSystems_Platform_am_I_using#Metadata_database_.26_Service_Center) of the environment you want to register.
+Click '**Register Environment**', and **enter the Serial Number** of the environment you want to register.
 
 ![](images/get-license-for-env-3.png)
 
@@ -62,9 +62,7 @@ Users without permissions to download a license file will be taken through an ad
 
 When you click '**Send License**' the license file is sent by e-mail to the authorized contacts registered for your subscription.
 
-![](images/get-license-for-env-6.png)
-
-Upon receiving the email above, any of the recipients can review your request and forward the license file so that you can continue with the OutSystems Platform Server installation.
+Upon receiving the email, any of the recipients can review your request and forward the license file so that you can continue with the OutSystems Platform Server installation.
 
 ## More Information
 

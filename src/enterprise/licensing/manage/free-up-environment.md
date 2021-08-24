@@ -5,7 +5,7 @@ en_title: 05 How to free up an existing environment in licensing
 
 # How to free up an existing environment in licensing
 
-This article explains how you can remove an environment in the [Licensing Portal](https://www.outsystems.com/licensing/) - an operation which is relevant when your team is performing the following operations:
+This article explains how you can remove an environment in the [Customer Portal](https://www.outsystems.com/licensing/), which is relevant when your team is performing the following operations:
 
 * upgrade your OutSystems Platform infrastructure; 
 
@@ -23,7 +23,7 @@ If you need assistance while installing and managing your server licenses [conta
 
 ## Releasing an existing environment
 
-Access the [Licensing Portal](https://www.outsystems.com/licensing/) and select your infrastructure:
+Access the [Customer Portal](https://www.outsystems.com/licensing/) and select your infrastructure:
 
 ![](images/free-up-environment-portal.png)
 
@@ -41,7 +41,7 @@ To get a new license you will have to release this environment (dissociating it 
 
 <div class="info" markdown="1">
 
-If your infrastructure as been flagged for abuse the environment release will not be immediate: it will trigger a request to OutSystems licensing to review your request.
+If your infrastructure has been flagged for abuse the environment release will not be immediate: it will trigger a request to OutSystems licensing to review your request.
 
 </div>
 
