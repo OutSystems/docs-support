@@ -15,7 +15,7 @@ This article explains how you can remove an environment in the [Licensing Portal
 
 * sunset an existing OutSystems Platform environment
 
-<div class="warning" markdown="1">
+<div class="info" markdown="1">
 
 If you need assistance while installing and managing your server licenses [contact OutSystems Support](https://success.outsystems.com/Support/Enterprise_Customers/OutSystems_Support/01_Contact_OutSystems_technical_support).
 
@@ -25,11 +25,11 @@ If you need assistance while installing and managing your server licenses [conta
 
 Access the [Licensing Portal](https://www.outsystems.com/licensing/) and select your infrastructure:
 
-![](images/free-up-environment_0.png)
+![](images/free-up-environment-portal.png)
 
 Look up the environment for which you want to get a new license file (making sure that the serial number matches):
 
-![](images/free-up-environment_1.png)
+![](images/free-up-environment-release.png)
 
 To get a new license you will have to release this environment (dissociating it from the previous serial number):
 
