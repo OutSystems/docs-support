@@ -23,7 +23,7 @@ Then click the '**Request a New License**' link.
 
 You'll be redirected to the [Licensing portal](http://www.outsystems.com/licensing/), where, after logging in with a valid OutSystems account you'll be able to pick which infrastructure you are managing:
 
-![](images/get-license-for-env_1.png)
+![](images/get-license-for-env-1.png)
 
 <div class="info" markdown="1">
 If your infrastructure isn't visible in the drop-down it means that you aren't associated with that infrastructure in your Customer portal.
@@ -36,13 +36,13 @@ If you haven't registered your environment yet on the Licensing portal, you'll h
 
 Scroll down on the page to find an environment that doesn't have an associated serial number, taking special care to select it the right "environment type":
 
-![](images/get-license-for-env_2.png)
+![](images/get-license-for-env-2.png)
 
 The image above shows an infrastructure with a single environment of type "Development". What you will see on this page will vary depending on your OutSystems subscription.
 
 Click '**Register Environment**', and **enter the Serial Number** and [**Service Center Version**](https://success.outsystems.com/Support/Archive/What_version_of_OutSystems_Platform_am_I_using#Metadata_database_.26_Service_Center) of the environment you want to register.
 
-![](images/get-license-for-env_3.png)
+![](images/get-license-for-env-3.png)
 
 <div class="info" markdown="1">
 Don't have any more environments available? See [how to free up an existing environment](free-up-environment.md) or contact your OutSystems account manager.
@@ -52,17 +52,17 @@ Don't have any more environments available? See [how to free up an existing envi
 
 The environment will become associated with the Serial Number you entered and you will then be able to download the license file:
 
-![](images/get-license-for-env_4.png)
+![](images/get-license-for-env-4.png)
 
 The permissions to download license files are managed at the [Customer Portal](https://success.outsystems.com/Support/Enterprise_Customers/OutSystems_Support/Managing_your_company_permissions_on_outsystems.com#Customer_Portal_permissions).
 
 Users without permissions to download a license file will be taken through an additional validation step:
 
-![](images/get-license-for-env_5.png)
+![](images/get-license-for-env-5.png)
 
 When you click '**Send License**' the license file is sent by e-mail to the authorized contacts registered for your subscription.
 
-![](images/get-license-for-env_6.png)
+![](images/get-license-for-env-6.png)
 
 Upon receiving the email above, any of the recipients can review your request and forward the license file so that you can continue with the OutSystems Platform Server installation.
 
