@@ -26,7 +26,7 @@ You'll be redirected to the [Licensing portal](http://www.outsystems.com/licensi
 ![](images/get-license-for-env_1.png)
 
 <div class="info" markdown="1">
-If your infrastructure is not visible in the drop-down it means that you are not associated with that infrastructure in your [Account Settings](https://www.outsystems.com/CustomerArea/) area.
+If your infrastructure isn't visible in the drop-down it means that you aren't associated with that infrastructure in your Customer portal.
 Only [authorized members](https://success.outsystems.com/Support/Enterprise_Customers/OutSystems_Support/Managing_Your_Company_Permissions_on_outsystems.com#What_are_your_access_levels.3F) will be able to access.
 </div>
 
