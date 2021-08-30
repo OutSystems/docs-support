@@ -181,7 +181,7 @@ Protocol Communications | Encapsulated UDP port 500, NAT-T (UDP port 4500)
 Encryption Algorithm | AES-128, AES-256
 Diffie-Hellman Group | 2 (1024 bit), 14-18 (2048 bit), 22, 23, and 24 (2048 bit)
 Perfect Forward Secrecy (PFS) | Yes
-Hashing Algorithm for Integrity | SHA-1,  SHA-256
+Hashing Algorithm for Integrity | SHA-1,  SHA-256, SHA-512
 Re-negotiation time | 28800 seconds
 Mode | Main
 
@@ -192,7 +192,7 @@ IPSec Protocol | ESP; UDP port 500; NAT-T is supported on your side
 Encryption Algorithm | AES-128, AES-256
 Encryption Mode | Tunnel
 Diffie-Hellman Group | 2 (1024 bit), 5 (1536 bit), 14-18 (2048 bit), 22, 23, and 24 (2048 bit)
-Hashing Algorithm for Integrity | SHA-1,  SHA-256
+Hashing Algorithm for Integrity | SHA-1,  SHA-256, SHA-512
 Lifetime Measurement | Time
 Time Lifetime | 3600 seconds
 
