@@ -26,7 +26,27 @@ In **Edit** menu, under **Preferences**, check the **Use One Connection per Requ
 
 By activating this option, it's possible that the debugger feels slower since it's establishing new connections on each request.
 
+
+# The server stops the debug session
+
+## Symptoms
+
+* In a debug session, Service Studio shows the error: **The server has stopped the debug session**.
+* Checking the Service Studio error report, it shows the following error message: `There was an error while contacting the server: HTTP Forbidden`.
+
+## Cause
+
+This usually occurs in self-managed environments that have additional network elements (such as load balancers or reverse proxies) that aren't trusted by the OutSystems Platform Server.
+
+## Solution
+
+Configure your OutSystems environment to trust the addresses for that inject X-Forwarded-For headers.
+To do so, follow these steps:
+
+1. Access Service Center.
+1. Go to **Administration** > **Security** > **Network Security**.
+1. In the **Trusted proxy addresses** field, add the IP addresses or IP ranges of all network elements.
+
 ## More information
 
 There might be other problems affecting your debug session. Check [other reasons](http://www.outsystems.com/forums/discussion/10962/tip-service-studio-is-not-always-stopping-in-my-breakpoints/) for the debugger to misbehave.
-
