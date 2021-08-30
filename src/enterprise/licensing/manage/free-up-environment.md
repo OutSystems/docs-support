@@ -5,15 +5,17 @@ en_title: 05 How to free up an existing environment in licensing
 
 # How to free up an existing environment in licensing
 
-This article explains how you can remove an environment in the [Customer Portal](https://www.outsystems.com/licensing/), which is relevant when your team is performing the following operations:
+This article explains how you can release an environment serial number in the [Customer Portal](https://www.outsystems.com/licensing/), which may be necessary when performing the following operations:
 
-* upgrade your OutSystems Platform infrastructure; 
+* upgrade the OutSystems Platform Server; 
 
-* transfer an OutSystems Platform environment across servers;
+* transfer an OutSystems environment across servers;
 
 * change server hardware;
 
-* sunset an existing OutSystems Platform environment
+* sunset an existing OutSystems environment.
+
+On any of these operations, it's possible that the serial number of the environment changes. If that's the case, you'll need to release the serial number associated with the environment and register a new one.
 
 <div class="info" markdown="1">
 
@@ -27,21 +29,19 @@ Access the [Customer Portal](https://www.outsystems.com/licensing/) and select y
 
 ![](images/free-up-environment-portal.png)
 
-Look up the environment for which you want to get a new license file (making sure that the serial number matches):
+Look up the environment to release (making sure that the serial number matches):
 
 ![](images/free-up-environment-release.png)
 
-To get a new license you will have to release this environment (dissociating it from the previous serial number):
+1. click **Release Environment**.
 
-* click '**Release Environment**';
+1. fill in the reason for the release.
 
-* fill in the reason for the license invalidation;
-
-* click **'Release'**
+1. click **Release**.
 
 <div class="info" markdown="1">
 
-If your infrastructure has been flagged for abuse the environment release will not be immediate: it will trigger a request to OutSystems licensing to review your request.
+If your infrastructure has been flagged for abuse the environment release won't be immediate: it will trigger a request to OutSystems to review your request.
 
 </div>
 
