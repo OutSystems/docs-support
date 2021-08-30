@@ -15,7 +15,7 @@ The OutSystems team manages all the licensing of your OutSystems Cloud environme
 
 For your self-managed environments, you'll need to obtain and install the license in each environment. To reach the Customer Portal from Service Center, follow these steps:
 
-1. In Service Centrer at `http://<yourenvironment>/ServiceCenter`, navigate to the '**Administration**' tab and then to the **Licensing** submenu.
+1. In Service Center at `http://<yourenvironment>/ServiceCenter`, navigate to the '**Administration**' tab and then to the **Licensing** submenu.
 
 1. Click the **Request a New License** link.
 
