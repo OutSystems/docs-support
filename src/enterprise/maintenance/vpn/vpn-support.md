@@ -85,7 +85,7 @@ Your VPN gateway can be a physical or software device. Check [the list provided 
 
 * Uses AES128-bit or AES256-bit encryption function.
 
-* Uses the SHA-1 or SHA-256 hashing function.
+* Uses the SHA-1, SHA-256 or SHA-512 hashing function.
 
 * Uses the Diffie-Hellman Perfect Forward Secrecy in groups 2 (1024 bit), 5 (1536 bit), 14-18 (2048 bit), 22, 23, or 24 (2048 bit).
 
