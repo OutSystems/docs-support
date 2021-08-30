@@ -31,20 +31,21 @@ By activating this option, it's possible that the debugger feels slower since it
 
 ## Symptoms
 
-* In a debug session, Service Studio informs that "The server has stopped the debug session".
-* When checking the Service Studio error report, it shows the following error message: "There was an error while contacting the server: HTTP Forbidden"
+* In a debug session, Service Studio shows the error: **The server has stopped the debug session**.
+* Checking the Service Studio error report, it shows the following error message: `There was an error while contacting the server: HTTP Forbidden`.
 
 ## Cause
 
-This usually occurs on on-premises environments, when there are additional network elements, like internal/external load balancers or reverse proxies, that you need to inform the OutSystems Platform that they are trusted.
+This usually occurs in self-managed environments that have additional network elements (such as load balancers or reverse proxies) that aren't trusted by the OutSystems Platform Server.
 
 ## Solution
 
-In order for you to configure a trusted proxy in your on-premises environment, please proceed as follows:
+Configure your OutSystems environment to trust the addresses for that inject X-Forwarded-For headers.
+To do so, follow these steps:
 
-1. Access Service Center in your environment;
-2. Go to Administration > Security > Network Security;
-3. Add the IP addresses or IP ranges of all network elements in the Trusted proxy addresses field.
+1. Access Service Center.
+1. Go to **Administration** > **Security** > **Network Security**.
+1. In the **Trusted proxy addresses** field, add the IP addresses or IP ranges of all network elements.
 
 ## More information
 
