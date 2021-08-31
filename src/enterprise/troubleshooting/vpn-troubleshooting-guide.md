@@ -22,7 +22,7 @@ While setting up the VPN, OutSystems provisions internal DNS servers that should
 
     * DNS Servers: As detailed in the initial VPN configuration
 
-    * Protocol / Port : UDP 53
+    * Protocol / Port : UDP/TCP 53
 
     * Domain to be resolved: outsystemsenterprise.com
 
@@ -33,6 +33,15 @@ While setting up the VPN, OutSystems provisions internal DNS servers that should
     * Port and protocol (UDP/TCP) of the onsite DNS server(s).
 
     * The internal domain you wish to resolve from the Cloud environments (example: company.local).
+
+1. To retrieve the private IP address of the database server, we recommend using OutSystems DNS service. You can configure your DNS to connect to the following IP addresses that will resolve the database server's private address:
+
+    * DNS Servers: As detailed in the initial VPN configuration
+
+    * Protocol/Port: UDP/TCP 53
+
+    * Domain to be resolved: xxxx.rds.amazonaws.com (provided in the database accces configuration).
+
 
 ## Establishing a stable connection
 
