@@ -1,5 +1,5 @@
 ---
-summary:
+summary: Learn how to change the serial number associated to an environment to get an updated license file.
 en_title: 05 How to free up an existing environment in licensing
 ---
 
@@ -15,7 +15,7 @@ This article explains how you can release an environment serial number in the [C
 
 * sunset an existing OutSystems environment.
 
-On any of these operations, it's possible that the serial number of the environment changes. If that's the case, you'll need to release the serial number associated with the environment and register a new one.
+On any of these operations, it's possible that the serial number of the environment changes. If that's the case, you'll need to release the serial number associated with the environment and register a new one. Once you've done that, you can download an updated license file.
 
 <div class="info" markdown="1">
 
@@ -33,22 +33,14 @@ Look up the environment to release (making sure that the serial number matches):
 
 ![](images/free-up-environment-release.png)
 
-1. click **Release Environment**.
+1. Click **Release Environment**.
 
-1. fill in the reason for the release.
+1. Fill in the reason for the release.
 
-1. click **Release**.
+1. Click **Release**.
 
 <div class="info" markdown="1">
 
 If your infrastructure has been flagged for abuse the environment release won't be immediate: it will trigger a request to OutSystems to review your request.
 
 </div>
-
-## More information
-
-* [How OutSystems licensing works](../overview/how-licensing-works.md)
-
-* [Changed the hardware and the license stopped being valid](../troubleshooting/change-hw-license-invalid.md)
-
-* [Registering your environment (using the serial number)](get-license-for-env.md#register-env-serial-number)

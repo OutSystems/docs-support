@@ -140,9 +140,6 @@
 - enterprise/maintenance/data-migration/sections/07-business-process-technology-bpt.md:
     - enterprise/maintenance/data-migration/11-how-to-migrate-data.md
  
-- enterprise/licensing/manage/find-activation-code/find-activation-code.md:
-    - enterprise/licensing/overview/how-licensing-works.md
-
 
 # Containers deployment with no downtime
 - enterprise/maintenance/apps-no-downtime/intro.md:
@@ -187,3 +184,30 @@
 - enterprise/install/redis-in-memory-sessions/setup-non-prod.md:
     - enterprise/install/redis-in-memory-sessions/requirements.md
     - enterprise/install/redis-in-memory-sessions/setup-platform-server-redis.md
+
+# Licensing
+
+- enterprise/licensing/manage/free-up-environment.md:
+    - enterprise/licensing/manage/get-license-for-env.md
+    - enterprise/licensing/manage/howto-install-license.md
+    - enterprise/licensing/troubleshooting/change-hw-license-invalid.md
+    - enterprise/licensing/overview/how-licensing-works.md
+    - enterprise/licensing/manage/find-activation-code\find-activation-code.md
+
+- enterprise/licensing/manage/get-license-for-env.md:
+    - enterprise/licensing/manage/howto-install-license.md
+    - enterprise/licensing/overview/how-licensing-works.md
+    - enterprise/licensing/manage/find-activation-code\find-activation-code.md
+
+- enterprise/licensing/manage/howto-install-license.md:
+    - enterprise/licensing/manage/find-activation-code\find-activation-code.md
+    - enterprise/licensing/overview/how-licensing-works.md
+
+- enterprise/licensing/overview/how-licensing-works.md:
+    - enterprise/licensing/manage/find-activation-code\find-activation-code.md
+
+
+
+
+
+
