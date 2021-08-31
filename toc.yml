@@ -49,7 +49,8 @@
         # Troubleshooting
         - placeholder: Troubleshooting
         - topics:
-            - href: enterprise/licensing/troubleshooting/reached-license-limits.md         
+            - href: enterprise/licensing/troubleshooting/reached-license-limits.md
+            - href: enterprise/licensing/troubleshooting/upgraded-license-not-valid.md            
             - href: enterprise/licensing/troubleshooting/change-hw-license-invalid.md
 
     # Installation
