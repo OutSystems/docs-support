@@ -4,7 +4,7 @@ summary: Frequently asked questions about OutSystems licensing mechanism. Explan
 
 # How OutSystems licensing works
 
-You may subscribe to OutSystems Cloud or use a self-managed infrastructure. A typical infrastructure has several environments like Development, Quality Assurance, and Production. The OutSystems management console (LifeTime) also requires a dedicated environment.
+You may subscribe to OutSystems Cloud or use a self-managed infrastructure. A typical infrastructure has several environments like Development, Quality Assurance, and Production. LifeTime, the OutSystems management console also requires a dedicated environment.
 
 ![](images/how-licensing-works_0.png)
 
@@ -46,8 +46,8 @@ No you don't. You only need a license for your cloud or on-premises infrastructu
 
 ### Where do I get my license files?
 
-With the Activation Code of your infrastructure at hand you can download your license files from the [Licensing portal](http://www.outsystems.com/licensing). Check [here](../manage/get-license-for-env.md) for the instructions on how to get and install a license file.
+With the Activation Code of your infrastructure at hand you can download your license files from the [Customer portal](https://www.outsystems.com/licensing). Check [here](../manage/get-license-for-env.md) for the instructions on how to get and install a license file.
 
 ### How to find out what my subscription includes?
 
-[Check the Licensing portal](http://www.outsystems.com/licensing). There you can find all about your current subscription.
+[Check the Customer portal](http://www.outsystems.com/licensing). There you can find all about your current subscription.

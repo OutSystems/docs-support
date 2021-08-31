@@ -11,7 +11,7 @@ This article contains the steps to obtain OutSystems licensing files, which are 
 
 The OutSystems team manages all the licensing of your OutSystems Cloud environments. When you get a new cloud environment, it's already activated and ready to use.
 
-## Self-managed environments
+## Self-managed environments { #self-managed }
 
 For your self-managed environments, you'll need to obtain and install the license in each environment. To reach the Customer Portal from Service Center, follow these steps:
 
@@ -56,7 +56,7 @@ To obtain a license, you'll first need to register the environment using its ser
 Don't have any more environments available? See [how to free up an existing environment](free-up-environment.md) or contact your OutSystems account manager.
 </div>
 
-### Getting the license file
+### Getting the license file { #get-license }
 
 The environment is now associated with the serial number and you can download the license file:
 
