@@ -232,7 +232,7 @@ Check the following VPN settings and ensure that:
 
 1. Encapsulating Security Payload (ESP) protocol 50 isn't blocked (inbound/outbound).
 
-1. The security association lifetime is set to 3600 seconds (60 minutes).
+1. The security association lifetime is equal or lower than 3600 seconds (60 minutes).
 
 1. There are no Firewall ACLs interfering with IPsec traffic.
 
