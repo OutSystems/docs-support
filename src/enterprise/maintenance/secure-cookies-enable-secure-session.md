@@ -20,11 +20,18 @@ You can configure an OutSystems environment to have secure session cookies. To d
 
 After installing Factory Configuration, access the application and, in the *Platform Configurations* tab, find the option to enable secure session cookies:
 
-![ ](images/secure-cookies-enable-secure-session_0.png)
+![configuration screen to turn secure session cookies](images/secure-cookies-enable-secure-session_0.png)
+
+<div class="info" markdown="1">
+
+After you change the settings using Factory Configuration, make sure you **apply new configurations to you environment**.
+
+</div>
+
 
 **Important note:** When you activate the secure flag, OutSystems only sends session cookies when using HTTPS. Therefore, to prevent unexpected behavior with user sessions, when you activate secure session cookies you should also force HTTPS for all screens. By enabling the Improved Application Security option, you have access to additional security configurations for your environment on Service Center and LifeTime, which allow not only to force HTTPS for web screens but also for web references:
 
-![ ](images/secure-cookies-enable-secure-session_1.png)
+![configuration screen for force HTTPS](images/secure-cookies-enable-secure-session_1.png)
 
 This option is enabled by default since OutSystems 10 and it's available for OutSystems 9.1 since revision patch 9.1.600.0.
 
