@@ -58,7 +58,7 @@ The permissions should be set as follows:
 
 ![ ](images/multiple-db-catalogs-schemas_2.png)
 
-Once the catalog is created in SQL Server, proceed to Service Center Administration tab and select Database Catalogs.
+Once the catalog is created in SQL Server, proceed to Service Center Adminitration tab and select Database Catalogs.
 
 ![ ](images/multiple-db-catalogs-schemas_3.png)
 
