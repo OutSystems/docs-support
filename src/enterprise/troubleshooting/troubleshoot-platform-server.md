@@ -111,7 +111,7 @@ OutSystems Platform Server produces its own performance information, compliant w
 
 | Cause | The "OutSystems Log Service" at the referred Front-end Server or Deployment Controller Server is stopped|
 |-----|-----|
-| **Resolution / Recovery Action** |<ol><li>Login to the Front-end Server or Deployment Controller Server and go to Windows Services.</li><li>Confirm that the "OutSystems Deployment Controller Service" is not Started. Start it.</li></ol>|
+| **Resolution / Recovery Action** |<ol><li>Login to the Front-end Server or Deployment Controller Server and go to Windows Services.</li><li>Confirm that the "OutSystems Log Service" is not Started. Start it.</li></ol>|
 
 **"OutSystems Log Service Status: Warning: Log Queue has n items"**
 
