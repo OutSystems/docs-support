@@ -166,8 +166,6 @@ So, in addition to the monitoring steps described above, daily checking of LifeT
 
 While Service Center presents monitoring logs and analysis reports by way of numbers, which can make it difficult to parse, [LifeTime](https://success.outsystems.com/Documentation/11/Managing_the_Applications_Lifecycle/Monitor_and_Troubleshoot/Troubleshoot_the_Performance_of_an_Application) provides much the same data in a unified graphic console for analytics across all of your environments.
 
-**Note**: Currently this is for traditional web apps only. OutSystems is working on adding other types of analytics for mobile apps.
-
 For the **TLC** app LifeTime is consulted daily for all aspects of the user experience.
 Log into LifeTime to view the Applications dashboard. 
 

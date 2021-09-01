@@ -158,7 +158,7 @@ As described before, the Scheduler Service executes a Timer by calling a Web Ser
 
 If the execution of a Timer terminates due to an unexpected error, the Scheduler Service recovers the Timer and synchronize the database only after the timeout time plus 20% has passed. Until then, the data about Timers in the database may be inconsistent.
 
-It's also important to implement the login in the Timer action so that you make sure that data is kept consistent in case of the Timer execution terminates unexpectedly.
+It's also important to implement the logic in the Timer action so that you make sure that data is kept consistent in case of the Timer execution terminates unexpectedly.
 
 ## Retrying after an execution error
 

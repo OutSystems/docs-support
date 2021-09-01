@@ -5,7 +5,7 @@ tags: support-Cloud_Platform; support-Cloud_Platform-featured; article-page
 
 # Access the database of your OutSystems Cloud
 
-This topic details how you request direct access to your OutSystems Cloud databases.
+This topic details how you request direct access to the OutSystems Cloud databases of your subscription.
 
 <div class="info" markdown="1">
 

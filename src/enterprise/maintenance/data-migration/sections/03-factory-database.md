@@ -63,7 +63,7 @@ This section shows an example of how to publish an Espace with new Entities and 
 
 ### Publish an Espace with new Entities
 
-To publish an Espace with new entities, dreate a new Espace called “People” and then create three new Entities:
+To publish an Espace with new entities, create a new Espace called “People” and then create three new Entities:
 
 1. City, with the Name attribute.
 2. Icon, and the attributes are:

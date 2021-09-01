@@ -9,7 +9,7 @@ template('OutSystems/OSVersionIndicator');
 
 # Keep OutSystems log data in a separate database
 
-Up to version 10, OutSystems used a single database to store two types of data: **application data** and **log data**. Since these types of data have different requirements, customers might need to handle each type of data differently.
+Up to version 10, OutSystems used a single database to store two types of data: **application data** and **log data**. Since these types of data have different requirements, you might need to handle each type of data differently.
 
 OutSystems 11 allows you to store log data in a separate database, reducing the impact that log-writing operations could have on running applications while application data is being accessed. This also allows database maintenance tasks to address the business concerns in terms of data criticality and security for the two types of data in an appropriate manner.
 
@@ -51,6 +51,10 @@ These new attributes in log entities will only be filled in for applications alr
 
 ## "Should I use a separate database for log data?"
 
-It's still possible to keep using the same database both for log data and application data. If you have no special requirements associated with the log data produced by OutSystems applications, then this kind of data can live side-by-side with application data in the same database. This is the default upgrade path for customers upgrading to OutSystems 11.
+It's still possible to keep using the same database both for log data and application data. If you have no special requirements associated with the log data produced by OutSystems applications, then this kind of data can live side-by-side with application data in the same database. This is the default upgrade path if you are upgrading to OutSystems 11.
 
-However, if you need to comply with more strict rules or procedures, it is advisable to store log data in a separate database. Customers upgrading to OutSystems 11 should follow the steps presented in the next topics to take advantage of log data separation.
+However, if you need to comply with more strict rules or procedures, it is advisable to store log data in a separate database. If you are upgrading to OutSystems 11, follow the steps in the following topics to take advantage of log data separation.
+
+[Configure a separate database for log data](configure-separate-db.md)
+
+[Update applications that access OutSystems log data](update-applications.md)
