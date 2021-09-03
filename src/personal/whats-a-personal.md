@@ -90,6 +90,6 @@ Detaching the source code of your applications is only available for subscriptio
 
 ## Additional information
 
-For more information check the [Free License terms of use](https://www.outsystems.com/legal/evaluation-license/).
+For more information check the [End-user license agreement](https://www.outsystems.com/legal/end-user-licensing-agreement/).
 
 If you are evaluating OutSystems for your company and require any of the capabilities that aren't available, contact our chat support.
