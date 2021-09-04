@@ -553,6 +553,30 @@
         - href: error/cmfr/cmfr-gen-20006.md 
         - href: error/cmfr/cmfr-gen-20007.md 
         - href: error/cmfr/cmfr-gen-20008.md 
+   
+    #Experience Builder
+    - href: error/exbl/intro.md
+    - topics:
+        - href: error/exbl/exbl-api-10001.md
+        - href: error/exbl/exbl-conf-00001.md
+        - href: error/exbl/exbl-conf-00004.md
+        - href: error/exbl/exbl-conf-00010.md
+        - href: error/exbl/exbl-gen-00001.md
+        - href: error/exbl/exbl-gen-00015.md
+        - href: error/exbl/exbl-gen-00016.md
+        - href: error/exbl/exbl-gen-00017.md
+        - href: error/exbl/exbl-gen-00029.md
+        - href: error/exbl/exbl-gen-00030.md
+        - href: error/exbl/exbl-gen-00032.md
+        - href: error/exbl/exbl-gen-00033.md
+        - href: error/exbl/exbl-gen-00040.md
+        - href: error/exbl/exbl-gen-00042.md
+        - href: error/exbl/exbl-gen-00043.md
+        - href: error/exbl/exbl-gen-00044.md
+        - href: error/exbl/exbl-gen-00048.md
+        - href: error/exbl/exbl-gen-00049.md
+        - href: error/exbl/exbl-gen-00053.md
+        - href: error/exbl/exbl-gen-00054.md
 
 # Trial offer
 - placeholder: Trial

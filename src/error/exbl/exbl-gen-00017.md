@@ -1,0 +1,23 @@
+---
+summary: The application flow <flowName> has an invalid <metadataFieldName>.
+tags:
+---
+
+# OS-EXBL-GEN-00017
+
+## Error message
+
+`The application flow <flowName> has an invalid <metadataFieldName>.`
+
+## Cause
+
+The flow you are trying to add, has an invalid name or invalid comment text.
+
+## Impact
+
+You can't add this flow to the application.
+
+## Recommended action
+
+The flow data is invalid. Verify the flow is imported, rename the flow using only allowed characters, and import it again.
+If the flow is from Experience Builder, [open a support case](https://success.outsystems.com./Support).
