@@ -91,6 +91,10 @@
         - href: enterprise/maintenance/access-database-paas/access-database-paas.md
         - topics: 
             - href: enterprise/maintenance/access-database-paas/temporary-access-database-backup.md
+        
+        # Using OutSystems in Reverse Proxy Scenarios
+        - href: enterprise/maintenance/reverse-proxy/intro.md
+
         - href: enterprise/maintenance/whitelist-cloud-servers/whitelist-cloud-servers.md
         - href: enterprise/maintenance/restart-cloud/restart-cloud.md
         - href: enterprise/maintenance/aws-direct-connect-os-cloud.md
