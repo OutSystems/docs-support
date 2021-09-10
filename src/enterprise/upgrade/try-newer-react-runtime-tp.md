@@ -5,15 +5,28 @@ tags:
 
 # Technical Preview - Reactive Web and Mobile runtime on React 16
 
-<div class="warning" markdown="1">
+<div class="info" markdown="1">
 
-This is an archived page. OutSystems uses React 16 as the default React for the app runtime since Platform Server 11.12. 
+OutSystems uses React 16 as the default React version for the app runtime since Platform Server 11.12. If you're on Platform Server 11.10.0 and plan an upgrade, check out the notes in this document regarding the React 16 runtime.
 
 </div>
 
-Reactive Web and Mobile Apps use React 15 for the app runtime. OutSystems plans to update to a newer version of React, which may introduce breaking changes in your apps. To anticipate possible breaking changes in the app behavior, you have an option to turn on **Runtime using React 16 Technical Preview**.
+In Platform Server 11.12 and earlier, Reactive Web and Mobile Apps use React 15 for the app runtime. OutSystems updates to a newer version of React after initial technical preview to get feedback and address common issues.
 
-It's an OutSystems strong recommendation that you use the React 16 technical preview to test your apps and address all potential issues before React 16 becomes the new runtime default.
+If you're running Platform Server 11.10.0, you can use **Runtime using React 16 Technical Preview** to anticipate possible breaking changes in the app behavior. It's an OutSystems strong recommendation that you use the React 16 technical preview to test your apps and address all potential issues before React 16 becomes the new runtime default. 
+
+<div class="info" markdown="1">
+
+## Prerequisites
+
+To run your app with the React 16 runtime, as part of a technical preview, you need to meet the following requirements:
+
+* Platform Server 11.10.0 or later.
+* LifeTime 11.6.0 or later.
+* Up to date Service Studio.
+* You activated the [technical preview](https://success.outsystems.com/Support/Enterprise_Customers/Upgrading/Technical_Preview_features) **Runtime using React 16** in LifeTime. Note that only the apps you **publish or republish** after activating the feature use the new React 16 runtime.   
+
+</div>
 
 ## Checking for issues
 
