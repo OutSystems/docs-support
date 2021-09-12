@@ -133,7 +133,7 @@ This change will invalidate all absolute URLs in the resources (HTML, CSS and Ja
 
 To implement this requirement, you need to rewrite all URLs in the resources. This must be done in a request post-processing step before it's sent to the client, preferably at the reverse proxy level.
 
-You can access [here](https://success.outsystems.com/Support/Enterprise_Customers/Maintenance_and_Operations/Using_OutSystems_in_Reverse_Proxy_Scenarios/04_Configuring_an_Apache_Web_Server_as_a_Reverse_Proxy) the configuration required on an Apache Web Server to implement this scenario.
+You can access [here](reverse-proxy-apache-config.md) the configuration required on an Apache Web Server to implement this scenario.
 
 This configuration covers both application runtime, development, and console administration (Service Center and LifeTime).
 
