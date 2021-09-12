@@ -14,7 +14,7 @@ Some of these configurations require direct manipulation of OutSystems system da
 
 </div>
 
-## A - Request Header Manipulation
+## A - Request Header Manipulation { #A }
 
 <div class="info" markdown="1">
 
@@ -40,7 +40,7 @@ ProxyPassReverse / http://server.local/
 < / VirtualHost > 
 ```
 
-## B - Referenced Content Exposure
+## B - Referenced Content Exposure { #B }
 
 <div class="info" markdown="1">
 
@@ -59,7 +59,7 @@ Depending on the level of URL manipulation, these references may also need the f
 * Rewrite resource URLs inside the code **(not supported for Mobile and Reactive apps)**
 * Request Header Manipulation
 
-## C - End-to-end SSL and SSL Offloading
+## C - End-to-end SSL and SSL Offloading { #C }
 
 <div class="info" markdown="1">
 
@@ -109,7 +109,7 @@ After applying the above configurations, the following must be executed:
 
 1. Republish the application.
 
-## D - Rewrite URLs in resources
+## D - Rewrite URLs in resources { #D }
 
 <div class="info" markdown="1">
 
@@ -137,7 +137,7 @@ You can access [here](https://success.outsystems.com/Support/Enterprise_Customer
 
 This configuration covers both application runtime, development, and console administration (Service Center and LifeTime).
 
-## E - Disable content compression
+## E - Disable content compression { #E }
 
 <div class="info" markdown="1">
 
@@ -203,7 +203,7 @@ Disable the platform's own AJAX compression by creating the `OutSystems.HubEditi
 
 1. Restart Wildfly.
 
-### F - Adjust keep-alive connection timeout
+## F - Adjust keep-alive connection timeout { #F }
 
 <div class="info" markdown="1">
 

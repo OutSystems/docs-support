@@ -97,6 +97,7 @@
         - topics:
             - href: enterprise/maintenance/reverse-proxy/requirements.md
             - href: enterprise/maintenance/reverse-proxy/reverse-proxy-config.md
+            - href: enterprise/maintenance/reverse-proxy/reverse-proxy-use-cases.md
 
         - href: enterprise/maintenance/whitelist-cloud-servers/whitelist-cloud-servers.md
         - href: enterprise/maintenance/restart-cloud/restart-cloud.md
