@@ -14,6 +14,10 @@ Environment synchronization in LifeTime is taking longer than expected.
 
 When the synchronization of an environment in LifeTime is stuck, follow the validations below to troubleshoot a potential issue.
 
+### Verify that you are running the latest version of LIfetime and Platform Server
+
+Keep **LifeTime** and **Platform Server** updated in order to take advantage of the latest improvements in synchronization procedures. See [this article](https://success.outsystems.com/Support/Enterprise_Customers/Upgrading/Which_versions_of_Platform_Server_can_LifeTime_manage%3F) for more information about version compatibility. 
+
 ### Check the connectivity between environments (self-managed only)
 
 If you have self-managed environments, make sure there is bidirectional communication between LifeTime and the synchronizing environment:
