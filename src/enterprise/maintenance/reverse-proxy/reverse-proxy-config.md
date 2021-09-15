@@ -75,17 +75,15 @@ When serving secure applications through a reverse proxy, OutSystems supports th
 
     ![referenced content exposure](images/reverse-proxy-config-ssl-offload-diag.png)
 
-In SSL Offload scenarios, three configurations need to be applied:
+In **SSL Offload** scenarios, two configurations need to be applied:
 
-1. Add a custom HTTP header at the reverse proxy level. The header instructs OutSystems to build the URLs with the HTTPS protocol.
+1. Add a custom HTTP header at the reverse proxy level. The header instructs OutSystems which was the protocol used in the request received by the reverse proxy.
 
-    To do so, configure a rule in the reverse proxy that adds the parameter `X-Forwarded-Proto` with the above defined value of `https`. This way, OutSystems knows to which traffic needs HTTPS URLs.
-
-    If Apache is being used as a reverse proxy, add the following line to the proxy configuration file:
-
-    `RequestHeader set X-Forwarded-Proto https`
-
-    **Note:** If you are using other software as a reverse proxy, make sure to check what is the proper header name and value, since they might be different. If the header name and/or value is different, adapt the instructions in the following step to use the correct header.
+    To do so, configure a rule in the reverse proxy that adds the parameter `X-Forwarded-Proto` with value of:
+    
+    * `https` if the received request by the reverse proxy was using the HTTPS scheme.
+    
+    * `http` otherwise.
 
 1. In the OutSystems database, create the `OutSystems.HubEdition.HTTPtoHTTPSproxyHeader` parameter:
 
@@ -95,19 +93,21 @@ In SSL Offload scenarios, three configurations need to be applied:
 
     **Parameter:** `OutSystems.HubEdition.HTTPtoHTTPSproxyHeader`
 
-    **Values:** `X-Forwarded-Proto: https` (or another value, depending on the reverse proxy being used).
-
-    You can use `"<header>"` (OutSystems will check for the presence of the header with name `<header>`) or `"<header>: <value>"` (OutSystems will check for the presence of the header with a specific value) as a valid parameter value.
+    **Values:** `X-Forwarded-Proto: https`
 
     **Default:** (none)
 
-1. Enable **Use HTTPS for internal communications** in all the deployment zones. Create an [all content solution](../solution-creating-all-comp.md) and click **Apply Settings**.
+Aditionally, make sure the IP address of the reverse proxy is configured in the Trusted proxy addresses in **Service Center** (Administration > Security > Network Security).
 
 After applying the above configurations, the following must be executed:
 
 1. Restart OutSystems services and application server.
 
 1. Republish the application.
+
+### Server.API and Server.Identity configurations
+
+Server.API and Server.Identity only support the standard header names for protocol identification - `X-Forwarded-Proto` and originating IP address of a request - `X-Forwarded-For`. This means that the reverse proxy needs to set the necessary information in the HTTP headers using those header names, otherwise you might encounter errors. 
 
 ## D - Rewrite URLs in resources { #D }
 
