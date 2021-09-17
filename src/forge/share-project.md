@@ -1,6 +1,6 @@
 ---
 summary: Know the details of sharing a project in the OutSystems Forge.
-tags: forge_support_sharing
+tags: forge; forge_support; forge_support_sharing
 ---
 
 # Sharing a project

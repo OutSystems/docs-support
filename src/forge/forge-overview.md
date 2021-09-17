@@ -1,13 +1,13 @@
 ---
 summary: The OutSystems Forge is a repository of reusable, open code modules, connectors, UI components, and business solutions to help speed up app delivery time.
-tags: forge 
+tags: forge; forge_support
 ---
 
 # Overview
 
 ## What can I expect to find in the Forge? { #find-in-forge }
 
-The Forge is an OutSystems repository that enables community users to share and collaborate in software projects. Those software projects can be:
+The [Forge](https://www.outsystems.com/forge/) is an OutSystems repository that enables community users to share and collaborate in software projects. Those software projects can be:
 
 * Applications
 * Integrations
@@ -77,30 +77,6 @@ Guides and examples that demonstrate how specific tasks, capabilities, or how co
 
 [OutSystems Maps Sample](https://www.outsystems.com/forge/component-overview/10984/outsystems-maps-sample) and [Data Grid Sample Reactive](https://www.outsystems.com/forge/component-overview/9765/data-grid-sample-reactive) are examples of Demos & samples projects.
 
-## What is an OutSystems Supported project? { #supported }
+## What level of curation and support can I expect from Forge projects? { #curation }
 
-An OutSystems Supported project is a component or application that's developed, maintained, and supported by OutSystems under the terms of a customer's subscription. Supported components are distributed in two different ways:
-
-* As open source, allowing customers to change them for their own needs. However, once a customer has changed them, such components will no longer be supported by OutSystems.
-
-* As a closed component that doesn’t allow customization. As part of the product, these components are under intellectual property protection.
-
-## What is a Trusted project? { #trusted }
-
-A Trusted project is a component that has been validated by the OutSystems Curation Team. This ensures the component delivers the promised functionality and that it was built based on best practices for security, documentation and code quality. Trusted components are supported by the Community.
-
-You can find the detailed requirements to trust a component in the [Trusted components requirements](trusted-requirements.md).
-
-## What is a featured project? { #featured }
-
-A featured project is a component or application, not necessarily developed by OutSystems, that we believe is valuable to customers, either because of its functionality or its content.
-
-## What is a deprecated project? { #deprecated }
-
-A deprecated project is a component or application that's no longer suitable or recommended for download. Most likely this is because another project with equivalent functionality has replaced it.
-
-## How do I get support for a specific project? { #get-support }
-
-Customers with an active subscription to OutSystems can submit a request via the OutSystems Support Portal for OutSystems Supported projects.
-
-Community support is available for other projects. Browse to the discussions tab on the project's page and review existing answers. If you don't find what you're looking for, start a new thread.
+See [Curating Projects](curate-project.md) for detailed information about the level of curation of the projects shared in the Forge and the support you can get for those projects.

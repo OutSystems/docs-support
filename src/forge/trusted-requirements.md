@@ -1,6 +1,6 @@
 ---
 summary: Know the set of requirements that a component shared in Forge must comply with to be considered a Trusted component.
-tags: 
+tags: forge; forge_support; trusted
 ---
 
 # Trusted components requirements

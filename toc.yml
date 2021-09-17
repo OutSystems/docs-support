@@ -387,8 +387,13 @@
     - placeholder: Forge FAQs
     - topics:
         - href: forge/forge-overview.md
-        - href: forge/trusted-requirements.md
         - href: forge/share-project.md
+        - href: forge/install-project.md
+        - href: forge/review-project.md
+        - href: forge/curate-project.md
+        - topics:
+            - href: forge/remove-project.md
+        - href: forge/trusted-requirements.md
 
 # Archive
 - placeholder: Archive
