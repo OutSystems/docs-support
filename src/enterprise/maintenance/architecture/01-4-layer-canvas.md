@@ -13,7 +13,13 @@ Each layer and sub layer sets a different nature of the functionality to be capt
 
 ![](images/layers_canvas_0.png)
 
-In detail the sub layers:
+<div class="info" markdown="1">
+
+The orchestration layer is used in OutSystems 10 for hyperlinks between screens of two different applications. Such links are considered strong dependencies, which compromise each application's lifecycle independence. In OutSystems 11 screen destinations are considered weak references, so an orchestration layer is no longer required, and as such has been removed from the architecture canvas.
+
+</div>
+
+Sub layers are shown in detail below:
 
 ![](images/sub_layers_canvas.png)
 
