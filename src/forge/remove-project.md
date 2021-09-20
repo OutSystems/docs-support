@@ -9,7 +9,7 @@ For reasons related to security and intellectual property protection (IPP), user
 
 To request the removal of a component that you own, do the following:
 
-1. Log in the Forge as the owner of the component.
+1. Login to the Forge as the owner of the component.
 
 1. Access the component that you want to remove.
 
