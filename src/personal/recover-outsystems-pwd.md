@@ -6,11 +6,11 @@ summary: To reset your OutSystems password, click the 'Forgot Password?' link, a
 
 To recover your OutSystems account password, click the [Forgot password?](http://www.outsystems.com/home/RequestPassword.aspx) link on the login screen.
 
-![](images/recover-outsystems-pwd_0.png)
+![](images/pe-recover-pw.png)
 
-1. **Enter your email** address, and click the **Forgot  Password** button;
+1. Enter your email address, and click the **Recover Password** button.
 
-2. Check your email. We sent you an email with a link to reset the password;
+    Outsystems sends you an email with a link to recover your password.
 
-3. Follow the instructions on the email, and **choose a new password**.
+1. Follow the instructions in the email to recover your password.
 
