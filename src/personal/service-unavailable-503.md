@@ -10,9 +10,9 @@ summary:
 
 You are accessing eSpace Users (or any other eSpace you created in your Personal Environment) and you get a **Service Unavailable** error message.
 
-![](images/service-unavailable-503_0.png)
+![](images/pe-503-error.png)
 
-### Symptom 2: Error doing 1-Click Publish from Service Studio
+### Symptom 2: Error when using 1-Click Publish in Service Studio
 
 You are publishing an eSpace using Service Studio. The deployment phase (3) takes abnormally long and ends with an error indicating that the **Deployment failed**. If you hover the details of the error, you see an that the error is a **(503) Server Unavailable** error which confirms that [symptom 1](#symptom-1:-http-error-503:-service-unavailable) applies.
 
@@ -20,13 +20,13 @@ You are publishing an eSpace using Service Studio. The deployment phase (3) take
 
 ### Symptom 3: Error in Service Center: The service 'Deployment' could not be reached.
 
-You are accessing Service Center and see an error message in Environment Health related to the Deployment Service being down. This confirms that [symptom 1](#symptom-1:-http-error-503:-service-unavailable) applies.
+You are accessing Service Center and see an error message in Environment Health related to the Deployment Service being down. This message indicates that [symptom 1](#symptom-1:-http-error-503:-service-unavailable) applies.
 
 ![](images/service-unavailable-503_2.png)
 
 ### Symptom 4: Error in LifeTime: Environment health problems; Deployment service is down
 
-You are accessing LifeTime and see an error related to Environment Health. When you click the **See detailed report** link, you see that the error is related to Deployment service being down. This confirms that [symptom 1](#symptom-1:-http-error-503:-service-unavailable) applies.
+You are accessing LifeTime and see an error related to Environment Health. When you click the **See detailed report** link, you see that the error is related to Deployment service being down. This message indicates that [symptom 1](#symptom-1:-http-error-503:-service-unavailable) applies.
 
 ![](images/service-unavailable-503_3.png)
 
