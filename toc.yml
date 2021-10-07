@@ -119,7 +119,6 @@
         - href: enterprise/maintenance/oracle-configure-linguistic-sorting.md
         - href: enterprise/maintenance/config-oracle-database.md     
         - href: enterprise/maintenance/connection-pools.md
-        - href: enterprise/maintenance/container-deployment-preview.md
         - href: enterprise/maintenance/cookie-usage.md
         - href: enterprise/maintenance/solution-creating-all-comp.md 
         - href: enterprise/maintenance/custom-dns-name-cloud.md
