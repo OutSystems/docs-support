@@ -297,6 +297,9 @@
         # Migrate to the new Analytics mobile plugin        
         - href: enterprise/upgrade/analytics-plugin/intro.md
 
+        # Support provided for beta versions        
+        - href: enterprise/upgrade/mobile-beta-os/intro.md
+
     # Troubleshooting        
     - placeholder: Troubleshooting
     - topics:
