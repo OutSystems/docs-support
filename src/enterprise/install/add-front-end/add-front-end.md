@@ -19,7 +19,6 @@ As well as providing [high availability](https://www.outsystems.com/evaluation-g
 * Volume of batch processing
 * Data volume or number of transactions
 
-
 ## Add a front-end on OutSystems Cloud
 
 ### Pre requirements
@@ -27,7 +26,6 @@ As well as providing [high availability](https://www.outsystems.com/evaluation-g
 * This option is available only for production environments.
 * You'll need to have the Administrator role assigned in LifeTime.
 * The environment can't have custom configurations: some customizations to OutSystems Cloud environments may imply that the **Add Server** link is disabled (on step 3 below). When this happens, you may still request additional front-ends by opening a [support case](https://www.outsystems.com/goto/submit-support-case).
-
 
 If you're using OutSystems Cloud, login to the LifeTime console and:
 
@@ -43,7 +41,6 @@ The new front-end server will be automatically provisioned in the next 90 minute
 
 We'll contact you if we need more information, or if this implies changes to your subscription.
 
-
 ## On self-managed environments
 
 On the environments you manage, follow a standard server instalation:
@@ -51,14 +48,15 @@ On the environments you manage, follow a standard server instalation:
 1. Make sure all the [Installation prerequisites](https://success.outsystems.com/Documentation/11/Setting_Up_OutSystems#Installation_prerequisites) are met.
 1. Download the Platform Server installation binaries. Make sure you download the same version that's already running on the other servers of the environment.
 1. Follow the installation checklist that's bundled with the Platform Server by:
-    * Selecting the task "First install"
-    * Choosing the role "Front-end Server" or "Server" (the name of the role depends on the Platform Server version).
-    * Select the applicable operating system and database software options.
+    * Selecting the **First install** task
+    * Choosing the role (the name of the role depends on the Platform Server version):
+        * For Platform Server version 11.0.542.0 onwards, choose the **Server** role
+        * For all other versions, choose the **Front-end Server** role
+    * Select the applicable operating system and database software options
 
 ### Use automation to add new front ends
 
 It's possible to automate horizontal scalability using OutSystems unattended installation commands. The complete instructions can be found at [this document](https://success.outsystems.com/Documentation/11/Setting_Up_OutSystems/Unattended_Installation_and_Upgrade#Adding_a_Front-End).
-
 
 ### OutSystems on Microsoft Azure
 
