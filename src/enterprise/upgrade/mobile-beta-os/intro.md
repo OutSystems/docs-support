@@ -6,7 +6,7 @@ summary: The OutSystems policy for supporting new versions of mobile operating s
 
 OutSystems supports new operating system versions as soon they are released, which, for both Android and iOS, is usually in September. OutSystems releases new software development kits (SDKs) with a new major version for the Mobile Application Build Service (MABS), and from that moment the SDKs are available on supported MABS versions.
 
-In general, this means that customers may need to generate their mobile apps with the new MABS version. In some cases, using a different MABS version may also require an upgrade of Platform Server.
+In general, this means that customers may need to generate their mobile apps with the new MABS version. In some cases, using a different MABS version may also require an upgrade of Platform Server. For more information about the MABS versions, see the page [Mobile Apps Build Service Versions](https://success.outsystems.com/Support/Release_Notes/Mobile_Apps_Build_Service_Versions).
 
 OutSystems supports:
 
