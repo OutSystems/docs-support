@@ -22,7 +22,7 @@ Application objects (AO) are elements of your application:
 
 **Traditional web apps**: Pages are the web screens, email screens, mobile web screens, SMS screens as designed in the visual development environment. Web blocks are not pages, but screen components. Therefore they’re not counted.
 
-**Reactive web apps**: Tabs are not counted as application objects.
+**Reactive web apps**: Tabs are not counted as application objects as they are implemented inside the same screen when using OutSystems UI.
 
 ### When a single page includes multiple tabs, what is counted?
 
@@ -34,7 +34,7 @@ If each tab is implemented in a different web screen in the designer, they are d
 
 Usually, a tiny help message will not have its own screen, but will instead be something like a tool tip and therefore is not counted as an application object. If the popup has some transactional logic, it is usually implemented in a different screen and therefore counts as an application object. The developer will decide the best design.
 
-**Reactive web apps**: Popups are not counted as application objects.
+**Reactive web apps**: Popups are not counted as application objects as they are implemented inside the same screen when using OutSystems UI.
 
 ## Do internal system database tables count towards the application object total?
 
