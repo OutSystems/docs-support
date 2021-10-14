@@ -18,19 +18,19 @@ The following diagram represents a development portion of an OutSystems  factory
 
 Since predicted team growth was considered in advance, a dedicated **Deployment Controller** was set up and the development database was isolated on a dedicated SQL Server instance.
 
-![ ](images/infra-design.examples-ex1.png)
+![ ](images/infra-design-example1-diag.png)
 
 ## Example 2: Production environment
 
 The following example depicts a .NET Production environment with 3 **Front-ends**. These machines are serving requests through a load balancer and on top of a SQL Server database cluster for high availability.
 
-![ ](images/infra-design.examples-ex2.png)
+![ ](images/infra-design-example2-diag.png)
 
 ## Example 3 - LifeTime environment
 
 This example shows a standard **LifeTime** setup.
 
-![ ](images/infra-design.examples-ex3.png)
+![ ](images/infra-design-example3-diag.png)
 
 ## Example 4 - Production environment with zones
 
@@ -38,7 +38,7 @@ An OutSystems zone is a logical separation of applications across **Front-ends**
 
 This example shows an environment with isolated zones for public access, for partners via a secure VPN, and for internal users.
 
-![ ](images/infra-design.examples-ex4.png)
+![ ](images/infra-design-example4-diag.png)
 
 ## More information
 
