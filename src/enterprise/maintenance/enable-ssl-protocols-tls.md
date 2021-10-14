@@ -34,13 +34,15 @@ It is possible for you to enable the protocol you need and include it in the req
 
 * A. Enable the TLS protocols on the server, as "Client";
 
-and one of the following:
+and
 
-* B1. Enable the SchUseStrongCrypto property in the Windows registry to use as the default protocols: TLS 1.0, TLS 1.1 and TLS 1.2
+* B. Enable the SchUseStrongCrypto property in the Windows registry to use as the default protocols: TLS 1.0, TLS 1.1 and TLS 1.2
 
-* B2. Include the TLS 1.1 and/or TLS 1.2 protocols in your application code, before the request to the API.
+<div class="info" markdown="1">
 
-Note that, for cloud customers, option B2 is the only one available.
+This solution is not available for cloud customers.
+
+</div>
 
 ### A. Enable the TLS protocols on the server, as "Client"
 
@@ -84,7 +86,7 @@ For that, please follow this steps:
 
 After the reboot, the server will be able to communicate through the SSL protocol you enabled. However, you need now to add it to your applications requests.
 
-### B1. Enable the SchUseStrongCrypto property in the Windows registry to use as the default protocols: TLS 1.0, TLS 1.1 and TLS 1.2
+### B. Enable the SchUseStrongCrypto property in the Windows registry to use as the default protocols: TLS 1.0, TLS 1.1 and TLS 1.2
 
 If you want to make sure strong cryptography is enabled and the SSL protocols for your requests to be TLS 1.0, TLS 1.1 and TLS 1.2, please follow this steps:
 
@@ -103,24 +105,6 @@ If you want to make sure strong cryptography is enabled and the SSL protocols fo
 6. Repeat steps 4 and 5 for the registry key: HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\.NetFramework\v4.0.30319
 
 7. **Reboot the server** 
-
-### B2. Include the TLS 1.1 and/or TLS 1.2 protocols in your application code, before the request to the API.
-
-Should you need higher control on the used protocols, there's a custom Extension that will allow you to:
-
-* Get the current Security Protocols available for the request
-
-* Add the TLS 1.1 protocol to the following requests
-
-* Add the TLS 1.2 protocol to the following requests
-
-You can get it from Forge: [ManageSecurityProtocols](https://www.outsystems.com/forge/Component_Overview.aspx?ProjectId=1413)
-
-**_Note_***: please note that the Forge module is built by our community and it's not officially supported by the OutSystems Support.*
-
-Should you notice any issues with the extension, please report them through **[Forge (tab Support)](https://www.outsystems.com/forge/component-discussions/1413/ManageSecurityProtocols)*.*
-
-To allow you to use those protocols, you need to use one of the "AddTLS" actions (depending on which protocol you need) before you send a request to the API that requires that specific protocol.
 
 ## Applies to
 
