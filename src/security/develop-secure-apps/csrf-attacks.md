@@ -18,18 +18,10 @@ With the CSRF method, attackers are able to make requests to your application fr
 
 ## OutSystems built-in protection
 
-Protection against CSRF is shared between the client devices and the application implementation. Until recently, the most robust and generic form of protection was performed only at server side. It consists in including an anti-CSRF token within every or relevant requests:
+The most robust and generic form of CSRF protection is to perform server-side validation. It consists in including an anti-CSRF token, known as [Token Based Mitigation](https://cheatsheetseries.owasp.org/cheatsheets/Cross-Site_Request_Forgery_Prevention_Cheat_Sheet.html#token-based-mitigation), within every or relevant requests:
 
-* For traditional web applications the **osVisitor** cookie stores a token that protects against CSRF attacks. Find the token definition in [this article](https://success.outsystems.com/Support/Enterprise_Customers/Maintenance_and_Operations/Cookie_Usage_in_Web_Applications).
-* Reactive web applications the **nr2<user\>** token protects against CSRF attacks. Find detailed information about the token [this article](https://success.outsystems.com/Documentation/11/Managing_the_Applications_Lifecycle/Secure_the_Applications/Configure_App_Authentication#Authentication_Cookies).
-
-However, the token by itself, doesn't provide full CSRF protection. 
-
-A browser performing a request to any website, attaches cookies associated to the request url. To avoid this kind of scenarios, recent versions of the commonly used browsers started enforcing the usage of the SameSite cookie. 
-
-This cookie defines whether all cookies should be sent to an external website or not. Whenever the cookie is absent, the browser default behavior is to not send the cookies unless there is a specific user interaction (for example, clicking a link or a button). 
-
-The OutSystems generated apps don't set the cookie, hence inherit the default behavior, providing the expected CSRF protection.
+* For traditional web applications the view state is signed with the osVisitor cookie. When performing requests (submit or ajax), the view state signature is matched against the osVisitor. Find the osVisitor definition in [this article](https://success.outsystems.com/Support/Enterprise_Customers/Maintenance_and_Operations/Cookie_Usage_in_Web_Applications). 
+* For reactive web applications the X-CSRFToken is extracted from the nr2<user\> cookie, and sent as a header on following requests. Find detailed information about nr2<user\> in [this article](https://success.outsystems.com/Documentation/11/Managing_the_Applications_Lifecycle/Secure_the_Applications/Configure_App_Authentication#Authentication_Cookies).
 
 ## How to prevent CSRF attacks when developing APIs
 
