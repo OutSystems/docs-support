@@ -71,6 +71,8 @@ When serving secure applications through a reverse proxy, OutSystems supports th
 
 * **End-to-End SSL**: Encrypting the communication end-to-end. This can be done by installing an SSL certificate in every OutSystems application server, and also in the reverse proxy. It can be the same certificate if it is multi-server or wildcard.
 
+ ![referenced content exposure](images/reverse-proxy-config-ssl-end-to-end-diag.png)
+
 * **SSL Offload**: Install an SSL certificate in the reverse proxy. This keeps the traffic unencrypted between the reverse proxy and the internal application servers. It also removes the need to manage certificates in each application server. This technique is called SSL offloading.
 
     ![referenced content exposure](images/reverse-proxy-config-ssl-offload-diag.png)
