@@ -1,5 +1,5 @@
 ---
-summary: Identify and resolve the publishing warningr "Continuing with extension recompilation enabled may result in security flaws".
+summary: Identify and resolve the publishing warning "Continuing with extension recompilation enabled may result in security flaws".
 tags: 
 ---
 
