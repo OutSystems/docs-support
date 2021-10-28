@@ -56,7 +56,7 @@ We provide you with the proper tools and documentation to comply with HIPAA regu
 
 ### HIPAA-compliant hosting options for the OutSystems Platform
 
-OutSystems gives you the flexibility to manage and host your HIPAA-compliant apps by deploying the OutSystems Platform on-premises or on cloud vendors such as AWS, Microsoft Azure or Google Cloud.
+OutSystems gives you the flexibility to manage and host your HIPAA-compliant apps.
 
 
 ![Layers of controls](images/HIPAA.png)
