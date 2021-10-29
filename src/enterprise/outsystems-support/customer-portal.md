@@ -7,7 +7,7 @@ tags: support-account-overview; support-subscription_model
 
 Manage your team permissions without jumping in and out of different applications (Support Portal and Licensing Portal).
 
-Permissions are managed in the [OutSystems Customer Portal](https://www.outsystems.com/cs-home/team/, an area accessible to users who:
+Permissions are managed in the [OutSystems Customer Portal](https://www.outsystems.com/cs-home/team/), an area accessible to users who:
 
 * Have an OutSystems user account and are linked with your company.
 * Were invited to join your company.
@@ -49,18 +49,18 @@ On this screen, you can see everyone who is currently associated with your compa
 
 * **Support Contacts**:
 
-    * Are those (with or without an outsystems.com user account) whose contact we found linked to one or more of your support cases. Such as, for example when added in cc.
+    * Are those (with or without an outsystems.com user account) linked to one or more of your support cases. Such as, for example when added in cc.
     * Have access only to the support cases where they were added.
 
 You have full visibility and control over who has access to your OutSystems account.
 
 ### OutSystems Customer Portal permissions 
 
-As teams grow significantly, permission management can get out of control. To help you manage that, we offer 3 levels of access:
+As teams grow significantly, permission management can get out of control. To help you manage that, there are 3 levels of access:
 
 #### Company Admin
 
-This represents a role that can oversee all the permissions and members of all your OutSystems subscriptions. As a Company Admin you will be able to:
+This represents a role that can oversee all the permissions and members of all your OutSystems subscriptions. Company Admins are able to:
 
 
 * Access to OutSystems Customer Portal
