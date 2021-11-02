@@ -19,12 +19,26 @@ This section contains frequent issues with solutions, to help you in troubleshoo
 
 ### Build fails due to the plugin version incompatibility
 
-If there's a mismatch between the version of any of the plugins in the app and the plugin versions required by MABS, the build fails with the following message:
+If there's a mismatch between the version of any of the plugins in the app and the plugin versions required by MABS, the build fails with one of the following messages, depending on the MABS version:
 
+#### MABS 8 and above
 ```
-In Android on [date] at [time] - Generation failed due to plugin version incompatibility with MABS. We recommend that you review the following plugin(s) and retry building the app:
+In Android on [date] at [time] - Generation failed due to a plugin version incompatibility with your current version of MABS. Review the following and try rebuilding your app:
 
-[plugin name] version [version detected] must be equal or greater than [version required]
+The Forge [plugin name] version must be [version required] or higher.
+(...)
+```
+
+The error message contains this information:
+
+* Plugin name. The name of the plugin in Forge.
+* Version. The version information refers to the Forge version.
+
+#### MABS 7 and below
+```
+In Android on [date] at [time] - Generation failed due to a plugin version incompatibility with your current version of MABS. Review the following and try rebuilding your app:
+
+[plugin name] version [version detected] must be [version required] or higher.
 (...)
 ```
 
@@ -34,7 +48,6 @@ The error message contains this information:
 
 * Plugin name. The name of the plugin as identified in the git repository. The name in Forge is similar to it.
 * Version. The version information refers to the OutSystems git repository and tags that OutSystems uses to build the plugin. Note that this is **not** the Forge version of the plugin.
-
 
 ### Error Installing via QR Code in iOS 13
 
