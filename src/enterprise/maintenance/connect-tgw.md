@@ -1,5 +1,5 @@
 ---
-summary: Check how to set up a site-to-site VPN, allowing secure communication between your on-premises network and OutSystems Cloud.
+summary: Learn how you can connect to OutSystems Cloud using using AWS Transit Gateway.
 tags: support-Cloud_Platform; support-installation; support-Installation_Configuration; support-maintenance; TGW; support-devOps
 ---
 
