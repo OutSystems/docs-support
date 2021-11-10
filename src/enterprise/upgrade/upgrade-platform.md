@@ -189,7 +189,7 @@ In the Installation Checklist, select the corresponding upgrade option, and foll
 
     ![](images/upgrade-checklist.png?width=800)
 
-If you are upgrading from **Platform Server 11.x** to **Platform Server 11.12.0 or later**, the Platform Server installer starts [preparing your modules](upgrade-platform-module-prep.md) for the new version.
+If you are upgrading from **Platform Server 11.x** to **Platform Server 11.12.0 or later**, the Platform Server installer starts [preparing your modules](upgrade-platform-module-prep.md) for the new version. If the modules preparation is not desired, it's required that instead of clicking **Apply & Exit** in the Configuration Tool, to open a command line within the Deployment Controller server, navigate into the Platform Installation Directory and run SCInstall.bat. Note: When doing this operation, ensure the OutSystems Deployment Controller and Deploment Service are started, otherwise Service Center may not publish.
 
 When you click **Apply and Exit** in the Configuration Tool, as described in the Installation Checklist, you must confirm the execution of the following steps:
 
