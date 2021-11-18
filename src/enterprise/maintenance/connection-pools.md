@@ -89,7 +89,7 @@ Assuming that all application modules are eventually loaded:
 
 * You have 200 application modules on each front-end;
 
-* Each of these has one connection for each database the application module connects to. As a minimum, it connects to the OutSystems session and main databases, up until OutSystems 10. Starting on OutSystems 11 it will additionally connect to the log database.
+* Each of these application modules has one connection for each database the application module connects to. As a minimum, it connects to the OutSystems session and main databases, up until OutSystems 10. Starting on OutSystems 11 it will additionally connect to the log database.
 
 This adds to a total of 800 connections up until OutSystems 10 or 1200 connections for OutSystems 11.
 
