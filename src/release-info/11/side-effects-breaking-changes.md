@@ -243,7 +243,7 @@ From OutSystems 11 onwards, if a default language is not defined in the Custom H
     
 **Runtime**: Web
 
-**Rationale**: To enable application deployment to containers, the Custom Handlers folder is now deployed along with every application (to a sub-folder of the application folder), while previously the Custom Handlers folder was referenced by applications as needed from its location inside the Platform Server installation folder.  
+**Rationale**: The Custom Handlers folder is now deployed along with every application (to a sub-folder of the application folder), while previously the Custom Handlers folder was referenced by applications as needed from its location inside the Platform Server installation folder.  
 
 OutSystems provides default Custom Handlers pages and some of those default pages include Visual Basic code, e.g. `internalerror.aspx`. Additionally, if no default language is defined in the `web.config` file in the Custom Handlers folder, the default language defined in the application's `web.config`, which is C#, will be used during the Custom Handlers pages' compilation and cause errors.
 
@@ -404,7 +404,7 @@ Upgrading a module in Service Studio will remove any dependencies on these entit
 
 **Runtime**: Web
 
-**Rationale**: Previously, emails could be sent by any server in the environment, regardless of the module that created them. This broke the isolation between servers, causing misbehaved modules to have impact in the email processing of modules in other servers. This change is also necessary to allow containers to be able to handle their own emails. The new behavior is now consistent with the execution of Processes and Timers.
+**Rationale**: Previously, emails could be sent by any server in the environment, regardless of the module that created them. This broke the isolation between servers, causing misbehaved modules to have impact in the email processing of modules in other servers. The new behavior is now consistent with the execution of Processes and Timers.
 
 **Workaround**: Ensure that there is at least one server in each Deployment Zone that is able to "Send Emails", if it contains modules with Email screens. You can set this configuration in Service Center (Administration > Servers).
 
