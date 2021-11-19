@@ -187,9 +187,6 @@
             - href: enterprise/maintenance/data-migration/10-data-migration-guide.md
             - href: enterprise/maintenance/data-migration/11-how-to-migrate-data.md
 
-        # # Containers: delete an application that was deployed manually (workaround)
-        # - href: enterprise/maintenance/manually-deployed-application.md
-
         # Designing OutSystems Infrastructures
         - href: enterprise/maintenance/design-infrastructure/designing-infrastructures.md
         - topics:
@@ -222,23 +219,11 @@
         - topics:
             - href: enterprise/maintenance/architecture/01-4-layer-canvas.md                  
 
-        # # Containers: Docker and PCF IIS routing rules
-        # - href: enterprise/maintenance/containers-iis-routing/docker.md
-        # - href: enterprise/maintenance/containers-iis-routing/pcf.md
-
         # Load Balancing OutSystems Applications
         - href: enterprise/maintenance/load-balancing-apps/load-balancing-apps.md
         - topics:     
             - href: enterprise/maintenance/load-balancing-apps/recommended-configs-load-balancing.md    
-            - href: enterprise/maintenance/load-balancing-apps/detecting-serverapp-availability.md    
-
-        # # Deploy Apps to Containers with No Downtime
-        # - href: enterprise/maintenance/apps-no-downtime/intro.md
-        # - topics:
-        #     - href: enterprise/maintenance/apps-no-downtime/pcf.md
-        #     - href: enterprise/maintenance/apps-no-downtime/docker.md
-        #     - href: enterprise/maintenance/apps-no-downtime/amazon-ecs.md
-        #     - href: enterprise/maintenance/apps-no-downtime/azure.md            
+            - href: enterprise/maintenance/load-balancing-apps/detecting-serverapp-availability.md          
 
     # Upgrading
     - placeholder: Upgrading

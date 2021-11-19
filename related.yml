@@ -140,14 +140,6 @@
 - enterprise/maintenance/data-migration/sections/07-business-process-technology-bpt.md:
     - enterprise/maintenance/data-migration/11-how-to-migrate-data.md
  
-
-# Containers deployment with no downtime
-- enterprise/maintenance/apps-no-downtime/intro.md:
-    - enterprise/maintenance/apps-no-downtime/pcf.md
-    - enterprise/maintenance/apps-no-downtime/docker.md
-    - enterprise/maintenance/apps-no-downtime/amazon-ecs.md
-    - enterprise/maintenance/apps-no-downtime/azure.md
-
 - enterprise/maintenance/add-certificate-trusted-cloud.md:
     - enterprise/install/add-certificate-trusted.md
     - external:
