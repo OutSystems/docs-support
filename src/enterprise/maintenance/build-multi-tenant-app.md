@@ -38,7 +38,7 @@ If the end-user goes to the Contacts List Screen, no contacts are shown, since t
 
 Since an end-user uniquely belongs to a tenant, in the login process, the OutSystems Platform infers the tenant an end-user belongs using the username. Then, the end-user is bound to his tenant and all Simple and Advanced Queries are **automatically filtered **to only return data from that tenant.
 
-**Example**: If the end-user was identified as a user of the Office inc., he is then constrained to that tenant, and the Contacts List Screen shows Abel Pasquale, Adam Dimaggio, Alan Pryor… It will not be possible for him to see information about the contacts from the Bricks’r’us tenant. 
+**Example**: If the end-user was identified as a user of the Office inc., they are then constrained to that tenant, and the Contacts List Screen shows Abel Pasquale, Adam Dimaggio, Alan Pryor… It will not be possible for them to see information about the contacts from the Bricks’r’us tenant. 
 
 ## Tenant-Specific Elements
 
@@ -122,7 +122,7 @@ When using a custom User Provider application, you need to identify the end-user
 
 * **TenantSwitch:** The TenantSwitch System Action changes the context the specified tenant.
 
-Your customized login might let the end-user specify to which tenant he intends to access. If the end-user specifies a username, password and tenant, then you can univocally find which user is trying to log in (even if there are two end-users with the same username in different tenants). 
+Your customized login might let the end-user specify to which tenant they intend to access. If the end-user specifies a username, password and tenant, then you can find which user is trying to log in (even if there are two end-users with the same username in different tenants). 
 
 ## Managing Tenants and End-Users
 
@@ -132,7 +132,7 @@ It is also possible to implement logic for self provisioning: end-users register
 
 In this situation, there is a front office where end-users specify the tenant name and the administration credentials. A new tenant is immediately created.
 
-Once the end-user has a new tenant, he can perform user management but only for that tenant: he is not able to manage end-users created in other tenants.
+Once the end-user has a new tenant, they can perform user management but only for that tenant: they cannot manage end-users created in other tenants.
 
 ### Back Office
 
