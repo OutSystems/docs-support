@@ -28,6 +28,7 @@ On the error report you can try to sync your environment again just to see if th
 
 <div class="info" markdown="1">
 
-Clicking **Restart Services** performs an IIS reset, clears the application pools, and clears any hanging requests.
+Clicking **Restart Services** performs a service restart and an IIS reset balanced in all servers, clearing the application pools and any hanging requests.
+A downtime is expected when you environment has only one server.
 
 </div>
