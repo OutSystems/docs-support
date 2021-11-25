@@ -101,7 +101,7 @@
             - href: enterprise/maintenance/reverse-proxy/reverse-proxy-use-cases.md
             - href: enterprise/maintenance/reverse-proxy/reverse-proxy-apache-config.md
 
-        - href: enterprise/maintenance/whitelist-cloud-servers/whitelist-cloud-servers.md
+        - href: enterprise/maintenance/allowlist-cloud-servers/allowlist-cloud-servers.md
         - href: enterprise/maintenance/restart-cloud/restart-cloud.md
         - href: enterprise/maintenance/aws-direct-connect-os-cloud.md
         - href: enterprise/maintenance/connect-tgw.md
