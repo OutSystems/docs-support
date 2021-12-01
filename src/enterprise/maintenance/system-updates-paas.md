@@ -9,7 +9,11 @@ tags: support-Cloud_Platform-featured
 
 Patching is the process of repairing system vulnerabilities that are discovered after the infrastructure components have been released on the market. Patching is necessary to keep servers secure from attackers and viruses as well as free from bugs, which can weaken productivity.
 
-We perform regular patching on all OutSystems Cloud infrastructures' servers. Please note that patching operations won't affect the **OutSystems** platform.
+We perform regular patching on all OutSystems Cloud infrastructures' servers. 
+
+</div class="info" markdown=1>
+The **OutSystems ** platform continues to operate normally during the patching process. 
+</div>
 
 ## When will this maintenance occur?
 
