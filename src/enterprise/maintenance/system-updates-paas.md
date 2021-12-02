@@ -11,8 +11,10 @@ Patching is the process of repairing system vulnerabilities that are discovered 
 
 We perform regular patching on all OutSystems Cloud infrastructures' servers. 
 
-</div class="info" markdown=1>
-The **OutSystems ** platform continues to operate normally during the patching process. 
+<div class="info" markdown="1">
+
+The platform continues to operate normally during the patching process.
+
 </div>
 
 ## When will this maintenance occur?
