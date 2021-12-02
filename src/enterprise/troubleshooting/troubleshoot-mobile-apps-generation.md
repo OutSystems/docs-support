@@ -23,7 +23,7 @@ If there's a mismatch between the version of any of the plugins in the app and t
 
 #### MABS 8 and above
 ```
-In Android on [date] at [time] - Generation failed due to a plugin version incompatibility with your current version of MABS. Review the following and try rebuilding your app:
+In Android on [date] at [time] - Generation failed due to a plugin version incompatibility with your current version of MABS ([MABS version]). Review the following and try rebuilding your app:
 
 The Forge [plugin name] version must be [version required] or higher.
 (...)
@@ -31,12 +31,13 @@ The Forge [plugin name] version must be [version required] or higher.
 
 The error message contains this information:
 
+* MABS version. The MABS version used to build the mobile application.
 * Plugin name. The name of the plugin in Forge.
 * Version. The version information refers to the Forge version.
 
 #### MABS 7 and below
 ```
-In Android on [date] at [time] - Generation failed due to a plugin version incompatibility with your current version of MABS. Review the following and try rebuilding your app:
+In Android on [date] at [time] - Generation failed due to a plugin version incompatibility with your current version of MABS ([MABS Version]). Review the following and try rebuilding your app:
 
 [plugin name] version [version detected] must be [version required] or higher.
 (...)
@@ -46,6 +47,7 @@ In Android on [date] at [time] - Generation failed due to a plugin version incom
 
 The error message contains this information:
 
+* MABS version. The MABS version used to build the mobile application.
 * Plugin name. The name of the plugin as identified in the git repository. The name in Forge is similar to it.
 * Version. The version information refers to the OutSystems git repository and tags that OutSystems uses to build the plugin. Note that this is **not** the Forge version of the plugin.
 
