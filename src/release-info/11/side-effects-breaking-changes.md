@@ -635,3 +635,17 @@ Note: It's not recommended to change the User Provider of modules with Processes
 **Rationale**: In environments whose purpose is not Development it is important that the actual published versions are kept; refreshing references would create different "fake" versions.
 
 **Workaround**: Refresh references manually.
+
+### Introduced in Platform Server 11.14.0
+
+#### Identity Service
+
+1\. <a name="se1114-1"></a>
+
+**Issue**: The login for IT apps (apps that use Service Center as their user provider) no longer uses the traditional login screen from the app itself. Instead, it uses a centralized login screen. This only affects applications that use the **User_GetUnifiedLoginUrl** action to validate if there is an external login URL. The centralized login screen shows the app name that you can provide in the **ToolName** of the **User_GetUnifiedLoginUrl** optional parameter.
+
+**Runtime**: Mobile, Web
+
+**Rationale**: This change provides a consistent login experience throughout the different applications that use Service Center as their user provider.
+
+**Workaround**: None.
