@@ -276,6 +276,9 @@
         - href: enterprise/upgrade/saml-update-auth-flows/update-reactive-app-flows.md
         - href: enterprise/upgrade/saml-update-auth-flows/update-trad-web-app-flows.md
 
+        # SEO
+        - href: enterprise/upgrade/seo/troubleshooting.md
+
         - href: enterprise/upgrade/upgrade-integer-long-integer.md
         - href: enterprise/upgrade/upgrade-lifetime.md
         - href: enterprise/upgrade/lifetime-versions.md
