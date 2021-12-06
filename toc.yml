@@ -289,6 +289,9 @@
         # Support provided for beta versions        
         - href: enterprise/upgrade/mobile-beta-os/intro.md
 
+        # Server extension recompilation on upgrade
+        - href: enterprise/upgrade/extension-recompilation/extension-recompilation.md
+
     # Troubleshooting        
     - placeholder: Troubleshooting
     - topics:
@@ -343,6 +346,8 @@
             - href: enterprise/troubleshooting/deploy-fail-new-entity-attribute.md
             - href: enterprise/troubleshooting/dot-net-core-3-1/dot-net-core-3-1.md
             - href: enterprise/troubleshooting/error-401/intro.md
+            - href: enterprise/troubleshooting/extension-recompilation/extension-recompilation-warning.md
+            - href: enterprise/troubleshooting/extension-recompilation/extension-upgrade-disabled-error.md
             
             # Known issues
             - href: enterprise/troubleshooting/known-issues/ki-11_10-downtime-CT/ki-11_10-downtime-CT.md
