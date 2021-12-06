@@ -556,10 +556,11 @@ You should only use this workaround if it's not viable to fix all the affected e
 
 ### Introduced in Platform Server 11.14.0
 
-**Issue**: The Title of a Popup_Editor, Popup_EditorForUpload or Popup_EditorVanilla widget appears garbled in the application when all of the following conditions are true:
-    * The title is dynamically generated through an input parameter.
-    * The value of the input parameter contains special characters.
-    * The value of the input parameter is encoded.
+**Issue**: The Title of a Popup_Editor, Popup_EditorForUpload or Popup_EditorVanilla widget appears garbled in the application when all the following conditions are true:
+
+* The title is dynamically generated through an input parameter.
+* The value of the input parameter contains special characters.
+* The value of the input parameter is encoded.
     
 **Runtime**: Traditional web
 
