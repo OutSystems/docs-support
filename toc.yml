@@ -488,6 +488,8 @@
         - href: error/inbl/inbl-gen-50004.md
         - href: error/inbl/inbl-gen-50005.md
         - href: error/inbl/inbl-gen-50028.md
+        - href: error/inbl/signin-problems.md
+        - href: error/inbl/connectivity-problems.md
     #Workflow Builder
     - href: error/wbl/intro.md
     - topics:
