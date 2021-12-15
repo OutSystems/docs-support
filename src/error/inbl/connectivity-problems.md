@@ -1,5 +1,5 @@
 ---
-summary: connectivity problems with Integration Builder
+summary: Connectivity problems with Integration/Workflow/Experience Builder
 tags:
 helpids: 30403
 ---
