@@ -4,13 +4,12 @@ tags:
 helpids: 30402
 ---
 
-# Sign in problems
+# It was not possible to sign into Integration/Workflow/Experience Builder
 
-It was not possible to sign into Integration Builder
 
 ## Error message
 
-`It was not possible to sign into Integration Builder. Check documentation for possible reasons.`
+`It was not possible to sign into <Integration/Workflow/Experience> Builder. Check documentation for possible reasons.`
 
 ## Cause
 
