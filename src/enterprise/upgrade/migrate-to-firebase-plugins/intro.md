@@ -13,7 +13,8 @@ Firebase-based plugins offer an integration with Firebase. Firebase is a Google 
 * OutSystems support teams to assist you
 * Regular updates and visibility over changes
 * Compatibility at day zero with new versions of MABS
-* In the case of the Firebase-based mobile plugins, you can find additional functionalities particularly in the Performance and Crash Reporting functionalities, as well as a particular plugin for [Dynamic Links](https://www.outsystems.com/forge/component-overview/10988/dynamic-links-plugin-firebase).
+* New features, particularly in the Performance and Crash Reporting plugins
+* [Dynamic Links](https://www.outsystems.com/forge/component-overview/10988/dynamic-links-plugin-firebase), a new Firebase-based plugin 
 
 | Supported plugin                                                                                   | Description                                                                            |
 | -------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------- |
