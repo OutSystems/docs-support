@@ -1,5 +1,5 @@
 ---
-summary: How to obtain the addresses of your OutSystems Cloud servers to allowlist on your firewall.
+summary: How to obtain the addresses of your OutSystems Cloud servers to allowlist on your firewall. Please note we recently replaced the term whitelist with allowlist across all OutSystems documentation.
 tags: support-Cloud_Platform; support-Cloud_Platform-featured
 ---
 

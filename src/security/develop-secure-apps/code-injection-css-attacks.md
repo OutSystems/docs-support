@@ -1,5 +1,5 @@
 ---
-summary: Code injection and Cross site scripting are two of the most common vulnerabilities in web applications. They are easily prevented with OutSystems Platform.
+summary: Code injection and Cross site scripting are two of the most common vulnerabilities in web applications. They are easily prevented with OutSystems Platform. Please note we recently replaced the term whitelist with allowlist across all OutSystems documentation.
 tags: protecting-outsystems-applications; outsystems-security; outsystems-secure-applications; outsystems-code-injection; outsystems-cross-site-scripting;
 en_title: 01 Protecting OutSystems apps from code injection - Cross Site Scripting attacks
 ---

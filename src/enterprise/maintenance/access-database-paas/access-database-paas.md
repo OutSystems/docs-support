@@ -1,5 +1,5 @@
 ---
-summary: How to request access to the databases of your OutSystems Cloud and what permissions are granted.
+summary: How to request access to the databases of your OutSystems Cloud and what permissions are granted. Please note we recently replaced the term whitelist with allowlist across all OutSystems documentation.
 tags: support-Cloud_Platform; support-Cloud_Platform-featured; article-page
 ---
 
