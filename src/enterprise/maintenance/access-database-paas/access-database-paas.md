@@ -1,5 +1,5 @@
 ---
-summary: How to request access to the databases of your OutSystems Cloud and what permissions are granted.
+summary: How to request access to the databases of your OutSystems Cloud and what permissions are granted. Please note we recently replaced the term whitelist with allowlist across all OutSystems documentation.
 tags: support-Cloud_Platform; support-Cloud_Platform-featured; article-page
 ---
 
@@ -44,7 +44,7 @@ For permanent database users, OutSystems allows you to connect in two different 
 
 * Connect to the database server from **any IP address of your private network**. You must establish this connection through [VPN](../vpn/vpn-support.md) or [AWS Transit Gateway](../connect-tgw.md).
 
-* Connect to the database server from a set of public static IP addresses, whitelisted on the OutSystems side.
+* Connect to the database server from a set of public static IP addresses, allowlisted on the OutSystems side.
 
 OutSystems can provide you with one [read-only](#read) and one [read and write](#read-write) credentials per database, according to your needs.
 
@@ -52,7 +52,7 @@ To request a permanent database user, you must [contact the OutSystems Support](
 
 ### Having temporary and permanent users simultaneously
 
-In case you need to have simultaneously a **temporary** and a **permanent** database user, the **permanent database user** must connect to the database server from **any IP address of your private network**, through VPN or AWS Transit Gateway. Once OutSystems establishes a network tunnel from your private to OutSystems Cloud, it’s not possible to keep your public static IP addresses whitelisted on the OutSystems side.
+In case you need to have simultaneously a **temporary** and a **permanent** database user, the **permanent database user** must connect to the database server from **any IP address of your private network**, through VPN or AWS Transit Gateway. Once OutSystems establishes a network tunnel from your private to OutSystems Cloud, it’s not possible to keep your public static IP addresses allowlisted on the OutSystems side.
 
 ## Request a temporary database user
 
@@ -64,7 +64,7 @@ To request a **temporary database user**, make sure that:
 
 * A [VPN](../vpn/vpn-support.md) or [AWS Transit Gateway](../connect-tgw.md) connection is already in place for your OutSystems Cloud.
 
-* If you already have a **permanent user** accessing a database of your OutSystems Cloud, that user connects from **any IP address of your private network**, through VPN or AWS Transit Gateway. OutSystems can't keep your public static IP(s) whitelisted in OutSystems Cloud.
+* If you already have a **permanent user** accessing a database of your OutSystems Cloud, that user connects from **any IP address of your private network**, through VPN or AWS Transit Gateway. OutSystems can't keep your public static IP(s) allowlisted in OutSystems Cloud.
 
 * You have the **Administrator** role in LifeTime.
 
@@ -116,7 +116,7 @@ To request a **permanent database user**:
 
 * You must be a **company administrator** or an **infrastructure administrator** for your [company's account](https://success.outsystems.com/Support/Enterprise_Customers/OutSystems_Support/Managing_Your_Company_Permissions_on_outsystems.com#What_are_your_access_levels.3F).
 
-* In case you plan to request temporary database users also, your permanent database user must connect to the database server from **any IP address of your private network**, through VPN or AWS Transit Gateway. It isn't possible to establish a network tunnel from your private network and whitelist your static IP(s) in OutSystems Cloud at the same time.
+* In case you plan to request temporary database users also, your permanent database user must connect to the database server from **any IP address of your private network**, through VPN or AWS Transit Gateway. It isn't possible to establish a network tunnel from your private network and allowlist your static IP(s) in OutSystems Cloud at the same time.
 
 ### Request the permanent user
 
@@ -132,13 +132,13 @@ To request a permanent database user, [open a support case](https://success.outs
 
     * Via AWS Transit Gateway - If you are already connecting to your OutSystems Cloud using this service.
 
-    * IP whitelisting - Indicate the public static IP(s) allowed to connect. Choose this option only if you aren't planning to request temporary database users.
+    * IP allowlisting - Indicate the public static IP(s) allowed to connect. Choose this option only if you aren't planning to request temporary database users.
 
 * Provide a contact number that can receive the SMS to retrieve the password.
 
 Following up on your support case, OutSystems:
 
-* Establishes the connectivity according to your chosen preference - via VPN, AWS Transit Gateway, or IP whitelisting.
+* Establishes the connectivity according to your chosen preference - via VPN, AWS Transit Gateway, or IP allowlisting.
 
 * Provides you a file with the database address and username, and communicates the password via SMS.
 
