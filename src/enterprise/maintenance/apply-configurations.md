@@ -39,7 +39,6 @@ When you change a runtime setting for an application, module, or extension, you 
 
 By clicking the **Apply** button, you are saving and applying the new runtime setting, causing the reload of the affected modules. From this moment, your changes will be effective (for example, the Effective URL of a consumed SOAP web service).
 
-Note: When deploying to Pivotal Cloud Foundry hosting technology, you will need to **redeploy** the affected modules to apply runtime configuration changes. In this case, the performance penalty on first load will be larger (usually up to one minute, depending on the application size).
 
 ### Change Runtime Settings for the Environment
 
@@ -151,10 +150,6 @@ Applications Authentication | Administration > Security > Applications Authentic
 Database Catalogs | Administration > Database Catalogs | Compile-time
 Database Connections – DBMS | Administration > Database Connections | Compile-time
 Database Connections – Other configurations | Administration > Database Connections | Runtime%%Also applies to all its consumers
-SMTP Server       | Administration > Email | Operations%%Compile-time for container-based applications
-SMTP Port         | Administration > Email | Operations%%Compile-time for container-based applications
-Username          | Administration > Email | Operations%%Compile-time for container-based applications
-Password          | Administration > Email | Operations%%Compile-time for container-based applications
 Default Sender Email | Administration > Email | Runtime
 Default Sender Name  | Administration > Email | Runtime
 Redirect Emails To Test List | Administration > Email | Runtime

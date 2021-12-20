@@ -23,7 +23,7 @@ The **Style** property is an **Expression** in Reactive Web App.
 
 Don't use the **Visible** property of the widgets to hide sensitive information.
 
-In Reactive Web Apps, the rendering of the interface occurs primarily on the client side before checking the defined user roles. Be careful when migrating widgets to the Reactive Web App and check that you deliver the right information to the right client side. For more information about security in Reactive Web Apps. For more information about security in Reactive Web Apps, see the [Reactive Web security best practices](https://success.outsystems.com/Documentation/Best_Practices/Security/Reactive_web_security_best_practices).
+In Reactive Web Apps, the rendering of the interface occurs primarily on the client side before checking the defined user roles. Be careful when migrating widgets to the Reactive Web App and check that you deliver the right information to the right client side. For more information about security in Reactive Web Apps, see the [Reactive Web security best practices](https://success.outsystems.com/Documentation/Best_Practices/Security/Reactive_web_security_best_practices).
 
 ## Widget comparison overview
 

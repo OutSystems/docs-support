@@ -1,5 +1,5 @@
 ---
-summary: Code injection and Cross site scripting are two of the most common vulnerabilities in web applications. They are easily prevented with OutSystems Platform.
+summary: Code injection and Cross site scripting are two of the most common vulnerabilities in web applications. They are easily prevented with OutSystems Platform. Please note we recently replaced the term whitelist with allowlist across all OutSystems documentation.
 tags: protecting-outsystems-applications; outsystems-security; outsystems-secure-applications; outsystems-code-injection; outsystems-cross-site-scripting;
 en_title: 01 Protecting OutSystems apps from code injection - Cross Site Scripting attacks
 ---
@@ -27,7 +27,7 @@ The following example from the [OWASP documentation](https://www.owasp.org/index
 |Escape HTML content provided by the end-user |Use the [SanitizeHtml()](https://success.outsystems.com/Documentation/11/Reference/OutSystems_APIs/Sanitization_API#SanitizeHtml) function from the [Sanitization API](https://success.outsystems.com/Documentation/11/Reference/OutSystems_APIs/Sanitization_API) to ensure that the value entered by the end-user does not contain any malicious content. |
 |Expand inline parameters in advanced queries |Follow the guidelines in [Building dynamic SQL statements the right way](https://success.outsystems.com/Documentation/Best_Practices/Building_dynamic_SQL_statements_the_right_way). |
 |Manually build URLs in redirects with dynamic URLs |Use the [EncodeURL()](https://success.outsystems.com/Documentation/11/Reference/OutSystems_Language/Logic/Built-in_Functions/Text#EncodeUrl) function to replace all non-alphanumeric characters in a string so that you can safely use it in URL parameter values. |
-|Whitelist allowed external sites |[Apply a Content Security Policy](https://success.outsystems.com/Documentation/11/Managing_the_Applications_Lifecycle/Secure_the_Applications/Apply_Content_Security_Policy) as a way to prevent and mitigate the impact of XSS attacks. |
+|Allowlist allowed external sites |[Apply a Content Security Policy](https://success.outsystems.com/Documentation/11/Managing_the_Applications_Lifecycle/Secure_the_Applications/Apply_Content_Security_Policy) as a way to prevent and mitigate the impact of XSS attacks. |
 
 Service Studio will issue design-time warnings about the patterns that can lead to code injection attacks. 
 

@@ -5,7 +5,7 @@ en_title: 02 Detecting OutSystems server//app availability
 
 # Detecting OutSystems server/app availability
 
-To detect that a front-end is up and running, you can monitor the TCP port that is serving the applications or web services, the most common ones are TCP port 80 (HTTP) and TCP port 443 (HTTPS).
+To detect that a front-end is up and running in your on-premises/private cloud installation, you can monitor the TCP port that is serving the applications or web services, the most common ones are TCP port 80 (HTTP) and TCP port 443 (HTTPS).
 
 With an L7 load balancer you get a more complete form of monitoring, going beyond the simple check whether the server is up or down.
 

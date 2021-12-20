@@ -243,7 +243,7 @@ From OutSystems 11 onwards, if a default language is not defined in the Custom H
     
 **Runtime**: Web
 
-**Rationale**: To enable application deployment to containers, the Custom Handlers folder is now deployed along with every application (to a sub-folder of the application folder), while previously the Custom Handlers folder was referenced by applications as needed from its location inside the Platform Server installation folder.  
+**Rationale**: The Custom Handlers folder is now deployed along with every application (to a sub-folder of the application folder), while previously the Custom Handlers folder was referenced by applications as needed from its location inside the Platform Server installation folder.  
 
 OutSystems provides default Custom Handlers pages and some of those default pages include Visual Basic code, e.g. `internalerror.aspx`. Additionally, if no default language is defined in the `web.config` file in the Custom Handlers folder, the default language defined in the application's `web.config`, which is C#, will be used during the Custom Handlers pages' compilation and cause errors.
 
@@ -404,7 +404,7 @@ Upgrading a module in Service Studio will remove any dependencies on these entit
 
 **Runtime**: Web
 
-**Rationale**: Previously, emails could be sent by any server in the environment, regardless of the module that created them. This broke the isolation between servers, causing misbehaved modules to have impact in the email processing of modules in other servers. This change is also necessary to allow containers to be able to handle their own emails. The new behavior is now consistent with the execution of Processes and Timers.
+**Rationale**: Previously, emails could be sent by any server in the environment, regardless of the module that created them. This broke the isolation between servers, causing misbehaved modules to have impact in the email processing of modules in other servers. The new behavior is now consistent with the execution of Processes and Timers.
 
 **Workaround**: Ensure that there is at least one server in each Deployment Zone that is able to "Send Emails", if it contains modules with Email screens. You can set this configuration in Service Center (Administration > Servers).
 
@@ -554,6 +554,22 @@ You should only use this workaround if it's not viable to fix all the affected e
 
 **Workaround**: For the example stated above, the workaround is to change the returned status code from 204 (No Content) to a different status code, if you wish to include data in the body. Alternatively, keep returning the 204 status code but don't include any content in the response body.
 
+### Introduced in Platform Server 11.14.0
+
+**Issue**: The Title of a Popup_Editor, Popup_EditorForUpload or Popup_EditorVanilla widget appears garbled in the application when all the following conditions are true:
+
+* The title is dynamically generated through an input parameter.
+* The value of the input parameter contains special characters.
+* The value of the input parameter is encoded.
+    
+**Runtime**: Traditional web
+
+**Rationale**: These widgets now encode the Title by default to prevent cross site scripting (XSS) attacks.
+
+**Fix**: Remove the encoding of the input parameter value before sending it to the Title of the Popup.
+
+**Workaround**: In Service Center, set the site property 'PopupTitle_ForceHTMLEncode' to False in the site properties of the RichWidgets module. This is not recommended and it will leave the popup vulnerable to a XSS attack.
+
 
 ## Side Effects
 
@@ -619,3 +635,17 @@ Note: It's not recommended to change the User Provider of modules with Processes
 **Rationale**: In environments whose purpose is not Development it is important that the actual published versions are kept; refreshing references would create different "fake" versions.
 
 **Workaround**: Refresh references manually.
+
+### Introduced in Platform Server 11.14.0
+
+#### Identity Service
+
+1\. <a name="se1114-1"></a>
+
+**Issue**: The login for IT apps (apps that use Service Center as their user provider) no longer uses the traditional login screen from the app itself. Instead, it uses a centralized login screen. This only affects applications that use the **User_GetUnifiedLoginUrl** action to validate if there is an external login URL. The centralized login screen shows the app name that you can provide in the **ToolName** of the **User_GetUnifiedLoginUrl** optional parameter.
+
+**Runtime**: Web
+
+**Rationale**: This change provides a consistent login experience throughout the different applications that use Service Center as their user provider.
+
+**Workaround**: None.
