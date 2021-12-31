@@ -66,6 +66,9 @@ Within the databases that the OutSystems Platform supports, there are several hi
 
 Check the [Infrastructure Design Examples ](https://success.outsystems.com/Support/Enterprise_Customers/Maintenance_and_Operations/Designing_OutSystems_Infrastructures/06_OutSystems_Platform_infrastructure_design_examples)for some simple scenarios where database high availability is represented.
 
+## Cache invalidation with high-availability
+RabbitMQ can be configured to work as a cluster, offering benefits like fault-tolerance, high availability and data replication. If your application requires that the cache invalidation service is always available, [you should use a RabbitMQ cluster](https://success.outsystems.com/Support/Enterprise_Customers/Maintenance_and_Operations/Cache_Invalidation_in_OutSystems_11/OutSystems_cache_invalidation_with_high-availability).
+
 ## More Information
 
 To learn more about how to set up your OutSystems Platform check the [Designing OutSystems infrastructures guide](https://success.outsystems.com/Support/Enterprise_Customers/Maintenance_and_Operations/Designing_OutSystems_Infrastructures).
