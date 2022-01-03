@@ -31,9 +31,15 @@ Hybrid configuration is only supported in OutSystems licenses purchased before J
 
 If you are performing this action with a user with undefined email, you will be prompted for your email. This email will be associated with your LifeTime user from that point on.
 
+<div class="info" markdown="1">
+
+When adding a self-managed environment to your OutSystems Cloud infrastructure, LifeTime won't import the existing permissions and IT users of that environment. If needed, you can create [new roles](https://success.outsystems.com/Documentation/11/Managing_the_Applications_Lifecycle/Manage_IT_Users/Create_and_Assign_Roles) and [new IT users](https://success.outsystems.com/Documentation/11/Managing_the_Applications_Lifecycle/Manage_IT_Users/Create_an_IT_User) using the LifeTime management console.
+
+</div>
+
 ## On-premises
 
-If you're using OutSystems Platform on-premises, you need to get a license for the new environment. To learn more about this, see [How to get a license file for an environment](https://success.outsystems.com/Support/Enterprise_Customers/Licensing/02_Manage_and_Upgrade/03_Get_a_license_file_for_an_environment).
+If you're using OutSystems Platform on-premises, you need to get a license for the new environment. To learn more about this, see [How to get a license file for an environment](get-license-for-env.md).
 
 Each subscription has a limit on the number of environments that can be licensed. If you need to add more environments but have exceeded the limit of your subscription please [contact support](https://success.outsystems.com/Support/Enterprise_Customers/OutSystems_Support/01_Contact_OutSystems_technical_support).
 
