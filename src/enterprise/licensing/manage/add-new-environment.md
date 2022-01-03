@@ -33,7 +33,7 @@ If you are performing this action with a user with undefined email, you will be 
 
 <div class="info" markdown="1">
 
-When adding a self-managed environment to your OutSystems Cloud infrastructure, LifeTime won't import the existing permissions and IT users of that environment. If needed, you can create [new roles](https://success.outsystems.com/Documentation/11/Managing_the_Applications_Lifecycle/Manage_IT_Users/Create_and_Assign_Roles) and [new IT users](https://success.outsystems.com/Documentation/11/Managing_the_Applications_Lifecycle/Manage_IT_Users/Create_an_IT_User) using the LifeTime management console.
+When adding a self-managed environment to your OutSystems Cloud infrastructure, LifeTime won't import the existing roles and IT users of that environment. If needed, you can create [new roles](https://success.outsystems.com/Documentation/11/Managing_the_Applications_Lifecycle/Manage_IT_Users/Create_and_Assign_Roles) and [new IT users](https://success.outsystems.com/Documentation/11/Managing_the_Applications_Lifecycle/Manage_IT_Users/Create_an_IT_User) using the LifeTime management console.
 
 </div>
 
