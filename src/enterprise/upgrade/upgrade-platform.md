@@ -151,17 +151,21 @@ In the OutSystems Cloud, the process of upgrading the Platform Server is handled
 
 1. OutSystems will promptly contact you to discuss the schedule and plan for the upgrade.
 
-1. OutSystems proceeds with the upgrade of the environment on the agreed schedule. When upgrading the **Development environment** of your infrastructure to **Platform Server 11.11 or earlier**, OutSystems also installs the latest version of the following components:
+1. OutSystems proceeds with the upgrade of the environment on the agreed schedule. 
+    
+    1. When upgrading the **Development environment** of your infrastructure to **Platform Server 11.11.3 or earlier**, OutSystems also installs the latest version of the following components:
 
-    * [OutSystems UI](https://www.outsystems.com/forge/component-overview/1385/silk-ui-mobile)
-    * [OutSystems UI Web](https://www.outsystems.com/forge/4143/)
-    * [OutSystems Charts](https://www.outsystems.com/forge/4141/)
-    * [OutSystems Charts Web](https://www.outsystems.com/forge/4142/)
-    * [OutSystems Maps](https://www.outsystems.com/forge/component-overview/9909/)
-    * [OutSystems UI Templates Mobile](https://www.outsystems.com/forge/4148/)
-    * [OutSystems UI Templates Reactive](https://www.outsystems.com/forge/6335/)
-    * [OutSystems UI Web Screen Templates](https://www.outsystems.com/forge/4146/)
-    * [OutSystems Sample Data](https://www.outsystems.com/forge/4145/)
+        * [OutSystems UI](https://www.outsystems.com/forge/component-overview/1385/silk-ui-mobile)
+        * [OutSystems UI Web](https://www.outsystems.com/forge/4143/)
+        * [OutSystems Charts](https://www.outsystems.com/forge/4141/)
+        * [OutSystems Charts Web](https://www.outsystems.com/forge/4142/)
+        * [OutSystems Maps](https://www.outsystems.com/forge/component-overview/9909/)
+        * [OutSystems UI Templates Mobile](https://www.outsystems.com/forge/4148/)
+        * [OutSystems UI Templates Reactive](https://www.outsystems.com/forge/6335/)
+        * [OutSystems UI Web Screen Templates](https://www.outsystems.com/forge/4146/)
+        * [OutSystems Sample Data](https://www.outsystems.com/forge/4145/)
+    
+    1. When upgrading to **Platform Server 11.12.0 or later**, you're reponsible for updating those components.
 
 1. If you are upgrading from **Platform Server 11.x** to **Platform Server 11.12.0 or later**, you receive an email indicating that the Platform Server has been upgraded in your environment, and OutSystems is now [preparing your modules](upgrade-platform-module-prep.md) for the new version. This operation takes place outside your maintenance window as it doesn't require any downtime. Once the modules preparation step finishes, you are able to [publish your applications in the new version](#upgrade-apps), at your own pace.
 
@@ -226,7 +230,7 @@ If you are upgrading from **Platform Server 11.x** to **Platform Server 11.12.0 
 In the following upgrade scenarios, you must **publish all your applications** after the Platform Server is upgraded:
 
 * From **Platform Server 10 or previous** to **Platform Server 11**
-* From **Platform Server 11.x** to **Platform Server 11.11 or earlier**
+* From **Platform Server 11.x** to **Platform Server 11.11.3 or earlier**
 
 [See below](#publish-all) for the possible approaches to publish all the applications in your upgraded environment.
 
