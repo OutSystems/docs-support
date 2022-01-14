@@ -9,7 +9,7 @@ helpids: 30402
 
 ## Error message
 
-`It was not possible to sign into <Integration/Workflow/Experience> Builder. Check documentation for possible reasons.`
+`It was not possible to sign into <Integration/Workflow/Experience> Builder. Check here for the solutions.`
 
 ## Cause
 

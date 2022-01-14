@@ -9,7 +9,7 @@ helpids: 30403
 
 ## Error message
 
-`It was not possible to sign in to <Integration/Workflow/Experience> Builder  because we were unable to reach your environment. Check documentation.`
+`We were unable to reach your environment and we couldn't sign you into <Integration/Workflow/Experience> Builder. Check here for the solutions.`
 
 ## Cause
 
