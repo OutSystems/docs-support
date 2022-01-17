@@ -24,5 +24,10 @@ This service uses a publish/subscribe pattern: applications subscribe to queues 
 
 You must configure the platform so applications can reach this service. You can install and configure a RabbitMQ instance using OutSystems Configuration Tool. Performing this operation installs RabbitMQ in the same machine that's running the Configuration Tool. Check the [Platform Server 11 Installation Checklist](<https://www.outsystems.com/goto/checklist-11>) for more information on how to install and configure the Cache Invalidation Service.
 
+## <a name="when-ha"></a>When do I need High Availibility?
+
 Every time a cache invalidation occurs for a module or a tenant, all applications watching for changes on these elements are notified, and they flag their local copies as dirty. When the Cache Invalidation Service is down or unavailable (for example, during configuration changes on this service), applications aren't notified of any cache invalidations that might have occurred. This may cause some inconsistent behavior until either these applications can reach the service again or new service configurations are applied. 
+
+If your application makes use of [object caching](<https://success.outsystems.com/Documentation/11/Developing_an_Application/Use_Data/Caching>) and has no tolerance to stale values of those objects in the case of failure of the cache invalidation service, you should consider configuring for high availability.
+
 To improve the availability of the Cache Invalidation Service and mitigate the risk of a single point of failure you can [configure a RabbitMQ cluster and use a TCP load balancer](<high-availability.md>).
