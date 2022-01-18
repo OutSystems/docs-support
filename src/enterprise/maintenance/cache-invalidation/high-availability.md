@@ -9,7 +9,7 @@ template('OutSystems/OSVersionIndicator');
 
 # OutSystems cache invalidation with high-availability
 
-RabbitMQ can be configured to work as a **cluster**, offering benefits like fault-tolerance, high availability and data replication. If your application requires that the cache invalidation service is always available, you should use a RabbitMQ cluster.
+RabbitMQ can be configured to work as a **cluster**, offering benefits like fault-tolerance, high availability and data replication. If your [application requires that the cache invalidation service is always available](intro.md#when-ha), you should use a RabbitMQ cluster.
 
 In this guide, we will help you set up a basic RabbitMQ cluster that can be used to ensure high availability of the cache invalidation mechanism used by OutSystems applications. We will also show you how to make OutSystems cache invalidation tolerant to the failure of a RabbitMQ single node by configuring a TCP load balancer.
 

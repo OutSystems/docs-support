@@ -158,7 +158,7 @@ The platform core layer is composed of services necessary for the platform serve
 
 #### RabbitMQ
 
-The RabbitMQ executes cache invalidation across the environment. It can be placed in any server but is typically located in the controller server. This service supports clustered configuration.
+The RabbitMQ executes cache invalidation across the environment. It can be placed in any server but is typically located in the controller server. This service [supports clustered configuration](../maintenance/cache-invalidation/high-availability.md)
 
 #### Controller
 
