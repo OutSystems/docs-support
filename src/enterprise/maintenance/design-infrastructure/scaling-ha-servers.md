@@ -70,7 +70,7 @@ Check the [Infrastructure Design Examples ](https://success.outsystems.com/Suppo
 RabbitMQ can be configured to work as a cluster, offering benefits like fault-tolerance, high availability and data replication. If your [application requires that the cache invalidation service is always available](../cache-invalidation/intro.md#when-ha), [you should use a RabbitMQ cluster](../../ha-scalability/intro.md).
 ## More Information
 
-To learn more about how to set up your OutSystems Platform check the [Designing OutSystems infrastructures guide](https://success.outsystems.com/Support/Enterprise_Customers/Maintenance_and_Operations/Designing_OutSystems_Infrastructures).
+To learn more about how to set up your OutSystems Platform check the [Designing OutSystems infrastructures guide](designing-infrastructures.md).
 
 **Important:** The information in this article applies only to OutSystems Platform on-premises or private cloud deployments.
 
