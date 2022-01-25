@@ -32,8 +32,6 @@ Login into [OutSystems Community](https://www.outsystems.com/community) and clic
 
 In OutSystems Customer Portal, navigate to the Team pane:
 
-![Check your team members in Customer Portal](images/customer-portal-team.png)
-
 On this screen, you can see everyone who is currently associated with your company, including those invited to join your Customer Portal (but haven’t yet) and the contacts OutSystems with partial access:
 
 * **Active members** are:
