@@ -27,7 +27,6 @@ If you don’t have access, reach out to your company’s OutSystems administrat
 
 Login into [OutSystems Community](https://www.outsystems.com/community) and click **My Platform > Customer Portal**.
 
-![Access your Customer Portal](images/customer-portal-access.png)
 
 ## Managing members
 
@@ -107,15 +106,13 @@ At your Customer Portal:
 1. click **Team** on the left-side menu
 1. and then the **Add Team Member** button.
 
-![Add a new member in Customer Portal](images/customer-portal-add-member.png)
-
 
 Here you can:
 
 * Specify if that person should have **Company permissions** (this means that the Company Admin permission will be granted).
 * Select the individual permissions he or she should have for each of your OutSystems infrastructures, for example, be an Infra Admin.
 * Invite this person to configure his initial developer account in LifeTime:
-    * This option only applies to OutSystems Cloud and hybrid infrastructures.
+    * This option only applies to OutSystems Cloud and hybrid infrastructures. Aditionally, in Sentry subscriptions this option isn't available.
     * The username will be the same as his email.
     * The password will be selected by the new member when following the invitation link in his email.
 
@@ -136,16 +133,12 @@ The option to grant **Development Permissions** is only available while adding n
 
 To change a user’s permissions click **Edit** under the **ACTION** column. You can also remove a user by clicking **Delete**.
 
-![Edit a member in Customer Portal](images/customer-portal-edit-member.png)
-
 
 ### Defining the security contact
 
 The security contact will receive all communications that are security-related. This contact may have other permissions.
 
-The security contacts are those members that are added and have the **Role** set as **Security** as follows:
-
-![Security contact in Customer Portal](images/customer-portal-security.png)
+The security contacts are those members that are added and have the **Role** set as **Security**.
 
 
 On the **Security Contact** field, fill in the phone number.
