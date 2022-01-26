@@ -19,7 +19,6 @@ OutSystems was designed for several deployment models, including third-party clo
 
 OutSystems empowers healthcare providers to move to a patient-centric model by giving them the ability to rapidly build patient-facing apps for purposes such as researching their prescribed drugs, evaluating their treatment options, accessing and controlling their medical information, and more. Applications can be pushed across any platform for any device on a single code base that’s secure and compliant to HIPAA, SOC, and HITRUST.
 
-
 ## HIPAA compliance
 
 OutSystems applications dealing with protected health information may be subject to compliance with HIPAA.
@@ -50,16 +49,18 @@ HIPAA safeguards can result in a HIPAA violation when the standards of the HIPAA
 
 Read more about HIPAA in the [Health Insurance Portability and Accountability Act of 1996 (HIPAA) from CDC](https://www.cdc.gov/phlp/publications/topic/hipaa.html).
 
-
 We provide you with the proper tools and documentation to comply with HIPAA regulations while using OutSystems and foster the development of enterprise web and mobile applications.
-
 
 ### HIPAA-compliant hosting options for the OutSystems Platform
 
 OutSystems gives you the flexibility to manage and host your HIPAA-compliant apps. Read more about [how OutSystems supports HIPAA compliance](https://www.outsystems.com/evaluation-guide/how-does-outsystems-support-hipaa-compliance/).
 
-
 ![Layers of controls](images/HIPAA.png)
 
-
 Check next the [Checklist of HIPAA safeguards](hipaa-tech-safeguards.md).
+
+### HIPPA compliant apps in the Cloud
+
+To develop HIPPA compliant apps in the Cloud, you must enable your OutSystems Cloud infrastructure and request the Sentry add-on. Your Account Manager can facilitate this.
+ 
+Once you subscribe to the OutSystems Cloud with the Sentry add-on, you can create HIPAA compliant apps. OutSystems provides you with a  Business Associate Agreement (BAA) certifying that their provisioned cloud infrastructure is compliant with HIPAA requirements and provides you access to the Cryptographic Services app so that  you can protect all sensitive data. You can build, deploy, and utilize business applications that utilize Protected Health Information (PHI). OutSystems technology, cloud, policies and procedures ensure that PHI is handled correctly even in the unlikely event of a data breach.
