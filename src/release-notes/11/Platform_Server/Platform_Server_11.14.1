@@ -1,0 +1,21 @@
+<div class="noinclude" style="border: 3px solid red"><pre class="script">meta.googlebot("noindex");</pre></div>
+<div class="os-note os-info style-wrap"><p>This is a preliminary version of the document.</p></div>
+
+<h3>New in Platform Server 11.14.1</h3>
+<ul>
+<li>When using Active Directory for IT users authentication, login can be slow requiring users to belong to specific AD groups and the Active Directory contains a significant number of groups. The groups associated with users can now be cached, speeding up the login process. The cache duration is controlled by Site Property CacheInMinutesForActiveDirectoryGroups from ADAuthProvider module. By default it is 0 (cache is turned off). (RPM-1977)</li>
+</ul>
+<h3>Bug Fixing</h3>
+<ul>
+<li>Fix a performance degradation when running the platform database in some Azure configurations. (R11PBT-531)</li>
+<li>Added a retry mechanism to prevent compilation errors when a dll file is locked temporarily by another process. (RPM-1184)</li>
+<li>Fixed an issue that prevented editing entities owned by a module published in a catalog that is not the main catalog. (RPM-1263)</li>
+<li>Fixed an issue saving the row of an Editable Table with an open Data Picker in Traditional Web Applications. (RPM-1309)</li>
+<li>Fixed the error "ORA-00911: invalid character", in Configuration Tool, when create/upgrade platform or log database. This error occurred only in Oracle installations. (RPM-1440)</li>
+<li>Fixed an issue that was causing System Components installation to fail during upgrades on Pure Deployment Controller Farm scenarios (RPM-1469)</li>
+<li>Fixed an error when we try to install or upgrade the platform server in a scenario with customized IIS Bindings. (RPM-1634)</li>
+<li>Fix a memory leak associated with each first request that is done on a module. (RPM-1890)</li>
+<li>Fix a performance degradation when running the platform database in some Azure configurations. (RPM-2006)</li>
+<li>Fixed an email logs query that would generate query errors in Oracle infrastructures. (RPM-564)</li>
+</ul>
+
