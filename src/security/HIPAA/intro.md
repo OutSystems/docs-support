@@ -59,8 +59,8 @@ OutSystems gives you the flexibility to manage and host your HIPAA-compliant app
 
 Check next the [Checklist of HIPAA safeguards](hipaa-tech-safeguards.md).
 
-### HIPPA compliant apps in the OutSystems Cloud
+### HIPAA compliant apps in the OutSystems Cloud
 
-To develop HIPPA compliant apps in the Cloud, you must have the Sentry add-on and have your Cloud infrastructure HIPAA-enabled. Your Account Manager can facilitate this.
+To develop HIPAA compliant apps in the Cloud, you must have the Sentry add-on and have your Cloud infrastructure HIPAA-enabled. Your Account Manager can facilitate this.
  
-Once you have the Sentry add-on and your infrastructure is HIPPA-enabled, you can create HIPAA compliant apps. OutSystems provides you with a  Business Associate Agreement (BAA) certifying that their provisioned cloud infrastructure is compliant with HIPAA requirements and provides you access to the Cryptographic Services app so that  you can protect all sensitive data. You can build, deploy, and utilize business applications that utilize Protected Health Information (PHI). OutSystems technology, cloud, policies and procedures ensure that PHI is handled correctly even in the unlikely event of a data breach.
+Once you have the Sentry add-on and your infrastructure is HIPAA-enabled, you can create HIPAA compliant apps. OutSystems provides you with a  Business Associate Agreement (BAA) certifying that their provisioned cloud infrastructure is compliant with HIPAA requirements and provides you access to the Cryptographic Services app so that  you can protect all sensitive data. You can build, deploy, and utilize business applications that utilize Protected Health Information (PHI). OutSystems technology, cloud, policies and procedures ensure that PHI is handled correctly even in the unlikely event of a data breach.
