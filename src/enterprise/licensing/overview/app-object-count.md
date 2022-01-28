@@ -7,22 +7,23 @@ OutSystems subscriptions typically include rights to run applications up to a sp
 * Web blocks are components that exist within a screen, so they don't contribute to the AO count. 
 * Tabs and pop-up windows in your Reactive web apps are implemented within an existing screen, so they don't contribute to the AO count either. 
 * Tabs and pop-up windows created as distinct screens in the designer, such as with traditional web apps, count as 1 AO for each screen. 
-* Tooltips don't contribute to the AO count.
+* Tooltips do not contribute to the AO count.
 
 ##Details on AO counting for Database Tables
 * Tables you create within the OutSystems platform database each count as 1 AO.
 * Tables you import from external databases for use in your app each count as 1 AO.
-* Entities using local storage, such as for use in mobile apps, each count as 1 AO.
+* Entities using local storage, such as for use with mobile apps, each count as 1 AO.
 * Tables created by the OutSystems platform, such as the Users table where end user information is stored, do not contribute to the AO count.
 
 ##Details on AO counting for API Methods
 * Each API method you *create* ([REST](https://success.outsystems.com/Documentation/11/Extensibility_and_Integration/REST/Expose_REST_APIs) or [SOAP Web Service](https://success.outsystems.com/Documentation/11/Extensibility_and_Integration/SOAP/Exposing_SOAP_Web_Services/Expose_a_SOAP_Web_Service)) counts as 1 AO. 
-* Each API you *consume* ([REST](https://success.outsystems.com/Documentation/11/Extensibility_and_Integration/REST/Consume_REST_APIs), [SOAP Web Service](https://success.outsystems.com/Documentation/11/Extensibility_and_Integration/SOAP/Consuming_SOAP_Web_Services), SAP BAPI, etc.) within each app counts as 1 AO.
+* Each API method you *consume* ([REST](https://success.outsystems.com/Documentation/11/Extensibility_and_Integration/REST/Consume_REST_APIs), [SOAP Web Service](https://success.outsystems.com/Documentation/11/Extensibility_and_Integration/SOAP/Consuming_SOAP_Web_Services), SAP BAPI, etc.) within each app counts as 1 AO.
 * Each [Service Action](https://success.outsystems.com/Documentation/11/Developing_an_Application/Reuse_and_Refactor/Use_Services_to_Expose_Functionality#:~:text=In%20OutSystems%2C%20a%20Service%20Action%20is%20a%20REST,to%20the%20producer%20module%2C%20in%20a%20loosely-coupled%20way.) you create counts as 1 AO.
 * APIs that are within a C#-based extension do not contribute to the AO count.
 
 ##Other Scenarios
 * Within the same runtime environment, each database table and API method only counts as 1 AO, even when used by multiple apps within this same environment.
 * Disabled applications continue to contribute to the AO count until they are deleted.
+* Components sourced from [OutSystems Forge](https://www.outsystems.com/forge/) also contribute to the AO count.
 
 
