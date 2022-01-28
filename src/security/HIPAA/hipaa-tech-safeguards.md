@@ -107,9 +107,11 @@ This section also includes the measures for *Implement Encryption Controls (A) 1
 
 ##### What you need to have and do
 
-You need to ensure that your custom applications implement mechanisms to protect ePHI while at rest, and in transit. Suitable encryption and decryption mechanisms include but are not limited to secure algorithms, and key management.
+You need to ensure that your custom applications implement mechanisms to protect ePHI while at rest, and in transit. Suitable encryption and decryption mechanisms include but aren't limited to secure algorithms, and key management.
 
 ##### How OutSystems can help you
+
+In the OutSystems Cloud you can benefit of the compliance of the [OutSystems HIPAA offering](intro.md#hipaa-cloud). Secure methods are provided out of the box to encrypt and decrypt data along with a Key Management System. For more information on how to use it, check [Implement encryption and decryption for HIPAA compliance](https://success.outsystems.com/Documentation/11_x_platform/Developing_an_Application/Use_Data/Implement_encryption_and_decryption_for_HIPAA_compliance).
 
 OutSystems supports using database encryption mechanisms such as [transparent data encryption](https://docs.microsoft.com/en-us/sql/relational-databases/security/encryption/transparent-data-encryption?view=sql-server-ver15) to implement your own encryption schemes at the application level using your own keys.
 
