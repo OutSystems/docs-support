@@ -113,7 +113,7 @@ You need to ensure that your custom applications implement mechanisms to protect
 
 In the OutSystems Cloud you can benefit of the compliance of the [OutSystems HIPAA offering](intro.md#hipaa-cloud). Secure methods are provided out of the box to encrypt and decrypt data along with a Key Management System. For more information on how to use it, check [Implement encryption and decryption for HIPAA compliance](https://success.outsystems.com/Documentation/11_x_platform/Developing_an_Application/Use_Data/Implement_encryption_and_decryption_for_HIPAA_compliance).
 
-OutSystems supports using database encryption mechanisms such as [transparent data encryption](https://docs.microsoft.com/en-us/sql/relational-databases/security/encryption/transparent-data-encryption?view=sql-server-ver15) to implement your own encryption schemes at the application level using your own keys.
+As alternative options, OutSystems supports using database encryption mechanisms such as [transparent data encryption](https://docs.microsoft.com/en-us/sql/relational-databases/security/encryption/transparent-data-encryption?view=sql-server-ver15) to implement your own encryption schemes at the application level using your own keys.
 
 To add more granular encryption such as, for example, having different encryption keys per application or preventing that those that have access to the database may decrypt data, OutSystems enables developers to use [envelope encryption techniques](https://success.outsystems.com/Support/Enterprise_Customers/Maintenance_and_Operations/Data_Encryption_at_Rest#How_to_fully_encrypt_your_sensitive_data). An example of this implementation is the Forge component [Crypto API](https://www.outsystems.com/forge/component-overview/437/cryptoapi).
 
