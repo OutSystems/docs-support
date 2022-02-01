@@ -2,10 +2,10 @@
 An Application Object (AO) is a measurement of the complexity of the applications you run on the OutSystems platform. Each **screen**, **database table**, and **API method** in your apps count as 1 AO. 
 
 ## Details on AO counting for Screens
-* Web pages, email screens, and mobile web screens each count as 1 AO. 
+* Web screens, email screens, and mobile web screens each count as 1 AO. 
 * Web blocks are components that exist within a screen, so they don't contribute to the AO count. 
 * Tabs and pop-up windows in your Reactive web apps are implemented within an existing screen, so they don't contribute to the AO count either. 
-* Tabs and pop-up windows created as distinct screens in the designer, such as with traditional web apps, count as 1 AO for each screen. 
+* Tabs and pop-up windows created as distinct screens in Service Studio, such as with traditional web apps, count as 1 AO for each screen. 
 * Tooltips do not contribute to the AO count.
 
 ## Details on AO counting for Database Tables
