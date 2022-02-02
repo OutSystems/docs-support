@@ -15,7 +15,7 @@ Applying these techniques promotes SEO because the search engines (and users) gi
 
 <div class="info" markdown="1">
 
-This document applies to Traditional Web Apps. For Reactive Web Apps, see [Technical Preview - SEO in Reactive Web Apps](https://success.outsystems.com/Documentation/11/Developing_an_Application/Technical_Preview_-_SEO_in_Reactive_Web_Apps).
+This document applies to Traditional Web Apps. For Reactive Web Apps, see [SEO in Reactive Web Apps](https://success.outsystems.com/Documentation/11/Developing_an_Application/SEO_in_Reactive_Web_Apps).
 
 </div>
 
@@ -31,7 +31,7 @@ At runtime, when clicking on a link on a page of your application, OutSystems op
 
 <div class="info" markdown="1">
 
-This section applies to Traditional Web Apps. For Reactive Web Apps, see [Technical Preview - SEO in Reactive Web Apps](https://success.outsystems.com/Documentation/11/Developing_an_Application/Technical_Preview_-_SEO_in_Reactive_Web_Apps).
+This section applies to Traditional Web Apps. For Reactive Web Apps, see [SEO in Reactive Web Apps](https://success.outsystems.com/Documentation/11/Developing_an_Application/SEO_in_Reactive_Web_Apps).
 
 </div>
 
@@ -78,7 +78,7 @@ http://www.example.com/InsterstateBuses/To-Faro
 
 <div class="info" markdown="1">
 
-This section applies to Traditional Web Apps. For Reactive Web Apps, see [Technical Preview - SEO in Reactive Web Apps](https://success.outsystems.com/Documentation/11/Developing_an_Application/Technical_Preview_-_SEO_in_Reactive_Web_Apps).
+This section applies to Traditional Web Apps. For Reactive Web Apps, see [SEO in Reactive Web Apps](https://success.outsystems.com/Documentation/11/Developing_an_Application/SEO_in_Reactive_Web_Apps).
 
 </div>
 
