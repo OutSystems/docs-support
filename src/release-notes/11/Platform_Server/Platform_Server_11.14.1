@@ -1,0 +1,115 @@
+<div class="noinclude" style="border: 3px solid red"><pre class="script">meta.googlebot("noindex");</pre></div>
+<div class="os-note os-info style-wrap"><p>This is a preliminary version of the document.</p></div>
+
+<h3>New in Platform Server 11.14.1</h3>
+<ul>
+<li><a href="/Support/Release_Notes/11/Platform_Server/Platform_Server_11.14.1#RPM-1942"rel="custom">While using LDAP authentication, especially when using the LDAPS protocol, connections to some servers can be slow, because the connection is only made by using a fallback mechanism. If for every call to LDAP Action in Authentication extension, there's a "Fallback to use user domain" message in the platform logs, you environment might be experiencing this.
+The ossys_parameter `OutSystems.Authentication.LDAPTryUsernameDomainFirst` can be set to `True` to switch the connection logic, making this fallback mechanism be tried first, improving performance. (RPM-1942)</a></li>
+<li><a href="/Support/Release_Notes/11/Platform_Server/Platform_Server_11.14.1#RPM-1977"rel="custom">When using Active Directory for IT users authentication, login can be slow requiring users to belong to specific AD groups and the Active Directory contains a significant number of groups. The groups associated with users can now be cached, speeding up the login process. The cache duration is controlled by Site Property CacheInMinutesForActiveDirectoryGroups from ADAuthProvider module. By default it is 0 (cache is turned off). (RPM-1977)</a></li>
+</ul>
+<h3>Bug Fixing</h3>
+<ul>
+<li>Fix a performance degradation when running the platform database in some Azure configurations. (R11PBT-531)</li>
+<li><a href="/Support/Release_Notes/11/Platform_Server/Platform_Server_11.14.1#RPM-1184"rel="custom">Added a retry mechanism to prevent compilation errors when a dll file is locked temporarily by another process. (RPM-1184)</a></li>
+<li><a href="/Support/Release_Notes/11/Platform_Server/Platform_Server_11.14.1#RPM-1240"rel="custom">Corrected installation checklist for the Oracle configuration by removing "Republish all modules" step. (RPM-1240)</a></li>
+<li><a href="/Support/Release_Notes/11/Platform_Server/Platform_Server_11.14.1#RPM-1263"rel="custom">Fixed an issue that prevented editing entities owned by a module published in a catalog that is not the main catalog. (RPM-1263)</a></li>
+<li><a href="/Support/Release_Notes/11/Platform_Server/Platform_Server_11.14.1#RPM-1309"rel="custom">Fixed an issue saving the row of an Editable Table with an open Data Picker in Traditional Web Applications. (RPM-1309)</a></li>
+<li><a href="/Support/Release_Notes/11/Platform_Server/Platform_Server_11.14.1#RPM-1398"rel="custom">Reactive session timeout's default value now matches Traditional Web session timeout's default value (20m). (RPM-1398)</a></li>
+<li><a href="/Support/Release_Notes/11/Platform_Server/Platform_Server_11.14.1#RPM-1440"rel="custom">Fixed the error "ORA-00911: invalid character", in Configuration Tool, when create/upgrade platform or log database. This error occurred only in Oracle installations. (RPM-1440)</a></li>
+<li><a href="/Support/Release_Notes/11/Platform_Server/Platform_Server_11.14.1#RPM-1469"rel="custom">Fixed an issue that was causing System Components installation to fail during upgrades on Pure Deployment Controller Farm scenarios (RPM-1469)</a></li>
+<li><a href="/Support/Release_Notes/11/Platform_Server/Platform_Server_11.14.1#RPM-1634"rel="custom">Fixed an error when we try to install or upgrade the platform server in a scenario with customized IIS Bindings. (RPM-1634)</a></li>
+<li><a href="/Support/Release_Notes/11/Platform_Server/Platform_Server_11.14.1#RPM-1675"rel="custom">SAML authentication is now more resilient to session variables issues during Logout operation (RPM-1675)</a></li>
+<li><a href="/Support/Release_Notes/11/Platform_Server/Platform_Server_11.14.1#RPM-1890"rel="custom">Fix a memory leak associated with each first request that is done on a module. (RPM-1890)</a></li>
+<li><a href="/Support/Release_Notes/11/Platform_Server/Platform_Server_11.14.1#RPM-1997"rel="custom">Major upgrades from O10 to O11 no longer fail during the preparation of System Components dependencies during the upgrade operation. (RPM-1997)</a></li>
+<li><a href="/Support/Release_Notes/11/Platform_Server/Platform_Server_11.14.1#RPM-2006"rel="custom">Fix a performance degradation when running the platform database in some Azure configurations. (RPM-2006)</a></li>
+<li><a href="/Support/Release_Notes/11/Platform_Server/Platform_Server_11.14.1#RPM-564"rel="custom">Fixed an email logs query that would generate query errors in Oracle infrastructures. (RPM-564)</a></li>
+<li><a href="/Support/Release_Notes/11/Platform_Server/Platform_Server_11.14.1#RPM-670"rel="custom">Fixed an issue that was causing slowness when getting refresh tokens from the database in Oracle. (RPM-670)</a></li>
+</ul>
+
+<style>.cattag {background: #f4f2ff; color: #6a6581; padding: 4px 10px;}</style><div class="moreDetailsDiv"><h3>More details</h3><p><a id="RPM-1184"><strong>RPM-1184</strong></a><br><b>Added a retry mechanism to prevent compilation errors when a dll file is locked temporarily by another process.</b><br><span class="cattag">Publish Operation</span> <span class="cattag">Compilation</span> <br><br><u>Fix Details:</u><br>Impact of this problem to Customer:
+
+Low impact.
+
+Only noticeable in Development environment.
+
+Only during publishing.
+
+Low frequency:  Between 11-20 May, there were only 4 occurences.
+
+Steps to reproduce the problem:
+
+Solid reproduction steps are not known.  All they did was to do a compile/publish.
+It happens on any application / module.</p><p><a id="RPM-1240"><strong>RPM-1240</strong></a><br><b>Corrected installation checklist for the Oracle configuration by removing "Republish all modules" step.</b><br><span class="cattag">Infrastructure Management</span> <span class="cattag">Platform Installation Checklist</span> <br><br><u>Fix Details:</u><br>*Symptoms*
+"Republish all modules" step is still present in the Checklist for PS 11.13.2 and later version
+
+*How to reproduce*
+NA</p><p><a id="RPM-1263"><strong>RPM-1263</strong></a><br><b>Fixed an issue that prevented editing entities owned by a module published in a catalog that is not the main catalog.</b><br><span class="cattag">Service Studio</span> <span class="cattag">Data Access and Manipulation</span> <br><br><u>Fix Details:</u><br>*Symptoms*
+Edit Data in Entities that are not in the Main DB Schema will result in errors in Service Studio both in Oracle & SQL Server databases.
+
+*How to reproduce*
+1. Publish an eSpace with Entities in the Schema that is not the Main;
+2. In Service Studio try to edit the data and save it.</p><p><a id="RPM-1309"><strong>RPM-1309</strong></a><br><b>Fixed an issue saving the row of an Editable Table with an open Data Picker in Traditional Web Applications.</b><br><span class="cattag">Application Runtime</span> <span class="cattag">Interface</span> <br><br><u>Fix Details:</u><br>*Symptoms*
+Non-editable fields become editable when a record is saved with an open Date Picker
+
+*How to reproduce*
+1. Create an Editable Record widget with a date picker and read-only fields;
+2. Leave the date picker open and save the record;
+3. Edite the inserted record and at times the read-only field can be edited.</p><p><a id="RPM-1398"><strong>RPM-1398</strong></a><br><b>Reactive session timeout's default value now matches Traditional Web session timeout's default value (20m).</b><br><span class="cattag">Application Runtime</span> <span class="cattag">Authentication and Authorization</span> <br><br><u>Fix Details:</u><br>*Symptoms*
+“Single Sign-On Between App Types” is enabled on Service Center, but the sessions are not synchronized between application types.
+For example: session is lost on Traditional Web applications but not on Reactive applications (or vice-versa).
+
+*How to reproduce*
+1. Enable “Single Sign-On Between App Types” on Service Center;
+2. Access a Traditional application on a separate window or tab
+3. Login on the application
+4. Navigate to a screen unaccessible to anonymous users
+5. Access a Reactive application on a separate window or tab
+6. Navigate to a screen unaccessible to anonymous users
+7. Wait 20 to 30 minutes (using the default values of “Max Idle Timeout” from IIS and Service Center, if your values were customized then replace with those values)
+8. Refresh both screens
+9. Session was lost on one application but not on the other</p><p><a id="RPM-1440"><strong>RPM-1440</strong></a><br><b>Fixed the error "ORA-00911: invalid character", in Configuration Tool, when create/upgrade platform or log database. This error occurred only in Oracle installations.</b><br><span class="cattag">Infrastructure Management</span> <span class="cattag">Platform Configuration</span> <br><br><u>Fix Details:</u><br>*Symptoms*
+While upgrading the environment from platform version 11.0.606.0 to version 11.12.2 (Build 31091), the customer faced the following error when pressing the Create/upgrade database (platform and log tabs):
+
+"ORA-00911: invalid character"
+
+*How to reproduce*
+- In an environment with Platform version 11.0.606.0 installed, follow the steps to update to version 11.12.2 (Build 31091);
+- Make sure that the "Ossys_ModuleFrontend" table has duplicates;
+- After running the Configuration Tool and pressing the Create/upgrade database button in the Platform tab, the reported error will occur.</p><p><a id="RPM-1469"><strong>RPM-1469</strong></a><br><b>Fixed an issue that was causing System Components installation to fail during upgrades on Pure Deployment Controller Farm scenarios</b><br><span class="cattag">Infrastructure Management</span> <span class="cattag">Platform Installer</span> <br><br><u>Fix Details:</u><br>*Symptoms*
+During an upgrade in a Pure Deployment Controller Scenario (where only Deployment Controller Service is enabled in that machine), we are unable to install System Components
+
+*How to reproduce*
+Trying to upgrade to any version after 11.9.0 in a Pure DC scenario will face this problem</p><p><a id="RPM-1634"><strong>RPM-1634</strong></a><br><b>Fixed an error when we try to install or upgrade the platform server in a scenario with customized IIS Bindings.</b><br><span class="cattag">Infrastructure Management</span> <span class="cattag">Platform Installer</span> <br><br><u>Fix Details:</u><br>The installation or upgrade of the platform server hangs in a scenario with customized IIS binding.</p><p><a id="RPM-1675"><strong>RPM-1675</strong></a><br><b>SAML authentication is now more resilient to session variables issues during Logout operation</b><br><span class="cattag">Application Lifecycle</span> <span class="cattag">Users</span> <br><br><u>Fix Details:</u><br>*Symptoms*
+When doing a *logout* operation, the user sometimes is redirected to IIS default page (if on-premises) or ServiceCenter (if in our Cloud PaaS).
+This happens intermittently and some browsers seem more susceptible to this issue.
+E.g., the behaviour was never reproduced on Firefox but happens with some frequency in Chrome.
+
+*How to reproduce*
+1. Navigate to a screen that requires a registered user
+2. Login
+3. Wait a few minutes (2m should suffice)
+4. Logout
+
+If the issue reproduces you will be redirected to either IIS or Service Center instead of being redirected to the IdP's login screen.
+This was tested using a Reactive application, unsure at this point if the issue only occurs for reactive applications.
+</p><p><a id="RPM-1890"><strong>RPM-1890</strong></a><br><b>Fix a memory leak associated with each first request that is done on a module.</b><br><span class="cattag">Application Runtime</span> <br><br><u>Fix Details:</u><br>The resources associated with the first request that loads a module in IIS is never released, adding extra constant memory overhead associated with each module loaded.</p><p><a id="RPM-1942"><strong>RPM-1942</strong></a><br><b>While using LDAP authentication, especially when using the LDAPS protocol, connections to some servers can be slow, because the connection is only made by using a fallback mechanism. If for every call to LDAP Action in Authentication extension, there's a "Fallback to use user domain" message in the platform logs, you environment might be experiencing this.
+The ossys_parameter `OutSystems.Authentication.LDAPTryUsernameDomainFirst` can be set to `True` to switch the connection logic, making this fallback mechanism be tried first, improving performance.</b><br><span class="cattag">Application Runtime</span> <span class="cattag">Authentication and Authorization</span> <br><br><u>Fix Details:</u><br>*Symptoms*
+
+After upgrading from JAVA to the .NET O10 version, calls to LDAP Actions from the Authentication extension will be much slower. This happens when using the LDAPS protocol.
+Every call to a LDAP Action will have associated an entry about "Fallback to use user domain" in the logs.
+
+*How to reproduce*
+
+This problem happens when using LDAPS normally. It depends on the kind of external LDAP server and its configurations, so it might not happen in a give factory, If it happens, it should occur consistently.</p><p><a id="RPM-1977"><strong>RPM-1977</strong></a><br><b>When using Active Directory for IT users authentication, login can be slow requiring users to belong to specific AD groups and the Active Directory contains a significant number of groups. The groups associated with users can now be cached, speeding up the login process. The cache duration is controlled by Site Property CacheInMinutesForActiveDirectoryGroups from ADAuthProvider module. By default it is 0 (cache is turned off).</b><br><span class="cattag">Application Runtime</span> <span class="cattag">System Components</span> <br><br><u>Fix Details:</u><br>*Symptoms*
+When using Active Directory for IT users authentication, login is very slow. This affects access to tools such as Service Studio, etc.
+In particular, this happens when AD authentication is configured to require users to belong to specific AD group(s). This can also produce entries about slow executions of Authentication.ActiveDirectory_GetAccountGroups in the Extension logs.
+
+*How to reproduce*
+Use Active Directory for IT users authentication, configured to require users to belong to specific AD group(s). If the AD has a large number of groups, the login to tools such as Service Studio, etc. will be abnormally slow.</p><p><a id="RPM-1997"><strong>RPM-1997</strong></a><br><b>Major upgrades from O10 to O11 no longer fail during the preparation of System Components dependencies during the upgrade operation.</b><br><span class="cattag">Platform Installation</span> <br><br><u>Fix Details:</u><br>During a major upgrade from O10 to O11, the system components installation can fail during the System Components dependencies preparation phase.
+This blocks the upgrade from proceeding.</p><p><a id="RPM-2006"><strong>RPM-2006</strong></a><br><b>Fix a performance degradation when running the platform database in some Azure configurations.</b><br><span class="cattag">Application Runtime</span> <span class="cattag">Data Access and Manipulation</span> <br><br><u>Fix Details:</u><br>Performance degradation on database access in some Azure configurations
+</p><p><a id="RPM-564"><strong>RPM-564</strong></a><br><b>Fixed an email logs query that would generate query errors in Oracle infrastructures.</b><br><span class="cattag">Application Lifecycle</span> <span class="cattag">Service Center</span> <br><br><u>Fix Details:</u><br>*Symptoms*
+<describe all the symptoms of the issue and relevant data, such as logging>
+
+*How to reproduce*
+<describe step-by-step what is needed to reproduce the issue and all needed assets></p><p><a id="RPM-670"><strong>RPM-670</strong></a><br><b>Fixed an issue that was causing slowness when getting refresh tokens from the database in Oracle.</b><br><span class="cattag">Application Runtime</span> <span class="cattag">Authentication and Authorization</span> <br><br><u>Fix Details:</u><br>Trying to log in into Workflow Builder times out due to a request to Server.Identity taking too long.</p>
+</div>

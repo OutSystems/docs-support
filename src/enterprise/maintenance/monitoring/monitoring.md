@@ -77,7 +77,7 @@ While the workflows shown below may not include a perfect template for your own 
 
 A workgroup app is designed for, and used by, company employees, for a wide variety of internal activities, from browsing through an office directory to choosing a take-in entree for lunch. Because less than optimal performance has low impact on revenue or on the organization brand, such apps are often classified as non-critical. 
 
-However, non-critical does not mean unimportant. And though a workgroup app is designed for employees, that person is also a user—and as such deserves a good user experience.  So this means that they require monitoring and performance analysis. The question is only how much, and how fast:  how many resources and how big of a budget should be allocated for this task.
+However, non-critical doesn't mean unimportant. And though a workgroup app is designed for employees, that person is also a user—and as such deserves a good user experience. So this means that they require monitoring and performance analysis. The question is only how much, and how fast:  how many resources and how big of a budget should be allocated for this task.
 The following workgroup app use cases are considered:
 
 * **RSVP**: Meeting organizer
@@ -109,7 +109,7 @@ Service Center includes logging information about main indicators, including tho
 * Screen performance;
 * Timers and BPT execution insights
 
-For the **RSVP** app Service Center is consulted daily for logged errors, slow queries, integration problems, and sluggish screen actions in order to troubleshoot any areas of concern.
+For the **RSVP** app Service Center is consulted daily for logged errors, slow queries, integration problems, and sluggish screen actions to troubleshoot any areas of concern.
 
 Log into [Service Center](https://success.outsystems.com/Documentation/11/Managing_the_Applications_Lifecycle/Monitor_and_Troubleshoot/View_the_Environment_Logs_and_Status) and select the Monitoring menu to view the Error Log.
 
@@ -159,7 +159,7 @@ By clicking through to the module you can pinpoint the source of the problem and
 
 #### Tender Loving Care app
 
-**TLC** (**T**ender **L**oving **C**are) is an app designed for employees to call in sick from home and for notifying interested parties as to their absence.  Because this app requires access outside of a company intranet, additional security is provided, and monitoring must include app functionality and user access.
+**TLC** (**T**ender **L**oving **C**are) is an app designed for employees to call in sick from home and for notifying interested parties as to their absence. Because this app requires access outside of a company intranet, additional security is provided, and monitoring must include app functionality and user access.
 So, in addition to the monitoring steps described above, daily checking of LifeTime analytics is included in the monitoring and analysis protocol.
 
 ##### LifeTime analytics { #lifetime-analytics }
@@ -173,7 +173,7 @@ Log into LifeTime and click the **Analytics** menu to view the analytics dashboa
 
 ![LifeTime analytics](images/tlc-apdex.png)
 
-The analytics dashboard gives a view of all of your applications by environment. By regularly checking LIfeTime developers can detect, troubleshoot, and solve performance issues even before end users report them. 
+The analytics dashboard gives a view of all of your applications by environment. By regularly checking LifeTime developers can detect, troubleshoot, and solve performance issues even before end users report them. 
 
 The **End User Experience** tab displayed above shows the execution times of all queries, web service invocations, screen renderings, schedulers and invocations to adapters, external systems and custom APIs, which are all tracked asynchronously.
 
@@ -195,7 +195,7 @@ Your own workgroup apps may require additional functionality, beyond Service Cen
 
 ###### PerformanceMonitoring API
 
-To get access to more detailed performance data that is not available in Service Center or LifeTime, you can use [PerformanceMonitoring API](https://success.outsystems.com/Documentation/11/Reference/OutSystems_APIs/PerformanceMonitoring_API), another built-in OutSystems tool.
+To get access to more detailed performance data that's not available in Service Center or LifeTime, you can use [PerformanceMonitoring API](https://success.outsystems.com/Documentation/11/Reference/OutSystems_APIs/PerformanceMonitoring_API), another built-in OutSystems tool.
 
 **Note**: For reactive web apps and mobile apps only server-side data is available.
 
@@ -211,7 +211,7 @@ Each built-in request event has the following details:
 * ScreenServer
 * TimerExecuted
 
-Some OutSystems developers want to get a closer look at the logs, understand how they are constructed, and even make a direct query to the OutSystems database.
+Some OutSystems developers want to get a closer look at the logs, understand how they're constructed, and even make a direct query to the OutSystems database.
 
 You can read more about how OutSystems developers can take advantage of these assets at [Logging database and architecture](https://success.outsystems.com/Documentation/11/Managing_the_Applications_Lifecycle/Monitor_and_Troubleshoot/Logging_database_and_architecture).
 
@@ -227,7 +227,7 @@ The record or request event gets added to a message queue. Then the OutSystems l
 
 ###### Business Activity Monitoring
 
-The [Business Activity Monitoring](http://www.outsystems.com/forge/component/132/business-activity-monitoring/), an Outsystems-supported extension from the Forge, enables developers to start monitoring and optimizing processes immediately after deployment without the need for any development effort. Reports can be easily modified and extended to align with the business language of the organization using them. OutSystems supports business process modeling so teams can quickly create a process on top of an existing application or set of applications, such as guiding users throughout existing business processes, including order approvals, claims handling, and others.
+The [Business Activity Monitoring](http://www.outsystems.com/forge/component/132/business-activity-monitoring/), an OutSystems-supported extension from the Forge, enables developers to start monitoring and optimizing processes immediately after deployment without the need for any development effort. Reports can be easily modified and extended to align with the business language of the organization using them. OutSystems supports business process modeling so teams can quickly create a process on top of an existing application or set of applications, such as guiding users throughout existing business processes, including order approvals, claims handling, and others.
 
 ###### AppFeedback
 
@@ -237,7 +237,7 @@ You can configure [App Feedback](https://success.outsystems.com/Documentation/11
 
 [MonitorProbe](https://www.outsystems.com/forge/component-overview/4559/monitorprobe), an open-code component available for free download from the Forge, can be used to expose all the relevant OutSystems monitoring data through a set of REST APIs of a specific environment.
 
-Like Performance Monitoring API, MonitorProbe gives you access to data that is otherwise accessible only through a direct query to the OutSystems platform database, such as logs and timers.
+Like Performance Monitoring API, MonitorProbe gives you access to data that's otherwise accessible only through a direct query to the OutSystems platform database, such as logs and timers.
 
 ![Monitor Probe REST API](images/monitor-probe.png)
 
@@ -297,7 +297,7 @@ Enterprise apps range from home banking, retail shopping, internal invoicing, to
 
 One crucial element for enterprise apps is receiving alerts when errors of a certain type exceed predetermined thresholds. As we have seen, [PerformanceMonitoring API](https://success.outsystems.com/Documentation/11/Reference/OutSystems_APIs/PerformanceMonitoring_API), a built-in OutSystems component, and [MonitorProbe](#monitor-probe), a community-supported extension, provide REST API methods to retrieve a list of request events that occurred in your application. This data can be used to build an internal dashboard that provides alerts.
 
-However, for critical apps with a high monitoring data volume, you need real-time access to raw data in order to generate meaningful and useful alerts, and many OutSystems customers have decided that integration with third-party monitoring tools is a must.
+However, for critical apps with a high monitoring data volume, you need real-time access to raw data to generate meaningful and useful alerts, and many OutSystems customers have decided that integration with third-party monitoring tools is a must.
 
 In addition, behavior analytics monitoring—checking for user engagement and user satisfaction—is a crucial element in the success of the app to generate income and protect your enterprise brand.
 

@@ -40,7 +40,7 @@ While setting up the VPN, OutSystems provisions internal DNS servers that should
 
     * Protocol/Port: UDP/TCP 53
 
-    * Domain to be resolved: xxxx.rds.amazonaws.com (provided in the database accces configuration).
+    * Domain to be resolved: xxxx.rds.amazonaws.com (provided in the database access configuration).
 
 
 ## Establishing a stable connection

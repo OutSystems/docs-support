@@ -6,7 +6,7 @@ summary: For a correctly designed architecure you must always adhere to 3 rules.
 
 There are 3 rules you **must always** comply with in order to achieve a well-designed application architecture.
 
-![ ](images/validating-app-architecture_0.png)
+![ ](images/validating-app-architecture-rules-diag.png)
 
 The compliance of the implemented modules with these architecture rules can be automatically verified using the [Discovery tool](http://www.outsystems.com/forge/component/409/discovery/). It analyzes the actual dependencies among modules, identifying violations and pinpointing the elements (actions, screens, entities) that are assembled in the wrong place. 
 
@@ -16,7 +16,7 @@ An upward reference tends to create a cluster where any 2 modules, directly or i
 
 In this example, since **Library E** consumes **End-user A**, any pair of elements inside the identified cluster is in a circular relation. Take **C** and **D** for example: **C**> E > A > **D** and reverse **D**> E > A > **C**.
 
-![ ](images/validating-app-architecture_1.png)
+![ ](images/validating-app-architecture-no-upward-references-diag.png)
 
 Another unexpected effect is that **End-user B** is legitimately consuming **Core D**, and becomes dependent of the entire cluster. Not only its runtime will get an unnecessarily large footprint, but it will also be constantly impacted (outdated) with changes made in modules that it should not even be aware of.
 
@@ -32,7 +32,7 @@ Find the elements that are being consumed and move them to a lower layer. In thi
 
 In this example, **End-user A** is consuming some element of **End-user B** (maybe something as simple as a formatting function). Not only it got coupled to module **B**, but it unnecessarily inherited **D**, **E**and **G**.
 
-![ ](images/validating-app-architecture_2.png)
+![ ](images/validating-app-architecture-no-side-references-diag.png)
 
 ### What is wrong?
 
@@ -54,7 +54,7 @@ Respecting rules #1 and #2, **End-users** and **Orchestrations** cannot be invol
 
 The third rule is about avoiding cycles among **Cores** or **Libraries**, since those are allowed to have side references.
 
-![ ](images/validating-app-architecture_3.png)
+![ ](images/validating-app-architecture-no-circular-references-diag.png)
 
 A cycle is always undesirable, since it brings unexpected impacts and hard-to-manage code.
 

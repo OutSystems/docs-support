@@ -19,7 +19,6 @@ OutSystems was designed for several deployment models, including third-party clo
 
 OutSystems empowers healthcare providers to move to a patient-centric model by giving them the ability to rapidly build patient-facing apps for purposes such as researching their prescribed drugs, evaluating their treatment options, accessing and controlling their medical information, and more. Applications can be pushed across any platform for any device on a single code base that’s secure and compliant to HIPAA, SOC, and HITRUST.
 
-
 ## HIPAA compliance
 
 OutSystems applications dealing with protected health information may be subject to compliance with HIPAA.
@@ -28,7 +27,7 @@ Medical records and other personal health information that both:
 * Identifies an individual
 * Is maintained or exchanged electronically or in hard copy (e.g. photocopied or printed from the database)
 
-HIPAA considers such personally identifiable information protected if it is possessed by a covered entity or business associate. 
+HIPAA considers such personally identifiable information protected if it's possessed by a covered entity or business associate. 
 
 The US Department of Health and Human Services (HHS) issued the HIPAA Privacy Rule to implement the requirements of HIPAA. The HIPAA Security Rule protects a subset of information covered by the Privacy Rule. More information is available [here](http://www.cdc.gov/privacyrule/privacy-HIPAAfacts.htm). 
 
@@ -50,16 +49,24 @@ HIPAA safeguards can result in a HIPAA violation when the standards of the HIPAA
 
 Read more about HIPAA in the [Health Insurance Portability and Accountability Act of 1996 (HIPAA) from CDC](https://www.cdc.gov/phlp/publications/topic/hipaa.html).
 
-
 We provide you with the proper tools and documentation to comply with HIPAA regulations while using OutSystems and foster the development of enterprise web and mobile applications.
 
-
-### HIPAA-compliant hosting options for the OutSystems Platform
+### HIPAA-compliant hosting options for the OutSystems platform
 
 OutSystems gives you the flexibility to manage and host your HIPAA-compliant apps. Read more about [how OutSystems supports HIPAA compliance](https://www.outsystems.com/evaluation-guide/how-does-outsystems-support-hipaa-compliance/).
 
-
 ![Layers of controls](images/HIPAA.png)
 
-
 Check next the [Checklist of HIPAA safeguards](hipaa-tech-safeguards.md).
+
+### HIPAA compliant apps in the OutSystems Cloud { #hipaa-cloud }
+
+
+The OutSystems Cloud HIPAA offering is available for OutSystems Sentry and provides you:
+
+* A Business Associate Agreement (BAA) certifying that your OutSystems Cloud is compliant with HIPAA requirement.
+* Access to the **Cryptographic Services** app so that you can protect all sensitive data. You can build, deploy, and use business applications that utilize Protected Health Information (PHI). 
+* Attestation by an independent auditor that OutSystems technology, Cloud, policies and procedures ensure that PHI is handled correctly even in the unlikely event of a data breach. Check more at [OutSystems Compliance Portal](https://security.outsystems.com/).
+
+Contact your account manager to subscribe. 
+You can check if you're on the OutSystems Cloud HIPAA offering by looking for the **Cryptography Services** app in your environments. If it's not there, contact support or your account manager.
