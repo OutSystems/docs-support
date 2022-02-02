@@ -1,6 +1,6 @@
 ---
-summary:
-tags:
+summary: Check the services available for OutSystems Cloud customers, their availability based on the subscription, and useful information for their activation.
+tags: support-Cloud_Platform, support-Cloud_Platform-overview
 ---
 
 # Service changes available upon request
@@ -30,7 +30,7 @@ OutSystems Cloud customers can request the following service changes. All servic
 1. [Install a client-side certificate](https://success.outsystems.com/Support/Enterprise_Customers/Maintenance_and_Operations/Requesting_to_install_client-side_certificates_on_OutSystems_cloud)
 1. [Add a certificate to a trusted root store*](https://success.outsystems.com/Support/Enterprise_Customers/Maintenance_and_Operations/Add_certificate_to_trusted_root_store_in_OutSystems_cloud)
 1. [Enable SSL/TLS](https://success.outsystems.com/Support/Enterprise_Customers/Installation/Use_your_SSL_domain_in_OutSystems_Cloud)
-1. [Enforce HTTPS security](https://success.outsystems.com/Support/Enterprise_Customers/Maintenance_and_Operations/Add_certificate_to_trusted_root_store_in_OutSystems_cloud)
+1. Enforce HTTPS security
 1. [Configure an internal network*](https://success.outsystems.com/Documentation/11/Managing_the_Applications_Lifecycle/Secure_the_Applications/Configure_an_Internal_Network)
 1. Reset credentials: target delivery 1 business day, or within 24 hours with 24x7 Support
 1. [Add database encryption](https://success.outsystems.com/Support/Enterprise_Customers/Maintenance_and_Operations/Data_Encryption_at_Rest#Securing_Data_at_Rest_on_Cloud_Database_Servers) (for some older deployments--all databases deployed since July 2021 have been encrypted by default; downtime required)
