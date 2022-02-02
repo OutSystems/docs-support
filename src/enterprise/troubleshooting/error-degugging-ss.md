@@ -11,7 +11,7 @@ When you start debugging a Reactive application in **Service Studio**, a Chrome 
 
 `There was an error loading the application for debugging. The debugging session will not continue.`
 
-![](images/error-debugging-ss.png)
+![Error message](images/error-debugging-ss.png)
 
 ## Cause
 
@@ -25,6 +25,6 @@ You can solve this problem in one of the following ways:
 
 * Go to [chrome://settings/?search=proxy](chrome://settings/?search=proxy) and click **Open your computer's proxy settings** then disable Automatically detect settings. 
 
- 
+    ![Error solution](images/error-debugging-solution.png)
 
-What does this setting do? Proxy auto-detect works via DNS queries. It finds out where to fetch JavaScript files that run on every hit that the browser loads to determine the correct way to retrieve what it needs. By disabling it, it takes less time to create the connection between Service Studio and Chrome, allowing the debug session to start successfully.
+    What does this setting do? Proxy auto-detect works via DNS queries. It finds out where to fetch JavaScript files that run on every hit that the browser loads to determine the correct way to retrieve what it needs. By disabling it, it takes less time to create the connection between Service Studio and Chrome, allowing the debug session to start successfully.
