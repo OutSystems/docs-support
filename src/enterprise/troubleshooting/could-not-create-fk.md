@@ -70,7 +70,7 @@ In the entity diagram above, on the left, the Delete Rules loop back to the tabl
 
 ### Multiple cascade paths
 
-In the entity diagram above, on the right, deleting a value from table X will ultimately cause the deletion of values in table Z, however, the database engine cannot determine which deletion should be made first: Y and consequently Z or directly Z. To avoid this situation, one of the Foreign Key relationships leading to Z should be set to “Ignore”. 
+In the entity diagram above, on the right, deleting a value from table Z will ultimately cause the deletion of values in table X, however, the database engine cannot determine which deletion should be made first: Y and consequently X or directly X. To avoid this situation, one of the Foreign Key relationships leading to X should be set to “Ignore”.
 
 ## Database timeout
 
