@@ -1,5 +1,5 @@
 ---
-summary: Identify and resolve the 
+summary: Identify and resolve the error - There was an error loading the application for debugging. The debugging session will not continue.
 tags: 
 ---
 
