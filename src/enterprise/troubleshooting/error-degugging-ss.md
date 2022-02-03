@@ -7,7 +7,7 @@ tags:
 
 ## Symptoms
 
-When you start debugging a Reactive application in **Service Studio**, a Chrome window opens with the following error message: 
+When you start debugging a Reactive application in Service Studio, a Chrome window opens with the following error message: 
 
 `There was an error loading the application for debugging. The debugging session will not continue.`
 
@@ -15,13 +15,13 @@ When you start debugging a Reactive application in **Service Studio**, a Chrome 
 
 ## Cause
 
-This error occurs when there is a delay connecting **Service Studio** and Chrome via a proxy server.
+This error occurs when there is a delay connecting Service Studio and Chrome. This delay usually occurs when the user has a proxy server configured on their machine.
 
 ## Solution
 
 You can solve this problem in one of the following ways:
 
-* Don't close the Chrome window and click the **Start Debugging** button again. The Chrome window is reused and you can start debugging on the **Debug **tab in **Service Studio**.
+* Don't close the Chrome window and click the **Start Debugging** button again. The Chrome window is reused and you can start debugging on the **Debug** tab in **Service Studio**.
 
 * Go to [chrome://settings/?search=proxy](chrome://settings/?search=proxy) and click **Open your computer's proxy settings** then disable Automatically detect settings. 
 
