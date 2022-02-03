@@ -1,4 +1,10 @@
+---
+summary:
+tags:
+---
+
 # Application Objects
+
 An Application Object (AO) is a measurement of the complexity of the applications you run on the OutSystems platform. Each **screen**, **database table**, and **API method** in your apps count as 1 AO. 
 
 ## Details on AO counting for Screens
