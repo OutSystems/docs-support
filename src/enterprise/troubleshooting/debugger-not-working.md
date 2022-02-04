@@ -8,7 +8,7 @@ Check the following sections to understand and solve different issues and errors
 
 ## The debugger hangs or stops working
 
-## Symptoms
+### Symptoms
 
 * In a debug session, the debugger never reaches a breakpoint.
 * In the middle of a debug session, the debugger just hangs.
