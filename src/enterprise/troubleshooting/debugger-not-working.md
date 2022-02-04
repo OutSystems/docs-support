@@ -14,7 +14,7 @@ Check the following sections to understand and solve different issues and errors
 * In the middle of a debug session, the debugger just hangs.
 * The debugger stops working.
 
-## Cause
+### Cause
 
 During a debug session, Service Studio contacts the environment where the app is deployed. During the session it communicates back and forth several times with the environment. To keep communications fast,  Service Studio keeps an open connection to the environment.
 
@@ -22,7 +22,7 @@ Depending on your anti-virus, firewall, or other network elements you might have
 
 And that's when the debugger hangs.
 
-## Solution
+### Solution
 
 Configure Service Studio so that it establishes a new connection for each request made to the environment.
 
