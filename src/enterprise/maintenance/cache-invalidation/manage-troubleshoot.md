@@ -160,5 +160,7 @@ Event Viewer contains messages like "Error executing PubSub jobs, X consecutive 
 
 Event Viewer contains messages like "Error executing PubSub jobs, X consecutive connections failed." 
 :   _Description_: The module cannot reach the RabbitMQ service. 
-
-    A) Follow the instructions provided in "Applications cannot reach the RabbitMQ service" to troubleshoot this issue.
+    A) Open the Configuration Tool and, in the "Cache" tab, click on "Create/Update Service" to reinstall RabbitMQ and correct any connectivity problems.
+    B) Still in the Configuration Tool, click on the "Apply and Exit" button and, when prompted, reinstall Service Center.
+    C) Then, in the Service Center, create and run an [All Components solution](<https://success.outsystems.com/Support/Enterprise_Customers/Maintenance_and_Operations/Creating_and_using_an_%22All_Components%22_solution>), which will update the RabbitMQ local data for all applications.
+    D) If the problem persists after doing the above, then follow the instructions provided in "Applications cannot reach the RabbitMQ service" to troubleshoot this issue.
