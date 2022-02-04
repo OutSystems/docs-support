@@ -136,7 +136,7 @@ Action items required to recover from an hazard event affecting a server or serv
 |---|--------------------------------------------------------------------------------------------------------|--------------------|-----|
 | 1 | Remove affected server from load balancer                                                              | Network Operations | 15m |
 | 2 | Restore virtual machine snapshot                                                                       | Server Operations  | 2h  |
-| 3 | Access the server and start all OutSystems services.                                                   | Server Operations  | 15  |
+| 3 | Access the server and start all OutSystems services.                                                   | Server Operations  | 15m |
 | 4 | Verify OutSystems status by accessing [http://localhost/ServiceCenter](http://localhost/ServiceCenter) | Server Operations  | 5m  |
 | 5 | Confirm internal application access                                                                    | Applications       | 15m |
 
@@ -172,7 +172,7 @@ Action items required to achieve full recovery.
 | 5 | Access the server and start all OutSystems services.                                                                             | Server Operations | 1h  |
 | 6 | Verify OutSystems status by accessing [http://localhost/ServiceCenter](http://localhost/ServiceCenter) from each restored server | Server Operations | 30m |
 | 7 | Verify runtime of applications and execute smoke tests                                                                           | Applications      | 1h  |
-| 8 | Unset maintenance web page and internet access test.                                                                             | Server Operations | 15  |
+| 8 | Unset maintenance web page and internet access test.                                                                             | Server Operations | 15m |
 
 
 ## More Information
