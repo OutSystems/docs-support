@@ -7,7 +7,7 @@ summary: Check how to restart OutSystems services via LifeTime in OutSystems Clo
 
 ## Overview 
 
-Should any issues with OutSystems services arise on a cloud environment, you can checkthe related errors and:
+Should any issues with OutSystems services arise on a cloud environment, you can check the related errors and:
 
 * Retry synchronization to see if it's just a communication issue.
 * Restart the OutSystems services in case they got stuck.
