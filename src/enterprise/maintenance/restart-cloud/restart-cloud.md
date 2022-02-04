@@ -28,6 +28,6 @@ On the error report you can try to sync your environment again just to see if th
 
 <div class="info" markdown="1">
 
-Clicking **Restart Services** performs an IIS reset, clears the application pools, and clears any hanging requests. In the case of multiple Front-Ends, this restart is done in a balanced way (One Front-End Server at a time).
+Clicking **Restart Services** performs an IIS reset, clears the application pools, and clears any hanging requests. In the case of multiple front-ends, this restart is balanced (front-end servers are restarted one at a time).
 
 </div>
