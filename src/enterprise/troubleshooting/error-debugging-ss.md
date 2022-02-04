@@ -1,9 +1,9 @@
 ---
-summary: Identify and resolve the error - There was an error loading the application for debugging. The debugging session will not continue.
+summary: Identify and resolve the error - There was an error loading the application for debugging. The debugging session will not continue
 tags: 
 ---
 
-# There was an error loading the application for debugging. The debugging session will not continue.
+# There was an error loading the application for debugging. The debugging session will not continue
 
 ## Symptoms
 
