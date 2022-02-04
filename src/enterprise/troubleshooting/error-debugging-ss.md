@@ -1,13 +1,13 @@
 ---
-summary: Identify and resolve the error - There was an error loading the application for debugging. The debugging session will not continue
+summary: Understand, troubleshoot and resolve an error that occurs when debugging a Reactive Web application in Service Studio
 tags: 
 ---
 
-# There was an error loading the application for debugging. The debugging session will not continue
+# Error loading the application for debugging - debugging session will not continue
 
 ## Symptoms
 
-When you start debugging a Reactive application in Service Studio, a Chrome window opens with the following error message: 
+When you start debugging a Reactive Web application in Service Studio, a Chrome window opens with the following error message: 
 
 `There was an error loading the application for debugging. The debugging session will not continue.`
 
