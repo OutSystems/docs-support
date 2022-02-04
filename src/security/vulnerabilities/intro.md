@@ -67,7 +67,8 @@ To submit a vulnerability report, use [Support Portal](https://www.outsystems.co
 Vulnerability reports must contain the following information:
 
 1. Provide a detailed vulnerability summary
-	This section must contain a summary of the vulnerability and its impact.
+
+This section must contain a summary of the vulnerability and its impact.
 	
 	**Example (not real):**
 
