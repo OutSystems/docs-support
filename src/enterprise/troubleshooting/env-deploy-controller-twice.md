@@ -16,7 +16,7 @@ In the example below, the same Front-end Server appears listed as vmrhelrbs, 192
 
 The duplication happens when the front-end server is registered with a different name than the Deployment Controller Hostname defined in Configuration Tool. The issue can happen in any version of Service Center.
 
-### Resolution
+## Resolution
 
 The name in the list of Front-End Servers must match the name configured as Deployment Controller Hostname. Do one of the following actions:
 
@@ -24,7 +24,6 @@ The name in the list of Front-End Servers must match the name configured as Depl
 
 * Change the name of the Front-end Server to match the Deployment Controller Hostname,
 
-## More information
 
-See the [Configuration Tool Help](http://www.outsystems.com/help/ConfigurationTool/9.0/) for more information.
+See the [Configuration Tool documentation](https://success.outsystems.com/Documentation/11/Reference/Configuration_Tool) for more information on its menus and options.
 
