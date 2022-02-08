@@ -320,7 +320,8 @@
             - href: enterprise/troubleshooting/mabs/troubleshoot-issues-with-mabs-6.md
             - href: enterprise/troubleshooting/mabs-troubleshooting-android.md
             - href: enterprise/troubleshooting/newtonsoft-json-error.md
-            - href: enterprise/troubleshooting/resource-nowait-specified.md   
+            - href: enterprise/troubleshooting/resource-nowait-specified.md 
+            - href: enterprise/troubleshooting/safari-browser-and-iframes.md  
             - href: enterprise/troubleshooting/service-permissions-change.md            
             - href: enterprise/troubleshooting/oracle-odp-net-issues.md
             - href: enterprise/troubleshooting/os-diag-tool.md
