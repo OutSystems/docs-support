@@ -7,6 +7,7 @@
 <li>Fixed an issue that caused the 1-Click Publish to fail with an error "Invalid compiler output. Unknown reference expression type Email" when publishing a module that references a Static Entity which has an Attribute of type Email. (RPM-1551)</li>
 <li>Fixed an issue that caused starvation of Scheduler Service activities when sandbox mode. (RPM-1577)</li>
 <li>Fixed an issue that caused the 1-Click Publish to fail with a compilation error when publishing a module that references a Static Entity which has an Attribute value that needs an implicit conversion to match the defined type.  (RPM-1653)</li>
+<li>Fixed an issue on the autocomplete that wasn't working properly when used on a text area (Richwidgets). (RPM-1715)</li>
 <li>Fixed an issue that caused the application publish operation to hang when applications definition in the database are in an invalid state. (RPM-1934)</li>
 <li>Fixed an issue that caused the Scheduler to timeout earlier than expected when running light BPT automatic processes. (RPM-1980)</li>
 <li>Improved the Tuning and Security section of the checklist (RPM-2061)</li>
