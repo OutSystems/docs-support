@@ -4,8 +4,8 @@ With the [version 2.3](https://webkit.org/blog/9521/intelligent-tracking-prevent
 
 An example of this behavior is shown below:
 
-1. An end-user logs into a portal page ([https://portal.example.com](https://portal.example.com)) which has authentication mechanisms to create first-party cookies.
-1. An **OutSystems** app in an HTML iframe ([https://app.example.net](https://app.example.net)), which is on a different domain, attempts to create third-party cookies. The Safari browser blocks all access to the domain/application that is consuming the first party cookies. The content in the iframe is not rendered.
+1. An end-user logs into a portal page `https://portal.example.com` which has authentication mechanisms to create first-party cookies.
+1. An **OutSystems** app in an HTML iframe `https://app.example.net`, which is on a different domain, attempts to create third-party cookies. The Safari browser blocks all access to the domain/application that is consuming the first party cookies. The content in the iframe is not rendered.
 
 ![Safari blocks iframe from 3rd party app](images/safari-blocks-iframe-diag.png)
 
@@ -25,7 +25,7 @@ In March 2020, Apple published a blog post ([Full Third-Party Cookie Blocking](h
 
 ### OAuth 2.0 Authorization
 
-One method requires the end-user to authenticate third-party apps (such as [https://app.example.net](https://app.example.net) in an iframe) to forward an authorization token to a hosting website which can then establish a first-party login session.
+One method requires the end-user to authenticate third-party apps (such as `https://app.example.net` in an iframe) to forward an authorization token to a hosting website which can then establish a first-party login session.
 
 For more information about implementing this solution see the following documents:
 
@@ -42,7 +42,7 @@ A second method relies on Apple’s Webkit [Storage Access API](https://webkit.o
 
 The following workflow uses Storage Access API as follows:
 
-1. A navigation/redirect moves users from a portal page ([https://portal.example.com](https://portal.example.com)) to the **OutSystems** app ([https://app.example.net](https://app.example.net)) in the iframe.
+1. A navigation/redirect moves users from a portal page `https://portal.example.com` to the **OutSystems** app `https://app.example.net` in the iframe.
 1. The user interacts with the **OutSystems** app as the first party. The example shown in the illustration prompts the user to log in and then accept the use of cookies. Once this is done, the browser knows that the user has seen and used the site. 
 1. A first-party cookie is created by the third-party app. This establishes the website in the iframe as visited for the purposes of the underlying Storage Access API cookie policy.
 
@@ -60,7 +60,7 @@ Change URLs in the code snippets to reflect the actual project addresses.
 
 #### Portal page
 
-Include the following elements on the portal page ([https://portal.example.com](https://portal.example.com)):
+Include the following elements on the portal page (`https://portal.example.com`):
 
 
 
@@ -86,7 +86,7 @@ Include the following elements on the portal page ([https://portal.example.com](
              // Set cookie to maximum (https://stackoverflow.com/a/33106316/1502448)
              document.cookie = 'fixed=fixed; expires=Tue, 19 Jan 2038 03:14:07 UTC; path=/';
              // Navigate to interaction screen at the first party. In our case, the screen with the button that created the cookie
-             window.location.replace("https://portal.example.com");
+             window.location.replace("https://app.example.com");
         }
     }
  <script>
@@ -96,16 +96,16 @@ Include the following elements on the portal page ([https://portal.example.com](
 
 #### iframe app
 
-The hosted **OutSystems** app in the iframe element ([https://app.example.net](https://app.example.net)) should begin with a mechanism for the user to authorize the use of cookies.
+The hosted **OutSystems** app in the iframe element (`https://app.example.net`) should begin with a mechanism for the user to authorize the use of cookies.
 
 
 #### Workflow
 
-When the user goes to the portal page ([https://portal.example.com](https://portal.example.com)) the following happens:
+When the user goes to the portal page (`https://portal.example.com]`) the following happens:
 
 
 
-1. The script checks that the browser supports Storage Access API, meaning that the user is on the Safari browser. Cookie properties are set. The user is then sent to the login screen in the **OutSystems** app ([https://app.example.net](https://app.example.net)) hosted in an iframe of the portal.
+1. The script checks that the browser supports Storage Access API, meaning that the user is on the Safari browser. Cookie properties are set. The user is then sent to the login screen in the **OutSystems** app (`https://app.example.net`) hosted in an iframe of the portal.
 1. If no cookies have been previously created for the app in the iframe the user is asked to give consent. 
 
     <div class="info" markdown="1">
