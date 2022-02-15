@@ -1,8 +1,21 @@
 <div class="noinclude" style="border: 3px solid red"><pre class="script">meta.googlebot("noindex");</pre></div>
 <div class="os-note os-info style-wrap"><p>This is a preliminary version of the document.</p></div>
 
+<h3>New in Platform Server 11.15.0</h3>
+<ul>
+<li>Upgraded packaged RabbitMQ to 3.9.11 and Erlang to 24.2. (R11PIT-518)</li>
+</ul>
 <h3>Bug Fixing</h3>
 <ul>
+<li>Fixed an issue that caused a native build to be triggered when there was a 1CP, in the case where there were no changes in the app and there was never any successful build. (R11PBT-122)</li>
+<li>Fixed an issue that caused the native build not to be triggered immediately when there was a 1-Click Publish and there were significant changes in the module. (R11PBT-235)</li>
+<li>Fixed an issue that caused DeployService not to undeploy modules that were deleted while the service was down. (R11PBT-410)</li>
+<li>Fixed an issue that caused the BPT's not to be launched for a certain tenant when an entity was changed from single-tenancy to multitenant. (R11PBT-443)</li>
+<li>Changes in the startup of the application. Right now the services are correctly propagated to the respective methods avoiding passing all the services. (R11PIT-481)</li>
+<li>Fixed an issue that caused compilation errors when compiling a module with an outdated UserProvider name. (R11PIT-499)</li>
+<li>Added additional telemetry in case of getting errors in the extensions upgrade process. (R11PIT-517)</li>
+<li>Added a validation to prevent the same solution being simultaneously published more than once. (R11PIT-63)</li>
+<li>Fixed an issue on the autocomplete that wasn't working properly when used on a textarea. (ROU-2709)</li>
 <li>Fixed an issue that caused records to be deleted from ossys_modulefrontend, if duplicates were found, when upgrading to PS 11.12.2 or later (RPM-1441)</li>
 <li>Fixed an issue that caused the 1-Click Publish to fail with an error "Invalid compiler output. Unknown reference expression type Email" when publishing a module that references a Static Entity which has an Attribute of type Email. (RPM-1551)</li>
 <li>Fixed an issue that caused starvation of Scheduler Service activities when sandbox mode. (RPM-1577)</li>
