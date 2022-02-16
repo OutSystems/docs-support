@@ -1,6 +1,6 @@
 ---
 summary: HIPAA compliance in OutSystems. This document describes how OutSystems can help you develop and secure your healthcare applications and data while complying with HIPAA security and privacy requirements.
-tags:
+tags: article-page
 ---
 
 # HIPAA compliance - how OutSystems can help
@@ -25,7 +25,7 @@ OutSystems applications dealing with protected health information may be subject
 Medical records and other personal health information that both:
 
 * Identifies an individual
-* Is maintained or exchanged electronically or in hard copy (e.g. photocopied or printed from the database)
+* Is maintained or exchanged electronically or in hard copy (for example, photocopied or printed from the database)
 
 HIPAA considers such personally identifiable information protected if it's possessed by a covered entity or business associate. 
 
