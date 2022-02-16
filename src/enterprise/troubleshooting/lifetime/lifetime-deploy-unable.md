@@ -62,17 +62,3 @@ Check the status of the Processes for potential issues:
 If the above validations didn't help you to solve the issue and you need further assistance, [open a support case](https://www.outsystems.com/SupportPortal/CaseOpen/) to get help from OutSystems Support.
 
 If you have a critical need to deploy an application to an environment, you can try to [deploy the application through Service Center](../deploy-apps-sc.md) as a workaround.
-
-<div class="style-wrap internal_info" if="user.groups['OutSystems']" markdown="1">
-
-If your infrastructure is on-premises (not required for OutSystems Cloud customers), make sure to attach the following information to your support case:
-
-* From **LifeTime** environment:
-    * [**Error**, **General**, and **Integrations** log files](../get-logs.md#runtime-logs) from the Service Center console
-    * [LifeTime Report](../get-logs.md#lifetime-report)
-    * [Staging report](../get-logs.md#staging-report)
-
-* From the **source** and **target** environments:
-    * [**Error**, **General**, and **Integrations** log files](../get-logs.md#runtime-logs) from the Service Center console
-
-</div>
