@@ -71,7 +71,8 @@ If the environment is a farm with additional front ends, execute the following s
 1. Copy the 'server.hsconf' file (exported from the deployment controller server on step 4.5 of the previous section) to the Platform Server directory and replace the old server.hsconf file. By default, the Platform Server directory is C:\Program Files\OutSystems\Platform Server. For backup, it's recommended to save a copy of the old file.
 1. Stop all OutSystems services.
 1. Open Configuration Tool.
-    1. Confirm that the configuration is correct by checking the result of **Test Connection** for each user under Platform, Log, and Session tabs.
+    1. In the Network tab, under Front-End Registration, if the Local IP Address option is not set as (automatic), confirm that the IP address belongs to the machine where the Configuration Tool is being run. If needed, fix this by choosing an IP address from the drop-down, choosing (automatic), or typing it manually.
+    1. Confirm that the configuration is correct by checking the result of **Test Connection** for each user under Platform, Log, and Session tabs. Additionally, make sure the correct IP address is set on the Network tab under Front-End Registration.
     1. Click on **Apply and Exit**
     1. Choose **Yes** when prompted to restart the OutSystems services.
 
