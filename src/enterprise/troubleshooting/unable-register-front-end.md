@@ -6,11 +6,14 @@ summary:
 
 ## Symptoms
 
-You are installing a farm environment (an environment with multiple front-ends) or you are adding front-ends to an existing installation.
+You are performing one of the following operations:
+* Installing a farm environment (an environment with multiple front-ends).
+* Adding front-ends to an existing environment.
+* Changing values in the Configuration Tool, without making the same change in all servers of that environment.
 
-In the new front-end, Deployment Service and/or Scheduler Service does not start.
+In the front-end, you observe that the Deployment Service and/or Scheduler Service does not start.
 
-When looking at the Event Log (.NET stack) or the DeployService.log (Java stack) you encounter an error:
+When looking at the Event Viewer Logs (.NET stack) or the DeployService.log (Java stack) you encounter the following error:
 
 --
 
