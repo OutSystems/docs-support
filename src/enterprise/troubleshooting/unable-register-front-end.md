@@ -6,10 +6,10 @@ summary:
 
 ## Symptoms
 
-You are:
-* Installing a farm environment (an environment with multiple front-ends);
-* Adding front-ends to an existing installation;
-* Changing something in the Configuration Tool, without making the same change it in all front-end servers.
+You are performing one of the following operations:
+* Installing a farm environment (an environment with multiple front-ends).
+* Adding front-ends to an existing environment.
+* Changing values in the Configuration Tool, without making the same change in all servers of that environment.
 
 In the front-end, you observe that the Deployment Service and/or Scheduler Service does not start.
 
