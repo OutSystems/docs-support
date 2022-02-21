@@ -51,7 +51,7 @@ Thus, the LB address isn't the correct one to allowlist. As a note, OutSystems C
 
 ## Connecting via VPN
  
-When the external servers are not publicly accessible, you can establish a VPN connection to the OutSystems Cloud. In that case, you'll need to allowlist the full [private IP range of your OutSystems PaaS](https://success.outsystems.com/Support/Enterprise_Customers/Maintenance_and_Operations/Find_out_Internal_IP_Address_Range_of_Your_OutSystems_Cloud) on your firewall.
+When the external servers are not publicly accessible, you can establish a VPN connection to the OutSystems Cloud. In that case, you'll need to allowlist the full [private IP range of your OutSystems Cloud](https://success.outsystems.com/Support/Enterprise_Customers/Maintenance_and_Operations/Find_out_Internal_IP_Address_Range_of_Your_OutSystems_Cloud) on your firewall.
 
 The **private** IP addresses **are not static** so it's important to allowlist the entire range.
 
