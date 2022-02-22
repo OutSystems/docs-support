@@ -196,12 +196,19 @@ To do it:
 
 1. Open a query editor tool, connect to the Platform database and execute the following SQL statement to know the names of the tables to delete the content:
 ```
-select physical_table_name from ossys_entity where name in ('ConfigIdP', 'ConfigSP', 'ConfigInternal', 'ConfigFile', 'ConfigFileBinary', 'Config_UserMappings')
+SELECT physical_table_name
+FROM ossys_entity
+WHERE name in ('ConfigIdP',
+               'ConfigSP',
+               'ConfigInternal',
+               'ConfigFile',
+               'ConfigFileBinary',
+               'Config_UserMappings')
 ```
  
 2. Truncate the content of the above tables
 ```
-truncate table [physical_table_name];
+TRUNCATE TABLE [physical_table_name];
 ```
 
 3. Reset the following Site Properties to their default values:
