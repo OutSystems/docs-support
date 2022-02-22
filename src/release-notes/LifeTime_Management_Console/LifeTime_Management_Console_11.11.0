@@ -3,15 +3,15 @@
 
 <h3>New in LifeTime Management Console 11.11.0</h3>
 <ul>
-<li>It is now possible to register and unregister environments on LifeTime through the LifeTime APIs. (R11CT-850)</li>
-<li>Updated Platform Server version for 11.14.0. (RDOI-33)</li>
+<li>It's now possible to register and unregister environments in LifeTime using the LifeTime API v2. (R11CT-850)</li>
+<li>Updated the Platform Server version to 11.14.0. (RDOI-33)</li>
 </ul>
 <h3>Bug Fixing</h3>
 <ul>
 <li>Fixed an issue that caused a recursive iteration exception when accessing the Application list or Application Detail screens. (R11CT-842)</li>
 <li>Fixed an issue that cause the IsOutSystemsCloud variable to return a wrong value when fetching from the DB after running the BootsatrpPlugin timer from LifeTimeCloudConnect (RPM-1231)</li>
-<li>Fixed a performance issue in team synchronization. (RPM-2013)</li>
-<li>Fixed an issue that caused a staging process to fail when setting a deployment zone to a new app in the target environment marked as 'Do Nothing'. (RPM-2112)</li>
-<li>Fixed an issue that caused the Top Browsers card on the Analytics screen retrieve an empty list when clicking on the pagination buttons for the card. (RPM-2121)</li>
+<li>Fixed a performance issue in Teams' synchronization. (RPM-2013)</li>
+<li>Fixed an issue that caused a deployment to fail when the deployment plan included a new app with the staging option set to "Do Nothing" and that app required the selection of a deployment zone in the target environment. (RPM-2112)</li>
+<li>Fixed an issue that caused the Top Browsers card on the Analytics screen to retrieve an empty list when clicking the pagination buttons for the card. (RPM-2121)</li>
 </ul>
 
