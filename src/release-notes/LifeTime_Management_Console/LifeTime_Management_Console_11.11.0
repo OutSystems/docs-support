@@ -9,7 +9,6 @@
 <h3>Bug Fixing</h3>
 <ul>
 <li>Fixed an issue that caused a recursive iteration exception when accessing the Application list or Application Detail screens. (R11CT-842)</li>
-<li>Fixed an issue that cause the IsOutSystemsCloud variable to return a wrong value when fetching from the DB after running the BootsatrpPlugin timer from LifeTimeCloudConnect (RPM-1231)</li>
 <li>Fixed a performance issue in Teams' synchronization. (RPM-2013)</li>
 <li>Fixed an issue that caused a deployment to fail when the deployment plan included a new app with the staging option set to "Do Nothing" and that app required the selection of a deployment zone in the target environment. (RPM-2112)</li>
 <li>Fixed an issue that caused the Top Browsers card on the Analytics screen to retrieve an empty list when clicking the pagination buttons for the card. (RPM-2121)</li>
