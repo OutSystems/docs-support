@@ -188,6 +188,114 @@ To do it:
 Note that if you don't change the Database Connection you will incur an integrity constraint error related to the OSSYS_EXTENSION_DBCONNECTION.
 </div>
 
+#### ​Clean up SAML configuration
+
+Because the SAML configuration is encrypted using the private.key you need to delete the current configuration from the database, reset the authentication settings and configure the SAML again after the database migration.
+
+To do it: 
+
+1. Open a query editor tool, connect to the Platform database and execute the following SQL statement to know the names of the tables to delete the content:
+```
+select physical_table_name from ossys_entity where name in ('ConfigIdP', 'ConfigSP', 'ConfigInternal', 'ConfigFile', 'ConfigFileBinary', 'Config_UserMappings')
+```
+ 
+2. Truncate the content of the above tables
+```
+truncate table [physical_table_name];
+```
+
+3. Reset the following Site Properties to their default values:
+
+* UseActiveDirectoryLogin = False
+* UseLDAPLogin = False
+* UseLDAPStandard = True
+* UseSAMLLogin = False
+* UseIntegratedAuthenticationLogin = False
+
+##### SQL Server
+```
+UPDATE ossys_Site_Property
+SET PROPERTY_VALUE=pd.DEFAULT_VALUE,
+    User_Modified=0
+FROM ossys_Site_Property_Definition pd
+INNER JOIN ossys_Site_Property ON pd.ID=SITE_PROPERTY_DEFINITION_ID
+AND User_Modified<>0
+AND pd.ESPACE_ID=
+  (SELECT ID
+   FROM ossys_Espace
+   WHERE NAME='Users')
+AND NAME in ('UseActiveDirectoryLogin',
+             'UseLDAPLogin',
+             'UseLDAPStandard',
+             'UseSAMLLogin',
+             'UseIntegratedAuthenticationLogin');
+
+
+UPDATE ossys_Site_Property_Shared
+SET PROPERTY_VALUE=pd.DEFAULT_VALUE,
+    User_Modified=0
+FROM ossys_Site_Property_Definition pd
+INNER JOIN ossys_Site_Property_Shared ON pd.ID=SITE_PROPERTY_DEFINITION_ID
+AND User_Modified<>0
+AND pd.ESPACE_ID=
+  (SELECT ID
+   FROM ossys_Espace
+   WHERE NAME='Users')
+AND NAME in ('UseActiveDirectoryLogin',
+             'UseLDAPLogin',
+             'UseLDAPStandard',
+             'UseSAMLLogin',
+             'UseIntegratedAuthenticationLogin');
+```
+
+##### Oracle
+```
+UPDATE
+  (SELECT ossys_Site_Property.PROPERTY_VALUE AS OLD,
+          pd.DEFAULT_VALUE AS NEW
+   FROM ossys_Site_Property
+   INNER JOIN ossys_Site_Property_Definition pd ON pd.ID=SITE_PROPERTY_DEFINITION_ID
+   AND User_Modified<>0
+   AND pd.ESPACE_ID=
+     (SELECT ID
+      FROM ossys_Espace
+      WHERE NAME='Users')
+   AND NAME in ('UseActiveDirectoryLogin',
+                'UseLDAPLogin',
+                'UseLDAPStandard',
+                'UseSAMLLogin',
+                'UseIntegratedAuthenticationLogin')) t
+SET t.OLD = t.NEW;
+
+
+UPDATE
+  (SELECT ossys_Site_Property_shared.PROPERTY_VALUE AS OLD,
+          pd.DEFAULT_VALUE AS NEW
+   FROM ossys_Site_Property_shared
+   INNER JOIN ossys_Site_Property_Definition pd ON pd.ID=SITE_PROPERTY_DEFINITION_ID
+   AND User_Modified<>0
+   AND pd.ESPACE_ID=
+     (SELECT ID
+      FROM ossys_Espace
+      WHERE NAME='Users')
+   AND NAME in ('UseActiveDirectoryLogin',
+                'UseLDAPLogin',
+                'UseLDAPStandard',
+                'UseSAMLLogin',
+                'UseIntegratedAuthenticationLogin')) t
+SET t.OLD = t.NEW;
+
+COMMIT;
+```
+
+4. Configure the external authentication in the Users module again after the database migration.
+
+<div class="warning" markdown="1">
+Note that if you don't follow these steps you will not be able to log in to your applications in the new environment.
+</div>
+
+
+
 #### Clean up an environment managed by LifeTime
 
 When an environment is managed by LifeTime and its database is restored, LifeTime configurations need to be cleaned up. These configurations are used by LifeTime to identify the environment; keeping them in the cloned Platform database will cause misbehaviors in LifeTime.
@@ -253,6 +361,7 @@ select 'update ' + physical_table_name + ' set isactive=0' from ossys_entity inn
 ***
 3. Optionally, you can disable LifeTime from the environment to ensure it is no longer accessible. Simply go to Service Center, click the ‘Factory’ tab and in the application list click on the ‘LifeTime’ application. Once you are in the LifeTime details, click the ‘Take Offline’ button.
 ***
+
 
 ### Fresh Installation Using a Restored Database
 
