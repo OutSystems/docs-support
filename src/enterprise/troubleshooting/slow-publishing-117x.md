@@ -1,13 +1,15 @@
 ---
-summary: 
+summary: Known issue that causes slow publishing in Platform Server versions 11.7.x. Check the causes, the mitigation, and the resolution.
 ---
 
 
 # Slow publishing in OutSystems 11.7.x
 
+There's a known issue in Platform Server versions 11.7.x that causes publishing to be slower in some circunstances. The issue was solved in Platform Server 11.8.0 and above. If you're upgrading the Platform Server, we advise using the latest version available.
+
 ## Symptoms
 
-One of the following becomes slower after an update / upgrade to OutSystems version 11.7.x
+One of the following becomes slower after an upgrade to OutSystems version 11.7.x
 
 * Solution publishing in ServiceCenter
 
@@ -21,7 +23,7 @@ When compared to publishing prior to the upgrade, the duration increased by 20% 
 
 The problem manifests if the following combination of factors occurs in the target environment (all conditions must apply):
 
-1. On-premises installations;
+1. Self-managed installations;
 
 2. Running Platform Server 11.7.x;
 
@@ -29,9 +31,9 @@ The problem manifests if the following combination of factors occurs in the targ
 
 4. The [deployment zone address](https://success.outsystems.com/Documentation/11/Managing_the_Applications_Lifecycle/Deploy_Applications/Selective_Deployment_Using_Deployment_Zones/Deployment_Zones_Reference) is the load balancer's hostname
 
-**PaaS customers are not affected**
+**OutSystems Cloud customers are not affected**
 
-### Confirm that you are affected
+### Confirm that you're affected
 
 1. **Confirm the bottleneck on the Deployment phase**
 
@@ -100,5 +102,5 @@ insert into ossys_parameter (name, VAL) VALUES ('Compiler.UseFrontEndAddressRefr
 
 #### Resolution
 
-None is available at the moment. Version 11.8.0 is expected to include a fix for this problem (check the [planned dates](https://success.outsystems.com/Support/Enterprise_Customers/Upgrading/OutSystems_Release_Cycle#Planned_dates_for_OutSystems_11)). Please check the presence the of the reference RPC-871 on our [Release Notes](https://success.outsystems.com/Support/Release_Notes)
+Platform Server version 11.8.0 includes the fix for this problem. The fix is identified with the reference RPD-4770 on our [Release Notes](https://success.outsystems.com/Support/Release_Notes/11/Platform_Server).
 
