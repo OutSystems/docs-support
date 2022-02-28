@@ -5,7 +5,7 @@ tags:
 
 # Application Objects
 
-An Application Object (AO) is a measurement of the complexity of the applications you run on the OutSystems platform. Each **screen**, **database table**, and **API method** in your apps count as 1 AO. 
+An Application Object (AO) is a measurement of the complexity of the applications you run on the OutSystems platform. Each **screen**, **entity/database table**, and **API method** in your apps count as 1 AO. 
 
 ## Details on AO counting for Screens
 * Web screens, email screens, and mobile web screens each count as 1 AO. 
@@ -14,9 +14,9 @@ An Application Object (AO) is a measurement of the complexity of the application
 * Tabs and pop-up windows created as distinct screens in Service Studio, such as with traditional web apps, count as 1 AO for each screen. 
 * Tooltips do not contribute to the AO count.
 
-## Details on AO counting for Database Tables
-* Tables you create within the OutSystems platform database each count as 1 AO.
-* Tables you import from external databases for use in your app each count as 1 AO.
+## Details on AO counting for Entities/Database Tables
+* Entities you create within the OutSystems platform database (each entity is a database table) each count as 1 AO.
+* Entities you import from external databases (e.g., a table or a view) for use in your app each count as 1 AO.
 * Entities using local storage, such as for use with mobile apps, each count as 1 AO.
 * Tables created by the OutSystems platform, such as the Users table where end user information is stored, do not contribute to the AO count.
 
