@@ -69,7 +69,7 @@ You have the flexibility to choose which environments should have dedicated data
 
 #### Integration with external databases
 
-To build your apps on top of existing data, OutSystems integrates natively with major database systems: SQL Server, SQL Azure, Oracle, MySQL, and DB2 iSeries.
+To build your apps on top of existing data, OutSystems integrates natively with major database systems: SQL Server, SQL Azure, Oracle, MySQL, PostgreSQL and DB2 iSeries.
 It also has a database integration SDK, so that organizations can integrate with a database of choice. Developers can combine local and external data sources without spending much time on complex integration projects.
 
 
