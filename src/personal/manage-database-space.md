@@ -14,14 +14,18 @@ Personal environments have a database limit of 2GB. The database stores the foll
 
 Go to your personal environment at `https://<yourpersonal>.outsystemscloud.com` and navigate to the **Environments** tab.
 
-![](images/manage-database-space_0.png)
+![Environments page, showing information about Development, Servers and Database.](images/manage-database-space_0.png)
 
 In this example only 13% of the available database storage space is being used.
 
-To check how much space is being used for system data and application data,click the **View details** link.
+To check how much space is being used for system data and application data, click the **View details** link.
 
-![](images/manage-database-space_1.png)
+![Details about Database Usage, with metrics for System Data and Application Data.](images/manage-database-space_1.png)
+
+<div class="info" markdown="1">
 
 Note that these metrics are updated every hour, so they might not represent the actual space you are using at the moment.
+
+</div>
 
 To clear database space in your Personal Environment, see [Best practices for a tidy and clean environment](https://success.outsystems.com/Documentation/Best_Practices/Lifecycle/Best_practices_for_a_tidy_and_clean_environment).
