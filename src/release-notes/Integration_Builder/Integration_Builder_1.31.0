@@ -7,7 +7,7 @@
 </ul>
 <h3>Bug Fixing</h3>
 <ul>
-<li>Fixed an issue that was causing an error message "IntegrationBuilderUser role required". This error message was displayed when users clicked action buttons after their session had expired. (RCNT-4444)</li>
+<li>Fixed an issue that caused an "IntegrationBuilderUser role required" error message. This error message appeared after clicking an action button after your session expired. (RCNT-4444)</li>
 <li>Fixed an issue that was causing an error message "Missing value for mandatory input". The message was displayed when an Integration Builder dependency didn't have the version number in its description. (RCNT-4557)</li>
 <li>Fixed an issue that caused errors when generating Microsoft Dataverse or Dynamics 365 integrations during the publishing process.
 Breaking change: For Dataverse/Dynamics 365 integrations, the static entities that listed all entity attributes will now only list readable attributes. (RCNT-4580)</li>
