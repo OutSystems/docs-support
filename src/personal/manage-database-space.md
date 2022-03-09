@@ -1,18 +1,18 @@
 ---
-summary: Personal environments can store up to 2GB on the database. This includes system and application data. Learn what you can do to take the most of it.
+summary: Personal Environments can store up to 2GB on the database. This includes system and application data. Learn what you can do to take the most of it.
 ---
 
 # Manage the database space of your personal environment
 
-Personal environments have a database limit of 2GB. The database stores the following : 
+Personal Environments have a database limit of 2GB. The database stores the following: 
 
-* **System data**: The metadata used by the OutSystems Platform. This includes, for example, the applications definition, data model, module configurations, logs, and application versions. The system data usually increases as you develop and deploy your applications.
+* **System data**: The metadata used by the OutSystems Platform. This includes, for example, the apps definition, data model, module configurations, logs, and app versions. The system data usually increases as you develop and deploy your app.
 
-* **Application data**: The data your applications generate and manipulate. The application data usually increases as your users access your applications.
+* **Application data**: The data your apps generate and manipulate. The application data usually increases as your users access your apps.
 
 ## Check how much database space you have
 
-Go to your personal environment at `https://<yourpersonal>.outsystemscloud.com` and navigate to the **Environments** tab.
+Go to your Personal Environment at `https://<yourpersonal>.outsystemscloud.com` and navigate to the **Environments** tab.
 
 ![Environments page, showing information about Development, Servers and Database.](images/manage-database-space_0.png)
 
@@ -24,7 +24,7 @@ To check how much space is being used for system data and application data, clic
 
 <div class="info" markdown="1">
 
-Note that these metrics are updated every hour, so they might not represent the actual space you are using at the moment.
+Note that these metrics are updated every hour, so they might not represent the actual space you're using at the moment.
 
 </div>
 
