@@ -51,7 +51,7 @@ While the modules preparation step is in progress, Service Center notifies you t
 
 ![Modules preparation step in progress (Service Center)](images/module-preparation-progress-sc.png)
 
-To see the details of the modules preparation step, click the link **Click here for more details** on the blue banner, or the link **More details** on the sidebar:
+To see the details of the modules preparation step, click the link **Click here to learn more** on the blue banner, or the link **More details** on the sidebar:
 
 ![Modules preparation step progress details (Service Center)](images/module-preparation-detail-sc.png)
 
