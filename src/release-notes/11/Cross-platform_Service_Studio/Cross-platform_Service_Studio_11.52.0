@@ -4,6 +4,7 @@
 <h3>New in Cross-platform Service Studio 11.52.0</h3>
 <ul>
 <li>It is now possible to export the definition files from a consumed SOAP Web Service. (R11DT-911)</li>
+<li>Service Studio is not be able to connect to Project Neo anymore. Service Studio Project Neo should be used instead. (RDEV-3959)</li>
 <li>Enabled zoom capabilities in logic flows and entities diagram. (RDOIAT-324)</li>
 <li>Improved overall memory consumption. (RDOIAT-474)</li>
 <li>Improved the experience of using copy, paste, cut, and delete keyboard shortcuts when editing text in Service Studio. For more information about keyboard shortcuts, go to Help -> Keyboard Shortcuts in Service Studio. (RDOIBT-206)</li>
