@@ -1,10 +1,45 @@
 ---
 tags: runtime-mobileandreactiveweb;  
-summary: Known issue with Safari browser blocking third-party cookies in iframes by default.
+summary: Troubleshooting OutSystems apps on iOS devices, including a known issue with Safari browser blocking third-party cookies in iframes by default.
 ---
-# Known issue - Safari browser blocks OutSystems apps in iframes
+# Troubleshooting OutSystems apps on iOS devices
 
-With the [version 2.3](https://webkit.org/blog/9521/intelligent-tracking-prevention-2-3/) release of Apple’s Webkit Intelligent Tracking Prevention (ITP) in 2017, the Safari browser blocks all cookies for cross-site resources by default. This means that users of Safari on iOS 13 and iPadOS beta, and Safari 13 on macOS, cannot access a reactive **OutSystems** app  that is hosted on a different domain which is embedded in an iframe element.
+Since the release of [MABS version 6.0](https://success.outsystems.com/Support/Release_Notes/Mobile_Apps_Build_Service/MABS_Version_6.0), **OutSystems** mobile apps require a custom scheme in iOS in order to
+
+* Enable offline support with WKWebView
+* Navigate to other **OutSystems** mobile applications
+* Access other **OutSystems** mobile applications with InAppBrowser 
+
+For Android and InAppBrowser windows, **OutSystems** native mobile apps run under the `https://` scheme. On iOS the `outsystems://` scheme is used.
+
+Since `outsystems://` is a custom scheme, it must be specifically added to the authorization list. To embed an app in an iframe on an **OutSystems** native mobile app, add the following to the **frame-ancestors** directive field:
+
+```
+outsystems://YOUR_APP_URL
+https://YOUR_APP_URL
+```
+
+## Common problems with embedded iframes in iOS apps
+
+### iframe content is blocked
+
+If iframe content displays as expected on Android on a browser but not on iOS, the most probable cause is that the custom `outsystems://` scheme is missing.
+
+Add the following to the **frame-ancestors** directive field:
+
+```
+outsystems://YOUR_APP_URL
+https://YOUR_APP_URL
+```
+
+You can get more information if you notice this behavior from the **Service Center**  [monitoring page](#monitoring). You can identify the issue by searching the **Interrupting main resource load due to CSP frame-ancestors or X-Frame-Options** error log.
+
+
+### iframe content is displayed but does not behave as expected
+
+With the [version 2.3](https://webkit.org/blog/9521/intelligent-tracking-prevention-2-3/) release of Apple’s Webkit Intelligent Tracking Prevention (ITP) in 2017, Safari on iOS 13 and iPadOS beta, and Safari 13 on macOS, blocks all cookies for cross-site resources by default.
+
+In these browsers iframe content displays correctly when the **frame-ancestors** directive field has been configured properly. However, an app that requires cookies to save or transfer user info will not behave as expected.
 
 An example of this behavior is shown below:
 
@@ -13,34 +48,27 @@ An example of this behavior is shown below:
 
 ![Safari blocks iframe from 3rd party app](images/safari-blocks-iframe-diag.png)
 
-## Background information
-
-First-party cookies are created by the domain a user is visiting; they keep the session open and store relevant information. Third-party cookies are created by other domains, typical uses being social media buttons and chat popups.
-
-Since third-party cookies have also been exploited for [login fingerprinting](https://blog.jeremiahgrossman.com/2008/03/login-detection-whose-problem-is-it.html) and[ cross-site request forgery](https://en.wikipedia.org/wiki/Cross-site_request_forgery), major browsers, including Chrome and Firefox, give users the option to restrict access to cross-site resources. Safari blocks them by default.
+<div class="info" markdown="1">
 
 You can read more about this issue in the [Safari Blocks Third-Party Cookies by Default](https://www.infoq.com/news/2020/04/safari-third-party-cookies-block/) InfoQ newsletter.
 
-
-## Implementing the Apple Webkit solution
+</div>
 
 In March 2020, Apple published a blog post ([Full Third-Party Cookie Blocking](https://webkit.org/blog/10218/full-third-party-cookie-blocking-and-more/)) that suggested two workarounds to address developer concerns about legitimate third-party cookies, such as those used by **OutSystems** to store login and session information. 
 
 
-### OAuth 2.0 Authorization
+#### OAuth 2.0 Authorization
 
 One method requires the end-user to authenticate third-party apps (such as `https://app.example.net` in an iframe) to forward an authorization token to a hosting website which can then establish a first-party login session.
 
 For more information about implementing this solution see the following documents:
 
-
-
 * [OAuth 2.0 Authorization](https://tools.ietf.org/html/rfc6749) 
-* [Secure and HttpOnly cookie](https://developer.mozilla.org/en-US/docs/Web/HTTP/Cookies#Secure_and_HttpOnly_cookies)
+* [Using HTTP Cookies](https://developer.mozilla.org/en-US/docs/Web/HTTP/Cookies#Secure_and_HttpOnly_cookies)
 * [Manage cookies and website data in Safari on Mac](https://support.apple.com/en-gb/guide/safari/sfri11471/mac)
 
 
-### Storage Access API
+#### Storage Access API
 
 A second method relies on Apple’s Webkit [Storage Access API](https://webkit.org/blog/11545/updates-to-the-storage-access-api/) that protects end-user privacy and prevents cross-site request forgeries by asking users to consent to giving access to their cookies from one domain to another.
 
@@ -63,7 +91,7 @@ Change URLs to reflect actual project addresses.
 </div>
 
 
-#### Portal page
+##### Portal page
 
 Include the following elements on the portal page (`https://portal.example.com`):
 
@@ -95,7 +123,8 @@ Include the following elements on the portal page (`https://portal.example.com`)
     }
  <script>
 ```
-#### iframe app
+
+##### iframe app
 
 The hosted **OutSystems** app in the iframe element (`https://app.example.net`) should begin with a mechanism for the user to authorize the use of cookies.
 
