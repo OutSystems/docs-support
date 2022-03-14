@@ -22,7 +22,7 @@ OutSystems is open by design. All application layers—front-end, back-end, data
 
 ## Extensions
 
-OutSystems provides out-of-the-box capabilities to integrate with external databases such as SQL Server, Oracle, MySQL, and iDB2, as well as a myriad of enterprise systems of record (SoR), including SAP, Salesforce, Microsoft Dynamics 365, Microsoft Dataverse, and Sharepoint Online.  
+OutSystems provides out-of-the-box capabilities to integrate with external databases such as SQL Server, Oracle, MySQL, PostgreSQL and iDB2, as well as a myriad of enterprise systems of record (SoR), including SAP, Salesforce, Microsoft Dynamics 365, Microsoft Dataverse, and Sharepoint Online.  
 
 For other external systems OutSystems provides [Integration Studio](https://success.outsystems.com/Documentation/11/Reference/Integration_Studio), a design environment where developers with programming skills can create [extensions](https://success.outsystems.com/Documentation/11/Extensibility_and_Integration/Extend_Logic_with_Your_Own_Code/Extension_Life_Cycle/Create_an_Extension) to bridge custom C# and .NET to OutSystems, expanding and enhancing its existing functionality and data model.
 
@@ -96,7 +96,7 @@ By [importing a library into an application](https://success.outsystems.com/Docu
 
 ## Extending the back-end
 
-OutSystems provides out-of-the-box capabilities to integrate with SQL Server, SQL Azure, Oracle, MySQL, and DB2 iSeries so developers can combine local and external data sources in minutes. And, by invoking [Integration Builder](https://www.outsystems.com/platform/integration-builder/) from Service Studio, developers click through a configuration process to connect with external systems of reccord such as SAP, Salesforce, Microsoft Dynamics, Microsoft Dataverse, and Sharepoint Online. 
+OutSystems provides out-of-the-box capabilities to integrate with SQL Server, SQL Azure, Oracle, MySQL, PostgreSQL, Aurora PostgreSQL and DB2 iSeries so developers can combine local and external data sources in minutes. And, by invoking [Integration Builder](https://www.outsystems.com/platform/integration-builder/) from Service Studio, developers click through a configuration process to connect with external systems of reccord such as SAP, Salesforce, Microsoft Dynamics, Microsoft Dataverse, and Sharepoint Online. 
 
 OutSystems simplifies the task of consuming and exposing functionality as standard SOAP web services and REST APIs without any hand-coding. More complex enterprise integration scenarios that require MQSeries, TIBCO, BizTalk, and other middleware ESBs, can be accomplished using web services.
 
@@ -199,7 +199,7 @@ There are numerous extensions that use the SAP Extensibility API that you can br
 
 ### Integrating external data
 
-OutSystems connects, out-of-the-box, to SQL Server, SQL Azure, Oracle, MySQL, and DB2 iSeries so developers can combine local and external data sources in minutes on complex integration projects.
+OutSystems connects, out-of-the-box, to SQL Server, SQL Azure, Oracle, MySQL, PostgreSQL, Aurora PostgreSQL and DB2 iSeries so developers can combine local and external data sources in minutes on complex integration projects.
 
 The OutSystems visual editor allows development teams to [query and aggregate data visually](https://success.outsystems.com/Documentation/11/Developing_an_Application/Use_Data/Query_Data/Fetch_and_Display_Data_from_the_Database) so developers with any skill set can work with the complex data needed for any application.
 
@@ -211,7 +211,7 @@ OutSystems continually tracks all of the dependencies to the underlying database
 
 #### Integration with external databases
 
-If an external database is natively supported by OutSystems (SQL Server, SQL Azure, Oracle, MySQL, and DB2 iSeries), a developer can [create a connector](https://success.outsystems.com/Documentation/11/Extensibility_and_Integration/Integrate_with_an_External_Database) to integrate with it. Connectors enable teams to manipulate data in the visual editor.
+If an external database is natively supported by OutSystems (SQL Server, SQL Azure, Oracle, MySQL, PostgreSQL, Aurora PostgreSQL and DB2 iSeries), a developer can [create a connector](https://success.outsystems.com/Documentation/11/Extensibility_and_Integration/Integrate_with_an_External_Database) to integrate with it. Connectors enable teams to manipulate data in the visual editor.
 
 An on-premises database that isn't natively supported can be accessed, using [standard code](https://success.outsystems.com/Documentation/11/Extensibility_and_Integration/Extend_Logic_with_Your_Own_Code), with ODBC/JDBC drivers, or with native APIs. Developers can access big data repositories, such as CouchDB, MongoDB, or Hadoop, using their REST APIs.
 

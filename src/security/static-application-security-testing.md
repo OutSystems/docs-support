@@ -67,7 +67,7 @@ More information can be found [here](develop-secure-apps/code-injection-css-atta
 
 **Details**: Static code analysis tools typically raise a flag when the *password* word is anywhere in the code.
 
-The files where this flag is normally raised are, SQL Server, Oracle, and DB2 database connectors. None of these files have hard-coded passwords, but they do have variables named password. All values for the password variables are obtained dynamically.
+The files where this flag is normally raised are, SQL Server, Oracle, PostgreSQL and DB2 database connectors. None of these files have hard-coded passwords, but they do have variables named password. All values for the password variables are obtained dynamically.
 
 This can be verified using decompiler tools and inspect the flagged DLL files to confirm that there are no hard-coded passwords there.
 
