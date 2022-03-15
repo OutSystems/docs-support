@@ -384,7 +384,6 @@
     - topics:
         - href: forge/forge-overview.md
         - href: forge/share-project.md
-        - href: forge/install-project.md
         - href: forge/review-project.md
         - href: forge/curate-project.md
         - topics:
