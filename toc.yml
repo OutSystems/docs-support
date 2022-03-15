@@ -308,7 +308,6 @@
             - href: enterprise/troubleshooting/error-accessing-app-windows-token.md
             - href: enterprise/troubleshooting/mgmt-console-not-authorized.md
             - href: enterprise/troubleshooting/lifetime/lifetime-register-env-error.md
-            - href: enterprise/troubleshooting/more-information-troubleshooting.md
             - href: enterprise/troubleshooting/problems-logging-integrated-auth.md
             - href: enterprise/troubleshooting/get-logs.md          
             - href: enterprise/troubleshooting/information-logged.md
