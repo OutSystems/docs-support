@@ -269,7 +269,6 @@
             - href: enterprise/upgrade/ui-migration-guide/migration-reference-tables.md
 
         - href: enterprise/upgrade/organize-modules-applications.md
-        - href: enterprise/upgrade/previous-version-number-format.md
         - href: enterprise/upgrade/updating-lifetime-analytics.md
 
         # Updating auth flows for supporting SAML 2.0        
