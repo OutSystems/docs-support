@@ -43,7 +43,18 @@ We'll contact you if we need more information, or if this implies changes to you
 
 ## On self-managed environments
 
-On the environments you manage, follow a standard server instalation:
+<div class="info" markdown="1">
+
+When adding a new front-end server to your environment, make sure that:
+
+* There are no ongoing deployments or solution publishes.
+* There are no prepared deployments to continue, in case you have [two-stage deployments](https://success.outsystems.com/Documentation/11/Managing_the_Applications_Lifecycle/Deploy_Applications/Deploy_in_a_Short_Deployment_Window) enabled in the environment.
+
+Having ongoing or prepared deployments when adding a new front-end server might prevent the correct deployment of the modules.
+
+</div>
+
+On the environments you manage, follow a standard server installation:
 
 1. Make sure all the [Installation prerequisites](https://success.outsystems.com/Documentation/11/Setting_Up_OutSystems#Installation_prerequisites) are met.
 1. Download the Platform Server installation binaries. Make sure you download the same version that's already running on the other servers of the environment.
