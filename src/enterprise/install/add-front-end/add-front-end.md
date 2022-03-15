@@ -54,6 +54,10 @@ On the environments you manage, follow a standard server instalation:
         * For all other versions, choose the **Front-end Server** role
     * Select the applicable operating system and database software options
 
+<div class="info" markdown="1">
+Make sure the new server is a clean Platform Server installation and does not contain settings from previous OutSystems installations. Otherwise, a recompilation of all the modules in the factory might be required.
+</div>
+
 ### Use automation to add new front ends
 
 It's possible to automate horizontal scalability using OutSystems unattended installation commands. The complete instructions can be found at [this document](https://success.outsystems.com/Documentation/11/Setting_Up_OutSystems/Unattended_Installation_and_Upgrade#Adding_a_Front-End).
