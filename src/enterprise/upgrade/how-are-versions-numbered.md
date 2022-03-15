@@ -31,8 +31,6 @@ This number identifies a specific build and is unique for each OutSystems compon
 
 In most scenarios, the version is identified by the three first numbers: **[Major].[Feature].[Patch]**. However, in some cases, you need to identify a very specific build and, in this case, you should use the three numbers and the build ID.
 
-**Note:** All the latest OutSystems 11 releases follow the new version number format. Check [this page](https://success.outsystems.com/Support/Enterprise_Customers/Upgrading/Previous_version_number_format) for more information on the version number format used in older OutSystems 11 releases, as well as in all OutSystems version 10 releases.
-
 ### Example
 
 The following table illustrates the usage of version numbers in 3 different types of releases:
