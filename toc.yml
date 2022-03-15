@@ -234,7 +234,6 @@
         - href: enterprise/upgrade/upgrade-platform-errors.md
         - href: enterprise/upgrade/balanced-upgrade-highly-loaded-farms.md
         - href: enterprise/upgrade/how-are-versions-numbered.md
-        - href: enterprise/upgrade/increase-computing-power-infrastructure.md
         - href: enterprise/upgrade/client-data-transfer-optimization-tp.md
         - href: enterprise/upgrade/try-newer-react-runtime-tp.md
 
