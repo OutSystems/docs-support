@@ -310,7 +310,6 @@
             - href: enterprise/troubleshooting/lifetime/lifetime-register-env-error.md
             - href: enterprise/troubleshooting/more-information-troubleshooting.md
             - href: enterprise/troubleshooting/problems-logging-integrated-auth.md
-            - href: enterprise/troubleshooting/badlock-vulnerability.md
             - href: enterprise/troubleshooting/get-logs.md          
             - href: enterprise/troubleshooting/information-logged.md
             - href: enterprise/troubleshooting/attributes-limited-sqlite.md
