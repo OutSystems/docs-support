@@ -55,7 +55,7 @@ On the environments you manage, follow a standard server instalation:
     * Select the applicable operating system and database software options
 
 <div class="info" markdown="1">
-Make sure the new server is a clean Platform Server installation and does not contain settings from previous OutSystems installations. Otherwise, a recompilation of all the modules in the factory might be required.
+Make sure the new server is a clean Platform Server installation and does not contain settings or application deployments from previous OutSystems installations. Otherwise, a recompilation of all the modules in the factory might be required, or the deployment of new applications may fail.
 </div>
 
 ### Use automation to add new front ends
