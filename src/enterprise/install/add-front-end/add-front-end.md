@@ -19,9 +19,22 @@ As well as providing [high availability](https://www.outsystems.com/evaluation-g
 * Volume of batch processing
 * Data volume or number of transactions
 
-## Add a front-end on OutSystems Cloud
+## Add a new front-end server
 
-### Pre requirements
+<div class="info" markdown="1">
+
+When adding a new front-end server to your environment, make sure that:
+
+* There are no ongoing deployments or solution publishes.
+* There are no prepared deployments to continue, in case you have [two-stage deployments](https://success.outsystems.com/Documentation/11/Managing_the_Applications_Lifecycle/Deploy_Applications/Deploy_in_a_Short_Deployment_Window) enabled in the environment.
+
+Having ongoing or prepared deployments when adding a new front-end server might prevent the correct deployment of the modules.
+
+</div>
+
+### On OutSystems Cloud
+
+#### Pre requirements
 
 * This option is available only for production environments.
 * You'll need to have the Administrator role assigned in LifeTime.
@@ -41,18 +54,7 @@ The new front-end server will be automatically provisioned in the next 90 minute
 
 We'll contact you if we need more information, or if this implies changes to your subscription.
 
-## On self-managed environments
-
-<div class="info" markdown="1">
-
-When adding a new front-end server to your environment, make sure that:
-
-* There are no ongoing deployments or solution publishes.
-* There are no prepared deployments to continue, in case you have [two-stage deployments](https://success.outsystems.com/Documentation/11/Managing_the_Applications_Lifecycle/Deploy_Applications/Deploy_in_a_Short_Deployment_Window) enabled in the environment.
-
-Having ongoing or prepared deployments when adding a new front-end server might prevent the correct deployment of the modules.
-
-</div>
+### On self-managed environments
 
 On the environments you manage, follow a standard server installation:
 
@@ -65,11 +67,11 @@ On the environments you manage, follow a standard server installation:
         * For all other versions, choose the **Front-end Server** role
     * Select the applicable operating system and database software options
 
-### Use automation to add new front ends
+#### Use automation to add new front ends
 
 It's possible to automate horizontal scalability using OutSystems unattended installation commands. The complete instructions can be found at [this document](https://success.outsystems.com/Documentation/11/Setting_Up_OutSystems/Unattended_Installation_and_Upgrade#Adding_a_Front-End).
 
-### OutSystems on Microsoft Azure
+#### OutSystems on Microsoft Azure
 
 If you're using [OutSystems solution template for Microsoft Azure Marketplace](https://success.outsystems.com/Documentation/11/Setting_Up_OutSystems/OutSystems_on_Microsoft_Azure), you can take advantage of Azure scale sets for horizontal scalability. For complete instructions, check [Using Azure scale sets](https://success.outsystems.com/Documentation/11/Setting_Up_OutSystems/OutSystems_on_Microsoft_Azure/Additional_Configurations_for_OutSystems_on_Microsoft_Azure#Scale_Your_Environments_Using_Azure_Scale_Sets).
 
