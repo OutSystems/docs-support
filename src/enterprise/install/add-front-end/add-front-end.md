@@ -43,6 +43,12 @@ We'll contact you if we need more information, or if this implies changes to you
 
 ## On self-managed environments
 
+<div class="info" markdown="1">
+
+Make sure the new front-end server is a clean installation, it doesn't contain settings or deployed applications from a previous OutSystems installation. Otherwise, you might need to republish all the environment modules or the deployment of new applications might fail.
+
+</div>
+
 On the environments you manage, follow a standard server instalation:
 
 1. Make sure all the [Installation prerequisites](https://success.outsystems.com/Documentation/11/Setting_Up_OutSystems#Installation_prerequisites) are met.
@@ -53,10 +59,6 @@ On the environments you manage, follow a standard server instalation:
         * For Platform Server version 11.0.542.0 onwards, choose the **Server** role
         * For all other versions, choose the **Front-end Server** role
     * Select the applicable operating system and database software options
-
-<div class="info" markdown="1">
-Make sure the new server is a clean Platform Server installation and does not contain settings or application deployments from previous OutSystems installations. Otherwise, a recompilation of all the modules in the factory might be required, or the deployment of new applications may fail.
-</div>
 
 ### Use automation to add new front ends
 
