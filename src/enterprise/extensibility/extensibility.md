@@ -18,7 +18,7 @@ It’s suited to develop anything from simple departmental applications to more 
 
 However, OutSystems doesn’t lock developers into a limited number of blocks, modules, and pre-built components. If needed, developers can use their coding skills to extend built-in capabilities to fulfill specific use cases.
 
-OutSystems is open by design. All application layers—front-end, back-end, database, and integration—can be extended with customized code. In fact, [OutSystems Forge](http://www.outsystems.com/Forge/) contains a repository of open source libraries, plugins, and  pre-built extensions that can be freely used as-is, or modified to suit particular needs, and then added to the OutSystems tool pallet just like any other native OutSystems element.
+OutSystems is open by design. All application layers—front-end, back-end, database, and integration—can be extended with customized code. In fact, [OutSystems Forge](http://www.outsystems.com/Forge/) contains a repository of open libraries, plugins, and  pre-built extensions that can be freely used as-is, or modified to suit particular needs, and then added to the OutSystems tool pallet just like any other native OutSystems element.
 
 ## Extensions
 
