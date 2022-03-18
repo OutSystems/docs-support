@@ -171,6 +171,14 @@ You can now assign the certificate to an environment, directly from the **Enviro
 
     Updating the hostname takes approximately 5 minutes.
 
+<div class="info" markdown="1">
+
+**Important:**
+
+If you have a deployment zone with the **Use HTTPS for internal communications** feature enabled, make sure that the Deployment Zone Address set is either secured by the SSL certificate or points to a domain that is secured.
+
+</div>
+
 ## Assigning a domain certificate to LifeTime { #lifetime-certificate }
 
 Customizing the domain of the LifeTime environment is possible. However, it's only available with a support ticket because it has a direct impact on the user session.
