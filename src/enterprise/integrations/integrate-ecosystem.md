@@ -398,14 +398,3 @@ Custom machine learning automates decisions in businesses process by providing p
 ![](images/azure-ml.png)
 
 Azure Machine Learning Studio publishes models as web services that can easily be consumed by OutSystems applications.
-
-### Machine Learning Builder
-
-[Machine Learning (ML) Builder](https://mlbuilder.outsystems.com/) is a cloud tool to help create apps with predictive capabilities using its built-in machine learning features. ML Builder requires only basic knowledge of machine learning concepts. The user interface guides developers through the process of connecting to your data and training a model. Once a model is ready, ML Builder exposes server actions to:
-
-*   Build the logic of an app
-*   Create back-ends for administrators
-*   Design sophisticated UI
-*   Expose the prediction capabilities through a REST API
-
-ML Builder currently requires Microsoft Azure as the AI provider. You need an Azure subscription and sufficient permissions to create and manage the Azure resources. Note that you need to manage the costs of your Azure subscription, as it isn't included into the pricing.
