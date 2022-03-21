@@ -76,7 +76,6 @@
             - href: enterprise/install/redis-in-memory-sessions/cluster-add-nodes.md
             - href: enterprise/install/redis-in-memory-sessions/setup-platform-server-redis.md
             - href: enterprise/install/redis-in-memory-sessions/setup-enable-ssl.md        
-        - href: enterprise/install/add-front-end/add-front-end.md
         - href: enterprise/install/azure-trial.md 
     
     # OutSystems Support
@@ -234,7 +233,6 @@
         - href: enterprise/upgrade/upgrade-platform-errors.md
         - href: enterprise/upgrade/balanced-upgrade-highly-loaded-farms.md
         - href: enterprise/upgrade/how-are-versions-numbered.md
-        - href: enterprise/upgrade/increase-computing-power-infrastructure.md
         - href: enterprise/upgrade/client-data-transfer-optimization-tp.md
         - href: enterprise/upgrade/try-newer-react-runtime-tp.md
 
@@ -270,7 +268,6 @@
             - href: enterprise/upgrade/ui-migration-guide/migration-reference-tables.md
 
         - href: enterprise/upgrade/organize-modules-applications.md
-        - href: enterprise/upgrade/previous-version-number-format.md
         - href: enterprise/upgrade/updating-lifetime-analytics.md
 
         # Updating auth flows for supporting SAML 2.0        
@@ -328,8 +325,7 @@
             - href: enterprise/troubleshooting/mabs/obfuscation.md
             - href: enterprise/troubleshooting/plugins-appshield/intro.md
             - href: enterprise/troubleshooting/troubleshoot-mobile-apps-generation.md
-            - href: enterprise/troubleshooting/troubleshoot-platform-server.md        
-            - href: enterprise/troubleshooting/truechange-validation-combobox.md                           
+            - href: enterprise/troubleshooting/troubleshoot-platform-server.md                       
             - href: enterprise/troubleshooting/lifetime/lifetime-deploy-unable.md
             - href: enterprise/troubleshooting/unable-register-front-end.md  
             - href: enterprise/troubleshooting/it-users-vs-app-users.md                  
