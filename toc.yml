@@ -198,27 +198,6 @@
             - href: enterprise/maintenance/design-infrastructure/infra-design-examples.md
             - href: enterprise/maintenance/design-infrastructure/app-isolation.md
 
-        # Designing the Architecture of Your OutSystems apps            
-        - href: enterprise/maintenance/architecture/intro.md
-        - topics:
-            - href: enterprise/maintenance/architecture/01-4-layer-canvas.md    
-            - href: enterprise/maintenance/architecture/02-translating-business-app-modules.md  
-            - href: enterprise/maintenance/architecture/03-validating-app-architecture.md  
-            - href: enterprise/maintenance/architecture/04-soa-architectures.md  
-            - href: enterprise/maintenance/architecture/05-integration-patterns.md  
-            - href: enterprise/maintenance/architecture/06-app-composition/06-app-composition.md
-            - topics:
-                - href: enterprise/maintenance/architecture/06-app-composition/applying-4-layer-canvas-apps.md   
-                - href: enterprise/maintenance/architecture/06-app-composition/rules-correct-app-composition.md
-                - href: enterprise/maintenance/architecture/06-app-composition/isolating-app-theme.md                                 
-            - href: enterprise/maintenance/architecture/07-designing-multi-tenant-apps.md
-            - href: enterprise/maintenance/architecture/08-microservices-arch-outsystems.md
-
-        # Designing the Architecture of Your OutSystems apps            
-        - href: enterprise/maintenance/architecture/intro.md
-        - topics:
-            - href: enterprise/maintenance/architecture/01-4-layer-canvas.md                  
-
         # Load Balancing OutSystems Applications
         - href: enterprise/maintenance/load-balancing-apps/load-balancing-apps.md
         - topics:     
