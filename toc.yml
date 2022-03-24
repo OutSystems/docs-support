@@ -148,7 +148,6 @@
         - href: enterprise/maintenance/remove-infra-mgmt-console.md
         - href: enterprise/maintenance/reset-lifetime-authentication.md
         - href: enterprise/maintenance/restore-database.md
-        - href: enterprise/maintenance/secure-cookies-enable-secure-session.md
         - href: enterprise/maintenance/vpn/vpn-support.md
         - href: enterprise/maintenance/vpn/vpn-errors.md
         - href: enterprise/maintenance/vpn/vpn-setup-previous.md
