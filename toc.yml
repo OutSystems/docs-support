@@ -60,7 +60,6 @@
         - href: enterprise/install/install-ssl-certificate-linux.md       
         - href: enterprise/install/installing-platform-fips-compliant.md
         - href: enterprise/install/add-certificate-trusted.md
-        - href: enterprise/install/install-system-components.md           
         - href: enterprise/install/mobile-builder-connectivity-requirements.md                
         - href: enterprise/install/offline-installation.md    
         - href: enterprise/install/lifetime-roles.md
