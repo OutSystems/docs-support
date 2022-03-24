@@ -15,7 +15,7 @@ The main difference is that with a solution, all the references are refreshed in
 
 If you don't have an "All Components" solution yet:
 
-1. Go to [Service Center](https://success.outsystems.com/Support/Enterprise_Customers/Licensing/Overview/How_to_access_your_OutSystems_Platform#What_is_Service_Center.3F) (`https://<YOUR_ENVIRONMENT>/ServiceCenter`).
+1. Go to Service Center (`https://<YOUR_ENVIRONMENT>/ServiceCenter`).
 
 1. Under **Factory** -> **Solutions**, click the **New Solution** link.
 
