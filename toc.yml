@@ -106,7 +106,6 @@
         - href: enterprise/maintenance/connect-tgw.md
         - href: enterprise/maintenance/add-certificate-trusted-cloud.md
         - href: enterprise/maintenance/install-client-side-certificate-paas.md    
-        - href: enterprise/maintenance/balanced-app-deploy.md
         - href: enterprise/maintenance/balanced-app-deploy-java.md
         - href: enterprise/maintenance/mobile-null-datetime.md
         - href: enterprise/maintenance/bpt-automatic-activities-timeout.md
