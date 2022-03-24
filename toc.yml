@@ -157,7 +157,6 @@
         - href: enterprise/maintenance/timeouts-under-hood.md
         - href: enterprise/maintenance/timezone-considerations.md
         - href: enterprise/maintenance/chrome-samesite-cookie-changes.md
-        - href: enterprise/maintenance/dotnet-connection-strings-sql-server.md
         - href: enterprise/maintenance/sql-compatibility-upgrade.md
         - href: enterprise/maintenance/change-ac.md
         - href: enterprise/maintenance/iis-tuning.md
