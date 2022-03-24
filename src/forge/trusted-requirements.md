@@ -80,11 +80,11 @@ The component must be easy to use. For this, the component must include the foll
 
 ### Implementation
 
-Trusted components must comply with the implementation best practices described in this section. The OutSystems Curation team uses the [Architecture Dashboard](https://success.outsystems.com/Documentation/Architecture_Dashboard/Code_Patterns) to perform the necessary validations.
+Trusted components must comply with the implementation best practices described in this section. The OutSystems Curation team uses the [Architecture Dashboard](https://success.outsystems.com/Documentation/11/Managing_the_Applications_Lifecycle/Manage_technical_debt/Code_Patterns) to perform the necessary validations.
 
 #### Architecture
 
-Components comprising a whole application must follow the [best practices for application architecture design](../enterprise/maintenance/architecture/intro.md), which determines the organization of the application modules according to the layers described in the [OutSystems Architecture Canvas](../enterprise/maintenance/architecture/01-4-layer-canvas.md) (End-user, Core, and Foundation modules).
+Components comprising a whole application must follow the [best practices for application architecture design](https://success.outsystems.com/Documentation/Best_Practices/Architecture/Designing_the_Architecture_of_Your_OutSystems_Applications), which determines the organization of the application modules according to the layers described in the [OutSystems Architecture Canvas](https://success.outsystems.com/Documentation/Best_Practices/Architecture/Designing_the_Architecture_of_Your_OutSystems_Applications/The_Architecture_Canvas) (End-user, Core, and Foundation modules).
 
 The component architecture must comply with the following rules:
 
