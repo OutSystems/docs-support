@@ -13,7 +13,7 @@ The purpose of the obfuscation is to make the app harder to reverse-engineer. Du
 
 In an obfuscated app, an error stack trace might look like this:
 
-![Obfuscation example](images/obfuscated.png?width=600)
+![Obfuscation example](images/obfuscated.png)
 
 **Prerequisites**
 
@@ -33,7 +33,7 @@ These are the prerequisites to deobfuscate the logs.
 
     With **proguardgui**. Click the **ReTrace** button in the left pane and locate your mapping file. Paste the obfuscated stack trace and click **ReTrace!**.
 
-    ![Proguard UI](images/proguard-log.png?width=600) 
+    ![Proguard UI](images/proguard-log.png) 
 
 <div class="warning" markdown="1>
 

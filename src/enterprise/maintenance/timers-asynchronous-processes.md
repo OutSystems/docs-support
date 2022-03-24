@@ -293,7 +293,13 @@ In the example below, you can see that:
 
 #### Forcing the execution of a Timer
 
-To force a Timer to be executed without waiting for the scheduled time of the next run, press the **Run Now** button at the bottom of the page.
+To force the execution of a Timer without waiting for the scheduled time of the next run, press the **Run Now** button at the bottom of the page.
+
+<div class="info" markdown="1">
+
+Pressing the **Run Now** button for a deactivated Timer that has a schedule defined, sets the Timer to run as soon as possible and activates the Timer again.
+
+</div>
 
 #### Deactivating/Activating a Timer
 

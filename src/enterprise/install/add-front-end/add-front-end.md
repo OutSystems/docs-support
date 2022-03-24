@@ -56,6 +56,12 @@ We'll contact you if we need more information, or if this implies changes to you
 
 ### On self-managed environments
 
+<div class="info" markdown="1">
+
+Make sure the new front-end server is a clean installation, it doesn't contain settings or deployed applications from a previous OutSystems installation. Otherwise, you might need to republish all the environment modules or the deployment of new applications might fail.
+
+</div>
+
 On the environments you manage, follow a standard server installation:
 
 1. Make sure all the [Installation prerequisites](https://success.outsystems.com/Documentation/11/Setting_Up_OutSystems#Installation_prerequisites) are met.

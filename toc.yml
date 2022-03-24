@@ -135,7 +135,6 @@
         - href: enterprise/maintenance/protect-android-ios-certificate.md
         - href: enterprise/maintenance/build-multi-tenant-app.md
         - href: enterprise/maintenance/find-ssid-activation-code.md
-        - href: enterprise/maintenance/migration-db-code-stacks.md
         - href: enterprise/maintenance/mabs-versioning.md        
         - href: enterprise/maintenance/multiple-db-catalogs-schemas.md
         - href: enterprise/maintenance/no-default-credentials-server.md        
@@ -158,7 +157,6 @@
         - href: enterprise/maintenance/timeouts-under-hood.md
         - href: enterprise/maintenance/timezone-considerations.md
         - href: enterprise/maintenance/chrome-samesite-cookie-changes.md
-        - href: enterprise/maintenance/dotnet-connection-strings-sql-server.md
         - href: enterprise/maintenance/sql-compatibility-upgrade.md
         - href: enterprise/maintenance/change-ac.md
         - href: enterprise/maintenance/iis-tuning.md
@@ -304,8 +302,7 @@
             - href: enterprise/troubleshooting/mabs/obfuscation.md
             - href: enterprise/troubleshooting/plugins-appshield/intro.md
             - href: enterprise/troubleshooting/troubleshoot-mobile-apps-generation.md
-            - href: enterprise/troubleshooting/troubleshoot-platform-server.md        
-            - href: enterprise/troubleshooting/truechange-validation-combobox.md                           
+            - href: enterprise/troubleshooting/troubleshoot-platform-server.md                       
             - href: enterprise/troubleshooting/lifetime/lifetime-deploy-unable.md
             - href: enterprise/troubleshooting/unable-register-front-end.md  
             - href: enterprise/troubleshooting/it-users-vs-app-users.md                  

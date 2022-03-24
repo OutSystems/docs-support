@@ -1,0 +1,18 @@
+<div class="noinclude" style="border: 3px solid red"><pre class="script">meta.googlebot("noindex");</pre></div>
+<div class="os-note os-info style-wrap"><p>Released on Mar 22, 2022</p></div>
+
+<h3>New in Integration Builder 1.32.0</h3>
+<ul>
+<li>Improved the layout of the "Review" screen for Microsoft Dataverse, Microsoft Dynamics 365, Salesforce, SAP OData, and Sharepoint Online integrations. (RCNT-4278)</li>
+<li>Added a visual indicator that table rows can be clicked on the "Add tables" step of the integration creation wizard for relational databases. (RCNT-4576)</li>
+<li>A MongoDB integration is now available, as a Technical Preview.
+This new integration allows you to easily connect your apps with the most popular no-SQL database, MongoDB. 
+The MongoDB integrations are available exclusively in the latest version of Integration Builder and are fully supported by the OutSystems platform. Find out more about MongoDB integrations in our <a href="https://www.outsystems.com/goto/ib-mongodb-doc">documentation</a>.  (RCNT-4673)</li>
+</ul>
+<h3>Bug Fixing</h3>
+<ul>
+<li>Fixed an issue that caused an error that occurred in the generation step while publishing integrations. The issue occurred when object names included special characters leading to the duplication of object names. (RCNT-4602)</li>
+<li>Improved the experience on the  "Add tables" step of the integration creation wizard for relational databases. Now, long table names don't cause a horizontal scroll. (RCNT-4662)</li>
+<li>Fixed an issue that caused an  OS-INBL-GEN -50009 error while publishing integrations with Salesforce.  The issue prevented the generation of integrations that included object names that didn't contain any roman alphabet characters. (RPM-2266)</li>
+</ul>
+

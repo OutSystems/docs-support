@@ -6,7 +6,7 @@ summary:
 
 ## Symptoms
 
-OutSystems developers may encounter some issues when using Configuration Tool and Service Studio. Some errors can occur if the GAC of the machine running the platform server has a version of the `ODP.NET` driver other than the one used by OutSystems Platform (4.121.2.20150926).
+OutSystems developers may encounter some issues when using Configuration Tool and Service Studio. Some errors can occur if the GAC of the machine running the platform server has a version of the `ODP.NET` driver other than the one used by OutSystems platform.
 
 ### Example error message 1: Error during the application runtime
 
