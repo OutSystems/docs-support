@@ -14,9 +14,9 @@ Environment synchronization in LifeTime is taking longer than expected.
 
 When the synchronization of an environment in LifeTime is stuck, follow the validations below to troubleshoot a potential issue.
 
-### Verify that you are running the latest version of LIfetime and Platform Server
+### Verify that you are running the latest version of LifeTime and Platform Server
 
-Keep **LifeTime** and **Platform Server** updated in order to take advantage of the latest improvements in synchronization procedures. See [this article](https://success.outsystems.com/Support/Enterprise_Customers/Upgrading/Which_versions_of_Platform_Server_can_LifeTime_manage%3F) for more information about version compatibility. 
+Keep **LifeTime** and **Platform Server** updated to take advantage of the latest improvements in synchronization procedures.
 
 ### Check the connectivity between environments (self-managed only)
 
@@ -26,7 +26,7 @@ If you have self-managed environments, make sure there is bidirectional communic
 
 1. [Test the connectivity](../test-env-connectivity.md) from the **synchronizing environment** to **LifeTime**.
 
-### Check the servers Timezone (self-managed only)
+### Check the servers timezone (self-managed only)
 
 If you have self-managed environments, make sure the database server and the application environment servers (controller and front-ends) are set with the same [Timezone](https://support.microsoft.com/en-us/help/4026213/windows-how-to-set-your-time-and-time-zone), as described in [OutSystems Timezone considerations](https://success.outsystems.com/Support/Enterprise_Customers/Maintenance_and_Operations/Timezone_considerations_in_the_OutSystems_Platform).
 
@@ -44,7 +44,7 @@ Check the status of the Processes for potential issues:
 
 ## Still having problems?
 
-If the above validations did not help you to solve the issue and you need further assistance, [open a support case](https://www.outsystems.com/SupportPortal/CaseOpen/) to get help from OutSystems Support.
+If the above validations didn't help you to solve the issue and you need further assistance, [open a support case](https://www.outsystems.com/SupportPortal/CaseOpen/) to get help from OutSystems Support.
 
 If you have a critical need to deploy an application to that environment, you can try to [deploy the application through Service Center](../deploy-apps-sc.md) as a workaround.
 

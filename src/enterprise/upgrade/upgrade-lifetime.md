@@ -18,7 +18,7 @@ From version **OutSystems 11 onwards**, LifeTime is distributed independently fr
 
 **LifeTime Release Sep.2018 (11.0.108.0)** marks the beginning of [LifeTime's own release cycle](https://success.outsystems.com/Support/Enterprise_Customers/Upgrading/OutSystems_Release_Cycle#Release_cycles), allowing better and faster improvements in your LifeTime management console.
 
-Upgrading LifeTime to Release Sep.2018 or later **does not require** the upgrade of your OutSystems application environments. You can benefit from LifeTime latest features and still keep your application environments in a previous supported version while you need. Read more about [which versions of Platform Server can LifeTime manage](lifetime-versions.md).
+Upgrading LifeTime to Release Sep.2018 or later **does not require** the upgrade of your OutSystems application environments. You can benefit from LifeTime latest features and still keep your application environments in a previous supported version while you need.
 
 ![](images/upgrade-lifetime-o11-diag.png?width=800)
 
@@ -38,7 +38,7 @@ If you have **LifeTime plugins** deployed in your LifeTime environment or **othe
 
 <div class="info" markdown="1">
  
-If you are running an OutSystems version that is not supported anymore, you first need to [upgrade to a supported OutSystems version](upgrade-platform.md).
+If you are running an OutSystems version that's not supported anymore, you first need to [upgrade to a supported OutSystems version](upgrade-platform.md).
  
 </div>
 
@@ -64,7 +64,7 @@ If the environment is self-managed (running in your own private cloud or on-prem
 
 To upgrade the LifeTime management console to Release Sep.2018 or later, the following **requirements** must be met:
 
-* Your **OutSystems application environments** are running a **supported OutSystems version**. If you are running an OutSystems version that is not supported, you must [upgrade to a supported OutSystems version](upgrade-platform.md).
+* Your **OutSystems application environments** are running a **supported OutSystems version**. If you are running an OutSystems version that's not supported, you must [upgrade to a supported OutSystems version](upgrade-platform.md).
 
 * Your **LifeTime management console** is installed in a **dedicated environment**. If your LifeTime management console is installed in a shared environment (for example, in your production environment), you must [reinstall LifeTime in a dedicated environment](../maintenance/reinstall-lifetime.md).
 
@@ -102,15 +102,15 @@ If you have **LifeTime plugins** deployed in your LifeTime environment, you shou
 
 After the solution has been published, test all your plugins.
 
-Test also your integrations with LifeTime environment to assure they are working correctly.
+Test also your integrations with LifeTime environment to ensure they're working correctly.
 
-## Frequently Asked Questions
+## Frequently asked questions
 
 **How do I know which LifeTime version I’m running?**  
 Learn how to identify your LifeTime version [here](https://success.outsystems.com/Support/Archive/What_version_of_OutSystems_Platform_am_I_using#LifeTime).
 
 **I’m running OutSystems 10. If I want to upgrade my LifeTime to OutSystems 11, must I also upgrade my application environments to OutSystems 11?**  
-No. You can upgrade LifeTime and keep your application environments in any supported version. LifeTime 11 is compatible with OutSystems 10 environments. Read more about [which versions of Platform Server can LifeTime manage](lifetime-versions.md).
+No. You can upgrade LifeTime and keep your application environments in any supported version. LifeTime 11 is compatible with OutSystems 10 environments.
 
 **I’m running OutSystems 10. If I want to upgrade my LifeTime to OutSystems 11, will anything stop working due to breaking changes?**  
 If you don’t have LifeTime plugins or other integrations with the LifeTime environment (eg. using LifeTime APIs to integrate with external tools, such as Jenkins) there will be no impact. If you have LifeTime plugins or other integrations, you should [prepare your applications for the upgrade](upgrade-lifetime.md#before-the-upgrade).
@@ -133,4 +133,4 @@ You can request the upgrade of your LifeTime management console to the latest ve
 The LifeTime environment runs in OutSystems Cloud and shares its maintenance window with your non-production Cloud environments. To define the maintenance window for LifeTime, follow the steps in [Define the maintenance window for LifeTime environment](../maintenance/cloud-maintenance-window.md#define-the-maintenance-window-for-lifetime-environment).
 
 **My LifeTime is being upgraded. When can I use LifeTime again after the upgrade?**  
-You will receive a notification email when the upgrade is finished. LifeTime will be partially unavailable during the upgrade, which means you will not be able to stage deployments, activate new cloud services, or use your LifeTime plugins and integrations. Having a defined maintenance window, assures your upgrades are scheduled for the time that better fits your needs.
+You will receive a notification email when the upgrade is finished. LifeTime will be partially unavailable during the upgrade, which means you won't be able to stage deployments, activate new cloud services, or use your LifeTime plugins and integrations. Having a defined maintenance window, assures your upgrades are scheduled for the time that better fits your needs.
