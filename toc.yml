@@ -2,9 +2,6 @@
 - placeholder: Enterprise Customers
 - topics:
     
-    # Extensibility
-    - href: enterprise/extensibility/extensibility.md
-
     # Integrations
     - href: enterprise/integrations/integrate-ecosystem.md
 
