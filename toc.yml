@@ -231,7 +231,6 @@
         - href: enterprise/upgrade/seo/troubleshooting.md
 
         - href: enterprise/upgrade/upgrade-lifetime.md
-        - href: enterprise/upgrade/lifetime-versions.md
         
         # Migrate to the new Firebase-based mobile plugins        
         - href: enterprise/upgrade/migrate-to-firebase-plugins/intro.md
