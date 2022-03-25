@@ -130,7 +130,6 @@
         - href: enterprise/maintenance/cloud-timezones.md
         - href: enterprise/maintenance/failover-procedures.md
         - href: enterprise/maintenance/cloud-shared-responsibility.md        
-        - href: enterprise/maintenance/running-modes-dev-vs-prod.md
         - href: enterprise/maintenance/reinstall-lifetime.md
         - href: enterprise/maintenance/remove-infra-mgmt-console.md
         - href: enterprise/maintenance/reset-lifetime-authentication.md
