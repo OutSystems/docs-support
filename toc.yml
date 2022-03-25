@@ -106,7 +106,6 @@
         - href: enterprise/maintenance/install-client-side-certificate-paas.md
         - href: enterprise/maintenance/mobile-null-datetime.md
         - href: enterprise/maintenance/bpt-automatic-activities-timeout.md
-        - href: enterprise/maintenance/monitor-env-activity.md
         - href: enterprise/maintenance/change-pw-database-users.md
         - href: enterprise/maintenance/install-client-side-cert-on-premise.md
         - href: enterprise/maintenance/move-app-pool.md
