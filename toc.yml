@@ -144,14 +144,6 @@
         # Monitoring
         - href: enterprise/maintenance/monitoring/monitoring.md
 
-        # Cache Invalidation Service
-        - href: enterprise/maintenance/cache-invalidation/intro.md
-        - topics:
-            - href: enterprise/maintenance/cache-invalidation/enable-tls.md        
-            - href: enterprise/maintenance/cache-invalidation/installation.md     
-            - href: enterprise/maintenance/cache-invalidation/high-availability.md                   
-            - href: enterprise/maintenance/cache-invalidation/manage-troubleshoot.md
-
          # Data Migration
         - href: enterprise/maintenance/data-migration/intro.md
         - topics:
