@@ -56,7 +56,6 @@
         - href: enterprise/install/install-ssl-certificate-linux.md       
         - href: enterprise/install/installing-platform-fips-compliant.md
         - href: enterprise/install/add-certificate-trusted.md
-        - href: enterprise/install/mobile-builder-connectivity-requirements.md                
         - href: enterprise/install/offline-installation.md    
         - href: enterprise/install/size-environment-run-infra-mgmt-console.md
         - href: enterprise/install/add-front-end/add-front-end.md
@@ -144,14 +143,6 @@
         # Monitoring
         - href: enterprise/maintenance/monitoring/monitoring.md
 
-        # Cache Invalidation Service
-        - href: enterprise/maintenance/cache-invalidation/intro.md
-        - topics:
-            - href: enterprise/maintenance/cache-invalidation/enable-tls.md        
-            - href: enterprise/maintenance/cache-invalidation/installation.md     
-            - href: enterprise/maintenance/cache-invalidation/high-availability.md                   
-            - href: enterprise/maintenance/cache-invalidation/manage-troubleshoot.md
-
          # Data Migration
         - href: enterprise/maintenance/data-migration/intro.md
         - topics:
@@ -198,12 +189,6 @@
                     - href: enterprise/upgrade/reactiveapp-migration-guide/ref-frontend-screen-and-block.md
                     - href: enterprise/upgrade/reactiveapp-migration-guide/ref-system-actions.md
                 - href: enterprise/upgrade/reactiveapp-migration-guide/ref-core-widgets.md
-
-        # Log Database Split
-        - href: enterprise/upgrade/logging-db/intro.md
-        - topics:
-            - href: enterprise/upgrade/logging-db/configure-separate-db.md
-            - href: enterprise/upgrade/logging-db/update-applications.md
 
         - href: enterprise/upgrade/log-service/log-service-clean.md
 
