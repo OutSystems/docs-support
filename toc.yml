@@ -191,12 +191,6 @@
                     - href: enterprise/upgrade/reactiveapp-migration-guide/ref-system-actions.md
                 - href: enterprise/upgrade/reactiveapp-migration-guide/ref-core-widgets.md
 
-        # Log Database Split
-        - href: enterprise/upgrade/logging-db/intro.md
-        - topics:
-            - href: enterprise/upgrade/logging-db/configure-separate-db.md
-            - href: enterprise/upgrade/logging-db/update-applications.md
-
         - href: enterprise/upgrade/log-service/log-service-clean.md
 
         # Migrating UI of the Silk Web applications to OutSystems UI Framework
