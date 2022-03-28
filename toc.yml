@@ -113,7 +113,6 @@
         - href: enterprise/maintenance/cookie-usage.md
         - href: enterprise/maintenance/solution-creating-all-comp.md 
         - href: enterprise/maintenance/custom-dns-name-cloud.md
-        - href: enterprise/maintenance/database-optimization.md     
         - href: enterprise/maintenance/database-storage-cloud.md                  
         - href: enterprise/maintenance/altering-file-upload-limits.md
         - href: enterprise/maintenance/reinstall-different-path.md
