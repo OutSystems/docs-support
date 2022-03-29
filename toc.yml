@@ -140,8 +140,7 @@
         - href: enterprise/maintenance/sql-compatibility-upgrade.md
         - href: enterprise/maintenance/change-ac.md
         
-        # Monitoring
-        - href: enterprise/maintenance/monitoring/monitoring.md
+
 
          # Data Migration
         - href: enterprise/maintenance/data-migration/intro.md
