@@ -197,9 +197,11 @@ After importing the root and intermediate certificates, you need to import the s
 
 Once you have installed the certificate, you are able to access your OutSystems applications using HTTPS.
 
-If you want to force the redirection of all accesses from HTTP to HTTPS, perform the following action:
+- If you enabled the **Use HTTPS for internal communications** field in a Deployment Zone, make sure that the address defined in the **Deployment Zone Address** field is covered by the certificate. More info regarding deployment zones in [this documentation](https://success.outsystems.com/Documentation/11/Managing_the_Applications_Lifecycle/Deploy_Applications/Selective_Deployment_Using_Deployment_Zones/Deployment_Zones_Reference).
 
-* Starting with OutSystems 10, you can control this behavior in the same way as before in Web Applications, that is, at Flow or Screen level, but also [for the whole environment](https://success.outsystems.com/Documentation/11/Managing_the_Applications_Lifecycle/Secure_the_Applications/Enforce_HTTPS_Security), which applies to all Web Applications in the environment, or for specific Web Applications. This is done via LifeTime.
+- If you want to force the redirection of all accesses from HTTP to HTTPS, perform the following action:
+
+    * Starting with OutSystems 10, you can control this behavior in the same way as before in Web Applications, that is, at Flow or Screen level, but also [for the whole environment](https://success.outsystems.com/Documentation/11/Managing_the_Applications_Lifecycle/Secure_the_Applications/Enforce_HTTPS_Security), which applies to all Web Applications in the environment, or for specific Web Applications. This is done via LifeTime.
 
 <div class="info" markdown="1">
 
