@@ -282,9 +282,6 @@
     - topics:
         - href: enterprise/accessibility/accessibility.md
         - href: enterprise/accessibility/vpat-template.md
-        
-    # Availability and scalability
-    - href: enterprise/ha-scalability/intro.md
 
 
 # Personal Environment
