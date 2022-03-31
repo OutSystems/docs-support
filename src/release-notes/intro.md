@@ -2,47 +2,41 @@
 summary:
 tags:
 locale: en-US
-GUID:
+guid:
 ---
 # Release Notes
 
 OutSystems release notes list the new features, improvements and bug fixes in each release of the following components.
 
-Check the latest available versions here.
+Check the latest available versions [here](https://www.outsystems.com/downloads).
+
+
 
 ## OutSystems 11:
 
+* Platform Server
 * Cross-platform Service Studio
 * Development Environment
-* Platform Server
-
-## OutSystems 10:
-
-* Development Environment
-* Platform Server
 
 ## LifeTime:
 
 * LifeTime Management Console
 
-## MABS:
 
-* Mobile Apps Build Service
+## OutSystems cloud services
 
-## Architecture Dashboard:
+OutSystems provides cloud services that enable additional functionality to accelerate development. When these services are upgraded, you can benefit from the new features and fixes without the need to upgrade your infraestrucure.
 
-* Architecture Dashboard
+| Cloud service release notes | About |
+|---|---|
+| [Mobile Apps Build Service (MABS)](https://success.outsystems.com/Support/Release_Notes/Mobile_Apps_Build_Service) | [Generate mobile application packages.](https://success.outsystems.com/Documentation/11/Delivering_Mobile_Apps/Mobile_Apps_Build_Service)|
+| [Architecture Dashboard](https://success.outsystems.com/Support/Release_Notes/Architecture_Dashboard) | [Monitor technical debt](https://success.outsystems.com/Documentation/11/Managing_the_Applications_Lifecycle/Manage_technical_debt) |
+| [Integration Builder](https://success.outsystems.com/Support/Release_Notes/Integration_Builder) | [Implement complex integrations](https://success.outsystems.com/Documentation/11/Extensibility_and_Integration/Integration_Builder) |
+| [Experience Builder](https://success.outsystems.com/Support/Release_Notes/Experience_Builder) | [Create prototypes for pixel-perfect mobile apps with great UX.](https://success.outsystems.com/Documentation/Experience_Builder/Introduction_to_Experience_Builder)
+| [Workflow Builder]() |
 
-## Integration Builder:
 
-* Integration Builder
+## OutSystems 10:
 
-## Experience Builder:
-
-* Experience Builder
-
-## Workflow Builder:
-
-* Workflow Builder
-
-Head to the [downloads page](https://www.outsystems.com/home/downloads/?_gl=1*ydpo3i*_ga*MTc1NTEzODUwMi4xNjI5OTg1ODY1*_ga_ZD4DTMHWR2*MTY0NzM0NDI0NC4yLjEuMTY0NzM0NTA5NC42MA..) to obtain the latest binaries. You may also want to learn about the OutSystems release cycle and the MABS release cycle.
+* Platform Server
+* Development Environment
