@@ -132,7 +132,6 @@
         - href: enterprise/maintenance/vpn/vpn-support.md
         - href: enterprise/maintenance/vpn/vpn-errors.md
         - href: enterprise/maintenance/vpn/vpn-setup-previous.md
-        - href: enterprise/maintenance/sql-server-best-practices.md
         - href: enterprise/maintenance/system-updates-paas.md
         - href: enterprise/maintenance/timeouts-under-hood.md
         - href: enterprise/maintenance/timezone-considerations.md
