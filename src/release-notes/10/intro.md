@@ -5,7 +5,7 @@ locale: en-US
 guid:
 ---
 
-# OutSystems 10
+# 10
 
 The following are the release notes for OutSystems 10:
 

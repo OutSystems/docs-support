@@ -5,7 +5,7 @@ locale: en-US
 guid:
 ---
 
-# OutSystems 11
+# 11
 
 The following are the release notes for OutSystems 11:
 
