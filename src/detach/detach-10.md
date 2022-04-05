@@ -3,9 +3,6 @@ tags: version-10.0;
 summary: This document is a step-by-step guide for extracting the source code of your applications from the .NET version of OutSystems and how to set it up to be executed and maintained independently of the OutSystems Platform, if you ever decide to detach from it.
 ---
 
-<pre class="script">
-template('OutSystems/OSVersionIndicator');</pre>
-
 # The Detach Process
 
 This document is a step-by-step guide for extracting the source code of your applications (web and mobile) from the .NET version of OutSystems and how to set it up to be executed and maintained independently of OutSystems, if you ever decide to detach from it. This is a complement to the [OutSystems Platform – Standard Architecture with No Lock-in](https://www.outsystems.com/goto/standard-architecture-with-no-lock-in "https://www.outsystems.com/goto/standard-architecture-with-no-lock-in") content that gives a high-level view on how OutSystems, unlike other proprietary technologies and frameworks, generates standard, optimized, and fully documented .NET source code that does not require runtime interpreters or engines.
