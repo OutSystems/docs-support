@@ -19,7 +19,15 @@
     # - href: release-notes/experience-builder/coiso              commented because migration not ready yet
     # - href: release-notes/workflow-builder/coiso                commented because migration not ready yet
     - href: release-notes/product-lifecycle/product-lifecycle.md
-    
+
+# Troubleshooting
+- href: troubleshooting/intro.md
+- topics:
+    - href: troubleshooting/application-development/intro.md
+    - href: troubleshooting/application-lifecycle/intro.md
+    - href: troubleshooting/application-runtime/intro.md
+    - href: troubleshooting/infrastructure-management/intro.md
+
 - placeholder: Enterprise Customers
 - topics:
     
