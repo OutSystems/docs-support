@@ -4,9 +4,6 @@ tags: version-11
 en_title: OutSystems Platform side effects and breaking changes
 ---
 
-<pre class="script">
-template('OutSystems/OSVersionIndicator');</pre>
-
 # OutSystems 11 side effects and breaking changes
 
 This document lists the side effects and breaking changes introduced in the different versions of OutSystems 11.

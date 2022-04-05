@@ -292,12 +292,7 @@ One way of troubleshooting is to look for issues in the log files.
 
 #### 1. Get the log file
 
-<div class="mt-contentreuse-widget" data-page="Support/Enterprise_Customers/Troubleshooting/How_to_get_logs_for_troubleshooting_purposes" data-section="Mobile App Generation Logs" data-show="false">
-
-<pre class="script">
-wiki.page("Support/Enterprise_Customers/Troubleshooting/How_to_get_logs_for_troubleshooting_purposes", "Mobile App Generation Logs")</pre>
-
-</div>
+[Get the mobile app package generation logs](get-logs.md#mobile-app-generation-logs).
 
 #### 2. Look for issues in the log file
 

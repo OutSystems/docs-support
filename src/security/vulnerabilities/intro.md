@@ -28,7 +28,7 @@ OutSystems Product Security Incident Response Team (PSIRT) investigates all repo
 
 Issues will be prioritized based on the risk score and severity. The resolution of a reported vulnerability may require installing new software versions of products that are [under active support from OutSystems](https://success.outsystems.com/Support/Enterprise_Customers/OutSystems_Support/Support_terms_and_service_level_agreements_(SLA)_of_the_OutSystems_software/OutSystems_Product_Lifecycle_and_Support_calendar#What_is_the_support_calendar_for_OutSystems_releases.3F). As a best practice, OutSystems strongly recommends that customers periodically verify if their products are under mainstream support to ensure access to the latest software updates.
 
-During any investigation, the OutSystems PSIRT manages all sensitive information on a highly confidential basis. Internal distribution is limited to those individuals who have a legitimate need-to-know and can actively assist in the resolution. 
+During any investigation, the OutSystems PSIRT manages all sensitive information on a highly confidential basis. Internal distribution is limited to those individuals who have a legitimate need-to-know and can actively assist in the resolution.
 
 Similarly, the OutSystems PSIRT asks reporters to maintain strict confidentiality until complete resolutions are available for customers and have been published by the OutSystems PSIRT on the OutSystems website through the appropriate coordinated disclosure.
 
@@ -36,15 +36,15 @@ Similarly, the OutSystems PSIRT asks reporters to maintain strict confidentialit
 
 ### For OutSystems customers and partners
 
-If you are an OutSystems customer or partner and have access to our [Support Portal](https://www.outsystems.com/supportportal/), please report your vulnerability reports through OutSystems Support using the [available channels](https://success.outsystems.com/Support/Enterprise_Customers/OutSystems_Support/01_Contact_OutSystems_technical_support#Contact_Channels).
+If you are an OutSystems customer or partner and have access to our [Support Portal](https://www.outsystems.com/supportportal/), please report your vulnerability reports through OutSystems Support using the [available channels](https://www.outsystems.com/legal/success/contact-outsystems-technical-support/#Contact_Channels).
 
 #### Before submitting a vulnerability report  { #submit-report }
 
-Often, vulnerability scans, static code analysis or dynamic code analysis are performed by third party tools that output a report.Those reports shouldn’t be sent untreated to OutSystems. Instead, they should first be analysed.
+Often, vulnerability scans, static code analysis or dynamic code analysis are performed by third party tools that output a report.Those reports shouldn’t be sent untreated to OutSystems. Instead, they should first be analyzed.
 
 This means that customers and partners must first analyze the findings in such reports and determine if:
 
-1.  It’s related to application logic and was introduced during the development (related to application logic). In this case, it’s the customer's responsibility to address it.
+1. It’s related to application logic and was introduced during the development (related to application logic). In this case, it’s the customer's responsibility to address it.
 1. The finding is a false positive or not. It’s the customer's responsibility to consult the available documentation.
 1. Understand if the vulnerability falls under the customer or OutSystems responsibility.
 
@@ -55,7 +55,7 @@ Read the following articles before performing any type of testing on your OutSys
 
 ##### Assistance in analyzing reports
 
-For customers who require help in analyzing reports from third party tools, OutSystems has made available a service. 
+For customers who require help in analyzing reports from third party tools, OutSystems has made available a service.
 To obtain more information about this service, customers should reach out to their Customer Success Managers (CSM), Account Representative, or Solution Design Manager (SDM).
 
 After analysis, if the findings are related with the OutSystems platform, please submit a vulnerability report. The instructions to submit such a report to OutSystems support can be found next.
@@ -67,23 +67,20 @@ To submit a vulnerability report, use [Support Portal](https://www.outsystems.co
 Vulnerability reports must contain the following information:
 
 1. Provide a detailed vulnerability summary. This section must contain a summary of the vulnerability and its impact.
-	
-	**Example (not real):**
+
+    **Example (not real):**
 
     LifeTime contains an insecure object reference vulnerability where any user can view the details of any other user. This may lead to data leak since details of the users can be accessed by any user.
 
-
 2. Proof of concept or detailed steps to reproduce or exploit the vulnerability
 
-	**Example (not real):**
+    **Example (not real):**
 
     1. Login into LifeTime
     1. Go to https://[URL]/users?uid=2
     1. Confirm you’re seeing the details of another user.
-    
 
 If this information is not consistently provided, the support case may ultimately be closed.
-
 
 Reports will be handled within the [scope and SLA's](https://success.outsystems.com/Support/Enterprise_Customers/OutSystems_Support/Support_terms_and_service_level_agreements_(SLA)_of_the_OutSystems_software) of customers' and partners' contracts.
 
@@ -93,13 +90,11 @@ Any person that’s not an OutSystems customer or partner is welcome to report a
 
 OutSystems PSIRT may return to the reporter with additional questions or clarifications and provides the reporter with regular updates when relevant information comes to light.
 
-
 ## OutSystems management of a reported vulnerability { #management }
 
 High level, the phases of tackling a vulnerability found at OutSystems products are as follows:
 
 ![](images/intro.png?width=900)
-
 
 It consists of 2 phases, the **embargo phase** and **public disclosure**.
 
@@ -128,17 +123,7 @@ A fix is publicly released along with installation details. A security bulletin 
 For OutSystems Cloud customers, a patch schedule may also be communicated for all affected environments. If the patch has no impact on normal operations and availability, it won’t require scheduling. OutSystems reserves the right to start scheduling patches to OutSystems Cloud environments as soon as a fix or workaround is found.
 Self-managed infrastructures can be patched at the customer’s discretion.
 
-
 ### Public disclosure { #disclosure }
 
 Approximately 90 days after the fix release, OutSystems discloses further details about the vulnerability by updating the respective security bulletin.
 
-
-
-<p class="mt-script-comment">Search field</p>
-
-<pre class="script">
-Template('MindTouch/IDF3/Controls/HelpWidget');</pre>
-
-<pre class="script">
-template('MindTouch/IDF3/Views/Guide');</pre>
