@@ -4,7 +4,8 @@
 - href: release-notes/intro.md
 - topics:
     - href: release-notes/11/intro.md
-    # - topics:
+    - topics:
+        - href: release-notes/11/side-effects-breaking-changes.md
     #     - href: release-notes/11/platform-server/coiso                      commented because migration not ready yet, placeholder for Release_Notes/11/Platform_Server
     #     - href: release-notes/11/cross-platform-service-studio/coiso        commented because migration not ready yet, placeholder for Release_Notes/11/Cross-platform_Service_Studio
     #     - href: release-notes/11/development-enviroment/coiso               commented because migration not ready yet, placeholder for Release_Notes/11/Development_Environment
@@ -27,6 +28,9 @@
     - href: troubleshooting/application-lifecycle/intro.md
     - href: troubleshooting/application-runtime/intro.md
     - href: troubleshooting/infrastructure-management/intro.md
+
+# Community
+- href: community/intro.md
 
 - placeholder: Enterprise Customers
 - topics:
@@ -342,7 +346,6 @@
 - topics:
     - placeholder: 11
     - topics:
-        - href: release-info/11/side-effects-breaking-changes.md
         - href: detach/detach-11.md
     - placeholder: 10.0
     - topics: 

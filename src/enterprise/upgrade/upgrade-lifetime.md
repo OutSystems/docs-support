@@ -32,7 +32,7 @@ If you have **LifeTime plugins** deployed in your LifeTime environment or **othe
 
     * [LifeTime Breaking Changes](https://success.outsystems.com/Support/Release_Notes/LifeTime_Management_Console#Breaking_Changes)
 
-    * [OutSystems 11 Side Effects and Breaking Changes](../../release-info/11/side-effects-breaking-changes.md)
+    * [OutSystems 11 Side Effects and Breaking Changes](../../release-notes/11/side-effects-breaking-changes.md)
 
 * Make the necessary changes in your plugins and integrations before LifeTime upgrade takes place, to ensure that they will work correctly after the upgrade.
 

@@ -1,7 +1,7 @@
 ---
 summary:
 tags:
-locale: en-US
+locale:
 guid:
 ---
 
