@@ -18,7 +18,8 @@
     # - href: release-notes/integration-builder/coiso             commented because migration not ready yet
     # - href: release-notes/experience-builder/coiso              commented because migration not ready yet
     # - href: release-notes/workflow-builder/coiso                commented because migration not ready yet
-
+    - href: release-notes/product-lifecycle/product-lifecycle.md
+    
 - placeholder: Enterprise Customers
 - topics:
     
