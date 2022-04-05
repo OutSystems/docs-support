@@ -353,117 +353,15 @@ SELECT
 FROM OSSYS_BPM_Activity
 WHERE OSSYS_BPM_Activity.Process_Id = 11266
 ```
-<table>  
-<tr>  
-<td>
-Id
-</td>  
-<td>
-Activity_Def_Id
-</td>  
-<td>
-Process_Id
-</td>  
-<td>
-Name
-</td>  
-<td>
-User_Id
-</td>  
-<td>
-Closed
-</td>  
-<td>
-Status_Id
-</td></tr>  
-<tr>  
-<td>
-213828
-</td>  
-<td>
-245
-</td>  
-<td>
-11266
-</td>  
-<td>
-Start
-</td>  
-<td>
-</td>  
-<td>
-11/26/2019 12:03:25 PM
-</td>  
-<td>
-5
-</td></tr>  
-<tr>  
-<td>
-213829
-</td>  
-<td>
-242
-</td>  
-<td>
-11266
-</td>  
-<td>
-ScreenCandidate
-</td>  
-<td>
-</td>  
-<td>
-1/1/1900 12:00:00 AM
-</td>  
-<td>
-9
-</td></tr>  
-<tr>  
-<td>
-213830
-</td>  
-<td>
-249
-</td>  
-<td>
-11266
-</td>  
-<td>
-NewInterview
-</td>  
-<td>
-</td>  
-<td>
-1/1/1900 12:00:00 AM
-</td>  
-<td>
-8
-</td></tr>  
-<tr>  
-<td>
-213831
-</td>  
-<td>
-247
-</td>  
-<td>
-11266
-</td>  
-<td>
-Dismiss
-</td>  
-<td>
-</td>  
-<td>
-1/1/1900 12:00:00 AM
-</td>  
-<td>
-8
-</td></tr>
-</table>
+
+|Id|Activity_Def_Id|Process_Id|Name|User_Id|Closed|Status_Id|
+|--- |--- |--- |--- |--- |--- |--- |
+|213828|245|11266|Start||11/26/2019 12:03:25 PM|5|
+|213829|242|11266|ScreenCandidate||1/1/1900 12:00:00 AM|9|
+|213830|249|11266|NewInterview||1/1/1900 12:00:00 AM|8|
+|213831|247|11266|Dismiss||1/1/1900 12:00:00 AM|8|
 
 You have completed the Start a Process step.
-
 
 ### Finish a Process
 
@@ -675,103 +573,12 @@ ORDER BY OSSYS_BPM_Activity.Created
 
 The result shows the first two records and the last rows. Each Activity row which is related to the process ID has an Activity Definition. You can see the Label, the closed date, because this Process is fully Closed. The ``Status_Id`` is ``5`` in all rows. If you check the value ``5`` in the ``Activity_Status`` static entity, you see that ``5`` means Closed:
 
-<table>  
-<tr>  
-<td>
-Id
-</td>  
-<td>
-Activity_Def_Id
-</td>  
-<td>
-Process_Id
-</td>  
-<td>
-Name
-</td>  
-<td>
-Closed
-</td>  
-<td>
-Status_Id
-</td></tr>  
-<tr>  
-<td>
-213828
-</td>  
-<td>
-245
-</td>  
-<td>
-11266
-</td>  
-<td>
-Start
-</td>  
-<td>
-11/26/2019 12:03:25 PM
-</td>  
-<td>
-5
-</td></tr>  
-<tr>  
-<td>
-213829
-</td>  
-<td>
-242
-</td>  
-<td>
-11266
-</td>  
-<td>
-ScreenCandidate
-</td>  
-<td>
-11/26/2019 5:09:15 PM
-</td>  
-<td>
-5
-</td></tr>  
-<tr>  
-<td>
-213876
-</td>  
-<td>
-273
-</td>  
-<td>
-11266
-</td>  
-<td>
-SetResult
-</td>  
-<td>
-11/26/2019 5:27:25 PM
-</td>  
-<td>
-5
-</td></tr>  
-<tr>  
-<td>
-213877
-</td>  
-<td>
-244
-</td>  
-<td>
-11266
-</td>  
-<td>
-End
-</td>  
-<td>
-11/26/2019 5:27:25 PM
-</td>  
-<td>
-5
-</td></tr>
-</table>
+|Id|Activity_Def_Id|Process_Id|Name|Closed|Status_Id|
+|--- |--- |--- |--- |--- |--- |
+|213828|245|11266|Start|11/26/2019 12:03:25 PM|5|
+|213829|242|11266|ScreenCandidate|11/26/2019 5:09:15 PM|5|
+|213876|273|11266|SetResult|11/26/2019 5:27:25 PM|5|
+|213877|244|11266|End|11/26/2019 5:27:25 PM|5|
 
 #### Activity Output
 
@@ -789,133 +596,12 @@ INNER JOIN OSSYS_BPM_Activity_Output
 WHERE OSSYS_BPM_Process.Id = 11266
 ```
 
-<table>  
-<tr>  
-<td>
-ActivityName
-</td>  
-<td>
-Id
-</td>  
-<td>
-Output_Def_Id
-</td>  
-<td>
-Activity_Id
-</td>  
-<td>
-Name
-</td>  
-<td>
-Data_Type
-</td>  
-<td>
-Output_Value
-</td>  
-<td>
-SS_Type
-</td></tr>  
-<tr>  
-<td>
-ScreenCandidate
-</td>  
-<td>
-69729
-</td>  
-<td>
-33
-</td>  
-<td>
-213829
-</td>  
-<td>
-Done
-</td>  
-<td>
-rtBoolean
-</td>  
-<td>
-TRUE
-</td>  
-<td>
-rtBoolean
-</td></tr>  
-<tr>  
-<td>
-WaitForAllFeedback
-</td>  
-<td>
-69733
-</td>  
-<td>
-30
-</td>  
-<td>
-213841
-</td>  
-<td>
-ActivityInterviewId
-</td>  
-<td>
-rtInteger
-</td>  
-<td>
-17
-</td>  
-<td>
-bt4...190
-</td></tr>  
-<tr>  
-<td>
-NewInterview
-</td>  
-<td>
-69737
-</td>  
-<td>
-29
-</td>  
-<td>
-213868
-</td>  
-<td>
-ActivityInterviewId
-</td>  
-<td>
-rtInteger
-</td>  
-<td>
-19
-</td>  
-<td>
-bt4...190
-</td></tr>  
-<tr>  
-<td>
-WaitForAllFeedback
-</td>  
-<td>
-69738
-</td>  
-<td>
-30
-</td>  
-<td>
-213870
-</td>  
-<td>
-ActivityInterviewId
-</td>  
-<td>
-rtInteger
-</td>  
-<td>
-19
-</td>  
-<td>
-bt4...190
-</td></tr>
-</table>
+|ActivityName|Id|Output_Def_Id|Activity_Id|Name|Data_Type|Output_Value|SS_Type|
+|--- |--- |--- |--- |--- |--- |--- |--- |
+|ScreenCandidate|69729|33|213829|Done|rtBoolean|TRUE|rtBoolean|
+|WaitForAllFeedback|69733|30|213841|ActivityInterviewId|rtInteger|17|bt4...190|
+|NewInterview|69737|29|213868|ActivityInterviewId|rtInteger|19|bt4...190|
+|WaitForAllFeedback|69738|30|213870|ActivityInterviewId|rtInteger|19|bt4...190|
 
 By using this query, it is possible to see the ``ActivityName``, the Parameter Name found on the fifth column, and it is possible to compare the values of the sheet with the screenshot below:
 
@@ -941,36 +627,11 @@ INNER JOIN sys.sql_modules m
 
 The following table shows the 20 results found. First, create the ``ChangePerson`` Process and fill the ``LaunchOn`` parameter with the entity action ``CreatePerson``. Then, publish the Espace. Finally, run the command again and check if a new trigger is created.
 
-<table>  
-<tr>  
-<td>
-Name
-</td>  
-<td>
-Definition
-</td></tr>  
-<tr>  
-<td>
-OSTRG_EI__OSUSR_EP8_THEENTITY
-</td>  
-<td>
-CREATE TRIGGER [OSTRG_EI__OSUSR_EP8_THEENTITY]
-</td></tr>  
-<tr>  
-<td>
-OSTRG_EI__OSUSR_GTU_PERSON
-</td>  
-<td>
-CREATE TRIGGER [OSTRG_EI__OSUSR_GTU_PERSON]
-</td></tr>  
-<tr>  
-<td>
-OSTRG_EI__OSUSR_EUG_THEENTITY
-</td>  
-<td>
-CREATE TRIGGER [OSTRG_EI__OSUSR_EUG_THEENTITY]
-</td></tr>
-</table>
+|Name|Definition|
+|--- |--- |
+|OSTRG_EI__OSUSR_EP8_THEENTITY|CREATE TRIGGER [OSTRG_EI__OSUSR_EP8_THEENTITY]|
+|OSTRG_EI__OSUSR_GTU_PERSON|CREATE TRIGGER [OSTRG_EI__OSUSR_GTU_PERSON]|
+|OSTRG_EI__OSUSR_EUG_THEENTITY|CREATE TRIGGER [OSTRG_EI__OSUSR_EUG_THEENTITY]|
 
 The trigger content is activated by each Insert or Update operation done into the ``OSUSR_GTU_PERSON`` table. The trigger execution checks for information inside the ``OSEVT_GTU_PERSON`` table and, in case of any relevant configuration, inserts a row into ``OSSYS_BPM_EVENT`` (if it is a light Process) or into ``OSSYS_BPM_EVENT_QUEUE`` (if it is not a light Process). Then the Scheduler processes the ``OSSYS_BPM_EVENT`` and the ``OSSYS_BPM_EVENT_QUEUE`` table.
 
