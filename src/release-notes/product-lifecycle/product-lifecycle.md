@@ -1,5 +1,5 @@
 ---
-summary: Check what type of product releases does OutSystems have and what you can expect from each one. 
+summary: Check what type of product releases does OutSystems have and what you can expect from each one. Details about how OutSystems versions are numbered.
 tags: 
 guid:
 locale:
@@ -13,11 +13,49 @@ At OutSystems we strive to ensure that our customers can continuously benefit fr
 
 Our product may be updated through several types of releases:
 
-* **Major release** - a new major version of the product is announced through extensive marketing campaigns including, press releases, [Product Releases and Updates pages](https://www.outsystems.com/product-updates/) on our website, keynote announcements on NextStep, and other OutSystems events.
+* **Major release** - a new major version of the product is announced through extensive marketing campaigns including, press releases, [Product Releases and Updates pages](https://www.outsystems.com/product-updates/), keynote announcements on NextStep and other OutSystems events.
 
-* **Release** -  within for each product major version, we will periodically release new features. OutSystems will inform customers and developers through community digests and social media posts. All customers’ registered users in OutSystems Community are informed of these changes. Additionally, depending on what's being launched, there might be a specific landing page to support the release, release videos and/or blog posts related to the subject. This type of release occurs whenever something new is added to our product offering. The added value may be in the form of a new supported integration, new supported stack, new security offering, or a new feature.
+* **Release** -  within for each product major version, we will periodically release new features. OutSystems will inform customers and developers through community digests and social media posts. All customers’ registered users in OutSystems Community are informed of these changes. Additionally, depending on what's being launched, there might be a specific landing page to support the release, release videos and/or blog posts related to the subject. This type of release occurs when new features are added.
 
 * **Cumulative patch** - these are mainly focused on bug fixing but may include minor features. This type of release is usually communicated through release notes published on our website.
+
+## OutSystems version numbers
+
+OutSystems version numbers are a sequence of three numbers, separated by a period, and assigned in ascending order.
+
+The version numbering schema is as follows:
+
+**Major release**.**Release**.**Cumulative patch** **Build**
+
+The several components of the version number are the following:
+
+Major
+:   This number identifies the major product version. A new major version is defined in your Subscription Agreement as an "**Upgrade**" or a “**New Software Version**”.
+
+Release
+:   This number increases when OutSystems adds functionality to a release in a backward-compatible manner (for example, from Platform Server 11 **.7**.*n*, where *n* is a number, to Platform Server 11 **.8**.0).
+
+Cumulative patch
+:   This number increases when OutSystems makes backward-compatible bug fixes or minor improvements in a release (for example, from Development Environment 11.7 **.1** to Development Environment 11.7 **.2**).
+
+Build ID
+:   This number identifies a specific build and is unique for each OutSystems component: Development Environment, Platform Server, LifeTime. For example, "Development Environment 11.7.1 **(Build 91)**".
+
+In most situations, the complete version is properly identified by the three first numbers: **Major.Release.Cumulative patch**. However, sometimes, you need to identify a very specific build and, in this case, you should use the three numbers and the build ID.
+
+### Example
+
+The following table illustrates the usage of version numbers in 3 different types of releases:
+
+| Stage | Version number change |
+|---|---|
+| A Major containing new features and possibly breaking changes. The first number (major product version) increases and the other two numbers are reset to 0. | from **10**.n.nto **11**.0.0 |
+| A Release containing new functionality, and possibly breaking changes. The second number increases and the third number is reset to 0. | from 11.**0**.nto 11.**1**.0 |
+| A Cumulative patch containing only defect fixes and minor improvements, but with no breaking changes. The third number (patch) increases. | from 11.1.0to 11.1.**1**  |
+
+
+*n* = an integer number
+
 
 ## Early access programs
 
