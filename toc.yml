@@ -11,7 +11,8 @@
     #     - href: release-notes/11/development-enviroment/coiso               commented because migration not ready yet, placeholder for Release_Notes/11/Development_Environment
     # - href: release-notes/lifetime-management-console                       commented because migration not ready yet, placeholder for Release_Notes/LifeTime_Management_Console
     - href: release-notes/10/intro.md
-    # - topics:
+    - topics:
+        - href: release-notes/10/end-support-10.md
     #     - href: release-notes/10/platform-server/coiso          commented because migration not ready yet
     #     - href: release-notes/10/development-enviroment/coiso   commented because migration not ready yet
     # - href: release-notes/architecture-dashboard/coiso          commented because migration not ready yet
@@ -20,7 +21,6 @@
     # - href: release-notes/experience-builder/coiso              commented because migration not ready yet
     # - href: release-notes/workflow-builder/coiso                commented because migration not ready yet
     - href: release-notes/product-lifecycle/product-lifecycle.md
-    - href: release-notes/what-version.md
 
 # Troubleshooting
 - href: troubleshooting/intro.md
