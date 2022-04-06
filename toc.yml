@@ -21,6 +21,7 @@
     # - href: release-notes/experience-builder/coiso              commented because migration not ready yet
     # - href: release-notes/workflow-builder/coiso                commented because migration not ready yet
     - href: release-notes/product-lifecycle/product-lifecycle.md
+    - href: release-notes/troubleshoot-issues-with-mabs-6.md
 
 # Troubleshooting
 - href: troubleshooting/intro.md
@@ -270,7 +271,6 @@
             - href: enterprise/troubleshooting/attributes-limited-sqlite.md
             - href: enterprise/troubleshooting/upload-not-work-videos-ios.md
             - href: enterprise/troubleshooting/lifetime/lifetime-sync-stuck.md                
-            - href: enterprise/troubleshooting/mabs/troubleshoot-issues-with-mabs-6.md
             - href: enterprise/troubleshooting/mabs-troubleshooting-android.md
             - href: enterprise/troubleshooting/resource-nowait-specified.md 
             - href: enterprise/troubleshooting/troubleshoot-ios-content.md  

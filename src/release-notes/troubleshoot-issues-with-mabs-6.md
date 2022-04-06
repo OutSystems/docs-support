@@ -3,7 +3,7 @@ summary: MABS 6 may cause some breaking changes in your builds after you upgrade
 tags:
 ---
 
-# MABS 6 Breaking Changes and Known Limitations
+# MABS 6 breaking changes and known limitations
 
 <div class="info" markdown="1">
 For common issues and solutions, check also <a href="https://success.outsystems.com/Support/Enterprise_Customers/Troubleshooting/Troubleshooting_the_Mobile_Apps_Generation" title="Troubleshooting article for Mobile Building Service">Troubleshooting the Mobile Apps Generation</a>.
@@ -17,7 +17,7 @@ The most significant change in MABS 6, compared to MABS 5, is the introduction o
 
 </div>
 
-## Breaking Changes
+## Breaking changes
 
 Here is the list of MABS 6 breaking changes, with the instructions on how to fix the issues that may result from the changes.
 
