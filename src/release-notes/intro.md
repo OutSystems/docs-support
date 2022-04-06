@@ -1,9 +1,10 @@
 ---
 summary:
 tags:
-locale: en-US
+locale:
 guid:
 ---
+
 # Release Notes
 
 OutSystems release notes list the new features, improvements and bug fixes in each release.

@@ -20,6 +20,7 @@
     # - href: release-notes/experience-builder/coiso              commented because migration not ready yet
     # - href: release-notes/workflow-builder/coiso                commented because migration not ready yet
     - href: release-notes/product-lifecycle/product-lifecycle.md
+    - href: release-notes/what-version.md
 
 # Troubleshooting
 - href: troubleshooting/intro.md
