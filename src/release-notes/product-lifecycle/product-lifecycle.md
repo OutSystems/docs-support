@@ -5,7 +5,7 @@ guid:
 locale:
 ---
 
-# OutSystems Product Lifecycle and Support calendar
+# OutSystems product lifecycle and support calendar
 
 At OutSystems we strive to ensure that our customers can continuously benefit from our latest innovations and features that truly help to speed up the digital transformation processes. With this goal in mind, we've devised a product lifecycle that allows OutSystems to keep our product innovative and up to date with current market trends.
 
