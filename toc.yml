@@ -127,7 +127,6 @@
             - href: enterprise/maintenance/reverse-proxy/reverse-proxy-config.md
             - href: enterprise/maintenance/reverse-proxy/reverse-proxy-use-cases.md
             - href: enterprise/maintenance/reverse-proxy/reverse-proxy-apache-config.md
-
         - href: enterprise/maintenance/allowlist-cloud-servers/allowlist-cloud-servers.md
         - href: enterprise/maintenance/restart-cloud/restart-cloud.md
         - href: enterprise/maintenance/aws-direct-connect-os-cloud.md
@@ -153,7 +152,6 @@
         - href: enterprise/maintenance/ip-range-cloud.md     
         - href: enterprise/maintenance/viewport-fit-issue.md
         - href: enterprise/maintenance/protect-android-ios-certificate.md
-        - href: enterprise/maintenance/build-multi-tenant-app.md     
         - href: enterprise/maintenance/multiple-db-catalogs-schemas.md
         - href: enterprise/maintenance/cloud-timezones.md
         - href: enterprise/maintenance/failover-procedures.md
