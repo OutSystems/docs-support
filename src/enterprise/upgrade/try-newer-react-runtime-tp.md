@@ -1,6 +1,8 @@
 ---
 summary: Test your aps on the OutSystems Reactive Web and Mobile runtime with a new version of React.
 tags:
+locale: en-us
+guid: e601102f-30c6-4911-a440-e9bd70d47901
 ---
 
 # Technical Preview - Reactive Web and Mobile runtime on React 16

@@ -1,5 +1,7 @@
 ---
 summary:
+locale: en-us
+guid: fef0d982-a3ee-45db-93e7-cd3f26aecd0d
 ---
 
 # Known issue - Upload widget doesn't work for videos in iOS 10.3.x devices

@@ -1,6 +1,8 @@
 ---
 summary: If you request a license for an environment, we'll send an email with it. Go to the environment management console to install the new license.
 en_title: 04 How to install a license file
+locale: en-us
+guid: 901b198a-6fac-460e-b661-9a76c2e1093b
 ---
 
 # How to install a license file

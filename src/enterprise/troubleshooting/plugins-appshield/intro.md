@@ -1,6 +1,8 @@
 ---
 summary: Troubleshooting OutSystems AppShield mobile plugin.
 tags: support-mobile
+locale: en-us
+guid: b3c74743-8b2a-43c9-b435-d491b17ed38c
 ---
 
 # Troubleshooting the OutSystems AppShield mobile plugin

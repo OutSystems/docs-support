@@ -1,5 +1,7 @@
 ---
 summary: An OutSystems Cloud infrastructure provides enterprise-class cloud computing without the hassle of managing physical software infrastructure. 
+locale: en-us
+guid: de7c085b-1c0b-4a1f-9d36-4a7e3f1c3ebc
 ---
 
 # Deploy an infrastructure on OutSystems Cloud

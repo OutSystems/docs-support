@@ -1,6 +1,8 @@
 ---
 summary: <record> Id is not a valid GUID: <input-parameter-value>
 tags:
+locale: en-us
+guid: 8bb2689d-1198-4f5f-b04d-ae962aee277c
 ---
 
 # OS-CMFR-GEN-00003

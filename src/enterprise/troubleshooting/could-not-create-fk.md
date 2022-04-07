@@ -1,5 +1,7 @@
 ---
 summary: This article guides through resolving the error "Could not create Foreign Key" during deployments.
+locale: en-us
+guid: fa591ec3-eb33-4ac1-8e49-e2a797934f6f
 ---
 
 # Troubleshoot "Could not create Foreign Key" errors during deployment

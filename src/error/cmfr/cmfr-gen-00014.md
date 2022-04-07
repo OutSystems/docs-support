@@ -1,6 +1,8 @@
 ---
 summary: Either CanView or CanEdit must be set to True.
 tags:
+locale: en-us
+guid: 862516ae-30d5-4353-8c6a-db12a33a37b3
 ---
 
 # OS-CMFR-GEN-00014

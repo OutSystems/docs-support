@@ -1,6 +1,8 @@
 ---
 summary: How to act when your application isn't showing in the Users app.
 Tags:
+locale: en-us
+guid: 7f3b01b4-47f6-42f1-b3f0-6b152794c516
 ---
 
 # Application isn't present in the Users app

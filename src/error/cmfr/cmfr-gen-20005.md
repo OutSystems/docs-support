@@ -1,6 +1,8 @@
 ---
 summary: Couldn't complete the Takeover. Either the user is missing access or the activity isn't assigned to anyone.
 tags:
+locale: en-us
+guid: 8c226258-db91-4ac9-93b0-ff5ed273daf2
 ---
 
 # OS-CMFR-GEN-20005

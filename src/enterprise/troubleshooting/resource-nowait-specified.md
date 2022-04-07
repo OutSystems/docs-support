@@ -1,5 +1,7 @@
 ---
 summary:
+locale: en-us
+guid: 16f6f208-8be4-4dc1-b5ac-2beff690af36
 ---
 
 # ORA-00054: resource busy and acquire with NOWAIT specified or timeout expired

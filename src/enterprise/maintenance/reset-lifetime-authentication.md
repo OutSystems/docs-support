@@ -1,5 +1,7 @@
 ---
 summary:
+locale: en-us
+guid: ee89babf-f053-4269-8485-d75ff21a2a27
 ---
 
 # Reset LifeTime authentication preferences

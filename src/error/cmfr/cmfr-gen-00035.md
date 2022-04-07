@@ -1,6 +1,8 @@
 ---
 summary: ExternalRequesterDetails and CaseRequesterUserId input parameters cannot be both filled in. Send the CaseRequesterUserId parameter when the requester is an internal user and the ExternalRequesterDetails when the requester is external.
 tags:
+locale: en-us
+guid: dd233fe7-e622-4998-ad2c-0973db37670a
 ---
 
 # OS-CMFR-GEN-00035

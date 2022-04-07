@@ -1,5 +1,7 @@
 ---
 summary: Common error when authenticating using SAML. Check the cause and the resolution.
+locale: en-us
+guid: 9807d569-fb06-45bd-8c68-ae204ee2aa8c
 ---
 
 # Error processing SAML response - Unable to decrypt the assertion

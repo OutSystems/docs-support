@@ -1,5 +1,7 @@
 ---
 summary: This article guides through the necessary steps to move the OutSystems Platform installation to a different path
+locale: en-us
+guid: 6b46a4ee-85c8-482d-96dd-e555863e7935
 ---
 
 # Re-Install the OutSystems Platform on a different path

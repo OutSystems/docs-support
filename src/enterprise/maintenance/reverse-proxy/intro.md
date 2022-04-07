@@ -1,6 +1,8 @@
 ---
 summary: For network topologies and security policies that rely on reverse proxies, use this guide to configure your OutSystems installation according to each scenario.
 tags: support-devOps;support-Infrastuture_Architecture;support-installation;support-Installation_Configuration;support-maintenance;support-Security
+locale: en-us
+guid: 810e320f-8265-49f4-947c-e16bb853e77a
 ---
 # Using OutSystems in Reverse Proxy Scenarios
 

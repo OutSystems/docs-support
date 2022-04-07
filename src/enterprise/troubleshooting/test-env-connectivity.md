@@ -1,6 +1,8 @@
 ---
 summary: Learn how to test the connectivity between two OutSystems environments
 tags:
+locale: en-us
+guid: 4cd51773-8433-49d9-850c-0b958956e63d
 ---
 # Test the connectivity between OutSystems environments
 

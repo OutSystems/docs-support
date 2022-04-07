@@ -1,6 +1,8 @@
 ---
 summary: Configure your OutSystems Cloud environments to use your company's domain. Keep serving secure applications with SSL certificates.
 tags: support-Application_Troubleshooting; support-Cloud_Platform; support-Cloud_Platform-featured; support-Installation_Configuration; support-installation; support-Security; article-page
+locale: en-us
+guid: 75f71e55-19e7-4a6a-bd44-f730385acf52
 ---
 
 # Use your SSL domain in OutSystems Cloud

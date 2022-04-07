@@ -1,6 +1,8 @@
 ---
 summary: Check here the possible errors that you can get when validating your SSL domain certificate in OutSystems Cloud and how to proceed for each case.
 tags:
+locale: en-us
+guid: 7a4d2b58-5b42-4f33-be80-e3734d161ea8
 ---
 
 # Possible errors when validating your SSL domain certificate

@@ -2,6 +2,8 @@
 summary: A list of CSS classes used in Silk UI and OutSystems UI.
 tags: 
 en_title: 03 Migration reference tables for Silk and OutSystems Web UI
+locale: en-us
+guid: f3509fb6-8cae-449b-b321-1b7c828f48a8
 ---
 
 # Migration reference tables for Silk and OutSystems Web UI

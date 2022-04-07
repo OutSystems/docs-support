@@ -1,6 +1,8 @@
 ---
 summary: An overview of the stages for migrating a Traditional App to a Reactive App. Adapt it to your requirements.
 tags:
+locale: en-us
+guid: b00bd152-2bc4-4dc9-9200-1de2bdbd26da
 ---
 
 # Suggested stages of Traditional to Reactive App migration

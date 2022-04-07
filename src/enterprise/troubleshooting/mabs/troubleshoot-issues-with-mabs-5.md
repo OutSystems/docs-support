@@ -1,6 +1,8 @@
 ---
 summary: Check how you can fix some of the mobile app build issues after upgrading to MABS 5.0.
 tags: support-mobile
+locale: en-us
+guid: c17b230d-07c0-4dd2-b977-a794555d8ba2
 ---
 
 # Troubleshooting Issues with MABS 5.0

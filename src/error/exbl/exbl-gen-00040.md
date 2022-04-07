@@ -1,6 +1,8 @@
 ---
 summary: The provided Experience Builder App <appName> data is invalid. <detailedErrorMessage>.
 tags:
+locale: en-us
+guid: 68f59929-ed07-4ac9-9605-c6bb703d4737
 ---
 
 # OS-EXBL-GEN-00040

@@ -2,6 +2,8 @@
 summary: Some common use cases in reverse proxy scenarios and the configuration to be performed to implement each scenario.
 tags: support-installation;support-maintenance;support-Security
 en_title: 02_Common_use_cases_in_reverse_proxy_scenarios
+locale: en-us
+guid: 4c538aa3-0623-4e86-b871-9fdd3767eb6f
 ---
 
 # Common use cases in reverse proxy scenarios

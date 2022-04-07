@@ -1,6 +1,8 @@
 ---
 summary: How to update the login/logout flows of your Reactive Web App so that it supports SAML-based end user authentication methods.
 tags: runtime-reactiveweb
+locale: en-us
+guid: 11596936-2e31-4503-a83c-02513439f95d
 ---
 
 # Updating the login/logout flows of your Reactive Web App to support SAML 2.0

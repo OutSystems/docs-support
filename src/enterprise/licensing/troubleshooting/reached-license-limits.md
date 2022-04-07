@@ -1,6 +1,8 @@
 ---
 summary: Each license has certain usage limits. OutSystems will work with you to ensure that overuse of your subscription won't impact your current activities.
 en_title: 01 I have reached my license limits
+locale: en-us
+guid: dddd2596-c4b3-4963-80ae-f79be09f2f09
 ---
 
 # I have reached my license limits

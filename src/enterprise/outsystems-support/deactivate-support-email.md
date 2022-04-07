@@ -1,5 +1,7 @@
 ---
 summary: OutSystems is deactivating the email ticket-creation process thorugh support@outsystems.com.
+locale: en-us
+guid: df32f0b5-ef89-4f40-9857-a532c38a472d
 ---
 
 # Change to our email support channel

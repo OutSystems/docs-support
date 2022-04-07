@@ -1,5 +1,7 @@
 ---
 summary: Check how you can fix some of the mobile app build errors after upgrading from MABS 4 to MABS 5.
+locale: en-us
+guid: 882d32b2-39e0-4d08-9d40-e30f80cd467f
 ---
 
 

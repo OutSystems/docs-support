@@ -1,5 +1,7 @@
 ---
 summary: If you can't connect from the IDE to your personal environment, check if your environment was recycled. Login at outsystems.com to check this.
+locale: en-us
+guid: 1772e0b0-ad78-4f95-851f-89323b298934
 ---
 
 # There was an error contacting outsystemscloud.com: Host not found

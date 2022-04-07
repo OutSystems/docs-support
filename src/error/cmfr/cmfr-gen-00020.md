@@ -1,6 +1,8 @@
 ---
 summary: Both statuses must belong to the same Case Definition.
 tags:
+locale: en-us
+guid: cdb9315b-c576-4202-93f3-b5e69683c95b
 ---
 
 # OS-CMFR-GEN-00020

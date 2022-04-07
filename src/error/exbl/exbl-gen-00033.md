@@ -1,6 +1,8 @@
 ---
 summary: This file isn't supported. Select a valid image file (JPG or PNG).
 tags:
+locale: en-us
+guid: de9d73d2-32d6-428d-a65d-a289cc494860
 ---
 
 # OS-EXBL-GEN-00033

@@ -1,6 +1,8 @@
 ---
 summary: Try OutSystems in Azure
 tags:
+locale: en-us
+guid: e0085624-ca0d-42cf-91ae-f259280dc67b
 ---
 
 # Install OutSystems Trial on Azure

@@ -1,6 +1,8 @@
 ---
 summary: Not all <records> reference the same <record>. Change them accordingly.
 tags:
+locale: en-us
+guid: fc9d78d9-1345-411d-91f8-72b2d8652cab
 ---
 
 # OS-CMFR-GEN-00025

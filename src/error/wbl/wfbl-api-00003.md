@@ -1,6 +1,8 @@
 ---
 summary: Storage error. <OriginalErrorMessage>.
 tags:
+locale: en-us
+guid: 3b8b45df-e5c5-4948-8be2-ecdfdaed186c
 ---
 
 # OS-WFBL-API-00003

@@ -1,5 +1,7 @@
 ---
 summary:
+locale: en-us
+guid: 0c19ce88-799c-45bb-954a-c77d1364fb87
 ---
 
 # Information Logged by OutSystems Platform

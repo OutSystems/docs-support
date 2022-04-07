@@ -1,6 +1,8 @@
 ---
 summary: Environment <Hostname> isn't authorized to access the Integration Builder. Contact OutSystems Support to confirm its authorization.
 tags:
+locale: en-us
+guid: 5bda389f-0bd2-414f-a770-895181227675
 ---
 
 # OS-INBL-API-00011

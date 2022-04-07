@@ -1,6 +1,8 @@
 ---
 summary: OutSystems allows the development of enterprise web and mobile applications that run in different infrastructure models
 tags:
+locale: en-us
+guid: b04339ce-7b9f-4c93-94b7-e4cf397eab47
 ---
 
 # OutSystems Cloud Shared Responsibility Model

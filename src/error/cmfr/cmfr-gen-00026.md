@@ -1,6 +1,8 @@
 ---
 summary: Access permissions for that Case Definition have already been granted to that <user/group>.
 tags:
+locale: en-us
+guid: 96307f01-fa1c-4478-b43f-aea3e54655e5
 ---
 
 # OS-CMFR-GEN-00026

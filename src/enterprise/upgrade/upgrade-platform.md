@@ -2,6 +2,8 @@
 summary: This article is a guide on how to upgrade the Platform Server component in your OutSystems environments, keeping your infrastructure up-to-date to make best use of the latest features and improvements.
 tags: support-devOps; support-upgrade
 en_title: 01 Upgrade OutSystems Platform
+locale: en-us
+guid: 617e2ef6-9fca-4cf0-9840-a0277670083e
 ---
 # Upgrade OutSystems platform
 

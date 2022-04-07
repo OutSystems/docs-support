@@ -1,6 +1,8 @@
 ---
 summary: Guide to establish a stable VPN connection to OutSystems PaaS
 tags: support-Cloud_Platform
+locale: en-us
+guid: eee4da25-8b13-4bac-b8e7-dae4ece8c3ec
 ---
 # VPN connectivity and troubleshooting guide
 

@@ -1,6 +1,8 @@
 ---
 summary: Cannot change the type of an existing attribute: <Name> (<Id>).
 tags:
+locale: en-us
+guid: a1b0c984-7839-4f47-bf99-ee63d2d2ae1f
 ---
 
 # OS-WFBL-CONF-00003

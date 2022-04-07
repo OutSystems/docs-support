@@ -1,6 +1,8 @@
 ---
 summary: Procedure to change the passwords of the database users that ensure the Outsystems components and apps functionality.
 Tags:
+locale: en-us
+guid: 9c278333-131f-4be3-9109-1a22630abdf6
 ---
 
 #  How to change the password of OutSystems database users

@@ -1,6 +1,8 @@
 ---
 summary: The license installed in an environment, define which feature are available and their limits. You can check your licensing limits on the environment management console.
 en_title: 07 Check what your license includes, and your effective usage
+locale: en-us
+guid: 8fc044d9-39d5-4152-91c6-3bfe2de76768
 ---
 
 # Check what your license includes, and your effective usage

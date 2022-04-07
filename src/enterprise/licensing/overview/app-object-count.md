@@ -1,6 +1,8 @@
 ---
 summary:
 tags:
+locale: en-us
+guid: cd994c70-9dcc-46ed-b423-84099beac39a
 ---
 
 # Application Objects

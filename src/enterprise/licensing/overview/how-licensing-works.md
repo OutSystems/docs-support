@@ -1,5 +1,7 @@
 ---
 summary: Frequently asked questions about how OutSystems infrastructure and environments are identified. Explanation of concepts such as Activation Code and Serial Number.
+locale: en-us
+guid: f05ef789-4630-41c8-83e8-34a5b43f9b78
 ---
 
 # Understanding how to identify OutSystems infrastructure and runtime environments 

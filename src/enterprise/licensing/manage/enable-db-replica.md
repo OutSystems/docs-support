@@ -1,5 +1,7 @@
 ---
 summary: 
+locale: en-us
+guid: 896be9ef-da8e-438e-9e6e-1ade428de326
 ---
 
 # Enable Database Replica

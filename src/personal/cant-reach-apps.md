@@ -1,6 +1,8 @@
 ---
 summary: If you can't access the apps on your personal environment, go to www.outsystems.com/home and check if your environment has been recycled.
 en_title: Cant reach apps on my personal environment
+locale: en-us
+guid: 61c16e5f-94d2-4a3e-ba75-c40ead245a3c
 ---
 
 # Can't reach apps on my personal environment

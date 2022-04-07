@@ -1,5 +1,7 @@
 ---
 summary: Check how to restart OutSystems services via LifeTime in OutSystems Cloud infrastructures.
+locale: en-us
+guid: 814d4a99-9c7c-4418-9788-34b5dcdf6f88
 ---
 
 # Restart services on OutSystems Cloud

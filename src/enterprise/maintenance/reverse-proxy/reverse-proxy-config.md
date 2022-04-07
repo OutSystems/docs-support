@@ -2,6 +2,8 @@
 summary: Learn the configurations you need to apply to your OutSystem environment in reverse proxy scenarios.
 tags: support-installation;support-maintenance;support-Security
 en_title: 03_OutSystems_configurations_in_reverse_proxy_scenarios
+locale: en-us
+guid: bcce21a6-37ab-43a1-90cf-5922fc75effa
 ---
 
 # OutSystems configurations in reverse proxy scenarios

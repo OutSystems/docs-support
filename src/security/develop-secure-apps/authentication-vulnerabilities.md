@@ -2,6 +2,8 @@
 summary: Protect your OutSystems apps against authentication vulnerabilities and don't let your passwords and session fall into the wrong hands.
 tags: protecting-outsystems-applications; outsystems-security; outsystems-secure-applications; outsystems-access-control; outsystems-authentication-vulnerabilities
 en_title: 02 Protecting OutSystems apps from authentication vulnerabilities
+locale: en-us
+guid: bb010468-9ea8-42d8-815d-c5f8cf3ce2cd
 ---
 
 # Protecting OutSystems Apps From Authentication Vulnerabilities

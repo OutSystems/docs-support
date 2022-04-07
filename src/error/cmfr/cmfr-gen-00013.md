@@ -1,6 +1,8 @@
 ---
 summary: It's not possible to fill in both UserId and GroupId attributes.
 tags:
+locale: en-us
+guid: 7b1671ce-3e39-4c51-bb58-f8f66be538a7
 ---
 
 # OS-CMFR-GEN-00013

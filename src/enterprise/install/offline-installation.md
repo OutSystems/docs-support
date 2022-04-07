@@ -1,5 +1,7 @@
 ---
 summary:
+locale: en-us
+guid: 900d27aa-ee3c-496d-a216-229c64a4d604
 ---
 
 # Offline Installation of the OutSystems Platform

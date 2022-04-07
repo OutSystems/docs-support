@@ -1,6 +1,8 @@
 ---
 summary: You can only have one initial case status.
 tags:
+locale: en-us
+guid: 0f042f7b-b512-4083-abad-80b2fa865680
 ---
 
 # OS-CMFR-GEN-00018

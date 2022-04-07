@@ -1,5 +1,7 @@
 ---
 summary: Typical reasons for the debugger to hang or stop working in a debugging session. Check the causes and the solutions.
+locale: en-us
+guid: 0818cc08-cca4-4780-bbc5-6e1cb8b77a10
 ---
 
 # Debugger in Service Studio isn't working

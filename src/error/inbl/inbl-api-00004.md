@@ -1,6 +1,8 @@
 ---
 summary: User with username <Username> was not found.
 tags:
+locale: en-us
+guid: a15f4363-343a-45aa-8bc2-89948feb02f6
 ---
 
 # OS-INBL-API-00004

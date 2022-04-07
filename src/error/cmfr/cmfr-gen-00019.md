@@ -1,6 +1,8 @@
 ---
 summary: One or more <record> Ids aren't valid GUIDs.
 tags:
+locale: en-us
+guid: f43cff40-cc15-4a4c-94ee-cfa3c2d0b676
 ---
 
 # OS-CMFR-GEN-00019

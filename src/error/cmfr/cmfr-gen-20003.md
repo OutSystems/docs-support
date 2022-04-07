@@ -1,6 +1,8 @@
 ---
 summary: It looks like you don't have access to the activity.
 tags:
+locale: en-us
+guid: 37fba356-87fc-4e24-b795-944b0ba1dedb
 ---
 
 # OS-CMFR-GEN-20003

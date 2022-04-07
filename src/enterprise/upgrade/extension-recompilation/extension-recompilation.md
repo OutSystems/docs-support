@@ -1,6 +1,8 @@
 ---
 summary: Prevent unattended and unwanted code modifications in extension upgrade scenarios.
 tags: 
+locale: en-us
+guid: 3dfe03fb-1a93-4db1-8407-dd55881d44ef
 ---
 
 # Server extension recompilation on upgrade

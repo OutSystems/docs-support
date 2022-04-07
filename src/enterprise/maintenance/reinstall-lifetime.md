@@ -1,6 +1,8 @@
 ---
 summary: This article describes how to remove the infrastructure management console (LifeTime) from a shared environment and installing it in a new dedicated environment.
 tags:
+locale: en-us
+guid: e7dcad56-9c9a-40c2-b798-dc70d3015564
 ---
 # Reinstall the infrastructure management console in a dedicated environment
 

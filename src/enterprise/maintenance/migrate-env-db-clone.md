@@ -1,6 +1,8 @@
 ---
 summary:
 tags:
+locale: en-us
+guid: c7a43888-5a32-42f9-ab2a-f479c076ad79
 ---
 
 # Migrate an Environment Using a Database Clone

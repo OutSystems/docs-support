@@ -1,6 +1,8 @@
 ---
 summary: We're sorry, but this database isn't supported.
 tags:
+locale: en-us
+guid: d22ff22b-2cf5-43e8-baf9-26a28ea489dd
 ---
 
 # OS-CMFR-GEN-00011

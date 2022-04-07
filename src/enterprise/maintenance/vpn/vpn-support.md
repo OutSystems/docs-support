@@ -1,6 +1,8 @@
 ---
 summary: Check how to set up a site-to-site VPN, allowing secure communication between your on-premises network and OutSystems Cloud.
 tags: support-Cloud_Platform; support-installation; support-Installation_Configuration; support-maintenance; VPN; support-devOps; support-troubleshooting
+locale: en-us
+guid: f05c9cb8-7c15-4b9d-bf6c-c2da72993ff8
 ---
 
 # Set up a VPN to your OutSystems Cloud

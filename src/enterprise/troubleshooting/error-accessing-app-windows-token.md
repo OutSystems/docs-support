@@ -1,5 +1,7 @@
 ---
 summary:
+locale: en-us
+guid: 6d5b466c-0819-4e81-a080-6089039c0394
 ---
 
 # Error accessing application - Could not create Windows user token from the credentials specified in the config file

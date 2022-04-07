@@ -1,6 +1,8 @@
 ---
 summary: Unable to discard version. It has published versions: <ApplicationVersionId>.
 tags:
+locale: en-us
+guid: 270faa45-55c5-40d2-a96b-c52cd31b2a95
 ---
 
 # OS-WFBL-GEN-00006

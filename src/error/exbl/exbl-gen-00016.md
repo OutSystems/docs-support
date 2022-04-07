@@ -1,6 +1,8 @@
 ---
 summary: The file you've selected exceeds the maximum size limit. Select a file with up to <fileSize>). 
 tags:
+locale: en-us
+guid: 6f9a617e-0503-4dfc-9082-e47770816da9
 ---
 
 # OS-EXBL-GEN-00016

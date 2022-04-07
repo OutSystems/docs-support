@@ -1,6 +1,8 @@
 ---
 summary: On the OutSystems Cloud we'll manage the licensing for you. For self-managed you need to get a license and install it on your environment. Use the Customer Portal for this.
 en_title: 03 Get a license file for an environment
+locale: en-us
+guid: 95ac49e0-a453-4fe3-9b67-49d88ee832bd
 ---
 
 # Get a license file for an environment

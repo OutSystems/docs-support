@@ -1,6 +1,8 @@
 ---
 summary: Know how to remove a component from the Forge.
 tags: forge; forge_support; ipp;
+locale: en-us
+guid: bcc21963-f41a-445d-aff6-685a46999659
 ---
 
 # How to remove a component from the Forge

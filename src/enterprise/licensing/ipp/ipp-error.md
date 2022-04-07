@@ -1,5 +1,7 @@
 ---
 summary:  Procedure to fix intellectual property errors when publishing or deploying apps. Includes an OutSystems app and instructions to check your environments for future errors.
+locale: en-us
+guid: 807610ee-01f6-4631-9ea0-0509a275de26
 ---
 
 # Resolve an intellectual property error

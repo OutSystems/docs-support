@@ -2,6 +2,8 @@
 summary: Instructions on how to migrate the module structure to OutSystems UI Web framework.
 tags: 
 en_title: 01 Migrating the structure of the Silk web applications to OutSystems UI
+locale: en-us
+guid: 072bad87-b493-4f6e-922d-17b22c4404d1
 ---
 
 # Migrating the structure of the Silk web applications to OutSystems UI

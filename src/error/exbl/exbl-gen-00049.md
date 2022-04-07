@@ -1,6 +1,8 @@
 ---
 summary: There was an error loading the flow. Exit and re-enter the app to continue.
 tags:
+locale: en-us
+guid: 6c0ca056-cd3b-4bed-b935-08140db048ce
 ---
 
 # OS-EXBL-GEN-00049

@@ -1,6 +1,8 @@
 ---
 summary: For scenarios that require the use of high bandwidth and a steady connection without network congestion, learn how to set up AWS Direct Connect linking your private network with OutSystems Cloud over a dedicated line.
 tags: support-Cloud_Platform; support-installation; support-Installation_Configuration; support-maintenance; support-devOps
+locale: en-us
+guid: 8a6372d7-7acc-4e88-98cd-41946233ca2d
 ---
 
 # AWS Direct Connect on OutSystems Cloud

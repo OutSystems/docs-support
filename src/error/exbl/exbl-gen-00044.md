@@ -1,6 +1,8 @@
 ---
 summary: The end date must be after the initial date.
 tags:
+locale: en-us
+guid: 0d3c9c80-cbed-46b2-83cb-25e4a99c31a8
 ---
 
 # OS-EXBL-GEN-00044

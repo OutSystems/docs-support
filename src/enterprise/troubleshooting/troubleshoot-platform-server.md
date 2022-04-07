@@ -1,5 +1,7 @@
 ---
 summary: Known techniques for troubleshooting OutSystems Platform Server.
+locale: en-us
+guid: c57316a8-9575-4162-bf71-ef46a19f9b99
 ---
 
 

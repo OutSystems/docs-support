@@ -1,6 +1,8 @@
 ---
 summary: Cannot create Group: <OriginalErrorMessage>.
 tags:
+locale: en-us
+guid: c5884356-f8a8-439b-8810-1a1bcd0ef996
 ---
 
 # OS-WFBL-CONF-00007

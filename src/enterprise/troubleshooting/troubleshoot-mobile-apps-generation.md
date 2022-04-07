@@ -1,6 +1,8 @@
 ---
 summary: Troubleshooting issues when generating mobile apps to native platforms.
 tags: support-Mobile_Apps-featured
+locale: en-us
+guid: 2705ae8e-d762-41cc-804f-0c9825d71074
 ---
 
 # Troubleshooting the mobile Apps generation

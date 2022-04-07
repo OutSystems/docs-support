@@ -1,6 +1,8 @@
 ---
 summary: It looks like you don't have access. Make sure you're logged in with a registered user.
 tags:
+locale: en-us
+guid: bb0bbe53-0079-4942-8ebf-8885804c910f
 ---
 
 # OS-CMFR-GEN-20001

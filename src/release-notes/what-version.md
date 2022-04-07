@@ -1,8 +1,8 @@
 ---
 summary: Check what's the installed version of the several components of OutSystems - Service Studio, Integration Studio, LifeTime and Platform Server.
 tags:
-locale:
-guid:
+locale: en-us
+guid: 98a6a460-e03e-4610-ab03-d9e1eda2239c
 ---
 
 # Check what OutSystems version you are using

@@ -1,6 +1,8 @@
 ---
 summary: API error. <OriginalErrorMessage>.
 tags:
+locale: en-us
+guid: 2e6292db-6e88-4f58-8629-ae877dd523ee
 ---
 
 # OS-WFBL-API-10001

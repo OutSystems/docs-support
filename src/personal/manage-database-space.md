@@ -1,5 +1,7 @@
 ---
 summary: Personal Environments can store up to 2GB on the database. This includes system and application data. Learn what you can do to take the most of it.
+locale: en-us
+guid: 8eb02f36-7cbc-43f1-aec7-6c00c76a6bbf
 ---
 
 # Manage the database space of your personal environment

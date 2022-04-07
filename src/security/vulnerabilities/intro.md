@@ -1,6 +1,8 @@
 ---
 summary: Overview of the way we tackle vulnerabilities found in the OutSystems Platform. 
 Tags: security-vulnerabilities; article-page
+locale: en-us
+guid: bc76e550-bfca-40a6-ad24-7fe3db432331
 ---
 
 # Vulnerabilities

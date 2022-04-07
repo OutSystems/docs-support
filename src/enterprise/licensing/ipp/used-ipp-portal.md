@@ -1,5 +1,7 @@
 ---
 summary: It may take up to an hour to change the activation code of your applications. If you haven't received an email, check your spam folder, or contact Support.
+locale: en-us
+guid: c36e541a-18b4-4b3d-bf80-1ff03dbaa0bc
 ---
 
 # Used the IPP portal, but didn't receive an email

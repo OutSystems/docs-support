@@ -1,6 +1,8 @@
 ---
 summary: Something went wrong on our side. Contact the Experience Builder support team for more information.
 tags:
+locale: en-us
+guid: 377d34f6-3ada-4622-84c5-8805b0e370e2
 ---
 
 # OS-EXBL-GEN-00001

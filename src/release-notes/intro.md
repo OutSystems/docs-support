@@ -1,8 +1,8 @@
 ---
 summary:
 tags:
-locale:
-guid:
+locale: en-us
+guid: c2f21145-4392-4501-a5dc-cb16270164e3
 ---
 
 # Release Notes

@@ -1,6 +1,8 @@
 ---
 summary: The application flow <flowName> has an invalid <metadataFieldName>.
 tags:
+locale: en-us
+guid: e0ab670d-36c0-40a9-b86e-ba2c2b0a3598
 ---
 
 # OS-EXBL-GEN-00017

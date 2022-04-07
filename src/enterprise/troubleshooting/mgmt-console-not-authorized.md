@@ -1,5 +1,7 @@
 ---
 summary:
+locale: en-us
+guid: 39b458bb-aa97-4fee-8438-342a45d60c8d
 ---
 
 # Error accessing management consoles: "You are not authorized to view this page"

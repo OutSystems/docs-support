@@ -1,6 +1,8 @@
 ---
 summary: How and when OutSystems updates the Operating systems of PaaS servers.
 tags: support-Cloud_Platform-featured
+locale: en-us
+guid: b41ab799-b4e4-4f0f-8141-b36fef030b0d
 ---
 
 # System Updates on OutSystems Cloud

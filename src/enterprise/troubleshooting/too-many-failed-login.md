@@ -1,5 +1,7 @@
 ---
 summary: Possible causes and their resolution for the "Too many failed login attempts" error
+locale: en-us
+guid: 6da4a5dd-e192-473f-a7fc-722e888db1f6
 ---
 
 # Too many failed login attempts - causes and resolution

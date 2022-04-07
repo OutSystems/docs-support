@@ -1,6 +1,8 @@
 ---
 summary: Invalid access. <OriginalErrorMessage>.
 tags:
+locale: en-us
+guid: d528800d-d929-49dd-9ea3-8378debe4043
 ---
 
 # OS-WFBL-GEN-10001

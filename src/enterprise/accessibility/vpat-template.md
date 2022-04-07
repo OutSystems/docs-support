@@ -1,5 +1,7 @@
 ---
 summary: The purpose of the Voluntary Product Accessibility Template, or VPATTM, is to assist Federal contracting officials and other buyers in making preliminary assessments regarding the support given by OutSystems Platform to delivery of accessibility standards compliant applications.
+locale: en-us
+guid: c61481b5-bfd8-4d06-9024-e3185659b455
 ---
 
 # VPAT - Voluntary Product Accessibility Template

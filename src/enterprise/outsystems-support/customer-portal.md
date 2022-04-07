@@ -1,6 +1,8 @@
 ---
 summary: Learn how to manage your team access to the OutSystems online tools like Customer Portal, Support Portal and Licensing.
 tags: support-account-overview; support-subscription_model
+locale: en-us
+guid: 5bd7f106-3784-4821-a603-0ad0c0fd8f82
 ---
 
 # Managing your company permissions on OutSystems Customer Portal

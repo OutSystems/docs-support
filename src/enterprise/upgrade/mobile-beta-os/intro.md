@@ -1,5 +1,7 @@
 ---
 summary: The OutSystems policy for supporting new versions of mobile operating systems, and the new SDK versions from Android and iOS.
+locale: en-us
+guid: 6201ced2-dd45-4d61-96af-714f4f170512
 ---
 
 # Support provided for beta versions

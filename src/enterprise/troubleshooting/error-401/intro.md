@@ -1,6 +1,8 @@
 ---
 summary: This document lists two common reasons that can help you troubleshoot the issue. A 401 error when authentication fails after client request. Message "Install the new app template to start creating Reactive Web apps".
 Tags:
+locale: en-us
+guid: 292ae0af-338c-48d8-be72-b23cc3d84380
 ---
 
 # Unable to create a new app due to 401 error or missing templates

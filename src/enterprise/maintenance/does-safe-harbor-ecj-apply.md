@@ -1,5 +1,7 @@
 ---
 summary: ​Safe Harbor framework only applies to international data transfers between the European Union and the US.
+locale: en-us
+guid: 6cfcd36b-554f-40f5-ae3f-b5030dc4312a
 --- 
 # Does the Safe Harbor ECJ ruling apply to my OutSystems service?
 

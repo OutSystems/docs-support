@@ -1,6 +1,8 @@
 ---
 summary: An error occurred while loading the app. Try closing and re-opening the app. 
 tags:
+locale: en-us
+guid: 74727dad-ac6f-4c16-9888-4005334d46de
 ---
 
 # OS-EXBL-GEN-00048

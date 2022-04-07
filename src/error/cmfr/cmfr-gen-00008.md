@@ -1,6 +1,8 @@
 ---
 summary: There's no access control for that <user/group>/<case/case definition> pairing.
 tags:
+locale: en-us
+guid: ea7908f7-0891-47cf-bb24-63e201da0baa
 ---
 
 # OS-CMFR-GEN-00008

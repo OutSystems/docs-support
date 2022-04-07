@@ -1,6 +1,8 @@
 ---
 summary: There's already an active Case Status defined as initial.
 tags:
+locale: en-us
+guid: 00538b23-fecd-47ed-91c1-cee49b2c5b33
 ---
 
 # OS-CMFR-GEN-00017

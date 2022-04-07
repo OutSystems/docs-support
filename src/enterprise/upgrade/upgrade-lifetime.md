@@ -1,6 +1,8 @@
 ---
 summary: This article describes the process to upgrade the LifeTime management console of your OutSystems infrastructure to Release Sep.2018 (11.0.108.0) or later, and what you must take into consideration during that process.
 tags: support-devOps; support-upgrade
+locale: en-us
+guid: 1dd579f8-20ca-4af9-89fa-40697272f8bc
 ---
 # Upgrade LifeTime management console
 

@@ -1,8 +1,8 @@
 ---
 summary: Check what type of product releases does OutSystems have and what you can expect from each one. Details about how OutSystems versions are numbered.
 tags: 
-guid:
-locale:
+locale: en-us
+guid: d18db4ef-572c-4961-a7aa-097259242aca
 ---
 
 # OutSystems product lifecycle and support calendar

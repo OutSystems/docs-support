@@ -1,6 +1,8 @@
 ---
 summary: Communication error. <OriginalErrorMessage>.
 tags:
+locale: en-us
+guid: b7df1f71-ee02-4d72-9aa3-7dd49811e479
 ---
 
 # OS-WFBL-GEN-40002

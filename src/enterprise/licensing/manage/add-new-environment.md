@@ -1,6 +1,8 @@
 ---
 summary: If you're using the cloud-based version, just request a new environment. If you're using the on-premises version, you need to get a license for the new environment.
 en_title: 02 add a new environment to your infrastructure
+locale: en-us
+guid: fa47e66e-155d-4b3c-b64d-945de079d123
 ---
 
 # Add a new environment to your infrastructure

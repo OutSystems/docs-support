@@ -1,5 +1,7 @@
 ---
 summary: Applications in the OutSystems Platform often require full data separation up to database level. This can happen to enable stricter control on access to critical or sensitive data, to allow for more granular storage management and database maintenance, or simply for organization purposes. The Multiple Database Catalogs and Schemas feature allows you to meet these requirements by binding your modules to specific database catalogs or schemas. The Platform automatically manages runtime users’ permi
+locale: en-us
+guid: 1c742c8a-449c-4828-865b-7295d2f90527
 ---
 
 # Multiple Database Catalogs and Schemas

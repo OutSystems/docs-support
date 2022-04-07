@@ -1,6 +1,8 @@
 ---
 summary: This rule isn't configured or doesn't exist.
 tags:
+locale: en-us
+guid: ca40e6e0-aca2-4171-9691-ddbf5a4db552
 ---
 
 # OS-CMFR-GEN-00031

@@ -1,5 +1,7 @@
 ---
 summary:
+locale: en-us
+guid: 4728654c-0e38-49cd-9e9a-789e1fe5c052
 ---
 
 # BPT - Automatic Activities Timeout

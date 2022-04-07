@@ -1,5 +1,7 @@
 ---
 summary: The infrastructure management console is installed on a dedicated environment. Learn how to size the database for LifeTime.
+locale: en-us
+guid: c968ec98-068a-4ca0-a0f3-f0d2c09978e6
 ---
 
 # Size an environment to run the infrastructure management console

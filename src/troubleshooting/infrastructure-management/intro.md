@@ -1,8 +1,8 @@
 ---
 summary: Troubleshoot issues that can occur when managing and configuring your OutSystems infrastructure.
 tags: 
-guid:
-locale:
+locale: en-us
+guid: f3b240fe-a16d-4d15-b4f5-043abf3128c6
 ---
 
 # Infrastructure management

@@ -1,6 +1,8 @@
 ---
 summary: The milestone has already been achieved.
 tags:
+locale: en-us
+guid: 69d7003c-fe01-4ac7-8df9-2122cbe0e90d
 ---
 
 # OS-CMFR-GEN-00012

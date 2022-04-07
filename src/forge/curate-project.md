@@ -1,6 +1,8 @@
 ---
 summary: Know about the level of curation of the projects shared in the Forge and the support you can get for those projects.
 tags: forge; forge_support; forge_support_sharing
+locale: en-us
+guid: d6049875-7b13-4af6-b907-fa767a1e7104
 ---
 
 # Curating Projects

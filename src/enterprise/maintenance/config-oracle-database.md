@@ -1,5 +1,7 @@
 ---
 summary: 
+locale: en-us
+guid: 27d32f78-27a2-4e8a-af85-8b356928c4d7
 ---
 
 # Configuring Oracle database in the OutSystems platform

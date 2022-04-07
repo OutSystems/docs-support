@@ -1,6 +1,8 @@
 ---
 summary: The maximum number of side menu items is <max-items-number>.
 tags:
+locale: en-us
+guid: 1849a807-826a-472b-995a-4a6268faf608
 ---
 
 # OS-EXBL-GEN-00054

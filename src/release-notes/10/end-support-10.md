@@ -1,8 +1,8 @@
 ---
 summary: Information about the end of mainstream support for OutSystems 10. Check the calendar and the recommended actions.
 tags:
-locale:
-guid:
+locale: en-us
+guid: f141217f-2e63-4132-9912-a6ccb850f527
 ---
 
 # End of mainstream support for OutSystems 10

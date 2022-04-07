@@ -1,3 +1,8 @@
+---
+locale: en-us
+guid: 5207df8b-21b6-4050-89b1-4f582f04e04f
+---
+
 # OutSystems Cloud and time zones
 
 The OutSystems platform has a strong requirement regarding time settings for the involved parts (front-ends and databases): they all have to be in the same time, and with little offsets. This is explained in this [article](https://success.outsystems.com/Support/Enterprise_Customers/Maintenance_and_Operations/Timezone_considerations_in_the_OutSystems_Platform).

@@ -1,6 +1,8 @@
 ---
 summary: Invalid application data. <OriginalErrorMessage>.
 tags:
+locale: en-us
+guid: f062e40f-49f4-4628-84d5-6c0fbaa655ee
 ---
 
 # OS-WFBL-CONF-00005

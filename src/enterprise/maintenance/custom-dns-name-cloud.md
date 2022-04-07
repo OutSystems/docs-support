@@ -1,5 +1,7 @@
 ---
 summary:
+locale: en-us
+guid: 66ca5c48-0df6-45d5-9e0a-c7db3d3e0c01
 ---
 
 # Custom DNS names for OutSystems Cloud servers

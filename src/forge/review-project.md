@@ -1,6 +1,8 @@
 ---
 summary: Learn how to review a component and help others understand if it is relevant.
 tags: forge; forge_support; forge_support_sharing
+locale: en-us
+guid: faa4f7b0-8db6-485d-977b-ef7e703739a7
 ---
 
 # Reviewing or Flagging a Project

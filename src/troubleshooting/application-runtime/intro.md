@@ -1,8 +1,8 @@
 ---
 summary: Troubleshoot issues that can occur when your OutSystems apps are running on the browser or a device.
 tags: 
-guid:
-locale:
+locale: en-us
+guid: 36cc341a-9af4-4394-9441-a5680b138747
 ---
 
 # Application runtime

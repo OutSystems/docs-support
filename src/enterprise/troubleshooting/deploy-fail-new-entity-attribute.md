@@ -1,6 +1,8 @@
 ---
 summary: Identify and solve a timeout issue when deploying an application after adding a new Entity Attribute.
 tags:
+locale: en-us
+guid: f6175b88-b183-4a56-b5da-8ea4d039d836
 ---
 
 # Application deployment takes too long after adding a new Entity Attribute

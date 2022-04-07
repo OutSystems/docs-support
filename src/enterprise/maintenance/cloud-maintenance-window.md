@@ -1,6 +1,8 @@
 ---
 summary: This article describes how you can define the maintenance window for your OutSystems Cloud environment.
 tags: support-Cloud_Platform
+locale: en-us
+guid: 3b1083ab-f9d5-4387-8c29-2d48f3ebbe2b
 ---
 # Define a maintenance window for OutSystems Cloud environments
 

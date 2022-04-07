@@ -1,5 +1,7 @@
 ---
 summary: Learn the causes and how to solve errors that can occur during while trying to login to your personal environment.
+locale: en-us
+guid: c3b7c99f-9b85-42f1-9bae-4036ee8ef145
 ---
 
 # Error messages while connecting to your personal environment

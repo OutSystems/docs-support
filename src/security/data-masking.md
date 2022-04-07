@@ -1,5 +1,7 @@
 ---
 summary: Data masking techniques in OutSystems
+locale: en-us
+guid: d08f59bd-a398-40a7-8106-dadd8645ee3d
 ---
 
 # Data masking with OutSystems

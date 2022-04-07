@@ -1,6 +1,8 @@
 ---
 summary: Troubleshoot a permissions-related error when you upgrade or install Platform Server 11.12.0 or later.
 tags: 
+locale: en-us
+guid: ae2f1814-d3bb-4e38-a5ba-33423aec6c34
 ---
 
 # Service permissions error when installing or upgrading to Platform Server 11.12.0 or later

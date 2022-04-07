@@ -1,6 +1,8 @@
 ---
 summary: This article describes how to restore the OutSystems database to a different database server.
 tags:
+locale: en-us
+guid: 346a4452-9ede-4346-aeb3-9455a48e99cc
 ---
 
 # Restore OutSystems database to a different DB Server

@@ -1,6 +1,8 @@
 ---
 summary: The app description exceeds the character limit. Enter a description with up to <max-length> characters.
 tags:
+locale: en-us
+guid: 38babcd8-54d3-437d-883f-748ece7a92b3
 ---
 
 # OS-EXBL-GEN-00042

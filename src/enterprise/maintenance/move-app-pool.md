@@ -1,6 +1,8 @@
 ---
 summary: Step by step procedure to isolate applications into different application pools in IIS. Segregate the server resource usage for critical apps or to mitigate the impact of a misbehaving application.
 tags:
+locale: en-us
+guid: ec265170-1cd0-4114-8276-47b6a14b4698
 ---
  
 # Move an app to another application pool on IIS

@@ -1,6 +1,8 @@
 ---
 summary: Identify and resolve the "Extension recompilation on upgrade is disabled" publishing error.
 tags: 
+locale: en-us
+guid: c37d5792-0a07-4eda-a3a2-a1e6be408968
 ---
 
 # Publish error: Extension recompilation on upgrade is disabled

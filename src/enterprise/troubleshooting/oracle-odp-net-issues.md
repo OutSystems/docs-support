@@ -1,5 +1,7 @@
 ---
 summary: 
+locale: en-us
+guid: 529e7c9a-0497-4041-a583-1682bdbaead4
 ---
 
 # Oracle Data Provider for .NET (ODP.NET) Driver Issues

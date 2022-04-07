@@ -1,5 +1,7 @@
 ---
 summary:
+locale: en-us
+guid: e8b5cd23-b031-4fca-b2ee-071f8a074def
 ---
 
 # Reset Users authentication preferences

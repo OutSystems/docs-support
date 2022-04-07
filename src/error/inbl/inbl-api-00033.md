@@ -1,6 +1,8 @@
 ---
 summary: The connection was deleted locally, but we could not delete the connection on the Microsoft's servers. You'll need to access Microsoft Azure Active Diretory if you want to delete it manually. Error details "<"Message">".
 tags:
+locale: en-us
+guid: 8870894b-d028-45f3-b936-77eca9d85d93
 ---
 
 # OS-INBL-API-00030

@@ -1,5 +1,7 @@
 ---
 summary: A personal environment is an OutSystems platform running on a shared infrastructure, with limited computing resources, max 2GB data, and no team collaboration.
+locale: en-us
+guid: 5b26b215-56f9-460e-9794-f4b7fcb15a16
 ---
 
 # Personal environment hosting infrastructure under the hood

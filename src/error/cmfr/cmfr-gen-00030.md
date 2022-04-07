@@ -1,6 +1,8 @@
 ---
 summary: The expected rule output type does not match this rule type.
 tags:
+locale: en-us
+guid: 2229f515-fe18-40a9-a982-092610638934
 ---
 
 # OS-CMFR-GEN-00030

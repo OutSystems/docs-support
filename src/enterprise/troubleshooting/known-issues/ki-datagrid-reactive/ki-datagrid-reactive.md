@@ -1,6 +1,8 @@
 ---
 tags: known-issues
 summary: Known issues with the Data Grid component for Reactive Web apps
+locale: en-us
+guid: 8f709280-5c8a-4fae-a64c-233553f80c86
 ---
 
 # Known issues with the Data Grid component for Reactive Web apps

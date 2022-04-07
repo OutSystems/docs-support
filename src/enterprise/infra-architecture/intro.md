@@ -1,6 +1,8 @@
 ---
 summary: Learn about the OutSystems infrastructure architecture and it's deployment options. Includes details about the underlying tecnologies, components and services. Displays infrastructure examples with diferent levels of complexity, including multiple OutSystems pipelines.
 tags: article-page
+locale: en-us
+guid: 59f6b703-30bd-4143-8af8-aac2f6e82ae0
 ---
 
 # Infrastructure architecture and deployment options

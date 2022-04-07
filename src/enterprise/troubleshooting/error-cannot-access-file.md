@@ -1,6 +1,8 @@
 ---
 summary: Identify and resolve the publication error "The process cannot access the file because it is being used by another process".
 Tags: 
+locale: en-us
+guid: 1305808c-05bc-4f19-939b-09877f5681c1
 ---
 
 # Publish error: the process cannot access the file

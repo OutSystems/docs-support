@@ -1,6 +1,8 @@
 ---
 tags: version-10.0;
 summary: This document is a step-by-step guide for extracting the source code of your applications from the .NET version of OutSystems and how to set it up to be executed and maintained independently of the OutSystems Platform, if you ever decide to detach from it.
+locale: en-us
+guid: d823e151-2350-4360-b0c3-7030f23affe3
 ---
 
 # The Detach Process

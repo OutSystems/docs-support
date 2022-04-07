@@ -1,6 +1,8 @@
 ---
 summary:
 tags:
+locale: en-us
+guid: a3c088f2-c9f4-4d3e-8b00-c2f2c441b69d
 ---
 
 # REST Headers security hardening

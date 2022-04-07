@@ -1,6 +1,8 @@
 ---
 summary: Application error. <OriginalErrorMessage>.
 tags:
+locale: en-us
+guid: f0c85b4a-a151-4e34-a6b8-768c15177f78
 ---
 
 # OS-WFBL-GEN-00008

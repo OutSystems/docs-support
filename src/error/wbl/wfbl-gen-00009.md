@@ -1,6 +1,8 @@
 ---
 summary: Module error. <OriginalErrorMessage>.
 tags:
+locale: en-us
+guid: 4e2640ad-ac76-418e-bea8-33823fe0abfe
 ---
 
 # OS-WFBL-GEN-00009

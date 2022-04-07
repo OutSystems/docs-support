@@ -1,8 +1,8 @@
 ---
 summary: Release notes for OutSystems 10 - Platform Server and Development Environment.
 tags:
-locale: en-US
-guid:
+locale: en-us
+guid: ed0e6dd0-f1ec-4cc1-aeb7-640fea4aa0d1
 ---
 
 # 10

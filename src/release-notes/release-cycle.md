@@ -1,8 +1,8 @@
 ---
 summary: At OutSystems, we use a continuous delivery approach, focused on constantly releasing incremental value with minimal disruptions to our customer's operations and business. Learn what type of product releases you can expect from OutSystems for each of our major versions.
 tags:
-locale:
-guid:
+guid: 93288C73-39A2-47F2-A809-585C906307C4
+locale: en-us
 ---
 
 # OutSystems Product Releases

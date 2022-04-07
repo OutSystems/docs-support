@@ -1,5 +1,7 @@
 ---
 summary: How to run static application security testing in OutSystems with assistance to review results. Check also the false positives before engaging with OutSystems support.
+locale: en-us
+guid: ed956c15-115d-4728-ad1a-1b9319ef4e8d
 ---
 
 # Static application security testing

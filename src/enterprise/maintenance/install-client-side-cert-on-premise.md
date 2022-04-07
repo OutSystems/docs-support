@@ -1,6 +1,8 @@
 ---
 summary: To make certificate authenticated requests to webservices, OutSystems Platform Server needs to be configured to bear the client side certificate. This article guides on how to install the certificate on on-premises environments.
 Tags: 
+locale: en-us
+guid: 1fd17ee2-6c15-4f5b-8b37-94113a71eafc
 ---
 
 # Installing client side certificates on on-premises environments

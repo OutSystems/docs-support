@@ -1,5 +1,7 @@
 ---
 summary: The Intellectual Property Protection (IPP) feature ensures your applications can't be deployed to another infrastructure without your consent.
+locale: en-us
+guid: ab6146f9-8d06-44cb-9753-96c701e290f1
 ---
 
 # What is IPP (Intellectual Property Protection)

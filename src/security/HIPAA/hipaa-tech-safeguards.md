@@ -1,6 +1,8 @@
 ---
 summary: HIPAA’s technical safeguards for access control. 
 tags:
+locale: en-us
+guid: 219da37e-3496-4cc3-b6e8-452dc531a608
 ---
 
 # Checklist of HIPAA safeguards

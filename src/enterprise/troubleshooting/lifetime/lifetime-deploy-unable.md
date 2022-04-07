@@ -1,6 +1,8 @@
 ---
 summary: Learn how to troubleshoot LifeTime deployment issues.
 tags:
+locale: en-us
+guid: c7ebcb0a-6852-4222-9286-9fa6bc5d0675
 ---
 # Unable to deploy applications using LifeTime
 

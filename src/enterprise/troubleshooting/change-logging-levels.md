@@ -1,5 +1,7 @@
 ---
 summary: Increasing the log levels of OutSystems Platform allows to gather more information about what's happening under the hood. Check here how to do it.
+locale: en-us
+guid: 4109983c-357c-4cf5-b51f-19ef2cda02a5
 ---
 
 # Change OutSystems Platform logging levels (OSTrace)

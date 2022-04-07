@@ -1,5 +1,7 @@
 ---
 summary:
+locale: en-us
+guid: 97fd90c0-7378-45c1-b40d-116cbf79ab2a
 ---
 
 # (.NET) Enable SSL Protocols for your Integrations - TLS 1.1 and TLS 1.2

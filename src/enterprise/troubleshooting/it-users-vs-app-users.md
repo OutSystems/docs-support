@@ -1,5 +1,7 @@
 ---
 summary: 
+locale: en-us
+guid: de98a7b8-ecf1-4b7e-adbf-5cfdcb6f9894
 ---
 
 # Understanding the difference between Service Center logins and Users login - IT Users vs Application Users

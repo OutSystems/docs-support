@@ -1,6 +1,8 @@
 ---
 summary: Workaround application deployment using Service Center.
 tags:
+locale: en-us
+guid: 7755631f-f5b4-43e1-a1ca-83c677d5adc3
 ---
 # Deploy applications through Service Center
 

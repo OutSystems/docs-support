@@ -1,6 +1,8 @@
 ---
 summary: Learn how to make your OutSystems web applications more accessible.
 tags: 
+locale: en-us
+guid: b5635533-5774-4a83-b2ed-6c207d5d8db8
 ---
 
 # Accessibility in OutSystems Web Applications

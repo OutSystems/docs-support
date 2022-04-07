@@ -1,5 +1,7 @@
 ---
 summary: Since most web browsers will no longer trust certificates with a validity that exceeds one year, OutSystems will rotate the outsystemsenterprise.com certificate. This document provides further details about the operation and how it may impact you. It's especially relevant if you're using SSL pinning on your mobile apps.
+locale: en-us
+guid: 5e5d5f1d-c924-4605-bea5-d3141274a6e1
 ---
 
 # OutSystems Cloud certificate rotation

@@ -1,6 +1,8 @@
 ---
 summary: Cannot create EnvModule. <OriginalErrorMessage>.`
 tags:
+locale: en-us
+guid: fa6b8ae9-3aef-4ab1-bc3a-8ddb43c7a126
 ---
 
 # OS-WFBL-GEN-00007

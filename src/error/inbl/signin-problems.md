@@ -2,6 +2,8 @@
 summary: Sign in problems with Integration/Workflow/Experience Builder
 tags:
 helpids: 30402
+locale: en-us
+guid: 038ff0e6-06fa-46c7-83e2-e59c83ff90fe
 ---
 
 # It was not possible to sign into Integration/Workflow/Experience Builder

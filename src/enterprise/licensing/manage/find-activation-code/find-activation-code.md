@@ -1,5 +1,7 @@
 ---
 summary: Find the Activation Code of an infrastructure and the serial number of an environment in Service Center.
+locale: en-us
+guid: 3e05decb-fc94-454c-9c02-d7acfd4c2a3b
 ---
 
 # Find the Activation Code and the Serial Number

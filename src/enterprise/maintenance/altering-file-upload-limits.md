@@ -1,6 +1,8 @@
 ---
 summary: When you need to upload large files on your apps, you'll need to increase the limits allowed by the application server. This document will show how to do it and apply the changes to your applications.
 Tags: 
+locale: en-us
+guid: 0575cae0-16ef-4d80-b1ae-4517eec2661c
 ---
 
 # Altering file upload limits in OutSystems apps

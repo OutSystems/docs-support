@@ -1,6 +1,8 @@
 ---
 summary: Check here the possible errors that you can get when creating a VPN connection to your OutSystems Cloud and how to proceed for each case.
 tags:
+locale: en-us
+guid: 9b339da0-8b05-4388-83b4-f8cb8f6b5d9a
 ---
 
 # Possible errors when setting up a VPN to your OutSystems Cloud

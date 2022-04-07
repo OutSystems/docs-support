@@ -1,5 +1,7 @@
 ---
 summary: Known issue that causes slow publishing in Platform Server versions 11.7.x. Check the causes, the mitigation, and the resolution.
+locale: en-us
+guid: e4883c46-2022-4c8e-9ecf-f09d524329a1
 ---
 
 

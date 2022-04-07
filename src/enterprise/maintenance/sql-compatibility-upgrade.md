@@ -1,5 +1,7 @@
 ---
 summary: Upgrade procedure for Microsoft SQL Server 2019  (15.x) to safeguard correct application behavior for databases created with lower SQL Server compatibility levels
+locale: en-us
+guid: 394c269a-4655-41ff-8543-957c705d97fd
 ---
 
 # Upgrading SQL Server to a new compatibility level

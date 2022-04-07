@@ -1,6 +1,8 @@
 ---
 summary: Reactive is a type of app that has many improvements when compared to Traditional App. This document provides introductory notes for developers and leads who are considering migrating old Traditional Apps to Reactive.
 tags: article-page; migration-traditional-web; migration-reactive-web
+locale: en-us
+guid: 6fd52b69-653d-4384-b9fe-7e30b698609b
 ---
 
 # Introduction to migrating Traditional Web to Reactive Web Apps

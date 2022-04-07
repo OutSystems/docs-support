@@ -1,6 +1,8 @@
 ---
 summary: Prevent attackers from executing malicious instructions on your OutSystems apps from an external site. Cross Site Request Forgery (CSRF) attack protection.
 tags: outsystems-security; outsystems-secure-applications
+locale: en-us
+guid: 888ae7de-2001-459d-894a-e0001aeba86f
 ---
 
 #  Protecting OutSystems apps from Cross Site Request Forgery attacks

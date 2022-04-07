@@ -1,6 +1,8 @@
 ---
 summary: Check how to set up a site-to-site VPN, allowing secure communication between your on-premises network and OutSystems Cloud. Applies to LifeTime Management Console 11.6.0 or earlier.
 tags: support-Cloud_Platform; support-installation; support-Installation_Configuration; support-maintenance; VPN; support-devOps; support-troubleshooting
+locale: en-us
+guid: e116dd10-0c89-4d14-967d-9b0308df956b
 ---
 
 # Set up a VPN using LifeTime 11.6.0 or earlier

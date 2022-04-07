@@ -1,5 +1,7 @@
 ---
 summary: OutSystems Cloud databases autogrow as needed, ensuring your platform runs smoothly.
+locale: en-us
+guid: e0ed7b1b-f7cc-42cb-9b6d-d36c808e7f0e
 ---
 
 # Database storage on OutSystems Cloud

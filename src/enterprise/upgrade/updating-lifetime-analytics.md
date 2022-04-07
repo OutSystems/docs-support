@@ -1,5 +1,7 @@
 ---
 summary: 
+locale: en-us
+guid: a1f5b2f4-fe8b-4922-987b-42b202cc2ee2
 ---
 
 # Updating LifeTime Analytics to 10.0.804.0
