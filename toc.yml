@@ -21,6 +21,7 @@
     # - href: release-notes/experience-builder/coiso              commented because migration not ready yet
     # - href: release-notes/workflow-builder/coiso                commented because migration not ready yet
     - href: release-notes/product-lifecycle/product-lifecycle.md
+    - href: release-notes/release-cycle.md
     - href: release-notes/troubleshoot-issues-with-mabs-6.md
 
 # Troubleshooting
