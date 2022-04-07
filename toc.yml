@@ -217,8 +217,6 @@
                     - href: enterprise/upgrade/reactiveapp-migration-guide/ref-system-actions.md
                 - href: enterprise/upgrade/reactiveapp-migration-guide/ref-core-widgets.md
 
-        - href: enterprise/upgrade/log-service/log-service-clean.md
-
         # Migrating UI of the Silk Web applications to OutSystems UI Framework
         - href: enterprise/upgrade/ui-migration-guide/intro.md
         - topics:
