@@ -300,6 +300,7 @@
             - href: enterprise/troubleshooting/error-401/intro.md
             - href: enterprise/troubleshooting/extension-recompilation/extension-recompilation-warning.md
             - href: enterprise/troubleshooting/extension-recompilation/extension-upgrade-disabled-error.md
+            - href: enterprise/troubleshooting/saml-unable-decrypt-assertion.md
             
             # Known issues
             - href: enterprise/troubleshooting/known-issues/ki-11_10-downtime-CT/ki-11_10-downtime-CT.md
