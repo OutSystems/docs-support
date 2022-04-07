@@ -145,27 +145,6 @@
         - Consume SOAP webservices:
             https://success.outsystems.com/Documentation/11/Extensibility_and_Integration/SOAP/Consuming_SOAP_Web_Services
 
-# Using Redis for in-memory session storage
-- enterprise/install/redis-in-memory-sessions/intro.md:
-    - enterprise/install/redis-in-memory-sessions/requirements.md
-    - enterprise/install/redis-in-memory-sessions/setup-non-prod.md
-    - enterprise/install/redis-in-memory-sessions/setup-platform-server-redis.md
-    - enterprise/install/redis-in-memory-sessions/architecture-high-availability.md
-    - enterprise/install/redis-in-memory-sessions/setup-prod.md
-    - enterprise/install/redis-in-memory-sessions/cluster-failover-test.md
-    - enterprise/install/redis-in-memory-sessions/cluster-add-nodes.md
-    - enterprise/install/redis-in-memory-sessions/setup-enable-ssl.md
-
-- enterprise/install/redis-in-memory-sessions/setup-prod.md:
-    - enterprise/install/redis-in-memory-sessions/requirements.md
-    - enterprise/install/redis-in-memory-sessions/setup-platform-server-redis.md
-    - enterprise/install/redis-in-memory-sessions/cluster-failover-test.md
-    - enterprise/install/redis-in-memory-sessions/architecture-high-availability.md
-    - enterprise/install/redis-in-memory-sessions/cluster-add-nodes.md
-
-- enterprise/install/redis-in-memory-sessions/setup-non-prod.md:
-    - enterprise/install/redis-in-memory-sessions/requirements.md
-    - enterprise/install/redis-in-memory-sessions/setup-platform-server-redis.md
 
 # Licensing
 

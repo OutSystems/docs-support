@@ -131,7 +131,7 @@ To check which Modules are affected, run the following query against your Oracle
 
 **Runtime**: Mobile, Web 
 
-**Rationale**: The OutSystems Log Service is not used by OutSystems 11 applications, but any applications that were not upgraded to OutSystems 11 still need this service to log errors. The service is not removed when upgrading Platform Server to version 11, but it's no longer installed in first installations. Follow the instructions in [Log Service Cleanup](../../enterprise/upgrade/log-service/log-service-clean.md) to remove the service, if no longer needed.
+**Rationale**: The OutSystems Log Service is not used by OutSystems 11 applications, but any applications that were not upgraded to OutSystems 11 still need this service to log errors. The service is not removed when upgrading Platform Server to version 11, but it's no longer installed in first installations. Follow the instructions in [Log Service Cleanup](https://success.outsystems.com/Documentation/How-to_Guides/DevOps/Log_Service_Cleanup) to remove the service, if no longer needed.
 
 **Workaround**: If you have any automation scripts that rely on the existence of the OutSystems Log Service, you must update those scripts to handle the fact that the service may not exist.
 
