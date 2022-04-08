@@ -36,6 +36,8 @@
 
 # Community
 - href: community/intro.md
+- topics:
+    - href: community/add-case-followers.md
 
 - placeholder: Enterprise Customers
 - topics:
