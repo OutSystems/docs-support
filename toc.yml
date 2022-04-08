@@ -258,7 +258,6 @@
 - placeholder: Personal Environment
 - topics:
     - href: personal/cant-reach-apps.md
-    - href: personal/recover-outsystems-pwd.md
     - href: personal/manage-database-space.md
     - href: personal/move-apps-personal-enterprise.md
     - href: personal/infrastructure-under-hood.md
