@@ -13,7 +13,9 @@ This article explains how to do it when opening and also in an existing case.
 This is important because comments added via email by intervenients that weren't formerly part of the case aren't visible to protect the information shared through the support case.
 
 <div class="info" markdown="1">
+
 If you have colleagues that you feel should always be involved in your company's support cases, the best solution is to [add them as a member](https://success.outsystems.com/Support/Enterprise_Customers/OutSystems_Support/Managing_your_company_permissions_on_OutSystems_Customer_Portal#How_to_add_a_new_member) of your company.
+
 </div>
 
 ## How to include case followers 
