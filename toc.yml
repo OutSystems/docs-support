@@ -100,7 +100,6 @@
         - href: enterprise/install/offline-installation.md    
         - href: enterprise/install/size-environment-run-infra-mgmt-console.md
         - href: enterprise/install/add-front-end/add-front-end.md
-        - href: enterprise/install/azure-trial.md 
     
     # OutSystems Support
     - placeholder: OutSystems Support
