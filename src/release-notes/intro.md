@@ -23,7 +23,7 @@ Check the latest available versions [here](https://www.outsystems.com/downloads)
 
 ### OutSystems cloud services
 
-OutSystems provides cloud services that enable additional functionality to accelerate development. These services are upgraded seemlesly by OutSystems.
+OutSystems provides cloud services that enable additional functionality to accelerate development. These services are upgraded seamlessly by OutSystems.
 
 
 | Cloud service release notes | About |
