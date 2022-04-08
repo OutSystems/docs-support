@@ -172,14 +172,6 @@
         - href: enterprise/upgrade/upgrade-platform-errors.md
         - href: enterprise/upgrade/balanced-upgrade-highly-loaded-farms.md
         - href: enterprise/upgrade/try-newer-react-runtime-tp.md
-        
-        # Migrating UI of the Silk Web applications to OutSystems UI Framework
-        - href: enterprise/upgrade/ui-migration-guide/intro.md
-        - topics:
-            - href: enterprise/upgrade/ui-migration-guide/migrate-patterns.md
-            - href: enterprise/upgrade/ui-migration-guide/migrate-structure.md
-            - href: enterprise/upgrade/ui-migration-guide/migration-reference-tables.md
-
         - href: enterprise/upgrade/updating-lifetime-analytics.md
 
         # Updating auth flows for supporting SAML 2.0        
