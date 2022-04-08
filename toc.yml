@@ -176,23 +176,7 @@
         - href: enterprise/upgrade/upgrade-platform-errors.md
         - href: enterprise/upgrade/balanced-upgrade-highly-loaded-farms.md
         - href: enterprise/upgrade/try-newer-react-runtime-tp.md
-
-        # Migrating Traditional Application to Reactive Application
-        - href: enterprise/upgrade/reactiveapp-migration-guide/intro.md
-        - topics:
-            - href: enterprise/upgrade/reactiveapp-migration-guide/differences.md
-            - href: enterprise/upgrade/reactiveapp-migration-guide/stages.md
-            - href: enterprise/upgrade/reactiveapp-migration-guide/reference.md
-            - topics:
-                - href: enterprise/upgrade/reactiveapp-migration-guide/ref-module-elements.md
-                - href: enterprise/upgrade/reactiveapp-migration-guide/ref-frontend-intro.md
-                - topics:
-                    - href: enterprise/upgrade/reactiveapp-migration-guide/ref-frontend-ui.md
-                    - href: enterprise/upgrade/reactiveapp-migration-guide/ref-frontend-ui-flows.md
-                    - href: enterprise/upgrade/reactiveapp-migration-guide/ref-frontend-screen-and-block.md
-                    - href: enterprise/upgrade/reactiveapp-migration-guide/ref-system-actions.md
-                - href: enterprise/upgrade/reactiveapp-migration-guide/ref-core-widgets.md
-
+        
         # Migrating UI of the Silk Web applications to OutSystems UI Framework
         - href: enterprise/upgrade/ui-migration-guide/intro.md
         - topics:
