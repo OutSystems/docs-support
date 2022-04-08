@@ -23,6 +23,7 @@
     - href: release-notes/product-lifecycle/product-lifecycle.md
     - href: release-notes/release-cycle.md
     - href: release-notes/troubleshoot-issues-with-mabs-6.md
+    - href: release-notes/mabs-beta-support.md
 
 # Troubleshooting
 - href: troubleshooting/intro.md
@@ -212,9 +213,6 @@
         
         # Migrate to the new Firebase-based mobile plugins        
         - href: enterprise/upgrade/migrate-to-firebase-plugins/intro.md
-
-        # Support provided for beta versions        
-        - href: enterprise/upgrade/mobile-beta-os/intro.md
 
         # Server extension recompilation on upgrade
         - href: enterprise/upgrade/extension-recompilation/extension-recompilation.md
