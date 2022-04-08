@@ -37,6 +37,7 @@
 # Community
 - href: community/intro.md
 - topics:
+    - href: community/support-cases-security.md
     - href: community/add-case-followers.md
 
 - placeholder: Enterprise Customers
