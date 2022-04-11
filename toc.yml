@@ -32,6 +32,8 @@
 - topics:
     - href: troubleshooting/application-development/intro.md
     - href: troubleshooting/application-lifecycle/intro.md
+    - topics:
+        - href: troubleshooting/application-lifecycle/reset-user-pwd.md
     - href: troubleshooting/application-runtime/intro.md
     - href: troubleshooting/infrastructure-management/intro.md
 
