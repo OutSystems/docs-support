@@ -1,0 +1,40 @@
+2016-07-29 12:38:31.1953 [1480] [Info] ***** Starting log *****
+2016-07-29 12:38:31.6016 [1480] [TimerStart] Timer 'ValidateServiceStartup.GetPlatformVersionInDB' started
+2016-07-29 12:38:52.8907 [1480] [TimerEnd] Timer 'ValidateServiceStartup.GetPlatformVersionInDB' ended (duration:21367.1759ms -> 21 seconds and 367 miliseconds)
+2016-07-29 12:38:53.0469 [2456] [TimerStart] Timer 'ValidateServiceStartup.GetPlatformVersionInDB' started
+2016-07-29 12:38:53.0938 [2456] [TimerEnd] Timer 'ValidateServiceStartup.GetPlatformVersionInDB' ended (duration:46.8756ms -> 46 miliseconds)
+2016-07-29 12:38:55.1417 [2456] [TimerStart] Timer 'Service Initialization' started
+2016-07-29 12:38:55.1417 [2456] [TimerStart] Timer 'Service Initialization > Check settings' started
+2016-07-29 12:38:55.2823 [2456] [TimerEnd] Timer 'Service Initialization > Check settings' ended (duration:140.6329ms -> 140 miliseconds)
+2016-07-29 12:38:55.2823 [2456] [TimerStart] Timer 'Service Initialization > Concurrency Manager and Compiler Init' started
+2016-07-29 12:38:56.2199 [2456] [Info] ConcurrencyManager:Started
+2016-07-29 12:38:58.6110 [2456] [TimerEnd] Timer 'Service Initialization > Concurrency Manager and Compiler Init' ended (duration:3328.7018ms -> 3 seconds and 328 miliseconds)
+2016-07-29 12:38:58.6110 [2456] [TimerStart] Timer 'Service Initialization > Ping' started
+2016-07-29 12:38:58.6110 [2456] [TimerEnd] Timer 'Service Initialization > Ping' ended (duration:0ms -> 0 miliseconds)
+2016-07-29 12:38:58.6110 [2456] [TimerStart] Timer 'Service Initialization > Activation' started
+2016-07-29 12:38:58.6110 [2456] [TimerStart] Timer 'Service Initialization > Activation > Setup' started
+2016-07-29 12:39:01.6908 [2456] [TimerStart] Timer 'Recalculating Internal State (False, False, True)' started
+2016-07-29 12:39:01.6908 [2456] [TimerStart] Timer 'Recalculating Internal State > Initializing properties and checking for first/last runs' started
+2016-07-29 12:39:02.4434 [2456] [TimerEnd] Timer 'Recalculating Internal State > Initializing properties and checking for first/last runs' ended (duration:752.6241ms -> 752 miliseconds)
+2016-07-29 12:39:02.4434 [2456] [TimerStart] Timer 'Recalculating Internal State > Flushing' started
+2016-07-29 12:39:02.4434 [2456] [TimerEnd] Timer 'Recalculating Internal State > Flushing' ended (duration:0ms -> 0 miliseconds)
+2016-07-29 12:39:07.1190 [2456] [TimerStart] Timer 'Recalculating Internal State > Validations' started
+2016-07-29 12:39:21.8104 [2456] [TimerEnd] Timer 'Recalculating Internal State > Validations' ended (duration:14691.3371ms -> 14 seconds and 691 miliseconds)
+2016-07-29 12:39:21.8260 [2456] [TimerEnd] Timer 'Recalculating Internal State (False, False, True)' ended (duration:20135.189ms -> 20 seconds and 135 miliseconds)
+2016-07-29 12:39:21.8260 [2456] [TimerEnd] Timer 'Service Initialization > Activation > Setup' ended (duration:23214.9549ms -> 23 seconds and 214 miliseconds)
+2016-07-29 12:39:21.9993 [2456] [Info] Activation - Activation (Refreshing features '64BitSupport,' state)
+2016-07-29 12:39:21.9993 [2456] [TimerEnd] Timer 'Service Initialization > Activation' ended (duration:23388.2659ms -> 23 seconds and 388 miliseconds)
+2016-07-29 12:39:21.9993 [2456] [TimerStart] Timer 'Service Initialization > Sandbox initialization' started
+2016-07-29 12:39:22.0149 [2456] [Info] Using 'D:\Program Files\OutSystems\Platform Server\repository' as a pool...
+2016-07-29 12:39:22.0618 [2456] [TimerEnd] Timer 'Service Initialization > Sandbox initialization' ended (duration:62.5029ms -> 62 miliseconds)
+2016-07-29 12:39:22.0618 [2456] [TimerStart] Timer 'Service Initialization > State Configuration' started
+2016-07-29 12:39:22.0618 [2236] [Info] Compiler Pool Garbage Collector - Prepared to run
+2016-07-29 12:39:22.1399 [2456] [TimerEnd] Timer 'Service Initialization > State Configuration' ended (duration:78.1291ms -> 78 miliseconds)
+2016-07-29 12:39:22.1399 [2456] [TimerStart] Timer 'Service Initialization > Remoting' started
+2016-07-29 12:39:22.1556 [2456] [TimerEnd] Timer 'Service Initialization > Remoting' ended (duration:15.625ms -> 15 miliseconds)
+2016-07-29 12:39:22.1712 [360] [Info] DeleteExpiredSessions - Running (Delete expired sessions from the session state database)
+2016-07-29 12:39:22.1712 [2316] [Info] UnlockSMSSessions - Running (Unlock dead SMS sessions from the session state database)
+2016-07-29 12:39:22.1712 [2316] [Info] UnlockSMSSessions - Idle
+2016-07-29 12:39:22.2181 [360] [Info] DeleteExpiredSessions - Idle
+2016-07-29 12:39:22.2493 [2236] [Info] Compiler Pool Garbage Collector - Idle
+2016-07-29 12:39:24.3119 [2456] [TimerEnd] Timer 'Service Initialization' ended (duration:29170.2175ms -> 29 seconds and 170 miliseconds)

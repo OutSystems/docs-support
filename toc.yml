@@ -36,6 +36,8 @@
         - href: troubleshooting/application-lifecycle/reset-user-pwd.md
     - href: troubleshooting/application-runtime/intro.md
     - href: troubleshooting/infrastructure-management/intro.md
+    - topics:
+        - href: troubleshooting/infrastructure-management/manual-start-services.md
 
 # Community
 - href: community/intro.md

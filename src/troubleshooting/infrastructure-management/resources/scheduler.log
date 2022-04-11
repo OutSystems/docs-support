@@ -1,0 +1,34 @@
+2016-07-29 12:38:32.4923 [1588] [Info] ***** Starting log *****
+2016-07-29 12:38:32.5548 [1588] [TimerStart] Timer 'ValidateServiceStartup.GetPlatformVersionInDB' started
+2016-07-29 12:38:52.8907 [1588] [TimerEnd] Timer 'ValidateServiceStartup.GetPlatformVersionInDB' ended (duration:20335.892ms -> 20 seconds and 335 miliseconds)
+2016-07-29 12:38:53.0469 [2468] [TimerStart] Timer 'ValidateServiceStartup.GetPlatformVersionInDB' started
+2016-07-29 12:38:53.0782 [2468] [TimerEnd] Timer 'ValidateServiceStartup.GetPlatformVersionInDB' ended (duration:31.2481ms -> 31 miliseconds)
+2016-07-29 12:38:53.6102 [2468] [Info] Subscribing Node
+2016-07-29 12:38:53.6102 [2468] [TimerStart] Timer 'Subscribing Node' started
+2016-07-29 12:39:01.0914 [2468] [ERROR] No connection could be made because the target machine actively refused it 127.0.0.1:12000
+2016-07-29 12:39:01.0914 [2468] [ERROR] 	[1] System.Net.Sockets.SocketException
+2016-07-29 12:39:01.0914 [2468] [ERROR] 	Target : System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage
+2016-07-29 12:39:01.0914 [2468] [ERROR] 	Source : mscorlib
+2016-07-29 12:39:01.0914 [2468] [ERROR] 	Message : No connection could be made because the target machine actively refused it 127.0.0.1:12000
+2016-07-29 12:39:01.0914 [2468] [ERROR] 	Stack Trace
+2016-07-29 12:39:01.0914 [2468] [ERROR] 	
+2016-07-29 12:39:01.0914 [2468] [ERROR] 	Server stack trace: 
+2016-07-29 12:39:01.0914 [2468] [ERROR] 	   at System.Net.Sockets.Socket.Connect(IPAddress[] addresses, Int32 port)
+2016-07-29 12:39:01.0914 [2468] [ERROR] 	   at System.Runtime.Remoting.Channels.RemoteConnection.CreateNewSocket(AddressFamily family)
+2016-07-29 12:39:01.0914 [2468] [ERROR] 	   at System.Runtime.Remoting.Channels.RemoteConnection.CreateNewSocket()
+2016-07-29 12:39:01.0914 [2468] [ERROR] 	   at System.Runtime.Remoting.Channels.SocketCache.GetSocket(String machinePortAndSid, Boolean openNew)
+2016-07-29 12:39:01.0914 [2468] [ERROR] 	   at System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.SendRequestWithRetry(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream)
+2016-07-29 12:39:01.0914 [2468] [ERROR] 	   at System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.ProcessMessage(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream, ITransportHeaders& responseHeaders, Stream& responseStream)
+2016-07-29 12:39:01.0914 [2468] [ERROR] 	   at System.Runtime.Remoting.Channels.BinaryClientFormatterSink.SyncProcessMessage(IMessage msg)
+2016-07-29 12:39:01.0914 [2468] [ERROR] 	
+2016-07-29 12:39:01.0914 [2468] [ERROR] 	Exception rethrown at [0]: 
+2016-07-29 12:39:01.0914 [2468] [ERROR] 	   at System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+2016-07-29 12:39:01.0914 [2468] [ERROR] 	   at System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+2016-07-29 12:39:01.0914 [2468] [ERROR] 	   at OutSystems.HubEdition.ICompiler.SubscribeNode(Boolean activate, String strHostName, String ip_Addr, Byte[] hash, Boolean is32Bit, String machineSerial)
+2016-07-29 12:39:01.0914 [2468] [ERROR] 	   at #oof.#IZe.#a3e()
+2016-07-29 12:39:01.0914 [2468] [TimerEnd] Timer 'Subscribing Node' ended (duration:7481.1293ms -> 7 seconds and 481 miliseconds)
+2016-07-29 12:39:31.4585 [2468] [TimerStart] Timer 'ValidateServiceStartup.GetPlatformVersionInDB' started
+2016-07-29 12:39:31.4587 [2468] [TimerEnd] Timer 'ValidateServiceStartup.GetPlatformVersionInDB' ended (duration:0.2106ms -> 0 miliseconds)
+2016-07-29 12:39:31.4587 [2468] [Info] Subscribing Node
+2016-07-29 12:39:31.4587 [2468] [TimerStart] Timer 'Subscribing Node' started
+2016-07-29 12:39:32.0564 [2468] [TimerEnd] Timer 'Subscribing Node' ended (duration:597.6597ms -> 597 miliseconds)
