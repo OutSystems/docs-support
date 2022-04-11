@@ -4,7 +4,7 @@ locale: en-us
 guid: 0818cc08-cca4-4780-bbc5-6e1cb8b77a10
 ---
 
-# Debugger in Service Studio isn't working
+# Debugger in Service Studio is not working
 
 Check the following sections to understand and solve different issues and errors that can occurs while using the debugger in Service Studio.
 

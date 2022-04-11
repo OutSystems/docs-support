@@ -31,6 +31,8 @@
 - href: troubleshooting/intro.md
 - topics:
     - href: troubleshooting/application-development/intro.md
+    - topics:
+        - href: troubleshooting/application-development/debugger-not-working.md
     - href: troubleshooting/application-lifecycle/intro.md
     - topics:
         - href: troubleshooting/application-lifecycle/reset-user-pwd.md
@@ -208,7 +210,6 @@
             - href: enterprise/troubleshooting/vpn-troubleshooting-guide.md
             - href: enterprise/troubleshooting/change-logging-levels.md
             - href: enterprise/troubleshooting/dst-change-bpt-not-processed.md
-            - href: enterprise/troubleshooting/debugger-not-working.md
             - href: enterprise/troubleshooting/deploy-apps-sc.md            
             - href: enterprise/troubleshooting/env-deploy-controller-twice.md
             - href: enterprise/troubleshooting/unexpected-link-app-error.md
