@@ -49,6 +49,9 @@
 
 # Licensing
 - href: licensing/intro.md
+- topics:
+    - href: licensing/detach-11.md
+    - href: licensing/detach-10.md
 
 
 - placeholder: Enterprise Customers
@@ -287,15 +290,6 @@
             - href: forge/remove-project.md
         - href: forge/trusted-requirements.md
 
-# Archive
-- placeholder: Archive
-- topics:
-    - placeholder: 11
-    - topics:
-        - href: detach/detach-11.md
-    - placeholder: 10.0
-    - topics: 
-        - href: detach/detach-10.md
         
 # Security
 - href: security/intro.md
