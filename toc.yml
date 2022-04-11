@@ -100,7 +100,6 @@
         - href: enterprise/install/install-ssl-certificate-linux.md       
         - href: enterprise/install/installing-platform-fips-compliant.md
         - href: enterprise/install/add-certificate-trusted.md
-        - href: enterprise/install/offline-installation.md    
         - href: enterprise/install/size-environment-run-infra-mgmt-console.md
         - href: enterprise/install/add-front-end/add-front-end.md
     
