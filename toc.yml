@@ -13,6 +13,7 @@
     - href: release-notes/10/intro.md
     - topics:
         - href: release-notes/10/end-support-10.md
+        - href: release-notes/10/side-effects-breaking-changes-10.md
     #     - href: release-notes/10/platform-server/coiso          commented because migration not ready yet
     #     - href: release-notes/10/development-enviroment/coiso   commented because migration not ready yet
     # - href: release-notes/architecture-dashboard/coiso          commented because migration not ready yet
