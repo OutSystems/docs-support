@@ -11,6 +11,41 @@ This document is a step-by-step guide for extracting the source code of your app
 
 ## Detach process overview
 
+### If you're using the OutSystems Cloud
+
+Detaching from OutSystems means you'll no longer be running on OutSystems Cloud. Instead, you'll be hosting a .NET application on a system you fully manage. The high-level overview of detaching from OutSystems Cloud is:
+
+1. **Preparing to start detaching from OutSystems Cloud**
+    
+    OutSystems will need to enable you to start detaching and install the additional self-managed environment. This requires changes to the license of your OutSystems Cloud environments.
+    Reach out to your account executive or account manager letting them know you're starting your detach process so he can proceed internally.
+
+1. **Move your OutSystems Cloud production environment to a self-managed environment**
+    
+    This is the high level sequence of steps to move your production OutSystems Cloud environment to a hosting environment controlled by you:
+
+    1. Install a brand new OutSystems environment to receive your applications.
+
+        We advise you to install the environment with the exact setup you expect to have moving forward (number of front-ends, same database engine as your OutSystems Cloud, etc), as it will simplify the detachment and later maintenance of the system. To install a new OutSystems environment, always use the exact same OutSystems Platform Server major and minor versions. Refer to [Setting Up OutSystems](https://success.outsystems.com/Documentation/11/Setting_Up_OutSystems).
+
+    1. Install your OutSystems applications in your new self-managed environment.
+
+        Download all the applications from your production OutSystems Cloud environment and publish them to your new self-managed environment. Refer to [Creating and using an All Components solution](https://success.outsystems.com/Documentation/How-to_Guides/DevOps/Creating_and_using_an_All_Components_solution) for a simple way to perform this step.
+
+    1. Move the data of your OutSystems Cloud applications to your new self-managed environment.
+
+       Request to [Access the database of your OutSystems Cloud](https://success.outsystems.com/Support/Enterprise_Customers/Maintenance_and_Operations/Access_the_database_of_your_OutSystems_Cloud) and use that database user to copy data from the OutSystems Cloud into the self-managed database. Or you can implement API in your application that export the data and then call them from the new self-managed environment. Refer to [this article](https://www.outsystems.com/forums/discussion/14620/how-to-map-servicestudio-entities-to-actual-table-names/) to understand how to map physical table names in the database to OutSystems entities. 
+
+    1. Confirm that your applications behave as expected in your new self-managed environment. 
+
+        This may include functional and scalability validation. We advise not moving past this point until you are sure your self-managed system would be able to replace your OuSystems Cloud system at this point.
+
+    1. Detach from OutSystems as self-managed.
+
+        Proceed to the next sections in this article.
+
+### For self-managed installations
+
 The detach process applies when you wish to completely remove OutSystems. It's not possible to detach only some applications from OutSystems while keep other applications still using the OutSystems platform infrastructure. To perform a complete detach, you need to:
 
 1. Guarantee that, before you start, you have all the requirements and followed all the recommendations in [Before you start](#before-you-start).
@@ -338,7 +373,6 @@ To have a system that replicates your previous factory, you must deploy all the 
 
 Since there are some specific OutSystems applications for application and environment configuration and management, like Service Center and LifeTime, those can't be detached.
 
-If your OutSystems platform is running on the OutSystems PaaS, to detach the source code of your applications, first you need to build a hybrid deployment, where you installed one OutSystems environment either on-premises or on another public cloud.
 
 <div class="info" markdown="1">
 
