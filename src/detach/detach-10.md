@@ -1,13 +1,19 @@
 ---
 tags: version-10.0;
-summary: This document is a step-by-step guide for extracting the source code of your applications from the .NET version of OutSystems and how to set it up to be executed and maintained independently of the OutSystems Platform, if you ever decide to detach from it.
+summary: This document is a step-by-step guide for extracting the source code of your applications from OutSystems 10 and how to set it up to be executed and maintained independently of the OutSystems Platform, if you ever decide to detach from it.
 locale: en-us
 guid: d823e151-2350-4360-b0c3-7030f23affe3
 ---
 
-# The Detach Process
+# The Detach Process for OutSystems 10
 
 This document is a step-by-step guide for extracting the source code of your applications (web and mobile) from the .NET version of OutSystems and how to set it up to be executed and maintained independently of OutSystems, if you ever decide to detach from it. This is a complement to the [OutSystems Platform – Standard Architecture with No Lock-in](https://www.outsystems.com/goto/standard-architecture-with-no-lock-in "https://www.outsystems.com/goto/standard-architecture-with-no-lock-in") content that gives a high-level view on how OutSystems, unlike other proprietary technologies and frameworks, generates standard, optimized, and fully documented .NET source code that does not require runtime interpreters or engines.
+
+<div class="info" markdown="1">
+
+To extract the source code of your applications (web and mobile) from Java infrastructures check the [Detach process for Java](resources/OutSystems_10_-_The_Detach_Process_for_Java.pdf).
+
+</div>
 
 ## Detach Process Overview
 
