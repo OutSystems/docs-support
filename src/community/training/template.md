@@ -2,11 +2,25 @@
 summary: 
 locale: en-us
 guid: 
+tags: 
 ---
 
 # This is the page title
 
+This is a template, it's not an article to be published. You can copy this file if you want to create a new article, but make sure you delete the content.
+
+Right on top, encased in --- you have the page header. **It must always be present in any article**.
+You can and should write a descriptive summary, but never edit locale, guid, and tags.
+
 This is normal text. You can use links in text. [This is the text that will display in the link](https://www.this-is-the-url.example.com).
+
+You can format text, here are some examples:
+
+**this is bold text**: use it for options that show in the interface. You can also use it fo emphasis, but don't overuse it.
+
+`this is code text`: use it to point values that users need to fill in. It's more suitable in the context of development. 
+
+Underlined text? Nope, don't use it. Browsers use underline for links.
 
 ## This is a heading 2
 
