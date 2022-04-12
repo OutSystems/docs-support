@@ -20,7 +20,7 @@
     # - href: release-notes/mabs/coiso                            commented because migration not ready yet
     # - href: release-notes/integration-builder/coiso             commented because migration not ready yet
     # - href: release-notes/experience-builder/coiso              commented because migration not ready yet
-    - href: release-notes/workflow-builder/workflow-builder.md
+    # - href: release-notes/workflow-builder/workflow-builder.md
     - href: release-notes/product-lifecycle/product-lifecycle.md
     - href: release-notes/release-cycle.md
     - href: release-notes/tech-preview.md
