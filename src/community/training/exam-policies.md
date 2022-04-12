@@ -1,6 +1,5 @@
 ---
 summary: Scheduling and cancelation policies of OutSystems exams and refunds for canceled exams 
-
 locale: en-us
 guid: 
 tags: 
