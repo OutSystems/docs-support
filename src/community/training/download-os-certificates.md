@@ -10,7 +10,7 @@ OutSystems certification is an important step in a developer’s career. Because
 
  ## You are a customer manager
 
-All managers with **infrastructure administrator** and **company administrator** roles ([read about these roles here](https://success.outsystems.com/Support/Enterprise_Customers/OutSystems_Support/Managing_your_company_permissions_on_OutSystems_Customer_Portal)) can download all their team certificates in the Account Settings tab in the Customer Area portal. If you’re a manager with one of these roles, do the following:
+All managers with **infrastructure administrator** and **company administrator** roles ([read about these roles here](https://success.outsystems.com/Support/Enterprise_Customers/OutSystems_Support/Managing_your_company_permissions_on_OutSystems_Customer_Portal)) can download all their team certificates in the Account Settings tab in the Customer Portal. If you’re a manager with one of these roles, do the following:
 
 ![](images/dowload-os-cert-1.png)
 
