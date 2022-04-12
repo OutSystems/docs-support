@@ -15,7 +15,7 @@ When merging two accounts, the account you wish to keep will receive all the inf
 For the purposes of this article:
 
 * **Account A** is the account you wish to keep and that will receive all the information.
-* **Account B** is the account that will be merged into account A and deleted. You'll be able to create another account with the email used in this account, but after the
+* **Account B** is the account that will be merged into account A and deleted. You'll be able to create another account with the email used in this account, but the Personal Environment and account information won't be recovered.
 
 <div class="warning" markdown="1">
 
@@ -25,6 +25,7 @@ It's not possible to revert an account merge.
 
 </div>
 
+If you need to transfer your certifications while keeping both accounts active, check [this article](./training/transfer-certification.md) instead.
 
 Do the following to merge two accounts:
 
