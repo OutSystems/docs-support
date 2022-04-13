@@ -30,16 +30,214 @@
 # Troubleshooting
 - href: troubleshooting/intro.md
 - topics:
+    # Application Development
     - href: troubleshooting/application-development/intro.md
     - topics:
         - href: troubleshooting/application-development/debugger-not-working.md
+    # Application Lifecycle
     - href: troubleshooting/application-lifecycle/intro.md
     - topics:
         - href: troubleshooting/application-lifecycle/reset-user-pwd.md
+    # Application Runtime
     - href: troubleshooting/application-runtime/intro.md
+    - topics:
+        - href: troubleshooting/application-runtime/slow-integrations.md
+    # Infrastructure Management
     - href: troubleshooting/infrastructure-management/intro.md
     - topics:
         - href: troubleshooting/infrastructure-management/manual-start-services.md
+        - href: troubleshooting/infrastructure-management/upgrade-cloud-demo.md
+
+# Security
+- href: security/intro.md
+- topics:
+    # Develop secure OutSystems apps
+    - href: security/app-security/intro.md
+    - topics:
+        - href: security/app-security/app-security-owasp-top-10.md
+        - href: security/app-security/mobile-app-server.md
+        - href: security/data-masking.md
+    - href: security/penetration-test-cloud.md
+    - href: security/static-application-security-testing.md
+    - href: security/secure-rest-client-certificate.md
+    - href: security/platform-server-hardening.md
+    - href: security/certificate-management/certificate-management.md
+    - href: security/cloud-certificate-change/cloud-certificate-change.md
+    - href: security/penetration-tests.md
+    - href: security/rest-headers-hardening.md
+
+
+
+ 
+    # HIPAA compliance
+    - href: security/HIPAA/intro.md
+    - topics:
+        - href: security/HIPAA/hipaa-tech-safeguards.md
+    
+    # Vulnerabilities
+    - href: security/vulnerabilities/intro.md
+    - topics:
+        - href: security/vulnerabilities/vulnerability-RLIT-3368.md
+        - href: security/vulnerabilities/vulnerability-RPD-2322.md
+        - href: security/vulnerabilities/vulnerability-RPD-3849.md
+        - href: security/vulnerabilities/vulnerability-RPD-4260.md
+        - href: security/vulnerabilities/vulnerability-RLIT-2388.md
+        - href: security/vulnerabilities/vulnerability-RPD-2903.md
+        - href: security/vulnerabilities/vulnerability-RPD-3384.md
+        - href: security/vulnerabilities/vulnerability-RPD-4310.md
+        - href: security/vulnerabilities/vulnerability-RPD-5160.md
+        - href: security/vulnerabilities/vulnerability-RTAF-2226.md
+        - href: security/vulnerabilities/vulnerability-RTAF-3379.md
+        - href: security/vulnerabilities/vulnerability-RDEV-2256.md
+        - href: security/vulnerabilities/vulnerability-RICT-2849.md
+        - href: security/vulnerabilities/vulnerability-RPSFCT-55.md
+        - href: security/vulnerabilities/vulnerability-RICT-2855.md
+        - href: security/vulnerabilities/vulnerability-RCFT-4197.md
+        - href: security/vulnerabilities/vulnerability-RICT-2673.md
+        - href: security/vulnerabilities/vulnerability-RPM-657.md
+        - href: security/vulnerabilities/vulnerability-RPM-683.md
+        - href: security/vulnerabilities/vulnerability-RPM-786.md
+        - href: security/vulnerabilities/vulnerability-RPM-813.md
+        - href: security/vulnerabilities/vulnerability-RPM-1278.md
+        - href: security/vulnerabilities/vulnerability-RPM-1054.md
+        - href: security/vulnerabilities/vulnerability-RPM-689.md
+
+    # How OutSystems Platform helps you develop secure applications
+    - href: security/develop-secure-apps/intro.md
+    - topics:
+        - href: security/develop-secure-apps/code-injection-css-attacks.md
+        - href: security/develop-secure-apps/authentication-vulnerabilities.md
+        - href: security/develop-secure-apps/access-control-vulnerabilities.md
+        - href: security/develop-secure-apps/encryption-ssl-tls.md
+        - href: security/develop-secure-apps/csrf-attacks.md
+        - href: security/develop-secure-apps/redirects-forwarders-vulnerabilities.md
+
+# Error reference documentation
+- href: error/intro.md
+- topics:
+    #Integration Builder
+    - href: error/inbl/intro.md
+    - topics:
+        - href: error/inbl/inbl-api-00004.md
+        - href: error/inbl/inbl-api-00008.md
+        - href: error/inbl/inbl-api-00011.md
+        - href: error/inbl/inbl-api-00021.md
+        - href: error/inbl/inbl-api-00028.md
+        - href: error/inbl/inbl-api-00033.md
+        - href: error/inbl/inbl-api-00050.md
+        - href: error/inbl/inbl-api-00061.md
+        - href: error/inbl/inbl-api-00069.md
+        - href: error/inbl/inbl-api-00070.md
+        - href: error/inbl/inbl-api-20000.md
+        - href: error/inbl/inbl-gen-00032.md
+        - href: error/inbl/inbl-gen-50002.md
+        - href: error/inbl/inbl-gen-50004.md
+        - href: error/inbl/inbl-gen-50005.md
+        - href: error/inbl/inbl-gen-50028.md
+        - href: error/inbl/signin-problems.md
+        - href: error/inbl/connectivity-problems.md
+    #Workflow Builder
+    - href: error/wbl/intro.md
+    - topics:
+        - href: error/wbl/wfbl-api-00001.md 
+        - href: error/wbl/wfbl-api-00002.md 
+        - href: error/wbl/wfbl-api-00003.md 
+        - href: error/wbl/wfbl-api-10001.md 
+        - href: error/wbl/wfbl-conf-00001.md 
+        - href: error/wbl/wfbl-conf-00002.md 
+        - href: error/wbl/wfbl-conf-00003.md 
+        - href: error/wbl/wfbl-conf-00004.md 
+        - href: error/wbl/wfbl-conf-00005.md 
+        - href: error/wbl/wfbl-conf-00006.md 
+        - href: error/wbl/wfbl-conf-00007.md 
+        - href: error/wbl/wfbl-conf-00008.md 
+        - href: error/wbl/wfbl-gen-00000.md 
+        - href: error/wbl/wfbl-gen-00001.md 
+        - href: error/wbl/wfbl-gen-00002.md 
+        - href: error/wbl/wfbl-gen-00003.md 
+        - href: error/wbl/wfbl-gen-00004.md 
+        - href: error/wbl/wfbl-gen-00005.md 
+        - href: error/wbl/wfbl-gen-00006.md 
+        - href: error/wbl/wfbl-gen-00007.md 
+        - href: error/wbl/wfbl-gen-00008.md 
+        - href: error/wbl/wfbl-gen-00009.md 
+        - href: error/wbl/wfbl-gen-10001.md 
+        - href: error/wbl/wfbl-gen-40001.md 
+        - href: error/wbl/wfbl-gen-40002.md 
+     #Case Management framework
+    - href: error/cmfr/intro.md
+    - topics: 
+        - href: error/cmfr/cmfr-bpt-00001.md 
+        - href: error/cmfr/cmfr-gen-00001.md 
+        - href: error/cmfr/cmfr-gen-00002.md 
+        - href: error/cmfr/cmfr-gen-00003.md 
+        - href: error/cmfr/cmfr-gen-00004.md 
+        - href: error/cmfr/cmfr-gen-00005.md 
+        - href: error/cmfr/cmfr-gen-00006.md 
+        - href: error/cmfr/cmfr-gen-00007.md 
+        - href: error/cmfr/cmfr-gen-00008.md 
+        - href: error/cmfr/cmfr-gen-00009.md 
+        - href: error/cmfr/cmfr-gen-00010.md 
+        - href: error/cmfr/cmfr-gen-00011.md 
+        - href: error/cmfr/cmfr-gen-00012.md 
+        - href: error/cmfr/cmfr-gen-00013.md 
+        - href: error/cmfr/cmfr-gen-00014.md 
+        - href: error/cmfr/cmfr-gen-00015.md 
+        - href: error/cmfr/cmfr-gen-00016.md 
+        - href: error/cmfr/cmfr-gen-00017.md 
+        - href: error/cmfr/cmfr-gen-00018.md 
+        - href: error/cmfr/cmfr-gen-00019.md 
+        - href: error/cmfr/cmfr-gen-00020.md 
+        - href: error/cmfr/cmfr-gen-00021.md 
+        - href: error/cmfr/cmfr-gen-00022.md 
+        - href: error/cmfr/cmfr-gen-00023.md 
+        - href: error/cmfr/cmfr-gen-00024.md 
+        - href: error/cmfr/cmfr-gen-00025.md 
+        - href: error/cmfr/cmfr-gen-00026.md 
+        - href: error/cmfr/cmfr-gen-00027.md 
+        - href: error/cmfr/cmfr-gen-00028.md 
+        - href: error/cmfr/cmfr-gen-00029.md 
+        - href: error/cmfr/cmfr-gen-00030.md 
+        - href: error/cmfr/cmfr-gen-00031.md 
+        - href: error/cmfr/cmfr-gen-00032.md 
+        - href: error/cmfr/cmfr-gen-00033.md 
+        - href: error/cmfr/cmfr-gen-00034.md 
+        - href: error/cmfr/cmfr-gen-00035.md 
+        - href: error/cmfr/cmfr-gen-00036.md 
+        - href: error/cmfr/cmfr-gen-00037.md 
+        - href: error/cmfr/cmfr-gen-00038.md 
+        - href: error/cmfr/cmfr-gen-20001.md 
+        - href: error/cmfr/cmfr-gen-20002.md 
+        - href: error/cmfr/cmfr-gen-20003.md 
+        - href: error/cmfr/cmfr-gen-20004.md 
+        - href: error/cmfr/cmfr-gen-20005.md 
+        - href: error/cmfr/cmfr-gen-20006.md 
+        - href: error/cmfr/cmfr-gen-20007.md 
+        - href: error/cmfr/cmfr-gen-20008.md 
+   
+    #Experience Builder
+    - href: error/exbl/intro.md
+    - topics:
+        - href: error/exbl/exbl-api-10001.md
+        - href: error/exbl/exbl-conf-00001.md
+        - href: error/exbl/exbl-conf-00004.md
+        - href: error/exbl/exbl-conf-00010.md
+        - href: error/exbl/exbl-gen-00001.md
+        - href: error/exbl/exbl-gen-00015.md
+        - href: error/exbl/exbl-gen-00016.md
+        - href: error/exbl/exbl-gen-00017.md
+        - href: error/exbl/exbl-gen-00029.md
+        - href: error/exbl/exbl-gen-00030.md
+        - href: error/exbl/exbl-gen-00032.md
+        - href: error/exbl/exbl-gen-00033.md
+        - href: error/exbl/exbl-gen-00040.md
+        - href: error/exbl/exbl-gen-00042.md
+        - href: error/exbl/exbl-gen-00043.md
+        - href: error/exbl/exbl-gen-00044.md
+        - href: error/exbl/exbl-gen-00048.md
+        - href: error/exbl/exbl-gen-00049.md
+        - href: error/exbl/exbl-gen-00053.md
+        - href: error/exbl/exbl-gen-00054.md
 
 # Community
 - href: community/intro.md
@@ -62,6 +260,8 @@
 - topics:
     - href: licensing/detach-11.md
     - href: licensing/detach-10.md
+
+
 
 
 - placeholder: Enterprise Customers
@@ -298,197 +498,6 @@
         - topics:
             - href: forge/remove-project.md
         - href: forge/trusted-requirements.md
-
-        
-# Security
-- href: security/intro.md
-- topics:
-    - href: security/penetration-test-cloud.md
-    - href: security/static-application-security-testing.md
-    - href: security/secure-rest-client-certificate.md
-    - href: security/platform-server-hardening.md
-    - href: security/certificate-management/certificate-management.md
-    - href: security/cloud-certificate-change/cloud-certificate-change.md
-    - href: security/penetration-tests.md
-    - href: security/rest-headers-hardening.md
-    # - href: security/data-masking.md
-
-    # Application Security
-    - href: security/app-security/intro.md
-    - topics:
-        - href: security/app-security/app-security-owasp-top-10.md
-        - href: security/app-security/mobile-app-server.md
-
- 
-    # HIPAA compliance
-    - href: security/HIPAA/intro.md
-    - topics:
-        - href: security/HIPAA/hipaa-tech-safeguards.md
-    
-    # Vulnerabilities
-    - href: security/vulnerabilities/intro.md
-    - topics:
-        - href: security/vulnerabilities/vulnerability-RLIT-3368.md
-        - href: security/vulnerabilities/vulnerability-RPD-2322.md
-        - href: security/vulnerabilities/vulnerability-RPD-3849.md
-        - href: security/vulnerabilities/vulnerability-RPD-4260.md
-        - href: security/vulnerabilities/vulnerability-RLIT-2388.md
-        - href: security/vulnerabilities/vulnerability-RPD-2903.md
-        - href: security/vulnerabilities/vulnerability-RPD-3384.md
-        - href: security/vulnerabilities/vulnerability-RPD-4310.md
-        - href: security/vulnerabilities/vulnerability-RPD-5160.md
-        - href: security/vulnerabilities/vulnerability-RTAF-2226.md
-        - href: security/vulnerabilities/vulnerability-RTAF-3379.md
-        - href: security/vulnerabilities/vulnerability-RDEV-2256.md
-        - href: security/vulnerabilities/vulnerability-RICT-2849.md
-        - href: security/vulnerabilities/vulnerability-RPSFCT-55.md
-        - href: security/vulnerabilities/vulnerability-RICT-2855.md
-        - href: security/vulnerabilities/vulnerability-RCFT-4197.md
-        - href: security/vulnerabilities/vulnerability-RICT-2673.md
-        - href: security/vulnerabilities/vulnerability-RPM-657.md
-        - href: security/vulnerabilities/vulnerability-RPM-683.md
-        - href: security/vulnerabilities/vulnerability-RPM-786.md
-        - href: security/vulnerabilities/vulnerability-RPM-813.md
-        - href: security/vulnerabilities/vulnerability-RPM-1278.md
-        - href: security/vulnerabilities/vulnerability-RPM-1054.md
-        - href: security/vulnerabilities/vulnerability-RPM-689.md
-
-    # How OutSystems Platform helps you develop secure applications
-    - href: security/develop-secure-apps/intro.md
-    - topics:
-        - href: security/develop-secure-apps/code-injection-css-attacks.md
-        - href: security/develop-secure-apps/authentication-vulnerabilities.md
-        - href: security/develop-secure-apps/access-control-vulnerabilities.md
-        - href: security/develop-secure-apps/encryption-ssl-tls.md
-        - href: security/develop-secure-apps/csrf-attacks.md
-        - href: security/develop-secure-apps/redirects-forwarders-vulnerabilities.md
-
-# Error reference documentation
-- href: error/intro.md
-- topics:
-    #Integration Builder
-    - href: error/inbl/intro.md
-    - topics:
-        - href: error/inbl/inbl-api-00004.md
-        - href: error/inbl/inbl-api-00008.md
-        - href: error/inbl/inbl-api-00011.md
-        - href: error/inbl/inbl-api-00021.md
-        - href: error/inbl/inbl-api-00028.md
-        - href: error/inbl/inbl-api-00033.md
-        - href: error/inbl/inbl-api-00050.md
-        - href: error/inbl/inbl-api-00061.md
-        - href: error/inbl/inbl-api-00069.md
-        - href: error/inbl/inbl-api-00070.md
-        - href: error/inbl/inbl-api-20000.md
-        - href: error/inbl/inbl-gen-00032.md
-        - href: error/inbl/inbl-gen-50002.md
-        - href: error/inbl/inbl-gen-50004.md
-        - href: error/inbl/inbl-gen-50005.md
-        - href: error/inbl/inbl-gen-50028.md
-        - href: error/inbl/signin-problems.md
-        - href: error/inbl/connectivity-problems.md
-    #Workflow Builder
-    - href: error/wbl/intro.md
-    - topics:
-        - href: error/wbl/wfbl-api-00001.md 
-        - href: error/wbl/wfbl-api-00002.md 
-        - href: error/wbl/wfbl-api-00003.md 
-        - href: error/wbl/wfbl-api-10001.md 
-        - href: error/wbl/wfbl-conf-00001.md 
-        - href: error/wbl/wfbl-conf-00002.md 
-        - href: error/wbl/wfbl-conf-00003.md 
-        - href: error/wbl/wfbl-conf-00004.md 
-        - href: error/wbl/wfbl-conf-00005.md 
-        - href: error/wbl/wfbl-conf-00006.md 
-        - href: error/wbl/wfbl-conf-00007.md 
-        - href: error/wbl/wfbl-conf-00008.md 
-        - href: error/wbl/wfbl-gen-00000.md 
-        - href: error/wbl/wfbl-gen-00001.md 
-        - href: error/wbl/wfbl-gen-00002.md 
-        - href: error/wbl/wfbl-gen-00003.md 
-        - href: error/wbl/wfbl-gen-00004.md 
-        - href: error/wbl/wfbl-gen-00005.md 
-        - href: error/wbl/wfbl-gen-00006.md 
-        - href: error/wbl/wfbl-gen-00007.md 
-        - href: error/wbl/wfbl-gen-00008.md 
-        - href: error/wbl/wfbl-gen-00009.md 
-        - href: error/wbl/wfbl-gen-10001.md 
-        - href: error/wbl/wfbl-gen-40001.md 
-        - href: error/wbl/wfbl-gen-40002.md 
-     #Case Management framework
-    - href: error/cmfr/intro.md
-    - topics: 
-        - href: error/cmfr/cmfr-bpt-00001.md 
-        - href: error/cmfr/cmfr-gen-00001.md 
-        - href: error/cmfr/cmfr-gen-00002.md 
-        - href: error/cmfr/cmfr-gen-00003.md 
-        - href: error/cmfr/cmfr-gen-00004.md 
-        - href: error/cmfr/cmfr-gen-00005.md 
-        - href: error/cmfr/cmfr-gen-00006.md 
-        - href: error/cmfr/cmfr-gen-00007.md 
-        - href: error/cmfr/cmfr-gen-00008.md 
-        - href: error/cmfr/cmfr-gen-00009.md 
-        - href: error/cmfr/cmfr-gen-00010.md 
-        - href: error/cmfr/cmfr-gen-00011.md 
-        - href: error/cmfr/cmfr-gen-00012.md 
-        - href: error/cmfr/cmfr-gen-00013.md 
-        - href: error/cmfr/cmfr-gen-00014.md 
-        - href: error/cmfr/cmfr-gen-00015.md 
-        - href: error/cmfr/cmfr-gen-00016.md 
-        - href: error/cmfr/cmfr-gen-00017.md 
-        - href: error/cmfr/cmfr-gen-00018.md 
-        - href: error/cmfr/cmfr-gen-00019.md 
-        - href: error/cmfr/cmfr-gen-00020.md 
-        - href: error/cmfr/cmfr-gen-00021.md 
-        - href: error/cmfr/cmfr-gen-00022.md 
-        - href: error/cmfr/cmfr-gen-00023.md 
-        - href: error/cmfr/cmfr-gen-00024.md 
-        - href: error/cmfr/cmfr-gen-00025.md 
-        - href: error/cmfr/cmfr-gen-00026.md 
-        - href: error/cmfr/cmfr-gen-00027.md 
-        - href: error/cmfr/cmfr-gen-00028.md 
-        - href: error/cmfr/cmfr-gen-00029.md 
-        - href: error/cmfr/cmfr-gen-00030.md 
-        - href: error/cmfr/cmfr-gen-00031.md 
-        - href: error/cmfr/cmfr-gen-00032.md 
-        - href: error/cmfr/cmfr-gen-00033.md 
-        - href: error/cmfr/cmfr-gen-00034.md 
-        - href: error/cmfr/cmfr-gen-00035.md 
-        - href: error/cmfr/cmfr-gen-00036.md 
-        - href: error/cmfr/cmfr-gen-00037.md 
-        - href: error/cmfr/cmfr-gen-00038.md 
-        - href: error/cmfr/cmfr-gen-20001.md 
-        - href: error/cmfr/cmfr-gen-20002.md 
-        - href: error/cmfr/cmfr-gen-20003.md 
-        - href: error/cmfr/cmfr-gen-20004.md 
-        - href: error/cmfr/cmfr-gen-20005.md 
-        - href: error/cmfr/cmfr-gen-20006.md 
-        - href: error/cmfr/cmfr-gen-20007.md 
-        - href: error/cmfr/cmfr-gen-20008.md 
-   
-    #Experience Builder
-    - href: error/exbl/intro.md
-    - topics:
-        - href: error/exbl/exbl-api-10001.md
-        - href: error/exbl/exbl-conf-00001.md
-        - href: error/exbl/exbl-conf-00004.md
-        - href: error/exbl/exbl-conf-00010.md
-        - href: error/exbl/exbl-gen-00001.md
-        - href: error/exbl/exbl-gen-00015.md
-        - href: error/exbl/exbl-gen-00016.md
-        - href: error/exbl/exbl-gen-00017.md
-        - href: error/exbl/exbl-gen-00029.md
-        - href: error/exbl/exbl-gen-00030.md
-        - href: error/exbl/exbl-gen-00032.md
-        - href: error/exbl/exbl-gen-00033.md
-        - href: error/exbl/exbl-gen-00040.md
-        - href: error/exbl/exbl-gen-00042.md
-        - href: error/exbl/exbl-gen-00043.md
-        - href: error/exbl/exbl-gen-00044.md
-        - href: error/exbl/exbl-gen-00048.md
-        - href: error/exbl/exbl-gen-00049.md
-        - href: error/exbl/exbl-gen-00053.md
-        - href: error/exbl/exbl-gen-00054.md
 
 # Trial offer
 - placeholder: Trial
