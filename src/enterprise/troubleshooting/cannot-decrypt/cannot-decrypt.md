@@ -6,7 +6,7 @@ guid: 353db22a-7853-4498-a2a1-62c184f291ff
 ---
 
 
-# Troubleshooting "Error Deserializing ViewState:  Cannot decrypt the content" error
+# Troubleshooting Error Deserializing ViewState - Cannot decrypt the content error
 
 ## Introduction to viewstate
 

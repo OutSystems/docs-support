@@ -4,7 +4,7 @@ locale: en-us
 guid: fa591ec3-eb33-4ac1-8e49-e2a797934f6f
 ---
 
-# Troubleshoot "Could not create Foreign Key" errors during deployment
+# Troubleshoot Could not create Foreign Key errors during deployment
 
 When publishing a module you may, in certain situations, encounter the following error:
 
