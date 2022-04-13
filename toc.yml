@@ -46,6 +46,7 @@
     - href: troubleshooting/infrastructure-management/intro.md
     - topics:
         - href: troubleshooting/infrastructure-management/manual-start-services.md
+        - href: troubleshooting/infrastructure-management/upgrade-cloud-demo.md
 
 # Security
 - href: security/intro.md
