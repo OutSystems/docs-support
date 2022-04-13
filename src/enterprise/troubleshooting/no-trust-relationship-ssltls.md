@@ -4,7 +4,7 @@ locale: en-us
 guid: 2a1720f7-5ef5-4e71-b15b-2511b6dc6ab5
 ---
 
-# 'Could not establish trust relationship' in webservices
+# Could not establish trust relationship when consuming webservices in OutSystems 
 
 ## Symptoms
 
