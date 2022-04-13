@@ -5,7 +5,7 @@ locale: en-us
 guid: 5caacb13-daf1-4dbc-80ba-ac379a8da764
 ---
 
-# Application security overview
+# Develop secure OutSystems apps
 
 <div class="info" markdown="1">
 Download the whitepaper version of this document by clicking [here](images/application-security.pdf).
