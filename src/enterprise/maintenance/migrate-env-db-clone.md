@@ -10,6 +10,7 @@ guid: c7a43888-5a32-42f9-ab2a-f479c076ad79
 **This article applies to:**[OutSystems 11](https://success.outsystems.com/Support/Archive/What_version_of_OutSystems_Platform_am_I_using)              **Other versions available:**[10.0](https://success.outsystems.com/Support/Archive/10.0/Migrate_an_Environment_Using_a_Database_Clone)   [9.1](https://success.outsystems.com/Support/Archive/9.1/Migrate_an_Environment_Using_a_Database_Clone)   [9.0](https://success.outsystems.com/Support/Archive/9.0/Migrate_an_Environment_Using_a_Database_Clone)
 
 <div class="info" markdown="1">
+
 This procedure applies only to On-Premise Infrastructures 
 </div>
 
@@ -64,6 +65,7 @@ Clean up the restored security contexts, as follows:
 ***
 
 <div class="warning" markdown="1">
+
 Note that if there are still any objects (views, tables, stored procedures, etc.) in the restored database that depend on any of these users then you will need to change the object owner to dbo (evaluate the application level impact of this change) before being able to delete the users. 
 </div>
 
@@ -187,6 +189,7 @@ To do it:
 
  
 <div class="warning" markdown="1">
+
 Note that if you don't change the Database Connection you will incur an integrity constraint error related to the OSSYS_EXTENSION_DBCONNECTION.
 </div>
 

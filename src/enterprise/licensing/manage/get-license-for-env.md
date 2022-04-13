@@ -28,6 +28,7 @@ For your self-managed environments, you'll need to obtain and install the licens
     ![](images/get-license-for-env-1.png)
 
 <div class="info" markdown="1">
+
 If your infrastructure isn't visible in the drop-down, you aren't associated with that infrastructure in your Customer portal.
 Only [authorized members](https://success.outsystems.com/Support/Enterprise_Customers/OutSystems_Support/Managing_Your_Company_Permissions_on_outsystems.com#What_are_your_access_levels.3F) will be able to access.
 </div>
@@ -55,6 +56,7 @@ To obtain a license, you'll first need to register the environment using its ser
     ![](images/get-license-for-env-3.png)
 
 <div class="info" markdown="1">
+
 Don't have any more environments available? See [how to free up an existing environment](free-up-environment.md) or contact your OutSystems account manager.
 </div>
 

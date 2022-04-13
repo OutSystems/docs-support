@@ -7,6 +7,7 @@ guid: 76f0ff8d-00dc-4b9e-8da7-95df3bebb8cb
 # Integrating OutSystems with your ecosystem
 
 <div class="info" markdown="1">
+
 Download the whitepaper version of this document by clicking [here](images/Integrating-OutSystems-with-your-ecosystem.pdf).
 </div>
 

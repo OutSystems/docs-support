@@ -8,6 +8,7 @@ guid: 03501092-5cc4-422a-a64e-85ff2740a068
 # How to install an SSL Certificate for the OutSystems platform in Linux
 
 <div class="info" markdown="1">
+
 This article applies to **on-premise** or **private cloud** infrastructures. 
 **OutSystems PaaS** environments include by default valid SSL certificates with the outsystemsenterprise.com domain. Should you wish to customize your environment domain please refer to [this article](https://success.outsystems.com/Support/Enterprise_Customers/Installation/Enable_Custom_SSL_Domain_In_OutSystems_PaaS).
 </div>

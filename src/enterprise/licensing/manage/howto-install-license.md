@@ -26,6 +26,7 @@ Follow these steps to install the license file on your environment:
 ![](images/howto-install-license_0.png)
 
 <div class="info" markdown="1">
+
 License files are bound to a given environment / Serial Number and if you try to install them on other environments you'll get an error.
 </div>
 

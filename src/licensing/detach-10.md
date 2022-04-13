@@ -101,6 +101,7 @@ If you are using Timers or BPT Activities in your applications, you will be able
 To compile the scheduler, open the **Scheduler.sln** file, located in the Scheduler directory, with Visual Studio and build the solution. After that, open the Developer Command Prompt for Visual Studio, go to the `\Scheduler\bin\Debug` folder and execute `installutil scheduler.exe`. This will install a service called Detached Scheduler Service. To uninstall it, run `installutil /u scheduler.exe`. If any problem happens, check the scheduler logs in the Event Viewer.
 
 <div class="info" markdown="1">
+
 If you are installing the Scheduler Service in an Application Server that never hosted the OutSystems Platform Server, you must copy the plugins folder (`C:\Program Files\OutSystems\Platform Server\plugins`) from a Platfrom Server instalation.
 If the plugins folder and its content is not available, it will not be possible to run the service after the installation.
 </div>
@@ -446,6 +447,7 @@ To change the application pool of the underlying web site, select the web site a
 #### Mobile apps
 
 <div class="info" markdown="1">
+
 **Before you start**  
 If you detached the back-end source code of the mobile application and deployed it outside OutSystems, update the back-end endpoint in the _&lt;extract_path&gt;\source\config.xml_ file by changing the following entries:  
 

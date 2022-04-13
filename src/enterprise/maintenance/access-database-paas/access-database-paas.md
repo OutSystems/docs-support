@@ -11,8 +11,7 @@ This topic details how you request direct access to the OutSystems Cloud databas
 
 <div class="info" markdown="1">
 
-Check in the [Cloud services catalog](https://success.outsystems.com/Support/Enterprise_Customers/OutSystems_Support/Cloud_services_catalog) if the Direct database access service is available for your OutSystems Cloud edition.
-
+Check in the [Service changes available upon request](https://www.outsystems.com/legal/success/cloud-services-catalog/) if the Direct database access service is available for your OutSystems Cloud edition.
 </div>
 
 ## Direct database access to your OutSystems Cloud
@@ -29,6 +28,7 @@ You can then use tools like SQL Server Management Studio or Oracle SQL Developer
 ### Temporary database user
 
 <div class="info" markdown="1">
+
 Temporary database users are only available on OutSystems Cloud running **LifeTime Management Console 11.7.5 or later**.
 </div>
 

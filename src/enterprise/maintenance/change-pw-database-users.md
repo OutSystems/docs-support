@@ -8,6 +8,7 @@ guid: 9c278333-131f-4be3-9109-1a22630abdf6
 #  How to change the password of OutSystems database users
 
 <div class="info" markdown="1">
+
 This procedure applies only to self managed infrastructures on OutSystems 11
 </div>
 
@@ -37,6 +38,7 @@ You may need to change the passwords associated with these database users, for e
 This document guides you through the necessary steps and it can be used  to change the passwords of all users or just some of them.
 
 <div class="warning" markdown="1">
+
 This procedure causes a complete loss of service from the moment it's initiated until it's fully completed. Make sure to plan accordingly and read the full procedure before executing it.
 </div>
 
@@ -85,6 +87,7 @@ After changing the passwords on the database and on the Configuration Tool of al
 Access Service Center and apply settings to all the modules of that environment:
 
 <div class="info" markdown="1">
+
 If your infrastructure is using Active Directory(AD) authentication for IT users, it won't be possible to login to Service Center at this point. In that case please execute [this workaround](#AD-workaround) first and only after follow the next 2 steps.
 If IT users aren't integrated with an AD, proceed without the workaround.
 </div>

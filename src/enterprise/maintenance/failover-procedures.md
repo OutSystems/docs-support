@@ -31,6 +31,7 @@ The following table presents the steps required switch the front-ends from the p
 If the server with the Deployment Controller role fails, publishing becomes unavailable. Applications continue to run but cache invalidation mechanisms won't be operational. 
 
 <div class="info" markdown="1">
+
 If your application is highly dependent on cache invalidation, to ensure full functionality, it's extremely important to immediately recover a Controller after a failure to regain full functionality of the Platform Server.
 </div>
 
