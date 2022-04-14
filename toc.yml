@@ -50,7 +50,9 @@
         - href: troubleshooting/application-runtime/dst-change-bpt-not-processed.md
         - href: troubleshooting/application-runtime/error-accessing-app-windows-token.md
         - href: troubleshooting/application-runtime/unexpected-link-app-error.md
-        - href: troubleshooting/application-runtime/enable-ssl-protocols-tls.md                
+        - href: troubleshooting/application-runtime/enable-ssl-protocols-tls.md
+        - href: troubleshooting/application-runtime/altering-file-upload-limits.md
+        - href: troubleshooting/application-runtime/problems-logging-integrated-auth.md             
     # Infrastructure Management
     - href: troubleshooting/infrastructure-management/intro.md        
     - topics:
@@ -356,7 +358,6 @@
         - href: enterprise/maintenance/cookie-usage.md
         - href: enterprise/maintenance/custom-dns-name-cloud.md
         - href: enterprise/maintenance/database-storage-cloud.md                  
-        - href: enterprise/maintenance/altering-file-upload-limits.md
         - href: enterprise/maintenance/reinstall-different-path.md
         - href: enterprise/maintenance/cloud-maintenance-window.md
         - href: enterprise/maintenance/does-safe-harbor-ecj-apply.md
@@ -417,7 +418,6 @@
             - href: enterprise/troubleshooting/env-deploy-controller-twice.md
             - href: enterprise/troubleshooting/mgmt-console-not-authorized.md
             - href: enterprise/troubleshooting/lifetime/lifetime-register-env-error.md
-            - href: enterprise/troubleshooting/problems-logging-integrated-auth.md
             - href: enterprise/troubleshooting/get-logs.md          
             - href: enterprise/troubleshooting/information-logged.md
             - href: enterprise/troubleshooting/attributes-limited-sqlite.md
