@@ -48,6 +48,7 @@
         - href: troubleshooting/application-runtime/timeouts-under-hood.md
         - href: troubleshooting/application-runtime/no-trust-relationship-ssltls.md
         - href: troubleshooting/application-runtime/dst-change-bpt-not-processed.md
+        - href: troubleshooting/application-runtime/error-accessing-app-windows-token.md
     # Infrastructure Management
     - href: troubleshooting/infrastructure-management/intro.md
     - topics:
@@ -414,7 +415,6 @@
             - href: enterprise/troubleshooting/deploy-apps-sc.md            
             - href: enterprise/troubleshooting/env-deploy-controller-twice.md
             - href: enterprise/troubleshooting/unexpected-link-app-error.md
-            - href: enterprise/troubleshooting/error-accessing-app-windows-token.md
             - href: enterprise/troubleshooting/mgmt-console-not-authorized.md
             - href: enterprise/troubleshooting/lifetime/lifetime-register-env-error.md
             - href: enterprise/troubleshooting/problems-logging-integrated-auth.md
