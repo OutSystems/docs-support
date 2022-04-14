@@ -7,6 +7,12 @@ guid: c870a0bf-e68a-4fab-94e5-d5d0ed9e3493
 
 # Known issues with the Map component for Reactive Web apps
 
+<div class="info" markdown="1">
+
+Applies only to Mobile Apps and Reactive Web Apps
+
+</div>
+
 This list contains known issues currently being investigated by OutSystems. You can use it to see if an issue affecting you is already known and decide when to upgrade. If you have any questions, comments, or need some assistance, you can post a question on the [Support tab of the Forge component](https://www.outsystems.com/forge/component-discussions/9909/OutSystems+Maps).
 
 ## Changing the Offset property in a Map with both Map center and Markers position using coordinates with Auto Zoom

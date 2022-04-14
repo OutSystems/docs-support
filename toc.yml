@@ -52,7 +52,9 @@
         - href: troubleshooting/application-runtime/unexpected-link-app-error.md
         - href: troubleshooting/application-runtime/enable-ssl-protocols-tls.md
         - href: troubleshooting/application-runtime/altering-file-upload-limits.md
-        - href: troubleshooting/application-runtime/problems-logging-integrated-auth.md             
+        - href: troubleshooting/application-runtime/problems-logging-integrated-auth.md
+        - href: troubleshooting/application-runtime/attributes-limited-sqlite.md
+        - href: troubleshooting/application-runtime/ki-map-reactive.md    
     # Infrastructure Management
     - href: troubleshooting/infrastructure-management/intro.md        
     - topics:
@@ -420,7 +422,6 @@
             - href: enterprise/troubleshooting/lifetime/lifetime-register-env-error.md
             - href: enterprise/troubleshooting/get-logs.md          
             - href: enterprise/troubleshooting/information-logged.md
-            - href: enterprise/troubleshooting/attributes-limited-sqlite.md
             - href: enterprise/troubleshooting/lifetime/lifetime-sync-stuck.md                
             - href: enterprise/troubleshooting/mabs-troubleshooting-android.md
             - href: enterprise/troubleshooting/resource-nowait-specified.md 
@@ -458,7 +459,6 @@
             - href: enterprise/troubleshooting/known-issues/ki-11_10-downtime-CT/ki-11_10-downtime-CT.md
             - href: enterprise/troubleshooting/known-issues/ki-11_10-site-properties/ki-11_10-site-properties.md
             - href: enterprise/troubleshooting/known-issues/ki-datagrid-reactive/ki-datagrid-reactive.md
-            - href: enterprise/troubleshooting/known-issues/ki-map-reactive/ki-map-reactive.md
       
     # Accessibility
     - placeholder: Accessibility
