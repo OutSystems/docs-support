@@ -49,8 +49,9 @@
         - href: troubleshooting/application-runtime/no-trust-relationship-ssltls.md
         - href: troubleshooting/application-runtime/dst-change-bpt-not-processed.md
         - href: troubleshooting/application-runtime/error-accessing-app-windows-token.md
+        - href: troubleshooting/application-runtime/unexpected-link-app-error.md                   
     # Infrastructure Management
-    - href: troubleshooting/infrastructure-management/intro.md
+    - href: troubleshooting/infrastructure-management/intro.md        
     - topics:
         - href: troubleshooting/infrastructure-management/manual-start-services.md
         - href: troubleshooting/infrastructure-management/upgrade-cloud-demo.md
@@ -414,7 +415,6 @@
             - href: enterprise/troubleshooting/change-logging-levels.md
             - href: enterprise/troubleshooting/deploy-apps-sc.md            
             - href: enterprise/troubleshooting/env-deploy-controller-twice.md
-            - href: enterprise/troubleshooting/unexpected-link-app-error.md
             - href: enterprise/troubleshooting/mgmt-console-not-authorized.md
             - href: enterprise/troubleshooting/lifetime/lifetime-register-env-error.md
             - href: enterprise/troubleshooting/problems-logging-integrated-auth.md

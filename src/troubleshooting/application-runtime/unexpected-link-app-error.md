@@ -4,7 +4,7 @@ locale: en-us
 guid: 19528074-d51e-434c-bbce-ccfde080c48e
 ---
 
-# Error: unexpected link in application (changes from HTTPS to HTTP or shows an internal server name)
+# Unexpected link in application - changes from HTTPS to HTTP or shows an internal server name
 
 ## Symptoms
 
