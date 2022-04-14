@@ -4,7 +4,7 @@ locale: en-us
 guid: 4f250e9c-6197-4fc6-8ee2-d6070619a935
 ---
 
-# Installing the Platform on a FIPS compliant system
+# Installing the OutSystems on a FIPS compliant system
 
 ## Problem
 

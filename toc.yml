@@ -49,7 +49,8 @@
         - href: troubleshooting/application-runtime/no-trust-relationship-ssltls.md
         - href: troubleshooting/application-runtime/dst-change-bpt-not-processed.md
         - href: troubleshooting/application-runtime/error-accessing-app-windows-token.md
-        - href: troubleshooting/application-runtime/unexpected-link-app-error.md                   
+        - href: troubleshooting/application-runtime/unexpected-link-app-error.md
+        - href: troubleshooting/application-runtime/enable-ssl-protocols-tls.md                
     # Infrastructure Management
     - href: troubleshooting/infrastructure-management/intro.md        
     - topics:
@@ -335,7 +336,6 @@
     # Maintenance and Operations
     - placeholder: Maintenance and Operations
     - topics:
-        - href: enterprise/maintenance/enable-ssl-protocols-tls.md
         - href: enterprise/maintenance/access-database-paas/access-database-paas.md
         - topics: 
             - href: enterprise/maintenance/access-database-paas/temporary-access-database-backup.md
