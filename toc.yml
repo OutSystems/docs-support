@@ -44,6 +44,7 @@
         - href: troubleshooting/application-runtime/slow-integrations.md
         - href: troubleshooting/application-runtime/upload-not-work-videos-ios.md
         - href: troubleshooting/application-runtime/bpt-automatic-activities-timeout.md
+        - href: troubleshooting/application-runtime/viewport-fit-issue.md
     # Infrastructure Management
     - href: troubleshooting/infrastructure-management/intro.md
     - topics:
@@ -355,7 +356,6 @@
         - href: enterprise/maintenance/cloud-maintenance-window.md
         - href: enterprise/maintenance/does-safe-harbor-ecj-apply.md
         - href: enterprise/maintenance/ip-range-cloud.md     
-        - href: enterprise/maintenance/viewport-fit-issue.md
         - href: enterprise/maintenance/protect-android-ios-certificate.md
         - href: enterprise/maintenance/multiple-db-catalogs-schemas.md
         - href: enterprise/maintenance/cloud-timezones.md

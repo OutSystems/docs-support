@@ -9,7 +9,7 @@ OutSystems proposes a way to solve the [known issue about the "viewport-fit" met
 
 The following images show a mobile app with and without the "viewport-fit" meta tag: 
 
-![](images/viewport-fit-issue-1.png?width=700)
+![](images/viewport-fit-issue-1.png)
 
 To provide a better user experience, you can change the Status Bar color and the default background color of the WebView in runtime.
 
@@ -39,4 +39,4 @@ if (typeof(window.plugins) !== 'undefined' && typeof(window.plugins.webviewcolor
 
 After changing the Status Bar color and the default background color of the WebView, the mobile app should look like the following images:
 
-![](images/viewport-fit-issue-2.png?width=500)
+![](images/viewport-fit-issue-2.png)
