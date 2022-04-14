@@ -64,16 +64,11 @@
     - href: security/certificate-management/certificate-management.md
     - href: security/cloud-certificate-change/cloud-certificate-change.md
     - href: security/penetration-tests.md
-    - href: security/rest-headers-hardening.md
-
-
-
- 
+    - href: security/rest-headers-hardening.md 
     # HIPAA compliance
     - href: security/HIPAA/intro.md
     - topics:
         - href: security/HIPAA/hipaa-tech-safeguards.md
-    
     # Vulnerabilities
     - href: security/vulnerabilities/intro.md
     - topics:
@@ -101,7 +96,6 @@
         - href: security/vulnerabilities/vulnerability-RPM-1278.md
         - href: security/vulnerabilities/vulnerability-RPM-1054.md
         - href: security/vulnerabilities/vulnerability-RPM-689.md
-
     # How OutSystems Platform helps you develop secure applications
     - href: security/develop-secure-apps/intro.md
     - topics:
@@ -213,8 +207,7 @@
         - href: error/cmfr/cmfr-gen-20005.md 
         - href: error/cmfr/cmfr-gen-20006.md 
         - href: error/cmfr/cmfr-gen-20007.md 
-        - href: error/cmfr/cmfr-gen-20008.md 
-   
+        - href: error/cmfr/cmfr-gen-20008.md    
     #Experience Builder
     - href: error/exbl/intro.md
     - topics:
@@ -248,6 +241,7 @@
     - href: community/change-community-email.md
     - href: community/close-community-account.md
     - href: community/merge-accounts.md
+    - href: community/open-support-case.md
     # Training
     - href: community/training/training-intro.md
     - topics:
