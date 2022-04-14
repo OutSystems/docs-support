@@ -45,6 +45,7 @@
         - href: troubleshooting/application-runtime/upload-not-work-videos-ios.md
         - href: troubleshooting/application-runtime/bpt-automatic-activities-timeout.md
         - href: troubleshooting/application-runtime/viewport-fit-issue.md
+        - href: troubleshooting/application-runtime/timeouts-under-hood.md
     # Infrastructure Management
     - href: troubleshooting/infrastructure-management/intro.md
     - topics:
@@ -369,7 +370,6 @@
         - href: enterprise/maintenance/vpn/vpn-errors.md
         - href: enterprise/maintenance/vpn/vpn-setup-previous.md
         - href: enterprise/maintenance/system-updates-paas.md
-        - href: enterprise/maintenance/timeouts-under-hood.md
         - href: enterprise/maintenance/timezone-considerations.md
         - href: enterprise/maintenance/chrome-samesite-cookie-changes.md
         - href: enterprise/maintenance/sql-compatibility-upgrade.md
