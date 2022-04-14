@@ -54,7 +54,9 @@
         - href: troubleshooting/application-runtime/altering-file-upload-limits.md
         - href: troubleshooting/application-runtime/problems-logging-integrated-auth.md
         - href: troubleshooting/application-runtime/attributes-limited-sqlite.md
-        - href: troubleshooting/application-runtime/ki-map-reactive.md    
+        - href: troubleshooting/application-runtime/ki-map-reactive.md
+        - href: troubleshooting/application-runtime/ki-datagrid-reactive.md
+        - href: troubleshooting/application-runtime/cannot-decrypt/cannot-decrypt.md
     # Infrastructure Management
     - href: troubleshooting/infrastructure-management/intro.md        
     - topics:
@@ -447,7 +449,6 @@
             - href: enterprise/troubleshooting/app-not-in-users.md
             - href: enterprise/troubleshooting/error-cannot-access-file.md
             - href: enterprise/troubleshooting/troubleshoot-502.md
-            - href: enterprise/troubleshooting/cannot-decrypt/cannot-decrypt.md
             - href: enterprise/troubleshooting/deploy-fail-new-entity-attribute.md
             - href: enterprise/troubleshooting/dot-net-core-3-1/dot-net-core-3-1.md
             - href: enterprise/troubleshooting/error-401/intro.md
@@ -458,7 +459,6 @@
             # Known issues
             - href: enterprise/troubleshooting/known-issues/ki-11_10-downtime-CT/ki-11_10-downtime-CT.md
             - href: enterprise/troubleshooting/known-issues/ki-11_10-site-properties/ki-11_10-site-properties.md
-            - href: enterprise/troubleshooting/known-issues/ki-datagrid-reactive/ki-datagrid-reactive.md
       
     # Accessibility
     - placeholder: Accessibility

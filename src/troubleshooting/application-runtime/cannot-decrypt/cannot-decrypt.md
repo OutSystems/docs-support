@@ -11,7 +11,7 @@ guid: 353db22a-7853-4498-a2a1-62c184f291ff
 ## Introduction to viewstate
 
 <div class="info" markdown="1">
-This article applies only to Traditional Web Applications
+Applies to Traditional Web Applications
 </div>
 
  
