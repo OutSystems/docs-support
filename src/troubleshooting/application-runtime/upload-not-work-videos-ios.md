@@ -4,7 +4,7 @@ locale: en-us
 guid: fef0d982-a3ee-45db-93e7-cd3f26aecd0d
 ---
 
-# Known issue - Upload widget doesn't work for videos in iOS 10.3.x devices
+# Known issue - Upload widget not working for videos in iOS 10.3
 
 It came to our attention that mobile applications built using OutSystems were having problems uploading videos on iOS devices with versions 10.3.1, 10.3.2, 10.3.3.
 
