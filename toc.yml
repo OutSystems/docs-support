@@ -42,6 +42,7 @@
     - href: troubleshooting/application-runtime/intro.md
     - topics:
         - href: troubleshooting/application-runtime/slow-integrations.md
+        - href: troubleshooting/application-runtime/upload-not-work-videos-ios.md
     # Infrastructure Management
     - href: troubleshooting/infrastructure-management/intro.md
     - topics:
@@ -420,7 +421,6 @@
             - href: enterprise/troubleshooting/get-logs.md          
             - href: enterprise/troubleshooting/information-logged.md
             - href: enterprise/troubleshooting/attributes-limited-sqlite.md
-            - href: enterprise/troubleshooting/upload-not-work-videos-ios.md
             - href: enterprise/troubleshooting/lifetime/lifetime-sync-stuck.md                
             - href: enterprise/troubleshooting/mabs-troubleshooting-android.md
             - href: enterprise/troubleshooting/resource-nowait-specified.md 
