@@ -43,6 +43,7 @@
     - topics:
         - href: troubleshooting/application-runtime/slow-integrations.md
         - href: troubleshooting/application-runtime/upload-not-work-videos-ios.md
+        - href: troubleshooting/application-runtime/bpt-automatic-activities-timeout.md
     # Infrastructure Management
     - href: troubleshooting/infrastructure-management/intro.md
     - topics:
@@ -339,7 +340,6 @@
         - href: enterprise/maintenance/add-certificate-trusted-cloud.md
         - href: enterprise/maintenance/install-client-side-certificate-paas.md
         - href: enterprise/maintenance/mobile-null-datetime.md
-        - href: enterprise/maintenance/bpt-automatic-activities-timeout.md
         - href: enterprise/maintenance/change-pw-database-users.md
         - href: enterprise/maintenance/install-client-side-cert-on-premise.md
         - href: enterprise/maintenance/move-app-pool.md
