@@ -17,15 +17,17 @@
     #     - href: release-notes/10/platform-server/coiso          commented because migration not ready yet
     #     - href: release-notes/10/development-enviroment/coiso   commented because migration not ready yet
     # - href: release-notes/architecture-dashboard/coiso          commented because migration not ready yet
-    # - href: release-notes/mabs/coiso                            commented because migration not ready yet
+    - href: release-notes/mabs/mabs.md
+    - href: release-notes/mabs/older-releases.md
+    - href: release-notes/mabs/mabs-beta-support.md
+    - href: release-notes/mabs/mabs-versions.md
+    - href: release-notes/mabs/troubleshoot-issues-with-mabs-6.md   
     # - href: release-notes/integration-builder/coiso             commented because migration not ready yet
     # - href: release-notes/experience-builder/coiso              commented because migration not ready yet
     # - href: release-notes/workflow-builder/workflow-builder.md
     - href: release-notes/product-lifecycle/product-lifecycle.md
     - href: release-notes/release-cycle.md
     - href: release-notes/tech-preview.md
-    - href: release-notes/troubleshoot-issues-with-mabs-6.md
-    - href: release-notes/mabs-beta-support.md
 
 # Troubleshooting
 - href: troubleshooting/intro.md
