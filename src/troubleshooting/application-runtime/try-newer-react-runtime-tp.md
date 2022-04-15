@@ -5,7 +5,7 @@ locale: en-us
 guid: e601102f-30c6-4911-a440-e9bd70d47901
 ---
 
-# Technical Preview - Reactive Web and Mobile runtime on React 16
+# Issues and side effects with Reactive Web and Mobile apps on React 16
 
 <div class="info" markdown="1">
 
@@ -17,8 +17,6 @@ In Platform Server 11.12 and earlier, Reactive Web and Mobile Apps use React 15 
 
 If you're running Platform Server 11.10.0, you can use **Runtime using React 16 Technical Preview** to anticipate possible breaking changes in the app behavior. It's an OutSystems strong recommendation that you use the React 16 technical preview to test your apps and address all potential issues before React 16 becomes the new runtime default. 
 
-<div class="info" markdown="1">
-
 ## Prerequisites
 
 To run your app with the React 16 runtime, as part of a technical preview, you need to meet the following requirements:
@@ -27,8 +25,6 @@ To run your app with the React 16 runtime, as part of a technical preview, you n
 * LifeTime 11.6.0 or later.
 * Up to date Service Studio.
 * You activated the [technical preview](https://success.outsystems.com/Support/Enterprise_Customers/Upgrading/Technical_Preview_features) **Runtime using React 16** in LifeTime. Note that only the apps you **publish or republish** after activating the feature use the new React 16 runtime.   
-
-</div>
 
 ## Checking for issues
 

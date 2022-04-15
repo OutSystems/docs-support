@@ -5,7 +5,7 @@ locale: en-us
 guid: 221907f5-bdfa-4767-916d-6c2fb1769489
 ---
 
-# Windows Integrated Authentication (WIA) login popup keeps showing up during application use
+# Windows Integrated Authentication login popup keeps showing for end users
 
 ## Symptoms  
 You have an application:
