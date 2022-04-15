@@ -1,11 +1,11 @@
 ---
-summary: Understand, troubleshoot, and avoid HTTP 502 bad gateways errors on your applications.
+summary: Understand, troubleshoot, and avoid HTTP 502 bad gateways errors on your OutSystems applications.
 Tags: 
 locale: en-us
 guid: f45fe813-4517-4381-896b-1c06fe7e03e0
 ---
 
-# Troubleshooting HTTP 502 (bad gateway) errors
+# Troubleshooting HTTP 502 bad gateway 
 
 In this article we'll explain what an HTTP 502 error code is and how you can troubleshoot it.
 
