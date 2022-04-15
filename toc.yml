@@ -39,6 +39,7 @@
         - href: troubleshooting/application-development/ipp-error.md
         - href: troubleshooting/application-development/deploy-fail-new-entity-attribute.md
         - href: troubleshooting/application-development/mabs-troubleshooting-android.md
+        - href: troubleshooting/application-development/error-cannot-access-file.md
     # Application Lifecycle
     - href: troubleshooting/application-lifecycle/intro.md
     - topics:
@@ -450,7 +451,6 @@
             - href: enterprise/troubleshooting/library-hell.md                                          
             - href: enterprise/troubleshooting/could-not-create-fk.md
             - href: enterprise/troubleshooting/app-not-in-users.md
-            - href: enterprise/troubleshooting/error-cannot-access-file.md
             - href: enterprise/troubleshooting/dot-net-core-3-1/dot-net-core-3-1.md
             - href: enterprise/troubleshooting/error-401/intro.md
             - href: enterprise/troubleshooting/extension-recompilation/extension-recompilation-warning.md

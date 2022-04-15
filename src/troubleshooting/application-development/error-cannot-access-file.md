@@ -5,7 +5,7 @@ locale: en-us
 guid: 1305808c-05bc-4f19-939b-09877f5681c1
 ---
 
-# Publish error: the process cannot access the file
+# Publish error - the process cannot access the file
 
 ## Symptom
 
