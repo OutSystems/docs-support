@@ -6,24 +6,24 @@
     - href: release-notes/11/intro.md
     - topics:
         - href: release-notes/11/side-effects-breaking-changes.md
-    #     - href: release-notes/11/platform-server/coiso                      commented because migration not ready yet, placeholder for Release_Notes/11/Platform_Server
-    #     - href: release-notes/11/cross-platform-service-studio/coiso        commented because migration not ready yet, placeholder for Release_Notes/11/Cross-platform_Service_Studio
-    #     - href: release-notes/11/development-enviroment/coiso               commented because migration not ready yet, placeholder for Release_Notes/11/Development_Environment
-    # - href: release-notes/lifetime-management-console                       commented because migration not ready yet, placeholder for Release_Notes/LifeTime_Management_Console
+    #     - href: release-notes/11/platform-server/coiso                   placeholder for Release_Notes/11/Platform_Server
+    #     - href: release-notes/11/cross-platform-service-studio/coiso     placeholder for Release_Notes/11/Cross-platform_Service_Studio
+    #     - href: release-notes/11/development-enviroment/coiso            placeholder for Release_Notes/11/Development_Environment
+    # - href: release-notes/lifetime-management-console                    placeholder for Release_Notes/LifeTime_Management_Console
     - href: release-notes/10/intro.md
     - topics:
         - href: release-notes/10/end-support-10.md
         - href: release-notes/10/side-effects-breaking-changes-10.md
-    #     - href: release-notes/10/platform-server/coiso          commented because migration not ready yet
-    #     - href: release-notes/10/development-enviroment/coiso   commented because migration not ready yet
-    # - href: release-notes/architecture-dashboard/coiso          commented because migration not ready yet
+    #     - href: release-notes/10/platform-server/coiso
+    #     - href: release-notes/10/development-enviroment/coiso
+    # - href: release-notes/architecture-dashboard/coiso
     - href: release-notes/mabs/mabs.md
     - href: release-notes/mabs/older-releases.md
     - href: release-notes/mabs/mabs-beta-support.md
     - href: release-notes/mabs/mabs-versions.md
     - href: release-notes/mabs/troubleshoot-issues-with-mabs-6.md   
-    # - href: release-notes/integration-builder/coiso             commented because migration not ready yet
-    # - href: release-notes/experience-builder/coiso              commented because migration not ready yet
+    # - href: release-notes/integration-builder/coiso
+    # - href: release-notes/experience-builder/coiso
     # - href: release-notes/workflow-builder/workflow-builder.md
     - href: release-notes/product-lifecycle/product-lifecycle.md
     - href: release-notes/release-cycle.md
@@ -96,7 +96,9 @@
     - topics:
         - href: troubleshooting/infrastructure-management/manual-start-services.md
         - href: troubleshooting/infrastructure-management/upgrade-cloud-demo.md
+        - href: troubleshooting/infrastructure-management/upgrade-latest-version.md
         - href: troubleshooting/infrastructure-management/test-env-connectivity.md
+        - href: troubleshooting/infrastructure-management/manage-database-space.md
 
 # Security
 - href: security/intro.md
@@ -460,13 +462,6 @@
     - topics:
         - href: enterprise/accessibility/accessibility.md
         - href: enterprise/accessibility/vpat-template.md
-
-
-# Personal Environment
-- placeholder: Personal Environment
-- topics:
-    - href: personal/manage-database-space.md
-    - href: personal/upgrade-latest-version.md
 
 # Forge
 - placeholder: Forge Components
