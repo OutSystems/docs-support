@@ -22,7 +22,7 @@ Alternatively, you can keep full access to OutSystems products with a subscripti
 
 ## Continuing when you don't have a Personal Environment
 
-Your [Personal Environment](../personal/whats-a-personal.md) is a free, cloud-based version of OutSystems, where you can create, deploy, and run your applications.
+Your [Personal Environment](../whats-a-personal.md) is a free, cloud-based version of OutSystems, where you can create, deploy, and run your applications.
 
 Follow these steps to create your Personal Environment when your trial ends, then download and upload your apps, and continue your work.
 
@@ -49,7 +49,7 @@ The following screen displays when your trial ends.
 
 <div class="info" markdown="1">
 
-Interested in upgrading to a paid subscription, see [Move apps from your Personal to an enterprise subscription](../personal/move-apps-personal-enterprise.md).
+Interested in upgrading to a paid subscription, see [Move apps from your Personal to an enterprise subscription](../move-apps-personal-enterprise.md).
 
 </div>
 
@@ -77,6 +77,6 @@ The following screen displays when your trial ends and you have a Personal Envir
 
 <div class="info" markdown="1">
 
-Interested in upgrading to a paid subscription, see [Move apps from your Personal to an enterprise subscription](../personal/move-apps-personal-enterprise.md).
+Interested in upgrading to a paid subscription, see [Move apps from your Personal to an enterprise subscription](../move-apps-personal-enterprise.md).
 
 </div>

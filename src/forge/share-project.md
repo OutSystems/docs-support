@@ -61,7 +61,7 @@ Having the component and demo files, publish your component to the Forge:
 
 1. Provide the asset **Details**. By default, the **Asset name**, the **icon**, and the **description** are the ones defined during the development. You can change these descriptions after you publish.
 
-1. In **Preview URL**, enter the URL for the **Try Now** option. The URL should display a sample, a demo, or tutorial screens that can also be available inside the demo application. Host your preview on a public server, such as a [Personal Environment](../personal/whats-a-personal.md).
+1. In **Preview URL**, enter the URL for the **Try Now** option. The URL should display a sample, a demo, or tutorial screens that can also be available inside the demo application. Host your preview on a public server, such as a [Personal Environment](https://success.outsystems.com/Support/Licensing/What_is_an_OutSystems_Personal_Environment).
 
 1. Upload **screenshots** that best illustrate the asset's features, main use cases, and behavior.
 

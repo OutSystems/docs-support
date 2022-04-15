@@ -4,13 +4,7 @@ locale: en-us
 guid: f88eb567-39c5-430b-ad00-64cead6e9fd0
 ---
 
-# What's an OutSystems personal environment?
-
-<div class="info" markdown="1">
-
-We've been working on this article. Please let us know how useful this new version is by voting.
-
-</div>
+# What is an OutSystems Personal Environment
 
 The Personal Environment (PE) is the **free, cloud-based version** of OutSystems. It allows you to create, deploy, and run your personal applications.
 
@@ -52,7 +46,7 @@ Apart from scheduled maintenance updates, your Personal Environment is up and ru
 
 Support for Personal Environments is delivered on a best-effort basis only, without any response time commitment. Developers using a Personal Environment are encouraged to rely on the [**community forums**](https://www.outsystems.com/forums/) for development support. OutSystems constantly monitors all Personal Environments for infrastructure problems, so those should be fixed automatically.
 
-We ask that you [contact OutSystems Support](https://success.outsystems.com/Support/Enterprise_Customers/OutSystems_Support/01_Contact_OutSystems_technical_support) only if the issue you are experiencing is infrastructure related and is still happening after a couple of hours since you first spotted it.
+We ask that you [contact OutSystems Support](https://www.outsystems.com/legal/success/contact-outsystems-technical-support/) only if the issue you are experiencing is infrastructure related and is still happening after a couple of hours since you first spotted it.
 
 If you have an ongoing commercial evaluation using a Personal Environment and you hit a road block, contact our chat support. Let us know you're evaluating so we're able to provide you with the full Enterprise-grade experience.
 
@@ -74,7 +68,7 @@ Detaching the source code of your applications is only available for subscriptio
 
 * **One development environment:** Your Personal Environment includes one environment and it's impossible to deploy your applications to other environments.
 
-* **Personal Environment auto-suspension:** If you stop developing or if your applications aren't being used, your Personal Environment will go to sleep. If you don't wake your environment up after an extended period of time, your applications will be saved and your Personal Environment will be recycled. Long before that happens, we'll let you know. For more information, see [here](https://success.outsystems.com/Support/Personal_Environment/What's_an_OutSystems_personal_environment%3F#Is_it_really_free.3F_Until_when.3F).
+* **Personal Environment auto-suspension:** If you stop developing or if your applications aren't being used, your Personal Environment will go to sleep. If you don't wake your environment up after an extended period of time, your applications will be saved and your Personal Environment will be recycled. Long before that happens, we'll let you know.
 
 * **Shared resources:** Your Personal Environment lives in a shared cloud infrastructure where resources, such as memory and CPU are shared among several environments. This means that the performance of your applications will suffer if you exceed 100 concurrent end-users.
 
@@ -82,7 +76,7 @@ Detaching the source code of your applications is only available for subscriptio
 
 * **No backup and restore available:** Database backups are only available for subscription licenses. It won't be possible to restore any deleted data.
 
-* **No custom domain:** Your applications live in the [outsystemscloud.com](https://outsystemscloud.com/) domain.
+* **No custom domain:** Your applications live in the `outsystemscloud.com` domain.
 
 * **No direct database access:** Check alternate ways on [how to extract data from your application](https://success.outsystems.com/Support/Personal_Environment/Personal_environment_hosting_infrastructure_under_the_hood#Extracting_your_data). You can't use stored procedures.
 

@@ -302,6 +302,10 @@
 # Licensing
 - href: licensing/intro.md
 - topics:
+    - href: licensing/whats-a-personal.md
+    - href: licensing/infrastructure-under-hood.md
+    - href: licensing/move-apps-personal-enterprise.md
+    - href: licensing/trial/backup-apps-trial.md
     - href: licensing/detach-11.md
     - href: licensing/detach-10.md
 
@@ -462,10 +466,7 @@
 - placeholder: Personal Environment
 - topics:
     - href: personal/manage-database-space.md
-    - href: personal/move-apps-personal-enterprise.md
-    - href: personal/infrastructure-under-hood.md
     - href: personal/upgrade-latest-version.md
-    - href: personal/whats-a-personal.md
 
 # Forge
 - placeholder: Forge Components
@@ -479,9 +480,3 @@
         - topics:
             - href: forge/remove-project.md
         - href: forge/trusted-requirements.md
-
-# Trial offer
-- placeholder: Trial
-- topics:
-    - href: trial/backup-apps-trial.md
-

@@ -4,7 +4,7 @@ locale: en-us
 guid: 2505a258-5861-4143-8251-a39e03821bf7
 ---
 
-# Move apps from your Personal Edition to an Enterprise Edition
+# Move apps from your Personal to a subscription license
 
 You can transfer applications when you upgrade from a Personal Edition to a paid subscription.
 
