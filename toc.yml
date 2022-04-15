@@ -457,12 +457,6 @@
             - href: enterprise/troubleshooting/known-issues/ki-11_10-downtime-CT/ki-11_10-downtime-CT.md
             - href: enterprise/troubleshooting/known-issues/ki-11_10-site-properties/ki-11_10-site-properties.md
       
-    # Accessibility
-    - placeholder: Accessibility
-    - topics:
-        - href: enterprise/accessibility/accessibility.md
-        - href: enterprise/accessibility/vpat-template.md
-
 # Forge
 - placeholder: Forge Components
 - topics:
