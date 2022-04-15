@@ -119,7 +119,7 @@ For all vulnerabilities, study the vulnerability and come up with a recommended 
 For all vulnerabilities planned to be fixed, OutSystems defines a schedule and a deadline for the fix, according to internal criteria defined to mitigate vulnerabilities. The fix and / or workaround for the vulnerability is prepared.
  
 1. **Publish security bulletin and fix release:**
-A fix is publicly released along with installation details. A security bulletin for each vulnerability is published and listed [here](https://success.outsystems.com/Support/Security/Vulnerabilities#5d13929a-8cc7-18b5-3de7-31d86b322fb4). At this point, the bulletins don't disclose any technical details.
+A fix is publicly released along with installation details. A security bulletin for each vulnerability is published and listed under this section (expand the tree on the left to see the list). At this point, the bulletins don't disclose any technical details.
 
 1. **Patch OutSystems Cloud:**
 For OutSystems Cloud customers, a patch schedule may also be communicated for all affected environments. If the patch has no impact on normal operations and availability, it won’t require scheduling. OutSystems reserves the right to start scheduling patches to OutSystems Cloud environments as soon as a fix or workaround is found.
