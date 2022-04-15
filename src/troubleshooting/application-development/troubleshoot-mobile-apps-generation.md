@@ -5,7 +5,7 @@ locale: en-us
 guid: 2705ae8e-d762-41cc-804f-0c9825d71074
 ---
 
-# Troubleshooting the mobile Apps generation
+# Troubleshooting the mobile apps generation
 
 This article contains information that's intended to help in the troubleshooting of issues when generating mobile apps to native platforms.
 
@@ -13,7 +13,7 @@ This article contains information that's intended to help in the troubleshooting
 
 * In this article, the [the MABS versions article](https://success.outsystems.com/Support/Release_Notes/Mobile_Apps_Build_Service_Versions) is used to troubleshoot some of the issues. If you need to know more about MABS, you can [read this article](https://success.outsystems.com/Documentation/11/Delivering_Mobile_Apps/Mobile_Apps_Build_Service).
 
-* If you have upgraded to MABS 5.0, check also some upgrade-specific issues in [this article](mabs/troubleshoot-issues-with-mabs-5.md).
+* If you have upgraded to MABS 5.0, check also some upgrade-specific issues in [this article](troubleshoot-issues-with-mabs-5.md).
 
 ## Common issues
 
@@ -65,7 +65,7 @@ If a Platform Server update isn't an option, one workaround is to turn off the D
 
 1. Go to **Advanced > Experimental Features** 
 
-    ![](images/error-installing-via-qr-code-in-ios-13.png?width=300)
+    ![](images/error-installing-via-qr-code-in-ios-13.png)
 
 1. At the end turn off the option that says **Disable Web SQL**
 
@@ -75,7 +75,7 @@ When using the new iPadOS, it won’t be possible to install an IPA file from th
 
 To overtake this issue you can **Request Mobile Website** (see the image below) to get the same behavior as with iPadOS.
 
-![](images/cannot-install-ipas-on-ipados-with-ios-13.png?width=600)
+![](images/cannot-install-ipas-on-ipados-with-ios-13.png)
 
 ### UIWebView warning when submitting to Apple Store
 
@@ -111,7 +111,7 @@ Each MABS version used to generate a mobile app targets a given native SDK versi
 
 In the following example (in the Extensibility Configurations of the module), we're using some Cordova preferences to change the native SDK in an app to target Android SDK 22.
 
-![](images/troubleshoot-mobile-apps-generation-1.png?width=600)
+![](images/troubleshoot-mobile-apps-generation-1.png)
 
 In this case we were using MABS 5.0 and its specifications in [MABS versions](https://success.outsystems.com/Support/Release_Notes/Mobile_Apps_Build_Service_Versions) tells us that the version 28 of the Android SDK is required. So, we must change the `value` to version 28 to be able to submit the app to the Play Store.
 
@@ -123,7 +123,7 @@ It’s recommended that we use a tagged version of a plugin. If not, we’ll be 
 
 For instance, with GitHub repositories we should use `<GitHubLink>#<TagVersion>` as the following example shows in the Extensibility Configurations of the module: 
 
-![](images/troubleshoot-mobile-apps-generation-2.png?width=600)
+![](images/troubleshoot-mobile-apps-generation-2.png)
 
 ### Not using tagged versions of plugin dependencies
 
@@ -224,7 +224,7 @@ To solve this issue:
 If the issue remains:
 
 * Try using different versions of the plugins, or
-* If MABS was upgraded to version 5.0, modify the plugins to comply with the Cordova-android directory changes described in [Troubleshoot the Upgrade to MABS 5.0](mabs/troubleshoot-issues-with-mabs-5.md).
+* If MABS was upgraded to version 5.0, modify the plugins to comply with the Cordova-android directory changes described in [Troubleshoot the Upgrade to MABS 5.0](troubleshoot-issues-with-mabs-5.md).
 
 In the specific case of PushWoosh, a Forge community plugin, it requires a ZIP file with the configuration JSON file for Android. Read [the plugin documentation](https://success.outsystems.com/Documentation/Development_FAQs/How_to_Use_Push_Notifications_with_Pushwoosh) for more information.
 
@@ -294,7 +294,7 @@ One way of troubleshooting is to look for issues in the log files.
 
 #### 1. Get the log file
 
-[Get the mobile app package generation logs](get-logs.md#mobile-app-generation-logs).
+[Get the mobile app package generation logs](../../enterprise/troubleshooting/get-logs.md#mobile-app-generation-logs).
 
 #### 2. Look for issues in the log file
 
