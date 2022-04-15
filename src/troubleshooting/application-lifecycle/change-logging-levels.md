@@ -1,28 +1,25 @@
 ---
-summary: Increasing the log levels of OutSystems Platform allows to gather more information about what's happening under the hood. Check here how to do it.
+summary: Increasing the log levels of OutSystems platform allows to gather more information about what's happening under the hood. Check here how to do it.
 locale: en-us
 guid: 4109983c-357c-4cf5-b51f-19ef2cda02a5
 ---
 
 # Change OutSystems platform logging levels - OSTrace
 
-**Permalink**: [www.outsystems.com/goto/ostrace](https://www.outsystems.com/goto/ostrace)
 
-## Overview
-
-To troubleshoot problems in your OutSystems Platform, our support team might ask you to increase the log levels of OutSystems services or for runtime applications.
+To troubleshoot problems in your OutSystems platform, our support team might ask you to increase the log levels of OutSystems services or for runtime applications.
 
 **Increasing the log levels allows to collect more information about what's happening** under the hood. It can be useful both for interactions with Support or for your own analysis of problems. 
 
-In this article we explain how to change the log level of the OutSystems Platform, and some care to be had when performing such change.
+In this article we explain how to change the log level of the OutSystems platform, and some care to be had when performing such change.
 
 ## Increase the log levels of OutSystems services
 
 ### .NET Stack
 
-OutSystems Platform uses standard logging mechanisms. On the .NET stack it use the System.Diagnostics. To configure System.Diagnostics to be more verbose, add a trace listener to the`.config` file for the application you are tracing. 
+OutSystems uses standard logging mechanisms. On the .NET stack it use the System.Diagnostics. To configure System.Diagnostics to be more verbose, add a trace listener to the`.config` file for the application you are tracing. 
 
-These files can be found at `C:\Program Files\OutSystems\Platform Server\`:
+These files can be found at `C:\Program Files\OutSystems\platform Server\`:
 
 * Deployment Controller Service: `CompilerService.exe.config`
 
@@ -53,9 +50,9 @@ If they are not present, add the following XML immediately after the `</configSe
 </system.diagnostics>                                                                                    
 ```
  
-You'll need to specify the file where you wish your log to be written (`<**PATH-TO-LOG>**`). We suggest writing it to:`C:\Program Files\OutSystems\Platform Server\logs\<NameOfService>.log`,
+You'll need to specify the file where you wish your log to be written (`<**PATH-TO-LOG>**`). We suggest writing it to:`C:\Program Files\OutSystems\platform Server\logs\<NameOfService>.log`,
 
-For example, CompilerService.exe would write to `C:\Program Files\OutSystems\Platform Server\logs\CompilerService.log`.
+For example, CompilerService.exe would write to `C:\Program Files\OutSystems\platform Server\logs\CompilerService.log`.
 
 After editing the log files, you need to restart the service that uses the configuration you've changed.
 
@@ -150,7 +147,7 @@ The sections below explain how to enable traces in each of the three Java applic
 
 4. Expand the **Advanced** options;
 
-5. Click **Lock & Edit** on the top of the left pane and add the following to the **Platform Logger Levels** box:
+5. Click **Lock & Edit** on the top of the left pane and add the following to the **platform Logger Levels** box:
 
     `outsystems=Trace`
 
@@ -172,5 +169,5 @@ We also recommend lowering the log levels once the troubleshoot session ends. Ke
 
 ## Applies to
 
-OutSystems Platform, all versions (last reviewed on 10.0.105.0), on-premises.
+OutSystems platform, all versions (last reviewed on 10.0.105.0), on-premises.
 

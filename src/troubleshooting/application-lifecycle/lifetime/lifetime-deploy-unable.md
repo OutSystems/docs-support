@@ -23,13 +23,13 @@ When you aren't able to use LifeTime to deploy your applications, follow the val
 
 If you have on-premises environments, make sure there is bidirectional communication between LifeTime and both source and target environments:
 
-1. [Test the connectivity](../test-env-connectivity.md) from **LifeTime** to the **source environment**.
+1. [Test the connectivity](../../infrastructure-management/test-env-connectivity.md) from **LifeTime** to the **source environment**.
 
-1. [Test the connectivity](../test-env-connectivity.md) from the **source environment** to **LifeTime**.
+1. [Test the connectivity](../../infrastructure-management/test-env-connectivity.md) from the **source environment** to **LifeTime**.
 
-1. [Test the connectivity](../test-env-connectivity.md) from **LifeTime** to the **target environment**.
+1. [Test the connectivity](../../infrastructure-management/test-env-connectivity.md) from **LifeTime** to the **target environment**.
 
-1. [Test the connectivity](../test-env-connectivity.md) from the **target environment** to **LifeTime**.
+1. [Test the connectivity](../../infrastructure-management/test-env-connectivity.md) from the **target environment** to **LifeTime**.
 
 ### Check the antivirus configuration in LifeTime server (on-premises only)
 

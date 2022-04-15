@@ -294,7 +294,7 @@ One way of troubleshooting is to look for issues in the log files.
 
 #### 1. Get the log file
 
-[Get the mobile app package generation logs](../../enterprise/troubleshooting/get-logs.md#mobile-app-generation-logs).
+[Get the mobile app package generation logs](../get-logs.md#mobile-app-generation-logs).
 
 #### 2. Look for issues in the log file
 

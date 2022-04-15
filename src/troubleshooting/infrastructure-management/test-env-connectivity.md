@@ -8,7 +8,7 @@ guid: 4cd51773-8433-49d9-850c-0b958956e63d
 
 In OutSystems architecture, you need to have bidirectional communication between the LifeTime environment and all the application environments.
 
-![](images/test-env-connectivity-1.png?width=800)
+![](images/test-env-connectivity-1.png
 
 ## Test the connectivity
 

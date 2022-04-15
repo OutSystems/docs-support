@@ -32,6 +32,7 @@
 # Troubleshooting
 - href: troubleshooting/intro.md
 - topics:
+    - href: troubleshooting/get-logs.md
     # Application Development
     - href: troubleshooting/application-development/intro.md
     - topics:
@@ -56,6 +57,10 @@
         - href: troubleshooting/application-lifecycle/mgmt-console-not-authorized.md
         - href: troubleshooting/application-lifecycle/reset-lifetime-authentication.md
         - href: troubleshooting/application-lifecycle/change-logging-levels.md
+        - href: troubleshooting/application-lifecycle/deploy-apps-sc.md
+        - href: troubleshooting/application-lifecycle/lifetime/lifetime-deploy-unable.md
+        - href: troubleshooting/application-lifecycle/lifetime/lifetime-register-env-error.md
+        - href: troubleshooting/application-lifecycle/lifetime/lifetime-sync-stuck.md
     # Application Runtime
     - href: troubleshooting/application-runtime/intro.md
     - topics:
@@ -87,6 +92,7 @@
     - topics:
         - href: troubleshooting/infrastructure-management/manual-start-services.md
         - href: troubleshooting/infrastructure-management/upgrade-cloud-demo.md
+        - href: troubleshooting/infrastructure-management/test-env-connectivity.md
 
 # Security
 - href: security/intro.md
@@ -435,13 +441,9 @@
     - placeholder: Troubleshooting
     - topics:
             - href: enterprise/troubleshooting/too-many-failed-login.md
-            - href: enterprise/troubleshooting/vpn-troubleshooting-guide.md
-            - href: enterprise/troubleshooting/deploy-apps-sc.md            
-            - href: enterprise/troubleshooting/env-deploy-controller-twice.md
-            - href: enterprise/troubleshooting/lifetime/lifetime-register-env-error.md
-            - href: enterprise/troubleshooting/get-logs.md          
-            - href: enterprise/troubleshooting/information-logged.md
-            - href: enterprise/troubleshooting/lifetime/lifetime-sync-stuck.md                
+            - href: enterprise/troubleshooting/vpn-troubleshooting-guide.md           
+            - href: enterprise/troubleshooting/env-deploy-controller-twice.md       
+            - href: enterprise/troubleshooting/information-logged.md               
             - href: enterprise/troubleshooting/resource-nowait-specified.md 
             - href: enterprise/troubleshooting/troubleshoot-ios-content.md  
             - href: enterprise/troubleshooting/service-permissions-change.md            
@@ -449,10 +451,8 @@
             - href: enterprise/troubleshooting/os-diag-tool.md
             - href: enterprise/troubleshooting/reset-users-auth-preferences.md
             - href: enterprise/troubleshooting/slow-publishing-117x.md
-            - href: enterprise/troubleshooting/test-env-connectivity.md
             - href: enterprise/troubleshooting/mabs/obfuscation.md
             - href: enterprise/troubleshooting/troubleshoot-platform-server.md                       
-            - href: enterprise/troubleshooting/lifetime/lifetime-deploy-unable.md
             - href: enterprise/troubleshooting/unable-register-front-end.md  
             - href: enterprise/troubleshooting/it-users-vs-app-users.md                                                      
             - href: enterprise/troubleshooting/dot-net-core-3-1/dot-net-core-3-1.md

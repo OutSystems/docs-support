@@ -18,9 +18,9 @@ When you are having problems registering a new environment in LifeTime, there ar
 
 If you have on-premises environments, make sure there is bidirectional communication between LifeTime and the environment you are trying to register:
 
-1. [Test the connectivity](../test-env-connectivity.md) from **LifeTime** to the **environment you are trying to register**.
+1. [Test the connectivity](../../infrastructure-management/test-env-connectivity.md) from **LifeTime** to the **environment you are trying to register**.
 
-1. [Test the connectivity](../test-env-connectivity.md) from the **environment you are trying to register** to **LifeTime**.
+1. [Test the connectivity](../../infrastructure-management/test-env-connectivity.md) from the **environment you are trying to register** to **LifeTime**.
 
 ### Check the Integration logs of the environment
 
@@ -30,7 +30,7 @@ Check the **Integration logs** of the **environment you are trying to register**
 
 1. Go to **Monitoring** » **Integrations**. You should see some SOAP requests which the Source is the IP of your LifeTime server.
 
-![](images/lifetime-register-env-error-1.png?width=950)
+![](images/lifetime-register-env-error-1.png)
 
 ### Check the SSL certificates
 

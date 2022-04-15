@@ -24,9 +24,9 @@ Keep **LifeTime** and **Platform Server** updated to take advantage of the lates
 
 If you have self-managed environments, make sure there is bidirectional communication between LifeTime and the synchronizing environment:
 
-1. [Test the connectivity](../test-env-connectivity.md) from **LifeTime** to the **synchronizing environment**.
+1. [Test the connectivity](../../infrastructure-management/test-env-connectivity.md) from **LifeTime** to the **synchronizing environment**.
 
-1. [Test the connectivity](../test-env-connectivity.md) from the **synchronizing environment** to **LifeTime**.
+1. [Test the connectivity](../../infrastructure-management/test-env-connectivity.md) from the **synchronizing environment** to **LifeTime**.
 
 ### Check the servers timezone (self-managed only)
 
@@ -42,7 +42,7 @@ Check the status of the Processes for potential issues:
 
 1. Go to **Monitoring** » **Processes**. You should have **no Suspended Instances** and **no Active Instances with Errors**. If you get any of these, [open a support case](https://www.outsystems.com/SupportPortal/CaseOpen/) to get help from OutSystems Support.
 
-![LifeTime Process Monitor](images/lifetime-process-monitor-sc.png?width=1000)
+![LifeTime Process Monitor](images/lifetime-process-monitor-sc.png)
 
 ## Still having problems?
 
@@ -52,10 +52,10 @@ If you have a critical need to deploy an application to that environment, you ca
 
 If your infrastructure is self-managed (not required for OutSystems Cloud), make sure to attach the following information to your support case:
 
-* [**Error**, **General**, and **Integrations** log files](../get-logs.md#runtime-logs) from the Service Center console of the **synchronizing environment**
+* [**Error**, **General**, and **Integrations** log files](../../get-logs.md#runtime-logs) from the Service Center console of the **synchronizing environment**
 
-* [**Error**, **General**, and **Integrations** log files](../get-logs.md#runtime-logs) from the Service Center console of your **LifeTime environment**
+* [**Error**, **General**, and **Integrations** log files](../../get-logs.md#runtime-logs) from the Service Center console of your **LifeTime environment**
 
-* [LifeTime Report](../get-logs.md#lifetime-report)
+* [LifeTime Report](../../get-logs.md#lifetime-report)
 
-* [BPTUtils Troubleshooting Report](../get-logs.md#get-bptutils-troubleshooting-report)
+* [BPTUtils Troubleshooting Report](../../get-logs.md#get-bptutils-troubleshooting-report)
