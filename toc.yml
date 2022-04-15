@@ -38,6 +38,7 @@
         - href: troubleshooting/application-development/error-host-not-found.md
         - href: troubleshooting/application-development/ipp-error.md
         - href: troubleshooting/application-development/deploy-fail-new-entity-attribute.md
+        - href: troubleshooting/application-development/mabs-troubleshooting-android.md
     # Application Lifecycle
     - href: troubleshooting/application-lifecycle/intro.md
     - topics:
@@ -431,7 +432,6 @@
             - href: enterprise/troubleshooting/get-logs.md          
             - href: enterprise/troubleshooting/information-logged.md
             - href: enterprise/troubleshooting/lifetime/lifetime-sync-stuck.md                
-            - href: enterprise/troubleshooting/mabs-troubleshooting-android.md
             - href: enterprise/troubleshooting/resource-nowait-specified.md 
             - href: enterprise/troubleshooting/troubleshoot-ios-content.md  
             - href: enterprise/troubleshooting/service-permissions-change.md            

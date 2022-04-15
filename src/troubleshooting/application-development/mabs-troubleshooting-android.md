@@ -5,27 +5,27 @@ guid: 882d32b2-39e0-4d08-9d40-e30f80cd467f
 ---
 
 
-# MABS Upgrade Troubleshooting Guide - Android
+# MABS upgrade troubleshooting guide - Android
 
 When you start building your apps with a different version of Mobile Apps Build Service (MABS), you may encounter some errors. This document can help you troubleshoot those errors after upgrading from MABS 4 to MABS 5.
 
 MABS 5 raises the target SDK of the generated Android apps to the Android P target, which is API 28, while MABS 4 uses API 26. To achieve this, multiple components have been updated, which in return causes some breaking changes.
 
-If you can't find here the error you're getting, or the error explanation is not helpful, check the log file for more troubleshooting information. Search for parts that start with "What went wrong". This is usually the place with helpful details. Or, look for information near the end of the log file. If you still cannot resolve the issue and you're getting stuck with the error, contact OutSystems Support.
+If you can't find here the error you're getting, or the error explanation isn't helpful, check the log file for more troubleshooting information. Search for parts that start with "What went wrong". This is usually the place with helpful details. Or, look for information near the end of the log file. If you still can't resolve the issue and you're getting stuck with the error, contact OutSystems Support.
 
 ## Cordova-android
 
-One of the updated components is the Cordova-android package, from version 6.4.0 to 8.0.0. This update changes the Android project structure. When using version 6.4.0 the application code is placed in the root project. In the newer version it is placed in a new project named `:app`.
+One of the updated components is the Cordova-android package, from version 6.4.0 to 8.0.0. This update changes the Android project structure. When using version 6.4.0 the application code is placed in the root project. In the newer version it's placed in a new project named `:app`.
 
-This changes the directory tree of the project. Many files that were located in the root of the Android project are moved to the directory of the `:app` project. This includes source files, resources, assets and more.
+This changes the directory tree of the project. Many files that were located in the root of the Android project are moved to the directory of the `:app` project. This includes source files, resources, assets, and more.
 
 Some plugins copy files or try to access files from these directories. The directories are different between these Cordova-android versions and some plugins may only work in some Cordova-android versions. This means they may only work in either MABS 4 or MABS 5.
 
-Regarding OutSystems supported plugins, the only plugin that is affected by this is OneSignal Plugin. To prevent the errors, please refer to the table in the section Supported Plugins Versions.
+Regarding OutSystems supported plugins, the only plugin that's affected by this is OneSignal Plugin. To prevent the errors, please refer to the table in the section Supported Plugins Versions.
 
 Some plugins can perform these directory-dependent tasks in both Cordova-android versions by assessing which version is used and adapting the directory based on it.
 
-## Android Support Libraries
+## Android support libraries
 
 There are five supported plugins that are affected by change in the libraries:
 
@@ -35,11 +35,11 @@ There are five supported plugins that are affected by change in the libraries:
 * OneSignal Plugin
 * PushWoosh Plugin
 
-Plugins that use Android support libraries version 28 are not compatible with MABS 4. Older versions can work with MABS 5 but it is not guaranteed. Check the table in the section Supported Plugins Versions to prevent gradle resolution issues.
+Plugins that use Android support libraries version 28 aren't compatible with MABS 4. Older versions can work with MABS 5 but it is not guaranteed. Check the table in the section Supported Plugins Versions to prevent gradle resolution issues.
 
-To accompany the update of the target SDK to 28 the Android support libraries have also been updated to version 28, both in the OutSystems applications core and in the supported plugins. This can cause gradle resolution issues between some plugins. You can read more about this topic in in [Android Support Library Versions for MABS](https://success.outsystems.com/Documentation/11/Delivering_Mobile_Apps/Mobile_Apps_Build_Service/Android_Support_Library_Versions_for_MABS).
+To accompany the update of the target SDK to 28 the Android support libraries have also been updated to version 28, both in the OutSystems applications core and in the supported plugins. This can cause gradle resolution issues between some plugins. You can read more about this topic in [Android Support Library Versions for MABS](https://success.outsystems.com/Documentation/11/Delivering_Mobile_Apps/Mobile_Apps_Build_Service/Android_Support_Library_Versions_for_MABS).
 
-## Supported Plugins Versions
+## Supported plugins versions
 
 You should use the following versions for the supported OutSystems plugins:
 
@@ -55,27 +55,27 @@ You should use the following versions for the supported OutSystems plugins:
 
 In this section you can find descriptions of some common errors and how to fix them.
 
-### File was not found
+### File wasn't found
 
 #### Symptoms
 
 When requesting a build, you're getting an error similar to:
 
-* Error generating application. This happened because script 'platforms/android/app/cordova-android-support-gradle-release/properties.gradle' was not found. Please check your script path and try again.
+* Error generating application. This happened because script 'platforms/android/app/cordova-android-support-gradle-release/properties.gradle' wasn't found. Please check your script path and try again.
 
 * Error installing Cordova plugin: cordova-plugin-firebase': Error: ENOENT: no such file or directory, scandir 'platforms/android/assets/www/google-services.
 
 #### Cause
 
-This error occurs when building an app with a plugin that tries to access a file that cannot be found. This can be caused by multiple reasons:
+This error occurs when building an app with a plugin that tries to access a file that can't be found. This can be caused by multiple reasons:
 
-* A plugin is not compatible with the MABS version that is being used due to the Cordova-android version
+* A plugin isn't compatible with the MABS version that's being used due to the Cordova-android version
 
-* A plugin has not been configured correctly
+* A plugin hasn't been configured correctly
 
 * There is an error in the plugin code
 
-If you are using the OneSignal Plugin and the file that was not found is `platforms/android/app/cordova-android-support-gradle-release/properties.gradle` then it is highly likely that you are not using the correct OneSignal Plugin version.
+If you are using the OneSignal Plugin and the file that wasn't found is `platforms/android/app/cordova-android-support-gradle-release/properties.gradle` then it's highly likely that you aren't using the correct OneSignal Plugin version.
 
 #### Resolution
 
@@ -83,9 +83,9 @@ If you are using the OneSignal Plugin:
 
 * Refer to the table in the section Supported Plugins Versions
 
-If the previous step does not fix it:
+If the previous step doesn't fix it:
 
-* Check your plugins documentation to make sure they are correctly configured
+* Check your plugins documentation to make sure they're correctly configured
 
 * Try to upgrade your plugins to more recent versions that may support newer Cordova-android versions
 
@@ -105,9 +105,9 @@ When requesting a build with MABS 4 or older, you're getting an error similar to
 
 #### Cause
 
-This error occurs when building an app with MABS 4 or prior that is using at least one plugin that references an Android support library version 28.
+This error occurs when building an app with MABS 4 or prior that's using at least one plugin that references an Android support library version 28.
 
-The log file should contain something similar to this error, where support libraries try to use resources that cannot be found because they only exist in Android target SDK 28 or newer:
+The log file should contain something similar to this error, where support libraries try to use resources that can't be found because they only exist in Android target SDK 28 or newer:
 ```
 platforms/android/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml:90: error: resource android:attr/fontVariationSettings not found.
 platforms/android/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml:90: error: resource android:attr/ttcIndex not found.
@@ -130,7 +130,7 @@ If the issue remains:
 
 When requesting a build, you're getting the following error:
 
-* Error generating application. At least one Cordova plugin used in the build requires an AndroidX library, which is not currently compatible with MABS. Check your plugins configuration.
+* Error generating application. At least one Cordova plugin used in the build requires an AndroidX library, which isn't currently compatible with MABS. Check your plugins configuration.
 
 #### Cause
 
@@ -166,20 +166,20 @@ If the issue remains:
 
 When requesting a build, you're getting the following error:
 
-* Error generating application. Some plugins are using Google Services but their usage is not being correctly configured. Check your plugins documentation to ensure their setup is correct.
+* Error generating application. Some plugins are using Google Services but their usage isn't being correctly configured. Check your plugins documentation to ensure their setup is correct.
 
 #### Cause
 
-This error occurs when building an app that uses Google Services but the app's configuration is not correct. These apps require specific JSON (for Android) or Plist (for iOS) configuration files located in the correct directories. For most of the plugins that use Google Services you need to have the correctly configured files as a resource in Service Studio.
+This error occurs when building an app that uses Google Services but the app's configuration isn't correct. These apps require specific JSON (for Android) or Plist (for iOS) configuration files located in the correct directories. For most of the plugins that use Google Services you need to have the correctly configured files as a resource in Service Studio.
 
 Regarding the supported plugins, PushWoosh requires you to provide a ZIP file with the configuration JSON file for Android. Check the plugin documentation for more information.
 
-The log file should contain something similar to this, where the google-services.json file was not found in the correct directory:
+The log file should contain something similar to this, where the google-services.json file wasn't found in the correct directory:
 ```
 Execution failed for task ':app:processDebugGoogleServices'.
 > File google-services.json is missing. The Google Services Plugin cannot function without it.
 ```
-Or, when the google-services.json file was found in the correct directory but is not correctly filled (package name in the JSON file does not match the package name of the application):
+Or, when the google-services.json file was found in the correct directory but isn't correctly filled (package name in the JSON file doesn't match the package name of the application):
 
 ```
 Execution failed for task ':app:processDebugGoogleServices'.
@@ -189,7 +189,7 @@ Execution failed for task ':app:processDebugGoogleServices'.
 
 There are two things you can try:
 
-* Check your plugins documentation to make sure they are being correctly configured
+* Check your plugins documentation to make sure they're being correctly configured
 
 * Make sure the JSON and/or Plist files are correctly filled
 
@@ -244,7 +244,7 @@ When requesting a build, you're getting an error similar to:
 
 #### Cause
 
-This error occurs when building an app that defines the same meta-data tag more than once with different values. It is typically caused by the usage of some plugins that modify or create a new AndroidManifest.xml file that redefines or overrides the meta-data value.
+This error occurs when building an app that defines the same meta-data tag more than once with different values. It's typically caused by the usage of some plugins that modify or create a new AndroidManifest.xml file that redefines or overrides the meta-data value.
 
 The log file should contain something similar to this log example, that shows a conflict caused by a plugin overriding the SOME_APP_KEY meta-data value that was already defined by its own library as a string resource:
 
@@ -259,7 +259,7 @@ The log file should contain something similar to this log example, that shows a 
 
 This is what you can try:
 
-* Check your plugins documentation to make sure they are being correctly configured
+* Check your plugins documentation to make sure they're being correctly configured
 
 If the issue remains:
 
@@ -277,7 +277,7 @@ When requesting a build, you're getting the following error:
 
 This error occurs when building an app that uses multiple dependencies of Google Play Services whose versions conflict with each other.
 
-The log file should contain something similar to this example, where the application tries to use at least two Google Play services library dependencies whose versions are not compatible with each other:
+The log file should contain something similar to this example, where the application tries to use at least two Google Play services library dependencies whose versions aren't compatible with each other:
 ```
 Failed to capture fingerprint of input files for task ':app:preDebugBuild' property 'compileManifests' during up-to-date check.
 > In project 'app' a resolved Google Play services library dependency depends on another at an exact version (e.g. "[11.0.
@@ -299,11 +299,11 @@ If the issue remains:
 
 When requesting a build, you're getting an error similar to:
 
-* Error generating application. Library :some-lib: requires minimum Android SDK 21, which is higher than the 16 that is required by the application. Check if this value is being overridden in your Extensibility Configurations.
+* Error generating application. Library :some-lib: requires minimum Android SDK 21, which is higher than the 16 that's required by the application. Check if this value is being overridden in your Extensibility Configurations.
 
 #### Cause
 
-This error occurs when building an app that uses a library that requires a minimum SDK that is higher than the one required by the application. This app fails to build because the library may try to use classes, methods, resources, etc. that are not available in the minimum SDK of the application.
+This error occurs when building an app that uses a library that requires a minimum SDK that's higher than the one required by the application. This app fails to build because the library may try to use classes, methods, resources, etc. that aren't available in the minimum SDK of the application.
 
 This can be caused by having overridden this value in the Extensibility Configurations of your application.
 
