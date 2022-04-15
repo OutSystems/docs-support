@@ -62,6 +62,9 @@
         - href: troubleshooting/application-lifecycle/lifetime/lifetime-register-env-error.md
         - href: troubleshooting/application-lifecycle/lifetime/lifetime-sync-stuck.md
         - href: troubleshooting/application-lifecycle/resource-nowait-specified.md
+        - href: troubleshooting/application-lifecycle/extension-recompilation/extension-recompilation-warning.md
+        - href: troubleshooting/application-lifecycle/extension-recompilation/extension-upgrade-disabled-error.md
+        - href: troubleshooting/application-lifecycle/extension-recompilation/extension-recompilation.md
     # Application Runtime
     - href: troubleshooting/application-runtime/intro.md
     - topics:
@@ -303,8 +306,6 @@
     - href: licensing/detach-10.md
 
 
-
-
 - placeholder: Enterprise Customers
 - topics:
     
@@ -435,9 +436,6 @@
 
         - href: enterprise/upgrade/upgrade-lifetime.md
 
-        # Server extension recompilation on upgrade
-        - href: enterprise/upgrade/extension-recompilation/extension-recompilation.md
-
     # Troubleshooting        
     - placeholder: Troubleshooting
     - topics:
@@ -456,8 +454,6 @@
             - href: enterprise/troubleshooting/unable-register-front-end.md  
             - href: enterprise/troubleshooting/it-users-vs-app-users.md                                                      
             - href: enterprise/troubleshooting/dot-net-core-3-1/dot-net-core-3-1.md
-            - href: enterprise/troubleshooting/extension-recompilation/extension-recompilation-warning.md
-            - href: enterprise/troubleshooting/extension-recompilation/extension-upgrade-disabled-error.md
             - href: enterprise/troubleshooting/saml-unable-decrypt-assertion.md
             
             # Known issues

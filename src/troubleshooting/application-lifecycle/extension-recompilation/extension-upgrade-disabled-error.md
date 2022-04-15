@@ -5,7 +5,7 @@ locale: en-us
 guid: c37d5792-0a07-4eda-a3a2-a1e6be408968
 ---
 
-# Publish error: Extension recompilation on upgrade is disabled
+# Publish error - Extension recompilation on upgrade is disabled
 
 ## Symptoms
 
@@ -27,24 +27,24 @@ This error can occur in environments running **Platform Server 11.14.0 or later*
 
 When running **Platform Server 11.14.0** or later, the automatic upgrade and recompilation of extensions on the server-side is blocked by default. This prevents unattended and unwanted code modifications.
 
-See more details [here](../../upgrade/extension-recompilation/extension-recompilation.md).
+See more details [here](./extension-recompilation.md).
 
 ## Solution
 
 To prevent unattended and unwanted code modifications when publishing the extension, do the following:
 
-1. [Upgrade and recompile the extension in a secure way](../../upgrade/extension-recompilation/extension-recompilation.md#secure-upgrade).
+1. [Upgrade and recompile the extension in a secure way](./extension-recompilation.md#secure-upgrade).
 
 1. Repeat the publishing operation.
 
 ### Accepting the risk
 
-If you trust the origin of the extension that needs to be upgraded, you can choose to [accept the risk](../../upgrade/extension-recompilation/extension-recompilation.md#accept-risk) of unattended and unwanted code modifications for that specific upgrade operation.
+If you trust the origin of the extension that needs to be upgraded, you can choose to [accept the risk](./extension-recompilation.md#accept-risk) of unattended and unwanted code modifications for that specific upgrade operation.
 
 If you choose to accept the risk, do the following:
 
-1. **Temporarily** [enable automatic upgrade and recompilation of extensions](../../upgrade/extension-recompilation/extension-recompilation.md#enable-disable) in your environment. This operation must be performed by a Service Center administrator.
+1. **Temporarily** [enable automatic upgrade and recompilation of extensions](./extension-recompilation.md#enable-disable) in your environment. This operation must be performed by a Service Center administrator.
 
 2. Repeat the publishing operation.
 
-3. [Disable the option](../../upgrade/extension-recompilation/extension-recompilation.md#enable-disable). This operation must be performed by a Service Center administrator.
+3. [Disable the option](./extension-recompilation.md#enable-disable). This operation must be performed by a Service Center administrator.

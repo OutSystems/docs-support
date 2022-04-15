@@ -5,7 +5,7 @@ locale: en-us
 guid: b9593f0a-5d9f-4d64-b3a3-e3e91fbcb671
 ---
 
-# Publish warning: Continuing with extension recompilation enabled may result in security flaws
+# Publish warning - Continuing with extension recompilation enabled may result in security flaws
 
 ## Symptoms
 
@@ -29,7 +29,7 @@ This warning indicates that the automatic upgrade and recompilation of extension
 
 * Publishing an extension after upgrading the Platform Server to a later major version (for example, from OutSystems 10 to OutSystems 11).
 
-See more details [here](../../upgrade/extension-recompilation/extension-recompilation.md).
+See more details [here](./extension-recompilation.md).
 
 ## Recommendation
 
@@ -37,12 +37,12 @@ To prevent unattended and unwanted code modifications in extension upgrade scena
 
 Do the following:
 
-1. [Disable the automatic upgrade and recompilation of extensions](../../upgrade/extension-recompilation/extension-recompilation.md#enable-disable) in the environment. This operation must be performed by a Service Center administrator.
+1. [Disable the automatic upgrade and recompilation of extensions](./extension-recompilation.md#enable-disable) in the environment. This operation must be performed by a Service Center administrator.
 
-1. In the described scenarios, [upgrade and recompile extensions in a secure way](../../upgrade/extension-recompilation/extension-recompilation.md#secure-upgrade).
+1. In the described scenarios, [upgrade and recompile extensions in a secure way](./extension-recompilation.md#secure-upgrade).
 
 If you get the `Extension recompilation on upgrade is disabled` error during the publishing process, execute the upgrade and recompilation of that extension in a secure way. See more details [here](extension-upgrade-disabled-error.md).
 
 ## Accepting the risk
 
-If you trust the origin of the extensions that need to be upgraded, you can choose to [accept the risk](../../upgrade/extension-recompilation/extension-recompilation.md#accept-risk) of unattended and unwanted code modifications for that specific upgrade operation and keep the automatic upgrade and recompilation of extensions temporarily enabled. However, OutSystems recommends that you [disable the option](../../upgrade/extension-recompilation/extension-recompilation.md#enable-disable) after that upgrade operation.
+If you trust the origin of the extensions that need to be upgraded, you can choose to [accept the risk](./extension-recompilation.md#accept-risk) of unattended and unwanted code modifications for that specific upgrade operation and keep the automatic upgrade and recompilation of extensions temporarily enabled. However, OutSystems recommends that you [disable the option](./extension-recompilation.md#enable-disable) after that upgrade operation.
