@@ -52,6 +52,7 @@
     - href: troubleshooting/application-lifecycle/intro.md
     - topics:
         - href: troubleshooting/application-lifecycle/reset-user-pwd.md
+        - href: troubleshooting/application-lifecycle/app-not-in-users.md
     # Application Runtime
     - href: troubleshooting/application-runtime/intro.md
     - topics:
@@ -454,7 +455,6 @@
             - href: enterprise/troubleshooting/lifetime/lifetime-deploy-unable.md
             - href: enterprise/troubleshooting/unable-register-front-end.md  
             - href: enterprise/troubleshooting/it-users-vs-app-users.md                                                      
-            - href: enterprise/troubleshooting/app-not-in-users.md
             - href: enterprise/troubleshooting/dot-net-core-3-1/dot-net-core-3-1.md
             - href: enterprise/troubleshooting/extension-recompilation/extension-recompilation-warning.md
             - href: enterprise/troubleshooting/extension-recompilation/extension-upgrade-disabled-error.md
