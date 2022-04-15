@@ -4,7 +4,7 @@ locale: en-us
 guid: 4109983c-357c-4cf5-b51f-19ef2cda02a5
 ---
 
-# Change OutSystems Platform logging levels (OSTrace)
+# Change OutSystems platform logging levels - OSTrace
 
 **Permalink**: [www.outsystems.com/goto/ostrace](https://www.outsystems.com/goto/ostrace)
 
@@ -35,7 +35,6 @@ These files can be found at `C:\Program Files\OutSystems\Platform Server\`:
 * SMS Connector: `SMSConnector.exe.config`
 
 * Configuration Tool:`ConfigurationTool.exe.config`
-if the file for configuration tool is missing, you may use [this configuration file](https://success.outsystems.com/@api/deki/files/4019/ConfigurationTool.exe.config?revision=1) as example.
 
 Locate the `LogLevel` and `MyListener` lines.
 
