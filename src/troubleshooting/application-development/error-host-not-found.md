@@ -4,7 +4,7 @@ locale: en-us
 guid: 1772e0b0-ad78-4f95-851f-89323b298934
 ---
 
-# There was an error contacting outsystemscloud.com: Host not found
+# There was an error contacting outsystemscloud.com - Host not found
 
 ## Symptom
 

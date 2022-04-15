@@ -1,11 +1,10 @@
 ---
 summary: If you can't access the apps on your personal environment, go to www.outsystems.com/home and check if your environment has been recycled.
-en_title: Cant reach apps on my personal environment
 locale: en-us
 guid: 61c16e5f-94d2-4a3e-ba75-c40ead245a3c
 ---
 
-# Can't reach apps on my personal environment
+# Cannot reach apps on my personal environment
 
 ## Symptoms
 
@@ -17,7 +16,7 @@ Your personal environment is asleep. This occurs if:
 
 * you've stopped developing for a while or
 
-* your apps are not being used.
+* your apps aren't being used.
 
 This happens as part the recycling mechanism to save resources for active personal environments.
 

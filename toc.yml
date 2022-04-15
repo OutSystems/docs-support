@@ -34,6 +34,8 @@
     - href: troubleshooting/application-development/intro.md
     - topics:
         - href: troubleshooting/application-development/debugger-not-working.md
+        - href: troubleshooting/application-development/connect-email-pe.md
+        - href: troubleshooting/application-development/error-host-not-found.md
     # Application Lifecycle
     - href: troubleshooting/application-lifecycle/intro.md
     - topics:
@@ -62,6 +64,8 @@
         - href: troubleshooting/application-runtime/plugins-appshield\intro.md
         - href: troubleshooting/application-runtime/wia-popup-shows.md
         - href: troubleshooting/application-runtime/try-newer-react-runtime-tp.md
+        - href: troubleshooting/application-runtime/seo/troubleshooting.md
+        - href: troubleshooting/application-runtime/cant-reach-apps.md
     # Infrastructure Management
     - href: troubleshooting/infrastructure-management/intro.md        
     - topics:
@@ -408,9 +412,6 @@
         - href: enterprise/upgrade/saml-update-auth-flows/update-reactive-app-flows.md
         - href: enterprise/upgrade/saml-update-auth-flows/update-trad-web-app-flows.md
 
-        # SEO
-        - href: enterprise/upgrade/seo/troubleshooting.md
-
         - href: enterprise/upgrade/upgrade-lifetime.md
 
         # Server extension recompilation on upgrade
@@ -470,13 +471,10 @@
 # Personal Environment
 - placeholder: Personal Environment
 - topics:
-    - href: personal/cant-reach-apps.md
     - href: personal/manage-database-space.md
     - href: personal/move-apps-personal-enterprise.md
     - href: personal/infrastructure-under-hood.md
-    - href: personal/connect-email-pe.md
     - href: personal/service-unavailable-503.md
-    - href: personal/error-host-not-found.md
     - href: personal/upgrade-latest-version.md
     - href: personal/whats-a-personal.md
 
