@@ -308,13 +308,7 @@
 
 - placeholder: Enterprise Customers
 - topics:
-    
-    # Infrastructure architecture
-    - href: enterprise/infra-architecture/intro.md
-    - topics:
-        - href: enterprise/infra-architecture/deploy-cloud.md
-
-    
+       
     # Licensing
     - placeholder: Licensing
     - topics:
