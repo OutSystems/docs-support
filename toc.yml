@@ -43,6 +43,8 @@
         - href: troubleshooting/application-development/could-not-create-fk.md
         - href: troubleshooting/application-development/troubleshoot-issues-with-mabs-5.md
         - href: troubleshooting/application-development/troubleshoot-mobile-apps-generation.md
+        - href: troubleshooting/application-development/library-hell.md
+        - href: troubleshooting/application-development/service-unavailable-503.md
     # Application Lifecycle
     - href: troubleshooting/application-lifecycle/intro.md
     - topics:
@@ -448,8 +450,7 @@
             - href: enterprise/troubleshooting/troubleshoot-platform-server.md                       
             - href: enterprise/troubleshooting/lifetime/lifetime-deploy-unable.md
             - href: enterprise/troubleshooting/unable-register-front-end.md  
-            - href: enterprise/troubleshooting/it-users-vs-app-users.md                  
-            - href: enterprise/troubleshooting/library-hell.md                                          
+            - href: enterprise/troubleshooting/it-users-vs-app-users.md                                                      
             - href: enterprise/troubleshooting/app-not-in-users.md
             - href: enterprise/troubleshooting/dot-net-core-3-1/dot-net-core-3-1.md
             - href: enterprise/troubleshooting/error-401/intro.md
@@ -474,7 +475,6 @@
     - href: personal/manage-database-space.md
     - href: personal/move-apps-personal-enterprise.md
     - href: personal/infrastructure-under-hood.md
-    - href: personal/service-unavailable-503.md
     - href: personal/upgrade-latest-version.md
     - href: personal/whats-a-personal.md
 

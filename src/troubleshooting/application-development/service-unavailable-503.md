@@ -4,7 +4,7 @@ locale: en-us
 guid: 07ec2701-98a1-4bfc-9e32-9685ecf7fe0c
 ---
 
-# Personal Environment: Service Unavailable - HTTP Error 503
+# Personal Environment unavailable - HTTP 503
 
 ## Symptoms
 
