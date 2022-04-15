@@ -61,7 +61,7 @@
         - href: troubleshooting/application-runtime/cannot-decrypt/cannot-decrypt.md
         - href: troubleshooting/application-runtime/troubleshoot-502.md
         - href: troubleshooting/application-runtime/multilingual.md
-        - href: troubleshooting/application-runtime/plugins-appshield\intro.md
+        - href: troubleshooting/application-runtime/plugins-appshield/intro.md
         - href: troubleshooting/application-runtime/wia-popup-shows.md
         - href: troubleshooting/application-runtime/try-newer-react-runtime-tp.md
         - href: troubleshooting/application-runtime/seo/troubleshooting.md
