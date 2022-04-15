@@ -309,9 +309,6 @@
 - placeholder: Enterprise Customers
 - topics:
     
-    # Integrations
-    - href: enterprise/integrations/integrate-ecosystem.md
-
     # Infrastructure architecture
     - href: enterprise/infra-architecture/intro.md
     - topics:
