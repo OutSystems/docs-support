@@ -36,6 +36,7 @@
         - href: troubleshooting/application-development/debugger-not-working.md
         - href: troubleshooting/application-development/connect-email-pe.md
         - href: troubleshooting/application-development/error-host-not-found.md
+        - href: troubleshooting/application-development/ipp-error.md
     # Application Lifecycle
     - href: troubleshooting/application-lifecycle/intro.md
     - topics:
@@ -318,7 +319,6 @@
         - placeholder: Intellectual Property Protection (IPP)
         - topics:
             - href: enterprise/licensing/ipp/what-is-ipp.md
-            - href: enterprise/licensing/ipp/ipp-error.md
             - href: enterprise/licensing/ipp/used-ipp-portal.md
             - href: enterprise/licensing/ipp/ip-rights-not-granted.md
 

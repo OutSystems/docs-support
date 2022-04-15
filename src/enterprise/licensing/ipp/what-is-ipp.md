@@ -22,7 +22,7 @@ If you are trying to deploy modules from other infrastructures, you might get th
 
 ```Invalid Intellectual Property: You are trying to upload or publish a solution that was created in a Platform Server and its intellectual Property is protected```
 
-If you get an error message, check [this article](ipp-error.md).
+If you get an error message, check [this article](../../../troubleshooting/application-development/ipp-error.md).
 
 ## IPP unprotected 
 
