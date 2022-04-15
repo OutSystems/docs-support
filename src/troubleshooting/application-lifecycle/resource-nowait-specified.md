@@ -1,14 +1,14 @@
 ---
-summary:
+summary: Causes and resolutions for the error ORA-00054 whem publishinh an OutSystems app via LifeTime, Service Center or Service Studio.
 locale: en-us
 guid: 16f6f208-8be4-4dc1-b5ac-2beff690af36
 ---
 
-# ORA-00054: resource busy and acquire with NOWAIT specified or timeout expired
+# ORA-00054 error when deploying an OutSystems app
 
 ## Symptoms
 
-When trying to publish an eSpace (via LifeTime, Service Center or Service Studio) the following error is presented.
+When trying to publish an module (via LifeTime, Service Center or Service Studio) the following error is presented.
 
 `ORA-00054: resource busy and acquire with NOWAIT specified or timeout expired`
 
@@ -26,7 +26,7 @@ To resolve this issue, one should increase the Oracle DDL Timeout setting. This 
 
 ### Method 1:
 
-1. Open file server.hsconf in a text editor (e.g. notepad or vim). This file can be found in the platform installation folder:
+1. Open file server.hsconf in a text editor (for example, notepad or vim). This file can be found in the platform installation folder:
 
     * For .NET, typically `C:\Program Files\OutSystems\Platform Server`
 
@@ -37,13 +37,13 @@ To resolve this issue, one should increase the Oracle DDL Timeout setting. This 
 
 Note that there is a similar setting for `<SessionDatabaseConfiguration ProviderKey="Oracle">`. Typically you don't want to change this one. 
 
-3. Increase the value in the setting. E.g. change `600` to `1200` or `1800`
+3. Increase the value in the setting. For example, change `600` to `1200` or `1800`
 
 4. Run the configuration tool:
 
-    * For .NET, locate the shortcut in the Start menu. After opening the Configuration Tool, click "Apply and Exit". Allow restart of all services.You do not need to execute installation of Service Center;
+    * For .NET, locate the shortcut in the Start menu. After opening the Configuration Tool, click "Apply and Exit". Allow restart of all services. You don't need to execute installation of Service Center;
 
-    * For Java, run /opt/outsystems/platform/configurationtool.sh. Do not change any settings. Allow restart of all services. You do not need to execute installation of Service Center.
+    * For Java, run /opt/outsystems/platform/configurationtool.sh. Don't change any settings. Allow restart of all services. You don't need to execute installation of Service Center.
 
 ## More information
 

@@ -61,6 +61,7 @@
         - href: troubleshooting/application-lifecycle/lifetime/lifetime-deploy-unable.md
         - href: troubleshooting/application-lifecycle/lifetime/lifetime-register-env-error.md
         - href: troubleshooting/application-lifecycle/lifetime/lifetime-sync-stuck.md
+        - href: troubleshooting/application-lifecycle/resource-nowait-specified.md
     # Application Runtime
     - href: troubleshooting/application-runtime/intro.md
     - topics:
@@ -444,7 +445,6 @@
             - href: enterprise/troubleshooting/vpn-troubleshooting-guide.md           
             - href: enterprise/troubleshooting/env-deploy-controller-twice.md       
             - href: enterprise/troubleshooting/information-logged.md               
-            - href: enterprise/troubleshooting/resource-nowait-specified.md 
             - href: enterprise/troubleshooting/troubleshoot-ios-content.md  
             - href: enterprise/troubleshooting/service-permissions-change.md            
             - href: enterprise/troubleshooting/oracle-odp-net-issues.md
