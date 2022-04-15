@@ -4,7 +4,7 @@ locale: en-us
 guid: f05ef789-4630-41c8-83e8-34a5b43f9b78
 ---
 
-# Understanding how to identify OutSystems infrastructure and runtime environments 
+# Identify OutSystems infrastructure and runtime environments
 
 You may subscribe to OutSystems Cloud or use a self-managed infrastructure. A typical infrastructure has several runtime environments like Development, Quality Assurance, and Production. LifeTime, the OutSystems management console also requires a dedicated environment.
 

@@ -38,4 +38,4 @@ You should also check:
 
 * [How to get a license file for an environment](get-license-for-env.md)
 
-* [OutSystems Platform Licensing FAQ](../overview/how-licensing-works.md)
+* [Identify OutSystems infrastructure and runtime environments](https://success.outsystems.com/Support/Licensing/Understanding_how_to_identify_OutSystems_infrastructure_and_runtime_environments)

@@ -321,7 +321,6 @@
         #Overview
         - placeholder: Overview
         - topics:
-            - href: enterprise/licensing/overview/how-licensing-works.md
             - href: enterprise/licensing/overview/app-object-count.md
 
         #Manage and Upgrade 
