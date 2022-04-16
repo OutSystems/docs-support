@@ -5,10 +5,12 @@
 - topics:
     - href: release-notes/11/intro.md
     - topics:
+        - href: release-notes/11/platform-server/platform-server.md
+        - href: release-notes/11/development-environment/development-environment.md
         - href: release-notes/11/side-effects-breaking-changes.md
-    #     - href: release-notes/11/platform-server/coiso                   placeholder for Release_Notes/11/Platform_Server
+                 
     #     - href: release-notes/11/cross-platform-service-studio/coiso     placeholder for Release_Notes/11/Cross-platform_Service_Studio
-    #     - href: release-notes/11/development-enviroment/coiso            placeholder for Release_Notes/11/Development_Environment
+
     # - href: release-notes/lifetime-management-console                    placeholder for Release_Notes/LifeTime_Management_Console
     - href: release-notes/10/intro.md
     - topics:
