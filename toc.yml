@@ -11,13 +11,13 @@
                  
     #     - href: release-notes/11/cross-platform-service-studio/coiso     placeholder for Release_Notes/11/Cross-platform_Service_Studio
 
-    # - href: release-notes/lifetime-management-console                    placeholder for Release_Notes/LifeTime_Management_Console
+    - href: release-notes/lifetime-management-console/lifetime-management-console.md
     - href: release-notes/10/intro.md
     - topics:
+        - href: release-notes/10/platform-server/platform-server.md
+        - href: release-notes/10/development-environment/development-environment.md
         - href: release-notes/10/end-support-10.md
         - href: release-notes/10/side-effects-breaking-changes-10.md
-    #     - href: release-notes/10/platform-server/coiso
-    #     - href: release-notes/10/development-enviroment/coiso
     # - href: release-notes/architecture-dashboard/coiso
     - href: release-notes/mabs/mabs.md
     - topics:
@@ -25,9 +25,9 @@
         - href: release-notes/mabs/mabs-beta-support.md
         - href: release-notes/mabs/older-releases.md
         - href: release-notes/mabs/troubleshoot-issues-with-mabs-6.md   
-    # - href: release-notes/integration-builder/coiso
-    # - href: release-notes/experience-builder/coiso
-    # - href: release-notes/workflow-builder/workflow-builder.md
+    - href: release-notes/integration-builder/integration-builder.md
+    - href: release-notes/experience-builder/experience-builder.md
+    - href: release-notes/workflow-builder/workflow-builder.md
     - href: release-notes/product-lifecycle/product-lifecycle.md
     - href: release-notes/release-cycle.md
     - href: release-notes/tech-preview.md
