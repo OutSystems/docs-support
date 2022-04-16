@@ -18,10 +18,11 @@
     #     - href: release-notes/10/development-enviroment/coiso
     # - href: release-notes/architecture-dashboard/coiso
     - href: release-notes/mabs/mabs.md
-    - href: release-notes/mabs/older-releases.md
-    - href: release-notes/mabs/mabs-beta-support.md
-    - href: release-notes/mabs/mabs-versions.md
-    - href: release-notes/mabs/troubleshoot-issues-with-mabs-6.md   
+    - topics:
+        - href: release-notes/mabs/mabs-versions.md
+        - href: release-notes/mabs/mabs-beta-support.md
+        - href: release-notes/mabs/older-releases.md
+        - href: release-notes/mabs/troubleshoot-issues-with-mabs-6.md   
     # - href: release-notes/integration-builder/coiso
     # - href: release-notes/experience-builder/coiso
     # - href: release-notes/workflow-builder/workflow-builder.md
