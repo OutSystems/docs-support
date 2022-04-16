@@ -454,9 +454,9 @@
             - href: enterprise/troubleshooting/known-issues/ki-11_10-site-properties/ki-11_10-site-properties.md
       
 # Forge
-- placeholder: Forge Components
+- href: forge/forge-intro.md
 - topics:
-    - placeholder: Forge FAQs
+    - href: forge/forge-faqs.md
     - topics:
         - href: forge/forge-overview.md
         - href: forge/share-project.md
