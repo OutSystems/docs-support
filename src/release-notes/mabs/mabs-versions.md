@@ -69,7 +69,8 @@ This version can run your apps on:
         </tr>
     </tbody>
 </table>
-
+<br/>
+<br/>
 
 ## Supported
 
@@ -122,6 +123,8 @@ This version can run your apps on:
         </tr>
     </tbody>
 </table>
+<br/>
+<br/>
 
 ## Deprecated
 
@@ -172,6 +175,8 @@ This version can run your apps on:
 </table>
 
 <div class="info">
+<br/>
+<br/>
 
 **Version 5.2**  - [See Release Notes](https://success.outsystems.com/Support/Release_Notes/Mobile_Apps_Build_Service#MABS_Version_5.2)<br />
 Released on Dec 26 2019<br/>Deprecated on May 20 2020<br/> 
@@ -219,6 +224,8 @@ This version can run your apps on:
         </tr>
     </tbody>
 </table>
+<br/>
+<br/>
 
 ## Obsolete
 
@@ -272,6 +279,8 @@ This version can run your apps on:
         </tr>
     </tbody>
 </table>
+<br/>
+<br/>
 
 <div class="info">
 
@@ -321,7 +330,8 @@ This version can run your apps on:
         </tr>
     </tbody>
 </table>
-
+<br/>
+<br/>
 
 <div class="info">
 
@@ -371,7 +381,8 @@ This version can run your apps on:
         </tr>
     </tbody>
 </table>
-
+<br/>
+<br/>
 
 <div class="info">
 
@@ -421,6 +432,8 @@ This version can run your apps on:
         </tr>
     </tbody>
 </table>
+<br/>
+<br/>
 
 <div class="info">
 
@@ -470,6 +483,8 @@ This version can run your apps on:
         </tr>
     </tbody>
 </table>
+<br/>
+<br/>
 
 <div class="info">
 
@@ -519,6 +534,9 @@ This version can run your apps on:
         </tr>
     </tbody>
 </table>
+<br/>
+<br/>
+
 
 <div class="info">
 
@@ -567,6 +585,8 @@ This version can run your apps on:
         </tr>
     </tbody>
 </table>
+<br/>
+<br/>
 
 <div class="info">
 
@@ -615,6 +635,8 @@ This version can run your apps on:
         </tr>
     </tbody>
 </table>
+<br/>
+<br/>
 
 <div class="info">
 
@@ -663,6 +685,8 @@ This version can run your apps on:
         </tr>
     </tbody>
 </table>
+<br/>
+<br/>
 
 <div class="info">
 
@@ -711,6 +735,8 @@ This version can run your apps on:
         </tr>
     </tbody>
 </table>
+<br/>
+<br/>
 
 <div class="info">
 
@@ -759,7 +785,8 @@ This version can run your apps on:
         </tr>
     </tbody>
 </table>
-
+<br/>
+<br/>
 
 <div class="info">
 
