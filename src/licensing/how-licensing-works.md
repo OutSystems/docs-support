@@ -44,7 +44,7 @@ No you don't. OutSystems is designed for fault tolerance and horizontal scalabil
 
 ### Where do I access my license files?
 
-With the Activation Code of your infrastructure at hand you can download your license files from the [Customer portal](https://www.outsystems.com/licensing). Check [here](../manage/get-license-for-env.md) for the instructions on how to get and install a license file.
+With the Activation Code of your infrastructure at hand you can download your license files from the [Customer portal](https://www.outsystems.com/licensing). Check [here](https://success.outsystems.com/Support/Enterprise_Customers/Licensing/Manage_and_Upgrade/03_Get_a_license_file_for_an_environment) for the instructions on how to get and install a license file.
 
 ### How to find out what my subscription includes?
 

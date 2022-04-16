@@ -304,6 +304,8 @@
 # Licensing
 - href: licensing/intro.md
 - topics:
+    - href: licensing/how-licensing-works.md
+    - href: licensing/app-object-count.md
     - href: licensing/whats-a-personal.md
     - href: licensing/infrastructure-under-hood.md
     - href: licensing/move-apps-personal-enterprise.md
@@ -318,11 +320,6 @@
     # Licensing
     - placeholder: Licensing
     - topics:
-        #Overview
-        - placeholder: Overview
-        - topics:
-            - href: enterprise/licensing/overview/app-object-count.md
-
         #Manage and Upgrade 
         - placeholder: Manage and Upgrade
         - topics:
