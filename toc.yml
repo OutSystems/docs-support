@@ -313,27 +313,13 @@
     - href: licensing/detach-11.md
     - href: licensing/detach-10.md
 
-# Forge
-- href: forge/forge-intro.md
-- topics:
-    - href: forge/forge-faqs.md
-    - topics:
-        - href: forge/forge-overview.md
-        - href: forge/share-project.md
-        - href: forge/review-project.md
-        - href: forge/curate-project.md
-        - topics:
-            - href: forge/remove-project.md
-        - href: forge/trusted-requirements.md
-
-- placeholder: Enterprise Customers
+- href: enterprise/enterprise-intro.md
 - topics:
        
     # Licensing
-    - placeholder: Licensing
+    - href: enterprise/licensing/enterprise-licensing.md
     - topics:
-        #Manage and Upgrade 
-        - placeholder: Manage and Upgrade
+        - href: enterprise/licensing/manage/enterprise-licensing-manage.md
         - topics:
             - href: enterprise/licensing/manage/find-activation-code/find-activation-code.md
             - href: enterprise/licensing/manage/add-new-environment.md
@@ -344,20 +330,20 @@
             - href: enterprise/licensing/manage/enable-db-replica.md
         
         # Intellectual Property Protection (IPP)
-        - placeholder: Intellectual Property Protection (IPP)
+        - href: enterprise/licensing/ipp/enterprise-licensing-ipp.md
         - topics:
             - href: enterprise/licensing/ipp/what-is-ipp.md
             - href: enterprise/licensing/ipp/used-ipp-portal.md
             - href: enterprise/licensing/ipp/ip-rights-not-granted.md
 
         # Troubleshooting
-        - placeholder: Troubleshooting
+        - href: enterprise/licensing/troubleshooting/enterprise-licensing-trouble.md
         - topics:
             - href: enterprise/licensing/troubleshooting/reached-license-limits.md         
             - href: enterprise/licensing/troubleshooting/change-hw-license-invalid.md
 
     # Installation
-    - placeholder: Installation
+    - href: enterprise/install/enterprise-install.md
     - topics:
         - href: enterprise/install/ssl-domain-cloud/ssl-domain-cloud.md
         - topics:
@@ -371,13 +357,13 @@
         - href: enterprise/install/add-front-end/add-front-end.md
     
     # OutSystems Support
-    - placeholder: OutSystems Support
+    - href: enterprise/outsystems-support/enterprise-support.md
     - topics:
         - href: enterprise/outsystems-support/deactivate-support-email.md
         - href: enterprise/outsystems-support/customer-portal.md
 
     # Maintenance and Operations
-    - placeholder: Maintenance and Operations
+    - href: enterprise/maintenance/enterprise-maintenance.md
     - topics:
         - href: enterprise/maintenance/access-database-paas/access-database-paas.md
         - topics: 
@@ -427,7 +413,7 @@
             - href: enterprise/maintenance/load-balancing-apps/detecting-serverapp-availability.md          
 
     # Upgrading
-    - placeholder: Upgrading
+    - href: enterprise/upgrade/enterprise-upgrade.md
     - topics:
         - href: enterprise/upgrade/upgrade-platform.md
         - href: enterprise/upgrade/upgrade-platform-module-prep.md
@@ -442,7 +428,7 @@
         - href: enterprise/upgrade/upgrade-lifetime.md
 
     # Troubleshooting        
-    - placeholder: Troubleshooting
+    - href: enterprise/troubleshooting/enterprise-trouble.md
     - topics:
             - href: enterprise/troubleshooting/too-many-failed-login.md
             - href: enterprise/troubleshooting/vpn-troubleshooting-guide.md           
@@ -466,3 +452,15 @@
             - href: enterprise/troubleshooting/known-issues/ki-11_10-site-properties/ki-11_10-site-properties.md
       
 
+# Forge
+- href: forge/forge-intro.md
+- topics:
+    - href: forge/forge-faqs.md
+    - topics:
+        - href: forge/forge-overview.md
+        - href: forge/share-project.md
+        - href: forge/review-project.md
+        - href: forge/curate-project.md
+        - topics:
+            - href: forge/remove-project.md
+        - href: forge/trusted-requirements.md
