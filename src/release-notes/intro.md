@@ -34,8 +34,9 @@ OutSystems provides cloud services that enable additional functionality to accel
 | [Experience Builder](https://success.outsystems.com/Support/Release_Notes/Experience_Builder) | [Create prototypes for pixel-perfect mobile apps with great UX.](https://success.outsystems.com/Documentation/Experience_Builder/Introduction_to_Experience_Builder)
 | [Workflow Builder](https://success.outsystems.com/Support/Release_Notes/Workflow_Builder) | [Allow cross-functional teams to build apps through an easy-to-use wizard, while ensuring IT remains in full control.](https://success.outsystems.com/Documentation/11/Developing_an_Application/Create_case_management_and_workflow_apps/Create_workflow_apps_with_Workflow_Builder) |
 
+<br/>
 
-## OutSystems 10:
+## OutSystems 10
 
 * [Platform Server](https://success.outsystems.com/Support/Release_Notes/10/Platform_Server)
 * [Development Environment](https://success.outsystems.com/Support/Release_Notes/10/Development_Environment)
