@@ -195,6 +195,14 @@ After importing the root and intermediate certificates, you need to import the s
 
 1. Your SSL Certificate is now installed and the website configured to accept secure connections. You may have to restart the IIS or the server for it to recognize the new certificate.
 
+<div class="info" markdown="1">
+
+**Important:**
+
+If you have a deployment zone with the **Use HTTPS for internal communications** feature enabled, make sure that the Deployment Zone Address set is either secured by the SSL certificate or points to a domain that is secured.
+
+</div>
+
 ## Configuring applications to use HTTPS
 
 Once you have installed the certificate, you are able to access your OutSystems applications using HTTPS.
