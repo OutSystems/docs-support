@@ -3,6 +3,7 @@ summary: Learn how to troubleshoot LifeTime deployment issues.
 tags:
 locale: en-us
 guid: c7ebcb0a-6852-4222-9286-9fa6bc5d0675
+app_type: traditional web apps, mobile apps, reactive web apps
 ---
 # Unable to deploy applications using LifeTime
 

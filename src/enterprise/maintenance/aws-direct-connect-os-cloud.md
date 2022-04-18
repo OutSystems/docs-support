@@ -3,6 +3,7 @@ summary: For scenarios that require the use of high bandwidth and a steady conne
 tags: support-Cloud_Platform; support-installation; support-Installation_Configuration; support-maintenance; support-devOps
 locale: en-us
 guid: 8a6372d7-7acc-4e88-98cd-41946233ca2d
+app_type: traditional web apps, mobile apps, reactive web apps
 ---
 
 # AWS Direct Connect on OutSystems Cloud

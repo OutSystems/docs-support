@@ -3,6 +3,7 @@ summary: Check here the possible errors that you can get when validating your SS
 tags:
 locale: en-us
 guid: 7a4d2b58-5b42-4f33-be80-e3734d161ea8
+app_type: traditional web apps, mobile apps, reactive web apps
 ---
 
 # Possible errors when validating your SSL domain certificate

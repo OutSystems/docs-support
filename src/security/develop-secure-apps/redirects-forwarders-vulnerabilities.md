@@ -4,6 +4,7 @@ tags: protecting-outsystems-applications; outsystems-security; outsystems-secure
 en_title: 06 Protecting OutSystems apps from redirects forwarders vulnerabilities
 locale: en-us
 guid: ecef005d-3f09-4ecd-a562-ae4523285363
+app_type: traditional web apps, mobile apps, reactive web apps
 ---
 
 # Protecting OutSystems Apps From Redirects / Forwarders Vulnerabilities

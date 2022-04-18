@@ -2,6 +2,7 @@
 summary: 
 locale: en-us
 guid: 890ac8c6-b344-4119-9ad7-c1b0d8497518
+app_type: traditional web apps, mobile apps, reactive web apps
 ---
 
 # Environment Health shows a Deployment controller twice

@@ -3,6 +3,7 @@ summary: Unknown error.
 tags:
 locale: en-us
 guid: 341753fa-a48f-4926-89ec-25f1de0c10d2
+app_type: traditional web apps, mobile apps, reactive web apps
 ---
 
 # OS-WFBL-GEN-00000

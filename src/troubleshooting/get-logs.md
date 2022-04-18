@@ -3,6 +3,7 @@ summary: OutSystems logs information that helps the troubleshooting of problems.
 tags:
 locale: en-us
 guid: 0ffec091-70df-4b3c-9c4b-0a274efd1541
+app_type: traditional web apps, mobile apps, reactive web apps
 ---
 # How to get logs for troubleshooting purposes
 

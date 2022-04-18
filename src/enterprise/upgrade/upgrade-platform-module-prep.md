@@ -3,6 +3,7 @@ summary: This article describes the modules preparation step that is launched du
 tags: support-devOps; support-upgrade
 locale: en-us
 guid: 5d1eb0f2-08dd-49d7-8937-32287cb489c4
+app_type: traditional web apps, mobile apps, reactive web apps
 ---
 
 # Modules preparation step during Platform Server upgrade

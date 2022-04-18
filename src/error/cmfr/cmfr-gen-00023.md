@@ -3,6 +3,7 @@ summary: We couldn't find <record> with the Id <identifier-value>.
 tags:
 locale: en-us
 guid: 4a75fcf7-e46b-4bae-8ecb-74d0a1e4883c
+app_type: traditional web apps, mobile apps, reactive web apps
 ---
 
 # OS-CMFR-GEN-00023

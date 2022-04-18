@@ -3,6 +3,7 @@ tags:
 summary: 
 locale: en-us
 guid: D364023A-59AE-4351-843B-8A0C8E5756D8
+app_type: traditional web apps, mobile apps, reactive web apps
 ---
 
 # Upgrading your Cloud demo

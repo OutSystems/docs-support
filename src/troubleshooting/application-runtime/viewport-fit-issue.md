@@ -1,6 +1,7 @@
 ---
 locale: en-us
 guid: 83ea60d3-c30f-44e3-b411-9199f6c3ae33
+app_type: traditional web apps, mobile apps, reactive web apps
 ---
 
 # Further Recommendations on the MABS 4.0 Viewport-Fit Issue in iOS 12 Phones

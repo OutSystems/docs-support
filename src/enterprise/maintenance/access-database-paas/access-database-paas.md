@@ -3,6 +3,7 @@ summary: How to request access to the databases of your OutSystems Cloud and wha
 tags: support-Cloud_Platform; support-Cloud_Platform-featured; article-page
 locale: en-us
 guid: 4cdae94f-8633-4875-98bd-a3a4ac1bd89a
+app_type: traditional web apps, mobile apps, reactive web apps
 ---
 
 # Access the database of your OutSystems Cloud

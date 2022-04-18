@@ -3,6 +3,7 @@ summary: There was an unexpected error. If the problem persists, contact OutSyst
 tags:
 locale: en-us
 guid: 5da47aa4-a163-40bd-976d-c4c13263c03d
+app_type: traditional web apps, mobile apps, reactive web apps
 ---
 
 # OS-INBL-GEN-50028

@@ -3,6 +3,7 @@ summary: This article describes the process to upgrade the LifeTime management c
 tags: support-devOps; support-upgrade
 locale: en-us
 guid: 1dd579f8-20ca-4af9-89fa-40697272f8bc
+app_type: traditional web apps, mobile apps, reactive web apps
 ---
 # Upgrade LifeTime management console
 

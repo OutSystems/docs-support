@@ -3,6 +3,7 @@ summary: No integration was found for the "Key" with <value>.
 tags:
 locale: en-us
 guid: 96d6ec2a-be91-4af8-813c-f94a314d5b2a
+app_type: traditional web apps, mobile apps, reactive web apps
 ---
 
 # OS-INBL-API-00008

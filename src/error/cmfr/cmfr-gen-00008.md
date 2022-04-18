@@ -3,6 +3,7 @@ summary: There's no access control for that <user/group>/<case/case definition> 
 tags:
 locale: en-us
 guid: ea7908f7-0891-47cf-bb24-63e201da0baa
+app_type: traditional web apps, mobile apps, reactive web apps
 ---
 
 # OS-CMFR-GEN-00008

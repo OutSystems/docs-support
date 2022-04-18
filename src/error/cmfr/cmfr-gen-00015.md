@@ -3,6 +3,7 @@ summary: We couldn't retrieve the record <case-identifier> of object <entity-nam
 tags:
 locale: en-us
 guid: ad580017-47bb-4144-8027-88a9d851972d
+app_type: traditional web apps, mobile apps, reactive web apps
 ---
 
 # OS-CMFR-GEN-00015

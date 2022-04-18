@@ -2,6 +2,7 @@
 summary:
 locale: en-us
 guid: 5a2750dc-43e6-4404-85c3-413b433c630a
+app_type: traditional web apps, mobile apps, reactive web apps
 ---
 
 # Upcoming changes in cookie handling in Google Chrome 

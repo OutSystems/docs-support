@@ -3,6 +3,7 @@ summary: An error occurred while loading the app. Try closing and re-opening the
 tags:
 locale: en-us
 guid: 74727dad-ac6f-4c16-9888-4005334d46de
+app_type: traditional web apps, mobile apps, reactive web apps
 ---
 
 # OS-EXBL-GEN-00048

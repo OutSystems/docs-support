@@ -3,6 +3,7 @@ summary: Cannot create EnvModule. <OriginalErrorMessage>.`
 tags:
 locale: en-us
 guid: fa6b8ae9-3aef-4ab1-bc3a-8ddb43c7a126
+app_type: traditional web apps, mobile apps, reactive web apps
 ---
 
 # OS-WFBL-GEN-00007

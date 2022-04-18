@@ -2,6 +2,7 @@
 summary: Instructions to replace the license of one existing infrastructure from one Activation Code to another.
 locale: en-us
 guid: 4a4212cb-75d1-4b18-bdfb-a1b4cdc6b1b6
+app_type: traditional web apps, mobile apps, reactive web apps
 ---
 
 # How to change the Activation Code of your infrastructure

@@ -3,6 +3,7 @@ summary: Prevent unattended and unwanted code modifications in extension upgrade
 tags: 
 locale: en-us
 guid: 3dfe03fb-1a93-4db1-8407-dd55881d44ef
+app_type: traditional web apps, mobile apps, reactive web apps
 ---
 
 # Server extension recompilation on upgrade

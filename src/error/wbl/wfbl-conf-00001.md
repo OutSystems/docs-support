@@ -3,6 +3,7 @@ summary: Field label cannot be higher than <Max_Length>.
 tags:
 locale: en-us
 guid: 6a7db33a-d226-4f04-afb4-833bbdb6428a
+app_type: traditional web apps, mobile apps, reactive web apps
 ---
 
 # OS-WFBL-CONF-00001

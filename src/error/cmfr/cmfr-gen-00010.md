@@ -3,6 +3,7 @@ summary: The selected Tag and Case belong to different Case Definitions.
 tags:
 locale: en-us
 guid: 00419394-e881-4fe4-a946-41bdf2a010f8
+app_type: traditional web apps, mobile apps, reactive web apps
 ---
 
 # OS-CMFR-GEN-00010

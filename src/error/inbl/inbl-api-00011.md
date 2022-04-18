@@ -3,6 +3,7 @@ summary: Environment <Hostname> isn't authorized to access the Integration Build
 tags:
 locale: en-us
 guid: 5bda389f-0bd2-414f-a770-895181227675
+app_type: traditional web apps, mobile apps, reactive web apps
 ---
 
 # OS-INBL-API-00011

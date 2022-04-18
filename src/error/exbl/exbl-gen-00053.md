@@ -3,6 +3,7 @@ summary: The maximum number of bottom menu items is <max-items-number>.
 tags:
 locale: en-us
 guid: fa09e720-ba44-466d-9229-55be8308e7af
+app_type: traditional web apps, mobile apps, reactive web apps
 ---
 
 # OS-EXBL-GEN-00053

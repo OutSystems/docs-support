@@ -2,6 +2,7 @@
 summary: You're trying to change the activation code of an application that is IPP-protected. Contact your OutSystems Platform administrator, or OutSystems support.
 locale: en-us
 guid: 42bdf1cf-495e-418a-ab73-c34981039088
+app_type: traditional web apps, mobile apps, reactive web apps
 ---
 
 # The IP rights of your applications could not be granted

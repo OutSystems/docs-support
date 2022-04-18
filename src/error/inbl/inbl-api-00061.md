@@ -3,6 +3,7 @@ summary: Internal server error. If this problem persists, contact OutSystems sup
 tags:
 locale: en-us
 guid: 1bd71502-9292-4c96-810d-b233baa24794
+app_type: traditional web apps, mobile apps, reactive web apps
 ---
 
 # OS-INBL-API-00061

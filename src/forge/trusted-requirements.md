@@ -3,6 +3,7 @@ summary: Know the set of requirements that a component shared in Forge must comp
 tags: forge; forge_support; trusted
 locale: en-us
 guid: a5774b9a-751e-4df6-889a-9f54f363ac40
+app_type: traditional web apps, mobile apps, reactive web apps
 ---
 
 # Trusted components requirements

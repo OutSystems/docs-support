@@ -2,6 +2,7 @@
 summary:
 locale: en-us
 guid: e7538434-44da-476c-b203-0df42ed1ce0e
+app_type: traditional web apps, mobile apps, reactive web apps
 ---
 
 # Change the collation of an OutSystems database running on SQL Server

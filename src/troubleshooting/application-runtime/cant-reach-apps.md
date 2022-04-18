@@ -2,6 +2,7 @@
 summary: If you can't access the apps on your personal environment, go to www.outsystems.com/home and check if your environment has been recycled.
 locale: en-us
 guid: 61c16e5f-94d2-4a3e-ba75-c40ead245a3c
+app_type: traditional web apps, mobile apps, reactive web apps
 ---
 
 # Cannot reach apps on my personal environment

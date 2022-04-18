@@ -3,6 +3,7 @@ summary: When you have two OutSystems community accounts, you can transfer your 
 tags:
 locale: en-us
 guid: 235255BA-1C28-4CB7-B99C-DB343416DC38
+app_type: traditional web apps, mobile apps, reactive web apps
 ---
 
 # Transfer your certifications to another account

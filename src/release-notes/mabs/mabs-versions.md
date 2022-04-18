@@ -2,6 +2,7 @@
 summary:
 guid: 61CB98BF-3C28-4590-9E19-0C1C7B7F0408
 locale: en-us
+app_type: traditional web apps, mobile apps, reactive web apps
 ---
 
 # Mobile Apps Build Service Versions

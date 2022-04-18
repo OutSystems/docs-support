@@ -2,6 +2,7 @@
 summary: After your trial has ended, you can backup your apps and continue to work on them on another environment. This article details the steps to achieve that.
 locale: en-us
 guid: e8b59029-25f7-410c-8134-c595036907a4
+app_type: traditional web apps, mobile apps, reactive web apps
 ---
 
 # Backing up and continuing work on your apps at the end of the trial

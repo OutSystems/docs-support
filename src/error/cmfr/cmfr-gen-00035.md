@@ -3,6 +3,7 @@ summary: ExternalRequesterDetails and CaseRequesterUserId input parameters canno
 tags:
 locale: en-us
 guid: dd233fe7-e622-4998-ad2c-0973db37670a
+app_type: traditional web apps, mobile apps, reactive web apps
 ---
 
 # OS-CMFR-GEN-00035

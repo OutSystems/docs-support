@@ -3,6 +3,7 @@ summary: Learn how to deal with slow integrations in your OutSystems apps.
 tags: 
 locale: en-us
 guid: 2BD5C654-4CE7-4752-8407-C9F185D060DB
+app_type: traditional web apps, mobile apps, reactive web apps
 ---
 
 # Dealing with slow integrations triggered by a screen action or by a process

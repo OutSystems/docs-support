@@ -3,6 +3,7 @@ summary: Check here for the possible errors related to the modules preparation s
 tags: support-devOps; support-upgrade
 locale: en-us
 guid: 9e51b5d1-a279-4923-9a79-89d8d47152eb
+app_type: traditional web apps, mobile apps, reactive web apps
 ---
 
 # Possible errors related to modules preparation

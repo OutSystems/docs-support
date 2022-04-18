@@ -3,6 +3,7 @@ summary: Please refresh the page and try again.
 tags:
 locale: en-us
 guid: 4e304906-9a8e-4174-83f2-8953c607f42d
+app_type: traditional web apps, mobile apps, reactive web apps
 ---
 
 # OS-WFBL-GEN-00002

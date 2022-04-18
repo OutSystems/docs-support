@@ -2,6 +2,7 @@
 summary: How to solve a common issue when authentication fails in the browsers Internet Explorer or Edge but it works on Chrome. This happens only when Windows Integrated Authentication is enabled.
 locale: en-us
 guid: 2cebe118-6ed5-4680-88f6-c3b010992fc0
+app_type: traditional web apps, mobile apps, reactive web apps
 ---
 
 # Issues logging in with Integrated Authentication in Internet Explorer or Edge

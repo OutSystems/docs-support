@@ -3,6 +3,7 @@ summary: Check how to set up a site-to-site VPN, allowing secure communication b
 tags: support-Cloud_Platform; support-installation; support-Installation_Configuration; support-maintenance; VPN; support-devOps; support-troubleshooting
 locale: en-us
 guid: e116dd10-0c89-4d14-967d-9b0308df956b
+app_type: traditional web apps, mobile apps, reactive web apps
 ---
 
 # Set up a VPN using LifeTime 11.6.0 or earlier

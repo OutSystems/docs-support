@@ -3,6 +3,7 @@ summary: This document lists two common reasons that can help you troubleshoot t
 Tags:
 locale: en-us
 guid: 292ae0af-338c-48d8-be72-b23cc3d84380
+app_type: traditional web apps, mobile apps, reactive web apps
 ---
 
 # Unable to create a new app due to 401 error or missing templates

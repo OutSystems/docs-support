@@ -3,6 +3,7 @@ summary: Specified application version do not exists or the status update is inv
 tags:
 locale: en-us
 guid: 095a41e7-597a-4bc7-a956-17fd97b42337
+app_type: traditional web apps, mobile apps, reactive web apps
 ---
 
 # OS-WFBL-GEN-00004

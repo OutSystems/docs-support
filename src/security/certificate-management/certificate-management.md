@@ -2,6 +2,7 @@
 summary: This document presents all the certificate related options in OutSystems. It also clarifies on certificate ownership and responsibilities.
 locale: en-us
 guid: 5790c5c1-1cc3-4598-a2a9-b247fd26a9a0
+app_type: traditional web apps, mobile apps, reactive web apps
 ---
 
 # OutSystems certificate management

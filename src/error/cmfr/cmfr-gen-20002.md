@@ -3,6 +3,7 @@ summary: You need <write/read> access to the Case to perform the <action-name> a
 tags:
 locale: en-us
 guid: cade7016-3ae2-4851-99e7-712814be071c
+app_type: traditional web apps, mobile apps, reactive web apps
 ---
 
 # OS-CMFR-GEN-20002

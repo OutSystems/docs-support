@@ -3,6 +3,7 @@ summary: Configure your OutSystems Cloud environments to use your company's doma
 tags: support-Application_Troubleshooting; support-Cloud_Platform; support-Cloud_Platform-featured; support-Installation_Configuration; support-installation; support-Security; article-page
 locale: en-us
 guid: 75f71e55-19e7-4a6a-bd44-f730385acf52
+app_type: traditional web apps, mobile apps, reactive web apps
 ---
 
 # Use your SSL domain in OutSystems Cloud

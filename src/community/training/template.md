@@ -3,6 +3,7 @@ summary:
 locale: en-us
 guid: 
 tags: 
+app_type: traditional web apps, mobile apps, reactive web apps
 ---
 
 # This is the page title

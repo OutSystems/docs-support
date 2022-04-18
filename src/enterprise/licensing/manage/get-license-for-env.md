@@ -3,6 +3,7 @@ summary: On the OutSystems Cloud we'll manage the licensing for you. For self-ma
 en_title: 03 Get a license file for an environment
 locale: en-us
 guid: 95ac49e0-a453-4fe3-9b67-49d88ee832bd
+app_type: traditional web apps, mobile apps, reactive web apps
 ---
 
 # Get a license file for an environment

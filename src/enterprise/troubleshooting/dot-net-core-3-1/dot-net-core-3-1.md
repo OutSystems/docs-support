@@ -3,6 +3,7 @@ summary: Troubleshoot a failure when initializing Server.API and Server.Identity
 tags: 
 locale: en-us
 guid: c194d1df-6f2f-46c6-8085-a03fad7f8796
+app_type: traditional web apps, mobile apps, reactive web apps
 ---
 
 # Server.API and Server.Identity fail to initialize after upgrading to Platform Server 11.12.2 or later

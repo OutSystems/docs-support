@@ -3,6 +3,7 @@ summary: If you request a license for an environment, we'll send an email with i
 en_title: 04 How to install a license file
 locale: en-us
 guid: 901b198a-6fac-460e-b661-9a76c2e1093b
+app_type: traditional web apps, mobile apps, reactive web apps
 ---
 
 # How to install a license file

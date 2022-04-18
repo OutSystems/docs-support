@@ -3,6 +3,7 @@ summary: Learn how to manage your team access to the OutSystems online tools lik
 tags: support-account-overview; support-subscription_model
 locale: en-us
 guid: 5bd7f106-3784-4821-a603-0ad0c0fd8f82
+app_type: traditional web apps, mobile apps, reactive web apps
 ---
 
 # Managing your company permissions on OutSystems Customer Portal

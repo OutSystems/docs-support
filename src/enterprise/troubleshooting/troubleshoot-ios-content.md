@@ -3,6 +3,7 @@ tags: runtime-mobileandreactiveweb;
 summary: Troubleshooting OutSystems apps on iOS devices, including a known issue with Safari browser blocking third-party cookies in iframes by default.
 locale: en-us
 guid: f296d423-0144-4164-8c73-383013490529
+app_type: mobile apps, reactive web apps
 ---
 # Troubleshooting OutSystems apps on iOS devices
 

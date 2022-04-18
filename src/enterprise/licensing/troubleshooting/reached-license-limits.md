@@ -3,6 +3,7 @@ summary: Each license has certain usage limits. OutSystems will work with you to
 en_title: 01 I have reached my license limits
 locale: en-us
 guid: dddd2596-c4b3-4963-80ae-f79be09f2f09
+app_type: traditional web apps, mobile apps, reactive web apps
 ---
 
 # I have reached my license limits

@@ -2,6 +2,7 @@
 summary:
 locale: en-us
 guid: 5DB16DC0-2CF7-4EDF-813F-4E99EDAD455C
+app_type: traditional web apps, mobile apps, reactive web apps
 ---
 
 # How to download OutSystems certificates of your team

@@ -3,6 +3,7 @@ summary: Check how you can fix some of the mobile app build issues after upgradi
 tags:
 locale: en-us
 guid: c17b230d-07c0-4dd2-b977-a794555d8ba2
+app_type: traditional web apps, mobile apps, reactive web apps
 ---
 
 # Troubleshooting issues with MABS 5.0

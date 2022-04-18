@@ -3,6 +3,7 @@ summary: Application version icon is larger than <MaxSize> for application versi
 tags:
 locale: en-us
 guid: 0fdba693-c956-410e-b4ce-e4f917c57620
+app_type: traditional web apps, mobile apps, reactive web apps
 ---
 
 # OS-WFBL-GEN-00005

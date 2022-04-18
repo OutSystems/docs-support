@@ -2,6 +2,7 @@
 summary: This document lists the side effects and breaking changes introduced in OutSystems 10.
 locale: en-us
 guid: a85c789d-f5c2-486d-bce3-0991bef561ff
+app_type: traditional web apps, mobile apps, reactive web apps
 ---
 
 # OutSystems side effects and breaking changes

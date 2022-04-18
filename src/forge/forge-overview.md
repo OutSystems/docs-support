@@ -3,6 +3,7 @@ summary: The OutSystems Forge is a repository of reusable, open code modules, co
 tags: forge; forge_support
 locale: en-us
 guid: 8a0a5173-e7b7-4b8a-a58a-42d43e201233
+app_type: traditional web apps, mobile apps, reactive web apps
 ---
 
 # Overview

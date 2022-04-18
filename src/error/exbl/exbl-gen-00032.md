@@ -4,6 +4,7 @@ tags:
 en_title: OS-EXBL-GEN-00032
 locale: en-us
 guid: b9d37bd1-3e93-40dd-b674-5191c3c486a2
+app_type: traditional web apps, mobile apps, reactive web apps
 ---
 
 # OS-EXBL-GEN-00032

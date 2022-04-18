@@ -3,6 +3,7 @@ summary: This article describes the differences in the null DateTime value betwe
 tags: support-maintenance;
 locale: en-us
 guid: 9a463cd2-53c3-4e1f-8040-e71ac11ae99b
+app_type: traditional web apps, mobile apps, reactive web apps
 ---
 
 # Behavior of the Null DateTime Value in Mobile Apps

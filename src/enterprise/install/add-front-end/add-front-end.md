@@ -2,6 +2,7 @@
 summary: Scale your environments horizontally by adding new front ends to deal with increased user load and application complexity.
 locale: en-us
 guid: 41efb22b-80b4-49fa-8c0f-53d1b77a0732
+app_type: traditional web apps, mobile apps, reactive web apps
 ---
 
 # Add a new front-end server to your environment

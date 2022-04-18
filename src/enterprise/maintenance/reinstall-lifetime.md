@@ -3,6 +3,7 @@ summary: This article describes how to remove the infrastructure management cons
 tags:
 locale: en-us
 guid: e7dcad56-9c9a-40c2-b798-dc70d3015564
+app_type: traditional web apps, mobile apps, reactive web apps
 ---
 # Reinstall the infrastructure management console in a dedicated environment
 

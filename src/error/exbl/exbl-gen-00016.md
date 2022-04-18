@@ -3,6 +3,7 @@ summary: The file you've selected exceeds the maximum size limit. Select a file 
 tags:
 locale: en-us
 guid: 6f9a617e-0503-4dfc-9082-e47770816da9
+app_type: traditional web apps, mobile apps, reactive web apps
 ---
 
 # OS-EXBL-GEN-00016

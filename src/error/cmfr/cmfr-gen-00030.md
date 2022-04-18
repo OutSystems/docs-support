@@ -3,6 +3,7 @@ summary: The expected rule output type does not match this rule type.
 tags:
 locale: en-us
 guid: 2229f515-fe18-40a9-a982-092610638934
+app_type: traditional web apps, mobile apps, reactive web apps
 ---
 
 # OS-CMFR-GEN-00030

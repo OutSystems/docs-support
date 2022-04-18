@@ -3,6 +3,7 @@ summary: Something went wrong on our side. Contact the Experience Builder suppor
 tags:
 locale: en-us
 guid: a65b7b82-b9f0-43c7-8e0a-04a3ef68f060
+app_type: traditional web apps, mobile apps, reactive web apps
 ---
 
 # OS-EXBL-CONF-00010

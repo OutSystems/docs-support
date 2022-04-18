@@ -2,6 +2,7 @@
 summary: Learn the options to create a Certificate Signing Request (CSR). The steps apply to any OutSystems deployment model, whether it's OutSystems Cloud or self-managed.
 locale: en-us
 guid: 98e7f6a1-508c-4d53-9ac9-1de52829e137
+app_type: traditional web apps, mobile apps, reactive web apps
 ---
 
 # How to generate a CSR

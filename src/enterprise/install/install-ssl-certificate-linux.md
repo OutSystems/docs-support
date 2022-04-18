@@ -3,6 +3,7 @@ summary: Learn how to request and install an SSL certificate in your application
 en_title: How to install an SSL Certificate for the OutSystems platform (Linux)
 locale: en-us
 guid: 03501092-5cc4-422a-a64e-85ff2740a068
+app_type: traditional web apps, mobile apps, reactive web apps
 ---
 
 # How to install an SSL Certificate for the OutSystems platform in Linux

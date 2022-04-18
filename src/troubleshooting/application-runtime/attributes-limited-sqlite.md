@@ -2,6 +2,7 @@
 summary: 
 locale: en-us
 guid: eafe431f-ca4d-4305-93bc-0b964fb9efc6
+app_type: traditional web apps, mobile apps, reactive web apps
 ---
 
 # Known issue - Number of local storage entity attributes limited by SQLite on Android

@@ -2,6 +2,7 @@
 summary: Mobile apps communicate with the OutSystems Platform Server using secure REST endpoints. In this document, we explain how those endpoints are generated and secured.
 locale: en-us
 guid: 1f406792-8109-434a-95c8-c8898ccb0800
+app_type: traditional web apps, mobile apps, reactive web apps
 ---
 
 # Mobile app to server communication and security

@@ -3,6 +3,7 @@ summary: Experience Builder can't install some components in your infrastructure
 tags:
 locale: en-us
 guid: 4a8c54f6-24d2-426d-b30c-decfdcd392eb
+app_type: traditional web apps, mobile apps, reactive web apps
 ---
 
 # OS-EXBL-CONF-00001

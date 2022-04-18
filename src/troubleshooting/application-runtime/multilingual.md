@@ -2,6 +2,7 @@
 summary: Troubleshoot multilingual apps. See this content if you're having issues with creating, adding, or editing translations in Reactive Web and Mobile Apps. 
 locale: en-us
 guid: 70caa583-0619-41c1-8e9e-73674d5d6bc3
+app_type: traditional web apps, mobile apps, reactive web apps
 ---
 
 # Troubleshooting issues in multilingual apps

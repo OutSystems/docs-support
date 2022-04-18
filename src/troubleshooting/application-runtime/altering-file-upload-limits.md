@@ -3,6 +3,7 @@ summary: When you need to upload large files on your apps, you'll need to increa
 Tags: 
 locale: en-us
 guid: 0575cae0-16ef-4d80-b1ae-4517eec2661c
+app_type: traditional web apps, mobile apps, reactive web apps
 ---
 
 # Altering file upload limits in OutSystems apps

@@ -2,6 +2,7 @@
 summary:
 locale: en-us
 guid: 0822a4b6-a580-4040-a6fc-399ddc18561b
+app_type: traditional web apps, mobile apps, reactive web apps
 ---
 
 # Load Balancing OutSystems Applications

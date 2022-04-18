@@ -3,6 +3,7 @@ summary: Check what you'll need to request authorization for penetration tests, 
 tags: support-Cloud_Platform
 locale: en-us
 guid: 00c90ba4-311d-43b2-a676-0613ad5f60b2
+app_type: traditional web apps, mobile apps, reactive web apps
 ---
 
 # Load and penetration tests on OutSystems Cloud

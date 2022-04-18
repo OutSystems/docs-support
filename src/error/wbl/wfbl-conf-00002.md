@@ -3,6 +3,7 @@ summary: Atribute data is not valid: <OriginalErrorMessage>.
 tags:
 locale: en-us
 guid: 8b4619d4-246a-4d47-ae0d-4b29d16edcdf
+app_type: traditional web apps, mobile apps, reactive web apps
 ---
 
 # OS-WFBL-CONF-00002

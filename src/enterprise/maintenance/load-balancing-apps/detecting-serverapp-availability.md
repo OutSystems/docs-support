@@ -3,6 +3,7 @@ summary:
 en_title: 02 Detecting OutSystems server//app availability
 locale: en-us
 guid: 4f019a61-013f-4cac-be80-05b0abff742b
+app_type: traditional web apps, mobile apps, reactive web apps
 ---
 
 # Detecting OutSystems server/app availability

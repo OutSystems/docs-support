@@ -3,6 +3,7 @@ summary: "[<ErrorCode>] <Message>", a Salesforce error message.
 tags:
 locale: en-us
 guid: 6463f8b8-1cef-4cae-97de-f90264e9e480
+app_type: traditional web apps, mobile apps, reactive web apps
 ---
 
 # OS-INBL-API-20000

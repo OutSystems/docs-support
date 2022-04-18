@@ -3,6 +3,7 @@ summary:
 tags:
 locale: en-us
 guid: 106363F9-E2BA-436E-9CD7-F81BE980BECD
+app_type: traditional web apps, mobile apps, reactive web apps
 ---
 
 # Adding followers to a Support case

@@ -3,6 +3,7 @@ summary: Troubleshoot issues that can occur when deploying or configuring your O
 tags: 
 locale: en-us
 guid: 168fa455-9aa3-40e6-ad49-e502b3f185b2
+app_type: traditional web apps, mobile apps, reactive web apps
 ---
 
 # Application lifecycle

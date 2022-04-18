@@ -2,6 +2,7 @@
 summary:
 locale: en-us
 guid: e8b5cd23-b031-4fca-b2ee-071f8a074def
+app_type: traditional web apps, mobile apps, reactive web apps
 ---
 
 # Reset Users authentication preferences

@@ -3,6 +3,7 @@ summary: How to update the logout flow of your Traditional Web App so that it su
 tags: runtime-traditionalweb
 locale: en-us
 guid: 6ebc3a3e-4916-46b3-829c-a5143a5991da
+app_type: traditional web apps
 ---
 
 # Updating the logout flow of your Traditional Web App to support SAML 2.0

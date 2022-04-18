@@ -2,6 +2,7 @@
 summary: Learn how to install certificates, so that you can make HTTPS requests to servers that use self-signed certificates or certificates not trusted by your operating system.
 locale: en-us
 guid: 7429b610-e2b7-4a76-8557-6516bfda19f3
+app_type: traditional web apps, mobile apps, reactive web apps
 ---
 
 

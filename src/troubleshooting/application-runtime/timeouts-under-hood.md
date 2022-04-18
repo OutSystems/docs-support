@@ -2,6 +2,7 @@
 summary: To ensure your applications remain performant, OutSystems Platform has timeouts for long-running tasks. Learn how the timeouts works under the hood, and how to configure them.
 locale: en-us
 guid: 6663ad0f-9ee9-4a61-8d03-e8fa4e21b052
+app_type: traditional web apps, mobile apps, reactive web apps
 --- 
 
 # Timeouts Under the Hood

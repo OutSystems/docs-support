@@ -2,6 +2,7 @@
 summary: 
 locale: en-us
 guid: 07ec2701-98a1-4bfc-9e32-9685ecf7fe0c
+app_type: traditional web apps, mobile apps, reactive web apps
 ---
 
 # Personal Environment unavailable - HTTP 503

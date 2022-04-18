@@ -3,6 +3,7 @@ summary:
 tags:
 locale: en-us
 guid: FD44BBCC-5FF2-41D9-8685-911E353DCF16
+app_type: traditional web apps, mobile apps, reactive web apps
 ---
 
 # Enhanced security for OutSystems support cases

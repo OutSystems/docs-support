@@ -3,6 +3,7 @@ summary: This article describes how to restore the OutSystems database to a diff
 tags:
 locale: en-us
 guid: 346a4452-9ede-4346-aeb3-9455a48e99cc
+app_type: traditional web apps, mobile apps, reactive web apps
 ---
 
 # Restore OutSystems database to a different DB Server

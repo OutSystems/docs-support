@@ -3,6 +3,7 @@ summary: Troubleshooting OutSystems AppShield mobile plugin.
 tags: support-mobile
 locale: en-us
 guid: b3c74743-8b2a-43c9-b435-d491b17ed38c
+app_type: traditional web apps, mobile apps, reactive web apps
 ---
 
 # Troubleshooting the OutSystems AppShield mobile plugin

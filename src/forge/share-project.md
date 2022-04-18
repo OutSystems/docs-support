@@ -3,6 +3,7 @@ summary: Know the details of sharing a project in the OutSystems Forge.
 tags: forge; forge_support; forge_support_sharing
 locale: en-us
 guid: 7054c142-cbc7-4e56-bcfb-df90734f3ed7
+app_type: traditional web apps, mobile apps, reactive web apps
 ---
 
 # Sharing a project

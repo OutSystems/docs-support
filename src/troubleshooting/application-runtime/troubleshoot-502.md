@@ -3,6 +3,7 @@ summary: Understand, troubleshoot, and avoid HTTP 502 bad gateways errors on you
 Tags: 
 locale: en-us
 guid: f45fe813-4517-4381-896b-1c06fe7e03e0
+app_type: traditional web apps, mobile apps, reactive web apps
 ---
 
 # Troubleshooting HTTP 502 bad gateway 

@@ -3,6 +3,7 @@ summary: The <input-parameter> you've entered is either incorrect or null.
 tags:
 locale: en-us
 guid: 1c906e50-cee0-4a8a-a135-152791ce2492
+app_type: traditional web apps, mobile apps, reactive web apps
 ---
 
 # OS-CMFR-GEN-00001

@@ -3,6 +3,7 @@ summary: The license installed in an environment, define which feature are avail
 en_title: 07 Check what your license includes, and your effective usage
 locale: en-us
 guid: 8fc044d9-39d5-4152-91c6-3bfe2de76768
+app_type: traditional web apps, mobile apps, reactive web apps
 ---
 
 # Check what your license includes, and your effective usage

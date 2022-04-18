@@ -3,6 +3,7 @@ summary: Couldn't complete the Takeover. Either the user is missing access or th
 tags:
 locale: en-us
 guid: 8c226258-db91-4ac9-93b0-ff5ed273daf2
+app_type: traditional web apps, mobile apps, reactive web apps
 ---
 
 # OS-CMFR-GEN-20005

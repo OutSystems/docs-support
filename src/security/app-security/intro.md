@@ -3,6 +3,7 @@ summary: OutSystems is committed to continuously improve the security of the app
 tags: support-Security-overview; article-page
 locale: en-us
 guid: 5caacb13-daf1-4dbc-80ba-ac379a8da764
+app_type: traditional web apps, mobile apps, reactive web apps
 ---
 
 # Develop secure OutSystems apps

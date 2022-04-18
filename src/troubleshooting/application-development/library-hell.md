@@ -2,6 +2,7 @@
 summary: 
 locale: en-us
 guid: cefe3ea0-ea56-405d-8863-f2b366f442a3
+app_type: traditional web apps, mobile apps, reactive web apps
 ---
 
 # Library hell - why are changes in a producer not reflected in the consumers

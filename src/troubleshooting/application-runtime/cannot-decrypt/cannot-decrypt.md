@@ -3,6 +3,7 @@ summary: Check all the identified causes and their solutions when facing a "Erro
 tags: 
 locale: en-us
 guid: 353db22a-7853-4498-a2a1-62c184f291ff
+app_type: traditional web apps, mobile apps, reactive web apps
 ---
 
 

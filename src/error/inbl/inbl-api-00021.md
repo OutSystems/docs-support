@@ -3,6 +3,7 @@ summary: This is an automated message returned by the external system "The reque
 tags:
 locale: en-us
 guid: 0f597359-a284-4333-9c8d-188d2bca134f
+app_type: traditional web apps, mobile apps, reactive web apps
 ---
 
 # OS-INBL-API-00021

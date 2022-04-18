@@ -3,6 +3,7 @@ summary: Check what type of product releases does OutSystems have and what you c
 tags: 
 locale: en-us
 guid: d18db4ef-572c-4961-a7aa-097259242aca
+app_type: traditional web apps, mobile apps, reactive web apps
 ---
 
 # OutSystems product lifecycle and support calendar

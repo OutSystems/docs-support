@@ -3,6 +3,7 @@ summary:
 en_title: 01 Recommended configurations for Load Balancing
 locale: en-us
 guid: 5a9bef4d-746b-40d7-a553-e677b99a8398
+app_type: traditional web apps, mobile apps, reactive web apps
 ---
 
 # Recommended configurations for Load Balancing

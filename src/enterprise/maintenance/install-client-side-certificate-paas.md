@@ -3,6 +3,7 @@ summary: For OutSystems cloud, when you need to consume webservices that require
 tags: support-Cloud_Platform
 locale: en-us
 guid: 7c93c0ac-8de4-412f-8c80-37179170f1d8
+app_type: traditional web apps, mobile apps, reactive web apps
 ---
 
 # Requesting to install client-side certificates on OutSystems cloud

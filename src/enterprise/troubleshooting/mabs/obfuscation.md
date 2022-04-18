@@ -3,6 +3,7 @@ summary: About obfuscation of the logs in native mobile app builds.
 tags: support-mobile
 locale: en-us
 guid: 1578fb0f-f45d-4b74-8f2c-f9e958d45535
+app_type: traditional web apps, mobile apps, reactive web apps
 ---
 
 # Obfuscation and retracing logs of mobile builds
