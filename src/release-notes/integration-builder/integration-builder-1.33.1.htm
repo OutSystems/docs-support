@@ -1,12 +1,14 @@
-<h2>Integration Builder 1.33.1</h2>
-<div class=info><p>This is a preliminary version of the document.</p></div>
+<div class="noinclude" style="border: 3px solid red"><pre class="script">meta.googlebot("noindex");</pre></div>
+<div class="os-note os-info style-wrap"><p>Released on Apr 11, 2022</p></div>
 
 <h3>Bug Fixing</h3>
 <ul>
-<li>Fixed: An error would occur when trying to quickly republish several connectors, using the contextual menu on the integrations list. (RCNT-4458)</li>
+<li>Fixed an error that would occur when trying to quickly republish several connectors, using the contextual menu on the integrations list. (RCNT-4458)</li>
 <li>Fixed: when installing the MongoDB Integration Manager Plugin, the text incorrectly stated an "integration" was being published. (RCNT-4725)</li>
 <li>Fixed: For MongoDB connectors, an error message saying the connector had been changed was being displayed incorrectly when a publish operation had to wait for a dependency update process to finish. (RCNT-4729)</li>
 <li>Fixed: For relational database connectors, an error message saying the connector had been changed was being displayed incorrectly when a publish operation had to wait for a dependency update process to finish. (RCNT-4771)</li>
-<li>Fixed: Integration Manager was not being updated from version 1 to version 2 when there were no published integrations. This would prevent the installation of the MongoDB Integration Manager Plugin. (RPM-2329)</li>
+<li>Fixed Integration Manager not being updated from version 1 to version 2 when there were no published integrations. This would prevent the installation of the MongoDB Integration Manager Plugin. (RPM-2329)</li>
+<li>Now, Integration Builder won't ignore the value of the "Allow editing in Service Studio" property when generating MongoDB connectors. (RPM-2382)</li>
+<li>Fixed: A "Connection timeout" error was displayed when listing relational database connections, if there were many connections in Service Center. (RPM-2403)</li>
 </ul>
 

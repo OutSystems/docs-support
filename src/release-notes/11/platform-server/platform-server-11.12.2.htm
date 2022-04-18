@@ -238,70 +238,6 @@ To disable this for the whole environment you can follow this procedure:
 <li>Now, HTTP responses from Consumed REST API integrations are closed more aggressively. Previously, when doing numerous Consumed REST API requests, the number of used ports could increase rapidly and lead to port exhaustion problems. The new behaviour prevents this situation and helps avoid leaking resources, but can also cause runtime changes in some edge cases.<br>
 Check <a href="https://www.outsystems.com/goto/breaking-changes-11#introduced-in-platform-server-11111" target="_blank" rel="external noopener nofollow" class="link-https">OutSystems 11 side effects and breaking changes</a> for more details on the breaking change and on a possible workaround.</li>
 </ul>
-<style type="text/css">/*<![CDATA[*/.cattag {background: #f4f2ff; color: #6a6581; padding: 4px 10px;}
-/*]]>*/</style>
-</div></div><span id="Platform_Server_11.11.0"></span><h2>Platform Server 11.11.0</h2><br><div class="mt-include" id="s31665">
-<div class="info"><p>This is a preliminary version of the document.</p></div>
-
-<div mt-section-origin="Support/Release_Notes/11/Platform_Server/Platform_Server_11.11.0" class="mt-section" id="section_1"><span id="New_in_Platform_Server_11.11.0"></span><h3 id="New_in_Platform_Server_11.11.0-31665">New in Platform Server 11.11.0</h3>
-<ul>
-<li>Updated NLog library bundled with the platform from version 4.7.2 to version 4.7.5. (RRCT-3185)</li>
-<li>Updated SharpZipLib library bundled with the platform from version 1.1.0 to version 1.3.0. (RRCT-3176)</li>
-<li>Removed redundant log entries from General Logs and Event Viewer when stopping the Scheduler Service. (RRCT-3228)</li>
-<li>The Dropdown widget now has the aria-disabled attribute when disabled. This attribute lets the screen readers read out the state of the widget, instead of just skipping it, which helps visually impaired users navigate the content. (RAR-313)</li>
-<li>Improved the accessibility of the Popup widget, by adding the dialog role (role="dialog") and labelling it as a modal (aria-modal="true"). (RAR-314)</li>
-<li>Configuration Tool is now able to detect the installation of .NET Hosting Bundle in order to diagnose problems related to its misconfiguration. (RPST-934)</li>
-<li>Improved troubleshooting information related to view state errors. (RRCT-3173)</li>
-<li>Updated Newtonsoft.Json library bundled with the platform from version 11.0.2 to version 12.0.3. (RRCT-3177)</li>
-<li>You can now override the extensibility configurations of your PWA application through LifeTime and you can also include your configurations in any module of the application. (RTAF-2611)</li>
-</ul>
-</div><div mt-section-origin="Support/Release_Notes/11/Platform_Server/Platform_Server_11.11.0" class="mt-section" id="section_2"><span id="Bug_Fixing_13"></span><h3 id="Bug_Fixing-31665">Bug Fixing</h3>
-<ul>
-<li>Added a description to the IgnoreCase input of the Index built-in function. (RDEV-2359)</li>
-<li>Fixed a crash in the collect espace producers step when publishing a solution. (RPST-936)</li>
-<li>Now, having a file named "Program" inside C:\ no longer causes errors when accessing Server.Identity and Server.API. (RPST-940)</li>
-<li>Improved the Configuration Tool logging of errors while giving folder permissions. (RPST-931)</li>
-<li>Fixed the execution of BPT Activities when the Label is not defined on the database. (RRCT-3221)</li>
-<li>Fixed an issue that caused emails to be sent more than once when there are multiple front-end servers registered. (RPD-4844)</li>
-<li>Fixed the lookup of HTTP header values to be case-insensitive. This also fixes mobile device information that was missing in screen logs. (RRCT-3286)</li>
-<li>Fixed the Global Actions and Exception Flows in the Multilingual feature to correctly return the translations as set by the locale. (RTAF-3531)</li>
-<li>Fixed HSTS and Content Security Policy rules not being applied to all resources in  Traditional Web Apps. This also means that these configuration changes now require the recompilation of the modules and causes the rules to be applied to static resources and integration endpoints. This new behavior can be disabled using Factory Configuration. (RRCT-2979)</li>
-<li>Fixed an issue that prevented the Scheduler Service to start after running the Service Center installation through the Configuration Tool. (RSUPT-474)</li>
-<li>Fixed an issue in Service Center's Modules list that prevented the correct display of the next page listings when Status was filtered by "unpublished since last upgrade". (RSUPT-591)</li>
-<li>Fixed a compiler error when generating files with long paths. (RSUPT-413)</li>
-<li>Fixed the inline records inside the widget input properties, to make the widgets work correctly and without runtime errors. (RTAF-3604)</li>
-<li>Fixed SetCurrentLocale Server Action so the locale changes correctly when you use this Action. We discovered this bug in the Multilingual technical preview feature for Mobile Apps and Reactive Web Apps. (RTAF-3775)</li>
-<li>Fixed an issue that could cause errors in PWAs (progressive web apps) running offline, if the PWAs were staged to a new environment in LifeTime or published from a solution. (RTAF-3789)</li>
-<li>Fixed an issue that prevented Timers to run after changing the module's name. (RPD-5119)</li>
-<li>Fixed an issue on the Gathering Dependencies step when publishing a solution that caused "An item with the same key has already been added." error. (RPD-5120)</li>
-<li>Fixed connection errors in Service Studio when enabling Progressive Web Apps (PWA) feature. (RPD-5163)</li>
-<li>Fixed an issue in Service Center that caused a redirection to a Submit Error page when a site property was assigned a value not compatible with its data type. (RPST-1155)</li>
-<li>Added the message 'JavaScript is required' when loading a Mobile App or Reactive Web App with JavaScript turned off. (RPM-613)</li>
-<li>Fixed an issue while retrieving user permissions for missing Extensions. (RPST-1164)</li>
-<li>Mappings being used on ListAppend and ListInsert actions now return all the expected records. (RPM-556)</li>
-<li>Fixed an issue that prevented the value of a Foreign Key Attribute in a Static Entity Record that was deleted in Service Studio from being deleted from the database. (RPM-591)</li>
-<li>Fixed an issue that caused an "Unable to save the deployment plan" error when deploying an application that consumes an SC Extension, between environments on LifeTime. (RPM-458)</li>
-<li>Fixed a compiler error when a structure list with the attributes of the Entity type was used as a Source Record List in the ComboBox widget of a Traditional Web App. (RTAF-3797)</li>
-<li>Fixed an issue that caused LifeTime API to return an expired license error after installing a valid license. (RPM-421)</li>
-<li>Fixed an issue that caused Timers to run twice when the Timer's module is deployed in a 2-stage deployment. (RPM-394)</li>
-<li>Fixed an issue where SEO Page Rules were cleared in a first redirect from an HTTP URL to an HTTPS URL. (RPM-534)</li>
-<li>Debug in Personal Area is now prevented for usernames with unsupported characters to avoid IIS issues. (RPM-435)</li>
-<li>Fixed a compilation error in Oracle when publishing a module having an Entity attribute defined as Decimal (20,0). (RPD-5206)</li>
-<li>Fixed an issue that caused cached Server Actions and Aggregates to return the same value for different inputs when using Japanese characters. (RRCT-3285)</li>
-<li>Fixed an issue that caused a fatal error during a solution publish to not stop the publish operation in some situations. (RPST-1064)</li>
-<li>Fixed an issue that caused Service Center's Default Document setting in IIS to be disabled after upgrading the Platform Server. (RPD-5061)</li>
-<li>Improved the performance of the compiler and Scheduler Service queries by adding an index to the system entity ModuleFrontEnd. (RPLAT-98)</li>
-<li>Fixed an issue that could stop publishes by making sure Static Entity Records are only updated if there are column values that are different to avoid row locks during compilation/publication. (RPLAT-74)</li>
-<li>Fixed issue preventing the successful compilation of a module after an error previewing an entity data (View Data) with an error message like "Object not found: <key> (relativeTo: <key>)". (RPLAT-67)</key></key></li>
-<li>Fixed an issue causing the warning "Database connection was successful.
-However the schema (v*) should be upgraded to the latest version (v*)." appearing when testing a connection in the configuration tool. (RPLAT-289)</li>
-<li>Fixed an issue that caused the Deployment Controller Service to crash when publishing modules with outdated references. (RPD-4889)</li>
-<li>Fixed issue deleting static entity records when the type of the identifier attribute is another static entity. (RRCT-3028)</li>
-<li>Fixed the user experience when navigating on Service Center listing screens. Now, the selected filters are kept after navigating away and using the browser Back button to return to the screen. (RPD-5139)</li>
-
-<li>Fixed a security issue. CVSSv3.1 score 4.1 (Medium). (RPD-4611) (RPD-4611)</li>
-<li>Fixed a security issue. CVSSv3.1 score 5.1 (Medium) (RTAF-3511) (RTAF-3511)</li>
-</ul>
 </div></div><span id="Platform_Server_11.10.4"></span><h2>Platform Server 11.10.4</h2><br><div class="mt-include" id="s32957">
 <div class="info"><p>Released on Apr 21, 2021</p></div>
 
@@ -1158,8 +1094,6 @@ This driver supports native encryption, meaning that you can set up your databas
 <li>Fixed a crash that occurred when importing SOAP Web Services that had invalid WSDL definition with missing portType elements. (RSBO-356)</li>
 <li>Fixed an issue with Input_AutoComplete being triggered in IE11 due to an unexpected 'keydown' event. (RPD-3866)</li>
 </ul>
-</div></div><span id="Platform_Server_Release_Internal_Feb.2019"></span><h2>Platform Server Release Internal Feb.2019</h2><br><div class="mt-include" id="s24035">
-<div class="info"><p>This is a preliminary version of the document.</p></div>
 
 </div><span id="Platform_Server_Release_Apr.2019_CP1"></span><h2>Platform Server Release Apr.2019 CP1</h2><br><div class="mt-include" id="s25840">
 <div class="info"><p>Released on May 17, 2019</p></div>
@@ -1742,14 +1676,7 @@ On upgrade, if ServiceCenter exists in "OutSystemsApplications" application pool
 <li>Fixed an error that prevented you from upgrading a module with the dynamic join logic to OutSystems 11. (RPD-3674)</li>
 <li>Fixed a problem which caused SOAP Web Services imported in version 11 to have incorrect information. This happened when the WSDL had an enumeration defined in a top-level element that is used directly in an input part. (RSBO-360)</li>
 <li>Fixed occasional crash using the Search in several tabs at the same time. (RTAF-108)</li>
-</ul></div></div><span id="Platform_Server_11.0.0.209"></span><h2>Platform Server 11.0.0.209</h2><br><div class="mt-include" id="s20422">
-
-<div class="info">
-<p>This is a preliminary version of the document.</p>
-</div>
-
-<div mt-section-origin="Support/Release_Notes/11/Platform_Server/397_Platform_Server_11.0.0.209" class="mt-section" id="section_1"><span id="New_in_Platform_Server_11.0.0.209"></span><h3 id="New_in_Platform_Server_11.0.0.209-20422">New in Platform Server 11.0.0.209</h3>
-
+</ul>
 <ul>
 <li>The Entity right-click menu option "Advanced &gt; Import Image for 'EntityNamePicture' Entity" no longer appears in Service modules. (ABE-987)</li>
 <li>The Module menu option "Import &gt; Image from File..." no longer appears in Service modules. (ABE-986)</li>

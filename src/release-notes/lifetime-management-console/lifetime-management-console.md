@@ -5,16 +5,6 @@ app_type: traditional web apps, mobile apps, reactive web apps
 ---
 
 <h1>Lifetime Management Console</h1>
-<h2 id="LifeTime_Management_Console_11.12.0">LifeTime Management Console 11.12.0</h2>
-<div class="info"><p>This is a preliminary version of the document.</p></div>
-<h3>Bug Fixing</h3>
-<ul>
-<li>Fixed an issue when deploying a new mobile app that doesn't exist in the target environment and contains a module moved from another app while the "Configure Mobile application updates distribution" Technical Preview is enabled. (RPM-1562)</li>
-<li>The LifeTime Installation Checklist now includes the supported Oracle versions in the database software combo box. (RPM-2034)</li>
-<li>Fixed an issue for cloud infrastructures causing an "Unauthorized operation" error in the Environments screen and preventing the database storage information to be displayed. (RPM-2279)</li>
-<li>Improved LifeTime performance when creating new deployment plans in large factories. (RPM-583)</li>
-</ul>
-
 <h2 id="LifeTime_Management_Console_11.11.0">LifeTime Management Console 11.11.0</h2>
 <div class="info"><p>Released on Mar 08, 2022</p></div>
 <h3>New in LifeTime Management Console 11.11.0</h3>
