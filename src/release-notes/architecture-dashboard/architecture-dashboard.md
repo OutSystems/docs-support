@@ -7,7 +7,7 @@ app_type: traditional web apps, mobile apps, reactive web apps
 <h1>Architecture Dashboard</h1>
 <h2 id="Architecture_Dashboard_1.15">Architecture Dashboard 1.15</h2>
 <div class="info">
-<p>This is a preliminary version of the document.</p>
+<p>Released on April 18, 2022</p>
 </div>
 <h3>New in Architecture Dashboard 1.15</h3>
 <ul>
