@@ -15,6 +15,8 @@ Regardless of the (ever changing) underlying hardware, each personal environment
 
 * Maximum of 2 GB for database storage of system and application data
 
+* No caching is available
+
 * No support for team collaboration
 
 * Application versions are automatically deleted after two weeks
