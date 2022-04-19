@@ -309,6 +309,7 @@
 - topics:
     - href: licensing/how-licensing-works.md
     - href: licensing/app-object-count.md
+    - href: licensing/check-license-includes.md
     - href: licensing/whats-a-personal.md
     - href: licensing/infrastructure-under-hood.md
     - href: licensing/move-apps-personal-enterprise.md
@@ -329,7 +330,6 @@
             - href: enterprise/licensing/manage/get-license-for-env.md
             - href: enterprise/licensing/manage/howto-install-license.md 
             - href: enterprise/licensing/manage/free-up-environment.md
-            - href: enterprise/licensing/manage/check-license-includes.md               
             - href: enterprise/licensing/manage/enable-db-replica.md
         
         # Intellectual Property Protection (IPP)
