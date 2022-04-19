@@ -8,9 +8,9 @@ app_type: traditional web apps, mobile apps, reactive web apps
 
 # Possible errors when validating your SSL domain certificate
 
-During the process to set up [your own SSL domain in OutSystem Cloud](../../enterprise/install/ssl-domain-cloud/ssl-domain-cloud.md) you must add the new domain certificate on LifeTime for validation.
+During the process to set up [your own SSL domain in OutSystem Cloud](https://success.outsystems.com/Documentation/11/Setup_and_maintain_your_OutSystems_infrastructure/Setting_Up_OutSystems/Use_your_SSL_domain_in_OutSystems_Cloud) you must add the new domain certificate on LifeTime for validation.
 
-This article describes the possible errors that you can get during the [validation step of your certificate](../../enterprise/install/ssl-domain-cloud/ssl-domain-cloud.md#validate-certificate), and the guidelines on how to proceed for each case.
+This article describes the possible errors that you can get during the [validation step of your certificate](https://success.outsystems.com/Documentation/11/Setup_and_maintain_your_OutSystems_infrastructure/Setting_Up_OutSystems/Use_your_SSL_domain_in_OutSystems_Cloud#validate-certificate), and the guidelines on how to proceed for each case.
 
 ## Errors description
 
