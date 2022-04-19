@@ -5,8 +5,8 @@ app_type: traditional web apps, mobile apps, reactive web apps
 ---
 
 <h1>Integration Builder</h1>
-<div class="noinclude" style="border: 3px solid red"><pre class="script">meta.googlebot("noindex");</pre></div>
-<div class="os-note os-info style-wrap"><p>Released on Apr 11, 2022</p></div>
+<h2 id="Integration_Builder_1.33.1">Integration Builder 1.33.1</h2>
+<div class="info"><p>Released on Apr 11, 2022</p></div>
 <h3>Bug Fixing</h3>
 <ul>
 <li>Fixed an error that would occur when trying to quickly republish several connectors, using the contextual menu on the integrations list. (RCNT-4458)</li>
