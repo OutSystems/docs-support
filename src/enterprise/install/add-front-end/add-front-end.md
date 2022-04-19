@@ -7,11 +7,6 @@ app_type: traditional web apps, mobile apps, reactive web apps
 
 # Add a new front-end server to your environment
 
-<div class="info" markdown="1">
-
-We've been working on this article. Please let us know how useful this new version is by voting.
-</div>
-
 Adding more front-end servers to an environment is a simple process of installation and configuration. Your team can add as many front-end servers as needed for unlimited horizontal scalability. The Platform Server automatically synchronizes applications to the new front-end servers.
 
 ## Benefits of this feature
