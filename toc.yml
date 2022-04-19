@@ -364,9 +364,9 @@
         - href: enterprise/outsystems-support/customer-portal.md
 
     # Maintenance and Operations
-    - href: enterprise/maintenance/migrate-db-clone.md
     - href: enterprise/maintenance/enterprise-maintenance.md
     - topics:
+        - href: enterprise/maintenance/migrate-db-clone.md
         - href: enterprise/maintenance/access-database-paas/access-database-paas.md
         - topics: 
             - href: enterprise/maintenance/access-database-paas/temporary-access-database-backup.md
