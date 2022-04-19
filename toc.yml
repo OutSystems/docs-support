@@ -101,6 +101,7 @@
         - href: troubleshooting/infrastructure-management/upgrade-latest-version.md
         - href: troubleshooting/infrastructure-management/test-env-connectivity.md
         - href: troubleshooting/infrastructure-management/manage-database-space.md
+        - href: troubleshooting/infrastructure-management/ssl-domain-cloud-errors.md
 
 # Security
 - href: security/intro.md
@@ -348,8 +349,6 @@
     - href: enterprise/install/enterprise-install.md
     - topics:
         - href: enterprise/install/ssl-domain-cloud/ssl-domain-cloud.md
-        - topics:
-            - href: enterprise/install/ssl-domain-cloud/ssl-domain-cloud-errors.md     
         - href: enterprise/install/generate-csr.md
         - href: enterprise/install/install-ssl-platform.md
         - href: enterprise/install/install-ssl-certificate-linux.md       

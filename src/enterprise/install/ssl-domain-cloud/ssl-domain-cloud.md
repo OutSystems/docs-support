@@ -139,7 +139,7 @@ If the certificate isn't considered valid you'll see this warning:
 
 ![](images/ssl-domain-cloud-lt-8.png)
 
-It's advised to double check your certificate and submit for a new validation. Check [these guidelines](ssl-domain-cloud-errors.md) to know how you should proceed for a specific validation error.
+It's advised to double check your certificate and submit for a new validation. Check [these guidelines](../../../troubleshooting/infrastructure-management/ssl-domain-cloud-errors.md) to know how you should proceed for a specific validation error.
 
 You may instead choose to submit anyway but note that in this case, OutSystems will do the validation manually. This can take several days to complete, according to our [target delivery](https://success.outsystems.com/Support/Enterprise_Customers/OutSystems_Support/Cloud_services_catalog).
 
