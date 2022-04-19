@@ -348,7 +348,6 @@
     # Installation
     - href: enterprise/install/enterprise-install.md
     - topics:
-        - href: enterprise/install/ssl-domain-cloud/ssl-domain-cloud.md
         - href: enterprise/install/generate-csr.md
         - href: enterprise/install/install-ssl-platform.md
         - href: enterprise/install/install-ssl-certificate-linux.md       
