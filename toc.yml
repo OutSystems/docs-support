@@ -349,7 +349,6 @@
     - href: enterprise/install/enterprise-install.md
     - topics:
         - href: enterprise/install/generate-csr.md
-        - href: enterprise/install/install-ssl-platform.md
         - href: enterprise/install/install-ssl-certificate-linux.md       
         - href: enterprise/install/installing-platform-fips-compliant.md
         - href: enterprise/install/add-certificate-trusted.md
