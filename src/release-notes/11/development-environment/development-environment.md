@@ -5,40 +5,6 @@ app_type: traditional web apps, mobile apps, reactive web apps
 ---
 
 <h1>Development Environment</h1>
-<h2 id="Development_Environment_11.14.14">Development Environment 11.14.14</h2>
-<div class="info"><p>This is a preliminary version of the document.</p></div>
-
-This release of Service Studio focuses on internal improvements ― this will help our team improve Service Studio faster.
-Your work shouldn't be impacted by these changes.
-<h2 id="Development_Environment_11.14.13">Development Environment 11.14.13</h2>
-<div class="info"><p>Released on Apr 11, 2022</p></div>
-
-This release of Service Studio focuses on internal improvements ― this will help our team improve Service Studio faster.
-Your work shouldn't be impacted by these changes.
-<h2 id="Development_Environment_11.14.12">Development Environment 11.14.12</h2>
-<div class="info"><p>Released on Apr 04, 2022</p></div>
-This release of Service Studio focuses on internal improvements ― this will help our team improve Service Studio faster.
-Your work shouldn't be impacted by these changes.
-<h2 id="Development_Environment_11.14.11">Development Environment 11.14.11</h2>
-<div class="info"><p>Released on Mar 24, 2022</p></div>
-<h3>New in Development Environment 11.14.11</h3>
-<ul>
-<li>When using Service Studio Stable for Windows on a Parallels virtual machine, you'll be prompted to install the Service Studio Stable version for MacOS. (RTAFB-5610)</li>
-</ul>
-
-<h2 id="Development_Environment_11.14.10">Development Environment 11.14.10</h2>
-<div class="info"><p>This is a preliminary version of the document.</p></div>
-<h3>New in Development Environment 11.14.10</h3>
-<ul>
-<li>It is now possible to export the definition files from a consumed SOAP Web Service. (R11DT-911)</li>
-</ul>
-<h3>Bug Fixing</h3>
-<ul>
-<li>Improved an error message by adding relevant information when an array lacks the items definition while importing a REST Web Service. (R11DT-382)</li>
-<li>Fixed an issue that caused the installation of a sample app to fail. (RIMPT-1653)</li>
-<li>Fixed an issue that gave an incorrect length attribute when importing a SOAP web service. (RPD-5047)</li>
-</ul>
-
 <h2 id="Development_Environment_11.14.8">Development Environment 11.14.8</h2>
 <div class="info"><p>Released on Feb 28, 2022</p></div>
 <h3>Bug Fixing</h3>
@@ -2355,6 +2321,35 @@ This feature requires OutSystems Platform Server 11 Release Apr.2019 CP1. (RSBO-
 </ul>
 <h3>Known Issues</h3>
 <ul>
-<li>Service Studio allows the "Delete Module" operation to be executed in environments with a purpose different from Development. This operation <a href="http://success.outsystems.com/Documentation/11/Setting_Up_OutSystems/Configure_your_OutSystems_environment#Feature_availability_for_different_Purposes">should only be available</a> in environments that have the Development purpose.</li>
+<li>Service Studio allows the "Delete Module" operation to be executed in environments with a purpose different from Development. This operation <a href="https://success.outsystems.com/Documentation/11/Setting_Up_OutSystems/Configure_your_OutSystems_environment#Feature_availability_for_different_Purposes">should only be available</a> in environments that have the Development purpose.</li>
 <li>When creating a second module in a web application, the blocks ApplicationTitle, MenuIcon and LoginInfo are not automatically added to the references of the module even though they are used in the sample content of the Layout block. To fix the errors, manually add the missing references to the module.</li>
 </ul></h></ul>
+<h2 id="Development_Environment_11.14.13">Development Environment 11.14.13</h2>
+<div class="info"><p>Released on Apr 11, 2022</p></div>
+
+This release of Service Studio focuses on internal improvements ― this will help our team improve Service Studio faster.
+Your work shouldn't be impacted by these changes.
+<h2 id="Development_Environment_11.14.12">Development Environment 11.14.12</h2>
+<div class="info"><p>Released on Apr 04, 2022</p></div>
+This release of Service Studio focuses on internal improvements ― this will help our team improve Service Studio faster.
+Your work shouldn't be impacted by these changes.
+<h2 id="Development_Environment_11.14.11">Development Environment 11.14.11</h2>
+<div class="info"><p>Released on Mar 24, 2022</p></div>
+<h3>New in Development Environment 11.14.11</h3>
+<ul>
+<li>When using Service Studio Stable for Windows on a Parallels virtual machine, you'll be prompted to install the Service Studio Stable version for MacOS. (RTAFB-5610)</li>
+</ul>
+
+<h2 id="Development_Environment_11.14.10">Development Environment 11.14.10</h2>
+<div class="info"><p>This is a preliminary version of the document.</p></div>
+<h3>New in Development Environment 11.14.10</h3>
+<ul>
+<li>It is now possible to export the definition files from a consumed SOAP Web Service. (R11DT-911)</li>
+</ul>
+<h3>Bug Fixing</h3>
+<ul>
+<li>Improved an error message by adding relevant information when an array lacks the items definition while importing a REST Web Service. (R11DT-382)</li>
+<li>Fixed an issue that caused the installation of a sample app to fail. (RIMPT-1653)</li>
+<li>Fixed an issue that gave an incorrect length attribute when importing a SOAP web service. (RPD-5047)</li>
+</ul>
+
