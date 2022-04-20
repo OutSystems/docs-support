@@ -13,10 +13,12 @@ However, your users often expect and prefer to access an application address in 
 
 ## How to configure your DNS 
 
-Create CNAME records in your DNS servers pointing to the servers in the *.outsystemsenterprise.com domain. Then, [upload your own SSL certificates to the OutSystems Cloud](https://success.outsystems.com/Support/Enterprise_Customers/Installation/Enable_Custom_SSL_Domain_In_OutSystems_PaaS).
+Create CNAME records in your DNS servers pointing to the servers in the *.outsystemsenterprise.com domain. Then, [upload your own SSL certificates to the OutSystems Cloud](https://success.outsystems.com/Documentation/11/Setup_and_maintain_your_OutSystems_infrastructure/Setting_Up_OutSystems/Use_your_SSL_domain_in_OutSystems_Cloud).
 
 <div class="warning" markdown="1">
-**Warning:** The DNS of the OutSystems servers redirects to a load balancer, with an address like *.elb.amazonaws.com. But the address of the load balancer is subject to change. You cannot use the load balancer address in your DNS records.
+
+The DNS of the OutSystems servers redirects to a load balancer, with an address like *.elb.amazonaws.com. But the address of the load balancer is subject to change. You can't use the load balancer address in your DNS records.
+
 </div>
 
 The diagram below shows the correct configuration in green:
