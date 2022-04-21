@@ -407,12 +407,7 @@
         - href: enterprise/maintenance/chrome-samesite-cookie-changes.md
         - href: enterprise/maintenance/sql-compatibility-upgrade.md
         - href: enterprise/maintenance/change-ac.md
-
-        # Load Balancing OutSystems Applications
-        - href: enterprise/maintenance/load-balancing-apps/load-balancing-apps.md
-        - topics:     
-            - href: enterprise/maintenance/load-balancing-apps/recommended-configs-load-balancing.md    
-            - href: enterprise/maintenance/load-balancing-apps/detecting-serverapp-availability.md          
+      
 
     # Upgrading
     - href: enterprise/upgrade/enterprise-upgrade.md
