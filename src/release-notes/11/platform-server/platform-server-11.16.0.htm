@@ -19,7 +19,6 @@
 <li>Fixed an issue that prevented CSP headers from being sent in Service Center responses for some platform installation scenarios. (R11PBT-725)</li>
 <li>Fixed an issue that could cause protocol errors in requests to Service Center when requests are handled using the HTTP/2 protocol. (R11PBT-726)</li>
 <li>Symbolik link creation now fallback to directory copy when user lacks permissions (R11PIT-639)</li>
-<li>Fixed a concurrency issue with the DatabaseConnection_SetConnectionStringForSession method of the PlatformRuntime_API that could lead to the incorrect connections to be used. (RPD-3512)</li>
 <li>Fixed an issue that could cause the Scheduler Service to become unhealthy in Oracle environments (RPM-1133)</li>
 <li>Http Server information is now removed from response header. (RPM-1461)</li>
 <li>Fixed an issue that caused email sending to be aborted when Office 365 returns error 550 (Recipient address rejected). (RPM-1514)</li>
@@ -36,6 +35,8 @@
 <li>Fixed an issue in Service Center that caused the display of wrong results when filtering the modules list by "errors and warnings" state. (RPM-2155)</li>
 <li>Fixed Oracle semaphore related errors in high concurrency scenarios. This issue is fixed by the Oracle Driver upgrade done in R11PBT-667. (RPM-2178)</li>
 <li>Granting a security level to a user on a Database Connection no longer adds that level to all available connections. (RPM-2277)</li>
+<li>Fixed scenarios in which suspended process instances got resumed without any change to the process definition (RPM-2290)</li>
+<li>Fixed a concurrency issue with the DatabaseConnection_SetConnectionStringForSession method of the PlatformRuntime_API that could lead to the incorrect connections to be used. (RPM-2340)</li>
 <li>Fixed a bug in the Upload Widget when selecting the same image twice in Chrome. (RPM-446)</li>
 <li>Added support for reading the External ID retrieved during SAML Authentication inside an application. (RPM-671)</li>
 <li>Fix a wrong behavior when using the browser back button or Previous Screen event to navigate back to a screen with Widgets that use data from Client/Local variables. The Widgets was not re-rendered and showed outdated values. (RPM-673)</li>
