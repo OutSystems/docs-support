@@ -9,10 +9,13 @@ app_type: traditional web apps, mobile apps, reactive web apps
 
 This release of Service Studio focuses on internal improvements ― this will help our team improve Service Studio faster.
 Your work shouldn't be impacted by these changes.
+
 <h2 id="Development_Environment_11.14.12">Development Environment 11.14.12</h2>
 <div class="info"><p>Released on Apr 04, 2022</p></div>
+
 This release of Service Studio focuses on internal improvements ― this will help our team improve Service Studio faster.
 Your work shouldn't be impacted by these changes.
+
 <h2 id="Development_Environment_11.14.11">Development Environment 11.14.11</h2>
 <div class="info"><p>Released on Mar 24, 2022</p></div>
 <h3>New in Development Environment 11.14.11</h3>
@@ -56,8 +59,7 @@ Inspired by <a href="https://www.outsystems.com/ideas/5205/allow-hyphen-in-url-p
 <li>Fixed an issue in which it was not possible to clone a module when there was multiple themes with similar names (RPM-2073)</li>
 </ul>
 
-<div class="info">
-<p>Released on Jan 24, 2022</p>
+<div class="info"><p>Released on Jan 24, 2022</p>
 </div>
 <h3>New in Development Environment 11.14.5</h3>
 <ul>
