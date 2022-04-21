@@ -11,7 +11,7 @@ app_type: traditional web apps, mobile apps, reactive web apps
 <h3>New in Cross-platform Service Studio 11.52.3</h3>
 <ul>
 <li>It is now possible to open Aggregates and Edit Data in a separate window. This way, you can compare Aggregates and Entities while seeing your screens or logic flows. (RTAFA-449)</li>
-</ul>
+</ul> 
 <h3>Bug Fixing</h3>
 <ul>
 <li>Improved Aggregate's data preview experience (RAID-1394)</li>
