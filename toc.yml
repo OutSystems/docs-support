@@ -9,6 +9,8 @@
         - topics: 
             - href: release-notes/11/platform-server/platform-server-11.16.0.htm
         - href: release-notes/11/cross-platform-service-studio/cross-platform-service-studio.md
+        - topics:
+            - href: release-notes/11/cross-platform-service-studio/cross-platform-service-studio-11.52.4.htm
         - href: release-notes/11/development-environment/development-environment.md
         - href: release-notes/11/side-effects-breaking-changes.md                     
     - href: release-notes/lifetime-management-console/lifetime-management-console.md
