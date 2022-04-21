@@ -301,6 +301,7 @@
     - href: community/close-community-account.md
     - href: community/merge-accounts.md
     - href: community/open-support-case.md
+    - href: community/customer-portal.md
     # Training
     - href: community/training/training-intro.md
     - topics:
@@ -363,7 +364,6 @@
     - href: enterprise/outsystems-support/enterprise-support.md
     - topics:
         - href: enterprise/outsystems-support/deactivate-support-email.md
-        - href: enterprise/outsystems-support/customer-portal.md
 
     # Maintenance and Operations
     - href: enterprise/maintenance/enterprise-maintenance.md
