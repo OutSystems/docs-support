@@ -1,6 +1,5 @@
 ---
 summary: If you're using the cloud-based version, just request a new environment. If you're using the on-premises version, you need to get a license for the new environment.
-en_title: 02 add a new environment to your infrastructure
 locale: en-us
 guid: fa47e66e-155d-4b3c-b64d-945de079d123
 app_type: traditional web apps, mobile apps, reactive web apps
@@ -21,6 +20,8 @@ For on-premises installations:
 Customers with a Hybrid configuration should contact [technical support](https://success.outsystems.com/Support/Enterprise_Customers/OutSystems_Support/01_Contact_OutSystems_technical_support) for instructions about how to add a new environment.
 
 <div class="info" markdown="1">
+
 Hybrid configurations are supported only in **OutSystems** licenses purchased before January 2020. 
+
 </div>
 
