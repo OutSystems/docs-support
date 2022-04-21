@@ -5,6 +5,21 @@ app_type: traditional web apps, mobile apps, reactive web apps
 ---
 
 <h1>Cross-platform Service Studio</h1>
+
+<h2 id="Cross-platform_Service_Studio_11.52.3">Cross-platform Service Studio 11.52.3</h2>
+<div class="info"><p>Released on Apr 21, 2022</p></div>
+<h3>New in Cross-platform Service Studio 11.52.3</h3>
+<ul>
+<li>It is now possible to open Aggregates and Edit Data in a separate window. This way, you can compare Aggregates and Entities while seeing your screens or logic flows. (RTAFA-449)</li>
+</ul>
+<h3>Bug Fixing</h3>
+<ul>
+<li>Improved Aggregate's data preview experience (RAID-1394)</li>
+<li>Fix a crash when trying to open multiple AddRemoveReferences dialogs at once (RMAC-9022)</li>
+<li>Fixed an error that occurred when spanning out a new Service Studio instance by dragging a module tab of a disconnected environment. (RMAC-9371)</li>
+</ul>
+
+
 <h2 id="Cross-platform_Service_Studio_11.52.2">Cross-platform Service Studio 11.52.2</h2>
 <div class="info"><p>Released on Apr 06, 2022</p></div>
 <h3>New in Cross-platform Service Studio 11.52.2</h3>
