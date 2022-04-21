@@ -4,7 +4,7 @@ guid: 7ddf30aa-3be8-48c3-80fb-d2efdf1222cd
 app_type: traditional web apps, mobile apps, reactive web apps
 ---
 
-<h1>Cross Platform Service Studio</h1>
+<h1>Cross-platform Service Studio</h1>
 <h2 id="Cross-platform_Service_Studio_11.52.2">Cross-platform Service Studio 11.52.2</h2>
 <div class="info"><p>Released on Apr 06, 2022</p></div>
 <h3>New in Cross-platform Service Studio 11.52.2</h3>
