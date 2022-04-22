@@ -327,6 +327,7 @@
     - href: licensing/detach-11.md
     - href: licensing/detach-10.md
 
+# Enterprise Customers
 - href: enterprise/enterprise-intro.md
 - topics:
        
@@ -413,17 +414,6 @@
         - href: enterprise/maintenance/sql-compatibility-upgrade.md
         - href: enterprise/maintenance/change-ac.md
       
-
-    # Upgrading
-    - href: enterprise/upgrade/enterprise-upgrade.md
-    - topics:
-        - href: enterprise/upgrade/upgrade-platform.md
-        - href: enterprise/upgrade/upgrade-platform-module-prep.md
-        - href: enterprise/upgrade/upgrade-platform-errors.md
-        - href: enterprise/upgrade/balanced-upgrade-highly-loaded-farms.md
-        - href: enterprise/upgrade/updating-lifetime-analytics.md
-        - href: enterprise/upgrade/upgrade-lifetime.md
-
     # Troubleshooting        
     - href: enterprise/troubleshooting/enterprise-trouble.md
     - topics:
@@ -446,7 +436,7 @@
             # Known issues
             - href: enterprise/troubleshooting/known-issues/ki-11_10-downtime-CT/ki-11_10-downtime-CT.md
             - href: enterprise/troubleshooting/known-issues/ki-11_10-site-properties/ki-11_10-site-properties.md
-      
+- href: enterprise/updating-lifetime-analytics.md
 
 # Forge
 - href: forge/forge-intro.md
