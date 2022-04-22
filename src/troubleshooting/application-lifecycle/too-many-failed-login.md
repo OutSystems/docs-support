@@ -9,7 +9,7 @@ app_type: traditional web apps, mobile apps, reactive web apps
 
 ## Symptoms
 
-A user tries to login in one application or management console (LifeTime/ServiceCenter) and gets one of the following errors:
+A user tries to login in one application or management console (LifeTime or ServiceCenter) and gets one of the following errors:
 
 * Too many failed login attempts. Please try again in a few minutes.
 
@@ -29,13 +29,13 @@ Possible causes for this issue are:
 
 ## Resolution
 
-### Unblock Users in Management Consoles
+### Unblock users in management consoles
 
-If this issue is preventing the user from logging in a management console (Lifetime/Service Center) and the user requires immediate access, the situation must be handled by a System Administrator. Otherwise, the user should wait the indicated period.
+If this issue is preventing the user from logging in a management console (LifeTime or Service Center) and the user requires immediate access, the situation must be handled by a administrator. Otherwise, the user should wait the indicated period.
 
 **LifeTime managed environment**
 
-The System Administrator must have the Manage Infrastructure and Users permission and perform the following steps:
+The administrator must have the Manage Infrastructure and Users permission and perform the following steps:
 
 1. Login to LifeTime;
 
@@ -48,12 +48,12 @@ The System Administrator must have the Manage Infrastructure and Users permissio
 ![](images/too-many-failed-login_0.png)
  
 
-5. By clicking on the "See details" link, the System Administrator will be redirected to an information table, where he will be able to unblock the user on his current address, by pressing the “Unblock” button:
+5. By clicking on the "See details" link, the administrator will be redirected to an information table, where he'll be able to unblock the user on his current address, by pressing the “Unblock” button:
 
 ![](images/too-many-failed-login_1.png)
  
 
-6. After clicking the button, the table is cleared and a success feedback message is presented to the System Administrator, indicating that the user is unblocked.
+6. After clicking the button, the table is cleared and a success feedback message is presented to the administrator, indicating that the user is unblocked.
 
 If there is no warning message in Step 4 or if the warning message is displayed for several users in the same network, it probably means that several users unsuccessfully tried to login from a single IP address and that this IP address is blocked by the platform. If this is the case:
 
@@ -71,15 +71,15 @@ If there is no warning message in Step 4 or if the warning message is displayed 
 ![](images/too-many-failed-login_3.png)
  
 
-5. After clicking the button, the table is cleared and a success feedback message is presented to the System Administrator, indicating that the address is unblocked.
+5. After clicking the button, the table is cleared and a success feedback message is presented to the administrator, indicating that the address is unblocked.
 
  
 
 **Environment is not managed by LifeTime**
 
-If LifeTime is not installed in your infrastructure, the unblocking operation is performed in ServiceCenter.
+If LifeTime isn't installed in your infrastructure, unblocking user is done in Service Center.
 
-1. Login to ServiceCenter;
+1. Login to Service Center;
 
 2. Click on Administration > Users;
 
@@ -90,12 +90,12 @@ If LifeTime is not installed in your infrastructure, the unblocking operation is
  ![](images/too-many-failed-login_4.png)
  
 
-5. By clicking on the "See details" link, the System Administrator will be redirected to the corresponding tab on the screen, where he will be able to select and unblock the user on his current address, by pressing an “Unblock Selected” button:
+5. By clicking on the "See details" link, the administrator will be redirected to the corresponding tab on the screen, where he'll be able to select and unblock the user on his current address, by pressing an “Unblock Selected” button:
 
 ![](images/too-many-failed-login_5.png)
  
 
-6. After selecting the appropriate line and clicking the button, the line is cleared and a success feedback message is presented to the System Administrator, indicating that the user is unblocked.
+6. After selecting the appropriate line and clicking the button, the line is cleared and a success feedback message is presented to the administrator, indicating that the user is unblocked.
 
 If there is no warning message in Step 4, this probably means several users unsuccessfully tried to login from a single address, which led to this IP address being blocked by the platform. If this is the case:
 
@@ -108,13 +108,13 @@ If there is no warning message in Step 4, this probably means several users unsu
 
 3. Click on the "Unblock Selected" button to allow login actions from that address again;
 
-4. After selecting the appropriate line and clicking the button, the line is cleared and a success feedback message is presented to the System Administrator, indicating that the address is unblocked.
+4. After selecting the appropriate line and clicking the button, the line is cleared and a success feedback message is presented to the administrator, indicating that the address is unblocked.
 
-Should the System Administrator not be able to solve the issue, by accessing the Management Consoles, please contact OutSystems’ Support.
+Should the administrator not be able to solve the issue, by accessing the Management Consoles, please contact OutSystems’ Support.
 
-### Unblock Application Users
+### Unblock application users
 
-If this issue is preventing users from logging in one of your applications, the situation must be handled in Users Management console (Users) by a System Administrator (requires Users Manager role). Otherwise, the user should wait for the indicated period.
+If this issue is preventing users from logging in one of your applications, the situation must be handled in Users Management console (Users) by a administrator (requires Users Manager role). Otherwise, the user should wait for the indicated period.
 
 The following steps must be executed:
 
@@ -129,12 +129,12 @@ The following steps must be executed:
 ![](images/too-many-failed-login_7.png)
  
 
-5. By clicking on the "See details" link, the system administrator will be redirected to an information table, where he will be able to unblock the user on his current address, by pressing an “Unblock” link:
+5. By clicking on the "See details" link, the administrator will be redirected to an information table, where he will be able to unblock the user on his current address, by pressing an “Unblock” link:
 
 ![](images/too-many-failed-login_8.png)
  
 
-6. After clicking the link, the line is cleared and a success feedback message is presented to the System Administrator, indicating that the user is unblocked.
+6. After clicking the link, the line is cleared and a success feedback message is presented to the administrator, indicating that the user is unblocked.
 
 If there is no warning message, this probably means several users unsuccessfully tried to login from a single address, which led to this IP address being blocked by the platform. If this is the case:
 
@@ -150,9 +150,9 @@ If there is no warning message, this probably means several users unsuccessfully
 ![](images/too-many-failed-login_10.png)
  
 
-4. After clicking the appropriate link, the line is cleared and a success feedback message is presented to the System Administrator, indicating that the address is unblocked
+4. After clicking the appropriate link, the line is cleared and a success feedback message is presented to the administrator, indicating that the address is unblocked
 
-Should the System Administrator not be able to solve the issue, by accessing the Management Consoles, please contact OutSystems’ Support.
+Should the administrator not be able to solve the issue, by accessing the Management Consoles, please contact OutSystems’ Support.
 
  
 
