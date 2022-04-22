@@ -228,6 +228,7 @@ Inspired by <a href="https://www.outsystems.com/ideas/5205/allow-hyphen-in-url-p
 <li>Fixed a bug causing the window to become maximized upon startup. Window state is now properly restored. (RICT-3776)</li>
 <li>Avoid crash when DoubleClick aggregate filter. (RMAC-7408)</li>
 <li>Fix module freeze when trying to navigate from a warning message. (RMAC-7390)</li>
+</ul>
 <h2 id="Development_Environment_11.11.11">Development Environment 11.11.11</h2>
 <div class="info">
 <p>Released on Aug 02, 2021</p></div>
