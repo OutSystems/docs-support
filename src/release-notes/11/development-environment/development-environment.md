@@ -244,10 +244,14 @@ Inspired by <a href="https://www.outsystems.com/ideas/5205/allow-hyphen-in-url-p
 <ul>
 <li>Fixed the "Open in Browser" command so it opens page with a custom URL when the technical preview "SEO-friendly URLs for Reactive Web Apps" is on. (RTAF-4497)</li>
 </ul>
-<h2 id="Development_Environment_11.11.9">Development Environment 11.11.9</h2>
-<div class="info">
-<p>This is a preliminary version of the document.</p></div>
-<p>This release of Service Studio focuses on internal improvements ― this will help our team improve Service Studio faster. Your work shouldn't be impacted by these changes.</p>
+<h2>Development Environment 11.11.9</h2>
+<div class="info"><p>Released on Jul 19, 2021</p></div>
+
+<h3>Bug Fixing</h3>
+<ul>
+<li>Fixed an issue on Aggregates that prevented the "Show hidden attributes" label from appearing. (RMAC-6458)</li>
+<li>Fix issue that caused SS to crash when opening under certain conditions (RMAC-7104)</li>
+</ul>
 <h2 id="Development_Environment_11.11.8">Development Environment 11.11.8</h2>
 <div class="info">
 <p>Released on Jul 12, 2021</p></div>
@@ -2356,11 +2360,3 @@ This feature requires OutSystems Platform Server 11 Release Apr.2019 CP1. (RSBO-
 <li>Service Studio allows the "Delete Module" operation to be executed in environments with a purpose different from Development. This operation <a href="https://success.outsystems.com/Documentation/11/Setting_Up_OutSystems/Configure_your_OutSystems_environment#Feature_availability_for_different_Purposes">should only be available</a> in environments that have the Development purpose.</li>
 <li>When creating a second module in a web application, the blocks ApplicationTitle, MenuIcon and LoginInfo are not automatically added to the references of the module even though they are used in the sample content of the Layout block. To fix the errors, manually add the missing references to the module.</li>
 </ul></h>
-<h2 id="Development_Environment_11.11.9">Development Environment 11.11.9</h2>
-<div class="info"><p>Released on Jul 19, 2021</p></div>
-<h3 id="Bug_Fixing_127">Bug Fixing</h3>
-<ul>
-<li>Fixed an issue on Aggregates that prevented the "Show hidden attributes" label from appearing. (RMAC-6458)</li>
-<li>Fix issue that caused SS to crash when opening under certain conditions (RMAC-7104)</li>
-</ul>
-
