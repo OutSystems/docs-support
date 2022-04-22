@@ -5,7 +5,7 @@ on:
     branches:
       - test-rn-jpb
     paths:
-      - 'path/release-notes/*'
+      - 'path/src/release-notes/*'
 
 strategy:
   matrix:
