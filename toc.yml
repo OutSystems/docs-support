@@ -62,6 +62,7 @@
         - href: troubleshooting/application-lifecycle/app-not-in-users.md
         - href: troubleshooting/application-lifecycle/mgmt-console-not-authorized.md
         - href: troubleshooting/application-lifecycle/reset-lifetime-authentication.md
+        - href: troubleshooting/application-lifecycle/too-many-failed-login.md
         - href: troubleshooting/application-lifecycle/change-logging-levels.md
         - href: troubleshooting/application-lifecycle/deploy-apps-sc.md
         - href: troubleshooting/application-lifecycle/lifetime/lifetime-deploy-unable.md
@@ -429,7 +430,6 @@
     # Troubleshooting        
     - href: enterprise/troubleshooting/enterprise-trouble.md
     - topics:
-            - href: enterprise/troubleshooting/too-many-failed-login.md
             - href: enterprise/troubleshooting/vpn-troubleshooting-guide.md           
             - href: enterprise/troubleshooting/env-deploy-controller-twice.md       
             - href: enterprise/troubleshooting/information-logged.md               
