@@ -3,16 +3,16 @@ name: Merge release notes
 on:
   push:
     branches:
-      - test-rn-jpb
+      - 'test-rn-jpb'
     paths:
-      - 'path/src/release-notes/*'
-
-strategy:
-  matrix:
-    folder: [{folder:"path/release-notes/10/development-environment", file:"path/release-notes/10/development-environment/development-environment.md"}, {folder:"path/release-notes/10/platform-server", file:"path/release-notes/10/platform-server/platform-server.md"}, {folder:"path/release-notes/11/development-environment", file:"path/release-notes/11/development-environment/development-environment.md"}, {folder:"path/release-notes/11/platform-server", file:"path/release-notes/11/platform-server.md"}, {folder:"path/release-notes/11/cross-platform-service-studio", file:"path/release-notes/11/cross-platform-service-studio/cross-platform-service-studio.md"}, {folder:"path/release-notes/integration-builder", file:"path/release-notes/integration-builder/integration-builder.md"}, {folder:"path/release-notes/lifetime-management-console", file:"path/release-notes/lifetime-management-console/lifetime-management-console.md"}, {folder:"path/release-notes/service-studio-neo", file:"path/release-notes/service-studio-neo/service-studio-neo.md"}] 
+      - 'path/src/release-notes/**'
 
 jobs:
   Merge:
+    strategy:
+      matrix:
+        folder: [path/release-notes/10/development-environment, path/release-notes/10/platform-server, path/release-notes/11/development-environment, path/release-notes/11/platform-server, path/release-notes/11/cross-platform-service-studio, path/release-notes/integration-builder, path/release-notes/lifetime-management-console,  path/release-notes/service-studio-neo] 
+        file: [path/release-notes/10/development-environment/development-environment.md, path/release-notes/10/platform-server/platform-server.md, path/release-notes/11/development-environment/development-environment.md, path/release-notes/11/platform-server.md, path/release-notes/11/cross-platform-service-studio/cross-platform-service-studio.md, path/release-notes/integration-builder/integration-builder.md, path/release-notes/lifetime-management-console/lifetime-management-console.md, path/release-notes/service-studio-neo/service-studio-neo.md] 
     runs-on: ubuntu-latest
       
     steps:
@@ -45,9 +45,9 @@ jobs:
       run: |
         python "../toolkit/merge_release_notes_script.py" ${{ matrix.folder.folder }}
         
-    - name: Commit and Push
-      run: |
-        cd docs/
-        git add ${{ matrix.folder.file }}
-        git commit -m "Update release notes"
-        git push
+    #- name: Commit and Push
+      #run: |
+       # cd docs/
+      #  git add ${{ matrix.folder.file }}
+      #  git commit -m "Update release notes"
+       # git push
