@@ -20,18 +20,18 @@ Your work shouldn't be impacted by these changes.
 
 <h2 id="Development_Environment_11.14.11">Development Environment 11.14.11</h2>
 <div class="info"><p>Released on Mar 24, 2022</p></div>
-<h3>New in Development Environment 11.14.11</h3>
+<h3 id="New_in_Development_Environment_11.14.11">New in Development Environment 11.14.11</h3>
 <ul>
 <li>When using Service Studio Stable for Windows on a Parallels virtual machine, you'll be prompted to install the Service Studio Stable version for MacOS. (RTAFB-5610)</li>
 </ul>
 
 <h2 id="Development_Environment_11.14.10">Development Environment 11.14.10</h2>
 <div class="info"><p>Released on Mar 21, 2022</p></div>
-<h3>New in Development Environment 11.14.10</h3>
+<h3 id="New_in_Development_Environment_11.14.10">New in Development Environment 11.14.10</h3>
 <ul>
 <li>It is now possible to export the definition files from a consumed SOAP Web Service. (R11DT-911)</li>
 </ul>
-<h3>Bug Fixing</h3>
+<h3 id="Bug_Fixing_0">Bug Fixing</h3>
 <ul>
 <li>Improved an error message by adding relevant information when an array lacks the items definition while importing a REST Web Service. (R11DT-382)</li>
 <li>Fixed an issue that caused the installation of a sample app to fail. (RIMPT-1653)</li>
@@ -42,34 +42,35 @@ Your work shouldn't be impacted by these changes.
 
 <h2 id="Development_Environment_11.14.8">Development Environment 11.14.8</h2>
 <div class="info"><p>Released on Feb 28, 2022</p></div>
-<h3>Bug Fixing</h3>
+<h3 id="Bug_Fixing_1">Bug Fixing</h3>
 <ul>
 <li>Fixed an issue that gave an incorrect length attribute when importing a SOAP web service. (RPD-5047)</li>
 </ul>
 
 <h2 id="Development_Environment_11.14.7">Development Environment 11.14.7</h2>
 <div class="info"><p>Released on Feb 14, 2022</p></div>
-<h3>New in Development Environment 11.14.7</h3>
+<h3 id="New_in_Development_Environment_11.14.7">New in Development Environment 11.14.7</h3>
 <ul>
 <li>It is now possible to expose REST web services with the character "-" on the URL.
 Inspired by <a href="https://www.outsystems.com/ideas/5205/allow-hyphen-in-url-path-of-an-exposed-api-web-method/">João Marques' idea</a>. (R11DT-870)</li>
 </ul>
-<h3>Bug Fixing</h3>
+<h3 id="Bug_Fixing_2">Bug Fixing</h3>
 <ul>
 <li>Removed double error message when trying to set public blocks or screens to be reused in other modules, for Mobile Apps. (RMAC-9002)</li>
 <li>Fixed an issue in which it was not possible to clone a module when there was multiple themes with similar names (RPM-2073)</li>
 </ul>
 
-<div class="info"><p>Released on Jan 24, 2022</p>
+<div class="info">
+<p>Released on Jan 24, 2022</p>
 </div>
-<h3>New in Development Environment 11.14.5</h3>
+<h3 id="New_in_Development_Environment_11.14.5">New in Development Environment 11.14.5</h3>
 <ul>
 <li>The 1-Click-Publish button received a new look for improved clarity, with action names now added to the button ('Publish', 'Open in browser', 'Errors found'). (RDEPT-64)</li>
 </ul>
 <h2 id="Development_Environment_11.14.4">Development Environment 11.14.4</h2>
 <div class="info">
 <p>Released on Jan 17, 2022</p></div>
-<h3>New in Development Environment 11.14.4</h3>
+<h3 id="New_in_Development_Environment_11.14.4">New in Development Environment 11.14.4</h3>
 <ul>
 <li>It is now possible to expose REST web services with the character "-" on the URL.
 Inspired by <a href="https://www.outsystems.com/ideas/5205/allow-hyphen-in-url-path-of-an-exposed-api-web-method/">João Marques' idea</a>. (R11DT-870)</li>
@@ -77,14 +78,14 @@ Inspired by <a href="https://www.outsystems.com/ideas/5205/allow-hyphen-in-url-p
 <h2 id="Development_Environment_11.14.3">Development Environment 11.14.3</h2>
 <div class="info">
 <p>Released on Jan 10, 2022</p></div>
-<h3>New in Development Environment 11.14.3</h3>
+<h3 id="New_in_Development_Environment_11.14.3">New in Development Environment 11.14.3</h3>
 <ul>
 <li>The 1-Click-Publish button received a new look for improved clarity, with action names now added to the button ('Publish', 'Open in browser', 'Errors found'). (RDEPT-64)</li>
 </ul>
 <h2 id="Development_Environment_11.14.2">Development Environment 11.14.2</h2>
 <div class="info">
 <p>Released on Jan 03, 2022</p></div>
-<h3>Bug Fixing</h3>
+<h3 id="Bug_Fixing_3">Bug Fixing</h3>
 <ul>
 <li>Fixed not being able to restore the Service Studio window in Windows after it was minimized to the Taskbar (RMAC-8719)</li>
 <li>Fixed a crash in Service Studio while performing a merge that envolves screen variables used in screen actions (RMAC-8735)</li>
@@ -93,14 +94,14 @@ Inspired by <a href="https://www.outsystems.com/ideas/5205/allow-hyphen-in-url-p
 <h2 id="Development_Environment_11.14.1">Development Environment 11.14.1</h2>
 <div class="info">
 <p>Released on Dec 20, 2021</p></div>
-<h3>Bug Fixing</h3>
+<h3 id="Bug_Fixing_4">Bug Fixing</h3>
 <ul>
 <li>Fixed an issue where Attachment Structures were incorrectly saved in the module preventing its publication. (RPM-1663)</li>
 </ul>
 <h2 id="Development_Environment_11.14.0">Development Environment 11.14.0</h2>
 <div class="info">
 <p>Released on Dec 13, 2021</p></div>
-<h3>New in Development Environment 11.14.0</h3>
+<h3 id="New_in_Development_Environment_11.14.0">New in Development Environment 11.14.0</h3>
 <ul>
 <li>Features related to emails for Mobile and Reactive Web Apps are now generally available in Service Studio. You could use the features previously in technical the previews "Emails for Mobile and Reactive" and "Attachments in Mobile and Reactive emails". (RTAFA-77)</li>
 </ul>
@@ -111,7 +112,7 @@ Inspired by <a href="https://www.outsystems.com/ideas/5205/allow-hyphen-in-url-p
 <h2 id="Development_Environment_11.13.0">Development Environment 11.13.0</h2>
 <div class="info">
 <p>Released on Nov 29, 2021</p></div>
-<h3>New in Development Environment 11.13.0</h3>
+<h3 id="New_in_Development_Environment_11.13.0">New in Development Environment 11.13.0</h3>
 <ul>
 <li>Now you can configure friendly URLs in your Reactive Web Apps. Go to Service Center &gt; Administration &gt; SEO URLs to set up the site rules and redirects. Configure the page rules in Service Studio, by setting Custom URLs to Yes in the Screen properties. (RTAFB-4453)</li>
 </ul>
@@ -119,14 +120,14 @@ Inspired by <a href="https://www.outsystems.com/ideas/5205/allow-hyphen-in-url-p
 <h2 id="Development_Environment_11.12.8">Development Environment 11.12.8</h2>
 <div class="info">
 <p>Released on Nov 22, 2021</p></div>
-<h3>New in Development Environment 11.12.8</h3>
+<h3 id="New_in_Development_Environment_11.12.8">New in Development Environment 11.12.8</h3>
 <ul>
 <li>Now it’s easier to find OutSystems UI components in Service Studio toolbox. (RIMPT-970)</li>
 </ul>
 <h2 id="Development_Environment_11.12.7">Development Environment 11.12.7</h2>
 <div class="info">
 <p>Released on Nov 08, 2021</p></div>
-<h3>Bug Fixing</h3>
+<h3 id="Bug_Fixing_5">Bug Fixing</h3>
 <ul>
 <li>Service Studio no longer crashes when, after changing a 'Run Client Actions's action, the 'Expand Element' of a list argument is clicked. (RDMST-812)</li>
 </ul>
@@ -137,50 +138,50 @@ Inspired by <a href="https://www.outsystems.com/ideas/5205/allow-hyphen-in-url-p
 <h2 id="Development_Environment_11.12.5">Development Environment 11.12.5</h2>
 <div class="info">
 <p>Released on Oct 25, 2021</p></div>
-<h3>New in Development Environment 11.12.5</h3>
+<h3 id="New_in_Development_Environment_11.12.5">New in Development Environment 11.12.5</h3>
 <ul>
 <li>It's now easier to select data for Table and List widgets. Click "Select Data" in the Source property dropdown to fetch and bind data from an entity in a single operation. (RIMPT-846)</li>
 </ul>
 <h2 id="Development_Environment_11.12.4">Development Environment 11.12.4</h2>
 <div class="info">
 <p>Released on Oct 18, 2021</p></div>
-<h3>New in Development Environment 11.12.4</h3>
+<h3 id="New_in_Development_Environment_11.12.4">New in Development Environment 11.12.4</h3>
 <ul>
 <li>Fixed an issue that caused Service Studio to get stuck when using a custom color profile on Windows. (RICT-3947)</li>
 </ul>
 <h2 id="Development_Environment_11.12.3">Development Environment 11.12.3</h2>
 <div class="info">
 <p>Released on Oct 11, 2021</p></div>
-<h3>New in Development Environment 11.12.3</h3>
+<h3 id="New_in_Development_Environment_11.12.3">New in Development Environment 11.12.3</h3>
 <ul>
 <li>Installing a template (sample app) just got simpler. No dependency dialog is shown during installation. (RDRGT-181)</li>
 </ul>
-<h3>Bug Fixing</h3>
+<h3 id="Bug_Fixing_6">Bug Fixing</h3>
 <ul>
 <li>Fixed a crash on aggregate when an entity attribute used in a group by year column is deleted. (RMAC-8113)</li>
 </ul>
 <h2 id="Development_Environment_11.12.2">Development Environment 11.12.2</h2>
 <div class="info">
 <p>Released on Oct 04, 2021</p></div>
-<h3>New in Development Environment 11.12.2</h3>
+<h3 id="New_in_Development_Environment_11.12.2">New in Development Environment 11.12.2</h3>
 <ul>
 <li>It's now easier to use data from your System of Records in your apps. In the "Logic" tab, open the context menu for "Integration with external systems" and select "New integration". (RIMPT-742)</li>
 </ul>
 <h2 id="Development_Environment_11.12.1">Development Environment 11.12.1</h2>
 <div class="info">
 <p>Released on Sep 27, 2021</p></div>
-<h3>New in Development Environment 11.12.1</h3>
+<h3 id="New_in_Development_Environment_11.12.1">New in Development Environment 11.12.1</h3>
 <ul>
 <li>Fixed an issue that caused Service Studio occasionally to crash when opening new windows. (RICT-3917)</li>
 </ul>
-<h3>Bug Fixing</h3>
+<h3 id="Bug_Fixing_7">Bug Fixing</h3>
 <ul>
 <li>Fixed an issue that, under certain conditions, kept the last SOAP expose item visible in the tree after being deleted, causing a crash if another deletion try occurred. (RMAC-7876)</li>
 </ul>
 <h2 id="Development_Environment_11.12.0">Development Environment 11.12.0</h2>
 <div class="info">
 <p>Released on Sep 13, 2021</p></div>
-<h3>New in Development Environment 11.12.0</h3>
+<h3 id="New_in_Development_Environment_11.12.0">New in Development Environment 11.12.0</h3>
 <ul>
 <li>You can now use expressions to set titles of Screens. This lets you change the page title dynamically, and set unique values that show in the browser tabs, bookmarks, and results from the search engines. When using this feature, it is recomended that all developers in the same organization update Service Studio. (RTAFB-5082)</li>
 </ul>
@@ -192,11 +193,11 @@ Inspired by <a href="https://www.outsystems.com/ideas/5205/allow-hyphen-in-url-p
 <div class="info">
 <p>Released on Aug 30, 2021</p>
 </div>
-<h3>New in Development Environment 11.11.14</h3>
+<h3 id="New_in_Development_Environment_11.11.14">New in Development Environment 11.11.14</h3>
 <ul>
 <li>Now users have a link and dedicated FAQ session in case they have difficulties in the Sign in with email. (RDRGT-92)</li>
 </ul>
-<h3>Bug Fixing</h3>
+<h3 id="Bug_Fixing_8">Bug Fixing</h3>
 <ul>
 <li>Fixed an issue that prevented Integration Studio from connecting to some environments. (RDEV-3485)</li>
 <li>Fix an issue in Service Studio that would cause Platform Server to fail to publish a solution due to an invalid certificate. (RPM-1208)</li>
@@ -206,24 +207,24 @@ Inspired by <a href="https://www.outsystems.com/ideas/5205/allow-hyphen-in-url-p
 <h2 id="Development_Environment_11.11.13">Development Environment 11.11.13</h2>
 <div class="info">
 <p>Released on Aug 17, 2021</p></div>
-<h3>New in Development Environment 11.11.13</h3>
+<h3 id="New_in_Development_Environment_11.11.13">New in Development Environment 11.11.13</h3>
 <ul>
 <li>Improved tooltip text on Publish button when with errors. (RDEV-3449)</li>
 <li>Now users have a link and dedicated FAQ session in case they have difficulties in the Sign in with email. (RDRGT-92)</li>
 <li>Support for new features in the email technical preview for Mobile and Reactive Web Apps, including attachments and new widgets. (RTAF-4812)</li>
 </ul>
-<h3>Bug Fixing</h3>
+<h3 id="Bug_Fixing_9">Bug Fixing</h3>
 <ul>
 <li>Fixed template cache concurrent access issue. (RIMPT-539)</li>
 </ul>
 <h2 id="Development_Environment_11.11.12">Development Environment 11.11.12</h2>
 <div class="info">
 <p>Released on Aug 09, 2021</p></div>
-<h3>New in Development Environment 11.11.12</h3>
+<h3 id="New_in_Development_Environment_11.11.12">New in Development Environment 11.11.12</h3>
 <ul>
 <li>Support for new features in the email technical preview for Mobile and Reactive Web Apps, including attachments and new widgets. (RTAF-4812)</li>
 </ul>
-<h3>Bug Fixing</h3>
+<h3 id="Bug_Fixing_10">Bug Fixing</h3>
 <ul>
 <li>Fixed a bug causing the window to become maximized upon startup. Window state is now properly restored. (RICT-3776)</li>
 <li>Avoid crash when DoubleClick aggregate filter. (RMAC-7408)</li>
@@ -232,14 +233,14 @@ Inspired by <a href="https://www.outsystems.com/ideas/5205/allow-hyphen-in-url-p
 <h2 id="Development_Environment_11.11.11">Development Environment 11.11.11</h2>
 <div class="info">
 <p>Released on Aug 02, 2021</p></div>
-<h3>Bug Fixing</h3>
+<h3 id="Bug_Fixing_11">Bug Fixing</h3>
 <ul>
 <li>Quick fix to make sure the entire text shows up on the node that have the letter Y or W to start or finish. (RMAC-7158)</li>
 </ul>
 <h2 id="Development_Environment_11.11.10">Development Environment 11.11.10</h2>
 <div class="info">
 <p>Released on Jul 26, 2021</p></div>
-<h3>Bug Fixing</h3>
+<h3 id="Bug_Fixing_12">Bug Fixing</h3>
 <ul>
 <li>Fixed the "Open in Browser" command so it opens page with a custom URL when the technical preview "SEO-friendly URLs for Reactive Web Apps" is on. (RTAF-4497)</li>
 </ul>
@@ -250,12 +251,12 @@ Inspired by <a href="https://www.outsystems.com/ideas/5205/allow-hyphen-in-url-p
 <h2 id="Development_Environment_11.11.8">Development Environment 11.11.8</h2>
 <div class="info">
 <p>Released on Jul 12, 2021</p></div>
-<h3>New in Development Environment 11.11.8</h3>
+<h3 id="New_in_Development_Environment_11.11.8">New in Development Environment 11.11.8</h3>
 <ul>
 <li>Now it's easier to find Widget information, with a help icon right from the widget properties panel. (RDRGT-80)</li>
 <li>Improve the warning message when Preview Data is not available. (RTAF-4576)</li>
 </ul>
-<h3>Bug Fixing</h3>
+<h3 id="Bug_Fixing_13">Bug Fixing</h3>
 <ul>
 <li>Fixed an issue that caused wrong colors in text cells while hovering a table column in an aggregate. (RDEV-3367)</li>
 <li>Fixed an issue that prevented SQL nodes to be opened when the SQL query was empty. (RRCT-3804)</li>
@@ -263,28 +264,28 @@ Inspired by <a href="https://www.outsystems.com/ideas/5205/allow-hyphen-in-url-p
 <h2 id="Development_Environment_11.11.7">Development Environment 11.11.7</h2>
 <div class="info">
 <p>Released on Jul 05, 2021</p></div>
-<h3>New in Development Environment 11.11.7</h3>
+<h3 id="New_in_Development_Environment_11.11.7">New in Development Environment 11.11.7</h3>
 <ul>
 <li>When right-clicking on an Action node, a menu option to learn how to test actions is now available. (RDEV-3178)</li>
 <li>Now, the debugger is also available in macOS, enabling you to find issues in your app logic. (RTAFB-4768)</li>
 </ul>
-<h3>Bug Fixing</h3>
+<h3 id="Bug_Fixing_14">Bug Fixing</h3>
 <ul>
 <li>Added a minimum width to the Debugger panels on Service Studio to prevent them from being shrunk all the way and disappearing (RTAFB-4785)</li>
 <li>Fixed a security vulnerability. CVSSv3.1 score 8.5 (High). (RPM-689)</li>
 </ul>
-<h3>More details</h3>
+<h3 id="More_details">More details</h3>
 <p><strong>RPM-689</strong><br/><b>Fixed a security vulnerability. CVSSv3.1 score 8.5 (High).</b><br/><br/><br/><u>Fix Details:</u><br/>Service Studio and Integration Studio weren't properly validating the TLS connections. It was possible to perform a MITM attack using a self-signed certificate after the initial connection is established without the developer noticing. This vulnerability was classified as High with a risk score of 8.5. Check more details about the vulnerability in <a href="https://success.outsystems.com/Support/Security/Vulnerabilities/Vulnerability_RPM-689">this security bulletin</a>.</p>
 <h2 id="Development_Environment_11.11.6">Development Environment 11.11.6</h2>
 <div class="info">
 <p>Released on Jun 28, 2021</p>
 </div>
-<h3>New in Development Environment 11.11.6</h3>
+<h3 id="New_in_Development_Environment_11.11.6">New in Development Environment 11.11.6</h3>
 <ul>
 <li>Improved error messages when logging into unavailable free environments, according to their current state (asleep, stopped, in maintenance, or being created). (RDEV-3029)</li>
 <li>It's now possible to set the Page Name property with a screen name, a module name, a flow name, or a block name. (RTAF-4656)</li>
 </ul>
-<h3>Bug Fixing</h3>
+<h3 id="Bug_Fixing_15">Bug Fixing</h3>
 <ul>
 <li>Fix for issue causing the unexpected behavior of showing the Entity attributes with extra margin on Client Entity From Database dialog when copying multiple Entities from the Database and pasting to the Local Storage. (RMAC-6728)</li>
 <li>Fix a bug that was preventing showing all the Native Platform tab when connected to a Platform Server with version below 11.8.* (RMAC-6791)</li>
@@ -293,11 +294,11 @@ Inspired by <a href="https://www.outsystems.com/ideas/5205/allow-hyphen-in-url-p
 <h2 id="Development_Environment_11.11.5">Development Environment 11.11.5</h2>
 <div class="info">
 <p>Released on Jun 22, 2021</p></div>
-<h3>New in Development Environment 11.11.5</h3>
+<h3 id="New_in_Development_Environment_11.11.5">New in Development Environment 11.11.5</h3>
 <ul>
 <li>Now, while editing data, the apply and discard buttons are closer to the records. (RDEV-3306)</li>
 </ul>
-<h3>Bug Fixing</h3>
+<h3 id="Bug_Fixing_16">Bug Fixing</h3>
 <ul>
 <li>Fixed an issue that allowed Sorts to be removed while refreshing preview data during data edition. (RDEV-3275)</li>
 <li>Fixed an issue that prevented Aggregates from having a spacing between the tabs and the table. (RDEV-3319)</li>
@@ -306,13 +307,13 @@ Inspired by <a href="https://www.outsystems.com/ideas/5205/allow-hyphen-in-url-p
 </ul>
 <h2 id="Development_Environment_11.11.4">Development Environment 11.11.4</h2>
 <div class="info"><p>Released on Jun 14, 2021</p></div>
-<h3>New in Development Environment 11.11.4</h3>
+<h3 id="New_in_Development_Environment_11.11.4">New in Development Environment 11.11.4</h3>
 <ul>
 <li>Now, when creating an application based on a sample app, Service Studio gives the ability to preview the app being installed. (RDEV-3295)</li>
 <li>Now, when resetting styles in Theme Editor, it's easier to undo them. (RDEV-3034)</li>
 <li>Improved the suggestion list for the "New Attribute" accelerator on Nodes and Widgets.  (RTAF-4689)</li>
 </ul>
-<h3>Bug Fixing</h3>
+<h3 id="Bug_Fixing_17">Bug Fixing</h3>
 <ul>
 <li>Add missing descriptions to every attribute within the Request/CustomizedRequest parameters and Response/CustomizedResponse parameters. (R11DT-72)</li>
 <li>Fixed issue preventing the user to see the preview images and text from a screen created using the Product Catalog screen template. (RMAC-6666)</li>
@@ -323,12 +324,12 @@ Inspired by <a href="https://www.outsystems.com/ideas/5205/allow-hyphen-in-url-p
 <div class="info">
 <p>Released on Jun 07, 2021</p>
 </div>
-<h3>New in Development Environment 11.11.3</h3>
+<h3 id="New_in_Development_Environment_11.11.3">New in Development Environment 11.11.3</h3>
 <ul>
 <li>Changed the icon for the "show in tree" aggregates' functionality. (RDEV-3264)</li>
 <li>Improved the help text for the PWA applications. (RDEV-3277)</li>
 </ul>
-<h3>Bug Fixing</h3>
+<h3 id="Bug_Fixing_18">Bug Fixing</h3>
 <ul>
 <li>Fixed an issue that caused Aggregates to allow creating a Filter while editing data. (RDEV-2936)</li>
 <li>Fixed an issue that caused Aggregates to go blank while discarding changes with added rows. (RDEV-3267)</li>
@@ -343,12 +344,12 @@ Inspired by <a href="https://www.outsystems.com/ideas/5205/allow-hyphen-in-url-p
 <h2 id="Development_Environment_11.11.2">Development Environment 11.11.2</h2>
 <div class="info">
 <p>Released on May 31, 2021</p></div>
-<h3>New in Development Environment 11.11.2</h3>
+<h3 id="New_in_Development_Environment_11.11.2">New in Development Environment 11.11.2</h3>
 <ul>
 <li>Now, default screens can be set on screen flows. (RDEV-3038)</li>
 <li>Updated URL when opening a screen in browser to use the Screen's Page Name when SEO Friendly-URLs are used. (RTAF-3963)</li>
 </ul>
-<h3>Bug Fixing</h3>
+<h3 id="Bug_Fixing_19">Bug Fixing</h3>
 <ul>
 <li>Fixed an issue that caused the Upload icon to don't appear while Editing Data in Aggregates. (RDEV-2795)</li>
 <li>Increased the size of the radio button on ServiceStudio (RMAC-3312)</li>
@@ -356,13 +357,13 @@ Inspired by <a href="https://www.outsystems.com/ideas/5205/allow-hyphen-in-url-p
 <h2 id="Development_Environment_11.11.1">Development Environment 11.11.1</h2>
 <div class="info">
 <p>This is a preliminary version of the document.</p></div>
-<h3>New in Development Environment 11.11.1</h3>
+<h3 id="New_in_Development_Environment_11.11.1">New in Development Environment 11.11.1</h3>
 <ul>
 <li>Now, when creating an application based on a sample app, Service Studio gives the ability to preview the app being installed. (RDEV-3033)</li>
 <li>Now, default screens can be set on screen flows. (RDEV-3038)</li>
 <li>Updated URL when opening a screen in browser to use the Screen's Page Name when SEO Friendly-URLs are used. (RTAF-3963)</li>
 </ul>
-<h3>Bug Fixing</h3>
+<h3 id="Bug_Fixing_20">Bug Fixing</h3>
 <ul>
 <li>Fixed an issue that caused the Upload icon to don't appear while Editing Data in Aggregates. (RDEV-2795)</li>
 <li>Increased the size of the radio button on ServiceStudio (RMAC-3312)</li>
@@ -370,7 +371,7 @@ Inspired by <a href="https://www.outsystems.com/ideas/5205/allow-hyphen-in-url-p
 <h2 id="Development_Environment_11.11.0">Development Environment 11.11.0</h2>
 <div class="info">
 <p>Released on May 25, 2021</p></div>
-<h3>New in Development Environment 11.11.0</h3>
+<h3 id="New_in_Development_Environment_11.11.0">New in Development Environment 11.11.0</h3>
 <ul>
 <li>Refresh a consumed REST service importing a new OpenAPI 2.0 (swagger) or OpenAPI 3.0 specification. Inspired by <a href="https://www.outsystems.com/ideas/2376/consume-rest-services-update-api-methods/"> Laura Petrisor's idea </a>. (R11DT-274)</li>
 <li>Now aggregates Sources tab is expanded by default. (RDEV-3045)</li>
@@ -378,7 +379,7 @@ Inspired by <a href="https://www.outsystems.com/ideas/5205/allow-hyphen-in-url-p
 <li>You can now translate the UI of your Reactive Web Apps and Mobile Apps directly inside Service Studio. (RTAF-4332)</li>
 <li>Now you can, in Mobile and Reactive Web Apps, create lightweight emails with basic navigation and styling. Emails in Reactive and Mobile is a technical preview feature, so you need to activate the option "Emails for Mobile and Reactive" in LifeTime. (RTAF-4378)</li>
 </ul>
-<h3>Bug Fixing</h3>
+<h3 id="Bug_Fixing_21">Bug Fixing</h3>
 <ul>
 <li>Fixed an issue that caused Service Studio to crash when discarding pending actions in Edit Data. (RDEV-3191)</li>
 <li>Fixed issue regarding the delete icon position on filters and sorts in Aggregates. (RMAC-6465)</li>
@@ -388,12 +389,12 @@ Inspired by <a href="https://www.outsystems.com/ideas/5205/allow-hyphen-in-url-p
 <h2 id="Development_Environment_11.10.22">Development Environment 11.10.22</h2>
 <div class="info">
 <p>Released on May 10, 2021</p></div>
-<h3>New in Development Environment 11.10.22</h3>
+<h3 id="New_in_Development_Environment_11.10.22">New in Development Environment 11.10.22</h3>
 <ul>
 <li>Now, it's easier to understand what to do when the incompatible dependencies warning pops up. (RDEV-3176)</li>
 <li>Now, it is easier to find the Theme editor in StyleSheet editor. (RDEV-3035)</li>
 </ul>
-<h3>Bug Fixing</h3>
+<h3 id="Bug_Fixing_22">Bug Fixing</h3>
 <ul>
 <li>Fixed a typo in the Edit Data success message. (RDEV-3189)</li>
 <li>Fixed issue regarding the group header beeing shown when groups are hidden in Aggregates. (RMAC-6432)</li>
@@ -412,7 +413,7 @@ Inspired by <a href="https://www.outsystems.com/ideas/5205/allow-hyphen-in-url-p
 <h2 id="Development_Environment_11.10.20">Development Environment 11.10.20</h2>
 <div class="info">
 <p>Released on Apr 26, 2021</p></div>
-<h3>Bug Fixing</h3>
+<h3 id="Bug_Fixing_23">Bug Fixing</h3>
 <ul>
 <li>Fixed an issue that caused Service Studio not to be opened when trying to open it from LifeTime. (RICT-3325)</li>
 <li>Fix aggregates auto-refresh option disabled not tacking effect.</li>
@@ -421,7 +422,7 @@ Inspired by <a href="https://www.outsystems.com/ideas/5205/allow-hyphen-in-url-p
 <h2 id="Development_Environment_11.10.19">Development Environment 11.10.19</h2>
 <div class="info">
 <p>Released on Apr 19, 2021</p></div>
-<h3>Bug Fixing</h3>
+<h3 id="Bug_Fixing_24">Bug Fixing</h3>
 <ul>
 <li>Fixed an error when importing SOAP services with an element and a ComplexType with the same name and namespace. (RBIT-42)</li>
 <li>Fixed an issue that was preventing an account to be created inside Service Studio. (RIMPT-298)</li>
@@ -433,13 +434,13 @@ Inspired by <a href="https://www.outsystems.com/ideas/5205/allow-hyphen-in-url-p
 <h2 id="Development_Environment_11.10.18">Development Environment 11.10.18</h2>
 <div class="info">
 <p>Released on Apr 12, 2021</p></div>
-<h3>New in Development Environment 11.10.18</h3>
+<h3 id="New_in_Development_Environment_11.10.18">New in Development Environment 11.10.18</h3>
 <ul>
 <li>Now, the Aggregates Test Values input boxes are bigger and easier to use. (RDEV-2969)</li>
 <li>Improve aggregates' tab title to meet the number of elements in that tab (e.g. 1 Filter, 2 Filters). (RDEV-2962)</li>
 <li>It is now possible to resize and maximize the Debug Variable Data Grid dialog. (RDEV-2951)</li>
 </ul>
-<h3>Bug Fixing</h3>
+<h3 id="Bug_Fixing_25">Bug Fixing</h3>
 <ul>
 <li>Fixed an issue that caused the aggregates to automatically refresh preview data when the user had the option disabled.  (RDEV-2960)</li>
 <li>Fixed an issue that caused the Service Studio to crash when clicking on the "Aggregates is disabled" link, in Aggregates. (RDEV-2958)</li>
@@ -448,7 +449,7 @@ Inspired by <a href="https://www.outsystems.com/ideas/5205/allow-hyphen-in-url-p
 <li>Fixed an issue that prevents selecting an Aggregate in pop-out mode when clicking anywhere in the window. (RMAC-5986)</li>
 <li>Fixed an issue that caused Service Studio to crash when dropping some elements into an If widget. (RTAF-4363)</li>
 </ul>
-<h3>Side Effects</h3>
+<h3 id="Side_Effects">Side Effects</h3>
 <ul>
 <li>
 <b>Issue</b>: After updating to this version, opening an older version of Service Studio 11 in the same machine resets local Service Studio settings. These settings include the Service Studio preferences, the list of environments and recently opened modules, and login information.<br/>
@@ -459,7 +460,7 @@ Inspired by <a href="https://www.outsystems.com/ideas/5205/allow-hyphen-in-url-p
 <h2 id="Development_Environment_11.10.17">Development Environment 11.10.17</h2>
 <div class="info">
 <p>Released on Apr 07, 2021</p></div>
-<h3>Bug Fixing</h3>
+<h3 id="Bug_Fixing_26">Bug Fixing</h3>
 <ul>
 <li>Fixed Service Studio not connecting to a device when starting a Debug Session using the Android option (RPM-961)</li>
 <li>Fixed an intermittent crash that can occur when dragging and dropping widgets onto a form. (RTAF-4293)</li>
@@ -467,7 +468,7 @@ Inspired by <a href="https://www.outsystems.com/ideas/5205/allow-hyphen-in-url-p
 <h2 id="Development_Environment_11.10.16">Development Environment 11.10.16</h2>
 <div class="info">
 <p>Released on Mar 29, 2021</p></div>
-<h3>New in Development Environment 11.10.16</h3>
+<h3 id="New_in_Development_Environment_11.10.16">New in Development Environment 11.10.16</h3>
 <ul>
 <li>Upgraded OutSystems.Spreadsheet library. (RRCT-3540)</li>
 <li>Improved the Theme Editor colors display for a clear understanding of colors in use. (RDEV-2537)</li>
@@ -478,20 +479,20 @@ Inspired by <a href="https://www.outsystems.com/ideas/5205/allow-hyphen-in-url-p
 <h2 id="Development_Environment_11.10.15">Development Environment 11.10.15</h2>
 <div class="info">
 <p>Released on Mar 22, 2021</p></div>
-<h3>Bug Fixing</h3>
+<h3 id="Bug_Fixing_27">Bug Fixing</h3>
 <ul>
 <li>Fixed a bug in Service Studio while using Graphic Hardware Acceleration and that caused render and usability issues. This issue could prevent you from entering your credentials in the "Sign in" dialog. (RICT-3169)</li>
 </ul>
 <h2 id="Development_Environment_11.10.14">Development Environment 11.10.14</h2>
 <div class="info">
 <p>Released on Mar 15, 2021</p></div>
-<h3>New in Development Environment 11.10.14</h3>
+<h3 id="New_in_Development_Environment_11.10.14">New in Development Environment 11.10.14</h3>
 <ul>
 <li>Now, when editing the environment name, it is possible to end the edition by pressing "Enter", setting the new name. (RDEV-2806)</li>
 <li>Improved the right-click menus by moving the Help option to the bottom. Inspired by <a href="https://www.outsystems.com/ideas/Idea_View.aspx?IdeaID=10285">Luis Filipe Oliveira's idea</a>. (RDEV-2799)</li>
 <li>Improved the look and feel of the "Distribute" tab shown in the app detail screen of  Mobile apps. (RMAC-5398)</li>
 </ul>
-<h3>Bug Fixing</h3>
+<h3 id="Bug_Fixing_28">Bug Fixing</h3>
 <ul>
 <li>Fixed an issue when consuming a SOAP web service that includes schemas with an empty targetNamespace. (RBIT-158)</li>
 <li>Fixed an issue when consuming a REST API from a swagger with a application/json response format but a simple type. (RBIT-168)</li>
@@ -503,7 +504,7 @@ Inspired by <a href="https://www.outsystems.com/ideas/5205/allow-hyphen-in-url-p
 <h2 id="Development_Environment_11.10.13">Development Environment 11.10.13</h2>
 <div class="info">
 <p>Released on Mar 08, 2021</p></div>
-<h3>Bug Fixing</h3>
+<h3 id="Bug_Fixing_29">Bug Fixing</h3>
 <ul>
 <li>Fixed an issue that caused a compile error when assigning a Boolean to a long integer.  Boolean values will now be implicitly converted to long integers. (RTAF-4173)</li>
 <li>Fixed an issue in Service Studio that was causing window misalignment when opening Submit Feedback window (RICT-3103)</li>
@@ -511,13 +512,13 @@ Inspired by <a href="https://www.outsystems.com/ideas/5205/allow-hyphen-in-url-p
 <h2 id="Development_Environment_11.10.12">Development Environment 11.10.12</h2>
 <div class="info">
 <p>Released on Mar 01, 2021</p></div>
-<h3>New in Development Environment 11.10.12</h3>
+<h3 id="New_in_Development_Environment_11.10.12">New in Development Environment 11.10.12</h3>
 <ul>
 <li>Now, you don't need to log in to the Forge while accessing it inside the Service Studio. (RDEV-2557)</li>
 <li>Added a hotkey to access "Add Dependency" via Module menu. (RIMPT-92)</li>
 <li>Updated Oracle Managed Driver from 19.3.1 to 19.10.1 (RPLAT-542)</li>
 </ul>
-<h3>Bug Fixing</h3>
+<h3 id="Bug_Fixing_30">Bug Fixing</h3>
 <ul>
 <li>Fixed a Service Studio crash when debugging a mobile application with external links using an iOS device (RPM-453)</li>
 <li>Fixed an issue that caused screen template categories to appear at the bottom edge of the New Screen dialog when the list is too long to fit within the available space.  Added a scroll bar so that the entire list can be viewed and displayed properly. (RTAF-3971)</li>
@@ -530,13 +531,13 @@ Inspired by <a href="https://www.outsystems.com/ideas/5205/allow-hyphen-in-url-p
 <h2 id="Development_Environment_11.10.10">Development Environment 11.10.10</h2>
 <div class="info">
 <p>Released on Feb 15, 2021</p></div>
-<h3>New in Development Environment 11.10.10</h3>
+<h3 id="New_in_Development_Environment_11.10.10">New in Development Environment 11.10.10</h3>
 <ul>
 <li>The Smart Guidance feature will now try to display contextual suggestions. (RAID-791)</li>
 <li>- Capture the metrics about visitors and visits for Reactive/Mobile applications using the cookies that we already use for Traditional Web.
 - The metrics captured are correlated with Traditional Web applications if using the same browser/device. (RAR-538)</li>
 </ul>
-<h3>Bug Fixing</h3>
+<h3 id="Bug_Fixing_31">Bug Fixing</h3>
 <ul>
 <li>Fixed an issue that caused Service Studio popups to appear in an incorrect position when using more than one screen. (RICT-3069)</li>
 <li>Service Studio no longer crashes when you work with Blocks hidden by the "Show true / false branch only" option of an If widget. (RTAF-4154)</li>
@@ -544,7 +545,7 @@ Inspired by <a href="https://www.outsystems.com/ideas/5205/allow-hyphen-in-url-p
 <h2 id="Development_Environment_11.10.9">Development Environment 11.10.9</h2>
 <div class="info">
 <p>Released on Feb 08, 2021</p></div>
-<h3>Bug Fixing</h3>
+<h3 id="Bug_Fixing_32">Bug Fixing</h3>
 <ul>
 <li>Fixed an issue that caused Service Studio to present a wrong display name while dragging Exceptions to a Flow. (RDEV-2713)</li>
 <li>Fixed an issue displaying text with quotes and hashes on Aggregates and View Data. (RIMPT-3)</li>
@@ -560,32 +561,32 @@ Inspired by <a href="https://www.outsystems.com/ideas/5205/allow-hyphen-in-url-p
 <h2 id="Development_Environment_11.10.6">Development Environment 11.10.6</h2>
 <div class="info">
 <p>Released on Jan 18, 2021</p></div>
-<h3>Bug Fixing</h3>
+<h3 id="Bug_Fixing_33">Bug Fixing</h3>
 <ul>
 <li>Fixed an issue where the debugger didn't work for Client Actions with Android devices. (RPM-664)</li>
 </ul>
 <h2 id="Development_Environment_11.10.5">Development Environment 11.10.5</h2>
 <div class="info">
 <p>Released on Jan 11, 2021</p></div>
-<h3>New in Development Environment 11.10.5</h3>
+<h3 id="New_in_Development_Environment_11.10.5">New in Development Environment 11.10.5</h3>
 <ul>
 <li>Now you can open the Entity data viewer by selecting an Entity in the tree and pressing the Enter key. Inspired by <a href="https://www.outsystems.com/ideas/6282/shortcut-for-view-data">Willem Markus' idea</a>. (RDEV-2534)</li>
 </ul>
-<h3>Bug Fixing</h3>
+<h3 id="Bug_Fixing_34">Bug Fixing</h3>
 <ul>
 <li>Fixed a crash when consuming a WSDL with a choice that contains a reference to a previously declared group. (RBIT-121)</li>
 </ul>
 <h2 id="Development_Environment_11.10.4">Development Environment 11.10.4</h2>
 <div class="info">
 <p>Released on Dec 28, 2020</p></div>
-<h3>New in Development Environment 11.10.4</h3>
+<h3 id="New_in_Development_Environment_11.10.4">New in Development Environment 11.10.4</h3>
 <ul>
 <li>Now you can give an alias to your environments to help you identify them in the Login dialog. You can also delete the ones you don't use. Inspired by <a href="https://www.outsystems.com/ideas/3433/manage-saved-environments-option-to-clear-environment-details-from-drop-down-an">Suraj Borade's idea</a>. (RDEV-2509)</li>
 </ul>
 <h2 id="Development_Environment_11.10.3">Development Environment 11.10.3</h2>
 <div class="info">
 <p>Released on Dec 21, 2020</p></div>
-<h3>New in Development Environment 11.10.3</h3>
+<h3 id="New_in_Development_Environment_11.10.3">New in Development Environment 11.10.3</h3>
 <ul>
 <li>Fixed an issue that caused Service Studio to take several seconds to load an OML when contain screens with thousand of nodes. (RICT-2920)</li>
 <li>Fixed a compilation error by adding the missing validations for updated Trigger Event nodes, for example when you copy and paste a Trigger Event between Blocks. Now Service Studio timely warns you about invalid expressions and prevents you from trying to run 1-Click Publish. (RTAF-3793)</li>
@@ -593,19 +594,19 @@ Inspired by <a href="https://www.outsystems.com/ideas/5205/allow-hyphen-in-url-p
 <h2 id="Development_Environment_11.10.2">Development Environment 11.10.2</h2>
 <div class="info">
 <p>Released on Dec 15, 2020</p></div>
-<h3>New in Development Environment 11.10.2</h3>
+<h3 id="New_in_Development_Environment_11.10.2">New in Development Environment 11.10.2</h3>
 <ul>
 <li>Now we automatically reference the SetCurrentLocale Client System action when adding a new locale in Mobile or Reactive Apps. (RTAF-3226)</li>
 <li>There's now a notification for new developers, telling them they can use the Smart Guidance feature to find help when developing apps. (RAID-883)</li>
 </ul>
-<h3>Bug Fixing</h3>
+<h3 id="Bug_Fixing_35">Bug Fixing</h3>
 <ul>
 <li>Added the option to view a producer Entity details in a consumer module. (RDEV-2495)</li>
 </ul>
 <h2 id="Development_Environment_11.10.1">Development Environment 11.10.1</h2>
 <div class="info">
 <p>Released on Dec 07, 2020</p></div>
-<h3>Bug Fixing</h3>
+<h3 id="Bug_Fixing_36">Bug Fixing</h3>
 <ul>
 <li>Provide detailed information to the user about the Service Studio  crash when getting access denied error on filesystem while saving the OML in the local machine. (RDEV-2456)</li>
 <li>Fixed several crashes that occurred when using Service Studio's -diff command line (RDMST-168)</li>
@@ -615,7 +616,7 @@ Inspired by <a href="https://www.outsystems.com/ideas/5205/allow-hyphen-in-url-p
 <h2 id="Development_Environment_11.10.0">Development Environment 11.10.0</h2>
 <div class="info">
 <p>Released on Nov 30, 2020</p></div>
-<h3>Bug Fixing</h3>
+<h3 id="Bug_Fixing_37">Bug Fixing</h3>
 <ul>
 <li>Fixed a bug that did not allow to import a service when there was ambiguity in "xsd:any" wildcard (RPD-5255)</li>
 <li>Fixed an issue where the commands to Import/Export Language resources where not available in the module menu for Reactive and Mobile Apps with the Multilingual technical preview feature enabled. (RTAF-3373)</li>
@@ -624,11 +625,11 @@ Inspired by <a href="https://www.outsystems.com/ideas/5205/allow-hyphen-in-url-p
 <h2 id="Development_Environment_11.9.2">Development Environment 11.9.2</h2>
 <div class="info">
 <p>Released on Nov 24, 2020</p></div>
-<h3>New in Development Environment 11.9.2</h3>
+<h3 id="New_in_Development_Environment_11.9.2">New in Development Environment 11.9.2</h3>
 <ul>
 <li>Improved the Service Studio accuracy of asking for feedback while creating a new application based on a sample app. (RDEV-2380)</li>
 </ul>
-<h3>Bug Fixing</h3>
+<h3 id="Bug_Fixing_38">Bug Fixing</h3>
 <ul>
 <li>Fixed an issue that caused the labels of condition connectors of a Switch to show incorrect values after reordering the conditions. (RDEV-2381)</li>
 <li>Fixed an issue that caused Service Studio to crash when opening a Web Block. (RICT-2881)</li>
@@ -636,7 +637,7 @@ Inspired by <a href="https://www.outsystems.com/ideas/5205/allow-hyphen-in-url-p
 </ul>
 <h2 id="Development_Environment_11.9.1">Development Environment 11.9.1</h2>
 <div class="info"><p>Released on Nov 16, 2020</p></div>
-<h3>Bug Fixing</h3>
+<h3 id="Bug_Fixing_39">Bug Fixing</h3>
 <ul>
 <li>Added a description to the IgnoreCase input of the Index built-in function. (RDEV-2359)</li>
 <li>Fixed an issue that caused some Shortcut Keys to not being presented correctly. (RDEV-2355)</li>
@@ -648,21 +649,21 @@ Inspired by <a href="https://www.outsystems.com/ideas/5205/allow-hyphen-in-url-p
 <h2 id="Development_Environment_11.9.0">Development Environment 11.9.0</h2>
 <div class="info">
 <p>Released on Nov 09, 2020</p></div>
-<h3>New in Development Environment 11.9.0</h3>
+<h3 id="New_in_Development_Environment_11.9.0">New in Development Environment 11.9.0</h3>
 <ul>
 <li>Service Studio will now require installation of .NET 4.7.2 (as stated in System Requirements). (RICT-2083)</li>
 <li>You can now translate the UI of your Reactive Web Apps and Mobile Apps directly inside Service Studio. Multilingual is a technical preview feature and you need to activate the option "Multilingual for Mobile and Reactive" in LifeTime. After enabling the feature, use the new Multilingual Locales folder and new SetCurrentLocale system client action. (RTAF-3387)</li>
 <li>Fixed an issue that caused Service Studio to crash while opening modules that contain expressions that rely on implicit conversions between different data types. (RICT-2859)</li>
 <li>When importing a REST Web Service through a Swagger specification, it is now possible to choose what methods to import. Inspired by <a href="https://www.outsystems.com/ideas/4849/rest-consume-all-select-which-methods">Kilian Hekhuis's idea</a>.</li>
 </ul>
-<h3>Bug Fixing</h3>
+<h3 id="Bug_Fixing_40">Bug Fixing</h3>
 <ul>
 <li>Addressed a discrepancy in the documented behavior of ExcelToRecordList when the SheetName parameter is left empty. Now it correctly indicates that the method will attempt to import a sheet called "Sheet1" and only if that is not available will it import the first sheet of the document. (RDEV-2311)</li>
 </ul>
 <h2 id="Development_Environment_11.8.14">Development Environment 11.8.14</h2>
 <div class="info">
 <p>This is a preliminary version of the document.</p></div>
-<h3>New in Development Environment 11.8.14</h3>
+<h3 id="New_in_Development_Environment_11.8.14">New in Development Environment 11.8.14</h3>
 <ul>
 <li>Fixed an issue that caused Service Studio to crash while opening modules that contain expressions that rely on implicit conversions between different data types. (RICT-2859)</li>
 <li>Service Studio will now require installation of .NET 4.7.2 (as stated in System Requirements) (RICT-2083)</li>
@@ -671,12 +672,12 @@ Inspired by <a href="https://www.outsystems.com/ideas/5205/allow-hyphen-in-url-p
 <h2 id="Development_Environment_11.8.13">Development Environment 11.8.13</h2>
 <div class="info">
 <p>Released on Nov 02, 2020</p></div>
-<h3>New in Development Environment 11.8.13</h3>
+<h3 id="New_in_Development_Environment_11.8.13">New in Development Environment 11.8.13</h3>
 <ul>
 <li>Introduced a new way to get guidance to overcome problems by searching our documentation in a tailored way. (RAID-784)</li>
 <li>It is now possible to close all modules at once. (RDEV-2316)</li>
 </ul>
-<h3>Bug Fixing</h3>
+<h3 id="Bug_Fixing_41">Bug Fixing</h3>
 <ul>
 <li>Fixed an issue that caused a "404 not found" error when trying to consume some REST API by URL. (RBIT-74)</li>
 <li>We fixed pasting logic with lists of structures from client to server. Now the pasted logic works correctly on the server side. (RTAF-3582)</li>
@@ -685,11 +686,11 @@ Inspired by <a href="https://www.outsystems.com/ideas/5205/allow-hyphen-in-url-p
 <h2 id="Development_Environment_11.8.12">Development Environment 11.8.12</h2>
 <div class="info">
 <p>Released on Oct 26, 2020</p></div>
-<h3>New in Development Environment 11.8.12</h3>
+<h3 id="New_in_Development_Environment_11.8.12">New in Development Environment 11.8.12</h3>
 <ul>
 <li>Supported mobile plugins are now hidden in the Application List and can be made visible via Preferences Menu. (RDEV-2092)</li>
 </ul>
-<h3>Bug Fixing</h3>
+<h3 id="Bug_Fixing_42">Bug Fixing</h3>
 <ul>
 <li>Fixed an issue that caused Service Studio to crash while trying to manage Dependencies during a 1-Click Publish. (RICT-2828)</li>
 <li>Improve loading time of items picker dialog. (RMAC-4168)</li>
@@ -702,19 +703,19 @@ Inspired by <a href="https://www.outsystems.com/ideas/5205/allow-hyphen-in-url-p
 <h2 id="Development_Environment_11.8.10">Development Environment 11.8.10</h2>
 <div class="info">
 <p>Released on Oct 13, 2020</p></div>
-<h3>Bug Fixing</h3>
+<h3 id="Bug_Fixing_43">Bug Fixing</h3>
 <ul>
 <li>Fixed a bug that caused Service Center to incorrectly count Internal and External Users from disabled User Providers as active users. (RIDT-95)</li>
 </ul>
 <h2 id="Development_Environment_11.8.9">Development Environment 11.8.9</h2>
 <div class="info">
 <p>Released on Oct 06, 2020</p></div>
-<h3>New in Development Environment 11.8.9</h3>
+<h3 id="New_in_Development_Environment_11.8.9">New in Development Environment 11.8.9</h3>
 <ul>
 <li>Fixed an issue in Library Modules, which was about showing the references to entities in the dependencies managers that could not be used. (RBIT-26)</li>
 <li>Now, the double-click on a Database Entity will open the View Data. (RDEV-2149)</li>
 </ul>
-<h3>Bug Fixing</h3>
+<h3 id="Bug_Fixing_44">Bug Fixing</h3>
 <ul>
 <li>In some situations, parameters and structure attributes created during import of SOAP services had incorrect types, leading to publication errors. This has been fixed. (RBIT-25)</li>
 <li>Fixed an issue that caused the Create Application Wizard to open in new application mode before changing to edit mode when editing the app's basic info. (RDEV-2135)</li>
@@ -729,11 +730,11 @@ Inspired by <a href="https://www.outsystems.com/ideas/5205/allow-hyphen-in-url-p
 <h2 id="Development_Environment_11.8.8">Development Environment 11.8.8</h2>
 <div class="info">
 <p>Released on Sep 23, 2020</p></div>
-<h3>New in Development Environment 11.8.8</h3>
+<h3 id="New_in_Development_Environment_11.8.8">New in Development Environment 11.8.8</h3>
 <ul>
 <li>Fixed an issue in Library Modules, which was about showing the references to entities in the dependencies managers that could not be used. (RBIT-26)</li>
 </ul>
-<h3>Bug Fixing</h3>
+<h3 id="Bug_Fixing_45">Bug Fixing</h3>
 <ul>
 <li>Fixed an issue that caused Service Studio to crash while running the tutorial. (RDEV-2117)</li>
 <li>Fixed an issue that caused the Create Application Wizard to open in new application mode before changing to edit mode when editing the app's basic info. (RDEV-2135)</li>
@@ -746,7 +747,7 @@ Inspired by <a href="https://www.outsystems.com/ideas/5205/allow-hyphen-in-url-p
 <h2 id="Development_Environment_11.8.7">Development Environment 11.8.7</h2>
 <div class="info">
 <p>Released on Sep 07, 2020</p></div>
-<h3>New in Development Environment 11.8.7</h3>
+<h3 id="New_in_Development_Environment_11.8.7">New in Development Environment 11.8.7</h3>
 <ul>
 <li>Now, the title of the Input's Expression editor displays the name of the input being edited. (RDEV-2065)</li>
 <li>Increased the maximum number of saved environment credentials from 10 to 50. (RDEV-1974)</li>
@@ -754,7 +755,7 @@ Inspired by <a href="https://www.outsystems.com/ideas/5205/allow-hyphen-in-url-p
 <li>Now, the title of the Assign's Expression editor displays the name of the variable being edited.  Inspired by <a href="https://www.outsystems.com/ideas/1597/add-variable-name-to-assign-window?IsFromAdvancedSearch=True">Wayne Hodgson's idea</a>. (RDEV-1877)</li>
 <li>Revamped Icon widget dialog look and feel. (RMAC-2818)</li>
 </ul>
-<h3>Bug Fixing</h3>
+<h3 id="Bug_Fixing_46">Bug Fixing</h3>
 <ul>
 <li>Fixed an issue that caused Service Studio to crash while running the tutorial. (RDEV-2117)</li>
 <li>Fixed a security vulnerability in Service Studio. (RPD-5212)</li>
@@ -765,13 +766,13 @@ Inspired by <a href="https://www.outsystems.com/ideas/5205/allow-hyphen-in-url-p
 <h2 id="Development_Environment_11.8.6">Development Environment 11.8.6</h2>
 <div class="info">
 <p>Released on Aug 24, 2020</p></div>
-<h3>New in Development Environment 11.8.6</h3>
+<h3 id="New_in_Development_Environment_11.8.6">New in Development Environment 11.8.6</h3>
 <ul>
 <li>We updated the user interface of the dropdown list that shows the AI suggestions. (RAID-670)</li>
 <li>Now, while creating an application based on an existing one, these applications can have a Live Preview that can be accessed from Service Studio. (RDEV-1943)</li>
 <li>In Personal Environments, you now get a guided tour when you create your first app from an existing app. (RDEV-1788)</li>
 </ul>
-<h3>Bug Fixing</h3>
+<h3 id="Bug_Fixing_47">Bug Fixing</h3>
 <ul>
 <li>Fixed an issue with the AI-Assisted Development's Actions suggestions that improves arguments auto filling. (RAID-699)</li>
 <li>Fixed a security vulnerability in Service Studio. (RPD-5212)</li>
@@ -784,7 +785,7 @@ Inspired by <a href="https://www.outsystems.com/ideas/5205/allow-hyphen-in-url-p
 <h2 id="Development_Environment_11.8.4">Development Environment 11.8.4</h2>
 <div class="info">
 <p>Released on Aug 10, 2020</p></div>
-<h3>New in Development Environment 11.8.4</h3>
+<h3 id="New_in_Development_Environment_11.8.4">New in Development Environment 11.8.4</h3>
 <ul>
 <li>We updated the user interface of the dropdown list that shows the AI suggestions. (RAID-670)</li>
 <li>Removed the spell checker for a new module's name. (RDEV-1929)</li>
@@ -795,26 +796,26 @@ Inspired by <a href="https://www.outsystems.com/ideas/5205/allow-hyphen-in-url-p
 <li>Now, copy pasting an element in the tree, such as a user action, will open the duplicated element. Inspired by <a href="https://www.outsystems.com/ideas/517/when-copying-an-user-action-be-redirected-to-the-new-created-action"> Diogo Cordeiro's idea. </a>
 (RDEV-1878)</li>
 </ul>
-<h3>Bug Fixing</h3>
+<h3 id="Bug_Fixing_48">Bug Fixing</h3>
 <ul>
 <li>Fixed an issue that caused Service Studio to crash while clicking in Manage Environments without being connected to an environment. (RDEV-1925)</li>
 <li>Fixed an issue that prevented Manage Dependencies from focusing on one of the search boxes after opening. (RDEV-1922)</li>
 </ul>
 <h2 id="Development_Environment_11.8.3">Development Environment 11.8.3</h2>
 <div class="info"><p>Released on Aug 03, 2020</p></div>
-<h3>Bug Fixing</h3>
+<h3 id="Bug_Fixing_49">Bug Fixing</h3>
 <ul>
 <li>Fixed an issue that caused the Give Us Feedback to lose the outer spacing.  (RDEV-1899)</li>
 </ul>
 <h2 id="Development_Environment_11.8.2">Development Environment 11.8.2</h2>
 <div class="info">
 <p>Released on Jul 27, 2020</p></div>
-<h3>New in Development Environment 11.8.2</h3>
+<h3 id="New_in_Development_Environment_11.8.2">New in Development Environment 11.8.2</h3>
 <ul>
 <li>You can now use the Create Structure from Type to generate a structure from an anonymous structure type that will be used in the original variable. 
 Inspired by <a href="https://www.outsystems.com/ideas/6044/">Maycon Oleczinski's idea</a>. (RDEV-1532)</li>
 </ul>
-<h3>Bug Fixing</h3>
+<h3 id="Bug_Fixing_50">Bug Fixing</h3>
 <ul>
 <li>Fix issue that would lead to an exception while merging widgets (RAOT-125)</li>
 <li>Fixed the debugger when working with Client Variables in Assigns. The bug interrupted the debugging and caused a communication error with the message "There's a case missing in this switch". (RPD-5060)</li>
@@ -840,36 +841,36 @@ Inspired by <a href="https://www.outsystems.com/ideas/6044/">Maycon Oleczinski's
 <h2 id="Development_Environment_11.8.1">Development Environment 11.8.1</h2>
 <div class="info">
 <p>Released on Jul 20, 2020</p></div>
-<h3>New in Development Environment 11.8.1</h3>
+<h3 id="New_in_Development_Environment_11.8.1">New in Development Environment 11.8.1</h3>
 <ul>
 <li>Improved the way Service Studio guesses the type of new variables based on their names. Inspired by <a href="https://www.outsystems.com/ideas/3479/">Frans Moquette's idea</a>. (RDEV-1531)</li>
 </ul>
-<h3>Bug Fixing</h3>
+<h3 id="Bug_Fixing_51">Bug Fixing</h3>
 <ul>
 <li>Fixed a bug that allows users to be created with a repeated username when using the User_CreateOrUpdate API (RLIT-3711)</li>
 </ul>
 <h2 id="Development_Environment_11.7.15">Development Environment 11.7.15</h2>
 <div class="info">
 <p>Released on Jul 13, 2020</p></div>
-<h3>New in Development Environment 11.7.15</h3>
+<h3 id="New_in_Development_Environment_11.7.15">New in Development Environment 11.7.15</h3>
 <ul>
 <li>Fixed issue that would lead to an error message in bottom pane related with 1CP (RAOT-111)</li>
 </ul>
-<h3>Bug Fixing</h3>
+<h3 id="Bug_Fixing_52">Bug Fixing</h3>
 <ul>
 <li>Fixed a solution publish error that occurred when compiling outdated dependencies to a structure having new attributes with complex data types. (RSBO-1521)</li>
 </ul>
 <h2 id="Development_Environment_11.7.14">Development Environment 11.7.14</h2>
 <div class="info">
 <p>Released on Jul 06, 2020</p></div>
-<h3>New in Development Environment 11.7.14</h3>
+<h3 id="New_in_Development_Environment_11.7.14">New in Development Environment 11.7.14</h3>
 <ul>
 <li>In Personal Environments, you can now create a new app based on an existing app curated by OutSystems. (RDEV-1652)</li>
 </ul>
 <h2 id="Development_Environment_11.7.13">Development Environment 11.7.13</h2>
 <div class="info">
 <p>Released on Jun 29, 2020</p></div>
-<h3>Bug Fixing</h3>
+<h3 id="Bug_Fixing_53">Bug Fixing</h3>
 <ul>
 <li>Fixed a runtime error in generated Android apps when a new version of the app was available. (RPD-5137)</li>
 <li>Fix bug when synchronizing tabs during the merge of aggregates (RMAC-3014)</li>
@@ -877,11 +878,11 @@ Inspired by <a href="https://www.outsystems.com/ideas/6044/">Maycon Oleczinski's
 <h2 id="Development_Environment_11.7.12">Development Environment 11.7.12</h2>
 <div class="info">
 <p>Released on Jun 22, 2020</p></div>
-<h3>New in Development Environment 11.7.12</h3>
+<h3 id="New_in_Development_Environment_11.7.12">New in Development Environment 11.7.12</h3>
 <ul>
 <li>Avoid doing unnecessary requests when native tab of Application details is not opened (RMAC-2953)</li>
 </ul>
-<h3>Bug Fixing</h3>
+<h3 id="Bug_Fixing_54">Bug Fixing</h3>
 <ul>
 <li>Fixed solution publish error when compiling dependencies (not refreshed) to a structure that has new attributes with complex types (RSBO-1521)</li>
 <li>We fixed a glitch in the launch of the debugger from Reactive Apps. The Chrome window for debugging now opens in a desktop mode, without resizing to the mobile form factor. (RTAF-2996)</li>
@@ -891,11 +892,11 @@ Inspired by <a href="https://www.outsystems.com/ideas/6044/">Maycon Oleczinski's
 <h2 id="Development_Environment_11.7.10">Development Environment 11.7.10</h2>
 <div class="info">
 <p>Released on Jun 15, 2020</p></div>
-<h3>New in Development Environment 11.7.10</h3>
+<h3 id="New_in_Development_Environment_11.7.10">New in Development Environment 11.7.10</h3>
 <ul>
 <li>Upgraded Microsoft.AspNetCore and Microsoft.Extension libraries to the latest 2.1 LTS versions. (RRCT-2896)</li>
 </ul>
-<h3>Bug Fixing</h3>
+<h3 id="Bug_Fixing_55">Bug Fixing</h3>
 <ul>
 <li>Fixed a bug in Open API 3.0 import, that caused some types defined inside oneOf constructs to not be created. (RSBO-1462)</li>
 <li>Fixed an issue that caused Service Studio to crash while logging in the environment for publishing. (RDEV-1707)</li>
@@ -908,7 +909,7 @@ Inspired by <a href="https://www.outsystems.com/ideas/6044/">Maycon Oleczinski's
 <h2 id="Development_Environment_11.7.9">Development Environment 11.7.9</h2>
 <div class="info">
 <p>Released on Jun 01, 2020</p></div>
-<h3>New in Development Environment 11.7.9</h3>
+<h3 id="New_in_Development_Environment_11.7.9">New in Development Environment 11.7.9</h3>
 <ul>
 <li>It's now possible to consume a REST API importing a REST API specification with lists of parameters that are applicable for all the operations described under a given path. (RSBO-1175)</li>
 <li>It's now possible to consume a REST API importing a REST API specification that contains the "allOf" keyword. (RSBO-1176)</li>
@@ -917,7 +918,7 @@ Inspired by <a href="https://www.outsystems.com/ideas/6044/">Maycon Oleczinski's
 <li>It's now possible to consume a REST API importing a REST API specification with remote URL references. (RSBO-1205)</li>
 <li>It's now possible to consume a REST API importing a REST API specification that contains the "oneOf" keyword. (RSBO-1268)</li>
 </ul>
-<h3>Bug Fixing</h3>
+<h3 id="Bug_Fixing_56">Bug Fixing</h3>
 <ul>
 <li>Fixed "ID" attribute from being placed on the container element instead of element the select on Dropdown widget. (RPD-5019)</li>
 <li>Dropdown with custom property selected now automatically scrolls into selected item (RPD-3459)</li>
@@ -925,7 +926,7 @@ Inspired by <a href="https://www.outsystems.com/ideas/6044/">Maycon Oleczinski's
 <h2 id="Development_Environment_11.7.8">Development Environment 11.7.8</h2>
 <div class="info">
 <p>Released on May 25, 2020</p></div>
-<h3>Bug Fixing</h3>
+<h3 id="Bug_Fixing_57">Bug Fixing</h3>
 <ul>
 <li>We fixed an occasional glitch in the UI part of AI-assisted development related to the navigation of the suggestions.  (RAID-565)</li>
 <li>Fixed an issue that caused Service Studio to crash when using the arrows keys to navigate around an empty Text Widget. (RTAF-2890)</li>
@@ -936,12 +937,12 @@ Inspired by <a href="https://www.outsystems.com/ideas/6044/">Maycon Oleczinski's
 <h2 id="Development_Environment_11.7.7">Development Environment 11.7.7</h2>
 <div class="info">
 <p>Released on May 18, 2020</p></div>
-<h3>New in Development Environment 11.7.7</h3>
+<h3 id="New_in_Development_Environment_11.7.7">New in Development Environment 11.7.7</h3>
 <ul>
 <li>When consuming REST with external refs, a new message was added a message to show the external references that will be downloaded. (RSBO-1293)</li>
 <li>We updated the preview of the empty Screen in the list of Screen Templates for Reactive Web  and Mobile Apps. (RTAF-2683)</li>
 </ul>
-<h3>Bug Fixing</h3>
+<h3 id="Bug_Fixing_58">Bug Fixing</h3>
 <ul>
 <li>Fixed an issue that caused the re-render of list widgets to render the transient state of an item in the wrong item when the item position changed. (RPD-3585)</li>
 <li>Fixed scaffolding of the details Screen. The related Entity now filters the records list in Aggregate by the identifier. (RTAF-2529)</li>
@@ -952,7 +953,7 @@ Inspired by <a href="https://www.outsystems.com/ideas/6044/">Maycon Oleczinski's
 <h2 id="Development_Environment_11.7.6">Development Environment 11.7.6</h2>
 <div class="info">
 <p>Released on May 11, 2020</p></div>
-<h3>New in Development Environment 11.7.6</h3>
+<h3 id="New_in_Development_Environment_11.7.6">New in Development Environment 11.7.6</h3>
 <ul>
 <li>Fixed a problem with Service Studio that would result in public processes in a module being incorrectly exposed to other modules. (RICT-2463)</li>
 <li>It is now possible to check the publish status through a visual cue in the module tab. 
@@ -971,7 +972,7 @@ inspired by <a href="https://www.outsystems.com/ideas/2466/">João Martins' idea
 <h2 id="Development_Environment_11.7.5">Development Environment 11.7.5</h2>
 <div class="info">
 <p>This is a preliminary version of the document.</p></div>
-<h3>New in Development Environment 11.7.5</h3>
+<h3 id="New_in_Development_Environment_11.7.5">New in Development Environment 11.7.5</h3>
 <ul>
 <li>Fixed a problem with Service Studio that would result in public processes in a module being incorrectly exposed to other modules. (RICT-2463)</li>
 <li>It's now possible to quickly identify disabled elements in your search results through their greyed out icon. (RDEV-1530)</li>
@@ -981,14 +982,14 @@ inspired by <a href="https://www.outsystems.com/ideas/2466/">João Martins' idea
 <h2 id="Development_Environment_11.7.4">Development Environment 11.7.4</h2>
 <div class="info">
 <p>Released on Apr 27, 2020</p></div>
-<h3>New in Development Environment 11.7.4</h3>
+<h3 id="New_in_Development_Environment_11.7.4">New in Development Environment 11.7.4</h3>
 <ul>
 <li>Fixed a problem with Service Studio that would result in public processes in a module being incorrectly exposed to other modules. (RICT-2463)</li>
 <li>It's now possible to quickly identify disabled elements in your search results through their greyed out icon. (RDEV-1530)</li>
 <li>It is now possible to check the publish status through a visual cue in the module tab. 
 inspired by <a href="https://www.outsystems.com/ideas/2466/">João Martins' idea</a>. (RDEV-1529)</li>
 </ul>
-<h3>Bug Fixing</h3>
+<h3 id="Bug_Fixing_59">Bug Fixing</h3>
 <ul>
 <li>Fixed and improved the AI-assisted suggestions with the boolean values in If nodes. (RAID-548)</li>
 <li>Fixed crash when having enums in Swagger files with empty values. (RSBO-1352)</li>
@@ -998,11 +999,11 @@ inspired by <a href="https://www.outsystems.com/ideas/2466/">João Martins' idea
 <h2 id="Development_Environment_11.7.3">Development Environment 11.7.3</h2>
 <div class="info">
 <p>Released on Apr 20, 2020</p></div>
-<h3>New in Development Environment 11.7.3</h3>
+<h3 id="New_in_Development_Environment_11.7.3">New in Development Environment 11.7.3</h3>
 <ul>
 <li>When copying a structure or entity, now you'll be able to paste it as an action’s input, output, or local parameter just by selecting Paste as. Inspired by <a href="https://www.outsystems.com/ideas/5845/">Evert van der Zalm's idea</a>. (RDEV-1526)</li>
 </ul>
-<h3>Bug Fixing</h3>
+<h3 id="Bug_Fixing_60">Bug Fixing</h3>
 <ul>
 <li>Fixed and improved the AI-assisted suggestions with the boolean values in If nodes. (RAID-548)</li>
 <li>Fixed and improved the AI-assisted suggestions for Aggregates in scenarios that require filtering by ID. (RAID-549)</li>
@@ -1016,13 +1017,13 @@ inspired by <a href="https://www.outsystems.com/ideas/2466/">João Martins' idea
 <div class="info">
 <p>Released on Apr 13, 2020</p>
 </div>
-<h3>New in Development Environment 11.7.2</h3>
+<h3 id="New_in_Development_Environment_11.7.2">New in Development Environment 11.7.2</h3>
 <ul>
 <li>When copying a structure or entity, now you'll be able to paste it as an action’s input, output, or local parameter just by selecting Paste as. Inspired by <a href="https://www.outsystems.com/ideas/5845/">Evert van der Zalm's idea</a>. (RDEV-1526)</li>
 <li>Now you can use Radio Button Widget in your Reactive Web and Mobile apps. To build and deploy an app with this widget in UI, you also need Platform Server that supports Radio Button and updated OutSystems UI. (RTAF-2144)</li>
 <li>Now you can use Human Activity Destination property in Reactive Web Apps. (RTAF-2197)</li>
 </ul>
-<h3>Bug Fixing</h3>
+<h3 id="Bug_Fixing_61">Bug Fixing</h3>
 <ul>
 <li>Fixed and improved the AI-assisted suggestions for Aggregates in scenarios that require filtering by ID. (RAID-549)</li>
 <li>Fixed and improved the AI-assisted suggestions with the boolean values in If nodes. (RAID-548)</li>
@@ -1031,7 +1032,7 @@ inspired by <a href="https://www.outsystems.com/ideas/2466/">João Martins' idea
 <h2 id="Development_Environment_11.7.1">Development Environment 11.7.1</h2>
 <div class="info">
 <p>Released on Apr 06, 2020</p></div>
-<h3>New in Development Environment 11.7.1</h3>
+<h3 id="New_in_Development_Environment_11.7.1">New in Development Environment 11.7.1</h3>
 <ul>
 <li>We added a tooltip to the AI-assisted development radar that shows in the flow. Now it's more clear what the radar does. (RAID-525)</li>
 <li>It is now possible to double-click the condition arrow to access both its conditions.
@@ -1044,7 +1045,7 @@ Inspired by <a href="https://www.outsystems.com/ideas/7845/">Daniël Kuhlmann's 
 <li>Now you can use the Table widget in your Mobile applications. Fetch data to your Screen, drop Table to the Screen and select the data in the Source property. Then, drop Attributes to the Table. Add sorting by creating a new OnSort Action that triggers an accelerator with the logic. (RTAFB-2155)</li>
 <li>Screen Events in Mobile App are now in a drop-down list box, just like in Reactive Web App. This UI tweak makes your developing experience more consistent. (RTAFB-2491)</li>
 </ul>
-<h3>Bug Fixing</h3>
+<h3 id="Bug_Fixing_62">Bug Fixing</h3>
 <ul>
 <li>Fixed an issue that caused Service Studio to crash while deleting text in an expression. (RDEV-1466)</li>
 <li>Fixed broken icons on some editors (RICT-2405)</li>
@@ -1056,7 +1057,7 @@ Inspired by <a href="https://www.outsystems.com/ideas/7845/">Daniël Kuhlmann's 
 <h2 id="Development_Environment_11.7.0">Development Environment 11.7.0</h2>
 <div class="info">
 <p>This is a preliminary version of the document.</p></div>
-<h3>New in Development Environment 11.7.0</h3>
+<h3 id="New_in_Development_Environment_11.7.0">New in Development Environment 11.7.0</h3>
 <ul>
 <li>We added a tooltip to the AI-assisted development radar that shows in the flow. Now it's more clear what the radar does. (RAID-525)</li>
 <li>Service Studio will now automatically display the AI-assisted development feature's radar on new/empty action flows (RAID-526)</li>
@@ -1070,7 +1071,7 @@ Inspired by <a href="https://www.outsystems.com/ideas/7845/">Daniël Kuhlmann's 
 <li>Now you can use Radio Button Widget in your Reactive Web and Mobile apps. To build and deploy an app with this widget in UI, you also need Platform Server that supports Radio Button and updated OutSystems UI. (RTAF-2144)</li>
 <li>Now you can use Human Activity Destination property in Reactive Web Apps. Check the document <a href="https://success.outsystems.com/Documentation/How-to_Guides/Using_Taskbox_in_Reactive_Web_Apps">Using Taskbox in Reactive Web Apps</a> for the instructions. (RTAF-2197)</li>
 </ul>
-<h3>Bug Fixing</h3>
+<h3 id="Bug_Fixing_63">Bug Fixing</h3>
 <ul>
 <li>Fixed an issue that caused Service Studio to crash while deleting text in an expression. (RDEV-1466)</li>
 <li>Fixed a problem where navigation from the OnAfterFetch event handler rendered the current Screen instead of the destination Screen. (RTAF-2472)</li>
@@ -1082,14 +1083,14 @@ Inspired by <a href="https://www.outsystems.com/ideas/7845/">Daniël Kuhlmann's 
 <h2 id="Development_Environment_11.6.32">Development Environment 11.6.32</h2>
 <div class="info">
 <p>Released on Mar 23, 2020</p></div>
-<h3>New in Development Environment 11.6.32</h3>
+<h3 id="New_in_Development_Environment_11.6.32">New in Development Environment 11.6.32</h3>
 <ul>
 <li>The AI-assisted development feature will now also consider Service Actions with Boolean outputs in advanced IF suggestions (RAID-473)</li>
 <li>We tweaked the AI-assisted development feature so it does a better job automatically filling actions' arguments (RAID-520)</li>
 <li>It is now possible to clear the text filtering of the applications in the Application List. 
 Inspired by <a href="https://www.outsystems.com/ideas/7845/">Daniël Kuhlmann's idea</a>. (RDEV-1274)</li>
 </ul>
-<h3>Bug Fixing</h3>
+<h3 id="Bug_Fixing_64">Bug Fixing</h3>
 <ul>
 <li>Fixed an issue that caused Service Studio to crash while deleting text in an expression. (RDEV-1466)</li>
 <li>Fixed an issue that caused the corruption of one of the Login Screen background images available in Theme Editor. (RDEV-1444)</li>
@@ -1103,12 +1104,12 @@ Inspired by <a href="https://www.outsystems.com/ideas/7845/">Daniël Kuhlmann's 
 <h2 id="Development_Environment_11.6.31">Development Environment 11.6.31</h2>
 <div class="info">
 <p>Released on Mar 17, 2020</p></div>
-<h3>New in Development Environment 11.6.31</h3>
+<h3 id="New_in_Development_Environment_11.6.31">New in Development Environment 11.6.31</h3>
 <ul>
 <li>We improved the user experience of the AI-assisted development feature. Now the suggestions show less often when you're just connecting two nodes. (RAID-343)</li>
 <li>Now the AI-assisted development feature is better at recommending the right side of assignments because the suggestion algorithm uses the names available in the scope. (RAID-463)</li>
 </ul>
-<h3>Bug Fixing</h3>
+<h3 id="Bug_Fixing_65">Bug Fixing</h3>
 <ul>
 <li>Fixed an issue that caused the corruption of one of the Login Screen background images available in Theme Editor. (RDEV-1444)</li>
 <li>Fixed a typo in 5-min tutorial. (RDEV-1442)</li>
@@ -1120,12 +1121,12 @@ Inspired by <a href="https://www.outsystems.com/ideas/7845/">Daniël Kuhlmann's 
 <h2 id="Development_Environment_11.6.30">Development Environment 11.6.30</h2>
 <div class="info">
 <p>Released on Mar 09, 2020</p></div>
-<h3>New in Development Environment 11.6.30</h3>
+<h3 id="New_in_Development_Environment_11.6.30">New in Development Environment 11.6.30</h3>
 <ul>
 <li>Now the AI-assisted development feature is better at recommending the right side of assignments because the suggestion algorithm uses the names available in the scope. (RAID-463)</li>
 <li>Now you can enter only text when providing feedback, as selecting a smiley is optional in the "Give us feedback" window. (RDEV-1408)</li>
 </ul>
-<h3>Bug Fixing</h3>
+<h3 id="Bug_Fixing_66">Bug Fixing</h3>
 <ul>
 <li>Fixed a compilation error when importing SOAP Web Services containing choices with repeated element names and complex types defined inline. (RSBO-1117)</li>
 </ul>
@@ -1133,13 +1134,13 @@ Inspired by <a href="https://www.outsystems.com/ideas/7845/">Daniël Kuhlmann's 
 <div class="info">
 <p>Released on Mar 02, 2020</p>
 </div>
-<h3>New in Development Environment 11.6.29</h3>
+<h3 id="New_in_Development_Environment_11.6.29">New in Development Environment 11.6.29</h3>
 <ul>
 <li>The built-in Service Studio tutorial (Help &gt; Build an App in 5 min) now shows how to use the <a href="https://success.outsystems.com/Documentation/11/Developing_an_Application/Implement_Application_Logic/AI-assisted_development">suggestions by the AI-assisted development feature</a>. (RAID-484)</li>
 <li>Forge accesses from within Service Studio are authenticated automatically for users connected to their Personal Environments. This will not work if the user's environment credentials are different from the ones they use to access the community site. Inspired b <a href="https://www.outsystems.com/ideas/5611/">Jitendra Yadav's idea</a>. (RDEV-1347)</li>
 <li>We improved the Data Replacement feature. You can now drag local Entities to Flows to scaffold Screens in Mobile Apps. Also, dragging a different Entity to an existing List, Table or Form Widget now produces better results, with less TrueChange errors. (RTAF-1991)</li>
 </ul>
-<h3>Bug Fixing</h3>
+<h3 id="Bug_Fixing_67">Bug Fixing</h3>
 <ul>
 <li>Solved an issue that prevented "remember me" Forge login option from working after restarting Service Studio. (RDEV-1360)</li>
 <li>We fix an issue that occurs when someone tries to import a swagger 2.0 definition from a local file and without the schema property defined (RSBO-1180)</li>
@@ -1147,14 +1148,14 @@ Inspired by <a href="https://www.outsystems.com/ideas/7845/">Daniël Kuhlmann's 
 <h2 id="Development_Environment_11.6.28">Development Environment 11.6.28</h2>
 <div class="info">
 <p>This is a preliminary version of the document.</p></div>
-<h3>New in Development Environment 11.6.28</h3>
+<h3 id="New_in_Development_Environment_11.6.28">New in Development Environment 11.6.28</h3>
 <ul>
 <li>Forge accesses from within Service Studio are authenticated automatically for users connected to their Personal Environments. This will not work if the user's environment credentials are different from the ones they use to access the community site. (RDEV-1347)</li>
 </ul>
 <h2 id="Development_Environment_11.6.27">Development Environment 11.6.27</h2>
 <div class="info">
 <p>Released on Feb 26, 2020</p></div>
-<h3>Bug Fixing</h3>
+<h3 id="Bug_Fixing_68">Bug Fixing</h3>
 <ul>
 <li>Fixed a crash when right-clicking the AI-assisted development radar in the flow while holding a shortcut key. (RAID-470)</li>
 <li>Fixed an issue that caused a crash while changing the color of an application whose Home module has a Default Theme that is a dependency. (RDEV-1337)</li>
@@ -1167,19 +1168,19 @@ Inspired by <a href="https://www.outsystems.com/ideas/7845/">Daniël Kuhlmann's 
 <h2 id="Development_Environment_11.6.26">Development Environment 11.6.26</h2>
 <div class="info">
 <p>Released on Feb 10, 2020</p></div>
-<h3>Bug Fixing</h3>
+<h3 id="Bug_Fixing_69">Bug Fixing</h3>
 <ul>
 <li>Fixed a crash when trying to enclose multiple Placeholders in a Container. (RTAF-2157)</li>
 </ul>
 <h2 id="Development_Environment_11.6.25">Development Environment 11.6.25</h2>
 <div class="info">
 <p>Released on Feb 03, 2020</p></div>
-<h3>New in Development Environment 11.6.25</h3>
+<h3 id="New_in_Development_Environment_11.6.25">New in Development Environment 11.6.25</h3>
 <ul>
 <li>It is now possible to see OutSystems supported apps in the Application List. (RDEV-1270)</li>
 <li>When consuming empty used structures, will no long view a message box stating OutSystems does not support this properties, instead there will be errors in TrueChange (RSBO-1202)</li>
 </ul>
-<h3>Bug Fixing</h3>
+<h3 id="Bug_Fixing_70">Bug Fixing</h3>
 <ul>
 <li>Fixed the crash caused by special characters in the search field of the widgets icon picker window. (RTAF-2088)</li>
 <li>Fixed multiple executions of Screen Preparation Action that occurred when Rich Widgets File Upload was used in the Screen. (RTAF-2064)</li>
@@ -1189,7 +1190,7 @@ Inspired by <a href="https://www.outsystems.com/ideas/7845/">Daniël Kuhlmann's 
 <h2 id="Development_Environment_11.6.24">Development Environment 11.6.24</h2>
 <div class="info">
 <p>Released on Jan 27, 2020</p></div>
-<h3>Bug Fixing</h3>
+<h3 id="Bug_Fixing_71">Bug Fixing</h3>
 <ul>
 <li>Fixed an issue that caused the creation of duplicated Static Entities when used more than once in a consumed REST API definition. (RSBO-853)</li>
 <li>Fixed OML corruption triggered by the removing a Structure used in a SQL node that is source to a ListBox or ComboBox widget (RSBO-865)</li>
@@ -1198,11 +1199,11 @@ Inspired by <a href="https://www.outsystems.com/ideas/7845/">Daniël Kuhlmann's 
 <h2 id="Development_Environment_11.6.23">Development Environment 11.6.23</h2>
 <div class="info">
 <p>Released on Jan 20, 2020</p></div>
-<h3>New in Development Environment 11.6.23</h3>
+<h3 id="New_in_Development_Environment_11.6.23">New in Development Environment 11.6.23</h3>
 <ul>
 <li>We improved the alignment of the cell content and the header of the Table Widget that you get after you drag an Entity to a Screen. (RTAF-1787)</li>
 </ul>
-<h3>Bug Fixing</h3>
+<h3 id="Bug_Fixing_72">Bug Fixing</h3>
 <ul>
 <li>Fixed a typo on the Is Form Default warning message. (RTAF-2019)</li>
 <li>Now a True Change error tells you if there's an invalid sort expression in Reactive Table. Previously such an invalid expression broke the publishing step. (RTAF-1981)</li>
@@ -1212,18 +1213,18 @@ Inspired by <a href="https://www.outsystems.com/ideas/7845/">Daniël Kuhlmann's 
 <h2 id="Development_Environment_11.6.22">Development Environment 11.6.22</h2>
 <div class="info">
 <p>Released on Jan 13, 2020</p></div>
-<h3>Bug Fixing</h3>
+<h3 id="Bug_Fixing_73">Bug Fixing</h3>
 <ul>
 <li>When you now drop an Entity to a Flow, a link is created in the menu. (RTAF-1937)</li>
 </ul>
 <h2 id="Development_Environment_11.6.21">Development Environment 11.6.21</h2>
 <div class="info">
 <p>Released on Jan 06, 2020</p></div>
-<h3>New in Development Environment 11.6.21</h3>
+<h3 id="New_in_Development_Environment_11.6.21">New in Development Environment 11.6.21</h3>
 <ul>
 <li>You can now distribute your app as a Progressive Web App (PWA). Start by enabling this early access feature in LifeTime. Then, create a mobile or tablet app, publish it, navigate to the "Distribute" tab and toggle on "Distribute as the PWA" (no republish needed). You can try your PWA out by installing it through Android Chrome and iOS Safari. The <a href="https://success.outsystems.com/Documentation/11/Delivering_Mobile_Apps/Distribute_as_a_progressive_web_app">early access PWA documentation</a> explains how to enable PWA on iOS 13, as well as how to edit the manifest. Try out the PWAs and <a href="https://www.outsystems.com/forums/71/early-access-features/">share your feedback with us</a> on the forum! (RTAF-1939)</li>
 </ul>
-<h3>Bug Fixing</h3>
+<h3 id="Bug_Fixing_74">Bug Fixing</h3>
 <ul>
 <li>Fixed an issue with the maximum message size quota that prevented Service Studio from opening some applications correctly. (RPD-4679)</li>
 <li>Fixed a security vulnerability. CVSSv3.0 score 9.8 (Critical). (RPD-4618)</li>
@@ -1231,11 +1232,11 @@ Inspired by <a href="https://www.outsystems.com/ideas/7845/">Daniël Kuhlmann's 
 <h2 id="Development_Environment_11.6.18">Development Environment 11.6.18</h2>
 <div class="info">
 <p>Released on Dec 30, 2019</p></div>
-<h3>New in Development Environment 11.6.18</h3>
+<h3 id="New_in_Development_Environment_11.6.18">New in Development Environment 11.6.18</h3>
 <ul>
 <li>Improved the look of dark themes generated by Theme Editor. (RDEV-1193)</li>
 </ul>
-<h3>Bug Fixing</h3>
+<h3 id="Bug_Fixing_75">Bug Fixing</h3>
 <ul>
 <li>Fixed an issue that caused to Application Creation Wizard to appear without images. (RTAF-1906)</li>
 <li>Now dragging an identifier Attribute from a Data Action Structure to a Table Widget works correctly and creates a column. Previously the widget ignored this type of identifier. (RTAF-1790)</li>
@@ -1247,7 +1248,7 @@ Inspired by <a href="https://www.outsystems.com/ideas/7845/">Daniël Kuhlmann's 
 </ul>
 <h2 id="Development_Environment_11.6.17">Development Environment 11.6.17</h2>
 <div class="info"><p>Released on Dec 20, 2019</p></div>
-<h3>New in Development Environment 11.6.17</h3>
+<h3 id="New_in_Development_Environment_11.6.17">New in Development Environment 11.6.17</h3>
 <ul>
 <li>Redesigned the version conflict dialog to make it more difficult for less experienced users to overwrite changes made by others. (RMAC-48)</li>
 <li>It is now possible to report feedback from the "Search in Other Modules" window. (RDEV-820)</li>
@@ -1255,7 +1256,7 @@ Inspired by <a href="https://www.outsystems.com/ideas/7845/">Daniël Kuhlmann's 
 <li>Now you can open and publish modules that are larger than 32 MB. You can't change this setting in the .bindings file anymore. (RICT-2112)</li>
 <li>We improved the preview of the Table Widget. The Table now displays more example records and you can hide/show the rows. (RTAF-1789)</li>
 </ul>
-<h3>Bug Fixing</h3>
+<h3 id="Bug_Fixing_76">Bug Fixing</h3>
 <ul>
 <li>Fixed a scaffolding bug that crashed Service Studio after dragging an Aggregate without a defined source. (RTAF-1878)</li>
 <li>Now dragging an identifier Attribute from a Data Action Structure to a Table Widget works correctly and creates a column. Previously the widget ignored this type of identifier. (RTAF-1790)</li>
@@ -1266,23 +1267,23 @@ Inspired by <a href="https://www.outsystems.com/ideas/7845/">Daniël Kuhlmann's 
 <h2 id="Development_Environment_11.6.16">Development Environment 11.6.16</h2>
 <div class="info">
 <p>Released on Dec 16, 2019</p></div>
-<h3>New in Development Environment 11.6.16</h3>
+<h3 id="New_in_Development_Environment_11.6.16">New in Development Environment 11.6.16</h3>
 <ul>
 <li>It is now possible to scaffold list and detail screens in Reactive Web simply by dragging an entity to a UI flow. (RTAF-1658)</li>
 </ul>
-<h3>Bug Fixing</h3>
+<h3 id="Bug_Fixing_77">Bug Fixing</h3>
 <ul>
 <li>Fixed an issue when creating an empty screen the inserted name wasn't taken into consideration. (RTAF-1871)</li>
 </ul>
 <h2 id="Development_Environment_11.6.14">Development Environment 11.6.14</h2>
 <div class="info">
 <p>Released on Dec 09, 2019</p></div>
-<h3>New in Development Environment 11.6.14</h3>
+<h3 id="New_in_Development_Environment_11.6.14">New in Development Environment 11.6.14</h3>
 <ul>
 <li>It is now possible to open a support case in the Help menu. (RDEV-728)</li>
 <li>Data Sources now support dependency chaining. This enables you to create data sequences to form a more complex behavior with efficient asynchronous and parallel database queries. (RTAF-1764)</li>
 </ul>
-<h3>Bug Fixing</h3>
+<h3 id="Bug_Fixing_78">Bug Fixing</h3>
 <ul>
 <li>Fixed crash that happened while applying  AI flow assistant suggestions for new connectors. (RAID-384)</li>
 <li>Fixed an issue that caused a crash when calculating color suggestions in Theme Editor. (RDEV-1082)</li>
@@ -1292,7 +1293,7 @@ Inspired by <a href="https://www.outsystems.com/ideas/7845/">Daniël Kuhlmann's 
 <h2 id="Development_Environment_11.6.13">Development Environment 11.6.13</h2>
 <div class="info">
 <p>Released on Dec 02, 2019</p></div>
-<h3>New in Development Environment 11.6.13</h3>
+<h3 id="New_in_Development_Environment_11.6.13">New in Development Environment 11.6.13</h3>
 <ul>
 <li>Data Sources now support dependency chaining. This enables you to create data sequences to form a more complex behavior with efficient asynchronous and parallel database queries. (RTAF-1764)</li>
 <li>Added warning message when publishing and a Security Warning is present in the module. (RTAF-1713)</li>
@@ -1300,7 +1301,7 @@ Inspired by <a href="https://www.outsystems.com/ideas/7845/">Daniël Kuhlmann's 
 <li>Added a warning message when Entity Actions are being directly used in client side. (RTAF-1710)</li>
 <li>We improved the warnings in the TrueChange pane to remind you to refresh data sources that use Only On Demand settings. (RTAF-1500)</li>
 </ul>
-<h3>Bug Fixing</h3>
+<h3 id="Bug_Fixing_79">Bug Fixing</h3>
 <ul>
 <li>Fixed an issue that caused a crash after opening Theme Editor in a clone of an OutSystems UI module. (RDEV-1068)</li>
 <li>Fixed an issue that caused a user-defined hexadecimal Color value to be different in Style Sheets Editor and Styles Editor. (RPD-3419)</li>
@@ -1318,14 +1319,14 @@ Inspired by <a href="https://www.outsystems.com/ideas/7845/">Daniël Kuhlmann's 
 <h2 id="Development_Environment_11.6.12">Development Environment 11.6.12</h2>
 <div class="info">
 <p>This is a preliminary version of the document.</p></div>
-<h3>New in Development Environment 11.6.12</h3>
+<h3 id="New_in_Development_Environment_11.6.12">New in Development Environment 11.6.12</h3>
 <ul>
 <li>Added warning message when publishing and a Security Warning is present in the module. (RTAF-1713)</li>
 <li>Added warning message when entity actions are being directly used in client side. (RTAF-1710)</li>
 <li>We improved the warnings in the TrueChange pane to remind you to refresh data sources that use Only On Demand settings. (RTAF-1500)</li>
 <li>Added warning message when a server action is being used in an anonymous screen in a Mobile or Reactive application. (RTAF-1711)</li>
 </ul>
-<h3>Bug Fixing</h3>
+<h3 id="Bug_Fixing_80">Bug Fixing</h3>
 <ul>
 <li>Fixed an issue that caused a tree element to lose focus when renaming that element without any modifications. (RDEV-1055)</li>
 <li>We fixed the scaffolding of forms. Now the scaffolded forms have Checkbox Widgets instead of the Switch Widget for boolean values. This makes the forms work better in modern browsers. (RTAF-1731)</li>
@@ -1336,13 +1337,13 @@ Inspired by <a href="https://www.outsystems.com/ideas/7845/">Daniël Kuhlmann's 
 <h2 id="Development_Environment_11.6.11">Development Environment 11.6.11</h2>
 <div class="info">
 <p>Released on Nov 25, 2019</p></div>
-<h3>New in Development Environment 11.6.11</h3>
+<h3 id="New_in_Development_Environment_11.6.11">New in Development Environment 11.6.11</h3>
 <ul>
 <li>It is now possible to disable or enable multiple elements in an Action flow when the selection contains both disabled and enabled elements. Inspired by <a href="https://www.outsystems.com/ideas/7573/">Cláudia Capitão's idea</a>. (RDEV-1021)</li>
 <li>Improved Table widget for Reactive OnSort generated action. (RTAF-1700)</li>
 <li>Now, you can easily customize the look of your app without CSS by using <a href="https://success.outsystems.com/Documentation/11/Developing_an_Application/Design_UI/Look_and_Feel/Customize_the_look_of_your_app_with_Theme_Editor">Theme Editor</a>. (RDEV-468)</li>
 </ul>
-<h3>Bug Fixing</h3>
+<h3 id="Bug_Fixing_81">Bug Fixing</h3>
 <ul>
 <li>Fixed an issue that caused Service Studio to crash while closing Module tabs. (RDEV-1041)</li>
 <li>Now, if the Widget Tree is open, selecting "Go to &lt;element&gt;" switches to the Elements tree and highlights the &lt;element&gt;. Reported by <a href="https://www.outsystems.com/ideas/6636/">João Barata</a>. (RDEV-490)</li>
@@ -1359,13 +1360,13 @@ Inspired by <a href="https://www.outsystems.com/ideas/7845/">Daniël Kuhlmann's 
 <h2 id="Development_Environment_11.6.9">Development Environment 11.6.9</h2>
 <div class="info">
 <p>Released on Nov 20, 2019</p></div>
-<h3>New in Development Environment 11.6.9</h3>
+<h3 id="New_in_Development_Environment_11.6.9">New in Development Environment 11.6.9</h3>
 <ul>
 <li>Now, you are asked for confirmation before publishing a module that is being debugged. (RDEV-978)</li>
 <li>Now, Service Studio only works with 64-bit operating systems. (RICT-2119)</li>
 <li>You can now verify the type of Module your're developing in Service Studio. Check the Module Properties pane. (RTAF-1687)</li>
 </ul>
-<h3>Bug Fixing</h3>
+<h3 id="Bug_Fixing_82">Bug Fixing</h3>
 <ul>
 <li>Fixed an issue that caused Service Studio to show multiple arrows during the 'Build an App in 5-min' tutorial. (RDEV-920)</li>
 <li>Fixed a Service Studio crash when referencing Blocks with a placeholder and sample content that contains a Dropdown Widget. (RTAF-1671)</li>
@@ -1374,13 +1375,13 @@ Inspired by <a href="https://www.outsystems.com/ideas/7845/">Daniël Kuhlmann's 
 <h2 id="Development_Environment_11.6.7">Development Environment 11.6.7</h2>
 <div class="info">
 <p>Released on Nov 12, 2019</p></div>
-<h3>New in Development Environment 11.6.7</h3>
+<h3 id="New_in_Development_Environment_11.6.7">New in Development Environment 11.6.7</h3>
 <ul>
 <li>Improved the default REST API method names when the URLs contain parenthesis characters. (RSBO-903)</li>
 <li>Added support for Visual Studio 2019 in Integration Studio. (RPC-446)</li>
 <li>It is now possible to easily add a screen to the menu in Reactive Web simply by dragging it to menu. (RTAF-1486)</li>
 </ul>
-<h3>Bug Fixing</h3>
+<h3 id="Bug_Fixing_83">Bug Fixing</h3>
 <ul>
 <li>Fixed the ".Net Compiler Tool" detection in Integration Studio when using Visual Studio 2019.  In installations with incorrect values, you can click "Reset Defaults" in the Options dialog box to determine the correct values. (RPC-447)</li>
 <li>Fixed compiler error after changing the name of an entity attribute being used in aggregate functions. (RSBO-925)</li>
@@ -1388,13 +1389,13 @@ Inspired by <a href="https://www.outsystems.com/ideas/7845/">Daniël Kuhlmann's 
 <h2 id="Development_Environment_11.6.6">Development Environment 11.6.6</h2>
 <div class="info">
 <p>Released on Oct 28, 2019</p></div>
-<h3>New in Development Environment 11.6.6</h3>
+<h3 id="New_in_Development_Environment_11.6.6">New in Development Environment 11.6.6</h3>
 <ul>
 <li>It is now possible to consume REST APIs using Swagger specifications that have enum elements.  (RSBO-872)</li>
 <li>It's now possible to open the documentation page of exposed SOAP Web Services directly from Service Studio, similarly to the existing option for exposed REST APIs. Inspired by <a href="https://www.outsystems.com/ideas/5375/open-documentation-of-soap-web-service">Kilian's idea</a>. (RSBO-612)</li>
 <li>Entity View Data now adds a 'Sort by Id Desc' by default (RSBO-611)</li>
 </ul>
-<h3>Bug Fixing</h3>
+<h3 id="Bug_Fixing_84">Bug Fixing</h3>
 <ul>
 <li>Fixed an issue that caused a crash when you tried to open a hidden element from Find Usages. (RDEV-908)</li>
 <li>Fixed a bug when trying to go to an element while aggregate with a group by is fetching data. (RSBO-837)</li>
@@ -1404,26 +1405,26 @@ Inspired by <a href="https://www.outsystems.com/ideas/7845/">Daniël Kuhlmann's 
 <h2 id="Development_Environment_11.6.5">Development Environment 11.6.5</h2>
 <div class="info">
 <p>This is a preliminary version of the document.</p></div>
-<h3>New in Development Environment 11.6.5</h3>
+<h3 id="New_in_Development_Environment_11.6.5">New in Development Environment 11.6.5</h3>
 <ul>
 <li>It's now possible to use Client Variables on Aggregates. (RTAF-1334)</li>
 </ul>
 <h2 id="Development_Environment_11.6.4">Development Environment 11.6.4</h2>
 <div class="info">
 <p>This is a preliminary version of the document.</p></div>
-<h3>New in Development Environment 11.6.4</h3>
+<h3 id="New_in_Development_Environment_11.6.4">New in Development Environment 11.6.4</h3>
 <ul>
 <li>It's now possible to use Client Variables on Aggregates. (RTAF-1334)</li>
 </ul>
 <h2 id="Development_Environment_11.6.3">Development Environment 11.6.3</h2>
 <div class="info">
 <p>This is a preliminary version of the document.</p></div>
-<h3>New in Development Environment 11.6.3</h3>
+<h3 id="New_in_Development_Environment_11.6.3">New in Development Environment 11.6.3</h3>
 <ul>
 <li>It's now possible to use Client Variables on Aggregates. (RTAF-1334)</li>
 <li>Fixed invalid logo images in newly created modules. (RTAF-1498)</li>
 </ul>
-<h3>Bug Fixing</h3>
+<h3 id="Bug_Fixing_85">Bug Fixing</h3>
 <ul>
 <li>Fixed an issue that caused Service Studio to crash during the 'Build a Web/Mobile App in 5 min' tutorials while calculating the position of the tutorial arrows. (RDEV-915)</li>
 <li>Fixed crash while loading modules with Dropdown widgets that contain direct children like IF, Web Block Instance, or Text. (RTAF-1433)</li>
@@ -1432,12 +1433,12 @@ Inspired by <a href="https://www.outsystems.com/ideas/7845/">Daniël Kuhlmann's 
 <h2 id="Development_Environment_11.6.2">Development Environment 11.6.2</h2>
 <div class="info">
 <p>Released on Oct 14, 2019</p></div>
-<h3>New in Development Environment 11.6.2</h3>
+<h3 id="New_in_Development_Environment_11.6.2">New in Development Environment 11.6.2</h3>
 <ul>
 <li>We updated icons on the Reactive Web App's Table toolbar. (RTAF-1345)</li>
 <li>Screen and Block LifeCycle event parameters are now only visible when used. With client variables, screen aggregate scope improvements and the fetch property, they should not be used only for more advanced scenarios. (RTAF-1505)</li>
 </ul>
-<h3>Bug Fixing</h3>
+<h3 id="Bug_Fixing_86">Bug Fixing</h3>
 <ul>
 <li>Fixed an issue in the Style Sheet Editor that caused a crash after opening a stylesheet that includes CSS variables. (RDEV-913)</li>
 <li>Fixed an issue that caused Service Studio to crash during the 'Build a Web/Mobile App in 5 min' tutorials while calculating the position of the tutorial arrows. (RDEV-915)</li>
@@ -1449,7 +1450,7 @@ Inspired by <a href="https://www.outsystems.com/ideas/7845/">Daniël Kuhlmann's 
 <div class="info">
 <p>Released on Oct 02, 2019</p>
 </div>
-<h3>New in Development Environment 11.6.1</h3>
+<h3 id="New_in_Development_Environment_11.6.1">New in Development Environment 11.6.1</h3>
 <ul>
 <li><b>You can now create a new type of app, <a href="https://www.outsystems.com/DocRouter/Router.aspx?PlatformToolName=ServiceStudio&amp;PlatformVersionNumber=11.0&amp;HelpId=30195">Reactive Web App</a>.</b> This type of app is based on the client-side development paradigm. Reactive App comes with its own new features: Table Widget, server-side pagination, and Public Screens. (RTAF-115)
 
@@ -1467,7 +1468,7 @@ Inspired by <a href="https://www.outsystems.com/ideas/7845/">Daniël Kuhlmann's 
 <li>We improved Data Sources and made asynchronous data fetching straightforward to use in Mobile and Reactive Apps. Screen Aggregates and Data Actions are now available in the scope of other Screen Aggregates and Data Actions. We also added the Fetch property with On Start and On Demand options. Now you can implement patterns such as master/detail with excellent performance and user experience. (RTAF-992)</li>
 <li>Added mobile debugger support to iOS13. (RTAF-1349)</li>
 </ul>
-<h3>Bug Fixing</h3>
+<h3 id="Bug_Fixing_87">Bug Fixing</h3>
 <ul>
 <li>Fixed crash while loading modules with Dropdown widgets that contain direct children like IF, Web Block Instance, or Text. (RTAF-1433)</li>
 <li>Fixed the text formatting of the "More Information" field in dialog boxes. (RMAC-1392)</li>
@@ -1476,7 +1477,7 @@ Inspired by <a href="https://www.outsystems.com/ideas/7845/">Daniël Kuhlmann's 
 <h2 id="Development_Environment_11.6.0">Development Environment 11.6.0</h2>
 <div class="info">
 <p>This is a preliminary version of the document.</p></div>
-<h3>New in Development Environment 11.6.0</h3>
+<h3 id="New_in_Development_Environment_11.6.0">New in Development Environment 11.6.0</h3>
 <ul>
 <li>Use the server-side pagination feature of the Screen Aggregates to build faster apps that need to handle large data sets. Enter the Start Index and fetch the number of records you define in Max Records. (RTAF-630)</li>
 <li>
@@ -1486,14 +1487,14 @@ This feature requires OutSystems Platform Server 11 Release Oct.2019. (RSBO-811)
 <li>Reuse UI across different Reactive Web modules and apps. Because the UI can be modular, you can now have more complex UI modules that you can maintain efficiently. You can collaborate better without merge conflicts, as one team can be working on the logic module, while the other is updating the UI module. (RTAF-198)</li>
 <li>You can now create a new type of app, <a href="https://www.outsystems.com/DocRouter/Router.aspx?PlatformToolName=ServiceStudio&amp;PlatformVersionNumber=11.0&amp;HelpId=30195">Reactive Web App</a>. This type of app is based on the client-side development paradigm. Reactive App comes with its own new features: Table Widget, server-side pagination, and Public Screens. (RTAF-115)</li>
 </ul>
-<h3>Bug Fixing</h3>
+<h3 id="Bug_Fixing_88">Bug Fixing</h3>
 <ul>
 <li>Fixed the text formatting of the "More Information" field in dialog boxes. (RMAC-1392)</li>
 </ul>
 <h2 id="Development_Environment_11.5.46">Development Environment 11.5.46</h2>
 <div class="info">
 <p>This is a preliminary version of the document.</p></div>
-<h3>New in Development Environment 11.5.46</h3>
+<h3 id="New_in_Development_Environment_11.5.46">New in Development Environment 11.5.46</h3>
 <ul>
 <li>Use the server-side pagination feature of the Screen Aggregates to build faster apps that need to handle large data sets. Enter the Start Index and fetch the number of records you define in Max Records. (RTAF-630)</li>
 <li>
@@ -1503,17 +1504,17 @@ This feature requires OutSystems Platform Server 11 Release Oct.2019. (RSBO-811)
 <li>Reuse UI across different Reactive Web modules and apps. Because the UI can be modular, you can now have more complex UI modules that you can maintain efficiently. You can collaborate better without merge conflicts, as one team can be working on the logic module, while the other is updating the UI module. (RTAF-198)</li>
 <li>You can now create a new type of app, <a href="https://www.outsystems.com/DocRouter/Router.aspx?PlatformToolName=ServiceStudio&amp;PlatformVersionNumber=11.0&amp;HelpId=30195">Reactive Web App</a>. This type of app is based on the client-side development paradigm. Reactive App comes with its own new features: Table Widget, server-side pagination, and Public Screens. (RTAF-115)</li>
 </ul>
-<h3>Bug Fixing</h3>
+<h3 id="Bug_Fixing_89">Bug Fixing</h3>
 <ul>
 <li>Fixed the text formatting of the "More Information" field in dialog boxes. (RMAC-1392)</li>
 </ul>
 <h2 id="Development_Environment_11.5.45">Development Environment 11.5.45</h2>
 <div class="info"><p>Released on Sep 24, 2019</p></div>
-<h3>New in Development Environment 11.5.45</h3>
+<h3 id="New_in_Development_Environment_11.5.45">New in Development Environment 11.5.45</h3>
 <ul>
 <li>Added mobile debugger support to iOS13 (RTAF-1349)</li>
 </ul>
-<h3>Bug Fixing</h3>
+<h3 id="Bug_Fixing_90">Bug Fixing</h3>
 <ul>
 <li>Fixed an issue that caused icons to be displayed with the wrong size on Add Local Entity From Database.
 (RDEV-830)</li>
@@ -1529,11 +1530,11 @@ This feature requires OutSystems Platform Server 11 Release Oct.2019. (RSBO-811)
 <div class="info">
 <p>Released on Sep 11, 2019</p>
 </div>
-<h3>New in Development Environment 11.5.44</h3>
+<h3 id="New_in_Development_Environment_11.5.44">New in Development Environment 11.5.44</h3>
 <ul>
 <li>It is now possible to consume REST APIs using a Swagger specification from a local file system path. (RSBO-829)</li>
 </ul>
-<h3>Bug Fixing</h3>
+<h3 id="Bug_Fixing_91">Bug Fixing</h3>
 <ul>
 <li>Fixed the tooltip text for List Box widget. (RDEV-811)</li>
 <li>Fixed an issue that caused a crash when editing Style Classes in Style Editor. (RDEV-835)</li>
@@ -1545,11 +1546,11 @@ This feature requires OutSystems Platform Server 11 Release Oct.2019. (RSBO-811)
 <div class="info">
 <p>Released on Sep 04, 2019</p>
 </div>
-<h3>New in Development Environment 11.5.43</h3>
+<h3 id="New_in_Development_Environment_11.5.43">New in Development Environment 11.5.43</h3>
 <ul>
 <li>We updated the part of the UI about the New Module panel in application details to improve usability. (RMAC-1138)</li>
 </ul>
-<h3>Bug Fixing</h3>
+<h3 id="Bug_Fixing_92">Bug Fixing</h3>
 <ul>
 <li>RichWidgets reference is no longer added on Mobile modules when replacing data. (RTAF-1145)</li>
 <li>Fix crashes when dropping Structures to a Consume REST integration. (RSBO-737)</li>
@@ -1558,13 +1559,13 @@ This feature requires OutSystems Platform Server 11 Release Oct.2019. (RSBO-811)
 <div class="info">
 <p>Released on Aug 26, 2019</p>
 </div>
-<h3>New in Development Environment 11.5.42</h3>
+<h3 id="New_in_Development_Environment_11.5.42">New in Development Environment 11.5.42</h3>
 <ul>
 <li>Improved efficiency of opening support cases from IDE by pre-filling form fields. (RDEV-562)</li>
 <li>You can now restart your Personal Environment in the <a href="https://www.outsystems.com/goto/home">Platform Home page</a>. This allows you to recover from a 503 error (server unavailable) when creating a new Application or during a 1-Click Publish. (RDEV-706)</li>
 <li>Now, you can quickly search and add a dependency by right-clicking on a folder in a tree (e.g. Server Actions folder) and selecting "Add Dependency". (RDEV-712)</li>
 </ul>
-<h3>Bug Fixing</h3>
+<h3 id="Bug_Fixing_93">Bug Fixing</h3>
 <ul>
 <li>Fixed an issue that made Service Studio crash if your last interaction before closing a module was a selection popup (e.g. select from RunServerAction). (RICT-1903)</li>
 <li>Fixed a problem when compiling modules if they contain widgets whose width or margin properties are not in a numeric format. (RTAF-1054)</li>
@@ -1573,12 +1574,12 @@ This feature requires OutSystems Platform Server 11 Release Oct.2019. (RSBO-811)
 <div class="info">
 <p>Released on Aug 12, 2019</p>
 </div>
-<h3>New in Development Environment 11.5.40</h3>
+<h3 id="New_in_Development_Environment_11.5.40">New in Development Environment 11.5.40</h3>
 <ul>
 <li>From now on, Local Variables created from the Variable property of an Input widget inherit the Variable name. Inspired by <a href="https://www.outsystems.com/ideas/6056/">Johan's idea</a>. (RDEV-702)</li>
 <li>The property Values from Dropdown widget was renamed to Options Value. (RTAF-904)</li>
 </ul>
-<h3>Bug Fixing</h3>
+<h3 id="Bug_Fixing_94">Bug Fixing</h3>
 <ul>
 <li>Fixed an issue that caused the scroll of the Forge Updates (bell) to not work. (RDEV-714)</li>
 <li>Fixed an issue that caused a crash when double clicking filter conditions in Aggregates. (RDEV-686)</li>
@@ -1591,14 +1592,14 @@ This feature requires OutSystems Platform Server 11 Release Oct.2019. (RSBO-811)
 <div class="info">
 <p>Released on Jul 31, 2019</p>
 </div>
-<h3>New in Development Environment 11.5.39</h3>
+<h3 id="New_in_Development_Environment_11.5.39">New in Development Environment 11.5.39</h3>
 <ul>
 <li>We updated the part of the UI about the application details, to improve usability and give it a fresher look and feel. (RMAC-1045)</li>
 <li>We improved the experience of creating custom Screen Templates from the existing Screen Templates. Now the resulting Screen Template has the base Layout upon creation. (RTAF-877)</li>
 <li>On new installations of Service Studio, the install folder is now "\Program Files\OutSystems\Development Environment 11". (RRET-1296)</li>
 <li>The Development Environment releases now follow a new versioning format. Check <a href="https://www.outsystems.com/forums/discussion/50621/were-changing-how-we-version-outsystems-11-releases/#Post187886">this forum post</a> for more information about this change. (RRET-1317)</li>
 </ul>
-<h3>Bug Fixing</h3>
+<h3 id="Bug_Fixing_95">Bug Fixing</h3>
 <ul>
 <li>Fixed an issue that caused the mouse cursor (icon) to be wrongly displayed while dragging elements over Entity Diagram or Aggregates. (RDEV-564)</li>
 <li>Fixed an issue that caused changed app details not to be updated. This happened after you’d change the app icon, name, description or color in the application details and then returned to the application list. (RMAC-1035)</li>
@@ -1611,7 +1612,7 @@ This feature requires OutSystems Platform Server 11 Release Oct.2019. (RSBO-811)
 <div class="info">
 <p>Released on Jul 18, 2019</p>
 </div>
-<h3>Bug Fixing</h3>
+<h3 id="Bug_Fixing_96">Bug Fixing</h3>
 <ul>
 <li>Fixed an issue that prevented the usage of Preview Data on Aggregates and Test Query by always requesting a publish of the module. (RTAF-913)</li>
 <li>Fixed an issue that caused Service Studio to crash when dragging text in the expression editor. (RDEV-566)</li>
@@ -1621,7 +1622,7 @@ This feature requires OutSystems Platform Server 11 Release Oct.2019. (RSBO-811)
 <div class="info">
 <p>Released on Jul 15, 2019</p>
 </div>
-<h3>Bug Fixing</h3>
+<h3 id="Bug_Fixing_97">Bug Fixing</h3>
 <ul>
 <li>Fixed crash when using static entities from a SOAP service more than once in a SQL node statement. (RSBO-628)</li>
 <li>Fixed crash when using Static Entities from a SOAP service more than once in an Aggregate. (RSBO-627)</li>
@@ -1631,12 +1632,12 @@ This feature requires OutSystems Platform Server 11 Release Oct.2019. (RSBO-811)
 <div class="info">
 <p>Released on Jul 08, 2019</p>
 </div>
-<h3>New in Development Environment Release 27</h3>
+<h3 id="New_in_Development_Environment_Release_27">New in Development Environment Release 27</h3>
 <ul>
 <li>It is now possible to find public elements across all Modules in an Environment and add them as dependencies. Inspired by <a href="https://www.outsystems.com/ideas/1177/">Gerry's idea</a>. (RDEV-303)</li>
 <li>Now, the Style Classes property of widgets provides suggestions based on most used styles on widgets of the same type (for example, Button, Container, ...). (RDEV-567)</li>
 </ul>
-<h3>Bug Fixing</h3>
+<h3 id="Bug_Fixing_98">Bug Fixing</h3>
 <ul>
 <li>Fixed an issue that caused the Forge Updates pop-up not to close when clicking the bell icon. (RDEV-572)</li>
 <li>Fixed an issue that caused the text within Comment elements in entity diagrams disappear when clicking outside the comment box. (RDEV-550)</li>
@@ -1652,12 +1653,12 @@ This feature requires OutSystems Platform Server 11 Release Oct.2019. (RSBO-811)
 <div class="info">
 <p>Released on Jul 01, 2019</p>
 </div>
-<h3>New in Development Environment Release 26</h3>
+<h3 id="New_in_Development_Environment_Release_26">New in Development Environment Release 26</h3>
 <ul>
 <li>It's now possible to import REST APIs using Swagger/OpenAPI with an "Example" field value for complex objects. (RSBO-84)</li>
 <li>Added a new error message stating that you cannot use the EnhancedWebReferences API together with a consumed SOAP Web Service created in OutSystems 11 (you must use the SOAP Extensibility API instead). (RSBO-536)</li>
 </ul>
-<h3>Bug Fixing</h3>
+<h3 id="Bug_Fixing_99">Bug Fixing</h3>
 <ul>
 <li>We fixed a crash related to certain conditions when navigating to a Variable value during a debug session. (RTAF-619)</li>
 </ul>
@@ -1665,11 +1666,11 @@ This feature requires OutSystems Platform Server 11 Release Oct.2019. (RSBO-811)
 <div class="info">
 <p>Released on Jun 19, 2019</p>
 </div>
-<h3>New in Development Environment Release 25</h3>
+<h3 id="New_in_Development_Environment_Release_25">New in Development Environment Release 25</h3>
 <ul>
 <li>Added support for TLS 1.1 and TLS 1.2 on MySQL external database connections. Warning: OutSystems now distributes BouncyCastle (v1.8.3) and Google.Protobuf (v.3.6.1.0) alongside the MySQL driver - this may impact the existing extensions that use different versions. (RSAT-1258)</li>
 </ul>
-<h3>Bug Fixing</h3>
+<h3 id="Bug_Fixing_100">Bug Fixing</h3>
 <ul>
 <li>We fixed a crash related to certain conditions when dragging and dropping text in Expression Editor. (RTAF-611)</li>
 </ul>
@@ -1677,7 +1678,7 @@ This feature requires OutSystems Platform Server 11 Release Oct.2019. (RSBO-811)
 <div class="info">
 <p>Released on Jun 11, 2019</p>
 </div>
-<h3>New in Development Environment Release 24</h3>
+<h3 id="New_in_Development_Environment_Release_24">New in Development Environment Release 24</h3>
 <ul>
 <li>It is now possible to hide mobile app upgrade notifications by setting an empty message on the "Upgrade Messages" properties of the module. (RTAF-610)</li>
 <li>Added support for TLS 1.1 and TLS 1.2 on MySQL external database connections. (RSAT-1258)</li>
@@ -1693,7 +1694,7 @@ This feature requires OutSystems Platform Server 11 Release Apr.2019 CP1. (RSBO-
 <li>It is now possible to consume SOAP services that have sequences with duplicated elements. (RPD-3898)</li>
 <li>Added support for SOAP Actions containing special characters. (RSBO-384)</li>
 </ul>
-<h3>Bug Fixing</h3>
+<h3 id="Bug_Fixing_101">Bug Fixing</h3>
 <ul>
 <li>Fixed an issue that set the wrong Output Entity/Structure name in SQL node. (RDEV-496)</li>
 <li>Fixed an issue that caused the properties dropdowns not to be shown when pressing F4. (RDEV-471)</li>
@@ -1710,11 +1711,11 @@ This feature requires OutSystems Platform Server 11 Release Apr.2019 CP1. (RSBO-
 <div class="info">
 <p>Released on May 20, 2019</p>
 </div>
-<h3>New in Development Environment Release 23</h3>
+<h3 id="New_in_Development_Environment_Release_23">New in Development Environment Release 23</h3>
 <ul>
 <li>You can now add multiple customized Style Classes (Style and Properties tab) to widgets using autocomplete suggestions. (RDEV-146)</li>
 </ul>
-<h3>Bug Fixing</h3>
+<h3 id="Bug_Fixing_102">Bug Fixing</h3>
 <ul>
 <li>Fixed an issue that caused a crash while trying to import Entities from an Excel file that was already being used by another application or process. (RDEV-426)</li>
 <li>Fixed an issue where Open from Environment window search filter couldn't find a Module if the search string had a space at the end. (RDEV-428)</li>
@@ -1729,11 +1730,11 @@ This feature requires OutSystems Platform Server 11 Release Apr.2019 CP1. (RSBO-
 <div class="info">
 <p>Released on May 13, 2019</p>
 </div>
-<h3>New in Development Environment Release 22</h3>
+<h3 id="New_in_Development_Environment_Release_22">New in Development Environment Release 22</h3>
 <ul>
 <li>Improved visibility of Styles Editor by showing it as a tab in the Properties Area. (RDEV-325)</li>
 </ul>
-<h3>Bug Fixing</h3>
+<h3 id="Bug_Fixing_103">Bug Fixing</h3>
 <ul>
 <li>Fixed an issue that prevented Entity relationships from being displayed in Entity Diagrams with a large number of Entities. (RDEV-411)</li>
 <li>Fixed an issue with Service Studio '-publish' command line option. (RDEV-415)</li>
@@ -1742,7 +1743,7 @@ This feature requires OutSystems Platform Server 11 Release Apr.2019 CP1. (RSBO-
 <div class="info">
 <p>Released on Apr 30, 2019</p>
 </div>
-<h3>Bug Fixing</h3>
+<h3 id="Bug_Fixing_104">Bug Fixing</h3>
 <ul>
 <li>Fixed an issue that caused Service Studio to lose focus after closing a dialog window. (RDEV-331)</li>
 <li>Fixed a crash when executing tutorials. (RICT-1511)</li>
@@ -1751,11 +1752,11 @@ This feature requires OutSystems Platform Server 11 Release Apr.2019 CP1. (RSBO-
 <div class="info">
 <p>Released on Apr 22, 2019</p>
 </div>
-<h3>New in Development Environment Release 19</h3>
+<h3 id="New_in_Development_Environment_Release_19">New in Development Environment Release 19</h3>
 <ul>
 <li>Now, opening Manage Dependencies is on average 2x quicker. (RDEV-397)</li>
 </ul>
-<h3>Bug Fixing</h3>
+<h3 id="Bug_Fixing_105">Bug Fixing</h3>
 <ul>
 <li>We fixed an occasional crash while debugging an app in instances where the debugger variables changed. (RICT-1481)</li>
 <li>Fixed an issue in the Spanish translation of RichWidgets. (RPD-3132)</li>
@@ -1773,7 +1774,7 @@ This feature requires OutSystems Platform Server 11 Release Apr.2019 CP1. (RSBO-
 <div class="info">
 <p>Released on Apr 15, 2019</p>
 </div>
-<h3>New in Development Environment Release 18</h3>
+<h3 id="New_in_Development_Environment_Release_18">New in Development Environment Release 18</h3>
 <ul>
 <li>Now, the label of an Assign is automatically set after dragging a Variable with a data type of Entity, Structure, or Record to an Action Flow. Inspired by <a href="https://www.outsystems.com/ideas/5918/">Nelson's idea</a>. (RDEV-56)</li>
 <li>From now on it is possible to open a Screen in browser when the Widget Tree is enabled. Inspired by <a href="https://www.outsystems.com/ideas/6344/"> Johan's idea</a>. (RDEV-172)</li>
@@ -1785,7 +1786,7 @@ This feature requires OutSystems Platform Server 11 Release Apr.2019 CP1. (RSBO-
 <li>It is now possible to fix a mobile List widget that has an invalid source by dragging and dropping a valid source on top of the List. (RDEV-176)</li>
 <li>It is now possible to use Ctrl+Down/Ctrl+Up to reorder assignments when the focus is on the Value property of an Assign. Inspired by <a href="https://www.outsystems.com/ideas/6051/"> PJ M's idea</a>. (RDEV-174)</li>
 </ul>
-<h3>Bug Fixing</h3>
+<h3 id="Bug_Fixing_106">Bug Fixing</h3>
 <ul>
 <li>Fixed an issue that prevented adding "{EntityName}.*" automatically to a SQL query by dragging an Entity to the SQL element. (RDEV-351)</li>
 <li>Fixed a Service Studio crash that occurred when introspecting WSDL with types having a single attribute with the same name. (RSBO-249)</li>
@@ -1799,7 +1800,7 @@ This feature requires OutSystems Platform Server 11 Release Apr.2019 CP1. (RSBO-
 <div class="info">
 <p>Released on Mar 18, 2019</p>
 </div>
-<h3>Bug Fixing</h3>
+<h3 id="Bug_Fixing_107">Bug Fixing</h3>
 <ul>
 <li>Fixed an issue in the JSON Serialize widget that affected the serialization of Date and Time values. This was causing the JSON Deserialize widget to return empty values. (RPD-3970)</li>
 </ul>
@@ -1807,7 +1808,7 @@ This feature requires OutSystems Platform Server 11 Release Apr.2019 CP1. (RSBO-
 <div class="info">
 <p>Released on Mar 12, 2019</p>
 </div>
-<h3>New in Development Environment Release 16</h3>
+<h3 id="New_in_Development_Environment_Release_16">New in Development Environment Release 16</h3>
 <ul>
 <li>The widget selection window for the Ajax Refresh element now shows a notification banner stating 'This window only shows widgets that have the Name property defined.'. (RDEV-26)</li>
 <li>We improved the discoverability of the Widget Tree: Added animation to the widget tree when you are dragging a widget to a Screen or Block, and changed the widget tree button. (RDEV-177)</li>
@@ -1816,7 +1817,7 @@ This feature requires OutSystems Platform Server 11 Release Apr.2019 CP1. (RSBO-
 <li>Service Studio no longer fills-in the default element name as soon as the name of the element gets erased. (RDEV-162)</li>
 <li>Improved focus when editing styles in mobile applications. (RMAC-204)</li>
 </ul>
-<h3>Bug Fixing</h3>
+<h3 id="Bug_Fixing_108">Bug Fixing</h3>
 <ul>
 <li>Fixed an issue that was causing Open Source Licenses window to lose focus when minimizing Service Studio. (RICT-1419)</li>
 <li>SOAP introspection now supports enumerator values with more than 50 characters. (RSBO-259)</li>
@@ -1830,7 +1831,7 @@ This feature requires OutSystems Platform Server 11 Release Apr.2019 CP1. (RSBO-
 <div class="info">
 <p>Released on Mar 04, 2019</p>
 </div>
-<h3>New in Development Environment Release 15</h3>
+<h3 id="New_in_Development_Environment_Release_15">New in Development Environment Release 15</h3>
 <ul>
 <li>Expression Editor now has buttons for True and False boolean values. Inspired by <a href="https://www.outsystems.com/ideas/2339/"> Hans Bruins' idea</a>. (RDEV-160)</li>
 <li>Service Studio can now be updated automatically. Go to Settings and select "Update Service Studio automatically" to turn on the feature. The auto-update is disabled if you're running Service Studio on Windows Server. Inspired by <a href="https://www.outsystems.com/ideas/1352/">André Ramos' idea</a>. (RICT-1351)</li>
@@ -1839,7 +1840,7 @@ This feature requires OutSystems Platform Server 11 Release Apr.2019 CP1. (RSBO-
 <li>Upgraded SharpZipLib library to version 1.1.0. (RRCT-2292)</li>
 <li>Updated the following JavaScript libraries used by the mobile applications runtime: 'decimal.js' to version 10.0.1, 'toformat' to version 2.0.0. (RTAF-91)</li>
 </ul>
-<h3>Bug Fixing</h3>
+<h3 id="Bug_Fixing_109">Bug Fixing</h3>
 <ul>
 <li>Fixed an issue when copy-pasting actions ListAppend and ListAppendAll from a module to another that was causing some type conversion mappings to be deleted. (RICT-1354)</li>
 <li>Fixed SOAP introspection not detecting some unsupported features. (RSBO-246)</li>
@@ -1863,12 +1864,12 @@ This feature requires OutSystems Platform Server 11 Release Apr.2019 CP1. (RSBO-
 <div class="info">
 <p>Released on Feb 11, 2019</p>
 </div>
-<h3>New in Development Environment Release 14</h3>
+<h3 id="New_in_Development_Environment_Release_14">New in Development Environment Release 14</h3>
 <ul>
 <li>Now you can open the Application details in the Application search results without resetting the search. Inspired by <a href="https://www.outsystems.com/ideas/5137/">Tiago's idea</a>. (RIUT-650)</li>
 <li>Updated the following JavaScript libraries used by the mobile applications runtime: 'requirejs' to version 2.3.6, 'es6-promise' to version 4.2.5, 'long' to version 4.0.0, 'decimal.js' to version 10.0.1, 'toformat' to version 2.0.0. (RTAF-91)</li>
 </ul>
-<h3>Bug Fixing</h3>
+<h3 id="Bug_Fixing_110">Bug Fixing</h3>
 <ul>
 <li>We fixed a crash in the Mobile Tutorial that happened when you created the first Screen. (RICT-1275)</li>
 <li>We fixed a crash in creating the first Screen in a Flow that already had an Entry node. (RPD-3731)</li>
@@ -1881,7 +1882,7 @@ This feature requires OutSystems Platform Server 11 Release Apr.2019 CP1. (RSBO-
 <div class="info">
 <p>Released on Feb 05, 2019</p>
 </div>
-<h3>New in Development Environment Release 13</h3>
+<h3 id="New_in_Development_Environment_Release_13">New in Development Environment Release 13</h3>
 <ul>
 <li>Improved the identification of screens and blocks differences in Compare and Merge window. (RCOT-2139)</li>
 <li>You can now use a Text Editor to edit attributes and variables' default value. Inspired by <a href="https://www.outsystems.com/ideas/5934/">Ricardo Reis' idea</a>. (RIUT-591)</li>
@@ -1889,7 +1890,7 @@ This feature requires OutSystems Platform Server 11 Release Apr.2019 CP1. (RSBO-
 <li>Improved Integration Studio icons. (RINT-3338)</li>
 <li>Added a warning when the argument passed to a SQL Query Parameter with the Expand Inline set starts with "EncodeSql". Also added a warning when the argument passed to a SQL Query Parameter with the Expand Inline set uses the built-in function Replace. Both scenarios are prone to cause runtime errors. (RRCT-2116)</li>
 </ul>
-<h3>Bug Fixing</h3>
+<h3 id="Bug_Fixing_111">Bug Fixing</h3>
 <ul>
 <li>Fixed a crash when dragging text to the end of an expression or CSS. (RICT-1257)</li>
 <li>Fixed an issue that caused the cursor to misbehave while editing the name of an Aggregate. (RICT-1254)</li>
@@ -1912,7 +1913,7 @@ This feature requires OutSystems Platform Server 11 Release Apr.2019 CP1. (RSBO-
 <div class="info">
 <p>Released on Jan 25, 2019</p>
 </div>
-<h3>New in Development Environment Release 12</h3>
+<h3 id="New_in_Development_Environment_Release_12">New in Development Environment Release 12</h3>
 <ul>
 <li>There's now a warning dialog if you try to create a Screen based on an incompatible Screen Template. (RAFT-1737)</li>
 <li>Improved the experience of adding a preview image to a custom template screen. (RAFT-1756)</li>
@@ -1922,7 +1923,7 @@ This feature requires OutSystems Platform Server 11 Release Apr.2019 CP1. (RSBO-
 <li>Forge Updates popup now better shows application names and has tooltips for more details. (RIUT-603)</li>
 <li>Added a warning when the argument passed to a SQL Query Parameter with the Expand Inline set starts with "EncodeSql". Also added a warning when the argument passed to a SQL Query Parameter with the Expand Inline set uses the built-in function Replace. Both scenarios are prone to cause runtime errors. (RRCT-2116)</li>
 </ul>
-<h3>Bug Fixing</h3>
+<h3 id="Bug_Fixing_112">Bug Fixing</h3>
 <ul>
 <li>Fixed unescaped strings in the generated translated javascript code. (RPD-3483)</li>
 <li>Solved a problem that resulted in corrupted expressions. (RICT-1230)</li>
@@ -1941,11 +1942,11 @@ This feature requires OutSystems Platform Server 11 Release Apr.2019 CP1. (RSBO-
 <div class="info">
 <p>Released on Jan 17, 2019</p>
 </div>
-<h3>New in Development Environment Release 11</h3>
+<h3 id="New_in_Development_Environment_Release_11">New in Development Environment Release 11</h3>
 <ul>
 <li>You can now create your own Screen Templates. Clone Custom Screen Templates Module for <a href="https://www.outsystems.com/forge/component-overview/5089/custom-screen-templates-web">web</a> or <a href="https://www.outsystems.com/forge/component-overview/5060/custom-screen-templates-mobile">mobile</a> from Forge, add Screen Templates to a Flow and publish. (RAFT-1765)</li>
 </ul>
-<h3>Bug Fixing</h3>
+<h3 id="Bug_Fixing_113">Bug Fixing</h3>
 <ul>
 <li>Fixed a bug that allowed Client Entities to be used as Destination in Human Activities. (ABE-1354)</li>
 <li>There's no crash now when you move the mouse pointer over Table Headers during merge. (RCOT-2119)</li>
@@ -1954,7 +1955,7 @@ This feature requires OutSystems Platform Server 11 Release Apr.2019 CP1. (RSBO-
 <div class="info">
 <p>Released on Jan 07, 2019</p>
 </div>
-<h3>New in Development Environment Release 10</h3>
+<h3 id="New_in_Development_Environment_Release_10">New in Development Environment Release 10</h3>
 <ul>
 <li>We removed the focus border around the list of the Screen Templates in the New Screen window. (RAFT-1750)</li>
 <li>There's now a warning dialog if you try to create a Screen based on an incompatible Screen Template. (RAFT-1737)</li>
@@ -1965,7 +1966,7 @@ This feature requires OutSystems Platform Server 11 Release Apr.2019 CP1. (RSBO-
 <li>We changed the SQL Injection warning message to advise you not to set the use of Expand Inline option to "Yes". The warning helps to follow solid SQL security practices. (RRCT-2128)</li>
 <li>Upgraded SharpZipLib library to version 1.0.0. (RRCT-2144)</li>
 </ul>
-<h3>Bug Fixing</h3>
+<h3 id="Bug_Fixing_114">Bug Fixing</h3>
 <ul>
 <li>We improved the stability of Service Studio by fixing an occasional crash related to the Run Server Action node. (ABE-1352)</li>
 <li>We added the debugging support for the new iPhone devices (XR, XS, XS Max). (RAFT-1748)</li>
@@ -1981,13 +1982,13 @@ This feature requires OutSystems Platform Server 11 Release Apr.2019 CP1. (RSBO-
 <div class="info">
 <p>Released on Jan 02, 2019</p>
 </div>
-<h3>New in Development Environment Release 9</h3>
+<h3 id="New_in_Development_Environment_Release_9">New in Development Environment Release 9</h3>
 <ul>
 <li>Clicking Environment/Module Management in the toolbar now opens Service Center in the default browser instead of render it directly inside Service Studio. (RICT-825)</li>
 <li>Upgraded SharpZipLib library to version 1.0.0. (RRCT-2144)</li>
 <li>Upgraded Microsoft.AspNet.WebApi libraries to version 5.2.7. (RRCT-2143)</li>
 </ul>
-<h3>Bug Fixing</h3>
+<h3 id="Bug_Fixing_115">Bug Fixing</h3>
 <ul>
 <li>Fixed a runtime error deserializing the body of a SOAP Web Service reply message when the element type inherits by restriction. (RINT-3239)</li>
 <li>Fixed the conversion of nil values for numerical types when consuming SOAP Web Services. (RINT-3287)</li>
@@ -1998,11 +1999,11 @@ This feature requires OutSystems Platform Server 11 Release Apr.2019 CP1. (RSBO-
 <div class="info">
 <p>Released on Dec 27, 2018</p>
 </div>
-<h3>New in Development Environment Release 8</h3>
+<h3 id="New_in_Development_Environment_Release_8">New in Development Environment Release 8</h3>
 <ul>
 <li>Improved message shown after cloning a module. (RAFT-1658)</li>
 </ul>
-<h3>Bug Fixing</h3>
+<h3 id="Bug_Fixing_116">Bug Fixing</h3>
 <ul>
 <li>When consuming SOAP web services, WSDL files with anyType elements are now correctly detected as unsupported. (RINT-2176)</li>
 <li>Fixed an issue that caused Service Studio to crash when you imported a WSDL file containing include elements. (RINT-3124)</li>
@@ -2015,14 +2016,14 @@ This feature requires OutSystems Platform Server 11 Release Apr.2019 CP1. (RSBO-
 <div class="info">
 <p>Released on Dec 19, 2018</p>
 </div>
-<h3>New in Development Environment Release 7</h3>
+<h3 id="New_in_Development_Environment_Release_7">New in Development Environment Release 7</h3>
 <ul>
 <li>The shortcut Ctrl+N executed in a Flow now creates an empty Screen. Previously this shortcut opened the New Screen window. (RAFT-1616)</li>
 <li>The icon picker in the Web application development is now the same as the one in Mobile. Plus, you'll get this new experience when selecting a Static Record item, both in Web and Mobile. Inspired by <a href="https://www.outsystems.com/ideas/2999/icon-picking-in-web-application-just-like-the-mobile-one">Bruno Fonte's idea</a>. (RAFT-1607)</li>
 <li>You can now use the arrows keys and the Tab key to navigate the Screen Templates inside the New Screen window. (RAFT-1673)</li>
 <li>Improved the 1-Click Publish performance of modules containing references without entities or structures. (ABE-1275)</li>
 </ul>
-<h3>Bug Fixing</h3>
+<h3 id="Bug_Fixing_117">Bug Fixing</h3>
 <ul>
 <li>We fixed an array compilation error in the SOAP web services that prevented module publishing. This affected only applications with the new SOAP implementation. (RPD-3627)</li>
 <li>Fixed crash that sometimes happened when using Test in the SQL node. (ABE-1322)</li>
@@ -2041,13 +2042,13 @@ This feature requires OutSystems Platform Server 11 Release Apr.2019 CP1. (RSBO-
 <div class="info">
 <p>Released on Dec 03, 2018</p>
 </div>
-<h3>New in Development Environment Release 6</h3>
+<h3 id="New_in_Development_Environment_Release_6">New in Development Environment Release 6</h3>
 <ul>
 <li>You can now use "Find Usages in All Modules" with Role Actions. Inspired by <a href="https://www.outsystems.com/ideas/5807/"> Carlos Alfaro's idea</a>. (RIUT-533)</li>
 <li>From now on, double-clicking an Assign element containing a single assignment opens the expression editor and lets you edit that assignment. Inspired by <a href="https://www.outsystems.com/ideas/5299/"> Nicolaas' idea</a>. (RIUT-479)</li>
 <li>Simplified the experience of opening a consumer module from a publish warning. Now Manage Dependencies window only opens if needed. (RIUT-481)</li>
 </ul>
-<h3>Bug Fixing</h3>
+<h3 id="Bug_Fixing_118">Bug Fixing</h3>
 <ul>
 <li>Publishing a module with TrueChange errors in View Data aggregated attributes no longer causes a compilation error. (RPD-3568)</li>
 <li>Publishing a Module after using the Disable Element feature to disable an Aggregate/SQL query that uses a deleted Entity as a Source no longer causes a crash. (RPD-3549)</li>
@@ -2061,11 +2062,11 @@ This feature requires OutSystems Platform Server 11 Release Apr.2019 CP1. (RSBO-
 <div class="info">
 <p>Released on Nov 26, 2018</p>
 </div>
-<h3>New in Development Environment Release 5</h3>
+<h3 id="New_in_Development_Environment_Release_5">New in Development Environment Release 5</h3>
 <ul>
 <li>It's no longer possible to select MySQL as the database platform when creating an extension in Integration Studio since MySQL is only supported in OutSystems 11 as an external database. (RINT-2872)</li>
 </ul>
-<h3>Bug Fixing</h3>
+<h3 id="Bug_Fixing_119">Bug Fixing</h3>
 <ul>
 <li>Fixed a crash in mobile apps when dropping over a widget and the modifier keys Shift or Control were pressed. (RICT-1119)</li>
 <li>We fixed a bug that prevented you from installing Charts or OutSystems Now from Forge in some situations, causing the message "Application cannot be safely installed in your environment" to show. (ABE-1289)</li>
@@ -2087,7 +2088,7 @@ This feature requires OutSystems Platform Server 11 Release Apr.2019 CP1. (RSBO-
 <div class="info">
 <p>Released on Nov 07, 2018</p>
 </div>
-<h3>New in Development Environment Release 4</h3>
+<h3 id="New_in_Development_Environment_Release_4">New in Development Environment Release 4</h3>
 <ul>
 <li>Removed the "Choose template" step for the creation of Service Applications. (ABE-1203)</li>
 <li>You can now create a Static Record, a Parameter or a Variable by pressing Ctrl+N when an element of the same type is selected, or by right-clicking on an existing element of the desired type. Inspired by <a href="https://www.outsystems.com/ideas/4926/">Johan den Ouden's idea</a>. (ABE-1282)</li>
@@ -2101,7 +2102,7 @@ This feature requires OutSystems Platform Server 11 Release Apr.2019 CP1. (RSBO-
 <li>The User and Role exceptions are now sorted alphabetically. Inspired by <a href="https://www.outsystems.com/ideas/5103/">Rebecca Hall's idea</a>. (RIUT-480)</li>
 <li>Now there's a warning during an introspection of a WSDL, if it contains an attributeGroups element. (RINT-2759)</li>
 </ul>
-<h3>Bug Fixing</h3>
+<h3 id="Bug_Fixing_120">Bug Fixing</h3>
 <ul>
 <li>We fixed a bug that prevented you from installing Charts or OutSystems Now from Forge in some situations, causing the message "Application cannot be safely installed in your environment" to show. (ABE-1289)</li>
 <li>Fixed a user interface glitch that prevented the "Executed SQL" pane to shows when you run a query through the SQL tool in Service Studio connected to a non-production environment. (ABE-1297)</li>
@@ -2124,11 +2125,11 @@ This feature requires OutSystems Platform Server 11 Release Apr.2019 CP1. (RSBO-
 <div class="info">
 <p>Released on Oct 22, 2018</p>
 </div>
-<h3>New in Development Environment Release 3</h3>
+<h3 id="New_in_Development_Environment_Release_3">New in Development Environment Release 3</h3>
 <ul>
 <li>We improved the tooltip text that shows while you are dragging Entity Attributes over widgets. It's now more clear what you can do if you drop an Attribute onto, for example, a Table Record or Edit Record. (RAFT-1600)</li>
 </ul>
-<h3>Bug Fixing</h3>
+<h3 id="Bug_Fixing_121">Bug Fixing</h3>
 <ul>
 <li>The label of the SQL tool under the output element now shows "Output Entity" or "Output Structure", depending on what you select in the pane. (ABE-1280)</li>
 <li>Fixed the folder tree in Service Studio so it no longer shows Client Actions after converting a mobile module to a Service module. (ABE-1281)</li>
@@ -2144,11 +2145,11 @@ This feature requires OutSystems Platform Server 11 Release Apr.2019 CP1. (RSBO-
 <div class="info">
 <p>Released on Oct 09, 2018</p>
 </div>
-<h3>New in Development Environment Release 2</h3>
+<h3 id="New_in_Development_Environment_Release_2">New in Development Environment Release 2</h3>
 <ul>
 <li>From now on, you can quickly create a new screen when defining a button or link destination. Inspired by <a href="https://www.outsystems.com/ideas/5432/create-new-screen-when-adding-destination-node">Russell Codd's idea</a>. (RAFT-1605)</li>
 </ul>
-<h3>Bug Fixing</h3>
+<h3 id="Bug_Fixing_122">Bug Fixing</h3>
 <ul>
 <li>Fixed a bug that sometimes caused an aggregate's preview data that contained Group Bys to grow horizontally instead of vertically. (ABE-1267)</li>
 <li>Improved Empty Template's preview image. (RAFT-1635)</li>
@@ -2165,7 +2166,7 @@ This feature requires OutSystems Platform Server 11 Release Apr.2019 CP1. (RSBO-
 <div class="info">
 <p>Released on Sept 26, 2018</p>
 </div>
-<h3>New in Development Environment Release 1</h3>
+<h3 id="New_in_Development_Environment_Release_1">New in Development Environment Release 1</h3>
 <h6>Highlights</h6>
 <ul>
 <li>Developers are able to create new screens based on templates that were previously made available in the factory. (RAFT-1023)</li>
@@ -2231,7 +2232,7 @@ This feature requires OutSystems Platform Server 11 Release Apr.2019 CP1. (RSBO-
 <li>When editing the source code of extensions in Visual Studio, Integration Studio will now package the correct version of all runtime libraries (e.g. RuntimePlatform) with the code (the one used when the extension is published). (RSCT-1119)</li>
 <li>Now you can override resources by name when importing resources via the command line ("-override"). (RICT-984)</li>
 </ul>
-<h3>Bug Fixing</h3>
+<h3 id="Bug_Fixing_123">Bug Fixing</h3>
 <ul>
 <li>Fixed intermittent "Concurrent publication" error when following the "Build a Mobile/Web App in 5 min" tutorials. (RSCT-1357)</li>
 </ul>
@@ -2239,11 +2240,11 @@ This feature requires OutSystems Platform Server 11 Release Apr.2019 CP1. (RSBO-
 <div class="info">
 <p>Released on Apr 22, 2019</p>
 </div>
-<h3>New in Development Environment Release 19</h3>
+<h3 id="New_in_Development_Environment_Release_19">New in Development Environment Release 19</h3>
 <ul>
 <li>Now, opening Manage Dependencies is on average 2x quicker. (RDEV-397)</li>
 </ul>
-<h3>Bug Fixing</h3>
+<h3 id="Bug_Fixing_124">Bug Fixing</h3>
 <ul>
 <li>We fixed an occasional crash while debugging an app in instances where the debugger variables changed. (RICT-1481)</li>
 <li>Fixed an issue in the Spanish translation of RichWidgets. (RPD-3132)</li>
@@ -2261,7 +2262,7 @@ This feature requires OutSystems Platform Server 11 Release Apr.2019 CP1. (RSBO-
 <div class="info">
 <p>Released on Apr 04, 2019</p>
 </div>
-<h3>New in Development Environment Release 18</h3>
+<h3 id="New_in_Development_Environment_Release_18">New in Development Environment Release 18</h3>
 <ul>
 <li>Now, the label of an Assign is automatically set after dragging a Variable with a data type of Entity, Structure, or Record to an Action Flow. Inspired by <a href="https://www.outsystems.com/ideas/5918/">Nelson's idea</a>. (RDEV-56)</li>
 <li>From now on it is possible to open a Screen in browser when the Widget Tree is enabled. Inspired by <a href="https://www.outsystems.com/ideas/6344/"> Johan's idea</a>. (RDEV-172)</li>
@@ -2273,7 +2274,7 @@ This feature requires OutSystems Platform Server 11 Release Apr.2019 CP1. (RSBO-
 <li>It is now possible to fix a mobile List widget that has an invalid source by dragging and dropping a valid source on top of the List. (RDEV-176)</li>
 <li>It is now possible to use Ctrl+Down/Ctrl+Up to reorder assignments when the focus is on the Value property of an Assign. Inspired by <a href="https://www.outsystems.com/ideas/6051/"> PJ M's idea</a>. (RDEV-174)</li>
 </ul>
-<h3>Bug Fixing</h3>
+<h3 id="Bug_Fixing_125">Bug Fixing</h3>
 <ul>
 <li>Fixed an issue that prevented adding "{EntityName}.*" automatically to a SQL query by dragging an Entity to the SQL element. (RDEV-351)</li>
 <li>Fixed a Service Studio crash that occurred when introspecting WSDL with types having a single attribute with the same name. (RSBO-249)</li>
@@ -2287,7 +2288,7 @@ This feature requires OutSystems Platform Server 11 Release Apr.2019 CP1. (RSBO-
 <div class="info">
 <p>This is a preliminary version of the document.</p>
 </div>
-<h3>New in Development Environment 11.0.0.401</h3>
+<h3 id="New_in_Development_Environment_11.0.0.401">New in Development Environment 11.0.0.401</h3>
 <ul>
 <li>Renamed the "Auto" grid property value to "Gutter". (RICT-683)</li>
 <li>The element tree is now automatically synchronized (the relevant Tab is shown and the element is selected) when you click on any element in the Main Editor. (RPDT-1255)</li>
@@ -2327,7 +2328,7 @@ This feature requires OutSystems Platform Server 11 Release Apr.2019 CP1. (RSBO-
 <li>Device detection logic now supports devices with resolutions bigger than 1024px and iPhone X. (RAFT-1296)</li>
 <li>It's now possible to check the status of the invalidation cache mechanism for each front-end server in Service Center's Environment Health tab. (RRCT-1678)</li>
 </ul>
-<h3>Bug Fixing</h3>
+<h3 id="Bug_Fixing_126">Bug Fixing</h3>
 <ul>
 <li>Fixed invalid call to client action error at aggregate's On After Fetch calls. (RPD-3216)</li>
 <li>Changing the description of REST API method parameters will now update the exposed REST API documentation. (RINT-1563)</li>
@@ -2350,8 +2351,16 @@ This feature requires OutSystems Platform Server 11 Release Apr.2019 CP1. (RSBO-
 <li>Fixed an issue that resulted in Service Studio crashing during merge. (RICT-787)</li>
 <li>Fixed intermittent "Concurrent publication" error when following the "Build a Mobile/Web App in 5 min" tutorials. (RSCT-1357)</li>
 </ul>
-<h3>Known Issues</h3>
+<h3 id="Known_Issues">Known Issues</h3>
 <ul>
 <li>Service Studio allows the "Delete Module" operation to be executed in environments with a purpose different from Development. This operation <a href="https://success.outsystems.com/Documentation/11/Setting_Up_OutSystems/Configure_your_OutSystems_environment#Feature_availability_for_different_Purposes">should only be available</a> in environments that have the Development purpose.</li>
 <li>When creating a second module in a web application, the blocks ApplicationTitle, MenuIcon and LoginInfo are not automatically added to the references of the module even though they are used in the sample content of the Layout block. To fix the errors, manually add the missing references to the module.</li>
-</ul></h></ul>
+</ul></h>
+<h2 id="Development_Environment_11.11.9">Development Environment 11.11.9</h2>
+<div class="info"><p>Released on Jul 19, 2021</p></div>
+<h3 id="Bug_Fixing_127">Bug Fixing</h3>
+<ul>
+<li>Fixed an issue on Aggregates that prevented the "Show hidden attributes" label from appearing. (RMAC-6458)</li>
+<li>Fix issue that caused SS to crash when opening under certain conditions (RMAC-7104)</li>
+</ul>
+
