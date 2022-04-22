@@ -4,8 +4,8 @@ on:
   push:
     branches:
       - 'test-rn-jpb'
-    #paths:
-      #- 'src/release-notes/**'
+    paths:
+      - 'src/release-notes/**'
 
 jobs:
   Merge:
