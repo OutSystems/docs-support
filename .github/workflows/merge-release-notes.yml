@@ -5,14 +5,14 @@ on:
     branches:
       - 'test-rn-jpb'
     paths:
-      - 'path/src/release-notes/**'
+      - '/src/release-notes/**'
 
 jobs:
   Merge:
     strategy:
       matrix:
-        folder: [path/release-notes/10/development-environment, path/release-notes/10/platform-server, path/release-notes/11/development-environment, path/release-notes/11/platform-server, path/release-notes/11/cross-platform-service-studio, path/release-notes/integration-builder, path/release-notes/lifetime-management-console,  path/release-notes/service-studio-neo] 
-        file: [path/release-notes/10/development-environment/development-environment.md, path/release-notes/10/platform-server/platform-server.md, path/release-notes/11/development-environment/development-environment.md, path/release-notes/11/platform-server.md, path/release-notes/11/cross-platform-service-studio/cross-platform-service-studio.md, path/release-notes/integration-builder/integration-builder.md, path/release-notes/lifetime-management-console/lifetime-management-console.md, path/release-notes/service-studio-neo/service-studio-neo.md] 
+        folder: [src/release-notes/10/development-environment, src/release-notes/10/platform-server, src/release-notes/11/development-environment, src/release-notes/11/platform-server, src/release-notes/11/cross-platform-service-studio, path/release-notes/integration-builder, src/release-notes/lifetime-management-console,  src/release-notes/service-studio-neo] 
+        file: [src/release-notes/10/development-environment/development-environment.md, src/release-notes/10/platform-server/platform-server.md, src/release-notes/11/development-environment/development-environment.md, src/release-notes/11/platform-server.md, src/release-notes/11/cross-platform-service-studio/cross-platform-service-studio.md, src/release-notes/integration-builder/integration-builder.md, src/release-notes/lifetime-management-console/lifetime-management-console.md, src/release-notes/service-studio-neo/service-studio-neo.md] 
     runs-on: ubuntu-latest
       
     steps:
