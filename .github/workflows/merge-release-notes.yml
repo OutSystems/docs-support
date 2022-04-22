@@ -5,7 +5,7 @@ on:
     branches:
       - 'test-rn-jpb'
     paths:
-      - '/src/release-notes/**'
+      - 'src/release-notes/**'
 
 jobs:
   Merge:
