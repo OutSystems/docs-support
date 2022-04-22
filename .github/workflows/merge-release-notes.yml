@@ -43,11 +43,11 @@ jobs:
     - name: Merge
       working-directory: docs
       run: |
-        python "../toolkit/merge_release_notes_script.py" ${{ matrix.folder.folder }}
+        python "../toolkit/merge_release_notes_script.py" ${{ matrix.folder }}
         
     #- name: Commit and Push
       #run: |
        # cd docs/
-      #  git add ${{ matrix.folder.file }}
+      #  git add ${{ matrix.file }}
       #  git commit -m "Update release notes"
        # git push
