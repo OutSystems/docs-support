@@ -9,7 +9,7 @@ app_type: traditional web apps, mobile apps, reactive web apps
 
 ## Symptoms
 
-A user tries to login in one application or management console (LifeTime or ServiceCenter) and gets one of the following errors:
+A user tries to login in one application or management console (LifeTime or Service Center) and gets one of the following errors:
 
 * Too many failed login attempts. Please try again in a few minutes.
 
