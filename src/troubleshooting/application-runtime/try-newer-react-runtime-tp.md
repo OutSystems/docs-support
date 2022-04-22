@@ -10,11 +10,11 @@ app_type: traditional web apps, mobile apps, reactive web apps
 
 <div class="info" markdown="1">
 
-OutSystems uses React 16 as the default React version for the app runtime since Platform Server 11.12. If you're on Platform Server 11.10.0 and plan an upgrade, check out the notes in this document regarding the React 16 runtime.
+OutSystems uses React 16 as the default React version for the app runtime for Platform Server 11.12.0 and higher. If you're on Platform Server 11.10.0 and plan an upgrade, check out the notes in this document regarding the React 16 runtime.
 
 </div>
 
-In Platform Server 11.12 and earlier, Reactive Web and Mobile Apps use React 15 for the app runtime. OutSystems updates to a newer version of React after initial technical preview to get feedback and address common issues.
+For Platform Server versios prior to 11.12.0, Reactive Web and Mobile Apps use React 15 for the app runtime. OutSystems updates to a newer version of React after initial technical preview to get feedback and address common issues.
 
 If you're running Platform Server 11.10.0, you can use **Runtime using React 16 Technical Preview** to anticipate possible breaking changes in the app behavior. It's an OutSystems strong recommendation that you use the React 16 technical preview to test your apps and address all potential issues before React 16 becomes the new runtime default. 
 
