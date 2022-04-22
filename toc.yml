@@ -106,6 +106,7 @@
         - href: troubleshooting/infrastructure-management/test-env-connectivity.md
         - href: troubleshooting/infrastructure-management/manage-database-space.md
         - href: troubleshooting/infrastructure-management/ssl-domain-cloud-errors.md
+        - href: troubleshooting/infrastructure-management/restart-cloud/restart-cloud.md
 
 # Security
 - href: security/intro.md
@@ -373,7 +374,6 @@
         - topics: 
             - href: enterprise/maintenance/access-database-paas/temporary-access-database-backup.md
         - href: enterprise/maintenance/allowlist-cloud-servers/allowlist-cloud-servers.md
-        - href: enterprise/maintenance/restart-cloud/restart-cloud.md
         - href: enterprise/maintenance/aws-direct-connect-os-cloud.md
         - href: enterprise/maintenance/connect-tgw.md
         - href: enterprise/maintenance/add-certificate-trusted-cloud.md
