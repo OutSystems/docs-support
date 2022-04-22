@@ -1,1 +1,53 @@
 name: Merge release notes
+
+on:
+  push:
+    branches:
+      - test-rn-jpb
+    paths:
+      - 'path/release-notes/*'
+
+strategy:
+  matrix:
+    folder: [{folder:"path/release-notes/10/development-environment", file:"path/release-notes/10/development-environment/development-environment.md"}, {folder:"path/release-notes/10/platform-server", file:"path/release-notes/10/platform-server/platform-server.md"}, {folder:"path/release-notes/11/development-environment", file:"path/release-notes/11/development-environment/development-environment.md"}, {folder:"path/release-notes/11/platform-server", file:"path/release-notes/11/platform-server.md"}, {folder:"path/release-notes/11/cross-platform-service-studio", file:"path/release-notes/11/cross-platform-service-studio/cross-platform-service-studio.md"}, {folder:"path/release-notes/integration-builder", file:"path/release-notes/integration-builder/integration-builder.md"}, {folder:"path/release-notes/lifetime-management-console", file:"path/release-notes/lifetime-management-console/lifetime-management-console.md"}, {folder:"path/release-notes/service-studio-neo", file:"path/release-notes/service-studio-neo/service-studio-neo.md"}] 
+
+jobs:
+  Merge:
+    runs-on: ubuntu-latest
+      
+    steps:
+
+    - name: Checkout
+      uses: actions/checkout@v2
+      with:
+        path: docs
+
+    - name: Checkout Tools
+      uses: actions/checkout@v2
+      with:
+        repository: ${{ secrets.TOOLS_REPOSITORY }}
+        ref: master
+        token: ${{ secrets.TOOLS_PAT }}
+        path: toolkit
+
+    - name: Set up Python
+      uses: actions/setup-python@v1
+      with:
+        python-version: '3.8'
+
+    - name: Install Requirements
+      uses: BSFishy/pip-action@v1
+      with:
+        requirements: ./toolkit/requirements.txt
+    
+    - name: Merge
+      working-directory: docs
+      run: |
+        python "../toolkit/merge_release_notes_script.py" ${{ matrix.folder.folder }}
+        
+    - name: Commit and Push
+      run: |
+        cd docs/
+        git add ${{ matrix.folder.file }}
+        git commit -m "Update release notes"
+        git push
