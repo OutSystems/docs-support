@@ -49,6 +49,7 @@
         - href: troubleshooting/application-development/error-host-not-found.md
         - href: troubleshooting/application-development/ipp-error.md
         - href: troubleshooting/application-development/deploy-fail-new-entity-attribute.md
+        - href: troubleshooting/application-development/enable-ostrace-for-soap-import.md
         - href: troubleshooting/application-development/mabs-troubleshooting-android.md
         - href: troubleshooting/application-development/error-cannot-access-file.md
         - href: troubleshooting/application-development/could-not-create-fk.md
