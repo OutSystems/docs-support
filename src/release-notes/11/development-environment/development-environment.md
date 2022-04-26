@@ -244,7 +244,7 @@ Inspired by <a href="https://www.outsystems.com/ideas/5205/allow-hyphen-in-url-p
 </ul>
 
 <h2 id="Development_Environment_11.11.8">Development Environment 11.11.8</h2>
-<div class="info"><p>Released on Jul 12, 2021</p></div>
+<div class="info">Released on Jul 12, 2021</div>
 <h3 id="New_in_Development_Environment_11.11.8">New in Development Environment 11.11.8</h3>
 <ul>
 <li>Now it's easier to find Widget information, with a help icon right from the widget properties panel. (RDRGT-80)</li>
@@ -257,7 +257,8 @@ Inspired by <a href="https://www.outsystems.com/ideas/5205/allow-hyphen-in-url-p
 </ul>
 <h2 id="Development_Environment_11.11.7">Development Environment 11.11.7</h2>
 <div class="info">
-<p>Released on Jul 05, 2021</p></div>
+
+Released on Jul 05, 2021</div>
 <h3 id="New_in_Development_Environment_11.11.7">New in Development Environment 11.11.7</h3>
 <ul>
 <li>When right-clicking on an Action node, a menu option to learn how to test actions is now available. (RDEV-3178)</li>
@@ -269,10 +270,12 @@ Inspired by <a href="https://www.outsystems.com/ideas/5205/allow-hyphen-in-url-p
 <li>Fixed a security vulnerability. CVSSv3.1 score 8.5 (High). (RPM-689)</li>
 </ul>
 <h3 id="More_details_0">More details</h3>
-<p><strong>RPM-689</strong><br/><b>Fixed a security vulnerability. CVSSv3.1 score 8.5 (High).</b><br/><br/><br/><u>Fix Details:</u><br/>Service Studio and Integration Studio weren't properly validating the TLS connections. It was possible to perform a MITM attack using a self-signed certificate after the initial connection is established without the developer noticing. This vulnerability was classified as High with a risk score of 8.5. Check more details about the vulnerability in <a href="https://success.outsystems.com/Support/Security/Vulnerabilities/Vulnerability_RPM-689">this security bulletin</a>.</p>
+<strong>RPM-689</strong><br/><b>Fixed a security vulnerability. CVSSv3.1 score 8.5 (High).</b><br/><br/><br/><u>Fix Details:</u><br/>Service Studio and Integration Studio weren't properly validating the TLS connections. It was possible to perform a MITM attack using a self-signed certificate after the initial connection is established without the developer noticing. This vulnerability was classified as High with a risk score of 8.5. Check more details about the vulnerability in <a href="https://success.outsystems.com/Support/Security/Vulnerabilities/Vulnerability_RPM-689">this security bulletin</a>.
+
 <h2 id="Development_Environment_11.11.6">Development Environment 11.11.6</h2>
 <div class="info">
-<p>Released on Jun 28, 2021</p>
+
+Released on Jun 28, 2021
 </div>
 <h3 id="New_in_Development_Environment_11.11.6">New in Development Environment 11.11.6</h3>
 <ul>
@@ -287,7 +290,8 @@ Inspired by <a href="https://www.outsystems.com/ideas/5205/allow-hyphen-in-url-p
 </ul>
 <h2 id="Development_Environment_11.11.5">Development Environment 11.11.5</h2>
 <div class="info">
-<p>Released on Jun 22, 2021</p></div>
+
+Released on Jun 22, 2021</div>
 <h3 id="New_in_Development_Environment_11.11.5">New in Development Environment 11.11.5</h3>
 <ul>
 <li>Now, while editing data, the apply and discard buttons are closer to the records. (RDEV-3306)</li>
@@ -300,7 +304,7 @@ Inspired by <a href="https://www.outsystems.com/ideas/5205/allow-hyphen-in-url-p
 <li>Fix an issue that caused a broken display of preview data in Aggregates when showing previously hidden attributes and using groups (RMAC-6731)</li>
 </ul>
 <h2 id="Development_Environment_11.11.4">Development Environment 11.11.4</h2>
-<div class="info"><p>Released on Jun 14, 2021</p></div>
+<div class="info">Released on Jun 14, 2021</div>
 <h3 id="New_in_Development_Environment_11.11.4">New in Development Environment 11.11.4</h3>
 <ul>
 <li>Now, when creating an application based on a sample app, Service Studio gives the ability to preview the app being installed. (RDEV-3295)</li>
@@ -316,7 +320,9 @@ Inspired by <a href="https://www.outsystems.com/ideas/5205/allow-hyphen-in-url-p
 </ul>
 <h2 id="Development_Environment_11.11.3">Development Environment 11.11.3</h2>
 <div class="info">
-<p>Released on Jun 07, 2021</p>
+
+Released on Jun 07, 2021
+
 </div>
 <h3 id="New_in_Development_Environment_11.11.3">New in Development Environment 11.11.3</h3>
 <ul>
@@ -337,7 +343,8 @@ Inspired by <a href="https://www.outsystems.com/ideas/5205/allow-hyphen-in-url-p
 </ul>
 <h2 id="Development_Environment_11.11.2">Development Environment 11.11.2</h2>
 <div class="info">
-<p>Released on May 31, 2021</p></div>
+
+Released on May 31, 2021</div>
 <h3 id="New_in_Development_Environment_11.11.2">New in Development Environment 11.11.2</h3>
 <ul>
 <li>Now, default screens can be set on screen flows. (RDEV-3038)</li>
@@ -350,7 +357,8 @@ Inspired by <a href="https://www.outsystems.com/ideas/5205/allow-hyphen-in-url-p
 </ul>
 <h2 id="Development_Environment_11.11.1">Development Environment 11.11.1</h2>
 <div class="info">
-<p>This is a preliminary version of the document.</p></div>
+
+This is a preliminary version of the document.</div>
 <h3 id="New_in_Development_Environment_11.11.1">New in Development Environment 11.11.1</h3>
 <ul>
 <li>Now, when creating an application based on a sample app, Service Studio gives the ability to preview the app being installed. (RDEV-3033)</li>
@@ -364,7 +372,8 @@ Inspired by <a href="https://www.outsystems.com/ideas/5205/allow-hyphen-in-url-p
 </ul>
 <h2 id="Development_Environment_11.11.0">Development Environment 11.11.0</h2>
 <div class="info">
-<p>Released on May 25, 2021</p></div>
+
+Released on May 25, 2021</div>
 <h3 id="New_in_Development_Environment_11.11.0">New in Development Environment 11.11.0</h3>
 <ul>
 <li>Refresh a consumed REST service importing a new OpenAPI 2.0 (swagger) or OpenAPI 3.0 specification. Inspired by <a href="https://www.outsystems.com/ideas/2376/consume-rest-services-update-api-methods/"> Laura Petrisor's idea </a>. (R11DT-274)</li>
@@ -382,7 +391,8 @@ Inspired by <a href="https://www.outsystems.com/ideas/5205/allow-hyphen-in-url-p
 </ul>
 <h2 id="Development_Environment_11.10.22">Development Environment 11.10.22</h2>
 <div class="info">
-<p>Released on May 10, 2021</p></div>
+
+Released on May 10, 2021</div>
 <h3 id="New_in_Development_Environment_11.10.22">New in Development Environment 11.10.22</h3>
 <ul>
 <li>Now, it's easier to understand what to do when the incompatible dependencies warning pops up. (RDEV-3176)</li>
@@ -402,11 +412,15 @@ Inspired by <a href="https://www.outsystems.com/ideas/5205/allow-hyphen-in-url-p
 </ul>
 <h2 id="Development_Environment_11.10.21">Development Environment 11.10.21</h2>
 <div class="info">
-<p>Released on May 03, 2021</p></div>
-<p>This release of Service Studio focuses on internal improvements ― this will help our team improve Service Studio faster. Your work shouldn't be impacted by these changes.</p>
+
+Released on May 03, 2021</div>
+
+This release of Service Studio focuses on internal improvements ― this will help our team improve Service Studio faster. Your work shouldn't be impacted by these changes. 
+
 <h2 id="Development_Environment_11.10.20">Development Environment 11.10.20</h2>
 <div class="info">
-<p>Released on Apr 26, 2021</p></div>
+
+Released on Apr 26, 2021</div>
 <h3 id="Bug_Fixing_24">Bug Fixing</h3>
 <ul>
 <li>Fixed an issue that caused Service Studio not to be opened when trying to open it from LifeTime. (RICT-3325)</li>
@@ -415,7 +429,8 @@ Inspired by <a href="https://www.outsystems.com/ideas/5205/allow-hyphen-in-url-p
 </ul>
 <h2 id="Development_Environment_11.10.19">Development Environment 11.10.19</h2>
 <div class="info">
-<p>Released on Apr 19, 2021</p></div>
+
+Released on Apr 19, 2021</div>
 <h3 id="Bug_Fixing_25">Bug Fixing</h3>
 <ul>
 <li>Fixed an error when importing SOAP services with an element and a ComplexType with the same name and namespace. (RBIT-42)</li>
@@ -427,7 +442,8 @@ Inspired by <a href="https://www.outsystems.com/ideas/5205/allow-hyphen-in-url-p
 </ul>
 <h2 id="Development_Environment_11.10.18">Development Environment 11.10.18</h2>
 <div class="info">
-<p>Released on Apr 12, 2021</p></div>
+
+Released on Apr 12, 2021</div>
 <h3 id="New_in_Development_Environment_11.10.18">New in Development Environment 11.10.18</h3>
 <ul>
 <li>Now, the Aggregates Test Values input boxes are bigger and easier to use. (RDEV-2969)</li>
@@ -453,7 +469,8 @@ Inspired by <a href="https://www.outsystems.com/ideas/5205/allow-hyphen-in-url-p
 </ul>
 <h2 id="Development_Environment_11.10.17">Development Environment 11.10.17</h2>
 <div class="info">
-<p>Released on Apr 07, 2021</p></div>
+
+Released on Apr 07, 2021</div>
 <h3 id="Bug_Fixing_27">Bug Fixing</h3>
 <ul>
 <li>Fixed Service Studio not connecting to a device when starting a Debug Session using the Android option (RPM-961)</li>
@@ -461,7 +478,8 @@ Inspired by <a href="https://www.outsystems.com/ideas/5205/allow-hyphen-in-url-p
 </ul>
 <h2 id="Development_Environment_11.10.16">Development Environment 11.10.16</h2>
 <div class="info">
-<p>Released on Mar 29, 2021</p></div>
+
+Released on Mar 29, 2021</div>
 <h3 id="New_in_Development_Environment_11.10.16">New in Development Environment 11.10.16</h3>
 <ul>
 <li>Upgraded OutSystems.Spreadsheet library. (RRCT-3540)</li>
@@ -472,14 +490,16 @@ Inspired by <a href="https://www.outsystems.com/ideas/5205/allow-hyphen-in-url-p
 </ul>
 <h2 id="Development_Environment_11.10.15">Development Environment 11.10.15</h2>
 <div class="info">
-<p>Released on Mar 22, 2021</p></div>
+
+Released on Mar 22, 2021</div>
 <h3 id="Bug_Fixing_28">Bug Fixing</h3>
 <ul>
 <li>Fixed a bug in Service Studio while using Graphic Hardware Acceleration and that caused render and usability issues. This issue could prevent you from entering your credentials in the "Sign in" dialog. (RICT-3169)</li>
 </ul>
 <h2 id="Development_Environment_11.10.14">Development Environment 11.10.14</h2>
 <div class="info">
-<p>Released on Mar 15, 2021</p></div>
+
+Released on Mar 15, 2021</div>
 <h3 id="New_in_Development_Environment_11.10.14">New in Development Environment 11.10.14</h3>
 <ul>
 <li>Now, when editing the environment name, it is possible to end the edition by pressing "Enter", setting the new name. (RDEV-2806)</li>
@@ -497,7 +517,8 @@ Inspired by <a href="https://www.outsystems.com/ideas/5205/allow-hyphen-in-url-p
 </ul>
 <h2 id="Development_Environment_11.10.13">Development Environment 11.10.13</h2>
 <div class="info">
-<p>Released on Mar 08, 2021</p></div>
+
+Released on Mar 08, 2021</div>
 <h3 id="Bug_Fixing_30">Bug Fixing</h3>
 <ul>
 <li>Fixed an issue that caused a compile error when assigning a Boolean to a long integer.  Boolean values will now be implicitly converted to long integers. (RTAF-4173)</li>
@@ -505,7 +526,8 @@ Inspired by <a href="https://www.outsystems.com/ideas/5205/allow-hyphen-in-url-p
 </ul>
 <h2 id="Development_Environment_11.10.12">Development Environment 11.10.12</h2>
 <div class="info">
-<p>Released on Mar 01, 2021</p></div>
+
+Released on Mar 01, 2021</div>
 <h3 id="New_in_Development_Environment_11.10.12">New in Development Environment 11.10.12</h3>
 <ul>
 <li>Now, you don't need to log in to the Forge while accessing it inside the Service Studio. (RDEV-2557)</li>
@@ -520,11 +542,15 @@ Inspired by <a href="https://www.outsystems.com/ideas/5205/allow-hyphen-in-url-p
 </ul>
 <h2 id="Development_Environment_11.10.11">Development Environment 11.10.11</h2>
 <div class="info">
-<p>Released on Feb 22, 2021</p></div>
-<p>This release of Service Studio focuses on internal improvements ― this will help our team improve Service Studio faster. Your work shouldn't be impacted by these changes.</p>
+
+Released on Feb 22, 2021</div>
+
+This release of Service Studio focuses on internal improvements ― this will help our team improve Service Studio faster. Your work shouldn't be impacted by these changes. 
+
 <h2 id="Development_Environment_11.10.10">Development Environment 11.10.10</h2>
 <div class="info">
-<p>Released on Feb 15, 2021</p></div>
+
+Released on Feb 15, 2021</div>
 <h3 id="New_in_Development_Environment_11.10.10">New in Development Environment 11.10.10</h3>
 <ul>
 <li>The Smart Guidance feature will now try to display contextual suggestions. (RAID-791)</li>
@@ -538,7 +564,8 @@ Inspired by <a href="https://www.outsystems.com/ideas/5205/allow-hyphen-in-url-p
 </ul>
 <h2 id="Development_Environment_11.10.9">Development Environment 11.10.9</h2>
 <div class="info">
-<p>Released on Feb 08, 2021</p></div>
+
+Released on Feb 08, 2021</div>
 <h3 id="Bug_Fixing_33">Bug Fixing</h3>
 <ul>
 <li>Fixed an issue that caused Service Studio to present a wrong display name while dragging Exceptions to a Flow. (RDEV-2713)</li>
@@ -546,22 +573,30 @@ Inspired by <a href="https://www.outsystems.com/ideas/5205/allow-hyphen-in-url-p
 </ul>
 <h2 id="Development_Environment_11.10.8">Development Environment 11.10.8</h2>
 <div class="info">
-<p>Released on Feb 01, 2021</p></div>
-<p>This release of Service Studio focuses on internal improvements ― this will help our team improve Service Studio faster. Your work shouldn't be impacted by these changes.</p>
+
+Released on Feb 01, 2021</div>
+
+This release of Service Studio focuses on internal improvements ― this will help our team improve Service Studio faster. Your work shouldn't be impacted by these changes. 
+
 <h2 id="Development_Environment_11.10.7">Development Environment 11.10.7</h2>
 <div class="info">
-<p>Released on Jan 25, 2021</p></div>
-<p>This release of Service Studio focuses on internal improvements ― this will help our team improve Service Studio faster. Your work shouldn't be impacted by these changes.</p>
+
+Released on Jan 25, 2021</div>
+
+This release of Service Studio focuses on internal improvements ― this will help our team improve Service Studio faster. Your work shouldn't be impacted by these changes. 
+
 <h2 id="Development_Environment_11.10.6">Development Environment 11.10.6</h2>
 <div class="info">
-<p>Released on Jan 18, 2021</p></div>
+
+Released on Jan 18, 2021</div>
 <h3 id="Bug_Fixing_34">Bug Fixing</h3>
 <ul>
 <li>Fixed an issue where the debugger didn't work for Client Actions with Android devices. (RPM-664)</li>
 </ul>
 <h2 id="Development_Environment_11.10.5">Development Environment 11.10.5</h2>
 <div class="info">
-<p>Released on Jan 11, 2021</p></div>
+
+Released on Jan 11, 2021</div>
 <h3 id="New_in_Development_Environment_11.10.5">New in Development Environment 11.10.5</h3>
 <ul>
 <li>Now you can open the Entity data viewer by selecting an Entity in the tree and pressing the Enter key. Inspired by <a href="https://www.outsystems.com/ideas/6282/shortcut-for-view-data">Willem Markus' idea</a>. (RDEV-2534)</li>
@@ -572,14 +607,16 @@ Inspired by <a href="https://www.outsystems.com/ideas/5205/allow-hyphen-in-url-p
 </ul>
 <h2 id="Development_Environment_11.10.4">Development Environment 11.10.4</h2>
 <div class="info">
-<p>Released on Dec 28, 2020</p></div>
+
+Released on Dec 28, 2020</div>
 <h3 id="New_in_Development_Environment_11.10.4">New in Development Environment 11.10.4</h3>
 <ul>
 <li>Now you can give an alias to your environments to help you identify them in the Login dialog. You can also delete the ones you don't use. Inspired by <a href="https://www.outsystems.com/ideas/3433/manage-saved-environments-option-to-clear-environment-details-from-drop-down-an">Suraj Borade's idea</a>. (RDEV-2509)</li>
 </ul>
 <h2 id="Development_Environment_11.10.3">Development Environment 11.10.3</h2>
 <div class="info">
-<p>Released on Dec 21, 2020</p></div>
+
+Released on Dec 21, 2020</div>
 <h3 id="New_in_Development_Environment_11.10.3">New in Development Environment 11.10.3</h3>
 <ul>
 <li>Fixed an issue that caused Service Studio to take several seconds to load an OML when contain screens with thousand of nodes. (RICT-2920)</li>
@@ -587,7 +624,8 @@ Inspired by <a href="https://www.outsystems.com/ideas/5205/allow-hyphen-in-url-p
 </ul>
 <h2 id="Development_Environment_11.10.2">Development Environment 11.10.2</h2>
 <div class="info">
-<p>Released on Dec 15, 2020</p></div>
+
+Released on Dec 15, 2020</div>
 <h3 id="New_in_Development_Environment_11.10.2">New in Development Environment 11.10.2</h3>
 <ul>
 <li>Now we automatically reference the SetCurrentLocale Client System action when adding a new locale in Mobile or Reactive Apps. (RTAF-3226)</li>
@@ -599,7 +637,8 @@ Inspired by <a href="https://www.outsystems.com/ideas/5205/allow-hyphen-in-url-p
 </ul>
 <h2 id="Development_Environment_11.10.1">Development Environment 11.10.1</h2>
 <div class="info">
-<p>Released on Dec 07, 2020</p></div>
+
+Released on Dec 07, 2020</div>
 <h3 id="Bug_Fixing_37">Bug Fixing</h3>
 <ul>
 <li>Provide detailed information to the user about the Service Studio  crash when getting access denied error on filesystem while saving the OML in the local machine. (RDEV-2456)</li>
@@ -609,7 +648,8 @@ Inspired by <a href="https://www.outsystems.com/ideas/5205/allow-hyphen-in-url-p
 </ul>
 <h2 id="Development_Environment_11.10.0">Development Environment 11.10.0</h2>
 <div class="info">
-<p>Released on Nov 30, 2020</p></div>
+
+Released on Nov 30, 2020</div>
 <h3 id="Bug_Fixing_38">Bug Fixing</h3>
 <ul>
 <li>Fixed a bug that did not allow to import a service when there was ambiguity in "xsd:any" wildcard (RPD-5255)</li>
@@ -618,7 +658,8 @@ Inspired by <a href="https://www.outsystems.com/ideas/5205/allow-hyphen-in-url-p
 </ul>
 <h2 id="Development_Environment_11.9.2">Development Environment 11.9.2</h2>
 <div class="info">
-<p>Released on Nov 24, 2020</p></div>
+
+Released on Nov 24, 2020</div>
 <h3 id="New_in_Development_Environment_11.9.2">New in Development Environment 11.9.2</h3>
 <ul>
 <li>Improved the Service Studio accuracy of asking for feedback while creating a new application based on a sample app. (RDEV-2380)</li>
@@ -630,7 +671,7 @@ Inspired by <a href="https://www.outsystems.com/ideas/5205/allow-hyphen-in-url-p
 <li>Fixed a crash while opening a Screen using a Web Block. (RICT-2884)</li>
 </ul>
 <h2 id="Development_Environment_11.9.1">Development Environment 11.9.1</h2>
-<div class="info"><p>Released on Nov 16, 2020</p></div>
+<div class="info">Released on Nov 16, 2020</div>
 <h3 id="Bug_Fixing_40">Bug Fixing</h3>
 <ul>
 <li>Added a description to the IgnoreCase input of the Index built-in function. (RDEV-2359)</li>
@@ -642,7 +683,8 @@ Inspired by <a href="https://www.outsystems.com/ideas/5205/allow-hyphen-in-url-p
 </ul>
 <h2 id="Development_Environment_11.9.0">Development Environment 11.9.0</h2>
 <div class="info">
-<p>Released on Nov 09, 2020</p></div>
+
+Released on Nov 09, 2020</div>
 <h3 id="New_in_Development_Environment_11.9.0">New in Development Environment 11.9.0</h3>
 <ul>
 <li>Service Studio will now require installation of .NET 4.7.2 (as stated in System Requirements). (RICT-2083)</li>
@@ -656,7 +698,8 @@ Inspired by <a href="https://www.outsystems.com/ideas/5205/allow-hyphen-in-url-p
 </ul>
 <h2 id="Development_Environment_11.8.14">Development Environment 11.8.14</h2>
 <div class="info">
-<p>This is a preliminary version of the document.</p></div>
+
+This is a preliminary version of the document.</div>
 <h3 id="New_in_Development_Environment_11.8.14">New in Development Environment 11.8.14</h3>
 <ul>
 <li>Fixed an issue that caused Service Studio to crash while opening modules that contain expressions that rely on implicit conversions between different data types. (RICT-2859)</li>
@@ -665,7 +708,8 @@ Inspired by <a href="https://www.outsystems.com/ideas/5205/allow-hyphen-in-url-p
 </ul>
 <h2 id="Development_Environment_11.8.13">Development Environment 11.8.13</h2>
 <div class="info">
-<p>Released on Nov 02, 2020</p></div>
+
+Released on Nov 02, 2020</div>
 <h3 id="New_in_Development_Environment_11.8.13">New in Development Environment 11.8.13</h3>
 <ul>
 <li>Introduced a new way to get guidance to overcome problems by searching our documentation in a tailored way. (RAID-784)</li>
@@ -679,7 +723,8 @@ Inspired by <a href="https://www.outsystems.com/ideas/5205/allow-hyphen-in-url-p
 </ul>
 <h2 id="Development_Environment_11.8.12">Development Environment 11.8.12</h2>
 <div class="info">
-<p>Released on Oct 26, 2020</p></div>
+
+Released on Oct 26, 2020</div>
 <h3 id="New_in_Development_Environment_11.8.12">New in Development Environment 11.8.12</h3>
 <ul>
 <li>Supported mobile plugins are now hidden in the Application List and can be made visible via Preferences Menu. (RDEV-2092)</li>
@@ -692,18 +737,23 @@ Inspired by <a href="https://www.outsystems.com/ideas/5205/allow-hyphen-in-url-p
 </ul>
 <h2 id="Development_Environment_11.8.11">Development Environment 11.8.11</h2>
 <div class="info">
-<p>Released on Oct 19, 2020</p></div>
-<p>This release of Service Studio focuses on internal improvements ― this will help our team improve Service Studio faster. Your work shouldn't be impacted by these changes.</p>
+
+Released on Oct 19, 2020</div>
+
+This release of Service Studio focuses on internal improvements ― this will help our team improve Service Studio faster. Your work shouldn't be impacted by these changes. 
+
 <h2 id="Development_Environment_11.8.10">Development Environment 11.8.10</h2>
 <div class="info">
-<p>Released on Oct 13, 2020</p></div>
+
+Released on Oct 13, 2020</div>
 <h3 id="Bug_Fixing_44">Bug Fixing</h3>
 <ul>
 <li>Fixed a bug that caused Service Center to incorrectly count Internal and External Users from disabled User Providers as active users. (RIDT-95)</li>
 </ul>
 <h2 id="Development_Environment_11.8.9">Development Environment 11.8.9</h2>
 <div class="info">
-<p>Released on Oct 06, 2020</p></div>
+
+Released on Oct 06, 2020</div>
 <h3 id="New_in_Development_Environment_11.8.9">New in Development Environment 11.8.9</h3>
 <ul>
 <li>Fixed an issue in Library Modules, which was about showing the references to entities in the dependencies managers that could not be used. (RBIT-26)</li>
@@ -723,7 +773,8 @@ Inspired by <a href="https://www.outsystems.com/ideas/5205/allow-hyphen-in-url-p
 </ul>
 <h2 id="Development_Environment_11.8.8">Development Environment 11.8.8</h2>
 <div class="info">
-<p>Released on Sep 23, 2020</p></div>
+
+Released on Sep 23, 2020</div>
 <h3 id="New_in_Development_Environment_11.8.8">New in Development Environment 11.8.8</h3>
 <ul>
 <li>Fixed an issue in Library Modules, which was about showing the references to entities in the dependencies managers that could not be used. (RBIT-26)</li>
@@ -740,7 +791,8 @@ Inspired by <a href="https://www.outsystems.com/ideas/5205/allow-hyphen-in-url-p
 </ul>
 <h2 id="Development_Environment_11.8.7">Development Environment 11.8.7</h2>
 <div class="info">
-<p>Released on Sep 07, 2020</p></div>
+
+Released on Sep 07, 2020</div>
 <h3 id="New_in_Development_Environment_11.8.7">New in Development Environment 11.8.7</h3>
 <ul>
 <li>Now, the title of the Input's Expression editor displays the name of the input being edited. (RDEV-2065)</li>
@@ -759,7 +811,8 @@ Inspired by <a href="https://www.outsystems.com/ideas/5205/allow-hyphen-in-url-p
 </ul>
 <h2 id="Development_Environment_11.8.6">Development Environment 11.8.6</h2>
 <div class="info">
-<p>Released on Aug 24, 2020</p></div>
+
+Released on Aug 24, 2020</div>
 <h3 id="New_in_Development_Environment_11.8.6">New in Development Environment 11.8.6</h3>
 <ul>
 <li>We updated the user interface of the dropdown list that shows the AI suggestions. (RAID-670)</li>
@@ -778,7 +831,8 @@ Inspired by <a href="https://www.outsystems.com/ideas/5205/allow-hyphen-in-url-p
 </ul>
 <h2 id="Development_Environment_11.8.4">Development Environment 11.8.4</h2>
 <div class="info">
-<p>Released on Aug 10, 2020</p></div>
+
+Released on Aug 10, 2020</div>
 <h3 id="New_in_Development_Environment_11.8.4">New in Development Environment 11.8.4</h3>
 <ul>
 <li>We updated the user interface of the dropdown list that shows the AI suggestions. (RAID-670)</li>
@@ -796,14 +850,15 @@ Inspired by <a href="https://www.outsystems.com/ideas/5205/allow-hyphen-in-url-p
 <li>Fixed an issue that prevented Manage Dependencies from focusing on one of the search boxes after opening. (RDEV-1922)</li>
 </ul>
 <h2 id="Development_Environment_11.8.3">Development Environment 11.8.3</h2>
-<div class="info"><p>Released on Aug 03, 2020</p></div>
+<div class="info">Released on Aug 03, 2020</div>
 <h3 id="Bug_Fixing_50">Bug Fixing</h3>
 <ul>
 <li>Fixed an issue that caused the Give Us Feedback to lose the outer spacing.  (RDEV-1899)</li>
 </ul>
 <h2 id="Development_Environment_11.8.2">Development Environment 11.8.2</h2>
 <div class="info">
-<p>Released on Jul 27, 2020</p></div>
+
+Released on Jul 27, 2020</div>
 <h3 id="New_in_Development_Environment_11.8.2">New in Development Environment 11.8.2</h3>
 <ul>
 <li>You can now use the Create Structure from Type to generate a structure from an anonymous structure type that will be used in the original variable. 
@@ -834,7 +889,8 @@ Inspired by <a href="https://www.outsystems.com/ideas/6044/">Maycon Oleczinski's
 </ul>
 <h2 id="Development_Environment_11.8.1">Development Environment 11.8.1</h2>
 <div class="info">
-<p>Released on Jul 20, 2020</p></div>
+
+Released on Jul 20, 2020</div>
 <h3 id="New_in_Development_Environment_11.8.1">New in Development Environment 11.8.1</h3>
 <ul>
 <li>Improved the way Service Studio guesses the type of new variables based on their names. Inspired by <a href="https://www.outsystems.com/ideas/3479/">Frans Moquette's idea</a>. (RDEV-1531)</li>
@@ -845,7 +901,8 @@ Inspired by <a href="https://www.outsystems.com/ideas/6044/">Maycon Oleczinski's
 </ul>
 <h2 id="Development_Environment_11.7.15">Development Environment 11.7.15</h2>
 <div class="info">
-<p>Released on Jul 13, 2020</p></div>
+
+Released on Jul 13, 2020</div>
 <h3 id="New_in_Development_Environment_11.7.15">New in Development Environment 11.7.15</h3>
 <ul>
 <li>Fixed issue that would lead to an error message in bottom pane related with 1CP (RAOT-111)</li>
@@ -856,14 +913,16 @@ Inspired by <a href="https://www.outsystems.com/ideas/6044/">Maycon Oleczinski's
 </ul>
 <h2 id="Development_Environment_11.7.14">Development Environment 11.7.14</h2>
 <div class="info">
-<p>Released on Jul 06, 2020</p></div>
+
+Released on Jul 06, 2020</div>
 <h3 id="New_in_Development_Environment_11.7.14">New in Development Environment 11.7.14</h3>
 <ul>
 <li>In Personal Environments, you can now create a new app based on an existing app curated by OutSystems. (RDEV-1652)</li>
 </ul>
 <h2 id="Development_Environment_11.7.13">Development Environment 11.7.13</h2>
 <div class="info">
-<p>Released on Jun 29, 2020</p></div>
+
+Released on Jun 29, 2020</div>
 <h3 id="Bug_Fixing_54">Bug Fixing</h3>
 <ul>
 <li>Fixed a runtime error in generated Android apps when a new version of the app was available. (RPD-5137)</li>
@@ -871,7 +930,8 @@ Inspired by <a href="https://www.outsystems.com/ideas/6044/">Maycon Oleczinski's
 </ul>
 <h2 id="Development_Environment_11.7.12">Development Environment 11.7.12</h2>
 <div class="info">
-<p>Released on Jun 22, 2020</p></div>
+
+Released on Jun 22, 2020</div>
 <h3 id="New_in_Development_Environment_11.7.12">New in Development Environment 11.7.12</h3>
 <ul>
 <li>Avoid doing unnecessary requests when native tab of Application details is not opened (RMAC-2953)</li>
@@ -885,7 +945,8 @@ Inspired by <a href="https://www.outsystems.com/ideas/6044/">Maycon Oleczinski's
 </ul>
 <h2 id="Development_Environment_11.7.10">Development Environment 11.7.10</h2>
 <div class="info">
-<p>Released on Jun 15, 2020</p></div>
+
+Released on Jun 15, 2020</div>
 <h3 id="New_in_Development_Environment_11.7.10">New in Development Environment 11.7.10</h3>
 <ul>
 <li>Upgraded Microsoft.AspNetCore and Microsoft.Extension libraries to the latest 2.1 LTS versions. (RRCT-2896)</li>
@@ -902,7 +963,8 @@ Inspired by <a href="https://www.outsystems.com/ideas/6044/">Maycon Oleczinski's
 </ul>
 <h2 id="Development_Environment_11.7.9">Development Environment 11.7.9</h2>
 <div class="info">
-<p>Released on Jun 01, 2020</p></div>
+
+Released on Jun 01, 2020</div>
 <h3 id="New_in_Development_Environment_11.7.9">New in Development Environment 11.7.9</h3>
 <ul>
 <li>It's now possible to consume a REST API importing a REST API specification with lists of parameters that are applicable for all the operations described under a given path. (RSBO-1175)</li>
@@ -919,7 +981,8 @@ Inspired by <a href="https://www.outsystems.com/ideas/6044/">Maycon Oleczinski's
 </ul>
 <h2 id="Development_Environment_11.7.8">Development Environment 11.7.8</h2>
 <div class="info">
-<p>Released on May 25, 2020</p></div>
+
+Released on May 25, 2020</div>
 <h3 id="Bug_Fixing_58">Bug Fixing</h3>
 <ul>
 <li>We fixed an occasional glitch in the UI part of AI-assisted development related to the navigation of the suggestions.  (RAID-565)</li>
@@ -930,7 +993,8 @@ Inspired by <a href="https://www.outsystems.com/ideas/6044/">Maycon Oleczinski's
 </ul>
 <h2 id="Development_Environment_11.7.7">Development Environment 11.7.7</h2>
 <div class="info">
-<p>Released on May 18, 2020</p></div>
+
+Released on May 18, 2020</div>
 <h3 id="New_in_Development_Environment_11.7.7">New in Development Environment 11.7.7</h3>
 <ul>
 <li>When consuming REST with external refs, a new message was added a message to show the external references that will be downloaded. (RSBO-1293)</li>
@@ -946,7 +1010,8 @@ Inspired by <a href="https://www.outsystems.com/ideas/6044/">Maycon Oleczinski's
 </ul>
 <h2 id="Development_Environment_11.7.6">Development Environment 11.7.6</h2>
 <div class="info">
-<p>Released on May 11, 2020</p></div>
+
+Released on May 11, 2020</div>
 <h3 id="New_in_Development_Environment_11.7.6">New in Development Environment 11.7.6</h3>
 <ul>
 <li>Fixed a problem with Service Studio that would result in public processes in a module being incorrectly exposed to other modules. (RICT-2463)</li>
@@ -965,7 +1030,8 @@ inspired by <a href="https://www.outsystems.com/ideas/2466/">João Martins' idea
 </ul>
 <h2 id="Development_Environment_11.7.5">Development Environment 11.7.5</h2>
 <div class="info">
-<p>This is a preliminary version of the document.</p></div>
+
+This is a preliminary version of the document.</div>
 <h3 id="New_in_Development_Environment_11.7.5">New in Development Environment 11.7.5</h3>
 <ul>
 <li>Fixed a problem with Service Studio that would result in public processes in a module being incorrectly exposed to other modules. (RICT-2463)</li>
@@ -975,7 +1041,8 @@ inspired by <a href="https://www.outsystems.com/ideas/2466/">João Martins' idea
 </ul>
 <h2 id="Development_Environment_11.7.4">Development Environment 11.7.4</h2>
 <div class="info">
-<p>Released on Apr 27, 2020</p></div>
+
+Released on Apr 27, 2020</div>
 <h3 id="New_in_Development_Environment_11.7.4">New in Development Environment 11.7.4</h3>
 <ul>
 <li>Fixed a problem with Service Studio that would result in public processes in a module being incorrectly exposed to other modules. (RICT-2463)</li>
@@ -992,7 +1059,8 @@ inspired by <a href="https://www.outsystems.com/ideas/2466/">João Martins' idea
 </ul>
 <h2 id="Development_Environment_11.7.3">Development Environment 11.7.3</h2>
 <div class="info">
-<p>Released on Apr 20, 2020</p></div>
+
+Released on Apr 20, 2020</div>
 <h3 id="New_in_Development_Environment_11.7.3">New in Development Environment 11.7.3</h3>
 <ul>
 <li>When copying a structure or entity, now you'll be able to paste it as an action’s input, output, or local parameter just by selecting Paste as. Inspired by <a href="https://www.outsystems.com/ideas/5845/">Evert van der Zalm's idea</a>. (RDEV-1526)</li>
@@ -1009,7 +1077,8 @@ inspired by <a href="https://www.outsystems.com/ideas/2466/">João Martins' idea
 </ul>
 <h2 id="Development_Environment_11.7.2">Development Environment 11.7.2</h2>
 <div class="info">
-<p>Released on Apr 13, 2020</p>
+
+Released on Apr 13, 2020
 </div>
 <h3 id="New_in_Development_Environment_11.7.2">New in Development Environment 11.7.2</h3>
 <ul>
@@ -1025,7 +1094,8 @@ inspired by <a href="https://www.outsystems.com/ideas/2466/">João Martins' idea
 </ul>
 <h2 id="Development_Environment_11.7.1">Development Environment 11.7.1</h2>
 <div class="info">
-<p>Released on Apr 06, 2020</p></div>
+
+Released on Apr 06, 2020</div>
 <h3 id="New_in_Development_Environment_11.7.1">New in Development Environment 11.7.1</h3>
 <ul>
 <li>We added a tooltip to the AI-assisted development radar that shows in the flow. Now it's more clear what the radar does. (RAID-525)</li>
@@ -1050,7 +1120,8 @@ Inspired by <a href="https://www.outsystems.com/ideas/7845/">Daniël Kuhlmann's 
 </ul>
 <h2 id="Development_Environment_11.7.0">Development Environment 11.7.0</h2>
 <div class="info">
-<p>This is a preliminary version of the document.</p></div>
+
+This is a preliminary version of the document.</div>
 <h3 id="New_in_Development_Environment_11.7.0">New in Development Environment 11.7.0</h3>
 <ul>
 <li>We added a tooltip to the AI-assisted development radar that shows in the flow. Now it's more clear what the radar does. (RAID-525)</li>
@@ -1076,7 +1147,8 @@ Inspired by <a href="https://www.outsystems.com/ideas/7845/">Daniël Kuhlmann's 
 </ul>
 <h2 id="Development_Environment_11.6.32">Development Environment 11.6.32</h2>
 <div class="info">
-<p>Released on Mar 23, 2020</p></div>
+
+Released on Mar 23, 2020</div>
 <h3 id="New_in_Development_Environment_11.6.32">New in Development Environment 11.6.32</h3>
 <ul>
 <li>The AI-assisted development feature will now also consider Service Actions with Boolean outputs in advanced IF suggestions (RAID-473)</li>
@@ -1097,7 +1169,8 @@ Inspired by <a href="https://www.outsystems.com/ideas/7845/">Daniël Kuhlmann's 
 </ul>
 <h2 id="Development_Environment_11.6.31">Development Environment 11.6.31</h2>
 <div class="info">
-<p>Released on Mar 17, 2020</p></div>
+
+Released on Mar 17, 2020</div>
 <h3 id="New_in_Development_Environment_11.6.31">New in Development Environment 11.6.31</h3>
 <ul>
 <li>We improved the user experience of the AI-assisted development feature. Now the suggestions show less often when you're just connecting two nodes. (RAID-343)</li>
@@ -1114,7 +1187,8 @@ Inspired by <a href="https://www.outsystems.com/ideas/7845/">Daniël Kuhlmann's 
 </ul>
 <h2 id="Development_Environment_11.6.30">Development Environment 11.6.30</h2>
 <div class="info">
-<p>Released on Mar 09, 2020</p></div>
+
+Released on Mar 09, 2020</div>
 <h3 id="New_in_Development_Environment_11.6.30">New in Development Environment 11.6.30</h3>
 <ul>
 <li>Now the AI-assisted development feature is better at recommending the right side of assignments because the suggestion algorithm uses the names available in the scope. (RAID-463)</li>
@@ -1126,7 +1200,8 @@ Inspired by <a href="https://www.outsystems.com/ideas/7845/">Daniël Kuhlmann's 
 </ul>
 <h2 id="Development_Environment_11.6.29">Development Environment 11.6.29</h2>
 <div class="info">
-<p>Released on Mar 02, 2020</p>
+
+Released on Mar 02, 2020
 </div>
 <h3 id="New_in_Development_Environment_11.6.29">New in Development Environment 11.6.29</h3>
 <ul>
@@ -1141,14 +1216,16 @@ Inspired by <a href="https://www.outsystems.com/ideas/7845/">Daniël Kuhlmann's 
 </ul>
 <h2 id="Development_Environment_11.6.28">Development Environment 11.6.28</h2>
 <div class="info">
-<p>This is a preliminary version of the document.</p></div>
+
+This is a preliminary version of the document.</div>
 <h3 id="New_in_Development_Environment_11.6.28">New in Development Environment 11.6.28</h3>
 <ul>
 <li>Forge accesses from within Service Studio are authenticated automatically for users connected to their Personal Environments. This will not work if the user's environment credentials are different from the ones they use to access the community site. (RDEV-1347)</li>
 </ul>
 <h2 id="Development_Environment_11.6.27">Development Environment 11.6.27</h2>
 <div class="info">
-<p>Released on Feb 26, 2020</p></div>
+
+Released on Feb 26, 2020</div>
 <h3 id="Bug_Fixing_69">Bug Fixing</h3>
 <ul>
 <li>Fixed a crash when right-clicking the AI-assisted development radar in the flow while holding a shortcut key. (RAID-470)</li>
@@ -1161,14 +1238,16 @@ Inspired by <a href="https://www.outsystems.com/ideas/7845/">Daniël Kuhlmann's 
 </ul>
 <h2 id="Development_Environment_11.6.26">Development Environment 11.6.26</h2>
 <div class="info">
-<p>Released on Feb 10, 2020</p></div>
+
+Released on Feb 10, 2020</div>
 <h3 id="Bug_Fixing_70">Bug Fixing</h3>
 <ul>
 <li>Fixed a crash when trying to enclose multiple Placeholders in a Container. (RTAF-2157)</li>
 </ul>
 <h2 id="Development_Environment_11.6.25">Development Environment 11.6.25</h2>
 <div class="info">
-<p>Released on Feb 03, 2020</p></div>
+
+Released on Feb 03, 2020</div>
 <h3 id="New_in_Development_Environment_11.6.25">New in Development Environment 11.6.25</h3>
 <ul>
 <li>It is now possible to see OutSystems supported apps in the Application List. (RDEV-1270)</li>
@@ -1183,7 +1262,8 @@ Inspired by <a href="https://www.outsystems.com/ideas/7845/">Daniël Kuhlmann's 
 </ul>
 <h2 id="Development_Environment_11.6.24">Development Environment 11.6.24</h2>
 <div class="info">
-<p>Released on Jan 27, 2020</p></div>
+
+Released on Jan 27, 2020</div>
 <h3 id="Bug_Fixing_72">Bug Fixing</h3>
 <ul>
 <li>Fixed an issue that caused the creation of duplicated Static Entities when used more than once in a consumed REST API definition. (RSBO-853)</li>
@@ -1192,7 +1272,8 @@ Inspired by <a href="https://www.outsystems.com/ideas/7845/">Daniël Kuhlmann's 
 </ul>
 <h2 id="Development_Environment_11.6.23">Development Environment 11.6.23</h2>
 <div class="info">
-<p>Released on Jan 20, 2020</p></div>
+
+Released on Jan 20, 2020</div>
 <h3 id="New_in_Development_Environment_11.6.23">New in Development Environment 11.6.23</h3>
 <ul>
 <li>We improved the alignment of the cell content and the header of the Table Widget that you get after you drag an Entity to a Screen. (RTAF-1787)</li>
@@ -1206,14 +1287,16 @@ Inspired by <a href="https://www.outsystems.com/ideas/7845/">Daniël Kuhlmann's 
 </ul>
 <h2 id="Development_Environment_11.6.22">Development Environment 11.6.22</h2>
 <div class="info">
-<p>Released on Jan 13, 2020</p></div>
+
+Released on Jan 13, 2020</div>
 <h3 id="Bug_Fixing_74">Bug Fixing</h3>
 <ul>
 <li>When you now drop an Entity to a Flow, a link is created in the menu. (RTAF-1937)</li>
 </ul>
 <h2 id="Development_Environment_11.6.21">Development Environment 11.6.21</h2>
 <div class="info">
-<p>Released on Jan 06, 2020</p></div>
+
+Released on Jan 06, 2020</div>
 <h3 id="New_in_Development_Environment_11.6.21">New in Development Environment 11.6.21</h3>
 <ul>
 <li>You can now distribute your app as a Progressive Web App (PWA). Start by enabling this early access feature in LifeTime. Then, create a mobile or tablet app, publish it, navigate to the "Distribute" tab and toggle on "Distribute as the PWA" (no republish needed). You can try your PWA out by installing it through Android Chrome and iOS Safari. The <a href="https://success.outsystems.com/Documentation/11/Delivering_Mobile_Apps/Distribute_as_a_progressive_web_app">early access PWA documentation</a> explains how to enable PWA on iOS 13, as well as how to edit the manifest. Try out the PWAs and <a href="https://www.outsystems.com/forums/71/early-access-features/">share your feedback with us</a> on the forum! (RTAF-1939)</li>
@@ -1225,7 +1308,8 @@ Inspired by <a href="https://www.outsystems.com/ideas/7845/">Daniël Kuhlmann's 
 </ul>
 <h2 id="Development_Environment_11.6.18">Development Environment 11.6.18</h2>
 <div class="info">
-<p>Released on Dec 30, 2019</p></div>
+
+Released on Dec 30, 2019</div>
 <h3 id="New_in_Development_Environment_11.6.18">New in Development Environment 11.6.18</h3>
 <ul>
 <li>Improved the look of dark themes generated by Theme Editor. (RDEV-1193)</li>
@@ -1241,7 +1325,7 @@ Inspired by <a href="https://www.outsystems.com/ideas/7845/">Daniël Kuhlmann's 
 <li>Added support for headers in consumed SOAP Web Services. (RSBO-1040)</li>
 </ul>
 <h2 id="Development_Environment_11.6.17">Development Environment 11.6.17</h2>
-<div class="info"><p>Released on Dec 20, 2019</p></div>
+<div class="info">Released on Dec 20, 2019</div>
 <h3 id="New_in_Development_Environment_11.6.17">New in Development Environment 11.6.17</h3>
 <ul>
 <li>Redesigned the version conflict dialog to make it more difficult for less experienced users to overwrite changes made by others. (RMAC-48)</li>
@@ -1260,7 +1344,8 @@ Inspired by <a href="https://www.outsystems.com/ideas/7845/">Daniël Kuhlmann's 
 </ul>
 <h2 id="Development_Environment_11.6.16">Development Environment 11.6.16</h2>
 <div class="info">
-<p>Released on Dec 16, 2019</p></div>
+
+Released on Dec 16, 2019</div>
 <h3 id="New_in_Development_Environment_11.6.16">New in Development Environment 11.6.16</h3>
 <ul>
 <li>It is now possible to scaffold list and detail screens in Reactive Web simply by dragging an entity to a UI flow. (RTAF-1658)</li>
@@ -1271,7 +1356,8 @@ Inspired by <a href="https://www.outsystems.com/ideas/7845/">Daniël Kuhlmann's 
 </ul>
 <h2 id="Development_Environment_11.6.14">Development Environment 11.6.14</h2>
 <div class="info">
-<p>Released on Dec 09, 2019</p></div>
+
+Released on Dec 09, 2019</div>
 <h3 id="New_in_Development_Environment_11.6.14">New in Development Environment 11.6.14</h3>
 <ul>
 <li>It is now possible to open a support case in the Help menu. (RDEV-728)</li>
@@ -1286,7 +1372,8 @@ Inspired by <a href="https://www.outsystems.com/ideas/7845/">Daniël Kuhlmann's 
 </ul>
 <h2 id="Development_Environment_11.6.13">Development Environment 11.6.13</h2>
 <div class="info">
-<p>Released on Dec 02, 2019</p></div>
+
+Released on Dec 02, 2019</div>
 <h3 id="New_in_Development_Environment_11.6.13">New in Development Environment 11.6.13</h3>
 <ul>
 <li>Data Sources now support dependency chaining. This enables you to create data sequences to form a more complex behavior with efficient asynchronous and parallel database queries. (RTAF-1764)</li>
@@ -1312,7 +1399,8 @@ Inspired by <a href="https://www.outsystems.com/ideas/7845/">Daniël Kuhlmann's 
 </ul>
 <h2 id="Development_Environment_11.6.12">Development Environment 11.6.12</h2>
 <div class="info">
-<p>This is a preliminary version of the document.</p></div>
+
+This is a preliminary version of the document.</div>
 <h3 id="New_in_Development_Environment_11.6.12">New in Development Environment 11.6.12</h3>
 <ul>
 <li>Added warning message when publishing and a Security Warning is present in the module. (RTAF-1713)</li>
@@ -1330,7 +1418,8 @@ Inspired by <a href="https://www.outsystems.com/ideas/7845/">Daniël Kuhlmann's 
 </ul>
 <h2 id="Development_Environment_11.6.11">Development Environment 11.6.11</h2>
 <div class="info">
-<p>Released on Nov 25, 2019</p></div>
+
+Released on Nov 25, 2019</div>
 <h3 id="New_in_Development_Environment_11.6.11">New in Development Environment 11.6.11</h3>
 <ul>
 <li>It is now possible to disable or enable multiple elements in an Action flow when the selection contains both disabled and enabled elements. Inspired by <a href="https://www.outsystems.com/ideas/7573/">Cláudia Capitão's idea</a>. (RDEV-1021)</li>
@@ -1353,7 +1442,8 @@ Inspired by <a href="https://www.outsystems.com/ideas/7845/">Daniël Kuhlmann's 
 </ul>
 <h2 id="Development_Environment_11.6.9">Development Environment 11.6.9</h2>
 <div class="info">
-<p>Released on Nov 20, 2019</p></div>
+
+Released on Nov 20, 2019</div>
 <h3 id="New_in_Development_Environment_11.6.9">New in Development Environment 11.6.9</h3>
 <ul>
 <li>Now, you are asked for confirmation before publishing a module that is being debugged. (RDEV-978)</li>
@@ -1368,7 +1458,8 @@ Inspired by <a href="https://www.outsystems.com/ideas/7845/">Daniël Kuhlmann's 
 </ul>
 <h2 id="Development_Environment_11.6.7">Development Environment 11.6.7</h2>
 <div class="info">
-<p>Released on Nov 12, 2019</p></div>
+
+Released on Nov 12, 2019</div>
 <h3 id="New_in_Development_Environment_11.6.7">New in Development Environment 11.6.7</h3>
 <ul>
 <li>Improved the default REST API method names when the URLs contain parenthesis characters. (RSBO-903)</li>
@@ -1382,7 +1473,8 @@ Inspired by <a href="https://www.outsystems.com/ideas/7845/">Daniël Kuhlmann's 
 </ul>
 <h2 id="Development_Environment_11.6.6">Development Environment 11.6.6</h2>
 <div class="info">
-<p>Released on Oct 28, 2019</p></div>
+
+Released on Oct 28, 2019</div>
 <h3 id="New_in_Development_Environment_11.6.6">New in Development Environment 11.6.6</h3>
 <ul>
 <li>It is now possible to consume REST APIs using Swagger specifications that have enum elements.  (RSBO-872)</li>
@@ -1398,21 +1490,24 @@ Inspired by <a href="https://www.outsystems.com/ideas/7845/">Daniël Kuhlmann's 
 </ul>
 <h2 id="Development_Environment_11.6.5">Development Environment 11.6.5</h2>
 <div class="info">
-<p>This is a preliminary version of the document.</p></div>
+
+This is a preliminary version of the document.</div>
 <h3 id="New_in_Development_Environment_11.6.5">New in Development Environment 11.6.5</h3>
 <ul>
 <li>It's now possible to use Client Variables on Aggregates. (RTAF-1334)</li>
 </ul>
 <h2 id="Development_Environment_11.6.4">Development Environment 11.6.4</h2>
 <div class="info">
-<p>This is a preliminary version of the document.</p></div>
+
+This is a preliminary version of the document.</div>
 <h3 id="New_in_Development_Environment_11.6.4">New in Development Environment 11.6.4</h3>
 <ul>
 <li>It's now possible to use Client Variables on Aggregates. (RTAF-1334)</li>
 </ul>
 <h2 id="Development_Environment_11.6.3">Development Environment 11.6.3</h2>
 <div class="info">
-<p>This is a preliminary version of the document.</p></div>
+
+This is a preliminary version of the document.</div>
 <h3 id="New_in_Development_Environment_11.6.3">New in Development Environment 11.6.3</h3>
 <ul>
 <li>It's now possible to use Client Variables on Aggregates. (RTAF-1334)</li>
@@ -1426,7 +1521,8 @@ Inspired by <a href="https://www.outsystems.com/ideas/7845/">Daniël Kuhlmann's 
 </ul>
 <h2 id="Development_Environment_11.6.2">Development Environment 11.6.2</h2>
 <div class="info">
-<p>Released on Oct 14, 2019</p></div>
+
+Released on Oct 14, 2019</div>
 <h3 id="New_in_Development_Environment_11.6.2">New in Development Environment 11.6.2</h3>
 <ul>
 <li>We updated icons on the Reactive Web App's Table toolbar. (RTAF-1345)</li>
@@ -1442,7 +1538,7 @@ Inspired by <a href="https://www.outsystems.com/ideas/7845/">Daniël Kuhlmann's 
 </ul>
 <h2 id="Development_Environment_11.6.1">Development Environment 11.6.1</h2>
 <div class="info">
-<p>Released on Oct 02, 2019</p>
+Released on Oct 02, 2019
 </div>
 <h3 id="New_in_Development_Environment_11.6.1">New in Development Environment 11.6.1</h3>
 <ul>
@@ -1469,7 +1565,8 @@ Inspired by <a href="https://www.outsystems.com/ideas/7845/">Daniël Kuhlmann's 
 </ul>
 <h2 id="Development_Environment_11.6.0">Development Environment 11.6.0</h2>
 <div class="info">
-<p>This is a preliminary version of the document.</p></div>
+
+This is a preliminary version of the document.</div>
 <h3 id="New_in_Development_Environment_11.6.0">New in Development Environment 11.6.0</h3>
 <ul>
 <li>Use the server-side pagination feature of the Screen Aggregates to build faster apps that need to handle large data sets. Enter the Start Index and fetch the number of records you define in Max Records. (RTAF-630)</li>
@@ -1486,7 +1583,8 @@ This feature requires OutSystems Platform Server 11 Release Oct.2019. (RSBO-811)
 </ul>
 <h2 id="Development_Environment_11.5.46">Development Environment 11.5.46</h2>
 <div class="info">
-<p>This is a preliminary version of the document.</p></div>
+
+This is a preliminary version of the document.</div>
 <h3 id="New_in_Development_Environment_11.5.46">New in Development Environment 11.5.46</h3>
 <ul>
 <li>Use the server-side pagination feature of the Screen Aggregates to build faster apps that need to handle large data sets. Enter the Start Index and fetch the number of records you define in Max Records. (RTAF-630)</li>
@@ -1502,7 +1600,7 @@ This feature requires OutSystems Platform Server 11 Release Oct.2019. (RSBO-811)
 <li>Fixed the text formatting of the "More Information" field in dialog boxes. (RMAC-1392)</li>
 </ul>
 <h2 id="Development_Environment_11.5.45">Development Environment 11.5.45</h2>
-<div class="info"><p>Released on Sep 24, 2019</p></div>
+<div class="info">Released on Sep 24, 2019</div>
 <h3 id="New_in_Development_Environment_11.5.45">New in Development Environment 11.5.45</h3>
 <ul>
 <li>Added mobile debugger support to iOS13 (RTAF-1349)</li>
@@ -1521,7 +1619,7 @@ This feature requires OutSystems Platform Server 11 Release Oct.2019. (RSBO-811)
 </ul>
 <h2 id="Development_Environment_11.5.44">Development Environment 11.5.44</h2>
 <div class="info">
-<p>Released on Sep 11, 2019</p>
+Released on Sep 11, 2019
 </div>
 <h3 id="New_in_Development_Environment_11.5.44">New in Development Environment 11.5.44</h3>
 <ul>
@@ -1537,7 +1635,8 @@ This feature requires OutSystems Platform Server 11 Release Oct.2019. (RSBO-811)
 </ul>
 <h2 id="Development_Environment_11.5.43">Development Environment 11.5.43</h2>
 <div class="info">
-<p>Released on Sep 04, 2019</p>
+
+Released on Sep 04, 2019
 </div>
 <h3 id="New_in_Development_Environment_11.5.43">New in Development Environment 11.5.43</h3>
 <ul>
@@ -1550,7 +1649,8 @@ This feature requires OutSystems Platform Server 11 Release Oct.2019. (RSBO-811)
 </ul>
 <h2 id="Development_Environment_11.5.42">Development Environment 11.5.42</h2>
 <div class="info">
-<p>Released on Aug 26, 2019</p>
+
+Released on Aug 26, 2019
 </div>
 <h3 id="New_in_Development_Environment_11.5.42">New in Development Environment 11.5.42</h3>
 <ul>
@@ -1565,7 +1665,8 @@ This feature requires OutSystems Platform Server 11 Release Oct.2019. (RSBO-811)
 </ul>
 <h2 id="Development_Environment_11.5.40">Development Environment 11.5.40</h2>
 <div class="info">
-<p>Released on Aug 12, 2019</p>
+
+Released on Aug 12, 2019
 </div>
 <h3 id="New_in_Development_Environment_11.5.40">New in Development Environment 11.5.40</h3>
 <ul>
@@ -1583,7 +1684,8 @@ This feature requires OutSystems Platform Server 11 Release Oct.2019. (RSBO-811)
 </ul>
 <h2 id="Development_Environment_11.5.39">Development Environment 11.5.39</h2>
 <div class="info">
-<p>Released on Jul 31, 2019</p>
+
+Released on Jul 31, 2019
 </div>
 <h3 id="New_in_Development_Environment_11.5.39">New in Development Environment 11.5.39</h3>
 <ul>
@@ -1603,7 +1705,8 @@ This feature requires OutSystems Platform Server 11 Release Oct.2019. (RSBO-811)
 </ul>
 <h2 id="Development_Environment_Release_29">Development Environment Release 29</h2>
 <div class="info">
-<p>Released on Jul 18, 2019</p>
+
+Released on Jul 18, 2019
 </div>
 <h3 id="Bug_Fixing_97">Bug Fixing</h3>
 <ul>
@@ -1613,7 +1716,8 @@ This feature requires OutSystems Platform Server 11 Release Oct.2019. (RSBO-811)
 </ul>
 <h2 id="Development_Environment_Release_28">Development Environment Release 28</h2>
 <div class="info">
-<p>Released on Jul 15, 2019</p>
+
+Released on Jul 15, 2019
 </div>
 <h3 id="Bug_Fixing_98">Bug Fixing</h3>
 <ul>
@@ -1623,7 +1727,8 @@ This feature requires OutSystems Platform Server 11 Release Oct.2019. (RSBO-811)
 </ul>
 <h2 id="Development_Environment_Release_27">Development Environment Release 27</h2>
 <div class="info">
-<p>Released on Jul 08, 2019</p>
+
+Released on Jul 08, 2019
 </div>
 <h3 id="New_in_Development_Environment_Release_27">New in Development Environment Release 27</h3>
 <ul>
@@ -1644,7 +1749,8 @@ This feature requires OutSystems Platform Server 11 Release Oct.2019. (RSBO-811)
 </ul>
 <h2 id="Development_Environment_Release_26">Development Environment Release 26</h2>
 <div class="info">
-<p>Released on Jul 01, 2019</p>
+
+Released on Jul 01, 2019
 </div>
 <h3 id="New_in_Development_Environment_Release_26">New in Development Environment Release 26</h3>
 <ul>
@@ -1657,7 +1763,8 @@ This feature requires OutSystems Platform Server 11 Release Oct.2019. (RSBO-811)
 </ul>
 <h2 id="Development_Environment_Release_25">Development Environment Release 25</h2>
 <div class="info">
-<p>Released on Jun 19, 2019</p>
+
+Released on Jun 19, 2019
 </div>
 <h3 id="New_in_Development_Environment_Release_25">New in Development Environment Release 25</h3>
 <ul>
@@ -1669,7 +1776,8 @@ This feature requires OutSystems Platform Server 11 Release Oct.2019. (RSBO-811)
 </ul>
 <h2 id="Development_Environment_Release_24">Development Environment Release 24</h2>
 <div class="info">
-<p>Released on Jun 11, 2019</p>
+
+Released on Jun 11, 2019
 </div>
 <h3 id="New_in_Development_Environment_Release_24">New in Development Environment Release 24</h3>
 <ul>
@@ -1702,7 +1810,8 @@ This feature requires OutSystems Platform Server 11 Release Apr.2019 CP1. (RSBO-
 </ul>
 <h2 id="Development_Environment_Release_23">Development Environment Release 23</h2>
 <div class="info">
-<p>Released on May 20, 2019</p>
+
+Released on May 20, 2019
 </div>
 <h3 id="New_in_Development_Environment_Release_23">New in Development Environment Release 23</h3>
 <ul>
@@ -1721,7 +1830,8 @@ This feature requires OutSystems Platform Server 11 Release Apr.2019 CP1. (RSBO-
 </ul>
 <h2 id="Development_Environment_Release_22">Development Environment Release 22</h2>
 <div class="info">
-<p>Released on May 13, 2019</p>
+
+Released on May 13, 2019
 </div>
 <h3 id="New_in_Development_Environment_Release_22">New in Development Environment Release 22</h3>
 <ul>
@@ -1734,7 +1844,8 @@ This feature requires OutSystems Platform Server 11 Release Apr.2019 CP1. (RSBO-
 </ul>
 <h2 id="Development_Environment_Release_21">Development Environment Release 21</h2>
 <div class="info">
-<p>Released on Apr 30, 2019</p>
+
+Released on Apr 30, 2019
 </div>
 <h3 id="Bug_Fixing_105">Bug Fixing</h3>
 <ul>
@@ -1743,7 +1854,8 @@ This feature requires OutSystems Platform Server 11 Release Apr.2019 CP1. (RSBO-
 </ul>
 <h2 id="Development_Environment_Release_19">Development Environment Release 19</h2>
 <div class="info">
-<p>Released on Apr 22, 2019</p>
+
+Released on Apr 22, 2019
 </div>
 <h3 id="New_in_Development_Environment_Release_19">New in Development Environment Release 19</h3>
 <ul>
@@ -1765,7 +1877,8 @@ This feature requires OutSystems Platform Server 11 Release Apr.2019 CP1. (RSBO-
 </ul>
 <h2 id="Development_Environment_Release_18">Development Environment Release 18</h2>
 <div class="info">
-<p>Released on Apr 15, 2019</p>
+
+Released on Apr 15, 2019
 </div>
 <h3 id="New_in_Development_Environment_Release_18">New in Development Environment Release 18</h3>
 <ul>
@@ -1791,7 +1904,8 @@ This feature requires OutSystems Platform Server 11 Release Apr.2019 CP1. (RSBO-
 </ul>
 <h2 id="Development_Environment_Release_17">Development Environment Release 17</h2>
 <div class="info">
-<p>Released on Mar 18, 2019</p>
+
+Released on Mar 18, 2019
 </div>
 <h3 id="Bug_Fixing_108">Bug Fixing</h3>
 <ul>
@@ -1799,7 +1913,8 @@ This feature requires OutSystems Platform Server 11 Release Apr.2019 CP1. (RSBO-
 </ul>
 <h2 id="Development_Environment_Release_16">Development Environment Release 16</h2>
 <div class="info">
-<p>Released on Mar 12, 2019</p>
+
+Released on Mar 12, 2019
 </div>
 <h3 id="New_in_Development_Environment_Release_16">New in Development Environment Release 16</h3>
 <ul>
@@ -1822,7 +1937,8 @@ This feature requires OutSystems Platform Server 11 Release Apr.2019 CP1. (RSBO-
 </ul>
 <h2 id="Development_Environment_Release_15">Development Environment Release 15</h2>
 <div class="info">
-<p>Released on Mar 04, 2019</p>
+
+Released on Mar 04, 2019
 </div>
 <h3 id="New_in_Development_Environment_Release_15">New in Development Environment Release 15</h3>
 <ul>
@@ -1855,7 +1971,8 @@ This feature requires OutSystems Platform Server 11 Release Apr.2019 CP1. (RSBO-
 </ul>
 <h2 id="Development_Environment_Release_14">Development Environment Release 14</h2>
 <div class="info">
-<p>Released on Feb 11, 2019</p>
+
+Released on Feb 11, 2019
 </div>
 <h3 id="New_in_Development_Environment_Release_14">New in Development Environment Release 14</h3>
 <ul>
@@ -1873,7 +1990,8 @@ This feature requires OutSystems Platform Server 11 Release Apr.2019 CP1. (RSBO-
 </ul>
 <h2 id="Development_Environment_Release_13">Development Environment Release 13</h2>
 <div class="info">
-<p>Released on Feb 05, 2019</p>
+
+Released on Feb 05, 2019
 </div>
 <h3 id="New_in_Development_Environment_Release_13">New in Development Environment Release 13</h3>
 <ul>
@@ -1904,7 +2022,8 @@ This feature requires OutSystems Platform Server 11 Release Apr.2019 CP1. (RSBO-
 </ul>
 <h2 id="Development_Environment_Release_12">Development Environment Release 12</h2>
 <div class="info">
-<p>Released on Jan 25, 2019</p>
+
+Released on Jan 25, 2019
 </div>
 <h3 id="New_in_Development_Environment_Release_12">New in Development Environment Release 12</h3>
 <ul>
@@ -1933,7 +2052,8 @@ This feature requires OutSystems Platform Server 11 Release Apr.2019 CP1. (RSBO-
 </ul>
 <h2 id="Development_Environment_Release_11">Development Environment Release 11</h2>
 <div class="info">
-<p>Released on Jan 17, 2019</p>
+
+Released on Jan 17, 2019
 </div>
 <h3 id="New_in_Development_Environment_Release_11">New in Development Environment Release 11</h3>
 <ul>
@@ -1946,7 +2066,8 @@ This feature requires OutSystems Platform Server 11 Release Apr.2019 CP1. (RSBO-
 </ul>
 <h2 id="Development_Environment_Release_10">Development Environment Release 10</h2>
 <div class="info">
-<p>Released on Jan 07, 2019</p>
+
+Released on Jan 07, 2019
 </div>
 <h3 id="New_in_Development_Environment_Release_10">New in Development Environment Release 10</h3>
 <ul>
@@ -1973,7 +2094,8 @@ This feature requires OutSystems Platform Server 11 Release Apr.2019 CP1. (RSBO-
 </ul>
 <h2 id="Development_Environment_Release_9">Development Environment Release 9</h2>
 <div class="info">
-<p>Released on Jan 02, 2019</p>
+
+Released on Jan 02, 2019
 </div>
 <h3 id="New_in_Development_Environment_Release_9">New in Development Environment Release 9</h3>
 <ul>
@@ -1990,7 +2112,8 @@ This feature requires OutSystems Platform Server 11 Release Apr.2019 CP1. (RSBO-
 </ul>
 <h2 id="Development_Environment_Release_8">Development Environment Release 8</h2>
 <div class="info">
-<p>Released on Dec 27, 2018</p>
+
+Released on Dec 27, 2018
 </div>
 <h3 id="New_in_Development_Environment_Release_8">New in Development Environment Release 8</h3>
 <ul>
@@ -2007,7 +2130,8 @@ This feature requires OutSystems Platform Server 11 Release Apr.2019 CP1. (RSBO-
 </ul>
 <h2 id="Development_Environment_Release_7">Development Environment Release 7</h2>
 <div class="info">
-<p>Released on Dec 19, 2018</p>
+
+Released on Dec 19, 2018
 </div>
 <h3 id="New_in_Development_Environment_Release_7">New in Development Environment Release 7</h3>
 <ul>
@@ -2033,7 +2157,8 @@ This feature requires OutSystems Platform Server 11 Release Apr.2019 CP1. (RSBO-
 </ul>
 <h2 id="Development_Environment_Release_6">Development Environment Release 6</h2>
 <div class="info">
-<p>Released on Dec 03, 2018</p>
+
+Released on Dec 03, 2018
 </div>
 <h3 id="New_in_Development_Environment_Release_6">New in Development Environment Release 6</h3>
 <ul>
@@ -2053,7 +2178,8 @@ This feature requires OutSystems Platform Server 11 Release Apr.2019 CP1. (RSBO-
 </ul>
 <h2 id="Development_Environment_Release_5">Development Environment Release 5</h2>
 <div class="info">
-<p>Released on Nov 26, 2018</p>
+
+Released on Nov 26, 2018
 </div>
 <h3 id="New_in_Development_Environment_Release_5">New in Development Environment Release 5</h3>
 <ul>
@@ -2079,7 +2205,8 @@ This feature requires OutSystems Platform Server 11 Release Apr.2019 CP1. (RSBO-
 </ul>
 <h2 id="Development_Environment_Release_4">Development Environment Release 4</h2>
 <div class="info">
-<p>Released on Nov 07, 2018</p>
+
+Released on Nov 07, 2018
 </div>
 <h3 id="New_in_Development_Environment_Release_4">New in Development Environment Release 4</h3>
 <ul>
@@ -2116,7 +2243,8 @@ This feature requires OutSystems Platform Server 11 Release Apr.2019 CP1. (RSBO-
 </ul>
 <h2 id="Development_Environment_Release_3">Development Environment Release 3</h2>
 <div class="info">
-<p>Released on Oct 22, 2018</p>
+
+Released on Oct 22, 2018
 </div>
 <h3 id="New_in_Development_Environment_Release_3">New in Development Environment Release 3</h3>
 <ul>
@@ -2136,7 +2264,8 @@ This feature requires OutSystems Platform Server 11 Release Apr.2019 CP1. (RSBO-
 </ul>
 <h2 id="Development_Environment_Release_2">Development Environment Release 2</h2>
 <div class="info">
-<p>Released on Oct 09, 2018</p>
+
+Released on Oct 09, 2018
 </div>
 <h3 id="New_in_Development_Environment_Release_2">New in Development Environment Release 2</h3>
 <ul>
@@ -2157,7 +2286,8 @@ This feature requires OutSystems Platform Server 11 Release Apr.2019 CP1. (RSBO-
 </ul>
 <h2 id="Development_Environment_Release_1">Development Environment Release 1</h2>
 <div class="info">
-<p>Released on Sept 26, 2018</p>
+
+Released on Sept 26, 2018
 </div>
 <h3 id="New_in_Development_Environment_Release_1">New in Development Environment Release 1</h3>
 <h6>Highlights</h6>
@@ -2231,7 +2361,8 @@ This feature requires OutSystems Platform Server 11 Release Apr.2019 CP1. (RSBO-
 </ul>
 <h2 id="Development_Environment_11.0.503.0">Development Environment 11.0.503.0</h2>
 <div class="info">
-<p>Released on Apr 22, 2019</p>
+
+Released on Apr 22, 2019
 </div>
 <h3 id="New_in_Development_Environment_Release_19">New in Development Environment Release 19</h3>
 <ul>
@@ -2253,7 +2384,8 @@ This feature requires OutSystems Platform Server 11 Release Apr.2019 CP1. (RSBO-
 </ul>
 <h2 id="Development_Environment_11.0.501.0">Development Environment 11.0.501.0</h2>
 <div class="info">
-<p>Released on Apr 04, 2019</p>
+
+Released on Apr 04, 2019
 </div>
 <h3 id="New_in_Development_Environment_Release_18">New in Development Environment Release 18</h3>
 <ul>
@@ -2279,7 +2411,8 @@ This feature requires OutSystems Platform Server 11 Release Apr.2019 CP1. (RSBO-
 </ul>
 <h2 id="Development_Environment_11.0.0.401">Development Environment 11.0.0.401</h2>
 <div class="info">
-<p>This is a preliminary version of the document.</p>
+
+This is a preliminary version of the document.
 </div>
 <h3 id="New_in_Development_Environment_11.0.0.401">New in Development Environment 11.0.0.401</h3>
 <ul>
