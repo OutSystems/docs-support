@@ -22,6 +22,7 @@
 <li>Fixed an issue that could cause the Scheduler Service to become unhealthy in Oracle environments (RPM-1133)</li>
 <li>Http Server information is now removed from response header. (RPM-1461)</li>
 <li>Fixed an issue that caused email sending to be aborted when Office 365 returns error 550 (Recipient address rejected). (RPM-1514)</li>
+<li>Fixed an issue when deploying a new mobile app that doesn't exist in the target environment and contains a module moved from another app while the "Configure Mobile application updates distribution" Technical Preview is enabled. (RPM-1562)</li>
 <li>Fixed an issue that could cause IIS requests to hang in Oracle environments (RPM-1573)</li>
 <li>All Reactive and Mobile applications running inside an iframe now behave as running on the browser even if the parent is a native app. (RPM-1711)</li>
 <li>When executed in a Lifetime environment, Platform installer will now check if version being installed matches the expected version for the Lifetime version installed. (RPM-1932)</li>
@@ -31,8 +32,7 @@
 <li>Fixed an issue when the EXIF finds an unexpected EXIF property. (RPM-2138)</li>
 <li>Fixed an issue in Service Center that caused the display of wrong results when filtering the modules list by "errors and warnings" state. (RPM-2139)</li>
 <li>Fixed an issue that caused a warning, stating that the User Provider from that module was outdated, to persist in Service Center even when the error was not happening. (RPM-2146)</li>
-<li>Now the "Timer_NativeBuildTracker" in Service Center has a higher timeout value than the default value returned from MABS. This value is configurable through the new site property "NativeBuildTimeoutMargin". (RPM-2147)</li>
-<li>Fixed an issue in Service Center that caused the display of wrong results when filtering the modules list by "errors and warnings" state. (RPM-2155)</li>
+<li>Fixed an issue that made it impossible to obtain generated mobile builds from Service Center when there is a timeout in the build process. This was achieved by having the "Timer_NativeBuildTracker" in Service Center with a higher timeout value than the default value returned from MABS. This is configurable through the new site property "NativeBuildTimeoutMargin". (RPM-2147)</li>
 <li>Fixed Oracle semaphore related errors in high concurrency scenarios. This issue is fixed by the Oracle Driver upgrade done in R11PBT-667. (RPM-2178)</li>
 <li>Granting a security level to a user on a Database Connection no longer adds that level to all available connections. (RPM-2277)</li>
 <li>Fixed scenarios in which suspended process instances got resumed without any change to the process definition (RPM-2290)</li>
@@ -42,6 +42,8 @@
 <li>Fix a wrong behavior when using the browser back button or Previous Screen event to navigate back to a screen with Widgets that use data from Client/Local variables. The Widgets was not re-rendered and showed outdated values. (RPM-673)</li>
 <li>Improved brute force protection messaging when authenticating against Server.Identity. (RPM-836)</li>
 <li>Fixed an issue that caused all modules to show a warning stating that they need to be recompiled when adding a new front-end in a farm scenario. (RPM-951)</li>
+</ul>
+
 <li>Fixed a user privilege vulnerability in Service Center where AD groups were not taking precedence over native users. CVSSv3.0 score 4.2 (Medium). (RPM-2056)</li>
 <li>Fixed an issue that caused sensitive values to be captured by the App Feedback's feedback on Reactive applications. CVSSv3.1 score 4.2 (Medium). (RPM-2091)</li>
 <li>Fixed a security issue that was causing Configuration Tool to log credentials in its log file. CVSSv3.1 score 5.5 (Medium). (RPM-2136)</li>
