@@ -22,7 +22,7 @@ For common issues and solutions check also [Troubleshooting the Mobile Apps Gene
 <div class="info">
 
 **First release:** 2022-04-06 17:00:00 UTC<br />
-**Last update:** 2022-04-12 17:00:00 UTC.
+**Last update:** 2022-04-13 17:00:00 UTC.
 </div>
 
 <div class="warning">
@@ -35,9 +35,12 @@ See “[System requirements](#system-requirements) and [Breaking Changes](#break
 
 This minor version is focused on internal improvements, mainly around logging and security.
 
+* Added more information to the build logs, to aid the process of troubleshooting failed builds.
+* Improved validation of Extensibility Configurations preferences.
+
 **iOS**
 
-* Upgrade to Xcode 13.3
+* iOS builds now use Xcode 13.3.
 
 
 ## MABS Version 8.0
