@@ -231,9 +231,7 @@ It depends on LifeTime version 11.6.1. (RLIT-3938)</li>
 <li>Fixed an issue that was preventing you from deactivating App Feedback, once you activated it for Reactive Web Apps. (RPM-362)</li>
 <li>Fixed issue that caused width of a Dropdown widget defined in Service Studio to be ignored in runtime. (RPM-413)</li>
 <li>Fixed database error in Oracle when publishing a module whose extended configurations exceed 4000 chars. (RPM-465)</li>
-<li>Fixed an issue that caused System Components installation via Configuration Tool to timeout when the Platform Server is under heavy use. (RSUPT-292)
-
-The fix consists of changing the 20 minutes timeout on the entire System Component installation, to 5 minutes timeout on each module. (RPM-500)</li>
+<li>Fixed an issue that caused System Components installation via Configuration Tool to timeout when the Platform Server is under heavy use (RSUPT-292). The fix consists of changing the 20 minutes timeout on the entire System Component installation, to 5 minutes timeout on each module. (RPM-500)</li>
 <li>Fixed database error in Oracle when publishing a module whose extended configurations exceed 4000 chars. (RPM-539)</li>
 <li>Improved the error message shown when a module is not found while publishing a solution. Now the message states "Module <module-name> with version <version-number> not found" instead of "The given key was not present in the dictionary". (RPST-363)</version-number></module-name></li>
 <li>Fixed an issue in re-deploy operations that, in some situations, reused the folder of the currently running application. (RPST-371)</li>
