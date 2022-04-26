@@ -18,6 +18,7 @@ jobs:
       uses: actions/checkout@v2
       with:
         path: docs
+        token: ${{ secrets.TOOLS_PAT }}
 
     - name: Checkout Tools
       uses: actions/checkout@v2
