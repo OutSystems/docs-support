@@ -2,17 +2,14 @@ name: Merge release notes
 
 on:
   push:
-    branches:
-      - 'test-rn-jpb'
+    #branches:
+      #- 'test-rn-jpb'
     paths:
-      - 'src/release-notes/**'
+      - 'src/release-notes/**.htm'
 
 jobs:
   Merge:
-    strategy:
-      matrix:
-        folder: [src/release-notes/10/development-environment, src/release-notes/10/platform-server, src/release-notes/11/development-environment, src/release-notes/11/platform-server, src/release-notes/11/cross-platform-service-studio, path/release-notes/integration-builder, src/release-notes/lifetime-management-console,  src/release-notes/service-studio-neo] 
-        file: [src/release-notes/10/development-environment/development-environment.md, src/release-notes/10/platform-server/platform-server.md, src/release-notes/11/development-environment/development-environment.md, src/release-notes/11/platform-server.md, src/release-notes/11/cross-platform-service-studio/cross-platform-service-studio.md, src/release-notes/integration-builder/integration-builder.md, src/release-notes/lifetime-management-console/lifetime-management-console.md, src/release-notes/service-studio-neo/service-studio-neo.md] 
+ 
     runs-on: ubuntu-latest
       
     steps:
@@ -43,11 +40,33 @@ jobs:
     - name: Merge
       working-directory: docs
       run: |
-        python "../toolkit/merge_release_notes_script.py" ${{ matrix.folder }}
-        
-    #- name: Commit and Push
-      #run: |
-       # cd docs/
-      #  git add ${{ matrix.file }}
-      #  git commit -m "Update release notes"
-       # git push
+        python "../toolkit/merge_release_notes_script.py" src/release-notes/10/development-environment
+        python "../toolkit/merge_release_notes_script.py" src/release-notes/10/platform-server    
+        python "../toolkit/merge_release_notes_script.py" src/release-notes/11/development-environment
+        python "../toolkit/merge_release_notes_script.py" src/release-notes/11/platform-server     
+        python "../toolkit/merge_release_notes_script.py" src/release-notes/11/cross-platform-service-studio
+        python "../toolkit/merge_release_notes_script.py" src/release-notes/integration-builder     
+        python "../toolkit/merge_release_notes_script.py" src/release-notes/lifetime-management-console
+        python "../toolkit/merge_release_notes_script.py" src/release-notes/service-studio-neo
+        python "../toolkit/merge_release_notes_script.py" src/release-notes/architecture-dashboard
+        python "../toolkit/merge_release_notes_script.py" src/release-notes/experience-builder
+        python "../toolkit/merge_release_notes_script.py" src/release-notes/workflow-builder
+    - name: Commit and Push
+      run: |
+        cd docs/
+        git add src/release-notes/10/development-environment/development-environment.md
+        git add src/release-notes/10/platform-server/platform-server.md
+        git add src/release-notes/11/development-environment/development-environment.md
+        git add src/release-notes/11/platform-server/platform-server.md
+        git add src/release-notes/11/cross-platform-service-studio/cross-platform-service-studio.md
+        git add src/release-notes/integration-builder/integration-builder.md
+        git add src/release-notes/lifetime-management-console/lifetime-management-console.md
+        git add src/release-notes/service-studio-neo/service-studio-neo.md
+        git add src/release-notes/architecture-dashboard/architecture-dashboard.md
+        git add src/release-notes/experience-builder/experience-builder.md
+        git add src/release-notes/workflow-builder/workflow-builder.md
+        git config --global user.name ${{ secrets.USER_NAME_KNOWOPS }}
+        git config --global user.email ${{ secrets.EMAIL_KNOWOPS }}
+        git commit -m "Updated release notes"
+        git pull
+        git push
