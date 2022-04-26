@@ -9,7 +9,7 @@ app_type: traditional web apps, mobile apps, reactive web apps
 <div class="info">
 <p>Released on May 24, 2021</p>
 </div>
-<h3>New in Experience Builder 1.7.0</h3>
+<h3 id="New_in_Experience_Builder_1.7.0">New in Experience Builder 1.7.0</h3>
 <ul>
 <li>Added 5 new flows related to the recovery of user credentials.</li>
 <li>Experience Builder now lets you enable accessibility features for a generated app, making it compliant with <a href="https://www.w3.org/TR/WCAG21" title="https://www.w3.org/TR/WCAG21">Web Content Accessibility Guidelines</a>.</li>
@@ -20,7 +20,7 @@ app_type: traditional web apps, mobile apps, reactive web apps
 <div class="info">
 <p>Released on May 10, 2021</p>
 </div>
-<h3>New in Experience Builder 1.6.0</h3>
+<h3 id="New_in_Experience_Builder_1.6.0">New in Experience Builder 1.6.0</h3>
 <ul>
 <li>Now Experience Builder checks if the name of a template already exists in your environment. If the name already exists, Experience Builder renames the template.</li>
 <li>If your environment uses Platform Server 11.11.1 or later, Experience Builder automatically sets the PWA manifest in the extensibility configurations of generated apps.</li>
@@ -32,13 +32,13 @@ app_type: traditional web apps, mobile apps, reactive web apps
 <div class="info">
 <p>Released on Apr 19, 2021</p>
 </div>
-<h3>New in Experience Builder 1.5.1</h3>
+<h3 id="New_in_Experience_Builder_1.5.1">New in Experience Builder 1.5.1</h3>
 <ul>
 <li>You can now upload an image to use in an empty screen.</li>
 <li>Released a new Experience Builder Components package (version 1.2.1).</li>
 <li>Raised the recommended version of Forge component Social Sharing plugin to the latest available version.</li>
 </ul>
-<h3>Bug fixing</h3>
+<h3 id="Bug_fixing">Bug fixing</h3>
 <ul>
 <li>Fixed a UI issue that occurred in empty screens of generated apps when there wasn't any image set for the empty screens.</li>
 <li>Fixed an issue with generated apps that used flows from the Product Catalog app type that caused a runtime error if you didn't run the bootstrap timer for the OutSystems Sample Data.</li>
@@ -47,7 +47,7 @@ app_type: traditional web apps, mobile apps, reactive web apps
 <div class="info">
 <p>Released on Apr 05, 2021</p>
 </div>
-<h3>New in Experience Builder 1.5.0</h3>
+<h3 id="New_in_Experience_Builder_1.5.0">New in Experience Builder 1.5.0</h3>
 <ul>
 <li>Improved the experience of editing an already imported flow.</li>
 <li>Added new login and sign-up flows.</li>
@@ -60,7 +60,7 @@ app_type: traditional web apps, mobile apps, reactive web apps
 <div class="info">
 <p>Released on Mar 15, 2021</p>
 </div>
-<h3>New in Experience Builder 1.4.0</h3>
+<h3 id="New_in Experience_Builder_1.4.0">New in Experience Builder 1.4.0</h3>
 <ul>
 <li>You can now import your flows (with your own UX/UI, data, integrations, and embedded best practices) so that they can be reused by other Experience Builder users in your OutSystems environment.</li>
 <li>Raised the recommended version of Forge component Google Login plugin to the latest available version.</li>
@@ -69,12 +69,12 @@ app_type: traditional web apps, mobile apps, reactive web apps
 <div class="info">
 <p>Released on Feb 23, 2021</p>
 </div>
-<h3>New in Experience Builder 1.3.2</h3>
+<h3 id="New_in_Experience_Builder_1.3.2">New in Experience Builder 1.3.2</h3>
 <ul>
 <li>Released a new Experience Builder Components package (version 1.1.3). The new components package includes under the hood improvements.</li>
 <li>Made some under the hood improvements to Experience Builder regarding security.</li>
 </ul>
-<h3>Bug Fixing</h3>
+<h3 id="Bug_Fixing_0">Bug Fixing</h3>
 <ul>
 <li>Fixed an issue on the payment list and claims list flows from the Customer Insurance templates.</li>
 <li>Fixed an issue on the agenda and health invoices list flows from the Patient Healthcare templates.</li>
@@ -83,12 +83,12 @@ app_type: traditional web apps, mobile apps, reactive web apps
 <div class="info">
 <p>Released on Feb 8, 2021</p>
 </div>
-<h3>New in Experience Builder 1.3.1</h3>
+<h3 id="New_in_Experience_Builder_1.3.1">New in Experience Builder 1.3.1</h3>
 <ul>
 <li>Released a new Experience Builder Components package (version 1.1.2). The new components package includes under the hood improvements.</li>
 <li>Raised the recommended version of Forge components to the latest available versions.</li>
 </ul>
-<h3>Bug Fixing</h3>
+<h3 id="Bug_Fixing_1">Bug Fixing</h3>
 <ul>
 <li>Fixed an issue on the "ListItem" pattern on Experience Builder Components.</li>
 </ul>
@@ -96,7 +96,7 @@ app_type: traditional web apps, mobile apps, reactive web apps
 <div class="info">
 <p>Released on Jan 22, 2021</p>
 </div>
-<h3>New in Experience Builder 1.3.0</h3>
+<h3 id="New_in_Experience_Builder_1.3.0">New in Experience Builder 1.3.0</h3>
 <ul>
 <li>Fixed some minor issues that occurred when adding multiple exit points to empty screens.</li>
 <li>Fixed some issues with the list pagination in the My Apps screen.</li>
@@ -108,7 +108,7 @@ app_type: traditional web apps, mobile apps, reactive web apps
 <div class="info">
 <p>Released on Dec 14, 2020</p>
 </div>
-<h3>New in Experience Builder 1.2.0</h3>
+<h3 id="New_in_Experience_Builder_1.2.0">New in Experience Builder 1.2.0</h3>
 <ul>
 <li>It's now possible to add multiple exit points to empty screens.</li>
 <li>It's now possible to see bottom sheets/action sheets in flows (e.g., ShopBagAndCheckout flow).</li>
@@ -121,7 +121,7 @@ app_type: traditional web apps, mobile apps, reactive web apps
 <div class="info">
 <p>Released on Nov 16, 2020</p>
 </div>
-<h3>New in Experience Builder 1.1.0</h3>
+<h3 id="New_in_Experience_Builder_1.1.0">New in Experience Builder 1.1.0</h3>
 <ul>
 <li>Now, Experience Builder validates the published version of OutSystems UI during the publishing process and when you access the Settings screen.</li>
 <li>Released a new Experience Builder Components package (version 1.0.3). The new components package includes an input mask for zip codes.</li>
@@ -130,7 +130,7 @@ app_type: traditional web apps, mobile apps, reactive web apps
 <li>Now, if your environment uses Platform Server version 11.7.2 or later, Experience Builder automatically installs the Experience Builder Components package in your environment.</li>
 <li>Added demo videos for each of the app template shown on the selection screen.</li>
 </ul>
-<h3>Bug Fixing</h3>
+<h3 id="Bug_Fixing_2">Bug Fixing</h3>
 <ul>
 <li>Fixed an issue in generated apps that caused back navigation to stop working correctly after using the back button several times.</li>
 </ul>
@@ -138,7 +138,7 @@ app_type: traditional web apps, mobile apps, reactive web apps
 <div class="info">
 <p>Released on Nov 2, 2020</p>
 </div>
-<h3>New in Experience Builder 1.0.2</h3>
+<h3 id="New_in_Experience_Builder_1.0.2">New in Experience Builder 1.0.2</h3>
 <ul>
 <li>Apps generated by Experience Builder now support right to left (RTL) text.</li>
 <li>Improved the error messages shown when a problem occurs while publishing apps.</li>
@@ -151,7 +151,7 @@ app_type: traditional web apps, mobile apps, reactive web apps
 <div class="info">
 <p>Released on Sep 14, 2020</p>
 </div>
-<h3>New in Experience Builder 1.0.1</h3>
+<h3 id="New_in_Experience_Builder_1.0.1">New in Experience Builder 1.0.1</h3>
 <ul>
 <li>Now, when you publish an app you can open it as a Progressive Web App (PWA), without going to Service Studio.</li>
 <li>You can now use the Settings screen to check and install the newest versions of dependencies (Experience Builder package and Forge components).</li>
@@ -163,7 +163,7 @@ app_type: traditional web apps, mobile apps, reactive web apps
 <div class="info">
 <p>Released on Aug 24, 2020</p>
 </div>
-<h3>New in Experience Builder 1.0.0</h3>
+<h3 id="New_in_Experience_Builder_1.0.0">New in Experience Builder 1.0.0</h3>
 <ul>
 <li>Create fully functional frontend prototypes with UX/UI, architecture, and code best practices.</li>
 <li>Leverage more than 40 flows, 150 screens, and 20 plugins that vary from authentication and authorization to industry-specific flows to build your application.</li>

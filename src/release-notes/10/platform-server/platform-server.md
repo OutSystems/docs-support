@@ -9,7 +9,7 @@ app_type: traditional web apps, mobile apps, reactive web apps
 <div class="info">
 <p>Released on Jun 22, 2021</p>
 </div>
-<h3>Bug Fixing</h3>
+<h3 id="Bug_Fixing_0">Bug Fixing</h3>
 <ul>
 <li>[Java Only] Fixed an issue that caused a Java.ArrayIndexOutOfBoundsException error when the expiration date of cookies is set at the exact same time in different requests. (RPM-1189)</li>
 </ul>
@@ -30,7 +30,7 @@ app_type: traditional web apps, mobile apps, reactive web apps
 <div class="info">
 <p>Released on Dec 02, 2020</p>
 </div>
-<h3>Bug Fixing</h3>
+<h3 id="Bug_Fixing_1">Bug Fixing</h3>
 <ul>
 <li>Fixed an issue that caused emails to be sent more than once when there are multiple frontends registered. (RPD-4844)</li>
 <li>[Java Only] Updated 3rd party jar libraries due to known vulnerabilities (RPSFCT-55):
@@ -49,7 +49,7 @@ app_type: traditional web apps, mobile apps, reactive web apps
 <div class="info">
 <p>Released on Sep 24, 2020</p>
 </div>
-<h3>Bug Fixing</h3>
+<h3 id="Bug_Fixing_2">Bug Fixing</h3>
 <ul>
 <li>Fixed the ListClear action so Traditional Web Apps transfer less data between the server and web browser. This improves the data transfer optimization mechanism. (RTAF-3335)</li>
 <li>Fixed a security vulnerability. CVSSv3.1 score 7.4 (High). (RTAF-3379)</li>
@@ -72,13 +72,13 @@ app_type: traditional web apps, mobile apps, reactive web apps
 <div class="info">
 <p>Released on May 28, 2020</p>
 </div>
-<h3>New in Platform Server 10.0.1100.0</h3>
+<h3 id="New_in_Platform_Server_10.0.1100.0">New in Platform Server 10.0.1100.0</h3>
 <ul>
 <li>[.NET Only] Upgraded Oracle Data Provider for .NET, Managed driver to version 19.3.1. According to the <a href="https://docs.oracle.com/en/database/oracle/oracle-database/19/odpnt/InstallSystemRequirements.html#GUID-A6405CAD-C0E9-45E0-9C38-26B7ED214479">official documentation</a>, this driver allows applications to connect to Oracle Database 11g Release 2 or later.<b>If you have integrations with earlier versions of Oracle Database, they will not work. You will need to upgrade your Oracle engine to version 11g Release 2 or later, in order to continue using those integrations.</b> This driver supports native encryption, meaning that you can set up your database to require encryption and this means all connections will be encrypted between the server and the database (applicable for the platform and external databases). (RSAT-2115)</li>
 <li>[.NET Only] Added support for Oracle 18c. This applies to the platform database, as well as external databases. (RSAT-2308)</li>
 <li>[.NET Only] Added support for Oracle 19c. This applies to the platform database, as well as external databases. (RSAT-2309)</li>
 </ul>
-<h3>Bug Fixing</h3>
+<h3 id="Bug_Fixing_3">Bug Fixing</h3>
 <ul>
 <li>[.NET Only] Fixed an issue that was blocking the generation of mobile apps in some specific cases. (RLIT-3508)</li>
 <li>[.NET Only] Fixed issue causing Solution Report link to now be visible in Solution_Edit screen if the solution is downloaded after the publish (RLIT-3536)</li>
@@ -89,7 +89,7 @@ app_type: traditional web apps, mobile apps, reactive web apps
 <div class="info">
 <p>Released on Apr 02, 2020</p>
 </div>
-<h3>Bug Fixing</h3>
+<h3 id="Bug_Fixing_4">Bug Fixing</h3>
 <ul>
 <li>Fixed an error that showed when using the Rich Widgets Pop-Up pattern with the List Bulk Select widget, where a link/button triggered a pop-up and had the link/button associated with the List Bulk Select widget. (RTAF-2062)</li>
 <li>Fixed multiple executions of Screen Preparation Action that occurred when Rich Widgets File Upload was used in the Screen. (RTAF-2064)</li>
@@ -105,7 +105,7 @@ app_type: traditional web apps, mobile apps, reactive web apps
 <div class="info">
 <p>Released on Jan 20, 2020</p>
 </div>
-<h3>Bug Fixing</h3>
+<h3 id="Bug_Fixing_5">Bug Fixing</h3>
 <ul>
 <li>Fixed an error that showed that triggered an onclick event when a nested Rich Widget Popup Editor was present. (RTAF-2089)</li>
 </ul>
@@ -117,13 +117,13 @@ app_type: traditional web apps, mobile apps, reactive web apps
 <div class="info">
 <p>Removed from availability on Jan 20, 2020</p>
 </div>
-<h3>Bug Fixing</h3>
+<h3 id="Bug_Fixing_6">Bug Fixing</h3>
 <ul>
 <li>Fixed an error that showed when using the Rich Widgets Pop-Up pattern with the List Bulk Select widget, where a link/button triggered a pop-up and had the link/button associated with the List Bulk Select widget. (RTAF-2062)</li>
 <li>Fixed the multiple executions of Screen Preparation Action that occurred when you used Rich Widgets File Upload in the Screen. (RTAF-2064)Known Issues</li>
 <li>In Screens or Blocks with a nested Popup_Editor Rich Widget, the onclick event handlers of its parents can be triggered during the screen rendering, leading to unexpected runtime behavior.</li>
 </ul>
-<h3 id="Known_Issues-28387">Known Issues</h3>
+<h3 id="Known_Issues_0">Known Issues</h3>
 <ul>
 <li>In Screens or Blocks with a nested Popup_Editor Rich Widget, the onclick event handlers of its parents can be triggered during the screen rendering, leading to unexpected runtime behavior.</li>
 </ul>
@@ -131,11 +131,11 @@ app_type: traditional web apps, mobile apps, reactive web apps
 <div class="info">
 <p>Removed from availability on Jan 17, 2020</p>
 </div>
-<h3>New in Platform Server 10.0.1019.0</h3>
+<h3 id="New_in_Platform_Server_10.0.1019.0">New in Platform Server 10.0.1019.0</h3>
 <ul>
 <li>Added new environment security options to force Secure and SameSite properties in cookies generated by the platform. Check the document <a href="https://success.outsystems.com/Support/Enterprise_Customers/Maintenance_and_Operations/Upcoming_changes_in_cookie_handling_in_Google_Chrome#Release_schedule">Upcoming changes in cookie handling in Google Chrome</a> for more information. (RPC-502)</li>
 </ul>
-<h3>Bug Fixing</h3>
+<h3 id="Bug_Fixing_7">Bug Fixing</h3>
 <ul>
 <li>Fixed a compiler crash when introspecting the database index without the corresponding column. This fix makes the staging of apps between environments more resilient. (RPD-4602)</li>
 <li>Fixed JPEG images in E11. An invalid content-type response header caused this. (RPD-4591)</li>
@@ -150,7 +150,7 @@ app_type: traditional web apps, mobile apps, reactive web apps
 <li>[.NET Only] Fixed the scenarios where the "Add Query Origin to Generated SQL" setting wasn't applied. (RSBO-498)</li>
 <li>[Java Only] Fixed the inefficient performance of getXMLGregorianCalendar method. (RPD-4401)</li>
 </ul>
-<h3>Known Issues</h3>
+<h3 id="Known_Issues_1">Known Issues</h3>
 <ul>
 <li>When using the File Upload Rich Widget in a Screen that includes assigns to local variables shared between Preparation and OnNotify actions, Preparation runs multiple times, which may result in data corruption or unexpected runtime behavior.</li>
 </ul>
@@ -158,12 +158,12 @@ app_type: traditional web apps, mobile apps, reactive web apps
 <div class="info">
 <p>Released on Aug 14, 2019</p>
 </div>
-<h3>New in Platform Server 10.0.1016.0</h3>
+<h3 id="New_in_Platform_Server_10.0.1016.0">New in Platform Server 10.0.1016.0</h3>
 <ul>
 <li>The installation checklist now includes the instructions to disable Adaptive Optimizer features (OPTIMIZER_ADAPTIVE_PLANS, OPTIMIZER_ADAPTIVE_STATISTICS) in Oracle 12c R2. (RSAT-1623)</li>
 <li>Downloading a mobile app by scanning the QR code in Service Studio is now possible on iOS 13. (RTAF-628)</li>
 </ul>
-<h3>Bug Fixing</h3>
+<h3 id="Bug_Fixing_8">Bug Fixing</h3>
 <ul>
 <li>Fixed a security vulnerability. CVSSv3.0 score 7.5 (High). (RNMT-2812)</li>
 <li>Fixed a security vulnerability. CVSSv3.0 score 7.2 (High). (RPD-4260)</li>
@@ -179,7 +179,7 @@ app_type: traditional web apps, mobile apps, reactive web apps
 <div class="info">
 <p>Released on Jul 11, 2019</p>
 </div>
-<h3>New in Platform Server 10.0.1014.0</h3>
+<h3 id="New_in_Platform_Server_10.0.1014.0">New in Platform Server 10.0.1014.0</h3>
 <ul>
 <li>Added a new option in the "Single Sign-On" tab in Service Center. It allows you to bootstrap the admin password for the user provider. (RLIT-2571)</li>
 <li>The Platform Server installation, update or upgrade now requires a password for the Platform Server admin user:<br/>
@@ -187,7 +187,7 @@ app_type: traditional web apps, mobile apps, reactive web apps
 — If you have any installation automation, you must <a href="https://success.outsystems.com/Documentation/10/Setting_Up_OutSystems/Unattended_Installation_and_Upgrade/server.hsconf_Configuration_File_Reference"> update the server configuration file </a> (server.hsconf) or command-line options and arguments<br/>
 — Check <a href="https://success.outsystems.com/Support/Enterprise_Customers/Maintenance_and_Operations/No_default_credentials_in_Platform_Server">No default credentials in Platform Server</a> for more information. (RSAT-1346)</li>
 </ul>
-<h3>Bug Fixing</h3>
+<h3 id="Bug_Fixing_9">Bug Fixing</h3>
 <ul>
 <li>Fixed an issue that could cause a user with the correct set of permissions to fail to publish using Integration Studio. Instead, they would get the following error "You don't have enough permissions over the database connections that own the following external entities." (RPD-4162)</li>
 <li>Improved queries using a full join in LifeTime deployment validation stage. Affects only Oracle and SQL Server. (RPD-4147)</li>
@@ -202,7 +202,7 @@ app_type: traditional web apps, mobile apps, reactive web apps
 <div class="info">
 <p>Released on May 03, 2019</p>
 </div>
-<h3>New in Platform Server 10.0.1010.0</h3>
+<h3 id="New_in_Platform_Server_10.0.1010.0">New in Platform Server 10.0.1010.0</h3>
 <ul>
 <li>Improved the experience of the Users application. We gave it a new look and feel and made the following usability improvements:<br/>
 — Page-specific links/actions were moved to inside the pages; the sidebar will now only display fixed links and recent items<br/>
@@ -215,7 +215,7 @@ app_type: traditional web apps, mobile apps, reactive web apps
 <li>Minor improvements in Users font and UI. (RLIT-2592)</li>
 <li>Added to FactoryConfiguration the option to include X-Content-Type-Options header with nosniff as a method of preventing MIME sniffing from older browser versions. (RRCT-2270)</li>
 </ul>
-<h3>Bug Fixing</h3>
+<h3 id="Bug_Fixing_10">Bug Fixing</h3>
 <ul>
 <li>Fixed an issue that caused Service Center to crash when changing the configuration of a mobile application. (RLIT-2490)</li>
 <li>Fixed an issue in the Spanish translation of RichWidgets. (RPD-3132)</li>
@@ -232,7 +232,7 @@ app_type: traditional web apps, mobile apps, reactive web apps
 <div class="info">
 <p>Released on Mar 04, 2019</p>
 </div>
-<h3>New in Platform Server 10.0.1005.2</h3>
+<h3 id="New_in_Platform_Server_10.0.1005.2">New in Platform Server 10.0.1005.2</h3>
 <ul>
 <li>We improved the experience of the Users application.<br/>
 We gave it a new look and feel and made the following usability improvements:<br/>
@@ -250,7 +250,7 @@ We gave it a new look and feel and made the following usability improvements:<br
 <li>[Java Only] Added support for OpenJDK. (RSAT-1168)</li>
 <li>Added to FactoryConfiguration the option to include X-Content-Type-Options header with nosniff as a method of preventing MIME sniffing from older browser versions. (RRCT-2270)</li>
 </ul>
-<h3>Bug Fixing</h3>
+<h3 id="Bug_Fixing_11">Bug Fixing</h3>
 <ul>
 <li>The User_Login action of the Users API no longer logs errors when the authentication is set to Active Directory or LDAP and the login is successful. (RLIT-2387)</li>
 <li>Fix an issue that would prevent Service Center from installing when "Force HTTPS for screens in Web Applications" and "Enable HTTP Strict Transport Security (HSTS)" settings were enabled and the application server was configured to receive a Fully Qualified Domain Name (FQDN) in the HTTPS port. (RSAT-627)</li>
@@ -277,11 +277,11 @@ We gave it a new look and feel and made the following usability improvements:<br
 <div class="info">
 <p>Removed from availability on Feb 12, 2019</p>
 </div>
-<h3>New in Platform Server 10.0.1001.0</h3>
+<h3 id="New_in_Platform_Server_10.0.1001.0">New in Platform Server 10.0.1001.0</h3>
 <ul>
 <li>When configuring a mobile application, it is now possible to choose the version of the Mobile Apps Build Service (MABS) that will be used to generate the mobile app package. (RNMT-2296)</li>
 </ul>
-<h3>Bug Fixing</h3>
+<h3 id="Bug_Fixing_12">Bug Fixing</h3>
 <ul>
 <li>Fixed a runtime error occurring when a List Box is inside a Table Records. (RAFT-1703)</li>
 <li>The information on the available database storage for cloud environments is now showing correctly. (RPD-3432)</li>
@@ -302,7 +302,7 @@ We gave it a new look and feel and made the following usability improvements:<br
 <div class="info">
 <p>Released on Dec 20, 2018</p>
 </div>
-<h3>New in Platform Server 10.0.912.1</h3>
+<h3 id="New_in_Platform_Server_10.0.912.1">New in Platform Server 10.0.912.1</h3>
 <ul>
 <li>Removed the obsolete referrer directive from the Content Security Policy (CSP) configuration screens. (RLIT-2270)</li>
 <li>Added more information in ApplicationVersion structure in LifeTime Deployment API. (RLIT-2168)</li>
@@ -310,7 +310,7 @@ We gave it a new look and feel and made the following usability improvements:<br
 <li>Added support for MySQL 5.7 as database and integration database. (RSAT-1066)</li>
 <li>Added a comment in the generated SQL of Advanced Queries and Aggregates with the location of the query in OutSystems applications. Configurable using Factory Configuration. Inspired by <a href="https://www.outsystems.com/ideas/4817/reverse-tracking-sql" rel="external nofollow" target="_blank">Neil Munro's idea</a>. (ABE-1151)</li>
 </ul>
-<h3>Bug Fixing</h3>
+<h3 id="Bug_Fixing_13">Bug Fixing</h3>
 <ul>
 <li>Fixed high database load caused by the "GetDevEffort" query during LifeTime synchronization operations. (RPD-3542)</li>
 <li>Fixed the default browser behavior to ask to save the login credentials. Now the password fields in OutSystems applications such as Service Center or LifeTime have the "autocomplete" property set to "off" by default. (RPD-3464)</li>
@@ -355,7 +355,7 @@ We gave it a new look and feel and made the following usability improvements:<br
 <div class="info">
 <p>Released on Sep 25, 2018</p>
 </div>
-<h3>New in Platform Server 10.0.904.0</h3>
+<h3 id="New_in_Platform_Server_10.0.904.0">New in Platform Server 10.0.904.0</h3>
 <ul>
 <li>The time-out for building mobile applications has been increased to 30 minutes, once you launch it from Service Studio. (RLIT-2095)</li>
 <li>The millisecond precision has been added to the getdate() function for the MySQL databases. This enables the timers relying on getdate() to properly restart on demand. (RPD-3421)</li>
@@ -363,7 +363,7 @@ We gave it a new look and feel and made the following usability improvements:<br
 <li>We improved the way mobile apps save information when put in background or after being closed. This prevents a known iOS issue that causes the deletion of the local storage when the device is running low on free space. (RRCT-1973)</li>
 <li>Added support for Red Hat Enterprise Linux 7 with JBoss 6 EAP as the application server. (RSAT-1028)</li>
 </ul>
-<h3>Bug Fixing</h3>
+<h3 id="Bug_Fixing_14">Bug Fixing</h3>
 <ul>
 <li>Fixed application data displayed on LifeTime Analytics. (RPD-3513)</li>
 <li>Fixed a path-related bug that broke compilation of style sheets in mobile apps with Resources in subdirectories. (RRCT-1951)</li>
@@ -404,14 +404,14 @@ We gave it a new look and feel and made the following usability improvements:<br
 <div class="info">
 <p>Released on Aug 14, 2018</p>
 </div>
-<h3>New in Platform Server 10.0.900.0</h3>
+<h3 id="New_in_Platform_Server_10.0.900.0">New in Platform Server 10.0.900.0</h3>
 <ul>
 <li>To achieve higher performance, you can now create stateless BAPI calls to the SAP servers. (RINT-1934)</li>
 <li>Improved the ability to access deployment plans to propagate hotfixes backwards. To access these plans, in the applications list page click the drop-down menu of the target environment name. (RLIT-1863)</li>
 <li>Added Integration Studio support for Visual Studio 2017. (RINT-490)</li>
 <li>Updated the Oracle JDBC driver to version 12.2.0.1. If your platform database is configured as SID and your platform installation connects to it using a ServiceName, you will need to run the Configuration Tool and change the database configuration to use TNS Names <strong>before</strong> applying this upgrade. Follow the procedure described in <a href="https://success.outsystems.com/Support/Enterprise_Customers/Maintenance_and_Operations/Configuring_Oracle_database_in_the_OutSystems_platform">Configuring Oracle database in the OutSystems Platform</a>. (RSAT-988)</li>
 </ul>
-<h3>Bug Fixing</h3>
+<h3 id="Bug_Fixing_15">Bug Fixing</h3>
 <ul>
 <li>Fixed an issue in the web applications that prevented Combo Box widgets inside Forms to open if they were clicked on a mobile device. (RPD-3097)</li>
 <li>Fixed an issue that prevented editing properties of on-premises front-end servers in the hybrid infrastructures. For example, now it’s possible to transform an environment into a pure Deployment Controller for an on-premises server with LifeTime in the cloud. (RPD-2993)</li>
@@ -449,7 +449,7 @@ We gave it a new look and feel and made the following usability improvements:<br
 <div class="info">
 <p>Released on Jul 27, 2018</p>
 </div>
-<h3>Bug Fixing</h3>
+<h3 id="Bug_Fixing_16">Bug Fixing</h3>
 <ul>
 <li>Fixed a security vulnerability. The details to be disclosed at a later date. CVSS 3.0 score of 8.7 (CVSS:3.0/AV:N/AC:H/PR:N/UI:N/S:C/C:H/I:H/A:N) (RPD-3384)</li>
 <li>Fixed an issue that caused the configuration of the internal network to block the access from the IP sources that match both the trusted proxies addresses and the internal network addresses. (RPD-3391)</li>
@@ -460,13 +460,13 @@ We gave it a new look and feel and made the following usability improvements:<br
 <div class="info">
 <p>Released on Jun 11, 2018</p>
 </div>
-<h3>New in Platform Server 10.0.823.0</h3>
+<h3 id="New_in_Platform_Server_10.0.823.0">New in Platform Server 10.0.823.0</h3>
 <ul>
 <li>Improved submit feedback usability in Service Center. (RLIT-1865)</li>
 <li>LifeTime Analytics retention data period can be now defined through Factory Configuration tool. (RLIT-1749)</li>
 <li>Improved the process to delete old deployment data in LifeTime. (RLIT-1718)</li>
 </ul>
-<h3>Bug Fixing</h3>
+<h3 id="Bug_Fixing_17">Bug Fixing</h3>
 <ul>
 <li>Fixed an issue preventing the recompilation of web screens and emails when the "Internal Access" property of the UI Flow they belong to was changed. (ABE-1002)</li>
 <li>Fixed an issue that would leave the local storage database in an inconsistent state after retrying a local storage update. (RRCT-1653)</li>
@@ -504,7 +504,7 @@ We gave it a new look and feel and made the following usability improvements:<br
 <div class="info">
 <p>Released on Apr 30, 2018</p>
 </div>
-<h3>Bug Fixing</h3>
+<h3 id="Bug_Fixing_18">Bug Fixing</h3>
 <ul>
 <li>Fixed an error in Web Applications that was preventing the feedback message to be displayed when using the RichWidgets Feedback_Message action in a pop-up together with the RichWidgets Popup_Editor_Close action. (RPD-3206)</li>
 </ul>
@@ -512,11 +512,11 @@ We gave it a new look and feel and made the following usability improvements:<br
 <div class="info">
 <p>Released on Apr 12, 2018</p>
 </div>
-<h3>New in Platform Server 10.0.811.0</h3>
+<h3 id="New_in_Platform_Server_10.0.811.0">New in Platform Server 10.0.811.0</h3>
 <ul>
 <li>Improved User_Login description. (RLIT-1786)</li>
 </ul>
-<h3>Bug Fixing</h3>
+<h3 id="Bug_Fixing_19">Bug Fixing</h3>
 <ul>
 <li>Fixed an issue with the persistence of permissions while re-registering an Environment in LifeTime. (RPD-3024)</li>
 <li>Fixed a security granting permissions issue in LifeTime. (RPD-2652)</li>
@@ -545,7 +545,7 @@ We gave it a new look and feel and made the following usability improvements:<br
 <li>Fixed connection leak that lead to Service Center unavailability. (RPD-3056)</li>
 <li>Fixed security vulnerability. Details <a href="https://success.outsystems.com/Support/Security/Vulnerabilities/Vulnerability_RPD-2903" title="/Support/Enterprise_Customers/Troubleshooting/2018-07-04_-_Security_Issue_-_Dormouse">here</a>. (RPD-2903)</li>
 </ul>
-<h3 id="Known_Issue-15437">Known Issue</h3>
+<h3 id="Known_Issue">Known Issue</h3>
 <ul>
 <li>In Web Applications, when using the RichWidgets Feedback_Message action in a pop-up together with the RichWidgets Popup_Editor_Close action, the feedback message is not displayed. </li>
 </ul>
@@ -553,7 +553,7 @@ We gave it a new look and feel and made the following usability improvements:<br
 <div class="info">
 <p>Released on Mar 21, 2018</p>
 </div>
-<h3>Bug Fixing</h3>
+<h3 id="Bug_Fixing_20">Bug Fixing</h3>
 <ul>
 <li>Fixed a concurrent publishing error that could happen after a failed 1-Click Publish, which prevented the future publishing of the module. (RSCT-1198)</li>
 </ul>
@@ -561,7 +561,7 @@ We gave it a new look and feel and made the following usability improvements:<br
 <div class="info">
 <p>Released on Feb 26, 2018.</p>
 </div>
-<h3>New in Platform Server 10.0.804.0</h3>
+<h3 id="New_in_Platform_Server_10.0.804.0">New in Platform Server 10.0.804.0</h3>
 <ul>
 <li>New LifeTime experience to improve the performance of browsing through applications and preparing deployments. <br/>
 The performance of LifeTime Analytics was significantly improved. Check out to <a href="https://success.outsystems.com/Support/Enterprise_Customers/Upgrading/Updating_LifeTime_Analytics_to_10.0.804.0" title="https://success.outsystems.com/Support/Enterprise_Customers/Upgrading/Updating_LifeTime_Analytics_to_10.0.804.0">here</a> how to update your LifeTime to take advantage of these improvements. (RLIT-766)</li>
@@ -584,7 +584,7 @@ The performance of LifeTime Analytics was significantly improved. Check out to <
 <li>Improved LifeTime validation performance of the deployment plans. (RLIT-1406)</li>
 <li>Updated the Chinese and French translation for the RichWidgets Calendar. (RSUT-732)</li>
 </ul>
-<h3>Bug Fixing</h3>
+<h3 id="Bug_Fixing_21">Bug Fixing</h3>
 <ul>
 <li>Fixed a bug that prevented ListFilter, ListAny, ListAll, ListIndexOf and ListSort from returning the results because some attributes from the source list were ignored. (ABE-674)</li>
 <li>Fixed a bug that caused a module contained within several solutions to open slowly in Service Center. (RPD-2893)</li>
@@ -655,11 +655,11 @@ The performance of LifeTime Analytics was significantly improved. Check out to <
 <div class="info">
 <p>Released on Feb 22, 2018.</p>
 </div>
-<h3>New in Platform Server 10.0.723.0</h3>
+<h3 id="New_in_Platform_Server_10.0.723.0">New in Platform Server 10.0.723.0</h3>
 <ul>
 <li>Changed the database exception messages generated by queries to prevent database information to be shown to end users. The full exception messages can still be found in error logs. (RRCT-772)</li>
 </ul>
-<h3>Bug Fixing</h3>
+<h3 id="Bug_Fixing_22">Bug Fixing</h3>
 <ul>
 <li>Fixed a bug that prevented ListFilter, ListAny, ListAll, ListIndexOf and ListSort from returning the results because some attributes from the source list were ignored. (ABE-674)</li>
 <li>Fixed an issue related to missing application icons after a staging in LifeTime. (RLIT-1594)</li>
@@ -677,7 +677,7 @@ The performance of LifeTime Analytics was significantly improved. Check out to <
 <div class="info">
 <p>Released on Nov 20, 2017</p>
 </div>
-<h3>Bug Fixing</h3>
+<h3 id="Bug_Fixing_23">Bug Fixing</h3>
 <ul>
 <li>Fixed duplicate feedback messages being displayed in pages containing iframes that call Feedback_Message action. (RPD-2764)</li>
 <li>Service Center now hides modules that don't need catalog configuration during a solution publish. (RPD-2341)</li>
@@ -722,7 +722,7 @@ The performance of LifeTime Analytics was significantly improved. Check out to <
 <div class="info">
 <p>Released on Oct 16, 2017</p>
 </div>
-<h3>Bug Fixing</h3>
+<h3 id="Bug_Fixing_24">Bug Fixing</h3>
 <ul>
 <li>Fixed an issue when deploying multi-tenant modules for scenarios having a large number of tenants and entities with a large number of attributes. (RPD-2496)</li>
 <li>Is now possible to edit the Developer Role in LifeTime. (RPD-2605)</li>
@@ -742,7 +742,7 @@ The performance of LifeTime Analytics was significantly improved. Check out to <
 <div class="info">
 <p>Released on Sep 19, 2017</p>
 </div>
-<h3>New in Platform Server 10.0.705.0</h3>
+<h3 id="New_in_Platform_Server_10.0.705.0">New in Platform Server 10.0.705.0</h3>
 <ul>
 <li>The debugging of client-side actions is now available. It requires the Development Environment version 10.0.704.0 or higher. (RAFT-162)</li>
 <li>Improved security to avoid the injection of HTML or JavaScript in the URL while running the mobile app in PreviewInDevices. (RPD-1957)</li>
@@ -760,7 +760,7 @@ The performance of LifeTime Analytics was significantly improved. Check out to <
 <li>Improved the load time of mobile application screens for first-time visits. (RRCT-745)</li>
 <li>[.NET Only] Improved the logging of consumed SOAP Web Services to allow configuring the level of detail. (RINT-694)</li>
 </ul>
-<h3>Bug Fixing</h3>
+<h3 id="Bug_Fixing_25">Bug Fixing</h3>
 <ul>
 <li>Fixed an issue in the Deployment Controller that was causing the publishing operation to hang in some platform upgrade scenarios. (RPD-2442)</li>
 <li>Fixed the Configuration Tool query timeouts when upgrading the database. (RPD-2351)</li>
@@ -811,7 +811,7 @@ The performance of LifeTime Analytics was significantly improved. Check out to <
 <div class="info">
 <p>Released on Nov 20, 2017</p>
 </div>
-<h3>Bug Fixing</h3>
+<h3 id="Bug_Fixing_26">Bug Fixing</h3>
 <ul>
 <li>Fixed duplicate feedback messages being displayed in pages containing iframes that call Feedback_Message action. (RPD-2764)</li>
 <li>Service Center now hides modules that don't need catalog configuration during a solution publish. (RPD-2341)</li>
@@ -828,7 +828,7 @@ The performance of LifeTime Analytics was significantly improved. Check out to <
 </div>
 <ul>
 </ul>
-<h3>Bug Fixing</h3>
+<h3 id="Bug_Fixing_27">Bug Fixing</h3>
 <ul>
 <li>Fixed an issue when deploying multi-tenant modules for scenarios having a large number of tenants and entities with a large number of attributes. (RPD-2496)</li>
 <li>Is now possible to edit the Developer Role in LifeTime. (RPD-2605)</li>
@@ -846,11 +846,11 @@ The performance of LifeTime Analytics was significantly improved. Check out to <
 <div class="info">
 <p>Released on Sep 19, 2017</p>
 </div>
-<h3>New in Platform Server 10.0.614.0</h3>
+<h3 id="New_in_Platform_Server_10.0.614.0">New in Platform Server 10.0.614.0</h3>
 <ul>
 <li>Added new Japanese translations to LifeTime. (RLIT-1157)</li>
 </ul>
-<h3>Bug Fixing</h3>
+<h3 id="Bug_Fixing_28">Bug Fixing</h3>
 <ul>
 <li>Fixed an error when running the application in the Personal Area. (RPD-2502)</li>
 <li>Fixed an issue in the environment synchronization and staging operations in LifeTime that was causing the environment to keep synchronizing. (RPD-2452)</li>
@@ -869,12 +869,12 @@ The performance of LifeTime Analytics was significantly improved. Check out to <
 <div class="info">
 <p>Released on Jul 25, 2017</p>
 </div>
-<h3>New in Platform Server 10.0.604.0</h3>
+<h3 id="New_in_Platform_Server_10.0.604.0">New in Platform Server 10.0.604.0</h3>
 <ul>
 <li>Added the possibility to define the locale convention when configuring connections to external Oracle databases in Service Center. (RINT-387)</li>
 <li>[.NET Only] Added support for Azure SQL using database authentication (Windows authentication not supported). (RSAT-337)</li>
 </ul>
-<h3>Bug Fixing</h3>
+<h3 id="Bug_Fixing_29">Bug Fixing</h3>
 <ul>
 <li>Fixed an issue that prevented the cleanup of some expired sessions. (RRCT-718)</li>
 <li>Fixed incorrect behavior while parsing dates in some Android devices (inputs and built-in functions). (RPD-2395)</li>
@@ -892,13 +892,13 @@ The performance of LifeTime Analytics was significantly improved. Check out to <
 <div class="info">
 <p>Released on Aug 23, 2017</p>
 </div>
-<h3>New in Platform Server 10.0.603.201 Mobile Improvements</h3>
+<h3 id="New_in_Platform_Server_10.0.603.201_Mobile_Improvements">New in Platform Server 10.0.603.201 Mobile Improvements</h3>
 <ul>
 <li>Improved the load time of mobile application screens for first-time visits. (RRCT-745)</li>
 <li>Reduced the amount of data transferred from the server when detecting if a new application version is available. (RRCT-705)</li>
 <li>The threshold for the list widget OnScrollEnding callback trigger was tuned from 1000px to 2000px to improve the final user experience on <a href="https://success.outsystems.com/Documentation/Best_Practices/Development/OutSystems_Mobile_Best_Practices#Optimize_the_Loading_of_Lists">infinite scroll patterns</a>. (RAFT-779)</li>
 </ul>
-<h3>Bug Fixing</h3>
+<h3 id="Bug_Fixing_30">Bug Fixing</h3>
 <ul>
 <li>Fixed an issue that prevented a mobile app user from leaving the splash screen after the rollback of an app upgrade. (RRCT-758)</li>
 <li>Fixed an issue that would cause a mobile app to keep reloading when the rollback of an app upgrade failed. (RRCT-700)</li>
@@ -909,7 +909,7 @@ The performance of LifeTime Analytics was significantly improved. Check out to <
 <div class="info">
 <p>Released on June 19, 2017</p>
 </div>
-<h3>New in Platform Server 10.0.603.0</h3>
+<h3 id="New_in_Platform_Server_10.0.603.0">New in Platform Server 10.0.603.0</h3>
 <ul>
 <li>Improved the generation of mobile apps through Service Studio Native Platforms tab: is now possible to configure and generate a mobile app for a given platform while the other platform is still being generated; is now possible to change the iOS certificate password without having to reupload the certificate file; improved the accuracy of the mobile app generation progress bar; the error message now includes a timestamp. (RNMT-448)</li>
 <li>Improved mobile apps robustness in poor network coverage by increasing the timeout when requiring JavaScript libraries. (RRCT-559)</li>
@@ -919,7 +919,7 @@ The performance of LifeTime Analytics was significantly improved. Check out to <
 <li>Added a Boolean attribute ("show-default-value") to the mobile Input widget. When true, the default value of each type is rendered instead of showing an empty input. (RAFT-579)</li>
 <li>[Java Only] Installation checklist now includes instructions to use Red Hat Subscription Manager instead of Red Hat Network. (RSAT-221)</li>
 </ul>
-<h3>Bug Fixing</h3>
+<h3 id="Bug_Fixing_31">Bug Fixing</h3>
 <ul>
 <li>LifeTime is now selecting the correct external authentication provider when a user is logging in. (RLIT-950)</li>
 <li>Fixed issue upgrading platform server from version 10.0.408.0 to 10.0.502.0 using MySQL and Oracle databases. (RPD-2352)</li>
@@ -953,12 +953,12 @@ The performance of LifeTime Analytics was significantly improved. Check out to <
 <div class="info">
 <p>Released on May 31, 2017</p>
 </div>
-<h3>Bug Fixing</h3>
+<h3 id="Bug_Fixing_32">Bug Fixing</h3>
 <ul>
 <li>Fixed issue upgrading Platform Server from version 10.0.408.0 to 10.0.502.0 using MySQL and Oracle databases. (RPD-2352)</li>
 </ul>
 <p> </p>
-<h3>Known Issue</h3>
+<h3 id="Known_Issue">Known Issue</h3>
 <ul>
 <li>If using a custom authentication provider which remaps usernames, users will not be able to login in LifeTime.</li>
 </ul>
@@ -966,7 +966,7 @@ The performance of LifeTime Analytics was significantly improved. Check out to <
 <div class="info">
 <p>Released on May 24, 2017</p>
 </div>
-<h3>New in Platform Server 10.0.502.0</h3>
+<h3 id="New_in_Platform_Server_10.0.502.0">New in Platform Server 10.0.502.0</h3>
 <ul>
 <li>App Feedback is now available for Mobile Application. (RLIT-894)</li>
 <li>Added support for Unicode characters in application names. (RPD-1457)</li>
@@ -978,7 +978,7 @@ The performance of LifeTime Analytics was significantly improved. Check out to <
 <li>[.NET Only] Added support for Application Pools in Integrated mode. (RSAT-294)</li>
 <li>[Java Only] Upgraded Microsoft JDBC Driver for SQL Server from version 4.1 to 6.0. (RSAT-35)</li>
 </ul>
-<h3>Bug Fixing</h3>
+<h3 id="Bug_Fixing_33">Bug Fixing</h3>
 <ul>
 <li>Fixed an issue that was preventing the mobile application to cache updated resources from the server. (RPD-2042)</li>
 <li>Fixed issues that prevented mobile applications from rolling back faulty upgrades. (RRCT-448)</li>
@@ -1009,7 +1009,7 @@ The performance of LifeTime Analytics was significantly improved. Check out to <
 <li>[.NET Only] Fixed exposed REST APIs that were not working when debugging in the Personal Area. (RPD-1762)</li>
 <li>[Java Only] Fixed an issue that was blocking a new installation using Java stack with MySql database. (RPD-2179)</li>
 </ul>
-<h3>Known Issues</h3>
+<h3 id="Known_Issues_2">Known Issues</h3>
 <ul>
 <li>If using Oracle or MySQL databases, an error will occur in Configuration Tool when upgrading from version 10.0.408.0 to version 10.0.502.0. To fix the issue, install version 10.0.503.0.</li>
 <li>If using a custom authentication provider which remaps usernames, users will not be able to login in LifeTime. </li>
@@ -1018,11 +1018,11 @@ The performance of LifeTime Analytics was significantly improved. Check out to <
 <div class="info">
 <p>Released on April 19, 2017</p>
 </div>
-<h3>New in Platform Server 10.0.408.0</h3>
+<h3 id="New_in_Platform_Server_10.0.408.0">New in Platform Server 10.0.408.0</h3>
 <ul>
 <li>Improved the performance of the Login operation.</li>
 </ul>
-<h3>Bug Fixing</h3>
+<h3 id="Bug_Fixing_34">Bug Fixing</h3>
 <ul>
 <li>Fixed an infinite loop while publishing a solution due to constantly trying to generate native builds of mobile apps that failed to publish.</li>
 <li>Fixed the performance issue when a deployment was prepared in the LifeTime interface.</li>
@@ -1060,19 +1060,19 @@ The performance of LifeTime Analytics was significantly improved. Check out to <
 <li>[Java Only] Fixed a type conversion error when calling a SOAP web service with a list of enumerates.</li>
 <li>[Java Only] Fixed the advanced configuration for MySQL in Configuration Tool that was not asking for the database server and schema.</li>
 </ul>
-<h3>Known Issues</h3>
+<h3 id="Known_Issues_3">Known Issues</h3>
 <ul>
 <li>Unable to perform a new installation using Java stack with MySql database. As workaround, in Configuration Mode step of Configuration Tool, select option "2 - Advanced Configuration" and enter a space in the "Extra parameters" field.</li>
 </ul>
 <h2 id="Platform_Server_10.0.405.0">Platform Server 10.0.405.0</h2>
-<h3>New in Platform Server 10.0.405.0</h3>
+<h3 id="New_in_Platform_Server_10.0.405.0">New in Platform Server 10.0.405.0</h3>
 <ul>
 <li>Added Session Fixation Protection by default to Web applications</li>
 <li>New command-line API to automate the platform installation. Read more about it in <a href="https://success.outsystems.com/Documentation/11/Setting_Up_OutSystems/Unattended_Installation_and_Upgrade" title="https://success.outsystems.com/Support/Enterprise_Customers/Installation/Unattended_Installation_and_Upgrade">the Unattended Installation and Upgrade document</a>.</li>
 <li>Improved performance of the Upload step in 1-Click Publish (Service Studio)</li>
 <li>Improved the LifeTime API with a REST API for module service that allows listing modules and their details.</li>
 </ul>
-<h3>Bug Fixing</h3>
+<h3 id="Bug_Fixing_35">Bug Fixing</h3>
 <ul>
 <li>Security tab is now shown for mobile apps in Service Center application page. (#1581294)</li>
 <li>LifeTime now allows hotfixes to be marked as resolved when the application is not published in the development environment. (#1389742)</li>
@@ -1119,11 +1119,11 @@ The performance of LifeTime Analytics was significantly improved. Check out to <
 <li>[Java Only] Fixed an 'No such file or directory' error when exporting data to Excel and the '/tmp/poifiles' directory has been deleted. (#1523762)</li>
 </ul>
 <h2 id="Platform_Server_10.0.303.0">Platform Server 10.0.303.0</h2>
-<h3>Bug Fixing</h3>
+<h3 id="Bug_Fixing_36">Bug Fixing</h3>
 <ul>
 <li>[.NET Only] Fixed an issue that was causing the upgrade of eSpaces via Service Center to get hanged. (#1584384)</li>
 </ul>
-<h3>Known Issues</h3>
+<h3 id="Known_Issues_4">Known Issues</h3>
 <ul>
 <li>When publishing an eSpace that consumes a Local Entity with a Text attribute that has a default value filled in, an error will occur during the compilation stage. To workaround this issue, the pattern must be avoided.</li>
 </ul>
@@ -1131,7 +1131,7 @@ The performance of LifeTime Analytics was significantly improved. Check out to <
 <div class="info">
 <p>Released on Jan 03, 2017</p>
 </div>
-<h3>New in Platform Server 10.0.302.0</h3>
+<h3 id="New_in_Platform_Server 10.0.302.0">New in Platform Server 10.0.302.0</h3>
 <ul>
 <li>New LifeTime Deployment API is now available. This API introduces 3 new REST services - Environments, Applications, and Deployments - which allow the automation and orchestration of OutSystems applications deployment incorporated into the processes and tools of an enterprise IT ecosystem. LifeTime Deployment API uses new Service Accounts authentication, which is managed in LifeTime.</li>
 <li>Updated OutSystems brand name and image.</li>
@@ -1141,11 +1141,11 @@ The performance of LifeTime Analytics was significantly improved. Check out to <
 <li>Improved performance of 1-Click Publish in development mode.</li>
 <li>Improved error message when a List is overwritten in the middle of an iteration during the execution of client-side logic.</li>
 </ul>
-<h3>Side Effects</h3>
+<h3 id="Side_Effects">Side Effects</h3>
 <ul>
 <li>EnvironmentManagementService and ApplicationManagementService SOAP Services in LifeTime Services API are now deprecated and will become officially unsupported in a future release. Applications using EnvironmentManagementService and ApplicationManagementService SOAP Services must be updated to use the REST services of the new LifeTime Deployment API instead.</li>
 </ul>
-<h3>Bug Fixing</h3>
+<h3 id="Bug_Fixing_37">Bug Fixing</h3>
 <ul>
 <li>Single character names are now allowed for mobile Apps identifiers (e.g. com.example.O). (#1526042)</li>
 <li>Service Center is now correctly reporting incompatible dependencies when a producer failed to publish due to a file being locked. (#1211480)</li>
@@ -1186,7 +1186,7 @@ The performance of LifeTime Analytics was significantly improved. Check out to <
 <li>[Java Only] Fixed a concurrency issue that could cause applications to become slower or unresponsive at runtime. (#1526051)</li>
 <li>[Java Only] Fixed a null pointer exception that would occasionally occur during the execution of Configuration Tool when using the WebLogic stack. (#1526043)</li>
 </ul>
-<h3>Known Issues</h3>
+<h3 id="Known_Issues_5">Known Issues</h3>
 <ul>
 <li>When publishing an eSpace that consumes a Local Entity with a Text attribute that has a default value filled in, an error will occur during the compilation stage. This issue is resolved in <a href="http://www.outsystems.com/home/downloadsdetail/104/1950/" title="http://www.outsystems.com/home/downloadsdetail/104/1950/">version 10.0.404.0</a>.</li>
 <li>[.NET Only] This version has an issue that may cause the upgrade of eSpaces via Service Center to get hanged. This is issue is resolved in <a href="http://www.outsystems.com/home/downloadsdetail/104/1948/" title="http://www.outsystems.com/home/downloadsdetail/104/1948/">version 10.0.303.0</a>.</li>
@@ -1195,7 +1195,7 @@ The performance of LifeTime Analytics was significantly improved. Check out to <
 <div class="info">
 <p>Released on Nov 07, 2016</p>
 </div>
-<h3>New in Platform Server 10.0.200.0</h3>
+<h3 id="New_in_Platform_Server 10.0.200.0">New in Platform Server 10.0.200.0</h3>
 <ul>
 <li>"Take Offline" and "Bring Online" application operations in Service Center have been renamed to "Disable" and "Enable", to remove ambiguity regarding offline capabilities of mobile runtime applications.</li>
 <li>Added UTF-8 flag to Java when compiling extensions. This adds support for database table and column names containing specific characters sets like Shift-JIS.</li>
@@ -1205,11 +1205,11 @@ The performance of LifeTime Analytics was significantly improved. Check out to <
 <li>Improved end-user experience when new mobile application versions are available.</li>
 <li>[Java Only] Added TLSv1.1 and TLSv1.2 to the default cryptographic protocols in Java. This allows communication to be established using all versions of TLS protocol (1.0, 1.1, and 1.2).</li>
 </ul>
-<h3>Side Effects</h3>
+<h3 id="Side_Effects">Side Effects</h3>
 <ul>
 <li>Some Javascript Nodes may become invalid after upgrading: Validation of JavaScript values when assigned to JavaScript node output parameters was fixed. Some unsupported values were being accepted, which may cause unexpected behaviors in the application. Invalid values assigned to output parameters will now throw an error at the end of the JavaScript node execution. </li>
 </ul>
-<h3>Bug Fixing</h3>
+<h3 id="Bug_Fixing_38">Bug Fixing</h3>
 <ul>
 <li>Fixed differential compilation problem when changing the Module property of "Default Transition" (development-mode environments). ( #1435461)</li>
 <li>Fixed offline support of mobile applications for scenarios where reference entity/structure definitions originating from extensions are used in client-side logic. (#1337277) </li>

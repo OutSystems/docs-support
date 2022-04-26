@@ -17,7 +17,7 @@ app_type: traditional web apps, mobile apps, reactive web apps
 <div class="info">
 <p>Released on Mar 05, 2021</p>
 </div>
-<h3>Bug Fixing</h3>
+<h3 id="Bug_Fixing_0">Bug Fixing</h3>
 <ul>
 <li>Fixed a security vulnerability. CVSSv3.0 score 7.9 (High) (RICT-2673)</li>
 </ul>
@@ -25,7 +25,7 @@ app_type: traditional web apps, mobile apps, reactive web apps
 <div class="info">
 <p>Released on Jan 07, 2021</p>
 </div>
-<h3>Bug Fixing</h3>
+<h3 id="Bug_Fixing_1">Bug Fixing</h3>
 <ul>
 <li>Updated 3rd party jar libraries due to known vulnerabilities * Commons-collections * Guava * Sanselan-incubator * jackson (RPSFCT-55)</li>
 <li>Fixed a security vulnerability. CVSSv3.1 score 7.9 (High). (RICT-2849)</li>
@@ -34,7 +34,7 @@ app_type: traditional web apps, mobile apps, reactive web apps
 <div class="info">
 <p>Released on Apr 02, 2020</p>
 </div>
-<h3>Bug Fixing</h3>
+<h3 id="Bug_Fixing_2">Bug Fixing</h3>
 <ul>
 <li>Fixed a security vulnerability. CVSSv3.0 score 9.6 (Critical). (RPC-988)</li>
 <li>Fixed a security vulnerability. CVSSv3.0 score 9.8 (Critical). (RPD-4618)</li>
@@ -47,7 +47,7 @@ app_type: traditional web apps, mobile apps, reactive web apps
 <div class="info">
 <p>Released on Jan 21, 2020</p>
 </div>
-<h3>Bug Fixing</h3>
+<h3 id="Bug_Fixing_3">Bug Fixing</h3>
 <ul>
 <li>Fixed an error that showed when using the Rich Widgets Pop-Up pattern with the List Bulk Select widget, where a link/button triggered a pop-up and had the link/button associated with the List Bulk Select widget. (RTAF-2062)</li>
 <li>Fixed the multiple executions of Screen Preparation Action that occurred when you used Rich Widgets File Upload in the Screen. (RTAF-2064)</li>
@@ -56,11 +56,11 @@ app_type: traditional web apps, mobile apps, reactive web apps
 <div class="info">
 <p>Released on Oct 03, 2019</p>
 </div>
-<h3>New in Development Environment 10.0.1018.0</h3>
+<h3 id="New_in_Development_Environment_10.0.1018.0">New in Development Environment 10.0.1018.0</h3>
 <ul>
 <li>Added mobile debugger support to iOS13 (RTAF-1349)</li>
 </ul>
-<h3>Bug Fixing</h3>
+<h3 id="Bug_Fixing_4">Bug Fixing</h3>
 <ul>
 <li>Fixed Service Studio crash while saving module with unused placeholder arguments inside public Web Blocks. (RICT-1968)</li>
 </ul>
@@ -68,7 +68,7 @@ app_type: traditional web apps, mobile apps, reactive web apps
 <div class="info">
 <p>Released on Sep 09, 2019</p>
 </div>
-<h3>Bug Fixing</h3>
+<h3 id="Bug_Fixing_5">Bug Fixing</h3>
 <ul>
 <li>Improved Integration Studio's help. The online documentation is now displayed in the default system browser. (RSBO-416)</li>
 <li>Fixed an issue that prevented mobile applications from loading in Production environments when a producer module was published in Debug mode. (RPD-3596)</li>
@@ -78,7 +78,7 @@ app_type: traditional web apps, mobile apps, reactive web apps
 <div class="info">
 <p>Released on Jun 11, 2019</p>
 </div>
-<h3>Bug Fixing</h3>
+<h3 id="Bug_Fixing_6">Bug Fixing</h3>
 <ul>
 <li>Fixed a crash that occurred when adding a variable to the Debug Watches list. (RTAF-530)</li>
 <li>Improved performance of CSS Editor in large Stylesheets. (RPD-3249)</li>
@@ -87,7 +87,7 @@ app_type: traditional web apps, mobile apps, reactive web apps
 <div class="info">
 <p>Released on Apr 22, 2019</p>
 </div>
-<h3>Bug Fixing</h3>
+<h3 id="Bug_Fixing_7">Bug Fixing</h3>
 <ul>
 <li>We fixed an occasional crash while debugging an app in instances where the debugger variables changed. (RICT-1481)</li>
 <li>Fixed an issue in the Spanish translation. (RPD-3132)</li>
@@ -99,7 +99,7 @@ app_type: traditional web apps, mobile apps, reactive web apps
 <div class="info">
 <p>Released on Apr 15, 2019</p>
 </div>
-<h3>Bug Fixing</h3>
+<h3 id="Bug_Fixing_8">Bug Fixing</h3>
 <ul>
 <li>The Java Home Path is no longer validated when Java is not the selected Application Server Type. (RMAC-375)</li>
 </ul>
@@ -107,7 +107,7 @@ app_type: traditional web apps, mobile apps, reactive web apps
 <div class="info">
 <p>Released on Mar 19, 2019</p>
 </div>
-<h3>Bug Fixing</h3>
+<h3 id="Bug_Fixing_9">Bug Fixing</h3>
 <ul>
 <li>Fixed a crash that occurred when you tried to do a 1-Click Publish in an environment with multiple databases. (RICT-1428)</li>
 </ul>
@@ -115,11 +115,11 @@ app_type: traditional web apps, mobile apps, reactive web apps
 <div class="info">
 <p>Released on Mar 06, 2019</p>
 </div>
-<h3>New in Development Environment 10.0.1007.0</h3>
+<h3 id="New_in_Development_Environment_10.0.1007.0">New in Development Environment 10.0.1007.0</h3>
 <ul>
 <li>From now on you can change the type of multiple variables (Local Variable, Input Parameter, Output Parameter) in bulk by using the right-click menu. Inspired by <a href="https://www.outsystems.com/ideas/6334/"> Ricardo's idea</a>. (RDEV-173)</li>
 </ul>
-<h3>Bug Fixing</h3>
+<h3 id="Bug_Fixing_10">Bug Fixing</h3>
 <ul>
 <li>Fixed a crash when adding a dependency in the application detail screen. (RICT-1393)</li>
 <li>Fixed a compilation error when using some patterns in a Dynamic Sort of an Aggregate. (RICT-1398)</li>
@@ -128,11 +128,11 @@ app_type: traditional web apps, mobile apps, reactive web apps
 <div class="info">
 <p>Released on Feb 18, 2019</p>
 </div>
-<h3>New in Development Environment 10.0.1006.0</h3>
+<h3 id="New_in_Development_Environment_10.0.1006.0">New in Development Environment 10.0.1006.0</h3>
 <ul>
 <li>Added German translations to RichWidgets. (ROU-40)</li>
 </ul>
-<h3>Bug Fixing</h3>
+<h3 id="Bug_Fixing_11">Bug Fixing</h3>
 <ul>
 <li>Fixed a crash when editing a module while Service Studio was stopped in a breakpoint. (RICT-1278)</li>
 <li>Fixed an issue when copy-pasting actions ListAppend and ListAppendAll from a module to another that was causing some type conversion mappings to be deleted. (RICT-1354)</li>
@@ -152,12 +152,12 @@ app_type: traditional web apps, mobile apps, reactive web apps
 <div class="info">
 <p>Released on Feb 05, 2019</p>
 </div>
-<h3>New in Development Environment 10.0.1004.0</h3>
+<h3 id="New_in_Development_Environment_10.0.1004.0">New in Development Environment 10.0.1004.0</h3>
 <ul>
 <li>Deprecated VerifySqlLiteral action from Sanitization.xif in favor of BuildSafe_InClauseIntegerList and BuildSafe_InClauseTextList. Both actions will be available in Platform Server Release Jan.2019 CP2. (RRCT-2108)</li>
 <li>Added a warning when the argument passed to a SQL Query Parameter with the Expand Inline set starts with "EncodeSql". Also added a warning when the argument passed to a SQL Query Parameter with the Expand Inline set uses the built-in function Replace. Both scenarios are prone to cause runtime errors. (RRCT-2116)</li>
 </ul>
-<h3>Bug Fixing</h3>
+<h3 id="Bug_Fixing_12">Bug Fixing</h3>
 <ul>
 <li>We fixed the unescaped strings in the JavaScript code of the generated and translated messages. Now changing the locale to, for example, French (SetCurrentLocale) and using the Feedback_Message Action does not cause the JavaScript errors. (RPD-3483)</li>
 <li>Solved a problem that resulted in corrupted Expressions. (RICT-1230)</li>
@@ -170,7 +170,7 @@ app_type: traditional web apps, mobile apps, reactive web apps
 <div class="info">
 <p>Released on Jan 16, 2019</p>
 </div>
-<h3>Bug Fixing</h3>
+<h3 id="Bug_Fixing_13">Bug Fixing</h3>
 <ul>
 <li>We improved the stability of Service Studio by fixing an occasional crash related to the Run Server Action node. (ABE-1352)</li>
 <li>Now it's again possible to set the name of a Block to empty. (RAFT-1680)</li>
@@ -184,7 +184,7 @@ app_type: traditional web apps, mobile apps, reactive web apps
 <div class="info">
 <p>Released on Dec 28, 2018</p>
 </div>
-<h3>Bug Fixing</h3>
+<h3 id="Bug_Fixing_14">Bug Fixing</h3>
 <ul>
 <li>Fixed an issue that caused JSON Deserialize to fail when deserializing Null DateTimes "1900-01-01T00:00:00" in Mobile Devices with Negative Timezones offsets. (RPD-3661)</li>
 <li>Fixed a crash that occurred while importing a WSDL file with errors. (RICT-1185)</li>
@@ -208,12 +208,12 @@ app_type: traditional web apps, mobile apps, reactive web apps
 <div class="info">
 <p>Released on Dec 03, 2018</p>
 </div>
-<h3>New in Development Environment 10.0.910.0</h3>
+<h3 id="New_in_Development_Environment_10.0.910.0">New in Development Environment 10.0.910.0</h3>
 <ul>
 <li>From now on, double-clicking an Assign element containing a single assignment opens the expression editor and lets you edit that assignment. Inspired by <a href="https://www.outsystems.com/ideas/5299/"> Nicolaas' idea</a>. (RIUT-479)</li>
 <li>You can now use "Find Usages in All Modules" with Role Actions. Inspired by <a href="https://www.outsystems.com/ideas/5807/"> Carlos Alfaro's idea</a>. (RIUT-533)</li>
 </ul>
-<h3>Bug Fixing</h3>
+<h3 id="Bug_Fixing_15">Bug Fixing</h3>
 <ul>
 <li>Publishing a module with TrueChange errors in View Data aggregated attributes no longer causes a compilation error. (RPD-3568)</li>
 <li>Recovering a module will now correctly validate calculated attributes that reference a group by attribute in an aggregate. (RPD-3599)</li>
@@ -227,12 +227,12 @@ app_type: traditional web apps, mobile apps, reactive web apps
 <div class="info">
 <p>Released on Nov 16, 2018</p>
 </div>
-<h3>New in Development Environment 10.0.908.0</h3>
+<h3 id="New_in_Development_Environment_10.0.908.0">New in Development Environment 10.0.908.0</h3>
 <ul>
 <li>Revamped the look and feel of the merge feature. The "Compare and Merge" window brings a new user experience and more powerful options. (RCOT-1332)</li>
 <li>The User and Role exceptions are now sorted alphabetically. Inspired by <a href="https://www.outsystems.com/ideas/5103/">Rebecca Hall's idea</a>. (RIUT-480)</li>
 </ul>
-<h3>Bug Fixing</h3>
+<h3 id="Bug_Fixing_16">Bug Fixing</h3>
 <ul>
 <li>Fixed a crash that happened occasionally after performing an operation (e.g. right-click) on the HTML Element widget that had a Tag property that did not support children (e.g. "input"). (RAFT-885)</li>
 <li>Service Studio no longer crashes when you convert a REST variable (Local Variable, Input Parameter or Output Parameter) to another type of REST variable. (RICT-1125)</li>
@@ -249,14 +249,14 @@ app_type: traditional web apps, mobile apps, reactive web apps
 <div class="info">
 <p>Released on Oct 22, 2018.</p>
 </div>
-<h3>New in Development Environment 10.0.907.0</h3>
+<h3 id="New_in_Development_Environment_10.0.907.0">New in Development Environment 10.0.907.0</h3>
 <ul>
 <li>Improved the label of the Advanced Query's output element to cope with the element's type. (ABE-1280)</li>
 <li>Now labels in flow connectors are shown in the middle of the arrow. Inspired by <a href="https://www.outsystems.com/ideas/5106/">João Pedro Bernardes' idea</a>. (RIUT-465)</li>
 <li>If the text value of a property has several lines, there's now a multiline indicator in form of a downwards arrow in the Properties Pane. Inspired by <a href="https://www.outsystems.com/ideas/3667/">Kilian's idea</a>. (RIUT-466)</li>
 <li>Improved Split Assigns experience and label to be more intuitive, according to developers' feedback (RIUT-462)</li>
 </ul>
-<h3>Bug Fixing</h3>
+<h3 id="Bug_Fixing_17">Bug Fixing</h3>
 <ul>
 <li>Fixed Service Studio crash after refreshing references that caused block's placeholders to be removed (RAFT-1609)</li>
 <li>Fixed caret not showing properly on some scenarios (RAFT-1613)</li>
@@ -272,13 +272,13 @@ app_type: traditional web apps, mobile apps, reactive web apps
 <div class="info">
 <p>Released on Oct 1, 2018</p>
 </div>
-<h3>New in Development Environment 10.0.906.0</h3>
+<h3 id="New_in_Development_Environment_10.0.906.0">New in Development Environment 10.0.906.0</h3>
 <ul>
 <li>When importing a Resource via the command line, it is now possible to override Resources with the same name by using the "-override" flag. (RICT-984)</li>
 <li>Now publishing a module to a Production environment requires confirmation. Inspired by <a href="https://www.outsystems.com/ideas/1709/">Justin James' idea</a>. (RIUT-420)</li>
 <li>It is now possible to quickly rename the label of a Switch condition by simply pressing F2. Inspired by <a href="https://www.outsystems.com/ideas/4944/">Ricardo Antunes' idea</a>. (RIUT-376)</li>
 </ul>
-<h3>Bug Fixing</h3>
+<h3 id="Bug_Fixing_18">Bug Fixing</h3>
 <ul>
 <li>Fixed a bug that didn't allow you to finish the merge operation when there were no conflicts. (RCOT-1721)</li>
 <li>Fixed an issue that caused Service Studio to crash after closing a module or a window while it was still loading. (RICT-1003)</li>
@@ -288,13 +288,13 @@ app_type: traditional web apps, mobile apps, reactive web apps
 <div class="info">
 <p>Released on Sep 10, 2018</p>
 </div>
-<h3>New in Development Environment 10.0.903.0</h3>
+<h3 id="New_in_Development_Environment_10.0.903.0">New in Development Environment 10.0.903.0</h3>
 <ul>
 <li>Select text and press Ctrl + R to search for it. The <b>Find</b> field in <b>Search and Replace</b> window is now automatically filled with the text you select. Inspired by <a href="https://www.outsystems.com/ideas/3605/">Romeu’s idea</a>. (RIUT-380)</li>
 <li>The global search in Service Studio now returns Entity Actions. (RIUT-381)</li>
 <li>Service Studio no longer automatically opens the first result from the search results list. (RIUT-414)</li>
 </ul>
-<h3>Bug Fixing</h3>
+<h3 id="Bug_Fixing_19">Bug Fixing</h3>
 <ul>
 <li>Fixed a bug that caused the execution of queries with the inline comment syntax to fail when used in the Service Studio SQL tool. (ABE-1216)</li>
 <li>Fixed a bug that caused the cursor to jump in front of a period (".") when editing the SQL text values. (ABE-1189)</li>
@@ -314,7 +314,7 @@ app_type: traditional web apps, mobile apps, reactive web apps
 <div class="info">
 <p>Released on Aug 21, 2018</p>
 </div>
-<h3>New in Development Environment 10.0.902.0</h3>
+<h3 id="New_in_Development_Environment_10.0.902.0">New in Development Environment 10.0.902.0</h3>
 <ul>
 <li>There are now warning messages for the writable site properties and session variables if they are not used in the module. Inspired by <a href="https://www.outsystems.com/ideas/4948/">Gabriel Cardoso's idea</a>. (ABE-1116)</li>
 <li>There is now a warning message if you have an unused Aggregate in flows. Inspired by <a href="https://www.outsystems.com/ideas/5068/">Johan den Ouden’s idea</a>. (ABE-1146)</li>
@@ -327,7 +327,7 @@ app_type: traditional web apps, mobile apps, reactive web apps
 <li>Now you can use SVG images as public element icons (block, entities, actions...). Inspired by <a href="https://www.outsystems.com/ideas/5061/">João Guerra’s idea</a>. (RIUT-377)</li>
 <li>Now you can use “Help” &gt; “Check for updates...” to find out if you’re using the latest version of Service Studio. Inspired by <a href="https://www.outsystems.com/ideas/3384/">JR’s idea</a>. (RIUT-392)</li>
 </ul>
-<h3>Bug Fixing</h3>
+<h3 id="Bug_Fixing_20">Bug Fixing</h3>
 <ul>
 <li>Fixed an issue that caused Service Studio to throw an unexpected error when parsing a complex JSON structure consisting of several nested objects with the same attributes. (RPD-3373)</li>
 <li>Fixed an issue that caused Service Studio to crash after double-clicking the delete icon in the SOURCES section of the Aggregate Sources tab. (ABE-1190)</li>
@@ -345,7 +345,7 @@ app_type: traditional web apps, mobile apps, reactive web apps
 <div class="info">
 <p>Released on Jul 30, 2018</p>
 </div>
-<h3>New in Development Environment 10.0.830.0</h3>
+<h3 id="New_in_Development_Environment_10.0.830.0">New in Development Environment 10.0.830.0</h3>
 <ul>
 <li>Added an option to enable or disable automatic data preview for Aggregates. It’s available in Preferences &gt; Queries. Inspired by <a href="https://www.outsystems.com/ideas/5058/">João Cabaço’s idea</a>. (ABE-848)</li>
 <li>Added "Edit Entity"/“Edit Structure” option in the right-click menu of Entities/Structures. Inspired by <a href="https://www.outsystems.com/ideas/4992/">Johan den Ouden’s idea</a>. (ABE-1108)</li>
@@ -364,7 +364,7 @@ app_type: traditional web apps, mobile apps, reactive web apps
 <li>The private structures not used in a module now show with a warning message. Inspired by <a href="https://www.outsystems.com/ideas/3526/">Luis Soares’ idea</a>. (RIUT-384)</li>
 <li>The Filters tab of Aggregates now better fits the window and the filter text wraps on resize. Inspired by <a href="https://www.outsystems.com/ideas/3624/">Daniël Kuhlmann's idea</a>. (ABE-1109)</li>
 </ul>
-<h3>Bug Fixing</h3>
+<h3 id="Bug_Fixing_21">Bug Fixing</h3>
 <ul>
 <li>Fixed a bug that caused a crash after creating a Text Widget by typing directly in the Screen/Blocks when a Text Widget was already present. (RAFT-1454)</li>
 <li>Fixed a bug that caused a crash when selecting Resources with 0 bytes. (RICT-828)</li>
@@ -377,12 +377,12 @@ app_type: traditional web apps, mobile apps, reactive web apps
 <div class="info">
 <p>Released on Jul 09, 2018</p>
 </div>
-<h3>New in Development Environment 10.0.827.0</h3>
+<h3 id="New_in_Development_Environment_10.0.827.0">New in Development Environment 10.0.827.0</h3>
 <ul>
 <li>Improved readability of Aggregates by making "Add attribute" label coherent in both Column option and Right Click option (inspired by <a href="https://www.outsystems.com/ideas/4942/">Eduardo Jauch's idea</a>) (ABE-1090)</li>
 <li>It's now possible to split assignments from an Assign node into multiple nodes (inspired by <a href="https://www.outsystems.com/ideas/308/merge-split-assigns"> Gonçalo Borrêga's idea </a>).(RIUT-257)</li>
 </ul>
-<h3>Bug Fixing</h3>
+<h3 id="Bug_Fixing_22">Bug Fixing</h3>
 <ul>
 <li>Fixed Service Studio crash when merging deleted widgets customized with the Styles Editor. (RICT-794)</li>
 <li>Fixed an issue that caused Service Studio to lose focus and flicker when closing a modal window. (RIUT-354)</li>
@@ -393,7 +393,7 @@ app_type: traditional web apps, mobile apps, reactive web apps
 <div class="info">
 <p>Released on Jun 18, 2018</p>
 </div>
-<h3>New in Development Environment 10.0.825.0</h3>
+<h3 id="New_in_Development_Environment_10.0.825.0">New in Development Environment 10.0.825.0</h3>
 <ul>
 <li>Improved autocomplete behavior in the Expression editor. (RAFT-1353)</li>
 <li>Added information on our privacy policy to the Submit Feedback window in Integration Studio and to the Consume SOAP Web Service error report window in Service Studio. (RINT-1864)</li>
@@ -402,7 +402,7 @@ app_type: traditional web apps, mobile apps, reactive web apps
 <li>It is now possible to navigate through search results in element selection windows (for example "Select Action") using Up and Down keys. (RIUT-305)</li>
 <li>Searching inside an element selection window (for example "Select Action") will now automatically expand folders and filter their content. (RIUT-306)</li>
 </ul>
-<h3>Bug Fixing</h3>
+<h3 id="Bug_Fixing_23">Bug Fixing</h3>
 <ul>
 <li>Fixed a bug in Service Studio that caused a crash when dragging an Entity to a Widget. (RAFT-1407)</li>
 <li>Fixed the hover preview of 3 letter hexadecimal colors (for example #0f0) in Style Sheet Editor. (RPD-3279)</li>
@@ -417,7 +417,7 @@ app_type: traditional web apps, mobile apps, reactive web apps
 <div class="info">
 <p>Released on May 24, 2018</p>
 </div>
-<h3>Bug Fixing</h3>
+<h3 id="Bug_Fixing_24">Bug Fixing</h3>
 <ul>
 <li>Fixed an issue rendering mobile icons widget in Service Studio (RICT-788)</li>
 </ul>
@@ -425,7 +425,7 @@ app_type: traditional web apps, mobile apps, reactive web apps
 <div class="info">
 <p>Released on May 23, 2018</p>
 </div>
-<h3>New in Development Environment 10.0.821.0</h3>
+<h3 id="New_in_Development_Environment_10.0.821.0">New in Development Environment 10.0.821.0</h3>
 <ul>
 <li>It is now possible to create an Entity Diagram for selected Entities: select the desired entities, right-click one of them and click "Create Entity Diagram". (ABE-842)</li>
 <li>Added information on our privacy policy to the Submit Feedback window in Service Studio. (RIUT-328)</li>
@@ -433,7 +433,7 @@ app_type: traditional web apps, mobile apps, reactive web apps
 <li>Opening the "Manage Dependencies" window from a reference will set the focus on the search input so that users can search the available public elements on the reference (inspired by <a href="https://www.outsystems.com/ideas/3547/" title="https://www.outsystems.com/ideas/3547/"> Peter's idea</a>). (RIUT-307)</li>
 <li>When expanding the widget toolbox, the search input is now focused so that users can start searching for widgets. (RIUT-303)</li>
 </ul>
-<h3>Bug Fixing</h3>
+<h3 id="Bug_Fixing_25">Bug Fixing</h3>
 <ul>
 <li>Solved an issue that prevented Service Studio from saving a Module due to concurrent file access. (RICT-761)</li>
 <li>Attributes in Record types are no longer marked as mandatory. (RPD-3226)</li>
@@ -448,12 +448,12 @@ app_type: traditional web apps, mobile apps, reactive web apps
 <div class="info">
 <p>Released on May 07, 2018</p>
 </div>
-<h3>New in Development Environment 10.0.815.0</h3>
+<h3 id="New_in_Development_Environment_10.0.815.0">New in Development Environment 10.0.815.0</h3>
 <ul>
 <li>For Each flow elements use the Record List being iterated as their display name when the Label property is empty (inspired by <a href="https://www.outsystems.com/ideas/3699/">Caio Santana's idea</a>). (RIUT-309)</li>
 <li>The applications list screen in Service Studio has been improved with application search and filter capabilities (inspired by <a href="https://www.outsystems.com/ideas/2691/organize-environment-applications-in-service-studio">Tiago Torre's idea</a>) and also presents a list of recently opened modules. (RIUT-316)</li>
 </ul>
-<h3>Bug Fixing</h3>
+<h3 id="Bug_Fixing_26">Bug Fixing</h3>
 <ul>
 <li>Changing the description of REST API method parameters will now update the exposed REST API documentation. (RINT-1563)</li>
 <li>Fixed a bug in Service Studio that caused a crash when dragging an attribute that should not be displayed (e.g. a Password or an Id) to a List widget. (RAFT-1341)</li>
@@ -465,11 +465,11 @@ app_type: traditional web apps, mobile apps, reactive web apps
 <div class="info">
 <p>Released on Apr 16, 2018</p>
 </div>
-<h3>New in Development Environment 10.0.814.0</h3>
+<h3 id="New_in_Development_Environment_10.0.814.0">New in Development Environment 10.0.814.0</h3>
 <ul>
 <li>The recent Modules list from the Environment Menu is now filtered by the current Environment (Inspired by <a href="https://www.outsystems.com/ideas/1748/">J.'s idea</a>). Upgrading to this version will clear your recent Modules list. (RIUT-290)</li>
 </ul>
-<h3>Bug Fixing</h3>
+<h3 id="Bug_Fixing_27">Bug Fixing</h3>
 <ul>
 <li>Reduced the time Service Studio takes to upgrade a Module from a previous version. (RPD-2955)</li>
 <li>Fixed an issue that caused an empty tab to remain open after using Ctrl+Shift+T to open a Module that no longer exists in the current Environment. (RIUT-288)</li>
@@ -478,13 +478,13 @@ app_type: traditional web apps, mobile apps, reactive web apps
 <div class="info">
 <p>Released on Mar 27, 2018</p>
 </div>
-<h3>New in Development Environment 10.0.810.0</h3>
+<h3 id="New_in_Development_Environment_10.0.810.0">New in Development Environment 10.0.810.0</h3>
 <ul>
 <li>It is now possible to download the Application Pack (.oap) from the Application detail screen (Inspired by <a href="https://www.outsystems.com/ideas/3100/" title="https://www.outsystems.com/ideas/3100/">Gonçalo Martins' idea</a>). (RIUT-102)</li>
 <li>Assign Nodes now show Null suggestions for Binary, Date, Object, Integer Identifier, Long Integer Identifier and Text Identifier (Inspired by <a href="https://www.outsystems.com/ideas/3516/" title="https://www.outsystems.com/ideas/3516/">Nelson André's idea</a>). (RIUT-264)</li>
 <li>Added support for POST methods with 201 HTTP code. (RPD-3129)</li>
 </ul>
-<h3>Bug Fixing</h3>
+<h3 id="Bug_Fixing_28">Bug Fixing</h3>
 <ul>
 <li>Fixed a bug that caused an "Unkown object '<var_name>' in expression" error after creating an Aggregate by dragging a Session Variable or Site Property of the Entity Identifier data type to the Action flow. (ABE-855)</var_name></li>
 <li>Fixed a bug that caused a crash after creating a Text Widget by typing directly in the Screen/Blocks and then pressing the Enter key twice. (RAFT-1302)</li>
@@ -496,7 +496,7 @@ app_type: traditional web apps, mobile apps, reactive web apps
 <div class="info">
 <p>Released on Mar 05, 2018</p>
 </div>
-<h3>New in Development Environment 10.0.807.0</h3>
+<h3 id="New_in_Development_Environment_10.0.807.0">New in Development Environment 10.0.807.0</h3>
 <ul>
 <li>It is now possible to change the properties of several elements in bulk (Inspired by <a href="https://www.outsystems.com/ideas/1032/properties-pane-change-properties-for-selected-widgets"> Harry de Boer's idea</a>). (RIUT-4)</li>
 <li>The shortcuts in Service Studio are now listed in a separate window (Help → Keyboard Shortcuts or Ctrl+Shift+K). They were also improved and made more consistent. (RIUT-132)<br/>
@@ -518,7 +518,7 @@ app_type: traditional web apps, mobile apps, reactive web apps
 <li>Added the ability to change the type of a variable (Local Variable, Input Parameter, Output Parameter) by using the right-click menu (Inspired by <a href="https://www.outsystems.com/ideas/3362/">Rafael Valente's idea</a>). (RIUT-237)</li>
 <li>Improved the usability of the Content Editor scrollbar. (RAFT-1175)</li>
 </ul>
-<h3>Bug Fixing</h3>
+<h3 id="Bug_Fixing_29">Bug Fixing</h3>
 <ul>
 <li>Fixed issues with the automatic merge of CSS, JavaScript, Expressions and other textual properties. (RCOT-1074)</li>
 <li>Fixed an issue that caused a crash while editing style classes in Properties Pane. (RICT-592)</li>
@@ -528,14 +528,14 @@ app_type: traditional web apps, mobile apps, reactive web apps
 <div class="info">
 <p>Released on Feb 20, 2018</p>
 </div>
-<h3>New in Development Environment 10.0.801.0</h3>
+<h3 id="New_in_Development_Environment_10.0.801.0">New in Development Environment 10.0.801.0</h3>
 <ul>
 <li>Improved the heuristics of the Extract to Action feature by reducing the number of input parameters for the record elements. (RIUT-212)</li>
 <li>The shortcuts in Service Studio have been improved and some shortcuts were reassigned to different keys. Additionally, the Help menu now has entry Keyboard Shortcuts (Ctrl+Shift+K) that opens the documentation page. (RIUT-130)</li>
 <li>Improved the heuristics of the Extract to Action feature by removing unnecessary input parameters for Session Variables and Site Properties. (RIUT-213)</li>
 <li>Added an "Add null checks to imported items" option to the "Import Actions from .NET Assembly" wizard in Integration Studio. (RPD-2606)</li>
 </ul>
-<h3>Bug Fixing</h3>
+<h3 id="Bug_Fixing_30">Bug Fixing</h3>
 <ul>
 <li>Fixed a bug that generated wrong parameter types in the local entities created from the server entities. The bug caused errors in the built-in entity actions. (RAFT-1171)</li>
 <li>Fixed a bug causing Service Studio to crash while pasting Blocks/Screens from other modules. The cause of crash was the invalid dependency resolution for CSS or JS of the referring elements. (RAFT-1177)</li>
@@ -547,13 +547,13 @@ app_type: traditional web apps, mobile apps, reactive web apps
 <div class="info">
 <p>This is a preliminary version of the document.</p>
 </div>
-<h3>New in Development Environment 10.0.722.0</h3>
+<h3 id="New_in_Development_Environment_10.0.722.0">New in Development Environment 10.0.722.0</h3>
 <ul>
 <li>Improved Extract to Action operation by removing unnecessary input parameters for Session Variables and Site Properties. (RIUT-213)</li>
 <li>Improved Extract to Action operation by reducing the amount of input parameters for records elements. (RIUT-212)</li>
 <li>Shortcut Keys documentation available from Help Menu. (RIUT-130)</li>
 </ul>
-<h3>Bug Fixing</h3>
+<h3 id="Bug_Fixing_31">Bug Fixing</h3>
 <ul>
 <li>Fixed issue in creation of local entities from server entities where entity actions of the created entity would get the wrong parameter types. (RAFT-1171)</li>
 <li>Fixed bug while pasting Blocks/Screens that depend on Block that refers other elements in its stylesheet or javascript. (RAFT-1177)</li>
@@ -566,13 +566,13 @@ app_type: traditional web apps, mobile apps, reactive web apps
 <div class="info">
 <p>Released on Jan 29, 2018</p>
 </div>
-<h3>New in Development Environment 10.0.721.0</h3>
+<h3 id="New_in_Development_Environment_10.0.721.0">New in Development Environment 10.0.721.0</h3>
 <ul>
 <li>Improved the look of scrollbars in Service Studio. (RAFT-1055)</li>
 <li>Service Studio can now open multiple files from the environment at the same time. (Inspired by <a href="https://www.outsystems.com/ideas/3091/" title="https://www.outsystems.com/ideas/3091/">Edgar Ramos' idea</a>!) (RIUT-146)</li>
 <li>The application icon is now used as logo and module icon. (RIUT-184)</li>
 </ul>
-<h3>Bug Fixing</h3>
+<h3 id="Bug_Fixing_32">Bug Fixing</h3>
 <ul>
 <li>Fixed an issue when moving a screen to a different flow that was causing some values in type mappings to be lost. (RICT-588)</li>
 <li>Fixed an issue that was preventing the removal of a missing producer reference in Manage Dependencies window. (ABE-735)</li>
@@ -588,7 +588,7 @@ app_type: traditional web apps, mobile apps, reactive web apps
 <div class="info">
 <p>Released on Jan 08, 2018</p>
 </div>
-<h3>New in Development Environment 10.0.717.0</h3>
+<h3 id="New_in_Development_Environment_10.0.717.0">New in Development Environment 10.0.717.0</h3>
 <ul>
 <li>Updated adb and SharpAdbClient to improve debugging of mobile apps on Android. (RAFT-1095)</li>
 <li>The look of scroll bars in Service Studio is improved and made consistent. (RAFT-1055)</li>
@@ -601,7 +601,7 @@ app_type: traditional web apps, mobile apps, reactive web apps
 <li>It is now possible to extract parts of the flow into a new action by selecting the flow elements and choosing “Extract to Action” after right-clicking the selection. (RIUT-126)</li>
 <li>Improved Submit Feedback experience to be less intrusive and send crash reports by default. (RIUT-9)</li>
 </ul>
-<h3>Bug Fixing</h3>
+<h3 id="Bug_Fixing_33">Bug Fixing</h3>
 <ul>
 <li>Fixed a bug that prevented ListFilter, ListAny, ListAll, ListIndexOf and ListSort from returning the results because some attributes from the source list were ignored. (ABE-674)</li>
 <li>Fixed an error that caused a crash when double-clicking the “Executed SQL” property in the properties pane of the Service Studio connected to a production environment. (ABE-666)</li>
@@ -617,7 +617,7 @@ app_type: traditional web apps, mobile apps, reactive web apps
 <div class="info">
 <p>Released on Dec 12, 2017</p>
 </div>
-<h3>New in Development Environment 10.0.715.0</h3>
+<h3 id="New_in_Development Environment 10.0.715.0">New in Development Environment 10.0.715.0</h3>
 <ul>
 <li>It is now possible to style the widgets with the new Style Editor panel without using CSS. (RICT-461)</li>
 <li>Improved the Debugger Tab UI. (RAFT-1027)</li>
@@ -626,7 +626,7 @@ app_type: traditional web apps, mobile apps, reactive web apps
 <li>Added gridlines when dragging multiple nodes in the flow. (RIUT-93)</li>
 <li>Service Studio and Integration Studio now appear in Windows menu prefixed with "OutSystems" so that they are easier to find. (RIUT-94)</li>
 </ul>
-<h3>Bug Fixing</h3>
+<h3 id="Bug_Fixing_34">Bug Fixing</h3>
 <ul>
 <li>Fixed an error when selecting a Refresh Data node having the Aggregate Editor popped out in a separate window. (ABE-660)</li>
 <li>Fixed an error when double-clicking the Executed SQL property having the Aggregate Editor open in Production mode. (ABE-666)</li>
@@ -635,7 +635,7 @@ app_type: traditional web apps, mobile apps, reactive web apps
 <div class="info">
 <p>Released on Nov 20, 2017</p>
 </div>
-<h3>New in IDE 10.0.713.0</h3>
+<h3 id="New_in_IDE_10.0.713.0">New in IDE 10.0.713.0</h3>
 <ul>
 <li>When working within the "View Data" of an Entity, errors and warnings no longer appear in the TrueChange tab. (RPDT-960)</li>
 <li>Now you can automatically align Screens in Flow and Entities in Diagram by selecting the elements and right-clicking. (RIUT-59)</li>
@@ -647,7 +647,7 @@ app_type: traditional web apps, mobile apps, reactive web apps
 <li>Added a new performance suggestion in mobile app development for JavaScript nodes that have a large amount of code. (RAFT-864)</li>
 <li>The TrueChange™ tab now shows a new category of warnings, “Performance Suggestion”. (RAFT-860)</li>
 </ul>
-<h3>Bug Fixing</h3>
+<h3 id="Bug_Fixing_35">Bug Fixing</h3>
 <ul>
 <li>Fixed misalignment when nodes have labels with two lines. (RIUT-58)</li>
 <li>Fixed a bug that prevented dragging and aligning nodes across connectors. (RIUT-55)</li>
@@ -660,12 +660,12 @@ app_type: traditional web apps, mobile apps, reactive web apps
 <div class="info">
 <p>Released on Oct 30, 2017</p>
 </div>
-<h3>New in Development Environment 10.0.709.0</h3>
+<h3 id="New_in_Development_Environment_10.0.709.0">New in Development Environment 10.0.709.0</h3>
 <ul>
 <li>JavaScript element parameters can now be copied and pasted in other JavaScript elements or pasted as Screen/Action variables and parameters. (RAFT-925)</li>
 <li>The Text widget is now available in Service Studio's toolbox and can be dropped in screens and blocks. (RAFT-820)</li>
 </ul>
-<h3>Bug Fixing</h3>
+<h3 id="Bug_Fixing_36">Bug Fixing</h3>
 <ul>
 <li>Fixed issue in Service Studio where the "Manage Dependencies..." dialog included too many dependencies and manually removing them would cause an error. (RPD-2770)</li>
 <li>When opening the "Manage Dependencies..." dialog in Service Studio the focus is now set to the producer modules search box. (RICT-419)</li>
@@ -678,14 +678,14 @@ app_type: traditional web apps, mobile apps, reactive web apps
 <div class="info">
 <p>Released on Oct 9, 2017</p>
 </div>
-<h3>New in Development Environment 10.0.707.0</h3>
+<h3 id="New_in_Development_Environment_10.0.707.0">New in Development Environment 10.0.707.0</h3>
 <ul>
 <li>It is now possible to debug mobile apps directly in mobile devices by connecting the devices to Service Studio with a USB cable. (RAFT-852)</li>
 <li>Added a new warning about potential infinite cycles of queries when the OnAfterFetch event causes the refresh of its own aggregate. (RAFT-848)</li>
 <li>Revamped status icons in Debugger and Manage Dependencies window. (ABE-499)</li>
 <li>Added spinner animation to infinite scroll action scaffolding to provide waiting feedback to end users. (RAFT-668)</li>
 </ul>
-<h3>Bug Fixing</h3>
+<h3 id="Bug_Fixing_37">Bug Fixing</h3>
 <ul>
 <li>Fixed a bug that caused Service Studio to crash while editing a Static Entity record in Records tab and changing the Entity in the Data tab. (ABE-517)</li>
 <li>Fixed a bug that caused module to be invalid because one of the referenced entities was already present but hidden. (RPD-2319)</li>
@@ -700,7 +700,7 @@ app_type: traditional web apps, mobile apps, reactive web apps
 <div class="info">
 <p>Released on Sep 19, 2017</p>
 </div>
-<h3>New in Development Environment 10.0.704.0</h3>
+<h3 id="New_in_Development_Environment_10.0.704.0">New in Development Environment 10.0.704.0</h3>
 <ul>
 <li>The debugging of client-side actions in a desktop browser is now available. It requires the Platform Server version 10.0.705.0 or higher. (RAFT-833)</li>
 <li>Introduced canvas guidelines that help arrange and align flow elements. (RICT-325)</li>
@@ -712,7 +712,7 @@ app_type: traditional web apps, mobile apps, reactive web apps
 <li>Toolbox elements of the client actions were reorganized to promote implementation of best practices. (RAFT-658)</li>
 <li>Introduced bulk copy and paste of input and output parameters between JavaScript elements. (RAFT-872)</li>
 </ul>
-<h3>Bug Fixing</h3>
+<h3 id="Bug_Fixing_38">Bug Fixing</h3>
 <ul>
 <li>Fixed a problem that resulted in Service Studio crashing in some circumstances while loading an eSpace. (RPD-2548)</li>
 <li>Fixed an issue where SQL autocomplete changed the focus from the SQL line to the element in the treeview. (RPD-2100)</li>
@@ -727,29 +727,29 @@ app_type: traditional web apps, mobile apps, reactive web apps
 <div class="info">
 <p>Released on Aug 09, 2017</p>
 </div>
-<h3>New in Development Environment 10.0.613.0</h3>
+<h3 id="New_in_Development_Environment_10.0.613.0">New in Development Environment 10.0.613.0</h3>
 <ul>
 <li>Service Studio now allows importing resources by dragging and dropping multiple files with any kind of extension (.js, .txt, .json, .swf, ...) to the Resources folder. (RAFT-771)</li>
 </ul>
-<h3>Bug Fixing</h3>
+<h3 id="Bug_Fixing_39">Bug Fixing</h3>
 <ul>
 <li>Fixed hangs in Service Studio while renaming an object if a background task began executing at the same time, such as previewing the data of an aggregate or starting the debugger. (RPD-2448)</li>
 <li>Improved the stability of the TrueChange™ panel. (RICT-270)</li>
 <li>Fixed incorrect difference highlighting in textual comparisons during Compare and Merge operations. (RCOT-427)</li>
 </ul>
-<h3>Known Issue</h3>
+<h3 id="Known_Issue">Known Issue</h3>
 <ul>
-<li>It is not possible to open the <a href="https://success.outsystems.com/Documentation/10/Delivering_Mobile_Apps/Customize_Your_Mobile_App/Extensibility_Configurations_JSON_Schema" title="Extensibility Configurations JSON Schema">Extensibility Configurations editor</a>. As a workaround you can edit your configurations in an external text editor by copying and pasting them. This issue only affects this Development Environment version and will be fixed in the next patch.</li>
+<li>It is not possible to open the <a href="/Documentation/10/Delivering_Mobile_Apps/Customize_Your_Mobile_App/Extensibility_Configurations_JSON_Schema" title="Extensibility Configurations JSON Schema">Extensibility Configurations editor</a>. As a workaround you can edit your configurations in an external text editor by copying and pasting them. This issue only affects this Development Environment version and will be fixed in the next patch.</li>
 </ul>
 <h2 id="Development_Environment_10.0.611.0">Development Environment 10.0.611.0</h2>
 <div class="info">
 <p>Released on Jul 21, 2017</p>
 </div>
-<h3>New in Development Environment 10.0.611.0</h3>
+<h3 id="New_in_Development_Environment_10.0.611.0">New in Development Environment 10.0.611.0</h3>
 <ul>
 <li>Added the ability of aligning and distributing nodes within a logic flow. (MFRI-103)</li>
 </ul>
-<h3>Bug Fixing</h3>
+<h3 id="Bug_Fixing_40">Bug Fixing</h3>
 <ul>
 <li>TrueChange tab now displays a warning when a Structure has two attributes with the same 'Name in JSON'. (RPD-2101)</li>
 <li>Fixed an issue in the merge operation that was causing Service Studio to crash if the user double-clicked a Structure element with differences between the two compared versions. (RPD-1844)</li>
@@ -758,7 +758,7 @@ app_type: traditional web apps, mobile apps, reactive web apps
 <div class="info">
 <p>Released on Jun 29, 2017</p>
 </div>
-<h3>Bug Fixing</h3>
+<h3 id="Bug_Fixing_41">Bug Fixing</h3>
 <ul>
 <li>Fixed issues related with external dependencies. (RPD-2418) </li>
 </ul>
@@ -766,7 +766,7 @@ app_type: traditional web apps, mobile apps, reactive web apps
 <div class="info">
 <p>Released on Jun 22, 2017</p>
 </div>
-<h3>Bug Fixing</h3>
+<h3 id="Bug_Fixing_42">Bug Fixing</h3>
 <ul>
 <li>Fixed desynchronization between entity and structure definitions and their usages in list operations like ListSort, ListFilter, ListAny and ListAll. (RPD-2400)</li>
 <li>Fixed a problem with Manage Dependencies that could result in compilation errors. (RPD-2390)</li>
@@ -775,7 +775,7 @@ app_type: traditional web apps, mobile apps, reactive web apps
 <div class="info">
 <p>Released on June 21, 2017</p>
 </div>
-<h3>Bug Fixing</h3>
+<h3 id="Bug_Fixing_43">Bug Fixing</h3>
 <ul>
 <li>Fixed an issue in concurrent debugging requests that did not allow to go back to the first request when a new debugging request was started. (RAFT-745)</li>
 <li>Fixed a problem with references that could result in compilation errors. (RPD-2390)</li>
@@ -784,14 +784,14 @@ app_type: traditional web apps, mobile apps, reactive web apps
 <div class="info">
 <p>Released on June 19, 2017</p>
 </div>
-<h3>New in Development Environment 10.0.606.0</h3>
+<h3 id="New_in_Development_Environment_10.0.606.0">New in Development Environment 10.0.606.0</h3>
 <ul>
 <li>Improved aggregates to allow <a href="https://www.outsystems.com/forums/discussion/26129/new-in-outsystems-10-aggregates-in-separate-windows#Post95176" title="https://www.outsystems.com/forums/discussion/26129/new-in-outsystems-10-aggregates-in-separate-windows#Post95176">adding a source with a single click</a> on an empty aggregate. (RPDT-580)</li>
 <li>Added support to <a href="https://www.outsystems.com/forums/discussion/26129/new-in-outsystems-10-aggregates-in-separate-windows" title="https://www.outsystems.com/forums/discussion/26129/new-in-outsystems-10-aggregates-in-separate-windows">pop-out aggregates to a separate window</a>. (RPDT-386)</li>
 <li>Improved high DPI awareness in Service Studio. (RPD-1852)</li>
 <li>Added support for mouse navigation inside Service Studio (back/forward) using extra mouse buttons, if available.</li>
 </ul>
-<h3>Bug Fixing</h3>
+<h3 id="Bug_Fixing_44">Bug Fixing</h3>
 <ul>
 <li>Fixed an issue in Service Studio that was causing a crash when debugging a Process. (RPD-2347)</li>
 <li>Fixed an issue that could result in broken references when deleting a public entity and then creating a new one with the same name. (RPD-2309)</li>
@@ -806,7 +806,7 @@ app_type: traditional web apps, mobile apps, reactive web apps
 <div class="info">
 <p>Released on May 24, 2017</p>
 </div>
-<h3>New in Development Environment 10.0.502.0</h3>
+<h3 id="New_in_Development_Environment_10.0.502.0">New in Development Environment 10.0.502.0</h3>
 <ul>
 <li>Added support for Unicode characters in application names. (RPD-1600)</li>
 <li>Revamped the icons for Find Usages, Cut, Copy, Paste and Delete. (RPDT-390)</li>
@@ -817,7 +817,7 @@ app_type: traditional web apps, mobile apps, reactive web apps
 <li>Improved the label alignment in the screen and flow toolbox. (RPDT-316)</li>
 <li>"Convert to Autocomplete" now correctly generates a save Action when using Long Integer identifiers. (RSWT-45)</li>
 </ul>
-<h3>Bug Fixing</h3>
+<h3 id="Bug_Fixing_45">Bug Fixing</h3>
 <ul>
 <li>Fixed memory consumption while upgrading eSpaces with extremely large flows within ForEach nodes. (RPD-1898)</li>
 <li>Fixed an issue that was causing Assign mappings to be lost when changing another mapping that was being made on a structure that had attributes of type "<structure>Record”. (RPD-1843)</structure></li>
@@ -847,7 +847,7 @@ app_type: traditional web apps, mobile apps, reactive web apps
 <div class="info">
 <p>Released on Apr 03, 2017</p>
 </div>
-<h3>Bug Fixing</h3>
+<h3 id="Bug_Fixing_46">Bug Fixing</h3>
 <ul>
 <li>Fixed a Service Studio crash when Suspending Current Requests while debugging an application.</li>
 <li>Fixed a Service Studio crash while doing the 'Build a Mobile App in 5 min' tutorial.</li>
@@ -862,13 +862,13 @@ app_type: traditional web apps, mobile apps, reactive web apps
 <div class="info">
 <p>Released on Feb 16, 2017</p>
 </div>
-<h3>New in Development Environment 10.0.405.0</h3>
+<h3 id="New_in_Development_Environment_10.0.405.0">New in Development Environment 10.0.405.0</h3>
 <ul>
 <li>New option in Module menu to 'Generate Mobile App'.</li>
 <li>Application icons can now have transparency.</li>
 <li>Improved performance of the Upload step in 1-Click Publish (Service Studio)</li>
 </ul>
-<h3>Bug Fixing</h3>
+<h3 id="Bug_Fixing_47">Bug Fixing</h3>
 <ul>
 <li>The OutSystemsNowService module can now be added as a reference in Service Studio. (#1581303)</li>
 <li>Added icons to entities to better identify them in the Aggregate editor and Aggregate properties pane. (#1582970)</li>
@@ -893,7 +893,7 @@ app_type: traditional web apps, mobile apps, reactive web apps
 <div class="info">
 <p>Released on Jan 18, 2017</p>
 </div>
-<h3>Bug Fixing</h3>
+<h3 id="Bug_Fixing_48">Bug Fixing</h3>
 <ul>
 <li>Fixed an issue that was causing the upgrade of extensions via Service Center to get hanged. Applies only to the Development Environment installation on the server side. (#1565959)</li>
 </ul>
@@ -901,7 +901,7 @@ app_type: traditional web apps, mobile apps, reactive web apps
 <div class="info">
 <p>Released on Jan 03, 2017</p>
 </div>
-<h3>New in Development Environment 10.0.302.0</h3>
+<h3 id="New_in_Development_Environment 10.0.302.0">New in Development Environment 10.0.302.0</h3>
 <ul>
 <li>Updated OutSystems brand name and image.</li>
 <li>Added new icons for list operations to improve the readability of action flows.</li>
@@ -911,7 +911,7 @@ app_type: traditional web apps, mobile apps, reactive web apps
 <li>Added support for "Insert Widget" commands in mobile modules.</li>
 <li>The modules and functions of OutSystems JavaScript API now appear as autocomplete items when editing the code inside a JavaScript element.</li>
 </ul>
-<h3>Bug Fixing</h3>
+<h3 id="Bug_Fixing_49">Bug Fixing</h3>
 <ul>
 <li>Fixed the ability to see which attributes of an entity have already been assigned in an Assign element when opening the "Select Variable" window. (#1526041)</li>
 <li>Hyphen sign (-) is now a valid character in the Application name. (#1455867)</li>
@@ -930,7 +930,7 @@ app_type: traditional web apps, mobile apps, reactive web apps
 <li>Improved automatic data type selection based on variable names. (#1300732)</li>
 <li>Fixed error causing duplication of Custom Icons in User Actions. (#1435450)</li>
 </ul>
-<h3>Known Issues</h3>
+<h3 id="Known_Issues_0">Known Issues</h3>
 <ul>
 <li>This version has an issue that may cause the upgrade of extensions via Service Center to get hanged. Applies only to the Development Environment installation on the server side. Please use the 10.0.303.0 instead.</li>
 </ul>
@@ -938,7 +938,7 @@ app_type: traditional web apps, mobile apps, reactive web apps
 <div class="info">
 <p>Released on Nov 11, 2016</p>
 </div>
-<h3>New in Development Environment 10.0.201.0</h3>
+<h3 id="New_in_Development_Environment 10.0.201.0">New in Development Environment 10.0.201.0</h3>
 <ul>
 <li>Automatically generate actions to do offline data synchronization between Database and Local Storage Entities. To generate a synchronization action, right-click the Entity in Local Storage and select the pattern that suits your application use case:</li>
 <li>Service Studio and Integration studio have new icons</li>
@@ -950,7 +950,7 @@ app_type: traditional web apps, mobile apps, reactive web apps
          </li>
 <li>Dragging a data action with a single output to the screen will now scaffold UI based on the output type.</li>
 </ul>
-<h3>Bug Fixing</h3>
+<h3 id="Bug_Fixing_50">Bug Fixing</h3>
 <ul>
 <li>Fixed Native tab in Service Studio not fitting in smaller resolutions. (#1435452)</li>
 <li>Fixed error related to messaging encoding when Service Studio requested a Native Build. (#1435456)</li>

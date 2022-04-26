@@ -9,13 +9,13 @@ app_type: traditional web apps, mobile apps, reactive web apps
 <div class="info">
 <p>Released on Aug 3, 2021</p>
 </div>
-<h3>New in Workflow Builder 1.10.2</h3>
+<h3 id="New_in_Workflow_Builder_1.10.2">New in Workflow Builder 1.10.2</h3>
 <ul>
 <li>
 <p>Improved the error handling by adding self-service error codes.</p>
 </li>
 </ul>
-<h3>Bug Fixing</h3>
+<h3 id="Bug_Fixing_0">Bug Fixing</h3>
 <ul>
 <li>Fixed an issue that prevented the app from being generated with success when the activity had fields associated and both names in conjunction exceeded 50 characters.</li>
 </ul>
@@ -23,7 +23,7 @@ app_type: traditional web apps, mobile apps, reactive web apps
 <div class="info">
 <p>Released on June 2, 2021</p>
 </div>
-<h3>New in Workflow Builder 1.10.1</h3>
+<h3 id="New_in_Workflow_Builder_1.10.1">New in Workflow Builder 1.10.1</h3>
 <ul>
 <li>
 <p>Added a description to the case field page to help users understand what is the goal of the "Add fields" section.</p>
@@ -44,7 +44,7 @@ app_type: traditional web apps, mobile apps, reactive web apps
 <p>Improved the look and field of the Post to Timeline button in the detail screen of generated apps.</p>
 </li>
 </ul>
-<h3 data-renderer-start-pos="18">Bug Fixing</h3>
+<h3 data-renderer-start-pos="18" id="Bug_Fixing_1">Bug Fixing</h3>
 <ul>
 <li>Fixed an issue in generated apps related with the spinner animation shown when an action is executed in the context of a task.</li>
 <li>
@@ -55,7 +55,7 @@ app_type: traditional web apps, mobile apps, reactive web apps
 <div class="info">
 <p>Released on May 24, 2021</p>
 </div>
-<h3>New in Workflow Builder 1.10.0</h3>
+<h3 id="New_in_Workflow_Builder_1.10.0">New in Workflow Builder 1.10.0</h3>
 <ul>
 <li>
 <p>Cancel a Request (generated application)</p>
@@ -95,7 +95,7 @@ app_type: traditional web apps, mobile apps, reactive web apps
 <div class="info">
 <p>Released on Apr 19, 2021</p>
 </div>
-<h3>New in Workflow Builder 1.9.1</h3>
+<h3 id="New_in_Workflow_Builder_1.9.1">New in Workflow Builder 1.9.1</h3>
 <ul>
 <li>
 <p>Now, manual tasks in parallel flows are created with a "Done" action instead of "Approve" and "Reject" actions.</p>
@@ -104,7 +104,7 @@ app_type: traditional web apps, mobile apps, reactive web apps
 <p>Improved the visibility of how field information regarding if it was filled in by the user is stored on the generated app.</p>
 </li>
 </ul>
-<h3>Bug Fixing</h3>
+<h3 id="Bug_Fixing_2">Bug Fixing</h3>
 <ul>
 <li>
 <p>Fixed a bug that sometimes caused the publishing of an app to fail while adding a file field type to a form.</p>
@@ -114,7 +114,7 @@ app_type: traditional web apps, mobile apps, reactive web apps
 <div class="info">
 <p>Released on Apr 6, 2021</p>
 </div>
-<h3>New in Workflow Builder 1.9.0</h3>
+<h3 id="New_in_Workflow_Builder_1.9.0">New in Workflow Builder 1.9.0</h3>
 <ul>
 <li>
 <p>You can now use parallel flows to model multiple paths where activities are executed in parallel.</p>
@@ -124,7 +124,7 @@ app_type: traditional web apps, mobile apps, reactive web apps
 <div class="info">
 <p>Released on Mar 8, 2021</p>
 </div>
-<h3>New in Workflow Builder 1.8.0</h3>
+<h3 id="New_in_Workflow_Builder_1.8.0">New in Workflow Builder 1.8.0</h3>
 <ul>
 <li>
 <p>From now on you can add multiple checkbox and email form fields to an app's form.</p>
@@ -137,7 +137,7 @@ app_type: traditional web apps, mobile apps, reactive web apps
 <div class="info">
 <p>Released on Feb 23, 2021</p>
 </div>
-<h3>New in Workflow Builder 1.7.0</h3>
+<h3 id="New_in_Workflow_Builder_1.7.0">New in Workflow Builder 1.7.0</h3>
 <ul>
 <li>
 <p>You can now customize the email notifications you want to send to requesters and/or operators of your apps by changing basic formatting options and editing your email's text with dynamic text fields.</p>
@@ -146,7 +146,7 @@ app_type: traditional web apps, mobile apps, reactive web apps
 <p>Now you can check the "What's new" dialog to learn about and vote on the latest features added to Workflow Builder.</p>
 </li>
 </ul>
-<h3>Bug Fixing</h3>
+<h3 id="Bug_Fixing_3">Bug Fixing</h3>
 <ul>
 <li>
 <p>Fixed an issue that occurred on generated that used a "Go to" pointing to the "Form submission". The issue caused requests that went back to the requester (form submission) to be visible to all requesters. To fix this issue in apps with this pattern, re-publish the apps.</p>
@@ -156,13 +156,13 @@ app_type: traditional web apps, mobile apps, reactive web apps
 <div class="info">
 <p>Released on Feb 10, 2021</p>
 </div>
-<h3>New in Workflow Builder 1.6.1</h3>
+<h3 id="New_in_Workflow_Builder_1.6.1">New in Workflow Builder 1.6.1</h3>
 <ul>
 <li>
 <p>Workflow Builder generated apps now use Case Management framework 1.1.2.</p>
 </li>
 </ul>
-<h3>Bug Fixing</h3>
+<h3 id="Bug_Fixing_4">Bug Fixing</h3>
 <ul>
 <li>
 <p>Fixed an issue that occurred when creating an app from a blank template and an icon was selected.</p>
@@ -172,7 +172,7 @@ app_type: traditional web apps, mobile apps, reactive web apps
 <div class="info">
 <p>Released on Feb 8, 2021</p>
 </div>
-<h3>New in Workflow Builder 1.6.0</h3>
+<h3 id="New_in_Workflow_Builder_1.6.0">New in Workflow Builder 1.6.0</h3>
 <ul>
 <li>
 <p>You can now preview the form screen of your app while you are adding or removing form fields.</p>
@@ -191,7 +191,7 @@ app_type: traditional web apps, mobile apps, reactive web apps
 <div class="info">
 <p>Released on Jan 19, 2021</p>
 </div>
-<h3>New in Workflow Builder 1.5.0</h3>
+<h3 id="New_in_Workflow_Builder_1.5.0">New in Workflow Builder 1.5.0</h3>
 <ul>
 <li>
 <p>You can now see a preview of the data you are collecting from an Entity using “Preview data“ in the “Database entity” field type.</p>
@@ -204,7 +204,7 @@ app_type: traditional web apps, mobile apps, reactive web apps
 <div class="info">
 <p>Released on Dec 14, 2020</p>
 </div>
-<h3>New in Workflow Builder 1.4.0</h3>
+<h3 id="New_in_Workflow_Builder_1.4.0">New in Workflow Builder 1.4.0</h3>
 <ul>
 <li>
 <p>You can now use OutSystems Entities in Workflow Builder. This allows Workflow Builder users to reuse existing data in their OutSystems environment during the development process, by using the type "Database entity" in forms.<br/>
@@ -227,7 +227,7 @@ To reuse OutSystems Entities, you need to work with the OutSystems Platform Serv
 <div class="info">
 <p>Released on Nov 16, 2020</p>
 </div>
-<h3>New in Workflow Builder 1.3.0</h3>
+<h3 id="New_in_Workflow_Builder_1.3.0">New in Workflow Builder 1.3.0</h3>
 <ul>
 <li>Workflow Builder apps now use Case Management framework 1.1.0.</li>
 <li>Now, end users with the admin role can filter requests using the new in error toggle in Workflow Builder apps.</li>
@@ -236,7 +236,7 @@ To reuse OutSystems Entities, you need to work with the OutSystems Platform Serv
 <div class="info">
 <p>Released on Nov 02, 2020</p>
 </div>
-<h3>New in Workflow Builder 1.2.0</h3>
+<h3 id="New_in_Workflow_Builder_1.2.0">New in Workflow Builder 1.2.0</h3>
 <ul>
 <li>Now, you can start an app from an app template. The following templates are now available: New Initiative Request, Approval Request, and Issue Report.</li>
 <li>Now, the label of form fields can have up to 100 characters.</li>
@@ -246,11 +246,11 @@ To reuse OutSystems Entities, you need to work with the OutSystems Platform Serv
 <div class="info">
 <p>Released on Oct 22, 2020</p>
 </div>
-<h3>New in Workflow Builder 1.1.0</h3>
+<h3 id="New_in_Workflow_Builder_1.1.0">New in Workflow Builder 1.1.0</h3>
 <ul>
 <li>From now on, you can conditionally assign manual tasks to different groups based on assignment rules.</li>
 </ul>
-<h3>Bug Fixing</h3>
+<h3 id="Bug_Fixing_5">Bug Fixing</h3>
 <ul>
 <li>Fixed an issue that prevented end users from accessing and using apps published by Workflow Builder in environments using Platform Server release 11.7.2 and 11.7.3.</li>
 </ul>
@@ -258,14 +258,14 @@ To reuse OutSystems Entities, you need to work with the OutSystems Platform Serv
 <div class="info">
 <p>Released on Oct 8, 2020</p>
 </div>
-<h3>New in Workflow Builder 1.0.1</h3>
+<h3 id="New_in_Workflow_Builder_1.0.1">New in Workflow Builder 1.0.1</h3>
 <ul>
 <li>You can now set up the administrator role for apps created with Workflow Builder. End users with the admin role can see every request created, and reassign tasks.</li>
 <li>You can now check the current version of Workflow Builder, the release date, and the release notes by accessing the About screen.</li>
 <li>You can now use the OutSystems hub to navigate to other OutSystems tools, like LifeTime or Users.</li>
 <li>Workflow Builder apps now use Case Management framework 1.0.1.</li>
 </ul>
-<h3>Bug Fixing</h3>
+<h3 id="Bug_Fixing_6">Bug Fixing</h3>
 <ul>
 <li>Fixed an issue that prevented publishing apps that used reserved form field names, like "client" or "user".</li>
 </ul>
@@ -273,7 +273,7 @@ To reuse OutSystems Entities, you need to work with the OutSystems Platform Serv
 <div class="info">
 <p>Released on Aug 24, 2020</p>
 </div>
-<h3>New in Workflow Builder 1.0.0</h3>
+<h3 id="New_in_Workflow_Builder_1.0.0">New in Workflow Builder 1.0.0</h3>
 <ul>
 <li>Design the workflow model that fits your business process, using the easy-to-use interface. With Workflow Builder you can design workflows that are triggered by a form. </li>
 <li>Build the form that meets your business process needs, by adding the form fields you need from a predefined list of fields.</li>

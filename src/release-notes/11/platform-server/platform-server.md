@@ -12,7 +12,7 @@ app_type: traditional web apps, mobile apps, reactive web apps
 <li>Upgraded RabbitMQ Server to 3.9.11 and Erlang to 24.2. These components are used by the OutSystems Cache Invalidation Service. (R11PIT-518)</li>
 <li>Added support for integrating with PostgreSQL / Aurora PostgreSQL as external database connections via Service Center. (RDV-277)</li>
 </ul>
-<h3 id="Bug_Fixing_1">Bug Fixing</h3>
+<h3 id="Bug_Fixing_0">Bug Fixing</h3>
 <ul>
 <li>Fixed an issue that caused 1-Click Publish to incorrectly trigger the native build of a mobile app when the previous build had an error and there were no changes in the app. (R11PBT-122)</li>
 <li>Fixed an issue preventing 1-Click Publish to trigger the native build of a mobile app after significant changes. (R11PBT-235)</li>
@@ -67,7 +67,7 @@ Change the locale to "ja-jp" and access the Users module</p>
 <li><a href="/Support/Release_Notes/11/Platform_Server/Platform_Server_11.14.1#RPM-1942" rel="custom">Improved the performance of the LDAP actions in the Authentication extension, Authentication.xif, when using the LDAPS protocol. (RPM-1942)</a></li>
 <li><a href="/Support/Release_Notes/11/Platform_Server/Platform_Server_11.14.1#RPM-1977" rel="custom">Improved the performance of IT users login operation using Active Directory authentication when there is a significant number of AD groups with specific configurations. (RPM-1977)</a></li>
 </ul>
-<h3 id="Bug_Fixing_2">Bug Fixing</h3>
+<h3 id="Bug_Fixing_1">Bug Fixing</h3>
 <ul>
 <li><a href="/Support/Release_Notes/11/Platform_Server/Platform_Server_11.14.1#RPM-1184" rel="custom">Fixed an error when publishing a module in Service Studio caused by a DLL file being locked by another process. (RPM-1184)</a></li>
 <li><a href="/Support/Release_Notes/11/Platform_Server/Platform_Server_11.14.1#RPM-1240" rel="custom">Removed the "Republish all modules" step from the Installation Checklist for Oracle configuration. (RPM-1240)</a></li>
@@ -116,7 +116,7 @@ but </p><p><a id="RPM-1634"><strong>RPM-1634</strong></a><br/><b>Fixed an error 
 <li>Features related to emails for Mobile and Reactive Web Apps are now generally available in Platform Server. You could use the features previously in technical the previews "Emails for Mobile and Reactive" and "Attachments in Mobile and Reactive emails". (RTAFA-75)</li>
 <li>Now you can configure friendly URLs in your Reactive Web Apps. Go to Service Center &gt; Administration &gt; SEO URLs to set up the site rules and redirects. Configure the page rules in Service Studio, by setting Custom URLs to Yes in the Screen properties. (RTAFB-5050)</li>
 </ul>
-<h3 id="Bug_Fixing_3">Bug Fixing</h3>
+<h3 id="Bug_Fixing_2">Bug Fixing</h3>
 <ul>
 <li>Fixed issues that occurred when clicking "Apply and Exit" in the Configuration Tool after changing database configurations. (R11PBT-231)</li>
 <li>Fixed missing detailed stacks in the error logs of the Deployment Controller service. (R11PBT-347)</li>
@@ -224,7 +224,7 @@ This occurred if the value was invalid with Form.Valid runtime property set to F
 <ul>
 <li>Flexible Upgrades is now available for Platform installations running over Oracle. (R11PIT-315)</li>
 </ul>
-</div><div class="mt-section" id="section_2" mt-section-origin="Support/Release_Notes/11/Platform_Server/Platform_Server_11.13.2"><span id="Bug_Fixing_4"></span><h3 id="Bug_Fixing_4">Bug Fixing</h3>
+</div><div class="mt-section" id="section_2" mt-section-origin="Support/Release_Notes/11/Platform_Server/Platform_Server_11.13.2"><span id="Bug_Fixing_4"></span><h3 id="Bug_Fixing_3">Bug Fixing</h3>
 <ul>
 <li><a href="https://success.outsystems.com/Support/Release_Notes/11/Platform_Server/Platform_Server_11.13.2#RPM-1066" rel="custom">Fixed an issue in the Users application preventing end-users from logging in when using standard LDAP authentication. (RPM-1066)</a></li>
 <li><a href="https://success.outsystems.com/Support/Release_Notes/11/Platform_Server/Platform_Server_11.13.2#RPM-1078" rel="custom">Fixed an upgrade schema error when clicking "Create/Upgrade Database" in the Configuration Tool while upgrading the Platform Server from version 10 to version 11.11.1 or later. This issue applies only to self-managed environments. (RPM-1078)</a></li>
@@ -259,7 +259,7 @@ This only occurred when one of the possible subtypes declares an anonymous type 
 <ul>
 <li>We improved the UI and overall user experience of the Preview in Devices. We also added support for a modern variety of devices. (ROU-2177)</li>
 </ul>
-</div><div class="mt-section" id="section_2" mt-section-origin="Support/Release_Notes/11/Platform_Server/Platform_Server_11.13.1"><span id="Bug_Fixing_5"></span><h3 id="Bug_Fixing_5">Bug Fixing</h3>
+</div><div class="mt-section" id="section_2" mt-section-origin="Support/Release_Notes/11/Platform_Server/Platform_Server_11.13.1"><span id="Bug_Fixing_5"></span><h3 id="Bug_Fixing_4">Bug Fixing</h3>
 <ul>
 <li>The Modules screen in Service Center now displays the correct modules list when filtering by Status "with errors and warnings". (R11CT-121)</li>
 <li>Fixed the deployment error "Module [module name] is not available for deployment". (R11PBT-176)</li>
@@ -295,7 +295,7 @@ The vulnerability was fixed so that it no longer allows privileged users with in
 <li>New features in emails for Mobile and Reactive Web Apps. Attach files to emails. In addition to the existing widgets, design content with Table, List, and If. The Image widget now supports adding binary content from the database. To use the new widgets, update Platform Server and keep "Emails for Mobile and Reactive" on. To add attachments, update Platform Server and turn on "Attachments in Mobile and Reactive emails".  (RTAFB-4602)</li>
 <li>You can now use expressions to set titles of Screens. This lets you change the page title dynamically, and set unique values that show in the browser tabs, bookmarks, and results from the search engines. When using this feature, it is recomended that all developers in the same organization update Service Studio. (RTAFB-4738)</li>
 </ul>
-<h3 id="Bug_Fixing_6">Bug Fixing</h3>
+<h3 id="Bug_Fixing_5">Bug Fixing</h3>
 <ul>
 <li>The Basic Authentication option of REST Integrations is now correctly removed after the user clears the credentials in Service Center. (R11CT-115)</li>
 <li>Fixed an issue in the OutSystemsReactWidgets.css file that prevented the loading of Font Awesome. (R11DT-363)</li>
@@ -329,7 +329,7 @@ The issue was fixed and it's now possible to scroll properly using any OutSystem
 </div>
 <span id="Platform_Server_11.12.2"></span><h2 id="Platform_Server_11.12.2">Platform Server 11.12.2</h2><br/><div class="mt-include" id="s33530">
 <div class="info"><p>Released on Jul 13, 2021</p></div>
-<div class="mt-section" id="section_1" mt-section-origin="Support/Release_Notes/11/Platform_Server/Platform_Server_11.12.2"><span id="Bug_Fixing_7"></span><h3 id="Bug_Fixing_7">Bug Fixing</h3>
+<div class="mt-section" id="section_1" mt-section-origin="Support/Release_Notes/11/Platform_Server/Platform_Server_11.12.2"><span id="Bug_Fixing_7"></span><h3 id="Bug_Fixing_6">Bug Fixing</h3>
 <ul>
 <li>Fixed an issue where linking to a screen with a custom URL defined caused a crash if mandatory inputs were empty or invalid.  (RAR-782)</li>
 <li>Fixed an issue on progressive web apps (PWAs) where data from an aggregate populated by local storage did not display. This issue occurred when a consuming module used a different entity name than the producer module. (RPM-896)</li>
@@ -345,7 +345,7 @@ be sent in the header. Previously, the "Name in Response" was ignored when speci
 </ul>
 </div></div><span id="Platform_Server_11.12.1"></span><h2 id="Platform_Server_11.12.1">Platform Server 11.12.1</h2><br/><div class="mt-include" id="s33088">
 <div class="info"><p>Released on Jun 21, 2021</p></div>
-<div class="mt-section" id="section_1" mt-section-origin="Support/Release_Notes/11/Platform_Server/Platform_Server_11.12.1"><span id="Bug_Fixing_8"></span><h3 id="Bug_Fixing_8">Bug Fixing</h3>
+<div class="mt-section" id="section_1" mt-section-origin="Support/Release_Notes/11/Platform_Server/Platform_Server_11.12.1"><span id="Bug_Fixing_8"></span><h3 id="Bug_Fixing_7">Bug Fixing</h3>
 <ul>
 <li>When browsing application edit screens, Service Center no longer redirects you to the home page after a period of inactivity. (R11PIT-177)</li>
 <li>Fixed an issue where it was not possible to send an e-mail using an SMTP provider that sends a non-supported command to authenticate. (RPM-1063)</li>
@@ -360,7 +360,7 @@ errors after upgrading an application.  (RTAF-4646)</li>
 </ul></div></div>
 
 <h2 id="Platform_Server_11.12.0">Platform Server 11.12.0</h2>
-<div class="info"><p>This is a preliminary version of the document.</p></div>
+<div class="info"><p>Released on May 24, 2021</p></div>
 <h3 id="New_in_Platform_Server_11.12.0">New in Platform Server 11.12.0</h3>
 <ul>
 <li>You can now Expose REST webservices using the PATCH verb. This capability is a technical preview feature and you need to activate the option "PATCH method in exposed REST APIs" in LifeTime. (R11DT-89)</li>
@@ -382,12 +382,16 @@ errors after upgrading an application.  (RTAF-4646)</li>
 <li>Added the server-to-client data transfer optimization for the Mobile and Reactive Web Apps. The optimization works for Screen Aggregates, Data Actions, and for the Server Actions in the logic flows of Screen Client Actions. (RTAFB-4331)</li>
 <li>Now you can, in Mobile and Reactive Web Apps, create lightweight emails with basic navigation and styling. Emails in Reactive and Mobile is a technical preview feature, so you need to activate the option "Emails for Mobile and Reactive" in LifeTime. (RTAFB-4361)</li>
 </ul>
-<h3 id="Bug_Fixing_9">Bug Fixing</h3>
+<h3 id="Bug_Fixing_8">Bug Fixing</h3>
 <ul>
 <li>Fixed the client-side logs not being sent to the server after an upgrade rollback in a native mobile app. (RAR-123)</li>
 <li>Fixed the client-side logs created offline not being sent to the server when reopening the app with the connection restored. (RAR-124)</li>
 <li>The Dropdown now selects the correct item when the list contains default values for OutSystems data types.  (RAR-610)</li>
-<li>The default font in some factories, now loads correctly on users apps. (RLIT-4295)</li>
+<li>The default font in some factories, now loads correctly on users apps. 
+
+
+
+ (RLIT-4295)</li>
 <li>Improved the feedback message when configuring Android Mobile Apps. (RLIT-4428)</li>
 <li>The correct link now displays in the the Mobile Application description in Service Center.  (RLIT-4434)</li>
 <li>Fixed an issue in Service Center preventing the dependencies in a Solution to be properly shown. (RLIT-4457)</li>
@@ -417,7 +421,9 @@ errors after upgrading an application.  (RTAF-4646)</li>
 <li>We improved the Service Center error "Invalid call of the [action name] client action of the [screen name] since the latter is not currently active". The error now has more details about the action and screen. Additionally, the verbosity of the error now depends on the context. (RPM-858)</li>
 <li>Fixed a bug where the platform asked a user to login twice when using Integrated Windows Authentication (IWA). (RPM-924)</li>
 <li>Fixed issue causing users to get the "Error loading original references" message when loading Modules that consume entities that have at least one attribute whose type is an identifier for an entity that is missing. (RPST-1305)</li>
-<li>Improvements to module deletion logging now includes the time it takes for each operation to complete. (RPST-1346)</li>
+<li>Improvements to module deletion logging now includes the time it takes for each operation to complete. 
+
+ (RPST-1346)</li>
 <li>Fixed an issue that prevented Scheduler service errors from being registered in Service Center and Event Viewer. (RRCT-3554)</li>
 <li>Fixed a Traditional Web App compilation crash that involved Trigger Event node and a type conversion in the Inputs of the Web Block event. (RTAFB-3598)</li>
 <li>Fixed app runtime crashes after upgrading to Platform Server version 11.10.0 and later, when accessing Site Properties of a particular set of modules. (RTAFB-4142)</li>
@@ -451,7 +457,7 @@ errors after upgrading an application.  (RTAF-4646)</li>
 </ul>
 <h2 id="Platform_Server_11.11.3">Platform Server 11.11.3</h2>
 <div class="info"><p>Released on Apr 21, 2021</p></div>
-<div class="mt-section" id="section_1" mt-section-origin="Support/Release_Notes/11/Platform_Server/Platform_Server_11.11.3"><span id="Bug_Fixing_10"></span><h3 id="Bug_Fixing_10">Bug Fixing</h3>
+<div class="mt-section" id="section_1" mt-section-origin="Support/Release_Notes/11/Platform_Server/Platform_Server_11.11.3"><span id="Bug_Fixing_10"></span><h3 id="Bug_Fixing_9">Bug Fixing</h3>
 <ul>
 <li>Expression values in widgets are now correctly translated when the locale changes. (RAR-603)</li>
 <li>Fixed the Input widget so it doesn't lose the focus when inside the Popup widget. Applies to the Technical Preview - Reactive Web and Mobile runtime on React 16. (RAR-623)</li>
@@ -464,7 +470,7 @@ errors after upgrading an application.  (RTAF-4646)</li>
 </ul>
 </div><span id="Platform_Server_11.11.2"></span><h2 id="Platform_Server_11.11.2">Platform Server 11.11.2</h2><br/><div class="mt-include" id="s32044">
 <div class="info"><p>Released on Apr 21, 2021</p></div>
-<div class="mt-section" id="section_1" mt-section-origin="Support/Release_Notes/11/Platform_Server/Platform_Server_11.11.2"><span id="Bug_Fixing_11"></span><h3 id="Bug_Fixing_11">Bug Fixing</h3>
+<div class="mt-section" id="section_1" mt-section-origin="Support/Release_Notes/11/Platform_Server/Platform_Server_11.11.2"><span id="Bug_Fixing_11"></span><h3 id="Bug_Fixing_10">Bug Fixing</h3>
 <ul>
 <li>Fixed an issue that caused the deploy of modules with outdated references when deploying the running version of a solution with 2-Stage deploy on. (RPM-914)</li>
 </ul>
@@ -487,7 +493,7 @@ errors after upgrading an application.  (RTAF-4646)</li>
 <li>You can now override the extensibility configurations of your PWA application through LifeTime and you can also include your configurations in any module of the application. (RTAFB-2611)</li>
 <li>Now the apps properly show content for the right-to-left (RTL) languages. (RTAFB-4062)</li>
 </ul>
-</div><div class="mt-section" id="section_2" mt-section-origin="Support/Release_Notes/11/Platform_Server/Platform_Server_11.11.1"><span id="Bug_Fixing_12"></span><h3 id="Bug_Fixing_12">Bug Fixing</h3>
+</div><div class="mt-section" id="section_2" mt-section-origin="Support/Release_Notes/11/Platform_Server/Platform_Server_11.11.1"><span id="Bug_Fixing_12"></span><h3 id="Bug_Fixing_11">Bug Fixing</h3>
 <ul>
 <li>Fixed an issue that caused the id attribute in the Widgets to be placed in the wrong HTML element in runtime. Applies to the Technical Preview - Reactive Web and Mobile runtime on React 16. (RAR-436)</li>
 <li>Fixed an issue that caused a screen not to be updated after changing a Client Variable or the Current Locale from within a Block. (RAR-597)</li>
@@ -549,7 +555,7 @@ Check <a class="link-https" href="https://www.outsystems.com/goto/breaking-chang
 <li>Fixed a security vulnerability. CVSSv3.1 score 7.2 (High) (RPM-813)</li>
 </div><span id="Platform_Server_11.10.3"></span><h2 id="Platform_Server_11.10.3">Platform Server 11.10.3</h2><br/><div class="mt-include" id="s31759">
 <div class="info"><p>Released on Feb 08, 2021</p></div>
-<div class="mt-section" id="section_1" mt-section-origin="Support/Release_Notes/11/Platform_Server/Platform_Server_11.10.3"><span id="Bug_Fixing_14"></span><h3 id="Bug_Fixing_13">Bug Fixing</h3>
+<div class="mt-section" id="section_1" mt-section-origin="Support/Release_Notes/11/Platform_Server/Platform_Server_11.10.3"><span id="Bug_Fixing_14"></span><h3 id="Bug_Fixing_12">Bug Fixing</h3>
 <ul>
 <li>Fixed application downtime in Farm environments due to missing DLLs in the Frontend servers, caused by running Configuration Tool from a location different than the first time it was executed, e.g through a symbolic link. (RPM-776)</li>
 </ul> </div></div><span id="Platform_Server_11.10.2"></span><h2 id="Platform_Server_11.10.2">Platform Server 11.10.2</h2><br/><div class="mt-include" id="s31565">
@@ -559,7 +565,7 @@ Check <a class="link-https" href="https://www.outsystems.com/goto/breaking-chang
 <li>When using React 16, render loop check now redirects to the Error Screen when a loop is avoided to prevent presenting incorrect data to the user.  (RAR-441)</li>
 <li>The locale is now added to the lang HTML element and corresponds to the same locale defined by the application. This is particularly important for accessibility purposes. (RTAF-3037)</li>
 </ul>
-</div><div class="mt-section" id="section_2" mt-section-origin="Support/Release_Notes/11/Platform_Server/Platform_Server_11.10.2"><span id="Bug_Fixing_15"></span><h3 id="Bug_Fixing_14">Bug Fixing</h3>
+</div><div class="mt-section" id="section_2" mt-section-origin="Support/Release_Notes/11/Platform_Server/Platform_Server_11.10.2"><span id="Bug_Fixing_15"></span><h3 id="Bug_Fixing_13">Bug Fixing</h3>
 <ul>
 <li>Fixed the text of the error message that shows when the app uses an unknown locale identifier. (RAR-330)</li>
 <li>Registering a back navigation handler now correctly blocks a back navigation on React 16. (RAR-333)</li>
@@ -588,7 +594,7 @@ More details <a class="link-https" href="https://success.outsystems.com/Support/
 <ul>
 <li>Multilingual for Mobile and Reactive now maintains the selected locale between applications. (RAR-338)</li>
 </ul>
-</div><div class="mt-section" id="section_2" mt-section-origin="Support/Release_Notes/11/Platform_Server/Platform_Server_11.10.1"><span id="Bug_Fixing_16"></span><h3 id="Bug_Fixing_15">Bug Fixing</h3>
+</div><div class="mt-section" id="section_2" mt-section-origin="Support/Release_Notes/11/Platform_Server/Platform_Server_11.10.1"><span id="Bug_Fixing_16"></span><h3 id="Bug_Fixing_14">Bug Fixing</h3>
 <ul>
 <li>Fixed "No Default Screen" error screen when no default screen is selected. Now the app uses the first screen of the module and there's no error. (RAR-356)</li>
 <li>Fixed navigation after a pending refresh. Now the screen redirects to the destination screen if there's a pending refresh when the user refreshes the page. Previously the app showed the origin screen after the refresh. (RAR-422)</li>
@@ -630,7 +636,7 @@ It depends on LifeTime version 11.6.1. (RLIT-3938)</li>
 <li>You can now optimize the amount of data transferred from the server side to the client side of Mobile and Reactive Web Apps. The optimization works for Screen Aggregates, Data Actions, and for the Server Actions in the logic flows of Screen Client Actions. This is a technical preview feature and you need to activate the option "Client-side optimizations for Reactive Web Apps" or "Client-side optimizations for Mobile Apps". (RTAFB-3260)</li>
 <li>You can now translate the UI of your Reactive Web Apps and Mobile Apps directly inside Service Studio. Multilingual is a technical preview feature and you need to activate the option "Multilingual for Mobile and Reactive" in LifeTime. After enabling the feature, use the new Multilingual Locales folder and new SetCurrentLocale system client action. (RTAFB-3388)</li>
 </ul>
-</div><div class="mt-section" id="section_2" mt-section-origin="Support/Release_Notes/11/Platform_Server/Platform_Server_11.10.0"><span id="Bug_Fixing_17"></span><h3 id="Bug_Fixing_16">Bug Fixing</h3>
+</div><div class="mt-section" id="section_2" mt-section-origin="Support/Release_Notes/11/Platform_Server/Platform_Server_11.10.0"><span id="Bug_Fixing_17"></span><h3 id="Bug_Fixing_15">Bug Fixing</h3>
 <ul>
 <li>Fixed the app upgrade mechanism when technical preview "Configure Mobile application updates distribution" is on. Previously, a native mobile app would still use the hybrid updates on the first load. (RAR-219)</li>
 <li>Improved the error message when the app requires local storage access and IndexedDB isn't supported. (RAR-220)</li>
@@ -706,7 +712,7 @@ The fix consists of changing the 20 minutes timeout on the entire System Compone
 <li>Fixed a security vulnerability. CVSSv3.1 score 7.2 (High) (RPM-813)</li>
 </div><span id="Platform_Server_11.9.1"></span><h2 id="Platform_Server_11.9.1">Platform Server 11.9.1</h2><br/><div class="mt-include" id="s31124">
 <div class="info"><p>Released on Sep 24, 2020</p></div>
-<div class="mt-section" id="section_1" mt-section-origin="Support/Release_Notes/11/Platform_Server/Platform_Server_11.9.1"><span id="Bug_Fixing_18"></span><h3 id="Bug_Fixing_17">Bug Fixing</h3>
+<div class="mt-section" id="section_1" mt-section-origin="Support/Release_Notes/11/Platform_Server/Platform_Server_11.9.1"><span id="Bug_Fixing_18"></span><h3 id="Bug_Fixing_16">Bug Fixing</h3>
 <ul>
 <li>Fixed crash on Chrome while uploading files bigger than 100MB in Reactive Web and Mobile Apps. (RPD-5151)</li>
 <li>Solved issue that could cause timeouts in Configuration Tool, on SQL servers (RIDT-211)</li>
@@ -731,7 +737,7 @@ The fix consists of changing the 20 minutes timeout on the entire System Compone
 <li>Added an option in SAML configuration to only accept signed login responses from the Identity Provider server. (RSBO-1535)</li>
 <li>Progressive Web Apps (PWAs) are now generally available (GA), after a period of early access (EA). Create a mobile app, and then turn on the toggle "Distribute as PWA" in the Distribute tab. To create a mobile app, select either Phone or Tablet App in the dialog for a new app. (RTAFB-2977)</li>
 </ul>
-</div><div class="mt-section" id="section_2" mt-section-origin="Support/Release_Notes/11/Platform_Server/Platform_Server_11.9.0"><span id="Bug_Fixing_19"></span><h3 id="Bug_Fixing_18">Bug Fixing</h3>
+</div><div class="mt-section" id="section_2" mt-section-origin="Support/Release_Notes/11/Platform_Server/Platform_Server_11.9.0"><span id="Bug_Fixing_19"></span><h3 id="Bug_Fixing_17">Bug Fixing</h3>
 <ul>
 <li>Fixed an issue that was preventing the Dropdown widget to be in dark mode. (RAR-145)</li>
 <li>Fixed an issue where widgets with property values defined by an expanded record were re-rendered with every change to the screen data. (RAR-154)</li>
@@ -810,7 +816,7 @@ To fix this behavior, replace dependencies to KeyStore and SAML actions from Aut
 <li>Improved the overall performance of compilation and runtime of local storage for PWAs. (RAR-98)</li>
 <li>We improved the performance of the client-side Aggregates in the PWAs and the apps running in the browser. (RTAF-2160)</li>
 </ul>
-</div><div class="mt-section" id="section_2" mt-section-origin="Support/Release_Notes/11/Platform_Server/Platform_Server_11.8.2"><span id="Bug_Fixing_20"></span><h3 id="Bug_Fixing_19">Bug Fixing</h3>
+</div><div class="mt-section" id="section_2" mt-section-origin="Support/Release_Notes/11/Platform_Server/Platform_Server_11.8.2"><span id="Bug_Fixing_20"></span><h3 id="Bug_Fixing_18">Bug Fixing</h3>
 <ul>
 <li>Fixed an issue that prevented the preview of the Upload widget to display the correct image. (RAR-106)</li>
 <li>Fixed a bug where aggregates that contained a Binary Data attribute failed to execute in mobile apps when running on the browser/PWA on iOS/macOS. (RAR-135)</li>
@@ -826,7 +832,7 @@ To fix this behavior, replace dependencies to KeyStore and SAML actions from Aut
 <li>We improved the user experience for activating Single Sign-On Between App Types (SSO) in Service Center &gt; Administration &gt; Security &gt; Applications Authentication. Service Center now checks the requirements beforehand and determines whether security is managed in LifeTime. (RTAF-2459)</li>
 <li>We improved the user experience for deactivating Single Sign-On Between App Types (SSO) in Service Center &gt; Administration &gt; Security &gt; Applications Authentication. Now there's a message informing you which options need to be off when deactivating SSO. (RTAF-2535)</li>
 </ul>
-</div><div class="mt-section" id="section_2" mt-section-origin="Support/Release_Notes/11/Platform_Server/Platform_Server_11.8.1"><span id="Bug_Fixing_21"></span><h3 id="Bug_Fixing_20">Bug Fixing</h3>
+</div><div class="mt-section" id="section_2" mt-section-origin="Support/Release_Notes/11/Platform_Server/Platform_Server_11.8.1"><span id="Bug_Fixing_21"></span><h3 id="Bug_Fixing_19">Bug Fixing</h3>
 <ul>
 <li>Fixed an error while using Upload wiget with property capture on Android devices (RPD-4841)</li>
 <li>We fixed the page scrolling up in Reactive Web App when users open a Popup widget. (RTAF-2550)</li>
@@ -867,7 +873,7 @@ You'll also see a new warning in the sidebar whenever the environment has pendin
 <li>Local storage for PWAs now takes advantage of IndexedDB. IndexedDB ensures better compatibility with modern browsers. IMPORTANT: The change of the database engine deletes the browser app data in your existing PWAs. If you notice runtime issues in PWAs, delete the site storage for the app domain. (RTAF-1188)</li>
 <li>We implemented the single sign-on (SSO) for Traditional, Reactive Web and Progressive Web Apps (PWAs). Your users now sign in to one app and switch to the other apps without having to sign in again. (RTAF-1874)</li>
 </ul>
-</div><div class="mt-section" id="section_2" mt-section-origin="Support/Release_Notes/11/Platform_Server/Platform_Server_11.8.0"><span id="Bug_Fixing_22"></span><h3 id="Bug_Fixing_21">Bug Fixing</h3>
+</div><div class="mt-section" id="section_2" mt-section-origin="Support/Release_Notes/11/Platform_Server/Platform_Server_11.8.0"><span id="Bug_Fixing_22"></span><h3 id="Bug_Fixing_20">Bug Fixing</h3>
 <ul>
 <li>Fixed an issue that caused registering duplicated Application Templates. (RTAF-1847)</li>
 <li>Fixed error detection in the compilation process. Subsequent errors could hide the original error cause. (RPC-888)</li>
@@ -955,7 +961,7 @@ To overcome this issue, use <a class="link-https" href="https://www.outsystems.c
 <li>Fixed a security vulnerability. CVSSv3.1 score 7.2 (High) (RPM-813)</li>
 </div><span id="Platform_Server_11.7.3"></span><h2 id="Platform_Server_11.7.3">Platform Server 11.7.3</h2><br/><div class="mt-include" id="s28503">
 <div class="info"><p>Released on Feb 17, 2020</p></div>
-<div class="mt-section" id="section_1" mt-section-origin="Support/Release_Notes/11/Platform_Server/Platform_Server_11.7.3"><span id="Bug_Fixing_23"></span><h3 id="Bug_Fixing_22">Bug Fixing</h3>
+<div class="mt-section" id="section_1" mt-section-origin="Support/Release_Notes/11/Platform_Server/Platform_Server_11.7.3"><span id="Bug_Fixing_23"></span><h3 id="Bug_Fixing_21">Bug Fixing</h3>
 <ul>
 <li>Fixed error when resetting Authentication configuration in the Users application after upgrading from previous Platform Server 11.7.x versions. (RSBO-1110)</li>
 <li>Fixed an issue in Configuration Tool when there's an incomplete SAML configuration, occurring in Oracle Databases. (RSBO-1222)</li>
@@ -971,7 +977,7 @@ To overcome this issue, use <a class="link-https" href="https://www.outsystems.c
 <div class="info">
 <p>Released on Jan 20, 2020</p>
 </div>
-<div class="mt-section" id="section_1" mt-section-origin="Support/Release_Notes/11/Platform_Server/Platform_Server_11.7.2"><span id="Bug_Fixing_24"></span><h3 id="Bug_Fixing_23">Bug Fixing</h3>
+<div class="mt-section" id="section_1" mt-section-origin="Support/Release_Notes/11/Platform_Server/Platform_Server_11.7.2"><span id="Bug_Fixing_24"></span><h3 id="Bug_Fixing_22">Bug Fixing</h3>
 <ul>
 <li>Fixed the triggering of the onclick event with a Rich Widget Popup Editor on a Screen/Block that would cause the onclick event handlers of its parents to trigger during the screen rendering. (RTAF-2089)</li>
 </ul>
@@ -979,7 +985,7 @@ To overcome this issue, use <a class="link-https" href="https://www.outsystems.c
 <div class="info">
 <p>Removed from availability on Jan 20, 2020</p>
 </div>
-<div class="mt-section" id="section_1" mt-section-origin="Support/Release_Notes/11/Platform_Server/Platform_Server_11.7.1"><span id="Bug_Fixing_25"></span><h3 id="Bug_Fixing_24">Bug Fixing</h3>
+<div class="mt-section" id="section_1" mt-section-origin="Support/Release_Notes/11/Platform_Server/Platform_Server_11.7.1"><span id="Bug_Fixing_25"></span><h3 id="Bug_Fixing_23">Bug Fixing</h3>
 <ul>
 <li>Fixed a bug related to the Rich Widgets Pop-Up pattern and the List Bulk Select widget, where a link/button triggered a pop-up and had the link/button associated with the List Bulk Select widget. (RTAF-2062)</li>
 <li>Fixed the multiple executions of Screen Preparation Action that occurred when you used Rich Widgets File Upload in the Screen. (RTAF-2064)</li>
@@ -1019,7 +1025,7 @@ Factory Configuration was also updated to version 11.0.4 to be compatible with t
 <li>Added three optional input parameters to configure additional Cookie settings in HTTPRequestHandler. (RTAF-1774)</li>
 <li>End-users of OutSystems applications are now classified as Internal Users or External Users, based on the domain of their email addresses. You can configure the classification rules in the Licensing screen of Service Center. (RSBO-1016)</li>
 </ul>
-</div><div class="mt-section" id="section_2" mt-section-origin="Support/Release_Notes/11/Platform_Server/Platform_Server_11.7.0"><span id="Bug_Fixing_26"></span><h3 id="Bug_Fixing_25">Bug Fixing</h3>
+</div><div class="mt-section" id="section_2" mt-section-origin="Support/Release_Notes/11/Platform_Server/Platform_Server_11.7.0"><span id="Bug_Fixing_26"></span><h3 id="Bug_Fixing_24">Bug Fixing</h3>
 <ul>
 <li>Fixed an issue that was incorrectly triggering the "Required Field" validation message for a Button Group. (RPD-3591)</li>
 <li>The QR code to test a mobile app using OutSystems Now wasn't being generated when the URL contained special characters (e.g. ç, à, á, í, etc). (RPD-4435)</li>
@@ -1083,14 +1089,14 @@ Factory Configuration was also updated to version 11.0.4 to be compatible with t
 </ul>
 </div><span id="Platform_Server_Release_Oct.2019_CP6"></span><h2 id="Platform_Server_Release_Oct.2019_CP6">Platform Server Release Oct.2019 CP6</h2><br/><div class="mt-include" id="s28501">
 <div class="info"><p>Released on Jan 20, 2020</p></div>
-<div class="mt-section" id="section_1" mt-section-origin="Support/Release_Notes/11/Platform_Server/Platform_Server_Release_Oct.2019_CP6"><span id="Bug_Fixing_27"></span><h3 id="Bug_Fixing_26">Bug Fixing</h3>
+<div class="mt-section" id="section_1" mt-section-origin="Support/Release_Notes/11/Platform_Server/Platform_Server_Release_Oct.2019_CP6"><span id="Bug_Fixing_27"></span><h3 id="Bug_Fixing_25">Bug Fixing</h3>
 <ul>
 <li>Fixed an error that showed that triggered an onclick event when a nested Rich Widget Popup Editor was present. (RTAF-2089)</li>
 </ul></div></div><span id="Platform_Server_Release_Oct.2019_CP5"></span><h2 id="Platform_Server_Release_Oct.2019_CP5">Platform Server Release Oct.2019 CP5</h2><br/><div class="mt-include" id="s28484">
 <div class="info">
 <p>Removed from availability on Jan 20, 2020</p>
 </div>
-<div class="mt-section" id="section_1" mt-section-origin="Support/Release_Notes/11/Platform_Server/Platform_Server_Release_Oct.2019_CP5"><span id="Bug_Fixing_28"></span><h3 id="Bug_Fixing_27">Bug Fixing</h3>
+<div class="mt-section" id="section_1" mt-section-origin="Support/Release_Notes/11/Platform_Server/Platform_Server_Release_Oct.2019_CP5"><span id="Bug_Fixing_28"></span><h3 id="Bug_Fixing_26">Bug Fixing</h3>
 <ul>
 <li>Fixed an error that showed when using the Rich Widgets Pop-Up pattern with the List Bulk Select widget, where a link/button triggered a pop-up and had the link/button associated with the List Bulk Select widget. (RTAF-2062)</li>
 <li>Fixed the multiple executions of Screen Preparation Action that occurred when you used Rich Widgets File Upload in the Screen. (RTAF-2064)</li>
@@ -1108,7 +1114,7 @@ Factory Configuration was also updated to version 11.0.4 to be compatible with t
 <li>Added new environment security options to force Secure and SameSite properties in cookies generated by the platform. Check the document <a href="https://success.outsystems.com/Support/Enterprise_Customers/Maintenance_and_Operations/Upcoming_changes_in_cookie_handling_in_Google_Chrome#Release_schedule" rel="internal">Upcoming changes in cookie handling in Google Chrome</a> for more information. (RPC-502)</li>
 <li>Added three optional input parameters to configure additional Cookie settings in HTTPRequestHandler. (RTAF-1774)</li>
 </ul>
-</div><div class="mt-section" id="section_2" mt-section-origin="Support/Release_Notes/11/Platform_Server/Platform_Server_Release_Oct.2019_CP4"><span id="Bug_Fixing_29"></span><h3 id="Bug_Fixing_28">Bug Fixing</h3>
+</div><div class="mt-section" id="section_2" mt-section-origin="Support/Release_Notes/11/Platform_Server/Platform_Server_Release_Oct.2019_CP4"><span id="Bug_Fixing_29"></span><h3 id="Bug_Fixing_27">Bug Fixing</h3>
 <ul>
 <li>Fixed a security vulnerability. CVSSv3.0 score 7.2 (High). (RPD-4310)</li>
 <li>Fixed a security vulnerability. CVSSv3.0 score 7.6 (High). (RPD-4260)</li>
@@ -1124,7 +1130,7 @@ Factory Configuration was also updated to version 11.0.4 to be compatible with t
 <ul>
 <li>Added support for Oracle 19c. This applies to the platform database, as well as external databases. (RSAT-1859)</li>
 </ul>
-</div><div class="mt-section" id="section_2" mt-section-origin="Support/Release_Notes/11/Platform_Server/Platform_Server_Release_Oct.2019_CP3"><span id="Bug_Fixing_30"></span><h3 id="Bug_Fixing_29">Bug Fixing</h3>
+</div><div class="mt-section" id="section_2" mt-section-origin="Support/Release_Notes/11/Platform_Server/Platform_Server_Release_Oct.2019_CP3"><span id="Bug_Fixing_30"></span><h3 id="Bug_Fixing_28">Bug Fixing</h3>
 <ul>
 <li>Fixed an issue in SEO Friendly URLs that was preventing new alias rules for modules to work properly in Oracle stack. (RPD-4436)</li>
 <li>Fixed an issue that was incorrectly triggering the "Required Field" validation message for a Button Group. (RPD-3591)</li>
@@ -1140,7 +1146,7 @@ Factory Configuration was also updated to version 11.0.4 to be compatible with t
 <li>Added support for Oracle 18c. This applies both to the platform database and to external databases. (RSAT-1860)</li>
 <li>It's now possible to use Client Variables in Aggregates. (RTAF-1334)</li>
 </ul>
-</div><div class="mt-section" id="section_2" mt-section-origin="Support/Release_Notes/11/Platform_Server/Platform_Server_Release_Oct.2019_CP2"><span id="Bug_Fixing_31"></span><h3 id="Bug_Fixing_30">Bug Fixing</h3>
+</div><div class="mt-section" id="section_2" mt-section-origin="Support/Release_Notes/11/Platform_Server/Platform_Server_Release_Oct.2019_CP2"><span id="Bug_Fixing_31"></span><h3 id="Bug_Fixing_29">Bug Fixing</h3>
 <ul>
 <li>Fixed an issue that was preventing mobile apps from installing on iPadOS 13. (RNMT-3294)</li>
 <li>Button Group widget now gets the selected value style when the value's data type is different from text or number. (RTAF-1260)</li>
@@ -1161,7 +1167,7 @@ Factory Configuration was also updated to version 11.0.4 to be compatible with t
 <li>Fixed incorrect tenant for eSpaces using an overridden effective user provider. (RPD-4377)</li>
 </ul></div></div><span id="Platform_Server_Release_Oct.2019_CP1"></span><h2 id="Platform_Server_Release_Oct.2019_CP1">Platform Server Release Oct.2019 CP1</h2><br/><div class="mt-include" id="s27287">
 <div class="info"><p>Released on Oct 09, 2019</p></div>
-<div class="mt-section" id="section_1" mt-section-origin="Support/Release_Notes/11/Platform_Server/Platform_Server_Release_Oct.2019_CP1"><span id="Bug_Fixing_32"></span><h3 id="Bug_Fixing_31">Bug Fixing</h3>
+<div class="mt-section" id="section_1" mt-section-origin="Support/Release_Notes/11/Platform_Server/Platform_Server_Release_Oct.2019_CP1"><span id="Bug_Fixing_32"></span><h3 id="Bug_Fixing_30">Bug Fixing</h3>
 <ul>
 <li>We deactivated the data fetching optimization in Reactive Web Apps, after identifying a severe issue. If you are using Platform Server 11 Release Oct.2019 we strongly advise that you upgrade Platform Server and republish your apps, as instructed in the Installation Checklist. (RTAF-1537)</li>
 </ul>
@@ -1190,7 +1196,7 @@ Factory Configuration was also updated to version 11.0.4 to be compatible with t
 <li>The Users application now includes specific configurations for OKTA, for authenticating the end-users of your OutSystems applications. (RSBO-791)</li>
 <li>Added Server.Identity service to support platform authentication. (RPC-82)</li>
 </ul>
-</div><div class="mt-section" id="section_2" mt-section-origin="Support/Release_Notes/11/Platform_Server/Platform_Server_Release_Oct.2019"><span id="Bug_Fixing_33"></span><h3 id="Bug_Fixing_32">Bug Fixing</h3>
+</div><div class="mt-section" id="section_2" mt-section-origin="Support/Release_Notes/11/Platform_Server/Platform_Server_Release_Oct.2019"><span id="Bug_Fixing_33"></span><h3 id="Bug_Fixing_31">Bug Fixing</h3>
 <ul>
 <li>Fixed a bug on Mobile Cookies validations where the HTTP response would return an internal error instead 403 status code (Forbidden)  (RRCT-2601)</li>
 <li>Improved some queries during Service Center publication to avoid timeouts on large factories. (RRCT-2598)</li>
@@ -1226,7 +1232,7 @@ This driver supports native encryption, meaning that you can set up your databas
 <li>The installation checklist now includes the instructions to disable Adaptive Optimizer features (OPTIMIZER_ADAPTIVE_PLANS, OPTIMIZER_ADAPTIVE_STATISTICS) in Oracle 12c R2. (RSAT-1623)</li>
 <li>The Users application now supports SAML 2.0 authentication out of the box, including specific configurations for Azure AD, for authenticating the end-users of your OutSystems applications. (RSBO-540)</li>
 </ul>
-</div><div class="mt-section" id="section_2" mt-section-origin="Support/Release_Notes/11/Platform_Server/Platform_Server_Release_Jul.2019_CP2"><span id="Bug_Fixing_34"></span><h3 id="Bug_Fixing_33">Bug Fixing</h3>
+</div><div class="mt-section" id="section_2" mt-section-origin="Support/Release_Notes/11/Platform_Server/Platform_Server_Release_Jul.2019_CP2"><span id="Bug_Fixing_34"></span><h3 id="Bug_Fixing_32">Bug Fixing</h3>
 <ul>
 <li>Fixed brute force login check that blocked all logins behind a proxy when the X-Forwarded-For header field included a port number. (RPD-4272)</li>
 <li>Fixed issue so inputs inside forms properly create an anchor element with text (conforming with WCAG21 AAA). (RPD-4274)</li>
@@ -1241,7 +1247,7 @@ This driver supports native encryption, meaning that you can set up your databas
 <li>Added support for TLS 1.1 and TLS 1.2 on MySQL external database connections. Warning: OutSystems now distributes BouncyCastle (v1.8.3) and Google.Protobuf (v.3.6.1.0) alongside the MySQL driver - this may impact the existing extensions that use different versions. (RSAT-1258)</li>
 <li>Downloading a mobile app by scanning the QR code in Service Studio is now possible on iOS 13. (RTAF-628)</li>
 </ul>
-</div><div class="mt-section" id="section_2" mt-section-origin="Support/Release_Notes/11/Platform_Server/Platform_Server_Release_Jul.2019_CP1"><span id="Bug_Fixing_35"></span><h3 id="Bug_Fixing_34">Bug Fixing</h3>
+</div><div class="mt-section" id="section_2" mt-section-origin="Support/Release_Notes/11/Platform_Server/Platform_Server_Release_Jul.2019_CP1"><span id="Bug_Fixing_35"></span><h3 id="Bug_Fixing_33">Bug Fixing</h3>
 <ul>
 <li>Fixed an issue that prevented some Dependencies to be added in Search in other Modules. (RDEV-413)</li>
 <li>Fixed a security vulnerability. CVSSv3.0 score 7.5 (High). (RNMT-2812)</li>
@@ -1275,7 +1281,7 @@ This driver supports native encryption, meaning that you can set up your databas
 <li>You will need to install the latest version of the Development Environment in the Deployment Controller Server to ensure that you can benefit from the latest features and developments. This is now a <strong>required step</strong> when installing Platform Server feature patches and cumulative patches. (RSCT-1898)</li>
 <li>Early access: We are working on new capabilities that will accelerate the development of web applications. (RTAF-115)</li>
 </ul>
-</div><div class="mt-section" id="section_2" mt-section-origin="Support/Release_Notes/11/Platform_Server/Platform_Server_Release_Jul.2019"><span id="Bug_Fixing_36"></span><h3 id="Bug_Fixing_35">Bug Fixing</h3>
+</div><div class="mt-section" id="section_2" mt-section-origin="Support/Release_Notes/11/Platform_Server/Platform_Server_Release_Jul.2019"><span id="Bug_Fixing_36"></span><h3 id="Bug_Fixing_34">Bug Fixing</h3>
 <ul>
 <li>Fixed compilation error that occurred when SOAP Faults were using types based on the .NET CLR (Common Language Runtime). (RPD-3979)</li>
 <li>Fixed bug where it was not possible to use negative Ids for records of Static Entities. (RPD-3263)</li>
@@ -1309,7 +1315,7 @@ This driver supports native encryption, meaning that you can set up your databas
 <li>Added warning when no user is configured for Users app. Removed note saying default admin password. (RLIT-2574)</li>
 <li>Added a new public action (Popup_Editor_GetMessage) to RichWidgets to get the Notify Popup message. (ROU-142)</li>
 </ul>
-</div><div class="mt-section" id="section_2" mt-section-origin="Support/Release_Notes/11/Platform_Server/Platform_Server_Release_Apr.2019_CP1"><span id="Bug_Fixing_37"></span><h3 id="Bug_Fixing_36">Bug Fixing</h3>
+</div><div class="mt-section" id="section_2" mt-section-origin="Support/Release_Notes/11/Platform_Server/Platform_Server_Release_Apr.2019_CP1"><span id="Bug_Fixing_37"></span><h3 id="Bug_Fixing_35">Bug Fixing</h3>
 <ul>
 <li>Fixed a problem when using ListAppend and ListInsert functions containing an If expression in the List input parameter. (RPD-3984)</li>
 <li>Fixed bug where sometimes when starting the Deploy Service, applications were not deployed automatically (RSCT-1761)</li>
@@ -1352,7 +1358,7 @@ The SanitizeHtml action has the following differences when compared with the pre
 <li>Added to FactoryConfiguration the option to include X-Content-Type-Options header with nosniff as a method of preventing MIME sniffing from older browser versions. (RRCT-2270)</li>
 <li>Service Center now links to the detach process documentation instead of launching the No Lock-in tutorial. (RICT-1199)</li>
 </ul>
-</div><div class="mt-section" id="section_2" mt-section-origin="Support/Release_Notes/11/Platform_Server/604_Platform_Server_Release_Apr.2019"><span id="Bug_Fixing_38"></span><h3 id="Bug_Fixing_37">Bug Fixing</h3>
+</div><div class="mt-section" id="section_2" mt-section-origin="Support/Release_Notes/11/Platform_Server/604_Platform_Server_Release_Apr.2019"><span id="Bug_Fixing_38"></span><h3 id="Bug_Fixing_36">Bug Fixing</h3>
 <ul>
 <li>Fixed incorrect character encoding in packaging of mobile applications. (RRCT-2216)</li>
 <li>Fixed runtime error in client-side Aggregates with dynamic Order By's containing more than one attribute. (RSBO-54)</li>
@@ -1400,7 +1406,7 @@ The SanitizeHtml action has the following differences when compared with the pre
 </ul>
 </div></div><span id="Platform_Server_Release_Jan.2019_CP3"></span><h2 id="Platform_Server_Release_Jan.2019_CP3">Platform Server Release Jan.2019 CP3</h2><br/><div class="mt-include" id="s25793">
 <div class="info"><p>Released on May 06, 2019</p></div>
-<div class="mt-section" id="section_1" mt-section-origin="Support/Release_Notes/11/Platform_Server/526_Platform_Server_Release_Jan.2019_CP3"><span id="Bug_Fixing_39"></span><h3 id="Bug_Fixing_38">Bug Fixing</h3>
+<div class="mt-section" id="section_1" mt-section-origin="Support/Release_Notes/11/Platform_Server/526_Platform_Server_Release_Jan.2019_CP3"><span id="Bug_Fixing_39"></span><h3 id="Bug_Fixing_37">Bug Fixing</h3>
 <ul>
 <li>Fixed the BPT automatic cleanup process that was marking newly created activities as closed. (RPD-3891)</li>
 <li>The MABS version tag of a mobile application is now correctly updated in Service Center for all environments, including the ones not connected to LifeTime. (RPD-3851)</li>
@@ -1409,7 +1415,7 @@ The SanitizeHtml action has the following differences when compared with the pre
 <li>Fixed an issue with Input_AutoComplete being triggered in IE11 due to an unexpected 'keydown' event. (RPD-3866)</li>
 </ul> </div></div><span id="Platform_Server_Release_Jan.2019_CP2"></span><h2 id="Platform_Server_Release_Jan.2019_CP2">Platform Server Release Jan.2019 CP2</h2><br/><div class="mt-include" id="s23808">
 <div class="info"><p>Released on Mar 14, 2019</p></div>
-<div class="mt-section" id="section_1" mt-section-origin="Support/Release_Notes/11/Platform_Server/525_Platform_Server_Release_Jan.2019_CP2"><span id="Bug_Fixing_40"></span><h3 id="Bug_Fixing_39">Bug Fixing</h3>
+<div class="mt-section" id="section_1" mt-section-origin="Support/Release_Notes/11/Platform_Server/525_Platform_Server_Release_Jan.2019_CP2"><span id="Bug_Fixing_40"></span><h3 id="Bug_Fixing_38">Bug Fixing</h3>
 <ul>
 <li>We fixed a compilation error in the SOAP web services that prevented module publishing when an array of enums is used directly as output. This affected only applications with the new SOAP implementation. (RINT-3289)</li>
 <li>We fixed a compilation error in the SOAP web services that prevented module publishing in some cases of single unbounded attributes. This affected only applications with the new SOAP implementation. (RINT-3303)</li>
@@ -1451,7 +1457,7 @@ The SanitizeHtml action has the following differences when compared with the pre
 <li>The unattended installation and upgrade process now validates the prerequisites. (RSAT-1023)</li>
 <li>When configuring a mobile application, it is now possible to choose the version of the Mobile Apps Build Service (MABS) that will be used to generate the mobile app package. (RNMT-2296)</li>
 </ul>
-</div><div class="mt-section" id="section_2" mt-section-origin="Support/Release_Notes/11/Platform_Server/522_Platform_Server_Release_Jan.2019_CP1"><span id="Bug_Fixing_41"></span><h3 id="Bug_Fixing_40">Bug Fixing</h3>
+</div><div class="mt-section" id="section_2" mt-section-origin="Support/Release_Notes/11/Platform_Server/522_Platform_Server_Release_Jan.2019_CP1"><span id="Bug_Fixing_41"></span><h3 id="Bug_Fixing_39">Bug Fixing</h3>
 <ul>
 <li>Fixed a security vulnerability. CVSSv3.0 score 7.1 (High) (RLIT-2388)</li>
 <li>Fixed an issue in the deployment service that was undeploying modules after upgrading from version 10. (RSCT-1773)</li>
@@ -1507,7 +1513,7 @@ The SanitizeHtml action has the following differences when compared with the pre
 <li>Modified the default paths for Amazon ECS and Azure Container Service hosting technologies. (RSAT-1100)</li>
 <li>The unattended installation and upgrade process now validates the prerequisites. (RSAT-1023)</li>
 </ul>
-</div><div class="mt-section" id="section_2" mt-section-origin="Support/Release_Notes/11/Platform_Server/510_Platform_Server_Release_Jan.2019"><span id="Bug_Fixing_42"></span><h3 id="Bug_Fixing_41">Bug Fixing</h3>
+</div><div class="mt-section" id="section_2" mt-section-origin="Support/Release_Notes/11/Platform_Server/510_Platform_Server_Release_Jan.2019"><span id="Bug_Fixing_42"></span><h3 id="Bug_Fixing_40">Bug Fixing</h3>
 <ul>
 <li>We fixed a bug that prevented you from installing Charts or OutSystems Now from Forge in some situations, causing the message "Application cannot be safely installed in your environment" to show. (ABE-1289)</li>
 <li>Fixed an issue in the installation process that was accepting as valid certain unsupported .Net Framework versions. (RSAT-1169)</li>
@@ -1552,7 +1558,7 @@ The SanitizeHtml action has the following differences when compared with the pre
 <li>Improved the 1-Click Publish performance of modules containing references without entities or structures. (ABE-1275)</li>
 <li>The automatic trigger URLs for the Deployment Zone of Container hosting technologies now send the module names (as a JSON array) of the application being deployed. (RSAT-1118)</li>
 </ul>
-</div><div class="mt-section" id="section_2" mt-section-origin="Support/Release_Notes/11/Platform_Server/495_Platform_Server_Release_Sep.2018_CP2"><span id="Bug_Fixing_43"></span><h3 id="Bug_Fixing_42">Bug Fixing</h3>
+</div><div class="mt-section" id="section_2" mt-section-origin="Support/Release_Notes/11/Platform_Server/495_Platform_Server_Release_Sep.2018_CP2"><span id="Bug_Fixing_43"></span><h3 id="Bug_Fixing_41">Bug Fixing</h3>
 <ul>
 <li>Fixed the incorrect serialization of input parameters of Date, Time and DateTime data types in consumed SOAP Web Services. This might have caused data corruption on some scenarios. Check the <a href="https://success.outsystems.com/Support/Release_Notes/11/Platform_Server#Known_Issues-21552" rel="internal">Known Issues</a> section in the Platform Server Release Sep.2018 Release Notes for more information. (RINT-3069)</li>
 <li>We fixed an array compilation error in the SOAP web services that prevented module publishing. This affected only applications with the new SOAP implementation. (RPD-3627)</li>
@@ -1583,7 +1589,7 @@ The SanitizeHtml action has the following differences when compared with the pre
 <li>The SSL offload is now on by default for applications running in containers. (RSAT-1073)</li>
 <li>The container deploy process no longer leaves behind old result files. (RSAT-887)</li>
 </ul>
-</div><div class="mt-section" id="section_2" mt-section-origin="Support/Release_Notes/11/Platform_Server/479_Platform_Server_Release_Sep.2018_CP1"><span id="Bug_Fixing_44"></span><h3 id="Bug_Fixing_43">Bug Fixing</h3>
+</div><div class="mt-section" id="section_2" mt-section-origin="Support/Release_Notes/11/Platform_Server/479_Platform_Server_Release_Sep.2018_CP1"><span id="Bug_Fixing_44"></span><h3 id="Bug_Fixing_42">Bug Fixing</h3>
 <ul>
 <li>Changing an input parameter of a Service Action from optional to mandatory will now trigger an exception at runtime when the parameter value is not set. (ABE-949)</li>
 <li>We fixed an issue related to the Oracle driver not being able to abort a query when a HTTP request timeout occurs. (RPD-3426)</li>
@@ -1690,7 +1696,7 @@ The SanitizeHtml action has the following differences when compared with the pre
 <li dir="ltr">Removed support for SMS feature. (RRCT-1639)</li>
 <li dir="ltr">Deprecated BeginReadUncommittedTransaction and BeginTransaction methods from RuntimePublic.Db API. (RSAT-791)</li>
 </ul>
-</div></div><div class="mt-section" id="section_7" mt-section-origin="Support/Release_Notes/11/Platform_Server/400_Platform_Server_Release_Sep.2018"><span id="Bug_Fixing_45"></span><h3 dir="ltr" id="Bug_Fixing_44">Bug Fixing</h3>
+</div></div><div class="mt-section" id="section_7" mt-section-origin="Support/Release_Notes/11/Platform_Server/400_Platform_Server_Release_Sep.2018"><span id="Bug_Fixing_45"></span><h3 dir="ltr" id="Bug_Fixing_43">Bug Fixing</h3>
 <ul>
 <li dir="ltr">Fixed a bug that caused the processing of error logs to fail with long Action names. (RPD-1769)</li>
 <li dir="ltr">Fixed the bug that caused "Could not login to 127.0.0.1" error while publishing the "Current Running Version" of a Solution in Service Center. This caused issues in some upgrades. (RPD-2415)</li>
@@ -1727,7 +1733,7 @@ The SanitizeHtml action has the following differences when compared with the pre
 Warning: OutSystems now distributes BouncyCastle (v1.8.3) and Google.Protobuf (v.3.6.1.0) alongside the MySQL driver - this may impact the existing extensions that use different versions. (RSAT-1258)</li>
 <li>Downloading a mobile app by scanning the QR code in Service Studio is now possible on iOS 13. (RTAF-628)</li>
 </ul>
-</div><div class="mt-section" id="section_2" mt-section-origin="Support/Release_Notes/11/Platform_Server/Platform_Server_11.0.539.0"><span id="Bug_Fixing_46"></span><h3 id="Bug_Fixing_45">Bug Fixing</h3>
+</div><div class="mt-section" id="section_2" mt-section-origin="Support/Release_Notes/11/Platform_Server/Platform_Server_11.0.539.0"><span id="Bug_Fixing_46"></span><h3 id="Bug_Fixing_44">Bug Fixing</h3>
 <ul>
 <li>Fixed an issue that prevented some Dependencies to be added in Search in other Modules. (RDEV-413)</li>
 <li>Fixed a security vulnerability. CVSSv3.0 score 7.5 (High). (RNMT-2812)</li>
@@ -1749,7 +1755,7 @@ Warning: OutSystems now distributes BouncyCastle (v1.8.3) and Google.Protobuf (v
 <li>Added warning when no user is configured for Users app. Removed note saying default admin password. (RLIT-2574)</li>
 <li>Added a new public action (Popup_Editor_GetMessage) to RichWidgets to get the Notify Popup message. (ROU-142)</li>
 </ul>
-</div><div class="mt-section" id="section_2" mt-section-origin="Support/Release_Notes/11/Platform_Server/Platform_Server_11.0.424.3"><span id="Bug_Fixing_47"></span><h3 id="Bug_Fixing_46">Bug Fixing</h3>
+</div><div class="mt-section" id="section_2" mt-section-origin="Support/Release_Notes/11/Platform_Server/Platform_Server_11.0.424.3"><span id="Bug_Fixing_47"></span><h3 id="Bug_Fixing_45">Bug Fixing</h3>
 <ul>
 <li>Fixed a problem when using ListAppend and ListInsert functions containing an If expression in the List input parameter. (RPD-3984)</li>
 <li>Fixed bug where sometimes when starting the Deploy Service, applications were not deployed automatically (RSCT-1761)</li>
@@ -1792,7 +1798,7 @@ On upgrade, if ServiceCenter exists in "OutSystemsApplications" application pool
 <li>Service Center now links to the detach process documentation instead of launching the No Lock-in tutorial. (RICT-1199)</li>
 <li>Header 'X-Content-Type-Options' with value 'nosniff' is now added by default to all server responses. Applications with custom solutions to achieve the same outcome should be reviewed to ensure compatibility with the new solution, or disable it using Factory Configuration (not recommended). (RRCT-2082)</li>
 </ul>
-</div><div class="mt-section" id="section_2" mt-section-origin="Support/Release_Notes/11/Platform_Server/Platform_Server_11.0.422.0"><span id="Bug_Fixing_48"></span><h3 id="Bug_Fixing_47">Bug Fixing</h3>
+</div><div class="mt-section" id="section_2" mt-section-origin="Support/Release_Notes/11/Platform_Server/Platform_Server_11.0.422.0"><span id="Bug_Fixing_48"></span><h3 id="Bug_Fixing_46">Bug Fixing</h3>
 <ul>
 <li>Fixed incorrect character encoding in packaging of mobile applications. (RRCT-2216)</li>
 <li>Fixed runtime error in client-side Aggregates with dynamic Order By's containing more than one attribute. (RSBO-54)</li>
@@ -1906,7 +1912,7 @@ On upgrade, if ServiceCenter exists in "OutSystemsApplications" application pool
 <li>It's now possible to check the status of the invalidation cache mechanism for each front-end server in Service Center's Environment Health tab. (RRCT-1678)</li>
 <li>Applications set to be deployed on Pivotal Cloud Foundry are now generated configured to be deployed in Pivotal Application Service running on Windows 2016. (RSAT-962)</li>
 </ul>
-</div><div class="mt-section" id="section_2" mt-section-origin="Support/Release_Notes/11/Platform_Server/397_Platform_Server_11.0.0.209"><span id="Bug_Fixing_49"></span><h3 id="Bug_Fixing_48">Bug Fixing</h3>
+</div><div class="mt-section" id="section_2" mt-section-origin="Support/Release_Notes/11/Platform_Server/397_Platform_Server_11.0.0.209"><span id="Bug_Fixing_49"></span><h3 id="Bug_Fixing_47">Bug Fixing</h3>
 <ul>
 <li>Fixed a security issue related to cached pages. (RPD-3270)</li>
 <li>Fixed an issue that allowed disabled buttons to trigger inputs with the Enter key in IE browsers. (RPD-3151)</li>
