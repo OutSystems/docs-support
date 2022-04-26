@@ -739,7 +739,7 @@ app_type: traditional web apps, mobile apps, reactive web apps
 </ul>
 <h3 id="Known_Issue">Known Issue</h3>
 <ul>
-<li>It is not possible to open the <a href="/Documentation/10/Delivering_Mobile_Apps/Customize_Your_Mobile_App/Extensibility_Configurations_JSON_Schema" title="Extensibility Configurations JSON Schema">Extensibility Configurations editor</a>. As a workaround you can edit your configurations in an external text editor by copying and pasting them. This issue only affects this Development Environment version and will be fixed in the next patch.</li>
+<li>It is not possible to open the <a href="https://success.outsystems.com/Documentation/10/Delivering_Mobile_Apps/Customize_Your_Mobile_App/Extensibility_Configurations_JSON_Schema" title="Extensibility Configurations JSON Schema">Extensibility Configurations editor</a>. As a workaround you can edit your configurations in an external text editor by copying and pasting them. This issue only affects this Development Environment version and will be fixed in the next patch.</li>
 </ul>
 <h2 id="Development_Environment_10.0.611.0">Development Environment 10.0.611.0</h2>
 <div class="info">
