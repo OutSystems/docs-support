@@ -7,12 +7,12 @@ app_type: traditional web apps, mobile apps, reactive web apps
 <h1>Platform Server</h1>
 <h2 id="Platform_Server_11.15.0">Platform Server 11.15.0</h2>
 <div class="info"><p>Released on Mar 07, 2022</p></div>
-<h3>New in Platform Server 11.15.0</h3>
+<h3 id="New_in_Platform_Server_11.15.0">New in Platform Server 11.15.0</h3>
 <ul>
 <li>Upgraded RabbitMQ Server to 3.9.11 and Erlang to 24.2. These components are used by the OutSystems Cache Invalidation Service. (R11PIT-518)</li>
 <li>Added support for integrating with PostgreSQL / Aurora PostgreSQL as external database connections via Service Center. (RDV-277)</li>
 </ul>
-<h3>Bug Fixing</h3>
+<h3 id="Bug_Fixing_1">Bug Fixing</h3>
 <ul>
 <li>Fixed an issue that caused 1-Click Publish to incorrectly trigger the native build of a mobile app when the previous build had an error and there were no changes in the app. (R11PBT-122)</li>
 <li>Fixed an issue preventing 1-Click Publish to trigger the native build of a mobile app after significant changes. (R11PBT-235)</li>
@@ -42,12 +42,12 @@ app_type: traditional web apps, mobile apps, reactive web apps
 </ul>
 <li><a href="/Support/Release_Notes/11/Platform_Server/Platform_Server_11.15.0#RPM-726" rel="custom">Fixed a CSP related issue in Service Center console. CVSSv3.1 score 2.3 (Low). (RPM-726)</a></li>
 
-<h3>Known Issues</h3>
+<h3 id="Known_Issues_0">Known Issues</h3>
 <ul>
 <li>Third party PostgreSQL connectors that use "npgsql.dll", like "ardoPostgreSQL Database Connector", may work incorrectly.
 This Platform Server version introduces a supported PostgreSQL / Aurora PostgreSQL connector that uses a custom version of "npgsql.dll". Even thought this custom dll version is design to be backwards compatible, OutSystems can't guarantee that unsupported third-party connectors behave as expected while using it.
 OutSystems recommends migrating from third party PostgreSQL connectors to the OutSystems PostgreSQL / Aurora PostgreSQL connector by following the <a href="https://success.outsystems.com/Documentation/How-to_Guides/Integrations/Migrate_from_ardoPostgreSQL_to_supported_PostgreSQL_connector">migration guide</a>.</li>
-</ul><style>.cattag {background: #f4f2ff; color: #6a6581; padding: 4px 10px;}</style><div class="moreDetailsDiv"><h3>More details</h3><p><a id="RPM-1092"><strong>RPM-1092</strong></a><br/><b>Fixed an issue preventing Processes that are launched on the creation of new Entity records from being triggered for specific tenants after changing the Entity to multi-tenant.</b><br/><span class="cattag">Publish Operation</span> <span class="cattag">Compilation</span> <br/><br/><u>Fix Details:</u><br/>After changing a single-tenant module and a module's Entity to multi-tenant, Processes that are launched on the creation of new records in that Entity are not triggered for users of a new tenant. Those Processes are triggered only for users of the default tenant.</p><p><a id="RPM-1441"><strong>RPM-1441</strong></a><br/><b>Fixed an issue that caused records to be deleted from OSSYS_MODULEFRONTEND table if duplicates were found, when upgrading the Platform Server component to 11.12.2 or later.</b><br/><span class="cattag">Infrastructure Management</span> <span class="cattag">Platform Configuration</span> <br/><br/><u>Fix Details:</u><br/>While upgrading the Platform Server component to version 11.12.2 or later, clicking the "Create/Upgrade Database" button in the Configuration Tool would cause all records to be deleted from OSSYS_MODULEFRONTEND table if there were duplicates in that table. This issue would prevent Timers and Processes to run.</p><p><a id="RPM-1527"><strong>RPM-1527</strong></a><br/><b>Improved the End-Users Configuration screen of Service Center to clarify the metrics shown for the Total Internal and Total External Users.</b><br/><span class="cattag">Application Lifecycle</span> <span class="cattag">Service Center</span> <br/><br/><u>Fix Details:</u><br/>On the Administration &gt; Licensing &gt; End-Users Configuration screen of the Service Center console, the Total Internal Users and Total External Users values don't match the sum of the users listed in the User Distribution Per User Provider list. Although the values follow the calculation rules for internal and external users, the screen UI suggests a mismatch of values. We have improved this Service Center screen to make those values clear.</p><p><a id="RPM-1551"><strong>RPM-1551</strong></a><br/><b>Fixed an issue that caused the 1-Click Publish to fail with an error "Invalid compiler output. Unknown reference expression type Email" when publishing a module that references a Static Entity which has an Attribute of type Email.</b><br/><span class="cattag">Publish Operation</span> <span class="cattag">Compilation</span> <br/><br/><u>Fix Details:</u><br/>When referencing a Static Entity which has an Attribute of type Email, the consumer module would fail to compile with the error "Unknown reference expression type Email".</p><p><a id="RPM-1577"><strong>RPM-1577</strong></a><br/><b>Fixed an issue that caused the starvation of Scheduler Service activities in Personal Environments.</b><br/><span class="cattag">Infrastructure Management</span> <span class="cattag">OutSystems Services</span> <br/><br/><u>Fix Details:</u><br/>OutSystems Personal Environments run in a shared infrastructure. One environment with heavy Processes usage may cause database contention and accumulation of the Activities to process. In this situation, other environments may experience starvation of the Scheduler Service, namely, Process Activities are queued and stay in “Created” state for a long time.</p><p><a id="RPM-1653"><strong>RPM-1653</strong></a><br/><b>Fixed an issue that caused the 1-Click Publish to fail with a compilation error when publishing a module that references a Static Entity which has an Attribute value that needs an implicit conversion to match the defined type. </b><br/><span class="cattag">Publish Operation</span> <span class="cattag">Compilation</span> <br/><br/><u>Fix Details:</u><br/>When referencing a Static Entity which has an Attribute value that needs an implicit conversion to match the defined type, the consumer module would fail to compile. This would happen in the following scenarios:
+</ul><style>.cattag {background: #f4f2ff; color: #6a6581; padding: 4px 10px;}</style><div class="moreDetailsDiv"><h3 id="More_details_0">More details</h3><p><a id="RPM-1092"><strong>RPM-1092</strong></a><br/><b>Fixed an issue preventing Processes that are launched on the creation of new Entity records from being triggered for specific tenants after changing the Entity to multi-tenant.</b><br/><span class="cattag">Publish Operation</span> <span class="cattag">Compilation</span> <br/><br/><u>Fix Details:</u><br/>After changing a single-tenant module and a module's Entity to multi-tenant, Processes that are launched on the creation of new records in that Entity are not triggered for users of a new tenant. Those Processes are triggered only for users of the default tenant.</p><p><a id="RPM-1441"><strong>RPM-1441</strong></a><br/><b>Fixed an issue that caused records to be deleted from OSSYS_MODULEFRONTEND table if duplicates were found, when upgrading the Platform Server component to 11.12.2 or later.</b><br/><span class="cattag">Infrastructure Management</span> <span class="cattag">Platform Configuration</span> <br/><br/><u>Fix Details:</u><br/>While upgrading the Platform Server component to version 11.12.2 or later, clicking the "Create/Upgrade Database" button in the Configuration Tool would cause all records to be deleted from OSSYS_MODULEFRONTEND table if there were duplicates in that table. This issue would prevent Timers and Processes to run.</p><p><a id="RPM-1527"><strong>RPM-1527</strong></a><br/><b>Improved the End-Users Configuration screen of Service Center to clarify the metrics shown for the Total Internal and Total External Users.</b><br/><span class="cattag">Application Lifecycle</span> <span class="cattag">Service Center</span> <br/><br/><u>Fix Details:</u><br/>On the Administration &gt; Licensing &gt; End-Users Configuration screen of the Service Center console, the Total Internal Users and Total External Users values don't match the sum of the users listed in the User Distribution Per User Provider list. Although the values follow the calculation rules for internal and external users, the screen UI suggests a mismatch of values. We have improved this Service Center screen to make those values clear.</p><p><a id="RPM-1551"><strong>RPM-1551</strong></a><br/><b>Fixed an issue that caused the 1-Click Publish to fail with an error "Invalid compiler output. Unknown reference expression type Email" when publishing a module that references a Static Entity which has an Attribute of type Email.</b><br/><span class="cattag">Publish Operation</span> <span class="cattag">Compilation</span> <br/><br/><u>Fix Details:</u><br/>When referencing a Static Entity which has an Attribute of type Email, the consumer module would fail to compile with the error "Unknown reference expression type Email".</p><p><a id="RPM-1577"><strong>RPM-1577</strong></a><br/><b>Fixed an issue that caused the starvation of Scheduler Service activities in Personal Environments.</b><br/><span class="cattag">Infrastructure Management</span> <span class="cattag">OutSystems Services</span> <br/><br/><u>Fix Details:</u><br/>OutSystems Personal Environments run in a shared infrastructure. One environment with heavy Processes usage may cause database contention and accumulation of the Activities to process. In this situation, other environments may experience starvation of the Scheduler Service, namely, Process Activities are queued and stay in “Created” state for a long time.</p><p><a id="RPM-1653"><strong>RPM-1653</strong></a><br/><b>Fixed an issue that caused the 1-Click Publish to fail with a compilation error when publishing a module that references a Static Entity which has an Attribute value that needs an implicit conversion to match the defined type. </b><br/><span class="cattag">Publish Operation</span> <span class="cattag">Compilation</span> <br/><br/><u>Fix Details:</u><br/>When referencing a Static Entity which has an Attribute value that needs an implicit conversion to match the defined type, the consumer module would fail to compile. This would happen in the following scenarios:
 <ul>
 <li>Having an Integer or Long Integer type with a Decimal, Boolean or Identifier value</li>
 <li>Having a DateTime type with a Date or Time value</li>
@@ -62,12 +62,12 @@ Change the locale to "ja-jp" and access the Users module</p>
 </div>
 <h2 id="Platform_Server_11.14.1">Platform Server 11.14.1</h2>
 <div class="info"><p>Released on Feb 14, 2022</p></div>
-<h3>New in Platform Server 11.14.1</h3>
+<h3 id="New_in_Platform_Server_11.14.1">New in Platform Server 11.14.1</h3>
 <ul>
 <li><a href="/Support/Release_Notes/11/Platform_Server/Platform_Server_11.14.1#RPM-1942" rel="custom">Improved the performance of the LDAP actions in the Authentication extension, Authentication.xif, when using the LDAPS protocol. (RPM-1942)</a></li>
 <li><a href="/Support/Release_Notes/11/Platform_Server/Platform_Server_11.14.1#RPM-1977" rel="custom">Improved the performance of IT users login operation using Active Directory authentication when there is a significant number of AD groups with specific configurations. (RPM-1977)</a></li>
 </ul>
-<h3>Bug Fixing</h3>
+<h3 id="Bug_Fixing_2">Bug Fixing</h3>
 <ul>
 <li><a href="/Support/Release_Notes/11/Platform_Server/Platform_Server_11.14.1#RPM-1184" rel="custom">Fixed an error when publishing a module in Service Studio caused by a DLL file being locked by another process. (RPM-1184)</a></li>
 <li><a href="/Support/Release_Notes/11/Platform_Server/Platform_Server_11.14.1#RPM-1240" rel="custom">Removed the "Republish all modules" step from the Installation Checklist for Oracle configuration. (RPM-1240)</a></li>
@@ -89,7 +89,7 @@ Change the locale to "ja-jp" and access the Users module</p>
 <li><a href="/Support/Release_Notes/11/Platform_Server/Platform_Server_11.14.1#RPM-1696" rel="custom">Fixed an XSS issue in the Label widget for Traditional Web Apps. CVSSv3.0 score 5.9 (Medium). (RPM-1696)</a></li>
 <li><a href="/Support/Release_Notes/11/Platform_Server/Platform_Server_11.14.1#RPM-1781" rel="custom">Fixed a security vulnerability preventing non-body parameters of a consumed REST API to be redacted. CVSSv3.1 score 4.9 (Medium). (RPM-1781)</a></li>
 
-<style>.cattag {background: #f4f2ff; color: #6a6581; padding: 4px 10px;}</style><div class="moreDetailsDiv"><h3>More details</h3><p><a id="RPM-1184"><strong>RPM-1184</strong></a><br/><b>Fixed an error when publishing a module in Service Studio caused by a DLL file being locked by another process.</b><br/><span class="cattag">Publish Operation</span> <span class="cattag">Compilation</span> <br/><br/><u>Fix Details:</u><br/>Publishing a module in Service Studio failed with the error "Internal Error: Cannot delete the file '<dll file="">'. Please check if a third-party program is using it and try again". Republishing the module would overcome the issue.</dll></p><p><a id="RPM-1240"><strong>RPM-1240</strong></a><br/><b>Removed the "Republish all modules" step from the Installation Checklist for Oracle configuration.</b><br/><span class="cattag">Infrastructure Management</span> <span class="cattag">Platform Installation Checklist</span> <br/><br/><u>Fix Details:</u><br/>The Installation Checklist of Platform Server 11.13.2 or later still included the step "Republish all modules" for Oracle configuration, although that step is not required anymore.</p><p><a id="RPM-1263"><strong>RPM-1263</strong></a><br/><b>Fixed an issue that prevented editing entity data in Service Studio when the module is published in a catalog different from the main catalog.</b><br/><span class="cattag">Service Studio</span> <span class="cattag">Data Access and Manipulation</span> <br/><br/><u>Fix Details:</u><br/>For modules published in a catalog different from the main catalog, editing the entity data in Service Studio using the "View or Edit Data" option failed with the error "Invalid object name '<table_physical_name>'" for SQL Server or "ORA-00942 - Table or View does not exist" for Oracle databases.</table_physical_name></p><p><a id="RPM-1309"><strong>RPM-1309</strong></a><br/><b>Fixed an issue allowing to update non-editable fields in an Editable Table widget when saving the record with an open Data Picker. Applies to Traditional Web Apps.</b><br/><span class="cattag">Application Runtime</span> <span class="cattag">Interface</span> <br/><br/><u>Fix Details:</u><br/>This issue occurs in Traditional Web Apps when using an Editable Table widget with the Date Picker UI Pattern. If the Date Picker is open when saving a new or updated record, the non-editable fields of that record become editable. It only happens for the specific record that was updated with the Date Picker open. Updating the record again with the Date Picker closed makes the field non-editable again.</p><p><a id="RPM-1398"><strong>RPM-1398</strong></a><br/><b>The default value of the session timeout for Reactive Web Apps now matches the default value of the session timeout for Traditional Web Apps (20m).</b><br/><span class="cattag">Application Runtime</span> <span class="cattag">Authentication and Authorization</span> <br/><br/><u>Fix Details:</u><br/>When Single Sign-On Between App Types is enabled in Service Center, having different session timeout values for Traditional Web and Reactive Web applications can lead to a redirect loop during the authentication flow, preventing end-users to use the applications.</p><p><a id="RPM-1440"><strong>RPM-1440</strong></a><br/><b>Fixed the error "ORA-00911: invalid character" occurring in the Configuration Tool when clicking "Create/Upgrade Database" for the platform or logging database. This error applies to Oracle installations in farm configuration.</b><br/><span class="cattag">Infrastructure Management</span> <span class="cattag">Platform Configuration</span> <br/><br/><u>Fix Details:</u><br/>In Oracle installations, clicking the "Create/Upgrade Database" button in the Platform tab or in the Log tab would cause the error "ORA-00911: invalid character". This scenario occurred in installations with farm configuration.</p><p><a id="RPM-1469"><strong>RPM-1469</strong></a><br/><b>Fixed an issue causing the System Components installation to fail during upgrades in farm installations with a pure Deployment Controller setup.</b><br/><span class="cattag">Infrastructure Management</span> <span class="cattag">Platform Installer</span> <br/><br/><u>Fix Details:</u><br/>This issue occurs when upgrading the Platform Server in farm installations having a pure Deployment Controller setup - only the Deployment Controller Service is enabled in the machine. In this scenario, the installation of the System Components through the Configuration Tool fails with the following message: "There was an error while contacting the server. HTTP not found".</p><p><a id="RPM-1515"><strong>RPM-1515</strong></a><br/><b>Fixed a configuration in Factory Configuration that could lead to DoS attacks. CVSSv3.1 score 5.3 (Medium).</b><br/><span class="cattag">Infrastructure Management</span> <span class="cattag">Application Server</span> <br/><br/><u>Fix Details:</u><br/>*Symptoms*
+<style>.cattag {background: #f4f2ff; color: #6a6581; padding: 4px 10px;}</style><div class="moreDetailsDiv"><h3 id="More_details_1">More details</h3><p><a id="RPM-1184"><strong>RPM-1184</strong></a><br/><b>Fixed an error when publishing a module in Service Studio caused by a DLL file being locked by another process.</b><br/><span class="cattag">Publish Operation</span> <span class="cattag">Compilation</span> <br/><br/><u>Fix Details:</u><br/>Publishing a module in Service Studio failed with the error "Internal Error: Cannot delete the file '<dll file="">'. Please check if a third-party program is using it and try again". Republishing the module would overcome the issue.</dll></p><p><a id="RPM-1240"><strong>RPM-1240</strong></a><br/><b>Removed the "Republish all modules" step from the Installation Checklist for Oracle configuration.</b><br/><span class="cattag">Infrastructure Management</span> <span class="cattag">Platform Installation Checklist</span> <br/><br/><u>Fix Details:</u><br/>The Installation Checklist of Platform Server 11.13.2 or later still included the step "Republish all modules" for Oracle configuration, although that step is not required anymore.</p><p><a id="RPM-1263"><strong>RPM-1263</strong></a><br/><b>Fixed an issue that prevented editing entity data in Service Studio when the module is published in a catalog different from the main catalog.</b><br/><span class="cattag">Service Studio</span> <span class="cattag">Data Access and Manipulation</span> <br/><br/><u>Fix Details:</u><br/>For modules published in a catalog different from the main catalog, editing the entity data in Service Studio using the "View or Edit Data" option failed with the error "Invalid object name '<table_physical_name>'" for SQL Server or "ORA-00942 - Table or View does not exist" for Oracle databases.</table_physical_name></p><p><a id="RPM-1309"><strong>RPM-1309</strong></a><br/><b>Fixed an issue allowing to update non-editable fields in an Editable Table widget when saving the record with an open Data Picker. Applies to Traditional Web Apps.</b><br/><span class="cattag">Application Runtime</span> <span class="cattag">Interface</span> <br/><br/><u>Fix Details:</u><br/>This issue occurs in Traditional Web Apps when using an Editable Table widget with the Date Picker UI Pattern. If the Date Picker is open when saving a new or updated record, the non-editable fields of that record become editable. It only happens for the specific record that was updated with the Date Picker open. Updating the record again with the Date Picker closed makes the field non-editable again.</p><p><a id="RPM-1398"><strong>RPM-1398</strong></a><br/><b>The default value of the session timeout for Reactive Web Apps now matches the default value of the session timeout for Traditional Web Apps (20m).</b><br/><span class="cattag">Application Runtime</span> <span class="cattag">Authentication and Authorization</span> <br/><br/><u>Fix Details:</u><br/>When Single Sign-On Between App Types is enabled in Service Center, having different session timeout values for Traditional Web and Reactive Web applications can lead to a redirect loop during the authentication flow, preventing end-users to use the applications.</p><p><a id="RPM-1440"><strong>RPM-1440</strong></a><br/><b>Fixed the error "ORA-00911: invalid character" occurring in the Configuration Tool when clicking "Create/Upgrade Database" for the platform or logging database. This error applies to Oracle installations in farm configuration.</b><br/><span class="cattag">Infrastructure Management</span> <span class="cattag">Platform Configuration</span> <br/><br/><u>Fix Details:</u><br/>In Oracle installations, clicking the "Create/Upgrade Database" button in the Platform tab or in the Log tab would cause the error "ORA-00911: invalid character". This scenario occurred in installations with farm configuration.</p><p><a id="RPM-1469"><strong>RPM-1469</strong></a><br/><b>Fixed an issue causing the System Components installation to fail during upgrades in farm installations with a pure Deployment Controller setup.</b><br/><span class="cattag">Infrastructure Management</span> <span class="cattag">Platform Installer</span> <br/><br/><u>Fix Details:</u><br/>This issue occurs when upgrading the Platform Server in farm installations having a pure Deployment Controller setup - only the Deployment Controller Service is enabled in the machine. In this scenario, the installation of the System Components through the Configuration Tool fails with the following message: "There was an error while contacting the server. HTTP not found".</p><p><a id="RPM-1515"><strong>RPM-1515</strong></a><br/><b>Fixed a configuration in Factory Configuration that could lead to DoS attacks. CVSSv3.1 score 5.3 (Medium).</b><br/><span class="cattag">Infrastructure Management</span> <span class="cattag">Application Server</span> <br/><br/><u>Fix Details:</u><br/>*Symptoms*
 A malicious user can send HTTP requests for a resource inside a server using a property of the request's header called "Range."
 This "Range" property allows selecting a different number of byte ranges from the resource that is being requested.
 So a single request can recover the entire content of the resource a hundred times, enforcing a response with a considerable amount of data growing geometrically for every range requested. 
@@ -110,13 +110,13 @@ but </p><p><a id="RPM-1634"><strong>RPM-1634</strong></a><br/><b>Fixed an error 
 </div>
 <h2 id="Platform_Server_11.14.0">Platform Server 11.14.0</h2>
 <div class="info"><p>Released on Dec 06, 2021</p></div>
-<h3>New in Platform Server 11.14.0</h3>
+<h3 id="New_in_Platform_Server_11.14.0">New in Platform Server 11.14.0</h3>
 <ul>
 <li><a href="/Support/Release_Notes/11/Platform_Server/Platform_Server_11.14.0#RPM-1677" rel="custom">Changes to REST APIs or SOAP Web Services settings executed via Service Center on the module's Integrations tab are now recorded in the General Log. (RPM-1677)</a></li>
 <li>Features related to emails for Mobile and Reactive Web Apps are now generally available in Platform Server. You could use the features previously in technical the previews "Emails for Mobile and Reactive" and "Attachments in Mobile and Reactive emails". (RTAFA-75)</li>
 <li>Now you can configure friendly URLs in your Reactive Web Apps. Go to Service Center &gt; Administration &gt; SEO URLs to set up the site rules and redirects. Configure the page rules in Service Studio, by setting Custom URLs to Yes in the Screen properties. (RTAFB-5050)</li>
 </ul>
-<h3>Bug Fixing</h3>
+<h3 id="Bug_Fixing_3">Bug Fixing</h3>
 <ul>
 <li>Fixed issues that occurred when clicking "Apply and Exit" in the Configuration Tool after changing database configurations. (R11PBT-231)</li>
 <li>Fixed missing detailed stacks in the error logs of the Deployment Controller service. (R11PBT-347)</li>
@@ -173,15 +173,15 @@ but </p><p><a id="RPM-1634"><strong>RPM-1634</strong></a><br/><b>Fixed an error 
 <li><a href="/Support/Release_Notes/11/Platform_Server/Platform_Server_11.14.0#RPM-747" rel="custom">Fixed a security vulnerability on an internal Service Center API permission requirement. CVSSv3.1 score 6.3 (Medium). (RPM-747)</a></li>
 <li><a href="/Support/Release_Notes/11/Platform_Server/Platform_Server_11.14.0#RPM-966" rel="custom">Fixed a security issue that could lead to session fixation problems. CVSSv3.1 score 5.4 (Medium). (RPM-966)</a></li>
 
-<h3>Breaking Change</h3>
+<h3 id="Breaking_Change_0">Breaking Change</h3>
 <ul>
 <li>The title of the Popup_Editor, Popup_EditorForUpload, and Popup_EditorVanilla is now encoded to prevent cross-site scripting (XSS) attacks. This may cause it to appear garbled in very specific scenarios.<br/>
 Check <a href="https://success.outsystems.com/Support/Archive/11/OutSystems_Platform_side_effects_and_breaking_changes" rel="internal">OutSystems 11 side effects and breaking changes</a> for more details on the breaking change and a possible workaround. </li>
 </ul>
-<h3>Known Issues</h3>
+<h3 id="Known_Issues_1">Known Issues</h3>
 <ul>
 <li>This Platform Server version suffers from an issue where factories with more than 1000 application permissions have their platform users (e.g. LifeTime, Service Center and Service Studio) losing permissions over the applications of an environment. This issue was introduced with Platform Server 11.14.0 and has been mitigated in Platform Server 11.16.0.</li>
-</ul><style>.cattag {background: #f4f2ff; color: #6a6581; padding: 4px 10px;}</style><div class="moreDetailsDiv"><h3>More details</h3><p><a id="RPM-1024"><strong>RPM-1024</strong></a><br/><b>Fixed the validation of user Roles in Reactive Web Apps to ensure this step is performed only after loading the Roles information from the server.</b><br/><span class="cattag">Application Runtime</span> <br/><br/><u>Fix Details:</u><br/>When the Single Sign-On Between App Types feature is on, end users performing the login on a Traditional Web App and then moving to a Reactive Web App might be redirected to the Invalid Permissions Screen, if the Default Screen is more restricted than the Registered Role.</p><p><a id="RPM-1041"><strong>RPM-1041</strong></a><br/><b>Fixed an issue when consuming a SOAP Web Service with HTTP transport binding.</b><br/><span class="cattag">Application Runtime</span> <span class="cattag">Logic Execution</span> <br/><br/><u>Fix Details:</u><br/>When consuming a SOAP Web Service, the expected protocol transport element was not being fetched correctly. This happened specifically for the "http://www.w3.org/2003/05/soap/bindings/HTTP/” transport element.</p><p><a id="RPM-1075"><strong>RPM-1075</strong></a><br/><b>Now, using DbCleaner API to delete a multi-tenant entity, event entity, or a multilingual static entity, also deletes the database objects associated with those entities.</b><br/><span class="cattag">Application Runtime</span> <span class="cattag">System Components</span> <br/><br/><u>Fix Details:</u><br/>When deleting an entity using the DbCleaner API several database  objects associated with the entity weren't deleted.
+</ul><style>.cattag {background: #f4f2ff; color: #6a6581; padding: 4px 10px;}</style><div class="moreDetailsDiv"><h3 id="More_details_2">More details</h3><p><a id="RPM-1024"><strong>RPM-1024</strong></a><br/><b>Fixed the validation of user Roles in Reactive Web Apps to ensure this step is performed only after loading the Roles information from the server.</b><br/><span class="cattag">Application Runtime</span> <br/><br/><u>Fix Details:</u><br/>When the Single Sign-On Between App Types feature is on, end users performing the login on a Traditional Web App and then moving to a Reactive Web App might be redirected to the Invalid Permissions Screen, if the Default Screen is more restricted than the Registered Role.</p><p><a id="RPM-1041"><strong>RPM-1041</strong></a><br/><b>Fixed an issue when consuming a SOAP Web Service with HTTP transport binding.</b><br/><span class="cattag">Application Runtime</span> <span class="cattag">Logic Execution</span> <br/><br/><u>Fix Details:</u><br/>When consuming a SOAP Web Service, the expected protocol transport element was not being fetched correctly. This happened specifically for the "http://www.w3.org/2003/05/soap/bindings/HTTP/” transport element.</p><p><a id="RPM-1075"><strong>RPM-1075</strong></a><br/><b>Now, using DbCleaner API to delete a multi-tenant entity, event entity, or a multilingual static entity, also deletes the database objects associated with those entities.</b><br/><span class="cattag">Application Runtime</span> <span class="cattag">System Components</span> <br/><br/><u>Fix Details:</u><br/>When deleting an entity using the DbCleaner API several database  objects associated with the entity weren't deleted.
 This issue occurred in the following cases:
 <ul>
 <li>Deleting a static entity containing translations, kept the multilingual tables and views.</li>
@@ -220,11 +220,11 @@ This occurred if the value was invalid with Form.Valid runtime property set to F
 </div>
 <h2 id="Platform_Server_11.13.2">Platform Server 11.13.2</h2>
 <div class="info"><p>Released on Oct 18, 2021</p></div>
-<div class="mt-section" id="section_1" mt-section-origin="Support/Release_Notes/11/Platform_Server/Platform_Server_11.13.2"><span id="New_in_Platform_Server_11.13.2"></span><h3 id="New_in_Platform_Server_11.13.2-35707">New in Platform Server 11.13.2</h3>
+<div class="mt-section" id="section_1" mt-section-origin="Support/Release_Notes/11/Platform_Server/Platform_Server_11.13.2"><span id="New_in_Platform_Server_11.13.2"></span><h3 id="New_in_Platform_Server_11.13.2">New in Platform Server 11.13.2</h3>
 <ul>
 <li>Flexible Upgrades is now available for Platform installations running over Oracle. (R11PIT-315)</li>
 </ul>
-</div><div class="mt-section" id="section_2" mt-section-origin="Support/Release_Notes/11/Platform_Server/Platform_Server_11.13.2"><span id="Bug_Fixing_4"></span><h3 id="Bug_Fixing-35707">Bug Fixing</h3>
+</div><div class="mt-section" id="section_2" mt-section-origin="Support/Release_Notes/11/Platform_Server/Platform_Server_11.13.2"><span id="Bug_Fixing_4"></span><h3 id="Bug_Fixing_4">Bug Fixing</h3>
 <ul>
 <li><a href="https://success.outsystems.com/Support/Release_Notes/11/Platform_Server/Platform_Server_11.13.2#RPM-1066" rel="custom">Fixed an issue in the Users application preventing end-users from logging in when using standard LDAP authentication. (RPM-1066)</a></li>
 <li><a href="https://success.outsystems.com/Support/Release_Notes/11/Platform_Server/Platform_Server_11.13.2#RPM-1078" rel="custom">Fixed an upgrade schema error when clicking "Create/Upgrade Database" in the Configuration Tool while upgrading the Platform Server from version 10 to version 11.11.1 or later. This issue applies only to self-managed environments. (RPM-1078)</a></li>
@@ -238,7 +238,7 @@ This occurred if the value was invalid with Form.Valid runtime property set to F
 <li><a href="https://success.outsystems.com/Support/Release_Notes/11/Platform_Server/Platform_Server_11.13.2#RPM-1537" rel="custom">Fixed an issue where the Configuration Tool UI was not disabling Log and Session database credential fields when using Windows Authentication. (RPM-1537)</a></li>
 <li><a href="https://success.outsystems.com/Support/Release_Notes/11/Platform_Server/Platform_Server_11.13.2#RPM-912" rel="custom">Fixed a compilation issue when consuming a SOAP Web Service containing a type and a subtype with the same name. (RPM-912)</a></li>
 </ul>
-<style>/*<![CDATA[*/.cattag {background: #f4f2ff; color: #6a6581; padding: 4px 10px;}/*]]>*/</style><div class="moreDetailsDiv"><div class="mt-section" mt-section-origin="Support/Release_Notes/11/Platform_Server/Platform_Server_11.13.2"><span id="More_details_4"></span><h3 id="More_details-35707">More details</h3><p><a id="RPM-1066"><strong>RPM-1066</strong></a><br/><b>Fixed an issue in the Users application preventing end-users from logging in when using standard LDAP authentication.</b><br/><span class="cattag">Application Lifecycle</span> <span class="cattag">Users</span> <br/><br/><u>Fix Details:</u><br/>End users configured with standard LDAP authentication were not able to log in due to an "Invalid username or password" error.
+<style>/*<![CDATA[*/.cattag {background: #f4f2ff; color: #6a6581; padding: 4px 10px;}/*]]>*/</style><div class="moreDetailsDiv"><div class="mt-section" mt-section-origin="Support/Release_Notes/11/Platform_Server/Platform_Server_11.13.2"><span id="More_details_4"></span><h3 id="More_details_3">More details</h3><p><a id="RPM-1066"><strong>RPM-1066</strong></a><br/><b>Fixed an issue in the Users application preventing end-users from logging in when using standard LDAP authentication.</b><br/><span class="cattag">Application Lifecycle</span> <span class="cattag">Users</span> <br/><br/><u>Fix Details:</u><br/>End users configured with standard LDAP authentication were not able to log in due to an "Invalid username or password" error.
 This was an error in Users application related to the encrypt/decrypt password algorithm. The issue was found in version 11.7.3 and it's now fixed.</p><p><a id="RPM-1078"><strong>RPM-1078</strong></a><br/><b>Fixed an upgrade schema error when clicking "Create/Upgrade Database" in the Configuration Tool while upgrading the Platform Server from version 10 to version 11.11.1 or later. This issue applies only to self-managed environments.</b><br/><span class="cattag">Infrastructure Management</span> <span class="cattag">Platform Configuration</span> <br/><br/><u>Fix Details:</u><br/>While upgrading the Platform Server component in a self-managed environment from version 10 to version 11.11.1 or later, clicking the "Create/Upgrade Database" button in the Configuration Tool caused the upgrade schema error "Unable to obtain the connection string". Besides blocking the upgrade process, this issue didn't cause downtime or loss of service.</p><p><a id="RPM-1128"><strong>RPM-1128</strong></a><br/><b>Improved the performance of the modules preparation phase executed during the upgrade process.</b><br/><span class="cattag">Infrastructure Management</span> <span class="cattag">Platform Configuration</span> <br/><br/><u>Fix Details:</u><br/>The <a href="https://success.outsystems.com/Support/Enterprise_Customers/Upgrading/Modules_preparation_step_during_Platform_Server_upgrade" rel="internal">module preparation phase</a> after a Platform Server upgrade could take a long time to complete, increasing the time a development team would have to go without being able to publish any modules. This is especially noticeable in large factories and it would only occur in Platform Server 11.12.0 or later.
 The module preparation was improved to be more performant.</p><p><a id="RPM-1278"><strong>RPM-1278</strong></a><br/><b>Fixed a high severity vulnerability by upgrading the packaged RabbitMQ to 3.8.21.</b><br/><span class="cattag">Infrastructure Management</span> <span class="cattag">Platform Configuration</span> <br/><br/><u>Fix Details:</u><br/>All versions of RabbitMQ prior to 3.8.16 are prone to a denial of service vulnerability.  The packaged RabbitMQ was upgraded. You can check more details in this <a href="https://success.outsystems.com/Support/Security/Vulnerabilities/Vulnerability_RPM-1278" rel="internal">security bulletin.</a></p><p><a id="RPM-1434"><strong>RPM-1434</strong></a><br/><b>Fixed an issue that caused the incorrect calculation of the average time in Service Actions Performance report.</b><br/><span class="cattag">Application Lifecycle</span> <span class="cattag">Service Center</span> <br/><br/><u>Fix Details:</u><br/>The Service Actions Performance report in Service Center showed incorrect values for  "Avg. Time". 
 When generating or exporting a Service Actions Performance report from the Analytics tabs of Service Center, the report showed the same value for both "Avg. Time" and "Total Time" columns.</p><p><a id="RPM-1466"><strong>RPM-1466</strong></a><br/><b>Fixed a malformed login URL for SAML 2.0 when using an external IdP with SSO login URL containing query parameters.</b><br/><span class="cattag">Application Runtime</span> <span class="cattag">Authentication and Authorization</span> <br/><br/><u>Fix Details:</u><br/>After setting up SAML 2.0 in Users, app end users that try to log in get redirected to the User app with a permission denied message.
@@ -255,11 +255,11 @@ The Administrator, Runtime, and Session credential fields in the Log and Session
 This only occurred when one of the possible subtypes declares an anonymous type with the name as the subtype.</p>
 </div></div></div><span id="Platform_Server_11.13.1"></span><h2 id="Platform_Server_11.13.1">Platform Server 11.13.1</h2><br/><div class="mt-include" id="s35640">
 <div class="os-note os-info style-wrap"><p>Released on Sep 22, 2021</p></div>
-<div class="mt-section" id="section_1" mt-section-origin="Support/Release_Notes/11/Platform_Server/Platform_Server_11.13.1"><span id="New_in_Platform_Server_11.13.1"></span><h3 id="New_in_Platform_Server_11.13.1-35640">New in Platform Server 11.13.1</h3>
+<div class="mt-section" id="section_1" mt-section-origin="Support/Release_Notes/11/Platform_Server/Platform_Server_11.13.1"><span id="New_in_Platform_Server_11.13.1"></span><h3 id="New_in_Platform_Server_11.13.1">New in Platform Server 11.13.1</h3>
 <ul>
 <li>We improved the UI and overall user experience of the Preview in Devices. We also added support for a modern variety of devices. (ROU-2177)</li>
 </ul>
-</div><div class="mt-section" id="section_2" mt-section-origin="Support/Release_Notes/11/Platform_Server/Platform_Server_11.13.1"><span id="Bug_Fixing_5"></span><h3 id="Bug_Fixing-35640">Bug Fixing</h3>
+</div><div class="mt-section" id="section_2" mt-section-origin="Support/Release_Notes/11/Platform_Server/Platform_Server_11.13.1"><span id="Bug_Fixing_5"></span><h3 id="Bug_Fixing_5">Bug Fixing</h3>
 <ul>
 <li>The Modules screen in Service Center now displays the correct modules list when filtering by Status "with errors and warnings". (R11CT-121)</li>
 <li>Fixed the deployment error "Module [module name] is not available for deployment". (R11PBT-176)</li>
@@ -276,7 +276,7 @@ This only occurred when one of the possible subtypes declares an anonymous type 
 <li><a href="https://success.outsystems.com/Support/Release_Notes/11/Platform_Server/Platform_Server_11.13.1#RPM-1098" rel="custom">Fixed a server-side request forgery (SSRF) vulnerability on custom handlers. CVSSv3.1 score 6.5 (Medium). (RPM-1098)</a></li>
 <li><a href="https://success.outsystems.com/Support/Release_Notes/11/Platform_Server/Platform_Server_11.13.1#RPM-728" rel="custom">Fixed an integrated authentication vulnerability in OutSystem Cloud environments. CVSSv3.1 score 5.5 (Medium). (RPM-728)</a></li>
 <li><a href="https://success.outsystems.com/Support/Release_Notes/11/Platform_Server/Platform_Server_11.13.1#RPM-997" rel="custom">Fixed multiple security risks on the documentation of a REST API by raising the handlebars.js used in the swagger UI. CVSSv3.1 score 6.5 (Medium). (RPM-997)</a></li>
-<style>.cattag {background: #f4f2ff; color: #6a6581; padding: 4px 10px;}</style><div class="moreDetailsDiv"><div class="mt-section" mt-section-origin="Support/Release_Notes/11/Platform_Server/Platform_Server_11.13.1"><span id="More_details_5"></span><h3 id="More_details-35640">More details</h3><p><a id="RPM-1098"><strong>RPM-1098</strong></a><br/><b>Fixed a server-side request forgery (SSRF) vulnerability on custom handlers. CVSSv3.1 score 6.5 (Medium).</b><br/><span class="cattag">Application Runtime</span> <span class="cattag">Data Access and Manipulation</span> <br/><br/><u>Fix Details:</u><br/>To protect our customers we're not providing further details on the issue.</p><p><a id="RPM-1172"><strong>RPM-1172</strong></a><br/><b>Fixed an issue that caused the logs of mobile apps to have an incorrect timestamp.</b><br/><span class="cattag">Application Runtime</span> <span class="cattag">Logging</span> <br/><br/><u>Fix Details:</u><br/>The logs related to mobile apps, as shown in Service Center, were sometimes presenting a  timestamp that was deviated from the actual time the event occurred. This could cause the events on the logs not to reflect the order in which they actually occurred, making it harder to understand the logs and troubleshoot a mobile app.
+<style>.cattag {background: #f4f2ff; color: #6a6581; padding: 4px 10px;}</style><div class="moreDetailsDiv"><div class="mt-section" mt-section-origin="Support/Release_Notes/11/Platform_Server/Platform_Server_11.13.1"><span id="More_details_5"></span><h3 id="More_details_4">More details</h3><p><a id="RPM-1098"><strong>RPM-1098</strong></a><br/><b>Fixed a server-side request forgery (SSRF) vulnerability on custom handlers. CVSSv3.1 score 6.5 (Medium).</b><br/><span class="cattag">Application Runtime</span> <span class="cattag">Data Access and Manipulation</span> <br/><br/><u>Fix Details:</u><br/>To protect our customers we're not providing further details on the issue.</p><p><a id="RPM-1172"><strong>RPM-1172</strong></a><br/><b>Fixed an issue that caused the logs of mobile apps to have an incorrect timestamp.</b><br/><span class="cattag">Application Runtime</span> <span class="cattag">Logging</span> <br/><br/><u>Fix Details:</u><br/>The logs related to mobile apps, as shown in Service Center, were sometimes presenting a  timestamp that was deviated from the actual time the event occurred. This could cause the events on the logs not to reflect the order in which they actually occurred, making it harder to understand the logs and troubleshoot a mobile app.
 The behavior was fixed and the timestamp of the logs now reflects the exact time of the event.</p><p><a id="RPM-1265"><strong>RPM-1265</strong></a><br/><b>Fixed an issue that sometimes caused the Environment Information not to be filled in the Service Center error logs.</b><br/><span class="cattag">Application Runtime</span> <span class="cattag">Logging</span> <br/><br/><u>Fix Details:</u><br/>The issue would sometimes manifest when the device running the mobile app was offline and an error occurred. When the device comes online, the information is sent to the server to log. The log was written, however, the Environment Information field as seen in the error log detail didn't contain any data.
 Such information is useful to provide the runtime context in which the error occurred.
 This issue didn't cause any impact on the mobile app's normal usage nor on the end-user experience.</p><p><a id="RPM-1308"><strong>RPM-1308</strong></a><br/><b>Fixed an issue in PWA applications where splash screens would hang on iOS 14.6 devices.</b><br/><span class="cattag">Application Runtime</span> <span class="cattag">Application Distribution</span> <br/><br/><u>Fix Details:</u><br/>According to <a class="link-https" href="https://www.theregister.com/2021/06/16/apple_safari_indexeddb_bug/" rel="external noopener nofollow" target="_blank" title="https://www.theregister.com/2021/06/16/apple_safari_indexeddb_bug/">https://www.theregister.com/2021/06/...indexeddb_bug/</a>  Apple's WebKit team has managed to break the popular IndexedDB JavaScript API in the latest version of Safari (14.1.1) on macOS 11.4 and iOS 14.6.</p><p><a id="RPM-1352"><strong>RPM-1352</strong></a><br/><b>Fixed broken references errors to indirect producers after an upgrade to Platform Server 11.12.1 or higher.</b><br/><span class="cattag">Publish Operation</span> <br/><br/><u>Fix Details:</u><br/>After upgrading to 11.12.1 and publishing a module, runtime errors due to incompatible definitions might occur.
@@ -289,13 +289,13 @@ The vulnerability was fixed so that it no longer allows privileged users with in
 </div></div></div></div>
 <h2 id="Platform_Server_11.13.0">Platform Server 11.13.0</h2>
 <div class="info"><p>Released on Aug 09, 2021</p></div>
-<h3>New in Platform Server 11.13.0</h3>
+<h3 id="New_in_Platform_Server_11.13.0">New in Platform Server 11.13.0</h3>
 <ul>
 <li>We improved the experience of the "SEO-friendly URLs for Reactive Web Apps" technical preview. The platform now shows a compilation error when ISAPI Filter, one of the prerequisites, is missing from the installation. (RTAFB-4270)</li>
 <li>New features in emails for Mobile and Reactive Web Apps. Attach files to emails. In addition to the existing widgets, design content with Table, List, and If. The Image widget now supports adding binary content from the database. To use the new widgets, update Platform Server and keep "Emails for Mobile and Reactive" on. To add attachments, update Platform Server and turn on "Attachments in Mobile and Reactive emails".  (RTAFB-4602)</li>
 <li>You can now use expressions to set titles of Screens. This lets you change the page title dynamically, and set unique values that show in the browser tabs, bookmarks, and results from the search engines. When using this feature, it is recomended that all developers in the same organization update Service Studio. (RTAFB-4738)</li>
 </ul>
-<h3>Bug Fixing</h3>
+<h3 id="Bug_Fixing_6">Bug Fixing</h3>
 <ul>
 <li>The Basic Authentication option of REST Integrations is now correctly removed after the user clears the credentials in Service Center. (R11CT-115)</li>
 <li>Fixed an issue in the OutSystemsReactWidgets.css file that prevented the loading of Font Awesome. (R11DT-363)</li>
@@ -320,7 +320,7 @@ The vulnerability was fixed so that it no longer allows privileged users with in
 <li>Fixed the prioritization of the custom URLs. A page with the static custom URL is now shown to users when the URL is partially similar to the URL of another page with a custom parameterized URL. (RTAFB-4717)</li>
 <li>Fixed a compilation crash when some Screens have custom URLs and others don't. (RTAFB-4798)</li>
 </ul>
-<style>.cattag {background: #f4f2ff; color: #6a6581; padding: 4px 10px;}</style><div class="moreDetailsDiv"><h3>More details</h3><p><a id="RPM-1038"><strong>RPM-1038</strong></a><br/><b>Fixed an issue that was causing headers not to be applied correctly in applications.</b><br/><span class="cattag">Application Runtime</span> <span class="cattag">System Components</span> <br/><br/><u>Fix Details:</u><br/>Headers added using the AddHeader action of <a href="https://success.outsystems.com/Documentation/11_x_platform/Reference/OutSystems_APIs/HTTPRequestHandler_API">HTTPRequestHandler</a> weren't being applied to the applications. The symptoms may vary according to the type of header that was added. 
+<style>.cattag {background: #f4f2ff; color: #6a6581; padding: 4px 10px;}</style><div class="moreDetailsDiv"><h3 id="More_details_5">More details</h3><p><a id="RPM-1038"><strong>RPM-1038</strong></a><br/><b>Fixed an issue that was causing headers not to be applied correctly in applications.</b><br/><span class="cattag">Application Runtime</span> <span class="cattag">System Components</span> <br/><br/><u>Fix Details:</u><br/>Headers added using the AddHeader action of <a href="https://success.outsystems.com/Documentation/11_x_platform/Reference/OutSystems_APIs/HTTPRequestHandler_API">HTTPRequestHandler</a> weren't being applied to the applications. The symptoms may vary according to the type of header that was added. 
 The issue can happen from Platform Server version 11.9.0 onwards and was fixed in this version to restore the proper behavior, adding the defined headers.</p><p><a id="RPM-1052"><strong>RPM-1052</strong></a><br/><b> Fixed an issue with SEO Friendly Urls, that caused a 404 when the module alias had the same name as the module.</b><br/><span class="cattag">Application Runtime</span> <span class="cattag">SEO Friendly URLs</span> <br/><br/><u>Fix Details:</u><br/>The issue occurs in modules that have the same name as the module alias. This created 2 entries in the database table every time you publish, overflowing, in the long run, the 10000 lines DB table limit.
 To prevent this issue, the DB table limit was increased above the 10000 lines, and there's an automatic cleanup on duplicated entries.</p><p><a id="RPM-1245"><strong>RPM-1245</strong></a><br/><b>Fixed an issue that caused the login action to take a long time in Traditional Web apps using SAML 2.0 authentication when the user has many active sessions.</b><br/><span class="cattag">Application Lifecycle</span> <span class="cattag">Users</span> <br/><br/><u>Fix Details:</u><br/>When using SAML 2.0 authentication in Traditional Web apps, the action of logging in is taking a very long time. This happens for very active users with hundreds of active sessions, most typically, users used for testing or automation. 
 The issue resides in the RegisterUserSession action that's not performant in this edge case. This action was improved so that's no longer subject to performance degradation.</p><p><a id="RPM-341"><strong>RPM-341</strong></a><br/><b> Fixed an issue with SEO Friendly Urls, that caused a 404 when the module alias had the same name as the module.</b><br/><span class="cattag">Application Runtime</span> <span class="cattag">SEO Friendly URLs</span> <br/><br/><u>Fix Details:</u><br/>This issue has the same cause as <a href="https://success.outsystems.com/Support/Release_Notes/11/Platform_Server/Platform_Server_11.13.0#RPM-1052">RPM-1052</a>. Refer to it to understand the impacts and changes.</p><p><a id="RPM-365"><strong>RPM-365</strong></a><br/><b>Fixed an issue that caused the join between the system tables Sent_Email and Email_Status not to retrieve any results.</b><br/><span class="cattag">Application Runtime</span> <span class="cattag">Logging</span> <br/><br/><u>Fix Details:</u><br/>This issue caused a join between the system tables Sent_Email and Email_Status not to retrieve any results. This has no impact on the OutSystems capability to send emails, but if you're using the <a href="https://success.outsystems.com/Documentation/11/Reference/OutSystems_APIs/Emails_API">Emails API</a> in your logic, your application can be affected. The fix restored the proper behavior and the results of that join are now correctly retrieved.</p><p><a id="RPM-638"><strong>RPM-638</strong></a><br/><b>Fixed an issue in the Security exceptions of Mobile apps that caused incorrect exception handling.</b><br/><span class="cattag">Application Runtime</span> <span class="cattag">Logic Execution</span> <br/><br/><u>Fix Details:</u><br/>The issue resided in the "Invalid Login" and "Not Registered" exceptions of Mobile apps that were not caught by their parent handler, <a href="https://success.outsystems.com/Documentation/11/Developing_an_Application/Implement_Application_Logic/Handle_Exceptions">Security exception</a>. Instead, they were bubbling up to "All exceptions", ultimately causing the wrong exception message to appear to the end-user.</p><p><a id="RPM-905"><strong>RPM-905</strong></a><br/><b>Fixed the client-side exception mechanism so it properly manages handlers from the parent exception. </b><br/><span class="cattag">Application Runtime</span> <span class="cattag">Logic Execution</span> <br/><br/><u>Fix Details:</u><br/>In Reactive Web or Mobile apps, user exceptions were not properly following the <a href="https://success.outsystems.com/Documentation/11/Developing_an_Application/Implement_Application_Logic/Handle_Exceptions">hierarchy of exceptions</a>. Any "parent node" exception, such as User Exception, should be able to handle any "children node" exception, for example, UserException1. Due to this issue, a UserException1 on client-side logic was not being handled by the User Exception parent node, and instead, it was bubbling up to AllExceptions, ultimately causing the wrong exception message to appear to the end-user. In fixing this bug the other exceptions subgroups (Database, Security, Communication, and Abort Activity Change) are now handled as expected.</p><p><a id="RPM-954"><strong>RPM-954</strong></a><br/><b>Fixed an issue that prevented end users from closing Popover Menu used inside a Tabs OutSystems UI pattern.</b><br/><span class="cattag">Application Runtime</span> <span class="cattag">Interface</span> <br/><br/><u>Fix Details:</u><br/>In Mobile apps, end users couldn't close a Popover Menu by selecting an area outside the popover menu.
@@ -329,7 +329,7 @@ The issue was fixed and it's now possible to scroll properly using any OutSystem
 </div>
 <span id="Platform_Server_11.12.2"></span><h2 id="Platform_Server_11.12.2">Platform Server 11.12.2</h2><br/><div class="mt-include" id="s33530">
 <div class="info"><p>Released on Jul 13, 2021</p></div>
-<div class="mt-section" id="section_1" mt-section-origin="Support/Release_Notes/11/Platform_Server/Platform_Server_11.12.2"><span id="Bug_Fixing_7"></span><h3 id="Bug_Fixing-33530">Bug Fixing</h3>
+<div class="mt-section" id="section_1" mt-section-origin="Support/Release_Notes/11/Platform_Server/Platform_Server_11.12.2"><span id="Bug_Fixing_7"></span><h3 id="Bug_Fixing_7">Bug Fixing</h3>
 <ul>
 <li>Fixed an issue where linking to a screen with a custom URL defined caused a crash if mandatory inputs were empty or invalid.  (RAR-782)</li>
 <li>Fixed an issue on progressive web apps (PWAs) where data from an aggregate populated by local storage did not display. This issue occurred when a consuming module used a different entity name than the producer module. (RPM-896)</li>
@@ -345,7 +345,7 @@ be sent in the header. Previously, the "Name in Response" was ignored when speci
 </ul>
 </div></div><span id="Platform_Server_11.12.1"></span><h2 id="Platform_Server_11.12.1">Platform Server 11.12.1</h2><br/><div class="mt-include" id="s33088">
 <div class="info"><p>Released on Jun 21, 2021</p></div>
-<div class="mt-section" id="section_1" mt-section-origin="Support/Release_Notes/11/Platform_Server/Platform_Server_11.12.1"><span id="Bug_Fixing_8"></span><h3 id="Bug_Fixing-33088">Bug Fixing</h3>
+<div class="mt-section" id="section_1" mt-section-origin="Support/Release_Notes/11/Platform_Server/Platform_Server_11.12.1"><span id="Bug_Fixing_8"></span><h3 id="Bug_Fixing_8">Bug Fixing</h3>
 <ul>
 <li>When browsing application edit screens, Service Center no longer redirects you to the home page after a period of inactivity. (R11PIT-177)</li>
 <li>Fixed an issue where it was not possible to send an e-mail using an SMTP provider that sends a non-supported command to authenticate. (RPM-1063)</li>
@@ -357,15 +357,15 @@ Page Name value or a Screen Name value equal to the Page Name value. This naming
 <li>We fixed an issue causing 404 errors in Reactive Web Apps. Screens configured with path parameters had 404 
 errors after upgrading an application.  (RTAF-4646)</li>
 <li>Fixed an issue where application runtime errors could occur under high concurrency conditions. This occurred with Static Entities defined in Libraries or when modules referenced Static Entities defined in Libraries. (RPLAT-751)</li>
-</ul></div></div><span id="Platform_Server_11.12.0"></span><h2 id="Platform_Server_11.12.0">Platform Server 11.12.0</h2><br/><div class="mt-include" id="s32825">
-<div class="info">
-<p>Released on May 24, 2021</p>
-</div>
-<div class="mt-section" id="section_1" mt-section-origin="Support/Release_Notes/11/Platform_Server/Platform_Server_11.12.0"><span id="New_in_Platform_Server_11.12.0"></span><h3 id="New_in_Platform_Server_11.12.0-32825">New in Platform Server 11.12.0</h3>
+</ul></div></div>
+
+<h2 id="Platform_Server_11.12.0">Platform Server 11.12.0</h2>
+<div class="info"><p>This is a preliminary version of the document.</p></div>
+<h3 id="New_in_Platform_Server_11.12.0">New in Platform Server 11.12.0</h3>
 <ul>
-<li><strong>Upgraded to React 16. The platform runtime in Platform Server 11.12.0 and later uses the upgraded version of React, React 16. Although we’ve been testing this with help of multiple customers in multiple scenarios, we know that on rare occasions this upgrade may break some JavaScript extensibility code not compliant with React 16 so we recommend you fully test your Web Reactive and Mobile applications after the upgrade. This upgrade may also break the following components, so make sure you update to the latest versions from Forge: Multilingual Component, Input Masks Library, Input Masks Mobile. (RAR-174)</strong></li>
 <li>You can now Expose REST webservices using the PATCH verb. This capability is a technical preview feature and you need to activate the option "PATCH method in exposed REST APIs" in LifeTime. (R11DT-89)</li>
 <li>It is no longer possible to concurrently publish the same modules in Solutions and individually. Modules in Solutions remain locked for the duration of the Solution publish. (R11PIT-176)</li>
+<li>Upgraded to React 16. The platform runtime in Platform Server 11.12.0 and later uses the upgraded version of React, React 16. Although we’ve been testing this with help of multiple customers in multiple scenarios, we know that on rare occasions this upgrade may break some JavaScript extensibility code not compliant with React 16 so we recommend you fully test your Web Reactive and Mobile applications after the upgrade. This upgrade may also break the following components, so make sure you update to the latest versions from Forge: Multilingual Component, Input Masks Library, Input Masks Mobile. (RAR-174)</li>
 <li>We improved the accessibility of the Table. The Table widget now has the following ARIA attributes: role="grid" and aria-rowcount. The cells in the Table have aria-colindex and aria-rowindex, while the header cell has aria-sort. (RAR-316)</li>
 <li>We improved the Button Group widget accessibility by adding the following ARIA attributes: role="radiogroup", aria-activedescendant, role="radio", and aria-checked (if required by the item state). (RAR-319)</li>
 <li>Improved the performance of Aggregates in PWAs when you use Join Conditions or Filters with more than one comparison. (RAR-381)</li>
@@ -375,27 +375,27 @@ errors after upgrading an application.  (RTAF-4646)</li>
 <li>When distributing an Android application using MABS 7, it is now possible to choose an Android App Bundle build type to generate an .aab file to upload to the Play store. (RNMT-4579) (RNMT-4579)</li>
 <li>Redesigned the download page for mobile applications generated by MABS. (RNMT-4615)</li>
 <li>Added support for SQL Server 2019 and compatibility level 150. This applies to the platform database, as well as external databases. (RPLAT-418)</li>
-<li>Upgrading to the Oracle Managed Driver (19.10.1), fixes the ORA-12514 error in the Oracle Rac (Real Application Cluster). For more information on this and other fixes, see the Oracle release notes. (RPLAT-542)</li>
+<li>Upgrading to the Oracle Managed Driver (19.10.1), fixes the ORA-12514 error in the Oracle Rac (Real Application Cluster). For more information on this and other fixes, see the Oracle release notes.  (RPLAT-542)</li>
 <li>Now, with Flexible Upgrades, after upgrading the Platform Server, you can opt to publish your applications gradually, following your teams' pace, instead of being required to publish all your applications directly after the upgrade. Not yet available in Platform installations running over Oracle, only for SQL Server. (RSUPT-705)</li>
-<li>Now you can configure friendly URLs in your Reactive Web Apps. Go to Service Center &gt; Administration &gt; SEO URLs to set up the site rules and redirects. Configure the page rules in Service Studio, by setting Custom URLs to Yes in the Screen properties. SEO Friendly URLs is a technical preview feature, and you need to activate the option "SEO Friendly URLs" in LifeTime. (RTAFB-3869)</li>
+<li>Now you can configure friendly URLs in your Reactive Web Apps. Go to  Service Center &gt; Administration &gt; SEO URLs to set up the site rules and redirects. Configure the page rules in Service Studio, by setting Custom URLs to Yes in the Screen properties. SEO Friendly URLs is a technical preview feature, and you need to activate the option "SEO Friendly URLs" in LifeTime.  (RTAFB-3869)</li>
 <li>Inside Service Studio, you can now translate the UI for Reactive Web and Mobile Apps. (RTAFB-4112)</li>
 <li>Added the server-to-client data transfer optimization for the Mobile and Reactive Web Apps. The optimization works for Screen Aggregates, Data Actions, and for the Server Actions in the logic flows of Screen Client Actions. (RTAFB-4331)</li>
 <li>Now you can, in Mobile and Reactive Web Apps, create lightweight emails with basic navigation and styling. Emails in Reactive and Mobile is a technical preview feature, so you need to activate the option "Emails for Mobile and Reactive" in LifeTime. (RTAFB-4361)</li>
 </ul>
-</div><div class="mt-section" id="section_2" mt-section-origin="Support/Release_Notes/11/Platform_Server/Platform_Server_11.12.0"><span id="Bug_Fixing_9"></span><h3 id="Bug_Fixing-32825">Bug Fixing</h3>
+<h3 id="Bug_Fixing_9">Bug Fixing</h3>
 <ul>
 <li>Fixed the client-side logs not being sent to the server after an upgrade rollback in a native mobile app. (RAR-123)</li>
 <li>Fixed the client-side logs created offline not being sent to the server when reopening the app with the connection restored. (RAR-124)</li>
-<li>The Dropdown now selects the correct item when the list contains default values for OutSystems data types. (RAR-610)</li>
+<li>The Dropdown now selects the correct item when the list contains default values for OutSystems data types.  (RAR-610)</li>
 <li>The default font in some factories, now loads correctly on users apps. (RLIT-4295)</li>
 <li>Improved the feedback message when configuring Android Mobile Apps. (RLIT-4428)</li>
-<li>The correct link now displays in the the Mobile Application description in Service Center. (RLIT-4434)</li>
+<li>The correct link now displays in the the Mobile Application description in Service Center.  (RLIT-4434)</li>
 <li>Fixed an issue in Service Center preventing the dependencies in a Solution to be properly shown. (RLIT-4457)</li>
 <li>Fixed an issue that prevented the validation messages from appearing when a Form widget was used inside a Popup widget. This fix was done with the upgrade to React 16 of the runtime libraries. (RPD-3637)</li>
 <li>Fixed a timeout error when deploying large modules or extensions. (RPD-3695)</li>
 <li>Fixed an issue that could cause some application screens to crash and not recover, when there are database problems while loading Static Entities. (RPLAT-537)</li>
 <li>We fixed the EPA Taskbox to correctly show content in the production environment. The Taskbox didn't send the UserId in the requests, causing an empty Activity Details Page. (RPM-1007)</li>
-<li>Scheduler Service and Deployment Controller Service now run with a user with lower privileges. If during an upgrade you encounter any issues while setting the permissions for OutSystems services, <a href="https://success.outsystems.com/Support/Enterprise_Customers/Troubleshooting/Service_permissions_error_when_installing_or_upgrading_to_Platform_Server_11.12.0_or_later" rel="internal">check this article</a>. (RPM-330)</li>
+<li>Scheduler Service and Deployment Controller Service now run with a user with lower privileges. If during an upgrade you encounter any issues while setting the permissions for OutSystems services, <a href="https://success.outsystems.com/Support/Enterprise_Customers/Troubleshooting/Service_permissions_error_when_installing_or_upgrading_to_Platform_Server_11.12.0_or_later">check this article</a>. (RPM-330)</li>
 <li>Fixed an issue in the configuration of SAML authentication that prevented uploading a custom KeyStore. (RPM-339)</li>
 <li>Fixed an issue causing a SBOX_FATAL_MEMORY_EXCEEDED error when having complex local storage Aggregates in PWAs. (RPM-427)</li>
 <li>Fixed an issue in Service Center preventing the dependencies in a Solution to be properly shown. (RPM-490)</li>
@@ -409,7 +409,7 @@ errors after upgrading an application.  (RTAF-4646)</li>
 <li>Fixed an issue in the DiffDays client-side function that wasn't taking the time zone into consideration. (RPM-655)</li>
 <li>Fixed issue that caused the filter on applications in Email Logs page to be lost when changing page. (RPM-696)</li>
 <li>Fixed app runtime crashes after upgrading to Platform Server version 11.10.0 and later, when accessing Site Properties of a particular set of modules. (RPM-706) (RPM-706)</li>
-<li>Fixed an issue that was causing the Traditional Web App Feedback balloon to be hidden whenever a screen's preparation calls to the Taskbox_Hide action. (RPM-709)</li>
+<li>Fixed an issue that was causing the Traditional Web App Feedback balloon to be hidden whenever a screen's preparation calls to the Taskbox_Hide action.  (RPM-709)</li>
 <li>Fixed a Mobile App issue related to the triggering of the OnApplicationReady action before the app reloads to perform an upgrade. (RPM-799)</li>
 <li>Added instructions to the install the check list to remove a Pure Deployment Controller from the Load Balancer, as well as disable the OutSystemsApplications app pool on IIS. to avoid requests being served by that server (RPM-804)</li>
 <li>Fixed an issue which could cause degradation of the publish performance under certain circumstances. (RPM-810)</li>
@@ -423,39 +423,35 @@ errors after upgrading an application.  (RTAF-4646)</li>
 <li>Fixed app runtime crashes after upgrading to Platform Server version 11.10.0 and later, when accessing Site Properties of a particular set of modules. (RTAFB-4142)</li>
 <li>Fixed a performance issue with compiling modules. The fix reduces the number of database queries required when computing server-to-client data transfer optimization. (RTAFB-4754)</li>
 </ul>
-</div><div class="mt-section" id="section_3" mt-section-origin="Support/Release_Notes/11/Platform_Server/Platform_Server_11.12.0"><span id="Known_Issues_4"></span><h3 id="Known_Issues-32825">Known Issues</h3>
+<h3 id="Known_Issues_2">Known Issues</h3>
 <ul>
 <li>Publishing Mobile or Reactive Web apps that use very complex structures in screen logic may take longer than usual or fail due to a timeout during compilation. It might also result in a memory consumption higher than usual while publishing.</li>
-To disable this for a specific module you can follow this procedure:
-<ol>
+
+
+    To disable this for a specific module you can follow this procedure:
+
+    <ol>
 <li>Install Factory Settings Module in the environment (skip if already installed);</li>
 <li>Access Factory Settings Application; - Select "eSpaces" in the top of the app;</li>
 <li>Select your module from the list;</li>
 <li>Add a new configuration with the name "ClientSideOptimizerDisabled" and the value "True";</li>
-<li>Press "Define".<br/>
- </li>
+<li>Press "Define".</li>
 </ol>
-To disable this for the whole environment you can follow this procedure:
-<ol>
+
+    To disable this for the whole environment you can follow this procedure:
+
+    <ol>
 <li>Install Factory Settings Module in the environment (skip if already installed);</li>
 <li>Access Factory Settings Application;</li>
 <li>Select "Platform Configurations" in the top of the app;</li>
 <li>Tick the options "Disable client-side optimizations for Reactive Web Apps" and "Disable client-side optimizations for Mobile Apps";</li>
-<li>Go to the bottom of the page and press "Apply".<br/>
- </li>
+<li>Go to the bottom of the page and press "Apply".</li>
 </ol>
-<li>Concurrent usage of Static Entities defined in Libraries can lead to transient application runtime errors</li>
+<li>Concurrent usage of Static Entities defined in Libraries can lead to transient application runtime errors.</li>
 </ul>
-<style type="text/css">/*<![CDATA[*/.cattag {background: #f4f2ff; color: #6a6581; padding: 4px 10px;}
-
-
-/*]]>*/</style>
-<div class="moreDetailsDiv">
-<div class="mt-section" mt-section-origin="Support/Release_Notes/11/Platform_Server/Platform_Server_11.12.0"><span id=""></span><h3 id="-32825"><describe all="all" and="and" as="as" issue="issue" logging="logging" of="of" relevant="relevant" such="such" symptoms="symptoms" the="the"> <describe all="all" and="and" assets="assets" is="is" issue="issue" needed="needed" reproduce="reproduce" step-by-step="step-by-step" the="the" to="to" what="what"></describe></describe></h3>
-</div></div>
-</div></div><span id="Platform_Server_11.11.3"></span><h2 id="Platform_Server_11.11.3">Platform Server 11.11.3</h2><br/><div class="mt-include" id="s32856">
+<h2 id="Platform_Server_11.11.3">Platform Server 11.11.3</h2>
 <div class="info"><p>Released on Apr 21, 2021</p></div>
-<div class="mt-section" id="section_1" mt-section-origin="Support/Release_Notes/11/Platform_Server/Platform_Server_11.11.3"><span id="Bug_Fixing_10"></span><h3 id="Bug_Fixing-32856">Bug Fixing</h3>
+<div class="mt-section" id="section_1" mt-section-origin="Support/Release_Notes/11/Platform_Server/Platform_Server_11.11.3"><span id="Bug_Fixing_10"></span><h3 id="Bug_Fixing_10">Bug Fixing</h3>
 <ul>
 <li>Expression values in widgets are now correctly translated when the locale changes. (RAR-603)</li>
 <li>Fixed the Input widget so it doesn't lose the focus when inside the Popup widget. Applies to the Technical Preview - Reactive Web and Mobile runtime on React 16. (RAR-623)</li>
@@ -466,9 +462,9 @@ To disable this for the whole environment you can follow this procedure:
 <li>Fixed an issue that prevented images from being displayed when Client-side optimizations Technical Preview feature was enabled. (RPM-848)</li>
 <li>2-Stage deployment no longer skips the "finalize deploy" step. If for example, a solution contains a Producer and an outdated consumer module, the solution successfully completes and uses the updated modules. (RPST-1444)</li>
 </ul>
-</div></div><span id="Platform_Server_11.11.2"></span><h2 id="Platform_Server_11.11.2">Platform Server 11.11.2</h2><br/><div class="mt-include" id="s32044">
+</div><span id="Platform_Server_11.11.2"></span><h2 id="Platform_Server_11.11.2">Platform Server 11.11.2</h2><br/><div class="mt-include" id="s32044">
 <div class="info"><p>Released on Apr 21, 2021</p></div>
-<div class="mt-section" id="section_1" mt-section-origin="Support/Release_Notes/11/Platform_Server/Platform_Server_11.11.2"><span id="Bug_Fixing_11"></span><h3 id="Bug_Fixing-32044">Bug Fixing</h3>
+<div class="mt-section" id="section_1" mt-section-origin="Support/Release_Notes/11/Platform_Server/Platform_Server_11.11.2"><span id="Bug_Fixing_11"></span><h3 id="Bug_Fixing_11">Bug Fixing</h3>
 <ul>
 <li>Fixed an issue that caused the deploy of modules with outdated references when deploying the running version of a solution with 2-Stage deploy on. (RPM-914)</li>
 </ul>
@@ -483,7 +479,7 @@ To disable this for the whole environment you can follow this procedure:
 <div class="info">
 <p>Released on Mar 15, 2021</p>
 </div>
-<div class="mt-section" id="section_1" mt-section-origin="Support/Release_Notes/11/Platform_Server/Platform_Server_11.11.1"><span id="New_in_Platform_Server_11.11.1"></span><h3 id="New_in_Platform_Server_11.11.1-31958">New in Platform Server 11.11.1</h3>
+<div class="mt-section" id="section_1" mt-section-origin="Support/Release_Notes/11/Platform_Server/Platform_Server_11.11.1"><span id="New_in_Platform_Server_11.11.1"></span><h3 id="New_in_Platform_Server_11.11.1">New in Platform Server 11.11.1</h3>
 <ul>
 <li>This improvement fixes the table headers not being re-rendered when the locale changes. (RAR-456)</li>
 <li>The Scheduler Service now runs in an isolated folder inside the Platform Server installation folder, "{Platform Server folder}/Scheduler". (RPOT-989)</li>
@@ -491,7 +487,7 @@ To disable this for the whole environment you can follow this procedure:
 <li>You can now override the extensibility configurations of your PWA application through LifeTime and you can also include your configurations in any module of the application. (RTAFB-2611)</li>
 <li>Now the apps properly show content for the right-to-left (RTL) languages. (RTAFB-4062)</li>
 </ul>
-</div><div class="mt-section" id="section_2" mt-section-origin="Support/Release_Notes/11/Platform_Server/Platform_Server_11.11.1"><span id="Bug_Fixing_12"></span><h3 id="Bug_Fixing-31958">Bug Fixing</h3>
+</div><div class="mt-section" id="section_2" mt-section-origin="Support/Release_Notes/11/Platform_Server/Platform_Server_11.11.1"><span id="Bug_Fixing_12"></span><h3 id="Bug_Fixing_12">Bug Fixing</h3>
 <ul>
 <li>Fixed an issue that caused the id attribute in the Widgets to be placed in the wrong HTML element in runtime. Applies to the Technical Preview - Reactive Web and Mobile runtime on React 16. (RAR-436)</li>
 <li>Fixed an issue that caused a screen not to be updated after changing a Client Variable or the Current Locale from within a Block. (RAR-597)</li>
@@ -537,7 +533,7 @@ To disable this for the whole environment you can follow this procedure:
 <li>Fixed a security issue that could cause unavailability of the platform. CVSSv3.1 score 4.1 (Medium). (RPD-4611)</li>
 <li>Extension resources are no longer copied to consumers when there are only weak dependencies. CVSSv3.1 score 5.1 (Medium) (RTAFB-3511)</li>
 </ul>
-</div><div class="mt-section" id="section_3" mt-section-origin="Support/Release_Notes/11/Platform_Server/Platform_Server_11.11.1"><span id="Breaking_Change_2"></span><h3 id="Breaking_Change-31958">Breaking Change</h3>
+</div><div class="mt-section" id="section_3" mt-section-origin="Support/Release_Notes/11/Platform_Server/Platform_Server_11.11.1"><span id="Breaking_Change_2"></span><h3 id="Breaking_Change_1">Breaking Change</h3>
 <ul>
 <li>Now, HTTP responses from Consumed REST API integrations are closed more aggressively. Previously, when doing numerous Consumed REST API requests, the number of used ports could increase rapidly and lead to port exhaustion problems. The new behaviour prevents this situation and helps avoid leaking resources, but can also cause runtime changes in some edge cases.<br/>
 Check <a class="link-https" href="https://www.outsystems.com/goto/breaking-changes-11#introduced-in-platform-server-11111" rel="external noopener nofollow" target="_blank">OutSystems 11 side effects and breaking changes</a> for more details on the breaking change and on a possible workaround.</li>
@@ -553,17 +549,17 @@ Check <a class="link-https" href="https://www.outsystems.com/goto/breaking-chang
 <li>Fixed a security vulnerability. CVSSv3.1 score 7.2 (High) (RPM-813)</li>
 </div><span id="Platform_Server_11.10.3"></span><h2 id="Platform_Server_11.10.3">Platform Server 11.10.3</h2><br/><div class="mt-include" id="s31759">
 <div class="info"><p>Released on Feb 08, 2021</p></div>
-<div class="mt-section" id="section_1" mt-section-origin="Support/Release_Notes/11/Platform_Server/Platform_Server_11.10.3"><span id="Bug_Fixing_14"></span><h3 id="Bug_Fixing-31759">Bug Fixing</h3>
+<div class="mt-section" id="section_1" mt-section-origin="Support/Release_Notes/11/Platform_Server/Platform_Server_11.10.3"><span id="Bug_Fixing_14"></span><h3 id="Bug_Fixing_13">Bug Fixing</h3>
 <ul>
 <li>Fixed application downtime in Farm environments due to missing DLLs in the Frontend servers, caused by running Configuration Tool from a location different than the first time it was executed, e.g through a symbolic link. (RPM-776)</li>
 </ul> </div></div><span id="Platform_Server_11.10.2"></span><h2 id="Platform_Server_11.10.2">Platform Server 11.10.2</h2><br/><div class="mt-include" id="s31565">
 <div class="info"><p>Released on Dec 28, 2020</p></div>
-<div class="mt-section" id="section_1" mt-section-origin="Support/Release_Notes/11/Platform_Server/Platform_Server_11.10.2"><span id="New_in_Platform_Server_11.10.2"></span><h3 id="New_in_Platform_Server_11.10.2-31565">New in Platform Server 11.10.2</h3>
+<div class="mt-section" id="section_1" mt-section-origin="Support/Release_Notes/11/Platform_Server/Platform_Server_11.10.2"><span id="New_in_Platform_Server_11.10.2"></span><h3 id="New_in_Platform_Server_11.10.2">New in Platform Server 11.10.2</h3>
 <ul>
 <li>When using React 16, render loop check now redirects to the Error Screen when a loop is avoided to prevent presenting incorrect data to the user.  (RAR-441)</li>
 <li>The locale is now added to the lang HTML element and corresponds to the same locale defined by the application. This is particularly important for accessibility purposes. (RTAF-3037)</li>
 </ul>
-</div><div class="mt-section" id="section_2" mt-section-origin="Support/Release_Notes/11/Platform_Server/Platform_Server_11.10.2"><span id="Bug_Fixing_15"></span><h3 id="Bug_Fixing-31565">Bug Fixing</h3>
+</div><div class="mt-section" id="section_2" mt-section-origin="Support/Release_Notes/11/Platform_Server/Platform_Server_11.10.2"><span id="Bug_Fixing_15"></span><h3 id="Bug_Fixing_14">Bug Fixing</h3>
 <ul>
 <li>Fixed the text of the error message that shows when the app uses an unknown locale identifier. (RAR-330)</li>
 <li>Registering a back navigation handler now correctly blocks a back navigation on React 16. (RAR-333)</li>
@@ -582,17 +578,17 @@ Check <a class="link-https" href="https://www.outsystems.com/goto/breaking-chang
 <li>Fixed a security issue. CVSSv3.0 score 5.3 (Medium). (RPD-4670)</li>
 <li>Fixed a security issue. CVSSv3.0 score 5.8 (Medium). (RTAF-3479)</li>
 </ul>
-</div><div class="mt-section" id="section_3" mt-section-origin="Support/Release_Notes/11/Platform_Server/Platform_Server_11.10.2"><span id="Known_Issues_5"></span><h3 id="Known_Issues-31565">Known Issues</h3>
+</div><div class="mt-section" id="section_3" mt-section-origin="Support/Release_Notes/11/Platform_Server/Platform_Server_11.10.2"><span id="Known_Issues_5"></span><h3 id="Known_Issues_3">Known Issues</h3>
 <ul>
 <li>In farm environments, if there is a symbolic link to the Platform Server folder, it’s possible for the Configuration Tool to be executed from different locations. e.g “F:\Program Files\OutSystems\Platform Server” is the platform installation folder and “C:\Program Files\OutSystems\” is a symbolic link. Every time Configuration Tool is run from a different location, it will corrupt some platform settings and it will cause DLLs to be wrongly deleted from the front-end.<br/>
 More details <a class="link-https" href="https://success.outsystems.com/Support/Enterprise_Customers/Troubleshooting/Known_issue_in_11.10.0_-_possible_downtime_after_running_Configuration_Tool" rel="external nofollow" target="_blank">here</a>.</li>
 </ul></div></div><span id="Platform_Server_11.10.1"></span><h2 id="Platform_Server_11.10.1">Platform Server 11.10.1</h2><br/><div class="mt-include" id="s31453">
 <div class="info"><p>Released on Nov 30, 2020</p></div>
-<div class="mt-section" id="section_1" mt-section-origin="Support/Release_Notes/11/Platform_Server/Platform_Server_11.10.1"><span id="New_in_Platform_Server_11.10.1"></span><h3 id="New_in_Platform_Server_11.10.1-31453">New in Platform Server 11.10.1</h3>
+<div class="mt-section" id="section_1" mt-section-origin="Support/Release_Notes/11/Platform_Server/Platform_Server_11.10.1"><span id="New_in_Platform_Server_11.10.1"></span><h3 id="New_in_Platform_Server_11.10.1">New in Platform Server 11.10.1</h3>
 <ul>
 <li>Multilingual for Mobile and Reactive now maintains the selected locale between applications. (RAR-338)</li>
 </ul>
-</div><div class="mt-section" id="section_2" mt-section-origin="Support/Release_Notes/11/Platform_Server/Platform_Server_11.10.1"><span id="Bug_Fixing_16"></span><h3 id="Bug_Fixing-31453">Bug Fixing</h3>
+</div><div class="mt-section" id="section_2" mt-section-origin="Support/Release_Notes/11/Platform_Server/Platform_Server_11.10.1"><span id="Bug_Fixing_16"></span><h3 id="Bug_Fixing_15">Bug Fixing</h3>
 <ul>
 <li>Fixed "No Default Screen" error screen when no default screen is selected. Now the app uses the first screen of the module and there's no error. (RAR-356)</li>
 <li>Fixed navigation after a pending refresh. Now the screen redirects to the destination screen if there's a pending refresh when the user refreshes the page. Previously the app showed the origin screen after the refresh. (RAR-422)</li>
@@ -611,13 +607,13 @@ More details <a class="link-https" href="https://success.outsystems.com/Support/
 <li>The page title is now correctly translated in the runtime of Reactive Web Apps and Mobile Apps. (RTAF-3505)</li>
 </ul>
 <li>Fixed an issue that allowed code injection on the description of exposed SOAP Web Services. CVSSv3.1 score 4.8 (Medium). (RBIT-37)</li>
-</div><div class="mt-section" id="section_3" mt-section-origin="Support/Release_Notes/11/Platform_Server/Platform_Server_11.10.1"><span id="Known_Issues_6"></span><h3 id="Known_Issues-31453">Known Issues</h3>
+</div><div class="mt-section" id="section_3" mt-section-origin="Support/Release_Notes/11/Platform_Server/Platform_Server_11.10.1"><span id="Known_Issues_6"></span><h3 id="Known_Issues_4">Known Issues</h3>
 <ul>
-<li>In farm environments, if there is a symbolic link to the Platform Server folder, it’s possible for the Configuration Tool to be executed from different locations. e.g “F:\Program Files\OutSystems\Platform Server” is the platform installation folder and “C:\Program Files\OutSystems\” is a symbolic link. Every time Configuration Tool is run from a different location, it will corrupt some platform settings and it will cause DLLs to be wrongly deleted from the front-end.<br/>
+<li>In farm environments, if there is a symbolic link to the Platform Server folder, it's possible for the Configuration Tool to be executed from different locations. e.g “F:\Program Files\OutSystems\Platform Server” is the platform installation folder and “C:\Program Files\OutSystems\” is a symbolic link. Every time Configuration Tool is run from a different location, it will corrupt some platform settings and it will cause DLLs to be wrongly deleted from the front-end.<br/>
 More details <a class="link-https" href="https://success.outsystems.com/Support/Enterprise_Customers/Troubleshooting/Known_issue_in_11.10.0_-_possible_downtime_after_running_Configuration_Tool" rel="external nofollow" target="_blank">here</a>.</li>
 </ul></div></div><span id="Platform_Server_11.10.0"></span><h2 id="Platform_Server_11.10.0">Platform Server 11.10.0</h2><br/><div class="mt-include" id="s31137">
 <div class="info"><p>Released on Nov 09, 2020</p></div>
-<div class="mt-section" id="section_1" mt-section-origin="Support/Release_Notes/11/Platform_Server/Platform_Server_11.10.0"><span id="New_in_Platform_Server_11.10.0"></span><h3 id="New_in_Platform_Server_11.10.0-31137">New in Platform Server 11.10.0</h3>
+<div class="mt-section" id="section_1" mt-section-origin="Support/Release_Notes/11/Platform_Server/Platform_Server_11.10.0"><span id="New_in_Platform_Server_11.10.0"></span><h3 id="New_in_Platform_Server_11.10.0">New in Platform Server 11.10.0</h3>
 <ul>
 <li>The error logs about the server responses in Mobile/Reactive apps now have information about the endpoint in use. (RAR-259)</li>
 <li>You can now try out the Reactive and Mobile applications using the React 16 version. Start by enabling this technical preview feature in LifeTime. (RAR-270)</li>
@@ -634,7 +630,7 @@ It depends on LifeTime version 11.6.1. (RLIT-3938)</li>
 <li>You can now optimize the amount of data transferred from the server side to the client side of Mobile and Reactive Web Apps. The optimization works for Screen Aggregates, Data Actions, and for the Server Actions in the logic flows of Screen Client Actions. This is a technical preview feature and you need to activate the option "Client-side optimizations for Reactive Web Apps" or "Client-side optimizations for Mobile Apps". (RTAFB-3260)</li>
 <li>You can now translate the UI of your Reactive Web Apps and Mobile Apps directly inside Service Studio. Multilingual is a technical preview feature and you need to activate the option "Multilingual for Mobile and Reactive" in LifeTime. After enabling the feature, use the new Multilingual Locales folder and new SetCurrentLocale system client action. (RTAFB-3388)</li>
 </ul>
-</div><div class="mt-section" id="section_2" mt-section-origin="Support/Release_Notes/11/Platform_Server/Platform_Server_11.10.0"><span id="Bug_Fixing_17"></span><h3 id="Bug_Fixing-31137">Bug Fixing</h3>
+</div><div class="mt-section" id="section_2" mt-section-origin="Support/Release_Notes/11/Platform_Server/Platform_Server_11.10.0"><span id="Bug_Fixing_17"></span><h3 id="Bug_Fixing_16">Bug Fixing</h3>
 <ul>
 <li>Fixed the app upgrade mechanism when technical preview "Configure Mobile application updates distribution" is on. Previously, a native mobile app would still use the hybrid updates on the first load. (RAR-219)</li>
 <li>Improved the error message when the app requires local storage access and IndexedDB isn't supported. (RAR-220)</li>
@@ -710,7 +706,7 @@ The fix consists of changing the 20 minutes timeout on the entire System Compone
 <li>Fixed a security vulnerability. CVSSv3.1 score 7.2 (High) (RPM-813)</li>
 </div><span id="Platform_Server_11.9.1"></span><h2 id="Platform_Server_11.9.1">Platform Server 11.9.1</h2><br/><div class="mt-include" id="s31124">
 <div class="info"><p>Released on Sep 24, 2020</p></div>
-<div class="mt-section" id="section_1" mt-section-origin="Support/Release_Notes/11/Platform_Server/Platform_Server_11.9.1"><span id="Bug_Fixing_18"></span><h3 id="Bug_Fixing-31124">Bug Fixing</h3>
+<div class="mt-section" id="section_1" mt-section-origin="Support/Release_Notes/11/Platform_Server/Platform_Server_11.9.1"><span id="Bug_Fixing_18"></span><h3 id="Bug_Fixing_17">Bug Fixing</h3>
 <ul>
 <li>Fixed crash on Chrome while uploading files bigger than 100MB in Reactive Web and Mobile Apps. (RPD-5151)</li>
 <li>Solved issue that could cause timeouts in Configuration Tool, on SQL servers (RIDT-211)</li>
@@ -723,7 +719,7 @@ The fix consists of changing the 20 minutes timeout on the entire System Compone
 <div class="info">
 <p>Released on Jul 28, 2020</p>
 </div>
-<div class="mt-section" id="section_1" mt-section-origin="Support/Release_Notes/11/Platform_Server/Platform_Server_11.9.0"><span id="New_in_Platform_Server_11.9.0"></span><h3 id="New_in_Platform_Server_11.9.0-30387">New in Platform Server 11.9.0</h3>
+<div class="mt-section" id="section_1" mt-section-origin="Support/Release_Notes/11/Platform_Server/Platform_Server_11.9.0"><span id="New_in_Platform_Server_11.9.0"></span><h3 id="New_in_Platform_Server_11.9.0">New in Platform Server 11.9.0</h3>
 <ul>
 <li>Improved locking on IndexedDB allowing operations that use different entities to execute simultaneously. (RAR-142)</li>
 <li>Added capabilities to support the platform in Mumbai AWS region. (RCVT-370)</li>
@@ -735,7 +731,7 @@ The fix consists of changing the 20 minutes timeout on the entire System Compone
 <li>Added an option in SAML configuration to only accept signed login responses from the Identity Provider server. (RSBO-1535)</li>
 <li>Progressive Web Apps (PWAs) are now generally available (GA), after a period of early access (EA). Create a mobile app, and then turn on the toggle "Distribute as PWA" in the Distribute tab. To create a mobile app, select either Phone or Tablet App in the dialog for a new app. (RTAFB-2977)</li>
 </ul>
-</div><div class="mt-section" id="section_2" mt-section-origin="Support/Release_Notes/11/Platform_Server/Platform_Server_11.9.0"><span id="Bug_Fixing_19"></span><h3 id="Bug_Fixing-30387">Bug Fixing</h3>
+</div><div class="mt-section" id="section_2" mt-section-origin="Support/Release_Notes/11/Platform_Server/Platform_Server_11.9.0"><span id="Bug_Fixing_19"></span><h3 id="Bug_Fixing_18">Bug Fixing</h3>
 <ul>
 <li>Fixed an issue that was preventing the Dropdown widget to be in dark mode. (RAR-145)</li>
 <li>Fixed an issue where widgets with property values defined by an expanded record were re-rendered with every change to the screen data. (RAR-154)</li>
@@ -783,21 +779,21 @@ The fix consists of changing the 20 minutes timeout on the entire System Compone
 <li>The session is now logged out when there's a session fixation mismatch error. CVSSv3.1 score 3.7 (Low). (RRCT-2893)</li>
 <li>Fixed a security vulnerability. CVSSv3.1 score 7.4 (High). (RTAFB-2226)</li>
 </ul>
-</div><div class="mt-section" id="section_3" mt-section-origin="Support/Release_Notes/11/Platform_Server/Platform_Server_11.9.0"><span id="Breaking_Changes"></span><h3 id="Breaking_Changes-30387">Breaking Changes</h3>
+</div><div class="mt-section" id="section_3" mt-section-origin="Support/Release_Notes/11/Platform_Server/Platform_Server_11.9.0"><span id="Breaking_Changes"></span><h3 id="Breaking_Changes_2">Breaking Changes</h3>
 <ul>
 <li>The platform now gives preference to usage of specific versions of third-party assemblies that are included in extensions. As a consequence, extensions that incorrectly include .NET Framework assemblies can prevent applications from working correctly due to conflicts between the included assemblies and the assemblies of the .NET Framework installed in the machine. In particular, including the extensions System.Net.Http.dll or System.Runtime.InteropServices.RuntimeInformation.dll causes issues in logging, login, and JSON serialization. (RPM-383) (RPM-386)<br/>
 Check how you can determine the affected extensions and how to adapt them to the new assembly loading behavior in <a class="link-https" href="https://www.outsystems.com/goto/breaking-changes-11#introduced-in-platform-server-1190" rel="external noopener nofollow" target="_blank">OutSystems 11 side effects and breaking changes</a>.</li>
 <li>The KeyStore and SAML actions were moved from the Authentication extension, Authentication.xif, to the SAMLAuthentication extension, SAMLAuthentication.xif. This can cause some broken references when using methods from Authentication.xif that moved to the new module. (RSAT-2104)<br/>
 To fix this behavior, replace dependencies to KeyStore and SAML actions from Authentication to the corresponding actions from SAMLAuthentication.</li>
 </ul>
-</div><div class="mt-section" id="section_4" mt-section-origin="Support/Release_Notes/11/Platform_Server/Platform_Server_11.9.0"><span id="Known_Issues_7"></span><h3 id="Known_Issues-30387">Known Issues</h3>
+</div><div class="mt-section" id="section_4" mt-section-origin="Support/Release_Notes/11/Platform_Server/Platform_Server_11.9.0"><span id="Known_Issues_7"></span><h3 id="Known_Issues_5">Known Issues</h3>
 <ul>
 <li>Deploying a Mobile App from an environment where you enabled the toggle "Distribute as PWA" doesn't automatically enable the same toggle in the target environment. The toggle in the target environment keeps its pre-deployment value. The runtime behavior of these apps may also be affected if the apps are opened in a browser, using PWA or Preview in Devices. You must manually activate the toggle "Distribute as PWA" for the Mobile App in the target environment.</li>
 </ul>
 <p> </p>
 <p><b>Disclaimer: </b><i>QR CODE is a registered trademark of Denso Wave Incorporated.</i></p>
-<style type="text/css">/*<![CDATA[*/.cattag {background: #f4f2ff; color: #6a6581; padding: 4px 10px;}
-/*]]>*/</style>
+<style type="text/css">.cattag {background: #f4f2ff; color: #6a6581; padding: 4px 10px;}
+</style>
 </div></div><span id="Platform_Server_11.8.4"></span><h2 id="Platform_Server_11.8.4">Platform Server 11.8.4</h2><br/><div class="mt-include" id="s32970">
 <div class="info"><p>Released on Apr 27, 2021</p></div>
 <li>Fixed a security issue related to CVE-2019-11358 that could affect the behavior of client-side runtime. CVSSv3.1 score 6.1 (Medium). (RPM-621)</li>
@@ -809,12 +805,12 @@ To fix this behavior, replace dependencies to KeyStore and SAML actions from Aut
 <li>Fixed a security vulnerability. CVSSv3.1 score 7.2 (High) (RPM-813)</li>
 </div><span id="Platform_Server_11.8.2"></span><h2 id="Platform_Server_11.8.2">Platform Server 11.8.2</h2><br/><div class="mt-include" id="s29745">
 <div class="info"><p>Released on May 26, 2020</p></div>
-<div class="mt-section" id="section_1" mt-section-origin="Support/Release_Notes/11/Platform_Server/Platform_Server_11.8.2"><span id="New_in_Platform_Server_11.8.2"></span><h3 id="New_in_Platform_Server_11.8.2-29745">New in Platform Server 11.8.2</h3>
+<div class="mt-section" id="section_1" mt-section-origin="Support/Release_Notes/11/Platform_Server/Platform_Server_11.8.2"><span id="New_in_Platform_Server_11.8.2"></span><h3 id="New_in_Platform_Server_11.8.2">New in Platform Server 11.8.2</h3>
 <ul>
 <li>Improved the overall performance of compilation and runtime of local storage for PWAs. (RAR-98)</li>
 <li>We improved the performance of the client-side Aggregates in the PWAs and the apps running in the browser. (RTAF-2160)</li>
 </ul>
-</div><div class="mt-section" id="section_2" mt-section-origin="Support/Release_Notes/11/Platform_Server/Platform_Server_11.8.2"><span id="Bug_Fixing_20"></span><h3 id="Bug_Fixing-29745">Bug Fixing</h3>
+</div><div class="mt-section" id="section_2" mt-section-origin="Support/Release_Notes/11/Platform_Server/Platform_Server_11.8.2"><span id="Bug_Fixing_20"></span><h3 id="Bug_Fixing_19">Bug Fixing</h3>
 <ul>
 <li>Fixed an issue that prevented the preview of the Upload widget to display the correct image. (RAR-106)</li>
 <li>Fixed a bug where aggregates that contained a Binary Data attribute failed to execute in mobile apps when running on the browser/PWA on iOS/macOS. (RAR-135)</li>
@@ -825,12 +821,12 @@ To fix this behavior, replace dependencies to KeyStore and SAML actions from Aut
 <li>Reduced the number of IIS threads necessary for the asynchronous logging to work. (RPC-1259)</li>
 </ul></div></div><span id="Platform_Server_11.8.1"></span><h2 id="Platform_Server_11.8.1">Platform Server 11.8.1</h2><br/><div class="mt-include" id="s29581">
 <div class="info"><p>Released on May 18, 2020</p></div>
-<div class="mt-section" id="section_1" mt-section-origin="Support/Release_Notes/11/Platform_Server/Platform_Server_11.8.1"><span id="New_in_Platform_Server_11.8.1"></span><h3 id="New_in_Platform_Server_11.8.1-29581">New in Platform Server 11.8.1</h3>
+<div class="mt-section" id="section_1" mt-section-origin="Support/Release_Notes/11/Platform_Server/Platform_Server_11.8.1"><span id="New_in_Platform_Server_11.8.1"></span><h3 id="New_in_Platform_Server_11.8.1">New in Platform Server 11.8.1</h3>
 <ul>
 <li>We improved the user experience for activating Single Sign-On Between App Types (SSO) in Service Center &gt; Administration &gt; Security &gt; Applications Authentication. Service Center now checks the requirements beforehand and determines whether security is managed in LifeTime. (RTAF-2459)</li>
 <li>We improved the user experience for deactivating Single Sign-On Between App Types (SSO) in Service Center &gt; Administration &gt; Security &gt; Applications Authentication. Now there's a message informing you which options need to be off when deactivating SSO. (RTAF-2535)</li>
 </ul>
-</div><div class="mt-section" id="section_2" mt-section-origin="Support/Release_Notes/11/Platform_Server/Platform_Server_11.8.1"><span id="Bug_Fixing_21"></span><h3 id="Bug_Fixing-29581">Bug Fixing</h3>
+</div><div class="mt-section" id="section_2" mt-section-origin="Support/Release_Notes/11/Platform_Server/Platform_Server_11.8.1"><span id="Bug_Fixing_21"></span><h3 id="Bug_Fixing_20">Bug Fixing</h3>
 <ul>
 <li>Fixed an error while using Upload wiget with property capture on Android devices (RPD-4841)</li>
 <li>We fixed the page scrolling up in Reactive Web App when users open a Popup widget. (RTAF-2550)</li>
@@ -851,7 +847,7 @@ To fix this behavior, replace dependencies to KeyStore and SAML actions from Aut
 <li>Fixed an issue that was preventing Service Center to report the correct information about Extensibility Configurations to LifeTime, causing these configurations to always revert to Default when a module was published. (RTAF-2502)</li>
 </ul></div></div><span id="Platform_Server_11.8.0"></span><h2 id="Platform_Server_11.8.0">Platform Server 11.8.0</h2><br/><div class="mt-include" id="s28942">
 <div class="info"><p>Released on Apr 13, 2020</p></div>
-<div class="mt-section" id="section_1" mt-section-origin="Support/Release_Notes/11/Platform_Server/Platform_Server_11.8.0"><span id="New_in_Platform_Server_11.8.0"></span><h3 id="New_in_Platform_Server_11.8.0-28942">New in Platform Server 11.8.0</h3>
+<div class="mt-section" id="section_1" mt-section-origin="Support/Release_Notes/11/Platform_Server/Platform_Server_11.8.0"><span id="New_in_Platform_Server_11.8.0"></span><h3 id="New_in_Platform_Server_11.8.0">New in Platform Server 11.8.0</h3>
 <ul>
 <li>Added a progress bar to Service Center operation pages, such as publish or apply settings, in order to improve the visibility of the progress and status of the operation. (RLIT-3565)</li>
 <li>Reviewed the sections for granting security levels to Users or Roles in several screens, improving the copy and pattern used.  (RLIT-3119)</li>
@@ -871,7 +867,7 @@ You'll also see a new warning in the sidebar whenever the environment has pendin
 <li>Local storage for PWAs now takes advantage of IndexedDB. IndexedDB ensures better compatibility with modern browsers. IMPORTANT: The change of the database engine deletes the browser app data in your existing PWAs. If you notice runtime issues in PWAs, delete the site storage for the app domain. (RTAF-1188)</li>
 <li>We implemented the single sign-on (SSO) for Traditional, Reactive Web and Progressive Web Apps (PWAs). Your users now sign in to one app and switch to the other apps without having to sign in again. (RTAF-1874)</li>
 </ul>
-</div><div class="mt-section" id="section_2" mt-section-origin="Support/Release_Notes/11/Platform_Server/Platform_Server_11.8.0"><span id="Bug_Fixing_22"></span><h3 id="Bug_Fixing-28942">Bug Fixing</h3>
+</div><div class="mt-section" id="section_2" mt-section-origin="Support/Release_Notes/11/Platform_Server/Platform_Server_11.8.0"><span id="Bug_Fixing_22"></span><h3 id="Bug_Fixing_21">Bug Fixing</h3>
 <ul>
 <li>Fixed an issue that caused registering duplicated Application Templates. (RTAF-1847)</li>
 <li>Fixed error detection in the compilation process. Subsequent errors could hide the original error cause. (RPC-888)</li>
@@ -940,7 +936,7 @@ Fixed Applications screens to only allow access to users that have access to the
 <li>Fixed a security issue that allowed decrypting sensitive information. CVSSv3.0 score 5.3 (Medium). (RLIT-3562)</li>
 <li>Fixed a security vulnerability. CVSSv3.1 score 8.3 (High). (RDEV-2256)</li>
 </ul>
-</div><div class="mt-section" id="section_3" mt-section-origin="Support/Release_Notes/11/Platform_Server/Platform_Server_11.8.0"><span id="Known_Issues_8"></span><h3 id="Known_Issues-28942">Known Issues</h3>
+</div><div class="mt-section" id="section_3" mt-section-origin="Support/Release_Notes/11/Platform_Server/Platform_Server_11.8.0"><span id="Known_Issues_8"></span><h3 id="Known_Issues_6">Known Issues</h3>
 <ul>
 <li> Publishing Mobile apps that use local storage may take longer than usual or fail due to a timeout.<br/>
 The runtime behavior of these apps may also be affected if the apps are opened in a browser, using PWA or Preview in Devices.<br/>
@@ -959,7 +955,7 @@ To overcome this issue, use <a class="link-https" href="https://www.outsystems.c
 <li>Fixed a security vulnerability. CVSSv3.1 score 7.2 (High) (RPM-813)</li>
 </div><span id="Platform_Server_11.7.3"></span><h2 id="Platform_Server_11.7.3">Platform Server 11.7.3</h2><br/><div class="mt-include" id="s28503">
 <div class="info"><p>Released on Feb 17, 2020</p></div>
-<div class="mt-section" id="section_1" mt-section-origin="Support/Release_Notes/11/Platform_Server/Platform_Server_11.7.3"><span id="Bug_Fixing_23"></span><h3 id="Bug_Fixing-28503">Bug Fixing</h3>
+<div class="mt-section" id="section_1" mt-section-origin="Support/Release_Notes/11/Platform_Server/Platform_Server_11.7.3"><span id="Bug_Fixing_23"></span><h3 id="Bug_Fixing_22">Bug Fixing</h3>
 <ul>
 <li>Fixed error when resetting Authentication configuration in the Users application after upgrading from previous Platform Server 11.7.x versions. (RSBO-1110)</li>
 <li>Fixed an issue in Configuration Tool when there's an incomplete SAML configuration, occurring in Oracle Databases. (RSBO-1222)</li>
@@ -975,7 +971,7 @@ To overcome this issue, use <a class="link-https" href="https://www.outsystems.c
 <div class="info">
 <p>Released on Jan 20, 2020</p>
 </div>
-<div class="mt-section" id="section_1" mt-section-origin="Support/Release_Notes/11/Platform_Server/Platform_Server_11.7.2"><span id="Bug_Fixing_24"></span><h3 id="Bug_Fixing-28492">Bug Fixing</h3>
+<div class="mt-section" id="section_1" mt-section-origin="Support/Release_Notes/11/Platform_Server/Platform_Server_11.7.2"><span id="Bug_Fixing_24"></span><h3 id="Bug_Fixing_23">Bug Fixing</h3>
 <ul>
 <li>Fixed the triggering of the onclick event with a Rich Widget Popup Editor on a Screen/Block that would cause the onclick event handlers of its parents to trigger during the screen rendering. (RTAF-2089)</li>
 </ul>
@@ -983,12 +979,12 @@ To overcome this issue, use <a class="link-https" href="https://www.outsystems.c
 <div class="info">
 <p>Removed from availability on Jan 20, 2020</p>
 </div>
-<div class="mt-section" id="section_1" mt-section-origin="Support/Release_Notes/11/Platform_Server/Platform_Server_11.7.1"><span id="Bug_Fixing_25"></span><h3 id="Bug_Fixing-28387">Bug Fixing</h3>
+<div class="mt-section" id="section_1" mt-section-origin="Support/Release_Notes/11/Platform_Server/Platform_Server_11.7.1"><span id="Bug_Fixing_25"></span><h3 id="Bug_Fixing_24">Bug Fixing</h3>
 <ul>
 <li>Fixed a bug related to the Rich Widgets Pop-Up pattern and the List Bulk Select widget, where a link/button triggered a pop-up and had the link/button associated with the List Bulk Select widget. (RTAF-2062)</li>
 <li>Fixed the multiple executions of Screen Preparation Action that occurred when you used Rich Widgets File Upload in the Screen. (RTAF-2064)</li>
 </ul>
-</div><div class="mt-section" id="section_2" mt-section-origin="Support/Release_Notes/11/Platform_Server/Platform_Server_11.7.1"><span id="Known_Issues_9"></span><h3 id="Known_Issues-28387">Known Issues</h3>
+</div><div class="mt-section" id="section_2" mt-section-origin="Support/Release_Notes/11/Platform_Server/Platform_Server_11.7.1"><span id="Known_Issues_9"></span><h3 id="Known_Issues_7">Known Issues</h3>
 <ul>
 <li>In Screens or Blocks with a nested Popup_Editor Rich Widget, the onclick event handlers of its parents can be triggered during the screen rendering, leading to unexpected runtime behavior.</li>
 </ul>
@@ -996,7 +992,7 @@ To overcome this issue, use <a class="link-https" href="https://www.outsystems.c
 <div class="info">
 <p>Removed from availability on Jan 17, 2020</p>
 </div>
-<div class="mt-section" id="section_1" mt-section-origin="Support/Release_Notes/11/Platform_Server/Platform_Server_11.7.0"><span id="New_in_Platform_Server_11.7.0"></span><h3 id="New_in_Platform_Server_11.7.0-28350">New in Platform Server 11.7.0</h3>
+<div class="mt-section" id="section_1" mt-section-origin="Support/Release_Notes/11/Platform_Server/Platform_Server_11.7.0"><span id="New_in_Platform_Server_11.7.0"></span><h3 id="New_in_Platform_Server_11.7.0">New in Platform Server 11.7.0</h3>
 <ul>
 <li>It is now possible to consume REST APIs using Swagger specifications that have enum elements. (RSBO-872)</li>
 <li>Added support for accent-sensitive Linguistic sorts on Oracle databases. (RSAT-1844)</li>
@@ -1023,7 +1019,7 @@ Factory Configuration was also updated to version 11.0.4 to be compatible with t
 <li>Added three optional input parameters to configure additional Cookie settings in HTTPRequestHandler. (RTAF-1774)</li>
 <li>End-users of OutSystems applications are now classified as Internal Users or External Users, based on the domain of their email addresses. You can configure the classification rules in the Licensing screen of Service Center. (RSBO-1016)</li>
 </ul>
-</div><div class="mt-section" id="section_2" mt-section-origin="Support/Release_Notes/11/Platform_Server/Platform_Server_11.7.0"><span id="Bug_Fixing_26"></span><h3 id="Bug_Fixing-28350">Bug Fixing</h3>
+</div><div class="mt-section" id="section_2" mt-section-origin="Support/Release_Notes/11/Platform_Server/Platform_Server_11.7.0"><span id="Bug_Fixing_26"></span><h3 id="Bug_Fixing_25">Bug Fixing</h3>
 <ul>
 <li>Fixed an issue that was incorrectly triggering the "Required Field" validation message for a Button Group. (RPD-3591)</li>
 <li>The QR code to test a mobile app using OutSystems Now wasn't being generated when the URL contained special characters (e.g. ç, à, á, í, etc). (RPD-4435)</li>
@@ -1061,11 +1057,11 @@ Factory Configuration was also updated to version 11.0.4 to be compatible with t
 <li>Fixed an issue in Platform Server installer that prevented the installation process due to inability to detect Microsoft Build Tools with Update 1 or with Update 2. (RSAT-1855)</li>
 <li>Fixed share folders being deleted between the first stage and the second stage of a solution publish when a module is being published for the first time. (RPD-4503)</li>
 </ul>
-</div><div class="mt-section" id="section_3" mt-section-origin="Support/Release_Notes/11/Platform_Server/Platform_Server_11.7.0"><span id="Breaking_Change_3"></span><h3 id="Breaking_Change-28350">Breaking Change</h3>
+</div><div class="mt-section" id="section_3" mt-section-origin="Support/Release_Notes/11/Platform_Server/Platform_Server_11.7.0"><span id="Breaking_Change_3"></span><h3 id="Breaking_Change_3">Breaking Change</h3>
 <ul>
 <li>Upgraded SharpZipLib library to version 1.1.0. It is recommended to test application features related to Zip and Excel files. Note that third party-Excel components based on old versions of NPOI may need to be upgraded to work correctly. (RRCT-2368)</li>
 </ul>
-</div><div class="mt-section" id="section_4" mt-section-origin="Support/Release_Notes/11/Platform_Server/Platform_Server_11.7.0"><span id="Known_Issues_10"></span><h3 id="Known_Issues-28350">Known Issues</h3>
+</div><div class="mt-section" id="section_4" mt-section-origin="Support/Release_Notes/11/Platform_Server/Platform_Server_11.7.0"><span id="Known_Issues_10"></span><h3 id="Known_Issues_8">Known Issues</h3>
 <ul>
 <li>When using the File Upload Rich Widget in a Screen that includes assigns to local variables shared between Preparation and OnNotify actions, Preparation runs multiple times, which may result in data corruption or unexpected runtime behavior.</li>
 </ul>
@@ -1087,19 +1083,19 @@ Factory Configuration was also updated to version 11.0.4 to be compatible with t
 </ul>
 </div><span id="Platform_Server_Release_Oct.2019_CP6"></span><h2 id="Platform_Server_Release_Oct.2019_CP6">Platform Server Release Oct.2019 CP6</h2><br/><div class="mt-include" id="s28501">
 <div class="info"><p>Released on Jan 20, 2020</p></div>
-<div class="mt-section" id="section_1" mt-section-origin="Support/Release_Notes/11/Platform_Server/Platform_Server_Release_Oct.2019_CP6"><span id="Bug_Fixing_27"></span><h3 id="Bug_Fixing-28501">Bug Fixing</h3>
+<div class="mt-section" id="section_1" mt-section-origin="Support/Release_Notes/11/Platform_Server/Platform_Server_Release_Oct.2019_CP6"><span id="Bug_Fixing_27"></span><h3 id="Bug_Fixing_26">Bug Fixing</h3>
 <ul>
 <li>Fixed an error that showed that triggered an onclick event when a nested Rich Widget Popup Editor was present. (RTAF-2089)</li>
 </ul></div></div><span id="Platform_Server_Release_Oct.2019_CP5"></span><h2 id="Platform_Server_Release_Oct.2019_CP5">Platform Server Release Oct.2019 CP5</h2><br/><div class="mt-include" id="s28484">
 <div class="info">
 <p>Removed from availability on Jan 20, 2020</p>
 </div>
-<div class="mt-section" id="section_1" mt-section-origin="Support/Release_Notes/11/Platform_Server/Platform_Server_Release_Oct.2019_CP5"><span id="Bug_Fixing_28"></span><h3 id="Bug_Fixing-28484">Bug Fixing</h3>
+<div class="mt-section" id="section_1" mt-section-origin="Support/Release_Notes/11/Platform_Server/Platform_Server_Release_Oct.2019_CP5"><span id="Bug_Fixing_28"></span><h3 id="Bug_Fixing_27">Bug Fixing</h3>
 <ul>
 <li>Fixed an error that showed when using the Rich Widgets Pop-Up pattern with the List Bulk Select widget, where a link/button triggered a pop-up and had the link/button associated with the List Bulk Select widget. (RTAF-2062)</li>
 <li>Fixed the multiple executions of Screen Preparation Action that occurred when you used Rich Widgets File Upload in the Screen. (RTAF-2064)</li>
 </ul>
-</div><div class="mt-section" id="section_2" mt-section-origin="Support/Release_Notes/11/Platform_Server/Platform_Server_Release_Oct.2019_CP5"><span id="Known_Issues_11"></span><h3 id="Known_Issues-28484">Known Issues</h3>
+</div><div class="mt-section" id="section_2" mt-section-origin="Support/Release_Notes/11/Platform_Server/Platform_Server_Release_Oct.2019_CP5"><span id="Known_Issues_11"></span><h3 id="Known_Issues_9">Known Issues</h3>
 <ul>
 <li>In Screens or Blocks with a nested Popup_Editor Rich Widget, the onclick event handlers of its parents can be triggered during the screen rendering, leading to unexpected runtime behavior.</li>
 </ul>
@@ -1107,28 +1103,28 @@ Factory Configuration was also updated to version 11.0.4 to be compatible with t
 <div class="info">
 <p>Removed from availability on Jan 17, 2020</p>
 </div>
-<div class="mt-section" id="section_1" mt-section-origin="Support/Release_Notes/11/Platform_Server/Platform_Server_Release_Oct.2019_CP4"><span id="New_in_Platform_Server_Release_Oct.2019_CP4"></span><h3 id="New_in_Platform_Server_Release_Oct.2019_CP4-28271">New in Platform Server Release Oct.2019 CP4</h3>
+<div class="mt-section" id="section_1" mt-section-origin="Support/Release_Notes/11/Platform_Server/Platform_Server_Release_Oct.2019_CP4"><span id="New_in_Platform_Server_Release_Oct.2019_CP4"></span><h3 id="New_in_Platform_Server_Release_Oct.2019_CP4">New in Platform Server Release Oct.2019 CP4</h3>
 <ul>
 <li>Added new environment security options to force Secure and SameSite properties in cookies generated by the platform. Check the document <a href="https://success.outsystems.com/Support/Enterprise_Customers/Maintenance_and_Operations/Upcoming_changes_in_cookie_handling_in_Google_Chrome#Release_schedule" rel="internal">Upcoming changes in cookie handling in Google Chrome</a> for more information. (RPC-502)</li>
 <li>Added three optional input parameters to configure additional Cookie settings in HTTPRequestHandler. (RTAF-1774)</li>
 </ul>
-</div><div class="mt-section" id="section_2" mt-section-origin="Support/Release_Notes/11/Platform_Server/Platform_Server_Release_Oct.2019_CP4"><span id="Bug_Fixing_29"></span><h3 id="Bug_Fixing-28271">Bug Fixing</h3>
+</div><div class="mt-section" id="section_2" mt-section-origin="Support/Release_Notes/11/Platform_Server/Platform_Server_Release_Oct.2019_CP4"><span id="Bug_Fixing_29"></span><h3 id="Bug_Fixing_28">Bug Fixing</h3>
 <ul>
 <li>Fixed a security vulnerability. CVSSv3.0 score 7.2 (High). (RPD-4310)</li>
 <li>Fixed a security vulnerability. CVSSv3.0 score 7.6 (High). (RPD-4260)</li>
 <li>Fixed an issue that occurred while deleting applications. CVSS v3.0 score 3.8 (Low). (RPC-607)</li>
 </ul>
-</div><div class="mt-section" id="section_3" mt-section-origin="Support/Release_Notes/11/Platform_Server/Platform_Server_Release_Oct.2019_CP4"><span id="Known_Issues_12"></span><h3 id="Known_Issues-28271">Known Issues</h3>
+</div><div class="mt-section" id="section_3" mt-section-origin="Support/Release_Notes/11/Platform_Server/Platform_Server_Release_Oct.2019_CP4"><span id="Known_Issues_12"></span><h3 id="Known_Issues_10">Known Issues</h3>
 <ul>
 <li>When using the File Upload Rich Widget in a Screen that includes assigns to local variables shared between Preparation and OnNotify actions, Preparation runs multiple times, which may result in data corruption or unexpected runtime behavior.</li>
 </ul>
 </div></div><span id="Platform_Server_Release_Oct.2019_CP3"></span><h2 id="Platform_Server_Release_Oct.2019_CP3">Platform Server Release Oct.2019 CP3</h2><br/><div class="mt-include" id="s27775">
 <div class="info"><p>Released on Nov 25, 2019</p></div>
-<div class="mt-section" id="section_1" mt-section-origin="Support/Release_Notes/11/Platform_Server/Platform_Server_Release_Oct.2019_CP3"><span id="New_in_Platform_Server_Release_Oct.2019_CP3"></span><h3 id="New_in_Platform_Server_Release_Oct.2019_CP3-27775">New in Platform Server Release Oct.2019 CP3</h3>
+<div class="mt-section" id="section_1" mt-section-origin="Support/Release_Notes/11/Platform_Server/Platform_Server_Release_Oct.2019_CP3"><span id="New_in_Platform_Server_Release_Oct.2019_CP3"></span><h3 id="New_in_Platform_Server_Release_Oct.2019_CP3">New in Platform Server Release Oct.2019 CP3</h3>
 <ul>
 <li>Added support for Oracle 19c. This applies to the platform database, as well as external databases. (RSAT-1859)</li>
 </ul>
-</div><div class="mt-section" id="section_2" mt-section-origin="Support/Release_Notes/11/Platform_Server/Platform_Server_Release_Oct.2019_CP3"><span id="Bug_Fixing_30"></span><h3 id="Bug_Fixing-27775">Bug Fixing</h3>
+</div><div class="mt-section" id="section_2" mt-section-origin="Support/Release_Notes/11/Platform_Server/Platform_Server_Release_Oct.2019_CP3"><span id="Bug_Fixing_30"></span><h3 id="Bug_Fixing_29">Bug Fixing</h3>
 <ul>
 <li>Fixed an issue in SEO Friendly URLs that was preventing new alias rules for modules to work properly in Oracle stack. (RPD-4436)</li>
 <li>Fixed an issue that was incorrectly triggering the "Required Field" validation message for a Button Group. (RPD-3591)</li>
@@ -1139,12 +1135,12 @@ Factory Configuration was also updated to version 11.0.4 to be compatible with t
 <li>Fixed Service Center application pool crashes in error request scenarios. (RPD-4486)</li>
 </ul> </div></div><span id="Platform_Server_Release_Oct.2019_CP2"></span><h2 id="Platform_Server_Release_Oct.2019_CP2">Platform Server Release Oct.2019 CP2</h2><br/><div class="mt-include" id="s27332">
 <div class="info"><p>Released on Nov 07, 2019</p></div>
-<div class="mt-section" id="section_1" mt-section-origin="Support/Release_Notes/11/Platform_Server/Platform_Server_Release_Oct.2019_CP2"><span id="New_in_Platform_Server_Release_Oct.2019_CP2"></span><h3 id="New_in_Platform_Server_Release_Oct.2019_CP2-27332">New in Platform Server Release Oct.2019 CP2</h3>
+<div class="mt-section" id="section_1" mt-section-origin="Support/Release_Notes/11/Platform_Server/Platform_Server_Release_Oct.2019_CP2"><span id="New_in_Platform_Server_Release_Oct.2019_CP2"></span><h3 id="New_in_Platform_Server_Release_Oct.2019_CP2">New in Platform Server Release Oct.2019 CP2</h3>
 <ul>
 <li>Added support for Oracle 18c. This applies both to the platform database and to external databases. (RSAT-1860)</li>
 <li>It's now possible to use Client Variables in Aggregates. (RTAF-1334)</li>
 </ul>
-</div><div class="mt-section" id="section_2" mt-section-origin="Support/Release_Notes/11/Platform_Server/Platform_Server_Release_Oct.2019_CP2"><span id="Bug_Fixing_31"></span><h3 id="Bug_Fixing-27332">Bug Fixing</h3>
+</div><div class="mt-section" id="section_2" mt-section-origin="Support/Release_Notes/11/Platform_Server/Platform_Server_Release_Oct.2019_CP2"><span id="Bug_Fixing_31"></span><h3 id="Bug_Fixing_30">Bug Fixing</h3>
 <ul>
 <li>Fixed an issue that was preventing mobile apps from installing on iPadOS 13. (RNMT-3294)</li>
 <li>Button Group widget now gets the selected value style when the value's data type is different from text or number. (RTAF-1260)</li>
@@ -1165,16 +1161,16 @@ Factory Configuration was also updated to version 11.0.4 to be compatible with t
 <li>Fixed incorrect tenant for eSpaces using an overridden effective user provider. (RPD-4377)</li>
 </ul></div></div><span id="Platform_Server_Release_Oct.2019_CP1"></span><h2 id="Platform_Server_Release_Oct.2019_CP1">Platform Server Release Oct.2019 CP1</h2><br/><div class="mt-include" id="s27287">
 <div class="info"><p>Released on Oct 09, 2019</p></div>
-<div class="mt-section" id="section_1" mt-section-origin="Support/Release_Notes/11/Platform_Server/Platform_Server_Release_Oct.2019_CP1"><span id="Bug_Fixing_32"></span><h3 id="Bug_Fixing-27287">Bug Fixing</h3>
+<div class="mt-section" id="section_1" mt-section-origin="Support/Release_Notes/11/Platform_Server/Platform_Server_Release_Oct.2019_CP1"><span id="Bug_Fixing_32"></span><h3 id="Bug_Fixing_31">Bug Fixing</h3>
 <ul>
 <li>We deactivated the data fetching optimization in Reactive Web Apps, after identifying a severe issue. If you are using Platform Server 11 Release Oct.2019 we strongly advise that you upgrade Platform Server and republish your apps, as instructed in the Installation Checklist. (RTAF-1537)</li>
 </ul>
-</div><div class="mt-section" id="section_2" mt-section-origin="Support/Release_Notes/11/Platform_Server/Platform_Server_Release_Oct.2019_CP1"><span id="Known_Issues_13"></span><h3 id="Known_Issues-27287">Known Issues</h3>
+</div><div class="mt-section" id="section_2" mt-section-origin="Support/Release_Notes/11/Platform_Server/Platform_Server_Release_Oct.2019_CP1"><span id="Known_Issues_13"></span><h3 id="Known_Issues_11">Known Issues</h3>
 <ul>
 <li>When using an External Authentication provider (Active Directory or LDAP), if a user tries to view the details of a module in Service Center, he is redirected to the Service Center homepage.</li>
 </ul></div></div><span id="Platform_Server_Release_Oct.2019"></span><h2 id="Platform_Server_Release_Oct.2019">Platform Server Release Oct.2019</h2><br/><div class="mt-include" id="s26778">
 <div class="info"><p>Released on Oct 02, 2019</p></div>
-<div class="mt-section" id="section_1" mt-section-origin="Support/Release_Notes/11/Platform_Server/Platform_Server_Release_Oct.2019"><span id="New_in_Platform_Server_Release_Oct.2019"></span><h3 id="New_in_Platform_Server_Release_Oct.2019-26778">New in Platform Server Release Oct.2019</h3>
+<div class="mt-section" id="section_1" mt-section-origin="Support/Release_Notes/11/Platform_Server/Platform_Server_Release_Oct.2019"><span id="New_in_Platform_Server_Release_Oct.2019"></span><h3 id="New_in_Platform_Server_Release_Oct.2019">New in Platform Server Release Oct.2019</h3>
 <ul>
 <li>You can now create a new type of app, <a class="link-https" href="https://www.outsystems.com/DocRouter/Router.aspx?PlatformToolName=ServiceStudio&amp;PlatformVersionNumber=11.0&amp;HelpId=30195" rel="external noopener nofollow" target="_blank">Reactive Web App</a>. This type of app is based on the client-side development paradigm. Reactive App comes with its own new features: Table Widget, server-side pagination, and Public Screens. (RTAF-115)</li>
 <ul>
@@ -1194,7 +1190,7 @@ Factory Configuration was also updated to version 11.0.4 to be compatible with t
 <li>The Users application now includes specific configurations for OKTA, for authenticating the end-users of your OutSystems applications. (RSBO-791)</li>
 <li>Added Server.Identity service to support platform authentication. (RPC-82)</li>
 </ul>
-</div><div class="mt-section" id="section_2" mt-section-origin="Support/Release_Notes/11/Platform_Server/Platform_Server_Release_Oct.2019"><span id="Bug_Fixing_33"></span><h3 id="Bug_Fixing-26778">Bug Fixing</h3>
+</div><div class="mt-section" id="section_2" mt-section-origin="Support/Release_Notes/11/Platform_Server/Platform_Server_Release_Oct.2019"><span id="Bug_Fixing_33"></span><h3 id="Bug_Fixing_32">Bug Fixing</h3>
 <ul>
 <li>Fixed a bug on Mobile Cookies validations where the HTTP response would return an internal error instead 403 status code (Forbidden)  (RRCT-2601)</li>
 <li>Improved some queries during Service Center publication to avoid timeouts on large factories. (RRCT-2598)</li>
@@ -1212,7 +1208,7 @@ Factory Configuration was also updated to version 11.0.4 to be compatible with t
 <li>Fixed compilation problem in modules with a large number of entities in Oracle. (RPD-4268)</li>
 <li>Fixed an issue that caused LifeTime Analytics to have no data on newly created applications. (RPC-177)</li>
 </ul>
-</div><div class="mt-section" id="section_3" mt-section-origin="Support/Release_Notes/11/Platform_Server/Platform_Server_Release_Oct.2019"><span id="Breaking_Change_4"></span><h3 id="Breaking_Change-26778">Breaking Change</h3>
+</div><div class="mt-section" id="section_3" mt-section-origin="Support/Release_Notes/11/Platform_Server/Platform_Server_Release_Oct.2019"><span id="Breaking_Change_4"></span><h3 id="Breaking_Change_4">Breaking Change</h3>
 <ul>
 <li>Upgraded Oracle Data Provider for .NET, Managed driver to version 19.3.1 (4.122.19.1:20190703).
 
@@ -1220,17 +1216,17 @@ According to the <a class="link-https" href="https://docs.oracle.com/en/database
 
 This driver supports native encryption, meaning that you can set up your database to require encryption and this means all connections will be encrypted between the server and the database (applicable for the platform and external databases). (RSAT-1723)</li>
 </ul>
-</div><div class="mt-section" id="section_4" mt-section-origin="Support/Release_Notes/11/Platform_Server/Platform_Server_Release_Oct.2019"><span id="Known_Issues_14"></span><h3 id="Known_Issues-26778">Known Issues</h3>
+</div><div class="mt-section" id="section_4" mt-section-origin="Support/Release_Notes/11/Platform_Server/Platform_Server_Release_Oct.2019"><span id="Known_Issues_14"></span><h3 id="Known_Issues_12">Known Issues</h3>
 <ul>
 <li>When using an External Authentication provider (Active Directory or LDAP), if a user tries to view the details of a module in Service Center, he is redirected to the Service Center homepage.</li>
 </ul> </div></div><span id="Platform_Server_Release_Jul.2019_CP2"></span><h2 id="Platform_Server_Release_Jul.2019_CP2">Platform Server Release Jul.2019 CP2</h2><br/><div class="mt-include" id="s26662">
 <div class="info"><p>Released on Aug 23, 2019</p></div>
-<div class="mt-section" id="section_1" mt-section-origin="Support/Release_Notes/11/Platform_Server/Platform_Server_Release_Jul.2019_CP2"><span id="New_in_Platform_Server_Release_Jul.2019_CP2"></span><h3 id="New_in_Platform_Server_Release_Jul.2019_CP2-26662">New in Platform Server Release Jul.2019 CP2</h3>
+<div class="mt-section" id="section_1" mt-section-origin="Support/Release_Notes/11/Platform_Server/Platform_Server_Release_Jul.2019_CP2"><span id="New_in_Platform_Server_Release_Jul.2019_CP2"></span><h3 id="New_in_Platform_Server_Release_Jul.2019_CP2">New in Platform Server Release Jul.2019 CP2</h3>
 <ul>
 <li>The installation checklist now includes the instructions to disable Adaptive Optimizer features (OPTIMIZER_ADAPTIVE_PLANS, OPTIMIZER_ADAPTIVE_STATISTICS) in Oracle 12c R2. (RSAT-1623)</li>
 <li>The Users application now supports SAML 2.0 authentication out of the box, including specific configurations for Azure AD, for authenticating the end-users of your OutSystems applications. (RSBO-540)</li>
 </ul>
-</div><div class="mt-section" id="section_2" mt-section-origin="Support/Release_Notes/11/Platform_Server/Platform_Server_Release_Jul.2019_CP2"><span id="Bug_Fixing_34"></span><h3 id="Bug_Fixing-26662">Bug Fixing</h3>
+</div><div class="mt-section" id="section_2" mt-section-origin="Support/Release_Notes/11/Platform_Server/Platform_Server_Release_Jul.2019_CP2"><span id="Bug_Fixing_34"></span><h3 id="Bug_Fixing_33">Bug Fixing</h3>
 <ul>
 <li>Fixed brute force login check that blocked all logins behind a proxy when the X-Forwarded-For header field included a port number. (RPD-4272)</li>
 <li>Fixed issue so inputs inside forms properly create an anchor element with text (conforming with WCAG21 AAA). (RPD-4274)</li>
@@ -1240,12 +1236,12 @@ This driver supports native encryption, meaning that you can set up your databas
 <div class="info">
 <p>Released on Jul 25, 2019</p>
 </div>
-<div class="mt-section" id="section_1" mt-section-origin="Support/Release_Notes/11/Platform_Server/Platform_Server_Release_Jul.2019_CP1"><span id="New_in_Platform_Server_Release_Jul.2019_CP1"></span><h3 id="New_in_Platform_Server_Release_Jul.2019_CP1-26504">New in Platform Server Release Jul.2019 CP1</h3>
+<div class="mt-section" id="section_1" mt-section-origin="Support/Release_Notes/11/Platform_Server/Platform_Server_Release_Jul.2019_CP1"><span id="New_in_Platform_Server_Release_Jul.2019_CP1"></span><h3 id="New_in_Platform_Server_Release_Jul.2019_CP1">New in Platform Server Release Jul.2019 CP1</h3>
 <ul>
 <li>Added support for TLS 1.1 and TLS 1.2 on MySQL external database connections. Warning: OutSystems now distributes BouncyCastle (v1.8.3) and Google.Protobuf (v.3.6.1.0) alongside the MySQL driver - this may impact the existing extensions that use different versions. (RSAT-1258)</li>
 <li>Downloading a mobile app by scanning the QR code in Service Studio is now possible on iOS 13. (RTAF-628)</li>
 </ul>
-</div><div class="mt-section" id="section_2" mt-section-origin="Support/Release_Notes/11/Platform_Server/Platform_Server_Release_Jul.2019_CP1"><span id="Bug_Fixing_35"></span><h3 id="Bug_Fixing-26504">Bug Fixing</h3>
+</div><div class="mt-section" id="section_2" mt-section-origin="Support/Release_Notes/11/Platform_Server/Platform_Server_Release_Jul.2019_CP1"><span id="Bug_Fixing_35"></span><h3 id="Bug_Fixing_34">Bug Fixing</h3>
 <ul>
 <li>Fixed an issue that prevented some Dependencies to be added in Search in other Modules. (RDEV-413)</li>
 <li>Fixed a security vulnerability. CVSSv3.0 score 7.5 (High). (RNMT-2812)</li>
@@ -1264,7 +1260,7 @@ This driver supports native encryption, meaning that you can set up your databas
 <div class="info">
 <p>Released on Jul 11, 2019</p>
 </div>
-<div class="mt-section" id="section_1" mt-section-origin="Support/Release_Notes/11/Platform_Server/Platform_Server_Release_Jul.2019"><span id="New_in_Platform_Server_Release_Jul.2019"></span><h3 id="New_in_Platform_Server_Release_Jul.2019-26435">New in Platform Server Release Jul.2019</h3>
+<div class="mt-section" id="section_1" mt-section-origin="Support/Release_Notes/11/Platform_Server/Platform_Server_Release_Jul.2019"><span id="New_in_Platform_Server_Release_Jul.2019"></span><h3 id="New_in_Platform_Server_Release_Jul.2019">New in Platform Server Release Jul.2019</h3>
 <ul>
 <li>Added a new option in the "Single Sign-On" tab in Service Center. It allows you to bootstrap the admin password for the user provider. (RLIT-2571)</li>
 <li>When configuring a mobile application, it is now possible to choose the version of the Mobile Apps Build Service (MABS) that will be used to generate the mobile app package. (RNMT-2296)</li>
@@ -1279,7 +1275,7 @@ This driver supports native encryption, meaning that you can set up your databas
 <li>You will need to install the latest version of the Development Environment in the Deployment Controller Server to ensure that you can benefit from the latest features and developments. This is now a <strong>required step</strong> when installing Platform Server feature patches and cumulative patches. (RSCT-1898)</li>
 <li>Early access: We are working on new capabilities that will accelerate the development of web applications. (RTAF-115)</li>
 </ul>
-</div><div class="mt-section" id="section_2" mt-section-origin="Support/Release_Notes/11/Platform_Server/Platform_Server_Release_Jul.2019"><span id="Bug_Fixing_36"></span><h3 id="Bug_Fixing-26435">Bug Fixing</h3>
+</div><div class="mt-section" id="section_2" mt-section-origin="Support/Release_Notes/11/Platform_Server/Platform_Server_Release_Jul.2019"><span id="Bug_Fixing_36"></span><h3 id="Bug_Fixing_35">Bug Fixing</h3>
 <ul>
 <li>Fixed compilation error that occurred when SOAP Faults were using types based on the .NET CLR (Common Language Runtime). (RPD-3979)</li>
 <li>Fixed bug where it was not possible to use negative Ids for records of Static Entities. (RPD-3263)</li>
@@ -1308,12 +1304,12 @@ This driver supports native encryption, meaning that you can set up your databas
 </ul>
 </div><span id="Platform_Server_Release_Apr.2019_CP1"></span><h2 id="Platform_Server_Release_Apr.2019_CP1">Platform Server Release Apr.2019 CP1</h2><br/><div class="mt-include" id="s25840">
 <div class="info"><p>Released on May 17, 2019</p></div>
-<div class="mt-section" id="section_1" mt-section-origin="Support/Release_Notes/11/Platform_Server/Platform_Server_Release_Apr.2019_CP1"><span id="New_in_Platform_Server_Release_Apr.2019_CP1"></span><h3 id="New_in_Platform_Server_Release_Apr.2019_CP1-25840">New in Platform Server Release Apr.2019 CP1</h3>
+<div class="mt-section" id="section_1" mt-section-origin="Support/Release_Notes/11/Platform_Server/Platform_Server_Release_Apr.2019_CP1"><span id="New_in_Platform_Server_Release_Apr.2019_CP1"></span><h3 id="New_in_Platform_Server_Release_Apr.2019_CP1">New in Platform Server Release Apr.2019 CP1</h3>
 <ul>
 <li>Added warning when no user is configured for Users app. Removed note saying default admin password. (RLIT-2574)</li>
 <li>Added a new public action (Popup_Editor_GetMessage) to RichWidgets to get the Notify Popup message. (ROU-142)</li>
 </ul>
-</div><div class="mt-section" id="section_2" mt-section-origin="Support/Release_Notes/11/Platform_Server/Platform_Server_Release_Apr.2019_CP1"><span id="Bug_Fixing_37"></span><h3 id="Bug_Fixing-25840">Bug Fixing</h3>
+</div><div class="mt-section" id="section_2" mt-section-origin="Support/Release_Notes/11/Platform_Server/Platform_Server_Release_Apr.2019_CP1"><span id="Bug_Fixing_37"></span><h3 id="Bug_Fixing_36">Bug Fixing</h3>
 <ul>
 <li>Fixed a problem when using ListAppend and ListInsert functions containing an If expression in the List input parameter. (RPD-3984)</li>
 <li>Fixed bug where sometimes when starting the Deploy Service, applications were not deployed automatically (RSCT-1761)</li>
@@ -1322,7 +1318,7 @@ This driver supports native encryption, meaning that you can set up your databas
 <div class="info">
 <p>Released on May 06, 2019</p>
 </div>
-<div class="mt-section" id="section_1" mt-section-origin="Support/Release_Notes/11/Platform_Server/604_Platform_Server_Release_Apr.2019"><span id="New_in_Platform_Server_Release_Apr.2019"></span><h3 id="New_in_Platform_Server_Release_Apr.2019-25673">New in Platform Server Release Apr.2019</h3>
+<div class="mt-section" id="section_1" mt-section-origin="Support/Release_Notes/11/Platform_Server/604_Platform_Server_Release_Apr.2019"><span id="New_in_Platform_Server_Release_Apr.2019"></span><h3 id="New_in_Platform_Server_Release_Apr.2019">New in Platform Server Release Apr.2019</h3>
 <ul>
 <li>Clicking Environment/Module Management in the toolbar now opens Service Center in the default browser instead of render it directly inside Service Studio. (RICT-825)</li>
 <li>We changed the SQL Injection warning message to advise you not to set the use of Expand Inline option to "Yes". The warning helps to follow solid SQL security practices. (RRCT-2128)</li>
@@ -1356,7 +1352,7 @@ The SanitizeHtml action has the following differences when compared with the pre
 <li>Added to FactoryConfiguration the option to include X-Content-Type-Options header with nosniff as a method of preventing MIME sniffing from older browser versions. (RRCT-2270)</li>
 <li>Service Center now links to the detach process documentation instead of launching the No Lock-in tutorial. (RICT-1199)</li>
 </ul>
-</div><div class="mt-section" id="section_2" mt-section-origin="Support/Release_Notes/11/Platform_Server/604_Platform_Server_Release_Apr.2019"><span id="Bug_Fixing_38"></span><h3 id="Bug_Fixing-25673">Bug Fixing</h3>
+</div><div class="mt-section" id="section_2" mt-section-origin="Support/Release_Notes/11/Platform_Server/604_Platform_Server_Release_Apr.2019"><span id="Bug_Fixing_38"></span><h3 id="Bug_Fixing_37">Bug Fixing</h3>
 <ul>
 <li>Fixed incorrect character encoding in packaging of mobile applications. (RRCT-2216)</li>
 <li>Fixed runtime error in client-side Aggregates with dynamic Order By's containing more than one attribute. (RSBO-54)</li>
@@ -1404,7 +1400,7 @@ The SanitizeHtml action has the following differences when compared with the pre
 </ul>
 </div></div><span id="Platform_Server_Release_Jan.2019_CP3"></span><h2 id="Platform_Server_Release_Jan.2019_CP3">Platform Server Release Jan.2019 CP3</h2><br/><div class="mt-include" id="s25793">
 <div class="info"><p>Released on May 06, 2019</p></div>
-<div class="mt-section" id="section_1" mt-section-origin="Support/Release_Notes/11/Platform_Server/526_Platform_Server_Release_Jan.2019_CP3"><span id="Bug_Fixing_39"></span><h3 id="Bug_Fixing-25793">Bug Fixing</h3>
+<div class="mt-section" id="section_1" mt-section-origin="Support/Release_Notes/11/Platform_Server/526_Platform_Server_Release_Jan.2019_CP3"><span id="Bug_Fixing_39"></span><h3 id="Bug_Fixing_38">Bug Fixing</h3>
 <ul>
 <li>Fixed the BPT automatic cleanup process that was marking newly created activities as closed. (RPD-3891)</li>
 <li>The MABS version tag of a mobile application is now correctly updated in Service Center for all environments, including the ones not connected to LifeTime. (RPD-3851)</li>
@@ -1413,7 +1409,7 @@ The SanitizeHtml action has the following differences when compared with the pre
 <li>Fixed an issue with Input_AutoComplete being triggered in IE11 due to an unexpected 'keydown' event. (RPD-3866)</li>
 </ul> </div></div><span id="Platform_Server_Release_Jan.2019_CP2"></span><h2 id="Platform_Server_Release_Jan.2019_CP2">Platform Server Release Jan.2019 CP2</h2><br/><div class="mt-include" id="s23808">
 <div class="info"><p>Released on Mar 14, 2019</p></div>
-<div class="mt-section" id="section_1" mt-section-origin="Support/Release_Notes/11/Platform_Server/525_Platform_Server_Release_Jan.2019_CP2"><span id="Bug_Fixing_40"></span><h3 id="Bug_Fixing-23808">Bug Fixing</h3>
+<div class="mt-section" id="section_1" mt-section-origin="Support/Release_Notes/11/Platform_Server/525_Platform_Server_Release_Jan.2019_CP2"><span id="Bug_Fixing_40"></span><h3 id="Bug_Fixing_39">Bug Fixing</h3>
 <ul>
 <li>We fixed a compilation error in the SOAP web services that prevented module publishing when an array of enums is used directly as output. This affected only applications with the new SOAP implementation. (RINT-3289)</li>
 <li>We fixed a compilation error in the SOAP web services that prevented module publishing in some cases of single unbounded attributes. This affected only applications with the new SOAP implementation. (RINT-3303)</li>
@@ -1440,7 +1436,7 @@ The SanitizeHtml action has the following differences when compared with the pre
 <div class="info">
 <p>Released on Jan 22, 2019</p>
 </div>
-<div class="mt-section" id="section_1" mt-section-origin="Support/Release_Notes/11/Platform_Server/522_Platform_Server_Release_Jan.2019_CP1"><span id="New_in_Platform_Server_Release_Jan.2019_CP1"></span><h3 id="New_in_Platform_Server_Release_Jan.2019_CP1-22822">New in Platform Server Release Jan.2019 CP1</h3>
+<div class="mt-section" id="section_1" mt-section-origin="Support/Release_Notes/11/Platform_Server/522_Platform_Server_Release_Jan.2019_CP1"><span id="New_in_Platform_Server_Release_Jan.2019_CP1"></span><h3 id="New_in_Platform_Server_Release_Jan.2019_CP1">New in Platform Server Release Jan.2019 CP1</h3>
 <ul>
 <li>Added support for Service Actions in Service Center analytics reports. (ABE-618)</li>
 <li>Enabled slow Service Action calls to be displayed in Lifetime's analytics. (ABE-619)</li>
@@ -1455,7 +1451,7 @@ The SanitizeHtml action has the following differences when compared with the pre
 <li>The unattended installation and upgrade process now validates the prerequisites. (RSAT-1023)</li>
 <li>When configuring a mobile application, it is now possible to choose the version of the Mobile Apps Build Service (MABS) that will be used to generate the mobile app package. (RNMT-2296)</li>
 </ul>
-</div><div class="mt-section" id="section_2" mt-section-origin="Support/Release_Notes/11/Platform_Server/522_Platform_Server_Release_Jan.2019_CP1"><span id="Bug_Fixing_41"></span><h3 id="Bug_Fixing-22822">Bug Fixing</h3>
+</div><div class="mt-section" id="section_2" mt-section-origin="Support/Release_Notes/11/Platform_Server/522_Platform_Server_Release_Jan.2019_CP1"><span id="Bug_Fixing_41"></span><h3 id="Bug_Fixing_40">Bug Fixing</h3>
 <ul>
 <li>Fixed a security vulnerability. CVSSv3.0 score 7.1 (High) (RLIT-2388)</li>
 <li>Fixed an issue in the deployment service that was undeploying modules after upgrading from version 10. (RSCT-1773)</li>
@@ -1496,7 +1492,7 @@ The SanitizeHtml action has the following differences when compared with the pre
 <div class="info">
 <p>Removed from availability on Mar 21, 2019</p>
 </div>
-<div class="mt-section" id="section_1" mt-section-origin="Support/Release_Notes/11/Platform_Server/510_Platform_Server_Release_Jan.2019"><span id="New_in_Platform_Server_Release_Jan.2019"></span><h3 id="New_in_Platform_Server_Release_Jan.2019-22287">New in Platform Server Release Jan.2019</h3>
+<div class="mt-section" id="section_1" mt-section-origin="Support/Release_Notes/11/Platform_Server/510_Platform_Server_Release_Jan.2019"><span id="New_in_Platform_Server_Release_Jan.2019"></span><h3 id="New_in_Platform_Server_Release_Jan.2019">New in Platform Server Release Jan.2019</h3>
 <ul>
 <li>Added support for Service Actions in Service Center analytics reports. (ABE-618)</li>
 <li>Enabled slow Service Action calls to be displayed in Lifetime's analytics. (ABE-619)</li>
@@ -1511,7 +1507,7 @@ The SanitizeHtml action has the following differences when compared with the pre
 <li>Modified the default paths for Amazon ECS and Azure Container Service hosting technologies. (RSAT-1100)</li>
 <li>The unattended installation and upgrade process now validates the prerequisites. (RSAT-1023)</li>
 </ul>
-</div><div class="mt-section" id="section_2" mt-section-origin="Support/Release_Notes/11/Platform_Server/510_Platform_Server_Release_Jan.2019"><span id="Bug_Fixing_42"></span><h3 id="Bug_Fixing-22287">Bug Fixing</h3>
+</div><div class="mt-section" id="section_2" mt-section-origin="Support/Release_Notes/11/Platform_Server/510_Platform_Server_Release_Jan.2019"><span id="Bug_Fixing_42"></span><h3 id="Bug_Fixing_41">Bug Fixing</h3>
 <ul>
 <li>We fixed a bug that prevented you from installing Charts or OutSystems Now from Forge in some situations, causing the message "Application cannot be safely installed in your environment" to show. (ABE-1289)</li>
 <li>Fixed an issue in the installation process that was accepting as valid certain unsupported .Net Framework versions. (RSAT-1169)</li>
@@ -1550,13 +1546,13 @@ The SanitizeHtml action has the following differences when compared with the pre
 <div class="info">
 <p>Released on Jan 04, 2019</p>
 </div>
-<div class="mt-section" id="section_1" mt-section-origin="Support/Release_Notes/11/Platform_Server/495_Platform_Server_Release_Sep.2018_CP2"><span id="New_in_Platform_Server_Release_Sep.2018_CP2"></span><h3 id="New_in_Platform_Server_Release_Sep.2018_CP2-22236">New in Platform Server Release Sep.2018 CP2</h3>
+<div class="mt-section" id="section_1" mt-section-origin="Support/Release_Notes/11/Platform_Server/495_Platform_Server_Release_Sep.2018_CP2"><span id="New_in_Platform_Server_Release_Sep.2018_CP2"></span><h3 id="New_in_Platform_Server_Release_Sep.2018_CP2">New in Platform Server Release Sep.2018 CP2</h3>
 <ul>
 <li>Added a comment in the generated SQL of Advanced Queries and Aggregates with the location of the query in OutSystems applications. Configurable using Factory Configuration. Inspired by <a class="link-https" href="https://www.outsystems.com/ideas/4817/reverse-tracking-sql" rel="external noopener nofollow" target="_blank">Neil Munro's idea</a>. (ABE-1151)</li>
 <li>Improved the 1-Click Publish performance of modules containing references without entities or structures. (ABE-1275)</li>
 <li>The automatic trigger URLs for the Deployment Zone of Container hosting technologies now send the module names (as a JSON array) of the application being deployed. (RSAT-1118)</li>
 </ul>
-</div><div class="mt-section" id="section_2" mt-section-origin="Support/Release_Notes/11/Platform_Server/495_Platform_Server_Release_Sep.2018_CP2"><span id="Bug_Fixing_43"></span><h3 id="Bug_Fixing-22236">Bug Fixing</h3>
+</div><div class="mt-section" id="section_2" mt-section-origin="Support/Release_Notes/11/Platform_Server/495_Platform_Server_Release_Sep.2018_CP2"><span id="Bug_Fixing_43"></span><h3 id="Bug_Fixing_42">Bug Fixing</h3>
 <ul>
 <li>Fixed the incorrect serialization of input parameters of Date, Time and DateTime data types in consumed SOAP Web Services. This might have caused data corruption on some scenarios. Check the <a href="https://success.outsystems.com/Support/Release_Notes/11/Platform_Server#Known_Issues-21552" rel="internal">Known Issues</a> section in the Platform Server Release Sep.2018 Release Notes for more information. (RINT-3069)</li>
 <li>We fixed an array compilation error in the SOAP web services that prevented module publishing. This affected only applications with the new SOAP implementation. (RPD-3627)</li>
@@ -1573,7 +1569,7 @@ The SanitizeHtml action has the following differences when compared with the pre
 </ul>
 </div></div><span id="Platform_Server_Release_Sep.2018_CP1"></span><h2 id="Platform_Server_Release_Sep.2018_CP1">Platform Server Release Sep.2018 CP1</h2><br/><div class="mt-include" id="s22024">
 <div class="info"><p>Released on Dec 20, 2018</p></div>
-<div class="mt-section" id="section_1" mt-section-origin="Support/Release_Notes/11/Platform_Server/479_Platform_Server_Release_Sep.2018_CP1"><span id="New_in_Platform_Server_Release_Sep.2018_CP1"></span><h3 id="New_in_Platform_Server_Release_Sep.2018_CP1-22024">New in Platform Server Release Sep.2018 CP1</h3>
+<div class="mt-section" id="section_1" mt-section-origin="Support/Release_Notes/11/Platform_Server/479_Platform_Server_Release_Sep.2018_CP1"><span id="New_in_Platform_Server_Release_Sep.2018_CP1"></span><h3 id="New_in_Platform_Server_Release_Sep.2018_CP1">New in Platform Server Release Sep.2018 CP1</h3>
 <ul>
 <li>Added a comment in the generated SQL of Advanced Queries and Aggregates with the location of the query in OutSystems applications. Configurable using Factory Configuration. Inspired by <a class="link-https" href="https://www.outsystems.com/ideas/4817/reverse-tracking-sql" rel="external noopener nofollow" target="_blank">Neil Munro's idea</a>. (ABE-1151)</li>
 <li>We removed the obsolete "referrer" directive from the Content Security Policy (CSP) configuration screens. (RLIT-2270)</li>
@@ -1587,7 +1583,7 @@ The SanitizeHtml action has the following differences when compared with the pre
 <li>The SSL offload is now on by default for applications running in containers. (RSAT-1073)</li>
 <li>The container deploy process no longer leaves behind old result files. (RSAT-887)</li>
 </ul>
-</div><div class="mt-section" id="section_2" mt-section-origin="Support/Release_Notes/11/Platform_Server/479_Platform_Server_Release_Sep.2018_CP1"><span id="Bug_Fixing_44"></span><h3 id="Bug_Fixing-22024">Bug Fixing</h3>
+</div><div class="mt-section" id="section_2" mt-section-origin="Support/Release_Notes/11/Platform_Server/479_Platform_Server_Release_Sep.2018_CP1"><span id="Bug_Fixing_44"></span><h3 id="Bug_Fixing_43">Bug Fixing</h3>
 <ul>
 <li>Changing an input parameter of a Service Action from optional to mandatory will now trigger an exception at runtime when the parameter value is not set. (ABE-949)</li>
 <li>We fixed an issue related to the Oracle driver not being able to abort a query when a HTTP request timeout occurs. (RPD-3426)</li>
@@ -1636,7 +1632,7 @@ The SanitizeHtml action has the following differences when compared with the pre
 <li>Fixed a bug in LifeTime and Service Center that was marking modules as successfully published after the deployment failure.  (RSCT-1222)</li>
 <li>Now the custom handlers render correctly in the applications deployed to containers. (RRCT-1972)</li>
 <li>Fixed the error about the 'precache.manifest' file not found that appeared when publishing a mobile module. (RSCT-1638)</li>
-</ul></div></div><span id="Platform_Server_Release_Sep.2018"></span><h2 id="Platform_Server_Release_Sep.2018">Platform Server Release Sep.2018</h2><br/><div class="mt-include" id="s21552"><div class="mt-section" id="section_1" mt-section-origin="Support/Release_Notes/11/Platform_Server/400_Platform_Server_Release_Sep.2018"><span id="New_in_Release_Sep.2018"></span><h3 id="New_in_Release_Sep.2018-21552">New in Release Sep.2018</h3>
+</ul></div></div><span id="Platform_Server_Release_Sep.2018"></span><h2 id="Platform_Server_Release_Sep.2018">Platform Server Release Sep.2018</h2><br/><div class="mt-include" id="s21552"><div class="mt-section" id="section_1" mt-section-origin="Support/Release_Notes/11/Platform_Server/400_Platform_Server_Release_Sep.2018"><span id="New_in_Release_Sep.2018"></span><h3 id="New_in_Release Sep.2018">New in Release Sep.2018</h3>
 <div class="mt-section" id="section_2" mt-section-origin="Support/Release_Notes/11/Platform_Server/400_Platform_Server_Release_Sep.2018"><span id="Architecture"></span><h6 id="Architecture-21552">Architecture</h6>
 <ul>
 <li dir="ltr">Added a new application and module type (Services) to promote a better application segmentation and governance. (ABE-1276)</li>
@@ -1694,7 +1690,7 @@ The SanitizeHtml action has the following differences when compared with the pre
 <li dir="ltr">Removed support for SMS feature. (RRCT-1639)</li>
 <li dir="ltr">Deprecated BeginReadUncommittedTransaction and BeginTransaction methods from RuntimePublic.Db API. (RSAT-791)</li>
 </ul>
-</div></div><div class="mt-section" id="section_7" mt-section-origin="Support/Release_Notes/11/Platform_Server/400_Platform_Server_Release_Sep.2018"><span id="Bug_Fixing_45"></span><h3 dir="ltr" id="Bug_Fixing-21552">Bug Fixing</h3>
+</div></div><div class="mt-section" id="section_7" mt-section-origin="Support/Release_Notes/11/Platform_Server/400_Platform_Server_Release_Sep.2018"><span id="Bug_Fixing_45"></span><h3 dir="ltr" id="Bug_Fixing_44">Bug Fixing</h3>
 <ul>
 <li dir="ltr">Fixed a bug that caused the processing of error logs to fail with long Action names. (RPD-1769)</li>
 <li dir="ltr">Fixed the bug that caused "Could not login to 127.0.0.1" error while publishing the "Current Running Version" of a Solution in Service Center. This caused issues in some upgrades. (RPD-2415)</li>
@@ -1708,7 +1704,7 @@ The SanitizeHtml action has the following differences when compared with the pre
 <li dir="ltr">Fixed a problem where publishing simultaneously modules with identical names in different personal environments would result in having future publication attempts of those modules blocked. (RSCT-1287)</li>
 <li dir="ltr">Fixed a bug that caused invalid generation of the CSP HTTP headers when using the default values from the Service Center settings. This prevented a small number of iOS apps from loading after the splash screen. (RRCT-1966)</li>
 </ul>
-</div><div class="mt-section" id="section_8" mt-section-origin="Support/Release_Notes/11/Platform_Server/400_Platform_Server_Release_Sep.2018"><span id="Known_Issues_15"></span><h3 id="Known_Issues-21552">Known Issues</h3>
+</div><div class="mt-section" id="section_8" mt-section-origin="Support/Release_Notes/11/Platform_Server/400_Platform_Server_Release_Sep.2018"><span id="Known_Issues_15"></span><h3 id="Known_Issues_13">Known Issues</h3>
 <ul>
 <li>
 <p>In some situations, the new SOAP implementation in OutSystems 11 incorrectly serializes input parameters of Date, Time and DateTime data types for consumed Web Services, which might cause data corruption (namely losing time offsets for Time and DateTime data types) when sending values of these data types. This new implementation is used for all consumed SOAP Web Service elements created in version 11.</p>
@@ -1725,13 +1721,13 @@ The SanitizeHtml action has the following differences when compared with the pre
 </ul>
 </div></div><span id="Platform_Server_11.0.539.0"></span><h2 id="Platform_Server_11.0.539.0">Platform Server 11.0.539.0</h2><br/><div class="mt-include" id="s33673">
 <div class="info"><p>Released on Jul 25, 2019</p></div>
-<div class="mt-section" id="section_1" mt-section-origin="Support/Release_Notes/11/Platform_Server/Platform_Server_11.0.539.0"><span id="New_in_Platform_Server_Release_Jul.2019_CP1_2"></span><h3 id="New_in_Platform_Server_Release_Jul.2019_CP1-33673">New in Platform Server Release Jul.2019 CP1</h3>
+<div class="mt-section" id="section_1" mt-section-origin="Support/Release_Notes/11/Platform_Server/Platform_Server_11.0.539.0"><span id="New_in_Platform_Server_Release_Jul.2019_CP1_2"></span><h3 id="New_in_Platform_Server_Release_Jul.2019_CP1">New in Platform Server Release Jul.2019 CP1</h3>
 <ul>
 <li>Added support for TLS 1.1 and TLS 1.2 on MySQL external database connections. 
 Warning: OutSystems now distributes BouncyCastle (v1.8.3) and Google.Protobuf (v.3.6.1.0) alongside the MySQL driver - this may impact the existing extensions that use different versions. (RSAT-1258)</li>
 <li>Downloading a mobile app by scanning the QR code in Service Studio is now possible on iOS 13. (RTAF-628)</li>
 </ul>
-</div><div class="mt-section" id="section_2" mt-section-origin="Support/Release_Notes/11/Platform_Server/Platform_Server_11.0.539.0"><span id="Bug_Fixing_46"></span><h3 id="Bug_Fixing-33673">Bug Fixing</h3>
+</div><div class="mt-section" id="section_2" mt-section-origin="Support/Release_Notes/11/Platform_Server/Platform_Server_11.0.539.0"><span id="Bug_Fixing_46"></span><h3 id="Bug_Fixing_45">Bug Fixing</h3>
 <ul>
 <li>Fixed an issue that prevented some Dependencies to be added in Search in other Modules. (RDEV-413)</li>
 <li>Fixed a security vulnerability. CVSSv3.0 score 7.5 (High). (RNMT-2812)</li>
@@ -1748,19 +1744,19 @@ Warning: OutSystems now distributes BouncyCastle (v1.8.3) and Google.Protobuf (v
 <br/>
 <p><b>Disclaimer: </b><i>QR CODE is a registered trademark of Denso Wave Incorporated.</i></p></div></div><span id="Platform_Server_11.0.424.3"></span><h2 id="Platform_Server_11.0.424.3">Platform Server 11.0.424.3</h2><br/><div class="mt-include" id="s30761">
 <div class="info"><p>Released on May 17, 2019</p></div>
-<div class="mt-section" id="section_1" mt-section-origin="Support/Release_Notes/11/Platform_Server/Platform_Server_11.0.424.3"><span id="New_in_Platform_Server_Release_Apr.2019_CP1_2"></span><h3 id="New_in_Platform_Server_Release_Apr.2019_CP1-30761">New in Platform Server Release Apr.2019 CP1</h3>
+<div class="mt-section" id="section_1" mt-section-origin="Support/Release_Notes/11/Platform_Server/Platform_Server_11.0.424.3"><span id="New_in_Platform_Server_Release_Apr.2019_CP1_2"></span><h3 id="New_in_Platform_Server_Release_Apr.2019_CP1">New in Platform Server Release Apr.2019 CP1</h3>
 <ul>
 <li>Added warning when no user is configured for Users app. Removed note saying default admin password. (RLIT-2574)</li>
 <li>Added a new public action (Popup_Editor_GetMessage) to RichWidgets to get the Notify Popup message. (ROU-142)</li>
 </ul>
-</div><div class="mt-section" id="section_2" mt-section-origin="Support/Release_Notes/11/Platform_Server/Platform_Server_11.0.424.3"><span id="Bug_Fixing_47"></span><h3 id="Bug_Fixing-30761">Bug Fixing</h3>
+</div><div class="mt-section" id="section_2" mt-section-origin="Support/Release_Notes/11/Platform_Server/Platform_Server_11.0.424.3"><span id="Bug_Fixing_47"></span><h3 id="Bug_Fixing_46">Bug Fixing</h3>
 <ul>
 <li>Fixed a problem when using ListAppend and ListInsert functions containing an If expression in the List input parameter. (RPD-3984)</li>
 <li>Fixed bug where sometimes when starting the Deploy Service, applications were not deployed automatically (RSCT-1761)</li>
 <li>Fixes an issue where the Viewstate did not store nested web blocks for triggered events. (RPD-4070)</li>
 </ul> </div></div><span id="Platform_Server_11.0.422.0"></span><h2 id="Platform_Server_11.0.422.0">Platform Server 11.0.422.0</h2><br/><div class="mt-include" id="s30760">
 <div class="info"><p>Released on May 06, 2019</p></div>
-<div class="mt-section" id="section_1" mt-section-origin="Support/Release_Notes/11/Platform_Server/Platform_Server_11.0.422.0"><span id="New_in_Platform_Server_Release_Apr.2019_2"></span><h3 id="New_in_Platform_Server_Release_Apr.2019-30760">New in Platform Server Release Apr.2019</h3>
+<div class="mt-section" id="section_1" mt-section-origin="Support/Release_Notes/11/Platform_Server/Platform_Server_11.0.422.0"><span id="New_in_Platform_Server_Release_Apr.2019_2"></span><h3 id="New_in_Platform_Server_Release_Apr.2019">New in Platform Server Release Apr.2019</h3>
 <ul>
 <li>Clicking Environment/Module Management in the toolbar now opens Service Center in the default browser instead of render it directly inside Service Studio. (RICT-825)</li>
 <li>We changed the SQL Injection warning message to advise you not to set the use of Expand Inline option to "Yes". The warning helps to follow solid SQL security practices. (RRCT-2128)</li>
@@ -1796,7 +1792,7 @@ On upgrade, if ServiceCenter exists in "OutSystemsApplications" application pool
 <li>Service Center now links to the detach process documentation instead of launching the No Lock-in tutorial. (RICT-1199)</li>
 <li>Header 'X-Content-Type-Options' with value 'nosniff' is now added by default to all server responses. Applications with custom solutions to achieve the same outcome should be reviewed to ensure compatibility with the new solution, or disable it using Factory Configuration (not recommended). (RRCT-2082)</li>
 </ul>
-</div><div class="mt-section" id="section_2" mt-section-origin="Support/Release_Notes/11/Platform_Server/Platform_Server_11.0.422.0"><span id="Bug_Fixing_48"></span><h3 id="Bug_Fixing-30760">Bug Fixing</h3>
+</div><div class="mt-section" id="section_2" mt-section-origin="Support/Release_Notes/11/Platform_Server/Platform_Server_11.0.422.0"><span id="Bug_Fixing_48"></span><h3 id="Bug_Fixing_47">Bug Fixing</h3>
 <ul>
 <li>Fixed incorrect character encoding in packaging of mobile applications. (RRCT-2216)</li>
 <li>Fixed runtime error in client-side Aggregates with dynamic Order By's containing more than one attribute. (RSBO-54)</li>
@@ -1910,7 +1906,7 @@ On upgrade, if ServiceCenter exists in "OutSystemsApplications" application pool
 <li>It's now possible to check the status of the invalidation cache mechanism for each front-end server in Service Center's Environment Health tab. (RRCT-1678)</li>
 <li>Applications set to be deployed on Pivotal Cloud Foundry are now generated configured to be deployed in Pivotal Application Service running on Windows 2016. (RSAT-962)</li>
 </ul>
-</div><div class="mt-section" id="section_2" mt-section-origin="Support/Release_Notes/11/Platform_Server/397_Platform_Server_11.0.0.209"><span id="Bug_Fixing_49"></span><h3 id="Bug_Fixing-20422">Bug Fixing</h3>
+</div><div class="mt-section" id="section_2" mt-section-origin="Support/Release_Notes/11/Platform_Server/397_Platform_Server_11.0.0.209"><span id="Bug_Fixing_49"></span><h3 id="Bug_Fixing_48">Bug Fixing</h3>
 <ul>
 <li>Fixed a security issue related to cached pages. (RPD-3270)</li>
 <li>Fixed an issue that allowed disabled buttons to trigger inputs with the Enter key in IE browsers. (RPD-3151)</li>
@@ -1954,7 +1950,7 @@ On upgrade, if ServiceCenter exists in "OutSystemsApplications" application pool
 <li>Fixed an issue that resulted in Service Studio crashing during merge. (RICT-787)</li>
 <li>Fixed an issue that caused Service Studio to perform a DNS query for "host.servicestudio" when rendering Form or Editable Table widgets. (RPD-3177)</li>
 </ul>
-</div><div class="mt-section" id="section_3" mt-section-origin="Support/Release_Notes/11/Platform_Server/397_Platform_Server_11.0.0.209"><span id="Known_Issues_16"></span><h3 id="Known_Issues-20422">Known Issues</h3>
+</div><div class="mt-section" id="section_3" mt-section-origin="Support/Release_Notes/11/Platform_Server/397_Platform_Server_11.0.0.209"><span id="Known_Issues_16"></span><h3 id="Known_Issues_14">Known Issues</h3>
 <ul>
 <li>Deployment Zones set to work with Amazon ECS and Azure Container Service don't show the From Image value stored when they were created.</li>
 <li>
