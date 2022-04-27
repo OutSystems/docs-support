@@ -400,11 +400,7 @@ errors after upgrading an application.  (RTAFB-4646)</li>
 <li>Fixed the client-side logs not being sent to the server after an upgrade rollback in a native mobile app. (RAR-123)</li>
 <li>Fixed the client-side logs created offline not being sent to the server when reopening the app with the connection restored. (RAR-124)</li>
 <li>The Dropdown now selects the correct item when the list contains default values for OutSystems data types.  (RAR-610)</li>
-<li>The default font in some factories, now loads correctly on users apps. 
-
-
-
- (RLIT-4295)</li>
+<li>The default font in some factories, now loads correctly on users apps.  (RLIT-4295)</li>
 <li>Improved the feedback message when configuring Android Mobile Apps. (RLIT-4428)</li>
 <li>The correct link now displays in the the Mobile Application description in Service Center.  (RLIT-4434)</li>
 <li>Fixed an issue in Service Center preventing the dependencies in a Solution to be properly shown. (RLIT-4457)</li>
@@ -425,7 +421,7 @@ errors after upgrading an application.  (RTAFB-4646)</li>
 <li>Fixed a publishing error in public screens where producers were not exporting the default values of input parameters. (RPM-648)</li>
 <li>Fixed an issue in the DiffDays client-side function that wasn't taking the time zone into consideration. (RPM-655)</li>
 <li>Fixed issue that caused the filter on applications in Email Logs page to be lost when changing page. (RPM-696)</li>
-<li>Fixed app runtime crashes after upgrading to Platform Server version 11.10.0 and later, when accessing Site Properties of a particular set of modules. (RPM-706) (RPM-706)</li>
+<li>Fixed app runtime crashes after upgrading to Platform Server version 11.10.0 and later, when accessing Site Properties of a particular set of modules. (RPM-706)</li>
 <li>Fixed an issue that was causing the Traditional Web App Feedback balloon to be hidden whenever a screen's preparation calls to the Taskbox_Hide action.  (RPM-709)</li>
 <li>Fixed a Mobile App issue related to the triggering of the OnApplicationReady action before the app reloads to perform an upgrade. (RPM-799)</li>
 <li>Added instructions to the install the check list to remove a Pure Deployment Controller from the Load Balancer, as well as disable the OutSystemsApplications app pool on IIS. to avoid requests being served by that server (RPM-804)</li>
@@ -434,9 +430,7 @@ errors after upgrading an application.  (RTAFB-4646)</li>
 <li>We improved the Service Center error "Invalid call of the [action name] client action of the [screen name] since the latter is not currently active". The error now has more details about the action and screen. Additionally, the verbosity of the error now depends on the context. (RPM-858)</li>
 <li>Fixed a bug where the platform asked a user to login twice when using Integrated Windows Authentication (IWA). (RPM-924)</li>
 <li>Fixed issue causing users to get the "Error loading original references" message when loading Modules that consume entities that have at least one attribute whose type is an identifier for an entity that is missing. (RPST-1305)</li>
-<li>Improvements to module deletion logging now includes the time it takes for each operation to complete. 
-
- (RPST-1346)</li>
+<li>Module deletion logging now includes the time it takes for each operation to complete. (RPST-1346)</li>
 <li>Fixed an issue that prevented Scheduler service errors from being registered in Service Center and Event Viewer. (RRCT-3554)</li>
 <li>Fixed a Traditional Web App compilation crash that involved Trigger Event node and a type conversion in the Inputs of the Web Block event. (RTAFB-3598)</li>
 <li>Fixed app runtime crashes after upgrading to Platform Server version 11.10.0 and later, when accessing Site Properties of a particular set of modules. (RTAFB-4142)</li>
