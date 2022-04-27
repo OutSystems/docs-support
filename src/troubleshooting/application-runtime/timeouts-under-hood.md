@@ -17,6 +17,12 @@ Let's face it, how many of you never hit a timeout while developing, deploying o
 
 So, without further delay, let's meet the candidates. For the runtime level timeouts we have the SQL Query timeout, the application request timeout, the web service request timeout, the web server connection timeout, the session timeout and timer's timeout. While for deployment level timeouts we have the Development Environment Upload/Download timeout besides any runtime level timeouts that may also influence the deployment process.
 
+<div class="info" markdown="1">
+
+See [Sessions in Web Applications](https://success.outsystems.com/Documentation/11/Developing_an_Application/Use_Data/Sessions_in_Web_Applications) for a complete discussion about sessions and session timeouts.  
+
+</div>
+
 Please note that usually, if you're having timeout events then either you have a very sluggish system, which can benefit from an upgrade or extended resources, or you have a very unoptimized logic, data models or slow integrations. Of course that depends on the application's purpose and dataset volumes, and the timeout settings should be adjusted accordingly.
 
 ## SQL Query Timeout
