@@ -445,27 +445,24 @@ errors after upgrading an application.  (RTAFB-4646)</li>
 <h3 id="Known_Issues_2">Known Issues</h3>
 <ul>
 <li>Publishing Mobile or Reactive Web apps that use very complex structures in screen logic may take longer than usual or fail due to a timeout during compilation. It might also result in a memory consumption higher than usual while publishing.</li>
-
-
-    To disable this for a specific module you can follow this procedure:
-
-    <ol>
+<ul>
+<li>To disable this for a specific module you can follow this procedure:</li>
+<ol>
 <li>Install Factory Settings Module in the environment (skip if already installed);</li>
 <li>Access Factory Settings Application; - Select "eSpaces" in the top of the app;</li>
 <li>Select your module from the list;</li>
 <li>Add a new configuration with the name "ClientSideOptimizerDisabled" and the value "True";</li>
 <li>Press "Define".</li>
-</ol>
-
-    To disable this for the whole environment you can follow this procedure:
-
-    <ol>
+</ol></ul>
+<ul><li>To disable this for the whole environment you can follow this procedure:</li>
+<ol>
 <li>Install Factory Settings Module in the environment (skip if already installed);</li>
 <li>Access Factory Settings Application;</li>
 <li>Select "Platform Configurations" in the top of the app;</li>
 <li>Tick the options "Disable client-side optimizations for Reactive Web Apps" and "Disable client-side optimizations for Mobile Apps";</li>
 <li>Go to the bottom of the page and press "Apply".</li>
 </ol>
+</ul>
 <li>Concurrent usage of Static Entities defined in Libraries can lead to transient application runtime errors.</li>
 </ul>
 <h2 id="Platform_Server_11.11.3">Platform Server 11.11.3</h2>
