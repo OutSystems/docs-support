@@ -22,12 +22,15 @@
         - href: release-notes/10/development-environment/development-environment.md
         - href: release-notes/10/end-support-10.md
         - href: release-notes/10/side-effects-breaking-changes-10.md
-    - href: release-notes/mabs/mabs.md
+    - href: release-notes/mabs/mabs-versions.md
     - topics:
-        - href: release-notes/mabs/mabs-versions.md
         - href: release-notes/mabs/mabs-beta-support.md
+        - href: release-notes/mabs/mabs-8.md    
+        - href: release-notes/mabs/mabs-7.md
+        - href: release-notes/mabs/mabs-6.md
+        - href: release-notes/mabs/mabs-5.md
+        - href: release-notes/mabs/troubleshoot-issues-with-mabs-6.md                
         - href: release-notes/mabs/older-releases.md
-        - href: release-notes/mabs/troubleshoot-issues-with-mabs-6.md   
     - href: release-notes/architecture-dashboard/architecture-dashboard.md        
     - href: release-notes/integration-builder/integration-builder.md
     - href: release-notes/experience-builder/experience-builder.md
