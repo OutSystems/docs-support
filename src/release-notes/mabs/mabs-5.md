@@ -5,7 +5,7 @@ locale: en-us
 app_type: mobile apps
 ---
 
-# Mobile Apps Build Service 5 Release notes
+# MABS 5 Release notes
 
 <div class="info">
 
