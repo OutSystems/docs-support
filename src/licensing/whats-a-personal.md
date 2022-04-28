@@ -9,7 +9,7 @@ app_type: traditional web apps, mobile apps, reactive web apps
 
 The Personal Environment (PE) is the **free, cloud-based version** of OutSystems. It allows you to create, deploy, and run your personal applications.
 
-When you [create an account](https://www.outsystems.com/home/GetStartedForFree.aspx) at the OutSystems community, we'll invite you to create a Personal Environment. Once created, it's address and status will always be accessible at your [Plaform Home](https://www.outsystems.com/home) page.
+When you [create an account](https://www.outsystems.com/home/GetStartedForFree.aspx) at the OutSystems community, we'll invite you to create a Personal Environment. Once created, it's address and status will always be accessible at your [Platform Home](https://www.outsystems.com/home) page.
 
 ## Is it really free? Until when?
 
