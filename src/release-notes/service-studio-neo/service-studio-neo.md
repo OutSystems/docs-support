@@ -4,6 +4,11 @@ guid: 9a1c0394-1a0a-4371-9a26-d22decf48b1c
 ---
 
 <h1>Service Studio Neo</h1>
+<h2 id="Service_Studio_Neo_0.9.9">Service Studio Neo 0.9.9</h2>
+<div class="info"><p>Released on Apr 27, 2022</p></div>
+
+This release of Service Studio focuses on internal improvements ― this will help our team improve Service Studio faster.
+Your work shouldn't be impacted by these changes.
 <h2 id="Service_Studio_Neo_0.9.8">Service Studio Neo 0.9.8</h2>
 <div class="info"><p>Released on Apr 22, 2022</p></div>
 <h3 id="Bug_Fixing_0">Bug Fixing</h3>
