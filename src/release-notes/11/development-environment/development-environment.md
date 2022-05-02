@@ -5,6 +5,11 @@ app_type: traditional web apps, mobile apps, reactive web apps
 ---
 
 <h1>Development Environment</h1>
+<h2 id="Development_Environment_11.14.15">Development Environment 11.14.15</h2>
+<div class="info"><p>Released on May 02, 2022</p></div>
+
+This release of Service Studio focuses on internal improvements ― this will help our team improve Service Studio faster.
+Your work shouldn't be impacted by these changes.
 <h2 id="Development_Environment_11.14.13">Development Environment 11.14.13</h2>
 <div class="info"><p>Released on Apr 11, 2022</p></div>
 
