@@ -3,12 +3,11 @@
 
 <h3>New in Platform Server 11.16.0</h3>
 <ul>
-<li>Improved the performance of parsing SQL nodes query text during applications runtime when using expand inline inputs (R11PBT-588)</li>
+<li>Improved the performance and resilience of the mechanism that automatically cleans up inconsistencies in the BPT model. (R11PBT-570)</li>
+<li>Improved the runtime performance of parsing SQL element query text when using Expand Inline parameters. (R11PBT-588)</li>
 <li>Improved the performance of solution publishing. These improvements will be gradually rolled out to OutSystems customers and won’t be enabled by default when upgrading to this version. (R11PBT-613)</li>
-<li>Disabled Oracle "Out Of Band Breaks" feature in all connections to improve the compatibility with typical network and firewall installations. Having the feature enabled could lead for query timeouts not being respected. (R11PBT-620)</li>
 <li>Upgraded the Oracle Managed Driver to version 19.14.0. For more information on related fixes, see the Oracle release notes. (R11PBT-667)</li>
 <li>Updated NLog library bundled with the platform from version 4.7.8 to version 4.7.14. (R11PBT-682)</li>
-<li>Improved the performance of solution publishing. These improvements will be gradually rolled out to OutSystems customers and won’t be enabled by default when upgrading to this version. (R11PBT-701)</li>
 <li>Fixed an issue that could cause threads to hang in Oracle environments. (RPM-1995)</li>
 </ul>
 <h3>Bug Fixing</h3>
@@ -17,7 +16,6 @@
 <li>Fixed compilation error when consuming SOAP Web Services containing nested elements with the same name. (R11DT-963)</li>
 <li>Fixed compilation crash when referencing an incompatible Service module (R11PBT-590)</li>
 <li>Fixed an issue that prevented CSP headers from being sent in Service Center responses for some platform installation scenarios. (R11PBT-725)</li>
-<li>Fixed an issue that could cause protocol errors in requests to Service Center when requests are handled using the HTTP/2 protocol. (R11PBT-726)</li>
 <li>Symbolik link creation now fallback to directory copy when user lacks permissions (R11PIT-639)</li>
 <li>Fixed an issue that could cause the Scheduler Service to become unhealthy in Oracle environments (RPM-1133)</li>
 <li>Http Server information is now removed from response header. (RPM-1461)</li>
@@ -37,6 +35,7 @@
 <li>Granting a security level to a user on a Database Connection no longer adds that level to all available connections. (RPM-2277)</li>
 <li>Fixed scenarios in which suspended process instances got resumed without any change to the process definition (RPM-2290)</li>
 <li>Fixed a concurrency issue with the DatabaseConnection_SetConnectionStringForSession method of the PlatformRuntime_API that could lead to the incorrect connections to be used. (RPM-2340)</li>
+<li>Fixed an issue that could cause protocol errors in requests to Service Center when requests are handled using the HTTP/2 protocol. (RPM-2356)</li>
 <li>Fixed a bug in the Upload Widget when selecting the same image twice in Chrome. (RPM-446)</li>
 <li>Added support for reading the External ID retrieved during SAML Authentication inside an application. (RPM-671)</li>
 <li>Fix a wrong behavior when using the browser back button or Previous Screen event to navigate back to a screen with Widgets that use data from Client/Local variables. The Widgets was not re-rendered and showed outdated values. (RPM-673)</li>
