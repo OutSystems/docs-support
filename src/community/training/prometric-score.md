@@ -5,7 +5,7 @@ guid:
 tags: 
 ---
 
-# Didn't receive certification or specialization exam score, learn how to access it
+# Did not receive certification or specialization exam score, learn how to access it
 
 When OutSystems exam candidates complete their exams, they receive the exam score report by email, which highlights the result of the exam but also the topics in which the candidate did not get right as well as the ones where they did get right.
 

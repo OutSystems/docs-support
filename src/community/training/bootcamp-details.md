@@ -1,11 +1,11 @@
 ---
 summary: What is the price of an OutSystems Boot Camp and how can I register for one?
 locale: en-us
-guid: 
+guid: 219387DC-4207-4882-A16E-DD363A44F7BD
 tags: 
 ---
 
-# What is the price of an OutSystems Boot Camp and how can I register for one?
+# What is the price of an OutSystems Boot Camp and how can you register
 
 The OutSystems Boot Camps are a great way to learn since participants get to learn in a group, with a trainer on the spot and various hands-on exercises. This is a highly immersive way to learn OutSystems, and it is one of our **training paid offers**.
 

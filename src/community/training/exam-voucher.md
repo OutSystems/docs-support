@@ -1,11 +1,11 @@
 ---
 summary: How to use an exam voucher to register for an exam?
 locale: en-us
-guid: 
+guid: 4A089B4E-968B-4A4E-BBF7-EF617931839C
 tags: 
 ---
 
-# How to use an exam voucher to register for an exam?
+# How to use an exam voucher to register for an exam
 
 ## Exam voucher
 

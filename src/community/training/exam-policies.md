@@ -1,7 +1,7 @@
 ---
 summary: Scheduling and cancelation policies of OutSystems exams and refunds for canceled exams 
 locale: en-us
-guid: 
+guid: B2E1578A-F543-4FF0-986C-B6830362C960
 tags: 
 ---
 

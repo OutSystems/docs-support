@@ -1,11 +1,11 @@
 ---
-summary: Users who did not receive exam appointment confirmation email
+summary: Users who did not receive exam appointment confirmation email. Learn how to get the details of your exam appointment.
 locale: en-us
-guid: 
+guid: 40106156-CA28-4D1B-ADDD-DEA0F6736E71
 tags: 
 ---
 
-# Didn't receive the exam Appointment Confirmation email. Learn how to get the details
+# Did not receive the exam appointment confirmation email
 
 Once candidates complete their registration and exam schedule, they should receive the email with the subject **Appointment confirmation** email which includes the exam information.
 
