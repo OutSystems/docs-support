@@ -11,13 +11,13 @@ app_type: traditional web apps, mobile apps, reactive web apps
 </div>
 <h3 id="New_in_Architecture_Dashboard_1.16">New in Architecture Dashboard 1.16</h3>
 <ul>
-<li>Improved the overall experience of the Maintenance area when configuring applications and modules to be ignored during technical debt analysis. (RADRT-1987)</li>
+<li>Improved the Ignored Modules functionality under the Maintenance area when choosing modules to ignore. (RADRT-1987)</li>
 <li>You can now use the new Architecture Dashboard API to integrate Architecture Dashboard data with external tools. The API uses an API key to authenticate requests. You can generate and manage your API keys using Architecture Dashboard’s Maintenance menu. (RADRT-1849)</li>
 <li>It is now possible to navigate to the findings report page of a specific application using a direct link, by passing its GUID parameter in the URL. You can get the GUID of an application using the Architecture Dashboard API. (RADRT-2035)</li>
 </ul>
 <h3 id="Bug_fixing">Bug fixing</h3>
 <ul>
-<li>Fixed an issue that was preventing user information from being synced when changing the IT user identifier in the LifeTime console. (RADRT-1980)</li>
+<li>Fixed an issue that was preventing user information from being synced when, due to some LifeTime operation, the LifeTime user's identifier changed. (RADRT-1980)</li>
 </ul>
 
 <h2 id="Architecture_Dashboard_1.15">Architecture Dashboard 1.15</h2>
