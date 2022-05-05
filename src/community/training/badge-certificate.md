@@ -1,7 +1,7 @@
 ---
 summary: I passed my exam. Where can I find my badges and certificate?
 locale: en-us
-guid: 
+guid: 9C9B44E5-E203-48C3-BE0B-137821F6E8D2
 tags: 
 app_type: traditional web apps, mobile apps, reactive web apps
 ---
@@ -13,4 +13,4 @@ The badge and certificate should be available on your community profile a few mi
 
 ![](images/community-badge.png)
 
-In case you do not find your certification and/or specialization badges and certificate on your community profile within 24h, please open a [support case for training](https://www.outsystems.com/SPP_Ticket_UI/Question_Deflection), as the Team will be sure to make it available for you as soon as possible.
+In case you do not find your certification and/or specialization badges and certificate on your community profile within 24h, please open a [support case for training](https://www.outsystems.com/SPP_Ticket_UI/Question_Deflection), and the Team ensures to make it available for you as soon as possible.

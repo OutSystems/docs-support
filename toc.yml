@@ -311,9 +311,17 @@
     # Training
     - href: community/training/training-intro.md
     - topics:
+        - href: community/training/appointment-confirmation.md   
+        - href: community/training/badge-certificate.md         
+        - href: community/training/bootcamp-details.md        
         - href: community/training/download-os-certificates.md
         - href: community/training/download-my-certificate.md
+        - href: community/training/exam-invoice.md
+        - href: community/training/exam-policies.md
+        - href: community/training/exam-voucher.md                
+        - href: community/training/prometric-score.md
         - href: community/training/transfer-certification.md
+
 
 # Licensing
 - href: licensing/intro.md
