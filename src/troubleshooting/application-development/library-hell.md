@@ -125,7 +125,7 @@ You can repeat publish a few more times - it doesn't change anything.
 
 ## Multiple levels of producers
 
-The reason republishing **UI_Provider** doesn't fix this problem is because: **UI_Provider** isn't a direct consumer of **APIProvider.**
+The reason republishing **UI_Public** doesn't fix this problem is because: **UI_Public** isn't a direct consumer of **APIProvider.**
 
 This is relevant because of the way the platform obtains libraries of producer modules:
 
