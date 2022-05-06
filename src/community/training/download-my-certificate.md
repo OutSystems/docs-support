@@ -18,5 +18,6 @@ You can also download it at your OutSystems profile:
 1. Click on the **Learn** tab. Your certifications show on top.
 1. Click **Download** on any of your certifications. You'll get a PDF with all your certifications.
 
+In case you don't find your certification badge, specialization badge, or certificate on your community profile within 24 hours, please open a [support case for training](https://www.outsystems.com/SPP_Ticket_UI/open-support-case), and we'll ensure it's available as soon as possible.
 
 If you're a manager, you can also [download all your team members’ certificate information](download-os-certificates.md).
