@@ -29,10 +29,10 @@ We strongly recommend candidates, whenever they have a voucher, to plan their ca
 ## Invalid voucher
 
 There are some situations in which, when inserting the voucher, users can see the error message saying “Invalid voucher”. This means that the voucher is no longer available to use, due to the following reasons:
-* The candidate is trying to use the voucher to schedule the exam for a date that is after the expiration date
-* The candidate is trying to use the voucher for an exam type that is not covered by that voucher 
+* The candidate is trying to use the voucher to schedule the exam for a date that's after the expiration date
+* The candidate is trying to use the voucher for an exam type that's not covered by that voucher 
 * The candidate has already used the voucher for a previously scheduled exam 
 
-Look out for these points, as in case you receive this message, you can understand why they are happening.
+Look out for these points, as in case you receive this message, you can understand why they're happening.
 
-In case you have any further questions about the exam vouchers, please feel free to open a [support case](https://www.outsystems.com/SPP_Ticket_UI/Question_Deflection).
+In case you have any further questions about the exam vouchers, please feel free to open a [support case](https://www.outsystems.com/SPP_Ticket_UI/open-support-case).

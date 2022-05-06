@@ -8,7 +8,7 @@ app_type: traditional web apps, mobile apps, reactive web apps
 
 # What is the price of an OutSystems Boot Camp and how can you register
 
-The OutSystems Boot Camps are a great way to learn since participants get to learn in a group, with a trainer on the spot and various hands-on exercises. This is a highly immersive way to learn OutSystems, and it is one of our **training paid offers**.
+The OutSystems Boot Camps are a great way to learn since participants get to learn in a group, with a trainer on the spot and various hands-on exercises. This is a highly immersive way to learn OutSystems, and it's one of our **training paid offers**.
 
 Users can enroll to participate in any of the Public Boot Camps available on the calendar, checking all of them on our [Boot Camp page](https://www.outsystems.com/training/classroom-training/), selecting according to their type, location (if onsite), or timezone (if remote).
 
@@ -25,4 +25,4 @@ To learn details about any Boot Camp you are interested in participating in, you
 
 Whether you wish to participate, or even just learn information about a specific class, the best way to go is to enroll in it, as the Training Partner delivering the class will reply to your registration with these details.
 
-In case you have any further questions about the exam vouchers, please feel free to open a [support case](https://www.outsystems.com/SPP_Ticket_UI/Question_Deflection).
+In case you have any further questions about the exam vouchers, please feel free to open a [support case](https://www.outsystems.com/SPP_Ticket_UI/open-support-case).
