@@ -14,3 +14,4 @@ The badge and certificate should be available on your community profile a few mi
 ![](images/community-badge.png)
 
 In case you do not find your certification and/or specialization badges and certificate on your community profile within 24h, please open a [support case for training](https://www.outsystems.com/SPP_Ticket_UI/Question_Deflection), and the Team ensures to make it available for you as soon as possible.
+

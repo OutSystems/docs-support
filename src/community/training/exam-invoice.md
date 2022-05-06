@@ -31,3 +31,4 @@ The receipts are issued by the service provider, which in this case is an entity
 “Tax identification numbers of the supplier of goods or service provider and the acquirer or recipient, whenever they are entities with residence or permanent establishment in the national territory”
 
 For countries like Portugal, the receipt provided by Prometric can, and should, be accepted because in Portuguese fiscal law requirements are for national entities only (residence or permanent establishment).
+

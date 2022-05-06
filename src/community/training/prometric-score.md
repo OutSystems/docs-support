@@ -3,6 +3,7 @@ summary: Exam candidate who did not receive exam results looking to how to get i
 locale: en-us
 guid: C23D1280-132D-41F8-B27F-F58F719F4FCE
 tags: 
+app_type: traditional web apps, mobile apps, reactive web apps
 ---
 
 # Did not receive certification or specialization exam score, learn how to access it
@@ -14,4 +15,3 @@ In case candidates do not find the score report on your Inbox, SPAM or Junk emai
 Filling in the confirmation number of the exam, as well as the last name, candidates will be available to download their exam score report.
 
 ![](images/score-report-image.png)
-
