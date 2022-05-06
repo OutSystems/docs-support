@@ -18,7 +18,7 @@ app_type: traditional web apps, mobile apps, reactive web apps
 <h3 id="Bug_fixing">Bug fixing</h3>
 <ul>
 <li>Fixed an issue that was preventing user information from being synced when, due to some LifeTime operation, the LifeTime user's identifier changed. (RADRT-1980)</li>
-<li>Fixed an issue that caused resolved findings to automatically reopen after 6 months when they were marked as false positives or won't fix. (RADRT-2040)</li>
+<li>Fixed an issue that caused resolved findings to automatically reopen after 6 months when they were marked as "False positive" or "Won't fix". (RADRT-2040)</li>
 </ul>
 
 <h2 id="Architecture_Dashboard_1.15">Architecture Dashboard 1.15</h2>
