@@ -400,7 +400,6 @@
         - href: enterprise/maintenance/config-oracle-database.md     
         - href: enterprise/maintenance/connection-pools.md
         - href: enterprise/maintenance/cookie-usage.md
-        - href: enterprise/maintenance/custom-dns-name-cloud.md
         - href: enterprise/maintenance/database-storage-cloud.md                  
         - href: enterprise/maintenance/reinstall-different-path.md
         - href: enterprise/maintenance/cloud-maintenance-window.md
