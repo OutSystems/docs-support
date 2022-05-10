@@ -66,9 +66,21 @@ To enable OSTrace for SOAP web service consumption, first delete the problematic
 
 Then modify the configuration file, according to the **Service Studio** edition you are using.
 
-1. If you are using Windows, go to ```C:\Users\<user_name>\AppData\Local\OutSystems\ServiceStudio 11```.  
+1. Go to the folder of the configuration file:
 
-    If you are using Windows cross-platform, go to ```C:\Users\<user_name>\AppData\Local\OutSystems\ServiceStudio 11 XPlatform```.  
+    * Windows:
+
+        * Windows-only Service Studio: ```C:\Users\<user_name>\AppData\Local\OutSystems\ServiceStudio 11```.  
+
+        * Cross-platform Service Studio: ```C:\Users\<user_name>\AppData\Local\OutSystems\ServiceStudio 11 XPlatform```.  
+
+    * macOS: ```~/.local/share/Outsystems/ServiceStudio 11 XPlatform```.
+
+    <div class="info" markdown="1">
+
+    AppData (Windows) and .local (macOS) folders are hidden by default. You need to enable the setting to show hidden folders.
+
+    </div>
     
 1. Open ```Settings.xml```  in a text editor and add the following line to the file:
 
@@ -84,11 +96,15 @@ Then modify the configuration file, according to the **Service Studio** edition 
 1. Add a listener file to collect the logs. You may use any name.  
     In this example the ```general.txt``` log file is added.
 
-    Windows:
-     ```<SystemDiagnosticsListenerFile>C:/Users/<user_name>/AppData/Local/OutSystems/ServiceStudio 11/general.txt</SystemDiagnosticsListenerFile>```
+    * Windows:
+        * Windows-only Service Studio:
+         ```<SystemDiagnosticsListenerFile>C:/Users/<user_name>/AppData/Local/OutSystems/ServiceStudio 11/general.txt</SystemDiagnosticsListenerFile>```
 
-    Windows cross-platform:
+        * Cross-platform Service Studio:
      ```<SystemDiagnosticsListenerFile>C:/Users/<user_name>/AppData/Local/OutSystems/ServiceStudio 11 XPlatform/general.txt</SystemDiagnosticsListenerFile>```
+
+    * macOS:
+     ```<SystemDiagnosticsListenerFile>~/.local/share/Outsystems/ServiceStudio 11 XPlatform/general.txt</SystemDiagnosticsListenerFile>```
 
     <div class="info" markdown="1">
 
@@ -98,6 +114,12 @@ Then modify the configuration file, according to the **Service Studio** edition 
 
 1. Save the file and launch **Service Studio**.
 
+<div class="info" markdown="1">
+
+Keeping OSTrace enabled at all times can negatively impact the performance of your machine and disk space usage. Check [how to disable OSTrace](#disable-ostrace).
+
+</div>
+
 
 ### Using OSTrace
 
@@ -106,9 +128,14 @@ With OSTrace enabled, logs are written to a local file every time you consume a 
 The example below describes a typical troubleshooting workflow.
 
 1. In **Service Studio**, consume the problematic SOAP service that generated the error message.
-1. To view the logs in Windows, go to ```C:\Users\<user_name>\AppData\Local\OutSystems\ServiceStudio 11```.
+1. Go to the folder of the ```general.txt``` file.
+    * Windows:
 
-    To view the logs in Windows cross-platform, go to ```C:\Users\<user_name>\AppData\Local\OutSystems\ServiceStudio 11 XPlatform```.
+        * Windows-only Service Studio: ```C:\Users\<user_name>\AppData\Local\OutSystems\ServiceStudio 11```.  
+
+        * Cross-platform Service Studio: ```C:\Users\<user_name>\AppData\Local\OutSystems\ServiceStudio 11 XPlatform```.  
+
+    * macOS: ```~/.local/share/Outsystems/ServiceStudio 11 XPlatform```.
 
 1. Open ```general.txt``` in a text editor.
 
@@ -177,15 +204,9 @@ To correct this issue follow the procedure below:
 
 Import the modified definition files into **Service Studio** with the **Choose From File** option, as explained in [Export definition files in a SOAP Web Service](https://success.outsystems.com/Documentation/11/Extensibility_and_Integration/SOAP/Consuming_SOAP_Web_Services/Export_definition_files_in_a_SOAP_web_service#Exporting_definition_files). If there are no additional error messages, the SOAP web service should work as expected. 
 
-### Disabling OSTrace
+### Disabling OSTrace { #disable-ostrace }
 
 When OSTrace is enabled, **Service Studio** runs additional code and writes additional log information to the disk when consuming a SOAP web service. Since these logs may be long and extensive,  you should disable OSTrace logging when the troubleshooting session ends. 
-
-<div class="info" markdown="1">
-
-Keeping OSTrace activated at all times can negatively impact your application performance and disk space usage. 
-
-</div>
 
 To disable OSTrace for SOAP web services’ consumption: 
 
