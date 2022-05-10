@@ -66,75 +66,59 @@ To enable OSTrace for SOAP web service consumption, first delete the problematic
 
 Then modify the configuration file, according to the **Service Studio** edition you are using.
 
-#### Windows
+1. Go to the folder of the configuration file:
 
-1. Go to ``` C:\Program Files\OutSystems\Development Environment <version>\Service Studio\```  and open ``` ServiceStudio.exe.config```  in a text editor.
-1. Go to the  ``` <system.diagnostics>``` section.
-1. Add the following line to the file:
-     ``` <add name="SoapConsume" value="4"/>```
+    * Windows:
+
+        * Windows-only Service Studio: ```C:\Users\<user_name>\AppData\Local\OutSystems\ServiceStudio 11```.  
+
+        * Cross-platform Service Studio: ```C:\Users\<user_name>\AppData\Local\OutSystems\ServiceStudio 11 XPlatform```.  
+
+    * macOS: ```~/.local/share/Outsystems/ServiceStudio 11 XPlatform```.
 
     <div class="info" markdown="1">
 
-    If the line is commented out  remove the prefix ``` <!-- ```  and the suffix ``` -->```.
+    AppData (Windows) and .local (macOS) folders are hidden by default. You need to enable the setting to show hidden folders.
+
+    </div>
+    
+1. Open ```Settings.xml```  in a text editor and add the following line to the file:
+
+     ```<SystemDiagnosticsSwitches>SoapConsume</SystemDiagnosticsSwitches>```
+
+
+    <div class="info" markdown="1">
+
+    If the line is commented out, remove the prefix ```<!--```  and the suffix ```-->```.
 
     </div>
 
-        <system.diagnostics>
-            <switches>
-                <!--these 4 ones are very heavy, only enable when really needed-->
-                <!--<add name="Serializer" value="4"/>-->
-                <!--<add name="Deserializer" value="4"/>-->
-                <!--<add name="Hash" value="4"/>-->
-                <!--<add name="Undo" value="4" />-->
-                <add name="SoapConsume" value="4" />	
-                <!--<add name="Loader" value="4" />-->
-                <!--<add name="Saver" value="4" />-->
-                <!--<add name="Oml" value="4" />-->
-            </switches>
-        </system.diagnostics>
+1. Add a listener file to collect the logs. You may use any name.  
+    In this example the ```general.txt``` log file is added.
 
-1. Go to the ```<trace>``` section and add a listener file to collect the logs. You may use any name. In this example the log file is called ```general.txt```.
+    * Windows:
+        * Windows-only Service Studio:
+         ```<SystemDiagnosticsListenerFile>C:/Users/<user_name>/AppData/Local/OutSystems/ServiceStudio 11/general.txt</SystemDiagnosticsListenerFile>```
 
-        <trace autoflush=”true”>
-           <listeners>
-                <add name=”generalListeners” type=”System.diagostics.TextWriterTraceListener” initializeData=”general.txt”/>
-            </listeners>
-        </trace>
+        * Cross-platform Service Studio:
+     ```<SystemDiagnosticsListenerFile>C:/Users/<user_name>/AppData/Local/OutSystems/ServiceStudio 11 XPlatform/general.txt</SystemDiagnosticsListenerFile>```
+
+    * macOS:
+     ```<SystemDiagnosticsListenerFile>~/.local/share/Outsystems/ServiceStudio 11 XPlatform/general.txt</SystemDiagnosticsListenerFile>```
 
     <div class="info" markdown="1">
 
-    If the line is commented out  remove the prefix ``` <!-- ```  and the suffix ``` -->```.
-
-    </div>
-
-1. Save the file and launch **Service Studio**.
-
-#### Windows cross-platform
-
-1. Go to ``` C:\Users<user_name>\AppData\Local\OutSystems\ServiceStudio 11 XPlatform```  and open ``` Settings.xml```  in a text editor.
-1. Add the following line to the file:
-
-     ``` <SystemDiagnosticsSwitches>SoapConsume</SystemDiagnosticsSwitches>```
-
-
-    <div class="info" markdown="1">
-
-    If the line is commented out  remove the prefix ``` <!-- ```  and the suffix ``` -->```.
-
-    </div>
-
-1. Add a listener file to collect the logs. You may use any name. In this example the log file is called ```general.txt````.`
-
-     ``` <SystemDiagnosticsListenerFile>C:/Users/<user_name>/AppData/Local/OutSystems/ServiceStudio 11 XPlatform/general.txt</SystemDiagnosticsListenerFile>```
-
-
-    <div class="info" markdown="1">
-
-    If the line is commented out  remove the prefix ``` <!-- ```  and the suffix ``` -->```.
+    If the line is commented out, remove the prefix ```<!--```  and the suffix ```-->```.
 
     </div>
 
 1. Save the file and launch **Service Studio**.
+
+<div class="info" markdown="1">
+
+Keeping OSTrace enabled at all times can negatively impact the performance of your machine and disk space usage. Check [how to disable OSTrace](#disable-ostrace).
+
+</div>
 
 
 ### Using OSTrace
@@ -144,10 +128,18 @@ With OSTrace enabled, logs are written to a local file every time you consume a 
 The example below describes a typical troubleshooting workflow.
 
 1. In **Service Studio**, consume the problematic SOAP service that generated the error message.
-1. To view the logs in Windows, go to ```C:\Program Files\OutSystems\Development Environment <version>\Service Studio\``` and open ```general.txt``` in a text editor.
+1. Go to the folder of the ```general.txt``` file.
+    * Windows:
 
-    To view the logs in Windows cross-platform, go to ```C:/Users/<user_name>/AppData/Local/OutSystems/ServiceStudio 11 XPlatform/``` and open ```general.txt``` in a text editor.
-1. Look at the ```Name Collision Issue``` section and examine the name, namespace, and XML kind of the elements that causing the conflict.
+        * Windows-only Service Studio: ```C:\Users\<user_name>\AppData\Local\OutSystems\ServiceStudio 11```.  
+
+        * Cross-platform Service Studio: ```C:\Users\<user_name>\AppData\Local\OutSystems\ServiceStudio 11 XPlatform```.  
+
+    * macOS: ```~/.local/share/Outsystems/ServiceStudio 11 XPlatform```.
+
+1. Open ```general.txt``` in a text editor.
+
+1. In the ```Name Collision Issue``` section, examine the name, namespace, and XML kind of the elements that are causing the conflict.
 
     <table>
     <tr>
@@ -212,20 +204,14 @@ To correct this issue follow the procedure below:
 
 Import the modified definition files into **Service Studio** with the **Choose From File** option, as explained in [Export definition files in a SOAP Web Service](https://success.outsystems.com/Documentation/11/Extensibility_and_Integration/SOAP/Consuming_SOAP_Web_Services/Export_definition_files_in_a_SOAP_web_service#Exporting_definition_files). If there are no additional error messages, the SOAP web service should work as expected. 
 
-### Disabling OSTrace
+### Disabling OSTrace { #disable-ostrace }
 
 When OSTrace is enabled, **Service Studio** runs additional code and writes additional log information to the disk when consuming a SOAP web service. Since these logs may be long and extensive,  you should disable OSTrace logging when the troubleshooting session ends. 
-
-<div class="info" markdown="1">
-
-Keeping OSTrace activated at all times can negatively impact your application performance and disk space usage. 
-
-</div>
 
 To disable OSTrace for SOAP web services’ consumption: 
 
 1. Exit **Service Studio**.
-2. Open the configuration file you modified earlier and comment out the lines you edited  by adding the prefix ``` <!-- ```  and the suffix ``` -->```  to both lines..
+2. Open the configuration file you modified earlier. Comment out the lines you edited by adding the prefix ``` <!-- ```  and the suffix ``` -->```  to both lines.
 3. Save the file.
 
 New SOAP web service consumption logs are no longer written to the ```general.txt``` logs.
