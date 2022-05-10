@@ -69,21 +69,20 @@ Then modify the configuration file, according to the **Service Studio** edition 
 1. If you are using Windows, go to ```C:\Users\<user_name>\AppData\Local\OutSystems\ServiceStudio 11```.  
 
     If you are using Windows cross-platform, go to ```C:\Users\<user_name>\AppData\Local\OutSystems\ServiceStudio 11 XPlatform```.  
-
-    Open ```Settings.xml```  in a text editor.
     
-1. Add the following line to the file:
+1. Open ```Settings.xml```  in a text editor and add the following line to the file:
 
      ```<SystemDiagnosticsSwitches>SoapConsume</SystemDiagnosticsSwitches>```
 
 
     <div class="info" markdown="1">
 
-    If the line is commented out  remove the prefix ```<!--```  and the suffix ```-->```.
+    If the line is commented out, remove the prefix ```<!--```  and the suffix ```-->```.
 
     </div>
 
-1. Add a listener file to collect the logs. You may use any name. In this example the log file is called ```general.txt````.`
+1. Add a listener file to collect the logs. You may use any name.  
+    In this example the ```general.txt``` log file is added.
 
     Windows:
      ```<SystemDiagnosticsListenerFile>C:/Users/<user_name>/AppData/Local/OutSystems/ServiceStudio 11/general.txt</SystemDiagnosticsListenerFile>```
@@ -93,7 +92,7 @@ Then modify the configuration file, according to the **Service Studio** edition 
 
     <div class="info" markdown="1">
 
-    If the line is commented out  remove the prefix ```<!--```  and the suffix ```-->```.
+    If the line is commented out, remove the prefix ```<!--```  and the suffix ```-->```.
 
     </div>
 
@@ -111,9 +110,9 @@ The example below describes a typical troubleshooting workflow.
 
     To view the logs in Windows cross-platform, go to ```C:\Users\<user_name>\AppData\Local\OutSystems\ServiceStudio 11 XPlatform```.
 
-    Open ```general.txt``` in a text editor.
+1. Open ```general.txt``` in a text editor.
 
-1. Look at the ```Name Collision Issue``` section and examine the name, namespace, and XML kind of the elements that causing the conflict.
+1. In the ```Name Collision Issue``` section, examine the name, namespace, and XML kind of the elements that are causing the conflict.
 
     <table>
     <tr>
@@ -191,7 +190,7 @@ Keeping OSTrace activated at all times can negatively impact your application pe
 To disable OSTrace for SOAP web services’ consumption: 
 
 1. Exit **Service Studio**.
-2. Open the configuration file you modified earlier and comment out the lines you edited  by adding the prefix ``` <!-- ```  and the suffix ``` -->```  to both lines.
+2. Open the configuration file you modified earlier. Comment out the lines you edited by adding the prefix ``` <!-- ```  and the suffix ``` -->```  to both lines.
 3. Save the file.
 
 New SOAP web service consumption logs are no longer written to the ```general.txt``` logs.
