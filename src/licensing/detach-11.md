@@ -8,7 +8,7 @@ app_type: traditional web apps, mobile apps, reactive web apps
 
 # The detach process for OutSystems 11
 
-This document is a step-by-step guide for extracting the source code of your applications (web and mobile) from the .NET version of OutSystems and how to set it up to be executed and maintained independently of OutSystems, if you ever decide to detach from it. This is a complement to the [OutSystems Platform – Standard Architecture with No Lock-in](https://www.outsystems.com/goto/standard-architecture-with-no-lock-in) content that gives a high-level view on how OutSystems, unlike other proprietary technologies and frameworks, generates standard, optimized, and fully documented .NET source code that doesn't require runtime interpreters or engines.
+This document is a step-by-step guide for extracting the source code of your applications (web and mobile) from the .NET version of OutSystems and how to set it up to be executed and maintained independently of OutSystems, if you ever decide to detach from it. This is a complement to the [OutSystems Platform – Standard Architecture with No Lock-in](https://www.outsystems.com/evaluation-guide/standard-architecture-with-no-lock-in/) content that gives a high-level view on how OutSystems, unlike other proprietary technologies and frameworks, generates standard, optimized, and fully documented .NET source code that doesn't require runtime interpreters or engines.
 
 ## Detach process overview
 
