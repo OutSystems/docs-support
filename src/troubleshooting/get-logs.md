@@ -35,7 +35,7 @@ If you are getting this report by request of OutSystems Support, **attach the fi
 
 ### Runtime Logs
 
-The [logs for the runtime of the platform] https://success.outsystems.com/Documentation/11/Managing_the_Applications_Lifecycle/Monitor_and_Troubleshoot/View_the_Environment_Logs_and_Status#monitoring-area) are available in the **Service Center** console of each environment - application and LifeTime environments:
+The [logs for the runtime of the platform] (https://success.outsystems.com/Documentation/11/Managing_the_Applications_Lifecycle/Monitor_and_Troubleshoot/View_the_Environment_Logs_and_Status#monitoring-area) are available in the **Service Center** console of each environment - application and LifeTime environments:
 
 * Errors
 * General logs
