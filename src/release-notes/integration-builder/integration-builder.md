@@ -5,6 +5,13 @@ app_type: traditional web apps, mobile apps, reactive web apps
 ---
 
 <h1>Integration Builder</h1>
+<h2 id="Integration_Builder_1.34.2">Integration Builder 1.34.2</h2>
+<div class="info"><p>Released on May 13, 2022</p></div>
+<h3 id="Bug_Fixing_0">Bug Fixing</h3>
+<ul>
+<li>The "www." part of a domain is no longer removed automatically from values typed into the Environment input on the Login screen. (RPM-2543)</li>
+</ul>
+
 <h2 id="Integration_Builder_1.34.0">Integration Builder 1.34.0</h2>
 <div class="info"><p>Released on May 05, 2022</p></div>
 <h3 id="New_in_Integration_Builder_1.34.0">New in Integration Builder 1.34.0</h3>
@@ -12,7 +19,7 @@ app_type: traditional web apps, mobile apps, reactive web apps
 <li>Added a hint to help fill port information on relational database connections. (RCNT-4701)</li>
 <li>MongoDB integrations just got easier with the new version of the MongoDB connector. Now, collections can be represented in structure format, meaning Integration Builder inspects the collection schema and generates Structures. You can still choose to use the JSON output format. MongoDB integrations are available exclusively in the latest version of Integration Builder and are fully supported by OutSystems. Find out more about MongoDB integrations in <a href="https://www.outsystems.com/goto/ib-mongodb-docs">our documentation</a>. (RCNT-4854)</li>
 </ul>
-<h3 id="Bug_Fixing_0">Bug Fixing</h3>
+<h3 id="Bug_Fixing_1">Bug Fixing</h3>
 <ul>
 <li>Fixed an issue that caused invalid connections to show in Integration Manager after deleting and then reinstalling an Integration Manager plugin. Now, when you delete a plugin, the connections that use that plugin are deleted. (RCNT-4731)</li>
 <li>Fixed an issue that caused MongoDB integrations to show a "Pending changes" warning even after the integrations are published. (RCNT-4794)</li>
@@ -21,7 +28,7 @@ app_type: traditional web apps, mobile apps, reactive web apps
 
 <h2 id="Integration_Builder_1.33.1">Integration Builder 1.33.1</h2>
 <div class="info"><p>Released on Apr 11, 2022</p></div>
-<h3 id="Bug_Fixing_1">Bug Fixing</h3>
+<h3 id="Bug_Fixing_2">Bug Fixing</h3>
 <ul>
 <li>Fixed an error that would occur when trying to quickly republish several connectors, using the contextual menu on the integrations list. (RCNT-4458)</li>
 <li>Fixed: when installing the MongoDB Integration Manager Plugin, the text incorrectly stated an "integration" was being published. (RCNT-4725)</li>
@@ -41,7 +48,7 @@ app_type: traditional web apps, mobile apps, reactive web apps
 <li>Improved the visibility of a hint about the "DNS SRV" checkbox, on the MongoDB connection creation screens. (RCNT-4671)</li>
 <li>Integrations with external databases in Integration Builder are now generally available and fully supported by OutSystems. Integrate with SQL, Server, Azure SQL, Oracle, MySQL, iDB2, and PostgreSQL and do with Integration Builder what you used to do with Integration Studio, only with an improved experience. Find more about it in our <a href="https://www.outsystems.com/goto/ib-external-db">documentation</a>. (RCNT-4741)</li>
 </ul>
-<h3 id="Bug_Fixing_2">Bug Fixing</h3>
+<h3 id="Bug_Fixing_3">Bug Fixing</h3>
 <ul>
 <li>Now, in Integration Manager, when creating/editing an SAP connection, the 'Test connection' button is disabled when there isn't an integration selected. (RCNT-4695)</li>
 <li>Changed the loading animation of cards on the "Create Integration" screen. (RCNT-4700)</li>
@@ -60,7 +67,7 @@ app_type: traditional web apps, mobile apps, reactive web apps
 This new integration allows you to easily connect your apps with the most popular no-SQL database, MongoDB. 
 The MongoDB integrations are available exclusively in the latest version of Integration Builder and are fully supported by the OutSystems platform. Find out more about MongoDB integrations in our <a href="https://www.outsystems.com/goto/ib-mongodb-doc">documentation</a>.  (RCNT-4673)</li>
 </ul>
-<h3 id="Bug_Fixing_3">Bug Fixing</h3>
+<h3 id="Bug_Fixing_4">Bug Fixing</h3>
 <ul>
 <li>Fixed an issue that caused an error that occurred in the generation step while publishing integrations. The issue occurred when object names included special characters leading to the duplication of object names. (RCNT-4602)</li>
 <li>Improved the experience on the  "Add tables" step of the integration creation wizard for relational databases. Now, long table names don't cause a horizontal scroll. (RCNT-4662)</li>
@@ -73,7 +80,7 @@ The MongoDB integrations are available exclusively in the latest version of Inte
 <ul>
 <li>Now integrations with Salesforce, SharePoint, Microsoft Dataverse, and Microsoft Dynamics 365 include a new "Get<object name="">BasicOrderById" Server Action. This action enables the sorting of data and is available in the library module of these integrations. (RCNT-4098)</object></li>
 </ul>
-<h3 id="Bug_Fixing_4">Bug Fixing</h3>
+<h3 id="Bug_Fixing_5">Bug Fixing</h3>
 <ul>
 <li>Fixed an issue that caused an "IntegrationBuilderUser role required" error message. This error message appeared after clicking an action button after your session expired. (RCNT-4444)</li>
 <li>Fixed an issue that caused a  "Missing value for mandatory input"  error message. This issue occurred when an Integration Builder dependency didn't have the version number in its description. (RCNT-4557)</li>
@@ -89,7 +96,7 @@ Breaking change: For Dataverse/Dynamics 365 integrations, the static entities th
 <li>Improvement on the Sharepoint Search Server Action. A new structure was added, as an input parameter, to filter by folder and also include/exclude sub-folders files. (RCNT-4219)</li>
 <li>Added support for relational database integrations when each environment has a different catalog. In the "Select database" step of the wizard, there is a new option "Connection's default database". When this option is selected, the default database that was input when the external database connection was created will be used by the connector. This allows you to have different default databases per environment. (RCNT-4372)</li>
 </ul>
-<h3 id="Bug_Fixing_5">Bug Fixing</h3>
+<h3 id="Bug_Fixing_6">Bug Fixing</h3>
 <ul>
 <li>Integration Builder doesn't prompt users to update dependencies that don't affect integrations published to the customer's environment anymore. (RCNT-4490)</li>
 <li>Fixed an issue that caused errors when generating an SAP OData connector and the request structure contains sub-structures. (RCNT-4506)</li>
