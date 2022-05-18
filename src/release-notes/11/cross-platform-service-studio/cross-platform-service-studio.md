@@ -5,9 +5,18 @@ app_type: traditional web apps, mobile apps, reactive web apps
 ---
 
 <h1>Cross-platform Service Studio</h1>
+<h2 id="Cross-platform_Service_Studio_11.52.6">Cross-platform Service Studio 11.52.6</h2>
+<div class="info"><p>Released on May 16, 2022</p></div>
+<h3 id="Bug_Fixing_0">Bug Fixing</h3>
+<ul>
+<li>Fixed a crash when loading screen templates. (RMAC-9576)</li>
+<li>Fixed a crash when dragging a client action to a screen. (RMAC-9588)</li>
+<li>Fix an issue when navigating back/forward in the history that caused a crash in some situations (RMAC-9590)</li>
+</ul>
+
 <h2 id="Cross-platform_Service_Studio_11.52.5">Cross-platform Service Studio 11.52.5</h2>
 <div class="info"><p>Released on May 12, 2022</p></div>
-<h3 id="Bug_Fixing_0">Bug Fixing</h3>
+<h3 id="Bug_Fixing_1">Bug Fixing</h3>
 <ul>
 <li>Fixed a crash when loading screen templates. (RMAC-9576)</li>
 <li>Crash happens after deleting multiple Client Actions when expanding/collapsing Client Actions. Can't always be reproduced. (RMAC-9579)</li>
@@ -21,7 +30,7 @@ app_type: traditional web apps, mobile apps, reactive web apps
 <ul>
 <li>Refresh ServiceStudio UI while a progress dialog is loading (RDOIAT-545)</li>
 </ul>
-<h3 id="Bug_Fixing_1">Bug Fixing</h3>
+<h3 id="Bug_Fixing_2">Bug Fixing</h3>
 <ul>
 <li>Fixed an issue that was forcing Service Studio to not respect IPP UnProtected environment setting (RMAC-9422)</li>
 <li>Fixed Service Studio crash when applying changes to the References of a module (RMAC-9439)</li>
@@ -35,7 +44,7 @@ app_type: traditional web apps, mobile apps, reactive web apps
 <ul>
 <li>It is now possible to open Aggregates and Edit Data in a separate window. This way, you can compare Aggregates and Entities while seeing your screens or logic flows. (RTAFA-449)</li>
 </ul>
-<h3 id="Bug_Fixing_2">Bug Fixing</h3>
+<h3 id="Bug_Fixing_3">Bug Fixing</h3>
 <ul>
 <li>Improved Aggregate's data preview experience (RAID-1394)</li>
 <li>Fix a crash when trying to open multiple AddRemoveReferences dialogs at once (RMAC-9022)</li>
@@ -48,7 +57,7 @@ app_type: traditional web apps, mobile apps, reactive web apps
 <ul>
 <li>You can now use SOAP Refresh option to quickly change the services consumed from a SOAP Web Service or modify the list of consumed methods. (RDOIBT-80)</li>
 </ul>
-<h3 id="Bug_Fixing_3">Bug Fixing</h3>
+<h3 id="Bug_Fixing_4">Bug Fixing</h3>
 <ul>
 <li>Fix an issue that caused the Widget tree to immediately appear (in Windows OS only) when starting to drag elements from other right pane trees. (RMAC-8520)</li>
 </ul>
@@ -62,7 +71,7 @@ app_type: traditional web apps, mobile apps, reactive web apps
 <li>You can now use SOAP Refresh option to quickly change the services consumed from a SOAP Web Service or modify the list of consumed methods. (RDOIBT-80)</li>
 <li>Now on text widgets the UnDo and ReDo operations are done with text aggregation for more efficient execution. (RTAFB-5584)</li>
 </ul>
-<h3 id="Bug_Fixing_4">Bug Fixing</h3>
+<h3 id="Bug_Fixing_5">Bug Fixing</h3>
 <ul>
 <li>Improved an error message by adding relevant information when an array lacks the items definition while importing a REST Web Service. (R11DT-382)</li>
 <li>Fixed an issue that caused the installation of a sample app to fail. (RIMPT-1653)</li>
@@ -83,7 +92,7 @@ app_type: traditional web apps, mobile apps, reactive web apps
 <li>Improved the experience of using copy, paste, cut, and delete keyboard shortcuts when editing text in Service Studio. For more information about keyboard shortcuts, go to Help -&gt; Keyboard Shortcuts in Service Studio. (RDOIBT-206)</li>
 <li>Now on text widgets the UnDo and ReDo operations are done with text aggregation for more efficient execution. (RTAFB-5584)</li>
 </ul>
-<h3 id="Bug_Fixing_5">Bug Fixing</h3>
+<h3 id="Bug_Fixing_6">Bug Fixing</h3>
 <ul>
 <li>Fixed an issue that gave an incorrect length attribute when importing a SOAP web service. (RPD-5047)</li>
 <li>Fix missing horizontal scroll bar on traditional web apps when no device is selected. (RPM-2045)</li>
@@ -96,7 +105,7 @@ app_type: traditional web apps, mobile apps, reactive web apps
 <ul>
 <li>Users are now able to identify merge differences on screens &amp; blocks through widgets visual hints/decorations. (RDOIAT-301)</li>
 </ul>
-<h3 id="Bug_Fixing_6">Bug Fixing</h3>
+<h3 id="Bug_Fixing_7">Bug Fixing</h3>
 <ul>
 <li>Fixed an issue that gave an incorrect length attribute when importing a SOAP web service. (RPD-5047)</li>
 </ul>
@@ -107,7 +116,7 @@ app_type: traditional web apps, mobile apps, reactive web apps
 <ul>
 <li>Now Table widgets can be collapsed using the display toggle button. (RTAFA-278)</li>
 </ul>
-<h3 id="Bug_Fixing_7">Bug Fixing</h3>
+<h3 id="Bug_Fixing_8">Bug Fixing</h3>
 <ul>
 <li>Fix intermittent crash when opening Service Studio. (RMAC-9105)</li>
 <li>Fixed expression editor visual glitch when synchronizing with scope tree. (RMAC-9153)</li>
@@ -130,7 +139,7 @@ app_type: traditional web apps, mobile apps, reactive web apps
 <li>Now ListItem widgets can be collapsed using display toggle button. (RTAFA-272)</li>
 <li>Now If Widgets have a unique icon per toggle value to better distinguish which branch is visible  (RTAFA-275)</li>
 </ul>
-<h3 id="Bug_Fixing_8">Bug Fixing</h3>
+<h3 id="Bug_Fixing_9">Bug Fixing</h3>
 <ul>
 <li>Fixed an issue that caused manage dependencies stays loading indefinitely when Apply all option is chosen. (RDMST-894)</li>
 <li>. (RICT-4268)</li>
@@ -144,7 +153,7 @@ app_type: traditional web apps, mobile apps, reactive web apps
 <li>It is now possible to expose REST web services with the character "-" on the URL.
 Inspired by <a href="https://www.outsystems.com/ideas/5205/allow-hyphen-in-url-path-of-an-exposed-api-web-method/">João Marques' idea</a>. (R11DT-870)</li>
 </ul>
-<h3 id="Bug_Fixing_9">Bug Fixing</h3>
+<h3 id="Bug_Fixing_10">Bug Fixing</h3>
 <ul>
 <li>Removed double error message when trying to set public blocks or screens to be reused in other modules, for Mobile Apps. (RMAC-9002)</li>
 </ul>
@@ -165,7 +174,7 @@ Inspired by <a href="https://www.outsystems.com/ideas/5205/allow-hyphen-in-url-p
 <ul>
 <li>It is now possible to consume SOAP Web Services in your applications. (RDOIBT-194)</li>
 </ul>
-<h3 id="Bug_Fixing_10">Bug Fixing</h3>
+<h3 id="Bug_Fixing_11">Bug Fixing</h3>
 <ul>
 <li>Fixed an issue that caused Service Studio to become unresponsive after closing Search In Other Modules window. (RMAC-8718)</li>
 <li>Fixed an issue that caused Service Studio to consider all possible dependencies invalid and the need of being republished when using manage dependencies. (RMAC-8722)</li>
@@ -174,7 +183,7 @@ Inspired by <a href="https://www.outsystems.com/ideas/5205/allow-hyphen-in-url-p
 <div class="info">
 <p>Released on Dec 28, 2021</p>
 </div>
-<h3 id="Bug_Fixing_11">Bug Fixing</h3>
+<h3 id="Bug_Fixing_12">Bug Fixing</h3>
 <ul>
 <li>Fixed an issue that caused Service Studio to become unresponsive after closing Search In Other Modules window. (RMAC-8718)</li>
 </ul>
@@ -187,7 +196,7 @@ Inspired by <a href="https://www.outsystems.com/ideas/5205/allow-hyphen-in-url-p
 <li>Now it's possible to configure a new Database integration through the following shortcut: go to Data tab &gt; right-click on Databases &gt; select Integrate with External Databases (RDEPT-112)</li>
 <li>You can now evolve your traditional web applications using the added capabilities to customize widgets on web screens. (RTAFB-5483)</li>
 </ul>
-<h3 id="Bug_Fixing_12">Bug Fixing</h3>
+<h3 id="Bug_Fixing_13">Bug Fixing</h3>
 <ul>
 <li>Fixed the lack of feedback on whether a widget can be dropped or not while dragging in Service Studio Hybrid. (RDOICT-81)</li>
 <li>Fix issue of window size being smaller than desired resulting in cropped content. (RMAC-8669)</li>
@@ -211,7 +220,7 @@ Inspired by <a href="https://www.outsystems.com/ideas/5205/allow-hyphen-in-url-p
 <li>Infrastructure for SAUCE tutorials - enhancing existing Guided Tour infrastructure to support specifying substeps in code, no impact should happen in existing tutorials. (RIMPT-1000)</li>
 <li>Features related to emails for Mobile and Reactive Web Apps are now generally available in Service Studio. You could use the features previously in technical the previews "Emails for Mobile and Reactive" and "Attachments in Mobile and Reactive emails". (RTAFA-77)</li>
 </ul>
-<h3 id="Bug_Fixing_13">Bug Fixing</h3>
+<h3 id="Bug_Fixing_14">Bug Fixing</h3>
 <ul>
 <li>Fixed an issue that caused a communication error when publishing a cloned app. (RDEV-3878)</li>
 <li>Fixed the lack of feedback on whether a widget can be dropped or not while dragging in Service Studio Hybrid. (RDOICT-81)</li>
@@ -231,7 +240,7 @@ Inspired by <a href="https://www.outsystems.com/ideas/5205/allow-hyphen-in-url-p
 <li>You can now use the grid columns to accurately resize the elements of a screen in a fixed or fluid layout. Instead of previously resizing without seeing parent's available space nor knowing the grid layout width, you now have a better idea of the available space in elements because the IDE UI shows the column number. This change makes the process of the UI design more efficient. (RTAFA-146)</li>
 <li>Now you can configure friendly URLs in your Reactive Web Apps. Go to Service Center &gt; Administration &gt; SEO URLs to set up the site rules and redirects. Configure the page rules in Service Studio, by setting Custom URLs to Yes in the Screen properties. (RTAFB-4453)</li>
 </ul>
-<h3 id="Bug_Fixing_14">Bug Fixing</h3>
+<h3 id="Bug_Fixing_15">Bug Fixing</h3>
 <ul>
 <li>Fixed an issue when using the Delete shortcut on an "Unused Element" warning, which was deleting the selected element in the right pane tree instead of the "Unused Element". (RMAC-8054)</li>
 <li>Fix crash when creating a new Screen through a destination node in a Screen Action. (RMAC-8282)</li>
@@ -250,7 +259,7 @@ Inspired by <a href="https://www.outsystems.com/ideas/5205/allow-hyphen-in-url-p
 <li>Ability to refresh existing REST Integrations, enabling additional productivity to users. (RDOIBT-83)</li>
 <li>Now it’s easier to find OutSystems UI components in Service Studio toolbox. (RIMPT-970)</li>
 </ul>
-<h3 id="Bug_Fixing_15">Bug Fixing</h3>
+<h3 id="Bug_Fixing_16">Bug Fixing</h3>
 <ul>
 <li>Service Studio no longer crashes when, after changing a 'Run Client Actions's action, the 'Expand Element' of a list argument is clicked. (RDMST-812)</li>
 <li>Fixed the lack of feedback on whether a widget can be dropped or not while dragging in Service Studio. (RDOICT-81)</li>
@@ -276,7 +285,7 @@ Inspired by <a href="https://www.outsystems.com/ideas/5205/allow-hyphen-in-url-p
 <ul>
 <li>It's now easier to select data for Table and List widgets. Click "Select Data" in the Source property dropdown to fetch and bind data from an entity in a single operation. (RIMPT-846)</li>
 </ul>
-<h3 id="Bug_Fixing_16">Bug Fixing</h3>
+<h3 id="Bug_Fixing_17">Bug Fixing</h3>
 <ul>
 <li>Fixed an issue caused by the rendering of an HTML Element widget with invalid Tag property value. (RMAC-8197)</li>
 </ul>
@@ -289,7 +298,7 @@ Inspired by <a href="https://www.outsystems.com/ideas/5205/allow-hyphen-in-url-p
 <li>It's now easier to use data from your System of Records in your apps. In the "Logic" tab, open the context menu for "Integration with external systems" and select "New integration". (RIMPT-742)</li>
 <li>Improved the integration of REST APIs allowing users to select methods to be imported. (RMAC-6641)</li>
 </ul>
-<h3 id="Bug_Fixing_17">Bug Fixing</h3>
+<h3 id="Bug_Fixing_18">Bug Fixing</h3>
 <ul>
 <li>Fixed a crash when trying to refresh dependencies on Manage Dependencies dialog under some circumstances (RDMST-760)</li>
 <li>Fixed an issue that causes the Manage Dependencies window to open twice when using shortcuts. (RICT-3568)</li>
@@ -305,7 +314,7 @@ Inspired by <a href="https://www.outsystems.com/ideas/5205/allow-hyphen-in-url-p
 <li>Soap Introspection testing is setup and will be triggered when prc-soap-introspection label is present on pull request. (R11DT-513)</li>
 <li>You can now use expressions to set titles of Screens. This lets you change the page title dynamically, and set unique values that show in the browser tabs, bookmarks, and results from the search engines. When using this feature, it is recomended that all developers in the same organization update Service Studio. (RTAF-5082)</li>
 </ul>
-<h3 id="Bug_Fixing_18">Bug Fixing</h3>
+<h3 id="Bug_Fixing_19">Bug Fixing</h3>
 <ul>
 <li>Fixed an issue that caused the "Limit Exceeded" error to have an empty message. (RDEV-3585)</li>
 <li>Added support for opening the context menu with Ctrl+Left Click on Mac. (RMAC-6068)</li>
@@ -318,7 +327,7 @@ Inspired by <a href="https://www.outsystems.com/ideas/5205/allow-hyphen-in-url-p
 <div class="info">
 <p>Released on Sep 15, 2021</p>
 </div>
-<h3 id="Bug_Fixing_19">Bug Fixing</h3>
+<h3 id="Bug_Fixing_20">Bug Fixing</h3>
 <ul>
 <li>Now the Edit shortcuts are always applied to currently focused window in ServiceStudio on Mac (RICT-3706)</li>
 <li>Fixed an issue that was preventing from seeing if an element was created or deleted in a merge scenario. (RMAC-7624)</li>
@@ -335,7 +344,7 @@ Inspired by <a href="https://www.outsystems.com/ideas/5205/allow-hyphen-in-url-p
 <li>Now users have a link and dedicated FAQ session in case they have difficulties in the Sign in with email. (RDRGT-92)</li>
 <li>Support for new features in the email technical preview for Mobile and Reactive Web Apps, including attachments and new widgets. (RTAF-4812)</li>
 </ul>
-<h3 id="Bug_Fixing_20">Bug Fixing</h3>
+<h3 id="Bug_Fixing_21">Bug Fixing</h3>
 <ul>
 <li>Fixed template cache concurrent access issue. (RIMPT-539)</li>
 <li>Improved the experience of reading and selecting text in the properties with syntax highlighting. (RMAC-4587)</li>
@@ -345,7 +354,7 @@ Inspired by <a href="https://www.outsystems.com/ideas/5205/allow-hyphen-in-url-p
 <div class="info">
 <p>Released on Aug 09, 2021</p>
 </div>
-<h3 id="Bug_Fixing_21">Bug Fixing</h3>
+<h3 id="Bug_Fixing_22">Bug Fixing</h3>
 <ul>
 <li>Fixed a bug causing the window to become maximized upon startup. Window state is now properly restored. (RICT-3776)</li>
 <li>Fixed a bug that allowed zooming in Service Studio using the trackpad pinch zoom. (RMAC-7183)</li>
