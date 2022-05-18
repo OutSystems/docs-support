@@ -9,7 +9,6 @@ app_type: traditional web apps, mobile apps, reactive web apps
 <div class="info"><p>Released on May 16, 2022</p></div>
 <h3 id="Bug_Fixing_0">Bug Fixing</h3>
 <ul>
-<li>Fixed a crash when loading screen templates. (RMAC-9576)</li>
 <li>Fixed a crash when dragging a client action to a screen. (RMAC-9588)</li>
 <li>Fix an issue when navigating back/forward in the history that caused a crash in some situations (RMAC-9590)</li>
 </ul>
