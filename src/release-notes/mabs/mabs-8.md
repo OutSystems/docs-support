@@ -93,6 +93,7 @@ MABS 8.0 is an important milestone for all mobile developers who publish on App 
 * [2022-02-16 12:00:00 UTC] Fixed a known issue that prevented MABS from building Android apps with the character "&" on the app name. (RPM-1666)
 * [2022-03-03 09:30:00 UTC] You can now enable [touch filtering](https://developer.android.com/reference/android/view/View#security) on Android builds of apps, using the [Extensibility Configuration](https://success.outsystems.com/Documentation/11/Delivering_Mobile_Apps/Customize_Your_Mobile_App/Extensibility_Configurations_JSON_Schema) "FilterTouchesWhenObscured". (RPM-1749)
 * [2022-03-16 15:30:00 UTC] Fixed an issue with the Upload Widget that prevented end users from receiving a request for capture and storage access permission. This occurred on the first app usage of Android builds, preventing the upload from being used. (RPM-2099)
+* [2022-05-19 13:00:00 UTC] Updated NPM version to overcome github changes related to the usage of the `git://` protocol. [More info here](https://github.blog/2021-09-01-improving-git-protocol-security-github/)
 
 ### System Requirements 
 

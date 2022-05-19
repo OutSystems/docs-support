@@ -22,7 +22,7 @@ For common issues and solutions check also [Troubleshooting the Mobile Apps Gene
 <div class="info">
 
 **First release:** 2021-09-01 15:40:00 UTC<br/>
-**Last update:** 2022-03-03 10:25:00 UTC
+**Last update:** 2021-05-19 13:00:00 UTC
 </div>
 
 <div class="warning">
@@ -46,6 +46,7 @@ See “System requirements and Breaking Changes” in MABS 7.0 Release Notes
 * [2021-12-02 12:00:00 UTC] Fixed an issue that prevented the provisioning profile entitlement com.apple.application-identifier being considered as a valid entitlement.  (RNMT-5244)
 * [2021-12-02 12:00:00 UTC] Improved the error message shown when a build error related to AppShield occurs.  (RNMT-5252)
 * [2022-03-03 09:45:00 UTC] You can now enable [touch filtering](https://developer.android.com/reference/android/view/View#security) on Android builds of apps, using the [Extensibility Configuration](https://success.outsystems.com/Documentation/11/Delivering_Mobile_Apps/Customize_Your_Mobile_App/Extensibility_Configurations_JSON_Schema) "FilterTouchesWhenObscured". (RPM-1749)
+* [2022-05-19 13:00:00 UTC] Updated NPM version to overcome github changes related to the usage of the `git://` protocol. [More info here](https://github.blog/2021-09-01-improving-git-protocol-security-github/)
 
 ## MABS Version 7.1
 
