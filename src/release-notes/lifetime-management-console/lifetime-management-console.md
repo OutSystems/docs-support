@@ -510,7 +510,7 @@ app_type: traditional web apps, mobile apps, reactive web apps
 <ul>
 <li>Fixed an issue that caused LifeTime to make applications with no differences available to be added in Deployment plans. (RLIT-3570)</li>
 <li>Fixed an error when selecting a role during the creation of a new service account. (RLIT-3572)</li>
-<li>Now the logged-in user can't change his/her own roles. (RLIT-3575)</li>
+<li>Now the logged-in user can't change their own roles. (RLIT-3575)</li>
 <li>The link "Delete Team" is no longer displayed when the logged-in user has no permission to delete teams. (RLIT-3577)</li>
 <li>The link "New User" is no longer displayed when the logged-in user has no permission to create new users. (RLIT-3580)</li>
 <li>Fixed an error in the new deployment plan wizard to configure application settings (Early Access) occurring when selecting a deployment zone and there is only one application in the deployment. (RLIT-3589)</li>
