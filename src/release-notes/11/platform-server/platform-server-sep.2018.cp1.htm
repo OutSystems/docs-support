@@ -1,0 +1,70 @@
+---
+isautopublish: false
+pageprivacy: public
+---
+<h2 id="Platform_Server_Release_Sep.2018_CP1">Platform Server Release Sep.2018 CP1</h2>
+<div class="info">Released on Dec 20, 2018</div>
+<h3 id="New_in_Platform_Server_Release_Sep.2018_CP1">New in Platform Server Release Sep.2018 CP1</h3>
+<ul>
+<li>Added a comment in the generated SQL of Advanced Queries and Aggregates with the location of the query in OutSystems applications. Configurable using Factory Configuration. Inspired by <a class="link-https" href="https://www.outsystems.com/ideas/4817/reverse-tracking-sql" rel="external noopener nofollow" target="_blank">Neil Munro's idea</a>. (ABE-1151)</li>
+<li>We removed the obsolete "referrer" directive from the Content Security Policy (CSP) configuration screens. (RLIT-2270)</li>
+<li>The timeout for building mobile applications has been increased to 30 minutes when launched from Service Studio. (RLIT-2095)</li>
+<li>The logs of query errors from Aggregates and Advanced SQL now contain more details. (RRCT-1918)</li>
+<li>We fixed an issue with the compiler optimizer that sometimes caused long compilation times. (RSCT-1302)</li>
+<li>Now there's a warning during an introspection of a WSDL, if it contains an attributeGroups element. (RINT-2759)</li>
+<li>Added support for SOAP Arrays in consumed SOAP Web Services. (RINT-956)</li>
+<li>Added support for "any" elements in consumed SOAP Web Services. (RINT-1439)</li>
+<li>Added support for Polymorphism in consumed SOAP Web Services. (RINT-1972)</li>
+<li>The SSL offload is now on by default for applications running in containers. (RSAT-1073)</li>
+<li>The container deploy process no longer leaves behind old result files. (RSAT-887)</li>
+</ul>
+<h3 id="Bug_Fixing_Release_Sep.2018_CP1">Bug Fixing</h3>
+<ul>
+<li>Changing an input parameter of a Service Action from optional to mandatory will now trigger an exception at runtime when the parameter value is not set. (ABE-949)</li>
+<li>We fixed an issue related to the Oracle driver not being able to abort a query when a HTTP request timeout occurs. (RPD-3426)</li>
+<li>Now the system entities in the Oracle databases create the correct indexes for primary keys of the Text type. (RPD-3528)</li>
+<li>User information is no longer propagated in BPT actions (e.g. ActivityClose) when the process is defined in a module with a different User Provider. (RRCT-1969)</li>
+<li>In the modules with multi-tenant tables, the compilation time no longer scales up with the number of existing tenants. (RPD-3085)</li>
+<li>Fixed a bug that prevented CSP (Content Security Policy) violation logs from reaching the endpoint specified by the "report-to" header field. Now the violation logs are saved properly. (RRCT-1982)</li>
+<li>You can now set OutSystems to reject the requests for non-supported image formats. In "Factory Configuration" Forge component, go to Security and check the option "Enforce Valid Image Formats on Image and Binary Endpoints". The valid image formats are GIF, PNG, and JPEG. The setting applies to the images the end-users upload through the applications created in OutSystems. (RRCT-2002)</li>
+<li>Fixed issue that prevented unblocking operations on blocked IP Addresses in the Users application when using Oracle as the database platform. (RPD-3537)</li>
+<li>Fixed a bug that caused a "Cannot read property 'type' of null" JavaScript error when removing a radio button via an AJAX call. (RPD-3490)</li>
+<li>Fixed PerformanceMonitoring API returning a TTLB (Time To First Byte) value lower than the TTFB (Time To Last Byte) value for Submit requests. (RPD-3497)</li>
+<li>Fixed Feedback Message in Screen Preparation being shown twice. (RPD-3516)</li>
+<li>Fixed high database load caused by the "GetDevEffort" query during LifeTime synchronization operations. (RPD-3542)</li>
+<li>Now the AJAX Request no longer fails when a Web Screen has multiple HTML Forms. (RPD-3558)</li>
+<li>We fixed the listing of the database connections for the extension configuration, so it can show more than 100 server connection. (RPD-3571)</li>
+<li>Now you can set an empty Timer schedule in Service Center. This was already possible in Service Studio. (RPD-3580)</li>
+<li>Fixed the default browser behavior to ask to save the login credentials. Now the password fields in OutSystems applications such as Service Center or LifeTime have the "autocomplete" property set to "off" by default. (RPD-3464)</li>
+<li>We fixed the OsVisitor cookies so they are now properly set to expire, and no longer lost when the browser is closed. (RPD-3590)</li>
+<li>Now you won't have an empty item in Service Center "Recent items" sidebar list when you publish an existing eSpace through Service Center. (RLIT-2277)</li>
+<li>Now your unattended platform installations have the Debug Mode enabled. We fixed a bug that deactivated Environment Debug Mode when uploading the first license.  (RLIT-2262)</li>
+<li>Fixed issue that left applications as outdated after synchronization. (RLIT-2244)</li>
+<li>Some previously missing administrative operations are now allowed in on-premises environments in hybrid infrastructures. (RPD-3449)</li>
+<li>We corrected an issue with the Oracle introspection in Integration Studio. Integration Studio was unable to find tables if the schema was not explicit. Now there's a fallback to use the schema configured in the database connection. (RPD-2938)</li>
+<li>Fixed the Service Center mobile request logs so they now have a unit of time.  (RLIT-2170)</li>
+<li>Fixed the name of the export file obtained after clicking the "Export to Excel" link from the Integrations Log page in Service Studio. (RLIT-2153)</li>
+<li>Fixed spacing issues between links in the Tenant tab of the eSpace details screen in Service Center. (RLIT-2193)</li>
+<li>Fixed the "Expected ';'" JavaScript error that appeared after an AJAX Refresh in some scenarios. (RPD-3511)</li>
+<li>Fixed a compilation error that occurred when using a Web Service containing action with single outputs of type Structure. (RINT-2775)</li>
+<li>The Configuration Tool command-line parameter "/ModifyDeploymentZone" now fails gracefully when trying to modify a non-existing deployment zone. (RSAT-1042)</li>
+<li>Due to the specifics of deploying applications into containers, we disabled the Delete button for those applications. This is to prevent OutSystems Deployment Controller Service, for the application you are trying to delete, from a lock during the 30 minutes timeout in some scenarios. Otherwise, you'd need to restart the OutSystems Deployment Controller Service to resume normal operations before the timeout. Additionally, the messages related to container deployment are now correctly shown in LifeTime. Check <a class="new" href="https://success.outsystems.com/Support/Enterprise_Customers/Maintenance_and_Operations/Deleting_an_application_that_is_manually_deployed_to_a_container" rel="internal">"Deleting an application that is manually deployed to a container"</a> for the instructions. (RSAT-1077)</li>
+<li>Fixed deprecation warning due to the usage of 'buildpack' attribute in Pivotal Cloud Foundry (PCF) manifest files, which are used for PCF deployments. (RSAT-1055)</li>
+<li>We fixed a resource disposal issue that might cause errors while contacting external container deployment tools. (RSAT-1104)</li>
+<li>Fixed the incorrect serialization of input parameters of Date, Time and DateTime data types in consumed SOAP Web Services. This might have caused data corruption on some scenarios. Check the <a href="https://success.outsystems.com/Support/Release_Notes/11/Platform_Server#Known_Issues-21552" rel="internal">Known Issues</a> section in the Platform Server Release Sep.2018 Release Notes for more information. (RINT-3069)</li>
+<li>Fixed incorrect packaging of the Caching and Logging libs for the Container Application Scheduler. (RSAT-1074)</li>
+<li>Consuming SOAP services that include Time outputs no longer causes a compilation error. (RINT-3203)</li>
+<li>Fixed Service Center so it now ignores the database incoherences that can cause timers to appear to be running indefinitely. (RPD-2999)</li>
+<li>Fixed an issue where database images containing trailing white spaces were not being rendered. (RRCT-1967)</li>
+<li>Fixed an inconsistency in the Null binary parsing when serialized. Now a Null binary returned by the server actions is always serialized to '{}'. (RRCT-1968)</li>
+<li>Fixed compilation error when WSDL anonymous types were not found. (RINT-2699)</li>
+<li>Fixed rare deadlock in OutSystems Services. (RPD-3584)</li>
+<li>Improved the flush of logs to the database when stopping the platform services to prevent the loss of some logs during shutdown. (RRCT-1989)</li>
+<li>We fixed a performance bug in the database connection related to the login mechanism. You should see improvement in the applications that run many queries during the initialization phase. (RRCT-2033)</li>
+<li>The RabbitMQ client now supports TLS 1.1 and TLS 1.2. (RRCT-2013)</li>
+<li>Fixed Configuration Tool making it reference the Cache Invalidation Service script relative to its path. (RRCT-2003)</li>
+<li>Oracle hints are no longer removed from queries supplied to Advanced SQL elements through input parameters. (RPD-3457)</li>
+<li>Fixed a bug in LifeTime and Service Center that was marking modules as successfully published after the deployment failure.  (RSCT-1222)</li>
+<li>Now the custom handlers render correctly in the applications deployed to containers. (RRCT-1972)</li>
+<li>Fixed the error about the 'precache.manifest' file not found that appeared when publishing a mobile module. (RSCT-1638)</li>
+</ul>
