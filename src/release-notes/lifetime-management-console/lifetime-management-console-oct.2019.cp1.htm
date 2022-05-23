@@ -1,0 +1,22 @@
+---
+isautopublish: false
+pageprivacy: public
+---
+<h2 id="lifetime_management_console_release_oct.2019_cp1">LifeTime Management Console Release Oct.2019 CP1</h2>
+<div class="info">
+<p>Released on Oct 30, 2019</p>
+</div>
+<h3 id="new_in_lifetime_management_console_release_oct.2019_cp1">New in LifeTime Management Console Release Oct.2019 CP1</h3>
+<ul>
+<li>Added a new permission, "Add References to System", to configure who can add new dependencies to public elements of System module. This permission is applicable when granted in the user default role. (RLIT-3160) (RLIT-3160)</li>
+<li>We have split the permission level “Reuse and Monitor Applications” into two permission levels, “Open and Debug Applications” and “Monitor and Reference Applications”. This way you have a more granular permission model, as you can now give permission to monitor applications without the permission to open and debug. During the upgrade, the previous role “Reuse and Monitor Applications” is mapped to “Open and Debug Applications”. (RLIT-2804)</li>
+<li>Added a new permission, "Create Applications", to configure who can create applications and associate them directly to a team. During the upgrade, this new permission is set to ON for the roles having “Change Deploy Applications” permission level. (RLIT-2796)</li>
+<li>Added a new permission level, “Access to Environment”, which allows users to log in to an environment without the permission to see the applications. (RLIT-2790)</li>
+</ul>
+<h3 id="bug_fixing_release_oct.2019_cp1">Bug Fixing</h3>
+<ul>
+<li>Fixed an issue in the environment registration wizard that was limiting to 50 the list of roles to map and the users to import. This issue was also limiting the list of environments to 50 when choosing the environment position in the infrastructure. (RLIT-3235)</li>
+<li>Fixed an issue in LifeTime that could cause the deploy of the incorrect application versions when using option "Refresh Applications" in "Create Deployment Plan" screen. (RLIT-3212)</li>
+<li>Fixed a cross-site scripting vulnerability. CVSSv3.0 score 4.8 (Medium). (RLIT-3166)</li>
+<li>Fixed repeated requests to publish a solution in the target environment when there's a timeout in the publish operation. (RPD-4400)</li>
+</ul>
