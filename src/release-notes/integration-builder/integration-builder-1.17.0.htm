@@ -1,0 +1,32 @@
+---
+isautopublish: false
+pageprivacy: public
+---
+
+<h2 id="integration_builder_1.17.0">Integration Builder 1.17.0</h2>
+<div class="info">
+<p>Released on July 28, 2021</p>
+</div>
+<h3 id="new_in_integration_builder_1.17.0">New in Integration Builder 1.17.0</h3>
+<ul>
+<li>In Integration Manager, it's now possible to delete connections with the draft status.</li>
+</ul>
+<h3 id="bug_fixing_1.17.0">Bug fixing</h3>
+<ul>
+<li>Fixed an issue that caused a "Sequence contains no matching element" error while publishing a Dataverse integration that included all the columns of the Action Card table.</li>
+<li>Fixed an issue that caused an "Upload failed" error while creating a SAP OData integration that occurred after trying to return to the "Upload specification" step from the "Add entities" step.</li>
+<li>Fixed an issue that caused time out errors while trying to publish an integration.</li>
+<li>Fixed an issue that caused already published connectors to not include the publishing status on the "Publish" screen.</li>
+<li>Fixed an issue that occurred after an integration failed to publish and that prevented the solution file from being available for download.</li>
+<li>Fixed an issue that prevented Integration Builder from showing an error message when the publishing of an integration failed while generating integration modules.</li>
+<li>Fixed an issue related to name clash detection for modules. Now, detection is not case sensitive.</li>
+<li>Fixed an issue that showed a wrong dependency being published when publishing an integration.</li>
+<li>Fixed an issue that caused broken UI on the convert to Service Studio popup when the screen was resized to a smaller resolution.</li>
+<li>Improved the position and alignment of Dependencies Popover on the landing page.</li>
+<li>Improved the look and feel of the SAP OData version popup, and added a warning message to clarify the impact of selecting a wrong SAP OData version.</li>
+<li>Improved the updating dependencies process by adding the username that triggers the update process, whenever a connector publication is blocked by the update dependencies process started by another user.</li>
+<li>Improved the cursor pointer when hovering the wizard steps. Now, non-editable steps don’t show cursor pointer, on hover.</li>
+<li>Changed the visual format of error and warning messages shown in the Connection Details screen.</li>
+<li>Aligned provider icons in Integration Builder and Integration Manager applications, in order to be consistent.</li>
+<li>Improved the copy in several parts of Integration Builder and Integration Manager.</li>
+</ul>
