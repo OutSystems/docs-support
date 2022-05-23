@@ -1,0 +1,26 @@
+---
+isautopublish: false
+pageprivacy: public
+---
+
+<h2 id="integration_builder_1.29.0">Integration Builder 1.29.0</h2>
+<div class="info">
+<p>Released on February 8, 2022</p>
+</div>
+<h3 id="new_in_integration_builder_1.29.0">New in Integration Builder 1.29.0</h3>
+<ul>
+<li>Integration Manager 2.0 is available. Integration Manager, is now split into several plugins for each system of records provider.<br/>
+From now on, you only need to install the Integration Manager Plugins for the system of records you are integrating with.<br/>
+Furthermore, Integration Builder warns you when you have unused plugins installed.</li>
+</ul>
+<h3 id="bug_fixing_1.29.0">Bug fixing</h3>
+<ul>
+<li>Fixed an issue that caused errors when generating a SharePoint Online integration that includes objects with labels longer than 50 characters. In Service Studio, refresh the dependencies of apps that consume SharePoint Online integrations that include objects with labels longer than 50 characters.</li>
+<li>Fixed an issue that caused errors when generating a Microsoft Dataverse or Dynamics 365 integrations that includes objects with labels longer than 50 characters. In Service Studio, refresh the dependencies of apps that consume Microsoft Dataverse or Dynamics 365 integrations that include objects with labels longer than 50 characters.</li>
+<li>Fixed an issue that caused errors when creating a Salesforce connection using an administrator username containing a plus, "+".</li>
+<li>Fixed an issue that caused the "Setup" widget to never stop spinning after logging in.</li>
+<li>Fixed an issue that incorrectly showed the "Build your first integration" empty state in the "My integrations" screen, even if integrations exist. This occurred after using the search and getting no integration results.</li>
+<li>Improved the "Settings" screen. When a dependency or integration update fails, you can now check the error message.</li>
+<li>Improved the "Connections" screen in Integration Builder. Now, if Integration Manager isn't installed, you see a button to install Integration Manager. Previously, you could try to navigate Integration Manager and got an error saying that Integration Manager is not installed.</li>
+<li>Improved Integration Builder contextual menu links, by making them easier to click with an increased clickable area.</li>
+</ul>
