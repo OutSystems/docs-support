@@ -112,10 +112,10 @@ Here you can:
 
 * Specify if that person should have **Company permissions** (this means that the Company Admin permission will be granted).
 * Select the individual permissions he or she should have for each of your OutSystems infrastructures, for example, be an Infra Admin.
-* Invite this person to configure his initial developer account in LifeTime:
+* Invite this person to configure their initial developer account in LifeTime:
     * This option only applies to OutSystems Cloud and hybrid infrastructures. Aditionally, in Sentry subscriptions this option isn't available.
-    * The username will be the same as his email.
-    * The password will be selected by the new member when following the invitation link in his email.
+    * The username will be the same as their email.
+    * The password will be selected by the new member when following the invitation link in their email.
 
 
 The option to grant Development Permissions is only available while adding new users.
