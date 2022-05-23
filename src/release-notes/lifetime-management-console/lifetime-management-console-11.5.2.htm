@@ -1,0 +1,28 @@
+---
+isautopublish: false
+pageprivacy: public
+---
+
+<h2 id="lifetime_management_console_11.5.2">LifeTime Management Console 11.5.2</h2>
+<div class="info">
+<p>Released on May 15, 2020</p>
+</div>
+<h3 id="new_in_lifetime_management_console_11.5.2">New in LifeTime Management Console 11.5.2</h3>
+<ul>
+<li>The setting to enable the PWA is now kept when staging an app between environments. This means that when you enable/disable the PWA distribution for an app in the development environment, the setting is the same in the next environment after the staging. (RTAF-1908)</li>
+</ul>
+<h3 id="bug_fixing_11.5.2">Bug Fixing</h3>
+<ul>
+<li>Fixed an issue that was preventing users with "Monitor and Add Dependencies" permission level over a Team from accessing the Analytics data for that Team's applications. (RPD-3676)</li>
+<li>Fixed an issue that revealed system modules in the environments. (RLIT-3492) (RLIT-3648)</li>
+<li>Fixed an issue in LifeTime SDK that caused a database lock when invoking the action Deployment_Get with an empty DeploymentKey. (RLIT-3657)</li>
+<li>Fixed an issue in LifeTime API v2 that caused the endpoint /users/{UserKey}/ to return a 405 error. (RLIT-3659)</li>
+<li>Fixed the list of available roles when setting the user's role for a team or application. (RLIT-3718)</li>
+<li>The link for Security Settings now appears correctly for on-premise environments in OutSystems Cloud LifeTime. (RPD-4788)</li>
+<li>Fixed an issue that prevented roles with character '+' to synchronize properly. (RLIT-3642)</li>
+<li>Due to an issue with the synchronization of the settings between LifeTime and Service Center, we removed the newly introduced single sign-on (SSO) setting from LifeTime. Please use Service Center of the environment to manage the SSO settings (go to Service Center &gt; Administration &gt; Security &gt; Applications authentication &gt; Common login settings). (RTAF-2729)</li>
+</ul>
+<strong>Compatibility and Additional Resources</strong>
+<ul>
+<li>Includes Platform Server 11.7.3.</li>
+</ul>
