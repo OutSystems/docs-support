@@ -1,0 +1,35 @@
+---
+isautopublish: false
+pageprivacy: public
+---
+
+<h2 id="lifetime_management_console_11.5.0">LifeTime Management Console 11.5.0</h2>
+<div class="info">
+<p>Released on Mar 12, 2020</p>
+</div>
+<h3 id="new_in_lifetime_management_console_11.5.0">New in LifeTime Management Console 11.5.0</h3>
+<ul>
+<li>Added a new API method to LifeTime API v2 (former LifeTime Deployment API v2) to retrieve application templates available in a given environment. (RLIT-3390)</li>
+<li>Added a new API method to LifeTime API v2 (former LifeTime Deployment API v2) to create an application in a given environment. (RLIT-3391)</li>
+<li>Added a new set of API methods to LifeTime API v2 (former LifeTime Deployment API v2) to manage users. These include: List all users, create a user, update a user, get the details of a user, set the password for a user, grant/revoke a role in an application to a user. (RLIT-3392)</li>
+<li>Added a new set of API methods to LifeTime API v2 (former LifeTime Deployment API v2) to manage Teams. These include: List all teams, create a team, update a team, get the details of a team, delete a team, add/remove an application to a team, add/remove a user to a team. (RLIT-3393)</li>
+<li>Added a new set of API methods to LifeTime API v2 (former LifeTime Deployment API v2) to manage Roles. These include: List all roles, create a role, update a role, get the details of a role, delete a role and get the available permission levels. (RLIT-3388)</li>
+</ul>
+<h3 id="bug_fixing_11.5.0">Bug Fixing</h3>
+<ul>
+<li>Fixed an issue that caused a timeout while creating a deployment plan containing an application with an extension connecting to external databases. (RDEV-1356)</li>
+<li>Changed the process of cleaning up the outdated modules of a staging to avoid cleaning up records from stagings that are still in use. (RLIT-3520)</li>
+<li>Fixed method User_GetApplicationPermissions from LifeTime Services API, that was not filtering the result by the given ApplicationKey. (RPD-4821)</li>
+<li>Fixed a bug that makes the application appears with broken references in LifeTime when tagging application in an Environment using OutSystems 10. (RPD-4094)</li>
+<li>Added missing permissions information in My Settings screen. Fixed a bug that allowed the user to add permissions in Teams but not in Applications, in some specific cases. (RLIT-3423)</li>
+<li>Fixed an issue that caused an error during the step “Upgrading and refreshing modules of '&lt;Application Name&gt;' while publishing a solution in Service Center. (RPC-810)</li>
+<li>Fixed a bug that occurred when validating a plan. The problematic scenario involved a new Structure attribute whose type is an entity identifier from another module. This happened when there were consumer applications for the Structure which weren't included in the plan. (RSBO-1271)</li>
+<li>Fixed an issue that caused an error when trying to access Deployment Summary when someone changes the deployment at the same time. (RLIT-3552)</li>
+<li>Fixed issue that caused a deployment to become stuck in certain situations (after Reusing a plan that failed during compilation or when configuring deployment zones for the first time for an application) (RPD-4851)</li>
+<li>Fixed error that appeared when selecting a deployment zone and there was only one application in the deployment. (RLIT-3589)</li>
+<li>Improved the message shown when an error occurs registering an on-premises environment in hybrid infrastructure in cloud and it is not possible to connect using HTTPS. (RPD-4152)</li>
+<li>Fixed an error related with user permissions that could occur when LifeTime is installed during an existing synchronization process. (RLIT-3425)</li>
+<li>Fixed Users and Roles details screens crashing when the role permissions in one or more environments are not defined. (RPD-4787)</li>
+<li>Fixed issue that could cause deployments to be stuck when the LifeTime environment does not have connection to the Internet. (RLIT-3547)</li>
+<li>Removed misleading error log when LifeTime is not able to create an Application version in an environment due to the absence of some modules. (RLIT-3550)</li>
+</ul>
