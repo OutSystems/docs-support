@@ -1,0 +1,25 @@
+---
+isautopublish: false
+pageprivacy: public
+---
+
+<h2 id="lifetime_management_console_11.5.1">LifeTime Management Console 11.5.1</h2>
+<div class="info">
+<p>Released on Apr 13, 2020</p>
+</div>
+<h3 id="bug_fixing_11.5.1">Bug Fixing</h3>
+<ul>
+<li>Fixed an issue that caused LifeTime to make applications with no differences available to be added in Deployment plans. (RLIT-3570)</li>
+<li>Fixed an error when selecting a role during the creation of a new service account. (RLIT-3572)</li>
+<li>Now the logged-in user can't change his/her own roles. (RLIT-3575)</li>
+<li>The link "Delete Team" is no longer displayed when the logged-in user has no permission to delete teams. (RLIT-3577)</li>
+<li>The link "New User" is no longer displayed when the logged-in user has no permission to create new users. (RLIT-3580)</li>
+<li>Fixed an error in the new deployment plan wizard to configure application settings (Early Access) occurring when selecting a deployment zone and there is only one application in the deployment. (RLIT-3589)</li>
+<li>Fixed a layout issue in the Environments section of Options menu for cloud environments. (RLIT-3616)</li>
+<li>Improved the performance of LifeTime synchronization process in factories with a large number of environments and applications. (RPD-3870), (RLIT-3606), (RPD-3605)</li>
+<li>Fixed an issue that was preventing users with "Monitor and Add Dependencies" permission level over a Team from accessing the Analytics data for that Team's applications. (RPD-3676)</li>
+<li>Fixed an issue that caused some errors, related to REST calls in the LifeTime environment, to be created in the Error Log without an error message. (RPD-4826)</li>
+<li>Fixed an issue that caused a deployment to become stuck in some specific situations. For example, after using the Retry Plan option for a plan that failed during compilation or when configuring deployment zones for the first time for an application. (RPD-4851)</li>
+<li>Fixed an issue in the old deployment wizard that was preventing the "Save Plan Notes" button from saving the deployment plan. (RPM-1716)</li>
+<li>Fixed an issue that occurred when validating a deployment plan. The problematic scenario involved a new Structure attribute whose type is an Entity identifier from another module. This happened when there were consumer applications for the Structure which weren't included in the plan. (RSBO-1271)</li>
+</ul>
