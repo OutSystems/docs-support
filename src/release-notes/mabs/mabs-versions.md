@@ -19,19 +19,25 @@ When we release a new major version, four months after that we deprecate the pre
 
 The change of the MABS version is an optional feature. It’s usually enough to use the default option and let the platform build your mobile apps with the latest MABS version. With this you get the newest stacks, regular updates, and your apps comply with Google Play and Apple Store requirements.
 
-## Beta
+<!-- ## Beta
 
-See [Support provided for beta versions](mabs-beta-support.md) for more information about the OutSystems policy for supporting new versions of mobile operating systems.
+See [Support provided for beta versions](mabs-beta-support.md) for more information about the OutSystems policy for supporting new versions of mobile operating systems. -->
 
-<div class="info">
+## Supported
 
-**Version 8.1 (beta)**  - [See Release Notes](https://success.outsystems.com/Support/Release_Notes/Mobile_Apps_Build_Service#MABS_Version_8.1)<br />
+You get full support through the support requests for the version, along with the bug fixes for the version.
+
+<div class="info" markdown="1">
+
+**Version 8.1**  - [See Release Notes](https://success.outsystems.com/Support/Release_Notes/Mobile_Apps_Build_Service#MABS_Version_8.1)<br/>
 Released on April 6 2022 - Deprecation date to be announced
+
 </div>
 
-<div class="warning">
+<div class="warning" markdown="1">
 
 It’s **MANDATORY** to upgrade all supported plugins to the latest version available on the Forge in order to use MABS 8. For more details, please check the **[release notes](https://success.outsystems.com/Support/Release_Notes/Mobile_Apps_Build_Service#MABS_Version_8.0)**.
+
 </div>
 
 This version can run your apps on:
@@ -73,17 +79,19 @@ This version can run your apps on:
 <br/>
 <br/>
 
-## Supported
+## Deprecated
 
-You get full support through the support requests for the version, along with the bug fixes for the version.
+You can select the version in the configuration and build apps with it, but you get limited support. Limited support means that you get advice and workarounds through the support requests, but there are no bug fixes for the version.
 
-<div class="info">
+<div class="info" markdown="1">
 
-**Version 8.0**  - [See Release Notes](https://success.outsystems.com/Support/Release_Notes/Mobile_Apps_Build_Service#MABS_Version_8.0)<br />
-Released on April 6 2022 - Deprecation date to be announced
+**Version 8.0**  - [See Release Notes](https://success.outsystems.com/Support/Release_Notes/Mobile_Apps_Build_Service#MABS_Version_8.0)<br/>
+Released on October 11 2021<br/>Deprecated on May 23 2022<br/> 
+To become obsolete on July 23 2022
+
 </div>
 
-<div class="warning">
+<div class="warning" markdown="1">
 
 It’s **MANDATORY** to upgrade all supported plugins to the latest version available on the Forge in order to use MABS 8. For more details, please check the **[release notes](https://success.outsystems.com/Support/Release_Notes/Mobile_Apps_Build_Service#MABS_Version_8.0)**.
 </div>
@@ -127,13 +135,9 @@ This version can run your apps on:
 <br/>
 <br/>
 
-## Deprecated
-
-You can select the version in the configuration and build apps with it, but you get limited support. Limited support means that you get advice and workarounds through the support requests, but there are no bug fixes for the version.
-
 <div class="info">
 
-**Version 7.2**  - [See Release Notes](https://success.outsystems.com/Support/Release_Notes/Mobile_Apps_Build_Service#MABS_Version_7.2)<br />
+**Version 7.2**  - [See Release Notes](https://success.outsystems.com/Support/Release_Notes/Mobile_Apps_Build_Service#MABS_Version_7.2)<br/>
 Released on Oct 7 2021<br/>Deprecated on Mar 24 2022<br/> 
 Obsolete date to be announced
 </div>

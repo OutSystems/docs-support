@@ -22,7 +22,7 @@ For common issues and solutions check also [Troubleshooting the Mobile Apps Gene
 <div class="info">
 
 **First release:** 2022-04-06 17:00:00 UTC<br />
-**Last update:** 2022-04-13 17:00:00 UTC.
+**Last update:** 2022-05-20 14:00:00 UTC.
 </div>
 
 <div class="warning">
@@ -37,18 +37,23 @@ This minor version is focused on internal improvements, mainly around logging an
 
 * Added more information to the build logs, to aid the process of troubleshooting failed builds.
 * Improved validation of Extensibility Configurations preferences.
+* Removed Plugin installation and compilation operation specific timeouts. Now the timeout is applied to the whole build, and no timeout exists for a specific operation.
+
 
 **iOS**
 
 * iOS builds now use Xcode 13.3.
 
+### Bug fixing
+* [2022-05-20 14:00:00 UTC] Fixed a bug where apps with & or ' in their names, or & in their extensibility configurations failed to build. (RPM-1891)
+* [2022-05-20 14:00:00 UTC] Updated NPM version to overcome github changes related to the usage of the `git://` protocol. [More info here](https://github.blog/2021-09-01-improving-git-protocol-security-github/)
 
 ## MABS Version 8.0
 
 <div class="info">
 
 **First release:** 2021-10-11 17:00:00 UTC<br/>
-**Last update:** 2022-03-16 16:00:00 UTC
+**Last update:** 2022-05-19 13:00:00 UTC
 </div>
 
 MABS 8.0 is an important milestone for all mobile developers who publish on App Store and Play Store. MABS 8 uses **iOS 15**, and **Android 12** with the **API level 31**. The stack lets you continue submitting your Android and iOS apps to the stores while taking advantage of the new features that new iOS and Android bring.
