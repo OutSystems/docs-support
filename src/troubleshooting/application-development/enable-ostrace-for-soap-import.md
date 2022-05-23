@@ -39,8 +39,8 @@ Follow the procedure below to correct this error:
 
     Some possible ways to correct this prefix include:
 
-    * Declare the ```asdf``` prefix by writing something along the lines of ```xmlns:asdf="[http://www.w3.org/2001/XMLSchema](http://www.w3.org/2001/XMLSchema)``` in the beginning of the file
-    * Replace the ```asdf``` prefix with a previously declared prefix used in the code snippet, such as```xs```.
+    * Declare the ```asdf``` prefix by writing ```xmlns:asdf="http://www.w3.org/2001/XMLSchema"``` in the beginning of the file.
+    * Replace the ```asdf``` prefix with a previously declared prefix used in the code snippet, such as ```xs```.
 
     </div>
 
@@ -190,12 +190,12 @@ To correct this issue follow the procedure below:
 
 
         line 1: <xs:complexType name="SoccerTeam">
-        line 2: <xs:attributeGroup ref="tns:SoccerTeam"/>
+        line 2:     <xs:attributeGroup ref="tns:SoccerTeam"/>
         line 3: </xs:complexType>
         line 4: <xs:attributeGroup name="SoccerTeam">
-        line 5:  <xs:attribute name="Name" type="xs:string"/>
-        line 6:  <xs:attribute name="Country" type="xs:string"/>
-        line 7:  <xs:attribute name="City" type="xs:string"/>
+        line 5:     <xs:attribute name="Name" type="xs:string"/>
+        line 6:     <xs:attribute name="Country" type="xs:string"/>
+        line 7:     <xs:attribute name="City" type="xs:string"/>
         line 8: </xs:attributeGroup>
 
 1. Modify line 4 of the code snippet by changing ```<xs:attributeGroup name="SoccerTeam">``` to ```<xs:attributeGroup name="SoccerTeamAttr">``` .
