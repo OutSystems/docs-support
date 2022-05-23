@@ -1,0 +1,55 @@
+---
+isautopublish: false
+pageprivacy: public
+---
+
+<h2 id="lifetime_management_console_release_dec.2018">LifeTime Management Console Release Dec.2018</h2>
+<div class="info">
+<p>Released on Dec 20, 2018</p>
+</div>
+<h3 id="new_in_lifetime_release_dec.2018">New in LifeTime Release Dec.2018</h3>
+<ul>
+<li>Improved the environment registration wizard to better guide the user when registering their environments in LifeTime. (RLIT-2285)</li>
+<li>Added support for defining Mobile Extensibility Configurations in LifeTime, per Application and Environment. It requires Platform Server Release Sep.2018 CP1 or higher. (RLIT-1503)</li>
+<li>Added support for redeploying outdated applications using the LifeTime Deployment API v2. (RLIT-1981)</li>
+<li>Improved LifeTime UI by replacing the shadows between environments with borders. (RLIT-2239)</li>
+<li>When listing the applications that a user can access, Lifetime now lists also the applications that the user has been granted with access for being member of a team. (RLIT-2200)</li>
+<li>Added more information in ApplicationVersion structure in LifeTime Deployment API. (RLIT-2168)</li>
+</ul>
+<h3 id="bug_fixing_release_dec.2018">Bug Fixing</h3>
+<ul>
+<li>Users filter in the Audit Logs page is not displaying duplicated users anymore. (RLIT-2335)</li>
+<li>The environments information displayed in Roles tab of User Management section is now reflecting users permissions. (RLIT-2334)</li>
+<li>Fixed an issue that was causing the incorrect registration of on-premises environments in a cloud infrastructure. (RLIT-2333)</li>
+<li>The information on the available database storage for cloud environments is now showing correctly. (RPD-3432)</li>
+<li>Fixed an error when applying the security settings for an application. (RPD-3651)</li>
+<li>The change log screen of an application is now correctly showing the name of the user that performed the change. (RLIT-2327)</li>
+<li>Fixed an issue in the environment synchronization process that was incorrectly removing modules from LifeTime cache. (RPD-3607)</li>
+<li>Fixed the number of applications displayed in the staging summary when the deployment plan contains more than 50 applications. (RLIT-2320)</li>
+<li>Fixed the action User_ChangeUsername of LifeTime Services API that was incorrectly re-encrypting the password of the user. (RPD-3531)</li>
+<li>Fixed an issue that was causing the "Deploy Now" message to be incorrectly displayed when two-stages deployment was enabled. (RLIT-2346)</li>
+<li>Fixed security issue in LifeTime that allow a user to change its own username. (RPD-3595)</li>
+<li>LifeTime does not log expected errors anymore when synchronizing an environment. (RLIT-2211)</li>
+<li>Fixed the error message in LifeTime Deployment API about unsuccessful request for the Create Version call. (RLIT-2195)</li>
+<li>Fixed the LifeTime error screen related to the missing user session. (RLIT-2191)</li>
+<li>Fixed an error in accessing the LifeTime audits when a username is not defined. (RLIT-2190)</li>
+<li>Fixed an error that happened after choosing the Synchronise Now option from an Environment in LifeTime, in cases where the user didn't have the correct permissions. (RLIT-2189)</li>
+<li>Fixed a bug related to checking the Nativizer status that caused LifeTime to crash. (RLIT-2188)</li>
+<li>Fixed the bug in LifeTime Analytics that prevented actions with long names to appear in the Screen Details. (RPD-3427)</li>
+<li>Fixed a wrong message in the LifeTime staging. The users now see the correct message “you have no permission to deploy” instead of the incorrect “you have no permissions to tag”. (RPD-3319)</li>
+<li>Fixed the default browser behavior to ask to save the login credentials. Now the password fields in OutSystems applications such as Service Center or LifeTime have the "autocomplete" property set to "off" by default. (RPD-3464)</li>
+<li>Fixed an issue that caused an unspecified error in LifeTime when registering an environment with a higher version than LifeTime. LifeTime now prevents adding environments to the infrastructure if the environment that is being added has higher version. (RPD-3347)</li>
+<li>Fixed issue in LifeTime that prevented a user with 'Reuse Monitor' role to validate a deployment plan. (RPD-3480)</li>
+<li>Fixed issue in LifeTime Deployment API that caused inconsistent data in a deployment with Tag Deploy optioons. (RLIT-2251)</li>
+<li>Fixed inconclusive exception message when there was an error creating a user in LifeTime (RLIT-2257)</li>
+<li>Fixed message when there was an invalid request while creating a deployment. (RLIT-2250)</li>
+<li>Changing the password of the current logged in user now requires typing the current password. (RLIT-2237)</li>
+<li>Fixed an issue that was causing LifeTime not to detect missing dependencies in upgrade scenarios. (RLIT-2224)</li>
+<li>Fixed an issue that was preventing the restore of LifeTime communication with an environment after changing the environment properties. (RLIT-2216)</li>
+<li>Fixed a navigation error in accessing the environment change log when the environment is not defined. (RLIT-2205)</li>
+<li>Fixed the lifetime bootstrap process that was failing in white labeling environments. (RPD-3523)</li>
+<li>Timer to delete data from old module versions will now finish properly (without an error). (RPD-3583)</li>
+<li>Fixed URL used by LifeTime to redirect users to configurations pages of environments. (RPD-3302)</li>
+<li>Improved the performance of application data synchronization after 1-Click Publish. (RLIT-2236)</li>
+<li>Fixed URL used by LifeTime to redirect users to configurations pages of environments. Requires Environments running Platform Server Release Jan.2019 or later. (RLIT-2281)</li>
+</ul>
