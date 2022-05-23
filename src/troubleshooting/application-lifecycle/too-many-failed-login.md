@@ -21,7 +21,7 @@ Possible causes for this issue are:
 
 * The user mistyped the password several times within a short timeframe
 
-* User changed his password, but at the same he had Service Studio running, connected with the previous Username/Password
+* User changed their password, but at the same he had Service Studio running, connected with the previous Username/Password
 
 * The user account was target of a brute-force attack
 
@@ -48,7 +48,7 @@ The administrator must have the Manage Infrastructure and Users permission and p
 ![](images/too-many-failed-login_0.png)
  
 
-5. By clicking on the "See details" link, the administrator will be redirected to an information table, where he'll be able to unblock the user on his current address, by pressing the “Unblock” button:
+5. By clicking on the "See details" link, the administrator will be redirected to an information table, where they will be able to unblock the user on their current address, by pressing the “Unblock” button:
 
 ![](images/too-many-failed-login_1.png)
  
