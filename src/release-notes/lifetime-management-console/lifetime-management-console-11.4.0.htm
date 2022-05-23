@@ -1,0 +1,33 @@
+---
+isautopublish: false
+pageprivacy: public
+---
+
+<h2 id="lifetime_management_console_11.4.0">LifeTime Management Console 11.4.0</h2>
+<div class="info">
+<p>Released on Jan 30, 2020</p>
+</div>
+<h3 id="new_in_lifetime_management_console_11.4.0">New in LifeTime Management Console 11.4.0</h3>
+<ul>
+<li>Added impact capacity when editing a Role: on save, LifeTime now warns about what users will be affected by the changes in that Role. (RLIT-3112)</li>
+<li>Added visibility in permission screens to the "Create Applications" and "Add Dependencies to System" options, when they are activated. (RLIT-3111)</li>
+<li>Added a preview on User_Edit / ServiceAccount_Edit pages of the permissions the User / Service Account will have when creating a new User / Service Account or changing its default role. (RLIT-3079)</li>
+<li>It's now possible to configure Entities from external databases during deployment. (RDEV-1244)</li>
+<li>Reviewed Brazilian Portuguese (pt-BR) translations in all screens related to IT users management and permissions. (RLIT-3076)</li>
+</ul>
+<h3 id="bug_fixing_11.4.0">Bug Fixing</h3>
+<ul>
+<li>The popup to add users to a team is now correctly showing the default role of the listed users. (RLIT-3365)</li>
+<li>Fixed UI issues when resizing the screen to resolutions under 1024px. (RLIT-3366)</li>
+<li>The display of user permissions in the Application_Permissions screen is now showing the correct labels for Full Control and Access permission levels instead of the equivalent application permission levels. (RLIT-3403)</li>
+<li>Fixed an issue in LifeTime Deployment API v1 that was preventing to tag a mobile application using the native platform name, e.g. Android (v1). (RLIT-3395)</li>
+<li>Fixed the create application feature inside the Team_edit screen, that was requesting the user to select a team again, instead of selecting the team automatically. (RLIT-3367)</li>
+<li>Fixed an issue that was causing some applications to not be presented in the applications list. (RLIT-3120)</li>
+<li>Corrected the permissions for DBConnections and DBCatalogs screens so they can be accessed with the same permission level, i.e, "Monitor and Reference Applications" or higher. (RLIT-2977)</li>
+<li>Fixed an issue that caused an error when deploying old application tags. (RPD-3745)</li>
+</ul>
+<h3 id="known_issues_11.4.0">Known Issues</h3>
+<ul>
+<li>Creating a deployment plan containing modules with entities from external databases can fail during the "Configure applications settings" step.</li>
+<li>In some scenarios when publishing a Solution in Service Center an error occurs during the “Upgrading and refreshing modules of '&lt;Application Name&gt;'" step. (RPC-810)</li>
+</ul>
