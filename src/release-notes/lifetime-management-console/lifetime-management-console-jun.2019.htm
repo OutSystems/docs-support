@@ -1,0 +1,25 @@
+---
+isautopublish: false
+pageprivacy: public
+---
+<h2 id="lifetime_management_console_release_jun.2019">LifeTime Management Console Release Jun.2019</h2>
+<div class="info">
+<p>Released on Jul 11, 2019</p>
+</div>
+<h3 id="new_in_lifetime_management_console_release_jun.2019">New in LifeTime Management Console Release Jun.2019</h3>
+<ul>
+<li>Aborted deployment plans can now be easily retried. There's a new link in the deployment execution screen allowing you to create a new plan with the same applications and versions as the aborted plan. (RLIT-2696)</li>
+<li>You can now refresh the applications in a deployment plan while the plan is being edited. This allows you to include new application changes done after plan creation, as well as having an up-to-date view on the environments and their applications and versions, without needing to recreate the deployment plan. (RLIT-2695)</li>
+</ul>
+<h3 id="bug_fixing_release_jun.2019">Bug Fixing</h3>
+<ul>
+<li>Fixed the navigation to Service Center when you need to enter configurations before proceeding with the execution of a deployment plan. (RLIT-2775)</li>
+<li>Fixed display of Abort button while executing a deployment plan. (RLIT-2774)</li>
+<li>Fixed the displayed running version in the source environment when editing a deployment plan, when refreshing the plan editing screen or when returning to a saved deployment plan. Note: This issue is only fixed for newly created deployment plans. (RLIT-2748)</li>
+<li>Fixed an issue in LifeTime that returned an incorrect message when the user was checking for new updates in Personal or Trial cloud environments. (RLIT-2768)</li>
+<li>Improved queries using a full join in LifeTime deployment validation stage. Affects only Oracle and SQL Server. (RPD-4147)</li>
+</ul>
+<h3 id="known_issues_release_jun.2019">Known Issues</h3>
+<ul>
+<li>Using the option "Refresh Applications" in "Create Deployment Plan" screen may cause the deploy of the incorrect application versions. As a workaround, if you need to refresh the applications by this time, discard the deployment plan and create a new one. Fixed in LifeTime Management Console Release Sep.2019 CP1.</li>
+</ul>
