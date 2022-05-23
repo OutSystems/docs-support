@@ -2,8 +2,8 @@ name: Merge release notes
 
 on:
   push:
-    #branches:
-      #- 'test-rn-jpb'
+    branches:
+      - 'test-rn-jpb'
     paths:
       - 'src/release-notes/**.htm'
 
