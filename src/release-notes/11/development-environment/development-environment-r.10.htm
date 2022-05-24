@@ -1,0 +1,33 @@
+---
+isautopublish: false
+pageprivacy: public
+---
+
+<h2 id="development_environment_release_10">Development Environment Release 10</h2>
+<div class="info">
+
+Released on Jan 07, 2019
+</div>
+<h3 id="new_in_development_environment_release_10">New in Development Environment Release 10</h3>
+<ul>
+<li>We removed the focus border around the list of the Screen Templates in the New Screen window. (RAFT-1750)</li>
+<li>There's now a warning dialog if you try to create a Screen based on an incompatible Screen Template. (RAFT-1737)</li>
+<li>We improved the incompatibility warning message in the New Screen window. There are now more details about the Theme that you need to use with the selected Screen Template. (RAFT-1736)</li>
+<li>We improved the look and feel of the Service Studio dialog boxes, which now have a cleaner and lighter design. (RIUT-568)</li>
+<li>You can now quickly identify and update the Forge components used in your factory from the applications list in Service Studio. Inspired by <a href="https://www.outsystems.com/ideas/1970/">Carlos' idea</a>. (RIUT-357)</li>
+<li>You can now use the List_SortColumn_GetOrderBy function from RichWidgets in a SQL Query Parameter with the Expand Inline property enabled without triggering a SQL Injection warning message. (RRCT-2106)</li>
+<li>We changed the SQL Injection warning message to advise you not to set the use of Expand Inline option to "Yes". The warning helps to follow solid SQL security practices. (RRCT-2128)</li>
+<li>Upgraded SharpZipLib library to version 1.0.0. (RRCT-2144)</li>
+</ul>
+<h3 id="bug_fixing_release_10">Bug Fixing</h3>
+<ul>
+<li>We improved the stability of Service Studio by fixing an occasional crash related to the Run Server Action node. (ABE-1352)</li>
+<li>We added the debugging support for the new iPhone devices (XR, XS, XS Max). (RAFT-1748)</li>
+<li>Now it's again possible to set the name of a Block to empty. (RAFT-1680)</li>
+<li>We fixed a bug that prevented the referenced elements in the merge window not to be selectable. (RCOT-1877)</li>
+<li>Now resizing window when the screen DPI is configured over 100% no longer causes a glitch. (RICT-1216)</li>
+<li>Fixed a crash when dropping an Entity Attribute of the picture binary type over a Form widget. (RICT-1211)</li>
+<li>The introspection of the SOAP services containing the xsd:choice Element now works correctly. (RINT-3189)</li>
+<li>Fixed a compilation error when publishing eSpaces with more that one SOAP consumes with complex types containing the same name. (RPD-3730)</li>
+<li>Fixed 'RangeError: Maximum call stack size exceeded' when opening a Web Block or Web Screen. (RPD-3724)</li>
+</ul>
