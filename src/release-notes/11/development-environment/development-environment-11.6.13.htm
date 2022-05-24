@@ -1,0 +1,32 @@
+---
+isautopublish: false
+pageprivacy: public
+---
+
+<h2 id="development_environment_11.6.13">Development Environment 11.6.13</h2>
+<div class="info">
+
+Released on Dec 02, 2019</div>
+<h3 id="new_in_development_environment_11.6.13">New in Development Environment 11.6.13</h3>
+<ul>
+<li>Data Sources now support dependency chaining. This enables you to create data sequences to form a more complex behavior with efficient asynchronous and parallel database queries. (RTAF-1764)</li>
+<li>Added warning message when publishing and a Security Warning is present in the module. (RTAF-1713)</li>
+<li>Added a warning message when a server action is being used in an anonymous screen in a Mobile or Reactive application. (RTAF-1711)</li>
+<li>Added a warning message when Entity Actions are being directly used in client side. (RTAF-1710)</li>
+<li>We improved the warnings in the TrueChange pane to remind you to refresh data sources that use Only On Demand settings. (RTAF-1500)</li>
+</ul>
+<h3 id="bug_fixing_11.6.13">Bug Fixing</h3>
+<ul>
+<li>Fixed an issue that caused a crash after opening Theme Editor in a clone of an OutSystems UI module. (RDEV-1068)</li>
+<li>Fixed an issue that caused a user-defined hexadecimal Color value to be different in Style Sheets Editor and Styles Editor. (RPD-3419)</li>
+<li>Fixed an issue that caused the appropriate built-in functions to not be generated when converting an identifier primitive type to Identifier type while bootstrapping an entity from excel. (RDEV-1062)</li>
+<li>Fixed an issue that caused a crash while setting the Width of a data Cell on a Show Records widget using Styles Editor. (RDEV-1058)</li>
+<li>Fixed an issue that caused Service Studio to crash after trying to use Theme Editor to edit a referenced Theme. (RDEV-1053)</li>
+<li>Fixed an issue that caused a tree element to lose focus when renaming that element without any modifications. (RDEV-1055)</li>
+<li>Fixed an issue that caused a crash after losing access to the internet during the 'Build an App in 5-min' tutorial. (RDEV-944)</li>
+<li>Fixed an issue that caused Theme Editor to not re-render sliders and checkboxes after using 'Reset Theme Editor'. (RDEV-1020)</li>
+<li>Fixed an issue where the "refresh references" automated process was skipped when publishing a module's running version in an environment that only has the Deployment Controller role. (RPC-172)</li>
+<li>Fixed drag and drop of a Screen to the Menu Block in Mobile and Reactive modules. (RTAF-1763)</li>
+<li>Fixed an issue that caused a crash after deleting a Data Action Output parameter of the type List. (RTAF-1754)</li>
+<li>Fixed preview of referenced Expressions without an Example property value. (RTAF-251)</li>
+</ul>
