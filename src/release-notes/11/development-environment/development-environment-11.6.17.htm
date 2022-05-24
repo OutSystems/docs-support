@@ -1,0 +1,23 @@
+---
+isautopublish: false
+pageprivacy: public
+---
+
+<h2 id="development_environment_11.6.17">Development Environment 11.6.17</h2>
+<div class="info">Released on Dec 20, 2019</div>
+<h3 id="new_in_development_environment_11.6.17">New in Development Environment 11.6.17</h3>
+<ul>
+<li>Redesigned the version conflict dialog to make it more difficult for less experienced users to overwrite changes made by others. (RMAC-48)</li>
+<li>It is now possible to report feedback from the "Search in Other Modules" window. (RDEV-820)</li>
+<li>Timeouts are now configured via “Short Operations timeout” (open and close connection) and “Long Operations timeout” (send and receive), which are accessible via Preferences Menu → Environment Connection, and not via .bindings files like before. (RICT-2258)</li>
+<li>Now you can open and publish modules that are larger than 32 MB. You can't change this setting in the .bindings file anymore. (RICT-2112)</li>
+<li>We improved the preview of the Table Widget. The Table now displays more example records and you can hide/show the rows. (RTAF-1789)</li>
+</ul>
+<h3 id="bug_fixing_11.6.17">Bug Fixing</h3>
+<ul>
+<li>Fixed a scaffolding bug that crashed Service Studio after dragging an Aggregate without a defined source. (RTAF-1878)</li>
+<li>Now dragging an identifier Attribute from a Data Action Structure to a Table Widget works correctly and creates a column. Previously the widget ignored this type of identifier. (RTAF-1790)</li>
+<li>Fixed an issue that caused to have duplicated Application templates registered. (RTAF-1847)</li>
+<li>Is now possible in SOAP to have a  simpleContent with an extension element inside. (RPD-4624)</li>
+<li>Fixed a crash that occurred after opening a context menu when multiple assign nodes are selected. (RUDOF-798)</li>
+</ul>
