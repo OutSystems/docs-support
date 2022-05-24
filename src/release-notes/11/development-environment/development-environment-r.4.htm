@@ -1,0 +1,43 @@
+---
+isautopublish: false
+pageprivacy: public
+---
+
+<h2 id="development_environment_release_4">Development Environment Release 4</h2>
+<div class="info">
+
+Released on Nov 07, 2018
+</div>
+<h3 id="new_in_development_environment_release_4">New in Development Environment Release 4</h3>
+<ul>
+<li>Removed the "Choose template" step for the creation of Service Applications. (ABE-1203)</li>
+<li>You can now create a Static Record, a Parameter or a Variable by pressing Ctrl+N when an element of the same type is selected, or by right-clicking on an existing element of the desired type. Inspired by <a href="https://www.outsystems.com/ideas/4926/">Johan den Ouden's idea</a>. (ABE-1282)</li>
+<li>We improved the tooltip that shows when you hover over the tree toggle button. It now says "Show Widget Tree" or "Show Elements Tree", depending on the action if performs. (ABE-1287)</li>
+<li>The flow now reconnects whenever possible after you use the Disable Elements command to "comment out" parts of the flow. Inspired by <a href="https://www.outsystems.com/ideas/5639/"> Eric Bulters' idea</a>. (RIUT-488)</li>
+<li>If the text value of a property has several lines, there's now a multiline indicator in form of a downwards arrow in the Properties Pane. Inspired by <a href="https://www.outsystems.com/ideas/3667/">Takeshi Kurimoto's idea</a>. (RIUT-466)</li>
+<li>You can now save multiple items from the Resources to your computer. Select the elements you want to export in Data &gt; Resources, right-click and choose "Save Resources As…". Inspired by <a href="https://www.outsystems.com/ideas/700/">Pedro Gonçalves' idea</a>. (RIUT-467)</li>
+<li>Now labels in flow connectors are shown in the middle of the arrow. Inspired by <a href="https://www.outsystems.com/ideas/5106/">João Pedro Bernardes' idea</a>. (RIUT-465)</li>
+<li>We made the label for splitting of the Assign values more explicit, so now it says "Split all below into new Assign". Thanks for your continuous feedback! (RIUT-462)</li>
+<li>Now publishing a module to a Production environment requires confirmation. Inspired by <a href="https://www.outsystems.com/ideas/1709/">Justin James' idea</a>. (RIUT-420)</li>
+<li>The User and Role exceptions are now sorted alphabetically. Inspired by <a href="https://www.outsystems.com/ideas/5103/">Rebecca Hall's idea</a>. (RIUT-480)</li>
+<li>Now there's a warning during an introspection of a WSDL, if it contains an attributeGroups element. (RINT-2759)</li>
+</ul>
+<h3 id="bug_fixing_release_4">Bug Fixing</h3>
+<ul>
+<li>We fixed a bug that prevented you from installing Charts or OutSystems Now from Forge in some situations, causing the message "Application cannot be safely installed in your environment" to show. (ABE-1289)</li>
+<li>Fixed a user interface glitch that prevented the "Executed SQL" pane to shows when you run a query through the SQL tool in Service Studio connected to a non-production environment. (ABE-1297)</li>
+<li>The Users application now shows the correct number of users with a role in an application. (RLIT-2274)</li>
+<li>The label of the SQL tool under the output element now shows "Output Entity" or "Output Structure", depending on what you select in the pane. (ABE-1280)</li>
+<li>Fixed a crash that happened after you used '@' within quotations in an SQL expression of the SQL tool. (ABE-1291)</li>
+<li>We fixed an issue with the New Screen window, so it's now possible to create an Empty Screen even when the fetching of the Screen Templates fails. (RAFT-1653)</li>
+<li>Fixed a crash that happened occasionally after performing an operation (e.g. right-click) on the HTML Element widget that had a Tag property that did not support children (e.g. "input"). (RAFT-885)</li>
+<li>Fixed a problem with parsing the command line arguments when the command line contains paths with spaces (e.g: when Service Studio tries to recover a module after a crash). (RICT-1117)</li>
+<li>Fixed a problem that prevented a module from being saved when a public web block used the identifier of a non-public entity. (RPD-3544)</li>
+<li>Fixed a crash that happened when you tried to use a referenced Action in the Expression Editor. (RICT-1118)</li>
+<li>The target installation environment now remains the same during the installation of apps from Forge, even if you change the environment in Service Studio in the middle of the installation process. (RIUT-483)</li>
+<li>We fixed a bug that sometimes caused an error after submitting feedback. (RIUT-504)</li>
+<li>We fixed a crash that happened after you searched for Attributes that were not refreshed in modules that consumed the parent Entity or Structure. (RIUT-503)</li>
+<li>Fixed a bug that caused new lines to be removed in comments after editing. (RIUT-485)</li>
+<li>Fixed an issue that caused a crash when using "Find Usages in all Modules" and when a consumer module is opened in more than one tab. (RIUT-482)</li>
+<li>Fixed Service Studio hang while opening Manage Dependencies in a Mobile module. (RPD-3569)</li>
+</ul>
