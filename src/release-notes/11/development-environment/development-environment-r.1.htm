@@ -1,0 +1,80 @@
+---
+isautopublish: false
+pageprivacy: public
+---
+
+<h2 id="development_environment_release_1">Development Environment Release 1</h2>
+<div class="info">
+
+Released on Sept 26, 2018
+</div>
+<h3 id="new_in_development_environment_release_1">New in Development Environment Release 1</h3>
+<h4 id="highlights_release_1">Highlights</h4>
+<ul>
+<li>Developers are able to create new screens based on templates that were previously made available in the factory. (RAFT-1023)</li>
+<li>Now you can quickly replace a UI data source by dragging other entity to the corresponding widget, such as a List or a Form. (RAFT-1388)</li>
+<li>You can now disable part of the logic flow. Select some elements of the flow, right-click and choose "Disable Elements". Inspired by <a href="https://www.outsystems.com/ideas/57/"><u>Joost's idea</u></a>. (RIUT-7)</li>
+<li>Now it's possible to organize the application elements such as Entities, Structures, Images, and Resources into folders. Inspired by <a href="https://www.outsystems.com/ideas/784/"><u>Robert's idea</u></a>. (RIUT-319)</li>
+<li>You can now move Actions to a different folder without breaking the consumer references. Inspired by <a href="https://www.outsystems.com/ideas/1393/"><u>Justin James' idea</u></a>. (RICT-800)</li>
+<li>You can now use inline values as inputs for the structured types. This enables you to conveniently provide, for example, sample values to charts. Inspired by <a href="https://www.outsystems.com/ideas/2738/"><u>Hans Dollen's idea</u></a>. (RICT-821)</li>
+<li>After publishing your module, you can now quickly open the outdated consumer modules by right-clicking the warning. Inspired by <a href="https://www.outsystems.com/ideas/250/"><u>Robert's idea</u></a>.</li>
+<li>You can now use ListDistinct, a new client and server action. The action removes duplicates from the list. Inspired by <a href="https://www.outsystems.com/ideas/2830/"><u>Carlos Henriques' idea</u></a>. (RCOT-1108)</li>
+<li>Service Studio now runs on 64-bit. This improves performance and enables you to use your computer resources more efficiently when working with many modules. (RICT-140)</li>
+<li>Mac users can now use a new Technical Preview of Service Studio for Mac. Inspired by <a href="https://www.outsystems.com/ideas/1036/"><u>Miguel's idea</u></a>. (RICT-908)</li>
+</ul>
+<h4 id="architecture_release_1">Architecture</h4>
+<ul>
+<li>Added a new application and module type (Services) to promote a better application segmentation and governance. (ABE-1276)</li>
+<li>Added a new language element (Service Action) which is a loosely coupled action (REST underneath) with impact analysis and security by default. (ABE-1277)</li>
+<li>Optional parameters and attributes do not require refreshing consumers, making larger systems more loosely coupled and allowing independent teams to release more often without impacting each other. (ABE-1278)</li>
+<li>Public Screens are now loosely coupled that results in no circular references in dependency analysis. (ABE-1279)</li>
+</ul>
+<h4 id="interface_release_1">Interface</h4>
+<ul>
+<li>Web Blocks now support Events and Event Handlers to propagate changes to their parent element. Inspired by <a href="https://www.outsystems.com/ideas/1549/Notify+improvements"><u>Joost Landgraf's idea</u></a>. (RAFT-1371)</li>
+<li>You can now drag an Entity attribute to an Expression inside a widget with a data source (e.g. TableRecords) to update the Expression automatically. (RAFT-1505)</li>
+<li>We improved the visibility of the indicator that shows where the widget will be dropped while you are dragging it. (RAFT-1403)</li>
+<li>Check Box, Combo Box, Input, Input Password, List Box and Radio Button Web widgets will now be created with new default classes. (RAFT-1297)</li>
+<li>UI blocks can now have sample content in their placeholders to accelerate the development and make them easier to use. (RAFT-1069)</li>
+<li>New method registerDeviceClassGetter added to JS Public API allows to change the default behavior of adapting the css classes applied to the device resolution. By default, resolution higher than 1024px are considered tablets. (RAFT-1296)</li>
+<li>Styles Editor now supports grid units (e.g. "2 col") and you can use it without a local theme. Also, the widget styles are now generated as the inline CSS, which gives you more freedom when editing a module. (RICT-663)</li>
+<li>We upgraded the internal browser of Service Studio. This improves the WYSIWYG editor and enables you to have a more accurate preview of screens and blocks. (RICT-35)</li>
+</ul>
+<h4 id="compare and merge_release_1">Compare and Merge</h4>
+<ul>
+<li>Revamped the look and feel of the merge feature. The "Compare and Merge" window brings a new user experience and more powerful options. (RCOT-1332)</li>
+<li>The navigation buttons of the "Compare and Merge" window now have look and feel similar to the other parts of Service Studio. (RCOT-1637)</li>
+<li>When you resolve conflicts in "Compare and Merge" window by clicking the check box, the highlight changes to blue to confirm the resolution. (RCOT-1606)</li>
+<li>The values of the properties inside elements (for example, a variable value in the Assign tool, SQL expressions, descriptions, text in widgets...) are now accessible during the merge process. (RCOT-1556)</li>
+<li>“Highlight all differences” check box in the text merge pane to toggle between showing all differences and conflicts only. (RCOT-1179)</li>
+<li>Textual elements in the merge process have the “merged” or “merged with conflicts” description tag that indicates the merge status. (RCOT-1241)</li>
+</ul>
+<h4 id="soap_release_1">SOAP</h4>
+<ul>
+<li>Added support for SOAP 1.2 web services.  Inspired by <a href="https://www.outsystems.com/ideas/2281/"><u>Carlos's idea</u></a>. (RINT-618)</li>
+<li>The SOAP 1.2 implementation now has an extensibility callback. Inspired by <a href="https://www.outsystems.com/ideas/784/"><u>Matthias's idea</u></a>. (RINT-1539)</li>
+<li>It is now possible to see and select available methods to import when configuring the consumption of a SOAP Web Service. Inspired by <a href="https://www.outsystems.com/ideas/1692/"><u>Davide's idea</u></a>. (RINT-1027)</li>
+<li>It is now possible to define the authentication type and the corresponding credentials for an imported SOAP 1.2 web service. <a href="https://www.outsystems.com/ideas/3284/"><u>Darren's idea</u></a>. (RINT-1225)</li>
+<li>Experience for SOAP 1.2 web services consume improved. Inspired by <a href="https://www.outsystems.com/ideas/137/"><u>João's idea</u></a>. (RINT-1025)</li>
+<li>SOAP Web Service Methods now support default values in Input Parameters, Output Parameters and Structure Attributes of SOAP Web Services. The minOccurs/nillable WSDL attributes are now taken into consideration when determining mandatory Input Parameters and Structure Attributes. (RINT-1833)</li>
+<li>Users are now notified when attempting to consume SOAP web services that contain unsupported features. (RINT-1299)</li>
+<li>It is now possible to refresh a SOAP Web Service by right-clicking it in Service Studio to have access to the updated list of Methods. (RINT-1139)</li>
+<li>It is now possible to see and select available services and bindings to import when configuring the consumption of a SOAP Web Service. (RINT-1026)</li>
+<li>It is now possible to dynamically authenticate with different credentials per SOAP 1.2 web service method. (RINT-900)</li>
+<li>Added support for consuming SOAP web services with Choices. (RINT-1776)</li>
+<li>Added SOAP 1.2 support for types created via "restriction", usually of the same type as the original type. Only the "maxLength" and "fractionDigits" restrictions are considered when creating the appropriate data types, and these restrictions will not be enforced at runtime. (RINT-854)</li>
+<li>Added support for consuming SOAP web services with nillable attributes. (RINT-835)</li>
+</ul>
+<h4 id="more_release_1">More</h4>
+<ul>
+<li>Added capability of sorting filter conditions in Aggregates. Inspired by <a href="https://www.outsystems.com/ideas/1932" title="https://www.outsystems.com/ideas/1932">Justin James' idea</a>. (ABE-846)</li>
+<li>Moved Multilingual Locales folder from Interface Tab to Data Tab (ABE-1193)</li>
+<li>Removed the need for writing '=True' (or '=False') for boolean variables in Aggregates. (e.g.: before: User.Is_Active = True --&gt; after: User.Is_Active). Inspired by <a href="https://www.outsystems.com/ideas/1556/"><u>Kilian's idea</u></a> (ABE-554)</li>
+<li>Service Studio now shows a warning for modules that are set as self user provider but don't have "Is User Provider" set to "Yes" (RRCT-1584)</li>
+<li>When editing the source code of extensions in Visual Studio, Integration Studio will now package the correct version of all runtime libraries (e.g. RuntimePlatform) with the code (the one used when the extension is published). (RSCT-1119)</li>
+<li>Now you can override resources by name when importing resources via the command line ("-override"). (RICT-984)</li>
+</ul>
+<h3 id="bug_fixing_release_1">Bug Fixing</h3>
+<ul>
+<li>Fixed intermittent "Concurrent publication" error when following the "Build a Mobile/Web App in 5 min" tutorials. (RSCT-1357)</li>
+</ul>
