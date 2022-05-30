@@ -161,13 +161,19 @@ If you are using SAML authentication, and because the SAML configuration is encr
 * Reset the authentication settings.
 * Configure the SAML again after the database migration.
 
+<div class="warning" markdown="1">
+
+Skipping these steps will prevent you from logging in to your applications in the new environment.
+
+</div>
+
 Do the following:
 
 1. Open a query editor tool, connect to the restored Platform database and execute the following SQL statement to know the names of the tables that you must delete the content:
 
         SELECT physical_table_name
-FROM ossys_entity
-WHERE name in ('ConfigIdP',
+        FROM ossys_entity
+        WHERE name in ('ConfigIdP',
                'ConfigSP',
                'ConfigInternal',
                'ConfigFile',
@@ -186,7 +192,7 @@ WHERE name in ('ConfigIdP',
     * UseSAMLLogin = False
     * UseIntegratedAuthenticationLogin = False
 
-You can use the following command:
+    You can use the following command:
 
         UPDATE ossys_Site_Property
         SET PROPERTY_VALUE=pd.DEFAULT_VALUE,
@@ -203,7 +209,6 @@ You can use the following command:
              'UseLDAPStandard',
              'UseSAMLLogin',
              'UseIntegratedAuthenticationLogin');
-
 
         UPDATE ossys_Site_Property_Shared
         SET PROPERTY_VALUE=pd.DEFAULT_VALUE,User_Modified=0
@@ -222,13 +227,6 @@ You can use the following command:
             
 1. Configure the external authentication again in the Users module after the database migration.
 
-<div class="warning" markdown="1">
-
-Skipping these steps will prevent you from logging in to your applications in the new environment.
-
-</div>
-
-
 #### Clean up an environment managed by LifeTime
 
 When an environment is managed by LifeTime and its database is restored, LifeTime configurations need to be cleaned up. These configurations are used by LifeTime to identify the environment; keeping them in the cloned Platform database will cause misbehaviors in LifeTime.
@@ -236,13 +234,6 @@ When an environment is managed by LifeTime and its database is restored, LifeTim
 As an example, imagine you have cloned the Production database into a Pre-Production environment. LifeTime already has a unique identifier for the Production environment. However, when you clone the database to Pre-Production you will have both environments, Production, and Pre-Production, with the same identifier, thus causing LifeTime to misbehave.
 
 As such, you must always clean up that information and re-register the cloned environment in LifeTime. 
-
-
-When an environment is managed by LifeTime and its database is restored, LifeTime configurations need to be cleaned up. These configurations are used by LifeTime to identify the environment; keeping them in the cloned database will cause misbehaviors in LifeTime.
-
-As an example, imagine you have cloned the Production database into a Pre-Production environment. LifeTime already has a unique identifier for the Production environment. However, when you clone the database to Pre-Production you will have both environments, Production and Pre-Production, with the same identifier, thus causing LifeTime to misbehave.
-
-As such, you must always clean up that information and re-register the cloned environment in LifeTime.
 
 1. Open SQL Server Management Studio (or another query editor), connect to the restored database and execute the following SQL statement on the newly restored database (if needed run `use <cloned_database>` to use the appropriate database):
 
@@ -678,7 +669,7 @@ COMMIT;
 **Note**: Replace `OSADMIN` with your Admin user for the Platform database if you changed the default value.
 
 
-#### Clean up the front-ands listing
+#### Clean up the front-ends listing
 
 Since the restored database schemas may bring deployment configurations of Front-Ends from the source environment, those configurations must be cleaned up to avoid the applications deployment to use incorrect Front-Ends and cause misbehaviors and failure.
 
@@ -713,14 +704,7 @@ COMMIT;
 
 **Note**: Replace `OSADMIN` with your Admin user for the Platform database if you changed the default value.
 
-
 #### Clean up SAML configuration
-
-<div class=warning markdown= 1>
-
-Skipping the next steps will prevent you from logging in to your applications in the new environment.
-
-</div>
 
 If you are using SAML authentication, and because the SAML configuration is encrypted using the private.key, you need to:
 
@@ -728,9 +712,15 @@ If you are using SAML authentication, and because the SAML configuration is encr
 * Reset the authentication settings.
 * Configure the SAML again after the database migration.
 
+<div class="warning" markdown="1">
+
+Skipping the next steps will prevent you from logging in to your applications in the new environment.
+
+</div>
+
 Do the following:
 
-1. 	Open a query editor tool, connect to the restored Platform database and execute the following SQL statement to know the names of the tables that you must delete the content:
+1. Open a query editor tool, connect to the restored Platform database and execute the following SQL statement to know the names of the tables that you must delete the content:
 
         SELECT physical_table_name
         FROM ossys_entity
@@ -745,13 +735,13 @@ Do the following:
 
         TRUNCATE TABLE [physical_table_name];
 
-1. 	 Reset the following Site Properties to their default values:
+1. Reset the following Site Properties to their default values:
 
-* UseActiveDirectoryLogin = False
-* UseLDAPLogin = False
-* UseLDAPStandard = True
-* UseSAMLLogin = False
-* UseIntegratedAuthenticationLogin = False
+    * UseActiveDirectoryLogin = False
+    * UseLDAPLogin = False
+    * UseLDAPStandard = True
+    * UseSAMLLogin = False
+    * UseIntegratedAuthenticationLogin = False
 
     You can use the following command:
 
@@ -793,6 +783,67 @@ Do the following:
 
 1. Configure the external authentication again in the Users module after the database migration.
 
+#### Clean up an environment managed by LifeTime
+
+When an environment is managed by LifeTime and its database is restored, LifeTime configurations need to be cleaned up. These configurations are used by LifeTime to identify the environment; keeping them in the cloned Platform database will cause misbehaviors in LifeTime.
+
+As an example, imagine you have cloned the Production database into a Pre-Production environment. LifeTime already has a unique identifier for the Production environment. However, when you clone the database to Pre-Production you will have both environments, Production, and Pre-Production, with the same identifier, thus causing LifeTime to misbehave.
+
+As such, you must always clean up that information and re-register the cloned environment in LifeTime.
+
+1. Open a query editor tool, connect to the restored Platform database and execute the following SQL statement:
+
+        ALTER SESSION SET NLS_COMP=LINGUISTIC NLS_SORT=BINARY_AI;
+        ALTER SESSION SET CURRENT_SCHEMA = OSADMIN;
+
+        DECLARE v_exists NUMBER(10,0);
+        BEGIN
+
+        select Count(*) INTO v_exists
+        from user_tables where table_name = 'OSSYS_PLATFORMSVCS_
+        OBSERVER';~
+
+        IF v_exists > 0 THEN
+        EXECUTE IMMEDIATE 'delete from OSSYS_PLATFORMSVCS_OBSERVER';
+        END IF;
+
+        COMMIT;
+        
+        END;
+        /
+
+    **Note**: Replace `OSADMIN` with your Admin user for the Platform database if you changed the default value.
+
+1. Open a query editor tool, connect to the restored Platform database and execute the following SQL statement:
+
+        ​​ALTER SESSION SET NLS_COMP=LINGUISTIC NLS_SORT=BINARY_AI;
+        ALTER SESSION SET CURRENT_SCHEMA = OSADMIN;
+
+        update ossys_Site_Property_Shared set property_value=' ' where site_property_definition_id in (
+
+        select site_property_definition_id
+        from ossys_Site_Property_Shared
+        inner join ossys_Site_Property_Definition on site_property_definition_id = ossys_Site_Property_Definition.id
+        where ss_key = '1aaec1be-d60f-43d4-ba32-391f4c3080a6' or ss_key = '441f6eef-9c7f-4bb4-b3dd-7220272269ad'
+
+        );
+
+        COMMIT;
+        /
+
+    **Note**: Replace `OSADMIN` with your Admin user for the Platform database if you changed the default value.
+
+1. In LifeTime:
+    1. Go to your LifeTime to unregister the environment in which the database was restored.
+    1. Click in the **Infrastructure** tab.
+    1. Click in the **Manage Environments** link.
+    1. **Edit** the environment in which the database was restored and click on the **Unregister environment** link.
+
+1. In LifeTime:
+    1. Go to your LifeTime to register the environment in which the database was restored.
+    1. Click in the **Infrastructure** tab.
+    1. Click in the **Manage Environments** link.
+    1. Click on the **Register Another Environment** link and follow the instructions presented in LifeTime.
 
 #### Clean up an Environment Running LifeTime
 
