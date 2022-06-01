@@ -1,5 +1,5 @@
 ---
-summary:  Procedure to fix intellectual property errors when publishing or deploying apps. Includes an OutSystems app and instructions to check your environments for future errors.
+summary: Procedure to fix intellectual property errors when publishing or deploying apps. Includes an OutSystems app and instructions to check your environments for future errors.
 locale: en-us
 guid: 807610ee-01f6-4631-9ea0-0509a275de26
 app_type: traditional web apps, mobile apps, reactive web apps
@@ -18,17 +18,15 @@ Following are two sample error messages:
 
 ```Intellectual Property Error: This module is under Intellectual Property Protection, so you cannot publish it to your environment. Go to http://www.outsystems.com/ipp and request rights to use this module.```
 
-
 This error means that the module you’re trying to publish originated in an infrastructure with a different Activation Code. Because it’s intellectual property was never transferred, this error occurs.
 
 [Check here](../../enterprise/licensing/ipp/what-is-ipp.md) for more information about OutSystems intellectual property.
-
 
 ## Checking for further IPP errors in an infrastructure
 
 <div class="info" markdown="1">
 
-It may happen that apps previously published in your infrastructure return an IPP error when re-published. In this case, it’s advisable to check all the apps in  your infrastructure. The next section provides information to help you check your apps. 
+It may happen that apps previously published in your infrastructure return an IPP error when re-published. In this case, it’s advisable to check all the apps in  your infrastructure. The next section provides information to help you check your apps.
 
 </div>
 
