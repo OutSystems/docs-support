@@ -50,7 +50,7 @@ Don't change your Activation Code if **any** of the following apply:
 
 ## Changing the Activation Code
 
-Before changing the Activation Code,  read the complete procedure first. If you have any questions, contact [OutSystems Support](https://success.outsystems.com/Support). 
+Before changing the Activation Code,  read the complete procedure first. If you have any questions, contact [OutSystems Support](https://success.outsystems.com/Support).
 
 To move from the previous Activation Code (AAA in this text) to the new Activation Code (BBB in this text), follow these steps:
 
