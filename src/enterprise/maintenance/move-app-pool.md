@@ -10,7 +10,7 @@ app_type: traditional web apps, mobile apps, reactive web apps
 
 <div class="info" markdown="1">
 
-This document applies to self-managed OutSystems environments.
+This document applies to self-managed OutSystems environments. 
 
 </div>
  
