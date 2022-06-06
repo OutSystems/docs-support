@@ -14,7 +14,7 @@ This document applies to self-managed OutSystems environments.
 
 </div>
  
-By default, all the apps created in Service Studio run on the OutSystemsApplications application pool on IIS.
+By default, all the apps created in Service Studio run on the **OutSystemsApplications** application pool on IIS.
  
 An application pool can have one or more applications that run on a single worker process. A worker process is a windows process (w3wp.exe) responsible for handling requests for a specific application pool. As a separate windows process, each application pool will have its own memory space and can be allocated to separate CPUs for better use of server resources. 
  
@@ -25,7 +25,7 @@ Moving apps to another application pool is useful in the following situations:
  
 ## Impact
  
-This procedure has no impact on applications' availability but once completed, the first request to the app will take longer. Check also the [caveats](#caveats-section) section for impact on SEO Friendly URLs.
+This procedure has no impact on an applications availability, but once completed, the first request to the app will take longer. For more information about impact on SEO friendly URLs, check out the [caveats](#caveats) section.
  
 ## Instructions
  
@@ -60,16 +60,16 @@ If the environment has more than one front end, the following steps need to be f
 
 ### Rollback
  
-If you wish to revert these changes and move the isolated applications back to the default 'OutSystemsApplications' application pool, use the following instructions:
+If you wish to revert these changes and move the isolated applications back to the default **OutSystemsApplications** application pool, use the following instructions:
  
 1. Right-click on the application pool you created and click on the **View Applications** option.
     1. Right-click on each application and press the **Change Application Pool** option.
-    1. Select the default 'OutSystemsApplications' application pool and press **Ok**.
+    1. Select the default **OutSystemsApplications** application pool and press **Ok**.
  
 1. Once the application pool is empty, right-click on the application pool you created and select **Remove**.
  
     ![Remove app from pool](images/move-app-pool_2.png?width=500)
  
-## Caveats { #caveats-section }
+## Caveats
  
 [SEO friendly URLs](https://success.outsystems.com/Support/Enterprise_Customers/Maintenance_and_Operations/OutSystems_Platform_SEO_Friendly_URLs) can only be used for a single application pool. This means that if there are several pools, only the one that has the 'Root Application' defined can execute SEO URL rules.    
