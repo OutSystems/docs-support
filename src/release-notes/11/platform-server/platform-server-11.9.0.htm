@@ -1,0 +1,81 @@
+---
+isautopublish: false
+pageprivacy: public
+---
+
+<h2 id="platform_server_11.9.0">Platform Server 11.9.0</h2>
+<div class="info">
+Released on Jul 28, 2020
+</div>
+<h3 id="new_in_platform_server_11.9.0">New in Platform Server 11.9.0</h3>
+<ul>
+<li>Improved locking on IndexedDB allowing operations that use different entities to execute simultaneously. (RAR-142)</li>
+<li>Added capabilities to support the platform in Mumbai AWS region. (RCVT-370)</li>
+<li>This version of Platform Server brings the early access feature "Configure mobile apps updates distribution" to manage how mobile apps update on user devices. After you activate the feature for all environments in LifeTime, control which of your apps receive updates only through the app store, and which apps receive hybrid updates. Look for the new DEPLOYMENT tab in the "Mobile app update preferences" step of a deployment plan. (RNMT-4223)</li>
+<li>Added an option to only automatically refresh references during solution publish operations when there are broken references, instead of on any differences. Configurable using Factory Configuration. (RPC-1177)</li>
+<li>Applications created with OutSystems now correctly identify and load all third-party library versions to prevent inconsistent runtime behaviors. (RRCT-2687)</li>
+<li>Upgraded Microsoft.AspNetCore and Microsoft.Extension libraries to the latest 2.1 LTS (Long-Term Support) versions. (RRCT-2896)</li>
+<li>Moved SAML-related actions from the Authentication extension to the new SAMLAuthentication extension. If you're using any SAML actions outside the Users module, we recommend that you add the SAMLAuthentication extension as a dependency and update all references to the Authentication extension. (RSAT-2104)</li>
+<li>Added an option in SAML configuration to only accept signed login responses from the Identity Provider server. (RSBO-1535)</li>
+<li>Progressive Web Apps (PWAs) are now generally available (GA), after a period of early access (EA). Create a mobile app, and then turn on the toggle "Distribute as PWA" in the Distribute tab. To create a mobile app, select either Phone or Tablet App in the dialog for a new app. (RTAFB-2977)</li>
+</ul>
+<h3 id="bug_fixing_11.9.0">Bug Fixing</h3>
+<ul>
+<li>Fixed an issue that was preventing the Dropdown widget to be in dark mode. (RAR-145)</li>
+<li>Fixed an issue where widgets with property values defined by an expanded record were re-rendered with every change to the screen data. (RAR-154)</li>
+<li>Fixed a bug where the functions to execute the UI Block Aggregates over indexedDB could be generated with different names on their definition and usage, leading to a runtime error. (RAR-161)</li>
+<li>Fixed an issue that was preventing the Daily Activity Report to be generated. (RLIT-3417)</li>
+<li>Fixed a bug where sometimes extensions wouldn't sync. (RLIT-3669)</li>
+<li>Fixed an issue that caused lost configuration to mobile application on LifeTime when publishing an extensibility configuration. (RLIT-3820)</li>
+<li>Fixed an issue that caused an infinite loop when trying to logout using integrated authentication. (RLIT-3846)</li>
+<li>Fixed vulnerability in PreviewInDevices regarding URL manipulation and Base64 encoding. (ROU-1116)</li>
+<li>Upgraded Erlang to version 22.3 and RabbitMQ to version 3.8.3. Fixes occasional connection hangs on TLS connections. The Configuration Tool performs the upgrade when you click the "Create/Upgrade Service" button. (RPC-1131)</li>
+<li>Fixed an issue that caused compilation errors when using long strings in Assign elements. (RPC-1132)</li>
+<li>Fixed error "Object reference not set to an instance of an object." when attempting to delete an entity from a deleted Module using the DbCleaner API. (RPC-1156)</li>
+<li>Fixed the Solution Upload in ServiceCenter to use less database connections. Previously it needed at least 2 connections for each application in the solution being uploaded. (RPC-1166)</li>
+<li>We fixed Editable Table so it reverts the checkbox (boolean) values after users click Cancel. (RPD-3238)</li>
+<li>Dropdown with custom property selected now automatically scrolls into selected item. (RPD-3459)</li>
+<li>Fixed an issue that caused the incorrect render of List widgets items when the position of the list item changed. (RPD-3585)</li>
+<li>Fixed an issue where sometimes when listing users in a role associated with an app the second page would show no users. (RPD-4987)</li>
+<li>Fixed "ID" attribute from being placed on the container element instead of element the select on Dropdown widget. (RPD-5019)</li>
+<li>OutSystems no longer generates three-part names in object definitions for SQL Azure. For more information check <a class="link-https" href="https://docs.microsoft.com/en-us/archive/blogs/ssdt/windows-azure-importexport-service-and-external-references" rel="external noopener nofollow" target="_blank">Windows Azure Import/Export Service and External References</a> in Microsoft documentation. (RPD-5024)</li>
+<li>Fixed NullReferenceException when deploying a Module using 'Run As' configuration. (RPD-5093)</li>
+<li>Fixed an issue that would allow changing the Deployment Zone of an application consisting of extensions. (RPD-5113)</li>
+<li>Fixed issue where pages were generated with meta tag Strict-Transport-Security displaying warnings in browsers console. (RPD-5124)</li>
+<li>Fixed setup issue caused by compilation path not being node aware (RPD-5132)</li>
+<li>Fixed an issue that logged false positive warnings in the server's Event Viewer and Service Center General Logs. (RPM-1719)</li>
+<li>Fixed a compilation error when a local storage Aggregate had a Group By with a field of the Binary Data type. (RPM-317)</li>
+<li>Improvements to the GetUserApplications query in the ApplicationSwitcher from RichWidgets in order to reduce the timeout or slow load time on Oracle stacks. (RPM-483)</li>
+<li>Fixed a crash in the publishing step that was caused by invalid Theme names. (RPM-550)</li>
+<li>Fixed an issue that caused System modules to not be visible in Manage Dependencies by users with List Applications permission assigned as default role. (RRCT-2890)</li>
+<li>Fixed Scheduler Service becomes unstoppable when it starts with Deployment Controller down. (RRCT-2892)</li>
+<li>Fixed a crash in the extension publishing process when attempting to delete temporary files used for validating the extension. (RRCT-2897)</li>
+<li>Fixed assembly exclusion rules in extensions to allow discontinued platform assemblies to be included as resources. (RRCT-2915)</li>
+<li>Fixed a situation where the Deploy Service could get stuck for 20 minute periods when failing to deploy applications to IIS. (RRCT-2936)</li>
+<li>Fixed an issue in the Authentication extension that allowed customers to inadvertently call unsupported APIs. (RSAT-2173)</li>
+<li>Fixed an issue that prevented using special characters such as ";" (semicolon) in database passwords. (RSAT-2239)</li>
+<li>Fixed an error in External Authentication after a platform upgrade due to a change in the encryption mechanism. (RSBO-1437)</li>
+<li>Fixed an issue in the timer that cleans SAML authentication logs due to a syntax error in Oracle Databases. (RSBO-1481)</li>
+<li>Fixed a solution publish error that occurred when compiling outdated dependencies to a structure having new attributes with complex data types. (RSBO-1521)</li>
+<li>We improved the robustness of the IDE to better understand occasional crashes due to invalid object referencing. (RTAFB-2880)</li>
+<li>Fixed the data replacement crash when Entity that was supposed to be replaced had been deleted. (RTAFB-2968)</li>
+<li>Resolving this issue fixed opening the Distribute panel in cases when PWA was activated. The error occurred because the PWA assets for the native mobile apps were generated, which caused Service Worker requests issues and related errors. (RTAFB-3050)</li>
+<li>Fixed an error in the Preview in Devices component that was preventing the PWA panel with the QR code to show correctly. (RTAFB-3087)</li>
+<li>Fixed a security vulnerability. CVSSv3.1 score 9.6 (Critical). (RPM-329)</li>
+<li>The session is now logged out when there's a session fixation mismatch error. CVSSv3.1 score 3.7 (Low). (RRCT-2893)</li>
+<li>Fixed a security vulnerability. CVSSv3.1 score 7.4 (High). (RTAFB-2226)</li>
+</ul>
+<h3 id="breaking_changes_11.9.0">Breaking Changes</h3>
+<ul>
+<li>The platform now gives preference to usage of specific versions of third-party assemblies that are included in extensions. As a consequence, extensions that incorrectly include .NET Framework assemblies can prevent applications from working correctly due to conflicts between the included assemblies and the assemblies of the .NET Framework installed in the machine. In particular, including the extensions System.Net.Http.dll or System.Runtime.InteropServices.RuntimeInformation.dll causes issues in logging, login, and JSON serialization. (RPM-383) (RPM-386)<br/>
+Check how you can determine the affected extensions and how to adapt them to the new assembly loading behavior in <a class="link-https" href="https://www.outsystems.com/goto/breaking-changes-11#introduced-in-platform-server-1190" rel="external noopener nofollow" target="_blank">OutSystems 11 side effects and breaking changes</a>.</li>
+<li>The KeyStore and SAML actions were moved from the Authentication extension, Authentication.xif, to the SAMLAuthentication extension, SAMLAuthentication.xif. This can cause some broken references when using methods from Authentication.xif that moved to the new module. (RSAT-2104)<br/>
+To fix this behavior, replace dependencies to KeyStore and SAML actions from Authentication to the corresponding actions from SAMLAuthentication.</li>
+</ul>
+<h3 id="known_issues_11.9.0">Known Issues</h3>
+<ul>
+<li>Deploying a Mobile App from an environment where you enabled the toggle "Distribute as PWA" doesn't automatically enable the same toggle in the target environment. The toggle in the target environment keeps its pre-deployment value. The runtime behavior of these apps may also be affected if the apps are opened in a browser, using PWA or Preview in Devices. You must manually activate the toggle "Distribute as PWA" for the Mobile App in the target environment.</li>
+</ul>
+<b>Disclaimer: </b><i>QR CODE is a registered trademark of Denso Wave Incorporated.</i>
+<style type="text/css">.cattag {background: #f4f2ff; color: #6a6581; padding: 4px 10px;}
+</style>
