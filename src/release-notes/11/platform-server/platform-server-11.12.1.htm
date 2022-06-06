@@ -1,0 +1,21 @@
+---
+isautopublish: false
+pageprivacy: public
+---
+
+<h2 id="platform_server_11.12.1">Platform Server 11.12.1</h2>
+<div class="info"><p>Released on Jun 21, 2021</p></div>
+<h3 id="bug_fixing_11.12.1">Bug Fixing</h3>
+<ul>
+<li>When browsing application edit screens, Service Center no longer redirects you to the home page after a period of inactivity. (R11PIT-177)</li>
+<li>Upgraded .Net Core packages to comply with the new .Net Core requirements  (R11PIT-185)</li>
+<li>Fixed an issue where application runtime errors could occur under high concurrency conditions. This occurred with Static Entities defined in Libraries or when modules referenced Static Entities defined in Libraries. (RPLAT-751)</li>
+<li>Fixed an issue where it was not possible to send an e-mail using an SMTP provider that sends a non-supported command to authenticate. (RPM-1063)</li>
+<li>Fixed an issue that removed page rules of Traditional Web applications when they were republished. (RPM-1324)</li>
+<li>Fixed an issue causing unnecessary connections to the database. This fix prevents a performance impact in environments with SQL Server or Azure SQL Database. (RPM-993)</li>
+<li>We fixed an error in Reactive Web Apps, in environments with the technical preview "SEO-friendly URLs for
+Reactive Web Apps". An error occurred when users accessed Screens that contain a Custom URL and an empty 
+Page Name value or a Screen Name value equal to the Page Name value. This naming limitation no longer exists. (RTAFB-4618)</li>
+<li>We fixed an issue causing 404 errors in Reactive Web Apps. Screens configured with path parameters had 404 
+errors after upgrading an application.  (RTAFB-4646)</li>
+</ul>
