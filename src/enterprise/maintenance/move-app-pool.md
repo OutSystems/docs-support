@@ -10,11 +10,11 @@ app_type: traditional web apps, mobile apps, reactive web apps
 
 <div class="info" markdown="1">
 
-This document applies to self-managed OutSystems environments. 
+This document applies to self-managed OutSystems environments.
 
 </div>
- 
-By default, all the apps created in Service Studio run on the **OutSystemsApplications** application pool on IIS.
+
+By default, all apps created in Service Studio run on the **OutSystemsApplications** application pool on IIS.
  
 An application pool can have one or more applications that run on a single worker process. A worker process is a windows process (w3wp.exe) responsible for handling requests for a specific application pool. As a separate windows process, each application pool will have its own memory space and can be allocated to separate CPUs for better use of server resources. 
  
@@ -25,7 +25,7 @@ Moving apps to another application pool is useful in the following situations:
  
 ## Impact
  
-This procedure has no impact on an applications availability, but once completed, the first request to the app will take longer. For more information about impact on SEO friendly URLs, check out the [caveats](#caveats) section.
+This procedure has no impact on an applications availability, but once completed, the first request to the app will take longer. For more information about the impact on SEO friendly URLs, check out the [caveats](#caveats) section.
  
 ## Instructions
  
@@ -40,7 +40,7 @@ If the environment has more than one front end, the following steps need to be f
 
     1. Type a meaningful **Name**.
     1. Set the **.NET CLR version** to '.NET CLR Version v4.0'.
-    1. Set the **Managed pipeline mode** to have the same value as the 'OutSystemsApplications' application pool. 
+    1. Set the **Managed pipeline mode** to have the same value as the **OutSystemsApplications** application pool. 
     1. Check the box **Start application pool immediately**.
     1. Click **Ok**.
  
