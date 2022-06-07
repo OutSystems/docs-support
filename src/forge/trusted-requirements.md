@@ -21,12 +21,6 @@ This article describes the set of requirements that a component shared in Forge 
 
 If you want to share your component with the OutSystems Community and have it trusted by the OutSystems Curation team, make sure your component complies with the requirements listed below.
 
-<div class="info" markdown="1">
-
-Currently, the OutSystems Curation team is evaluating components based on their usage. Soon, the OutSystems community will be able to request a curation stamp for their components through a process to be shared later.
-
-</div>
-
 ## Requirements for trusted components
 
 Trusted components must comply with quality standards within the following categories:
