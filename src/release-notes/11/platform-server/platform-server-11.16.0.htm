@@ -1,5 +1,5 @@
 ---
-isautopublish: false
+isautopublish: true
 pageprivacy: public
 ---
 
@@ -10,7 +10,7 @@ pageprivacy: public
 <ul>
 <li>Improved the performance and resilience of the mechanism that automatically cleans up inconsistencies in the BPT model. (R11PBT-570)</li>
 <li>Improved the runtime performance of parsing SQL element query text when using Expand Inline parameters. (R11PBT-588)</li>
-<li>Improved the performance of solution publishing. These improvements will be gradually rolled out to OutSystems customers and won't be enabled by default when upgrading to this version. (R11PBT-613)</li>
+<li>Improved the performance of solution publishing. These improvements will be gradually rolled out to OutSystems customers and won’t be enabled by default when upgrading to this version. (R11PBT-613)</li>
 <li>Upgraded the Oracle Managed Driver to version 19.14.0. For more information on related fixes, see the Oracle release notes. (R11PBT-667)</li>
 <li>Updated the platform's NLog library from version 4.7.8 to version 4.7.14. (R11PBT-682)</li>
 <li><a href="/Support/Release_Notes/11/Platform_Server#RPM-1995" rel="custom">Improved how Oracle connections are handled so that thread hangs during AWS failover operations are prevented. (RPM-1995)</a></li>
@@ -23,6 +23,8 @@ pageprivacy: public
 <li>Fixed an issue that prevented Content Security Policy (CSP) headers being sent in Service Center responses to HTTP requests. (R11PBT-725)</li>
 <li> Now, when a user lacks the permissions to create a symbolic link to a directory, the platform falls back to the directory copy. (R11PIT-639)</li>
 <li><a href="/Support/Release_Notes/11/Platform_Server#RPM-1133" rel="custom">Fixed an issue that can cause network failures in Oracle environments. (RPM-1133)</a></li>
+<li><a href="/Support/Release_Notes/11/Platform_Server#RPM-1313" rel="custom">Updated installation checklist to clarify in what situations the "Upgrade Session database" step is need and when it can be safely skipped. (RPM-1313)</a></li>
+<li>Updated installation checklist to clarify in what situations the "Upgrade Session database" step is need and when it can be safely skipped. (RPM-1314)</li>
 <li><a href="/Support/Release_Notes/11/Platform_Server#RPM-1461" rel="custom">Now the server information is removed from the HTTP response header. (RPM-1461)</a></li>
 <li><a href="/Support/Release_Notes/11/Platform_Server#RPM-1514" rel="custom">Fixed an issue that prevented emails being sent when Office 365 returned a 550 error (recipient address rejected).  (RPM-1514)</a></li>
 <li><a href="/Support/Release_Notes/11/Platform_Server#RPM-1562" rel="custom">Fixed an issue that prevented staging Mobile applications when using the Configure Mobile application updates distribution setting in Technical Preview. (RPM-1562)</a></li>
@@ -41,7 +43,7 @@ pageprivacy: public
 <li><a href="/Support/Release_Notes/11/Platform_Server#RPM-2290" rel="custom">Fixed an issue causing suspended Process instances to incorrectly resume after the module is deployed with no changes to the Process definition. (RPM-2290)</a></li>
 <li><a href="/Support/Release_Notes/11/Platform_Server#RPM-2340" rel="custom">Fixed a concurrency issue in the DatabaseConnection_SetConnectionStringForSession method of the PlatformRuntime API that could lead to the usage of the incorrect connection. (RPM-2340)</a></li>
 <li><a href="/Support/Release_Notes/11/Platform_Server#RPM-2356" rel="custom">Fixed an issue that could cause protocol errors when handling requests to the Service Center console using the HTTP/2 protocol. (RPM-2356)</a></li>
-<li><a href="/Support/Release_Notes/11/Platform_Server#RPM-2426" rel="custom">Fixed Publication failed (RPM-2426)</a></li>
+<li>Fixed Publication failed (RPM-2426)</li>
 <li><a href="/Support/Release_Notes/11/Platform_Server#RPM-446" rel="custom">Fixed a preview issue in the Upload widget when selecting the same image file twice using the Chrome browser. (RPM-446)</a></li>
 <li><a href="/Support/Release_Notes/11/Platform_Server#RPM-671" rel="custom">The application's logic can now read the end user's external identifier retrieved during SAML authentication. (RPM-671)</a></li>
 <li><a href="/Support/Release_Notes/11/Platform_Server#RPM-673" rel="custom">Fixed a rendering issue in Mobile and Reactive Web Apps when using the browser back button or the Previous Screen event to navigate back to a screen with widgets containing data from Client/Local variables. (RPM-673)</a></li>
@@ -62,6 +64,17 @@ pageprivacy: public
 <span class="cattag">Infrastructure Management</span> <span class="cattag">OutSystems Services</span> <br/>
 <br/>
 <u>Fix Details:</u><br/>When Oracle's Out Of Band Breaks feature is enabled, it can cause network failures, lead to query timeouts not being complied with, and prevent processes from running properly. 
+</p>
+<p>
+<a id="RPM-1313"><strong>RPM-1313</strong></a><br/>
+<b>Updated installation checklist to clarify in what situations the "Upgrade Session database" step is need and when it can be safely skipped.</b><br/>
+<span class="cattag">Infrastructure Management</span> <span class="cattag">Platform Installation Checklist</span> <br/>
+<br/>
+<u>Fix Details:</u><br/>*Symptoms*
+Further clarification that the step "Upgrade Session database" from the checklist is optional.
+
+*How to reproduce*
+NA
 </p>
 <p>
 <a id="RPM-1461"><strong>RPM-1461</strong></a><br/>
@@ -248,7 +261,7 @@ pageprivacy: public
 <p>
 <a id="RPM-951"><strong>RPM-951</strong></a><br/>
 <b>Fixed an issue that caused a pending republish warning to be displayed for all environment modules after adding a new front-end server in a farm scenario.</b><br/>
-<span class="cattag">Infrastructure Management</span> <span class="cattag">Platform Configuration</span><br/>
+<span class="cattag">Infrastructure Management</span> <span class="cattag">Platform Configuration</span> <br/>
 <br/>
 <u>Fix Details:</u><br/>In a farm environment scenario, after adding a new front-end server, the Service Center console incorrectly showed all modules with the warning message "This Module has pending configuration changes. Republish the Module to apply them". This situation causes no runtime impact, as there are no pending configurations to apply. Republishing the modules will dismiss the warnings.
 </p>
