@@ -5,3 +5,5 @@ app_type: traditional web apps, mobile apps, reactive web apps
 ---
 
 # Manage and Upgrade
+
+Check the articles in this section to learn more about how to perform common licensing operations.
