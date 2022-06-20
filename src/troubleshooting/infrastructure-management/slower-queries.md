@@ -10,9 +10,7 @@ app_type: traditional web apps, mobile apps, reactive web apps
 
 ## Symptoms
 
-A query runs slower than usual after deleting or updating a significant amount of rows.
-
-You are using the OutSystems Platform with either SQL Server or Oracle backend.
+Database queries start to run slower than usual after deleting or updating a significant amount of rows.
 
 ## Cause
 
@@ -20,13 +18,21 @@ The database query optimizer uses statistics to create query execution plans tha
 
 Deleting or updating a significant amount of rows can cause data fragmentation and/or outdated statistics that can lead the database engine to create inaccurate access plans, reading unnecessary data and causing slowdowns.
 
-## Resolution
+## Troubleshooting
 
-To solve this issue, you need to check if the table statistics are outdated, and update them if needed. You also need to check if the table is fragmented, and if so, the table needs to be defragmented. 
+To solve this issue, you need to:
+- Check if the table statistics are outdated.
+- Update the table statistics if needed. 
+- Check if the table is fragmented.
+- Defragment the table if needed. 
 
 If your database is in OutSystems Cloud you must [open a support case](https://success.outsystems.com/Support/Enterprise_Customers/OutSystems_Support/02_How_to_Open_a_Support_Case) asking for a database user to execute steps 1, 2 and 4 in Oracle and steps 1 and 3 in SQL Server. For steps 3 and 5 in Oracle and steps 2 and 4 in SQL Server you must [open a support case](https://success.outsystems.com/Support/Enterprise_Customers/OutSystems_Support/02_How_to_Open_a_Support_Case) asking to run those steps.
 
-You can find below the steps to solve this issue in Oracle and SQL Server. We strongly recommend engaging with your DBA to supervise the execution of the steps.
+You can find below the steps to solve this issue in Oracle and SQL Server. 
+
+<div class="info" markdown="1">
+We strongly recommend engaging with your DBA to supervise the execution of the steps.
+</div>
 
 ### Oracle
 
