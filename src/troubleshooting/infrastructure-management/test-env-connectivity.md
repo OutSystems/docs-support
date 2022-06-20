@@ -9,7 +9,7 @@ app_type: traditional web apps, mobile apps, reactive web apps
 
 In OutSystems architecture, you need to have bidirectional communication between the LifeTime environment and all the application environments.
 
-![](images/test-env-connectivity-1.png)
+![](images/test-env-connectivity-diag.png)
 
 ## Test the connectivity
 
