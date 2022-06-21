@@ -1,0 +1,77 @@
+---
+isautopublish: true
+pageprivacy: semi-private
+---
+
+<h2 id="platform_server_11.16.1" >Platform Server 11.16.1</h2>
+<div class="info"><p>This is a preliminary version of the document.</p></div>
+
+<h3 id="bug_fixing_platform_server_11.16.1" >Bug Fixing</h3>
+<ul>
+<li>Fixed the issue on DropdownMenu widget from RichWidgets that forces the end user to click twice when collapsing the dropdown when used the SideMenu layout (Applies only to Traditional Web apps) and Fixed the issue that never closes the menu on a body click. (ROU-3331)</li>
+<li><a href="/Support/Release_Notes/11/Platform_Server#RPM-1323" rel="custom">Fixed an error when setting IT users permissions and there are more than 1000 application permissions. This issue applied only to environments using an Oracle database. (RPM-1323)</a></li>
+<li><a href="/Support/Release_Notes/11/Platform_Server#RPM-2123" rel="custom">Fixed a validation issue in the Dropdown widget for Reactive Web and Mobile apps when the "Empty Text" property is set. (RPM-2123)</a></li>
+<li><a href="/Support/Release_Notes/11/Platform_Server#RPM-2388" rel="custom">Fixed an issue that prevented attributes from being correctly imported into an entity using Integration Studio when importing an entity from a View using an external PostgreSQL database connection (RPM-2388)</a></li>
+<li><a href="/Support/Release_Notes/11/Platform_Server#RPM-2409" rel="custom">Now, the DropdownMenu closes on a body click. (RPM-2409)</a></li>
+<li><a href="/Support/Release_Notes/11/Platform_Server#RPM-2539" rel="custom">Improved telemetry query in Service Center (RPM-2539)</a></li>
+<li><a href="/Support/Release_Notes/11/Platform_Server#RPM-819" rel="custom">Removed redundant sync environment from solution publish. (RPM-819)</a></li>
+</ul>
+
+
+<style>.cattag {background: #f4f2ff; color: #6a6581; padding: 4px 10px;}</style>
+<div class="moreDetailsDiv">
+<h3 id="more_details_platform_server_11.16.1" >More details</h3>
+<p>
+<a id="RPM-1323"><strong>RPM-1323</strong></a><br/>
+<b>Fixed an error when setting IT users permissions and there are more than 1000 application permissions. This issue applied only to environments using an Oracle database.</b><br/>
+<span class="cattag">Application Lifecycle</span> <span class="cattag">LifeTime</span> <br/>
+<br/>
+<u>Fix Details:</u><br/>When registering a new Oracle environment in the infrastructure through the LifeTime console, the environment synchronization generated several errors in the advanced query RemoveDeprecatedPermissions, which is executed by an internal Platform Server API. This problem only occurred for Oracle environments having more than 1000 application permissions.
+</p>
+<p>
+<a id="RPM-2123"><strong>RPM-2123</strong></a><br/>
+<b>Fixed a validation issue in the Dropdown widget for Reactive Web and Mobile apps when the "Empty Text" property is set.</b><br/>
+<span class="cattag">Application Runtime</span> <span class="cattag">Interface</span> <br/>
+<br/>
+<u>Fix Details:</u><br/>This issue occurred in Reactive Web Apps and Mobile Apps having a Dropdown widget with the "Empty Text" property set. When a value was selected in the Dropdown, after clearing that value by setting the bound variable value to its default, the Widget would incorrectly pass the required validation although no value was selected.
+</p>
+<p>
+<a id="RPM-2388"><strong>RPM-2388</strong></a><br/>
+<b>Fixed an issue that prevented attributes from being correctly imported into an entity using Integration Studio when importing an entity from a View using an external PostgreSQL database connection</b><br/>
+<span class="cattag">Integration Studio</span> <span class="cattag">Import Wizards</span> <br/>
+<br/>
+<u>Fix Details:</u><br/>*Symptoms*
+
+Incorrect attributes imported when consuming certain Views in Integration Studio using the OutSystems PostgreSQL External Database Connector.
+</p>
+<p>
+<a id="RPM-2409"><strong>RPM-2409</strong></a><br/>
+<b>Now, the DropdownMenu closes on a body click.</b><br/>
+<span class="cattag">Application Runtime</span> <span class="cattag">System Components</span> <br/>
+<br/>
+<u>Fix Details:</u><br/>The DropdownMenu never closes on a body click
+</p>
+<p>
+<a id="RPM-2539"><strong>RPM-2539</strong></a><br/>
+<b>Improved telemetry query in Service Center</b><br/>
+<span class="cattag">Application Lifecycle</span> <span class="cattag">Service Center</span> <br/>
+<br/>
+<u>Fix Details:</u><br/>*Symptoms*
+CSM reports that with Vallourec's agreement (Leonardo Santos), they opened this ticket so our Cloud ops and engineering team can analyze and evaluate why some environments are missing telemetry.
+
+After looking at the logs we saw that there was an exception that was triggered by an advance query (NewITUsersWithOperations). The exception we’re getting is related to a timeout during the execution of the query.
+
+*How to reproduce*
+</p>
+<p>
+<a id="RPM-819"><strong>RPM-819</strong></a><br/>
+<b>Removed redundant sync environment from solution publish.</b><br/>
+<span class="cattag">Application Lifecycle</span> <span class="cattag">LifeTime</span> <br/>
+<br/>
+<u>Fix Details:</u><br/>*Symptoms*
+Deadlock errors during synchronization in LifeTime.
+
+*How to reproduce*
+This problem is already minimized in recent versions of the platform (LT 11.8.0+) that have improvements over the Synchronization process, compared to older versions. Nevertheless, the problem can occur when Service Studio publishes are done while a Sync Environment is running.
+</p>
+</div>
