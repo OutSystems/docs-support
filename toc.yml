@@ -172,6 +172,18 @@
 # Error reference documentation
 - href: error/intro.md
 - topics:
+    # MABS
+    - href: error/mabs/intro.md
+    - topics:
+        - href: error/mabs/mabs-gen-40016.md
+        - href: error/mabs/mabs-gen-40019.md
+        - href: error/mabs/mabs-gen-50000.md
+        - href: error/mabs/mabs-plg-40019.md
+        - href: error/mabs/mabs-plg-50002.md
+        - href: error/mabs/mabs-plg-50003.md
+        - href: error/mabs/mabs-sig-40009.md
+        - href: error/mabs/mabs-sig-40010.md
+        - href: error/mabs/mabs-sig-40015.md
     #Integration Builder
     - href: error/inbl/intro.md
     - topics:
