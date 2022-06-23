@@ -6,7 +6,7 @@ guid: 9F9D7472-775E-4F53-A6E0-F3C649680216
 app_type: traditional web apps, mobile apps, reactive web apps
 ---
 
-# Queries become slower after deleting/updating rows
+# Queries become slower after deleting or updating rows
 
 ## Symptoms
 
@@ -20,13 +20,17 @@ Deleting or updating a significant amount of rows can cause data fragmentation a
 
 ## Troubleshooting
 
-To solve this issue, you need to:
-- Check if the table statistics are outdated.
-- Update the table statistics if needed. 
-- Check if the table is fragmented.
-- Defragment the table if needed. 
+To solve this issue, you need to:  
 
-If your database is in OutSystems Cloud you must [open a support case](https://success.outsystems.com/Support/Enterprise_Customers/OutSystems_Support/02_How_to_Open_a_Support_Case) asking for a database user to execute steps 1, 2 and 4 in Oracle and steps 1 and 3 in SQL Server. For steps 3 and 5 in Oracle and steps 2 and 4 in SQL Server you must [open a support case](https://success.outsystems.com/Support/Enterprise_Customers/OutSystems_Support/02_How_to_Open_a_Support_Case) asking to run those steps.
+* Check if the table statistics are outdated.  
+* Update the table statistics if needed.  
+* Check if the table is fragmented.  
+* Defragment the table if needed.  
+
+To perform these tasks, you need to access the database. If your database is in OutSystems Cloud:  
+
+* You need to [ask for a database user](../../enterprise/maintenance/access-database-paas/access-database-paas.md) to be able to execute the steps of checking the last maintenance execution (applicable only for Oracle), checking the table statistics, and checking table fragmentation.  
+* You need to [open a support case](../../community/open-support-case.md) asking to execute the steps of updating the table statistics and defragmenting the table.  
 
 You can find below the steps to solve this issue in Oracle and SQL Server. 
 
@@ -40,7 +44,7 @@ By default, Oracle marks statistics as stale when 10% or more rows in the table 
 
 Follow these steps:
 
-1. Check the last maintenance execution, by executing the following query:  
+1. Check if the last maintenance execution was successful and if it occurred after the operation that deleted/updated the records, by executing the following query:  
 
         select  
             client_name, 
@@ -69,13 +73,15 @@ Follow these steps:
                 t. table_name = '<table_name>'
             ;
 
-    1. Compare with the current number of rows in the table:  
+    1. Check the current number of rows in the table:  
 
             select 
                 count(1) 
             from 
                 <owner_name>.<table_name>
             ;
+        
+        Compare the number of rows in the table to the number of rows obtained in the previous step.
 
         Note: A small difference between the number of rows presented by the statistics and the current number of rows in the table is considered normal.  
 
@@ -147,7 +153,7 @@ Follow these steps:
                 stat.object_id = OBJECT_ID('<schema_name>.<table_name>')
             ;
 
-    1.  Compare with the current number of rows in the table:  
+    1.  Check the current number of rows in the table:  
 
             select 
                 count(1) 
@@ -155,6 +161,8 @@ Follow these steps:
                 <schema_name>.<table_name>
             ;
 
+        Compare the number of rows in the table to the number of rows obtained in the previous step.
+        
         Note: A small difference between the number of rows presented by the statistic and the current number of rows in the table is considered normal.
 
 1. If the statistics are outdated, update them manually.  
