@@ -87,9 +87,7 @@ Incorrect attributes imported when consuming certain Views in Integration Studio
 <b>Reduced unnecessary error log pollution caused by platform telemetry collection</b><br/>
 <span class="cattag">Application Lifecycle</span> <span class="cattag">Service Center</span> <br/>
 <br/>
-<u>Fix Details:</u><br/>CSM reports that with Vallourec's agreement (Leonardo Santos), they opened this ticket so our Cloud ops and engineering team can analyze and evaluate why some environments are missing telemetry.
-
-After looking at the logs we saw that there was an exception that was triggered by an advance query (NewITUsersWithOperations). The exception we’re getting is related to a timeout during the execution of the query.
+<u>Fix Details:</u><br/>Customer is experiencing many timeouts in the Timer SynchronizeMetrics (from Service Center) execution due to a query taking a long time to execute, only for Oracle installations.
 </p>
 <p>
 <a id="RPM-819"><strong>RPM-819</strong></a><br/>
