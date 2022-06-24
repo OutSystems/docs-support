@@ -70,7 +70,7 @@ Follow these steps:
                 dba_tables t
             where 
                 t.owner = '<owner_name>' and 
-                t. table_name = '<table_name>'
+                t.table_name = '<table_name>'
             ;
 
     1. Check the current number of rows in the table:  
@@ -138,7 +138,7 @@ SQL Server has no default maintenance plan and no maintenance window. This shoul
 
 Follow these steps:
 
-1. To check if the table statistics are up to date, execute the following queries, changing &lt;owner_name&gt; by the owner of the table and &lt;table_name&gt; by the table in which you deleted/updated the records.
+1. To check if the table statistics are up to date, execute the following queries, changing &lt;schema_name&gt; by the schema of the table and &lt;table_name&gt; by the table in which you deleted/updated the records.
 
     1. Check the last time SQL Server updated the table statistics and how many records it had at that time:  
 
