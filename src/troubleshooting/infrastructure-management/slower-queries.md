@@ -204,3 +204,4 @@ Execute the following query, changing &lt;schema_name&gt; by the schema of the t
         ; 
 
 1. There are some parameters that can be used to defragment the table/index and the best combination depends on the SQL Server license (Enterprise/Standard) and the size of the table. Contact your DBA, as they should know the best way to defragment the objects.
+
