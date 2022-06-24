@@ -45,7 +45,7 @@ pageprivacy: public
 <li>Third party PostgreSQL connectors that use "npgsql.dll", like "ardoPostgreSQL Database Connector", may work incorrectly.
 This Platform Server version introduces a supported PostgreSQL / Aurora PostgreSQL connector that uses a custom version of "npgsql.dll". Even thought this custom dll version is design to be backwards compatible, OutSystems can't guarantee that unsupported third-party connectors behave as expected while using it.
 OutSystems recommends migrating from third party PostgreSQL connectors to the OutSystems PostgreSQL / Aurora PostgreSQL connector by following the <a href="https://success.outsystems.com/Documentation/How-to_Guides/Integrations/Migrate_from_ardoPostgreSQL_to_supported_PostgreSQL_connector">migration guide</a>.</li>
-<li>This Platform Server version suffers from an issue where factories with more than 1000 application permissions have their platform users (e.g. LifeTime, Service Center and Service Studio) losing permissions over the applications of an environment. This issue was introduced with Platform Server 11.14.0 and has been mitigated in Platform Server 11.16.0.</li>
+<li>This Platform Server version introduces an issue where factories with more than 1000 application permissions have their IT users losing permissions over the applications of an environment. This issue was introduced with Platform Server 11.14.0 and has been mitigated in Platform Server 11.16.0.</li>
 </ul>
 <style>.cattag {background: #f4f2ff; color: #6a6581; padding: 4px 10px;}</style>
 <div class="moreDetailsDiv">
