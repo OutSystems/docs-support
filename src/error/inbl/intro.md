@@ -9,4 +9,4 @@ app_type: traditional web apps, mobile apps, reactive web apps
 
 # Integration Builder errors
 
-Check the causes, impact, and how to fix Integration Builder errors in the following pages.
+Check the causes, impact, and how to fix Integration Builder errors in these section's articles.
