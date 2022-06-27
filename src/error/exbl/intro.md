@@ -8,5 +8,5 @@ app_type: traditional web apps, mobile apps, reactive web apps
 
 # Experience Builder errors
 
-Check the causes, impact, and how to fix Experience Builder errors in the following pages.
+Check the causes, impact, and how to fix Experience Builder errors in these section's articles.
 
