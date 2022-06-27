@@ -9,4 +9,4 @@ app_type: traditional web apps, mobile apps, reactive web apps
 
 # Mobile plugins errors
 
-Check the causes, impact, and how to fix Mobile Plugins errors in the following pages.
+Check the causes, impact, and how to fix Mobile Plugins errors in these section's articles.
