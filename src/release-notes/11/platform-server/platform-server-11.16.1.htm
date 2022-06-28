@@ -27,14 +27,16 @@ pageprivacy: semi-private
 <b>Fixed an error when setting IT users permissions and there are more than 1000 application permissions. This issue applied only to environments using an Oracle database.</b><br/>
 <span class="cattag">Application Lifecycle</span> <span class="cattag">LifeTime</span> <br/>
 <br/>
-<u>Fix Details:</u><br/>When registering a new Oracle environment in the infrastructure through the LifeTime console, the environment synchronization generated several errors in the advanced query RemoveDeprecatedPermissions, which is executed by an internal Platform Server API. This problem only occurred for Oracle environments having more than 1000 application permissions.
+<u>Fix Details:</u><br/>
+When registering a new Oracle environment in the infrastructure through the LifeTime console, the environment synchronization generated several errors in the advanced query RemoveDeprecatedPermissions, which is executed by an internal Platform Server API. This problem only occurred for Oracle environments having more than 1000 application permissions.
 </p>
 <p>
 <a id="RPM-1372"><strong>RPM-1372</strong></a><br/>
 <b>Changed client side JSON serialize to solve inconsistency with the server side one </b><br/>
 <span class="cattag">Application Runtime</span> <span class="cattag">Logic Execution</span> <br/>
 <br/>
-<u>Fix Details:</u><br/>*Symptoms*
+<u>Fix Details:</u><br/>
+*Symptoms*
 Client-side JSON Serialization is not consistent with the server-side one in scenarios where the default values are not to be serialized. The scenarios that are failing are the following:
 
  - Nested Structures whose all attributes have the default value are serialized as an empty object instead of ignored
@@ -64,14 +66,16 @@ Client-side JSON Serialization is not consistent with the server-side one in sce
 <b>Fixed a validation issue in the Dropdown widget for Reactive Web and Mobile apps when the "Empty Text" property is set.</b><br/>
 <span class="cattag">Application Runtime</span> <span class="cattag">Interface</span> <br/>
 <br/>
-<u>Fix Details:</u><br/>This issue occurred in Reactive Web Apps and Mobile Apps having a Dropdown widget with the "Empty Text" property set. When a value was selected in the Dropdown, after clearing that value by setting the bound variable value to its default, the Widget would incorrectly pass the required validation although no value was selected.
+<u>Fix Details:</u><br/>
+This issue occurred in Reactive Web Apps and Mobile Apps having a Dropdown widget with the "Empty Text" property set. When a value was selected in the Dropdown, after clearing that value by setting the bound variable value to its default, the Widget would incorrectly pass the required validation although no value was selected.
 </p>
 <p>
 <a id="RPM-2388"><strong>RPM-2388</strong></a><br/>
 <b>Fixed an issue that prevented attributes from being correctly imported into an entity using Integration Studio when importing an entity from a View using an external PostgreSQL database connection</b><br/>
 <span class="cattag">Integration Studio</span> <span class="cattag">Import Wizards</span> <br/>
 <br/>
-<u>Fix Details:</u><br/>*Symptoms*
+<u>Fix Details:</u><br/>
+*Symptoms*
 
 Incorrect attributes imported when consuming certain Views in Integration Studio using the OutSystems PostgreSQL External Database Connector.
 </p>
@@ -80,21 +84,24 @@ Incorrect attributes imported when consuming certain Views in Integration Studio
 <b>Now, the DropdownMenu closes on a body click.</b><br/>
 <span class="cattag">Application Runtime</span> <span class="cattag">System Components</span> <br/>
 <br/>
-<u>Fix Details:</u><br/>The DropdownMenu never closes on a body click
+<u>Fix Details:</u><br/>
+The DropdownMenu never closes on a body click
 </p>
 <p>
 <a id="RPM-2539"><strong>RPM-2539</strong></a><br/>
 <b>Reduced unnecessary error log pollution caused by platform telemetry collection</b><br/>
 <span class="cattag">Application Lifecycle</span> <span class="cattag">Service Center</span> <br/>
 <br/>
-<u>Fix Details:</u><br/>Customer is experiencing many timeouts in the Timer SynchronizeMetrics (from Service Center) execution due to a query taking a long time to execute, only for Oracle installations.
+<u>Fix Details:</u><br/>
+Customer is experiencing many timeouts in the Timer SynchronizeMetrics (from Service Center) execution due to a query taking a long time to execute, only for Oracle installations.
 </p>
 <p>
 <a id="RPM-819"><strong>RPM-819</strong></a><br/>
 <b>Improved the performance of solution publish app synchronisation.</b><br/>
 <span class="cattag">Application Lifecycle</span> <span class="cattag">LifeTime</span> <br/>
 <br/>
-<u>Fix Details:</u><br/>*Symptoms*
+<u>Fix Details:</u><br/>
+*Symptoms*
 Deadlock errors during synchronization in LifeTime.
 
 *How to reproduce*
