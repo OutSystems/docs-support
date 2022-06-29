@@ -8,14 +8,12 @@ pageprivacy: semi-private
 
 <h3 id="bug_fixing_platform_server_11.16.1" >Bug Fixing</h3>
 <ul>
-<li>Fixed the issue on DropdownMenu widget from RichWidgets that forces the end user to click twice when collapsing the dropdown when used the SideMenu layout (Applies only to Traditional Web apps) and Fixed the issue that never closes the menu on a body click. (ROU-3331)</li>
 <li><a href="/Support/Release_Notes/11/Platform_Server#RPM-1323" rel="custom">Fixed an error when setting IT users permissions and there are more than 1000 application permissions. This issue applied only to environments using an Oracle database. (RPM-1323)</a></li>
-<li><a href="/Support/Release_Notes/11/Platform_Server#RPM-1372" rel="custom">Changed client side JSON serialize to solve inconsistency with the server side one  (RPM-1372)</a></li>
 <li><a href="/Support/Release_Notes/11/Platform_Server#RPM-2123" rel="custom">Fixed a validation issue in the Dropdown widget for Reactive Web and Mobile apps when the "Empty Text" property is set. (RPM-2123)</a></li>
-<li><a href="/Support/Release_Notes/11/Platform_Server#RPM-2388" rel="custom">Fixed an issue that prevented attributes from being correctly imported into an entity using Integration Studio when importing an entity from a View using an external PostgreSQL database connection (RPM-2388)</a></li>
-<li><a href="/Support/Release_Notes/11/Platform_Server#RPM-2409" rel="custom">Now, the DropdownMenu closes on a body click. (RPM-2409)</a></li>
-<li><a href="/Support/Release_Notes/11/Platform_Server#RPM-2539" rel="custom">Reduced unnecessary error log pollution caused by platform telemetry collection (RPM-2539)</a></li>
-<li><a href="/Support/Release_Notes/11/Platform_Server#RPM-819" rel="custom">Improved the performance of solution publish app synchronisation. (RPM-819)</a></li>
+<li><a href="/Support/Release_Notes/11/Platform_Server#RPM-2388" rel="custom">Fixed an issue that prevented attributes from being correctly imported from certain database views into an entity when integrating with an external PostgreSQL database using Integration Studio. (RPM-2388)</a></li>
+<li><a href="/Support/Release_Notes/11/Platform_Server#RPM-2409" rel="custom">Fixed an issue in the DropDownMenu widget of RichWidgets that prevented the menu from collapsing after clicking away from it. Applies only to Traditional Web apps. (RPM-2409)</a></li>
+<li><a href="/Support/Release_Notes/11/Platform_Server#RPM-2539" rel="custom">Improved database query performance during the platform's telemetry collection. Applies only to Oracle databases. (RPM-2539)</a></li>
+<li><a href="/Support/Release_Notes/11/Platform_Server#RPM-819" rel="custom">Improved the performance of application synchronization when publishing a solution. (RPM-819)</a></li>
 </ul>
 
 
@@ -31,37 +29,6 @@ pageprivacy: semi-private
 When registering a new Oracle environment in the infrastructure through the LifeTime console, the environment synchronization generated several errors in the advanced query RemoveDeprecatedPermissions, which is executed by an internal Platform Server API. This problem only occurred for Oracle environments having more than 1000 application permissions.
 </p>
 <p>
-<a id="RPM-1372"><strong>RPM-1372</strong></a><br/>
-<b>Changed client side JSON serialize to solve inconsistency with the server side one </b><br/>
-<span class="cattag">Application Runtime</span> <span class="cattag">Logic Execution</span> <br/>
-<br/>
-<u>Fix Details:</u><br/>
-*Symptoms*
-Client-side JSON Serialization is not consistent with the server-side one in scenarios where the default values are not to be serialized. The scenarios that are failing are the following:
-
- - Nested Structures whose all attributes have the default value are serialized as an empty object instead of ignored
-    Client: {"NestedStructure":{"text":"Test","object":{}}}
-    Server: {"NestedStructure":{"text":"Test"}}
-
- - Empty Lists are serialized instead of ignored
-    Client: {"arrayempty":[]}
-    Server: {}
-
- - Boolean attributes with True as default value are serialized instead of ignored
-    Client: {"ChatFormat":{"UseAnimation":true}}
-    Server: {}
-
- - Default values on Lists are serialized as null instead of the default value
-    Client: {"arrayinitialized":[null,1]}
-    Server: {"arrayinitialized":[0,1]}
-
-*How to reproduce*
-- Create a variable with a value matching one of the scenarios above
-- JSON Serialize the variable with the "Serialize Default Values" option set to "No" on a Client Action
-- JSON Serialize the variable with the "Serialize Default Values" option set to "No" on a Server Action
-- You can verify that the result is different
-</p>
-<p>
 <a id="RPM-2123"><strong>RPM-2123</strong></a><br/>
 <b>Fixed a validation issue in the Dropdown widget for Reactive Web and Mobile apps when the "Empty Text" property is set.</b><br/>
 <span class="cattag">Application Runtime</span> <span class="cattag">Interface</span> <br/>
@@ -71,40 +38,34 @@ This issue occurred in Reactive Web Apps and Mobile Apps having a Dropdown widge
 </p>
 <p>
 <a id="RPM-2388"><strong>RPM-2388</strong></a><br/>
-<b>Fixed an issue that prevented attributes from being correctly imported into an entity using Integration Studio when importing an entity from a View using an external PostgreSQL database connection</b><br/>
+<b>Fixed an issue that prevented attributes from being correctly imported from certain database views into an entity when integrating with an external PostgreSQL database using Integration Studio.</b><br/>
 <span class="cattag">Integration Studio</span> <span class="cattag">Import Wizards</span> <br/>
 <br/>
 <u>Fix Details:</u><br/>
-*Symptoms*
-
-Incorrect attributes imported when consuming certain Views in Integration Studio using the OutSystems PostgreSQL External Database Connector.
+When using an OutSystems PostgreSQL Database Connection to consume certain database views in Integration Studio, entity attributes were not correctly imported. This issue would happen to views referencing tables from multiple schemas from the database connection.
 </p>
 <p>
 <a id="RPM-2409"><strong>RPM-2409</strong></a><br/>
-<b>Now, the DropdownMenu closes on a body click.</b><br/>
+<b>Fixed an issue in the DropDownMenu widget of RichWidgets that prevented the menu from collapsing after clicking away from it. Applies only to Traditional Web apps.</b><br/>
 <span class="cattag">Application Runtime</span> <span class="cattag">System Components</span> <br/>
 <br/>
 <u>Fix Details:</u><br/>
-The DropdownMenu never closes on a body click
+After upgrading to Platform Server 11.15.0, application menus in Traditional Web apps wouldn't collapse after clicking away from them. This was caused by an issue in the RichWidgets DropdownMenu when used inside a menu block with items.
 </p>
 <p>
 <a id="RPM-2539"><strong>RPM-2539</strong></a><br/>
-<b>Reduced unnecessary error log pollution caused by platform telemetry collection</b><br/>
+<b>Improved database query performance during the platform's telemetry collection. Applies only to Oracle databases.</b><br/>
 <span class="cattag">Application Lifecycle</span> <span class="cattag">Service Center</span> <br/>
 <br/>
 <u>Fix Details:</u><br/>
-Customer is experiencing many timeouts in the Timer SynchronizeMetrics (from Service Center) execution due to a query taking a long time to execute, only for Oracle installations.
+In environments using an Oracle database, the execution of Service Center's Timer SynchronizeMetrics, which collects platform telemetry, was causing several timeouts. The issue was related to Oracle's execution plan.
 </p>
 <p>
 <a id="RPM-819"><strong>RPM-819</strong></a><br/>
-<b>Improved the performance of solution publish app synchronisation.</b><br/>
+<b>Improved the performance of application synchronization when publishing a solution.</b><br/>
 <span class="cattag">Application Lifecycle</span> <span class="cattag">LifeTime</span> <br/>
 <br/>
 <u>Fix Details:</u><br/>
-*Symptoms*
-Deadlock errors during synchronization in LifeTime.
-
-*How to reproduce*
-This problem is already minimized in recent versions of the platform (LT 11.8.0+) that have improvements over the Synchronization process, compared to older versions. Nevertheless, the problem can occur when Service Studio publishes are done while a Sync Environment is running.
+Environments with a high number of applications, having frequent solution publishing at the same time as developers execute 1-Click Publish in Service Studio, could experience deadlock errors during LifeTime's synchronization process. This issue was due to the incorrect trigger of the environment synchronization in LifeTime every time a solution was published, instead of synchronizing only the applications involved in the solution.
 </p>
 </div>
