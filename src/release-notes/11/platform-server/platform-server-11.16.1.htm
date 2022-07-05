@@ -13,6 +13,7 @@ pageprivacy: semi-private
 <li><a href="/Support/Release_Notes/11/Platform_Server#RPM-2388" rel="custom">Fixed an issue that prevented attributes from being correctly imported from certain database views into an entity when integrating with an external PostgreSQL database using Integration Studio. (RPM-2388)</a></li>
 <li><a href="/Support/Release_Notes/11/Platform_Server#RPM-2409" rel="custom">Fixed an issue in the DropDownMenu widget of RichWidgets that prevented the menu from collapsing after clicking away from it. Applies only to Traditional Web apps. (RPM-2409)</a></li>
 <li><a href="/Support/Release_Notes/11/Platform_Server#RPM-2539" rel="custom">Improved database query performance during the platform's telemetry collection. Applies only to Oracle databases. (RPM-2539)</a></li>
+<li><a href="/Support/Release_Notes/11/Platform_Server#RPM-2606" rel="custom">Fixed a bug in which Static Entity records of type Date/Time with expressions containing whitespaces resulted in compilation errors. (RPM-2606)</a></li>
 <li><a href="/Support/Release_Notes/11/Platform_Server#RPM-819" rel="custom">Improved the performance of application synchronization when publishing a solution. (RPM-819)</a></li>
 </ul>
 
@@ -59,6 +60,15 @@ After upgrading to Platform Server 11.15.0, application menus in Traditional Web
 <br/>
 <u>Fix Details:</u><br/>
 In environments using an Oracle database, the execution of Service Center's Timer SynchronizeMetrics, which collects platform telemetry, was causing several timeouts. The issue was related to Oracle's execution plan.
+</p>
+<p>
+<a id="RPM-2606"><strong>RPM-2606</strong></a><br/>
+<b>Fixed a bug in which Static Entity records of type Date/Time with expressions containing whitespaces resulted in compilation errors.</b><br/>
+<span class="cattag">Publish Operation</span> <span class="cattag">Deployment stage</span> <br/>
+<br/>
+<u>Fix Details:</u><br/>
+With Platform Server 11.15.0 and Lifetime 11.10.8, the improved type conversion logic was added by RPM-1653 to improve ability of the compilation to handle types in static entity records that could be automatically converted.
+In this case the logic is incorrectly detecting a DateTime expression when there are Time or Date literals with surrounding whitespaces. Like " #10:11:12#"
 </p>
 <p>
 <a id="RPM-819"><strong>RPM-819</strong></a><br/>
