@@ -9,6 +9,7 @@ pageprivacy: semi-private
 <h3 id="bug_fixing_platform_server_11.16.1" >Bug Fixing</h3>
 <ul>
 <li><a href="/Support/Release_Notes/11/Platform_Server#RPM-1323" rel="custom">Fixed an error when setting IT users permissions and there are more than 1000 application permissions. This issue applied only to environments using an Oracle database. (RPM-1323)</a></li>
+<li><a href="/Support/Release_Notes/11/Platform_Server#RPM-1665" rel="custom">When a Service module is renamed and published, there's a compilation message about potential incompatible consumers and these consumers are now considered outdated applications in LifeTime (RPM-1665)</a></li>
 <li><a href="/Support/Release_Notes/11/Platform_Server#RPM-2123" rel="custom">Fixed a validation issue in the Dropdown widget for Reactive Web and Mobile apps when the "Empty Text" property is set. (RPM-2123)</a></li>
 <li><a href="/Support/Release_Notes/11/Platform_Server#RPM-2388" rel="custom">Fixed an issue that prevented attributes from being correctly imported from certain database views into an entity when integrating with an external PostgreSQL database using Integration Studio. (RPM-2388)</a></li>
 <li><a href="/Support/Release_Notes/11/Platform_Server#RPM-2409" rel="custom">Fixed an issue in the DropDownMenu widget of RichWidgets that prevented the menu from collapsing after clicking away from it. Applies only to Traditional Web apps. (RPM-2409)</a></li>
@@ -28,6 +29,21 @@ pageprivacy: semi-private
 <br/>
 <u>Fix Details:</u><br/>
 When registering a new Oracle environment in the infrastructure through the LifeTime console, the environment synchronization generated several errors in the advanced query RemoveDeprecatedPermissions, which is executed by an internal Platform Server API. This problem only occurred for Oracle environments having more than 1000 application permissions.
+</p>
+<p>
+<a id="RPM-1665"><strong>RPM-1665</strong></a><br/>
+<b>When a Service module is renamed and published, there's a compilation message about potential incompatible consumers and these consumers are now considered outdated applications in LifeTime</b><br/>
+<span class="cattag">Publish Operation</span> <span class="cattag">Refresh References</span> <br/>
+<br/>
+<u>Fix Details:</u><br/>
+*Symptoms*
+Service Actions started to return a "404 not found" error after a Lifetime staging due to consumer apps not being marked as outdated.
+
+*How to reproduce*
+1. Create an eSpace that consumer a service action from another module (can be a different application or not);
+2. Change the service action name and republish it;
+3. Perform a staging of the app containing the service eSpace and confirm that Lifetime will not stage the consumer application;
+4. In the target environment using the consumer eSpace attempt to invoke the service action;
 </p>
 <p>
 <a id="RPM-2123"><strong>RPM-2123</strong></a><br/>
