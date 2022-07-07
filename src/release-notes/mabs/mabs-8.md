@@ -22,7 +22,7 @@ For common issues and solutions check also [Troubleshooting the Mobile Apps Gene
 <div class="info">
 
 **First release:** 2022-04-06 17:00:00 UTC<br />
-**Last update:** 2022-05-20 14:00:00 UTC.
+**Last update:** 2022-06-22 15:00:00 UTC.
 </div>
 
 <div class="warning">
@@ -47,6 +47,8 @@ This minor version is focused on internal improvements, mainly around logging an
 ### Bug fixing
 * [2022-05-20 14:00:00 UTC] Fixed a bug where apps with & or ' in their names, or & in their extensibility configurations failed to build. (RPM-1891)
 * [2022-05-20 14:00:00 UTC] Updated NPM version to overcome github changes related to the usage of the `git://` protocol. [More info here](https://github.blog/2021-09-01-improving-git-protocol-security-github/)
+* [2022-06-22 15:00:00 UTC] We added new build errors that uniquely identify build failures caused by CocoaPods CDN problems. (RNMT-5601)
+* [2022-06-22 15:00:00 UTC] We fixed a bug that caused builds to fail when custom icons or splash screens were only provided for the platform that was not being built. (RPM-2644)
 
 ## MABS Version 8.0
 
