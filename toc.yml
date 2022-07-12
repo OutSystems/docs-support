@@ -9,6 +9,7 @@
         # Platform Server
         - href: release-notes/11/platform-server/platform-server.md
         - href: release-notes/11/cross-platform-service-studio/cross-platform-service-studio.md
+        - href: release-notes/11/integration-studio/integration-studio.md
         - href: release-notes/11/development-environment/development-environment.md
         - href: release-notes/11/side-effects-breaking-changes.md                     
     - href: release-notes/lifetime-management-console/lifetime-management-console.md
