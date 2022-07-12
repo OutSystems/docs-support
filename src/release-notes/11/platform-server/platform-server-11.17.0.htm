@@ -1,0 +1,208 @@
+---
+isautopublish: true
+pageprivacy: semi-private
+---
+
+<h2 id="platform_server_11.17.0" >Platform Server 11.17.0</h2>
+<div class="info"><p>This is a preliminary version of the document.</p></div>
+
+<h3 id="new_in_platform_server_11.17.0" >New in Platform Server 11.17.0</h3>
+<ul>
+<li>Improved the error handling of module uploads to avoid them to be created without an application. (R11PBT-782)</li>
+<li><a href="/Support/Release_Notes/11/Platform_Server#RPM-1908" rel="custom">The application config file now does not contain some platform settings when they have the default value. (RPM-1908)</a></li>
+</ul>
+<h3 id="bug_fixing_platform_server_11.17.0" >Bug Fixing</h3>
+<ul>
+<li>Improved the description of the action HumanActivity_AssignToUser of BPT API. (R11PBT-801)</li>
+<li><a href="/Support/Release_Notes/11/Platform_Server#RPM-1089" rel="custom">Fixed an issue that was redirecting to the incorrect page for REST Exposed APIs when opened from Recent item section in Service center (RPM-1089)</a></li>
+<li><a href="/Support/Release_Notes/11/Platform_Server#RPM-1311" rel="custom">Fixed an issue that prevented customers from publishing some solutions in OutSystems Cloud environments due to lack of security privileges. (RPM-1311)</a></li>
+<li><a href="/Support/Release_Notes/11/Platform_Server#RPM-1435" rel="custom">Improved the Debugger performance when debugging applications containing complex variables. (RPM-1435)</a></li>
+<li><a href="/Support/Release_Notes/11/Platform_Server#RPM-1728" rel="custom">Added visibility of errors that occur during the log rotation operation of the Deployment Controller service. The correct status can now be seen in the Environment Health page of Service Center. (RPM-1728)</a></li>
+<li><a href="/Support/Release_Notes/11/Platform_Server#RPM-1776" rel="custom">Fixed an issue that could cause an old version of a producer DLL to be installed in a consumer module when running a solution publish containing that consumer. (RPM-1776)</a></li>
+<li>It is now possible to perform extra schema compliance validations on all SOAP responses at runtime when activating the Extra schema compliance setting in Service Center. (RPM-1872)</li>
+<li><a href="/Support/Release_Notes/11/Platform_Server#RPM-2143" rel="custom">Improved the description of the action HumanActivity_AssignToUser of BPT API. (RPM-2143)</a></li>
+<li><a href="/Support/Release_Notes/11/Platform_Server#RPM-2175" rel="custom">Fixed an issue that caused a human activity to be reopened when the ActivityReset action was used with the setting ResetActivityUser input as True. (RPM-2175)</a></li>
+<li>Fixed an issue that could cause UnusedElements_Cleanup to timeout. (RPM-2241)</li>
+<li><a href="/Support/Release_Notes/11/Platform_Server#RPM-2463" rel="custom">Increased the length of the attributes (SessionIndex, MessageID and ResponseToMessageID) in Users SamlMessage_Log entity (RPM-2463)</a></li>
+<li><a href="/Support/Release_Notes/11/Platform_Server#RPM-2537" rel="custom">Fixed an issue that caused the Editable table to become unusable when entering edit mode on a row immediately after saving it. (RPM-2537)</a></li>
+<li><a href="/Support/Release_Notes/11/Platform_Server#RPM-2554" rel="custom">Fixed an issue that prevented the upgrade of LDAP password cypher in Oracle databases. (RPM-2554)</a></li>
+<li><a href="/Support/Release_Notes/11/Platform_Server#RPM-2640" rel="custom">Fixed an issue that caused triggers not to be recreated when an update database failure happened in an Oracle environment. (RPM-2640)</a></li>
+<li><a href="/Support/Release_Notes/11/Platform_Server#RPM-2652" rel="custom">Fixed an issue that caused some producers to not be prepared when doing Progressive Upgrades. (RPM-2652)</a></li>
+<li><a href="/Support/Release_Notes/11/Platform_Server#RPM-2713" rel="custom">Fixed an issue that could cause a timeout error on the Scheduler Service, preventing processes from running. (RPM-2713)</a></li>
+<li><a href="/Support/Release_Notes/11/Platform_Server#RPM-419" rel="custom">Fixed an issue that caused the environment to become slow when there were many activities created while having the EPA_Taskbox enabled. (RPM-419)</a></li>
+<li><a href="/Support/Release_Notes/11/Platform_Server#RPM-759" rel="custom">Fixed an issue that cause LifeTime not to be able to open Service Studio (RPM-759)</a></li>
+</ul>
+
+
+<style>.cattag {background: #f4f2ff; color: #6a6581; padding: 4px 10px;}</style>
+<div class="moreDetailsDiv">
+<h3 id="more_details_platform_server_11.17.0" >More details</h3>
+<p>
+<a id="RPM-1089"><strong>RPM-1089</strong></a><br/>
+<b>Fixed an issue that was redirecting to the incorrect page for REST Exposed APIs when opened from Recent item section in Service center</b><br/>
+<span class="cattag">Application Lifecycle</span> <span class="cattag">Service Center</span> <br/>
+<br/>
+<u>Fix Details:</u><br/>
+*Symptoms*
+The "Recent items" section in the Service Center is redirecting to the incorrect page for REST Exposed APIs.
+The user is unable to access the REST Expose APIs through the Recent Items block;
+
+*How to reproduce*
+Publish in a sandbox a module that exposes a REST API.
+Open the module detail page on the Service Center and click on the Exposed REST API​​
+Click on the "Recent Items" > Exposed REST API:
+</p>
+<p>
+<a id="RPM-1311"><strong>RPM-1311</strong></a><br/>
+<b>Fixed an issue that prevented customers from publishing some solutions in OutSystems Cloud environments due to lack of security privileges.</b><br/>
+<span class="cattag">Publish Operation</span> <br/>
+<br/>
+<u>Fix Details:</u><br/>
+Cloud customers with solutions including CloudConnectAgent components aren’t able to publish them, since they don’t have permissions to publish such components.
+</p>
+<p>
+<a id="RPM-1435"><strong>RPM-1435</strong></a><br/>
+<b>Improved the Debugger performance when debugging applications containing complex variables.</b><br/>
+<span class="cattag">Application Runtime</span> <span class="cattag">Debugger</span> <br/>
+<br/>
+<u>Fix Details:</u><br/>
+The customer is reporting slowness while doing debug on a specific screen from a Traditional Web Application. The slowness happens during the step of changing the current action (Step Over or Step Into) is taking a lot to be completed.
+</p>
+<p>
+<a id="RPM-1728"><strong>RPM-1728</strong></a><br/>
+<b>Added visibility of errors that occur during the log rotation operation of the Deployment Controller service. The correct status can now be seen in the Environment Health page of Service Center.</b><br/>
+<span class="cattag">Application Lifecycle</span> <span class="cattag">Service Center</span> <br/>
+<br/>
+<u>Fix Details:</u><br/>
+Service Center does not show any logs after the platform weekly log rotation but there is no warning or error visibility on the services status in the Environment Health page.
+
+Errors could still be found on the Event Viewer logs of the Controller machine.
+</p>
+<p>
+<a id="RPM-1776"><strong>RPM-1776</strong></a><br/>
+<b>Fixed an issue that could cause an old version of a producer DLL to be installed in a consumer module when running a solution publish containing that consumer.</b><br/>
+<span class="cattag">Publish Operation</span> <span class="cattag">Compilation</span> <br/>
+<br/>
+<u>Fix Details:</u><br/>
+Solution Publish that doesn't contain all consumer modules of producer that previously had a casing rename may cause DLL Hell problems.
+</p>
+<p>
+<a id="RPM-1908"><strong>RPM-1908</strong></a><br/>
+<b>The application config file now does not contain some platform settings when they have the default value.</b><br/>
+<span class="cattag">Application Runtime</span> <br/>
+<br/>
+<u>Fix Details:</u><br/>
+*Symptoms*
+
+Loading the modules at startup is using a lot of memory.
+
+In O10 for each setting of each module would be fetched on demand from the database, leading to performance and concurrency issues. It also prevented factory managers to understand and have control on when would modules would be affected by configuration changes.
+
+On O11 design there is a trade-off of memory for performance to load all these settings to memory for all modules from file configurations, which has a significant impact on the customer's memory usage in some scenarios.
+
+ *How to reproduce*
+
+It can be reproduced for modules with a high number of platform settings.
+</p>
+<p>
+<a id="RPM-2143"><strong>RPM-2143</strong></a><br/>
+<b>Improved the description of the action HumanActivity_AssignToUser of BPT API.</b><br/>
+<span class="cattag">Application Runtime</span> <span class="cattag">Processes</span> <br/>
+<br/>
+<u>Fix Details:</u><br/>
+The BPT API documentation regarding the HumanActivity_AssignToUser action is missing the information that calling this action will transition the activity to the Ready state.
+</p>
+<p>
+<a id="RPM-2175"><strong>RPM-2175</strong></a><br/>
+<b>Fixed an issue that caused a human activity to be reopened when the ActivityReset action was used with the setting ResetActivityUser input as True.</b><br/>
+<span class="cattag">Application Runtime</span> <span class="cattag">Processes</span> <br/>
+<br/>
+<u>Fix Details:</u><br/>
+The ActivityReset action from (System) does not validate if activities are already Closed or Terminated. This can lead for the action to be used to reopen closed human activities. The problem only happens when setting the ResetActivityUser input as True.
+</p>
+<p>
+<a id="RPM-2463"><strong>RPM-2463</strong></a><br/>
+<b>Increased the length of the attributes (SessionIndex, MessageID and ResponseToMessageID) in Users SamlMessage_Log entity</b><br/>
+<span class="cattag">Application Lifecycle</span> <span class="cattag">Users</span> <br/>
+<br/>
+<u>Fix Details:</u><br/>
+*Symptoms*
+At runtime there's "Unable to Process Request" errors when trying to authenticate users with SAML. Checking the logs in Service Center there’s an error message similar to this:
+
+String or binary data would be truncated in table 'OSDev.dbo.OSUSR_6WD_SAMLMESSAGE_LOG', column 'SESSIONINDEX'. Truncated value: '_x18MaTZNE2aO1vm5_xMcXivDMh0LRTrbxS0uuDPV3SOB1261'.
+The statement has been terminated.
+
+Alternatively, the message might mention the 'MessageID' column instead.
+
+*How to reproduce*
+Configure authentication in Users to use SAML and try to login into an application in the browser.
+</p>
+<p>
+<a id="RPM-2537"><strong>RPM-2537</strong></a><br/>
+<b>Fixed an issue that caused the Editable table to become unusable when entering edit mode on a row immediately after saving it.</b><br/>
+<span class="cattag">Application Runtime</span> <span class="cattag">Interface</span> <br/>
+<br/>
+<u>Fix Details:</u><br/>
+Editable table to become unusable when entering edit mode on a row immediately after saving it.
+</p>
+<p>
+<a id="RPM-2554"><strong>RPM-2554</strong></a><br/>
+<b>Fixed an issue that prevented the upgrade of LDAP password cypher in Oracle databases.</b><br/>
+<span class="cattag"></span> <br/>
+<br/>
+<u>Fix Details:</u><br/>
+*Symptoms*
+Configuration Tool gives an error when using Oracle and updating from PS versions <= 11.13.0
+
+*How to reproduce*
+Upgrade from PS versions <= 11.13.0 while using Oracle
+</p>
+<p>
+<a id="RPM-2640"><strong>RPM-2640</strong></a><br/>
+<b>Fixed an issue that caused triggers not to be recreated when an update database failure happened in an Oracle environment.</b><br/>
+<span class="cattag">Publish Operation</span> <span class="cattag">Deployment stage</span> <br/>
+<br/>
+<u>Fix Details:</u><br/>
+Trigger is not recreated after Platform DB update failure. This has been detected only on Oracle environments.
+</p>
+<p>
+<a id="RPM-2652"><strong>RPM-2652</strong></a><br/>
+<b>Fixed an issue that caused some producers to not be prepared when doing Progressive Upgrades.</b><br/>
+<span class="cattag">Infrastructure Management</span> <span class="cattag">Platform Configuration</span> <br/>
+<br/>
+<u>Fix Details:</u><br/>
+After the upgrade to 11.15.0 version there is a banner in Service Center warning that there were errors preparing some modules.
+
+Looking at the Error logs, there is one or more errors in the form of
+_Old Producer: Producer module '<moduleName>' hasn't been prepared for the current OutSystems environment version. The Preparation of Modules may not have finished yet, failed, or it is on hold. Check Service Center for more details or try to publish '<moduleName>'._
+</p>
+<p>
+<a id="RPM-2713"><strong>RPM-2713</strong></a><br/>
+<b>Fixed an issue that could cause a timeout error on the Scheduler Service, preventing processes from running.</b><br/>
+<span class="cattag">Application Runtime</span> <span class="cattag">Processes</span> <br/>
+<br/>
+<u>Fix Details:</u><br/>
+The Scheduler Service would stop working correctly and there were timeout errors in the Error Logs of Service Center.
+</p>
+<p>
+<a id="RPM-419"><strong>RPM-419</strong></a><br/>
+<b>Fixed an issue that caused the environment to become slow when there were many activities created while having the EPA_Taskbox enabled.</b><br/>
+<span class="cattag">Application Runtime</span> <span class="cattag">Processes</span> <br/>
+<br/>
+<u>Fix Details:</u><br/>
+When using the EPA_Taskbox feature, the environment could become slow if there are many activities created.
+</p>
+<p>
+<a id="RPM-759"><strong>RPM-759</strong></a><br/>
+<b>Fixed an issue that cause LifeTime not to be able to open Service Studio</b><br/>
+<span class="cattag">Application Runtime</span> <br/>
+<br/>
+<u>Fix Details:</u><br/>
+Symptoms
+Outsystems applications aren't able to use URL redirection when trying to open local applications using a specific mapped protocol via browser (e.g. servicestudio://). The application always adds the scheme and host info prior to the desired URL and it ends on a 404 - Page not found error.
+
+How to reproduce
+1. Enable setting HTTPtoHTTPSproxyHeader
+2. Try to use URL redirection in an URL that contains parameters separated by space (consider a non well formed URL)
+</p>
+</div>
