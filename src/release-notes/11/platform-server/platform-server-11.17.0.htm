@@ -8,12 +8,22 @@ pageprivacy: semi-private
 
 <h3 id="new_in_platform_server_11.17.0" >New in Platform Server 11.17.0</h3>
 <ul>
+<li>It is now possible to perform extra schema compliance validations on all SOAP responses at runtime when activating the Extra schema compliance setting in Service Center. (R11DT-1166)</li>
+<li>Now it is possible to check for service updates in SOAP web services. (R11DT-1259)</li>
 <li>Improved the error handling of module uploads to avoid them to be created without an application. (R11PBT-782)</li>
+<li>Upgraded Microsoft.AspNet.WebApi libraries to version 5.2.9. (R11PBT-875)</li>
 <li><a href="/Support/Release_Notes/11/Platform_Server#RPM-1908" rel="custom">The application config file now does not contain some platform settings when they have the default value. (RPM-1908)</a></li>
 </ul>
 <h3 id="bug_fixing_platform_server_11.17.0" >Bug Fixing</h3>
 <ul>
 <li>Improved the description of the action HumanActivity_AssignToUser of BPT API. (R11PBT-801)</li>
+<li>After investigating the issue we found that we have a mechanism to delete the Ossys_Visit entries that is managed by the parameter OutSystems.HubEdition.DisableMetricsCollect(it must be false).
+
+The delete action is:
+
+DELETE FROM {Visit} WHERE {Visit}.[Instant] < @Date
+
+And in some case can timeout because it have too many entries do delete, We checked if the table Ossy_Visit  have some index and it does not. (R11PBT-838)</li>
 <li><a href="/Support/Release_Notes/11/Platform_Server#RPM-1089" rel="custom">Fixed an issue that was redirecting to the incorrect page for REST Exposed APIs when opened from Recent item section in Service center (RPM-1089)</a></li>
 <li><a href="/Support/Release_Notes/11/Platform_Server#RPM-1311" rel="custom">Fixed an issue that prevented customers from publishing some solutions in OutSystems Cloud environments due to lack of security privileges. (RPM-1311)</a></li>
 <li><a href="/Support/Release_Notes/11/Platform_Server#RPM-1435" rel="custom">Improved the Debugger performance when debugging applications containing complex variables. (RPM-1435)</a></li>
