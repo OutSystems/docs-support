@@ -12,5 +12,6 @@ The following are the release notes for OutSystems 11:
 
 * [Platform Server](https://success.outsystems.com/Support/Release_Notes/11/Platform_Server)
 * [Cross-platform Service Studio](https://success.outsystems.com/Support/Release_Notes/11/Cross-platform_Service_Studio)
+* [Integration Studio](integration-studio/integration-studio.md)
 * [Development Environment](https://success.outsystems.com/Support/Release_Notes/11/Development_Environment)
 * [LifeTime Management Console](https://success.outsystems.com/Support/Release_Notes/LifeTime_Management_Console)
