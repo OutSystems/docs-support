@@ -17,6 +17,7 @@ Check the latest available versions [here](https://www.outsystems.com/downloads)
 
 * [Platform Server](https://success.outsystems.com/Support/Release_Notes/11/Platform_Server)
 * [Cross-platform Service Studio](https://success.outsystems.com/Support/Release_Notes/11/Cross-platform_Service_Studio)
+* [Integration Studio](release-notes/integration-builder/integration-builder.md)
 * [Development Environment](https://success.outsystems.com/Support/Release_Notes/11/Development_Environment)
 * [LifeTime Management Console](https://success.outsystems.com/Support/Release_Notes/LifeTime_Management_Console)
 
