@@ -8,12 +8,41 @@ pageprivacy: semi-private
 
 <h3 id="new_in_platform_server_11.17.0" >New in Platform Server 11.17.0</h3>
 <ul>
+<li>Fixed an issue that caused Mobile/Reactive applications to crash when they used the Multilingual Tech Preview feature and were upgraded to version 11.11.1 or greater. (R11DT-1071)</li>
+<li>It is now possible to perform extra schema compliance validations on all SOAP responses at runtime when activating the Extra schema compliance setting in Service Center. (R11DT-1166)</li>
+<li>Improved runtime error logging of consumed SOAP Web Service. (R11DT-1209)</li>
+<li>Now it is possible to check for service updates in SOAP web services. (R11DT-1259)</li>
+<li>Create API on new Extension : actions and structure  (R11OT-199)</li>
+<li>Add new logs in BPMRuntime.cs, ProcessBase.cs and DBRuntimePlatform.Processes.cs (R11PBT-554)</li>
+<li>Improve Process_BulkDelete action using the better SQL scripts (R11PBT-618)</li>
 <li>Improved the error handling of module uploads to avoid them to be created without an application. (R11PBT-782)</li>
+<li>Upgraded Microsoft.AspNet.WebApi libraries to version 5.2.8. (R11PBT-799)</li>
+<li>Upgraded Microsoft.AspNet.WebApi libraries to version 5.2.9. (R11PBT-875)</li>
+<li>Platform Server Installation Checklist now specifies required user permissions for installation. 
+Inspired by <a href="https://www.outsystems.com/ideas/11509/update-platform-server-installation-checklist-user-rights-assignment-create-sy">Paulo Moreira's idea</a>.
+
+ (R11PIT-599)</li>
 <li><a href="/Support/Release_Notes/11/Platform_Server#RPM-1908" rel="custom">The application config file now does not contain some platform settings when they have the default value. (RPM-1908)</a></li>
 </ul>
 <h3 id="bug_fixing_platform_server_11.17.0" >Bug Fixing</h3>
 <ul>
+<li>Fixed a bug that caused a memory leak on BaseViewController. (R11DT-1033)</li>
+<li>Fixed an issue that prevented Screen Aggregates or Screen Data Actions to not finish when multiple existed in the same screen. (R11DT-1038)</li>
+<li>Fixed an issue with Javascript script configured as required to ensure it is loaded before the AplicationReady event. (R11DT-959)</li>
+<li>The EngineEdition is now cached when unknown to reduce the number of executed queries. (R11PBT-545)</li>
+<li>Fixed an issue that was preventing the Service Center application from using cache in actions and queries. (R11PBT-764)</li>
+<li>When a Service module is renamed and published, there's a compilation message about potential incompatible consumers (R11PBT-795)</li>
 <li>Improved the description of the action HumanActivity_AssignToUser of BPT API. (R11PBT-801)</li>
+<li>After investigating the issue we found that we have a mechanism to delete the Ossys_Visit entries that is managed by the parameter OutSystems.HubEdition.DisableMetricsCollect(it must be false).
+
+The delete action is:
+
+DELETE FROM {Visit} WHERE {Visit}.[Instant] < @Date
+
+And in some case can timeout because it have too many entries do delete, We checked if the table Ossy_Visit  have some index and it does not. (R11PBT-838)</li>
+<li>When a producer Service module is renamed and published, its consumers are now being considered outdated applications in LifeTime (R11PBT-853)</li>
+<li>Fixed feature toggle refresh in order to add resilience to database failures (R11PIT-155)</li>
+<li>Progressive Upgrades - do not consider unpublished modules for prepared module counts (R11PIT-747)</li>
 <li><a href="/Support/Release_Notes/11/Platform_Server#RPM-1089" rel="custom">Fixed an issue that was redirecting to the incorrect page for REST Exposed APIs when opened from Recent item section in Service center (RPM-1089)</a></li>
 <li><a href="/Support/Release_Notes/11/Platform_Server#RPM-1311" rel="custom">Fixed an issue that prevented customers from publishing some solutions in OutSystems Cloud environments due to lack of security privileges. (RPM-1311)</a></li>
 <li><a href="/Support/Release_Notes/11/Platform_Server#RPM-1435" rel="custom">Improved the Debugger performance when debugging applications containing complex variables. (RPM-1435)</a></li>
