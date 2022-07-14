@@ -52,7 +52,6 @@ And in some case can timeout because it have too many entries do delete, We chec
 <li><a href="/Support/Release_Notes/11/Platform_Server#RPM-2143" rel="custom">Improved the description of the action HumanActivity_AssignToUser of BPT API. (RPM-2143)</a></li>
 <li><a href="/Support/Release_Notes/11/Platform_Server#RPM-2175" rel="custom">Fixed an issue that caused a human activity to be reopened when the ActivityReset action was used with the setting ResetActivityUser input as True. (RPM-2175)</a></li>
 <li>Fixed an issue that could cause UnusedElements_Cleanup to timeout. (RPM-2241)</li>
-<li><a href="/Support/Release_Notes/11/Platform_Server#RPM-2463" rel="custom">Increased the length of the attributes (SessionIndex, MessageID and ResponseToMessageID) in Users SamlMessage_Log entity (RPM-2463)</a></li>
 <li><a href="/Support/Release_Notes/11/Platform_Server#RPM-2537" rel="custom">Fixed an issue that caused the Editable table to become unusable when entering edit mode on a row immediately after saving it. (RPM-2537)</a></li>
 <li><a href="/Support/Release_Notes/11/Platform_Server#RPM-2554" rel="custom">Fixed an issue that prevented the upgrade of LDAP password cypher in Oracle databases. (RPM-2554)</a></li>
 <li><a href="/Support/Release_Notes/11/Platform_Server#RPM-2640" rel="custom">Fixed an issue that caused triggers not to be recreated when an update database failure happened in an Oracle environment. (RPM-2640)</a></li>
@@ -148,23 +147,6 @@ The BPT API documentation regarding the HumanActivity_AssignToUser action is mis
 <br/>
 <u>Fix Details:</u><br/>
 The ActivityReset action from (System) does not validate if activities are already Closed or Terminated. This can lead for the action to be used to reopen closed human activities. The problem only happens when setting the ResetActivityUser input as True.
-</p>
-<p>
-<a id="RPM-2463"><strong>RPM-2463</strong></a><br/>
-<b>Increased the length of the attributes (SessionIndex, MessageID and ResponseToMessageID) in Users SamlMessage_Log entity</b><br/>
-<span class="cattag">Application Lifecycle</span> <span class="cattag">Users</span> <br/>
-<br/>
-<u>Fix Details:</u><br/>
-*Symptoms*
-At runtime there's "Unable to Process Request" errors when trying to authenticate users with SAML. Checking the logs in Service Center there’s an error message similar to this:
-
-String or binary data would be truncated in table 'OSDev.dbo.OSUSR_6WD_SAMLMESSAGE_LOG', column 'SESSIONINDEX'. Truncated value: '_x18MaTZNE2aO1vm5_xMcXivDMh0LRTrbxS0uuDPV3SOB1261'.
-The statement has been terminated.
-
-Alternatively, the message might mention the 'MessageID' column instead.
-
-*How to reproduce*
-Configure authentication in Users to use SAML and try to login into an application in the browser.
 </p>
 <p>
 <a id="RPM-2537"><strong>RPM-2537</strong></a><br/>
