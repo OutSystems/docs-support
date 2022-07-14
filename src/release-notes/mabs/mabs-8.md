@@ -22,7 +22,7 @@ For common issues and solutions check also [Troubleshooting the Mobile Apps Gene
 <div class="info">
 
 **First release:** 2022-04-06 17:00:00 UTC<br />
-**Last update:** 2022-06-22 15:00:00 UTC.
+**Last update:** 2022-07-04 19:20:00 UTC.
 </div>
 
 <div class="warning">
@@ -49,6 +49,9 @@ This minor version is focused on internal improvements, mainly around logging an
 * [2022-05-20 14:00:00 UTC] Updated NPM version to overcome github changes related to the usage of the `git://` protocol. [More info here](https://github.blog/2021-09-01-improving-git-protocol-security-github/)
 * [2022-06-22 15:00:00 UTC] We added new build errors that uniquely identify build failures caused by CocoaPods CDN problems. (RNMT-5601)
 * [2022-06-22 15:00:00 UTC] We fixed a bug that caused builds to fail when custom icons or splash screens were only provided for the platform that was not being built. (RPM-2644)
+* [2022-07-04 19:20:00 UTC] We fixed a problem with AppShield builds not finishing successfully on Android. (RPM-2747)
+* [2022-07-04 19:20:00 UTC] We fixed an issue that was causing log lines to be missed in the build log file. (RPM-2744)
+* [2022-07-04 19:20:00 UTC] We updated some build error messages to improve troubleshooting. (RNMT-5634)
 
 ## MABS Version 8.0
 
