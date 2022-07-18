@@ -1,0 +1,19 @@
+---
+isautopublish: true
+pageprivacy: semi-private
+---
+
+<h2 id="lifetime_management_console_11.14.0" >LifeTime Management Console 11.14.0</h2>
+<div class="info"><p>This is a preliminary version of the document.</p></div>
+
+<h3 id="bug_fixing_lifetime_management_console_11.14.0" >Bug Fixing</h3>
+<ul>
+<li>When a Service module is renamed and published, there's a compilation message about potential incompatible consumers and these consumers are now considered outdated applications in LifeTime (RPM-1665)</li>
+<li>Fixed a timeout issue in LifeTime's synchronization process when there was a large number of applications for an environment or high latency between an environment and LifeTime. (RPM-2308)</li>
+<li>Fixed an issue that was allowing the team to be added to the Service center application when using Lifetime API (RPM-2393)</li>
+<li>Fixed an issue that was causing incorrect URL generation for app download on the cloud infrastructure when Lifetime API was called to get the host URL. (RPM-2587)</li>
+<li>Fixed an issue that caused errors during site properties synchronizations, leaving LifeTime outdated and impacting the feature site properties configuration during deployment (RPM-2716)</li>
+<li>Reduced error log pollution when synchronizing deleted modules. (RPM-2738)</li>
+<li>Reduced error log pollution when synchronizing deleted modules. (RPM-2740)</li>
+</ul>
+
