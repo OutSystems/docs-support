@@ -63,3 +63,13 @@ The following steps are required in order to conclude the Direct Connect integra
 2. Create a [hosted virtual interface](http://docs.aws.amazon.com/directconnect/latest/UserGuide/createhostedvirtualinterface.html) using the account ID provided by OutSystems. In case you are under scenario **B**, this step is performed by the AWS partner, to whom you need to provide the OutSystems Cloud AWS account ID.
 
 3. After this, [submit a new support case](https://success.outsystems.com/Support) requesting OutSystems to accept the newly created hosted connection.
+
+4. After OutSystems accept the newly created hosted connection, customers would be able to download configuration at their end and establish connectivity.
+
+<div class="info" markdown="1">
+
+By design, all OutSystems Cloud infrastructures has an internet gateway attached to the VPC, and the route-specific for the internet gateway is 0.0.0.0/0. Hence, if another route (0.0.0.0/0) is advertised from customer end to the routing table for the direct connect, the traffic will still be routed through the internet gateway as AWS will always prefer the shorted route.
+
+So, in this case, we would recommend customer to place a specific subnet that resides in the direct connection route.
+
+</div>
