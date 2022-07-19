@@ -98,7 +98,7 @@ Since you will lose most of the OutSystems capabilities, you must guarantee that
 
 ### OutSystems Scheduler Service
 
-If you are using Timers or BPT Activities in your applications, you will be able to keep this functionality even after detaching. Unlike other OutSystems services, the source code of the Scheduler Service will be provided for this purpose, just contact OutSystems by opening a Support Case and requesting it.
+If you are using Timers, BPT Activities, or emails in your applications, you can keep these functionalities even after detaching from the OutSystems platform. Unlike other OutSystems services, the source code of the Scheduler Service will be provided for this purpose. Contact OutSystems by opening a Support Case to request this.
 
 To compile the scheduler, do the following:
 
