@@ -64,12 +64,12 @@ The following steps are required in order to conclude the Direct Connect integra
 
 3. After this, [submit a new support case](https://success.outsystems.com/Support) requesting OutSystems to accept the newly created hosted connection.
 
-4. After OutSystems accept the newly created hosted connection, customers would be able to download configuration at their end and establish connectivity.
+4. OutSystems accepts the newly created hosted connection. Customers can download configuration at their end and establish connectivity.
 
 <div class="info" markdown="1">
 
-By design, all OutSystems Cloud infrastructures has an internet gateway attached to the VPC, and the route-specific for the internet gateway is 0.0.0.0/0. Hence, if another route (0.0.0.0/0) is advertised from customer end to the routing table for the direct connect, the traffic will still be routed through the internet gateway as AWS will always prefer the shorted route.
+By design, all OutSystems Cloud infrastructures have an internet gateway attached to the VPC, and the route-specific for the internet gateway is 0.0.0.0/0. Hence, if another route (0.0.0.0/0) is advertised from the customer end to the direct connect's routing table, the traffic will still be routed through the internet gateway as AWS will always prefer the shorted route.
 
-So, in this case, we would recommend customer to place a specific subnet that resides in the direct connection route.
+So, in this case, we recommend advertising specific subnets in the direct connection route table.
 
 </div>
