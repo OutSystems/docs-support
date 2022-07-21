@@ -52,13 +52,17 @@ And in some case can timeout because it have too many entries do delete, We chec
 <li><a href="/Support/Release_Notes/11/Platform_Server#RPM-2143" rel="custom">Improved the description of the action HumanActivity_AssignToUser of BPT API. (RPM-2143)</a></li>
 <li><a href="/Support/Release_Notes/11/Platform_Server#RPM-2175" rel="custom">Fixed an issue that caused a human activity to be reopened when the ActivityReset action was used with the setting ResetActivityUser input as True. (RPM-2175)</a></li>
 <li>Fixed an issue that could cause UnusedElements_Cleanup to timeout. (RPM-2241)</li>
+<li><a href="/Support/Release_Notes/11/Platform_Server#RPM-2448" rel="custom">Updated SharpZipLib library bundled with the platform from version 1.3.1 to version 1.3.3. (RPM-2448)</a></li>
 <li><a href="/Support/Release_Notes/11/Platform_Server#RPM-2537" rel="custom">Fixed an issue that caused the Editable table to become unusable when entering edit mode on a row immediately after saving it. (RPM-2537)</a></li>
 <li><a href="/Support/Release_Notes/11/Platform_Server#RPM-2554" rel="custom">Fixed an issue that prevented the upgrade of LDAP password cypher in Oracle databases. (RPM-2554)</a></li>
 <li><a href="/Support/Release_Notes/11/Platform_Server#RPM-2640" rel="custom">Fixed an issue that caused triggers not to be recreated when an update database failure happened in an Oracle environment. (RPM-2640)</a></li>
 <li><a href="/Support/Release_Notes/11/Platform_Server#RPM-2652" rel="custom">Fixed an issue that caused some producers to not be prepared when doing Progressive Upgrades. (RPM-2652)</a></li>
 <li><a href="/Support/Release_Notes/11/Platform_Server#RPM-2713" rel="custom">Fixed an issue that could cause a timeout error on the Scheduler Service, preventing processes from running. (RPM-2713)</a></li>
+<li><a href="/Support/Release_Notes/11/Platform_Server#RPM-2719" rel="custom">Updated Newtonsoft.Json library bundled with the platform from version 12.0.3 to version 13.0.1. (RPM-2719)</a></li>
 <li><a href="/Support/Release_Notes/11/Platform_Server#RPM-419" rel="custom">Fixed an issue that caused the environment to become slow when there were many activities created while having the EPA_Taskbox enabled. (RPM-419)</a></li>
 <li><a href="/Support/Release_Notes/11/Platform_Server#RPM-759" rel="custom">Fixed an issue that cause LifeTime not to be able to open Service Studio (RPM-759)</a></li>
+<li><a href="/Support/Release_Notes/11/Platform_Server#RPM-2443" rel="custom">Fixed a cross-site scripting (XSS) vulnerability in the Feedback Message widget. CVSSv3.1 score 6.4 (Medium). (RPM-2443)</a></li>
+<li>Fixed an authentication issue when Azure AD is configured.  CVSSv3.1 score 4.2 (Medium). (RPM-2613)</li>
 </ul>
 
 
@@ -149,6 +153,22 @@ The BPT API documentation regarding the HumanActivity_AssignToUser action is mis
 The ActivityReset action from (System) does not validate if activities are already Closed or Terminated. This can lead for the action to be used to reopen closed human activities. The problem only happens when setting the ResetActivityUser input as True.
 </p>
 <p>
+<a id="RPM-2443"><strong>RPM-2443</strong></a><br/>
+<b>Fixed a cross-site scripting (XSS) vulnerability in the Feedback Message widget. CVSSv3.1 score 6.4 (Medium).</b><br/>
+<span class="cattag">Application Runtime</span> <span class="cattag">Logic Execution</span> <br/>
+<br/>
+<u>Fix Details:</u><br/>
+The message of the Feedback Message widget was not encoded by default, making it vulnerable to cross-site scripting attacks. The Message property is now encoded however, this may introduce a breaking change. Find more information about this breaking change here.
+</p>
+<p>
+<a id="RPM-2448"><strong>RPM-2448</strong></a><br/>
+<b>Updated SharpZipLib library bundled with the platform from version 1.3.1 to version 1.3.3.</b><br/>
+<span class="cattag">Application Runtime</span> <br/>
+<br/>
+<u>Fix Details:</u><br/>
+Current versions of the platform uses the ICSharpCode.SharpZipLib library. The current version in use is 1.3.0 that is being flagged has having security vulnerabilities. None of the reported vulnerabilities can currently be exploited as there are no usages of the problematic code. Still, these will be reported as being vulnerable on security scans, requiring an update to the latest non-vulnerable version, 1.3.3.
+</p>
+<p>
 <a id="RPM-2537"><strong>RPM-2537</strong></a><br/>
 <b>Fixed an issue that caused the Editable table to become unusable when entering edit mode on a row immediately after saving it.</b><br/>
 <span class="cattag">Application Runtime</span> <span class="cattag">Interface</span> <br/>
@@ -194,6 +214,16 @@ _Old Producer: Producer module '<moduleName>' hasn't been prepared for the curre
 <br/>
 <u>Fix Details:</u><br/>
 The Scheduler Service would stop working correctly and there were timeout errors in the Error Logs of Service Center.
+</p>
+<p>
+<a id="RPM-2719"><strong>RPM-2719</strong></a><br/>
+<b>Updated Newtonsoft.Json library bundled with the platform from version 12.0.3 to version 13.0.1.</b><br/>
+<span class="cattag">Application Runtime</span> <br/>
+<br/>
+<u>Fix Details:</u><br/>
+A new version NewtonSoft.Json (13.0.0.1) includes a security fix that can prevent DOS attacks from being exploited by reducing the limit of depth of structures being serialized. Currently there is no known attack vector to exploit this on the OutSystems Platform as the problematic patterns are not used by default.
+
+Note that custom extensions that reuse the NewtonSoft.Json library can exercise the problematic patterns.
 </p>
 <p>
 <a id="RPM-419"><strong>RPM-419</strong></a><br/>
