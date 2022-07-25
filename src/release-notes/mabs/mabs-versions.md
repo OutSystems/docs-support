@@ -189,7 +189,7 @@ This version is no longer available, and you cannot build apps with it. The supp
 <div class="info" markdown="1">
 
 **Version 8.0**  - [See Release Notes](https://success.outsystems.com/Support/Release_Notes/Mobile_Apps_Build_Service_Versions/MABS_8_Release_notes#mabs-version-8.0)<br/><small>
-Released on October 11 2021<br/>Deprecated on May 23 2022<br/> Obsolete on Jul 25 2021</small>
+Released on October 11 2021<br/>Deprecated on May 23 2022<br/> Obsolete on Jul 25 2022</small>
 </div>
 
 This version can run your apps on:
