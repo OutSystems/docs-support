@@ -12,7 +12,7 @@ pageprivacy: public
 <li>Fixed an issue that prevented Screen Aggregates or Screen Data Actions to not finish when multiple existed in the same screen. (R11DT-1038)</li>
 <li>Fixed an issue with Javascript script configured as required to ensure it is loaded before the AplicationReady event. (R11DT-959)</li>
 <li><a href="/Support/Release_Notes/11/Platform_Server#RPM-1323" rel="custom">Fixed an error when setting IT users permissions and there are more than 1000 application permissions. This issue applied only to environments using an Oracle database. (RPM-1323)</a></li>
-<li><a href="/Support/Release_Notes/11/Platform_Server#RPM-1665" rel="custom">When a Service module is renamed and published, there's a compilation message about potential incompatible consumers and these consumers are now considered outdated applications in LifeTime (RPM-1665)</a></li>
+<li><a href="/Support/Release_Notes/11/Platform_Server#RPM-1665" rel="custom">Now, there's a compilation message about potential incompatible consumers when a Service module is renamed and published, and those consumers are considered outdated applications in LifeTime. (RPM-1665)</a></li>
 <li><a href="/Support/Release_Notes/11/Platform_Server#RPM-1809" rel="custom">Fixed an issue with Javascript script configured as required to ensure it is loaded before the AplicationReady event. (RPM-1809)</a></li>
 <li><a href="/Support/Release_Notes/11/Platform_Server#RPM-2123" rel="custom">Fixed a validation issue in the Dropdown widget for Reactive Web and Mobile apps when the "Empty Text" property is set. (RPM-2123)</a></li>
 <li><a href="/Support/Release_Notes/11/Platform_Server#RPM-2388" rel="custom">Fixed an issue that prevented attributes from being correctly imported from certain database views into an entity when integrating with an external PostgreSQL database using Integration Studio. (RPM-2388)</a></li>
@@ -20,6 +20,7 @@ pageprivacy: public
 <li><a href="/Support/Release_Notes/11/Platform_Server#RPM-2539" rel="custom">Improved database query performance during the platform's telemetry collection. Applies only to Oracle databases. (RPM-2539)</a></li>
 <li><a href="/Support/Release_Notes/11/Platform_Server#RPM-2606" rel="custom">Fixed a bug in which Static Entity records of type Date/Time with expressions containing whitespaces resulted in compilation errors. (RPM-2606)</a></li>
 <li><a href="/Support/Release_Notes/11/Platform_Server#RPM-819" rel="custom">Improved the performance of application synchronization when publishing a solution. (RPM-819)</a></li>
+<li><a href="/Support/Release_Notes/11/Platform_Server#RPM-2540" rel="custom">Fixed an open redirect vulnerability in the HTTPRequestHandler extension. CVSSv3.1 score 4.7 (Medium). (RPM-2540)</a></li>
 </ul>
 
 
@@ -36,7 +37,7 @@ When registering a new Oracle environment in the infrastructure through the Life
 </p>
 <p>
 <a id="RPM-1665"><strong>RPM-1665</strong></a><br/>
-<b>When a Service module is renamed and published, there's a compilation message about potential incompatible consumers and these consumers are now considered outdated applications in LifeTime</b><br/>
+<b>Now, there's a compilation message about potential incompatible consumers when a Service module is renamed and published, and those consumers are considered outdated applications in LifeTime.</b><br/>
 <span class="cattag">Publish Operation</span> <span class="cattag">Refresh References</span> <br/>
 <br/>
 <u>Fix Details:</u><br/>
@@ -97,6 +98,14 @@ After upgrading to Platform Server 11.15.0, application menus in Traditional Web
 <br/>
 <u>Fix Details:</u><br/>
 In environments using an Oracle database, the execution of Service Center's Timer SynchronizeMetrics, which collects platform telemetry, was causing several timeouts. The issue was related to Oracle's execution plan.
+</p>
+<p>
+<a id="RPM-2540"><strong>RPM-2540</strong></a><br/>
+<b>Fixed an open redirect vulnerability in the HTTPRequestHandler extension. CVSSv3.1 score 4.7 (Medium).</b><br/>
+<span class="cattag">Application Runtime</span> <span class="cattag">System Components</span> <br/>
+<br/>
+<u>Fix Details:</u><br/>
+The ReplaceURLDomain action of the HTTPRequestHandler extension was lacking some specific user input validations, thus being vulnerable to some detected patterns.
 </p>
 <p>
 <a id="RPM-2606"><strong>RPM-2606</strong></a><br/>
