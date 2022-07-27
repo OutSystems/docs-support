@@ -21,7 +21,7 @@ Inspired by <a href="https://www.outsystems.com/ideas/11509/update-platform-serv
 </ul>
 <h3 id="bug_fixing_platform_server_11.17.0" >Bug Fixing</h3>
 <ul>
-<li>Fixed a bug that caused a memory leak on BaseViewController. (R11DT-1033)</li>
+<li>Fixed an issue that caused a memory leak on BaseViewController when the view was destroyed. (R11DT-1033)</li>
 <li>Fixed an issue that prevented Screen Aggregates or Screen Data Actions to not finish when multiple existed in the same screen. (R11DT-1038)</li>
 <li>Fixed an issue that caused Mobile and Reactive apps using the Multilingual Tech Preview feature to crash when they were upgraded to version 11.11.1 or greater. (R11DT-1071)</li>
 <li>Fixed an issue with Javascript script configured as required to ensure it is loaded before the AplicationReady event. (R11DT-959)</li>
@@ -41,6 +41,7 @@ And in some case can timeout because it have too many entries do delete, We chec
 <li>Progressive Upgrades - do not consider unpublished modules for prepared module counts (R11PIT-747)</li>
 <li><a href="/Support/Release_Notes/11/Platform_Server#RPM-1089" rel="custom">Fixed an issue that was redirecting to the incorrect page for REST Exposed APIs when opened from Recent item section in Service center (RPM-1089)</a></li>
 <li><a href="/Support/Release_Notes/11/Platform_Server#RPM-1311" rel="custom">Fixed an issue that prevented customers from publishing some solutions in OutSystems Cloud environments due to lack of security privileges. (RPM-1311)</a></li>
+<li><a href="/Support/Release_Notes/11/Platform_Server#RPM-1372" rel="custom">Fixed an issue in JSON Serialize Client Action causing variables to be incorrectly serialized with the default value when the property "Serialize Default Values" was set to No. (RPM-1372)</a></li>
 <li><a href="/Support/Release_Notes/11/Platform_Server#RPM-1435" rel="custom">Improved the Debugger performance when debugging applications containing complex variables. (RPM-1435)</a></li>
 <li><a href="/Support/Release_Notes/11/Platform_Server#RPM-1728" rel="custom">Added visibility of errors that occur during the log rotation operation of the Deployment Controller service. The correct status can now be seen in the Environment Health page of Service Center. (RPM-1728)</a></li>
 <li><a href="/Support/Release_Notes/11/Platform_Server#RPM-1776" rel="custom">Fixed an issue that could cause an old version of a producer DLL to be installed in a consumer module when running a solution publish containing that consumer. (RPM-1776)</a></li>
@@ -86,6 +87,20 @@ Click on the "Recent Items" > Exposed REST API:
 <br/>
 <u>Fix Details:</u><br/>
 Cloud customers with solutions including CloudConnectAgent components aren’t able to publish them, since they don’t have permissions to publish such components.
+</p>
+<p>
+<a id="RPM-1372"><strong>RPM-1372</strong></a><br/>
+<b>Fixed an issue in JSON Serialize Client Action causing variables to be incorrectly serialized with the default value when the property "Serialize Default Values" was set to No.</b><br/>
+<span class="cattag">Application Runtime</span> <span class="cattag">Logic Execution</span> <br/>
+<br/>
+<u>Fix Details:</u><br/>
+The JSON Serialize Client Action behavior was not consistent with the JSON Serialize Server Action, as it was incorrectly serializing variables with the default value when the property "Serialize Default Values" was set to No. This would happen in the following scenarios:
+<ul>
+<li>Nested Structures having the default value for all attributes were serialized as an empty object instead of ignored</li>
+<li>Empty Lists were serialized instead of ignored</li>
+<li>Boolean attributes with True as default value were serialized instead of ignored</li>
+<li>Default values on Lists were serialized as null instead of the default value</li>
+</ul>
 </p>
 <p>
 <a id="RPM-1435"><strong>RPM-1435</strong></a><br/>
