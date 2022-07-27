@@ -1,10 +1,10 @@
 ---
-isautopublish: false
-pageprivacy: semi-private
+isautopublish: true
+pageprivacy: public
 ---
 
 <h2 id="lifetime_management_console_11.14.0" >LifeTime Management Console 11.14.0</h2>
-<div class="info"><p>This is a preliminary version of the document.</p></div> 
+<div class="info"><p>Released on Jul 27, 2022</p></div>
 
 <h3 id="new_in_lifetime_management_console_11.14.0" >New in LifeTime Management Console 11.14.0</h3>
 <ul>
@@ -22,5 +22,6 @@ pageprivacy: semi-private
 <li>Fixed an issue that caused errors during site properties synchronization, leaving LifeTime outdated and impacting the feature site properties configuration during deployment. (RPM-2716)</li>
 <li>Reduced error log pollution during synchronization when getting site properties from deleted modules. (RPM-2738)</li>
 <li>Reduced error log pollution during synchronization when getting entity configurations from deleted modules. (RPM-2740)</li>
+<li>Fixed an open redirect vulnerability in the HTTPRequestHandler extension. CVSSv3.1 score 4.7 (Medium). (RPM-2540)</li>
 </ul>
 
