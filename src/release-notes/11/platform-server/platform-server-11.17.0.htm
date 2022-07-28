@@ -6,254 +6,60 @@ pageprivacy: semi-private
 <h2 id="platform_server_11.17.0" >Platform Server 11.17.0</h2>
 <div class="info"><p>This is a preliminary version of the document.</p></div>
 
+
+<style>.cattag {background: #f4f2ff; color: #6a6581; padding: 4px 10px;}</style>
 <h3 id="new_in_platform_server_11.17.0" >New in Platform Server 11.17.0</h3>
 <ul>
-<li>Improved runtime error logging of consumed SOAP Web Services. (R11DT-1209)</li>
-<li>It is now possible to check for service updates in SOAP Web Services. (R11DT-1259)</li>
-<li>It is now possible to cancel a solution publication anytime before the deployment stage. (R11PBT-399)</li>
-<li>Increased the number of logs in BPT processes. (R11PBT-554)</li>
-<li>Improved the performance of the Process_BulkDelete action in the BPT API. (R11PBT-618)</li>
-<li>Improved the error handling in module uploads to prevent them from being created without an app. (R11PBT-782)</li>
-<li>Upgraded Microsoft.AspNet.WebApi libraries to version 5.2.9. (R11PBT-875)</li>
+<li>Improved runtime error logging of consumed SOAP Web Services. (R11DT-1209) <span class="cattag"></span> </li>
+<li>It is now possible to check for service updates in SOAP Web Services. (R11DT-1259) <span class="cattag"></span> </li>
+<li>It is now possible to cancel a solution publication anytime before the deployment stage. (R11PBT-399) <span class="cattag"></span> </li>
+<li>Increased the number of logs in BPT processes. (R11PBT-554) <span class="cattag"></span> </li>
+<li>Improved the performance of the Process_BulkDelete action in the BPT API. (R11PBT-618) <span class="cattag"></span> </li>
+<li>Improved the error handling in module uploads to prevent them from being created without an app. (R11PBT-782) <span class="cattag"></span> </li>
+<li>Upgraded Microsoft.AspNet.WebApi libraries to version 5.2.9. (R11PBT-875) <span class="cattag"></span> </li>
 <li>The installation checklist now specifies required user permissions for installation.
-Inspired by <a href="https://www.outsystems.com/ideas/11509/update-platform-server-installation-checklist-user-rights-assignment-create-sy">Paulo Moreira's idea</a>. (R11PIT-599)</li>
-<li><a href="/Support/Release_Notes/11/Platform_Server#RPM-1908" rel="custom">The application config file now does not contain some platform settings when they have the default value. (RPM-1908)</a></li>
+Inspired by <a href="https://www.outsystems.com/ideas/11509/update-platform-server-installation-checklist-user-rights-assignment-create-sy">Paulo Moreira's idea</a>. (R11PIT-599) <span class="cattag"></span> </li>
+<li>The application config file now does not contain some platform settings when they have the default value. (RPM-1908) <span class="cattag">Application Runtime</span> </li>
 </ul>
 <h3 id="bug_fixing_platform_server_11.17.0" >Bug Fixing</h3>
 <ul>
-<li>Fixed an issue that caused a memory leak on BaseViewController when the view was destroyed. (R11DT-1033)</li>
-<li>Fixed an issue that prevented Screen Aggregates or Screen Data Actions to not finish when multiple existed in the same screen. (R11DT-1038)</li>
-<li>Fixed an issue that caused Mobile and Reactive apps using the Multilingual Tech Preview feature to crash when they were upgraded to version 11.11.1 or greater. (R11DT-1071)</li>
-<li>Fixed an issue with Javascript script configured as required to ensure it is loaded before the AplicationReady event. (R11DT-959)</li>
-<li>The EngineEdition is now cached when unknown to reduce the number of executed queries. (R11PBT-545)</li>
-<li>Fixed an issue that was preventing the Service Center application from using cache in actions and queries. (R11PBT-764)</li>
-<li>When a Service module is renamed and published, there's a compilation message about potential incompatible consumers (R11PBT-795)</li>
-<li>Improved the description of the action HumanActivity_AssignToUser of BPT API. (R11PBT-801)</li>
+<li>Fixed an issue that caused a memory leak on BaseViewController when the view was destroyed. (R11DT-1033) <span class="cattag"></span> </li>
+<li>Fixed an issue that prevented Screen Aggregates or Screen Data Actions to not finish when multiple existed in the same screen. (R11DT-1038) <span class="cattag"></span> </li>
+<li>Fixed an issue that caused Mobile and Reactive apps using the Multilingual Tech Preview feature to crash when they were upgraded to version 11.11.1 or greater. (R11DT-1071) <span class="cattag"></span> </li>
+<li>Fixed an issue with Javascript script configured as required to ensure it is loaded before the AplicationReady event. (R11DT-959) <span class="cattag"></span> </li>
+<li>The EngineEdition is now cached when unknown to reduce the number of executed queries. (R11PBT-545) <span class="cattag"></span> </li>
+<li>Fixed an issue that was preventing the Service Center application from using cache in actions and queries. (R11PBT-764) <span class="cattag"></span> </li>
+<li>When a Service module is renamed and published, there's a compilation message about potential incompatible consumers (R11PBT-795) <span class="cattag"></span> </li>
+<li>Improved the description of the action HumanActivity_AssignToUser of BPT API. (R11PBT-801) <span class="cattag"></span> </li>
 <li>After investigating the issue we found that we have a mechanism to delete the Ossys_Visit entries that is managed by the parameter OutSystems.HubEdition.DisableMetricsCollect(it must be false).
 
 The delete action is:
 
 DELETE FROM {Visit} WHERE {Visit}.[Instant] < @Date
 
-And in some case can timeout because it have too many entries do delete, We checked if the table Ossy_Visit  have some index and it does not. (R11PBT-838)</li>
-<li>The consumer applications are now considered outdated in LifeTime when their producer Service module is renamed and published. (R11PBT-853)</li>
-<li>Fixed feature toggle refresh in order to add resilience to database failures (R11PIT-155)</li>
-<li>Progressive Upgrades - do not consider unpublished modules for prepared module counts (R11PIT-747)</li>
-<li><a href="/Support/Release_Notes/11/Platform_Server#RPM-1089" rel="custom">Fixed an issue that was redirecting to the incorrect page for REST Exposed APIs when opened from Recent item section in Service center (RPM-1089)</a></li>
-<li><a href="/Support/Release_Notes/11/Platform_Server#RPM-1311" rel="custom">Fixed an issue that prevented customers from publishing some solutions in OutSystems Cloud environments due to lack of security privileges. (RPM-1311)</a></li>
-<li><a href="/Support/Release_Notes/11/Platform_Server#RPM-1372" rel="custom">Fixed an issue in JSON Serialize Client Action causing variables to be incorrectly serialized with the default value when the property "Serialize Default Values" was set to No. (RPM-1372)</a></li>
-<li><a href="/Support/Release_Notes/11/Platform_Server#RPM-1435" rel="custom">Improved the Debugger performance when debugging applications containing complex variables. (RPM-1435)</a></li>
-<li><a href="/Support/Release_Notes/11/Platform_Server#RPM-1728" rel="custom">Added visibility of errors that occur during the log rotation operation of the Deployment Controller service. The correct status can now be seen in the Environment Health page of Service Center. (RPM-1728)</a></li>
-<li><a href="/Support/Release_Notes/11/Platform_Server#RPM-1776" rel="custom">Fixed an issue that could cause an old version of a producer DLL to be installed in a consumer module when running a solution publish containing that consumer. (RPM-1776)</a></li>
-<li><a href="/Support/Release_Notes/11/Platform_Server#RPM-2143" rel="custom">Improved the description of the action HumanActivity_AssignToUser of BPT API. (RPM-2143)</a></li>
-<li><a href="/Support/Release_Notes/11/Platform_Server#RPM-2175" rel="custom">Fixed an issue that caused a human activity to be reopened when the ActivityReset action was used with the setting ResetActivityUser input as True. (RPM-2175)</a></li>
-<li>Fixed an issue that could cause UnusedElements_Cleanup to timeout. (RPM-2241)</li>
-<li><a href="/Support/Release_Notes/11/Platform_Server#RPM-2448" rel="custom">Updated SharpZipLib library bundled with the platform from version 1.3.1 to version 1.3.3. (RPM-2448)</a></li>
-<li><a href="/Support/Release_Notes/11/Platform_Server#RPM-2537" rel="custom">Fixed an issue that caused the Editable table to become unusable when entering edit mode on a row immediately after saving it. (RPM-2537)</a></li>
-<li><a href="/Support/Release_Notes/11/Platform_Server#RPM-2554" rel="custom">Fixed an issue that prevented the upgrade of LDAP password cypher in Oracle databases. (RPM-2554)</a></li>
-<li><a href="/Support/Release_Notes/11/Platform_Server#RPM-2640" rel="custom">Fixed an issue that caused triggers not to be recreated when an update database failure happened in an Oracle environment. (RPM-2640)</a></li>
-<li><a href="/Support/Release_Notes/11/Platform_Server#RPM-2652" rel="custom">Fixed an issue that caused some producers to not be prepared when doing Progressive Upgrades. (RPM-2652)</a></li>
-<li><a href="/Support/Release_Notes/11/Platform_Server#RPM-2713" rel="custom">Fixed an issue that could cause a timeout error on the Scheduler Service, preventing processes from running. (RPM-2713)</a></li>
-<li><a href="/Support/Release_Notes/11/Platform_Server#RPM-2719" rel="custom">Updated Newtonsoft.Json library bundled with the platform from version 12.0.3 to version 13.0.1. (RPM-2719)</a></li>
-<li><a href="/Support/Release_Notes/11/Platform_Server#RPM-419" rel="custom">Fixed an issue that caused the environment to become slow when there were many activities created while having the EPA_Taskbox enabled. (RPM-419)</a></li>
-<li><a href="/Support/Release_Notes/11/Platform_Server#RPM-759" rel="custom">Fixed an issue that cause LifeTime not to be able to open Service Studio (RPM-759)</a></li>
-<li><a href="/Support/Release_Notes/11/Platform_Server#RPM-2443" rel="custom">Fixed a cross-site scripting (XSS) vulnerability in the Feedback Message widget. CVSSv3.1 score 6.4 (Medium). (RPM-2443)</a></li>
-<li>Fixed an authentication issue when Azure AD is configured.  CVSSv3.1 score 4.2 (Medium). (RPM-2613)</li>
+And in some case can timeout because it have too many entries do delete, We checked if the table Ossy_Visit  have some index and it does not. (R11PBT-838) <span class="cattag"></span> </li>
+<li>The consumer applications are now considered outdated in LifeTime when their producer Service module is renamed and published. (R11PBT-853) <span class="cattag"></span> </li>
+<li>Fixed feature toggle refresh in order to add resilience to database failures (R11PIT-155) <span class="cattag"></span> </li>
+<li>Progressive Upgrades - do not consider unpublished modules for prepared module counts (R11PIT-747) <span class="cattag"></span> </li>
+<li>Fixed an issue that was redirecting to the incorrect page for REST Exposed APIs when opened from Recent item section in Service center (RPM-1089) <span class="cattag">Application Lifecycle</span>  <span class="cattag">Service Center</span> </li>
+<li>Fixed an issue that prevented customers from publishing some solutions in OutSystems Cloud environments due to lack of security privileges. (RPM-1311) <span class="cattag">Publish Operation</span> </li>
+<li>Fixed an issue in JSON Serialize Client Action causing variables to be incorrectly serialized with the default value when the property "Serialize Default Values" was set to No. (RPM-1372) <span class="cattag">Application Runtime</span>  <span class="cattag">Logic Execution</span> </li>
+<li>Improved the Debugger performance when debugging applications containing complex variables. (RPM-1435) <span class="cattag">Application Runtime</span>  <span class="cattag">Debugger</span> </li>
+<li>Added visibility of errors that occur during the log rotation operation of the Deployment Controller service. The correct status can now be seen in the Environment Health page of Service Center. (RPM-1728) <span class="cattag">Application Lifecycle</span>  <span class="cattag">Service Center</span> </li>
+<li>Fixed an issue that could cause an old version of a producer DLL to be installed in a consumer module when running a solution publish containing that consumer. (RPM-1776) <span class="cattag">Publish Operation</span>  <span class="cattag">Compilation</span> </li>
+<li>Improved the description of the action HumanActivity_AssignToUser of BPT API. (RPM-2143) <span class="cattag">Application Runtime</span>  <span class="cattag">Processes</span> </li>
+<li>Fixed an issue that caused a human activity to be reopened when the ActivityReset action was used with the setting ResetActivityUser input as True. (RPM-2175) <span class="cattag">Application Runtime</span>  <span class="cattag">Processes</span> </li>
+<li>Fixed an issue that could cause UnusedElements_Cleanup to timeout. (RPM-2241) <span class="cattag">Application Runtime</span>  <span class="cattag">Data Access and Manipulation</span> </li>
+<li>Updated SharpZipLib library bundled with the platform from version 1.3.1 to version 1.3.3. (RPM-2448) <span class="cattag">Application Runtime</span> </li>
+<li>Fixed an issue that caused the Editable table to become unusable when entering edit mode on a row immediately after saving it. (RPM-2537) <span class="cattag">Application Runtime</span>  <span class="cattag">Interface</span> </li>
+<li>Fixed an issue that prevented the upgrade of LDAP password cypher in Oracle databases. (RPM-2554) <span class="cattag">Infrastructure Management</span>  <span class="cattag">Platform Configuration</span> </li>
+<li>Fixed an issue that caused triggers not to be recreated when an update database failure happened in an Oracle environment. (RPM-2640) <span class="cattag">Publish Operation</span>  <span class="cattag">Deployment stage</span> </li>
+<li>Fixed an issue that caused some producers to not be prepared when doing Progressive Upgrades. (RPM-2652) <span class="cattag">Infrastructure Management</span>  <span class="cattag">Platform Configuration</span> </li>
+<li>Fixed an issue that could cause a timeout error on the Scheduler Service, preventing processes from running. (RPM-2713) <span class="cattag">Application Runtime</span>  <span class="cattag">Processes</span> </li>
+<li>Updated Newtonsoft.Json library bundled with the platform from version 12.0.3 to version 13.0.1. (RPM-2719) <span class="cattag">Application Runtime</span> </li>
+<li>Fixed an issue that caused the environment to become slow when there were many activities created while having the EPA_Taskbox enabled. (RPM-419) <span class="cattag">Application Runtime</span>  <span class="cattag">Processes</span> </li>
+<li>Fixed an issue that cause LifeTime not to be able to open Service Studio (RPM-759) <span class="cattag">Application Runtime</span> </li>
+<li>Fixed a cross-site scripting (XSS) vulnerability in the Feedback Message widget. CVSSv3.1 score 6.4 (Medium). (RPM-2443) <span class="cattag">Application Runtime</span>  <span class="cattag">Logic Execution</span> </li>
+<li>Fixed an authentication issue when Azure AD is configured.  CVSSv3.1 score 4.2 (Medium). (RPM-2613) <span class="cattag">Application Runtime</span>  <span class="cattag">Authentication and Authorization</span> </li>
 </ul>
 
-
-<style>.cattag {background: #f4f2ff; color: #6a6581; padding: 4px 10px;}</style>
-<div class="moreDetailsDiv">
-<h3 id="more_details_platform_server_11.17.0" >More details</h3>
-<p>
-<a id="RPM-1089"><strong>RPM-1089</strong></a><br/>
-<b>Fixed an issue that was redirecting to the incorrect page for REST Exposed APIs when opened from Recent item section in Service center</b><br/>
-<span class="cattag">Application Lifecycle</span> <span class="cattag">Service Center</span> <br/>
-<br/>
-<u>Fix Details:</u><br/>
-*Symptoms*
-The "Recent items" section in the Service Center is redirecting to the incorrect page for REST Exposed APIs.
-The user is unable to access the REST Expose APIs through the Recent Items block;
-
-*How to reproduce*
-Publish in a sandbox a module that exposes a REST API.
-Open the module detail page on the Service Center and click on the Exposed REST API​​
-Click on the "Recent Items" > Exposed REST API:
-</p>
-<p>
-<a id="RPM-1311"><strong>RPM-1311</strong></a><br/>
-<b>Fixed an issue that prevented customers from publishing some solutions in OutSystems Cloud environments due to lack of security privileges.</b><br/>
-<span class="cattag">Publish Operation</span> <br/>
-<br/>
-<u>Fix Details:</u><br/>
-Cloud customers with solutions including CloudConnectAgent components aren’t able to publish them, since they don’t have permissions to publish such components.
-</p>
-<p>
-<a id="RPM-1372"><strong>RPM-1372</strong></a><br/>
-<b>Fixed an issue in JSON Serialize Client Action causing variables to be incorrectly serialized with the default value when the property "Serialize Default Values" was set to No.</b><br/>
-<span class="cattag">Application Runtime</span> <span class="cattag">Logic Execution</span> <br/>
-<br/>
-<u>Fix Details:</u><br/>
-The JSON Serialize Client Action behavior was not consistent with the JSON Serialize Server Action, as it was incorrectly serializing variables with the default value when the property "Serialize Default Values" was set to No. This would happen in the following scenarios:
-<ul>
-<li>Nested Structures having the default value for all attributes were serialized as an empty object instead of ignored</li>
-<li>Empty Lists were serialized instead of ignored</li>
-<li>Boolean attributes with True as default value were serialized instead of ignored</li>
-<li>Default values on Lists were serialized as null instead of the default value</li>
-</ul>
-</p>
-<p>
-<a id="RPM-1435"><strong>RPM-1435</strong></a><br/>
-<b>Improved the Debugger performance when debugging applications containing complex variables.</b><br/>
-<span class="cattag">Application Runtime</span> <span class="cattag">Debugger</span> <br/>
-<br/>
-<u>Fix Details:</u><br/>
-The customer is reporting slowness while doing debug on a specific screen from a Traditional Web Application. The slowness happens during the step of changing the current action (Step Over or Step Into) is taking a lot to be completed.
-</p>
-<p>
-<a id="RPM-1728"><strong>RPM-1728</strong></a><br/>
-<b>Added visibility of errors that occur during the log rotation operation of the Deployment Controller service. The correct status can now be seen in the Environment Health page of Service Center.</b><br/>
-<span class="cattag">Application Lifecycle</span> <span class="cattag">Service Center</span> <br/>
-<br/>
-<u>Fix Details:</u><br/>
-Service Center does not show any logs after the platform weekly log rotation but there is no warning or error visibility on the services status in the Environment Health page.
-
-Errors could still be found on the Event Viewer logs of the Controller machine.
-</p>
-<p>
-<a id="RPM-1776"><strong>RPM-1776</strong></a><br/>
-<b>Fixed an issue that could cause an old version of a producer DLL to be installed in a consumer module when running a solution publish containing that consumer.</b><br/>
-<span class="cattag">Publish Operation</span> <span class="cattag">Compilation</span> <br/>
-<br/>
-<u>Fix Details:</u><br/>
-Solution Publish that doesn't contain all consumer modules of producer that previously had a casing rename may cause DLL Hell problems.
-</p>
-<p>
-<a id="RPM-1908"><strong>RPM-1908</strong></a><br/>
-<b>The application config file now does not contain some platform settings when they have the default value.</b><br/>
-<span class="cattag">Application Runtime</span> <br/>
-<br/>
-<u>Fix Details:</u><br/>
-*Symptoms*
-
-Loading the modules at startup is using a lot of memory.
-
-In O10 for each setting of each module would be fetched on demand from the database, leading to performance and concurrency issues. It also prevented factory managers to understand and have control on when would modules would be affected by configuration changes.
-
-On O11 design there is a trade-off of memory for performance to load all these settings to memory for all modules from file configurations, which has a significant impact on the customer's memory usage in some scenarios.
-
- *How to reproduce*
-
-It can be reproduced for modules with a high number of platform settings.
-</p>
-<p>
-<a id="RPM-2143"><strong>RPM-2143</strong></a><br/>
-<b>Improved the description of the action HumanActivity_AssignToUser of BPT API.</b><br/>
-<span class="cattag">Application Runtime</span> <span class="cattag">Processes</span> <br/>
-<br/>
-<u>Fix Details:</u><br/>
-The BPT API documentation regarding the HumanActivity_AssignToUser action is missing the information that calling this action will transition the activity to the Ready state.
-</p>
-<p>
-<a id="RPM-2175"><strong>RPM-2175</strong></a><br/>
-<b>Fixed an issue that caused a human activity to be reopened when the ActivityReset action was used with the setting ResetActivityUser input as True.</b><br/>
-<span class="cattag">Application Runtime</span> <span class="cattag">Processes</span> <br/>
-<br/>
-<u>Fix Details:</u><br/>
-The ActivityReset action from (System) does not validate if activities are already Closed or Terminated. This can lead for the action to be used to reopen closed human activities. The problem only happens when setting the ResetActivityUser input as True.
-</p>
-<p>
-<a id="RPM-2443"><strong>RPM-2443</strong></a><br/>
-<b>Fixed a cross-site scripting (XSS) vulnerability in the Feedback Message widget. CVSSv3.1 score 6.4 (Medium).</b><br/>
-<span class="cattag">Application Runtime</span> <span class="cattag">Logic Execution</span> <br/>
-<br/>
-<u>Fix Details:</u><br/>
-The message of the Feedback Message widget was not encoded by default, making it vulnerable to cross-site scripting attacks. The Message property is now encoded however, this may introduce a breaking change. Find more information about this breaking change here.
-</p>
-<p>
-<a id="RPM-2448"><strong>RPM-2448</strong></a><br/>
-<b>Updated SharpZipLib library bundled with the platform from version 1.3.1 to version 1.3.3.</b><br/>
-<span class="cattag">Application Runtime</span> <br/>
-<br/>
-<u>Fix Details:</u><br/>
-Current versions of the platform uses the ICSharpCode.SharpZipLib library. The current version in use is 1.3.0 that is being flagged has having security vulnerabilities. None of the reported vulnerabilities can currently be exploited as there are no usages of the problematic code. Still, these will be reported as being vulnerable on security scans, requiring an update to the latest non-vulnerable version, 1.3.3.
-</p>
-<p>
-<a id="RPM-2537"><strong>RPM-2537</strong></a><br/>
-<b>Fixed an issue that caused the Editable table to become unusable when entering edit mode on a row immediately after saving it.</b><br/>
-<span class="cattag">Application Runtime</span> <span class="cattag">Interface</span> <br/>
-<br/>
-<u>Fix Details:</u><br/>
-Editable table to become unusable when entering edit mode on a row immediately after saving it.
-</p>
-<p>
-<a id="RPM-2554"><strong>RPM-2554</strong></a><br/>
-<b>Fixed an issue that prevented the upgrade of LDAP password cypher in Oracle databases.</b><br/>
-<span class="cattag">Infrastructure Management</span> <span class="cattag">Platform Configuration</span> <br/>
-<br/>
-<u>Fix Details:</u><br/>
-*Symptoms*
-Configuration Tool gives an error when using Oracle and updating from PS versions <= 11.13.0
-
-*How to reproduce*
-Upgrade from PS versions <= 11.13.0 while using Oracle
-</p>
-<p>
-<a id="RPM-2640"><strong>RPM-2640</strong></a><br/>
-<b>Fixed an issue that caused triggers not to be recreated when an update database failure happened in an Oracle environment.</b><br/>
-<span class="cattag">Publish Operation</span> <span class="cattag">Deployment stage</span> <br/>
-<br/>
-<u>Fix Details:</u><br/>
-Trigger is not recreated after Platform DB update failure. This has been detected only on Oracle environments.
-</p>
-<p>
-<a id="RPM-2652"><strong>RPM-2652</strong></a><br/>
-<b>Fixed an issue that caused some producers to not be prepared when doing Progressive Upgrades.</b><br/>
-<span class="cattag">Infrastructure Management</span> <span class="cattag">Platform Configuration</span> <br/>
-<br/>
-<u>Fix Details:</u><br/>
-After the upgrade to 11.15.0 version there is a banner in Service Center warning that there were errors preparing some modules.
-
-Looking at the Error logs, there is one or more errors in the form of
-_Old Producer: Producer module '<moduleName>' hasn't been prepared for the current OutSystems environment version. The Preparation of Modules may not have finished yet, failed, or it is on hold. Check Service Center for more details or try to publish '<moduleName>'._
-</p>
-<p>
-<a id="RPM-2713"><strong>RPM-2713</strong></a><br/>
-<b>Fixed an issue that could cause a timeout error on the Scheduler Service, preventing processes from running.</b><br/>
-<span class="cattag">Application Runtime</span> <span class="cattag">Processes</span> <br/>
-<br/>
-<u>Fix Details:</u><br/>
-The Scheduler Service would stop working correctly and there were timeout errors in the Error Logs of Service Center.
-</p>
-<p>
-<a id="RPM-2719"><strong>RPM-2719</strong></a><br/>
-<b>Updated Newtonsoft.Json library bundled with the platform from version 12.0.3 to version 13.0.1.</b><br/>
-<span class="cattag">Application Runtime</span> <br/>
-<br/>
-<u>Fix Details:</u><br/>
-A new version NewtonSoft.Json (13.0.0.1) includes a security fix that can prevent DOS attacks from being exploited by reducing the limit of depth of structures being serialized. Currently there is no known attack vector to exploit this on the OutSystems Platform as the problematic patterns are not used by default.
-
-Note that custom extensions that reuse the NewtonSoft.Json library can exercise the problematic patterns.
-</p>
-<p>
-<a id="RPM-419"><strong>RPM-419</strong></a><br/>
-<b>Fixed an issue that caused the environment to become slow when there were many activities created while having the EPA_Taskbox enabled.</b><br/>
-<span class="cattag">Application Runtime</span> <span class="cattag">Processes</span> <br/>
-<br/>
-<u>Fix Details:</u><br/>
-When using the EPA_Taskbox feature, the environment could become slow if there are many activities created.
-</p>
-<p>
-<a id="RPM-759"><strong>RPM-759</strong></a><br/>
-<b>Fixed an issue that cause LifeTime not to be able to open Service Studio</b><br/>
-<span class="cattag">Application Runtime</span> <br/>
-<br/>
-<u>Fix Details:</u><br/>
-Symptoms
-Outsystems applications aren't able to use URL redirection when trying to open local applications using a specific mapped protocol via browser (e.g. servicestudio://). The application always adds the scheme and host info prior to the desired URL and it ends on a 404 - Page not found error.
-
-How to reproduce
-1. Enable setting HTTPtoHTTPSproxyHeader
-2. Try to use URL redirection in an URL that contains parameters separated by space (consider a non well formed URL)
-</p>
-</div>
