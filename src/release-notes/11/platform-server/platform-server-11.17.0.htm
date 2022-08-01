@@ -26,7 +26,6 @@ At runtime, those platform settings loaded by the modules were using a lot of me
 <ul>
 <li>Fixed an issue that caused a memory leak on BaseViewController when the view was destroyed. (R11DT-1033)</li>
 <li>Fixed an issue that prevented Screen Aggregates or Screen Data Actions from being executed when more than one instance of any of them existed on the same screen. (R11DT-1038)</li>
-<li>Fixed an issue that caused Mobile and Reactive apps using the Multilingual Tech Preview feature to crash when they were upgraded to version 11.11.1 or later. (R11DT-1071)</li>
 <li>Fixed an issue that caused the On Application Ready event to fail when referencing JavaScript objects that were defined and loaded on a required script. The script is now loaded before the On Application Ready event to prevent that. (R11DT-959)</li>
 <li>The EngineEdition is now cached when it is unknown, to reduce the number of executed queries. (R11PBT-545)</li>
 <li>Fixed an issue that prevented Service Center from using cache in actions and queries. (R11PBT-764)</li>
@@ -59,6 +58,7 @@ The HumanActivity_AssignToUser action description in the BPT API documentation w
 The ActivityReset system action didn't validate if activities were already closed or terminated. This could lead the action to reopen closed Human Activities. The problem only happened when the ResetActivityUser input was True. (RPM-2175) <span class="cattag">Application Runtime</span>  <span class="cattag">Processes</span> </li>
 <li>Fixed an issue that caused the system Timer UnusedElements_Cleanup to timeout.<br/>
 The Timer UnusedElements_Cleanup should clean up the records from the OSSYS_MODULE_PUBLICELEMENT table, but it was failing with a timeout. This could impact publishing from Service Studio. (RPM-2241) <span class="cattag">Application Runtime</span>  <span class="cattag">Data Access and Manipulation</span> </li>
+<li>Fixed an issue that caused Mobile and Reactive apps using the Multilingual Tech Preview feature to crash when they were upgraded to version 11.11.1 or later. (RPM-2303) <span class="cattag">Application Runtime</span>  <span class="cattag">Interface</span> </li>
 <li>Fixed an issue that caused an Editable Table to become unusable when entering edit mode on a row immediately after saving it.<br/>
 At runtime, when a user selected an Editable Table row that had its data being updated, the checkmark didn't work. (RPM-2537) <span class="cattag">Application Runtime</span>  <span class="cattag">Interface</span> </li>
 <li>Fixed an issue that prevented the upgrade of LDAP Password Encryption in Oracle databases.<br/>
