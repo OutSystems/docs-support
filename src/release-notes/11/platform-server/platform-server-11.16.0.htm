@@ -23,6 +23,7 @@ pageprivacy: public
 <li>Fixed an issue that prevented Content Security Policy (CSP) headers being sent in Service Center responses to HTTP requests. (R11PBT-725)</li>
 <li> Now, when a user lacks the permissions to create a symbolic link to a directory, the platform falls back to the directory copy. (R11PIT-639)</li>
 <li><a href="/Support/Release_Notes/11/Platform_Server#RPM-1133" rel="custom">Fixed an issue that can cause network failures in Oracle environments. (RPM-1133)</a></li>
+<li><a href="/Support/Release_Notes/11/Platform_Server#RPM-1251" rel="custom">Fixed an issue that caused the writing direction to not be updated in iOS when changing from a right-to-left multilingual locale. (RPM-1251)</a></li>
 <li><a href="/Support/Release_Notes/11/Platform_Server#RPM-1313" rel="custom">Updated installation checklist to clarify in what situations the "Upgrade Session database" step is need and when it can be safely skipped. (RPM-1313)</a></li>
 <li>Updated installation checklist to clarify in what situations the "Upgrade Session database" step is need and when it can be safely skipped. (RPM-1314)</li>
 <li><a href="/Support/Release_Notes/11/Platform_Server#RPM-1461" rel="custom">Now the server information is removed from the HTTP response header. (RPM-1461)</a></li>
@@ -64,6 +65,18 @@ pageprivacy: public
 <br/>
 <u>Fix Details:</u><br/>
 When Oracle's Out Of Band Breaks feature is enabled, it can cause network failures, lead to query timeouts not being complied with, and prevent processes from running properly. 
+</p>
+<p>
+<a id="RPM-1251"><strong>RPM-1251</strong></a><br/>
+<b>Fixed an issue that caused the writing direction to not be updated in iOS when changing from a right-to-left multilingual locale.</b><br/>
+<span class="cattag">Application Runtime</span> <span class="cattag">Interface</span> <br/>
+<br/>
+<u>Fix Details:</u><br/>
+*Symptoms*
+The integrated Multilingual functionality is not aligning the text to the right when text is changed from Arabic (aligned Right to Left) to English on iOS devices.
+
+*How to reproduce*
+Create an application that changes the CurrentLocale from Arabic (ar-AE) to English (en-US) on iOS.
 </p>
 <p>
 <a id="RPM-1313"><strong>RPM-1313</strong></a><br/>
