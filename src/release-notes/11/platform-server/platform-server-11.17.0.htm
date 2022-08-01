@@ -19,47 +19,60 @@ pageprivacy: semi-private
 <li>Upgraded Microsoft.AspNet.WebApi libraries to version 5.2.9. (R11PBT-875)</li>
 <li>The installation checklist now specifies required user permissions for installation.
 Inspired by <a href="https://www.outsystems.com/ideas/11509/update-platform-server-installation-checklist-user-rights-assignment-create-sy">Paulo Moreira's idea</a>. (R11PIT-599)</li>
-<li>The application config file now does not contain some platform settings when they have the default value. (RPM-1908) <span class="cattag">Application Runtime</span> </li>
+<li>Now, the appSettings.config file doesn't contain integration platform settings that have the default value.<br/>
+At runtime, those platform settings loaded by the modules were using a lot of memory. To fix this, the integration platform settings that have the default value aren't included in the appSettings.config file anymore. (RPM-1908) <span class="cattag">Application Runtime</span> </li>
 </ul>
 <h3 id="bug_fixing_platform_server_11.17.0" >Bug Fixing</h3>
 <ul>
 <li>Fixed an issue that caused a memory leak on BaseViewController when the view was destroyed. (R11DT-1033)</li>
-<li>Fixed an issue that prevented Screen Aggregates or Screen Data Actions to not finish when multiple existed in the same screen. (R11DT-1038)</li>
-<li>Fixed an issue that caused Mobile and Reactive apps using the Multilingual Tech Preview feature to crash when they were upgraded to version 11.11.1 or greater. (R11DT-1071)</li>
-<li>Fixed an issue with Javascript script configured as required to ensure it is loaded before the AplicationReady event. (R11DT-959)</li>
-<li>The EngineEdition is now cached when unknown to reduce the number of executed queries. (R11PBT-545)</li>
-<li>Fixed an issue that was preventing the Service Center application from using cache in actions and queries. (R11PBT-764)</li>
-<li>When a Service module is renamed and published, there's a compilation message about potential incompatible consumers (R11PBT-795)</li>
-<li>Improved the description of the action HumanActivity_AssignToUser of BPT API. (R11PBT-801)</li>
-<li>After investigating the issue we found that we have a mechanism to delete the Ossys_Visit entries that is managed by the parameter OutSystems.HubEdition.DisableMetricsCollect(it must be false).
-
-The delete action is:
-
-DELETE FROM {Visit} WHERE {Visit}.[Instant] < @Date
-
-And in some case can timeout because it have too many entries do delete, We checked if the table Ossy_Visit  have some index and it does not. (R11PBT-838)</li>
+<li>Fixed an issue that prevented Screen Aggregates or Screen Data Actions from being executed when more than one instance of any of them existed on the same screen. (R11DT-1038)</li>
+<li>Fixed an issue that caused Mobile and Reactive apps using the Multilingual Tech Preview feature to crash when they were upgraded to version 11.11.1 or later. (R11DT-1071)</li>
+<li>Fixed an issue that caused the On Application Ready event to fail when referencing JavaScript objects that were defined and loaded on a required script. The script is now loaded before the On Application Ready event to prevent that. (R11DT-959)</li>
+<li>The EngineEdition is now cached when it is unknown, to reduce the number of executed queries. (R11PBT-545)</li>
+<li>Fixed an issue that prevented Service Center from using cache in actions and queries. (R11PBT-764)</li>
+<li>Now, there's a compilation message about potential incompatible consumers when a Service module is renamed and published. (R11PBT-795)</li>
+<li>Fixed an issue that prevented the OSSYS_VISIT table from being cleaned up.  (R11PBT-838)</li>
 <li>The consumer applications are now considered outdated in LifeTime when their producer Service module is renamed and published. (R11PBT-853)</li>
-<li>Fixed feature toggle refresh in order to add resilience to database failures (R11PIT-155)</li>
-<li>Progressive Upgrades - do not consider unpublished modules for prepared module counts (R11PIT-747)</li>
-<li>Fixed an issue that was redirecting to the incorrect page for REST Exposed APIs when opened from Recent item section in Service center (RPM-1089) <span class="cattag">Application Lifecycle</span>  <span class="cattag">Service Center</span> </li>
-<li>Fixed an issue that prevented customers from publishing some solutions in OutSystems Cloud environments due to lack of security privileges. (RPM-1311) <span class="cattag">Publish Operation</span> </li>
-<li>Fixed an issue in JSON Serialize Client Action causing variables to be incorrectly serialized with the default value when the property "Serialize Default Values" was set to No. (RPM-1372) <span class="cattag">Application Runtime</span>  <span class="cattag">Logic Execution</span> </li>
-<li>Improved the Debugger performance when debugging applications containing complex variables. (RPM-1435) <span class="cattag">Application Runtime</span>  <span class="cattag">Debugger</span> </li>
-<li>Added visibility of errors that occur during the log rotation operation of the Deployment Controller service. The correct status can now be seen in the Environment Health page of Service Center. (RPM-1728) <span class="cattag">Application Lifecycle</span>  <span class="cattag">Service Center</span> </li>
-<li>Fixed an issue that could cause an old version of a producer DLL to be installed in a consumer module when running a solution publish containing that consumer. (RPM-1776) <span class="cattag">Publish Operation</span>  <span class="cattag">Compilation</span> </li>
-<li>Improved the description of the action HumanActivity_AssignToUser of BPT API. (RPM-2143) <span class="cattag">Application Runtime</span>  <span class="cattag">Processes</span> </li>
-<li>Fixed an issue that caused a human activity to be reopened when the ActivityReset action was used with the setting ResetActivityUser input as True. (RPM-2175) <span class="cattag">Application Runtime</span>  <span class="cattag">Processes</span> </li>
-<li>Fixed an issue that could cause UnusedElements_Cleanup to timeout. (RPM-2241) <span class="cattag">Application Runtime</span>  <span class="cattag">Data Access and Manipulation</span> </li>
-<li>Updated SharpZipLib library bundled with the platform from version 1.3.1 to version 1.3.3. (RPM-2448) <span class="cattag">Application Runtime</span> </li>
-<li>Fixed an issue that caused the Editable table to become unusable when entering edit mode on a row immediately after saving it. (RPM-2537) <span class="cattag">Application Runtime</span>  <span class="cattag">Interface</span> </li>
-<li>Fixed an issue that prevented the upgrade of LDAP password cypher in Oracle databases. (RPM-2554) <span class="cattag">Infrastructure Management</span>  <span class="cattag">Platform Configuration</span> </li>
-<li>Fixed an issue that caused triggers not to be recreated when an update database failure happened in an Oracle environment. (RPM-2640) <span class="cattag">Publish Operation</span>  <span class="cattag">Deployment stage</span> </li>
-<li>Fixed an issue that caused some producers to not be prepared when doing Progressive Upgrades. (RPM-2652) <span class="cattag">Infrastructure Management</span>  <span class="cattag">Platform Configuration</span> </li>
-<li>Fixed an issue that could cause a timeout error on the Scheduler Service, preventing processes from running. (RPM-2713) <span class="cattag">Application Runtime</span>  <span class="cattag">Processes</span> </li>
-<li>Updated Newtonsoft.Json library bundled with the platform from version 12.0.3 to version 13.0.1. (RPM-2719) <span class="cattag">Application Runtime</span> </li>
-<li>Fixed an issue that caused the environment to become slow when there were many activities created while having the EPA_Taskbox enabled. (RPM-419) <span class="cattag">Application Runtime</span>  <span class="cattag">Processes</span> </li>
-<li>Fixed an issue that cause LifeTime not to be able to open Service Studio (RPM-759) <span class="cattag">Application Runtime</span> </li>
-<li>Fixed a cross-site scripting (XSS) vulnerability in the Feedback Message widget. CVSSv3.1 score 6.4 (Medium). (RPM-2443) <span class="cattag">Application Runtime</span>  <span class="cattag">Logic Execution</span> </li>
-<li>Fixed an authentication issue when Azure AD is configured.  CVSSv3.1 score 4.2 (Medium). (RPM-2613) <span class="cattag">Application Runtime</span>  <span class="cattag">Authentication and Authorization</span> </li>
+<li>The auto-refresh mechanism for feature toggle values is now more resilient to database failures. (R11PIT-155)</li>
+<li>Fixed an issue that caused the Recent Items section in Service Center to redirect to the incorrect page for Exposed REST APIs.<br/>
+Users were unable to access Exposed REST APIs through the Recent Items section of Service Center. Now, the links redirect to the correct page. (RPM-1089) <span class="cattag">Application Lifecycle</span>  <span class="cattag">Service Center</span> </li>
+<li>Fixed an issue that prevented customers from publishing solutions with CloudConnectAgent components in OutSystems Cloud environments.<br/>
+Cloud customers with solutions including CloudConnectAgent components weren't able to publish them, since they didn't have the necessary permissions. (RPM-1311) <span class="cattag">Publish Operation</span> </li>
+<li>Now, there's a platform configuration to fix the issue in JSON Serialize Client Action that causes variables to be incorrectly serialized with the default values when the "Serialize Default Values" property is set to No.<br/>
+The JSON Serialize Client Action behavior is not consistent with the JSON Serialize Server Action, as it is incorrectly serializing variables with the default value when the property "Serialize Default Values" is set to No. This happens in the following scenarios:
+<ul>
+<li>Nested Structures having the default value for all attributes are serialized as an empty object instead of ignored.</li>
+<li>Empty Lists are serialized instead of ignored.</li>
+<li>Boolean attributes with the default value are serialized instead of ignored.</li>
+<li>Default values on Lists are serialized as null instead of the default value.</li>
+</ul>
+Now, you can fix this by enabling the JSON Serialize consistency between Client and Server side using the Factory Configuration component. (RPM-1372) <span class="cattag">Application Runtime</span>  <span class="cattag">Logic Execution</span> </li>
+<li>Improved the debugger performance when debugging apps containing complex variables.<br/> 
+When debugging a screen, the debugger was very slow during steps of changing the current action (Step Over or Step Into), which in some cases led to a timeout. Now, the debugger performance is improved. (RPM-1435) <span class="cattag">Application Runtime</span>  <span class="cattag">Debugger</span> </li>
+<li>Added visibility of errors that occur during the log rotation operation of the Deployment Controller service.<br/>
+Service Center didn't show any logs after the platform weekly log rotation and there was no warning or error visibility on the status of the services on the Environment Health page. Although the errors could still be found on the Event Viewer logs of the Controller machine, now the correct status can also be seen on the Environment Health page of Service Center. (RPM-1728) <span class="cattag">Application Lifecycle</span>  <span class="cattag">Service Center</span> </li>
+<li>Fixed an issue that caused an old version of a producer DLL to be installed in a consumer module when publishing a solution containing that consumer.<br/>
+When publishing a solution that doesn't contain all consumer modules of a producer, and that producer has previously had a change in the capitalization of its name, it could cause the older version (before the name change) to be used instead of the correct one. (RPM-1776) <span class="cattag">Publish Operation</span>  <span class="cattag">Compilation</span> </li>
+<li>Improved the description of the HumanActivity_AssignToUser action of BPT API.<br/>
+The HumanActivity_AssignToUser action description in the BPT API documentation was missing the information that calling this action transitions the activity to the Ready state.  (RPM-2143) <span class="cattag">Application Runtime</span>  <span class="cattag">Processes</span> </li>
+<li>Fixed an issue that caused a Human Activity to be reopened when the ActivityReset action was used with the ResetActivityUser input set as True.<br/>
+The ActivityReset system action didn't validate if activities were already closed or terminated. This could lead the action to reopen closed Human Activities. The problem only happened when the ResetActivityUser input was True. (RPM-2175) <span class="cattag">Application Runtime</span>  <span class="cattag">Processes</span> </li>
+<li>Fixed an issue that caused the system Timer UnusedElements_Cleanup to timeout.<br/>
+The Timer UnusedElements_Cleanup should clean up the records from the OSSYS_MODULE_PUBLICELEMENT table, but it was failing with a timeout. This could impact publishing from Service Studio. (RPM-2241) <span class="cattag">Application Runtime</span>  <span class="cattag">Data Access and Manipulation</span> </li>
+<li>Fixed an issue that caused an Editable Table to become unusable when entering edit mode on a row immediately after saving it.<br/>
+At runtime, when a user selected an Editable Table row that had its data being updated, the checkmark didn't work. (RPM-2537) <span class="cattag">Application Runtime</span>  <span class="cattag">Interface</span> </li>
+<li>Fixed an issue that prevented the upgrade of LDAP Password Encryption in Oracle databases.<br/>
+When using Oracle and upgrading from Platform Server versions up to 11.13.0, the Configuration Tool would give the error "ORA-00936: missing expression during LDAP Password Encryption Upgrade". This had no impact for the user. (RPM-2554) <span class="cattag">Infrastructure Management</span>  <span class="cattag">Platform Configuration</span> </li>
+<li>Fixed an issue that caused database triggers not to be recreated when an update database failure occurs in an Oracle environment.<br/>
+In environments using an Oracle database, database triggers were not correctly regenerated for some use cases after an update database failure. This issue could prevent BPT Processes from running. (RPM-2640) <span class="cattag">Publish Operation</span>  <span class="cattag">Deployment stage</span> </li>
+<li>Fixed an issue that caused some producers to not be prepared when doing Progressive Upgrades.<br/>
+After the upgrade to Platform Server 11.15.0 using Progressive Updates, there is a banner in Service Center warning that there were errors preparing some modules. In the error logs, there was the error "Old Producer: Producer module '<moduleName>' hasn't been prepared for the current OutSystems environment version. The Preparation of Modules may not have finished yet, failed, or it is on hold. Check Service Center for more details or try to publish '<moduleName>'."<br/>
+Due to this issue, some applications wouldn’t be available to the customer on the new platform version. (RPM-2652) <span class="cattag">Infrastructure Management</span>  <span class="cattag">Platform Configuration</span> </li>
+<li>Fixed an issue that could cause a timeout error on the Scheduler Service, preventing processes from running.<br/>
+The Scheduler Service wasn't working correctly and there were timeout errors in the Error Logs in Service Center. The issue occurred only for SQL Server databases. (RPM-2713) <span class="cattag">Application Runtime</span>  <span class="cattag">Processes</span> </li>
+<li>Fixed an issue that caused the environment to become slow when there were many activities created while the EPA Taskbox was enabled.<br/>
+When the “GetActivityCount” query was executed when accessing screens that had EPA Taskbox enabled, and if there was a huge number of records in the "OSSYS BPM" database tables (for example, more than 10M in the OSSYS_BPM_ACTIVITY), the environment could become extremely slow. (RPM-419) <span class="cattag">Application Runtime</span>  <span class="cattag">Processes</span> </li>
+<li>Fixed an issue that prevented LifeTime from opening Service Studio during a deployment to compare the modules' versions.<br/>
+This issue caused a "404 - File or directory not found" error when clicking the option "Compare modules in Service Studio" during the deployment of a new application version. (RPM-759) <span class="cattag">Application Runtime</span> </li>
 </ul>
 
