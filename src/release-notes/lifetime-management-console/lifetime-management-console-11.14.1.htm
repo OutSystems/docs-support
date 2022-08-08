@@ -8,8 +8,15 @@ pageprivacy: semi-private
 
 
 <style>.cattag {background: #f4f2ff; color: #6a6581; padding: 4px 10px;}</style>
+<h3 id="new_in_lifetime_management_console_11.14.1" >New in LifeTime Management Console 11.14.1</h3>
+<ul>
+<li>Updated the Platform Server version to 11.17.0. (R11CT-1420)</li>
+</ul>
 <h3 id="bug_fixing_lifetime_management_console_11.14.1" >Bug Fixing</h3>
 <ul>
+<li>There is no longer an error shown during staging validations when a user doesn't have permission to download a module included in the staging plan. (R11CT-1334)</li>
+<li>Added a feature toggle to skip a full synchronization process, which was responsible for deadlocks when staging a large number of applications. (RPM-2052) <span class="cattag">Application Lifecycle</span>  <span class="cattag">LifeTime</span> </li>
 <li>Fixed an issue that caused outdated data to be retrieved in the LifeTimeSDK APIs when checking information for users that haven't logged in at the moment the data is being read. (RPM-2745) <span class="cattag">Application Lifecycle</span>  <span class="cattag">LifeTime</span> </li>
+<li>There is no longer an error shown during staging validations when a user doesn't have permission to download a module included in the staging plan. (RPM-2755) <span class="cattag">Application Lifecycle</span>  <span class="cattag">LifeTime</span> </li>
 </ul>
 
