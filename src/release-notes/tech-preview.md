@@ -39,6 +39,3 @@ For self-managed installations, Technical Preview is at **Infrastructure** > **T
 * **PATCH method on exposed REST services**: PATCH in an exposed REST Service. This new feature enables users to partially update a resource. [Learn more about this feature](https://success.outsystems.com/Documentation/11/Extensibility_and_Integration/REST/Expose_REST_APIs/PATCH_method_on_exposed_REST_services).
 
 * **Configure mobile apps update distribution**:  Choose how your existing users receive mobile apps' updates: automatically through your servers or manually through app stores. To use this feature, it must be enabled in all environments. [Learn more about this feature](https://success.outsystems.com/Documentation/11/Delivering_Mobile_Apps/Technical_Preview_-_Configure_mobile_apps_updates_distribution).
-
-* **Configure site properties during deployment**: Configure site properties in the target environment when defining your deployment plan in LifeTime. With all the application settings configured, you'll avoid any misbehavior during runtime. [Learn more about this feature](https://success.outsystems.com/Documentation/11/Managing_the_Applications_Lifecycle/Deploy_Applications/Technical_Preview_-_Configure_Site_Properties_During_Deployment).
-
