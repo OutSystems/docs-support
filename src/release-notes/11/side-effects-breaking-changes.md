@@ -568,8 +568,19 @@ You should only use this workaround if it's not viable to fix all the affected e
 
 **Fix**: Remove the encoding of the input parameter value before sending it to the Title of the Popup.
 
-**Workaround**: In Service Center, set the site property 'PopupTitle_ForceHTMLEncode' to False in the site properties of the RichWidgets module. This is not recommended and it will leave the popup vulnerable to a XSS attack.
+**Workaround**: In Service Center, set the site property 'PopupTitle_ForceHTMLEncode' to False in the site properties of the RichWidgets module. This isn't recommended, as it leaves the popup vulnerable to XSS attacks.
 
+### Introduced in Platform Server 11.17.0
+
+**Issue**: The HTML code in the `MessageText` parameter of the Feedback_Message Server Action displays as plain text in the Feedback_Message widget of RichWidgets, instead of rendered HTML.
+
+**Runtime**: Traditional web
+
+**Rationale**: The Feedback_Message widget now encodes the message by default to prevent cross site scripting (XSS) attacks.
+
+**Fix**: Don't add HTML code to the Feedback_Message's text.
+
+**Workaround**: In Service Center, set the site property `FeedBackMessage_ForceHTMLEncode` to False in the site properties of the RichWidgets module. This isn't recommended, as it leaves the Feedback_Message widget vulnerable to XSS attacks.
 
 ## Side Effects
 
