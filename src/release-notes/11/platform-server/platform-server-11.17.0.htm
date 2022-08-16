@@ -1,10 +1,10 @@
 ---
 isautopublish: true
-pageprivacy: semi-private
+pageprivacy: public
 ---
 
 <h2 id="platform_server_11.17.0" >Platform Server 11.17.0</h2>
-<div class="info"><p>This is a preliminary version of the document.</p></div>
+<div class="info"><p>Released on Aug 16, 2022</p></div>
 
 
 <style>.cattag {background: #f4f2ff; color: #6a6581; padding: 4px 10px;}</style>
@@ -76,3 +76,10 @@ When the “GetActivityCount” query was executed when accessing screens that h
 This issue caused a "404 - File or directory not found" error when clicking the option "Compare modules in Service Studio" during the deployment of a new application version. (RPM-759) <span class="cattag">Application Runtime</span> </li>
 </ul>
 
+<h3>Limitation</h3>
+<ul>
+<li>With Platform Server 11.17.0, Server.Identity tokens are now refreshed more frequently. Customers upgrading to this version may observe an impact on existing custom IT apps (those whose User Provider is Service Center). This only affects IT apps with a custom authentication flow that doesn't use the Users_GetUnifiedLogin pattern.<br>
+With versions older than Platform Server 11.17.0, if an IT user logged into their IT app and then accessed Service Center, they would have a valid Service Center session. The impact is that from Platform Server 11.17.0 onwards, IT users following these steps won't have a valid session in Service Center and they will need to log in again.<br>
+For scenarios where it’s relevant to keep the SSO behavior, the affected IT apps can be adjusted to authenticate via Service Center using the redirect URL provided by Users_GetUnifiedLogin.
+</li>
+</ul>
