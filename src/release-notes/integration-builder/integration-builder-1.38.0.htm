@@ -10,11 +10,12 @@ pageprivacy: semi-private
 <style>.cattag {background: #f4f2ff; color: #6a6581; padding: 4px 10px;}</style>
 <h3 id="new_in_integration_builder_1.38.0" >New in Integration Builder 1.38.0</h3>
 <ul>
+<li>Breaking change: Added support for expanded attributes in OData "create" and "update" actions. This update may require consumer applications to be adapted, as existing actions might have new inputs after being republished. (RCNT-4513)</li>
 <li>Added support for integrations with Azure PostgreSQL, on versions 12 or 13. (RCNT-5063)</li>
+<li>External IT Users Authentication with OpenID Connect: Integration Builder and Manager's login will now use the external identity provider configured in Lifetime. (RCNT-5182)</li>
 </ul>
 <h3 id="bug_fixing_integration_builder_1.38.0" >Bug Fixing</h3>
 <ul>
-<li>Breaking change: Added support for expanded attributes in OData "create" and "update" actions. This update may require consumer applications to be adapted, as existing actions might have new inputs after being republished. (RCNT-4513)</li>
 <li>Fixed an issue that prevented signing into Integration Manager when an external authentication provider was configured in Lifetime. (RCNT-5129)</li>
 <li>Fixed an issue that caused an error generating SharePoint connectors when multiple lists with similar long names were selected. (RCNT-5137)</li>
 <li>Fixed an issue that forced users that opened Integration Builder from Service Studio to input their credentials. (RCNT-5150)</li>
