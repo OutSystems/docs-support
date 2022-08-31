@@ -8,7 +8,7 @@ app_type: traditional web apps, mobile apps, reactive web apps
 # Change OutSystems platform logging levels - OSTrace
 
 
-To troubleshoot problems in your OutSystems platform, our support team might ask you to increase the log levels of OutSystems services or for runtime applications.
+To troubleshoot problems in your OutSystems platform, our support team might ask you to increase the log levels of OutSystems services or for runtime applications. Additionally, to minimize impact and to ensure that the log file is correctly generated, it is recommended to first try this out on non-production environments.
 
 **Increasing the log levels allows to collect more information about what's happening** under the hood. It can be useful both for interactions with Support or for your own analysis of problems. 
 
@@ -90,7 +90,7 @@ There are several log levels you can use. When sending logs to Support team, alw
 
 If your application is running on the .NET stack, we provide you the Factory Configuration, a tool that does most of the heavy-lifting of configuring IIS. Enable traces using the Factory Configuration tool as follows:
 
-1. Download and publish Factory Configuration, available through Forge;
+1. Download and publish Factory Configuration, available through Forge; (Note that it is recommended to use the latest version of Factory Configuration to avoid bugs such as RRCT-3098, fixed on 11.0.9, which corrupts the web.config file of the module)
 
 2. Open the Factory Configuration application in the browser and log in with your Service Center credentials;
 
@@ -171,4 +171,6 @@ We also recommend lowering the log levels once the troubleshoot session ends. Ke
 ## Applies to
 
 OutSystems platform, all versions (last reviewed on 10.0.105.0), on-premises.
+
+For Cloud PaaS customers, open a support ticket when you need to increase the log levels and get the generated log files since these require access to the Front-End server
 
