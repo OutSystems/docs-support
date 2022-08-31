@@ -28,11 +28,19 @@ Change your Active Directory settings through the Group Policy Management consol
 2. Create a new group policy. 
 3. In **Policies** > **Security Settings** > **User Rights Assignment**, select **Create symbolic links** to open the Properties dialog box.
 4. Select **Define these policy settings**, and click **Add Users or Groups**.
+### For platform versions prior to 11.18:
 5. In the **User and group names field**, type the users **OSControllerUser** and **OSSchedulerUser** and click **Apply**. The users you added should appear in the **Policy Setting** column. 
 
-The following screen shows where **OSControllerUser** and **OSControllerUser** appear in **Security Settings**.
+The following screen shows where **OSControllerUser** and **OSSchedulerUser** appear in **Security Settings**.
 
 ![](images/permissions-group-policy-change.png)
+
+### For platform versions 11.18 or later:
+5. In the **User and group names field**, type the users **NT Service\OutSystems Deployment Controller Service** and **NT Service\OutSystems Scheduler Service** and click **Apply**. The users you added should appear in the **Policy Setting** column. 
+
+The following screen shows where **NT Service\OutSystems Deployment Controller Service** and **NT Service\OutSystems Scheduler Service** appear in **Security Settings**.
+
+![](images/permissions-group-policy-change_2.png)
 
 
 ### Notes 
@@ -44,8 +52,16 @@ The following screen shows where **OSControllerUser** and **OSControllerUser** a
 ## Service and user details
 The following table summarizes permissions for the new user accounts for each impacted service:
 
+### For platform versions prior to 11.18:
  OutSystems Service   |      New user associated with service      |  User permissions |
 |----------|:-------------:|------|
 | Deployment Controller Service |  OSControllerUser | Full control on the platform folder <br/>Local policies added:<ul><li>Log on as service</li><li>Log on as batch job</li><li>Create symbolic links</li></ul>  |
 | Scheduler Service |    OSSchedulerUser   | Full control on the platform folder <br/>Local policies added:<ul><li>Log on as service</li><li>Log on as batch job</li><li>Create symbolic links</li></ul>  | |
+
+### For platform versions 11.18 or later:
+
+ OutSystems Service   |      New user associated with service      |  User permissions |
+|----------|:-------------:|------|
+| Deployment Controller Service |  NT Service\OutSystems Deployment Controller Service | Full control on the platform folder <br/>Local policies added:<ul><li>Log on as service</li><li>Log on as batch job</li><li>Create symbolic links</li></ul>  |
+| Scheduler Service |    NT Service\OutSystems Scheduler Service   | Full control on the platform folder <br/>Local policies added:<ul><li>Log on as service</li><li>Log on as batch job</li><li>Create symbolic links</li></ul>  | |
 
