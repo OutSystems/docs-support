@@ -312,5 +312,3 @@ If your VPN uses **dynamic** routing, or your LifeTime version still doesn't sup
 ## Further assistance
 
 Still not working? If the issue persists, [contact OutSystems Support](https://success.outsystems.com/Support/Enterprise_Customers/OutSystems_Support/01_Contact_OutSystems_technical_support "contact OutSystems Support").
-
-You can [open a support case](https://success.outsystems.com/Support/Enterprise_Customers/OutSystems_Support/02_How_to_Open_a_Support_Case) and ensure to include the current VPN configuration, some VPN logs, or any related error messages. Then, a support engineer will help you troubleshoot your configuration, and if necessary schedule a conference call with all interesting parties to address it faster.
