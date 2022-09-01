@@ -10,16 +10,17 @@ pageprivacy: semi-private
 <style>.cattag {background: #f4f2ff; color: #6a6581; padding: 4px 10px;}</style>
 <h3 id="new_in_architecture_dashboard_1.19" >New in Architecture Dashboard 1.19</h3>
 <ul>
-<li>Improved the permissions sync mechanism which now ensures the retry on the next sync if the permissions sync fails. (RADRT-2142)</li>
-<li>The old Architecture Dashboard experience, which was still accessible to customers with old probes versions (older than 3.0) was discontinued.  (RADRT-2148)</li>
+<li>The permissions sync mechanism now ensures a retry on the next sync when the permissions sync fails. (RADRT-2142)</li>
+<li>The old Architecture Dashboard experience, which was still accessible to customers with probes versions older than 3.0, was discontinued. (RADRT-2148)</li>
+<li>Improved the performance of the architecture analysis process. (RADRT-2167)</li>
 </ul>
 <h3 id="bug_fixing_architecture_dashboard_1.19" >Bug Fixing</h3>
 <ul>
-<li>Fixed to have the correct object name on export the findings on the Report. (RADRT-2179)</li>
-<li>Fixed tooltip that is showing when there is not enough data to show of solved findings for the selected range on Trend chard of Overview Dashboard. (RADRT-2193)</li>
-<li>Fixed a bug when generating the data that impact on the number of findings on the Overview Dashboard which was wrongly counting with the solved facts on the open findings statistics. (RADRT-2195)</li>
-<li>Fixed an issue that was wrongly showing all the teams for users that don't have permission to see it (RADRT-2197)</li>
-<li>Fixed a bug that was wrongly solving all findings on a specific category when the customer had synchronization issues. (RADRT-2199)</li>
-<li>Take into account the previous day data when showing the summary for technical debt on the Overview Dashboard  (RADRT-2217)</li>
+<li>Fixed an issue when exporting the report data to excel that caused the object name on the exported list to be different than the correct one presented on the report page.  (RADRT-2179)</li>
+<li>Fixed an issue on the Technical debt variation vs. number of findings chart in the Overview dashboard, that caused a tooltip to wrongly show that there wasn't enough data of solved findings for the selected range. (RADRT-2193)</li>
+<li>Fixed an issue on the Overview dashboard that caused the count of the open findings to include the solved findings. (RADRT-2195)</li>
+<li>Fixed an issue that caused Architecture Dashboard to show all teams to users that don't have permission to see them. (RADRT-2197)</li>
+<li>Fixed an issue that caused all findings to be solved on a specific category when the customer had synchronization issues. (RADRT-2199)</li>
+<li>Now, the technical debt summary on the Overview dashboard takes into account the data from the previous day. (RADRT-2217)</li>
 </ul>
 
