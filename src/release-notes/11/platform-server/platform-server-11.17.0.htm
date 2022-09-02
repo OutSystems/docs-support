@@ -79,8 +79,14 @@ This issue caused a "404 - File or directory not found" error when clicking the 
 
 <h3>Limitation</h3>
 <ul>
-<li>With Platform Server 11.17.0, Server.Identity tokens are now refreshed more frequently. Customers upgrading to this version may observe an impact on existing custom IT apps (those whose User Provider is Service Center). This only affects IT apps with a custom authentication flow that doesn't use the Users_GetUnifiedLogin pattern.<br>
-With versions older than Platform Server 11.17.0, if an IT user logged into their IT app and then accessed Service Center, they would have a valid Service Center session. The impact is that from Platform Server 11.17.0 onwards, IT users following these steps won't have a valid session in Service Center and they will need to log in again.<br>
+<li>With Platform Server 11.17.0, Server.Identity tokens are now refreshed more frequently. Customers upgrading to this version may observe an impact on existing custom IT apps (those whose User Provider is Service Center). This only affects IT apps with a custom authentication flow that doesn't use the Users_GetUnifiedLogin pattern.<br/>
+With versions older than Platform Server 11.17.0, if an IT user logged into their IT app and then accessed Service Center, they would have a valid Service Center session. The impact is that from Platform Server 11.17.0 onwards, IT users following these steps won't have a valid session in Service Center and they will need to log in again.<br/>
 For scenarios where it’s relevant to keep the SSO behavior, the affected IT apps can be adjusted to authenticate via Service Center using the redirect URL provided by Users_GetUnifiedLogin.
+</li>
+</ul>
+<h3>Known issue</h3>
+<ul>
+<li>Upload widgets that have an empty File Name property together with the Accept property set to 'Image', cause runtime errors.<br/>
+As a workaround, set the File Name property of these Upload widgets to a non-empty value (a literal value or a variable).
 </li>
 </ul>
