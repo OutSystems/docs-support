@@ -10,16 +10,13 @@ pageprivacy: semi-private
 <style>.cattag {background: #f4f2ff; color: #6a6581; padding: 4px 10px;}</style>
 <h3 id="new_in_platform_server_11.17.1" >New in Platform Server 11.17.1</h3>
 <ul>
-<li>Now with IDP activated, the User will be redirected to the IDP page immediately on entering accessing Lifetime or Service center skipping the login screen. (R11CT-1386)</li>
-<li>Now, when the infrastructure has the IdP service active, users from the default user pool will no longer be able to log in using a username and password. (R11CT-1387)</li>
-<li>1. Now with IDP activated, the User will be redirected to the login screen after clicking on Logout with  username and password fields hidden and the only available option will be "Log in with SSO" 
-2. There was a change in the label of the button from "Login" to "Log in" (R11CT-1422)</li>
 <li>Raised the required Microsoft .NET Windows Server Hosting from 3.1 to 6.0. The checklist and documentation instruction links have been updated to reflect this. (R11PIT-809)</li>
 </ul>
 <h3 id="bug_fixing_platform_server_11.17.1" >Bug Fixing</h3>
 <ul>
 <li>Improved email processing time when there are delays sending or fetching emails from the database. (RPM-1341) <span class="cattag">Application Runtime</span>  <span class="cattag">Interface</span> </li>
 <li>Increased the length of the attributes (SessionIndex, MessageID and ResponseToMessageID) in Users SamlMessage_Log entity (RPM-2463) <span class="cattag">Application Lifecycle</span>  <span class="cattag">Users</span> </li>
+<li>Added public documentation on how to upgrade OutSystems cache invalidation service with high-availability, as well as a troubleshooting section in "RabbitMQ management and troubleshooting" for high availability issues. (RPM-2810) <span class="cattag">Infrastructure Management</span>  <span class="cattag">Platform Configuration</span> </li>
 <li>Fixed cross-site scripting vulnerability in Service Center. CVSSv3.1 score 5.4 (Medium). (RPM-2827) <span class="cattag">Application Lifecycle</span>  <span class="cattag">Service Center</span> </li>
 </ul>
 
