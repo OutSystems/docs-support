@@ -72,11 +72,11 @@ This happens because your front-end is being registered with a connection string
 
 The server's connection string is set in the Configuration tool. For example, the below could be a configuration for the Controller (screenshots below for .NET):
 
-![Configuration for the Controller uppercase](images/unable-register-front-end-uppercase-ct.png)
+![Configuration for the Controller uppercase](images/unable-register-front-end-lowercase-ct.png)
 
 If your front-end does not have the exact same configuration, that message will appear. Note that the configuration is **case-sensitive**; the example below will cause the error:
 
-![Configuration for the Controller lowercase](images/unable-register-front-end-lowercase-ct.png)
+![Configuration for the Controller lowercase](images/unable-register-front-end-uppercase-ct.png)
 
 As you can see in the example, the Controller node had database **devDB**; in this front-end, I wrote **DEVDB**, so I will have the error.
 
