@@ -10,15 +10,20 @@ pageprivacy: semi-private
 <style>.cattag {background: #f4f2ff; color: #6a6581; padding: 4px 10px;}</style>
 <h3 id="new_in_platform_server_11.17.1" >New in Platform Server 11.17.1</h3>
 <ul>
-<li>Raised the required Microsoft .NET Windows Server Hosting from 3.1 to 6.0. The checklist and documentation instruction links have been updated to reflect this. (R11PIT-809)</li>
+<li>Upgraded the required Microsoft .Net Windows Server Hosting from version 3.1 to 6.0 and updated the installation checklist and documentation to reflect this. (R11PIT-809)</li>
 </ul>
 <h3 id="bug_fixing_platform_server_11.17.1" >Bug Fixing</h3>
 <ul>
-<li>Fixed issue identified in Platform Server release 11.17.0 related to reactive upload widget runtime errors when using an empty File Name with Accept attribute set to 'Image' (R11DT-1455)</li>
-<li>Improved email processing time when there are delays sending or fetching emails from the database. (RPM-1341) <span class="cattag">Application Runtime</span>  <span class="cattag">Interface</span> </li>
-<li>Increased the length of the attributes (SessionIndex, MessageID and ResponseToMessageID) in Users SamlMessage_Log entity (RPM-2463) <span class="cattag">Application Lifecycle</span>  <span class="cattag">Users</span> </li>
+<li>Fixed an issue identified in Platform Server 11.17.0 related to reactive upload widget runtime errors when using an empty file name with the Accept attribute set to Image. (R11DT-1455)</li>
+<li>Improved the email processing time when there are delays in sending or fetching emails from the database.<br/>
+When waiting to fetch the next batch of emails from the database, the OutSystems Scheduler was not considering slow email batches, which could lead the desired pull rate to increase and get out of sync. If each batch of emails took longer than the configured database pull rate, it could lead to email queuing in the database.<br/>
+To overcome this, the email processing time was improved to consider delays. (RPM-1341) <span class="cattag">Application Runtime</span>  <span class="cattag">Interface</span> </li>
+<li>Fixed an issue that caused runtime errors when authenticating users using the SAML authentication available in the Users app.<br/>
+When trying to authenticate users with SAML at runtime, there were "Unable to Process Request" errors. Checking the logs in Service Center, there was an error message similar to "String or binary data would be truncated in table 'OSDev.dbo.OSUSR_6WD_SAMLMESSAGE_LOG', column 'SESSIONINDEX'. Truncated value: '_x18MaTZNE2aO1vm5_xMcXivDMh0LRTrbxS0uuDPV3SOB1261'. The statement has been terminated." Alternatively, the message might mention the MessageID column instead.<br/>
+To solve this issue, the length of the SessionIndex, MessageID, and ResponseToMessageID attributes in the Users SamlMessage_Log entity was increased. (RPM-2463) <span class="cattag">Application Lifecycle</span>  <span class="cattag">Users</span> </li>
 <li>Added public documentation on how to upgrade OutSystems cache invalidation service with high-availability, as well as a troubleshooting section in "RabbitMQ management and troubleshooting" for high availability issues. (RPM-2810) <span class="cattag">Infrastructure Management</span>  <span class="cattag">Platform Configuration</span> </li>
 <li>Fixed an issue that was blocking users, with the right permissions, from creating apps for a team. (RPM-2845) <span class="cattag">Application Lifecycle</span>  <span class="cattag">LifeTime</span> </li>
+<li>Fixed an issue that caused the button Configure Administrator user, from Single Sign-On tab, to be hidden. (RPM-2918) <span class="cattag">Application Lifecycle</span>  <span class="cattag">Service Center</span> </li>
 <li>Fixed cross-site scripting vulnerability in Service Center. CVSSv3.1 score 5.4 (Medium). (RPM-2827) <span class="cattag">Application Lifecycle</span>  <span class="cattag">Service Center</span> </li>
 </ul>
 
