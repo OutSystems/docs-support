@@ -6,5 +6,22 @@ pageprivacy: semi-private
 <h2 id="service_studio_neo_1.0.19" >Service Studio Neo 1.0.19</h2>
 <div class="info"><p>This is a preliminary version of the document.</p></div>
 
-This release of Service Studio focuses on internal improvements ― this will help our team improve Service Studio faster.
-Your work shouldn't be impacted by these changes.
+
+<style>.cattag {background: #f4f2ff; color: #6a6581; padding: 4px 10px;}</style>
+<h3 id="new_in_service_studio_neo_1.0.19" >New in Service Studio Neo 1.0.19</h3>
+<ul>
+<li>You will now be able to debug apps that redirect to external login providers, without losing the debug session. (RDPMBT-1516)</li>
+<li>Updated the "Merge Conflicts Found" dialog's title, message, and buttons.
+Now, the users are presented to three actions - "Overwrite with my revision", "Compare revisions" and "Cancel". 
+The messages and title of the dialog were updated to have a more concise information about the merge process. (RDPMBT-1525)</li>
+<li>It is now possible to copy Service Studio version information from the "About Service Studio" dialog. (RDPMBT-1705)</li>
+</ul>
+<h3 id="bug_fixing_service_studio_neo_1.0.19" >Bug Fixing</h3>
+<ul>
+<li>Fixed an issue with proxy authentication settings being ignored on requests made by some editors. (RDPMBT-1696)</li>
+<li>Fixed an issue that caused image previews to overlap other properties. (RDPMBT-1697)</li>
+<li>Fixed an issue that would hang the merge editor after un-resolving a textual conflict. (RDPMBT-1701)</li>
+<li>Fixed and issue that caused widgets to always be pasted as the last child of the parent container, not respecting the caret position. (RMAC-10160)</li>
+<li>Fixed an issue that would block certain users (with Identity Service Integration) from login into the OS environments through Service Studio 11.53.13.61176. (RMAC-10291)</li>
+</ul>
+
