@@ -416,6 +416,10 @@ This section focuses on scenarios in which you’ll have to reconfigure an exist
 
         iisreset /stop
 
+1. **Clear the `share` and `BAR` folders**
+
+    Locate these folders, `share` and `BAR`, inside your OutSystems Platform Server installation folder and delete all their contents.
+
 1. **Configure the Platform Database**
 
     Run the Configuration Tool and in the Platform tab configure the following properties according to the restored catalog:
@@ -1013,6 +1017,10 @@ This section focuses on scenarios in which you’ll have to reconfigure an exist
     Open a command prompt window and stop the IIS using the following command:
 
         iisreset /stop
+
+1. **Clear the `share` and `BAR` folders**
+
+    Locate these folders, `share` and `BAR`, inside your OutSystems Platform Server installation folder and delete all their contents.
 
 1. **Configure the Platform Database**
 
