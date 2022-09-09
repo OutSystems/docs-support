@@ -86,7 +86,7 @@ OutSystems provides you [built-in monitoring tools](https://success.outsystems.c
 
 You can [view the logs and status](https://success.outsystems.com/Documentation/11/Managing_the_Applications_Lifecycle/Monitor_and_Troubleshoot/View_the_Environment_Logs_and_Status) of a specific environment, such as application logs and errors, screen requests, integration calls, business processes, and security audits.
 
-### System activity auditing { #system-audit }
+### System activity auditing { #system-audit } (Offered only in Sentry)
 
 You can [monitor the tasks performed by IT users](https://success.outsystems.com/Documentation/11/Managing_the_Applications_Lifecycle/Monitor_and_Troubleshoot/Monitor_Usage_with_Audit_Logs) in the infrastructure. This ensures traceability in your infrastructure, and that you can follow up when problems arise.
 
