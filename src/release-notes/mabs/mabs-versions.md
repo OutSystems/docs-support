@@ -42,7 +42,7 @@ It’s **MANDATORY** to upgrade all supported plugins to the latest version avai
 
 This version can run your apps on:
 
-<small>![](images/android-icon.png) Android 8 to 12 ![](images/iOS-icon.png) iOS 13 to 15</small>
+<small>![](images/android-icon.png) Android 8 to 13 ![](images/iOS-icon.png) iOS 13 to 16</small>
 
 **More details:**
 
