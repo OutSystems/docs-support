@@ -8,9 +8,21 @@ pageprivacy: semi-private
 
 
 <style>.cattag {background: #f4f2ff; color: #6a6581; padding: 4px 10px;}</style>
+<h3 id="new_in_lifetime_management_console_11.14.2" >New in LifeTime Management Console 11.14.2</h3>
+<ul>
+<li>With IDP activated, Break glass users will be able to login to Lifetime using a new entry point /InternalLogin.aspx (R11CT-1392)</li>
+<li>With IDP flow activated, Now Password fields on  New/Edit User screen will be hidden for Default users. (R11CT-1397)</li>
+<li>LifeTime now uses Service Center login screen for the authentication flow. (R11CT-1493)</li>
+</ul>
 <h3 id="bug_fixing_lifetime_management_console_11.14.2" >Bug Fixing</h3>
 <ul>
 <li>Fixed a timeout issue in LifeTime's synchronization process when there was a large number of applications for an environment or high latency between an environment and LifeTime. (RPM-2308) <span class="cattag">Application Lifecycle</span>  <span class="cattag">LifeTime</span> </li>
+<li>Fixed an issue that allowed users to add applications to a deployment plan that was already running. (RPM-2522) <span class="cattag">Application Lifecycle</span> </li>
 <li>Fixed a bug that was allowing to tag an application without a module (RPM-2538) <span class="cattag">Application Lifecycle</span>  <span class="cattag">LifeTime</span> </li>
+<li>LifeTime's Installation Checklist is now consistent with Platform Server's instructions.
+Installation steps have been revised and updated. (RPM-2558) <span class="cattag">Infrastructure Management</span>  <span class="cattag">Platform Installation Checklist</span> </li>
+<li>Fixed an issue preventing an internal field 'TemplateKey' from being lost when staging applications between environments. (RPM-2725) <span class="cattag">Application Lifecycle</span>  <span class="cattag">LifeTime</span> </li>
+<li>LifeTime's Installation Checklist now has clear instructions on how to create the LifeTime application pool. (RPM-2731) <span class="cattag">Application Lifecycle</span>  <span class="cattag">LifeTime</span> </li>
+<li>Updated installation information about Oracle 19c. (RPM-944) <span class="cattag">Platform Installation</span>  <span class="cattag">Checklist</span> </li>
 </ul>
 
