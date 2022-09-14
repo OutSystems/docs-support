@@ -14,7 +14,7 @@ app_type: mobile apps
 
 ## Cause
 
-This error occurs when you generate an Android package with MABS 8 or higher because, with Cordova Android version 10.0.0 and higher, the Whitelist plugin was renamed to AllowList, which broke all references to Whitelist-related classes.
+This error occurs when you generate an Android package with MABS 8 or higher because, with Cordova Android version 10 and higher, the Whitelist plugin was renamed to AllowList, which broke all references to Whitelist-related classes.
 
 ## Impact
 

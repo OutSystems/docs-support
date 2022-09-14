@@ -14,7 +14,7 @@ app_type: mobile apps
 
 ## Cause
 
-This error occurs when you generate an Android package with MABS 8 or higher because Gradle version 7.0 or higher no longer supports the use of "compile" to declare dependencies.
+This error occurs when you are generating an Android package with MABS 8 or higher because Gradle 7 or higher doesn't support `compile` as a way to declare dependencies.
 
 ## Impact
 
@@ -22,7 +22,7 @@ The Android application package can't be generated.
 
 ## Recommended action
 
-Check the build logs on Service Center to identify the affected custom plugin and replace “compile” dependencies in Gradle files with “implementation” or “api”.
+Check the build logs on Service Center to identify the affected custom plugin and replace `compile` dependencies in Gradle files with `implementation` or `api`.
 
 Learn more about generating mobile apps and how to get the build logs [here](https://success.outsystems.com/Documentation/11/Delivering_Mobile_Apps/Generate_and_Distribute_Your_Mobile_App#download-mobile-app-build-logs).
 
