@@ -205,6 +205,21 @@
         - href: error/mabs/mabs-sig-40009.md
         - href: error/mabs/mabs-sig-40010.md
         - href: error/mabs/mabs-sig-40015.md
+        - href: error/mabs/mabs-cnf-40000.md
+        - href: error/mabs/mabs-cnf-40001.md
+        - href: error/mabs/mabs-cnf-40002.md
+        - href: error/mabs/mabs-cnf-40004.md
+        - href: error/mabs/mabs-cnf-40005.md
+        - href: error/mabs/mabs-cnf-50000.md
+        - href: error/mabs/mabs-shld-40001.md
+        - href: error/mabs/mabs-shld-40002.md
+        - href: error/mabs/mabs-shld-40003.md
+        - href: error/mabs/mabs-shld-40004.md
+        - href: error/mabs/mabs-shld-40005.md
+        - href: error/mabs/mabs-shld-50000.md
+        - href: error/mabs/mabs-shld-50001.md
+        - href: error/mabs/mabs-shld-50002.md
+        - href: error/mabs/mabs-shld-50003.md
     #Integration Builder
     - href: error/inbl/intro.md
     - topics:
