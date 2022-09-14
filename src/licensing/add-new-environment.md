@@ -17,7 +17,7 @@ For on-premises installations:
 1. Install the license in your new environment. See [Self-Managed environments](https://success.outsystems.com/Support/Enterprise_Customers/Licensing/Manage_and_Upgrade/Get_a_license_file_for_an_environment) for complete instructions.
 1. Register the environment on your infrastructure. See [Configure the infrastructure management console](https://success.outsystems.com/Documentation/11/Setup_and_maintain_your_OutSystems_infrastructure/Setting_Up_OutSystems/Configure_the_infrastructure_management_console) for complete instructions.
 
-Customers with a Hybrid configuration should contact [technical support](https://success.outsystems.com/Support/Enterprise_Customers/OutSystems_Support/01_Contact_OutSystems_technical_support) for instructions about how to add a new environment.
+Customers with a Hybrid configuration should contact [technical support](https://success.outsystems.com/Support/Enterprise_Customers/OutSystems_Support/Change_to_our_email_support_channel) for instructions about how to add a new environment.
 
 <div class="info" markdown="1">
 
