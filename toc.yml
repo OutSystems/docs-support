@@ -177,9 +177,28 @@
     # MABS
     - href: error/mabs/intro.md
     - topics:
+        - href: error/mabs/mabs-gen-10000.md
+        - href: error/mabs/mabs-gen-10001.md
+        - href: error/mabs/mabs-gen-20000.md
+        - href: error/mabs/mabs-gen-20001.md
+        - href: error/mabs/mabs-gen-40001.md
+        - href: error/mabs/mabs-gen-40002.md
+        - href: error/mabs/mabs-gen-40003.md
+        - href: error/mabs/mabs-gen-40005.md
+        - href: error/mabs/mabs-gen-40008.md
+        - href: error/mabs/mabs-gen-40009.md
+        - href: error/mabs/mabs-gen-40010.md
+        - href: error/mabs/mabs-gen-40011.md
+        - href: error/mabs/mabs-gen-40012.md
+        - href: error/mabs/mabs-gen-40013.md
+        - href: error/mabs/mabs-gen-40014.md
+        - href: error/mabs/mabs-gen-40015.md
         - href: error/mabs/mabs-gen-40016.md
+        - href: error/mabs/mabs-gen-40017.md
+        - href: error/mabs/mabs-gen-40018.md
         - href: error/mabs/mabs-gen-40019.md
         - href: error/mabs/mabs-gen-50000.md
+        - href: error/mabs/mabs-gen-50001.md
         - href: error/mabs/mabs-plg-40019.md
         - href: error/mabs/mabs-plg-50002.md
         - href: error/mabs/mabs-plg-50003.md
