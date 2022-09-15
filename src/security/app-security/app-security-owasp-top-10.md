@@ -14,35 +14,17 @@ This article describes how OutSystems helps you address the vulnerabilities iden
 
 For more information on how to achieve the highest level of security for your OutSystems applications, see [Application security overview](intro.md).
 
-## OWASP Top 10 - Final List 2017
+## OWASP Top 10 - Final List 2021
 
-### Injection (A1) and Cross-Site Scripting (XSS) (A7)
+### Broken Access Control (A1)
 
-By default, OutSystems escapes content before showing it on the UI. Escaping untrusted HTTP request data based on the context in the HTML output (body, attribute, JavaScript, CSS, or URL) resolves reflected and stored XSS vulnerabilities. When developers need to override the default secure code patterns for advanced customization scenarios, they receive design-time warnings for potential injection flaw patterns, along with guidelines to fix them.
+OutSystems role-based access control restricts access to the application’s pages depending on specific application-level roles. Developers define application-level permissions for roles using visual building blocks.
 
-Additionally, OutSystems provides a set of sanitization functions that developers can use in advanced scenarios to avoid code injection in HTML, JavaScript, and SQL snippets. Using these functions, developers can remove potential malicious content, coming from user input before it’s stored in the database or rendered on the UI.
+Once users are registered to use an application, role-based access control ensures that only authorized users are allowed to perform specific business functions.
 
-Architects, operators, or administrators can use OutSystems mechanisms to define content security policies-the domains from which application pages can retrieve resources (images, CSS, scripts, media). You can configure this setting for each environment, generically applying to all applications, or defining it for specific applications. Limiting the sources from which the applications can load resources effectively mitigates XSS attacks, which require loading a script from a malicious site.
+See also [Protecting OutSystems apps from access control / permissions vulnerabilities](../develop-secure-apps/access-control-vulnerabilities.md).
 
-You can also use content security policies to prevent application pages from being embedded in frames and thus prevent clickJacking attacks.
-
-See also [Protecting OutSystems apps from code injection / Cross Site Scripting attacks](../develop-secure-apps/code-injection-css-attacks.md).
-
-### Broken Authentication (A2)
-
-By default, OutSystems ensures that:
-
-* Session identifiers aren't sent in URLs
-* Sessions time out at their expiration time
-* All password handling uses strong cryptographic algorithms
-
-Also, OutSystems ensures that the session identifier is transparently changed on each login, and validates this on every request, thus preventing session fixation attacks.
-
-Cookies may contain sensitive information that shouldn't be accessible to an attacker eavesdropping on a channel. To prevent browsers from sending cookies over an unencrypted channel, administrators can enable the secure flag in cookies, which makes Web browsers that support this flag to send secure cookies only when the request uses HTTPS.
-
-Additionally, OutSystems provides built-in protection mechanisms against brute force attacks for the application end users and IT users.
-
-### Sensitive Data Exposure (A3)
+### Cryptographic Failures (A2)
 
 To protect your data in transit, OutSystems allows you to enable SSL in your infrastructure, thus you can use HTTPS to ensure that any content will load over a secure connection. You can enforce the HTTPS security for the applications running in an environment, and enable HTTP Strict Transport Security (HSTS) for the whole environment.
 
@@ -54,19 +36,25 @@ In OutSystems Cloud environments, you can activate the database encryption servi
 
 See also [Protecting OutSystems apps using encryption and SSL/TLS](../develop-secure-apps/encryption-ssl-tls.md).
 
-### XML External Entities (XXE) (A4)
+### Injection (A3)
 
-For both exposure and consumption of SOAP Web Services, OutSystems escapes XML parsing. Additionally, to help you protect your applications from XML External Entity attacks, OutSystems supports the use of the latest deserialization and XML processor library versions, and SOAP 1.2.
+By default, OutSystems escapes content before showing it on the UI. Escaping untrusted HTTP request data based on the context in the HTML output (body, attribute, JavaScript, CSS, or URL) resolves reflected and stored XSS vulnerabilities. When developers need to override the default secure code patterns for advanced customization scenarios, they receive design-time warnings for potential injection flaw patterns, along with guidelines to fix them.
 
-### Broken Access Control (A5)
+Additionally, OutSystems provides a set of sanitization functions that developers can use in advanced scenarios to avoid code injection in HTML, JavaScript, and SQL snippets. Using these functions, developers can remove potential malicious content, coming from user input before it’s stored in the database or rendered on the UI.
 
-OutSystems role-based access control restricts access to the application’s pages depending on specific application-level roles. Developers define application-level permissions for roles using visual building blocks.
+Architects, operators, or administrators can use OutSystems mechanisms to define content security policies-the domains from which application pages can retrieve resources (images, CSS, scripts, media). You can configure this setting for each environment, generically applying to all applications, or defining it for specific applications. Limiting the sources from which the applications can load resources effectively mitigates XSS attacks, which require loading a script from a malicious site.
 
-Once users are registered to use an application, role-based access control ensures that only authorized users are allowed to perform specific business functions.
+You can also use content security policies to prevent application pages from being embedded in frames and thus prevent clickJacking attacks.
 
-See also [Protecting OutSystems apps from access control / permissions vulnerabilities](../develop-secure-apps/access-control-vulnerabilities.md).
+See also [Protecting OutSystems apps from code injection / Cross Site Scripting attacks](../develop-secure-apps/code-injection-css-attacks.md).
 
-### Security Misconfiguration (A6)
+### Insecure Design (A4)
+
+OutSystems allows developers to override the default secure code patterns for advanced customization scenarios. In this case, OutSystems security checks proactively warn developers of potential security issues as they publish their applications.
+
+OutSystems generates standard applications from its runtime, enabling standard security assessment tools, such as static code analysis.
+
+### Security Misconfiguration (A5)
 
 OutSystems Cloud infrastructures are automatically provisioned, configured, and tuned for high performance, security, and reliability. The physical infrastructure of the OutSystems Cloud is hosted in the secure data centers of Amazon Web Services.
 
@@ -76,17 +64,35 @@ For self-managed deployments, OutSystems provides system administrators with cle
 
 Additionally, OutSystems includes a set of capabilities that enable you to define and implement the security controls required by your applications. See [Application security overview](intro.md) for further details.
 
-### Insecure Deserialization (A8)
+For both exposure and consumption of SOAP Web Services, OutSystems escapes XML parsing. Additionally, to help you protect your applications from XML External Entity attacks, OutSystems supports the use of the latest deserialization and XML processor library versions, and SOAP 1.2.
 
-OutSystems serializes and deserializes session data using a built-in anti-tampering JSON deserialization mechanism. This mechanism compares incoming JSON data with predefined application models and performs strict type verification during deserialization. Additionally, it runs a salted hash-based algorithm over the serialized session data to validate potential tampering before deserialization.
-
-### Using Components with Known Vulnerabilities (A9)
+### Vulnerable and Outdated Components (A6)
 
 OutSystems constantly monitors for vulnerabilities in the product and the generated code, using a continuous delivery approach to constantly release incremental value with minimal disruptions to the customers’ operations and business.
 
 [This policy](../vulnerabilities/intro.md) describes the OutSystems response to vulnerabilities that might affect customer applications. Security fixes are proactively applied in OutSystems Cloud.
 
-### Insufficient Logging & Monitoring (A10)
+### Identification and Authentication Failures (A7)
+
+By default, OutSystems ensures that:
+
+* Session identifiers aren't sent in URLs
+
+* Sessions time out at their expiration time
+
+* All password handling uses strong cryptographic algorithms
+
+Also, OutSystems ensures that the session identifier is transparently changed on each login, and validates this on every request, thus preventing session fixation attacks.
+
+Cookies may contain sensitive information that shouldn't be accessible to an attacker eavesdropping on a channel. To prevent browsers from sending cookies over an unencrypted channel, administrators can enable the secure flag in cookies, which makes Web browsers that support this flag to send secure cookies only when the request uses HTTPS.
+
+Additionally, OutSystems provides built-in protection mechanisms against brute force attacks for the application end users and IT users.
+
+### Software and Data Integrity Failures (A8)
+
+OutSystems serializes and deserializes session data using a built-in anti-tampering JSON deserialization mechanism. This mechanism compares incoming JSON data with predefined application models and performs strict type verification during deserialization. Additionally, it runs a salted hash-based algorithm over the serialized session data to validate potential tampering before deserialization.
+
+### Security Logging and Monitoring Failures (A9)
 
 OutSystems tracks the details of every access to application screens. These logs include the component and screen accessed, which end users accessed it, when the access occurred, and exactly which node served the screen.
 
@@ -95,6 +101,12 @@ OutSystems also logs all access to external systems through web services, custom
 Customers who choose to manage their own OutSystems installation benefit from the OutSystems standard runtime architecture to leverage their know-how and tools for logging and monitoring all system components.
 
 OutSystems Cloud customers benefit from the logging and monitoring capabilities bundled in the service with a choice between the secure baseline of the standard configuration and the more advanced [OutSystems Sentry](https://www.outsystems.com/sentry/) offer.
+
+### Server-Side Request Forgery (SSRF) (A10)
+
+OutSystems enables integration with external systems that you can statically configure. For example, when using the development environment to consume a third-party REST API, you must explicitly set the service's external fully qualified domain name (FQDN) as the base URL. This address can then be overwritten with a static configuration for each environment.
+
+In case you need a more dynamic way of setting third-party addresses, OutSystems recommends using server-side data from the database or site properties to build the FQDN instead of relying on external data. If you really need external data, such as a URL shared on demand by a third-party service,  make sure your applications validate that URL. For example, check the FQDN against a predefined list of valid, allowed third-party addresses. Then, use the OnBeforeRequest event action to set the customized base URL. Any time you want to make sure you only use static addresses throughout all your services, check all your OnBeforeRequest and make sure the base URL is not being customized there.
 
 ## OWASP Mobile Top 10 - Final List 2016
 
