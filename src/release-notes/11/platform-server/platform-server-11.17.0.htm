@@ -60,6 +60,7 @@ The ActivityReset system action didn't validate if activities were already close
 <li>Fixed an issue that caused the system Timer UnusedElements_Cleanup to timeout.<br/>
 The Timer UnusedElements_Cleanup should clean up the records from the OSSYS_MODULE_PUBLICELEMENT table, but it was failing with a timeout. This could impact publishing from Service Studio. (RPM-2241) <span class="cattag">Application Runtime</span>  <span class="cattag">Data Access and Manipulation</span> </li>
 <li>Fixed an issue that caused Mobile and Reactive apps using the Multilingual Tech Preview feature to crash when they were upgraded to version 11.11.1 or later. (RPM-2303) <span class="cattag">Application Runtime</span>  <span class="cattag">Interface</span> </li>
+<li>Updated the SharpZipLib library bundled with the platform from version 1.3.1 to version 1.3.3. (RPM-2448) <span class="cattag">Application Runtime</span> </li>
 <li>Fixed an issue that caused an Editable Table to become unusable when entering edit mode on a row immediately after saving it.<br/>
 At runtime, when a user selected an Editable Table row that had its data being updated, the checkmark didn't work. (RPM-2537) <span class="cattag">Application Runtime</span>  <span class="cattag">Interface</span> </li>
 <li>Fixed an issue that prevented the upgrade of LDAP Password Encryption in Oracle databases.<br/>
@@ -71,10 +72,15 @@ After the upgrade to Platform Server 11.15.0 using Progressive Updates, there is
 Due to this issue, some applications wouldn’t be available to the customer on the new platform version. (RPM-2652) <span class="cattag">Infrastructure Management</span>  <span class="cattag">Platform Configuration</span> </li>
 <li>Fixed an issue that could cause a timeout error on the Scheduler Service, preventing processes from running.<br/>
 The Scheduler Service wasn't working correctly and there were timeout errors in the Error Logs in Service Center. The issue occurred only for SQL Server databases. (RPM-2713) <span class="cattag">Application Runtime</span>  <span class="cattag">Processes</span> </li>
+<li>Updated the Newtonsoft.Json library bundled with the platform from version 12.0.3 to version 13.0.1. (RPM-2719) <span class="cattag">Application Runtime</span> </li>
 <li>Fixed an issue that caused the environment to become slow when there were many activities created while the EPA Taskbox was enabled.<br/>
 When the “GetActivityCount” query was executed when accessing screens that had EPA Taskbox enabled, and if there was a huge number of records in the "OSSYS BPM" database tables (for example, more than 10M in the OSSYS_BPM_ACTIVITY), the environment could become extremely slow. (RPM-419) <span class="cattag">Application Runtime</span>  <span class="cattag">Processes</span> </li>
 <li>Fixed an issue that prevented LifeTime from opening Service Studio during a deployment to compare the modules' versions.<br/>
 This issue caused a "404 - File or directory not found" error when clicking the option "Compare modules in Service Studio" during the deployment of a new application version. (RPM-759) <span class="cattag">Application Runtime</span> </li>
+<li>Fixed a cross-site scripting (XSS) vulnerability in the Feedback_Message widget. CVSSv3.1 score 6.4 (Medium).<br/>
+The text displayed in the Feedback_Message widget was not encoded by default, making it vulnerable to cross-site scripting attacks. The text is now encoded however, this may introduce a breaking change. Find more information about this breaking change <a href="https://success.outsystems.com/Support/Release_Notes/11/OutSystems_11_side_effects_and_breaking_changes#introduced-in-platform-server-11170">here.</a> (RPM-2443) <span class="cattag">Application Runtime</span>  <span class="cattag">Logic Execution</span> </li>
+<li>Fixed an authentication issue when configuring Azure AD authentication for the applications' end users. CVSSv3.1 score 4.2 (Medium).<br/>
+This issue was incorrectly allowing local end users to login in the generated applications after configuring Azure AD authentication. (RPM-2613) <span class="cattag">Application Runtime</span>  <span class="cattag">Authentication and Authorization</span> </li>
 </ul>
 
 <h3>Limitation</h3>
