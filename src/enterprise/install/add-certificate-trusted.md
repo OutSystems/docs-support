@@ -26,7 +26,7 @@ When this step isn't done, errors like ```Could not establish trust relationship
 OutSystems servers must have a valid SSL certificate issued by a public Certificate Authority, as described in [OutSystems system requirements](https://success.outsystems.com/Documentation/11/Setting_Up_OutSystems/OutSystems_system_requirements).
 </div>
 
-For OutSystems Cloud environments check [this article](https://success.outsystems.com/Support/Enterprise_Customers/Maintenance_and_Operations/Add_certificate_to_trusted_root_store_in_OutSystems_PaaS) instead.
+For OutSystems Cloud environments check [this article](https://success.outsystems.com/Support/Enterprise_Customers/Maintenance_and_Operations/Add_certificate_to_trusted_root_store_in_OutSystems_cloud) instead.
 
 
 ## Certificate installation
