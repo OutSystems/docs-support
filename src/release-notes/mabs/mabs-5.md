@@ -22,7 +22,7 @@ For common issues and solutions check also [Troubleshooting the Mobile Apps Gene
 <div class="info">
 
 **First release:** 2019-12-26 13:30:00 UTC<br/>
-**Last update:** 2021-09-29 14:00:00 UTC.
+**Last update:** 2022-09-21 09:00:00 UTC.
 </div>
 
 ### New in this version
@@ -43,6 +43,7 @@ For common issues and solutions check also [Troubleshooting the Mobile Apps Gene
 * [2021-04-06 08:00:00 UTC] MABS now validates the iOS certificates and provision profiles in the initial phase of the build pipeline. This lets you see and fix potential errors early in the build process. (RNMT-4739)
 * [2021-07-01 11:30:00 UTC] Added validation to prevent native mobile apps from using SSL Pinning Plugin to pin to OutSystems managed certificates. For more information, [check the documentation](https://success.outsystems.com/Documentation/11/Extensibility_and_Integration/Mobile_Plugins/SSL_Pinning_Plugin#important-note-about-certificates).
 * [2021-09-29 14:00:00 UTC] Fixed an issue that potentially leads to resource exhaustion in Android apps in MABS 5. CVSSv3.1 score 4.8 (Medium) (RPM-740)
+* [2022-09-21 09:00:00 UTC] Changed the minimum supported TLS version from 1.0 to 1.2. (RPM-2764)
 
 ### Known Issue
 
