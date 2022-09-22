@@ -70,6 +70,6 @@ OutSystems communicates its cloud security and controls in a number of different
 
 * Publishing information about OutSystems security and control practices;
 
-* Providing [trust certificates and reports](https://outsystems.com/trust), and other documentation to OutSystems customers, some of them under NDA (as required).
+* Providing [trust certificates and reports](https://security.outsystems.com/), and other documentation to OutSystems customers, some of them under NDA (as required).
 
-Refer to OutSystems [ISO 27017 certification](https://www.outsystems.com/-/media/files/generic/trust/iso-27017-ecertificate-2015-cloud-709506.pdf?la=en&hash=9C0F767D040D984E93528D846C43BA7B57A60F01) for details on cloud-specific information security controls, and the shared responsibility model.
+Refer to OutSystems [ISO 27017 certification](https://security.outsystems.com/?itemUid=0c1fdf36-c946-4670-9354-8fa3e4260ab1&source=documents_card) for details on cloud-specific information security controls, and the shared responsibility model.
