@@ -11,7 +11,7 @@
         - href: release-notes/11/cross-platform-service-studio/cross-platform-service-studio.md
         - href: release-notes/11/integration-studio/integration-studio.md
         - href: release-notes/11/development-environment/development-environment.md
-        - href: release-notes/11/side-effects-breaking-changes.md                     
+        - href: release-notes/11/side-effects-breaking-changes.md
     - href: release-notes/lifetime-management-console/lifetime-management-console.md
     - href: release-notes/10/intro.md
     - topics:
@@ -22,13 +22,13 @@
     - href: release-notes/mabs/mabs-versions.md
     - topics:
         - href: release-notes/mabs/mabs-beta-support.md
-        - href: release-notes/mabs/mabs-8.md    
+        - href: release-notes/mabs/mabs-8.md
         - href: release-notes/mabs/mabs-7.md
         - href: release-notes/mabs/mabs-6.md
         - href: release-notes/mabs/mabs-5.md
-        - href: release-notes/mabs/troubleshoot-issues-with-mabs-6.md                
+        - href: release-notes/mabs/troubleshoot-issues-with-mabs-6.md
         - href: release-notes/mabs/older-releases.md
-    - href: release-notes/architecture-dashboard/architecture-dashboard.md        
+    - href: release-notes/architecture-dashboard/architecture-dashboard.md
     - href: release-notes/integration-builder/integration-builder.md
     - href: release-notes/experience-builder/experience-builder.md
     - href: release-notes/workflow-builder/workflow-builder.md
@@ -95,6 +95,7 @@
         - href: troubleshooting/application-runtime/ki-datagrid-reactive.md
         - href: troubleshooting/application-runtime/cannot-decrypt/cannot-decrypt.md
         - href: troubleshooting/application-runtime/troubleshoot-502.md
+        - href: troubleshooting/application-runtime/slowsql.md
         - href: troubleshooting/application-runtime/multilingual.md
         - href: troubleshooting/application-runtime/plugins-appshield/intro.md
         - href: troubleshooting/application-runtime/wia-popup-shows.md
@@ -102,7 +103,7 @@
         - href: troubleshooting/application-runtime/seo/troubleshooting.md
         - href: troubleshooting/application-runtime/cant-reach-apps.md
     # Infrastructure Management
-    - href: troubleshooting/infrastructure-management/intro.md        
+    - href: troubleshooting/infrastructure-management/intro.md
     - topics:
         - href: troubleshooting/infrastructure-management/manual-start-services.md
         - href: troubleshooting/infrastructure-management/upgrade-cloud-demo.md
@@ -129,7 +130,7 @@
     - href: security/certificate-management/certificate-management.md
     - href: security/cloud-certificate-change/cloud-certificate-change.md
     - href: security/penetration-tests.md
-    - href: security/rest-headers-hardening.md 
+    - href: security/rest-headers-hardening.md
     # HIPAA compliance
     - href: security/HIPAA/intro.md
     - topics:
@@ -244,81 +245,81 @@
     #Workflow Builder
     - href: error/wbl/intro.md
     - topics:
-        - href: error/wbl/wfbl-api-00001.md 
-        - href: error/wbl/wfbl-api-00002.md 
-        - href: error/wbl/wfbl-api-00003.md 
-        - href: error/wbl/wfbl-api-10001.md 
-        - href: error/wbl/wfbl-conf-00001.md 
-        - href: error/wbl/wfbl-conf-00002.md 
-        - href: error/wbl/wfbl-conf-00003.md 
-        - href: error/wbl/wfbl-conf-00004.md 
-        - href: error/wbl/wfbl-conf-00005.md 
-        - href: error/wbl/wfbl-conf-00006.md 
-        - href: error/wbl/wfbl-conf-00007.md 
-        - href: error/wbl/wfbl-conf-00008.md 
-        - href: error/wbl/wfbl-gen-00000.md 
-        - href: error/wbl/wfbl-gen-00001.md 
-        - href: error/wbl/wfbl-gen-00002.md 
-        - href: error/wbl/wfbl-gen-00003.md 
-        - href: error/wbl/wfbl-gen-00004.md 
-        - href: error/wbl/wfbl-gen-00005.md 
-        - href: error/wbl/wfbl-gen-00006.md 
-        - href: error/wbl/wfbl-gen-00007.md 
-        - href: error/wbl/wfbl-gen-00008.md 
-        - href: error/wbl/wfbl-gen-00009.md 
-        - href: error/wbl/wfbl-gen-10001.md 
-        - href: error/wbl/wfbl-gen-40001.md 
-        - href: error/wbl/wfbl-gen-40002.md 
+        - href: error/wbl/wfbl-api-00001.md
+        - href: error/wbl/wfbl-api-00002.md
+        - href: error/wbl/wfbl-api-00003.md
+        - href: error/wbl/wfbl-api-10001.md
+        - href: error/wbl/wfbl-conf-00001.md
+        - href: error/wbl/wfbl-conf-00002.md
+        - href: error/wbl/wfbl-conf-00003.md
+        - href: error/wbl/wfbl-conf-00004.md
+        - href: error/wbl/wfbl-conf-00005.md
+        - href: error/wbl/wfbl-conf-00006.md
+        - href: error/wbl/wfbl-conf-00007.md
+        - href: error/wbl/wfbl-conf-00008.md
+        - href: error/wbl/wfbl-gen-00000.md
+        - href: error/wbl/wfbl-gen-00001.md
+        - href: error/wbl/wfbl-gen-00002.md
+        - href: error/wbl/wfbl-gen-00003.md
+        - href: error/wbl/wfbl-gen-00004.md
+        - href: error/wbl/wfbl-gen-00005.md
+        - href: error/wbl/wfbl-gen-00006.md
+        - href: error/wbl/wfbl-gen-00007.md
+        - href: error/wbl/wfbl-gen-00008.md
+        - href: error/wbl/wfbl-gen-00009.md
+        - href: error/wbl/wfbl-gen-10001.md
+        - href: error/wbl/wfbl-gen-40001.md
+        - href: error/wbl/wfbl-gen-40002.md
      #Case Management framework
     - href: error/cmfr/intro.md
-    - topics: 
-        - href: error/cmfr/cmfr-bpt-00001.md 
-        - href: error/cmfr/cmfr-gen-00001.md 
-        - href: error/cmfr/cmfr-gen-00002.md 
-        - href: error/cmfr/cmfr-gen-00003.md 
-        - href: error/cmfr/cmfr-gen-00004.md 
-        - href: error/cmfr/cmfr-gen-00005.md 
-        - href: error/cmfr/cmfr-gen-00006.md 
-        - href: error/cmfr/cmfr-gen-00007.md 
-        - href: error/cmfr/cmfr-gen-00008.md 
-        - href: error/cmfr/cmfr-gen-00009.md 
-        - href: error/cmfr/cmfr-gen-00010.md 
-        - href: error/cmfr/cmfr-gen-00011.md 
-        - href: error/cmfr/cmfr-gen-00012.md 
-        - href: error/cmfr/cmfr-gen-00013.md 
-        - href: error/cmfr/cmfr-gen-00014.md 
-        - href: error/cmfr/cmfr-gen-00015.md 
-        - href: error/cmfr/cmfr-gen-00016.md 
-        - href: error/cmfr/cmfr-gen-00017.md 
-        - href: error/cmfr/cmfr-gen-00018.md 
-        - href: error/cmfr/cmfr-gen-00019.md 
-        - href: error/cmfr/cmfr-gen-00020.md 
-        - href: error/cmfr/cmfr-gen-00021.md 
-        - href: error/cmfr/cmfr-gen-00022.md 
-        - href: error/cmfr/cmfr-gen-00023.md 
-        - href: error/cmfr/cmfr-gen-00024.md 
-        - href: error/cmfr/cmfr-gen-00025.md 
-        - href: error/cmfr/cmfr-gen-00026.md 
-        - href: error/cmfr/cmfr-gen-00027.md 
-        - href: error/cmfr/cmfr-gen-00028.md 
-        - href: error/cmfr/cmfr-gen-00029.md 
-        - href: error/cmfr/cmfr-gen-00030.md 
-        - href: error/cmfr/cmfr-gen-00031.md 
-        - href: error/cmfr/cmfr-gen-00032.md 
-        - href: error/cmfr/cmfr-gen-00033.md 
-        - href: error/cmfr/cmfr-gen-00034.md 
-        - href: error/cmfr/cmfr-gen-00035.md 
-        - href: error/cmfr/cmfr-gen-00036.md 
-        - href: error/cmfr/cmfr-gen-00037.md 
-        - href: error/cmfr/cmfr-gen-00038.md 
-        - href: error/cmfr/cmfr-gen-20001.md 
-        - href: error/cmfr/cmfr-gen-20002.md 
-        - href: error/cmfr/cmfr-gen-20003.md 
-        - href: error/cmfr/cmfr-gen-20004.md 
-        - href: error/cmfr/cmfr-gen-20005.md 
-        - href: error/cmfr/cmfr-gen-20006.md 
-        - href: error/cmfr/cmfr-gen-20007.md 
-        - href: error/cmfr/cmfr-gen-20008.md    
+    - topics:
+        - href: error/cmfr/cmfr-bpt-00001.md
+        - href: error/cmfr/cmfr-gen-00001.md
+        - href: error/cmfr/cmfr-gen-00002.md
+        - href: error/cmfr/cmfr-gen-00003.md
+        - href: error/cmfr/cmfr-gen-00004.md
+        - href: error/cmfr/cmfr-gen-00005.md
+        - href: error/cmfr/cmfr-gen-00006.md
+        - href: error/cmfr/cmfr-gen-00007.md
+        - href: error/cmfr/cmfr-gen-00008.md
+        - href: error/cmfr/cmfr-gen-00009.md
+        - href: error/cmfr/cmfr-gen-00010.md
+        - href: error/cmfr/cmfr-gen-00011.md
+        - href: error/cmfr/cmfr-gen-00012.md
+        - href: error/cmfr/cmfr-gen-00013.md
+        - href: error/cmfr/cmfr-gen-00014.md
+        - href: error/cmfr/cmfr-gen-00015.md
+        - href: error/cmfr/cmfr-gen-00016.md
+        - href: error/cmfr/cmfr-gen-00017.md
+        - href: error/cmfr/cmfr-gen-00018.md
+        - href: error/cmfr/cmfr-gen-00019.md
+        - href: error/cmfr/cmfr-gen-00020.md
+        - href: error/cmfr/cmfr-gen-00021.md
+        - href: error/cmfr/cmfr-gen-00022.md
+        - href: error/cmfr/cmfr-gen-00023.md
+        - href: error/cmfr/cmfr-gen-00024.md
+        - href: error/cmfr/cmfr-gen-00025.md
+        - href: error/cmfr/cmfr-gen-00026.md
+        - href: error/cmfr/cmfr-gen-00027.md
+        - href: error/cmfr/cmfr-gen-00028.md
+        - href: error/cmfr/cmfr-gen-00029.md
+        - href: error/cmfr/cmfr-gen-00030.md
+        - href: error/cmfr/cmfr-gen-00031.md
+        - href: error/cmfr/cmfr-gen-00032.md
+        - href: error/cmfr/cmfr-gen-00033.md
+        - href: error/cmfr/cmfr-gen-00034.md
+        - href: error/cmfr/cmfr-gen-00035.md
+        - href: error/cmfr/cmfr-gen-00036.md
+        - href: error/cmfr/cmfr-gen-00037.md
+        - href: error/cmfr/cmfr-gen-00038.md
+        - href: error/cmfr/cmfr-gen-20001.md
+        - href: error/cmfr/cmfr-gen-20002.md
+        - href: error/cmfr/cmfr-gen-20003.md
+        - href: error/cmfr/cmfr-gen-20004.md
+        - href: error/cmfr/cmfr-gen-20005.md
+        - href: error/cmfr/cmfr-gen-20006.md
+        - href: error/cmfr/cmfr-gen-20007.md
+        - href: error/cmfr/cmfr-gen-20008.md
     #Experience Builder
     - href: error/exbl/intro.md
     - topics:
@@ -358,12 +359,12 @@
     - href: community/training/training-intro.md
     - topics:
         - href: community/training/appointment-confirmation.md
-        - href: community/training/bootcamp-details.md        
+        - href: community/training/bootcamp-details.md
         - href: community/training/download-os-certificates.md
         - href: community/training/download-my-certificate.md
         - href: community/training/exam-invoice.md
         - href: community/training/exam-policies.md
-        - href: community/training/exam-voucher.md                
+        - href: community/training/exam-voucher.md
         - href: community/training/prometric-score.md
         - href: community/training/transfer-certification.md
         - href: community/online-training-offline-access.md
@@ -386,7 +387,7 @@
 # Enterprise Customers
 - href: enterprise/enterprise-intro.md
 - topics:
-       
+
     # Licensing
     - href: enterprise/licensing/enterprise-licensing.md
     - topics:
@@ -394,10 +395,10 @@
         - topics:
             - href: enterprise/licensing/manage/find-activation-code/find-activation-code.md
             - href: enterprise/licensing/manage/get-license-for-env.md
-            - href: enterprise/licensing/manage/howto-install-license.md 
+            - href: enterprise/licensing/manage/howto-install-license.md
             - href: enterprise/licensing/manage/free-up-environment.md
             - href: enterprise/licensing/manage/enable-db-replica.md
-        
+
         # Intellectual Property Protection (IPP)
         - href: enterprise/licensing/ipp/enterprise-licensing-ipp.md
         - topics:
@@ -408,19 +409,19 @@
         # Troubleshooting
         - href: enterprise/licensing/troubleshooting/enterprise-licensing-trouble.md
         - topics:
-            - href: enterprise/licensing/troubleshooting/reached-license-limits.md         
+            - href: enterprise/licensing/troubleshooting/reached-license-limits.md
             - href: enterprise/licensing/troubleshooting/change-hw-license-invalid.md
 
     # Installation
     - href: enterprise/install/enterprise-install.md
     - topics:
         - href: enterprise/install/generate-csr.md
-        - href: enterprise/install/install-ssl-certificate-linux.md       
+        - href: enterprise/install/install-ssl-certificate-linux.md
         - href: enterprise/install/installing-platform-fips-compliant.md
         - href: enterprise/install/add-certificate-trusted.md
         - href: enterprise/install/size-environment-run-infra-mgmt-console.md
         - href: enterprise/install/add-front-end/add-front-end.md
-    
+
     # OutSystems Support
     - href: enterprise/outsystems-support/enterprise-support.md
     - topics:
@@ -431,7 +432,7 @@
     - topics:
         - href: enterprise/maintenance/migrate-db-clone.md
         - href: enterprise/maintenance/access-database-paas/access-database-paas.md
-        - topics: 
+        - topics:
             - href: enterprise/maintenance/access-database-paas/temporary-access-database-backup.md
         - href: enterprise/maintenance/allowlist-cloud-servers/allowlist-cloud-servers.md
         - href: enterprise/maintenance/aws-direct-connect-os-cloud.md
@@ -442,19 +443,19 @@
         - href: enterprise/maintenance/move-app-pool.md
         - href: enterprise/maintenance/change-collation-db-sql-server.md
         - href: enterprise/maintenance/oracle-configure-linguistic-sorting.md
-        - href: enterprise/maintenance/config-oracle-database.md     
+        - href: enterprise/maintenance/config-oracle-database.md
         - href: enterprise/maintenance/connection-pools.md
         - href: enterprise/maintenance/cookie-usage.md
-        - href: enterprise/maintenance/database-storage-cloud.md                  
+        - href: enterprise/maintenance/database-storage-cloud.md
         - href: enterprise/maintenance/reinstall-different-path.md
         - href: enterprise/maintenance/cloud-maintenance-window.md
         - href: enterprise/maintenance/does-safe-harbor-ecj-apply.md
-        - href: enterprise/maintenance/ip-range-cloud.md     
+        - href: enterprise/maintenance/ip-range-cloud.md
         - href: enterprise/maintenance/protect-android-ios-certificate.md
         - href: enterprise/maintenance/multiple-db-catalogs-schemas.md
         - href: enterprise/maintenance/cloud-timezones.md
         - href: enterprise/maintenance/failover-procedures.md
-        - href: enterprise/maintenance/cloud-shared-responsibility.md        
+        - href: enterprise/maintenance/cloud-shared-responsibility.md
         - href: enterprise/maintenance/reinstall-lifetime.md
         - href: enterprise/maintenance/remove-infra-mgmt-console.md
         - href: enterprise/maintenance/restore-database.md
@@ -466,26 +467,26 @@
         - href: enterprise/maintenance/chrome-samesite-cookie-changes.md
         - href: enterprise/maintenance/sql-compatibility-upgrade.md
         - href: enterprise/maintenance/change-ac.md
-      
-    # Troubleshooting        
+
+    # Troubleshooting
     - href: enterprise/troubleshooting/enterprise-trouble.md
     - topics:
-            - href: enterprise/troubleshooting/vpn-troubleshooting-guide.md           
-            - href: enterprise/troubleshooting/env-deploy-controller-twice.md       
-            - href: enterprise/troubleshooting/information-logged.md               
-            - href: enterprise/troubleshooting/troubleshoot-ios-content.md  
-            - href: enterprise/troubleshooting/service-permissions-change.md            
+            - href: enterprise/troubleshooting/vpn-troubleshooting-guide.md
+            - href: enterprise/troubleshooting/env-deploy-controller-twice.md
+            - href: enterprise/troubleshooting/information-logged.md
+            - href: enterprise/troubleshooting/troubleshoot-ios-content.md
+            - href: enterprise/troubleshooting/service-permissions-change.md
             - href: enterprise/troubleshooting/oracle-odp-net-issues.md
             - href: enterprise/troubleshooting/os-diag-tool.md
             - href: enterprise/troubleshooting/reset-users-auth-preferences.md
             - href: enterprise/troubleshooting/slow-publishing-117x.md
             - href: enterprise/troubleshooting/mabs/obfuscation.md
-            - href: enterprise/troubleshooting/troubleshoot-platform-server.md                       
-            - href: enterprise/troubleshooting/unable-register-front-end.md  
-            - href: enterprise/troubleshooting/it-users-vs-app-users.md                                                      
+            - href: enterprise/troubleshooting/troubleshoot-platform-server.md
+            - href: enterprise/troubleshooting/unable-register-front-end.md
+            - href: enterprise/troubleshooting/it-users-vs-app-users.md
             - href: enterprise/troubleshooting/dot-net-core-3-1/dot-net-core-3-1.md
             - href: enterprise/troubleshooting/saml-unable-decrypt-assertion.md
-            
+
             # Known issues
             - href: enterprise/troubleshooting/known-issues/ki-11_10-downtime-CT/ki-11_10-downtime-CT.md
             - href: enterprise/troubleshooting/known-issues/ki-11_10-site-properties/ki-11_10-site-properties.md
