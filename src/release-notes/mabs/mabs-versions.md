@@ -15,7 +15,7 @@ The MABS lifecycle consists of major and minor releases. A major MABS release br
 
 ![](images/MABS_major_minor.png)
 
-When we release a new major version, four months after that we deprecate the previous major version and obsolete all other major versions. When a new minor version is released, the previous minor version is deprecated and becomes obsolete in two months.
+When we release a new major version, four months after that we deprecate the previous major version and one month after obsolete all other major versions. When a new minor version is released, the previous minor version is deprecated and becomes obsolete in two months.
 
 The change of the MABS version is an optional feature. It’s usually enough to use the default option and let the platform build your mobile apps with the latest MABS version. With this you get the newest stacks, regular updates, and your apps comply with Google Play and Apple Store requirements.
 

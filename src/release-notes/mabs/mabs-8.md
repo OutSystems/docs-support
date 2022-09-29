@@ -22,7 +22,7 @@ For common issues and solutions check also [Troubleshooting the Mobile Apps Gene
 <div class="info">
 
 **First release:** 2022-04-06 17:00:00 UTC<br />
-**Last update:** 2022-09-21 09:00:00 UTC.
+**Last update:** 2022-09-22 15:00:00 UTC.
 </div>
 
 <div class="warning">
@@ -54,6 +54,8 @@ This minor version is focused on internal improvements, mainly around logging an
 * [2022-07-04 19:20:00 UTC] We updated some build error messages to improve troubleshooting. (RNMT-5634)
 * [2022-07-21 14:00:00 UTC] Fixed the minimum supported iOS version that was incorrectly set to 13.3 instead of 13.0 after bumping the xCode version to 13.3. (RPM-2782)
 * [2022-09-21 09:00:00 UTC] Changed the minimum supported TLS version from 1.0 to 1.2. (RPM-2764)
+* [2022-09-22 09:00:00 UTC] We fixed a bug where a wrong Xcode version was being used on `cordova platform add` and `cordova plugin add` commands for some iOS builds. These could lead to Pods being installed and configured with different Xcode tools than the ones used for the build process. (RNMT-5717)
+* [2022-09-22 09:00:00 UTC] We made small security improvements in the MABS build process. (RNMT-5820)
 
 ## MABS Version 8.0
 
