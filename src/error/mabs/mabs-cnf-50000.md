@@ -24,4 +24,4 @@ The application package can't be generated.
 
 Check the build logs on Service Center and review the extensibility configurations of your app to verify if all the extensilibities are valid and written properly.
 
-If the problem persists, create a case with [OutSystems Support](https://success.outsystems.com/Support).
+If the problem persists, create a case with [OutSystems Support](https://www.outsystems.com/support/portal/open-support-case?ErrorCode=OS-MABS-CNF-50000).

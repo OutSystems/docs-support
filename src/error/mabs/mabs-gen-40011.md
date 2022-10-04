@@ -24,4 +24,5 @@ The Android application package can't be generated.
 
 To set up Google Services correctly, refer to [Adding Google Services configuration file](https://success.outsystems.com/Documentation/11/Extensibility_and_Integration/Mobile_Plugins/Firebase_Plugins#adding-google-services-configuration-file).
 
-If the problem persists, create a case with [OutSystems Support](https://success.outsystems.com/Support).
+If the problem persists, create a case with [OutSystems Support](https://www.outsystems.com/support/portal/open-support-case?ErrorCode=OS-MABS-GEN-40011
+).

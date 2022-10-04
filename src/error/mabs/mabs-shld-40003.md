@@ -24,4 +24,4 @@ The application package can't be generated.
 
 Review your preferences by using the [documentation](https://success.outsystems.com/Documentation/11/Delivering_Mobile_Apps/Harden_the_protection_of_mobile_apps_with_AppShield#configuration-reference) about the available preferences for AppShield and retry building the app.
 
-If the problem persists, create a case with [OutSystems Support](https://success.outsystems.com/Support).
+If the problem persists, create a case with [OutSystems Support](https://www.outsystems.com/support/portal/open-support-case?ErrorCode=OS-MABS-SHLD-40003).

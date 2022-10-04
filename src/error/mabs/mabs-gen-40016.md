@@ -24,4 +24,4 @@ Users can't generate the application package.
 
 For custom plugins, declare in the **AndroidManifest.xml** files the attribute for `"android:exported"` and it’s value (`"true"` or `"false"`) on type elements with defined intent filters.
 
-If the problem persists, create a case with [OutSystems support](https://success.outsystems.com/Support).
+If the problem persists, create a case with [OutSystems support](https://www.outsystems.com/support/portal/open-support-case?ErrorCode=OS-MABS-GEN-40016).

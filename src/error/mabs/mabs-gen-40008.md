@@ -26,4 +26,4 @@ Identify which custom plugins are overriding the metadata attribute more than on
 
 Learn more about managing these conflicts [here](https://cordova.apache.org/docs/en/latest/plugin_ref/spec.html#managing-edit-config-conflicts).
 
-If the problem persists, create a case with [OutSystems Support](https://success.outsystems.com/Support).
+If the problem persists, create a case with [OutSystems Support](https://www.outsystems.com/support/portal/open-support-case?ErrorCode=OS-MABS-GEN-40008).

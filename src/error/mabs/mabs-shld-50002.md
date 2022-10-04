@@ -7,6 +7,7 @@ app_type: mobile apps
 ---
 
 # OS-MABS-SHLD-50002
+
 ## Error message
 
 `Something went wrong when validating application settings.`
@@ -24,4 +25,4 @@ The application package can't be generated.
 Review and fix all settings and extensibility configurations related to your application and its dependencies.
 Check the build logs on Service Center and try to generate your application again.
 
-If the problem persists, create a case with [OutSystems Support](https://success.outsystems.com/Support).
+If the problem persists, create a case with [OutSystems Support](https://www.outsystems.com/support/portal/open-support-case?ErrorCode=OS-MABS-SHLD-50002).

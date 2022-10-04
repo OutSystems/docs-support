@@ -22,4 +22,4 @@ The application package can't be generated.
 
 ## Recommended action
 
-Contact the [OutSystems Support](https://success.outsystems.com/Support) team to upgrade your license. 
+Contact the [OutSystems Support](https://www.outsystems.com/support/portal/open-support-case?ErrorCode=OS-MABS-SHLD-40005) team to upgrade your license.

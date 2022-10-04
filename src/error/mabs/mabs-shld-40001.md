@@ -24,4 +24,4 @@ The application package can't be generated.
 
 Check if there's any duplicated reference to the AppShield plugin in your app and/or on its dependencies in the extensibility configurations and remove them. There can only be one reference to the plugin and it should be on the AppShield plugin retrieved from the Forge.
 
-If the problem persists, create a case with [OutSystems Support](https://success.outsystems.com/Support).
+If the problem persists, create a case with [OutSystems Support](https://www.outsystems.com/support/portal/open-support-case?ErrorCode=OS-MABS-SHLD-40001).

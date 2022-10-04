@@ -26,4 +26,4 @@ Check the extensibility configurations of your app to ensure that the icon has t
 
 Find more information about how to modify the application icon [here](https://success.outsystems.com/Documentation/11/Delivering_Mobile_Apps/Customize_Your_Mobile_App/Modify_the_App_Icon).
 
-If the problem persists, create a case with [OutSystems Support](https://success.outsystems.com/Support).
+If the problem persists, create a case with [OutSystems Support](https://www.outsystems.com/support/portal/open-support-case?ErrorCode=OS-MABS-CNF-40000).

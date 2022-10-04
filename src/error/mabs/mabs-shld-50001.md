@@ -7,6 +7,7 @@ app_type: mobile apps
 ---
 
 # OS-MABS-SHLD-50001
+
 ## Error message
 
 `Something happened and your request didn't go through, please try again. If the problem persists, contact our support team.`
@@ -23,4 +24,4 @@ The application package can't be generated.
 
 Check the build logs on Service Center and repeat the operation.
 
-If the problem persists, create a case with [OutSystems Support](https://success.outsystems.com/Support).
+If the problem persists, create a case with [OutSystems Support](https://www.outsystems.com/support/portal/open-support-case?ErrorCode=OS-MABS-SHLD-50001).

@@ -6,7 +6,7 @@ locale: en-us
 app_type: mobile apps
 ---
 
-# OS-MABS-SIG-40015
+# OS-MABS-SHLD-40002
 
 ## Error message
 
@@ -24,4 +24,4 @@ The application package can't be generated.
 
 Install the OutSystems AppShield plugin from the [Forge](https://www.outsystems.com/forge/component-overview/9379/outsystems-appshield) and request a new build, without changing its extensibility configurations.
 
-If the problem persists, create a case with [OutSystems Support](https://success.outsystems.com/Support).
+If the problem persists, create a case with [OutSystems Support](https://www.outsystems.com/support/portal/open-support-case?ErrorCode=OS-MABS-SHLD-40002).

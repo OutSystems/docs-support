@@ -24,4 +24,4 @@ Users can't generate the application package.
 
 Update your Forge plugin version to **&lt;plugin_min_version&gt;** or higher. Check the [plugin’s documentation](https://success.outsystems.com/Documentation/11/Extensibility_and_Integration/Mobile_Plugins) for more information.
 
-If the problem persists, create a case with [OutSystems support](https://success.outsystems.com/Support).
+If the problem persists, create a case with [OutSystems support](https://www.outsystems.com/support/portal/open-support-case?ErrorCode=OS-MABS-PLG-40019).

@@ -24,4 +24,4 @@ The Android application package can't be generated.
 
 Check if the minimum Android SDK is being overridden in your extensibility configurations; change it to a higher Android SDK and/or replace the custom plugin affected library. Learn more about this [here](https://cordova.apache.org/docs/en/11.x/config_ref/#:~:text=android%2DminSdkVersion(integer)).
 
-If the problem persists, create a case with [OutSystems Support](https://success.outsystems.com/Support).
+If the problem persists, create a case with [OutSystems Support](https://www.outsystems.com/support/portal/open-support-case?ErrorCode=OS-MABS-GEN-40009).

@@ -24,4 +24,4 @@ The application package can't be generated.
 
 Check the log files for any problem related to the Shield phase and try to fix it. This phase is denoted by the tag \[Shield\] on the log file.
 
-If the problem persists, create a case with [OutSystems Support](https://success.outsystems.com/Support).
+If the problem persists, create a case with [OutSystems Support](https://www.outsystems.com/support/portal/open-support-case?ErrorCode=OS-MABS-SHLD-50000).

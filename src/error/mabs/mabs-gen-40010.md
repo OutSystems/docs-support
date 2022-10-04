@@ -24,4 +24,4 @@ The Android application package can't be generated.
 
 Identify which custom plugins have Google Play services dependencies and fix the conflicts on the plugin side.
 
-If the problem persists, create a case with [OutSystems Support](https://success.outsystems.com/Support).
+If the problem persists, create a case with [OutSystems Support](https://www.outsystems.com/support/portal/open-support-case?ErrorCode=OS-MABS-GEN-40010).
