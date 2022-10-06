@@ -221,6 +221,8 @@
         - href: error/mabs/mabs-shld-50001.md
         - href: error/mabs/mabs-shld-50002.md
         - href: error/mabs/mabs-shld-50003.md
+        - href: error/mabs/mabs-depecrated-error.md
+        - href: error/mabs/mabs-undocumented-error.md
     #Integration Builder
     - href: error/inbl/intro.md
     - topics:
