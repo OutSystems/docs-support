@@ -8,4 +8,5 @@ app_type: mobile apps
 
 # MABS errors
 
-Check the causes, impact, and how to fix MABS errors in these section's articles.
+Check the causes, impact, and how to fix Mobile Apps Build Service (MABS)
+errors in this section's articles.
