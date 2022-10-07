@@ -34,4 +34,4 @@ page of the MABS version you are using to validate the versions for Cordova cli
 or Cordova engine (android/ios).
 
 If the problem persists, create a case with [OutSystems
-support](https://success.outsystems.com/Support).
+support](https://www.outsystems.com/support/portal/open-support-case?ErrorCode=OS-MABS-PLG-40009).

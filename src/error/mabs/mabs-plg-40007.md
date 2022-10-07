@@ -34,4 +34,4 @@ preference
 [here](https://cordova.apache.org/docs/en/11.x/config_ref/#:~:text=deployment%2Dtarget(string))
 
 If the problem persists, create a case with [OutSystems
-support](https://success.outsystems.com/Support).
+support](https://www.outsystems.com/support/portal/open-support-case?ErrorCode=OS-MABS-PLG-40007).

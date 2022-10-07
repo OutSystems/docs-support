@@ -28,4 +28,4 @@ Check the build logs on Service Center for more details and after fixing the
 plugin configuration, try to generate your application again.
 
 If the problem persists, create a case with [OutSystems
-support](https://success.outsystems.com/Support).
+support](https://www.outsystems.com/support/portal/open-support-case?ErrorCode=OS-MABS-PLG-40010).

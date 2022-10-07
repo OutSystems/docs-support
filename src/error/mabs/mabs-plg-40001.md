@@ -31,4 +31,4 @@ You can follow this documentation on [how to use Cordova
 plugins](https://success.outsystems.com/Documentation/11/Extensibility_and_Integration/Mobile_Plugins/Using_Cordova_Plugins).
 
 If the problem persists, create a case with [OutSystems
-support](https://success.outsystems.com/Support).
+support](https://www.outsystems.com/support/portal/open-support-case?ErrorCode=OS-MABS-PLG-40001).

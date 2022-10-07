@@ -27,4 +27,4 @@ Check the build logs on Service Center for the cause of the error and also
 where the hosts build logs for the plugin and retry building the application.
 
 If the problem persists, create a case with [OutSystems
-support](https://success.outsystems.com/Support).
+support](https://www.outsystems.com/support/portal/open-support-case?ErrorCode=OS-MABS-PLG-10000).

@@ -35,4 +35,4 @@ in the [official Apache Cordova
 documentation](https://cordova.apache.org/docs/en/latest/plugin_ref/spec.html#config-file).
 
 If the problem persists, create a case with [OutSystems
-support](https://success.outsystems.com/Support).
+support](https://www.outsystems.com/support/portal/open-support-case?ErrorCode=OS-MABS-PLG-40013).

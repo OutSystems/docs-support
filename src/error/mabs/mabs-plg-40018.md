@@ -33,4 +33,4 @@ documentation](https://success.outsystems.com/Documentation/11/Extensibility_and
 for more information.
 
 If the problem persists, create a case with [OutSystems
-support](https://success.outsystems.com/Support).
+support](https://www.outsystems.com/support/portal/open-support-case?ErrorCode=OS-MABS-PLG-40018).

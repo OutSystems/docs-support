@@ -29,4 +29,4 @@ Check the build logs and try to work around the imposed limitation. Then, try
 to generate your application again.
 
 If the problem persists, create a case with [OutSystems
-support](https://success.outsystems.com/Support).
+support](https://www.outsystems.com/support/portal/open-support-case?ErrorCode=OS-MABS-PLG-20001).

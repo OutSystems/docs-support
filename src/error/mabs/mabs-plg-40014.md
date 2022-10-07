@@ -30,4 +30,4 @@ extensibility configurations. If you are hosting the plugin, validate that MABS
 can access it. Then try to generate your application again.
 
 If the problem persists, create a case with [OutSystems
-support](https://success.outsystems.com/Support).
+support](https://www.outsystems.com/support/portal/open-support-case?ErrorCode=OS-MABS-PLG-40014).

@@ -29,4 +29,4 @@ name, version, and URL in both the plugin.xml and package.json files. After fixi
 it, try to generate your application again.
 
 If the problem persists, create a case with [OutSystems
-support](https://success.outsystems.com/Support).
+support](https://www.outsystems.com/support/portal/open-support-case?ErrorCode=OS-MABS-PLG-40011).
