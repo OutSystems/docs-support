@@ -330,6 +330,8 @@ Change the `value` attribute of this element to point to the new location of the
 
 #### Using a brand new database { #use-new-db }
 
+If you're cloning and existing environment on a new database, make to sure to first follow all the steps on [Migrate an Environment Using a Database Clone](../enterprise/maintenance/migrate-db-clone.md). Then proceed to the next steps.
+
 If you will use a new database, you have to manually reconfigure your database connection strings. To do this:
 
 1. Locate the `machine.config` files for .NET Framework 4.0, on both the old and the new server, and open them with a text editor.
