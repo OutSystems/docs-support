@@ -15,7 +15,7 @@ When searching for assets in OutSystems Forge, take into consideration that some
 * **OutSystems Supported assets** - developed, maintained, and supported by OutSystems.
 * **Trusted assets** - developed and shared by the OutSystems Community. Validated by the OutSystems Curation team to ensure these assets deliver the promised functionality and are built based on best practices.
 
-![OutSystems Forge](images/trusted-components-fg.png?width=900)
+![OutSystems Forge](images/trusted-components-fg.png)
 
 This article describes the set of requirements that an asset shared in Forge must comply with to be considered a **Trusted** asset. To request a trusted badge for your asset, select **Request trusted badge** from the **Manage** dropdown.
 

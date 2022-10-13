@@ -68,7 +68,9 @@ Once your asset is ready, follow the steps below to upload it to Forge.
 
     ![Trusted badge checklist](images/checklist-fg.png)
 
-1. Enter the asset details. 
+1. Enter the asset details.
+
+    ![Asset details](images/asset-details-fg.png)
 
     * By default, the **asset name**, the **icon**, and the **description** are defined during development. You can change these descriptions after you publish your asset.
 
@@ -96,7 +98,7 @@ Once your asset is ready, follow the steps below to upload it to Forge.
 
         Under **Requirements**, Forge indicates the corresponding **Platform Version**. You can select the **Stack** and the **Supported Database**. This information helps users know if their environment is compatible with your asset.
 
-        ![Platform version for O10](images/categorization-fg.png)
+        ![Platform version for O10](images/version-control-o10-fg.png)
 
 1. Enter the **categorization** details. 
 
