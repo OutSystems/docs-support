@@ -19,7 +19,7 @@ When searching for assets in OutSystems Forge, take into consideration that some
 
 This article describes the set of requirements that an asset shared in Forge must comply with to be considered a **Trusted** asset. To request a trusted badge for your asset, select **Request trusted badge** from the **Manage** dropdown.
 
-![Request trusted badge](images/request-fg.png)
+![Request trusted badge](images/request-trusted-badge-fg.png)
 
 If you want to share your asset with the OutSystems Community and have it trusted by the OutSystems Curation team, you must ensure that your asset complies with the requirements listed below.
 
@@ -163,3 +163,4 @@ The asset owner must provide the following required support:
 
 * Reply to any comments or questions
 * Solve the reported errors
+
