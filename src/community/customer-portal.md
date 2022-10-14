@@ -69,7 +69,7 @@ This represents a role that can oversee all the permissions and members of all y
 * Register support cases in infrastructures the user is associated with.
 * Remove contacts.
 * [Register](https://success.outsystems.com/Support/Enterprise_Customers/Licensing/Manage_and_Upgrade/03_Get_a_license_file_for_an_environment#Registering_your_environment_(using_the_serial_number)), [release](https://success.outsystems.com/Support/Enterprise_Customers/Licensing/Manage_and_Upgrade/05_How_to_free_up_an_existing_environment_in_licensing) environment slots, and download licenses.
-* Receive notifications regarding disruptive and security events.
+* Receive notifications regarding disruptive.
 * Receive license expiration notifications.
 
 
@@ -85,7 +85,7 @@ This person will be able to:
 * Manage your users and permissions for the infrastructures where he is set as administrator.
 * Register support cases, [approve unauthorized cases](https://success.outsystems.com/Support/Account_and_Members_Management/Enhanced_security_for_OutSystems_support_cases), and view all cases of that infrastructure.
 * [Register](https://success.outsystems.com/Support/Enterprise_Customers/Licensing/Manage_and_Upgrade/03_Get_a_license_file_for_an_environment#Registering_your_environment_(using_the_serial_number)), [release](https://success.outsystems.com/Support/Enterprise_Customers/Licensing/Manage_and_Upgrade/05_How_to_free_up_an_existing_environment_in_licensing) environment slots, and download licenses.
-* Receive notifications regarding maintenance, disruptive, and security events.
+* Receive notifications regarding maintenance, disruptive.
 * Receive license expiration notifications.
 
 OutSystems will set by default as the first Infrastructure administrator, the person that was identified as such in your initial purchase order. It can, however, be changed to your preference at a later stage.
@@ -137,7 +137,7 @@ To change a user’s permissions click **Edit** under the **ACTION** column. You
 
 ### Defining the security contact
 
-The security contact will receive all communications that are security-related. This contact may have other permissions.
+The security contact will receive all communications and notifications that are security-related. This contact may have other permissions.
 
 The security contacts are those members that are added and have the **Role** set as **Security**.
 
