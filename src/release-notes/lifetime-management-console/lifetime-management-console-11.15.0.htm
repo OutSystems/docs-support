@@ -16,5 +16,7 @@ pageprivacy: public
 <h3 id="bug_fixing_lifetime_management_console_11.15.0" >Bug Fixing</h3>
 <ul>
 <li>Fixed an issue in LifeTime in which applications containing only extensions were not being synchronized properly. This was impacting the correct execution of deployments. (RPM-2997) <span class="cattag">Application Lifecycle</span>  <span class="cattag">LifeTime</span> </li>
+<li>Fixed a cross-site scripting (XSS) vulnerability in the Feedback_Message widget. CVSSv3.1 score 6.4 (Medium).<br/>
+Find more information about this breaking change <a href="https://success.outsystems.com/Support/Release_Notes/11/OutSystems_11_side_effects_and_breaking_changes#introduced-in-platform-server-11.17.0">here.</a> (RPM-2443) <span class="cattag">Application Runtime</span>  <span class="cattag">Logic Execution</span> </li>
 </ul>
 
