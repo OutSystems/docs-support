@@ -86,7 +86,7 @@ The asset must be easy to use. For this, the asset must include the following:
 
 ### Implementation
 
-Trusted assets must comply with the implementation best practices described in this section. The OutSystems Curation team uses the [AI Mentor Studio](https://success.outsystems.com/Documentation/11/Managing_the_Applications_Lifecycle/Manage_technical_debt/Code_Patterns) to perform the necessary validations.
+Trusted assets must comply with the implementation best practices described in this section. The OutSystems Curation team uses the [Architecture Dashboard](https://success.outsystems.com/Documentation/11/Managing_the_Applications_Lifecycle/Manage_technical_debt/Code_Patterns) to perform the necessary validations.
 
 #### Architecture
 

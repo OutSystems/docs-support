@@ -61,7 +61,7 @@ The following products are delivered as Software as a Service over the web and c
 
 * **Mobile Apps Build Service** - A cloud service developed by OutSystems that allows the generation of mobile app packages. Check out MABS release history [here](https://success.outsystems.com/Support/Release_Notes/Mobile_Apps_Build_Service_Versions).
 
-* **AI Mentor Studio** - The OutSystems technical debt monitoring tool, delivered as a cloud service. AI Mentor Studio release history can be found [here](https://success.outsystems.com/Support/Release_Notes/Architecture_Dashboard).
+* **Architecture Dashboard** - The OutSystems technical debt monitoring tool, delivered as a cloud service. Architecture Dashboard release history can be found [here](https://success.outsystems.com/Support/Release_Notes/Architecture_Dashboard).
 
 * **Builders** - Cloud services to build native experiences, design workflows, and automate processes. These include [Integration Builder](https://success.outsystems.com/Support/Release_Notes/Integration_Builder), [Workflow Builder](https://success.outsystems.com/Support/Release_Notes/Workflow_Builder), and [Experience Builder](https://success.outsystems.com/Support/Release_Notes/Experience_Builder).
 
