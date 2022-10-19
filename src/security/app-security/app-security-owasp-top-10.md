@@ -8,7 +8,7 @@ app_type: traditional web apps, mobile apps, reactive web apps
 
 # How OutSystems helps you address OWASP Top 10
 
-The [OWASP Top 10](https://owasp.org/www-project-top-ten/), [OWASP Low Code Top 10] and [OWASP Mobile Top 10](https://owasp.org/www-project-mobile-top-10/) represent a broad consensus about the most critical security risks to web and mobile applications.
+The [OWASP Top 10](https://owasp.org/www-project-top-ten/), [OWASP Low Code Top 10](https://owasp.org/www-project-top-10-low-code-no-code-security-risks/) and [OWASP Mobile Top 10](https://owasp.org/www-project-mobile-top-10/) represent a broad consensus about the most critical security risks to web and mobile applications.
 
 This article describes how OutSystems helps you address the vulnerabilities identified by OWASP.
 
