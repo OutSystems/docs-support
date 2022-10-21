@@ -11,7 +11,7 @@ app_type: traditional web apps, mobile apps, reactive web apps
 OutSystems community accounts are created using your email. 
 
 Sometimes, it may happen that you have two community accounts created with distinct emails. For example, one with your personal email and another with your work email. You can, if you choose to, merge two accounts into one.
-When merging two accounts, the account you wish to keep will receive all the information and the account that will be merged is deleted.
+When merging two accounts, the account you wish to keep will receive all the information, and the account that will be merged is deleted.
 
 For the purposes of this article:
 
