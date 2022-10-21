@@ -26,7 +26,7 @@ It's not possible to revert an account merge.
 
 </div>
 
-If you need to transfer your certifications while keeping both accounts active, check [this article](./training/transfer-certification.md) instead.
+If you need to transfer your certifications while keeping both accounts active, check [this article](training/transfer-certification.md) instead.
 
 Do the following to merge two accounts:
 
