@@ -284,7 +284,11 @@ In the tenant details of a module, the Timers tab was not properly validating th
 <span class="cattag">Infrastructure Management</span> <span class="cattag">Platform Configuration</span> <br/>
 <br/>
 <u>Fix Details:</u><br/>
-As of Platform Server 11.12.2, .NET Core 3.1 Runtime & Hosting Bundle for Windows is part of the system requirements, replacing the previously used .NET Core 2.1, which is no longer supported. However, the installer of Platform Server 11.13.0 or later installed both versions. Removing the .NET Core 2.1 from the environment after the Platform Server installation would cause some OutSystems services to fail.
+As of Platform Server 11.12.2, the installer will only install .NET Core 3.1 Runtime & Hosting Bundle for Windows, which is part of the system requirements.
+Although it replaces .NET Core 2.1 which is no longer supported, the installer does not remove it. If you previously had .NET Core 2.1 installed and remove it, this will break the .NET Core 3.1 installation and can as well cause some OutSystems services to fail.
+With that said, the installer of Platform Server 11.13.0 or later installed both versions.
+Please note that if you want to remove .NET Core 2.1, the correct procedure is to remove both versions, and install only .NET Core 3.1.
+From version 11.14 and later this issue was fixed.
 </p>
 <p>
 <a id="RPM-1623"><strong>RPM-1623</strong></a><br/>
