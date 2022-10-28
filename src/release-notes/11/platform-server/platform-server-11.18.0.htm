@@ -15,11 +15,19 @@ Inspired by <a href="https://www.outsystems.com/ideas/9904/service-center-descri
 <li>It is now possible to filter the screens logs by User.
 Inspired by <a href="https://www.outsystems.com/ideas/9930/filter-by-user-on-screen-requests-log/">Luís Figueiredo's idea</a>. (R11CT-311)</li>
 <li>Added support for the redaction of header and body parameters of an exposed REST API when the Logging Level is set to Full or Troubleshoot. (R11DT-1118)</li>
+<li>Added the ability to deploy all modules prepared during an upgrade. It is now possible to optionally, after upgrading your OutSystems environment to Platform Server 11.18.0+ version, to immediately deploy all modules that were successfully prepared.
+If executed, the "Deploy All" action will reflect all changes and improvements from the new Platform Server version in the applications running code.
+
+We recommend that customers skip this step and instead publish modules and/or apps manually as needed. Nevertheless, for those customers/scenarios where a deploy of all upgraded applications is needed ASAP, customers now have the option to do it.
+
+For more details about the deployment of prepared modules check <a href="documentation_link">the documentation</a>. (R11PIT-885)</li>
 <li>OutSystems Deployment Controller and OutSystems Scheduler Services now run with Virtual Accounts. If you have permissions errors when installing follow the documentation on https://success.outsystems.com/Support/Enterprise_Customers/Troubleshooting/Service_permissions_error_when_installing_or_upgrading_to_Platform_Server_11.12.0_or_later (RPM-1334) <span class="cattag">Infrastructure Management</span>  <span class="cattag">OutSystems Services</span> </li>
 <li>It is now possible to read and display data from PostgreSQL external databases columns with the 'Time (without TimeZone)' data type . (RPM-3043) <span class="cattag">Application Runtime</span>  <span class="cattag">Data Access and Manipulation</span> </li>
 </ul>
 <h3 id="bug_fixing_platform_server_11.18.0" >Bug Fixing</h3>
 <ul>
+<li>Fixed an issue that prevented some licensing errors to display the correct error message. (R11BRT-152)</li>
+<li>Fixed an issue that caused a failed SAP connection when clicking the "Test Connection" button in Service Center. (R11DT-1452)</li>
 <li>Fixed a lock while updating Site Properties on long requests. (RPM-1032) <span class="cattag">Publish Operation</span> </li>
 <li>The parameter "OutSystems.HubEdition.OracleSequenceCacheSize" was created in the OSSYS_PARAMETER table to control Oracle sequence cache size. The default value is 100 and the acceptable range of values is between 2 and 1000 (inclusive).
 
