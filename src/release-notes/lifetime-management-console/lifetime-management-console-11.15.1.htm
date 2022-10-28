@@ -15,6 +15,7 @@ pageprivacy: semi-private
 </ul>
 <h3 id="bug_fixing_lifetime_management_console_11.15.1" >Bug Fixing</h3>
 <ul>
+<li>Fixed a bug that caused consecutive deployments of an app to fail while using the LifeTime API with a "Failed to include application version in staging because it was never published in source environment '&lt;environment-name&gt;'." error. (RPM-3158) <span class="cattag">Application Lifecycle</span>  <span class="cattag">LifeTime</span> </li>
 <li>Fixed an issue that caused broken app icons to be shown in some LifeTime screens.
 This also caused a "A potentially dangerous Request.Path value was detected from the client (:)." error to be logged in the Service Center for the LifeTime environment.
 This issue occurred in apps that included special characters in the app name. (RPM-3174) <span class="cattag">Application Lifecycle</span>  <span class="cattag">LifeTime</span> </li>
