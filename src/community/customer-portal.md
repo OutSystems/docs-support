@@ -97,8 +97,6 @@ A regular user who is linked to your company and will have granular access to yo
 
 * Access to OutSystems Customer Portal
 * Can register support cases but will only be able to view the cases they have created.
-* Will receive notifications regarding maintenance and disruptive events.
-
 
 ### How to add a new member
 
