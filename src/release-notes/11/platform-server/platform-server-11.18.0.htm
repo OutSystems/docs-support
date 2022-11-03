@@ -21,6 +21,9 @@ If executed, the "Deploy All" action will reflect all changes and improvements f
 We recommend that customers skip this step and instead publish modules and/or apps manually as needed. Nevertheless, for those customers/scenarios where a deploy of all upgraded applications is needed ASAP, customers now have the option to do it.
 
 For more details about the deployment of prepared modules check <a href="documentation_link">the documentation</a>. (R11PIT-885)</li>
+<li>New sequences will be created with cache size 100.
+
+When upgrading the Platform to version 11.18.0 by running the Configuration Tool, existing sequences that have no cache will be updated to have cache size of 100. (RPM-1158) <span class="cattag">Infrastructure Management</span>  <span class="cattag">Cloud Orchestration</span> </li>
 <li>OutSystems Deployment Controller and OutSystems Scheduler Services now run with Virtual Accounts. If you have permissions errors when installing please check the following <a href="https://success.outsystems.com/Support/Enterprise_Customers/Troubleshooting/Service_permissions_error_when_installing_or_upgrading_to_Platform_Server_11.12.0_or_later">documentation</a>. (RPM-1334) <span class="cattag">Infrastructure Management</span>  <span class="cattag">OutSystems Services</span> </li>
 <li>It is now possible to read and display data from PostgreSQL external databases columns with the 'Time (without TimeZone)' data type . (RPM-3043) <span class="cattag">Application Runtime</span>  <span class="cattag">Data Access and Manipulation</span> </li>
 </ul>
@@ -29,15 +32,7 @@ For more details about the deployment of prepared modules check <a href="documen
 <li>Fixed an issue that prevented some licensing errors to display the correct error message. (R11BRT-152)</li>
 <li>Fixed an issue that caused a failed SAP connection when clicking the "Test Connection" button in Service Center. (R11DT-1452)</li>
 <li>Fixed a lock while updating Site Properties on long requests. (RPM-1032) <span class="cattag">Publish Operation</span> </li>
-<li>The parameter "OutSystems.HubEdition.OracleSequenceCacheSize" was created in the OSSYS_PARAMETER table to control Oracle sequence cache size. The default value is 100 and the acceptable range of values is between 2 and 1000 (inclusive).
-
-If the parameter does not exist, the cache size for new Oracle sequences will use the default value.
-If the parameter exists and its value is less than 2, Oracle sequences will be created with "NO CACHE".
-If the parameter exists and its value is greater than 1000, the cache size for new Oracle sequences will be 1000. 
-If the parameter exists and its value is between 2 and 1000, the cache size for new Oracle sequences will be the parameter value.
-
-When upgrading the database to version 11.18.0 by running the Configuration Tool, existing sequences that have no cache will be updated to have the value defined in the parameter (or the default). (RPM-1158) <span class="cattag">Infrastructure Management</span>  <span class="cattag">Cloud Orchestration</span> </li>
-<li>Deleted espaces no longer impact the ability to change shared configurations. (RPM-1175) <span class="cattag">Application Runtime</span>  <span class="cattag">Supported Forge Component</span> </li>
+<li>Fixed an issue that caused shared configurations to not change. This occurred when shared configurations had deleted eSpaces associated.  (RPM-1175) <span class="cattag">Application Runtime</span>  <span class="cattag">Supported Forge Component</span> </li>
 <li>Added logs to provide additional information when deployment service fails. (RPM-1202) <span class="cattag">Infrastructure Management</span>  <span class="cattag">OutSystems Services</span> </li>
 <li>Fixed an issue that caused database locks in Oracle when a foreign key was being created. (RPM-1609) <span class="cattag">Publish Operation</span> </li>
 <li>Fixed an issue in LifeTime that caused deployment plans to fail due to lack of user permissions when no new reference was added. (RPM-1689) <span class="cattag">Application Lifecycle</span>  <span class="cattag">LifeTime</span> </li>
@@ -55,7 +50,7 @@ To solve this issue, the length of the SessionIndex, MessageID, and ResponseToMe
 <li>Fixed an issue where front-end servers with ip "::1" would display wrong status information under the "Environment Health" when stopping deployment service (RPM-2711) <span class="cattag">Infrastructure Management</span>  <span class="cattag">OutSystems Services</span> </li>
 <li>Fixed an issue that caused extensions using the PostgreSQL External Database Connector to fail saving data when a column of data type 'uuid' was included. (RPM-2844) <span class="cattag">Application Runtime</span>  <span class="cattag">Data Access and Manipulation</span> </li>
 <li>Fixed exception when compiling a module with a reference to a Service Action with a deleted parameter with a default value (RPM-2848) <span class="cattag">Application Lifecycle</span>  <span class="cattag">LifeTime</span> </li>
-<li>Fixed translation for 'Username' in the available locales. (RPM-2857) <span class="cattag">Application Runtime</span>  <span class="cattag">Interface</span> </li>
+<li>Fixed an issue that caused a wrong translation in multiple languages. This occurred in Japanese, Chinese and Dutch for the translation of "Username". (RPM-2857) <span class="cattag">Application Runtime</span>  <span class="cattag">Interface</span> </li>
 <li>Fixed an issue where Server API incorrectly sends the catalog Name instead of the catalog Logical Name to Service Center when publishing solutions or applications. (RPM-2860) <span class="cattag">Infrastructure Management</span> </li>
 <li>Fixed an issue that caused a failed SAP connection when clicking the "Test Connection" button in Service Center. (RPM-2871) <span class="cattag">Application Lifecycle</span>  <span class="cattag">Service Center</span> </li>
 <li>Improved telemetry collection for Progressive Upgrade errors (RPM-2889) <span class="cattag">Infrastructure Management</span> </li>
