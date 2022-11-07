@@ -21,6 +21,7 @@ If executed, the "Deploy All" action will reflect all changes and improvements f
 We recommend that customers skip this step and instead publish modules and/or apps manually as needed. Nevertheless, for those customers/scenarios where a deploy of all upgraded applications is needed ASAP, customers now have the option to do it.
 
 For more details about the deployment of prepared modules check <a href="documentation_link">the documentation</a>. (R11PIT-885)</li>
+<li>Solution Publish optimization in large factories, up to 40% in 1500+ modules factories. (R11PT-80)</li>
 <li>New sequences will be created with cache size 100.
 
 When upgrading the Platform to version 11.18.0 by running the Configuration Tool, existing sequences that have no cache will be updated to have cache size of 100. (RPM-1158) <span class="cattag">Infrastructure Management</span>  <span class="cattag">Cloud Orchestration</span> </li>
@@ -31,6 +32,11 @@ When upgrading the Platform to version 11.18.0 by running the Configuration Tool
 <ul>
 <li>Fixed an issue that prevented some licensing errors to display the correct error message. (R11BRT-152)</li>
 <li>Fixed an issue that caused a failed SAP connection when clicking the "Test Connection" button in Service Center. (R11DT-1452)</li>
+<li>Improved performance of Pool Garbage Collector job (R11PIT-778)</li>
+<li>Fix issue where front-end servers with ip "::1" would display wrong status information under the "Environment Health" when stopping deployment service (R11PIT-782)</li>
+<li>Updated installation checklist to add information regarding the need to have "Create Symbolic Links" permission when running the configuration tool. (R11PIT-784)</li>
+<li>Added disclaimers relating to the use of the "Create/Upgrade Service" in custom RabbitMQ installation scenarios in Configuration Tool and Installation Checklist (R11PIT-807)</li>
+<li>Fixed an issue that caused Service Studio to assume the wrong module version as the most recent when using Oracle RAC databases. (R11PT-24)</li>
 <li>Fixed a lock while updating Site Properties on long requests. (RPM-1032) <span class="cattag">Publish Operation</span> </li>
 <li>Fixed an issue that caused shared configurations to not change. This occurred when shared configurations had deleted eSpaces associated.  (RPM-1175) <span class="cattag">Application Runtime</span>  <span class="cattag">Supported Forge Component</span> </li>
 <li>Added logs to provide additional information when deployment service fails. (RPM-1202) <span class="cattag">Infrastructure Management</span>  <span class="cattag">OutSystems Services</span> </li>
