@@ -18,8 +18,9 @@ pageprivacy: semi-private
 <li>Fixed an issue where arrays of primitive types were not correctly mapped in SAP OData integrations. (RCNT-5164)</li>
 <li>Fixed a timeout error when deleting connectors in Integration Builder. (RCNT-5417)</li>
 <li>Fixed an issue where deleting Salesforce objects that had been selected for integration would cause an internal server error when trying to publish. (RCNT-5418)</li>
-<li>Fixed an issue where renamed columns, in Relational DB integrations, would revert back to their original names after editing an integration. (RCNT-5447)</li>
 <li>Fixed an issue where the Integration Builder would only update a table's definition when that table's attributes were viewed on the user interface. (RCNT-5450)</li>
 <li>Fixed an issue where the links in Integration Manager's "Support" menu were clickable while the menu was collapsed. (RCNT-5474)</li>
+<li>Fixed an error, affecting only relational database integrations, where entity attributes that hadn't been selected in Integration Builder were still included in the generated connector. (RPM-3248) <span class="cattag">Extended Product</span>  <span class="cattag">Integrations Builder</span> </li>
+<li>Fixed an issue where renamed columns, in Relational DB integrations, would revert back to their original names after editing an integration. (RPM-3261) <span class="cattag">Extended Product</span>  <span class="cattag">Integrations Builder</span> </li>
 </ul>
 
