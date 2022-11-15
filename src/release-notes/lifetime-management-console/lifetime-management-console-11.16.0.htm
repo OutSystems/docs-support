@@ -10,10 +10,12 @@ pageprivacy: semi-private
 <style>.cattag {background: #f4f2ff; color: #6a6581; padding: 4px 10px;}</style>
 <h3 id="new_in_lifetime_management_console_11.16.0" >New in LifeTime Management Console 11.16.0</h3>
 <ul>
+<li>Updated the Platform Server version to 11.17.1. (R11CT-1623)</li>
 <li>You can now use the Environment Filters feature to filter your Application Details with the Environments you are working on. (R11CT-1632)</li>
 </ul>
 <h3 id="bug_fixing_lifetime_management_console_11.16.0" >Bug Fixing</h3>
 <ul>
+<li>Fixed issue on synchronization that could delay the synchronization processes to start when running on Oracle database. (R11CT-1652)</li>
 <li>[Impact] Fixed an issue during a deployment plan validation when the application tag has been already used in previous aborted deployments.
 [Conditions] This issue occurred in deployment plans that contained applications set to be auto tagged and these applications (with the same tag values) had been already used in deployment plans that were aborted before the solution had been published in the target environment. (RPM-3094) <span class="cattag">Application Lifecycle</span>  <span class="cattag">LifeTime</span> </li>
 </ul>
