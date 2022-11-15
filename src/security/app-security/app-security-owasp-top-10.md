@@ -162,7 +162,7 @@ Environment-level configurations can be used combined with role-based authorizat
 
 OutSystems includes a set of capabilities that enable you to define and implement the security controls required by your applications. See [Application security overview](https://success.outsystems.com/Support/Security/Develop_secure_OutSystems_apps). 
 
-Moreover, [Architecture Dashboard can scan your applications and identify risky patterns](https://success.outsystems.com/Documentation/11/Managing_the_Applications_Lifecycle/Manage_technical_debt/Code_Analysis_Patterns#Security)
+Moreover, [AI Mentor Studio can scan your applications and identify risky patterns](https://success.outsystems.com/Documentation/11/Managing_the_Applications_Lifecycle/Manage_technical_debt/Code_Analysis_Patterns#Security)
 
 ### Injection Handling Failures (LCNC-SEC-06)
 
