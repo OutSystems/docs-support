@@ -20,3 +20,7 @@ pageprivacy: semi-private
 [Conditions] This issue occurred in deployment plans that contained applications set to be auto tagged and these applications (with the same tag values) had been already used in deployment plans that were aborted before the solution had been published in the target environment. (RPM-3094) <span class="cattag">Application Lifecycle</span>  <span class="cattag">LifeTime</span> </li>
 </ul>
 
+<h3>Breaking Change</h3>
+<ul>
+<li>Breaking change on validating O10 staging plans: when validating a staging plan between O10 environments, if an attribute was removed from a static entity, the validation done by LifeTime will not detect it as a broken reference. To avoid errors, all modules that consume the changed reference should be refreshed and included in the staging.</li>
+</ul>
