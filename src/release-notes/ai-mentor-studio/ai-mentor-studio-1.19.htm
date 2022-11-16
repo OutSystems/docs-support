@@ -1,0 +1,24 @@
+---
+isautopublish: true
+pageprivacy: public
+---
+
+<h2 id="architecture_dashboard_1.19" >AI Mentor Studio 1.19</h2>
+<div class="info"><p>Released on Sep 15, 2022</p></div>
+
+<h3 id="new_in_architecture_dashboard_1.19" >New in AI Mentor Studio 1.19</h3>
+<ul>
+<li>The permissions sync mechanism now ensures a retry on the next sync when the permissions sync fails. (RADRT-2142)</li>
+<li>The old Architecture Dashboard experience, which was still accessible to customers with probes versions older than 3.0, was discontinued. (RADRT-2148)</li>
+<li>Improved the performance of the architecture analysis process. (RADRT-2167)</li>
+</ul>
+<h3 id="bug_fixing_architecture_dashboard_1.19" >Bug Fixing</h3>
+<ul>
+<li>Fixed an issue when exporting the report data to excel that caused the object name on the exported list to be different than the correct one presented on the report page.  (RADRT-2179)</li>
+<li>Fixed an issue on the Technical debt variation vs. number of findings chart in the Overview dashboard, that caused a tooltip to wrongly show that there wasn't enough data of solved findings for the selected range. (RADRT-2193)</li>
+<li>Fixed an issue on the Overview dashboard that caused the count of the open findings to include the solved findings. (RADRT-2195)</li>
+<li>Fixed an issue that caused Architecture Dashboard to show all teams to users that don't have permission to see them. (RADRT-2197)</li>
+<li>Fixed an issue that caused all findings to be solved on a specific category when the customer had synchronization issues. (RADRT-2199)</li>
+<li>Now, the technical debt summary on the Overview dashboard takes into account the data from the previous day. (RADRT-2217)</li>
+</ul>
+
