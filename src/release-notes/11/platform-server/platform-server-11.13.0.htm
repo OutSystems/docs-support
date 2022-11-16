@@ -27,6 +27,7 @@ pageprivacy: public
 <li><a href="/Support/Release_Notes/11/Platform_Server#RPM-365" rel="custom">Fixed an issue that caused the join between the system tables Sent_Email and Email_Status not to retrieve any results. (RPM-365)</a></li>
 <li>Fixed an issue that caused a timeout when executing the Timer BPT_CleanUp. (RPM-436)</li>
 <li><a href="/Support/Release_Notes/11/Platform_Server#RPM-638" rel="custom">Fixed an issue in the Security exceptions of Mobile apps that caused incorrect exception handling. (RPM-638)</a></li>
+<li><a href="/Support/Release_Notes/11/Platform_Server#RPM-650" rel="custom">Fixed an issue that was causing log pollution when parsing a JSON. (RPM-650)</a></li>
 <li><a href="/Support/Release_Notes/11/Platform_Server#RPM-905" rel="custom">Fixed the client-side exception mechanism so it properly manages handlers from the parent exception.  (RPM-905)</a></li>
 <li><a href="/Support/Release_Notes/11/Platform_Server#RPM-954" rel="custom">Fixed an issue that prevented end users from closing Popover Menu used inside a Tabs OutSystems UI pattern. (RPM-954)</a></li>
 <li><a href="/Support/Release_Notes/11/Platform_Server#RPM-972" rel="custom">Fixed an issue where scrolling doesn't work in Popover Menu widget when it's opened inside a Tabs pattern. (RPM-972)</a></li>
@@ -47,7 +48,8 @@ pageprivacy: public
 <b>Fixed an issue that was causing headers not to be applied correctly in applications.</b><br/>
 <span class="cattag">Application Runtime</span> <span class="cattag">System Components</span> <br/>
 <br/>
-<u>Fix Details:</u><br>Headers added using the AddHeader action of <a href="https://success.outsystems.com/Documentation/11_x_platform/Reference/OutSystems_APIs/HTTPRequestHandler_API">HTTPRequestHandler</a> weren't being applied to the applications. The symptoms may vary according to the type of header that was added. 
+<u>Fix Details:</u><br/>
+Headers added using the AddHeader action of <a href="https://success.outsystems.com/Documentation/11_x_platform/Reference/OutSystems_APIs/HTTPRequestHandler_API">HTTPRequestHandler</a> weren't being applied to the applications. The symptoms may vary according to the type of header that was added. 
 The issue can happen from Platform Server version 11.9.0 onwards and was fixed in this version to restore the proper behavior, adding the defined headers.
 </p>
 <p>
@@ -55,7 +57,8 @@ The issue can happen from Platform Server version 11.9.0 onwards and was fixed i
 <b> Fixed an issue with SEO Friendly Urls, that caused a 404 when the module alias had the same name as the module.</b><br/>
 <span class="cattag">Application Runtime</span> <span class="cattag">SEO Friendly URLs</span> <br/>
 <br/>
-<u>Fix Details:</u><br>The issue occurs in modules that have the same name as the module alias. This created 2 entries in the database table every time you publish, overflowing, in the long run, the 10000 lines DB table limit.
+<u>Fix Details:</u><br/>
+The issue occurs in modules that have the same name as the module alias. This created 2 entries in the database table every time you publish, overflowing, in the long run, the 10000 lines DB table limit.
 To prevent this issue, the DB table limit was increased above the 10000 lines, and there's an automatic cleanup on duplicated entries.
 </p>
 <p>
@@ -63,7 +66,8 @@ To prevent this issue, the DB table limit was increased above the 10000 lines, a
 <b>Fixed an issue that caused the login action to take a long time in Traditional Web apps using SAML 2.0 authentication when the user has many active sessions.</b><br/>
 <span class="cattag">Application Lifecycle</span> <span class="cattag">Users</span> <br/>
 <br/>
-<u>Fix Details:</u><br>When using SAML 2.0 authentication in Traditional Web apps, the action of logging in is taking a very long time. This happens for very active users with hundreds of active sessions, most typically, users used for testing or automation. 
+<u>Fix Details:</u><br/>
+When using SAML 2.0 authentication in Traditional Web apps, the action of logging in is taking a very long time. This happens for very active users with hundreds of active sessions, most typically, users used for testing or automation. 
 The issue resides in the RegisterUserSession action that's not performant in this edge case. This action was improved so that's no longer subject to performance degradation.
 </p>
 <p>
@@ -71,35 +75,56 @@ The issue resides in the RegisterUserSession action that's not performant in thi
 <b> Fixed an issue with SEO Friendly Urls, that caused a 404 when the module alias had the same name as the module.</b><br/>
 <span class="cattag">Application Runtime</span> <span class="cattag">SEO Friendly URLs</span> <br/>
 <br/>
-<u>Fix Details:</u><br>This issue has the same cause as <a href="https://success.outsystems.com/Support/Release_Notes/11/Platform_Server/Platform_Server_11.13.0#RPM-1052">RPM-1052</a>. Refer to it to understand the impacts and changes.
+<u>Fix Details:</u><br/>
+This issue has the same cause as <a href="https://success.outsystems.com/Support/Release_Notes/11/Platform_Server/Platform_Server_11.13.0#RPM-1052">RPM-1052</a>. Refer to it to understand the impacts and changes.
 </p>
 <p>
 <a id="RPM-365"><strong>RPM-365</strong></a><br/>
 <b>Fixed an issue that caused the join between the system tables Sent_Email and Email_Status not to retrieve any results.</b><br/>
 <span class="cattag">Application Runtime</span> <span class="cattag">Logging</span> <br/>
 <br/>
-<u>Fix Details:</u><br>This issue caused a join between the system tables Sent_Email and Email_Status not to retrieve any results. This has no impact on the OutSystems capability to send emails, but if you're using the <a href="https://success.outsystems.com/Documentation/11/Reference/OutSystems_APIs/Emails_API">Emails API</a> in your logic, your application can be affected. The fix restored the proper behavior and the results of that join are now correctly retrieved.
+<u>Fix Details:</u><br/>
+This issue caused a join between the system tables Sent_Email and Email_Status not to retrieve any results. This has no impact on the OutSystems capability to send emails, but if you're using the <a href="https://success.outsystems.com/Documentation/11/Reference/OutSystems_APIs/Emails_API">Emails API</a> in your logic, your application can be affected. The fix restored the proper behavior and the results of that join are now correctly retrieved.
 </p>
 <p>
 <a id="RPM-638"><strong>RPM-638</strong></a><br/>
 <b>Fixed an issue in the Security exceptions of Mobile apps that caused incorrect exception handling.</b><br/>
 <span class="cattag">Application Runtime</span> <span class="cattag">Logic Execution</span> <br/>
 <br/>
-<u>Fix Details:</u><br>The issue resided in the "Invalid Login" and "Not Registered" exceptions of Mobile apps that were not caught by their parent handler, <a href="https://success.outsystems.com/Documentation/11/Developing_an_Application/Implement_Application_Logic/Handle_Exceptions">Security exception</a>. Instead, they were bubbling up to "All exceptions", ultimately causing the wrong exception message to appear to the end-user.
+<u>Fix Details:</u><br/>
+The issue resided in the "Invalid Login" and "Not Registered" exceptions of Mobile apps that were not caught by their parent handler, <a href="https://success.outsystems.com/Documentation/11/Developing_an_Application/Implement_Application_Logic/Handle_Exceptions">Security exception</a>. Instead, they were bubbling up to "All exceptions", ultimately causing the wrong exception message to appear to the end-user.
+</p>
+<p>
+<a id="RPM-650"><strong>RPM-650</strong></a><br/>
+<b>Fixed an issue that was causing log pollution when parsing a JSON.</b><br/>
+<span class="cattag">Application Runtime</span> <span class="cattag">Logging</span> <br/>
+<br/>
+<u>Fix Details:</u><br/>
+*Symptoms*
+Logs get flooded with this error: Bad JSON escape sequence: \X. Path 'Username', line 1, position
+
+*How to reproduce*
+
+* Use the  ADAuthProvider authentication for IT users.
+* Login Service Studio, using the format [domain]/[username]
+* Perform actions that trigger the RegisterOperation action. Such as a publish.
+* Check the error logs and you will see these errors:
 </p>
 <p>
 <a id="RPM-905"><strong>RPM-905</strong></a><br/>
 <b>Fixed the client-side exception mechanism so it properly manages handlers from the parent exception. </b><br/>
 <span class="cattag">Application Runtime</span> <span class="cattag">Logic Execution</span> <br/>
 <br/>
-<u>Fix Details:</u><br>In Reactive Web or Mobile apps, user exceptions were not properly following the <a href="https://success.outsystems.com/Documentation/11/Developing_an_Application/Implement_Application_Logic/Handle_Exceptions">hierarchy of exceptions</a>. Any "parent node" exception, such as User Exception, should be able to handle any "children node" exception, for example, UserException1. Due to this issue, a UserException1 on client-side logic was not being handled by the User Exception parent node, and instead, it was bubbling up to AllExceptions, ultimately causing the wrong exception message to appear to the end-user. In fixing this bug the other exceptions subgroups (Database, Security, Communication, and Abort Activity Change) are now handled as expected.
+<u>Fix Details:</u><br/>
+In Reactive Web or Mobile apps, user exceptions were not properly following the <a href="https://success.outsystems.com/Documentation/11/Developing_an_Application/Implement_Application_Logic/Handle_Exceptions">hierarchy of exceptions</a>. Any "parent node" exception, such as User Exception, should be able to handle any "children node" exception, for example, UserException1. Due to this issue, a UserException1 on client-side logic was not being handled by the User Exception parent node, and instead, it was bubbling up to AllExceptions, ultimately causing the wrong exception message to appear to the end-user. In fixing this bug the other exceptions subgroups (Database, Security, Communication, and Abort Activity Change) are now handled as expected.
 </p>
 <p>
 <a id="RPM-954"><strong>RPM-954</strong></a><br/>
 <b>Fixed an issue that prevented end users from closing Popover Menu used inside a Tabs OutSystems UI pattern.</b><br/>
 <span class="cattag">Application Runtime</span> <span class="cattag">Interface</span> <br/>
 <br/>
-<u>Fix Details:</u><br>In Mobile apps, end users couldn't close a Popover Menu by selecting an area outside the popover menu.
+<u>Fix Details:</u><br/>
+In Mobile apps, end users couldn't close a Popover Menu by selecting an area outside the popover menu.
 This occurred with Popover Menu widgets used inside the Tabs OutSystems UI pattern, except for Popover Menus in the first tab.
 </p>
 <p>
@@ -107,7 +132,8 @@ This occurred with Popover Menu widgets used inside the Tabs OutSystems UI patte
 <b>Fixed an issue where scrolling doesn't work in Popover Menu widget when it's opened inside a Tabs pattern.</b><br/>
 <span class="cattag">Application Runtime</span> <span class="cattag">Supported Forge Component</span> <br/>
 <br/>
-<u>Fix Details:</u><br>When a Popover Menu widget is used inside a Tabs pattern, the end-user wasn't able to scroll the page if the Popover was opened. The issue would occur with previous Platform Server versions and OutSystems UI version 2.5.8 or higher.
+<u>Fix Details:</u><br/>
+When a Popover Menu widget is used inside a Tabs pattern, the end-user wasn't able to scroll the page if the Popover was opened. The issue would occur with previous Platform Server versions and OutSystems UI version 2.5.8 or higher.
 The issue was fixed and it's now possible to scroll properly using any OutSystems UI version.
 </p>
 </div>
