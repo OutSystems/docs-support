@@ -23,6 +23,7 @@ pageprivacy: semi-private
 <li>Fixed issue on synchronization that could delay the synchronization processes to start when running on Oracle database. (R11CT-1652)</li>
 <li>[Impact] Fixed an issue during a deployment plan validation when the application tag has been already used in previous aborted deployments. <br>
 [Conditions] This issue occurred in deployment plans that contained applications set to be auto tagged and these applications (with the same tag values) had been already used in deployment plans that were aborted before the solution had been published in the target environment. (RPM-3094) <span class="cattag">Application Lifecycle</span>  <span class="cattag">LifeTime</span> </li>
+<li>Fixed a cross-site scripting (XSS) vulnerability in LifeTime. CVSSv3.1 score 5.4 (Medium). (RPM-3011) <span class="cattag">Application Lifecycle</span>  <span class="cattag">LifeTime</span> </li>
 </ul>
 
 <h3>Breaking Change</h3>
