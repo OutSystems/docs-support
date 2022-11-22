@@ -5,7 +5,7 @@ guid: ab6146f9-8d06-44cb-9753-96c701e290f1
 app_type: traditional web apps, mobile apps, reactive web apps
 ---
 
-# What is IPP (Intellectual Property Protection)
+# OutSystems Intellectual Property Protection (IPP)
 
 
 <div class="info" markdown="1">
@@ -23,7 +23,7 @@ If you are trying to deploy modules from other infrastructures, you might get th
 
 ```Invalid Intellectual Property: You are trying to upload or publish a solution that was created in a Platform Server and its intellectual Property is protected```
 
-If you get an error message, check [this article](../../../troubleshooting/application-development/ipp-error.md).
+If you get an error message, check [this article](../../troubleshooting/application-development/ipp-error.md).
 
 ## IPP unprotected 
 

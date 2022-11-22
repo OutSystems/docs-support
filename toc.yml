@@ -404,6 +404,10 @@
     - href: licensing/how-licensing-works.md
     - href: licensing/app-object-count.md
     - href: licensing/check-license-includes.md
+    - href: licensing/ipp/what-is-ipp.md
+    - topics:
+        - href: licensing/ipp/used-ipp-portal.md
+        - href: licensing/ipp/ip-rights-not-granted.md
     - href: licensing/add-new-environment.md
     - href: licensing/whats-a-personal.md
     - href: licensing/infrastructure-under-hood.md
@@ -426,13 +430,6 @@
             - href: enterprise/licensing/manage/howto-install-license.md
             - href: enterprise/licensing/manage/free-up-environment.md
             - href: enterprise/licensing/manage/enable-db-replica.md
-
-        # Intellectual Property Protection (IPP)
-        - href: enterprise/licensing/ipp/enterprise-licensing-ipp.md
-        - topics:
-            - href: enterprise/licensing/ipp/what-is-ipp.md
-            - href: enterprise/licensing/ipp/used-ipp-portal.md
-            - href: enterprise/licensing/ipp/ip-rights-not-granted.md
 
         # Troubleshooting
         - href: enterprise/licensing/troubleshooting/enterprise-licensing-trouble.md
