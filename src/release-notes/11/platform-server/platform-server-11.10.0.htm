@@ -1,15 +1,17 @@
 ---
-isautopublish: false
+isautopublish: true
 pageprivacy: public
 ---
 
-<h2 id="platform_server_11.10.0">Platform Server 11.10.0</h2>
-<div class="info">Released on Nov 09, 2020</div>
-<h3 id="new_in_platform_server_11.10.0">New in Platform Server 11.10.0</h3>
+<h2 id="platform_server_11.10.0" >Platform Server 11.10.0</h2>
+<div class="info"><p>Released on Nov 09, 2020</p></div>
+
+<h3 id="new_in_platform_server_11.10.0" >New in Platform Server 11.10.0</h3>
 <ul>
 <li>The error logs about the server responses in Mobile/Reactive apps now have information about the endpoint in use. (RAR-259)</li>
 <li>You can now try out the Reactive and Mobile applications using the React 16 version. Start by enabling this technical preview feature in LifeTime. (RAR-270)</li>
-<li>Fixed a bug that was blocking the user to set big extensibility configurations on LifeTime. It depends on LifeTime version 11.6.1. (RLIT-3938)</li>
+<li>Fixed a bug that was blocking the user to set big extensibility configurations on LifeTime.
+It depends on LifeTime version 11.6.1. (RLIT-3938)</li>
 <li>Added support for email SMTP servers using implicit SSL connections on port 465. (RPD-4025)</li>
 <li>It is now possible to apply settings to the OutSystems factory using a command-line flag of Configuration Tool. (RPD-4862)</li>
 <li>Added a retry mechanism for database deadlocks that occur while obtaining user information from the database. (RPST-374)</li>
@@ -21,7 +23,7 @@ pageprivacy: public
 <li>You can now optimize the amount of data transferred from the server side to the client side of Mobile and Reactive Web Apps. The optimization works for Screen Aggregates, Data Actions, and for the Server Actions in the logic flows of Screen Client Actions. This is a technical preview feature and you need to activate the option "Client-side optimizations for Reactive Web Apps" or "Client-side optimizations for Mobile Apps". (RTAFB-3260)</li>
 <li>You can now translate the UI of your Reactive Web Apps and Mobile Apps directly inside Service Studio. Multilingual is a technical preview feature and you need to activate the option "Multilingual for Mobile and Reactive" in LifeTime. After enabling the feature, use the new Multilingual Locales folder and new SetCurrentLocale system client action. (RTAFB-3388)</li>
 </ul>
-<h3 id="bug_fixing_11.10.0">Bug Fixing</h3>
+<h3 id="bug_fixing_platform_server_11.10.0" >Bug Fixing</h3>
 <ul>
 <li>Fixed the app upgrade mechanism when technical preview "Configure Mobile application updates distribution" is on. Previously, a native mobile app would still use the hybrid updates on the first load. (RAR-219)</li>
 <li>Improved the error message when the app requires local storage access and IndexedDB isn't supported. (RAR-220)</li>
@@ -49,9 +51,11 @@ pageprivacy: public
 <li>Fixed an issue that was preventing you from deactivating App Feedback, once you activated it for Reactive Web Apps. (RPM-362)</li>
 <li>Fixed issue that caused width of a Dropdown widget defined in Service Studio to be ignored in runtime. (RPM-413)</li>
 <li>Fixed database error in Oracle when publishing a module whose extended configurations exceed 4000 chars. (RPM-465)</li>
-<li>Fixed an issue that caused System Components installation via Configuration Tool to timeout when the Platform Server is under heavy use (RSUPT-292). The fix consists of changing the 20 minutes timeout on the entire System Component installation, to 5 minutes timeout on each module. (RPM-500)</li>
+<li>Fixed an issue that caused System Components installation via Configuration Tool to timeout when the Platform Server is under heavy use. (RSUPT-292)
+
+The fix consists of changing the 20 minutes timeout on the entire System Component installation, to 5 minutes timeout on each module. (RPM-500)</li>
 <li>Fixed database error in Oracle when publishing a module whose extended configurations exceed 4000 chars. (RPM-539)</li>
-<li>Improved the error message shown when a module is not found while publishing a solution. Now the message states "Module <module-name> with version <version-number> not found" instead of "The given key was not present in the dictionary". (RPST-363)</version-number></module-name></li>
+<li>Improved the error message shown when a module is not found while publishing a solution. Now the message states "Module <module-name> with version <version-number> not found" instead of "The given key was not present in the dictionary". (RPST-363)</li>
 <li>Fixed an issue in re-deploy operations that, in some situations, reused the folder of the currently running application. (RPST-371)</li>
 <li>Fixed database error in oracle when publishing a module whose extended configurations exceed 4000 characters. (RPST-926)</li>
 <li>Fixed issue in extension compilation during upgrades when the extension used deprecated internal methods. (RRCT-2956)</li>
@@ -64,7 +68,7 @@ pageprivacy: public
 <li>We added support for logging request events of server-side executions in Mobile and Reactive Web Apps. The logging of these request events is disabled by default. (RRCT-2985)</li>
 <li>Timestamps used for session fixation protection are now stored using the UTC time zone. This prevents checks from being too aggressive during Daylight Saving Time transitions. (RRCT-3051)</li>
 <li>Fixed an issue where applications became unavailable while publishing solutions due to License Validations. (RRCT-3215)</li>
-<li>Updated the MySQL driver to version 8.0.20 and updated its dependencies. (RSAT-1965)</li>
+<li>Updated the MySQL driver to version 8.0.21 and updated its dependencies. (RSAT-1965)</li>
 <li>Improvement on performance for session model in Oracle. To take advantage of this improvement, you will need to upgrade the Session Database in Configuration Tool. (RSAT-1977)</li>
 <li>Fixed an issue that prevented users from logging in to Service Center after installing the platform. (RSAT-2228)</li>
 <li>Fixed an issue that prevented using special characters such as ";" (semicolon) in database passwords. (RSAT-2239)</li>
@@ -84,3 +88,4 @@ pageprivacy: public
 <li>We fixed a compilation error when using a Client Variable as the value for the Max Records property of a Screen Aggregate. (RTAFB-3336)</li>
 <li>Fixed an issue that prevented the "Distribute as PWA" toggle value to be persisted between environments when staging an app in LifeTime. (RTAFB-3411)</li>
 </ul>
+
