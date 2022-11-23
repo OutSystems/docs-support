@@ -81,6 +81,4 @@ Plugin requirements for **MABS 9.0**. For more details, please check the Forge b
 
 Here is the list of issues that may affect the building of your apps with MABS 9.0.
 
-- None
-
 -----
