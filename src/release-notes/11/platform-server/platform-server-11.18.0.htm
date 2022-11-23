@@ -15,10 +15,10 @@ Inspired by <a href="https://www.outsystems.com/ideas/9904/service-center-descri
 <li>It is now possible to filter the screens logs by User.
 Inspired by <a href="https://www.outsystems.com/ideas/9930/filter-by-user-on-screen-requests-log/">Luís Figueiredo's idea</a>. (R11CT-311)</li>
 <li>Added support for the redaction of header and body parameters of an exposed REST API when the Logging Level is set to Full or Troubleshoot. (R11DT-1118)</li>
-<li>Added the ability to deploy all modules prepared during an upgrade. It is now possible to optionally, after upgrading your OutSystems environment to Platform Server 11.18.0+ version, to immediately deploy all modules that were successfully prepared.
+<li>Added the ability to deploy all modules prepared during an upgrade. It is now possible to optionally, after upgrading your OutSystems environment to Platform Server 11.18.0 or higher, to immediately deploy all modules that were successfully prepared.
 If executed, the "Deploy All" action will reflect all changes and improvements from the new Platform Server version in the applications running code.<br/>
 
-We recommend that customers skip this step and instead publish modules and/or apps manually as needed. Nevertheless, for those customers/scenarios where a deploy of all upgraded applications is needed ASAP, customers now have the option to do it.<br/>
+We recommend that customers skip this step and instead publish modules and/or apps manually as needed. Nevertheless, for those customers/scenarios where a deploy of all upgraded applications is needed as soon as possible, customers now have the option to do it.<br/>
 
 For more details about the deployment of prepared modules check <a href="documentation_link">the documentation</a>. (R11PIT-885)</li>
 <li>Solution publishing was optimized and is now up to 40% faster in large factories. (R11PT-80)</li>
@@ -31,11 +31,9 @@ When upgrading the Platform to version 11.18.0 by running the Configuration Tool
 <h3 id="bug_fixing_platform_server_11.18.0" >Bug Fixing</h3>
 <ul>
 <li>Fixed an issue that prevented some licensing errors from displaying the correct error message. (R11BRT-152)</li>
-<li>Fixed an issue that caused a failed SAP connection when clicking the "Test Connection" button in Service Center. (R11DT-1452)</li>
-<li>Improved performance of Pool Garbage Collector job (R11PIT-778)</li>
+<li>Improved the performance of the Compiler Pool Garbage Collector. (R11PIT-778)</li>
 <li>Updated installation checklist to add information regarding the need to have "Create Symbolic Links" permission when running the configuration tool. (R11PIT-784)</li>
-<li>Added disclaimers relating to the use of the "Create/Upgrade Service" in custom RabbitMQ installation scenarios in Configuration Tool and Installation Checklist. (R11PIT-807)</li>
-<li>Fixed an issue that caused Service Studio to assume the wrong module version as the most recent when using Oracle RAC databases. (R11PT-24)</li>
+<li>Added disclaimers relating to the use of the "Create/Upgrade Service" in custom RabbitMQ installation scenarios in the Configuration Tool and Installation Checklist. (R11PIT-807)</li>
 <li>Fixed an issue during publishing that caused an "Upgrade Error: Generic SQL Error. Execution Timeout Expired.  The timeout period elapsed prior to completion of the operation or the server is not responding." error.
 This occurred in environments using a SQL Server database while trying to re-publish modules that are able to change Site Properties at runtime and after that triggering other long running requests. (RPM-1032) <span class="cattag">Publish Operation</span> </li>
 <li>Fixed an issue in Factory Configuration that prevented Shared Configurations from being saved and caused an error related with Administrator permissions.<br/> 
@@ -43,13 +41,17 @@ This occurred when shared configurations were associated with deleted Modules. (
 <li>Added logs to provide additional information when deployment service fails. (RPM-1202) <span class="cattag">Infrastructure Management</span>  <span class="cattag">OutSystems Services</span> </li>
 <li>Fixed an issue that occurred after creating a foreign key that caused database locks with wait type "enq: TM – contention" and a significant increase in the database CPU usage.<br/>
 This happened in environments using an Oracle database. (RPM-1609) <span class="cattag">Publish Operation</span> </li>
-<li>Fixed an issue in LifeTime that caused deployment plans to fail due to lack of user permissions when no new reference was added. (RPM-1689) <span class="cattag">Application Lifecycle</span>  <span class="cattag">LifeTime</span> </li>
+<li>Fixed an issue that caused LifeTime to show the Deploy Now button to users when they don't have permission to publish to the target environment. If the user without permissions started the deployment, it could lead to one of the following:
+<ul>
+<il>If the deployment plan included modules for which the user didn't have "Change and Deploy" or higher permissions and if those modules had broken dependencies, the deployment concluded with errors. This left deployed modules with broken dependencies, which could lead to runtime errors. </il>
+<il>Otherwise, the deployment would fail due to lack of the required permissions.</il>
+</ul> (RPM-1689) <span class="cattag">Application Lifecycle</span>  <span class="cattag">LifeTime</span> </li>
 <li>Fixed an issue that caused modules and apps to have different settings in different servers of the same Deployment Zone.<br/>
 This occurred after adding more servers to a Deployment Zone and then changing settings of a module or app that was deployed before the new server was added. (RPM-1830) <span class="cattag">Application Runtime</span> </li>
 <li>Fixed an issue that caused a deployment to fail with an ORA-01440 error in environments using an Oracle database.<br/>
 This occurred when deploying a module after decreasing the precision or scale of an entity's attribute, by changing its Data Type, or the Length or Decimals properties.<br/>
 Now, compilation checks whether a change to an attribute's data type would raise the ORA-01440 error. (RPM-2042) <span class="cattag">Publish Operation</span> </li>
-<li>Fixed an issue that caused Service Studio to assume the wrong module version as the most recent when using Oracle RAC databases. (RPM-2220) <span class="cattag">Publish Operation</span>  <span class="cattag">Deployment stage</span> </li>
+<li>Fixed an issue that caused Service Studio and Service Center to assume the wrong module version as the most recent when using Oracle RAC databases. (RPM-2220) <span class="cattag">Publish Operation</span>  <span class="cattag">Deployment stage</span> </li>
 <li>Fixed an issue that caused different module runtime behavior depending on the Debug Mode for the module. Learn more about <a href="https://success.outsystems.com/Documentation/11/Setup_and_maintain_your_OutSystems_infrastructure/Setting_Up_OutSystems/Configure_your_OutSystems_environment#environment-debug-mode">environment and module Debug Mode</a>.<br/>
 This occurred in actions that included asynchronous logic and that were set as event handlers. For example, this affected the behavior of the Button Loading widget. (RPM-2269) <span class="cattag">Application Runtime</span>  <span class="cattag">Logic Execution</span> </li>
 <li>Improved NLS_Language tooltip's text in the Database Connection detail screen. (RPM-2398) <span class="cattag">Application Runtime</span>  <span class="cattag">Data Access and Manipulation</span> </li>
