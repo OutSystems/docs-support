@@ -43,8 +43,8 @@ This occurred when shared configurations were associated with deleted Modules. (
 This happened in environments using an Oracle database. (RPM-1609) <span class="cattag">Publish Operation</span> </li>
 <li>Fixed an issue that caused LifeTime to show the Deploy Now button to users when they don't have permission to publish to the target environment. If the user without permissions started the deployment, it could lead to one of the following:
 <ul>
-<il>If the deployment plan included modules for which the user didn't have "Change and Deploy" or higher permissions and if those modules had broken dependencies, the deployment concluded with errors. This left deployed modules with broken dependencies, which could lead to runtime errors. </il>
-<il>Otherwise, the deployment would fail due to lack of the required permissions.</il>
+<li>If the deployment plan included modules for which the user didn't have "Change and Deploy" or higher permissions and if those modules had broken dependencies, the deployment concluded with errors. This left deployed modules with broken dependencies, which could lead to runtime errors.</li>
+<li>Otherwise, the deployment would fail due to lack of the required permissions.</li>
 </ul> (RPM-1689) <span class="cattag">Application Lifecycle</span>  <span class="cattag">LifeTime</span> </li>
 <li>Fixed an issue that caused modules and apps to have different settings in different servers of the same Deployment Zone.<br/>
 This occurred after adding more servers to a Deployment Zone and then changing settings of a module or app that was deployed before the new server was added. (RPM-1830) <span class="cattag">Application Runtime</span> </li>
