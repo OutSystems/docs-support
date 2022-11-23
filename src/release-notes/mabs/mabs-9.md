@@ -1,3 +1,10 @@
+---
+summary: MABS 9 release notes
+guid: a073779f-9034-40d3-a988-d1f20494c31c
+locale: en-us
+app_type: mobile apps
+---
+
 # MABS 9 Release notes
 
 <div class="info">
