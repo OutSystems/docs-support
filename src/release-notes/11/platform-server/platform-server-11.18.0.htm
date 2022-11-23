@@ -36,7 +36,8 @@ When upgrading the Platform to version 11.18.0 by running the Configuration Tool
 <li>Updated installation checklist to add information regarding the need to have "Create Symbolic Links" permission when running the configuration tool. (R11PIT-784)</li>
 <li>Added disclaimers relating to the use of the "Create/Upgrade Service" in custom RabbitMQ installation scenarios in Configuration Tool and Installation Checklist. (R11PIT-807)</li>
 <li>Fixed an issue that caused Service Studio to assume the wrong module version as the most recent when using Oracle RAC databases. (R11PT-24)</li>
-<li>Fixed a lock while updating Site Properties on long requests. (RPM-1032) <span class="cattag">Publish Operation</span> </li>
+<li>Fixed an issue during publishing that caused an "Upgrade Error: Generic SQL Error. Execution Timeout Expired.  The timeout period elapsed prior to completion of the operation or the server is not responding." error.
+This occurred in environments using a SQL Server database while trying to re-publish modules that are able to change Site Properties at runtime and after that triggering other long running requests. (RPM-1032) <span class="cattag">Publish Operation</span> </li>
 <li>Fixed an issue in Factory Configuration that prevented Shared Configurations from being saved and caused an error related with Administrator permissions.<br/> 
 This occurred when shared configurations were associated with deleted Modules. (RPM-1175) <span class="cattag">Application Runtime</span>  <span class="cattag">Supported Forge Component</span> </li>
 <li>Added logs to provide additional information when deployment service fails. (RPM-1202) <span class="cattag">Infrastructure Management</span>  <span class="cattag">OutSystems Services</span> </li>
@@ -71,7 +72,7 @@ This occurred when the Database Catalog had its Name set differently than the Lo
 <li>Fixed an issue that caused a failed SAP connection when clicking the "Test Connection" button in Service Center.<br/>
 This occurred when the SAP credentials were defined in Service Center, and then you navigated to another Service Center screen or refreshed the SAP connection screen before testing the connection. (RPM-2871) <span class="cattag">Application Lifecycle</span>  <span class="cattag">Service Center</span> </li>
 <li>Improved telemetry collection for Progressive Upgrade errors. (RPM-2889) <span class="cattag">Infrastructure Management</span> </li>
-<li>Fixed an issue that prevented customers from proceeding with an ongoing upgrade due to an unusual longer initialization of Compiler service. (RPM-3126) <span class="cattag">Infrastructure Management</span>  <span class="cattag">Platform Configuration</span> </li>
+<li>Fixed an issue that prevented customers from proceeding with an ongoing upgrade due to an unusual longer initialization of OutSystems Deployment Controller Service. (RPM-3126) <span class="cattag">Infrastructure Management</span>  <span class="cattag">Platform Configuration</span> </li>
 <li>Fixed a bug that lead to compilation errors in modules with consumed SOAP Web Services or that referenced a module that consumed SOAP Web Services.<br/>
 This occurred in environments using Platform Server 11.17.0 or later. (RPM-3176) <span class="cattag">Publish Operation</span>  <span class="cattag">Compilation</span> </li>
 <li>Fixed an issue that caused the SynchronizeDomainUsers timer to fail with errors.<br/>
@@ -80,6 +81,8 @@ This occurred when an end user was set as active in the Users app but didn't exi
 This occurred after trying to start the Deploy Service and Scheduler while the platform database is down. (RPM-787) <span class="cattag">Platform Installation</span>  <span class="cattag">OutSystems Services</span> </li>
 <li>Fixed an issue that caused non-identifier attributes with Auto Number enabled to not be incremented when creating new records.<br/>
 This occurred in environments using an Oracle database. (RPM-882) <span class="cattag">Application Runtime</span>  <span class="cattag">Data Access and Manipulation</span> </li>
-<li>Fixed an issue where outdated scripts would be executed when republishing a module that had failed during deployment. Now compilation files will be deleted after a deployment error to ensure they aren't reused in the following deployment. (RPM-957) <span class="cattag">Platform Installation</span>  <span class="cattag">Configuration</span> </li>
+<li>Fixed an issue where outdated scripts would be executed when republishing a module for which a previous deployment failed.<br/>
+This could cause an upgrade error while deploying Service Center during a Platform Server upgrade or when rolling back the platform to an older database state using a database clone.<br/>
+Now, compilation files are deleted after a deployment error to ensure they aren't reused in the following deployment. (RPM-957) <span class="cattag">Platform Installation</span>  <span class="cattag">Configuration</span> </li>
 </ul>
 
