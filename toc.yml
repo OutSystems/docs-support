@@ -1,4 +1,4 @@
-# Support 
+# Support
 
 # Release notes
 - href: release-notes/intro.md
@@ -22,6 +22,7 @@
     - href: release-notes/mabs/mabs-versions.md
     - topics:
         - href: release-notes/mabs/mabs-beta-support.md
+        - href: release-notes/mabs/mabs-9.md
         - href: release-notes/mabs/mabs-8.md
         - href: release-notes/mabs/mabs-7.md
         - href: release-notes/mabs/mabs-6.md
