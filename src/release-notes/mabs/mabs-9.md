@@ -55,9 +55,11 @@ It's recommended to update all supported plugins to the latest version available
 ### Bug Fixing
 
 * [2022-11-23 12:00:00 UTC] HTTP plugin now synchronizes cookies when following redirects. (RNMT-5868)
+
 ### System Requirements
 
 Plugin requirements for **MABS 9.0**. For more details, please check the Forge by clicking on the plugin name
+
 |Plugin|Required minimum version|
 |:--|---|
 |[SSL Pinning](https://www.outsystems.com/forge/component-versions/1873)|6.0.2 or later|
