@@ -25,7 +25,7 @@ See [Support provided for beta versions](mabs-beta-support.md) for more informat
 
 <div class="info" markdown="1">
 
-## **Version 9.0 (Beta)** - [See Release Notes](mabs-9.md)<br/>
+## **Version 9.0 (Beta)** - [See Release Notes](https://success.outsystems.com/Support/Release_Notes/Mobile_Apps_Build_Service_Versions/MABS_9_Release_notes#mabs-version-9.0)<br/>
 Released on November 23 2022 - Deprecation date to be announced
 
 </div>
