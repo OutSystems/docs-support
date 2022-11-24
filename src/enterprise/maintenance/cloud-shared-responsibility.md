@@ -24,7 +24,7 @@ In the OutSystems Cloud, OutSystems shares control of the cloud environments wit
 
 This approach relieves you of the operational burden as OutSystems operates, manages, and controls the components from the platform down to the infrastructure as explained in the following diagram.
 
-![OutSystems Cloud shared responsability model](images/outsystems-cloud-shared-responsibility-diag.png)
+![OutSystems Cloud shared responsability model](images/outsystems-cloud-shared-responsibility-model-diag.png)
 
 OutSystems uses several layers of defense to prevent various types of threats and achieve compliance with security frameworks such as  SOC 2, SOC 3, PCI-DSS, and ISO 27001 without compromising application performance. 
 
