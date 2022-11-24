@@ -75,12 +75,13 @@ This version can run your apps on:
     </tbody>
 </table>
 
-<div class="info" markdown="1">
 
-## Supported
+# Supported
 
 You get full support through the support requests for the version, along with the bug fixes for the version.
 
+
+<div class="info" markdown="1">
 
 ## **Version 8.1** - [See Release Notes](https://success.outsystems.com/Support/Release_Notes/Mobile_Apps_Build_Service_Versions/MABS_8_Release_notes#mabs-version-8.1)<br/>
 Released on April 6 2022 - Deprecation date to be announced
