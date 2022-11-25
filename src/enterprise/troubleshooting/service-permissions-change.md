@@ -25,18 +25,21 @@ Active Directory settings can block the installation script from creating users 
 Change your Active Directory settings through the Group Policy Management console. For example, a user with global admin permissions can change settings on the domain controller as follows:
 
 1. Go to **Group Policy Management**. 
-2. Create a new group policy. 
-3. In **Policies** > **Security Settings** > **User Rights Assignment**, select **Create symbolic links** to open the Properties dialog box.
-4. Select **Define these policy settings**, and click **Add Users or Groups**.
-### For platform versions prior to 11.18:
-5. In the **User and group names field**, type the users **OSControllerUser** and **OSSchedulerUser** and click **Apply**. The users you added should appear in the **Policy Setting** column. 
+1. Create a new group policy. 
+1. In **Policies** > **Security Settings** > **User Rights Assignment**, select **Create symbolic links** to open the Properties dialog box.
+1. Select **Define these policy settings**, and click **Add Users or Groups**.
+
+### For Platform Server versions prior to 11.18.0
+
+In the **User and group names field**, type the users **OSControllerUser** and **OSSchedulerUser** and click **Apply**. The users you added should appear in the **Policy Setting** column. 
 
 The following screen shows where **OSControllerUser** and **OSSchedulerUser** appear in **Security Settings**.
 
 ![](images/permissions-group-policy-change.png)
 
-### For platform versions 11.18 or later:
-5. In the **User and group names field**, type the users **NT Service\OutSystems Deployment Controller Service** and **NT Service\OutSystems Scheduler Service** and click **Apply**. The users you added should appear in the **Policy Setting** column. 
+### For Platform Server versions 11.18.0 or later
+
+In the **User and group names field**, type the users **NT Service\OutSystems Deployment Controller Service** and **NT Service\OutSystems Scheduler Service** and click **Apply**. The users you added should appear in the **Policy Setting** column. 
 
 The following screen shows where **NT Service\OutSystems Deployment Controller Service** and **NT Service\OutSystems Scheduler Service** appear in **Security Settings**.
 
