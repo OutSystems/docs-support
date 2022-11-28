@@ -22,9 +22,9 @@
     - href: release-notes/mabs/mabs-versions.md
     - topics:
         - href: release-notes/mabs/mabs-beta-support.md
-        - href: release-notes/mabs/mabs-9/mabs-9.md
+        - href: release-notes/mabs/9/mabs-9.md
         - topics:
-            - href: release-notes/mabs/mabs-9/mabs-9.0/mabs-9.0.md
+            - href: release-notes/mabs/9/9.0/mabs-9.0.md
         - href: release-notes/mabs/mabs-8.md
         - href: release-notes/mabs/mabs-7.md
         - href: release-notes/mabs/mabs-6.md
