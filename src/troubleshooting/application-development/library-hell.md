@@ -9,7 +9,7 @@ app_type: traditional web apps, mobile apps, reactive web apps
 
 If one is developing in multiple modules at a time, it may happen that a change is made to a producer module (for example, at an integration level) and there is the need to see the change reflected in a consumer module. In some situations, simply republishing the consumer module solves the problem. But in others, the changes don't get reflected in the consumers. 
 
-This situation can be time-consuming and lead to frustration by the developer - who may believe there is a problem with his code and trigger a wild goose chase. 
+This situation can be time-consuming and lead to frustration by the developer - who may believe there is a problem with their code and trigger a wild goose chase. 
 
 Most of the times this problem happens is because of a reason: Library hell. This is something that can happen as your OutSystems application becomes more complex, with more levels of consumer/producer modules. Library Hell is a generalization of concepts already in use in the software industry, which are the root cause of the behavior (particularly DLL hell and Jar hell).
 
