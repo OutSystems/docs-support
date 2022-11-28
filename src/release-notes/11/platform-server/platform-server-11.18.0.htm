@@ -90,3 +90,7 @@ This could cause an upgrade error while deploying Service Center during a Platfo
 Now, compilation files are deleted after a deployment error to ensure they aren't reused in the following deployment. (RPM-957) <span class="cattag">Platform Installation</span>  <span class="cattag">Configuration</span> </li>
 </ul>
 
+<h3>Known Issue</h3>
+<ul>
+<li>In factories where modules have pending configuration changes warnings in Service Center, the usage of Deploy All will not clear those warnings. Don't worry, your modules will be running with the most updated configurations.</li>
+</ul>
