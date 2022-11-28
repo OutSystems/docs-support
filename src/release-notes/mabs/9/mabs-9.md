@@ -5,7 +5,7 @@ locale: en-us
 app_type: mobile apps
 ---
 
-# MABS 9 Release notes
+# MABS 9
 
 <div class="info">
 
