@@ -10,7 +10,7 @@ pageprivacy: public
 <style>.cattag {background: #f4f2ff; color: #6a6581; padding: 4px 10px;}</style>
 <h3 id="new_in_platform_server_11.18.0" >New in Platform Server 11.18.0</h3>
 <ul>
-<li>Improved the DLL loading mechanism of Platform Services and Applicational Runtime for Database Connectors/Plugins and their referenced DLLs. This may impact some third-party/custom Database Connectors/Plugins (built with the Database Connector SDK) and some applications available on Forge. Find more about this breaking change <a href="https://success.outsystems.com/Support/Release_Notes/11/OutSystems_11_side_effects_and_breaking_changes">here</a>. (R11BRT-173)</li>
+<li>Improved the DLL loading mechanism of Platform Services and Applicational Runtime for Database Connectors/Plugins and their referenced DLLs. This may bring breaking changes to some third-party/custom Database Connectors/Plugins (built with the Database Connector SDK) and some assets available on Forge. Find more about these breaking changes <a href="https://success.outsystems.com/Support/Release_Notes/11/OutSystems_11_side_effects_and_breaking_changes#introduced-in-platform-server-11.18.0">here</a>. (R11BRT-173)</li>
 <li>It is now possible to see the site property description in the table on the Site Properties list screen.
 Inspired by <a href="https://www.outsystems.com/ideas/9904/service-center-description-of-site-properties-in-the-list-page/">Takasi Moriya</a> and <a href="https://www.outsystems.com/ideas/12306/display-descriptions-for-site-property-tab-in-service-center/">Raphael Laurence Reyno's ideas</a>. (R11CT-308)</li>
 <li>It is now possible to filter the screens logs by User.
@@ -90,7 +90,15 @@ This could cause an upgrade error while deploying Service Center during a Platfo
 Now, compilation files are deleted after a deployment error to ensure they aren't reused in the following deployment. (RPM-957) <span class="cattag">Platform Installation</span>  <span class="cattag">Configuration</span> </li>
 </ul>
 
+<h3>Breaking change</h3>
+<ul>
+<li>The Platform Server installer was modified to delete specific third-party DLLs from the \plugins\database folder and recreate them in new subfolders. This can prevent third-party/custom external Database Connectors from functioning. Check more detail on how to deal with this breaking change <a href="https://success.outsystems.com/Support/Release_Notes/11/OutSystems_11_side_effects_and_breaking_changes#bc-11180-1">here</a>.</li>
+<li>Applications that use custom database connections can start to have runtime errors such as `Could not load file or assembly 'Google.Protobuf, Version=3.12.3.0, Culture=neutral, PublicKeyToken=a7d26565bac4d604' or one of its dependencies. The system cannot find the file specified.` Check more detail on how to deal with this breaking change <a href="https://success.outsystems.com/Support/Release_Notes/11/OutSystems_11_side_effects_and_breaking_changes#bc-11180-2">here</a>.</li>
+</ul>
+
+
 <h3>Known Issue</h3>
 <ul>
 <li>In factories where modules have pending configuration changes warnings in Service Center, the usage of Deploy All will not clear those warnings. Don't worry, your modules will be running with the most updated configurations.</li>
 </ul>
+
