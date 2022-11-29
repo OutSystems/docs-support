@@ -585,7 +585,7 @@ You should only use this workaround if it's not viable to fix all the affected e
 
 ### Introduced in Platform Server 11.18.0
 
-1\. <a name="bc-11180-1"></a>
+1\. <a id="bc-11180-1"></a>
 
 **Issue**: The installer was modified to delete specific third-party DLLs from the `\plugins\database` folder and recreate them in new subfolders. This can prevent third-party/custom external Database Connectors from functioning.
 
@@ -648,7 +648,7 @@ To prevent this, when upgrading to Platform Server 11.18.0 or higher, complete t
 
 **Note**: OutSystems services must be restarted, and Service Center republished for the plugin to be detected. The Configuration Tool does this automatically on an upgrade.
 
-2\. <a name="bc-11180-2"></a>
+2\. <a id="bc-11180-2"></a>
 
 **Issue**: As a side effect of [breaking change number 1](#bc-11180-1), applications that use custom database connections can start to have runtime errors such as `Could not load file or assembly 'Google.Protobuf, Version=3.12.3.0, Culture=neutral, PublicKeyToken=a7d26565bac4d604' or one of its dependencies. The system cannot find the file specified.`
 
