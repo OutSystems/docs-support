@@ -658,9 +658,9 @@ To prevent this, when upgrading to Platform Server 11.18.0 or higher, complete t
 
 **Fix**: 
 
-<!--If you're using the Forge asset [Secret Manager Local Service](https://www.outsystems.com/forge/component-overview/13476/secret-manager-local-service), update it to the latest version.-->
+* If you're using the [Secret Manager Local Service](https://www.outsystems.com/forge/component-overview/13476/secret-manager-local-service) Forge asset, update it to the latest version. Then, refresh the dependencies on the consumers and republish them.
 
-If you're using a custom database connector packed in an extension, add the DLL to the extension and publish it. Refresh the references on the consumers and republish them.
+* If you're using a custom database connector packed in an extension, add the DLL to the extension and publish it. Refresh the dependencies on the consumers and republish them.
 
 **Workaround**: In case you can't use any of the above fixes, do the following:
 
