@@ -1,5 +1,4 @@
-﻿
----
+﻿---
 summary: Recomended actions for the error "The attribute has recursive references, which are not supported by OutSystems. Please deselect it before proceeding." in Integration Builder.
 tags:
 locale: en-us
