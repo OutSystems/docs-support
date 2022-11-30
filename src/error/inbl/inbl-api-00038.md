@@ -6,7 +6,7 @@ guid: 70184542-5898-4a4d-aac5-13733efe603a
 app_type: traditional web apps, mobile apps, reactive web apps
 ---
 
-# OS-INBL-API-00038 - An error occurred while getting a token from the Microsoft Identity Platform
+# OS-INBL-API-00038
 
 ## Error message
 
