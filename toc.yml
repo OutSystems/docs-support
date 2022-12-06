@@ -138,30 +138,31 @@
     # Vulnerabilities
     - href: security/vulnerabilities/intro.md
     - topics:
-        - href: security/vulnerabilities/vulnerability-RLIT-3368.md
-        - href: security/vulnerabilities/vulnerability-RPD-2322.md
-        - href: security/vulnerabilities/vulnerability-RPD-3849.md
-        - href: security/vulnerabilities/vulnerability-RPD-4260.md
-        - href: security/vulnerabilities/vulnerability-RLIT-2388.md
-        - href: security/vulnerabilities/vulnerability-RPD-2903.md
-        - href: security/vulnerabilities/vulnerability-RPD-3384.md
-        - href: security/vulnerabilities/vulnerability-RPD-4310.md
-        - href: security/vulnerabilities/vulnerability-RPD-5160.md
-        - href: security/vulnerabilities/vulnerability-RTAF-2226.md
-        - href: security/vulnerabilities/vulnerability-RTAF-3379.md
-        - href: security/vulnerabilities/vulnerability-RDEV-2256.md
-        - href: security/vulnerabilities/vulnerability-RICT-2849.md
-        - href: security/vulnerabilities/vulnerability-RPSFCT-55.md
-        - href: security/vulnerabilities/vulnerability-RICT-2855.md
-        - href: security/vulnerabilities/vulnerability-RCFT-4197.md
-        - href: security/vulnerabilities/vulnerability-RICT-2673.md
-        - href: security/vulnerabilities/vulnerability-RPM-657.md
-        - href: security/vulnerabilities/vulnerability-RPM-683.md
-        - href: security/vulnerabilities/vulnerability-RPM-786.md
-        - href: security/vulnerabilities/vulnerability-RPM-813.md
-        - href: security/vulnerabilities/vulnerability-RPM-1278.md
-        - href: security/vulnerabilities/vulnerability-RPM-1054.md
         - href: security/vulnerabilities/vulnerability-RPM-689.md
+        - href: security/vulnerabilities/vulnerability-RPM-1054.md
+        - href: security/vulnerabilities/vulnerability-RPM-1278.md   
+        - href: security/vulnerabilities/vulnerability-RPM-813.md
+        - href: security/vulnerabilities/vulnerability-RPM-786.md
+        - href: security/vulnerabilities/vulnerability-RPM-683.md
+        - href: security/vulnerabilities/vulnerability-RPM-657.md
+        - href: security/vulnerabilities/vulnerability-RICT-2673.md
+        - href: security/vulnerabilities/vulnerability-RCFT-4197.md
+        - href: security/vulnerabilities/vulnerability-RICT-2855.md
+        - href: security/vulnerabilities/vulnerability-RPSFCT-55.md
+        - href: security/vulnerabilities/vulnerability-RICT-2849.md
+        - href: security/vulnerabilities/vulnerability-RDEV-2256.md
+        - href: security/vulnerabilities/vulnerability-RTAF-3379.md
+        - href: security/vulnerabilities/vulnerability-RTAF-2226.md
+        - href: security/vulnerabilities/vulnerability-RPD-5160.md
+        - href: security/vulnerabilities/vulnerability-RPD-4310.md
+        - href: security/vulnerabilities/vulnerability-RPD-3384.md
+        - href: security/vulnerabilities/vulnerability-RPD-2903.md
+        - href: security/vulnerabilities/vulnerability-RLIT-2388.md 
+        - href: security/vulnerabilities/vulnerability-RPD-4260.md
+        - href: security/vulnerabilities/vulnerability-RPD-3849.md                                                                                                                                              
+        - href: security/vulnerabilities/vulnerability-RPD-2322.md
+        - href: security/vulnerabilities/vulnerability-RLIT-3368.md
+
     # How OutSystems Platform helps you develop secure applications
     - href: security/develop-secure-apps/intro.md
     - topics:
