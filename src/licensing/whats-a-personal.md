@@ -83,7 +83,7 @@ Detaching the source code of your applications is only available for subscriptio
 
 * **No VPN:** You can't request the creation of a VPN connection in your Personal Environment.
 
-* **SaaS components:** OutSystems provides SaaS components such as, for example, [Architecture Dashboard](https://success.outsystems.com/Documentation/11/Managing_the_Applications_Lifecycle/Manage_technical_debt/), [Workflow Builder](https://success.outsystems.com/Documentation/Workflow_Builder) or [Experience Builder](https://success.outsystems.com/Documentation/Experience_Builder). These components may not be available for Personal Environments, at OutSystems discretion. Make sure to check the requirements in each component's documentation.
+* **SaaS components:** OutSystems provides SaaS components such as, for example, [AI Mentor Studio](https://success.outsystems.com/Documentation/11/Managing_the_Applications_Lifecycle/Manage_technical_debt/), [Workflow Builder](https://success.outsystems.com/Documentation/Workflow_Builder) or [Experience Builder](https://success.outsystems.com/Documentation/Experience_Builder). These components may not be available for Personal Environments, at OutSystems discretion. Make sure to check the requirements in each component's documentation.
 
 ## Additional information
 

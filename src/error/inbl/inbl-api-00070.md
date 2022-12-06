@@ -24,5 +24,5 @@ Integration Manager is not able to contact or navigate to Integration Builder.
 
 ## Recommended action
 
-Make sure that your server's address is correcly configured in Service Center and make sure that it matches the one in the HTTPS certificate.  
-Additionaly you can check the Service Center Error logs for more details.
+Make sure that your server's address is correctly configured in Service Center and make sure that it matches the one in the HTTPS certificate.  
+Additionally, you can check the Service Center Error logs for more details.

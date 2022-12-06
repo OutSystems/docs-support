@@ -17,6 +17,7 @@ pageprivacy: public
 <ul>
 <li>Fixed an issue that caused a deployment to fail when the saved deployment plan included a deleted app. (R11CT-913)</li>
 <li>Fixed a permissions issue when deploying a new application to a target environment. (RPM-2262)</li>
+<li>Fixed an issue that caused stagings to fail with the error “You are not allowed to create an application.“.  This occurred when the staging plan includes a new application that contains only moved modules that were already published to the target, and the user who triggered the staging has Open and Debug permission as default and Change and Deploy for the team that has the application to be deployed. (RPM-2271)</li>
 <li>Fixed an issue preventing an internal field 'template key' from being lost when staging applications between environments.  (RPM-2555)</li>
 <li>Fixed a bug where CSP was not applied correctly in the LifeTime console. CVSSv3.1 score 2.3 (Low). (RPM-2231)</li>
 </ul>

@@ -20,7 +20,7 @@ The OutSystems vulnerability policy covers:
     * LifeTime
     * Service Studio and Integration Studio
     * Mobile Apps Builder Service (MABS)
-    * Architecture Dashboard
+    * AI Mentor Studio
     * Integration Builder
     * Workflow Builder
     * Experience Builder

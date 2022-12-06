@@ -13,7 +13,7 @@ By using encryption you safeguard stored, or in transit, sensitive data from bei
 
 Usually, attackers don’t attempt to break the encryption itself, they break something else. Some examples of attack vectors are stealing plain text data, using Man-in-the-Middle (MITM) attacks, or stealing keys.
 
-The following example illustrates how a MITM attack can be used to listen to a communication between two computers and impersonate a legitimate user after stealing his session (green arrows represent secure connections, while red arrows represent plain text connections):
+The following example illustrates how a MITM attack can be used to listen to a communication between two computers and impersonate a legitimate user after stealing their session (green arrows represent secure connections, while red arrows represent plain text connections):
 
 ![How a MITM attack can be used to listen to a communication between two computers](images/mitm-attack-listen-communication-between-two-computers1.png)
 

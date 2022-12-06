@@ -23,7 +23,7 @@ As such, before introducing a breaking change for a new release, OutSystems care
 
 #### LifeTime and Service Center
 
-1\. <a name="bc-1"></a>
+1\. <a id="bc-1"></a>
 
 **Issue**: LifeTime is now only supported when installed in a dedicated environment.
 
@@ -35,7 +35,7 @@ As such, before introducing a breaking change for a new release, OutSystems care
 
 ---
 
-2\. <a name="bc-2"></a>
+2\. <a id="bc-2"></a>
 
 **Issue**: The following actions are no longer available after uploading an Module in Service Center: "Publish in debug mode", "Publish step by step" and "Publish step by step in debug mode".
 
@@ -47,7 +47,7 @@ As such, before introducing a breaking change for a new release, OutSystems care
 
 #### SMS
 
-3\. <a name="bc-3"></a>
+3\. <a id="bc-3"></a>
 
 **Issue**: Removed support for the SMS feature. Publishing modules with SMS Flows will fail.
 
@@ -59,7 +59,7 @@ As such, before introducing a breaking change for a new release, OutSystems care
 
 #### Database 
 
-4\. <a name="bc-4"></a>
+4\. <a id="bc-4"></a>
 
 **Issue**: The Configuration Tool shows an error when it detects a previous configuration using MySQL.
 
@@ -71,7 +71,7 @@ As such, before introducing a breaking change for a new release, OutSystems care
 
 ---
 
-5\. <a name="bc-5"></a>
+5\. <a id="bc-5"></a>
 
 **Issue**: Publishing an Module with a text entity attribute whose length is longer than 2000 characters but for which the metamodel says its length is exactly 2000 characters causes an error in Oracle, stating that the column's underlying data type cannot be changed.
 
@@ -92,7 +92,7 @@ To check which Modules are affected, run the following query against your Oracle
 
 #### Logs
 
-6\. <a name="bc-6"></a>
+6\. <a id="bc-6"></a>
 
 **Issue**: Joins between log tables and other tables are no longer allowed.
 
@@ -104,7 +104,7 @@ To check which Modules are affected, run the following query against your Oracle
 
 ---
 
-7\. <a name="bc-7"></a>
+7\. <a id="bc-7"></a>
 
 **Issue**: Log entities without "Show Tenant Identifier" will no longer be filtered automatically.
 
@@ -116,7 +116,7 @@ To check which Modules are affected, run the following query against your Oracle
 
 ---
 
-8\. <a name="bc-8"></a>
+8\. <a id="bc-8"></a>
 
 **Issue**: Log entities are now only accessible as read-only.
 
@@ -128,7 +128,7 @@ To check which Modules are affected, run the following query against your Oracle
 
 ---
 
-9\. <a name="bc-9"></a>
+9\. <a id="bc-9"></a>
 
 **Issue**: The OutSystems Log Service is no longer installed in OutSystems 11 first installations. Any automation scripts relying on the existence of this service may issue errors.
 
@@ -140,7 +140,7 @@ To check which Modules are affected, run the following query against your Oracle
 
 #### REST APIs
 
-10\. <a name="bc-10"></a>
+10\. <a id="bc-10"></a>
 
 **Issue**: Name clashes are now detected in REST structures when attributes have the same "Name in JSON" property value. The TrueChange pane will now show an error in this situation.
 
@@ -152,7 +152,7 @@ To check which Modules are affected, run the following query against your Oracle
 
 #### SOAP Web Services
 
-11\. <a name="bc-11"></a>
+11\. <a id="bc-11"></a>
 
 **Issue**: Methods in EnhancedWebReferences API to customize consumed SOAP Web Services (all GetWebReference\* and SetWebReference\* methods) are now deprecated for imported SOAP Web Services created in OutSystems 11 and calls to those methods will be ignored. They can still be used for existing web services, i.e. for SOAP Web Services created in a version older than OutSystems 11 and then upgraded to this version.
 
@@ -164,7 +164,7 @@ To check which Modules are affected, run the following query against your Oracle
 
 ---
 
-12\. <a name="bc-12"></a>
+12\. <a id="bc-12"></a>
 
 **Issue**: Certificates configured in Service Center (Administration > Certificates) can't be used with consumed SOAP Web Services that were created in OutSystems 11. They can still be used for existing web services, i.e. for SOAP Web Services created in a version older than OutSystems 11 and upgraded to this version.
 
@@ -176,7 +176,7 @@ To check which Modules are affected, run the following query against your Oracle
 
 #### Web Server Configuration (IIS) 
 
-13\. <a name="bc-13"></a>
+13\. <a id="bc-13"></a>
 
 **Issue**: IIS application pools that only have OutSystems applications will have their pipeline mode changed from Classic to Integrated.
 
@@ -188,7 +188,7 @@ To check which Modules are affected, run the following query against your Oracle
 
 #### Built-in Functions
 
-14\. <a name="bc-14"></a>
+14\. <a id="bc-14"></a>
 
 **Issue**: Built-in time and data comparison functions `DiffHours`, `DiffMinutes`, and `DiffSeconds` now ignore the milliseconds.
     
@@ -200,7 +200,7 @@ To check which Modules are affected, run the following query against your Oracle
 
 #### JavaScript and HTML Rendering
 
-15\. <a name="bc-15"></a>
+15\. <a id="bc-15"></a>
 
 **Issue**: Having a JavaScript flow element with asynchronous code in a Client Action that is marked as a function returns an error, and it is not possible to publish the module.
 
@@ -212,7 +212,7 @@ To check which Modules are affected, run the following query against your Oracle
 
 ---
 
-16\. <a name="bc-16"></a>
+16\. <a id="bc-16"></a>
 
 **Issue**: Removed 'alt' attribute from the HTML rendering of links in Web Applications. 
 
@@ -224,7 +224,7 @@ To check which Modules are affected, run the following query against your Oracle
 
 ---
 
-17\. <a name="bc-17"></a>
+17\. <a id="bc-17"></a>
 
 **Issue**: Removed 'scheme' attribute from the rendering of meta elements in Web Applications.
 
@@ -236,7 +236,7 @@ To check which Modules are affected, run the following query against your Oracle
 
 #### Custom Handlers
 
-18\. <a name="bc-18"></a>
+18\. <a id="bc-18"></a>
 
 **Issue**: Custom Handlers is a folder where you can define custom pages for common runtime errors.  
 From OutSystems 11 onwards, if a default language is not defined in the Custom Handler folder's `web.config` file, it will be automatically set to "VB" (Visual Basic).
@@ -251,7 +251,7 @@ OutSystems provides default Custom Handlers pages and some of those default page
 
 #### OutSystems APIs
 
-19\. <a name="bc-19"></a>
+19\. <a id="bc-19"></a>
 
 **Issue**: Removed deprecated ApplicationManagementService and EnvironmentManagementService APIs from LifeTime Services.
 
@@ -263,7 +263,7 @@ OutSystems provides default Custom Handlers pages and some of those default page
 
 ---
 
-20\. <a name="bc-20"></a>
+20\. <a id="bc-20"></a>
 
 **Issue**: Removed the ElementVersionInfo structure from LifeTime SDK module.
 
@@ -275,7 +275,7 @@ OutSystems provides default Custom Handlers pages and some of those default page
 
 ---
 
-21\. <a name="bc-21"></a>
+21\. <a id="bc-21"></a>
 
 **Issue**: The `getFrontendKey()` method of the outsystems.api.requestInfo API might return a different key value in OutSystems 11.
 
@@ -287,7 +287,7 @@ OutSystems provides default Custom Handlers pages and some of those default page
 
 #### Extensions
 
-22\. <a name="bc-22"></a>
+22\. <a id="bc-22"></a>
 
 **Issue**: Removed obsolete database access APIs from the RuntimePlatform .NET library.
 
@@ -299,7 +299,7 @@ OutSystems provides default Custom Handlers pages and some of those default page
 
 ---
 
-23\. <a name="bc-23"></a>
+23\. <a id="bc-23"></a>
 
 **Issue**: The Settings class in the RuntimePlatform .NET library is now deprecated and all methods that allowed you to modify settings inside applications were removed.
 
@@ -311,7 +311,7 @@ OutSystems provides default Custom Handlers pages and some of those default page
 
 #### Security
 
-24\. <a name="bc-24"></a>
+24\. <a id="bc-24"></a>
 
 **Issue**: Screen navigation done in HTTPS will not downgrade the protocol to HTTP even when the destination screen is not explicitly marked as requiring HTTPS.
 
@@ -323,7 +323,7 @@ OutSystems provides default Custom Handlers pages and some of those default page
 
 ---
 
-25\. <a name="bc-25"></a>
+25\. <a id="bc-25"></a>
 
 **Issue**: HTTPS is now enforced for all screens and integrations (REST and SOAP) in mobile modules. There is no opt-out from this behavior.
 
@@ -335,7 +335,7 @@ OutSystems provides default Custom Handlers pages and some of those default page
 
 ---
 
-26\. <a name="bc-26"></a>
+26\. <a id="bc-26"></a>
 
 **Issue**: Image URLs generated in the previous platform versions will no longer be valid.
 
@@ -348,7 +348,7 @@ Note: The support for this setting will be dropped on the next major platform ve
 
 ---
 
-27\. <a name="bc-27"></a>
+27\. <a id="bc-27"></a>
 
 **Issue**: Full SQL commands are no longer displayed to the end-user when an error occurs in a SQL element.  
 This behavior only occurred in versions earlier than 10.0.723.0; upgrades from a later OutSystems 10 version to OutSystems 11 are not affected by this change of behavior.
@@ -361,7 +361,7 @@ This behavior only occurred in versions earlier than 10.0.723.0; upgrades from a
 
 #### System Entities
 
-28\. <a name="bc-28"></a>
+28\. <a id="bc-28"></a>
 
 **Issue**: Removed the Zone and Zone_Server system entities, as well as the "Zone_Id" attribute from the Espace system entity.  
 Upgrading a module in Service Studio will remove any dependencies on these entities and attribute. You will get validation errors if these deleted objects were being used.
@@ -374,7 +374,7 @@ Upgrading a module in Service Studio will remove any dependencies on these entit
 
 ---
 
-29\. <a name="bc-29"></a>
+29\. <a id="bc-29"></a>
 
 **Issue**: Removed entities Entity_Usage and Entity_Usage_Sample from the "(System)" reference.
 
@@ -386,7 +386,7 @@ Upgrading a module in Service Studio will remove any dependencies on these entit
 
 #### Emails
 
-30\. <a name="bc-30"></a>
+30\. <a id="bc-30"></a>
 
 **Issue**: Queued emails from disabled applications are no longer processed by the Scheduler Service.
 
@@ -398,7 +398,7 @@ Upgrading a module in Service Studio will remove any dependencies on these entit
 
 ---
 
-31\. <a name="bc-31"></a>
+31\. <a id="bc-31"></a>
 
 **Issue**: Emails now require that there is at least one server in the Deployment Zone of the module configured to "Send Emails".
 
@@ -411,7 +411,7 @@ Upgrading a module in Service Studio will remove any dependencies on these entit
 
 #### Resources
 
-32\. <a name="bc-32"></a>
+32\. <a id="bc-32"></a>
 
 **Issue**: Changing binary resources now triggers a references update and a recompilation of consumers.
 
@@ -423,7 +423,7 @@ Upgrading a module in Service Studio will remove any dependencies on these entit
 
 #### OSP Tool 
 
-33\. <a name="bc-33"></a>
+33\. <a id="bc-33"></a>
 
 **Issue**: The "Upload" button in OSP Tool no longer publishes the solution.
 
@@ -435,7 +435,7 @@ Upgrading a module in Service Studio will remove any dependencies on these entit
 
 #### Mobile Apps
 
-34\. <a name="bc-34"></a>
+34\. <a id="bc-34"></a>
 
 **Issue**: If you upgrade to OutSystems 11 and you have old mobile apps published before September 2018 your applications will break with an error screen after the upgrade of Platform. Only apps that use App Feedback and that were built before September 2018 are affected by this breaking change.
 
@@ -445,7 +445,7 @@ Upgrading a module in Service Studio will remove any dependencies on these entit
 
 **Workaround**: If you haven't generated and distributed mobile apps since September 2018, and the apps have App Feedback enabled, generate those mobile apps again and then distribute them to the users before upgrading.
 
-35\. <a name="bc-35"></a>
+35\. <a id="bc-35"></a>
 
 **Issue**: If you upgrade to OutSystems 11, and you previously distributed mobile apps that were generated between July 31, 2019 and October 9, 2019, those apps will break with an error screen after the upgrade.
 
@@ -457,7 +457,7 @@ Upgrading a module in Service Studio will remove any dependencies on these entit
 
 #### Mobile Runtime
 
-36\. <a name="bc-36"></a>
+36\. <a id="bc-36"></a>
 
 **Issue**: Iterating a list recursively throws a runtime error.
 
@@ -469,7 +469,7 @@ Upgrading a module in Service Studio will remove any dependencies on these entit
 
 #### Logic
 
-37\. <a name="bc-37"></a>
+37\. <a id="bc-37"></a>
 
 **Issue**: JSONDeserialize widget no longer truncates Decimals that are parsed to Text.
 
@@ -502,7 +502,7 @@ For example, the sent decimal values `10.000` and `10.1000` are deserialized to 
 **Workaround**: This change has an impact on extensions that are using SharpZipLib to read ZIP files, or in extensions using libraries that have SharpZipLib as a dependency (like NPOI). It's recommended that you test any Zip and Excel-related functionalities of your applications after upgrading. If you find any issues, you must change any OutSystems extensions using third-party libraries that depend on SharpZipLib version 0.86.0. In the extensions, update the version of these third-party libraries to a version that uses SharpZipLib version 1.1.0.
 
 ### Introduced in Platform Server 11.9.0
-1\. <a name="bc119-1"></a>
+1\. <a id="bc119-1"></a>
 
 **Issue**: The platform now gives preference to usage of specific versions of third-party assemblies that are included in extensions. As a consequence, extensions that incorrectly include .NET Framework assemblies can prevent applications from working correctly due to conflicts between the included assemblies and the assemblies of the .NET Framework installed in the machine.
 
@@ -534,7 +534,7 @@ This was never a supported configuration. Check [How to Use .NET Standard librar
 **Workaround**: As a temporary workaround for Platform Server 11.9.0, OutSystems added a new setting to the [Factory Configuration](https://www.outsystems.com/forge/component-overview/25/factory-configuration) application: "Force apps to use existing versions of third party libraries". When this setting is disabled, the platform reverts to the previous behavior.  
 You should only use this workaround if it's not viable to fix all the affected extensions in a timely fashion. This setting will be ignored in all platform versions above 11.9, so it's important that you fix the root causes of this issue.
 
-2\. <a name="bc119-2"></a>
+2\. <a id="bc119-2"></a>
 
 **Issue**: The KeyStore and SAML actions were moved from the **Authentication** extension, `Authentication.xif`, to the **SAMLAuthentication** extension, `SAMLAuthentication.xif`. This can cause some broken references when using methods from Authentication.xif that moved to the new module.
 
@@ -582,13 +582,100 @@ You should only use this workaround if it's not viable to fix all the affected e
 
 **Workaround**: In Service Center, set the site property `FeedBackMessage_ForceHTMLEncode` to False in the site properties of the RichWidgets module. This isn't recommended, as it leaves the Feedback_Message widget vulnerable to XSS attacks.
 
+
+### Introduced in Platform Server 11.18.0
+
+1\. <a id="bc-11180-1"></a>
+
+**Issue**: The installer was modified to delete specific third-party DLLs from the `\plugins\database` folder and recreate them in new subfolders. This can prevent third-party/custom external Database Connectors from functioning.
+
+Follows the list of affected files along wth the folder they're recreated on:
+
+* **iDB2** DLLs are recreated in folder `\plugins\database\iDB2\`:
+    * IBM.Data.DB2.iSeries.dll
+    * Recreated in \plugins\database\Oracle\
+    * Oracle.ManagedDataAccess.dll
+
+* **MySQL** DLLs are recreated in folder `\plugins\database\MySQL\`:
+    * BouncyCastle.Crypto.dll
+    * Google.Protobuf.dll
+    * K4os.Compression.LZ4.dll
+    * K4os.Compression.LZ4.Streams.dll
+    * K4os.Hash.xxHash.dll
+    * MySql.Data.dll
+    * Renci.SshNet.dll
+    * System.Buffers.dll
+    * System.Memory.dll
+    * System.Numerics.Vectors.dll
+    * System.Runtime.CompilerServices.Unsafe.dll
+    * Ubiety.Dns.Core.dll
+    * Zstandard.Net.dll
+
+* **PostgreSQL** DLLs are recreated in folder `\plugins\database\PostgreSQL\`:
+    * Microsoft.Bcl.AsyncInterfaces.dll
+    * Npgsql.dll
+    * System.Buffers.dll
+    * System.Memory.dll
+    * System.Numerics.Vectors.dll
+    * System.Runtime.CompilerServices.Unsafe.dll
+    * System.Text.Encodings.Web.dll
+    * System.Text.Json.dll
+    * System.Threading.Channels.dll
+    * System.Threading.Tasks.Extensions.dll
+
+**Runtime**: Mobile, Web
+
+**Rationale**: This file/folder reorganization was necessary to allow finer control over which DLLs are referenced, as well as their versions. This file/folder reorganization improves compatibility between current and future Database Connectors.
+
+**Fix**:
+
+After running the Platform Installer and before running the Configuration Tool, move or install any third-party or custom Database Connectors to their respective folders. This move ensures that none of the DLLs needed by those custom Database Connectors will be deleted. You only need to make this move once.
+
+For example, consider a third-party Database Provider named `ExampleDB`. It consists of three DLLs:
+
+* `ACME.DatabaseProvider.ExampleDB.dll` (Database Connector plugin)
+* `ExampleDB.Driver.dll` (Driver DLL)
+* `Google.Protobuf.dll` (Dependency of Driver DLL)
+
+Before Platform Server 11.18.0, these DLLs are placed under the `Platform Server\plugins\database` folder.
+
+With the new changes, the `Google.Protobuf.dll` are deleted and recreated in the MySQL subfolder, which can make the `ExampleDB` Database Connector non-functional (depending on the configured external Database Connections).
+
+To prevent this, when upgrading to Platform Server 11.18.0 or higher, complete the following steps after running the Platform installer and before selecting **Apply & Exit** in the Configuration Tool:
+
+* Create an `ExampleDB` folder in `plugins\database`, and place all the relevant DLLs there.
+* Optionally, create a new `manifest.json` file with all the references required by the plugin. This is only required if you identify version mismatches between what's needed for the plugin and the current supported DLLs.
+
+**Note**: OutSystems services must be restarted, and Service Center republished for the plugin to be detected. The Configuration Tool does this automatically on an upgrade.
+
+2\. <a id="bc-11180-2"></a>
+
+**Issue**: As a side effect of [breaking change number 1](#bc-11180-1), applications that use custom database connections can start to have runtime errors such as `Could not load file or assembly 'Google.Protobuf, Version=3.12.3.0, Culture=neutral, PublicKeyToken=a7d26565bac4d604' or one of its dependencies. The system cannot find the file specified.`
+
+**Runtime**: Mobile, Web
+
+**Rationale**: This file/folder reorganization was necessary to allow finer control over which DLLs are referenced, as well as their versions. This file/folder reorganization improves compatibility between current and future Database Connectors.
+
+**Fix**: 
+
+* If you're using the [Secret Manager Local Service](https://www.outsystems.com/forge/component-overview/13476/secret-manager-local-service) Forge asset, update it to the latest version. Then, refresh the dependencies on the consumers and republish them.
+
+* If you're using a custom database connector packed in an extension, add the DLL to the extension and publish it. Refresh the dependencies on the consumers and republish them.
+
+**Workaround**: In case you can't use any of the above fixes, do the following:
+
+1. Identify the assembly that's failing to be loaded in the list of [breaking change number 1](#bc-11180-1).
+1. Create a new [External Database Connection](https://success.outsystems.com/Documentation/11/Extensibility_and_Integration/Integrate_with_an_External_Database/Integrate_with_an_external_database_using_Integration_Studio) and chose the DBMS identified on the list.
+1. Don't test it and then save it. This will be a dummy connection, used only to recreate the files. It doesn't need to be assigned to an extension.
+1. Republish the app that was having the errors.
+
 ## Side Effects
 
 ### Introduced in Platform Server Sep.2018
 
 #### OutSystems APIs
 
-1\. <a name="se-1"></a>
+1\. <a id="se-1"></a>
 
 **Issue**: `BeginReadUncommittedTransaction` and `BeginTransaction` methods from RuntimePublic.Db API are now deprecated.
 
@@ -600,7 +687,7 @@ You should only use this workaround if it's not viable to fix all the affected e
 
 #### User Provider
 
-2\. <a name="se-2"></a>
+2\. <a id="se-2"></a>
 
 **Issue**: A Performance Suggestion warning will be added to all modules that do not have 'Is User Provider' set and have the 'User Provider' as 'Current Module'.
 
@@ -613,7 +700,7 @@ Note: It's not recommended to change the User Provider of modules with Processes
 
 #### Custom Handlers
 
-3\. <a name="se-3"></a>
+3\. <a id="se-3"></a>
 
 **Issue**: The Custom Handlers directory is now deployed along with every application. Previously, the Custom Handlers directory existed in the Platform Server installation directory and every application referenced it when needed.
 
@@ -625,7 +712,7 @@ Note: It's not recommended to change the User Provider of modules with Processes
 
 #### Debug Mode
 
-4\. <a name="se-4"></a>
+4\. <a id="se-4"></a>
 
 **Issue**: After turning off the environment Debug Mode configuration, some modules will show a warning saying that they need to be republished, when in fact they do not.
 
@@ -637,7 +724,7 @@ Note: It's not recommended to change the User Provider of modules with Processes
 
 #### Solution Publish
 
-5\. <a name="se-5"></a>
+5\. <a id="se-5"></a>
 
 **Issue**: The refresh of references when publishing a solution (when publishing the current running version of its components) in Service Center was reviewed. Publishing the current version of a solution will now only refresh module references when the publish operation is performed in an environment whose purpose is set to Development.
 
@@ -651,7 +738,7 @@ Note: It's not recommended to change the User Provider of modules with Processes
 
 #### Identity Service
 
-1\. <a name="se1114-1"></a>
+1\. <a id="se1114-1"></a>
 
 **Issue**: The login for IT apps (apps that use Service Center as their user provider) no longer uses the traditional login screen from the app itself. Instead, it uses a centralized login screen. This only affects applications that use the **User_GetUnifiedLoginUrl** action to validate if there is an external login URL. The centralized login screen shows the app name that you can provide in the **ToolName** of the **User_GetUnifiedLoginUrl** optional parameter.
 

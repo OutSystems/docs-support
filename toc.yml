@@ -1,5 +1,4 @@
 # Support
-
 # Release notes
 - href: release-notes/intro.md
 - topics:
@@ -22,13 +21,16 @@
     - href: release-notes/mabs/mabs-versions.md
     - topics:
         - href: release-notes/mabs/mabs-beta-support.md
+        - href: release-notes/mabs/9/mabs-9.md
+        - topics:
+            - href: release-notes/mabs/9/9.0/mabs-9.0.md
         - href: release-notes/mabs/mabs-8.md
         - href: release-notes/mabs/mabs-7.md
         - href: release-notes/mabs/mabs-6.md
         - href: release-notes/mabs/mabs-5.md
         - href: release-notes/mabs/troubleshoot-issues-with-mabs-6.md
         - href: release-notes/mabs/older-releases.md
-    - href: release-notes/architecture-dashboard/architecture-dashboard.md
+    - href: release-notes/ai-mentor-studio/ai-mentor-studio.md
     - href: release-notes/integration-builder/integration-builder.md
     - href: release-notes/experience-builder/experience-builder.md
     - href: release-notes/workflow-builder/workflow-builder.md
@@ -259,12 +261,15 @@
         - href: error/inbl/inbl-api-00021.md
         - href: error/inbl/inbl-api-00028.md
         - href: error/inbl/inbl-api-00033.md
+        - href: error/inbl/inbl-api-00038.md
         - href: error/inbl/inbl-api-00050.md
         - href: error/inbl/inbl-api-00061.md
         - href: error/inbl/inbl-api-00069.md
         - href: error/inbl/inbl-api-00070.md
+        - href: error/inbl/inbl-api-10003.md
         - href: error/inbl/inbl-api-20000.md
         - href: error/inbl/inbl-gen-00032.md
+        - href: error/inbl/inbl-gen-00110.md
         - href: error/inbl/inbl-gen-50002.md
         - href: error/inbl/inbl-gen-50004.md
         - href: error/inbl/inbl-gen-50005.md
@@ -398,13 +403,16 @@
         - href: community/training/transfer-certification.md
         - href: community/online-training-offline-access.md
 
-
 # Licensing
 - href: licensing/intro.md
 - topics:
     - href: licensing/how-licensing-works.md
     - href: licensing/app-object-count.md
     - href: licensing/check-license-includes.md
+    - href: licensing/ipp/what-is-ipp.md
+    - topics:
+        - href: licensing/ipp/used-ipp-portal.md
+        - href: licensing/ipp/ip-rights-not-granted.md
     - href: licensing/add-new-environment.md
     - href: licensing/whats-a-personal.md
     - href: licensing/infrastructure-under-hood.md
@@ -427,13 +435,6 @@
             - href: enterprise/licensing/manage/howto-install-license.md
             - href: enterprise/licensing/manage/free-up-environment.md
             - href: enterprise/licensing/manage/enable-db-replica.md
-
-        # Intellectual Property Protection (IPP)
-        - href: enterprise/licensing/ipp/enterprise-licensing-ipp.md
-        - topics:
-            - href: enterprise/licensing/ipp/what-is-ipp.md
-            - href: enterprise/licensing/ipp/used-ipp-portal.md
-            - href: enterprise/licensing/ipp/ip-rights-not-granted.md
 
         # Troubleshooting
         - href: enterprise/licensing/troubleshooting/enterprise-licensing-trouble.md

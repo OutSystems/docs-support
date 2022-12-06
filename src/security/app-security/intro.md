@@ -10,7 +10,7 @@ app_type: traditional web apps, mobile apps, reactive web apps
 
 <div class="info" markdown="1">
 
-Download the whitepaper version of this document by clicking [here](resources/application-security.pdf).
+Download the whitepaper version of this document by clicking [here](https://www.outsystems.com/1/app-security/).
 
 </div>
 
@@ -93,7 +93,6 @@ You can [monitor the tasks performed by IT users](https://success.outsystems.com
 Tracked events include:
 
 * Storing a new version of an application or component
-* Deleting an application or component
 * Deploying a new version
 * Modifying user configurations
 * Logging in to the system
@@ -174,9 +173,9 @@ Features like root and jailbreak detection, code injection protection, screensho
 
 ### Follow development best practices
 
-[Architecture Dashboard](https://success.outsystems.com/Documentation/Architecture_Dashboard) is an OutSystems tool that enables IT leaders to visualize complex cross-portfolio architectures and identify problems while also helping developers follow best practices and avoid common pitfalls. Based on automatic code and runtime performance analysis, it recommends solutions that help you to improve the performance, security, architecture, and user experience of applications. See [this video](https://www.youtube.com/watch?v=Iqgw7bAQIBo&feature=youtu.be) for an overview of the Architecture Dashboard.
+[AI Mentor Studio](https://success.outsystems.com/Documentation/Architecture_Dashboard) is an OutSystems tool that enables IT leaders to visualize complex cross-portfolio architectures and identify problems while also helping developers follow best practices and avoid common pitfalls. Based on automatic code and runtime performance analysis, it recommends solutions that help you to improve the performance, security, architecture, and user experience of applications. See [this video](https://www.youtube.com/watch?v=Iqgw7bAQIBo&feature=youtu.be) for an overview of the AI Mentor Studio.
 
-Use the Architecture Dashboard to validate and fix the [security patterns](https://success.outsystems.com/Documentation/Architecture_Dashboard/Code_Patterns#Security) identified in your applications.
+Use the AI Mentor Studio to validate and fix the [security patterns](https://success.outsystems.com/Documentation/Architecture_Dashboard/Code_Patterns#Security) identified in your applications.
 
 Also, make sure you follow other available development best practices to protect the applications from security vulnerabilities. Some examples:
 
@@ -200,7 +199,7 @@ In OutSystems, you have two administrator accounts:
 
 * The Platform Server administrator account to access OutSystems management consoles (LifeTime and Service Center). You can [change the password for the Platform Server administrator account](https://success.outsystems.com/Documentation/11/Reference/Configuration_Tool/Credentials_Tab) in the Configuration Tool.
 
-* The [Users application](https://success.outsystems.com/Documentation/11/Developing_an_Application/Secure_the_Application/End_User_Management/Access_the_Users_application) administrator account, where you manage the applications’ end users for each environment when using the default authentication method. [See here](https://success.outsystems.com/Documentation/11/Developing_an_Application/Secure_the_Application/End_User_Management/Access_the_Users_application#Configure_the_Administrator_user) how to change the password for the Users administrator account. Make sure you change the administrator account of the Users application in each environment.
+* The [Users application](https://success.outsystems.com/Documentation/11/Developing_an_Application/Secure_the_Application/End_Users/Access_the_Users_application) administrator account, where you manage the applications’ end users for each environment when using the default authentication method. [See here](https://success.outsystems.com/Documentation/11/Developing_an_Application/Secure_the_Application/End_Users/Access_the_Users_application#configure-the-administrator-user) how to change the password for the Users administrator account. Make sure you change the administrator account of the Users application in each environment.
 
 ### Choose the right authentication method for your end users
 
@@ -214,7 +213,7 @@ You can opt to authenticate your end users using the identity provider of your c
 * Azure AD (Azure Active Directory)
 * Okta
 
-See [End Users Authentication](https://success.outsystems.com/Documentation/11/Developing_an_Application/Secure_the_Application/End_User_Management/End_Users_Authentication) for further details.
+See [End Users Authentication](https://success.outsystems.com/Documentation/11/Developing_an_Application/Secure_the_Application/End_Users/End_Users_Authentication) for further details.
 
 Alternatively, you can stay with the default authentication method, Internal authentication, where the end user information is stored in the OutSystems database. If you want to implement strong authentication on top of the default internal authentication method, see the [Touch ID Plugin](https://www.outsystems.com/forge/component-overview/1431/touch-id-plugin), available in OutSystems Forge, which allows in-app user authentication using fingerprint or face id sensors for your mobile apps. For web applications, you can find some sample components in OutSystems Forge as a basis for your implementation, such as [Google reCAPTCHA Web](https://www.outsystems.com/forge/component-overview/970/google-recaptcha-web) or [Google Authenticator](https://www.outsystems.com/forge/component-overview/967/google-authenticator).
 

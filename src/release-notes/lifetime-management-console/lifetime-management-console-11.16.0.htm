@@ -1,0 +1,32 @@
+---
+isautopublish: true
+pageprivacy: public
+---
+
+<h2 id="lifetime_management_console_11.16.0" >LifeTime Management Console 11.16.0</h2>
+<div class="info"><p>Released on Nov 28, 2022</p></div>
+
+
+<style>.cattag {background: #f4f2ff; color: #6a6581; padding: 4px 10px;}</style>
+<h3 id="new_in_lifetime_management_console_11.16.0" >New in LifeTime Management Console 11.16.0</h3>
+<ul>
+<li>The new IT Users Integration with External IdP OpenId Connect (OIDC) feature provides modern security standards for the authentication, setup, and management of IT users. This new authentication mechanism reduces the risk associated with using unsecured passwords when accessing OutSystems consoles and tools and eliminates the need for IT Users having to remember various passwords for multiple systems. Additionally, it improves the authentication experience by providing a single sign-on (SSO) authentication method. To learn more about this new authentication mechanism, see our <a href="https://success.outsystems.com/Documentation/11/Managing_the_Applications_Lifecycle/Secure_the_Applications/IT_Users_Integration_with_External_IdP_via_OpenId_Connect">documentation</a>.</li>
+<li>Authentication Settings, previously known as Authentication Mode, was extended to include OpenId Connect integration, new experience and integration requires Platform Server 11.18.0 in all registered environments.</li>
+<li>Authentication Settings now support configuration of local administrators to be used in recovery scenarios when login with external authentication becomes broken. Requires Platform Server 11.18.0 in all registered environments.</li>
+<li>New service account tokens now have expiration date and can be used on the Performance Monitoring API for all the environments registered in the LifeTime where they were issued. Old ones will keep working until they are re-issued.</li>
+<li>LifeTime Services API (<a href="https://success.outsystems.com/Documentation/11/Reference/OutSystems_APIs/LifeTime_Services_API">documentation</a>) has been deprecated and from this version (LifeTime 11.16.0) onwards, will no longer be supported. <a href="https://success.outsystems.com/Documentation/11/Reference/OutSystems_APIs/LifeTime_API_v2">LifeTime API v2</a> should be used instead. LifeTime Services API will be removed from the product by the end of March 2023.</li>
+<br/>
+<li>You can now use the Environment Filters feature to filter your Application Details with the Environments you are working on. (R11CT-1632)</li>
+<li>Updated the Platform Server version to 11.18.0. (R11CT-1638)</li>
+</ul>
+<h3 id="bug_fixing_lifetime_management_console_11.16.0" >Bug Fixing</h3>
+<ul>
+<li>Fixed issue on synchronization that could delay the synchronization processes to start when running on Oracle database. (R11CT-1652)</li>
+<li>Fixed an issue during a deployment plan validation when the application tag has been already used in previous aborted deployments. This issue occurred in deployment plans that contained applications set to be auto tagged and these applications (with the same tag values) had been already used in deployment plans that were aborted before the solution had been published in the target environment. (RPM-3094) <span class="cattag">Application Lifecycle</span>  <span class="cattag">LifeTime</span> </li>
+<li>Fixed a cross-site scripting (XSS) vulnerability in LifeTime. CVSSv3.1 score 5.4 (Medium). (RPM-3011) <span class="cattag">Application Lifecycle</span>  <span class="cattag">LifeTime</span> </li>
+</ul>
+
+<h3>Breaking Change</h3>
+<ul>
+<li>Breaking change on validating O10 staging plans: when validating a staging plan between O10 environments, if an attribute was removed from a static entity, the validation done by LifeTime will not detect it as a broken reference. To avoid errors, all modules that consume the changed reference should be refreshed and included in the staging.</li>
+</ul>

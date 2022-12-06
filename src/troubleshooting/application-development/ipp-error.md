@@ -20,7 +20,7 @@ Following are two sample error messages:
 
 This error means that the module you’re trying to publish originated in an infrastructure with a different Activation Code. Because it’s intellectual property was never transferred, this error occurs.
 
-[Check here](../../enterprise/licensing/ipp/what-is-ipp.md) for more information about OutSystems intellectual property.
+[Check here](../../licensing/ipp/what-is-ipp.md) for more information about OutSystems intellectual property.
 
 ## Checking for further IPP errors in an infrastructure
 

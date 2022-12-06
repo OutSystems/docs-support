@@ -65,7 +65,7 @@ Check [Google documentation](https://web.dev/samesite-cookie-recipes/) for addit
 
 If your OutSystems applications use iframes to display content from third-party sites, you may run into issues if those content providers require cookies to maintain session state or display personalized content.
 
-To overcome this issue, **the third-party content provider must implement some required changes on his side**.
+To overcome this issue, **the third-party content provider must implement some required changes on their side**.
 
 No changes should be necessary on the OutSystems side as long as communications to the provider are already being made over the HTTPS protocol. However, if these communications are still being done using the HTTP protocol instead of HTTPS, **you must change your OutSystems application**. The changes that the third-party provider will have to do require that cookies have the `Secure` attribute, and these cookies are only sent over the HTTPS protocol.
 

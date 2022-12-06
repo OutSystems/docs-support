@@ -1,0 +1,22 @@
+---
+isautopublish: true
+pageprivacy: public
+---
+
+<h2 id="platform_server_11.12.2" >Platform Server 11.12.2</h2>
+<div class="info"><p>Released on Jul 13, 2021</p></div>
+
+<h3 id="bug_fixing_platform_server_11.12.2" >Bug Fixing</h3>
+<ul>
+<li>Fixed an issue where linking to a screen with a custom URL defined caused a crash if mandatory inputs were empty or invalid.  (RAR-782)</li>
+<li>Fixed a performance issue with SQL Server by eliminating unnecessary executions of the SERVERPROPERTY function. (RPLAT-650)</li>
+<li>Raised the required Microsoft .NET Core Windows Server Hosting from 2.1 to 3.1. The checklist and documentation instruction links have been updated to reflect this. (RPM-1105)</li>
+<li>Fixed an issue with Multilingual Locales that caused the following error message to display: "Problem fetching the current Locale. The returned Locale is either null or undefined." (RPM-1161)</li>
+<li>Fixed a performance issue with compiling modules. The fix reduces the number of database queries required when computing server-to-client data transfer optimization. (RPM-1173)</li>
+<li>For a REST Expose Action, the swagger.json file now correctly reflects the "Name in Response" value when you specify that the output parameter must 
+be sent in the header. Previously, the "Name in Response" was ignored when specified for the output parameter.  (RPM-1181)</li>
+<li>Fixed an issue that removed page rules of Traditional Web applications when they were republished. (RPM-1324)</li>
+<li>Fixed an issue on progressive web apps (PWAs) where data from an aggregate populated by local storage did not display. This issue occurred when a consuming module used a different entity name than the producer module. (RPM-896)</li>
+<li>Fixed a performance issue with compiling modules. The fix reduces the number of database queries required when computing server-to-client data transfer optimization. (RTAFB-4754)</li>
+</ul>
+

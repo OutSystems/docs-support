@@ -1,0 +1,123 @@
+---
+isautopublish: true
+pageprivacy: public
+---
+
+<h2 id="platform_server_11.13.2" >Platform Server 11.13.2</h2>
+<div class="info"><p>Released on Oct 18, 2021</p></div>
+
+<h3 id="new_in_platform_server_11.13.2" >New in Platform Server 11.13.2</h3>
+<ul>
+<li>Flexible Upgrades is now available for Platform installations running over Oracle. (R11PIT-315)</li>
+</ul>
+<h3 id="bug_fixing_platform_server_11.13.2" >Bug Fixing</h3>
+<ul>
+<li><a href="/Support/Release_Notes/11/Platform_Server#RPM-1066" rel="custom">Fixed an issue in the Users application preventing end-users from logging in when using standard LDAP authentication. (RPM-1066)</a></li>
+<li><a href="/Support/Release_Notes/11/Platform_Server#RPM-1078" rel="custom">Fixed an upgrade schema error when clicking "Create/Upgrade Database" in the Configuration Tool while upgrading the Platform Server from version 10 to version 11.11.1 or later. This issue applies only to self-managed environments. (RPM-1078)</a></li>
+<li><a href="/Support/Release_Notes/11/Platform_Server#RPM-1128" rel="custom">Improved the performance of the modules preparation phase executed during the upgrade process. (RPM-1128)</a></li>
+<li><a href="/Support/Release_Notes/11/Platform_Server#RPM-1278" rel="custom">Fixed a high severity vulnerability by upgrading the packaged RabbitMQ to 3.8.21. (RPM-1278)</a></li>
+<li><a href="/Support/Release_Notes/11/Platform_Server#RPM-1434" rel="custom">Fixed an issue that caused the incorrect calculation of the average time in Service Actions Performance report. (RPM-1434)</a></li>
+<li><a href="/Support/Release_Notes/11/Platform_Server#RPM-1466" rel="custom">Fixed a malformed login URL for SAML 2.0 when using an external IdP with SSO login URL containing query parameters. (RPM-1466)</a></li>
+<li><a href="/Support/Release_Notes/11/Platform_Server#RPM-1487" rel="custom">Fixed an issue that occurred when clicking "Apply and Exit" in the Configuration Tool after changing the Platform, Log, or Session database configurations. (RPM-1487)</a></li>
+<li><a href="/Support/Release_Notes/11/Platform_Server#RPM-1502" rel="custom">Fixed an issue that might cause the Configuration Tool to lock the Administrator or Runtime Active Directory accounts when using Windows Authentication. (RPM-1502)</a></li>
+<li><a href="/Support/Release_Notes/11/Platform_Server#RPM-1509" rel="custom">Fixed a licensing query that would generate "Licensing error" entries in Service Center Error logs. (RPM-1509)</a></li>
+<li><a href="/Support/Release_Notes/11/Platform_Server#RPM-1537" rel="custom">Fixed an issue where the Configuration Tool UI was not disabling Log and Session database credential fields when using Windows Authentication. (RPM-1537)</a></li>
+<li><a href="/Support/Release_Notes/11/Platform_Server#RPM-912" rel="custom">Fixed a compilation issue when consuming a SOAP Web Service containing a type and a subtype with the same name. (RPM-912)</a></li>
+</ul>
+
+
+<style>.cattag {background: #f4f2ff; color: #6a6581; padding: 4px 10px;}</style>
+<div class="moreDetailsDiv">
+<h3 id="more_details_platform_server_11.13.2" >More details</h3>
+<p>
+<a id="RPM-1066"><strong>RPM-1066</strong></a><br/>
+<b>Fixed an issue in the Users application preventing end-users from logging in when using standard LDAP authentication.</b><br/>
+<span class="cattag">Application Lifecycle</span> <span class="cattag">Users</span> <br/>
+<br/>
+<u>Fix Details:</u><br>End users configured with standard LDAP authentication were not able to log in due to an "Invalid username or password" error.
+This was an error in Users application related to the encrypt/decrypt password algorithm. The issue was found in version 11.7.3 and it's now fixed.
+</p>
+<p>
+<a id="RPM-1078"><strong>RPM-1078</strong></a><br/>
+<b>Fixed an upgrade schema error when clicking "Create/Upgrade Database" in the Configuration Tool while upgrading the Platform Server from version 10 to version 11.11.1 or later. This issue applies only to self-managed environments.</b><br/>
+<span class="cattag">Infrastructure Management</span> <span class="cattag">Platform Configuration</span> <br/>
+<br/>
+<u>Fix Details:</u><br>While upgrading the Platform Server component in a self-managed environment from version 10 to version 11.11.1 or later, clicking the "Create/Upgrade Database" button in the Configuration Tool caused the upgrade schema error "Unable to obtain the connection string". Besides blocking the upgrade process, this issue didn't cause downtime or loss of service.
+</p>
+<p>
+<a id="RPM-1128"><strong>RPM-1128</strong></a><br/>
+<b>Improved the performance of the modules preparation phase executed during the upgrade process.</b><br/>
+<span class="cattag">Infrastructure Management</span> <span class="cattag">Platform Configuration</span> <br/>
+<br/>
+<u>Fix Details:</u><br>The <a href= "https://success.outsystems.com/Support/Enterprise_Customers/Upgrading/Modules_preparation_step_during_Platform_Server_upgrade">module preparation phase</a> after a Platform Server upgrade could take a long time to complete, increasing the time a development team would have to go without being able to publish any modules. This is especially noticeable in large factories and it would only occur in Platform Server 11.12.0 or later.
+The module preparation was improved to be more performant.
+</p>
+<p>
+<a id="RPM-1278"><strong>RPM-1278</strong></a><br/>
+<b>Fixed a high severity vulnerability by upgrading the packaged RabbitMQ to 3.8.21.</b><br/>
+<span class="cattag">Infrastructure Management</span> <span class="cattag">Platform Configuration</span> <br/>
+<br/>
+<u>Fix Details:</u><br>All versions of RabbitMQ prior to 3.8.16 are prone to a denial of service vulnerability.  The packaged RabbitMQ was upgraded. You can check more details in this <a href= "https://success.outsystems.com/Support/Security/Vulnerabilities/Vulnerability_RPM-1278">security bulletin.</a>
+</p>
+<p>
+<a id="RPM-1434"><strong>RPM-1434</strong></a><br/>
+<b>Fixed an issue that caused the incorrect calculation of the average time in Service Actions Performance report.</b><br/>
+<span class="cattag">Application Lifecycle</span> <span class="cattag">Service Center</span> <br/>
+<br/>
+<u>Fix Details:</u><br>The Service Actions Performance report in Service Center showed incorrect values for  "Avg. Time". 
+When generating or exporting a Service Actions Performance report from the Analytics tabs of Service Center, the report showed the same value for both "Avg. Time" and "Total Time" columns.
+</p>
+<p>
+<a id="RPM-1466"><strong>RPM-1466</strong></a><br/>
+<b>Fixed a malformed login URL for SAML 2.0 when using an external IdP with SSO login URL containing query parameters.</b><br/>
+<span class="cattag">Application Runtime</span> <span class="cattag">Authentication and Authorization</span> <br/>
+<br/>
+<u>Fix Details:</u><br>After setting up SAML 2.0 in Users, app end users that try to log in get redirected to the User app with a permission denied message.
+The issue occurred due to a malformed login URL when using SAML 2.0 with a Single Sign-On URL that contained a query parameter.
+</p>
+<p>
+<a id="RPM-1487"><strong>RPM-1487</strong></a><br/>
+<b>Fixed an issue that occurred when clicking "Apply and Exit" in the Configuration Tool after changing the Platform, Log, or Session database configurations.</b><br/>
+<span class="cattag">Infrastructure Management</span> <span class="cattag">Platform Configuration</span> <br/>
+<br/>
+<u>Fix Details:</u><br>Configuration Tool was not respecting alterations to the databases connection details (Platform, Log, and Session). Changes done in the Configuration Tool UI were not effectively saved. Upon clicking "Apply an Exit", older values (for example: database address, authentication mode and credentials) would be used, ultimately causing connection errors or operations to be attempted with the old values.
+The issue was fixed, and values changed in the UI are now fully respected.
+</p>
+<p>
+<a id="RPM-1502"><strong>RPM-1502</strong></a><br/>
+<b>Fixed an issue that might cause the Configuration Tool to lock the Administrator or Runtime Active Directory accounts when using Windows Authentication.</b><br/>
+<span class="cattag">Infrastructure Management</span> <span class="cattag">Platform Configuration</span> <br/>
+<br/>
+<u>Fix Details:</u><br>When using Windows Authentication, opening the Configuration Tool could lock the Administrator or Runtime user accounts in the Active Directory. This would happen under a strict security policy to lock user accounts on first failed login attempt.
+This issue occurred because the Configuration Tool was attempting to login to the database with the Administrator and Runtime users as soon as the UI is opened, which doesn't apply to Windows Authentication.
+</p>
+<p>
+<a id="RPM-1509"><strong>RPM-1509</strong></a><br/>
+<b>Fixed a licensing query that would generate "Licensing error" entries in Service Center Error logs.</b><br/>
+<span class="cattag">Application Runtime</span> <span class="cattag">Licensing Runtime Checks</span> <br/>
+<br/>
+<u>Fix Details:</u><br>In Service Center error logs, an entry with the message: "Licensing Error: An error occurred while validating feature 'InternalExternalUsersCounter': ORA-00972" would happen frequently. Appart from log polution, there was no futher impact. It would happen only when all of the following conditions are true:
+<ul><li>the Platform Server version is 11.11.3 or later</li>
+<li>the platform database is Oracle 12.1c</li>
+<li>the license was purchased after January 2020</li></ul>
+<br>
+The issue was fixed in an OutSystems internal query to no longer result in such an error.
+</p>
+<p>
+<a id="RPM-1537"><strong>RPM-1537</strong></a><br/>
+<b>Fixed an issue where the Configuration Tool UI was not disabling Log and Session database credential fields when using Windows Authentication.</b><br/>
+<span class="cattag">Infrastructure Management</span> <span class="cattag">Platform Configuration</span> <br/>
+<br/>
+<u>Fix Details:</u><br>In the Configuration Tool, when authentication is set to Windows Authentication on the Platform tab, login errors could occur.
+
+The Administrator, Runtime, and Session credential fields in the Log and Session tabs should be disabled. The issue would cause the fields to be editable. This would force the user to fill in those fields, and, when the credentials didn't match, would cause a login error.
+</p>
+<p>
+<a id="RPM-912"><strong>RPM-912</strong></a><br/>
+<b>Fixed a compilation issue when consuming a SOAP Web Service containing a type and a subtype with the same name.</b><br/>
+<span class="cattag">Application Runtime</span> <span class="cattag">Logic Execution</span> <br/>
+<br/>
+<u>Fix Details:</u><br>A compilation error occurred after publishing a module which consumed a SOAP Web Service with polymorphism.
+This only occurred when one of the possible subtypes declares an anonymous type with the name as the subtype.
+</p>
+</div>

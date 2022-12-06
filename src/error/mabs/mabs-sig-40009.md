@@ -10,7 +10,7 @@ app_type: mobile apps
 
 ## Error message
 
-`Your application identifier (<application_identifier>) and provisioning profile (<provisioning_profile>) don't match. Confirm the information for both of them.`
+`Your application identifier (<application_identifier>) and provisioning profile (<provisioning_profile>) don't match. Confirm the inputs for both of them.`
 
 ## Cause
 

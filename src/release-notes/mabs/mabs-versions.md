@@ -19,17 +19,71 @@ When we release a new major version, four months after that we deprecate the pre
 
 The change of the MABS version is an optional feature. It’s usually enough to use the default option and let the platform build your mobile apps with the latest MABS version. With this you get the newest stacks, regular updates, and your apps comply with Google Play and Apple Store requirements.
 
-<!-- ## Beta
+# Beta
 
-See [Support provided for beta versions](mabs-beta-support.md) for more information about the OutSystems policy for supporting new versions of mobile operating systems. -->
-
-## Supported
-
-You get full support through the support requests for the version, along with the bug fixes for the version.
+See [Support provided for beta versions](mabs-beta-support.md) for more information about the OutSystems policy for supporting new versions of mobile operating systems.
 
 <div class="info" markdown="1">
 
-**Version 8.1** - [See Release Notes](https://success.outsystems.com/Support/Release_Notes/Mobile_Apps_Build_Service_Versions/MABS_8_Release_notes#mabs-version-8.1)<br/>
+## **Version 9.0 (Beta)** - [See Release Notes](https://success.outsystems.com/Support/Release_Notes/Mobile_Apps_Build_Service_Versions/MABS_9_Release_notes#mabs-version-9.0)<br/>
+Released on November 23 2022 - Deprecation date to be announced
+
+</div>
+
+<div class="warning" markdown="1">
+
+It's recommended to update all supported plugins to the latest version available on the Forge. If you're upgrading from MABS 8.0, all plugins should already be compliant. From MABS 7 or previous, it's **MANDATORY** to upgrade to the latest version. For more details, please check the **[release notes](https://success.outsystems.com/Support/Release_Notes/Mobile_Apps_Build_Service_Versions/MABS_9_Release_notes#mabs-version-9.0)**.
+
+</div>
+
+This version can run your apps on:
+
+<small>![](images/android-icon.png) Android 8 (9 for ODC) to 13</small>
+
+<small>![](images/iOS-icon.png) iOS 13 to 16</small>
+
+**More details:**
+
+<table style="width: 632px; table-layout: fixed">
+    <tbody class="RegularLightText">
+        <tr>
+            <td style="width:156px;"></td>
+            <td style="width:231px;">Android</td>
+            <td>iOS</td>
+        </tr>
+        <tr>
+            <td style="vertical-align:middle;width:156px;">Target SDK</td>
+            <td style="width:231px;">13 (API 33)<br />
+            Build Tools 33.0.0<br />
+            Gradle 7.5.1<br />
+            Kotlin 1.6.20 (Default)</td>
+            <td>iOS 16<br />
+            Xcode 14.1<br />
+            Cocoa Pods 1.11.2<br />
+            Swift 5.7.1</td>
+        </tr>
+        <tr>
+            <td style="vertical-align:middle;width:156px;">Cordova CLI</td>
+            <td style="width:231px;">11.0.0</td>
+            <td>11.0.0</td>
+        </tr>
+        <tr>
+            <td style="vertical-align:middle;width:156px;">Cordova Engine</td>
+            <td style="width:231px;">11.0.0</td>
+            <td>6.2.0</td>
+        </tr>
+    </tbody>
+</table>
+
+
+# Supported
+
+You get full support through the support requests for the version, along with the bug fixes for the version.
+
+
+<div class="info" markdown="1">
+
+## **Version 8.1** - [See Release Notes](https://success.outsystems.com/Support/Release_Notes/Mobile_Apps_Build_Service_Versions/MABS_8_Release_notes#mabs-version-8.1)<br/>
 Released on April 6 2022 - Deprecation date to be announced
 
 </div>
@@ -76,16 +130,14 @@ This version can run your apps on:
         </tr>
     </tbody>
 </table>
-<br/>
-<br/>
 
-## Deprecated
+# Deprecated
 
 You can select the version in the configuration and build apps with it, but you get limited support. Limited support means that you get advice and workarounds through the support requests, but there are no bug fixes for the version.
 
 <div class="info" markdown="1">
 
-**Version 7.2** - [See Release Notes](https://success.outsystems.com/Support/Release_Notes/Mobile_Apps_Build_Service_Versions/MABS_7_Release_notes#mabs-version-7.2)<br/>
+## **Version 7.2** - [See Release Notes](https://success.outsystems.com/Support/Release_Notes/Mobile_Apps_Build_Service_Versions/MABS_7_Release_notes#mabs-version-7.2)<br/>
 Released on Oct 7 2021<br/>Deprecated on Mar 24 2022<br/>
 Obsolete date to be announced
 
@@ -127,12 +179,10 @@ This version can run your apps on:
         </tr>
     </tbody>
 </table>
-<br/>
-<br/>
 
 <div class="info" markdown="1">
 
-**Version 5.2** - [See Release Notes](https://success.outsystems.com/Support/Release_Notes/Mobile_Apps_Build_Service_Versions/MABS_5_Release_notes#mabs-version-5.2)<br/>
+## **Version 5.2** - [See Release Notes](https://success.outsystems.com/Support/Release_Notes/Mobile_Apps_Build_Service_Versions/MABS_5_Release_notes#mabs-version-5.2)<br/>
 Released on Dec 26 2019<br/>Deprecated on May 20 2020<br/>
 Obsolete date to be announced
 
@@ -179,10 +229,8 @@ This version can run your apps on:
         </tr>
     </tbody>
 </table>
-<br/>
-<br/>
 
-## Obsolete
+# Obsolete
 
 This version is no longer available, and you cannot build apps with it. The support requests about an obsolete version are not answered.
 
@@ -228,8 +276,6 @@ This version can run your apps on:
         </tr>
     </tbody>
 </table>
-<br/>
-<br/>
 
 <div class="info">
 
@@ -280,8 +326,6 @@ This version can run your apps on:
         </tr>
     </tbody>
 </table>
-<br/>
-<br/>
 
 <div class="info">
 

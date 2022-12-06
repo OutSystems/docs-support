@@ -37,7 +37,7 @@ EAP's are programs managed by OutSystems, providing early access to OutSystems n
 
 ### Beta
 
-Currently, Beta releases apply only to [Service Studio](https://www.outsystems.com/home/beta) and [MABS](https://success.outsystems.com/Documentation/11/Delivering_Mobile_Apps/Mobile_Apps_Build_Service) and include a set of capabilities that will soon be released in General Availability. It can be seen as similar to Early Access, but it's related to a specific version of the product as a whole, instead of just a specific feature.
+Beta releases include a set of capabilities that will soon be released in General Availability. It can be seen as similar to Early Access, but it's related to a specific version of the product as a whole, instead of just a specific feature.
 
 ### Technical preview
 

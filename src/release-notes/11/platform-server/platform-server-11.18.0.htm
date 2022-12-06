@@ -1,0 +1,101 @@
+---
+isautopublish: true
+pageprivacy: public
+---
+
+<h2 id="platform_server_11.18.0" >Platform Server 11.18.0</h2>
+<div class="info"><p>Released on Nov 28, 2022</p></div>
+
+
+<style>.cattag {background: #f4f2ff; color: #6a6581; padding: 4px 10px;}</style>
+<h3 id="new_in_platform_server_11.18.0" >New in Platform Server 11.18.0</h3>
+<ul>
+<li>Improved the DLL loading mechanism of Platform Services and Applicational Runtime for Database Connectors/Plugins and their referenced DLLs. This may bring breaking changes to some third-party/custom Database Connectors/Plugins (built with the Database Connector SDK) and some assets available on Forge. Find more about these breaking changes <a href="https://success.outsystems.com/Support/Release_Notes/11/OutSystems_11_side_effects_and_breaking_changes#introduced-in-platform-server-11.18.0">here</a>. (R11BRT-173)</li>
+<li>It is now possible to see the site property description in the table on the Site Properties list screen.
+Inspired by <a href="https://www.outsystems.com/ideas/9904/service-center-description-of-site-properties-in-the-list-page/">Takasi Moriya</a> and <a href="https://www.outsystems.com/ideas/12306/display-descriptions-for-site-property-tab-in-service-center/">Raphael Laurence Reyno's ideas</a>. (R11CT-308)</li>
+<li>It is now possible to filter the screens logs by User.
+Inspired by <a href="https://www.outsystems.com/ideas/9930/filter-by-user-on-screen-requests-log/">Luís Figueiredo's idea</a>. (R11CT-311)</li>
+<li>Added support for Mobile Single Sign-On, on the Platform Server side, through the enablement of SAML authentication for Mobile Apps (R11PIT-785)</li>
+<li>Added the ability to deploy all modules prepared during an upgrade. It is now possible to optionally, after upgrading your OutSystems environment to Platform Server 11.18.0 or higher, to immediately deploy all modules that were successfully prepared.
+If executed, the "Deploy All" action will reflect all changes and improvements from the new Platform Server version in the applications running code.<br/>
+
+We recommend that customers skip this step and instead publish modules and/or apps manually as needed. Nevertheless, for those customers/scenarios where a deploy of all upgraded applications is needed as soon as possible, customers now have the option to do it.<br/>
+
+For more details about the deployment of prepared modules check <a href="https://success.outsystems.com/Documentation/11/Setup_and_maintain_your_OutSystems_infrastructure/Upgrade_OutSystems_platform/Modules_deployment_step_during_Platform_Server_upgrade">the documentation</a>. (R11PIT-885)</li>
+<li>Solution publishing was optimized and is now up to 40% faster in large factories. (R11PT-80)</li>
+<li>Added support for the redaction of header and body parameters of an exposed REST API when the Logging Level is set to Full or Troubleshoot. (RO11IT-196)</li>
+<li>Applies only to environments using an Oracle database.<br/>
+Now, new sequences used for auto numbers created by the Platform have a cache size of 100.<br/>
+When upgrading the Platform to version 11.18.0 by running the Configuration Tool, existing sequences that have no cache will be updated to have a cache size of 100. (RPM-1158) <span class="cattag">Infrastructure Management</span>  <span class="cattag">Cloud Orchestration</span> </li>
+<li>OutSystems Deployment Controller and OutSystems Scheduler Services now run with Virtual Accounts. If you have permissions errors when installing please check the following <a href="https://success.outsystems.com/Support/Enterprise_Customers/Troubleshooting/Service_permissions_error_when_installing_or_upgrading_to_Platform_Server_11.12.0_or_later">documentation</a>. (RPM-1334) <span class="cattag">Infrastructure Management</span>  <span class="cattag">OutSystems Services</span> </li>
+<li>It is now possible to read and display data from PostgreSQL external databases columns with the 'Time (without TimeZone)' data type . (RPM-3043) <span class="cattag">Application Runtime</span>  <span class="cattag">Data Access and Manipulation</span> </li>
+<li>The new IT Users Integration with External IdP OpenId Connect (OIDC) feature provides modern security standards for the authentication, setup, and management of IT users. This new authentication mechanism reduces the risk associated with using unsecured passwords when accessing OutSystems consoles and tools and eliminates the need for IT Users having to remember various passwords for multiple systems. Additionally, it improves the authentication experience by providing a single sign-on (SSO) authentication method. To learn more about this new authentication mechanism, see our documentation. (RPOR-10286)</li>
+</ul>
+<h3 id="bug_fixing_platform_server_11.18.0" >Bug Fixing</h3>
+<ul>
+<li>Fixed an issue that prevented some licensing errors from displaying the correct error message. (R11BRT-152)</li>
+<li>Improved the performance of the Compiler Pool Garbage Collector. (R11PIT-778)</li>
+<li>Updated installation checklist to add information regarding the need to have "Create Symbolic Links" permission when running the configuration tool. (R11PIT-784)</li>
+<li>Added disclaimers relating to the use of the "Create/Upgrade Service" in custom RabbitMQ installation scenarios in the Configuration Tool and Installation Checklist. (R11PIT-807)</li>
+<li>Fixed an issue during publishing that caused an "Upgrade Error: Generic SQL Error. Execution Timeout Expired.  The timeout period elapsed prior to completion of the operation or the server is not responding." error.
+This occurred in environments using a SQL Server database while trying to re-publish modules that are able to change Site Properties at runtime and after that triggering other long running requests. (RPM-1032) <span class="cattag">Publish Operation</span> </li>
+<li>Fixed an issue in Factory Configuration that prevented Shared Configurations from being saved and caused an error related with Administrator permissions.<br/> 
+This occurred when shared configurations were associated with deleted Modules. (RPM-1175) <span class="cattag">Application Runtime</span>  <span class="cattag">Supported Forge Component</span> </li>
+<li>Added logs to provide additional information when deployment service fails. (RPM-1202) <span class="cattag">Infrastructure Management</span>  <span class="cattag">OutSystems Services</span> </li>
+<li>Fixed an issue that occurred after creating a foreign key that caused database locks with wait type "enq: TM – contention" and a significant increase in the database CPU usage.<br/>
+This happened in environments using an Oracle database. (RPM-1609) <span class="cattag">Publish Operation</span> </li>
+<li>Fixed an issue that caused LifeTime to show the Deploy Now button to users when they don't have permission to publish to the target environment. If the user without permissions started the deployment, it could lead to one of the following:
+<ul>
+<li>If the deployment plan included modules for which the user didn't have "Change and Deploy" or higher permissions and if those modules had broken dependencies, the deployment concluded with errors. This left deployed modules with broken dependencies, which could lead to runtime errors.</li>
+<li>Otherwise, the deployment would fail due to lack of the required permissions.</li>
+</ul> (RPM-1689) <span class="cattag">Application Lifecycle</span>  <span class="cattag">LifeTime</span> </li>
+<li>Fixed an issue that caused modules and apps to have different settings in different servers of the same Deployment Zone.<br/>
+This occurred after adding more servers to a Deployment Zone and then changing settings of a module or app that was deployed before the new server was added. (RPM-1830) <span class="cattag">Application Runtime</span> </li>
+<li>Fixed an issue that caused a deployment to fail with an ORA-01440 error in environments using an Oracle database.<br/>
+This occurred when deploying a module after decreasing the precision or scale of an entity's attribute, by changing its Data Type, or the Length or Decimals properties.<br/>
+Now, compilation checks whether a change to an attribute's data type would raise the ORA-01440 error. (RPM-2042) <span class="cattag">Publish Operation</span> </li>
+<li>Fixed an issue that caused Service Studio and Service Center to assume the wrong module version as the most recent when using Oracle RAC databases. (RPM-2220) <span class="cattag">Publish Operation</span>  <span class="cattag">Deployment stage</span> </li>
+<li>Fixed an issue that caused different module runtime behavior depending on the Debug Mode for the module. Learn more about <a href="https://success.outsystems.com/Documentation/11/Setup_and_maintain_your_OutSystems_infrastructure/Setting_Up_OutSystems/Configure_your_OutSystems_environment#environment-debug-mode">environment and module Debug Mode</a>.<br/>
+This occurred in actions that included asynchronous logic and that were set as event handlers. For example, this affected the behavior of the Button Loading widget. (RPM-2269) <span class="cattag">Application Runtime</span>  <span class="cattag">Logic Execution</span> </li>
+<li>Improved NLS_Language tooltip's text in the Database Connection detail screen. (RPM-2398) <span class="cattag">Application Runtime</span>  <span class="cattag">Data Access and Manipulation</span> </li>
+<li>Fixed a bug that caused logic from both branches of an If to be executed.
+This occurred in actions which ended in a Download element and that included two consecutive Ifs for which a branch of each If points to the same logic element. (RPM-2410) <span class="cattag">Application Runtime</span>  <span class="cattag">Logic Execution</span> </li>
+<li>Fixed an issue that caused runtime errors when authenticating users using the SAML authentication available in the Users app.<br/>
+When trying to authenticate users with SAML at runtime, there were "Unable to Process Request" errors. Checking the logs in Service Center, there was an error message similar to "String or binary data would be truncated in table 'OSDev.dbo.OSUSR_6WD_SAMLMESSAGE_LOG', column 'SESSIONINDEX'. Truncated value: '_x18MaTZNE2aO1vm5_xMcXivDMh0LRTrbxS0uuDPV3SOB1261'. The statement has been terminated." Alternatively, the message might mention the MessageID column instead.<br/>
+To solve this issue, the length of the SessionIndex, MessageID, and ResponseToMessageID attributes in the Users SamlMessage_Log entity was increased. (RPM-2463) <span class="cattag">Application Lifecycle</span>  <span class="cattag">Users</span> </li>
+<li>Updated installation checklist to add information regarding the need to have "Create Symbolic Links" permission when running the Configuration Tool. (RPM-2549) <span class="cattag">Infrastructure Management</span>  <span class="cattag">Platform Installation Checklist</span> </li>
+<li>Fixed an issue that caused errors when setting the IP to "::1"  in machines that serve as both Controller and Front-end servers.<br/>
+When there was a machine in the mentioned conditions and the Deploy Service stopped, the status of the front-end wasn't updated to disabled, possibly causing errors in Health checks and Deploy operations. (RPM-2711) <span class="cattag">Infrastructure Management</span>  <span class="cattag">OutSystems Services</span> </li>
+<li>Fixed an issue that caused extensions using the PostgreSQL External Database Connector to fail saving data causing an exception message "column "xxx" is of type uuid but expression is of type text".<br/>
+This occurred when trying to create or update records with a column of data type 'uuid'. (RPM-2844) <span class="cattag">Application Runtime</span>  <span class="cattag">Data Access and Manipulation</span> </li>
+<li>Fixed an issue that caused a compilation error when publishing or deploying a module that included dependencies to Service Actions.<br/>
+This occurred after removing an Input or Output Parameter with a default value from the producer module, and when that input or output wasn't being used in the consumer module. (RPM-2848) <span class="cattag">Application Lifecycle</span>  <span class="cattag">LifeTime</span> </li>
+<li>Fixed incorrect translations in the Users app.<br/>
+The issue affected the "Username" field translation for Chinese, Dutch, and Japanese. (RPM-2857) <span class="cattag">Application Runtime</span>  <span class="cattag">Interface</span> </li>
+<li>Fixed an issue that prevented the publishing of apps or Solutions.<br/>
+This occurred when the Database Catalog had its Name set differently than the Logical Name. (RPM-2860) <span class="cattag">Infrastructure Management</span> </li>
+<li>Fixed an issue that caused a failed SAP connection when clicking the "Test Connection" button in Service Center.<br/>
+This occurred when the SAP credentials were defined in Service Center, and then you navigated to another Service Center screen or refreshed the SAP connection screen before testing the connection. (RPM-2871) <span class="cattag">Application Lifecycle</span>  <span class="cattag">Service Center</span> </li>
+<li>Improved telemetry collection for Progressive Upgrade errors. (RPM-2889) <span class="cattag">Infrastructure Management</span> </li>
+<li>Fixed an issue that prevented customers from proceeding with an ongoing upgrade due to an unusual longer initialization of OutSystems Deployment Controller Service. (RPM-3126) <span class="cattag">Infrastructure Management</span>  <span class="cattag">Platform Configuration</span> </li>
+<li>Fixed a bug that lead to compilation errors in modules with consumed SOAP Web Services or that referenced a module that consumed SOAP Web Services.<br/>
+This occurred in environments using Platform Server 11.17.0 or later. (RPM-3176) <span class="cattag">Publish Operation</span>  <span class="cattag">Compilation</span> </li>
+<li>Fixed an issue that caused the SynchronizeDomainUsers timer to fail with errors.<br/>
+This occurred when an end user was set as active in the Users app but didn't exist in Active Directory. (RPM-477) <span class="cattag">Application Runtime</span>  <span class="cattag">Authentication and Authorization</span> </li>
+<li>Fixed an issue that prevented Deploy Service and Scheduler from starting with an "Error opening connection to the database" entry in Event Viewer.<br/>
+This occurred after trying to start the Deploy Service and Scheduler while the platform database is down. (RPM-787) <span class="cattag">Platform Installation</span>  <span class="cattag">OutSystems Services</span> </li>
+<li>Fixed an issue that caused non-identifier attributes with Auto Number enabled to not be incremented when creating new records.<br/>
+This occurred in environments using an Oracle database. (RPM-882) <span class="cattag">Application Runtime</span>  <span class="cattag">Data Access and Manipulation</span> </li>
+<li>Fixed an issue where outdated scripts would be executed when republishing a module for which a previous deployment failed.<br/>
+This could cause an upgrade error while deploying Service Center during a Platform Server upgrade or when rolling back the platform to an older database state using a database clone.<br/>
+Now, compilation files are deleted after a deployment error to ensure they aren't reused in the following deployment. (RPM-957) <span class="cattag">Platform Installation</span>  <span class="cattag">Configuration</span> </li>
+</ul>
+
+<h3>Breaking change</h3>
+<ul>
+<li>The Platform Server installer was modified to delete specific third-party DLLs from the \plugins\database folder and recreate them in new subfolders. This can prevent third-party/custom external Database Connectors from functioning. Check more detail on how to deal with this breaking change <a href="https://success.outsystems.com/Support/Release_Notes/11/OutSystems_11_side_effects_and_breaking_changes#bc-11180-1">here</a>.</li>
+<li>Applications that use custom database connections can start to have runtime errors such as `Could not load file or assembly 'Google.Protobuf, Version=3.12.3.0, Culture=neutral, PublicKeyToken=a7d26565bac4d604' or one of its dependencies. The system cannot find the file specified.` Check more detail on how to deal with this breaking change <a href="https://success.outsystems.com/Support/Release_Notes/11/OutSystems_11_side_effects_and_breaking_changes#bc-11180-2">here</a>.</li>
+</ul>
+
+
+
