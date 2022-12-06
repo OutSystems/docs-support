@@ -93,7 +93,6 @@ You can [monitor the tasks performed by IT users](https://success.outsystems.com
 Tracked events include:
 
 * Storing a new version of an application or component
-* Deleting an application or component
 * Deploying a new version
 * Modifying user configurations
 * Logging in to the system
