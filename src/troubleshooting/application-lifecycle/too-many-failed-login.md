@@ -19,13 +19,15 @@ A user tries to login in one application or management console (LifeTime or Serv
 
 Possible causes for this issue are:
 
-* The user mistyped the password several times within a short timeframe
+* The user mistyped the password several times within a short timeframe.
 
-* User changed their password, but at the same he had Service Studio running, connected with the previous Username/Password
+* User changed their password, but at the same he had Service Studio running, connected with the previous username/password.
 
-* The user account was target of a brute-force attack
+* The user account was target of a brute-force attack.
 
-* The network where the user is working on was target of a brute-force attack
+* The network where the user is working on was target of a brute-force attack.
+
+You can check the conditions that trigger the brute force protection [here](https://success.outsystems.com/Documentation/11/Managing_the_Applications_Lifecycle/Secure_the_Applications/Protection_against_Brute_Force_Attacks).
 
 ## Resolution
 
