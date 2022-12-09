@@ -20,7 +20,7 @@ If the video platform, such as Vimeo is blocked for a video lesson, you can down
 
 Below the video, you have two links, one to download the video (i.e. .mp4), and a second one to download the subtitles (i.e. .srt).
 
-![Video Blocked](./images/online-training-offline-access-1.png)
+![Video Blocked](images/online-training-offline-access-1.png)
 
 1. Right-click the first link, and select **Save link as**. Select a location/folder on your computer.
 
