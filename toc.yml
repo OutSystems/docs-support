@@ -60,6 +60,7 @@
         - href: troubleshooting/application-development/library-hell.md
         - href: troubleshooting/application-development/service-unavailable-503.md
         - href: troubleshooting/application-development/error-401.md
+        - href: troubleshooting/application-development/troubleshoot-cross-platform-permissions.md
     # Application Lifecycle
     - href: troubleshooting/application-lifecycle/intro.md
     - topics:
