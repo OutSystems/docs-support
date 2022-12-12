@@ -1,0 +1,22 @@
+---
+isautopublish: true
+pageprivacy: semi-private
+---
+
+<h2 id="platform_server_11.19.0" >Platform Server 11.19.0</h2>
+<div class="info"><p>This is a preliminary version of the document.</p></div>
+
+
+<style>.cattag {background: #f4f2ff; color: #6a6581; padding: 4px 10px;}</style>
+<h3 id="bug_fixing_platform_server_11.19.0" >Bug Fixing</h3>
+<ul>
+<li>Fixed a bug when importing a SOAP web service with choices that have elements in non-alphabetical order (RPM-1222) <span class="cattag">Application Runtime</span>  <span class="cattag">Logic Execution</span> </li>
+<li>Now, users with List as the default role and Monitor and Add Dependencies as the team/applications role can view logs for the applications that they assigned with Monitor and Add Dependencies. (RPM-1553) <span class="cattag">Application Lifecycle</span>  <span class="cattag">Service Center</span> </li>
+<li>Fixed an issue that cause incorrect extension files being copied from producer to consumer during a solution publish. (RPM-2429) <span class="cattag">Publish Operation</span>  <span class="cattag">Compilation</span> </li>
+<li>Fixed the error "Java exception was raised during method invocation at SQLitePluginTransaction.start".
+This occurred when a reactive app screen was being displayed in a mobile app via an iframe. (RPM-2995) <span class="cattag">Application Runtime</span>  <span class="cattag">Interface</span> </li>
+<li>Fixed an issue that was not showing a warning message when a 2-stage deployment has compilation errors/warnings. (RPM-3111) <span class="cattag">Application Lifecycle</span> </li>
+<li>Fixed an accessibility issue in reactive applications that caused screen readers not to read validation messages on mandatory text input fields when the field was left empty and the form was submitted. (RPM-3209) <span class="cattag">Application Runtime</span>  <span class="cattag">System Components</span> </li>
+<li>Fixed an issue with auto numbering not updating to the correct value when the CreateOrUpdateLocal action was used. (RPM-3238) <span class="cattag">Application Runtime</span>  <span class="cattag">Data Access and Manipulation</span> </li>
+</ul>
+
