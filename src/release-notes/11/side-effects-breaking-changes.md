@@ -16,7 +16,6 @@ OutSystems is committed to minimizing your effort when upgrading to a new releas
 As such, before introducing a breaking change for a new release, OutSystems carefully analyzes its impact, namely, the expected number of occurrences in its customers' installations. A breaking change is introduced only if it affects a small number of customers.
 
 
-
 ## Breaking Changes 
 
 ### Introduced in Platform Server Sep.2018
@@ -553,6 +552,44 @@ You should only use this workaround if it's not viable to fix all the affected e
 **Rationale**: When doing a large number of Consumed REST API requests, the number of used ports can increase rapidly and lead to port exhaustion problems. The new behavior prevents this situation and generally helps avoid leaking resources. However, this new behavior can also cause runtime changes in some edge cases. A known situation takes place when consuming an Exposed REST API in OutSystems that returns HTTP status code 204 (No Content), but sends data in the body, thus sending a "Content-Length" header with a value greater than zero. Although this is [invalid according to RFC 7230](https://httpwg.org/specs/rfc7230.html#header.content-length), it previously didn't cause an error. Additionally, you should validate other scenarios that might be affected by this breaking change.
 
 **Workaround**: For the example stated above, the workaround is to change the returned status code from 204 (No Content) to a different status code, if you wish to include data in the body. Alternatively, keep returning the 204 status code but don't include any content in the response body.
+
+### Introduced in Platform Server 11.12.0
+
+1\. <a id="bc-11120-1"></a>
+
+**Issue**: Widgets ignore tampered events. Widgets ignore events that you create or change by JavaScript. For example, OnChange Event Handlers fail to execute if you change the event before reaching the widget. This typically impacts scenarios where an input is having its value filtered / formatted / masked with JavaScript extensibility.
+This issue affects the following Forge components:
+
+* [Input Masks Library](https://www.outsystems.com/forge/component-overview/2258/input-masks-library)
+* [Input Masks Mobile](https://www.outsystems.com/forge/component-overview/5289/input-mask-mobile)
+
+**Runtime**: Mobile, Web
+
+**Rationale**: Upgrading to React 16 allows to take advantage of performance and security improvements while keeping an updated framework.
+
+**Fix**: For related React documentation see [Improving inputs](https://reactjs.org/blog/2017/06/13/react-v15.6.0.html#improving-inputs).
+
+2\. <a id="bc-11120-2"></a>
+
+**Issue**: All unknown HTML attributes now show in the resulting HTML. React previously removed all attributes except data- from the output. Due to this change, the runtime now applies the CSS rules that were ignored.
+
+**Runtime**: Mobile, Web
+
+**Rationale**: Upgrading to React 16 allows to take advantage of performance and security improvements while keeping an updated framework.
+
+**Fix**: For related React documentation see [DOM Attributes in React 16](https://reactjs.org/blog/2017/09/08/dom-attributes-in-react-16.html).
+
+3\. <a id="bc-11120-3"></a>
+
+**Issue**:  By definition, the option HTML element only allows text as children. This is now enforced by React 16 and all children of an option element are now stringified, which may result in rendering `[object Object]` when that children is another HTML element, like a `span`.
+
+This affects custom implementations of a native dropdown making use of HTML Element widgets with an option tag. This pattern can instead be implemented using a Dropdown widget with the "Options Content" property set to `Text Only`.
+
+**Runtime**: Mobile, Web
+
+**Rationale**: Upgrading to React 16 allows to take advantage of performance and security improvements while keeping an updated framework.
+
+**Fix**: A temporary workaround is to remove the children of the option element and create a `label` attribute with the desired text.
 
 ### Introduced in Platform Server 11.14.0
 
