@@ -69,6 +69,13 @@ pageprivacy: public
 <li>Fixed a performance issue with compiling modules. The fix reduces the number of database queries required when computing server-to-client data transfer optimization. (RTAFB-4754)</li>
 </ul>
 
+<h3>Breaking changes </h3>
+<ul>
+<li>Widgets ignore events that you create or change by JavaScript. Check more detail on how to deal with this breaking change <a href="https://success.outsystems.com/Support/Release_Notes/11/OutSystems_11_side_effects_and_breaking_changes#bc-11120-1">here</a>.</li></li>
+<li>All unknown HTML attributes now show in the resulting HTML. React previously removed all attributes except data- from the output. Due to this change, the runtime now applies the CSS rules that were ignored. Check more detail on how to deal with this breaking change <a href="https://success.outsystems.com/Support/Release_Notes/11/OutSystems_11_side_effects_and_breaking_changes#bc-11120-2">here</a>.</li>
+<li>The option HTML element only allows text as children. This is now enforced by React 16.  Check more detail on how to deal with this breaking change <a href="https://success.outsystems.com/Support/Release_Notes/11/OutSystems_11_side_effects_and_breaking_changes#bc-11120-3">here</a>.</li>
+</ul>
+
 <h3>Known Issues</h3>
 
 <ul>
