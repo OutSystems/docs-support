@@ -93,8 +93,7 @@ Now, compilation files are deleted after a deployment error to ensure they aren'
 
 <h3>Breaking change</h3>
 <ul>
-<li>The Platform Server installer was modified to delete specific third-party DLLs from the \plugins\database folder and recreate them in new subfolders. This can prevent third-party/custom external Database Connectors from functioning. Check more detail on how to deal with this breaking change <a href="https://success.outsystems.com/Support/Release_Notes/11/OutSystems_11_side_effects_and_breaking_changes#bc-11180-1">here</a>.</li>
-<li>Applications that use custom database connections can start to have runtime errors such as `Could not load file or assembly 'Google.Protobuf, Version=3.12.3.0, Culture=neutral, PublicKeyToken=a7d26565bac4d604' or one of its dependencies. The system cannot find the file specified.` Check more detail on how to deal with this breaking change <a href="https://success.outsystems.com/Support/Release_Notes/11/OutSystems_11_side_effects_and_breaking_changes#bc-11180-2">here</a>.</li>
+<li>The installer was modified to delete specific third-party DLLs from the `\plugins\database` folder and recreate them in new subfolders. This can prevent extensions or custom database connectors that expect the below DLLs to exist in the Platform Server. An example of those extensions are custom database connectors. External database connections and extensions built using <a href="https://success.outsystems.com/Documentation/11/Extensibility_and_Integration/Integrate_with_an_External_Database">OutSystems out-of-the box mechanisms</a> **are not** affected by this breaking change. Check more detail on how to deal with this breaking change <a href="https://success.outsystems.com/Support/Release_Notes/11/OutSystems_11_side_effects_and_breaking_changes#bc-11180-1">here</a>.</li>
 </ul>
 
 
