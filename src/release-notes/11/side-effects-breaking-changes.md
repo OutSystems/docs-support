@@ -620,20 +620,21 @@ This affects custom implementations of a native dropdown making use of HTML Elem
 **Workaround**: In Service Center, set the site property `FeedBackMessage_ForceHTMLEncode` to False in the site properties of the RichWidgets module. This isn't recommended, as it leaves the Feedback_Message widget vulnerable to XSS attacks.
 
 
-### Introduced in Platform Server 11.18.0
+### Introduced in Platform Server 11.18.0 {#bc-11180-1}
 
-1\. <a id="bc-11180-1"></a>
 
-**Issue**: The installer was modified to delete specific third-party DLLs from the `\plugins\database` folder and recreate them in new subfolders. This can prevent third-party/custom external Database Connectors from functioning.
+**Issue**: The installer was modified to delete specific third-party DLLs from the `\plugins\database` folder and recreate them in new subfolders. This can prevent extensions or custom database connectors that expect the below DLLs to exist in the Platform Server. An example of those extensions are custom database connectors. Apps that consume those extensions can start to have runtime errors such as `Could not load file or assembly 'Google.Protobuf, Version=3.12.3.0, Culture=neutral, PublicKeyToken=a7d26565bac4d604' or one of its dependencies. The system cannot find the file specified.`
+External database connections and extensions built using [OutSystems out-of-the box mechanisms](https://success.outsystems.com/Documentation/11/Extensibility_and_Integration/Integrate_with_an_External_Database) **are not** affected by this breaking change.
 
-Follows the list of affected files along wth the folder they're recreated on:
+Follows the list of affected files:
 
-* **iDB2** DLLs are recreated in folder `\plugins\database\iDB2\`:
+* **iDB2**:
     * IBM.Data.DB2.iSeries.dll
-    * Recreated in \plugins\database\Oracle\
+
+* **Oracle**:
     * Oracle.ManagedDataAccess.dll
 
-* **MySQL** DLLs are recreated in folder `\plugins\database\MySQL\`:
+* **MySQL**:
     * BouncyCastle.Crypto.dll
     * Google.Protobuf.dll
     * K4os.Compression.LZ4.dll
@@ -648,7 +649,7 @@ Follows the list of affected files along wth the folder they're recreated on:
     * Ubiety.Dns.Core.dll
     * Zstandard.Net.dll
 
-* **PostgreSQL** DLLs are recreated in folder `\plugins\database\PostgreSQL\`:
+* **PostgreSQL**:
     * Microsoft.Bcl.AsyncInterfaces.dll
     * Npgsql.dll
     * System.Buffers.dll
@@ -666,45 +667,21 @@ Follows the list of affected files along wth the folder they're recreated on:
 
 **Fix**:
 
-After running the Platform Installer and before running the Configuration Tool, move or install any third-party or custom Database Connectors to their respective folders. This move ensures that none of the DLLs needed by those custom Database Connectors will be deleted. You only need to make this move once.
-
-For example, consider a third-party Database Provider named `ExampleDB`. It consists of three DLLs:
-
-* `ACME.DatabaseProvider.ExampleDB.dll` (Database Connector plugin)
-* `ExampleDB.Driver.dll` (Driver DLL)
-* `Google.Protobuf.dll` (Dependency of Driver DLL)
-
-Before Platform Server 11.18.0, these DLLs are placed under the `Platform Server\plugins\database` folder.
-
-With the new changes, the `Google.Protobuf.dll` are deleted and recreated in the MySQL subfolder, which can make the `ExampleDB` Database Connector non-functional (depending on the configured external Database Connections).
-
-To prevent this, when upgrading to Platform Server 11.18.0 or higher, complete the following steps after running the Platform installer and before selecting **Apply & Exit** in the Configuration Tool:
-
-* Create an `ExampleDB` folder in `plugins\database`, and place all the relevant DLLs there.
-* Optionally, create a new `manifest.json` file with all the references required by the plugin. This is only required if you identify version mismatches between what's needed for the plugin and the current supported DLLs.
-
-**Note**: OutSystems services must be restarted, and Service Center republished for the plugin to be detected. The Configuration Tool does this automatically on an upgrade.
-
-2\. <a id="bc-11180-2"></a>
-
-**Issue**: As a side effect of [breaking change number 1](#bc-11180-1), applications that use custom database connections can start to have runtime errors such as `Could not load file or assembly 'Google.Protobuf, Version=3.12.3.0, Culture=neutral, PublicKeyToken=a7d26565bac4d604' or one of its dependencies. The system cannot find the file specified.`
-
-**Runtime**: Mobile, Web
-
-**Rationale**: This file/folder reorganization was necessary to allow finer control over which DLLs are referenced, as well as their versions. This file/folder reorganization improves compatibility between current and future Database Connectors.
-
-**Fix**: 
-
 * If you're using the [Secret Manager Local Service](https://www.outsystems.com/forge/component-overview/13476/secret-manager-local-service) Forge asset, update it to the latest version. Then, refresh the dependencies on the consumers and republish them.
 
-* If you're using a custom database connector packed in an extension, add the DLL to the extension and publish it. Refresh the dependencies on the consumers and republish them.
+* If you have an extension that expect the above DLLs to exist in the Platform Server, modify the extension ensuring that the necessary DLLs are imported to the extension.
 
-**Workaround**: In case you can't use any of the above fixes, do the following:
+* If you're using a custom database connector built using the Database Connector SDK, you'll need to ensure that the DLLs of that connector are in a dedicated folder. For example, `Google.Protobuf.dll` is used in the `ExampleDB` connector , place this DLL in the `\plugins\database\ExampleDB` folder. This is a very rare scenario. To minimize downtime ensure that this is done after running the Platform Installer and before running the Configuration Tool.
 
-1. Identify the assembly that's failing to be loaded in the list of [breaking change number 1](#bc-11180-1).
+**Workaround**:
+
+In case you can't use any of the above fixes, do the following:
+
+1. Identify the assembly that's failing to be loaded in the list above.
 1. Create a new [External Database Connection](https://success.outsystems.com/Documentation/11/Extensibility_and_Integration/Integrate_with_an_External_Database/Integrate_with_an_external_database_using_Integration_Studio) and chose the DBMS identified on the list.
 1. Don't test it and then save it. This will be a dummy connection, used only to recreate the files. It doesn't need to be assigned to an extension.
 1. Republish the app that was having the errors.
+
 
 ## Side Effects
 
