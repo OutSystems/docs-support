@@ -141,6 +141,8 @@
     # Vulnerabilities
     - href: security/vulnerabilities/intro.md
     - topics:
+        - href: security/vulnerabilities/vulnerability-RPM-3056.md
+        - href: security/vulnerabilities/vulnerability-RPM-3055.md
         - href: security/vulnerabilities/vulnerability-RPM-1054.md
         - href: security/vulnerabilities/vulnerability-RPM-1278.md
         - href: security/vulnerabilities/vulnerability-RPM-813.md
