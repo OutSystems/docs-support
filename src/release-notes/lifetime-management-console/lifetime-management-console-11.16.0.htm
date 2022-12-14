@@ -32,3 +32,7 @@ pageprivacy: public
 <ul>
 <li>Breaking change on validating O10 staging plans: when validating a staging plan between O10 environments, if an attribute was removed from a static entity, the validation done by LifeTime will not detect it as a broken reference. To avoid errors, all modules that consume the changed reference should be refreshed and included in the staging.</li>
 </ul>
+<h3>Known Issues</h3>
+<ul>
+<li>When applying the new security setting, described in the above mentioned security bulletin, it is necessary to perform an extra "Save" operation in Service Center Administration > Environment Configuration to ensure it is correctly set. This operation must be made on each environment after the setting is enabled.</li>
+</ul>
