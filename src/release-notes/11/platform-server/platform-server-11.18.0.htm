@@ -98,5 +98,9 @@ Now, compilation files are deleted after a deployment error to ensure they aren'
 <li>The installer was modified to delete specific third-party DLLs from the <code>\plugins\database</code> folder and recreate them in new subfolders. This can prevent extensions or custom database connectors that expect the below DLLs to exist in the Platform Server. An example of those extensions are custom database connectors. External database connections and extensions built using <a href="https://success.outsystems.com/Documentation/11/Extensibility_and_Integration/Integrate_with_an_External_Database">OutSystems out-of-the box mechanisms</a> <strong>are not</strong> affected by this breaking change. Check more detail on how to deal with this breaking change <a href="https://success.outsystems.com/Support/Release_Notes/11/OutSystems_11_side_effects_and_breaking_changes#bc-11180-1">here</a>.</li>
 </ul>
 
+<h3>Known Issues</h3>
+<ul>
+<li>When applying the new security setting, described in the above mentioned security bulletin, it is necessary to perform an extra "Save" operation in Service Center Administration > Environment Configuration to ensure it is correctly set. This operation must be made on each environment after the setting is enabled.</li>
+</ul>
 
 
