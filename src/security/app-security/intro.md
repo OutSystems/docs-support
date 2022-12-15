@@ -173,7 +173,7 @@ Features like root and jailbreak detection, code injection protection, screensho
 
 ### Follow development best practices
 
-[AI Mentor Studio](https://success.outsystems.com/Documentation/Architecture_Dashboard) is an OutSystems tool that enables IT leaders to visualize complex cross-portfolio architectures and identify problems while also helping developers follow best practices and avoid common pitfalls. Based on automatic code and runtime performance analysis, it recommends solutions that help you to improve the performance, security, architecture, and user experience of applications. See [this video](https://www.youtube.com/watch?v=Iqgw7bAQIBo&feature=youtu.be) for an overview of the AI Mentor Studio.
+[AI Mentor Studio](https://success.outsystems.com/Documentation/Architecture_Dashboard) is an OutSystems tool that enables IT leaders to visualize complex cross-portfolio architectures and identify problems while also helping developers follow best practices and avoid common pitfalls. Based on automatic code and runtime performance analysis, it recommends solutions that help you to improve the performance, security, architecture, and user experience of applications. 
 
 Use the AI Mentor Studio to validate and fix the [security patterns](https://success.outsystems.com/Documentation/Architecture_Dashboard/Code_Patterns#Security) identified in your applications.
 
