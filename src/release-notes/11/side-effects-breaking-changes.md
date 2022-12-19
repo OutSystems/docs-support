@@ -26,7 +26,7 @@ As such, before introducing a breaking change for a new release, OutSystems care
 
 **Issue**: LifeTime is now only supported when installed in a dedicated environment.
 
-**Runtime**: Mobile, Web
+**Runtime**: Traditional web, Reactive web, Mobile
 
 **Rationale**: LifeTime now has its own release cycle to allow for better and faster improvements in LifeTime. To achieve this, LifeTime must be run, installed and maintained in a separate environment from the development pipeline environments in customer infrastructures. Check [LifeTime release notes and breaking changes](https://success.outsystems.com/Support/Release_Notes/LifeTime_Management_Console).
 
@@ -38,7 +38,7 @@ As such, before introducing a breaking change for a new release, OutSystems care
 
 **Issue**: The following actions are no longer available after uploading an Module in Service Center: "Publish in debug mode", "Publish step by step" and "Publish step by step in debug mode".
 
-**Runtime**: Mobile, Web
+**Runtime**: Traditional web, Reactive web, Mobile
 
 **Rationale**: These features were removed since they were infrequently used.
 
@@ -50,7 +50,7 @@ As such, before introducing a breaking change for a new release, OutSystems care
 
 **Issue**: Removed support for the SMS feature. Publishing modules with SMS Flows will fail.
 
-**Runtime**: Web
+**Runtime**: Traditional Web
 
 **Rationale**: The built-in SMS feature was removed due to low adoption and since it is no longer aligned with the product vision.
 
@@ -62,7 +62,7 @@ As such, before introducing a breaking change for a new release, OutSystems care
 
 **Issue**: The Configuration Tool shows an error when it detects a previous configuration using MySQL.
 
-**Runtime**: Mobile, Web
+**Runtime**: Traditional web, Reactive web, Mobile
 
 **Rationale**: MySQL is not supported as the platform database in OutSystems 11 and Configuration Tool will issue an error when it detects a previous configuration using MySQL. MySQL is now only supported as an external database.
 
@@ -74,7 +74,7 @@ As such, before introducing a breaking change for a new release, OutSystems care
 
 **Issue**: Publishing an Module with a text entity attribute whose length is longer than 2000 characters but for which the metamodel says its length is exactly 2000 characters causes an error in Oracle, stating that the column's underlying data type cannot be changed.
 
-**Runtime**: Mobile, Web
+**Runtime**: Traditional web, Reactive web, Mobile
 
 **Rationale**: There was issue when developers changed the size of a Text attribute from 2000 characters to a larger value. In this case, the platform changed the metamodel for the attribute but not the database column itself, which might have led to data corruption at runtime.
 
@@ -95,7 +95,7 @@ To check which Modules are affected, run the following query against your Oracle
 
 **Issue**: Joins between log tables and other tables are no longer allowed.
 
-**Runtime**: Mobile, Web 
+**Runtime**: Traditional web, Reactive web, Mobile
 
 **Rationale**: Log tables may now be on a different physical database and in such scenarios it is not possible to do a database join.
 
@@ -107,7 +107,7 @@ To check which Modules are affected, run the following query against your Oracle
 
 **Issue**: Log entities without "Show Tenant Identifier" will no longer be filtered automatically.
 
-**Runtime**: Mobile, Web
+**Runtime**: Traditional web, Reactive web, Mobile
 
 **Rationale**: Since logs can now be stored on a separate physical database, it is not possible to define a table as Multi-Tenant, and the platform will not be able to create the filter automatically.
 
@@ -119,7 +119,7 @@ To check which Modules are affected, run the following query against your Oracle
 
 **Issue**: Log entities are now only accessible as read-only.
 
-**Runtime**: Mobile, Web
+**Runtime**: Traditional web, Reactive web, Mobile
 
 **Rationale**: The runtime logging database user has no additional permissions, to prevent log tampering.
 
@@ -131,7 +131,7 @@ To check which Modules are affected, run the following query against your Oracle
 
 **Issue**: The OutSystems Log Service is no longer installed in OutSystems 11 first installations. Any automation scripts relying on the existence of this service may issue errors.
 
-**Runtime**: Mobile, Web 
+**Runtime**: Traditional web, Reactive web, Mobile
 
 **Rationale**: The OutSystems Log Service is not used by OutSystems 11 applications, but any applications that were not upgraded to OutSystems 11 still need this service to log errors. The service is not removed when upgrading Platform Server to version 11, but it's no longer installed in first installations. Follow the instructions in [Log Service Cleanup](https://success.outsystems.com/Documentation/How-to_Guides/DevOps/Log_Service_Cleanup) to remove the service, if no longer needed.
 
@@ -143,7 +143,7 @@ To check which Modules are affected, run the following query against your Oracle
 
 **Issue**: Name clashes are now detected in REST structures when attributes have the same "Name in JSON" property value. The TrueChange pane will now show an error in this situation.
 
-**Runtime**: Mobile, Web
+**Runtime**: Traditional web, Reactive web, Mobile
 
 **Rationale**: Although it is possible that regular structures and structures created from Consumed REST APIs have attributes with the same "Name in JSON", using these structures in Consume REST, Expose REST, JSON Serialize or JSON Deserialize elements causes serialization errors.
 
@@ -155,7 +155,7 @@ To check which Modules are affected, run the following query against your Oracle
 
 **Issue**: Methods in EnhancedWebReferences API to customize consumed SOAP Web Services (all GetWebReference\* and SetWebReference\* methods) are now deprecated for imported SOAP Web Services created in OutSystems 11 and calls to those methods will be ignored. They can still be used for existing web services, i.e. for SOAP Web Services created in a version older than OutSystems 11 and then upgraded to this version.
 
-**Runtime**: Mobile, Web
+**Runtime**: Traditional web, Reactive web, Mobile
 
 **Rationale**: In OutSystems 11 there's a new implementation for consumed SOAP Web Services that are created in OutSystems 11, supporting SOAP 1.2 and some additional features. One of the biggest improvements is in terms of extensibility, by providing a powerful API similar to the one available for REST integrations, able to solve more use cases and provide more customization possibilities. Due to this fact, the EnhancedWebReferences API is **not** compatible with this new implementation and is now deprecated for consumed SOAP Web Services. However, the EnhancedWebReferences API is still the official (non-deprecated) API for customizing exposed SOAP Web Services in OutSystems.
 
@@ -167,7 +167,7 @@ To check which Modules are affected, run the following query against your Oracle
 
 **Issue**: Certificates configured in Service Center (Administration > Certificates) can't be used with consumed SOAP Web Services that were created in OutSystems 11. They can still be used for existing web services, i.e. for SOAP Web Services created in a version older than OutSystems 11 and upgraded to this version.
 
-**Runtime**: Mobile, Web
+**Runtime**: Traditional web, Reactive web, Mobile
 
 **Rationale**: There's a new implementation for consumed SOAP Web Services in OutSystems 11 supporting SOAP 1.2 and some additional features. Along with this implementation, OutSystems provided a new [SOAP Extensibility API](https://success.outsystems.com/Documentation/11/Reference/OutSystems_APIs/SOAP_Extensibility_API) that can be used to use client-side certificates, among other use cases.
 
@@ -179,7 +179,7 @@ To check which Modules are affected, run the following query against your Oracle
 
 **Issue**: IIS application pools that only have OutSystems applications will have their pipeline mode changed from Classic to Integrated.
 
-**Runtime**: Mobile, Web
+**Runtime**: Traditional web, Reactive web, Mobile
 
 **Rationale**: Integrated pipeline mode is the recommended pipeline mode for IIS. It should enable OutSystems applications to serve more users concurrently. This helps to avoid the thread pool limits of Classic mode.
 
@@ -191,7 +191,7 @@ To check which Modules are affected, run the following query against your Oracle
 
 **Issue**: Built-in time and data comparison functions `DiffHours`, `DiffMinutes`, and `DiffSeconds` now ignore the milliseconds.
     
-**Runtime**: Mobile, Web
+**Runtime**: Traditional web, Reactive web, Mobile
 
 **Rationale**: OutSystems enables you to manipulate time values on a second-level granularity. Some integrations introduce values at the millisecond-level granularity and these milliseconds could not be properly handled by the built-in functions, causing them to return an incorrect value in some cases. Ignoring the milliseconds part in the data values will prevent time manipulation functions from returning possibly incorrect values.
 
@@ -203,7 +203,7 @@ To check which Modules are affected, run the following query against your Oracle
 
 **Issue**: Having a JavaScript flow element with asynchronous code in a Client Action that is marked as a function returns an error, and it is not possible to publish the module.
 
-**Runtime**: Mobile
+**Runtime**: Reactive web, Mobile
 
 **Rationale**: The usage of asynchronous JavaScript code in Client Actions that are marked as functions can have an unpredictable behavior at runtime.
 
@@ -213,9 +213,9 @@ To check which Modules are affected, run the following query against your Oracle
 
 16\. <a id="bc-16"></a>
 
-**Issue**: Removed 'alt' attribute from the HTML rendering of links in Web Applications. 
+**Issue**: Removed 'alt' attribute from the HTML rendering of links. 
 
-**Runtime**: Web
+**Runtime**: Traditional web
 
 **Rationale**: This attribute was used for compatibility in old browsers that are no longer supported. The 'alt' attribute only makes sense in image tags.
 
@@ -225,9 +225,9 @@ To check which Modules are affected, run the following query against your Oracle
 
 17\. <a id="bc-17"></a>
 
-**Issue**: Removed 'scheme' attribute from the rendering of meta elements in Web Applications.
+**Issue**: Removed 'scheme' attribute from the rendering of meta elements.
 
-**Runtime**: Web
+**Runtime**: Traditional web
 
 **Rationale**: According to W3C the 'scheme' attribute on the meta element is obsolete.
 
@@ -240,7 +240,7 @@ To check which Modules are affected, run the following query against your Oracle
 **Issue**: Custom Handlers is a folder where you can define custom pages for common runtime errors.  
 From OutSystems 11 onwards, if a default language is not defined in the Custom Handler folder's `web.config` file, it will be automatically set to "VB" (Visual Basic).
     
-**Runtime**: Web
+**Runtime**: Traditional web
 
 **Rationale**: The Custom Handlers folder is now deployed along with every application (to a sub-folder of the application folder), while previously the Custom Handlers folder was referenced by applications as needed from its location inside the Platform Server installation folder.  
 
@@ -254,7 +254,7 @@ OutSystems provides default Custom Handlers pages and some of those default page
 
 **Issue**: Removed deprecated ApplicationManagementService and EnvironmentManagementService APIs from LifeTime Services.
 
-**Runtime**: Mobile, Web
+**Runtime**: Traditional web, Reactive web, Mobile
 
 **Rationale**: These Web Services were marked as deprecated in OutSystems 10 because the same version introduced new and more complete REST APIs.
 
@@ -266,7 +266,7 @@ OutSystems provides default Custom Handlers pages and some of those default page
 
 **Issue**: Removed the ElementVersionInfo structure from LifeTime SDK module.
 
-**Runtime**: Mobile, Web
+**Runtime**: Traditional web, Reactive web, Mobile
 
 **Rationale**: It was necessary to perform some changes in the current implementation of exposed APIs due to changes related with the new Reference Model. This included removing the ElementVersionInfo structure, which will not be available in the LifeTime metamodel anymore.
 
@@ -278,7 +278,7 @@ OutSystems provides default Custom Handlers pages and some of those default page
 
 **Issue**: The `getFrontendKey()` method of the outsystems.api.requestInfo API might return a different key value in OutSystems 11.
 
-**Runtime**: Web
+**Runtime**: Traditional web
 
 **Rationale**: The Frontend Name was made more consistent throughout monitoring and log sources. Since the Frontend Key value is based on the Frontend Name, the value returned by the `getFrontendKey()` method might also change.
 
@@ -290,7 +290,7 @@ OutSystems provides default Custom Handlers pages and some of those default page
 
 **Issue**: Removed obsolete database access APIs from the RuntimePlatform .NET library.
 
-**Runtime**: Mobile, Web
+**Runtime**: Traditional web, Reactive web, Mobile
 
 **Rationale**: These APIs are deprecated since 9.0 and OutSystems provides alternative ways of achieving the same functionality.
 
@@ -302,7 +302,7 @@ OutSystems provides default Custom Handlers pages and some of those default page
 
 **Issue**: The Settings class in the RuntimePlatform .NET library is now deprecated and all methods that allowed you to modify settings inside applications were removed.
 
-**Runtime**: Mobile, Web
+**Runtime**: Traditional web, Reactive web, Mobile
 
 **Rationale**: Configurations affecting the runtime of applications are now an integral part of an application and can no longer be manipulated in runtime. Additionally, the previously existing classes were internal and not meant for public usage.
 
@@ -314,7 +314,7 @@ OutSystems provides default Custom Handlers pages and some of those default page
 
 **Issue**: Screen navigation done in HTTPS will not downgrade the protocol to HTTP even when the destination screen is not explicitly marked as requiring HTTPS.
 
-**Runtime**: Web
+**Runtime**: Traditional web
 
 **Rationale**: In previous versions it was difficult to ensure that an application always used HTTPS when some of its screens did not require HTTPS.
 
@@ -326,7 +326,7 @@ OutSystems provides default Custom Handlers pages and some of those default page
 
 **Issue**: HTTPS is now enforced for all screens and integrations (REST and SOAP) in mobile modules. There is no opt-out from this behavior.
 
-**Runtime**: Mobile
+**Runtime**: Reactive web, Mobile
 
 **Rationale**: The previous behavior did not make applications secure by default. Exposed SOAP web services were unable to enforce HTTPS.
 
@@ -338,7 +338,7 @@ OutSystems provides default Custom Handlers pages and some of those default page
 
 **Issue**: Image URLs generated in the previous platform versions will no longer be valid.
 
-**Runtime**: Web
+**Runtime**: Traditional web
 
 **Rationale**: The previously existing image endpoint used a shared key across all clients to encrypt the image details. The new endpoint uses the unique private key of each client to encrypt the image details, thus preventing other clients from tampering with the URL content.
 
@@ -352,7 +352,7 @@ Note: The support for this setting will be dropped on the next major platform ve
 **Issue**: Full SQL commands are no longer displayed to the end-user when an error occurs in a SQL element.  
 This behavior only occurred in versions earlier than 10.0.723.0; upgrades from a later OutSystems 10 version to OutSystems 11 are not affected by this change of behavior.
 
-**Runtime**: Mobile, Web
+**Runtime**: Traditional web, Reactive web, Mobile
 
 **Rationale**: Previously, when an error occurred in a SQL element, the error message could be shown to the end-user if the exception was not properly handled. This message would include the query where the error occurred and it would expose some details about the application entities. Now, the error and the query are still logged and displayed in the environment management console, but the end-user will only see a generic error message.
 
@@ -365,7 +365,7 @@ This behavior only occurred in versions earlier than 10.0.723.0; upgrades from a
 **Issue**: Removed the Zone and Zone_Server system entities, as well as the "Zone_Id" attribute from the Espace system entity.  
 Upgrading a module in Service Studio will remove any dependencies on these entities and attribute. You will get validation errors if these deleted objects were being used.
 
-**Runtime**: Mobile, Web
+**Runtime**: Traditional web, Reactive web, Mobile
 
 **Rationale**: In OutSystems 11 the concept of Zones has been replaced by Deployment Zones and these system entities and attribute are no longer used.
 
@@ -377,7 +377,7 @@ Upgrading a module in Service Studio will remove any dependencies on these entit
 
 **Issue**: Removed entities Entity_Usage and Entity_Usage_Sample from the "(System)" reference.
 
-**Runtime**: Mobile, Web
+**Runtime**: Traditional web, Reactive web, Mobile
 
 **Rationale**: These were internal entities that were not being used.
 
@@ -389,7 +389,7 @@ Upgrading a module in Service Studio will remove any dependencies on these entit
 
 **Issue**: Queued emails from disabled applications are no longer processed by the Scheduler Service.
 
-**Runtime**: Mobile, Web
+**Runtime**: Traditional web, Reactive web, Mobile
 
 **Rationale**: Make the behavior of pending emails consistent with the behavior of newly created emails.
 
@@ -401,7 +401,7 @@ Upgrading a module in Service Studio will remove any dependencies on these entit
 
 **Issue**: Emails now require that there is at least one server in the Deployment Zone of the module configured to "Send Emails".
 
-**Runtime**: Web
+**Runtime**: Traditional web
 
 **Rationale**: Previously, emails could be sent by any server in the environment, regardless of the module that created them. This broke the isolation between servers, causing misbehaved modules to have impact in the email processing of modules in other servers. The new behavior is now consistent with the execution of Processes and Timers.
 
@@ -414,7 +414,7 @@ Upgrading a module in Service Studio will remove any dependencies on these entit
 
 **Issue**: Changing binary resources now triggers a references update and a recompilation of consumers.
 
-**Runtime**: Mobile, Web
+**Runtime**: Traditional web, Reactive web, Mobile
 
 **Rationale**: It was possible to change a binary resource in a producer without consumers recompiling the resource after the change. In some cases, this made the resource to be apparently working in the consumer without any issues. However, if developers changed the resource name or its target directory this would cause consumers to break.
 
@@ -426,7 +426,7 @@ Upgrading a module in Service Studio will remove any dependencies on these entit
 
 **Issue**: The "Upload" button in OSP Tool no longer publishes the solution.
 
-**Runtime**: Mobile, Web
+**Runtime**: Traditional web, Reactive web, Mobile
 
 **Rationale**: The "Upload" button was also publishing the solution and not just uploading it, as it should. This behavior was fixed. 
 
@@ -460,7 +460,7 @@ Upgrading a module in Service Studio will remove any dependencies on these entit
 
 **Issue**: Iterating a list recursively throws a runtime error.
 
-**Runtime**: Mobile
+**Runtime**: Reactive web, Mobile
 
 **Rationale**: Keep the client-side and server-side models consistent between each other, since the server-side code always had this limitation. We introduced this change in OutSystems 11 to prevent breaking changes during the OutSystems 10's release cycle.
 
@@ -472,7 +472,7 @@ Upgrading a module in Service Studio will remove any dependencies on these entit
 
 **Issue**: JSONDeserialize widget no longer truncates Decimals that are parsed to Text.
 
-**Runtime**: Mobile, Web
+**Runtime**: Traditional web, Reactive web, Mobile
 
 **Rationale**: When using JSONDeserialized widget in Server Actions to deserialize a JSON string data to a record or list. If the deserialized data type contains a Text attribute but in the JSON string data that attribute value is sent as a Decimal, the trailing zeros are preserved when deserializing that Decimal attribute to Text. 
 
@@ -484,7 +484,7 @@ For example, the sent decimal values `10.000` and `10.1000` are deserialized to 
 
 **Issue**:  Integrations with external databases that use Oracle Database 10g Release 2 will stop working.
 
-**Runtime**: Mobile, Web
+**Runtime**: Traditional web, Reactive web, Mobile
 
 **Rationale**: We upgraded Oracle Data Provider for .NET, Managed driver to version 19.3.1 (4.122.19.1:20190703) and, according to the [official documentation](https://docs.oracle.com/en/database/oracle/oracle-database/19/odpnt/InstallSystemRequirements.html#GUID-A6405CAD-C0E9-45E0-9C38-26B7ED214479), this driver allows applications to connect to Oracle Database 11g Release 2 or later. This driver supports native encryption, meaning that you can set up your database to require encryption and this means all connections will be encrypted between the server and the database (applicable to both platform and external databases).
 
@@ -494,7 +494,7 @@ For example, the sent decimal values `10.000` and `10.1000` are deserialized to 
 
 **Issue**:  Upgraded SharpZipLib library to version 1.1.0. The new version of the library can cause compatibility problems with custom components used in extensions. For example, when using the [OfficeUtils](https://www.outsystems.com/forge/component-overview/687/officeutils) Forge component you must upgrade to a recent version of the component, since it previously used a library version (NPOI 2.2, an Excel reader library) that depended on the previous SharpZipLib library version.
 
-**Runtime**:  Mobile, Web
+**Runtime**:  Traditional web, Reactive web, Mobile
 
 **Rationale**: The new version of the library contains several performance improvements and security fixes. It's also a necessary change to be able to use recent versions of third-party libraries, like recent versions of NPOI that have a dependency on this library.
 
@@ -507,7 +507,7 @@ For example, the sent decimal values `10.000` and `10.1000` are deserialized to 
 
 In particular, including the extensions `System.Net.Http.dll` or `System.Runtime.InteropServices.RuntimeInformation.dll` causes issues in **logging**, **login** and **JSON serialization**.
 
-**Runtime**:  Mobile, Web
+**Runtime**:  Traditional web, Reactive web, Mobile
 
 **Rationale**: With the increased usage and adoption of open source libraries and systems like NuGet, it's an impossible task to ensure that all third-party assemblies used in an application have exactly the same versions. This applies to both the OutSystems platform, to extensions, and to any other .NET applications.
 
@@ -537,7 +537,7 @@ You should only use this workaround if it's not viable to fix all the affected e
 
 **Issue**: The KeyStore and SAML actions were moved from the **Authentication** extension, `Authentication.xif`, to the **SAMLAuthentication** extension, `SAMLAuthentication.xif`. This can cause some broken references when using methods from Authentication.xif that moved to the new module.
 
-**Runtime**: Mobile, Web
+**Runtime**: Traditional web, Reactive web, Mobile
 
 **Rationale**: This refactoring was necessary to support architectural changes to the SAML authentication.
 
@@ -547,7 +547,7 @@ You should only use this workaround if it's not viable to fix all the affected e
 
 **Issue**: HTTP responses from Consumed REST API integrations now are closed more aggressively.
 
-**Runtime**: Mobile, Web
+**Runtime**: Traditional web, Reactive web, Mobile
 
 **Rationale**: When doing a large number of Consumed REST API requests, the number of used ports can increase rapidly and lead to port exhaustion problems. The new behavior prevents this situation and generally helps avoid leaking resources. However, this new behavior can also cause runtime changes in some edge cases. A known situation takes place when consuming an Exposed REST API in OutSystems that returns HTTP status code 204 (No Content), but sends data in the body, thus sending a "Content-Length" header with a value greater than zero. Although this is [invalid according to RFC 7230](https://httpwg.org/specs/rfc7230.html#header.content-length), it previously didn't cause an error. Additionally, you should validate other scenarios that might be affected by this breaking change.
 
@@ -563,7 +563,7 @@ This issue affects the following Forge components:
 * [Input Masks Library](https://www.outsystems.com/forge/component-overview/2258/input-masks-library)
 * [Input Masks Mobile](https://www.outsystems.com/forge/component-overview/5289/input-mask-mobile)
 
-**Runtime**: Mobile, Reactive web
+**Runtime**: Reactive web, Mobile
 
 **Rationale**: Upgrading to React 16 allows to take advantage of performance and security improvements while keeping an updated framework.
 
@@ -573,7 +573,7 @@ This issue affects the following Forge components:
 
 **Issue**: All unknown HTML attributes now show in the resulting HTML. React previously removed all attributes except data- from the output. Due to this change, the runtime now applies the CSS rules that were ignored.
 
-**Runtime**: Mobile, Reactive web
+**Runtime**: Reactive web, Mobile
 
 **Rationale**: Upgrading to React 16 allows to take advantage of performance and security improvements while keeping an updated framework.
 
@@ -585,7 +585,7 @@ This issue affects the following Forge components:
 
 This affects custom implementations of a native dropdown making use of HTML Element widgets with an option tag. This pattern can instead be implemented using a Dropdown widget with the "Options Content" property set to `Text Only`.
 
-**Runtime**: Mobile, Reactive web
+**Runtime**: Reactive web, Mobile
 
 **Rationale**: Upgrading to React 16 allows to take advantage of performance and security improvements while keeping an updated framework.
 
@@ -693,7 +693,7 @@ In case you can't use any of the above fixes, do the following:
 
 **Issue**: `BeginReadUncommittedTransaction` and `BeginTransaction` methods from RuntimePublic.Db API are now deprecated.
 
-**Runtime**: Mobile, Web
+**Runtime**: Traditional web, Reactive web, Mobile
 
 **Rationale**: These methods would crash because connections are already inside the context of a transaction.
 
@@ -705,7 +705,7 @@ In case you can't use any of the above fixes, do the following:
 
 **Issue**: A Performance Suggestion warning will be added to all modules that do not have 'Is User Provider' set and have the 'User Provider' as 'Current Module'.
 
-**Runtime**: Mobile, Web
+**Runtime**: Traditional web, Reactive web, Mobile
 
 **Rationale**: It's recommended that all modules specify a User Provider to reduce the amount of work necessary in application's first load times and to avoid communications between applications and the Deployment Controller Service.
 
@@ -718,7 +718,7 @@ Note: It's not recommended to change the User Provider of modules with Processes
 
 **Issue**: The Custom Handlers directory is now deployed along with every application. Previously, the Custom Handlers directory existed in the Platform Server installation directory and every application referenced it when needed.
 
-**Runtime**: Web
+**Runtime**: Traditional web
 
 **Rationale**:  This change makes applications more self-contained in order to enable deployment to containers.
 
@@ -730,7 +730,7 @@ Note: It's not recommended to change the User Provider of modules with Processes
 
 **Issue**: After turning off the environment Debug Mode configuration, some modules will show a warning saying that they need to be republished, when in fact they do not.
 
-**Runtime**: Mobile, Web
+**Runtime**: Traditional web, Reactive web, Mobile
 
 **Rationale**: When disabling the Debug Mode for the environment, all modules will have a warning stating that they need to be republished. In fact, the modules that already had Debug Mode disabled do not need to be republished since their configuration matches the configuration of the environment.
 
@@ -742,7 +742,7 @@ Note: It's not recommended to change the User Provider of modules with Processes
 
 **Issue**: The refresh of references when publishing a solution (when publishing the current running version of its components) in Service Center was reviewed. Publishing the current version of a solution will now only refresh module references when the publish operation is performed in an environment whose purpose is set to Development.
 
-**Runtime**: Mobile, Web
+**Runtime**: Traditional web, Reactive web, Mobile
 
 **Rationale**: In environments whose purpose is not Development it is important that the actual published versions are kept; refreshing references would create different "fake" versions.
 
@@ -756,7 +756,7 @@ Note: It's not recommended to change the User Provider of modules with Processes
 
 **Issue**: The login for IT apps (apps that use Service Center as their user provider) no longer uses the traditional login screen from the app itself. Instead, it uses a centralized login screen. This only affects applications that use the **User_GetUnifiedLoginUrl** action to validate if there is an external login URL. The centralized login screen shows the app name that you can provide in the **ToolName** of the **User_GetUnifiedLoginUrl** optional parameter.
 
-**Runtime**: Web
+**Runtime**: Traditional web, Reactive web, Mobile
 
 **Rationale**: This change provides a consistent login experience throughout the different applications that use Service Center as their user provider.
 
