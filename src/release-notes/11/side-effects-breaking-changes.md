@@ -563,7 +563,7 @@ This issue affects the following Forge components:
 * [Input Masks Library](https://www.outsystems.com/forge/component-overview/2258/input-masks-library)
 * [Input Masks Mobile](https://www.outsystems.com/forge/component-overview/5289/input-mask-mobile)
 
-**Runtime**: Mobile, Web
+**Runtime**: Mobile, Reactive web
 
 **Rationale**: Upgrading to React 16 allows to take advantage of performance and security improvements while keeping an updated framework.
 
@@ -573,7 +573,7 @@ This issue affects the following Forge components:
 
 **Issue**: All unknown HTML attributes now show in the resulting HTML. React previously removed all attributes except data- from the output. Due to this change, the runtime now applies the CSS rules that were ignored.
 
-**Runtime**: Mobile, Web
+**Runtime**: Mobile, Reactive web
 
 **Rationale**: Upgrading to React 16 allows to take advantage of performance and security improvements while keeping an updated framework.
 
@@ -585,7 +585,7 @@ This issue affects the following Forge components:
 
 This affects custom implementations of a native dropdown making use of HTML Element widgets with an option tag. This pattern can instead be implemented using a Dropdown widget with the "Options Content" property set to `Text Only`.
 
-**Runtime**: Mobile, Web
+**Runtime**: Mobile, Reactive web
 
 **Rationale**: Upgrading to React 16 allows to take advantage of performance and security improvements while keeping an updated framework.
 
