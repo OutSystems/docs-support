@@ -661,7 +661,7 @@ Follows the list of affected files:
     * System.Threading.Channels.dll
     * System.Threading.Tasks.Extensions.dll
 
-**Runtime**: Mobile, Web
+**Runtime**: Traditional web, Reactive web, Mobile
 
 **Rationale**: This file/folder reorganization was necessary to allow finer control over which DLLs are referenced, as well as their versions. This file/folder reorganization improves compatibility between current and future Database Connectors.
 
