@@ -69,6 +69,8 @@
         - href: troubleshooting/application-lifecycle/too-many-failed-login.md
         - href: troubleshooting/application-lifecycle/change-logging-levels.md
         - href: troubleshooting/application-lifecycle/deploy-apps-sc.md
+        - href: troubleshooting/application-lifecycle/app-module-rename.md
+        - href: troubleshooting/application-lifecycle/app-renamed-in-target-not-expected.md
         - href: troubleshooting/application-lifecycle/lifetime/lifetime-deploy-unable.md
         - href: troubleshooting/application-lifecycle/lifetime/lifetime-register-env-error.md
         - href: troubleshooting/application-lifecycle/lifetime/lifetime-sync-stuck.md
@@ -76,6 +78,7 @@
         - href: troubleshooting/application-lifecycle/extension-recompilation/extension-recompilation-warning.md
         - href: troubleshooting/application-lifecycle/extension-recompilation/extension-upgrade-disabled-error.md
         - href: troubleshooting/application-lifecycle/extension-recompilation/extension-recompilation.md
+
     # Application Runtime
     - href: troubleshooting/application-runtime/intro.md
     - topics:
