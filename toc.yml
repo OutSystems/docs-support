@@ -77,8 +77,8 @@
         - href: troubleshooting/application-lifecycle/resource-nowait-specified.md
         - href: troubleshooting/application-lifecycle/extension-recompilation/extension-recompilation-warning.md
         - href: troubleshooting/application-lifecycle/extension-recompilation/extension-upgrade-disabled-error.md
-        - href: troubleshooting/application-lifecycle/extension-recompilation/extension-recompilation.md
-
+        - href: troubleshooting/application-lifecycle/extension-recompilation/extension-recompilation.md 
+        
     # Application Runtime
     - href: troubleshooting/application-runtime/intro.md
     - topics:

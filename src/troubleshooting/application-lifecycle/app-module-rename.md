@@ -1,3 +1,11 @@
+---
+summary: What to do when LifeTime staging aborts after renaming an app or module.
+Tags:
+locale: en-us
+guid: 970FB4B3-B224-4FFA-A675-1BA893CA0DCE
+app_type: traditional web apps, mobile apps, reactive web apps
+---
+
 # LifeTime staging aborts after renaming an app or module
 
 ## Symptoms
