@@ -102,6 +102,9 @@ Now, compilation files are deleted after a deployment error to ensure they aren'
 
 <h3>Known Issues</h3>
 <ul>
+<li>After upgrading to 11.18.0 and using Deploy All feature, user providers will have 1 tenant per module associated. For example, if 20 modules have Users as the user provider, 20 additional tenants will be created for the Users provider.
+This may have a severe impact, namely: additional timers running due to the creation of extra tenants, database contention due to tenant-related queries or any other query associated with timers, and possible data corruption due to the execution of multiple timers (depending on the timer logic).
+We advise all customers <strong>not to use</strong> this feature. In the OutSystems Cloud, we've made this feature unavailable.</li>
 <li>When applying the <strong>Enhanced security for Remoting requests</strong> setting, described in the above-mentioned security bulletin, it's necessary to perform an extra <strong>Save</strong> in Service Center Administration > Environment Configuration to ensure it's correctly set. This operation must be made on each environment after the setting is enabled.</li>
 <li>When using <a href="https://www.outsystems.com/goto/ps-deploy-all">Deploy All</a> the warning <code>Some Modules are set to be moved to another Database Catalog</code> will appear in all solutions in Service Center. At <strong>OutSystems Cloud</strong> and self-managed infrastructures that <strong>don't use Multiple Database Catalogs</strong> there is no impact and the warning can be ignored. 
 <br/>
