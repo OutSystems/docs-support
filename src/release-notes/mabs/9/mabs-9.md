@@ -17,6 +17,8 @@ Check the mobile stack details for each available MABS version in [Mobile Apps B
 For common issues and solutions check also [Troubleshooting the Mobile Apps Generation](https://success.outsystems.com/Support/Enterprise_Customers/Troubleshooting/Troubleshooting_the_Mobile_Apps_Generation).
 </div>
 
+MABS 9 is an important milestone for all mobile developers who publish on App Store and Play Store. MABS 9 uses iOS 16, and Android 13 with the API level 33. The stack lets you continue submitting your Android and iOS apps to the stores while taking advantage of the new features that new iOS and Android bring.
+
 <div class="warning">
 
 It's recommended to update all supported plugins to the latest version available on the Forge. If you're upgrading from MABS 8, all plugins should already be compliant. From MABS 7 or previous, it's **MANDATORY** to upgrade to the latest version. For more details, please check the [System Requirements](#system-requirements) below.
