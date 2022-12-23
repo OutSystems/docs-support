@@ -10,5 +10,5 @@ app_type:  mobile apps, reactive web apps
 
 The following are the release notes for OutSystem Developer Cloud:
 
-* [OutSystem Developer Cloud GA ring](ga/outsystems-developer-cloud.md)
-* [ODC Studio](service-studio-neo/odcstudio.md)
+* [OutSystem Developer Cloud GA ring](ga/ga.md)
+* [ODC Studio](odc-studio/odcstudio.md)
