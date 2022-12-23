@@ -15,7 +15,7 @@
     - href: release-notes/odc/intro.md
     - topics:
         - href: release-notes/odc/ga/ga.md
-        - href: release-notes/odc/odc-studio/odcstudio.md
+        - href: release-notes/odc/odc-studio/odc-studio.md
     - href: release-notes/10/intro.md
     - topics:
         - href: release-notes/10/platform-server/platform-server.md
