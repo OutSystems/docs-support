@@ -12,6 +12,9 @@
         - href: release-notes/11/development-environment/development-environment.md
         - href: release-notes/11/side-effects-breaking-changes.md
     - href: release-notes/lifetime-management-console/lifetime-management-console.md
+    - href: release-notes/odc/intro.md
+    - topics:
+        - href: release-notes/odc/ga/outsystems-developer-cloud.md
     - href: release-notes/10/intro.md
     - topics:
         - href: release-notes/10/platform-server/platform-server.md
