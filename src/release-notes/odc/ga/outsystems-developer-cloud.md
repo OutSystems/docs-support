@@ -4,4 +4,4 @@ guid: 0ac836fd-7a90-4086-a096-5d5a8263b8c5
 app_type: mobile apps, reactive web apps
 ---
 
-<div class="hidden"><h1>OutSystems Developer Cloud GA Ring</h1></div>
+<div class="hidden"><h1>OutSystems Developer Cloud GA ring</h1></div>
