@@ -10,7 +10,7 @@ app_type: traditional web apps, mobile apps, reactive web apps
 
 <div class="info" markdown="1">
 
-This article does not apply to OutSystems installations that are using Windows Authentication as the Database Authentication type.
+This article **doesn't apply** to OutSystems installations that use **Windows Authentication** as the Database Authentication type.
 
 </div>
 
