@@ -8,6 +8,12 @@ app_type: traditional web apps, mobile apps, reactive web apps
 
 # Service permissions error when installing or upgrading to Platform Server 11.12.0 or later
 
+<div class="info" markdown="1">
+
+This article **doesn't apply** to OutSystems installations that use **Windows Authentication** as the Database Authentication type.
+
+</div>
+
 ## Symptoms
 
 In a self-managed environment, installing or upgrading to Platform Server 11.12.0 or later fails. You see the message: ``Failed to set permissions for OutSystems services.``
