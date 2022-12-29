@@ -103,7 +103,7 @@ The cleanup procedure depends on the platform database used in your environments
 
         <div class="info" markdown="1">
 
-        If the script outputs the text '**(...) skipped Tenant with ID [X]**', please evaluate if that Tenant is, in fact, a valid one.
+        If the script outputs the text '**Skipped Tenant with ID [X] (...)**', please evaluate if that Tenant is, in fact, a valid one.
 
         </div>
 
@@ -163,7 +163,7 @@ The cleanup procedure depends on the platform database used in your environments
 
         <div class="info" markdown="1">
 
-        If the script outputs the text '**(...) skipped Tenant with ID [X]**', please evaluate if that Tenant is, in fact, a valid one.
+        If the script outputs the text '**Skipped Tenant with ID [X] (...)**', please evaluate if that Tenant is, in fact, a valid one.
 
         </div>
 
