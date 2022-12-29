@@ -13,14 +13,14 @@ In the context of a support case, OutSystems Support might require that you prov
 
 ## Get Service Studio Report
 
-	<div class="os-accordion__item">
-  		<div class="os-accordion__title">
-   		Service Logs
-  		</div>
-  		<div class="os-accordion__content">
-   	        When an **unexpected error** occurs in Service Studio, you will get an Unexpected Error window. In this window, you can obtain the error report to send to OutSystems Support.
-  		</div>
-	</div>
+<div class="os-accordion__item">
+  	<div class="os-accordion__title">
+   	Service Logs
+  	</div>
+  	<div class="os-accordion__content">
+   	    When an **unexpected error** occurs in Service Studio, you will get an Unexpected Error window. In this window, you can obtain the error report to send to OutSystems Support.
+  	</div>
+</div>
 
 When an **unexpected error** occurs in Service Studio, you will get an Unexpected Error window. In this window, you can obtain the error report to send to OutSystems Support.
 
