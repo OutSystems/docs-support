@@ -4,7 +4,7 @@ pageprivacy: public
 ---
 
 <h2 id="platform_server_11.18.0" >Platform Server 11.18.0</h2>
-<div class="info"><p>Released on Nov 28, 2022 and removed from availability on Dec 20, 2022</p></div>
+<div class="info"><p>Released on Nov 28, 2022</p></div>
 
 
 <style>.cattag {background: #f4f2ff; color: #6a6581; padding: 4px 10px;}</style>
@@ -95,7 +95,7 @@ Now, compilation files are deleted after a deployment error to ensure they aren'
 <li>Fixed a security vulnerability with CVSSv3.1 score 9.8. Check how to keep your system protected at the <a href="https://success.outsystems.com/Support/Security/Vulnerabilities/Vulnerability_RPM-3056">security bulletin</a>. (RPM-3056) <span class="cattag">Infrastructure Management</span> </li>
 </ul>
 
-<h3>Breaking change</h3>
+<h3 id="known_issues_fixing_platform_server_11.18.0">Breaking change</h3>
 <ul>
 <li>The installer was modified to delete specific third-party DLLs from the <code>\plugins\database</code> folder and recreate them in new subfolders. This can prevent extensions or custom database connectors that expect the below DLLs to exist in the Platform Server. An example of those extensions are custom database connectors. External database connections and extensions built using <a href="https://success.outsystems.com/Documentation/11/Extensibility_and_Integration/Integrate_with_an_External_Database">OutSystems out-of-the box mechanisms</a> <strong>are not</strong> affected by this breaking change. Check more detail on how to deal with this breaking change <a href="https://success.outsystems.com/Support/Release_Notes/11/OutSystems_11_side_effects_and_breaking_changes#bc-11180-1">here</a>.</li>
 </ul>
