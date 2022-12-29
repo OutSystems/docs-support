@@ -35,7 +35,10 @@ As such, the easiest way to confirm if your environments are affected by RPM-344
 
     * If the **Deployment** step was executed, it will be logged in this page as depicted below. If it appears there, the environment **is affected**.
 
+        ![Know if you are affected by checking for the Deployment step](images/rpm-3448-deploy-all-date-time.png)
+
     * Otherwise, if nothing appears or it just shows that the **Preparation** step was performed, the environment **isn't affected**.
+
 
 ## Resolution
 
@@ -61,7 +64,7 @@ The cleanup procedure is comprised of the following high-level steps:
 
 <div class="info" markdown="1">
 
-Before executing the procedure, we highly recommend reading each step carefully and, if any questions arise, reach out to us first via Support Ticket.
+Before executing the procedure, we highly recommend reading each step carefully and, if any questions arise, reach out to us first via [Support Ticket](../../community/open-support-case.md).
 
 </div>
 
@@ -75,16 +78,20 @@ The cleanup procedure depends on the platform database used in your environments
 1. **Download and customize the cleanup scripts**, by doing the following:
 
     1. Take note of the date and time that the **Deploy All** feature was started. In **Service Center** go to **Factory** > **Upgrades** and find the **Started on** date time of the **Deployment upgrade** step.
-
+        
         <div class="info" makrdown="1">
 
         If the Deployment step was not executed, you aren't affected by the known issue and you don't need to follow the cleanup procedure.
 
         </div>
 
+        ![Get date and time of Deploy All](images/rpm-3448-deploy-all-date-time.png)
+
     1. Download the [cleanup scripts for Microsoft SQL Server](resources/MSSQL_cleanup_scripts.zip) and unpack them.
 
     1. Open the **MSSQL_1_create_cleanup_comands.sql** script, and find the date and time in **line 49**. Replace the date and time with the one you noted down on the first step. This date and time will serve as a control to only cleanup artifacts created after that date and time.
+
+        ![Find the date and time in line 49 of the first script](images/rpm-3448-mssql-datetime.png)
 
     1. Save the changes to the **MSSQL_1_create_cleanup_comands.sql** script.
 
@@ -96,7 +103,7 @@ The cleanup procedure depends on the platform database used in your environments
 
         <div class="info" markdown="1">
 
-        If the script outputs the text **skipped Tenant with ID [X]**, please evaluate if that Tenant is, in fact, a valid one.
+        If the script outputs the text '**(...) skipped Tenant with ID [X]**', please evaluate if that Tenant is, in fact, a valid one.
 
         </div>
 
@@ -127,6 +134,8 @@ The cleanup procedure depends on the platform database used in your environments
 
         </div>
 
+        ![Get date and time of Deploy All](images/rpm-3448-deploy-all-date-time.png)
+
     1. Download the [cleanup scripts for Oracle](resources/ORACLE_cleanup_scripts.zip) and unpack them.
 
     1. Open each of the four SQL scripts you download in the previous step, and in the first lines, replace the **REPLACE_SCHEMA** placeholder with the correct OutSystems Platform schema.
@@ -138,7 +147,11 @@ The cleanup procedure depends on the platform database used in your environments
 
         </div>
 
+        ![Change the current_schema in line 1 of all scripts](images/rpm-3448-oracle-schema.png)
+
     1. In the **Oracle_1_create_cleanup_comands.sql** script, and find the date and time in **line 64**. Replace the date and time  with the one you noted down on the first step. This date and time will serve as a control to only cleanup artifacts created after that date and time.
+
+        ![Change the date and time in line 49 of the first script](images/rpm-3448-oracle-datetime.png)
 
     1. Save the changes in each of the SQL scripts.
 
@@ -150,7 +163,7 @@ The cleanup procedure depends on the platform database used in your environments
 
         <div class="info" markdown="1">
 
-        If the script outputs the text **skipped Tenant with ID [X]**, please evaluate if that Tenant is, in fact, a valid one.
+        If the script outputs the text '**(...) skipped Tenant with ID [X]**', please evaluate if that Tenant is, in fact, a valid one.
 
         </div>
 
