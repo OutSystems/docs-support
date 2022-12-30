@@ -13,7 +13,7 @@ This article applies to on-premises environments.
 
 </div>
 
-This article's guides you on:
+This article guides you on:
 
 * Checking if your on-premises environments are affected by the RPM-3448 known issue introduced in Platform Server 11.18.0. This known issue is described in detail in the [release notes](https://success.outsystems.com/Support/Release_Notes/11/Platform_Server#known_issues_fixing_platform_server_11.18.0).
 
@@ -25,7 +25,7 @@ This article's guides you on:
 
 The known issue is triggered after using the new [Deploy All](https://success.outsystems.com/Documentation/11/Setup_and_maintain_your_OutSystems_infrastructure/Upgrade_OutSystems_platform/Modules_deployment_step_during_Platform_Server_upgrade) feature introduced with Platform Server 11.18.0.
 
-As such, the easiest way to confirm if your environments are affected by RPM-3448  is to check if this feature was used. Do the following:
+As such, the easiest way to confirm if your environments are affected by RPM-3448 is to check if this feature was used. Do the following:
 
 1. Log in into the Service Center of each environment you want to check.
 
@@ -43,7 +43,7 @@ As such, the easiest way to confirm if your environments are affected by RPM-344
 
 If **Deploy All** was used and you are affected, a Tenant was created for every Module in the environment. Alongside this Tenant, multiple Timers and Site Properties were duplicated for each Tenant. As such, to address the situation, the invalid Tenants need to be cleaned up.
 
-The options available to resolve this situation are:
+The options available to resolve this situation are the following:
 
 * In case you have created a backup of both the Front-End(s) and the Database servers, you can perform a rollback to a point in time before the update to Platform Server 11.18.0. Be aware that any changes made after that point in time will be lost.
 
