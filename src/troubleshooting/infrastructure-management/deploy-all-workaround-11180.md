@@ -21,7 +21,7 @@ This article's guides you on:
 
 ## Symptoms
 
-### Confirm that you're affected
+### Confirm that you're affected { #check-affected }
 
 The known issue is triggered after using the new [Deploy All](https://success.outsystems.com/Documentation/11/Setup_and_maintain_your_OutSystems_infrastructure/Upgrade_OutSystems_platform/Modules_deployment_step_during_Platform_Server_upgrade) feature introduced with Platform Server 11.18.0.
 
@@ -39,7 +39,6 @@ As such, the easiest way to confirm if your environments are affected by RPM-344
 
     * Otherwise, if nothing appears or it just shows that the **Preparation** step was performed, the environment **isn't affected**.
 
-
 ## Resolution
 
 If **Deploy All** was used and you are affected, a Tenant was created for every Module in the environment. Alongside this Tenant, multiple Timers and Site Properties were duplicated for each Tenant. As such, to address the situation, the invalid Tenants need to be cleaned up.
@@ -56,7 +55,7 @@ The cleanup procedure is comprised of the following high-level steps:
 
 1. Create a database backup.
 
-1. Download and customize the cleanup scripts.
+1. Download the cleanup scripts.
 
 1. Execute the cleanup scripts.
 
@@ -73,37 +72,23 @@ The cleanup procedure depends on the platform database used in your environments
 #### Cleanup for Microsoft SQL Server
 
 1. **Create a database backup**.  
-    Before executing the scripts, the first and most important step is to create a database backup to ensure that if anything goes wrong we can roll back to a point in time before the script execution.
+    Before executing the scripts, the first and most important step is to create a database backup to ensure that if anything goes wrong you can roll back to a point in time before the script execution.
 
-1. **Download and customize the cleanup scripts**, by doing the following:
-
-    1. Take note of the date and time that the **Deploy All** feature was started. In **Service Center** go to **Factory** > **Upgrades** and find the **Started on** date time of the **Deployment upgrade** step.
-        
-        <div class="info" makrdown="1">
-
-        If the Deployment step was not executed, you aren't affected by the known issue and you don't need to follow the cleanup procedure.
-
-        </div>
-
-        ![Get date and time of Deploy All](images/rpm-3448-deploy-all-date-time.png)
+1. **Download the cleanup scripts**, by doing the following:
 
     1. Download the [cleanup scripts for Microsoft SQL Server](resources/MSSQL_cleanup_scripts.zip) and unpack them.
-
-    1. Open the **MSSQL_1_create_cleanup_comands.sql** script, and find the date and time in **line 49**. Replace the date and time with the one you noted down on the first step. This date and time will serve as a control to only cleanup artifacts created after that date and time.
-
-        ![Find the date and time in line 49 of the first script](images/rpm-3448-mssql-datetime.png)
-
-    1. Save the changes to the **MSSQL_1_create_cleanup_comands.sql** script.
 
 1. **Execute the cleanup scripts**, by doing the following:
 
     1. Connect to the Database server using your preferred SQL client. We recommend SQL Server Management Studio which was the one we used in our tests.
 
-    1. Open and execute the edited  **MSSQL_1_create_cleanup_comands.sql** script.
+    1. Open and execute the **MSSQL_1_create_cleanup_comands.sql** script. This script identifies the invalid Tenants created after clicking the Deploy All button and creates the SQL commands for the cleanup.
 
         <div class="info" markdown="1">
 
-        If the script outputs the text '**Skipped Tenant with ID [X] (...)**', please evaluate if that Tenant is, in fact, a valid one.
+        * If the script outputs the text '**The Deploy button was not clicked. Please confirm this in Service Center &gt; Factory &gt; Upgrades.**', the environment shouldn't be affected by the known issue. [Double-check if the environment is affected](#check-affected).
+
+        * If the script outputs the text '**Skipped Tenant with ID [X] (...)**', please evaluate if that Tenant is, in fact, a valid one.
 
         </div>
 
@@ -122,19 +107,9 @@ The cleanup procedure depends on the platform database used in your environments
 #### Cleanup for Oracle
 
 1. **Create a database backup**.<br/>
-    Before executing the scripts, the first and most important step is to create a database backup to ensure that if anything goes wrong we can roll back to a point in time before the script execution.
+    Before executing the scripts, the first and most important step is to create a database backup to ensure that if anything goes wrong you can roll back to a point in time before the script execution.
 
 1. **Download and customize the cleanup scripts**, by doing the following:
-
-    1. Take note of the date and time that the **Deploy All** feature was started. In **Service Center** go to **Factory** > **Upgrades** and find the **Started on** date time of the **Deployment upgrade** step.
-
-        <div class="info" makrdown="1">
-
-        If the Deployment step was not executed, you aren't affected by the known issue and you don’t need to follow the cleanup procedure.
-
-        </div>
-
-        ![Get date and time of Deploy All](images/rpm-3448-deploy-all-date-time.png)
 
     1. Download the [cleanup scripts for Oracle](resources/ORACLE_cleanup_scripts.zip) and unpack them.
 
@@ -149,21 +124,19 @@ The cleanup procedure depends on the platform database used in your environments
 
         ![Change the current_schema in line 1 of all scripts](images/rpm-3448-oracle-schema.png)
 
-    1. In the **Oracle_1_create_cleanup_comands.sql** script, and find the date and time in **line 64**. Replace the date and time  with the one you noted down on the first step. This date and time will serve as a control to only cleanup artifacts created after that date and time.
-
-        ![Change the date and time in line 49 of the first script](images/rpm-3448-oracle-datetime.png)
-
     1. Save the changes in each of the SQL scripts.
 
 1. **Execute the cleanup scripts**, by doing the following:
 
     1. Connect to the Database server using your preferred SQL client. We recommend Oracle SQL Developer which was the one we used in our tests.
 
-    1. Open and execute the edited  **Oracle_1_create_cleanup_comands.sql** script.
+    1. Open and execute the edited  **Oracle_1_create_cleanup_comands.sql** script. This script identifies the invalid Tenants created after clicking the Deploy All button and creates the SQL commands for the cleanup.
 
         <div class="info" markdown="1">
 
-        If the script outputs the text '**Skipped Tenant with ID [X] (...)**', please evaluate if that Tenant is, in fact, a valid one.
+        * If the script outputs the text '**The Deploy button was not clicked. Please confirm this in Service Center &gt; Factory &gt; Upgrades.**', the environment shouldn't be affected by the known issue. [Double-check if the environment is affected](#check-affected).
+
+        * If the script outputs the text '**Skipped Tenant with ID [X] (...)**', please evaluate if that Tenant is, in fact, a valid one.
 
         </div>
 
