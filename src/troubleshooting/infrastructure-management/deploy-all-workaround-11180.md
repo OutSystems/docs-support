@@ -33,7 +33,7 @@ As such, the easiest way to confirm if your environments are affected by RPM-344
 
 1. Check which **Upgrade Steps** were performed:
 
-    * If the **Deployment** step was executed, it will be logged in this page as depicted below. If it appears there, the environment **is affected**.
+    * If the **Deployment** step was executed, it will be logged in this screen. If the Deployment step is shown, the environment **is affected**, even if the step's status is **Error**.
 
         ![Know if you are affected by checking for the Deployment step](images/rpm-3448-deploy-all-date-time.png)
 
