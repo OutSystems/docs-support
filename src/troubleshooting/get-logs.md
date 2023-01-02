@@ -9,30 +9,27 @@ app_type: traditional web apps, mobile apps, reactive web apps
 
 This article explains how to get the logs and report files from the several OutSystems components and other system components.
 
-In context of a support case, OutSystems Support might require that you provide some of these files so they can troubleshoot the issues you are experiencing. In this situation, you should get the required files as described in this article and attach them to your support case.
+In the context of a support case, OutSystems Support might require that you provide some of these files so they can troubleshoot the issues you are experiencing. In this situation, you should get the required files as described in this article and attach them to your support case.
 
-## Service Studio Report
+## Get Service Studio Report
 
-When an **unexpected error** occurs in Service Studio, you will get an Unexpected Error window. In this window, you can obtain the error report to send to OutSystems Support. The Service Studio report has all the actions performed inside Service studio within an active session as well as all unhandled exceptions. 
+When an **unexpected error** occurs in Service Studio, you will get an Unexpected Error window. In this window, you can obtain the error report to send to OutSystems Support.
 
-Click the accordian below to obtain the report:
-
-<div class="os-accordion__item">
-    <div class="os-accordion__title">
-   	Get Report
-  	</div>
-<div class="os-accordion__content">
+Do the following to obtain the report:
 
 1. Click **You can help us fix this…** to expand the window, if it’s not expanded.
-    ![](images/get-logs-1.png?width=500)
+
+     ![](images/get-logs-1.png?width=500)
+
 1. Click **View diagnostics report** to open the report in a text editor. In OutSystems 10, use the link **View report**.
-    ![](images/get-logs-2.png?width=600)
+
+     ![](images/get-logs-2.png?width=600)
+
 1. Save the report as a text file. If you need help from OutSystems support but you don’t have an open support case yet, you can use the link **open a support case** to go to Support Portal.
+
 1. Click **Continue** to close the window. In OutSystems 10, use the link **Cancel**.
-If you are getting this report by request of OutSystems Support, **attach the file you saved to your support case**. 
-   
-</div>
-</div>
+
+If you are getting this report by request of OutSystems Support, **attach the file you saved to your support case**.
 
 ## Get Service Center Logs
 
