@@ -6,5 +6,21 @@ pageprivacy: semi-private
 <h2 id="cross-platform_service_studio_11.53.33" >Cross-platform Service Studio 11.53.33</h2>
 <div class="info"><p>This is a preliminary version of the document.</p></div>
 
-This release of Service Studio focuses on internal improvements ― this will help our team improve Service Studio faster.
-Your work shouldn't be impacted by these changes.
+
+<style>.cattag {background: #f4f2ff; color: #6a6581; padding: 4px 10px;}</style>
+<h3 id="bug_fixing_cross-platform_service_studio_11.53.33" >Bug Fixing</h3>
+<ul>
+<li>Fixed the position of the interaction button in the Debugger rows. (RMAC-10088)</li>
+<li>Improved the message shown on Aggregates when all attributes are hidden so that is distinguishable from the cases where there are no records to shown. (RMAC-10381)</li>
+<li>Removed unnecessary empty lines from the Tooltips shown on Assign nodes.  (RMAC-10639)</li>
+<li>Fixed an issue in the Merge editor that caused a crash during item selection if module versions had different links in a flow. (RMAC-10690)</li>
+<li>Fixed an issue that caused a module to be marked as changed when canceling a source rename in an aggregate. (RMAC-10718)</li>
+<li>Fixed an issue that caused new text to be created at the bottom of the screens. (RMAC-10738)</li>
+<li>Fixed the source picker in the sort tab of grouped Aggregates to only allow picking grouped attributes. (RMAC-10753)</li>
+<li>Fixed an issue causing the Service Studio to freeze when clicking in certain toolbar items. (RMAC-10756)</li>
+<li>Fixed an issue that prevented widgets to be selected through their adorner inside a Tabs widget. (RMAC-10762)</li>
+<li>Fixed an issue that caused an incorrect behavior when double clicking Placeholders in a Screen or Block.
+The double click was not navigating to the Placeholder's parent Block and when typing after that, the text was being added in the bottom of the Screen.
+Now, the double click correctly navigates to the Placeholder's parent Block. (RMAC-10775)</li>
+</ul>
+
