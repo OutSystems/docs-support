@@ -44,7 +44,7 @@ The jQuery versions 1.0.3 to 3.5.0 are vulnerable to the possible execution of u
 
 Some penetration testing tools may flag OutSystems as having a vulnerable jQuery-ui-dialog library.
 
-OutSystems uses jQuery-ui-dialog version 1.8.24 which has a vulnerability known to this version - [CVE-2010-5312](https://www.cvedetails.com/cve/CVE-2010-5312/). This vulnerability relates to the title() function, potentially allowing for unescaped content to be inserted in the title and causing a cross dite scripting problem.
+OutSystems uses jQuery-ui-dialog version 1.8.24 which has a vulnerability known to this version - [CVE-2010-5312](https://www.cvedetails.com/cve/CVE-2010-5312/). This vulnerability relates to the title() function, potentially allowing for unescaped content to be inserted in the title and causing a cross site scripting problem.
 
 All uses of the affected function by OutSystems properly encode the input parameter. As such, OutSystems isn't vulnerable despite this vulnerability still being present in jquery-ui-dialog.
 
