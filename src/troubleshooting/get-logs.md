@@ -9,33 +9,39 @@ app_type: traditional web apps, mobile apps, reactive web apps
 
 This article explains how to get the logs and report files from the several OutSystems components and other system components.
 
-In the context of a support case, OutSystems Support might require that you provide some of these files so they can troubleshoot the issues you are experiencing. In this situation, you should get the required files as described in this article and attach them to your support case.
+In context of a support case, OutSystems Support might require that you provide some of these files so they can troubleshoot the issues you are experiencing. In this situation, you should get the required files as described in this article and attach them to your support case.
 
-## Get Service Studio Report
+## Service Studio Report
 
-When an **unexpected error** occurs in Service Studio, you will get an Unexpected Error window. In this window, you can obtain the error report to send to OutSystems Support.
+When an **unexpected error** occurs in Service Studio, you will get an Unexpected Error window. The Service Studio report has all the actions performed inside Service studio within an active session as well as all unhandled exceptions. 
 
-Do the following to obtain the report:
+Click the accordian below to learn how to get the Service Studio report.
+
+<div class="os-accordion__item">
+    <div class="os-accordion__title" style="font-size:100%">
+   	Get Service Studio Report
+  	</div>
+<div class="os-accordion__content">
 
 1. Click **You can help us fix this…** to expand the window, if it’s not expanded.
 
-     ![](images/get-logs-1.png?width=500)
+    ![](images/get-logs-1.png?width=600)
 
 1. Click **View diagnostics report** to open the report in a text editor. In OutSystems 10, use the link **View report**.
 
-     ![](images/get-logs-2.png?width=600)
+    ![](images/get-logs-2.png?width=600)
 
 1. Save the report as a text file. If you need help from OutSystems support but you don’t have an open support case yet, you can use the link **open a support case** to go to Support Portal.
+1. Click **Continue** to close the window. In OutSystems 10, use **Cancel**.
+   
+</div>
+</div>
 
-1. Click **Continue** to close the window. In OutSystems 10, use the link **Cancel**.
-
-If you are getting this report by request of OutSystems Support, **attach the file you saved to your support case**.
-
-## Get Service Center Logs
+## Service Center Logs
 
 ### Runtime Logs
 
-The [logs for the runtime of the platform](https://success.outsystems.com/Documentation/11/Managing_the_Applications_Lifecycle/Monitor_and_Troubleshoot/View_the_Environment_Logs_and_Status#monitoring-area) are available in the **Service Center** console of each environment - application and LifeTime environments:
+The [logs for the runtime of the platform](https://success.outsystems.com/Documentation/11/Managing_the_Applications_Lifecycle/Monitor_and_Troubleshoot/View_the_Environment_Logs_and_Status#monitoring-area) are available in the **Service Center** console of each environment - application and LifeTime environments. These logs can be helpful when trying to debug a specific feature or behavior and understanding exactly what is happening within that process. You can access the following reports from Service Center:
 
 * Errors
 * General logs
@@ -47,41 +53,55 @@ The [logs for the runtime of the platform](https://success.outsystems.com/Docume
 * Timers
 * Emails
 
-To get these logs, do the following:
+Click the accordian below to learn how to get Runtime logs.
 
-1. In the Service Center console of the environment you want to obtain the logs from (`https://<your_server>/ServiceCenter`), go to the **Monitoring** section.
+<div class="os-accordion__item">
+    <div class="os-accordion__title" style="font-size:100%">
+   	Get Runtime Logs
+  	</div>
+    <div class="os-accordion__content">
 
-1. Choose the type of logs you want to get (e.g., **Errors** or **General**).
+ 1. In the Service Center console of the environment you want to obtain the logs from (`https://<your_server>/ServiceCenter`), go to the **Monitoring** section.
+ 1. Choose the type of logs you want to get (e.g., **Errors** or **General**).
 
-1. Click **Reset** to remove any potential filter.
+ 1. Click **Reset** to remove any potential filter.
 
-1. Click **Export to excel** to save the file.
+ 1. Click **Export to excel** to save the file.
 
-![](images/get-logs-3.png)
+ ![](images/get-logs-3.png)
 
-If you are getting these logs by request of OutSystems Support, fetch all the files you saved from the local download folder and **attach them to your support case**.
+</div>
+</div>
 
 ### Mobile App Generation Logs
 
-OutSystems logs the generation steps of a mobile app package, including the stack trace with additional details in case of error.
+OutSystems logs the generation steps of a mobile app package, including the stack trace with additional details in case of error. These logs help us understand which steps were taken while generating the mobile application, and in case of failures, where the generation failed exactly.
 
-To get this mobile app package generation log, do the following:
+Click the accordian below to learn how to get Mobile App logs:
+
+<div class="os-accordion__item">
+    <div class="os-accordion__title" style="font-size:100%">
+   	Get Mobile App Generation Logs
+  	</div>
+<div class="os-accordion__content">
 
 1. If you are in Service Studio, go to the details page of the mobile app and click **Application Management...** to open the mobile app's page in Service Center console. The page opens in a separate browser.
 
     ![](images/get-logs-16.png?width=600)
 
-    Otherwise, open the Service Center console of the environment (`https://<your_server>/ServiceCenter`), go to **Factory** » **Applications**, and click the mobile app name to go to the app details page.
+    Otherwise, open the Service Center console of the environment (`https://<your_server>/ServiceCenter`), select **Factory** » **Applications**, and click the mobile app name to go to the app details page.
 
-1. Go to the **Native Platforms** tab. You will see the information about the latest mobile app package generation for each mobile platform.
+1. Click the **Native Platforms** tab. You will see the information about the latest mobile app package generation for each mobile platform.
 
     ![](images/get-logs-17.png?width=800)
 
-1. Click the Log File icon to save the file.
+1. Click the **Log File** icon to save the file.
 
-If you are getting this log by request of OutSystems Support, fetch the file you saved from the local download folder and **attach it to your support case**.
 
-## Get LifeTime Reports
+</div>
+</div>
+
+## LifeTime Reports
 
 From the LifeTime console, you can obtain the following reports:
 
@@ -93,9 +113,15 @@ You need [Manage Infrastructure and Users](https://success.outsystems.com/Docume
 
 ### LifeTime Report
 
-#### Get LifeTime Report in OutSystems 11
+This report will have information about each environment within LifeTime's infrastructure as well as the available environments configurations, present in LifeTime. It helps paint a picture on what configurations are enabled for each environment within LifeTime as well as how the infrastructure is built and designed.
 
-In OutSystems 11, do the following to get the LifeTime report:
+Click the accordians below to learn how to get the LifeTime report in OutSystems 11 and OutSystems 10.
+
+<div class="os-accordion__item">
+    <div class="os-accordion__title" style="font-size:100%">
+   	Get LifeTime Report in OutSystems 11
+  	</div>
+<div class="os-accordion__content">
 
 1. Access the page `https://<LifeTime_server>/lifetime/troubleshoot.aspx`.
 
@@ -103,15 +129,18 @@ In OutSystems 11, do the following to get the LifeTime report:
 
     ![](images/get-logs-4.png?width=900)
 
-If you are getting this report by request of OutSystems Support, fetch the file you saved from the local download folder and **attach it to your support case**.
+</div>
+</div>
 
-#### Get LifeTime Report in OutSystems 10
-
-In OutSystems 10, do the following to get the LifeTime report:
+<div class="os-accordion__item">
+    <div class="os-accordion__title" style="font-size:100%">
+   	Get LifeTime Report in OutSystems 10
+  	</div>
+<div class="os-accordion__content">
 
 1. Go to the LifeTime console, `https://<LifeTime_server>/lifetime`.
 
-1. Click the **Send us your feedback** icon at the upper right corner.
+1. Click the **Send us your feedback** icon on the upper right corner.
 
     ![](images/get-logs-5.png?width=900)
 
@@ -119,31 +148,48 @@ In OutSystems 10, do the following to get the LifeTime report:
 
     ![](images/get-logs-6.png?width=600)
 
-If you are getting this report by request of OutSystems Support, fetch the file you saved from the local download folder and **attach it to your support case**.
+
+</div>
+</div>
 
 ### Staging Report
 
-#### Get the Staging Report in OutSystems 11
+The staging report is the unified report of each LifeTime deployment. It has useful information such as:
+  * existent applications in the managed environments,
+  * versions (tags) of the existing applications,
+  * entity keys and their module versions from entities that require configurations (e.g., catalog or schema), etc. 
 
-In OutSystems 11, do the following to get the staging report:
+Click the accordians below to learn how to get the Staging report in OutSystems 11 and OutSystems 10.
+
+<div class="os-accordion__item">
+    <div class="os-accordion__title" style="font-size:100%">
+   	Get Staging Report in OutSystems 11
+  	</div>
+<div class="os-accordion__content">
+
 
 1. Access the page `https://<LifeTime_server>/lifetime/troubleshoot.aspx` to see the **Deployment/Staging** list.
 
-1. In the Stagings list, identify the staging you need to troubleshoot. You can filter by the staging date or environments.
+1. In the Staging list, identify the staging you need to troubleshoot. You can filter by the staging date or environments.
 
 1. In the row of the identified staging, click the link **Download staging report** to save the file.
 
     ![](images/get-logs-7.png?width=900)
 
-If you are getting this report by request of OutSystems Support, fetch the file you saved from the local download folder and **attach it to your support case**.
 
-#### Get the Staging Report in OutSystems 10
+</div>
+</div>
 
-In OutSystems 10, do the following to get the staging report:
+
+<div class="os-accordion__item">
+    <div class="os-accordion__title" style="font-size:100%">
+   	Get Staging Report in OutSystems 10
+  	</div>
+<div class="os-accordion__content">
 
 1. Go to the LifeTime console, `https://<LifeTime_server>/lifetime`.
 
-1. In the **Applications** page, click the name of the target environment and choose **View Change Log** from the drop-down menu.
+1. In the **Applications** page, click the name of the target environment and select **View Change Log** from the drop-down.
 
     ![](images/get-logs-8.png?width=400)
 
@@ -158,38 +204,49 @@ In OutSystems 10, do the following to get the staging report:
 
 1. Click **download the staging report** to save the file.
 
-If you are getting this report by request of OutSystems Support, fetch the file you saved from the local download folder and **attach it to your support case**.
+
+</div>
+</div>
 
 ### User Permissions Report
 
-#### Get the User Permissions Report in OutSystems 11
+Click the accordians below to learn how to get the User Permissions report in OutSystems 11 and OutSystems 10:
 
-In OutSystems 11, do the following to get the user permissions report:
+<div class="os-accordion__item">
+    <div class="os-accordion__title" style="font-size:100%">
+   	Get User Permission Report in OutSystems 11
+  	</div>
+<div class="os-accordion__content">
 
 1. Access the page `https://<LifeTime_server>/lifetime/troubleshoot.aspx`.
 
-1. Click the link **Download the user permissions report** to save the file.
+1. Click **Download the user permissions report** to save the file.
 
     ![](images/get-logs-10.png?width=900)
 
-If you are getting this report by request of OutSystems Support, fetch the file you saved from the local download folder and **attach it to your support case**.
 
-#### Get the User Permissions Report in OutSystems 10
+</div>
+</div>
 
-In OutSystems 10, do the following to get the User permissions report:
+<div class="os-accordion__item">
+    <div class="os-accordion__title" style="font-size:100%">
+   	Get User Permission Report in OutSystems 10
+  	</div>
+<div class="os-accordion__content">
 
 1. Access the page `https://<LifeTime_server>/lifetime/DebugPermissions.aspx`.
 
      For the Java stack, use `https://<LifeTime_server>/lifetime/DebugPermissions.jsf`.
 
-1. Click the link **download the user permissions report** to save the file.
+1. Click **download the user permissions report** to save the file.
 
     ![](images/get-logs-11.png?width=800)
 
 
-If you are getting this report by request of OutSystems Support, fetch the file you saved from the local download folder and **attach it to your support case**.
+</div>
+</div>
 
-## Get BPTUtils Troubleshooting Report
+## Get BPT Utils Troubleshooting Report
 
 [BPT Utils](https://www.outsystems.com/forge/component-overview/1313/bpt-utils) is a Forge component that provides information about BPT Processes, including a troubleshooting report.
 
@@ -209,21 +266,37 @@ If you haven’t done it yet, you must install BPT Utils component in your LifeT
 
 BPT Utils is now installed in your LifeTime environment.
 
-To obtain the BPTUtils troubleshooting report, do the following:
+Click the accordian below to learn how to get the BPT Utils troubleshooting report.
 
-1. In the BPT Utils application (`https://<LifeTime_server>/BPTUtils/`), go to **Troubleshooting Processes**.
+<div class="os-accordion__item">
+    <div class="os-accordion__title" style="font-size:100%">
+   	Get BPTUtils troubleshooting report
+  	</div>
+<div class="os-accordion__content">
+
+1. In the BPT Utils application (`https://<LifeTime_server>/BPTUtils/`), click the **Troubleshooting Processes** tab.
 
 1. Click **Download Troubleshooting Report** to save the file.
 
     ![](images/get-logs-12.png?width=800)
 
-If you are getting this report by request of OutSystems Support, fetch the file you saved from the local download folder and **attach it to your support case**.
+
+</div>
+</div>
 
 ## .Net Stack Specific Logs
 
 ### Windows Event Logs
 
-To obtain the Windows event logs for a specific environment, do the following:
+The Windows Event Viewer shows a log of application and system messages, including errors, information messages, and warnings.
+
+Click the accordian below to learn how to get the Windows Event logs.
+
+<div class="os-accordion__item">
+    <div class="os-accordion__title" style="font-size:100%">
+   	Get Windows Event Logs
+  	</div>
+<div class="os-accordion__content">
 
 1. Connect to the server using Remote Desktop.
 
@@ -237,11 +310,22 @@ To obtain the Windows event logs for a specific environment, do the following:
 
     ![](images/get-logs-13.png?width=700)
 
-If you are getting these logs by request of OutSystems Support, unless specified, please save the **Application** and **System** logs, fetch the files you saved from the local download folder and **attach them to your support case**.
+If you are getting these logs by request of OutSystems Support, unless specified, please save the **Application** and **System** logs, fetch the files you saved from the local download folder and attach them to your support case.
+
+</div>
+</div>
 
 ### IIS Manager Logs
 
-To obtain the IIS Manager logs for a specific environment, do the following:
+IIS logs are meant to record data from Internet Information Services, web pages, and apps. While IIS itself contributes to the scalability and flexibility of web resources, the log files contain specific statistics about the websites, user data, site visits, IPs, and queries. These files can help you detect a problem a specific call between your server and another external server or service and understand if there are any underlying network issues.
+
+Click the accordian below to learn how to get IIS Manager logs:
+
+<div class="os-accordion__item">
+    <div class="os-accordion__title" style="font-size:100%">
+   	Get IIS Manager Logs
+  	</div>
+<div class="os-accordion__content">
 
 1. Connect to the server using Remote Desktop.
 
@@ -260,13 +344,20 @@ To obtain the IIS Manager logs for a specific environment, do the following:
 1. Use the File Explorer to navigate to the logs directory.
 1. Zip all the directory content to attach to your support case.
 
-If you are getting these logs by request of OutSystems Support, zip all the content of the logs directory and **attach the zip file to your support case**.
+</div>
+</div>
 
 ## Java Stack Specific Logs
 
-### JBoss Logs
+These logs represent various moments during an application execution in a Java context. With these logs we can understand which methods or functions are being called within a Java application during runtime.
 
-To obtain the JBoss logs for a specific environment, do the following:
+Click the accordians below to learn how to get Java Stack specific logs:
+
+<div class="os-accordion__item">
+    <div class="os-accordion__title" style="font-size:100%">
+   	Get JBoss Logs
+  	</div>
+<div class="os-accordion__content">
 
 1. Connect to the server.
 
@@ -274,22 +365,32 @@ To obtain the JBoss logs for a specific environment, do the following:
      * JBoss 5: /opt/jboss-5.1.0.GA/server/outsystems/log
      * JBoss 7: /opt/jboss-as-7.1.1.Final/standalone/log
 
-If you are getting these logs by request of OutSystems Support, zip all the files and **attach the zip file to your support case**.
 
-### WildFly Logs
+</div>
+</div>
 
-To obtain the WildFly logs for a specific environment, do the following:
+
+<div class="os-accordion__item">
+    <div class="os-accordion__title" style="font-size:100%">
+   	Get WildFly Logs
+  	</div>
+<div class="os-accordion__content">
 
 1. Connect to the server.
 
 1. Find the log files at:
      * WildFly 8.2: /opt/wildfly-8.2.0.Final/<wbr/>standalone/log
 
-If you are getting these logs by request of OutSystems Support, zip all the files and **attach the zip file to your support case**.
 
-### WebLogic Logs
+</div>
+</div>
 
-To obtain the WebLogic logs for a specific environment, do the following:
+
+<div class="os-accordion__item">
+    <div class="os-accordion__title" style="font-size:100%">
+   	Get WebLogic Logs
+  	</div>
+<div class="os-accordion__content">
 
 1. Connect to the server.
 
@@ -297,4 +398,71 @@ To obtain the WebLogic logs for a specific environment, do the following:
      * Admin Server logs: /opt/Oracle/Middleware/user_projects/domains/outsystems_domain/servers/AdminServer/logs
      * Managed Server logs: /opt/Oracle/Middleware/user_projects/domains/outsystems_domain/servers/`<ManagedServerName>`/logs
 
-If you are getting these logs by request of OutSystems Support, zip all the files and **attach the zip file to your support case**.
+
+</div>
+</div>
+
+## Platform Solution File 
+
+A Platform Solution is a list of all modules and dependencies related to a certain application that make up all the application’s content and references. Having a full solution for an application helps us understand how each element works with all its other dependencies. This makes sure that no connection is broken between each module and works properly. 
+
+Click the accordian below to learn how to get the Platform Solution file:
+
+<div class="os-accordion__item">
+    <div class="os-accordion__title" style="font-size:100%">
+   	Get Platform Solution File
+  	</div>
+<div class="os-accordion__content">
+
+1. In the Service Center console of the Source Environment (https://<source_environment>/ServiceCenter), go to the Factory area.
+2. Click **Solutions**.
+3. Click **New Solutions** and choose a name and description for your solution. 
+
+![](images/get-logs-18.png?width=600)
+
+4. Click **Save**. 
+5. In the **Components** tab, choose all the modules of the applications you want to deploy. Make sure to select include dependencies as components option.
+6. Click the **Associate** button. You'll see the application modules and all dependencies in the Associated Components list.
+
+![](images/get-logs-19.png?width=600)
+
+7. Dissociate any system module that might have been added as a dependency (for example, modules from Charts Web, Charts Mobile, OutSystems UI, etc) by selecting those modules from the list and clicking the **Dissociate Selected** button. The Solution must contain only the modules of your application.
+
+![](images/get-logs-20.png?width=600)
+
+8. Go to the **Versions** tab and click **Create Version**. 
+
+![](images/get-logs-21.png?width=600)
+
+9. Choose a Name and a Description for the version, and click **Save**. This version is a snapshot of the currently running version of all the modules in the Solution, which you are able to deploy later if you need.
+10. Click **Download** to save the .OSP file of the Solution.
+
+![](images/get-logs-22.png?width=600)
+
+</div>
+</div>
+
+## Platform Service Logs 
+
+The Service logs are the logs for the OutSystems services, such as the Scheduler or the Deployment service. These logs help us understand in more detail what is happening within the OutSystems services actions and logic being run during normal operations, such as running timers, compiling modules or synchronizing environments. [Click here](`https://success.outsystems.com/Support/Troubleshooting/Application_lifecycle/Change_OutSystems_platform_logging_levels_-_OSTrace`) to read more about Platform Logs. 
+
+
+## Database - AWR and ADDM Report
+
+The AWR and ADDM report are database reports detailing important information about the performance of the database. 
+
+ADDM automatically detects and reports on performance problems with the database, such as:
+
+  * Adding CPUs or changing the I/O subsystem configuration
+  * Changing initialization parameter settings
+  * Hash partitioning a table or index, or using automatic segment-space management (ASSM)
+  * Using the cache option for sequences or using bind variables
+  * Running the SQL Tuning Advisor on high-load SQL statements or running the Segment Advisor on hot objects
+
+AWR has valuable information such as:
+  * CPU Statistics
+  * Wait Time Statistics
+  * Workload Profile
+  * Sessions
+
+[Click here](`https://docs.oracle.com/database/121/TGDBA/compare_stats.htm#TGDBA272`) to learn how to get AWR reports. 
