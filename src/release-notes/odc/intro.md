@@ -6,11 +6,11 @@ guid: 76a6afdc-3acf-4b75-a107-550b36a95ba6
 app_type:  mobile apps, reactive web apps
 ---
 
-# OutSystem Developer Cloud
+# OutSystems Developer Cloud
 
 The following are the release notes for OutSystems Developer Cloud:
 
 
-* [OutSystem Developer Cloud GA ring](ga/ga.md)
+* [OutSystems Developer Cloud GA ring](ga/ga.md)
 
 * [ODC Studio](odc-studio/odc-studio.md)
