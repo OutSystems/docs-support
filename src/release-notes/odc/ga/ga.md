@@ -5,3 +5,4 @@ app_type: mobile apps, reactive web apps
 ---
 
 <div class="hidden"><h1>OutSystems Developer Cloud GA ring</h1></div>
+ 
