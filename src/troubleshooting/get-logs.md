@@ -15,7 +15,7 @@ In context of a support case, OutSystems Support might require that you provide 
 
 When an **unexpected error** occurs in Service Studio, you will get an Unexpected Error window. The Service Studio report has all the actions performed inside Service studio within an active session as well as all unhandled exceptions. 
 
-Click the accordian below to learn how to get the Service Studio report.
+Click the accordion below to learn how to get the Service Studio report.
 
 <div class="os-accordion__item">
     <div class="os-accordion__title" style="font-size:100%">
@@ -53,7 +53,7 @@ The [logs for the runtime of the platform](https://success.outsystems.com/Docume
 * Timers
 * Emails
 
-Click the accordian below to learn how to get Runtime logs.
+Click the accordion below to learn how to get Runtime logs.
 
 <div class="os-accordion__item">
     <div class="os-accordion__title" style="font-size:100%">
@@ -64,7 +64,8 @@ Click the accordian below to learn how to get Runtime logs.
  1. In the Service Center console of the environment you want to obtain the logs from (`https://<your_server>/ServiceCenter`), go to the **Monitoring** section.
  1. Choose the type of logs you want to get (e.g., **Errors** or **General**).
 
- 1. Click **Reset** to remove any potential filter.
+
+ 1. Click **Reset** to remove filters.
 
  1. Click **Export to excel** to save the file.
 
@@ -77,7 +78,7 @@ Click the accordian below to learn how to get Runtime logs.
 
 OutSystems logs the generation steps of a mobile app package, including the stack trace with additional details in case of error. These logs help us understand which steps were taken while generating the mobile application, and in case of failures, where the generation failed exactly.
 
-Click the accordian below to learn how to get Mobile App logs:
+Click the accordion below to learn how to get Mobile App logs:
 
 <div class="os-accordion__item">
     <div class="os-accordion__title" style="font-size:100%">
@@ -109,13 +110,14 @@ From the LifeTime console, you can obtain the following reports:
 * Staging report
 * User permissions report
 
-You need [Manage Infrastructure and Users](https://success.outsystems.com/Documentation/11/Managing_the_Applications_Lifecycle/Manage_IT_Teams/About_Permission_Levels) permission to get these reports. If you don’t have this permission, contact your infrastructure manager.
+You need [Manage Infrastructure and Users](https://success.outsystems.com/Documentation/11/Managing_the_Applications_Lifecycle/Manage_IT_Users/Understand_the_Permission_Model_for_IT_Users) permission to get these reports. If you don’t have this permission, contact your infrastructure manager.
 
 ### LifeTime Report
 
-This report will have information about each environment within LifeTime's infrastructure as well as the available environments configurations, present in LifeTime. It helps paint a picture on what configurations are enabled for each environment within LifeTime as well as how the infrastructure is built and designed.
 
-Click the accordians below to learn how to get the LifeTime report in OutSystems 11 and OutSystems 10.
+This report has information about each environment within LifeTime's infrastructure as well as the available environments configurations, present in LifeTime. It helps paint a picture on what configurations are enabled for each environment within LifeTime as well as how the infrastructure is built and designed.
+
+Click the accordions below to learn how to get the LifeTime report in OutSystems 11 and OutSystems 10.
 
 <div class="os-accordion__item">
     <div class="os-accordion__title" style="font-size:100%">
@@ -159,7 +161,7 @@ The staging report is the unified report of each LifeTime deployment. It has use
   * versions (tags) of the existing applications,
   * entity keys and their module versions from entities that require configurations (e.g., catalog or schema), etc. 
 
-Click the accordians below to learn how to get the Staging report in OutSystems 11 and OutSystems 10.
+Click the accordions below to learn how to get the Staging report in OutSystems 11 and OutSystems 10.
 
 <div class="os-accordion__item">
     <div class="os-accordion__title" style="font-size:100%">
@@ -210,7 +212,7 @@ Click the accordians below to learn how to get the Staging report in OutSystems 
 
 ### User Permissions Report
 
-Click the accordians below to learn how to get the User Permissions report in OutSystems 11 and OutSystems 10:
+Click the accordions below to learn how to get the User Permissions report in OutSystems 11 and OutSystems 10:
 
 <div class="os-accordion__item">
     <div class="os-accordion__title" style="font-size:100%">
@@ -266,7 +268,8 @@ If you haven’t done it yet, you must install BPT Utils component in your LifeT
 
 BPT Utils is now installed in your LifeTime environment.
 
-Click the accordian below to learn how to get the BPT Utils troubleshooting report.
+Click the accordion below to learn how to get the BPT Utils troubleshooting report.
+
 
 <div class="os-accordion__item">
     <div class="os-accordion__title" style="font-size:100%">
@@ -290,7 +293,7 @@ Click the accordian below to learn how to get the BPT Utils troubleshooting repo
 
 The Windows Event Viewer shows a log of application and system messages, including errors, information messages, and warnings.
 
-Click the accordian below to learn how to get the Windows Event logs.
+Click the accordion below to learn how to get the Windows Event logs.
 
 <div class="os-accordion__item">
     <div class="os-accordion__title" style="font-size:100%">
@@ -310,7 +313,11 @@ Click the accordian below to learn how to get the Windows Event logs.
 
     ![](images/get-logs-13.png?width=700)
 
-If you are getting these logs by request of OutSystems Support, unless specified, please save the **Application** and **System** logs, fetch the files you saved from the local download folder and attach them to your support case.
+
+1. Name the file **SystemEventViewer.evtx** and click the **Save** button.
+
+1. Click **OK** you see a Display Information dialog.
+
 
 </div>
 </div>
@@ -319,7 +326,7 @@ If you are getting these logs by request of OutSystems Support, unless specified
 
 IIS logs are meant to record data from Internet Information Services, web pages, and apps. While IIS itself contributes to the scalability and flexibility of web resources, the log files contain specific statistics about the websites, user data, site visits, IPs, and queries. These files can help you detect a problem a specific call between your server and another external server or service and understand if there are any underlying network issues.
 
-Click the accordian below to learn how to get IIS Manager logs:
+Click the accordion below to learn how to get IIS Manager logs:
 
 <div class="os-accordion__item">
     <div class="os-accordion__title" style="font-size:100%">
@@ -333,11 +340,11 @@ Click the accordian below to learn how to get IIS Manager logs:
 
 1. On the tree to the left, select your website.
 
-1. Double-click the Logging feature.
+1. Double-click the **Logging** feature.
 
     ![](images/get-logs-14.png?width=700)
 
-1. Check the Directory where the log files are stored.
+1. Check the **Directory** where the log files are stored.
 
     ![](images/get-logs-15.png?width=600)
 
@@ -351,7 +358,7 @@ Click the accordian below to learn how to get IIS Manager logs:
 
 These logs represent various moments during an application execution in a Java context. With these logs we can understand which methods or functions are being called within a Java application during runtime.
 
-Click the accordians below to learn how to get Java Stack specific logs:
+Click the accordions below to learn how to get Java Stack specific logs:
 
 <div class="os-accordion__item">
     <div class="os-accordion__title" style="font-size:100%">
@@ -406,7 +413,7 @@ Click the accordians below to learn how to get Java Stack specific logs:
 
 A Platform Solution is a list of all modules and dependencies related to a certain application that make up all the application’s content and references. Having a full solution for an application helps us understand how each element works with all its other dependencies. This makes sure that no connection is broken between each module and works properly. 
 
-Click the accordian below to learn how to get the Platform Solution file:
+Click the accordion below to learn how to get the Platform Solution file:
 
 <div class="os-accordion__item">
     <div class="os-accordion__title" style="font-size:100%">
@@ -466,3 +473,81 @@ AWR has valuable information such as:
   * Sessions
 
 [Click here](`https://docs.oracle.com/database/121/TGDBA/compare_stats.htm#TGDBA272`) to learn how to get AWR reports. 
+
+
+## Network - HAR File
+
+HAR is the short form for **HTTP Archive Format**, which tracks all the logging of web browser's interaction with a site. You may this file if you encounter the following issues:
+  * Performance issues: slow page load, a timeout when performing a certain task, etc.
+  * Page rendering: incorrect page format, missing information, etc.
+
+Click the accordions below to learn how to get HAR file from different browsers.
+
+<div class="os-accordion__item">
+    <div class="os-accordion__title" style="font-size:100%">
+   	Get HAR file for Google Chrome
+  	</div>
+<div class="os-accordion__content">
+
+1. Navigate to the page of the application that is facing the issue.
+1. Press **F12** or open the dev tools on the top right of Google Chrome. Under **More tools**, select **Developer Tools**.
+1. Open the **Network** tab.
+1. Check the **Preserve log** option and clear the log.
+1. Turn on recording using the **Record Network Log** button.
+1. Attempt to reproduce the issue.
+1. Right-click the log and Save as HAR with content.
+
+</div>
+</div>
+
+<div class="os-accordion__item">
+    <div class="os-accordion__title" style="font-size:100%">
+   	Get HAR file for Firefox
+  	</div>
+<div class="os-accordion__content">
+
+1. Navigate to the page of the application that is facing the issue.
+1. Press **F12** or open the dev tools by selecting the Firefox menu (three horizontal parallel lines) at the top-right of your browser window. Under **More tools**, select **Web Developer Tools**.
+1. Open the **Network** tab.
+1. Check the **Preserve log** option and clear the log.
+1. The recording autostarts when you start performing actions in the browser.
+1. Attempt to reproduce the issue.
+1. Once you have reproduced the issue and you see that all of the actions have been generated in the Developer Network Panel, right-click anywhere under the **File** column, and click **Save all as Har**.
+
+</div>
+</div>
+
+
+<div class="os-accordion__item">
+    <div class="os-accordion__title" style="font-size:100%">
+   	Get HAR file for Edge
+  	</div>
+<div class="os-accordion__content">
+
+1. Press **F12** to open the debug pane.
+1. Clear the session history before reproducing.
+1. To clear the session history press the button indicated by three lines and a red **X**.
+1. Click **Play** at the top left of the debug pane to start recording.
+1. Reproduce the issue.
+1. Press the **red square** to stop recording.
+1. Export the results as a HAR file by pressing the **Save** button that is identified as a floppy disk.
+
+</div>
+</div>
+
+
+<div class="os-accordion__item">
+    <div class="os-accordion__title" style="font-size:100%">
+   	Get HAR file for IE11
+  	</div>
+<div class="os-accordion__content">
+
+1. Press **F12** or go to the **Tools** menu and select **F12 Developer Tools**.
+1. Open the **Network** tab.
+1. Press the **green play button** (Enable network traffic capturing F5) on the left to start capturing.
+1. Refresh the page by pressing **F5** on your keyboard, and the network traffic should be displayed.
+1. Once the trace is complete, press **Export captured traffic** (second from left) and save the network trace as an xml file.
+
+</div>
+</div>
+
