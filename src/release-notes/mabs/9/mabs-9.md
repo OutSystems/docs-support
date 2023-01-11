@@ -59,8 +59,24 @@ Plugin requirements for **MABS 9**. For more details, please check the Forge by 
 
 -----
 
-## Breaking Changes and Known Limitations
+## Breaking Changes
 
-Here is the list of issues that may affect the building of your apps with MABS 9.
+Here is the list of changes made to MABS 9 that may affect the building of your apps.
+
+<li>Deeplinks now use screen navigations instead of reloading the app. The behaviour can be configured via the <a href="https://success.outsystems.com/Documentation/11/Delivering_Mobile_Apps/Customize_Your_Mobile_App/Customize_Deeplink_Behavior">DeepLinksHandlerType</a> preference.</li>
+<li>Default value of the <a href="https://success.outsystems.com/Documentation/11/Delivering_Mobile_Apps/Customize_Your_Mobile_App/Extensibility_Configurations_JSON_Schema">FilterTouchesWhenObscured</a> preference is now "true".</li>
+<li>Default value of the <a href="https://success.outsystems.com/Documentation/11/Delivering_Mobile_Apps/Customize_Your_Mobile_App/Extensibility_Configurations_JSON_Schema">RemoveUserCertificates</a> preference is now "true".</li>
+<li>MABS 9 uses Node 16 and NPM 8, which can affect the behaviour of plugin hooks.</li>
+<li>Versions of Android dependencies OkHttp3 and GSON are now updated. OkHttp3 to version 4.9.3. GSON to version 2.10.</li>
+<li>CocoaLumberjack dependency is no longer present in iOS applications.</li>
+<li>Obsolete navigator.network.connection clobber is no longer available.</li>
+
+-----
+
+## Known Limitations
+
+Here is the list of side effects from changes made to MABS 9 that might affect the building of your apps.
+
+<li>Android applications now use the Android SplashScreen API. This internally uses a theme to configure the splash screen, that can be found at target res/values/themes.xml. This file cannot be replaced. In case it is modified, the original theme must be kept.</li>
 
 -----
