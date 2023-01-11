@@ -13,15 +13,15 @@ In context of a support case, OutSystems Support might require that you provide 
 
 ## Service Studio Report
 
-When an **unexpected error** occurs in Service Studio, you will get an Unexpected Error window. The Service Studio report has all the actions performed inside Service studio within an active session as well as all unhandled exceptions. 
+When an **unexpected error** occurs in Service Studio, you will get an Unexpected Error window. The Service Studio report has all the actions performed inside Service studio within an active session as well as all unhandled exceptions.
 
 Click the accordion below to learn how to get the Service Studio report.
 
-<div class="os-accordion__item">
-    <div class="os-accordion__title" style="font-size:100%">
-   	Get Service Studio Report
-  	</div>
-<div class="os-accordion__content">
+<div class="os-accordion__item" markdown="1">
+    <div class="os-accordion__title" style="font-size:100%" markdown="1">
+    Get Service Studio Report
+    </div>
+<div class="os-accordion__content" markdown="1">
 
 1. Click **You can help us fix this…** to expand the window, if it’s not expanded.
 
@@ -55,21 +55,21 @@ The [logs for the runtime of the platform](https://success.outsystems.com/Docume
 
 Click the accordion below to learn how to get Runtime logs.
 
-<div class="os-accordion__item">
-    <div class="os-accordion__title" style="font-size:100%">
-   	Get Runtime Logs
-  	</div>
-    <div class="os-accordion__content">
+<div class="os-accordion__item" markdown="1">
+    <div class="os-accordion__title" style="font-size:100%" markdown="1">
+    Get Runtime Logs
+    </div>
+<div class="os-accordion__content" markdown="1">
 
- 1. In the Service Center console of the environment you want to obtain the logs from (`https://<your_server>/ServiceCenter`), go to the **Monitoring** section.
- 1. Choose the type of logs you want to get (e.g., **Errors** or **General**).
+1. In the Service Center console of the environment you want to obtain the logs from (`https://<your_server>/ServiceCenter`), go to the **Monitoring** section.
 
+1. Choose the type of logs you want to get (e.g., **Errors** or **General**).
 
- 1. Click **Reset** to remove filters.
+1. Click **Reset** to remove filters.
 
- 1. Click **Export to excel** to save the file.
+1. Click **Export to excel** to save the file.
 
- ![](images/get-logs-3.png)
+![](images/get-logs-3.png)
 
 </div>
 </div>
@@ -80,11 +80,11 @@ OutSystems logs the generation steps of a mobile app package, including the stac
 
 Click the accordion below to learn how to get Mobile App logs:
 
-<div class="os-accordion__item">
-    <div class="os-accordion__title" style="font-size:100%">
+<div class="os-accordion__item" markdown="1">
+    <div class="os-accordion__title" style="font-size:100%" markdown="1">
    	Get Mobile App Generation Logs
   	</div>
-<div class="os-accordion__content">
+<div class="os-accordion__content" markdown="1">
 
 1. If you are in Service Studio, go to the details page of the mobile app and click **Application Management...** to open the mobile app's page in Service Center console. The page opens in a separate browser.
 
@@ -119,11 +119,11 @@ This report has information about each environment within LifeTime's infrastruct
 
 Click the accordions below to learn how to get the LifeTime report in OutSystems 11 and OutSystems 10.
 
-<div class="os-accordion__item">
-    <div class="os-accordion__title" style="font-size:100%">
+<div class="os-accordion__item" markdown="1">
+    <div class="os-accordion__title" style="font-size:100%" markdown="1">
    	Get LifeTime Report in OutSystems 11
   	</div>
-<div class="os-accordion__content">
+<div class="os-accordion__content" markdown="1">
 
 1. Access the page `https://<LifeTime_server>/lifetime/troubleshoot.aspx`.
 
@@ -134,11 +134,11 @@ Click the accordions below to learn how to get the LifeTime report in OutSystems
 </div>
 </div>
 
-<div class="os-accordion__item">
-    <div class="os-accordion__title" style="font-size:100%">
+<div class="os-accordion__item" markdown="1">
+    <div class="os-accordion__title" style="font-size:100%" markdown="1">
    	Get LifeTime Report in OutSystems 10
   	</div>
-<div class="os-accordion__content">
+<div class="os-accordion__content" markdown="1">
 
 1. Go to the LifeTime console, `https://<LifeTime_server>/lifetime`.
 
@@ -157,17 +157,18 @@ Click the accordions below to learn how to get the LifeTime report in OutSystems
 ### Staging Report
 
 The staging report is the unified report of each LifeTime deployment. It has useful information such as:
-  * existent applications in the managed environments,
-  * versions (tags) of the existing applications,
-  * entity keys and their module versions from entities that require configurations (e.g., catalog or schema), etc. 
+
+* existent applications in the managed environments,
+* versions (tags) of the existing applications,
+* entity keys and their module versions from entities that require configurations (e.g., catalog or schema), etc.
 
 Click the accordions below to learn how to get the Staging report in OutSystems 11 and OutSystems 10.
 
-<div class="os-accordion__item">
-    <div class="os-accordion__title" style="font-size:100%">
+<div class="os-accordion__item" markdown="1">
+    <div class="os-accordion__title" style="font-size:100%" markdown="1">
    	Get Staging Report in OutSystems 11
   	</div>
-<div class="os-accordion__content">
+<div class="os-accordion__content" markdown="1">
 
 
 1. Access the page `https://<LifeTime_server>/lifetime/troubleshoot.aspx` to see the **Deployment/Staging** list.
@@ -183,11 +184,11 @@ Click the accordions below to learn how to get the Staging report in OutSystems 
 </div>
 
 
-<div class="os-accordion__item">
-    <div class="os-accordion__title" style="font-size:100%">
+<div class="os-accordion__item" markdown="1">
+    <div class="os-accordion__title" style="font-size:100%" markdown="1">
    	Get Staging Report in OutSystems 10
   	</div>
-<div class="os-accordion__content">
+<div class="os-accordion__content" markdown="1">
 
 1. Go to the LifeTime console, `https://<LifeTime_server>/lifetime`.
 
@@ -214,11 +215,11 @@ Click the accordions below to learn how to get the Staging report in OutSystems 
 
 Click the accordions below to learn how to get the User Permissions report in OutSystems 11 and OutSystems 10:
 
-<div class="os-accordion__item">
-    <div class="os-accordion__title" style="font-size:100%">
+<div class="os-accordion__item" markdown="1">
+    <div class="os-accordion__title" style="font-size:100%" markdown="1">
    	Get User Permission Report in OutSystems 11
   	</div>
-<div class="os-accordion__content">
+<div class="os-accordion__content" markdown="1">
 
 1. Access the page `https://<LifeTime_server>/lifetime/troubleshoot.aspx`.
 
@@ -230,11 +231,11 @@ Click the accordions below to learn how to get the User Permissions report in Ou
 </div>
 </div>
 
-<div class="os-accordion__item">
-    <div class="os-accordion__title" style="font-size:100%">
+<div class="os-accordion__item" markdown="1">
+    <div class="os-accordion__title" style="font-size:100%" markdown="1">
    	Get User Permission Report in OutSystems 10
   	</div>
-<div class="os-accordion__content">
+<div class="os-accordion__content" markdown="1">
 
 1. Access the page `https://<LifeTime_server>/lifetime/DebugPermissions.aspx`.
 
@@ -271,11 +272,11 @@ BPT Utils is now installed in your LifeTime environment.
 Click the accordion below to learn how to get the BPT Utils troubleshooting report.
 
 
-<div class="os-accordion__item">
-    <div class="os-accordion__title" style="font-size:100%">
+<div class="os-accordion__item" markdown="1">
+    <div class="os-accordion__title" style="font-size:100%" markdown="1">
    	Get BPTUtils troubleshooting report
   	</div>
-<div class="os-accordion__content">
+<div class="os-accordion__content" markdown="1">
 
 1. In the BPT Utils application (`https://<LifeTime_server>/BPTUtils/`), click the **Troubleshooting Processes** tab.
 
@@ -295,11 +296,11 @@ The Windows Event Viewer shows a log of application and system messages, includi
 
 Click the accordion below to learn how to get the Windows Event logs.
 
-<div class="os-accordion__item">
-    <div class="os-accordion__title" style="font-size:100%">
+<div class="os-accordion__item" markdown="1">
+    <div class="os-accordion__title" style="font-size:100%" markdown="1">
    	Get Windows Event Logs
   	</div>
-<div class="os-accordion__content">
+<div class="os-accordion__content" markdown="1">
 
 1. Connect to the server using Remote Desktop.
 
@@ -328,11 +329,11 @@ IIS logs are meant to record data from Internet Information Services, web pages,
 
 Click the accordion below to learn how to get IIS Manager logs:
 
-<div class="os-accordion__item">
-    <div class="os-accordion__title" style="font-size:100%">
+<div class="os-accordion__item" markdown="1">
+    <div class="os-accordion__title" style="font-size:100%" markdown="1">
    	Get IIS Manager Logs
   	</div>
-<div class="os-accordion__content">
+<div class="os-accordion__content" markdown="1">
 
 1. Connect to the server using Remote Desktop.
 
@@ -360,11 +361,11 @@ These logs represent various moments during an application execution in a Java c
 
 Click the accordions below to learn how to get Java Stack specific logs:
 
-<div class="os-accordion__item">
-    <div class="os-accordion__title" style="font-size:100%">
+<div class="os-accordion__item" markdown="1">
+    <div class="os-accordion__title" style="font-size:100%" markdown="1">
    	Get JBoss Logs
   	</div>
-<div class="os-accordion__content">
+<div class="os-accordion__content" markdown="1">
 
 1. Connect to the server.
 
@@ -377,11 +378,11 @@ Click the accordions below to learn how to get Java Stack specific logs:
 </div>
 
 
-<div class="os-accordion__item">
-    <div class="os-accordion__title" style="font-size:100%">
+<div class="os-accordion__item" markdown="1">
+    <div class="os-accordion__title" style="font-size:100%" markdown="1">
    	Get WildFly Logs
   	</div>
-<div class="os-accordion__content">
+<div class="os-accordion__content" markdown="1">
 
 1. Connect to the server.
 
@@ -393,11 +394,11 @@ Click the accordions below to learn how to get Java Stack specific logs:
 </div>
 
 
-<div class="os-accordion__item">
-    <div class="os-accordion__title" style="font-size:100%">
+<div class="os-accordion__item" markdown="1">
+    <div class="os-accordion__title" style="font-size:100%" markdown="1">
    	Get WebLogic Logs
   	</div>
-<div class="os-accordion__content">
+<div class="os-accordion__content" markdown="1">
 
 1. Connect to the server.
 
@@ -415,13 +416,13 @@ A Platform Solution is a list of all modules and dependencies related to a certa
 
 Click the accordion below to learn how to get the Platform Solution file:
 
-<div class="os-accordion__item">
-    <div class="os-accordion__title" style="font-size:100%">
+<div class="os-accordion__item" markdown="1">
+    <div class="os-accordion__title" style="font-size:100%" markdown="1">
    	Get Platform Solution File
   	</div>
-<div class="os-accordion__content">
+<div class="os-accordion__content" markdown="1">
 
-1. In the Service Center console of the Source Environment (https://<source_environment>/ServiceCenter), go to the Factory area.
+1. In the Service Center console of the Source Environment (`https://<source_environment>/ServiceCenter`), go to the Factory area.
 2. Click **Solutions**.
 3. Click **New Solutions** and choose a name and description for your solution. 
 
@@ -460,34 +461,34 @@ The AWR and ADDM report are database reports detailing important information abo
 
 ADDM automatically detects and reports on performance problems with the database, such as:
 
-  * Adding CPUs or changing the I/O subsystem configuration
-  * Changing initialization parameter settings
-  * Hash partitioning a table or index, or using automatic segment-space management (ASSM)
-  * Using the cache option for sequences or using bind variables
-  * Running the SQL Tuning Advisor on high-load SQL statements or running the Segment Advisor on hot objects
+* Adding CPUs or changing the I/O subsystem configuration
+* Changing initialization parameter settings
+* Hash partitioning a table or index, or using automatic segment-space management (ASSM)
+* Using the cache option for sequences or using bind variables
+* Running the SQL Tuning Advisor on high-load SQL statements or running the Segment Advisor on hot objects
 
 AWR has valuable information such as:
-  * CPU Statistics
-  * Wait Time Statistics
-  * Workload Profile
-  * Sessions
+* CPU Statistics
+* Wait Time Statistics
+* Workload Profile
+* Sessions
 
 [Click here](`https://docs.oracle.com/database/121/TGDBA/compare_stats.htm#TGDBA272`) to learn how to get AWR reports. 
-
 
 ## Network - HAR File
 
 HAR is the short form for **HTTP Archive Format**, which tracks all the logging of web browser's interaction with a site. You may this file if you encounter the following issues:
-  * Performance issues: slow page load, a timeout when performing a certain task, etc.
-  * Page rendering: incorrect page format, missing information, etc.
+
+* Performance issues: slow page load, a timeout when performing a certain task, etc.
+* Page rendering: incorrect page format, missing information, etc.
 
 Click the accordions below to learn how to get HAR file from different browsers.
 
-<div class="os-accordion__item">
-    <div class="os-accordion__title" style="font-size:100%">
+<div class="os-accordion__item" markdown="1">
+    <div class="os-accordion__title" style="font-size:100%" markdown="1">
    	Get HAR file for Google Chrome
   	</div>
-<div class="os-accordion__content">
+<div class="os-accordion__content" markdown="1">
 
 1. Navigate to the page of the application that is facing the issue.
 1. Press **F12** or open the dev tools on the top right of Google Chrome. Under **More tools**, select **Developer Tools**.
@@ -500,11 +501,11 @@ Click the accordions below to learn how to get HAR file from different browsers.
 </div>
 </div>
 
-<div class="os-accordion__item">
-    <div class="os-accordion__title" style="font-size:100%">
+<div class="os-accordion__item" markdown="1">
+    <div class="os-accordion__title" style="font-size:100%" markdown="1">
    	Get HAR file for Firefox
   	</div>
-<div class="os-accordion__content">
+<div class="os-accordion__content" markdown="1">
 
 1. Navigate to the page of the application that is facing the issue.
 1. Press **F12** or open the dev tools by selecting the Firefox menu (three horizontal parallel lines) at the top-right of your browser window. Under **More tools**, select **Web Developer Tools**.
@@ -517,12 +518,11 @@ Click the accordions below to learn how to get HAR file from different browsers.
 </div>
 </div>
 
-
-<div class="os-accordion__item">
-    <div class="os-accordion__title" style="font-size:100%">
+<div class="os-accordion__item" markdown="1">
+    <div class="os-accordion__title" style="font-size:100%" markdown="1">
    	Get HAR file for Edge
   	</div>
-<div class="os-accordion__content">
+<div class="os-accordion__content" markdown="1">
 
 1. Press **F12** to open the debug pane.
 1. Clear the session history before reproducing.
@@ -535,12 +535,11 @@ Click the accordions below to learn how to get HAR file from different browsers.
 </div>
 </div>
 
-
-<div class="os-accordion__item">
-    <div class="os-accordion__title" style="font-size:100%">
+<div class="os-accordion__item" markdown="1">
+    <div class="os-accordion__title" style="font-size:100%" markdown="1">
    	Get HAR file for IE11
   	</div>
-<div class="os-accordion__content">
+<div class="os-accordion__content" markdown="1">
 
 1. Press **F12** or go to the **Tools** menu and select **F12 Developer Tools**.
 1. Open the **Network** tab.
@@ -550,4 +549,3 @@ Click the accordions below to learn how to get HAR file from different browsers.
 
 </div>
 </div>
-
