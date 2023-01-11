@@ -8,4 +8,6 @@ app_type: traditional web apps, mobile apps, reactive web apps
 
 <div class="info">
 
-Service studio release notes are now under [Cross-Plarform Service Studio](../cross-platform-service-studio/cross-platform-service-studio.md)
+Service studio release notes are now under [Cross-Plarform Service Studio](../cross-platform-service-studio/cross-platform-service-studio.md).
+    
+</div>
