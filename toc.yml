@@ -1,4 +1,5 @@
 # Support 
+
 # Release notes
 - href: release-notes/intro.md
 - topics:
@@ -147,7 +148,7 @@
     - href: security/HIPAA/intro.md
     - topics:
         - href: security/HIPAA/hipaa-tech-safeguards.md
-        
+
     # Vulnerabilities
     - href: security/vulnerabilities/intro.md
     - topics:
