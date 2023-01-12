@@ -142,10 +142,12 @@
     - href: security/cloud-certificate-change/cloud-certificate-change.md
     - href: security/penetration-tests.md
     - href: security/rest-headers-hardening.md
+
     # HIPAA compliance
     - href: security/HIPAA/intro.md
     - topics:
         - href: security/HIPAA/hipaa-tech-safeguards.md
+        
     # Vulnerabilities
     - href: security/vulnerabilities/intro.md
     - topics:
