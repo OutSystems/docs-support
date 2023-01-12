@@ -14,3 +14,4 @@ The following are the release notes for OutSystems Developer Cloud:
 * [OutSystems Developer Cloud](ga/ga.md)
 
 * [ODC Studio](odc-studio/odc-studio.md)
+
