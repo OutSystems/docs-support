@@ -12,37 +12,37 @@ Release notes for newer Service Studio release are now under [Cross-Plarform Ser
 
 </div>
 
-<div class=hidden id= development-environment-11.14.16_start></div>
+<div class="hidden" id="development-environment-11.14.16_start"></div>
 <h2 id="development_environment_11.14.16">Development Environment 11.14.16</h2>
 <div class="info"><p>Released on May 16, 2022</p></div>
 <h3 id="bug_fixing_11.14.16">Bug Fixing</h3>
 <ul>
 <li>It's now easier to use your own data in your apps. After integrating with external systems through Integration Builder, go to the "Logic" tab, choose a server action, drag and drop it to a list, table or accelerator to open "SELECT DATA" and decide what entity/attribute to use. (RIMPT-2246)</li>
-</ul><div class=hidden id= development-environment-11.14.16_end></div><div class=hidden id= development-environment-11.14.15_start></div>
+</ul><div class="hidden" id="development-environment-11.14.16_end"></div><div class="hidden" id="development-environment-11.14.15_start"></div>
 <h2 id="development_environment_11.14.15">Development Environment 11.14.15</h2>
 <div class="info"><p>Released on May 02, 2022</p></div>
 <h3 id="bug_fixing_11.14.15">Bug Fixing</h3>
 <ul>
 <li>Fixed issue where Service Studio would freeze when moving the cursor in content editor. (RMAC-9577)</li>
 </ul>
-<div class=hidden id= development-environment-11.14.15_end></div><div class=hidden id= development-environment-11.14.14_start></div>
+<div class="hidden" id="development-environment-11.14.15_end"></div><div class="hidden" id="development-environment-11.14.14_start"></div>
 
 <h2 id="development_environment_11.14.14">Development Environment 11.14.14</h2>
 <div class="info"><p>Released on Apr 18, 2022</p></div>
 
 This release of Service Studio focuses on internal improvements ― this will help our team improve Service Studio faster.
-Your work shouldn't be impacted by these changes.<div class=hidden id= development-environment-11.14.14_end></div><div class=hidden id= development-environment-11.14.13_start></div>
+Your work shouldn't be impacted by these changes.<div class="hidden" id="development-environment-11.14.14_end"></div><div class="hidden" id="development-environment-11.14.13_start"></div>
 
 <h2 id="development_environment_11.14.13">Development Environment 11.14.13</h2>
 <div class="info"><p>Released on Apr 11, 2022</p></div>
 
 This release of Service Studio focuses on internal improvements ― this will help our team improve Service Studio faster.
-Your work shouldn't be impacted by these changes.<div class=hidden id= development-environment-11.14.13_end></div><div class=hidden id= development-environment-11.14.12_start></div>
+Your work shouldn't be impacted by these changes.<div class="hidden" id="development-environment-11.14.13_end"></div><div class="hidden" id="development-environment-11.14.12_start"></div>
 
 <h2 id="development_environment_11.14.12">Development Environment 11.14.12</h2>
 <div class="info"><p>Released on Apr 04, 2022</p></div>
 This release of Service Studio focuses on internal improvements ― this will help our team improve Service Studio faster.
-Your work shouldn't be impacted by these changes.<div class=hidden id= development-environment-11.14.12_end></div><div class=hidden id= development-environment-11.14.11_start></div>
+Your work shouldn't be impacted by these changes.<div class="hidden" id="development-environment-11.14.12_end"></div><div class="hidden" id="development-environment-11.14.11_start"></div>
 
 <h2 id="development_environment_11.14.11">Development Environment 11.14.11</h2>
 <div class="info"><p>Released on Mar 24, 2022</p></div>
@@ -50,7 +50,7 @@ Your work shouldn't be impacted by these changes.<div class=hidden id= developme
 <ul>
 <li>When using Service Studio Stable for Windows on a Parallels virtual machine, you'll be prompted to install the Service Studio Stable version for MacOS. (RTAFB-5610)</li>
 </ul>
-<div class=hidden id= development-environment-11.14.11_end></div><div class=hidden id= development-environment-11.14.10_start></div>
+<div class="hidden" id="development-environment-11.14.11_end"></div><div class="hidden" id="development-environment-11.14.10_start"></div>
 
 <h2 id="development_environment_11.14.10">Development Environment 11.14.10</h2>
 <div class="info"><p>Released on Mar 21, 2022</p></div>
@@ -66,7 +66,7 @@ Your work shouldn't be impacted by these changes.<div class=hidden id= developme
 <li>Fixed an issue when trying to connect to environment on Integration Studio. (RPM-1700)</li>
 <li>Fixed an issue when consuming a SOAP web service with multiple headers, which were being ignored. (RPM-314)</li>
 </ul>
-<div class=hidden id= development-environment-11.14.10_end></div><div class=hidden id= development-environment-11.14.8_start></div>
+<div class="hidden" id="development-environment-11.14.10_end"></div><div class="hidden" id="development-environment-11.14.8_start"></div>
 
 <h2 id="development_environment_11.14.8">Development Environment 11.14.8</h2>
 <div class="info"><p>Released on Feb 28, 2022</p></div>
@@ -74,7 +74,7 @@ Your work shouldn't be impacted by these changes.<div class=hidden id= developme
 <ul>
 <li>Fixed an issue that gave an incorrect length attribute when importing a SOAP web service. (RPD-5047)</li>
 </ul>
-<div class=hidden id= development-environment-11.14.8_end></div><div class=hidden id= development-environment-11.14.7_start></div>
+<div class="hidden" id="development-environment-11.14.8_end"></div><div class="hidden" id="development-environment-11.14.7_start"></div>
 
 <h2 id="development_environment_11.14.7">Development Environment 11.14.7</h2>
 <div class="info"><p>Released on Feb 14, 2022</p></div>
@@ -88,7 +88,7 @@ Inspired by <a href="https://www.outsystems.com/ideas/5205/allow-hyphen-in-url-p
 <li>Removed double error message when trying to set public blocks or screens to be reused in other modules, for Mobile Apps. (RMAC-9002)</li>
 <li>Fixed an issue in which it was not possible to clone a module when there was multiple themes with similar names (RPM-2073)</li>
 </ul>
-<div class=hidden id= development-environment-11.14.7_end></div><div class=hidden id= development-environment-11.14.5_start></div>
+<div class="hidden" id="development-environment-11.14.7_end"></div><div class="hidden" id="development-environment-11.14.5_start"></div>
 
 <h2 id="development_environment_11.14.5">Development Environment 11.14.5</h2>
 <div class="info"><p>Released on Jan 24, 2022</p></div>
@@ -96,7 +96,7 @@ Inspired by <a href="https://www.outsystems.com/ideas/5205/allow-hyphen-in-url-p
 <ul>
 <li>The 1-Click-Publish button received a new look for improved clarity, with action names now added to the button ('Publish', 'Open in browser', 'Errors found'). (RDEPT-64)</li>
 </ul>
-<div class=hidden id= development-environment-11.14.5_end></div><div class=hidden id= development-environment-11.14.4_start></div>
+<div class="hidden" id="development-environment-11.14.5_end"></div><div class="hidden" id="development-environment-11.14.4_start"></div>
 
 <h2 id="development_environment_11.14.4">Development Environment 11.14.4</h2>
 <div class="info"><p>Released on Jan 17, 2022</p></div>
@@ -105,7 +105,7 @@ Inspired by <a href="https://www.outsystems.com/ideas/5205/allow-hyphen-in-url-p
 <li>It is now possible to expose REST web services with the character "-" on the URL.
 Inspired by <a href="https://www.outsystems.com/ideas/5205/allow-hyphen-in-url-path-of-an-exposed-api-web-method/" target="_blank" rel="noopener noreferrer">João Marques' idea</a>. (R11DT-870)</li>
 </ul>
-<div class=hidden id= development-environment-11.14.4_end></div><div class=hidden id= development-environment-11.14.3_start></div>
+<div class="hidden" id="development-environment-11.14.4_end"></div><div class="hidden" id="development-environment-11.14.3_start"></div>
 
 <h2 id="development_environment_11.14.3">Development Environment 11.14.3</h2>
 <div class="info"><p>Released on Jan 10, 2022</p></div>
@@ -113,7 +113,7 @@ Inspired by <a href="https://www.outsystems.com/ideas/5205/allow-hyphen-in-url-p
 <ul>
 <li>The 1-Click-Publish button received a new look for improved clarity, with action names now added to the button ('Publish', 'Open in browser', 'Errors found'). (RDEPT-64)</li>
 </ul>
-<div class=hidden id= development-environment-11.14.3_end></div><div class=hidden id= development-environment-11.14.2_start></div>
+<div class="hidden" id="development-environment-11.14.3_end"></div><div class="hidden" id="development-environment-11.14.2_start"></div>
 
 <h2 id="development_environment_11.14.2">Development Environment 11.14.2</h2>
 <div class="info"><p>Released on Jan 03, 2022</p></div>
@@ -123,7 +123,7 @@ Inspired by <a href="https://www.outsystems.com/ideas/5205/allow-hyphen-in-url-p
 <li>Fixed a crash in Service Studio while performing a merge that envolves screen variables used in screen actions (RMAC-8735)</li>
 <li>Fixed an issue where screens created from a template would not keep the chosen name. (RMAC-8745)</li>
 </ul>
-<div class=hidden id= development-environment-11.14.2_end></div><div class=hidden id= development-environment-11.14.1_start></div>
+<div class="hidden" id="development-environment-11.14.2_end"></div><div class="hidden" id="development-environment-11.14.1_start"></div>
 
 <h2 id="development_environment_11.14.1">Development Environment 11.14.1</h2>
 <div class="info"><p>Released on Dec 20, 2021</p></div>
@@ -131,7 +131,7 @@ Inspired by <a href="https://www.outsystems.com/ideas/5205/allow-hyphen-in-url-p
 <ul>
 <li>Fixed an issue where Attachment Structures were incorrectly saved in the module preventing its publication. (RPM-1663)</li>
 </ul>
-<div class=hidden id= development-environment-11.14.1_end></div><div class=hidden id= development-environment-11.14.0_start></div>
+<div class="hidden" id="development-environment-11.14.1_end"></div><div class="hidden" id="development-environment-11.14.0_start"></div>
 
 <h2 id="development_environment_11.14.0">Development Environment 11.14.0</h2>
 <div class="info"><p>Released on Dec 13, 2021</p></div>
@@ -139,13 +139,13 @@ Inspired by <a href="https://www.outsystems.com/ideas/5205/allow-hyphen-in-url-p
 <ul>
 <li>Features related to emails for Mobile and Reactive Web Apps are now generally available in Service Studio. You could use the features previously in technical the previews "Emails for Mobile and Reactive" and "Attachments in Mobile and Reactive emails". (RTAFA-77)</li>
 </ul>
-<div class=hidden id= development-environment-11.14.0_end></div><div class=hidden id= development-environment-11.13.1_start></div>
+<div class="hidden" id="development-environment-11.14.0_end"></div><div class="hidden" id="development-environment-11.13.1_start"></div>
 
 <h2 id="development_environment_11.13.1">Development Environment 11.13.1</h2>
 <div class="info">
 <p>Released on Dec 06, 2021</p></div>
 <p>This release of Service Studio focuses on internal improvements ― this will help our team improve Service Studio faster. Your work shouldn't be impacted by these changes.</p>
-<div class=hidden id= development-environment-11.13.1_end></div><div class=hidden id= development-environment-11.13.0_start></div>
+<div class="hidden" id="development-environment-11.13.1_end"></div><div class="hidden" id="development-environment-11.13.0_start"></div>
 
 <h2 id="development_environment_11.13.0">Development Environment 11.13.0</h2>
 <div class="info">
@@ -155,7 +155,7 @@ Inspired by <a href="https://www.outsystems.com/ideas/5205/allow-hyphen-in-url-p
 <li>Now you can configure friendly URLs in your Reactive Web Apps. Go to Service Center &gt; Administration &gt; SEO URLs to set up the site rules and redirects. Configure the page rules in Service Studio, by setting Custom URLs to Yes in the Screen properties. (RTAFB-4453)</li>
 </ul>
 <li>Fixed a remote code execution vulnerability exploitable via phishing. CVSSv3.1 score 7.5 (High). (RPM-1054)</li>
-<div class=hidden id= development-environment-11.13.0_end></div><div class=hidden id= development-environment-11.12.8_start></div>
+<div class="hidden" id="development-environment-11.13.0_end"></div><div class="hidden" id="development-environment-11.12.8_start"></div>
 
 <h2 id="development_environment_11.12.8">Development Environment 11.12.8</h2>
 <div class="info">
@@ -164,7 +164,7 @@ Inspired by <a href="https://www.outsystems.com/ideas/5205/allow-hyphen-in-url-p
 <ul>
 <li>Now it’s easier to find OutSystems UI components in Service Studio toolbox. (RIMPT-970)</li>
 </ul>
-<div class=hidden id= development-environment-11.12.8_end></div><div class=hidden id= development-environment-11.12.7_start></div>
+<div class="hidden" id="development-environment-11.12.8_end"></div><div class="hidden" id="development-environment-11.12.7_start"></div>
 
 <h2 id="development_environment_11.12.7">Development Environment 11.12.7</h2>
 <div class="info">
@@ -173,13 +173,13 @@ Inspired by <a href="https://www.outsystems.com/ideas/5205/allow-hyphen-in-url-p
 <ul>
 <li>Service Studio no longer crashes when, after changing a 'Run Client Actions's action, the 'Expand Element' of a list argument is clicked. (RDMST-812)</li>
 </ul>
-<div class=hidden id= development-environment-11.12.7_end></div><div class=hidden id= development-environment-11.12.6_start></div>
+<div class="hidden" id="development-environment-11.12.7_end"></div><div class="hidden" id="development-environment-11.12.6_start"></div>
 
 <h2 id="development_environment_11.12.6">Development Environment 11.12.6</h2>
 <div class="info">
 <p>Released on Nov 01, 2021</p></div>
 <p>This release of Service Studio focuses on internal improvements ― this will help our team improve Service Studio faster. Your work shouldn't be impacted by these changes.</p>
-<div class=hidden id= development-environment-11.12.6_end></div><div class=hidden id= development-environment-11.12.5_start></div>
+<div class="hidden" id="development-environment-11.12.6_end"></div><div class="hidden" id="development-environment-11.12.5_start"></div>
 
 <h2 id="development_environment_11.12.5">Development Environment 11.12.5</h2>
 <div class="info">
@@ -188,7 +188,7 @@ Inspired by <a href="https://www.outsystems.com/ideas/5205/allow-hyphen-in-url-p
 <ul>
 <li>It's now easier to select data for Table and List widgets. Click "Select Data" in the Source property dropdown to fetch and bind data from an entity in a single operation. (RIMPT-846)</li>
 </ul>
-<div class=hidden id= development-environment-11.12.5_end></div><div class=hidden id= development-environment-11.12.4_start></div>
+<div class="hidden" id="development-environment-11.12.5_end"></div><div class="hidden" id="development-environment-11.12.4_start"></div>
 
 <h2 id="development_environment_11.12.4">Development Environment 11.12.4</h2>
 <div class="info">
@@ -197,7 +197,7 @@ Inspired by <a href="https://www.outsystems.com/ideas/5205/allow-hyphen-in-url-p
 <ul>
 <li>Fixed an issue that caused Service Studio to get stuck when using a custom color profile on Windows. (RICT-3947)</li>
 </ul>
-<div class=hidden id= development-environment-11.12.4_end></div><div class=hidden id= development-environment-11.12.3_start></div>
+<div class="hidden" id="development-environment-11.12.4_end"></div><div class="hidden" id="development-environment-11.12.3_start"></div>
 
 <h2 id="development_environment_11.12.3">Development Environment 11.12.3</h2>
 <div class="info">
@@ -210,7 +210,7 @@ Inspired by <a href="https://www.outsystems.com/ideas/5205/allow-hyphen-in-url-p
 <ul>
 <li>Fixed a crash on aggregate when an entity attribute used in a group by year column is deleted. (RMAC-8113)</li>
 </ul>
-<div class=hidden id= development-environment-11.12.3_end></div><div class=hidden id= development-environment-11.12.2_start></div>
+<div class="hidden" id="development-environment-11.12.3_end"></div><div class="hidden" id="development-environment-11.12.2_start"></div>
 
 <h2 id="development_environment_11.12.2">Development Environment 11.12.2</h2>
 <div class="info">
@@ -219,7 +219,7 @@ Inspired by <a href="https://www.outsystems.com/ideas/5205/allow-hyphen-in-url-p
 <ul>
 <li>It's now easier to use data from your System of Records in your apps. In the "Logic" tab, open the context menu for "Integration with external systems" and select "New integration". (RIMPT-742)</li>
 </ul>
-<div class=hidden id= development-environment-11.12.2_end></div><div class=hidden id= development-environment-11.12.1_start></div>
+<div class="hidden" id="development-environment-11.12.2_end"></div><div class="hidden" id="development-environment-11.12.1_start"></div>
 
 <h2 id="development_environment_11.12.1">Development Environment 11.12.1</h2>
 <div class="info">
@@ -232,7 +232,7 @@ Inspired by <a href="https://www.outsystems.com/ideas/5205/allow-hyphen-in-url-p
 <ul>
 <li>Fixed an issue that, under certain conditions, kept the last SOAP expose item visible in the tree after being deleted, causing a crash if another deletion try occurred. (RMAC-7876)</li>
 </ul>
-<div class=hidden id= development-environment-11.12.1_end></div><div class=hidden id= development-environment-11.12.0_start></div>
+<div class="hidden" id="development-environment-11.12.1_end"></div><div class="hidden" id="development-environment-11.12.0_start"></div>
 
 <h2 id="development_environment_11.12.0">Development Environment 11.12.0</h2>
 <div class="info">
@@ -241,13 +241,13 @@ Inspired by <a href="https://www.outsystems.com/ideas/5205/allow-hyphen-in-url-p
 <ul>
 <li>You can now use expressions to set titles of Screens. This lets you change the page title dynamically, and set unique values that show in the browser tabs, bookmarks, and results from the search engines. When using this feature, it is recomended that all developers in the same organization update Service Studio. (RTAFB-5082)</li>
 </ul>
-<div class=hidden id= development-environment-11.12.0_end></div><div class=hidden id= development-environment-11.11.15_start></div>
+<div class="hidden" id="development-environment-11.12.0_end"></div><div class="hidden" id="development-environment-11.11.15_start"></div>
 
 <h2 id="development_environment_11.11.15">Development Environment 11.11.15</h2>
 <div class="info">
 <p>Released on Sep 06, 2021</p></div>
 <p>This release of Service Studio focuses on internal improvements ― this will help our team improve Service Studio faster. Your work shouldn't be impacted by these changes.</p>
-<div class=hidden id= development-environment-11.11.15_end></div><div class=hidden id= development-environment-11.11.14_start></div>
+<div class="hidden" id="development-environment-11.11.15_end"></div><div class="hidden" id="development-environment-11.11.14_start"></div>
 
 <h2 id="development_environment_11.11.14">Development Environment 11.11.14</h2>
 <div class="info">
@@ -264,7 +264,7 @@ Inspired by <a href="https://www.outsystems.com/ideas/5205/allow-hyphen-in-url-p
 <li>Fixed a bug when consuming a WSDL with an xsd:element and a xsd:complexType with the same name. (RPM-1337)</li>
 <li>Fixed a bug that was removing translations when the dynamic page titles were on. (RTAFB-4999</li>
 </ul>
-<div class=hidden id= development-environment-11.11.14_end></div><div class=hidden id= development-environment-11.11.13_start></div>
+<div class="hidden" id="development-environment-11.11.14_end"></div><div class="hidden" id="development-environment-11.11.13_start"></div>
 
 <h2 id="development_environment_11.11.13">Development Environment 11.11.13</h2>
 <div class="info">
@@ -279,7 +279,7 @@ Inspired by <a href="https://www.outsystems.com/ideas/5205/allow-hyphen-in-url-p
 <ul>
 <li>Fixed template cache concurrent access issue. (RIMPT-539)</li>
 </ul>
-<div class=hidden id= development-environment-11.11.13_end></div><div class=hidden id= development-environment-11.11.12_start></div>
+<div class="hidden" id="development-environment-11.11.13_end"></div><div class="hidden" id="development-environment-11.11.12_start"></div>
 
 <h2 id="development_environment_11.11.12">Development Environment 11.11.12</h2>
 <div class="info">
@@ -294,7 +294,7 @@ Inspired by <a href="https://www.outsystems.com/ideas/5205/allow-hyphen-in-url-p
 <li>Avoid crash when DoubleClick aggregate filter. (RMAC-7408)</li>
 <li>Fix module freeze when trying to navigate from a warning message. (RMAC-7390)</li>
 </ul>
-<div class=hidden id= development-environment-11.11.12_end></div><div class=hidden id= development-environment-11.11.11_start></div>
+<div class="hidden" id="development-environment-11.11.12_end"></div><div class="hidden" id="development-environment-11.11.11_start"></div>
 
 <h2 id="development_environment_11.11.11">Development Environment 11.11.11</h2>
 <div class="info">
@@ -303,7 +303,7 @@ Inspired by <a href="https://www.outsystems.com/ideas/5205/allow-hyphen-in-url-p
 <ul>
 <li>Quick fix to make sure the entire text shows up on the node that have the letter Y or W to start or finish. (RMAC-7158)</li>
 </ul>
-<div class=hidden id= development-environment-11.11.11_end></div><div class=hidden id= development-environment-11.11.10_start></div>
+<div class="hidden" id="development-environment-11.11.11_end"></div><div class="hidden" id="development-environment-11.11.10_start"></div>
 
 <h2 id="development_environment_11.11.10">Development Environment 11.11.10</h2>
 <div class="info">
@@ -312,7 +312,7 @@ Inspired by <a href="https://www.outsystems.com/ideas/5205/allow-hyphen-in-url-p
 <ul>
 <li>Fixed the "Open in Browser" command so it opens page with a custom URL when the technical preview "SEO-friendly URLs for Reactive Web Apps" is on. (RTAF-4497)</li>
 </ul>
-<div class=hidden id= development-environment-11.11.10_end></div><div class=hidden id= development-environment-11.11.9_start></div>
+<div class="hidden" id="development-environment-11.11.10_end"></div><div class="hidden" id="development-environment-11.11.9_start"></div>
 
 <h2 id="development_environment_11.11.9">Development Environment 11.11.9</h2>
 <div class="info"><p>Released on Jul 19, 2021</p></div>
@@ -321,7 +321,7 @@ Inspired by <a href="https://www.outsystems.com/ideas/5205/allow-hyphen-in-url-p
 <li>Fixed an issue on Aggregates that prevented the "Show hidden attributes" label from appearing. (RMAC-6458)</li>
 <li>Fix issue that caused SS to crash when opening under certain conditions (RMAC-7104)</li>
 </ul>
-<div class=hidden id= development-environment-11.11.9_end></div><div class=hidden id= development-environment-11.11.8_start></div>
+<div class="hidden" id="development-environment-11.11.9_end"></div><div class="hidden" id="development-environment-11.11.8_start"></div>
 
 <h2 id="development_environment_11.11.8">Development Environment 11.11.8</h2>
 <div class="info">Released on Jul 12, 2021</div>
@@ -335,7 +335,7 @@ Inspired by <a href="https://www.outsystems.com/ideas/5205/allow-hyphen-in-url-p
 <li>Fixed an issue that caused wrong colors in text cells while hovering a table column in an aggregate. (RDEV-3367)</li>
 <li>Fixed an issue that prevented SQL nodes to be opened when the SQL query was empty. (RRCT-3804)</li>
 </ul>
-<div class=hidden id= development-environment-11.11.8_end></div><div class=hidden id= development-environment-11.11.7_start></div>
+<div class="hidden" id="development-environment-11.11.8_end"></div><div class="hidden" id="development-environment-11.11.7_start"></div>
 
 <h2 id="development_environment_11.11.7">Development Environment 11.11.7</h2>
 <div class="info">
@@ -354,7 +354,7 @@ Released on Jul 05, 2021</div>
 <h3 id="more_details_11.11.7">More details</h3>
 <strong>RPM-689</strong><br/><b>Fixed a security vulnerability. CVSSv3.1 score 8.5 (High).</b><br/><br/><br/><u>Fix Details:</u><br/>Service Studio and Integration Studio weren't properly validating the TLS connections. It was possible to perform a MITM attack using a self-signed certificate after the initial connection is established without the developer noticing. This vulnerability was classified as High with a risk score of 8.5. Check more details about the vulnerability in <a href="https://success.outsystems.com/Support/Security/Vulnerabilities/Vulnerability_RPM-689" target="_blank" rel="noopener noreferrer">this security bulletin</a>.
 
-<div class=hidden id= development-environment-11.11.7_end></div><div class=hidden id= development-environment-11.11.6_start></div>
+<div class="hidden" id="development-environment-11.11.7_end"></div><div class="hidden" id="development-environment-11.11.6_start"></div>
 
 <h2 id="development_environment_11.11.6">Development Environment 11.11.6</h2>
 <div class="info">
@@ -372,7 +372,7 @@ Released on Jun 28, 2021
 <li>Fix a bug that was preventing showing all the Native Platform tab when connected to a Platform Server with version below 11.8.* (RMAC-6791)</li>
 <li>Fixed a bug on Service Studio REST Consume of methods using 'application/x-www-form-urlencoded'. (RPM-531)</li>
 </ul>
-<div class=hidden id= development-environment-11.11.6_end></div><div class=hidden id= development-environment-11.11.5_start></div>
+<div class="hidden" id="development-environment-11.11.6_end"></div><div class="hidden" id="development-environment-11.11.5_start"></div>
 
 <h2 id="development_environment_11.11.5">Development Environment 11.11.5</h2>
 <div class="info">
@@ -389,7 +389,7 @@ Released on Jun 22, 2021</div>
 <li>Fixed an issue that mislead the user applying bold, italic and underline format on Text interface element when using the keys combination ctrl+b, ctrl+i, ctrl+u, command+b, command+i, command+u are pressed. (RMAC-6727)</li>
 <li>Fix an issue that caused a broken display of preview data in Aggregates when showing previously hidden attributes and using groups (RMAC-6731)</li>
 </ul>
-<div class=hidden id= development-environment-11.11.5_end></div><div class=hidden id= development-environment-11.11.4_start></div>
+<div class="hidden" id="development-environment-11.11.5_end"></div><div class="hidden" id="development-environment-11.11.4_start"></div>
 
 <h2 id="development_environment_11.11.4">Development Environment 11.11.4</h2>
 <div class="info">Released on Jun 14, 2021</div>
@@ -406,7 +406,7 @@ Released on Jun 22, 2021</div>
 <li>Fixed an issue that sometimes caused an error in a hidden property and, when the user tried to navigate to the error, Service Studio would crash. (RMAC-6526)</li>
 <li>Improve the reuse of existing Google Chrome windows when starting a debugging session on Reactive and Mobile applications (RTAF-4713)</li>
 </ul>
-<div class=hidden id= development-environment-11.11.4_end></div><div class=hidden id= development-environment-11.11.3_start></div>
+<div class="hidden" id="development-environment-11.11.4_end"></div><div class="hidden" id="development-environment-11.11.3_start"></div>
 
 <h2 id="development_environment_11.11.3">Development Environment 11.11.3</h2>
 <div class="info">
@@ -431,7 +431,7 @@ Released on Jun 07, 2021
 <li>Referenced screens can no longer be assigned to the Default or Splash Screen properties of the Module. This unsupported scenario was possible and lead to compilation crashes. (RPM-1135)</li>
 <li>Fixed a crash on merge operation that was caused by duplicated keys when objects changed their parent under some circumstances. (RPM-377)</li>
 </ul>
-<div class=hidden id= development-environment-11.11.3_end></div><div class=hidden id= development-environment-11.11.2_start></div>
+<div class="hidden" id="development-environment-11.11.3_end"></div><div class="hidden" id="development-environment-11.11.2_start"></div>
 
 <h2 id="development_environment_11.11.2">Development Environment 11.11.2</h2>
 <div class="info">
@@ -447,7 +447,7 @@ Released on May 31, 2021</div>
 <li>Fixed an issue that caused the Upload icon to don't appear while Editing Data in Aggregates. (RDEV-2795)</li>
 <li>Increased the size of the radio button on ServiceStudio (RMAC-3312)</li>
 </ul>
-<div class=hidden id= development-environment-11.11.2_end></div><div class=hidden id= development-environment-11.11.0_start></div>
+<div class="hidden" id="development-environment-11.11.2_end"></div><div class="hidden" id="development-environment-11.11.0_start"></div>
 
 <h2 id="development_environment_11.11.0">Development Environment 11.11.0</h2>
 <div class="info">
@@ -468,7 +468,7 @@ Released on May 25, 2021</div>
 <li>Fixed an issue that showed invalid options of join types on client side Aggregates. (RMAC-6474)</li>
 <li>Updated the debugger pane to change at what size the of the horizontal scrollbar should appear. (RMAC-5967)</li>
 </ul>
-<div class=hidden id= development-environment-11.11.0_end></div><div class=hidden id= development-environment-11.10.22_start></div>
+<div class="hidden" id="development-environment-11.11.0_end"></div><div class="hidden" id="development-environment-11.10.22_start"></div>
 
 <h2 id="development_environment_11.10.22">Development Environment 11.10.22</h2>
 <div class="info">
@@ -491,7 +491,7 @@ Released on May 10, 2021</div>
 <li>Fixed issue regarding the empty aggregate image size. (RMAC-6027)</li>
 <li>Fix issue on aggregates where empty cells were incorrectly shown after unhide of attributes (RMAC-6409)</li>
 </ul>
-<div class=hidden id= development-environment-11.10.22_end></div><div class=hidden id= development-environment-11.10.20_start></div>
+<div class="hidden" id="development-environment-11.10.22_end"></div><div class="hidden" id="development-environment-11.10.20_start"></div>
 
 <h2 id="development_environment_11.10.20">Development Environment 11.10.20</h2>
 <div class="info">
@@ -503,7 +503,7 @@ Released on Apr 26, 2021</div>
 <li>Fix aggregates auto-refresh option disabled not tacking effect.</li>
 <li>Fix reorder of columns while requesting preview data to the server (RMAC-5895)</li>
 </ul>
-<div class=hidden id= development-environment-11.10.20_end></div><div class=hidden id= development-environment-11.10.19_start></div>
+<div class="hidden" id="development-environment-11.10.20_end"></div><div class="hidden" id="development-environment-11.10.19_start"></div>
 
 <h2 id="development_environment_11.10.19">Development Environment 11.10.19</h2>
 <div class="info">
@@ -518,7 +518,7 @@ Released on Apr 19, 2021</div>
 <li>Fixed issues regarding the scroll and width adjustments in Aggregates. (RMAC-6010)</li>
 <li>Fixed an issue that prevents the user to read the full Entities' name in Aggregates' joins (RMAC-6021)</li>
 </ul>
-<div class=hidden id= development-environment-11.10.19_end></div><div class=hidden id= development-environment-11.10.18_start></div>
+<div class="hidden" id="development-environment-11.10.19_end"></div><div class="hidden" id="development-environment-11.10.18_start"></div>
 
 <h2 id="development_environment_11.10.18">Development Environment 11.10.18</h2>
 <div class="info">
@@ -547,7 +547,7 @@ Released on Apr 12, 2021</div>
 <b>Workaround</b>: Before opening this version of Service Studio 11, please backup the settings files located in (C:\Users\{user}\AppData\Local\OutSystems\ServiceStudio 11.0\Settings.xml).
 </li>
 </ul>
-<div class=hidden id= development-environment-11.10.18_end></div><div class=hidden id= development-environment-11.10.17_start></div>
+<div class="hidden" id="development-environment-11.10.18_end"></div><div class="hidden" id="development-environment-11.10.17_start"></div>
 
 <h2 id="development_environment_11.10.17">Development Environment 11.10.17</h2>
 <div class="info">
@@ -558,7 +558,7 @@ Released on Apr 07, 2021</div>
 <li>Fixed Service Studio not connecting to a device when starting a Debug Session using the Android option (RPM-961)</li>
 <li>Fixed an intermittent crash that can occur when dragging and dropping widgets onto a form. (RTAF-4293)</li>
 </ul>
-<div class=hidden id= development-environment-11.10.17_end></div><div class=hidden id= development-environment-11.10.16_start></div>
+<div class="hidden" id="development-environment-11.10.17_end"></div><div class="hidden" id="development-environment-11.10.16_start"></div>
 
 <h2 id="development_environment_11.10.16">Development Environment 11.10.16</h2>
 <div class="info">
@@ -572,7 +572,7 @@ Released on Mar 29, 2021</div>
 <li>We updated the Aggregates look &amp; feel — it is now cleaner and more modern-looking, consistent with the rest of the Service Studio interface. (RDEV-2963)</li>
 <li>Now, when running the tutorial, Service Studio does not delete previous tutorial applications. (RIMPT-122)</li>
 </ul>
-<div class=hidden id= development-environment-11.10.16_end></div><div class=hidden id= development-environment-11.10.15_start></div>
+<div class="hidden" id="development-environment-11.10.16_end"></div><div class="hidden" id="development-environment-11.10.15_start"></div>
 
 <h2 id="development_environment_11.10.15">Development Environment 11.10.15</h2>
 <div class="info">
@@ -582,7 +582,7 @@ Released on Mar 22, 2021</div>
 <ul>
 <li>Fixed a bug in Service Studio while using Graphic Hardware Acceleration and that caused render and usability issues. This issue could prevent you from entering your credentials in the "Sign in" dialog. (RICT-3169)</li>
 </ul>
-<div class=hidden id= development-environment-11.10.15_end></div><div class=hidden id= development-environment-11.10.14_start></div>
+<div class="hidden" id="development-environment-11.10.15_end"></div><div class="hidden" id="development-environment-11.10.14_start"></div>
 
 <h2 id="development_environment_11.10.14">Development Environment 11.10.14</h2>
 <div class="info">
@@ -603,7 +603,7 @@ Released on Mar 15, 2021</div>
 <li>Fixed a bug in Service Studio while using Graphic Hardware Acceleration and that caused render and usability issues. This issue could prevent you from entering your credentials in the "Sign in" dialog. (RICT-3169)</li>
 <li>Fixed a security vulnerability. CVSSv3.1 score 8.8 (High). (RPST-1330)</li>
 </ul>
-<div class=hidden id= development-environment-11.10.14_end></div><div class=hidden id= development-environment-11.10.13_start></div>
+<div class="hidden" id="development-environment-11.10.14_end"></div><div class="hidden" id="development-environment-11.10.13_start"></div>
 
 <h2 id="development_environment_11.10.13">Development Environment 11.10.13</h2>
 <div class="info">
@@ -614,7 +614,7 @@ Released on Mar 08, 2021</div>
 <li>Fixed an issue that caused a compile error when assigning a Boolean to a long integer.  Boolean values will now be implicitly converted to long integers. (RTAF-4173)</li>
 <li>Fixed an issue in Service Studio that was causing window misalignment when opening Submit Feedback window (RICT-3103)</li>
 </ul>
-<div class=hidden id= development-environment-11.10.13_end></div><div class=hidden id= development-environment-11.10.12_start></div>
+<div class="hidden" id="development-environment-11.10.13_end"></div><div class="hidden" id="development-environment-11.10.12_start"></div>
 
 <h2 id="development_environment_11.10.12">Development Environment 11.10.12</h2>
 <div class="info">
@@ -632,7 +632,7 @@ Released on Mar 01, 2021</div>
 <li>Fixed an issue that caused screen template categories to appear at the bottom edge of the New Screen dialog when the list is too long to fit within the available space.  Added a scroll bar so that the entire list can be viewed and displayed properly. (RTAF-3971)</li>
 <li>Fixed an issue where an application could get stuck on shutdown or reload operations waiting for RabbitMQ requests. (RRCT-3467)</li>
 </ul>
-<div class=hidden id= development-environment-11.10.12_end></div><div class=hidden id= development-environment-11.10.11_start></div>
+<div class="hidden" id="development-environment-11.10.12_end"></div><div class="hidden" id="development-environment-11.10.11_start"></div>
 
 <h2 id="development_environment_11.10.11">Development Environment 11.10.11</h2>
 <div class="info">
@@ -641,7 +641,7 @@ Released on Feb 22, 2021</div>
 
 This release of Service Studio focuses on internal improvements ― this will help our team improve Service Studio faster. Your work shouldn't be impacted by these changes. 
 
-<div class=hidden id= development-environment-11.10.11_end></div><div class=hidden id= development-environment-11.10.10_start></div>
+<div class="hidden" id="development-environment-11.10.11_end"></div><div class="hidden" id="development-environment-11.10.10_start"></div>
 
 <h2 id="development_environment_11.10.10">Development Environment 11.10.10</h2>
 <div class="info">
@@ -658,7 +658,7 @@ Released on Feb 15, 2021</div>
 <li>Fixed an issue that caused Service Studio popups to appear in an incorrect position when using more than one screen. (RICT-3069)</li>
 <li>Service Studio no longer crashes when you work with Blocks hidden by the "Show true / false branch only" option of an If widget. (RTAF-4154)</li>
 </ul>
-<div class=hidden id= development-environment-11.10.10_end></div><div class=hidden id= development-environment-11.10.9_start></div>
+<div class="hidden" id="development-environment-11.10.10_end"></div><div class="hidden" id="development-environment-11.10.9_start"></div>
 
 <h2 id="development_environment_11.10.9">Development Environment 11.10.9</h2>
 <div class="info">
@@ -669,7 +669,7 @@ Released on Feb 08, 2021</div>
 <li>Fixed an issue that caused Service Studio to present a wrong display name while dragging Exceptions to a Flow. (RDEV-2713)</li>
 <li>Fixed an issue displaying text with quotes and hashes on Aggregates and View Data. (RIMPT-3)</li>
 </ul>
-<div class=hidden id= development-environment-11.10.9_end></div><div class=hidden id= development-environment-11.10.8_start></div>
+<div class="hidden" id="development-environment-11.10.9_end"></div><div class="hidden" id="development-environment-11.10.8_start"></div>
 
 <h2 id="development_environment_11.10.8">Development Environment 11.10.8</h2>
 <div class="info">
@@ -678,7 +678,7 @@ Released on Feb 01, 2021</div>
 
 This release of Service Studio focuses on internal improvements ― this will help our team improve Service Studio faster. Your work shouldn't be impacted by these changes. 
 
-<div class=hidden id= development-environment-11.10.8_end></div><div class=hidden id= development-environment-11.10.7_start></div>
+<div class="hidden" id="development-environment-11.10.8_end"></div><div class="hidden" id="development-environment-11.10.7_start"></div>
 
 <h2 id="development_environment_11.10.7">Development Environment 11.10.7</h2>
 <div class="info">
@@ -687,7 +687,7 @@ Released on Jan 25, 2021</div>
 
 This release of Service Studio focuses on internal improvements ― this will help our team improve Service Studio faster. Your work shouldn't be impacted by these changes. 
 
-<div class=hidden id= development-environment-11.10.7_end></div><div class=hidden id= development-environment-11.10.6_start></div>
+<div class="hidden" id="development-environment-11.10.7_end"></div><div class="hidden" id="development-environment-11.10.6_start"></div>
 
 <h2 id="development_environment_11.10.6">Development Environment 11.10.6</h2>
 <div class="info">
@@ -697,7 +697,7 @@ Released on Jan 18, 2021</div>
 <ul>
 <li>Fixed an issue where the debugger didn't work for Client Actions with Android devices. (RPM-664)</li>
 </ul>
-<div class=hidden id= development-environment-11.10.6_end></div><div class=hidden id= development-environment-11.10.5_start></div>
+<div class="hidden" id="development-environment-11.10.6_end"></div><div class="hidden" id="development-environment-11.10.5_start"></div>
 
 <h2 id="development_environment_11.10.5">Development Environment 11.10.5</h2>
 <div class="info">
@@ -711,7 +711,7 @@ Released on Jan 11, 2021</div>
 <ul>
 <li>Fixed a crash when consuming a WSDL with a choice that contains a reference to a previously declared group. (RBIT-121)</li>
 </ul>
-<div class=hidden id= development-environment-11.10.5_end></div><div class=hidden id= development-environment-11.10.4_start></div>
+<div class="hidden" id="development-environment-11.10.5_end"></div><div class="hidden" id="development-environment-11.10.4_start"></div>
 
 <h2 id="development_environment_11.10.4">Development Environment 11.10.4</h2>
 <div class="info">
@@ -721,7 +721,7 @@ Released on Dec 28, 2020</div>
 <ul>
 <li>Now you can give an alias to your environments to help you identify them in the Login dialog. You can also delete the ones you don't use. Inspired by <a href="https://www.outsystems.com/ideas/3433/manage-saved-environments-option-to-clear-environment-details-from-drop-down-an" target="_blank" rel="noopener noreferrer">Suraj Borade's idea</a>. (RDEV-2509)</li>
 </ul>
-<div class=hidden id= development-environment-11.10.4_end></div><div class=hidden id= development-environment-11.10.3_start></div>
+<div class="hidden" id="development-environment-11.10.4_end"></div><div class="hidden" id="development-environment-11.10.3_start"></div>
 
 <h2 id="development_environment_11.10.3">Development Environment 11.10.3</h2>
 <div class="info">
@@ -732,7 +732,7 @@ Released on Dec 21, 2020</div>
 <li>Fixed an issue that caused Service Studio to take several seconds to load an OML when contain screens with thousand of nodes. (RICT-2920)</li>
 <li>Fixed a compilation error by adding the missing validations for updated Trigger Event nodes, for example when you copy and paste a Trigger Event between Blocks. Now Service Studio timely warns you about invalid expressions and prevents you from trying to run 1-Click Publish. (RTAF-3793)</li>
 </ul>
-<div class=hidden id= development-environment-11.10.3_end></div><div class=hidden id= development-environment-11.10.2_start></div>
+<div class="hidden" id="development-environment-11.10.3_end"></div><div class="hidden" id="development-environment-11.10.2_start"></div>
 
 <h2 id="development_environment_11.10.2">Development Environment 11.10.2</h2>
 <div class="info">
@@ -747,7 +747,7 @@ Released on Dec 15, 2020</div>
 <ul>
 <li>Added the option to view a producer Entity details in a consumer module. (RDEV-2495)</li>
 </ul>
-<div class=hidden id= development-environment-11.10.2_end></div><div class=hidden id= development-environment-11.10.1_start></div>
+<div class="hidden" id="development-environment-11.10.2_end"></div><div class="hidden" id="development-environment-11.10.1_start"></div>
 
 <h2 id="development_environment_11.10.1">Development Environment 11.10.1</h2>
 <div class="info">
@@ -760,7 +760,7 @@ Released on Dec 07, 2020</div>
 <li>Fixed a null reference exception when importing/exporting translations. (RTAF-3766)</li>
 <li>We updated ADB to version 30.0.5, to improve debugging native apps in Service Studio and fix the "No Data to read" error. (RTAF-3733)</li>
 </ul>
-<div class=hidden id= development-environment-11.10.1_end></div><div class=hidden id= development-environment-11.10.0_start></div>
+<div class="hidden" id="development-environment-11.10.1_end"></div><div class="hidden" id="development-environment-11.10.0_start"></div>
 
 <h2 id="development_environment_11.10.0">Development Environment 11.10.0</h2>
 <div class="info">
@@ -772,7 +772,7 @@ Released on Nov 30, 2020</div>
 <li>Fixed an issue where the commands to Import/Export Language resources where not available in the module menu for Reactive and Mobile Apps with the Multilingual technical preview feature enabled. (RTAF-3373)</li>
 <li>Fixed an issue that caused Service Studio to crash when dropping an Entity into an If widget. (RTAF-3435)</li>
 </ul>
-<div class=hidden id= development-environment-11.10.0_end></div><div class=hidden id= development-environment-11.9.2_start></div>
+<div class="hidden" id="development-environment-11.10.0_end"></div><div class="hidden" id="development-environment-11.9.2_start"></div>
 
 <h2 id="development_environment_11.9.2">Development Environment 11.9.2</h2>
 <div class="info">
@@ -788,7 +788,7 @@ Released on Nov 24, 2020</div>
 <li>Fixed an issue that caused Service Studio to crash when opening a Web Block. (RICT-2881)</li>
 <li>Fixed a crash while opening a Screen using a Web Block. (RICT-2884)</li>
 </ul>
-<div class=hidden id= development-environment-11.9.2_end></div><div class=hidden id= development-environment-11.9.0_start></div>
+<div class="hidden" id="development-environment-11.9.2_end"></div><div class="hidden" id="development-environment-11.9.0_start"></div>
 
 <h2 id="development_environment_11.9.0">Development Environment 11.9.0</h2>
 <div class="info">
@@ -805,7 +805,7 @@ Released on Nov 09, 2020</div>
 <ul>
 <li>Addressed a discrepancy in the documented behavior of ExcelToRecordList when the SheetName parameter is left empty. Now it correctly indicates that the method will attempt to import a sheet called "Sheet1" and only if that is not available will it import the first sheet of the document. (RDEV-2311)</li>
 </ul>
-<div class=hidden id= development-environment-11.9.0_end></div><div class=hidden id= development-environment-11.9.1_start></div>
+<div class="hidden" id="development-environment-11.9.0_end"></div><div class="hidden" id="development-environment-11.9.1_start"></div>
 
 <h2 id="development_environment_11.9.1">Development Environment 11.9.1</h2>
 <div class="info">Released on Nov 16, 2020</div>
@@ -818,8 +818,8 @@ Released on Nov 09, 2020</div>
 <li>Fixed an issue that caused a crash in 'Search in other Modules' after selecting 'Open' to open an element in the producer module. (RDEV-2148)</li>
 <li>Fixed a security vulnerability. CVSSv3.1 score 8.2 (High). (RICT-2855)</li>
 </ul>
-<div class=hidden id= development-environment-11.9.1_end></div><div class=hidden id= development-environment-11.8.14_start></div>
-<div class=hidden id= development-environment-11.8.14_end></div><div class=hidden id= development-environment-11.8.13_start></div>
+<div class="hidden" id="development-environment-11.9.1_end"></div><div class="hidden" id="development-environment-11.8.14_start"></div>
+<div class="hidden" id="development-environment-11.8.14_end"></div><div class="hidden" id="development-environment-11.8.13_start"></div>
 
 <h2 id="development_environment_11.8.13">Development Environment 11.8.13</h2>
 <div class="info">
@@ -836,7 +836,7 @@ Released on Nov 02, 2020</div>
 <li>We fixed pasting logic with lists of structures from client to server. Now the pasted logic works correctly on the server side. (RTAF-3582)</li>
 <li>Fixed a security vulnerability. CVSSv3.1 score 7.9 (High). (RICT-2849)</li>
 </ul>
-<div class=hidden id= development-environment-11.8.13_end></div><div class=hidden id= development-environment-11.8.12_start></div>
+<div class="hidden" id="development-environment-11.8.13_end"></div><div class="hidden" id="development-environment-11.8.12_start"></div>
 
 <h2 id="development_environment_11.8.12">Development Environment 11.8.12</h2>
 <div class="info">
@@ -852,7 +852,7 @@ Released on Oct 26, 2020</div>
 <li>Improve loading time of items picker dialog. (RMAC-4168)</li>
 <li>We added support for debugging sessions on devices running iOS version 14. Now the debugging sessions in Service Studio work correctly. (RPM-444)</li>
 </ul>
-<div class=hidden id= development-environment-11.8.12_end></div><div class=hidden id= development-environment-11.8.11_start></div>
+<div class="hidden" id="development-environment-11.8.12_end"></div><div class="hidden" id="development-environment-11.8.11_start"></div>
 
 <h2 id="development_environment_11.8.11">Development Environment 11.8.11</h2>
 <div class="info">
@@ -861,7 +861,7 @@ Released on Oct 19, 2020</div>
 
 This release of Service Studio focuses on internal improvements ― this will help our team improve Service Studio faster. Your work shouldn't be impacted by these changes. 
 
-<div class=hidden id= development-environment-11.8.11_end></div><div class=hidden id= development-environment-11.8.10_start></div>
+<div class="hidden" id="development-environment-11.8.11_end"></div><div class="hidden" id="development-environment-11.8.10_start"></div>
 
 <h2 id="development_environment_11.8.10">Development Environment 11.8.10</h2>
 <div class="info">
@@ -871,7 +871,7 @@ Released on Oct 13, 2020</div>
 <ul>
 <li>Fixed a bug that caused Service Center to incorrectly count Internal and External Users from disabled User Providers as active users. (RIDT-95)</li>
 </ul>
-<div class=hidden id= development-environment-11.8.10_end></div><div class=hidden id= development-environment-11.8.9_start></div>
+<div class="hidden" id="development-environment-11.8.10_end"></div><div class="hidden" id="development-environment-11.8.9_start"></div>
 
 <h2 id="development_environment_11.8.9">Development Environment 11.8.9</h2>
 <div class="info">
@@ -894,7 +894,7 @@ Released on Oct 06, 2020</div>
 <li>Fixed the "error creating tenant view" database errors when publishing multitenant apps that have local entities. (RTAF-3317)</li>
 <li>Fixed bug where Internal and External Users count was considering disabled User Providers. (RIDT-95)</li>
 </ul>
-<div class=hidden id= development-environment-11.8.9_end></div><div class=hidden id= development-environment-11.8.8_start></div>
+<div class="hidden" id="development-environment-11.8.9_end"></div><div class="hidden" id="development-environment-11.8.8_start"></div>
 
 <h2 id="development_environment_11.8.8">Development Environment 11.8.8</h2>
 <div class="info">
@@ -914,7 +914,7 @@ Released on Sep 23, 2020</div>
 <li>Fixed the "error creating tenant view" database errors when publishing multitenant apps that have local entities. (RTAF-3317)</li>
 <li>Fixed bug where Internal and External Users count was considering disabled User Providers. (RIDT-95)</li>
 </ul>
-<div class=hidden id= development-environment-11.8.8_end></div><div class=hidden id= development-environment-11.8.7_start></div>
+<div class="hidden" id="development-environment-11.8.8_end"></div><div class="hidden" id="development-environment-11.8.7_start"></div>
 
 <h2 id="development_environment_11.8.7">Development Environment 11.8.7</h2>
 <div class="info">
@@ -936,7 +936,7 @@ Released on Sep 07, 2020</div>
 <li>Fixed crash when consuming extensive swagger file that caused Service Studio to close unexpectedly. (RSBO-1529)</li>
 <li>Fix error installing applications when database catalog configurations are required. (RPST-903)</li>
 </ul>
-<div class=hidden id= development-environment-11.8.7_end></div><div class=hidden id= development-environment-11.8.6_start></div>
+<div class="hidden" id="development-environment-11.8.7_end"></div><div class="hidden" id="development-environment-11.8.6_start"></div>
 
 <h2 id="development_environment_11.8.6">Development Environment 11.8.6</h2>
 <div class="info">
@@ -958,7 +958,7 @@ Released on Aug 24, 2020</div>
 <li>Fixed Expressions linked to the show-default-value attribute in Input widgets to reevaluate correctly after change. (RPD-4850)</li>
 <li>Fix error installing applications when database catalog configurations are required. (RPST-903)</li>
 </ul>
-<div class=hidden id= development-environment-11.8.6_end></div><div class=hidden id= development-environment-11.8.4_start></div>
+<div class="hidden" id="development-environment-11.8.6_end"></div><div class="hidden" id="development-environment-11.8.4_start"></div>
 
 <h2 id="development_environment_11.8.4">Development Environment 11.8.4</h2>
 <div class="info">
@@ -980,7 +980,7 @@ Released on Aug 10, 2020</div>
 <li>Fixed an issue that caused Service Studio to crash while clicking in Manage Environments without being connected to an environment. (RDEV-1925)</li>
 <li>Fixed an issue that prevented Manage Dependencies from focusing on one of the search boxes after opening. (RDEV-1922)</li>
 </ul>
-<div class=hidden id= development-environment-11.8.4_end></div><div class=hidden id= development-environment-11.8.3_start></div>
+<div class="hidden" id="development-environment-11.8.4_end"></div><div class="hidden" id="development-environment-11.8.3_start"></div>
 
 <h2 id="development_environment_11.8.3">Development Environment 11.8.3</h2>
 <div class="info">Released on Aug 03, 2020</div>
@@ -988,7 +988,7 @@ Released on Aug 10, 2020</div>
 <ul>
 <li>Fixed an issue that caused the Give Us Feedback to lose the outer spacing.  (RDEV-1899)</li>
 </ul>
-<div class=hidden id= development-environment-11.8.3_end></div><div class=hidden id= development-environment-11.8.2_start></div>
+<div class="hidden" id="development-environment-11.8.3_end"></div><div class="hidden" id="development-environment-11.8.2_start"></div>
 
 <h2 id="development_environment_11.8.2">Development Environment 11.8.2</h2>
 <div class="info">
@@ -1022,7 +1022,7 @@ Inspired by <a href="https://www.outsystems.com/ideas/6044/" target="_blank" rel
 <li>Fixed an issue that caused Serice Studio to crash while changing a node's description. (RDEV-1871)</li>
 <li>Fixed a crash in Service Studio when refreshing screen templates. (RTAF-3107)</li>
 </ul>
-<div class=hidden id= development-environment-11.8.2_end></div><div class=hidden id= development-environment-11.8.1_start></div>
+<div class="hidden" id="development-environment-11.8.2_end"></div><div class="hidden" id="development-environment-11.8.1_start"></div>
 
 <h2 id="development_environment_11.8.1">Development Environment 11.8.1</h2>
 <div class="info">
@@ -1036,7 +1036,7 @@ Released on Jul 20, 2020</div>
 <ul>
 <li>Fixed a bug that allows users to be created with a repeated username when using the User_CreateOrUpdate API (RLIT-3711)</li>
 </ul>
-<div class=hidden id= development-environment-11.8.1_end></div><div class=hidden id= development-environment-11.7.15_start></div>
+<div class="hidden" id="development-environment-11.8.1_end"></div><div class="hidden" id="development-environment-11.7.15_start"></div>
 
 <h2 id="development_environment_11.7.15">Development Environment 11.7.15</h2>
 <div class="info">
@@ -1050,7 +1050,7 @@ Released on Jul 13, 2020</div>
 <ul>
 <li>Fixed a solution publish error that occurred when compiling outdated dependencies to a structure having new attributes with complex data types. (RSBO-1521)</li>
 </ul>
-<div class=hidden id= development-environment-11.7.15_end></div><div class=hidden id= development-environment-11.7.14_start></div>
+<div class="hidden" id="development-environment-11.7.15_end"></div><div class="hidden" id="development-environment-11.7.14_start"></div>
 
 <h2 id="development_environment_11.7.14">Development Environment 11.7.14</h2>
 <div class="info">
@@ -1060,7 +1060,7 @@ Released on Jul 06, 2020</div>
 <ul>
 <li>In Personal Environments, you can now create a new app based on an existing app curated by OutSystems. (RDEV-1652)</li>
 </ul>
-<div class=hidden id= development-environment-11.7.14_end></div><div class=hidden id= development-environment-11.7.13_start></div>
+<div class="hidden" id="development-environment-11.7.14_end"></div><div class="hidden" id="development-environment-11.7.13_start"></div>
 
 <h2 id="development_environment_11.7.13">Development Environment 11.7.13</h2>
 <div class="info">
@@ -1071,7 +1071,7 @@ Released on Jun 29, 2020</div>
 <li>Fixed a runtime error in generated Android apps when a new version of the app was available. (RPD-5137)</li>
 <li>Fix bug when synchronizing tabs during the merge of aggregates (RMAC-3014)</li>
 </ul>
-<div class=hidden id= development-environment-11.7.13_end></div><div class=hidden id= development-environment-11.7.12_start></div>
+<div class="hidden" id="development-environment-11.7.13_end"></div><div class="hidden" id="development-environment-11.7.12_start"></div>
 
 <h2 id="development_environment_11.7.12">Development Environment 11.7.12</h2>
 <div class="info">
@@ -1088,7 +1088,7 @@ Released on Jun 22, 2020</div>
 <li>Fix error when deleting object with editor dialog open (RMAC-2822)</li>
 <li>We fixed a publishing error by improving the scope of widgets inside Placeholders. You still can reference, from widgets inside Placeholders, the elements that are in Blocks/Screens. However, you can't, from Blocks/Screens/Client Actions, reference the elements that are inside Placeholders. The invalid referencing broke the publishing step and caused a generic "object not found" error. (RTAF-2889)</li>
 </ul>
-<div class=hidden id= development-environment-11.7.12_end></div><div class=hidden id= development-environment-11.7.10_start></div>
+<div class="hidden" id="development-environment-11.7.12_end"></div><div class="hidden" id="development-environment-11.7.10_start"></div>
 
 <h2 id="development_environment_11.7.10">Development Environment 11.7.10</h2>
 <div class="info">
@@ -1108,7 +1108,7 @@ Released on Jun 15, 2020</div>
 <li>Fix error blocking the user in a merge operation (RMAC-2912)</li>
 <li>Fixed the data replacement crash when Entity that was supposed to be replaced had been deleted. (RTAF-2968)</li>
 </ul>
-<div class=hidden id= development-environment-11.7.10_end></div><div class=hidden id= development-environment-11.7.9_start></div>
+<div class="hidden" id="development-environment-11.7.10_end"></div><div class="hidden" id="development-environment-11.7.9_start"></div>
 
 <h2 id="development_environment_11.7.9">Development Environment 11.7.9</h2>
 <div class="info">
@@ -1128,7 +1128,7 @@ Released on Jun 01, 2020</div>
 <li>Fixed "ID" attribute from being placed on the container element instead of element the select on Dropdown widget. (RPD-5019)</li>
 <li>Dropdown with custom property selected now automatically scrolls into selected item (RPD-3459)</li>
 </ul>
-<div class=hidden id= development-environment-11.7.9_end></div><div class=hidden id= development-environment-11.7.8_start></div>
+<div class="hidden" id="development-environment-11.7.9_end"></div><div class="hidden" id="development-environment-11.7.8_start"></div>
 
 <h2 id="development_environment_11.7.8">Development Environment 11.7.8</h2>
 <div class="info">
@@ -1142,7 +1142,7 @@ Released on May 25, 2020</div>
 <li>Fixed an issue that caused Service Studio to crash while deleting an empty Text Widget using the Backspace key. (RTAF-2882)</li>
 <li>Fixed a crash when selecting the entire content of a Text Widget and then dragging it next to itself. (RTAF-2903)</li>
 </ul>
-<div class=hidden id= development-environment-11.7.8_end></div><div class=hidden id= development-environment-11.7.7_start></div>
+<div class="hidden" id="development-environment-11.7.8_end"></div><div class="hidden" id="development-environment-11.7.7_start"></div>
 
 <h2 id="development_environment_11.7.7">Development Environment 11.7.7</h2>
 <div class="info">
@@ -1161,7 +1161,7 @@ Released on May 18, 2020</div>
 <li>Fixed a crash of the IDE when deleting a widget. This was caused by a glitch in the widget preview. (RTAF-2628)</li>
 <li>Fixed a bug that caused the import of SOAP Web Services to fail if the WSDL definition contained HTTP bindings. (RPD-4860)</li>
 </ul>
-<div class=hidden id= development-environment-11.7.7_end></div><div class=hidden id= development-environment-11.7.6_start></div>
+<div class="hidden" id="development-environment-11.7.7_end"></div><div class="hidden" id="development-environment-11.7.6_start"></div>
 
 <h2 id="development_environment_11.7.6">Development Environment 11.7.6</h2>
 <div class="info">
@@ -1183,7 +1183,7 @@ inspired by <a href="https://www.outsystems.com/ideas/2466/" target="_blank" rel
 <li>Fixed debugging mobile apps on an Android device. The bug was caused by issues in a version of the ADB driver. (RTAF-2592)</li>
 <li>Fixed a bug that caused the import of SOAP Web Services to fail if the WSDL definition contained HTTP bindings. (RPD-4860)</li>
 </ul>
-</h><div class=hidden id= development-environment-11.7.6_end></div><div class=hidden id= development-environment-11.7.4_start></div>
+</h><div class="hidden" id="development-environment-11.7.6_end"></div><div class="hidden" id="development-environment-11.7.4_start"></div>
 
 <h2 id="development_environment_11.7.4">Development Environment 11.7.4</h2>
 <div class="info">
@@ -1203,7 +1203,7 @@ inspired by <a href="https://www.outsystems.com/ideas/2466/" target="_blank" rel
 <li>We fixed the names of the Screens and labels of the menus that get created when you drag Entity to a flow. If you have the Task Entity, for example, the menus that are created after the scaffolding are Tasks and Task Detail, and not Task List and Task Detail. (RTAF-2530)</li>
 <li>Fixed a crash of the IDE when deleting a widget. This was caused by a glitch in the widget preview. (RTAF-2628)</li>
 </ul>
-<div class=hidden id= development-environment-11.7.4_end></div><div class=hidden id= development-environment-11.7.3_start></div>
+<div class="hidden" id="development-environment-11.7.4_end"></div><div class="hidden" id="development-environment-11.7.3_start"></div>
 
 <h2 id="development_environment_11.7.3">Development Environment 11.7.3</h2>
 <div class="info">
@@ -1223,7 +1223,7 @@ Released on Apr 20, 2020</div>
 <li>Fixed Service Studio crash when moving a Screen/Block between Flows. (RTAF-2541)</li>
 <li>Fixed a Service Studio crash when publishing or saving a module with a private Block that is used by a referenced public Theme. The bug prevented proper calculation and handling of the references between the Theme and the Block. (RTAF-2552)</li>
 </ul>
-<div class=hidden id= development-environment-11.7.3_end></div><div class=hidden id= development-environment-11.7.2_start></div>
+<div class="hidden" id="development-environment-11.7.3_end"></div><div class="hidden" id="development-environment-11.7.2_start"></div>
 
 <h2 id="development_environment_11.7.2">Development Environment 11.7.2</h2>
 <div class="info">
@@ -1242,7 +1242,7 @@ Released on Apr 13, 2020
 <li>Fixed and improved the AI-assisted suggestions with the boolean values in If nodes. (RAID-548)</li>
 <li>Fixed an issue that caused a reference always being needed to be refreshed in Manage Dependencies. (RICT-2420)</li>
 </ul>
-<div class=hidden id= development-environment-11.7.2_end></div><div class=hidden id= development-environment-11.7.1_start></div>
+<div class="hidden" id="development-environment-11.7.2_end"></div><div class="hidden" id="development-environment-11.7.1_start"></div>
 
 <h2 id="development_environment_11.7.1">Development Environment 11.7.1</h2>
 <div class="info">
@@ -1270,7 +1270,7 @@ Inspired by <a href="https://www.outsystems.com/ideas/7845/" target="_blank" rel
 <li>Fixed a problem where navigation from the OnAfterFetch event handler rendered the current Screen instead of the destination Screen. (RTAFB-2472)</li>
 <li>Fixed a crash after drop an entity over a dropdown. (RUDOF-928)</li>
 </ul>
-<div class=hidden id= development-environment-11.7.1_end></div><div class=hidden id= development-environment-11.6.32_start></div>
+<div class="hidden" id="development-environment-11.7.1_end"></div><div class="hidden" id="development-environment-11.6.32_start"></div>
 
 <h2 id="development_environment_11.6.32">Development Environment 11.6.32</h2>
 <div class="info">
@@ -1294,7 +1294,7 @@ Inspired by <a href="https://www.outsystems.com/ideas/7845/" target="_blank" rel
 <li>Fixed broken icons on some editors (RICT-2405)</li>
 <li>Fixed a security vulnerability. CVSSv3.0 score 9.6 (Critical). (RPC-988)</li>
 </ul>
-<div class=hidden id= development-environment-11.6.32_end></div><div class=hidden id= development-environment-11.6.31_start></div>
+<div class="hidden" id="development-environment-11.6.32_end"></div><div class="hidden" id="development-environment-11.6.31_start"></div>
 
 <h2 id="development_environment_11.6.31">Development Environment 11.6.31</h2>
 <div class="info">
@@ -1314,7 +1314,7 @@ Released on Mar 17, 2020</div>
 <li>We fixed the Screen Template list from loading indefinitely when the list contained a template with a missing field. (RTAF-2451)</li>
 <li>Fixed a security vulnerability. CVSSv3.0 score 9.6 (Critical). (RPC-988) (RPC-988)</li>
 </ul>
-<div class=hidden id= development-environment-11.6.31_end></div><div class=hidden id= development-environment-11.6.30_start></div>
+<div class="hidden" id="development-environment-11.6.31_end"></div><div class="hidden" id="development-environment-11.6.30_start"></div>
 
 <h2 id="development_environment_11.6.30">Development Environment 11.6.30</h2>
 <div class="info">
@@ -1329,7 +1329,7 @@ Released on Mar 09, 2020</div>
 <ul>
 <li>Fixed a compilation error when importing SOAP Web Services containing choices with repeated element names and complex types defined inline. (RSBO-1117)</li>
 </ul>
-<div class=hidden id= development-environment-11.6.30_end></div><div class=hidden id= development-environment-11.6.29_start></div>
+<div class="hidden" id="development-environment-11.6.30_end"></div><div class="hidden" id="development-environment-11.6.29_start"></div>
 
 <h2 id="development_environment_11.6.29">Development Environment 11.6.29</h2>
 <div class="info">
@@ -1347,7 +1347,7 @@ Released on Mar 02, 2020
 <li>Solved an issue that prevented "remember me" Forge login option from working after restarting Service Studio. (RDEV-1360)</li>
 <li>We fix an issue that occurs when someone tries to import a swagger 2.0 definition from a local file and without the schema property defined (RSBO-1180)</li>
 </ul>
-<div class=hidden id= development-environment-11.6.29_end></div><div class=hidden id= development-environment-11.6.27_start></div>
+<div class="hidden" id="development-environment-11.6.29_end"></div><div class="hidden" id="development-environment-11.6.27_start"></div>
 
 <h2 id="development_environment_11.6.27">Development Environment 11.6.27</h2>
 <div class="info">
@@ -1363,7 +1363,7 @@ Released on Feb 26, 2020</div>
 <li>Fixed an issue in input parameters of Service Actions with Decimal data type when the precision is longer than 14 digits. (RSBO-1194)</li>
 <li>Fixed a crash when reordering sorted attributes in Aggregates with Group By's. (RSBO-1041)</li>
 </ul>
-<div class=hidden id= development-environment-11.6.27_end></div><div class=hidden id= development-environment-11.6.26_start></div>
+<div class="hidden" id="development-environment-11.6.27_end"></div><div class="hidden" id="development-environment-11.6.26_start"></div>
 
 <h2 id="development_environment_11.6.26">Development Environment 11.6.26</h2>
 <div class="info">
@@ -1373,7 +1373,7 @@ Released on Feb 10, 2020</div>
 <ul>
 <li>Fixed a crash when trying to enclose multiple Placeholders in a Container. (RTAF-2157)</li>
 </ul>
-<div class=hidden id= development-environment-11.6.26_end></div><div class=hidden id= development-environment-11.6.25_start></div>
+<div class="hidden" id="development-environment-11.6.26_end"></div><div class="hidden" id="development-environment-11.6.25_start"></div>
 
 <h2 id="development_environment_11.6.25">Development Environment 11.6.25</h2>
 <div class="info">
@@ -1391,7 +1391,7 @@ Released on Feb 03, 2020</div>
 <li>Fixed an error that showed when using the Rich Widgets Pop-Up pattern with the List Bulk Select widget, where a link/button triggered a pop-up and had the link/button associated with the List Bulk Select widget. (RTAF-2062)</li>
 <li>Fixed a crash in Service Studio that occurred occasionally when creating attributes in Structures from REST services. (RSBO-1199)</li>
 </ul>
-<div class=hidden id= development-environment-11.6.25_end></div><div class=hidden id= development-environment-11.6.24_start></div>
+<div class="hidden" id="development-environment-11.6.25_end"></div><div class="hidden" id="development-environment-11.6.24_start"></div>
 
 <h2 id="development_environment_11.6.24">Development Environment 11.6.24</h2>
 <div class="info">
@@ -1403,7 +1403,7 @@ Released on Jan 27, 2020</div>
 <li>Fixed OML corruption triggered by the removing a Structure used in a SQL node that is source to a ListBox or ComboBox widget (RSBO-865)</li>
 <li>Now it's no longer possible to drop a Table Widget into smaller widgets such as ButtonGroup. (RTAF-2030)</li>
 </ul>
-<div class=hidden id= development-environment-11.6.24_end></div><div class=hidden id= development-environment-11.6.23_start></div>
+<div class="hidden" id="development-environment-11.6.24_end"></div><div class="hidden" id="development-environment-11.6.23_start"></div>
 
 <h2 id="development_environment_11.6.23">Development Environment 11.6.23</h2>
 <div class="info">
@@ -1420,7 +1420,7 @@ Released on Jan 20, 2020</div>
 <li>Fixed an issue on Input widget for DateTime type preventing from submiting valid DateTimes on iOS. (RPD-2841)</li>
 <li>Fixed a security vulnerability. CVSSv3.0 score 9.8 (Critical). (RPD-4636)</li>
 </ul>
-<div class=hidden id= development-environment-11.6.23_end></div><div class=hidden id= development-environment-11.6.22_start></div>
+<div class="hidden" id="development-environment-11.6.23_end"></div><div class="hidden" id="development-environment-11.6.22_start"></div>
 
 <h2 id="development_environment_11.6.22">Development Environment 11.6.22</h2>
 <div class="info">
@@ -1430,7 +1430,7 @@ Released on Jan 13, 2020</div>
 <ul>
 <li>When you now drop an Entity to a Flow, a link is created in the menu. (RTAF-1937)</li>
 </ul>
-<div class=hidden id= development-environment-11.6.22_end></div><div class=hidden id= development-environment-11.6.21_start></div>
+<div class="hidden" id="development-environment-11.6.22_end"></div><div class="hidden" id="development-environment-11.6.21_start"></div>
 
 <h2 id="development_environment_11.6.21">Development Environment 11.6.21</h2>
 <div class="info">
@@ -1445,7 +1445,7 @@ Released on Jan 06, 2020</div>
 <li>Fixed an issue with the maximum message size quota that prevented Service Studio from opening some applications correctly. (RPD-4679)</li>
 <li>Fixed a security vulnerability. CVSSv3.0 score 9.8 (Critical). (RPD-4618)</li>
 </ul>
-<div class=hidden id= development-environment-11.6.21_end></div><div class=hidden id= development-environment-11.6.18_start></div>
+<div class="hidden" id="development-environment-11.6.21_end"></div><div class="hidden" id="development-environment-11.6.18_start"></div>
 
 <h2 id="development_environment_11.6.18">Development Environment 11.6.18</h2>
 <div class="info">
@@ -1465,7 +1465,7 @@ Released on Dec 30, 2019</div>
 <li>Now it's possible to consume a REST API importing a swagger file with methods with large descriptions.  (RSBO-1139)</li>
 <li>Added support for headers in consumed SOAP Web Services. (RSBO-1040)</li>
 </ul>
-<div class=hidden id= development-environment-11.6.18_end></div><div class=hidden id= development-environment-11.6.17_start></div>
+<div class="hidden" id="development-environment-11.6.18_end"></div><div class="hidden" id="development-environment-11.6.17_start"></div>
 
 <h2 id="development_environment_11.6.17">Development Environment 11.6.17</h2>
 <div class="info">Released on Dec 20, 2019</div>
@@ -1485,7 +1485,7 @@ Released on Dec 30, 2019</div>
 <li>Is now possible in SOAP to have a  simpleContent with an extension element inside. (RPD-4624)</li>
 <li>Fixed a crash that occurred after opening a context menu when multiple assign nodes are selected. (RUDOF-798)</li>
 </ul>
-<div class=hidden id= development-environment-11.6.17_end></div><div class=hidden id= development-environment-11.6.16_start></div>
+<div class="hidden" id="development-environment-11.6.17_end"></div><div class="hidden" id="development-environment-11.6.16_start"></div>
 
 <h2 id="development_environment_11.6.16">Development Environment 11.6.16</h2>
 <div class="info">
@@ -1499,7 +1499,7 @@ Released on Dec 16, 2019</div>
 <ul>
 <li>Fixed an issue when creating an empty screen the inserted name wasn't taken into consideration. (RTAF-1871)</li>
 </ul>
-<div class=hidden id= development-environment-11.6.16_end></div><div class=hidden id= development-environment-11.6.14_start></div>
+<div class="hidden" id="development-environment-11.6.16_end"></div><div class="hidden" id="development-environment-11.6.14_start"></div>
 
 <h2 id="development_environment_11.6.14">Development Environment 11.6.14</h2>
 <div class="info">
@@ -1517,7 +1517,7 @@ Released on Dec 09, 2019</div>
 <li>Fixed an issue that caused Service Studio to crash when showing Styles Editor for Placeholder widgets. (RDEV-1065)</li>
 <li>Deleting a column in a Table Widget now leaves the next available cell selected, and not the entire table. (RTAF-1788)</li>
 </ul>
-<div class=hidden id= development-environment-11.6.14_end></div><div class=hidden id= development-environment-11.6.13_start></div>
+<div class="hidden" id="development-environment-11.6.14_end"></div><div class="hidden" id="development-environment-11.6.13_start"></div>
 
 <h2 id="development_environment_11.6.13">Development Environment 11.6.13</h2>
 <div class="info">
@@ -1546,7 +1546,7 @@ Released on Dec 02, 2019</div>
 <li>Fixed an issue that caused a crash after deleting a Data Action Output parameter of the type List. (RTAF-1754)</li>
 <li>Fixed preview of referenced Expressions without an Example property value. (RTAF-251)</li>
 </ul>
-<div class=hidden id= development-environment-11.6.13_end></div><div class=hidden id= development-environment-11.6.11_start></div>
+<div class="hidden" id="development-environment-11.6.13_end"></div><div class="hidden" id="development-environment-11.6.11_start"></div>
 
 <h2 id="development_environment_11.6.11">Development Environment 11.6.11</h2>
 <div class="info">
@@ -1572,7 +1572,7 @@ Released on Nov 25, 2019</div>
 <li>Service Studio now limits the number of Keyboard Shortcuts dialog windows to one per tab. (RUDOF-704)</li>
 <li>We fixed the scaffolding of forms. Now the scaffolded forms have Checkbox Widgets instead of the Switch Widget for boolean values. This makes the forms work better in modern browsers. (RTAF-1731)</li>
 </ul>
-<div class=hidden id= development-environment-11.6.11_end></div><div class=hidden id= development-environment-11.6.9_start></div>
+<div class="hidden" id="development-environment-11.6.11_end"></div><div class="hidden" id="development-environment-11.6.9_start"></div>
 
 <h2 id="development_environment_11.6.9">Development Environment 11.6.9</h2>
 <div class="info">
@@ -1590,7 +1590,7 @@ Released on Nov 20, 2019</div>
 <li>Fixed a Service Studio crash when referencing Blocks with a placeholder and sample content that contains a Dropdown Widget. (RTAF-1671)</li>
 <li>Fixed an issue that caused a crash while loading Mobile or Reactive Web modules. (RPD-4314)</li>
 </ul>
-<div class=hidden id= development-environment-11.6.9_end></div><div class=hidden id= development-environment-11.6.7_start></div>
+<div class="hidden" id="development-environment-11.6.9_end"></div><div class="hidden" id="development-environment-11.6.7_start"></div>
 
 <h2 id="development_environment_11.6.7">Development Environment 11.6.7</h2>
 <div class="info">
@@ -1607,7 +1607,7 @@ Released on Nov 12, 2019</div>
 <li>Fixed the ".Net Compiler Tool" detection in Integration Studio when using Visual Studio 2019.  In installations with incorrect values, you can click "Reset Defaults" in the Options dialog box to determine the correct values. (RPC-447)</li>
 <li>Fixed compiler error after changing the name of an entity attribute being used in aggregate functions. (RSBO-925)</li>
 </ul>
-<div class=hidden id= development-environment-11.6.7_end></div><div class=hidden id= development-environment-11.6.6_start></div>
+<div class="hidden" id="development-environment-11.6.7_end"></div><div class="hidden" id="development-environment-11.6.6_start"></div>
 
 <h2 id="development_environment_11.6.6">Development Environment 11.6.6</h2>
 <div class="info">
@@ -1626,7 +1626,7 @@ Released on Oct 28, 2019</div>
 <li>Fixed an issue that prevented the creation of a new module when Application Template no longer existed. (RTAF-1073)</li>
 <li>We fixed the help link in the Manage Dependencies dialog. Now the link points to the correct page. (RTAF-1229)</li>
 </ul>
-<div class=hidden id= development-environment-11.6.6_end></div><div class=hidden id= development-environment-11.6.5_start></div>
+<div class="hidden" id="development-environment-11.6.6_end"></div><div class="hidden" id="development-environment-11.6.5_start"></div>
 
 <h2 id="development_environment_11.6.5">Development Environment 11.6.5</h2>
 <div class="info">
@@ -1636,7 +1636,7 @@ This is a preliminary version of the document.</div>
 <ul>
 <li>It's now possible to use Client Variables on Aggregates. (RTAF-1334)</li>
 </ul>
-<div class=hidden id= development-environment-11.6.5_end></div><div class=hidden id= development-environment-11.6.2_start></div>
+<div class="hidden" id="development-environment-11.6.5_end"></div><div class="hidden" id="development-environment-11.6.2_start"></div>
 
 <h2 id="development_environment_11.6.2">Development Environment 11.6.2</h2>
 <div class="info">
@@ -1655,7 +1655,7 @@ Released on Oct 14, 2019</div>
 <li>Fixed Reactive Screen/Block event getting hidden when the handler action was deleted but still assigned. (RTAF-1507)</li>
 <li>Fixed invalid logo images in newly created modules. (RTAF-1498)</li>
 </ul>
-<div class=hidden id= development-environment-11.6.2_end></div><div class=hidden id= development-environment-11.6.1_start></div>
+<div class="hidden" id="development-environment-11.6.2_end"></div><div class="hidden" id="development-environment-11.6.1_start"></div>
 
 <h2 id="development_environment_11.6.1">Development Environment 11.6.1</h2>
 <div class="info">
@@ -1683,7 +1683,7 @@ Released on Oct 02, 2019
 <li>Fixed the text formatting of the "More Information" field in dialog boxes. (RMAC-1392)</li>
 <li>Fixed rare crash when scrolling through the screen editor. (RTAF-999)</li>
 </ul>
-<div class=hidden id= development-environment-11.6.1_end></div><div class=hidden id= development-environment-11.5.45_start></div>
+<div class="hidden" id="development-environment-11.6.1_end"></div><div class="hidden" id="development-environment-11.5.45_start"></div>
 
 <h2 id="development_environment_11.5.45">Development Environment 11.5.45</h2>
 <div class="info">Released on Sep 24, 2019</div>
@@ -1703,7 +1703,7 @@ Released on Oct 02, 2019
 <li>Fixed crash that occurred when removing unused references or finding usages in a module containing inline records (RPD-4403)</li>
 <li>Fixed a problem where, when having Service Studio connected to multiple environments, converting a module to another type (such as converting a module to a Service module) would open it on a window from another environment. (RSBO-838)</li>
 </ul>
-<div class=hidden id= development-environment-11.5.45_end></div><div class=hidden id= development-environment-11.5.44_start></div>
+<div class="hidden" id="development-environment-11.5.45_end"></div><div class="hidden" id="development-environment-11.5.44_start"></div>
 
 <h2 id="development_environment_11.5.44">Development Environment 11.5.44</h2>
 <div class="info">
@@ -1721,7 +1721,7 @@ Released on Sep 11, 2019
 <li>Fixed the upgrade of mobile applications via Service Center when the module was not upgraded previously nor had its referenced refreshed. (RTAF-1290)</li>
 <li>Fixed an issue that caused a crash when opening Service Studio with an invalid command-line argument. (RICT-1927)</li>
 </ul>
-<div class=hidden id= development-environment-11.5.44_end></div><div class=hidden id= development-environment-11.5.43_start></div>
+<div class="hidden" id="development-environment-11.5.44_end"></div><div class="hidden" id="development-environment-11.5.43_start"></div>
 
 <h2 id="development_environment_11.5.43">Development Environment 11.5.43</h2>
 <div class="info">
@@ -1737,7 +1737,7 @@ Released on Sep 04, 2019
 <li>RichWidgets reference is no longer added on Mobile modules when replacing data. (RTAF-1145)</li>
 <li>Fix crashes when dropping Structures to a Consume REST integration. (RSBO-737)</li>
 </ul>
-<div class=hidden id= development-environment-11.5.43_end></div><div class=hidden id= development-environment-11.5.42_start></div>
+<div class="hidden" id="development-environment-11.5.43_end"></div><div class="hidden" id="development-environment-11.5.42_start"></div>
 
 <h2 id="development_environment_11.5.42">Development Environment 11.5.42</h2>
 <div class="info">
@@ -1755,7 +1755,7 @@ Released on Aug 26, 2019
 <li>Fixed an issue that made Service Studio crash if your last interaction before closing a module was a selection popup (e.g. select from RunServerAction). (RICT-1903)</li>
 <li>Fixed a problem when compiling modules if they contain widgets whose width or margin properties are not in a numeric format. (RTAF-1054)</li>
 </ul>
-<div class=hidden id= development-environment-11.5.42_end></div><div class=hidden id= development-environment-11.5.40_start></div>
+<div class="hidden" id="development-environment-11.5.42_end"></div><div class="hidden" id="development-environment-11.5.40_start"></div>
 
 <h2 id="development_environment_11.5.40">Development Environment 11.5.40</h2>
 <div class="info">
@@ -1776,7 +1776,7 @@ Released on Aug 12, 2019
 <li>Fixed an issue that caused Entity relationships not to be shown after dragging an Entity to an Entity Diagram containing related Entities. (RDEV-700)</li>
 <li>Fixed crash in Manage Dependencies window after selecting a producer module. (RUDOF-480)</li>
 </ul>
-<div class=hidden id= development-environment-11.5.40_end></div><div class=hidden id= development-environment-11.5.39_start></div>
+<div class="hidden" id="development-environment-11.5.40_end"></div><div class="hidden" id="development-environment-11.5.39_start"></div>
 
 <h2 id="development_environment_11.5.39">Development Environment 11.5.39</h2>
 <div class="info">
@@ -1799,7 +1799,7 @@ Released on Jul 31, 2019
 <li>Fixed an issue in Integration Studio that prevented setting a default value for a column of type Long Integer. (RPD-4289)</li>
 <li>Now the messages get always centered and do not show up in the wrong tab. (RMAC-1050)</li>
 </ul>
-<div class=hidden id= development-environment-11.5.39_end></div><div class=hidden id= development-environment-r.29_start></div>
+<div class="hidden" id="development-environment-11.5.39_end"></div><div class="hidden" id="development-environment-r.29_start"></div>
 
 <h2 id="development_environment_release_29">Development Environment Release 29</h2>
 <div class="info">
@@ -1811,7 +1811,7 @@ Released on Jul 18, 2019
 <li>Fixed an issue that prevented the usage of Preview Data on Aggregates and Test Query by always requesting a publish of the module. (RTAF-913)</li>
 <li>Fixed an issue that caused Service Studio to crash when dragging text in the expression editor. (RDEV-566)</li>
 <li>Fixed bug that prevented mobile applications from loading in production when a producer was published in debug mode. (RPD-3596)</li>
-</ul><div class=hidden id= development-environment-r.29_end></div><div class=hidden id= development-environment-r.28_start></div>
+</ul><div class="hidden" id="development-environment-r.29_end"></div><div class="hidden" id="development-environment-r.28_start"></div>
 
 <h2 id="development_environment_release_28">Development Environment Release 28</h2>
 <div class="info">
@@ -1823,7 +1823,7 @@ Released on Jul 15, 2019
 <li>Fixed crash when using static entities from a SOAP service more than once in a SQL node statement. (RSBO-628)</li>
 <li>Fixed crash when using Static Entities from a SOAP service more than once in an Aggregate. (RSBO-627)</li>
 <li>Fixed issue when removing a reference to used Entity. (RTAF-783)</li>
-</ul><div class=hidden id= development-environment-r.28_end></div><div class=hidden id= development-environment-r.27_start></div>
+</ul><div class="hidden" id="development-environment-r.28_end"></div><div class="hidden" id="development-environment-r.27_start"></div>
 
 <h2 id="development_environment_release_27">Development Environment Release 27</h2>
 <div class="info">
@@ -1846,7 +1846,7 @@ Released on Jul 08, 2019
 <li>Fixed the background color of the Licenses window. (RMAC-885)</li>
 <li>Forge dependency analysis no longer requires you to perform a "Force Install" for components with compatible changes like adding optional inputs or attributes. This only applies to changes in producer modules used by the application being installed. (RSBO-621)</li>
 <li>Double-clicking inside an Aggregate editor will no longer open the Add Source picker twice. This behavior was allowing you to add an invalid Data Source. (RSBO-622)</li>
-</ul><div class=hidden id= development-environment-r.27_end></div><div class=hidden id= development-environment-r.26_start></div>
+</ul><div class="hidden" id="development-environment-r.27_end"></div><div class="hidden" id="development-environment-r.26_start"></div>
 
 <h2 id="development_environment_release_26">Development Environment Release 26</h2>
 <div class="info">
@@ -1861,7 +1861,7 @@ Released on Jul 01, 2019
 <h3 id="bug_fixing_release_26">Bug Fixing</h3>
 <ul>
 <li>We fixed a crash related to certain conditions when navigating to a Variable value during a debug session. (RTAF-619)</li>
-</ul><div class=hidden id= development-environment-r.26_end></div><div class=hidden id= development-environment-r.25_start></div>
+</ul><div class="hidden" id="development-environment-r.26_end"></div><div class="hidden" id="development-environment-r.25_start"></div>
 
 <h2 id="development_environment_release_25">Development Environment Release 25</h2>
 <div class="info">
@@ -1875,7 +1875,7 @@ Released on Jun 19, 2019
 <h3 id="bug_fixing_release_25">Bug Fixing</h3>
 <ul>
 <li>We fixed a crash related to certain conditions when dragging and dropping text in Expression Editor. (RTAF-611)</li>
-</ul><div class=hidden id= development-environment-r.25_end></div><div class=hidden id= development-environment-r.24_start></div>
+</ul><div class="hidden" id="development-environment-r.25_end"></div><div class="hidden" id="development-environment-r.24_start"></div>
 
 <h2 id="development_environment_release_24">Development Environment Release 24</h2>
 <div class="info">
@@ -1910,7 +1910,7 @@ This feature requires OutSystems Platform Server 11 Release Apr.2019 CP1. (RSBO-
 <li>Fixed an issue in the CSS Editor and Styles Editor where the values of CSS variables were not being considered. (RDEV-450)</li>
 <li>Fixed an issue that affected text within comment nodes in entity diagrams when moving the nodes in edit mode and in some other situations while typing. (RDEV-412)</li>
 <li>Improved performance of CSS Editor in large Stylesheets. (RPD-3249)</li>
-</ul><div class=hidden id= development-environment-r.24_end></div><div class=hidden id= development-environment-r.23_start></div>
+</ul><div class="hidden" id="development-environment-r.24_end"></div><div class="hidden" id="development-environment-r.23_start"></div>
 
 <h2 id="development_environment_release_23">Development Environment Release 23</h2>
 <div class="info">
@@ -1931,7 +1931,7 @@ Released on May 20, 2019
 <li>It is now possible to consume SOAP services that have sequences with duplicated elements. (RPD-3898)</li>
 <li>Added support for SOAP Actions containing special characters. (RSBO-384)</li>
 <li>Improved performance of CSS Editor in large Stylesheets. (RPD-3249)</li>
-</ul><div class=hidden id= development-environment-r.23_end></div><div class=hidden id= development-environment-r.22_start></div>
+</ul><div class="hidden" id="development-environment-r.23_end"></div><div class="hidden" id="development-environment-r.22_start"></div>
 
 <h2 id="development_environment_release_22">Development Environment Release 22</h2>
 <div class="info">
@@ -1946,7 +1946,7 @@ Released on May 13, 2019
 <ul>
 <li>Fixed an issue that prevented Entity relationships from being displayed in Entity Diagrams with a large number of Entities. (RDEV-411)</li>
 <li>Fixed an issue with Service Studio '-publish' command line option. (RDEV-415)</li>
-</ul><div class=hidden id= development-environment-r.22_end></div><div class=hidden id= development-environment-r.21_start></div>
+</ul><div class="hidden" id="development-environment-r.22_end"></div><div class="hidden" id="development-environment-r.21_start"></div>
 
 <h2 id="development_environment_release_21">Development Environment Release 21</h2>
 <div class="info">
@@ -1957,7 +1957,7 @@ Released on Apr 30, 2019
 <ul>
 <li>Fixed an issue that caused Service Studio to lose focus after closing a dialog window. (RDEV-331)</li>
 <li>Fixed a crash when executing tutorials. (RICT-1511)</li>
-</ul><div class=hidden id= development-environment-r.21_end></div><div class=hidden id= development-environment-r.20_start></div>
+</ul><div class="hidden" id="development-environment-r.21_end"></div><div class="hidden" id="development-environment-r.20_start"></div>
 <h2 id="development_environment_release_20">Development Environment Release 20</h2>
 <div class="info">
 
@@ -1973,7 +1973,7 @@ Released on May 29, 2019
 <li>Fixed an issue that prevented some Built-in Functions from being highlighted in expressions. (RDEV-384)</li>
 <li>Fixed an issue that caused the wrong icon to be shown while dragging a client-side element on top of another element in a Client Action flow. (RDEV-393)</li>
 </ul>
-<div class=hidden id= development-environment-r.20_end></div><div class=hidden id= development-environment-r.19_start></div>
+<div class="hidden" id="development-environment-r.20_end"></div><div class="hidden" id="development-environment-r.19_start"></div>
 
 <h2 id="development_environment_release_19">Development Environment Release 19</h2>
 <div class="info">
@@ -1997,7 +1997,7 @@ Released on Apr 22, 2019
 <li>Fixed an issue that caused elements inside Folders not to be deleted when managing dependencies. (RICT-1471)</li>
 <li>Fixed Service Studio hang when changing complex SQL argument expressions. (RPD-3974)</li>
 <li>Fixed the scroll bar that shows while you browse Screen Templates in the New Screen window. (RTAF-339)</li>
-</ul><div class=hidden id= development-environment-r.19_end></div><div class=hidden id= development-environment-r.18_start></div>
+</ul><div class="hidden" id="development-environment-r.19_end"></div><div class="hidden" id="development-environment-r.18_start"></div>
 
 <h2 id="development_environment_release_18">Development Environment Release 18</h2>
 <div class="info">
@@ -2025,7 +2025,7 @@ Released on Apr 15, 2019
 <li>Fixed the icon of the Run Server Action element shown in the Toolbox when editing Actions with a custom Icon. (RDEV-335)</li>
 <li>Fixed an issue with generating structures in SOAP services that use the "unbounded" qualifier in group references. (RPD-4020)</li>
 <li>Fixed a crash that occurred when importing SOAP Web Services that had invalid WSDL definition with missing portType elements. (RSBO-356)</li>
-</ul><div class=hidden id= development-environment-r.18_end></div><div class=hidden id= development-environment-r.17_start></div>
+</ul><div class="hidden" id="development-environment-r.18_end"></div><div class="hidden" id="development-environment-r.17_start"></div>
 
 <h2 id="development_environment_release_17">Development Environment Release 17</h2>
 <div class="info">
@@ -2035,7 +2035,7 @@ Released on Mar 18, 2019
 <h3 id="bug_fixing_release_17">Bug Fixing</h3>
 <ul>
 <li>Fixed an issue in the JSON Serialize widget that affected the serialization of Date and Time values. This was causing the JSON Deserialize widget to return empty values. (RPD-3970)</li>
-</ul><div class=hidden id= development-environment-r.17_end></div><div class=hidden id= development-environment-r.16_start></div>
+</ul><div class="hidden" id="development-environment-r.17_end"></div><div class="hidden" id="development-environment-r.16_start"></div>
 
 <h2 id="development_environment_release_16">Development Environment Release 16</h2>
 <div class="info">
@@ -2060,7 +2060,7 @@ Released on Mar 12, 2019
 <li>Fixed a crash when adding a dependency in the application detail screen. (RICT-1393)</li>
 <li>Fixed a compilation error when using some patterns in a Dynamic Sort of an Aggregate. (RICT-1398)</li>
 <li>Fixed a problem which caused SOAP Web Services imported in version 11 to have incorrect information. This happened when the WSDL had an enumeration defined in a top-level element that is used directly in an input part. (RSBO-360)</li>
-</ul><div class=hidden id= development-environment-r.16_end></div><div class=hidden id= development-environment-r.15_start></div>
+</ul><div class="hidden" id="development-environment-r.16_end"></div><div class="hidden" id="development-environment-r.15_start"></div>
 
 <h2 id="development_environment_release_15">Development Environment Release 15</h2>
 <div class="info">
@@ -2095,7 +2095,7 @@ Released on Mar 04, 2019
 <li>Clicking the Close button while Service Studio is closing no longer crashes the program. (RICT-1371)</li>
 <li>Fixed a crash that occurred when double-clicking a verify message. (RICT-1258)</li>
 <li>Fixed occasional crash using the Search in several tabs at the same time. (RTAF-108)</li>
-</ul><div class=hidden id= development-environment-r.15_end></div><div class=hidden id= development-environment-r.14_start></div>
+</ul><div class="hidden" id="development-environment-r.15_end"></div><div class="hidden" id="development-environment-r.14_start"></div>
 
 <h2 id="development_environment_release_14">Development Environment Release 14</h2>
 <div class="info">
@@ -2115,7 +2115,7 @@ Released on Feb 11, 2019
 <li>Now all of the conditions are updated accordingly when you change a source inside the Aggregate Join section. (RSBO-72)</li>
 <li>Now there's no crash when you browse the Screen Template categories while doing the tutorials. (RTAF-98)</li>
 <li>We fixed the Aggregate icon for the local storage. (RTAF-102)</li>
-</ul><div class=hidden id= development-environment-r.14_end></div><div class=hidden id= development-environment-r.13_start></div>
+</ul><div class="hidden" id="development-environment-r.14_end"></div><div class="hidden" id="development-environment-r.13_start"></div>
 
 <h2 id="development_environment_release_13">Development Environment Release 13</h2>
 <div class="info">
@@ -2148,7 +2148,7 @@ Released on Feb 05, 2019
 <li>Fixed an issue that was causing the Search box to close unexpectedly right after opening. (RIUT-648)</li>
 <li>Fixed a crash editing Aggregates when using option "Show <n> hidden". (RPD-3842)</n></li>
 <li>Improved the experience when there is a problem contacting the server to fetch the latest Application Templates. (RTAF-88)</li>
-</ul><div class=hidden id= development-environment-r.13_end></div><div class=hidden id= development-environment-r.12_start></div>
+</ul><div class="hidden" id="development-environment-r.13_end"></div><div class="hidden" id="development-environment-r.12_start"></div>
 
 <h2 id="development_environment_release_12">Development Environment Release 12</h2>
 <div class="info">
@@ -2179,7 +2179,7 @@ Released on Jan 25, 2019
 <li>Fixed a crash when selecting text while comparing and merging screens or blocks. (RCOT-2134)</li>
 <li>Fixed a crash in the preview of Service Studio when manipulating List Record widgets. (RICT-1240)</li>
 <li>Fixed a crash when merging web screens. (RICT-1237)</li>
-</ul><div class=hidden id= development-environment-r.12_end></div><div class=hidden id= development-environment-r.11_start></div>
+</ul><div class="hidden" id="development-environment-r.12_end"></div><div class="hidden" id="development-environment-r.11_start"></div>
 
 <h2 id="development_environment_release_11">Development Environment Release 11</h2>
 <div class="info">
@@ -2194,7 +2194,7 @@ Released on Jan 17, 2019
 <ul>
 <li>Fixed a bug that allowed Client Entities to be used as Destination in Human Activities. (ABE-1354)</li>
 <li>There's no crash now when you move the mouse pointer over Table Headers during merge. (RCOT-2119)</li>
-</ul><div class=hidden id= development-environment-r.11_end></div><div class=hidden id= development-environment-r.10_start></div>
+</ul><div class="hidden" id="development-environment-r.11_end"></div><div class="hidden" id="development-environment-r.10_start"></div>
 
 <h2 id="development_environment_release_10">Development Environment Release 10</h2>
 <div class="info">
@@ -2223,7 +2223,7 @@ Released on Jan 07, 2019
 <li>The introspection of the SOAP services containing the xsd:choice Element now works correctly. (RINT-3189)</li>
 <li>Fixed a compilation error when publishing eSpaces with more that one SOAP consumes with complex types containing the same name. (RPD-3730)</li>
 <li>Fixed 'RangeError: Maximum call stack size exceeded' when opening a Web Block or Web Screen. (RPD-3724)</li>
-</ul><div class=hidden id= development-environment-r.10_end></div><div class=hidden id= development-environment-r.9_start></div>
+</ul><div class="hidden" id="development-environment-r.10_end"></div><div class="hidden" id="development-environment-r.9_start"></div>
 
 <h2 id="development_environment_release_9">Development Environment Release 9</h2>
 <div class="info">
@@ -2242,7 +2242,7 @@ Released on Jan 02, 2019
 <li>Fixed the conversion of nil values for numerical types when consuming SOAP Web Services. (RINT-3287)</li>
 <li>Pressing F1 on UI Flows now redirects to the correct documentation page. (RAFT-1740)</li>
 <li>Fixed a crash when importing SOAP Web Services with xsd:attributes used by reference. (RINT-3220)</li>
-</ul><div class=hidden id= development-environment-r.9_end></div><div class=hidden id= development-environment-r.8_start></div>
+</ul><div class="hidden" id="development-environment-r.9_end"></div><div class="hidden" id="development-environment-r.8_start"></div>
 
 <h2 id="development_environment_release_8">Development Environment Release 8</h2>
 <div class="info">
@@ -2261,7 +2261,7 @@ Released on Dec 27, 2018
 <li>Changes in the license of an environment now correctly propagate to applications running in containers. (RSCT-1378)</li>
 <li>Fixed an issue that caused Service Studio to crash when you opened a module with another module already open. (RAFT-1711)</li>
 <li>Using an invalid HTML attribute name as a Widget's Extended Property no longer causes Service Studio to crash. (RICT-1183)</li>
-</ul><div class=hidden id= development-environment-r.8_end></div><div class=hidden id= development-environment-r.7_start></div>
+</ul><div class="hidden" id="development-environment-r.8_end"></div><div class="hidden" id="development-environment-r.7_start"></div>
 
 <h2 id="development_environment_release_7">Development Environment Release 7</h2>
 <div class="info">
@@ -2289,7 +2289,7 @@ Released on Dec 19, 2018
 <li>Now it's possible to merge translation messages because we fixed the related UI issues. (RCOT-1964)</li>
 <li>Fixed a bug to improve stability during the auto-save. (RICT-1146)</li>
 <li>Fixed a bug that crashed Service Studio after opening a context menu with the Assign tools selected. (RIUT-549)</li>
-</ul><div class=hidden id= development-environment-r.7_end></div><div class=hidden id= development-environment-r.6_start></div>
+</ul><div class="hidden" id="development-environment-r.7_end"></div><div class="hidden" id="development-environment-r.6_start"></div>
 
 <h2 id="development_environment_release_6">Development Environment Release 6</h2>
 <div class="info">
@@ -2311,7 +2311,7 @@ Released on Dec 03, 2018
 <li>Fixed a bug that caused a crash while comparing WebBlock instances. (RCOT-1879)</li>
 <li>Solved Service Studio freezes when debugging applications. (RICT-902)</li>
 <li>Fixed an issue that caused Service Studio to freeze when testing Aggregates or SQL queries. (RICT-1139)</li>
-</ul><div class=hidden id= development-environment-r.6_end></div><div class=hidden id= development-environment-r.5_start></div>
+</ul><div class="hidden" id="development-environment-r.6_end"></div><div class="hidden" id="development-environment-r.5_start"></div>
 
 <h2 id="development_environment_release_5">Development Environment Release 5</h2>
 <div class="info">
@@ -2339,7 +2339,7 @@ Released on Nov 26, 2018
 <li>Solved Service Studio freezes when debugging applications. (RICT-902)</li>
 <li>Fixed a crash opening the context menu in a selected part of a flow when a connector was selected before a node. (RIUT-532)</li>
 <li>Fixed Service Studio hang when opening Manage Dependencies window. (RPD-3612)</li>
-</ul><div class=hidden id= development-environment-r.5_end></div><div class=hidden id= development-environment-r.4_start></div>
+</ul><div class="hidden" id="development-environment-r.5_end"></div><div class="hidden" id="development-environment-r.4_start"></div>
 
 <h2 id="development_environment_release_4">Development Environment Release 4</h2>
 <div class="info">
@@ -2378,7 +2378,7 @@ Released on Nov 07, 2018
 <li>Fixed a bug that caused new lines to be removed in comments after editing. (RIUT-485)</li>
 <li>Fixed an issue that caused a crash when using "Find Usages in all Modules" and when a consumer module is opened in more than one tab. (RIUT-482)</li>
 <li>Fixed Service Studio hang while opening Manage Dependencies in a Mobile module. (RPD-3569)</li>
-</ul><div class=hidden id= development-environment-r.4_end></div><div class=hidden id= development-environment-r.3_start></div>
+</ul><div class="hidden" id="development-environment-r.4_end"></div><div class="hidden" id="development-environment-r.3_start"></div>
 
 <h2 id="development_environment_release_3">Development Environment Release 3</h2>
 <div class="info">
@@ -2400,7 +2400,7 @@ Released on Oct 22, 2018
 <li>Fixed an issue that caused a crash during merge operations while inspecting 'Database' element from consumed SOAP Services. (RCOT-2001)</li>
 <li>Fixed a bug that caused a crash while comparing Web Block instances. (RCOT-1879)</li>
 <li>Fixed an issue with Service Studio '-cleanup' command line option. Additionally, fixed the report generated when removing unused elements. (RPD-3526)</li>
-</ul><div class=hidden id= development-environment-r.3_end></div><div class=hidden id= development-environment-r.2_start></div>
+</ul><div class="hidden" id="development-environment-r.3_end"></div><div class="hidden" id="development-environment-r.2_start"></div>
 <h2 id="development_environment_release_2">Development Environment Release 2</h2>
 <div class="info">
 
@@ -2423,7 +2423,7 @@ Released on Oct 09, 2018
 <li>Fixed a bug where merging a hidden reference only present on base version would crash merge operation. (RPD-3173)</li>
 <li>Fixed bug that did not recover resolution on textual conflicts when restoring a merge operation. (RCOT-1755)</li>
 </ul>
-<div class=hidden id= development-environment-r.2_end></div><div class=hidden id= development-environment-r.1_start></div>
+<div class="hidden" id="development-environment-r.2_end"></div><div class="hidden" id="development-environment-r.1_start"></div>
 
 <h2 id="development_environment_release_1">Development Environment Release 1</h2>
 <div class="info">
@@ -2499,4 +2499,4 @@ Released on Sept 26, 2018
 <h3 id="bug_fixing_release_1">Bug Fixing</h3>
 <ul>
 <li>Fixed intermittent "Concurrent publication" error when following the "Build a Mobile/Web App in 5 min" tutorials. (RSCT-1357)</li>
-</ul><div class=hidden id= development-environment-r.1_end></div><div class="hidden"><h1>Development Environment</h1></div>
+</ul><div class="hidden" id="development-environment-r.1_end"></div><div class="hidden"><h1>Development Environment</h1></div>
