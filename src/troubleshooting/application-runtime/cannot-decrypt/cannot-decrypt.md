@@ -12,7 +12,9 @@ app_type: traditional web apps, mobile apps, reactive web apps
 ## Introduction to viewstate
 
 <div class="info" markdown="1">
+
 Applies to Traditional Web Applications
+
 </div>
 
  
