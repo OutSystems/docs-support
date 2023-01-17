@@ -78,7 +78,7 @@ OutSystems VPN has a mechanism called DPD that validates periodically the tunnel
 
 #### Solution
 
-Check the Dear Peer Detection (DPD) settings and ensure that:
+Check the Dead Peer Detection (DPD) settings and ensure that:
 
 * It's configured to [receive and respond to DPD messages](https://docs.aws.amazon.com/vpc/latest/adminguide/Introduction.html#FirewallRules).
 * It's not too busy to respond to DPD messages from OutSystems VPN peers.
