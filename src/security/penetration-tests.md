@@ -50,6 +50,11 @@ All uses of the affected function by OutSystems properly encode the input parame
 
 As for applications developed by your users which make use of this library, you should ensure that you encode the input to the title() function correctly. Alternatively, you can import your own version of jquery-ui-dialog into a different namespace and use that version instead.
 
+#### jQuery-ui-tooltip flagged as a potentially vulnerable library
+
+Some penetration testing tools may flag OutSystems as having a vulnerable jQuery-ui-tooltip library - [CVE-2012-6662](https://nvd.nist.gov/vuln/detail/cve-2012-6662). 
+
+OutSystems doesn't use jQuery-ui-tooltip widget. It's not present on our code.
 
 ## Support from OutSystems
 
