@@ -1,6 +1,6 @@
 ---
 summary: Learn how to manage your team access to the OutSystems online tools like Customer Portal, Support Portal and Licensing.
-tags: support-account-overview; support-subscription_model
+tags:
 locale: en-us
 guid: 5bd7f106-3784-4821-a603-0ad0c0fd8f82
 app_type: traditional web apps, mobile apps, reactive web apps
@@ -69,8 +69,8 @@ This represents a role that can oversee all the permissions and members of all y
 * Register support cases in infrastructures the user is associated with.
 * Remove contacts.
 * [Register](https://success.outsystems.com/Support/Enterprise_Customers/Licensing/Manage_and_Upgrade/03_Get_a_license_file_for_an_environment#Registering_your_environment_(using_the_serial_number)), [release](https://success.outsystems.com/Support/Enterprise_Customers/Licensing/Manage_and_Upgrade/05_How_to_free_up_an_existing_environment_in_licensing) environment slots, and download licenses.
-* Receive notifications regarding disruptive.
-* Receive license expiration notifications.
+* Receive notifications regarding disruptive events.
+* Receive license expiration email notifications.
 
 
 OutSystems will set as the first **Company Admin**, the person that was identified as such in your initial purchase order. It can, however, be changed to your preference at a later stage.
@@ -85,8 +85,8 @@ This person will be able to:
 * Manage your users and permissions for the infrastructures where he is set as administrator.
 * Register support cases, [approve unauthorized cases](https://success.outsystems.com/Support/Account_and_Members_Management/Enhanced_security_for_OutSystems_support_cases), and view all cases of that infrastructure.
 * [Register](https://success.outsystems.com/Support/Enterprise_Customers/Licensing/Manage_and_Upgrade/03_Get_a_license_file_for_an_environment#Registering_your_environment_(using_the_serial_number)), [release](https://success.outsystems.com/Support/Enterprise_Customers/Licensing/Manage_and_Upgrade/05_How_to_free_up_an_existing_environment_in_licensing) environment slots, and download licenses.
-* Receive notifications regarding maintenance, disruptive.
-* Receive license expiration notifications.
+* Receive notifications regarding maintenance and disruptive events.
+* Receive license expiration email notifications.
 
 OutSystems will set by default as the first Infrastructure administrator, the person that was identified as such in your initial purchase order. It can, however, be changed to your preference at a later stage.
 
