@@ -1,5 +1,8 @@
 ---
 summary:  OutSystems uses database connection pools to ensure your applications perform well as they scale. Read more to learn how the OutSystems platform uses  connection pools.
+locale: en-us
+guid: 3a4658d1-b73d-4842-a960-db07c21a6289
+app_type: traditional web apps, mobile apps, reactive web apps
 ---
 
 # Connection pools in the OutSystems platform

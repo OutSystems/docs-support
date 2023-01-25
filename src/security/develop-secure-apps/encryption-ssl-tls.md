@@ -2,6 +2,9 @@
 summary: Secure how your OutSystems app communicates and stores data and protect sensitive information from malicious third-parties.
 tags: protecting-outsystems-applications; outsystems-security; outsystems-secure-applications; outsystems-encryption; outsystems-SSL; outsystems-TLS;
 en_title: 04 Protecting OutSystems apps using encryption and SSL TLS
+locale: en-us
+guid: 3ae4c88e-73a8-4d8a-9a44-88f9b7c18d02
+app_type: traditional web apps, mobile apps, reactive web apps
 ---
 
 # Protecting OutSystems apps using encryption and SSL/TLS
@@ -10,7 +13,7 @@ By using encryption you safeguard stored, or in transit, sensitive data from bei
 
 Usually, attackers don’t attempt to break the encryption itself, they break something else. Some examples of attack vectors are stealing plain text data, using Man-in-the-Middle (MITM) attacks, or stealing keys.
 
-The following example illustrates how a MITM attack can be used to listen to a communication between two computers and impersonate a legitimate user after stealing his session (green arrows represent secure connections, while red arrows represent plain text connections):
+The following example illustrates how a MITM attack can be used to listen to a communication between two computers and impersonate a legitimate user after stealing their session (green arrows represent secure connections, while red arrows represent plain text connections):
 
 ![How a MITM attack can be used to listen to a communication between two computers](images/mitm-attack-listen-communication-between-two-computers1.png)
 

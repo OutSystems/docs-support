@@ -1,9 +1,18 @@
 ---
 summary: Troubleshoot a permissions-related error when you upgrade or install Platform Server 11.12.0 or later.
 tags: 
+locale: en-us
+guid: ae2f1814-d3bb-4e38-a5ba-33423aec6c34
+app_type: traditional web apps, mobile apps, reactive web apps
 ---
 
 # Service permissions error when installing or upgrading to Platform Server 11.12.0 or later
+
+<div class="info" markdown="1">
+
+This article **doesn't apply** to OutSystems installations that use **Windows Authentication** as the Database Authentication type.
+
+</div>
 
 ## Symptoms
 
@@ -22,14 +31,25 @@ Active Directory settings can block the installation script from creating users 
 Change your Active Directory settings through the Group Policy Management console. For example, a user with global admin permissions can change settings on the domain controller as follows:
 
 1. Go to **Group Policy Management**. 
-2. Create a new group policy. 
-3. In **Policies** > **Security Settings** > **User Rights Assignment**, select **Create symbolic links** to open the Properties dialog box.
-4. Select **Define these policy settings**, and click **Add Users or Groups**.
-5. In the **User and group names field**, type the users **OSControllerUser** and **OSSchedulerUser** and click **Apply**. The users you added should appear in the **Policy Setting** column. 
+1. Create a new group policy. 
+1. In **Policies** > **Security Settings** > **User Rights Assignment**, select **Create symbolic links** to open the Properties dialog box.
+1. Select **Define these policy settings**, and click **Add Users or Groups**.
 
-The following screen shows where **OSControllerUser** and **OSControllerUser** appear in **Security Settings**.
+### For Platform Server versions prior to 11.18.0
+
+In the **User and group names field**, type the users **OSControllerUser** and **OSSchedulerUser** and click **Apply**. The users you added should appear in the **Policy Setting** column. 
+
+The following screen shows where **OSControllerUser** and **OSSchedulerUser** appear in **Security Settings**.
 
 ![](images/permissions-group-policy-change.png)
+
+### For Platform Server versions 11.18.0 or later
+
+In the **User and group names field**, type the users **NT Service\OutSystems Deployment Controller Service** and **NT Service\OutSystems Scheduler Service** and click **Apply**. The users you added should appear in the **Policy Setting** column. 
+
+The following screen shows where **NT Service\OutSystems Deployment Controller Service** and **NT Service\OutSystems Scheduler Service** appear in **Security Settings**.
+
+![](images/permissions-group-policy-change_2.png)
 
 
 ### Notes 
@@ -39,10 +59,20 @@ The following screen shows where **OSControllerUser** and **OSControllerUser** a
 * In your current environment, if the Deployment Controller Service and Scheduler Service don’t run in the context of the Local System user, then the script doesn't try to create new users. It assumes you’ve already changed permissions manually, and the installation completes. 
 
 ## Service and user details
+
 The following table summarizes permissions for the new user accounts for each impacted service:
 
- OutSystems Service   |      New user associated with service      |  User permissions |
-|----------|:-------------:|------|
-| Deployment Controller Service |  OSControllerUser | Full control on the platform folder <br/>Local policies added:<ul><li>Log on as service</li><li>Log on as batch job</li><li>Create symbolic links</li></ul>  |
-| Scheduler Service |    OSSchedulerUser   | Full control on the platform folder <br/>Local policies added:<ul><li>Log on as service</li><li>Log on as batch job</li><li>Create symbolic links</li></ul>  | |
+### For Platform Server versions prior to 11.18.0
+
+| OutSystems Service | New user associated with service | User permissions |
+|---|---|---|
+| Deployment Controller Service | OSControllerUser | Full control on the platform folder <br/>Local policies added:<ul><li>Log on as service</li><li>Log on as batch job</li><li>Create symbolic links</li></ul>  |
+| Scheduler Service | OSSchedulerUser | Full control on the platform folder <br/>Local policies added:<ul><li>Log on as service</li><li>Log on as batch job</li><li>Create symbolic links</li></ul> |
+
+### For Platform Server versions 11.18.0 or later
+
+| OutSystems Service | New user associated with service | User permissions |
+|---|---|---|
+| Deployment Controller Service | NT Service\OutSystems Deployment Controller Service | Full control on the platform folder <br/>Local policies added:<ul><li>Log on as service</li><li>Log on as batch job</li><li>Create symbolic links</li></ul> |
+| Scheduler Service | NT Service\OutSystems Scheduler Service | Full control on the platform folder <br/>Local policies added:<ul><li>Log on as service</li><li>Log on as batch job</li><li>Create symbolic links</li></ul> |
 

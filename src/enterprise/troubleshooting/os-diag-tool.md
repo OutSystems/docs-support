@@ -1,5 +1,8 @@
 ---
 summary: OSDiagTool is a useful tool to collect in one place all the information necessary for most support situations. Use it when opening a support case to send all the necessary logs.
+locale: en-us
+guid: 82b63ca4-2687-47b0-805a-8758955536a3
+app_type: traditional web apps, mobile apps, reactive web apps
 ---
 
 # OSDiagTool - OutSystems Support Diagnostics Tool

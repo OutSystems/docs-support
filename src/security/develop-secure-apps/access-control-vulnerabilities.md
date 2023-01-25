@@ -2,6 +2,9 @@
 summary: Ensure the users of your OutSystems apps only see and do what they are allowed to.
 tags: protecting-outsystems-applications; outsystems-security; outsystems-secure-applications; outsystems-access-control; outsystems-permissions-vulnerabilities
 en_title: 03 Protecting OutSystems apps from Access Control Permissions vulnerabilities
+locale: en-us
+guid: 6e787bb3-9106-4b65-b51a-17a3b7799a9b
+app_type: traditional web apps, mobile apps, reactive web apps
 ---
 
 # Protecting OutSystems apps from access control / permissions vulnerabilities

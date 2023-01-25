@@ -1,0 +1,17 @@
+Initialization error: System.Net.Sockets.SocketException (0x80004005): No connection could be made because the target machine actively refused it 127.0.0.1:12000
+
+Server stack trace: 
+   at System.Net.Sockets.Socket.Connect(IPAddress[] addresses, Int32 port)
+   at System.Runtime.Remoting.Channels.RemoteConnection.CreateNewSocket(AddressFamily family)
+   at System.Runtime.Remoting.Channels.RemoteConnection.CreateNewSocket()
+   at System.Runtime.Remoting.Channels.SocketCache.GetSocket(String machinePortAndSid, Boolean openNew)
+   at System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.SendRequestWithRetry(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream)
+   at System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.ProcessMessage(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream, ITransportHeaders& responseHeaders, Stream& responseStream)
+   at System.Runtime.Remoting.Channels.BinaryClientFormatterSink.SyncProcessMessage(IMessage msg)
+
+Exception rethrown at [0]: 
+   at #oof.#IZe.#a3e()
+   at #oof.#IZe.#Ky(#fdc service)
+   at #oof.#fdc.#jZe()
+   at OutSystems.HubEdition.ServerCommon.PhysicalServiceBase.ServiceFunctions.#I9b(IService service)
+Retrying in 30 seconds

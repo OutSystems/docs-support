@@ -1,0 +1,20 @@
+---
+isautopublish: true
+pageprivacy: public
+---
+
+<h2 id="integration_builder_1.39.1" >Integration Builder 1.39.1</h2>
+<div class="info"><p>Released on Oct 14, 2022</p></div>
+
+
+<style>.cattag {background: #f4f2ff; color: #6a6581; padding: 4px 10px;}</style>
+<h3 id="bug_fixing_integration_builder_1.39.1" >Bug Fixing</h3>
+<ul>
+<li>Fixed an issue that caused errors when publishing a Sharepoint connector with more than 25 lists. (RCNT-5159)</li>
+<li>Deleting a relational database integration from Integration Builder will not leave an extension behind anymore. (RCNT-5250)</li>
+<li>Fixed an issue that caused dates after 2032 to be converted to wrong values, when calling SAP OData v2 services. (RCNT-5257)</li>
+<li>Integration Builder will no longer allow selecting relational database tables that don't contain any supported attributes. (RCNT-5288)</li>
+<li>MongoDB structures that only contain attributes that aren't supported by Integration Builder will no longer be selectable. (RCNT-5317)</li>
+<li>Fixed an error when retrieving the platform version that prevented the use of Integration Builder (an error message saying "index 1 is out of range" was displayed). (RPM-3161) <span class="cattag">Extended Product</span>  <span class="cattag">Integrations Builder</span> </li>
+</ul>
+

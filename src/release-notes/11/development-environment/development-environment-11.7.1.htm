@@ -1,0 +1,31 @@
+---
+isautopublish: false
+pageprivacy: public
+---
+
+<h2 id="development_environment_11.7.1">Development Environment 11.7.1</h2>
+<div class="info">
+
+Released on Apr 06, 2020</div>
+<h3 id="new_in_development_environment_11.7.1">New in Development Environment 11.7.1</h3>
+<ul>
+<li>We added a tooltip to the AI-assisted development radar that shows in the flow. Now it's more clear what the radar does. (RAID-525)</li>
+<li>It is now possible to double-click the condition arrow to access both its conditions.
+Inspired by <a href="https://www.outsystems.com/ideas/3128/">Menno Hoogsteen's idea</a>. (RDEV-1252)</li>
+<li>It is now possible to go directly to a widget in the Widget Tree by right-clicking it and selecting the See in Widget Tree option. Inspired by <a href="https://www.outsystems.com/ideas/6288/">Robert B's idea</a>.
+(RDEV-1253)</li>
+<li>It is now possible to clear the text filtering of the applications in the Application List. 
+Inspired by <a href="https://www.outsystems.com/ideas/7845/">Daniël Kuhlmann's idea</a>. (RDEV-1274)</li>
+<li>You’ll now be able to track the number of conflicts that are left to solve when facing conflicting module versions in Service Studio publish process! Additionally, we’ve increased the overall experience of the process, giving the option to ignore all conflicts and accept the local version right away. (RMAC-1400)</li>
+<li>Now you can use the Table widget in your Mobile applications. Fetch data to your Screen, drop Table to the Screen and select the data in the Source property. Then, drop Attributes to the Table. Add sorting by creating a new OnSort Action that triggers an accelerator with the logic. (RTAFB-2155)</li>
+<li>Screen Events in Mobile App are now in a drop-down list box, just like in Reactive Web App. This UI tweak makes your developing experience more consistent. (RTAFB-2491)</li>
+</ul>
+<h3 id="bug_fixing_11.7.1">Bug Fixing</h3>
+<ul>
+<li>Fixed an issue that caused Service Studio to crash while deleting text in an expression. (RDEV-1466)</li>
+<li>Fixed broken icons on some editors (RICT-2405)</li>
+<li>Fixed an issue that caused an error when referencing a web block.  (RICT-2417)</li>
+<li>Fixed issue where copying entity attributes from an Extension was also copying the Original Name and Type properties, resulting in runtime errors. (RPD-3815)</li>
+<li>Fixed a problem where navigation from the OnAfterFetch event handler rendered the current Screen instead of the destination Screen. (RTAFB-2472)</li>
+<li>Fixed a crash after drop an entity over a dropdown. (RUDOF-928)</li>
+</ul>

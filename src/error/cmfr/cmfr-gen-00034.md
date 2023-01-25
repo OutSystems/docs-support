@@ -1,6 +1,9 @@
 ---
 summary: Activity with Id "<activity-identifier-value>" does not belong to Case with Id "<case-identifier-value>".
 tags:
+locale: en-us
+guid: c48ed6a6-4265-46d8-af5d-1135f764e7ea
+app_type: traditional web apps, mobile apps, reactive web apps
 ---
 
 # OS-CMFR-GEN-00034

@@ -1,6 +1,9 @@
 ---
 summary: The number of minutes must be greater than or equal to zero.
 tags:
+locale: en-us
+guid: b97679ee-618c-4492-a00d-6f9d8435b13d
+app_type: traditional web apps, mobile apps, reactive web apps
 ---
 
 # OS-CMFR-GEN-00006

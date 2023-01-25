@@ -1,13 +1,16 @@
 ---
 summary: Check what you'll need to request authorization for penetration tests, load tests and vulnerability scans on OutSystems cloud.
 tags: support-Cloud_Platform
+locale: en-us
+guid: 00c90ba4-311d-43b2-a676-0613ad5f60b2
+app_type: traditional web apps, mobile apps, reactive web apps
 ---
 
 # Load and penetration tests on OutSystems Cloud
 
 ## Overview
 
-As a subscription customer, you may wish to perform penetration tests, vulnerability scans or load tests. This is possible as long as they're limited to your own cloud infrastructure and under the **Customer** responsability as described under the [OutSystems shared responsibility model](https://success.outsystems.com/Support/Enterprise_Customers/Maintenance_and_Operations/OutSystems_Cloud_Shared_Responsibility_Model). To avoid having these tests blocked by OutSystems protection mechanisms, we request you to submit an inquiry.
+As a subscription customer, you may wish to perform penetration tests, vulnerability scans or load tests. This is possible as long as they're limited to your own cloud infrastructure and under the **Customer** responsibility as described under the [OutSystems shared responsibility model](https://success.outsystems.com/Support/Enterprise_Customers/Maintenance_and_Operations/OutSystems_Cloud_Shared_Responsibility_Model). To avoid having these tests blocked by OutSystems protection mechanisms, we request you to submit an inquiry.
 
 ## Performing scans in your OutSystems Cloud infrastructure
 

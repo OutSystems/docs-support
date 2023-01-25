@@ -1,6 +1,9 @@
 ---
 summary: Cannot create Group: <OriginalErrorMessage>.
 tags:
+locale: en-us
+guid: c5884356-f8a8-439b-8810-1a1bcd0ef996
+app_type: traditional web apps, mobile apps, reactive web apps
 ---
 
 # OS-WFBL-CONF-00007

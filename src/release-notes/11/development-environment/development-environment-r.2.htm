@@ -1,0 +1,26 @@
+---
+isautopublish: false
+pageprivacy: public
+---
+<h2 id="development_environment_release_2">Development Environment Release 2</h2>
+<div class="info">
+
+Released on Oct 09, 2018
+</div>
+<h3 id="new_in_development_environment_release_2">New in Development Environment Release 2</h3>
+<ul>
+<li>From now on, you can quickly create a new screen when defining a button or link destination. Inspired by <a href="https://www.outsystems.com/ideas/5432/create-new-screen-when-adding-destination-node">Russell Codd's idea</a>. (RAFT-1605)</li>
+</ul>
+<h3 id="bug_fixing_release_2">Bug Fixing</h3>
+<ul>
+<li>Fixed a bug that sometimes caused an aggregate's preview data that contained Group Bys to grow horizontally instead of vertically. (ABE-1267)</li>
+<li>Improved Empty Template's preview image. (RAFT-1635)</li>
+<li>Fixed Service Studio crash after refreshing references that caused block's placeholders to be removed. (RAFT-1609)</li>
+<li>Empty flow suggestion is no longer shown in a screen action. (RAFT-1602)</li>
+<li>Fixed an issue that caused the Extensibility Configuration property in mobile modules to have an error in True Change when empty. (RAFT-1598)</li>
+<li>On some situations related with Aggregate sources manipulation, a conflict would appear on merge in the Actions containing the Aggregate, but drilling down, nothing appeared to be changed. With this fix, merge will not consider these "false" conflicts. (RCOT-1941)</li>
+<li>Fixed a bug that caused a crash while comparing WebBlock instances. (RCOT-1879)</li>
+<li>Fixed a bug related with not being able to correctly match elements in merge. (RCOT-1375)</li>
+<li>Fixed a bug where merging a hidden reference only present on base version would crash merge operation. (RPD-3173)</li>
+<li>Fixed bug that did not recover resolution on textual conflicts when restoring a merge operation. (RCOT-1755)</li>
+</ul>

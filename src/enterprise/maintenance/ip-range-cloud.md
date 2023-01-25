@@ -1,6 +1,9 @@
 ---
 summary: Learn how to find out the internal IP address range of your OutSystems Cloud.
 tags: support-Cloud_Platform; support-devOps; support-troubleshooting.
+locale: en-us
+guid: 4b1ae768-0a96-45b1-8eb5-b5590ac28274
+app_type: traditional web apps, mobile apps, reactive web apps
 ---
 
 # Find out Internal IP Address Range of Your OutSystems Cloud {#ip-range-outsystems-cloud}

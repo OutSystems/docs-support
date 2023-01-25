@@ -1,6 +1,9 @@
 ---
 summary: This article describes how to restore the OutSystems database to a different database server.
 tags:
+locale: en-us
+guid: 346a4452-9ede-4346-aeb3-9455a48e99cc
+app_type: traditional web apps, mobile apps, reactive web apps
 ---
 
 # Restore OutSystems database to a different DB Server
@@ -80,7 +83,7 @@ In each application server, execute the following steps:
 
 1. Open the Configuration Tool.
 
-1. Confirm the database connection details in **Database** and  tabs, and change them if necessary.
+1. Confirm the database connection details in Database related tabs (**Platform**, **Session** and **Log**) and change them if necessary.
 
 1. Start IIS.
 
@@ -92,7 +95,9 @@ In each application server, execute the following steps:
 
 1. Ensure all OutSystems Services are running.
 
-1. Create a solution with all the modules and click [**Apply settings**](https://success.outsystems.com/Support/Enterprise_Customers/Maintenance_and_Operations/Applying_Configurations_in_Service_Center#Apply_Pending_Settings_to_a_Set_of_Modules)
+1. Create a solution with all the modules and click [**Apply settings**](https://success.outsystems.com/Support/Enterprise_Customers/Maintenance_and_Operations/Applying_Configurations_in_Service_Center#Apply_Pending_Settings_to_a_Set_of_Modules).
+
+1. If there is a warning to republish the modules, publish the solution by clicking **Publish** for the **Current Running Version**.
 
 
 ### Step 3. Decommission the old database server 

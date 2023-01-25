@@ -1,6 +1,9 @@
 ---
 summary: Identify, mitigate, and fix a known issue in Platform Server version 11.10.0 onwards. This happens when the path to the Platform Server folder has a symbolic link.
 tags: known-issues
+locale: en-us
+guid: 9d238745-abc2-4500-9048-17cab2d562ad
+app_type: traditional web apps, mobile apps, reactive web apps
 ---
 
 # Known issue in 11.10.0 - possible downtime after running Configuration Tool

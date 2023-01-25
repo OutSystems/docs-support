@@ -1,6 +1,9 @@
 ---
 summary: If you request a license for an environment, we'll send an email with it. Go to the environment management console to install the new license.
 en_title: 04 How to install a license file
+locale: en-us
+guid: 901b198a-6fac-460e-b661-9a76c2e1093b
+app_type: traditional web apps, mobile apps, reactive web apps
 ---
 
 # How to install a license file
@@ -24,6 +27,7 @@ Follow these steps to install the license file on your environment:
 ![](images/howto-install-license_0.png)
 
 <div class="info" markdown="1">
+
 License files are bound to a given environment / Serial Number and if you try to install them on other environments you'll get an error.
 </div>
 
@@ -35,4 +39,4 @@ You should also check:
 
 * [How to get a license file for an environment](get-license-for-env.md)
 
-* [OutSystems Platform Licensing FAQ](../overview/how-licensing-works.md)
+* [Identify OutSystems infrastructure and runtime environments](https://success.outsystems.com/Support/Licensing/Understanding_how_to_identify_OutSystems_infrastructure_and_runtime_environments)

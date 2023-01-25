@@ -1,0 +1,31 @@
+---
+isautopublish: false
+pageprivacy: public
+---
+
+<h2 id="development_environment_11.6.1">Development Environment 11.6.1</h2>
+<div class="info">
+Released on Oct 02, 2019
+</div>
+<h3 id="new_in_development_environment_11.6.1">New in Development Environment 11.6.1</h3>
+<ul>
+<li><b>You can now create a new type of app, <a href="https://www.outsystems.com/DocRouter/Router.aspx?PlatformToolName=ServiceStudio&amp;PlatformVersionNumber=11.0&amp;HelpId=30195">Reactive Web App</a>.</b> This type of app is based on the client-side development paradigm. Reactive App comes with its own new features: Table Widget, server-side pagination, and Public Screens. (RTAF-115)</li>
+<ul>
+<li><a href="https://www.outsystems.com/DocRouter/Router.aspx?PlatformToolName=ServiceStudio&amp;PlatformVersionNumber=11.0&amp;HelpId=30198">Table Widget</a>, available in the <a href="https://www.outsystems.com/DocRouter/Router.aspx?PlatformToolName=ServiceStudio&amp;PlatformVersionNumber=11.0&amp;HelpId=30195">Reactive Web</a> apps, comes with an accelerator: drag an Entity on it to create a table with sorting and pagination. Use tables to show data in cells distributed in rows and columns. (RTAF-204)</li>
+<li>Use the server-side pagination feature of the Screen Aggregates to build faster apps that need to handle large data sets. Enter the Start Index and fetch the number of records you define in Max Records. (RTAF-630)</li>
+<li>Public Screens will allow you to reuse UI across different Reactive Web modules and apps. Because the UI can be modular, you can now have more complex UI modules that you can maintain efficiently. You can collaborate better without merge conflicts, as one team can be working on the logic module, while the other is updating the UI module. (RTAF-198)</li>
+<li>Download Tool is available in Reactive Apps. Now you can drag a Download Tool to your Flow and create a node which, when executed, sends a file for download to the end-user. (RTAF-993)</li>
+</ul>
+<li>You can now create <a href="https://success.outsystems.com/Documentation/11/Developing_an_Application/Reuse_and_Refactor/Libraries">Libraries</a> in Mobile and Reactive Web apps. This new module type is specially tailored for building highly reusable logic and UI and fits directly in the Foundation layer of the 4 Layer Canvas. This feature requires OutSystems Platform Server 11 Release Oct.2019. (RSBO-811)</li>
+<li>The Dropdown Widget has a new property Options Content, which you can set to Text Only or Custom. Text Only gives a native look and feel of the drop-down lists in your Reactive and Mobile apps. Use Options Content property set to Custom to build a list of images or other Widgets. (RTAF-1208)</li>
+<li>Button Widgets in Mobile and Reactive Apps now have the Is Form Default property, which you can set to Yes and make the App submit the data from the related form when the end-user presses the Enter key. (RTAF-943)</li>
+<li>Now you can create <a href="https://success.outsystems.com/Documentation/11/Reference/OutSystems_Language/Data/Handling_Data/Client_Variable">Client Variables</a> in Mobile and Reactive Apps. Use Client Variables to store Basic Data Types locally or share the values across apps through public Blocks and public Client Actions. (RTAF-1052)</li>
+<li>We improved Data Sources and made asynchronous data fetching straightforward to use in Mobile and Reactive Apps. Screen Aggregates and Data Actions are now available in the scope of other Screen Aggregates and Data Actions. We also added the Fetch property with On Start and On Demand options. Now you can implement patterns such as master/detail with excellent performance and user experience. (RTAF-992)</li>
+<li>Added mobile debugger support to iOS13. (RTAF-1349)</li>
+</ul>
+<h3 id="bug_fixing_11.6.1">Bug Fixing</h3>
+<ul>
+<li>Fixed crash while loading modules with Dropdown widgets that contain direct children like IF, Web Block Instance, or Text. (RTAF-1433)</li>
+<li>Fixed the text formatting of the "More Information" field in dialog boxes. (RMAC-1392)</li>
+<li>Fixed rare crash when scrolling through the screen editor. (RTAF-999)</li>
+</ul>

@@ -1,0 +1,32 @@
+---
+isautopublish: false
+pageprivacy: public
+---
+
+<h2 id="development_environment_release_5">Development Environment Release 5</h2>
+<div class="info">
+
+Released on Nov 26, 2018
+</div>
+<h3 id="new_in_development_environment_release_5">New in Development Environment Release 5</h3>
+<ul>
+<li>It's no longer possible to select MySQL as the database platform when creating an extension in Integration Studio since MySQL is only supported in OutSystems 11 as an external database. (RINT-2872)</li>
+</ul>
+<h3 id="bug_fixing_release_5">Bug Fixing</h3>
+<ul>
+<li>Fixed a crash in mobile apps when dropping over a widget and the modifier keys Shift or Control were pressed. (RICT-1119)</li>
+<li>We fixed a bug that prevented you from installing Charts or OutSystems Now from Forge in some situations, causing the message "Application cannot be safely installed in your environment" to show. (ABE-1289)</li>
+<li>You can now set OutSystems to reject the requests for non-supported image formats. In "Factory Configuration" Forge component, go to Security and check the option "Enforce Valid Image Formats on Image and Binary Endpoints". The valid image formats are GIF, PNG, and JPEG. The setting applies to the images the end-users upload through the applications created in OutSystems. (RRCT-2002)</li>
+<li>Recovering a module will now correctly validate calculated attributes that reference a group by attribute in an aggregate. (RPD-3599)</li>
+<li>Fixed an issue that would override the name of a new screen when created through a "link to new screen" within a List Item. (RAFT-1670)</li>
+<li>Extended the search of widgets to support keywords so that the search "textarea" or "text area" returns the widget Text Area for web applications and the Text Area and Input widgets for mobile applications. (RAFT-1671)</li>
+<li>Textual merge capability is now extended to translation messages. Fixed display issues with translations in merge context. (RCOT-1964)</li>
+<li>Service Studio no longer crashes when you convert a REST variable (Local Variable, Input Parameter or Output Parameter) to another type of REST variable. (RICT-1125)</li>
+<li>In the Aggregate editor, it is now possible to click the "navigate to"/eye icon for a Source that no longer exists in the Module without causing a crash. (RICT-1124)</li>
+<li>Dragging multiple Entities to an Entity Diagram that contains a Comment element no longer causes a crash. (RICT-1123)</li>
+<li>Using Manage Dependencies to add a reference to a nested Web Block no longer adds unnecessary references. (RPD-3521)</li>
+<li>Fixed an intermittent merge issue that caused a crash while merging an action with errors. (RICT-1072)</li>
+<li>Solved Service Studio freezes when debugging applications. (RICT-902)</li>
+<li>Fixed a crash opening the context menu in a selected part of a flow when a connector was selected before a node. (RIUT-532)</li>
+<li>Fixed Service Studio hang when opening Manage Dependencies window. (RPD-3612)</li>
+</ul>

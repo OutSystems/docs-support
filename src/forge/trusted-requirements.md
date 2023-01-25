@@ -1,32 +1,31 @@
 ---
-summary: Know the set of requirements that a component shared in Forge must comply with to be considered a Trusted component.
+summary: Know the set of requirements that a asset shared in Forge must comply with to be considered a Trusted asset.
 tags: forge; forge_support; trusted
+locale: en-us
+guid: a5774b9a-751e-4df6-889a-9f54f363ac40
+app_type: traditional web apps, mobile apps, reactive web apps
 ---
 
-# Trusted components requirements
+# Trusted asset requirements
 
-[OutSystems Forge](https://www.outsystems.com/forge/) provides a large set of reusable components that helps accelerate application delivery. These components are made available by our community users and by OutSystems.
+[OutSystems Forge](https://www.outsystems.com/forge/) provides a large set of reusable assets that help accelerate application delivery. These assets are made available by our community users and by OutSystems.
 
-When using Forge components, make sure they're part of the quality process already in place in your team. When searching for components in OutSystems Forge, take into consideration that some components have a curation stamp. Using the following curated components can ease your quality assurance process:
+When searching for assets in OutSystems Forge, take into consideration that some have a curation stamp - either **OutSystems Supported** or **Trusted**. Using the curated assets can ease your quality assurance process.
 
-* **OutSystems Supported components** - developed, maintained, and supported by OutSystems
-* **Trusted components** - developed and shared by the OutSystems Community; validated by the OutSystems Curation team to ensure these components deliver the promised functionality and are built based on best practices
+* **OutSystems Supported assets** - developed, maintained, and supported by OutSystems.
+* **Trusted assets** - developed and shared by the OutSystems Community. Validated by the OutSystems Curation team to ensure these assets deliver the promised functionality and are built based on best practices.
 
-![OutSystems Forge](images/trusted-components-fg.png?width=900)
+![OutSystems Forge](images/trusted-assets-fg.png)
 
-This article describes the set of requirements that a component shared in Forge must comply with to be considered a **Trusted** component.
+This article describes the set of requirements that an asset shared in Forge must comply with to be considered a **Trusted** asset. To request a trusted badge for your asset, select **Request trusted badge** from the **Manage** dropdown.
 
-If you want to share your component with the OutSystems Community and have it trusted by the OutSystems Curation team, make sure your component complies with the requirements listed below.
+![Request trusted badge](images/request-trusted-badge-button-fg.png)
 
-<div class="info" markdown="1">
+If you want to share your asset with the OutSystems Community and have it trusted by the OutSystems Curation team, you must ensure that your asset complies with the requirements listed below.
 
-Currently, the OutSystems Curation team is evaluating components based on their usage. Soon, the OutSystems community will be able to request a curation stamp for their components through a process to be shared later.
+## Requirements for trusted assets
 
-</div>
-
-## Requirements for trusted components
-
-Trusted components must comply with quality standards within the following categories:
+Trusted assets must comply with quality standards within the following categories:
 
 * Forge presence
 * Installation
@@ -40,53 +39,60 @@ Trusted components must comply with quality standards within the following categ
     * Compliance
 * Support and maintenance
 
-The following sections describe the requirements that trusted components must meet for each category.
+The following sections describe the requirements that trusted assets must meet for each category.
 
 ### Forge presence
 
-The component information in Forge must be clear and complete. For this, the component must have the following characteristics:
+The asset information in Forge must be clear and complete. For this, the asset must have the following characteristics:
 
-* Have a meaningful name, a clear description and a clear short description
-* Be correctly categorized and tagged
-* Have the correct application type
-* Indicate the correct requirements
-* Include screenshots
-* New versions of the component must indicate in detail what changed and be correctly categorized and tagged
+* A meaningful name, a clear long description and a clear short description
+* Correctly categorized and tagged
+* Correct type (for example, Reactive, Mobile or Service Web)
+* Correct requirements
+* Screenshots
+* Dependencies that are trusted or supported by OutSystems
+* Documentation
+* Demo
+* Release notes (New versions of the asset must indicate in detail what changed and be correctly categorized and tagged.)
+
+    ![Asset release notes](images/release-notes-fg.png)
+
+For more information on how to create clear and complete assets, see [Forge assets best practices](https://success.outsystems.com/Documentation/Best_Practices/Development/Forge_components_best_practices?_gl=1*nxd83y*_ga*MjI3NTY0NTA3LjE2NTk1MzQ4MzE.*_ga_ZD4DTMHWR2*MTY2MTg1NDk3My4zMy4xLjE2NjE4NTUxNzUuOC4wLjA)
 
 ### Installation
 
-The component must install successfully. For a component to install successfully, the following requirements must be met:
+The asset must install successfully. For an asset to install successfully, the following requirements must be met:
 
 * No missing dependencies
-* No dependencies to other Forge components that have been deprecated
-* Documentation describing any type of additional configuration needed before using the component (for example, run Timers, Site Properties configuration, external services configuration)
+* No dependencies to other Forge assets that have been deprecated
+* Documentation describing any type of additional configuration needed before using the asset (for example, Run Timers, Site Properties configuration, external services configuration).
 
 ### Functionality
 
-The component must work as expected. For this, the component must have the following characteristics:
+The asset must work as expected. For this, the asset must have the following characteristics:
 
 * Provide the described functional requirements, functions, and use cases
 * Use functionality that's not deprecated, considering the features released by the latest OutSystems versions (for example, deprecated system actions)
 
 ### Usability
 
-The component must be easy to use. For this, the component must include the following:
+The asset must be easy to use. For this, the asset must include the following:
 
 * Clear and concise documentation, describing the provided functionality
 * Documentation of all actions (for example, Timers that run on publish or periodically)
-* Documentation of any implementation pattern that's specific to the component’s usage (for example, the need to use Blocks/Actions/Entities in a specific order)
+* Documentation of any implementation pattern that's specific to the asset’s usage (for example, the need to use Blocks/Actions/Entities in a specific order)
 * Clear and helpful description for all public elements
-* When possible, have an associated demo component showcasing all the provided functionality
+* When possible, have an associated demo asset showcasing all the provided functionality
 
 ### Implementation
 
-Trusted components must comply with the implementation best practices described in this section. The OutSystems Curation team uses the [Architecture Dashboard](https://success.outsystems.com/Documentation/Architecture_Dashboard/Code_Patterns) to perform the necessary validations.
+Trusted assets must comply with the implementation best practices described in this section. The OutSystems Curation team uses the [AI Mentor Studio](https://success.outsystems.com/Documentation/11/Managing_the_Applications_Lifecycle/Manage_technical_debt/Code_Patterns) to perform the necessary validations.
 
 #### Architecture
 
-Components comprising a whole application must follow the [best practices for application architecture design](../enterprise/maintenance/architecture/intro.md), which determines the organization of the application modules according to the layers described in the [OutSystems Architecture Canvas](../enterprise/maintenance/architecture/01-4-layer-canvas.md) (End-user, Core, and Foundation modules).
+Assets comprising a whole application must follow the [best practices for application architecture design](https://success.outsystems.com/Documentation/Best_Practices/Architecture/Designing_the_Architecture_of_Your_OutSystems_Applications), which determines the organization of the application modules according to the layers described in the [OutSystems Architecture Canvas](https://success.outsystems.com/Documentation/Best_Practices/Architecture/Designing_the_Architecture_of_Your_OutSystems_Applications/The_Architecture_Canvas) (End-user, Core, and Foundation modules).
 
-The component architecture must comply with the following rules:
+The asset architecture must comply with the following rules:
 
 * End-user modules/applications don’t provide services
 * Foundation modules/applications don’t consume Core modules/applications
@@ -95,22 +101,26 @@ The component architecture must comply with the following rules:
 * Foundation modules don’t provide services to sublayers
 * Expose Public Entities as read-only
 
+For more information about  architecture, see [Code Analysis Patterns - Architecture](https://success.outsystems.com/Documentation/11/Managing_the_Applications_Lifecycle/Manage_technical_debt/Code_Analysis_Patterns#architecture).
+
 #### Security
 
-The component must comply with the following security standards:
+The asset must comply with the following security standards:
 
 * Expand Inline properties in SQL Query Parameters are disabled or sanitized
 * No unescaped/unencoded user inputs or screen variables (applies to Traditional Web only)
 * Only enabled buttons are visible (to prevent enabling disabled buttons at runtime using development tools on a browser)
 * Exposed REST services enforce SSL/TLS and require authentication
 * No anonymous screens unless they are strictly necessary
-* No APIs that send or collect data to external services out of the component scope
+* No APIs that send or collect data to external services out of the asset scope
 * No functionalities that can be misused with malicious intent (for example, allow the upload and execution of binary files)
 * No manipulation of system tables
 
+For more information about security, see [Code Analysis Patterns - Security](https://success.outsystems.com/Documentation/11/Managing_the_Applications_Lifecycle/Manage_technical_debt/Code_Analysis_Patterns#security)
+
 #### Performance
 
-The component must comply with the following performance best practices:
+The asset must comply with the following performance best practices:
 
 * Aggregates or SQL queries Count property is never used to check if results were returned
 * SQL queries Count property is always used in simplified SQL queries
@@ -125,27 +135,33 @@ The component must comply with the following performance best practices:
 * No query data passing from Preparation to Screen Actions through the ViewState (applies only to Traditional Web)
 * No screen Local Variables of type Compound or Collection (applies only to Traditional Web)
 
+For more information about performance, see the [OutSystems Platform Best Practices - Performance](https://success.outsystems.com/Documentation/Best_Practices/Development/OutSystems_Platform_Best_Practices#performance).
+
 #### Code maintainability
 
-The component code must be easy to maintain. For this, the following requirements must be met:
+The asset code must be easy to maintain. For this, the following requirements must be met:
 
-* Preparation and Screen Actions have less than 20 nodes, otherwise have Comments describing the logic
-* Server Actions and Client Actions have less than 40 nodes, otherwise have Comments describing the logic
+* Preparation and Screen Actions have less than 20 nodes, otherwise they must have Comments describing the logic
+* Server Actions and Client Actions have less than 40 nodes, otherwise they must have Comments describing the logic
 * No disabled code
-* Extension components have external libraries installed in Microsoft Visual Studio, preferably via NuGet Package Manager
+* Extension assets have external libraries installed in Microsoft Visual Studio, preferably via NuGet Package Manager
+
+For more information about code maintainability, see [Code Analysis Patterns - Maintainability](https://success.outsystems.com/Documentation/11/Managing_the_Applications_Lifecycle/Manage_technical_debt/Code_Analysis_Patterns#maintainability) 
 
 #### Compliance
 
-The component must ensure license compliance. For this, all external libraries (JavaScript libraries in modules and libraries in extensions) must be used correctly according to their license terms.
+The asset must ensure license compliance. For this, all external libraries (JavaScript libraries in modules and libraries in extensions) must be used correctly according to their license terms.
 
 ### Maintenance and support
 
-The component must be kept up to date. For this, the component must have the following characteristics:
+The asset must be kept up to date. For this, the asset must have the following characteristics:
 
 * Available in the latest OutSystems version
-* Description and documentation must be up to date with the latest component version
+* Description and documentation must be up to date with the latest asset version
 
-The component’s owner must provide the following required support:
+The asset owner must provide the following required support:
 
 * Reply to any comments or questions
 * Solve the reported errors
+
+

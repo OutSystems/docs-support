@@ -1,6 +1,9 @@
 ---
 summary: Case Definition with the Id <case-definition-identifier-value> can't be purged. Change the PurgeTypeId to allow it.
 tags:
+locale: en-us
+guid: 005f77d0-8e61-46ec-8395-1d3a3ec93e8a
+app_type: traditional web apps, mobile apps, reactive web apps
 ---
 
 # OS-CMFR-GEN-00033

@@ -2,9 +2,12 @@
 summary: Connectivity problems with Integration/Workflow/Experience Builder
 tags:
 helpids: 30403
+locale: en-us
+guid: 2d4d101e-fdac-4eab-a7a1-b1fbe4a4b742
+app_type: traditional web apps, mobile apps, reactive web apps
 ---
 
-# Integration/Workflow/Experience Builder cannot connect to your environment
+# Integration - Workflow - Experience Builder cannot connect to your environment
 
 
 ## Error message

@@ -1,6 +1,9 @@
 ---
 summary: This user doesn't have any active delegations for you at the moment.
 tags:
+locale: en-us
+guid: e67333aa-8437-43df-b048-441b5a5f30bd
+app_type: traditional web apps, mobile apps, reactive web apps
 ---
 
 # OS-CMFR-GEN-20007

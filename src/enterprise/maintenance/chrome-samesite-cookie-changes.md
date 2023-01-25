@@ -1,5 +1,8 @@
 ---
 summary:
+locale: en-us
+guid: 5a2750dc-43e6-4404-85c3-413b433c630a
+app_type: traditional web apps, mobile apps, reactive web apps
 ---
 
 # Upcoming changes in cookie handling in Google Chrome 
@@ -7,20 +10,6 @@ summary:
 <div class="info" markdown="1">
 
 **Note:** The changes provided by OutSystems only affect servers that have the [latest changes for .NET Framework 4.7.2 and 4.8](https://docs.microsoft.com/en-us/aspnet/samesite/kbs-samesite) released by Microsoft.
-
-</div>
-
-<div class="internal" markdown="1">
-
-INTERNAL INFO: How to find if the installed .NET Framework already has the "SameSite" patch provided by Microsoft.
-
-Check the version of one of the updated DLLs, for example the following:  
-C:\Windows\Microsoft.NET\Framework64\v4.0.30319\\**System.Web.dll**
-
-The patch is included in the following versions:
-
-* For .NET Framework 4.7 – version **4.7.3535+**
-* For .NET Framework 4.8 – version **4.8.4075**
 
 </div>
 
@@ -76,7 +65,7 @@ Check [Google documentation](https://web.dev/samesite-cookie-recipes/) for addit
 
 If your OutSystems applications use iframes to display content from third-party sites, you may run into issues if those content providers require cookies to maintain session state or display personalized content.
 
-To overcome this issue, **the third-party content provider must implement some required changes on his side**.
+To overcome this issue, **the third-party content provider must implement some required changes on their side**.
 
 No changes should be necessary on the OutSystems side as long as communications to the provider are already being made over the HTTPS protocol. However, if these communications are still being done using the HTTP protocol instead of HTTPS, **you must change your OutSystems application**. The changes that the third-party provider will have to do require that cookies have the `Secure` attribute, and these cookies are only sent over the HTTPS protocol.
 

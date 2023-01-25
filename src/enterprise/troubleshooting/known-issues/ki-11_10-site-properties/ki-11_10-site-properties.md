@@ -1,6 +1,9 @@
 ---
 summary: Identify and fix a known issue when upgrading to Platform Server version 11.10.2 or higher. The error: Value cannot be null.Parameter name: key will be thrown when upon Service Center installation.
 tags:known-issues
+locale: en-us
+guid: a40fd69f-f60e-42c5-ad67-d5cdcda8dd1d
+app_type: traditional web apps, mobile apps, reactive web apps
 ---
 
 # Known issue after update to 11.10.2 - value cannot be null error installing Service Center 

@@ -1,6 +1,9 @@
 ---
 summary: Guide to establish a stable VPN connection to OutSystems PaaS
 tags: support-Cloud_Platform
+locale: en-us
+guid: eee4da25-8b13-4bac-b8e7-dae4ece8c3ec
+app_type: traditional web apps, mobile apps, reactive web apps
 ---
 # VPN connectivity and troubleshooting guide
 
@@ -75,7 +78,7 @@ OutSystems VPN has a mechanism called DPD that validates periodically the tunnel
 
 #### Solution
 
-Check the Dear Peer Detection (DPD) settings and ensure that:
+Check the Dead Peer Detection (DPD) settings and ensure that:
 
 * It's configured to [receive and respond to DPD messages](https://docs.aws.amazon.com/vpc/latest/adminguide/Introduction.html#FirewallRules).
 * It's not too busy to respond to DPD messages from OutSystems VPN peers.
@@ -309,5 +312,3 @@ If your VPN uses **dynamic** routing, or your LifeTime version still doesn't sup
 ## Further assistance
 
 Still not working? If the issue persists, [contact OutSystems Support](https://success.outsystems.com/Support/Enterprise_Customers/OutSystems_Support/01_Contact_OutSystems_technical_support "contact OutSystems Support").
-
-You can [open a support case](https://success.outsystems.com/Support/Enterprise_Customers/OutSystems_Support/02_How_to_Open_a_Support_Case) and ensure to include the current VPN configuration, some VPN logs, or any related error messages. Then, a support engineer will help you troubleshoot your configuration, and if necessary schedule a conference call with all interesting parties to address it faster.

@@ -1,6 +1,9 @@
 ---
 summary: Check here the possible errors that you can get when creating a VPN connection to your OutSystems Cloud and how to proceed for each case.
 tags:
+locale: en-us
+guid: 9b339da0-8b05-4388-83b4-f8cb8f6b5d9a
+app_type: traditional web apps, mobile apps, reactive web apps
 ---
 
 # Possible errors when setting up a VPN to your OutSystems Cloud
@@ -158,7 +161,7 @@ Message
 :   `It is not possible to add <N> routes. The maximum number of routes is <Max> and there are only <N> available.`
 
 Cause
-:   You have reached the maximum of 25 routes for your VPN connections. You can't add more routes.
+:   You have reached the maximum of 20 routes for your VPN connections. You can't add more routes.
 
 Recommendation
 :   Don't use this route, or modify the existing routes to accommodate the required IP range. You can check the existing routes in your LifeTime console, under **Environments > Options > VPN Management**. Alternatively, consider managing the connectivity between your data centers and the OutSystems Cloud [using an AWS Transit Gateway](../connect-tgw.md).

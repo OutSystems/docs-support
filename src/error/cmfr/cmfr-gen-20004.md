@@ -1,6 +1,9 @@
 ---
 summary: The activity must be assigned to a user before it can be released.
 tags:
+locale: en-us
+guid: 7994c79c-d2d7-42f3-b874-e2131968d78c
+app_type: traditional web apps, mobile apps, reactive web apps
 ---
 
 # OS-CMFR-GEN-20004

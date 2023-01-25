@@ -1,6 +1,9 @@
 ---
 summary: It looks like you don't have access. Make sure you're logged in with a registered user.
 tags:
+locale: en-us
+guid: bb0bbe53-0079-4942-8ebf-8885804c910f
+app_type: traditional web apps, mobile apps, reactive web apps
 ---
 
 # OS-CMFR-GEN-20001

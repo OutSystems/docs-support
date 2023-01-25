@@ -1,5 +1,8 @@
 ---
 summary: Instructions to replace the license of one existing infrastructure from one Activation Code to another.
+locale: en-us
+guid: 4a4212cb-75d1-4b18-bdfb-a1b4cdc6b1b6
+app_type: traditional web apps, mobile apps, reactive web apps
 ---
 
 # How to change the Activation Code of your infrastructure
@@ -47,7 +50,7 @@ Don't change your Activation Code if **any** of the following apply:
 
 ## Changing the Activation Code
 
-Before changing the Activation Code,  read the complete procedure first. If you have any questions, contact [OutSystems Support](https://success.outsystems.com/Support). 
+Before changing the Activation Code,  read the complete procedure first. If you have any questions, contact [OutSystems Support](https://success.outsystems.com/Support).
 
 To move from the previous Activation Code (AAA in this text) to the new Activation Code (BBB in this text), follow these steps:
 
@@ -65,9 +68,9 @@ To move from the previous Activation Code (AAA in this text) to the new Activati
 
     a. Install the OutSystems **ActivationCodeCheck** application.
 
-      * For OutSystems 11, install [ActivationCodeCheck](../licensing/ipp/files/ActivationCodeCheck-O11.oap)
+      * For OutSystems 11, install [ActivationCodeCheck](resources/ActivationCodeCheck-O11.oap)
 
-      * For OutSystems 10, install [ActivationCodeCheck](../licensing/ipp/files/ActivationCodeCheck-O10.oap)
+      * For OutSystems 10, install [ActivationCodeCheck](resources/ActivationCodeCheck-O10.oap)
 
     b. Open the application and log in with your IT user.
 

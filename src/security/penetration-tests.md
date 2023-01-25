@@ -1,6 +1,9 @@
 ---
 summary: Support for penetration tests and vulnerability scans, explore the false positives findings.
 tags:
+locale: en-us
+guid: 43176740-324f-4592-a993-5d4f9fa660fb
+app_type: traditional web apps, mobile apps, reactive web apps
 ---
 
 # Penetration testing
@@ -8,13 +11,13 @@ tags:
 ## Overview
 
 As a subscription customer, you may wish to perform penetration tests or vulnerability scans. This is possible as long as they're limited to your own OutSystems Cloud, hybrid, or self-managed infrastructure.
-For OutSystems Cloud, the tests are limited to the assets under the responsability of the **Customer** as described under the [OutSystems shared responsability model](https://success.outsystems.com/Support/Enterprise_Customers/Maintenance_and_Operations/OutSystems_Cloud_Shared_Responsibility_Model).
+For OutSystems Cloud, the tests are limited to the assets under the responsability of the **Customer** as described under the [OutSystems shared responsability model](../enterprise/maintenance/cloud-shared-responsibility.md).
 
 ## Before you start
 
-To avoid generating false positive findings, make sure you consult the [OutSystems Platform Hardening](https://success.outsystems.com/Support/Enterprise_Customers/Maintenance_and_Operations/OutSystems_Platform_Hardening) documentation. 
+To avoid generating false positive findings, make sure you consult the [OutSystems Platform Hardening](platform-server-hardening.md) documentation. 
 
-To find all the procedure details necessary to perform penetration tests and vulnerability scans in your OutSystems cloud environments, refer to [Load and penetration tests on Outsystems Cloud](https://success.outsystems.com/Support/Security/Load_tests_and_penetration_tests_in_the_OutSystems_PaaS).
+To find all the procedure details necessary to perform penetration tests and vulnerability scans in your OutSystems Cloud environments, refer to [Load and penetration tests on OutSystems Cloud](penetration-test-cloud.md).
 
 ## Reviewing the results { #review-results }
 
@@ -41,12 +44,17 @@ The jQuery versions 1.0.3 to 3.5.0 are vulnerable to the possible execution of u
 
 Some penetration testing tools may flag OutSystems as having a vulnerable jQuery-ui-dialog library.
 
-OutSystems uses jQuery-ui-dialog version 1.8.24 which has a vulnerability known to this version - [CVE-2010-5312](https://www.cvedetails.com/cve/CVE-2010-5312/). This vulnerability relates to the title() function, potentially allowing for unescaped content to be inserted in the title and causing a Cross Site Scripting problem.
+OutSystems uses jQuery-ui-dialog version 1.8.24 which has a vulnerability known to this version - [CVE-2010-5312](https://www.cvedetails.com/cve/CVE-2010-5312/). This vulnerability relates to the title() function, potentially allowing for unescaped content to be inserted in the title and causing a cross site scripting problem.
 
 All uses of the affected function by OutSystems properly encode the input parameter. As such, OutSystems isn't vulnerable despite this vulnerability still being present in jquery-ui-dialog.
 
 As for applications developed by your users which make use of this library, you should ensure that you encode the input to the title() function correctly. Alternatively, you can import your own version of jquery-ui-dialog into a different namespace and use that version instead.
 
+#### jQuery-ui-tooltip flagged as a potentially vulnerable library
+
+Some penetration testing tools may flag OutSystems as having a vulnerable jQuery-ui-tooltip library - [CVE-2012-6662](https://nvd.nist.gov/vuln/detail/cve-2012-6662). 
+
+OutSystems doesn't use jQuery-ui-tooltip widget. It's not present on our code.
 
 ## Support from OutSystems
 
@@ -59,22 +67,22 @@ Support's reply may include the following:
 
 * A reasoned identification of false positives.
 * A reasoned adjustment of severity based on the specifics of the technical environment.
-* An escalation of eventual product defects to `R&D`.
+* An escalation of eventual product defects to R&D.
 
 Furthermore, the following tables can help you understand the responsibilities and expectations by deployment model:
 
-**OutSystems cloud & hybrid**
+**OutSystems Cloud & hybrid**
 
 |            | Responsibilities |Expectations  |
 |------------|------------------|--------------|
 | Customer   | <ul><li>Deploy and manage OutSystems on self managed servers</li><li>Execute the penetration tests</li></ul>|<ul><li>The customer has knowledge of how to configure and manage OutSystems and underlying technologies</li><li>The customer has knowledge of the tool(s) used to perform penetration tests</li><li>The customer is responsible for executing the tests, collecting the results, reviewing the results, performing the necessary correction and re-checking</li></ul>|
-| OutSystems | <ul><li>Maintain and manage OutSystems cloud</li><li>Help customers set up the hybrid infrastructure</li><li>Provide support to customers on issues related to the product and deployment</li></ul>|<ul><li>Has expert knowledge on OutSystems cloud</li><li>Has expert knowledge on OutSystems</li><li>Is able to help customers with OutSystems related issues [(support terms)](https://success.outsystems.com/Support/Enterprise_Customers/OutSystems_Support/Support_terms_and_service_level_agreements_(SLA)_of_the_OutSystems_software)</li><li>Is able to reply to Customer questions</li></ul>|
+| OutSystems | <ul><li>Maintain and manage OutSystems Cloud</li><li>Help customers set up the hybrid infrastructure</li><li>Provide support to customers on issues related to the product and deployment</li></ul>|<ul><li>Has expert knowledge on OutSystems cloud</li><li>Has expert knowledge on OutSystems</li><li>Is able to help customers with OutSystems related issues [(support terms)](https://www.outsystems.com/legal/success/support-terms-and-service-level-agreements-sla-of-the-outsystems-software/)</li><li>Is able to reply to Customer questions</li></ul>|
 
 **Self-managed**
 
 |            | Responsibilities| Expectations |
 |------------|-----------------|--------------|
 | Customer   | <ul><li>Deploy and manage OutSystems on self managed servers</li><li>Execute the penetration tests</li></ul>|<ul><li>The customer has knowledge of how to configure and manage OutSystems and  underlying technologies</li><li>The customer has knowledge of the tool(s) used to perform penetration tests</li><li>The customer is responsible for executing the tests, collecting the results, reviewing the results, performing the necessary correction and re-checking</li></ul>| 
-| OutSystems | <ul><li>Provide support to customers on issues related to the product</li></ul>|<ul><li>Has expert knowledge on OutSystems</li><li>Is able to help Customers with OutSystems related issues [(support terms)](https://success.outsystems.com/Support/Enterprise_Customers/OutSystems_Support/Support_terms_and_service_level_agreements_(SLA)_of_the_OutSystems_software)</li><li>Is able to reply to customer questions</li></ul>|
+| OutSystems | <ul><li>Provide support to customers on issues related to the product</li></ul>|<ul><li>Has expert knowledge on OutSystems</li><li>Is able to help Customers with OutSystems related issues [(support terms)](https://www.outsystems.com/legal/success/support-terms-and-service-level-agreements-sla-of-the-outsystems-software/)</li><li>Is able to reply to customer questions</li></ul>|
 
 

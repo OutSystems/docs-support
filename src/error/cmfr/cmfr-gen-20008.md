@@ -1,6 +1,9 @@
 ---
 summary: The activity couldn't be closed, either because you're missing the required access or it was already closed.
 tags:
+locale: en-us
+guid: 3f78f979-3c62-4f73-a331-09781baf2ee5
+app_type: traditional web apps, mobile apps, reactive web apps
 ---
 
 # OS-CMFR-GEN-20008

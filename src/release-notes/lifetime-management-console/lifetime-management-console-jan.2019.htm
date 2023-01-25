@@ -1,0 +1,27 @@
+---
+isautopublish: false
+pageprivacy: public
+---
+<h2 id="lifetime_management_console_release_jan.2019">LifeTime Management Console Release Jan.2019</h2>
+<div class="info">
+
+<p>Released on Jan 15, 2019</p>
+
+</div>
+<h3 id="new_in_lifetime_release_jan.2019">New in LifeTime Release Jan.2019</h3>
+<ul>
+<li>When deploying a mobile application to the next staging environment, LifeTime now uses the Mobile Apps Build Service (MABS) version associated with the application tag being deployed. The mobile app version and the MABS version for the deployed application are now displayed during the staging, as well as in the Application Version History page. (RLIT-2380)</li>
+</ul>
+<h3 id="bug_fixing_release_jan.2019">Bug Fixing</h3>
+<ul>
+<li>Increased visibility on how to access a deployment plan that propagates hotfixes backward. (RPD-2789)</li>
+<li>Fixed issue in LifeTime synchronization process that blocks applications from being synced. (RLIT-2379)</li>
+<li>Improved the environment registration wizard UI for lower screen sizes, avoiding the overlap of screen elements. (RLIT-2374)</li>
+<li>The summary step of the environment registration wizard now shows the correct value for the "Environment Position in Infrastructure". (RLIT-2372)</li>
+<li>Fixed an issue in the synchronization process of environment features to LifeTime which could cause LifeTime misbehavior. (RLIT-2365)</li>
+<li>Fixed a "Module with key <key> was not found" error during the environment synchronization. (RPD-3662)</key></li>
+<li>Decreased the time that LifeTime takes to display the error message of deployments that failed to generate the mobile app package. (RPD-3064)</li>
+<li>Updated the version of Charts application distributed with LifeTime. (RLIT-2357)</li>
+<li>Fixed an error in LifeTime Deployment API v2 while deploying applications to containers. (RLIT-2338)</li>
+<li>We fixed a bug in Lifetime Analytics that caused low performance and time-outs in scenarios where more than one environment has monitoring enabled. We did this by correcting an internal timer responsible for harvesting and grouping data used in Lifetime Analytics. (RPD-3600)</li>
+</ul>

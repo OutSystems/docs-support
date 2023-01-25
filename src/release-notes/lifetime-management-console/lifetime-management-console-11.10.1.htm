@@ -1,0 +1,19 @@
+---
+isautopublish: false
+pageprivacy: public
+---
+
+<h2 id="lifetime_management_console_11.10.1">LifeTime Management Console 11.10.1</h2>
+<div class="info">
+<p>Released on Jul 29, 2021</p>
+</div>
+<h3 id="bug_fixing_11.10.1">Bug Fixing</h3>
+<ul>
+<li>Improved the spacing and alignment between the application update options on the Distribution tab in the deployment wizard for mobile applications. This configuration is only available when the "Configure Mobile application updates distribution" Technical Preview feature is enabled. (R11CT-131)</li>
+<li>Fixed an issue in the endpoint "POST /deployments/{DeploymentKey}/{Command}/" of LifeTime API v2 causing a 500 Internal Server Error response when setting the "RedeployOutdated" parameter to false. (R11CT-186)</li>
+<li>Fixed an issue causing deployment plans to keep their status as Running after being forcefully terminated. (RPD-4852)</li>
+</ul>
+<h3 id="known_issues_11.10.1">Known Issues</h3>
+<ul>
+<li>In some advanced scenarios, LifeTime may consume an excessive amount of memory when validating a staging plan. In extreme scenarios, this may prevent the staging from being validated successfully. The problem is fixed in all LifeTime versions starting from 11.10.3.</li>
+</ul>

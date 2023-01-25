@@ -1,6 +1,9 @@
 ---
 summary: For scenarios that require the use of high bandwidth and a steady connection without network congestion, learn how to set up AWS Direct Connect linking your private network with OutSystems Cloud over a dedicated line.
 tags: support-Cloud_Platform; support-installation; support-Installation_Configuration; support-maintenance; support-devOps
+locale: en-us
+guid: 8a6372d7-7acc-4e88-98cd-41946233ca2d
+app_type: traditional web apps, mobile apps, reactive web apps
 ---
 
 # AWS Direct Connect on OutSystems Cloud
@@ -60,3 +63,13 @@ The following steps are required in order to conclude the Direct Connect integra
 2. Create a [hosted virtual interface](http://docs.aws.amazon.com/directconnect/latest/UserGuide/createhostedvirtualinterface.html) using the account ID provided by OutSystems. In case you are under scenario **B**, this step is performed by the AWS partner, to whom you need to provide the OutSystems Cloud AWS account ID.
 
 3. After this, [submit a new support case](https://success.outsystems.com/Support) requesting OutSystems to accept the newly created hosted connection.
+
+4. OutSystems accepts the newly created hosted connection. Customers can download configuration at their end and establish connectivity.
+
+<div class="info" markdown="1">
+
+By design, all OutSystems Cloud infrastructures have an internet gateway attached to the VPC, and the route-specific for the internet gateway is 0.0.0.0/0. Hence, if another route (0.0.0.0/0) is advertised from the customer end to the direct connect's routing table, the traffic will still be routed through the internet gateway as AWS will always prefer the shorted route.
+
+So, in this case, we recommend advertising specific subnets in the direct connection route table.
+
+</div>

@@ -1,6 +1,9 @@
 ---
 summary: Token error. <OriginalErrorMessage>.
 tags:
+locale: en-us
+guid: 27e9fff4-de23-40c7-ba8a-e2c3b7fdda09
+app_type: traditional web apps, mobile apps, reactive web apps
 ---
 
 # OS-WFBL-API-00002

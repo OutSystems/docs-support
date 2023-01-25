@@ -1,6 +1,9 @@
 ---
 summary: HIPAA compliance in OutSystems. This document describes how OutSystems can help you develop and secure your healthcare applications and data while complying with HIPAA security and privacy requirements.
 tags: article-page
+locale: en-us
+guid: 13c94c45-4142-48f8-a06b-733675577c1e
+app_type: traditional web apps, mobile apps, reactive web apps
 ---
 
 # HIPAA compliance - how OutSystems can help

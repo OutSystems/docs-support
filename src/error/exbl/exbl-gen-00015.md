@@ -1,6 +1,9 @@
 ---
 summary: The name of the file you've selected exceeds the character limit. Enter a name with up to <number-chars> characters.
 tags:
+locale: en-us
+guid: 6ff5c6d0-753f-4c70-a413-69c785e5224d
+app_type: traditional web apps, mobile apps, reactive web apps
 ---
 
 # OS-EXBL-GEN-00015

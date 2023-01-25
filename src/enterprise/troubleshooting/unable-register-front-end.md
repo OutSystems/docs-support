@@ -1,5 +1,8 @@
 ---
 summary: 
+locale: en-us
+guid: a1e5c82a-4d78-42f5-a426-0f92eb41932a
+app_type: traditional web apps, mobile apps, reactive web apps
 ---
 
 # Unable to register the Front-end Server. The server's connection string is different from the Deployment Controller's connection string
@@ -69,11 +72,11 @@ This happens because your front-end is being registered with a connection string
 
 The server's connection string is set in the Configuration tool. For example, the below could be a configuration for the Controller (screenshots below for .NET):
 
-![](images/unable-register-front-end_0.png)
+![Configuration for the Controller uppercase](images/unable-register-front-end-lowercase-ct.png)
 
 If your front-end does not have the exact same configuration, that message will appear. Note that the configuration is **case-sensitive**; the example below will cause the error:
 
-![](images/unable-register-front-end_1.png)
+![Configuration for the Controller lowercase](images/unable-register-front-end-uppercase-ct.png)
 
 As you can see in the example, the Controller node had database **devDB**; in this front-end, I wrote **DEVDB**, so I will have the error.
 

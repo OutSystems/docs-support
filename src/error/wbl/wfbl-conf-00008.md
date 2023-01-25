@@ -1,6 +1,9 @@
 ---
 summary: Template error. <OriginalErrorMessage>.
 tags:
+locale: en-us
+guid: 7d72d8b6-f845-4326-aa90-118dc708ba1f
+app_type: traditional web apps, mobile apps, reactive web apps
 ---
 
 # OS-WFBL-CONF-00008

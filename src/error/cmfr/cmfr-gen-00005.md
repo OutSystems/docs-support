@@ -1,6 +1,9 @@
 ---
 summary: WorkingHourStart must be set to a time before WorkingHourEnd.
 tags:
+locale: en-us
+guid: 9891f258-6e5f-4aed-a866-30d0e46241fc
+app_type: traditional web apps, mobile apps, reactive web apps
 ---
 
 # OS-CMFR-GEN-00005

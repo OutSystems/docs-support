@@ -1,6 +1,9 @@
 ---
 summary: This article describes how to remove the infrastructure management console (LifeTime) from a shared environment and installing it in a new dedicated environment.
 tags:
+locale: en-us
+guid: e7dcad56-9c9a-40c2-b798-dc70d3015564
+app_type: traditional web apps, mobile apps, reactive web apps
 ---
 # Reinstall the infrastructure management console in a dedicated environment
 
@@ -22,9 +25,9 @@ To reinstall LifeTime in a new dedicated environment the following requirements 
 
 * Have an **on-premises** installation.
 
-* Have an [available licensing slot](https://www.outsystems.com/licensing) to register the new Lifetime dedicated environment.
+* Have an [available licensing slot](https://www.outsystems.com/licensing) to register the new LifeTime dedicated environment.
 
-* The **LifeTime version** you are installing must be able to manage the **Platform Server version** running in your OutSystems environments. [Check here](../upgrade/lifetime-versions.md) which versions of Platform Server can LifeTime manage.
+* The **LifeTime version** you are installing must be able to manage the **Platform Server version** running in your OutSystems environments.
 
 * The operation is performed by a user with the built-in **Administrator** role in Service Center.
 
@@ -34,7 +37,7 @@ To reinstall LifeTime in a new dedicated environment the following requirements 
 
 ## Remarks
 
-* Reinstalling Lifetime in a different environment **keeps all application data in the environments controlled by LifeTime** (eg. Development, Test, Production).
+* Reinstalling LifeTime in a different environment **keeps all application data in the environments controlled by LifeTime** (eg. Development, Test, Production).
 
 * The following **LifeTime specific data will be lost**:
 
@@ -56,7 +59,7 @@ To reinstall LifeTime in a new dedicated environment the following requirements 
 
 * From version OutSystems 11 onwards, **LifeTime doesn't support farm configuration**. You must install a single server with both Deployment Controller and Server roles.
 
-## Reinstall LifeTime in a Dedicated Environment
+## Reinstall LifeTime in a dedicated environment
 
 ### Step 1. Prepare a new dedicated environment for LifeTime
 
@@ -68,7 +71,7 @@ To reinstall LifeTime in a new dedicated environment the following requirements 
 
 <div class="info" markdown="1">
 
-We recommend you to install the latest LifeTime version. [Check here](../upgrade/lifetime-versions.md) which versions of Platform Server can LifeTime manage.
+We recommend installing the latest LifeTime version.
 
 If you need to install LifeTime component of OutSystems 10 or previous version, you must download and install LifeTime from the Platform Server binaries.
 
@@ -80,7 +83,7 @@ If you need to install LifeTime component of OutSystems 10 or previous version, 
 
 1. Login as Administrator.
 
-1. Write down all your User Management configurations - it will be needed later to replicate the same structure in the new Lifetime dedicated environment:
+1. Write down all your User Management configurations - it will be needed later to replicate the same structure in the new LifeTime dedicated environment:
 
     * Users, Roles and Teams
     * Authentication Mode
@@ -88,7 +91,7 @@ If you need to install LifeTime component of OutSystems 10 or previous version, 
 
 <div class="info" markdown="1">
 
-Tip: You can use [LifeTime Services API](<https://success.outsystems.com/Documentation/10/Reference/OutSystems_APIs/LifeTime_Services_API>) to retrieve Users, Roles and Teams from the original LifeTime environment, making easier for you the task of writing down the needed information. Check [BackupLTPermissions](<https://www.outsystems.com/forge/4043/>) component in OutSystems Forge as an example on how to retrieve these data from LifeTime.
+Tip: You can use [LifeTime Services API](<https://success.outsystems.com/Documentation/10/Reference/OutSystems_APIs/LifeTime_Services_API>) to retrieve Users, Roles and Teams from the original LifeTime environment.
 
 </div>
 
@@ -134,7 +137,7 @@ Tip: You can use [LifeTime Services API](<https://success.outsystems.com/Documen
 
 ### Step 5. Delete LifeTime’s applications from the original environment
 
-If the original LifeTime environment version is **lower than Platform Server 10.0.804.0**, you will not be able to delete LifeTime’s applications. In this case, skip the steps below, leaving the applications disabled.  
+If the original LifeTime environment version is **lower than Platform Server 10.0.804.0**, you won't be able to delete LifeTime’s applications. In this case, skip the steps below, leaving the applications disabled.  
 
 If the original LifeTime environment version is **Platform Server 10.0.804.0 or upper**, do the following to delete LifeTime’s applications:
 

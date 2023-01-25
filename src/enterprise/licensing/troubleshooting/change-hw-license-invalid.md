@@ -1,6 +1,9 @@
 ---
 summary: An environment Serial Number is based on the hardware of the environment. Changing the hardware, changes the environment Serial Number, making your license invalid.
 en_title: 03 Changed the hardware and the license stopped being valid
+locale: en-us
+guid: 0d587c36-c08e-41fa-b612-cb3c847a9461
+app_type: traditional web apps, mobile apps, reactive web apps
 ---
 
 # Changed the hardware and the license stopped being valid

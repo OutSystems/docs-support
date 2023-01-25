@@ -2,9 +2,12 @@
 summary: Sign in problems with Integration/Workflow/Experience Builder
 tags:
 helpids: 30402
+locale: en-us
+guid: 038ff0e6-06fa-46c7-83e2-e59c83ff90fe
+app_type: traditional web apps, mobile apps, reactive web apps
 ---
 
-# It was not possible to sign into Integration/Workflow/Experience Builder
+# It was not possible to sign into Integration - Workflow - Experience Builder
 
 
 ## Error message
@@ -13,9 +16,9 @@ helpids: 30402
 
 ## Cause
 
-The credentials provided to log in are not valid or the user is blocked. Possible reasons:
+The credentials provided to log in aren't valid or the user is blocked. Possible reasons:
 
-* The username does not exist
+* The username doesn't exist
 * The password is incorrect
 * The user is blocked due to many failed attempts
 

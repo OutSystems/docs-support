@@ -1,6 +1,9 @@
 ---
 summary: There was an error contacting an internal service.
 tags:
+locale: en-us
+guid: ec9fa64a-a83a-4879-8f07-360d407d6cad
+app_type: traditional web apps, mobile apps, reactive web apps
 ---
 
 # OS-INBL-API-00070
@@ -21,5 +24,5 @@ Integration Manager is not able to contact or navigate to Integration Builder.
 
 ## Recommended action
 
-Make sure that your server's address is correcly configured in Service Center and make sure that it matches the one in the HTTPS certificate.  
-Additionaly you can check the Service Center Error logs for more details.
+Make sure that your server's address is correctly configured in Service Center and make sure that it matches the one in the HTTPS certificate.  
+Additionally, you can check the Service Center Error logs for more details.

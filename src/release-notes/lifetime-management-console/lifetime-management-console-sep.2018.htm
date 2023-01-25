@@ -1,0 +1,50 @@
+---
+isautopublish: false
+pageprivacy: public
+---
+<h2 id="lifetime_management_console_release_sep.2018">LifeTime Management Console Release Sep.2018</h2>
+<div class="info">
+
+<p>Released on Sep 26, 2018</p>
+</div>
+<h3 id="new_in_release_sep.2018">New in Release Sep.2018</h3>
+<ul>
+<li>From this version, LifeTime needs to be installed in a dedicated environment.</li>
+<li>LifeTime can manage environments with Platform Server release 10 or 11.</li>
+<li>Improved the add application to a staging in LifeTime to select a default option by default. (RLIT-1993)</li>
+<li>Added support for deployment to containers using LifeTime. (RLIT-1537)</li>
+<li>The LifeTime Analytics has been updated so the device database information now includes recent devices, operating systems, and browsers. (RLIT-2152)</li>
+<li>When an application is associated to a Deployment Zone configured to use containers as hosting technology, OutSystems platform will generate a bundle with all the assets needed to allow build and run your application in a container. (RSAT-385)</li>
+<li>Added Role_GetEnvironmentPermissionsLevels method to RoleManagementService API from LifeTimeServices. Removed deprecated EnvironmentManagementService and ApplicationManagementService APIS, as well as UserManagementService\User_UpdateApplicationPermission method from LifeTimeServices. (RLIT-1561)</li>
+<li>Improved LifeTime validations performance by adding a new weekly timer which deletes older cached module versions that are not longer required in the infrastructure (RLIT-1797)</li>
+</ul>
+<h3 id="bug_fixing_release_sep.2018">Bug Fixing</h3>
+<ul>
+<li>Fixed the bug that caused the “Continue Deployment” button not to show in LifeTime. It occurred in some scenarios when multiple users were logged-in to the same Staging_Progress page. (RPD-3290)</li>
+<li>Improved the description of PlatformTeams parameter of Team_List action, in TeamManagementService. (RLIT-2079)</li>
+</ul>
+<h3 id="breaking_changes_release_sep.2018">Breaking Changes</h3>
+<ul>
+<li>LifeTime is now only supported when installed in a dedicated environment.
+<ul>
+<li><strong>Rationale:</strong> LifeTime now has its own release cycle to allow for better and faster improvements in LifeTime. To achieve this, LifeTime must be run, installed and maintained in a separate environment from the development pipeline environments in customer infrastructures.</li>
+</ul>
+</li>
+<li>LifeTime Analytics now has a historical data retention policy. This means that, by default, LifeTime Analytics will start deleting data older than 365 days.
+<ul>
+<li><strong>Rationale:</strong> To optimize the performance of LifeTime Analytics, OutSystems introduced a mechanism to limit the amount of data kept by Analytics in the database. This was achieved by including a clean-up process that deletes data older than N days.</li>
+<li><strong>Workaround:</strong> This policy can be removed by setting the <code>LifeTime.Analytics.DataRetentionPeriod</code> parameter to <code>0</code> in the OSSYS_PARAMETER table after the upgrade and before timers are switched on. Disabling data retention policy is not recommended and can cause performance degradation in Lifetime Analytics.</li>
+</ul>
+</li>
+<li>The Frontend Name used in Performance Monitor no longer follows the configuration defined in Service Center; it will always be the Machine Name in uppercase.
+<ul>
+<li><strong>Rationale:</strong> This change was made to improve information consistency across other monitoring and log sources. It also became a required change with the introduction of containers support, since the platform no longer has control over what servers have which applications running and applications do not depend on the servers they are running on.</li>
+<li><strong>Workaround:</strong> This information is not used by any of the built-in analytics components. Any custom modules using analytics information that might be using the Frontend Name may need to be adapted.</li>
+</ul>
+</li>
+<li>The configuration parameter <code>LifeTime.AddApplicationsExplicitly</code>, along with the previous deployment planning implementation in LifeTime which used this parameter, were removed. From now on, LifeTime only supports the new deployment planning functionality.
+<ul>
+<li><strong>Rationale:</strong> The new deployment planning functionality is mature and has been widely adopted. As such, the previous deployment planning implementation in LifeTime is no longer available and the configuration parameter <code>LifeTime.AddApplicationsExplicitly</code> is no longer needed.</li>
+</ul>
+</li>
+</ul>

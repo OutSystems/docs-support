@@ -1,0 +1,24 @@
+---
+isautopublish: true
+pageprivacy: public
+---
+
+<h2 id="lifetime_management_console_11.13.0" >LifeTime Management Console 11.13.0</h2>
+<div class="info"><p>Released on Jun 27, 2022</p></div>
+
+<h3 id="new_in_lifetime_management_console_11.13.0" >New in LifeTime Management Console 11.13.0</h3>
+<ul>
+<li>The LifeTime Services API now supports authentication with service account tokens. (R11CT-1120)</li>
+<li>Added a new set of API methods to LifeTime API v2 to manage blocked users and IP addresses. These include: List/unblock users or IP addresses. (R11CT-1122)</li>
+<li>Updated the Platform Server version to 11.16.0. (R11CT-1255)</li>
+<li>Added a new set of API methods to LifeTime API v2 to manage database connections. These include: List all database connections, create/update a database connection, get the details of a database connection, and grant/revoke permissions on a database connection. (R11CT-1256)</li>
+</ul>
+<h3 id="bug_fixing_lifetime_management_console_11.13.0" >Bug Fixing</h3>
+<ul>
+<li>Fixed an issue that caused a deployment to fail when the saved deployment plan included a deleted app. (R11CT-913)</li>
+<li>Fixed a permissions issue when deploying a new application to a target environment. (RPM-2262)</li>
+<li>Fixed an issue that caused stagings to fail with the error “You are not allowed to create an application.“.  This occurred when the staging plan includes a new application that contains only moved modules that were already published to the target, and the user who triggered the staging has Open and Debug permission as default and Change and Deploy for the team that has the application to be deployed. (RPM-2271)</li>
+<li>Fixed an issue preventing an internal field 'template key' from being lost when staging applications between environments.  (RPM-2555)</li>
+<li>Fixed a bug where CSP was not applied correctly in the LifeTime console. CVSSv3.1 score 2.3 (Low). (RPM-2231)</li>
+</ul>
+

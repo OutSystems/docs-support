@@ -1,6 +1,9 @@
 ---
 summary: The user you are trying to delegate from is not a member of the selected group.
 tags:
+locale: en-us
+guid: e79a3f1c-3560-4d18-90f9-a666ce037b17
+app_type: traditional web apps, mobile apps, reactive web apps
 ---
 
 # OS-CMFR-GEN-00038

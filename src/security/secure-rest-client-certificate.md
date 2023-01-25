@@ -1,6 +1,9 @@
 ---
 summary: Configure you application to secure Rest APIs with client side certificates authentication
 Tags: 
+locale: en-us
+guid: 54604809-efce-4a72-b05a-2459b4ba5aa9
+app_type: traditional web apps, mobile apps, reactive web apps
 ---
 
 # Secure Rest APIs with client side authentication

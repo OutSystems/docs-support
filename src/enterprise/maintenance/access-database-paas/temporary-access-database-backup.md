@@ -1,5 +1,8 @@
 ---
 summary: Check how you can request access to a database backup on the OutSystems PaaS
+locale: en-us
+guid: 4d382874-5b72-4c06-a65d-09032dd9f1cc
+app_type: traditional web apps, mobile apps, reactive web apps
 ---
 
 # Temporary OutSystems Cloud database backup

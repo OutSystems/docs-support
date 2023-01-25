@@ -1,6 +1,9 @@
 ---
 summary: Experience Builder can't activate PWA distribution on a published app. Go to Service Center to manually activate the PWA distribution.
 tags:
+locale: en-us
+guid: 47ef7727-fdf7-4b93-a158-d9e63b2a4ce7
+app_type: traditional web apps, mobile apps, reactive web apps
 ---
 
 # OS-EXBL-API-10001

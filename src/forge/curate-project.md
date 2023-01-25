@@ -1,6 +1,9 @@
 ---
 summary: Know about the level of curation of the projects shared in the Forge and the support you can get for those projects.
 tags: forge; forge_support; forge_support_sharing
+locale: en-us
+guid: d6049875-7b13-4af6-b907-fa767a1e7104
+app_type: traditional web apps, mobile apps, reactive web apps
 ---
 
 # Curating Projects
@@ -9,7 +12,7 @@ tags: forge; forge_support; forge_support_sharing
 
 An OutSystems Supported project is a component or application that's developed, maintained, and supported by OutSystems under the terms of a customer's subscription. Supported components are distributed in two different ways:
 
-* As open source, allowing customers to change them for their own needs. However, once a customer has changed them, such components will no longer be supported by OutSystems.
+* As an open repository, allowing customers to change them for their own needs. However, once a customer has changed them, such components will no longer be supported by OutSystems.
 
 * As a closed component that doesn’t allow customization. As part of the product, these components are under intellectual property protection.
 

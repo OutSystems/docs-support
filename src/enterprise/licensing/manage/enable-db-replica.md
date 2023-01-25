@@ -1,5 +1,8 @@
 ---
 summary: 
+locale: en-us
+guid: 896be9ef-da8e-438e-9e6e-1ade428de326
+app_type: traditional web apps, mobile apps, reactive web apps
 ---
 
 # Enable Database Replica
@@ -28,5 +31,5 @@ We'll contact you if we need more information, or if this implies changes to you
 
 ##### **Additional notes for VPN Users**
 
-Please note that if you are accessing your Cloud Infrastructure's Database Server through a VPN connection, the private IP address of the Database will change. To obtain the new address information of the Database Server, we recommend that you download and install the [Netchecker ](https://success.outsystems.com/Support/Enterprise_Customers/Maintenance_and_Operations/Use_NetChecker_to_troubleshoot_your_connection)Application.
+Please note that if you are accessing your Cloud Infrastructure's Database Server through a VPN connection, the private IP address of the Database will change.
 

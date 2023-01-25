@@ -1,0 +1,31 @@
+---
+isautopublish: false
+pageprivacy: public
+---
+
+<h2 id="integration_builder_1.26.0">Integration Builder 1.26.0</h2>
+<div class="info">
+<p>Released on December 20, 2021</p>
+</div>
+<h3 id="new_in_integration_builder_1.26.0">New in Integration Builder 1.26.0</h3>
+<ul>
+<li>Now, you can set tables/entities/lists of integrations as read-only or read-write. This feature is available when integrating with the following systems of records: SAP OData, Salesforce, SharePoint Online, Microsoft Dataverse, and Microsoft Dynamics.</li>
+<li>SAP OData "Get" actions now have an output specifying which attributes are null on SAP's side. "Search" actions will no longer return "Integration Builder null" values; If an attribute is null on SAP's side, a Search action will assign the OutSystems platform's default value to that attribute.</li>
+<li>SAP OData Create and Update actions now have an input to specify which attributes will be sent in a request and an output specifying which attributes are null on SAP's side.</li>
+</ul>
+<h3 id="bug_fixing_1.26.0">Bug fixing</h3>
+<ul>
+<li>Now, newly created SAP OData integrations include the ExpandNavigationProperties input for the Get and Search actions.</li>
+<li>Fixed an issue that prevented LifeTime from listing Integration Builder relational database integrations.</li>
+<li>Fixed an issue in Integration Manager's connections list that caused the spinner to still show even after the list items loaded.</li>
+<li>Fixed an issue that caused an error while accessing Integration Builder after being redirected from Service Studio. This issue affected users that never logged in to Integration Builder, or hadn't logged in for a while.</li>
+<li>The "Review" button on Integration Builder's "Review" wizard step was removed. You can still navigate to previous wizard steps by clicking the "Previous" button, or by clicking the wizard navigation bar.</li>
+<li>Fixed visual issues on the "Select provider" screen, when creating new connections in the Integration Manager. Now the providers are listed alphabetically.</li>
+</ul>
+<h3 id="breaking_change">Breaking change</h3>
+<ul>
+<li>We have changed the behavior of NULL values in SAP OData integrations.<br/>
+Existing SAP OData integrations will continue to work until they are republished.<br/>
+Integration Builder helps you with the republishing process, listing all integrations that should be republished.<br/>
+Once you republish existing SAP OData integrations with Integration Builder, you must open the consumer apps in Service Studio, refresh their dependencies to the integration, and then republish these apps.</li>
+</ul>

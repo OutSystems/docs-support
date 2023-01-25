@@ -1,7 +1,10 @@
 ---
 summary: ​Safe Harbor framework only applies to international data transfers between the European Union and the US.
+locale: en-us
+guid: 6cfcd36b-554f-40f5-ae3f-b5030dc4312a
+app_type: traditional web apps, mobile apps, reactive web apps
 --- 
-# Does the Safe Harbor ECJ ruling apply to my OutSystems service?
+# Does the Safe Harbor ECJ ruling apply to my OutSystems service
 
 Both OutSystems and AWS respect your choice of AWS Region and **will not move any of your content outside of the AWS Region you chose**.
 

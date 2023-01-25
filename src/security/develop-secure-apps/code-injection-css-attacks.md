@@ -2,6 +2,9 @@
 summary: Code injection and Cross site scripting are two of the most common vulnerabilities in web applications. They are easily prevented with OutSystems Platform. Please note we recently replaced the term whitelist with allowlist across all OutSystems documentation.
 tags: protecting-outsystems-applications; outsystems-security; outsystems-secure-applications; outsystems-code-injection; outsystems-cross-site-scripting;
 en_title: 01 Protecting OutSystems apps from code injection - Cross Site Scripting attacks
+locale: en-us
+guid: 65bc8210-b3fb-4b79-86dc-f580196f7f9c
+app_type: traditional web apps, mobile apps, reactive web apps
 ---
 
 # Protecting OutSystems apps from code injection / Cross Site Scripting attacks
@@ -23,7 +26,7 @@ The following example from the [OWASP documentation](https://www.owasp.org/index
 
 |**Use case** |**Actions**|
 |-------------|-----------|
-|Escape string literals provided by the end-user and used in expressions |Use the [EncodeHtml()](https://success.outsystems.com/Documentation/11/Reference/OutSystems_Language/Logic/Built-in_Functions/Text#EncodeHtml) built-in function to replace special characters in a string so that you can use it in HTML literals. %% %% Use the [EncodeJavascript()](https://success.outsystems.com/Documentation/11/Reference/OutSystems_Language/Logic/Built-in_Functions/Text#EncodeJavaScript) built-in function to replace special characters in a string so that you can use it in JavaScript literals. |
+|Escape string literals provided by the end-user and used in expressions |Use the [EncodeHtml()](https://success.outsystems.com/Documentation/11/Reference/OutSystems_Language/Logic/Built-in_Functions/Text#EncodeHtml) built-in function to replace special characters in a string so that you can use it in HTML literals. <br/> Use the [EncodeJavascript()](https://success.outsystems.com/Documentation/11/Reference/OutSystems_Language/Logic/Built-in_Functions/Text#EncodeJavaScript) built-in function to replace special characters in a string so that you can use it in JavaScript literals. |
 |Escape HTML content provided by the end-user |Use the [SanitizeHtml()](https://success.outsystems.com/Documentation/11/Reference/OutSystems_APIs/Sanitization_API#SanitizeHtml) function from the [Sanitization API](https://success.outsystems.com/Documentation/11/Reference/OutSystems_APIs/Sanitization_API) to ensure that the value entered by the end-user does not contain any malicious content. |
 |Expand inline parameters in advanced queries |Follow the guidelines in [Building dynamic SQL statements the right way](https://success.outsystems.com/Documentation/Best_Practices/Building_dynamic_SQL_statements_the_right_way). |
 |Manually build URLs in redirects with dynamic URLs |Use the [EncodeURL()](https://success.outsystems.com/Documentation/11/Reference/OutSystems_Language/Logic/Built-in_Functions/Text#EncodeUrl) function to replace all non-alphanumeric characters in a string so that you can safely use it in URL parameter values. |

@@ -1,6 +1,9 @@
 ---
 summary: On the OutSystems Cloud we'll manage the licensing for you. For self-managed you need to get a license and install it on your environment. Use the Customer Portal for this.
 en_title: 03 Get a license file for an environment
+locale: en-us
+guid: 95ac49e0-a453-4fe3-9b67-49d88ee832bd
+app_type: traditional web apps, mobile apps, reactive web apps
 ---
 
 # Get a license file for an environment
@@ -13,32 +16,28 @@ The OutSystems team manages all the licensing of your OutSystems Cloud environme
 
 ## Self-managed environments { #self-managed }
 
-For your self-managed environments, you'll need to obtain and install the license in each environment. To reach the Customer Portal from Service Center, follow these steps:
+For your self-managed environments, you'll need to obtain and install the license in each environment. At [Customer Portal](http://www.outsystems.com/licensing/) you can manage the licenses for your subscriptions.
 
-1. In Service Center at `http://<yourenvironment>/ServiceCenter`, navigate to the '**Administration**' tab and then to the **Licensing** submenu.
+Pick the infrastructure you're managing:
 
-1. Click the **Request a New License** link.
-
-    ![](images/get-license-for-env-sc.png)
-
-    You'll be redirected to the [Customer Portal](http://www.outsystems.com/licensing/) and, after logging in, you'll be able to pick the infrastructure you're managing:
-
-    ![](images/get-license-for-env-1.png)
+![](images/get-license-for-env-1.png)
 
 <div class="info" markdown="1">
+
 If your infrastructure isn't visible in the drop-down, you aren't associated with that infrastructure in your Customer portal.
-Only [authorized members](https://success.outsystems.com/Support/Enterprise_Customers/OutSystems_Support/Managing_Your_Company_Permissions_on_outsystems.com#What_are_your_access_levels.3F) will be able to access.
+Only [authorized members](../../../community/customer-portal.md) will be able to access.
+
 </div>
 
 Once in Customer Portal, you'll need to:
 
-1. Register the environment.
+1. Register the serial number of the environment.
 1. Get the license file. 
 1. Install it in your environment. 
 
 Check the following sections for instructions.
 
-### Registering your environment { #register-env-serial-number }
+### Register the serial number { #register-env-serial-number }
 
 To obtain a license, you'll first need to register the environment using its serial number. Registering an environment consists in associating the serial number (obtained in Service Center) with an environment slot and allows you to download a license file. If you haven't yet registered your environment on the Customer Portal, follow these steps:
 
@@ -53,7 +52,9 @@ To obtain a license, you'll first need to register the environment using its ser
     ![](images/get-license-for-env-3.png)
 
 <div class="info" markdown="1">
+
 Don't have any more environments available? See [how to free up an existing environment](free-up-environment.md) or contact your OutSystems account manager.
+
 </div>
 
 ### Getting the license file { #get-license }

@@ -1,0 +1,32 @@
+---
+isautopublish: true
+pageprivacy: public
+---
+
+<h2 id="platform_server_11.17.1" >Platform Server 11.17.1</h2>
+<div class="info"><p>Released on Oct 04, 2022</p></div>
+
+
+<style>.cattag {background: #f4f2ff; color: #6a6581; padding: 4px 10px;}</style>
+<h3 id="new_in_platform_server_11.17.1" >New in Platform Server 11.17.1</h3>
+<ul>
+<li>Upgraded the required Microsoft .Net Windows Server Hosting from version 3.1 to 6.0 and updated the installation checklist and documentation to reflect this. (R11PIT-809)</li>
+</ul>
+<h3 id="bug_fixing_platform_server_11.17.1" >Bug Fixing</h3>
+<ul>
+<li>Fixed an issue identified in Platform Server 11.17.0 related to reactive upload widget runtime errors when using an empty file name with the Accept attribute set to Image. (R11DT-1455)</li>
+<li>Improved the email processing time when there are delays in sending or fetching emails from the database.<br/>
+When waiting to fetch the next batch of emails from the database, the OutSystems Scheduler was not considering slow email batches, which could lead the desired pull rate to increase and get out of sync. If each batch of emails took longer than the configured database pull rate, it could lead to email queuing in the database.<br/>
+To overcome this, the email processing time was improved to consider delays. (RPM-1341) <span class="cattag">Application Runtime</span>  <span class="cattag">Interface</span> </li>
+<li>Fixed an issue that caused runtime errors when authenticating users using the SAML authentication available in the Users app.<br/>
+When trying to authenticate users with SAML at runtime, there were "Unable to Process Request" errors. Checking the logs in Service Center, there was an error message similar to "String or binary data would be truncated in table 'OSDev.dbo.OSUSR_6WD_SAMLMESSAGE_LOG', column 'SESSIONINDEX'. Truncated value: '_x18MaTZNE2aO1vm5_xMcXivDMh0LRTrbxS0uuDPV3SOB1261'. The statement has been terminated." Alternatively, the message might mention the MessageID column instead.<br/>
+To solve this issue, the length of the SessionIndex, MessageID, and ResponseToMessageID attributes in the Users SamlMessage_Log entity was increased. (RPM-2463) <span class="cattag">Application Lifecycle</span>  <span class="cattag">Users</span> </li>
+<li>Added <a href="https://success.outsystems.com/Documentation/11/Setup_and_maintain_your_OutSystems_infrastructure/Setting_Up_OutSystems/Cache_Invalidation_in_OutSystems_11/Upgrade_OutSystems_cache_invalidation_with_high-availability">documentation</a> on how to upgrade OutSystems cache invalidation service with high-availability, as well as a section in <a href="https://success.outsystems.com/Documentation/11/Setup_and_maintain_your_OutSystems_infrastructure/Setting_Up_OutSystems/Cache_Invalidation_in_OutSystems_11/RabbitMQ_management_and_troubleshooting#high-availability-issues">RabbitMQ management and troubleshooting</a> for high availability issues.<br/>
+In high availability scenarios, where customers have their own RabbitMQ installations, when customers want to upgrade their platform, they get an error message in the Configuration Tool (in the cache invalidation service tab, after clicking Create/Upgrade Service). Now, there is public documentation related to this issue. (RPM-2810) <span class="cattag">Infrastructure Management</span>  <span class="cattag">Platform Configuration</span> </li>
+<li>Fixed an issue that prevented users with the right permissions from creating apps for a team.<br/>
+When trying to create an app in LifeTime, users with permissions to create apps at the Team Level received the error "Couldn't create the application. Error message: You are not allowed to create an Application. Please contact your OutSystems Administrator." This error occurred in Platform Server versions 11.16.1 or above. (RPM-2845) <span class="cattag">Application Lifecycle</span>  <span class="cattag">LifeTime</span> </li>
+<li>Fixed an issue that caused the "Configure Administrator user" option in the Single Sign-On tab to be hidden.<br/>
+In Service Center, the "Configure Administrator user" option in the Single Sign-On tab for the Users module was not visible after the update to Platform Server 11.16.1. The option is now visible again. (RPM-2918) <span class="cattag">Application Lifecycle</span>  <span class="cattag">Service Center</span> </li>
+<li>Fixed an issue that caused constant redirect loops during the login due to an empty session variable. (RPM-3218) <span class="cattag">Application Lifecycle</span>  <span class="cattag">Service Center</span> </li>
+</ul>
+
