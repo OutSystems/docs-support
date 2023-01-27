@@ -28,3 +28,14 @@ If you forgot your password, click [Forgot password?](http://www.outsystems.com/
 1. Click **Change password** and fill in the form.
 
 Your password will be synced to your Personal Environment, the next time you login use the new password.
+
+<div class="info" markdown="1">
+
+Note:
+
+* After you reset your password, wait 2 to 3 minutes before trying to sign in. It takes some time for the password from Community Profile to sync with the Personal Environment.
+
+* Due to security reasons, avoid signing in with the password that doesn't work. After a certain number of wrong attempts to sign in, your account is blocked for the duration of one hour. The 1-hour lock remains even after you reset your password.
+
+</div>
+    
