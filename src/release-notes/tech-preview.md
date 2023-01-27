@@ -35,9 +35,6 @@ For self-managed installations, Technical Preview is at **Infrastructure** > **T
 
 
 ## Features currently in Technical Preview
-
-* **Activate the IT Users Authentication Integration with External IdP via OpenId Connect (OIDC) feature**: Configure the OpenID Connect (OIDC) protocol in LifeTime and use it to authenticate IT users across OutSystems tools (Service Studio, Integration Studio, LifeTime, Service Center, Factory Configuration, Builders, Integration Manager, and Workato). [Learn more about this feature](https://success.outsystems.com/Documentation/11/Managing_the_Applications_Lifecycle/Secure_the_Applications/Technical_Preview_-_IT_Users_Integration_with_External_IdP_via_OpenId_Connect_(OIDC)).
-
 * **PATCH method on exposed REST services**: PATCH in an exposed REST Service. This new feature enables users to partially update a resource. [Learn more about this feature](https://success.outsystems.com/Documentation/11/Extensibility_and_Integration/REST/Expose_REST_APIs/PATCH_method_on_exposed_REST_services).
 
 * **Configure mobile apps update distribution**:  Choose how your existing users receive mobile apps' updates: automatically through your servers or manually through app stores. To use this feature, it must be enabled in all environments. [Learn more about this feature](https://success.outsystems.com/Documentation/11/Delivering_Mobile_Apps/Technical_Preview_-_Configure_mobile_apps_updates_distribution).
