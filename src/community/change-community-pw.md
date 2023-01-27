@@ -32,9 +32,9 @@ Your password will be synced to your Personal Environment, the next time you log
 <div class="info" markdown="1">
 
 
-* After you reset your password, allow for 3 minutes before trying to sign in again to your Personal Environment. This is necessary for the password from community profile to sync with your Personal Environment.
+After you reset your password, allow for 3 minutes before trying to sign in again to your Personal Environment. This is necessary for the password from the community profile to sync with your Personal Environment.
 
-* After a certain number of wrong attempts to sign in, your account may be blocked for the duration of one hour. The 1 hour lock remains even after you reset your password.
+After unsuccessful attempts to sign in, your account may be blocked for 1 hour. The lock remains even after you reset your password.
 
 </div>
     
