@@ -1,11 +1,12 @@
 ---
+tags:
 summary:
 locale: en-us
 guid: CBEDB43A-1C6A-4EB2-A0C5-1FBC5DD2A0BC
-app_type: traditional web apps, mobile apps, reactive web apps
+app_type: mobile apps
 ---
 
-# Mobile Apps Build Service (older versions)
+# Mobile Apps Build Service older versions
 
 ## MABS Version 4.2
 

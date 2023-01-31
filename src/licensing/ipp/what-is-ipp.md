@@ -5,7 +5,7 @@ guid: ab6146f9-8d06-44cb-9753-96c701e290f1
 app_type: traditional web apps, mobile apps, reactive web apps
 ---
 
-# OutSystems Intellectual Property Protection (IPP)
+# OutSystems Intellectual Property Protection - IPP
 
 
 <div class="info" markdown="1">
