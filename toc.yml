@@ -1,4 +1,4 @@
-# Support 
+# Support
 # Release notes
 - href: release-notes/intro.md
 - topics:
@@ -83,8 +83,8 @@
         - href: troubleshooting/application-lifecycle/resource-nowait-specified.md
         - href: troubleshooting/application-lifecycle/extension-recompilation/extension-recompilation-warning.md
         - href: troubleshooting/application-lifecycle/extension-recompilation/extension-upgrade-disabled-error.md
-        - href: troubleshooting/application-lifecycle/extension-recompilation/extension-recompilation.md 
-        
+        - href: troubleshooting/application-lifecycle/extension-recompilation/extension-recompilation.md
+
     # Application Runtime
     - href: troubleshooting/application-runtime/intro.md
     - topics:
@@ -166,17 +166,17 @@
         - href: security/vulnerabilities/vulnerability-RICT-2855.md
         - href: security/vulnerabilities/vulnerability-RICT-2849.md
         - href: security/vulnerabilities/vulnerability-RDEV-2256.md
-        - href: security/vulnerabilities/vulnerability-RTAF-3379.md    
+        - href: security/vulnerabilities/vulnerability-RTAF-3379.md
         - href: security/vulnerabilities/vulnerability-RTAF-2226.md
-        - href: security/vulnerabilities/vulnerability-RPD-5160.md                                                                                                                           
+        - href: security/vulnerabilities/vulnerability-RPD-5160.md
         - href: security/vulnerabilities/vulnerability-RLIT-3368.md
         - href: security/vulnerabilities/vulnerability-RPD-4260.md
-        - href: security/vulnerabilities/vulnerability-RPD-4310.md         
+        - href: security/vulnerabilities/vulnerability-RPD-4310.md
         - href: security/vulnerabilities/vulnerability-RLIT-2388.md
         - href: security/vulnerabilities/vulnerability-RPD-3849.md
-        - href: security/vulnerabilities/vulnerability-RPD-3384.md        
-        - href: security/vulnerabilities/vulnerability-RPD-2903.md                  
-        - href: security/vulnerabilities/vulnerability-RPD-2322.md        
+        - href: security/vulnerabilities/vulnerability-RPD-3384.md
+        - href: security/vulnerabilities/vulnerability-RPD-2903.md
+        - href: security/vulnerabilities/vulnerability-RPD-2322.md
 
     # How OutSystems Platform helps you develop secure applications
     - href: security/develop-secure-apps/intro.md
@@ -214,6 +214,8 @@
         - href: error/mabs/mabs-gen-40017.md
         - href: error/mabs/mabs-gen-40018.md
         - href: error/mabs/mabs-gen-40019.md
+        - href: error/mabs/mabs-gen-40020.md
+        - href: error/mabs/mabs-gen-40021.md
         - href: error/mabs/mabs-gen-50000.md
         - href: error/mabs/mabs-gen-50001.md
         - href: error/mabs/mabs-plg-10000.md
@@ -253,6 +255,7 @@
         - href: error/mabs/mabs-cnf-40002.md
         - href: error/mabs/mabs-cnf-40004.md
         - href: error/mabs/mabs-cnf-40005.md
+        - href: error/mabs/mabs-cnf-40006.md
         - href: error/mabs/mabs-cnf-50000.md
         - href: error/mabs/mabs-shld-40001.md
         - href: error/mabs/mabs-shld-40002.md
