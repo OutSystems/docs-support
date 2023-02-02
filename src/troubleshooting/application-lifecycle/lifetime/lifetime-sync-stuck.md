@@ -31,7 +31,7 @@ If you have self-managed environments, make sure there is bidirectional communic
 
 ### Check the servers timezone (self-managed only)
 
-If you have self-managed environments, make sure the database server and the application environment servers (controller and front-ends) are set with the same [Timezone](https://support.microsoft.com/en-us/help/4026213/windows-how-to-set-your-time-and-time-zone), as described in [OutSystems Timezone considerations](https://success.outsystems.com/Support/Enterprise_Customers/Maintenance_and_Operations/Timezone_considerations_in_the_OutSystems_Platform).
+If you have self-managed environments, make sure the database server and the application environment servers (controller and front-ends) are set with the same [Timezone](https://support.microsoft.com/en-us/help/4026213/windows-how-to-set-your-time-and-time-zone), as described in [OutSystems Timezone considerations](../../../enterprise/maintenance/timezone-considerations.md).
 
 ### Check the status of LifeTime Processes
 
@@ -53,10 +53,10 @@ If you have a critical need to deploy an application to that environment, you ca
 
 If your infrastructure is self-managed (not required for OutSystems Cloud), make sure to attach the following information to your support case:
 
-* [**Error**, **General**, and **Integrations** log files](../../get-logs.md#runtime-logs) from the Service Center console of the **synchronizing environment**
+* [**Error**, **General**, and **Integrations** log files](../../logs/service-center-logs.md) from the Service Center console of the **synchronizing environment**
 
-* [**Error**, **General**, and **Integrations** log files](../../get-logs.md#runtime-logs) from the Service Center console of your **LifeTime environment**
+* [**Error**, **General**, and **Integrations** log files](../../logs/service-center-logs.md) from the Service Center console of your **LifeTime environment**
 
-* [LifeTime Report](../../get-logs.md#lifetime-report)
+* [LifeTime Report](../../logs/lifetime-logs.md#lifetime-report)
 
-* [BPTUtils Troubleshooting Report](../../get-logs.md#get-bptutils-troubleshooting-report)
+* [BPTUtils Troubleshooting Report](../../logs/bpt-report.md)

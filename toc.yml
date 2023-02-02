@@ -46,7 +46,24 @@
 # Troubleshooting
 - href: troubleshooting/intro.md
 - topics:
-    - href: troubleshooting/get-logs.md
+    - href: troubleshooting/logs/get-logs.md
+    - topics: 
+        - href: troubleshooting/logs/service-center-logs.md
+        - href: troubleshooting/logs/lifetime-logs.md
+        - href: troubleshooting/logs/service-studio-report.md
+        - href: troubleshooting/logs/mabs-logs.md
+        - href: troubleshooting/logs/android-device-logs.md
+        - href: troubleshooting/logs/ios-device-logs.md
+        - href: troubleshooting/logs/event-viewer-logs.md
+        - href: troubleshooting/logs/iis-logs.md
+        - href: troubleshooting/logs/database-logs.md
+        - href: troubleshooting/logs/bpt-report.md
+        - href: troubleshooting/logs/change-logging-levels.md
+        - href: troubleshooting/logs/enable-ostrace-for-soap-import.md
+        - href: troubleshooting/logs/os-diag-tool.md
+        - href: troubleshooting/logs/har-file.md
+        - href: troubleshooting/logs/java-logs.md
+
     # Application Development
     - href: troubleshooting/application-development/intro.md
     - topics:
@@ -55,7 +72,6 @@
         - href: troubleshooting/application-development/error-host-not-found.md
         - href: troubleshooting/application-development/ipp-error.md
         - href: troubleshooting/application-development/deploy-fail-new-entity-attribute.md
-        - href: troubleshooting/application-development/enable-ostrace-for-soap-import.md
         - href: troubleshooting/application-development/mabs-troubleshooting-android.md
         - href: troubleshooting/application-development/error-cannot-access-file.md
         - href: troubleshooting/application-development/could-not-create-fk.md
@@ -73,7 +89,6 @@
         - href: troubleshooting/application-lifecycle/mgmt-console-not-authorized.md
         - href: troubleshooting/application-lifecycle/reset-lifetime-authentication.md
         - href: troubleshooting/application-lifecycle/too-many-failed-login.md
-        - href: troubleshooting/application-lifecycle/change-logging-levels.md
         - href: troubleshooting/application-lifecycle/deploy-apps-sc.md
         - href: troubleshooting/application-lifecycle/app-module-rename.md
         - href: troubleshooting/application-lifecycle/app-renamed-in-target-not-expected.md
@@ -540,7 +555,6 @@
             - href: enterprise/troubleshooting/troubleshoot-ios-content.md
             - href: enterprise/troubleshooting/service-permissions-change.md
             - href: enterprise/troubleshooting/oracle-odp-net-issues.md
-            - href: enterprise/troubleshooting/os-diag-tool.md
             - href: enterprise/troubleshooting/reset-users-auth-preferences.md
             - href: enterprise/troubleshooting/slow-publishing-117x.md
             - href: enterprise/troubleshooting/mabs/obfuscation.md

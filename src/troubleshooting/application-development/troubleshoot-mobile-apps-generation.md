@@ -101,7 +101,7 @@ There are three things you should do to fix this:
 Sometimes there are issues with the iOS certificates that can block the mobile app generation. Check the log files and one of the following situations may be happening:
 
 * The certificate entered in Service Studio isn't compatible with the provisioning profile also introduced in Service Studio.    
-We recommend following the steps in [this article](https://success.outsystems.com/Documentation/10/Delivering_Mobile_Apps/Generate_and_Distribute_Your_Mobile_App/More_Information_on_Generating_and_Distributing_Mobile_Apps#For_iOS).
+We recommend following the steps in [this article](https://success.outsystems.com/Documentation/11/Delivering_Mobile_Apps/Generate_and_Distribute_Your_Mobile_App/More_Information_on_Generating_and_Distributing_Mobile_Apps#For_iOS).
 
 * The certificate isn't valid for code signing.    
     Check if the certificate was revoked or has expired.
@@ -114,7 +114,7 @@ In the following example (in the Extensibility Configurations of the module), we
 
 ![](images/troubleshoot-mobile-apps-generation-1.png)
 
-In this case we were using MABS 5.0 and its specifications in [MABS versions](https://success.outsystems.com/Support/Release_Notes/Mobile_Apps_Build_Service_Versions) tells us that the version 28 of the Android SDK is required. So, we must change the `value` to version 28 to be able to submit the app to the Play Store.
+In this case we were using MABS 5.0 and its specifications in [MABS versions](../../release-notes/mabs/mabs-versions.md) tells us that the version 28 of the Android SDK is required. So, we must change the `value` to version 28 to be able to submit the app to the Play Store.
 
 Although there are Cordova preferences to force the version of the native SDKs, the best option is to adapt the plugin to the target SDK version of the MABS specifications. 
 
@@ -134,7 +134,7 @@ For example, a Google Analytics plugin is using `play-services-analytics`, but a
 
 ![](images/troubleshoot-mobile-apps-generation-3.png)
 
-The “+” sign allows the latest version available to be used when generating the app, but if major changes are done to `play-services-analytics`, it might become incompatible with [the MABS  requirements](https://success.outsystems.com/Support/Release_Notes/Mobile_Apps_Build_Service_Versions) or other plugins.
+The “+” sign allows the latest version available to be used when generating the app, but if major changes are done to `play-services-analytics`, it might become incompatible with [the MABS  requirements](../../release-notes/mabs/mabs-versions.md) or other plugins.
 
 Keeping these entries with a working version will ensure that results are predictable. 
 
@@ -295,7 +295,7 @@ One way of troubleshooting is to look for issues in the log files.
 
 #### 1. Get the log file
 
-[Get the mobile app package generation logs](../get-logs.md#mobile-app-generation-logs).
+[Get the mobile app package generation logs](../logs/mabs-logs.md).
 
 #### 2. Look for issues in the log file
 
@@ -333,7 +333,7 @@ When using plugins in mobile apps, they can sometimes be the source of issues. T
 
 #### Make sure that plugins comply with MABS
 
-When using plugins, make sure that their implementation complies with [the MABS version requirements](https://success.outsystems.com/Support/Release_Notes/Mobile_Apps_Build_Service_Versions) or, otherwise, they may be a source of problems.
+When using plugins, make sure that their implementation complies with [the MABS version requirements](../../release-notes/mabs/mabs-versions.md) or, otherwise, they may be a source of problems.
 
 For example, if the `plugin.xml` file contains engine entries like in the image below, make sure they're compatible with Cordova CLI or Android/iOS Engines:
 
@@ -365,7 +365,7 @@ This method implies knowledge about working with Cordova projects and a bit of s
 
 Create a Cordova project and add plugins, one by one, as follows:
 
-1. Set up the Cordova environment following the [Cordova instructions](https://cordova.apache.org/docs/en/latest/guide/cli/index.html) for the Cordova CLI version found in [the MABS version requirements](https://success.outsystems.com/Support/Release_Notes/Mobile_Apps_Build_Service_Versions).    
+1. Set up the Cordova environment following the [Cordova instructions](https://cordova.apache.org/docs/en/latest/guide/cli/index.html) for the Cordova CLI version found in [the MABS version requirements](../../release-notes/mabs/mabs-versions.md).    
 **Note**: In the case of iOS, you must use a macOS environment;
 
 1. Create the Cordova project
@@ -382,7 +382,7 @@ Create a Cordova project and add plugins, one by one, as follows:
 
     Where:    
     `<platform>`: is either 'android' or 'ios'    
-    `<engine version>`: is the engine version [required by the MABS version](https://success.outsystems.com/Support/Release_Notes/Mobile_Apps_Build_Service_Versions).
+    `<engine version>`: is the engine version [required by the MABS version](../../release-notes/mabs/mabs-versions.md).
 
 1. Add a plugin and build the project
 
