@@ -266,6 +266,28 @@
         - href: error/mabs/mabs-shld-50001.md
         - href: error/mabs/mabs-shld-50002.md
         - href: error/mabs/mabs-shld-50003.md
+        - href: error/mabs/mabs-aab-40000.md
+        - href: error/mabs/mabs-aab-50000.md
+        - href: error/mabs/mabs-ckt-10000.md
+        - href: error/mabs/mabs-cst-40000.md
+        - href: error/mabs/mabs-cst-50000.md
+        - href: error/mabs/mabs-fin-50000.md
+        - href: error/mabs/mabs-int-50000.md
+        - href: error/mabs/mabs-key-50000.md
+        - href: error/mabs/mabs-pref-40000.md
+        - href: error/mabs/mabs-pref-40001.md
+        - href: error/mabs/mabs-pref-40002.md
+        - href: error/mabs/mabs-pref-40003.md
+        - href: error/mabs/mabs-pref-40004.md
+        - href: error/mabs/mabs-res-40001.md
+        - href: error/mabs/mabs-res-40002.md
+        - href: error/mabs/mabs-res-40003.md
+        - href: error/mabs/mabs-res-40004.md
+        - href: error/mabs/mabs-res-50000.md
+        - href: error/mabs/mabs-res-50001.md
+        - href: error/mabs/mabs-unx-50000.md
+        - href: error/mabs/mabs-unx-50001.md
+        - href: error/mabs/mabs-vld-50000.md
         - href: error/mabs/mabs-depecrated-error.md
         - href: error/mabs/mabs-undocumented-error.md
     #Integration Builder
