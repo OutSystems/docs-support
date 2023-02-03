@@ -100,7 +100,7 @@ OutSystems PSIRT may return to the reporter with additional questions or clarifi
 
 High level, the phases of tackling a vulnerability found at OutSystems products are as follows:
 
-![](images/intro.png?width=900)
+![](images/vulnerabilities-diag.png)
 
 It consists of 2 phases, the **embargo phase** and **public disclosure**.
 
