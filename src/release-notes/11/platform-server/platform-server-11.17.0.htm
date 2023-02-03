@@ -77,12 +77,15 @@ The Scheduler Service wasn't working correctly and there were timeout errors in 
 When the “GetActivityCount” query was executed when accessing screens that had EPA Taskbox enabled, and if there was a huge number of records in the "OSSYS BPM" database tables (for example, more than 10M in the OSSYS_BPM_ACTIVITY), the environment could become extremely slow. (RPM-419) <span class="cattag">Application Runtime</span>  <span class="cattag">Processes</span> </li>
 <li>Fixed an issue that prevented LifeTime from opening Service Studio during a deployment to compare the modules' versions.<br/>
 This issue caused a "404 - File or directory not found" error when clicking the option "Compare modules in Service Studio" during the deployment of a new application version. (RPM-759) <span class="cattag">Application Runtime</span> </li>
-<li>Fixed a cross-site scripting (XSS) vulnerability in the Feedback_Message widget. CVSSv3.1 score 6.4 (Medium).<br/>
-Find more information about this breaking change <a href="https://success.outsystems.com/Support/Release_Notes/11/OutSystems_11_side_effects_and_breaking_changes#introduced-in-platform-server-11170">here.</a> (RPM-2443) <span class="cattag">Application Runtime</span>  <span class="cattag">Logic Execution</span> </li>
 <li>Fixed an authentication issue when configuring SAML providers (AzureAD, Okta, SAML2.0) authentication for the applications' end users. CVSSv3.1 score 4.2 (Medium).
 This security fix can be disabled in Factory Configuration to allow built-in authentication fallback when using SAML providers. Please be mindful of the security risks and impact in your business application when choosing to disable this security fix. (RPM-2613) <span class="cattag">Application Runtime</span>  <span class="cattag">Authentication and Authorization</span> </li>
 </ul>
 
+<h3>Breaking change</h3>
+<ul>
+<li>Platform Server now only supports one active user authentication mechanism. This means users can no longer configure a SAML provider (AzureAD, Okta, SAML2.0) authentication and still use the built-in mechanism. Check <a href="https://success.outsystems.com/support/release_notes/11/outsystems_11_side_effects_and_breaking_changes#bc-11170-1">OutSystems 11 side effects and breaking changes</a> for more details.
+</li>
+</ul>
 <h3>Limitation</h3>
 <ul>
 <li>With Platform Server 11.17.0, Server.Identity tokens are now refreshed more frequently. Customers upgrading to this version may observe an impact on existing custom IT apps (those whose User Provider is Service Center). This only affects IT apps with a custom authentication flow that doesn't use the Users_GetUnifiedLogin pattern.<br/>
