@@ -609,6 +609,19 @@ This affects custom implementations of a native dropdown making use of HTML Elem
 
 ### Introduced in Platform Server 11.17.0
 
+1\. <a id="bc-11170-1"></a>
+
+**Issue**: Platform Server now only supports one active user authentication mechanism. This means users can no longer configure a SAML provider (AzureAD, Okta, SAML2.0) authentication and still use the built-in mechanism.  
+
+**Runtime**: Traditional web, Reactive web, Mobile  
+
+**Rationale**: This is a security fix to ensure that our customers do not have a backdoor in their business applications once they configure a Federated SSO mechanism in their environments. Disallowing local users is the intended behaviour of the SAML authentication feature (i.e. OKTA/Azure AD/SAML 2.0) when configured as the authentication mechanism.  
+
+**Workaround**: This security fix can be disabled in Factory Configuration to allow built-in authentication fallback when using SAML providers.
+The security fix will be enabled by default so the decision to turn it off should be a well-thought decision made by our customers, and to ensure customers are aware of the implications. Any customer that decides to opt-out of this security fix is responsible to ensure that the backdoor they have in their business applications is protected with the right permissions in their environments.
+
+2\. <a id="bc-11170-2"></a>
+
 **Issue**: The HTML code in the `MessageText` parameter of the Feedback_Message Server Action displays as plain text in the Feedback_Message widget of RichWidgets, instead of rendered HTML.
 
 **Runtime**: Traditional web
