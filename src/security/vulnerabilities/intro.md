@@ -86,7 +86,7 @@ Vulnerability reports must contain the following information:
     1. Go to https://[URL]/users?uid=2
     1. Confirm you’re seeing the details of another user.
 
-If this information is not consistently provided, the support case may ultimately be closed.
+If this information isn't consistently provided, the support case may ultimately be closed.
 
 Reports will be handled within the [scope and SLA's](https://success.outsystems.com/Support/Enterprise_Customers/OutSystems_Support/Support_terms_and_service_level_agreements_(SLA)_of_the_OutSystems_software) of customers' and partners' contracts.
 
