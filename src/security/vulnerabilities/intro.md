@@ -24,6 +24,8 @@ The OutSystems vulnerability policy covers:
     * Integration Builder
     * Workflow Builder
     * Experience Builder
+    * OutSystems Developer Cloud (ODC)
+    * OutSystems Developer Cloud (ODC) Studio
 
 * Forge components supported by OutSystems
 * Any property under outsystems.com domain
@@ -126,6 +128,7 @@ A fix is publicly released along with installation details. A security bulletin 
 1. **Patch OutSystems Cloud:**
 For OutSystems Cloud customers, a patch schedule may also be communicated for all affected environments. If the patch has no impact on normal operations and availability, it won’t require scheduling. OutSystems reserves the right to start scheduling patches to OutSystems Cloud environments as soon as a fix or workaround is found.
 Self-managed infrastructures can be patched at the customer’s discretion.
+For OutSystems Developer Cloud (ODC) customers all fixes are automatically propagated to all customer accounts. 
 
 ### Public disclosure { #disclosure }
 
