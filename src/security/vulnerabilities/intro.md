@@ -125,7 +125,7 @@ For all vulnerabilities planned to be fixed, OutSystems defines a schedule and a
 1. **Publish security bulletin and fix release:**
 A fix is publicly released along with installation details. A security bulletin for each vulnerability is published and listed under this section (expand the tree on the left to see the list). At this point, the bulletins don't disclose any technical details.
 
-1. **Patch OutSystems Cloud:**
+1. **Patch OutSystems Cloud and ODC:**
 For OutSystems Cloud customers, a patch schedule may also be communicated for all affected environments. If the patch has no impact on normal operations and availability, it won’t require scheduling. OutSystems reserves the right to start scheduling patches to OutSystems Cloud environments as soon as a fix or workaround is found.
 Self-managed infrastructures can be patched at the customer’s discretion.
 For OutSystems Developer Cloud (ODC) customers all fixes are automatically propagated to all customer accounts. 
