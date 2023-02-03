@@ -98,6 +98,3 @@ BPT Utils is now installed in your LifeTime environment.
 **Database - AWR and ADDM Report**: The AWR and ADDM reports are database reports detailing important information about the performance of the database. 
 
 [Click here](database-logs.md) to learn how to get database reports. 
-
-
-    
