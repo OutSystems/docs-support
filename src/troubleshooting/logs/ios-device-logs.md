@@ -5,7 +5,8 @@ locale: en-us
 guid: c05d23c9-e912-469a-ab6b-7fe6a9d97da8
 app_type: mobile apps
 ---
-## Get iOS Device Logs
+
+# Get iOS Device Logs
 
 To get iOS device logs using **Apple Configurator 2**, follow these steps:
 

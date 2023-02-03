@@ -6,7 +6,7 @@ guid: f162877c-32a8-4f69-9c0b-ccbb42bcb0f3
 app_type: traditional web apps, mobile apps, reactive web apps
 ---
 
-#BPT troubleshooting report
+# BPT troubleshooting report
 
 *You must install BPT Utils component in your LifeTime environment (you need “Full Control” permissions in the environment).*
 
