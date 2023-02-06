@@ -2,26 +2,29 @@
 # Release notes
 - href: release-notes/intro.md
 - topics:
-    #OutSystems 11
+    # OutSystems 11
     - href: release-notes/11/intro.md
     - topics:
-        # Platform Server
         - href: release-notes/11/platform-server/platform-server.md
         - href: release-notes/11/cross-platform-service-studio/cross-platform-service-studio.md
         - href: release-notes/11/integration-studio/integration-studio.md
         - href: release-notes/11/development-environment/development-environment.md
         - href: release-notes/11/side-effects-breaking-changes.md
+    # LifeTime
     - href: release-notes/lifetime-management-console/lifetime-management-console.md
+    # ODC
     - href: release-notes/odc/intro.md
     - topics:
         - href: release-notes/odc/ga/ga.md
         - href: release-notes/odc/odc-studio/odc-studio.md
+    # OutSystems 10
     - href: release-notes/10/intro.md
     - topics:
         - href: release-notes/10/platform-server/platform-server.md
         - href: release-notes/10/development-environment/development-environment.md
         - href: release-notes/10/end-support-10.md
         - href: release-notes/10/side-effects-breaking-changes-10.md
+    # MABS
     - href: release-notes/mabs/mabs-versions.md
     - topics:
         - href: release-notes/mabs/mabs-beta-support.md
@@ -127,6 +130,7 @@
         - href: troubleshooting/application-runtime/try-newer-react-runtime-tp.md
         - href: troubleshooting/application-runtime/seo/troubleshooting.md
         - href: troubleshooting/application-runtime/cant-reach-apps.md
+        
     # Infrastructure Management
     - href: troubleshooting/infrastructure-management/intro.md
     - topics:
