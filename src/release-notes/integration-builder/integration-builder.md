@@ -153,7 +153,7 @@ platform-version: o11
 <li>Fixed an issue that caused an error generating SharePoint connectors when multiple lists with similar long names were selected. (RCNT-5137)</li>
 <li>Fixed an issue that forced users that opened Integration Builder from Service Studio to input their credentials. (RCNT-5150)</li>
 <li>Fixed an issue where SAP connectors can be published despite having an invalid Base URL. (RCNT-5156)</li>
-<li>Fixed an issue that caused a "This integration was changed by <username> since you started editing it." error when updating dependencies. (RCNT-5158)</li>
+<li>Fixed an issue that caused a "This integration was changed by &lt;username&gt; since you started editing it." error when updating dependencies. (RCNT-5158)</li>
 </ul>
 
 <div class="hidden" id="integration-builder-1.38.0_end"></div><div class="hidden" id="integration-builder-1.37.0_start"></div>

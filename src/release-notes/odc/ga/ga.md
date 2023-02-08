@@ -25,8 +25,6 @@ platform-version: o11
 <li>ODC Portal users can now use Apple IdP accelerator to configure a new external IdP. This accelerator requires Client ID (Identifier), Key ID, Team ID and the Client secret (Secret .p8) and can be quickly used to set up this new provider. (RDPP-975)</li>
 </ul>
 
-</ul>
-
 <div class="hidden" id="outsystems-developer-cloud-2023-02-03_end"></div><div class="hidden" id="outsystems-developer-cloud-2023-01-31_start"></div>
 
 <h2 id="outsystems_developer_cloud_2023-01-31" >OutSystems Developer Cloud 2023-01-31</h2>
@@ -62,7 +60,7 @@ platform-version: o11
 <style>.cattag {background: #f4f2ff; color: #6a6581; padding: 4px 10px;}</style>
 <h3 id="new_in_outsystems_developer_cloud_2023-01-20" > New</h3>
 <ul>
-<li>Monitoring - Added missing elements to the Element filter on the Traces page, namely ‘Entity Action’, ‘Server Action’, and 'Consumed REST API'. (RDLOT-1463)</li>
+<li>Monitoring - Added missing elements to the Element filter on the Traces page, namely ‘Entity Action', ‘Server Action', and 'Consumed REST API'. (RDLOT-1463)</li>
 <li>ODC Portal user can now have the user photo that is sent by default in the picture claim when integrated with external IdPs.
 
 The ODC User with Manage organization roles can change the mapping from picture to another alternative mapping inside the External IdP configuration screen.
@@ -84,28 +82,17 @@ The picture is now available in the ODC profile and user list, and will be soon 
 <h3 id="new_in_outsystems_developer_cloud_2023-01-13" > New</h3>
 <ul>
 <li>Forge governance and user experience improvements:
-
 <ul>
-
-    <li>Forge - Users without an Install & Update permissions don’t have the Install button available.</li>
-
-    <li>Forge - Users without an Submission permissions cannot start the submit process nor can edit assets submitted by others from their Organization.</li>
-
-    <li>Forge - Redesign of the asset detail page, to allow a better experience when using smaller screen resolutions.</li>
-
+<li>Forge - Users without an Install & Update permissions don't have the Install button available.</li>
+<li>Forge - Users without an Submission permissions cannot start the submit process nor can edit assets submitted by others from their Organization.</li>
+<li>Forge - Redesign of the asset detail page, to allow a better experience when using smaller screen resolutions.</li>
 </ul> (RDFNO-132)</li>
 <li>Improvements in the Forge Submit experience:
-
 <ul>
-
-    <li>Forge - It’s now possible to submit the last versioned App revision while new revisions are being created in ODC Studio.</li>
-
-    <li>Forge - New pop-up when dependencies are missing in Forge, detailing the status of each asset.</li>
-
-    <li>Forge - New option to add links in the detailed description, Limitations, and Documentation.</li>
-
-    <li>Forge - New Image uploader component, consistent inside ODC Portal.</li>
-
+<li>Forge - It's now possible to submit the last versioned App revision while new revisions are being created in ODC Studio.</li>
+<li>Forge - New pop-up when dependencies are missing in Forge, detailing the status of each asset.</li>
+<li>Forge - New option to add links in the detailed description, Limitations, and Documentation.</li>
+<li>Forge - New Image uploader component, consistent inside ODC Portal.</li>
 </ul> (RMKPT-2218)</li>
 </ul>
 <h3 id="bug_fixing_outsystems_developer_cloud_2023-01-13" >Bug Fixing</h3>

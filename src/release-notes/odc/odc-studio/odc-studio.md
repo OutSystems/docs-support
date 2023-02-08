@@ -20,8 +20,6 @@ platform-version: o11
 <li>ODC Studio now allows developers to select all available public elements of a source app or library when adding public elements to their app through the Add Public Elements dialog. (RDPMBT-2605)</li>
 </ul>
 
-</ul>
-
 <div class="hidden" id="odcstudio-1.0.39_end"></div><div class="hidden" id="odcstudio-1.0.38_start"></div>
 
 <h2 id="odcstudio_1.0.38" >ODCStudio 1.0.38</h2>

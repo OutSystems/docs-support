@@ -117,7 +117,7 @@ Now, the double click correctly navigates to the Placeholder's parent Block. (RM
 <li>Fixed an issue that caused the properties panel being readonly when dropping a node in an action. (RMAC-10732)</li>
 </ul>
 
-&nbsp;<div class="hidden" id="cross-platform-service-studio-11.53.32_end"></div><div class="hidden" id="cross-platform-service-studio-11.53.31_start"></div>
+<div class="hidden" id="cross-platform-service-studio-11.53.32_end"></div><div class="hidden" id="cross-platform-service-studio-11.53.31_start"></div>
 
 <h2 id="cross-platform_service_studio_11.53.31" >Cross-platform Service Studio 11.53.31</h2>
 <div class="info"><p>Released on Dec 26, 2022</p></div>
@@ -554,7 +554,7 @@ now also appear in the Logic Tab, under the Integrate With External System menu 
 <li>Fixed a performance issue in the SQL editor. (RMAC-9137)</li>
 <li>Fixed a crash in Merge when selecting to merge an attribute from a deleted entity. (RMAC-9564)</li>
 <li>Fixed a crash when refreshing a reference of a folder. (RMAC-9780)</li>
-<li>Fix label property of dropdown widget not being correctly set after copy&paste or drag&drop (RMAC-9944)</li>
+<li>Fix label property of dropdown widget not being correctly set after copy/paste or drag/drop (RMAC-9944)</li>
 <li>Fixed a bug where ShiftInsert and ShiftDelete shortcutKeys, were causing double pasting/cutting the values on ServiceStudio editors.  (RMAC-9961)</li>
 <li>Fixed an issue where right-clicking a true change message was mentioning another element. (RMAC-9965)</li>
 <li>Fixed an error that would cause the 'Edit Data' editor to go blank when modifying a dropdown value on an entity record. (RPM-2791)</li>
