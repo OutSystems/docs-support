@@ -4,6 +4,7 @@ tags:
 locale: en-us
 guid: 3890e4cb-b087-4422-9e09-c7e2337add12
 app_type: traditional web apps, mobile apps, reactive web apps
+platform-version: o11
 ---
 
 # OS-INBL-API-00069

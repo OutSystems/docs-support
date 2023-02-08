@@ -4,6 +4,7 @@ tags:
 locale: en-us
 guid: 4d8cc454-3db3-11ed-b72d-00155dba6401
 app_type: traditional web apps, mobile apps, reactive web apps
+platform-version: o11
 ---
 
 # SLOWSQL log messages

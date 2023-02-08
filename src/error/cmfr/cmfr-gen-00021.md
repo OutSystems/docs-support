@@ -4,6 +4,7 @@ tags:
 locale: en-us
 guid: fa5e675c-3d6a-4574-a0a7-0e224699170a
 app_type: traditional web apps, mobile apps, reactive web apps
+platform-version: o11
 ---
 
 # OS-CMFR-GEN-00021

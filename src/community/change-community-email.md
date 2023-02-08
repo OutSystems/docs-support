@@ -4,6 +4,7 @@ tags:
 locale: en-us
 guid: 4DC921BE-777F-4CD1-95FB-5073E00B8764
 app_type: traditional web apps, mobile apps, reactive web apps
+platform-version: o11
 ---
 
 # How to change your OutSystems community email

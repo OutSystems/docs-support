@@ -4,6 +4,7 @@ tags: mabs; plg; error_codes
 locale: en-us
 app_type: mobile apps
 guid: 333bc8b1-0225-448f-bbc5-fb27842ee8be
+platform-version: o11
 ---
 
 # OS-MABS-PLG-40007

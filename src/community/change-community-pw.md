@@ -4,6 +4,7 @@ tags:
 locale: en-us
 guid: 1A216E07-414F-4AA8-86ED-56F3FF608450
 app_type: traditional web apps, mobile apps, reactive web apps
+platform-version: o11
 ---
 
 # How to change your OutSystems community password

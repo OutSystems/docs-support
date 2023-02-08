@@ -4,6 +4,7 @@ tags:
 locale: en-us
 guid: d8ee4abf-9875-4696-a24f-a4608645ab33
 app_type: traditional web apps, mobile apps, reactive web apps
+platform-version: o11
 ---
 # Error registering an environment in LifeTime
 

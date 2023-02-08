@@ -4,6 +4,7 @@ tags:
 locale: en-us
 guid: 5a5dde81-af90-4f11-be5f-321b0e4b0302
 app_type: traditional web apps, mobile apps, reactive web apps
+platform-version: o11
 ---
 
 # OutSystems Platform Server hardening

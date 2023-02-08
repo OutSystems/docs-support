@@ -3,6 +3,7 @@ summary: Find the Activation Code of an infrastructure and the serial number of 
 locale: en-us
 guid: 3e05decb-fc94-454c-9c02-d7acfd4c2a3b
 app_type: traditional web apps, mobile apps, reactive web apps
+platform-version: o11
 ---
 
 # Find the Activation Code and the Serial Number

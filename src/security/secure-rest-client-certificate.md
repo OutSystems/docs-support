@@ -4,6 +4,7 @@ Tags:
 locale: en-us
 guid: 54604809-efce-4a72-b05a-2459b4ba5aa9
 app_type: traditional web apps, mobile apps, reactive web apps
+platform-version: o11
 ---
 
 # Secure Rest APIs with client side authentication

@@ -2,6 +2,7 @@
 locale: en-us
 guid: 9a1c0394-1a0a-4371-9a26-d22decf48b1c
 app_type: traditional web apps, mobile apps, reactive web apps
+platform-version: o11
 ---
 
 <div class="hidden" id="odcstudio-1.0.33_start"></div>

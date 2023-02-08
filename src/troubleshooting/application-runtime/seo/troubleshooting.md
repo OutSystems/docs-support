@@ -4,6 +4,7 @@ tags:
 locale: en-us
 guid: ad3c2ce2-f393-4385-affd-10eb46bf944c
 app_type: traditional web apps, mobile apps, reactive web apps
+platform-version: o11
 ---
 
 # Troubleshooting and known issues with SEO-friendly URLs for Reactive Web Apps

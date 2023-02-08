@@ -4,6 +4,7 @@ locale: en-us
 guid: 4A089B4E-968B-4A4E-BBF7-EF617931839C
 tags: 
 app_type: traditional web apps, mobile apps, reactive web apps
+platform-version: o11
 ---
 
 # How to use an exam voucher to register for an exam

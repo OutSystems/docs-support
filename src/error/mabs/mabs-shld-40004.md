@@ -4,6 +4,7 @@ tags:
 guid: 442f9f37-f27e-4ddd-b2fa-4f16aad13cd6
 locale: en-us
 app_type: mobile apps
+platform-version: o11
 ---
 
 # OS-MABS-SHLD-40004

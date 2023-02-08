@@ -3,6 +3,7 @@ summary: Troubleshooting
 locale: en-us
 guid: 8EE47E91-1685-47CA-8A64-50C4A5CD8150
 app_type: traditional web apps, mobile apps, reactive web apps
+platform-version: o11
 ---
 
 # Cross-platform Service Studio cannot be launched due to missing permissions to create the configuration folder

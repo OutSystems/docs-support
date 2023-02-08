@@ -4,6 +4,7 @@ tags:
 guid: 7d63fef8-7edc-4f44-b79c-4c69687f43fc
 locale: en-us
 app_type: mobile apps
+platform-version: o11
 ---
 
 # OS-MABS-FIN-500000

@@ -4,6 +4,7 @@ locale: en-us
 guid: FD42AFA9-83F9-4074-83E3-718B93BBDE24
 tags: 
 app_type: traditional web apps, mobile apps, reactive web apps
+platform-version: o11
 ---
 
 # Learn how to get your certification or specialization exam receipt

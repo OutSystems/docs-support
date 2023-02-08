@@ -4,6 +4,7 @@ tags:
 locale: en-us
 guid: b08134f6-e2e0-4c43-a55a-8990a11a011a
 app_type: traditional web apps, mobile apps, reactive web apps
+platform-version: o11
 ---
 
 # OS-INBL-GEN-00032

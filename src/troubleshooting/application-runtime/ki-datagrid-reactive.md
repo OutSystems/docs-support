@@ -4,6 +4,7 @@ summary: Known issues with the Data Grid component for Reactive Web apps
 locale: en-us
 guid: 8f709280-5c8a-4fae-a64c-233553f80c86
 app_type: traditional web apps, mobile apps, reactive web apps
+platform-version: o11
 ---
 
 # Known issues with the Data Grid component for Reactive Web apps

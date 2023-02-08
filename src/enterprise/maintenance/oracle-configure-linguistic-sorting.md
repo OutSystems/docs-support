@@ -3,6 +3,7 @@ summary: How to configure linguistic sorting for character data in an OutSystems
 locale: en-us
 guid: 97a691c3-79e8-4016-9437-045cb9725cc0
 app_type: traditional web apps, mobile apps, reactive web apps
+platform-version: o11
 ---
 
 # Configuring linguistic sorting in an OutSystems environment using an Oracle database

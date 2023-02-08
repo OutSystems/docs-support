@@ -1,3 +1,7 @@
+---
+platform-version: o11
+---
+
 ﻿---
 summary: Recomended actions for the error "An error occurred while getting a token from the Microsoft Identity Platform" in Integration Builder.
 tags:

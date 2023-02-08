@@ -3,6 +3,7 @@ summary:
 guid: BDA4BE15-1C6E-4CAE-B8FF-95DD58F6C711
 locale: en-us
 app_type: mobile apps
+platform-version: o11
 ---
 
 # MABS 6 Release notes

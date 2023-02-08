@@ -5,6 +5,7 @@ en_title: 01 Protecting OutSystems apps from code injection - Cross Site Scripti
 locale: en-us
 guid: 65bc8210-b3fb-4b79-86dc-f580196f7f9c
 app_type: traditional web apps, mobile apps, reactive web apps
+platform-version: o11
 ---
 
 # Protecting OutSystems apps from code injection / Cross Site Scripting attacks

@@ -5,6 +5,7 @@ en_title: OS-EXBL-GEN-00043
 locale: en-us
 guid: c401cf98-f3b6-4827-aa2a-fd737a39a349
 app_type: traditional web apps, mobile apps, reactive web apps
+platform-version: o11
 ---
 
 # OS-EXBL-GEN-00043

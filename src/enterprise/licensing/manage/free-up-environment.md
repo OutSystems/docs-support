@@ -4,6 +4,7 @@ en_title: 05 How to free up an existing environment in licensing
 locale: en-us
 guid: 22ff6d6a-ab3a-4c2d-8c5a-13ce0d118750
 app_type: traditional web apps, mobile apps, reactive web apps
+platform-version: o11
 ---
 
 # How to free up an existing environment in licensing

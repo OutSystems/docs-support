@@ -3,6 +3,7 @@ summary: The infrastructure management console is installed on a dedicated envir
 locale: en-us
 guid: c968ec98-068a-4ca0-a0f3-f0d2c09978e6
 app_type: traditional web apps, mobile apps, reactive web apps
+platform-version: o11
 ---
 
 # Size an environment to run the infrastructure management console

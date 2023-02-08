@@ -4,6 +4,7 @@ tags: support-maintenance;
 locale: en-us
 guid: 9a463cd2-53c3-4e1f-8040-e71ac11ae99b
 app_type: traditional web apps, mobile apps, reactive web apps
+platform-version: o11
 ---
 
 # Behavior of the Null DateTime Value in Mobile Apps

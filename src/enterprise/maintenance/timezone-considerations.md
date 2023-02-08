@@ -3,6 +3,7 @@ summary:
 locale: en-us
 guid: 95d95b60-3661-48aa-b75d-e2f670cf6b92
 app_type: traditional web apps, mobile apps, reactive web apps
+platform-version: o11
 ---
 
 # Timezone considerations in the OutSystems Platform

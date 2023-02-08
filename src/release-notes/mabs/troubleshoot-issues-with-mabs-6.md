@@ -4,6 +4,7 @@ tags:
 locale: en-us
 guid: f5ab33b1-bc12-4d9f-bf96-16c6c4d11690
 app_type: traditional web apps, mobile apps, reactive web apps
+platform-version: o11
 ---
 
 # MABS 6 breaking changes and known limitations

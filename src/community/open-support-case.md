@@ -4,6 +4,7 @@ tags:
 locale: en-us
 guid: A82EA0CB-B101-4F08-BCFB-77559EF63801
 app_type: traditional web apps, mobile apps, reactive web apps
+platform-version: o11
 ---
 
 # Opening a support case with OutSystems

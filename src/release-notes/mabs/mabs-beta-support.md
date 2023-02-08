@@ -3,6 +3,7 @@ summary: The OutSystems policy for supporting new versions of mobile operating s
 locale: en-us
 guid: 6201ced2-dd45-4d61-96af-714f4f170512
 app_type: traditional web apps, mobile apps, reactive web apps
+platform-version: o11
 ---
 
 # Support provided for MABS beta versions

@@ -3,6 +3,7 @@ summary: This article guides through resolving the error "Could not create Forei
 locale: en-us
 guid: fa591ec3-eb33-4ac1-8e49-e2a797934f6f
 app_type: traditional web apps, mobile apps, reactive web apps
+platform-version: o11
 ---
 
 # Troubleshoot Could not create Foreign Key errors during deployment

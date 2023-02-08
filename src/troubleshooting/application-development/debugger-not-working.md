@@ -3,6 +3,7 @@ summary: Typical reasons for the debugger to hang or stop working in a debugging
 locale: en-us
 guid: 0818cc08-cca4-4780-bbc5-6e1cb8b77a10
 app_type: traditional web apps, mobile apps, reactive web apps
+platform-version: o11
 ---
 
 # Debugger in Service Studio is not working

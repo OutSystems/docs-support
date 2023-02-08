@@ -4,6 +4,7 @@ tags:
 locale: en-us
 guid: 353db22a-7853-4498-a2a1-62c184f291ff
 app_type: traditional web apps, mobile apps, reactive web apps
+platform-version: o11
 ---
 
 

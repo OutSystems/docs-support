@@ -4,6 +4,7 @@ tags: support-Cloud_Platform; support-installation; support-Installation_Configu
 locale: en-us
 guid: f05c9cb8-7c15-4b9d-bf6c-c2da72993ff8
 app_type: traditional web apps, mobile apps, reactive web apps
+platform-version: o11
 ---
 
 # Set up a VPN to your OutSystems Cloud

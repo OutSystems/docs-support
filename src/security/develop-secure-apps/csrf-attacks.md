@@ -4,6 +4,7 @@ tags: outsystems-security; outsystems-secure-applications
 locale: en-us
 guid: 888ae7de-2001-459d-894a-e0001aeba86f
 app_type: traditional web apps, mobile apps, reactive web apps
+platform-version: o11
 ---
 
 #  Protecting OutSystems apps from Cross Site Request Forgery attacks

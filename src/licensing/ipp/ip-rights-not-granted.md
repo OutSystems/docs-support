@@ -3,6 +3,7 @@ summary: You're trying to change the activation code of an application that is I
 locale: en-us
 guid: 42bdf1cf-495e-418a-ab73-c34981039088
 app_type: traditional web apps, mobile apps, reactive web apps
+platform-version: o11
 ---
 
 # The IP rights of your applications could not be granted

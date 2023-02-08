@@ -4,6 +4,7 @@ tags: known-issues
 locale: en-us
 guid: 9d238745-abc2-4500-9048-17cab2d562ad
 app_type: traditional web apps, mobile apps, reactive web apps
+platform-version: o11
 ---
 
 # Known issue in 11.10.0 - possible downtime after running Configuration Tool

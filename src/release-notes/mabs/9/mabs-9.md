@@ -3,6 +3,7 @@ summary: MABS 9 release notes
 guid: 344d5857-80d1-4207-87fc-cc5772c058ef
 locale: en-us
 app_type: mobile apps
+platform-version: o11
 ---
 
 # MABS 9 Release notes

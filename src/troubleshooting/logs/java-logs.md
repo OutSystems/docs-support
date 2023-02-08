@@ -4,6 +4,7 @@ tags:
 locale: en-us
 guid: 64497876-fac0-409b-b7d9-9456e44086bf
 app_type: traditional web apps, mobile apps, reactive web apps
+platform-version: o11
 ---
 
 # Java server logs

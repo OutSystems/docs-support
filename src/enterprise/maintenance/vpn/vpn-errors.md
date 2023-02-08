@@ -4,6 +4,7 @@ tags:
 locale: en-us
 guid: 9b339da0-8b05-4388-83b4-f8cb8f6b5d9a
 app_type: traditional web apps, mobile apps, reactive web apps
+platform-version: o11
 ---
 
 # Possible errors when setting up a VPN to your OutSystems Cloud

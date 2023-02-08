@@ -4,6 +4,7 @@ tags:
 locale: en-us
 guid: c05d23c9-e912-469a-ab6b-7fe6a9d97da8
 app_type: mobile apps
+platform-version: o11
 ---
 
 # Get iOS Device Logs

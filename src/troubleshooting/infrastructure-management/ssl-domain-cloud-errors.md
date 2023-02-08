@@ -4,6 +4,7 @@ tags:
 locale: en-us
 guid: 7a4d2b58-5b42-4f33-be80-e3734d161ea8
 app_type: traditional web apps, mobile apps, reactive web apps
+platform-version: o11
 ---
 
 # Possible errors when validating your SSL domain certificate

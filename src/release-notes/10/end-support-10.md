@@ -4,6 +4,7 @@ tags:
 locale: en-us
 guid: f141217f-2e63-4132-9912-a6ccb850f527
 app_type: traditional web apps, mobile apps, reactive web apps
+platform-version: o11
 ---
 
 # End of mainstream support for OutSystems 10

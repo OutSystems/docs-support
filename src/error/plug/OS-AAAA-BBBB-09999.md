@@ -5,6 +5,7 @@ en_title: OS-AAAA-BBBB-09999
 locale: en-us
 guid: 3dc657a5-9ce1-48a4-84eb-f6d110fb1659
 app_type: traditional web apps, mobile apps, reactive web apps
+platform-version: o11
 ---
 
 # OS-AAAA-BBBB-09999 - error message

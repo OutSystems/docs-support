@@ -4,6 +4,7 @@ tags:
 locale: en-us
 guid: b5211c0e-2a18-413a-b995-d511ac8586eb
 app_type: traditional web apps, mobile apps, reactive web apps
+platform-version: o11
 ---
 
 # Access to Online Training when Vimeo is Blocked

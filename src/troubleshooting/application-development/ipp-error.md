@@ -3,6 +3,7 @@ summary: Procedure to fix intellectual property errors when publishing or deploy
 locale: en-us
 guid: 807610ee-01f6-4631-9ea0-0509a275de26
 app_type: traditional web apps, mobile apps, reactive web apps
+platform-version: o11
 ---
 
 # Resolve an intellectual property error

@@ -3,6 +3,7 @@ summary:
 locale: en-us
 guid: fef0d982-a3ee-45db-93e7-cd3f26aecd0d
 app_type: traditional web apps, mobile apps, reactive web apps
+platform-version: o11
 ---
 
 # Known issue - Upload widget not working for videos in iOS 10.3

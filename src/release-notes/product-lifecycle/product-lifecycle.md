@@ -4,6 +4,7 @@ tags:
 locale: en-us
 guid: d18db4ef-572c-4961-a7aa-097259242aca
 app_type: traditional web apps, mobile apps, reactive web apps
+platform-version: o11
 ---
 
 # OutSystems product lifecycle and support calendar

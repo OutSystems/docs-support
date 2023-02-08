@@ -4,6 +4,7 @@ tags:
 locale: en-us
 guid: e6d30ec2-fd7a-4214-921b-12f021aab323
 app_type: traditional web apps, mobile apps, reactive web apps
+platform-version: o11
 ---
 # LifeTime synchronization is stuck
 

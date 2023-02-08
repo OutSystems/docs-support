@@ -4,6 +4,7 @@ tags:
 guid: 93288C73-39A2-47F2-A809-585C906307C4
 locale: en-us
 app_type: traditional web apps, mobile apps, reactive web apps
+platform-version: o11
 ---
 
 # OutSystems Product Releases

@@ -4,6 +4,7 @@ tags: support-Cloud_Platform-featured
 locale: en-us
 guid: b41ab799-b4e4-4f0f-8141-b36fef030b0d
 app_type: traditional web apps, mobile apps, reactive web apps
+platform-version: o11
 ---
 
 # System Updates on OutSystems Cloud

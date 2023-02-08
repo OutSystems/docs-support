@@ -3,6 +3,7 @@ summary:
 locale: en-us
 guid: 8D6C234D-4B36-424C-8A41-7813025ADF11
 app_type: mobile apps
+platform-version: o11
 ---
 
 # MABS 7 Release notes

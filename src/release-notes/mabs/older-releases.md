@@ -4,6 +4,7 @@ summary:
 locale: en-us
 guid: CBEDB43A-1C6A-4EB2-A0C5-1FBC5DD2A0BC
 app_type: mobile apps
+platform-version: o11
 ---
 
 # Mobile Apps Build Service older versions

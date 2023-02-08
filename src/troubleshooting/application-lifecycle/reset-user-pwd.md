@@ -3,6 +3,7 @@ summary:
 locale: en-us
 guid: 77573d1b-9ee1-4e99-87a9-27af4a994376
 app_type: traditional web apps, mobile apps, reactive web apps
+platform-version: o11
 ---
 
 # Resetting the admin password for IT users and end users

@@ -3,6 +3,7 @@ summary: Frequently asked questions about how OutSystems infrastructure and envi
 locale: en-us
 guid: f05ef789-4630-41c8-83e8-34a5b43f9b78
 app_type: traditional web apps, mobile apps, reactive web apps
+platform-version: o11
 ---
 
 # Identify OutSystems infrastructure and runtime environments

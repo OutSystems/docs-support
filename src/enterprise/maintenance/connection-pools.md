@@ -3,6 +3,7 @@ summary:  OutSystems uses database connection pools to ensure your applications 
 locale: en-us
 guid: 3a4658d1-b73d-4842-a960-db07c21a6289
 app_type: traditional web apps, mobile apps, reactive web apps
+platform-version: o11
 ---
 
 # Connection pools in the OutSystems platform

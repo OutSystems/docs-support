@@ -4,6 +4,7 @@ tags:
 locale: en-us
 guid: 5a5f216b-421f-447a-b822-f1ec74910523
 app_type: mobile apps
+platform-version: o11
 ---
 
 # Mobile app generation logs

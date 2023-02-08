@@ -5,6 +5,7 @@ en_title: OutSystems Platform side effects and breaking changes
 locale: en-us
 guid: 2cfe6cf6-118b-41dc-b4f3-a36ed20a3841
 app_type: traditional web apps, mobile apps, reactive web apps
+platform-version: o11
 ---
 
 # OutSystems 11 side effects and breaking changes

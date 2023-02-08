@@ -3,6 +3,7 @@ summary: Check how to restart OutSystems services via LifeTime in OutSystems Clo
 locale: en-us
 guid: 814d4a99-9c7c-4418-9788-34b5dcdf6f88
 app_type: traditional web apps, mobile apps, reactive web apps
+platform-version: o11
 ---
 
 # Restart services on OutSystems Cloud

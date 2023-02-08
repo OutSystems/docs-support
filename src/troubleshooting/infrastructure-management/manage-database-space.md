@@ -3,6 +3,7 @@ summary: Personal Environments can store up to 2GB on the database. This include
 locale: en-us
 guid: 8eb02f36-7cbc-43f1-aec7-6c00c76a6bbf
 app_type: traditional web apps, mobile apps, reactive web apps
+platform-version: o11
 ---
 
 # Manage the database space of your personal environment

@@ -4,6 +4,7 @@ tags:
 locale: en-us
 guid: 4cd51773-8433-49d9-850c-0b958956e63d
 app_type: traditional web apps, mobile apps, reactive web apps
+platform-version: o11
 ---
 # Test the connectivity between OutSystems environments
 

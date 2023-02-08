@@ -4,6 +4,7 @@ Tags:
 locale: en-us
 guid: 9c278333-131f-4be3-9109-1a22630abdf6
 app_type: traditional web apps, mobile apps, reactive web apps
+platform-version: o11
 ---
 
 #  How to change the password of OutSystems database users

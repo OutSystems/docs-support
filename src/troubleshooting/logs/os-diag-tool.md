@@ -3,6 +3,7 @@ summary: OSDiagTool is a useful tool to collect in one place all the information
 locale: en-us
 guid: 82b63ca4-2687-47b0-805a-8758955536a3
 app_type: traditional web apps, mobile apps, reactive web apps
+platform-version: o11
 ---
 
 # OSDiagTool - OutSystems Support Diagnostics Tool

@@ -3,6 +3,7 @@ summary: Increasing the log levels of OutSystems platform allows to gather more 
 locale: en-us
 guid: 4109983c-357c-4cf5-b51f-19ef2cda02a5
 app_type: traditional web apps, mobile apps, reactive web apps
+platform-version: o11
 ---
 
 # Change OutSystems platform logging levels - OSTrace

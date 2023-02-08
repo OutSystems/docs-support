@@ -4,6 +4,7 @@ tags:
 locale: en-us
 guid: b9593f0a-5d9f-4d64-b3a3-e3e91fbcb671
 app_type: traditional web apps, mobile apps, reactive web apps
+platform-version: o11
 ---
 
 # Publish warning - Continuing with extension recompilation enabled may result in security flaws

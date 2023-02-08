@@ -4,6 +4,7 @@ Tags: security-vulnerabilities; article-page
 locale: en-us
 guid: bc76e550-bfca-40a6-ad24-7fe3db432331
 app_type: traditional web apps, mobile apps, reactive web apps
+platform-version: o11
 ---
 
 # Vulnerabilities

@@ -4,6 +4,7 @@ locale: en-us
 guid: B2E1578A-F543-4FF0-986C-B6830362C960
 tags: 
 app_type: traditional web apps, mobile apps, reactive web apps
+platform-version: o11
 ---
 
 # OutSystems exams scheduling, cancelation and refund policies

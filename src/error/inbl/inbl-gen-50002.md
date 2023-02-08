@@ -5,6 +5,7 @@ en_title: OS-INBL-GEN-50002
 locale: en-us
 guid: 9fd36cc7-2725-4147-9c40-c087a9e5e50d
 app_type: traditional web apps, mobile apps, reactive web apps
+platform-version: o11
 ---
 
 # OS-INBL-GEN-50002

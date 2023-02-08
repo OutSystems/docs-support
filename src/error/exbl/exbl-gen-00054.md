@@ -4,6 +4,7 @@ tags:
 locale: en-us
 guid: 1849a807-826a-472b-995a-4a6268faf608
 app_type: traditional web apps, mobile apps, reactive web apps
+platform-version: o11
 ---
 
 # OS-EXBL-GEN-00054

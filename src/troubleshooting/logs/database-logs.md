@@ -4,6 +4,7 @@ tags:
 locale: en-us
 guid: 8aafea3c-07b4-4435-9ff3-62e6607e1ee3
 app_type: traditional web apps, mobile apps, reactive web apps
+platform-version: o11
 ---
 # Database (AWR and ADDM) reports
 

@@ -4,6 +4,7 @@ tags: support-Cloud_Platform; support-installation; support-Installation_Configu
 locale: en-us
 guid: b7342d4a-b766-4910-96d8-2f557628e2cd
 app_type: traditional web apps, mobile apps, reactive web apps
+platform-version: o11
 ---
 
 # Connect to your OutSystems Cloud using AWS Transit Gateway

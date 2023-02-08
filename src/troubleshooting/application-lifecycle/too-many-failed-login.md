@@ -3,6 +3,7 @@ summary: Possible causes and their resolution for the "Too many failed login att
 locale: en-us
 guid: 6da4a5dd-e192-473f-a7fc-722e888db1f6
 app_type: traditional web apps, mobile apps, reactive web apps
+platform-version: o11
 ---
 
 # Too many failed login attempts - causes and resolution

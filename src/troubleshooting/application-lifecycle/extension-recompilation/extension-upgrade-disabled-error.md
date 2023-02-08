@@ -4,6 +4,7 @@ tags:
 locale: en-us
 guid: c37d5792-0a07-4eda-a3a2-a1e6be408968
 app_type: traditional web apps, mobile apps, reactive web apps
+platform-version: o11
 ---
 
 # Publish error - Extension recompilation on upgrade is disabled

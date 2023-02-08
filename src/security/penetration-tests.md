@@ -4,6 +4,7 @@ tags:
 locale: en-us
 guid: 43176740-324f-4592-a993-5d4f9fa660fb
 app_type: traditional web apps, mobile apps, reactive web apps
+platform-version: o11
 ---
 
 # Penetration testing

@@ -4,6 +4,7 @@ tags: support-Mobile_Apps-featured
 locale: en-us
 guid: 2705ae8e-d762-41cc-804f-0c9825d71074
 app_type: traditional web apps, mobile apps, reactive web apps
+platform-version: o11
 ---
 
 # Troubleshooting the mobile apps generation

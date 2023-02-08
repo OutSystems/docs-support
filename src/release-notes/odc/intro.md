@@ -4,6 +4,7 @@ tags:
 locale: en-us
 guid: 76a6afdc-3acf-4b75-a107-550b36a95ba6
 app_type:  mobile apps, reactive web apps
+platform-version: o11
 ---
 
 # OutSystems Developer Cloud releases

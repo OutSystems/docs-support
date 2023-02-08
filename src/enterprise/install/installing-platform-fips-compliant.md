@@ -3,6 +3,7 @@ summary:
 locale: en-us
 guid: 4f250e9c-6197-4fc6-8ee2-d6070619a935
 app_type: traditional web apps, mobile apps, reactive web apps
+platform-version: o11
 ---
 
 # Installing the OutSystems on a FIPS compliant system

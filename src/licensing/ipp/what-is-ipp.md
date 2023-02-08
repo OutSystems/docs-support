@@ -3,6 +3,7 @@ summary: The Intellectual Property Protection (IPP) feature ensures your applica
 locale: en-us
 guid: ab6146f9-8d06-44cb-9753-96c701e290f1
 app_type: traditional web apps, mobile apps, reactive web apps
+platform-version: o11
 ---
 
 # OutSystems Intellectual Property Protection - IPP

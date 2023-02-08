@@ -3,6 +3,7 @@ summary: Learn how to remove LifeTime from an environment where you don’t need
 locale: en-us
 guid: 51ecc9cc-fae3-4a8d-bde6-e65fe75f09d3
 app_type: traditional web apps, mobile apps, reactive web apps
+platform-version: o11
 ---
 
 # Remove the infrastructure management console from an environment

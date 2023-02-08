@@ -4,6 +4,7 @@ Tags:
 locale: en-us
 guid: 1305808c-05bc-4f19-939b-09877f5681c1
 app_type: traditional web apps, mobile apps, reactive web apps
+platform-version: o11
 ---
 
 # Publish error - the process cannot access the file

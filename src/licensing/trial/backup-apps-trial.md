@@ -3,6 +3,7 @@ summary: After your trial has ended, you can backup your apps and continue to wo
 locale: en-us
 guid: e8b59029-25f7-410c-8134-c595036907a4
 app_type: traditional web apps, mobile apps, reactive web apps
+platform-version: o11
 ---
 
 # Backing up and continuing work on your apps at the end of the trial

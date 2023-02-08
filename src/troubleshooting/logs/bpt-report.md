@@ -4,6 +4,7 @@ tags:
 locale: en-us
 guid: f162877c-32a8-4f69-9c0b-ccbb42bcb0f3
 app_type: traditional web apps, mobile apps, reactive web apps
+platform-version: o11
 ---
 
 # BPT troubleshooting report

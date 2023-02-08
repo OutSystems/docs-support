@@ -3,6 +3,7 @@ summary:
 locale: en-us
 guid: 0c19ce88-799c-45bb-954a-c77d1364fb87
 app_type: traditional web apps, mobile apps, reactive web apps
+platform-version: o11
 ---
 
 # Information Logged by OutSystems Platform

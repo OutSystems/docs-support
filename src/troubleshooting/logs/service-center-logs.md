@@ -4,6 +4,7 @@ tags:
 locale: en-us
 guid: 85487f8d-7eb3-4c11-98b5-03706c741c57
 app_type: traditional web apps, mobile apps, reactive web apps
+platform-version: o11
 ---
 
 # Service Center logs

@@ -3,6 +3,7 @@ summary: Learn how to check if your OutSystems environments are affected by RPM-
 locale: en-us
 guid: b2c69399-56bf-4f1b-b9ba-e4be9ddddc6b
 app_type: traditional web apps, mobile apps, reactive web apps
+platform-version: o11
 ---
 
 # Multiple new tenants after using Deploy All - RPM-3448

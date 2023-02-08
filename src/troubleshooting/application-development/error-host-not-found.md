@@ -3,6 +3,7 @@ summary: If you can't connect from the IDE to your personal environment, check i
 locale: en-us
 guid: 1772e0b0-ad78-4f95-851f-89323b298934
 app_type: traditional web apps, mobile apps, reactive web apps
+platform-version: o11
 ---
 
 # There was an error contacting outsystemscloud.com - Host not found

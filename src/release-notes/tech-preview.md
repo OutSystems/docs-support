@@ -4,6 +4,7 @@ tags:
 locale: en-us
 guid: 60B738CE-9DC3-4C1F-8269-9B857668FBE4
 app_type: traditional web apps, mobile apps, reactive web apps
+platform-version: o11
 ---
 
 # Technical Preview features

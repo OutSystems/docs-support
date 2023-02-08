@@ -4,6 +4,7 @@ summary: This document is a step-by-step guide for extracting the source code of
 locale: en-us
 guid: d823e151-2350-4360-b0c3-7030f23affe3
 app_type: traditional web apps, mobile apps, reactive web apps
+platform-version: o11
 ---
 
 # The detach process for OutSystems 10

@@ -4,6 +4,7 @@ tags:
 locale: en-us
 guid: f1499147-c819-4dee-9ef4-8bf052ff69ea
 app_type: traditional web apps, mobile apps, reactive web apps
+platform-version: o11
 ---
 
 # OS-WFBL-GEN-00003

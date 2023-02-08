@@ -3,6 +3,7 @@ summary: Applications in the OutSystems Platform often require full data separat
 locale: en-us
 guid: 1c742c8a-449c-4828-865b-7295d2f90527
 app_type: traditional web apps, mobile apps, reactive web apps
+platform-version: o11
 ---
 
 # Multiple Database Catalogs and Schemas

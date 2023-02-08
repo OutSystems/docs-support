@@ -3,6 +3,7 @@ summary:
 locale: en-us
 guid: 21E2D2B1-D673-4DFD-9DD7-DCCBE8782E77
 app_type: traditional web apps, mobile apps, reactive web apps
+platform-version: o11
 ---
 
 # How to download your OutSystems certificate

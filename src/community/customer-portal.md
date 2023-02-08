@@ -4,6 +4,7 @@ tags:
 locale: en-us
 guid: 5bd7f106-3784-4821-a603-0ad0c0fd8f82
 app_type: traditional web apps, mobile apps, reactive web apps
+platform-version: o11
 ---
 
 # Managing your company permissions on OutSystems Customer Portal

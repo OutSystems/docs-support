@@ -4,6 +4,7 @@ tags:
 locale: en-us
 guid: b04339ce-7b9f-4c93-94b7-e4cf397eab47
 app_type: traditional web apps, mobile apps, reactive web apps
+platform-version: o11
 ---
 
 # OutSystems Cloud Shared Responsibility Model

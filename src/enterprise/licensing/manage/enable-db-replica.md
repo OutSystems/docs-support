@@ -3,6 +3,7 @@ summary:
 locale: en-us
 guid: 896be9ef-da8e-438e-9e6e-1ade428de326
 app_type: traditional web apps, mobile apps, reactive web apps
+platform-version: o11
 ---
 
 # Enable Database Replica

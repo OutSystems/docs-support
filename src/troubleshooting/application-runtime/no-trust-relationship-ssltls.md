@@ -3,6 +3,7 @@ summary: Understand, troubleshoot and resolve the error 'Could not establish tru
 locale: en-us
 guid: 2a1720f7-5ef5-4e71-b15b-2511b6dc6ab5
 app_type: traditional web apps, mobile apps, reactive web apps
+platform-version: o11
 ---
 
 # Could not establish trust relationship when consuming webservices in OutSystems 

@@ -4,6 +4,7 @@ tags:
 locale: en-us
 guid: 235255BA-1C28-4CB7-B99C-DB343416DC38
 app_type: traditional web apps, mobile apps, reactive web apps
+platform-version: o11
 ---
 
 # Transfer your certifications to another account

@@ -1,6 +1,7 @@
 ---
 summary: <error-message>
 tags:
+platform-version: o11
 ---
 
 # OS-AAAA-BBBB-09999

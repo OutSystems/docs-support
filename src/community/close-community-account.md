@@ -4,6 +4,7 @@ tags:
 locale: en-us
 guid: 7486F578-3FAD-420D-9229-1E57E2555991
 app_type: traditional web apps, mobile apps, reactive web apps
+platform-version: o11
 ---
 
 # How to close your OutSystems community account

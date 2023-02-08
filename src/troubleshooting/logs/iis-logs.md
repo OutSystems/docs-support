@@ -4,6 +4,7 @@ tags:
 locale: en-us
 guid: 71ebf09d-b6ac-4453-8c92-e4e86204ed8a
 app_type: traditional web apps, mobile apps, reactive web apps
+platform-version: o11
 ---
 
 # IIS Manager logs

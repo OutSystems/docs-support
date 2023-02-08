@@ -4,6 +4,7 @@ tags: support-Security-overview; article-page
 locale: en-us
 guid: 5caacb13-daf1-4dbc-80ba-ac379a8da764
 app_type: traditional web apps, mobile apps, reactive web apps
+platform-version: o11
 ---
 
 # Develop secure OutSystems apps

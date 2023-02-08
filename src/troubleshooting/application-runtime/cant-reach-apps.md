@@ -3,6 +3,7 @@ summary: If you can't access the apps on your personal environment, go to www.ou
 locale: en-us
 guid: 61c16e5f-94d2-4a3e-ba75-c40ead245a3c
 app_type: traditional web apps, mobile apps, reactive web apps
+platform-version: o11
 ---
 
 # Cannot reach apps on my personal environment

@@ -3,6 +3,7 @@ summary: How to solve a common issue when authentication fails in the browsers I
 locale: en-us
 guid: 2cebe118-6ed5-4680-88f6-c3b010992fc0
 app_type: traditional web apps, mobile apps, reactive web apps
+platform-version: o11
 ---
 
 # Issues logging in with Integrated Authentication in Internet Explorer or Edge
