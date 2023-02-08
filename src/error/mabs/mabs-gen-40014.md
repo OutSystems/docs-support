@@ -4,7 +4,7 @@ tags:
 guid: f98cf59e-ed4f-4b06-9f97-e755adc0c2d9
 locale: en-us
 app_type: mobile apps
-platform-version: o11
+platform-version: o11, odc
 ---
 
 # OS-MABS-GEN-40014

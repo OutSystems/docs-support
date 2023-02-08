@@ -4,7 +4,7 @@ tags:
 guid: 8f2ce8f9-e177-404f-ab82-4d5a624ed6c7
 locale: en-us
 app_type: mobile apps
-platform-version: o11
+platform-version: o11, odc
 ---
 
 # OS-MABS-VLD-50000

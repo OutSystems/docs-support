@@ -4,7 +4,7 @@ tags:
 guid: fcec27c7-4587-482f-95be-594c3c6502e2
 locale: en-us
 app_type: mobile apps
-platform-version: o11
+platform-version: o11, odc
 ---
 
 # OS-MABS-PLG-50003

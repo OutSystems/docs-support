@@ -4,7 +4,7 @@ tags:
 guid: 8b3f6a2b-5fb0-44a4-9380-fac1d4c76d1e
 locale: en-us
 app_type: mobile apps
-platform-version: o11
+platform-version: o11, odc
 ---
 
 # OS-MABS-KEY-50000

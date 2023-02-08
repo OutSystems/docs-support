@@ -4,7 +4,7 @@ tags:
 guid: 8fce2d5f-62b5-41fa-b865-61ce9d8ead3f
 locale: en-us
 app_type: mobile apps
-platform-version: o11
+platform-version: o11, odc
 ---
 
 # OS-MABS-CNF-40001
