@@ -149,7 +149,7 @@ Find more information about this breaking change <a href="https://success.outsys
 <h3 id="new_in_lifetime_management_console_11.14.2" >New in LifeTime Management Console 11.14.2</h3>
 <ul>
 <li>LifeTime now uses Service Center login screen for the authentication flow. (R11CT-1493)</li>
-<li>Added new screen to open deployment plans using Deployment Key. Usage <lifetime-environment>/lifetime/Staging_Open.aspx?Key=<deployment-key> (R11CT-1495)</li>
+<li>Added new screen to open deployment plans using Deployment Key. Usage &lt;Lifetime-environment&gt;/lifetime/Staging_Open.aspx?Key=&lt;deployment-key&gt;.(R11CT-1495)</li>
 </ul>
 <h3 id="bug_fixing_lifetime_management_console_11.14.2" >Bug Fixing</h3>
 <ul>
@@ -223,7 +223,7 @@ The installation steps have been revised and updated. (RPM-2558) <span class="ca
 <ul>
 <li>Fixed an issue that caused a deployment to fail when the saved deployment plan included a deleted app. (R11CT-913)</li>
 <li>Fixed a permissions issue when deploying a new application to a target environment. (RPM-2262)</li>
-<li>Fixed an issue that caused stagings to fail with the error “You are not allowed to create an application.“.  This occurred when the staging plan includes a new application that contains only moved modules that were already published to the target, and the user who triggered the staging has Open and Debug permission as default and Change and Deploy for the team that has the application to be deployed. (RPM-2271)</li>
+<li>Fixed an issue that caused stagings to fail with the error "You are not allowed to create an application.". This occurred when the staging plan includes a new application that contains only moved modules that were already published to the target, and the user who triggered the staging has Open and Debug permission as default and Change and Deploy for the team that has the application to be deployed. (RPM-2271)</li>
 <li>Fixed an issue preventing an internal field 'template key' from being lost when staging applications between environments.  (RPM-2555)</li>
 <li>Fixed a bug where CSP was not applied correctly in the LifeTime console. CVSSv3.1 score 2.3 (Low). (RPM-2231)</li>
 </ul>
@@ -235,10 +235,10 @@ The installation steps have been revised and updated. (RPM-2558) <span class="ca
 
 <h3 id="bug-fixing-lifetime-management-console-11.12.1" >Bug Fixing</h3>
 <ul>
-<li>Moved the cloud database restore operation from LifeTime to Support Portal. (RPM-2065)
-<li>Fixed an issue that caused a 'No Permission' error for the Platform Services user when executing synchronization processes. (RPM-2281)
-<li>Fixed an issue that caused the environment type information on LifeTime to be wrongly synchronized. (RPM-2377)
-<li>Fixed a bug that set all FrontEnds in a given environment to inactive when at least one of the FrontEnds was Stopped, leaving the database usage information displayed in Lifetime out of date. (RPM-2513)
+<li>Moved the cloud database restore operation from LifeTime to Support Portal. (RPM-2065)</li>
+<li>Fixed an issue that caused a 'No Permission' error for the Platform Services user when executing synchronization processes. (RPM-2281)</li>
+<li>Fixed an issue that caused the environment type information on LifeTime to be wrongly synchronized. (RPM-2377)</li>
+<li>Fixed a bug that set all FrontEnds in a given environment to inactive when at least one of the FrontEnds was Stopped, leaving the database usage information displayed in Lifetime out of date. (RPM-2513)</li>
 </ul>
 
 <div class="hidden" id="lifetime-management-console-11.12.1_end"></div><div class="hidden" id="lifetime-management-console-11.12.0_start"></div>
