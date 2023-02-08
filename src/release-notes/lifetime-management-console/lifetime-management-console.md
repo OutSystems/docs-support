@@ -48,7 +48,7 @@ This occurred when old LifeTimeAnalytics tables don't exist, the process was rel
 <li>Fixed an issue with wrong audit message. In a cloud infrastructure, when changing the Maintenance Window of an environment the logged message had the wrong environment name and the user who made the request wasn't recorded. (RPM-3207) <span class="cattag">Application Lifecycle</span>  <span class="cattag">LifeTime</span> </li>
 <li>Fixed the issue that was causing the Username claim field to display default value always even when it was changed and saved. (RPM-3458) <span class="cattag">Application Lifecycle</span>  <span class="cattag">LifeTime</span> </li>
 <li>Fixed an issue that was not letting to enable legacy provider with Built-in authentication activated and throwing error. (RPM-3471) <span class="cattag">Application Lifecycle</span>  <span class="cattag">LifeTime</span> </li>
-<li>Fixed an issue that caused an error when a user had Access permissions in the environment but Change&Deploy in a specific Application.<br/> 
+<li>Fixed an issue that caused an error when a user had Access permissions in the environment but Change&amp;Deploy in a specific Application.<br/> 
 This occurred when LifeTime would add a dependency of that app that the user has no permission to deploy.<br/>
 Now, the user will get an exception saying that he does not have permission to deploy one or more of the added dependencies. (RPM-672) <span class="cattag">Application Lifecycle</span>  <span class="cattag">LifeTime</span> </li>
 <li>Made the automatic abort due to errors on deployment plans more resilient.

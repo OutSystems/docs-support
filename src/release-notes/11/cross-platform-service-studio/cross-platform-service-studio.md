@@ -656,7 +656,7 @@ now also appear in the Logic Tab, under the Integrate With External System menu 
 
 <h3 id="bug_fixing_cross-platform_service_studio_11.53.4" >Bug Fixing</h3>
 <ul>
-<li>Fixed an error on Compare&Merge dialog when trying to merge and cancel at the same time. (RMAC-9731)</li>
+<li>Fixed an error on Compare&amp;Merge dialog when trying to merge and cancel at the same time. (RMAC-9731)</li>
 <li>Fixed an issue in the JavaScript validation. (RMAC-9795)</li>
 </ul>
 

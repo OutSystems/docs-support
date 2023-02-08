@@ -946,7 +946,7 @@ Change the locale to "ja-jp" and access the Users module
 <span class="cattag">Publish Operation</span> <span class="cattag">Compilation</span> <br/>
 <br/>
 <u>Fix Details:</u><br/>
-Publishing a module in Service Studio failed with the error "Internal Error: Cannot delete the file '<DLL file>'. Please check if a third-party program is using it and try again". Republishing the module would overcome the issue.
+Publishing a module in Service Studio failed with the error "Internal Error: Cannot delete the file '&lt;DLL file&gt;'. Please check if a third-party program is using it and try again". Republishing the module would overcome the issue.
 </p>
 <p>
 <br/>
@@ -962,7 +962,7 @@ The Installation Checklist of Platform Server 11.13.2 or later still included th
 <span class="cattag">Service Studio</span> <span class="cattag">Data Access and Manipulation</span> <br/>
 <br/>
 <u>Fix Details:</u><br/>
-For modules published in a catalog different from the main catalog, editing the entity data in Service Studio using the "View or Edit Data" option failed with the error "Invalid object name '<Table_Physical_Name>'" for SQL Server or "ORA-00942 - Table or View does not exist" for Oracle databases.
+For modules published in a catalog different from the main catalog, editing the entity data in Service Studio using the "View or Edit Data" option failed with the error "Invalid object name '&lt;Table_Physical_Name&gt;'" for SQL Server or "ORA-00942 - Table or View does not exist" for Oracle databases.
 </p>
 <p>
 <br/>
@@ -1188,7 +1188,7 @@ In Oracle environments, IT users are not able to login in OutSystems tools, such
 <h3>Breaking Change</h3>
 <ul>
 <li>The title of the Popup_Editor, Popup_EditorForUpload, and Popup_EditorVanilla is now encoded to prevent cross-site scripting (XSS) attacks. This may cause it to appear garbled in very specific scenarios.<br/>
-Check <a href="https://success.outsystems.com/Support/Archive/11/OutSystems_Platform_side_effects_and_breaking_changes" rel="internal" target="_blank" rel="noopener noreferrer">OutSystems 11 side effects and breaking changes</a> for more details on the breaking change and a possible workaround. </li>
+Check <a href="https://success.outsystems.com/Support/Archive/11/OutSystems_Platform_side_effects_and_breaking_changes" target="_blank" rel="noopener noreferrer">OutSystems 11 side effects and breaking changes</a> for more details on the breaking change and a possible workaround. </li>
 </ul>
 
 <h3>Known Issues</h3>
@@ -1400,7 +1400,7 @@ In the tenant details of a module, the Timers tab was not properly validating th
 <span class="cattag">Infrastructure Management</span> <span class="cattag">Platform Configuration</span> <br/>
 <br/>
 <u>Fix Details:</u><br/>
-As of Platform Server 11.12.2, the installer will only install .NET Core 3.1 Runtime & Hosting Bundle for Windows, which is part of the system requirements.
+As of Platform Server 11.12.2, the installer will only install .NET Core 3.1 Runtime &amp; Hosting Bundle for Windows, which is part of the system requirements.
 Although it replaces .NET Core 2.1 which is no longer supported, the installer does not remove it. If you previously had .NET Core 2.1 installed and remove it, this will break the .NET Core 3.1 installation and can as well cause some OutSystems services to fail.
 With that said, the installer of Platform Server 11.13.0 or later installed both versions.
 Please note that if you want to remove .NET Core 2.1, the correct procedure is to remove both versions, and install only .NET Core 3.1.
@@ -2291,7 +2291,7 @@ However the schema (v*) should be upgraded to the latest version (v*)." appearin
 <h3>Breaking Change</h3>
 <ul>
 <li>Now, HTTP responses from Consumed REST API integrations are closed more aggressively. Previously, when doing numerous Consumed REST API requests, the number of used ports could increase rapidly and lead to port exhaustion problems. The new behaviour prevents this situation and helps avoid leaking resources, but can also cause runtime changes in some edge cases.<br/>
-Check <a href="https://www.outsystems.com/goto/breaking-changes-11#introduced-in-platform-server-11111" rel="internal" target="_blank" rel="noopener noreferrer">OutSystems 11 side effects and breaking changes</a> for more details on the breaking change and on a possible workaround. </li>
+Check <a href="https://www.outsystems.com/goto/breaking-changes-11#introduced-in-platform-server-11111" target="_blank" rel="noopener noreferrer">OutSystems 11 side effects and breaking changes</a> for more details on the breaking change and on a possible workaround. </li>
 </ul><div class="hidden" id="platform-server-11.11.1_end"></div><div class="hidden" id="platform-server-11.10.3_start"></div>
 
 <h2 id="platform_server_11.10.3">Platform Server 11.10.3</h2>
@@ -2534,7 +2534,7 @@ The fix consists of changing the 20 minutes timeout on the entire System Compone
 <li>The platform now gives preference to usage of specific versions of third-party assemblies that are included in extensions. As a consequence, extensions that incorrectly include .NET Framework assemblies can prevent applications from working correctly due to conflicts between the included assemblies and the assemblies of the .NET Framework installed in the machine.
 In particular, including the extensions System.Net.Http.dll or System.Runtime.InteropServices.RuntimeInformation.dll causes issues in logging, login, and JSON serialization. (RPM-383) (RPM-386)
 <br/>
-Check how you can determine the affected extensions and how to adapt them to the new assembly loading behavior in <a href="https://www.outsystems.com/goto/breaking-changes-11#introduced-in-platform-server-1190" rel="internal" target="_blank" rel="noopener noreferrer">OutSystems 11 side effects and breaking changes</a>.</li>
+Check how you can determine the affected extensions and how to adapt them to the new assembly loading behavior in <a href="https://www.outsystems.com/goto/breaking-changes-11#introduced-in-platform-server-1190" target="_blank" rel="noopener noreferrer">OutSystems 11 side effects and breaking changes</a>.</li>
 <li>The KeyStore and SAML actions were moved from the Authentication extension, Authentication.xif, to the SAMLAuthentication extension, SAMLAuthentication.xif. This can cause some broken references when using methods from Authentication.xif that moved to the new module. (RSAT-2104)
 <br/>
 To fix this behavior, replace dependencies to KeyStore and SAML actions from Authentication to the corresponding actions from SAMLAuthentication.</li>
@@ -2600,7 +2600,7 @@ To fix this behavior, replace dependencies to KeyStore and SAML actions from Aut
 <li>Reviewed the sections for granting security levels to Users or Roles in several screens, improving the copy and pattern used.  (RLIT-3119)</li>
 <li>Upgraded Oracle Driver to Oracle.ManagedDataAccess.Core version 2.19.60. (RPC-825)</li>
 <li>Updated MySQL driver to version 8.0.18. (RPD-4645)</li>
-<li>The built-in Service Studio tutorial (Help &gt; Build an App in 5 min) now shows how to use the <a href="https://success.outsystems.com/Documentation/11/Developing_an_Application/Implement_Application_Logic/AI-assisted_development" rel="internal" target="_blank" rel="noopener noreferrer">suggestions by the AI-assisted development feature</a>. (RAID-484)</li>
+<li>The built-in Service Studio tutorial (Help &gt; Build an App in 5 min) now shows how to use the <a href="https://success.outsystems.com/Documentation/11/Developing_an_Application/Implement_Application_Logic/AI-assisted_development" target="_blank" rel="noopener noreferrer">suggestions by the AI-assisted development feature</a>. (RAID-484)</li>
 <li>The configuration of Deployment Zones is now only available at application level. Applications with modules in different deployment zones are still supported but this is a deprecated configuration, which we will drop in the future. If you have applications with modules in different deployment zones, you must refactor and reorganize them to meet this restriction. (RLIT-3574)</li>
 <li>Now you can use the new "Apply Settings to the Factory" button in Service Center to set runtime settings of an Environment, instead of creating and publishing a Solution containing all Modules.<br/>
 You'll also see a new warning in the sidebar whenever the environment has pending configurations. (RLIT-3632)</li>
@@ -2738,7 +2738,7 @@ Removed from availability on Jan 17, 2020
 <ul>
 <li>It is now possible to consume REST APIs using Swagger specifications that have enum elements. (RSBO-872)</li>
 <li>Added support for accent-sensitive Linguistic sorts on Oracle databases. (RSAT-1844)</li>
-<li>You can now distribute your app as a Progressive Web App (PWA). Start by enabling this early access feature in LifeTime. Then, create a mobile or tablet app, publish it, navigate to the "Distribute" tab and toggle on "Distribute as the PWA" (no republish needed). You can try your PWA out by installing it through Android Chrome and iOS Safari. The <a href="https://success.outsystems.com/Documentation/11/Delivering_Mobile_Apps/Distribute_as_a_progressive_web_app" rel="internal" target="_blank" rel="noopener noreferrer">early access PWA documentation</a> explains how to enable PWA on iOS 13, as well as how to edit the manifest. Check also the blog post. Have fun and share your feedback with us on the forum! (RTAF-1831)</li>
+<li>You can now distribute your app as a Progressive Web App (PWA). Start by enabling this early access feature in LifeTime. Then, create a mobile or tablet app, publish it, navigate to the "Distribute" tab and toggle on "Distribute as the PWA" (no republish needed). You can try your PWA out by installing it through Android Chrome and iOS Safari. The <a href="https://success.outsystems.com/Documentation/11/Delivering_Mobile_Apps/Distribute_as_a_progressive_web_app" target="_blank" rel="noopener noreferrer">early access PWA documentation</a> explains how to enable PWA on iOS 13, as well as how to edit the manifest. Check also the blog post. Have fun and share your feedback with us on the forum! (RTAF-1831)</li>
 <li>Service Center has a new look and feel, among with several improvements and bug fixes:<br/>
 - Added search ability to dropdowns with long lists, such as modules in filters<br/>
 - Replaced filters and navigation actions from submit to ajax submit<br/>
@@ -2837,7 +2837,7 @@ Removed from availability on Jan 17, 2020
 </div>
 <h3 id="new_in_platform_server_release_oct.2019_cp4">New in Platform Server Release Oct.2019 CP4</h3>
 <ul>
-<li>Added new environment security options to force Secure and SameSite properties in cookies generated by the platform. Check the document <a href="https://success.outsystems.com/Support/Enterprise_Customers/Maintenance_and_Operations/Upcoming_changes_in_cookie_handling_in_Google_Chrome#Release_schedule" rel="internal" target="_blank" rel="noopener noreferrer">Upcoming changes in cookie handling in Google Chrome</a> for more information. (RPC-502)</li>
+<li>Added new environment security options to force Secure and SameSite properties in cookies generated by the platform. Check the document <a href="https://success.outsystems.com/Support/Enterprise_Customers/Maintenance_and_Operations/Upcoming_changes_in_cookie_handling_in_Google_Chrome#Release_schedule" target="_blank" rel="noopener noreferrer">Upcoming changes in cookie handling in Google Chrome</a> for more information. (RPC-502)</li>
 <li>Added three optional input parameters to configure additional Cookie settings in HTTPRequestHandler. (RTAF-1774)</li>
 </ul>
 <h3 id="bug_fixing_release_oct.2019_cp4">Bug Fixing</h3>
@@ -2919,11 +2919,11 @@ Removed from availability on Jan 17, 2020
 <li style="margin-left:35px;">Public Screens will allow you to reuse UI across different Reactive Web modules and apps. Because the UI can be modular, you can now have more complex UI modules that you can maintain efficiently. You can collaborate better without merge conflicts, as one team can be working on the logic module, while the other is updating the UI module. (RTAF-198)</li>
 <li style="margin-left:35px;">Download Tool is available in Reactive Apps. Now you can drag a Download Tool to your Flow and create a node which, when executed, sends a file for download to the end-user. (RTAF-993)</li>
 </ul>
-<li>You can now create <a href="https://success.outsystems.com/Documentation/11/Developing_an_Application/Reuse_and_Refactor/Libraries" rel="internal" target="_blank" rel="noopener noreferrer">Libraries</a> in Mobile and Reactive Web apps. This new module type is especially tailored for building highly reusable logic and UI and fits directly in the Foundation layer of the 4 Layer Canvas. (RSBO-708)</li>
+<li>You can now create <a href="https://success.outsystems.com/Documentation/11/Developing_an_Application/Reuse_and_Refactor/Libraries" target="_blank" rel="noopener noreferrer">Libraries</a> in Mobile and Reactive Web apps. This new module type is especially tailored for building highly reusable logic and UI and fits directly in the Foundation layer of the 4 Layer Canvas. (RSBO-708)</li>
 <li>The checklist and documentation instruction links now include the required steps for the Microsoft .NET Core 2.1 Windows Server Hosting. Additionally, the recommended version has been raised to 2.1.12. (RPC-254)</li>
 <li>Improved the solution publication messages regarding the database update to have more details about each step (RRCT-2429)</li>
-<li>We improved Data Sources and made asynchronous data fetching straightforward to use in Mobile and Reactive Apps. Screen Aggregates and Data Actions are now available in the scope of other Screen Aggregates and Data Actions. We also added the Fetch property with On Start and On Demand options. Now you can <a href="https://success.outsystems.com/Documentation/11/Developing_an_Application/Use_Data/Query_Data/Implement_asynchronous_data_fetching_using_Aggregates" rel="internal" target="_blank" rel="noopener noreferrer">implement patterns such as master/detail</a> with an excellent performance and user experience. (RTAF-990)</li>
-<li>Now you can create <a href="https://success.outsystems.com/Documentation/11/Reference/OutSystems_Language/Data/Handling_Data/Client_Variable" rel="internal" target="_blank" rel="noopener noreferrer">Client Variables</a> in Mobile and Reactive Apps. Use Client Variables to store Basic Data Types locally or share the values across apps through public Blocks and public Client Actions. (RTAF-1051)</li>
+<li>We improved Data Sources and made asynchronous data fetching straightforward to use in Mobile and Reactive Apps. Screen Aggregates and Data Actions are now available in the scope of other Screen Aggregates and Data Actions. We also added the Fetch property with On Start and On Demand options. Now you can <a href="https://success.outsystems.com/Documentation/11/Developing_an_Application/Use_Data/Query_Data/Implement_asynchronous_data_fetching_using_Aggregates" target="_blank" rel="noopener noreferrer">implement patterns such as master/detail</a> with an excellent performance and user experience. (RTAF-990)</li>
+<li>Now you can create <a href="https://success.outsystems.com/Documentation/11/Reference/OutSystems_Language/Data/Handling_Data/Client_Variable" target="_blank" rel="noopener noreferrer">Client Variables</a> in Mobile and Reactive Apps. Use Client Variables to store Basic Data Types locally or share the values across apps through public Blocks and public Client Actions. (RTAF-1051)</li>
 <li>The <a class="link-https" href="https://www.outsystems.com/DocRouter/Router.aspx?PlatformToolName=ServiceStudio&amp;PlatformVersionNumber=11.0&amp;HelpId=30208" rel="external noopener nofollow" target="_blank">Dropdown Widget</a> has a new property Options Content, which you can set to Text Only or Custom. Text Only gives a native look and feel of the drop-down lists in your Reactive and Mobile apps. Use Options Content property set to Custom to build a list of images or other Widgets. (RTAF-1207)</li>
 <li>Button Widgets in Mobile and Reactive Apps now have the Is Form Default property, which you can set to Yes and make the App submit the data from the related form when the end-user presses the Enter key. (RTAF-652)</li>
 <li>The Users application now includes specific configurations for OKTA, for authenticating the end-users of your OutSystems applications. (RSBO-791)</li>
@@ -3220,7 +3220,7 @@ The SanitizeHtml action has the following differences when compared with the pre
 <li>The "Publish all consumers" button in Service Center eSpace details page now publishes only the consumer modules that have references to the producer module in the current running version. (RPD-3355)</li>
 <li>Enable container deployment info messages to be displayed in LifeTime. (RLIT-2261)</li>
 <li>Fixed a compilation issue consuming SOAP Web Services that have a WSDL with GUID types. (RINT-2757)</li>
-<li>Fixed the incorrect serialization of input parameters of Date, Time and DateTime data types in consumed SOAP Web Services. This might have caused data corruption on some scenarios. Check the <a href="https://success.outsystems.com/Support/Release_Notes/11/Platform_Server#Known_Issues-21552" rel="internal" target="_blank" rel="noopener noreferrer">Known Issues</a> section in the Platform Server Release Sep.2018 Release Notes for more information. (RINT-3069)</li>
+<li>Fixed the incorrect serialization of input parameters of Date, Time and DateTime data types in consumed SOAP Web Services. This might have caused data corruption on some scenarios. Check the <a href="https://success.outsystems.com/Support/Release_Notes/11/Platform_Server#Known_Issues-21552" target="_blank" rel="noopener noreferrer">Known Issues</a> section in the Platform Server Release Sep.2018 Release Notes for more information. (RINT-3069)</li>
 <li>Fixed a publishing issue consuming SOAP Web Services when a SOAP Structure is used both inside a &lt;choice&gt; element and a List. (RINT-3190)</li>
 <li>Consuming SOAP services that include Time outputs no longer causes a compilation error. (RINT-3203)</li>
 <li>Fixed a publishing issue consuming SOAP Web Services when the SOAP Structure contain only a single attribute of type List. (RINT-3217)</li>
@@ -3275,7 +3275,7 @@ The SanitizeHtml action has the following differences when compared with the pre
 <li>The "Publish all consumers" button in Service Center eSpace details page now publishes only the consumer modules that have references to the producer module in the current running version. (RPD-3355)</li>
 <li>Enable container deployment info messages to be displayed in LifeTime. (RLIT-2261)</li>
 <li>Fixed a compilation issue consuming SOAP Web Services that have a WSDL with GUID types. (RINT-2757)</li>
-<li>Fixed the incorrect serialization of input parameters of Date, Time and DateTime data types in consumed SOAP Web Services. This might have caused data corruption on some scenarios. Check the <a href="https://success.outsystems.com/Support/Release_Notes/11/Platform_Server#Known_Issues-21552" rel="internal" target="_blank" rel="noopener noreferrer">Known Issues</a> section in the Platform Server Release Sep.2018 Release Notes for more information. (RINT-3069)</li>
+<li>Fixed the incorrect serialization of input parameters of Date, Time and DateTime data types in consumed SOAP Web Services. This might have caused data corruption on some scenarios. Check the <a href="https://success.outsystems.com/Support/Release_Notes/11/Platform_Server#Known_Issues-21552" target="_blank" rel="noopener noreferrer">Known Issues</a> section in the Platform Server Release Sep.2018 Release Notes for more information. (RINT-3069)</li>
 <li>Fixed a publishing issue consuming SOAP Web Services when a SOAP Structure is used both inside a <choice> element and a List. (RINT-3190)</choice></li>
 <li>Fixed a publishing issue consuming SOAP Web Services when the SOAP Structure contain only a single attribute of type List. (RINT-3217)</li>
 <li>Consuming SOAP services that include Time outputs no longer causes a compilation error. (RINT-3203)</li>
@@ -3300,7 +3300,7 @@ The SanitizeHtml action has the following differences when compared with the pre
 </ul>
 <h3 id="bug_fixing_release_sep.2018_cp2">Bug Fixing</h3>
 <ul>
-<li>Fixed the incorrect serialization of input parameters of Date, Time and DateTime data types in consumed SOAP Web Services. This might have caused data corruption on some scenarios. Check the <a href="https://success.outsystems.com/Support/Release_Notes/11/Platform_Server#Known_Issues-21552" rel="internal" target="_blank" rel="noopener noreferrer">Known Issues</a> section in the Platform Server Release Sep.2018 Release Notes for more information. (RINT-3069)</li>
+<li>Fixed the incorrect serialization of input parameters of Date, Time and DateTime data types in consumed SOAP Web Services. This might have caused data corruption on some scenarios. Check the <a href="https://success.outsystems.com/Support/Release_Notes/11/Platform_Server#Known_Issues-21552" target="_blank" rel="noopener noreferrer">Known Issues</a> section in the Platform Server Release Sep.2018 Release Notes for more information. (RINT-3069)</li>
 <li>We fixed an array compilation error in the SOAP web services that prevented module publishing. This affected only applications with the new SOAP implementation. (RPD-3627)</li>
 <li>Fixed SAP connection testing in Service Center that always failed with an invalid login error. (RPD-3847)</li>
 <li>Fixed an issue that was causing the error "Duplicate is not a valid operation inside a StartIteration/EndIteration block" when using cached actions. (RPD-3698)</li>
@@ -3359,10 +3359,10 @@ The SanitizeHtml action has the following differences when compared with the pre
 <li>Fixed the "Expected ';'" JavaScript error that appeared after an AJAX Refresh in some scenarios. (RPD-3511)</li>
 <li>Fixed a compilation error that occurred when using a Web Service containing action with single outputs of type Structure. (RINT-2775)</li>
 <li>The Configuration Tool command-line parameter "/ModifyDeploymentZone" now fails gracefully when trying to modify a non-existing deployment zone. (RSAT-1042)</li>
-<li>Due to the specifics of deploying applications into containers, we disabled the Delete button for those applications. This is to prevent OutSystems Deployment Controller Service, for the application you are trying to delete, from a lock during the 30 minutes timeout in some scenarios. Otherwise, you'd need to restart the OutSystems Deployment Controller Service to resume normal operations before the timeout. Additionally, the messages related to container deployment are now correctly shown in LifeTime. Check <a class="new" href="https://success.outsystems.com/Support/Enterprise_Customers/Maintenance_and_Operations/Deleting_an_application_that_is_manually_deployed_to_a_container" rel="internal" target="_blank" rel="noopener noreferrer">"Deleting an application that is manually deployed to a container"</a> for the instructions. (RSAT-1077)</li>
+<li>Due to the specifics of deploying applications into containers, we disabled the Delete button for those applications. This is to prevent OutSystems Deployment Controller Service, for the application you are trying to delete, from a lock during the 30 minutes timeout in some scenarios. Otherwise, you'd need to restart the OutSystems Deployment Controller Service to resume normal operations before the timeout. Additionally, the messages related to container deployment are now correctly shown in LifeTime. Check <a class="new" href="https://success.outsystems.com/Support/Enterprise_Customers/Maintenance_and_Operations/Deleting_an_application_that_is_manually_deployed_to_a_container" target="_blank" rel="noopener noreferrer">"Deleting an application that is manually deployed to a container"</a> for the instructions. (RSAT-1077)</li>
 <li>Fixed deprecation warning due to the usage of 'buildpack' attribute in Pivotal Cloud Foundry (PCF) manifest files, which are used for PCF deployments. (RSAT-1055)</li>
 <li>We fixed a resource disposal issue that might cause errors while contacting external container deployment tools. (RSAT-1104)</li>
-<li>Fixed the incorrect serialization of input parameters of Date, Time and DateTime data types in consumed SOAP Web Services. This might have caused data corruption on some scenarios. Check the <a href="https://success.outsystems.com/Support/Release_Notes/11/Platform_Server#Known_Issues-21552" rel="internal" target="_blank" rel="noopener noreferrer">Known Issues</a> section in the Platform Server Release Sep.2018 Release Notes for more information. (RINT-3069)</li>
+<li>Fixed the incorrect serialization of input parameters of Date, Time and DateTime data types in consumed SOAP Web Services. This might have caused data corruption on some scenarios. Check the <a href="https://success.outsystems.com/Support/Release_Notes/11/Platform_Server#Known_Issues-21552" target="_blank" rel="noopener noreferrer">Known Issues</a> section in the Platform Server Release Sep.2018 Release Notes for more information. (RINT-3069)</li>
 <li>Fixed incorrect packaging of the Caching and Logging libs for the Container Application Scheduler. (RSAT-1074)</li>
 <li>Consuming SOAP services that include Time outputs no longer causes a compilation error. (RINT-3203)</li>
 <li>Fixed Service Center so it now ignores the database incoherences that can cause timers to appear to be running indefinitely. (RPD-2999)</li>
@@ -3394,7 +3394,7 @@ The SanitizeHtml action has the following differences when compared with the pre
 <li dir="ltr">It's now possible to deploy and run OutSystems applications using Windows Docker Container in an on-premise Docker container environment, or in a cloud environment like Amazon (in Elastic Container Service) or Azure (in Azure Container Service). (RSAT-505)</li>
 <li dir="ltr">The concept of Zones was revamped and it's now called Deployment Zones and have them associated to a hosting technology when application will be deployed. (RSAT-612)</li>
 <li dir="ltr">A set of tools is now available to collect information about the Docker container and application health in order to help the troubleshoot or gather relevant information to the analysis. Check these troubleshooting tools <a class="link-https" href="https://github.com/OutSystems/OutSystems-CollectInfo-wdocker" rel="external noopener nofollow" target="_blank"><u>here</u></a>. (RSAT-829)</li>
-<li dir="ltr">"Automatic" in the Deployment Mode section. For more info on how to configure the URLs that trigger the deployment actions, check <a class="new" href="https://success.outsystems.com/Documentation/Development_FAQs/How_to_automate_Docker_container_deployment_with_Jenkins" rel="internal" target="_blank" rel="noopener noreferrer"><u>How to automate Docker container deployment with Jenkins</u></a>. (RSAT-395)</li>
+<li dir="ltr">"Automatic" in the Deployment Mode section. For more info on how to configure the URLs that trigger the deployment actions, check <a class="new" href="https://success.outsystems.com/Documentation/Development_FAQs/How_to_automate_Docker_container_deployment_with_Jenkins" target="_blank" rel="noopener noreferrer"><u>How to automate Docker container deployment with Jenkins</u></a>. (RSAT-395)</li>
 <li dir="ltr">When an application is associated to a Deployment Zone configured to use containers as hosting technology, OutSystems platform will generate a bundle with all the assets needed to allow build and run your application in a container. (RSAT-385)</li>
 <li dir="ltr">Fixed a container-related issue that left temporary files behind after aborting a solution that was published in the two steps mode. (RSCT-1379)</li>
 <li dir="ltr">OutSystems Management Consoles gives you the possibility to defined the hosting technology for your applications. That technology is now visible though their logos in Lifetime animations. (RSAT-769)</li>
