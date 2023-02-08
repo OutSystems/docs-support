@@ -1636,7 +1636,7 @@ When deploying Reactive Web Apps, the staging report included the following warn
 
 
 <style>.cattag {background: #f4f2ff; color: #6a6581; padding: 4px 10px;}</style>
-<div class="moreDetailsDiv">
+
 <h3 id="more_details_platform_server_11.13.2" >More details</h3>
 <p>
 <br/>
@@ -1645,29 +1645,29 @@ When deploying Reactive Web Apps, the staging report included the following warn
 <br/>
 <u>Fix Details:</u><br>End users configured with standard LDAP authentication were not able to log in due to an "Invalid username or password" error.
 This was an error in Users application related to the encrypt/decrypt password algorithm. The issue was found in version 11.7.3 and it's now fixed.
-</p>
+
 <p>
 <br/>
 <b>Fixed an upgrade schema error when clicking "Create/Upgrade Database" in the Configuration Tool while upgrading the Platform Server from version 10 to version 11.11.1 or later. This issue applies only to self-managed environments.</b><br/>
 <span class="cattag">Infrastructure Management</span> <span class="cattag">Platform Configuration</span> <br/>
 <br/>
 <u>Fix Details:</u><br>While upgrading the Platform Server component in a self-managed environment from version 10 to version 11.11.1 or later, clicking the "Create/Upgrade Database" button in the Configuration Tool caused the upgrade schema error "Unable to obtain the connection string". Besides blocking the upgrade process, this issue didn't cause downtime or loss of service.
-</p>
+
 <p>
 <br/>
 <b>Improved the performance of the modules preparation phase executed during the upgrade process.</b><br/>
 <span class="cattag">Infrastructure Management</span> <span class="cattag">Platform Configuration</span> <br/>
 <br/>
-<u>Fix Details:</u><br>The  after a Platform Server upgrade could take a long time to complete, increasing the time a development team would have to go without being able to publish any modules. This is especially noticeable in large factories and it would only occur in Platform Server 11.12.0 or later.
+<u>Fix Details:</u><br>The modules preparation after a Platform Server upgrade could take a long time to complete, increasing the time a development team would have to go without being able to publish any modules. This is especially noticeable in large factories and it would only occur in Platform Server 11.12.0 or later.
 The module preparation was improved to be more performant.
-</p>
+
 <p>
 <br/>
 <b>Fixed a high severity vulnerability by upgrading the packaged RabbitMQ to 3.8.21.</b><br/>
 <span class="cattag">Infrastructure Management</span> <span class="cattag">Platform Configuration</span> <br/>
 <br/>
 <u>Fix Details:</u><br>All versions of RabbitMQ prior to 3.8.16 are prone to a denial of service vulnerability.  The packaged RabbitMQ was upgraded. You can check more details in this 
-</p>
+
 <p>
 <br/>
 <b>Fixed an issue that caused the incorrect calculation of the average time in Service Actions Performance report.</b><br/>
@@ -1675,7 +1675,7 @@ The module preparation was improved to be more performant.
 <br/>
 <u>Fix Details:</u><br>The Service Actions Performance report in Service Center showed incorrect values for  "Avg. Time". 
 When generating or exporting a Service Actions Performance report from the Analytics tabs of Service Center, the report showed the same value for both "Avg. Time" and "Total Time" columns.
-</p>
+
 <p>
 <br/>
 <b>Fixed a malformed login URL for SAML 2.0 when using an external IdP with SSO login URL containing query parameters.</b><br/>
@@ -1683,7 +1683,7 @@ When generating or exporting a Service Actions Performance report from the Analy
 <br/>
 <u>Fix Details:</u><br>After setting up SAML 2.0 in Users, app end users that try to log in get redirected to the User app with a permission denied message.
 The issue occurred due to a malformed login URL when using SAML 2.0 with a Single Sign-On URL that contained a query parameter.
-</p>
+
 <p>
 <br/>
 <b>Fixed an issue that occurred when clicking "Apply and Exit" in the Configuration Tool after changing the Platform, Log, or Session database configurations.</b><br/>
@@ -1691,7 +1691,7 @@ The issue occurred due to a malformed login URL when using SAML 2.0 with a Singl
 <br/>
 <u>Fix Details:</u><br>Configuration Tool was not respecting alterations to the databases connection details (Platform, Log, and Session). Changes done in the Configuration Tool UI were not effectively saved. Upon clicking "Apply an Exit", older values (for example: database address, authentication mode and credentials) would be used, ultimately causing connection errors or operations to be attempted with the old values.
 The issue was fixed, and values changed in the UI are now fully respected.
-</p>
+
 <p>
 <br/>
 <b>Fixed an issue that might cause the Configuration Tool to lock the Administrator or Runtime Active Directory accounts when using Windows Authentication.</b><br/>
@@ -1699,7 +1699,7 @@ The issue was fixed, and values changed in the UI are now fully respected.
 <br/>
 <u>Fix Details:</u><br>When using Windows Authentication, opening the Configuration Tool could lock the Administrator or Runtime user accounts in the Active Directory. This would happen under a strict security policy to lock user accounts on first failed login attempt.
 This issue occurred because the Configuration Tool was attempting to login to the database with the Administrator and Runtime users as soon as the UI is opened, which doesn't apply to Windows Authentication.
-</p>
+
 <p>
 <br/>
 <b>Fixed a licensing query that would generate "Licensing error" entries in Service Center Error logs.</b><br/>
@@ -1711,7 +1711,7 @@ This issue occurred because the Configuration Tool was attempting to login to th
 <li>the license was purchased after January 2020</li></ul>
 <br>
 The issue was fixed in an OutSystems internal query to no longer result in such an error.
-</p>
+
 <p>
 <br/>
 <b>Fixed an issue where the Configuration Tool UI was not disabling Log and Session database credential fields when using Windows Authentication.</b><br/>
@@ -1720,7 +1720,7 @@ The issue was fixed in an OutSystems internal query to no longer result in such 
 <u>Fix Details:</u><br>In the Configuration Tool, when authentication is set to Windows Authentication on the Platform tab, login errors could occur.
 
 The Administrator, Runtime, and Session credential fields in the Log and Session tabs should be disabled. The issue would cause the fields to be editable. This would force the user to fill in those fields, and, when the credentials didn't match, would cause a login error.
-</p>
+
 <p>
 <br/>
 <b>Fixed a compilation issue when consuming a SOAP Web Service containing a type and a subtype with the same name.</b><br/>
@@ -1728,8 +1728,8 @@ The Administrator, Runtime, and Session credential fields in the Log and Session
 <br/>
 <u>Fix Details:</u><br>A compilation error occurred after publishing a module which consumed a SOAP Web Service with polymorphism.
 This only occurred when one of the possible subtypes declares an anonymous type with the name as the subtype.
-</p>
-</div><div class="hidden" id="platform-server-11.13.2_end"></div><div class="hidden" id="platform-server-11.13.1_start"></div>
+
+<div class="hidden" id="platform-server-11.13.2_end"></div><div class="hidden" id="platform-server-11.13.1_start"></div>
 
 <h2 id="platform_server_11.13.1" >Platform Server 11.13.1</h2>
 <div class="info"><p>Released on Sep 22, 2021</p></div>
@@ -1758,7 +1758,7 @@ This only occurred when one of the possible subtypes declares an anonymous type 
 
 
 <style>.cattag {background: #f4f2ff; color: #6a6581; padding: 4px 10px;}</style>
-<div class="moreDetailsDiv">
+
 <h3 id="more_details_platform_server_11.13.1" >More details</h3>
 <p>
 <br/>
@@ -1766,7 +1766,7 @@ This only occurred when one of the possible subtypes declares an anonymous type 
 <span class="cattag">Application Runtime</span> <span class="cattag">Data Access and Manipulation</span> <br/>
 <br/>
 <u>Fix Details:</u><br>To protect our customers we're not providing further details on the issue.
-</p>
+
 <p>
 <br/>
 <b>Fixed an issue that caused the logs of mobile apps to have an incorrect timestamp.</b><br/>
@@ -1774,7 +1774,7 @@ This only occurred when one of the possible subtypes declares an anonymous type 
 <br/>
 <u>Fix Details:</u><br>The logs related to mobile apps, as shown in Service Center, were sometimes presenting a  timestamp that was deviated from the actual time the event occurred. This could cause the events on the logs not to reflect the order in which they actually occurred, making it harder to understand the logs and troubleshoot a mobile app.
 The behavior was fixed and the timestamp of the logs now reflects the exact time of the event.
-</p>
+
 <p>
 <br/>
 <b>Fixed an issue that sometimes caused the Environment Information not to be filled in the Service Center error logs.</b><br/>
@@ -1783,14 +1783,14 @@ The behavior was fixed and the timestamp of the logs now reflects the exact time
 <u>Fix Details:</u><br>The issue would sometimes manifest when the device running the mobile app was offline and an error occurred. When the device comes online, the information is sent to the server to log. The log was written, however, the Environment Information field as seen in the error log detail didn't contain any data.
 Such information is useful to provide the runtime context in which the error occurred.
 This issue didn't cause any impact on the mobile app's normal usage nor on the end-user experience.
-</p>
+
 <p>
 <br/>
 <b>Fixed an issue in PWA applications where splash screens would hang on iOS 14.6 devices.</b><br/>
 <span class="cattag">Application Runtime</span> <span class="cattag">Application Distribution</span> <br/>
 <br/>
 <u>Fix Details:</u><br>According to https://www.theregister.com/2021/06/16/apple_safari_indexeddb_bug/  Apple's WebKit team has managed to break the popular IndexedDB JavaScript API in the latest version of Safari (14.1.1) on macOS 11.4 and iOS 14.6.
-</p>
+
 <p>
 <br/>
 <b>Fixed broken references errors to indirect producers after an upgrade to Platform Server 11.12.1 or higher.</b><br/>
@@ -1798,7 +1798,7 @@ This issue didn't cause any impact on the mobile app's normal usage nor on the e
 <br/>
 <u>Fix Details:</u><br>After upgrading to 11.12.1 and publishing a module, runtime errors due to incompatible definitions might occur.
 The issue would occur when a consumer module A is using a producer module B and that producer, in turn, has a producer C that references an extension E. In that case, module A would have errors about incompatibility with an Action from extension E.
-</p>
+
 <p>
 <br/>
 <b>Fixed an issue that caused navigations to the previous screen to go back more screens than it should.</b><br/>
@@ -1808,7 +1808,7 @@ The issue would occur when a consumer module A is using a producer module B and 
 The issue happens only with applications compiled on Platform Server version 11.12.0 or higher. It may happen on previous Platform Server versions, if the environment had the React 16 Technical Preview feature activated.
 
 The issue was fixed in this version and the wrong redirect will no longer occur.
-</p>
+
 <p>
 <br/>
 <b>Fixed an issue that caused disabled Scheduler services to pick up events and email tasks that they would not process. This also caused a permanent warning displayed on the monitoring pages.</b><br/>
@@ -1816,7 +1816,7 @@ The issue was fixed in this version and the wrong redirect will no longer occur.
 <br/>
 <u>Fix Details:</u><br>When configuring the servers it is possible to disable BPT processing for specific servers. This issue caused some events to be picked up during the disabled schedulers startup but never processed.
 The issue does not exist if all servers are allowed to execute BPT.
-</p>
+
 <p>
 <br/>
 <b>Fixed an integrated authentication vulnerability in OutSystem Cloud environments. CVSSv3.1 score 5.5 (Medium).</b><br/>
@@ -1824,22 +1824,22 @@ The issue does not exist if all servers are allowed to execute BPT.
 <br/>
 <u>Fix Details:</u><br>Fixed a vulnerability that would allow, in the OutSystems Cloud, users with access to the underlying infrastructure to be able to access applications developed in the environment.
 The vulnerability was fixed so that it no longer allows privileged users with infrastructure access to log in to applications.
-</p>
+
 <p>
 <br/>
 <b>Fixed an issue that was preventing developers from using the Distribute tab in Service Studio. The issue would only manifest when Active Directory authentication was enabled for IT users.</b><br/>
 <span class="cattag">Service Studio</span> <span class="cattag">Distribute</span> <br/>
 <br/>
 <u>Fix Details:</u><br>For Mobile apps, accessing Distribute tab in Service Studio in an environment with Active Directory enabled for IT users, would result in an "Invalid user credentials" error, even if the credentials were correct. The issue would occur with a combination of a Platform Server version higher than 11.10.2 and Service Studio version 11.10.06 or higher.
-</p>
+
 <p>
 <br/>
 <b>Fixed multiple security risks on the documentation of a REST API by raising the handlebars.js used in the swagger UI. CVSSv3.1 score 6.5 (Medium).</b><br/>
 <span class="cattag">Application Runtime</span> <span class="cattag">Logic Execution</span> <br/>
 <br/>
 <u>Fix Details:</u><br>The auto-generated documentation of a REST API was using an outdated version of handlebars.js that has known vulnerabilities. Security tests would flag this. The handlebars.js version was raised to an updated version.
-</p>
-</div><div class="hidden" id="platform-server-11.13.1_end"></div><div class="hidden" id="platform-server-11.13.0_start"></div>
+
+<div class="hidden" id="platform-server-11.13.1_end"></div><div class="hidden" id="platform-server-11.13.0_start"></div>
 
 <h2 id="platform_server_11.13.0" >Platform Server 11.13.0</h2>
 <div class="info"><p>Released on Aug 09, 2021</p></div>
@@ -2083,7 +2083,7 @@ errors after upgrading an application.  (RTAFB-4646)</li>
 
 <h3>Breaking changes </h3>
 <ul>
-<li>Widgets ignore events that you create or change by JavaScript. Check more detail on how to deal with this breaking change <a href="https://success.outsystems.com/Support/Release_Notes/11/OutSystems_11_side_effects_and_breaking_changes#bc-11120-1" target="_blank" rel="noopener noreferrer">here</a>.</li></li>
+<li>Widgets ignore events that you create or change by JavaScript. Check more detail on how to deal with this breaking change <a href="https://success.outsystems.com/Support/Release_Notes/11/OutSystems_11_side_effects_and_breaking_changes#bc-11120-1" target="_blank" rel="noopener noreferrer">here</a>.</li>
 <li>All unknown HTML attributes now show in the resulting HTML. React previously removed all attributes except data- from the output. Due to this change, the runtime now applies the CSS rules that were ignored. Check more detail on how to deal with this breaking change <a href="https://success.outsystems.com/Support/Release_Notes/11/OutSystems_11_side_effects_and_breaking_changes#bc-11120-2" target="_blank" rel="noopener noreferrer">here</a>.</li>
 <li>The option HTML element only allows text as children. This is now enforced by React 16.  Check more detail on how to deal with this breaking change <a href="https://success.outsystems.com/Support/Release_Notes/11/OutSystems_11_side_effects_and_breaking_changes#bc-11120-3" target="_blank" rel="noopener noreferrer">here</a>.</li>
 </ul>
@@ -2091,7 +2091,7 @@ errors after upgrading an application.  (RTAFB-4646)</li>
 <h3>Known Issues</h3>
 
 <ul>
-<li>Publishing Mobile or Reactive Web apps that use very complex structures in screen logic may take longer than usual or fail due to a timeout during compilation. It might also result in a memory consumption higher than usual while publishing.</li>
+<li>Publishing Mobile or Reactive Web apps that use very complex structures in screen logic may take longer than usual or fail due to a timeout during compilation. It might also result in a memory consumption higher than usual while publishing.
 <ul>
 <li>To disable this for a specific module you can follow this procedure:</li>
 <ol>
@@ -2101,15 +2101,15 @@ errors after upgrading an application.  (RTAFB-4646)</li>
 <li>Add a new configuration with the name "ClientSideOptimizerDisabled" and the value "True";</li>
 <li>Press "Define".</li>
 </ol></ul>
-<ul><li>To disable this for the whole environment you can follow this procedure:</li>
+<ul><li>To disable this for the whole environment you can follow this procedure:
 <ol>
 <li>Install Factory Settings Module in the environment (skip if already installed);</li>
 <li>Access Factory Settings Application;</li>
 <li>Select "Platform Configurations" in the top of the app;</li>
 <li>Tick the options "Disable client-side optimizations for Reactive Web Apps" and "Disable client-side optimizations for Mobile Apps";</li>
 <li>Go to the bottom of the page and press "Apply".</li>
-</ol>
-</ul>
+</ol></li>
+</ul></li>
 <li>Concurrent usage of Static Entities defined in Libraries can lead to transient application runtime errors.</li>
 </ul><div class="hidden" id="platform-server-11.12.0_end"></div><div class="hidden" id="platform-server-11.11.3_start"></div>
 
@@ -2134,7 +2134,7 @@ errors after upgrading an application.  (RTAFB-4646)</li>
 <li>Fixed an issue that caused the deploy of modules with outdated references when deploying the running version of a solution with 2-Stage deploy on. (RPM-914)</li>
 <li>Fixed a security issue related to CVE-2019-11358 that could affect the behavior of client-side runtime. CVSSv3.1 score 6.1 (Medium). (RPM-621)</li>
 <li>Fixed a security issue related to CVE-2015-9251 that  could affect the behavior of client-side runtime. CVSSv3.1 score 6.1 (Medium). (RPM-622)</li>
-<li> Fixed a security issue related to CVE-2020-7656 that could affect the behavior of client-side runtime. CVSSv3.1 score 6.1 (Medium). (RPM-623)</li>
+<li>Fixed a security issue related to CVE-2020-7656 that could affect the behavior of client-side runtime. CVSSv3.1 score 6.1 (Medium). (RPM-623)</li>
 <li>Fixed a security vulnerability. CVSSv3.1 score 8.3 (High). (RPM-657)</li>
 <li>Fixed a security vulnerability. CVSSv3.1 score 9.9 (Critical). (RPM-683)</li>
 <li>Fixed a security vulnerability. CVSSv3.1 score 8.8 (High). (RPM-786)</li>
@@ -2144,6 +2144,7 @@ errors after upgrading an application.  (RTAFB-4646)</li>
 <h2 id="platform_server_11.9.2">Platform Server 11.9.2</h2>
 <div class="info">Released on Apr 27, 2021</div>
 <h3 id="bug_fixing_11.9.2">Bug Fixing</h3>
+<ul>
 <li>Fixed a security issue related to CVE-2019-11358 that could affect the behavior of client-side runtime. CVSSv3.1 score 6.1 (Medium). (RPM-621)</li>
 <li>Fixed a security issue related to CVE-2015-9251 that  could affect the behavior of client-side runtime. CVSSv3.1 score 6.1 (Medium). (RPM-622)</li>
 <li>Fixed a security issue related to CVE-2020-7656 that could affect the behavior of client-side runtime. CVSSv3.1 score 6.1 (Medium). (RPM-623)</li>
@@ -2151,14 +2152,16 @@ errors after upgrading an application.  (RTAFB-4646)</li>
 <li>Fixed a security vulnerability. CVSSv3.1 score 9.9 (Critical). (RPM-683)</li>
 <li>Fixed a security vulnerability. CVSSv3.1 score 8.8 (High). (RPM-786)</li>
 <li>Fixed a security vulnerability. CVSSv3.1 score 7.2 (High) (RPM-813)</li>
+</ul>
 <div class="hidden" id="platform-server-11.9.2_end"></div><div class="hidden" id="platform-server-11.8.4_start"></div>
 
 <h2 id="platform_server_11.8.4">Platform Server 11.8.4</h2>
 <div class="info">Released on Apr 27, 2021</div>
 <h3 id="bug_fixing_11.8.4">Bug Fixing</h3>
+<ul>
 <li>Fixed a security issue related to CVE-2019-11358 that could affect the behavior of client-side runtime. CVSSv3.1 score 6.1 (Medium). (RPM-621)</li>
 <li>Fixed a security issue related to CVE-2015-9251 that  could affect the behavior of client-side runtime. CVSSv3.1 score 6.1 (Medium). (RPM-622)</li>
-<li> Fixed a security issue related to CVE-2020-7656 that could affect the behavior of client-side runtime. CVSSv3.1 score 6.1 (Medium). (RPM-623)</li>
+<li>Fixed a security issue related to CVE-2020-7656 that could affect the behavior of client-side runtime. CVSSv3.1 score 6.1 (Medium). (RPM-623)</li>
 <li>Fixed a security vulnerability. CVSSv3.1 score 8.3 (High). (RPM-657)</li>
 <li>Fixed a security vulnerability. CVSSv3.1 score 9.9 (Critical). (RPM-683)</li>
 <li>Fixed a security vulnerability. CVSSv3.1 score 8.8 (High). (RPM-786)</li>
@@ -2170,11 +2173,12 @@ errors after upgrading an application.  (RTAFB-4646)</li>
 <h3 id="bug_fixing_11.7.6">Bug Fixing</h3>
 <li>Fixed a security issue related to CVE-2019-11358 that could affect the behavior of client-side runtime. CVSSv3.1 score 6.1 (Medium). (RPM-621)</li>
 <li>Fixed a security issue related to CVE-2015-9251 that  could affect the behavior of client-side runtime. CVSSv3.1 score 6.1 (Medium). (RPM-622)</li>
-<li> Fixed a security issue related to CVE-2020-7656 that could affect the behavior of client-side runtime. CVSSv3.1 score 6.1 (Medium). (RPM-623)</li>
+<li>Fixed a security issue related to CVE-2020-7656 that could affect the behavior of client-side runtime. CVSSv3.1 score 6.1 (Medium). (RPM-623)</li>
 <li>Fixed a security vulnerability. CVSSv3.1 score 8.3 (High). (RPM-657)</li>
 <li>Fixed a security vulnerability. CVSSv3.1 score 9.9 (Critical). (RPM-683)</li>
 <li>Fixed a security vulnerability. CVSSv3.1 score 8.8 (High). (RPM-786)</li>
 <li>Fixed a security vulnerability. CVSSv3.1 score 7.2 (High) (RPM-813)</li>
+</ul>
 <div class="hidden" id="platform-server-11.7.6_end"></div><div class="hidden" id="platform-server-11.0.615_start"></div>
 
 <h2 id="platform_server_11.0.615">Platform Server 11.0.615</h2>
@@ -2197,7 +2201,7 @@ Released on Apr 27, 2021
 <ul>
 <li>Fixed a security issue related to CVE-2019-11358 that could affect the behavior of client-side runtime. CVSSv3.1 score 6.1 (Medium). (RPM-621)</li>
 <li>Fixed a security issue related to CVE-2015-9251 that  could affect the behavior of client-side runtime. CVSSv3.1 score 6.1 (Medium). (RPM-622)</li>
-<li> Fixed a security issue related to CVE-2020-7656 that could affect the behavior of client-side runtime. CVSSv3.1 score 6.1 (Medium). (RPM-623)</li>
+<li>Fixed a security issue related to CVE-2020-7656 that could affect the behavior of client-side runtime. CVSSv3.1 score 6.1 (Medium). (RPM-623)</li>
 <li>Fixed a security vulnerability. CVSSv3.1 score 8.3 (High). (RPM-657)</li>
 <li>Fixed a security vulnerability. CVSSv3.1 score 9.9 (Critical). (RPM-683)</li>
 <li>Fixed a security vulnerability. CVSSv3.1 score 8.8 (High). (RPM-786)</li>
@@ -2239,7 +2243,7 @@ Released on Apr 27, 2021
 <li>Fixed an issue causing the warning "Database connection was successful.
 However the schema (v*) should be upgraded to the latest version (v*)." appearing when testing a connection in the configuration tool. (RPLAT-289)</li>
 <li>Fixed messages that appear when configuring MDC using case sensitive catalogs to give the correct error information. (RPLAT-64)</li>
-<li>Fixed issue preventing the successful compilation of a module after an error previewing an entity data (View Data) with an error message like "Object not found: <Key> (relativeTo: <Key>)". (RPLAT-67)</li>
+<li>Fixed issue preventing the successful compilation of a module after an error previewing an entity data (View Data) with an error message like "Object not found: &lt;key&gt; (relativeTo: &lt;key&gt;)". (RPLAT-67)</li>
 <li>Fixed an issue that could stop publishes by making sure Static Entity Records are only updated if there are column values that are different to avoid row locks during compilation/publication. (RPLAT-74)</li>
 <li>Improved the performance of the compiler and Scheduler Service queries by adding an index to the system entity ModuleFrontEnd. (RPLAT-98)</li>
 <li>Fixed an issue that caused deadlock errors while dequeuing events in Error Log, by adding the OSAIX_OSSYS_BPM_EVENT_DEQUEUE_FOR_FRONT index on the table OSSYS_BPM_EVENT to the platform. This index is created outside the main database create or upgrade process due to its creation impact. (RPM-315)</li>
@@ -2416,7 +2420,7 @@ It depends on LifeTime version 11.6.1. (RLIT-3938)</li>
 
 The fix consists of changing the 20 minutes timeout on the entire System Component installation, to 5 minutes timeout on each module. (RPM-500)</li>
 <li>Fixed database error in Oracle when publishing a module whose extended configurations exceed 4000 chars. (RPM-539)</li>
-<li>Improved the error message shown when a module is not found while publishing a solution. Now the message states "Module <module-name> with version <version-number> not found" instead of "The given key was not present in the dictionary". (RPST-363)</li>
+<li>Improved the error message shown when a module is not found while publishing a solution. Now the message states "Module &lt;module-name&gt; with version &lt;version-number&gt; not found" instead of "The given key was not present in the dictionary". (RPST-363)</li>
 <li>Fixed an issue in re-deploy operations that, in some situations, reused the folder of the currently running application. (RPST-371)</li>
 <li>Fixed database error in oracle when publishing a module whose extended configurations exceed 4000 characters. (RPST-926)</li>
 <li>Fixed issue in extension compilation during upgrades when the extension used deprecated internal methods. (RRCT-2956)</li>
