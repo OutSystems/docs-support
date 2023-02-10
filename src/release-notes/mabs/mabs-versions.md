@@ -137,50 +137,6 @@ You can select the version in the configuration and build apps with it, but you 
 
 <div class="info" markdown="1">
 
-## **Version 7.2** - [See Release Notes](https://success.outsystems.com/Support/Release_Notes/Mobile_Apps_Build_Service_Versions/MABS_7_Release_notes#mabs-version-7.2)<br/>
-Released on Oct 7 2021<br/>Deprecated on Mar 24 2022<br/>
-To become obsolete on Feb 10 2023
-</div>
-
-This version can run your apps on:
-
-<small>![](images/android-icon.png) Android 6 to 12 ![](images/iOS-icon.png) iOS 12 to 15</small>
-
-**More details:**
-
-<table style="width: 632px; table-layout: fixed">
-    <tbody>
-        <tr>
-            <td style="width:156px;"></td>
-            <td style="width:231px;">Android</td>
-            <td>iOS</td>
-        </tr>
-        <tr>
-            <td style="vertical-align:middle;width:156px;">Target SDK</td>
-            <td style="width:231px;">11 (API 30)<br/>
-            Build Tools 30.0.0<br/>
-            Gradle 6.5.0<br/>
-            Kotlin 1.3.50 (Default)</td>
-            <td>iOS 14<br/>
-            Xcode 12.2<br/>
-            Cocoa Pods 1.10.0<br/>
-            Swift 4, 4.2 and 5.3</td>
-        </tr>
-        <tr>
-            <td style="vertical-align:middle;width:156px;">Cordova CLI</td>
-            <td style="width:231px;">10.0.0</td>
-            <td>10.0.0</td>
-        </tr>
-        <tr>
-            <td style="vertical-align:middle;width:156px;">Cordova Engine</td>
-            <td style="width:231px;">9.0.0</td>
-            <td>6.1.1</td>
-        </tr>
-    </tbody>
-</table>
-
-<div class="info" markdown="1">
-
 ## **Version 5.2** - [See Release Notes](https://success.outsystems.com/Support/Release_Notes/Mobile_Apps_Build_Service_Versions/MABS_5_Release_notes#mabs-version-5.2)<br/>
 Released on Dec 26 2019<br/>Deprecated on May 20 2020<br/>
 Obsolete date to be announced
@@ -232,6 +188,50 @@ This version can run your apps on:
 # Obsolete
 
 This version is no longer available, and you cannot build apps with it. The support requests about an obsolete version are not answered.
+
+
+<div class="info" markdown="1">
+
+**Version 7.2** - [See Release Notes](https://success.outsystems.com/Support/Release_Notes/Mobile_Apps_Build_Service_Versions/MABS_7_Release_notes#mabs-version-7.2)<br/><small>
+Released on Oct 7 2021<br/> Deprecated on Mar 24 2022<br/> Obsolete on Feb 10 2023</small>
+</div>
+
+This version can run your apps on:
+
+<small>![](images/android-icon.png) Android 6 to 12 ![](images/iOS-icon.png) iOS 12 to 15</small>
+
+**More details:**
+
+<table style="width: 632px; table-layout: fixed">
+    <tbody>
+        <tr>
+            <td style="width:156px;"></td>
+            <td style="width:231px;">Android</td>
+            <td>iOS</td>
+        </tr>
+        <tr>
+            <td style="vertical-align:middle;width:156px;">Target SDK</td>
+            <td style="width:231px;">11 (API 30)<br/>
+            Build Tools 30.0.0<br/>
+            Gradle 6.5.0<br/>
+            Kotlin 1.3.50 (Default)</td>
+            <td>iOS 14<br/>
+            Xcode 12.2<br/>
+            Cocoa Pods 1.10.0<br/>
+            Swift 4, 4.2 and 5.3</td>
+        </tr>
+        <tr>
+            <td style="vertical-align:middle;width:156px;">Cordova CLI</td>
+            <td style="width:231px;">10.0.0</td>
+            <td>10.0.0</td>
+        </tr>
+        <tr>
+            <td style="vertical-align:middle;width:156px;">Cordova Engine</td>
+            <td style="width:231px;">9.0.0</td>
+            <td>6.1.1</td>
+        </tr>
+    </tbody>
+</table>
 
 <div class="info" markdown="1">
 
