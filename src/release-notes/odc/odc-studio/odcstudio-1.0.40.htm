@@ -6,5 +6,13 @@ pageprivacy: semi-private
 <h2 id="odcstudio_1.0.40" >ODCStudio 1.0.40</h2>
 <div class="info"><p>This is a preliminary version of the document.</p></div>
 
-This release of Service Studio focuses on internal improvements ― this will help our team improve Service Studio faster.
-Your work shouldn't be impacted by these changes.
+
+<style>.cattag {background: #f4f2ff; color: #6a6581; padding: 4px 10px;}</style>
+<h3 id="bug_fixing_odcstudio_1.0.40" >Bug Fixing</h3>
+<ul>
+<li>Fixed an issue that caused mappings to break when refreshing REST API.
+This occurred in a dropdown when the values of the dropdown would be mapped to a REST API.<br/>
+Now, the REST refreshes and the mappings are still valid. (RDPMBT-2630)</li>
+<li>Fixed an issue with the HTML Element widget that caused Service Studio to hang with iframe tags. (RMAC-10889)</li>
+</ul>
+
