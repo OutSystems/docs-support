@@ -32,11 +32,12 @@
         - topics:
             - href: release-notes/mabs/9/9.0/9.0.md
         - href: release-notes/mabs/mabs-8.md
-        - href: release-notes/mabs/mabs-7.md
-        - href: release-notes/mabs/mabs-6.md
         - href: release-notes/mabs/mabs-5.md
-        - href: release-notes/mabs/troubleshoot-issues-with-mabs-6.md
         - href: release-notes/mabs/older-releases.md
+        - topics:
+            - href: release-notes/mabs/mabs-7.md
+            - href: release-notes/mabs/mabs-6.md
+            - href: release-notes/mabs/troubleshoot-issues-with-mabs-6.md
     - href: release-notes/ai-mentor-studio/ai-mentor-studio.md
     - href: release-notes/integration-builder/integration-builder.md
     - href: release-notes/experience-builder/experience-builder.md
@@ -50,7 +51,7 @@
 - href: troubleshooting/intro.md
 - topics:
     - href: troubleshooting/logs/get-logs.md
-    - topics: 
+    - topics:
         - href: troubleshooting/logs/service-center-logs.md
         - href: troubleshooting/logs/lifetime-logs.md
         - href: troubleshooting/logs/service-studio-report.md
@@ -130,7 +131,7 @@
         - href: troubleshooting/application-runtime/try-newer-react-runtime-tp.md
         - href: troubleshooting/application-runtime/seo/troubleshooting.md
         - href: troubleshooting/application-runtime/cant-reach-apps.md
-        
+
     # Infrastructure Management
     - href: troubleshooting/infrastructure-management/intro.md
     - topics:

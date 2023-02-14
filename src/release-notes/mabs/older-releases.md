@@ -7,7 +7,7 @@ app_type: mobile apps
 platform-version: o11
 ---
 
-# Mobile Apps Build Service older versions
+# MABS older versions
 
 ## MABS Version 4.2
 
@@ -17,11 +17,11 @@ platform-version: o11
 **Last update:** 2019-08-21 19:00:00 UTC.
 </div>
 
-### New in this version 
+### New in this version
 
 * Updated SQLite to version 3.26.0 to fix security issues and improve performance. Learn more [about the changes in SQLite](http://www.sqlite.org/changes.html). (RNMT-2682)
 
-### Bug fixing 
+### Bug fixing
 
 * [2019-04-08 14:00:00 UTC] Fixed an issue where iOS application builds failed when using plugins that require a deployment target higher than iOS 8.0. (RNMT-2741)
 * [2019-04-22 16:00:00 UTC] Fixed a missing configuration so that iOS applications will no longer be rejected by the App Store. (RNMT-2763)
@@ -73,20 +73,20 @@ platform-version: o11
 **First release:** 2019-01-21 09:00:00 UTC<br/>
 **Last update:** 2019-01-21 09:00:00 UTC.
 </div>
- 
-### New in this version 
+
+### New in this version
 
 * Mobile Apps Build Service now uses the latest iOS SDK 12, so you will be able to continue submitting your iOS apps to the App Store, in line with the recent Apple announcement.
 * Mobile Apps Build Service now uses Cordova iOS engine 4.5.5 for iOS apps. We highly recommend you revise your plugins for compatibility with this version.
 * The definition of Splash Screens for iOS apps was replaced from Launch Images to Launch Storyboard Images. Learn more about [defining Splash Screens for iOS in MABS 4.0](https://success.outsystems.com/Documentation/11/Delivering_Mobile_Apps/Customize_Your_Mobile_App/Use_Custom_Splash_Screens#for-ios).
 * iOS apps now support iPhone Xr/Xs/Xs Max and iPad Pro.
 
-### Bug fixing 
+### Bug fixing
 
 * [2019-02-27 15:00:00 UTC] Improved handling of UI glitch due to the injection of the "viewport-fit" meta tag. You can now disable the injection of the meta tag for iOS 12 devices and change the background color of the app at runtime. (RNMT-2628)
 
 #### Known issue in MABS 4
-When a user selects an input field in a mobile app screen with many inputs, the screen flickers. This occurs in iPhones running iOS 12 when the viewport meta tag called “viewport-fit” is set to “cover”. This “viewport-fit” value is used by the WebView to fill the entire screen. 
+When a user selects an input field in a mobile app screen with many inputs, the screen flickers. This occurs in iPhones running iOS 12 when the viewport meta tag called “viewport-fit” is set to “cover”. This “viewport-fit” value is used by the WebView to fill the entire screen.
 
 To fix this issue, add the preference “DisableViewportFitForiOS12” to the [Extensibility Configurations property](https://success.outsystems.com/Documentation/11/Delivering_Mobile_Apps/Customize_Your_Mobile_App) and set it to “true”. This will disable the “viewport-fit” meta tag for all iPhone devices running iOS 12.
 
@@ -101,7 +101,7 @@ To fix this issue, add the preference “DisableViewportFitForiOS12” to the [E
 }
 ```
 
-However this causes the app to stop using the entire screen, and an empty bottom bar appears over the “home” button area in iPhone X devices. Check out the [Support KB article on styling the Status Bar and setting the WebView background color](https://success.outsystems.com/Support/Troubleshooting/Application_runtime/Further_Recommendations_on_the_MABS_4.0_Viewport-Fit_Issue_in_iOS_12_Phones). 
+However this causes the app to stop using the entire screen, and an empty bottom bar appears over the “home” button area in iPhone X devices. Check out the [Support KB article on styling the Status Bar and setting the WebView background color](https://success.outsystems.com/Support/Troubleshooting/Application_runtime/Further_Recommendations_on_the_MABS_4.0_Viewport-Fit_Issue_in_iOS_12_Phones).
 
 ## MABS Version 3.3
 
@@ -111,11 +111,11 @@ However this causes the app to stop using the entire screen, and an empty bottom
 **Last update:** 2020-08-25 12:00:00 UTC.
 </div>
 
-### New in this version 
+### New in this version
 
 * Android apps are now able to support servers with certificates from a private CA. (RNMT-1888)
 
-### Bug fixing 
+### Bug fixing
 
 * [2018-12-19 18:00:00 UTC] Fixed iOS crash when network state changes. (RNMT-2284)
 * [2018-12-19 18:00:00 UTC] Fixed Java 6/7/8 concurrent map compatibility. (RNMT-2291)
