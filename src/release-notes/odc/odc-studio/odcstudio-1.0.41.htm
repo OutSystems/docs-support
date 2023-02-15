@@ -6,5 +6,14 @@ pageprivacy: semi-private
 <h2 id="odcstudio_1.0.41" >ODCStudio 1.0.41</h2>
 <div class="info"><p>This is a preliminary version of the document.</p></div>
 
-This release of Service Studio focuses on internal improvements ― this will help our team improve Service Studio faster.
-Your work shouldn't be impacted by these changes.
+
+<style>.cattag {background: #f4f2ff; color: #6a6581; padding: 4px 10px;}</style>
+<h3 id="bug_fixing_odcstudio_1.0.41" >Bug Fixing</h3>
+<ul>
+<li>Fixed an issue that caused an error when trying to group by a binary data attribute in aggregate's preview data. Now, this option is not available since it’s not a supported use case. (RDEV-5389)</li>
+<li>Fixed an issue that caused a wrong error message to be shown stating that the app was not found in the current organization when it should not have been shown. This occurred when incompatible file types or system apps were opened on ODC Studio as well as when the loading of an OML file would fail. Now, only the correct error or information dialog is shown. (RDEV-5391)</li>
+<li>Fixed an issue that prevented add public elements to be properly filtered by text. (RDEV-5398)</li>
+<li>Fixed an issue that prevented client actions to be dragged and dropped into the service actions folder (and vice-versa). (RDEV-5399)</li>
+<li>Fixed a bug that prevented a node start in editing state after it had been created. (RDPMBT-2656)</li>
+</ul>
+
