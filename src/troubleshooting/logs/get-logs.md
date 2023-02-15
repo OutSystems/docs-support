@@ -8,7 +8,7 @@ platform-version: o11
 ---
 # Getting logs for troubleshooting purposes
 
-This article explains how to get the logs and report files from several OutSystems components and other system components.
+This article explains how to get the logs and report files from several OutSystems components and other system components. 
 
 In the context of a support case, OutSystems Support might require that you provide some of these files so they can troubleshoot the issues you are experiencing. In this situation, you should get the required files as described in this article and **attach them to your support case**.
 
