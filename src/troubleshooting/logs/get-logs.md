@@ -6,7 +6,7 @@ guid: 0ffec091-70df-4b3c-9c4b-0a274efd1541
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
 ---
-# Getting logs for troubleshooting purposes
+# Getting logs for troubleshooting purposes 
 
 This article explains how to get the logs and report files from several OutSystems components and other system components. 
 
