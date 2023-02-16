@@ -1,5 +1,5 @@
 ---
-summary: There was an issue fetching the Cordova plugin: <plugin_name>. We couldn't access the resource (http error <http_error_code>). Please review your plugin and server configurations.
+summary: "There was an issue fetching the Cordova plugin: <plugin_name>. We couldn't access the resource (http error <http_error_code>). Please review your plugin and server configurations."
 tags: mabs; plg; error_codes
 locale: en-us
 app_type: mobile apps

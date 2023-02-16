@@ -1,5 +1,5 @@
 ---
-summary: Couldn't generate your app. For "<type>" type elements with defined intent filters, you must declare the value for the attribute "android:exported" in all AndroidManifest.xml files.
+summary: "Couldn't generate your app. For \"<type>\" type elements with defined intent filters, you must declare the value for the attribute \"android:exported\" in all AndroidManifest.xml files."
 tags:
 guid: c780d4d5-d779-434a-8a34-391faf16cd79
 locale: en-us

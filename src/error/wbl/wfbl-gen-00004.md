@@ -1,5 +1,5 @@
 ---
-summary: Specified application version do not exists or the status update is invalid: <ApplicationVersionId>.
+summary: "Specified application version do not exists or the status update is invalid: <ApplicationVersionId>."
 tags:
 locale: en-us
 guid: 095a41e7-597a-4bc7-a956-17fd97b42337
