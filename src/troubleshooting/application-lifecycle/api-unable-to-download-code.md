@@ -11,7 +11,7 @@ platform-version: o11
 
 If you are getting an error downloading the source code package of an application from the steps mentioned in [this article](https://success.outsystems.com/documentation/11/reference/outsystems_apis/lifetime_api_v2/lifetime_api_examples/get_source_code_of_an_application/), you can troubleshoot a potential issue by following the steps below. 
 
-## 1. Check if the user has full control over the application
+## 1 - Check if the user has full control over the application
 
 To validate this requirement, follow these steps:
 
@@ -21,11 +21,10 @@ To validate this requirement, follow these steps:
 
 The wrong permissions level returns a message: `You need permission to access the environment {EnvironmentKey} or the app {ApplicationKey}.`
 
-## 2. Check if the environment has Non-Production purpose
+## 2 - Check if the environment has Non-Production purpose
 
 Call the API method that returns the details of the environment.
-
-Request `GET /environments/{EnvironmentKey}/`
+Request: `GET /environments/{EnvironmentKey}/`
 
 Response body:
 
@@ -49,10 +48,10 @@ Confirm that the environment on which you are requesting the source code has the
 A request to the wrong purpose environment returns the message: `Couldn't request the app source code. You can only do it in a non-production environment.`
 
 
-## 3. Check if the environment key exists
+## 3 - Check if the environment key exists
 
 Call the API method that returns all the environments registered on your infrastructure.
-Request `GET /lifetimeapi/rest/v2/environments/`
+Request: `GET /lifetimeapi/rest/v2/environments/`
 
 Response body:
 
@@ -82,7 +81,7 @@ Check that the environment key (**Key**) is correctly passed to the API call.
 If the environment key does not exist the API will return a message: `The environment {EnvironmentKey} or the app {ApplicationKey} doesn't exist.`
 
 
-## 4. Check if the application key exists
+## 4 - Check if the application key exists
 
 Call the API method that returns all the applications available on your infrastructure.
 
