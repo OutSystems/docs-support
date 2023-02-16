@@ -21,9 +21,10 @@ To validate this requirement, follow these steps:
 
 The wrong permissions level returns a message: `You need permission to access the environment {EnvironmentKey} or the app {ApplicationKey}.`
 
-## 2. Check if the environment has Non-Production purpose**
+## 2. Check if the environment has Non-Production purpose
 
 Call the API method that returns the details of the environment.
+
 Request `GET /environments/{EnvironmentKey}/`
 
 Response body:
