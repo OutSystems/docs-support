@@ -1,5 +1,5 @@
 ---
-summary: Learn how to troubleshoot if you are unable to download the source code of an application.
+summary: If you are unable to download the source code, you can troubleshoot by validating factors, such as full-control, application key, environment key, etc. of an application.
 tags: 
 locale: en-us
 guid: E542C662-6053-4758-A514-1A4117364DD0
@@ -9,7 +9,7 @@ platform-version: o11
 
 # Unable to download the source code of an application
 
-If you are getting an error downloading the source code package of an application from the steps mentioned in this article, you can troubleshoot a potential issue by following the steps below. 
+If you are getting an error downloading the source code package of an application from the steps mentioned in [this article](https://success.outsystems.com/documentation/11/reference/outsystems_apis/lifetime_api_v2/lifetime_api_examples/get_source_code_of_an_application/), you can troubleshoot a potential issue by following the steps below. 
 
 ## 1. Check if the user has full control over the application
 
