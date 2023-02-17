@@ -7,7 +7,7 @@ app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
 ---
 
-# Getting logs for troubleshooting purposes
+# Getting logs for troubleshooting purposes 
 
 This article explains how to get the logs and report files from several OutSystems components and other system components. 
 
