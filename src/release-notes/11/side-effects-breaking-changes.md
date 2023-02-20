@@ -636,7 +636,6 @@ The security fix will be enabled by default so the decision to turn it off shoul
 
 ### Introduced in Platform Server 11.18.0 {#bc-11180-1}
 
-
 **Issue**: The installer was modified to delete specific third-party DLLs from the `\plugins\database` folder and recreate them in new subfolders. This can prevent extensions or custom database connectors that expect the below DLLs to exist in the Platform Server. An example of those extensions are custom database connectors. Apps that consume those extensions can start to have runtime errors such as `Could not load file or assembly 'Google.Protobuf, Version=3.12.3.0, Culture=neutral, PublicKeyToken=a7d26565bac4d604' or one of its dependencies. The system cannot find the file specified.`
 External database connections and extensions built using [OutSystems out-of-the box mechanisms](https://success.outsystems.com/Documentation/11/Extensibility_and_Integration/Integrate_with_an_External_Database) **are not** affected by this breaking change.
 
@@ -696,6 +695,34 @@ In case you can't use any of the above fixes, do the following:
 1. Don't test it and then save it. This will be a dummy connection, used only to recreate the files. It doesn't need to be assigned to an extension.
 1. Republish the app that was having the errors.
 
+### Introduced in Platform Server 11.19.0 { #bc-11190-1 }
+
+#### Solution Publish
+
+**Issue**: In a Solution Publish, if a module references (directly or indirectly) multiple extensions and those extensions contain different versions of the same DLL, the Publish process chooses one of those DLLs to deploy. There was never a guarantee that the final application would work if those DLLs or their dependencies were incompatible with each other. In version 11.19.0, the algorithm that chooses the DLLs to deploy changed. It's possible that applications that were previously working, because the algorithm picked one DLL, stop working because it now picks another.
+
+**Runtime**: Traditional web, Reactive web, Mobile
+
+**Rationale**: The algorithm now gives precedence to the DLLs from the most recent extension published to account for some scenarios with loosely coupled dependencies, instead of the previous dependencies alphabetical order.
+
+**Fix**: Ensure the environment's extensions don’t have different incompatible versions of the same DLL. You can use the following query to check if such extensions exist. If you can see your extensions on this list, we recommend you consolidate the DLLs into a single extension or make sure they are all compatible. The query lists some OutSystems extensions, which are compatible.
+
+    SELECT REPDLLEXT.Filename DLL, ossys_Extension.Name EXTENSION FROM	
+        (SELECT ossys_Extension_Dependency.Filename, ossys_Extension_Dependency.Extension_Id FROM		
+            (SELECT Filename FROM
+                (SELECT Filename, Extension_Id FROM
+                ossys_Extension_Dependency
+                JOIN ossys_Extension on ossys_Extension_Dependency.Extension_Id = ossys_Extension.Id
+                WHERE Filename LIKE '%.dll'
+                AND ossys_Extension.IS_ACTIVE = 1
+                GROUP BY Filename, Extension_Id) DLLEXT
+            GROUP BY Filename
+            HAVING count(*) > 1) REPDLL
+        JOIN ossys_Extension_Dependency on ossys_Extension_Dependency.Filename = REPDLL.Filename
+        GROUP BY ossys_Extension_Dependency.Filename, ossys_Extension_Dependency.Extension_Id) REPDLLEXT
+    LEFT JOIN ossys_Extension on REPDLLEXT.Extension_Id = ossys_Extension.Id
+    where ossys_Extension.IS_ACTIVE = 1
+    order by DLL
 
 ## Side Effects
 
@@ -775,34 +802,3 @@ Note: It's not recommended to change the User Provider of modules with Processes
 **Rationale**: This change provides a consistent login experience throughout the different applications that use Service Center as their user provider.
 
 **Workaround**: None.
-
-### Introduced in Platform Server 11.19.0
-
-#### Solution Publish
-
-1\. <a id="se1119-0"></a>
-
-**Issue**: In a Solution Publish, if a module references (directly or indirectly) multiple extensions and those extensions contain different versions of the same DLL, the Publish process chooses one of those DLLs to deploy. There was never a guarantee that the final application would work if those DLLs or their dependencies were incompatible with each other. In version 11.19.0, the algorithm that chooses the DLLs to deploy changed. It's possible that applications that were previously working, because the algorithm picked one DLL, stop working because it now picks another.
-
-**Runtime**: Traditional web, Reactive web, Mobile
-
-**Rationale**: The algorithm now gives precedence to the DLLs from the most recent extension published to account for some scenarios with loosely coupled dependencies, instead of the previous dependencies alphabetical order.
-
-**Fix**: Ensure the environment's extensions don’t have different incompatible versions of the same DLL. You can use the following query to check if such extensions exist. If you can see your extensions on this list, we recommend you consolidate the DLLs into a single extension or make sure they are all compatible. The query lists some OutSystems extensions, which are compatible.
-
-    SELECT REPDLLEXT.Filename DLL, ossys_Extension.Name EXTENSION FROM	
-        (SELECT ossys_Extension_Dependency.Filename, ossys_Extension_Dependency.Extension_Id FROM		
-            (SELECT Filename FROM
-                (SELECT Filename, Extension_Id FROM
-                ossys_Extension_Dependency
-                JOIN ossys_Extension on ossys_Extension_Dependency.Extension_Id = ossys_Extension.Id
-                WHERE Filename LIKE '%.dll'
-                AND ossys_Extension.IS_ACTIVE = 1
-                GROUP BY Filename, Extension_Id) DLLEXT
-            GROUP BY Filename
-            HAVING count(*) > 1) REPDLL
-        JOIN ossys_Extension_Dependency on ossys_Extension_Dependency.Filename = REPDLL.Filename
-        GROUP BY ossys_Extension_Dependency.Filename, ossys_Extension_Dependency.Extension_Id) REPDLLEXT
-    LEFT JOIN ossys_Extension on REPDLLEXT.Extension_Id = ossys_Extension.Id
-    where ossys_Extension.IS_ACTIVE = 1
-    order by DLL
