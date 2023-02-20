@@ -1,0 +1,62 @@
+---
+isautopublish: true
+pageprivacy: public
+---
+
+<h2 id="platform_server_11.19.0" >Platform Server 11.19.0</h2>
+<div class="info"><p>Released on Feb 20, 2023</p></div>
+
+
+<style>.cattag {background: #f4f2ff; color: #6a6581; padding: 4px 10px;}</style>
+<h3 id="new_in_platform_server_11.19.0" >New in Platform Server 11.19.0</h3>
+<ul>
+<li>Added support for MySQL 8.0 (8.0.28 or later within the 8.0 version, all editions) as an external database. (R11BRT-208)</li>
+<li>Improved the confirmation message in Service Center when saving and applying the environment security settings. (R11CT-1698)</li>
+<li>Now, for OutSystems Cloud infrastructures, the Environment Security page will have the options disabled and not just the Save buttons.<br/>
+Now, for environments managed by LifeTime, the Environment Security page will have the Save buttons disabled and not just the options. (R11CT-1868)</li>
+<li>Consuming REST services using multipart/form-data as request format. Inspired by <a href="[https://www.outsystems.com/ideas/5022/rest-native-support-of-multipart-form-data/|https://www.outsystems.com/ideas/5022/rest-native-support-of-multipart-form-data/] ">Kilian Hekhuis's idea</a>. (RO11IT-226)</li>
+<li>Expose REST web services using the PATCH verb capability is now available. This was previously in technical preview but is now available for everyone. (RO11IT-26)</li>
+<li>Improved the error handling mechanism on the ApplicationSwitcher to reduce the impact on applications where it's used. (ROU-4016)</li>
+</ul>
+<h3 id="bug_fixing_platform_server_11.19.0" >Bug Fixing</h3>
+<ul>
+<li>Fixed a vulnerability in order to prevent accessing unwanted application pages in PreviewInDevices. Available in Platform Server 11.19.0 onwards. (R11DT-1543)</li>
+<li>Fixed an issue that caused dummy Modules deployment operation to be started when running Configuration Tool in unattended mode with the /DeployPreparedApplications parameter. Now, if there are no modules previously prepared, deploy will be skipped. (R11PIT-950)</li>
+<li>Fixed an issue that caused Service Center Upgrades Page to display a wrong “from version” value in the heading, under the "Upgrades" title. (R11PIT-961)</li>
+<li>Fixed an issue that caused a missing red underline in the "Upgrades" submenu under "Factory" in Service Center when navigating to a specific Upgrade operation. (R11PIT-964)</li>
+<li>Fixed an issue that was causing Invalid Login error while configuring AD Auth provider. (RDOI-204)</li>
+<li>Fixed bug in General Logs with SOAP Consumed services identified as Exposed when changing the configuration with Service Center. (RO11IT-204)</li>
+<li>Fixed an issue that caused an empty Queries Performance report when at least one module with SLOWSQL logs has the name starting with 'MS'. (RPM-1151) <span class="cattag">Application Lifecycle</span>  <span class="cattag">Service Center</span> </li>
+<li>Fixed an issue in Service Center log filters that prevented the user from filtering them when using Internet Explorer browser. (RPM-1218) <span class="cattag">Application Lifecycle</span>  <span class="cattag">Service Center</span> </li>
+<li>Fixed a bug when importing a SOAP web service with choices that have elements in non-alphabetical order (RPM-1222) <span class="cattag">Application Runtime</span>  <span class="cattag">Logic Execution</span> </li>
+<li>Fixed an issue that caused multi-tenant timers and timers from multi-tenant eSpaces to still be displayed after the eSpaces are deleted. (RPM-1358) <span class="cattag">Application Lifecycle</span>  <span class="cattag">Service Center</span> </li>
+<li>Now, users with Access or List as the default role and Monitor and Add Dependencies as the team/applications role can view logs for the applications that they are assigned with Monitor and Add Dependencies. (RPM-1553) <span class="cattag">Application Lifecycle</span>  <span class="cattag">Service Center</span> </li>
+<li>Adding extra runtime validations in SOAP Web Services by introducing the Schema Compliance feature. This feature can be activated on the Factory Configuration. (RPM-1872) <span class="cattag">Application Runtime</span>  <span class="cattag">Logic Execution</span> </li>
+<li>In Reactive Web or Mobile apps, users were redirected to a blank page when a Site Rule with the environment’s hostname was pointing directly to a Reactive web app's endpoint.
+Due to this issue, when the users tried to access the endpoint, they had to refresh the page in order for it to properly render.
+Now, the users are no longer redirected to a blank page and, hence, there is no need to refresh the page. (RPM-2160) <span class="cattag">Application Runtime</span>  <span class="cattag">Interface</span> </li>
+<li>Fixed an issue that could cause a timeout when uploading a new license (RPM-2387) <span class="cattag">Application Lifecycle</span>  <span class="cattag">Service Center</span> </li>
+<li>Fixed an issue that cause incorrect extension files being copied from producer to consumer during a solution publish. (RPM-2429) <span class="cattag">Publish Operation</span>  <span class="cattag">Compilation</span> </li>
+<li>Fixed a bug in SAPDevService that caused an internal server error 500 when importing certain custom functions. (RPM-2823) <span class="cattag">Service Studio</span> </li>
+<li>Improved the cleanup performance of processes that run indefinitely in Oracle. (RPM-2990) <span class="cattag">Application Runtime</span>  <span class="cattag">Data Access and Manipulation</span> </li>
+<li>Fixed the error "Java exception was raised during method invocation at SQLitePluginTransaction.start".
+This occurred when a reactive app screen was being displayed in a mobile app via an iframe. (RPM-2995) <span class="cattag">Application Runtime</span>  <span class="cattag">Interface</span> </li>
+<li>Fixed an issue that was not showing a warning message when a 2-stage deployment has compilation errors/warnings. (RPM-3111) <span class="cattag">Application Lifecycle</span> </li>
+<li>Fixed an issue that would cause the Controller service startup to take more time than it should. (RPM-3127) <span class="cattag">Infrastructure Management</span>  <span class="cattag">Licensing Infrastructure</span> </li>
+<li>Fixed an issue that caused the Platform Upgrade in Oracle installations to be interrupted when a module has an inconsistent or inexistent user provider. (RPM-3175) <span class="cattag">Infrastructure Management</span>  <span class="cattag">Platform Configuration</span> </li>
+<li>Fixed an accessibility issue in reactive applications that caused screen readers not to read validation messages on mandatory text input fields when the field was left empty and the form was submitted. (RPM-3209) <span class="cattag">Application Runtime</span>  <span class="cattag">System Components</span> </li>
+<li>Improved cache performance which could cause IIS contention when having a large number of cached items. This improvement will have a small increase on memory usage. (RPM-3228) <span class="cattag">Application Runtime</span>  <span class="cattag">Caching</span> </li>
+<li>Fixed an issue with auto numbering not updating to the correct value when the CreateOrUpdateLocal action was used. (RPM-3238) <span class="cattag">Application Runtime</span>  <span class="cattag">Data Access and Manipulation</span> </li>
+<li>Fixed a bug in which ModuleVersion_ListOldest action in DBCleaner_API would only return 500 records when MaxNumberOfVersions was set to 0. (RPM-3352) <span class="cattag">Application Runtime</span>  <span class="cattag">System Components</span> </li>
+<li>Fixed issue where Oracle hints were being removed from Advanced SQL elements even when "Allow Hints in Comments" setting was enabled. (RPM-3404) <span class="cattag">Application Runtime</span>  <span class="cattag">Logic Execution</span> </li>
+<li>Fixed an issue in Service Center which threw an error if the amount of modules in the environment was above 1000.
+This occurred in the Service Center's Module Edit page in the Single Sign On tab.
+Now, pagination is available, which allows the user to navigate through all available modules. (RPM-570) <span class="cattag">Application Lifecycle</span>  <span class="cattag">Service Center</span> </li>
+<li>Fixed a vulnerability related to PreviewInDevices. CVSSv3.1 score 6.1 (Medium). (RPM-3042) <span class="cattag">Application Runtime</span>  <span class="cattag">Interface</span> </li>
+<li>Fixed cross-site scripting vulnerability. CVSSv3.1 score 5.7 (Medium). (RPM-3211) <span class="cattag">Application Lifecycle</span>  <span class="cattag">Users</span> </li>
+</ul>
+
+<h3>Breaking change</h3>
+<ul>
+<li>If a module references (directly or indirectly) multiple extensions and those extensions contain different versions of the same DLL, the Solution Publish process can now choose a different DLL than in previous versions. This can cause applications to stop working correctly. Check more detail on how to deal with this breaking change <a href="https://success.outsystems.com/support/release_notes/11/outsystems_11_side_effects_and_breaking_changes/">here</a>.</li>
+</ul>
