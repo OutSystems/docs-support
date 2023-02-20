@@ -14,7 +14,15 @@ pageprivacy: public
 <li>Improved the confirmation message in Service Center when saving and applying the environment security settings. (R11CT-1698)</li>
 <li>Now, for OutSystems Cloud infrastructures, the Environment Security page will have the options disabled and not just the Save buttons.<br/>
 Now, for environments managed by LifeTime, the Environment Security page will have the Save buttons disabled and not just the options. (R11CT-1868)</li>
-<li>Consuming REST services using multipart/form-data as request format. Inspired by <a href="[https://www.outsystems.com/ideas/5022/rest-native-support-of-multipart-form-data/|https://www.outsystems.com/ideas/5022/rest-native-support-of-multipart-form-data/]">Kilian Hekhuis's idea</a>. (RO11IT-226)</li>
+<li>Added the ability to deploy all modules prepared during an upgrade. It is now possible to optionally, after upgrading your OutSystems environment to Platform Server 11.19.0 or higher, to immediately deploy all modules that were successfully prepared.
+If executed, the "Deploy All" action will reflect all changes and improvements from the new Platform Server version in the applications running code.<br/>
+
+We recommend that customers skip this step and instead publish modules and/or apps manually as needed. Nevertheless, for those customers/scenarios where a deploy of all upgraded applications is needed as soon as possible, customers now have the option to do it.<br/>
+
+For more details about the deployment of prepared modules check <a href="https://success.outsystems.com/Documentation/11/Setup_and_maintain_your_OutSystems_infrastructure/Upgrade_OutSystems_platform/Modules_deployment_step_during_Platform_Server_upgrade">the documentation</a>. (R11PIT-973)</li>
+<li>Consuming REST services using multipart or form-data as request format. 
+
+Inspired by <a href="[https://www.outsystems.com/ideas/5022/rest-native-support-of-multipart-form-data/|https://www.outsystems.com/ideas/5022/rest-native-support-of-multipart-form-data/]">Kilian Hekhuis's idea</a>. (RO11IT-226)</li>
 <li>Expose REST web services using the PATCH verb capability is now available. This was previously in technical preview but is now available for everyone. (RO11IT-26)</li>
 <li>Improved the error handling mechanism on the ApplicationSwitcher to reduce the impact on applications where it's used. (ROU-4016)</li>
 </ul>
@@ -22,12 +30,6 @@ Now, for environments managed by LifeTime, the Environment Security page will ha
 <ul>
 <li>Fixed a vulnerability in order to prevent accessing unwanted application pages in PreviewInDevices. Available in Platform Server 11.19.0 onwards. (R11DT-1543)</li>
 <li>Fixed an issue that caused dummy Modules deployment operation to be started when running Configuration Tool in unattended mode with the /DeployPreparedApplications parameter. Now, if there are no modules previously prepared, deploy will be skipped. (R11PIT-950)</li>
-<li>Added the ability to deploy all modules prepared during an upgrade. It is now possible to optionally, after upgrading your OutSystems environment to Platform Server 11.18.0 or higher, to immediately deploy all modules that were successfully prepared.
-If executed, the "Deploy All" action will reflect all changes and improvements from the new Platform Server version in the applications running code.<br/>
-
-We recommend that customers skip this step and instead publish modules and/or apps manually as needed. Nevertheless, for those customers/scenarios where a deploy of all upgraded applications is needed as soon as possible, customers now have the option to do it.<br/>
-
-For more details about the deployment of prepared modules check <a href="[https://success.outsystems.com/Documentation/11/Setup_and_maintain_your_OutSystems_infrastructure/Upgrade_OutSystems_platform/Modules_deployment_step_during_Platform_Server_upgrade|https://success.outsystems.com/Documentation/11/Setup_and_maintain_your_OutSystems_infrastructure/Upgrade_OutSystems_platform/Modules_deployment_step_during_Platform_Server_upgrade]">the documentation</a>. (R11PIT-952)</li>
 <li>Fixed an issue that caused Service Center Upgrades Page to display a wrong “from version” value in the heading, under the "Upgrades" title. (R11PIT-961)</li>
 <li>Fixed an issue that caused a missing red underline in the "Upgrades" submenu under "Factory" in Service Center when navigating to a specific Upgrade operation. (R11PIT-964)</li>
 <li>Fixed an issue that was causing Invalid Login error while configuring AD Auth provider. (RDOI-204)</li>
