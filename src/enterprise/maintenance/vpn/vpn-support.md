@@ -14,6 +14,7 @@ This topic details how you can set up a site-to-site VPN (virtual private networ
 <div class="info" markdown="1">
 
 Check in the [Cloud services catalog](https://success.outsystems.com/Support/Enterprise_Customers/OutSystems_Support/Cloud_services_catalog) if the VPN service is available for your OutSystems Cloud edition.
+For the editions that support VPN connectivity, a maximum of 5 connections can be added.
 
 </div>
 
@@ -25,7 +26,7 @@ To establish a secure connection between your on-premises network and the OutSys
 
 The following diagram shows a single VPN connection, with your OutSystems Cloud, hosted on AWS, shown in the left side, and your on-premises network shown on the right side:
 
-![VPN connection to OutSystems Cloud](images/vpn-01-vpn-and-your-outsystems-cloud.png?width=740)
+![VPN connection to OutSystems Cloud](images/vpn-01-vpn-and-your-outsystems-cloud.png)
 
 The VPN tunnels are anchored to a virtual private gateway on the OutSystems Cloud side, and to your VPN gateway on the on-premises network side.
 
@@ -65,19 +66,11 @@ Limitation
 
 ## Set up a VPN to OutSystems Cloud { #setup-procedure }
 
-<div class="info" markdown="1">
+Before setting up your VPN, make sure to comply with the requirements and to gather the necessary information to proceed:
 
-The procedure below applies only to OutSystems Cloud running **LifeTime Management Console 11.6.1** or later. For earlier LifeTime versions, follow the procedure in [Set up a VPN using LifeTime 11.6.0 or earlier](vpn-setup-previous.md#setup-procedure).
+### Check the VPN gateway requirements { #requirements }
 
-</div>
-
-### Before you begin { #before-begin }
-
-Before you begin setting up your VPN, make sure you comply with the requirements and that you gather the necessary information to proceed:
-
-#### Check the VPN gateway requirements
-
-Your VPN gateway can be a physical or software device. Check [the list provided by AWS](https://docs.aws.amazon.com/vpc/latest/adminguide/Introduction.html#DevicesTested) to know if AWS tested your VPN gateway with the site-to-site VPN. If your VPN gateway isn't in the previous list, it must meet the following requirements:
+Your VPN gateway can be a physical or software device. Check [the list provided by AWS](https://docs.aws.amazon.com/vpn/latest/s2svpn/your-cgw.html#example-configuration-files) to know if AWS tested your VPN gateway with the site-to-site VPN. If your VPN gateway isn't in the previous list, it must meet the following requirements:
 
 * Maintains the same static public IP address.
 
@@ -93,7 +86,7 @@ Your VPN gateway can be a physical or software device. Check [the list provided 
 
 * Uses the Diffie-Hellman Perfect Forward Secrecy in groups 2 (1024 bit), 5 (1536 bit), 14-18 (2048 bit), 22, 23, or 24 (2048 bit).
 
-#### Gather the necessary information
+### Gather the necessary information
 
 Before creating a VPN connection, make sure you have the following information:
 
@@ -103,19 +96,19 @@ Before creating a VPN connection, make sure you have the following information:
 
 * The type of routing that your VPN gateway supports. If the gateway supports Border Gateway Protocol (BGP), use dynamic routing, otherwise use static routing.
 
-#### Check your on-premises network
+### Check your on-premises network
 
 Your on-premises network internal IP address range must not overlap with the internal IP address range of your OutSystems Cloud. Check how to [find out internal IP address range of your OutSystems Cloud](../ip-range-cloud.md).
 
-#### Make sure you have the necessary permissions
+### Make sure you have the necessary permissions
 
 To create a VPN you must have the **Administrator role** in **LifeTime**.
 
-### Setup overview
+## Setup overview
 
 ![VPN setup overview](images/vpn-setup-overview-diag.png)
 
-Make sure you read [the previous section](#before-begin) before you continue.
+Make sure you read [the requirements](#requirements) before you continue.
 
 ### Step 1. Request the VPN { #request-vpn }
 
@@ -127,7 +120,7 @@ To request the creation of a VPN to your OutSystems Cloud, follow these steps:
 
 1. If you are creating the first VPN, select **Create VPN**. Otherwise, select **VPN Management** and click the **Create new VPN** button.
 
-    ![VPN management in LifeTime](images/vpn-option-create-lt.png?width=900)
+    ![VPN management in LifeTime](images/vpn-option-create-lt.png)
 
 1. Fill in the form by entering the values for each field:
 
@@ -143,7 +136,7 @@ To request the creation of a VPN to your OutSystems Cloud, follow these steps:
 
 1. Click the **Create VPN** button.
 
-    ![create VPN](images/vpn-create-lt.png?width=700)
+    ![create VPN](images/vpn-create-lt.png)
 
 OutSystems starts creating your new VPN. You can check the status of the process on **Your VPN Connections** screen, under **Environments > Options > VPN Management**.
 
@@ -169,7 +162,7 @@ After receiving the OutSystems email notifying about your VPN creation, you must
 
 <div class="info" markdown="1">
 
-This step must be performed by your Network Engineer.
+This step must be performed by your network engineer.
 
 </div>
 
@@ -204,7 +197,7 @@ Time Lifetime | 3600 seconds
 
 <div class="info" markdown="1">
 
-This step must be performed by your Network Engineer.
+This step must be performed by your network engineer.
 
 </div>
 
@@ -221,7 +214,7 @@ For example, to access a **SQL Server** database, allow **TCP** traffic on port 
 
 ## Change the internal IP range of your VPN { #change-vpn-route }
 
-When the internal IP range of your on-premises network that accesses your VPN changes, you need to reflect that change in your VPN.
+When the internal IP range of your on-premises network that accesses your VPN changes, you need to reflect that change in your OutSystems Cloud VPN.
 
 ### Static VPN
 
@@ -233,11 +226,11 @@ If your VPN uses **static** routing, you can change the internal IP range of you
 
 1. Identify the VPN you want to change in the list of VPN connections and click the **Edit** button.
 
-    ![edit VPN connection](images/vpn-edit-lt.png?width=900)
+    ![edit VPN connection](images/vpn-edit-lt.png)
 
 1. Set the **Internal network IP range** to the new value.
 
-    ![set internal network IP range](images/vpn-edit-ip-range-lt.png?width=900)
+    ![set internal network IP range](images/vpn-edit-ip-range-lt.png)
 
 1. Click the **Save** button.
 
@@ -247,7 +240,7 @@ If OutSystems can't change the internal IP range of your VPN using the informati
 
 ### Dynamic VPN
 
-If your VPN uses **dynamic** routing, OutSystems needs to change the security groups according to your new internal IP range. For this, [open a support case](https://success.outsystems.com/Support/Enterprise_Customers/OutSystems_Support/02_How_to_Open_a_Support_Case) and ensure to include the new IP range of your on-premises network.
+If your VPN uses **dynamic** routing, OutSystems needs to change the security groups according to your new internal IP range. For this, [open a support case](https://success.outsystems.com/support/outsystems_community/opening_a_support_case_with_outsystems/) and ensure to include the new IP range of your on-premises network.
 
 ## Troubleshooting
 
