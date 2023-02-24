@@ -11,7 +11,7 @@ platform-version: o11
 
 Manage your team permissions without jumping in and out of different applications (Support Portal and Licensing Portal).
 
-Permissions are managed in the [OutSystems Customer Portal]([https://www.outsystems.com/cs-home/team/](https://www.outsystems.com/csportal/Team)), an area accessible to users who:
+Permissions are managed in the [OutSystems Customer Portal](https://www.outsystems.com/csportal/Team), an area accessible to users who:
 
 * Have an OutSystems user account and are linked with your company.
 * Were invited to join your company.
