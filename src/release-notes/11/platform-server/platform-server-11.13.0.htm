@@ -27,7 +27,6 @@ pageprivacy: public
 <li><a href="/Support/Release_Notes/11/Platform_Server#RPM-365" rel="custom">Fixed an issue that caused the join between the system tables Sent_Email and Email_Status not to retrieve any results. (RPM-365)</a></li>
 <li>Fixed an issue that caused a timeout when executing the Timer BPT_CleanUp. (RPM-436)</li>
 <li><a href="/Support/Release_Notes/11/Platform_Server#RPM-638" rel="custom">Fixed an issue in the Security exceptions of Mobile apps that caused incorrect exception handling. (RPM-638)</a></li>
-<li><a href="/Support/Release_Notes/11/Platform_Server#RPM-650" rel="custom">Fixed an issue that was causing log pollution when parsing a JSON. (RPM-650)</a></li>
 <li><a href="/Support/Release_Notes/11/Platform_Server#RPM-905" rel="custom">Fixed the client-side exception mechanism so it properly manages handlers from the parent exception.  (RPM-905)</a></li>
 <li><a href="/Support/Release_Notes/11/Platform_Server#RPM-954" rel="custom">Fixed an issue that prevented end users from closing Popover Menu used inside a Tabs OutSystems UI pattern. (RPM-954)</a></li>
 <li><a href="/Support/Release_Notes/11/Platform_Server#RPM-972" rel="custom">Fixed an issue where scrolling doesn't work in Popover Menu widget when it's opened inside a Tabs pattern. (RPM-972)</a></li>
@@ -93,22 +92,6 @@ This issue caused a join between the system tables Sent_Email and Email_Status n
 <br/>
 <u>Fix Details:</u><br/>
 The issue resided in the "Invalid Login" and "Not Registered" exceptions of Mobile apps that were not caught by their parent handler, <a href="https://success.outsystems.com/Documentation/11/Developing_an_Application/Implement_Application_Logic/Handle_Exceptions">Security exception</a>. Instead, they were bubbling up to "All exceptions", ultimately causing the wrong exception message to appear to the end-user.
-</p>
-<p>
-<a id="RPM-650"><strong>RPM-650</strong></a><br/>
-<b>Fixed an issue that was causing log pollution when parsing a JSON.</b><br/>
-<span class="cattag">Application Runtime</span> <span class="cattag">Logging</span> <br/>
-<br/>
-<u>Fix Details:</u><br/>
-*Symptoms*
-Logs get flooded with this error: Bad JSON escape sequence: \X. Path 'Username', line 1, position
-
-*How to reproduce*
-
-* Use the  ADAuthProvider authentication for IT users.
-* Login Service Studio, using the format [domain]/[username]
-* Perform actions that trigger the RegisterOperation action. Such as a publish.
-* Check the error logs and you will see these errors:
 </p>
 <p>
 <a id="RPM-905"><strong>RPM-905</strong></a><br/>
