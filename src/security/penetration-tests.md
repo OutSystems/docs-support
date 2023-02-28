@@ -12,7 +12,7 @@ platform-version: o11
 ## Overview
 
 As a subscription customer, you may wish to perform penetration tests or vulnerability scans. This is possible as long as they're limited to your own OutSystems Cloud, hybrid, or self-managed infrastructure.
-For OutSystems Cloud, the tests are limited to the assets under the responsability of the **Customer** as described under the [OutSystems shared responsability model](../enterprise/maintenance/cloud-shared-responsibility.md).
+For OutSystems Cloud, the tests are limited to the assets under the responsibility of the **Customer** as described under the [OutSystems shared responsibility model](../enterprise/maintenance/cloud-shared-responsibility.md).
 
 ## Before you start
 
@@ -30,32 +30,47 @@ The following are some examples of false positive findings. In each one, there's
 
 #### jQuery 1.8.3 flagged as a potentially vulnerable library
 
-OutSystems uses jQuery version 1.8.3 which has the following known vulnerabilities:
+OutSystems uses jQuery version 1.8.3, which has the following known vulnerabilities:
 
 * Issue - Selector interpreted as HTML.
-[CVE-2012-6708](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-6708) relates to a potential Cross-Site Scripting vulnerability in jQuery's selector operator ( $ ). While the jQuery version we ship with OutSystems is based on version 1.8.3, it contains some changes made by OutSystems. In particular, as of OutSystems version 9.1.401.0, the fix was backported and the $ operator is no longer vulnerable to this attack.
+[CVE-2012-6708](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-6708) relates to a potential Cross-Site Scripting vulnerability in jQuery's selector operator ($). While the jQuery version we ship with OutSystems is based on version 1.8.3, it contains some changes made by OutSystems. In particular, as of OutSystems version 9.1.401.0, the fix was backported, and the $ operator is no longer vulnerable to this attack.
+
+* Issue - jQuery is vulnerable to Cross-site Scripting (XSS).
+[CVE-2015-9251](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-9251) indicates jQuery before 3.0.0 is vulnerable to Cross-site Scripting (XSS) attacks when a cross-domain Ajax request is performed without the dataType option. [CVE-2020-7656](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-7656) also indicates jQuery prior to 1.9.0 allows Cross-site Scripting attacks via the load method. Although the platform by default doesn't make use of the vulnerable patterns, this was still available for developers or attackers to take advantage of. This has been fixed in [PS 11.11.2](https://success.outsystems.com/support/release_notes/11/platform_server/#bug_fixing_11.11.2).
 
 * Issue - Prototype pollution.
-The jQuery version 1.8.3 is vulnerable to Prototype Pollution, [CVE-2019-11358](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-11358). The extend function can be tricked into modifying the prototype of Object when the attacker controls part of the structure passed to this function. This can let an attacker add or modify an existing property that will then exist on all objects. You can find more information on the vulnerability [here](https://snyk.io/vuln/SNYK-JS-JQUERY-174006). While the jQuery version we ship with OutSystems is based on 1.8.3, it doesn't contain any of the patterns described in the vulnerability description, for which this is considered a false positive.
+The jQuery version 1.8.3 is vulnerable to Prototype Pollution, [CVE-2019-11358](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-11358). The extend function can be tricked into modifying the prototype of Object when the attacker controls part of the structure passed to this function. This can let an attacker add or modify an existing property that will then exist on all objects. You can find more information on the vulnerability [here](https://snyk.io/vuln/SNYK-JS-JQUERY-174006). While the jQuery version we ship with OutSystems is based on 1.8.3, OutSystems fixed this vulnerability in [PS 11.11.2](https://success.outsystems.com/support/release_notes/11/platform_server/#bug_fixing_11.11.2), and it doesn't contain any of the patterns described in the vulnerability description, for which this is considered a false positive.
 
 * Issue - Passing HTML from untrusted sources to one of jQuery's DOM manipulation methods.
 The jQuery versions 1.0.3 to 3.5.0 are vulnerable to the possible execution of untrusted code ([CVE-2020-11022](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-11022) and [CVE-2020-11023](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-11023)). While the jQuery version we ship with OutSystems is based on 1.8.3, the Platform Server doesn't generate code that passes HTML from untrusted sources to the JQuery DOM manipulation methods, for which this is considered a false positive.
+
+#### jQuery-ui flagged as a potentially vulnerable library
+
+The jQuery-UI versions prior to 1.13.0 are vulnerable to the execution of untrusted code ([CVE-2021-41182](https://cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2021-41182), [CVE-2021-41183](https://cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2021-41183), and [CVE-2021-41184](https://cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2021-41184)). OutSystems uses jQuery-UI 1.8.24, which is exposed to this vulnerability. However, there is no usage of the patterns described in the CVEs, which makes the OutSystems applications not vulnerable.
 
 #### jQuery-ui-dialog flagged as a potentially vulnerable library
 
 Some penetration testing tools may flag OutSystems as having a vulnerable jQuery-ui-dialog library.
 
-OutSystems uses jQuery-ui-dialog version 1.8.24 which has a vulnerability known to this version - [CVE-2010-5312](https://www.cvedetails.com/cve/CVE-2010-5312/). This vulnerability relates to the title() function, potentially allowing for unescaped content to be inserted in the title and causing a cross site scripting problem.
+OutSystems uses jQuery-ui-dialog version 1.8.24, that has a vulnerability known to this version - [CVE-2010-5312](https://www.cvedetails.com/cve/CVE-2010-5312/). This vulnerability relates to the title() function, potentially allowing for unescaped content to be inserted in the title and causing a cross site scripting problem.
 
-All uses of the affected function by OutSystems properly encode the input parameter. As such, OutSystems isn't vulnerable despite this vulnerability still being present in jquery-ui-dialog.
+All uses of the affected function were reviewed and fixed in PS [11.14.0](https://success.outsystems.com/support/release_notes/11/platform_server/#bug_fixing_platform_server_11.14.0). OutSystems properly encodes the input parameter. As such, OutSystems applications aren't vulnerable despite this vulnerability still being present in jquery-ui-dialog.
 
-As for applications developed by your users which make use of this library, you should ensure that you encode the input to the title() function correctly. Alternatively, you can import your own version of jquery-ui-dialog into a different namespace and use that version instead.
+As for applications developed by the customer that make use of this library, you should ensure that you encode the input to the title() function correctly. Alternatively, you can import your own version of jquery-ui-dialog into a different namespace and use that version instead.
+
 
 #### jQuery-ui-tooltip flagged as a potentially vulnerable library
 
 Some penetration testing tools may flag OutSystems as having a vulnerable jQuery-ui-tooltip library - [CVE-2012-6662](https://nvd.nist.gov/vuln/detail/cve-2012-6662). 
 
 OutSystems doesn't use jQuery-ui-tooltip widget. It's not present on our code.
+
+<div class="info" markdown="1">
+
+Currently, OutSystems supports jQuery v.1.8.3 and jQuery-UI v1.8.24 libraries. This is due to the fact that multiple applications rely on those library versions. Modifying it would most probably break the traditional web apps experience. On the other hand, most of the vulnerabilities associated with these libraries have been patched by OutSystems, and others are confirmed to be false positives. The fact that these library versions are associated with vulnerabilities doesn't mean that OutSystems is actually vulnerable and that there is a need to update them.
+
+
+</div>
 
 ## Support from OutSystems
 
