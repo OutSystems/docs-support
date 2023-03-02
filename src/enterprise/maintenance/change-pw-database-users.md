@@ -12,6 +12,7 @@ platform-version: o11
 <div class="info" markdown="1">
 
 This procedure applies only to self managed infrastructures on OutSystems 11
+
 </div>
 
 ## Context
@@ -42,6 +43,7 @@ This document guides you through the necessary steps and it can be used  to chan
 <div class="warning" markdown="1">
 
 This procedure causes a complete loss of service from the moment it's initiated until it's fully completed. Make sure to plan accordingly and read the full procedure before executing it.
+
 </div>
 
 ### Steps to execute on the database and on the deployment controller
@@ -92,6 +94,7 @@ Access Service Center and apply settings to all the modules of that environment:
 
 If your infrastructure is using Active Directory(AD) authentication for IT users, it won't be possible to login to Service Center at this point. In that case please execute [this workaround](#AD-workaround) first and only after follow the next 2 steps.
 If IT users aren't integrated with an AD, proceed without the workaround.
+
 </div>
 
 1. [Create an all components solution](https://success.outsystems.com/Support/Enterprise_Customers/Maintenance_and_Operations/Creating_and_using_an_%22All_Components%22_solution).
@@ -153,6 +156,6 @@ Usually, during this process, you may identify errors related to failed database
 
 ![Event Viewer error](images/change-pw-database-users-troubleshoot.png)
 
-A particular eSpace is not able to establish a connection to the database because the login is failing. This happens because it is still using the old information to login to the database.
+A particular module isn't able to establish a connection to the database because the login is failing. This happens because it's still using the old information to login to the database.
 
 Make sure that the settings were applied to all the modules as shown [here](#steps-sc).
