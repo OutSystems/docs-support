@@ -133,6 +133,7 @@
         - href: troubleshooting/application-runtime/try-newer-react-runtime-tp.md
         - href: troubleshooting/application-runtime/seo/troubleshooting.md
         - href: troubleshooting/application-runtime/cant-reach-apps.md
+        - href: troubleshooting/application-runtime/oracle-open-cursors.md
 
     # Infrastructure Management
     - href: troubleshooting/infrastructure-management/intro.md
