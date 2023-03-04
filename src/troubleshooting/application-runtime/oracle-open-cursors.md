@@ -12,7 +12,7 @@ platform-version: o11
 
 During the application runtime, you get the following error message: ``Failed to load resource: The server responded with a status of 500.``
 
-In Server Center, this error translates to the following: ``Error executing query. ORA-01000: maximum open cursors exceeded.``
+In Service Center, this error translates to the following: ``Error executing query. ORA-01000: maximum open cursors exceeded.``
 
 ## Causes
 
