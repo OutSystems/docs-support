@@ -11,7 +11,7 @@ platform-version: o11
 
 OutSystems release notes list the new features, improvements and bug fixes in each release.
 
-Check the latest available versions [here](https://www.outsystems.com/downloads).
+Check the latest available versions for OutSystems 11 and ODC Studio [here](https://www.outsystems.com/downloads).
 
 
 ## OutSystems 11
@@ -22,7 +22,10 @@ Check the latest available versions [here](https://www.outsystems.com/downloads)
 * [Development Environment](11/development-environment/development-environment.md)
 * [LifeTime Management Console](lifetime-management-console/lifetime-management-console.md)
 
+## OutSystems Developer Cloud releases
 
+* [OutSystems Developer Cloud](odc/ga/ga.md)
+* [ODC Studio](odc/odc-studio/odc-studio.md)
 
 ### OutSystems cloud services
 
