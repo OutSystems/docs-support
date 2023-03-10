@@ -86,6 +86,8 @@
         - href: troubleshooting/application-development/error-401.md
         - href: troubleshooting/application-development/troubleshoot-cross-platform-permissions.md
         - href: troubleshooting/application-development/sso-limitation.md
+        - href: troubleshooting/application-development/debugger-does-not-start.md
+
     # Application Lifecycle
     - href: troubleshooting/application-lifecycle/intro.md
     - topics:
