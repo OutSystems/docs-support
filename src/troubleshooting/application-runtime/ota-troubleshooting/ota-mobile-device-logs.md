@@ -8,9 +8,9 @@ platform-version: o11
 
 # Unable to find resource 
 
-## What are the errors?
+## What is the error?
 
-``Unable to find resource <Resource>`` 
+`Unable to find resource <Resource>`
 
 This error can only be observed in the Mobile Device Logs.
 
