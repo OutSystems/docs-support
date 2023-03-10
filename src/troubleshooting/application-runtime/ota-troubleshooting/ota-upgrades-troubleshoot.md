@@ -14,4 +14,4 @@ If an OTA upgrade fails, the upgrade is rolled back and the application continue
 
 If the OTA upgrade fails and is rolled back to when some new resources were already successfully downloaded, the app keeps those. The next time the app tries to perform the OTA upgrade, not all resources need to be downloaded. To ensure this, a checkpoint mechanism  is triggered several times during the upgrade.
 
-The errors that are detailed in the following sections are observed in the Service Center Error logs except for the [Unable to find resource](ota-mobile-device-logs.md) error that is found in the device itself. 
+The errors that are detailed in the following sections are observed in the Service Center Error logs except for the [Unable to find resource](ota-mobile-device-logs.md) error that is found in the device itself.
