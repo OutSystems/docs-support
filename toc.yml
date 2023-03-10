@@ -134,6 +134,20 @@
         - href: troubleshooting/application-runtime/seo/troubleshooting.md
         - href: troubleshooting/application-runtime/cant-reach-apps.md
         - href: troubleshooting/application-runtime/oracle-open-cursors.md
+        - href: troubleshooting/application-runtime/ota-troubleshooting/ota-upgrades-troubleshoot.md
+        - topics:
+            - href: troubleshooting/application-runtime/ota-troubleshooting/ota-timeout-downloading.md  
+            - href: troubleshooting/application-runtime/ota-troubleshooting/ota-mismatched-resources-moduleinfo.md
+            - href: troubleshooting/application-runtime/ota-troubleshooting/ota-failed-changes.md
+            - href: troubleshooting/application-runtime/ota-troubleshooting/ota-changed-local-entities.md 
+            - href: troubleshooting/application-runtime/ota-troubleshooting/ota-mobile-device-logs.md  
+            - href: troubleshooting/application-runtime/ota-troubleshooting/ota-service-error-logs.md  
+            - href: troubleshooting/application-runtime/ota-troubleshooting/ota-healing-resource.md  
+            - href: troubleshooting/application-runtime/ota-troubleshooting/ota-manifest-file-corrupt.md
+            - href: troubleshooting/application-runtime/ota-troubleshooting/ota-switch-cache-version.md  
+            - href: troubleshooting/application-runtime/ota-troubleshooting/ota-cache-load-fail.md  
+            - href: troubleshooting/application-runtime/ota-troubleshooting/ota-database-close-fail.md  
+
 
     # Infrastructure Management
     - href: troubleshooting/infrastructure-management/intro.md
