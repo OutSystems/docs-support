@@ -1,5 +1,5 @@
 ---
-summary: Common issues related to over-the-air upgrades
+summary: Common issues related to over-the-air upgrades.
 locale: en-us
 guid: 7AAE6C3B-FDB6-4187-A493-EF62F925AFFC
 app_type: mobile apps
