@@ -22,7 +22,6 @@ This occurs when a change in the Metamodel of a Local Entity can’t be performe
 
 **Note**: This only affects devices that contain data in the affected Local Entities.
 
-
 ## What is the impact of this error on the mobile application?
 
 * The mobile application won't be upgraded and will be rolled back to the previous version cached in the device. Errors in runtime may be expected depending on the changes introduced.
