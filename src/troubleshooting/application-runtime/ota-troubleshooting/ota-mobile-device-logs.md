@@ -6,7 +6,7 @@ app_type: mobile apps
 platform-version: o11
 ---
 
-# Unable to find resource "Resource"
+# Unable to find resource 
 
 ## What are the errors?
 
