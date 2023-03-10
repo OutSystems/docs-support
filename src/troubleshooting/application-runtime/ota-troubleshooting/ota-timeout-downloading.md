@@ -16,7 +16,7 @@ platform-version: o11
 
 ## Where is this occurring and what does it mean?
 
-This scenario typically occurs in step 8 (see OTA upgrade process diagram) when the mobile device is using a poor network connection and/or the OTA upgrade involves downloading large resources. 
+This scenario typically occurs in step 8 ([see OTA upgrade process diagram](https://success.outsystems.com/documentation/11/delivering_mobile_apps/mobile_app_update_scenarios/over_the_air_upgrades/#ota-upgrade-process-diagram)) when the mobile device is using a poor network connection and/or the OTA upgrade involves downloading large resources. 
 
 OutSystems mobile applications have a 30 second download timeout per resource. This means that the upgrade will fail with a timeout if a single resource takes longer than 30 seconds to download. 
 

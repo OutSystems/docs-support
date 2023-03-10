@@ -18,7 +18,7 @@ platform-version: o11
 
 ## Where is this occurring and what does it mean?
 
-As described in step 9 (see OTA upgrade process diagram),after downloading each resource from the server, the mobile application validates whether or not the downloaded file matches the one in the **moduleinfo** list. To do that, it calculates the hash of the file, based on its content and compares it with the hash associated with that file in the **moduleinfo**.
+As described in step 9 ([see OTA upgrade process diagram](https://success.outsystems.com/documentation/11/delivering_mobile_apps/mobile_app_update_scenarios/over_the_air_upgrades/#ota-upgrade-process-diagram)),after downloading each resource from the server, the mobile application validates whether or not the downloaded file matches the one in the **moduleinfo** list. To do that, it calculates the hash of the file, based on its content and compares it with the hash associated with that file in the **moduleinfo**.
 
 This error means that the content of the ``<Resource_Path>?<Resource_Hash>`` downloaded doesn’t have the expected hash and is considered corrupt.
 
