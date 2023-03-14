@@ -11,7 +11,10 @@ pageprivacy: semi-private
 <h3 id="new_in_cross-platform_service_studio_11.54.1" >New in Cross-platform Service Studio 11.54.1</h3>
 <ul>
 <li>Improved attribute mapping suggestions to consider the target attribute name. Inspired by feedback from <a href="https://www.outsystems.com/profile/9cj1ygrmat/">Carlos Olías</a>. (RAID-1687)</li>
-<li>It is now possible to detach and reattach module tabs into existing Service Studio windows. (RDOIBT-1085)</li>
+<li>Improved the Merge experience so that your input will only be needed when there are actually conflicts that need resolving. When possible, the merge will happen automatically during the publish process and not need your intervention as before.
+
+Merges with yourself will no longer occur in situations where you are publishing code which started off in an earlier revision. As long as no other user has published code, and you are the last person to have published, your changes will always overwrite the code, avoiding merges with yourself. (RDOIAT-970)</li>
+<li>It is now possible to move module tabs between existing Service Studio windows. (RDOIBT-1085)</li>
 <li>You can now have up to 12 module tabs simultaneously opened in a Service Studio window. (RDOIBT-1102)</li>
 </ul>
 <h3 id="bug_fixing_cross-platform_service_studio_11.54.1" >Bug Fixing</h3>
