@@ -6,4 +6,19 @@ pageprivacy: public
 <h2 id="cross-platform_service_studio_11.53.43" >Cross-platform Service Studio 11.53.43</h2>
 <div class="info"><p>Released on Mar 09, 2023</p></div>
 
-<ul><li>This release of Service Studio focuses on internal improvements ― this will help our team improve Service Studio faster. Your work shouldn't be impacted by these changes.</li></ul>
+
+<style>.cattag {background: #f4f2ff; color: #6a6581; padding: 4px 10px;}</style>
+<h3 id="new_in_cross-platform_service_studio_11.53.43" >New in Cross-platform Service Studio 11.53.43</h3>
+<ul>
+<li>Improved Code Mentor logic suggestions to open or select the most likely property to be edited. Picking an Assign node now opens the Select Variable dialog, while picking an Execute Action node will select the first empty argument. Inspired by feedback from <a href="https://www.outsystems.com/profile/9cj1ygrmat/">Carlos Olías</a>. (RAID-1580)</li>
+</ul>
+<h3 id="bug_fixing_cross-platform_service_studio_11.53.43" >Bug Fixing</h3>
+<ul>
+<li>Fixed an issue that caused the properties panel to be readonly when dropping a node in flow that would open a dialog. (RDOIAT-955)</li>
+<li>Fixed an issue that created a duplicated aggregate when scaffolding a screen from an oracle external entity. (RDOIAT-961)</li>
+<li>Fixed an issue that caused Service Studio to hang after submitting feedback of a crash while having some specific dialogs open. (RDOIAT-978)</li>
+<li>Fixed an issue where the data type filter would not reset when clearing the search field. (RDOIAT-980)</li>
+<li>Fixed an issue that prevented variables with name “Suggestions” to be selected in the properties' pane. (RDOIBT-1199)</li>
+<li>Fixed an issue that caused the debugger to be blocked when using Chrome version 111.0.5563.64 or above. (RPM-3764) <span class="cattag">Service Studio</span>  <span class="cattag">Debugger</span> </li>
+</ul>
+
