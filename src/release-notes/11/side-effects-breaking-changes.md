@@ -705,7 +705,7 @@ In case you can't use any of the above fixes, do the following:
 
 **Rationale**: The algorithm now gives precedence to the DLLs from the most recent extension published to account for some scenarios with loosely coupled dependencies, instead of the previous dependencies alphabetical order.
 
-**Fix**: Ensure the environment's extensions don’t have different incompatible versions of the same DLL. You can use the following query to check if such extensions exist. If you can see your extensions on this list, we recommend you consolidate the DLLs into a single extension or make sure they are all compatible. The query lists some OutSystems extensions, which are compatible.
+**Fix**: Ensure the environment's extensions don’t have different incompatible versions of the same DLL. You can use the following query to identify multiple extensions that contain the same DLL. If you can see your extensions on this list, we recommend you consolidate the DLLs into a single extension or make sure they are all compatible. The query lists some OutSystems extensions, which are compatible between them.
 
     SELECT REPDLLEXT.Filename DLL, ossys_Extension.Name EXTENSION FROM	
         (SELECT ossys_Extension_Dependency.Filename, ossys_Extension_Dependency.Extension_Id FROM		
@@ -715,6 +715,9 @@ In case you can't use any of the above fixes, do the following:
                 JOIN ossys_Extension on ossys_Extension_Dependency.Extension_Id = ossys_Extension.Id
                 WHERE Filename LIKE '%.dll'
                 AND ossys_Extension.IS_ACTIVE = 1
+                AND ossys_Extension.Name NOT IN 
+				('OMLProcessor','IntegrationStudio','DeviceDetectionWithWURFL','SAPDevServiceExtension',
+				'RESTDevServiceExtension','SOAPDevServiceExtension','SCBootstrap', 'UsersSecurity')
                 GROUP BY Filename, Extension_Id) DLLEXT
             GROUP BY Filename
             HAVING count(*) > 1) REPDLL
