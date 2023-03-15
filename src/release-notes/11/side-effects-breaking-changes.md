@@ -716,8 +716,9 @@ In case you can't use any of the above fixes, do the following:
                 WHERE Filename LIKE '%.dll'
                 AND ossys_Extension.IS_ACTIVE = 1
                 AND ossys_Extension.Name NOT IN 
-				('OMLProcessor','IntegrationStudio','DeviceDetectionWithWURFL','SAPDevServiceExtension',
-				'RESTDevServiceExtension','SOAPDevServiceExtension','SCBootstrap', 'UsersSecurity')
+				('OMLProcessor', 'IntegrationStudio', 'DeviceDetectionWithWURFL',
+                'SAPDevServiceExtension', 'RESTDevServiceExtension',
+                'SOAPDevServiceExtension', 'SCBootstrap', 'UsersSecurity')
                 GROUP BY Filename, Extension_Id) DLLEXT
             GROUP BY Filename
             HAVING count(*) > 1) REPDLL
