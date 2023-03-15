@@ -20,7 +20,7 @@ The same mechanism and principles are used by the Platform Server across all typ
 
 The platform uses standard connection pooling mechanisms:
 
-* .NET stack - [ADO.NET](https://msdn.microsoft.com/en-us/library/8xx3tyca(v=vs.100).aspx)
+* .NET stack - [ADO.NET](https://msdn.microsoft.com/en-us/library/8xx3tyca(v=vs.100).aspx) for SQL Server and ODP.NET for Oracle.
 
 * Java stack - [Oracle UCP](http://docs.oracle.com/cd/B28359_01/java.111/e10788/intro.htm#BABHFGCA)
 
@@ -157,6 +157,10 @@ If that application module becomes even more popular and now receives 150 concur
 * The remaining 55 requests have to wait for an available connection.
 
 During this high-usage peak, there's a total of 400 connections.
+
+### External Database Connections
+
+External databases are excluded from the previous examples. But in case the applications have connections to external databases, additional connection pools will be created by default as well. The default values for the specifications are determined by the Database Engine you're connecting to and you can still  configure the min and max connection pool size for DB Connections in the connection strings too.
 
 ### More Information
 
