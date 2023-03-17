@@ -130,7 +130,7 @@ platform-version: odc
 <ul>
 <li>Forge governance and user experience improvements:
 <ul>
-<li>Forge - Users without an Install & Update permissions don’t have the Install button available.</li>
+<li>Forge - Users without an Install &amp; Update permissions don’t have the Install button available.</li>
 <li>Forge - Users without an Submission permissions cannot start the submit process nor can edit assets submitted by others from their Organization.</li>
 <li>Forge - Redesign of the asset detail page, to allow a better experience when using smaller screen resolutions.</li>
 </ul> (RDFNO-132)</li>
