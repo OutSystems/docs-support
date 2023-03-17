@@ -132,24 +132,24 @@ platform-version: odc
 
 <ul>
 
-    <li>Forge - Users without an Install & Update permissions don’t have the Install button available.</li>
+<li>Forge - Users without an Install & Update permissions don’t have the Install button available.</li>
 
-    <li>Forge - Users without an Submission permissions cannot start the submit process nor can edit assets submitted by others from their Organization.</li>
+<li>Forge - Users without an Submission permissions cannot start the submit process nor can edit assets submitted by others from their Organization.</li>
 
-    <li>Forge - Redesign of the asset detail page, to allow a better experience when using smaller screen resolutions.</li>
+<li>Forge - Redesign of the asset detail page, to allow a better experience when using smaller screen resolutions.</li>
 
 </ul> (RDFNO-132)</li>
 <li>Improvements in the Forge Submit experience:
 
 <ul>
 
-    <li>Forge - It’s now possible to submit the last versioned App revision while new revisions are being created in ODC Studio.</li>
+<li>Forge - It’s now possible to submit the last versioned App revision while new revisions are being created in ODC Studio.</li>
 
-    <li>Forge - New pop-up when dependencies are missing in Forge, detailing the status of each asset.</li>
+<li>Forge - New pop-up when dependencies are missing in Forge, detailing the status of each asset.</li>
 
-    <li>Forge - New option to add links in the detailed description, Limitations, and Documentation.</li>
+<li>Forge - New option to add links in the detailed description, Limitations, and Documentation.</li>
 
-    <li>Forge - New Image uploader component, consistent inside ODC Portal.</li>
+<li>Forge - New Image uploader component, consistent inside ODC Portal.</li>
 
 </ul> (RMKPT-2218)</li>
 </ul>
