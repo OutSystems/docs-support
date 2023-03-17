@@ -146,7 +146,7 @@ platform-version: odc
 <ul>
 <li>Forge - Fixed an issue that was not allowing the users to see the assets listed in both tabs of the My Assets page in Forge. (RMKPT-2188)</li>
 </ul>
-<strong>General Availability</strong>
+<p><strong>General Availability</strong></p>
 <div class="hidden" id="outsystems-developer-cloud-2023-01-13_end"></div><div class="hidden" id="outsystems-developer-cloud-2023-01-05_start"></div>
 <h2 id="outsystems_developer_cloud_2023-01-05" >OutSystems Developer Cloud 2023-01-05</h2>
 <div class="info"><p>Released on Jan 05, 2023</p></div>
