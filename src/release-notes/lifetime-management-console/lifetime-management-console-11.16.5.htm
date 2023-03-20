@@ -1,0 +1,20 @@
+---
+isautopublish: true
+pageprivacy: public
+---
+
+<h2 id="lifetime_management_console_11.16.5" >LifeTime Management Console 11.16.5</h2>
+<div class="info"><p>Released on Mar 20, 2023</p></div>
+
+
+<style>.cattag {background: #f4f2ff; color: #6a6581; padding: 4px 10px;}</style>
+<h3 id="bug_fixing_lifetime_management_console_11.16.5" >Bug Fixing</h3>
+<ul>
+<li>Fixed an issue that caused scroll to be missing after opening a popup. Now scrolls are never removed and popups are always locked in place. (R11CT-1986)</li>
+<li>Improved the synchronization of service account user permissions across  the registered environments in LifeTime. When the user's permissions are not well synchronized, some information becomes outdated in LifeTime. (RPM-3693) <span class="cattag">Application Lifecycle</span>  <span class="cattag">LifeTime</span> </li>
+<li>Fixed a bug that would make page scroll become disabled after toggling "Enhanced security for Remoting requests". The fix is included in R11CT-1986. (RPM-3767) <span class="cattag">Application Lifecycle</span>  <span class="cattag">LifeTime</span> </li>
+<li>Fixed an issue that caused log pollution when parsing a JSON. This would happen when authenticating IT users through ADAuthentication while using the pattern Domain\UserName. (RPM-650) <span class="cattag">Application Runtime</span>  <span class="cattag">Logging</span> </li>
+<li>Fixed an error that prevented deleting roles when Service Accounts were associated. Now when a role is deleted it will prompt to replace the role on all Users and Service Accounts. (RPM-698) <span class="cattag">Application Lifecycle</span>  <span class="cattag">Users</span> </li>
+<li>Fixed a security vulnerability that allowed unauthorized users to access application permissions data. CVSSv3.1 score 4.3 (Medium). (RPM-3702) <span class="cattag">Application Lifecycle</span>  <span class="cattag">LifeTime</span> </li>
+</ul>
+
