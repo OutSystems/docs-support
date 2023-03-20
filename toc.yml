@@ -575,24 +575,24 @@
     # Troubleshooting
     - href: enterprise/troubleshooting/enterprise-trouble.md
     - topics:
-            - href: enterprise/troubleshooting/vpn-troubleshooting-guide.md
-            - href: enterprise/troubleshooting/env-deploy-controller-twice.md
-            - href: enterprise/troubleshooting/information-logged.md
-            - href: enterprise/troubleshooting/troubleshoot-ios-content.md
-            - href: enterprise/troubleshooting/service-permissions-change.md
-            - href: enterprise/troubleshooting/oracle-odp-net-issues.md
-            - href: enterprise/troubleshooting/reset-users-auth-preferences.md
-            - href: enterprise/troubleshooting/slow-publishing-117x.md
-            - href: enterprise/troubleshooting/mabs/obfuscation.md
-            - href: enterprise/troubleshooting/troubleshoot-platform-server.md
-            - href: enterprise/troubleshooting/unable-register-front-end.md
-            - href: enterprise/troubleshooting/it-users-vs-app-users.md
-            - href: enterprise/troubleshooting/dot-net-core-3-1/dot-net-core-3-1.md
-            - href: enterprise/troubleshooting/saml-unable-decrypt-assertion.md
+        - href: enterprise/troubleshooting/vpn-troubleshooting-guide.md
+        - href: enterprise/troubleshooting/env-deploy-controller-twice.md
+        - href: enterprise/troubleshooting/information-logged.md
+        - href: enterprise/troubleshooting/troubleshoot-ios-content.md
+        - href: enterprise/troubleshooting/service-permissions-change.md
+        - href: enterprise/troubleshooting/oracle-odp-net-issues.md
+        - href: enterprise/troubleshooting/reset-users-auth-preferences.md
+        - href: enterprise/troubleshooting/slow-publishing-117x.md
+        - href: enterprise/troubleshooting/mabs/obfuscation.md
+        - href: enterprise/troubleshooting/troubleshoot-platform-server.md
+        - href: enterprise/troubleshooting/unable-register-front-end.md
+        - href: enterprise/troubleshooting/it-users-vs-app-users.md
+        - href: enterprise/troubleshooting/dot-net-core-3-1/dot-net-core-3-1.md
+        - href: enterprise/troubleshooting/saml-unable-decrypt-assertion.md
 
-            # Known issues
-            - href: enterprise/troubleshooting/known-issues/ki-11_10-downtime-CT/ki-11_10-downtime-CT.md
-            - href: enterprise/troubleshooting/known-issues/ki-11_10-site-properties/ki-11_10-site-properties.md
+        # Known issues
+        - href: enterprise/troubleshooting/known-issues/ki-11_10-downtime-CT/ki-11_10-downtime-CT.md
+        - href: enterprise/troubleshooting/known-issues/ki-11_10-site-properties/ki-11_10-site-properties.md
 
 # Forge
 - href: forge/forge-intro.md
