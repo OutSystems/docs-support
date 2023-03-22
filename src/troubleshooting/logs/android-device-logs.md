@@ -16,13 +16,13 @@ To get more information to troubleshoot eventual issues, we check the device log
 1. Open a command line and jump to `<directory_path>`.
 1. Connect your Android device to your computer and ensure that USB Debugging is active. You can validate that it's correctly connected using this command:
 `adb.exe devices`
-If you see no devices on the list that is printed, please validate that USB Debugging is, in fact, enabled. In case it is, we recommend following the steps provided on this more thorough [this article](`https://www.howtogeek.com/125769/how-to-install-and-use-abd-the-android-debug-bridge-utility/`).
+If you see no devices on the list that is printed, please validate that USB Debugging is, in fact, enabled. In case it is, we recommend following the steps provided on this more through [this article](`https://www.howtogeek.com/125769/how-to-install-and-use-abd-the-android-debug-bridge-utility/`).
 1. Run the following command to clear the logs of your device first:
 `adb.exe logcat -c`
 1. Reproduce the error.
 1. Run the following command to extract the logs:
 `adb.exe logcat -d > device.log`
-1. Wait a couple of seconds and click **CTRL + C** in the command line to stop the process.
+1. Wait for a couple of seconds and click **CTRL + C** in the command line to stop the process.
 1. Send the **device.log** file found in `<directory_path>` to OutSystems Support. 
 
 If none of these steps failed, you should have a file with entries on it. If the file has a size of 0kb (empty), please review all the previous steps.
