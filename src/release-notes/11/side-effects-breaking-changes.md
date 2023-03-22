@@ -634,7 +634,9 @@ The security fix will be enabled by default so the decision to turn it off shoul
 **Workaround**: In Service Center, set the site property `FeedBackMessage_ForceHTMLEncode` to False in the site properties of the RichWidgets module. This isn't recommended, as it leaves the Feedback_Message widget vulnerable to XSS attacks.
 
 
-### Introduced in Platform Server 11.18.0 {#bc-11180-1}
+### Introduced in Platform Server 11.18.0 
+
+1\. <a id="bc-11180-1"></a>
 
 **Issue**: The installer was modified to delete specific third-party DLLs from the `\plugins\database` folder and recreate them in new subfolders. This can prevent extensions or custom database connectors that expect the below DLLs to exist in the Platform Server. An example of those extensions are custom database connectors. Apps that consume those extensions can start to have runtime errors such as `Could not load file or assembly 'Google.Protobuf, Version=3.12.3.0, Culture=neutral, PublicKeyToken=a7d26565bac4d604' or one of its dependencies. The system cannot find the file specified.`
 External database connections and extensions built using [OutSystems out-of-the box mechanisms](https://success.outsystems.com/Documentation/11/Extensibility_and_Integration/Integrate_with_an_External_Database) **are not** affected by this breaking change.
@@ -694,6 +696,17 @@ In case you can't use any of the above fixes, do the following:
 1. Create a new [External Database Connection](https://success.outsystems.com/Documentation/11/Extensibility_and_Integration/Integrate_with_an_External_Database/Integrate_with_an_external_database_using_Integration_Studio) and chose the DBMS identified on the list.
 1. Don't test it and then save it. This will be a dummy connection, used only to recreate the files. It doesn't need to be assigned to an extension.
 1. Republish the app that was having the errors.
+
+2\. <a id="bc-11180-2"></a>
+
+**Issue**: The `ActiveDirectory_GetAccountDetails` server action from the **Authentication** extension (part of System Components) now returns a new boolean parameter called `UserExists` to inform that an end user doesn't exist in the Active Directory, instead of throwing an exception.
+
+**Runtime**: Traditional web, Reactive web, Mobile
+
+**Rationale**: The behavior of this server action has been modified since it was considered to be a result of an incorrect implementation.
+
+**Fix**: Change your logic to check for the value of the `UserExists` parameter instead of expecting for an exception to be thrown as the evidence that a user doesn't exist in the Active Directory.
+
 
 ### Introduced in Platform Server 11.19.0 { #bc-11190-1 }
 
