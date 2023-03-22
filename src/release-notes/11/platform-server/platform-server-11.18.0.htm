@@ -97,7 +97,7 @@ Now, compilation files are deleted after a deployment error to ensure they aren'
 
 <h3>Breaking change</h3>
 <ul>
-<li>The installer was modified to delete specific third-party DLLs from the <code>\plugins\database</code> folder and recreate them in new subfolders. This can prevent extensions or custom database connectors that expect the below DLLs to exist in the Platform Server. An example of those extensions are custom database connectors. External database connections and extensions built using <a href="https://success.outsystems.com/Documentation/11/Extensibility_and_Integration/Integrate_with_an_External_Database">OutSystems out-of-the box mechanisms</a> <strong>are not</strong> affected by this breaking change. Check more detail on how to deal with this breaking change <a href="https://success.outsystems.com/Support/Release_Notes/11/OutSystems_11_side_effects_and_breaking_changes#bc-11180-1">here</a>.</li>
+<li>The installer was modified to delete specific third-party DLLs from the <code>\plugins\database</code> folder and recreate them in new subfolders. This can prevent extensions or custom database connectors that expect the below DLLs to exist in the Platform Server. An example of those extensions are custom database connectors. External database connections and extensions built using <a href="https://success.outsystems.com/Documentation/11/Extensibility_and_Integration/Integrate_with_an_External_Database">OutSystems out-of-the box mechanisms</a> <strong>are not</strong> affected by this breaking change. Check more detail on how to deal with this breaking change <a href="https://success.outsystems.com/Support/Release_Notes/11/OutSystems_11_side_effects_and_breaking_changes/#bc-11180-1">here</a>.</li>
 </ul>
 
 <h3 id="known_issues_fixing_platform_server_11.18.0">Known Issues</h3>
@@ -109,6 +109,8 @@ We advise all customers <strong>not to use</strong> this feature. In the OutSyst
 <li>When using <a href="https://www.outsystems.com/goto/ps-deploy-all">Deploy All</a> the warning <code>Some Modules are set to be moved to another Database Catalog</code> will appear in all solutions in Service Center. At <strong>OutSystems Cloud</strong> and self-managed infrastructures that <strong>don't use Multiple Database Catalogs</strong> there is no impact and the warning can be ignored. 
 <br/>
 In self-managed infrastructures that make use of  <strong>Multiple Database Catalogs</strong> it will affect the availability of applications that aren't in the main catalog. Instead, use all content solutions or deploy via LifeTime. If you already used Deploy All in a self-managed infrastructure that uses Multiple Database Catalogs, please open a support case to get help in restoring the correct database catalogs configuration. This known issue has the reference RPM-3435.</li>
+<li>Applications that use the ActiveDirectory_GetAccountDetails server action from the Authentication system extension should now take into account that the behavior changed when a user doesn't exist in the Active Directory. Check more detail on how to deal with this breaking change <a href="https://success.outsystems.com/Support/Release_Notes/11/OutSystems_11_side_effects_and_breaking_changes/#bc-11180-2">here</a>.</li>
 </ul>
+
 
 
