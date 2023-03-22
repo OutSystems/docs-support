@@ -82,7 +82,7 @@ This occurred when the SAP credentials were defined in Service Center, and then 
 <li>Fixed an issue that prevented customers from proceeding with an ongoing upgrade due to an unusual longer initialization of OutSystems Deployment Controller Service. (RPM-3126) <span class="cattag">Infrastructure Management</span>  <span class="cattag">Platform Configuration</span> </li>
 <li>Fixed a bug that lead to compilation errors in modules with consumed SOAP Web Services or that referenced a module that consumed SOAP Web Services.<br/>
 This occurred in environments using Platform Server 11.17.0 or later. (RPM-3176) <span class="cattag">Publish Operation</span>  <span class="cattag">Compilation</span> </li>
-<li>The ActiveDirectory_GetAccountDetails server action now returns a new parameter to inform that an user does not exist in Active Directory, instead of throwing an exception.<br/>
+<li>The ActiveDirectory_GetAccountDetails server action now returns a new parameter to inform that a user does not exist in Active Directory, instead of throwing an exception.<br/>
 This occurred when an user was set as active in the Platform but didn't exist in Active Directory. (RPM-477) <span class="cattag">Application Runtime</span>  <span class="cattag">Authentication and Authorization</span> </li>
 <li>Fixed an issue that prevented Deploy Service and Scheduler from starting with an "Error opening connection to the database" entry in Event Viewer.<br/>
 This occurred after trying to start the Deploy Service and Scheduler while the platform database is down. (RPM-787) <span class="cattag">Platform Installation</span>  <span class="cattag">OutSystems Services</span> </li>
