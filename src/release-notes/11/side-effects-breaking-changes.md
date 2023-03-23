@@ -703,7 +703,7 @@ In case you can't use any of the above fixes, do the following:
 
 **Runtime**: Traditional web, Reactive web, Mobile
 
-**Rationale**: The behavior of this server action has been modified since it was considered to be a result of an incorrect implementation.
+**Rationale**: The previous behavior of this server action used an exception to handle an expected use case, not following programming best practices and causing log pollution.
 
 **Fix**: Change your logic to check for the value of the `UserExists` parameter instead of expecting for an exception to be thrown as the evidence that a user doesn't exist in the Active Directory.
 
