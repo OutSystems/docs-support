@@ -36,7 +36,6 @@ An Application Object (AO) is a measurement of the complexity of the application
 * Within the same runtime environment, each database table and API method only counts as 1 AO, even when used by multiple apps within this same runtime.
 * Disabled applications continue to contribute to the AO count until they're deleted.
 * Components sourced from [OutSystems Forge](https://www.outsystems.com/forge/) also contribute to the AO count.
-* Apps that are deployed to runtimes on multiple CI/CD pipelines (i.e., copies of the same logical app) contribute to the AO count in each runtime.
 * In OutSystems Developer Cloud, you can deploy multiple versions of the same library. Only the version with the highest number of AOs contributes to the AO count.
 
 ## AO limits
