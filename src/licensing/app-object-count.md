@@ -9,7 +9,7 @@ platform-version: o11
 
 # Application Objects
 
-An Application Object (AO) is a measurement of the complexity of the applications you run on the OutSystems platform. Each **screen**, **entity/database table**, and **API method** in your apps count as 1 AO. 
+An Application Object (AO) is a measurement of the complexity of the applications you run on the OutSystems platform. Each **screen**, **entity/database table**, and **API method** in your apps count as 1 AO. AOs are counted the same in OutSystems 11 and OutSystems Developer Cloud, except where noted below.
 
 ## Details on AO counting for Screens
 * Web screens, email screens, and mobile web screens each count as 1 AO. 
@@ -33,12 +33,11 @@ An Application Object (AO) is a measurement of the complexity of the application
 
 ## Other scenarios relating to AO counting
 
-* Within the same runtime environment, each database table and API method only counts as 1 AO, even when used by multiple apps within this same environment.
+* Within the same runtime environment, each database table and API method only counts as 1 AO, even when used by multiple apps within this same runtime.
 * Disabled applications continue to contribute to the AO count until they're deleted.
 * Components sourced from [OutSystems Forge](https://www.outsystems.com/forge/) also contribute to the AO count.
+* In OutSystems Developer Cloud, you can deploy multiple versions of the same library. Only the version with the highest number of AOs contributes to the AO count.
 
 ## AO limits
 
-OutSystems subscriptions typically include rights to run applications up to a specified number of AOs, with options for upgrading AO capacity that vary by subscription. You can review your AO limit within the Customer Portal and you can see the current AO count displayed for each runtime environment within Service Center. If you have multiple production runtime environments, you'll sum the AO counts for each to determine your total AO count. When your AO count exceeds the AO limit specified in your subscription, you need to upgrade to remain in compliance with the license terms. Please contact your OutSystems sales representative for assistance.
-
-In the past, when customers exceeded their AO limit, functionality in the OutSystems platform could be degraded. This is no longer the case with current versions of the platform. It was previously customary for customers to allocate a portion of their total AO limit to each production runtime environment (when they had multiple) so that each would have a sufficient AO limit for the apps running in that environment. Given the changes in the platform, this practice is no longer necessary.
+OutSystems subscriptions typically include rights to run applications up to a specified number of AOs, with options for upgrading AO capacity that vary by subscription. You can review your AO limit within the Customer Portal and you can see the current AO count displayed for each runtime environment within Service Center. If you have multiple production runtime environments, you'll sum the AO counts from each to determine your total AO count. When your AO count exceeds the AO limit specified in your subscription, you need to upgrade to remain in compliance with the license terms. Please contact your OutSystems sales representative for assistance.
