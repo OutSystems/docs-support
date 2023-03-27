@@ -155,5 +155,12 @@ platform-version: odc
 <li>Fixed an issue where the user could be blocked during the impact analysis step in the deployment of a mobile app due to permission configurations. (RDEL-1171)</li>
 <li>Monitoring - Fixed an issue that was throwing an error message when the previous time range selected had an invalid search period (i.e. start date was prior to 30 days, and the selected period exceeded the 14 days). (RDLOT-1488)</li>
 </ul>
-<p><strong>General Availability</strong></p>
 <div class="hidden" id="outsystems-developer-cloud-2023-01-05_end"></div>
+<div class="hidden" id="outsystems-developer-cloud-2022-12-23_start"></div>
+
+<h2 id="outsystems_developer_cloud_2022-12-23" >OutSystems Developer Cloud 2022-12-23</h2>
+<div class="info"><p>Released on Dec 23, 2022</p></div>
+
+<style>.cattag {background: #f4f2ff; color: #6a6581; padding: 4px 10px;}</style>
+<h3>General Availability</h3>
+<div class="hidden" id="outsystems-developer-cloud-2022-12-23_end"></div>
