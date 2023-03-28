@@ -11,15 +11,15 @@ pageprivacy: semi-private
 <h3 id="new_in_cross-platform_service_studio_11.54.3" >New in Cross-platform Service Studio 11.54.3</h3>
 <ul>
 <li>It is now possible to use keyboard shortcuts on Manage Dependencies dialog buttons. Also, a new keyboard shortcut (⌘+R on macOS and Ctrl+R on Windows) was added to Refresh All within Manage Dependencies. (RDOIAT-812)</li>
-<li>It is now possible to use keyboard shortcuts on Find and Replace Find button. (RDOIAT-896)</li>
+<li>In the Find and Replace dialog, it is now possible to use the keyboard shortcut - Ctrl+Enter in Windows and ⌘+Enter in macOS - to trigger the Find button. (RDOIAT-896)</li>
 <li>It is now possible to use keyboard shortcuts on Give us Feedback dialog buttons. (RDOIAT-902)</li>
-<li>The shortcut key associated with the Rename of elements (F2) is now shown in front of the Rename entry in the context menu. (Windows only) (RDOIAT-998)</li>
+<li>The shortcut key associated with the Rename of elements (F2) is now shown at the right of the Rename entry in the context menu. (Windows only) (RDOIAT-998)</li>
 </ul>
 <h3 id="bug_fixing_cross-platform_service_studio_11.54.3" >Bug Fixing</h3>
 <ul>
 <li>Fixed an issue that, while debugging, prevented the user to see the values of a record list variable inside of another record list. (RDOIAT-1002)</li>
 <li>Improves the performance when performing searches inside the module. (RDOIAT-1003)</li>
-<li>Fixes issue that causes a hang when opening dialogs. (RDOIAT-1004)</li>
+<li>Fixed an issue that could occasionally cause a hang due to race conditions when opening dialogs. (RDOIAT-1004)</li>
 <li>Fixed an issue that caused undesired automatic overrides when publishing code which started off in an earlier version. This occurred when no other user had published code, and you were the last person to have published. Now, you will be prompted with the option to override or compare versions. (RDOIAT-1021)</li>
 <li>Fixed an issue in Windows version where navigation in the top menu using the arrow keys wasn’t opening or closing sub-menus. (RDOIBT-1233)</li>
 <li>Fixed an issue that caused a crash when dragging an Entity to a different environment’s WebFlow. (RDOIBT-1241)</li>
