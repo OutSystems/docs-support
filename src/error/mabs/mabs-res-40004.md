@@ -1,5 +1,5 @@
 ---
-summary: Building your application took too long and timed out. Please try again.
+summary: Couldn't generate your app because the connection timed out. If the problem persists, check our documentation for more information.
 tags:
 guid: 6837f7d5-defe-42c9-b1e9-19253bf2fc7c
 locale: en-us
@@ -11,7 +11,7 @@ platform-version: o11, odc
 
 ## Error message
 
-`Building your application took too long and timed out. Please try again.`
+`Couldn't generate your app because the connection timed out. If the problem persists, check our documentation for more information.`
 
 ## Cause
 
