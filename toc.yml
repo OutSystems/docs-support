@@ -105,25 +105,25 @@
         - href: troubleshooting/application-lifecycle/resource-nowait-specified.md
         - href: troubleshooting/application-lifecycle/extension-recompilation/extension-recompilation-warning.md
         - href: troubleshooting/application-lifecycle/extension-recompilation/extension-upgrade-disabled-error.md
-        - href: troubleshooting/application-lifecycle/extension-recompilation/extension-recompilation.md 
+        - href: troubleshooting/application-lifecycle/extension-recompilation/extension-recompilation.md
         - href: troubleshooting/application-lifecycle/api-unable-to-download-code.md
-        
+
     # Application Runtime
     - href: troubleshooting/application-runtime/intro.md
     - topics:
         - href: troubleshooting/application-runtime/ota-troubleshooting/ota-upgrades-troubleshoot.md
         - topics:
-            - href: troubleshooting/application-runtime/ota-troubleshooting/ota-timeout-downloading.md  
+            - href: troubleshooting/application-runtime/ota-troubleshooting/ota-timeout-downloading.md
             - href: troubleshooting/application-runtime/ota-troubleshooting/ota-mismatched-resources-moduleinfo.md
             - href: troubleshooting/application-runtime/ota-troubleshooting/ota-failed-changes.md
-            - href: troubleshooting/application-runtime/ota-troubleshooting/ota-changed-local-entities.md 
-            - href: troubleshooting/application-runtime/ota-troubleshooting/ota-mobile-device-logs.md  
-            - href: troubleshooting/application-runtime/ota-troubleshooting/ota-service-error-logs.md  
-            - href: troubleshooting/application-runtime/ota-troubleshooting/ota-healing-resource.md  
+            - href: troubleshooting/application-runtime/ota-troubleshooting/ota-changed-local-entities.md
+            - href: troubleshooting/application-runtime/ota-troubleshooting/ota-mobile-device-logs.md
+            - href: troubleshooting/application-runtime/ota-troubleshooting/ota-service-error-logs.md
+            - href: troubleshooting/application-runtime/ota-troubleshooting/ota-healing-resource.md
             - href: troubleshooting/application-runtime/ota-troubleshooting/ota-manifest-file-corrupt.md
-            - href: troubleshooting/application-runtime/ota-troubleshooting/ota-switch-cache-version.md  
-            - href: troubleshooting/application-runtime/ota-troubleshooting/ota-cache-load-fail.md  
-            - href: troubleshooting/application-runtime/ota-troubleshooting/ota-database-close-fail.md    
+            - href: troubleshooting/application-runtime/ota-troubleshooting/ota-switch-cache-version.md
+            - href: troubleshooting/application-runtime/ota-troubleshooting/ota-cache-load-fail.md
+            - href: troubleshooting/application-runtime/ota-troubleshooting/ota-database-close-fail.md
         - href: troubleshooting/application-runtime/slow-integrations.md
         - href: troubleshooting/application-runtime/upload-not-work-videos-ios.md
         - href: troubleshooting/application-runtime/bpt-automatic-activities-timeout.md
@@ -323,8 +323,10 @@
         - href: error/mabs/mabs-res-40002.md
         - href: error/mabs/mabs-res-40003.md
         - href: error/mabs/mabs-res-40004.md
+        - href: error/mabs/mabs-res-40005.md
         - href: error/mabs/mabs-res-50000.md
         - href: error/mabs/mabs-res-50001.md
+        - href: error/mabs/mabs-res-50002.md
         - href: error/mabs/mabs-unx-50000.md
         - href: error/mabs/mabs-unx-50001.md
         - href: error/mabs/mabs-vld-50000.md

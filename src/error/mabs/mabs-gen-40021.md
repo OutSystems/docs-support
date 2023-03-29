@@ -15,7 +15,7 @@ platform-version: o11, odc
 
 ## Cause
 
-The Kotlin version is not compatible with the plugins used in the app. This version is usually defined in the `GradlePluginKotlinVersion` preference in the Extensibility Configurations or in a plugin's specialised hook.
+The Kotlin version is not compatible with the plugins used in the app. This version is usually defined in the `GradlePluginKotlinVersion` preference in the Extensibility Configurations or in a plugin's specialized hook.
 
 ## Impact
 

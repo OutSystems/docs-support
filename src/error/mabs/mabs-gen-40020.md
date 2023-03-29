@@ -15,7 +15,7 @@ platform-version: o11, odc
 
 ## Cause
 
-MABS doesn't allow the used Android Build Tools version to be modified. This version may be being modified using the `android-buildToolsVersion` preference in the Extensibility Configurations or in a specialised hook (Gradle plugin/script or more) inside a Cordova plugin.
+MABS doesn't allow the used Android Build Tools version to be modified. This version may be being modified using the `android-buildToolsVersion` preference in the Extensibility Configurations or in a specialized hook (Gradle plugin/script or more) inside a Cordova plugin.
 
 ## Impact
 
