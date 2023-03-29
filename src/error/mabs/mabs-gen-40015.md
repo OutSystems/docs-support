@@ -15,7 +15,7 @@ platform-version: o11, odc
 
 ## Cause
 
-Generating the iOS application package failed because at least one custom plugin is incompatible with the defined ”Swift Language Version”.
+Generatign the iOS application package failed because at least one custom plugin is incompatible with the defined ”Swift Language Version”.
 
 ## Impact
 

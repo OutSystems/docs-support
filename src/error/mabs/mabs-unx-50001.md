@@ -15,7 +15,7 @@ platform-version: o11, odc
 
 ## Cause
 
-This error occurs when MABS times out while building your application package. This might be due to timing out while fetching the application resources, exceeding the time to build when installing custom plugins, or even taking too long when trying to download the necessary native libraries from maven repositories, cocoapods or others.
+This error occurs when MABS times out while building your application package. This might be due to timming out while fetching the application resources, exceding the time to build when installing custom plugins, or even taking too long when trying to download the necessary native libraries from maven repositories, cocoapods or others.
 
 ## Impact
 
