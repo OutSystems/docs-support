@@ -741,6 +741,33 @@ In case you can't use any of the above fixes, do the following:
     where ossys_Extension.IS_ACTIVE = 1
     order by DLL
 
+### Introduced in Platform Server 11.20.0 { #bc-11200-1 }
+
+**Issue**: In SQL Server, when importing or using external entities targeting views with DB linked tables, the platform will now treat those views as local views instead of attempting to perform operations directly on the underlying tables.
+
+This can lead to Update, Delete and GetForUpdate operations, which were previously possible on those views, to stop working.
+
+**Runtime**: Traditional web, Reactive web, Mobile
+
+**Rationale**: When importing external views in SQL Server, the platform had inconsistent behaviors if the view definition contained DB linked tables. In these situations, if the connection user had "VIEW DEFINITION" permissions over the view, Integration Studio would import the columns of the first table used in the view definition instead of the columns of the view. It would also perform Update, Delete and GetForUpdate operations directly to that table, bypassing the view completely.
+
+In most cases, this situation would cause runtime errors in Aggregates or SQL nodes, since the requested columns did not match. However, it would allow some other operations to succeed if the view only had a single table and made no changes to the columns definition. Having this capability also required connectivity and extra introspection queries when compiling modules that referenced those entities, causing runtime errors and incorrectly generated query code if there was a temporary unavailability of the external databases.
+
+The old behavior was added to the platform to make it easier to import and modify tables accessed via DB links when there were no capabilities to directly connect to the destination databases. Currently, with the Database Connection feature available, there are alternatives to perform these integrations directly without having to rely on remote views.
+
+**Fix**: The situations that require attention are when using views with DB linked tables to perform Update, Delete and GetForUpdate operations. This requires knowing what external entities are being imported via extensions and if they are views using DB Links. These changes only apply to SQL Server databases, so other databases are not affected.
+
+The possible fixes are the following:
+
+* Import the tables directly in Integration Studio again, without using the view. To do this in Integration Studio, open the extension and change the "Table or View Default Name" on the correspondent entity to have the fully qualified name of the table, including the DB Link (Ex: dblink.catalog.schema). Then, perform a "Refresh" to get the new definition. Validate and manually fix the "Identifier" attribute and any types on foreign keys, since view introspection cannot determine either of those.
+
+* Use the Database Connection feature to create a new connection directly to the target database. In this situation, you need to import the entities again in Integration Studio using the new Database Connection without using the views or DB links. This requires updating the modules that use those entities to have the new references.
+
+* If the views are being used to join data with other local entities or if the view definitions are complex (note that in most situations, this would be currently causing runtime errors, so it's unlikely), and there is also a need to perform update operations, OutSystems recommends importing two separate entities. One entity would still use the views to be used in Aggregates and joining data with other entities. The other entity would be used only for the update operations, using either the first or the second fix.
+
+It is possible to enable the configuration "Allow introspection of views using DB linked tables in SQL Server" via Factory Configuration. This configuration is provided as a backward compatibility option and can be applied before the version upgrade. OutSystems doesn't recommend using it as a permanent fix since its behavior is inconsistent and can lead to runtime errors.
+
+
 ## Side Effects
 
 ### Introduced in Platform Server Sep.2018
