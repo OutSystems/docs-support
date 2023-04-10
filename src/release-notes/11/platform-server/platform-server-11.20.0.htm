@@ -1,0 +1,53 @@
+---
+isautopublish: true
+pageprivacy: semi-private
+---
+
+<h2 id="platform_server_11.20.0" >Platform Server 11.20.0</h2>
+<div class="info"><p>This is a preliminary version of the document.</p></div>
+
+
+<style>.cattag {background: #f4f2ff; color: #6a6581; padding: 4px 10px;}</style>
+<h3 id="new_in_platform_server_11.20.0" >New in Platform Server 11.20.0</h3>
+<ul>
+<li>Added information about the duration of a process to the Process Instance Detail screen. (R11CT-1875)</li>
+<li>Improved the log filters in Service Center so that when filtering for a certain time period it shows the last records up to the last second filtered. (R11CT-1877)</li>
+<li>Upgraded Microsoft.IdentityModel libraries to version 6.26.0. (R11PIT-1054)</li>
+<li>Added support for Amazon's Instance Metadata Service Version 2 (IMDSv2). (RPM-1002) <span class="cattag">Infrastructure Management</span>  <span class="cattag">Licensing Infrastructure</span> </li>
+<li>When upgrading the Platform by running the Configuration Tool, existing sequences that have no cache will be updated to have a cache size of 100. Applies only to environments using an Oracle database. (RPM-3599) <span class="cattag">Infrastructure Management</span>  <span class="cattag">Cloud Orchestration</span> </li>
+</ul>
+<h3 id="bug_fixing_platform_server_11.20.0" >Bug Fixing</h3>
+<ul>
+<li>Updated copy on the Licensing page of Service Center. (R11BRT-322)</li>
+<li>Introduced a validation that prevents the "Save and Apply settings to the factory" when there were no effective changes to the settings.
+Disabled the 'Save' and 'Save and apply settings to the factory' buttons when the page is managed by Lifetime. (R11CT-1812)</li>
+<li>Fixed an issue where the Role search on the UserShow screen of the Users app was only searching the current page of the paginated table, instead of searching the entire table. Inspired by <a href="https://www.outsystems.com/ideas/12641/make-the-roles-search-look-through-all-records-and-not-just-the-current-page-of-t/">Nicholas Campbell's idea</a>. (R11CT-1919)</li>
+<li>Fixed misbehaviors when attempting to Login/Logout with SAML authentication and Single Sign-On Between App Types. Added Site Property AlternativeSamlLoginLogoutFlow on Users to enable an alternative flow for SAML login and logout (disabled by default). If enabled, prevents redirects to Users Invalid Permissions screen on logins and redirects to the application on logouts. (RPM-1077) <span class="cattag">Application Lifecycle</span>  <span class="cattag">Users</span> </li>
+<li>Removed the connectivity requirements from the Controller Service to external database connections during the compilation of modules. This change is dependent on the opt-out configuration made available for RPM-3663. (RPM-1152) <span class="cattag">Publish Operation</span>  <span class="cattag">Compilation</span> </li>
+<li>Fixed a visibility issue in reactive applications that caused a Popovers' content to not be completely visible whenever it was inside an element with an overflow:hidden property (RPM-3023) <span class="cattag">Application Runtime</span>  <span class="cattag">Supported Forge Component</span> </li>
+<li>Resources used on SOAP Callback Actions were not being copied to their consumers which was resulting in missing resources errors in runtime. (RPM-3089) <span class="cattag">Application Runtime</span>  <span class="cattag">Logic Execution</span> </li>
+<li>Fixed an issue that caused the LifeTimeAPI to throw a converting datetime error when the SQL Server Database has date format "dmy". (RPM-3105) <span class="cattag">Application Lifecycle</span>  <span class="cattag">LifeTime</span> </li>
+<li>Fixed an issue where operations which involved manipulating data records were crashing when the corresponding entity's data type was set to another entity's identifier. (RPM-3173) <span class="cattag">Service Studio</span>  <span class="cattag">Data Access and Manipulation</span> </li>
+<li>The issue of users being frequently logged out even with the "remember me" option selected has been resolved and users should no longer experience unexpected logouts. (RPM-3491) <span class="cattag">Application Lifecycle</span>  <span class="cattag">Service Center</span> </li>
+<li>Fixed an issue that caused an empty file when downloading traces from the previous week. (RPM-3524) <span class="cattag">Application Lifecycle</span>  <span class="cattag">Service Center</span> </li>
+<li>Fixed an issue that caused indexes to not use the NLSSORT function when referring to text foreign key columns.<br/> 
+This is only applicable when running Platform Server on Oracle databases.<br/>
+Now, you can change this behavior by enabling the “Enable NLS_SORT usage in indexes referencing FK columns” setting using the <a href="https://www.outsystems.com/forge/component-overview/25/factory-configuration">Factory Configuration</a> component. This setting can be enabled before upgrading the platform, so that it's effective on the first publish or Deploy All after the upgrade. (RPM-3609) <span class="cattag">Application Runtime</span>  <span class="cattag">Data Access and Manipulation</span> </li>
+<li>Fixed the introspection of views with db links in SQL Server where the attributes would be relative to one of the linked tables columns instead of the actual view.
+This fix introduces a breaking change where it may no longer be possible to perform update, delete or get for update operations over views with db links. The old behavior can be enabled using Factory Configuration, see the breaking change notes for more information. (RPM-3663) <span class="cattag">Integration Studio</span> </li>
+<li>Fixed an issue that caused upgrades to Platform Server 11.18 or later to fail, while Configuration Tool tried to install System Components. This occurred if a workaround was applied to the target environment, that involved changing the value of a ServerAPIAuthenticationV2 toggle. (RPM-3698) <span class="cattag">Infrastructure Management</span>  <span class="cattag">Platform Configuration</span> </li>
+<li>Fixed an issue that prevented the same solution from being simultaneously published in different Personal Environments. (RPM-3724) <span class="cattag">Publish Operation</span> </li>
+<li>Now, "Refresh token is no longer valid" log entries are classified as General logs instead of Error logs.
+These log entries are triggered when a Service Center session times out, due to a user being inactive for 20 minutes or due to the user logging out in another browser tab. (RPM-3739) <span class="cattag">Application Lifecycle</span>  <span class="cattag">Service Center</span> </li>
+<li>Fixed an issue in the Users application which did not show all possible results when filtering the list of inactive users. (RPM-608) <span class="cattag">Application Lifecycle</span>  <span class="cattag">Users</span> </li>
+<li>Fixed a problem that prevented the login of users with usernames containing more than 50 characters, when using SAML authentication for End-Users authentication (either with the 'Azure AD', 'Okta' or the generic 'SAML 2.0' options). (RPM-756) <span class="cattag">Application Runtime</span>  <span class="cattag">Authentication and Authorization</span> </li>
+<li>Improved the CleanLoginAttempts Timer performance to prevent indefinite delays that could occur during the cleanup of login attempts.
+Optimized the cleanup performance of refresh tokens, which can now be completed more efficiently, reducing the likelihood of timeout errors. (RPM-941) <span class="cattag">Application Lifecycle</span>  <span class="cattag">Service Center</span> </li>
+<li>Fixed a security vulnerability that allowed unauthorized users to access certificates data. CVSSv3.1 score 4.3 (Medium). (RPM-3626) <span class="cattag">Application Lifecycle</span>  <span class="cattag">Service Center</span> </li>
+<li>Fixed a security vulnerability that allowed unauthorized users to access errors detail. CVSSv3.1 score 3.1 (Low). (RPM-3703) <span class="cattag">Application Lifecycle</span>  <span class="cattag">Service Center</span> </li>
+</ul>
+
+<h3>Breaking change</h3>
+<ul>
+<li>In SQL Server, when importing or using external entities targeting views with DB linked tables, the platform will now treat those views as local views instead of attempting to perform operations directly on the underlying tables. This can lead to Update, Delete and GetForUpdate operations, which were previously possible on those views, to stop working. Check more detail on how to deal with this breaking change <a href="https://success.outsystems.com/support/release_notes/11/outsystems_11_side_effects_and_breaking_changes/#bc-11200-1">here</a>.</li>
+</ul>
