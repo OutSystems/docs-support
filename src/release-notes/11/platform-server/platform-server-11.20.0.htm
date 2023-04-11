@@ -19,7 +19,7 @@ pageprivacy: public
 <h3 id="bug_fixing_platform_server_11.20.0" >Bug Fixing</h3>
 <ul>
 <li>Updated copy on the Licensing page of Service Center. (R11BRT-322)</li>
-<li>Introduced a validation that prevents the "Save and Apply settings to the factory" when there were no effective changes to the settings.
+<li>Introduced a validation that prevents the "Save and Apply settings to the factory" when there were no effective changes to the settings in Environment Security page.
 Disabled the 'Save' and 'Save and apply settings to the factory' buttons when the page is managed by Lifetime. (R11CT-1812)</li>
 <li>Fixed an issue where the Role search on the UserShow screen of the Users app was only searching the current page of the paginated table, instead of searching the entire table. Inspired by <a href="https://www.outsystems.com/ideas/12641/make-the-roles-search-look-through-all-records-and-not-just-the-current-page-of-t/">Nicholas Campbell's idea</a>. (R11CT-1919)</li>
 <li>Fixed misbehaviors when attempting to Login/Logout with SAML authentication and Single Sign-On Between App Types. Added Site Property AlternativeSamlLoginLogoutFlow on Users to enable an alternative flow for SAML login and logout (disabled by default). If enabled, prevents redirects to Users Invalid Permissions screen on logins and redirects to the application on logouts. (RPM-1077) <span class="cattag">Application Lifecycle</span>  <span class="cattag">Users</span> </li>
