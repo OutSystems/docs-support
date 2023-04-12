@@ -7,7 +7,6 @@ app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
 ---
 
-
 # Troubleshooting Error Deserializing ViewState - Cannot decrypt the content
 
 ## Introduction to viewstate
