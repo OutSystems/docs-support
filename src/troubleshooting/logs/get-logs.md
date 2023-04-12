@@ -95,7 +95,7 @@ BPT Utils is now installed in your LifeTime environment.
 
 [Click here](java-logs.md) to learn how to get Java Stack specific logs. 
     
-**Platform Service Logs**: The Service logs are the logs for the OutSystems services, such as the Scheduler or the Deployment service. These logs help us understand in more detail what is happening within the OutSystems services actions and logic being run during normal operations, such as running timers, compiling modules or synchronizing environments. [Click here](`https://success.outsystems.com/Support/Troubleshooting/Application_lifecycle/Change_OutSystems_platform_logging_levels_-_OSTrace`) to read more about Platform Logs.
+**Platform Service Logs**: The Service logs are the logs for the OutSystems services, such as the Scheduler or the Deployment service. These logs help us understand in more detail what is happening within the OutSystems services actions and logic being run during normal operations, such as running timers, compiling modules or synchronizing environments. [Click here](change-logging-levels.md) to read more about Platform Logs.
     
 **Database - AWR and ADDM Report**: The AWR and ADDM reports are database reports detailing important information about the performance of the database. 
 
