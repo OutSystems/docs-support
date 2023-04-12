@@ -1,7 +1,7 @@
 ---
 summary: Your provisioning profile expired on <expiration_date>. Upload a new one and retry.
-tags:
-guid: 712417b2-9dfa-4254-b360-3d0ec3a70915
+tags: mabs sig error_code
+guid: f83dcb57-ca29-4b70-9114-37b7d9dcfd05
 locale: en-us
 app_type: mobile apps
 platform-version: o11, odc
@@ -15,7 +15,7 @@ platform-version: o11, odc
 
 ## Cause
 
-This error occurs when the provision profile that you are using is expired.
+This error occurs when the provisioning profile that you are using is expired.
 
 ## Impact
 

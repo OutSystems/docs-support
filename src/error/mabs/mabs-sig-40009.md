@@ -1,6 +1,6 @@
 ---
 summary: Your application identifier (<application_identifier>) and provisioning profile (<provisioning_profile>) don't match. Confirm the information for both of them.
-tags:
+tags: mabs sig error_code
 guid: fb4055dc-0fe4-4c40-a86c-11a5295cda8e
 locale: en-us
 app_type: mobile apps
@@ -15,7 +15,7 @@ platform-version: o11, odc
 
 ## Cause
 
-This error occurs when the pair application identifier and provisioning profile don’t match. This could happen if there’s incorrect information about the application identifier, the provision profile, or both.
+This error occurs when the pair application identifier and provisioning profile don’t match. This could happen if there’s incorrect information about the application identifier, the provisioning profile, or both.
 
 ## Impact
 

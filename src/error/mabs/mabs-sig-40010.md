@@ -1,6 +1,6 @@
 ---
 summary: Your certificate and provisioning profile don't match. Confirm the information for both of them.
-tags:
+tags: mabs sig error_code
 guid: 344fa10a-3f35-41d2-b92c-1430074d69fd
 locale: en-us
 app_type: mobile apps
@@ -11,7 +11,7 @@ platform-version: o11, odc
 
 ## Error message
 
-`Your certificate and provisioning profile don't match. Confirm the information for both of them.`
+`There are no certificates that match the provisioning profile. Make sure you include the desired certificate in the provisioning profile.`
 
 ## Cause
 
