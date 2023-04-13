@@ -8,17 +8,17 @@ platform-version: o11
 
 # MABS 6 Release notes
 
-<div class="info">
+<div class="info" markdown="1">
 
 Check the mobile stack details for each available MABS version in [Mobile Apps Build Service Versions](mabs-versions.md).
+    
 </div>
 
-<div class="info">
+<div class="info" markdown="1">
 
 For common issues and solutions check also [Troubleshooting the Mobile Apps Generation](https://success.outsystems.com/Support/Enterprise_Customers/Troubleshooting/Troubleshooting_the_Mobile_Apps_Generation).
+
 </div>
-
-
 
 ## MABS Version 6.3
 
@@ -79,6 +79,7 @@ For example, if you’re getting an error because the build cannot find the depe
 
 **First release:** 2020-05-20 16:00:00 UTC<br/>
 **Last update:** 2020-10-07 16:00:00 UTC.
+
 </div>
 
 ### What's New
@@ -109,6 +110,7 @@ For example, if you’re getting an error because the build cannot find the depe
 
 **First release:** 2020-02-05 15:00:00 UTC<br/>
 **Last update:** 2020-08-26 14:30:00 UTC.
+
 </div>
 
 ### What's New
@@ -153,6 +155,7 @@ InAppBrowser plugin must be the latest version (2.3.0 or later) to be supported 
 
 **First release:** 2019-09-18 14:00:00 UTC<br/>
 **Last update:** 2020-02-26 14:30:00 UTC.
+
 </div>
 
 MABS 6.0 is an important milestone for all developers who publish on App Store and Play Store. This new MABS version uses Android 10 (API level 29), iOS 13 and iOS WkWebview engine, allowing you to continue to submit your iOS apps to the App Store and your Android apps to the Play store.
