@@ -11,7 +11,7 @@ platform-version: o11
 
 <div class="info" markdown="1">
 
-This article applies to on-premises environments. For OutSystems Cloud, our services manage the license installation automatically, updating it or renewing it as necessary.
+This article applies to on-premises environments. For OutSystems Cloud, the services team manages the license installation automatically, updating it or renewing it as necessary.
 
 </div>
 
@@ -21,18 +21,18 @@ Follow these steps to install the license file on your environment:
 
 2. Click the '**Administration**' tab, and navigate to the '**Licensing**' submenu;
 
-3. Use the '**Backup License**' link to download the license currently installed. It's always a good idea to keep backups;
+3. Use the '**Backup License**' (1) link to download the license currently installed. It's always a good idea to keep backups;
 
-4. Click the '**Upload New License**' link, to install the new license.
+4. Click the '**Upload New License**' (2) link, to install the new license.
 
-![](images/howto-install-license_0.png)
+![](images/licensing-update-ss.png)
 
 <div class="info" markdown="1">
 
 License files are bound to a given environment / Serial Number and if you try to install them on other environments you'll get an error.
-</div>
 
-If that happens confirm that you downloaded the right file by comparing the Serial Numbers shown in Service Center and Licensing Portal.
+If that happens you should confirm that you have the correct file by comparing the Serial Numbers shown in Service Center and Licensing Portal.
+</div>
 
 ## More information
 
