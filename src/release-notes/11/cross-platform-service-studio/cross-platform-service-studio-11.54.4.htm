@@ -15,6 +15,9 @@ pageprivacy: public
 <h3 id="bug_fixing_cross-platform_service_studio_11.54.4" >Bug Fixing</h3>
 <ul>
 <li>Fixed an issue that caused the Aggregates created using natural language to set the Max Records property to 1 when the Aggregate result was not a single record. (RAID-1595)</li>
+<li>Fixed an issue that could cause hangs when debugging applications with the "Break On All Exceptions" enabled. (RDOIAT-1047)</li>
+<li>Fixed an issue that happened when comparing with another version or file, which would not respond to navigation double clicks in the merge editor differences trees.  (RDOIAT-1058)</li>
+<li>Fixed an issue that caused a failure connecting to Chrome when starting Debugger when another Chrome instance was left open from a previous debug session. (RDOIAT-1060)</li>
 <li>Fixed an issue that caused consumer modules to inappropriately refresh when clicking “Refresh all open Consumers” from the producer’s Module menu. This occurred when a producer module changed while a consumer deployed to a different environment was opened.  (RDOIBT-1247)</li>
 <li>Fixed an issue when importing SOAP Web services containing document-type declarations (DTDs) (RPM-2866) <span class="cattag">Service Studio</span>  <span class="cattag">Logic</span> </li>
 <li>Fixed an issue that caused the debugger to fail to connect to Android devices when the device has the Android System WebView version 111.0.5563.15 or above. (RPM-3870) <span class="cattag">Service Studio</span>  <span class="cattag">Debugger</span> </li>
