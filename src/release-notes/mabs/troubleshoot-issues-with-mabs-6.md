@@ -10,7 +10,9 @@ platform-version: o11
 # MABS 6 breaking changes and known limitations
 
 <div class="info" markdown="1">
+
 For common issues and solutions, check also <a href="https://success.outsystems.com/Support/Enterprise_Customers/Troubleshooting/Troubleshooting_the_Mobile_Apps_Generation" title="Troubleshooting article for Mobile Building Service">Troubleshooting the Mobile Apps Generation</a>.
+
 </div>
 
 After you start building your apps with MABS 6, you may experience some breaking changes and known limitations. Check this document for more information about the issues and how to fix them.
