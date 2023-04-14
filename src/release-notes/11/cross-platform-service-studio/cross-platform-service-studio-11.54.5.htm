@@ -11,12 +11,12 @@ pageprivacy: semi-private
 <h3 id="new_in_cross-platform_service_studio_11.54.5" >New in Cross-platform Service Studio 11.54.5</h3>
 <ul>
 <li>Suggestions for inline records' fields will now use name matching to narrow down available options. (RAID-1899)</li>
+<li>Now, applying Undo(s) to rollback changes on top of the published version(s) will not generate conflicts and instead consider the new version as an evolution of the published one. (RDOIAT-1042)</li>
 <li>Now, output's default values are parsed correctly when consuming a REST service through a Swagger file. (RO11IT-359)</li>
 </ul>
 <h3 id="bug_fixing_cross-platform_service_studio_11.54.5" >Bug Fixing</h3>
 <ul>
 <li>Fixed an issue that could cause a crash when merging translations. (RDOIAT-1011)</li>
-<li>Fixed an issue that could cause hangs when debugging applications with the "Break On All Exceptions" enabled. (RDOIAT-1047)</li>
 <li>Fixed a crash when copying multiple entities from an Entity Diagram to another one that already had some of those entities. (RDOIBT-1243)</li>
 <li>Fixed an issue that was preventing the copy/paste shortcuts to work in the aggregates' natural language input. (RDOIBT-1249)</li>
 <li>Fixed an issue in the Debugger that caused input parameter variables to not be presented as 'In Use' variables when debugging Action nodes.
