@@ -151,5 +151,7 @@ OutSystems is aware of this behavior and intends to fix it in the future. Until 
 In case none of the previous cases helps to mitigate the errors and they are having a considerable impact on end-users, one can disable Encrypt ViewState feature in the Factory Configuration.
 
 <div class="warning" markdown="1">
+
 This should only be considered as a temporary mitigation strategy and applied in situations with a high impact. Consider that unencrypted view state information (including sensitive information) can be intercepted and read by an attacker.
+
 </div>
