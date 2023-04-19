@@ -15,7 +15,7 @@ This procedure applies only to self-managed environments.
 
 </div>
 
-During the application development life cycle there is often the need to use real data to properly test the applications. A common use case is using the data from the Production environment in a Pre-Production environment, ensuring the two environments have the same applications, data, and other resources for adequate testing.
+During the application development lifecycle there is often the need to use real data to properly test the applications. A common use case is using the data from the Production environment in a Pre-Production environment, ensuring the two environments have the same applications, data, and other resources for adequate testing.
 
 This guide describes how to clone an environment database to create an environment where you can test your applications.
 
