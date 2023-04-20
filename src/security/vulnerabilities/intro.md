@@ -69,7 +69,7 @@ After analysis, if the findings are related with the OutSystems platform, please
 
 #### How to submit a vulnerability report
 
-To submit a vulnerability report, use [Support Portal](https://www.outsystems.com/supportportal).
+To submit a vulnerability report, use [Support Portal](https://www.outsystems.com/supportportal) by raising an incident.
 
 Vulnerability reports must contain the following information:
 
@@ -87,7 +87,7 @@ Vulnerability reports must contain the following information:
     1. Go to https://[URL]/users?uid=2
     1. Confirm you’re seeing the details of another user.
 
-If this information isn't consistently provided, the support case may ultimately be closed.
+If this information isn't consistently provided, the support case may ultimately be closed. There should be only one vulnerability being addressed per incident in order to facilitate the communication and the proper investigation. 
 
 Reports will be handled within the [scope and SLA's](https://success.outsystems.com/Support/Enterprise_Customers/OutSystems_Support/Support_terms_and_service_level_agreements_(SLA)_of_the_OutSystems_software) of customers' and partners' contracts.
 
