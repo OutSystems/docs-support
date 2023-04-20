@@ -27,6 +27,6 @@ The ODC Ready badge is assigned by an automated process that is executed weekly 
 For the badge, you must have fulfilled the following conditions:
 1. You must have completed the online training course [**O11 to OutSytems Developer Cloud**](https://www.outsystems.com/training/courses/206/from-o11-to-project-neo/).
 2. You must have at least two apps to QA on ODC (*Vacations.oml and *Directory.oml).
-3. You must not change the default name's app (EX: UserName1111_Vacations e UserName1111_Directory)
+3. You must not change the default name's app (For example, UserName1111_Vacations or UserName1111_Directory)
 
 In case you have any further questions about the badge assignment, please feel free to open a [support case](https://www.outsystems.com/SPP_Ticket_UI/open-support-case).
