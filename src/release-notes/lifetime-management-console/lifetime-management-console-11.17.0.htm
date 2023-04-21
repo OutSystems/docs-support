@@ -1,0 +1,37 @@
+---
+isautopublish: true
+pageprivacy: public
+---
+
+<h2 id="lifetime_management_console_11.17.0" >LifeTime Management Console 11.17.0</h2>
+<div class="info"><p>Released on Apr 21, 2023</p></div>
+
+
+<style>.cattag {background: #f4f2ff; color: #6a6581; padding: 4px 10px;}</style>
+<h3 id="new_in_lifetime_management_console_11.17.0" >New in LifeTime Management Console 11.17.0</h3>
+<ul>
+<li>Due to poor adoption, the 9 dot menu with navigation links for documentation and other product parts, present in the upper right corner of all screens, has been removed from LifeTime. (R11CT-2031)</li>
+<li>The Built-in authentication for IT users now has a password complexity rule to ensure stronger security against potential hackers. The rule enforces a 12-character minimum length and at least one number, uppercase and lowercase letter. Having no effect on old passwords, the rule will apply when creating or updating passwords for IT users, enhancing the platform's overall security. (RDOI-236)</li>
+</ul>
+<h3 id="bug_fixing_lifetime_management_console_11.17.0" >Bug Fixing</h3>
+<ul>
+<li>Fixed an issue that caused deleted modules to be tagged as incompatible during staging. 
+This occurred when the producer module was changed and would be incompatible with the consumer module in the target environment.
+Now, consumer modules that will be deleted during the staging no longer cause incompatibility errors with the producer module. (RPM-1186) <span class="cattag">Application Lifecycle</span> </li>
+<li>Fixed an issue with the device library, which would identify MS Edge as Chrome in LifeTimeAnalytics.
+This occurred for every user request using MS Edge.
+Now, Edge usage is displayed correctly. (RPM-2157) <span class="cattag">Application Lifecycle</span>  <span class="cattag">LifeTime</span> </li>
+<li>Improved validation of service account user permissions during a sync. During the synchronization of the applications with the environments, this user was having a problem with permissions being denied, affecting the synchronization of the applications in some scenarios. (RPM-2390) <span class="cattag">Application Lifecycle</span>  <span class="cattag">LifeTime</span> </li>
+<li>Fixed an issue that caused performance problems in infrastructures with limited network connectivity when fetching the links present in the upper right corner of all screens in LifeTime. (RPM-2797) <span class="cattag">Application Lifecycle</span>  <span class="cattag">LifeTime</span> </li>
+<li>Fixed a bug that caused special characters to appear in a feedback message.
+This occurred when changing an IT User default role. (RPM-3162) <span class="cattag">Application Lifecycle</span>  <span class="cattag">LifeTime</span> </li>
+<li>Fixed a bug that did not apply entity settings defined during Staging Settings when the extension with an external database was deployed to the target environment the first time. (RPM-3542) <span class="cattag">Application Lifecycle</span> </li>
+<li>Fixed an issue that triggered sync processes for unregistered environments and caused log pollution with "Invalid username or password" error. (RPM-3727) <span class="cattag">Application Lifecycle</span>  <span class="cattag">LifeTime</span> </li>
+<li>Now, when modules are identified to delete in a Staging, the warning message includes information about the consumer modules that may have runtime errors in the target environment, and user action is required to proceed and unlock the "Deploy Now" button. (RPM-3746) <span class="cattag">Application Lifecycle</span>  <span class="cattag">LifeTime</span> </li>
+<li>Fixed an issue on synchronization that could lead to applications not being visible for the LifeTime users. (RPM-3775) <span class="cattag">Application Lifecycle</span>  <span class="cattag">LifeTime</span> </li>
+<li>Fixed an issue on long running staging plans that would lead to client error due to the size of viewstate. Now a full page load is issued from time to time following the same approach of Applications list page when open. (RPM-639) <span class="cattag">Application Lifecycle</span>  <span class="cattag">LifeTime</span> </li>
+<li>Fixed an issue that caused the Authentication Settings screen to crash when opened.
+This occurred when the IIS of one of the environments connected to LifeTime was down.
+Now, the screen will open and show a feedback message warning that a problem occurred while opening the screen. (RPM-692) <span class="cattag">Application Lifecycle</span>  <span class="cattag">LifeTime</span> </li>
+</ul>
+
