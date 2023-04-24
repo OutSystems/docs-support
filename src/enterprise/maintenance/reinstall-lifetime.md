@@ -58,15 +58,13 @@ To reinstall LifeTime in a new dedicated environment the following requirements 
 
 * The migration of any **LifeTime plugin** you might have is **not in the scope of this operation**. Make sure to backup and remove any LifeTime plugin from the original LifeTime environment before you start this operation. You can install your LifeTime plugins again after LifeTime reinstall operation is completed.
 
-* From version OutSystems 11 onwards, **LifeTime doesn't support farm configuration**. You must install a single server with both Deployment Controller and Server roles.
-
 ## Reinstall LifeTime in a dedicated environment
 
 ### Step 1. Prepare a new dedicated environment for LifeTime
 
 1. Download the latest [LifeTime Management Console binaries](https://www.outsystems.com/goto/lifetime-installer) from the downloads area.
 
-1. Follow [LifeTime's installation checklist](https://www.outsystems.com/goto/checklist-lifetime) to install LifeTime in a new dedicated environment. As LifeTime **doesn't support farm configuration**, you must select the combination "Deployment Controller + Server" in the checklist to install a single server with both roles.
+1. Follow [LifeTime's installation checklist](https://www.outsystems.com/goto/checklist-lifetime) to install LifeTime in a new dedicated environment. 
 
 1. Get a [license file](https://www.outsystems.com/licensing) for the new LifeTime dedicated environment and apply the license in the new environment.
 
