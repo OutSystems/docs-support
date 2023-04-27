@@ -707,6 +707,25 @@ In case you can't use any of the above fixes, do the following:
 
 **Fix**: Change your logic to check for the value of the `UserExists` parameter instead of expecting for an exception to be thrown as the evidence that a user doesn't exist in the Active Directory.
 
+3\. <a id="bc-11180-3"></a>
+
+**Issue**: When using Active Directory authentication, OutSystems only supports configuring a default domain that ensures all traversed paths between domains are bidirectional in terms of trust.  
+
+The Active Directory APIs used by the Platform require all traversed paths between domains during the search process to be bidirectional in terms of trust between said domains. If this is not possible, all the synchronization and access to users' details from the external system are unavailable. Some of the issues of using  a default domain with restricted access are: 
+
+* Users deactivated in the external system will still be active on the Platform.
+
+* Metadata changed in the external system will not be synced to the Platform.
+
+From Platform Server 11.18.0, users get errors when using this unsupported setup.
+
+**Runtime**: Traditional web, Reactive web, Mobile
+
+**Rationale**: Using Active Directory authentication with a default domain with restricted access has always been problematic. However, it would malfunction silently. From version 11.18.0, users will get errors when using this setup.
+
+**Fix**: Configure the default domain in your Active Directory infrastructure with a domain that ensures all traversed paths between domains are bidirectional in terms of trust.  
+
+If this is not possible, you have to upgrade to Platform Server 11.21.0  or above and enable the `BypassADUsersSynchronization` site property in the Users module. Enabling this site property will avoid getting errors, but won't fix the issues of using a default domain with restricted access.
 
 ### Introduced in Platform Server 11.19.0 { #bc-11190-1 }
 
