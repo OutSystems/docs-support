@@ -16,8 +16,10 @@ pageprivacy: public
 <ul>
 <li>Fixed an issue that caused Identifier attributes in Inline Records to show suggestions that didn’t correspond to the desired type and not show expected suggestions, such as ‘NullIdentifier()’. This occurred because Identifier typed attributes were using their basic type rather than their actual type. Reported by <a href="https://www.outsystems.com/profile/zbx7fxyfxj/">Kilian Hekhuis</a>. (RAID-1871)</li>
 <li>Fixed issue that caused attribute mappings to not be automatically filled in some scenarios where the attribute names and data types completely match. (RAID-1900)</li>
+<li>Fixed an issue that caused an automatic scroll to the top of the main applications list when clicking in some regions after having scrolled down. (RDOIAT-1056)</li>
 <li>Fixed an issue that happened when comparing with another version or file, which would not respond to navigation double clicks in the merge editor differences trees.  (RDOIAT-1058)</li>
 <li>Fixed an issue that caused a failure connecting to Chrome when starting Debugger when another Chrome instance was left open from a previous debug session. (RDOIAT-1060)</li>
+<li>Fixed an issue that caused ServiceStudio to crash crash when using the Undo/Redo shortcuts and immediately open the Undo/Redo history on the menus in some situations. (RDOIAT-1073)</li>
 <li>Fixed an issue that caused a misleading warning to show up during the installation of Forge components, also requiring the user to do a forced installation, in scenarios in which the module dependencies had only optional differences from the one in the user environment. (RDOIBT-1259)</li>
 </ul>
 
