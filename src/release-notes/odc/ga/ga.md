@@ -12,7 +12,6 @@ platform-version: odc
 <h2 id="outsystems_developer_cloud_2023-03-09" >OutSystems Developer Cloud 2023-03-09</h2>
 <div class="info"><p>Released on Mar 09, 2023</p></div>
 
-
 <style>.cattag {background: #f4f2ff; color: #6a6581; padding: 4px 10px;}</style>
 <h3 id="bug_fixing_outsystems_developer_cloud_2023-03-09" >Bug Fixing</h3>
 <ul>
