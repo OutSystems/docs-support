@@ -62,25 +62,7 @@ In **farm environments**, start by executing the steps below in the **deployment
 
 </div>
 
-#### For OutSystems 10
-
-In each application server, execute the following steps:
-
-1. Open the Configuration Tool.
-
-1. Confirm the database connection details in **Database** and  tabs, and change them if necessary.
-
-1. Click **Apply and Exit**.
-
-1. When prompted to run Service Center installation, answer **No**.
-
-1. When prompted to restart OutSystems Services, answer **Yes**.
-
-1. Start IIS and ensure all OutSystems Services are running.
-
-#### For OutSystems 11
-
-In each application server, execute the following steps:
+In each application server (servers with Front-End or Deployment Controller roles), execute the following steps:
 
 1. Open the Configuration Tool.
 
@@ -96,9 +78,12 @@ In each application server, execute the following steps:
 
 1. Ensure all OutSystems Services are running.
 
-1. Create a solution with all the modules and click [**Apply settings**](https://success.outsystems.com/Support/Enterprise_Customers/Maintenance_and_Operations/Applying_Configurations_in_Service_Center#Apply_Pending_Settings_to_a_Set_of_Modules).
+After applying the configurations to all servers:
+1. Access Service Center > Factory > Solutions and create a solution with all modules. Fore more details on how to achieve this, check the [Creating and using an All Components solution](https://success.outsystems.com/documentation/how_to_guides/devops/creating_and_using_an_all_components_solution/) article.
 
-1. If there is a warning to republish the modules, publish the solution by clicking **Publish** for the **Current Running Version**.
+1. [Apply settings](https://success.outsystems.com/Support/Enterprise_Customers/Maintenance_and_Operations/Applying_Configurations_in_Service_Center#Apply_Pending_Settings_to_a_Set_of_Modules) to all modules of the solution.
+
+1. If there is a warning to republish the modules, publish the solution by clicking Publish for the Current Running Version.
 
 
 ### Step 3. Decommission the old database server 
