@@ -79,16 +79,19 @@ Below are three examples:
 * **APIProvider**: its library is in side the running folder for APIProvider, inside **bin**:
 
 ![](images/library-hell_1.png)
+
 Image 2: APIProvider library in the module's IIS VDir / Java WAR
 
 * **BrokerLogic**: in a consumer, producer libraries are inside a **bin2** folder. Here you can see that the libraries for **APIProvider** and **DataLayer** , the producers for **BrokerLogic**:
 
 ![](images/library-hell_2.png)
+
 Image 3: Producer modules' libraries in BrokerLogic module's IIS VDir / Java WAR
 
 * **UI_Public**: again in the **bin2** folder; in this one, all the libraries are there: for **APIProvider,** **DataLayer**,  **BrokerLogic** and **Purchasing**:
 
 ![](images/library-hell_3.png)
+
 Image 4: Producer modules' libraries in UI_Public module's IIS VDir / Java WAR
 
 In conclusion: for any module in the system, libraries for it can be found:
@@ -161,6 +164,62 @@ But in more complex reference scenarios, this may be extremely complex or even i
  
 ## How to solve a producer library inconsistency?
 
+# What is a "DLL Hell"?
+
+A "DLL Hell" scenario is Whenever you have shared DLLs that use different versions of the same library. This can be easy to identify when we only have two or three libraries, but if the number of libraries gets bigger it can turn into  a literall "hell".
+
+# When does this happen in OutSystems?
+
+Since we are talking about shared DLLs this usually happens when we are dealing with .NET extensions. Say an application uses multiple AWS services, like DynamoDB and S3 but both of those extensions use a different version of the AWS SDK, for example.
+
+# How can I identify a DLL Hell?
+
+While the symptoms can be triggered by a different root cause, usually the appearance of an error to end users or logged in Service Center with content similar to the ones below is a good starting point:
+
+``Could not load file or assembly 'Namespace, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. The system cannot find the file specified.``
+
+``Could not load type 'Microsoft.IdentityModel.Tokens.TokenHandler' from assembly 'Microsoft.IdentityModel.Tokens, Version=5.2.2.0, Culture=neutral, PublicKeyToken=885c28607f98e604 ``
+
+# Troubleshooting Steps
+
+1. Check dependencies
+- Look for the producers of the app where the error is happening
+- If you have outdated dependencies, refresh them
+
+2. Look for producers that are .NET extensions
+- Get the list of producers that are .NET extensions
+- Prioritize the ones that might have SDKs/DLLs in common. A few examples:
+
+    AWS SDK: for AWS services, this can happen if you use AWS services that are Forge components made by different owners
+
+    Newtonsoft: for JSON handling, this can happen because the OutSystems automatically adds a version of this DLL in .NET extensions
+
+    Other .NET extensions that have similar use cases or are using the same provider: AWS, Google or Microsoft services, expanding Platform capabilities through .NET extensions (JSON, Lists, …)
+
+3. Open similar extensions
+- Check if there’s the same DLL being used by those extensions
+    Integration Studio: Resources pane
+    Visual Studio: References tree in the Solution Explorer pane
+- Check the version of each DLL
+    You can find all DLLs currently in use inside the platform folder, within the repository folder:
+    Or alternatively:
+1. Open the extension in Integration Studio
+2. In the Resources tab, right-click the folder where the conflicting DLL is and select Open
+3. Right-click the DLL file and select Properties
+4. In the Details tab, check the File version value
+
+4. Update versions
+- If one of the extensions is from a system component, you should keep the DLL version from that component as the base from now on. 
+- Check differences between each version and understand which one to use
+- After choosing the right version, update other extensions to the chosen version
+    - If the DLL was added using NuGet you can just open the package manager, go to the Installed tab and update to the desired version
+    - If not, copy the chosen DLL to the same folder in other extensions and publish the extension
+
+5. Publish all consumers of the changed extensions, 
+- If all other steps failed, publishing an all content solution with full compilation enabled, to ensure each module and extension is recompiled.
+
+-----------------------------------------From a Support Perspective, belive this section is too generic and does not offer much help-----------------
+
 To solve producer library inconsistencies, the use of "solution packs" is required.
 
 Publishing a "solution pack" publishes all the involved modules (modules and Extensions) in an atomic operation: all published modules get exactly the same versions of all libraries being deployed.
@@ -172,6 +231,8 @@ Solution packs are the technical mechanism used for:
 - Application publish of Forge components or apps downloaded in Service Center (via OAP packages)
 
 - LifeTime deployments (which uses OSP files underneath).
+
+----------------------------------------------------------End of section--------------------------------------------------------------------------
 
 ## Dealing with frequent changes to "core producers"
 
