@@ -80,7 +80,7 @@ If there is no warning message in Step 4 or if the warning message is displayed 
 
 **Environment is not managed by LifeTime**
 
-If LifeTime isn't installed in your infrastructure, unblocking an user is done in Service Center.
+If LifeTime isn't installed in your infrastructure, use Service Center to unblock an user.
 
 1. Login to Service Center;
 
