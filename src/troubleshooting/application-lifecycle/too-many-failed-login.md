@@ -115,15 +115,15 @@ If there is no warning message in Step 4, this probably means several users unsu
 
 Should the administrator not be able to solve the issue, by accessing the Management Consoles, please contact OutSystems’ Support.
 
-### Unblock end users (Application Users)
+### Unblock end users (Users application)
 
-If this issue is preventing the end user from logging in one of your applications, the situation must be handled in Users Management console (Application Users) by an administrator (requires Users Manager role). Otherwise, the end user should wait for the indicated period.
+If this issue is preventing the end user from logging in one of your applications, the situation must be handled in Users Management console ([Users application](https://success.outsystems.com/documentation/11/developing_an_application/secure_the_application/end_users/access_the_users_app/)) by an administrator (requires UserManager (Users) role). Otherwise, the end user should wait for the indicated period.
 
 The following steps must be executed:
 
-1. Login to Users;
+1. **Login** int the Users application;
 
-2. Click on Users;
+2. **Click** on Users;
 
 3. Go the User’s detail page;
 
@@ -132,7 +132,7 @@ The following steps must be executed:
 ![](images/too-many-failed-login_7.png)
  
 
-5. By clicking on the "See details" link, the administrator will be redirected to an information table, where he will be able to unblock the user on his current address, by pressing an “Unblock” link:
+5. By clicking on the **See details** link, the administrator will be redirected to an information table, where he will be able to unblock the user on his current address, by pressing an “Unblock” link:
 
 ![](images/too-many-failed-login_8.png)
  
@@ -141,9 +141,9 @@ The following steps must be executed:
 
 If there is no warning message, this probably means several users unsuccessfully tried to login from a single address, which led to this IP address being blocked by the platform. If this is the case:
 
-1. Click on Users;
+1. **Click** on Users;
 
-2. On the right panel, click on the "Blocked Addresses" link:
+2. On the right panel, **click** on the **Blocked Addresses** link:
 
 ![](images/too-many-failed-login_9.png)
  
@@ -158,7 +158,4 @@ If there is no warning message, this probably means several users unsuccessfully
 Should the administrator not be able to solve the issue, by accessing the Management Consoles, please contact OutSystems [by submitting a new case at OutSystems Support Portal](https://www.outsystems.com/goto/submit-support-case).
 
 For more details on the Users scope, check our documentation regarding [IT users](https://success.outsystems.com/documentation/11/managing_the_applications_lifecycle/manage_it_users/) and [end users](https://success.outsystems.com/documentation/11/developing_an_application/secure_the_application/end_users/configure_the_administrator_user_of_the_users_app/) management.
-
-
-
 
