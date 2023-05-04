@@ -6,7 +6,7 @@ app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
 ---
 
-# Too many failed login attempts - causes and resolution
+# Too many failed login attempts - causes and resolution for IT users and end users
 
 ## Symptoms
 
@@ -32,9 +32,9 @@ You can check the conditions that trigger the brute force protection [here](http
 
 ## Resolution
 
-### Unblock users in management consoles
+### Unblock IT users in management consoles
 
-If this issue is preventing the user from logging in a management console (LifeTime or Service Center) and the user requires immediate access, the situation must be handled by a administrator. Otherwise, the user should wait the indicated period.
+If this issue is preventing the IT user from logging in a management console (LifeTime or Service Center) and the IT user requires immediate access, the situation must be handled by an administrator. Otherwise, the user should wait the indicated period.
 
 **LifeTime managed environment**
 
@@ -80,7 +80,7 @@ If there is no warning message in Step 4 or if the warning message is displayed 
 
 **Environment is not managed by LifeTime**
 
-If LifeTime isn't installed in your infrastructure, unblocking user is done in Service Center.
+If LifeTime isn't installed in your infrastructure, use Service Center to unblock an user.
 
 1. Login to Service Center;
 
@@ -115,15 +115,15 @@ If there is no warning message in Step 4, this probably means several users unsu
 
 Should the administrator not be able to solve the issue, by accessing the Management Consoles, please contact OutSystems’ Support.
 
-### Unblock application users
+### Unblock end users (Users application)
 
-If this issue is preventing users from logging in one of your applications, the situation must be handled in Users Management console (Users) by a administrator (requires Users Manager role). Otherwise, the user should wait for the indicated period.
+If this issue is preventing the end user from logging in one of your applications, the situation must be handled in Users Management console ([Users application](https://success.outsystems.com/documentation/11/developing_an_application/secure_the_application/end_users/access_the_users_app/)) by an administrator (requires UserManager (Users) role). Otherwise, the end user should wait for the indicated period.
 
 The following steps must be executed:
 
-1. Login to Users;
+1. **Login** int the Users application;
 
-2. Click on Users;
+2. **Click** on Users;
 
 3. Go the User’s detail page;
 
@@ -132,7 +132,7 @@ The following steps must be executed:
 ![](images/too-many-failed-login_7.png)
  
 
-5. By clicking on the "See details" link, the administrator will be redirected to an information table, where he will be able to unblock the user on his current address, by pressing an “Unblock” link:
+5. By clicking on the **See details** link, the administrator will be redirected to an information table, where he will be able to unblock the user on his current address, by pressing an “Unblock” link:
 
 ![](images/too-many-failed-login_8.png)
  
@@ -141,9 +141,9 @@ The following steps must be executed:
 
 If there is no warning message, this probably means several users unsuccessfully tried to login from a single address, which led to this IP address being blocked by the platform. If this is the case:
 
-1. Click on Users;
+1. **Click** on Users;
 
-2. On the right panel, click on the "Blocked Addresses" link:
+2. On the right panel, **click** on the **Blocked Addresses** link:
 
 ![](images/too-many-failed-login_9.png)
  
@@ -155,7 +155,7 @@ If there is no warning message, this probably means several users unsuccessfully
 
 4. After clicking the appropriate link, the line is cleared and a success feedback message is presented to the administrator, indicating that the address is unblocked
 
-Should the administrator not be able to solve the issue, by accessing the Management Consoles, please contact OutSystems’ Support.
+Should the administrator not be able to solve the issue, by accessing the Management Consoles, please contact OutSystems [by submitting a new case at OutSystems Support Portal](https://www.outsystems.com/goto/submit-support-case).
 
- 
+For more details on the Users scope, check our documentation regarding [IT users](https://success.outsystems.com/documentation/11/managing_the_applications_lifecycle/manage_it_users/) and [end users](https://success.outsystems.com/documentation/11/developing_an_application/secure_the_application/end_users/configure_the_administrator_user_of_the_users_app/) management.
 
