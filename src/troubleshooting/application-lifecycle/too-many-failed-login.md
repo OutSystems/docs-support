@@ -34,7 +34,7 @@ You can check the conditions that trigger the brute force protection [here](http
 
 ### Unblock IT users in management consoles
 
-If this issue is preventing the IT user from logging in a management console (LifeTime or Service Center) and the IT user requires immediate access, the situation must be handled by an administrator. Otherwise, the user should wait for the indicated period.
+If this issue is preventing the IT user from logging in a management console (LifeTime or Service Center) and the IT user requires immediate access, the situation must be handled by an administrator. Otherwise, the user should wait the indicated period.
 
 **LifeTime managed environment**
 
