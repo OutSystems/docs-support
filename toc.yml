@@ -151,7 +151,6 @@
         - href: troubleshooting/application-runtime/oracle-open-cursors.md
 
 
-
     # Infrastructure Management
     - href: troubleshooting/infrastructure-management/intro.md
     - topics:
@@ -164,6 +163,8 @@
         - href: troubleshooting/infrastructure-management/restart-cloud/restart-cloud.md
         - href: troubleshooting/infrastructure-management/slower-queries.md
         - href: troubleshooting/infrastructure-management/deploy-all-workaround-11180.md
+        - href: troubleshooting/infrastructure-management/change-db-endpoints.md
+
 
 # Security
 - href: security/intro.md
