@@ -6,7 +6,7 @@ app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
 ---
 
-# Too many failed login attempts - causes and resolution for IT users and End users
+# Too many failed login attempts - causes and resolution for IT users and end users
 
 ## Symptoms
 
