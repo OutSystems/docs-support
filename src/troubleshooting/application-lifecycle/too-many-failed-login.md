@@ -6,7 +6,7 @@ app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
 ---
 
-# Too many failed login attempts - causes and resolution
+# Too many failed login attempts - causes and resolution for IT users and End users
 
 ## Symptoms
 
@@ -32,9 +32,9 @@ You can check the conditions that trigger the brute force protection [here](http
 
 ## Resolution
 
-### Unblock users in management consoles
+### Unblock IT users in management consoles
 
-If this issue is preventing the user from logging in a management console (LifeTime or Service Center) and the user requires immediate access, the situation must be handled by a administrator. Otherwise, the user should wait the indicated period.
+If this issue is preventing the IT user from logging in a management console (LifeTime or Service Center) and the IT user requires immediate access, the situation must be handled by an administrator. Otherwise, the user should wait for the indicated period.
 
 **LifeTime managed environment**
 
@@ -80,7 +80,7 @@ If there is no warning message in Step 4 or if the warning message is displayed 
 
 **Environment is not managed by LifeTime**
 
-If LifeTime isn't installed in your infrastructure, unblocking user is done in Service Center.
+If LifeTime isn't installed in your infrastructure, unblocking an user is done in Service Center.
 
 1. Login to Service Center;
 
@@ -115,9 +115,9 @@ If there is no warning message in Step 4, this probably means several users unsu
 
 Should the administrator not be able to solve the issue, by accessing the Management Consoles, please contact OutSystems’ Support.
 
-### Unblock application users
+### Unblock end users (Application Users)
 
-If this issue is preventing users from logging in one of your applications, the situation must be handled in Users Management console (Users) by a administrator (requires Users Manager role). Otherwise, the user should wait for the indicated period.
+If this issue is preventing the end user from logging in one of your applications, the situation must be handled in Users Management console (Application Users) by an administrator (requires Users Manager role). Otherwise, the end user should wait for the indicated period.
 
 The following steps must be executed:
 
@@ -155,7 +155,10 @@ If there is no warning message, this probably means several users unsuccessfully
 
 4. After clicking the appropriate link, the line is cleared and a success feedback message is presented to the administrator, indicating that the address is unblocked
 
-Should the administrator not be able to solve the issue, by accessing the Management Consoles, please contact OutSystems’ Support.
+Should the administrator not be able to solve the issue, by accessing the Management Consoles, please contact OutSystems [by submitting a new case at OutSystems Support Portal](https://www.outsystems.com/goto/submit-support-case).
 
- 
+For more details on the Users scope, check our documentation regarding [IT users](https://success.outsystems.com/documentation/11/managing_the_applications_lifecycle/manage_it_users/) and [end users](https://success.outsystems.com/documentation/11/developing_an_application/secure_the_application/end_users/configure_the_administrator_user_of_the_users_app/) management.
+
+
+
 
