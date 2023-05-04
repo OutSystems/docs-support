@@ -80,7 +80,7 @@ Set the correct permissions to create the configuration folder.
 
     ![Choose apply to enclosed items setting](images/encloseditems-mac.png)
 
-1. Repeat steps a-e for the Directory folder `~/.local/share/OutSystems`.
+1. Repeat steps a-c for the Directory folder `~/.local/share/OutSystems`.
 
 1. Open the cross-platform Service Studio again.
 
