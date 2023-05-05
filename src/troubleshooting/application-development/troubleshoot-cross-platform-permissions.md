@@ -1,5 +1,6 @@
 ---
-summary: Troubleshooting 
+summary: Resolve an issue where Service Studio doesn't load properly and has a warning about missing permissions in the configuration folder.
+
 locale: en-us
 guid: 8EE47E91-1685-47CA-8A64-50C4A5CD8150
 app_type: traditional web apps, mobile apps, reactive web apps
@@ -10,7 +11,7 @@ platform-version: o11
 
 ## Symptoms
 
-Cross-platform Service Studio does not load properly. The splash screen doesn’t disappear and a dialog is shown to warn users about missing permissions in the configuration folder.
+Cross-platform Service Studio doesn't load properly. The splash screen doesn’t disappear and a dialog is shown to warn users about missing permissions in the configuration folder.
 
 ![Cannot launch cross=platform service studio](images/permission-error-ss.png)
 
@@ -80,7 +81,7 @@ Set the correct permissions to create the configuration folder.
 
     ![Choose apply to enclosed items setting](images/encloseditems-mac.png)
 
-1. Repeat steps a-e for the Directory folder `~/.local/share/OutSystems`.
+1. Repeat steps a-c for the Directory folder `~/.local/share/OutSystems`.
 
 1. Open the cross-platform Service Studio again.
 
