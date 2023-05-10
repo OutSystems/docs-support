@@ -35,7 +35,7 @@ If you were looking for a different use case, please check the other documented 
 ## Procedure
 This document guides you through the necessary steps to change the database endpoints and make those effective on the OutSystems applications.
 
-<div class= “warning” markdown =”1”>
+<div class=“warning” markdown=”1”>
 
 This procedure assumes that both old/current database address and new address are accessible. Otherwise, the procedure will cause downtime from the moment the old/current database address is unavailable or not responding until the procedure finishes.
 
