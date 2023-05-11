@@ -80,11 +80,16 @@ This version can run your apps on:
     </tbody>
 </table>
 
+
+# Deprecated
+
+You can select the version in the configuration and build apps with it, but you get limited support. Limited support means that you get advice and workarounds through the support requests, but there are no bug fixes for the version.
+
 <div class="info" markdown="1">
 
 ## **Version 8.1** - [See Release Notes](https://success.outsystems.com/Support/Release_Notes/Mobile_Apps_Build_Service_Versions/MABS_8_Release_notes#mabs-version-8.1)<br/>
-Released on April 6 2022 <br/>
-To be deprecated on May 11 2023
+Released on April 6 2022 <br/>Deprecated on May 11 2023<br/>
+Obsolete date to be announced
 
 </div>
 
@@ -130,10 +135,6 @@ This version can run your apps on:
         </tr>
     </tbody>
 </table>
-
-# Deprecated
-
-You can select the version in the configuration and build apps with it, but you get limited support. Limited support means that you get advice and workarounds through the support requests, but there are no bug fixes for the version.
 
 <div class="info" markdown="1">
 
