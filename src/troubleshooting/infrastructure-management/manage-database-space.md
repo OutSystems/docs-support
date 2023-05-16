@@ -14,6 +14,12 @@ Personal Environments have a database limit of 2GB. The database stores the foll
 
 * **Application data**: The data your apps generate and manipulate. The application data usually increases as your users access your apps.
 
+<div class="info" markdown="1">
+
+If you are [reaching the storage database limit](#check-how-much-database-space-you-have) of your Personal Environment, see [Best practices for a tidy and clean environment](https://success.outsystems.com/Documentation/Best_Practices/Lifecycle/Best_practices_for_a_tidy_and_clean_environment) to learn how to clear database space. 
+
+</div>
+
 ## Check how much database space you have
 
 Go to your Personal Environment at `https://<yourpersonal>.outsystemscloud.com` and navigate to the **Environments** tab.
@@ -32,4 +38,3 @@ Note that these metrics are updated every hour, so they might not represent the 
 
 </div>
 
-To clear database space in your Personal Environment, see [Best practices for a tidy and clean environment](https://success.outsystems.com/Documentation/Best_Practices/Lifecycle/Best_practices_for_a_tidy_and_clean_environment).
