@@ -1,5 +1,5 @@
 ---
-summary: Understand, troubleshoot and resolve the error 'Could not establish trust relationship for the SSL/TLS secure channel' in webservices.
+summary: Understand, troubleshoot and resolve the error 'Could not establish trust relationship for the SSL/TLS secure channel' in web services.
 locale: en-us
 guid: 2a1720f7-5ef5-4e71-b15b-2511b6dc6ab5
 app_type: traditional web apps, mobile apps, reactive web apps
@@ -17,14 +17,14 @@ When **consuming** a web service, you're getting the following error:
 <div class="info" markdown="1">
 
 OutSystems servers must have a valid SSL certificate issued by a public Certificate Authority, as described in [OutSystems system requirements](https://success.outsystems.com/Documentation/11/Setting_Up_OutSystems/OutSystems_system_requirements).
-If you encounter this error while **exposing** a webservice, make sure that your OutSystems servers have that type of certificate.
+If you encounter this error while **exposing** a web service, make sure that your OutSystems servers have that type of certificate.
 </div>
 
 ## Cause
 
-This is caused by an invalid or untrusted certificate on the server that exposes the webservice you're trying to consume.
+This is caused by an invalid or untrusted certificate on the server that exposes the web service you're trying to consume.
 
-It happens often when integrating in non-productive environments, since the certificates installed on those webservers are usually self-signed.
+It happens often when integrating in non-productive environments, since the certificates installed on those web servers are usually self-signed.
 
 ### Identify the cause
 
