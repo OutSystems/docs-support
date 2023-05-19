@@ -8,7 +8,7 @@ platform-version: o11
 
 # Resetting the admin password for IT users and end users
 
-On occasion, you may need to reset the admin password for either IT Users or End users.
+On occasion, while using the default method of authentication in OutSystems, you may need to reset the admin password for either IT users or end users.
 
 To achieve this, you may need to have access to the database to execute a direct update to the OSSYS_USER table. Please remember to be careful, running the database statement incorrectly can destroy other passwords in your system.
 
@@ -28,52 +28,53 @@ OutSystems only accepts requests to reset the password of users with the adminis
 
 ### On-premises
 
-Run the following query on the Platform Server database:
+<div class="warning" markdown="1">
 
-```sql
-UPDATE ossys_user
-SET password = '<hash>'
-WHERE username = 'admin'
-and tenant_id in (SELECT id FROM ossys_tenant WHERE name = 'ServiceCenter');
-```
-
-<div class="info" markdown="1">
-
-Obtain [here](https://globalsupport.outsystemsenterprise.com/HashPassword/) the hash for the password you want to use.
+To reset the admin password for the Users application in an on-premises infrastructure, you need access to the database to execute a direct update to the OSSYS_USER table. Running the database statement incorrectly can destroy other passwords in your system.
 
 </div>
 
-## Resetting the admin password for the Users application
+1. Create [here](https://globalsupport.outsystemsenterprise.com/HashPassword/) the hash with the new password you want to use.
+
+1. Run the following query on the Platform Server database:
+
+        UPDATE ossys_user
+        SET password = '<hash>'
+        WHERE username = 'admin'
+        and tenant_id in (SELECT id FROM ossys_tenant WHERE name = 'ServiceCenter');
+
+## Resetting the admin password for the Users application (end users)
 
 ### Cloud
 
 **For OutSystems 11 Platform Server Release Jul.2019 or later** and **OutSystems 10 Platform Server 10.0.1014.0 or later**
 
-Reset the admin password for the users application using Service Center. Check [here](https://success.outsystems.com/Documentation/11/Developing_an_Application/Secure_the_Application/End_Users/Access_the_Users_application#configure-users-administrator) the instructions to configure the administrator user.
+Reset the admin password for the Users application using Service Center. Check [here](https://success.outsystems.com/Documentation/11/Developing_an_Application/Secure_the_Application/End_Users/Access_the_Users_application#configure-users-administrator) the instructions to access the Users application to then [configure the administrator user](https://success.outsystems.com/documentation/11/developing_an_application/secure_the_application/end_users/configure_the_administrator_user_of_the_users_app/).
 
-**For other versions of OutSystems 11 or OutSystems 10 Platform Server**
+**For older versions of OutSystems 11 or OutSystems 10 Platform Server**
 
-Request the password reset by opening a [new case at OutSystems Support Portal](https://www.outsystems.com/goto/submit-support-case) .
+Request the password reset by opening a [new case at OutSystems Support Portal](https://www.outsystems.com/goto/submit-support-case).
 
 ### On-premises
 
 **For OutSystems 11 Platform Server Release Jul.2019 or later** and **OutSystems 10 Platform Server 10.0.1014.0 or later**
 
-Check [here](https://success.outsystems.com/Documentation/11/Developing_an_Application/Secure_the_Application/End_Users/Access_the_Users_application#configure-users-administrator) the instructions to configure the administrator user.
+Check [here](https://success.outsystems.com/Documentation/11/Developing_an_Application/Secure_the_Application/End_Users/Access_the_Users_application#configure-users-administrator) the instructions to access the Users application to then [configure the administrator user](https://success.outsystems.com/documentation/11/developing_an_application/secure_the_application/end_users/configure_the_administrator_user_of_the_users_app/).
 
-**For other versions of OutSystems 11 or OutSystems 10 Platform Server**
+**For any versions of OutSystems 11 or OutSystems 10 Platform Server**
 
-Run the following query on the Platform Server database:
+<div class="warning" markdown="1">
 
-```sql
-UPDATE ossys_user
-SET password = '<hash>'
-WHERE username = 'admin'
-and tenant_id in (SELECT id FROM ossys_tenant WHERE name = 'users');
-```
-
-<div class="info" markdown="1">
-
-Obtain [here](https://globalsupport.outsystemsenterprise.com/HashPassword/) the hash for the password you want to use.
+To reset the admin password for the Users application in an on-premises infrastructure, you need access to the database to execute a direct update to the OSSYS_USER table. Running the database statement incorrectly can destroy other passwords in your system.
 
 </div>
+
+1. Create [here](https://globalsupport.outsystemsenterprise.com/HashPassword/) the hash with the new password you want to use.
+
+1. Run the following query on the Platform Server database:
+
+        UPDATE ossys_user
+        SET password = '<hash>'
+        WHERE username = 'admin'
+        and tenant_id in (SELECT id FROM ossys_tenant WHERE name = 'users');
+
