@@ -787,6 +787,21 @@ The possible fixes are the following:
 It is possible to enable the configuration "Allow introspection of views using DB linked tables in SQL Server" via Factory Configuration. This configuration is provided as a backward compatibility option and can be applied before the version upgrade. OutSystems doesn't recommend using it as a permanent fix since its behavior is inconsistent and can lead to runtime errors.
 
 
+### Introduced in Platform Server 11.21.0 { #bc-11210-1 }
+
+**Issue**: Default values in consumed REST, SOAP and SAP methods are no longer translated.
+
+**Runtime**: Traditional web
+
+**Rationale**: The code generated for the translation of these values resulted in compilation errors, causing the publication to fail. For input parameters, however, the errors occurred only when the **Send Default Value** property was set to "No", hence the breaking change.
+
+This change affects only Traditional Web apps. For Reactive Web and Mobile apps, Service Studio already did not allow defining translations for default values.
+
+**Fix**: A warning message will be shown when publishing a module that has the breaking pattern. In order to preserve the behavior, move the default value and its translations to a new intermediate action which in turn calls the consumed method.
+
+Note that the Locale settings are not propagated through the REST/SOAP/SAP integrations, so there is no automated way of knowing if the values sent through the Request have been translated.
+
+
 ## Side Effects
 
 ### Introduced in Platform Server Sep.2018
