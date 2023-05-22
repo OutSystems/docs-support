@@ -1,0 +1,49 @@
+---
+isautopublish: true
+pageprivacy: semi-private
+---
+
+<h2 id="platform_server_11.21.0" >Platform Server 11.21.0</h2>
+<div class="info"><p>This is a preliminary version of the document.</p></div>
+
+
+<style>.cattag {background: #f4f2ff; color: #6a6581; padding: 4px 10px;}</style>
+<h3 id="new_in_platform_server_11.21.0" >New in Platform Server 11.21.0</h3>
+<ul>
+<li>Modules can now be published in Multiple Database Catalogs using a custom user login when the modules reference Static Entities in Libraries. (R11BRT-354)</li>
+<li>Due to poor adoption, the 9 dot menu with navigation links for documentation and other product parts, present in the upper right corner of all screens, has been removed from ServiceCenter. (R11CT-2032)</li>
+<li>When a Publish fails updating a module's DB entities, the query that failed is logged in ServiceCenter Error logs. In this way one can know which entity was locked by another transaction. (R11PT-305)</li>
+<li>Authentication for IT users now has a password complexity rule to ensure stronger security against potential hackers. The rule enforces a 12-character minimum length and at least one number, uppercase, and lowercase letter. Having no effect on old passwords, the rule will apply when creating or updating passwords for IT users, enhancing the platform's overall security. (RDOI-238)</li>
+</ul>
+<h3 id="bug_fixing_platform_server_11.21.0" >Bug Fixing</h3>
+<ul>
+<li>Fixed an issue where libraries in the database provider folders of the Platform installation could override other libraries when copied to deployed applications. (R11BRT-330)</li>
+<li>Fix some compilation errors that could occur if the .Net compiler executed too fast, even if it did not fail. (R11BRT-97)</li>
+<li>In some circumstances the Configuration Tool would use previous database connection credentials, resulting in communication errors and delays. This has been fixed. (R11PIT-1052)</li>
+<li>Fixed an issue that caused compilation errors in modules where consumed methods of REST/SOAP/SAP integrations have default values set to be translated. Now, those values are no longer translated. This represents a breaking change, check more details <a href="https://success.outsystems.com/support/release_notes/11/outsystems_11_side_effects_and_breaking_changes/#bc-11210-1">here</a>. (R11PT-300)</li>
+<li>Fixed a bug where the deployment is trying to create a trigger which already exists in the database. (R11PT-303)</li>
+<li>Fixed an issue with the Group Members filter that would hide the results.
+This happened when there was a previous filter done in the Users List with no results.
+Now the search for each page is independent and the Group Members filter will work accordingly. (RPM-1006) <span class="cattag">Application Lifecycle</span>  <span class="cattag">Users</span> </li>
+<li>Implemented a toggle to switch off "Registered role required" errors in Mobile apps. (RPM-2509) <span class="cattag">Application Runtime</span>  <span class="cattag">Logging</span> </li>
+<li>Fixed an issue that caused processes attached to schedulers to break when renaming a module.
+This occurred in between the two stages of a two stage deploy of a solution containing that renamed module.
+Now the processes no longer break in such situations. (RPM-2691) <span class="cattag">Application Runtime</span>  <span class="cattag">Processes</span> </li>
+<li>Modules can now be published in Multiple Database Catalogs using a custom user login when the modules reference Static Entities in Libraries. (RPM-3550) <span class="cattag">Publish Operation</span> </li>
+<li>Compiler is now able to resolve renaming of events of a producer's WebBlock while publishing a consumer without refreshing its references. (RPM-3684) <span class="cattag">Publish Operation</span>  <span class="cattag">Compilation</span> </li>
+<li>Fixed an issue that prevented Slow Service Action Reports from being generated.
+This issue occurred when the action's name and consumer module's name combined were bigger than 50 characters.
+Now the report will be generated regardless of the action's name length. (RPM-3826) <span class="cattag">Application Lifecycle</span>  <span class="cattag">Service Center</span> </li>
+<li>Fixed issue collecting product metrics. (RPM-3858) <span class="cattag">Application Lifecycle</span>  <span class="cattag">LifeTime</span> </li>
+<li>Fixed an issue that could prevent a solution from being deleted, if one of its publications had generated a mobile build. (RPM-3876) <span class="cattag">Publish Operation</span> </li>
+<li>Fixed the packaging during the detach procedure to include the correct versions of Microsoft.AspNet.WebApi libraries. (RPM-3884) <span class="cattag">Application Runtime</span>  <span class="cattag">Application Detach</span> </li>
+<li>Added a site property "BypassADUsersSynchronization" to the Users module to avoid getting errors trying to sync the users in the OutSystems platform with the external ones. This fix is only relevant when using Active Directory authentication, if the default domain does not ensure that all traversed paths between domains are bidirectional in terms of trust. (RPM-3901) <span class="cattag">Application Runtime</span>  <span class="cattag">Authentication and Authorization</span> </li>
+<li>Added endpoint and action to Mobile/Reactive Communication Exception error logs. (RPM-991) <span class="cattag">Application Runtime</span>  <span class="cattag">Logging</span> </li>
+<li>Fixed a security issue in SSO where it was possible to get a valid login session after the idle timeout was reached. CVSSv3.1 score 4.8 (Medium). (RPM-3539) <span class="cattag">Application Runtime</span>  <span class="cattag">Authentication and Authorization</span> </li>
+<li>Fixed cross-site scripting vulnerability. CVSSv3.0 score 5.4 (Medium). (RPM-3855) <span class="cattag">Application Lifecycle</span>  <span class="cattag">Service Center</span> </li>
+</ul>
+
+<h3>Breaking change</h3>
+<ul>
+<li>Default values in consumed REST, SOAP and SAP methods are no longer translated. Check more detail on how to deal with this breaking change <a href="https://success.outsystems.com/support/release_notes/11/outsystems_11_side_effects_and_breaking_changes/#bc-11210-1">here</a>.</li>
+</ul>
