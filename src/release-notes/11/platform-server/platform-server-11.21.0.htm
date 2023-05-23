@@ -39,8 +39,9 @@ Now the report will be generated regardless of the action's name length. (RPM-38
 <li>Fixed the packaging during the detach procedure to include the correct versions of Microsoft.AspNet.WebApi libraries. (RPM-3884) <span class="cattag">Application Runtime</span>  <span class="cattag">Application Detach</span> </li>
 <li>Added a site property "BypassADUsersSynchronization" to the Users module to avoid getting errors trying to sync the users in the OutSystems platform with the external ones. This fix is only relevant when using Active Directory authentication, if the default domain does not ensure that all traversed paths between domains are bidirectional in terms of trust. (RPM-3901) <span class="cattag">Application Runtime</span>  <span class="cattag">Authentication and Authorization</span> </li>
 <li>Added endpoint and action to Mobile/Reactive Communication Exception error logs. (RPM-991) <span class="cattag">Application Runtime</span>  <span class="cattag">Logging</span> </li>
+<li>Fixed a security issue that could lead to the disclosure of SAP-related sensitive information in SAP logs. CVSSv3.1 score 6.5 (Medium). (RPM-3536) <span class="cattag">Application Runtime</span>  <span class="cattag">Logic Execution</span> </li>
 <li>Fixed a security issue in SSO where it was possible to get a valid login session after the idle timeout was reached. CVSSv3.1 score 4.8 (Medium). (RPM-3539) <span class="cattag">Application Runtime</span>  <span class="cattag">Authentication and Authorization</span> </li>
-<li>Fixed cross-site scripting vulnerability. CVSSv3.0 score 5.4 (Medium). (RPM-3855) <span class="cattag">Application Lifecycle</span>  <span class="cattag">Service Center</span> </li>
+<li>Fixed cross-site scripting vulnerability. CVSSv3.1 score 5.4 (Medium). (RPM-3855) <span class="cattag">Application Lifecycle</span>  <span class="cattag">Service Center</span> </li>
 </ul>
 
 <h3>Breaking change</h3>
