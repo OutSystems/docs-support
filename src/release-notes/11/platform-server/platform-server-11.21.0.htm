@@ -20,7 +20,6 @@ pageprivacy: public
 <li>Fixed an issue where libraries in the database provider folders of the Platform installation could override other libraries when copied to deployed applications. (R11BRT-330)</li>
 <li>Fix some compilation errors that could occur if the .Net compiler executed too fast, even if it did not fail. (R11BRT-97)</li>
 <li>In some circumstances the Configuration Tool would use previous database connection credentials, resulting in communication errors and delays. This has been fixed. (R11PIT-1052)</li>
-<li>Fixed an issue that caused compilation errors in modules where consumed methods of REST/SOAP/SAP integrations have default values set to be translated. Now, those values are no longer translated. This represents a breaking change, check more details <a href="https://success.outsystems.com/support/release_notes/11/outsystems_11_side_effects_and_breaking_changes/#bc-11210-1">here</a>. (R11PT-300)</li>
 <li>Fixed a bug where the deployment is trying to create a trigger which already exists in the database. (R11PT-303)</li>
 <li>Fixed an issue with the Group Members filter that would hide the results.
 This happened when there was a previous filter done in the Users List with no results.
@@ -30,6 +29,7 @@ Now the search for each page is independent and the Group Members filter will wo
 This occurred in between the two stages of a two stage deploy of a solution containing that renamed module.
 Now the processes no longer break in such situations. (RPM-2691) <span class="cattag">Application Runtime</span>  <span class="cattag">Processes</span> </li>
 <li>Modules can now be published in Multiple Database Catalogs using a custom user login when the modules reference Static Entities in Libraries. (RPM-3550) <span class="cattag">Publish Operation</span> </li>
+<li>Fixed an issue that caused compilation errors in modules where consumed methods of REST/SOAP/SAP integrations have default values set to be translated. Now, those values are no longer translated. This represents a breaking change, check more details <a href="https://success.outsystems.com/support/release_notes/11/outsystems_11_side_effects_and_breaking_changes/#bc-11210-1">here</a>. (RPM-3644) <span class="cattag">Publish Operation</span>  <span class="cattag">Compilation</span> </li>
 <li>Compiler is now able to resolve renaming of events of a producer's WebBlock while publishing a consumer without refreshing its references. (RPM-3684) <span class="cattag">Publish Operation</span>  <span class="cattag">Compilation</span> </li>
 <li>Fixed an issue that prevented Slow Service Action Reports from being generated.
 This issue occurred when the action's name and consumer module's name combined were bigger than 50 characters.
