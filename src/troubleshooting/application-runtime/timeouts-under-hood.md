@@ -8,15 +8,17 @@ platform-version: o11
 
 # Timeouts Under the Hood
 
-This article describes the different types of timeouts that can occur during the runtime or development of an OutSystems application (Reactive/Mobile and Traditional). With this, we intent to help the reader understand how different timeouts are triggered, how to be identified them in the Error Logs, and configurations that can be made to fine-tune them. 
+This article describes the different types of timeouts that can occur during the runtime or development of an OutSystems application (Reactive Web, Mobile and Traditional Web). Understand how different timeouts are triggered, how to identify them in the Error Logs, and all configurations that can be made to fine-tune them. 
 
-## Context
+## About timeouts
 
-The OutSystems platform is composed of interconnected web application servers, databases, external integrations, etc. These components communicate with each others and the connections should have their own timeouts. For instance, if a query exceeds the execution timeout in the database, the server request waiting for its result will receive a timeout error. Another example is when a request executing on the server is waiting for the response of an external integration for more than a specified timeout limit. 
+The OutSystems platform is composed of interconnected web application servers, databases, external integrations, and others. These components communicate with each others and the connections should have their own timeouts. 
 
-Reactive/Mobile apps behave in an asynchronous way, where the client-side running on the browser or native operating system performs several different asynchronous requests to the server. To protect the apps from slow server performance or other events that may make the responses slower, these contain a definition for the maximum time the client side can wait for a response from the server before aborting the request.
+For example, if a query exceeds the execution timeout in the database, the server request waiting for its result will receive a timeout error. Another example is when a request executing on the server is waiting for the response of an external integration for more than a specified timeout limit. 
 
-For development level timeouts one can experience timeouts during the deployment of a module, such as when uploading/download moduules, deploying, etc.
+Reactive Web apps and Mobile apps behave in an asynchronous way, where the client-side running on the browser or native operating system performs several different asynchronous requests to the server. To protect the apps from slow server performance or other events that may make the responses slower, these contain a definition for the maximum time the client side can wait for a response from the server before aborting the request.
+
+Regarding development level timeouts you can experience timeouts during the deployment of a module, such as when uploading/download moduules, deploying, etc.
 
 The following sections describe the most common timeouts that can occur while using or developing OutSystems applications.
 
@@ -32,11 +34,12 @@ See [Sessions in Traditional Web apps](https://success.outsystems.com/Documentat
 
 Being supported by a database backbone (either Microsoft SQL, Oracle or MySQL) in nature, this is the most common timeout event that can occur in the OutSystems Platform and their applications, specially in low performance database servers or large data volume environments.
 
-This SQL Query timeout defines the maximum amount of time that an SQL statement can take to be fully executed by the database engine, and the resulting dataset be returned to the calling application. It influences OutSystems applications Aggregates and Advanced SQL, as well as the entity actions (CRUD). It also influences the OutSystems Platform system queries, scattered along the LifeTime, System Components, OutSystems Services, etc. 
+The SQL Query timeout defines the maximum amount of time that an SQL statement can take to be fully executed by the database engine, and the resulting dataset be returned to the calling application. It influences OutSystems applications Aggregates and Advanced SQL, as well as the entity actions (CRUD). It also influences the OutSystems Platform system queries, that exist in LifeTime, System Components, and other OutSystems Services.
 
 ### Timeout Symptoms
 
-The symptoms detected when this timeout value is reached are usually a runtime error either in the applications or during deployment procedures, and a logged Error entry in Service Center. The log entry, for the most part looks very much like:
+When this timeout value is reached you usually get a runtime error either in the applications or during deployment procedures, and a logged Error entry in Service Center. The log entry, shows for the most part the following:
+
 ```
 Message: 
 Error executing query. Error in advanced query MyAdvancedSQL in Preparation in WebScreen1 in MainFlow in MyApp (SELECT ...): Execution Timeout Expired.  The timeout period elapsed prior to completion of the operation or the server is not responding.
