@@ -147,6 +147,7 @@ Communication with Service Actions is similar to a REST Consume. Underneath, it 
 
 After 110 seconds have passed, the connection with the Service Action is going to be aborted and the following entry logged in the error logs:
 
+```
 Message: 
 The request was aborted: The operation has timed out.
 
@@ -161,7 +162,9 @@ The request was aborted: The operation has timed out.
    at OutSystems.HubEdition.WebWidgets.Button.RaisePostBackEvent(...)
    at System.Web.UI.Page.ProcessRequestMain(...)
 
-In this case, a screen in the eSpace MyApp invokes a Service Action in a producer eSpace MyApp2 through a click on a button.
+```
+
+In this case, a screen in the module MyApp invokes a Service Action in a producer module MyApp2 through a click on a button.
 
 ### Timeout Setting
 
@@ -175,7 +178,7 @@ If one uses SetRequestTimeout before invoking a Service Action, in theory, this 
 
 ### Timeout Description
 
-On Native Mobile and Reactive Web apps, the client side of the applications perform multiple asynchronous requests to the servers through Data Actions, Server Actions, and Aggregates. To protect the apps from slow server requests, Server Request Timeout is set to 10 seconds by default on the eSpaces. This means that if a server request does not reply within 10 seconds, the application triggers a Communication Exception.
+On Native Mobile and Reactive Web apps, the client side of the applications perform multiple asynchronous requests to the servers through Data Actions, Server Actions, and Aggregates. To protect the apps from slow server requests, Server Request Timeout is set to 10 seconds by default on the Modules. This means that if a server request does not reply within 10 seconds, the application triggers a Communication Exception.
 
 The requests are aborted by the client but not on the server and will continue executing on IIS.
 
@@ -199,7 +202,7 @@ In this case, a Data Action from Screen1 did not reply within the defined Server
 
 ### Timeout Setting
 
-Server Request Timeout can be configured on the eSpace Default properties, which will make all Data Actions, Server Actions, and Aggregates inherit the value. But this value can also be defined for each of these components individually, overriding the global value.
+Server Request Timeout can be configured on the module Default properties, which will make all Data Actions, Server Actions, and Aggregates inherit the value. But this value can also be defined for each of these components individually, overriding the global value.
 
 ## Timers Timeout
 
