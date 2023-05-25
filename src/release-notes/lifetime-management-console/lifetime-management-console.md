@@ -5,7 +5,7 @@ app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
 ---
 
-<div class="hidden"><h1>Lifetime Management Console</h1></div>
+<div class="hidden"><h1>Lifetime Management Console</h1></div> 
 
 <div class="hidden" id="lifetime-management-console-11.16.2_start"></div>
 
