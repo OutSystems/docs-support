@@ -8,8 +8,8 @@ pageprivacy: public
 
 <h3 id="bug_fixing_lifetime_management_console_11.16.4" >Bug Fixing</h3>
 <ul>
-<li>Resolved a problem where the local administrator, also known as the 'break-glass user,' in the cloud infrastructure was unable to clear the built-in user passwords during or after the activation of the OpenID Connect provider. (RDOI-222)</li>
 <li>Resolved a problem where the local administrator, also known as the 'break-glass user,' in the cloud infrastructure was unable to clear the built-in user passwords during or after the activation of the OpenID Connect provider. (RPM-3582)</li>
 <li>When an environment is registered in LifeTime, if any other sync process is ongoing there was a chance of concurrent transactions trying to update the permissions of the Platform Services account simultaneously, thus locking the database table for a considerable amount of time. Now, the permissions of the Platform Services account are calculated explicitly during the environment registration before adding to the queue any new sync process.  (RPM-3623)</li>
 <li>Fixed a bug that caused a database exception when cleaning old data from LifeTime processes. The impact of the issue is process log tables growing over time and, if left unsolved for a long period, eventually leading to some performance degradation in asynchronous LifeTime processes executions. (RPM-3682)</li>
 </ul>
+
