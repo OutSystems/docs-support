@@ -81,11 +81,13 @@ Also notice that this is a one-way street. Once you detach the source code and s
 
 To minimize the risks of getting errors during and after the detach process:
 
+* Update to the latest release of OutSystems Platform Server 11 to benefit from having all known bugs for that specific version fixed; This translates to having all modules published with the latest version.
+
 * Ensure that OutSystems applications are running with the expected behavior. Since OutSystems capabilities are lost, it will be more difficult to fix the majority of the problems after the detach.
 
-* Update to the latest release of your OutSystems version to benefit from having all known bugs for that specific version fixed; This translates to having the latest Release of your **M**ajor.**m**inor.**R**elease.**r**evision version installed correctly.
-
 * Detaching Development source code and deploying it to a Production Environment is not a valid process, as the generated code is different for each environment: the generated code considers the environment where it was compiled and the corresponding database. If you want to do this, first you need to stage your applications from one environment to another and only then you can proceed with the detach.
+
+Not following the above recommendations will greatly increase the difficulty and required time to successfully complete the process.
 
 #### Personnel requirements
 
