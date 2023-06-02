@@ -10,36 +10,39 @@ platform-version: o11
 
 You can transfer applications when you upgrade from a Personal or Trial Edition to a paid subscription.
 
-In order to transfer applications from a Personal or Trial environment to an enterprise environment:
+To transfer applications from a Personal or Trial environment to an enterprise environment, follow these steps:
 
- * Go to Service Center in the Personal Environment.  
+ 1. Go to Service Center in the Personal Environment.  
 
- * Go to Factory > Solutions
+ 1. Go to **Factory** > **Solutions**.
 
- * Select “New Solution”
+ 1. Click the **New Solution** link.
 
- * Enter a name for the Solution and click “Save.”
+ 1. Enter a name for the Solution and click **Save**.
 
- * This will bring up the Solution screen.  Click on the “Components” tab.
+ 1. On the **Solution** screen, select the **Components** tab.
 
- * In the “Associate Components with Solution” input, enter a module you wish to transfer.  Enter all of the applicable modules.
+ 1. In the **Associate Components with Solution** field, enter the module you want to transfer.  Enter all of the applicable modules.
 
- * If the component is dependent on other modules that are not in the destination environment, make sure  “Include dependencies as components” is checked and click “Associate.”
+ 1. If the component is dependent on other modules that are not in the destination environment, ensure that the **Include dependencies as components** checkbox is selected and click **Associate**.
 
- * Click “Save”  You will then go back to the Solution screen.
+ 1.  Click **Save** 
+    
+    You are brought back to the **Solution** screen.
 
- * Click “Download” on the “Current Running Version” of the Solution. This will compile a file with the .osp extension that you will be able to Download.
+ 1. Click **Download** on the **Current Running Version** of the solution. This will compile a file with the .osp extension that you will be able to Download.
 
+ 1. To remove IP protections, upload this file to the [IP Portal](https://www.outsystems.com/homeIpp/IPP_Page.aspx). 
+    
+    You will receive an email with a link to download the version of the file that can be installed in the new environment.
 
-* Upload this file to the [IP Portal](https://www.outsystems.com/homeIpp/IPP_Page.aspx) in order to remove IP protections.  This will then email you a link to download the version of the file that can be installed in the new environment.
+ 1. Once you have this file, in the Enterprise Environment, go to the development environment instance of Service Center and go to **Factory** > **Solutions**.
 
-* Once you have this file, in the Enterprise Environment, go to the development environment instance of Service Center and go to Factory > Solutions
+ 1.  Click **Upload and Publish a Solution**. 
 
-* Click “Upload and Publish a Solution” 
-
-* Choose the file and upload it - this will upload and publish all of the components of the solution into the new environment
-
+ 1.  Choose the file and upload it. 
  
+    This uploads and publishs all of the components of the solution into the new environment.
 
 Note that this does not transfer data, only the modules themselves.
 
@@ -47,4 +50,4 @@ Note that this does not transfer data, only the modules themselves.
 
 *Can I transfer more apps from my Personal Edition in the future?*
 
-Following the terms of use for the Personal Edition, you can share your apps with the Community, through the Forge. If you do not intend to share your apps with the Community, develop them in your paid Enterprise Edition. OutSystems evaluates each transfer request, and only considers one request for each new customer.
+Following the terms of use for the Personal Edition, you can share your apps with the Community through the Forge. If you don't intend to share your apps with the Community, develop them in your paid Enterprise Edition. OutSystems evaluates each transfer request, and only considers one request for each new customer.
