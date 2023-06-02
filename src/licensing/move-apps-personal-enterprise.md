@@ -28,7 +28,7 @@ To transfer applications from a Personal or Trial environment to an enterprise e
 
  1.  Click **Save** 
     
-    You are brought back to the **Solution** screen.
+    You are brought back to the Solution screen.
 
  1. Click **Download** on the **Current Running Version** of the solution. This will compile a file with the .osp extension that you will be able to Download.
 
@@ -42,7 +42,7 @@ To transfer applications from a Personal or Trial environment to an enterprise e
 
  1.  Choose the file and upload it. 
  
-    This uploads and publishs all of the components of the solution into the new environment.
+    This uploads and publishes all of the components of the solution into the new environment.
 
 Note that this does not transfer data, only the modules themselves.
 
