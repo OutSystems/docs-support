@@ -117,6 +117,8 @@ To compile the scheduler, do the following:
 
 If you choose to re-implement these services using external tools you can later remove this dependency manually.
 
+Since the Service Center console will no longer be available, managing timers has to be done directly in the database. To better understand how the Scheduler runs timers and what information is available, please consult this documentation: [Timers](https://success.outsystems.com/documentation/11/reference/outsystems_language/processes/timer/)
+
 ### Understand how OutSystems structures the code
 
 When you deploy an application module using 1-Click Publish operation, the OutSystems Compiler generates a standard .NET application. This is what's provided when you detach an application and download the source code.
