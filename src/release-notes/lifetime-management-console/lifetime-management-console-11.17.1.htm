@@ -1,0 +1,21 @@
+---
+isautopublish: true
+pageprivacy: semi-private
+---
+
+<h2 id="lifetime_management_console_11.17.1" >LifeTime Management Console 11.17.1</h2>
+<div class="info"><p>This is a preliminary version of the document.</p></div>
+
+
+<style>.cattag {background: #f4f2ff; color: #6a6581; padding: 4px 10px;}</style>
+<h3 id="new_in_lifetime_management_console_11.17.1" >New in LifeTime Management Console 11.17.1</h3>
+<ul>
+<li>Updated UI on LifeTimeCloudConnect that would provide incorrect/inconsistent information regarding database-related operations. Now, LifeTimeCloudConnect provides consistent information. (R11CT-2053)</li>
+<li>Improved the user experience in the list of Application Versions on the Deployment Plan page by making it clearer which was the previous application version and which application version was updated to the target environment. (R11CT-2206)</li>
+</ul>
+<h3 id="bug_fixing_lifetime_management_console_11.17.1" >Bug Fixing</h3>
+<ul>
+<li>Fixed an issue that caused a timeout error when the Open ID authentication provider is activated in LifeTime. This occurred mainly when the infrastructure is large or the environments are spread out in different locations. Now, it is possible to configure the timeout value based on infrastructure needs. (RPM-3908) <span class="cattag">Application Lifecycle</span>  <span class="cattag">Users</span> </li>
+<li>Fixed an issue that caused an internal error when accessing the "Application_History" screen for applications without versions. (RPM-3996) <span class="cattag">Application Lifecycle</span>  <span class="cattag">LifeTime</span> </li>
+</ul>
+
