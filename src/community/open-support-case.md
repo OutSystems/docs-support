@@ -41,4 +41,4 @@ Choose the type of case that best applies, depending on the infrastructure you c
 
 Support portal, to provide you with a good experience and speed up case resolution, guides you through the necessary information we require.
 
-For example, if you're reporting an issue, we'll ask about it's impact and how can we contact you, if necessary. Or if you're looking to upgrade your OutSystems Cloud, we'll ask you for the upgrade schedulle.
+For example, if you're reporting an issue, we'll ask about it's impact and how can we contact you, if necessary. Or if you're looking to upgrade your OutSystems Cloud, we'll ask you for the upgrade schedule.
