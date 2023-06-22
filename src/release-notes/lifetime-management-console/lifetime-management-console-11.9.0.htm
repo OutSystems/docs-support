@@ -1,20 +1,19 @@
 ---
-isautopublish: false
+isautopublish: true
 pageprivacy: public
 ---
 
-<h2 id="lifetime_management_console_11.9.0">LifeTime Management Console 11.9.0</h2>
-<div class="info">
-<p>Released on May 07, 2021</p>
-</div>
-<h3 id="new_in_lifetime_management_console_11.9.0">New in LifeTime Management Console 11.9.0</h3>
+<h2 id="lifetime_management_console_11.9.0" >LifeTime Management Console 11.9.0</h2>
+<div class="info"><p>Released on May 07, 2021</p></div>
+
+<h3 id="new_in_lifetime_management_console_11.9.0" >New in LifeTime Management Console 11.9.0</h3>
 <ul>
 <li>Improved LifeTime performance by optimizing the execution of the synchronization processes related to environments. These improvements are more noticeable in large factories. (RLIT-4244)</li>
 <li>Removed the old environment registration experience. (RLIT-4348)</li>
 <li>Added the ability to search by applications on the deployment plans screen. Also, improved the experience by separating the advanced filters. Inspired by <a href="https://www.outsystems.com/ideas/10076/search-for-application-on-deployment-plans-of-lifetime">Rebecca Hall's idea</a>. (RLIT-4446)</li>
 <li>You can now use the Maintenance Mode feature to set an environment into a special state that will prevent connections between LifeTime and that specific environment. (RLIT-4562)</li>
 </ul>
-<h3 id="bug_fixing_11.9.0">Bug Fixing</h3>
+<h3 id="bug_fixing_lifetime_management_console_11.9.0" >Bug Fixing</h3>
 <ul>
 <li>Fixed a UI issue causing the LifeTime header to overlap popup windows. (RLIT-4293)</li>
 <li>Fixed a missing feedback message during the environment registration wizard, when the total number of users exceeds the license limit. (RLIT-4311)</li>
@@ -33,4 +32,6 @@ pageprivacy: public
 <li>Removed dependency from LifeTimeSDK to modules of LifeTime application (preventing the development of new plugins). (RPM-1023)</li>
 <li>Drastically reduced the likelihood of LifeTime environment synchronization processes entering into deadlock. (RPM-1429)</li>
 <li>Fixed an issue that caused the staging slot to be locked when the staging throws an error. Now the staging is marked as aborted. (RPM-595)</li>
+<li>Fixed an issue causing a deployment to abort when two different users try to continue the deployment at the same time. (RPM-852)</li>
 </ul>
+
