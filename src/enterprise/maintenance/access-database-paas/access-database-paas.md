@@ -50,7 +50,10 @@ For permanent database users, OutSystems allows you to connect in two different 
 
 * Connect to the database server from a set of public static IP addresses, allowlisted on the OutSystems side.
 
+<div class="info" markdown="1">
+
 OutSystems can provide you with one [read-only](#read) and one [read and write](#read-write) credentials per database, according to your needs.
+</div>
 
 To request a permanent database user, you must [contact the OutSystems Support](https://success.outsystems.com/Support/Enterprise_Customers/OutSystems_Support/02_How_to_Open_a_Support_Case).
 
