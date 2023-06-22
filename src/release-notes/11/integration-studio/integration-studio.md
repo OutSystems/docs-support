@@ -5,7 +5,7 @@ app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
 ---
 
-<div class="hidden"><h1>Integration Studio</h1></div>
+<div class="hidden"><h1>Integration Studio</h1></div> 
 
 <div class="hidden" id="integration-studio-11.14.19_start"></div>
 
