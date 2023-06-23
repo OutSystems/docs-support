@@ -12,4 +12,3 @@ pageprivacy: public
 <li>When an environment is registered in LifeTime, if any other sync process is ongoing there was a chance of concurrent transactions trying to update the permissions of the Platform Services account simultaneously, thus locking the database table for a considerable amount of time. Now, the permissions of the Platform Services account are calculated explicitly during the environment registration before adding to the queue any new sync process.  (RPM-3623)</li>
 <li>Fixed a bug that caused a database exception when cleaning old data from LifeTime processes. The impact of the issue is process log tables growing over time and, if left unsolved for a long period, eventually leading to some performance degradation in asynchronous LifeTime processes executions. (RPM-3682)</li>
 </ul>
-
