@@ -20,16 +20,16 @@ pageprivacy: public
 <li>Fixed an issue causing the modules of a Solution to be incorrectly locked with a "Locked Module" error after the Solution publishing aborted abruptly (for example, due to a restart of the Service Center application pool or lack of database space). (R11PIT-240)</li>
 <li>Fixed an issue where using Filters over Calculated Attributes on Local Storage Aggregates in PWAs could cause the query to return no results.  (RAR-677)</li>
 <li>Fixed an issue that could cause the log file downloaded from the Integration Detail screen in Service Center to be empty. (RPD-3909)</li>
-<li><a href="/Support/Release_Notes/11/Platform_Server#RPM-1038" rel="custom">Fixed an issue that was causing headers not to be applied correctly in applications. (RPM-1038)</a></li>
-<li><a href="/Support/Release_Notes/11/Platform_Server#RPM-1052" rel="custom"> Fixed an issue with SEO Friendly Urls, that caused a 404 when the module alias had the same name as the module. (RPM-1052)</a></li>
-<li><a href="/Support/Release_Notes/11/Platform_Server#RPM-1245" rel="custom">Fixed an issue that caused the login action to take a long time in Traditional Web apps using SAML 2.0 authentication when the user has many active sessions. (RPM-1245)</a></li>
-<li><a href="/Support/Release_Notes/11/Platform_Server#RPM-341" rel="custom"> Fixed an issue with SEO Friendly Urls, that caused a 404 when the module alias had the same name as the module. (RPM-341)</a></li>
-<li><a href="/Support/Release_Notes/11/Platform_Server#RPM-365" rel="custom">Fixed an issue that caused the join between the system tables Sent_Email and Email_Status not to retrieve any results. (RPM-365)</a></li>
+<li><a href="#rpm-1038" rel="custom">Fixed an issue that was causing headers not to be applied correctly in applications. (RPM-1038)</a></li>
+<li><a href="#rpm-1052" rel="custom"> Fixed an issue with SEO Friendly Urls, that caused a 404 when the module alias had the same name as the module. (RPM-1052)</a></li>
+<li><a href="#rpm-1245" rel="custom">Fixed an issue that caused the login action to take a long time in Traditional Web apps using SAML 2.0 authentication when the user has many active sessions. (RPM-1245)</a></li>
+<li><a href="#rpm-341" rel="custom"> Fixed an issue with SEO Friendly Urls, that caused a 404 when the module alias had the same name as the module. (RPM-341)</a></li>
+<li><a href="#rpm-365" rel="custom">Fixed an issue that caused the join between the system tables Sent_Email and Email_Status not to retrieve any results. (RPM-365)</a></li>
 <li>Fixed an issue that caused a timeout when executing the Timer BPT_CleanUp. (RPM-436)</li>
-<li><a href="/Support/Release_Notes/11/Platform_Server#RPM-638" rel="custom">Fixed an issue in the Security exceptions of Mobile apps that caused incorrect exception handling. (RPM-638)</a></li>
-<li><a href="/Support/Release_Notes/11/Platform_Server#RPM-905" rel="custom">Fixed the client-side exception mechanism so it properly manages handlers from the parent exception.  (RPM-905)</a></li>
-<li><a href="/Support/Release_Notes/11/Platform_Server#RPM-954" rel="custom">Fixed an issue that prevented end users from closing Popover Menu used inside a Tabs OutSystems UI pattern. (RPM-954)</a></li>
-<li><a href="/Support/Release_Notes/11/Platform_Server#RPM-972" rel="custom">Fixed an issue where scrolling doesn't work in Popover Menu widget when it's opened inside a Tabs pattern. (RPM-972)</a></li>
+<li><a href="#rpm-638" rel="custom">Fixed an issue in the Security exceptions of Mobile apps that caused incorrect exception handling. (RPM-638)</a></li>
+<li><a href="#rpm-905" rel="custom">Fixed the client-side exception mechanism so it properly manages handlers from the parent exception.  (RPM-905)</a></li>
+<li><a href="#rpm-954" rel="custom">Fixed an issue that prevented end users from closing Popover Menu used inside a Tabs OutSystems UI pattern. (RPM-954)</a></li>
+<li><a href="#rpm-972" rel="custom">Fixed an issue where scrolling doesn't work in Popover Menu widget when it's opened inside a Tabs pattern. (RPM-972)</a></li>
 <li>Fixed an issue terminating a Process instance when some Activities are still being executed but those Activities no longer exist in the Process definition (for example, they were deleted or moved to another module). In those cases, an error is now logged regarding the missing Activities definition and it's possible to terminate the Process instance. (RRCT-3784)</li>
 <li>Fixed a runtime error that showed with "SEO-friendly URLs for Reactive Web Apps" tech preview on in apps that didn't use any site rules. (RTAFB-4577)</li>
 <li>Fixed "Collection was modified; enumeration operation may not execute" that occurred after adding an Email to module and trying to publish. This bug is related to the technical preview "Emails for Mobile and Reactive". (RTAFB-4654)</li>
@@ -43,7 +43,7 @@ pageprivacy: public
 <div class="moreDetailsDiv">
 <h3 id="more_details_platform_server_11.13.0" >More details</h3>
 <p>
-<a id="RPM-1038"><strong>RPM-1038</strong></a><br/>
+<span id="rpm-1038"><strong>RPM-1038</strong></span><br/>
 <b>Fixed an issue that was causing headers not to be applied correctly in applications.</b><br/>
 <span class="cattag">Application Runtime</span> <span class="cattag">System Components</span> <br/>
 <br/>
@@ -52,7 +52,7 @@ Headers added using the AddHeader action of <a href="https://success.outsystems.
 The issue can happen from Platform Server version 11.9.0 onwards and was fixed in this version to restore the proper behavior, adding the defined headers.
 </p>
 <p>
-<a id="RPM-1052"><strong>RPM-1052</strong></a><br/>
+<span id="rpm-1052"><strong>RPM-1052</strong></span><br/>
 <b> Fixed an issue with SEO Friendly Urls, that caused a 404 when the module alias had the same name as the module.</b><br/>
 <span class="cattag">Application Runtime</span> <span class="cattag">SEO Friendly URLs</span> <br/>
 <br/>
@@ -61,7 +61,7 @@ The issue occurs in modules that have the same name as the module alias. This cr
 To prevent this issue, the DB table limit was increased above the 10000 lines, and there's an automatic cleanup on duplicated entries.
 </p>
 <p>
-<a id="RPM-1245"><strong>RPM-1245</strong></a><br/>
+<span id="rpm-1245"><strong>RPM-1245</strong></span><br/>
 <b>Fixed an issue that caused the login action to take a long time in Traditional Web apps using SAML 2.0 authentication when the user has many active sessions.</b><br/>
 <span class="cattag">Application Lifecycle</span> <span class="cattag">Users</span> <br/>
 <br/>
@@ -70,15 +70,15 @@ When using SAML 2.0 authentication in Traditional Web apps, the action of loggin
 The issue resides in the RegisterUserSession action that's not performant in this edge case. This action was improved so that's no longer subject to performance degradation.
 </p>
 <p>
-<a id="RPM-341"><strong>RPM-341</strong></a><br/>
+<span id="rpm-341"><strong>RPM-341</strong></span><br/>
 <b> Fixed an issue with SEO Friendly Urls, that caused a 404 when the module alias had the same name as the module.</b><br/>
 <span class="cattag">Application Runtime</span> <span class="cattag">SEO Friendly URLs</span> <br/>
 <br/>
 <u>Fix Details:</u><br/>
-This issue has the same cause as <a href="https://success.outsystems.com/Support/Release_Notes/11/Platform_Server/Platform_Server_11.13.0#RPM-1052">RPM-1052</a>. Refer to it to understand the impacts and changes.
+This issue has the same cause as <a href="https://success.outsystems.com/Platform_Server_11.13.0#rpm-1052">RPM-1052</a>. Refer to it to understand the impacts and changes.
 </p>
 <p>
-<a id="RPM-365"><strong>RPM-365</strong></a><br/>
+<span id="rpm-365"><strong>RPM-365</strong></span><br/>
 <b>Fixed an issue that caused the join between the system tables Sent_Email and Email_Status not to retrieve any results.</b><br/>
 <span class="cattag">Application Runtime</span> <span class="cattag">Logging</span> <br/>
 <br/>
@@ -86,7 +86,7 @@ This issue has the same cause as <a href="https://success.outsystems.com/Support
 This issue caused a join between the system tables Sent_Email and Email_Status not to retrieve any results. This has no impact on the OutSystems capability to send emails, but if you're using the <a href="https://success.outsystems.com/Documentation/11/Reference/OutSystems_APIs/Emails_API">Emails API</a> in your logic, your application can be affected. The fix restored the proper behavior and the results of that join are now correctly retrieved.
 </p>
 <p>
-<a id="RPM-638"><strong>RPM-638</strong></a><br/>
+<span id="rpm-638"><strong>RPM-638</strong></span><br/>
 <b>Fixed an issue in the Security exceptions of Mobile apps that caused incorrect exception handling.</b><br/>
 <span class="cattag">Application Runtime</span> <span class="cattag">Logic Execution</span> <br/>
 <br/>
@@ -94,7 +94,7 @@ This issue caused a join between the system tables Sent_Email and Email_Status n
 The issue resided in the "Invalid Login" and "Not Registered" exceptions of Mobile apps that were not caught by their parent handler, <a href="https://success.outsystems.com/Documentation/11/Developing_an_Application/Implement_Application_Logic/Handle_Exceptions">Security exception</a>. Instead, they were bubbling up to "All exceptions", ultimately causing the wrong exception message to appear to the end-user.
 </p>
 <p>
-<a id="RPM-905"><strong>RPM-905</strong></a><br/>
+<span id="rpm-905"><strong>RPM-905</strong></span><br/>
 <b>Fixed the client-side exception mechanism so it properly manages handlers from the parent exception. </b><br/>
 <span class="cattag">Application Runtime</span> <span class="cattag">Logic Execution</span> <br/>
 <br/>
@@ -102,7 +102,7 @@ The issue resided in the "Invalid Login" and "Not Registered" exceptions of Mobi
 In Reactive Web or Mobile apps, user exceptions were not properly following the <a href="https://success.outsystems.com/Documentation/11/Developing_an_Application/Implement_Application_Logic/Handle_Exceptions">hierarchy of exceptions</a>. Any "parent node" exception, such as User Exception, should be able to handle any "children node" exception, for example, UserException1. Due to this issue, a UserException1 on client-side logic was not being handled by the User Exception parent node, and instead, it was bubbling up to AllExceptions, ultimately causing the wrong exception message to appear to the end-user. In fixing this bug the other exceptions subgroups (Database, Security, Communication, and Abort Activity Change) are now handled as expected.
 </p>
 <p>
-<a id="RPM-954"><strong>RPM-954</strong></a><br/>
+<span id="rpm-954"><strong>RPM-954</strong></span><br/>
 <b>Fixed an issue that prevented end users from closing Popover Menu used inside a Tabs OutSystems UI pattern.</b><br/>
 <span class="cattag">Application Runtime</span> <span class="cattag">Interface</span> <br/>
 <br/>
@@ -111,7 +111,7 @@ In Mobile apps, end users couldn't close a Popover Menu by selecting an area out
 This occurred with Popover Menu widgets used inside the Tabs OutSystems UI pattern, except for Popover Menus in the first tab.
 </p>
 <p>
-<a id="RPM-972"><strong>RPM-972</strong></a><br/>
+<span id="rpm-972"><strong>RPM-972</strong></span><br/>
 <b>Fixed an issue where scrolling doesn't work in Popover Menu widget when it's opened inside a Tabs pattern.</b><br/>
 <span class="cattag">Application Runtime</span> <span class="cattag">Supported Forge Component</span> <br/>
 <br/>
