@@ -16,16 +16,16 @@ pageprivacy: public
 <li>Fixed the deployment error "Module [module name] is not available for deployment". (R11PBT-176)</li>
 <li>Fixed an issue that could cause an error in the logs during publish and prevent correct disk cleanup, while having another ongoing publish of a module with missing references. (R11PBT-177)</li>
 <li>Fixed an issue in the Deployment Service that was causing incorrect log information of the modules to be undeployed/deleted from a frontend. (R11PIT-250)</li>
-<li><a href="/Support/Release_Notes/11/Platform_Server#RPM-1172" rel="custom">Fixed an issue that caused the logs of mobile apps to have an incorrect timestamp. (RPM-1172)</a></li>
-<li><a href="/Support/Release_Notes/11/Platform_Server#RPM-1265" rel="custom">Fixed an issue that sometimes caused the Environment Information not to be filled in the Service Center error logs. (RPM-1265)</a></li>
-<li><a href="/Support/Release_Notes/11/Platform_Server#RPM-1308" rel="custom">Fixed an issue in PWA applications where splash screens would hang on iOS 14.6 devices. (RPM-1308)</a></li>
-<li><a href="/Support/Release_Notes/11/Platform_Server#RPM-1352" rel="custom">Fixed broken references errors to indirect producers after an upgrade to Platform Server 11.12.1 or higher. (RPM-1352)</a></li>
-<li><a href="/Support/Release_Notes/11/Platform_Server#RPM-1371" rel="custom">Fixed an issue that caused navigations to the previous screen to go back more screens than it should. (RPM-1371)</a></li>
-<li><a href="/Support/Release_Notes/11/Platform_Server#RPM-599" rel="custom">Fixed an issue that caused disabled Scheduler services to pick up events and email tasks that they would not process. This also caused a permanent warning displayed on the monitoring pages. (RPM-599)</a></li>
-<li><a href="/Support/Release_Notes/11/Platform_Server#RPM-921" rel="custom">Fixed an issue that was preventing developers from using the Distribute tab in Service Studio. The issue would only manifest when Active Directory authentication was enabled for IT users. (RPM-921)</a></li>
-<li><a href="/Support/Release_Notes/11/Platform_Server#RPM-1098" rel="custom">Fixed a server-side request forgery (SSRF) vulnerability on custom handlers. CVSSv3.1 score 6.5 (Medium). (RPM-1098)</a></li>
-<li><a href="/Support/Release_Notes/11/Platform_Server#RPM-728" rel="custom">Fixed an integrated authentication vulnerability in OutSystem Cloud environments. CVSSv3.1 score 5.5 (Medium). (RPM-728)</a></li>
-<li><a href="/Support/Release_Notes/11/Platform_Server#RPM-997" rel="custom">Fixed multiple security risks on the documentation of a REST API by raising the handlebars.js used in the swagger UI. CVSSv3.1 score 6.5 (Medium). (RPM-997)</a></li>
+<li><a href="#rpm-1172" rel="custom">Fixed an issue that caused the logs of mobile apps to have an incorrect timestamp. (RPM-1172)</a></li>
+<li><a href="#rpm-1265" rel="custom">Fixed an issue that sometimes caused the Environment Information not to be filled in the Service Center error logs. (RPM-1265)</a></li>
+<li><a href="#rpm-1308" rel="custom">Fixed an issue in PWA applications where splash screens would hang on iOS 14.6 devices. (RPM-1308)</a></li>
+<li><a href="#rpm-1352" rel="custom">Fixed broken references errors to indirect producers after an upgrade to Platform Server 11.12.1 or higher. (RPM-1352)</a></li>
+<li><a href="#rpm-1371" rel="custom">Fixed an issue that caused navigations to the previous screen to go back more screens than it should. (RPM-1371)</a></li>
+<li><a href="#rpm-599" rel="custom">Fixed an issue that caused disabled Scheduler services to pick up events and email tasks that they would not process. This also caused a permanent warning displayed on the monitoring pages. (RPM-599)</a></li>
+<li><a href="#rpm-921" rel="custom">Fixed an issue that was preventing developers from using the Distribute tab in Service Studio. The issue would only manifest when Active Directory authentication was enabled for IT users. (RPM-921)</a></li>
+<li><a href="#rpm-1098" rel="custom">Fixed a server-side request forgery (SSRF) vulnerability on custom handlers. CVSSv3.1 score 6.5 (Medium). (RPM-1098)</a></li>
+<li><a href="#rpm-728" rel="custom">Fixed an integrated authentication vulnerability in OutSystem Cloud environments. CVSSv3.1 score 5.5 (Medium). (RPM-728)</a></li>
+<li><a href="#rpm-997" rel="custom">Fixed multiple security risks on the documentation of a REST API by raising the handlebars.js used in the swagger UI. CVSSv3.1 score 6.5 (Medium). (RPM-997)</a></li>
 </ul>
 
 
@@ -33,14 +33,14 @@ pageprivacy: public
 <div class="moreDetailsDiv">
 <h3 id="more_details_platform_server_11.13.1" >More details</h3>
 <p>
-<a id="RPM-1098"><strong>RPM-1098</strong></a><br/>
+<span id="rpm-1098"><strong>RPM-1098</strong></span><br/>
 <b>Fixed a server-side request forgery (SSRF) vulnerability on custom handlers. CVSSv3.1 score 6.5 (Medium).</b><br/>
 <span class="cattag">Application Runtime</span> <span class="cattag">Data Access and Manipulation</span> <br/>
 <br/>
 <u>Fix Details:</u><br>To protect our customers we're not providing further details on the issue.
 </p>
 <p>
-<a id="RPM-1172"><strong>RPM-1172</strong></a><br/>
+<span id="rpm-1172"><strong>RPM-1172</strong></span><br/>
 <b>Fixed an issue that caused the logs of mobile apps to have an incorrect timestamp.</b><br/>
 <span class="cattag">Application Runtime</span> <span class="cattag">Logging</span> <br/>
 <br/>
@@ -48,7 +48,7 @@ pageprivacy: public
 The behavior was fixed and the timestamp of the logs now reflects the exact time of the event.
 </p>
 <p>
-<a id="RPM-1265"><strong>RPM-1265</strong></a><br/>
+<span id="rpm-1265"><strong>RPM-1265</strong></span><br/>
 <b>Fixed an issue that sometimes caused the Environment Information not to be filled in the Service Center error logs.</b><br/>
 <span class="cattag">Application Runtime</span> <span class="cattag">Logging</span> <br/>
 <br/>
@@ -57,14 +57,14 @@ Such information is useful to provide the runtime context in which the error occ
 This issue didn't cause any impact on the mobile app's normal usage nor on the end-user experience.
 </p>
 <p>
-<a id="RPM-1308"><strong>RPM-1308</strong></a><br/>
+<span id="rpm-1308"><strong>RPM-1308</strong></span><br/>
 <b>Fixed an issue in PWA applications where splash screens would hang on iOS 14.6 devices.</b><br/>
 <span class="cattag">Application Runtime</span> <span class="cattag">Application Distribution</span> <br/>
 <br/>
 <u>Fix Details:</u><br>According to https://www.theregister.com/2021/06/16/apple_safari_indexeddb_bug/  Apple's WebKit team has managed to break the popular IndexedDB JavaScript API in the latest version of Safari (14.1.1) on macOS 11.4 and iOS 14.6.
 </p>
 <p>
-<a id="RPM-1352"><strong>RPM-1352</strong></a><br/>
+<span id="rpm-1352"><strong>RPM-1352</strong></span><br/>
 <b>Fixed broken references errors to indirect producers after an upgrade to Platform Server 11.12.1 or higher.</b><br/>
 <span class="cattag">Publish Operation</span> <br/>
 <br/>
@@ -72,7 +72,7 @@ This issue didn't cause any impact on the mobile app's normal usage nor on the e
 The issue would occur when a consumer module A is using a producer module B and that producer, in turn, has a producer C that references an extension E. In that case, module A would have errors about incompatibility with an Action from extension E.
 </p>
 <p>
-<a id="RPM-1371"><strong>RPM-1371</strong></a><br/>
+<span id="rpm-1371"><strong>RPM-1371</strong></span><br/>
 <b>Fixed an issue that caused navigations to the previous screen to go back more screens than it should.</b><br/>
 <span class="cattag">Application Runtime</span> <br/>
 <br/>
@@ -82,7 +82,7 @@ The issue happens only with applications compiled on Platform Server version 11.
 The issue was fixed in this version and the wrong redirect will no longer occur.
 </p>
 <p>
-<a id="RPM-599"><strong>RPM-599</strong></a><br/>
+<span id="rpm-599"><strong>RPM-599</strong></span><br/>
 <b>Fixed an issue that caused disabled Scheduler services to pick up events and email tasks that they would not process. This also caused a permanent warning displayed on the monitoring pages.</b><br/>
 <span class="cattag">Application Lifecycle</span> <span class="cattag">Service Center</span> <br/>
 <br/>
@@ -90,7 +90,7 @@ The issue was fixed in this version and the wrong redirect will no longer occur.
 The issue does not exist if all servers are allowed to execute BPT.
 </p>
 <p>
-<a id="RPM-728"><strong>RPM-728</strong></a><br/>
+<span id="rpm-728"><strong>RPM-728</strong></span><br/>
 <b>Fixed an integrated authentication vulnerability in OutSystem Cloud environments. CVSSv3.1 score 5.5 (Medium).</b><br/>
 <span class="cattag">Cloud Paas</span> <br/>
 <br/>
@@ -98,14 +98,14 @@ The issue does not exist if all servers are allowed to execute BPT.
 The vulnerability was fixed so that it no longer allows privileged users with infrastructure access to log in to applications.
 </p>
 <p>
-<a id="RPM-921"><strong>RPM-921</strong></a><br/>
+<span id="rpm-921"><strong>RPM-921</strong></span><br/>
 <b>Fixed an issue that was preventing developers from using the Distribute tab in Service Studio. The issue would only manifest when Active Directory authentication was enabled for IT users.</b><br/>
 <span class="cattag">Service Studio</span> <span class="cattag">Distribute</span> <br/>
 <br/>
 <u>Fix Details:</u><br>For Mobile apps, accessing Distribute tab in Service Studio in an environment with Active Directory enabled for IT users, would result in an "Invalid user credentials" error, even if the credentials were correct. The issue would occur with a combination of a Platform Server version higher than 11.10.2 and Service Studio version 11.10.06 or higher.
 </p>
 <p>
-<a id="RPM-997"><strong>RPM-997</strong></a><br/>
+<span id="rpm-997"><strong>RPM-997</strong></span><br/>
 <b>Fixed multiple security risks on the documentation of a REST API by raising the handlebars.js used in the swagger UI. CVSSv3.1 score 6.5 (Medium).</b><br/>
 <span class="cattag">Application Runtime</span> <span class="cattag">Logic Execution</span> <br/>
 <br/>
