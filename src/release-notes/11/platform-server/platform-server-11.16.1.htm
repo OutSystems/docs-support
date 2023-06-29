@@ -11,16 +11,16 @@ pageprivacy: public
 <li>Fixed a bug that caused a memory leak on BaseViewController. (R11DT-1033)</li>
 <li>Fixed an issue that prevented Screen Aggregates or Screen Data Actions to not finish when multiple existed in the same screen. (R11DT-1038)</li>
 <li>Fixed an issue with Javascript script configured as required to ensure it is loaded before the AplicationReady event. (R11DT-959)</li>
-<li><a href="#RPM-1323" rel="custom">Fixed an error when setting IT users permissions and there are more than 1000 application permissions. This issue applied only to environments using an Oracle database. (RPM-1323)</a></li>
-<li><a href="#RPM-1665" rel="custom">Now, there's a compilation message about potential incompatible consumers when a Service module is renamed and published, and those consumers are considered outdated applications in LifeTime. (RPM-1665)</a></li>
-<li><a href="#RPM-1809" rel="custom">Fixed an issue with Javascript script configured as required to ensure it is loaded before the AplicationReady event. (RPM-1809)</a></li>
-<li><a href="#RPM-2123" rel="custom">Fixed a validation issue in the Dropdown widget for Reactive Web and Mobile apps when the "Empty Text" property is set. (RPM-2123)</a></li>
-<li><a href="#RPM-2388" rel="custom">Fixed an issue that prevented attributes from being correctly imported from certain database views into an entity when integrating with an external PostgreSQL database using Integration Studio. (RPM-2388)</a></li>
-<li><a href="#RPM-2409" rel="custom">Fixed an issue in the DropDownMenu widget of RichWidgets that prevented the menu from collapsing after clicking away from it. Applies only to Traditional Web apps. (RPM-2409)</a></li>
-<li><a href="#RPM-2539" rel="custom">Improved database query performance during the platform's telemetry collection. Applies only to Oracle databases. (RPM-2539)</a></li>
-<li><a href="#RPM-2606" rel="custom">Fixed a bug in which Static Entity records of type Date/Time with expressions containing whitespaces resulted in compilation errors. (RPM-2606)</a></li>
-<li><a href="#RPM-819" rel="custom">Improved the performance of application synchronization when publishing a solution. (RPM-819)</a></li>
-<li><a href="#RPM-2540" rel="custom">Fixed an open redirect vulnerability in the HTTPRequestHandler extension. CVSSv3.1 score 4.7 (Medium). (RPM-2540)</a></li>
+<li><a href="#rpm-1323" rel="custom">Fixed an error when setting IT users permissions and there are more than 1000 application permissions. This issue applied only to environments using an Oracle database. (RPM-1323)</a></li>
+<li><a href="#rpm-1665" rel="custom">Now, there's a compilation message about potential incompatible consumers when a Service module is renamed and published, and those consumers are considered outdated applications in LifeTime. (RPM-1665)</a></li>
+<li><a href="#rpm-1809" rel="custom">Fixed an issue with Javascript script configured as required to ensure it is loaded before the AplicationReady event. (RPM-1809)</a></li>
+<li><a href="#rpm-2123" rel="custom">Fixed a validation issue in the Dropdown widget for Reactive Web and Mobile apps when the "Empty Text" property is set. (RPM-2123)</a></li>
+<li><a href="#rpm-2388" rel="custom">Fixed an issue that prevented attributes from being correctly imported from certain database views into an entity when integrating with an external PostgreSQL database using Integration Studio. (RPM-2388)</a></li>
+<li><a href="#rpm-2409" rel="custom">Fixed an issue in the DropDownMenu widget of RichWidgets that prevented the menu from collapsing after clicking away from it. Applies only to Traditional Web apps. (RPM-2409)</a></li>
+<li><a href="#rpm-2539" rel="custom">Improved database query performance during the platform's telemetry collection. Applies only to Oracle databases. (RPM-2539)</a></li>
+<li><a href="#rpm-2606" rel="custom">Fixed a bug in which Static Entity records of type Date/Time with expressions containing whitespaces resulted in compilation errors. (RPM-2606)</a></li>
+<li><a href="#rpm-819" rel="custom">Improved the performance of application synchronization when publishing a solution. (RPM-819)</a></li>
+<li><a href="#rpm-2540" rel="custom">Fixed an open redirect vulnerability in the HTTPRequestHandler extension. CVSSv3.1 score 4.7 (Medium). (RPM-2540)</a></li>
 </ul>
 
 
@@ -28,7 +28,7 @@ pageprivacy: public
 <div class="moreDetailsDiv">
 <h3 id="more_details_platform_server_11.16.1" >More details</h3>
 <p>
-<span id="RPM-1323"><strong>RPM-1323</strong></span><br/>
+<span id="rpm-1323"><strong>RPM-1323</strong></span><br/>
 <b>Fixed an error when setting IT users permissions and there are more than 1000 application permissions. This issue applied only to environments using an Oracle database.</b><br/>
 <span class="cattag">Application Lifecycle</span> <span class="cattag">LifeTime</span> <br/>
 <br/>
@@ -36,7 +36,7 @@ pageprivacy: public
 When registering a new Oracle environment in the infrastructure through the LifeTime console, the environment synchronization generated several errors in the advanced query RemoveDeprecatedPermissions, which is executed by an internal Platform Server API. This problem only occurred for Oracle environments having more than 1000 application permissions.
 </p>
 <p>
-<span id="RPM-1665"><strong>RPM-1665</strong></span><br/>
+<span id="rpm-1665"><strong>RPM-1665</strong></span><br/>
 <b>Now, there's a compilation message about potential incompatible consumers when a Service module is renamed and published, and those consumers are considered outdated applications in LifeTime.</b><br/>
 <span class="cattag">Publish Operation</span> <span class="cattag">Refresh References</span> <br/>
 <br/>
@@ -51,7 +51,7 @@ Service Actions started to return a "404 not found" error after a Lifetime stagi
 4. In the target environment using the consumer eSpace attempt to invoke the service action;
 </p>
 <p>
-<span id="RPM-1809"><strong>RPM-1809</strong></span><br/>
+<span id="rpm-1809"><strong>RPM-1809</strong></span><br/>
 <b>Fixed an issue with Javascript script configured as required to ensure it is loaded before the AplicationReady event.</b><br/>
 <span class="cattag">Application Runtime</span> <br/>
 <br/>
@@ -68,7 +68,7 @@ Although not easily reproducible since it depends on a race condition, the steps
 - When the race condition happens, the value should not be available.
 </p>
 <p>
-<span id="RPM-2123"><strong>RPM-2123</strong></span><br/>
+<span id="rpm-2123"><strong>RPM-2123</strong></span><br/>
 <b>Fixed a validation issue in the Dropdown widget for Reactive Web and Mobile apps when the "Empty Text" property is set.</b><br/>
 <span class="cattag">Application Runtime</span> <span class="cattag">Interface</span> <br/>
 <br/>
@@ -76,7 +76,7 @@ Although not easily reproducible since it depends on a race condition, the steps
 This issue occurred in Reactive Web Apps and Mobile Apps having a Dropdown widget with the "Empty Text" property set. When a value was selected in the Dropdown, after clearing that value by setting the bound variable value to its default, the Widget would incorrectly pass the required validation although no value was selected.
 </p>
 <p>
-<span id="RPM-2388"><strong>RPM-2388</strong></span><br/>
+<span id="rpm-2388"><strong>RPM-2388</strong></span><br/>
 <b>Fixed an issue that prevented attributes from being correctly imported from certain database views into an entity when integrating with an external PostgreSQL database using Integration Studio.</b><br/>
 <span class="cattag">Integration Studio</span> <span class="cattag">Import Wizards</span> <br/>
 <br/>
@@ -84,7 +84,7 @@ This issue occurred in Reactive Web Apps and Mobile Apps having a Dropdown widge
 When using an OutSystems PostgreSQL Database Connection to consume certain database views in Integration Studio, entity attributes were not correctly imported. This issue would happen to views referencing tables from multiple schemas from the database connection.
 </p>
 <p>
-<span id="RPM-2409"><strong>RPM-2409</strong></span><br/>
+<span id="rpm-2409"><strong>RPM-2409</strong></span><br/>
 <b>Fixed an issue in the DropDownMenu widget of RichWidgets that prevented the menu from collapsing after clicking away from it. Applies only to Traditional Web apps.</b><br/>
 <span class="cattag">Application Runtime</span> <span class="cattag">System Components</span> <br/>
 <br/>
@@ -92,7 +92,7 @@ When using an OutSystems PostgreSQL Database Connection to consume certain datab
 After upgrading to Platform Server 11.15.0, application menus in Traditional Web apps wouldn't collapse after clicking away from them. This was caused by an issue in the RichWidgets DropdownMenu when used inside a menu block with items.
 </p>
 <p>
-<span id="RPM-2539"><strong>RPM-2539</strong></span><br/>
+<span id="rpm-2539"><strong>RPM-2539</strong></span><br/>
 <b>Improved database query performance during the platform's telemetry collection. Applies only to Oracle databases.</b><br/>
 <span class="cattag">Application Lifecycle</span> <span class="cattag">Service Center</span> <br/>
 <br/>
@@ -100,7 +100,7 @@ After upgrading to Platform Server 11.15.0, application menus in Traditional Web
 In environments using an Oracle database, the execution of Service Center's Timer SynchronizeMetrics, which collects platform telemetry, was causing several timeouts. The issue was related to Oracle's execution plan.
 </p>
 <p>
-<span id="RPM-2540"><strong>RPM-2540</strong></span><br/>
+<span id="rpm-2540"><strong>RPM-2540</strong></span><br/>
 <b>Fixed an open redirect vulnerability in the HTTPRequestHandler extension. CVSSv3.1 score 4.7 (Medium).</b><br/>
 <span class="cattag">Application Runtime</span> <span class="cattag">System Components</span> <br/>
 <br/>
@@ -108,7 +108,7 @@ In environments using an Oracle database, the execution of Service Center's Time
 The ReplaceURLDomain action of the HTTPRequestHandler extension was lacking some specific user input validations, thus being vulnerable to some detected patterns.
 </p>
 <p>
-<span id="RPM-2606"><strong>RPM-2606</strong></span><br/>
+<span id="rpm-2606"><strong>RPM-2606</strong></span><br/>
 <b>Fixed a bug in which Static Entity records of type Date/Time with expressions containing whitespaces resulted in compilation errors.</b><br/>
 <span class="cattag">Publish Operation</span> <span class="cattag">Deployment stage</span> <br/>
 <br/>
@@ -117,7 +117,7 @@ With Platform Server 11.15.0 and Lifetime 11.10.8, the improved type conversion 
 In this case the logic is incorrectly detecting a DateTime expression when there are Time or Date literals with surrounding whitespaces. Like " #10:11:12#"
 </p>
 <p>
-<span id="RPM-819"><strong>RPM-819</strong></span><br/>
+<span id="rpm-819"><strong>RPM-819</strong></span><br/>
 <b>Improved the performance of application synchronization when publishing a solution.</b><br/>
 <span class="cattag">Application Lifecycle</span> <span class="cattag">LifeTime</span> <br/>
 <br/>
