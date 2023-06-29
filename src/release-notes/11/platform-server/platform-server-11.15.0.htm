@@ -21,25 +21,25 @@ pageprivacy: public
 <li>Fixed an issue causing invalid tenant views after dropping the Tenant_Id attribute of Entities that are no longer multi-tenant. (R11PBT-415)</li>
 <li>Fixed Server.API and Server.Identity failing to start with error "Cannot access a disposed object. Object name: 'IServiceProvider'." (R11PIT-481)</li>
 <li>Added a validation to prevent the publishing of the same solution simultaneously. (R11PIT-63)</li>
-<li><a href="/Support/Release_Notes/11/Platform_Server#RPM-1092" rel="custom">Fixed an issue preventing Processes that are launched on the creation of new Entity records from being triggered for specific tenants after changing the Entity to multi-tenant. (RPM-1092)</a></li>
-<li><a href="/Support/Release_Notes/11/Platform_Server#RPM-1441" rel="custom">Fixed an issue that caused records to be deleted from OSSYS_MODULEFRONTEND table if duplicates were found, when upgrading the Platform Server component to 11.12.2 or later. (RPM-1441)</a></li>
-<li><a href="/Support/Release_Notes/11/Platform_Server#RPM-1527" rel="custom">Improved the End-Users Configuration screen of Service Center to clarify the metrics shown for the Total Internal and Total External Users. (RPM-1527)</a></li>
-<li><a href="/Support/Release_Notes/11/Platform_Server#RPM-1551" rel="custom">Fixed an issue that caused the 1-Click Publish to fail with an error "Invalid compiler output. Unknown reference expression type Email" when publishing a module that references a Static Entity which has an Attribute of type Email. (RPM-1551)</a></li>
-<li><a href="/Support/Release_Notes/11/Platform_Server#RPM-1577" rel="custom">Fixed an issue that caused the starvation of Scheduler Service activities in Personal Environments. (RPM-1577)</a></li>
-<li><a href="/Support/Release_Notes/11/Platform_Server#RPM-1619" rel="custom">Fixed the Deploy Service log message when preparing to deploy. The log message now includes only the modules to be deployed. (RPM-1619)</a></li>
-<li><a href="/Support/Release_Notes/11/Platform_Server#RPM-1653" rel="custom">Fixed an issue that caused the 1-Click Publish to fail with a compilation error when publishing a module that references a Static Entity which has an Attribute value that needs an implicit conversion to match the defined type.  (RPM-1653)</a></li>
-<li><a href="/Support/Release_Notes/11/Platform_Server#RPM-1715" rel="custom">Fixed an issue in the Input_AutoComplete widget of RichWidgets when used with a text widget under specific conditions. Applies only to Traditional Web apps. (RPM-1715)</a></li>
-<li><a href="/Support/Release_Notes/11/Platform_Server#RPM-1722" rel="custom">Fixed runtime error related with missing references, even though those references were not visible in the module in ServiceStudio. (RPM-1722)</a></li>
-<li><a href="/Support/Release_Notes/11/Platform_Server#RPM-1874" rel="custom">When using LDAP authentication, the end user's last login information is now is properly updated. (RPM-1874)</a></li>
-<li><a href="/Support/Release_Notes/11/Platform_Server#RPM-1876" rel="custom">Fixed a runtime error that occurred when adding or deleting attributes to a multi-tenant Entity and the publishing of the corresponding change is aborted during the execution of the DB scripts. Applies only to Oracle databases. (RPM-1876)</a></li>
-<li><a href="/Support/Release_Notes/11/Platform_Server#RPM-1902" rel="custom">Improved the role validation of the end user accessing the Users application. (RPM-1902)</a></li>
-<li><a href="/Support/Release_Notes/11/Platform_Server#RPM-1934" rel="custom">Fixed an issue that caused the application publishing operation to hang when the application definitions in the database are in an invalid state. (RPM-1934)</a></li>
-<li><a href="/Support/Release_Notes/11/Platform_Server#RPM-1980" rel="custom">Fixed an issue that caused the Scheduler Service to timeout earlier than expected when running Light Processes. (RPM-1980)</a></li>
-<li><a href="/Support/Release_Notes/11/Platform_Server#RPM-2061" rel="custom">The Tuning and Security section of the Installation Checklist now refers to the supported scenario of configuring the cache invalidation service with high availability. (RPM-2061)</a></li>
-<li><a href="/Support/Release_Notes/11/Platform_Server#RPM-2075" rel="custom">Added information to the Installation Checklist regarding the expected values for Oracle Asynchronous Commit parameters. (RPM-2075)</a></li>
-<li><a href="/Support/Release_Notes/11/Platform_Server#RPM-564" rel="custom">Fixed an error occurring in Oracle environments when filtering the email logs by Status in Service Center. (RPM-564)</a></li>
-<li><a href="/Support/Release_Notes/11/Platform_Server#RPM-999" rel="custom">Fixed the Japanese translations of some labels in the Users application. (RPM-999)</a></li>
-<li><a href="/Support/Release_Notes/11/Platform_Server#RPM-726" rel="custom">Fixed a CSP related issue in Service Center console. CVSSv3.1 score 2.3 (Low). (RPM-726)</a></li>
+<li><a href="#rpm-1092" rel="custom">Fixed an issue preventing Processes that are launched on the creation of new Entity records from being triggered for specific tenants after changing the Entity to multi-tenant. (RPM-1092)</a></li>
+<li><a href="#rpm-1441" rel="custom">Fixed an issue that caused records to be deleted from OSSYS_MODULEFRONTEND table if duplicates were found, when upgrading the Platform Server component to 11.12.2 or later. (RPM-1441)</a></li>
+<li><a href="#rpm-1527" rel="custom">Improved the End-Users Configuration screen of Service Center to clarify the metrics shown for the Total Internal and Total External Users. (RPM-1527)</a></li>
+<li><a href="#rpm-1551" rel="custom">Fixed an issue that caused the 1-Click Publish to fail with an error "Invalid compiler output. Unknown reference expression type Email" when publishing a module that references a Static Entity which has an Attribute of type Email. (RPM-1551)</a></li>
+<li><a href="#rpm-1577" rel="custom">Fixed an issue that caused the starvation of Scheduler Service activities in Personal Environments. (RPM-1577)</a></li>
+<li><a href="#rpm-1619" rel="custom">Fixed the Deploy Service log message when preparing to deploy. The log message now includes only the modules to be deployed. (RPM-1619)</a></li>
+<li><a href="#rpm-1653" rel="custom">Fixed an issue that caused the 1-Click Publish to fail with a compilation error when publishing a module that references a Static Entity which has an Attribute value that needs an implicit conversion to match the defined type.  (RPM-1653)</a></li>
+<li><a href="#rpm-1715" rel="custom">Fixed an issue in the Input_AutoComplete widget of RichWidgets when used with a text widget under specific conditions. Applies only to Traditional Web apps. (RPM-1715)</a></li>
+<li><a href="#rpm-1722" rel="custom">Fixed runtime error related with missing references, even though those references were not visible in the module in ServiceStudio. (RPM-1722)</a></li>
+<li><a href="#rpm-1874" rel="custom">When using LDAP authentication, the end user's last login information is now is properly updated. (RPM-1874)</a></li>
+<li><a href="#rpm-1876" rel="custom">Fixed a runtime error that occurred when adding or deleting attributes to a multi-tenant Entity and the publishing of the corresponding change is aborted during the execution of the DB scripts. Applies only to Oracle databases. (RPM-1876)</a></li>
+<li><a href="#rpm-1902" rel="custom">Improved the role validation of the end user accessing the Users application. (RPM-1902)</a></li>
+<li><a href="#rpm-1934" rel="custom">Fixed an issue that caused the application publishing operation to hang when the application definitions in the database are in an invalid state. (RPM-1934)</a></li>
+<li><a href="#rpm-1980" rel="custom">Fixed an issue that caused the Scheduler Service to timeout earlier than expected when running Light Processes. (RPM-1980)</a></li>
+<li><a href="#rpm-2061" rel="custom">The Tuning and Security section of the Installation Checklist now refers to the supported scenario of configuring the cache invalidation service with high availability. (RPM-2061)</a></li>
+<li><a href="#rpm-2075" rel="custom">Added information to the Installation Checklist regarding the expected values for Oracle Asynchronous Commit parameters. (RPM-2075)</a></li>
+<li><a href="#rpm-564" rel="custom">Fixed an error occurring in Oracle environments when filtering the email logs by Status in Service Center. (RPM-564)</a></li>
+<li><a href="#rpm-999" rel="custom">Fixed the Japanese translations of some labels in the Users application. (RPM-999)</a></li>
+<li><a href="#rpm-726" rel="custom">Fixed a CSP related issue in Service Center console. CVSSv3.1 score 2.3 (Low). (RPM-726)</a></li>
 </ul>
 
 <h3>Known Issues</h3>
@@ -53,7 +53,7 @@ OutSystems recommends migrating from third party PostgreSQL connectors to the Ou
 <div class="moreDetailsDiv">
 <h3 id="more_details_platform_server_11.15.0" >More details</h3>
 <p>
-<a id="RPM-1092"><strong>RPM-1092</strong></a><br/>
+<span id="rpm-1092"><strong>RPM-1092</strong></span><br/>
 <b>Fixed an issue preventing Processes that are launched on the creation of new Entity records from being triggered for specific tenants after changing the Entity to multi-tenant.</b><br/>
 <span class="cattag">Publish Operation</span> <span class="cattag">Compilation</span> <br/>
 <br/>
@@ -61,7 +61,7 @@ OutSystems recommends migrating from third party PostgreSQL connectors to the Ou
 After changing a single-tenant module and a module's Entity to multi-tenant, Processes that are launched on the creation of new records in that Entity are not triggered for users of a new tenant. Those Processes are triggered only for users of the default tenant.
 </p>
 <p>
-<a id="RPM-1441"><strong>RPM-1441</strong></a><br/>
+<span id="rpm-1441"><strong>RPM-1441</strong></span><br/>
 <b>Fixed an issue that caused records to be deleted from OSSYS_MODULEFRONTEND table if duplicates were found, when upgrading the Platform Server component to 11.12.2 or later.</b><br/>
 <span class="cattag">Infrastructure Management</span> <span class="cattag">Platform Configuration</span> <br/>
 <br/>
@@ -69,7 +69,7 @@ After changing a single-tenant module and a module's Entity to multi-tenant, Pro
 While upgrading the Platform Server component to version 11.12.2 or later, clicking the "Create/Upgrade Database" button in the Configuration Tool would cause all records to be deleted from OSSYS_MODULEFRONTEND table if there were duplicates in that table. This issue would prevent Timers and Processes to run.
 </p>
 <p>
-<a id="RPM-1527"><strong>RPM-1527</strong></a><br/>
+<span id="rpm-1527"><strong>RPM-1527</strong></span><br/>
 <b>Improved the End-Users Configuration screen of Service Center to clarify the metrics shown for the Total Internal and Total External Users.</b><br/>
 <span class="cattag">Application Lifecycle</span> <span class="cattag">Service Center</span> <br/>
 <br/>
@@ -77,7 +77,7 @@ While upgrading the Platform Server component to version 11.12.2 or later, click
 On the Administration > Licensing > End-Users Configuration screen of the Service Center console, the Total Internal Users and Total External Users values don't match the sum of the users listed in the User Distribution Per User Provider list. Although the values follow the calculation rules for internal and external users, the screen UI suggests a mismatch of values. We have improved this Service Center screen to make those values clear.
 </p>
 <p>
-<a id="RPM-1551"><strong>RPM-1551</strong></a><br/>
+<span id="rpm-1551"><strong>RPM-1551</strong></span><br/>
 <b>Fixed an issue that caused the 1-Click Publish to fail with an error "Invalid compiler output. Unknown reference expression type Email" when publishing a module that references a Static Entity which has an Attribute of type Email.</b><br/>
 <span class="cattag">Publish Operation</span> <span class="cattag">Compilation</span> <br/>
 <br/>
@@ -85,7 +85,7 @@ On the Administration > Licensing > End-Users Configuration screen of the Servic
 When referencing a Static Entity which has an Attribute of type Email, the consumer module would fail to compile with the error "Unknown reference expression type Email".
 </p>
 <p>
-<a id="RPM-1577"><strong>RPM-1577</strong></a><br/>
+<span id="rpm-1577"><strong>RPM-1577</strong></span><br/>
 <b>Fixed an issue that caused the starvation of Scheduler Service activities in Personal Environments.</b><br/>
 <span class="cattag">Infrastructure Management</span> <span class="cattag">OutSystems Services</span> <br/>
 <br/>
@@ -93,7 +93,7 @@ When referencing a Static Entity which has an Attribute of type Email, the consu
 OutSystems Personal Environments run in a shared infrastructure. One environment with heavy Processes usage may cause database contention and accumulation of the Activities to process. In this situation, other environments may experience starvation of the Scheduler Service, namely, Process Activities are queued and stay in “Created” state for a long time.
 </p>
 <p>
-<a id="RPM-1619"><strong>RPM-1619</strong></a><br/>
+<span id="rpm-1619"><strong>RPM-1619</strong></span><br/>
 <b>Fixed the Deploy Service log message when preparing to deploy. The log message now includes only the modules to be deployed.</b><br/>
 <span class="cattag">Publish Operation</span> <span class="cattag">Deployment stage</span> <br/>
 <br/>
@@ -101,7 +101,7 @@ OutSystems Personal Environments run in a shared infrastructure. One environment
 General Log contains messages about "Preparing to undeploy espace" and "Preparing deploy pending espaces" always including lots of espaces that won't be actually be undeployed nor deployed.
 </p>
 <p>
-<a id="RPM-1653"><strong>RPM-1653</strong></a><br/>
+<span id="rpm-1653"><strong>RPM-1653</strong></span><br/>
 <b>Fixed an issue that caused the 1-Click Publish to fail with a compilation error when publishing a module that references a Static Entity which has an Attribute value that needs an implicit conversion to match the defined type. </b><br/>
 <span class="cattag">Publish Operation</span> <span class="cattag">Compilation</span> <br/>
 <br/>
@@ -116,7 +116,7 @@ When referencing a Static Entity which has an Attribute value that needs an impl
 An error could also happen while compiling a module containing a Static Entity with a Long Integer type and a Boolean value, without the need to actually reference it.
 </p>
 <p>
-<a id="RPM-1715"><strong>RPM-1715</strong></a><br/>
+<span id="rpm-1715"><strong>RPM-1715</strong></span><br/>
 <b>Fixed an issue in the Input_AutoComplete widget of RichWidgets when used with a text widget under specific conditions. Applies only to Traditional Web apps.</b><br/>
 <span class="cattag">Application Runtime</span> <span class="cattag">System Components</span> <br/>
 <br/>
@@ -124,7 +124,7 @@ An error could also happen while compiling a module containing a Static Entity w
 In Traditional Web apps, using an Input_AutoComplete widget of RichWidget with a text widget, such as the Input widget, that has a Max. Length value and the Text Lines property is greater than 1, causes an error when selecting the value from the Input_AutoComplete widget.
 </p>
 <p>
-<a id="RPM-1722"><strong>RPM-1722</strong></a><br/>
+<span id="rpm-1722"><strong>RPM-1722</strong></span><br/>
 <b>Fixed runtime error related with missing references, even though those references were not visible in the module in ServiceStudio.</b><br/>
 <span class="cattag">Application Runtime</span> <span class="cattag">Module References</span> <br/>
 <br/>
@@ -133,7 +133,7 @@ An empty reference inside the OML triggers an error “Could not load file or as
 This error happens after publishing a solution or staging an app using LifeTime including the affected module, if the module referenced has some other dependency that was not included in the published version.
 </p>
 <p>
-<a id="RPM-1874"><strong>RPM-1874</strong></a><br/>
+<span id="rpm-1874"><strong>RPM-1874</strong></span><br/>
 <b>When using LDAP authentication, the end user's last login information is now is properly updated.</b><br/>
 <span class="cattag">Application Lifecycle</span> <span class="cattag">Users</span> <br/>
 <br/>
@@ -141,7 +141,7 @@ This error happens after publishing a solution or staging an app using LifeTime 
 An issue in the Users application was preventing the end user's last login information to be updated in the database when using LDAP authentication.
 </p>
 <p>
-<a id="RPM-1876"><strong>RPM-1876</strong></a><br/>
+<span id="rpm-1876"><strong>RPM-1876</strong></span><br/>
 <b>Fixed a runtime error that occurred when adding or deleting attributes to a multi-tenant Entity and the publishing of the corresponding change is aborted during the execution of the DB scripts. Applies only to Oracle databases.</b><br/>
 <span class="cattag">Application Runtime</span> <br/>
 <br/>
@@ -149,7 +149,7 @@ An issue in the Users application was preventing the end user's last login infor
 This issue occurs only in Oracle databases, when you change the structure of a multi-tenant Entity, by adding or deleting attributes, and the module fails to publish during the execution of the DB scripts. In this situation, the multi-tenant views are not updated, causing ORA-00904 errors in runtime.
 </p>
 <p>
-<a id="RPM-1902"><strong>RPM-1902</strong></a><br/>
+<span id="rpm-1902"><strong>RPM-1902</strong></span><br/>
 <b>Improved the role validation of the end user accessing the Users application.</b><br/>
 <span class="cattag">Application Lifecycle</span> <span class="cattag">Users</span> <br/>
 <br/>
@@ -157,7 +157,7 @@ This issue occurs only in Oracle databases, when you change the structure of a m
 Using a specific development pattern, this issue would allow an anonymous session to access and modify information in the Users application.
 </p>
 <p>
-<a id="RPM-1934"><strong>RPM-1934</strong></a><br/>
+<span id="rpm-1934"><strong>RPM-1934</strong></span><br/>
 <b>Fixed an issue that caused the application publishing operation to hang when the application definitions in the database are in an invalid state.</b><br/>
 <span class="cattag">Publish Operation</span> <br/>
 <br/>
@@ -165,7 +165,7 @@ Using a specific development pattern, this issue would allow an anonymous sessio
 This issue causes the application publishing operation to hang in step "Creating Application" with no errors being returned, and the application pool stops working.
 </p>
 <p>
-<a id="RPM-1980"><strong>RPM-1980</strong></a><br/>
+<span id="rpm-1980"><strong>RPM-1980</strong></span><br/>
 <b>Fixed an issue that caused the Scheduler Service to timeout earlier than expected when running Light Processes.</b><br/>
 <span class="cattag">Application Runtime</span> <span class="cattag">Processes</span> <br/>
 <br/>
@@ -173,7 +173,7 @@ This issue causes the application publishing operation to hang in step "Creating
 When a Light Process reaches the default timeout, 180s, the request in the IIS is not aborted. After some time, when a new attempt is made to run the Light Process, the new request also shows up in the IIS. The original request only disappears from the pool after 300s, which is the default timeout of regular Processes.
 </p>
 <p>
-<a id="RPM-2061"><strong>RPM-2061</strong></a><br/>
+<span id="rpm-2061"><strong>RPM-2061</strong></span><br/>
 <b>The Tuning and Security section of the Installation Checklist now refers to the supported scenario of configuring the cache invalidation service with high availability.</b><br/>
 <span class="cattag">Infrastructure Management</span> <span class="cattag">Platform Installation Checklist</span> <br/>
 <br/>
@@ -181,7 +181,7 @@ When a Light Process reaches the default timeout, 180s, the request in the IIS i
 For customers requiring that <a href= "https://success.outsystems.com/Support/Enterprise_Customers/Maintenance_and_Operations/Cache_Invalidation_in_OutSystems_11#when-ha">the cache invalidation service is always available</a>, it's possible to configure RabbitMQ to work as a cluster. This information has now been included in the Tuning and Security section of the Installation Checklist to give visibility of this option.
 </p>
 <p>
-<a id="RPM-2075"><strong>RPM-2075</strong></a><br/>
+<span id="rpm-2075"><strong>RPM-2075</strong></span><br/>
 <b>Added information to the Installation Checklist regarding the expected values for Oracle Asynchronous Commit parameters.</b><br/>
 <span class="cattag">Application Runtime</span> <span class="cattag">Data Access and Manipulation</span> <br/>
 <br/>
@@ -189,7 +189,7 @@ For customers requiring that <a href= "https://success.outsystems.com/Support/En
 In Oracle databases, having the Asynchronous Commit feature enabled may lead to runtime errors related to integrity constraints violation or null pointers. To prevent these errors, we added to the Installation Checklist the supported values for the Oracle Asynchronous Commit parameters.
 </p>
 <p>
-<a id="RPM-564"><strong>RPM-564</strong></a><br/>
+<span id="rpm-564"><strong>RPM-564</strong></span><br/>
 <b>Fixed an error occurring in Oracle environments when filtering the email logs by Status in Service Center.</b><br/>
 <span class="cattag">Application Lifecycle</span> <span class="cattag">Service Center</span> <br/>
 <br/>
@@ -197,7 +197,7 @@ In Oracle databases, having the Asynchronous Commit feature enabled may lead to 
 This issue occurs in Oracle environments, on the Service Center > Monitoring > Email screen. Filtering the email logs by Status causes the error " ORA-01843: not a valid month".
 </p>
 <p>
-<a id="RPM-726"><strong>RPM-726</strong></a><br/>
+<span id="rpm-726"><strong>RPM-726</strong></span><br/>
 <b>Fixed a CSP related issue in Service Center console. CVSSv3.1 score 2.3 (Low).</b><br/>
 <span class="cattag">Application Lifecycle</span> <span class="cattag">LifeTime</span> <br/>
 <br/>
@@ -205,7 +205,7 @@ This issue occurs in Oracle environments, on the Service Center > Monitoring > E
 Service Center console was failing to include Content Security Policy directives.
 </p>
 <p>
-<a id="RPM-999"><strong>RPM-999</strong></a><br/>
+<span id="rpm-999"><strong>RPM-999</strong></span><br/>
 <b>Fixed the Japanese translations of some labels in the Users application.</b><br/>
 <span class="cattag">Application Lifecycle</span> <span class="cattag">Users</span> <br/>
 <br/>
