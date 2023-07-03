@@ -34,13 +34,11 @@ Having ongoing or prepared deployments when adding a new front-end server might 
 
 ### On OutSystems Cloud
 
-You can scale your environments with the addition of more Front-End servers.
+Scaling of resources in OutSystems Cloud depends on the customer's subscription.
 
-To do it, [submit a request to OutSystems support](https://success.outsystems.com/Support/OutSystems_community/Opening_a_support_case_with_OutSystems), which responds according to the request priority and respective SLAs.
+When scaling is needed, [submit a request to OutSystems support](https://success.outsystems.com/Support/OutSystems_community/Opening_a_support_case_with_OutSystems), which responds according to the request priority and respective SLAs.
 
 * For Horizontal scaling requests, the new front-end server is created and added to the load balancer automatically, becoming immediately available after provisioning ends.
-    
-    Additional front-end servers are available for Standard and Enterprise editions. The use of additional front-end servers is subject to the OutSystems Cloud Fair Usage Policy.
  
 * For Vertical scaling of front-end servers, upon customer request, OutSystems proposes a schedule for the upgrade, subject to customer confirmation.
 
