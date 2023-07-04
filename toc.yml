@@ -537,7 +537,6 @@
             - href: enterprise/licensing/manage/get-license-for-env.md
             - href: enterprise/licensing/manage/howto-install-license.md
             - href: enterprise/licensing/manage/free-up-environment.md
-            - href: enterprise/licensing/manage/enable-db-replica.md
 
         # Troubleshooting
         - href: enterprise/licensing/troubleshooting/enterprise-licensing-trouble.md
