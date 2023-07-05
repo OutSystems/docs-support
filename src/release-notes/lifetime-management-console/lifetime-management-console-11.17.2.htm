@@ -1,0 +1,25 @@
+---
+isautopublish: true
+pageprivacy: public
+---
+
+<h2 id="lifetime_management_console_11.17.2" >LifeTime Management Console 11.17.2</h2>
+<div class="info"><p>Released on Jul 05, 2023</p></div>
+
+
+<style>.cattag {background: #f4f2ff; color: #6a6581; padding: 4px 10px;}</style>
+<h3 id="new_in_lifetime_management_console_11.17.2" >New in LifeTime Management Console 11.17.2</h3>
+<ul>
+<li>OutSystems Charts application was removed from LifeTime solution. This will avoid conflicts with recent versions of OutSystems Charts that may be deployed by the customer on environments running LifeTime. (R11CT-2204)</li>
+<li>Improved the user experience in the list of Application Versions on the Deployment Plan page by making it clearer which was the previous application version and which application version was updated to the target environment. (R11CT-2206)</li>
+<li>Platform Server version updated to 11.21.0 (R11CT-2215)</li>
+<li>Now, the password change functionality has been moved to a convenient pop-up, initiated by clicking the "Change Password" button, ensuring a seamless user experience and eliminating any confusion regarding password updates on the User Edit screen. (RDOI-279)</li>
+</ul>
+<h3 id="bug_fixing_lifetime_management_console_11.17.2" >Bug Fixing</h3>
+<ul>
+<li>Fixed an issue that caused an error when staging a producer of an ISV-protected module in LifeTime. (RPM-3820) <span class="cattag">Application Lifecycle</span>  <span class="cattag">LifeTime</span> </li>
+<li>Fixed an issue that caused modules to be deleted in the target environment of a deployment plan. This occurred when there was an issue that would stop the compiler service during the synchronization of application versions in LifeTime, marking the affected versions as non existing in the source environment. After performing a deployment to the target environment, these modules were deleted. (RPM-3956) <span class="cattag">Application Lifecycle</span>  <span class="cattag">LifeTime</span> </li>
+<li>Fixed an issue in the LifeTime API that caused exceptions like "Invalid status change : trying to change Staging with the id..." being logged when calling the method "GET /deployments/{DeploymentKey}/". This occurred when the deployment was in certain states (e.g. "Finished With Warnings") and the API method would attempt to change the deployment state. (RPM-3993) <span class="cattag">Application Lifecycle</span>  <span class="cattag">LifeTime</span> </li>
+<li>Fixed Japanese translations on ApplySettings_Popup, when applying settings to an application. (RPM-4076) <span class="cattag">Application Lifecycle</span>  <span class="cattag">LifeTime</span> </li>
+</ul>
+
