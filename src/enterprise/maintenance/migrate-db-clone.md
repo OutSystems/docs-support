@@ -283,7 +283,7 @@ To prevent this you must always clean up all LifeTime configuration in the clone
 
 This section focuses on scenarios in which you have to install a new OutSystems Platform from scratch on a single-node server (a server with both the Deployment Controller and Front-End services). The new installation is to use the restored database catalog.
 
-1. **Install the pre-requirements. **[Check the OutSystems Platform Installation guide.](https://success.outsystems.com//Documentation/11/Setting_Up_OutSystems). This will ensure software pre-requirements installation and correct configuration of the Platform Server
+1. **Install the pre-requirements. **[Check the OutSystems Platform Installation guide.](https://success.outsystems.com/Documentation/11/Setting_Up_OutSystems). This will ensure software pre-requirements installation and correct configuration of the Platform Server
 
 1. **Install OutSystems Platform Server.** Run OutSystems Platform installer to install OutSystems Platform.
 
