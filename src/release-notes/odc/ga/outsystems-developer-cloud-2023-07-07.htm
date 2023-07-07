@@ -15,6 +15,8 @@ pageprivacy: public
 In the event of a failed change password flow due to excessive unsuccessful attempts, users will receive a specific message: "Too many failed attempts, please try again after some time." 
 
 This improvement enhances the user experience by providing clear feedback and guidance in such scenarios. (RAR-2113)</li>
+<li>Improved the behavior when filtering for Users, Apps, Status, and Severity on the Logs and Traces screens. Now, when filtering for a specific value on those properties, the respective column will no longer be hidden on the results list. (RDLOT-1957)</li>
+<li>Fixed an issue that caused the Logs screen to not load when the user didn’t have permission to view the user’s information. (RDLOT-2005)</li>
 <li>Added Sleep system action. (RTAFB-6769)</li>
 <li>Added exception message when the output parameters aggregated size from a custom code action is too large (> 5.5 MB). (RTAFB-6782)</li>
 </ul>
