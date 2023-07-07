@@ -1,0 +1,28 @@
+---
+isautopublish: true
+pageprivacy: public
+---
+
+<h2 id="outsystems_developer_cloud_2023-07-07" >OutSystems Developer Cloud 2023-07-07</h2>
+<div class="info"><p>Released on Jul 07, 2023</p></div>
+
+
+<style>.cattag {background: #f4f2ff; color: #6a6581; padding: 4px 10px;}</style>
+<h3 id="new_in_outsystems_developer_cloud_2023-07-07" > New</h3>
+<ul>
+<li>This release introduces a new failure reason, "TooManyFailedAttempts," to the Client action "ChangePassword." 
+
+In the event of a failed change password flow due to excessive unsuccessful attempts, users will receive a specific message: "Too many failed attempts, please try again after some time." 
+
+This improvement enhances the user experience by providing clear feedback and guidance in such scenarios. (RAR-2113)</li>
+<li>Added Sleep system action. (RTAFB-6769)</li>
+<li>Added exception message when the output parameters aggregated size from a custom code action is too large (> 5.5 MB). (RTAFB-6782)</li>
+</ul>
+<h3 id="bug_fixing_outsystems_developer_cloud_2023-07-07" >Bug Fixing</h3>
+<ul>
+<li>Resolved an issue that may have prevent administrator registration during the establishment of new tenants in recently expanded regions. (RDPIDT-1420)</li>
+<li>Fixed a concurrency problem that caused the publication of an External Library to fail (OS-ELGW-50005). (RTAFB-6816)</li>
+<li>Improved error message (previously OS-ELG-MODL-50010) when uploading an External Library package containing files that cannot be uncompressed. (RTAFB-6817)</li>
+<li>Improved error message (previously OS-ELG-MODL-50010) when uploading an External Library package that was compressed using an unsupported method. (RTAFB-6823)</li>
+</ul>
+
