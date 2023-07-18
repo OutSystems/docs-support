@@ -38,11 +38,11 @@ The following table describes the cookies used by OutSystems. A list of cookies 
 | `nr1<User Provider Name>` | 192 | Session | Used to enforce session expiration as needed. Contains information needed to ensure session authenticity. |
 | `nr2<User Provider Name>` | 99 | Session | Provides information to the application code about the user identifier via the built-in function GetUserId. Contains information needed to avoid CSRF attacks. |
 | DEVICE_ORIENTATION | 26 | 360 days | Used to store the orientation of the mobile device to allow OutSystems UI to implement the action `GetDeviceOrientation` properly. No association with an actual user identity(ies) is done by OutSystems. |
-| DEVICES_TYPE | 17 | 360 days | Used to store the type of mobile device in use to allow OutSystems UI to adjust the interface. No association with an actual user identity(ies) is done by OutSystems. |
+| DEVICE_TYPE | 17 | 360 days | Used to store the type of mobile device in use to allow OutSystems UI to adjust the interface. No association with an actual user identity(ies) is done by OutSystems. |
 | DEVICE_BROWSER | 20 | 360 days | Used to store the browser in use on the device to allow OutSystems UI to implement the action `GetBrowser` properly. No association with an actual user identity(ies) is done by OutSystems. |
-| DEVICE_OS | 12 | 360 days | Used to store the device's operating system allowing OutSystems UI to to implement the action `GetOS` properly. No association with an actual user identity(ies) is done by OutSystems. |
+| DEVICE_OS | 12 | 360 days | Used to store the device's operating system allowing OutSystems UI to implement the action `GetOS` properly. No association with an actual user identity(ies) is done by OutSystems. |
 | RT | 87 | 10 min | Used to calculate load time information collected for LifeTime Analytics. The cookie will only be present if the application has Monitoring turned on (in LifeTime Analytics). No association with an actual user identity(ies) is done by OutSystems. |
 
-This the list of the cookies created by default by OutSystems. Don't forget that your applications may explicitly implement additional cookies, and in such scenarios you need to disclose their purpose to the users.
+This is the list of the cookies created by default by OutSystems. Don't forget that your applications may explicitly implement additional cookies, and in such scenarios, you need to disclose their purpose to the users.
 
 Feel free to use this information on your own website or link directly to this topic using [this address](http://www.outsystems.com/goto/cookie-usage).
