@@ -4,6 +4,7 @@ locale: en-us
 guid: 60f532d6-5fa3-4b1e-91cc-9e4ec6686e87
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
+figma:
 ---
 
 # Cookie usage in OutSystems applications
