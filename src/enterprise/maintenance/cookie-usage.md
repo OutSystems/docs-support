@@ -4,6 +4,7 @@ locale: en-us
 guid: 60f532d6-5fa3-4b1e-91cc-9e4ec6686e87
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
+figma: 
 ---
 
 # Cookie usage in OutSystems applications
@@ -38,7 +39,8 @@ The following table describes the cookies used by OutSystems. A list of cookies 
 | `nr1<User Provider Name>` | 192 | Session | Used to enforce session expiration as needed. Contains information needed to ensure session authenticity. |
 | `nr2<User Provider Name>` | 99 | Session | Provides information to the application code about the user identifier via the built-in function GetUserId. Contains information needed to avoid CSRF attacks. |
 | DEVICE_ORIENTATION | 26 | 360 days | Used to store the orientation of the mobile device to allow OutSystems UI to implement the action `GetDeviceOrientation` properly. No association with an actual user identity(ies) is done by OutSystems. |
-| DEVICE_TYPE | 17 | 360 days | Used to store the type of mobile device in use to allow OutSystems UI to adjust the interface. No association with an actual user identity(ies) is done by OutSystems. |
+| DEVICE_TYPE | 21 | 365 days | Used to store the type of device being used so the framework can adjust properly in Silk UI Web. |
+| DEVICES_TYPE | 17 | 360 days | Used to store the type of mobile device in use to allow OutSystems UI to adjust the interface. No association with an actual user identity(ies) is done by OutSystems. |
 | DEVICE_BROWSER | 20 | 360 days | Used to store the browser in use on the device to allow OutSystems UI to implement the action `GetBrowser` properly. No association with an actual user identity(ies) is done by OutSystems. |
 | DEVICE_OS | 12 | 360 days | Used to store the device's operating system allowing OutSystems UI to implement the action `GetOS` properly. No association with an actual user identity(ies) is done by OutSystems. |
 | RT | 87 | 10 min | Used to calculate load time information collected for LifeTime Analytics. The cookie will only be present if the application has Monitoring turned on (in LifeTime Analytics). No association with an actual user identity(ies) is done by OutSystems. |
