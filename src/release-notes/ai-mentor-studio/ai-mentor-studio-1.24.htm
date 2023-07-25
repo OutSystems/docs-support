@@ -6,3 +6,20 @@ pageprivacy: semi-private
 <h2 id="ai_mentor_studio_1.24" >AI Mentor Studio 1.24</h2>
 <div class="info"><p>This is a preliminary version of the document.</p></div>
 
+
+<style>.cattag {background: #f4f2ff; color: #6a6581; padding: 4px 10px;}</style>
+<h3 id="new_in_ai_mentor_studio_1.24" >New in AI Mentor Studio 1.24</h3>
+<ul>
+<li>Added a new maintainability pattern “Unreachable logic”, which helps to identify logic that will never run due to hard-coded True/False conditions. (RADRT-2280)</li>
+<li>Added a new maintainability pattern “Unused Action in a Module” which helps to identify unused and potentially obsolete code. (RADRT-2288)</li>
+<li>Now, AI Mentor Studio supports IT user authentication, allowing customers to use the same authentication they use to access OutSystems platform and consoles or an external IdP configured for IT Users. (RADRT-2387)</li>
+<li>Added two new security patterns "Screen Aggregate exposing System entities on Anonymous screen" and "Screen Aggregate exposing System entities on Registered screen" which help identify potential exposure of sensitive data to unauthorized persons. (RADRT-2388)</li>
+<li>Now synchronizations will be automatically reduced after a two weeks period without any access to AI Mentor Studio until a minimum of one synchronization per month. (RADRT-2399)</li>
+<li>Now, customers using an external identity provider configured in LifeTime can levarege their authentication mechanism to log in to AI Mentor Studio. (RADRT-2433)</li>
+</ul>
+<h3 id="bug_fixing_ai_mentor_studio_1.24" >Bug Fixing</h3>
+<ul>
+<li>Fixed an issue in the report area where the technical debt percentage of the top pattern on the list was set to 0 after resolving all findings of a different pattern. (RADRT-2476)</li>
+<li>Added an error message when a negative offset is provided on the AI Mentor Studio API. (RADRT-2536)</li>
+</ul>
+
