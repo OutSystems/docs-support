@@ -5,7 +5,7 @@ app_type: mobile apps, reactive web apps
 platform-version: odc
 ---
 
-<div class="hidden"><h1>OutSystems Developer Cloud</h1></div> 
+<div class="hidden"><h1>OutSystems Developer Cloud</h1></div>
 
 <div class="hidden" id="outsystems-developer-cloud-2023-03-09_start"></div>
 
