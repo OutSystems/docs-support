@@ -64,8 +64,6 @@ Usual approaches to this change include scripts that perform the collation chang
 
 The below links may be useful on how to consider such an approach:
 
-* [http://www.db-staff.com/index.php/mi...ange-collation](http://www.db-staff.com/index.php/microsoft-sql-server/69-change-collation)
-
 * [https://www.outsystems.com/forums/di...-to-operation/](https://www.outsystems.com/forums/discussion/2766/mssql-error-cannot-resolve-collation-conflict-for-equal-to-operation/)
 
 * [https://msdn.microsoft.com/en-us/lib.../ms143726.aspx](https://msdn.microsoft.com/en-us/library/ms143726.aspx)
