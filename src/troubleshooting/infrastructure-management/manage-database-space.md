@@ -38,3 +38,7 @@ Note that these metrics are updated every hour, so they might not represent the 
 
 </div>
 
+<div class="info" markdown="1">
+In the event that the personal environment becomes unavailable or the space used reaches 100% on LifeTime Environment Health, by reaching the 2GB allocated to the environments, it will be necessary to open a Support Case with OutSystems to unblock the environment and suggest specific cleanup actions according to each use case.
+</div>
+
