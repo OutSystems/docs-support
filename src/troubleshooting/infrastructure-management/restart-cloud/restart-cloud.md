@@ -28,7 +28,7 @@ On 1 you can check the detail of the error and on 2 you can have some more detai
 
 ![Environment health detail](images/restart-cloud-status-lt.png)
 
-On the error report you can try to sync your environment again just to see if this was just a communication problem. If it doesn't resolve the issue, then you can go to the environment details and restart OutSystems services:
+On the error report, you can try to sync your environment again just to see if this was just a communication problem. If it doesn't resolve the issue, then you can go to the environment details and restart OutSystems services:
 
 
 ![Restart services of an environment](images/restart-cloud-lt.png)
@@ -36,5 +36,10 @@ On the error report you can try to sync your environment again just to see if th
 <div class="info" markdown="1">
 
 Clicking **Restart Services** performs an IIS reset, clears the application pools, and clears any hanging requests. In the case of multiple front-ends, this restart is balanced (front-end servers are restarted one at a time).
+
+</div>
+<div class="info" markdown="1">
+    
+In the event that the personal environment becomes unavailable or the space used reaches 100% on LifeTime Environment Health, by reaching the 2GB allocated to the environments, it will be necessary to open a Support Case with OutSystems to unblock the environment and suggest specific cleanup actions according to each use case.
 
 </div>
