@@ -35,11 +35,6 @@ On the error report, you can try to sync your environment again just to see if t
 
 <div class="info" markdown="1">
 
-Clicking **Restart Services** performs an IIS reset, clears the application pools, and clears any hanging requests. In the case of multiple front-ends, this restart is balanced (front-end servers are restarted one at a time).
-
-</div>
-<div class="info" markdown="1">
-    
-In the event that the personal environment becomes unavailable or the space used reaches 100% on LifeTime Environment Health, by reaching the 2GB allocated to the environments, it will be necessary to open a Support Case with OutSystems to unblock the environment and suggest specific cleanup actions according to each use case.
+Clicking **Restart Services** performs an IIS reset, clears the application pools, and Restart all OutSystems Services (OutSystems Deployment Controller Service, OutSystems Deployment Service, OutSystems Scheduler Service) and clears any hanging requests. In the case of multiple front-ends, this restart is balanced (front-end servers are restarted one at a time). 
 
 </div>
