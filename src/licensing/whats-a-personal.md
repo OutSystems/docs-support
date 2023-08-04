@@ -10,7 +10,7 @@ platform-version: o11
 
 The Personal Environment (PE) is the **free, cloud-based version** of OutSystems. It allows you to create, deploy, and run your personal applications.
 
-When you [create an account](https://www.outsystems.com/home/GetStartedForFree.aspx) at the OutSystems community, we'll invite you to create a Personal Environment. Once created, it's address and status will always be accessible at your [Platform Home](https://www.outsystems.com/home) page.
+When you [create an account](https://www.outsystems.com/home/GetStartedForFree.aspx) at the OutSystems community, we'll invite you to create a Personal Environment. Once created, its address and status will always be accessible at your [Platform Home](https://www.outsystems.com/home) page.
 
 ## Is it really free? Until when?
 
@@ -50,7 +50,7 @@ Support for Personal Environments is delivered on a best-effort basis only, with
 
 We ask that you [contact OutSystems Support](https://www.outsystems.com/legal/success/contact-outsystems-technical-support/) only if the issue you are experiencing is infrastructure related and is still happening after a couple of hours since you first spotted it.
 
-If you have an ongoing commercial evaluation using a Personal Environment and you hit a road block, contact our chat support. Let us know you're evaluating so we're able to provide you with the full Enterprise-grade experience.
+If you have an ongoing commercial evaluation using a Personal Environment and you hit a roadblock, contact our chat support. Let us know you're evaluating so we're able to provide you with the full Enterprise-grade experience.
 
 ## Can I use a personal environment to integrate with external databases or services?
 
@@ -82,7 +82,7 @@ Detaching the source code of your applications is only available for subscriptio
 
 * **No direct database access:** Check alternate ways on [how to extract data from your application](https://success.outsystems.com/Support/Personal_Environment/Personal_environment_hosting_infrastructure_under_the_hood#Extracting_your_data). You can't use stored procedures.
 
-* **No VPN:** You can't request the creation of a VPN connection in your Personal Environment.
+* **No enterprise connectivity:** You can't request the creation of a VPN, AWS Transit Gateway, or AWS Direct Connect in your Personal Environment.
 
 * **SaaS components:** OutSystems provides SaaS components such as, for example, [AI Mentor Studio](https://success.outsystems.com/Documentation/11/Managing_the_Applications_Lifecycle/Manage_technical_debt/), [Workflow Builder](https://success.outsystems.com/Documentation/Workflow_Builder) or [Experience Builder](https://success.outsystems.com/Documentation/Experience_Builder). These components may not be available for Personal Environments, at OutSystems discretion. Make sure to check the requirements in each component's documentation.
 
