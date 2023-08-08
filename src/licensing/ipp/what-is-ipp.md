@@ -22,7 +22,9 @@ When the IPP feature is **protected**, you can deploy applications across all th
 
 If you are trying to deploy modules from other infrastructures, you might get the error message:
 
-```Invalid Intellectual Property: You are trying to upload or publish a solution that was created in a Platform Server and its intellectual Property is protected```
+```error
+Invalid Intellectual Property: You are trying to upload or publish a solution that was created in a Platform Server and its intellectual Property is protected
+```
 
 If you get an error message, check [this article](../../troubleshooting/application-development/ipp-error.md).
 
