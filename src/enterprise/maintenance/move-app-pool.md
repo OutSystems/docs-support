@@ -5,6 +5,7 @@ locale: en-us
 guid: ec265170-1cd0-4114-8276-47b6a14b4698
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
+figma: https://www.figma.com/file/cPLNnZfDOZ1NX3avcjmq3g/Enterprise%20Customers?node-id=619:3
 ---
  
 # Move an app to another application pool on IIS

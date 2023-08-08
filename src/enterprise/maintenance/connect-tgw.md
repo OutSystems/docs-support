@@ -5,6 +5,7 @@ locale: en-us
 guid: b7342d4a-b766-4910-96d8-2f557628e2cd
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
+figma: https://www.figma.com/file/cPLNnZfDOZ1NX3avcjmq3g/Enterprise%20Customers?node-id=618:32
 ---
 
 # Connect to your OutSystems Cloud using AWS Transit Gateway

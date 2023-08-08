@@ -5,6 +5,7 @@ locale: en-us
 guid: e116dd10-0c89-4d14-967d-9b0308df956b
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
+figma: https://www.figma.com/file/cPLNnZfDOZ1NX3avcjmq3g/Enterprise%20Customers?node-id=620:0
 ---
 
 # Set up a VPN using LifeTime 11.6.0 or earlier

@@ -4,6 +4,7 @@ locale: en-us
 guid: d538f88c-9a77-41e7-80df-15f9539072a3
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
+figma:
 ---
 
 # How OutSystems protects your Android and iOS certificates

@@ -5,6 +5,7 @@ locale: en-us
 guid: ae2f1814-d3bb-4e38-a5ba-33423aec6c34
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
+figma:
 ---
 
 # Service permissions error when installing or upgrading to Platform Server 11.12.0 or later

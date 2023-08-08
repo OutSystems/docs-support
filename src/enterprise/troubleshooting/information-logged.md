@@ -4,6 +4,7 @@ locale: en-us
 guid: 0c19ce88-799c-45bb-954a-c77d1364fb87
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
+figma: https://www.figma.com/file/6tXLupLiqfG9FOElATTGQU/Troubleshooting?node-id=620:38
 ---
 
 # Information Logged by OutSystems Platform

@@ -5,6 +5,7 @@ locale: en-us
 guid: a40fd69f-f60e-42c5-ad67-d5cdcda8dd1d
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
+figma:
 ---
 
 # Known issue after update to 11.10.2 - value cannot be null error installing Service Center 

@@ -4,6 +4,7 @@ locale: en-us
 guid: 51ecc9cc-fae3-4a8d-bde6-e65fe75f09d3
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
+figma: https://www.figma.com/file/cPLNnZfDOZ1NX3avcjmq3g/Enterprise%20Customers?node-id=619:22
 ---
 
 # Remove the infrastructure management console from an environment

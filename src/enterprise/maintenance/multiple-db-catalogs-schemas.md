@@ -4,6 +4,7 @@ locale: en-us
 guid: 1c742c8a-449c-4828-865b-7295d2f90527
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
+figma: https://www.figma.com/file/cPLNnZfDOZ1NX3avcjmq3g/Enterprise%20Customers?node-id=619:8
 ---
 
 # Multiple Database Catalogs and Schemas

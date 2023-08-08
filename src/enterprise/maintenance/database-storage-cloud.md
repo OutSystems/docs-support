@@ -4,6 +4,7 @@ locale: en-us
 guid: e0ed7b1b-f7cc-42cb-9b6d-d36c808e7f0e
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
+figma:
 ---
 
 # Database storage on OutSystems Cloud

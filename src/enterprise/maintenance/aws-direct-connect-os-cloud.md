@@ -5,6 +5,7 @@ locale: en-us
 guid: 8a6372d7-7acc-4e88-98cd-41946233ca2d
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
+figma:
 ---
 
 # AWS Direct Connect on OutSystems Cloud

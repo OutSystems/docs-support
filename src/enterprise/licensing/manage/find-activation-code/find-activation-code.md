@@ -4,6 +4,7 @@ locale: en-us
 guid: 3e05decb-fc94-454c-9c02-d7acfd4c2a3b
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
+figma: https://www.figma.com/file/cPLNnZfDOZ1NX3avcjmq3g/Enterprise%20Customers?node-id=603:867
 ---
 
 # Find the Activation Code and the Serial Number

@@ -5,6 +5,7 @@ locale: en-us
 guid: 94fe2273-28c4-448f-8c54-cf699d40f9f1
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
+figma:
 ---
 # Add certificate to trusted root store in OutSystems Cloud
 

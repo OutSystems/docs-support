@@ -5,6 +5,7 @@ locale: en-us
 guid: b04339ce-7b9f-4c93-94b7-e4cf397eab47
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
+figma: https://www.figma.com/file/cPLNnZfDOZ1NX3avcjmq3g/Enterprise%20Customers?node-id=618:22
 ---
 
 # OutSystems Cloud Shared Responsibility Model

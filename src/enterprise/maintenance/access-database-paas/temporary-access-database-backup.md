@@ -4,6 +4,7 @@ locale: en-us
 guid: 4d382874-5b72-4c06-a65d-09032dd9f1cc
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
+figma:
 ---
 
 # Temporary OutSystems Cloud database backup

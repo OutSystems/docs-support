@@ -4,6 +4,7 @@ locale: en-us
 guid: 6b46a4ee-85c8-482d-96dd-e555863e7935
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
+figma:
 ---
 
 # Re-Install the OutSystems Platform on a different path

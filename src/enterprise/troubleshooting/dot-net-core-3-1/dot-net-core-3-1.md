@@ -5,6 +5,7 @@ locale: en-us
 guid: c194d1df-6f2f-46c6-8085-a03fad7f8796
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
+figma:
 ---
 
 # Server.API and Server.Identity fail to initialize after upgrading to Platform Server 11.12.2 or later

@@ -4,6 +4,7 @@ locale: en-us
 guid: a981ba0b-3a4d-4a75-b410-b38be75bea82
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
+figma:
 ---
 
 # OutSystems Platform Server failover procedures

@@ -5,6 +5,7 @@ locale: en-us
 guid: 95ac49e0-a453-4fe3-9b67-49d88ee832bd
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
+figma: https://www.figma.com/file/cPLNnZfDOZ1NX3avcjmq3g/Enterprise%20Customers?node-id=1261:2374
 ---
 
 # Get a license file for an environment

@@ -4,6 +4,7 @@ locale: en-us
 guid: 394c269a-4655-41ff-8543-957c705d97fd
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
+figma:
 ---
 
 # Upgrading SQL Server to a new compatibility level

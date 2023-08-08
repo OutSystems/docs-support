@@ -5,6 +5,7 @@ locale: en-us
 guid: c7a43888-5a32-42f9-ab2a-f479c076ad79
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
+figma: https://www.figma.com/file/cPLNnZfDOZ1NX3avcjmq3g/Enterprise%20Customers?node-id=618:342
 ---
 
 # Migrate an Environment Using a Database Clone

@@ -4,6 +4,7 @@ locale: en-us
 guid: 9807d569-fb06-45bd-8c68-ae204ee2aa8c
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
+figma:
 ---
 
 # Error processing SAML response - Unable to decrypt the assertion

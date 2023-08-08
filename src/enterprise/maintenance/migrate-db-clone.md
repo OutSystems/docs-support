@@ -5,6 +5,7 @@ guid: 969DB4B1-51CF-4908-A638-A345D2AB841C
 locale: en-us
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
+figma:
 ---
 
 # Migrate an Environment Using a Database Clone

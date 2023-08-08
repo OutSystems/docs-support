@@ -5,6 +5,7 @@ locale: en-us
 guid: 0d587c36-c08e-41fa-b612-cb3c847a9461
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
+figma: https://www.figma.com/file/cPLNnZfDOZ1NX3avcjmq3g/Enterprise%20Customers?node-id=616:8
 ---
 
 # Changed the hardware and the license stopped being valid
