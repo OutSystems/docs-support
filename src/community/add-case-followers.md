@@ -5,6 +5,7 @@ locale: en-us
 guid: 106363F9-E2BA-436E-9CD7-F81BE980BECD
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
+figma: https://www.figma.com/file/mP34OzloL9EPqXml1E0tfC/Community?node-id=908:326
 ---
 
 # Adding followers to a Support case

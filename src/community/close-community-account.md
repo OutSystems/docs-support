@@ -5,6 +5,7 @@ locale: en-us
 guid: 7486F578-3FAD-420D-9229-1E57E2555991
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
+figma: https://www.figma.com/file/mP34OzloL9EPqXml1E0tfC/Community?node-id=1010:329
 ---
 
 # How to close your OutSystems community account

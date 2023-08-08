@@ -5,6 +5,7 @@ locale: en-us
 guid: FD44BBCC-5FF2-41D9-8685-911E353DCF16
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
+figma:
 ---
 
 # Enhanced security for OutSystems support cases

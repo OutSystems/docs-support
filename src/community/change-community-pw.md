@@ -5,6 +5,7 @@ locale: en-us
 guid: 1A216E07-414F-4AA8-86ED-56F3FF608450
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
+figma: https://www.figma.com/file/mP34OzloL9EPqXml1E0tfC/Community?node-id=1002:334
 ---
 
 # How to change your OutSystems community password
