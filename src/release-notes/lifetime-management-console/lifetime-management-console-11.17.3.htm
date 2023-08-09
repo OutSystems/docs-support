@@ -1,0 +1,21 @@
+---
+isautopublish: true
+pageprivacy: public
+---
+
+<h2 id="lifetime_management_console_11.17.3" >LifeTime Management Console 11.17.3</h2>
+<div class="info"><p>Released on Aug 09, 2023</p></div>
+
+
+<style>.cattag {background: #f4f2ff; color: #6a6581; padding: 4px 10px;}</style>
+<h3 id="bug_fixing_lifetime_management_console_11.17.3" >Bug Fixing</h3>
+<ul>
+<li>Fixed an issue that would redirect the user to the internal exception screen.
+This issue would be triggered when the user tried to access a saved staging plan which included an environment they don't have access to.
+Now, the user can't navigate to staging screens that include environments to which the user doesn't have access. (R11CT-2247)</li>
+<li>Fixed an issue that would prevent a query from returning all the results for the StagingReport. This issue occurred when trying to export a StagingReport from the Troubleshoot page when there were no Source or Target environments filtered. Now, the page filter no longer has an impact on the report results and all the records are exported. (R11CT-2251)</li>
+<li>Fixed an issue that showed a hotfix tooltip with the wrong environment name.
+This issue occurred when a user didn't have access to the first environment on the infrastructure and their first visible or following environments had a hotfix.
+Now the tooltip doesn't mention the first environment's name if the user doesn't have permissions for it. (RPM-876) <span class="cattag">Application Lifecycle</span>  <span class="cattag">LifeTime</span> </li>
+</ul>
+
