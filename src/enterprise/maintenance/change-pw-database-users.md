@@ -8,7 +8,7 @@ platform-version: o11
 figma:
 ---
 
-#  How to change the password of OutSystems database users
+# How to change the password of OutSystems database users
 
 <div class="info" markdown="1">
 

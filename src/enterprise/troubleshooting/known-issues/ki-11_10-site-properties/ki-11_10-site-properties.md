@@ -8,7 +8,7 @@ platform-version: o11
 figma:
 ---
 
-# Known issue after update to 11.10.2 - value cannot be null error installing Service Center 
+# Known issue after update to 11.10.2 - value cannot be null error installing Service Center
 ## Issue description { #issue-description }
 
 This issue occurs upon an upgrade of the Platform Server on an environment that is meets all the following conditions:
