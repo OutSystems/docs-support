@@ -1,0 +1,26 @@
+---
+isautopublish: true
+pageprivacy: public
+---
+
+<h2 id="outsystems_developer_cloud_2023-08-16" >OutSystems Developer Cloud 2023-08-16</h2>
+<div class="info"><p>Released on Aug 16, 2023</p></div>
+
+
+<style>.cattag {background: #f4f2ff; color: #6a6581; padding: 4px 10px;}</style>
+<h3 id="new_in_outsystems_developer_cloud_2023-08-16" > New</h3>
+<ul>
+<li>Tweaks error handling mechanism (RPLAT-1829)</li>
+<li>Enhances service inventory (RPLAT-1995)</li>
+</ul>
+<h3 id="bug_fixing_outsystems_developer_cloud_2023-08-16" >Bug Fixing</h3>
+<ul>
+<li>For external entities, fixed a bug that happened when the converted query contained {{IS NOT DISTINCT FROM}}. The SQL statement was introduced in SQL Server 2022 version, so now the converted queries don’t use this statement in order to support all SQL Server that are supported in ODC. (RDDFC-1731)</li>
+<li>For external entities, Fixed an issue that happened when converting Date to DateTime, and the time part was not provided. (RDDFC-1733)</li>
+<li>Fixed an issue on the Create Package screen where the keystore accordion section was collapsed by default, leading users to believe it was not required if selecting a build type different than Debug (apk). Consequently, clicking the 'continue' button did not yield any response, as the 'mandatory fields' message was hidden under the collapsed section. With this fix, the Keystore section will expand automatically when users choose their build type, ensuring a smooth and intuitive experience. (RDLOT-2017)</li>
+<li>On the library detail page, you will now see a feedback message recommending the reload of the page whenever there is a new revision.  (RDLOT-2074)</li>
+<li>Fix a bug that is causing an occasional “access restricted due to missing permissions" error message during authentication via ODC Studio. (RDPIDT-1255)</li>
+<li>Enhances trace propagation on running jobs (RPLAT-1980)</li>
+<li>Fixed an issue where a valid timer schedule created in the portal was not being validated as valid. (RRCT-5061)</li>
+</ul>
+
