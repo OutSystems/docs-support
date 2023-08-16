@@ -5,7 +5,7 @@ locale: en-us
 guid: 1578fb0f-f45d-4b74-8f2c-f9e958d45535
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
-figma:
+figma: https://www.figma.com/file/cPLNnZfDOZ1NX3avcjmq3g/Enterprise%20Customers?node-id=3213:314
 ---
 
 # Obfuscation and retracing logs of mobile builds

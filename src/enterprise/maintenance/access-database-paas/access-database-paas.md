@@ -5,7 +5,7 @@ locale: en-us
 guid: 4cdae94f-8633-4875-98bd-a3a4ac1bd89a
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
-figma: https://www.figma.com/file/cPLNnZfDOZ1NX3avcjmq3g/Enterprise-Customers?type=design&node-id=304%3A0&mode=design&t=AGC7Mqi6hxJ5B9em-1
+figma: https://www.figma.com/file/cPLNnZfDOZ1NX3avcjmq3g/Enterprise%20Customers?node-id=304:0
 ---
 
 # Access the database of your OutSystems Cloud

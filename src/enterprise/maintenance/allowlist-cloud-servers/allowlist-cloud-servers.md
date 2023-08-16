@@ -5,7 +5,7 @@ locale: en-us
 guid: c412c4a8-a910-4e1a-a16d-5defcc3e171a
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
-figma:
+figma: https://www.figma.com/file/cPLNnZfDOZ1NX3avcjmq3g/Enterprise%20Customers?node-id=3216:900
 ---
 
 # Allowlist your OutSystems cloud environments on your firewall

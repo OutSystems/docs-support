@@ -5,7 +5,7 @@ locale: en-us
 guid: 9d238745-abc2-4500-9048-17cab2d562ad
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
-figma: https://www.figma.com/file/6tXLupLiqfG9FOElATTGQU/Troubleshooting?node-id=620:41
+figma: https://www.figma.com/file/cPLNnZfDOZ1NX3avcjmq3g/Enterprise%20Customers?node-id=3213:318
 ---
 
 # Known issue in 11.10.0 - possible downtime after running Configuration Tool

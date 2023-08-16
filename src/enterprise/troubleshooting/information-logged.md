@@ -4,7 +4,7 @@ locale: en-us
 guid: 0c19ce88-799c-45bb-954a-c77d1364fb87
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
-figma: https://www.figma.com/file/cPLNnZfDOZ1NX3avcjmq3g/Enterprise-Customers?type=design&node-id=3213%3A285&mode=design&t=RQ7aR1rlXJ8q1kdN-1
+figma: https://www.figma.com/file/cPLNnZfDOZ1NX3avcjmq3g/Enterprise%20Customers?node-id=3213:285
 ---
 
 # Information Logged by OutSystems Platform

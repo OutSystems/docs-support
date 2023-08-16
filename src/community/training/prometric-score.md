@@ -5,6 +5,7 @@ guid: C23D1280-132D-41F8-B27F-F58F719F4FCE
 tags: 
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
+figma:
 ---
 
 # Did not receive certification or specialization exam score, learn how to access it

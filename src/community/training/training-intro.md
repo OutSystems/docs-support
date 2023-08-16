@@ -4,6 +4,7 @@ locale: en-us
 guid: 355154C0-8088-4765-8E39-D4D5E7BBEDA5
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
+figma:
 ---
 
 # Training and certifications support

@@ -5,7 +5,7 @@ locale: en-us
 guid: f296d423-0144-4164-8c73-383013490529
 app_type: mobile apps, reactive web apps
 platform-version: o11
-figma:
+figma: https://www.figma.com/file/cPLNnZfDOZ1NX3avcjmq3g/Enterprise%20Customers?node-id=3237:44
 ---
 # Troubleshooting OutSystems apps on iOS devices
 

@@ -4,7 +4,7 @@ locale: en-us
 guid: 890ac8c6-b344-4119-9ad7-c1b0d8497518
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
-figma: https://www.figma.com/file/6tXLupLiqfG9FOElATTGQU/Troubleshooting?node-id=620:31
+figma: https://www.figma.com/file/cPLNnZfDOZ1NX3avcjmq3g/Enterprise%20Customers?node-id=3213:288
 ---
 
 # Environment Health shows a Deployment controller twice

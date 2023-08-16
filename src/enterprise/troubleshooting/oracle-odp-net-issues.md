@@ -5,7 +5,7 @@ locale: en-us
 guid: 529e7c9a-0497-4041-a583-1682bdbaead4
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
-figma:
+figma: https://www.figma.com/file/cPLNnZfDOZ1NX3avcjmq3g/Enterprise%20Customers?node-id=3237:27
 ---
 
 # Oracle Data Provider for .NET driver issues

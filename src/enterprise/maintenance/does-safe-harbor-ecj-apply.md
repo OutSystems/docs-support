@@ -4,7 +4,7 @@ locale: en-us
 guid: 6cfcd36b-554f-40f5-ae3f-b5030dc4312a
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
-figma:
+figma: https://www.figma.com/file/cPLNnZfDOZ1NX3avcjmq3g/Enterprise%20Customers?node-id=3237:4442
 --- 
 # Does the Safe Harbor ECJ ruling apply to my OutSystems service
 

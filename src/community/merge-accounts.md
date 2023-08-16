@@ -5,7 +5,7 @@ locale: en-us
 guid: 6EDE38E2-A209-4BB9-8C48-CE902CD0094C
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
-figma:
+figma: https://www.figma.com/file/mP34OzloL9EPqXml1E0tfC/Community?node-id=1356:241
 ---
 
 # Merging two OutSystems community accounts
