@@ -5,6 +5,7 @@ locale: en-us
 guid: c6a9c1dc-0b63-422a-a299-634ad131e49b
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
+figma: https://www.figma.com/file/vTtFn5nl44ZLjUBYo2anCO/Security?node-id=305:318
 ---
 
 # How the OutSystems Platform Helps You Develop Secure Applications

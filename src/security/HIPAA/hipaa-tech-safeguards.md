@@ -5,6 +5,7 @@ locale: en-us
 guid: 219da37e-3496-4cc3-b6e8-452dc531a608
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
+figma:
 ---
 
 # Checklist of HIPAA safeguards

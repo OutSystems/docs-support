@@ -6,6 +6,7 @@ locale: en-us
 guid: 3ae4c88e-73a8-4d8a-9a44-88f9b7c18d02
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
+figma: https://www.figma.com/file/vTtFn5nl44ZLjUBYo2anCO/Security?node-id=305:322
 ---
 
 # Protecting OutSystems apps using encryption and SSL/TLS

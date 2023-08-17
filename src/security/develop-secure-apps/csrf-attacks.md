@@ -5,9 +5,10 @@ locale: en-us
 guid: 888ae7de-2001-459d-894a-e0001aeba86f
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
+figma: https://www.figma.com/file/vTtFn5nl44ZLjUBYo2anCO/Security?node-id=910:240
 ---
 
-#  Protecting OutSystems apps from Cross Site Request Forgery attacks
+# Protecting OutSystems apps from Cross Site Request Forgery attacks
 
 Cross-site request forgery (CSRF) is a web security vulnerability used to induce users to perform unintended actions. The following example illustrates how a CSRF attack can trick a user, that hasn't logged out from a vulnerable website, into clicking a trap link that executes a script or sends a fake POST request with the user's session ID:
 

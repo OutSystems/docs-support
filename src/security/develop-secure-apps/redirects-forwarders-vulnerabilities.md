@@ -6,6 +6,7 @@ locale: en-us
 guid: ecef005d-3f09-4ecd-a562-ae4523285363
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
+figma: https://www.figma.com/file/vTtFn5nl44ZLjUBYo2anCO/Security?node-id=305:325
 ---
 
 # Protecting OutSystems Apps From Redirects / Forwarders Vulnerabilities

@@ -5,6 +5,7 @@ locale: en-us
 guid: 5a5dde81-af90-4f11-be5f-321b0e4b0302
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
+figma: https://www.figma.com/file/vTtFn5nl44ZLjUBYo2anCO/Security?node-id=305:327
 ---
 
 # OutSystems Platform Server hardening

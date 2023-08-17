@@ -4,6 +4,7 @@ locale: en-us
 guid: 1f406792-8109-434a-95c8-c8898ccb0800
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
+figma: https://www.figma.com/file/vTtFn5nl44ZLjUBYo2anCO/Security?node-id=910:244
 ---
 
 # Mobile app to server communication and security

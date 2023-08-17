@@ -6,6 +6,7 @@ locale: en-us
 guid: bb010468-9ea8-42d8-815d-c5f8cf3ce2cd
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
+figma:
 ---
 
 # Protecting OutSystems Apps From Authentication Vulnerabilities

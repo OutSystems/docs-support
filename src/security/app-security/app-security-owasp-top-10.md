@@ -5,6 +5,7 @@ locale: en-us
 guid: 74924eac-d729-4c99-bcb4-09b40a483cfa
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
+figma:
 ---
 
 # How OutSystems helps you address OWASP Top 10

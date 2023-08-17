@@ -4,6 +4,7 @@ locale: en-us
 guid: ed956c15-115d-4728-ad1a-1b9319ef4e8d
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
+figma:
 ---
 
 # Static application security testing

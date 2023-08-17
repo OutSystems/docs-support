@@ -4,6 +4,7 @@ locale: en-us
 guid: 5e5d5f1d-c924-4605-bea5-d3141274a6e1
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
+figma:
 ---
 
 # OutSystems Cloud certificate rotation
