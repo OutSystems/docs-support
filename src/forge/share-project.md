@@ -5,6 +5,7 @@ locale: en-us
 guid: 7054c142-cbc7-4e56-bcfb-df90734f3ed7
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
+figma: https://www.figma.com/file/bGPF1cIwKxeWbPhMdOrHsM/Forge%20Components?node-id=801:320
 ---
 
 # Sharing a project

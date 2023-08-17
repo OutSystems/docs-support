@@ -5,6 +5,7 @@ locale: en-us
 guid: a5774b9a-751e-4df6-889a-9f54f363ac40
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
+figma: https://www.figma.com/file/bGPF1cIwKxeWbPhMdOrHsM/Forge%20Components?node-id=0:1
 ---
 
 # Trusted asset requirements

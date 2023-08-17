@@ -5,6 +5,7 @@ locale: en-us
 guid: bcc21963-f41a-445d-aff6-685a46999659
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
+figma: https://www.figma.com/file/bGPF1cIwKxeWbPhMdOrHsM/Forge%20Components?node-id=701:319
 ---
 
 # How to remove a component from the Forge
