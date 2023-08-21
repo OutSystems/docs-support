@@ -54,7 +54,7 @@
     - topics:
         - href: troubleshooting/logs/service-center-logs.md
         - href: troubleshooting/logs/lifetime-logs.md
-        - href: troubleshooting/logs/service-studio-report.md
+        - href: troubleshooting/logs/service-studio-logs.md
         - href: troubleshooting/logs/mabs-logs.md
         - href: troubleshooting/logs/android-device-logs.md
         - href: troubleshooting/logs/ios-device-logs.md
