@@ -100,7 +100,8 @@ To enable the enhanced logging on older Service Studio versions, ensure the foll
 
 1. Ensure that Service Studio is closed **before** editing the following file. Also make sure that no character is manipulated besides the indicated section. Note that even changing a letter to caps may make Service Studio fail to launch.
 
-2. Edit the file `ServiceStudio.exe.config` located inside the installation folder of the Development Environment
+2. Edit the file `ServiceStudio.exe.config` located inside the installation folder of the Development Environment. 
+
 Example: `C:\Program Files\OutSystems\Development Environment X.X\Service Studio`
 
 3. Search for the section **switches** and uncomment all the lines that correspond to switches. To achieve this, you can delete the characters `<!--` that are in the beginning of each line and the characters `-->` at the end of the line.
