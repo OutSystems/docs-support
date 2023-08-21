@@ -100,7 +100,8 @@ To enable the enhanced logging on older Service Studio versions, ensure the foll
 
 1. Ensure that Service Studio is closed **before** editing the following file. Also make sure that no character is manipulated besides the indicated section. Note that even changing a letter to caps may make Service Studio fail to launch.
 
-2. Edit the file `ServiceStudio.exe.config` located inside the installation folder of the Development Environment (example: `C:\Program Files\OutSystems\Development Environment X.X\Service Studio`).
+2. Edit the file `ServiceStudio.exe.config` located inside the installation folder of the Development Environment
+Example: `C:\Program Files\OutSystems\Development Environment X.X\Service Studio`
 
 3. Search for the section **switches** and uncomment all the lines that correspond to switches. To achieve this, you can delete the characters `<!--` that are in the beginning of each line and the characters `-->` at the end of the line.
 
@@ -111,7 +112,8 @@ The section should then look like this.
 
 5. To generate the logs, Service Studio must be launched as an Administrator.
 
-6. The logs will be written to a file named `general.txt`, located in the same folder of the `ServiceStudio.exe.config` file (example: `C:\Program Files\OutSystems\Development Environment X.X\Service Studio`).
+6. The logs will be written to a file named `general.txt`, located in the same folder of the `ServiceStudio.exe.config` file. 
+Example: `C:\Program Files\OutSystems\Development Environment X.X\Service Studio`
 
 <div class="info" markdown="1">
 
