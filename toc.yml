@@ -149,6 +149,7 @@
         - href: troubleshooting/application-runtime/seo/troubleshooting.md
         - href: troubleshooting/application-runtime/cant-reach-apps.md
         - href: troubleshooting/application-runtime/oracle-open-cursors.md
+        - href: troubleshooting/application-runtime/data-loss-after-deployment.md
 
 
     # Infrastructure Management
