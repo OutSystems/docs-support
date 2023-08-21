@@ -33,11 +33,11 @@ Troubleshooting logs allow you to understand the probable cause of slowness in y
 
 [Click here](mabs-logs.md) to learn how to get mobile app generation logs. 
 
-**Service Studio report and enhanced logging**: The Service Studio report has all the actions performed inside Service studio within an active session as well as all unhandled exceptions. 
+**Service Studio logs**: The Service Studio report has all the actions performed inside Service studio within an active session as well as all unhandled exceptions. 
 
-In some cases, it's not possible to collect the **Diagnostics Report** or the same does not contain enough information in order to understand the root cause of the misbehavior/error. An example of this is when Service Studio suffers an unrecoverable crash and the Submit Feedback pop-up doesn't show up. For such case, you may refer to the **Enhanced Logging** section in the article. 
+In some cases, it's not possible to collect the **Diagnostics Report** or the same does not contain enough information in order to understand the root cause of the misbehavior/error. An example of this is when Service Studio suffers an unrecoverable crash and the **Submit Feedback** pop-up doesn't show up. For such cases, you may refer to the **Enhanced Logging** section in the article. 
 
-[Click here](service-studio-logs.md) to learn how to get a Service Studio Report and perform enhanced logging. 
+[Click here](service-studio-logs.md) to learn how to get a Service Studio Report and perform enhanced logging.  
 
 **Lifetime Logs**: From the LifeTime console, you can obtain the following reports:
 

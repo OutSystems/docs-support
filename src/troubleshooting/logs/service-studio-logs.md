@@ -11,7 +11,9 @@ platform-version: o11
 
 ## Service Studio report
 
-When an **unexpected error** occurs in Service Studio, you'll get an Unexpected Error window. In this window, you can obtain the error report to send to OutSystems Support.
+
+When an unexpected error occurs in Service Studio, you'll get an **Unexpected Error** window. In this window, you can obtain the error report to send to OutSystems Support.
+
 
 To get the Service Studio report, follow these steps:
 
@@ -30,9 +32,12 @@ To get the Service Studio report, follow these steps:
 
 ## Enhanced logging in Service Studio
 
+You may benefit from enhanced logging in Service Studio if the **Diagnostics Report** obtained in the previous section does not contain enough information. 
+
+
 ### Service Studio cross-platform versions 11.50.x and above
 
-To enable the enhanced logging on Service Studio, follow these steps:
+To enable the enhanced logging in Service Studio, follow these steps:
 
 1. Ensure Service Studio is closed before editing the following file, so that settings are not overwritten when Service Studio is closed.
 
@@ -49,7 +54,9 @@ Example: `<SystemDiagnosticsListenerFile>C:\Windows\Temp\ss_logs.txt</SystemDiag
 1. Start Service Studio in Administrator mode and reproduce the issue before gathering the logs.
 
 <details>
-<summary> Here are some known available switches </summary>
+<summary> Click the toggle to learn about some known available switches.
+
+</summary>
 
 * Commands
 * CssParser
@@ -86,13 +93,14 @@ Example: `<SystemDiagnosticsListenerFile>C:\Windows\Temp\ss_logs.txt</SystemDiag
 
 </details>
 
+
 ### Service Studio cross-platform 11.14.16 and older versions
 
 To enable the enhanced logging on older Service Studio versions, ensure the following:
 
 1. Ensure that Service Studio is closed **before** editing the following file. Also make sure that no character is manipulated besides the indicated section. Note that even changing a letter to caps may make Service Studio fail to launch.
 
-2. Edit the file `ServiceStudio.exe.config` located inside the installation folder of the Development Environment (for example, `C:\Program Files\OutSystems\Development Environment X.X\Service Studio`).
+2. Edit the file `ServiceStudio.exe.config` located inside the installation folder of the Development Environment (example: `C:\Program Files\OutSystems\Development Environment X.X\Service Studio`).
 
 3. Search for the section **switches** and uncomment all the lines that correspond to switches. To achieve this, you can delete the characters `<!--` that are in the beginning of each line and the characters `-->` at the end of the line.
 
@@ -103,7 +111,10 @@ The section should then look like this.
 
 5. To generate the logs, Service Studio must be launched as an Administrator.
 
-6. The logs will be written to a file named `general.txt`, located in the same folder of the `ServiceStudio.exe.config` file (for example, `C:\Program Files\OutSystems\Development Environment X.X\Service Studio`).
+6. The logs will be written to a file named `general.txt`, located in the same folder of the `ServiceStudio.exe.config` file (example: `C:\Program Files\OutSystems\Development Environment X.X\Service Studio`).
 
-7. After replicating the issue and collecting the logs don’t forget to disable the additional logging again since the `general.txt` file can grow in size very quickly.
+<div class="info" markdown="1">
 
+Remember to disable the additional logging again after replicating the issue and collecting logs as `general.txt` file can grow in size very quickly.
+
+</div>
