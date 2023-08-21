@@ -1,0 +1,43 @@
+---
+isautopublish: true
+pageprivacy: semi-private
+---
+
+<h2 id="platform_server_11.23.0" >Platform Server 11.23.0</h2>
+<div class="info"><p>This is a preliminary version of the document.</p></div>
+
+
+<style>.cattag {background: #f4f2ff; color: #6a6581; padding: 4px 10px;}</style>
+<h3 id="new_in_platform_server_11.23.0" >New in Platform Server 11.23.0</h3>
+<ul>
+<li>Added support for REDIS 7.0.11 (or higher, within the 7.0 line) as the session database for on-premise customers. Support for REDIS is no longer a technical preview. (R11BRT-39)</li>
+<li>It is no longer possible to create or use Deployment Zones with hosting technology set to containers. If you have any applications assigned to a Deployment Zone with hosting technology set to containers, you will need to manually move them to a Deployment Zone with hosting technology set to Classical Virtual Machines. (R11BRT-410)</li>
+<li>Fixed an issue that caused duplication of HSTS headers (R11BRT-615)</li>
+<li>Now, the integrations tab of Module details in ServiceCenter has the lists of integrations sorted alphabetically. (R11CT-2168)</li>
+<li>Added a new audit message when an IT user changes the administrator password for a user provider module in ServiceCenter. (R11CT-2283)</li>
+<li>Updated Open-Source projects Licenses and Copyrights used in the Service Studio. (R11DT-1852)</li>
+<li>Improved free form search on ServiceCenter Monitoring pages. (R11OT-593)</li>
+</ul>
+<h3 id="bug_fixing_platform_server_11.23.0" >Bug Fixing</h3>
+<ul>
+<li>Fixed an issue that displayed an error when a Traditional or Reactive application sends emails.
+When sending emails from an application with a Site Rule configured, the error message displayed was: "Error creating Email. The remote server returned an error: (404) Not Found". The fix is disabled by default and can be enabled by changing a system parameter. (RPM-2156) <span class="cattag">Application Runtime</span>  <span class="cattag">Interface</span> </li>
+<li>Improved performance of the CleanLoginAttempts timer from the Users module. (RPM-2619) <span class="cattag">Application Lifecycle</span>  <span class="cattag">Users</span> </li>
+<li>Advanced queries with multiple lines no longer result in a compilation error (RPM-2938) <span class="cattag">Publish Operation</span>  <span class="cattag">Compilation</span> </li>
+<li>Fixed an issue that caused the request URL to a custom path to be incorrect when opening a Screen/WebBlock that contained the pattern in their name ("__"). This occurred in Reactive and Mobile Apps.  (RPM-3033) <span class="cattag">Application Runtime</span>  <span class="cattag">Interface</span> </li>
+<li>Fixed an issue that caused an error when staging a producer of an ISV-protected module in LifeTime. (RPM-3820) <span class="cattag">Application Lifecycle</span>  <span class="cattag">LifeTime</span> </li>
+<li>Fixed performance degradation experienced when navigating through Service Center pages, that could happen after a Modules Preparation operation ended with errors. (RPM-3923) <span class="cattag">Infrastructure Management</span>  <span class="cattag">Platform Configuration</span> </li>
+<li>Now, a feedback message will appear in ServiceCenter when trying to generate a mobile application that doesn't have a home module defined. (RPM-3937) <span class="cattag">Application Lifecycle</span>  <span class="cattag">Service Center</span> </li>
+<li>Fixed an issue that caused the request URL to be incorrect (without the hash content) when opening a Module/Screen/WebBlock that contained the pattern in their name ("__"). This occurred in Reactive and Mobile Apps. (RPM-4033) <span class="cattag">Application Runtime</span>  <span class="cattag">Logic Execution</span> </li>
+<li>LifeTime now supports longer client secrets, up to 100 characters in length, compared to the previous limit of 50 characters, sourced from external identity providers. This enhancement ensures a seamless and hassle-free process when configuring the OpenID Connect provider. (RPM-4050) <span class="cattag">Application Lifecycle</span>  <span class="cattag">LifeTime</span> </li>
+<li>Fixed an issue that caused successful publications through OSPTool to incorrectly exit with code -4. (RPM-4052) <span class="cattag">Infrastructure Management</span>  <span class="cattag">OSPTool</span> </li>
+<li>Popover Widget is now focusable and clickable by keyboard, enhancing usability for keyboard-only users. (RPM-4080) <span class="cattag">Application Runtime</span>  <span class="cattag">Interface</span> </li>
+<li>Fixed an issue where the aria-describedby parameter was being added to an input widget, even when there wasn't any validation error message. (RPM-4088) <span class="cattag">Application Runtime</span>  <span class="cattag">Interface</span> </li>
+<li>Fixed an error in ServiceCenter that would happen when running a background process that removes deprecated IT user permissions related to applications. This would happen when running on Oracle and an IT user would have access to more than one thousand applications. (RPM-4113) <span class="cattag">Application Lifecycle</span>  <span class="cattag">LifeTime</span> </li>
+<li>Fixed an issue that caused an internal error when publishing license protected modules in trial, demo and personal environments. (RPM-4168) <span class="cattag">Publish Operation</span>  <span class="cattag">Deployment stage</span> </li>
+<li>Fixed a compilation issue when consuming a SOAP web service with xsd:choices with xsd:restrictions. (RPM-4209) <span class="cattag">Application Runtime</span>  <span class="cattag">Logic Execution</span> </li>
+<li>Fixed an issue that caused Invalid Permissions screen to appear in ServiceCenter when clicking "Back to module" on the SiteProperty and Timer edit screens. (RPM-645) <span class="cattag">Application Lifecycle</span>  <span class="cattag">LifeTime</span> </li>
+<li>Fixed a security vulnerability that could allow environment information disclosure. CVSSv3.1 score 6.5 (Medium) (RPM-4068) <span class="cattag">Application Lifecycle</span>  <span class="cattag">Service Center</span> </li>
+<li>Fixed a Server-Side Request Forgery vulnerability. CVSSv3.1 score 5.9 (Medium). (RPM-4126) <span class="cattag">Application Lifecycle</span>  <span class="cattag">Service Center</span> </li>
+</ul>
+
