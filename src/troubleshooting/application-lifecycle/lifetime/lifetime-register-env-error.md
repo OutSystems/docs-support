@@ -5,6 +5,7 @@ locale: en-us
 guid: d8ee4abf-9875-4696-a24f-a4608645ab33
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
+figma: https://www.figma.com/file/6tXLupLiqfG9FOElATTGQU/Troubleshooting?node-id=620:51
 ---
 # Error registering an environment in LifeTime
 

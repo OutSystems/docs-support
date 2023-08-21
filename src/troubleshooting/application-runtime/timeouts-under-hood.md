@@ -4,6 +4,7 @@ locale: en-us
 guid: 6663ad0f-9ee9-4a61-8d03-e8fa4e21b052
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
+figma:
 --- 
 
 # Timeouts Under the Hood

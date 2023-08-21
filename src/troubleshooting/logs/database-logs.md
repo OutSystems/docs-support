@@ -5,6 +5,7 @@ locale: en-us
 guid: 8aafea3c-07b4-4435-9ff3-62e6607e1ee3
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
+figma: https://www.figma.com/file/6tXLupLiqfG9FOElATTGQU/Troubleshooting?node-id=3327:530
 ---
 # Database (AWR and ADDM) reports
 

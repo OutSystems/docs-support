@@ -4,6 +4,7 @@ locale: en-us
 guid: 6C1A3620-6882-45B1-A08D-965FB2D3864B
 app_type: mobile apps
 platform-version: o11
+figma:
 ---
 
 # Timeout while downloading resources

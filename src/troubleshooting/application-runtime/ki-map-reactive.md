@@ -5,6 +5,7 @@ locale: en-us
 guid: c870a0bf-e68a-4fab-94e5-d5d0ed9e3493
 app_type: mobile apps, reactive web apps
 platform-version: o11
+figma:
 ---
 
 # Known issues with the Map component for Reactive Web apps

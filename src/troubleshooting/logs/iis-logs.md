@@ -5,6 +5,7 @@ locale: en-us
 guid: 71ebf09d-b6ac-4453-8c92-e4e86204ed8a
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
+figma: https://www.figma.com/file/6tXLupLiqfG9FOElATTGQU/Troubleshooting?node-id=3327:544
 ---
 
 # IIS Manager logs

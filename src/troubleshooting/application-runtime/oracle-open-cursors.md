@@ -4,6 +4,7 @@ locale: en-us
 guid: 4E2CE585-6CF5-4168-8744-7936A29A628F
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
+figma: https://www.figma.com/file/6tXLupLiqfG9FOElATTGQU/Troubleshooting?node-id=2784:4339
 ---
 
 # Maximum number of open cursors exceeded in a session

@@ -5,6 +5,7 @@ locale: en-us
 guid: D364023A-59AE-4351-843B-8A0C8E5756D8
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
+figma:
 ---
 
 # Upgrading your Cloud demo

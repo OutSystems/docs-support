@@ -4,6 +4,7 @@ locale: en-us
 guid: 27F1C7DD-2290-4391-8A9E-64569AAEACAB
 app_type: mobile apps
 platform-version: o11
+figma:
 ---
 
 # Changes in Local Entity Attributes data types when they have data in the device

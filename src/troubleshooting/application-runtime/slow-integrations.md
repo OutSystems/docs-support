@@ -5,6 +5,7 @@ locale: en-us
 guid: 2BD5C654-4CE7-4752-8407-C9F185D060DB
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
+figma:
 ---
 
 # Dealing with slow integrations triggered by a screen action or by a process

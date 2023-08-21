@@ -5,6 +5,7 @@ locale: en-us
 guid: 353db22a-7853-4498-a2a1-62c184f291ff
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
+figma: https://www.figma.com/file/6tXLupLiqfG9FOElATTGQU/Troubleshooting?node-id=3327:413
 ---
 
 # Troubleshooting Error Deserializing ViewState - Cannot decrypt the content

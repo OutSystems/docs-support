@@ -4,6 +4,7 @@ locale: en-us
 guid: 70caa583-0619-41c1-8e9e-73674d5d6bc3
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
+figma: https://www.figma.com/file/6tXLupLiqfG9FOElATTGQU/Troubleshooting?node-id=3327:410
 ---
 
 # Troubleshooting issues in multilingual apps

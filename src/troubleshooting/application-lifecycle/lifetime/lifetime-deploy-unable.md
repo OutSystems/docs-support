@@ -5,6 +5,7 @@ locale: en-us
 guid: c7ebcb0a-6852-4222-9286-9fa6bc5d0675
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
+figma: https://www.figma.com/file/6tXLupLiqfG9FOElATTGQU/Troubleshooting?node-id=620:48
 ---
 # Unable to deploy applications using LifeTime
 

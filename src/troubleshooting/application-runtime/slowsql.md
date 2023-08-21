@@ -5,6 +5,7 @@ locale: en-us
 guid: 4d8cc454-3db3-11ed-b72d-00155dba6401
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
+figma: https://www.figma.com/file/6tXLupLiqfG9FOElATTGQU/Troubleshooting?node-id=3327:402
 ---
 
 # SLOWSQL log messages

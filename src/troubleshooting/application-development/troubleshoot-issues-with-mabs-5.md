@@ -5,6 +5,7 @@ locale: en-us
 guid: c17b230d-07c0-4dd2-b977-a794555d8ba2
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
+figma:
 ---
 
 # Troubleshooting issues with MABS 5.0

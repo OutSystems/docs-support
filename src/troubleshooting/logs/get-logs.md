@@ -5,6 +5,7 @@ locale: en-us
 guid: 0ffec091-70df-4b3c-9c4b-0a274efd1541
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
+figma:
 ---
 
 # Getting logs for troubleshooting purposes

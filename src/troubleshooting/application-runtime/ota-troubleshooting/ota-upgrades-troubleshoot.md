@@ -4,6 +4,7 @@ locale: en-us
 guid: 7AAE6C3B-FDB6-4187-A493-EF62F925AFFC
 app_type: mobile apps
 platform-version: o11
+figma:
 ---
 
 # Troubleshooting over-the-air upgrades

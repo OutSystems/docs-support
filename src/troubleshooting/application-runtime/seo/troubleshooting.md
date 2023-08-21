@@ -5,6 +5,7 @@ locale: en-us
 guid: ad3c2ce2-f393-4385-affd-10eb46bf944c
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
+figma: https://www.figma.com/file/6tXLupLiqfG9FOElATTGQU/Troubleshooting?node-id=3327:418
 ---
 
 # Troubleshooting and known issues with SEO-friendly URLs for Reactive Web Apps

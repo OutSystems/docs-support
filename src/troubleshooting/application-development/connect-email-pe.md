@@ -4,6 +4,7 @@ locale: en-us
 guid: c3b7c99f-9b85-42f1-9bae-4036ee8ef145
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
+figma:
 ---
 
 # Error messages while connecting to your personal environment

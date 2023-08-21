@@ -5,6 +5,7 @@ locale: en-us
 guid: 9F9D7472-775E-4F53-A6E0-F3C649680216
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
+figma:
 ---
 
 # Queries become slower after deleting or updating rows

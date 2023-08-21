@@ -4,6 +4,7 @@ locale: en-us
 guid: 03D119E4-EA0B-4593-B258-FA9CF41CA76C
 app_type: mobile apps
 platform-version: o11
+figma:
 ---
 
 # Cache manifest file is corrupt or invalid

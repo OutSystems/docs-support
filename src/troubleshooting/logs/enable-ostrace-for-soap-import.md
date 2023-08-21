@@ -4,6 +4,7 @@ tags: support-application_development; support-Integrations_Extensions
 locale: en-us
 guid: 5BB9566B-1A9F-45B9-81D9-4F93D3BECDFC
 platform-version: o11
+figma: https://www.figma.com/file/6tXLupLiqfG9FOElATTGQU/Troubleshooting?node-id=3327:526
 ---
 
 # Enabling OSTrace for SOAP web service consumption in Service Studio

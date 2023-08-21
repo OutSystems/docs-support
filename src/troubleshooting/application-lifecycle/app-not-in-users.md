@@ -5,6 +5,7 @@ locale: en-us
 guid: 7f3b01b4-47f6-42f1-b3f0-6b152794c516
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
+figma: https://www.figma.com/file/6tXLupLiqfG9FOElATTGQU/Troubleshooting?node-id=3330:2692
 ---
 
 # Application is not present in the Users app
@@ -34,7 +35,7 @@ When it doesn't have a "Home" module defined you'll notice that:
 * all it's modules with show with the "Set as Home" icon ![set home icon](images/app-not-in-users-set-home-ss.png)
 
 
-![App detail in Service Studio](images/app-not-in-users-ss.png?width=400)
+![App detail in Service Studio](images/app-not-in-users-home-disabled-ss.png)
 
 Once you have confirmed in Service Studio that your app doesn't have a home module defined, you can proceed to the resolution.
 

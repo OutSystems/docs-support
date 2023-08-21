@@ -3,6 +3,7 @@ locale: en-us
 guid: 83ea60d3-c30f-44e3-b411-9199f6c3ae33
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
+figma: https://www.figma.com/file/6tXLupLiqfG9FOElATTGQU/Troubleshooting?node-id=3303:399
 ---
 
 # Further Recommendations on the MABS 4.0 Viewport-Fit Issue in iOS 12 Phones

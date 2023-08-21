@@ -4,6 +4,7 @@ locale: en-us
 guid: 51BD8983-3791-4EBE-8132-2D20EB1F366A
 app_type: mobile apps
 platform-version: o11
+figma:
 ---
 
 # Failed to load cache manifest: Filepath file not found. The file was never created

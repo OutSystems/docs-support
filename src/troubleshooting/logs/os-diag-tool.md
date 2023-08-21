@@ -4,6 +4,7 @@ locale: en-us
 guid: 82b63ca4-2687-47b0-805a-8758955536a3
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
+figma: https://www.figma.com/file/6tXLupLiqfG9FOElATTGQU/Troubleshooting?node-id=3327:513
 ---
 
 # OSDiagTool - OutSystems Support Diagnostics Tool

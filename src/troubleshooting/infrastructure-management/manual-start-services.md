@@ -5,6 +5,7 @@ locale: en-us
 guid: EDE2A61C-EA58-461F-89ED-A434C449A3A9
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
+figma:
 ---
 
 # Manually starting OutSystems services - how-to and caveats

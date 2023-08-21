@@ -5,6 +5,7 @@ locale: en-us
 guid: 5a5f216b-421f-447a-b822-f1ec74910523
 app_type: mobile apps
 platform-version: o11
+figma: https://www.figma.com/file/6tXLupLiqfG9FOElATTGQU/Troubleshooting?node-id=3327:538
 ---
 
 # Mobile app generation logs

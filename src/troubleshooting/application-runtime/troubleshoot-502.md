@@ -5,6 +5,7 @@ locale: en-us
 guid: f45fe813-4517-4381-896b-1c06fe7e03e0
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
+figma:
 ---
 
 # Troubleshooting HTTP 502 bad gateway 

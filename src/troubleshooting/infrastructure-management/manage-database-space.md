@@ -4,6 +4,7 @@ locale: en-us
 guid: 8eb02f36-7cbc-43f1-aec7-6c00c76a6bbf
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
+figma: https://www.figma.com/file/6tXLupLiqfG9FOElATTGQU/Troubleshooting?node-id=3327:485
 ---
 
 # Manage the database space of your personal environment

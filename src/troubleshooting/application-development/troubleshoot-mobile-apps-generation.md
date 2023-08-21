@@ -5,6 +5,7 @@ locale: en-us
 guid: 2705ae8e-d762-41cc-804f-0c9825d71074
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
+figma: https://www.figma.com/file/6tXLupLiqfG9FOElATTGQU/Troubleshooting?node-id=605:958
 ---
 
 # Troubleshooting the mobile apps generation

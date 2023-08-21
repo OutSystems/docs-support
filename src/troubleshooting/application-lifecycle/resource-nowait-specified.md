@@ -4,6 +4,7 @@ locale: en-us
 guid: 16f6f208-8be4-4dc1-b5ac-2beff690af36
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
+figma:
 ---
 
 # ORA-00054 error when deploying an OutSystems app

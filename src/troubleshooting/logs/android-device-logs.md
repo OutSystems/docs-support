@@ -5,6 +5,7 @@ locale: en-us
 guid: 36b333c2-1bf0-4e3e-9162-6894bb2c76f7
 app_type: mobile apps
 platform-version: o11
+figma:
 ---
 # Android device logs
 

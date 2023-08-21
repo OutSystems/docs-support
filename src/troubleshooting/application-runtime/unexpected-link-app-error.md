@@ -4,6 +4,7 @@ locale: en-us
 guid: 19528074-d51e-434c-bbce-ccfde080c48e
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
+figma: https://www.figma.com/file/6tXLupLiqfG9FOElATTGQU/Troubleshooting?node-id=3327:408
 ---
 
 # Unexpected link in application - changes from HTTPS to HTTP or shows an internal server name

@@ -4,6 +4,7 @@ locale: en-us
 guid: 2cebe118-6ed5-4680-88f6-c3b010992fc0
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
+figma: https://www.figma.com/file/6tXLupLiqfG9FOElATTGQU/Troubleshooting?node-id=620:65
 ---
 
 # Issues logging in with Integrated Authentication in Internet Explorer or Edge

@@ -5,6 +5,7 @@ locale: en-us
 guid: 7755631f-f5b4-43e1-a1ca-83c677d5adc3
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
+figma: https://www.figma.com/file/6tXLupLiqfG9FOElATTGQU/Troubleshooting?node-id=22:51
 ---
 # Deploy applications through Service Center
 

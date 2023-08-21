@@ -4,6 +4,7 @@ locale: en-us
 guid: B34D4527-D30A-4149-8982-8C031DDCCE26
 app_type: mobile apps
 platform-version: o11
+figma:
 ---
 
 # Downloaded resources do not match the resources listed in the moduleinfo

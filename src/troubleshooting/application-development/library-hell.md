@@ -4,6 +4,7 @@ locale: en-us
 guid: cefe3ea0-ea56-405d-8863-f2b366f442a3
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
+figma: https://www.figma.com/file/6tXLupLiqfG9FOElATTGQU/Troubleshooting?node-id=3082:479
 ---
 
 # Library hell - why are changes in a producer not reflected in the consumers

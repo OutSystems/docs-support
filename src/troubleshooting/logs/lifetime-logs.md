@@ -5,6 +5,7 @@ locale: en-us
 guid: 27d0fb71-1ef7-4574-a8ca-bd1126b29976
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
+figma: https://www.figma.com/file/6tXLupLiqfG9FOElATTGQU/Troubleshooting?node-id=3327:499
 ---
 
 # LifeTime reports

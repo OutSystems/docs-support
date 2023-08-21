@@ -4,6 +4,7 @@ locale: en-us
 guid: 5D8B648B-356D-4A9C-BBFD-61308633C8A3
 app_type: mobile apps
 platform-version: o11
+figma:
 ---
 
 # Failed changes in the Local Storage Metamodel due to integrity checks 

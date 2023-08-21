@@ -5,6 +5,7 @@ locale: en-us
 guid: f162877c-32a8-4f69-9c0b-ccbb42bcb0f3
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
+figma: https://www.figma.com/file/6tXLupLiqfG9FOElATTGQU/Troubleshooting?node-id=3327:518
 ---
 
 # BPT troubleshooting report

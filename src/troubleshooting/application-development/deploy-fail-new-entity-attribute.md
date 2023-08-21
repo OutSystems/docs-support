@@ -5,6 +5,7 @@ locale: en-us
 guid: f6175b88-b183-4a56-b5da-8ea4d039d836
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
+figma:
 ---
 
 # Application deployment takes too long after adding a new Entity Attribute
