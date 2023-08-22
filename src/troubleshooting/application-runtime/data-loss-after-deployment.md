@@ -1,9 +1,10 @@
 ---
-summary: Use thiss workaround if Aggregates or Advanced Queries that access entities from an application stop returning values.
+summary: Use this workaround if Aggregates or Advanced Queries that access entities from an application stop returning values.
 locale: en-us
 guid: F37D9C82-F3C8-4CBD-B3E8-4D89A88877C5
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
+figma: https://www.figma.com/file/6tXLupLiqfG9FOElATTGQU/Troubleshooting?type=design&node-id=3355%3A267&mode=design&t=ij3x5ruUOocdxrEu-1
 ---
 # Entities lose data after deployment
 
@@ -39,7 +40,7 @@ There are two workarounds in such scenarios:
 
 ### Workaround 1
 
-Follow these steps to avoid data lose vy entities during deployment. 
+Follow these steps to avoid data lose in entities during deployment. 
 
 1. Rollback the application version in Production. This will cause the original Entity that contains the information to be marked as active again and the data to be displayed again in the application.
 
