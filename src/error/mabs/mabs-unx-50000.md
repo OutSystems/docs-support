@@ -5,6 +5,7 @@ guid: 435aea8b-2b36-441a-b44f-1d1d004fbc1a
 locale: en-us
 app_type: mobile apps
 platform-version: o11, odc
+figma:
 ---
 
 # OS-MABS-UNX-50000

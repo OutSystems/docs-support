@@ -5,6 +5,7 @@ locale: en-us
 guid: 68f59929-ed07-4ac9-9605-c6bb703d4737
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
+figma:
 ---
 
 # OS-EXBL-GEN-00040

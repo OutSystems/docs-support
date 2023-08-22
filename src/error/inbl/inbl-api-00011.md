@@ -5,6 +5,7 @@ locale: en-us
 guid: 5bda389f-0bd2-414f-a770-895181227675
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
+figma:
 ---
 
 # OS-INBL-API-00011

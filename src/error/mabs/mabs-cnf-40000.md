@@ -5,6 +5,7 @@ guid: 3609e34e-2ec9-4454-bc4c-ab8094c37881
 locale: en-us
 app_type: mobile apps
 platform-version: o11, odc
+figma:
 ---
 
 # OS-MABS-CNF-40000

@@ -6,6 +6,7 @@ locale: en-us
 guid: 6d78a021-1ab8-4144-8636-6273c18ad1db
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
+figma:
 ---
 
 # Integration Builder errors

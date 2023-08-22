@@ -5,6 +5,7 @@ guid: 1df4d22e-47fb-4a36-8010-837d781a07fa
 locale: en-us
 app_type: mobile apps
 platform-version: o11, odc
+figma:
 ---
 
 # OS-MABS-SHLD-40007

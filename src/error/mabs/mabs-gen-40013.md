@@ -5,6 +5,7 @@ guid: 9e1ac667-436a-488a-bfa5-9dd2c4ad2de9
 locale: en-us
 app_type: mobile apps
 platform-version: o11, odc
+figma:
 ---
 
 # OS-MABS-GEN-40013

@@ -5,6 +5,7 @@ tags:
 locale: en-us
 guid: 70184542-5898-4a4d-aac5-13733efe603a
 app_type: traditional web apps, mobile apps, reactive web apps
+figma:
 ---
 
 # OS-INBL-API-00038

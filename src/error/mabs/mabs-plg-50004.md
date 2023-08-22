@@ -5,6 +5,7 @@ locale: en-us
 app_type: mobile apps
 guid: 3b1e4e72-abb2-4291-9f2d-8668a64fcec1
 platform-version: o11, odc
+figma:
 ---
 
 # OS-MABS-PLG-50004

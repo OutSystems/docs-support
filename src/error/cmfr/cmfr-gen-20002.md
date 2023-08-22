@@ -5,6 +5,7 @@ locale: en-us
 guid: cade7016-3ae2-4851-99e7-712814be071c
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
+figma:
 ---
 
 # OS-CMFR-GEN-20002

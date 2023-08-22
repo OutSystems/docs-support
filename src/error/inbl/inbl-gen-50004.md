@@ -5,6 +5,7 @@ locale: en-us
 guid: c803d644-0dce-4390-aa35-1a7774e917fb
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
+figma:
 ---
 
 # OS-INBL-GEN-50004

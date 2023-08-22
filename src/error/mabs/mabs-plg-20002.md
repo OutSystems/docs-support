@@ -5,6 +5,7 @@ tags: mabs; plg; error_codes
 locale: en-us
 guid: fb510c78-2deb-4083-be98-d4211406cba4
 platform-version: o11, odc
+figma:
 ---
 
 # OS-MABS-PLG-20002

@@ -5,6 +5,7 @@ locale: en-us
 guid: 4e304906-9a8e-4174-83f2-8953c607f42d
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
+figma:
 ---
 
 # OS-WFBL-GEN-00002

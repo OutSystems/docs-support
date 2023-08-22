@@ -4,8 +4,8 @@ tags:
 locale: en-us
 guid: ad9aa61c-1690-4629-8b9f-63bf4eeaf13d
 app_type: mobile apps
-figma:
 platform-version: o11, odc
+figma:
 ---
 
 # Error due to deprecated MABS versions
