@@ -43,13 +43,13 @@ Follow these steps to avoid data lose vy entities during deployment.
 
 1. Rollback the application version in Production. This will cause the original Entity that contains the information to be marked as active again and the data to be displayed again in the application.
 
-1. Considering that the information in Production is usually more valuable than in Development, stage the Entity from Production to Development so that the Identifier in Development becomes the same as in Production. This will keep the data in Production and the data in Development will be lost. 
+2. Considering that the information in Production is usually more valuable than in Development, stage the Entity from Production to Development so that the Identifier in Development becomes the same as in Production. This will keep the data in Production and the data in Development will be lost. 
 The easiest way is through LifeTime. There is another option to merge the eSpace from Production into Development directly through Service Studio. The important part is that the Entity in Production is merged to the Entity in Development.
 
 ![](images/application-entity-issue4-ss.png)
 
 
-1. Now, the Identifier in Development is the same as the one in Production. When staging again from Development to Production, the Identifier will now be consistent and the data will persist. 
+3. Now, the Identifier in Development is the same as the one in Production. When staging again from Development to Production, the Identifier will now be consistent and the data will persist. 
 
 ### Workaround 2
 
