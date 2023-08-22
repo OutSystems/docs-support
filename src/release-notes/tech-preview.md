@@ -5,6 +5,7 @@ locale: en-us
 guid: 60B738CE-9DC3-4C1F-8269-9B857668FBE4
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
+figma: https://www.figma.com/file/UXA74OsZxSIzLLsjhvNMjC/Release-Notes?type=design&node-id=908%3A326&mode=design&t=PXROiQwbSufNHSiC-1
 ---
 
 # Technical Preview features
