@@ -480,10 +480,6 @@
         - href: error/exbl/exbl-gen-00049.md
         - href: error/exbl/exbl-gen-00053.md
         - href: error/exbl/exbl-gen-00054.md
-    # Data Platform
-    - href: error/dp/intro.md
-    - topics:
-        - href: error/dp/dp-stream-50001.md
 
 # Community
 - href: community/intro.md
