@@ -32,7 +32,7 @@ The OutSystems vulnerability policy covers:
 * Forge components supported by OutSystems
 * Any property under outsystems.com domain
 
-OutSystems Product Security Incident Response Team (PSIRT) investigates all reports regardless of the OutSystems software code version or product lifecycle status until the product reaches the [end of mainstream support](https://success.outsystems.com/Support/Enterprise_Customers/OutSystems_Support/Support_terms_and_service_level_agreements_(SLA)_of_the_OutSystems_software#End_of_Support_for_Older_Software_Versions).
+OutSystems Product Security Incident Response Team (PSIRT) investigates all reports regardless of the OutSystems software code version or product lifecycle status until the product reaches the [end of mainstream support](https://www.outsystems.com/legal/success/support-terms-and-service-level-agreements-sla-of-the-outsystems-software/#end-of-support-for-older-software-versions).
 
 Issues will be prioritized based on the risk score and severity. The resolution of a reported vulnerability may require installing new software versions of products that are [under active support from OutSystems](https://success.outsystems.com/Support/Enterprise_Customers/OutSystems_Support/Support_terms_and_service_level_agreements_(SLA)_of_the_OutSystems_software/OutSystems_Product_Lifecycle_and_Support_calendar#What_is_the_support_calendar_for_OutSystems_releases.3F). As a best practice, OutSystems strongly recommends that customers periodically verify if their products are under mainstream support to ensure access to the latest software updates.
 
@@ -48,13 +48,13 @@ If you are an OutSystems customer or partner and have access to our [Support Por
 
 #### Before submitting a vulnerability report  { #submit-report }
 
-Often, vulnerability scans, static code analysis or dynamic code analysis are performed by third party tools that output a report.Those reports shouldn’t be sent untreated to OutSystems. Instead, they should first be analyzed.
+Often, vulnerability scans, static code analysis, or dynamic code analysis are performed by third-party tools that output a report. Those reports shouldn’t be sent untreated to OutSystems. Instead, they should first be analyzed.
 
 This means that customers and partners must first analyze the findings in such reports and determine if:
 
 1. It’s related to application logic and was introduced during the development (related to application logic). In this case, it’s the customer's responsibility to address it.
 1. The finding is a false positive or not. It’s the customer's responsibility to consult the available documentation.
-1. Understand if the vulnerability falls under the customer or OutSystems responsibility.
+1. Understand if the vulnerability falls under the customer's or OutSystem's responsibility.
 
 Read the following articles before performing any type of testing on your OutSystems applications:
 
@@ -63,10 +63,10 @@ Read the following articles before performing any type of testing on your OutSys
 
 ##### Assistance in analyzing reports
 
-For customers who require help in analyzing reports from third party tools, OutSystems has made available a service.
+For customers who require help in analyzing reports from third-party tools, OutSystems has made available a service.
 To obtain more information about this service, customers should reach out to their Customer Success Managers (CSM), Account Representative, or Solution Design Manager (SDM).
 
-After analysis, if the findings are related with the OutSystems platform, please submit a vulnerability report. The instructions to submit such a report to OutSystems support can be found next.
+After analysis, if the findings are related to the OutSystems platform, please submit a vulnerability report. The instructions to submit such a report to OutSystems support can be found next.
 
 #### How to submit a vulnerability report
 
@@ -100,7 +100,16 @@ OutSystems PSIRT may return to the reporter with additional questions or clarifi
 
 ## OutSystems management of a reported vulnerability { #management }
 
-High level, the phases of tackling a vulnerability found at OutSystems products are as follows:
+The phases of tackling a vulnerability found for OutSystems products are based on the CVSS severity score for the vulnerability.  All vulnerabilities follow the following methodology:
+
+* Identify
+* Verify (classification)
+* Remediate (plan and fix)
+* Release
+
+For **Low** and **Medium** severity vulnerabilities, once the fix is released, information about the vulnerability is published in the Release Notes  [Release Notes](https://success.outsystems.com/support/release_notes/) for the impacted products.
+
+For **High** and **Critical** severity vulnerabilities the following steps are as follows:
 
 ![](images/vulnerabilities-diag.png)
 
@@ -108,9 +117,9 @@ It consists of 2 phases, the **embargo phase** and **public disclosure**.
 
 ### Embargo phase { #embargo }
 
-During this phase, and to protect customers, OutSystems doesn't disclose further details about the vulnerability. It’s important to note that the more details are divulged, the more probable it's that such information is used to exploit the vulnerability. Therefore, OutSystems allows reasonable time to protect your infrastructures before disclosing further.
+During this phase, and to protect customers, OutSystems doesn't disclose further details about the vulnerability. It’s important to note that the more details are divulged, the more probable it is that such information may be used to exploit the vulnerability. Therefore, OutSystems allows reasonable time for customers to protect their infrastructures before disclosing further.
 
-During the embargo phase the following steps occur:
+During the embargo phase, the following steps occur:
 
 1. **Identification:**
 OutSystems learns about the vulnerability.
@@ -130,7 +139,7 @@ A fix is publicly released along with installation details. A security bulletin 
 1. **Patch OutSystems Cloud and ODC:**
 For OutSystems Cloud customers, a patch schedule may also be communicated for all affected environments. If the patch has no impact on normal operations and availability, it won’t require scheduling. OutSystems reserves the right to start scheduling patches to OutSystems Cloud environments as soon as a fix or workaround is found.
 Self-managed infrastructures can be patched at the customer’s discretion.
-For OutSystems Developer Cloud (ODC) customers all fixes are automatically propagated to all customer accounts. 
+For OutSystems Developer Cloud (ODC) customers, all fixes are automatically propagated to all customer accounts. 
 
 ### Public disclosure { #disclosure }
 
