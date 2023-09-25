@@ -220,6 +220,8 @@
         - href: security/vulnerabilities/vulnerability-RPD-3384.md
         - href: security/vulnerabilities/vulnerability-RPD-2903.md
         - href: security/vulnerabilities/vulnerability-RPD-2322.md
+        - href: security/vulnerabilities/vulnerability-RPM-4141.md
+
 
     # How OutSystems Platform helps you develop secure applications
     - href: security/develop-secure-apps/intro.md
