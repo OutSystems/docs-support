@@ -150,8 +150,6 @@
         - href: troubleshooting/application-runtime/cant-reach-apps.md
         - href: troubleshooting/application-runtime/oracle-open-cursors.md
         - href: troubleshooting/application-runtime/data-loss-after-deployment.md
-        - href: troubleshooting/application-runtime/publish-errors/compilation-error-in-consuming-soap.md
-        - href: troubleshooting/application-runtime/publish-errors/troubleshoot-failed-deployments-due- to-an-error-in-ping.md
 
     # Infrastructure Management
     - href: troubleshooting/infrastructure-management/intro.md
