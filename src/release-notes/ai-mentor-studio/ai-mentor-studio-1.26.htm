@@ -4,19 +4,19 @@ pageprivacy: public
 ---
 
 <h2 id="ai_mentor_studio_1.26" >AI Mentor Studio 1.26</h2>
-<div class="info"><p>Released on Sep 22, 2023</p></div>
+<div class="info"><p>Released on Jul 19, 2023</p></div>
 
 
 <style>.cattag {background: #f4f2ff; color: #6a6581; padding: 4px 10px;}</style>
 <h3 id="new_in_ai_mentor_studio_1.26" >New in AI Mentor Studio 1.26</h3>
 <ul>
+<li>Now, users can adjust AI Mentor Studio code patterns' impact according to their organization's needs. All the code patterns' impact options can be checked in the maintenance area. (RADRT-2398)</li>
 <li>Added a new security pattern “Insecure Usage of GetUserId in client Block parameters” which is focused on avoiding passing identity information from the client side to the server side as parameters. (RADRT-2544)</li>
 <li>Added a new maintainability pattern “Unused Aggregate or SQL Query” which helps to identify unused data queries. (RADRT-2545)</li>
 <li>Improved the Duplicated Code findings in the report area, to show the findings' count instead of the aggregators' count. (RADRT-2563)</li>
 </ul>
 <h3 id="bug_fixing_ai_mentor_studio_1.26" >Bug Fixing</h3>
 <ul>
-<li>Category filter is not persistent (between sessions) (RADRT-2616)</li>
 <li>Fixed an issue on AI Mentor Studio API where invoking the TechnicalDebt_Application method while data is being refreshed could result in incomplete data being returned. Now, status code 503 will be returned in this scenario, along with the retry-after header which indicates how many seconds to wait before retrying. (RPM-4135) <span class="cattag">AI Mentor Studio</span> </li>
 </ul>
 
