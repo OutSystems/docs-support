@@ -45,7 +45,7 @@ This version can run your apps on:
 
 <small>![](images/android-icon.png) Android 8 (9 for ODC) to 13</small>
 
-<small>![](images/iOS-icon.png) iOS 13 to 16</small>
+<small>![](images/iOS-icon.png) iOS 13 to 17</small>
 
 **More details:**
 
