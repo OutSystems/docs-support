@@ -1,0 +1,35 @@
+---
+isautopublish: true
+pageprivacy: semi-private
+---
+
+<h2 id="platform_server_11.23.1" >Platform Server 11.23.1</h2>
+<div class="info"><p>This is a preliminary version of the document.</p></div>
+
+
+<style>.cattag {background: #f4f2ff; color: #6a6581; padding: 4px 10px;}</style>
+<h3 id="new_in_platform_server_11.23.1" >New in Platform Server 11.23.1</h3>
+<ul>
+<li>Updated Newtonsoft.Json library bundled with the platform from version 13.0.1 to version 13.0.3. (R11BRT-360)</li>
+<li>Improved the performance of solution publishing. These improvements will be gradually rolled out to OutSystems customers and won’t be enabled by default when upgrading to this version. (R11PT-470)</li>
+<li>It is now possible to consume REST web services using the OAuth 2.0 client credentials flow. (RO11IT-551)</li>
+</ul>
+<h3 id="bug_fixing_platform_server_11.23.1" >Bug Fixing</h3>
+<ul>
+<li>Fixed an issue that caused reactive web applications to show invalid Content Security Policies (CSP) errors in the browser console. <br />
+This occurred in environments with CSP enabled when reactive web applications were opened in the browser. <br />
+Now, reactive applications no longer have CSP directives in the index.html file and are only sent via response headers. (R11DT-1956)</li>
+<li>Fixed the solution publish screen “Detected a recursive iteration over the same list” error when continuing with 2-stage deployment confirmation that caused the deployment to fail. (R11PT-440)</li>
+<li>Resolved an issue where a change password warning erroneously appeared post Service Center login, specifically in situations where the legacy provider authentication mechanism was in use. The matter has been rectified, ensuring that the change password warning will now exclusively emerge during instances of Built-in authentication activation, and solely when the entered password fails to adhere to the complexity criteria. (RDOI-381)</li>
+<li>Fixed deployment error when restarting the Deployment Controller after getting the confirmation prompt while performing a 2-stage solution publish. (RPM-1886) <span class="cattag">Publish Operation</span> </li>
+<li>Updated documentation for the HTTPRequestHandler actions regarding compatibility with reactive web and mobile apps. (RPM-2830) <span class="cattag">Application Runtime</span>  <span class="cattag">System Components</span> </li>
+<li>Fixed an issue that occurred when the BuildSafe_InClauseTextList action from Sanitization extension was used with special unicode characters in SQL Server. Those special characters would not be included in the output of the action so, if the users used that output in a query, the results could be different from what they were expecting. (RPM-4090) <span class="cattag">Application Runtime</span>  <span class="cattag">Data Access and Manipulation</span> </li>
+<li>Fixed an issue where after uploading and publishing an application or solution for the first time, it would get locked on subsequent publications with the error "Application Lock unavailable: The application is already being published". (RPM-4150) <span class="cattag">Service Studio</span> </li>
+<li>Fixed an issue that caused the references to have the incorrect path, on the default error page (_error.html) for reactive applications.
+This occurred when at least one Custom URL was configured in the reactive web application. (RPM-4240) <span class="cattag">Application Runtime</span>  <span class="cattag">Logic Execution</span> </li>
+<li>Fixed an issue when loading Excel files using the ExcelToRecordList functionality. New behaviors of certain Excel patterns are now considered. Check <a href="https://success.outsystems.com/support/release_notes/11/outsystems_11_side_effects_and_breaking_changes/">OutSystems 11 side effects and breaking changes</a> for more details. (RPM-4332) <span class="cattag">Application Runtime</span>  <span class="cattag">Logic Execution</span> </li>
+<li>Fixed an accessibility inconvenience where elements inside a popup widget (Reactive) were not focused by default after opening it. The first focusable element (e.g. input, button, etc) is now focused right after opening a popup widget. (RPM-774) <span class="cattag">Application Runtime</span>  <span class="cattag">Interface</span> </li>
+<li>Added an additional message within the description of AddFile action from HTTPRequestHandler extension, emphasizing the importance of providing a valid name for the FileName property. (RPM-975) <span class="cattag">Application Runtime</span>  <span class="cattag">System Components</span> </li>
+<li>Fixed a security issue in REST Consume. CVSSv3.1 score 4.9 (Medium). (RPM-4133) <span class="cattag">Application Runtime</span>  <span class="cattag">Logic Execution</span> </li>
+</ul>
+
