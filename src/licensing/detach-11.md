@@ -329,7 +329,9 @@ By default, your application will use the `private.key` file located in the Plat
     `%WINDIR%\Microsoft.NET\Framework64\v4.0.30319\CONFIG\`  
 
 1. Under `<appSettings>`, locate the `<add>` element with the key `"OutSystems.HubEdition.SettingsKeyPath(DEFAULT)"`.  
-Change the `value` attribute of this element to point to the new location of the `private.key` file.
+1. Change the `value` attribute of this element to point to the new location of the `private.key` file.
+
+Even if you're using the same database that previously stored OutSystems data, connection strings may need to be changed if the database credentials were altered. If that's the case, please refer to the instructions at [Using a brand new database](#use-new-db) to change the connection strings.
 
 #### Using a brand new database { #use-new-db }
 
@@ -369,7 +371,8 @@ If you will use a new database, you have to manually reconfigure your database c
         ProviderKey=SqlServer
         <DBConfiguration><ConnectionStringOverride>{CONNECTION_STRING_IN_PLAIN_TEXT}</ConnectionStringOverride></DBConfiguration>
 
-    To create a correct `{CONNECTION_STRING_IN_PLAIN_TEXT}`, check [Connection strings](#connection-strings).
+    To create a correct `{CONNECTION_STRING_IN_PLAIN_TEXT}`, check [Connection strings](#connection-strings). Make sure the connection string is correctly configured for the selected database provider, while keeping in mind that the parameter names used may not align with the placeholder names.
+
 
 ## Detaching an application from OutSystems { #detach-app }
 
@@ -403,6 +406,19 @@ To obtain the source code of a web application module, open the **Licensing** pa
     ![Download](images/Download.png)
 
 1. Save the ZIP file and extract it.
+
+#### Update appsettings.config file
+
+Besides the changes made regarding the private.key in [Using the database that previously kept the OutSystems data](#use-existing-db) and the connection strings in [Using a brand new database](#use-new-db), similar changes need to be applied to the `appsettings.config` file for each detached application.
+
+Locate the application configuration file, `appSettings.config`, present on the application's source code folder (it should be inside a subfolder named after the application). Under the `<appSettings>` section, perform the following operations:
+
+1. Locate the `<add>` element with the key `"OutSystems.HubEdition.SettingsKeyPath(DEFAULT)"`.  
+1. Change the `value` attribute of this element to point to the new location of the `private.key` file.
+1. Change connection string configurations like you did for `machine.config` (check [Using a brand new database](#use-new-db)).
+1. External database connection strings also need to be updated. Locate the `<add>` elements with keys starting with `"OutSystems.ExternalConnections"`. Use the same format that was used when updating the `OSSYS_DBCONNECTION` table (in step 3 of [Using a brand new database](#use-new-db)) but make sure to encode the characters in the XML file (don't forget the **\r\n**  characters after the `ProviderKey` line). For example:
+
+        `ProviderKey=SqlServer&#xD;&#xA;&lt;DBConfiguration&gt;&lt;ConnectionStringOverride&gt;{CONNECTION_STRING_IN_PLAIN_TEXT}&lt;/ConnectionStringOverride&gt;&lt;/DBConfiguration&gt;`
 
 ### Get the source code of mobile apps  { #source-code-mobile }
 
@@ -474,11 +490,6 @@ To deploy your applications, proceed as follows:
 1. Make sure that your application is running under an Application Pool that uses .NET 4.0.  
 To change the application pool of the underlying web site, select the web site and in the **Actions** pane click **Basic Settings**. Click **Select**, and select an application pool configured to use .NET 4.0.
 
-1. Locate the application configuration file, `appSettings.config`, present on deployment folder and change database connection strings:
-
-    1. Open IIS, right-click over the desired application and select **Explore** option.
-    1. Open the `appSettings.config`.
-    1. Change connection string configurations like you did for `machine.config` (check [Using a brand new database](#use-new-db)).
 
 ### Compiling and deploying mobile apps { #compile-mobile }
 
