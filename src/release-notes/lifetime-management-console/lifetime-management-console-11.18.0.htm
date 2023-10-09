@@ -1,0 +1,27 @@
+---
+isautopublish: true
+pageprivacy: public
+---
+
+<h2 id="lifetime_management_console_11.18.0" >LifeTime Management Console 11.18.0</h2>
+<div class="info"><p>Released on Oct 09, 2023</p></div>
+
+
+<style>.cattag {background: #f4f2ff; color: #6a6581; padding: 4px 10px;}</style>
+<h3 id="new_in_lifetime_management_console_11.18.0" >New in LifeTime Management Console 11.18.0</h3>
+<ul>
+<li>It is now possible, for PaaS infrastructures, to create and edit in parallel multiple deployment plans that target a single environment. This capability will become available to self-managed infrastructures in a subsequent LifeTime release. (R11CT-2485)</li>
+</ul>
+<h3 id="bug_fixing_lifetime_management_console_11.18.0" >Bug Fixing</h3>
+<ul>
+<li>Fixed an issue that didn’t enable LifeTime users to resize the input area when adding a description for a version of an application in the Application_Tag screen. This was stopping the user from seeing the full description when editing it, if it had more text lines than the number of lines of the input area. With this fix, the users can resize the input area as they want and the remaining content will adjust accordingly. (R11CT-2432)</li>
+<li>Fixed an issue that was causing an overflow of the description of an application version when it had more text lines than the number of lines that the div containing the text could handle. With the fix that was implemented the content of the screen adapts accordingly to the size of the version description. (R11CT-2453)</li>
+<li>Fixed an issue that was causing "index out of range" and "recursive iteration" exceptions in LifeTime. In some specific conditions, when a user accessed the Application_Details screen, these type of exceptions would be raised, guiding the user to the Internal_Error screen of LifeTime. With the fix that was implemented, these exceptions are no longer thrown. (RPM-2165) <span class="cattag">Application Lifecycle</span>  <span class="cattag">LifeTime</span> </li>
+<li>Fixed an issue that would show application information on an environment even when that application has been removed from that environment.
+This would occur when an application was deleted in Service Center but the environment couldn't communicate with Lifetime during the process.
+Now Lifetime won't show information from applications that were deleted. (RPM-2585) <span class="cattag">Application Lifecycle</span>  <span class="cattag">LifeTime</span> </li>
+<li>Fixed an issue where keys were not generated for users, roles, and teams created in LifeTime versions prior to 11.4.2 during the LifeTime upgrade process. This issue had a notable impact on certain lifetimeAPI methods, as they require the key of these elements as a parameter to obtain a result. With the implemented fix, the LifeTime upgrade process now includes a check for any user, role, or team with an empty key and automatically generates a new one as needed. (RPM-4187) <span class="cattag">Application Lifecycle</span>  <span class="cattag">LifeTime</span> </li>
+<li>Fixed an issue that had impact on internal orchestration steps in the cloud for some procedures, for example, the registration of a new environment.
+Before, if an environment was unreachable, that could pause or delay some cloud procedures. With this fix, the process becomes more resilient to those situations. (RPM-4258) <span class="cattag">Infrastructure Management</span>  <span class="cattag">Cloud Orchestration</span> </li>
+</ul>
+
