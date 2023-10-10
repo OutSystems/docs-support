@@ -1,0 +1,21 @@
+---
+isautopublish: true
+pageprivacy: public
+---
+
+<h2 id="outsystems_developer_cloud_2023-10-06" >OutSystems Developer Cloud 2023-10-06</h2>
+<div class="info"><p>Released on Oct 06, 2023</p></div>
+
+
+<style>.cattag {background: #f4f2ff; color: #6a6581; padding: 4px 10px;}</style>
+<h3 id="new_in_outsystems_developer_cloud_2023-10-06" > New</h3>
+<ul>
+<li>Added an error message when an external library action fails because the custom code exceeded the allowed time limit (95s). (RTAFB-7219)</li>
+</ul>
+<h3 id="bug_fixing_outsystems_developer_cloud_2023-10-06" >Bug Fixing</h3>
+<ul>
+<li>Fixed an issue in the user’s invite page that could cause the filters for end-user roles to disappear. (RDPP-1420)</li>
+<li>Fixed a bug that caused a {{Foreign Key constraint violation database exception}} to be raised during the execution of the {{CreateOrUpdateSome Entity Action}} when a {{non-mandatory Foreign Key attribute}} was set to an empty value. The {{CreateOrUpdateSome Entity Action}} now handles empty {{non-mandatory Foreign Key}} values correctly, without violating any {{Foreign Key constraints}}. (RPLAT-2078)</li>
+<li>Fixed error in External Libraries that contain custom code that fills in action’s outputs with null values. (RTAFB-6864)</li>
+</ul>
+
