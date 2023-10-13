@@ -191,6 +191,8 @@
     - topics:
         - href: security/HIPAA/hipaa-tech-safeguards.md
 
+    - href: security/pci-compliance.md
+
     # Vulnerabilities
     - href: security/vulnerabilities/intro.md
     - topics:
