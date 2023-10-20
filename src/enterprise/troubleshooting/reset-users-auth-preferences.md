@@ -11,23 +11,23 @@ figma:
 
 ## Symptoms
 
-You've been locked out of your Users eSpace and cannot login.
+You've been locked out of your [Users app](https://www.outsystems.com/tk/redirect?g=2cbb2e7d-9936-4bb4-8791-240ade1d1ad6) and can't login.
 
 ## Cause
 
-Usually this happens when you activate Active Directory (with Windows Integrated) authentication with incorrect configurations, thus failing all logins.
+Usually, this happens when you activate Active Directory (with Windows Integrated) authentication with incorrect configurations, thus failing all logins.
 
 ## Resolution
 
 To resolve this issue, please follow these instructions
 
-1. Go to Service Center
+1. Go to Service Center > Factory > Modules
 
-2. Search for the Users eSpace
+1. Search for the Users module
 
-3. On the tab Tenants click on the default tenant
+1. On the tab Tenants click on the default tenant
 
-4. Change the following site properties to false:
+1. Change the following site properties to false:
 
     * UseActiveDirectoryLogin (Users)
 
@@ -37,5 +37,5 @@ To resolve this issue, please follow these instructions
 
     * UseSAMLLogin (Users) (when present)
 
-After that, you will be able to login on the Users eSpace with your previous credentials.
+After that, you will be able to log into Users with your previous credentials.
 
