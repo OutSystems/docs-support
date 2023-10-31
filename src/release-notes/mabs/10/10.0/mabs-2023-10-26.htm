@@ -22,6 +22,6 @@ pageprivacy: public
 
 <h3> Breaking Changes</h3>
 <ul>
-<li>The legacy Android Support Libraries (<i>com.android.support</i>) are no longer supported. Builds containing these libraries will fail until they are migrated to their <a href=”https://developer.android.com/jetpack/androidx/migrate/artifact-mappings” rel="internal">respective AndroidX counterpart</a>. Owners of non-supported plugins using Android Support Libraries must migrate their plugins to work with MABS 10. (RNMT-6187)</li>
+<li>The legacy Android Support Libraries (<i>com.android.support</i>) are no longer supported. Builds containing these libraries will fail until they are migrated to their <a href="https://developer.android.com/jetpack/androidx/migrate/artifact-mappings">respective AndroidX counterpart</a>. Owners of non-supported plugins using Android Support Libraries must migrate their plugins to work with MABS 10. (RNMT-6187)</li>
 <li>Removed functionality that was specifically adding <i>aps-environments</i> to plist when present in the provisioning profile. This should be handled by each plugin making use of the <i>aps-environment</i> entitlement, and not generically by MABS since not all applications need this. (RNMT-5935)</li>
 </ul>
