@@ -1,6 +1,6 @@
 ---
-summary: Know the details of sharing a project in the OutSystems Forge.
-tags: forge; forge_support; forge_support_sharing
+summary: Know the details of sharing an asset in the OutSystems Forge.
+tags:
 locale: en-us
 guid: 7054c142-cbc7-4e56-bcfb-df90734f3ed7
 app_type: traditional web apps, mobile apps, reactive web apps
@@ -8,15 +8,14 @@ platform-version: o11
 figma: https://www.figma.com/file/bGPF1cIwKxeWbPhMdOrHsM/Forge%20Components?node-id=801:320
 ---
 
-# Sharing a project
+# Sharing an asset in Forge
 
-## What project format should I use? { #formats }
+## What format should I use? { #formats }
 
-The recommended format to share a project in Forge is using an **OutSystems Application Package** (.oap).
+To share an asset in Forge you must use an **OutSystems Application Package** (.oap).
 
 OutSystems Application Packages (.oap) are fully functional applications or assets. They have automatic installation and dependency management capabilities that provide the best possible experience for others in the community.
 
-If you want to share a simple asset or snippet that's not ready to run on its own (for example, a how-to, a coding pattern, or a small widget), share a single **OutSystems Module** (.oml). A module allows other users to easily open and inspect its content for reuse.
 
 ## How do I export an OutSystems Application Package for sharing? { #export-oap }
 
@@ -26,17 +25,8 @@ Alternatively, you can download the application in the Service Center console:
 
 1. To access Service Center, open the application in Service Studio, click the **Environment** menu, and select **Application Management in Service Center...**. This redirects you to the application details page in Service Center, under the **Factory** section.
 
-2. On the application details page, click the **Download** button.
+1. On the application details page, click the **Download** button.
 
-## How do I export an OutSystems Module for sharing? { #export-oml }
-
-Open the module in Service Studio, click the **Module** menu and select the **Export > Save As...** option.
-
-Alternatively, you can download the module in the Service Center console:
-
-1. To access Service Center, open the module in Service Studio, click the **Module** menu and select **Module Management in Service Center...**. This redirects you to the module details page in Service Center, under the **Factory** section.
-
-2. On the module details page, click the **Download Published Version** button.
 
 ## How do I upload an asset? { #publish }
 
@@ -90,7 +80,7 @@ Once your asset is ready, follow the steps below to upload it to Forge.
 
     ![Version control and ownership details](images/version-control-fg.png)
 
-    * Enter the project version.
+    * Enter the asset version.
         
         Keep in mind that version numbers are unique. Forge suggests a version number, but you can change it. The version is visible on the main page and in the **Versions** tab. Assign an incremental number for each new version update so people can easily identify the latest version.
 
@@ -112,7 +102,7 @@ Once your asset is ready, follow the steps below to upload it to Forge.
 
     * Add any relevant tags. 
         
-        Tags help users find your asset and filter published assets.
+        Tags help users find your assets and filter published assets.
 
 1. Click **Continue**.
 
