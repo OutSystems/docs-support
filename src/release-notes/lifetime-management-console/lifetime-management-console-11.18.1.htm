@@ -11,6 +11,7 @@ pageprivacy: public
 <h3 id="new_in_lifetime_management_console_11.18.1" >New in LifeTime Management Console 11.18.1</h3>
 <ul>
 <li>Platform Server version updated to 11.23.0. (R11CT-2436)</li>
+<li>In this LifeTime version, manual installation of Microsoft Visual C++ 2015-2022 is required. We acknowledge that this is a known issue, and we are actively working to resolve it as quickly as possible. (R11CT-2620)</li>
 </ul>
 <h3 id="bug_fixing_lifetime_management_console_11.18.1" >Bug Fixing</h3>
 <ul>
@@ -26,3 +27,7 @@ This occurred when the Staging Edit page was open. (RPM-4316) <span class="catta
 <li>Fixed an issue that would cause 2-stage deployment plans to finish with errors. This issue occurred when 'Continue Deployment' was clicked after the solution associated with the plan was deleted in the target environment during the execution of the SolutionPack_Cleanup timer. Now, LifeTime will receive the information that the solution was deleted and will abort the deployment plan. (RPM-969) <span class="cattag">Application Lifecycle</span>  <span class="cattag">LifeTime</span> </li>
 </ul>
 
+<h3>Note</h3>
+<ul>
+<li>In this LifeTime version, manual installation of Microsoft Visual C++ 2015-2022 is required. The checklist bundled with the installer doesn't include the necessary steps for that. We acknowledge that this is a known issue, please <a href="https://www.outsystems.com/downloads/ScreenDetails.aspx?MajorVersion=11&ReleaseId=21324&ComponentName=LifeTime">download the checklist from our website</a> that includes the steps for the manual installation of Microsoft Visual C++ 2015-2022. </li>
+</ul>
