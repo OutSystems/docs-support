@@ -113,7 +113,7 @@ This version can run your apps on:
             <td style="width:231px;">13 (API 33)<br />
             Build Tools 33.0.0<br />
             Gradle 7.5.1<br />
-            Kotlin 1.6.20 (Default)</td>
+            Kotlin 1.6.20 (Default) to 1.7.X</td>
             <td>iOS 16<br />
             Xcode 14.1<br />
             Cocoa Pods 1.11.2<br />
