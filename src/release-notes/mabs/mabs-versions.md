@@ -33,7 +33,7 @@ Beta release on October 26, 2023 - Deprecation date to be announced
 
 <div class="warning" markdown="1">
 
-It's recommended to update all supported plugins to the latest version available on the Forge. If you're upgrading from MABS 8, all plugins should already be compliant. For more details, please check the **[release notes](https://success.outsystems.com/Support/Release_Notes/Mobile_Apps_Build_Service_Versions/MABS_10_Release_notes#mabs-version-10.0)**.
+It's recommended to update all supported plugins to the latest version available on the Forge. For more details, please check the **[release notes](https://success.outsystems.com/Support/Release_Notes/Mobile_Apps_Build_Service_Versions/MABS_10_Release_notes#mabs-version-10.0)**.
 
 </div>
 
