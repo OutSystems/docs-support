@@ -789,15 +789,15 @@ It is possible to enable the configuration "Allow introspection of views using D
 
 ### Introduced in Platform Server 11.21.0 { #bc-11210-1 }
 
-**Issue**: Default values in consumed REST, SOAP and SAP methods are no longer translated.
+**Issue**: Default values of parameters in consumed REST, SOAP and SAP methods are no longer translated.
 
 **Runtime**: Traditional web
 
-**Rationale**: The code generated for the translation of these values resulted in compilation errors, causing the publication to fail. For input parameters, however, the errors occurred only when the **Send Default Value** property was set to "No", hence the breaking change.
+**Rationale**: The code generated for the multilingual translation of these values resulted in compilation errors, causing the publication to fail. There was a pattern which did not cause errors though, and will require applying the fix outlined below: input parameters with the **Send Default Value** property set to "Yes", if their default value has translations defined through the Multilingual feature.
 
 This change affects only Traditional Web apps. For Reactive Web and Mobile apps, Service Studio already did not allow defining translations for default values.
 
-**Fix**: A warning message will be shown when publishing a module that has the breaking pattern. In order to preserve the behavior, move the default value and its translations to a new intermediate action which in turn calls the consumed method.
+**Fix**: During the upgrade, if any module was affected by the breaking change, then a warning message saying "Cannot translate default values in consumed integrations", and including the location of the default value, will be shown in the [modules preparation step](https://success.outsystems.com/documentation/11/setup_and_maintain_your_outsystems_infrastructure/upgrade_outsystems_platform/modules_preparation_step_during_platform_server_upgrade/) or when publishing it as part of a solution with full compilations. In order to preserve the behavior, move the default value and its translations to a new intermediate action which in turn calls the consumed method.
 
 Note that the Locale settings are not propagated through the REST/SOAP/SAP integrations, so there is no automated way of knowing if the values sent through the Request have been translated.
 

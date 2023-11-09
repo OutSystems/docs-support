@@ -21,7 +21,9 @@ The security contact is the first recipient of all security-related email commun
 ## Initial user setup
 
 <div class="info" markdown="1">
+
 As part of the initial usage of any infrastructure, it's necessary to initialize the administrator users of all tenants. In this case, we're looking at IT users and Application users.
+
 </div>
 
 The LifeTime and Service Center consoles manage the Platform Server. LifeTime manages the IT users, while the Users application manage the end users of the deployed applications. Make sure to change both administrator passwords on first use according to the following instructions.

@@ -1,0 +1,32 @@
+---
+isautopublish: true
+pageprivacy: public
+---
+
+<h2 id="lifetime_management_console_11.18.1" >LifeTime Management Console 11.18.1</h2>
+<div class="info"><p>Released on Oct 18, 2023</p></div>
+
+
+<style>.cattag {background: #f4f2ff; color: #6a6581; padding: 4px 10px;}</style>
+<h3 id="new_in_lifetime_management_console_11.18.1" >New in LifeTime Management Console 11.18.1</h3>
+<ul>
+<li>Platform Server version updated to 11.23.0. (R11CT-2436)</li>
+</ul>
+<h3 id="bug_fixing_lifetime_management_console_11.18.1" >Bug Fixing</h3>
+<ul>
+<li>Fixed an issue with displaying staging records when the advanced filter is expanded in the Stagings List screen.
+
+This issue would occur when the user expands the advanced filter causing the first record to be partially hidden at the top.
+
+Now, the first record is displayed correctly regardless of the advanced filters being expanded or collapsed. (R11CT-2474)</li>
+<li>Fixed an issue in which SQL Server 2019 was not being included in the list of database technologies of LifeTime’s checklist.  (R11CT-2486)</li>
+<li>When configuring OpenID Connect providers, LifeTime now supports longer client secrets - up to 100 characters in length, from the previous limit of 50 characters, ensuring the identity providers generating longer client secrets can be configured seamlessly. (RPM-4050) <span class="cattag">Application Lifecycle</span>  <span class="cattag">LifeTime</span> </li>
+<li>Fixed an issue that caused excessive CPU usage.
+This occurred when the Staging Edit page was open. (RPM-4316) <span class="cattag">Application Lifecycle</span>  <span class="cattag">LifeTime</span> </li>
+<li>Fixed an issue that would cause 2-stage deployment plans to finish with errors. This issue occurred when 'Continue Deployment' was clicked after the solution associated with the plan was deleted in the target environment during the execution of the SolutionPack_Cleanup timer. Now, LifeTime will receive the information that the solution was deleted and will abort the deployment plan. (RPM-969) <span class="cattag">Application Lifecycle</span>  <span class="cattag">LifeTime</span> </li>
+</ul>
+
+<h3>Note</h3>
+<ul>
+<li>In this LifeTime version, manual installation of Microsoft Visual C++ 2015-2022 is required. The checklist bundled with the installer doesn't include the necessary steps for that. We acknowledge that this is a known issue, please <a href="https://www.outsystems.com/downloads/ScreenDetails.aspx?MajorVersion=11&ReleaseId=21324&ComponentName=LifeTime">download the checklist from our website</a> that includes the steps for the manual installation of Microsoft Visual C++ 2015-2022. </li>
+</ul>

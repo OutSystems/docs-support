@@ -24,6 +24,58 @@ The change of the MABS version is an optional feature. It’s usually enough to 
 
 See [Support provided for beta versions](mabs-beta-support.md) for more information about the OutSystems policy for supporting new versions of mobile operating systems.
 
+<div class="info" markdown="1">
+
+## **Version 10.0** - [See Release Notes](10/10.0/10.0.md)<br/>
+Beta release on October 26, 2023 - Deprecation date to be announced
+
+</div>
+
+<div class="warning" markdown="1">
+
+It's recommended to update all supported plugins to the latest version available on the Forge. For more details, please check the **[release notes](https://success.outsystems.com/Support/Release_Notes/Mobile_Apps_Build_Service_Versions/MABS_10_Release_notes#mabs-version-10.0)**.
+
+</div>
+
+This version can run your apps on:
+
+<small>![](images/android-icon.png) Android 9 to 14</small>
+
+<small>![](images/iOS-icon.png) iOS 14 to 17</small>
+
+**More details:**
+
+<table style="width: 632px; table-layout: fixed">
+    <tbody class="RegularLightText">
+        <tr>
+            <td style="width:156px;"></td>
+            <td style="width:231px;">Android</td>
+            <td>iOS</td>
+        </tr>
+        <tr>
+            <td style="vertical-align:middle;width:156px;">Target SDK</td>
+            <td style="width:231px;">14 (API 34)<br />
+            Build Tools 34.0.0<br />
+            Gradle 8.3<br />
+            Kotlin 1.9.10 (Default)</td>
+            <td>iOS 17<br />
+            Xcode 15.0<br />
+            Cocoa Pods 1.12.1<br />
+            Swift 5.9</td>
+        </tr>
+        <tr>
+            <td style="vertical-align:middle;width:156px;">Cordova CLI</td>
+            <td style="width:231px;">12.0.0</td>
+            <td>12.0.0</td>
+        </tr>
+        <tr>
+            <td style="vertical-align:middle;width:156px;">Cordova Engine</td>
+            <td style="width:231px;">12.0.0</td>
+            <td>7.0.0</td>
+        </tr>
+    </tbody>
+</table>
+
 # Supported
 
 You will get full support through our support requests mechanism. You will also get all bug fixes.
@@ -31,7 +83,7 @@ You will get full support through our support requests mechanism. You will also 
 <div class="info" markdown="1">
 
 ## **Version 9.0** - [See Release Notes](9/9.0/9.0.md)<br/>
-Released on November 23 2022 - Deprecation date to be announced
+Released on November 23, 2022 - Deprecation date to be announced
 
 </div>
 
@@ -61,7 +113,7 @@ This version can run your apps on:
             <td style="width:231px;">13 (API 33)<br />
             Build Tools 33.0.0<br />
             Gradle 7.5.1<br />
-            Kotlin 1.6.20 (Default)</td>
+            Kotlin 1.6.20 (Default) to 1.7.X</td>
             <td>iOS 16<br />
             Xcode 14.1<br />
             Cocoa Pods 1.11.2<br />

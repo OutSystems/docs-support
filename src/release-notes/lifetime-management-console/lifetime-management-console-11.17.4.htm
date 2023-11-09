@@ -20,3 +20,7 @@ Now, the user can continue the process and remove the environment from Cloud Bac
 <li>Occasionally, the state of a deployment plan may become undefined because of an unexpected event (for instance, a time-out, because the solution publish operation takes too long) and if one were to attempt to re-execute the plan, you would get an error stating that there is an already ongoing publish operation. This would persist until the solution publish finished in the target environment. Now, the user experience has been improved by updating accurately the state of the deployment plan as well as informing the IT user that the solution publish operation of the initial attempt is still ongoing. This fix requires Platform Server version 11.23.1 or higher to be installed in the target environment of the deployment plan. (RPM-1841) <span class="cattag">Application Lifecycle</span>  <span class="cattag">LifeTime</span> </li>
 </ul>
 
+<h3>Note</h3>
+<ul>
+<li>In this LifeTime version, manual installation of Microsoft Visual C++ 2015-2022 is required. The checklist bundled with the installer doesn't include the necessary steps for that. We acknowledge that this is a known issue, please <a href="https://www.outsystems.com/Downloads/ScreenDetails.aspx?MajorVersion=11&ReleaseId=21171&ComponentName=LifeTime">download the checklist from our website</a> that includes the steps for the manual installation of Microsoft Visual C++ 2015-2022. </li>
+</ul>

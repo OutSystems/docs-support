@@ -88,13 +88,13 @@ To better understand how OutSystems handles database connections, analyze what h
 
 ### .NET Stack
 
-On the .NET stack, the application modules are not automatically loaded. Instead, they are loaded on their first access. This means that initially you only have a handful of application modules loading up, and therefore very few database connections.
+On the .NET stack, the application modules are not automatically loaded. Instead, they are loaded on their first access. This means that initially, you only have a handful of application modules loading up and, therefore, very few database connections.
 
 Assuming that all application modules are eventually loaded:
 
 * You have 200 application modules on each front-end;
 
-* Each of these application modules has one connection for each database the application module connects to. As a minimum, it connects to the OutSystems session and main databases, up until OutSystems 10. Starting on OutSystems 11 it will additionally connect to the log database.
+* Each application module has one connection for each database the application module connects to. As a minimum, it connects to the OutSystems session and main databases up until OutSystems 10. Starting on OutSystems 11 it will additionally connect to the log database.
 
 This adds to a total of 800 connections up until OutSystems 10 or 1200 connections for OutSystems 11.
 
@@ -117,11 +117,11 @@ Note that:
 
 * The number of connections in the log database doesn't scale with the number of concurrent user accesses. It will increase based only on how many types of logs need to be written concurrently.
 
-* The numbers are an approximation only because one user session might require more than one database connection: the platform will perform optimizations that might mean that in an action flow more than one connection is used.
+* The numbers are an approximation only because one user session might require more than one database connection: the platform will perform optimizations that might mean that in an action flow, more than one connection is used.
 
 </div>
 
-One connection was already established on each front-end for each database, so we'll need additional 49 connections per front-end for the session and main databases. This adds up to a total of 1396 connections:
+One connection was already established on each front-end for each database, so we'll need an additional 49 connections per front-end for the session and main databases. This adds up to a total of 1396 connections:
 
 ``1200 idle connections + (49 connections per frontend x 2 frontends x 2 database connections per frontend)``
 
@@ -158,6 +158,10 @@ If that application module becomes even more popular and now receives 150 concur
 * The remaining 55 requests have to wait for an available connection.
 
 During this high-usage peak, there's a total of 400 connections.
+
+### External database connections
+
+External databases are excluded from the examples outlined in the in the .NET Stack, Java Stack, Real-world example sections. If you have apps that are connected to external databases, additional connection pools are created by default. The default values for the specifications are determined by the database engine you're connecting to. You can configure the min. and max. connection pool size for database connections in the connection strings.
 
 ### More Information
 
