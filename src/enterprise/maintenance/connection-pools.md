@@ -21,7 +21,7 @@ The same mechanism and principles are used by the Platform Server across all typ
 
 The platform uses standard connection pooling mechanisms:
 
-* .NET stack - [ADO.NET](https://msdn.microsoft.com/en-us/library/8xx3tyca(v=vs.100).aspx) for SQL Server and ODP.NET for Oracle.
+* .NET stack - [ADO.NET](https://msdn.microsoft.com/en-us/library/8xx3tyca(v=vs.100).aspx) for SQL Server or [ODP.NET](https://www.oracle.com/database/technologies/appdev/dotnet/odp.html) for Oracle Database
 
 * Java stack - [Oracle UCP](http://docs.oracle.com/cd/B28359_01/java.111/e10788/intro.htm#BABHFGCA)
 
