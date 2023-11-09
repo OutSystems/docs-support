@@ -161,7 +161,7 @@ During this high-usage peak, there's a total of 400 connections.
 
 ### External database connections
 
-External databases are excluded from the examples in the JAVA Stack and .Net sections. If you have apps that are connected to external databases, additional connection pools are created by default. The default values for the specifications are determined by the database engine you're connecting to. You can configure the min. and max. connection pool size for database connections in the connection strings.
+External databases are excluded from the examples outlined in the in the .NET Stack, Java Stack, Real-world example sections. If you have apps that are connected to external databases, additional connection pools are created by default. The default values for the specifications are determined by the database engine you're connecting to. You can configure the min. and max. connection pool size for database connections in the connection strings.
 
 ### More Information
 
