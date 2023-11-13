@@ -1,0 +1,56 @@
+---
+isautopublish: true
+pageprivacy: semi-private
+---
+
+<h2 id="platform_server_11.24.0" >Platform Server 11.24.0</h2>
+<div class="info"><p>This is a preliminary version of the document.</p></div>
+
+
+<style>.cattag {background: #f4f2ff; color: #6a6581; padding: 4px 10px;}</style>
+<h3 id="new_in_platform_server_11.24.0" >New in Platform Server 11.24.0</h3>
+<ul>
+<li>Deploy Service executable and related files are now isolated inside {Platform Server folder}/DeployService/ folder, instead of the root install path. This will improve maintainability of that service. (R11BRT-690)</li>
+<li>Added the ARIA alert role to the feedback message in order to improve accessibility with screen readers. Inspired by <a href="https://www.outsystems.com/ideas/13581/wcag-compatibility-improvement-error-messages/"> Joost Miltenburg’s idea</a>. (R11DT-2046)</li>
+<li>It is now possible to integrate with SAP services using the SAP Connector for Microsoft .NET 3.1. Using previous versions of the SAP Connector will not be supported. Check <a href="https://success.outsystems.com/support/release_notes/11/outsystems_11_side_effects_and_breaking_changes/">OutSystems 11 side effects and breaking changes</a> for more details. (RO11IT-592)</li>
+</ul>
+<h3 id="bug_fixing_platform_server_11.24.0" >Bug Fixing</h3>
+<ul>
+<li>Released a toggle to disable the sanitization of valid numbers that begin with -/+ signs when exporting RecordListToExcel. The sanitization will stay enabled by default (e.g. -1 is sanitized to '-1). To disable the sanitization, one needs to set the ossys_parameter OutSystems.HubEdition.SanitizeSpreadsheetNumbers to False, restart Deployment Controller Service, and Apply Settings to the Factory. (RPM-1206) <span class="cattag">Application Runtime</span>  <span class="cattag">Logic Execution</span> </li>
+<li>Reactive File Upload widget is now focusable. A user can navigate through screen components by pressing Tab until File Upload is focused. Then they can press Enter or Space keys to open File Explorer and choose the file to upload. For applications that use OutSystemsUI as their base theme, OutSystemsUI 2.18.0 will introduce new CSS to highlight the widget when it's focused. It will also extend the Accessibility Features to this widget. (RPM-1899) <span class="cattag">Application Runtime</span>  <span class="cattag">Interface</span> </li>
+<li>Feedback Message is now focusable. A user can navigate through screen components by pressing Tab until Feedback Message is focused. Then they can press Enter or Space keys to close the message.  (RPM-2007) <span class="cattag">Application Runtime</span> </li>
+<li>Fixed an issue that caused screen readers to incorrectly access screen content when multiple popups exist on the screen. 
+This applies only to reactive web apps. (RPM-2480) <span class="cattag">Application Runtime</span> </li>
+<li>Fixed an issue that would lock the database when logging in with the same credentials, using the OutSystems basic authentication API.
+This would occur when the Login method is called repeatedly with the same credentials for AD or LDAP users, causing a database record lock.
+This lock would hold the login process and register an error even though the first request was successful.
+Now, only the required database queries are performed, avoiding the lock altogether. (RPM-2524) <span class="cattag">Application Lifecycle</span>  <span class="cattag">Users</span> </li>
+<li>Fixed an issue that caused the attribute aria-activedescendant of a Button Group widget to be incorrectly populated. This would raise an accessibility issue reported by an accessibility verification tool. (RPM-2702) <span class="cattag">Application Runtime</span>  <span class="cattag">Interface</span> </li>
+<li>Fixed an issue that caused a memory leak when navigating between or refreshing reactive or mobile screens. <br />
+In screens that had many UI components, this could cause the app to restart once it reached a specific memory threshold. <br />
+This occurred because some UI components were not unregistering from the LocaleService, upon being removed from the UI, causing them to be kept in memory. <br /> (RPM-3540) <span class="cattag">Application Runtime</span> </li>
+<li>Now, when exporting the "Timers Performance" report from the Service Center analytics, the report will have the module and timer names instead of their identifiers.  (RPM-3695) <span class="cattag">Application Lifecycle</span>  <span class="cattag">Service Center</span> </li>
+<li>Added more control over the Deadlock Priority of `BPT_API`'s `Process_BulkDelete` . Deadlock Priority can be lowered by toggling the new `OSSYS_PARAMETER` `OutSystems.RuntimePublic.ProcessDeletion.DeadlockMitigation`. (RPM-3954) <span class="cattag">Application Runtime</span>  <span class="cattag">Processes</span> </li>
+<li>Fixed an issue in Service Center that allowed users with List permission to access or edit information in the Application Detail screen.
+This issue occurred when an application had its native distribution set up and a user with List permission navigated to the Distribute tab on that application's detail page.
+Now, every link or input is disabled for that page if the user doesn't have the right permissions. (RPM-4121) <span class="cattag">Application Lifecycle</span>  <span class="cattag">Service Center</span> </li>
+<li>Fixed an issue that prevented users from assigning Database Connections to Logical Databases when configuring extensions. <br />
+This occurred when there were more than 100 Database Connections configured and the user didn't have access to the majority of them. <br />
+Now, assigning Database Connections to Logical Database is independent of the number of existing connections. (RPM-4134) <span class="cattag">Application Lifecycle</span>  <span class="cattag">Service Center</span> </li>
+<li>Fixed the Service Center's search functionality by ensuring it correctly encodes special Unicode characters in its database SQL queries. This enhancement addresses the issue where applications with names written in Japanese characters, for instance, couldn't be properly searched for on the Service Center's applications list screen. (RPM-4186) <span class="cattag">Application Lifecycle</span>  <span class="cattag">Service Center</span> </li>
+<li>Fixed an issue when loading Excel files that use named ranges using the ExcelToRecordList functionality. New behaviors of certain Excel patterns are now considered. This fix implies a breaking change. Check <a href="https://success.outsystems.com/support/release_notes/11/outsystems_11_side_effects_and_breaking_changes/">OutSystems 11 side effects and breaking changes</a> for more details. (RPM-4332) <span class="cattag">Application Runtime</span>  <span class="cattag">Logic Execution</span> </li>
+<li>Fixed an issue on Reactive Web and Mobile apps that caused the error "Error Opening Popover: Cannot read properties of null" to be shown when opening a PopOver widget inside a PopUp widget. (RPM-4336) <span class="cattag">Application Runtime</span>  <span class="cattag">Interface</span> </li>
+<li>Fixed an issue in which an error message related to native platforms was inconsistent with the corresponding tab in the module detail page of Service Center. Now, when a module is changed within a mobile application, Service Center will display the following message: "The mobile app must be tagged in LifeTime and generated if you want to submit it to the mobile app store. Check Distribute tab for more details."; which is consistent with the title of the tab in the espace detail screen. (RPM-4346) <span class="cattag">Application Lifecycle</span>  <span class="cattag">Service Center</span> </li>
+<li>The issue related to SAML login due to the exception "Cannot insert duplicate key row in object 'dbo.OSUSR6WDUSERSESSION' with unique index 'OSIDXOSUSR6WDUSERSESSION16SAMLSESSIONINDEX9TENANTID'" has been fixed.
+End-users were unable to login if they have multiple active sessions already. While doing a fresh login a new session object was being created with an existing session id that resulted in duplicate key row exception (RPM-4371) <span class="cattag">Application Lifecycle</span>  <span class="cattag">Service Center</span> </li>
+<li>Fixed an issue in Integration Studio that caused database tables to not be shown when connecting to external databases in an extension. This occurred for users with LifeTime permissions lower than "Open and Debug" for the environment. In addition, only tables that were already being used in other modules or extensions in the environment were affected. (RPM-4393) <span class="cattag">Application Lifecycle</span>  <span class="cattag">Service Center</span> </li>
+<li>Fixed issue on RT cookie settings when LifeTime Analytics is on for the environment. (RPM-839) <span class="cattag">Application Runtime</span>  <span class="cattag">Cookies</span> </li>
+<li>Fixed an issue that would cause 2-stage deployment plans to finish with errors. This issue occurred when 'Continue Deployment' was clicked after the solution associated with the plan was deleted in the target environment during the execution of the SolutionPack_Cleanup timer. Now, LifeTime will receive the information that the solution was deleted and will abort the deployment plan. (RPM-969) <span class="cattag">Application Lifecycle</span>  <span class="cattag">LifeTime</span> </li>
+<li>Fixed an issue that allowed a user without publish permission, to deploy a module in Service Studio when the same module version is already published in the server and, therefore, the upload is skipped. CVSSv3.1 score 3.3 (Low). (RPM-3215) <span class="cattag">Publish Operation</span>  <span class="cattag">Upload</span> </li>
+<li>Fixed an issue that allowed cloud customers to change the name of an environment in the screen Environment_Configuration of Service Center. CVSSv3.1 score 2.7 (Low). (RPM-4329) <span class="cattag">Application Lifecycle</span>  <span class="cattag">Service Center</span> </li>
+</ul>
+
+<h3>Breaking change</h3>
+<ul>
+<li>Fixed an issue when loading Excel files using the ExcelToRecordList functionality. New behaviors of certain Excel patterns are now considered. Check <a href="https://success.outsystems.com/support/release_notes/11/outsystems_11_side_effects_and_breaking_changes/#bc-11240-1">OutSystems 11 side effects and breaking changes</a> for more details.</li>
+</ul>
