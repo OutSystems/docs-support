@@ -801,6 +801,19 @@ This change affects only Traditional Web apps. For Reactive Web and Mobile apps,
 
 Note that the Locale settings are not propagated through the REST/SOAP/SAP integrations, so there is no automated way of knowing if the values sent through the Request have been translated.
 
+### Introduced in Platform Server 11.24.0  { #bc-11240-1 }
+
+**Issue**: Some patterns in Excel files now have different behaviors.
+
+* When a **DateTime** cell only contains the time (for example, 14:30), it will be converted to 1900-01-01 14:30 instead of 1900-01-02 14:30
+* Cells that have more than 32767 chars will be trimmed on both formats (xls and xlsx)
+* The date 29/Feb/1900 will appear as 1/Mar/1900 instead of 28/Feb/1900
+
+**Runtime**: Traditional web, Reactive web, Mobile
+
+**Rationale**: Outsystems 11 is now using the GemBox.Spreadsheet 45.0.0.1094. This version comes with some breaking changes when compared to the version previously used. 
+
+**Fix**: Change the Excel files content so that it is compliant with the breaking changes.
 
 ## Side Effects
 
