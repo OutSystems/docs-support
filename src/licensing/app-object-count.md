@@ -1,9 +1,10 @@
 ---
-summary:
+summary: Understand the application object count in OutSystems 11 and OutSystems Developer Cloud.
 tags:
 locale: en-us
 guid: cd994c70-9dcc-46ed-b423-84099beac39a
 app_type: traditional web apps, mobile apps, reactive web apps
+helpids: 30497, 30455
 platform-version: o11, odc
 ---
 
