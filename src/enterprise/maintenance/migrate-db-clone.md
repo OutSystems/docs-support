@@ -805,7 +805,7 @@ As such, you must always clean up that information and re-register the cloned en
 
         select Count(*) INTO v_exists
         from user_tables where table_name = 'OSSYS_PLATFORMSVCS_
-        OBSERVER';~
+        OBSERVER';
 
         IF v_exists > 0 THEN
         EXECUTE IMMEDIATE 'delete from OSSYS_PLATFORMSVCS_OBSERVER';
