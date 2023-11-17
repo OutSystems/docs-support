@@ -173,11 +173,7 @@ When increasing log levels, the platform and associated software tools will run 
 
 * Increase I/O on the disk. In most situations the impact of this is minimal, but still, as a best practice, you should use a separate disk volume to minimize the performance hit.
 
-We also recommend lowering the log levels once the troubleshoot session ends. Keeping the log levels high at all times can impact your application performance and disk space usage. 
-
-## Applies to
-
-OutSystems platform, all versions (last reviewed on 10.0.105.0), on-premises.
+We also recommend lowering the log levels once the troubleshooting session ends. Keeping the log levels high at all times can impact your application performance and disk space usage. 
 
 For OutSystems Cloud, open a [support ticket](https://success.outsystems.com/Support) when you need to increase the log levels and get the generated log files since these require access to the Front-End server
 
