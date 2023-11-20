@@ -32,7 +32,7 @@ The LifeTime and Service Center consoles manage the Platform Server. LifeTime ma
 
 Each environment has a [dedicated User tenant](https://success.outsystems.com/Documentation/11/Developing_an_Application/Secure_the_Application/End_User_Management) which, for some versions of the platform, might contain an Administrator account with a default password. This tenant is used by default for newly created applications. Make sure to change the passwords of all these users.
 
-1. Navigate to each of your environments: ```<environment address>/Users```
+1. Navigate to each of your environments: `<environment address>/Users`
 
 1. Select the **Administrator** user:
 
@@ -47,7 +47,7 @@ Each environment has a [dedicated User tenant](https://success.outsystems.com/Do
 
 LifeTime console [manages the IT users](https://success.outsystems.com/Documentation/11/Managing_the_Applications_Lifecycle/Manage_IT_Users/Create_an_IT_User). It's a good practice to perform an initial password change and apply a rotation policy for any administrator users.
 
-1. To rotate the password navigate to the User Management tab in ```<lifetime address>/Lifetime```, select the user assigned administrator privileges:
+1. To rotate the password navigate to the User Management tab in `<lifetime address>/Lifetime`, select the user assigned administrator privileges:
 
     ![](images/platform-server-hardening-select-LTadmin.png)
 
@@ -159,7 +159,7 @@ Check the [AppShield documentation](https://success.outsystems.com/Documentation
 
   This component is useful in cloud infrastructures, where the infrastructure isn't under your control. To understand how to use the component please visit the following [discussion](https://www.outsystems.com/forums/discussion/60471/how-to-setup-the-web-config-file-to-send-http-security-headers-to-your-app/). In fact, the given example provides an template that sets two headers for increased security. A list of headers that can be considered is:
 
-  * **X-Frame-Options**: used to indicate whether or not a browser is allowed to render a page in a ```<frame>```, ```<iframe>```, ```<embed>``` or ```<object>```. Can be used avoid click-jacking attacks. The added security is provided only if the user accessing the application is using a browser that supports this header.
+* **X-Frame-Options**: used to indicate whether or not a browser is allowed to render a page in a `<frame>`, `<iframe>`, `<embed>` or `<object>`. Can be used avoid click-jacking attacks. The added security is provided only if the user accessing the application is using a browser that supports this header.
   * **X-XSS-Protection**: used to stop pages from loading when they detect reflected cross-site scripting. This header is used to provide protection in older browsers that don't support the Content Security Policy.
 
 ## OutSystems CSIRT

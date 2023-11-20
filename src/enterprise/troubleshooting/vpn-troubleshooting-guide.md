@@ -106,7 +106,7 @@ OutSystems security rules only allow ICMP requests (ping) to the OutSystems Clou
 
 You can ping the OutSystems Cloud DNS servers to keep-alive the VPN connection or to test the connectivity between both sites.
 
-```$ ping -t  <DNS_SERVER_PRIVATE_IP_ADDRESS>```
+`ping -t  <DNS_SERVER_PRIVATE_IP_ADDRESS>`
 
 You can check the **Common issues testing VPN connectivity** section down below for more details.
 
@@ -120,7 +120,7 @@ We force traffic over the internal load balancers that resolve to non-static IP 
 
 1. **Ping** directly the OutSystems Cloud DNS private IP address(es) from your private network that has access to the VPN. This information is provided on the initial VPN configuration setup.
 
-    ```$ ping  <DNS_SERVER_PRIVATE_IP_ADDRESS>```
+    `$ ping  <DNS_SERVER_PRIVATE_IP_ADDRESS>`
 
 1. Run a **traceroute** utility from your internal network to a DNS private IP address or domain:
 
@@ -128,7 +128,7 @@ We force traffic over the internal load balancers that resolve to non-static IP 
 
     * If the output reaches your Firewall device but not the private IP address of the DNS Server, check your VPN device settings, namely if the configuration itself, policies NAT settings are correct.
 
-    ```$ traceroute  <DNS_SERVER_PRIVATE_IP_ADDRESS>```
+    `$ traceroute  <DNS_SERVER_PRIVATE_IP_ADDRESS>`
 
 #### Solution 2
 
@@ -139,11 +139,11 @@ For this option, ensure that the DNS conditional forwarder mentioned in the requ
 
 1. Perform a **telnet** session to one of the Fully Qualified Domain Names (FQDNs) of the OutSystems Cloud environments (outsystemsenterprise.com) over TCP/IP network protocol on port(s) 80 and 443. For Sentry editions allow only port 443.
 
-    ```$ telnet  example-dev.outsystemsenterprise.com 443```
+    `$ telnet  example-dev.outsystemsenterprise.com 443`
 
 1. Perform a **nslookup** command to one of the FQDNs of the OutSystems Cloud environments to check if the name resolution works and resolve the domain name(s) to a private IP address(es).
 
-    ```$ nslookup  example-dev.outsystemsenterprise.com```
+    `$ nslookup  example-dev.outsystemsenterprise.com`
 
 ### Pinging OutSystems Cloud DNS servers
 

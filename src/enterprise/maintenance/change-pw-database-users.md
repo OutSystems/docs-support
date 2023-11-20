@@ -25,13 +25,13 @@ Upon the Platform Server installation, the [Configuration Tool](https://success.
 The Platform Server requires the following database users (the presented users are the default values):
 
 * [Platform database users](https://success.outsystems.com/Documentation/11/Reference/Configuration_Tool/Platform_Tab):
-    * Administrator: ```OSADMIN```
-    * Runtime: ```OSRUNTIME```
+  * Administrator: `OSADMIN`
+    * Runtime: `OSRUNTIME`
 * [Log database users](https://success.outsystems.com/Documentation/11/Reference/Configuration_Tool/Log_Tab):
-    * Administrator: ```OSADMIN_LOG```
-    * Runtime: ```OSRUNTIME_LOG```
+  * Administrator: `OSADMIN_LOG`
+    * Runtime: `OSRUNTIME_LOG`
 * [Session database user](https://success.outsystems.com/Documentation/11/Reference/Configuration_Tool/Session_Tab):
-    * Session: ```OSSTATE```
+  * Session: `OSSTATE`
 
 ## Use case
 
@@ -57,9 +57,9 @@ Start by performing the following steps in the deployment controller server:
 
 1. Stop all OutSystems services.
 1. Connect to each of the databases using the appropriate management tool (for example: SQL Server Management Studio or Oracle Developer) and change the passwords where applicable. Depending on your criteria you may choose to change it only for some users or for all:
-    1. Access the Platform database and change the password of the Administrator and Runtime Users (by default ```OSADMIN``` and ```OSRUNTIME```).
-    1. Access the Log Database and change the password of the Administrator and Runtime users (by default ```OSADMIN_LOG``` and ```OSRUNTIME_LOG```).
-    1. Access the Session database and change the password of the Session user (by default ```OSSTATE```).
+    1. Access the Platform database and change the password of the Administrator and Runtime Users (by default `OSADMIN` and `OSRUNTIME`).
+    1. Access the Log Database and change the password of the Administrator and Runtime users (by default `OSADMIN_LOG` and `OSRUNTIME_LOG`).
+    1. Access the Session database and change the password of the Session user (by default `OSSTATE`).
 1. In the deployment controller server, open the [Configuration Tool](https://success.outsystems.com/Documentation/11/Reference/Configuration_Tool) and change the passwords:
     1. In the corresponding tab (Platform, Log, Session) change the values on the **Password** field for each database user that was altered in step 3. The following image shows an example on the Log tab:
 

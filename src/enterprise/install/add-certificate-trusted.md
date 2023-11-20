@@ -21,7 +21,7 @@ When consuming a web service integrating with other systems over HTTPS, the serv
 Self signed certificates or any type of certificate that isn't universally recognized (such as certificates issued by a public certificate authority are) must be added to the trusted root store of the servers that host the Platform Server.
 This will allow to successfully establish the trust relationship.
 
-When this step isn't done, errors like ```Could not establish trust relationship for the SSL/TLS``` may occur.
+When this step isn't done, errors like `Could not establish trust relationship for the SSL/TLS` may occur.
 
 <div class="info" markdown="1">
 

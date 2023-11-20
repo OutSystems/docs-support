@@ -89,6 +89,6 @@ Otherwise, if increasing the timeout isn't enough and/or the tables are small, c
 
 It is also possible that locks in the tables prevent the foreign key from being created by simply causing a timeout as described above. In Oracle, you might even see the following error in the event of a lock:
 
-```ORA-00054: resource busy and acquire with NOWAIT specified or timeout expired```
+`ORA-00054: resource busy and acquire with NOWAIT specified or timeout expired`
 
 To check if this is the case, you should work with your Database Administrator to determine if there are locks that affect the publish operation and how to resolve them.

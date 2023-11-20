@@ -16,9 +16,9 @@ These error messages can occur if you are publishing a module for the first time
 
 Following are two sample error messages:
 
-```Invalid Intellectual Property: You are trying to upload or publish a solution that was created in a Platform Server and its intellectual Property is protected.```
+`Invalid Intellectual Property: You are trying to upload or publish a solution that was created in a Platform Server and its intellectual Property is protected.`
 
-```Intellectual Property Error: This module is under Intellectual Property Protection, so you cannot publish it to your environment. Go to http://www.outsystems.com/ipp and request rights to use this module.```
+`Intellectual Property Error: This module is under Intellectual Property Protection, so you cannot publish it to your environment. Go to http://www.outsystems.com/ipp and request rights to use this module.`
 
 This error means that the module you’re trying to publish originated in an infrastructure with a different Activation Code. Because it’s intellectual property was never transferred, this error occurs.
 

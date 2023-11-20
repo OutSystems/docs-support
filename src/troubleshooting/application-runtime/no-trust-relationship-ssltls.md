@@ -13,7 +13,7 @@ figma:
 
 When **consuming** a web service, you're getting the following error:
 
-```Server was unable to process request. ---> The underlying connection was closed: Could not establish trust relationship for the SSL/TLS secure channel.```
+`Server was unable to process request. ---> The underlying connection was closed: Could not establish trust relationship for the SSL/TLS secure channel.`
 
 <div class="info" markdown="1">
 

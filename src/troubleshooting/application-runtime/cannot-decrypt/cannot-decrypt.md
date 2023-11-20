@@ -40,7 +40,7 @@ Check [here](https://success.outsystems.com/Documentation/11/Managing_the_Applic
 
 ## Underlying cause
 
-When the cookies sent in the request and stored in the view state differ, the Platform Server throws the error ```Error Deserializing ViewState: Cannot decrypt the content```. The **osVisitor** cookie value is only regenerated for the same session if the cookie in the request to the server is either empty or not a valid GUID.
+When the cookies sent in the request and stored in the view state differ, the Platform Server throws the error `Error Deserializing ViewState: Cannot decrypt the content`. The **osVisitor** cookie value is only regenerated for the same session if the cookie in the request to the server is either empty or not a valid GUID.
 
 
 ## Symptoms 
@@ -51,14 +51,14 @@ The most common symptom when navigating on the web application is this error is 
 
 In .NET the following will be logged in the Service Center error logs:
 
-```Error Deserializing ViewState of page "ASP.login_aspx". Cannot decrypt the content At OutSystems.RuntimeCommon.Cryptography.SymmCryptHelper.DecryptThenMacWithAESDotNet(...)  at utSystems.HubEdition.WebWidgets.OSPageViewStateCompressed.DeserializeViewState(...)```
+`Error Deserializing ViewState of page "ASP.login_aspx". Cannot decrypt the content At OutSystems.RuntimeCommon.Cryptography.SymmCryptHelper.DecryptThenMacWithAESDotNet(...)  at utSystems.HubEdition.WebWidgets.OSPageViewStateCompressed.DeserializeViewState(...)`
 
 
 Note that the error stack and message can differ slightly depending on the cause and the page.
 
 In Java, the message logged in the error logs is the following:
 
-```java.lang.NullPointerException.```
+`java.lang.NullPointerException.`
 
 To test how the manipulation of the view state can cause this error, inspect the source code of a web page and manipulate the value of the view state. After performing a postback, the “Error Deserializing ViewState” will occur. You can make the same test by changing the value of the **osVisitor** cookie.
 

@@ -17,7 +17,7 @@ This issue occurs upon an upgrade of the Platform Server on an environment that 
 * The environment is now being upgraded to PS 11.10.2 or higher.
 * It can happen regardless of whether there were intermediate upgrades between version 5 and 11.10.2 or not.
 
-During the upgrade process, and after clicking **Apply and Exit** on the Configuration Tool, Service Center installation follows. During this process, you’ll see the error: ```Value cannot be null.Parameter name: key```. The same error message may also appear when accessing apps on the browser or the device.
+During the upgrade process, and after clicking **Apply and Exit** on the Configuration Tool, Service Center installation follows. During this process, you’ll see the error: `Value cannot be null.Parameter name: key`. The same error message may also appear when accessing apps on the browser or the device.
 
 !["Value cannot be null error" on the browser](images/ki-11_10-site-properties.png)
 
@@ -42,13 +42,13 @@ Check if the environment you’re upgrading meets the conditions under the [Issu
 If you're not sure your environment meets those conditions you can confirm if your environment will be affected even before the update to 11.10.2. Ideally, this validation should be made before the update to avoid experiencing issues.
 Running the following queries will list the Site Properties with the old key format that can cause problems (please make sure that you run the queries in the correct catalog/schema):
 
-* ```SELECT * FROM ossys_Site_Property where SITE_PROPERTY_DEFINITION_ID in (select id from ossys_Site_Property_Definition where is_active = 0 and ss_key like 'site%')```
-* ```SELECT * FROM ossys_Site_Property_Shared where SITE_PROPERTY_DEFINITION_ID in (select id from ossys_Site_Property_Definition where is_active = 0 and ss_key like 'site%')```
+* `SELECT * FROM ossys_Site_Property where SITE_PROPERTY_DEFINITION_ID in (select id from ossys_Site_Property_Definition where is_active = 0 and ss_key like 'site%')`
+* `SELECT * FROM ossys_Site_Property_Shared where SITE_PROPERTY_DEFINITION_ID in (select id from ossys_Site_Property_Definition where is_active = 0 and ss_key like 'site%')`
 
 If any of the queries returns results, the environment is or will be affected by this known issue.
 
 If you already updated to 11.10.2, in addition to analyzing the results of the queries, you can find the following error in the error logs or during Service Center installation:
-```Value cannot be null.Parameter name: key```.
+`Value cannot be null.Parameter name: key`.
 
 
 ## Resolution
@@ -57,14 +57,14 @@ To resolve this, you'll need to delete the Site Properties with old IDs directly
 
 1. Delete site properties with the old key format by running the following queries:
 
-    ```DELETE FROM ossys_Site_Property where SITE_PROPERTY_DEFINITION_ID in (select id from ossys_Site_Property_Definition where is_active = 0 and ss_key like 'site%')```
+    `DELETE FROM ossys_Site_Property where SITE_PROPERTY_DEFINITION_ID in (select id from ossys_Site_Property_Definition where is_active = 0 and ss_key like 'site%')`
 
 
-    ```DELETE FROM ossys_Site_Property_Shared where SITE_PROPERTY_DEFINITION_ID in (select id from ossys_Site_Property_Definition where is_active = 0 and ss_key like 'site%')```
+    `DELETE FROM ossys_Site_Property_Shared where SITE_PROPERTY_DEFINITION_ID in (select id from ossys_Site_Property_Definition where is_active = 0 and ss_key like 'site%')`
 
 
 1. Only after deleting the Site Properties, delete their definitions:
 
-    ```DELETE FROM ossys_Site_Property_Definition where is_active = 0 and ss_key like 'site%' ```
+    `DELETE FROM ossys_Site_Property_Definition where is_active = 0 and ss_key like 'site%'`
 
 

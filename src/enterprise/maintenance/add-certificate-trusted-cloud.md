@@ -20,7 +20,7 @@ It may be the case that those external servers bear certificates that aren't sig
 
 These certificates aren't trusted by the client servers (in this case, the OutSystems servers), and therefore must be added to their trusted root store. When that step isn't executed, it leads to errors such as:
 
-```Could not establish trust relationship for the SSL/TLS```. 
+`Could not establish trust relationship for the SSL/TLS`.
 
 For OutSystems Cloud environments, this operation is performed by OutSystems support. This option is available depending on your subscription, check more details at the [Cloud services catalog](https://success.outsystems.com/Support/Enterprise_Customers/OutSystems_Support/Cloud_services_catalog).
 
