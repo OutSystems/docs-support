@@ -9,7 +9,7 @@ figma: https://www.figma.com/file/cPLNnZfDOZ1NX3avcjmq3g/Enterprise%20Customers?
 
 # Database storage on OutSystems Cloud
 
-OutSystems Cloud can run with either SQL Server or Oracle RDS databases. Upon purchase an initial database storage is provisioned. Storage autogrows as needed at no additional charge.
+OutSystems Cloud can run with either SQL Server or Oracle RDS databases. Upon purchase an initial database storage is provisioned. Storage autogrows as needed.
 
 ## What does the value I see in LifeTime mean?
 
