@@ -17,7 +17,7 @@ When applications redirect users to other pages using dynamic URLs in its parame
 
 The following example from the [OWASP documentation](https://www.owasp.org/index.php/Top_10_2013-A10-Unvalidated_Redirects_and_Forwards) shows how an unvalidated redirect can be exploited to send a user to a malicious site.
 
-![Example of how an unvalidated redirect can be exploited to send a user to a malicious site](images/example_unvalidated_redirect_to_send_user_to_malicious_site.png)
+![Example of how an unvalidated redirect can be exploited to send a user to a malicious site](images/ex-send-user-to-malicious-site.png)
 
 ## How to do it with OutSystems
 
