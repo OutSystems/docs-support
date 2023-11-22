@@ -1,0 +1,18 @@
+---
+isautopublish: true
+pageprivacy: public
+---
+
+<h2 id="lifetime_management_console_11.19.0" >LifeTime Management Console 11.19.0</h2>
+<div class="info"><p>Released on Nov 22, 2023</p></div>
+
+
+<style>.cattag {background: #f4f2ff; color: #6a6581; padding: 4px 10px;}</style>
+<h3 id="bug_fixing_lifetime_management_console_11.19.0" >Bug Fixing</h3>
+<ul>
+<li>For scenarios where site property values are changed, staging summary progress messages now include the module name to which the site properties belong. (R11CT-2573)</li>
+<li>Fixed an issue in LifeTime's checklist. The Microsoft Visual C++ 2015-2022 Redistributable (x64) is now included in the installation requirements. (RPM-4399) <span class="cattag">Infrastructure Management</span>  <span class="cattag">Platform Installation Checklist</span> </li>
+<li>Fixed an issue that prevented users from seeing the full application name or user roles' name on some LifeTime screens. This issue occurred when the name was too long and would be concatenated and displayed with an ellipsis. Now, the space for these attributes has been increased, allowing for full visibility. (RPM-4401) <span class="cattag">Application Lifecycle</span>  <span class="cattag">LifeTime</span> </li>
+<li>Fixed circular dependencies in LifeTime solution that would prevent the proper installation of LifeTimeSDK in development environments. (RPM-4504) <span class="cattag">Application Lifecycle</span>  <span class="cattag">LifeTime</span> </li>
+</ul>
+
