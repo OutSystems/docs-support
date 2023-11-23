@@ -16,7 +16,21 @@ OutSystems is committed to minimizing your effort when upgrading to a new releas
 
 As such, before introducing a breaking change for a new release, OutSystems carefully analyzes its impact, namely, the expected number of occurrences in its customers' installations. A breaking change is introduced only if it affects a small number of customers.
 
-## Breaking Changes 
+## Breaking Changes
+
+### Introduced in Platform Server 11.24.0  { #bc-11240-1 }
+
+**Issue**: Some patterns in Excel files now have different behaviors.
+
+* When a **DateTime** cell only contains the time (for example, 14:30), it will be converted to 1900-01-01 14:30 instead of 1900-01-02 14:30
+* Cells that have more than 32767 chars will be trimmed on both formats (xls and xlsx)
+* The date 29/Feb/1900 will appear as 1/Mar/1900 instead of 28/Feb/1900
+
+**Runtime**: Traditional web, Reactive web, Mobile
+
+**Rationale**: Outsystems 11 is now using the GemBox.Spreadsheet 45.0.0.1094. This version comes with some breaking changes when compared to the version previously used. 
+
+**Fix**: Change the Excel files content so that it is compliant with the breaking changes.
 
 ### Introduced in Platform Server 11.21.0 { #bc-11210-1 }
 
@@ -798,23 +812,6 @@ Upgrading a module in Service Studio will remove any dependencies on these entit
 For example, the sent decimal values `10.000` and `10.1000` are deserialized to `10.000` and `10.1000` and not to `10` and `10.1`. 
 
 **Workaround**: To truncate a value, change the deserialized attribute data type to Decimal instead of  Text. 
-
-
-
-
-### Introduced in Platform Server 11.24.0  { #bc-11240-1 }
-
-**Issue**: Some patterns in Excel files now have different behaviors.
-
-* When a **DateTime** cell only contains the time (for example, 14:30), it will be converted to 1900-01-01 14:30 instead of 1900-01-02 14:30
-* Cells that have more than 32767 chars will be trimmed on both formats (xls and xlsx)
-* The date 29/Feb/1900 will appear as 1/Mar/1900 instead of 28/Feb/1900
-
-**Runtime**: Traditional web, Reactive web, Mobile
-
-**Rationale**: Outsystems 11 is now using the GemBox.Spreadsheet 45.0.0.1094. This version comes with some breaking changes when compared to the version previously used. 
-
-**Fix**: Change the Excel files content so that it is compliant with the breaking changes.
 
 ## Side Effects
 
