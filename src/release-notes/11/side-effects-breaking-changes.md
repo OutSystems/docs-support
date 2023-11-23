@@ -16,8 +16,326 @@ OutSystems is committed to minimizing your effort when upgrading to a new releas
 
 As such, before introducing a breaking change for a new release, OutSystems carefully analyzes its impact, namely, the expected number of occurrences in its customers' installations. A breaking change is introduced only if it affects a small number of customers.
 
-
 ## Breaking Changes 
+
+### Introduced in Platform Server 11.21.0 { #bc-11210-1 }
+
+**Issue**: Default values of parameters in consumed REST, SOAP and SAP methods are no longer translated.
+
+**Runtime**: Traditional web
+
+**Rationale**: The code generated for the multilingual translation of these values resulted in compilation errors, causing the publication to fail. There was a pattern which did not cause errors though, and will require applying the fix outlined below: input parameters with the **Send Default Value** property set to "Yes", if their default value has translations defined through the Multilingual feature.
+
+This change affects only Traditional Web apps. For Reactive Web and Mobile apps, Service Studio already did not allow defining translations for default values.
+
+**Fix**: During the upgrade, if any module was affected by the breaking change, then a warning message saying "Cannot translate default values in consumed integrations", and including the location of the default value, will be shown in the [modules preparation step](https://success.outsystems.com/documentation/11/setup_and_maintain_your_outsystems_infrastructure/upgrade_outsystems_platform/modules_preparation_step_during_platform_server_upgrade/) or when publishing it as part of a solution with full compilations. In order to preserve the behavior, move the default value and its translations to a new intermediate action which in turn calls the consumed method.
+
+Note that the Locale settings are not propagated through the REST/SOAP/SAP integrations, so there is no automated way of knowing if the values sent through the Request have been translated.
+
+### Introduced in Platform Server 11.20.0 { #bc-11200-1 }
+
+**Issue**: In SQL Server, when importing or using external entities targeting views with DB linked tables, the platform will now treat those views as local views instead of attempting to perform operations directly on the underlying tables.
+
+This can lead to Update, Delete and GetForUpdate operations, which were previously possible on those views, to stop working.
+
+**Runtime**: Traditional web, Reactive web, Mobile
+
+**Rationale**: When importing external views in SQL Server, the platform had inconsistent behaviors if the view definition contained DB linked tables. In these situations, if the connection user had "VIEW DEFINITION" permissions over the view, Integration Studio would import the columns of the first table used in the view definition instead of the columns of the view. It would also perform Update, Delete and GetForUpdate operations directly to that table, bypassing the view completely.
+
+In most cases, this situation would cause runtime errors in Aggregates or SQL nodes, since the requested columns did not match. However, it would allow some other operations to succeed if the view only had a single table and made no changes to the columns definition. Having this capability also required connectivity and extra introspection queries when compiling modules that referenced those entities, causing runtime errors and incorrectly generated query code if there was a temporary unavailability of the external databases.
+
+The old behavior was added to the platform to make it easier to import and modify tables accessed via DB links when there were no capabilities to directly connect to the destination databases. Currently, with the Database Connection feature available, there are alternatives to perform these integrations directly without having to rely on remote views.
+
+**Fix**: The situations that require attention are when using views with DB linked tables to perform Update, Delete and GetForUpdate operations. This requires knowing what external entities are being imported via extensions and if they are views using DB Links. These changes only apply to SQL Server databases, so other databases are not affected.
+
+The possible fixes are the following:
+
+* Import the tables directly in Integration Studio again, without using the view. To do this in Integration Studio, open the extension and change the "Table or View Default Name" on the correspondent entity to have the fully qualified name of the table, including the DB Link (Ex: dblink.catalog.schema). Then, perform a "Refresh" to get the new definition. Validate and manually fix the "Identifier" attribute and any types on foreign keys, since view introspection cannot determine either of those.
+
+* Use the Database Connection feature to create a new connection directly to the target database. In this situation, you need to import the entities again in Integration Studio using the new Database Connection without using the views or DB links. This requires updating the modules that use those entities to have the new references.
+
+* If the views are being used to join data with other local entities or if the view definitions are complex (note that in most situations, this would be currently causing runtime errors, so it's unlikely), and there is also a need to perform update operations, OutSystems recommends importing two separate entities. One entity would still use the views to be used in Aggregates and joining data with other entities. The other entity would be used only for the update operations, using either the first or the second fix.
+
+It is possible to enable the configuration "Allow introspection of views using DB linked tables in SQL Server" via Factory Configuration. This configuration is provided as a backward compatibility option and can be applied before the version upgrade. OutSystems doesn't recommend using it as a permanent fix since its behavior is inconsistent and can lead to runtime errors.
+
+### Introduced in Platform Server 11.19.0 { #bc-11190-1 }
+
+#### Solution Publish
+
+**Issue**: In a Solution Publish, if a module references (directly or indirectly) multiple extensions and those extensions contain different versions of the same DLL, the Publish process chooses one of those DLLs to deploy. There was never a guarantee that the final application would work if those DLLs or their dependencies were incompatible with each other. In version 11.19.0, the algorithm that chooses the DLLs to deploy changed. It's possible that applications that were previously working, because the algorithm picked one DLL, stop working because it now picks another.
+
+**Runtime**: Traditional web, Reactive web, Mobile
+
+**Rationale**: The algorithm now gives precedence to the DLLs from the most recent extension published to account for some scenarios with loosely coupled dependencies, instead of the previous dependencies alphabetical order.
+
+**Fix**: Ensure the environment's extensions don’t have different incompatible versions of the same DLL. You can use the following query to identify multiple extensions that contain the same DLL. If you can see your extensions on this list, we recommend you consolidate the DLLs into a single extension or make sure they are all compatible. The query lists some OutSystems extensions, which are compatible between them.
+
+    SELECT REPDLLEXT.Filename DLL, ossys_Extension.Name EXTENSION FROM	
+        (SELECT ossys_Extension_Dependency.Filename, ossys_Extension_Dependency.Extension_Id FROM		
+            (SELECT Filename FROM
+                (SELECT Filename, Extension_Id FROM
+                ossys_Extension_Dependency
+                JOIN ossys_Extension on ossys_Extension_Dependency.Extension_Id = ossys_Extension.Id
+                WHERE Filename LIKE '%.dll'
+                AND ossys_Extension.IS_ACTIVE = 1
+                AND ossys_Extension.Name NOT IN 
+				('OMLProcessor', 'IntegrationStudio', 'DeviceDetectionWithWURFL',
+                'SAPDevServiceExtension', 'RESTDevServiceExtension',
+                'SOAPDevServiceExtension', 'SCBootstrap', 'UsersSecurity')
+                GROUP BY Filename, Extension_Id) DLLEXT
+            GROUP BY Filename
+            HAVING count(*) > 1) REPDLL
+        JOIN ossys_Extension_Dependency on ossys_Extension_Dependency.Filename = REPDLL.Filename
+        GROUP BY ossys_Extension_Dependency.Filename, ossys_Extension_Dependency.Extension_Id) REPDLLEXT
+    LEFT JOIN ossys_Extension on REPDLLEXT.Extension_Id = ossys_Extension.Id
+    where ossys_Extension.IS_ACTIVE = 1
+    order by DLL
+
+### Introduced in Platform Server 11.18.0 
+
+1\. <a id="bc-11180-1"></a>
+
+**Issue**: The installer was modified to delete specific third-party DLLs from the `\plugins\database` folder and recreate them in new subfolders. This can prevent extensions or custom database connectors that expect the below DLLs to exist in the Platform Server. An example of those extensions are custom database connectors. Apps that consume those extensions can start to have runtime errors such as `Could not load file or assembly 'Google.Protobuf, Version=3.12.3.0, Culture=neutral, PublicKeyToken=a7d26565bac4d604' or one of its dependencies. The system cannot find the file specified.`
+External database connections and extensions built using [OutSystems out-of-the box mechanisms](https://success.outsystems.com/Documentation/11/Extensibility_and_Integration/Integrate_with_an_External_Database) **are not** affected by this breaking change.
+
+Follows the list of affected files:
+
+* **iDB2**:
+    * IBM.Data.DB2.iSeries.dll
+
+* **Oracle**:
+    * Oracle.ManagedDataAccess.dll
+
+* **MySQL**:
+    * BouncyCastle.Crypto.dll
+    * Google.Protobuf.dll
+    * K4os.Compression.LZ4.dll
+    * K4os.Compression.LZ4.Streams.dll
+    * K4os.Hash.xxHash.dll
+    * MySql.Data.dll
+    * Renci.SshNet.dll
+    * System.Buffers.dll
+    * System.Memory.dll
+    * System.Numerics.Vectors.dll
+    * System.Runtime.CompilerServices.Unsafe.dll
+    * Ubiety.Dns.Core.dll
+    * Zstandard.Net.dll
+
+* **PostgreSQL**:
+    * Microsoft.Bcl.AsyncInterfaces.dll
+    * Npgsql.dll
+    * System.Buffers.dll
+    * System.Memory.dll
+    * System.Numerics.Vectors.dll
+    * System.Runtime.CompilerServices.Unsafe.dll
+    * System.Text.Encodings.Web.dll
+    * System.Text.Json.dll
+    * System.Threading.Channels.dll
+    * System.Threading.Tasks.Extensions.dll
+
+**Runtime**: Traditional web, Reactive web, Mobile
+
+**Rationale**: This file/folder reorganization was necessary to allow finer control over which DLLs are referenced, as well as their versions. This file/folder reorganization improves compatibility between current and future Database Connectors.
+
+**Fix**:
+
+* If you're using the [Secret Manager Local Service](https://www.outsystems.com/forge/component-overview/13476/secret-manager-local-service) Forge asset, update it to the latest version. Then, refresh the dependencies on the consumers and republish them.
+
+* If you have an extension that expect the above DLLs to exist in the Platform Server, modify the extension ensuring that the necessary DLLs are imported to the extension.
+
+* If you're using a custom database connector built using the Database Connector SDK, you'll need to ensure that the DLLs of that connector are in a dedicated folder. For example, `Google.Protobuf.dll` is used in the `ExampleDB` connector , place this DLL in the `\plugins\database\ExampleDB` folder. This is a very rare scenario. To minimize downtime ensure that this is done after running the Platform Installer and before running the Configuration Tool.
+
+**Workaround**:
+
+In case you can't use any of the above fixes, do the following:
+
+1. Identify the assembly that's failing to be loaded in the list above.
+1. Create a new [External Database Connection](https://success.outsystems.com/Documentation/11/Extensibility_and_Integration/Integrate_with_an_External_Database/Integrate_with_an_external_database_using_Integration_Studio) and chose the DBMS identified on the list.
+1. Don't test it and then save it. This will be a dummy connection, used only to recreate the files. It doesn't need to be assigned to an extension.
+1. Republish the app that was having the errors.
+
+2\. <a id="bc-11180-2"></a>
+
+**Issue**: The `ActiveDirectory_GetAccountDetails` server action from the **Authentication** extension (part of System Components) now returns a new boolean parameter called `UserExists` to inform that an end user doesn't exist in the Active Directory, instead of throwing an exception.
+
+**Runtime**: Traditional web, Reactive web, Mobile
+
+**Rationale**: The previous behavior of this server action used an exception to handle an expected use case, not following programming best practices and causing log pollution.
+
+**Fix**: Change your logic to check for the value of the `UserExists` parameter instead of expecting for an exception to be thrown as the evidence that a user doesn't exist in the Active Directory.
+
+3\. <a id="bc-11180-3"></a>
+
+**Issue**: When using Active Directory authentication, OutSystems only supports configuring a default domain that ensures all traversed paths between domains are bidirectional in terms of trust.  
+
+The Active Directory APIs used by the Platform require all traversed paths between domains during the search process to be bidirectional in terms of trust between said domains. If this is not possible, all the synchronization and access to users' details from the external system are unavailable. Some of the issues of using  a default domain with restricted access are: 
+
+* Users deactivated in the external system will still be active on the Platform.
+
+* Metadata changed in the external system will not be synced to the Platform.
+
+From Platform Server 11.18.0, users get errors when using this unsupported setup.
+
+**Runtime**: Traditional web, Reactive web, Mobile
+
+**Rationale**: Using Active Directory authentication with a default domain with restricted access has always been problematic. However, it would malfunction silently. From version 11.18.0, users will get errors when using this setup.
+
+**Fix**: Configure the default domain in your Active Directory infrastructure with a domain that ensures all traversed paths between domains are bidirectional in terms of trust.  
+
+If this is not possible, you have to upgrade to Platform Server 11.21.0  or above and enable the `BypassADUsersSynchronization` site property in the Users module. Enabling this site property will avoid getting errors, but won't fix the issues of using a default domain with restricted access.
+
+
+### Introduced in Platform Server 11.17.0
+
+1\. <a id="bc-11170-1"></a>
+
+**Issue**: Platform Server now only supports one active end-user authentication mechanism when using SAML-based authentication. This means you can no longer configure a SAML provider (AzureAD, Okta, SAML2.0) authentication and still use the built-in mechanism. An "Invalid username or password" error message is thrown when trying to authenticate using a built-in user while a SAML provider is configured.
+
+**Runtime**: Traditional web, Reactive web, Mobile  
+
+**Rationale**: This is a security fix to ensure that our customers do not have a backdoor in their business applications once they configure a Federated SSO mechanism in their environments. Disallowing local users is the intended behaviour of the SAML authentication feature (i.e. OKTA/Azure AD/SAML 2.0) when configured as the authentication mechanism.  
+
+**Workaround**: This security fix can be disabled in Factory Configuration to allow built-in authentication fallback when using SAML providers. The security fix will be enabled by default to ensure customers are aware of the implications and the decision to turn it off should be a well-thought decision. Any customer that decides to opt-out of this security fix is responsible to ensure that the backdoor they have in their business applications is protected with the right permissions in their environments.
+The Factory Configuration setting is called **Disable built-in authentication fallback when using SAML** and can be found under **Platform Configurations**.
+
+2\. <a id="bc-11170-2"></a>
+
+**Issue**: The HTML code in the `MessageText` parameter of the Feedback_Message Server Action displays as plain text in the Feedback_Message widget of RichWidgets, instead of rendered HTML.
+
+**Runtime**: Traditional web
+
+**Rationale**: The Feedback_Message widget now encodes the message by default to prevent cross site scripting (XSS) attacks.
+
+**Fix**: Don't add HTML code to the Feedback_Message's text.
+
+**Workaround**: In Service Center, set the site property `FeedBackMessage_ForceHTMLEncode` to False in the site properties of the RichWidgets module. This isn't recommended, as it leaves the Feedback_Message widget vulnerable to XSS attacks.
+
+### Introduced in Platform Server 11.14.0
+
+**Issue**: The Title of a Popup_Editor, Popup_EditorForUpload or Popup_EditorVanilla widget appears garbled in the application when all the following conditions are true:
+
+* The title is dynamically generated through an input parameter.
+* The value of the input parameter contains special characters.
+* The value of the input parameter is encoded.
+    
+**Runtime**: Traditional web
+
+**Rationale**: These widgets now encode the Title by default to prevent cross site scripting (XSS) attacks.
+
+**Fix**: Remove the encoding of the input parameter value before sending it to the Title of the Popup.
+
+**Workaround**: In Service Center, set the site property 'PopupTitle_ForceHTMLEncode' to False in the site properties of the RichWidgets module. This isn't recommended, as it leaves the popup vulnerable to XSS attacks.
+
+### Introduced in Platform Server 11.12.0
+
+1\. <a id="bc-11120-1"></a>
+
+**Issue**: Widgets ignore tampered events. Widgets ignore events that you create or change by JavaScript. For example, OnChange Event Handlers fail to execute if you change the event before reaching the widget. This typically impacts scenarios where an input is having its value filtered / formatted / masked with JavaScript extensibility.
+This issue affects the following Forge components:
+
+* [Input Masks Library](https://www.outsystems.com/forge/component-overview/2258/input-masks-library)
+* [Input Masks Mobile](https://www.outsystems.com/forge/component-overview/5289/input-mask-mobile)
+
+**Runtime**: Reactive web, Mobile
+
+**Rationale**: Upgrading to React 16 allows to take advantage of performance and security improvements while keeping an updated framework.
+
+**Fix**: For related React documentation see [Improving inputs](https://reactjs.org/blog/2017/06/13/react-v15.6.0.html#improving-inputs).
+
+2\. <a id="bc-11120-2"></a>
+
+**Issue**: All unknown HTML attributes now show in the resulting HTML. React previously removed all attributes except data- from the output. Due to this change, the runtime now applies the CSS rules that were ignored.
+
+**Runtime**: Reactive web, Mobile
+
+**Rationale**: Upgrading to React 16 allows to take advantage of performance and security improvements while keeping an updated framework.
+
+**Fix**: For related React documentation see [DOM Attributes in React 16](https://reactjs.org/blog/2017/09/08/dom-attributes-in-react-16.html).
+
+3\. <a id="bc-11120-3"></a>
+
+**Issue**:  By definition, the option HTML element only allows text as children. This is now enforced by React 16 and all children of an option element are now stringified, which may result in rendering `[object Object]` when that children is another HTML element, like a `span`.
+
+This affects custom implementations of a native dropdown making use of HTML Element widgets with an option tag. This pattern can instead be implemented using a Dropdown widget with the "Options Content" property set to `Text Only`.
+
+**Runtime**: Reactive web, Mobile
+
+**Rationale**: Upgrading to React 16 allows to take advantage of performance and security improvements while keeping an updated framework.
+
+**Fix**: A temporary workaround is to remove the children of the option element and create a `label` attribute with the desired text.
+
+### Introduced in Platform Server 11.11.1
+
+**Issue**: HTTP responses from Consumed REST API integrations now are closed more aggressively.
+
+**Runtime**: Traditional web, Reactive web, Mobile
+
+**Rationale**: When doing a large number of Consumed REST API requests, the number of used ports can increase rapidly and lead to port exhaustion problems. The new behavior prevents this situation and generally helps avoid leaking resources. However, this new behavior can also cause runtime changes in some edge cases. A known situation takes place when consuming an Exposed REST API in OutSystems that returns HTTP status code 204 (No Content), but sends data in the body, thus sending a "Content-Length" header with a value greater than zero. Although this is [invalid according to RFC 7230](https://httpwg.org/specs/rfc7230.html#header.content-length), it previously didn't cause an error. Additionally, you should validate other scenarios that might be affected by this breaking change.
+
+**Workaround**: For the example stated above, the workaround is to change the returned status code from 204 (No Content) to a different status code, if you wish to include data in the body. Alternatively, keep returning the 204 status code but don't include any content in the response body.
+
+### Introduced in Platform Server 11.9.0
+1\. <a id="bc119-1"></a>
+
+**Issue**: The platform now gives preference to usage of specific versions of third-party assemblies that are included in extensions. As a consequence, extensions that incorrectly include .NET Framework assemblies can prevent applications from working correctly due to conflicts between the included assemblies and the assemblies of the .NET Framework installed in the machine.
+
+In particular, including the extensions `System.Net.Http.dll` or `System.Runtime.InteropServices.RuntimeInformation.dll` causes issues in **logging**, **login** and **JSON serialization**.
+
+**Runtime**:  Traditional web, Reactive web, Mobile
+
+**Rationale**: With the increased usage and adoption of open source libraries and systems like NuGet, it's an impossible task to ensure that all third-party assemblies used in an application have exactly the same versions. This applies to both the OutSystems platform, to extensions, and to any other .NET applications.
+
+To improve the compatibility between multiple third-party libraries and different extensions used together, OutSystems apps now force the load of the assembly versions placed in the application directory. If the assembly available in the application folder has a higher version than the required one, it will work instead of the exact version specified at compile time. This is a similar behavior to the one currently present in the new .NET Core apps.
+
+**Fix**: Open and remove all problematic system assemblies from affected extensions.
+
+Before doing the Platform Server upgrade, check and fix the affected extensions. To do that, run the following query against your platform database:
+
+    select distinct ossys_extension.Name, ossys_Extension_Dependency.Filename, ossys_Extension_Dependency.Compile_Action
+    from ossys_Extension_Dependency inner join ossys_extension on ossys_extension.id = ossys_Extension_Dependency.extension_id
+    where (ossys_Extension_Dependency.Filename like 'System.Runtime.InteropServices.RuntimeInformation.dll'
+        or ossys_Extension_Dependency.Filename like 'System.Net.Http.dll')
+        and ossys_extension.Version_Id = ossys_Extension_Dependency.Extension_Version_Id
+
+You can adapt this query to list all 'System.%' assembly dependencies, but many of those assemblies aren't distributed with the .NET Framework. Therefore, it's difficult to make an extensive assembly list, apart from the following two known problematic assemblies: `System.Runtime.InteropServices.RuntimeInformation.dll` and `System.Net.Http.dll`. OutSystems recommends that you keep as few `System.*` included dependencies as possible.
+
+Some commonly used applications from the Forge, like "Time Zone" and "Ultimate PDF", are known to have the issues outlined above. Remember to check the Forge for updated versions of these applications.
+
+This issue happens mostly in extensions with its target framework set to 4.6.1 and that are referencing .NET Standard dependencies.  
+This was never a supported configuration. Check [How to Use .NET Standard libraries in OutSystems extensions](https://success.outsystems.com/Documentation/How-to_Guides/Integrations/How_to_Use_.NET_Standard_libraries_in_OutSystems_extensions) for more information on referencing .NET Standard dependencies correctly. You can also find instructions on how to clean up unnecessary dependencies.
+
+**Workaround**: As a temporary workaround for Platform Server 11.9.0, OutSystems added a new setting to the [Factory Configuration](https://www.outsystems.com/forge/component-overview/25/factory-configuration) application: "Force apps to use existing versions of third party libraries". When this setting is disabled, the platform reverts to the previous behavior.  
+You should only use this workaround if it's not viable to fix all the affected extensions in a timely fashion. This setting will be ignored in all platform versions above 11.9, so it's important that you fix the root causes of this issue.
+
+2\. <a id="bc119-2"></a>
+
+**Issue**: The KeyStore and SAML actions were moved from the **Authentication** extension, `Authentication.xif`, to the **SAMLAuthentication** extension, `SAMLAuthentication.xif`. This can cause some broken references when using methods from Authentication.xif that moved to the new module.
+
+**Runtime**: Traditional web, Reactive web, Mobile
+
+**Rationale**: This refactoring was necessary to support architectural changes to the SAML authentication.
+
+**Fix**: Replace dependencies to KeyStore and SAML actions from **Authentication** to the corresponding actions from **SAMLAuthentication**.
+
+### Introduced in Platform Server 11.7.0
+
+**Issue**:  Upgraded SharpZipLib library to version 1.1.0. The new version of the library can cause compatibility problems with custom components used in extensions. For example, when using the [OfficeUtils](https://www.outsystems.com/forge/component-overview/687/officeutils) Forge component you must upgrade to a recent version of the component, since it previously used a library version (NPOI 2.2, an Excel reader library) that depended on the previous SharpZipLib library version.
+
+**Runtime**:  Traditional web, Reactive web, Mobile
+
+**Rationale**: The new version of the library contains several performance improvements and security fixes. It's also a necessary change to be able to use recent versions of third-party libraries, like recent versions of NPOI that have a dependency on this library.
+
+**Workaround**: This change has an impact on extensions that are using SharpZipLib to read ZIP files, or in extensions using libraries that have SharpZipLib as a dependency (like NPOI). It's recommended that you test any Zip and Excel-related functionalities of your applications after upgrading. If you find any issues, you must change any OutSystems extensions using third-party libraries that depend on SharpZipLib version 0.86.0. In the extensions, update the version of these third-party libraries to a version that uses SharpZipLib version 1.1.0.
+
+### Introduced in Platform Server Oct.2019
+
+**Issue**:  Integrations with external databases that use Oracle Database 10g Release 2 will stop working.
+
+**Runtime**: Traditional web, Reactive web, Mobile
+
+**Rationale**: We upgraded Oracle Data Provider for .NET, Managed driver to version 19.3.1 (4.122.19.1:20190703) and, according to the [official documentation](https://docs.oracle.com/en/database/oracle/oracle-database/19/odpnt/InstallSystemRequirements.html#GUID-A6405CAD-C0E9-45E0-9C38-26B7ED214479), this driver allows applications to connect to Oracle Database 11g Release 2 or later. This driver supports native encryption, meaning that you can set up your database to require encryption and this means all connections will be encrypted between the server and the database (applicable to both platform and external databases).
+
+**Workaround**: Upgrade your Oracle engine to version 11g Release 2 or later.
 
 ### Introduced in Platform Server Sep.2018
 
@@ -481,325 +799,8 @@ For example, the sent decimal values `10.000` and `10.1000` are deserialized to 
 
 **Workaround**: To truncate a value, change the deserialized attribute data type to Decimal instead of  Text. 
 
-### Introduced in Platform Server Oct.2019
 
-**Issue**:  Integrations with external databases that use Oracle Database 10g Release 2 will stop working.
 
-**Runtime**: Traditional web, Reactive web, Mobile
-
-**Rationale**: We upgraded Oracle Data Provider for .NET, Managed driver to version 19.3.1 (4.122.19.1:20190703) and, according to the [official documentation](https://docs.oracle.com/en/database/oracle/oracle-database/19/odpnt/InstallSystemRequirements.html#GUID-A6405CAD-C0E9-45E0-9C38-26B7ED214479), this driver allows applications to connect to Oracle Database 11g Release 2 or later. This driver supports native encryption, meaning that you can set up your database to require encryption and this means all connections will be encrypted between the server and the database (applicable to both platform and external databases).
-
-**Workaround**: Upgrade your Oracle engine to version 11g Release 2 or later.
-
-### Introduced in Platform Server 11.7.0
-
-**Issue**:  Upgraded SharpZipLib library to version 1.1.0. The new version of the library can cause compatibility problems with custom components used in extensions. For example, when using the [OfficeUtils](https://www.outsystems.com/forge/component-overview/687/officeutils) Forge component you must upgrade to a recent version of the component, since it previously used a library version (NPOI 2.2, an Excel reader library) that depended on the previous SharpZipLib library version.
-
-**Runtime**:  Traditional web, Reactive web, Mobile
-
-**Rationale**: The new version of the library contains several performance improvements and security fixes. It's also a necessary change to be able to use recent versions of third-party libraries, like recent versions of NPOI that have a dependency on this library.
-
-**Workaround**: This change has an impact on extensions that are using SharpZipLib to read ZIP files, or in extensions using libraries that have SharpZipLib as a dependency (like NPOI). It's recommended that you test any Zip and Excel-related functionalities of your applications after upgrading. If you find any issues, you must change any OutSystems extensions using third-party libraries that depend on SharpZipLib version 0.86.0. In the extensions, update the version of these third-party libraries to a version that uses SharpZipLib version 1.1.0.
-
-### Introduced in Platform Server 11.9.0
-1\. <a id="bc119-1"></a>
-
-**Issue**: The platform now gives preference to usage of specific versions of third-party assemblies that are included in extensions. As a consequence, extensions that incorrectly include .NET Framework assemblies can prevent applications from working correctly due to conflicts between the included assemblies and the assemblies of the .NET Framework installed in the machine.
-
-In particular, including the extensions `System.Net.Http.dll` or `System.Runtime.InteropServices.RuntimeInformation.dll` causes issues in **logging**, **login** and **JSON serialization**.
-
-**Runtime**:  Traditional web, Reactive web, Mobile
-
-**Rationale**: With the increased usage and adoption of open source libraries and systems like NuGet, it's an impossible task to ensure that all third-party assemblies used in an application have exactly the same versions. This applies to both the OutSystems platform, to extensions, and to any other .NET applications.
-
-To improve the compatibility between multiple third-party libraries and different extensions used together, OutSystems apps now force the load of the assembly versions placed in the application directory. If the assembly available in the application folder has a higher version than the required one, it will work instead of the exact version specified at compile time. This is a similar behavior to the one currently present in the new .NET Core apps.
-
-**Fix**: Open and remove all problematic system assemblies from affected extensions.
-
-Before doing the Platform Server upgrade, check and fix the affected extensions. To do that, run the following query against your platform database:
-
-    select distinct ossys_extension.Name, ossys_Extension_Dependency.Filename, ossys_Extension_Dependency.Compile_Action
-    from ossys_Extension_Dependency inner join ossys_extension on ossys_extension.id = ossys_Extension_Dependency.extension_id
-    where (ossys_Extension_Dependency.Filename like 'System.Runtime.InteropServices.RuntimeInformation.dll'
-        or ossys_Extension_Dependency.Filename like 'System.Net.Http.dll')
-        and ossys_extension.Version_Id = ossys_Extension_Dependency.Extension_Version_Id
-
-You can adapt this query to list all 'System.%' assembly dependencies, but many of those assemblies aren't distributed with the .NET Framework. Therefore, it's difficult to make an extensive assembly list, apart from the following two known problematic assemblies: `System.Runtime.InteropServices.RuntimeInformation.dll` and `System.Net.Http.dll`. OutSystems recommends that you keep as few `System.*` included dependencies as possible.
-
-Some commonly used applications from the Forge, like "Time Zone" and "Ultimate PDF", are known to have the issues outlined above. Remember to check the Forge for updated versions of these applications.
-
-This issue happens mostly in extensions with its target framework set to 4.6.1 and that are referencing .NET Standard dependencies.  
-This was never a supported configuration. Check [How to Use .NET Standard libraries in OutSystems extensions](https://success.outsystems.com/Documentation/How-to_Guides/Integrations/How_to_Use_.NET_Standard_libraries_in_OutSystems_extensions) for more information on referencing .NET Standard dependencies correctly. You can also find instructions on how to clean up unnecessary dependencies.
-
-**Workaround**: As a temporary workaround for Platform Server 11.9.0, OutSystems added a new setting to the [Factory Configuration](https://www.outsystems.com/forge/component-overview/25/factory-configuration) application: "Force apps to use existing versions of third party libraries". When this setting is disabled, the platform reverts to the previous behavior.  
-You should only use this workaround if it's not viable to fix all the affected extensions in a timely fashion. This setting will be ignored in all platform versions above 11.9, so it's important that you fix the root causes of this issue.
-
-2\. <a id="bc119-2"></a>
-
-**Issue**: The KeyStore and SAML actions were moved from the **Authentication** extension, `Authentication.xif`, to the **SAMLAuthentication** extension, `SAMLAuthentication.xif`. This can cause some broken references when using methods from Authentication.xif that moved to the new module.
-
-**Runtime**: Traditional web, Reactive web, Mobile
-
-**Rationale**: This refactoring was necessary to support architectural changes to the SAML authentication.
-
-**Fix**: Replace dependencies to KeyStore and SAML actions from **Authentication** to the corresponding actions from **SAMLAuthentication**.
-
-### Introduced in Platform Server 11.11.1
-
-**Issue**: HTTP responses from Consumed REST API integrations now are closed more aggressively.
-
-**Runtime**: Traditional web, Reactive web, Mobile
-
-**Rationale**: When doing a large number of Consumed REST API requests, the number of used ports can increase rapidly and lead to port exhaustion problems. The new behavior prevents this situation and generally helps avoid leaking resources. However, this new behavior can also cause runtime changes in some edge cases. A known situation takes place when consuming an Exposed REST API in OutSystems that returns HTTP status code 204 (No Content), but sends data in the body, thus sending a "Content-Length" header with a value greater than zero. Although this is [invalid according to RFC 7230](https://httpwg.org/specs/rfc7230.html#header.content-length), it previously didn't cause an error. Additionally, you should validate other scenarios that might be affected by this breaking change.
-
-**Workaround**: For the example stated above, the workaround is to change the returned status code from 204 (No Content) to a different status code, if you wish to include data in the body. Alternatively, keep returning the 204 status code but don't include any content in the response body.
-
-### Introduced in Platform Server 11.12.0
-
-1\. <a id="bc-11120-1"></a>
-
-**Issue**: Widgets ignore tampered events. Widgets ignore events that you create or change by JavaScript. For example, OnChange Event Handlers fail to execute if you change the event before reaching the widget. This typically impacts scenarios where an input is having its value filtered / formatted / masked with JavaScript extensibility.
-This issue affects the following Forge components:
-
-* [Input Masks Library](https://www.outsystems.com/forge/component-overview/2258/input-masks-library)
-* [Input Masks Mobile](https://www.outsystems.com/forge/component-overview/5289/input-mask-mobile)
-
-**Runtime**: Reactive web, Mobile
-
-**Rationale**: Upgrading to React 16 allows to take advantage of performance and security improvements while keeping an updated framework.
-
-**Fix**: For related React documentation see [Improving inputs](https://reactjs.org/blog/2017/06/13/react-v15.6.0.html#improving-inputs).
-
-2\. <a id="bc-11120-2"></a>
-
-**Issue**: All unknown HTML attributes now show in the resulting HTML. React previously removed all attributes except data- from the output. Due to this change, the runtime now applies the CSS rules that were ignored.
-
-**Runtime**: Reactive web, Mobile
-
-**Rationale**: Upgrading to React 16 allows to take advantage of performance and security improvements while keeping an updated framework.
-
-**Fix**: For related React documentation see [DOM Attributes in React 16](https://reactjs.org/blog/2017/09/08/dom-attributes-in-react-16.html).
-
-3\. <a id="bc-11120-3"></a>
-
-**Issue**:  By definition, the option HTML element only allows text as children. This is now enforced by React 16 and all children of an option element are now stringified, which may result in rendering `[object Object]` when that children is another HTML element, like a `span`.
-
-This affects custom implementations of a native dropdown making use of HTML Element widgets with an option tag. This pattern can instead be implemented using a Dropdown widget with the "Options Content" property set to `Text Only`.
-
-**Runtime**: Reactive web, Mobile
-
-**Rationale**: Upgrading to React 16 allows to take advantage of performance and security improvements while keeping an updated framework.
-
-**Fix**: A temporary workaround is to remove the children of the option element and create a `label` attribute with the desired text.
-
-### Introduced in Platform Server 11.14.0
-
-**Issue**: The Title of a Popup_Editor, Popup_EditorForUpload or Popup_EditorVanilla widget appears garbled in the application when all the following conditions are true:
-
-* The title is dynamically generated through an input parameter.
-* The value of the input parameter contains special characters.
-* The value of the input parameter is encoded.
-    
-**Runtime**: Traditional web
-
-**Rationale**: These widgets now encode the Title by default to prevent cross site scripting (XSS) attacks.
-
-**Fix**: Remove the encoding of the input parameter value before sending it to the Title of the Popup.
-
-**Workaround**: In Service Center, set the site property 'PopupTitle_ForceHTMLEncode' to False in the site properties of the RichWidgets module. This isn't recommended, as it leaves the popup vulnerable to XSS attacks.
-
-### Introduced in Platform Server 11.17.0
-
-1\. <a id="bc-11170-1"></a>
-
-**Issue**: Platform Server now only supports one active end-user authentication mechanism when using SAML-based authentication. This means you can no longer configure a SAML provider (AzureAD, Okta, SAML2.0) authentication and still use the built-in mechanism. An "Invalid username or password" error message is thrown when trying to authenticate using a built-in user while a SAML provider is configured.
-
-**Runtime**: Traditional web, Reactive web, Mobile  
-
-**Rationale**: This is a security fix to ensure that our customers do not have a backdoor in their business applications once they configure a Federated SSO mechanism in their environments. Disallowing local users is the intended behaviour of the SAML authentication feature (i.e. OKTA/Azure AD/SAML 2.0) when configured as the authentication mechanism.  
-
-**Workaround**: This security fix can be disabled in Factory Configuration to allow built-in authentication fallback when using SAML providers. The security fix will be enabled by default to ensure customers are aware of the implications and the decision to turn it off should be a well-thought decision. Any customer that decides to opt-out of this security fix is responsible to ensure that the backdoor they have in their business applications is protected with the right permissions in their environments.
-The Factory Configuration setting is called **Disable built-in authentication fallback when using SAML** and can be found under **Platform Configurations**.
-
-2\. <a id="bc-11170-2"></a>
-
-**Issue**: The HTML code in the `MessageText` parameter of the Feedback_Message Server Action displays as plain text in the Feedback_Message widget of RichWidgets, instead of rendered HTML.
-
-**Runtime**: Traditional web
-
-**Rationale**: The Feedback_Message widget now encodes the message by default to prevent cross site scripting (XSS) attacks.
-
-**Fix**: Don't add HTML code to the Feedback_Message's text.
-
-**Workaround**: In Service Center, set the site property `FeedBackMessage_ForceHTMLEncode` to False in the site properties of the RichWidgets module. This isn't recommended, as it leaves the Feedback_Message widget vulnerable to XSS attacks.
-
-
-### Introduced in Platform Server 11.18.0 
-
-1\. <a id="bc-11180-1"></a>
-
-**Issue**: The installer was modified to delete specific third-party DLLs from the `\plugins\database` folder and recreate them in new subfolders. This can prevent extensions or custom database connectors that expect the below DLLs to exist in the Platform Server. An example of those extensions are custom database connectors. Apps that consume those extensions can start to have runtime errors such as `Could not load file or assembly 'Google.Protobuf, Version=3.12.3.0, Culture=neutral, PublicKeyToken=a7d26565bac4d604' or one of its dependencies. The system cannot find the file specified.`
-External database connections and extensions built using [OutSystems out-of-the box mechanisms](https://success.outsystems.com/Documentation/11/Extensibility_and_Integration/Integrate_with_an_External_Database) **are not** affected by this breaking change.
-
-Follows the list of affected files:
-
-* **iDB2**:
-    * IBM.Data.DB2.iSeries.dll
-
-* **Oracle**:
-    * Oracle.ManagedDataAccess.dll
-
-* **MySQL**:
-    * BouncyCastle.Crypto.dll
-    * Google.Protobuf.dll
-    * K4os.Compression.LZ4.dll
-    * K4os.Compression.LZ4.Streams.dll
-    * K4os.Hash.xxHash.dll
-    * MySql.Data.dll
-    * Renci.SshNet.dll
-    * System.Buffers.dll
-    * System.Memory.dll
-    * System.Numerics.Vectors.dll
-    * System.Runtime.CompilerServices.Unsafe.dll
-    * Ubiety.Dns.Core.dll
-    * Zstandard.Net.dll
-
-* **PostgreSQL**:
-    * Microsoft.Bcl.AsyncInterfaces.dll
-    * Npgsql.dll
-    * System.Buffers.dll
-    * System.Memory.dll
-    * System.Numerics.Vectors.dll
-    * System.Runtime.CompilerServices.Unsafe.dll
-    * System.Text.Encodings.Web.dll
-    * System.Text.Json.dll
-    * System.Threading.Channels.dll
-    * System.Threading.Tasks.Extensions.dll
-
-**Runtime**: Traditional web, Reactive web, Mobile
-
-**Rationale**: This file/folder reorganization was necessary to allow finer control over which DLLs are referenced, as well as their versions. This file/folder reorganization improves compatibility between current and future Database Connectors.
-
-**Fix**:
-
-* If you're using the [Secret Manager Local Service](https://www.outsystems.com/forge/component-overview/13476/secret-manager-local-service) Forge asset, update it to the latest version. Then, refresh the dependencies on the consumers and republish them.
-
-* If you have an extension that expect the above DLLs to exist in the Platform Server, modify the extension ensuring that the necessary DLLs are imported to the extension.
-
-* If you're using a custom database connector built using the Database Connector SDK, you'll need to ensure that the DLLs of that connector are in a dedicated folder. For example, `Google.Protobuf.dll` is used in the `ExampleDB` connector , place this DLL in the `\plugins\database\ExampleDB` folder. This is a very rare scenario. To minimize downtime ensure that this is done after running the Platform Installer and before running the Configuration Tool.
-
-**Workaround**:
-
-In case you can't use any of the above fixes, do the following:
-
-1. Identify the assembly that's failing to be loaded in the list above.
-1. Create a new [External Database Connection](https://success.outsystems.com/Documentation/11/Extensibility_and_Integration/Integrate_with_an_External_Database/Integrate_with_an_external_database_using_Integration_Studio) and chose the DBMS identified on the list.
-1. Don't test it and then save it. This will be a dummy connection, used only to recreate the files. It doesn't need to be assigned to an extension.
-1. Republish the app that was having the errors.
-
-2\. <a id="bc-11180-2"></a>
-
-**Issue**: The `ActiveDirectory_GetAccountDetails` server action from the **Authentication** extension (part of System Components) now returns a new boolean parameter called `UserExists` to inform that an end user doesn't exist in the Active Directory, instead of throwing an exception.
-
-**Runtime**: Traditional web, Reactive web, Mobile
-
-**Rationale**: The previous behavior of this server action used an exception to handle an expected use case, not following programming best practices and causing log pollution.
-
-**Fix**: Change your logic to check for the value of the `UserExists` parameter instead of expecting for an exception to be thrown as the evidence that a user doesn't exist in the Active Directory.
-
-3\. <a id="bc-11180-3"></a>
-
-**Issue**: When using Active Directory authentication, OutSystems only supports configuring a default domain that ensures all traversed paths between domains are bidirectional in terms of trust.  
-
-The Active Directory APIs used by the Platform require all traversed paths between domains during the search process to be bidirectional in terms of trust between said domains. If this is not possible, all the synchronization and access to users' details from the external system are unavailable. Some of the issues of using  a default domain with restricted access are: 
-
-* Users deactivated in the external system will still be active on the Platform.
-
-* Metadata changed in the external system will not be synced to the Platform.
-
-From Platform Server 11.18.0, users get errors when using this unsupported setup.
-
-**Runtime**: Traditional web, Reactive web, Mobile
-
-**Rationale**: Using Active Directory authentication with a default domain with restricted access has always been problematic. However, it would malfunction silently. From version 11.18.0, users will get errors when using this setup.
-
-**Fix**: Configure the default domain in your Active Directory infrastructure with a domain that ensures all traversed paths between domains are bidirectional in terms of trust.  
-
-If this is not possible, you have to upgrade to Platform Server 11.21.0  or above and enable the `BypassADUsersSynchronization` site property in the Users module. Enabling this site property will avoid getting errors, but won't fix the issues of using a default domain with restricted access.
-
-### Introduced in Platform Server 11.19.0 { #bc-11190-1 }
-
-#### Solution Publish
-
-**Issue**: In a Solution Publish, if a module references (directly or indirectly) multiple extensions and those extensions contain different versions of the same DLL, the Publish process chooses one of those DLLs to deploy. There was never a guarantee that the final application would work if those DLLs or their dependencies were incompatible with each other. In version 11.19.0, the algorithm that chooses the DLLs to deploy changed. It's possible that applications that were previously working, because the algorithm picked one DLL, stop working because it now picks another.
-
-**Runtime**: Traditional web, Reactive web, Mobile
-
-**Rationale**: The algorithm now gives precedence to the DLLs from the most recent extension published to account for some scenarios with loosely coupled dependencies, instead of the previous dependencies alphabetical order.
-
-**Fix**: Ensure the environment's extensions don’t have different incompatible versions of the same DLL. You can use the following query to identify multiple extensions that contain the same DLL. If you can see your extensions on this list, we recommend you consolidate the DLLs into a single extension or make sure they are all compatible. The query lists some OutSystems extensions, which are compatible between them.
-
-    SELECT REPDLLEXT.Filename DLL, ossys_Extension.Name EXTENSION FROM	
-        (SELECT ossys_Extension_Dependency.Filename, ossys_Extension_Dependency.Extension_Id FROM		
-            (SELECT Filename FROM
-                (SELECT Filename, Extension_Id FROM
-                ossys_Extension_Dependency
-                JOIN ossys_Extension on ossys_Extension_Dependency.Extension_Id = ossys_Extension.Id
-                WHERE Filename LIKE '%.dll'
-                AND ossys_Extension.IS_ACTIVE = 1
-                AND ossys_Extension.Name NOT IN 
-				('OMLProcessor', 'IntegrationStudio', 'DeviceDetectionWithWURFL',
-                'SAPDevServiceExtension', 'RESTDevServiceExtension',
-                'SOAPDevServiceExtension', 'SCBootstrap', 'UsersSecurity')
-                GROUP BY Filename, Extension_Id) DLLEXT
-            GROUP BY Filename
-            HAVING count(*) > 1) REPDLL
-        JOIN ossys_Extension_Dependency on ossys_Extension_Dependency.Filename = REPDLL.Filename
-        GROUP BY ossys_Extension_Dependency.Filename, ossys_Extension_Dependency.Extension_Id) REPDLLEXT
-    LEFT JOIN ossys_Extension on REPDLLEXT.Extension_Id = ossys_Extension.Id
-    where ossys_Extension.IS_ACTIVE = 1
-    order by DLL
-
-### Introduced in Platform Server 11.20.0 { #bc-11200-1 }
-
-**Issue**: In SQL Server, when importing or using external entities targeting views with DB linked tables, the platform will now treat those views as local views instead of attempting to perform operations directly on the underlying tables.
-
-This can lead to Update, Delete and GetForUpdate operations, which were previously possible on those views, to stop working.
-
-**Runtime**: Traditional web, Reactive web, Mobile
-
-**Rationale**: When importing external views in SQL Server, the platform had inconsistent behaviors if the view definition contained DB linked tables. In these situations, if the connection user had "VIEW DEFINITION" permissions over the view, Integration Studio would import the columns of the first table used in the view definition instead of the columns of the view. It would also perform Update, Delete and GetForUpdate operations directly to that table, bypassing the view completely.
-
-In most cases, this situation would cause runtime errors in Aggregates or SQL nodes, since the requested columns did not match. However, it would allow some other operations to succeed if the view only had a single table and made no changes to the columns definition. Having this capability also required connectivity and extra introspection queries when compiling modules that referenced those entities, causing runtime errors and incorrectly generated query code if there was a temporary unavailability of the external databases.
-
-The old behavior was added to the platform to make it easier to import and modify tables accessed via DB links when there were no capabilities to directly connect to the destination databases. Currently, with the Database Connection feature available, there are alternatives to perform these integrations directly without having to rely on remote views.
-
-**Fix**: The situations that require attention are when using views with DB linked tables to perform Update, Delete and GetForUpdate operations. This requires knowing what external entities are being imported via extensions and if they are views using DB Links. These changes only apply to SQL Server databases, so other databases are not affected.
-
-The possible fixes are the following:
-
-* Import the tables directly in Integration Studio again, without using the view. To do this in Integration Studio, open the extension and change the "Table or View Default Name" on the correspondent entity to have the fully qualified name of the table, including the DB Link (Ex: dblink.catalog.schema). Then, perform a "Refresh" to get the new definition. Validate and manually fix the "Identifier" attribute and any types on foreign keys, since view introspection cannot determine either of those.
-
-* Use the Database Connection feature to create a new connection directly to the target database. In this situation, you need to import the entities again in Integration Studio using the new Database Connection without using the views or DB links. This requires updating the modules that use those entities to have the new references.
-
-* If the views are being used to join data with other local entities or if the view definitions are complex (note that in most situations, this would be currently causing runtime errors, so it's unlikely), and there is also a need to perform update operations, OutSystems recommends importing two separate entities. One entity would still use the views to be used in Aggregates and joining data with other entities. The other entity would be used only for the update operations, using either the first or the second fix.
-
-It is possible to enable the configuration "Allow introspection of views using DB linked tables in SQL Server" via Factory Configuration. This configuration is provided as a backward compatibility option and can be applied before the version upgrade. OutSystems doesn't recommend using it as a permanent fix since its behavior is inconsistent and can lead to runtime errors.
-
-
-### Introduced in Platform Server 11.21.0 { #bc-11210-1 }
-
-**Issue**: Default values of parameters in consumed REST, SOAP and SAP methods are no longer translated.
-
-**Runtime**: Traditional web
-
-**Rationale**: The code generated for the multilingual translation of these values resulted in compilation errors, causing the publication to fail. There was a pattern which did not cause errors though, and will require applying the fix outlined below: input parameters with the **Send Default Value** property set to "Yes", if their default value has translations defined through the Multilingual feature.
-
-This change affects only Traditional Web apps. For Reactive Web and Mobile apps, Service Studio already did not allow defining translations for default values.
-
-**Fix**: During the upgrade, if any module was affected by the breaking change, then a warning message saying "Cannot translate default values in consumed integrations", and including the location of the default value, will be shown in the [modules preparation step](https://success.outsystems.com/documentation/11/setup_and_maintain_your_outsystems_infrastructure/upgrade_outsystems_platform/modules_preparation_step_during_platform_server_upgrade/) or when publishing it as part of a solution with full compilations. In order to preserve the behavior, move the default value and its translations to a new intermediate action which in turn calls the consumed method.
-
-Note that the Locale settings are not propagated through the REST/SOAP/SAP integrations, so there is no automated way of knowing if the values sent through the Request have been translated.
 
 ### Introduced in Platform Server 11.24.0  { #bc-11240-1 }
 
@@ -816,6 +817,20 @@ Note that the Locale settings are not propagated through the REST/SOAP/SAP integ
 **Fix**: Change the Excel files content so that it is compliant with the breaking changes.
 
 ## Side Effects
+
+### Introduced in Platform Server 11.14.0
+
+#### Identity Service
+
+1\. <a id="se1114-1"></a>
+
+**Issue**: The login for IT apps (apps that use Service Center as their user provider) no longer uses the traditional login screen from the app itself. Instead, it uses a centralized login screen. This only affects applications that use the **User_GetUnifiedLoginUrl** action to validate if there is an external login URL. The centralized login screen shows the app name that you can provide in the **ToolName** of the **User_GetUnifiedLoginUrl** optional parameter.
+
+**Runtime**: Traditional web, Reactive web, Mobile
+
+**Rationale**: This change provides a consistent login experience throughout the different applications that use Service Center as their user provider.
+
+**Workaround**: None.
 
 ### Introduced in Platform Server Sep.2018
 
@@ -879,17 +894,3 @@ Note: It's not recommended to change the User Provider of modules with Processes
 **Rationale**: In environments whose purpose is not Development it is important that the actual published versions are kept; refreshing references would create different "fake" versions.
 
 **Workaround**: Refresh references manually.
-
-### Introduced in Platform Server 11.14.0
-
-#### Identity Service
-
-1\. <a id="se1114-1"></a>
-
-**Issue**: The login for IT apps (apps that use Service Center as their user provider) no longer uses the traditional login screen from the app itself. Instead, it uses a centralized login screen. This only affects applications that use the **User_GetUnifiedLoginUrl** action to validate if there is an external login URL. The centralized login screen shows the app name that you can provide in the **ToolName** of the **User_GetUnifiedLoginUrl** optional parameter.
-
-**Runtime**: Traditional web, Reactive web, Mobile
-
-**Rationale**: This change provides a consistent login experience throughout the different applications that use Service Center as their user provider.
-
-**Workaround**: None.
