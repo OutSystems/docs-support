@@ -18,7 +18,9 @@ As such, before introducing a breaking change for a new release, OutSystems care
 
 ## Breaking Changes
 
-### Introduced in Platform Server 11.24.0  { #bc-11240-1 }
+### Introduced in Platform Server 11.24.0 
+
+1\. <a id="bc-11240-1"></a>
 
 **Issue**: Some patterns in Excel files now have different behaviors.
 
@@ -31,6 +33,17 @@ As such, before introducing a breaking change for a new release, OutSystems care
 **Rationale**: Outsystems 11 is now using the GemBox.Spreadsheet 45.0.0.1094. This version comes with some breaking changes when compared to the version previously used. 
 
 **Fix**: Change the Excel files content so that it is compliant with the breaking changes.
+
+2\. <a id="bc-11240-2"></a>
+
+**Issue**: Compilation errors occur in modules integrating with SAP services when the machine installed the SAP Connector for Microsoft.NET 3.0.x for Windows 64bit.
+
+**Runtime**: Traditional web, Reactive web, Mobile
+
+**Rationale**: The SAP Connector for Microsoft.NET 3.0.x for Windows 64bit depended on Microsoft C++ Runtime DLLs version 10.x, which reached its EOS.
+
+**Fix**: Install SAP Connector for Microsoft.NET 3.1.x for Windows 64bit, as explained in the Platform installation checklist. This new version depends on Microsoft C++ Runtime DLLs version 14.x, which Microsoft still supports.
+
 
 ### Introduced in Platform Server 11.21.0 { #bc-11210-1 }
 
