@@ -4,7 +4,7 @@ tags: support-Cloud_Platform
 locale: en-us
 guid: 00c90ba4-311d-43b2-a676-0613ad5f60b2
 app_type: traditional web apps, mobile apps, reactive web apps
-platform-version: o11
+platform-version: o11, odc
 figma:
 ---
 
@@ -12,9 +12,17 @@ figma:
 
 ## Overview
 
-As a subscription customer, you may wish to perform penetration tests, vulnerability scans or load tests. This is possible as long as they're limited to your own cloud infrastructure and under the **Customer** responsibility as described under the [OutSystems shared responsibility model](https://success.outsystems.com/Support/Enterprise_Customers/Maintenance_and_Operations/OutSystems_Cloud_Shared_Responsibility_Model). To avoid having these tests blocked by OutSystems protection mechanisms, we request you to submit an inquiry.
+As a subscription customer, you may wish to perform penetration tests, vulnerability scans, or load tests. This is possible as long as they're limited to your own applications under the **Customer** responsibility as described under the [OutSystems shared responsibility model](../enterprise/maintenance/cloud-shared-responsibility.md). 
 
-## Performing scans in your OutSystems Cloud infrastructure
+As a cloud customer, and particularly if you are a customer of shared infrastructure solutions such as ODC, extra care must be taken to prevent any impact and harm to other customers.
+
+* You must request authorization as described in the next section.
+* Services under the responsibility of OutSystems or third-party vendors cannot be part of any security assessments. These include SaaS services built by OutSystems as well as any service provided to OutSystems by OutSystems vendors such as AWS.
+* Denial of service (DoS), Distributed Denial of Server (DDoS) or any kind of network flooding attacks are prohibited.
+* Protection mechanisms OutSystems and OutSystems vendors have in place protecting the applications and services, such as blocking of suspicious requests and request rate limiting, will not be turned off during any testing. 
+
+
+## Performing scans in your OutSystems 11 Cloud or ODC
 
 To perform penetration and load tests, and vulnerability scans, you must request authorization from OutSystems at least **5 business days** before the start date, for each test.
 
