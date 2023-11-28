@@ -210,7 +210,7 @@ In case of having SEO Friendly URLs, you will need to remove the ISAPI Filter, s
 
 3. Search for OutSystems **ISAPI Filter** and delete it.   
 
-    ![ISAPI Filter - remove.jpg](images/ISAPI_Filter_-_remove.jpg)
+    ![ISAPI Filter - remove.jpg](images/ISAPI_Filter_-_remove.png)
 
 #### Using a brand new Application Server
 
@@ -439,7 +439,7 @@ In order to deploy applications to IIS, you will need Visual Studio 2015 with Vi
 
 4. Configure the new profile:   
 
-    ![Publish Web.jpg](images/Publish_Web.jpg)  
+    ![Publish Web.jpg](images/Publish_Web.png)  
 
 5. After a successful publication, open IIS (see section 4.3.2) and search under your **Default Web Site** for the virtual directory with the name of your published module and click on it.
 

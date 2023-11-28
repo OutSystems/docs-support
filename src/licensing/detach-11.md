@@ -215,7 +215,7 @@ In case of having SEO Friendly URLs, you will need to remove the ISAPI Filter, s
 
 1. Search for **OutSystems ISAPI Filter** and delete it.
 
-    ![ISAPI Filter - remove](images/ISAPI_Filter_-_remove.jpg)
+    ![ISAPI Filter - remove](images/ISAPI_Filter_-_remove.png)
 
 #### Using a brand new Application Server { #use-new-app-server }
 
