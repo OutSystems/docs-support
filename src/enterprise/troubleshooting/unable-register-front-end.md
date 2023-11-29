@@ -4,7 +4,7 @@ locale: en-us
 guid: a1e5c82a-4d78-42f5-a426-0f92eb41932a
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
-figma: https://www.figma.com/file/cPLNnZfDOZ1NX3avcjmq3g/Enterprise%20Customers?node-id=3237:34
+figma: https://www.figma.com/file/cPLNnZfDOZ1NX3avcjmq3g/Enterprise-Customers?type=design&node-id=3213%3A267&mode=design&t=FYaMOnIz87CLkC0F-1
 ---
 
 # Unable to register the Front-end Server. The server's connection string is different from the Deployment Controller's connection string
