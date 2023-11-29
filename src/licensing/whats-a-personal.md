@@ -4,6 +4,7 @@ locale: en-us
 guid: f88eb567-39c5-430b-ad00-64cead6e9fd0
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
+figma:
 ---
 
 # What is an OutSystems Personal Environment

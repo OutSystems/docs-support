@@ -5,6 +5,7 @@ locale: en-us
 guid: d823e151-2350-4360-b0c3-7030f23affe3
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
+figma: https://www.figma.com/file/TzqCbVlN2j4nadunA7q8VU/Licensing?node-id=1318:936
 ---
 
 # The detach process for OutSystems 10

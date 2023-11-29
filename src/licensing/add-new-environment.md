@@ -4,6 +4,7 @@ locale: en-us
 guid: fa47e66e-155d-4b3c-b64d-945de079d123
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
+figma:
 ---
 
 # Add a new environment to your infrastructure
