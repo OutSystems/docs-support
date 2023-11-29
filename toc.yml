@@ -435,6 +435,17 @@
         - href: error/wbl/wfbl-gen-10001.md
         - href: error/wbl/wfbl-gen-40001.md
         - href: error/wbl/wfbl-gen-40002.md
+
+    # Log streaming
+    - href: error/dp/intro.md
+    - topics:
+        - href: error/dp/dp-stream-50001.md
+        - href: error/dp/dp-stream-40401.md
+        - href: error/dp/dp-stream-40301.md
+        - href: error/dp/dp-stream-40101.md
+        - href: error/dp/dp-stream-50003.md
+        - href: error/dp/dp-stream-50002.md
+        
      #Case Management framework
     - href: error/cmfr/intro.md
     - topics:
