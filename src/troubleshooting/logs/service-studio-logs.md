@@ -42,7 +42,7 @@ To enable the enhanced logging in Service Studio, follow these steps:
 
 1. Ensure Service Studio is closed before editing the following file, so that settings are not overwritten when Service Studio is closed.
 
-1. Edit the file `Settings.xml` at `%USERPROFILE%\AppData\Local\OutSystems\ServiceStudio 11 XPlatform Stable`
+1. Edit the file `Settings.xml` at `%USERPROFILE%\AppData\Local\OutSystems\ServiceStudio 11 XPlatform Stable` (Windows). For MacOS, this file is located at `~/.local/share/Outsystems/ServiceStudio 11 XPlatform` (you can hold down the Command, Shift and Period keys, cmd + shift + [.], in the Home folder of Finder to display the hidden folders).
 
 1. Edit the line for `SystemDiagnosticsSwitches` to include a comma-separated list of the desired switches (see list after steps), or use a * to turn them all on.
 Example: `<SystemDiagnosticsSwitches>Presenter,Debugger</SystemDiagnosticsSwitches>`
