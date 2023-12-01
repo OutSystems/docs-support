@@ -1,0 +1,25 @@
+---
+isautopublish: true
+pageprivacy: public
+---
+
+<h2 id="outsystems_developer_cloud_2023-12-01" >OutSystems Developer Cloud 2023-12-01</h2>
+<div class="info"><p>Released on Dec 01, 2023</p></div>
+
+
+<style>.cattag {background: #f4f2ff; color: #6a6581; padding: 4px 10px;}</style>
+<h3 id="new_in_outsystems_developer_cloud_2023-12-01" > New</h3>
+<ul>
+<li>Now, on the configurations details pages it is possible to check the value when typing in password fields. (RDLOT-2134)</li>
+<li>Fixed an issue on the ODC Portal where sometimes while applying configurations consecutively they were not being applied correctly. (RDLOT-2416)</li>
+</ul>
+<h3 id="bug_fixing_outsystems_developer_cloud_2023-12-01" >Bug Fixing</h3>
+<ul>
+<li>Fixed an issue on the ODC Portal where the library’s release notes were not showing some characters correctly on the version history tab under the application details screen. (RDLOT-2383)</li>
+<li>Fixed an issue on the ODC Portal where no feedback message was sent after applying the configurations successfully on the application details screen. (RDLOT-2410)</li>
+<li>Fixed an issue on the ODC Portal where the option to configure test emails on the application details page was not available. (RDLOT-2445)</li>
+<li>Fixed a bug that caused a {{Npgsql exception}} to be raised during the execution of the {{CreateOrUpdateSome Entity Action}} when a {{non-mandatory Foreign Key attribute}} was set to an empty value.
+The {{CreateOrUpdateSome Entity Action}} now handles empty {{non-mandatory Foreign Key}} values correctly, without raising any {{Npgsql exception}}. (RPLAT-2138)</li>
+<li>Created a new error (code OS-ELG-MODL-05030) when uploading an External Library with the unsupported scenario of using a custom collection class (extending IEnumerable) as input or output of an action (previously OS-ELG-MODL-50010) (RTAFB-7407)</li>
+</ul>
+
