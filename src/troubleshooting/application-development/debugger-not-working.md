@@ -84,3 +84,18 @@ You can solve this problem in one of the following ways:
     ![Error solution](images/error-debugging-solution.png)
 
     What does this setting do? Proxy auto-detect works via DNS queries. It finds out where to fetch JavaScript files that run on every hit that the browser loads to determine the correct way to retrieve what it needs. By disabling it, it takes less time to create the connection between Service Studio and Chrome, allowing the debug session to start successfully.
+
+## Unexpected error while initializing the debugger
+
+### Symptoms
+
+* Shows the generic Unexpected Error window while initializing the debugger.
+* The debugger stops working on a specific module.
+
+### Cause
+
+Unknown.
+
+### Solution
+
+Delete the folder with the service studio saved data at C:/Users/[Your_User]/AppData/Local/OutSystems/[Service_Sudio_Folder]
