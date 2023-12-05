@@ -19,6 +19,7 @@ pageprivacy: public
 </ul>
 <h3 id="bug_fixing_platform_server_11.23.0" >Bug Fixing</h3>
 <ul>
+<li>Fixed an issue in Service Center’s Daily Activity report where the Extension Calls column was being incorrectly populated with the Slow Extension Calls value instead of the correct Extension Calls value. Additionally, the Slow Extension Calls column is now correctly populated, whereas previously it was left unpopulated. (R11OT-739)</li>
 <li>Fixed an issue that displayed an error when a Traditional or Reactive application sends emails.
 When sending emails from an application with a Site Rule configured, the error message displayed was: "Error creating Email. The remote server returned an error: (404) Not Found". The fix is disabled by default and can be enabled by changing a system parameter. (RPM-2156) <span class="cattag">Application Runtime</span>  <span class="cattag">Interface</span> </li>
 <li>Improved performance of the CleanLoginAttempts timer from the Users module. (RPM-2619) <span class="cattag">Application Lifecycle</span>  <span class="cattag">Users</span> </li>
