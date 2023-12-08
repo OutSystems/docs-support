@@ -36,7 +36,7 @@ If you have on-premises environments, make sure there is bidirectional communica
 
 ### Check the antivirus configuration in LifeTime server (on-premises only)
 
-You can confirm if antivirus or other third party software is interfering with the deployment. When that's the case, the deployment fails, check the details at [Publish error: the process cannot access the file](https://success.outsystems.com/Support/Enterprise_Customers/Troubleshooting/Publish_error%3A_the_process_cannot_access_the_file).
+You can confirm if antivirus or other third party software is interfering with the deployment. When that's the case, the deployment fails, check the details at [Publish error: the process cannot access the file](https://www.outsystems.com/tk/redirect?g=1305808c-05bc-4f19-939b-09877f5681c1).
 
 ### Check the status of OutSystems services
 
@@ -52,7 +52,7 @@ Check the status of the OutSystems services in both **source** and **target** en
 
 ### Check the status of LifeTime Processes
 
-Environments synchronization in LifeTime is based on [OutSystems Business Process Technology](https://success.outsystems.com/Documentation/11/Developing_an_Application/Use_Processes_(BPT)).
+Environments synchronization in LifeTime is based on [OutSystems Business Process Technology](https://www.outsystems.com/tk/redirect?g=ce023611-1cbc-4c61-a778-2a66167bc7ba).
 
 Check the status of the Processes for potential issues:
 
