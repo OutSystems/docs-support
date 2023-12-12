@@ -7,35 +7,26 @@ platform-version: o11
 figma:
 ---
 
-# Reset Users authentication preferences
+# Unblock access to Users app
 
 ## Symptoms
 
 You've been locked out of your [Users app](https://www.outsystems.com/tk/redirect?g=2cbb2e7d-9936-4bb4-8791-240ade1d1ad6) and can't login.
 
+
 ## Cause
 
-Usually, this happens when you activate Active Directory (with Windows Integrated) authentication with incorrect configurations, thus failing all logins.
+Usually, this happens when you activate **External Authentication** with incorrect configurations, thus failing all logins.
+
+For more infomation about external authentication configurations, refer to [Use an External Authentication Provider](https://success.outsystems.com/documentation/11/managing_the_applications_lifecycle/manage_it_users/use_an_external_authentication_provider/)
 
 ## Resolution
 
-To resolve this issue, please follow these instructions
+If your authentication configuration is incorrect and prevents you from logging in using external authentication, you can still log in with an administrator account (it must be a user with the **UserManager** role) by navigating to the default Users app login page. This bypasses the configured authentication method, allowing you to log in and fix the incorrect settings.
 
-1. Go to Service Center > Factory > Modules
+The default Users app login page is available at: `https://<your_server_name>/Users/Login`.aspx
 
-1. Search for the Users module
+For more information on how to create an admin user, refer to [Configure the Administrator user of the Users app](https://success.outsystems.com/documentation/11/developing_an_application/secure_the_application/end_users/configure_the_administrator_user_of_the_users_app/).
 
-1. On the tab Tenants click on the default tenant
 
-1. Change the following site properties to false:
-
-    * UseActiveDirectoryLogin (Users)
-
-    * UseIntegratedAuthenticationLogin (Users)
-
-    * UseLDAPLogin (Users)
-
-    * UseSAMLLogin (Users) (when present)
-
-After that, you will be able to log into Users with your previous credentials.
 
