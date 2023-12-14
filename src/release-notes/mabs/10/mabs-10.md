@@ -40,7 +40,7 @@ Plugin requirements for **MABS 10**. For more details, please check the Forge by
 |[OneSignal](https://www.outsystems.com/forge/component-versions/2119)|3.6.0 or later|
 |[Location](https://www.outsystems.com/forge/component-overview/1395/location-plugin)|5.2.0 or later|
 |[Local Notifications](https://www.outsystems.com/forge/component-overview/1541/local-notifications-plugin)|7.2.0 or later|
-|[Barcode](https://www.outsystems.com/forge/component-overview/1403/barcode-plugin)|5.3.0 or later|
+|[Barcode](https://www.outsystems.com/forge/component-overview/1403/barcode-plugin)|5.3.1 or later|
 |[Calendar](https://www.outsystems.com/forge/component-versions/1566)|3.1.5 or later|
 |[Social Login Mobile](https://www.outsystems.com/forge/component-versions/7895)|4.0.1 or later|
 
