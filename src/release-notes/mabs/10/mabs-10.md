@@ -72,7 +72,8 @@ The table below contains the list of plugins and their supported versions. It is
 
 Here is the list of changes made to MABS 10 that may affect the building of your apps.
 
-* The legacy Android Support Libraries (`com.android.support`) are no longer supported. Builds containing these libraries will fail until they are migrated to [their respective AndroidX counterpart](https://developer.android.com/jetpack/androidx/migrate/artifact-mappings). Owners of non-supported plugins using Android Support Libraries must migrate their plugins to work with MABS 10. (RNMT-6187)
+* The legacy Android Support Libraries (`com.android.support`) are no longer supported. Builds containing these packages will fail until they are migrated to [their respective AndroidX counterpart](https://developer.android.com/jetpack/androidx/migrate/artifact-mappings). Owners of non-supported plugins using Android Support Libraries must migrate their plugins to work with MABS 10. (RNMT-6187)
+* The `AndroidXEnabled` preference no longer takes any effect and can be removed from Extensibility Configurations, since usage of `AndroidX` packages is now mandatory. (RNMT-6187)
 * Removed functionality that was specifically adding `aps-environments` to plist when present in the provisioning profile. This should be handled by each plugin making use of the `aps-environment` entitlement, and not generically by MABS since not all applications need this. (RNMT-5935)
 
 

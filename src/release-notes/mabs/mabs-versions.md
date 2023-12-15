@@ -54,24 +54,21 @@ This version can run your apps on:
         </tr>
         <tr>
             <td style="vertical-align:middle;width:156px;">Target SDK</td>
-            <td style="width:231px;">14 (API 34)<br />
-            Build Tools 34.0.0<br />
-            Gradle 8.3<br />
-            Kotlin 1.9.10 (Default)</td>
-            <td>iOS 17<br />
-            Xcode 15.0<br />
-            Cocoa Pods 1.12.1<br />
-            Swift 5.9</td>
+            <td style="width:231px;">14 (API Level 34)<br /></td>
+            <td>17.2<br /></td>
         </tr>
         <tr>
-            <td style="vertical-align:middle;width:156px;">Cordova CLI</td>
-            <td style="width:231px;">12.0.0</td>
-            <td>12.0.0</td>
-        </tr>
-        <tr>
-            <td style="vertical-align:middle;width:156px;">Cordova Engine</td>
-            <td style="width:231px;">12.0.0</td>
-            <td>7.0.0</td>
+            <td style="vertical-align:middle;width:156px;">Tools</td>
+            <td style="width:231px;">Build Tools 34.0.0<br />
+            Android Gradle Plugin 8.2.0<br />
+            Kotlin 1.9.21<br />
+            Cordova CLI 12.0.0<br />
+            Cordova Android 12.0.0</td>
+            <td>Xcode 15.1<br />
+            CocoaPods 1.14.3<br />
+            Swift 5.9.2<br />
+            Cordova CLI 12.0.0<br />
+            Cordova iOS 7.0.0</td>
         </tr>
     </tbody>
 </table>
