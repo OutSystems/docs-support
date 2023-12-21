@@ -1,6 +1,6 @@
 ---
-summary: How to obtain the addresses of your OutSystems Cloud servers to allowlist on your firewall. Please note we recently replaced the term whitelist with allowlist across all OutSystems documentation.
-tags: support-Cloud_Platform; support-Cloud_Platform-featured
+summary: How to obtain the addresses of your OutSystems Cloud servers to allowlist on your firewall.
+tags: 
 locale: en-us
 guid: c412c4a8-a910-4e1a-a16d-5defcc3e171a
 app_type: traditional web apps, mobile apps, reactive web apps
@@ -8,10 +8,16 @@ platform-version: o11
 figma: https://www.figma.com/file/cPLNnZfDOZ1NX3avcjmq3g/Enterprise%20Customers?node-id=3216:900
 ---
 
-# Allowlist your OutSystems cloud environments on your firewall
+# Allowlist your OutSystems Cloud environments on your firewall
 
 In the OutSystems Cloud you can integrate with several external services. And sometimes, those services are behind a firewall or have strict access rules. To establish a connection, you'll need to allowlist the addresses of your OutSystems Cloud environments. 
-This article guides on how to find the right IP addresses to allow on your network.
+This article guides you on how to find the right IP addresses to allow on your network.
+
+<div class="info" markdown="1">
+
+Applies to OutSystems Cloud subscriptions. It can't be applied to Cloud demos and Personal environments.
+
+</div>
 
 ## Connecting over the internet
 
