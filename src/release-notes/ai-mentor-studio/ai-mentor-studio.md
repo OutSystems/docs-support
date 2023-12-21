@@ -9,7 +9,7 @@ platform-version: o11
 
 <div class="hidden" id="ai-mentor-studio-1.22_start"></div>
 
-<h2 id="ai_mentor_studio_1.22" >AI Mentor Studio 1.22</h2> 
+<h2 id="ai_mentor_studio_1.22" >AI Mentor Studio 1.22</h2>
 <div class="info"><p>Released on Jan 16, 2023</p></div>
 
 
