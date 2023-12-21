@@ -5,7 +5,7 @@ app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
 ---
 
-<div class="hidden"><h1>Cross-platform Service Studio</h1></div>
+<div class="hidden"><h1>Cross-platform Service Studio</h1></div> 
 
 <div class="hidden" id="cross-platform-service-studio-11.53.38_start"></div>
 
