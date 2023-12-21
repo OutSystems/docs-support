@@ -9,7 +9,7 @@ platform-version: o11
 
 <div class="hidden" id="cross-platform-service-studio-11.53.38_start"></div>
 
-<h2 id="cross-platform_service_studio_11.53.38" >Cross-platform Service Studio 11.53.38</h2>
+<h2 id="cross-platform_service_studio_11.53.38" >Cross-platform Service Studio 11.53.38</h2> 
 <div class="info"><p>Released on Feb 06, 2023</p></div>
 
 
