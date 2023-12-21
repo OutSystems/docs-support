@@ -5,4 +5,4 @@ app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
 ---
 
-<div class="hidden"><h1>AI Mentor Studio</h1></div>
+<div class="hidden"><h1>AI Mentor Studio</h1></div> 
