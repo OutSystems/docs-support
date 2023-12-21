@@ -125,7 +125,7 @@ To implement multi-factor authentication, multiple methods of authentication fro
 * Location (GPS device).
 * Time factors (user versus time verification).
 
-[Google Authenticator](https://www.outsystems.com/forge/component-overview/967/googleauthenticator) and [Touch ID Plugin](https://www.outsystems.com/forge/component-overview/1431/touch-id-plugin) are forge components that implement possession and inherence factors. However, please note that these forge components aren't supported by OutSystems.
+[Google Authenticator](https://www.outsystems.com/forge/component-overview/967/googleauthenticator) and [Touch ID Plugin](https://www.outsystems.com/forge/component-overview/1431/touch-id-plugin) are Forge components that implement possession and inherence factors. However, please note that Google Authenticator isn't supported by OutSystems.
 
 
 ## Secure the applications
