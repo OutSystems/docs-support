@@ -1,5 +1,5 @@
 ---
-summary: Understand the application object count in OutSystems 11 and OutSystems Developer Cloud.
+summary: Application Object counting and licensing in OutSystems 11 and OutSystems Developer Cloud.
 tags:
 locale: en-us
 guid: cd994c70-9dcc-46ed-b423-84099beac39a
@@ -25,12 +25,14 @@ An Application Object (AO) is a measurement of the complexity of your applicatio
 * Entities you create within OutSystems (both normal [entities](https://success.outsystems.com/Documentation/11/Developing_an_Application/Use_Data/Data_Modeling/Entities) and [static entities](https://success.outsystems.com/Documentation/11/Developing_an_Application/Use_Data/Data_Modeling/Static_Entities)) each count as 1 AO.
 * Entities you import from external databases (for example, a table or a view) for use in your app each count as 1 AO.
 * Entities using local storage, such as for use with mobile apps, each count as 1 AO.
+* Static entities included in a library each count as 1 AO.
 * Tables created by the OutSystems platform, such as the Users table where end user information is stored, don't contribute to the AO count.
 
 ## Details on AO counting for API methods
 
 * Each API method you *create* ([REST](https://success.outsystems.com/Documentation/11/Extensibility_and_Integration/REST/Expose_REST_APIs) or [SOAP Web Service](https://success.outsystems.com/Documentation/11/Extensibility_and_Integration/SOAP/Exposing_SOAP_Web_Services/Expose_a_SOAP_Web_Service)) counts as 1 AO. 
 * Each API method you *consume* ([REST](https://success.outsystems.com/Documentation/11/Extensibility_and_Integration/REST/Consume_REST_APIs), [SOAP Web Service](https://success.outsystems.com/Documentation/11/Extensibility_and_Integration/SOAP/Consuming_SOAP_Web_Services), SAP BAPI, etc.) within each app counts as 1 AO.
+* API methods included in a library each count as 1 AO.
 * APIs that are within a C#-based extension don't contribute to the AO count.
 
 ## Other scenarios relating to AO counting
@@ -39,10 +41,11 @@ An Application Object (AO) is a measurement of the complexity of your applicatio
 * Disabled applications continue to contribute to the AO count until they're deleted.
 * Components sourced from [OutSystems Forge](https://www.outsystems.com/forge/) also contribute to the AO count.
 * In OutSystems Developer Cloud, you can deploy multiple versions of the same library. Only the version with the highest number of AOs contributes to the AO count.
+* In OutSystems 11, libraries that are published to the development runtime environment contribute to the AO count, even when they are not referenced by any applications in that runtime. Unreferenced libraries that are deployed to non-production or production runtimes also contribute to the AO count.
 
 ## AO limits
 
-OutSystems subscriptions typically include rights to run applications up to a specified number of AOs, with options for upgrading AO capacity that vary by subscription. You can review your AO limits within the Customer Portal and you can see the current AO usage displayed for each runtime environment within Service Center. 
+OutSystems subscriptions typically include rights to run applications up to a specified number of AOs, with options for upgrading AO capacity that vary by subscription. With OutSystems 11, you can review your AO limits within the Customer Portal and you can see the current AO usage displayed for each runtime environment within Service Center. With OutSystems Developer Cloud, you can review these within the Subscription section of the ODC Portal.
 
 ### Subscriptions with one production runtime
 
