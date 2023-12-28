@@ -169,6 +169,7 @@
         - href: troubleshooting/infrastructure-management/slower-queries.md
         - href: troubleshooting/infrastructure-management/deploy-all-workaround-11180.md
         - href: troubleshooting/infrastructure-management/change-db-endpoints.md
+        - href: troubleshooting/infrastructure-management/connectivity-experience-builder.md
 
     # Incident Models
     - href: troubleshooting/incident-models/im.md
