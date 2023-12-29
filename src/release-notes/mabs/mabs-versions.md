@@ -114,18 +114,14 @@ This version can run your apps on:
             <td>16<br/></td>
         </tr>
         <tr>
-            <td style="vertical-align:middle;width:156px;">Tools</td>
-            <td style="width:231px;">Build Tools 33.0.0<br/>
-            Gradle 7.5<br/>
-            Android Gradle Plugin 7.3.0<br/>
-            Kotlin 1.6.20 (Default) to 1.7.X<br/>
-            Cordova CLI 11.0.0<br/>
-            <a href="https://github.com/OutSystems/cordova-android/tree/outsystems/11.0.x">Cordova Android 11.0</a></td>
-            <td>Xcode 14.1<br/>
-            Cocoa Pods 1.11.2<br/>
-            Swift 5.7.1</td>
-            <td>Cordova CLI 11.0.0<br/>
-            <a href="https://github.com/OutSystems/cordova-ios/tree/outsystems/6.2.x">Cordova iOS 6.2</a></td>
+            <td style="vertical-align:middle;width:156px;">Cordova CLI</td>
+            <td style="width:231px;">11.0.0</td>
+            <td>11.0.0</td>
+        </tr>
+        <tr>
+            <td style="vertical-align:middle;width:156px;">Cordova Engine</td>
+            <td style="width:231px;">11.0.0</td>
+            <td>6.2.0</td>
         </tr>
     </tbody>
 </table>
