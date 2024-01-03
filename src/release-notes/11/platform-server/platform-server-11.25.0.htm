@@ -47,3 +47,8 @@ Updated Oracle Data Provider for .NET Managed driver to version 19.21.0. Dropped
 Check <a href="https://success.outsystems.com/support/release_notes/11/outsystems_11_side_effects_and_breaking_changes/">OutSystems 11 side effects and breaking changes</a> for more details. (RPM-4234) <span class="cattag">Application Runtime</span>  <span class="cattag">Data Access and Manipulation</span> </li>
 </ul>
 
+<h3>Known issues</h3>
+<ul>
+<li>Applications that make use of <a href="https://www.outsystems.com/tk/redirect?g=dc811245-bcef-4579-bcee-3530a997eecd">secret site properties</a> will have "Unable to decrypt content" runtime errors when accessing the secret site property value. This happens only after they're staged to another environment using LifeTime version 11.20.0 or lower. The issue will be fixed in LifeTime version 11.20.1.
+It's possible to quickly mitigate the issue by going to Service Center and defining the proper Effective value for the secret site property. It's however important to note this is a temporary measure as subsequent staging will resurface the problem. It's therefore important to upgrade LifeTime to 11.20.1 or higher as soon as possible to prevent the issue from happening again.</li>
+</ul>
