@@ -16,3 +16,7 @@ pageprivacy: public
 
 </ul>
 
+<h3>Note</h3>
+<ul>
+<li>LifeTime 11.20.0.3199 fails to recognize when secret site properties are used in applications. This makes it possible for secret site properties to be configured, as part of the deployment plan configuration process, and for the respective applications to be deployed to the target environment without any apparent problem. The problem manifests at application runtime, with an error message of "Unable to decrypt content" when accessing the secret site property value. This behaviour has been corrected in LifeTime 11.20.1. To work-around the problem caused by LifeTime 11.20.0.3199, it is necessary to go to the ServiceCenter of the affected environment and to set manually a new value for the secret site property. Re-publishing the affected module does not fix the problem. </li>
+</ul>
