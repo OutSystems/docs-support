@@ -11,12 +11,12 @@ pageprivacy: public
 <h3 id="new_in_lifetime_management_console_11.20.0" >New in LifeTime Management Console 11.20.0</h3>
 <ul>
 <li>Platform Server version updated to 11.24.0. (R11CT-2671)</li>
-<li>Site properties can now be defined as a secret, which will ensure their value is stored and encrypted in the database. This requires Platform Server 11.25 or higher and ServiceStudio 11.54.35 or higher. You can learn more about the feature <a href="https://www.outsystems.com/tk/redirect?g=dc811245-bcef-4579-bcee-3530a997eecd">here</a>. (R11CT-2672)</li>
 </ul>
 
 </ul>
 
-<h3>Note</h3>
+<h3>Known issues</h3>
 <ul>
-<li>LifeTime 11.20.0.3199 fails to recognize when secret site properties are used in applications. This makes it possible for secret site properties to be configured, as part of the deployment plan configuration process, and for the respective applications to be deployed to the target environment without any apparent problem. The problem manifests at application runtime, with an error message of "Unable to decrypt content" when accessing the secret site property value. This behaviour has been corrected in LifeTime 11.20.1. To work-around the problem caused by LifeTime 11.20.0.3199, it is necessary to go to the ServiceCenter of the affected environment and to set manually a new value for the secret site property. Re-publishing the affected module does not fix the problem. </li>
+<li>Applications that make use of <a href="https://www.outsystems.com/tk/redirect?g=dc811245-bcef-4579-bcee-3530a997eecd">secret site properties</a> and were staged to an environment with LifeTime version 11.20.0 or lower will have "Unable to decrypt content" runtime errors when accessing the secret site property value. The issue will be solved in LifeTime version 11.20.1. 
+It's possible to mitigate the issue by going to Service Center and defining the proper Effective value for the secret site property. Please note this is a temporary measure and won't prevent the problem from resurfacing. It's therefore important to upgrade LifeTime to 11.20.1 (the minimal version that has support for secret site properties) or higher as soon as possible to prevent the issue from happening again.</li>
 </ul>
