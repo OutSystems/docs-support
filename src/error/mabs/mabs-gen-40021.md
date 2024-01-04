@@ -16,7 +16,7 @@ figma:
 
 ## Cause
 
-The Kotlin version is not compatible with the plugins used in the app. This version is usually defined in the `GradlePluginKotlinVersion` preference in the Extensibility Configurations or in a plugin's specialized hook.
+The Kotlin version isn't compatible with the plugins used in the app. This version is usually defined in the `GradlePluginKotlinVersion` preference in the Extensibility Configurations or in a plugin's specialized hook.
 
 ## Impact
 
@@ -24,8 +24,8 @@ Users can't generate the application package.
 
 ## Recommended action
 
-Check if the main module of your app includes the `GradlePluginKotlinVersion` preference in the Extensibility Configurations and remove it or replace it for a compatible version.
+* Check if the main module of your app includes the `GradlePluginKotlinVersion` preference in the Extensibility Configurations and replace it with the compatible version.
 
-Check also if a plugin is modifying the used Kotlin version.
+* Verify if the plugin is modifying the used Kotlin version.
 
 If the problem persists, create a case with [OutSystems support](https://www.outsystems.com/support/portal/open-support-case?ErrorCode=OS-MABS-GEN-40021).
