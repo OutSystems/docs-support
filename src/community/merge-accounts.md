@@ -47,22 +47,22 @@ The following will be transferred from **account B** into **account A**. The res
 
 
 * Community forums posts and votes on those posts
-* Forge components ownership, votes and subscriptions
+* Forge components ownership, votes, and subscriptions
 * Online courses progression
 * Certifications and bootcamps
-* Ideas, comments and likes on ideas
+* Ideas, comments, and likes on ideas
 * Accomplishments (Overview tab on your profile) and Achievements
 * Private messages
 
 <div class="info" markdown="1">
 
-The profile creation date will be the oldest date. That can be either the creation date of account A or account B. The sames applies to the dates of the badges: Welcome, Profile Superstar, First Idea, First Component, First Post, and MVP
+The profile creation date will be the oldest date. That can be either the creation date of account A or account B. The same applies to the dates of the badges: Welcome, Profile Superstar, First Idea, First Component, First Post, and MVP
 
 </div>
 
 
 ## What information won’t be transferred?
 
-For security reasons, it won’t be possible to keep your Customer Portal or Partner Center permissions. You should ask the administrators to add you afther the merge.
+For security reasons, it won’t be possible to keep your Customer Portal or Partner Center permissions. You should ask the administrators to add you after the merge.
 
-Customer Portal and Partner Center have sensitive information about the companies, and we want to make sure that only authorized people can access.
+Customer Portal and Partner Center have sensitive information, and we want to make sure that only authorized people can access them.
