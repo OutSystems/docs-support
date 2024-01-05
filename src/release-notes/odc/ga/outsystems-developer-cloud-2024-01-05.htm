@@ -1,0 +1,24 @@
+---
+isautopublish: true
+pageprivacy: public
+---
+
+<h2 id="outsystems_developer_cloud_2024-01-05" >OutSystems Developer Cloud 2024-01-05</h2>
+<div class="info"><p>Released on Jan 05, 2024</p></div>
+
+
+<style>.cattag {background: #f4f2ff; color: #6a6581; padding: 4px 10px;}</style>
+<h3 id="new_in_outsystems_developer_cloud_2024-01-05" > New</h3>
+<ul>
+<li>Deployed (RBST-1238)</li>
+<li>Released. (RBST-1374)</li>
+<li>Updated the look of the breadcrumbs in the Connections section of the ODC Portal. (RCNT-6668)</li>
+</ul>
+<h3 id="bug_fixing_outsystems_developer_cloud_2024-01-05" >Bug Fixing</h3>
+<ul>
+<li>There exists a case where the user can request a refresh of the metadata then exit the connection console prior to the completion of the refresh request. Should the user wait several days before returning to the console, the job id associated with refresh request sill have expired. This will cause the connection in the console to appear to be stuck.
+
+The fix will treat the expired job id as a refresh failure. This will allow the console to return the error thus allowing the user to request another refresh of the metadata. (RDCIST-1542)</li>
+<li>For external entities, fixed a bug that prevents to refresh successfully entities and attributes when there are entities with spaces in the name. (RDCIST-1551)</li>
+</ul>
+
