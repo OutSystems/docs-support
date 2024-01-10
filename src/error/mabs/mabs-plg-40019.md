@@ -12,11 +12,11 @@ figma:
 
 ## Error message
 
-`The Forge <plugin_name> isn't compatible with MABS version <MABS_version>. Update it to <plugin_min_version> or higher.`
+`<plugin_name> must be <plugin_min_version> or higher.`
 
 ## Cause
 
-This error occurs when a Forge plugin isn't compatible with a specific MABS version (MABS 8.0 or higher). The **&lt;plugin_name&gt;** refers to the plugin name on Forge. The **&lt;MABS_version&gt;** refers to the MABS version that you are using to generate your application. The **&lt;plugin_min_version&gt;** refers to the minimum plugin version that is compatible with the MABS version that you are trying to use. 
+This error occurs when a Forge plugin isn't compatible with a specific MABS version (MABS 8.0 or higher). The **&lt;plugin_name&gt;** refers to the plugin name on Forge. The **&lt;plugin_min_version&gt;** refers to the minimum plugin version that is compatible with the MABS version that you are trying to use. 
 
 ## Impact
 
