@@ -12,7 +12,8 @@ pageprivacy: public
 <ul>
 <li>Improved the perception of built-in functions by having different icons for client and server side actions. (RDEV-6096)</li>
 <li>Added support for keyboard shortcuts to better manage dependencies namely remove unused references and update dependencies. (RDEV-6099)</li>
-<li>The undo of an automatic merge will now trigger the merge conflicts dialog. (RDPMBT-3741)</li>
+<li>Fixed an issue that caused publish to override latest platform version when a previous _undo_ on a automatic merge was performed. Users were unaware of publish override behavior.
+Now if such scenario is encountered the conflict dialog is always shown in the next publish. (RDPMBT-3741)</li>
 </ul>
 <h3 id="bug_fixing_odc_studio_1.3.7" >Bug Fixing</h3>
 <ul>
