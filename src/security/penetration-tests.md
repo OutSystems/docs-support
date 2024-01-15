@@ -17,7 +17,7 @@ For OutSystems Cloud, the tests are limited to the assets under the responsibili
 
 ## Before you start
 
-To avoid generating false positive findings, make sure you consult the [OutSystems Platform Hardening](platform-server-hardening.md) documentation. 
+To avoid generating false positive findings, make sure you consult the [OutSystems Platform Hardening](platform-server-hardening.md) documentation.
 
 To find all the procedure details necessary to perform penetration tests and vulnerability scans in your OutSystems Cloud environments, refer to [Load and penetration tests on OutSystems Cloud](penetration-test-cloud.md).
 
@@ -53,11 +53,14 @@ The jQuery-UI versions prior to 1.13.0 are vulnerable to the execution of untrus
 
 Some penetration testing tools may flag OutSystems as having a vulnerable jQuery-ui-dialog library.
 
-OutSystems uses jQuery-ui-dialog version 1.8.24, that has a vulnerability known to this version - [CVE-2010-5312](https://www.cvedetails.com/cve/CVE-2010-5312/). This vulnerability relates to the title() function, potentially allowing for unescaped content to be inserted in the title and causing a cross site scripting problem.
+OutSystems uses jQuery-ui-dialog version 1.8.24, that has a vulnerability known to this version - [CVE-2010-5312](https://www.cvedetails.com/cve/CVE-2010-5312/). This vulnerability involves the title() function, which could potentially enable the insertion of unescaped content into the title, leading to a cross-site scripting problem.
 
 All uses of the affected function were reviewed and fixed in PS [11.14.0](https://success.outsystems.com/support/release_notes/11/platform_server/#bug_fixing_platform_server_11.14.0). OutSystems properly encodes the input parameter. As such, OutSystems applications aren't vulnerable despite this vulnerability still being present in jquery-ui-dialog.
 
-As for applications developed by the customer that make use of this library, you should ensure that you encode the input to the title() function correctly. Alternatively, you can import your own version of jquery-ui-dialog into a different namespace and use that version instead.
+Similar to the previous vulnerability, [CVE-2016-7103](https://nvd.nist.gov/vuln/detail/CVE-2016-7103) also indicates the risk of injecting unescaped content in closeText parameter of the dialog function.
+OutSystems does not use this parameter in its generated code, ensuring that the applications remain unexposed to this vulnerability.
+
+As for applications developed by the customer that make use of this library, you should ensure that you encode the input to the title() and dialog() functions correctly. Alternatively, you can import your own version of jquery-ui-dialog into a different namespace and use that version instead.
 
 
 #### jQuery-ui-tooltip flagged as a potentially vulnerable library
