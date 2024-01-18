@@ -14,7 +14,6 @@ This article explains the necessary steps to execute in OutSystems Platform Serv
 
 It doesn't cover the necessary steps to execute on the database. For detailed instructions on how to backup and restore the database, please refer to the documentation of your database management system.
 
-
 ## Prerequisites
 
 To apply this procedure, the following requirements must be met:
@@ -29,9 +28,7 @@ To apply this procedure, the following requirements must be met:
 
 * No changes will be done to the application servers.
 
-
 If you are looking to create a copy of an existing environment while maintaining the original environment, check [this article](https://success.outsystems.com/Support/Enterprise_Customers/Maintenance_and_Operations/Migrate_an_Environment_Using_a_Database_Clone) instead.
-
 
 <div class="info" markdown="1">
 
@@ -85,8 +82,7 @@ After applying the configurations to all servers:
 
 1. [Apply settings](https://success.outsystems.com/documentation/11/managing_the_applications_lifecycle/deploy_applications/configure_application_settings_after_deployment/applying_configurations_in_service_center/#apply-pending-settings-to-a-set-of-modules) to all modules of the solution.
 
-1. If there is a warning to republish the modules, publish the solution by clicking Publish for the Current Running Version.
-
+1. If there is a warning to republish the modules, publish the solution by clicking **Publish** for the Current Running Version. (Note that new versions of the modules are created.)
 
 ### Step 3. Decommission the old database server 
 
