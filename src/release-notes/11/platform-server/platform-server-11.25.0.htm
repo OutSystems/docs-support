@@ -21,6 +21,7 @@ This occurred for Reactive and Mobile apps when <a href="https://success.outsyst
 Now, both directives have been removed from the index.html file. (R11DT-1957)</li>
 <li>Email screens from reactive and mobile apps are now being considered <a href="https://success.outsystems.com/support/licensing/application_objects/">Application Objects</a>. The platform was not considering these objects in the total AO count, which was not expected. This may impact the AO usage limit. Traditional Emails were unaffected by this change as they were already being considered in the AO count.  (R11DT-2058)</li>
 <li>Fixed an issue that was causing password fields to be disabled while being mandatory. This occurred when creating new users in the Service Center with LDAP/AD authentication mechanism enabled. (RDOI-415)</li>
+<li>Fixed a Base URL validation that did not allow the usage of http:// in Rest Consume. (RO11IT-614)</li>
 <li>Fixed an issue that prevented the immediate detection of custom device type and orientation.<br />
 This occurred when using <a href="https://success.outsystems.com/documentation/11/reference/outsystems_apis/javascript_api/view/#registerdeviceclassgetter"> OutSystems API registerDeviceClassGetter</a>. Previously, this function was only being called upon orientation change or resize events.<br />
 Now, the function is also called upon registration. This affects Reactive and Mobile apps. (RPM-1764) <span class="cattag">Application Runtime</span>  <span class="cattag">Interface</span> </li>
