@@ -62,7 +62,6 @@ OutSystems does not use this parameter in its generated code, ensuring that the 
 
 As for applications developed by the customer that make use of this library, you should ensure that you encode the input to the title() and dialog() functions correctly. Alternatively, you can import your own version of jquery-ui-dialog into a different namespace and use that version instead.
 
-
 #### jQuery-ui-tooltip flagged as a potentially vulnerable library
 
 Some penetration testing tools may flag OutSystems as having a vulnerable jQuery-ui-tooltip library - [CVE-2012-6662](https://nvd.nist.gov/vuln/detail/cve-2012-6662). 
@@ -73,8 +72,11 @@ OutSystems doesn't use jQuery-ui-tooltip widget. It's not present on our code.
 
 Currently, OutSystems supports jQuery v.1.8.3 and jQuery-UI v1.8.24 libraries. This is due to the fact that multiple applications rely on those library versions. Modifying it would most probably break the traditional web apps experience. On the other hand, most of the vulnerabilities associated with these libraries have been patched by OutSystems, and others are confirmed to be false positives. The fact that these library versions are associated with vulnerabilities doesn't mean that OutSystems is actually vulnerable and that there is a need to update them.
 
-
 </div>
+
+#### Javascript source map (.js.map files) flagged as being exposed by the server
+
+The .js.map files are used during debugging to unminify source code. These files themselves do not represent an attack vector since it's possible to recover the original source code and not find any bugs or vulnerabilities to exploit. The .js.map files are available in all environments except production, limiting their exposure.
 
 ## Support from OutSystems
 
@@ -104,5 +106,3 @@ Furthermore, the following tables can help you understand the responsibilities a
 |------------|-----------------|--------------|
 | Customer   | <ul><li>Deploy and manage OutSystems on self managed servers</li><li>Execute the penetration tests</li></ul>|<ul><li>The customer has knowledge of how to configure and manage OutSystems and  underlying technologies</li><li>The customer has knowledge of the tool(s) used to perform penetration tests</li><li>The customer is responsible for executing the tests, collecting the results, reviewing the results, performing the necessary correction and re-checking</li></ul>| 
 | OutSystems | <ul><li>Provide support to customers on issues related to the product</li></ul>|<ul><li>Has expert knowledge on OutSystems</li><li>Is able to help Customers with OutSystems related issues [(support terms)](https://www.outsystems.com/legal/success/support-terms-and-service-level-agreements-sla-of-the-outsystems-software/)</li><li>Is able to reply to customer questions</li></ul>|
-
-
