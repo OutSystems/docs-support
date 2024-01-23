@@ -27,11 +27,11 @@ OutSystems only accepts requests to reset the password of users with the adminis
 
 </div>
 
-### On-premises
+### On self-managed
 
 <div class="warning" markdown="1">
 
-To reset the admin password for the Users application in an on-premises infrastructure, you need access to the database to execute a direct update to the OSSYS_USER table. Running the database statement incorrectly can destroy other passwords in your system.
+To reset the admin password IT users application in a self-managed infrastructure, you need access to the database to execute a direct update to the OSSYS_USER table. Running the database statement incorrectly can destroy other passwords in your system.
 
 </div>
 
@@ -56,7 +56,7 @@ Reset the admin password for the Users application using Service Center. Check [
 
 Request the password reset by opening a [new case at OutSystems Support Portal](https://www.outsystems.com/goto/submit-support-case).
 
-### On-premises
+### On self-managed
 
 **For OutSystems 11 Platform Server Release Jul.2019 or later** and **OutSystems 10 Platform Server 10.0.1014.0 or later**
 
@@ -66,7 +66,7 @@ Check [here](https://success.outsystems.com/Documentation/11/Developing_an_Appli
 
 <div class="warning" markdown="1">
 
-To reset the admin password for the Users application in an on-premises infrastructure, you need access to the database to execute a direct update to the OSSYS_USER table. Running the database statement incorrectly can destroy other passwords in your system.
+To reset the admin password for the Users application in a self-managed infrastructure, you need access to the database to execute a direct update to the OSSYS_USER table. Running the database statement incorrectly can destroy other passwords in your system.
 
 </div>
 
