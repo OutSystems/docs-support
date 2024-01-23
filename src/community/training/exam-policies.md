@@ -24,7 +24,7 @@ By default, all candidates will have their user login automatically created with
 To be able to get a refund when canceling the exam, candidates need to cancel it up to 15 days before the exam’s original scheduled date and time. In case candidates cancel the exam within less than 15 days before the exam date, the refund won't be processed.
 
 **Where to reschedule or cancel an exam:**
-Candidates with a scheduled exam can reschedule by accessing the [Certification Page](https://www.outsystems.com/learn/certifications/), selecting the scheduled exam and clicking the Reschedule or Cancel button, following the steps.
+Candidates with a scheduled exam can reschedule by accessing the [Certification Page](https://www.outsystems.com/certifications/), selecting the scheduled exam, and clicking the Reschedule or Cancel button, following the steps.
 
 **Candidates now showing up on the exam’s scheduled date and time:**
 In case the candidate doesn't show up for a scheduled exam, it won't be possible for them to have access to it after that date, since the exam will then become expired. The session is now lost, without being able to get rescheduled. 
