@@ -53,7 +53,7 @@ For permanent database users, OutSystems allows you to connect in two different 
 
 <div class="info" markdown="1">
 
-OutSystems can provide you with one [read-only](#read) and one [read and write](#read-write) credentials per database, according to your needs.
+OutSystems can provide you with one [read-only](#read) and one [read and write](#read-write) credentials per environment, according to your needs.
 </div>
 
 To request a permanent database user, you must [contact the OutSystems Support](https://success.outsystems.com/Support/Enterprise_Customers/OutSystems_Support/02_How_to_Open_a_Support_Case).
