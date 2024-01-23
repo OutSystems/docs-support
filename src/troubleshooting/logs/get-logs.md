@@ -16,17 +16,19 @@ In the context of a support case, OutSystems Support might require that you prov
 
 Troubleshooting logs allow you to understand the probable cause of slowness in your applications, or what is happening at the moment of a certain action. Below are some of the most used logs for troubleshooting. 
 
-**Service Center Logs**: The [logs for the runtime of the platform](https://success.outsystems.com/Documentation/11/Managing_the_Applications_Lifecycle/Monitor_and_Troubleshoot/View_the_Environment_Logs_and_Status#monitoring-area) are available in the **Service Center** console of each environment - application and LifeTime environments. These logs can be helpful when trying to debug a specific feature or behavior and understanding exactly what is happening within that process. You can access the following reports from Service Center:
+**Service Center Logs**: The [logs for the runtime of the platform](https://success.outsystems.com/Documentation/11/Managing_the_Applications_Lifecycle/Monitor_and_Troubleshoot/View_the_Environment_Logs_and_Status#monitoring-area) are available in the **Service Center** console of each environment - application and LifeTime environments. These logs can be helpful when trying to debug a specific feature or behavior and understanding exactly what is happening within that process. You can access the following logs from Service Center:
 
  * Errors
- * General logs
- * Web requests
- * Mobile requests
+ * General
+ * Traditional Web requests
+ * Screen requests
  * Service Actions
  * Integrations
  * Extensions
  * Timers
  * Emails
+ * Processes
+ * Mobile Apps
 
 [Click here](service-center-logs.md) to learn how to get Service Center Logs. 
 
