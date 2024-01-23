@@ -35,7 +35,7 @@ It's recommended to update all supported plugins to the latest version available
 Plugin requirements for **MABS 9**. For more details, please check the Forge by clicking on the plugin name
 
 |Plugin|Required minimum version for O11|Required minimum version for ODC|
-|---|---|---|
+|:---|---|---|
 |[SSL Pinning](https://www.outsystems.com/forge/component-versions/1873)|6.0.2 or later|0.1.0 or later|
 |[InAppBrowser](https://www.outsystems.com/forge/component-versions/1558)|2.4.5 or later|0.1.0 or later|
 |[Camera](https://www.outsystems.com/forge/component-versions/1390)|7.1.4 or later|0.1.5 or later|

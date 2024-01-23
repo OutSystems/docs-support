@@ -35,7 +35,7 @@ It's recommended to update all supported plugins to the latest version available
 Plugin requirements for **MABS 10**. For more details, please check the Forge by clicking on the plugin name.
 
 |Plugin|Required minimum version for O11|Required minimum version for ODC|
-|---|---|---|
+|:---|---|---|
 |[Camera](https://www.outsystems.com/forge/component-versions/1390)|7.5.0 or later|0.1.15 or later|
 |[OneSignal](https://www.outsystems.com/forge/component-versions/2119)|3.6.0 or later|0.1.1 or later|
 |[Location](https://www.outsystems.com/forge/component-overview/1395/location-plugin)|5.2.0 or later|1.0.1 or later|
@@ -47,7 +47,7 @@ Plugin requirements for **MABS 10**. For more details, please check the Forge by
 The table below contains the list of plugins and their supported versions. It is important to note that it is recommended to always use the latest version available of a plugin.
 
 |Plugin|Supported minimum version for O11|Supported minimum version for ODC|
-|---|---|---|
+|:---|---|---|
 |[SSL Pinning](https://www.outsystems.com/forge/component-versions/1873)|7.0.0 or later|0.1.0 or later|
 |[InAppBrowser](https://www.outsystems.com/forge/component-versions/1558)|2.4.10 or later|0.1.2 or later|
 |[Ciphered Local Storage](https://www.outsystems.com/forge/component-versions/1500)|3.2.2 or later|0.1.2 or later|
