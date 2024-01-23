@@ -3,7 +3,7 @@ isautopublish: true
 pageprivacy: public
 ---
 
-<h2 id="platform_server_11.23.0" >Platform Server 11.23.0</h2> 
+<h2 id="platform_server_11.23.0" >Platform Server 11.23.0</h2>
 <div class="info"><p>Released on Aug 21, 2023</p></div>
 
 
@@ -29,6 +29,7 @@ When sending emails from an application with a Site Rule configured, the error m
 <li>Fixed an issue that caused an error when staging a producer of an ISV-protected module in LifeTime. (RPM-3820) <span class="cattag">Application Lifecycle</span>  <span class="cattag">LifeTime</span> </li>
 <li>Fixed performance degradation experienced when navigating through Service Center pages, that could happen after a Modules Preparation operation ended with errors. (RPM-3923) <span class="cattag">Infrastructure Management</span>  <span class="cattag">Platform Configuration</span> </li>
 <li>Now, a feedback message will appear in ServiceCenter when trying to generate a mobile application that doesn't have a home module defined. (RPM-3937) <span class="cattag">Application Lifecycle</span>  <span class="cattag">Service Center</span> </li>
+<li>Fixed an issue in ServiceCenter that caused the Daily Activity metrics being empty/zero when Log Separation was enabled. (RPM-4009) <span class="cattag">Application Lifecycle</span>  <span class="cattag">Service Center</span> </li>
 <li>Fixed an issue that caused the request URL to be incorrect (without the hash content) when opening a Module/Screen/WebBlock that contained the pattern in their name ("__"). This occurred in Reactive and Mobile Apps. (RPM-4033) <span class="cattag">Application Runtime</span>  <span class="cattag">Logic Execution</span> </li>
 <li>Fixed an issue that caused successful publications through OSPTool to incorrectly exit with code -4. (RPM-4052) <span class="cattag">Infrastructure Management</span>  <span class="cattag">OSPTool</span> </li>
 <li>Popover Widget is now focusable and clickable by keyboard, enhancing usability for keyboard-only users. (RPM-4080) <span class="cattag">Application Runtime</span>  <span class="cattag">Interface</span> </li>
