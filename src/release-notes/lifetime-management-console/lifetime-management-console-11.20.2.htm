@@ -1,0 +1,18 @@
+---
+isautopublish: true
+pageprivacy: semi-private
+---
+
+<h2 id="lifetime_management_console_11.20.2" >LifeTime Management Console 11.20.2</h2>
+<div class="info"><p>This is a preliminary version of the document.</p></div>
+
+
+<style>.cattag {background: #f4f2ff; color: #6a6581; padding: 4px 10px;}</style>
+<h3 id="bug_fixing_lifetime_management_console_11.20.2" >Bug Fixing</h3>
+<ul>
+<li>Fixed a problem with the installation checklist where some specific parts about LifeTime were missing. (R11CT-2737)</li>
+<li>Fixed an issue that was causing password fields to be hidden while creating Local admin profile with any of Legacy provider set as Authentication mechanism (RDOI-450)</li>
+<li>Fixed an issue that was causing timeout during an environment synchronization process in LifeTime due to trash that was left behind in the database. 
+This occurred during the update of the applications security settings at the final steps of the environment synchronization process, where some records were not being properly deleted after the update was done. (RPM-2308) <span class="cattag">Application Lifecycle</span>  <span class="cattag">LifeTime</span> </li>
+</ul>
+
