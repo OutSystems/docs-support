@@ -57,9 +57,6 @@ OutSystems uses jQuery-ui-dialog version 1.8.24, that has a vulnerability known 
 
 All uses of the affected function were reviewed and fixed in PS [11.14.0](https://success.outsystems.com/support/release_notes/11/platform_server/#bug_fixing_platform_server_11.14.0). OutSystems properly encodes the input parameter. As such, OutSystems applications aren't vulnerable despite this vulnerability still being present in jquery-ui-dialog.
 
-Similar to the previous vulnerability, [CVE-2016-7103](https://nvd.nist.gov/vuln/detail/CVE-2016-7103) also indicates the risk of injecting unescaped content in closeText parameter of the dialog function.
-OutSystems does not use this parameter in its generated code, ensuring that the applications remain unexposed to this vulnerability.
-
 As for applications developed by the customer that make use of this library, you should ensure that you encode the input to the title() and dialog() functions correctly. Alternatively, you can import your own version of jquery-ui-dialog into a different namespace and use that version instead.
 
 #### jQuery-ui-tooltip flagged as a potentially vulnerable library
@@ -67,12 +64,6 @@ As for applications developed by the customer that make use of this library, you
 Some penetration testing tools may flag OutSystems as having a vulnerable jQuery-ui-tooltip library - [CVE-2012-6662](https://nvd.nist.gov/vuln/detail/cve-2012-6662). 
 
 OutSystems doesn't use jQuery-ui-tooltip widget. It's not present on our code.
-
-<div class="info" markdown="1">
-
-Currently, OutSystems supports jQuery v.1.8.3 and jQuery-UI v1.8.24 libraries. This is due to the fact that multiple applications rely on those library versions. Modifying it would most probably break the traditional web apps experience. On the other hand, most of the vulnerabilities associated with these libraries have been patched by OutSystems, and others are confirmed to be false positives. The fact that these library versions are associated with vulnerabilities doesn't mean that OutSystems is actually vulnerable and that there is a need to update them.
-
-</div>
 
 #### Javascript source map (.js.map files) flagged as being exposed by the server
 
