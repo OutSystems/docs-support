@@ -130,24 +130,21 @@ This version can run your apps on:
     </tbody>
 </table>
 
+<!-- 
 # Deprecated
+You can select the version in the configuration and build apps with it, but you get limited support. Limited support means that you get advice and workarounds through the support requests, but there are no bug fixes for the version. 
+-->
 
-You can select the version in the configuration and build apps with it, but you get limited support. Limited support means that you get advice and workarounds through the support requests, but there are no bug fixes for the version.
+# Obsolete
 
-<div class="warning" markdown="1" style="background-color:rgb(255 214 0 / 21%); border-color:rgb(255 214 0)">
+These versions are no longer available, and you cannot build apps with them. Support requests about an obsolete version are not answered.
+
+<div class="warning" markdown="1">
 
 ## **Version 8.1** - [See Release Notes](https://success.outsystems.com/Support/Release_Notes/Mobile_Apps_Build_Service_Versions/MABS_8_Release_notes#mabs-version-8.1)<br/>
 Released on April 6 2022 <br/>
 Deprecated on May 11 2023<br/>
-Obsolete on January 29th 2024
-
-</div>
-
-<div class="warning" markdown="1">
-
-It’s **MANDATORY** to upgrade all supported plugins to the latest version available on the Forge in order to use MABS 8. For more details, please check the **[release notes](https://success.outsystems.com/Support/Release_Notes/Mobile_Apps_Build_Service_Versions/MABS_8_Release_notes#mabs-version-8.0)**.
-
-</div>
+Obsolete on January 29th 2024</div>
 
 This version can run your apps on:
 
@@ -186,9 +183,7 @@ This version can run your apps on:
     </tbody>
 </table>
 
-# Obsolete
 
-These versions are no longer available, and you cannot build apps with them. Support requests about an obsolete version are not answered.
 
 <div class="warning" markdown="1">
 

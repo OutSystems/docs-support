@@ -8,28 +8,32 @@ platform-version: o11
 
 # MABS 8 Release notes
 
-<div class="info">
+<div class="info" markdown="1">
 
 Check the mobile stack details for each available MABS version in [Mobile Apps Build Service Versions](mabs-versions.md).
+
 </div>
 
-<div class="info">
+<div class="info" markdown="1">
 
 For common issues and solutions check also [Troubleshooting the Mobile Apps Generation](https://success.outsystems.com/Support/Enterprise_Customers/Troubleshooting/Troubleshooting_the_Mobile_Apps_Generation).
+
 </div>
 
 ## MABS Version 8.1
 
-<div class="info">
+<div class="info" markdown="1">
 
 **First release:** 2022-04-06 17:00:00 UTC<br />
 **Last update:** 2022-10-12 10:00:00 UTC.
+
 </div>
 
-<div class="warning">
+<div class="warning" markdown="1" style="background-color:rgb(255 214 0 / 21%); border-color:rgb(255 214 0)">
 
 If you are migrating from a previous Major version you should check the release notes, breaking changes, and system requirements from previous versions<br />
 See “[System requirements](#system-requirements) and [Breaking Changes](#breaking-changes-and-known-limitations)” in MABS 8.0 Release Notes
+
 </div>
 
 ### What's New
@@ -62,15 +66,16 @@ This minor version is focused on internal improvements, mainly around logging an
 
 ## MABS Version 8.0
 
-<div class="info">
+<div class="info" markdown="1">
 
 **First release:** 2021-10-11 17:00:00 UTC<br/>
 **Last update:** 2022-05-19 13:00:00 UTC
+
 </div>
 
 MABS 8.0 is an important milestone for all mobile developers who publish on App Store and Play Store. MABS 8 uses **iOS 15**, and **Android 12** with the **API level 31**. The stack lets you continue submitting your Android and iOS apps to the stores while taking advantage of the new features that new iOS and Android bring.
 
-<div class="warning">
+<div class="warning" markdown="1" style="background-color:rgb(255 214 0 / 21%); border-color:rgb(255 214 0)">
 
 **It’s MANDATORY to upgrade all supported plugins to the latest version available on the Forge in order to use MABS 8.0. For more details, please check the [System Requirements](#system-requirements) below.**
 
