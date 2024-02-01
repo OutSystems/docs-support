@@ -8,9 +8,10 @@ platform-version: o11
 figma: https://www.figma.com/file/cPLNnZfDOZ1NX3avcjmq3g/Enterprise%20Customers?node-id=304:0
 ---
 
+
 # Access the database of your OutSystems Cloud
 
-This topic details how you request direct access to the OutSystems Cloud databases of your subscription.
+This topic details how you request direct access to the OutSystems Cloud databases of your subscription using OutSystems 11.
 
 <div class="info" markdown="1">
 
