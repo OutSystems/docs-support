@@ -16,8 +16,6 @@ The recommended format to share a project in Forge is using an **OutSystems Appl
 
 OutSystems Application Packages (.oap) are fully functional applications or assets. They have automatic installation and dependency management capabilities that provide the best possible experience for others in the community.
 
-If you want to share a simple asset or snippet that's not ready to run on its own (for example, a how-to, a coding pattern, or a small widget), share a single **OutSystems Module** (.oml). A module allows other users to easily open and inspect its content for reuse.
-
 ## How do I export an OutSystems Application Package for sharing? { #export-oap }
 
 In Service Studio, on the main Development tab where the list of applications appears, click the application you want to open. On the application page where the modules appear, click **Download**.
@@ -50,7 +48,7 @@ Once your asset is ready, follow the steps below to upload it to Forge.
 
 1. [Download the application package (.oap)](#export-oap) for your asset. 
 
-    If you're sharing an asset that's not ready to run on its own, you can opt to [download the module (.oml)](#export-oml) only. Otherwise, the [recommended format](#formats) is an application package (.oap). If the file is too big, consider compressing any used image files or resources. The maximum file size you can upload to Forge is 256MB.
+The [recommended format](#formats) for sharing is an application package (.oap). If the file is too big, consider compressing any used image files or resources. The maximum file size you can upload to Forge is 256MB.
 
 1. [Download the application package (.oap)](#export-oap) of the [demo application](https://success.outsystems.com/Documentation/Best_Practices/Development/Forge_components_best_practices#demo). 
 
