@@ -21,7 +21,7 @@ Detaching from OutSystems means you'll no longer be running on OutSystems Cloud.
 1. **Preparing to start detaching from OutSystems Cloud**
     
     OutSystems will need to enable you to start detaching and install the additional self-managed environment. This requires changes to the license of your OutSystems Cloud environments.
-    Reach out to your account executive or account manager letting them know you're starting your detach process so he can proceed internally.
+    Reach out to your account executive or account manager letting them know you're starting your detach process so they can proceed internally.
 
 1. **Move your OutSystems Cloud production environment to a self-managed environment**
     
