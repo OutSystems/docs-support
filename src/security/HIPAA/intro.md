@@ -34,7 +34,7 @@ Medical records and other personal health information that both:
 
 HIPAA considers such personally identifiable information protected if it's possessed by a covered entity or business associate. 
 
-The US Department of Health and Human Services (HHS) issued the HIPAA Privacy Rule to implement the requirements of HIPAA. The HIPAA Security Rule protects a subset of information covered by the Privacy Rule. More information is available [here](http://www.cdc.gov/privacyrule/privacy-HIPAAfacts.htm). 
+The US Department of Health and Human Services (HHS) issued the HIPAA Privacy Rule to implement the requirements of HIPAA. The HIPAA Security Rule protects a subset of information covered by the Privacy Rule. More information is available [here](https://www.hhs.gov/hipaa/for-professionals/security/laws-regulations/index.html#:~:text=The%20Security%20Rule%20protects%20a,%22%20(e%2DPHI).). 
 
 
 ### What do I have to do to be HIPAA compliant? 
