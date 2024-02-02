@@ -62,11 +62,11 @@ In the future, OutSystems may, at its own discretion, drop support for other dat
 
 3\. <a id="bc-11240-3"></a>
 
-**Issue**: An upgrade was made in the Excel file processing that is used in OutSystems 11. Now, it is not possible to use the Strict Open XML format.
+**Issue**: It is not possible to bootstrap data from an excel file saved with the Strict Open XML format.
 
 **Runtime**: Traditional web, Reactive web, Mobile
 
-**Rationale**: The Strict Open XML format is not supported by OutSystems and is longer an option.
+**Rationale**: An upgrade was made in the Excel file processing that is used in OutSystems 11. Now, it is not possible to use the Strict Open XML format.
 
 **Fix**: Save the file using the **Excel Workbook** option.
 
