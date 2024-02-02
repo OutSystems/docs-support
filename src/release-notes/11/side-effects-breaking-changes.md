@@ -46,7 +46,7 @@ In the future, OutSystems may, at its own discretion, drop support for other dat
 
 **Runtime**: Traditional web, Reactive web, Mobile
 
-**Rationale**: Outsystems 11 is now using the GemBox.Spreadsheet 45.0.0.1094. This version comes with some breaking changes when compared to the version previously used. 
+**Rationale**: An upgrade was made in the Excel file processing used in OutSystems 11. This upgrade comes with some breaking changes when compared to the version previously used.
 
 **Fix**: Change the Excel files content so that it is compliant with the breaking changes.
 
@@ -60,6 +60,15 @@ In the future, OutSystems may, at its own discretion, drop support for other dat
 
 **Fix**: Install SAP Connector for Microsoft.NET 3.1.x for Windows 64bit, as explained in the Platform installation checklist. This new version depends on Microsoft C++ Runtime DLLs version 14.x, which Microsoft still supports.
 
+3\. <a id="bc-11240-3"></a>
+
+**Issue**: An upgrade was made in the Excel file processing that is used in OutSystems 11. Now, it is not possible to use the Strict Open XML format.
+
+**Runtime**: Traditional web, Reactive web, Mobile
+
+**Rationale**: The Strict Open XML format is not supported by OutSystems and is longer an option.
+
+**Fix**: Save the file using the **Excel Workbook** option.
 
 ### Introduced in Platform Server 11.21.0 { #bc-11210-1 }
 
