@@ -23,3 +23,5 @@ This applies to the free offering of personal environments only.
 
 </div>
 
+### Related articles
+[What is an OutSystems Personal Environment](../../licensing/whats-a-personal.md)
