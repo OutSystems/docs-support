@@ -37,6 +37,14 @@ An Application Object (AO) is a measurement of the complexity of your applicatio
 
 ## Details on AO counting for Entities/Database tables
 
+* Entities you create within OutSystems (both normal [entities](https://success.outsystems.com/Documentation/11/Developing_an_Application/Use_Data/Data_Modeling/Entities) and [static entities](https://success.outsystems.com/Documentation/11/Developing_an_Application/Use_Data/Data_Modeling/Static_Entities)) each count as 1 AO.
+* Entities you import from external databases (for example, a table or a view) for use in your app each count as 1 AO.
+* Entities using local storage, such as for use with mobile apps, each count as 1 AO.
+* Static entities included in a library each count as 1 AO.
+* Tables created by the OutSystems platform, such as the Users table where end user information is stored, don't contribute to the AO count.
+
+## Details on AO counting for Events
+
 * Each Event you configure within OutSystems Developer Cloud counts as 1 AO.
 * Events in OutSystems 11 function differently, and do not contribute to the AO count.
 
