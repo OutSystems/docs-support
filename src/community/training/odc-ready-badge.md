@@ -4,7 +4,7 @@ locale: en-us
 guid: A5609AFB-59B0-4364-9B97-58E9EFCD2CDE
 tags: 
 app_type: traditional web apps, mobile apps, reactive web apps
-platform-version: o11
+platform-version: o11, odc
 figma:
 ---
 
