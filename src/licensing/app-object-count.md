@@ -59,14 +59,8 @@ An Application Object (AO) is a measurement of the complexity of your applicatio
 
 ## AO limits
 
-OutSystems subscriptions typically include rights to run applications up to a specified number of AOs, with options for upgrading AO capacity that vary by subscription. With OutSystems 11, you can review your AO limits within the Customer Portal and you can see the current AO usage displayed for each runtime environment within Service Center. With OutSystems Developer Cloud, you can review these within the Subscription section of the ODC Portal.
+Your OutSystems subscriptions typically include rights to run applications up to a specific number of AOs, and you can license additional AO capacity when needed. With OutSystems 11, you can review your licensed AO capacity within the Customer Portal and you can see the current AO usage displayed for each runtime environment within Service Center. With OutSystems Developer Cloud, you can review these within the Subscription section of the ODC Portal.
 
-AO limits only apply to production runtimes. Development and non-production/QA runtimes allow unlimited AOs, but cannot be used for running apps for production use.
+The AO capacity you license only applies to production runtimes. Development and non-production/QA runtimes allow unlimited AOs, but cannot be used for running apps for production use. 
 
-### Subscriptions with one production runtime
-
-For subscriptions with one production runtime, you're entitled to run up to the AO limit shown within each runtime, which is the AO capacity licensed on your subscription. When you need to exceed this, you need to upgrade to remain in compliance with the license terms. Please contact your OutSystems sales representative for assistance. 
-
-### Subscriptions with multiple production runtimes
-
-For subscriptions with multiple production runtimes, the AO limit shown represents the total AO capacity licensed on your subscription. You're entitled to run up to this total number of AOs across all production runtimes, so you'll sum the AO usage from each production runtime to determine your total production AO usage. Please contact your OutSystems sales representative for assistance upgrading your AO capacity when needed.
+If you have one production runtime, you're entitled to run up to the AO capacity licensed on your subscription within that one production runtime. If you have multiple production runtimes, you're entitled to run up to this total number of AOs across all production runtimes, so you'll sum the AO usage from each production runtime to determine your total production AO usage. Please contact your OutSystems sales representative for assistance upgrading your AO capacity when needed.
