@@ -1,12 +1,11 @@
 ---
-summary: OutSystems Personal Environment is the free, cloud-based version of OutSystems. Check these FAQ to learn more.
+summary: An OutSystems Personal Environment is a free cloud-based platform for individuals to create, deploy, and run personal applications with certain limitations and no SLAs.
 locale: en-us
 guid: f88eb567-39c5-430b-ad00-64cead6e9fd0
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
 figma:
 ---
-
 # What is an OutSystems Personal Environment
 
 The Personal Environment (PE) is the **free, cloud-based version** of OutSystems. It allows you to create, deploy, and run your personal applications.
@@ -76,6 +75,8 @@ Detaching the source code of your applications is only available for subscriptio
 * **Shared resources:** Your Personal Environment lives in a shared cloud infrastructure where resources, such as memory and CPU are shared among several environments. This means that the performance of your applications will suffer if you exceed 100 concurrent end-users.
 
 * **Limited version history:** By default, a new version of your application module is saved every time you publish. Module versions that are older than one week are automatically deleted.
+
+* **Logs are regularly cleaned:** [Log rotation](https://success.outsystems.com/documentation/11/managing_the_applications_lifecycle/monitor_and_troubleshoot/logging_database_and_architecture/the_log_tables_and_views/#the-rotation-of-the-logs) is shorter, expect logs to be available only for a short period of time.
 
 * **No backup and restore available:** Database backups are only available for subscription licenses. It won't be possible to restore any deleted data.
 
