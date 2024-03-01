@@ -10,16 +10,16 @@ app_type: traditional web apps, mobile apps, reactive web apps
 
 ## Error message
 
-`There was a connection error while reaching the destination APM tool. If the problem persists, contact OutSystems Support.`
+`There was an internal or gateway communication error reported by the destination APM tool. If the problem persists, contact OutSystems Support.`
 
 ## Cause
 
-A connection error occurred while connecting to the APM tool server.
+An internal or gateway communication error occurred while connecting to the APM tool server.
 
 ## Impact
 
-Unable to establish a connection with the destination server since the server is unreachable or has encountered unexpected conditions. Therefore, logs are not streamed to the destination/APM tool.
+Unable to connect to the destination server due to internal or gateway communication error. Therefore, logs are not streamed to the APM tool.
 
 ## Recommended action
 
-The destination server has responded with an **HTTP 502** error. Therefore, check if the APM tool works correctly and re-establish the connection.  
+The destination server has responded with an **HTTP 502** error. Therefore, check if the APM tool works correctly and re-establish the connection.
