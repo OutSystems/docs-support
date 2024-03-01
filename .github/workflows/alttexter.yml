@@ -43,6 +43,6 @@ jobs:
           TOOLS_PAT: ${{ secrets.TOOLS_PAT }}
           ALTTEXTER_GITHUB_TOKEN_OVERRIDE: ${{ vars.ALTTEXTER_GITHUB_TOKEN_OVERRIDE }}
           ALTTEXTER_GITHUB_USERNAME: ${{ vars.ALTTEXTER_GITHUB_USERNAME }}
-          ALTTEXTER_SILENTMODE: ${{ vars.SILENTMODE }}
+          ALTTEXTER_SILENTMODE: ${{ vars.ALTTEXTER_SILENTMODE }}
           ALTTEXTER_GITHUB_EMAIL: ${{ vars.ALTTEXTER_GITHUB_EMAIL }}
         run: python /app/alttexter-ghclient.py
