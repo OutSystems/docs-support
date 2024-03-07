@@ -15,6 +15,7 @@ pageprivacy: public
 <h3 id="bug_fixing_platform_server_11.26.0" >Bug Fixing</h3>
 <ul>
 <li>Fixed troubleshooting traces of Configuration Tool to have better details of failed requests during ServiceCenter initialization, System Components publish and Upgrade Environment steps (R11BRT-799)</li>
+<li>Fixed System Components installation in Configuration Tool where the process would fail with either “HTTP NotFound” or “An error occurred while sending the request” messages. This fix only covers installation architectures without dedicated Deployment Controller machines, the issues can still occur on those on situations. (R11BRT-821)</li>
 <li>Fixed an issue that caused an Internal Error “Invalid compiler output. Parent not found for a iteration variable.“ when publishing a module where a “ForEach” node was used inside a System Client Action. (R11DT-2281)</li>
 <li>Fixed a misbehavior that caused OnApplicationReady to be triggered twice when opening mobile applications with a Splash screen. (R11DT-2287)</li>
 <li>Fixed an issue that prevented users with CSP settings enabled to use AppFeedback in their Reactive Applications. The issue occurred because a JavaScript used by AppFeedback was being obtained from an outside source, which was blocked when CSP settings are turned on. (RPM-1855) <span class="cattag">Application Lifecycle</span>  <span class="cattag">App Feedback Backoffice / ECT</span> </li>
@@ -25,6 +26,5 @@ pageprivacy: public
 <li>Removed X-WebKit-CSP and X-Content-Security-Policy headers from Reactive and Mobile apps, leaving only the Content-Security-Policy header. (RPM-4241) <span class="cattag">Application Runtime</span> </li>
 <li>Introduced an option to disable time zone shifts for Null Dates in Mobile/Reactive. Client-side date and time variables rely on the device time zone. If it changes from UTC to UTC-1, Null Dates shift from '1900-01-01 00:00:00' to '1899-12-31 23:00:00'. This option can be turned off on Factory Configuration to ensure a Null Date is always '1900-01-01 00:00:00'. (RPM-4484) <span class="cattag">Application Runtime</span>  <span class="cattag">Logic Execution</span> </li>
 <li>Fixed an issue that caused the error "System.MissingMethodException: Method Not Found" at login in detached applications that use SAML authentication. (RPM-4536) <span class="cattag">Application Runtime</span>  <span class="cattag">Application Detach</span> </li>
-<li>Fixed an issue that prevented AppFeedback from functioning in Traditional Web modules that have a different user provider than Users. Now, any module can submit feedback through AppFeedback independently of the user provider used. This applies only to Traditional Web apps. (RPM-748) <span class="cattag">Application Lifecycle</span>  <span class="cattag">App Feedback Backoffice / ECT</span> </li>
 </ul>
 
