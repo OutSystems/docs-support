@@ -1,5 +1,5 @@
 ---
-summary: Learn about how OutSystems is PCI compliant with Sentry
+summary: Learn about how OutSystems 11 is PCI compliant with Sentry
 tags:
 locale: en-us
 guid: 1fcf38a0-15c1-486a-b022-a9d21dea89b6
@@ -8,11 +8,11 @@ platform-version: o11
 figma:
 ---
 
-# PCI compliance with OutSystems Sentry
+# PCI compliance with OutSystems 11 Sentry
 
 The PCI (Payment Card Industry) Security Standards Council aims to help secure payments worldwide. This council is also responsible for ensuring that organizations meet the requirements through validation and certification.
 
-The Sentry edition of the OutSystems Cloud shares all the features and benefits of the OutSystems platform with additional layers of compliance. OutSystems Sentry is compliant with PCI DSS SAQ D service provider standards.
+The Sentry edition of the OutSystems 11 Cloud shares all the features and benefits of the OutSystems platform with additional layers of compliance. OutSystems 11 Sentry is compliant with PCI DSS SAQ D service provider standards.
 
 To comply with the PCI eData Security Standard (DSS), those companies processing credit card data must ensure that cardholder data is safe.
 
@@ -30,10 +30,12 @@ If you need more control over the payment process, you can use tokenization, whe
 
 You should always ensure that no payment card information is ever stored or processed in OutSystems applications. For more details on the supported integration options, refer to your PCI DSS-certified processor.
 
-When developing apps in OutSystems that require PCI compliance, it’s imperative that you strictly adhere to a few security rules and regulations. You can easily do so with OutSystems Sentry by following these instructions:
+When developing apps in OutSystems 11 that require PCI compliance, it’s imperative that you strictly adhere to a few security rules and regulations. You can easily do so with OutSystems 11 Sentry by following these instructions:
 
-* **HSTS** (HTTP Strict Transport Security) is implemented in OutSystems by default to protect websites. If you decide to turn it off, your app is no longer compliant. For more information, see the [Enforce HTTPS Security](https://success.outsystems.com/documentation/11/managing_the_applications_lifecycle/secure_the_applications/enforce_https_security/) document.
+* **HSTS** (HTTP Strict Transport Security) is implemented in OutSystems by default to protect websites. If you decide to turn it off, your app is no longer compliant. For more information, see the [Enforce HTTPS Security](https://www.outsystems.com/tk/redirect?g=a152ecbb-2419-489f-87c5-000918d502f0) document.
+
+* **Enable protections for host header injection**: Host header injection is a vulnerability where attackers manipulate the host header in HTTP requests to deceive servers into handling requests as if they were destined for another domain. [In LifeTime, secure endpoints can be configured](https://www.outsystems.com/tk/redirect?g=6c1dcebe-0c55-4fb3-b94b-21d162a23053) to prevent requests from unintended sources. 
   
-* **CSP** (Content Security Policy) isn't turned on by default. This provides another level of security that helps detect certain types of attacks. With CSP, you define rules that help protect your users and apps from web attacks. For more information, see the [Apply Content Security Policy](https://success.outsystems.com/documentation/11/managing_the_applications_lifecycle/secure_the_applications/apply_content_security_policy/) document.
+* **CSP** (Content Security Policy) isn't turned on by default. This provides another level of security that helps detect certain types of attacks. With CSP, you define rules that help protect your users and apps from web attacks. For more information, see the [Apply Content Security Policy](https://www.outsystems.com/tk/redirect?g=e59d9233-7c2d-43ae-b8a2-f55d75263c68) document.
 
 If you complete all these steps, you are ready for the PCI DSS SAQ attestation of compliance. You can achieve attestation using the services of a PCI Qualified Security Assessor.

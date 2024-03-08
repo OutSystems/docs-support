@@ -48,6 +48,8 @@ Architects, operators, or administrators can use OutSystems mechanisms to define
 
 You can also use content security policies to prevent application pages from being embedded in frames and thus prevent clickJacking attacks.
 
+In the OutSystems Cloud, host header injection can be prevented with [secure endpoints configuration](https://www.outsystems.com/tk/redirect?g=6c1dcebe-0c55-4fb3-b94b-21d162a23053). For self-managed, an approach that reaches the same results can be implemented. As there are several possible implementations for self-managed, you should advise with your infrastructure admin on the best solution.
+
 See also [Protecting OutSystems apps from code injection / Cross Site Scripting attacks](../develop-secure-apps/code-injection-css-attacks.md).
 
 ### Insecure Design (A4)
