@@ -133,6 +133,7 @@
         - href: troubleshooting/application-runtime/viewport-fit-issue.md
         - href: troubleshooting/application-runtime/timeouts-under-hood.md
         - href: troubleshooting/application-runtime/no-trust-relationship-ssltls.md
+        - href: troubleshooting/application-runtime/host-header-no-match.md
         - href: troubleshooting/application-runtime/dst-change-bpt-not-processed.md
         - href: troubleshooting/application-runtime/error-accessing-app-windows-token.md
         - href: troubleshooting/application-runtime/unexpected-link-app-error.md
