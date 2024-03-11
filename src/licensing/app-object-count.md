@@ -11,7 +11,7 @@ figma:
 
 # Application Objects
 
-An Application Object (AO) is a measurement of the complexity of your applications on the OutSystems platform. Each **screen**, **entity/database table**, **API method**, and custom-defined [**Event**](https://www.outsystems.com/tk/redirect?g=54254c98-5a1e-42c3-a280-fa2aae5c5abe) in your apps count as 1 AO. AOs are counted the same in OutSystems 11 and OutSystems Developer Cloud, except where noted below.
+An Application Object (AO) is a measurement of the complexity of your applications on the OutSystems platform. Each **screen**, **entity/database table**, **API method**, and custom-defined **Event** in your apps count as 1 AO. AOs are counted the same in OutSystems 11 and OutSystems Developer Cloud, except where noted below.
 
 ## Details on AO counting for Screens
 * Web screens, email screens, and mobile web screens each count as 1 AO. 
@@ -30,14 +30,14 @@ An Application Object (AO) is a measurement of the complexity of your applicatio
 
 ## Details on AO counting for API methods
 
-* Each API method you *create* ([REST](https://success.outsystems.com/Documentation/11/Extensibility_and_Integration/REST/Expose_REST_APIs) or [SOAP Web Service](https://success.outsystems.com/Documentation/11/Extensibility_and_Integration/SOAP/Exposing_SOAP_Web_Services/Expose_a_SOAP_Web_Service)) counts as 1 AO. 
+* Each API method you *create* ([REST](https://success.outsystems.com/Documentation/11/Extensibility_and_Integration/REST/Expose_REST_APIs) or [SOAP Web Service](https://success.outsystems.com/Documentation/11/Extensibility_and_Integration/SOAP/Exposing_SOAP_Web_Services/Expose_a_SOAP_Web_Service) counts as 1 AO. 
 * Each API method you *consume* ([REST](https://success.outsystems.com/Documentation/11/Extensibility_and_Integration/REST/Consume_REST_APIs), [SOAP Web Service](https://success.outsystems.com/Documentation/11/Extensibility_and_Integration/SOAP/Consuming_SOAP_Web_Services), SAP BAPI, etc.) within each app counts as 1 AO.
 * API methods included in a library each count as 1 AO.
 * APIs that are within a C#-based extension don't contribute to the AO count.
 
 ## Details on AO counting for Entities/Database tables
 
-* Entities you create within OutSystems (both normal [entities](https://success.outsystems.com/Documentation/11/Developing_an_Application/Use_Data/Data_Modeling/Entities) and [static entities](https://success.outsystems.com/Documentation/11/Developing_an_Application/Use_Data/Data_Modeling/Static_Entities)) each count as 1 AO.
+* Entities you create within OutSystems (both normal [entities](https://success.outsystems.com/Documentation/11/Developing_an_Application/Use_Data/Data_Modeling/Entities) and [static entities](https://success.outsystems.com/Documentation/11/Developing_an_Application/Use_Data/Data_Modeling/Static_Entities) each count as 1 AO.
 * Entities you import from external databases (for example, a table or a view) for use in your app each count as 1 AO.
 * Entities using local storage, such as for use with mobile apps, each count as 1 AO.
 * Static entities included in a library each count as 1 AO.
