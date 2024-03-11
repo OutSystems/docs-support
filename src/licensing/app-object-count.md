@@ -45,7 +45,7 @@ An Application Object (AO) is a measurement of the complexity of your applicatio
 
 ## Details on AO counting for Events
 
-* Each [custom Event]((https://www.outsystems.com/tk/redirect?g=54254c98-5a1e-42c3-a280-fa2aae5c5abe) you create within OutSystems Developer Cloud counts as 1 AO.
+* Each [custom-defined Event]((https://www.outsystems.com/tk/redirect?g=54254c98-5a1e-42c3-a280-fa2aae5c5abe) you create within OutSystems Developer Cloud counts as 1 AO.
 * Events in OutSystems 11 function differently, and do not contribute to the AO count.
 
 ## Other scenarios relating to AO counting
