@@ -1,12 +1,11 @@
 ---
-summary: OutSystems Personal Environment is the free, cloud-based version of OutSystems. Check these FAQ to learn more.
+summary: An OutSystems Personal Environment is a free cloud-based platform for individuals to create, deploy, and run personal applications with certain limitations and no SLAs.
 locale: en-us
 guid: f88eb567-39c5-430b-ad00-64cead6e9fd0
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
 figma:
 ---
-
 # What is an OutSystems Personal Environment
 
 The Personal Environment (PE) is the **free, cloud-based version** of OutSystems. It allows you to create, deploy, and run your personal applications.
@@ -77,6 +76,8 @@ Detaching the source code of your applications is only available for subscriptio
 
 * **Limited version history:** By default, a new version of your application module is saved every time you publish. Module versions that are older than one week are automatically deleted.
 
+* **Logs are regularly cleaned:** [Log rotation](https://success.outsystems.com/documentation/11/managing_the_applications_lifecycle/monitor_and_troubleshoot/logging_database_and_architecture/the_log_tables_and_views/#the-rotation-of-the-logs) is shorter, expect logs to be available only for a short period of time.
+
 * **No backup and restore available:** Database backups are only available for subscription licenses. It won't be possible to restore any deleted data.
 
 * **No custom domain:** Your applications live in the `outsystemscloud.com` domain.
@@ -88,6 +89,10 @@ Detaching the source code of your applications is only available for subscriptio
 * **No external authentication support:** OutSystems doesn't support external authentication providers in Personal Environments that rely on certificates such as Azure AD, Okta, or SAML 2.0. For more information about this limitation, refer to the [known issues](../enterprise/troubleshooting/saml-unable-create-signature.md).
 
 * **SaaS components:** OutSystems provides SaaS components such as, for example, [AI Mentor Studio](https://success.outsystems.com/Documentation/11/Managing_the_Applications_Lifecycle/Manage_technical_debt/), [Workflow Builder](https://success.outsystems.com/Documentation/Workflow_Builder) or [Experience Builder](https://success.outsystems.com/Documentation/Experience_Builder). These components may not be available for Personal Environments, at OutSystems discretion. Make sure to check the requirements in each component's documentation.
+
+## Can I upgrade my personal environment (or cancel an upgrade on it)?
+
+For more information about this topic, refer to our documentation [Upgrade a personal environment to the latest version](https://success.outsystems.com/support/troubleshooting/infrastructure_management/upgrade_a_personal_environment_to_the_latest_version/).
 
 ## Additional information
 

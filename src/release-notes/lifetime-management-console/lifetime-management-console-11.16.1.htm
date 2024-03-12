@@ -14,10 +14,9 @@ pageprivacy: public
 </ul>
 <h3 id="bug_fixing_lifetime_management_console_11.16.1" >Bug Fixing</h3>
 <ul>
+<li>Fixed an issue that was causing default value for username claim to override saved value when activating OIDC provider (RDOI-198)</li>
+<li>Fixed an issue that prevented activating the external authentication providers for IT users (AD Auth Provider and LDAP Auth Provider) when the Built-in authentication is active.  (RDOI-199)</li>
 <li>Fixed a solution publish operation issue where more than one publish request was triggered to the target environment when a timeout occurred in the publish process. (RPM-1525) <span class="cattag">Application Lifecycle</span>  <span class="cattag">LifeTime</span> </li>
-<li>Fixed an issue that caused the suspension of the synchronization process of the environments which would lead to problems when executing subsequent operations such as deployments, and setting configurations, among others. 
-This occurred in infrastructures with multiple applications that weren't deployed in every environment. The suspension was due to too many requests inside the process.
-The issue was fixed in an internal query that will avoid the excessive number of requests that led to the suspension. (RPM-2117) <span class="cattag">Application Lifecycle</span>  <span class="cattag">LifeTime</span> </li>
 <li>Fixed an issue which prevented a user with 'Change and Deploy' permissions over an environment to access the 'Settings' link in the Application_Details of an application from that environment. (RPM-2210) <span class="cattag">Application Lifecycle</span>  <span class="cattag">LifeTime</span> </li>
 <li>Fixed an issued that caused MoveData_RequestFact stored procedure to fail on Oracle.
 This occurred when old LifeTimeAnalytics tables don't exist, the process was related to an old data migration process that is now removed. (RPM-2869) <span class="cattag">Application Lifecycle</span>  <span class="cattag">LifeTime</span> </li>

@@ -1,4 +1,4 @@
-# Support 
+# Support
 # Release notes
 - href: release-notes/intro.md
 - topics:
@@ -133,6 +133,7 @@
         - href: troubleshooting/application-runtime/viewport-fit-issue.md
         - href: troubleshooting/application-runtime/timeouts-under-hood.md
         - href: troubleshooting/application-runtime/no-trust-relationship-ssltls.md
+        - href: troubleshooting/application-runtime/host-header-no-match.md
         - href: troubleshooting/application-runtime/dst-change-bpt-not-processed.md
         - href: troubleshooting/application-runtime/error-accessing-app-windows-token.md
         - href: troubleshooting/application-runtime/unexpected-link-app-error.md
@@ -189,6 +190,9 @@
             - href: troubleshooting/incident-models/o11/im-1748.md
             - href: troubleshooting/incident-models/o11/im-1851.md
             - href: troubleshooting/incident-models/o11/im-1607.md
+            - href: troubleshooting/incident-models/o11/im-2647.md
+            - href: troubleshooting/incident-models/o11/im-2616.md
+            - href: troubleshooting/incident-models/o11/im-2714.md
             # End O11 IMs
         #- href: troubleshooting/incident-models/o11/im-odc.md
         #- topics:
@@ -224,6 +228,7 @@
     # Vulnerabilities
     - href: security/vulnerabilities/intro.md
     - topics:
+        - href: security/vulnerabilities/vulnerability-RRCT-5465.md
         - href: security/vulnerabilities/vulnerability-RPM-3056.md
         - href: security/vulnerabilities/vulnerability-RPM-3055.md
         - href: security/vulnerabilities/vulnerability-RPM-1054.md
@@ -353,6 +358,8 @@
         - href: error/mabs/mabs-cnf-40004.md
         - href: error/mabs/mabs-cnf-40005.md
         - href: error/mabs/mabs-cnf-40006.md
+        - href: error/mabs/mabs-cnf-40011.md
+        - href: error/mabs/mabs-cnf-40012.md
         - href: error/mabs/mabs-cnf-50000.md
         - href: error/mabs/mabs-shld-40001.md
         - href: error/mabs/mabs-shld-40002.md

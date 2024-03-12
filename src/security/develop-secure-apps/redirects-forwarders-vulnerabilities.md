@@ -1,7 +1,5 @@
 ---
-summary: Learn how to prevent attackers from exploiting your OutSystems app URL redirects and send users to untrusted sites. Please note we recently replaced the term whitelist with allowlist across all OutSystems documentation.
-tags: protecting-outsystems-applications; outsystems-security; outsystems-secure-applications; outsystems-redirects-forwarders-vulnerabilities;
-en_title: 06 Protecting OutSystems apps from redirects forwarders vulnerabilities
+summary: Learn how to prevent attackers from exploiting your OutSystems app URL redirects and send users to untrusted sites. 
 locale: en-us
 guid: ecef005d-3f09-4ecd-a562-ae4523285363
 app_type: traditional web apps, mobile apps, reactive web apps

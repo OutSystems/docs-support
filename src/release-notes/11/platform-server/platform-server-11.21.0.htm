@@ -3,7 +3,7 @@ isautopublish: true
 pageprivacy: public
 ---
 
-<h2 id="platform_server_11.21.0" >Platform Server 11.21.0</h2> 
+<h2 id="platform_server_11.21.0" >Platform Server 11.21.0</h2>
 <div class="info"><p>Released on May 22, 2023</p></div>
 
 
@@ -33,6 +33,7 @@ Now the search for each page is independent and the Group Members filter will wo
 <li>Fixed an issue that caused processes attached to schedulers to break when renaming a module.
 This occurred in between the two stages of a two stage deploy of a solution containing that renamed module.
 Now the processes no longer break in such situations. (RPM-2691) <span class="cattag">Application Runtime</span>  <span class="cattag">Processes</span> </li>
+<li>Added a database progressive timeout lock mechanism to minimize scenarios where solution publications get stuck for long periods while executing database scripts during the deployment phase, which causes downtime of the applications during that time. (RPM-3278) <span class="cattag">Publish Operation</span>  <span class="cattag">Deployment stage</span> </li>
 <li>Modules can now be published in Multiple Database Catalogs using a custom user login when the modules reference Static Entities in Libraries. (RPM-3550) <span class="cattag">Publish Operation</span> </li>
 <li>Fixed an issue that caused compilation errors in modules where consumed methods of REST/SOAP/SAP integrations have default values set to be translated. Now, those values are no longer translated. This represents a breaking change, check more details <a href="https://success.outsystems.com/support/release_notes/11/outsystems_11_side_effects_and_breaking_changes/#bc-11210-1">here</a>. (RPM-3644) <span class="cattag">Publish Operation</span>  <span class="cattag">Compilation</span> </li>
 <li>Compiler is now able to resolve renaming of events of a producer's WebBlock while publishing a consumer without refreshing its references. (RPM-3684) <span class="cattag">Publish Operation</span>  <span class="cattag">Compilation</span> </li>

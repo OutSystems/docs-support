@@ -1,20 +1,17 @@
 ---
-summary:
-tags: 
+summary: The article provides a guide on how to obtain and enhance Service Studio logs for troubleshooting in OutSystems.
+tags:
 locale: en-us
 guid: f8cdaea8-0cdd-4466-830e-8bcf9d4ac8e7
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
 figma: https://www.figma.com/file/6tXLupLiqfG9FOElATTGQU/Troubleshooting?node-id=3327:534
 ---
-
 # Service Studio logs
 
 ## Service Studio report
 
-
 When an unexpected error occurs in Service Studio, you'll get an **Unexpected Error** window. In this window, you can obtain the error report to send to OutSystems Support.
-
 
 To get the Service Studio report, follow these steps:
 
@@ -30,11 +27,21 @@ To get the Service Studio report, follow these steps:
 
 1. Click **Continue** to close the window. In OutSystems 10, use the link **Cancel**.
 
+To troubleshoot a Service Studio behavior that doesn't generate errors, collect the diagnostics report:
+
+1. Open Service Studio.
+1. Replicate the behavior that needs to be investigated.
+1. Click on **Help**.
+1. Click on **Give Us Feedback**.
+1. Navigate to **View diagnostics report**.
+
+    ![Screenshot of the Service Studio menu with the 'Give Us Feedback' option highlighted and the 'View diagnostics report' link visible.](images/view-diagnostics-report.png "Navigating to Service Studio Diagnostics Report")
+
+For more information on how to get the "general.txt" containing the diagnostics report information, refer to step six of the section [Service Studio cross-platform 11.14.16 and older versions](#service-studio-cross-platform-111416-and-older-versions).
 
 ## Enhanced logging in Service Studio
 
-You may benefit from enhanced logging in Service Studio if the **Diagnostics Report** obtained in the previous section does not contain enough information. 
-
+You may benefit from enhanced logging in Service Studio if the **Diagnostics Report** obtained in the previous section does not contain enough information.
 
 ### Service Studio cross-platform versions 11.50.x and above
 
@@ -91,9 +98,7 @@ Example: `<SystemDiagnosticsListenerFile>C:\Windows\Temp\ss_logs.txt</SystemDiag
 * UIEditorPerformance
 * Undo
 
-
 </details>
-
 
 ### Service Studio cross-platform 11.14.16 and older versions
 
@@ -101,19 +106,19 @@ To enable the enhanced logging on older Service Studio versions, ensure the foll
 
 1. Ensure that Service Studio is closed **before** editing the following file. Also make sure that no character is manipulated besides the indicated section. Note that even changing a letter to caps may make Service Studio fail to launch.
 
-2. Edit the file `ServiceStudio.exe.config` located inside the installation folder of the Development Environment. 
+1. Edit the file `ServiceStudio.exe.config` located inside the installation folder of the Development Environment.
 Example: `C:\Program Files\OutSystems\Development Environment X.X\Service Studio`
 
-3. Search for the section **switches** and uncomment all the lines that correspond to switches. To achieve this, you can delete the characters `<!--` that are in the beginning of each line and the characters `-->` at the end of the line.
+1. Search for the section **switches** and uncomment all the lines that correspond to switches. To achieve this, you can delete the characters `<!--` that are in the beginning of each line and the characters `-->` at the end of the line.
 
-4. Alternatively, if you use Notepad++, you can select all the relevant lines and click **Edit** >  **Comment/Uncomment** > **Toggle Single Line Comment**. You can also use the shortcut keys `Ctrl+Q`. 
+1. Alternatively, if you use Notepad++, you can select all the relevant lines and click **Edit** >  **Comment/Uncomment** > **Toggle Single Line Comment**. You can also use the shortcut keys `Ctrl+Q`.
 The section should then look like this.
 
-![](images/service-studio-logs-ss.png)
+![Screenshot of the Service Studio configuration file with the switches section for enabling enhanced logging.](images/service-studio-logs-ss.png "Service Studio Config File for Enhanced Logging")
 
-5. To generate the logs, Service Studio must be launched as an Administrator.
+1. To generate the logs, Service Studio must be launched as an Administrator.
 
-6. The logs will be written to a file named `general.txt`, located in the same folder of the `ServiceStudio.exe.config` file. 
+1. The logs will be written to a file named `general.txt`, located in the same folder of the `ServiceStudio.exe.config` file. 
 Example: `C:\Program Files\OutSystems\Development Environment X.X\Service Studio`
 
 <div class="info" markdown="1">

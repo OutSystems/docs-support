@@ -1,13 +1,11 @@
 ---
-summary:
-tags: version-11
-en_title: OutSystems Platform side effects and breaking changes
+summary: Details the side effects and breaking changes in OutSystems 11 that should be checked before upgrading.
+tags:
 locale: en-us
 guid: 2cfe6cf6-118b-41dc-b4f3-a36ed20a3841
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
 ---
-
 # OutSystems 11 side effects and breaking changes
 
 This document lists the side effects and breaking changes introduced in the different versions of OutSystems 11.

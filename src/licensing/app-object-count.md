@@ -57,3 +57,11 @@ An Application Object (AO) is a measurement of the complexity of your applicatio
 * In OutSystems Developer Cloud, you can deploy multiple versions of the same library. Only the version with the highest number of AOs contributes to the AO count.
 * In OutSystems 11, libraries that are published to the development runtime environment contribute to the AO count, even when they are not referenced by any applications in that runtime. Unreferenced libraries that are deployed to non-production or production runtimes also contribute to the AO count. In OutSystems Developer Cloud, unreferenced libraries do not contribute to the AO count.
 * With libraries, the AO count contributed includes all API methods and static entities in the library, even when not all are referenced or used by apps.
+
+## AO limits
+
+Your OutSystems subscriptions typically include rights to run applications up to a specific number of AOs, and you can license additional AO capacity when needed. With OutSystems 11, you can review your licensed AO capacity within the Customer Portal and you can see the current AO usage displayed for each runtime environment within Service Center. With OutSystems Developer Cloud, you can review these within the Subscription section of the ODC Portal.
+
+The AO capacity you license only applies to production runtimes. Development and non-production/QA runtimes allow unlimited AOs, but cannot be used for running apps for production use. 
+
+If you have one production runtime, you're entitled to run up to the AO capacity licensed on your subscription within that one production runtime. If you have multiple production runtimes, you're entitled to run up to this total number of AOs across all production runtimes, so you'll sum the AO usage from each production runtime to determine your total production AO usage. Please contact your OutSystems sales representative for assistance upgrading your AO capacity when needed.
