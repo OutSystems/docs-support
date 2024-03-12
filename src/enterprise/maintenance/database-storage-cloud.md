@@ -15,7 +15,7 @@ OutSystems Cloud can run with either SQL Server or Oracle RDS databases. Upon pu
 
 In the **Environments** screen in LifeTime you can click on an environment card to see the occupied space of each database as well as the total available space.
 
-![Environment database space](images/database-storage-cloud_LT.png)
+![Screenshot of the OutSystems LifeTime platform showing an overview of database storage for Development, Testing, and Production environments.](images/database-storage-cloud_LT.png "OutSystems LifeTime Environments Overview")
 
 By clicking on **View details** you can see the breakdown between System and Application data.
 
@@ -28,7 +28,7 @@ By clicking on **View details** you can see the breakdown between System and App
 
 **Application data** is all the information that's stored in the database Entities of your applications. This includes deleted Entities and Attributes of the data model.
 
-![Environment database space](images/database-storage-cloud-detail_LT.png)
+![Detailed view in OutSystems LifeTime platform displaying the database usage breakdown into System Data and Application Data.](images/database-storage-cloud-detail_LT.png "OutSystems LifeTime Database Usage Details")
 
 ## Should I still cleanup space?
 

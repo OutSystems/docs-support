@@ -21,14 +21,14 @@ This is a destructive operation. You’ll lose your OutSystems rating, private m
 1. To close your community account, you need to be logged in.
 1. Access your profile details in **View my profile**.
 
-    ![Access your OutSystems profile](images/change-community-pw-profile.png)
+    ![Screenshot showing the 'View my Profile' option in the OutSystems community user menu.](images/change-community-pw-profile.png "Profile Access")
 
 1. Access the **Settings** area.
 
-    ![Change the settings of your OutSystems account](images/change-community-pw-settings.png)
+    ![Screenshot highlighting the 'Settings' option in the OutSystems community profile.](images/change-community-pw-settings.png "Settings Access")
 
 1.  Click **Close my account**.
 
-    ![Close your OutSystems account](images/close-community-account.png)
+    ![Screenshot of the 'Close My Account' button in the OutSystems community profile settings.](images/close-community-account.png "Close Account Option")
 
 1. Type in your password and confirm at **Close my account**.

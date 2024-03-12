@@ -53,7 +53,7 @@ For this specific error, there can be different scenarios why the ping response 
 
 To confirm if you are in an **injection scenario**, you can take a look at the error details in Service Center. The error stack will display the content of the _ping.html that was received. The example image shows a javascript that should not be present in the file.
 
-![](images/injection-scenario.png)
+![Screenshot of error details indicating an unexpected script injected into the _ping.html file.](images/injection-scenario.png "Error Details Showing Code Injection in _ping.html File")
 
 
 * **Redirection scenario**: In this case, the content of the _ping.html file does not match the expected one because the file being accessed does not correspond to the module being published. it’s from another module instead.
@@ -62,14 +62,14 @@ Follow these steps to confirm if you are in the redirection scenario:
 
 1. Access the Deployment Controller server and find the _ping.html on the running folder of the affected module (OutSystems->PlatformServer->Running->module).
 
-![](images/redirection-scenario.png)
+![File Explorer window highlighting the _ping.html file within the running folder of a module.](images/redirection-scenario.png "File Explorer Showing _ping.html in the Running Folder")
 
 2. Open the file  with a text editor and check the ID present at the beginning of the file.
 
-![](images/text-editor.png)
+![Open text editor showing the HTML content of the _ping.html file with the unique ID highlighted.](images/text-editor.png "Text Editor Displaying the Contents of _ping.html")
 
 3. Look into the Service Center’s Error logs where the deployment error is located. Open the details of the error and check the returned response, focusing on the ID contained in the _ping.html file.
-![](images/ping-html-file.png)
+![Service Center error log details showing the mismatched unique ID in the _ping.html file content.](images/ping-html-file.png "Service Center Error Log with _ping.html Content")
 
 4. Compare that ID with the one you found in the running folder of the module. If the IDs do not match, you are in a redirection scenario. This means that module A has a redirect rule to Module B, so pinging Module A will give us the ping of Module B.
 
@@ -90,7 +90,7 @@ Most common errors include 504, 503, 502 and 500.
 
 4. **500 - Internal Server**: Access the faulty server and navigate to the following page on the browser:  `localhost/<module_being_deployed>/_ping.html`. This will provide more detail on the error, showing specific actions to take on the **Coding Error** section.
 
-![](images/internal-error.png)
+![Web browser showing an HTTP 500 Internal Server Error with detailed error information highlighted.](images/internal-error.png "Browser Displaying HTTP 500 Internal Server Error")
 
 
 #### 4xxx errors

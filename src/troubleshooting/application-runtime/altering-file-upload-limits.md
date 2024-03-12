@@ -42,14 +42,14 @@ Instead, to ensure alterations to the web.config files at the application level 
 1. Open Factory Configuration on the browser and login with your LifeTime credentials.
 1. In the **Shared Configurations** tab click **Create New Shared Configuration**.
     
-    ![Create new shared configuration](images/altering-file-limits-new-config.png)
+    ![Screenshot showing the 'Create New Shared Configuration' button in the Factory Configuration interface.](images/altering-file-limits-new-config.png "Creating a New Shared Configuration in Factory Configuration")
 
 1. On the **Pre-made Samples** drop-down, choose **Custom HttpRuntime Parameters (.NET)** and click **Fill**.
 1. Choose a meaningful name for this configuration and input it on the **Name** field.
 1. Under **Kind** select 'web.config_XSL'.
 1. Optionally, enter a **Description**.
 
-    ![Shared configuration detail](images/altering-file-limits-new-config-detail.png)
+    ![Screenshot of the 'Create Shared Configuration' form with fields for Name, Kind, and Description filled out.](images/altering-file-limits-new-config-detail.png "Filling Details for New Shared Configuration")
 
 1. In the **Value** field, use the following template.
 
@@ -117,10 +117,10 @@ Once the shared configuration is created in Factory Configuration, you can chose
 1. Locate the eSpaces to apply the shared configuration and tick them.
 1. In the drop-down select the name of the shared configuration:
 
-    ![Apply a shared configuration to eSpaces](images/altering-file-limits-apply-config.png)
+    ![Screenshot displaying the process of selecting eSpaces to apply the shared configuration in Factory Configuration.](images/altering-file-limits-apply-config.png "Applying Shared Configuration to eSpaces")
 
 1. Click **Associate Shared Configuration**. You'll see the warning 'Configuration changes saved. Note that they may still need to be applied'. We'll address it in the next step. The shared configurations assigned to each eSpace are displayed in the **Shared Configurations** column in front of each eSpace name:
 
-    ![Apply a shared configuration to eSpaces](images/altering-file-limits-apply-config_1.png)
+    ![Screenshot showing the shared configurations associated with each eSpace in the Factory Configuration interface.](images/altering-file-limits-apply-config_1.png "Shared Configurations Assigned to eSpaces")
 
 1. Apply the configurations by republishing all the eSpaces you associated the configurations to. Ensure all the references are refreshed.

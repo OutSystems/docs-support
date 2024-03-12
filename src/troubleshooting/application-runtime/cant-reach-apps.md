@@ -27,7 +27,7 @@ This happens as part the recycling mechanism to save resources for active person
 
 Go to [http://www.outsystems.com/home/](http://www.outsystems.com/home/) and login with your OutSystems credentials. Click the **Wake up** button and wait a few seconds while the personal environment is restored.
 
-![](images/pe-sleep.png)
+![Screenshot of the OutSystems personal environment page with a notification that the environment fell asleep and a 'Wake up' button highlighted.](images/pe-sleep.png "OutSystems Personal Environment Wake Up Interface")
 
 ## More information
 

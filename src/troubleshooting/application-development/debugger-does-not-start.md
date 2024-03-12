@@ -17,11 +17,11 @@ The following section will help you understand and resolve the error you may enc
 
 The Service Studio may display a message similar to the following when launching the debugger:
 
-![Chrome error](images/debugger-error-ss.png)
+![Error dialog box in Service Studio indicating that the browser used for debugging is unresponsive.](images/debugger-error-ss.png "Service Studio Debugger Error Message")
 
 Please check the Chrome version under Settings if you receive this message. 
 
-![Chrome error](images/debugger-chrome-update-ss.png)
+![Google Chrome's 'About' section showing the browser is up to date with version 111.0.5563.65.](images/debugger-chrome-update-ss.png "Chrome Version Check for Debugger Issue")
 
 ## Cause
 

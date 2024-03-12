@@ -37,7 +37,7 @@ In the **Configuration Tool** you can [customize the connection string](https://
 
 In the **Configuration Tool**, you can control the number of connections in the '**Advanced Configurations**'.
 
-![ ](images/connection-pools_0.png)
+![Screenshot of the Configuration Tool showing advanced database connection settings with default values for query timeouts and JDBC connection pool sizes.](images/connection-pools_0.png "Configuration Tool Advanced Settings")
 
 The values in square brackets are the default for that setting.
 

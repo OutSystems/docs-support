@@ -1,12 +1,11 @@
 ---
-summary: 
+summary: The article explains how to resolve the issue of a Deployment Controller appearing twice in the Environment Health screen due to a hostname mismatch
 locale: en-us
 guid: 890ac8c6-b344-4119-9ad7-c1b0d8497518
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
 figma: https://www.figma.com/file/cPLNnZfDOZ1NX3avcjmq3g/Enterprise%20Customers?node-id=3213:288
 ---
-
 # Environment Health shows a Deployment controller twice
 
 ## Symptom
@@ -15,7 +14,7 @@ The Environment Health screen shows the same Deployment Controller or Front-End 
 
 In the example below, the same Front-end Server appears listed as vmrhelrbs, 192.168.165.25, and vmrhelrbs.domain.outsystems.com.
 
-![](images/env-deploy-controller-twice_0.png)
+![Screenshot of the Environment Health screen showing a Front-end Server listed with multiple names and IP addresses indicating a duplication issue.](images/env-deploy-controller-twice_0.png "Environment Health Screen Duplication Issue")
 
 ## Cause
 

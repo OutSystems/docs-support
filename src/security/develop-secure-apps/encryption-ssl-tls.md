@@ -15,9 +15,9 @@ Usually, attackers don’t attempt to break the encryption itself, they break so
 
 The following example illustrates how a MITM attack can be used to listen to a communication between two computers and impersonate a legitimate user after stealing their session (green arrows represent secure connections, while red arrows represent plain text connections):
 
-![How a MITM attack can be used to listen to a communication between two computers](images/mitm-attack-listen-communication-between-two-computers1.png)
+![Illustration of a Man-in-the-Middle attack showing secure connections in green arrows and insecure connections in red arrows.](images/mitm-attack-listen-communication-between-two-computers1.png "MITM Attack Example - Secure and Insecure Connections")
 
-![How a MITM attack can be used to listen to a communication between two computers](images/mitm-attack-listen-communication-between-two-computers2.png)
+![Diagram showing the flow of HTTP and HTTPS requests between a user named Peter Mann and a web server, highlighting the security risks.](images/mitm-attack-listen-communication-between-two-computers2.png "HTTP and HTTPS Communication Flow")
 
 
 ## How to do it with OutSystems

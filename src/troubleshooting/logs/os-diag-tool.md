@@ -35,9 +35,9 @@ While troubleshooting process of a support case, one of our support engineers mi
 
 Below you can find the **General Configurations** and **Database Configurations** tab:
 
-![](images/osdiagtool-general-configs.png)
+![Screenshot of the OSDiagTool General Configurations tab showing options for thread dumps, memory dumps, server logs, and platform settings.](images/osdiagtool-general-configs.png "OSDiagTool General Configurations Tab")
 
-![](images/osdiagtool-database-configs.png)
+![Screenshot of the OSDiagTool Database Configurations tab with options for OutSystems Platform Metamodel, database credentials, and database troubleshooting.](images/osdiagtool-database-configs.png "OSDiagTool Database Configurations Tab")
 
 ## Configuration file
 
@@ -52,7 +52,7 @@ OSDiagTool has a configuration file with the configurations that are loaded when
 
 * The support engineer may send you a customized version of the configuration file (`OSDGT.exe.config` file) in case it's necessary to retrieve additional information. In this case, you should replace the existent configuration file with the provided file and execute the tool.
 
-![](images/osdiagtool-config-file.png)
+![Example of the OSDiagTool configuration file in XML format showing various settings such as query timeout and logs number of days.](images/osdiagtool-config-file.png "OSDiagTool Configuration File Example")
 
 ## Output
 

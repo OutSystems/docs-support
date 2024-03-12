@@ -38,7 +38,7 @@ If the environment has more than one front end, the following steps need to be f
 1. Access the front end server and open IIS Manager.
 1. In the connections tab, under the server name, right-click on **Application Pools** and select the option **Add Application Pool**.
  
-    ![Add application pool](images/move-app-pool.png)
+    ![Screenshot showing the 'Add Application Pool' option in IIS Manager.](images/move-app-pool.png "Adding a New Application Pool in IIS")
 
     1. Type a meaningful **Name**.
     1. Set the **.NET CLR version** to '.NET CLR Version v4.0'.
@@ -46,7 +46,7 @@ If the environment has more than one front end, the following steps need to be f
     1. Check the box **Start application pool immediately**.
     1. Click **Ok**.
  
-        ![Add application pool](images/move-app-pool_3.png)
+        ![Dialog box for adding a new application pool with fields for name, .NET CLR version, managed pipeline mode, and an option to start immediately.](images/move-app-pool_3.png "New Application Pool Configuration Dialog")
 
 1. Right-click on the newly created application pool again and click on the **Recycling...** option:
     1. Uncheck all checkboxes under **Fixed Intervals** group.
@@ -58,7 +58,7 @@ If the environment has more than one front end, the following steps need to be f
     1. Right-click on the application you wish to send to the new application pool, and press the **Change Application Pool** option.
     1. Select the newly created application pool and press **Ok**.
  
-        ![Move app to app pool](images/move-app-pool_4.png)
+        ![Dropdown menu to select the newly created application pool for an application in IIS Manager.](images/move-app-pool_4.png "Selecting the New Application Pool for an App")
 
 ### Rollback
  
@@ -70,7 +70,7 @@ If you wish to revert these changes and move the isolated applications back to t
  
 1. Once the application pool is empty, right-click on the application pool you created and select **Remove**.
  
-    ![Remove app from pool](images/move-app-pool_2.png?width=500)
+    ![Context menu in IIS Manager with the option to remove an application pool highlighted.](images/move-app-pool_2.png "Removing an Application Pool in IIS")
  
 ## Caveats
  

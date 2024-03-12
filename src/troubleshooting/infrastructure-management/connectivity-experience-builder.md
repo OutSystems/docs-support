@@ -22,7 +22,7 @@ Connection issues manifest in various scenarios and use cases, such as:
 
 * Ensure you have reached the final step, **Compiling and generating your app**
 
-![Screenshot of publishing your app](images/publishing-app-eb.png  "Compiling and generating your app")
+![Screenshot showing the app publishing process in Experience Builder with steps including creating a database, actions, screens, and compiling the app, followed by an error message indicating publish failed.](images/publishing-app-eb.png "App Publishing Process in Experience Builder")
 
 * Ensure that there isn't anything blocking communications, for example, internal networks or firewalls, between Experience Builder and Lifetime/Development Environments
 * Confirm that you allow communications as stated in [OutSystems network requirements](https://success.outsystems.com/documentation/11/setup_and_maintain_your_outsystems_infrastructure/setting_up_outsystems/outsystems_network_requirements/#Experience-Builder) under the Experience Builder section

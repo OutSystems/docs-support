@@ -18,7 +18,7 @@ However, sometimes a SOAP consume error message does not include enough informat
 
 When the information displayed in the error message is specific enough, you can pinpoint the exact root cause, as seen below. 
 
-![SOAP import issues window](<images/soap-import-fixable-issue-ss.png>)
+![Error message window showing an invalid WSDL Schema due to an undeclared prefix in 'Historikk.xsd'.](images/soap-import-fixable-issue-ss.png "SOAP Web Service Import Error Message")
 
 In this example, the root cause of the error is an undeclared prefix named `asdf`  that is used in the `Historikk.xsd` external schema file.
 
@@ -53,7 +53,7 @@ The SOAP web service should now perform as expected.
 
 In some cases the information displayed in **Service Studio** is not sufficient to pinpoint the root cause of the error, as can be seen in the message window below:
 
-![SOAP import issues window](<images/soap-import-issues-ss.png>)
+![Error message window indicating an internal exception and a name collision issue with 'SoccerTeam' in the SOAP web service.](images/soap-import-issues-ss.png "SOAP Web Service Name Collision Error Message")
 
 The root cause of the error seems to be a name collision issue involving `SoccerTeam` , but it may be difficult to understand where to find the code in order to examine it and begin the process of correcting it.
 

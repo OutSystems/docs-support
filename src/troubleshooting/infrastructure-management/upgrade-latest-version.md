@@ -17,18 +17,18 @@ If you are working in an Enterprise Environment, contact your system administrat
 
 1. To check if there’s an update available, navigate to your OutSystems Platform (`https://<yourpersonal>.outsystemscloud.com`), and click the **Environment** tab.
 
-    ![](images/upgrade-latest-version_0.png)
+    ![Screenshot of the OutSystems platform showing the Environment tab for checking updates.](images/upgrade-latest-version_0.png "OutSystems Environment Tab")
 
 1. Click the '**Check for new platform release**' link to check if there's a new OutSystems Platform version available.
 
-    ![](images/upgrade-latest-version_1.png)
+    ![Screenshot highlighting the 'Check for new platform release' link in the OutSystems environment.](images/upgrade-latest-version_1.png "Check for New Platform Release Link")
 
     If a new version is available, you can schedule for an upgrade. Click the **Schedule** button.
 
-    ![](images/upgrade-latest-version_2.png)
+    ![Screenshot displaying the option to schedule an upgrade with the 'Schedule' button in the OutSystems environment.](images/upgrade-latest-version_2.png "Schedule Upgrade Button")
 
 ## Cancel an upgrade
 
 The time the upgrade takes place is displayed. During an upgrade, your applications are not accessible, so if the upgrade time is not convenient, you can cancel it. Click the **Upgrade scheduled for** link and then click the **Cancel upgrade** button.
 
-![](images/upgrade-latest-version_3.png)
+![Screenshot showing the 'Upgrade scheduled for' link and the 'Cancel upgrade' button in the OutSystems environment.](images/upgrade-latest-version_3.png "Cancel Upgrade Option")

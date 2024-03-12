@@ -24,7 +24,7 @@ Then, the proxy creates the connection proxy-server. The HTTP 502 - bad gateway 
 * If the connection proxy > server drops.
 * When the response from the server is invalid.
 
-![Client-server communications managed by a proxy](images/troubleshoot-502.png)
+![Diagram illustrating the client-proxy-server communication flow that can lead to an HTTP 502 bad gateway error.](images/troubleshoot-502.png "HTTP 502 Bad Gateway Troubleshooting Diagram")
 
 ## Most common causes
 

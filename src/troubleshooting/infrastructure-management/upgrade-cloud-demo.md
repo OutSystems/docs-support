@@ -1,13 +1,12 @@
 ---
-tags: 
-summary: 
+tags:
+summary: The article provides a guide on how to upgrade OutSystems Cloud demo environments, detailing self-service and automatic upgrade options, and addressing common concerns such as downtime and scheduling.
 locale: en-us
 guid: D364023A-59AE-4351-843B-8A0C8E5756D8
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
 figma:
 ---
-
 # Upgrading your Cloud demo
 
 Cloud demos are OutSystems Cloud infraestructures provided to our partners for non-production purposes.
@@ -28,11 +27,11 @@ You can schedule the upgrade of each of your environments on your own once you r
 
 1. Access your Cloud demo LifeTime console, and navigate to the Environments tab.
 
-    ![](images/upgrade-cloud-demo-1-lt.png)
+    ![Screenshot of the LifeTime console Environments tab showing options for Development and Production environments.](images/upgrade-cloud-demo-1-lt.png "LifeTime Console Environments Tab")
 
 1. You’ll find a link to **Check for a new platform release**. If a new release is available you’ll be able to schedule the upgrade. The upgrade will be scheduled automatically to an available time slot.
 
-    ![](images/upgrade-cloud-demo-2-lt.png)
+    ![Screenshot highlighting the 'Check for new platform release' link in the LifeTime console.](images/upgrade-cloud-demo-2-lt.png "Check for New Platform Release Link")
 
 1. After the upgrade of the Development environment has finished, proceed to upgrade your Production environment.
 
@@ -43,11 +42,11 @@ After scheduling the upgrade of an environment, you can cancel this schedule by 
 1. Select the environment that will be upgraded, in the Environments tab of LifeTime.
 1. Click on **Upgrade scheduled for**.
 
-    ![](images/upgrade-cloud-demo-3-lt.png)
+    ![Screenshot showing the 'Upgrade scheduled for' notification within the LifeTime console's Environments tab.](images/upgrade-cloud-demo-3-lt.png "Scheduled Upgrade Notification")
 
 1. In the next screen, you'll be able to cancel the scheduled upgrade.
 
-    ![](images/upgrade-cloud-demo-4-lt.png)
+    ![Screenshot of the option to cancel a scheduled upgrade in the LifeTime console.](images/upgrade-cloud-demo-4-lt.png "Cancel Scheduled Upgrade Option")
 
 ## Automatic upgrade
 

@@ -60,4 +60,4 @@ setTimeout(function() {
 ```
 Here is a screenshot of the fix:
 
-![JS workaround for redirect](images/workaround-js-redirect-url-ss.png?width=900)
+![Screenshot of OutSystems Service Studio showing the JavaScript workaround for redirecting to a URL within the SecurityException logic flow.](images/workaround-js-redirect-url-ss.png "JavaScript Redirect Workaround in OutSystems")

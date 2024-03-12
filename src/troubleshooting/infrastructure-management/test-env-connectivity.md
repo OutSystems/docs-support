@@ -11,7 +11,7 @@ figma: https://www.figma.com/file/6tXLupLiqfG9FOElATTGQU/Troubleshooting?node-id
 
 In OutSystems architecture, you need to have bidirectional communication between the LifeTime environment and all the application environments.
 
-![Connectivity between OutSystems environments](images/test-env-connectivity-diag.png)
+![Diagram showing bidirectional HTTPS communication between LifeTime and Development, QA, and Production environments in OutSystems.](images/test-env-connectivity-diag.png "OutSystems Environment Connectivity Diagram")
 
 ## Test the connectivity
 

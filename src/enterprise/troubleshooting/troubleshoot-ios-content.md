@@ -51,7 +51,7 @@ An example of this behavior is shown below:
 1. An end-user logs into a portal page (`https://portal.example.com`) which has authentication mechanisms to create first-party cookies.
 1. An **OutSystems** app in an HTML iframe (`https://app.example.net`), which is on a different domain, attempts to create third-party cookies. The Safari browser blocks these cookies and the content in the iframe does not behave as expected.
 
-![Safari blocks iframe from 3rd party app](images/safari-blocks-iframe-diag.png)
+![Diagram showing Safari browser blocking third-party cookies in an iframe, leading to blocked iframe functionality.](images/safari-blocks-iframe-diag.png "Safari Blocking Third-Party Cookies in Iframe")
 
 <div class="info" markdown="1">
 
@@ -85,7 +85,7 @@ The following workflow provides a natural experience with minimum friction for a
 1. The user interacts with the iframe app as the first party and establishes it as visited for the purposes of the underlying Storage Access API cookie policy. For this session, and during every subsequent visit, the content in the iframe behaves as expected.
 1. The user is then forwarded to the portal page (`https://portal.example.com`).
 
-![Safari allows iframe from 3rd party app](images/safari-allows-iframe-diag.png)
+![Workflow diagram illustrating how Safari allows iframe content when Storage Access API is used, with steps for user interaction and redirection.](images/safari-allows-iframe-diag.png "Safari Allowing Iframe Content with Storage Access API")
 
 Designers may use the following code snippets to implement a solution based on Storage Access API.
 

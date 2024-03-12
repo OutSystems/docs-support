@@ -44,14 +44,14 @@ To change the linguistic sorting **for the platform database**, do the following
 
 1. In the **Platform** tab, click the "Advanced Settings" link in the "Database" section.
 
-    ![](images/oracle-ct-advanced-settings-link.png)
+    ![Screenshot highlighting the 'Advanced Settings' link in the OutSystems Configuration Tool for Oracle database settings.](images/oracle-ct-advanced-settings-link.png "Advanced Settings Link in Configuration Tool")
 
 1. Select the desired linguistic sorting. The available options are:
 
     **BINARY_AI** – Collation-sensitive SQL operations use a binary sort that is accent-insensitive and case-insensitive.  
     **BINARY_CI** – Collation-sensitive SQL operations use a binary sort that is case-insensitive, but accent-sensitive.
 
-    ![](images/oracle-ct-advanced-settings.png)
+    ![Dialog box showing the Advanced Platform Database Connection Settings with options for linguistic sorting in the OutSystems Configuration Tool.](images/oracle-ct-advanced-settings.png "Advanced Platform Database Connection Settings")
 
 1. Press **OK** to close the "Advanced Settings" dialog box, and then press **Apply and Exit**.
 
@@ -75,13 +75,13 @@ To perform this change in the logging database, do the following:
 1. OutSystems warns you that your Database Administrator needs to execute a SQL script to apply this change to the logging database.  
     In the "Linguistic Sorting Changed" window, press **OK** and save the SQL script file.
 
-    ![](images/oracle-ct-warn-linguistic-sorting-changed.png)
+    ![Warning message indicating that a Database Administrator must manually execute a SQL script in the Logging Database after changing linguistic sorting settings.](images/oracle-ct-warn-linguistic-sorting-changed.png "Linguistic Sorting Changed Warning")
 
 1. Press **Apply and Exit**.
 
 1. The Configuration Tool asks you to run Service Center installation. Click **Yes** to run the installation.
 
-    ![](images/oracle-ct-question-servicecenter-install.png)
+    ![Prompt asking whether to run Service Center installation after applying changes in the OutSystems Configuration Tool.](images/oracle-ct-question-servicecenter-install.png "Service Center Installation Prompt")
 
 1. Ask your Database Administrator to execute the provided SQL script in the OutSystems logging database.  
     Note: The SQL script execution time depends on the amount of data present in the logging database. We recommend that your Database Administrator supervises the execution of this script.

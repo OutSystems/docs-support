@@ -15,14 +15,14 @@ Code injection is all about sending untrusted data into a code interpreter. The 
 
 The following example from the [OWASP documentation](https://www.owasp.org/index.php/Top_10-2017_A1-Injection) illustrates how an SQL injection attack can be used to fetch all accounts from a database:
 
-![Example of SQL Injection Attack](images/sql-injection-attack-example.png)
+![Diagram showing an SQL injection attack where a malicious SQL statement is used to fetch all accounts from a database.](images/sql-injection-attack-example.png "SQL Injection Attack Example")
 
 ## Cross Site Scripting
 
 Cross Site Scripting (XSS) occurs when there is an attempt of sending untrusted data into the web browser (renderer). It is one of the most common web application vulnerabilities.
 The following example from the [OWASP documentation](https://www.owasp.org/index.php/Top_10-2017_A7-Cross-Site_Scripting_(XSS)) illustrates how an XSS attack can be used to hijack a user session and impersonate that user:
 
-![Example of XSS Attack](images/xss-attack-example.png)
+![Diagram illustrating a Cross Site Scripting attack with a malicious HTML snippet designed to steal a user's session.](images/xss-attack-example.png "Cross Site Scripting Attack Example")
 
 |**Use case** |**Actions**|
 |-------------|-----------|

@@ -16,7 +16,7 @@ Service Center includes logging information about slow queries for Platform
 Server and Modules, which allows troubleshooting of performance issues. These
 messages identified as 'SLOWSQL' appear in 'General Logs'.
 
-![Log viewer showing SLOWSQL messages](images/slowsql-log.png)
+![Screenshot of OutSystems Service Center General Log showing filtered SLOWSQL log messages.](images/slowsql-log.png "OutSystems Service Center General Log with SLOWSQL filter applied")
 
 Measurement of database processing time happens during query execution.
 However, this doesn't consider the fetching of the results over the network and

@@ -1,5 +1,5 @@
 ---
-summary:
+summary: The article provides a guide on how to open a support case with OutSystems through their web portal.
 tags:
 locale: en-us
 guid: A82EA0CB-B101-4F08-BCFB-77559EF63801
@@ -7,7 +7,6 @@ app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
 figma: https://www.figma.com/file/mP34OzloL9EPqXml1E0tfC/Community?node-id=1013:320
 ---
-
 # Opening a support case with OutSystems
 
 OutSystems makes available a web portal were you can interact with OutSystems support.
@@ -30,7 +29,7 @@ This helps us to route your case to the best team and allows us to make safe ass
 
 Naturally, there may be cases that aren't related to any infrastructure, so you'll have that option too.
 
-![](images/open-support-case-infra.png)
+![Screenshot of the OutSystems support case infrastructure selection interface with options for different environments.](images/open-support-case-infra.png "OutSystems Support Case Infrastructure Selection")
 
 ## Select the type of case
 

@@ -37,7 +37,7 @@ As such, the easiest way to confirm if your environments are affected by RPM-344
 
     * If the **Deployment** step was executed, it will be logged in this screen. If the Deployment step is shown, the environment **is affected**, even if the step's status is **Error**.
 
-        ![Know if you are affected by checking for the Deployment step](images/rpm-3448-deploy-all-date-time.png)
+        ![Screenshot of the OutSystems Service Center showing the 'Deployment' step marked as 'Finished' with a timestamp indicating when it was started.](images/rpm-3448-deploy-all-date-time.png "OutSystems Service Center Upgrade Steps")
 
     * Otherwise, if nothing appears or it just shows that the **Preparation** step was performed, the environment **isn't affected**.
 
@@ -124,7 +124,7 @@ The cleanup procedure depends on the platform database used in your environments
 
         </div>
 
-        ![Change the current_schema in line 1 of all scripts](images/rpm-3448-oracle-schema.png)
+        ![Snippet of an Oracle SQL script highlighting the 'REPLACE_SCHEMA' placeholder that needs to be customized with the correct schema.](images/rpm-3448-oracle-schema.png "Oracle SQL Script Placeholder")
 
     1. Save the changes in each of the SQL scripts.
 

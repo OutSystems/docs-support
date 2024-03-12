@@ -68,7 +68,7 @@ If a Platform Server update isn't an option, one workaround is to turn off the D
 
 1. Go to **Advanced > Experimental Features** 
 
-    ![](images/error-installing-via-qr-code-in-ios-13.png)
+    ![Screenshot of iOS Safari Experimental Features settings highlighting the 'Disable Web SQL' option.](images/error-installing-via-qr-code-in-ios-13.png "iOS Safari Experimental Features Settings")
 
 1. At the end turn off the option that says **Disable Web SQL**
 
@@ -78,7 +78,7 @@ When using the new iPadOS, it won’t be possible to install an IPA file from th
 
 To overtake this issue you can **Request Mobile Website** (see the image below) to get the same behavior as with iPadOS.
 
-![](images/cannot-install-ipas-on-ipados-with-ios-13.png)
+![Screenshot showing the 'Request Mobile Website' option in Safari's dropdown menu on iPadOS.](images/cannot-install-ipas-on-ipados-with-ios-13.png "Request Mobile Website Option in Safari on iPadOS")
 
 ### UIWebView warning when submitting to Apple Store
 
@@ -114,7 +114,7 @@ Each MABS version used to generate a mobile app targets a given native SDK versi
 
 In the following example (in the Extensibility Configurations of the module), we're using some Cordova preferences to change the native SDK in an app to target Android SDK 22.
 
-![](images/troubleshoot-mobile-apps-generation-1.png)
+![Code snippet of Extensibility Configurations specifying 'android-targetSdkVersion' as '22'.](images/troubleshoot-mobile-apps-generation-1.png "Extensibility Configurations for Android SDK Version")
 
 In this case we were using MABS 5.0 and its specifications in [MABS versions](../../release-notes/mabs/mabs-versions.md) tells us that the version 28 of the Android SDK is required. So, we must change the `value` to version 28 to be able to submit the app to the Play Store.
 
@@ -126,7 +126,7 @@ It’s recommended that we use a tagged version of a plugin. If not, we’ll be 
 
 For instance, with GitHub repositories we should use `<GitHubLink>#<TagVersion>` as the following example shows in the Extensibility Configurations of the module: 
 
-![](images/troubleshoot-mobile-apps-generation-2.png)
+![Code snippet of Extensibility Configurations with a plugin URL pointing to a GitHub repository.](images/troubleshoot-mobile-apps-generation-2.png "Extensibility Configurations for Plugin with GitHub URL")
 
 ### Not using tagged versions of plugin dependencies
 
@@ -134,7 +134,7 @@ If the plugin dependencies aren't targeting a specific version of a library, the
 
 For example, a Google Analytics plugin is using `play-services-analytics`, but allows any version to be used, as it can be seen in the following section of its `plugin.xml` file:
 
-![](images/troubleshoot-mobile-apps-generation-3.png)
+![Code snippet from a plugin.xml file showing a dependency on 'com.google.android.gms:play-services-analytics:+' version.](images/troubleshoot-mobile-apps-generation-3.png "Plugin XML Dependency Configuration")
 
 The “+” sign allows the latest version available to be used when generating the app, but if major changes are done to `play-services-analytics`, it might become incompatible with [the MABS  requirements](../../release-notes/mabs/mabs-versions.md) or other plugins.
 
@@ -313,7 +313,7 @@ While generating the mobile app, the “Error fetching Cordova plugin” error i
 
 By checking the logs there’s a more detailed message:
 
-![](images/troubleshoot-mobile-apps-generation-4.png)
+![Log file excerpt displaying an error message indicating failure to fetch a Cordova plugin due to a missing '1.5.0' tag in the Git repository.](images/troubleshoot-mobile-apps-generation-4.png "Log File Error for Fetching Cordova Plugin")
 
 It shows that the 1.5.0 tag defined in the plugin doesn't exist in GitHub.
 
@@ -325,7 +325,7 @@ Like before, the “Error fetching Cordova plugin” error is raised.
 
 By checking the logs we can see a more detailed message:
 
-![](images/troubleshoot-mobile-apps-generation-5.png)
+![Log file excerpt showing an error message about a missing configuration zip file for the Pushwoosh plugin.](images/troubleshoot-mobile-apps-generation-5.png "Log File Error for Missing Configuration Zip File")
 
 In this case the log shows that a configuration archive is missing for the Pushwoosh plugin. The instructions for the plugin state that a “google-services” archive must be included, which ties in with the name of the Cordova hook that failed.
 
@@ -339,7 +339,7 @@ When using plugins, make sure that their implementation complies with [the MABS 
 
 For example, if the `plugin.xml` file contains engine entries like in the image below, make sure they're compatible with Cordova CLI or Android/iOS Engines:
 
-![](images/troubleshoot-mobile-apps-generation-6.png)
+![Code snippet from a plugin.xml file showing Cordova engine version requirements.](images/troubleshoot-mobile-apps-generation-6.png "Plugin XML Cordova Engine Configuration")
 
 #### Find the plugins causing issues
 

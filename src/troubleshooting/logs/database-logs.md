@@ -1,6 +1,6 @@
 ---
-summary:
-tags: 
+summary: The article explains how to use ADDM and AWR reports for database performance troubleshooting, detailing their contents and generation steps.
+tags:
 locale: en-us
 guid: 8aafea3c-07b4-4435-9ff3-62e6607e1ee3
 app_type: traditional web apps, mobile apps, reactive web apps
@@ -23,7 +23,7 @@ ADDM automatically detects and reports on performance problems with the database
    
 **ADDM example report**
         
-![](images/database-logs-1.png)
+![Sample ADDM report showing performance analysis and recommendations for a database.](images/database-logs-1.png "ADDM example report")
 
 ## AWR report
 AWR has valuable information such as:
@@ -34,7 +34,7 @@ AWR has valuable information such as:
 
 **AWR example report**
         
-![](images/database-logs-2.png)
+![Sample AWR report displaying SQL queries ordered by elapsed time with performance statistics.](images/database-logs-2.png "AWR example report")
 
 To get AWR and ADDM reports, follow these steps:
     

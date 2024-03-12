@@ -31,11 +31,11 @@ If you need assistance while installing and managing your server licenses [conta
 
 Access the [Customer Portal](https://www.outsystems.com/licensing/) and select your infrastructure:
 
-![](images/free-up-environment-portal.png)
+![Screenshot of the Customer Portal showing the infrastructure selection dropdown menu.](images/free-up-environment-portal.png "Customer Portal Infrastructure Selection")
 
 Look up the environment to release (making sure that the serial number matches):
 
-![](images/free-up-environment-release.png)
+![Screenshot highlighting the 'Release Environment' option for a development environment in the Customer Portal.](images/free-up-environment-release.png "Release Environment Option")
 
 1. Click **Release Environment**.
 

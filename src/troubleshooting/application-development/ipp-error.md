@@ -12,7 +12,7 @@ figma: https://www.figma.com/file/6tXLupLiqfG9FOElATTGQU/Troubleshooting?node-id
 During development you may receive an "Invalid Intellectual Property" (IPP) error message. 
 These error messages can occur if you are publishing a module for the first time in your environment or this module was protected at some point. Errors occur during development when publishing your module in Service Studio, in Service Center, or deploying through LifeTime.
 
-![IPP error publishing](images/ipp-error-publish_SS.png)
+![Screenshot of an 'Invalid Intellectual Property' error message in OutSystems Service Studio.](images/ipp-error-publish_SS.png "Service Studio IPP Error Message")
 
 Following are two sample error messages:
 
@@ -58,11 +58,11 @@ To confirm you have any modules that will have the IPP error when published, fol
 
     If both checks are green, the modules present in your environment won't return an IPP error when re-published. In this case, no further action is necessary. 
 
-    ![All modules OK](images/ipp-error-check-ok.png)
+    ![Screenshot showing a successful check with green checkmarks indicating no IPP errors in OutSystems environment.](images/ipp-error-check-ok.png "Activation Code Check - All Clear")
 
     If a red cross displays , further action is necessary to avoid IPP errors when re-publishing. Proceed to the next section.
 
-    ![Some modules not OK](images/ipp-error-check-nok.png)
+    ![Screenshot displaying a red cross indicating an IPP error found in one of the modules in the OutSystems environment.](images/ipp-error-check-nok.png "Activation Code Check - Error Found")
 
 ### Fix modules that will get the IPP error
 
@@ -74,7 +74,7 @@ To fix the errors, follow these steps:
 
 1. From the **Status** dropdown select **Not OK** and click the **Export to Excel** button.
 
-    ![Export modules list](images/ipp-error-check-export.png)
+    ![Screenshot of the ActivationCodeCheck app with an option to export to Excel the list of modules with IPP errors.](images/ipp-error-check-export.png "Exporting IPP Error Details")
 
     Note the **Name** of the modules listed. For your convenience, you can also export the results to Excel. In the Excel output, the modules are marked as "Not OK" in the "Label" column.
 

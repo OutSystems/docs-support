@@ -68,7 +68,7 @@ An [**Infrastructure Administrator**](https://success.outsystems.com/Support/Ent
 
 ### Setup overview
 
-![VPN setup overview](images/vpn-02-vpn-setup-overview.png)
+![Illustrative diagram showing the four-step process to set up a VPN: 1. Request VPN, 2. OutSystems creates VPN and sends configuration file, 3. Configure your VPN gateway, 4. Configure your firewall.](images/vpn-02-vpn-setup-overview.png "VPN Setup Overview Diagram")
 
 Make sure you read [the previous section](#before-begin) before you continue.
 
@@ -80,7 +80,7 @@ To request the first VPN to your OutSystems Cloud follow these steps:
 
 1. Select the **ENVIRONMENTS** tab, open **Options** and select **Activate VPN**.
 
-![Activate VPN in LifeTime](images/vpn-03-request-first-vpn.png?width=800)
+![Screenshot of the LifeTime Management Console highlighting the 'Activate VPN' option in the 'ENVIRONMENTS' dropdown menu.](images/vpn-03-request-first-vpn.png "LifeTime VPN Activation Option")
 
 1. Fill in the form by entering the values for each field:
 

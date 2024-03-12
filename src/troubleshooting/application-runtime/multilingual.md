@@ -32,7 +32,7 @@ The CSS class `is-rtl` defines the styles for the RTL locales. Create custom log
 
 1. Create a new client action that checks if the current locale is RTL, and then add or remove the CSS **is-rtl** class. In this example, the action is **ChangeWritingType**. 
 
-    ![Sample logic with If and JS nodes](images/multilingual-ts-rtl-fix-ss.png)
+    ![Screenshot of Service Studio showing the logic flow for adding the 'is-rtl' class to support right-to-left languages.](images/multilingual-ts-rtl-fix-ss.png "Service Studio Logic for RTL Fix")
 
     The If node checks the condition **GetCurrentLocale() =** `"ar-AE"`. Since `"ar-AE"` is one of the RTL locales, the logic runs the **AddRTL** node.
 
@@ -43,6 +43,6 @@ The CSS class `is-rtl` defines the styles for the RTL locales. Create custom log
 
 1. Go to **UI Flows** > **Common** > **Menu** and add the client action you just created to the logic flow of **OnRender** action under **Menu**.
 
-    ![Sample logic](images/multilingual-ts-rtl-fix-details-ss.png)
+    ![Detailed view of the Service Studio logic flow with the 'ChangeWritingType' action highlighted to demonstrate where to insert the RTL fix in the Menu block.](images/multilingual-ts-rtl-fix-details-ss.png "Service Studio OnRender Action for RTL Fix")
 
     Add your action in the **OnRender** action of an element that runs **in all screens of the app**. In this example, the action is in the **OnRender** of the Menu block.

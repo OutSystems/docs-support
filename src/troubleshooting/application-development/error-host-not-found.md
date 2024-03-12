@@ -40,10 +40,10 @@ Go to `https://<yourpersonal>.outsystemscloud.com` and check the state of your e
 
 If your personal environment fell asleep, you just need to wake it up. Click the **Wake up** button.
 
-![](images/pe-sleep.png)
+![OutSystems dashboard showing a notification that the personal environment fell asleep with a 'Wake up' button highlighted.](images/pe-sleep.png "OutSystems Personal Environment Sleep State")
 
 If your personal environment is deleted due to a long period of inactivity, click the **Fetch me a new environment** button.
 
-![](images/pe-del.png)
+![OutSystems dashboard indicating the personal environment was deleted due to inactivity with a 'Fetch a new environment' button highlighted.](images/pe-del.png "OutSystems Personal Environment Deletion Notice")
 
 A new environment will be provisioned for you, with the same URL you had before. However, your applications will not be available in the new environment. After you create a new personal environment, you can re-publish your apps.

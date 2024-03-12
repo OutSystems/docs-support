@@ -15,11 +15,11 @@ Your OutSystems community account is the one you use to login at our website. Th
 1. To change your community account email, you need to be logged in.
 1. Access your profile details in **View my profile**.
 
-    ![Access your OutSystems profile](images/change-community-pw-profile.png)
+    ![Screenshot showing the 'View my profile' option in the OutSystems Community dropdown menu.](images/change-community-pw-profile.png "OutSystems Community Profile Dropdown")
 
 1. Access the **Settings** area.
 
-    ![Change the settings of your OutSystems account](images/change-community-pw-settings.png)
+    ![Screenshot highlighting the 'Settings' option in the OutSystems Community user profile.](images/change-community-pw-settings.png "OutSystems Community Profile Settings")
 
 1. Click **Change email** and fill in the form.
 1. You'll receive an email to confirm the email change on your new email. 

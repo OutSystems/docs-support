@@ -111,7 +111,7 @@ For **Low** and **Medium** severity vulnerabilities, once the fix is released, i
 
 For **High** and **Critical** severity vulnerabilities the following steps are as follows:
 
-![](images/vulnerabilities-diag.png)
+![Flowchart illustrating the OutSystems vulnerability management process, including the embargo phase with steps for identification, classification, risk assessment, plan and fix, security bulletin publication, and fix release, followed by the public disclosure phase.](images/vulnerabilities-diag.png "OutSystems Vulnerability Management Process")
 
 It consists of 2 phases, the **embargo phase** and **public disclosure**.
 

@@ -33,7 +33,7 @@ Check the **Integration logs** of the **environment you are trying to register**
 
 1. Go to **Monitoring** » **Integrations**. You should see some SOAP requests which the Source is the IP of your LifeTime server.
 
-![](images/lifetime-register-env-error-1.png)
+![Screenshot of the OutSystems Service Center showing the Integrations Log with highlighted SOAP request entries from LifeTime server.](images/lifetime-register-env-error-1.png "OutSystems Service Center Integrations Log")
 
 ### Check the SSL certificates
 

@@ -11,7 +11,7 @@ figma: https://www.figma.com/file/cPLNnZfDOZ1NX3avcjmq3g/Enterprise%20Customers?
 
 This article describes how to remove the infrastructure management console (LifeTime) from a shared environment and installing it in a new dedicated environment.
 
-![](images/reinstall-lifetime-dedicated-env-diag.png?width=700)
+![Diagram showing the relocation of the LifeTime management console from a shared environment to a dedicated environment.](images/reinstall-lifetime-dedicated-env-diag.png "Infrastructure Management Console Relocation Diagram")
 
 This operation applies only to **on-premises installations**.
 
@@ -101,7 +101,7 @@ Tip: You can use [LifeTime Services API](<https://success.outsystems.com/Documen
 
 1. For all registered environments, choose **Edit** and select **Unregister environment**. After unregistering all environments, you will see the following screen:
 
-    ![](images/reinstall-lifetime-02.png)
+    ![Screenshot of the 'Manage Environments' screen in LifeTime with options to register OutSystems environments.](images/reinstall-lifetime-02.png "Manage Environments Screen in LifeTime")
  
 1. Go to the Service Center console of the original LifeTime environment and log in as Administrator, `https://<original-lifetime-environment>/ServiceCenter`.
 
@@ -109,7 +109,7 @@ Tip: You can use [LifeTime Services API](<https://success.outsystems.com/Documen
 
 1. Disable **LifeTimePerformanceMonitor** application.
 
-    ![](images/reinstall-lifetime-03.png)
+    ![Screenshot of the LifeTimePerformanceMonitor application in the Service Center with the 'Disable' button highlighted.](images/reinstall-lifetime-03.png "Disable LifeTimePerformanceMonitor Application")
  
 1. From the Applications list, choose **LifeTime** application and **Disable** it.
 
@@ -147,7 +147,7 @@ If the original LifeTime environment version is **Platform Server 10.0.804.0 or 
 
 1. Delete **LifeTimePerformanceMonitor** application.
 
-    ![](images/reinstall-lifetime-07.png)
+    ![Screenshot of the LifeTimePerformanceMonitor application in the Service Center with the 'Delete' button highlighted.](images/reinstall-lifetime-07.png "Delete LifeTimePerformanceMonitor Application")
  
 1. From the Applications list, choose **LifeTime** application and **Delete** it. 
 

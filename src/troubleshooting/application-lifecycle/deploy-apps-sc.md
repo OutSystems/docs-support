@@ -41,29 +41,29 @@ If you haven’t created this Solution yet, do the following to create one:
 
 1. Click the **New Solution** link.
 
-     ![](images/deploy-apps-sc-1.png)
+     ![Screenshot showing the 'New Solution' link in the Service Center's Solutions section.](images/deploy-apps-sc-1.png "Creating a New Solution in Service Center")
 
 1. Choose a name and description for your Solution and click **Save**.
 
 1. In the **Components** tab, choose all the modules of the applications you want to deploy. Make sure to select **include dependencies as components** option.
 
-     ![](images/deploy-apps-sc-2.png)
+     ![Screenshot of the Components tab in Service Center with options to include dependencies as components.](images/deploy-apps-sc-2.png "Selecting Components for a Solution")
 
 1. Click the **Associate** button. You'll see the application modules and all dependencies in the Associated Components list.
 
 1. Dissociate any system module that might have been added as a dependency (for example, modules from Charts Web, Charts Mobile, OutSystems UI, etc) by selecting those modules from the list and click the **Dissociate Selected** button. The Solution must contain only the modules of your application.
 
-     ![](images/deploy-apps-sc-3.png)
+     ![Screenshot of the 'Dissociate Selected' button in Service Center used to remove system modules from a Solution.](images/deploy-apps-sc-3.png "Dissociating System Modules from a Solution")
 
 1. Go to the **Versions** tab and click the **Create Version** button.
 
-     ![](images/deploy-apps-sc-4.png)
+     ![Screenshot highlighting the 'Create Version' button in the Service Center's Solution detail view.](images/deploy-apps-sc-4.png "Creating a Version of a Solution")
 
 1. Choose a Name and a Description for the version, and click **Save**. This version is a snapshot of the currently running version of all the modules in the Solution, which you are able to deploy later if you need.
 
 1. Click the **Download** button.
 
-     ![](images/deploy-apps-sc-5.png)
+     ![Screenshot showing the 'Download' button for a Solution version in Service Center.](images/deploy-apps-sc-5.png "Downloading a Solution Version")
 
 1. Click **Download** to save the .OSP file of the Solution.
 
@@ -81,9 +81,9 @@ To deploy the Solution in the target environment, do the following:
 
 1. Click the **1-Click Publish** button.
 
-     ![](images/deploy-apps-sc-6.png)
+     ![Screenshot of the '1-Click Publish' button in Service Center for uploading and publishing a Solution.](images/deploy-apps-sc-6.png "Uploading and Publishing a Solution")
 
 Validate if the Solution is successfully published.
 
-![](images/deploy-apps-sc-7.png)
+![Screenshot displaying a confirmation message indicating successful publication of a Solution in Service Center.](images/deploy-apps-sc-7.png "Successful Solution Publication Confirmation")
     

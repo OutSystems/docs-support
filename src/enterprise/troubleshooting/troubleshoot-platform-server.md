@@ -40,7 +40,7 @@ OutSystems Platform Server produces its own performance information, compliant w
 
 * Web Service Access
 
-![](images/troubleshooting-platform-server_0.png)
+![Screenshot of OutSystems Platform Server Performance Monitor showing metrics such as Inbound SMS/sec, Outbound SMS/sec, Processed SMS/sec, and % Processor Time.](images/troubleshooting-platform-server_0.png "OutSystems Platform Server Performance Monitor")
 
 ## Errors, causes and recovery actions
 

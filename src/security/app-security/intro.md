@@ -141,7 +141,7 @@ When using OutSystems building blocks to design your application screens and log
 
 However, when developers need to override the default secure code patterns for advanced customization scenarios, they receive design-time warnings for potential injection flaw patterns, along with guidelines to fix them. This ensures that developers are aware of these patterns before deploying the application.
 
-![Service Studio design-time warnings](images/app-security-overview-warning-ss.png)
+![Screenshot of OutSystems security warnings indicating potential SQL and HTML injection vulnerabilities.](images/app-security-overview-warning-ss.png "OutSystems Security Warning Screenshot")
 
 The [Sanitization API](https://success.outsystems.com/Documentation/11/Reference/OutSystems_APIs/Sanitization_API) provides a set of actions that developers can use in advanced scenarios to avoid code injection in HTML, JavaScript, and SQL snippets.
 

@@ -25,11 +25,11 @@ To transfer your certificates to another account do the following:
 1. Login with **account A**.
 1. Access the **Settings** area.
 
-    ![Change the settings of your OutSystems account](images/change-community-pw-settings.png)
+    ![Screenshot highlighting the Settings option in an OutSystems community account profile.](images/change-community-pw-settings.png "Accessing Settings in OutSystems Community Account")
 
 1. Click **Move certifications**.
 
-    ![Select Move certifications](images/move-certifications.png)
+    ![Screenshot showing the Move certifications option within the Manage Accounts section of OutSystems settings.](images/move-certifications.png "Move Certifications Option")
 
 1. On the form, enter the email address and password of **account B**. This lets us know you own the account.
 1. Confirm by clicking **Migrate**. Your OutSystems certifications were moved into **account A**.

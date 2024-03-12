@@ -108,12 +108,12 @@ If your application is running on the .NET stack, we provide you the Factory Con
 5. In the **Value** text box, containing the XSLT code, you can edit the file where the logs will be written (**initializeData** directory inside `**<listeners>**` tag). If you have more than one eSpace with trace logs, please create a separate shared configuration for each one and change the output file;
 
 6. Name your configuration and click **Save**;
-    ![](images/change-logging-levels_0.png)
+    ![Screenshot of the Factory Configuration tool showing the process of editing a 'TraceConfig' shared configuration.](images/change-logging-levels_0.png "Factory Configuration Shared Configuration Editor")
 
 7. Go back to the **eSpaces** tab and select the application you want to trace;
 
 8. On the dropdown at the bottom, select the configuration you just created and click **Associate**;
-    ![](images/change-logging-levels_1.png)
+    ![Screenshot of the Factory Configuration tool with the 'eSpace Configurations' section open, highlighting the process to associate a shared configuration.](images/change-logging-levels_1.png "Associating Shared Configuration to an eSpace")
 
 9. Republish the eSpace.
 

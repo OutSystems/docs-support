@@ -21,11 +21,11 @@ If you forgot your password, click [Forgot password?](http://www.outsystems.com/
 1. To change your community account password, you need to be logged in.
 1. Access your profile details in **View my profile**.
 
-    ![Access your OutSystems profile](images/change-community-pw-profile.png)
+    ![Screenshot showing the 'View my profile' option in the OutSystems Community user menu.](images/change-community-pw-profile.png "OutSystems Community Profile Access")
 
 1. Access the **Settings** area.
 
-    ![Change the settings of your OutSystems account](images/change-community-pw-settings.png)
+    ![Screenshot highlighting the 'Settings' option in the OutSystems Community profile.](images/change-community-pw-settings.png "OutSystems Profile Settings")
     
 1. Click **Change password** and fill in the form.
 

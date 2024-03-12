@@ -18,11 +18,11 @@ You get the following errors:
 
 * When performing a health check to Server.API or Server.Identity services via any browser, you get an error code 500. Executing the request via localhost, you see the following message: `Handler "aspNetCore" has a bad module "AspNetCoreModuleV2" in its module list`.
 
-    ![services health check error](images/dot-net-core-3-1-health-check-error-ie.png)
+    ![Screenshot of a health check error in Internet Explorer showing HTTP Error 500.21 with a message about a bad module 'AspNetCoreModuleV2'.](images/dot-net-core-3-1-health-check-error-ie.png "Health Check Error in Internet Explorer")
 
 * You get an error when initializing Server.API or Server.Identity service through the Configuration Tool:
 
-    ![error initializing services](images/dot-net-core-3-1-services-error-ie.png)
+    ![Screenshot of an error during Server.API initialization in Internet Explorer indicating an HTTP Error 500 and a bad module 'AspNetCoreModuleV2'.](images/dot-net-core-3-1-services-error-ie.png "Server.API Initialization Error in Internet Explorer")
 
 ## Cause
 
@@ -34,15 +34,15 @@ To confirm that .NET Core 3.1 isn't installed in the environment, execute the fo
 
 * Run the [Configuration Tool](https://success.outsystems.com/Documentation/11/Reference/Configuration_Tool). When clicking **Apply and Exit**, you get the following error:
 
-    ![Configuration Tool error](images/dot-net-core-3-1-conf-tool-error-ct.png)
+    ![Screenshot of the Configuration Tool displaying an error message stating that .NET Core 3.1 Runtime & Hosting Bundle for Windows is not installed.](images/dot-net-core-3-1-conf-tool-error-ct.png "Configuration Tool .NET Core 3.1 Error")
 
 * In [IIS Manager > Modules](https://docs.microsoft.com/en-us/iis/get-started/introduction-to-iis/iis-modules-overview), you only see the module **AspNetCoreModule** in the list of modules:
 
-    ![IIS modules](images/dot-net-core-3-1-module-iis.png)
+    ![Screenshot of IIS Manager Modules showing the list without the AspNetCoreModuleV2 present.](images/dot-net-core-3-1-module-iis.png "IIS Modules List Without AspNetCoreModuleV2")
 
     You don’t have the module **AspNetCoreModuleV2**:
 
-    ![IIS modules](images/dot-net-core-3-1-module-v2-iis.png)
+    ![Screenshot of IIS Manager Modules showing the list with the AspNetCoreModuleV2 included.](images/dot-net-core-3-1-module-v2-iis.png "IIS Modules List With AspNetCoreModuleV2")
 
 * In `C:\Program Files\IIS\Asp.Net Core Module\V2`, you don’t have the **aspnetcorev2.dll** file.
 

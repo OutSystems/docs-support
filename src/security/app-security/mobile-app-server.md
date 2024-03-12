@@ -11,7 +11,7 @@ figma: https://www.figma.com/file/vTtFn5nl44ZLjUBYo2anCO/Security?node-id=910:24
 
 In an OutSystems Mobile application, all the communication between the app and the Platform Server is done through REST calls. All the calls to Aggregates/Data Actions and Server Actions in Mobile modules will have REST endpoints generated automatically by the platform.
 
-![Client to server REST calls](images/mobile-app-server-communication.png)
+![Diagram illustrating the communication flow between the mobile app and server, showing client-side and server-side components.](images/mobile-app-server-communication.png "Mobile App to Server Communication Diagram")
 
 Whenever data is fetched from the server or a Server action needs to run, JavaScript code from the app’s Controller files performs HTTP calls to the generated REST endpoints.
 
@@ -32,7 +32,7 @@ All communication to OutSystems generated REST endpoints is done over HTTPS and 
 
 Access control is done on the server side to make sure no unauthorized accesses are made to the generated REST endpoints. This access control is done using a secure user token that is sent whenever there’s a call to one of these endpoints. For more information about the authorization mechanism for OutSystems mobile apps, check [Configure Mobile App Authentication](https://success.outsystems.com/Documentation/11/Managing_the_Applications_Lifecycle/Secure_the_Applications/Configure_App_Authentication).
 
-![Access control](images/mobile-app-server-access-control.png)
+![Diagram depicting the secure token request process between the mobile app and the OutSystems Platform Server.](images/mobile-app-server-access-control.png "Mobile App Server Access Control Diagram")
 
 OutSystems automatically computes access control for each endpoint based on usage and the security definitions made by the developer.
 

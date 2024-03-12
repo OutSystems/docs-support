@@ -679,3 +679,4 @@ Server= {Server}; Database= {Schema}; Uid= {User}; Pwd= {Password}; Allow User V
 ```
 
 ![Appendix - MySQL](images/Appendix_-11_Mysql1.png)
+

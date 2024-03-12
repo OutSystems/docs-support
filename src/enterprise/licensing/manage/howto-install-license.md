@@ -25,7 +25,7 @@ Follow these steps to install the license file on your environment:
 
 4. Click the '**Upload New License**' (2) link, to install the new license.
 
-![](images/licensing-update-ss.png)
+![Screenshot of the OutSystems Service Center Licensing page highlighting the 'Backup License' and 'Upload New License' options.](images/licensing-update-ss.png "OutSystems Service Center Licensing Screen")
 
 <div class="info" markdown="1">
 

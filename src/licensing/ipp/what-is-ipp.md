@@ -33,7 +33,7 @@ If you get an error message, check [this article](../../troubleshooting/applicat
 
 By default when you deploy a **new module**, it is not marked with the [Activation Code](https://success.outsystems.com/Support/Enterprise_Customers/Licensing/Overview/How_OutSystems_licensing_works) of your infrastructure. This means you can share your modules with other infrastructures.
 
-![IPP unprotected](images/what-is-ipp_unprotected.png)
+![Diagram showing applications in an ACME environment can be deployed to any ACME environment and to the EMCA infrastructure, indicating IPP is unprotected.](images/what-is-ipp_unprotected.png "IPP Unprotected Deployment Flow")
 
 In this example, applications developed in an ACME environment can be deployed to any ACME environment and to the EMCA infrastructure.
 
@@ -41,7 +41,7 @@ In this example, applications developed in an ACME environment can be deployed t
 
 When you deploy a module, it is marked with the [activation code](https://success.outsystems.com/Support/Enterprise_Customers/Licensing/Overview/01_How_OutSystems_Platform_licensing_works) of your infrastructure. This means you can only deploy this module to environments with the same activation code. In addition, you can't copy and paste parts of applications that are IPP-protected.
 
-![IPP protected](images/what-is-ipp_protected.png)
+![Diagram showing applications in an ACME environment can only be deployed within the ACME infrastructure, with a cross mark indicating deployment to EMCA infrastructure is not allowed due to IPP protection.](images/what-is-ipp_protected.png "IPP Protected Deployment Flow")
 
 In this example, applications developed in an ACME environment infrastructure can be deployed to any ACME environment. However, you can't deploy those applications to the EMCA infrastructure.
 

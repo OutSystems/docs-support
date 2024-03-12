@@ -26,7 +26,7 @@ For scenarios which require the use of high bandwidth and a steady connection wi
 
 The following diagram shows how it works:
 
-![Link to OutSystems Cloud with AWS Direct Connect](images/aws-direct-connect-outsystems-cloud_0.png)
+![Diagram illustrating the AWS Direct Connect topology with connections between Customer Network, AWS Direct Connect location, AWS Cage, and OutSystems PaaS on AWS Network.](images/aws-direct-connect-outsystems-cloud_0.png "AWS Direct Connect to OutSystems Cloud Diagram")
 
 The above diagram exposes the direct connect topology:
 

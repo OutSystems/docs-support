@@ -16,7 +16,7 @@ You are executing a publishing operation that requires the Platform Server to au
 
 `Upgrade Disabled: Extension recompilation on upgrade is disabled.`
 
-![upgrade disabled error](images/ext-recompilation-upgrade-disabled-error-sc.png)
+![Screenshot of the OutSystems Service Center showing a 'Publish Solution Pack' error with 'Upgrade Disabled: Extension recompilation on upgrade is disabled' message highlighted.](images/ext-recompilation-upgrade-disabled-error-sc.png "Publish Solution Pack Error Screen")
 
 This error can occur in environments running **Platform Server 11.14.0 or later**, in one of the following scenarios:
 

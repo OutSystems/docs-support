@@ -62,15 +62,15 @@ You must run all commands as a user with **Administrator** privileges
 1. At the left side, click on the server name.
 1. At the main window, double-click the **Server Certificates** icon in the **IIS** section in the middle.
 
-    ![Server Certificates in IIS](images/generate-csr-iis_1.png)
+    ![Screenshot of the Internet Information Services (IIS) Manager main window showing various management options.](images/generate-csr-iis_1.png "IIS Manager Main Window")
 
 1. At the **Actions** menu on the right side, click on **Create Certificate Request...**
 
-    ![Server Certificates in IIS](images/generate-csr-iis_2.png)
+    ![Screenshot of the Server Certificates section in IIS Manager with options to manage SSL certificates.](images/generate-csr-iis_2.png "Server Certificates in IIS Manager")
 
     The Request Certificate Wizard opens.
 
-    ![Request Certificate in IIS](images/generate-csr-iis_3.png))
+    ![Screenshot of the Request Certificate Wizard interface in IIS Manager.](images/generate-csr-iis_3.png "Request Certificate Wizard")
 
 1. Enter the following information at **Distinguished Name Properties**:
     * **Common Name** - The name through which the certificate will be accessed (usually the fully-qualified domain name, e.g., www.domain.com or mail.domain.com).
@@ -85,7 +85,7 @@ You must run all commands as a user with **Administrator** privileges
     * **Cryptographic service provider** - In the drop-down list, select Microsoft RSA SChannel..., unless you have a specific cryptographic provider.
     * **Bit length** - In the drop-down list, select 2048 (or higher).
     
-    ![Request Certificate in IIS](images/generate-csr-iis_4.png))
+    ![Screenshot showing the Cryptographic Service Provider Properties step in the Request Certificate Wizard.](images/generate-csr-iis_4.png "Cryptographic Service Provider Properties")
 
 1. Click **Next**.
 1. In the **File Name** menu, click the  **...**  button on the right side to browse the location where you want to save the Certificate Signing Request (a text file). If you enter a filename without browsing to a location, your CSR is stored in your computer’s default folder (for example, *Documents*).
@@ -96,7 +96,7 @@ You must run all commands as a user with **Administrator** privileges
 
     </div>
 
-    ![Request Certificate in IIS](images/generate-csr-iis_5.png))
+    ![Screenshot of the File Name step in the Request Certificate Wizard where the user specifies the file name for the CSR.](images/generate-csr-iis_5.png "Saving the CSR Request")
 
 1. Click **Finish**.
 1. Your Certificate Signing Request is complete. Keep the generated CSR file safe.
@@ -108,69 +108,69 @@ When you create a Certificate Signing Request, you generate a private key too. P
 1. Click the Windows Start button, type **mmc**, and press the **Enter** key to run the Microsoft Management Console.
 1. Click **Yes** to allow this app to make changes to your device.
 
-    ![Microsoft Management Console permissions](images/install-ssl-platform-mmc_1.png)
+    ![Screenshot of the User Account Control prompt asking for permission to make changes to the device.](images/install-ssl-platform-mmc_1.png "User Account Control Prompt")
 
     The Microsoft Microsoft Management Console window opens.
 
-    ![Microsoft Management Console window](images/install-ssl-platform-mmc_2.png)
+    ![Screenshot of the Microsoft Management Console window with an empty console root.](images/install-ssl-platform-mmc_2.png "Microsoft Management Console Window")
 
 1. Go to **File** > **Add/Remove Snap-in...**
 
-    ![Add or Remove Snap-ins](images/install-ssl-platform-mmc_3.png)
+    ![Screenshot of the Add or Remove Snap-ins interface in the Microsoft Management Console.](images/install-ssl-platform-mmc_3.png "Add or Remove Snap-ins in MMC")
 
 1. Select **Certificates** and click **Add**. The **Certificate snap-in** window opens.
     
-    ![Certificates snap-ins](images/install-ssl-platform-mmc_4.png)
+    ![Screenshot showing the selection of the Certificates snap-in in the Add or Remove Snap-ins interface.](images/install-ssl-platform-mmc_4.png "Selecting Certificates Snap-in")
 
 1. Select **Computer Account** and click **Next >**.
 1. Select **Local Computer** and click **Finish**.
 
-    ![Select Computer](images/install-ssl-platform-mmc_5.png)
+    ![Screenshot of the Certificates snap-in configuration options for the Microsoft Management Console.](images/install-ssl-platform-mmc_5.png "Certificates Snap-in Configuration")
 
 1. Click **OK** to close the **add/remove snap-in** window.
 1. Expand the **Certificates (Local Computer)** entry on the left side.
     
-    ![Expand the Certificates](images/install-ssl-platform-mmc_6.png)
+    ![Screenshot of the expanded Certificates (Local Computer) tree in the Microsoft Management Console.](images/install-ssl-platform-mmc_6.png "Certificates (Local Computer) in MMC")
 
 1. Go to **Certificate Enrollment Requests**, expand it, and select the **Certificates** entry.
 
-    ![Certificate Enrollment Requests](images/generate-csr-iis_6.png))
+    ![Screenshot showing the Certificate Enrollment Requests section in the Microsoft Management Console.](images/generate-csr-iis_6.png "Certificate Enrollment Requests in MMC")
 
 1. At the center, right-click on your certificate and choose **All Tasks > Export**.
 
-    ![Export Certificate Enrollment Request](images/generate-csr-iis_7.png))
+    ![Screenshot displaying the context menu for a certificate with the option to export in the Microsoft Management Console.](images/generate-csr-iis_7.png "Export Certificate Option")
 
     The Certificate Export Wizard opens.
 
-    ![Certificate Export Wizard](images/generate-csr-iis_8.png))
+    ![Screenshot of the welcome screen for the Certificate Export Wizard in the Microsoft Management Console.](images/generate-csr-iis_8.png "Certificate Export Wizard Welcome Screen")
 
 1. Click **Next**.
 1. Select the **Yes, export the private key** radio button, and click **Next**.
 
-    ![Certificate Export Wizard](images/generate-csr-iis_9.png))
+    ![Screenshot of the Certificate Export Wizard with the option to export the private key selected.](images/generate-csr-iis_9.png "Export Private Key Option")
 
 1. Select the **Personal Information Exchange - PKCS #12 (.PFX)** radio button and keep the default selected setting.
 
-    ![Certificate Export Wizard](images/generate-csr-iis_10.png))
+    ![Screenshot showing the file format selection step in the Certificate Export Wizard.](images/generate-csr-iis_10.png "Certificate Export File Format Selection")
 
 1. Click **Next**.
 1. Select the **Password:** checkbox and type a new password for the private key backup file.
 1. Re-type your password, and click **Next**.
 
-    ![Certificate Export Wizard](images/generate-csr-iis_11.png))
+    ![Screenshot of the security step in the Certificate Export Wizard where a password is set for the private key export.](images/generate-csr-iis_11.png "Setting a Password for Private Key Export")
 
 1. Click on the **Browse** button, and browse the location where you want to save the private key Backup file.
 1. Type the name for the file. By default, it has a **.pfx** extension.
 
-    ![Certificate Export Wizard](images/generate-csr-iis_12.png))
+    ![Screenshot of the file naming step in the Certificate Export Wizard for saving the exported certificate.](images/generate-csr-iis_12.png "Saving the Exported Certificate")
 
 1. Click **Next**. A resume of the operation is shown.
 
-    ![Certificate Export Wizard](images/generate-csr-iis_13.png))
+    ![Screenshot summarizing the settings chosen during the certificate export process in the Certificate Export Wizard.](images/generate-csr-iis_13.png "Completing the Certificate Export Wizard")
 
 1. Click **Finish**. A dialog box shows a confirmation message.
 
-    ![Certificate Export Wizard finished](images/generate-csr-iis_14.png))
+    ![Screenshot of the Certificate Export Wizard's success confirmation dialog box.](images/generate-csr-iis_14.png "Certificate Export Success Confirmation")
 
 
 The certificate export is complete.

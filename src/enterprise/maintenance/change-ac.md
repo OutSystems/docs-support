@@ -32,7 +32,7 @@ In this scenario, we begin with a single infrastructure containing the following
 * 1 Quality
 * 1 Production
 
-![Infrastructure](images/change-ac-system.png)
+![Diagram showing the change from previous Activation Code AAA to new Activation Code BBB across LifeTime, Development, Quality, and Production environments.](images/change-ac-system.png "Infrastructure Activation Code Change Diagram")
 
 This scenario still applies if you have more environments than the ones depicted, as long as the requirements of the following scenario are met:
 
@@ -88,7 +88,7 @@ To move from the previous Activation Code (AAA in this text) to the new Activati
 
     d. Still on the licensing page, filter for the **Intellectual Property** feature.
 
-    ![Check Intellectual Property feature in Service Center](images/change-ac-ipp-sc.png)
+    ![Screenshot of the OutSystems Service Center Licensing page highlighting the Intellectual Property filter with options 'Protected' and 'Unprotected'.](images/change-ac-ipp-sc.png "Service Center Licensing Page")
 
     If the Intellectual Property is **Protected** or **Unprotected**, continue to the next environment. 
 
@@ -102,7 +102,7 @@ To test if changing the Activation Code was successful, republish a module, for 
 
 1. Open the details of the module, locate the version that's currently published, and click **Publish** for that version.
 
-    ![Publish a module](images/change-ac-publish-sc.png)
+    ![Screenshot of the OutSystems Service Center showing the ECT_Provider module with the 'Publish' button highlighted.](images/change-ac-publish-sc.png "Service Center Module Publishing")
 
 1. If it publishes successfully, you can repeat the procedure for the following environments. If you get any errors related to Intellectual Property, immediately pause the procedure for the other environments and jump to the [rollback procedure](#rollback).
 
@@ -121,7 +121,7 @@ Development activities on the other environments can continue.
 
     b. Confirm that the Activation Code displayed is the old Activation Code AAA.
 
-    ![Confirm you see the old Activation Code](images/change-ac-rollback-sc.png)
+    ![Screenshot of the OutSystems Service Center Licensing page during rollback with the old Activation Code AAA highlighted.](images/change-ac-rollback-sc.png "Service Center Rollback Licensing Page")
 
 #### Test the rollback
 
@@ -131,7 +131,7 @@ After rolling back, test if the procedure was successful by republishing any mod
 
 1. Open the details of the module, locate the version that's currently published, and click **Publish** for that version.
 
-    ![Publish a module](images/change-ac-publish-sc.png)
+    ![Screenshot of the OutSystems Service Center showing the ECT_Provider module with the 'Publish' button highlighted.](images/change-ac-publish-sc.png "Service Center Module Publishing")
 
 1. If you're rolling back, you likely encountered an issue while changing your Activation Code. Contact [OutSystems Support](https://success.outsystems.com/Support) to report the issues and to obtain assistance to change your Activation Code.
 

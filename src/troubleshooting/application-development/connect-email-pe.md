@@ -23,7 +23,7 @@ Your personal environment can stay asleep for up to 15 days, after that it's del
 
 Go to [www.outsystems.com/home](https://www.outsystems.com/home), ensure you're logged in, and click **Wake up**.
 
-![Wake up your personal environment](images/pe-sleep.png)
+![OutSystems dashboard showing a notification that the personal environment is asleep with a 'Wake up' button.](images/pe-sleep.png "OutSystems Personal Environment Asleep Notification")
 
 ## We weren’t able to connect you. Your environment has been deactivated due to inactivity. Fetch a new environment.
 
@@ -36,11 +36,11 @@ You need to request a new personal environment before using it.
 
 Go to [www.outsystems.com/home](https://www.outsystems.com/home), ensure you're logged in, and click **Fetch a new environment**.
 
-![Fetch a new personal environment](images/pe-del.png)
+![OutSystems dashboard showing a notification that the personal environment has been deleted due to inactivity with a 'Fetch a new environment' button.](images/pe-del.png "OutSystems Personal Environment Deactivated Notification")
 
 If your environment has been deleted less than six months ago, download your apps by clicking **download a backup**. After you create a new personal environment, you can re-publish your apps.
 
-![Fetch a new personal environment](images/pe-del-apps.png)
+![OutSystems dashboard offering an option to download a backup of the previous environment.](images/pe-del-apps.png "OutSystems Download Backup Option")
 
 ## We weren’t able to connect you. Your environment is under maintenance. Please try again later. Check your environment status.
 
@@ -52,7 +52,7 @@ Occasionally, OutSystems has to do some maintenance to your personal environment
 
 Check your environment status in [www.outsystems.com/home](https://www.outsystems.com/home) to know when you should be able to use your personal environment again.
 
-![Check when the maintenance of your personal environment is expected to finish](images/pe-maint.png)
+![OutSystems dashboard showing a maintenance notification with an expected completion time.](images/pe-maint.png "OutSystems Maintenance Notification")
 
 If the environment stays under maintenance for more than a few hours after the expected time, please contact [OutSystems support](https://success.outsystems.com/Support).
 
@@ -68,7 +68,7 @@ Follow the instructions in the email we sent you to confirm your email and activ
 If you can't find the email, check your spam folder.
 If you didn't receive the email, go to [www.outsystems.com/home](https://www.outsystems.com/home), and click the link in the message to resend the email.
 
-![Resend confirmation email to reactivate your account](images/pe-resend-email.png)
+![Message prompting to reactivate an OutSystems account with a link to resend the confirmation email.](images/pe-resend-email.png "OutSystems Account Reactivation Prompt")
 
 ## We weren’t able to connect you. We’re setting up your account. Please try again shortly. Check your environment status.
 
@@ -80,6 +80,6 @@ Your personal environment is still being set up.
 
 Check your environment status in [www.outsystems.com/home](https://www.outsystems.com/home), and wait until it's ready.
 
-![Personal environment is ready](images/pe-ready.png)
+![OutSystems dashboard indicating the personal environment setup is complete and ready for use.](images/pe-ready.png "OutSystems Account Setup Completion")
 
 If the environment isn't ready after one hour, please contact [OutSystems support](https://success.outsystems.com/Support).

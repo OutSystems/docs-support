@@ -88,21 +88,21 @@ To request a **temporary database user**, do the following:
 
 1. Under the **DATABASE ACCESS** section, click the **Create database user** link.
 
-    ![create database user](images/access-database-paas-create-db-user-lt.png)
+    ![Screenshot highlighting the 'Create database user' link in the DATABASE ACCESS section of the OutSystems LifeTime console.](images/access-database-paas-create-db-user-lt.png "Create Database User Option in LifeTime Console")
 
 1. Choose a password for the new temporary user and confirm it. OutSystems doesn’t store this password.
 
-    ![set user password](images/access-database-paas-set-user-pwd-lt.png)
+    ![Dialog box for creating a temporary database user with fields for username, password, and password confirmation.](images/access-database-paas-set-user-pwd-lt.png "Set Password for Temporary Database User")
 
 1. Click the **Create** button. Wait some seconds for the user creation.
 
-    ![creating database user](images/access-database-paas-creating-user-lt.png)
+    ![Notification indicating that the creation of a temporary database user is in progress with the message 'Creating database user... This won't take long.'](images/access-database-paas-creating-user-lt.png "Creating Temporary Database User")
 
 This operation creates a nominal database user for the IT user that's currently logged in LifeTime, with [read & write](#read-write) credentials. This database user is valid for 12 hours.
 
 Once having the user created, the link **Database user details** becomes available under the **DATABASE ACCESS** section. Click that link to see the details of the database user:
 
-![database user details](images/access-database-paas-db-user-details-lt.png)
+![Information panel displaying the details of the temporary database user including server address, port, instance, database name, username, and access expiration time.](images/access-database-paas-db-user-details-lt.png "Temporary Database User Details")
 
 As OutSystems doesn’t store the password of this database user, in case you forget the user password, you must delete the current user and create a new one.
 

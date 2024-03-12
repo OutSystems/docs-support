@@ -27,7 +27,7 @@ To establish a secure connection between your on-premises network and the OutSys
 
 The following diagram shows a single VPN connection, with your OutSystems Cloud, hosted on AWS, shown in the left side, and your on-premises network shown on the right side:
 
-![VPN connection to OutSystems Cloud](images/vpn-01-vpn-and-your-outsystems-cloud.png)
+![Diagram illustrating a site-to-site VPN connection between an on-premises network and OutSystems Cloud hosted on AWS.](images/vpn-01-vpn-and-your-outsystems-cloud.png "Site-to-Site VPN Connection Diagram")
 
 The VPN tunnels are anchored to a virtual private gateway on the OutSystems Cloud side, and to your VPN gateway on the on-premises network side.
 
@@ -107,7 +107,7 @@ To create a VPN you must have the **Administrator role** in **LifeTime**.
 
 ## Setup overview
 
-![VPN setup overview](images/vpn-setup-overview-diag.png)
+![Graphic showing the five-step process for setting up a VPN connection with OutSystems Cloud.](images/vpn-setup-overview-diag.png "VPN Setup Process Overview")
 
 Make sure you read [the requirements](#requirements) before you continue.
 
@@ -121,7 +121,7 @@ To request the creation of a VPN to your OutSystems Cloud, follow these steps:
 
 1. If you are creating the first VPN, select **Create VPN**. Otherwise, select **VPN Management** and click the **Create new VPN** button.
 
-    ![VPN management in LifeTime](images/vpn-option-create-lt.png)
+    ![Screenshot highlighting the 'Create VPN' option in the OutSystems LifeTime environment.](images/vpn-option-create-lt.png "LifeTime VPN Creation Option")
 
 1. Fill in the form by entering the values for each field:
 
@@ -137,7 +137,7 @@ To request the creation of a VPN to your OutSystems Cloud, follow these steps:
 
 1. Click the **Create VPN** button.
 
-    ![create VPN](images/vpn-create-lt.png)
+    ![Screenshot of the VPN creation form in the OutSystems LifeTime platform.](images/vpn-create-lt.png "LifeTime VPN Creation Form")
 
 OutSystems starts creating your new VPN. You can check the status of the process on **Your VPN Connections** screen, under **Environments > Options > VPN Management**.
 
@@ -157,7 +157,7 @@ After receiving the OutSystems email notifying about your VPN creation, you must
 
 1. Identify your new VPN in the list of VPN connections and click the **Download file** link.
 
-    ![download VPN configuration file](images/vpn-download-file-lt.png?width=900)
+    ![Screenshot showing the option to download the VPN configuration file in OutSystems LifeTime.](images/vpn-download-file-lt.png "LifeTime VPN Configuration File Download")
 
 ### Step 4. Configure your VPN gateway { #configure-gateway }
 
@@ -227,11 +227,11 @@ If your VPN uses **static** routing, you can change the internal IP range of you
 
 1. Identify the VPN you want to change in the list of VPN connections and click the **Edit** button.
 
-    ![edit VPN connection](images/vpn-edit-lt.png)
+    ![Screenshot displaying the 'Edit' button for VPN connections in OutSystems LifeTime.](images/vpn-edit-lt.png "LifeTime VPN Edit Option")
 
 1. Set the **Internal network IP range** to the new value.
 
-    ![set internal network IP range](images/vpn-edit-ip-range-lt.png)
+    ![Screenshot of the interface for editing the internal network IP range of a VPN in OutSystems LifeTime.](images/vpn-edit-ip-range-lt.png "LifeTime VPN IP Range Editing")
 
 1. Click the **Save** button.
 

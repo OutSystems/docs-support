@@ -12,7 +12,7 @@ figma:
 
 OutSystems exam candidates accept the reschedule and cancelation terms and conditions during the registration process:
 
-![exam-policies](images/prometric-exam-policies.png)
+![Screenshot of OutSystems exam scheduling and cancelation instructions detailing steps for scheduling, rescheduling, canceling, and associated fees.](images/prometric-exam-policies.png "OutSystems Exam Scheduling and Cancelation Instructions")
 
 **The period in which it is possible to reschedule exams and associated fees:**
 To be able to reschedule exams, candidates need to do it up to 15 days before the exam’s original scheduled date and time. Rescheduling the exam 14 days ahead of its date, and up to 48 hours ahead, will incur an extra fee of 25 US$. It's impossible to reschedule the exam less than 48 hours before the date, so be sure to do it, if you wish, before that.

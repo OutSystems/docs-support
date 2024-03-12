@@ -19,21 +19,21 @@ To transfer applications from a Personal or Trial environment to an enterprise e
 
 1. Click the **New Solution** link.
 
-    ![Click new solution link](images/moveapp-solutions-sc.png)
+    ![Screenshot of the Service Center showing the Solutions tab with a highlighted 'New Solution' link.](images/moveapp-solutions-sc.png "Service Center Solutions Screen")
 
 1. Enter a name for the Solution and click **Save**.
 
-    ![Enter name for the solution](images/moveapp-createsol-sc.png)
+    ![Screenshot of the 'Create Solution' form in Service Center with fields for Name and Description and a highlighted 'Save' button.](images/moveapp-createsol-sc.png "Create New Solution Form")
 
 1. On the **Solution** screen, select the **Components** tab.
 
 1. In the **Associate Components with Solution** field, enter the module you want to transfer. Enter all of the applicable modules.
 
-    ![Enter module to transfer](images/moveapp-associate-sc.png)
+    ![Screenshot of the 'Associate Components with Solution' section in Service Center with a field to enter the module name.](images/moveapp-associate-sc.png "Associate Components with Solution")
 
 1. If the component is dependent on other modules that are not in the destination environment, ensure that the **Include dependencies as components** checkbox is selected and click **Associate**.
 
-    ![Include dependencies](images/moveapp-include-dep-sc.png)
+    ![Screenshot showing the option to 'Include dependencies as components' checked in the 'Associate Components with Solution' section.](images/moveapp-include-dep-sc.png "Include Dependencies Option")
 
 1.  Click **Save** 
 
@@ -43,7 +43,7 @@ To transfer applications from a Personal or Trial environment to an enterprise e
 
 1. To remove IP protections, upload this file to [Intellectual Property Protection](https://www.outsystems.com/IPP). 
 
-    ![Upload file to IPP](images/moveapp-ipp.png)
+    ![Screenshot of the Intellectual Property Protection (IPP) Rights Validation page with fields for Email, Destination Activation Code, and file upload.](images/moveapp-ipp.png "Intellectual Property Protection Rights Validation")
 
     You will receive an email with a link to download the version of the file that can be installed in the new environment.
 

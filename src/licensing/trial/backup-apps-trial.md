@@ -31,7 +31,7 @@ Follow these steps to create your Personal Environment when your trial ends, the
 
 The following screen displays when your trial ends.
 
-![Your trial has ended, you can create a personal environment](images/backup-apps-trial-no-pe.png)
+![Screenshot showing the end of trial screen with options to continue with a free account, download apps, and upload apps.](images/backup-apps-trial-no-pe.png "End of Trial Screen without Personal Environment")
 
 1. From **Continue with a free account**, click **Create Personal Environment**. A new tab opens with a form for you to complete. When done, return to this page and continue with the next step.
 
@@ -40,7 +40,7 @@ The following screen displays when your trial ends.
 1. From **Upload your apps**, click **Service Center**.  
 1. From **Service Center**, select **Factory**, then **Solutions**.
 
-    ![Publishing the apps in your personal environment](images/backup-apps-trial-sc.png)
+    ![Screenshot of the OutSystems Service Center with the Solutions tab open, highlighting the Upload & Publish section.](images/backup-apps-trial-sc.png "OutSystems Service Center Upload Interface")
 
 1. From **Solutions**, click the **Upload & Publish link**.
 
@@ -60,7 +60,7 @@ Interested in upgrading to a paid subscription, see [Move apps from your Persona
 
 The following screen displays when your trial ends and you have a Personal Environment.
 
-![Your trial has ended, upload the apps to your personal environment](images/backup-apps-trial-pe.png)
+![Screenshot showing the end of trial screen with options to download and upload apps for users with a Personal Environment.](images/backup-apps-trial-pe.png "End of Trial Screen with Personal Environment")
 
 1. From **Download your apps**, click either **Development environment apps** or **Production environment apps**. Your apps download as  *.osp files to your computer.
 
@@ -68,7 +68,7 @@ The following screen displays when your trial ends and you have a Personal Envir
 
 1. From **Service Center**, select **Factory**, then **Solutions**.
 
-    ![trials ends publish](images/backup-apps-trial-pe-sc.png)
+    ![Screenshot of the OutSystems Service Center's Solutions tab, showing the Upload & Publish Solution interface.](images/backup-apps-trial-pe-sc.png "OutSystems Service Center Solutions Tab")
 
 1. From **Solutions**, click the **Upload & Publish link**.
 

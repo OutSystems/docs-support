@@ -1,5 +1,5 @@
 ---
-summary:
+summary: OutSystems offers Technical Preview features for early testing and feedback, which are not production-ready and require manual activation.
 tags:
 locale: en-us
 guid: 60B738CE-9DC3-4C1F-8269-9B857668FBE4
@@ -7,7 +7,6 @@ app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
 figma: https://www.figma.com/file/UXA74OsZxSIzLLsjhvNMjC/Release-Notes?type=design&node-id=908%3A326&mode=design&t=PXROiQwbSufNHSiC-1
 ---
-
 # Technical Preview features
 
 OutSystems gives you access to features in Technical Preview. These are specific features that allow you to enjoy new development possibilities and plan your future development sooner without upgrading to a major version.
@@ -29,11 +28,11 @@ You must have the "Manage Infrastructure and Users" infrastructure permission to
 
 In the OutSystems Cloud, you'll find **Technical Preview** under **Environment** > **Options**.
 
-![Activate Technical Preview features in the OutSystems Cloud](images/tech-preview-cloud-lt.png)
+![Screenshot showing the Technical Preview option under the Environment Options in OutSystems Cloud.](images/tech-preview-cloud-lt.png "Technical Preview in OutSystems Cloud")
 
 For self-managed installations, Technical Preview is at **Infrastructure** > **Technical Preview**.
 
-![Activate Technical Preview features](images/tech-preview-lt.png)
+![Screenshot of the Technical Preview section in the LifeTime Management Console with environment features and LifeTime features.](images/tech-preview-lt.png "Technical Preview in LifeTime Management Console")
 
 
 ## Features currently in Technical Preview

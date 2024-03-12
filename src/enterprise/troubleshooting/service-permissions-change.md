@@ -20,7 +20,7 @@ This article **doesn't apply** to OutSystems installations that use **Windows Au
 
 In a self-managed environment, installing or upgrading to Platform Server 11.12.0 or later fails. You see the message: ``Failed to set permissions for OutSystems services.``
 
-![](images/install-fail-permissions.png)
+![Error dialog box showing a permissions error during OutSystems service installation or upgrade.](images/install-fail-permissions.png "OutSystems Service Permissions Error Dialog")
 
 ## Cause
 
@@ -43,7 +43,7 @@ In the **User and group names field**, type the users **OSControllerUser** and *
 
 The following screen shows where **OSControllerUser** and **OSSchedulerUser** appear in **Security Settings**.
 
-![](images/permissions-group-policy-change.png)
+![Screenshot of Group Policy Management settings showing the addition of OSControllerUser and OSSchedulerUser to the 'Create symbolic links' policy.](images/permissions-group-policy-change.png "Group Policy Management Console Settings for OutSystems")
 
 ### For Platform Server versions 11.18.0 or later
 
@@ -51,7 +51,7 @@ In the **User and group names field**, type the users **NT Service\OutSystems De
 
 The following screen shows where **NT Service\OutSystems Deployment Controller Service** and **NT Service\OutSystems Scheduler Service** appear in **Security Settings**.
 
-![](images/permissions-group-policy-change_2.png)
+![Screenshot of updated Group Policy Management settings with NT Service accounts for OutSystems services added to the 'Create symbolic links' policy.](images/permissions-group-policy-change_2.png "Updated Group Policy Management Console Settings for OutSystems")
 
 
 ### Notes 

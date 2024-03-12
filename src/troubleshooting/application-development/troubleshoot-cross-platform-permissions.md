@@ -14,7 +14,7 @@ figma: https://www.figma.com/file/6tXLupLiqfG9FOElATTGQU/Troubleshooting?node-id
 
 Cross-platform Service Studio doesn't load properly. The splash screen doesn’t disappear and a dialog is shown to warn users about missing permissions in the configuration folder.
 
-![Cannot launch cross=platform service studio](images/permission-error-ss.png)
+![Error dialog indicating Service Studio cannot start due to missing configuration folder permissions.](images/permission-error-ss.png "Service Studio Permission Error Dialog")
 
 ## Cause
 
@@ -30,7 +30,7 @@ Set the correct permissions to create the configuration folder.
 
 1. Search for **Terminal.app** in MacOS Spotlight and open it.
 
-    ![Search for Terminal.app](images/terminal-mac.png)
+    ![MacOS Spotlight search showing Terminal.app as the top result.](images/terminal-mac.png "MacOS Terminal Search Result")
 
 1. Go to the `~/.config` folder.
 
@@ -50,13 +50,13 @@ Set the correct permissions to create the configuration folder.
 
 1. Search for **Finder.app** in MacOS Spotlight and open it.
 
-    ![Search for Finder.app](images/finder-mac.png)
+    ![MacOS Spotlight search showing Finder.app as the top result.](images/finder-mac.png "MacOS Finder Search Result")
 
 1. In the top menu, choose go to **Go** -> **Go to the folder**.
 
 1. Enter `~/.config` and click **Go**.
 
-    ![Enter config folder](images/config-mac.png)
+    ![Dialog box for navigating to the '~/.config' folder in MacOS.](images/config-mac.png "MacOS Go to Folder Dialog")
 
 1. Select the **OutSystems** folder.
 
@@ -64,7 +64,7 @@ Set the correct permissions to create the configuration folder.
 
 1. In the Sharing & Permissions section, select the line that corresponds to your username and change the **Privilege** value to **Read & Write**.
 
-    ![Change privilege value](images/privilage-mac.png)
+    ![Privilege dropdown menu showing 'Read & Write' selected for custom access.](images/privilage-mac.png "MacOS Folder Privilege Settings")
     
     If your username isn’t listed in the Name column:
 
@@ -72,15 +72,15 @@ Set the correct permissions to create the configuration folder.
     
     b. Click the **Add+** button to add a new user.
 
-    ![Add new user](images/newuser-mac.png)
+    ![Dialog box for adding a new user to the Sharing & Permissions section in MacOS.](images/newuser-mac.png "MacOS Add New User Dialog")
 
     c. Select the line that corresponds to your username and change the **Privilege** value to **Read & Write**.
 
-1. Click the ![action icon](images/actionicon.png)icon and choose **Make __ the owner**.
+1. Click the ![The action icon used in MacOS context menus, resembling three horizontal dots.](images/actionicon.png "MacOS Action Icon")icon and choose **Make __ the owner**.
 
-1. Click the ![action icon](images/actionicon.png) icon and choose **Apply to enclosed items**.
+1. Click the ![The action icon used in MacOS context menus, resembling three horizontal dots.](images/actionicon.png "MacOS Action Icon") icon and choose **Apply to enclosed items**.
 
-    ![Choose apply to enclosed items setting](images/encloseditems-mac.png)
+    ![Context menu in MacOS with the option 'Apply to enclosed items' highlighted.](images/encloseditems-mac.png "MacOS Apply to Enclosed Items Option")
 
 1. Repeat steps a-c for the Directory folder `~/.local/share/OutSystems`.
 
@@ -96,7 +96,7 @@ For more information, see [Apple’s official guide to change permissions for fi
 
 1. Select the **Security** tab.
 
-    ![Select the Security tab](images/security-win.png)
+    ![Security tab in Windows folder properties showing permissions for the OutSystems folder.](images/security-win.png "Windows Folder Security Properties")
 
 1. In the **Group or username** section, select your username.
 
@@ -110,6 +110,6 @@ For more information, see [Apple’s official guide to change permissions for fi
 
 1. Ensure that the **Users** group has the **Read & execute**, **List folder contents**, and **Read** permissions.
 
-    ![Check user group settings](images/usersgroup-win.png)
+    ![Security tab in Windows showing the Users group with specific permissions for the OutSystems folder.](images/usersgroup-win.png "Windows Users Group Permissions")
 
 1. Open the cross-platform Service Studio again.

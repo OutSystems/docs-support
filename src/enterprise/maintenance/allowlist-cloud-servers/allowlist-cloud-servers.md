@@ -33,7 +33,7 @@ To get the public IPs of your environments front-ends execute these 2 steps in s
 
     In Service Center access **Monitoring** > **Environment Health** and note the **Front-end Servers** name. Take that value and add ``.outsystemsenterprise.com``. In the image below the end result would be ``hostname.outsystemsenterprise.com``.
 
-    ![](images/allowlist-cloud-servers-sc.png?width=800)
+    ![Screenshot of the OutSystems Service Center showing the Environment Health section with Front-end Servers details.](images/allowlist-cloud-servers-sc.png "Service Center Environment Health Screen")
 
 
 1. Resolve the hostnames to their respective public IPs.

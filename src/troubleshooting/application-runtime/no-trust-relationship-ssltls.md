@@ -33,13 +33,13 @@ It happens often when integrating in non-productive environments, since the cert
 
     The following example shows an invalid certificate:
 
-    ![Invalid Certificate](images/no-trust-relationship-ssltls.png)
+    ![Browser warning indicating the connection to the site is not secure with an option to view the invalid certificate.](images/no-trust-relationship-ssltls.png "Browser Security Warning")
 
 * Click on **Certificate** to see the details.
 
     The following example shows a certificate that is invalid because it expired:
 
-    ![Expired Certificate](images/no-trust-relationship-ssltls_1.png?width=350)
+    ![Details of an expired SSL certificate showing the issue and expiry dates.](images/no-trust-relationship-ssltls_1.png "Expired SSL Certificate Details")
 
 ## Resolution
 

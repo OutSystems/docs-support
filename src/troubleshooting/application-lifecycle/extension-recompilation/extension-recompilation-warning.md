@@ -16,7 +16,7 @@ You are executing a publishing operation and you get the following warning:
 
 `Continuing with extension recompilation enabled may result in security flaws. You can disable it in the environment configurations.`
 
-![extension recompilation enabled warning](images/ext-recompilation-enabled-warning-sc.png)
+![Screenshot of OutSystems Service Center showing a publish warning about extension recompilation being enabled.](images/ext-recompilation-enabled-warning-sc.png "OutSystems Service Center Publish Warning")
 
 This warning can occur in environments running **Platform Server 11.14.0 or later**.
 

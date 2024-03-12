@@ -57,7 +57,7 @@ Error: Attempt by method 'OutSystems.HubEdition.DatabaseProvider.Oracle.Executio
 at OutSystems.HubEdition.DatabaseProvider.Oracle.ExecutionService.ExecutionService.TransformDatabaseToRuntimeValue(Object value)in c:\Go\GoAgent2\pipelines\NRDevelopment\b10_0_0\HubServer\DatabaseProviders\OracleDatabaseProvider\ExecutionService\ExecutionService.cs:line 354
 ```
 
-![](images/oracle-odp-net-issues_0.png)
+![Screenshot of an error message in the Configuration Tool related to Oracle Data Provider for .NET.](images/oracle-odp-net-issues_0.png "Configuration Tool Error Message")
 
 ### Example error message 3: Service Studio Advanced Query
 
@@ -65,7 +65,7 @@ at OutSystems.HubEdition.DatabaseProvider.Oracle.ExecutionService.ExecutionServi
 
 Error in advanced query SQL1: Unsupported column datatype."
 
-![](images/oracle-odp-net-issues_1.png)
+![Popup window showing an 'Unsupported column datatype' error in Service Studio's Advanced Query.](images/oracle-odp-net-issues_1.png "Service Studio Advanced Query Error")
 
 Figure 1 - Error in Advanced query
 
@@ -77,11 +77,11 @@ Unfortunately, the version metadata did not change between the two assemblies (v
 
 Figures 2 and 3 show the metadata of the assembles for both drivers.
 
-![](images/oracle-odp-net-issues_2.png)
+![Code snippet displaying the metadata of the previous version of the ODP.NET driver.](images/oracle-odp-net-issues_2.png "Previous ODP.NET Driver Metadata")
 
 Figure 2 - The previous ODP.NET driver metadata
  
-![](images/oracle-odp-net-issues_3.png)
+![Code snippet showing the metadata of the new version of the ODP.NET driver.](images/oracle-odp-net-issues_3.png "New ODP.NET Driver Metadata")
 
 Figure 3 - The new ODP.NET driver metadata 
 
@@ -99,7 +99,7 @@ If this happens, do the following:
 OraProvCfg.exe /action:ungac /providerpath:"Oracle.ManagedDataAccess"
 ```
 
-![](images/oracle-odp-net-issues_4.png)
+![Command Prompt output indicating the successful unregistration of 'Oracle.ManagedDataAccess' from the GAC.](images/oracle-odp-net-issues_4.png "Command Prompt Removing DLL from GAC")
 
 Figure 4 - Remove Oracle.ManagedDataAccess.dll from the GAC
 
@@ -110,7 +110,7 @@ OraProvCfg.exe /action:gac /providerpath:"Oracle.ManagedDataAccess.dll"
 
 ```
 
-![](images/oracle-odp-net-issues_5.png)
+![Command Prompt output showing the successful registration of 'Oracle.ManagedDataAccess.dll' in the GAC.](images/oracle-odp-net-issues_5.png "Command Prompt Adding DLL to GAC")
 
 Figure 5 - Update/Add Oracle.ManagedDataAccess.dll to the GAC
 

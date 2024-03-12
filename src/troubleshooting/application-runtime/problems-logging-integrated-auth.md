@@ -75,6 +75,6 @@ If you look into the HTTP communications for the scenario above, when authentica
 
 Internet Explorer / Edge responds with something similar to the below (using Negotiate as protocol):
 
-![](images/problems-logging-integrated-authentication_0.png)
+![Screenshot of an HTTP header response highlighting the use of the NEGOTIATE protocol in Internet Explorer or Edge.](images/problems-logging-integrated-authentication_0.png "HTTP Header Response in Internet Explorer / Edge")
 
 Which causes the problem (NEGOTIATE fails in scenarios where communication with the Windows domain controller is impossible).

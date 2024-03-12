@@ -39,17 +39,17 @@ As detailed in the [Unsupported SOAP Use Cases article](https://success.outsyste
 
 Edit the WSDL file and search for the name of the problematic element. In this example, that element is **Alerta**. Focus on the findings that relate to the method contained in the error (`findAlerts`) and where you see a `maxOccurs` defined.
 
-![](images/maxoccurs-defined.png)
+![Screenshot of a WSDL file with the maxOccurs attribute highlighted, indicating the presence of a list attribute.](images/maxoccurs-defined.png "WSDL File Highlighting maxOccurs Attribute")
 
 If you collapse the identified element, you will see that the `complexType` name `findAlertsResponse`, which corresponds to the Output parameter of the `findAlerts` method that was present in the error message, only contains a single element, named **Alerta**.
 
-![](images/maxoccurs-defined-2.png)
+![Close-up view of a collapsed complexType element in a WSDL file, showing the single list attribute named Alerta.](images/maxoccurs-defined-2.png "Collapsed ComplexType Element in WSDL File")
 
 You can confirm if this element is a list or not by looking at its definition (it should contain more than one element).
 
-![](images/maxoccurs-defined-3.png)
+![Detailed view of the list element definition within a WSDL file, confirming the presence of multiple elements.](images/maxoccurs-defined-3.png "Definition of List Element in WSDL File")
 
 To resolve the error, add a dummy element to the single list attribute, the `complexType` `findAlertsResponse`.
 
-![](images/maxoccurs-defined-4.png)
+![Modified WSDL file showing an added dummy element to the complexType to resolve the error.](images/maxoccurs-defined-4.png "WSDL File with Added Dummy Element")
 

@@ -32,7 +32,7 @@ When the Platform Server needs to upgrade and recompile an extension during the 
 
 `Upgrade Disabled: Extension recompilation on upgrade is disabled.`
 
-![upgrade disabled error](images/ext-recompilation-upgrade-disabled-error-sc.png)
+![Screenshot of an error message in Service Center indicating that extension recompilation on upgrade is disabled.](images/ext-recompilation-upgrade-disabled-error-sc.png "Error Message for Disabled Extension Recompilation")
 
 When this error occurs, the extension must be [upgraded and recompiled in a secure way](#secure-upgrade) before proceeding with the upgrade.
 
@@ -52,7 +52,7 @@ Service Center administrators can enable or disable automatic upgrade and recomp
 
 1. Select/unselect the option **Enable server extension recompilation on upgrade** to enable/disable it.
 
-    ![enable server extension recompilation](images/ext-recompilation-enable-sc.png)
+    ![Screenshot of the Environment Configuration screen with the option 'Enable server extension recompilation on upgrade' highlighted.](images/ext-recompilation-enable-sc.png "Environment Configuration Option for Extension Recompilation")
 
 The option **Enable server extension recompilation on upgrade** is disabled by default. To prevent unattended and unwanted code modifications in extension upgrade scenarios, **keep this option disabled**.
 
@@ -79,7 +79,7 @@ When this option is enabled, the Platform Server automatically upgrades and reco
 
 `Continuing with extension recompilation enabled may result in security flaws. You can disable it in the environment configuration.`
 
-![extension recompilation enabled warning](images/ext-recompilation-enabled-warning-sc.png)
+![Screenshot of a warning message in Service Center advising that continuing with extension recompilation enabled may result in security flaws.](images/ext-recompilation-enabled-warning-sc.png "Warning Message for Enabled Extension Recompilation")
 
 ## Secure upgrading and recompilation of extensions { #secure-upgrade }
 

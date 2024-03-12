@@ -242,7 +242,7 @@ The upgrade process for extensions detects the entities from an Oracle database 
 **Issue:** Previously, when consuming REST APIs that return attributes of type Date, Time or DateTime, parsing errors were being "hidden" and the return attribute was filled with the default value of the corresponding data type. Now when there is a parsing error an exception will be thrown.  
 Scenario: You are consuming a REST API that has an output where one of the attributes has the type Date / Time / DateTime.
 
-![](images/bc-16-1-ss.png)
+![Screenshot of a REST API response structure highlighting a Date attribute named DateofBirth.](images/bc-16-1-ss.png "REST API Response Structure with Date Attribute")
 
 However, the output from the API is not matching your definition, and is returning a JSON string like this:  
   
@@ -260,7 +260,7 @@ Note that this only affects scenarios where the attribute has an **invalid** val
 
 **Workaround:** If you are not using the attribute as a Date, Time or DateTime (you don’t need the attribute or you only need it as Text), a simple workaround is to simply delete the attribute (extra attributes in payload are ignored) or change the attribute type to Text.
 
-![](images/bc-16-2-ss.png)
+![Screenshot showing the process of changing a REST API response attribute type from Date to Text.](images/bc-16-2-ss.png "Changing Attribute Type to Text")
 
 If you need to use the attribute as a Date (for example in a scenario where the API only sends a valid Date in some requests), a possible workaround is:
 
@@ -268,11 +268,11 @@ If you need to use the attribute as a Date (for example in a scenario where the 
 
 1. Add a new attribute to the Structure with the same type as the original attribute.  
 
-    ![](images/bc-16-3-ss.png)
+    ![Screenshot depicting the addition of a new Date attribute named OriginalDateofBirth to the REST API response structure.](images/bc-16-3-ss.png "Adding a New Date Attribute")
 
 1. After consuming the API, assign to the new attribute the conversion of the text value.  
 
-    ![](images/bc-16-4-ss.png)
+    ![Screenshot illustrating an assignment in OutSystems where the text value is converted to a Date attribute.](images/bc-16-4-ss.png "Assigning Converted Text to Date Attribute")
 
 1. If the text is not a valid Date, Time or DateTime, the new attribute will have the corresponding default value, keeping the same behavior as before.
 

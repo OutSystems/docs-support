@@ -23,16 +23,16 @@ This option isn't available in Personal Environments.
 
 ## Resolution 
 
-![Environment health](images/restart-cloud-health-lt.png)
+![Screenshot highlighting the 'Environment Health Problems' notification and detail button in the OutSystems Cloud interface.](images/restart-cloud-health-lt.png "OutSystems Cloud Environment Health Overview")
 
 On 1 you can check the detail of the error and on 2 you can have some more details about that environment:
 
-![Environment health detail](images/restart-cloud-status-lt.png)
+![Screenshot showing the 'Development Environment Status' with an error message and a 'Retry Synchronization' option.](images/restart-cloud-status-lt.png "OutSystems Cloud Environment Status and Synchronization")
 
 On the error report, you can try to sync your environment again just to see if this was just a communication problem. If it doesn't resolve the issue, then you can go to the environment details and restart OutSystems services:
 
 
-![Restart services of an environment](images/restart-cloud-lt.png)
+![Screenshot of the OutSystems Cloud interface with an option to 'Restart Services' for resolving environment health problems.](images/restart-cloud-lt.png "OutSystems Cloud Environment Restart Services Option")
 
 <div class="info" markdown="1">
 

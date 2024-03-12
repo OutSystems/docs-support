@@ -1,12 +1,11 @@
 ---
-summary: 
+summary: The article discusses the issue of changes in a producer module not being reflected in consumer modules in OutSystems, known as Library Hell, and provides solutions to address it
 locale: en-us
 guid: cefe3ea0-ea56-405d-8863-f2b366f442a3
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
 figma: https://www.figma.com/file/6tXLupLiqfG9FOElATTGQU/Troubleshooting?node-id=3082:479
 ---
-
 # Library hell - why are changes in a producer not reflected in the consumers
 
 If you're developing in multiple modules at a time, it may happen that a change is made to a producer module (for example, at an integration level) and there is the need to see the change reflected in a consumer module. In some situations, simply republishing the consumer module solves the problem. But in others, the changes don't get reflected in the consumers. 
@@ -41,7 +40,7 @@ This example uses a sample app with producers and consumers. The sample app is a
 
 The structure of the app is as follows:
 
-![App structure](images/library-hell_0.png)
+![Diagram showing the structure of the sample app with producers and consumers including APIProvider, DataLayer, BrokerLogic, Purchasing, and UI_Public.](images/library-hell_0.png "Application structure diagram")
 
 Image 1: Application structure
 
@@ -79,19 +78,19 @@ Below are three examples:
 
 * **APIProvider**: its library is inside the running folder for APIProvider, inside **bin**:
 
-    ![APIProvider library in the module's IIS VDir / Java WAR](images/library-hell_1.png)
+    ![Screenshot of the APIProvider library directory showing the DLL files in the module's IIS VDir or Java WAR.](images/library-hell_1.png "APIProvider library directory")
 
     Image 2: APIProvider library in the module's IIS VDir / Java WAR
 
 * **BrokerLogic**: in a consumer, producer libraries are inside a **bin2** folder. Here you can see that the libraries for **APIProvider** and **DataLayer** , the producers for **BrokerLogic**:
 
-    ![Producer modules' libraries in BrokerLogic module's IIS VDir / Java WAR](images/library-hell_2.png)
+    ![Screenshot of the BrokerLogic module's library directory with producer libraries APIProvider and DataLayer in the bin2 folder.](images/library-hell_2.png "BrokerLogic module library directory")
 
     Image 3: Producer modules' libraries in BrokerLogic module's IIS VDir / Java WAR
 
 * **UI_Public**: again in the **bin2** folder; in this one, all the libraries are there (for **APIProvider,** **DataLayer**,  **BrokerLogic** and **Purchasing**):
 
-    ![Producer modules' libraries in UI_Public module's IIS VDir / Java WAR](images/library-hell_3.png)
+    ![Screenshot of the UI_Public module's library directory showing all producer libraries including APIProvider, DataLayer, BrokerLogic, and Purchasing in the bin2 folder.](images/library-hell_3.png "UI_Public module library directory")
 
     Image 4: Producer modules' libraries in UI_Public module's IIS VDir / Java WAR
 
@@ -206,15 +205,15 @@ There are some options to fix the issue:
     
     1. In the **Resources** tab, right-click the folder where the conflicting DLL is and select **Open**.
 
-        ![Open the folder of the conflicting DLL](images/open-conflicting-dll-usr.png)
+        ![Screenshot highlighting the 'Open' option for a conflicting DLL in the Resources tab of Integration Studio.](images/open-conflicting-dll-usr.png "Open conflicting DLL option in Integration Studio")
 
     1. Right-click the DLL file and select **Properties**.
 
-        ![Open the DLL properties](images/file-version-value-usr.png)
+        ![Screenshot showing the 'File version' value in the Properties dialog of a DLL file.](images/file-version-value-usr.png "File version value in DLL properties")
 
     1. In the **Details** tab, check the **File version** value.
 
-        ![Check file version](images/file-version-usr.png)
+        ![Screenshot of the Details tab in the Properties dialog for a DLL file, displaying the file version and other information.](images/file-version-usr.png "DLL file version details")
 
 1. Ensure that all the extensions reference the same version of the DLL in use.
 

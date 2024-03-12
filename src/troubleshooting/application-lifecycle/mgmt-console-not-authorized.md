@@ -1,12 +1,11 @@
 ---
-summary:
+summary: The article provides troubleshooting steps for resolving the 'You are not authorized to view this page' error when accessing OutSystems management consoles due to Internal Network configuration issues
 locale: en-us
 guid: 39b458bb-aa97-4fee-8438-342a45d60c8d
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
 figma: https://www.figma.com/file/6tXLupLiqfG9FOElATTGQU/Troubleshooting?node-id=3330:2690
 ---
-
 # Error accessing management consoles - You are not authorized to view this page
 
 ## Symptoms
@@ -15,7 +14,7 @@ While performing your regular daily tasks, which require access to ServiceCenter
 
 **"You are not authorized to view this page"**
 
-![](images/mgmt-console-not-authorized_0.png)
+![Browser window displaying an error message 'You are not authorized to view this page' when trying to access the OutSystems ServiceCenter.](images/mgmt-console-not-authorized_0.png "Unauthorized Access Error Message")
 
 ## Cause
 
@@ -41,7 +40,7 @@ You can overcome this problem by having someone access your server and perform t
 
 * In every machine of your environment, you must restart IIS:
  
-    ![](images/mgmt-console-not-authorized_1.png)
+    ![OutSystems Configuration Tool window showing the Network tab with options to set Internal Network IP addresses.](images/mgmt-console-not-authorized_1.png "OutSystems Configuration Tool")
  
 
 **OutSystems 10 or later**
@@ -54,7 +53,7 @@ The Internal Network is configured in ServiceCenter. A user with local access to
 
 * Apply changes:
 
-    ![](images/mgmt-console-not-authorized_2.png)
+    ![OutSystems ServiceCenter Network Security screen with fields for Internal network addresses and Trusted proxy addresses.](images/mgmt-console-not-authorized_2.png "OutSystems ServiceCenter Network Security")
  
 If the correct addresses were added, you should now be able to access your management consoles again.
 

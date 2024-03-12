@@ -48,7 +48,7 @@ Check the status of the OutSystems services in both **source** and **target** en
 
 1. Do the same for the **target** environment.
 
-![](images/lifetime-deploy-unable-1.png)
+![Screenshot of the Environment Health section in the OutSystems Service Center showing green checkmarks indicating all services are operational.](images/lifetime-deploy-unable-1.png "Environment Health Status in Service Center")
 
 ### Check the status of LifeTime Processes
 
@@ -60,7 +60,7 @@ Check the status of the Processes for potential issues:
 
 1. Go to **Monitoring** » **Processes**. You should have **no Suspended Instances** and **no Active Instances with Errors**. If you get any of these, [open a support case](https://www.outsystems.com/SupportPortal/CaseOpen/) to get help from OutSystems Support.
 
-![LifeTime Process Monitor](images/lifetime-process-monitor-sc.png?width=1000)
+![Screenshot of the Process Monitoring page in the OutSystems Service Center displaying a list of processes with their status, showing no suspended instances or active instances with errors.](images/lifetime-process-monitor-sc.png "Process Monitoring in Service Center")
 
 ## Still having problems?
 

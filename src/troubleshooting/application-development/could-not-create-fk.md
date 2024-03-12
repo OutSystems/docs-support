@@ -17,11 +17,11 @@ Could not create Foreign Key: This may have happened because there are '<EntityA
 
 You may see it when publishing a module in Service Studio:
 
-![](images/could-not-create-fk-ss.png)
+![Screenshot of a 'Could not create Foreign Key' error in OutSystems Service Studio during deployment.](images/could-not-create-fk-ss.png "Service Studio Foreign Key Error")
 
 Or also in Service Center when, for example publishing a solution:
 
-![](images/could-not-create-fk-sc.png)
+![Error message in OutSystems Service Center indicating a failure to create a Foreign Key while publishing a solution.](images/could-not-create-fk-sc.png "Service Center Foreign Key Error")
 
 
 ## Most common scenarios
@@ -60,11 +60,11 @@ To resolve the situation, it's necessary to correct the data in the tables such 
 
 It's possible to set up your tables so that when deleting an entry from a table, all foreign keys depending on that entry are deleted: this is called cascade deletion. You can do this in OutSystems by going to the properties of the Foreign Key relationship and selecting "Delete" for the [Delete Rule property](https://success.outsystems.com/Documentation/11/Developing_an_Application/Use_Data/Data_Modeling/Entity_Relationships/Delete_Rules).
 
-![](images/could-not-create-fk-delete-rule.png)
+![OutSystems interface showing the Delete Rule property set to 'Delete' for a Foreign Key relationship.](images/could-not-create-fk-delete-rule.png "Delete Rule Property in OutSystems")
 
 In some scenarios, these delete rules run into scenarios that the database engine can't handle and therefore doesn't allow. In the scenarios below, this error is expected and the delete rules should be reviewed to avoid running into the error.
 
-![](images/could-not-create-fk-entity-diagram.png)
+![Diagram illustrating circular dependencies and multiple cascade paths in an entity relationship model that can cause Foreign Key errors.](images/could-not-create-fk-entity-diagram.png "Entity Relationship Diagram with Circular Dependencies and Multiple Cascade Paths")
 
 #### Circular dependencies
 
@@ -81,7 +81,7 @@ In the entity diagram above, on the right, deleting a value from table Z will ul
 
 Considering that the SQL engine validates the data present in the tables, if the tables exist, the larger their size the more time it’s required to create the FK. Validate if the tables have many records and, in that case, update the timeout value in the configuration tool. 
 
-![](images/Conf_tool_DB_timeout.png)
+![OutSystems Configuration Tool interface highlighting the Default Update Query Timeout field set to 600 seconds.](images/Conf_tool_DB_timeout.png "Configuration Tool Database Timeout Setting")
 
 Otherwise, if increasing the timeout isn't enough and/or the tables are small, check for database locks.
 

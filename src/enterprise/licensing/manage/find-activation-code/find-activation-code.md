@@ -18,5 +18,5 @@ On the right side, you'll find:
 * The Activation Code of the infrastructure that's always the same in all the environments of the factory.
 * The Serial Number of the environment, each environment has it's own distinct serial number,
 
-![](images/find-activation-code.png)
+![Screenshot of the Service Center Licensing page showing the location of the Activation Code and Serial Number.](images/find-activation-code.png "Service Center Licensing Screen")
 

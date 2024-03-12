@@ -26,7 +26,7 @@ As attackers are moving faster, exploiting far-reaching vulnerabilities, holding
 
 These attacks aren't isolated to well-defined parts of your enterprise, rather having the potential and the capability of affecting every single technological layer. The purpose of this guide is to provide development best practices to mitigate the security risks at the Application layer.
 
-![](images/layers.png)
+![Diagram showing three layers of enterprise technology: Applications, Network, and Systems Infrastructure.](images/layers.png "Enterprise Technological Layers")
 
 ## Protecting your apps against common vulnerabilities
 

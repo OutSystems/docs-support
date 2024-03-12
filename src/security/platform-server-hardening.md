@@ -36,11 +36,11 @@ Each environment has a [dedicated User tenant](https://success.outsystems.com/Do
 
 1. Select the **Administrator** user:
 
-    ![](images/platform-server-hardening-select-admin.png)
+    ![OutSystems Users application interface highlighting the Administrator user selection.](images/platform-server-hardening-select-admin.png "Selecting the Administrator User in OutSystems")
 
 1. Choose **Change Password**:
 
-    ![](images/platform-server-hardening-set-password.png)
+    ![OutSystems Users application showing the 'Change Password' option for the Administrator user.](images/platform-server-hardening-set-password.png "Changing the Administrator Password in OutSystems")
 
 
 ### LifeTime
@@ -49,7 +49,7 @@ LifeTime console [manages the IT users](https://success.outsystems.com/Documenta
 
 1. To rotate the password navigate to the User Management tab in `<lifetime address>/Lifetime`, select the user assigned administrator privileges:
 
-    ![](images/platform-server-hardening-select-LTadmin.png)
+    ![OutSystems LifeTime management console highlighting the IT Administrator user selection.](images/platform-server-hardening-select-LTadmin.png "Selecting the IT Administrator in LifeTime")
 
 1. Edit the password:
 

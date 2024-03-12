@@ -19,7 +19,7 @@ This issue occurs upon an upgrade of the Platform Server on an environment that 
 
 During the upgrade process, and after clicking **Apply and Exit** on the Configuration Tool, Service Center installation follows. During this process, you’ll see the error: `Value cannot be null.Parameter name: key`. The same error message may also appear when accessing apps on the browser or the device.
 
-!["Value cannot be null error" on the browser](images/ki-11_10-site-properties.png)
+![Screenshot of an error message stating 'Value cannot be null. Parameter name: key' during Service Center installation.](images/ki-11_10-site-properties.png "Error Message Screenshot")
 
 This error occurs because in OutSystems 11.10.2 introduced a validation mechanism for Site Property IDs that can’t parse Site Properties that have a non-standard format.
 Before OutSystems version 5, Site Properties had a non-standard composite key in format: [string-denoting-object-type][GUID] (for example.: site-1234abcd). This format was changed in OutSystems version 5 to always be represented by a RFC 4122 GUID.

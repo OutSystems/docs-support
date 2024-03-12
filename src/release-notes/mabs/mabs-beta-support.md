@@ -35,7 +35,7 @@ OutSystems also strongly recommends that customers begin testing their apps with
 The following timeline represents an example of the typical mobile development yearly cycle, indicating the work done by OutSystems (in blue), and the expected work from customers (in gold).
  
 
-![Mobile beta OS support timeline](images/mabs-beta-support-diag.png)
+![Timeline diagram showing the typical mobile development yearly cycle with OutSystems and customer responsibilities, including MABS version releases and operating system updates.](images/mabs-beta-support-diag.png "Mobile Application Build Service (MABS) Support Timeline")
 
 **June to September**
 

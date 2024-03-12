@@ -20,18 +20,18 @@ To request the removal of a component that you own, do the following:
 
 1. Select **Edit project details**.
 
-    ![edit forge project](images/remove-project-details-fg.png)
+    ![Screenshot highlighting the 'Edit project details' button on the Forge component page.](images/remove-project-details-fg.png "Edit Project Details Button")
 
 1. At the bottom, request the removal by clicking **Deactivate Component**.
 
-    ![deactivate component](images/remove-deactivate-component-fg.png)
+    ![Screenshot showing the 'Deactivate Component' button within the Component Control section.](images/remove-deactivate-component-fg.png "Deactivate Component Button")
 
 1. Click **Yes, I’m Sure** to confirm the request.
 
-    ![confirm component deactivation](images/remove-confirm-deactivatation-fg.png)
+    ![Confirmation dialog box asking to confirm the deactivation of a component with a 'Yes, I'm Sure' button.](images/remove-confirm-deactivatation-fg.png "Confirm Deactivation Dialog")
 
 If a removal needs to be done urgently, contact us by email: [communityteam@outsystems.com](mailto:communityteam@outsystems.com)
 
 You will still be able to access all your deactivated/deleted components in your components list.
 
-![confirm component deactivation](images/remove-deactivated-component-fg.png)
+![Screenshot displaying a deactivated component with a 'Deactivated' label in the Forge components list.](images/remove-deactivated-component-fg.png "Deactivated Component Status")

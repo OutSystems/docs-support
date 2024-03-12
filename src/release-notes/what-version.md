@@ -16,14 +16,14 @@ In the context of a support case, or when exploring the OutSystems documentatio
 
 To display the version of Service Studio and Integration Studio click **Help** > **About**.
 
-![Service Studio version](images/what-version-ss.png)
+![Screenshot showing how to find the version number in OutSystems Service Studio via the Help and About menu options.](images/what-version-ss.png "Service Studio Version Information")
 
 
 ## LifeTime
 
 Once logged into LifeTime, the version will display at the bottom of the page.
 
-![LifeTime version](images/what-version-lt.png)
+![Screenshot of the OutSystems LifeTime interface displaying the version number at the bottom of the page.](images/what-version-lt.png "OutSystems LifeTime Version Display")
 
 ## Platform Server
 
@@ -40,14 +40,14 @@ If, in a self-managed instalation, you suspect there's any inconsistency, you ca
 
 To obtain the Service Center version, login and check the right sidebar.
 
-![Service Center version](images/what-version-sc.png)
+![Screenshot showing the Service Center version number located on the right sidebar within the OutSystems interface.](images/what-version-sc.png "Service Center Version Information")
 
 ### System Components
 
 Obtain the System Components version by logging in to Service Center, clicking **Factory**, then **Applications**, and search for **System Components**. Check the version on the description.
 
-![System Components version](images/what-version-sys-sc.png)
+![Screenshot of the OutSystems Service Center with the System Components version highlighted in the application description.](images/what-version-sys-sc.png "System Components Version in Service Center")
 
 You can also check the version of each module that's a part of System Components by clicking the application to see the modules list.
 
-![Version of the modules of System Components](images/what-version-module-sc.png)
+![Screenshot displaying the version of individual modules within the System Components application in OutSystems Service Center.](images/what-version-module-sc.png "Module Version Details in System Components")

@@ -16,4 +16,4 @@ In case candidates don't find the score report on your Inbox, SPAM or Junk email
 
 Filling in the confirmation number of the exam, as well as the last name, candidates will be available to download their exam score report.
 
-![](images/score-report-image.png)
+![Screenshot of the Prometric Report Validation Portal with fields for Confirmation Number, Candidate Last Name, and CAPTCHA input.](images/score-report-image.png "Prometric Report Validation Portal Screenshot")

@@ -11,7 +11,7 @@ platform-version: o11
 
 At OutSystems we strive to ensure that our customers can continuously benefit from our latest innovations and features that truly help to speed up the digital transformation processes. With this goal in mind, we've devised a product lifecycle that allows OutSystems to keep our product innovative and up to date with current market trends.
 
-![OutSystems release lifecycle](images/product-lifecycle-diag.png)
+![Diagram illustrating the OutSystems product lifecycle stages including major releases, releases, and cumulative patches.](images/product-lifecycle-diag.png "OutSystems Product Lifecycle Diagram")
 
 Our product may be updated through several types of releases:
 
@@ -96,7 +96,7 @@ For discontinued versions, it might be necessary to have some downtime; therefor
 
 The below calendar shows the past, current, and planned dates for OutSystems product mainstream support.
 
-![OutSystems support calendar](images/product-lifecycle-cal-diag.png)
+![Timeline showing the support calendar for OutSystems product versions, indicating live, discontinued, and end of extended support phases.](images/product-lifecycle-cal-diag.png "OutSystems Support Calendar")
 
 
 ## Documentation and training updates

@@ -17,11 +17,11 @@ In this article, you will learn to create a workaround to avoid this situation.
 
 Consider a scenario with two environments: **Development** and **Production**. Both of them contain the same version of the application.
 
-![](images/application-entitiy-issue-ss.png)
+![Screenshot showing an application with an entity issue in both Development and Production environments.](images/application-entitiy-issue-ss.png "Application Entity Issue in Development and Production Environments")
 
 The application simply displays the values of an Entity on the screen.
 
-![](images/application-entity-issue3-ss.png)
+![Screenshot of an application interface displaying values of an entity on the screen.](images/application-entity-issue3-ss.png "Application Displaying Entity Values")
 
 On the database side, an Identifier is created that uniquely identifies the Entity so that the Platform can recognize it across different environments.  
 
@@ -29,7 +29,7 @@ If  a developer recreates an entity, for example, cuts/copies and pastes the Ent
 
 Nevertheless, this change passes unnoticed and now the developer stages the application from Development to Production. After the deployment finishes, they notice that the application no longer displays information.
 
-![](images/application-entity-issue2-ss.png)
+![Screenshot showing an application with no entity data displayed after deployment, indicating an issue.](images/application-entity-issue2-ss.png "Application with No Entity Data Displayed After Deployment")
 
 
 This is because a new Entity, with a new Identifier, will also be created in Production and the original one that contains the physical data is marked as inactive. 
@@ -47,7 +47,7 @@ Follow these steps to avoid data lose in entities during deployment.
 2. Considering that the information in Production is usually more valuable than in Development, stage the Entity from Production to Development so that the Identifier in Development becomes the same as in Production. This will keep the data in Production and the data in Development will be lost. 
 The easiest way is through LifeTime. There is another option to merge the eSpace from Production into Development directly through Service Studio. The important part is that the Entity in Production is merged to the Entity in Development.
 
-![](images/application-entity-issue4-ss.png)
+![Screenshot illustrating the process of staging an entity from Production to Development to synchronize identifiers.](images/application-entity-issue4-ss.png "Staging Entity from Production to Development")
 
 
 3. Now, the Identifier in Development is the same as the one in Production. When staging again from Development to Production, the Identifier will now be consistent and the data will persist. 

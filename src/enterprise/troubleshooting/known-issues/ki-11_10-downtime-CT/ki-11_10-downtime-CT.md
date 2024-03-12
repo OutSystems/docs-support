@@ -31,7 +31,7 @@ This known issue has a **very high impact**:  application downtime that starts a
     
     `Current virtual directory "C:\Program Files\OutSystems\Platform Server\CustomHandlers" was replaced by "C:\Program Files\OutSystems\Platform Server 11.0\CustomHandlers"`
 
-    ![Configuration Tool warning](images/known-issue-11_10-CT.png)
+    ![Screenshot of the Configuration Tool displaying a warning message about the current virtual directory being replaced.](images/known-issue-11_10-CT.png "Configuration Tool Warning Message")
 
 * The typical symptoms on application runtime are the following:
 

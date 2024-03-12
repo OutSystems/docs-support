@@ -49,12 +49,12 @@ The administrator must have the Manage Infrastructure and Users permission and p
 
 4. A warning message with respect to the User’s blocked condition should appear:
 
-![](images/too-many-failed-login_0.png)
+![Warning message indicating that login attempts from a user have been blocked in the OutSystems management console.](images/too-many-failed-login_0.png "User Blocked Warning Message")
  
 
 5. By clicking on the "See details" link, the administrator will be redirected to an information table, where they will be able to unblock the user on their current address, by pressing the “Unblock” button:
 
-![](images/too-many-failed-login_1.png)
+![Administrator's view showing the option to unblock a user after multiple failed login attempts.](images/too-many-failed-login_1.png "Unblock User Action")
  
 
 6. After clicking the button, the table is cleared and a success feedback message is presented to the administrator, indicating that the user is unblocked.
@@ -65,14 +65,14 @@ If there is no warning message in Step 4 or if the warning message is displayed 
 
 2. Click on the Blocked Addresses link under the Infrastructure title;
 
-![](images/too-many-failed-login_2.png)
+![Screenshot highlighting the 'Blocked Addresses' link in the OutSystems management console.](images/too-many-failed-login_2.png "Blocked Addresses Menu Option")
  
 
 3. Match the user’s IP address with the corresponding line in the blocked addresses table;
 
 4. Click on the Unblock button to allow login actions from that address again:
 
-![](images/too-many-failed-login_3.png)
+![Table with blocked IP addresses and an 'Unblock' button to allow login attempts from the listed addresses.](images/too-many-failed-login_3.png "Unblocking IP Address")
  
 
 5. After clicking the button, the table is cleared and a success feedback message is presented to the administrator, indicating that the address is unblocked.
@@ -91,12 +91,12 @@ If LifeTime isn't installed in your infrastructure, use Service Center to unbloc
 
 4. A warning message with respect to the User’s blocked condition should appear:
 
- ![](images/too-many-failed-login_4.png)
+ ![Warning message in Service Center indicating a user's login attempts have been blocked.](images/too-many-failed-login_4.png "Service Center User Blocked Warning")
  
 
 5. By clicking on the "See details" link, the administrator will be redirected to the corresponding tab on the screen, where he'll be able to select and unblock the user on his current address, by pressing an “Unblock Selected” button:
 
-![](images/too-many-failed-login_5.png)
+![Details of blocked login attempts with an 'Unblock Selected' button in Service Center.](images/too-many-failed-login_5.png "Service Center Unblock User Option")
  
 
 6. After selecting the appropriate line and clicking the button, the line is cleared and a success feedback message is presented to the administrator, indicating that the user is unblocked.
@@ -107,7 +107,7 @@ If there is no warning message in Step 4, this probably means several users unsu
 
 2. Match the user’s IP address with the corresponding line in the blocked addresses table and select it:
 
-![](images/too-many-failed-login_6.png)
+![List of blocked IP addresses in Service Center with options to select and unblock them.](images/too-many-failed-login_6.png "Service Center Blocked IP Address")
  
 
 3. Click on the "Unblock Selected" button to allow login actions from that address again;
@@ -130,12 +130,12 @@ The following steps must be executed:
 
 4. A warning message with respect to the User’s blocked condition should appear:
 
-![](images/too-many-failed-login_7.png)
+![Notification in the Users application that a user's login attempts have been blocked.](images/too-many-failed-login_7.png "Users Application User Blocked Warning")
  
 
 5. By clicking on the **See details** link, the administrator will be redirected to an information table, where he will be able to unblock the user on his current address, by pressing an “Unblock” link:
 
-![](images/too-many-failed-login_8.png)
+![Interface showing blocked login attempts with an 'Unblock' link for administrator action in the Users application.](images/too-many-failed-login_8.png "Users Application Unblock User Action")
  
 
 6. After clicking the link, the line is cleared and a success feedback message is presented to the administrator, indicating that the user is unblocked.
@@ -146,12 +146,12 @@ If there is no warning message, this probably means several users unsuccessfully
 
 2. On the right panel, **click** on the **Blocked Addresses** link:
 
-![](images/too-many-failed-login_9.png)
+![Users application interface highlighting the 'Blocked Addresses' link for administrator access.](images/too-many-failed-login_9.png "Users Application Blocked Addresses Access")
  
 
 3. Match the user’s IP address with the corresponding line in the blocked addresses table and press the Unblock button:
 
-![](images/too-many-failed-login_10.png)
+![Screen showing a list of blocked IP addresses with an 'Unblock' button next to each entry in the Users application.](images/too-many-failed-login_10.png "Users Application Unblock IP Address")
  
 
 4. After clicking the appropriate link, the line is cleared and a success feedback message is presented to the administrator, indicating that the address is unblocked

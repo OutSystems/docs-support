@@ -45,7 +45,7 @@ The OutSystems database must always exist to store:
 
 * Global data to support cross-application infrastructure such as: Single Sign-on, Permission Areas, etc;
 
-![ ](images/multiple-db-catalogs-schemas_0.png)
+![Diagram showing the OutSystems Platform Server connected to three separate databases: CorporateSite Database, Platform Database, and Intranet Database.](images/multiple-db-catalogs-schemas_0.png "OutSystems Platform Server and Database Server Diagram")
 
 ## Steps to Create Multiple Databases
 
@@ -57,19 +57,19 @@ The permissions should be set as follows:
 
 **Runtime User:** must have read and write permissions for all tables.
 
-![ ](images/multiple-db-catalogs-schemas_1.png)
+![Screenshot of SQL Server showing runtime user permissions including read and write access to tables.](images/multiple-db-catalogs-schemas_1.png "SQL Server Runtime User Permissions")
 
 **Platform’s admin user:** must have the permissions set for db_accessadmin, db_datareader, db_datawriter, db_ddladmin, and db_securityadmin.
 
-![ ](images/multiple-db-catalogs-schemas_2.png)
+![Screenshot of SQL Server displaying the Platform admin user permissions with roles such as db_accessadmin and db_securityadmin highlighted.](images/multiple-db-catalogs-schemas_2.png "SQL Server Platform Admin User Permissions")
 
 Once the catalog is created in SQL Server, proceed to Service Center Adminitration tab and select Database Catalogs.
 
-![ ](images/multiple-db-catalogs-schemas_3.png)
+![Screenshot of the Service Center's Database Catalogs screen with the option to configure a new catalog.](images/multiple-db-catalogs-schemas_3.png "Service Center Database Catalogs Screen")
 
 Then use the "Configure New Catalog" and add the catalog you previously created. Please test the configuration before saving it in order to ensure the permissions are correctly setup.
 
-![ ](images/multiple-db-catalogs-schemas_4.png)
+![Screenshot of the Service Center interface for configuring a new database catalog with fields for logical name and catalog name.](images/multiple-db-catalogs-schemas_4.png "Configuring a New Database Catalog in Service Center")
 
 ### Create a new Database (Schema) in Oracle
 
@@ -79,7 +79,7 @@ Fill in the information for the new schema and download the configuration script
 
 The script to create the Schema already sets all required permissions.
 
-![ ](images/multiple-db-catalogs-schemas_5.png)
+![Screenshot of the Service Center interface for configuring a new database schema with fields for logical name, schema name, and tablespaces.](images/multiple-db-catalogs-schemas_5.png "Configuring a New Database Schema in Service Center")
 
 ## Publishing new modules
 

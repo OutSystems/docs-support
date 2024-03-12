@@ -1,12 +1,11 @@
 ---
-summary: 
+summary: The article provides a guide on configuring an Oracle database in the OutSystems platform, including steps for both Java and .NET stacks and how to use service names or TNS names for connections
 locale: en-us
 guid: 27d32f78-27a2-4e8a-af85-8b356928c4d7
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
 figma: https://www.figma.com/file/cPLNnZfDOZ1NX3avcjmq3g/Enterprise%20Customers?node-id=618:24
 ---
-
 # Configuring Oracle database in the OutSystems platform
 
 This document details the steps needed to configure an Oracle database in the OutSystems Platform Server.
@@ -61,7 +60,7 @@ When using the "Service Name" naming method you must fill in the following param
 
 **.NET stack**
 
-![](images/config-oracle-database_0.png)
+![Screenshot of the OutSystems Configuration Tool for .NET stack showing fields for Host, Port, and Service Name.](images/config-oracle-database_0.png "OutSystems Configuration Tool - .NET Stack Service Name")
 
 **Java stack**
 ```
@@ -104,7 +103,7 @@ By selecting the "TNS Name" naming method it is possible to configure a connect 
 
 **.NET stack**
 
-![](images/config-oracle-database_1.png)
+![Screenshot of the OutSystems Configuration Tool for .NET stack with the TNS Name field highlighted.](images/config-oracle-database_1.png "OutSystems Configuration Tool - .NET Stack TNS Name")
 
 **Java stack**
 ```
@@ -141,7 +140,7 @@ Applications TNS Name: outsystemsdb
 
 In Windows, the tnsnames.ora file must be located in the path defined by the `TNS_ADMIN` system environment variable.
 
-![](images/config-oracle-database_2.png)
+![Dialog box showing Windows Environment Variables with a new system variable TNS_ADMIN being added.](images/config-oracle-database_2.png "Windows Environment Variables for TNS_ADMIN")
 
 In Linux, for the OutSystems Java stack, the tnsnames.ora file must be located in `/etc/outsystems`.
 
@@ -155,7 +154,7 @@ The steps to configure an external database connection are similar to the ones d
 
 To connect via a Service Name, select Basic Configuration.
 
-![](images/config-oracle-database_3.png)
+![Service Center interface showing the Basic Configuration mode for an Oracle database connection.](images/config-oracle-database_3.png "Service Center Basic Configuration for Oracle Database")
 
 By selecting Advanced Configuration it is possible to define the TNS configuration explicitly in Service Center, and there's no need to use tnsnames.ora files.
 
@@ -163,13 +162,13 @@ By selecting Advanced Configuration it is possible to define the TNS configurati
 
 In the OutSystems .NET stack, the TNS configuration must follow the ADO.NET driver syntax:
 
-![](images/config-oracle-database_4.png)
+![Service Center interface showing the Advanced Configuration mode for an Oracle database connection in the .NET stack.](images/config-oracle-database_4.png "Service Center Advanced Configuration for Oracle Database - .NET Stack")
 
 **Java Stack**
 
 In the OutSystems Java stack, the TNS configuration must follow the JDBC driver syntax:
 
-![](images/config-oracle-database_5.png)
+![Service Center interface showing the Advanced Configuration mode for an Oracle database connection in the Java stack.](images/config-oracle-database_5.png "Service Center Advanced Configuration for Oracle Database - Java Stack")
 
  
 
@@ -192,7 +191,7 @@ outsystemsdb=
 
 If an external database connection is using an Oracle database using SID, the Advanced Configuration should reflect this by with the appropriate connect descriptor:
 
-![](images/config-oracle-database_6.png)
+![Service Center interface showing the Advanced Configuration mode with fields for an Oracle database connection using SID.](images/config-oracle-database_6.png "Service Center Advanced Configuration Using SID")
 
  
 

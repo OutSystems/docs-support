@@ -25,7 +25,7 @@ A postback is commonly used in pages that contain forms, for example. When a use
  
 The view state is a hidden field in the HTML of the web page. Its value property stores the view state encoded information. It's a good practice to encrypt the view state and avoid using it to store sensitive information. To prevent performance degradation,  it's not recommended to store large amounts of information in the view state.
  
-![viewstate](images/cannot-decrypt-console.png)
+![Screenshot of a console error message indicating a problem with view state decryption.](images/cannot-decrypt-console.png "Console Error Message")
 
 Check the [Microsoft documentation](https://docs.microsoft.com/en-us/dotnet/api/system.web.ui.control.viewstate?view=netframework-4.8) for more information about the view state.
 
@@ -47,7 +47,7 @@ When the cookies sent in the request and stored in the view state differ, the Pl
 
 The most common symptom when navigating on the web application is this error is displayed on the screen:
 
-![Internal error](images/cannot-decrypt-screen-error.png)
+![Error notification on a web page displaying 'Internal Error' with instructions to try again later or contact the administration team.](images/cannot-decrypt-screen-error.png "Screen Error Notification")
 
 In .NET the following will be logged in the Service Center error logs:
 
@@ -137,7 +137,7 @@ This is an expected behavior, reloading the publicly deployed app will overcome 
 
 This error can happen when performing a postback in a screen that has a value set in Cache in Minutes.
 
-![Screen with cache in minutes set](images/cannot-decrypt-cache_SS.png)
+![OutSystems platform screen showing cache settings with 'Cache in Minutes' set to 3.](images/cannot-decrypt-cache_SS.png "Cache Settings in OutSystems")
 
 The view state is cached with the page, so when opening the same screen on a new browser session (e.g. incognito window), the cached View State cannot be decrypted using the osVisitor cookie of the new session.
 

@@ -21,7 +21,7 @@ For your self-managed environments, you'll need to obtain and install the licens
 
 Pick the infrastructure you're managing:
 
-![](images/get-license-for-env-1.png)
+![Screenshot showing the selection of an infrastructure from a dropdown menu in the Customer Portal.](images/get-license-for-env-1.png "Selecting Infrastructure in Customer Portal")
 
 <div class="info" markdown="1">
 
@@ -44,13 +44,13 @@ To obtain a license, you'll first need to register the environment using its ser
 
 1. Scroll down on the page to find an environment that doesn't have an associated serial number, taking special care to select the right "environment type":
 
-    ![](images/get-license-for-env-2.png)
+    ![Screenshot of the Customer Portal displaying an unregistered development environment with an option to register the environment.](images/get-license-for-env-2.png "Registering an Environment Serial Number")
 
     The image above shows an infrastructure with a single environment of type "Development". What you see on this page depends on your OutSystems subscription.
 
 1. Click **Register Environment**, and enter the serial number of the environment that's obtained from Service Center.
 
-    ![](images/get-license-for-env-3.png)
+    ![Dialog box for registering an environment with a field to enter the serial number.](images/get-license-for-env-3.png "Register Environment Dialog")
 
 <div class="info" markdown="1">
 
@@ -62,7 +62,7 @@ Don't have any more environments available? See [how to free up an existing envi
 
 The environment is now associated with the serial number and you can download the license file:
 
-![](images/get-license-for-env-4.png)
+![Screenshot showing a registered development environment with the option to download the license file highlighted.](images/get-license-for-env-4.png "Downloading the License File")
 
 The permissions to download license files are managed at the [Customer Portal](https://success.outsystems.com/Support/Enterprise_Customers/OutSystems_Support/Managing_your_company_permissions_on_outsystems.com#Customer_Portal_permissions).
 

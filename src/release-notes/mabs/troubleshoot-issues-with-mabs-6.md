@@ -64,7 +64,7 @@ The RedirectToURL Event fails on MABS 6.
 
 Because the iOS applications from MABS 6 load with `outsystems://`, and not `https://`, redirects with the absolute URLs to another OutSystems app fail.
 
-![RedirectToURL Event property](images/event-redirecttourl-prop.png?width=300)
+![Screenshot of the RedirectToURL event properties in an OutSystems application showing the URL set to 'outsystems://myapp.example.com'.](images/event-redirecttourl-prop.png "RedirectToURL Event Properties")
 
 
 You can try these workarounds with RedirectToUrl:

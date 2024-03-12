@@ -18,7 +18,7 @@ The purpose of the obfuscation is to make the app harder to reverse-engineer. Du
 
 In an obfuscated app, an error stack trace might look like this:
 
-![Obfuscation example](images/obfuscated.png)
+![Example of an obfuscated stack trace in a log file.](images/obfuscated.png "Obfuscated Stack Trace Example")
 
 **Prerequisites**
 
@@ -38,7 +38,7 @@ These are the prerequisites to deobfuscate the logs.
 
     With **proguardgui**. Click the **ReTrace** button in the left pane and locate your mapping file. Paste the obfuscated stack trace and click **ReTrace!**.
 
-    ![Proguard UI](images/proguard-log.png) 
+    ![Screenshot of the ProGuard Retrace tool interface showing the process of deobfuscating a stack trace.](images/proguard-log.png "ProGuard Retrace Tool Interface") 
 
 <div class="warning" markdown="1>
 

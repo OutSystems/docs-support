@@ -53,7 +53,7 @@ Start by performing the following steps in the deployment controller server:
 
 1. Open the Configuration Tool and verify the users you wish to change. You can also check there the address of the databases to connect when changing the users passwords. This is an example of the Platform database users:
 
-    ![Configurations Tool Platform tab](images/change-pw-database-users-conf-tool.png?width=450)
+    ![Screenshot of the Configuration Tool showing the Platform database users with fields for Administrator and Runtime user names and password input.](images/change-pw-database-users-conf-tool.png "Configuration Tool Platform Database Users")
 
 1. Stop all OutSystems services.
 1. Connect to each of the databases using the appropriate management tool (for example: SQL Server Management Studio or Oracle Developer) and change the passwords where applicable. Depending on your criteria you may choose to change it only for some users or for all:
@@ -63,7 +63,7 @@ Start by performing the following steps in the deployment controller server:
 1. In the deployment controller server, open the [Configuration Tool](https://success.outsystems.com/Documentation/11/Reference/Configuration_Tool) and change the passwords:
     1. In the corresponding tab (Platform, Log, Session) change the values on the **Password** field for each database user that was altered in step 3. The following image shows an example on the Log tab:
 
-        ![Configurations Tool Platform tab](images/change-pw-database-users-conf-tool_1.png?width=450)
+        ![Screenshot of the Configuration Tool showing the Log database users with fields for Administrator and Runtime user names and password input.](images/change-pw-database-users-conf-tool_1.png "Configuration Tool Log Database Users")
 
     1. On the tabs where the passwords were changed, click **Grant Permissions** (for the Platform and Log tabs) and **Create Session Database** on the Session tab. 
     1. Confirm that the passwords you entered in the Configuration Tool match the ones on the database by clicking on the corresponding the **Test Connection** links on the corresponding tab.
@@ -155,7 +155,7 @@ As a workaround, AD authentication needs to be temporarily disabled as follows:
 
 Usually, during this process, you may identify errors related to failed database logins in the Event Viewer logs. These errors happen when an OutSystems application (Service Center included) wasn't republished yet after changing the database users password. Please check the following example:
 
-![Event Viewer error](images/change-pw-database-users-troubleshoot.png)
+![Screenshot of an Event Viewer log entry indicating a login failure for a database user, with a red box highlighting the error message.](images/change-pw-database-users-troubleshoot.png "Event Viewer Database Login Error")
 
 A particular module isn't able to establish a connection to the database because the login is failing. This happens because it's still using the old information to login to the database.
 

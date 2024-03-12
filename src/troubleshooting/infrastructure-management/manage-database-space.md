@@ -25,13 +25,13 @@ If you are [reaching the storage database limit](#check-how-much-database-space-
 
 Go to your Personal Environment at `https://<yourpersonal>.outsystemscloud.com` and navigate to the **Environments** tab.
 
-![Environments page, showing information about Development, Servers and Database.](images/manage-database-space_0.png)
+![Screenshot showing the OutSystems Personal Environment dashboard with 13% database usage.](images/manage-database-space_0.png "OutSystems Personal Environment Database Usage Overview")
 
 In this example only 13% of the available database storage space is being used.
 
 To check how much space is being used for system data and application data, click the **View details** link.
 
-![Details about Database Usage, with metrics for System Data and Application Data.](images/manage-database-space_1.png)
+![Screenshot detailing database usage with 255 MB for system data and 4 MB for application data in the OutSystems Personal Environment.](images/manage-database-space_1.png "Detailed Database Usage in OutSystems Personal Environment")
 
 <div class="info" markdown="1">
 

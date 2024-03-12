@@ -27,7 +27,7 @@ When this happens you will see a License Error stating:
 The license found is not valid for this server because it was issued to a server with serial number...
 </div>
 
-![](images/change-hw-license-invalid_0.png)
+![Screenshot of an OutSystems licensing screen displaying a license error due to a serial number mismatch after hardware changes.](images/change-hw-license-invalid_0.png "License Error Message")
 
 ### What do you need to do to restore your license?
 

@@ -63,7 +63,7 @@ The following commands depend on your specific application server and its versio
 
     * Keytool will now ask you to enter some information needed for your certificate:
 
-![](images/install-SSL-certificate-outsystems-linux_0.png)
+![Terminal output showing the process of generating a key pair using keytool command.](images/install-SSL-certificate-outsystems-linux_0.png "Command Line Interface for Generating a Key Pair")
  
 7. Generate a Certificate Signing Request (CSR) for your domain, by executing the following command:
 
@@ -226,17 +226,17 @@ security-realm="SecureApplicationRealm"/>
 
 3. In the Domain Structure panel (left of the screen), under **outsystems_domain**, click on **Environment** and then on **Servers**:
 
-![](images/install-SSL-certificate-outsystems-linux_1.png)
+![Screenshot of the Oracle WebLogic Server Administration Console displaying the Summary of Servers.](images/install-SSL-certificate-outsystems-linux_1.png "WebLogic Administration Console - Summary of Servers")
  
 
 4. On the **Summary of Servers** panel, locate your server and click on its name:
 
-![](images/install-SSL-certificate-outsystems-linux_2.png)
+![Screenshot showing the settings for a specific server in the WebLogic Administration Console.](images/install-SSL-certificate-outsystems-linux_2.png "WebLogic Server Settings")
  
 
 5. On the General tab, ensure that **SSL Listen Port Enabled** is checked, and that the port being used is **8443**:
 
-![](images/install-SSL-certificate-outsystems-linux_3.png)
+![Screenshot of the SSL Listen Port configuration section in the WebLogic Administration Console.](images/install-SSL-certificate-outsystems-linux_3.png "WebLogic SSL Listen Port Configuration")
  
 
 6. On the **Keystores** tab, ensure that:
@@ -247,14 +247,14 @@ security-realm="SecureApplicationRealm"/>
 
     * **Custom Identity Keystore Passphrase** is set (**Confirm Custom Identity Keystore Passphrase**).
 
-![](images/install-SSL-certificate-outsystems-linux_4.png)
+![Screenshot of the Keystores configuration tab in the WebLogic Administration Console.](images/install-SSL-certificate-outsystems-linux_4.png "WebLogic Keystores Configuration")
  
 
 7. Click **Save**;
 
 8. In the Change Center panel (top left of the screen), click **Activate Changes**:
 
-![](images/install-SSL-certificate-outsystems-linux_5.png)
+![Screenshot of the WebLogic Administration Console with the Activate Changes option highlighted.](images/install-SSL-certificate-outsystems-linux_5.png "WebLogic Administration Console - Activate Changes")
  
 
 9. Login as root, or as a regular user and then elevate your privileges to root;

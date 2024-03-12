@@ -1,18 +1,18 @@
 ---
+summary: OutSystems provides solutions to address the viewport-fit issue on iOS 12 iPhones by changing the Status Bar and WebView background colors at runtime.
 locale: en-us
 guid: 83ea60d3-c30f-44e3-b411-9199f6c3ae33
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
 figma: https://www.figma.com/file/6tXLupLiqfG9FOElATTGQU/Troubleshooting?node-id=3303:399
 ---
-
 # Further Recommendations on the MABS 4.0 Viewport-Fit Issue in iOS 12 Phones
 
 OutSystems proposes a way to solve the [known issue about the "viewport-fit" meta tag](https://success.outsystems.com/Support/Release_Notes/Mobile_Apps_Build_Service/MABS_Version_4.0#Known_issue) in iPhones running iOS 12. However this causes the app to stop using the entire screen, and an empty bottom bar appears over the "home" button area in iPhone X devices. 
 
 The following images show a mobile app with and without the "viewport-fit" meta tag: 
 
-![](images/viewport-fit-issue-1.png)
+![Comparison of a mobile app interface on an iPhone with the viewport-fit meta tag applied, showing an empty bottom bar above the home button.](images/viewport-fit-issue-1.png "Mobile App with Viewport-Fit Meta Tag")
 
 To provide a better user experience, you can change the Status Bar color and the default background color of the WebView in runtime.
 
@@ -42,4 +42,4 @@ if (typeof(window.plugins) !== 'undefined' && typeof(window.plugins.webviewcolor
 
 After changing the Status Bar color and the default background color of the WebView, the mobile app should look like the following images:
 
-![](images/viewport-fit-issue-2.png)
+![Comparison of a mobile app interface on an iPhone without the viewport-fit meta tag, displaying a full-screen view with the Status Bar and WebView background colors changed.](images/viewport-fit-issue-2.png "Mobile App without Viewport-Fit Meta Tag")

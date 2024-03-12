@@ -1,12 +1,11 @@
 ---
-summary: 
+summary: The article explains how to resolve a connection string mismatch error when registering a front-end server in a multi-server OutSystems environment
 locale: en-us
 guid: a1e5c82a-4d78-42f5-a426-0f92eb41932a
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
 figma: https://www.figma.com/file/cPLNnZfDOZ1NX3avcjmq3g/Enterprise-Customers?type=design&node-id=3213%3A267&mode=design&t=FYaMOnIz87CLkC0F-1
 ---
-
 # Unable to register the Front-end Server. The server's connection string is different from the Deployment Controller's connection string
 
 ## Symptoms
@@ -74,11 +73,11 @@ This happens because your front-end is being registered with a connection string
 
 The server's connection string is set in the Configuration tool. For example, the below could be a configuration for the Controller (screenshots below for .NET):
 
-![Configuration for the Controller uppercase](images/unable-register-front-end-lowercase-ct.png)
+![Screenshot of the Configuration Tool showing the correct database name 'devDB' in lowercase.](images/unable-register-front-end-lowercase-ct.png "Correct Configuration Tool Example")
 
 If your front-end does not have the exact same configuration, that message will appear. Note that the configuration is **case-sensitive**; the example below will cause the error:
 
-![Configuration for the Controller lowercase](images/unable-register-front-end-uppercase-ct.png)
+![Screenshot of the Configuration Tool with an incorrect database name 'DEVDB' in uppercase, which causes an error.](images/unable-register-front-end-uppercase-ct.png "Incorrect Configuration Tool Example")
 
 As you can see in the example, the Controller node had database **devDB**; in this front-end, I wrote **DEVDB**, so I will have the error.
 

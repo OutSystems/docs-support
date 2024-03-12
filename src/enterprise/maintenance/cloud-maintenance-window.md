@@ -29,17 +29,17 @@ To configure the maintenance window for an environment in OutSystems Cloud, foll
 
 1. Click the **Environments** tab.
 
-    ![](images/cloud-maintenance-window-1.png?width=600)
+    ![Screenshot of the OutSystems LifeTime console highlighting the Environments tab.](images/cloud-maintenance-window-1.png "OutSystems Environments Tab")
 
 1. Click the environment to which you want to configure the maintenance window.
 
 1. Click the link with the current maintenance window.
 
-    ![](images/cloud-maintenance-window-2.png?width=600)
+    ![Screenshot showing the OutSystems environment configuration with a focus on the maintenance window link.](images/cloud-maintenance-window-2.png "OutSystems Environment Configuration")
 
 1. Select the **Day of Week** and the **Time Interval** that better fits. Note that Time Intervals apply only to business days and the time is in **UTC**.
 
-    ![](images/cloud-maintenance-window-3.png?width=300)
+    ![Close-up of the Maintenance Window settings in OutSystems showing options for Day of Week and Time Interval.](images/cloud-maintenance-window-3.png "Maintenance Window Settings")
 
     If you are defining the maintenance window for a **non-production** environment, it will be applied to all the **remaining non-production** and **LifeTime** environments.
 

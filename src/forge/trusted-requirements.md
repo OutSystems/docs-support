@@ -17,11 +17,11 @@ When searching for assets in OutSystems Forge, take into consideration that some
 * **OutSystems Supported assets** - developed, maintained, and supported by OutSystems.
 * **Trusted assets** - developed and shared by the OutSystems Community. Validated by the OutSystems Curation team to ensure these assets deliver the promised functionality and are built based on best practices.
 
-![OutSystems Forge](images/trusted-assets-fg.png)
+![Screenshot of OutSystems Forge with filters applied showing Trusted and OutSystems Supported assets.](images/trusted-assets-fg.png "OutSystems Forge Curation Filters")
 
 This article describes the set of requirements that an asset shared in Forge must comply with to be considered a **Trusted** asset. To request a trusted badge for your asset, select **Request trusted badge** from the **Manage** dropdown.
 
-![Request trusted badge](images/request-trusted-badge-button-fg.png)
+![Close-up of the 'Request trusted badge' button on the OutSystems Forge asset management page.](images/request-trusted-badge-button-fg.png "Request Trusted Badge Button")
 
 If you want to share your asset with the OutSystems Community and have it trusted by the OutSystems Curation team, you must ensure that your asset complies with the requirements listed below.
 
@@ -57,7 +57,7 @@ The asset information in Forge must be clear and complete. For this, the asset m
 * Demo
 * Release notes (New versions of the asset must indicate in detail what changed and be correctly categorized and tagged.)
 
-    ![Asset release notes](images/release-notes-fg.png)
+    ![Example of release notes for an asset on the OutSystems Forge platform detailing new features and updates.](images/release-notes-fg.png "Asset Release Notes Example")
 
 For more information on how to create clear and complete assets, see [Forge assets best practices](https://success.outsystems.com/Documentation/Best_Practices/Development/Forge_components_best_practices?_gl=1*nxd83y*_ga*MjI3NTY0NTA3LjE2NTk1MzQ4MzE.*_ga_ZD4DTMHWR2*MTY2MTg1NDk3My4zMy4xLjE2NjE4NTUxNzUuOC4wLjA)
 

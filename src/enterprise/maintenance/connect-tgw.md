@@ -34,7 +34,7 @@ Some advantages of using an AWS Transit Gateway are:
 
 The diagram below shows an example of how you can use AWS Transit Gateway to centrally connect your OutSystems Cloud VPC and your own AWS VPC, using a VPN on your side to connect to your on-premises network.
 
-![connect to OutSystems Cloud using AWS TGW](images/connect-tgw-diag.png?width=1000)
+![Diagram illustrating the connection between OutSystems Cloud VPC, AWS Transit Gateway, Customer VPC, VPN Connection, and On-Premises Network.](images/connect-tgw-diag.png "AWS Transit Gateway Connection Diagram")
 
 ## Set up the connection to your OutSystems Cloud
 
@@ -48,7 +48,7 @@ The diagram below shows an example of how you can use AWS Transit Gateway to cen
 
 ### Setup Overview
 
-![TGW setup overview](images/connect-tgw-setup-overview-diag.png?width=1000)
+![Flowchart showing the steps for setting up AWS Transit Gateway connection with OutSystems Cloud.](images/connect-tgw-setup-overview-diag.png "Setup Overview for AWS Transit Gateway Connection")
 
 ### Step 1. Request the setup of AWS Transit Gateway connection  { #step-1 }
 
@@ -78,25 +78,25 @@ OutSystems replies to you through the support case providing you the instruction
 
 1. Choose a **Name** for the resource share.
 
-    ![TGW create resource share](images/connect-tgw-create-share-name-aws.png)
+    ![Screenshot of the AWS Resource Access Manager interface for creating a resource share named TGW-to-OutSystems.](images/connect-tgw-create-share-name-aws.png "AWS Resource Access Manager Create Resource Share Interface")
 
 1. Select **Transit Gateways** for the **resource type**.
 
 1. Select the Transit Gateway that you want to share.
 
-    ![TGW create resource share select transit gateway](images/connect-tgw-create-share-select-aws.png)
+    ![Screenshot showing the selection of a Transit Gateway resource to be shared in AWS Resource Access Manager.](images/connect-tgw-create-share-select-aws.png "Selecting Transit Gateway in AWS Resource Access Manager")
 
 1. Check the **Allow external accounts** option and add the **AWS Account Id** of your OutSystems Cloud, provided by OutSystems in [Step 2](#step-2).
 
-    ![TGW create resource share add AWS account](images/connect-tgw-create-share-add-account-aws.png)
+    ![Screenshot depicting the addition of an external AWS account to a resource share in AWS Resource Access Manager.](images/connect-tgw-create-share-add-account-aws.png "Adding External Account to AWS Resource Share")
 
 1. Click the **Create resource share** button.
 
-    ![TGW create resource share](images/connect-tgw-create-share-ok-aws.png)
+    ![Screenshot of the AWS Resource Access Manager interface with the 'Create resource share' button highlighted.](images/connect-tgw-create-share-ok-aws.png "Finalizing Resource Share Creation in AWS")
 
 1. Reply to the support case to inform OutSystems that you have already created the resource share on your side. Make sure you include the **ID of the newly created Resource share** in the support case information.
 
-    ![TGW resource share id](images/connect-tgw-share-id-aws.png)
+    ![Screenshot showing the successful creation of a resource share with its ID highlighted in AWS Resource Access Manager.](images/connect-tgw-share-id-aws.png "Resource Share ID in AWS Resource Access Manager")
 
 ### Step 4. OutSystems accepts the resource share and creates an attachment to OutSystems Cloud VPC { #step-4 }
 
@@ -112,7 +112,7 @@ Make sure you accept the incoming VPC attachment on your side:
 
 1. Validate if the incoming VPC attachment is accepted. If your AWS Transit Gateway is not configured to automatically accept attachments, you need to [manually accept the transit gateway attachment](https://docs.aws.amazon.com/vpc/latest/tgw/tgw-transit-gateways.html#tgw-accept-shared-attachment) that is pending on your side.
 
-    ![TGW accept attachment](images/connect-tgw-accept-attach-aws.png)
+    ![Screenshot of the AWS console with the option to accept a Transit Gateway attachment.](images/connect-tgw-accept-attach-aws.png "Accepting Transit Gateway Attachment in AWS")
 
 1. Reply to the support case to inform OutSystems that you have accepted the transit gateway attachment.
 
@@ -120,7 +120,7 @@ Make sure you accept the incoming VPC attachment on your side:
 
 Update the route tables targeting the AWS Transit Gateway with the **internal network IP range** of your OutSystems Cloud VPC, provided to you by OutSystems Support in [Step 2](#step-2).
 
-  ![TGW route tables](images/connect-tgw-route-tables-aws.png)
+  ![Screenshot showing the AWS route tables configuration interface with routes targeting the Transit Gateway.](images/connect-tgw-route-tables-aws.png "AWS Route Tables Configuration for Transit Gateway")
 
 ### Step 7. OutSystems sets the route tables accessible by your Transit Gateway { #step-7 }
 

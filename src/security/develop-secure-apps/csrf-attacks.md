@@ -12,7 +12,7 @@ figma: https://www.figma.com/file/vTtFn5nl44ZLjUBYo2anCO/Security?node-id=910:24
 
 Cross-site request forgery (CSRF) is a web security vulnerability used to induce users to perform unintended actions. The following example illustrates how a CSRF attack can trick a user, that hasn't logged out from a vulnerable website, into clicking a trap link that executes a script or sends a fake POST request with the user's session ID:
 
-![Example of a CSRF attack](images/csrf-attack-example.png)
+![Diagram showing the steps of a CSRF attack, including a user logging into a vulnerable website, not logging out, and then being tricked into clicking a trap site link that sends a POST request with the user's session ID.](images/csrf-attack-example.png "CSRF Attack Example Diagram")
 
 With the CSRF method, attackers are able to make requests to your application from another site using, for example:
 

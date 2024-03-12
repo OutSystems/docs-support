@@ -13,7 +13,7 @@ figma: https://www.figma.com/file/6tXLupLiqfG9FOElATTGQU/Troubleshooting?node-id
 
 Environment synchronization in LifeTime is taking longer than expected.
 
-![](images/lifetime-sync-stuck-1.png)
+![Screenshot showing the LifeTime synchronization status with a notification that data may be outdated.](images/lifetime-sync-stuck-1.png "LifeTime Synchronization Status")
 
 ## Troubleshooting
 
@@ -45,7 +45,7 @@ Check the status of the Processes for potential issues:
 
 1. Go to **Monitoring** » **Processes**. You should have **no Suspended Instances** and **no Active Instances with Errors**. If you get any of these, [open a support case](https://www.outsystems.com/SupportPortal/CaseOpen/) to get help from OutSystems Support.
 
-![LifeTime Process Monitor](images/lifetime-process-monitor-sc.png)
+![Screenshot of the OutSystems Service Center's Process Monitoring page displaying various processes and their statuses.](images/lifetime-process-monitor-sc.png "LifeTime Process Monitoring")
 
 ## Still having problems?
 

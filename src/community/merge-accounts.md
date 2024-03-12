@@ -35,7 +35,7 @@ Do the following to merge two accounts:
 1. Login with **account A**.
 1. Access the **Settings** area.
 
-    ![Change the settings of your OutSystems account](images/change-community-pw-settings.png)
+    ![Screenshot highlighting the 'Settings' option in an OutSystems community account profile.](images/change-community-pw-settings.png "OutSystems Community Account Settings Option")
 
 1. Click **Merge Accounts**.
 1. On the form, enter the email address and password of **account B**. This lets us know you own the account.

@@ -35,15 +35,15 @@ Modify your logic so that it doesn’t use the aggregate output as a direct inpu
 
 1. Create and assign a local variable (with the Assign widget) to the existing aggregate output. 
 
-    ![Create a local variable](images/create-local-variable-ss.png)
+    ![Screenshot showing the process of creating and assigning a local variable in a development environment.](images/create-local-variable-ss.png "Creating a Local Variable in the Development Environment")
 
 1. Replace the use of the aggregate output in the loops by creating a local variable as the input for the logic (Loops/inner Server Actions).
 
-    ![Change the aggregate use](images/replace-aggregate-ss.png)
+    ![Screenshot illustrating how to replace the use of aggregate output with a local variable in server action logic.](images/replace-aggregate-ss.png "Replacing Aggregate Output with Local Variable")
 
 The following is example logic:
 
-![Example logic](images/example-logic-ss.png)
+![Flowchart screenshot depicting an example logic flow with a decision node and actions using a local variable.](images/example-logic-ss.png "Example Logic Flow")
 
 For more information about preventing too many **OPEN_CURSORS** in a session, see Oracle’s [OPEN_ CURSORS](https://docs.oracle.com/en/database/oracle/oracle-database/19/refrn/OPEN_CURSORS.html#GUID-FAFD1247-06E5-4E64-917F-AEBD4703CF40) documentation.
  

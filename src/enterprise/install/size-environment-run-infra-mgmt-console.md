@@ -11,7 +11,7 @@ figma: https://www.figma.com/file/cPLNnZfDOZ1NX3avcjmq3g/Enterprise%20Customers?
 
 The infrastructure management console (LifeTime) must be installed as a **dedicated environment**. This means that it must have it's own dedicated application servers and distinct database catalogs (Microsoft SQL Server) or schemas (Oracle databases).
 
-![](images/size-environment-run-infra-mgmt-console_0.png)
+![Diagram showing LifeTime installed on a dedicated environment with connections to Development, Test, and Production environments, and accessed by a LifeTime User.](images/size-environment-run-infra-mgmt-console_0.png "LifeTime Dedicated Environment Diagram")
 
 As opposed to previous versions, installing LifeTime in  another environment (for example, in development or in production) isn't supported from version OutSystems 11 onwards.
 

@@ -17,11 +17,11 @@ To get the Service Studio report, follow these steps:
 
 1. Click **You can help us fix this…** to expand the window, if it’s not expanded.
 
-     ![](images/get-logs-1.png?width=500)
+     ![Screenshot showing the 'Unexpected Error' window in Service Studio with the 'You can help us fix this...' option highlighted.](images/get-logs-1.png "Expanding the Unexpected Error window in Service Studio")
 
 1. Click **View diagnostics report** to open the report in a text editor. In OutSystems 10, use the link **View report**.
 
-     ![](images/get-logs-2.png?width=600)
+     ![Screenshot displaying the 'View diagnostics report' link in the Service Studio error window.](images/get-logs-2.png "Viewing the diagnostics report in Service Studio")
 
 1. Save the report as a text file. If you need help from OutSystems support but you don’t have an open support case yet, you can use the link **open a support case** to go to Support Portal.
 

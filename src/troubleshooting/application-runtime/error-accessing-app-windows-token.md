@@ -1,12 +1,11 @@
 ---
-summary:
+summary: The article explains how to resolve the 'Could not create Windows user token' error in OutSystems .NET applications by adjusting 'Run As' credentials or user privileges
 locale: en-us
 guid: 6d5b466c-0819-4e81-a080-6089039c0394
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
 figma: https://www.figma.com/file/6tXLupLiqfG9FOElATTGQU/Troubleshooting?node-id=620:33
 ---
-
 # Error accessing application - Could not create Windows user token from the credentials specified in the config file
 
 ## Symptoms
@@ -25,7 +24,7 @@ In an OutSystems Platform running on .NET stack, one (or more) of the following 
 
 When looking at the error log, the error message is generic, but the details show the below detail:
 
-![](images/error-accessing-app-windows-token_0.png)
+![Screenshot of a parser error message indicating inability to create a Windows user token due to logon failure.](images/error-accessing-app-windows-token_0.png "Parser Error Message Detail")
 
   `<b> Parser Error Message: </b>Could not create Windows user token from the credentials specified in the config file. Error from the operating system 'Logon failure: unknown user name or bad password.<br>'<br><br>`
 
@@ -45,21 +44,21 @@ Solving this problem involves either:
 
 To remove the "Run As" credentials, access the details of the eSpace, and check the Operation tab. You will see the username set up. To remove these credentials, simply delete the value, click **Apply Run As settings**. 
 
-![](images/error-accessing-app-windows-token_1.png)
+![Screenshot of the Operation tab in OutSystems Service Center showing where to remove 'Run As' credentials.](images/error-accessing-app-windows-token_1.png "eSpace Operation Tab")
 
 After this change, Service Center informs you that you need to republish the eSpace so the change gets effective.
 
-![](images/error-accessing-app-windows-token_2.png)
+![Notification message indicating that the eSpace needs to be republished to use new settings after removing 'Run As' credentials.](images/error-accessing-app-windows-token_2.png "eSpace Republish Notification")
 
 ### Method 2:
 
 To fix the user credentials, first identify the user that is running the eSpace. In our example, it is jpi90871
 
-![](images/error-accessing-app-windows-token_3.png)
+![Screenshot highlighting the 'Run As' username field in the eSpace configuration settings.](images/error-accessing-app-windows-token_3.png "Run As User Configuration")
 
 After you have found the user, log in to your server, and in Manage Users and Roles, open the IIS_IUSRS group and add the user to it:
 
- ![](images/error-accessing-app-windows-token_4.png)
+ ![Screenshot of the Computer Management window showing the process of adding a user to the IIS_IUSRS group.](images/error-accessing-app-windows-token_4.png "Adding User to IIS_IUSRS Group")
 
 ## Properties
 

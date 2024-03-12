@@ -14,7 +14,7 @@ The OutSystems Boot Camps are a great way to learn since participants get to lea
 
 Users can enroll to participate in any of the Public Boot Camps available on the calendar, checking all of them on our [Boot Camp page](https://www.outsystems.com/training/classroom-training/), selecting according to their type, location (if onsite), or timezone (if remote).
 
-![](images/boot-camp-page.png)
+![Screenshot of the OutSystems Boot Camp page showing instructor-led training experience and upcoming boot camps list.](images/boot-camp-page.png "OutSystems Boot Camp Page Screenshot")
 
 The public boot camps are hosted and delivered by [OutSystems Training Partners](https://www.outsystems.com/partners/training-partners/), these are organizations certified by OutSystems to deliver best-in-class OutSystems Training, our official Boot Camps and Certifications.
 To learn details about any Boot Camp you are interested in participating in, you can enroll for it on our [Boot Camp page](https://www.outsystems.com/training/classroom-training/), and not long after you’ll receive the following details:

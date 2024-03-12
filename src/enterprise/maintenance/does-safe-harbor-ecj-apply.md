@@ -17,7 +17,7 @@ For example, if you are a European customer, you will normally choose the "EU (D
 OutSystems will not transfer any content stored in the Dublin infrastructure via the OutSystems public cloud to the US.
 
 ## How do you secure personal data?
-![ ](images/does-safe-harbor-ecj-apply_0.png)
+![Illustration showing a fingerprint encompassing the US and EU with dashed lines indicating data transfer between the two regions.](images/does-safe-harbor-ecj-apply_0.png "Data Transfer Illustration")
 
 Neither AWS nor OutSystems are able to distinguish personal data from any other type of data stored by a customer. AWS and OutSystems services are both content agnostic and offer the same level of security regardless of the type of content being stored.
 

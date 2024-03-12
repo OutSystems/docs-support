@@ -41,7 +41,7 @@ To remove LifeTime from an environment you need to:
 
 After unregistering all environments, you will see the following screen:
 
-![ ](images/remove-infra-mgmt-console_0.png)
+![Screenshot showing the LifeTime console with no registered environments, indicating the completion of the unregistering process.](images/remove-infra-mgmt-console_0.png "Unregistered Environments Screen")
 
 ### Step 2. Delete LifeTime's applications
 
@@ -51,17 +51,17 @@ After unregistering all environments, you will see the following screen:
 
 3. Delete **LifeTimePerformanceMonitor** application.
 
-![ ](images/remove-infra-mgmt-console_1.png)
+![Screenshot of the Service Center console highlighting the 'Delete' button for the LifeTimePerformanceMonitor application.](images/remove-infra-mgmt-console_1.png "Delete LifeTimePerformanceMonitor Application")
  
 
 4. From the Applications list, choose **LifeTime** application. Delete **LifeTime** application.
 
-![ ](images/remove-infra-mgmt-console_2.png)
+![Screenshot of the Service Center console highlighting the 'Delete' button for the LifeTime application.](images/remove-infra-mgmt-console_2.png "Delete LifeTime Application")
  
 
 5. From the Applications list, choose **LifeTimeSDK** application. Delete **LifeTimeSDK** application.
 
-![ ](images/remove-infra-mgmt-console_3.png)
+![Screenshot of the Service Center console highlighting the 'Delete' button for the LifeTimeSDK application.](images/remove-infra-mgmt-console_3.png "Delete LifeTimeSDK Application")
 
  
 

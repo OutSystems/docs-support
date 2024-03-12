@@ -49,7 +49,7 @@ Technical previews offered by OutSystems are meant to prove a given technology o
 
 OutSystems ecosystem is divided into components with different release cycles.
 
-![OutSystems release cycles](images/release-cycle-diag.png)
+![Diagram showing the release cycles for Platform Server, LifeTime, and Development Environment with a legend indicating the types of releases.](images/release-cycle-diag.png "OutSystems Release Cycle Diagram")
 
 * **Platform Server** - The core server part of OutSystems product; A new version of Platform Server is released every month and you can check the latest releases [here](https://www.outsystems.com/Downloads/search/Platform-Server).
 

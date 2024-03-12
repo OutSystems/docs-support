@@ -19,5 +19,5 @@ There you can check:
 
 * And much more.
 
-![](images/check-license-includes_0.png)
+![Screenshot of the Environment Management Console showing the Licensing screen with various platform features and their usage limits.](images/check-license-includes_0.png "Environment Management Console Licensing Screen")
 

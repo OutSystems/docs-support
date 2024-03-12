@@ -1,13 +1,12 @@
 ---
-summary:
-tags: 
+summary: The article explains how to obtain a BPT troubleshooting report by using the BPT Utils component in LifeTime.
+tags:
 locale: en-us
 guid: f162877c-32a8-4f69-9c0b-ccbb42bcb0f3
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
 figma: https://www.figma.com/file/6tXLupLiqfG9FOElATTGQU/Troubleshooting?node-id=3327:518
 ---
-
 # BPT troubleshooting report
 
 *You must install BPT Utils component in your LifeTime environment (you need “Full Control” permissions in the environment).*
@@ -18,6 +17,6 @@ To get the BPTUtils troubleshooting report, follow these steps:
 
 1. Click **Download Troubleshooting Report** to save the file.
 
-    ![](images/get-logs-12.png?width=800)
+    ![Screenshot of BPT Utils application showing the 'Troubleshooting Processes' page with the 'Download Troubleshooting Report' button highlighted.](images/get-logs-12.png "BPT Utils Troubleshooting Processes Screen")
 
 

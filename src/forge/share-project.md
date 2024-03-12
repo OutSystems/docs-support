@@ -58,19 +58,19 @@ The [recommended format](#formats) for sharing is an application package (.oap).
 
 1. Log into [Forge](https://www.outsystems.com/forge/) and click **Upload asset**.
 
-    ![Upload asset](images/upload-asset-fg.png)
+    ![Screenshot highlighting the 'Upload asset' button on the OutSystems Forge website.](images/upload-asset-fg.png "Upload Asset Button on Forge")
 
 1. In the **Add file** section, upload the asset file that you previously downloaded and in the **Upload demo** section, upload the demo application file. Click **Continue**. 
 
-    ![Add files](images/add-files-fg.png)
+    ![Screenshot of the 'Add file' and 'Upload demo' sections with OAP files listed and a 'Continue' button on the Forge upload page.](images/add-files-fg.png "Add Files to Upload on Forge")
 
     The **Trusted badge checklist** is updated. Once all of the minimum requirements are fulfilled, you can request a badge.
 
-    ![Trusted badge checklist](images/checklist-fg.png)
+    ![Screenshot of the Trusted Badge Checklist with various criteria listed for Forge asset upload.](images/checklist-fg.png "Trusted Badge Checklist on Forge")
 
 1. Enter the asset details.
 
-    ![Asset details](images/asset-details-fg.png)
+    ![Screenshot showing the 'Details' section where users can enter asset name, upload icon, and preview URL on the Forge upload page.](images/asset-details-fg.png "Entering Asset Details on Forge")
 
     * By default, the **asset name**, the **icon**, and the **description** are defined during development. You can change these descriptions after you publish your asset.
 
@@ -86,7 +86,7 @@ The [recommended format](#formats) for sharing is an application package (.oap).
 
 1. Enter the **version control and ownership details**. 
 
-    ![Version control and ownership details](images/version-control-fg.png)
+    ![Screenshot of the 'Version control and ownership' section for specifying version number and asset ownership on the Forge upload page.](images/version-control-fg.png "Version Control and Ownership Section on Forge")
 
     * Enter the project version.
         
@@ -98,11 +98,11 @@ The [recommended format](#formats) for sharing is an application package (.oap).
 
         Under **Requirements**, Forge indicates the corresponding **Platform Version**. You can select the **Stack** and the **Supported Database**. This information helps users know if their environment is compatible with your asset.
 
-        ![Platform version for O10](images/version-control-o10-fg.png)
+        ![Screenshot of the version control and requirements section for OutSystems version 10 assets on the Forge upload page.](images/version-control-o10-fg.png "Version Control for OutSystems Version 10 on Forge")
 
 1. Enter the **categorization** details. 
 
-    ![Categorization](images/categorization-fg.png)
+    ![Screenshot of the 'Categorization' section with options for selecting the appropriate category and subcategory for an asset on the Forge upload page.](images/categorization-fg.png "Categorization Section on Forge")
 
     * Select at least one subcategory within the category that suits your asset best. 
     
@@ -118,20 +118,20 @@ The [recommended format](#formats) for sharing is an application package (.oap).
 
     The documentation should provide guidance on how to install and configure the asset as well as general instructions on how to use it.
 
-    ![Documentation](images/documentation-fg.png)
+    ![Screenshot of the 'Documentation' section where users can add installation and usage instructions for the asset on the Forge upload page.](images/documentation-fg.png "Adding Documentation on Forge")
 
 1. Review the asset dependencies and click **Continue**.
 
-    ![Review dependencies](images/dependencies-fg.png)
+    ![Screenshot showing the 'Dependencies' section with a list of dependencies ready for the asset upload on the Forge upload page.](images/dependencies-fg.png "Dependencies Review on Forge")
 
 1. If your asset has a complete first version and is ready for use in production, click **Upload**. Alternatively, if you are still building the asset, but want to make it available to the community for testing, select **Upload as Under Development**.
 
-    ![Upload option](images/upload-option-fg.png)
+    ![Screenshot of the 'Upload options' section offering buttons to upload the asset as 'under development' or for 'stable releases' on the Forge upload page.](images/upload-option-fg.png "Upload Options on Forge")
 
 1. Confirm that you want to upload your asset.
 
-    ![Upload confirmation](images/upload-confirmation-fg.png)
+    ![Screenshot of the upload confirmation dialog asking if the user wishes to upload the asset to Forge.](images/upload-confirmation-fg.png "Upload Confirmation on Forge")
 
     Once your asset is uploaded, a confirmation message is displayed. 
 
-    ![Upload sucessful](images/upload-successful-fg.png)
+    ![Screenshot displaying a confirmation message that the asset is now live in Forge and can be downloaded by any user.](images/upload-successful-fg.png "Successful Upload Confirmation on Forge")
