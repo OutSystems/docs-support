@@ -32,9 +32,7 @@ For example, if you have the word "セト" (romanization: Seto) stored in the da
 
 Starting with Platform Server 11.7.0, OutSystems system administrators can change the linguistic sorting configuration (the value of the `NLS_SORT` parameter) of the Oracle database from `BINARY_AI` (the default value) to `BINARY_CI` on the OutSystems platform database. Changing this configuration requires you to republish applications for the setting to become active. 
 
-You can also change the linguistic sorting configuration for the logging database, but this is not mandatory. This change only impacts the log searching capability of Service Center and any other applications that fetch information from log tables.
-
-Check the next section for instructions on changing the linguistic sorting for the platform and logging databases.
+Check the next section for instructions on changing the linguistic sorting for the platform database.
 
 ## Configure linguistic sorting 
 
@@ -56,32 +54,3 @@ To change the linguistic sorting **for the platform database**, do the following
 1. Press **OK** to close the "Advanced Settings" dialog box, and then press **Apply and Exit**.
 
 1. Republish all modules in your environment.
-
-Optionally, you can also change the linguistic sorting for the **logging database**. In this case, the Configuration Tool provides a SQL script that your Database Administrator should execute, since rebuilding the database indexes might take some time, depending on the amount of log data in your logging database.
-
-To perform this change in the logging database, do the following:
-
-1. Start the Configuration Tool, available at Start > Programs > OutSystems > Administration Tools.
-
-1. In the **Log** tab, click the "Advanced Settings" link.
-
-1. Select the desired linguistic sorting. The available options are:
-
-    **BINARY_AI** – Collation-sensitive SQL operations use a binary sort that is accent-insensitive and case-insensitive.  
-    **BINARY_CI** – Collation-sensitive SQL operations use a binary sort that is case-insensitive, but accent-sensitive. 
-
-1. Press **OK**. 
-
-1. OutSystems warns you that your Database Administrator needs to execute a SQL script to apply this change to the logging database.  
-    In the "Linguistic Sorting Changed" window, press **OK** and save the SQL script file.
-
-    ![Warning message indicating that a Database Administrator must manually execute a SQL script in the Logging Database after changing linguistic sorting settings.](images/oracle-ct-warn-linguistic-sorting-changed.png "Linguistic Sorting Changed Warning")
-
-1. Press **Apply and Exit**.
-
-1. The Configuration Tool asks you to run Service Center installation. Click **Yes** to run the installation.
-
-    ![Prompt asking whether to run Service Center installation after applying changes in the OutSystems Configuration Tool.](images/oracle-ct-question-servicecenter-install.png "Service Center Installation Prompt")
-
-1. Ask your Database Administrator to execute the provided SQL script in the OutSystems logging database.  
-    Note: The SQL script execution time depends on the amount of data present in the logging database. We recommend that your Database Administrator supervises the execution of this script.
