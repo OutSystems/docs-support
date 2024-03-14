@@ -8,13 +8,13 @@ platform-version: o11, odc
 figma:
 ---
 
-# OS-MABS-GEN-40022
+# OS-MABS-GEN-40022  
 
 ## Error message
 
 `There was an issue generating the app. A plugin compilation failed with the following reason: {REASON}`
 
-## Cause
+## Cause  
 
 MABS can't build the application because a mobile plugin failed the build, due to a customizable message controlled by the owner of the plugin.
 
