@@ -8,7 +8,7 @@ platform-version: o11, odc
 figma:
 ---
 
-# OS-MABS-GEN-40022
+# OS-MABS-GEN-40022  
 
 ## Error message  
 

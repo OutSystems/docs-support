@@ -12,7 +12,7 @@ figma:
 
 ## Error message  
 
-`Couldn't install the Cordova plugin {PLUGIN_ID}. {REASON}`
+`Couldn't install the Cordova plugin {PLUGIN_ID}. {REASON}`  
 
 ## Cause
 
