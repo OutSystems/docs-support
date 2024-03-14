@@ -10,7 +10,7 @@ figma:
 
 # OS-MABS-GEN-40022
 
-## Error message
+## Error message  
 
 `There was an issue generating the app. A plugin compilation failed with the following reason: {REASON}`
 

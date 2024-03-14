@@ -8,9 +8,9 @@ platform-version: o11, odc
 figma:
 ---
 
-# OS-MABS-PLG-40021
+# OS-MABS-PLG-40021  
 
-## Error message
+## Error message  
 
 `Couldn't install the Cordova plugin {PLUGIN_ID}. {REASON}`
 
