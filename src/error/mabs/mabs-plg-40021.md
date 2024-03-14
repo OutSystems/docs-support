@@ -1,7 +1,7 @@
 ---
 summary: Couldn't install the Cordova plugin {PLUGIN_ID}. {REASON}
 tags:
-guid: c659ed6c-8079-4e55-8517-0f2e626af3ca
+guid: 79efd0e4-f726-401c-bc60-f3c633a16543
 locale: en-us
 app_type: mobile apps
 platform-version: o11, odc

@@ -10,7 +10,7 @@ figma:
 
 # OS-MABS-PLG-40020
 
-## Error message
+## Error message  
 
 `Couldn't install the Cordova plugin {0} because it's using a framework tag with type podspec, which is not supported from MABS 10 onwards. The podspec tag must be used instead.`
 
