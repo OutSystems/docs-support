@@ -644,7 +644,6 @@
         - href: enterprise/maintenance/restore-database.md
         - href: enterprise/maintenance/vpn/vpn-support.md
         - href: enterprise/maintenance/vpn/vpn-errors.md
-        - href: enterprise/maintenance/vpn/vpn-setup-previous.md
         - href: enterprise/maintenance/system-updates-paas.md
         - href: enterprise/maintenance/timezone-considerations.md
         - href: enterprise/maintenance/chrome-samesite-cookie-changes.md

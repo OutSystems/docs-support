@@ -99,7 +99,7 @@ Before creating a VPN connection, make sure you have the following information:
 
 ### Check your on-premises network
 
-Your on-premises network internal IP address range must not overlap with the internal IP address range of your OutSystems Cloud. Check how to [find out internal IP address range of your OutSystems Cloud](../ip-range-cloud.md).
+Your on-premises network internal IP address range must not overlap with the internal IP address range of your OutSystems Cloud. Check how to [find out the internal IP address range of your OutSystems Cloud](../ip-range-cloud.md).
 
 ### Make sure you have the necessary permissions
 
