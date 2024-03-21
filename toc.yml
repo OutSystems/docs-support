@@ -105,6 +105,7 @@
         - href: troubleshooting/application-lifecycle/lifetime/lifetime-deploy-unable.md
         - href: troubleshooting/application-lifecycle/lifetime/lifetime-register-env-error.md
         - href: troubleshooting/application-lifecycle/lifetime/lifetime-sync-stuck.md
+        - href: troubleshooting/application-lifecycle/lifetime/sync-app-definition.md
         - href: troubleshooting/application-lifecycle/resource-nowait-specified.md
         - href: troubleshooting/application-lifecycle/extension-recompilation/extension-recompilation-warning.md
         - href: troubleshooting/application-lifecycle/extension-recompilation/extension-upgrade-disabled-error.md
