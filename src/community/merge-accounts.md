@@ -49,7 +49,7 @@ The following will be transferred from **account B** into **account A**. The res
 * Community forums posts and votes on those posts
 * Forge components ownership, votes, and subscriptions
 * Online courses progression
-* Certifications and bootcamps
+* All your certifications (including technical and sales certifications) and bootcamps
 * Ideas, comments, and likes on ideas
 * Accomplishments (Overview tab on your profile) and Achievements
 * Private messages
