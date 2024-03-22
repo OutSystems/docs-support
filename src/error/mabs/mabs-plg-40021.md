@@ -24,4 +24,4 @@ The application package can't be generated.
 
 ## Recommended action
 
-Follow the instructions/information given by the plugin developer in the {REASON}, or contact them for more information.
+Follow the instructions/information given by the plugin developer in the `{REASON}`, or contact them for more information.
