@@ -15,7 +15,7 @@ Once you've passed the exam, your certificate will be available to download. An 
 
 <div class="info" markdown="1">
 
-Your certificate might not be available immediately after you get your exam results. Allow for some time for your certificate to be processed. You'll receive an email once your certification is available for download.
+Your certificate may not be accessible immediately following the release of your exam results. Please allow some time for processing. You will receive an email notification once your certification is ready for download.
 
 </div>
 
