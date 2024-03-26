@@ -12,7 +12,9 @@ figma: https://www.figma.com/file/UXA74OsZxSIzLLsjhvNMjC/Release-Notes?type=desi
 
 At OutSystems, we use a continuous delivery approach, focused on constantly releasing incremental value with minimal disruptions to our customer's operations and business.
 
-## Release terminology
+## Release terminology applicable to OutSystems 11
+
+As defined below, **Major release**, **Release**, **Cumulative patch**, and **Hotfix** are terms applicable to OutSystems 11 releases of Platform Server and LifeTime.
 
 ### Major release
 
@@ -33,17 +35,36 @@ Meant to be a patch to an existing release with less impact and risk-free, cumul
 
 Custom product component version built on demand for a specific customer(s) to unblock a critical issue without an acceptable workaround. Hotfixes are private (not publicly available) and delivered to customers via the Product Support team.
 
-### Early access program (EAP)
 
-EAP's are programs managed by OutSystems, providing early access to OutSystems new capabilities as they roll out. Links to these capabilities will be shared periodically in the community and via email. Only a set of selected customers are onboarded to these programs, check the available EAP's [here](https://www.outsystems.com/eap).
+## Release terminology applicable to all products
+
+As defined below, **Technical preview**, **Early Access Program**, and **Limited Availability** apply to both OutSystems 11 and OutSystems Developer Cloud (ODC). The features released under these programs will be free of charge for the duration of the programs.
+
+
+### Technical preview (TP)
+
+Technical previews (TP) are meant for early validation, to prove a given technology or approach from all perspectives including robustness. Because these are just a preview of the capabilities, they may not be completed, and some quirks may happen from time to time. Capabilities in TP aren't meant for production usage.
+TPs are private and limited to customers or partners, who will be invited to participate. 
+Any program and capability updates will be shared with the participants via email.
+
+### Early Access Program (EAP)
+
+Early Access Programs (EAPs) are managed by OutSystems, providing early access to OutSystems' new capabilities as they roll out. 
+EAPs are intended to validate the value derived from the complete capability, and the quality of the proposed solution. Even though capabilities are in a more mature state, some quirks may happen from time to time. Capabilities in EAP aren't meant for production usage.
+They can be private or public and are limited to interested partners and customers who can be invited and selected to participate. 
+Information about active Public EAPs will be shared [here](https://www.outsystems.com/eap/).
+Any program and capability updates will be shared with the participants mainly via email.
+
+### Limited Availability (LA)
+
+Limited Availability (LA) are programs managed by OutSystems, providing access to OutSystems' new capabilities as they roll out.
+LAs are mainly used to get further validation for complex capabilities with production usage.
+They are private programs and are limited to specific customers who will be invited to the program.
+Any program and capability updates will be shared with the participants via email.
 
 ### Beta
 
-Beta releases include a set of capabilities that will soon be released in General Availability. It can be seen as similar to Early Access, but it's related to a specific version of the product as a whole, instead of just a specific feature.
-
-### Technical preview
-
-Technical previews offered by OutSystems are meant to prove a given technology or approach from all perspectives including robustness and fit to customers’ use cases. Because these are just a preview of the features, some quirks may happen from time to time. Features in technical preview were previously called Early Access Feature. Check what features OutSystems has in technical preview [here](https://success.outsystems.com/Support/Enterprise_Customers/Upgrading/Technical_Preview_features#Features_in_Technical_Preview).
+Beta releases include a set of capabilities that will soon be released in General Availability. It can be seen as similar to Early Access, but it's related to a specific version as a whole, such as MABS, instead of just a specific feature.
 
 ## Release cycles
 
