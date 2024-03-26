@@ -37,8 +37,7 @@ Custom product component version built on demand for a specific customer(s) to u
 
 ## Release terminology applicable to all products
 
-As defined below, **Technical preview**, **Early Access Program**, and **Limited Availability** apply to both OutSystems 11 and OutSystems Developer Cloud (ODC). The features released under these programs will be free of charge for the duration of the programs.
-
+As defined below, **Technical preview**, **Early Access Program**, **Limited Availability**, and **Beta** can apply to both OutSystems 11 and OutSystems Developer Cloud (ODC). The features released under these programs will be free of charge for the duration of the programs.
 
 ### Technical preview (TP)
 
