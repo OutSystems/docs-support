@@ -1,13 +1,12 @@
 ---
-summary: At OutSystems, we use a continuous delivery approach, focused on constantly releasing incremental value with minimal disruptions to our customer's operations and business. Learn what type of product releases you can expect from OutSystems for each of our major versions.
+summary: The article details OutSystems' continuous delivery approach and defines release terminology for OutSystems 11 and other products, including major releases, patches, and various pre-release programs.
 tags:
 guid: 93288C73-39A2-47F2-A809-585C906307C4
 locale: en-us
 app_type: traditional web apps, mobile apps, reactive web apps
-platform-version: o11
+platform-version: o11, odc
 figma: https://www.figma.com/file/UXA74OsZxSIzLLsjhvNMjC/Release-Notes?type=design&node-id=1118%3A247&mode=design&t=PXROiQwbSufNHSiC-1
 ---
-
 # OutSystems Product Releases
 
 At OutSystems, we use a continuous delivery approach, focused on constantly releasing incremental value with minimal disruptions to our customer's operations and business.
