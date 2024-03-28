@@ -16,7 +16,7 @@ To get the Lifetime report, follow these steps:
 
 ### Get LifeTime report in OutSystems 11
 
-1. Access the page `https://<LifeTime_server>/lifetime/troubleshoot.aspx`.
+1. Access the page `https://<LifeTime_server>/lifetime/troubleshoot.aspx`
 
 1. Click the link **Download Infrastructure report** to save the file.
 
@@ -26,7 +26,7 @@ If you are getting this report by request of OutSystems Support, fetch the file 
 
 ### Get LifeTime report in OutSystems 10
 
-1. Go to the LifeTime console, `https://<LifeTime_server>/lifetime`.
+1. Go to the LifeTime console, `https://<LifeTime_server>/lifetime`
 
 1. Click the **Send us your feedback** icon at the upper right corner.
 
@@ -55,7 +55,7 @@ If you are getting this report by request of OutSystems Support, fetch the file 
 
 ### Get the staging report in OutSystems 10
 
-1. Go to the LifeTime console, `https://<LifeTime_server>/lifetime`.
+1. Go to the LifeTime console, `https://<LifeTime_server>/lifetime`
 
 1. In the **Applications** page, click the name of the target environment and choose **View Change Log** from the drop-down menu.
 
@@ -66,7 +66,7 @@ If you are getting this report by request of OutSystems Support, fetch the file 
     ![Screenshot of the Change Log for an environment in OutSystems LifeTime, with the deployment plan number highlighted.](images/get-logs-9.png "Change Log with Deployment Plan Number")
 
 1. Using that deployment plan number, access the following page:
- `https://<LifeTime_server>/lifetime/DebugStaging.aspx?StagingId=<deployment plan number>`.
+ `https://<LifeTime_server>/lifetime/DebugStaging.aspx?StagingId=<deployment plan number>`
 
      For the Java stack, use: `https://<LifeTime_server>/lifetime/DebugStaging.jsf?StagingId=<deployment plan number>`.
 
@@ -79,7 +79,7 @@ To get the user permissions report, follow these steps.
 
 ### Get the user permissions report in OutSystems 11
 
-1. Access the page `https://<LifeTime_server>/lifetime/troubleshoot.aspx`.
+1. Access the page `https://<LifeTime_server>/lifetime/troubleshoot.aspx`
 
 1. Click the link **Download the user permissions report** to save the file.
 
@@ -89,12 +89,10 @@ If you are getting this report by request of OutSystems Support, fetch the file 
 
 ### Get the user permissions report in OutSystems 10
 
-1. Access the page `https://<LifeTime_server>/lifetime/DebugPermissions.aspx`.
+1. Access the page `https://<LifeTime_server>/lifetime/DebugPermissions.aspx`
 
-     For the Java stack, use `https://<LifeTime_server>/lifetime/DebugPermissions.jsf`.
+     For the Java stack, use `https://<LifeTime_server>/lifetime/DebugPermissions.jsf`
 
 1. Click the link **download the user permissions report** to save the file.
 
     ![Screenshot showing the 'download the user permissions report' link in the OutSystems LifeTime DebugPermissions page.](images/get-logs-11.png "User Permissions Report Download Link")
-
-
