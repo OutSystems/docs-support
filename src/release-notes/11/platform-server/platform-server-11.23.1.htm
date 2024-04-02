@@ -3,7 +3,7 @@ isautopublish: true
 pageprivacy: public
 ---
 
-<h2 id="platform_server_11.23.1" >Platform Server 11.23.1</h2> 
+<h2 id="platform_server_11.23.1" >Platform Server 11.23.1</h2>
 <div class="info"><p>Released on Oct 02, 2023</p></div>
 
 
@@ -23,6 +23,7 @@ Now, reactive applications no longer have CSP directives in the index.html file 
 <li>Resolved an issue where a change password warning erroneously appeared post Service Center login, specifically in situations where the legacy provider authentication mechanism was in use. The matter has been rectified, ensuring that the change password warning will now exclusively emerge during instances of Built-in authentication activation, and solely when the entered password fails to adhere to the complexity criteria. (RDOI-381)</li>
 <li>Fixed deployment error when restarting the Deployment Controller after getting the confirmation prompt while performing a 2-stage solution publish. (RPM-1886) <span class="cattag">Publish Operation</span> </li>
 <li>Updated documentation for the HTTPRequestHandler actions regarding compatibility with reactive web and mobile apps. (RPM-2830) <span class="cattag">Application Runtime</span>  <span class="cattag">System Components</span> </li>
+<li>Fixed a deployment error when the Service Center IIS pool is restarted after getting the confirmation prompt while performing a 2-stage solution publish. (RPM-3713) <span class="cattag">Publish Operation</span>  <span class="cattag">Compilation</span> </li>
 <li>Fixed an issue that occurred when the BuildSafe_InClauseTextList action from Sanitization extension was used with special unicode characters in SQL Server. Those special characters would not be included in the output of the action so, if the users used that output in a query, the results could be different from what they were expecting. (RPM-4090) <span class="cattag">Application Runtime</span>  <span class="cattag">Data Access and Manipulation</span> </li>
 <li>Fixed an issue where after uploading and publishing an application or solution for the first time, it would get locked on subsequent publications with the error "Application Lock unavailable: The application is already being published". (RPM-4150) <span class="cattag">Service Studio</span> </li>
 <li>Fixed an issue that caused the references to have the incorrect path, on the default error page (_error.html) for reactive applications.
