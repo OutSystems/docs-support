@@ -35,9 +35,11 @@ Detaching from OutSystems means you'll no longer be running on OutSystems Cloud.
 
         Download all the applications from your production OutSystems Cloud environment and publish them to your new self-managed environment. Refer to [Creating and using an All Components solution](https://success.outsystems.com/Documentation/How-to_Guides/DevOps/Creating_and_using_an_All_Components_solution) for a simple way to perform this step.
 
-    1. Move the data of your OutSystems Cloud applications to your new self-managed environment.
+    1. Move the application data of your OutSystems Cloud applications to your new self-managed environment.
 
-       a. Create a temporary or permanent database user to [access the database](../enterprise/maintenance/access-database-paas/access-database-paas.md) of your OutSystems cloud.
+
+       a. Create a temporary or permanent database user to [access the database](../enterprise/maintenance/access-database-paas/access-database-paas.md) of your OutSystems cloud. 
+       The direct database access user does not have backup privileges. 
 
        b. Use tools such as SQL Server Management Studio or Oracle SQL Developer to manually transfer data from the OutSystems Cloud into the self-managed database using SQL queries.
 
