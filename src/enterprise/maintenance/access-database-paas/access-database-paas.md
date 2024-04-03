@@ -27,13 +27,20 @@ You can request database access in two different ways:
 * Using a **temporary** database user
 * Using a **permanent** database user
 
-You can then use tools like SQL Server Management Studio or Oracle SQL Developer to access the database. You can use any tool that's compatible with the database management system.
+You can then use tools such as SQL Server Management Studio or Oracle SQL Developer to access the database. You can use any tool that's compatible with the database management system.
+
+<div class="info" markdown="1">
+
+The direct database access user does not have backup privileges. 
+
+</div>
 
 ### Temporary database user
 
 <div class="info" markdown="1">
 
 Temporary database users are only available on OutSystems Cloud running **LifeTime Management Console 11.7.5 or later**.
+
 </div>
 
 Temporary users are perfect for ad-hoc troubleshooting tasks. Being nominal and temporary, they're the most secure option, ensuring that only legitimate users can carry on with this privileged access to data.
