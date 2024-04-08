@@ -16,6 +16,22 @@ As such, before introducing a breaking change for a new release, OutSystems care
 
 ## Breaking Changes
 
+### Introduced in Platform Server 11.27.0 
+
+1\. <a id="bc-11250-1"></a>
+
+**Issue**: Publishing the Current Running Version of a solution in Development environments now, by default, refreshes only broken dependencies with either runtime issues or broken reference warnings.
+
+**Runtime**: Traditional web, Reactive web, Mobile
+
+**Rationale**: The _Refresh only broken dependencies_ in Solution Publish Factory Configuration parameter determines the conditions on which we decide to refresh all references for each module, during the update components step of a solution publication.
+
+When disabled it checks if there are any **different** signatures in the referenced elements of a consumer module and refreshes all of them (within that module) in case it finds one, which can unnecessarily increase publishing times.
+
+However, when the parameter is enabled it checks if there are any **incompatible** signatures in the referenced elements of a consumer module and only refreshes all of them (within that module) in case it finds one. Making this the new default behaviour shouldn’t cause any disruption in the solution publication experience, and will overall result in better publishing times. 
+
+**Fix**: This behaviour can be changed back using the latest version of the Factory Configuration application through the “Refresh only broken dependencies in solution publish” setting under the Platform Configurations screen.
+
 ### Introduced in Platform Server 11.25.0 
 
 1\. <a id="bc-11250-1"></a>
