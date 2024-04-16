@@ -10,121 +10,107 @@ figma: https://www.figma.com/file/TzqCbVlN2j4nadunA7q8VU/Licensing?node-id=1318:
 
 # The detach process for OutSystems 11
 
-This document is a step-by-step guide for extracting the source code of your applications (web and mobile) from the .NET version of OutSystems and how to set it up to be executed and maintained independently of OutSystems, if you ever decide to detach from it. This is a complement to the [OutSystems Platform – Standard Architecture with No Lock-in](https://www.outsystems.com/evaluation-guide/standard-architecture-with-no-lock-in/) content that gives a high-level view on how OutSystems, unlike other proprietary technologies and frameworks, generates standard, optimized, and fully documented .NET source code that doesn't require runtime interpreters or engines.
+This document is a step-by-step guide for extracting the source code of your applications (web and mobile) from the .NET version of OutSystems and how to set it up to be executed and maintained independently of OutSystems, if you ever decide to detach from it. 
 
-## Detach process overview
+## An overview of the detach process
 
-### If you're using the OutSystems Cloud
+The detach process is only applicable when you wish to completely stop using OutSystems and it applies to all applications. **It is not possible to detach only some apps from OutSystems**, while keeping other apps still using the OutSystems platform infrastructure.
 
-Detaching from OutSystems means you'll no longer be running on OutSystems Cloud. Instead, you'll be hosting a .NET application on a system you fully manage. The high-level overview of detaching from OutSystems Cloud is:
+<div class="info" markdown="1">
 
-1. **Preparing to start detaching from OutSystems Cloud**
-    
-    OutSystems will need to enable you to start detaching and install the additional self-managed environment. This requires changes to the license of your OutSystems Cloud environments.
-    Reach out to your account executive or account manager letting them know you're starting your detach process so they can proceed internally.
+The detach process doesn't apply to and can't be used in any other scenarios not explicitly mentioned in this article. OutSystems has no obligation to support any other scenarios.
 
-1. **Move your OutSystems Cloud production environment to a self-managed environment**
-    
-    This is the high level sequence of steps to move your production OutSystems Cloud environment to a hosting environment controlled by you:
+</div>
 
-    1. Install a brand new OutSystems environment to receive your applications.
+The detach process consists of a set of activities that need to be carried in sequence and are [described in detail later](#actual-detach-process) in this document. In summary, you will need to perform the following operations:
 
-        We advise you to install the environment with the exact setup you expect to have moving forward (number of front-ends, same database engine as your OutSystems Cloud, etc), as it will simplify the detachment and later maintenance of the system. To install a new OutSystems environment, always use the exact same OutSystems Platform Server major and minor versions. Refer to [Setting Up OutSystems](https://success.outsystems.com/Documentation/11/Setting_Up_OutSystems).
+**If you're detaching from the OutSystems Cloud, you must:**
 
-    1. Install your OutSystems applications in your new self-managed environment.
+ 1. Reach out to your account executive or account manager, letting them know you're starting your detach process.
+ 1. Create a self-managed OutSystems environment (servers and database) to host your applications.
+ 1. Open a support case. Further instructions [here](#support-case-cloud).
+ 1. Migrate your applications and data from the OutSystems Cloud to your self-managed environment.
+ 1. Follow the process for detaching a self-managed installation.
 
-        Download all the applications from your production OutSystems Cloud environment and publish them to your new self-managed environment. Refer to [Creating and using an All Components solution](https://success.outsystems.com/Documentation/How-to_Guides/DevOps/Creating_and_using_an_All_Components_solution) for a simple way to perform this step.
+**If you're detaching from a self-managed installation, you must:**
 
-    1. Move the application data of your OutSystems Cloud applications to your new self-managed environment.
+ 1. Reach out to your account executive or account manager, letting them know you're starting your detach process.
+ 1. Ensure that you have followed all of the recommendations and can meet all of the pre-requisites described in the [before you start](#before-you-start) section.
+ 1. Prepare the Application Server and Database Server.
+ 1. Open a support case. Further instructions [here](#open-support-case-on-prem).
+ 1. Build the source code for the [Scheduler Service](#scheduler-service) and install it.
+ 1. Detach, compile, and deploy all individual modules and mobile apps.
+ 1. Test the resulting apps without OutSystems.
 
+Ensure that you completely read and understand this entire document before you start. Doing so will give you a better overview of all the steps required, and allow you to better plan the process.
 
-       a. Create a temporary or permanent database user to [access the database](../enterprise/maintenance/access-database-paas/access-database-paas.md) of your OutSystems cloud. 
-       The direct database access user does not have backup privileges. 
-
-       b. Use tools such as SQL Server Management Studio or Oracle SQL Developer to manually transfer data from the OutSystems Cloud into the self-managed database using SQL queries.
-
-        c. Or you can implement API in your application that export the data and then call them from the new self-managed environment. Refer to [this article](https://www.outsystems.com/forums/discussion/14620/how-to-map-servicestudio-entities-to-actual-table-names/) to understand how to map physical table names in the database to OutSystems entities. 
-
-    1. Confirm that your applications behave as expected in your new self-managed environment. 
-
-        This may include functional and scalability validation. We advise not moving past this point until you are sure your self-managed system would be able to replace your OuSystems Cloud system at this point.
-
-    1. Detach from OutSystems as self-managed.
-
-        Proceed to the next sections in this article.
-
-### For self-managed installations
-
-The detach process applies when you wish to completely remove OutSystems. It's not possible to detach only some applications from OutSystems while keep other applications still using the OutSystems platform infrastructure. To perform a complete detach, you need to:
-
-1. Guarantee that, before you start, you have all the requirements and followed all the recommendations in [Before you start](#before-you-start).
-1. Prepare the Application Server and Database Server according to [Preparing your systems to run detached](#prepare).
-1. Detach, compile, and deploy all individual modules and mobile apps as detailed in [Detaching an application from OutSystems](#detach-app).
-1. Test the result application(s) without OutSystems as presented in [Final steps](#final-steps).
-
-Make sure you read the full content of this document before you start to get a better overview of all the steps required and to better plan the process.
-
-If at any step you run into a problem, you may need to repeat the previous steps until you get things working properly. Be careful and do not skip any instructions in the document to minimize the chance of making mistakes. In the case of not being able to proceed at any of those steps, you are free to contact OutSystems Support and we will happily help you.
+If at any step you run into any issues, you will need to repeat the previous steps until everything is working properly. Be careful and do not skip any instructions in this document, to minimize the chance of any mistakes happening. At any of these steps, you can reach out to OutSystems Support and ask for help.
 
 ## Before you start { #before-you-start }
 
-The steps described in this document are to be used only if you decide to stop using OutSystems.
 
-Nevertheless, you can follow the steps below if you want to test the OutSystems detach capabilities. In that case, follow the detach process using a **brand new Application Server** and a **new database**. This will prevent unexpected behaviors on your existing OutSystems applications since the detach process will require changes to the applicational server (IIS) and to your database.
+If you are detaching from the OutSystems Cloud, you're responsible for:
 
-### What do you need?
+* Creating the brand new Application Server and brand new database that make up the self-managed environment to be used in the detach process. OutSystems will not create those self managed environments. 
 
-You need to fulfill the [system requirements](https://success.outsystems.com/Documentation/11/Setting_Up_OutSystems/OutSystems_system_requirements) and additionally must have Microsoft Build Tools 2019 installed.
+* Loading and boostrapping any data and configurations that your apps require into the new Application Server and new database. OutSystems will not provide any full or partial clone of your OutSystems Cloud database. OutSystems provides [access to the database of your OutSystems Cloud](../enterprise/maintenance/access-database-paas/access-database-paas.md), but it's your responsibility to copy any data from the OutSystems Cloud into the self-managed database.
 
-### What will you lose?
 
-If you choose to stop using OutSystems, you will no longer have access to all the application development, management, and operation capabilities of the platform. Also, you'll no longer benefit from the Embedded Change Technology (ECT), performance monitoring, and logging capabilities, which means you'll have to implement such functionality by resorting to other tools. You will however retain all core functionality of the applications you developed using Service Studio and Integration Studio, although any changes made to the detached source aren't supported by OutSystems anymore.
+### Recommendations
 
-After detaching the source code of your applications, all OutSystems tools and services will become unavailable (including Service Studio, Integration Studio, Service Center, and LifeTime), along with all of their features for visual development and composition, services repository, integration adapters automatic generation, database, and application hot deployment, configuration management and versioning, packaging, and staging, automatic code containment and optimization, factory access control management, performance monitoring, and analytics.
+To minimize the risks of getting errors during and after the detach process, OutSystems **strongly recommends** that you do the following:
 
-Also notice that this is a one-way street. Once you detach the source code and start developing your applications using Visual Studio or Eclipse, there is no reverse engineering process to get those applications back into OutSystems.
+* Update to the latest release of OutSystems Platform Server 11 to benefit from the fixes to all known bugs and security vulnerabilities. You'll need to publish all modules with the latest version.
 
-### Recommendations before you start the detach process
+* Ensure that OutSystems apps are running with the expected behavior. Since OutSystems capabilities are lost at the end of the detach process, it will be harder to fix the majority of the problems after the detach.
 
-To minimize the risks of getting errors during and after the detach process:
+* Stage any required applications from Development to Production before starting the detach process. The generated code considers the environment where it was compiled and the corresponding database, so it is not possible, nor supported, to use the detached code from one environment in a different environment.
 
-* Update to the latest release of OutSystems Platform Server 11 to benefit from the fixes to all known bugs. You'll need to publish all modules with the latest version.
-
-* Ensure that OutSystems applications are running with the expected behavior. Since OutSystems capabilities are lost, it will be harder to fix the majority of the problems after the detach.
-
-* Detaching Development source code and deploying it to a Production Environment is not a valid process, as the generated code is different for each environment: the generated code considers the environment where it was compiled and the corresponding database. If you want to do this, first you need to stage your applications from one environment to another and only then you can proceed with the detach.
+<div class="warning" markdown="1">
 
 Not following the above recommendations will greatly increase the difficulty and required time to successfully complete the process.
 
-#### Personnel requirements
+</div>
+
+### Personnel requirements
 
 Since you will lose most of the OutSystems capabilities, you must guarantee that your personnel:
 
-* Fully understands the complete life cycle of .NET applications. This includes understanding how to create, modify, and deploy those applications, as well as creating and managing the references between them while having a good understanding of IIS.
+* Fully understands the complete lifecycle of .NET applications. This includes understanding how to create, modify, and deploy those applications, as well as creating and managing the references between them while having a good understanding of IIS.
 
-* Has access to the Database Server and have the ability to modify the existing data. During the detach process, it's necessary to perform some changes in the OutSystems metadata. This is typically done by a DataBase Administrator (DBA).
+* Has access to the database server and the ability to modify the existing data. During the detach process, it is necessary to perform some changes in the OutSystems metadata. This is typically done by a database administrator (DBA).
 
 * Knows how to develop, build, and deploy Android and/or iOS apps (applies to mobile apps only).
 
-### OutSystems Scheduler Service
+### Technical pre-requisites
 
-If you are using Timers, BPT Activities, or emails in your applications, you can keep these functionalities even after detaching from the OutSystems platform. Unlike other OutSystems services, the source code of the Scheduler Service will be provided for this purpose. Contact OutSystems by opening a Support Case to request this.
+If you are creating a new self-managed environment, you must:
+ * Identify the exact Platform Server version and release from which you are detaching;
+ * Create the new environment so that it fulfills the [system requirements](https://www.outsystems.com/tk/redirect?g=244db17a-7a98-4cb0-93c0-db91f1c91fd8);
+ * Install Microsoft Build Tools 2019 on the environment;
+ * Download the [installation checklist](http://www.outsystems.com/goto/checklist-11) for the exact Platform Server version and release from which you are detaching;
+ * Follow all of the steps in the **Pre-installation checklist** section of the installation checklist;
+ * Follow the mandatory steps in the **Tuning and Security checklist** section of the installation checklist.
 
-To compile the scheduler, do the following:
+If you are reusing an existing self-managed environment, which is only possible if you are detaching from a self-managed environment, you will likely already have almost everything that you need installed and you probably don't need anything else. You will still need to install Microsoft Build Tools 2019 on the environment, though.
+ 
+### What will you lose?
 
-1. Open the `Scheduler.sln` file (located in the Scheduler directory) using Visual Studio and build the solution.
+If you choose to stop using OutSystems, you will no longer have access to all the application development, management, and operation capabilities of the platform. Also, you'll no longer benefit from the Embedded Change Technology (ECT), performance monitoring, and logging capabilities, which means you'll have to implement such functionality by resorting to other tools.
+ 
+You will retain all core functionality of the applications you developed using Service Studio and Integration Studio. **However, any changes made to the detached source are not supported by OutSystems.**
 
-1. Open the Developer Command Prompt for Visual Studio (with Administrator privileges) and go to the `\Scheduler\bin\Debug` folder.
+After detaching the source code of your applications, all OutSystems tools and services will become unavailable (including Service Studio, Integration Studio, Service Center, and LifeTime), along with all of their features for visual development and composition, services repository, integration adapters automatic generation, database, and application hot deployment, configuration management and versioning, packaging, and staging, automatic code containment and optimization, factory access control management, performance monitoring, and analytics.
 
-1. Execute the following command:
+Detaching is a one-way street. Once you detach the source code and start developing your applications using Visual Studio or some other IDE, there is no reverse engineering process to get those applications back into OutSystems.
 
-    `installutil scheduler.exe`
+### OutSystems Scheduler Service { #scheduler-service }
 
-    This installs a service called Detached Scheduler Service. To uninstall it, run `installutil /u scheduler.exe`. If any problem happens, check the scheduler logs in the Event Viewer.
+If you are using Timers, BPT Activities, or emails in your applications, you can keep such functionality even after detaching from the OutSystems Platform. Unlike other OutSystems services, the source code of the Scheduler Service will be provided for this purpose. 
 
-If you choose to re-implement these services using external tools you can later remove this dependency manually.
+If you choose to re-implement such functionality using external tools, you can later remove this dependency manually.
 
-Since the Service Center console will no longer be available, managing timers has to be done directly in the database. To better understand how the Scheduler runs timers and what information is available, please consult this documentation: [Timers](https://success.outsystems.com/documentation/11/reference/outsystems_language/processes/timer/)
+Since the Service Center console will no longer be available, managing timers has to be done directly in the database. To better understand how the Scheduler runs timers and what information is available, please refer to the [Timers documentation](https://www.outsystems.com/tk/redirect?g=92beb602-6c17-4991-a42d-c9860a32326f).
 
 ### Understand how OutSystems structures the code
 
@@ -173,7 +159,7 @@ The following image shows the code structure of a sample generated application:
 
 ![Code Structure of a generated Application](images/Figure_1_-_Code_Structure_of_a_generated_Application-O11.png)  
 
-In the application folder (`<Project Name>`) there is a set of packages that hold the different types of code. These folders are
+In the application folder (`<Project Name>`) there is a set of packages that hold the different types of code. These folders are:
 
 * **Actions** – the code generated for both built-in actions and functions, and user actions and functions.
 * **Blocks** – the code generated for both built-in and custom web blocks.
@@ -186,11 +172,62 @@ In the application folder (`<Project Name>`) there is a set of packages that hol
 * **WebServices** – the code to support all Web Services exposed by your module.
 * **WebReferences** – the code to support all Web Services consumed by your module.
 
+## The actual detach process { #actual-detach-process }
+
+The detach process starts with you reaching out to your account manager to start the detach process. 
+
+### If you're using the OutSystems Cloud
+
+Detaching from OutSystems means you'll no longer be running on OutSystems Cloud. Instead, you'll be hosting a .NET application on a system you fully manage. The high-level overview of detaching from OutSystems Cloud is:
+
+1. **Move your OutSystems Cloud production environment to a self-managed environment**
+    
+    This is the high-level sequence of steps to move your production OutSystems Cloud environment to a hosting environment controlled by you:
+
+    1. Install a brand new OutSystems environment to receive your applications, ensuring the technical pre-requisites covered earlier.
+
+        We advise you to install the environment with the exact setup you expect to have moving forward (number of front-ends, same database engine as your OutSystems Cloud, etc), as it will simplify the detachment and later maintenance of the system. To install a new OutSystems environment, always use the exact same OutSystems Platform Server major and minor versions. Refer to [Setting Up OutSystems](https://www.outsystems.com/tk/redirect?g=079418c8-7a3d-4b5e-9c13-c1ae7a1f122e).
+
+    1. <p id="support-case-cloud"> Reach out to OutSystems Global Support and open a support case. The support case must: </p>
+        * Have normal or low priority;
+        * Clearly state that you are detaching;
+        * Include the exact OutSystems Platform Server major and minor versions, release and build number from which you are detaching (eg. 11.18.1 build 37828);
+        * Include the serial number of your new self-managed environment;
+
+        You will receive a detach bundle containing the instructions you need to follow, together with license files and the scheduler source code.
+    
+    1. Install your OutSystems applications in your new self-managed environment.
+
+        Download all the applications from your production OutSystems Cloud environment and publish them to your new self-managed environment. Refer to [Creating and using an All Components solution](https://www.outsystems.com/tk/redirect?g=065b4d9d-5b4a-4892-9e82-bdfc77ea98d3) for a simple way to perform this step.
+
+    1. Move the data of your OutSystems Cloud applications to your new self-managed environment.
+
+       Request [access to the database of your OutSystems Cloud](../enterprise/maintenance/access-database-paas/access-database-paas.md) and use that database user to copy data from the OutSystems Cloud into the self-managed database. You can also implement APIs in your application that export the data and then call them from the new self-managed environment. Refer to [this article](https://www.outsystems.com/forums/discussion/14620/how-to-map-servicestudio-entities-to-actual-table-names/) to understand how to map physical table names in the database to OutSystems entities. 
+
+    1. Confirm that your applications behave as expected in your new self-managed environment. 
+
+        This may include functional and scalability validation. We advise not moving past this point until you are sure your self-managed system would be able to replace your OuSystems Cloud system at this point.
+
+1. **Detach from OutSystems as self-managed.** Proceed to the next sections in this article.
+
+### For self-managed installations
+
+As previously stated, the detach process applies to all applications and it is not possible to detach only a subset of applications, while keeping other applications still using the OutSystems Platform infrastructure.
+
+To perform a complete detach, you will need to:
+
+1. Ensure that you have followed all of the recommendations and can meet all of the pre-requisites described in the [before you start](#before-you-start) section;
+1. Prepare the Application Server and Database Server according to [Preparing your systems to run detached](#prepare);
+1. [Open a support case](#open-support-case-on-prem);
+1. Build the source code for the Scheduler Service [and install it](#build-install-scheduler-service)
+1. Detach, compile, and deploy all individual modules and mobile apps as detailed in [Detaching an application from OutSystems](#detach-app);
+1. Test the result application(s) without OutSystems as presented in [Final steps](#final-steps).
+
 ## Preparing your systems to run detached { #prepare }
 
 ### Preparing the Application Server to deploy the generated code { #prepare-app-server }
 
-The machine that will run the detached applications must be prepared to that purpose. Making sure that all the requirements are met minimizes the chance of failure of this process.
+The machine that will run the detached applications must be prepared for that purpose. Making sure that all the requirements are met minimizes the chance of failure of this process.
 
 Some web services of OutSystems communicate inside the machine through the HTTP protocol. This requires the machine to access itself using HTTP protocol, on port 80, in its local IP address, `127.0.0.1`, most commonly known as `localhost`.
 
@@ -281,7 +318,7 @@ Do the following:
             set deploymentzoneaddress = 'new_address'
             where modulekey = 'target_module_key'
 
-1. Copy the `<appSettings>` from the `machine.config` file of the machine that previously hosted OutSystems to the `machine.config` file of the new machine. To do this:
+1. Copy the `<appSettings>` section from the `machine.config` file of the machine that previously hosted OutSystems to the `machine.config` file of the new machine. To do this:
 
     1. Locate the `machine.config` files for .NET Framework 4.0, on both the old and the new server, and open them with a text editor.
 
@@ -326,9 +363,9 @@ If you're keeping the same database, follow the procedure in [Using the database
 
 OutSystems encrypts sensitive configuration data such as passwords. To secure that data, an encryption key was generated when you installed OutSystems.
 
-That key is stored in the `private.key` file under the platform installation folder (`C:\Program Files\OutSystems\Platform Server`). To allow your application to decrypt sensitive data you need to ensure that it uses that key.
+That key is stored in the `private.key` file under the Platform Server installation folder (`C:\Program Files\OutSystems\Platform Server`). To allow your application to decrypt sensitive data you need to ensure that it uses that key.
 
-By default, your application will use the `private.key` file located in the Platform installation folder and after uninstalling it will be removed. For that reason, create a copy of the `private.key` file in a path where an IIS user can read and change the configuration file accordingly. To change the configuration file:
+By default, your application will use the `private.key` file located in the Platform Server installation folder and after uninstalling it will be removed. For that reason, create a copy of the `private.key` file in a path where an IIS user can read and change the configuration file accordingly. To change the configuration file:
 
 1. Locate the `machine.config` files for .NET Framework 4.0, on both the old and the new server, and open them with a text editor.
 
@@ -338,13 +375,13 @@ By default, your application will use the `private.key` file located in the Plat
     `%WINDIR%\Microsoft.NET\Framework64\v4.0.30319\CONFIG\`  
 
 1. Under `<appSettings>`, locate the `<add>` element with the key `"OutSystems.HubEdition.SettingsKeyPath(DEFAULT)"`.  
-1. Change the `value` attribute of this element to point to the new location of the `private.key` file.
+Change the `value` attribute of this element to point to the new location of the `private.key` file.
 
 Even if you're using the same database that previously stored OutSystems data, connection strings may need to be changed if the database credentials were altered. If that's the case, please refer to the instructions at [Using a brand new database](#use-new-db) to change the connection strings.
 
 #### Using a brand new database { #use-new-db }
 
-If you're cloning and existing environment on a new database, make to sure to first follow all the steps on [Migrate an Environment Using a Database Clone](../enterprise/maintenance/migrate-db-clone.md). Then proceed to the next steps.
+If you're cloning an existing environment on a new database, make to sure to first follow all the steps on [Migrate an Environment Using a Database Clone](../enterprise/maintenance/migrate-db-clone.md). Then proceed to the next steps.
 
 If you will use a new database, you have to manually reconfigure your database connection strings. To do this:
 
@@ -382,6 +419,32 @@ If you will use a new database, you have to manually reconfigure your database c
 
     To create a correct `{CONNECTION_STRING_IN_PLAIN_TEXT}`, check [Connection strings](#connection-strings). Make sure the connection string is correctly configured for the selected database provider, while keeping in mind that the parameter names used may not align with the placeholder names.
 
+## Open a support case { #open-support-case-on-prem }
+
+If you are originally detaching from the OutSystems Cloud, you will already have done this step after you finished setting up the new self-managed environment. In that case, skip this section.
+
+Reach out to OutSystems Global Support, open a new support case and request the source code for the [Scheduler Service](#scheduler-service). The support case must:
+* Have normal or low priority;
+* Clearly state that you are detaching;
+* Include the exact OutSystems Platform Server major and minor versions, release and build number from which you are detaching (eg. 11.18.1 build 37828);
+
+Reach out to OutSystems Global Support, open a new support case and request the source code for the [Scheduler Service](#scheduler-service).
+
+You will receive a bundle containing the scheduler source code.
+
+## Build the source code for the Scheduler Service { #build-install-scheduler-service }
+
+To compile the scheduler, do the following:
+
+1. Open the `Scheduler.sln` file (located in the Scheduler directory) using Visual Studio and build the solution.
+
+1. Open the Developer Command Prompt for Visual Studio (with Administrator privileges) and go to the `\Scheduler\bin\Debug` folder.
+
+1. Execute the following command:
+
+    `installutil scheduler.exe`
+
+    This installs a service called Detached Scheduler Service. To uninstall it, run `installutil /u scheduler.exe`. If any problem happens, check the scheduler logs in the Event Viewer.
 
 ## Detaching an application from OutSystems { #detach-app }
 
@@ -389,7 +452,7 @@ This chapter covers how to detach, compile, and deploy a single module.
 
 To have a system that replicates your previous factory, you must deploy all the applications published by OutSystems. This way you guarantee that all dependencies are met, further reducing the chances of failure.
 
-Since there are some specific OutSystems applications for application and environment configuration and management, like Service Center and LifeTime, those can't be detached.
+Some specific OutSystems applications, like Service Center and LifeTime, are used for application and environment configuration and management. As such, they can't be detached.
 
 
 <div class="info" markdown="1">
@@ -499,22 +562,19 @@ To deploy your applications, proceed as follows:
 1. Make sure that your application is running under an Application Pool that uses .NET 4.0.  
 To change the application pool of the underlying web site, select the web site and in the **Actions** pane click **Basic Settings**. Click **Select**, and select an application pool configured to use .NET 4.0.
 
-
 ### Compiling and deploying mobile apps { #compile-mobile }
 
 <div class="info" markdown="1">
 
-**Before you start**
-
 If you detached the back-end source code of the mobile application and deployed it outside OutSystems, update the back-end endpoint in the following files, according to the mobile platform:
 
-For Android:  
-`<extract_path>\source\config.xml`  
-`<extract_path>\source\platforms\android\app\src\main\res\xml\config.xml`
+* For Android:  
+    `<extract_path>\source\config.xml`  
+    `<extract_path>\source\platforms\android\app\src\main\res\xml\config.xml`
 
-For iOS:  
-`<extract_path>\source\config.xml`  
-`<extract_path>\source\platforms\ios\<app_name>\config.xml`
+* For iOS:  
+    `<extract_path>\source\config.xml`  
+    `<extract_path>\source\platforms\ios\<app_name>\config.xml`
 
 Change the following entries in the configuration files identified above:  
 
@@ -685,4 +745,3 @@ Server= {Server}; Database= {Schema}; Uid= {User}; Pwd= {Password}; Allow User V
 ```
 
 ![Appendix - MySQL](images/Appendix_-11_Mysql1.png)
-
