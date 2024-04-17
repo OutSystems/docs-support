@@ -10,6 +10,7 @@ pageprivacy: public
 <style>.cattag {background: #f4f2ff; color: #6a6581; padding: 4px 10px;}</style>
 <h3 id="new_in_platform_server_11.25.0" >New in Platform Server 11.25.0</h3>
 <ul>
+<li>Compiler Service executable and related files are now isolated inside {Platform Server folder}/CompilerService/ folder, instead of the root install path. This will improve maintainability of that service. (R11BRT-683)</li>
 <li>Site properties can now be defined as a secret, which will ensure their value is stored and encrypted in the database. This requires LifeTime 11.20.1 or higher and Service Studio 11.54.35 or higher. You can learn more about the feature <a href="https://www.outsystems.com/tk/redirect?g=dc811245-bcef-4579-bcee-3530a997eecd">here</a>. (R11BRT-737)</li>
 <li>Added a site property on PreviewInDevices system component named ForceRequestURL to skip assigning the default DNS to the request URL. The default value is false. (R11DT-2095)</li>
 </ul>
@@ -40,11 +41,7 @@ The error "Cannot read properties of null (reading '2')" if using Chrome or Edge
 <li>Fixed Service Center operations like updating Site Properties and Timers when the configuration "Allow headers removal inside onBeforeRequest REST callback" is enabled in Factory Configuration. Before this correction, the pages would not give any feedback and the Site Properties and Timers values would not get updated. (RPM-4446) <span class="cattag">Application Lifecycle</span>  <span class="cattag">Server.API</span> </li>
 <li>Fixed an issue that caused a 404 error when opening a screen.<br />
 This occurred for reactive apps that had a screen with a custom page name configured and site rule for the same module.<br /> (RPM-4462) <span class="cattag">Application Runtime</span>  <span class="cattag">SEO Friendly URLs</span> </li>
-<li>Fixed an issue that caused logs to still be generated even after disabling in Service Center **Activity Logging** for the module. This issue occurred only in OutSystems Cloud environments and for modules that were consuming the <a href="https://www.outsystems.com/tk/redirect?g=F5F17E2A-F130-40EF-AD5E-7774D3295FE7">CentralizedPlatformLogs extension</a>. The fix repaired the behavior and now the logs are correctly disabled when **Activity Logging** is off. (RPM-4509) <span class="cattag">Application Runtime</span>  <span class="cattag">Logging</span> </li>
-<li>Fixed a security vulnerability, CVSSv3.1 score 7.5 (High).
-Updated Oracle Data Provider for .NET Managed driver to version 19.21.0. Dropped support to Oracle 11g as an external database.
-
-Check <a href="https://success.outsystems.com/support/release_notes/11/outsystems_11_side_effects_and_breaking_changes/">OutSystems 11 side effects and breaking changes</a> for more details. (RPM-4234) <span class="cattag">Application Runtime</span>  <span class="cattag">Data Access and Manipulation</span> </li>
+<li>Fixed an issue that caused logs to still be generated even after disabling in Service Center <b>Activity Logging</b> for the module. This issue occurred only in OutSystems Cloud environments and for modules that were consuming the <a href="https://www.outsystems.com/tk/redirect?g=F5F17E2A-F130-40EF-AD5E-7774D3295FE7">CentralizedPlatformLogs extension</a>. The fix repaired the behavior and now the logs are correctly disabled when <b>Activity Logging</b> is off. (RPM-4509) <span class="cattag">Application Runtime</span>  <span class="cattag">Logging</span> </li>
 </ul>
 
 <h3>Known issues</h3>
