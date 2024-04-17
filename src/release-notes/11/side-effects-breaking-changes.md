@@ -16,9 +16,21 @@ As such, before introducing a breaking change for a new release, OutSystems care
 
 ## Breaking Changes
 
+### Introduced in LifeTime 11.22.0 
+
+1\. <a id="bc-11220-1"></a>
+
+**Issue**: Using the ``PUT /deployments/{DeploymentKey}/`` method from the LifeTime API to remove apps from a deployment plan sets their status as **Do Nothing**, but they still appear in the deployment details. Now, the apps are removed from the deployment plan
+
+**Runtime**: Traditional web, Reactive web, Mobile
+
+**Rationale**: The ``PUT /deployments/{DeploymentKey}/`` method was changed to be consistent with the logic that runs when using the UI to remove apps from a deployment plan.
+
+**Fix**: Implemented scenarios that take the output of the ``PUT /deployments/{DeploymentKey}/`` method as their source of data must be validated.
+
 ### Introduced in Platform Server 11.27.0 
 
-1\. <a id="bc-11250-1"></a>
+1\. <a id="bc-11270-1"></a>
 
 **Issue**: Publishing the Current Running Version of a solution in Development environments now, by default, refreshes only broken dependencies with either runtime issues or broken reference warnings.
 
