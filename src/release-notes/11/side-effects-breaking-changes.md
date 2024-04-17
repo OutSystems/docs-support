@@ -12,7 +12,7 @@ This document lists the side effects and breaking changes introduced in the diff
 
 OutSystems is committed to minimizing your effort when upgrading to a new release of OutSystems.
 
-As such, before introducing a breaking change for a new release, OutSystems carefully analyzes its impact, namely, the expected number of occurrences in its customers' installations. A breaking change is introduced only if it affects a small number of customers.
+As such, before introducing a breaking change for a new release, OutSystems carefully analyzes its impact, namely, the expected number of occurrences in its customers' installations. A breaking change is introduced only if it affects a small number of customers. 
 
 ## Breaking Changes
 
