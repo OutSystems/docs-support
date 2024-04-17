@@ -188,13 +188,14 @@ Detaching from OutSystems means you'll no longer be running on OutSystems Cloud.
 
         We advise you to install the environment with the exact setup you expect to have moving forward (number of front-ends, same database engine as your OutSystems Cloud, etc), as it will simplify the detachment and later maintenance of the system. To install a new OutSystems environment, always use the exact same OutSystems Platform Server major and minor versions. Refer to [Setting Up OutSystems](https://www.outsystems.com/tk/redirect?g=079418c8-7a3d-4b5e-9c13-c1ae7a1f122e).
 
-    1. <p id="support-case-cloud"> Reach out to OutSystems Global Support and open a support case. The support case must: </p>
+    1. <p id="support-case-cloud"> Reach out to OutSystems Support and open a support case. The support case must: </p>
+
         * Have normal or low priority;
         * Clearly state that you are detaching;
         * Include the exact OutSystems Platform Server major and minor versions, release and build number from which you are detaching (eg. 11.18.1 build 37828);
         * Include the serial number of your new self-managed environment;
 
-        You will receive a detach bundle containing the instructions you need to follow, together with license files and the scheduler source code.
+        You'll receive a detach bundle containing the instructions you need to follow, together with license files and the scheduler source code.
     
     1. Install your OutSystems applications in your new self-managed environment.
 
@@ -212,7 +213,7 @@ Detaching from OutSystems means you'll no longer be running on OutSystems Cloud.
 
 ### For self-managed installations
 
-As previously stated, the detach process applies to all applications and it is not possible to detach only a subset of applications, while keeping other applications still using the OutSystems Platform infrastructure.
+As previously stated, the detach process applies to all applications and it's not possible to detach only a subset of applications, while keeping other applications still using the OutSystems platform infrastructure.
 
 To perform a complete detach, you will need to:
 
@@ -423,7 +424,8 @@ If you will use a new database, you have to manually reconfigure your database c
 
 If you are originally detaching from the OutSystems Cloud, you will already have done this step after you finished setting up the new self-managed environment. In that case, skip this section.
 
-Reach out to OutSystems Global Support, open a new support case and request the source code for the [Scheduler Service](#scheduler-service). The support case must:
+Reach out to OutSystems Support, open a new support case and request the source code for the [Scheduler Service](#scheduler-service). The support case must:
+
 * Have normal or low priority;
 * Clearly state that you are detaching;
 * Include the exact OutSystems Platform Server major and minor versions, release and build number from which you are detaching (eg. 11.18.1 build 37828);
