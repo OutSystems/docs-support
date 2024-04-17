@@ -42,6 +42,9 @@ The error "Cannot read properties of null (reading '2')" if using Chrome or Edge
 <li>Fixed an issue that caused a 404 error when opening a screen.<br />
 This occurred for reactive apps that had a screen with a custom page name configured and site rule for the same module.<br /> (RPM-4462) <span class="cattag">Application Runtime</span>  <span class="cattag">SEO Friendly URLs</span> </li>
 <li>Fixed an issue that caused logs to still be generated even after disabling in Service Center <b>Activity Logging</b> for the module. This issue occurred only in OutSystems Cloud environments and for modules that were consuming the <a href="https://www.outsystems.com/tk/redirect?g=F5F17E2A-F130-40EF-AD5E-7774D3295FE7">CentralizedPlatformLogs extension</a>. The fix repaired the behavior and now the logs are correctly disabled when <b>Activity Logging</b> is off. (RPM-4509) <span class="cattag">Application Runtime</span>  <span class="cattag">Logging</span> </li>
+<li>Fixed a security vulnerability, CVSSv3.1 score 7.5 (High).
+Updated Oracle Data Provider for .NET Managed driver to version 19.21.0. Dropped support to Oracle 11g as an external database.
+Check <a href="https://success.outsystems.com/support/release_notes/11/outsystems_11_side_effects_and_breaking_changes/">OutSystems 11 side effects and breaking changes</a> for more details. (RPM-4234) <span class="cattag">Application Runtime</span>  <span class="cattag">Data Access and Manipulation</span> </li>
 </ul>
 
 <h3>Known issues</h3>
