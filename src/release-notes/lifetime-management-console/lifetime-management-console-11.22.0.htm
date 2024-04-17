@@ -1,0 +1,40 @@
+---
+isautopublish: true
+pageprivacy: semi-private
+---
+
+<h2 id="lifetime_management_console_11.22.0" >LifeTime Management Console 11.22.0</h2>
+<div class="info"><p>This is a preliminary version of the document.</p></div>
+
+
+<style>.cattag {background: #f4f2ff; color: #6a6581; padding: 4px 10px;}</style>
+<h3 id="new_in_lifetime_management_console_11.22.0" >New in LifeTime Management Console 11.22.0</h3>
+<ul>
+<li>LifeTime API v2 now returns a new ‘DetailsURL' attribute in specific endpoints, namely <a href=”https://success.outsystems.com/documentation/11/reference/outsystems_apis/lifetime_api_v2/#get-deployments”>GET Deployments</a>, <a href=”https://success.outsystems.com/documentation/11/reference/outsystems_apis/lifetime_api_v2/#get-applications”>GET Applications</a> and <a href=”https://success.outsystems.com/documentation/11/reference/outsystems_apis/lifetime_api_v2/#get-environments”>GET Environments</a>. This new attribute is an URL to LifeTime that enables scenarios where there’s the need to access that same resource in the LifeTime user interface once fetched from the API - for instance, to set deployment plan configurations related to integration endpoints or database catalogs. (R11CT-2907)</li>
+<li>The Platform Server version bundled with LifeTime has been upgraded to 11.26.0. (R11CT-2908)</li>
+<li>From now on, one can manage LifeTime specific settings directly in the UI, for improved autonomy. Managing the data retention of different cleanup mechanisms is an example of this. The screen can be found at [https://hostname/lifetime/Settings.aspx|https://hostname/lifetime/Settings.aspx]. (R11CT-2910)</li>
+<li>It is now possible to do deployments across infrastructures by using LifeTime API v2. This API has 4 new endpoints that allow IT users to perform binary (e.g. based on OAP and OSP files) deployments between different infrastructures. The newly added endpoints are:
+
+    <ul>
+
+      <li>POST /environments/{EnvironmentKey}/solution</li>
+
+      <li>GET /environments/{EnvironmentKey}/solutionstatus/{SolutionKey}</li>
+
+      <li>GET /environments/{EnvironmentKey}/solution/{SolutionKey}</li>
+
+      <li>POST /environments/{environmentKey}/deployment</li>
+
+    </ul>
+
+For more details on how to use them, please check the documentation <a href=”[https://success.outsystems.com/documentation/11/reference/outsystems_apis/lifetime_api_v2/”|https://success.outsystems.com/documentation/11/reference/outsystems_apis/lifetime_api_v2/#operation--deployments--get”]>here</a>. (R11CT-2934)</li>
+<li>LifeTime now cleans up old deployment operations to keep a good performance. By default, LifeTime will keep 90 days of data. The data retention period can be configured in [[LifeTime Settings page|https://hostname/lifetime/Settings.aspx|https://hostname/lifetime/Settings.aspx|https://hostname/lifetime/Settings.aspx]]. The clean up process will start a week after upgrading. The delayed start allows infrastructure managers to configure a different data retention period if they believe that is necessary. (R11CT-2935)</li>
+</ul>
+<h3 id="bug_fixing_lifetime_management_console_11.22.0" >Bug Fixing</h3>
+<ul>
+<li>You can now use the LifeTime API <a href=”[https://success.outsystems.com/documentation/11/reference/outsystems_apis/lifetime_api_v2/#operation--deployments--DeploymentKey--status--get|https://success.outsystems.com/documentation/11/reference/outsystems_apis/lifetime_api_v2/#operation--deployments--DeploymentKey--status--get][”|https://success.outsystems.com/documentation/11/reference/outsystems_apis/lifetime_api_v2/#operation--deployments--get”]>GET /deployments/{DeploymentKey}/status/</a> to get the type of deployment messages. Possible returned values are <i>Info</i>, <i>Warning</i>, and <i>Error</i>. (R11CT-2903)</li>
+<li>Removing an application from a deployment using LifeTime API effectively removes it from the deployment’s application list. Previously, when using LifeTime API to update a deployment plan and remove an application, that application would be set as ‘Do Nothing’ and wouldn’t be effectively removed from the plan. Now, the removed application will not be part of the deployment’s application list. This is a <b>breaking change</b> in the method’s behaviour.  (R11CT-2939)</li>
+<li>Improved the performance of deployment preparation by reducing significantly the number of requests made to retrieve site property information (used in the settings screen) from the target environment. The performance degradation was initially introduced with LifeTime version 11.20.1. (RPM-4813) <span class="cattag">Application Lifecycle</span>  <span class="cattag">LifeTime</span> </li>
+<li>Resolved an issue where cloud customers were unable to modify configuration settings to enable or disable the parallel deployment feature. (RPM-4882) <span class="cattag">Application Lifecycle</span>  <span class="cattag">LifeTime</span> </li>
+</ul>
+
