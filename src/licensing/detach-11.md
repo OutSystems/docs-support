@@ -190,10 +190,10 @@ Detaching from OutSystems means you'll no longer be running on OutSystems Cloud.
 
     1. <p id="support-case-cloud"> Reach out to OutSystems Support and open a support case. The support case must: </p>
 
-        * Have normal or low priority;
-        * Clearly state that you are detaching;
-        * Include the exact OutSystems Platform Server major and minor versions, release and build number from which you are detaching (eg. 11.18.1 build 37828);
-        * Include the serial number of your new self-managed environment;
+        * Have normal or low priority.
+        * Clearly state that you are detaching.
+        * Include the exact OutSystems Platform Server major and minor versions, release and build number from which you are detaching (eg. 11.18.1 build 37828).
+        * Include the serial number of your new self-managed environment.
 
         You'll receive a detach bundle containing the instructions you need to follow, together with license files and the scheduler source code.
     
@@ -426,13 +426,10 @@ If you are originally detaching from the OutSystems Cloud, you will already have
 
 Reach out to OutSystems Support, open a new support case and request the source code for the [Scheduler Service](#scheduler-service). The support case must:
 
-* Have normal or low priority;
-* Clearly state that you are detaching;
-* Include the exact OutSystems Platform Server major and minor versions, release and build number from which you are detaching (eg. 11.18.1 build 37828);
-
-Reach out to OutSystems Global Support, open a new support case and request the source code for the [Scheduler Service](#scheduler-service).
-
-You will receive a bundle containing the scheduler source code.
+* Have normal or low priority.
+* Clearly state that you are detaching.
+* Include the exact OutSystems Platform Server major and minor versions, release and build number from which you are detaching (eg. 11.18.1 build 37828).
+* Request the source code for the [Scheduler Service](#scheduler-service). You'll receive a bundle containing the scheduler source code.
 
 ## Build the source code for the Scheduler Service { #build-install-scheduler-service }
 
