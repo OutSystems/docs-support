@@ -11,7 +11,7 @@ figma: https://www.figma.com/file/cPLNnZfDOZ1NX3avcjmq3g/Enterprise%20Customers?
 
 ## What is a maintenance window?
 
-The maintenance window is a feature offered on OutSystems Cloud subscriptions, in which customers can set up a time window used by OutSystems operations team to perform maintenance task when needed.
+The maintenance window is a feature offered on OutSystems Cloud subscriptions, in which customers can set up a time window used by OutSystems operations team to perform maintenance task when needed. OutSystems uses the same hour of the maintenance window to daily execute the database maintenance plan, to ensure an optimal database health and performance.
 
 Some operations, will cause downtime during the selected time period. In this case, the administrator(s) will be informed before the operation is performed.
 
