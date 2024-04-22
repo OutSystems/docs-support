@@ -21,15 +21,15 @@ In this article we explain how to change the log level of the OutSystems platfor
 
 OutSystems uses standard logging mechanisms. On the .NET stack it use the System.Diagnostics. To configure System.Diagnostics to be more verbose, add a trace listener to the`.config` file for the application you are tracing. 
 
-These files can be found at `C:\Program Files\OutSystems\platform Server\`:
+These files can be found at `C:\Program Files\OutSystems\Platform Server\`:
 
-* Deployment Controller Service: `CompilerService.exe.config`
+* Deployment Controller Service: `CompilerService.exe.config`. Since Platform Server version 11.25.0, this file will be located inside a `CompilerService\` subfolder instead.
 
-* Deployment Service: `DeployService.exe.config`
+* Deployment Service: `DeployService.exe.config`. Since Platform Server version 11.24.0, this file will be located inside a `DeployService\` subfolder instead.
 
 * Log Service: `LogServer.exe.config`
 
-* Scheduler Service: `Scheduler.exe.config`, if a \Scheduler\ subfolder exists, change it there instead
+* Scheduler Service: `Scheduler.exe.config`. Since Platform Server version 11.11.1, this file will be located inside a `Scheduler\` subfolder instead.
 
 * SMS Connector: `SMSConnector.exe.config`
 
@@ -52,9 +52,9 @@ If they are not present, add the following XML immediately after the `</configSe
 </system.diagnostics>                                                                                    
 ```
  
-You'll need to specify the file where you wish your log to be written (`<**PATH-TO-LOG>**`). We suggest writing it to:`C:\Program Files\OutSystems\platform Server\logs\<NameOfService>.log`,
+You'll need to specify the file where you wish your log to be written (`<**PATH-TO-LOG>**`). We suggest writing it to:`C:\Program Files\OutSystems\Platform Server\logs\<NameOfService>.log`,
 
-For example, CompilerService.exe would write to `C:\Program Files\OutSystems\platform Server\logs\CompilerService.log`.
+For example, CompilerService.exe would write to `C:\Program Files\OutSystems\Platform Server\logs\CompilerService.log`.
 
 After editing the log files, you need to restart the service that uses the configuration you've changed.
 
