@@ -9,15 +9,15 @@ figma: https://www.figma.com/file/TzqCbVlN2j4nadunA7q8VU/Licensing?type=design&n
 
 # Check what your license includes, and your effective usage
 
-The license installed in an environment, define which feature are available and their limits. To **find out the licensing limits** of your environment, navigate to the **environment management console** at `http://<yourenvironment>/ServiceCenter`. Click the **Administration** tab, and navigate to the **Licensing** submenu.
+The installed license in an environment defines the available features and their limits. To **check the licensing limits** of your environment, go to the **environment management console** at `http://<yourenvironment>/ServiceCenter`. Click the **Administration** tab, and then the **Licensing** submenu.
 
 There you can check:
 
-* The maximum number of users, and how many users are currently registered;
+* The current number of registered users against the maximum allowed;
 
-* The maximum number of Application Objects or Software Units, and the amount you're currently using;
+* The number of Application Objects or Software Units you're using against the maximum allowed;
 
-* And much more.
+* And other limits and usage statistics.
 
 ![Screenshot of the Environment Management Console showing the Licensing screen with various platform features and their usage limits.](images/check-license-includes_0.png "Environment Management Console Licensing Screen")
 
