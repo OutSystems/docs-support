@@ -9,7 +9,7 @@ figma: https://www.figma.com/file/TzqCbVlN2j4nadunA7q8VU/Licensing?type=design&n
 
 # Check what your license includes, and your effective usage
 
-The license installed in an environment, define which feature are available and their limits. To **find out the licensing limits** of your environment, navigate to the **environment management console** at `http://<yourenvironment>/ServiceCenter`. Click the '**Administration**' tab, and navigate to the '**Licensing**' submenu.
+The license installed in an environment, define which feature are available and their limits. To **find out the licensing limits** of your environment, navigate to the **environment management console** at `http://<yourenvironment>/ServiceCenter`. Click the **Administration** tab, and navigate to the **Licensing** submenu.
 
 There you can check:
 
