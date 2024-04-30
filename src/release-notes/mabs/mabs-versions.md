@@ -79,11 +79,15 @@ This version can run your apps on:
     </tbody>
 </table>
 
-<div class="info" markdown="1">
+
+# Deprecated
+You can select the version in the configuration and build apps with it, but you get limited support. Limited support means that you get advice and workarounds through the support requests, but there are no bug fixes for the version. 
+
+<div class="warning" markdown="1">
 
 ## **Version 9.0** - [See Release Notes](9/9.0/9.0.md)<br/>
 Released on November 23, 2022<br/>
-Will be Deprecated on April 29, 2024
+Deprecated on on April 29, 2024
 </div>
 
 <div class="warning" markdown="1">
@@ -128,11 +132,6 @@ This version can run your apps on:
         </tr>
     </tbody>
 </table>
-
-<!-- 
-# Deprecated
-You can select the version in the configuration and build apps with it, but you get limited support. Limited support means that you get advice and workarounds through the support requests, but there are no bug fixes for the version. 
--->
 
 # Obsolete
 
