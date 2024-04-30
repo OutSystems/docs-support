@@ -10,12 +10,6 @@ figma:
 
 # Add self signed certificate to trusted root store on OutSystems
 
-<div class="info" markdown="1">
-
-We've been working on this article, give us your feedback by voting.
-
-</div>
-
 When consuming a web service integrating with other systems over HTTPS, the server hosting such service may be using a self signed certificate (for example, for non productive web services).
 
 Self signed certificates or any type of certificate that isn't universally recognized (such as certificates issued by a public certificate authority are) must be added to the trusted root store of the servers that host the Platform Server.
