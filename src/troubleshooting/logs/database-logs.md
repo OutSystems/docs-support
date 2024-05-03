@@ -11,7 +11,7 @@ figma: https://www.figma.com/file/6tXLupLiqfG9FOElATTGQU/Troubleshooting?node-id
 
 <div class="info" markdown="1">
 
-Applies to Oracle.
+Applies to Oracle
 
 </div>
 
