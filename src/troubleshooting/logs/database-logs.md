@@ -9,6 +9,12 @@ figma: https://www.figma.com/file/6tXLupLiqfG9FOElATTGQU/Troubleshooting?node-id
 ---
 # Database (AWR and ADDM) reports
 
+<div class="info" markdown="1">
+
+Applies to Oracle.
+
+</div>
+
 To troubleshoot database performance, you can get the following two types of reports.
 
 ## ADDM report
