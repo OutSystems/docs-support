@@ -25,7 +25,7 @@ The following sections describe the most common timeouts that can occur while us
 
 <div class="info" markdown="1">
 
-See [Sessions in Traditional Web apps](https://www.outsystems.com/tk/redirect?g=a6784b12-4617-437f-b5e5-ec8c8b579006) and [Configure App Authentication](https://www.outsystems.com/tk/redirect?g=74fffe9e-d6fa-4ea9-a8ae-aa7a34a37511)) for more details about sessions and session timeouts.  
+See [Sessions in Traditional Web apps](https://www.outsystems.com/tk/redirect?g=a6784b12-4617-437f-b5e5-ec8c8b579006) and [Configure App Authentication](https://www.outsystems.com/tk/redirect?g=74fffe9e-d6fa-4ea9-a8ae-aa7a34a37511) for more details about sessions and session timeouts.  
 
 </div>
 
@@ -60,7 +60,7 @@ In this case, an Advanced SQL called MyAdvancedSQL timed out in the preparation 
 
 For the application Aggregates and Advanced SQL, it is possible to specify a timeout value in seconds individually. When these queries do not have a timeout value specified, they take into account the platform wide Default Query Timeout instead. Additionally, any system query from LifeTime, System Components, or even low level underlying components such as OutSystems Services, also takes this default value as the timeout. The entity actions (CRUD) and the OutSystems Platform system queries do not have a timeout value definition that can be changed individually and follow a platform-wide Default Query Timeout.
 
-This Default Query Timeout can be specified on the [OutSystems Platform Configuration Tool](https://www.outsystems.com/tk/redirect?g=3ccedde9-7f7c-4d04-8992-703b00953c15), by going to the Advanced Settings of the Platform tab. By default it is defined with 30 seconds. Note that changing this value will influence the timeout value for all non-application queries and the change must be sustained by a clear reason. There is also one last setting called Database Update Query Timeout that will only affect the default time for database updates to run when 1-Click publishing and is set to 600 seconds by default.
+This Default Query Timeout can be specified on the [Configuration Tool](https://www.outsystems.com/tk/redirect?g=3ccedde9-7f7c-4d04-8992-703b00953c15), by going to the Advanced Settings of the Platform tab. By default it is defined with 30 seconds. Note that changing this value will influence the timeout value for all non-application queries and the change must be sustained by a clear reason. There is also one last setting called Database Update Query Timeout that will only affect the default time for database updates to run when 1-Click publishing and is set to 600 seconds by default.
 
 ## Application request timeout
 
@@ -100,7 +100,7 @@ Thread was being aborted.
 
 ### Timeout setting
 
-This timeout event value is defined in the machine.config file under the **httpRuntime** section, with the parameter **executionTimeout**. By default, this value is not set and it will default to 110 seconds. In the [OutSystems Installation Checklist](https://www.outsystems.com/home/downloads/), you'll find the instructions for setting the executionTimeout for your application server (notice that this can't be modified in Cloud environments). 
+This timeout event value is defined in the machine.config file under the **httpRuntime** section, with the parameter **executionTimeout**. By default, this value is not set and it will default to 110 seconds. In the [OutSystems installation checklist](https://www.outsystems.com/downloads/search/Platform-Server/), you'll find the instructions for setting the executionTimeout for your application server (notice that this can't be modified in Cloud environments). 
 
 But the IIS default timeout value can also be changed during the execution of the requests with [SetRequestTimeout](https://success.outsystems.com/documentation/11/reference/outsystems_apis/httprequesthandler_api/#SetRequestTimeout). This method can be placed in the begining of a Server Action to inform IIS that the request being executed will timeout after the value you've defined.
 
