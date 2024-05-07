@@ -203,7 +203,7 @@ Detaching from OutSystems means you'll no longer be running on OutSystems Cloud.
 
     1. Move the data of your OutSystems Cloud applications to your new self-managed environment.
 
-       Request [access to the database of your OutSystems Cloud](../enterprise/maintenance/access-database-paas/access-database-paas.md) and use that database user to copy data from the OutSystems Cloud into the self-managed database. You can also implement APIs in your application that export the data and then call them from the new self-managed environment. Refer to [this article](https://www.outsystems.com/forums/discussion/14620/how-to-map-servicestudio-entities-to-actual-table-names/) to understand how to map physical table names in the database to OutSystems entities. 
+       1. Request [access to the database of your OutSystems Cloud](../enterprise/maintenance/access-database-paas/access-database-paas.md) and use that database user to copy data from the OutSystems Cloud into the self-managed database. The direct database access user does not have backup privileges. Use tools such as SQL Server Management Studio or Oracle SQL Developer to manually transfer data from the OutSystems Cloud into the self-managed database using SQL queries. You can also implement APIs in your application that export the data and then call them from the new self-managed environment. Refer to [this article](https://www.outsystems.com/forums/discussion/14620/how-to-map-servicestudio-entities-to-actual-table-names/) to understand how to map physical table names in the database to OutSystems entities. 
 
     1. Confirm that your applications behave as expected in your new self-managed environment. 
 
