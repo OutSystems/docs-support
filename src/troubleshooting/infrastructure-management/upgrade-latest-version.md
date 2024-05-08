@@ -1,5 +1,5 @@
 ---
-summary: Your personal environment is automatically upgraded to the latest version. If you want to be using the latest version, you can check if upgrades are available.
+summary: Discover how to upgrade your personal environment to the latest version of OutSystems 11 (O11) and manage upgrade schedules.
 locale: en-us
 guid: 17dce373-e3a1-42e2-94c0-eda549d76cb5
 app_type: traditional web apps, mobile apps, reactive web apps

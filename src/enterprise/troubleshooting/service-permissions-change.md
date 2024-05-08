@@ -1,5 +1,5 @@
 ---
-summary: Troubleshoot a permissions-related error when you upgrade or install Platform Server 11.12.0 or later.
+summary: OutSystems 11 (O11) installation or upgrade may fail due to service permission errors when using lower-privilege user accounts for security improvements.
 tags: 
 locale: en-us
 guid: ae2f1814-d3bb-4e38-a5ba-33423aec6c34

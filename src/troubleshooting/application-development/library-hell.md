@@ -1,5 +1,5 @@
 ---
-summary: The article discusses the issue of changes in a producer module not being reflected in consumer modules in OutSystems, known as Library Hell, and provides solutions to address it
+summary: Explore how OutSystems 11 (O11) handles library dependencies and deployment issues in complex app environments.
 locale: en-us
 guid: cefe3ea0-ea56-405d-8863-f2b366f442a3
 app_type: traditional web apps, mobile apps, reactive web apps

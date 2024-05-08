@@ -1,6 +1,5 @@
 ---
-summary: This document lists two common reasons that can help you troubleshoot the issue. A 401 error when authentication fails after client request. Message "Install the new app template to start creating Reactive Web apps".
-Tags:
+summary: Explore troubleshooting steps for network issues preventing new app creation in OutSystems 11 (O11) due to authentication errors.
 locale: en-us
 guid: 292ae0af-338c-48d8-be72-b23cc3d84380
 app_type: traditional web apps, mobile apps, reactive web apps

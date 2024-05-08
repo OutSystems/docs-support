@@ -1,5 +1,5 @@
 ---
-summary: 
+summary: OutSystems 11 (O11) distinguishes between IT Users and Application Users, each managed under separate user providers within the platform.
 locale: en-us
 guid: de98a7b8-ecf1-4b7e-adbf-5cfdcb6f9894
 app_type: traditional web apps, mobile apps, reactive web apps

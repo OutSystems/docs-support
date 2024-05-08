@@ -1,5 +1,5 @@
 ---
-summary: Learn how to install certificates, so that you can make HTTPS requests to servers that use self-signed certificates or certificates not trusted by your operating system.
+summary: Learn how to add a self-signed certificate to the trusted root store on OutSystems 11 (O11) to ensure secure HTTPS connections.
 locale: en-us
 guid: 7429b610-e2b7-4a76-8557-6516bfda19f3
 app_type: traditional web apps, mobile apps, reactive web apps

@@ -1,5 +1,5 @@
 ---
-summary: 
+summary: Explore how OutSystems 11 (O11) addresses HTTPS to HTTP link issues and hostname changes due to misconfigured network layers.
 locale: en-us
 guid: 19528074-d51e-434c-bbce-ccfde080c48e
 app_type: traditional web apps, mobile apps, reactive web apps

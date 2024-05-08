@@ -1,5 +1,5 @@
 ---
-summary: The article details how OutSystems Platform logs information using Windows logging mechanisms and how to access and interpret these logs
+summary: OutSystems 11 (O11) utilizes Windows logging mechanisms to document component statuses and operations, viewable via the Windows Event Viewer.
 locale: en-us
 guid: 0c19ce88-799c-45bb-954a-c77d1364fb87
 app_type: traditional web apps, mobile apps, reactive web apps

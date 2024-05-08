@@ -1,5 +1,5 @@
 ---
-summary: "Identify and fix a known issue when upgrading to Platform Server version 11.10.2 or higher. The error: Value cannot be null.Parameter name: key will be thrown when upon Service Center installation."
+summary: OutSystems 11 (O11) update to version 11.10.2 introduces a validation issue causing 'value cannot be null' errors due to legacy Site Property formats.
 tags: known-issues
 locale: en-us
 guid: a40fd69f-f60e-42c5-ad67-d5cdcda8dd1d

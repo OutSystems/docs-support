@@ -1,5 +1,5 @@
 ---
-summary: Learn how to troubleshoot LifeTime deployment issues.
+summary: Explore common deployment issues and troubleshooting steps for OutSystems 11 (O11) using LifeTime.
 tags:
 locale: en-us
 guid: c7ebcb0a-6852-4222-9286-9fa6bc5d0675

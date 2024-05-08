@@ -1,5 +1,5 @@
 ---
-summary: Code injection and Cross site scripting are two of the most common vulnerabilities in web applications. They are easily prevented with OutSystems Platform. 
+summary: Explore how OutSystems 11 (O11) protects apps from code injection and XSS attacks using built-in functions and security practices.
 locale: en-us
 guid: 65bc8210-b3fb-4b79-86dc-f580196f7f9c
 app_type: traditional web apps, mobile apps, reactive web apps

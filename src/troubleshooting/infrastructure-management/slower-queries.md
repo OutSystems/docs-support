@@ -1,6 +1,6 @@
 ---
 tags: 
-summary: Check here how to improve the performance of queries that become slower after deleting/updating a significant amount of rows. 
+summary: OutSystems 11 (O11) users may experience slower database queries after deleting or updating rows due to outdated statistics and data fragmentation.
 locale: en-us
 guid: 9F9D7472-775E-4F53-A6E0-F3C649680216
 app_type: traditional web apps, mobile apps, reactive web apps

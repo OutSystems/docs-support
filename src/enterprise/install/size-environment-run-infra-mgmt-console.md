@@ -1,5 +1,5 @@
 ---
-summary: The infrastructure management console is installed on a dedicated environment. Learn how to size the database for LifeTime.
+summary: OutSystems 11 (O11) mandates a dedicated environment for its LifeTime infrastructure management console with specific storage sizing.
 locale: en-us
 guid: c968ec98-068a-4ca0-a0f3-f0d2c09978e6
 app_type: traditional web apps, mobile apps, reactive web apps

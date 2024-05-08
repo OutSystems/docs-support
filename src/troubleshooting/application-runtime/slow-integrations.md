@@ -1,5 +1,5 @@
 ---
-summary: Learn how to deal with slow integrations in your OutSystems apps.
+summary: Explore effective strategies for managing slow integrations in OutSystems 11 (O11) triggered by screen actions or processes.
 tags: 
 locale: en-us
 guid: 2BD5C654-4CE7-4752-8407-C9F185D060DB

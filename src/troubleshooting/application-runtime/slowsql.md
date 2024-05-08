@@ -1,5 +1,5 @@
 ---
-summary: What do the SLOWSQL log messages mean? How to interpret them.
+summary: Explore how OutSystems 11 (O11) handles SLOWSQL log messages for performance troubleshooting in database queries.
 tags:
 locale: en-us
 guid: 4d8cc454-3db3-11ed-b72d-00155dba6401

@@ -1,5 +1,5 @@
 ---
-summary: 
+summary: OutSystems 11 (O11) faces memory issues on Android due to limitations with large local storage entity attributes.
 locale: en-us
 guid: eafe431f-ca4d-4305-93bc-0b964fb9efc6
 app_type: traditional web apps, mobile apps, reactive web apps

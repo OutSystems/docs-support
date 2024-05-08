@@ -1,5 +1,5 @@
 ---
-summary: The article explains the error 503 - Host header does not match, its causes, and how to resolve it in OutSystems Cloud environments.
+summary: Explore how OutSystems 11 (O11) handles the '503 - Host header does not match' error by managing secure endpoint configurations.
 locale: en-us
 guid: c9a42528-9c9c-471c-aded-e5c2a0aef08e
 app_type: mobile apps, reactive web apps, traditional web apps

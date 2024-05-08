@@ -1,6 +1,6 @@
 ---
 tags:
-summary: Troubleshoot Oracle Data Provider for .NET (ODP.NET) issues when using Configuration Tool and Service Studio. 
+summary: Explore driver compatibility issues and solutions for OutSystems 11 (O11) when using Oracle Data Provider for .NET.
 locale: en-us
 guid: 529e7c9a-0497-4041-a583-1682bdbaead4
 app_type: traditional web apps, mobile apps, reactive web apps

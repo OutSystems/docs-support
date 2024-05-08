@@ -1,5 +1,5 @@
 ---
-summary: Personal Environments can store up to 2GB on the database. This includes system and application data. Learn what you can do to take the most of it.
+summary: Explore how to manage database space in OutSystems 11 (O11) personal environments, which have a 2GB limit.
 locale: en-us
 guid: 8eb02f36-7cbc-43f1-aec7-6c00c76a6bbf
 app_type: traditional web apps, mobile apps, reactive web apps

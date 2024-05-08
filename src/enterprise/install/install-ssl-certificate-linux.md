@@ -1,5 +1,5 @@
 ---
-summary: Learn how to request and install an SSL certificate in your application server so that your OutSystems applications can be used over secure connections.
+summary: Explore the process of installing an SSL certificate for OutSystems 11 (O11) on Linux to secure application connections.
 locale: en-us
 guid: 03501092-5cc4-422a-a64e-85ff2740a068
 app_type: traditional web apps, mobile apps, reactive web apps

@@ -1,5 +1,5 @@
 ---
-summary: Learn how to check if your OutSystems environments are affected by RPM-3448 and how to fix it.
+summary: Explore how to address the RPM-3448 issue in OutSystems 11 (O11) on-premises environments after using the Deploy All feature.
 locale: en-us
 guid: b2c69399-56bf-4f1b-b9ba-e4be9ddddc6b
 app_type: traditional web apps, mobile apps, reactive web apps

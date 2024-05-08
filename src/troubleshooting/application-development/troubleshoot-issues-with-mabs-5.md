@@ -1,5 +1,5 @@
 ---
-summary: Check how you can fix some of the mobile app build issues after upgrading to MABS 5.0.
+summary: Troubleshoot MABS 5.0 issues in OutSystems 11 (O11) related to SDK updates and plugin compatibility.
 tags:
 locale: en-us
 guid: c17b230d-07c0-4dd2-b977-a794555d8ba2

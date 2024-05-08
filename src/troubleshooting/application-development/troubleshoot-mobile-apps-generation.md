@@ -1,5 +1,5 @@
 ---
-summary: Troubleshooting issues when generating mobile apps to native platforms.
+summary: Explore troubleshooting techniques for mobile app generation issues in OutSystems 11 (O11) with a focus on MABS compatibility and plugin updates.
 tags: support-Mobile_Apps-featured
 locale: en-us
 guid: 2705ae8e-d762-41cc-804f-0c9825d71074

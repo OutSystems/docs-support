@@ -1,5 +1,5 @@
 ---
-summary: "Failed to load cache manifest. File <FilePath> not found. The file was never created."
+summary: Learn to resolve the "Failed to load cache manifest" error in OutSystems 11 (O11) due to missing files.
 locale: en-us
 guid: 51BD8983-3791-4EBE-8132-2D20EB1F366A
 app_type: mobile apps

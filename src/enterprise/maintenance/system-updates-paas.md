@@ -1,5 +1,5 @@
 ---
-summary: How and when OutSystems updates the Operating systems of PaaS servers.
+summary: Learn how OutSystems 11 (O11) ensures secure and efficient operation through regular patching of its cloud infrastructure servers.
 tags: support-Cloud_Platform-featured
 locale: en-us
 guid: b41ab799-b4e4-4f0f-8141-b36fef030b0d

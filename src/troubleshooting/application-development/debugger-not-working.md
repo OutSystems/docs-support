@@ -1,5 +1,5 @@
 ---
-summary: Typical reasons for the debugger to hang or stop working in a debugging session. Check the causes and the solutions.
+summary: Explore common debugging issues and solutions in OutSystems 11 (O11) Service Studio, including connection problems and server configurations.
 locale: en-us
 guid: 0818cc08-cca4-4780-bbc5-6e1cb8b77a10
 app_type: traditional web apps, mobile apps, reactive web apps

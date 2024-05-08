@@ -1,5 +1,5 @@
 ---
-summary: Unable to switch to cache version
+summary: Explore troubleshooting tips for the "Unable to switch to cache version" error in OutSystems 11 (O11) affecting mobile app upgrades.
 locale: en-us
 guid: 7A2E41BB-9F8D-457B-A519-19AA00BE98E3
 app_type: mobile apps

@@ -1,5 +1,5 @@
 ---
-summary: This article explains how to troubleshoot if the debugger does not start in a particular version of chrome. 
+summary: OutSystems 11 (O11) debugger fails to start in Chrome version 111.0.5563.64/.65, requiring an upgrade to resolve the issue.
 locale: en-us
 guid: A46FC291-7A1D-4D99-852A-972FA5E4F8E8
 tags: 

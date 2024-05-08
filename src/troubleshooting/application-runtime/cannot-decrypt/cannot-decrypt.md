@@ -1,5 +1,5 @@
 ---
-summary: "Check all the identified causes and their solutions when facing a \"Error Deserializing ViewState:  Cannot decrypt the content\" error"
+summary: Explore troubleshooting strategies for "Error Deserializing ViewState- Cannot decrypt the content" in OutSystems 11 (O11) web applications.
 tags: 
 locale: en-us
 guid: 353db22a-7853-4498-a2a1-62c184f291ff

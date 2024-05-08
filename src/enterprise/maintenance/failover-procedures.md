@@ -1,5 +1,5 @@
 ---
-summary: Describes the procedure to activate a passive front-end and move the Deployment Controller role to a different server. It can be used to recover from a server failure by activating standby servers.
+summary: Learn failover procedures for activating passive front-ends and moving roles in OutSystems 11 (O11) installations.
 locale: en-us
 guid: a981ba0b-3a4d-4a75-b410-b38be75bea82
 app_type: traditional web apps, mobile apps, reactive web apps

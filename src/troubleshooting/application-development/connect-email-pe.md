@@ -1,5 +1,5 @@
 ---
-summary: Learn the causes and how to solve errors that can occur during while trying to login to your personal environment.
+summary: Explore common connection issues and solutions for OutSystems 11 personal environments, including environment reactivation and maintenance procedures.
 locale: en-us
 guid: c3b7c99f-9b85-42f1-9bae-4036ee8ef145
 app_type: traditional web apps, mobile apps, reactive web apps

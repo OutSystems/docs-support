@@ -1,5 +1,5 @@
 ---
-summary: This article describes how to restore the OutSystems database to a different database server.
+summary: OutSystems 11 (O11) guide on restoring a database to a new server and updating application server configurations.
 tags:
 locale: en-us
 guid: 346a4452-9ede-4346-aeb3-9455a48e99cc

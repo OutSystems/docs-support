@@ -1,5 +1,5 @@
 ---
-summary: Resolve an issue where Service Studio doesn't load properly and has a warning about missing permissions in the configuration folder.
+summary: Learn how to resolve launch issues in OutSystems 11 (O11) due to missing permissions for configuration folders on both MacOS and Windows.
 
 locale: en-us
 guid: 8EE47E91-1685-47CA-8A64-50C4A5CD8150

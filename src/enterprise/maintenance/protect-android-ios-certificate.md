@@ -1,5 +1,5 @@
 ---
-summary:
+summary: OutSystems 11 (O11) ensures the security of Android and iOS certificates through encrypted storage, secure transmission, and controlled access.
 locale: en-us
 guid: d538f88c-9a77-41e7-80df-15f9539072a3
 app_type: traditional web apps, mobile apps, reactive web apps

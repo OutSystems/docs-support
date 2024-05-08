@@ -1,5 +1,5 @@
 ---
-summary: Use this workaround if you see errors at the end of the deployment due to error in the ping. 
+summary: Troubleshoot failed deployments in OutSystems 11 (O11) due to ping errors, including unreachable files and unexpected content.
 locale: en-us
 guid: 85D4F461-56DA-409C-9542-01D3A395E172
 app_type: traditional web apps, mobile apps, reactive web apps

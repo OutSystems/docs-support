@@ -1,5 +1,5 @@
 ---
-summary:
+summary: Explore how to regain access to the Users app in OutSystems 11 (O11) when locked out due to incorrect external authentication configurations.
 locale: en-us
 guid: e8b5cd23-b031-4fca-b2ee-071f8a074def
 app_type: traditional web apps, mobile apps, reactive web apps

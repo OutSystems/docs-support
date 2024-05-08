@@ -1,5 +1,5 @@
 ---
-summary: The article explains how to resolve a Personal Environment being unavailable due to HTTP 503 errors caused by resource overuse
+summary: Explore troubleshooting steps for HTTP 503 errors in OutSystems 11 (O11) when personal environments become unavailable due to resource overuse.
 locale: en-us
 guid: 07ec2701-98a1-4bfc-9e32-9685ecf7fe0c
 app_type: traditional web apps, mobile apps, reactive web apps

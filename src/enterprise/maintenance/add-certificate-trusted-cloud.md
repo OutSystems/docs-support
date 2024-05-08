@@ -1,5 +1,5 @@
 ---
-summary: Adding a certificate to the trusted root store of your OutSystems cloud. This is necessary when integrating with external systems that bear self signed certificates.
+summary: Learn how to add certificates to the trusted root store in OutSystems 11 (O11) Cloud environments to ensure secure HTTPS connections with external systems.
 tags: support-Cloud_Platform
 locale: en-us
 guid: 94fe2273-28c4-448f-8c54-cf699d40f9f1

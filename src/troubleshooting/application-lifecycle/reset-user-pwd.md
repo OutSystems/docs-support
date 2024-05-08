@@ -1,5 +1,5 @@
 ---
-summary:
+summary: Learn how to reset the admin password for IT users and end users in OutSystems 11 (O11) using database updates or the Service Center.
 locale: en-us
 guid: 77573d1b-9ee1-4e99-87a9-27af4a994376
 app_type: traditional web apps, mobile apps, reactive web apps

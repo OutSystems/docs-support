@@ -1,5 +1,5 @@
 ---
-summary: OutSystems Cloud databases autogrow as needed, ensuring your platform runs smoothly.
+summary: OutSystems 11 (O11) supports SQL Server or Oracle RDS databases with autogrow features on OutSystems Cloud.
 locale: en-us
 guid: e0ed7b1b-f7cc-42cb-9b6d-d36c808e7f0e
 app_type: traditional web apps, mobile apps, reactive web apps

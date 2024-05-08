@@ -1,5 +1,5 @@
 ---
-summary:
+summary: Explore articles on developing secure OutSystems applications and addressing known vulnerabilities.
 tags:
 locale: en-us
 guid: dfdde6ff-582a-45cf-b88f-31e3d5fb0356

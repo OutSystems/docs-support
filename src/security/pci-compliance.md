@@ -1,5 +1,5 @@
 ---
-summary: Learn about how OutSystems 11 is PCI compliant with Sentry
+summary: OutSystems 11 Sentry ensures PCI DSS compliance for secure credit card processing through multiple integration methods and enhanced security features.
 tags:
 locale: en-us
 guid: 1fcf38a0-15c1-486a-b022-a9d21dea89b6

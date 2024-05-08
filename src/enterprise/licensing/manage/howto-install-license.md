@@ -1,5 +1,5 @@
 ---
-summary: If you request a license for an environment, we'll send an email with it. Go to the environment management console to install the new license.
+summary: This guide details the process for installing a license file in OutSystems 11 (O11) on-premises environments.
 locale: en-us
 guid: 901b198a-6fac-460e-b661-9a76c2e1093b
 app_type: traditional web apps, mobile apps, reactive web apps

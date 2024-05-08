@@ -1,5 +1,5 @@
 ---
-summary: How to request access to the databases of your OutSystems Cloud and what permissions are granted. Please note we recently replaced the term whitelist with allowlist across all OutSystems documentation.
+summary: Explore how to request direct database access for OutSystems 11 (O11) Cloud databases, including options for temporary and permanent user access.
 tags: support-Cloud_Platform; support-Cloud_Platform-featured; article-page
 locale: en-us
 guid: 4cdae94f-8633-4875-98bd-a3a4ac1bd89a

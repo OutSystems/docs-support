@@ -1,5 +1,5 @@
 ---
-summary: Understand, troubleshoot and resolve the error 'Could not establish trust relationship for the SSL/TLS secure channel' in web services.
+summary: Resolve SSL/TLS trust issues when consuming web services in OutSystems 11 (O11) by ensuring valid certificates and proper configurations.
 locale: en-us
 guid: 2a1720f7-5ef5-4e71-b15b-2511b6dc6ab5
 app_type: traditional web apps, mobile apps, reactive web apps

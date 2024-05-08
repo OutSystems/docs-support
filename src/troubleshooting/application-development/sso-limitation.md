@@ -1,5 +1,5 @@
 ---
-summary: 
+summary: OutSystems 11 (O11) provides strategies for maintaining session continuity in Traditional Web Apps when interacting with Reactive or Mobile Web apps.
 locale: en-us
 guid: A62F7870-428F-4AAB-B786-F8F347B0A4C6
 app_type: traditional web apps, mobile apps, reactive web apps

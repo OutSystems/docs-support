@@ -1,5 +1,5 @@
 ---
-summary: The article provides a guide on how to obtain and enhance Service Studio logs for troubleshooting in OutSystems.
+summary: OutSystems 11 (O11) provides detailed error reporting and enhanced logging capabilities in Service Studio to assist in troubleshooting and support.
 tags:
 locale: en-us
 guid: f8cdaea8-0cdd-4466-830e-8bcf9d4ac8e7

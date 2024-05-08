@@ -1,5 +1,5 @@
 ---
-summary: OutSystems logs information that helps the troubleshooting of problems. Learn how to get the troubleshooting information from the different OutSystems components and other system components.
+summary: Learn how to obtain and utilize various logs for troubleshooting in OutSystems 11 (O11) by accessing detailed instructions for each component.
 tags:
 locale: en-us
 guid: 0ffec091-70df-4b3c-9c4b-0a274efd1541

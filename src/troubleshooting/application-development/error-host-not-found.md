@@ -1,5 +1,5 @@
 ---
-summary: If you can't connect from the IDE to your personal environment, check if your environment was recycled. Login at outsystems.com to check this.
+summary: OutSystems 11 (O11) troubleshooting guide for resolving the "Host not found" error when connecting to a personal environment.
 locale: en-us
 guid: 1772e0b0-ad78-4f95-851f-89323b298934
 app_type: traditional web apps, mobile apps, reactive web apps

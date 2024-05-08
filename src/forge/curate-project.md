@@ -1,5 +1,5 @@
 ---
-summary: Know about the level of curation of the projects shared in the Forge and the support you can get for those projects.
+summary: Explore the classification and support details of projects in OutSystems 11 (O11), including Supported, Trusted, Featured, and Deprecated projects.
 tags: forge; forge_support; forge_support_sharing
 locale: en-us
 guid: d6049875-7b13-4af6-b907-fa767a1e7104

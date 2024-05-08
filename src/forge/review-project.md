@@ -1,5 +1,5 @@
 ---
-summary: Learn how to review a component and help others understand if it is relevant.
+summary: Explore how to report, review, and flag components in OutSystems 11 (O11) to ensure content quality and security.
 tags: forge; forge_support; forge_support_sharing
 locale: en-us
 guid: faa4f7b0-8db6-485d-977b-ef7e703739a7

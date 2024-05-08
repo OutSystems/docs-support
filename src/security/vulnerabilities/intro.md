@@ -1,6 +1,5 @@
 ---
-summary: Overview of the way we tackle vulnerabilities found in the OutSystems Platform. 
-Tags: security-vulnerabilities; article-page
+summary: OutSystems 11 (O11) implements a comprehensive vulnerability management policy to guide customers on how to report and handle security issues effectively.
 locale: en-us
 guid: bc76e550-bfca-40a6-ad24-7fe3db432331
 app_type: traditional web apps, mobile apps, reactive web apps

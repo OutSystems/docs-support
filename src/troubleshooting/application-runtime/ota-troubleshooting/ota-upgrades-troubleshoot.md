@@ -1,5 +1,5 @@
 ---
-summary: Common issues related to over-the-air upgrades.
+summary: Explore common OTA upgrade issues and solutions in OutSystems 11 (O11) detailed in the Service Center Error logs and device logs.
 locale: en-us
 guid: 7AAE6C3B-FDB6-4187-A493-EF62F925AFFC
 app_type: mobile apps

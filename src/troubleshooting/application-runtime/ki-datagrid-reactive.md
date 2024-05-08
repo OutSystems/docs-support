@@ -1,6 +1,6 @@
 ---
 tags: known-issues
-summary: Known issues with the Data Grid component for Reactive Web apps
+summary: Explore known issues with the Data Grid component for Reactive Web apps in OutSystems 11 (O11).
 locale: en-us
 guid: 8f709280-5c8a-4fae-a64c-233553f80c86
 app_type: traditional web apps, mobile apps, reactive web apps

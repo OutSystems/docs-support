@@ -1,5 +1,5 @@
 ---
-summary: The OutSystems Forge is a repository of reusable, open code modules, connectors, UI components, and business solutions to help speed up app delivery time.
+summary: Explore the OutSystems 11 (O11) Forge, a repository for sharing diverse software projects and components that enhance platform capabilities.
 tags: forge; forge_support
 locale: en-us
 guid: 8a0a5173-e7b7-4b8a-a58a-42d43e201233

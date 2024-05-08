@@ -1,5 +1,5 @@
 ---
-summary: Know the details of sharing a project in the OutSystems Forge.
+summary: OutSystems 11 (O11) recommends using OutSystems Application Packages (.oap) for efficient project sharing and dependency management.
 tags: forge; forge_support; forge_support_sharing
 locale: en-us
 guid: 7054c142-cbc7-4e56-bcfb-df90734f3ed7

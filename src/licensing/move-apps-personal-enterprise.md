@@ -1,5 +1,5 @@
 ---
-summary: We'll help you transfer applications when you upgrade. Contact your account manager for help in getting this process started.
+summary: OutSystems 11 (O11) facilitates the transfer of applications from Personal or Trial environments to a paid subscription.
 locale: en-us
 guid: 2505a258-5861-4143-8251-a39e03821bf7
 app_type: traditional web apps, mobile apps, reactive web apps

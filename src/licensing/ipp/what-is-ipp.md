@@ -1,5 +1,5 @@
 ---
-summary: The Intellectual Property Protection (IPP) feature ensures your applications can't be deployed to another infrastructure without your consent.
+summary: OutSystems 11 (O11) features Intellectual Property Protection (IPP) to control the deployment of applications across different infrastructures.
 locale: en-us
 guid: ab6146f9-8d06-44cb-9753-96c701e290f1
 app_type: traditional web apps, mobile apps, reactive web apps

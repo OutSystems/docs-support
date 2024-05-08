@@ -1,5 +1,5 @@
 ---
-summary: This article describes the differences in the null DateTime value between different OutSystems versions. It is relevant to the development of mobile apps.
+summary: Explore how OutSystems 11 (O11) handles the null DateTime value behavior in mobile apps across different Platform Server versions.
 tags: support-maintenance;
 locale: en-us
 guid: 9a463cd2-53c3-4e1f-8040-e71ac11ae99b

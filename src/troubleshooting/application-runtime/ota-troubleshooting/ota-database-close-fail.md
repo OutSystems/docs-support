@@ -1,5 +1,5 @@
 ---
-summary: Failed to close database cannot be closed while a transaction is in progress.
+summary: Explore the handling of database closure errors in OutSystems 11 (O11) when transactions are still in progress.
 locale: en-us
 guid: BEA72D64-7BE3-4509-BFFC-7DE599AA2703
 app_type: mobile apps

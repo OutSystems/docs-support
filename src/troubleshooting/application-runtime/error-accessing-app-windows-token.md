@@ -1,5 +1,5 @@
 ---
-summary: The article explains how to resolve the 'Could not create Windows user token' error in OutSystems .NET applications by adjusting 'Run As' credentials or user privileges
+summary: Resolve the "Could not create Windows user token" error in OutSystems 11 (O11) by adjusting 'Run As' settings.
 locale: en-us
 guid: 6d5b466c-0819-4e81-a080-6089039c0394
 app_type: traditional web apps, mobile apps, reactive web apps

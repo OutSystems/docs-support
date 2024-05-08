@@ -1,5 +1,5 @@
 ---
-summary: Timeout reached when downloading resources during over-the-air upgrade
+summary: Explore how OutSystems 11 (O11) handles mobile app OTA upgrade timeouts and resource download issues.
 locale: en-us
 guid: 6C1A3620-6882-45B1-A08D-965FB2D3864B
 app_type: mobile apps

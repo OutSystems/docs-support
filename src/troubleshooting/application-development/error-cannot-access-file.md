@@ -1,6 +1,5 @@
 ---
-summary: Identify and resolve the publication error "The process cannot access the file because it is being used by another process".
-Tags: 
+summary: Resolve file access errors during publication in OutSystems 11 (O11) caused by antivirus or other processes.
 locale: en-us
 guid: 1305808c-05bc-4f19-939b-09877f5681c1
 app_type: traditional web apps, mobile apps, reactive web apps

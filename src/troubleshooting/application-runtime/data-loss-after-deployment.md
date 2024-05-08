@@ -1,5 +1,5 @@
 ---
-summary: Use this workaround if Aggregates or Advanced Queries that access entities from an application stop returning values.
+summary: Learn how to prevent data loss in entities after deployment in OutSystems 11 (O11) due to changes in entity identifiers across environments.
 locale: en-us
 guid: F37D9C82-F3C8-4CBD-B3E8-4D89A88877C5
 app_type: traditional web apps, mobile apps, reactive web apps

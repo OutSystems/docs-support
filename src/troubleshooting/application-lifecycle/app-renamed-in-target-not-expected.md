@@ -1,6 +1,5 @@
 ---
-summary:  What to do when your app is unexpectedly renamed after staging it to the target environment.
-Tags:
+summary: Learn how OutSystems 11 (O11) handles unexpected application renaming after staging due to centralized app details in LifeTime.
 locale: en-us
 guid: 828DA276-1480-4EA6-B5B1-66E488182743
 app_type: traditional web apps, mobile apps, reactive web apps

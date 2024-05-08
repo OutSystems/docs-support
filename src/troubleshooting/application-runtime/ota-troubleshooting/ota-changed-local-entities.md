@@ -1,5 +1,5 @@
 ---
-summary: Changes in Local Entity Attributes data types when they have data in the device
+summary: Explore the challenges and solutions related to changing local entity attribute data types in OutSystems 11 (O11) when existing data is present on devices.
 locale: en-us
 guid: 27F1C7DD-2290-4391-8A9E-64569AAEACAB
 app_type: mobile apps

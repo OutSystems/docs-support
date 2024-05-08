@@ -1,5 +1,5 @@
 ---
-summary:
+summary: OutSystems 11 (O11) provides a detailed guide on cloning and migrating environment databases for effective application testing.
 tags: 
 guid: 969DB4B1-51CF-4908-A638-A345D2AB841C
 locale: en-us

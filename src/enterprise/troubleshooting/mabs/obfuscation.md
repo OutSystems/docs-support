@@ -1,5 +1,5 @@
 ---
-summary: About obfuscation of the logs in native mobile app builds. 
+summary: OutSystems 11 (O11) integrates AppShield for obfuscation and provides tools for retracing logs in mobile builds.
 tags: support-mobile
 locale: en-us
 guid: 1578fb0f-f45d-4b74-8f2c-f9e958d45535

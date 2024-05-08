@@ -1,5 +1,5 @@
 ---
-summary: This article describes how to remove the infrastructure management console (LifeTime) from a shared environment and installing it in a new dedicated environment.
+summary: OutSystems 11 (O11) guide on reinstalling the LifeTime management console in a dedicated environment from a shared setup.
 tags:
 locale: en-us
 guid: e7dcad56-9c9a-40c2-b798-dc70d3015564

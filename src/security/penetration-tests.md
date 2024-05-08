@@ -1,5 +1,5 @@
 ---
-summary: Support for penetration tests and vulnerability scans, explore the false positives findings.
+summary: OutSystems 11 (O11) allows customer-initiated penetration testing on its various deployment infrastructures, providing guidelines for managing false positives.
 tags:
 locale: en-us
 guid: 43176740-324f-4592-a993-5d4f9fa660fb

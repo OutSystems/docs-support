@@ -1,6 +1,5 @@
 ---
-summary: When you need to upload large files on your apps, you'll need to increase the limits allowed by the application server. This document will show how to do it and apply the changes to your applications.
-Tags: 
+summary: Explore how to increase file upload limits in OutSystems 11 (O11) applications using the Factory Configuration component.
 locale: en-us
 guid: 0575cae0-16ef-4d80-b1ae-4517eec2661c
 app_type: traditional web apps, mobile apps, reactive web apps

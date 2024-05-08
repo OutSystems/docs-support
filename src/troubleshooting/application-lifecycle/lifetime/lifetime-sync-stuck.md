@@ -1,5 +1,5 @@
 ---
-summary: Learn how to troubleshoot when LifeTime synchronization is stuck.
+summary: Troubleshoot stuck environment synchronization in OutSystems 11 (O11) LifeTime by checking updates, connectivity, and process statuses.
 tags:
 locale: en-us
 guid: e6d30ec2-fd7a-4214-921b-12f021aab323

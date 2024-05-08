@@ -1,5 +1,5 @@
 ---
-summary: Find the Activation Code of an infrastructure and the serial number of an environment in Service Center.
+summary: OutSystems 11 (O11) users can locate their Activation Code and Serial Number via email or through the Service Center's Licensing section.
 locale: en-us
 guid: 3e05decb-fc94-454c-9c02-d7acfd4c2a3b
 app_type: traditional web apps, mobile apps, reactive web apps

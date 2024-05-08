@@ -1,5 +1,5 @@
 ---
-summary: Web applications are often vulnerable to malicious attacks. It is paramount that you develop secure apps. Learn how you can do it with OutSystems Platform.
+summary: Learn how OutSystems 11 (O11) helps develop secure applications by mitigating risks and protecting against common vulnerabilities.
 tags: protecting-outsystems-applications; outsystems-security; outsystems-secure-applications;
 locale: en-us
 guid: c6a9c1dc-0b63-422a-a299-634ad131e49b

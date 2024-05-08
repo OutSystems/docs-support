@@ -1,5 +1,5 @@
 ---
-summary: Check how you can fix some of the mobile app build errors after upgrading from MABS 4 to MABS 5.
+summary: Troubleshooting guide for upgrading from MABS 4 to MABS 5 in OutSystems 11 (O11), focusing on SDK and plugin compatibility issues.
 locale: en-us
 guid: 882d32b2-39e0-4d08-9d40-e30f80cd467f
 app_type: traditional web apps, mobile apps, reactive web apps

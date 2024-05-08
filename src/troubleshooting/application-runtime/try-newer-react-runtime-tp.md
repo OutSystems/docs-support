@@ -1,5 +1,5 @@
 ---
-summary: Test your aps on the OutSystems Reactive Web and Mobile runtime with a new version of React.
+summary: Explore the transition to React 16 for Reactive Web and Mobile apps in OutSystems 11 (O11) and its associated challenges and side effects.
 tags:
 locale: en-us
 guid: e601102f-30c6-4911-a440-e9bd70d47901

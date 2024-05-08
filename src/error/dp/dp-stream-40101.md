@@ -4,6 +4,8 @@ tags:
 guid: dc20e2a7-e5a2-4ef3-91b9-adfc0c905209
 locale: en-us
 app_type: traditional web apps, mobile apps, reactive web apps
+figma: 
+platform-version: o11
 ---
 
 # OS-DP-STREAM-40101

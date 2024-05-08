@@ -1,5 +1,5 @@
 ---
-summary: Guidelines for a secure configuration of the OutSystems Platform. Covers user authentication, data encryption, and contact details for the OutSystems security team.
+summary: Explore secure configuration and best practices for OutSystems 11 (O11) Platform Server hardening in this comprehensive guide.
 tags:
 locale: en-us
 guid: 5a5dde81-af90-4f11-be5f-321b0e4b0302

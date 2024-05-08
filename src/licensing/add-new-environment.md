@@ -1,5 +1,5 @@
 ---
-summary: If you're using the cloud-based version, just request a new environment. If you're using the on-premises version, you need to get a license for the new environment.
+summary: Guide on adding a new environment to OutSystems 11 (O11) infrastructure, covering both cloud and self-managed setups.
 locale: en-us
 guid: fa47e66e-155d-4b3c-b64d-945de079d123
 app_type: traditional web apps, mobile apps, reactive web apps

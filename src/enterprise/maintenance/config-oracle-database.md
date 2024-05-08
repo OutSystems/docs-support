@@ -1,5 +1,5 @@
 ---
-summary: The article provides a guide on configuring an Oracle database in the OutSystems platform, including steps for both Java and .NET stacks and how to use service names or TNS names for connections
+summary: Explore how to configure an Oracle database in OutSystems 11 (O11) using service names or TNS syntax for both Java and .NET stacks.
 locale: en-us
 guid: 27d32f78-27a2-4e8a-af85-8b356928c4d7
 app_type: traditional web apps, mobile apps, reactive web apps

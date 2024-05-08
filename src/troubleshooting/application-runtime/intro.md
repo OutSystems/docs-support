@@ -1,5 +1,5 @@
 ---
-summary: Troubleshoot issues that can occur when your OutSystems apps are running on the browser or a device.
+summary: Explore troubleshooting tips for OutSystems 11 (O11) applications on browsers, mobile devices, and during timer or business process execution.
 tags: 
 locale: en-us
 guid: 36cc341a-9af4-4394-9441-a5680b138747

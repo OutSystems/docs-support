@@ -1,5 +1,5 @@
 ---
-summary: The article provides a step-by-step guide on how to retrieve IIS Manager logs for a specific environment
+summary: This guide explains how to retrieve IIS Manager logs for OutSystems 11 (O11) environments.
 tags:
 locale: en-us
 guid: 71ebf09d-b6ac-4453-8c92-e4e86204ed8a

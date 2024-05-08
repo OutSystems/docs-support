@@ -1,5 +1,5 @@
 ---
-summary: The article provides step-by-step instructions for downloading LifeTime, staging, and user permissions reports in OutSystems 10 and 11
+summary: Explore how to obtain various reports in OutSystems 11 (O11) through the LifeTime troubleshooting interface.
 tags:
 locale: en-us
 guid: 27d0fb71-1ef7-4574-a8ca-bd1126b29976

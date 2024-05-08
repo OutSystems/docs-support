@@ -1,5 +1,5 @@
 ---
-summary: Upgrade procedure for Microsoft SQL Server 2019  (15.x) to safeguard correct application behavior for databases created with lower SQL Server compatibility levels
+summary: Explore SQL Server 2019 compatibility upgrade options for OutSystems 11 (O11) to ensure optimal database performance and compliance.
 locale: en-us
 guid: 394c269a-4655-41ff-8543-957c705d97fd
 app_type: traditional web apps, mobile apps, reactive web apps

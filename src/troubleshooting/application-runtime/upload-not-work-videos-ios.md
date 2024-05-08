@@ -1,5 +1,5 @@
 ---
-summary:
+summary: OutSystems 11 (O11) mobile applications face issues with video uploads on iOS 10.3 due to UIWebView changes affecting input type="file" fields.
 locale: en-us
 guid: fef0d982-a3ee-45db-93e7-cd3f26aecd0d
 app_type: traditional web apps, mobile apps, reactive web apps

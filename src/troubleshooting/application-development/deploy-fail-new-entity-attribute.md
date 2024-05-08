@@ -1,5 +1,5 @@
 ---
-summary: Identify and solve a timeout issue when deploying an application after adding a new Entity Attribute.
+summary: Explore how OutSystems 11 (O11) addresses long deployment times due to new Entity Attributes in large databases.
 tags:
 locale: en-us
 guid: f6175b88-b183-4a56-b5da-8ea4d039d836

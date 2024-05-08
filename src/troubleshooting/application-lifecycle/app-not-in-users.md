@@ -1,6 +1,5 @@
 ---
-summary: How to act when your application isn't showing in the Users app.
-Tags:
+summary: OutSystems 11 (O11) applications may not appear in the Users app if they lack a defined "Home" module.
 locale: en-us
 guid: 7f3b01b4-47f6-42f1-b3f0-6b152794c516
 app_type: traditional web apps, mobile apps, reactive web apps

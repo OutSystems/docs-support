@@ -1,5 +1,5 @@
 ---
-summary: The article explains how to resolve a connection string mismatch error when registering a front-end server in a multi-server OutSystems environment
+summary: Explore how OutSystems 11 (O11) handles front-end server registration issues due to mismatched connection strings.
 locale: en-us
 guid: a1e5c82a-4d78-42f5-a426-0f92eb41932a
 app_type: traditional web apps, mobile apps, reactive web apps

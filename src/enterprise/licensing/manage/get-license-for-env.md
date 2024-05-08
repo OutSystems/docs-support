@@ -1,5 +1,5 @@
 ---
-summary: On the OutSystems Cloud we'll manage the licensing for you. For self-managed you need to get a license and install it on your environment. Use the Customer Portal for this.
+summary: Learn how to obtain and install a license file for OutSystems 11 (O11) self-managed environments through the Customer Portal.
 locale: en-us
 guid: 95ac49e0-a453-4fe3-9b67-49d88ee832bd
 app_type: traditional web apps, mobile apps, reactive web apps

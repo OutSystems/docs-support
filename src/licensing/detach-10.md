@@ -1,6 +1,6 @@
 ---
 tags: version-10.0;
-summary: This document is a step-by-step guide for extracting the source code of your applications from OutSystems 10 and how to set it up to be executed and maintained independently of the OutSystems Platform, if you ever decide to detach from it.
+summary: OutSystems 11 (O11) offers a detailed guide for detaching and independently managing .NET applications.
 locale: en-us
 guid: d823e151-2350-4360-b0c3-7030f23affe3
 app_type: traditional web apps, mobile apps, reactive web apps

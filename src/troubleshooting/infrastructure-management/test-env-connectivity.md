@@ -1,5 +1,5 @@
 ---
-summary: Learn how to test the connectivity between two OutSystems environments
+summary: Explore how to test connectivity between environments in OutSystems 11 (O11) by accessing the Service Center console via HTTPS.
 tags:
 locale: en-us
 guid: 4cd51773-8433-49d9-850c-0b958956e63d

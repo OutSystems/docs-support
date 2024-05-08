@@ -1,5 +1,5 @@
 ---
-summary: "Unable to find the <Resource> resource"
+summary: Explore the "Unable to find resource" error in OutSystems 11 (O11) mobile applications, detailing its occurrence, meaning, and non-impactful nature.
 locale: en-us
 guid: FD2F492E-7BEF-41F8-A4F9-4C765026C5C6
 app_type: mobile apps

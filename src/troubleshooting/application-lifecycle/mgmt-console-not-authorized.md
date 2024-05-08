@@ -1,5 +1,5 @@
 ---
-summary: The article provides troubleshooting steps for resolving the 'You are not authorized to view this page' error when accessing OutSystems management consoles due to Internal Network configuration issues
+summary: OutSystems 11 (O11) management console access issues may stem from improper Internal Network settings.
 locale: en-us
 guid: 39b458bb-aa97-4fee-8438-342a45d60c8d
 app_type: traditional web apps, mobile apps, reactive web apps

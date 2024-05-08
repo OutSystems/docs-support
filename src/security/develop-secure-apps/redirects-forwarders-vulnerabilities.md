@@ -1,5 +1,5 @@
 ---
-summary: Learn how to prevent attackers from exploiting your OutSystems app URL redirects and send users to untrusted sites. 
+summary: Explore how OutSystems 11 (O11) addresses vulnerabilities related to unvalidated redirects and forwarders in web applications.
 locale: en-us
 guid: ecef005d-3f09-4ecd-a562-ae4523285363
 app_type: traditional web apps, mobile apps, reactive web apps

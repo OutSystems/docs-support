@@ -1,5 +1,5 @@
 ---
-summary:
+summary: OutSystems 11 (O11) may experience unprocessed BPT activities due to a critical bug during Daylight Savings time changes.
 locale: en-us
 guid: 29199635-c75e-4142-aa64-14044cd0f851
 app_type: traditional web apps, mobile apps, reactive web apps

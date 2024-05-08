@@ -1,5 +1,5 @@
 ---
-summary: See how OutSystems helps you address the vulnerabilities identified by OWASP. 
+summary: Learn how OutSystems 11 (O11) addresses the OWASP Top 10 security risks for web and mobile applications.
 tags: support-Security-overview
 locale: en-us
 guid: 74924eac-d729-4c99-bcb4-09b40a483cfa

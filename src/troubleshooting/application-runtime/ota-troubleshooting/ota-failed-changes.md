@@ -1,5 +1,5 @@
 ---
-summary: Failed changes in the Local Storage Metamodel due to integrity checks
+summary: Explore how OutSystems 11 (O11) handles failed changes in the Local Storage Metamodel due to integrity checks, impacting mobile application upgrades.
 locale: en-us
 guid: 5D8B648B-356D-4A9C-BBFD-61308633C8A3
 app_type: mobile apps

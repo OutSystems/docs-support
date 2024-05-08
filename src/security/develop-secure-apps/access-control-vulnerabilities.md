@@ -1,5 +1,5 @@
 ---
-summary: Ensure the users of your OutSystems apps only see and do what they are allowed to.
+summary: Explore how OutSystems 11 (O11) addresses access control and permissions vulnerabilities to secure applications.
 locale: en-us
 guid: 6e787bb3-9106-4b65-b51a-17a3b7799a9b
 app_type: traditional web apps, mobile apps, reactive web apps

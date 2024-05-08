@@ -1,5 +1,5 @@
 ---
-summary: Could not get InputStream while trying to get cache resource 
+summary: Explore common errors and solutions in OutSystems 11 (O11) related to InputStream issues during cache resource retrieval on mobile devices.
 locale: en-us
 guid: E91A6136-86E0-48EC-94B0-AD38D06A203D
 app_type: mobile apps

@@ -1,5 +1,5 @@
 ---
-summary:
+summary: Learn how to change the SQL Server database collation for OutSystems 11 (O11) to ensure compatibility and avoid conflicts.
 locale: en-us
 guid: e7538434-44da-476c-b203-0df42ed1ce0e
 app_type: traditional web apps, mobile apps, reactive web apps

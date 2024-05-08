@@ -1,5 +1,5 @@
 ---
-summary: How to configure linguistic sorting for character data in an OutSystems environment using an Oracle database. 
+summary: OutSystems 11 (O11) supports configurable linguistic sorting for Oracle databases in on-premises installations.
 locale: en-us
 guid: 97a691c3-79e8-4016-9437-045cb9725cc0
 app_type: traditional web apps, mobile apps, reactive web apps

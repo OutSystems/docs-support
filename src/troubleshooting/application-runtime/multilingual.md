@@ -1,5 +1,5 @@
 ---
-summary: Troubleshoot multilingual apps. See this content if you're having issues with creating, adding, or editing translations in Reactive Web and Mobile Apps. 
+summary: Explore troubleshooting multilingual app issues in OutSystems 11 (O11), including right-to-left language display fixes.
 locale: en-us
 guid: 70caa583-0619-41c1-8e9e-73674d5d6bc3
 app_type: traditional web apps, mobile apps, reactive web apps

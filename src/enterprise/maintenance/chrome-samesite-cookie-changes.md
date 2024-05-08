@@ -1,5 +1,5 @@
 ---
-summary: Google Chrome's upcoming changes to cookie handling may impact OutSystems apps, requiring evaluation and potential patch installation for third-party integrations and cross-site scenarios.
+summary: OutSystems 11 (O11) provides patches to address Google Chrome's upcoming changes in cookie handling.
 locale: en-us
 guid: 5a2750dc-43e6-4404-85c3-413b433c630a
 app_type: traditional web apps, mobile apps, reactive web apps

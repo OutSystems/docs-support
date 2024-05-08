@@ -1,5 +1,5 @@
 ---
-summary: Known issue that causes slow publishing in Platform Server versions 11.7.x. Check the causes, the mitigation, and the resolution.
+summary: Explore the resolution of slow publishing issues in OutSystems 11 (O11) due to specific configurations and their fixes in subsequent updates.
 locale: en-us
 guid: e4883c46-2022-4c8e-9ecf-f09d524329a1
 app_type: traditional web apps, mobile apps, reactive web apps

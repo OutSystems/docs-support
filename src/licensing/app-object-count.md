@@ -1,5 +1,5 @@
 ---
-summary: Application Object counting and licensing in OutSystems 11 and OutSystems Developer Cloud.
+summary: This article details the counting of Application Objects (AOs) on the OutSystems platform, including screens, entities, API methods, and events.
 tags:
 locale: en-us
 guid: cd994c70-9dcc-46ed-b423-84099beac39a

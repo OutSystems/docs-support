@@ -1,5 +1,5 @@
 ---
-summary: Identify, mitigate, and fix a known issue in Platform Server version 11.10.0 onwards. This happens when the path to the Platform Server folder has a symbolic link.
+summary: OutSystems 11 (O11) has a critical issue in version 11.10.0 where running the Configuration Tool may overwrite settings and cause application downtime.
 tags: known-issues
 locale: en-us
 guid: 9d238745-abc2-4500-9048-17cab2d562ad

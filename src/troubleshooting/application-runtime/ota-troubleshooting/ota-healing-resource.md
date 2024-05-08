@@ -1,5 +1,5 @@
 ---
-summary: "Healing resource <Resource> from prebundle failed"
+summary: Explore error handling in OutSystems 11 (O11) when healing resources from prebundle fails, impacting mobile app stability.
 locale: en-us
 guid: 9784BD95-44FB-4231-A892-78A363BE2F54
 app_type: mobile apps

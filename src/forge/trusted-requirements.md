@@ -1,5 +1,5 @@
 ---
-summary: Know the set of requirements that a asset shared in Forge must comply with to be considered a Trusted asset.
+summary: OutSystems 11 (O11) outlines criteria for "Trusted" asset designation on the OutSystems Forge, emphasizing quality, functionality, and security.
 tags: forge; forge_support; trusted
 locale: en-us
 guid: a5774b9a-751e-4df6-889a-9f54f363ac40

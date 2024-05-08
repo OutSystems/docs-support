@@ -1,5 +1,5 @@
 ---
-summary: Downloaded resources do not match the resources listed in the moduleinfo
+summary: Explore how OutSystems 11 (O11) addresses mobile app update errors related to resource validation and hash mismatches in the moduleinfo list.
 locale: en-us
 guid: B34D4527-D30A-4149-8982-8C031DDCCE26
 app_type: mobile apps

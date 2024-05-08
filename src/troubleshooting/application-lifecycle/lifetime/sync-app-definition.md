@@ -1,5 +1,5 @@
 ---
-summary: Synchronize app definition in LifeTime
+summary: OutSystems 11 (O11) addresses app synchronization issues by allowing users to manually sync app definitions across environments in LifeTime.
 locale: en-us
 guid: 12e41bb0-8e98-41a5-b186-b32d9cf1be46
 app_type: traditional web apps, mobile apps, reactive web apps

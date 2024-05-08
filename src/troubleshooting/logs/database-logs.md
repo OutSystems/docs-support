@@ -1,5 +1,5 @@
 ---
-summary: The article explains how to use ADDM and AWR reports for database performance troubleshooting, detailing their contents and generation steps.
+summary: Explore database performance troubleshooting in OutSystems 11 (O11) using Oracle's AWR and ADDM reports.
 tags:
 locale: en-us
 guid: 8aafea3c-07b4-4435-9ff3-62e6607e1ee3

@@ -1,5 +1,5 @@
 ---
-summary: Fix for exceeded number of open cursors in a session
+summary: Resolve the "maximum open cursors exceeded" error in OutSystems 11 (O11) by adjusting Oracle settings or application logic.
 locale: en-us
 guid: 4E2CE585-6CF5-4168-8744-7936A29A628F
 app_type: traditional web apps, mobile apps, reactive web apps

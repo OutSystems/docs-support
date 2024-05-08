@@ -1,5 +1,5 @@
 ---
-summary: Troubleshoot a failure when initializing Server.API and Server.Identity services after you upgrade to Platform Server 11.12.2 or later.
+summary: OutSystems 11 (O11) upgrade issues with Server.API and Server.Identity due to missing .NET Core 3.1.
 tags: 
 locale: en-us
 guid: c194d1df-6f2f-46c6-8085-a03fad7f8796

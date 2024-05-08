@@ -1,5 +1,5 @@
 ---
-summary: OutSystems allows the development of enterprise web and mobile applications that run in different infrastructure models
+summary: Explore the shared responsibility model and security roles in OutSystems 11 (O11) for cloud infrastructures.
 tags:
 locale: en-us
 guid: b04339ce-7b9f-4c93-94b7-e4cf397eab47

@@ -1,5 +1,5 @@
 ---
-summary: Use this workaround if Service Studio misses unsupported cases when importing SOAP web services, leading to CS0117 errors, often caused by nested list attributes.
+summary: OutSystems 11 (O11) encounters compilation errors when consuming SOAP web services with unsupported WSDL cases.
 locale: en-us
 guid: C5883122-AEDB-4767-9DA3-2B13942175B9
 app_type: traditional web apps, mobile apps, reactive web apps

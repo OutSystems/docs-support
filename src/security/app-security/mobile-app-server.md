@@ -1,5 +1,5 @@
 ---
-summary: Mobile apps communicate with the OutSystems Platform Server using secure REST endpoints. In this document, we explain how those endpoints are generated and secured.
+summary: OutSystems 11 (O11) ensures secure mobile app to server communication through encrypted REST calls and server-side access control.
 locale: en-us
 guid: 1f406792-8109-434a-95c8-c8898ccb0800
 app_type: traditional web apps, mobile apps, reactive web apps

@@ -1,5 +1,5 @@
 ---
-summary: OutSystems provides solutions to address the viewport-fit issue on iOS 12 iPhones by changing the Status Bar and WebView background colors at runtime.
+summary: OutSystems 11 (O11) addresses the viewport-fit issue on iOS 12 iPhones by modifying the Status Bar and WebView background colors.
 locale: en-us
 guid: 83ea60d3-c30f-44e3-b411-9199f6c3ae33
 app_type: traditional web apps, mobile apps, reactive web apps

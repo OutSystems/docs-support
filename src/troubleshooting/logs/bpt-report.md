@@ -1,5 +1,5 @@
 ---
-summary: The article explains how to obtain a BPT troubleshooting report by using the BPT Utils component in LifeTime.
+summary: Learn how to generate a BPT troubleshooting report in OutSystems 11 (O11) using the BPT Utils component.
 tags:
 locale: en-us
 guid: f162877c-32a8-4f69-9c0b-ccbb42bcb0f3

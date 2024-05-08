@@ -1,5 +1,5 @@
 ---
-summary: HIPAA’s technical safeguards for access control. 
+summary: Explore how OutSystems 11 (O11) supports HIPAA compliance through technical safeguards, access control, and encryption features.
 tags:
 locale: en-us
 guid: 219da37e-3496-4cc3-b6e8-452dc531a608

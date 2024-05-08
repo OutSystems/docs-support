@@ -1,5 +1,5 @@
 ---
-summary: Common error when authenticating using SAML. Check the cause and the resolution.
+summary: Learn how to resolve the "Unable to decrypt the assertion" error in OutSystems 11 (O11) when configuring SAML authentication.
 locale: en-us
 guid: 9807d569-fb06-45bd-8c68-ae204ee2aa8c
 app_type: traditional web apps, mobile apps, reactive web apps

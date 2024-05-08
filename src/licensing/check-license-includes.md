@@ -1,5 +1,5 @@
 ---
-summary: The license installed in an environment, define which feature are available and their limits. You can check your licensing limits on the environment management console.
+summary: Explore licensing limits and usage statistics for OutSystems 11 (O11) through the environment management console.
 locale: en-us
 guid: 8fc044d9-39d5-4152-91c6-3bfe2de76768
 app_type: traditional web apps, mobile apps, reactive web apps

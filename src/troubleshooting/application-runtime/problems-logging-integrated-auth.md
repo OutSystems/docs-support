@@ -1,5 +1,5 @@
 ---
-summary: How to solve a common issue when authentication fails in the browsers Internet Explorer or Edge but it works on Chrome. This happens only when Windows Integrated Authentication is enabled.
+summary: OutSystems 11 (O11) users face login issues on Internet Explorer and Edge due to NEGOTIATE protocol issues with Windows Integrated Authentication.
 locale: en-us
 guid: 2cebe118-6ed5-4680-88f6-c3b010992fc0
 app_type: traditional web apps, mobile apps, reactive web apps

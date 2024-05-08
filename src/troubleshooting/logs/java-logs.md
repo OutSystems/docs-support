@@ -1,5 +1,5 @@
 ---
-summary:
+summary: Learn how to retrieve Java server logs for JBoss, WildFly, and WebLogic in OutSystems 11 (O11) environments.
 tags: 
 locale: en-us
 guid: 64497876-fac0-409b-b7d9-9456e44086bf

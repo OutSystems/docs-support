@@ -1,5 +1,5 @@
 ---
-summary: Troubleshooting OutSystems AppShield mobile plugin.
+summary: Troubleshooting tips for the OutSystems 11 (O11) AppShield mobile plugin with Google AppsSigning are detailed, including encoding requirements and updates.
 tags: support-mobile
 locale: en-us
 guid: b3c74743-8b2a-43c9-b435-d491b17ed38c

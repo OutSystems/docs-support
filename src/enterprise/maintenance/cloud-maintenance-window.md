@@ -1,5 +1,5 @@
 ---
-summary: This article describes how you can define the maintenance window for your OutSystems Cloud environment.
+summary: Explore how to set up a maintenance window in OutSystems 11 (O11) for optimal cloud environment management.
 tags: support-Cloud_Platform
 locale: en-us
 guid: 3b1083ab-f9d5-4387-8c29-2d48f3ebbe2b

@@ -1,6 +1,6 @@
 ---
 tags:
-summary: The article provides a guide on how to upgrade OutSystems Cloud demo environments, detailing self-service and automatic upgrade options, and addressing common concerns such as downtime and scheduling.
+summary: Learn how to upgrade your OutSystems 11 (O11) Cloud demo environment through self-service or automatic options, ensuring you plan for associated downtime.
 locale: en-us
 guid: D364023A-59AE-4351-843B-8A0C8E5756D8
 app_type: traditional web apps, mobile apps, reactive web apps

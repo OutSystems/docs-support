@@ -4,6 +4,7 @@ guid: 5207df8b-21b6-4050-89b1-4f582f04e04f
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
 figma:
+summary: OutSystems 11 (O11) mandates UTC time zone settings across all servers, impacting application development.
 ---
 
 # OutSystems Cloud and time zones

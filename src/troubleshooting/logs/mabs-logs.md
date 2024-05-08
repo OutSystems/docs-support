@@ -1,5 +1,5 @@
 ---
-summary: The article provides a guide on how to access mobile app package generation logs in Service Studio and Service Center console
+summary: Explore how to access mobile app generation logs in OutSystems 11 (O11) for troubleshooting and monitoring.
 tags:
 locale: en-us
 guid: 5a5f216b-421f-447a-b822-f1ec74910523

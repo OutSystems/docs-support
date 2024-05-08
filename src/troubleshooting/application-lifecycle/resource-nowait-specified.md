@@ -1,5 +1,5 @@
 ---
-summary: Causes and resolutions for the error ORA-00054 whem publishinh an OutSystems app via LifeTime, Service Center or Service Studio.
+summary: OutSystems 11 (O11) deployment may encounter the ORA-00054 error due to locked database objects, resolved by increasing Oracle DDL Timeout settings.
 locale: en-us
 guid: 16f6f208-8be4-4dc1-b5ac-2beff690af36
 app_type: traditional web apps, mobile apps, reactive web apps

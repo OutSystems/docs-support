@@ -1,5 +1,5 @@
 ---
-summary: How to obtain the addresses of your OutSystems Cloud servers to allowlist on your firewall.
+summary: Learn how to allowlist IP addresses for OutSystems 11 (O11) Cloud environments to ensure connectivity with external services through firewalls.
 tags: 
 locale: en-us
 guid: c412c4a8-a910-4e1a-a16d-5defcc3e171a

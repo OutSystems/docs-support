@@ -1,5 +1,5 @@
 ---
-summary: Learn how you can connect to OutSystems Cloud using using AWS Transit Gateway.
+summary: Learn how to connect to your OutSystems 11 (O11) Cloud using AWS Transit Gateway for simplified network management and control.
 tags: support-Cloud_Platform; support-installation; support-Installation_Configuration; support-maintenance; TGW; support-devOps
 locale: en-us
 guid: b7342d4a-b766-4910-96d8-2f557628e2cd

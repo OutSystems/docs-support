@@ -1,8 +1,7 @@
 ---
 summary: 
 locale: en-us
-guid: 
-tags: 
+guid: 5efb8f35-e00f-42de-9915-293c676dd8bf
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
 figma:

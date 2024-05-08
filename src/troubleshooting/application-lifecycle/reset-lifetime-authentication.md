@@ -1,5 +1,5 @@
 ---
-summary: The article provides a solution for regaining access to LifeTime and Service Center after being locked out due to external authentication issues
+summary: Learn how to reset LifeTime authentication preferences in OutSystems 11 (O11) when locked out due to external provider issues.
 locale: en-us
 guid: ee89babf-f053-4269-8485-d75ff21a2a27
 app_type: traditional web apps, mobile apps, reactive web apps

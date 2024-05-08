@@ -1,5 +1,5 @@
 ---
-summary: Workaround application deployment using Service Center.
+summary: Explore how to deploy applications in target environments using Service Center as a workaround in OutSystems 11 (O11).
 tags:
 locale: en-us
 guid: 7755631f-f5b4-43e1-a1ca-83c677d5adc3

@@ -1,5 +1,5 @@
 ---
-summary: It may take up to an hour to change the activation code of your applications. If you haven't received an email, check your spam folder, or contact Support.
+summary: Explore how OutSystems 11 (O11) handles IPP portal activation delays and email notifications.
 locale: en-us
 guid: c36e541a-18b4-4b3d-bf80-1ff03dbaa0bc
 app_type: traditional web apps, mobile apps, reactive web apps

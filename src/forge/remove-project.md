@@ -1,5 +1,5 @@
 ---
-summary: Know how to remove a component from the Forge.
+summary: Discover how to request the removal of a component from the Forge in OutSystems 11 (O11) by following specific steps outlined for component owners.
 tags: forge; forge_support; ipp;
 locale: en-us
 guid: bcc21963-f41a-445d-aff6-685a46999659

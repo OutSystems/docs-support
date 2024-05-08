@@ -1,6 +1,6 @@
 ---
 tags:
-summary: Learn how to fix potential problems with connectivity when using Experience Builder.
+summary: Explore connectivity solutions for OutSystems 11 (O11) Experience Builder, addressing issues like infrastructure registration, login, and app publishing.
 locale: en-us
 guid: 765eb14f-607d-4084-9160-6d834e480720
 app_type: traditional web apps, mobile apps, reactive web apps

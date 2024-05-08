@@ -1,5 +1,5 @@
 ---
-summary: Check how to restart OutSystems services via LifeTime in OutSystems Cloud infrastructures.
+summary: Learn how to resolve issues in OutSystems 11 (O11) cloud environments by retrying synchronization or restarting services.
 locale: en-us
 guid: 814d4a99-9c7c-4418-9788-34b5dcdf6f88
 app_type: traditional web apps, mobile apps, reactive web apps

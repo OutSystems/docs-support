@@ -1,5 +1,5 @@
 ---
-summary: Prevent attackers from executing malicious instructions on your OutSystems apps from an external site. Cross Site Request Forgery (CSRF) attack protection.
+summary: Learn how OutSystems 11 (O11) incorporates built-in CSRF protection and guidelines for securing APIs against CSRF attacks.
 tags: outsystems-security; outsystems-secure-applications
 locale: en-us
 guid: 888ae7de-2001-459d-894a-e0001aeba86f

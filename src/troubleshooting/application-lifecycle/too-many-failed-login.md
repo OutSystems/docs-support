@@ -1,5 +1,5 @@
 ---
-summary: Possible causes and their resolution for the "Too many failed login attempts" error
+summary: OutSystems 11 (O11) addresses failed login attempts by providing resolution steps for IT and end users to unblock accounts and IP addresses.
 locale: en-us
 guid: 6da4a5dd-e192-473f-a7fc-722e888db1f6
 app_type: traditional web apps, mobile apps, reactive web apps

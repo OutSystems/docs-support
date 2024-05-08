@@ -1,5 +1,5 @@
 ---
-summary: The article explains how to resolve the issue of a Deployment Controller appearing twice in the Environment Health screen due to a hostname mismatch
+summary: OutSystems 11 (O11) Environment Health screen may display a Deployment Controller twice due to mismatched names in configuration settings.
 locale: en-us
 guid: 890ac8c6-b344-4119-9ad7-c1b0d8497518
 app_type: traditional web apps, mobile apps, reactive web apps

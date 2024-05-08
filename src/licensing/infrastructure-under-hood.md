@@ -1,5 +1,5 @@
 ---
-summary: A personal environment is an OutSystems platform running on a shared infrastructure, with limited computing resources, max 2GB data, and no team collaboration.
+summary: Explore the limitations and data extraction methods of OutSystems 11 (O11) personal environments, hosted on a multi-tenant infrastructure.
 locale: en-us
 guid: 5b26b215-56f9-460e-9794-f4b7fcb15a16
 app_type: traditional web apps, mobile apps, reactive web apps

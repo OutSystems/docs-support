@@ -1,5 +1,5 @@
 ---
-summary:
+summary: Explore how to install OutSystems 11 (O11) on FIPS-compliant systems and resolve cryptographic algorithm errors.
 locale: en-us
 guid: 4f250e9c-6197-4fc6-8ee2-d6070619a935
 app_type: traditional web apps, mobile apps, reactive web apps

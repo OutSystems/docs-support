@@ -1,5 +1,5 @@
 ---
-summary: Each license has certain usage limits. OutSystems will work with you to ensure that overuse of your subscription won't impact your current activities.
+summary: Explore how OutSystems 11 (O11) manages license limits and offers upgrade support for exceeding subscription capacities.
 locale: en-us
 guid: dddd2596-c4b3-4963-80ae-f79be09f2f09
 app_type: traditional web apps, mobile apps, reactive web apps

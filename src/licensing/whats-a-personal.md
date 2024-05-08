@@ -1,5 +1,5 @@
 ---
-summary: An OutSystems Personal Environment is a free cloud-based platform for individuals to create, deploy, and run personal applications with certain limitations and no SLAs.
+summary: Learn about the free OutSystems 11 (O11) Personal Environment for developing personal applications.
 locale: en-us
 guid: f88eb567-39c5-430b-ad00-64cead6e9fd0
 app_type: traditional web apps, mobile apps, reactive web apps
