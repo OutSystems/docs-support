@@ -4,7 +4,7 @@ locale: en-us
 guid: 85D4F461-56DA-409C-9542-01D3A395E172
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
-figma: https://www.figma.com/file/6tXLupLiqfG9FOElATTGQU/Troubleshooting?type=design&node-id=3371%3A56&mode=design&t=W5lrTVwdoPUZk9Qp-1
+figma: https://www.figma.com/file/6tXLupLiqfG9FOElATTGQU/Troubleshooting?type=design&node-id=3371%3A45&mode=design&t=yxrwP6nyFMM4MyQJ-1
 ---
 
 # Troubleshoot failed deployments due to an error in ping
