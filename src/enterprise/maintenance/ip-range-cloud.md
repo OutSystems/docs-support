@@ -8,7 +8,7 @@ platform-version: o11
 figma:
 ---
 
-# Find out Internal IP Address Range of Your OutSystems Cloud {#ip-range-outsystems-cloud}
+# Find out Internal IP Address Range of Your OutSystems Cloud
 
 The internal IP address range of your OutSystems Cloud is an IPv4 address range with `a.b.c.0/24` format.  
 The network part of the internal IP address range, `a.b.c`, can be obtained from the IP address of a front end Server in one of your Environments.
