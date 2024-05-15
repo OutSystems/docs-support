@@ -134,7 +134,6 @@ The following procedure presents the required steps to move controller roles and
     1. Right-click on the **RabbitMQ Service** and choose **Stop**. Right-click it again and choose **Properties**
     1. In the **Startup type** dropdown, choose **Disabled**. Click **OK** at the bottom.
 1. On the new OutSystems Deployment Controller server, **Set OutSystems Deployment Controller Startup Type as Automatic**. 
-    *  In .NET stack:
         1. Go to **Start** > **Services**.
         1. Right-click on the **OutSystems Deployment Controller Service** and choose **Properties**
         1. In the **Startup type** dropdown, choose **Automatic**. Click **OK** at the bottom.
