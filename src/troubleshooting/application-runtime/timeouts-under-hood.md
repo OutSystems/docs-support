@@ -62,6 +62,12 @@ For the application Aggregates and Advanced SQL, it is possible to specify a tim
 
 This Default Query Timeout can be specified on the [Configuration Tool](https://www.outsystems.com/tk/redirect?g=3ccedde9-7f7c-4d04-8992-703b00953c15), by going to the Advanced Settings of the Platform tab. By default it is defined with 30 seconds. Note that changing this value will influence the timeout value for all non-application queries and the change must be sustained by a clear reason. There is also one last setting called Database Update Query Timeout that will only affect the default time for database updates to run when 1-Click publishing and is set to 600 seconds by default.
 
+<div class="info" markdown="1">
+
+The default query timeout setting mentioned above does not apply to OutSystems Cloud customers. Cloud customers may observe different timeout values.
+
+</div>
+
 ## Application request timeout
 
 Every web request done to an OutSystems application takes its time to process by the application server (IIS) and is ruled by a Request Timeout that prevents the existence of everlasting web requests. So basically, when a web request is taking too long to process and reaches the defined request timeout, the thread that's running it will be abruptly interrupted, generating a runtime error and avoiding waste of resources.
