@@ -125,7 +125,7 @@ Applies to OutSystems 11 only.
 
 The following procedure presents the required steps to move controller roles and RabbitMQ to a different server.
 
-1. On the old OutSystems Deployment Controller server, **Stop and disable Deployment Controller service**. 
+1. On the old OutSystems Deployment Controller server, **Stop and disable Deployment Controller service**.
     1. Go to **Start** > **Services**.
     1. Right-click on the **OutSystems Deployment Controller Service** and choose **Stop**. Right-click it again and choose **Properties**
     1. In the **Startup type** dropdown, choose **Disabled**. Click **OK** at the bottom.
