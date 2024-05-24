@@ -1,0 +1,27 @@
+---
+summary: This article explains the cause, impact, and recommended action for a resource exhausted error that occurs while connecting to the destination server.
+tags:
+guid: 8a776202-d9d4-4a64-adcc-bac23d58ac49
+locale: en-us
+app_type: traditional web apps, mobile apps, reactive web apps
+figma: 
+platform-version: o11
+---
+
+# OS-DP-STREAM-00008
+
+## Error message
+
+`There was a 'resource exhausted' response from your destination server.`
+
+## Cause
+
+The error occurs when testing the connection after [Configuring the log streaming service in LifeTime](https://www.outsystems.com/tk/redirect?g=172ac547-add4-4cc5-9adf-d72fbe379d35) or when checking Log Streaming health and the destination server has responded with gRPC 8 (Resource exhausted) error.
+
+## Impact
+
+Unable to establish a connection with the destination server. Therefore, logs aren't streamed to the destination.
+
+## Recommended action
+
+Check if the APM tool works correctly and re-establish the connection.
