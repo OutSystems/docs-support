@@ -78,7 +78,7 @@ In the future, OutSystems may, at its own discretion, drop support for other dat
 
 2\. <a id="bc-11240-2"></a>
 
-**Issue**: Compilation errors occur in modules integrating with SAP services when the machine installed the SAP Connector for Microsoft.NET 3.0.x for Windows 64bit.
+**Issue**: Compilation errors occur in modules integrating with SAP services when the machine installed the SAP Connector for Microsoft.NET 3.0.x for Windows 64bit. This breaking change applies only to self-managed infrastructures. In the OutSystems Cloud the installation of all the necessary components is ensured.
 
 **Runtime**: Traditional web, Reactive web, Mobile
 
