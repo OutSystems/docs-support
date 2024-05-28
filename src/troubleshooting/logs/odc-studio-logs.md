@@ -5,7 +5,7 @@ guid: 46758882-076a-4055-865c-bbe63dfc9af0
 locale: en-us
 app_type: mobile apps, reactive web apps, traditional web apps
 platform-version: odc
-figma: https://www.figma.com/design/6tXLupLiqfG9FOElATTGQU/Troubleshooting?node-id=3648-246&t=weI1KbDwdqa3qf4y-1
+figma: https://www.figma.com/design/6tXLupLiqfG9FOElATTGQU/Troubleshooting?node-id=3648-246
 ---
 
 # ODC Studio logs
@@ -18,11 +18,11 @@ To get the ODC Studio report, follow these steps:
 
 1. Click **You can help us fix this…** to expand the window if it's not expanded.
 
-   ![Screenshot of the expanded Unexpected Error window in ODC Studio with the option to help fix the issue.](./images/report-issue-ss.png"Expanded Unexpected Error Window")
+   ![Screenshot of the expanded Unexpected Error window in ODC Studio with the option to help fix the issue.](images/report-issue-ss.png "Expanded UnexpectedError Window")
 
 1. Click **See diagnostics report** to open the report in a text editor.
    
-   ![Screenshot of a diagnostics report opened in a text editor.](./images/text-editor.png "Diagnostics Report in Text Editor")
+   ![Screenshot of a diagnostics report opened in a text editor.](images/text-editor.png "Diagnostics Report in Text Editor")
 
 1. Save the report as a text file. If you need help from OutSystems support but don't have an open support case yet, you can use the link to open one by going to the Support Portal.
 
