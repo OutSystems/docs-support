@@ -17,14 +17,16 @@ When an unexpected error occurs in ODC Studio, you'll get an **Unexpected Error*
 To get the ODC Studio report, follow these steps:
 
 1. Click **You can help us fix this…** to expand the window if it's not expanded.
+   
    ![Screenshot of the expanded Unexpected Error window in ODC Studio with the option to help fix the issue.](../incident-models/o11/images/report-issue-ss.png "Expanded Unexpected Error Window")
 
-2. Click **See diagnostics report** to open the report in a text editor.
+3. Click **See diagnostics report** to open the report in a text editor.
+   
    ![Screenshot of a diagnostics report opened in a text editor.](../incident-models/o11/images/text-editor.png "Diagnostics Report in Text Editor")
 
-3. Save the report as a text file. If you need help from OutSystems support but don't have an open support case yet, you can use the link to open one by going to the Support Portal.
+5. Save the report as a text file. If you need help from OutSystems support but don't have an open support case yet, you can use the link to open one by going to the Support Portal.
 
-4. Click **Continue** to close the window.
+6. Click **Continue** to close the window.
 
 To troubleshoot an ODC Studio behavior that doesn't generate errors, collect the diagnostics report:
 
