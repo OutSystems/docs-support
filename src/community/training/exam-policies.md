@@ -12,7 +12,7 @@ figma:
 
 The OutSystems certification program was built to foster an ecosystem of skilled professionals who deliver high-end quality solutions. Outsystems certification program includes a set of certification and specialization exams. Certification exams are designed to certify individuals and teams as OutSystems professionals for different proficiency levels and roles. Specializations are shorter exams focused on specific topics or areas, resulting in the final outcome for a role or experience level or as a path to attain a new certification.
 
-Before taking an exam, we recommend you read the How to prepare for the exam guide.
+Before taking an exam, we recommend you read the [How to prepare for the exam](https://drive.google.com/file/d/1eJHR8-J0urVq1RvMJLjzNEBvBbrxg035/view) guide.
 
 In the following sections, you can find answers to the most frequently asked questions about OutSystems exam scheduling, canceling, and refund policies.
 
@@ -147,7 +147,7 @@ The confirmation number is a 16-digit numeric identifier for your scheduled exam
 
 If you can’t find it, check your Spam folder. If you still can't find it, ​​​​​​[​​​​​​​open a support case for Training](https://www.outsystems.com/SupportPortal/CaseOpen/) and request that the confirmation email be resent. Share your name, email, and the exam you have registered for. The team will give you all the details.
  
-#### How can I change my exam appointment from a remote/test center to a test center/remote appointment?
+#### How can I change my exam appointment from a remote test to a test center and vice versa?
 
 To change your exam appointment to a remote/test center, you must visit the [Reschedule Appointment](https://proscheduler.prometric.com/scheduling/rescheduleappointment/reschedule) page, cancel the appointment, and register again on the [Certification Page](https://www.outsystems.com/certifications/), select the **Online/Certification Center** option.​​​​​
 
