@@ -9,7 +9,7 @@ figma: https://www.figma.com/file/6tXLupLiqfG9FOElATTGQU/Troubleshooting?type=de
 
 # Troubleshooting missing or incorrect CSPs
 
-To confirm if the CSP headers are being applied, you can use the browser's developer tools to check the headers sent by the OutSystems appl. To accomplish that, navigate to the application URL with the Developer Tools opened on the Network tab and check the response headers of the request (document type).
+To confirm if the CSP headers are being applied, you can use the browser's developer tools to check the headers sent by the OutSystems apps. To accomplish that, navigate to the application URL with the Developer Tools opened on the Network tab and check the response headers of the request (document type).
 
 Example below:
 
