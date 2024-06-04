@@ -36,6 +36,6 @@ On the error report, you can try to sync your environment again just to see if t
 
 <div class="info" markdown="1">
 
-Clicking **Restart Services** performs an IIS reset, clears the application pools, and Restart all OutSystems Services (OutSystems Deployment Controller Service, OutSystems Deployment Service, OutSystems Scheduler Service) and clears any hanging requests. In the case of multiple front-ends, this restart is balanced (front-end servers are restarted one at a time). 
+Clicking **Restart Services** performs an IIS reset, clears the application pools, and restarts all OutSystems Services (OutSystems Deployment Controller Service, OutSystems Deployment Service, OutSystems Scheduler Service) and clears any hanging requests. If there's a timeout restarting the OutSystems Services, the front-end is restarted instead. In the case of multiple front-ends, any restart is balanced (front-end servers are restarted one at a time). 
 
 </div>
