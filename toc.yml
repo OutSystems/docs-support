@@ -103,6 +103,7 @@
         - href: troubleshooting/application-lifecycle/deploy-apps-sc.md
         - href: troubleshooting/application-lifecycle/app-module-rename.md
         - href: troubleshooting/application-lifecycle/app-renamed-in-target-not-expected.md
+        - href: troubleshooting/application-lifecycle/missing-incorrect-csps.md
         - href: troubleshooting/application-lifecycle/remove-unsafe-eval.md
         - href: troubleshooting/application-lifecycle/remove-unsafe-inline.md
         - href: troubleshooting/application-lifecycle/lifetime/lifetime-deploy-unable.md
