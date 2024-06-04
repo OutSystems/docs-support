@@ -1,6 +1,7 @@
 ---
-summary: Details the side effects and breaking changes in OutSystems 11 that should be checked before upgrading.
-tags:
+summary: The article details the side effects and breaking changes in OutSystems 11
+tags: version-11
+en_title: OutSystems Platform side effects and breaking changes
 locale: en-us
 guid: 2cfe6cf6-118b-41dc-b4f3-a36ed20a3841
 app_type: traditional web apps, mobile apps, reactive web apps
@@ -95,6 +96,16 @@ In the future, OutSystems may, at its own discretion, drop support for other dat
 **Rationale**: An upgrade was made in the Excel file processing that is used in OutSystems 11. Now, it is not possible to use the Strict Open XML format.
 
 **Fix**: Save the file using the **Excel Workbook** option.
+
+### Introduced in Platform Server 11.28.0
+
+**Issue**: The **forbidden.aspx** and **app_offline.aspx** custom handlers are replaced by new versions. Any previous configurations are overwritten.
+
+**Runtime**: Traditional and Reactive
+
+**Rationale**: Based on template files that are distributed with the platform, custom handlers are deployed to all apps. So that the forbidden.aspx and app_offline.aspx custom handlers don’t contain inline scripts or styles prior versions of the files are overwritten with compliant versions. All customized versions of these files are overwritten during the upgrade process.
+
+**Workaround**: If you have a customized version of these custom handlers, you should back them up before the upgrade and customize the new versions after the upgrade. 
 
 ### Introduced in Platform Server 11.21.0 { #bc-11210-1 }
 
