@@ -17,6 +17,18 @@ As such, before introducing a breaking change for a new release, OutSystems care
 
 ## Breaking Changes
 
+### Introduced in Platform Server 11.28.0
+
+1\. <a id="bc-11280-1"></a>
+
+**Issue**: The **forbidden.aspx** and **app_offline.aspx** custom handlers are replaced by new versions. Any previous configurations are overwritten.
+
+**Runtime**:  Traditional web, Reactive web, Mobile
+
+**Rationale**: Based on template files that are distributed with the platform, custom handlers are deployed to all apps. So that the forbidden.aspx and app_offline.aspx custom handlers don’t contain inline scripts or styles prior versions of the files are overwritten with compliant versions. All customized versions of these files are overwritten during the upgrade process.
+
+**Workaround**: If you have a customized version of these custom handlers, you should back them up before the upgrade and customize the new versions after the upgrade.
+
 ### Introduced in LifeTime 11.22.0 
 
 1\. <a id="bc-11220-1"></a>
@@ -96,16 +108,6 @@ In the future, OutSystems may, at its own discretion, drop support for other dat
 **Rationale**: An upgrade was made in the Excel file processing that is used in OutSystems 11. Now, it is not possible to use the Strict Open XML format.
 
 **Fix**: Save the file using the **Excel Workbook** option.
-
-### Introduced in Platform Server 11.28.0
-
-**Issue**: The **forbidden.aspx** and **app_offline.aspx** custom handlers are replaced by new versions. Any previous configurations are overwritten.
-
-**Runtime**: Traditional and Reactive
-
-**Rationale**: Based on template files that are distributed with the platform, custom handlers are deployed to all apps. So that the forbidden.aspx and app_offline.aspx custom handlers don’t contain inline scripts or styles prior versions of the files are overwritten with compliant versions. All customized versions of these files are overwritten during the upgrade process.
-
-**Workaround**: If you have a customized version of these custom handlers, you should back them up before the upgrade and customize the new versions after the upgrade. 
 
 ### Introduced in Platform Server 11.21.0 { #bc-11210-1 }
 
