@@ -15,6 +15,8 @@ Applies to Reactive web apps only
 
 </div>
 
+The following are the breaking changes that may occur when you disable the **Enforce Unsafe Eval Reactive** setting in Factory Configuration.
+
 ## Browers console error
 
 * ``Refused to evaluate a string as JavaScript because 'unsafe-eval' is not an allowed source of script in the following Content Security Policy directive: "script-src 'self'".``

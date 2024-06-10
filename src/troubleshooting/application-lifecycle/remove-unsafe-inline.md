@@ -7,13 +7,15 @@ platform-version: o11
 figma: https://www.figma.com/file/6tXLupLiqfG9FOElATTGQU/Troubleshooting?type=design&node-id=3431%3A270&mode=design&t=n3OfSI1cyFvKAAiH-1
 ---
 
-# Removing unsafe-inline
+# Removing unsafe-inline 
 
 <div class="info" markdown="1">
 
 Applies to Reactive web apps only
 
 </div>
+
+The following are the breaking changes that may occur when you disable the **Enforce Unsafe Inline Reactive** setting in Factory Configuration.
 
 ## Browser's console error
 
