@@ -1,0 +1,27 @@
+---
+isautopublish: true
+pageprivacy: public
+---
+
+<h2 id="lifetime_management_console_11.23.0" >LifeTime Management Console 11.23.0</h2>
+<div class="info"><p>Released on Jun 12, 2024</p></div>
+
+
+<style>.cattag {background: #f4f2ff; color: #6a6581; padding: 4px 10px;}</style>
+<h3 id="new_in_lifetime_management_console_11.23.0" >New in LifeTime Management Console 11.23.0</h3>
+<ul>
+<li>There is a new action on LifeTimeSDK (GetUserAPIToken) that allows the user currently logged in into LifeTime to obtain an authentication token valid for 5 minutes. This token can be used for any LifeTime API call that the user has access to, working similarly to a service account authentication token. (R11CT-3060)</li>
+<li>It is now possible to refresh the authentication token of Service Accounts using LifeTime API v2. The new method /auth/tokens/ allows to refresh the authentication token through the api for the Service Account calling the api. The old token is no longer valid and the returned token should be used for any future requests. Previously, this operation was only possible by using LifeTime UI. (R11CT-3078)</li>
+</ul>
+<h3 id="bug_fixing_lifetime_management_console_11.23.0" >Bug Fixing</h3>
+<ul>
+<li>Fixed a bug in the warning/error link in the stage steps of a deployment plan. Now, when clicking on these links it redirects to the corresponding staging message. Inspired by <a href="https://www.outsystems.com/profile/wmqergfymu/overview">Evert Van Der Zalm's</a> feedback. (R11CT-3019)</li>
+<li>Fixed a vulnerability in LifeTime that allowed users to bypass password complexity requirements by manipulating passwords on the client side during the creation or editing of a user profile. (R11PST-258)</li>
+<li>Previously, when the LifeTimeAPI was used to retrieve the list of conflicts in a deployment, it only identified one conflict per application.
+
+We've improved the LifeTimeAPI to now fetch all conflicts for all applications within a deployment.  (RPM-4799) <span class="cattag">Application Lifecycle</span>  <span class="cattag">LifeTime</span> </li>
+<li>Fixed an issue that slowed the load of deployment messages in the Staging Progress screen during the deployment. In deployments with a high number of messages created in a short timespan, the page should now load new messages much faster. (RPM-4928) <span class="cattag">Application Lifecycle</span>  <span class="cattag">LifeTime</span> </li>
+<li>Fixed an issue where the Lifetime API returned the incorrect staging status when the status was set to "forced finish." 
+Now, when the staging is forced to finish, the API will return the correct staging status. (RPM-4930) <span class="cattag">Application Lifecycle</span>  <span class="cattag">LifeTime</span> </li>
+</ul>
+
