@@ -22,7 +22,7 @@ An Application Object (AO) is a measurement of the complexity of your applicatio
 
 ## Details on AO counting for Entities/Database tables
 
-* Entities you create within OutSystems (both normal [entities](https://success.outsystems.com/Documentation/11/Developing_an_Application/Use_Data/Data_Modeling/Entities) and [static entities](https://success.outsystems.com/Documentation/11/Developing_an_Application/Use_Data/Data_Modeling/Static_Entities) each count as 1 AO.
+* Entities you create within OutSystems (both normal [entities](https://success.outsystems.com/Documentation/11/Developing_an_Application/Use_Data/Data_Modeling/Entities) and [static entities](https://success.outsystems.com/Documentation/11/Developing_an_Application/Use_Data/Data_Modeling/Static_Entities)) each count as 1 AO.
 * Entities you import from external databases (for example, a table or a view) for use in your app each count as 1 AO.
 * Entities using local storage, such as for use with mobile apps, each count as 1 AO.
 * Static entities included in a library each count as 1 AO.
@@ -47,7 +47,7 @@ An Application Object (AO) is a measurement of the complexity of your applicatio
 * Disabled applications continue to contribute to the AO count until they're deleted.
 * Components sourced from [OutSystems Forge](https://www.outsystems.com/forge/) also contribute to the AO count.
 * In OutSystems Developer Cloud, you can deploy multiple versions of the same library. Only the version with the highest number of AOs contributes to the AO count.
-* In OutSystems 11, libraries that are published to the development runtime environment contribute to the AO count, even when they are not referenced by any applications in that runtime. Unreferenced libraries that are deployed to non-production or production runtimes also contribute to the AO count. In OutSystems Developer Cloud, unreferenced libraries do not contribute to the AO count.
+* In OutSystems 11, libraries that are published contribute to the AO count, even when they are not referenced by any applications. In OutSystems Developer Cloud, unreferenced libraries do not contribute to the AO count.
 * With libraries, the AO count contributed includes all API methods and static entities in the library, even when not all are referenced or used by apps.
 
 ## AO limits
