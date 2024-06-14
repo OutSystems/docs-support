@@ -12,9 +12,11 @@ figma:
 
 ## Error message
 
-`Your provisioning profile "<provision_profile>" is missing the <entitlement> entitlement. Review your provisioning profile entitlements.`
+* `Your provisioning profile <provision_profile> is missing the <entitlement> entitlement. Review your provisioning profile entitlements.`
+
 or
-`Your provisioning profile "<provision_profile>" is missing multiple entitlements. Check the build log for details and review your provisioning profile entitlements.`
+
+* `Your provisioning profile <provision_profile> is missing multiple entitlements. Check the build log for details and review your provisioning profile entitlements.`
 
 ## Cause
 
