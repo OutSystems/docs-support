@@ -52,7 +52,7 @@ An Application Object (AO) is a measurement of the complexity of your applicatio
 
 ## AO limits
 
-Your OutSystems subscriptions typically include rights to run applications up to a specific number of AOs, and you can license additional AO capacity when needed. With OutSystems 11, you can review your licensed AO capacity within the Customer Portal and you can see the current AO usage displayed for each runtime environment within Service Center. With OutSystems Developer Cloud, you can review these within the Subscription section of the ODC Portal.
+OutSystems subscriptions typically include rights to run applications up to a specified number of AOs, with options for upgrading AO capacity that vary by subscription. With OutSystems 11, you can review your AO limits within the Customer Portal and you can see the current AO usage displayed for each runtime environment within Service Center. With OutSystems Developer Cloud, you can review these within the Subscription section of the ODC Portal. You can view the current AO usage displayed for each stage as well as for each app.
 
 The AO capacity you license only applies to production runtimes. Development and non-production/QA runtimes allow unlimited AOs, but cannot be used for running apps for production use. 
 
