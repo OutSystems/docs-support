@@ -21,6 +21,8 @@ At [Support Portal](https://www.outsystems.com/SPP_Ticket_UI/open-support-case) 
 
 Follows an overview of the most important information about the steps of opening a support case.
 
+The initial step is to login into [Support Portal](https://www.outsystems.com/SPP_Ticket_UI/open-support-case) and select “My Support Activity” > “Open a Support case” as shown in the image below:
+
 ## Choose the infrastructure
 
 The first thing we'll need to know is to what infrastructure your case relates to. You'll be shown a list of all the ones you're associated to, including your Personal Environment.
