@@ -1,5 +1,4 @@
 ---
-tags: version-11;
 summary: Learn how to detach and independently run applications from OutSystems 11 (O11) with this comprehensive guide.
 locale: en-us
 guid: 100b891e-0796-4114-a36b-5a7e0b7576ab
@@ -48,6 +47,11 @@ If at any step you run into any issues, you will need to repeat the previous ste
 
 ## Before you start { #before-you-start }
 
+<div class="info" markdown="1">
+
+To detach, Platform Server must be on version 11.18.1 or later. If the environment has an older version, you must upgrade Platform Server to 11.18.1 or higher before detaching.
+
+</div>
 
 If you are detaching from the OutSystems Cloud, you're responsible for:
 
