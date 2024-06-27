@@ -19,7 +19,7 @@ As defined below, **Major release**, **Release**, **Cumulative patch**, and **Ho
 
 This type of release introduces significant and important features, along with bug fixes. It can also include breaking changes.
 Due to the continuous delivery approach, this type of release is very infrequent. It only occurs when it's necessary to improve previous models and paradigms of usage.
-When these releases are required, OutSystems goes to great lengths to minimize the effort of upgrading, including providing tools, services, and training so that you can easily upgrade in a timely and controlled risk-free way. When that time comes, OutSystems will issue a one-year advance notice for the end of support of OutSystems 11, so that you can easily upgrade in a timely and controlled way.
+When these releases are required, OutSystems goes to great lengths to minimize the effort of upgrading, including providing tools, services, and training so that you can easily upgrade in a timely and controlled risk-free way. When that time comes, OutSystems will provide you with at least two years of notice, so that you can easily upgrade in a timely and controlled way.
 
 ### Release 
 
