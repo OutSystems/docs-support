@@ -13,13 +13,12 @@ To get mobile app package generation log, follow these steps:
 
 1. If you are in Service Studio, go to the details page of the mobile app and click **Application Management...** to open the mobile app's page in Service Center console. The page opens in a separate browser.
 
-    ![Screenshot highlighting the 'Application Management...' option in Service Studio to access mobile app details in Service Center.](images/get-logs-16.png "Accessing Application Management in Service Studio")
+    ![Screenshot highlighting the 'Application Management...' option in Service Studio to access mobile app details in Service Center.](images/application-management-ss.png "Accessing Application Management in Service Studio")
 
 Otherwise, open the Service Center console of the environment (`https://<your_server>/ServiceCenter`), go to **Factory** » **Applications**, and click the mobile app name to go to the app details page.
 
-2. Go to the **Native Platforms** tab. You will see the information about the latest mobile app package generation for each mobile platform.
+1. Go to the **Distribute** tab. You will see the information about the latest mobile app package generation for each mobile platform.
 
-    ![Screenshot of the Native Platforms tab in Service Center showing where to find the log file icon for mobile app package generation.](images/get-logs-17.png "Native Platforms Tab in Service Center")
+    ![Screenshot of the Native Platforms tab in Service Center showing where to find the log file icon for mobile app package generation.](images/mobile-app-package-sc.png "Native Platforms Tab in Service Center")
 
-3. Click the Log File icon to save the file.
-
+1. Click the Log File icon to save the file.
