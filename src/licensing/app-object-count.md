@@ -45,7 +45,7 @@ An Application Object (AO) is a measurement of the complexity of your applicatio
 
 * Within the same runtime environment, each entity and each API method only count as 1 AO, even when used by multiple apps within this same runtime.
 * Disabled applications continue to contribute to the AO count until they're deleted.
-* Components sourced from [OutSystems Forge](https://www.outsystems.com/forge/) also contribute to the AO count.
+* Components sourced from [OutSystems Forge](https://www.outsystems.com/forge/) may also contribute to the AO count. Check the Forge page for the component for further detail.
 * In OutSystems Developer Cloud, you can deploy multiple versions of the same library. Only the version with the highest number of AOs contributes to the AO count.
 * In OutSystems 11, libraries that are published contribute to the AO count, even when they are not referenced by any applications. In OutSystems Developer Cloud, unreferenced libraries do not contribute to the AO count.
 * With libraries, the AO count contributed includes all API methods and static entities in the library, even when not all are referenced or used by apps.
