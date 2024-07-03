@@ -1,0 +1,31 @@
+---
+isautopublish: true
+pageprivacy: semi-private
+---
+
+<h2 id="lifetime_management_console_11.24.0" >LifeTime Management Console 11.24.0</h2>
+<div class="info"><p>This is a preliminary version of the document.</p></div>
+
+
+<style>.cattag {background: #f4f2ff; color: #6a6581; padding: 4px 10px;}</style>
+<h3 id="new_in_lifetime_management_console_11.24.0" >New in LifeTime Management Console 11.24.0</h3>
+<ul>
+<li>Several improvements were introduced to the Reuse Plan use case. Now, the target environment from the completed plan is pre-selected as the source for the new plan; The new plan will use the same deployment notes as the original; The 'Keep the tags used in the original plan' is set as TRUE by default; and prompts were added to the source and target environment dropdowns. (R11CT-3017)</li>
+<li>It is now also possible for self-managed infrastructures to execute in parallel multiple deployment plans that target a single environment. Previously this feature was only available for OutSystems Cloud. (R11CT-3161)</li>
+<li>The Platform Server version bundled with LifeTime has been upgraded to 11.28.0. (R11CT-3162)</li>
+</ul>
+<h3 id="bug_fixing_lifetime_management_console_11.24.0" >Bug Fixing</h3>
+<ul>
+<li>Fixed an issue that would show the 'Operation' tab and the 'deployment zone' dropdown while creating a staging even if only one Deployment zone is configured. Now, the 'Operation' tab and its content only show if there are more than one deployment zone. Inspired by <a href="https://www.outsystems.com/profile/wmqergfymu/overview">Evert van der Zalm's</a> feedback. (R11CT-3015)</li>
+<li>Fixed an issue that showed overlapping application versions in the Deployment Plans list when the version was very long. Now the application versions are displayed correctly without overlapping. Inspired by <a href="https://www.outsystems.com/profile/wmqergfymu/overview">Evert van der Zalm's</a> feedback. (R11CT-3016)</li>
+<li>Fixed an issue where the input to edit the description of an application version would be clipped. Now, the input is shown correctly without any clipping. Inspired by <a href="https://www.outsystems.com/profile/4thplnhwqh/overview">Nordin Ahdi's</a> feedback. (R11CT-3020)</li>
+<li>Fixed an issue that would allow the enablement of parallel deployments in infrastructures with only one environment. Now, the feature can only be enabled if the minimum required number of environments are available. Inspired by <a href="https://www.outsystems.com/profile/4thplnhwqh/overview">Nordin Ahdi's</a> feedback. (R11CT-3050)</li>
+<li>Fixed an issue which allowed the configuration of environment filters in infrastructures with only one environment. Now, environment filters are only available if the infrastructure has more than one environment. Inspired by <a href="https://www.outsystems.com/profile/ihcya04bqc/overview">Jorge Martins'</a> feedback. (R11CT-3051)</li>
+<li>Fixed an issue that allowed users to click "Create a new deployment plan" with only one environment available. Now, the button is disabled if there is only one environment available. Inspired by <a href="https://www.outsystems.com/profile/4thplnhwqh/overview">Nordin Ahdi's</a> feedback. (R11CT-3052)</li>
+<li>Fixed an issue that caused LifeTime to ask for the configuration of site properties incorrectly when using the option of 'Deploy Custom' for Traditional Web Applications.
+This occurred when modules that had new site properties were excluded from the deployment plan (using Deploy Custom) but LifeTime still asked to configure those site properties.
+Now, LifeTime only asks to configure site properties of the module versions that will be available in the target environment after the deployment is completed.
+Thank you <a href="https://www.outsystems.com/profile/wmqergfymu/overview">Evert van der Zalm's</a> and <a href="https://www.outsystems.com/profile/ojxwdiz7mi/overview">João Martins</a> for bringing this to our attention. (R11CT-3126)</li>
+<li>Fixed an issue that would prevent the user from changing an application's deploy options after a producer application is automatically added to the plan. The issue occurred when a user with Access default role assigned to a team with Change and Deploy tried to deploy a consumer application and producer applications are automatically added to the plan. Now, the deploy options for all the applications in the plan can be changed. (RPM-4909) <span class="cattag">Application Lifecycle</span>  <span class="cattag">LifeTime</span> </li>
+</ul>
+
