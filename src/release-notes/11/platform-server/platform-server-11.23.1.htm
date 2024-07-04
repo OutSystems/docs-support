@@ -12,7 +12,7 @@ pageprivacy: public
 <ul>
 <li>Updated Newtonsoft.Json library bundled with the platform from version 13.0.1 to version 13.0.3. (R11BRT-360)</li>
 <li>Improved the performance of solution publishing. These improvements will be gradually rolled out to OutSystems customers and won’t be enabled by default when upgrading to this version. (R11PT-470)</li>
-<li>It is now possible to consume REST web services using the OAuth 2.0 client credentials flow. A known issue was introduced in the Service Center REST information page: when upgrading from a previous version without a username/password defined in Service Studio but overridden in Service Center, it's no longer possible to see that the credentials are being defined in Service Center. (RO11IT-551)</li>
+<li>It is now possible to consume REST web services using the OAuth 2.0 client credentials flow.  (RO11IT-551)</li>
 </ul>
 <h3 id="bug_fixing_platform_server_11.23.1" >Bug Fixing</h3>
 <ul>
@@ -33,3 +33,10 @@ This occurred when at least one Custom URL was configured in the reactive web ap
 <li>Fixed a security issue in REST Consume. CVSSv3.1 score 4.9 (Medium). (RPM-4133) <span class="cattag">Application Runtime</span>  <span class="cattag">Logic Execution</span> </li>
 </ul>
 
+<h3>Known issues</h3>
+<ul>
+<li>Consumed REST web services with basic authentication that did not have a username and password defined in Service Studio, but their values were overridden in Service Center, will incorrectly show as "No authentication" in Service Center (module detail > Integrations > Consumed REST APIs).
+It's important to note that even though the consumed REST web service shows up as "No authentication", it still sends the correct authentication headers and credentials, thus working as before at runtime.
+Besides the visual impact in Service Center, this also has the unintended effect that it's not possible to change the credentials in Service Center. In this case, the workaround is to change the authentication type in Service Studio to "Basic authentication" and publish. This will re-enable the ability to override the credentials in Service Center.
+The issue of Service Center displaying "No authentication" when credentials are overridden will be resolved in a future release of Platform Server.</li>
+</ul>
