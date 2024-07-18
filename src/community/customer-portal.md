@@ -127,6 +127,8 @@ The option to grant **Development Permissions** is only available while adding n
 
 [IT users' permissions](https://success.outsystems.com/Documentation/11/Managing_the_Applications_Lifecycle/Manage_IT_Users) can be managed by your Administrators in your infrastructure's management console, LifeTime.
 
+Granting developer permissions through the Customer Portal is [audited in LifeTime](https://www.outsystems.com/tk/redirect?g=ff41a92e-5717-4a6c-9016-12acdb4de71f) as actions performed by the `Administrator` user. This `Administrator` user is separate from your LifeTime or Customer Portal administrators; it's a service user designated for integrations with OutSystems 11 Cloud, including the Customer Portal.
+
 </div>
 
 
