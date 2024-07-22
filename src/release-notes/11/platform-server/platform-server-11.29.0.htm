@@ -1,0 +1,44 @@
+---
+isautopublish: true
+pageprivacy: semi-private
+---
+
+<h2 id="platform_server_11.29.0" >Platform Server 11.29.0</h2>
+<div class="info"><p>This is a preliminary version of the document.</p></div>
+
+
+<style>.cattag {background: #f4f2ff; color: #6a6581; padding: 4px 10px;}</style>
+<h3 id="new_in_platform_server_11.29.0" >New in Platform Server 11.29.0</h3>
+<ul>
+<li>Upgraded Npgsql (PostgreSQL library) to version 5.0.18. It includes a security vulnerability fix introduced by those versions. It only affects Platform Server installations using PostgreSQL external database connections. (R11BRT-1010)</li>
+<li>Added the supported compatibility levels for Azure SQL in the  installation checklist. (R11BRT-1151)</li>
+<li>Fixed the description of Database_WriteInParallelTransaction of the PlatformRuntime_API extension to explain better what is a parallel transaction. (R11BRT-344)</li>
+<li>Added support for Amazon EC2Launch v2.  <a href="https://success.outsystems.com/documentation/11/setup_outsystems_infrastructure_and_platform/setting_up_outsystems/outsystems_system_requirements/">System requirements documentation page</a> was changed to reflect this change. (RPM-4973) <span class="cattag">Infrastructure Management</span> </li>
+</ul>
+<h3 id="bug_fixing_platform_server_11.29.0" >Bug Fixing</h3>
+<ul>
+<li>PostgreSQL external database connections correctly handle the "time with time zone" data type. (R11BRT-1050)</li>
+<li>Fixed the way the Stack field of some Error Logs was being generated to ensure the message of the exceptions was not lost. In some situations the message field of the Error Log was also being repeated in the beginning of the Stack field. That repetition was removed to make it consistent with the remaining logs. (R11BRT-1061)</li>
+<li>Removed &lt;Ignore Field&gt; value as a possible NameId format in SAML configuration. (R11BRT-1063)</li>
+<li>Configuration Tool no longer allows conflicting ports for OutSystems services and only numeric values between 0 and 65535 are allowed.
+Configuration Tool in GUI mode and unattended mode now warns the user when invalid values are set in the server configuration file (server.hsconf). In GUI mode default values are loaded for the entire configuration. In unattended mode the execution is aborted. (R11BRT-1071)</li>
+<li>Updated installation checklist and public documentation to better explain the requirements for architectures with dedicated Deployment Controller machines in regard to deployment zones.
+Part of this problem was also already fixed in the previous version 11.26.0 in issue R11BRT-821 regarding other architectures configurations. (RPM-2415) <span class="cattag">Infrastructure Management</span>  <span class="cattag">Platform Configuration</span> </li>
+<li>Fixed issue in SAML authentication where NameID format was not being correctly sent in Logout Request leading to issues with
+Active Directory Federation Services integration as an IdP. (RPM-3827) <span class="cattag">Application Runtime</span>  <span class="cattag">Authentication and Authorization</span> </li>
+<li>Fixed an issue that occurred when two users persistently logged in consecutively without an explicit logout between them. Previously, this caused the second user to lack a persistent session, while the first user's session remained active. Now the first user's session is properly terminated and the second user has a new persistent session. This applies to Traditional apps only. (RPM-4428) <span class="cattag">Application Runtime</span>  <span class="cattag">Authentication and Authorization</span> </li>
+<li>Fixed an issue that caused client-side error messages to sometimes contain internal database details.
+This occurred when running server-side database operations in reactive, mobile and traditional web apps.
+Now, database errors show a generic client-side error message that can be customized using the setting 'Database Default Error Message' from Factory Configuration, while the original error is logged in Service Center. (RPM-4429) <span class="cattag">Application Runtime</span> </li>
+<li>Fixed an issue with static entities with locales and 'Use Translations' set to 'No' throwing runtime errors when consumed in a module of type Library  (RPM-4748) <span class="cattag">Application Runtime</span>  <span class="cattag">Data Access and Manipulation</span> </li>
+<li>Improved resilience of analytics reports generation when Log Separation is configured. After the upgrade there will be retries for older reports that already potentially expired and will fail to be created. It will log errors for a while until it finishes all the retries for the old reports. (RPM-4812) <span class="cattag">Application Lifecycle</span>  <span class="cattag">Service Center</span> </li>
+<li>Fixed an issue that caused repeated "Executed part of the script [modulename]/[scriptname].sql" General log messages when publishing a module.
+Now, these messages won't be recorded anymore. (RPM-4837) <span class="cattag">Publish Operation</span>  <span class="cattag">Deployment stage</span> </li>
+<li>Fixed the internal log classification for Log Streaming that was causing relevant app logs not to be streamed. The expected behavior is that logs from the system, such as those from the Service Center, would not be streamed while still keeping app logs. To mitigate this issue, all logs, including system logs, are currently being sent. It's expected that in the future the expected behavior will be implemented (RPM-4916) <span class="cattag">Extended Product</span>  <span class="cattag">Logs Streaming</span> </li>
+<li>Fixes incorrect warnings on LifeTime and Service Center pages where certain extensions (namely Integration Builder's) would show as needing to be upgraded to the latest platform server version. (RPM-4974) <span class="cattag">Service Studio</span> </li>
+<li>Managing Internal Network settings, for OutSystems Cloud infrastructures, no longer requires restarting manually platform services. (RPM-4985) <span class="cattag">Application Lifecycle</span>  <span class="cattag">Service Center</span> </li>
+<li>Improved the performance of the Deployment Service by optimizing the validation of unused folders. (RPM-4995) <span class="cattag">Infrastructure Management</span>  <span class="cattag">OutSystems Services</span> </li>
+<li>Fixed the generation of the Daily Activity analytics reports in Service Center when there is a large number of sessions on infrastructures using the Log Separation feature. (RPM-4997) <span class="cattag">Application Lifecycle</span>  <span class="cattag">Service Center</span> </li>
+<li>Fixed the installation checklist to have the Service Studio and Integration Studio as mandatory steps on both First Install and Upgrade configurations. Previously when Upgrade was selected, the steps only mentioned them for Deployment Controller machines. While they are not normally used from other servers, it is important to keep their installation consistent in case of operations like a Deployment Controller failover needs to be performed. (RPM-5015) <span class="cattag">Infrastructure Management</span>  <span class="cattag">Platform Installation Checklist</span> </li>
+</ul>
+
