@@ -62,7 +62,7 @@ If your application is highly dependent on cache invalidation, to ensure full fu
 
 The following procedure presents the required steps to recover the Controller by moving it's role to another front-end in the same environment farm.
 
-1. On old OutSystems Deployment Controller servers, **stop and disable Deployment Controller service.**
+1. On old OutSystems Deployment Controller servers, **stop and disable Deployment Controller Service.**
     * In .NET stack:
         1. Go to **Start** > **Services**.
         1. Right-click on the **OutSystems Deployment Controller Service** and choose **Stop**.
@@ -70,16 +70,14 @@ The following procedure presents the required steps to recover the Controller by
         1. In the **Startup type** dropdown, choose **Disabled**. Click **OK** at the bottom.
     * In Java stack:
         1. Use the command `service outsystems stop CONTROLLER`.
-        1. Disable the service with the command `./serviceconfigurator.sh -interactiv`.
-1. On New OutSystems Deployment Controller servers, **start service Deployment Controller service and set as automatic**.
+        1. Disable the service with the command `./serviceconfigurator.sh -interactive`.
+1. On New OutSystems Deployment Controller servers, **enable automatic startup of Deployment Controller Service**.
     * In .NET stack:
         1. Go to **Start** > **Services**.
-        1. Right-click on the **OutSystems Deployment Controller Service** and choose **Start**.
-        1. Right-click it again and choose **Properties**.
+        1. Choose **Properties**.
         1. In the **Startup type** dropdown, choose **Automatic**. Click **OK** at the bottom.
     * In Java stack:
         1. Use the command `./serviceconfigurator.sh -interactive` to activate Deployment Controller service.
-        1. Start the service with `service outsystems start CONTROLLER`.
 1. On all front-ends of this environment, starting with the Controller, **update location of Controller in OutSystems configurations**. The value written for this setting must be equal in all front-ends of the environment.
     * In .NET stack:
         1. Run Configuration Tool from the Start menu.
