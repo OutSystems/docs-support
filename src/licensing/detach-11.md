@@ -86,17 +86,26 @@ Since you will lose most of the OutSystems capabilities, you must guarantee that
 
 * Knows how to develop, build, and deploy Android and/or iOS apps (applies to mobile apps only).
 
-### Technical pre-requisites
+### Technical pre-requisites { #technical-pre-requisites }
 
 If you are creating a new self-managed environment, you must:
  * Identify the exact Platform Server version and release from which you are detaching;
  * Create the new environment so that it fulfills the [system requirements](https://www.outsystems.com/tk/redirect?g=244db17a-7a98-4cb0-93c0-db91f1c91fd8);
- * Install Microsoft Build Tools 2019 on the environment;
+ * Install Microsoft Visual Studio 2022 on the environment;
  * Download the [installation checklist](http://www.outsystems.com/goto/checklist-11) for the exact Platform Server version and release from which you are detaching;
  * Follow all of the steps in the **Pre-installation checklist** section of the installation checklist;
  * Follow the mandatory steps in the **Tuning and Security checklist** section of the installation checklist.
 
-If you are reusing an existing self-managed environment, which is only possible if you are detaching from a self-managed environment, you will likely already have almost everything that you need installed and you probably don't need anything else. You will still need to install Microsoft Build Tools 2019 on the environment, though.
+If you are reusing an existing self-managed environment, which is only possible if you are detaching from a self-managed environment, you will likely already have almost everything that you need installed and you probably don't need anything else. You will still need to install Microsoft Visual Studio 2022 on the environment, though.
+
+For the Visual Studio installation ensure that the following workloads and components are selected in the installation:
+* .NET desktop development workload
+* ASP.NET and web development workload
+* .NET Framework 4.6.1 SDK selected in individual components
+* .NET Framework 4.6.1 targeting pack selected individual components
+* .NET Framework 4.7.2 SDK selected in individual components
+* .NET Framework 4.7.2 targeting pack selected individual components
+* .NET SDK selected individual components
  
 ### What will you lose?
 
@@ -161,7 +170,7 @@ The code is structured in the following folders:
 
 The following image shows the code structure of a sample generated application:
 
-![Code Structure of a generated Application](images/Figure_1_-_Code_Structure_of_a_generated_Application-O11.png)  
+![Screenshot of the Solution Explorer in Visual Studio showing the code structure of a generated application with multiple projects and folders.](images/Figure_1_-_Code_Structure_of_a_generated_Application-O11.png "Code Structure of a Generated Application")  
 
 In the application folder (`<Project Name>`) there is a set of packages that hold the different types of code. These folders are:
 
@@ -188,7 +197,7 @@ Detaching from OutSystems means you'll no longer be running on OutSystems Cloud.
     
     This is the high-level sequence of steps to move your production OutSystems Cloud environment to a hosting environment controlled by you:
 
-    1. Install a brand new OutSystems environment to receive your applications, ensuring the technical pre-requisites covered earlier.
+    1. Install a brand new OutSystems environment to receive your applications, ensuring the [technical pre-requisites](#technical-pre-requisites) covered earlier.
 
         We advise you to install the environment with the exact setup you expect to have moving forward (number of front-ends, same database engine as your OutSystems Cloud, etc), as it will simplify the detachment and later maintenance of the system. To install a new OutSystems environment, always use the exact same OutSystems Platform Server major and minor versions. Refer to [Setting Up OutSystems](https://www.outsystems.com/tk/redirect?g=079418c8-7a3d-4b5e-9c13-c1ae7a1f122e).
 
@@ -246,11 +255,11 @@ To check it do the following:
 
     **&lt;your machine name&gt;** > **Sites** > **Default Web Site**
 
-    ![Default Web Site](images/Default_Web_Site.png)  
+    ![Screenshot of the Internet Information Services (IIS) Manager showing the Default Web Site expanded with various options and settings.](images/Default_Web_Site.png "Default Web Site in IIS Manager")  
 
 1. Make sure that there is a binding for the HTTP protocol on port 80 for IP address 127.0.0.1 at least. It's recommended that you use an asterisk (`*`) instead, as that means all IP address can access it. Leaving only the 127.0.0.1 address means that it can only be accessed locally.
 
-    ![127.0.0.1](images/127.0.0.1.png)
+    ![Screenshot of the Site Bindings window in IIS Manager showing an HTTP binding for IP address 127.0.0.1 on port 80.](images/127.0.0.1.png "127.0.0.1 Binding in IIS")
 
 If you are using the same Application Server that previously hosted OutSystems, check [Using the Application Server that previously hosted OutSystems](#use-existing-app-server). Otherwise, if you're going to use a brand new Application Server, configure it according to [Using a brand new Application Server](#use-new-app-server).
 
@@ -262,11 +271,11 @@ In case of having SEO Friendly URLs, you will need to remove the ISAPI Filter, s
 
 1. In the middle-pane, find **ISAPI Filters** and double-click it.
 
-    ![ISAPI Filter](images/ISAPI_Filter.png)  
+    ![Screenshot of the ISAPI Filters option in IIS Manager highlighted under the Default Web Site settings.](images/ISAPI_Filter.png "ISAPI Filters in IIS")  
 
 1. Search for **OutSystems ISAPI Filter** and delete it.
 
-    ![ISAPI Filter - remove](images/ISAPI_Filter_-_remove.png)
+    ![Screenshot showing the removal of the OutSystems ISAPI Filter from the ISAPI Filters list in IIS Manager.](images/ISAPI_Filter_-_remove.png "Remove ISAPI Filter")
 
 #### Using a brand new Application Server { #use-new-app-server }
 
@@ -275,6 +284,7 @@ If you want, you can deploy your module in a new server where you never installe
 For the new Application Server to accommodate your applications, you must first set up the server with the needed configurations, as if you were installing OutSystems, skipping the OutSystems installation itself.
 
 To do this, you will need to either decommission the OutSystems server, or get a database copy to use with the new server.
+The following instructions assume that there a 1 to 1 relationship between the number of old and new servers. While it is possible to increase the number of servers, that will require understanding the content of the tables being modified below and adapting the changes to add new entries instead. It is recommended to start the detach process with the desired number of servers configured in order to make this process easier.
 
 Do the following:
 
@@ -352,11 +362,11 @@ Do the following:
 
     1. Inside **Process Model**, find the **Identity** field. By clicking it a button with **...** appears. Click on that button.
 
-        ![Process Model-Identity](images/Process_Model_-_Identity.png)
+        ![Screenshot of the Advanced Settings window in IIS Manager showing the Process Model Identity field with a button to change the identity.](images/Process_Model_-_Identity.png "Process Model Identity in IIS")
 
     1. Inside **Application Pool Identity**, select **Built-in account** and choose **LocalSystem** from the provided options.
 
-        ![Application Pool Identity](images/Application_Pool_Identity.png)
+        ![Screenshot of the Application Pool Identity window in IIS Manager showing the selection of the LocalSystem built-in account.](images/Application_Pool_Identity.png "Application Pool Identity in IIS")
 
 ### Preparing the database to host the data of your applications
 
@@ -470,15 +480,15 @@ To obtain the source code of a web application module, open the **Licensing** pa
 
 1. Click on the **Modules Source Code** link.
 
-    ![Modules Source Code](images/eSpaces_Source_Code.png)  
+    ![Screenshot of the Licensing page in OutSystems Service Center with the Modules Source Code link highlighted.](images/eSpaces_Source_Code.png "Modules Source Code in Service Center")  
 
 1. Click **Detach** for the module whose source code you want to obtain.
 
-    ![Detach](images/Detach.png)  
+    ![Screenshot of the Module Source Code page in OutSystems Service Center showing the Detach button for a module.](images/Detach.png "Detach Module Source Code")  
 
 1. Wait until OutSystems has finished packing the module source code and click **Download**.
 
-    ![Download](images/Download.png)
+    ![Screenshot of the Source Code of a Module page in OutSystems Service Center showing the Download button for the packed module source code.](images/Download.png "Download Detached Source Code")
 
 1. Save the ZIP file and extract it.
 
@@ -509,11 +519,11 @@ To obtain the native app source code of an Android or iOS mobile app, open the *
 
 1. Search for the application corresponding to your mobile app and click on its name to go to the detail page.
 
-    ![Select application](images/Select_application.png)  
+    ![Screenshot of the Applications page in OutSystems Service Center showing a list of applications with one selected.](images/Select_application.png "Select Application in Service Center")  
 
 1. In the **Native Platforms** tab click in the **Download source code** icon for the desired platform build (Android or iOS).
 
-    ![Download source code](images/Download_source_code.png)
+    ![Screenshot of the Application detail page in OutSystems Service Center showing the Download source code icon for Android.](images/Download_source_code.png "Download Mobile App Source Code")
 
 1. Save the `tar.gz` file and extract it.
 
@@ -531,20 +541,17 @@ Before you open the application's solution in Visual Studio, you need to make su
 
     **&lt;your machine name&gt;** > **Sites** > **Default Web Site**
 
-    ![Default Web Site](images/Default_Web_Site.png)  
+    ![Screenshot of the Internet Information Services (IIS) Manager showing the Default Web Site expanded with various options and settings.](images/Default_Web_Site.png "Default Web Site in IIS Manager")  
 
-1. Look for a virtual directory (![virtual directory icon](images/virtual_directory.png)) with the same name as the module you have detached and remove it; either by clicking on it and then pressing the **Del** key, or by right-clicking on it to open the popup menu and then choosing the **Remove** option.
+1. Look for a virtual directory (![Icon representing a virtual directory in IIS Manager.](images/virtual_directory.png "Virtual Directory Icon in IIS") with the same name as the module you have detached and remove it; either by clicking on it and then pressing the **Del** key, or by right-clicking on it to open the popup menu and then choosing the **Remove** option.
 
-    ![virtual directory remove](images/virtual_directory_remove.png)
+    ![Screenshot of the context menu in IIS Manager showing the Remove option for a virtual directory.](images/virtual_directory_remove.png "Remove Virtual Directory in IIS")
 
 If your application uses the OutSystems SAP plugin, then the SAP .NET Connector libraries have to be manually added to the detached source code. To ensure that the application compiles successfully, you need to copy the `sapnco.dll` and `sapnco_utils.dll` files, located in the `\thirdparty\lib\` folder in the Platform Server installation directory, into the `ThirdParty\SAP` folder that came with the detached source code.
 
-To deploy applications to IIS, you need Visual Studio 2017 15.9.7+ with the following workloads and components:
 
-* .NET desktop development workload
-* ASP.NET and web development workload
-* .NET Core cross-platform development workload
-* .NET Framework 4.7.2 SDK and targeting pack individual components
+
+To deploy applications to IIS, you need Visual Studio, as explained in the [technical pre-requisites](#technical-pre-requisites) section.
 
 To deploy your applications, proceed as follows:
 
@@ -552,13 +559,17 @@ To deploy your applications, proceed as follows:
 
 1. Execute the Visual Studio's **Build Solution** command to compile your application.
 
-1. Execute the Visual Studio's **Publish &lt;Project Name&gt;** command to publish your application to IIS by creating a **Custom** profile. When asked, choose the **Custom** option and give a name to the profile.
+1. Since the code is generated using the minimum requirements the OutSystems Platform (.Net Framework 4.7.2), if there are dependent Extensions that were created using .Net Framework 4.8 or above, the build might fail with warnings or errors mentioning "which was built against the '.NETFramework,Version=v4.8' framework. This is a higher version than the currently targeted framework '.NETFramework,Version=v4.7.2'". To fix that, change the `<ModuleName>` and `<ModuleName>ReferencesProxy` project to the appropriate target framework and retry the build process.
+ 
+1. Look for a warning with the "Found conflicts between different versions of the same dependent assembly" message. Do as the warning recommends and "double-click this warning (or select it and press Enter) to fix the conflicts". This is necessary to make Visual Studio calculate attempt to calculate best possible version of all third parties libraries that are consistent with each other and adjust the config files. For more information read the correspondent [Microsoft documentation](https://learn.microsoft.com/en-us/dotnet/framework/configure-apps/how-to-enable-and-disable-automatic-binding-redirection#enable-automatic-binding-redirects-in-web-apps).
 
-    ![](images/pick-publish-target.png)
+1. After the Build has finished successfully, execute the Visual Studio's **Publish &lt;Project Name&gt;** command to publish your application to IIS by creating a **Custom** profile. When asked, choose the **Custom** option and give a name to the profile.
+
+    ![Screenshot of the Publish window in Visual Studio showing the selection of IIS, FTP, Web Deploy as the publish target.](images/pick-publish-target.png "Pick a Publish Target in Visual Studio")
 
 1. Configure the new profile and press **Save**.
 
-    ![Publish Web.jpg](images/Publish_11Web.png)  
+    ![Screenshot of the Publish window in Visual Studio showing the configuration of a custom profile for publishing a web application.](images/Publish_11Web.png "Publish Web Application in Visual Studio")  
 
 1. After a successful publication, open IIS and search under your **Default Web Site** for the virtual directory with the name of your published module and click on it.
 
@@ -633,7 +644,8 @@ OutSystems already includes database plugins that come within the source code of
 
 ### Extensions
 
-Extension modules don't generate source code. As such, source code for custom extensions are always available for detachment and reuse. Just use Integration Studio, as usual, to open and compile the source code using Visual Studio.
+Extension modules don't generate source code. As such, source code for custom extensions are always available for detachment and reuse.
+Download the extension files and use Integration Studio to open the source code using the "Edit Source Code" button and save it from there. 
 
 ### Microsoft Excel files
 
@@ -701,11 +713,11 @@ When you need to convert your connections string to plain text, use the correspo
 
 An example is provided so that you can easily map the placeholders from the **Configuration Tool**, which can be found under **Windows Start Menu** > **OutSystems** > **Administration Tools**.
 
-![Appendix - Configuration Tool](images/Appendix_-_Configuration_Tool.png)
+![Screenshot of the Windows Start Menu showing the Configuration Tool option under the OutSystems folder.](images/Appendix_-_Configuration_Tool.png "Configuration Tool in Start Menu")
 
 If it's an external database connection, you can get the same information accessing **Service Center** > **Administration** > **Database Connections**, since the names are exactly the same.
 
-![Appendix - Database Connections](images/Appendix_-_Database_Connections.png)
+![Screenshot of the Database Connections page in OutSystems Service Center with the Database Connections tab highlighted.](images/Appendix_-_Database_Connections.png "Database Connections in Service Center")
 
 Don't forget to change the placeholders, wrapped around curly brackets `{}`, with your own information. Also, each connection string refers to a different User; this mean that for each string you must check which User it refers to.
 
@@ -739,7 +751,7 @@ User ID= {User}; Password= {Password}; Data Source= (DESCRIPTION=(ADDRESS=(PROTO
 DataSource= {Server}; Database= {Database}; UserId= {Username}; Password= {Password}; Def aultCollection= {Schema};
 ```
 
-![Appendix - iDB2](images/Appendix_-_iDB2.png)
+![Screenshot of the Create Database Connection page in OutSystems Service Center showing the iDB2 connection string settings.](images/Appendix_-_iDB2.png "iDB2 Connection String Example")
 
 #### MySQL
 
@@ -747,4 +759,4 @@ DataSource= {Server}; Database= {Database}; UserId= {Username}; Password= {Passw
 Server= {Server}; Database= {Schema}; Uid= {User}; Pwd= {Password}; Allow User Variables=true; ConnectionLifeTime=6000; ConnectionReset=true;
 ```
 
-![Appendix - MySQL](images/Appendix_-11_Mysql1.png)
+![Screenshot of the Create Database Connection page in OutSystems Service Center showing the MySQL connection string settings.](images/Appendix_-11_Mysql1.png "MySQL Connection String Example")
