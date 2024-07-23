@@ -87,7 +87,7 @@ You can select the version in the configuration and build apps with it, but you 
 
 ## **Version 9.0** - [See Release Notes](9/9.0/9.0.md)<br/>
 Released on November 23, 2022<br/>
-Deprecated on on April 29, 2024
+Deprecated on April 29, 2024
 </div>
 
 <div class="warning" markdown="1">
