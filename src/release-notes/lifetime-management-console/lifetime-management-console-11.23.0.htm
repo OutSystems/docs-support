@@ -16,6 +16,7 @@ pageprivacy: public
 <h3 id="bug_fixing_lifetime_management_console_11.23.0" >Bug Fixing</h3>
 <ul>
 <li>Fixed a bug in the warning/error link in the stage steps of a deployment plan. Now, when clicking on these links it redirects to the corresponding staging message. Inspired by <a href="https://www.outsystems.com/profile/wmqergfymu/overview">Evert Van Der Zalm's</a> feedback. (R11CT-3019)</li>
+<li>Fixed an issue that allowed users to force a password that doesn't meet complexity requirements when updating a user. (RPM-4782) <span class="cattag">Application Lifecycle</span>  <span class="cattag">LifeTime</span> </li>
 <li>Previously, when the LifeTimeAPI was used to retrieve the list of conflicts in a deployment, it only identified one conflict per application.
 
 We've improved the LifeTimeAPI to now fetch all conflicts for all applications within a deployment.  (RPM-4799) <span class="cattag">Application Lifecycle</span>  <span class="cattag">LifeTime</span> </li>
