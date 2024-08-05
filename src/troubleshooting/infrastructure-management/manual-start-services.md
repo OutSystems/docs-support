@@ -97,7 +97,7 @@ There are two ways to deal with this behavior:
 
 * Trust the service. If everything is well configured, the service will retry initialization until successful.
 
-* Start services in a predetermined order, and wait for a confirmation message. For this, each service should be started, waiting for the initialization confirmation message from Event Log, and then the next one should be started. For the 5 OutSystems services, the following order should be used:
+* Start services in a predetermined order and wait for a confirmation message. For this, each service should be started, waiting for the initialization confirmation message from Event Log, and then the next one should be started. For the 5 OutSystems services, the following order should be used:
 
     1. Log
     1. Controller
@@ -106,3 +106,5 @@ There are two ways to deal with this behavior:
     1. SMS Connector
 
 After each service is started, it's possible to confirm that initialization is correct by consulting Event Log.
+
+**Note**: The order for stopping services is the same for starting them. 
