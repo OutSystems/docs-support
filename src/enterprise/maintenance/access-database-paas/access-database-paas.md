@@ -1,6 +1,5 @@
 ---
 summary: Explore how to request direct database access for OutSystems 11 (O11) Cloud databases, including options for temporary and permanent user access.
-tags: support-Cloud_Platform; support-Cloud_Platform-featured; article-page
 locale: en-us
 guid: 4cdae94f-8633-4875-98bd-a3a4ac1bd89a
 app_type: traditional web apps, mobile apps, reactive web apps
@@ -97,7 +96,7 @@ To request a **temporary database user**, do the following:
 
     ![Screenshot highlighting the 'Create database user' link in the DATABASE ACCESS section of the OutSystems LifeTime console.](images/access-database-paas-create-db-user-lt.png "Create Database User Option in LifeTime Console")
 
-1. Choose a password for the new temporary user and confirm it. OutSystems doesn’t store this password.
+1. Choose a password for the new temporary user and confirm it. The password can't contain the following characters: `"`, `'`, and `;`. Make sure you store this password, as it won't be possible to retrieve it.
 
     ![Dialog box for creating a temporary database user with fields for username, password, and password confirmation.](images/access-database-paas-set-user-pwd-lt.png "Set Password for Temporary Database User")
 
