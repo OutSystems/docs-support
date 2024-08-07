@@ -1,0 +1,22 @@
+---
+isautopublish: true
+pageprivacy: public
+---
+
+<h2 id="lifetime_management_console_11.24.1" >LifeTime Management Console 11.24.1</h2>
+<div class="info"><p>Released on Aug 07, 2024</p></div>
+
+
+<style>.cattag {background: #f4f2ff; color: #6a6581; padding: 4px 10px;}</style>
+<h3 id="new_in_lifetime_management_console_11.24.1" >New in LifeTime Management Console 11.24.1</h3>
+<ul>
+<li>The environments screen in LifeTime now has a dedicated "Network" section in the environment details panel where customers can find the already existing options to manage the environment certificate and its secure endpoints. This change affects only Cloud customers. (R11CT-3224)</li>
+</ul>
+<h3 id="bug_fixing_lifetime_management_console_11.24.1" >Bug Fixing</h3>
+<ul>
+<li>Fixed an issue that would cause the environment filters' dropdown to be hidden when a filter with only one environment was selected even if there were more environments in the infrastructure. Now, the dropdown is correctly displayed when there is more than one visible environment in the infrastructure and is hidden otherwise. (R11CT-3282)</li>
+<li>Fixed an issue that caused a database error when deleting application versions using LifeTime API DELETE /applications/{ApplicationKey}/versions/{VersionKey}. This occurred when the application version being deleted had references to a deleted environment. (RPM-3861) <span class="cattag">Application Lifecycle</span>  <span class="cattag">LifeTime</span> </li>
+<li>When configuring an OpenId Connect Provider, a new message will be displayed immediately before activating the provider, warning of mandatory manual steps that must be taken. Failing to do these mandatory steps will have adverse effects, such as Service Studio users being unable to maintain their sessions authenticated. (RPM-4890) <span class="cattag">Application Lifecycle</span>  <span class="cattag">Users</span> </li>
+<li>Fixed an issue when disabling maintenance mode for a given environment that would not propagate OpenId Connect configurations that had changed while the environment was in maintenance mode. (RPM-5076) <span class="cattag">Application Lifecycle</span>  <span class="cattag">LifeTime</span> </li>
+</ul>
+
