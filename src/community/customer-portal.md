@@ -89,19 +89,21 @@ A regular user who is linked to your company and will have granular access to yo
 
 ### How to add a new member
 
-#### In O11 infrastructures
+#### For O11 infrastructures
 
 At your Customer Portal: 
 
 1. click **Team** on the left-side menu
 1. and then the **Add Team Member** button.
 
-Here you can:
+Here you must:
 
-* Specify if that person should have **Company permissions** (this means that the Company Admin permission will be granted).
-* Select the individual permissions he or she should have for each of your OutSystems infrastructures, for example, be an Infra Admin.
+* Define the email that will get the invite.
+* Define their role within the team.
+* Specify what type of **Company permissions**, Member or Admin, this person has.
+* Select the individual permissions they should have for each of your OutSystems infrastructures, for example, be an Infra Admin **(not mandatory)**.
 * Invite this person to configure their initial developer account in LifeTime:
-    * This option only applies to OutSystems Cloud and hybrid infrastructures. Aditionally, in Sentry subscriptions this option isn't available.
+    * This option only applies to OutSystems Cloud and hybrid infrastructures. Additionally, in Sentry subscriptions this option isn't available.
     * The username will be the same as their email.
     * The password will be selected by the new member when following the invitation link in their email.
 
