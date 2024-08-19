@@ -94,7 +94,7 @@ Change the Phase 2 lifetime setting to 51 minutes instead of 60 minutes. This is
 
 #### Related articles
 
-* [How do I troubleshoot VPN tunnel inactivity or instability on my customer gateway device?](https://aws.amazon.com/pt/premiumsupport/knowledge-center/vpn-tunnel-instability-inactivity/ "How do I troubleshoot VPN tunnel inactivity or instability on my customer gateway device?")
+* [How do I troubleshoot VPN tunnel inactivity or instability on my customer gateway device?](https://aws.amazon.com/en/premiumsupport/knowledge-center/vpn-tunnel-instability-inactivity/ "How do I troubleshoot VPN tunnel inactivity or instability on my customer gateway device?")
 
 ### Pinging front-end servers or databases
 
@@ -249,7 +249,7 @@ Your network team should be able to help you with this topic.
 
 #### Related articles
 
-* [VPN Tunnel Phase 2 IPsec](https://aws.amazon.com/pt/premiumsupport/knowledge-center/vpn-tunnel-phase-2-ipsec/ "VPN Tunnel Phase 2 IPsec")
+* [VPN Tunnel Phase 2 IPsec](https://aws.amazon.com/en/premiumsupport/knowledge-center/vpn-tunnel-phase-2-ipsec/ "VPN Tunnel Phase 2 IPsec")
   
 * [Your Customer Gateway](http://docs.aws.amazon.com/AmazonVPC/latest/NetworkAdminGuide/Introduction.html "Your Customer Gateway")
 
@@ -271,7 +271,7 @@ Your network team should be able to help you with this topic.
 
 #### Related articles
 
-* [VPN Inactivity](https://aws.amazon.com/pt/premiumsupport/knowledge-center/vpn-tunnel-instability-inactivity/ "VPN Inactivity")
+* [VPN Inactivity](https://aws.amazon.com/en/premiumsupport/knowledge-center/vpn-tunnel-instability-inactivity/ "VPN Inactivity")
 
 ### Issues using the VPN configuration file
 
