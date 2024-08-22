@@ -47,6 +47,8 @@ In the server with the Deployment Controller role, do the following:
 
 1. Restore the `private.key` file and `server.hsconf` files backed up on step 3 on the new installation path overwriting any files that may be present.
 
+1. If you have SEO-Friendly URLs configured, change the path of the DLL to the new installation folder path (see the steps at [Installing ISAPI Filters and Logging](https://success.outsystems.com/documentation/11/building_apps/search_engine_optimization_in_apps/seo_for_outsystems_reactive_web_apps_vs_traditional_web_apps/seo_friendly_urls_for_traditional_web_apps/#installing-isapi-filters-and-logging)
+
 1. Start IIS: open IIS Manager and click **Start** on the right pane under **Manage Server > Actions**.
 
 1. Open the Configuration Tool and navigate to the Cache tab. Then click on **Create/Upgrade Service**.
