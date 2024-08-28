@@ -9,27 +9,31 @@ figma: https://www.figma.com/file/cPLNnZfDOZ1NX3avcjmq3g/Enterprise%20Customers?
 
 # Multiple Database Catalogs and Schemas
 
-Enterprise applications often require thorough data separation down to database level, allowing for more granular storage management, database maintenance, or simply for organization purposes. The Multiple Database Catalogs and Schemas feature  allows you to meet these requirements by binding your modules to specific database catalogs or schemas.
+<div class="info" markdown="1">
 
-This feature is only available for on-premise installations.
+Applies to self-managed infrastructures only.
+
+</div>
+
+Enterprise applications often require thorough data separation down to database level, allowing for more granular storage management, database maintenance, or simply for organization purposes. The Multiple Database Catalogs and Schemas feature allows you to meet these requirements by binding your modules to specific database catalogs or schemas.
 
 ## Introduction
 
-OutSystems supports both Microsoft SQL Server and Oracle. While these database management systems use different terminology, for a matter of simplicity this technical note uses the term ‘‘database‘‘ to refer to an SQL Server Catalog and Oracle Schema. 
+OutSystems supports both Microsoft SQL Server and Oracle. While these database management systems use different terminology, for a matter of simplicity this technical note uses the term **database** to refer to an SQL Server Catalog and Oracle Schema. 
 
 ## Why Use Multiple Database Catalogs and Schemas
 
 Using Multiple Database Catalogs and Schemas improves the management and maintenance of your database's data, namely:
 
-* Improved database backup policies per application. For example: by establishing different backup schedules depending on database size and importance;
+* Improved database backup policies per application. For example: by establishing different backup schedules depending on database size and importance.
 
-* Improved database maintenance plans per application;
+* Improved database maintenance plans per application.
 
-* Optimize I/O performance by splitting the application‘s data across storage systems. For example, data with higher I/O needs to be distributed by more performing hard disks;
+* Optimize I/O performance by splitting the application's data across storage systems. For example, data with higher I/O needs to be distributed by more performing hard disks.
 
-* Smaller database sizes through data distributed by several databases, thus not having all information stored in the same place in big files;
+* Smaller database sizes through data distributed by several databases, thus not having all information stored in the same place in big files.
 
-* The possibility of restoring non-BPM databases without affecting other applications, if already using a database that is independent from the Platform Database (Main);
+* The possibility of restoring non-BPM databases without affecting other applications, if already using a database that is independent from the Platform Database (Main).
 
 * The ability to have different database transaction logging policies.
 
@@ -39,11 +43,11 @@ The following diagram depicts a typical scenario with three distinct databases: 
 
 The OutSystems database must always exist to store:
 
-* OutSystems Platform’s meta data;
+* OutSystems Platform’s meta data.
 
-* System Components specific data;
+* System Components specific data.
 
-* Global data to support cross-application infrastructure such as: Single Sign-on, Permission Areas, etc;
+* Global data to support cross-application infrastructure such as, Single Sign-on and Permission Areas.
 
 ![Diagram showing the OutSystems Platform Server connected to three separate databases: CorporateSite Database, Platform Database, and Intranet Database.](images/multiple-db-catalogs-schemas_0.png "OutSystems Platform Server and Database Server Diagram")
 
@@ -51,7 +55,7 @@ The OutSystems database must always exist to store:
 
 ### Create a new Database (Catalog) in SQL Server
 
-In SQL Server, the DBA must first create the database Catalog, and then set its permissions for both the Platform’s admin and runtime database users (set in the Configuration Tool).
+In SQL Server, the DBA must first create the database Catalog, and then set its permissions for both the Platform's admin and runtime database users (set in the Configuration Tool).
 
 The permissions should be set as follows:
 
@@ -73,9 +77,9 @@ Then use the "Configure New Catalog" and add the catalog you previously created.
 
 ### Create a new Database (Schema) in Oracle
 
-To create a new database Schema, go to Service Center, and in ‘Database Schemas’ select ‘Configure new Schema’.
+To create a new database Schema, go to Service Center, and in **Database Schemas** select **Configure new Schema**.
 
-Fill in the information for the new schema and download the configuration script. Then, execute the script (as DBA) in the Oracle database to effectively create the new Schema. To finish, test the newly created Database Schema in Service Center with the ‘Test Configuration’ button and save the schema.
+Fill in the information for the new schema and download the configuration script. Then, execute the script (as DBA) in the Oracle database to effectively create the new Schema. To finish, test the newly created Database Schema in Service Center with the **Test Configuration** button and save the schema.
 
 The script to create the Schema already sets all required permissions.
 
@@ -97,7 +101,7 @@ When publishing a Solution with Multiple Database Catalogs and Schemas, either i
 
 For modules that were already published in the Platform Server, their catalog/schema is already set in the Platform Server, as for the others, the publishing proceeds as follows:
 
-* No catalog/schema is set for the module in the Platform Server: the user is asked to set the catalog/schema for the module, as if it were a new module;
+* No catalog/schema is set for the module in the Platform Server: the user is asked to set the catalog/schema for the module, as if it were a new module.
 
 * A catalog/schema is set for the module in the Platform Server: the catalog/schema set in the Platform Server overrides the one that comes with the module in the Solution.
 
@@ -112,39 +116,38 @@ In a Multiple Database Catalogs and Schemas scenario, moving a  module from a da
 To move a module to a different Catalog execute the following steps:
 
 1. Backup the source and destination databases
- 
 
-2. Mark the module to be moved.
+1. Mark the module to be moved.
 
     1. Open Service Center.
 
-    2. Open the edit screen of the module, select the Operation tab, and in the Catalog drop down select the Catalog where the module is to be moved to.
+    1. Open the edit screen of the module, select the Operation tab, and in the Catalog drop down select the Catalog where the module is to be moved to.
 
-    3. Press the ‘Apply’ button: the module won’t be moved right away but marked for to be moved, therefore, it will still be operating with its old Catalog.
+    1. Click **Apply**.
+
+        The module won't be moved right away but marked for to be moved, therefore, it will still be operating with its old Catalog.
  
+1. Copy the database data.
 
-3. Copy the database data
+    | For Version 8 or lower| For Platform 9 or higher|
+    |-----|-----|
+    | a. Once the module is marked to be moved, go to the module  details screen, click the **Download Data Copy Script** link to download the script that will copy the module data. | a. Once the module is marked to be moved, take offline the application that contains the module (using the **Take Offline** button, on the application details screen).|
+    | b. Bring the application that contains the module offline using the **Take Offline** button, on the application details screen. | b. Create a SQL script to copy the module data to the destination catalog (run it in SQL Server Management Studio). |
+    | c. Run the script in SQL Server Management Studio, to copy the module data. You must have the same privileges as the admin user of the Platform. | c. Ensure that the move operation was successful and the application is working properly.|
+    | d. The script creates the source tables and views into the destination Catalog, copies their data, and creates the constraints.| |
+    | e. Ensure that the move operation was successful and the application is working properly.| |
+    | f. In the source Catalog, tables are kept for any eventual data recovery situation, but are renamed with an **OLD_** prefix. To definitely delete them, use the commented (not executed) SQL commands at the end of the script.| |
+    | g. In case of moving large amounts of data, require the DBA assistance to examine data copy steps on the script, and possibly make them more efficient. |  |
 
-
-| For Version 8 or lower| For Platform 9 or higher|
-|-----|-----|
-| a. Once the module is marked to be moved, go to the module  details screen, click the link ‘Download Data Copy Script’ to download the script that will copy the module data; | a. Once the module is marked to be moved, take offline the application that contains the module (using the ‘Take Offline’ button, on the application details screen);|
-| b. Bring the application that contains the module offline using the ‘Take Offline’ button, on the application details screen; | b. Create a SQL script to copy the module data to the destination catalog (run it in SQL Server Management Studio); |
-| c. Run the script in SQL Server Management Studio, to copy the module data. You must have the same privileges as the admin user of the Platform; | c. Ensure that the move operation was successful and the application is working properly.|
-| d. The script creates the source tables and views into the destination Catalog, copies their data, and creates the constraints;| |
-| e. Ensure that the move operation was successful and the application is working properly.| |
-| f. In the source Catalog, tables are kept for any eventual data recovery situation, but are renamed with a ‘OLD_‘ prefix. To definitely delete them, use the commented (not executed) SQL commands at the end of the script;| |
-| g. In case of moving large amounts of data, require the DBA assistance to examine data copy steps on the script, and possibly make them more efficient. |  |
-
-4. Finish the module move
+1. Finish the module move
 
     a. In Service Center, publish the module.
     
-    b. The Platform Server first checks that all tables of the module are created in the destination Catalog. Then it displays a ‘Use Matching Tables’ option that is to be selected, and continue with the publishing process;
+    b. The Platform Server first checks that all tables of the module are created in the destination Catalog. Then it displays a **Use Matching Tables **option that is to be selected, and continue with the publishing process.
 
     c. If the module has Consumer modules, republish them, or build a solution with all referenced modules and publish it in a single step.
 
-    d. Bring the module online using the ‘Bring Online’ button on the module details screen.
+    d. Bring the module online using the **Bring Online** button on the module details screen.
 
     e. The module is now using the new Catalog.
 
@@ -154,8 +157,7 @@ To stage a Solution to a Production environment with modules  moved to a differe
 
 1. Make backups of the databases.
  
-
-2. Stage the solution
+1. Stage the solution
 
     a. Open Service Center of the Production environment.
 
@@ -163,29 +165,27 @@ To stage a Solution to a Production environment with modules  moved to a differe
 
     c. Because the solution contains moved modules, a table detailing them is displayed during the upload, and their move should be confirmed.
  
+1. Copy the database data
 
-3. Copy the database data
+    | For Version 8 or lower| For Platform 9 or higher|
+    |------|--------|
+    | a. Once the module is marked to be moved, go the module details screen, click the link **Download Data Copy Script** to download the script that will copy the module data.| a. Once the module is marked to be moved, take offline the application that contains the module (using the **Take Offline** button, on the application details screen).|
+    | b. Bring the application that contains the module offline using the **Take Offline** button, on the application details screen. | b. Create a SQL script to copy the module data to the destination catalog (run it in SQL Server Management Studio). |
+    |module data. You must have the same privileges as the admin user of the Platform. | c. Ensure that the move operation was successful and the application is working properly. |
+    | d. The script creates the source tables and views into the destination Catalog, copies their data, and creates the constraints.  |  |
+    | e. Ensure that the move operation was successful and the application is working properly. |   |
+    | f. In the source Catalog, tables are kept for any eventual data recovery situation, but are renamed with an **OLD_** prefix. To definitely delete them, use the commented (not executed) SQL commands at the end of the script.|  |
+    | g. In case of moving large amounts of data, require the DBA assistance to examine data copy steps on the script, and possibly make them more efficient.| |
 
+1.  Finish the solution staging
 
-| For Version 8 or lower| For Platform 9 or higher|
-|------|--------|
-| a. Once the module is marked to be moved, go the module details screen, click the link ‘Download Data Copy Script’ to download the script that will copy the module data;| a. Once the module is marked to be moved, take offline the application that contains the module (using the ‘Take Offline’ button, on the application details screen);|
-| b. Bring the application that contains the module offline using the ‘Take Offline’ button, on the application details screen; | b. Create a SQL script to copy the module data to the destination catalog (run it in SQL Server Management Studio); |
-|module data. You must have the same privileges as the admin user of the Platform; | c. Ensure that the move operation was successful and the application is working properly. |
-| d. The script creates the source tables and views into the destination Catalog, copies their data, and creates the constraints;  |  |
-| e. Ensure that the move operation was successful and the application is working properly. |   |
-| f. In the source Catalog, tables are kept for any eventual data recovery situation, but are renamed with a ‘OLD_‘ prefix. To definitely delete them, use the commented (not executed) SQL commands at the end of the script;|  |
-| g. In case of moving large amounts of data, require the DBA assistance to examine data copy steps on the script, and possibly make them more efficient.| |
+    a. In Service Center, publish the solution.
 
-4.  Finish the solution staging
+    b. The Platform Server first checks that all tables (of the moved modules) are created in their destination Catalogs. Then it displays a **Use Matching Tables** option that is to be selected, and continue with the publishing process.
 
-    a. In Service Center, publish the solution;
+    c. All Consumer modules should be republished. Republish them or build a solution and publish it in a single step.
 
-    b. The Platform Server first checks that all tables (of the moved modules) are created in their destination Catalogs. Then it displays a ‘Use Matching Tables’ option that is to be selected, and continue with the publishing process;
-
-    c. All Consumer modules should be republished. Republish them or build a solution and publish it in a single step;
-
-    d. Bring modules online using the ‘Bring Online’ button on the detail screen of each application they belong to;
+    d. Bring modules online using the **Bring Online** button on the detail screen of each application they belong to.
 
     e. The solution is now staged and all moved modules using their new Catalogs.
 
@@ -197,37 +197,36 @@ To move an module to a different Schema execute the following steps:
 
 1. Backup the source and destination databases
  
+1. Mark the module to be moved
 
-2. Mark the module to be moved
+    a. Open Service Center.
 
-     a. Open Service Center;
+    b. Go to the module details screen, select the Operation tab and select the Catalog where the module is to be moved to.
 
-    b. Go to the module details screen, select the Operation tab and select the Catalog where the module is to be moved to;
-
-    c. Press the ‘Apply’: the module won’t be moved right away but marked to be moved, therefore, it will still be operating with its old Schema;
+    c. Click **Apply**.
+    
+    The module won’t be moved right away but marked to be moved, therefore, it will still be operating with its old Schema.
  
+1. Copy the database data
 
-3. Copy the database data
+    | For Version 8 or lower | For Platform 9 or higher |
+    |----|------|
+    | a. Once the module is marked to be moved, go the module details screen, click the link **Download Data Copy Script** to download the script that will copy the module data.  | a. Once the module is marked to be moved, take offline the application that contains the module (using the **Take Offline** button, on the application details screen). |
+    | b. Bring the application that contains the module offline using the **Take Offline** button, on the application details screen. | b. Create and run a SQL script to copy the module data to the destination Schema.  |
+    | c. Run the script to copy data in the Oracle SQL Developer with a dba user.  | c. Ensure that the move operation was successful and the application is working properly.  |
+    | d. The script uses the Oracle Data Pump to create the source tables and views into the destination Schema, copies their data, and creates the constraints. |     |
+    | e. In the source Schema, tables are kept for any eventual data recovery situation, but are renamed with an **OLD_** prefix. To definitely delete them, use the commented (not executed) SQL commands at the end of the script, but assuring that the move operation was successful and the application is working properly. |  |
+    | f. Usually Data Pump is efficient when moving large amounts of data, though the script can still be optimized by the dba for your specific case.|  |
 
-| For Version 8 or lower | For Platform 9 or higher |
-|----|------|
-| a. Once the module is marked to be moved, go the module details screen, click the link ‘Download Data Copy Script’ to download the script that will copy the module data;  | a. Once the module is marked to be moved, take offline the application that contains the module (using the ‘Take Offline’ button, on the application details screen); |
-| b. Bring the application that contains the module offline using the ‘Take Offline’ button, on the application details screen; | b. Create and run a SQL script to copy the module data to the destination Schema;  |
-| c. Run the script to copy data in the Oracle SQL Developer with a dba user;  | c. Ensure that the move operation was successful and the application is working properly.  |
-| d. The script uses the Oracle Data Pump to create the source tables and views into the destination Schema, copies their data, and creates the constraints; |     |
-| e. In the source Schema, tables are kept for any eventual data recovery situation, but are renamed with a ‘OLD_‘ prefix. To definitely delete them, use the commented (not executed) SQL commands at the end of the script, but assuring that the move operation was successful and the application is working properly; |  |
-| f. Usually Data Pump is efficient when moving large amounts of data, though the script can still be optimized by the dba for your specific case.|  |
+1. Finish the module move
 
+    a. In Service Center, publish the module.
 
-4. Finish the module move
+    b. The Platform Server first checks that all tables of the module are created in the destination Schema. Then it displays a **Use Matching Tables** option that is to be selected, and continue with the publishing process.
 
-    a. In Service Center, publish the module;
+    c. If the module has Consumer modules, republish them, one by one. Yet, if they are too many, it’s more efficient to build a solution with them and publish that solution in a single step.
 
-    b. The Platform Server first checks that all tables of the module are created in the destination Schema. Then it displays a ‘Use Matching Tables’ option that is to be selected, and continue with the publishing process;
-
-    c. If the module has Consumer modules, republish them, one by one. Yet, if they are too many, it’s more efficient to build a solution with them and publish that solution in a single step;
-
-    d. Bring the modules online using the ‘Bring Online’ button on the application details screen that contain the modules moved;
+    d. Bring the modules online using the **Bring Online** button on the application details screen that contain the modules moved.
 
     e. The module is now using the new Schema.
 
@@ -237,8 +236,7 @@ To stage a Solution to a Production environment with modules moved to a differen
 
 1. Make backups of the databases in question.
  
-
-2. Stage the solution
+1. Stage the solution.
 
     a. Open Service Center of the Production environment.
 
@@ -246,27 +244,26 @@ To stage a Solution to a Production environment with modules moved to a differen
 
     c. Because the solution contains moved modules, a table detailing them is displayed during the upload, and their move should be confirmed.
  
+1. Copy the database data
 
-3. Copy the database data
+    | For Version 8 or lower | For Platform 9 or higher |
+    |------|---------|
+    | a. Once the module is marked to be moved, go the module details screen, click the link **Download Data Copy Script** to download the script that will copy the module data. | a. Once the module is marked to be moved, take offline the application that contains the module (using the **Take Offline** button, on the application details screen). |
+    | b. Bring the application that contains the module offline using the Take Offline. button, on the application details screen.| b. Create and run a SQL script to copy the module data to the destination Schema.|
+    | c. Run the script to copy data in the Oracle SQL Developer with a dba user.| c. Ensure that the move operation was successful and the application is working properly. |
+    | d. The script uses the [Oracle Data Pump](https://www.oracle.com/technology/products/database/utilities/htdocs/data_pump_overview.html "https://www.oracle.com/technology/products/database/utilities/htdocs/data_pump_overview.html") to create the source tables and views into the destination Schema, copies their data, and creates the constraints.|  |
+    | e. In the source Schema, tables are kept for any eventual data recovery situation, but are renamed with an **OLD_** prefix. To definitely delete them, use the commented (not executed) SQL commands at the end of the script, but assuring that the move operation was successful and the application is working properly. | |
+    | f. Usually Data Pump is efficient when moving large amounts of data, though the script can still be optimized by the dba for your specific case.|  |
 
-| For Version 8 or lower | For Platform 9 or higher |
-|------|---------|
-| a. Once the module is marked to be moved, go the module details screen, click the link ‘Download Data Copy Script’ to download the script that will copy the module data; | a. Once the module is marked to be moved, take offline the application that contains the module (using the ‘Take Offline’ button, on the application details screen); |
-| b. Bring the application that contains the module offline using the ‘Take Offline’ button, on the application details screen;| b. Create and run a SQL script to copy the module data to the destination Schema;|
-| c. Run the script to copy data in the Oracle SQL Developer with a dba user;| c. Ensure that the move operation was successful and the application is working properly. |
-| d. The script uses the [Oracle Data Pump](https://www.oracle.com/technology/products/database/utilities/htdocs/data_pump_overview.html "https://www.oracle.com/technology/products/database/utilities/htdocs/data_pump_overview.html") to create the source tables and views into the destination Schema, copies their data, and creates the constraints;|  |
-| e. In the source Schema, tables are kept for any eventual data recovery situation, but are renamed with a ‘OLD_‘ prefix. To definitely delete them, use the commented (not executed) SQL commands at the end of the script, but assuring that the move operation was successful and the application is working properly; | |
-| f. Usually Data Pump is efficient when moving large amounts of data, though the script can still be optimized by the dba for your specific case.|  |
+1. Finish the solution staging.
 
-4. Finish the solution staging
+    a. In Service Center, publish the solution.
 
-    a. In Service Center, publish the solution;
+    b. The Platform Server first checks that all tables (of the moved modules) are created in their destination Schemas. Then it displays a **Use Matching Tables** option that is to be selected, and continue with the publishing process.
 
-    b. The Platform Server first checks that all tables (of the moved modules) are created in their destination Schemas. Then it displays a ‘Use Matching Tables’ option that is to be selected, and continue with the publishing process;
+    c. All Consumer modules should be republished. If the solution doesn’t contain them all, republish them individually or within another solution.
 
-    c. All Consumer modules should be republished. If the solution doesn’t contain them all, republish them individually or within another solution;
-
-    d. Bring the modules online through the ‘Bring Online’ button on the details screen of each of the application that contains the modules moved;
+    d. Bring the modules online through the **Bring Online** button on the details screen of each of the application that contains the modules moved.
 
     e. The solution is now staged and all moved modules using their new Schemas.
 
