@@ -63,7 +63,7 @@ The permissions should be set as follows:
 
 ![Screenshot of SQL Server showing runtime user permissions including read and write access to tables.](images/multiple-db-catalogs-schemas_1.png "SQL Server Runtime User Permissions")
 
-**Platform’s admin user:** must have the permissions set for db_accessadmin, db_datareader, db_datawriter, db_ddladmin, and db_securityadmin.
+**Platform's admin user:** must have the permissions set for db_accessadmin, db_datareader, db_datawriter, db_ddladmin, and db_securityadmin.
 
 ![Screenshot of SQL Server displaying the Platform admin user permissions with roles such as db_accessadmin and db_securityadmin highlighted.](images/multiple-db-catalogs-schemas_2.png "SQL Server Platform Admin User Permissions")
 
@@ -143,7 +143,7 @@ To move a module to a different Catalog execute the following steps:
 
     a. In Service Center, publish the module.
     
-    b. The Platform Server first checks that all tables of the module are created in the destination Catalog. Then it displays a **Use Matching Tables **option that is to be selected, and continue with the publishing process.
+    b. The Platform Server first checks that all tables of the module are created in the destination Catalog. Then it displays a **Use Matching Tables** option that is to be selected, and continue with the publishing process.
 
     c. If the module has Consumer modules, republish them, or build a solution with all referenced modules and publish it in a single step.
 
