@@ -69,6 +69,10 @@ OutSystems doesn't use jQuery-ui-tooltip widget. It's not present on our code.
 
 The .js.map files are used during debugging to unminify source code. These files themselves do not represent an attack vector since it's possible to recover the original source code and not find any bugs or vulnerabilities to exploit. The .js.map files are available in all environments except production, limiting their exposure.
 
+#### IdentityServer4 flagged as a vulnerable library
+
+The version of IdentityServer4 used by the OutSystems platform is vulnerable to [CVE-2024-39694](https://nvd.nist.gov/vuln/detail/cve-2024-39694). The OutSystems Platform code is not affected by this vulnerability.
+
 ## Support from OutSystems
 
 OutSystems support and security teams are ready to discuss the findings of the penetration tests with you under the following conditions:
