@@ -17,6 +17,8 @@ pageprivacy: public
 It is also possible to import and export Redirect Rules in bulk using an Excel file.
 
 *Important note*: This requires Microsoft’s Visual C++ 2015-2022 Redistributable package to be installed in the servers. (R11DT-1742)</li>
+<li>Scheduler service now requires two communication ports: primary and secondary. The new primary port (12102) is necessary for product evolution and technology resiliency and its value must be distinct from the secondary port. 
+Please note that the service is currently only listening on the new primary port but not actively using it yet. (R11PIT-1164)</li>
 <li>When a Publish fails updating a module's DB entities, the query that failed is logged in ServiceCenter Error logs. In this way one can know which entity was locked by another transaction. (R11PT-305)</li>
 <li>Authentication for IT users now has a password complexity rule to ensure stronger security against potential hackers. The rule enforces a 12-character minimum length and at least one number, uppercase, and lowercase letter. Having no effect on old passwords, the rule will apply when creating or updating passwords for IT users, enhancing the platform's overall security. (RDOI-238)</li>
 </ul>
