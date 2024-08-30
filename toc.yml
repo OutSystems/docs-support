@@ -566,14 +566,15 @@
 # Community
 - href: community/intro.md
 - topics:
+    - href: community/open-support-case.md
+    - href: community/add-case-followers.md    
     - href: community/support-cases-security.md
-    - href: community/add-case-followers.md
     - href: community/change-community-pw.md
     - href: community/change-community-email.md
     - href: community/close-community-account.md
     - href: community/merge-accounts.md
-    - href: community/open-support-case.md
-    - href: community/customer-portal.md
+    - href: community/community-badges.md
+    - href: community/customer-portal.md        
     # Training
     - href: community/training/training-intro.md
     - topics:
