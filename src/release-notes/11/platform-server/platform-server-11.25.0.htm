@@ -12,7 +12,7 @@ pageprivacy: public
 <ul>
 <li>Compiler Service executable and related files are now isolated inside {Platform Server folder}/CompilerService/ folder, instead of the root install path. This will improve maintainability of that service.
 
-Deployment Controller service now requires two communication ports: primary and secondary. The new primary port (12100) is necessary for product evolution and technology resiliency and its value must be distinct from the secondary port. 
+Compiler Service now requires two communication ports: primary and secondary. The new primary port (12100) is necessary for product evolution and technology resiliency and its value must be distinct from the secondary port. 
 Please note that the service is currently only listening on the new primary port but not actively using it yet. (R11BRT-683)</li>
 <li>Site properties can now be defined as a secret, which will ensure their value is stored and encrypted in the database. This requires LifeTime 11.20.1 or higher and Service Studio 11.54.35 or higher. You can learn more about the feature <a href="https://www.outsystems.com/tk/redirect?g=dc811245-bcef-4579-bcee-3530a997eecd">here</a>. (R11BRT-737)</li>
 <li>Added a site property on PreviewInDevices system component named ForceRequestURL to skip assigning the default DNS to the request URL. The default value is false. (R11DT-2095)</li>
