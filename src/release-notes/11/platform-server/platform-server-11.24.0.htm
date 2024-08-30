@@ -3,14 +3,17 @@ isautopublish: true
 pageprivacy: public
 ---
 
-<h2 id="platform_server_11.24.0" >Platform Server 11.24.0</h2> 
+<h2 id="platform_server_11.24.0" >Platform Server 11.24.0</h2>
 <div class="info"><p>Released on Nov 13, 2023</p></div>
 
 
 <style>.cattag {background: #f4f2ff; color: #6a6581; padding: 4px 10px;}</style>
 <h3 id="new_in_platform_server_11.24.0" >New in Platform Server 11.24.0</h3>
 <ul>
-<li>Deploy Service executable and related files are now isolated inside {Platform Server folder}/DeployService/ folder, instead of the root install path. This will improve maintainability of that service. (R11BRT-690)</li>
+<li>Deploy Service executable and related files are now isolated inside {Platform Server folder}/DeployService/ folder, instead of the root install path. This will improve maintainability of that service.
+
+Deploy service now requires two communication ports: primary and secondary. The new primary port (12101) is necessary for product evolution and technology resiliency and its value must be distinct from the secondary port. 
+Please note that the service is currently only listening on the new primary port but not actively using it yet. (R11BRT-690)</li>
 <li>Added the ARIA alert role to the feedback message in order to improve accessibility with screen readers. Inspired by <a href="https://www.outsystems.com/ideas/13581/wcag-compatibility-improvement-error-messages/"> Joost Miltenburg’s idea</a>. (R11DT-2046)</li>
 <li>It is now possible to integrate with SAP services using the SAP Connector for Microsoft .NET 3.1. Using previous versions of the SAP Connector will not be supported. Check <a href="https://success.outsystems.com/support/release_notes/11/outsystems_11_side_effects_and_breaking_changes/">OutSystems 11 side effects and breaking changes</a> for more details. (RO11IT-592)</li>
 </ul>
@@ -48,7 +51,6 @@ Now, with the fix when LDAP authentication is activated, users won't be redirect
 End-users were unable to login if they have multiple active sessions already. While doing a fresh login a new session object was being created with an existing session id that resulted in duplicate key row exception (RPM-4371) <span class="cattag">Application Lifecycle</span>  <span class="cattag">Service Center</span> </li>
 <li>Fixed an issue in Integration Studio that caused database tables to not be shown when connecting to external databases in an extension. This occurred for users with LifeTime permissions lower than "Open and Debug" for the environment. In addition, only tables that were already being used in other modules or extensions in the environment were affected. (RPM-4393) <span class="cattag">Application Lifecycle</span>  <span class="cattag">Service Center</span> </li>
 <li>Fixed issue on RT cookie settings when LifeTime Analytics is on for the environment. (RPM-839) <span class="cattag">Application Runtime</span>  <span class="cattag">Cookies</span> </li>
-<li>Fixed an issue that would cause 2-stage deployment plans to finish with errors. This issue occurred when 'Continue Deployment' was clicked after the solution associated with the plan was deleted in the target environment during the execution of the SolutionPack_Cleanup timer. Now, LifeTime will receive the information that the solution was deleted and will abort the deployment plan. (RPM-969) <span class="cattag">Application Lifecycle</span>  <span class="cattag">LifeTime</span> </li>
 <li>Fixed an issue that allowed a user without publish permission, to deploy a module in Service Studio when the same module version is already published in the server and, therefore, the upload is skipped. CVSSv3.1 score 3.3 (Low). (RPM-3215) <span class="cattag">Publish Operation</span>  <span class="cattag">Upload</span> </li>
 <li>Fixed an issue that allowed cloud customers to change the name of an environment in the screen Environment_Configuration of Service Center. CVSSv3.1 score 2.7 (Low). (RPM-4329) <span class="cattag">Application Lifecycle</span>  <span class="cattag">Service Center</span> </li>
 </ul>
