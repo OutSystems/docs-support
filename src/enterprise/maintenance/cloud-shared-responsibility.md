@@ -1,26 +1,26 @@
 ---
-summary: Explore the shared responsibility model and security roles in OutSystems 11 (O11) for cloud infrastructures.
+summary: Explore the shared responsibility model and security roles in ODC and OutSystems 11 Cloud.
 tags:
 locale: en-us
 guid: b04339ce-7b9f-4c93-94b7-e4cf397eab47
 app_type: traditional web apps, mobile apps, reactive web apps
-platform-version: o11
+platform-version: o11, odc
 figma: https://www.figma.com/file/cPLNnZfDOZ1NX3avcjmq3g/Enterprise%20Customers?node-id=618:22
 ---
 
-# OutSystems Cloud Shared Responsibility Model
+# OutSystems Cloud shared responsibility model
 
 OutSystems allows the development of enterprise web and mobile applications that run in different infrastructure models:
 
-* **OutSystems cloud**: deployed on Amazon Web Services (AWS) and managed by OutSystems
+* **OutSystems Developer Cloud (ODC)**: a [cloud-native app development platform](https://www.outsystems.com/tk/redirect?g=9a0cb62a-f11b-4d1a-9e79-0ca7d398e57b) with a modern architecture.
+  
+* **OutSystems 11 Cloud**: deployed on Amazon Web Services (AWS) and managed by OutSystems
 
-* **Customer-managed**: including on-premises, public, and private cloud
+* **OutSystems 11 self-managed**: including on-premises, public, and private cloud
 
-When activating a subscription, and depending on infrastructure choice, all environments are deployed to either the OutSystems cloud or the customer-managed infrastructure.
+Depending on infrastructure choice, all environments are deployed to either ODC Cloud, the OutSystems 11 Cloud, or the self-managed infrastructure. This shared responsibility model applies to ODC Cloud and OutSystems 11 Cloud deployments, collectively referred to as **OutSystems Cloud**.
 
-Learn more in [Possible setups for an OutSystems infrastructure](https://success.outsystems.com/Documentation/11/Setting_Up_OutSystems/Possible_setups_for_an_OutSystems_infrastructure?utm=training).
-
-## Shared Responsibility Model
+## Shared responsibility model
 
 In the OutSystems Cloud, OutSystems shares control of the cloud environments with you. Although OutSystems provides secure and compliant services to protect customer data and applications, you are solely responsible for properly configuring and operating those services as required by your organization.  
 
@@ -34,7 +34,7 @@ The following sections explain the shared responsibilities between OutSystems an
 
 ## Customer responsibilities
 
-OutSystems customers are responsible for securing data and user access/permissions to their applications. Customers are responsible for the management of their applications throughout the entire lifecycle; from when it is developed to when it is deployed to production. Ultimately, OutSystems Cloud customers are responsible for:
+OutSystems customers are responsible for securing data and user access and permissions to their applications. Customers are responsible for the management of their applications throughout the entire lifecycle: from when it's developed to when it's deployed to production. Ultimately, OutSystems Cloud customers are responsible for:
 
 * Managing their data (including encryption options), classifying their assets, and using Identity and Access ManagementAM tools to apply for the appropriate permissions.
 
@@ -44,9 +44,13 @@ OutSystems customers are responsible for securing data and user access/permissio
 
 * Mitigating application vulnerabilities and associated risks.
 
-## OutSystems Responsibilities
+* Adopting application development, testing, and monitoring practices recommended for their performance and scalability goals.
 
-OutSystems is responsible for protecting the infrastructure that runs all of the services offered in the OutSystems Cloud. This infrastructure is composed of the hardware, software, networking, and facilities that run OutSystems Cloud services. OutSystems is responsible for the following:
+OutSystems provides extensive [training options](https://www.outsystems.com/evaluation-guide/getting-started-with-outsystems/training/) and a [range of success offers](https://www.outsystems.com/evaluation-guide/getting-started-with-outsystems/app-support/) to ensure customers can follow and adopt best practices.
+
+## OutSystems responsibilities
+
+OutSystems is responsible for protecting the infrastructure that runs all of the services offered in OutSystems Cloud. This infrastructure is composed of the hardware, software, networking, and facilities that run OutSystems Cloud services. OutSystems is responsible for the following:
 
 * **Platform security**. OutSystems provides its customers computing platform for designing, building, deploying, and managing business applications. OutSystems implements many layers of security defense architecture to resist various types of threats and ensure the entire computing platform. OutSystems responsibility is to protect the business values of its customers' applications while helping them to achieve compliance with industry security frameworks and standards.
 Identity and access management: OutSystems integrates with Active Directory and Single-Sign-on to allow customers to manage the access controls as they would for any enterprise software. OutSystems offers its customers the capabilities to define, enforce and manage individual user accounts with permissions across its services.
