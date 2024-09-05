@@ -1,0 +1,30 @@
+---
+isautopublish: true
+pageprivacy: semi-private
+---
+
+<h2 id="lifetime_management_console_11.24.2" >LifeTime Management Console 11.24.2</h2>
+<div class="info"><p>This is a preliminary version of the document.</p></div>
+
+
+<style>.cattag {background: #f4f2ff; color: #6a6581; padding: 4px 10px;}</style>
+<h3 id="new_in_lifetime_management_console_11.24.2" >New in LifeTime Management Console 11.24.2</h3>
+<ul>
+<li>The Platform Server version bundled with LifeTime has been upgraded to 11.29.0. (R11CT-3340)</li>
+<li>Improved the mechanism that sends telemetry concerning OutSystems platform usage. (RPM-4630) <span class="cattag">Application Lifecycle</span>  <span class="cattag">LifeTime</span> </li>
+</ul>
+<h3 id="bug_fixing_lifetime_management_console_11.24.2" >Bug Fixing</h3>
+<ul>
+<li>Fixed the Environments page in Lifetime on OutSystems Cloud infrastructures so that it would not become unavailable if there were internal communication issues fetching the Log Streaming configurations. (R11BRT-1208)</li>
+<li>Improved the user experience regarding blocked users and blocked IP addresses. Now, if a user is IP-blocked, a link to the proper screen is shown, where the IP block can be removed. (R11CT-3210)</li>
+<li>In LifeTime error logs, an entry with the message: "404 Not Found" would happen frequently when accessing Staging_Edit or Staging_Summary screens. Apart from log pollution, there was no further impact. Since it's an expected scenario this particular error is no longer logged. (R11CT-3284)</li>
+<li>Fixed an issue that caused deployments to fail when a module, added to the staging, was deleted from the environment after staging creation. 
+The staging plan will now adapt to changes, ensuring that deployments are completed successfully. (RPM-4226) <span class="cattag">Application Lifecycle</span>  <span class="cattag">LifeTime</span> </li>
+<li>Fixed an issue in the Staging Settings screen, that would not show all the site properties to be configured in a module if they were more than 50 properties. It would also not show all the modules with properties to be configured when there are more than 50 modules. Now, there is pagination that allows the user to configure all properties that need to be configured. (RPM-4232) <span class="cattag">Application Lifecycle</span>  <span class="cattag">LifeTime</span> </li>
+<li>Fixed an issue with LifeTime's landing page for PaaS infrastructures that would show more environments in the application's dropdown than the ones available in the infrastructure. The issue occurred when an application was deployed to an environment that is no longer active. Now, the application's dropdown only shows environments that are active. (RPM-4373) <span class="cattag">Application Lifecycle</span>  <span class="cattag">LifeTime</span> </li>
+<li>Improved the execution time of activity Publish to Target of the Staging process of LifeTime. 
+During the deployment process, the activity Publish to Target will retrieve the exact versions of the modules included or selected for republish for each application included or selected for republish in the deployment. In deployments with a large number of applications, sometimes this activity would reach a timeout. By improving the query that retrieves the modules, the execution time of the activity should become much faster. (RPM-4754) <span class="cattag">Application Lifecycle</span>  <span class="cattag">LifeTime</span> </li>
+<li>Fixed an issue where the environment synchronization process was overwriting the custom parallel deployment configuration with the default value. Now, any changes made by the IT User on the environment details screen in LifeTime are retained after synchronization. (RPM-5134) <span class="cattag">Application Lifecycle</span>  <span class="cattag">LifeTime</span> </li>
+<li>Improved encryption mechanism. CVSSv3.1 score 6.3 (Medium). (R11CT-3034)</li>
+</ul>
+
