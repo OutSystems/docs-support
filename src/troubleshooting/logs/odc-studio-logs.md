@@ -34,7 +34,7 @@ To troubleshoot an ODC Studio behavior that doesn't generate errors, collect the
 
 1. Replicate the behavior that needs to be investigated.
 
-1. Click the **Give Us Feedback!** icon from the top menu bar.
+1. Click the **Give Us Feedback!** icon next to the question mark icon from the top menu bar.
 
 1. From the **Report issue or send feedback** window that opens click **See diagnostics report**.
 
