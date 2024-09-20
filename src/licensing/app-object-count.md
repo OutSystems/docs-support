@@ -49,6 +49,7 @@ An Application Object (AO) is a measurement of the complexity of your applicatio
 * In OutSystems Developer Cloud, you can deploy multiple versions of the same library. Only the version with the highest number of AOs contributes to the AO count.
 * In OutSystems 11, libraries that are published contribute to the AO count, even when they are not referenced by any applications. In OutSystems Developer Cloud, unreferenced libraries do not contribute to the AO count.
 * With libraries, the AO count contributed includes all API methods and static entities in the library, even when not all are referenced or used by apps.
+* In OutSystems Developer Cloud, all selected entities of a connection contribute to the AO count if the entity is referenced in an app. For example, if 50 Salesforce entities are selected in the external database connection and only one is used in one or multiple apps, the connection counts as 50 AOs.
 
 ## AO limits
 
