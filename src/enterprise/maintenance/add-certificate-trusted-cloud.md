@@ -24,6 +24,8 @@ These certificates aren't trusted by the client servers (in this case, the OutSy
 
 For OutSystems Cloud environments, this operation is performed by OutSystems support. This option is available depending on your subscription, check more details at the [Cloud services catalog](https://success.outsystems.com/Support/Enterprise_Customers/OutSystems_Support/Cloud_services_catalog).
 
+Refer to [TLS Cipher Suites in Windows 10 v1607](https://learn.microsoft.com/en-us/windows/win32/secauthn/tls-cipher-suites-in-windows-10-v1607) for the supported encryptions. 
+
 <div class="info" markdown="1">
 
 For self-managed environments, check [this article](https://success.outsystems.com/Support/Enterprise_Customers/Installation/Add_self_signed_certificate_to_trusted_root_store_on_OutSystems) instead.
