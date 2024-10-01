@@ -56,7 +56,7 @@ Before changing the Activation Code,  read the complete procedure first. If you 
 
 To move from the previous Activation Code (AAA in this text) to the new Activation Code (BBB in this text), follow these steps:
 
-1. Pause all deployments to Production. Development activities in other environments can continue.
+1. Pause all development activities and deployments. Close all apps in Service Studio.
 
 1. For all environments, backup the license file for the Activation Code AAA.
 
@@ -93,6 +93,12 @@ To move from the previous Activation Code (AAA in this text) to the new Activati
     If the Intellectual Property is **Protected** or **Unprotected**, continue to the next environment. 
 
     If not, your license is not prepared for the migration. For more information, see  [FAQ 3](#faqs) below.
+
+<div class="warning" markdown="1">
+
+Once the change of the Activation Code is complete, you won't be able to publish older versions of your apps. To use older versions of your apps, access the [IPP Portal](https://www.outsystems.com/ipp) and change their Activation Code. For more information about IPP, see [OutSystems Intellectual Property Protection - IPP](../../licensing/ipp/what-is-ipp.md).
+
+</div>
 
 ### Test the changes 
 
