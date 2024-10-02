@@ -4,7 +4,8 @@ tags:
 locale: en-us
 guid: d18db4ef-572c-4961-a7aa-097259242aca
 app_type: traditional web apps, mobile apps, reactive web apps
-platform-version: o11
+platform-version: o11, odc
+figma: https://www.figma.com/design/UXA74OsZxSIzLLsjhvNMjC/Release-Notes?node-id=1146-17&node-type=canvas&t=Z7o6IyzcmwbSVvBD-0
 ---
 
 # OutSystems product lifecycle and support calendar
@@ -55,14 +56,11 @@ The following table illustrates the usage of version numbers in 3 different type
 | A Release containing new functionality, and possibly breaking changes. The second number increases and the third number is reset to 0. | from 11.**0**.nto 11.**1**.0 |
 | A Cumulative patch containing only defect fixes and minor improvements, but with no breaking changes. The third number (patch) increases. | from 11.1.0to 11.1.**1**  |
 
-
 *n* = an integer number
-
 
 ## Early access programs
 
 Major launches typically include an Early Access Program (EAP). The program duration will depend on the scope of the launch and the specific program objectives. Customers are invited to participate in an EAP, depending on pre-defined eligibility criteria. During the EAP, OutSystems has dedicated resources (Support, Engineering, Training) to enable and support the customer. OutSystems may provide additional infrastructure resources while the program is in place (for example, to run in parallel with the existing infrastructure).
-
 
 ## Installing new releases
 
@@ -72,7 +70,6 @@ Upgrading to a new major release is optional (but recommended) for self-managed 
 
 Personal environments and enterprise trials will be upgraded to the latest major release as soon as possible.
 
-
 ### Upgrades to a new release or cumulative patch
 
 Upgrading to a new release or cumulative patch are optional (but recommended) for self-managed customers. OutSystems Cloud installations are handled by our operations with no downtime. Update instructions are available in the [installation checklist](https://www.outsystems.com/Downloads/search/). OutSystems can provide [services to assist with the upgrade](https://www.outsystems.com/evaluation-guide/professional-services).
@@ -80,7 +77,6 @@ Upgrading to a new release or cumulative patch are optional (but recommended) fo
 For Development Environment upgrades, developers are free to update to the latest release as soon as it becomes available.
 
 The OutSystems free offers will be updated to the latest release as soon as possible.
-
 
 ## End of mainstream support
 
@@ -96,13 +92,11 @@ For discontinued versions, it might be necessary to have some downtime; therefor
 
 The below calendar shows the past, current, and planned dates for OutSystems product mainstream support.
 
-![Timeline showing the support calendar for OutSystems product versions, indicating live, discontinued, and end of extended support phases.](images/product-lifecycle-cal-diag.png "OutSystems Support Calendar")
-
+![Timeline showing the support calendar for OutSystems product versions, indicating live, discontinued, and end of extended support phases.](images/support-calendar-diag.png "OutSystems Support Calendar")
 
 ## Documentation and training updates
 
 The following table shows the different types of documentation and the moments when they're updated:
-
 
 | | Major release | Release | Cumulative patch |
 |---|---|---|---|
