@@ -1,0 +1,28 @@
+---
+isautopublish: true
+pageprivacy: semi-private
+---
+
+<h2 id="lifetime_management_console_11.24.3" >LifeTime Management Console 11.24.3</h2>
+<div class="info"><p>This is a preliminary version of the document.</p></div>
+
+
+<style>.cattag {background: #f4f2ff; color: #6a6581; padding: 4px 10px;}</style>
+<h3 id="new_in_lifetime_management_console_11.24.3" >New in LifeTime Management Console 11.24.3</h3>
+<ul>
+<li>It is now possible to navigate directly to the application details from the staging edit screen in LifeTime by clicking in the application name. Inspired by <a href="https://www.outsystems.com/profile/wmqergfymu/overview">Evert van der Zalm's</a> feedback. (R11CT-3353)</li>
+<li>LifeTime will now display all digits of the application tag (Major.Minor.Revision) when the revision digit is set to 0. Previously, if the tag was set to 1.0.0 for example, LifeTime would only display 1.0, now it will display the full tag 1.0.0. Inspired by <a href="https://www.outsystems.com/profile/wmqergfymu/overview">Evert van der Zalm's</a> feedback. (R11CT-3369)</li>
+<li>In the Environment Edit screen, the message "It is not possible to disable SSL/TLS for an environment because the environment security configuration is forcing HTTPS for integrations" has been updated. This message, previously displayed as a warning, is now presented as an informational notice. This change was made to prevent any confusion, ensuring that customers do not mistakenly interpret the message as requiring any action on their part. (R11CT-3384)</li>
+</ul>
+<h3 id="bug_fixing_lifetime_management_console_11.24.3" >Bug Fixing</h3>
+<ul>
+<li>Fixed an issue where the 'Show Details' popup from the Staging_Edit screen was incorrectly sized, hiding certain UI elements from the user's viewport. Also, both the application name and the "Confirm"/"Cancel" buttons are now always visible when scrolling through the list of modules within the popup. Reported by <a href="https://www.outsystems.com/profile/wmqergfymu/overview">Evert van der Zalm</a>. (R11CT-3394)</li>
+<li>Fixed an issue where the active/inactive user filter in the Team_Edit screen would disappear, making it impossible to change afterwards. This happened when the last user (either active or inactive) was deleted from the list and the page was refreshed. Reported by <a href="https://www.outsystems.com/profile/wmqergfymu/overview">Evert van der Zalm</a>. (R11CT-3432)</li>
+<li>Solved an issue related with the LifeTime telemetry opt-out mechanism. (R11CT-3433)</li>
+<li>Fixed an issue that caused OIDC configurations to not propagate successfully to a newly registered environment in an infrastructure. (R11CT-3484)</li>
+<li>Fixed an issue where a staging message was incorrectly logged informing the user that staging had been aborted, even though the staging was subsequently marked as successfully completed.
+This occurred when an exception was thrown during the final wrap-up activities of the staging process, when all applications and modules had already been successfully deployed to the target environment. (RPM-4637) <span class="cattag">Application Lifecycle</span>  <span class="cattag">LifeTime</span> </li>
+<li>Significantly improved the time it takes to access the User_Show page by users with specific application permissions. The page load time would increase as the number of application permissions grew. While a significant speed-up is expected, the actual improvement will vary, depending on the factory size and the actual application permissions the user has. (RPM-5091) <span class="cattag">Application Lifecycle</span>  <span class="cattag">Users</span> </li>
+<li>Fixed a rare issue in LifeTime that caused the staging messages to be wrongly sorted when viewing them in the Staging_Progress screen and in the staging report excel file. (RPM-5137) <span class="cattag">Application Lifecycle</span>  <span class="cattag">LifeTime</span> </li>
+</ul>
+
