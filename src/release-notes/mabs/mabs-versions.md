@@ -44,9 +44,9 @@ It's recommended to update all supported plugins to the latest version available
 
 This version can run your apps on:
 
-<small>![Icon representing the Android operating system.](images/android-icon.png "Android Icon") Android 9 to 14</small>
+<small>![Icon representing the Android operating system.](images/android-icon.png "Android Icon") Android 9 to 15</small>
 
-<small>![Icon representing the iOS operating system.](images/iOS-icon.png "iOS Icon") iOS 14 to 17</small>
+<small>![Icon representing the iOS operating system.](images/iOS-icon.png "iOS Icon") iOS 14 to 18</small>
 
 **More details:**
 
