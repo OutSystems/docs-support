@@ -89,6 +89,14 @@ delete from ossys_Parameter where name = 'OutSystems.HubEdition.References.HashK
 delete from ossys_Parameter where name = 'OutSystems.SystemComponents.Users.AuthenticationEncryptKey';
 delete from ossys_Parameter where name = 'OutSystems.SystemComponents.Users.HashKey';
 delete from ossys_Parameter where name = 'LifetTime.FallbackAuthToken';
+delete from ossys_Parameter where name = 'OutSystems.IdentityService.AllowIdPAuthOnly';
+delete from ossys_Parameter where name = 'OutSystems.IdentityService.Claims.Username';
+delete from ossys_Parameter where name = 'OutSystems.IdentityService.isActive';
+delete from ossys_Parameter where name = 'OutSystems.IdentityService.LoginClient.ClientId';
+delete from ossys_Parameter where name = 'OutSystems.IdentityService.LoginClient.NativeClientId';
+delete from ossys_Parameter where name = 'OutSystems.IdentityService.LoginClient.WebClientId';
+delete from ossys_Parameter where name = 'OutSystems.IdentityService.Scopes';
+delete from ossys_Parameter where name = 'OutSystems.IdentityService.ServiceUrl';
 ```
 
 #### Clean up the configuration of mobile apps
@@ -626,6 +634,14 @@ delete from ossys_Parameter where name = 'OutSystems.HubEdition.References.HashK
 delete from ossys_Parameter where name = 'OutSystems.SystemComponents.Users.AuthenticationEncryptKey';
 delete from ossys_Parameter where name = 'OutSystems.SystemComponents.Users.HashKey';
 delete from ossys_Parameter where name = 'LifetTime.FallbackAuthToken';
+delete from ossys_Parameter where name = 'OutSystems.IdentityService.AllowIdPAuthOnly';
+delete from ossys_Parameter where name = 'OutSystems.IdentityService.Claims.Username';
+delete from ossys_Parameter where name = 'OutSystems.IdentityService.isActive';
+delete from ossys_Parameter where name = 'OutSystems.IdentityService.LoginClient.ClientId';
+delete from ossys_Parameter where name = 'OutSystems.IdentityService.LoginClient.NativeClientId';
+delete from ossys_Parameter where name = 'OutSystems.IdentityService.LoginClient.WebClientId';
+delete from ossys_Parameter where name = 'OutSystems.IdentityService.Scopes';
+delete from ossys_Parameter where name = 'OutSystems.IdentityService.ServiceUrl';
 COMMIT;
 ```
 
