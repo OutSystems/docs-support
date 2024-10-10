@@ -1,0 +1,24 @@
+---
+isautopublish: true
+pageprivacy: semi-private
+---
+
+<h2 id="ai_mentor_studio_1.33" >AI Mentor Studio 1.33</h2>
+<div class="info"><p>This is a preliminary version of the document.</p></div>
+
+
+<style>.cattag {background: #f4f2ff; color: #6a6581; padding: 4px 10px;}</style>
+<h3 id="new_in_ai_mentor_studio_1.33" >New in AI Mentor Studio 1.33</h3>
+<ul>
+<li>[AI Mentor Studio API] Optimized the way how the API retrieves the latest technical debt information reducing the response time of calls when requesting the current technical debt. (RADRT-2929)</li>
+<li>[AI Mentor Studio API] The API "ArchitectureDashboardAPI" will be removed after December 31, 2024. Customers still using this API must change the address of their integrations to "AIMentorStudioAPI", which has the exact same behavior and functionality. (RADRT-2951)</li>
+<li>Now the Teams and User drop-down filters are also searchable. (RADRT-2966)</li>
+<li>Updated missing Japanese translations in previously untranslated patterns. (RADRT-3179)</li>
+</ul>
+<h3 id="bug_fixing_ai_mentor_studio_1.33" >Bug Fixing</h3>
+<ul>
+<li>Fixed an issue on the Duplicated Code pattern that could rarely cause findings to be added to an existing pattern instead of creating a separate one. Affected patterns will be fixed automatically after a synchronization. (RADRT-2912)</li>
+<li>Fixed an issue where AI Mentor Studio would automatically remove "www." from the environment's URL that was provided when attempting to login using the IT User account. (RADRT-3129)</li>
+<li>[AI Mentor Studio API] Fixed an issue from a recent change that caused the API to return incorrect information for application related findings, where instead of returning all the patterns with application findings, the API was returning multiple copies of the same pattern. Module related findings were not impacted by this issue.  (RADRT-3181)</li>
+</ul>
+
