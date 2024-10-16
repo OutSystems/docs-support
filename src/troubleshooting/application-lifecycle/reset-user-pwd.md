@@ -60,7 +60,7 @@ Request the password reset by opening a [new case at OutSystems Support Portal](
 
 **For OutSystems 11 Platform Server Release Jul.2019 or later** and **OutSystems 10 Platform Server 10.0.1014.0 or later**
 
-Check [here](https://success.outsystems.com/Documentation/11/Developing_an_Application/Secure_the_Application/End_Users/Access_the_Users_application#configure-users-administrator) the instructions to access the Users application to then [configure the administrator user](https://success.outsystems.com/documentation/11/developing_an_application/secure_the_application/end_users/configure_the_administrator_user_of_the_users_app/).
+Reset the admin password for the Users application using Service Center. Check [here](https://success.outsystems.com/Documentation/11/Developing_an_Application/Secure_the_Application/End_Users/Access_the_Users_application#configure-users-administrator) the instructions to access the Users application to then [configure the administrator user](https://success.outsystems.com/documentation/11/developing_an_application/secure_the_application/end_users/configure_the_administrator_user_of_the_users_app/).
 
 **For any versions of OutSystems 11 or OutSystems 10 Platform Server**
 
