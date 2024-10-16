@@ -40,11 +40,11 @@ If you are trying to signup to try ODC using a shared space, take a look at the 
 This shared space receives regular updates with new features, so you will be also able to have access to some new features early on.
 
 * **What permissions do I have as a developer in an ODC shared space?**
-    * Access to two stages (Development and QA)
+
+    * Access to a Development stage
     * Open, create, debug, and edit assets
     * Access assets’ logs and traces
     * Access user information
-    * Edit/Change AI Mentor system Code Quality findings
     * View, Edit Configurations, and Manage Email configurations
     * View end-users, manage end-user access and end-user groups
     * Install and Update Forge assets
