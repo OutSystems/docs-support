@@ -206,6 +206,8 @@ jobs:
         echo '     },' >> jira.json
         echo '     "labels": [' >> jira.json
         echo '       "ExternalContribution",' >> jira.json
+        echo '       "Documentation",' >> jira.json
+        echo '       "support-maintenance",' >> jira.json
         echo '       "github"' >> jira.json
         echo '     ],' >> jira.json
         echo "     \"summary\": \"${title}\"" >> jira.json
