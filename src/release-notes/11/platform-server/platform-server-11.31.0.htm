@@ -1,0 +1,22 @@
+---
+isautopublish: true
+pageprivacy: public
+---
+
+<h2 id="platform_server_11.31.0" >Platform Server 11.31.0</h2>
+<div class="info"><p>Released on Oct 21, 2024</p></div>
+
+
+<style>.cattag {background: #f4f2ff; color: #6a6581; padding: 4px 10px;}</style>
+<h3 id="bug_fixing_platform_server_11.31.0" >Bug Fixing</h3>
+<ul>
+<li>Fixed an issue that could cause Deployment Controller, Deployment and Scheduler services to not properly release network ports when stopped. This caused these services to have a slower startup upon restart due to not all required ports being available. Now, ports are properly released and these services also take less time to verify their availability. (R11BRT-1334)</li>
+<li>Improved the user experience regarding blocked users and blocked IP addresses. Now, if a user is IP-blocked, a tooltip will provide a link to the proper screen where the IP block can be removed. (R11CT-3209)</li>
+<li>Fixed an issue that prevented changes to SameSite cookies from being saved. (RPM-4608) <span class="cattag">Application Lifecycle</span>  <span class="cattag">Service Center</span> </li>
+<li>Added a setting to make the "Add System Dependency" LifeTime permission more strict. By default, without that permission it is still possible to add new references to the Users System entity. With this change it is now possible to override this behavior by using the "Strict Add System Dependencies permissions" setting in Factory Configuration. (RPM-5190) <span class="cattag">Service Studio</span>  <span class="cattag">References</span> </li>
+<li>Fixed a security issue affecting Server.API that could cause unwanted open redirects. CVSSv3.1 score 4.7 (Medium) (RPM-5148) <span class="cattag">Application Lifecycle</span>  <span class="cattag">Server.API</span> </li>
+<li>Upgraded BouncyCastle.Cryptography to version 2.4.0. This fixes several security vulnerabilities reported in this dependency. CVSSv3.1 score 5.9 (Medium)
+Customers using MySQL as a third-party database or custom extensions that rely on Portable.BouncyCastle (BouncyCastle.Crypto.dll) may still be affected. (RPM-5179) <span class="cattag">Application Runtime</span> </li>
+<li>Fixed a security issue affecting runtime Applications that could cause unwanted open redirects. CVSSv3.1 score 4.7 (Medium). (RPM-5199) <span class="cattag">Application Runtime</span> </li>
+</ul>
+
