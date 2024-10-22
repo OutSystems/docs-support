@@ -36,6 +36,7 @@ If you are trying to signup to try ODC using a shared space, take a look at the 
     * Cannot invite users
     * Cannot create connections
     * A limited number of applications (2 apps per user, maximum 100 apps for all users)
+    * No official technical support.
 
 This shared space receives regular updates with new features, so you will be also able to have access to some new features early on.
 
@@ -57,3 +58,7 @@ This shared space receives regular updates with new features, so you will be als
     * Submissions to ODC Forge are not possible on this trial because it has time-limited access, and we want to ensure the asset's long-term success. 
     
     We invite you to join the new ODC Forge experience, suitable for users who want to contribute to the OutSystems Community with their assets. Request your invitation [here](https://docs.google.com/forms/u/1/d/e/1FAIpQLSdGobfatQ53ekA8d8TT0OUu9gYarlcdRpjfxVUUOrh6E9eytw/viewform?usp=send_form).
+
+* **I've signed up for the program but never received a confirmation e-mail. What should I do?** 
+
+    * Check your SPAM folder. If the e-mail is not there, make sure that your company policy doesn't block external e-mail addresses. If you still don't have your e-mail, you'll need to wait until a new shared space become available and sign-up again.
