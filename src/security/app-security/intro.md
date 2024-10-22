@@ -212,7 +212,7 @@ You can opt to authenticate your end users using the identity provider of your c
 * Active Directory
 * LDAP (Lightweight Directory Access Protocol)
 * SAML 2.0 (Security Assertion Markup Language)
-* Azure AD (Azure Active Directory)
+* Microsoft Entra
 * Okta
 
 See [End Users Authentication](https://success.outsystems.com/Documentation/11/Developing_an_Application/Secure_the_Application/End_Users/End_Users_Authentication) for further details.
