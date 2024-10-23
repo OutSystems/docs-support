@@ -110,7 +110,7 @@ jobs:
     - name: Generate JIRA .json request
       shell: bash
       run: |
-        title=$(echo ${{ needs.find-jira-issue.outputs.pr-title }} | tr -d '"')
+        title=$(echo "${{ needs.find-jira-issue.outputs.pr-title }}" | tr -d '"')
 
         echo '{' >> jira.json
         echo '  "fields": {' >> jira.json
