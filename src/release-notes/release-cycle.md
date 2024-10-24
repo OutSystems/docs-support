@@ -84,7 +84,7 @@ The following products are delivered as Software as a Service over the web and c
 
 * **Architecture Dashboard** - The OutSystems technical debt monitoring tool, delivered as a cloud service. Architecture Dashboard release history can be found [here](https://success.outsystems.com/Support/Release_Notes/Architecture_Dashboard).
 
-* **Builders** - Cloud services to build native experiences, design workflows, and automate processes. These include [Integration Builder](https://success.outsystems.com/Support/Release_Notes/Integration_Builder), [Workflow Builder](https://success.outsystems.com/Support/Release_Notes/Workflow_Builder), and [Experience Builder](https://success.outsystems.com/Support/Release_Notes/Experience_Builder).
+* **Builders** - Cloud services to build native experiences, design workflows, and automate processes. These include [Integration Builder](https://success.outsystems.com/Support/Release_Notes/Integration_Builder), and [Workflow Builder](https://success.outsystems.com/Support/Release_Notes/Workflow_Builder).
 
 
 For more information, [check OutSystems tools and components](https://www.outsystems.com/evaluation-guide/outsystems-tools-and-components).

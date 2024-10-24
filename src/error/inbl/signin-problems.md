@@ -1,5 +1,5 @@
 ---
-summary: Sign in problems with Integration/Workflow/Experience Builder
+summary: Sign in problems with Integration or Workflow Builder
 tags:
 helpids: 30402
 locale: en-us
@@ -9,12 +9,12 @@ platform-version: o11
 figma:
 ---
 
-# It was not possible to sign into Integration - Workflow - Experience Builder
+# It was not possible to sign into Integration - Workflow Builder
 
 
 ## Error message
 
-`It was not possible to sign into <Integration/Workflow/Experience> Builder. Check here for the solutions.`
+`It was not possible to sign into <Integration/Workflow> Builder. Check here for the solutions.`
 
 ## Cause
 
@@ -32,4 +32,4 @@ The credentials provided to log in aren't valid or the user is blocked. Possible
 * Ask your **LifeTime** administrator to unblock your username
 
 ## More info
-[Protection against brute force attacks](https://success.outsystems.com/Documentation/11_x_platform/Managing_the_Applications_Lifecycle/Secure_the_Applications/Protection_against_Brute_Force_Attacks#Unblocking_in_LifeTime_and_Service_Center)
+[Protection against brute force attacks](https://success.outsystems.com/documentation/11/security/protection_against_brute_force_attacks/#unblocking-it-users)

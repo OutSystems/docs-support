@@ -88,7 +88,7 @@ Detaching the source code of your applications is only available for subscriptio
 
 * **No external authentication support:** OutSystems doesn't support external authentication providers in Personal Environments that rely on certificates such as Azure AD, Okta, or SAML 2.0. For more information about this limitation, refer to the [known issues](../enterprise/troubleshooting/saml-unable-create-signature.md).
 
-* **SaaS components:** OutSystems provides SaaS components such as, for example, [AI Mentor Studio](https://success.outsystems.com/Documentation/11/Managing_the_Applications_Lifecycle/Manage_technical_debt/), [Workflow Builder](https://success.outsystems.com/Documentation/Workflow_Builder) or [Experience Builder](https://success.outsystems.com/Documentation/Experience_Builder). These components may not be available for Personal Environments, at OutSystems discretion. Make sure to check the requirements in each component's documentation.
+* **SaaS components:** OutSystems provides SaaS components such as, for example, [AI Mentor Studio](https://success.outsystems.com/Documentation/11/Managing_the_Applications_Lifecycle/Manage_technical_debt/) or [Workflow Builder](https://success.outsystems.com/Documentation/Workflow_Builder). These components may not be available for Personal Environments, at OutSystems discretion. Make sure to check the requirements in each component's documentation.
 
 * **No SEO optimizations:** Personal Environments don't support the use of [SEO optimization for your applications](https://www.outsystems.com/tk/redirect?g=C07BCA11-7DB2-49FD-B01B-97EBFBDCF36F).
 
