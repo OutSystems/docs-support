@@ -19,7 +19,7 @@ For example, if a query exceeds the execution timeout in the database, the serve
 
 Reactive Web apps and Mobile apps behave in an asynchronous way, where the client-side running on the browser or native operating system performs several different asynchronous requests to the server. To protect the apps from slow server performance or other events that may make the responses slower, these contain a definition for the maximum time the client side can wait for a response from the server before aborting the request.
 
-Regarding development level timeouts you can experience timeouts during the deployment of a module, such as when uploading or download modules.
+Regarding development level timeouts you can experience timeouts during the deployment of a module, such as when uploading or downloading modules.
 
 The following sections describe the most common timeouts that can occur while using or developing OutSystems applications.
 
