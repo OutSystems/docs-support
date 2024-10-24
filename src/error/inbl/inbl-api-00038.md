@@ -16,7 +16,7 @@ figma:
 
 ## Cause
 
-A Dataverse, Dynamics or SharePoint connection in Integration Manager has a matching **App Registrations** in Azure AD. Typically, this error is caused by a configuration problem on the **App Registration** in Azure AD.
+A Dataverse, Dynamics or SharePoint connection in Integration Manager has a matching **App Registrations** in Microsoft Entra. Typically, this error is caused by a configuration problem on the **App Registration** in Microsoft Entra.
 
 Common configuration problems are:
 
@@ -29,7 +29,7 @@ The Dataverse, Dynamics, or SharePoint connector fails to get data from the exte
 
 ## Recommended action
 
-* If you are an Azure AD administrator, in Integration Manager, create a new connection automatically. This should ensure its configuration is correct.
+* If you are an Microsoft Entra administrator, in Integration Manager, create a new connection automatically. This should ensure its configuration is correct.
 * If you created the connection manually:
-	1. Ensure the Azure AD App Registration's Application, Object and Tenant IDs, match the values of the connection in Integration Manager.
+	1. Ensure the Microsoft Entra App Registration's Application, Object and Tenant IDs, match the values of the connection in Integration Manager.
 	1. Ensure that the certificate uploaded to the App Registration is the public part of the certificate uploaded to Integration Manager.
