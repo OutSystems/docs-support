@@ -13,8 +13,6 @@ Attackers can trick users by taking advantage of unvalidated redirects or forwar
 
 When applications redirect users to other pages using dynamic URLs in its parameters, it allows attackers to provide a valid URL with a redirect parameter to a malicious site.
 
-The following example from the [OWASP documentation](https://www.owasp.org/index.php/Top_10_2013-A10-Unvalidated_Redirects_and_Forwards) shows how an unvalidated redirect can be exploited to send a user to a malicious site.
-
 ![Diagram showing how an unvalidated redirect can be exploited, with examples of a legitimate application form, application code, and an attack form with a malicious URL.](images/ex-send-user-to-malicious-site.png "Example of Unvalidated Redirect Exploit")
 
 ## How to do it with OutSystems
