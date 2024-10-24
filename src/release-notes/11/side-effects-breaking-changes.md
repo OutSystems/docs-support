@@ -280,11 +280,11 @@ If this is not possible, you have to upgrade to Platform Server 11.21.0  or abov
 
 1\. <a id="bc-11170-1"></a>
 
-**Issue**: Platform Server now only supports one active end-user authentication mechanism when using SAML-based authentication. This means you can no longer configure a SAML provider (AzureAD, Okta, SAML2.0) authentication and still use the built-in mechanism. An "Invalid username or password" error message is thrown when trying to authenticate using a built-in user while a SAML provider is configured.
+**Issue**: Platform Server now only supports one active end-user authentication mechanism when using SAML-based authentication. This means you can no longer configure a SAML provider (Microsoft Entra, Okta, SAML2.0) authentication and still use the built-in mechanism. An `Invalid username or password error` message is thrown when trying to authenticate using a built-in user while a SAML provider is configured.
 
 **Runtime**: Traditional web, Reactive web, Mobile  
 
-**Rationale**: This is a security fix to ensure that our customers do not have a backdoor in their business applications once they configure a Federated SSO mechanism in their environments. Disallowing local users is the intended behaviour of the SAML authentication feature (i.e. OKTA/Azure AD/SAML 2.0) when configured as the authentication mechanism.  
+**Rationale**: This is a security fix to ensure that our customers do not have a backdoor in their business applications once they configure a Federated SSO mechanism in their environments. Disallowing local users is the intended behaviour of the SAML authentication feature (for example, OKTA, Microsoft Entra, and SAML 2.0) when configured as the authentication mechanism.  
 
 **Workaround**: This security fix can be disabled in Factory Configuration to allow built-in authentication fallback when using SAML providers. The security fix will be enabled by default to ensure customers are aware of the implications and the decision to turn it off should be a well-thought decision. Any customer that decides to opt-out of this security fix is responsible to ensure that the backdoor they have in their business applications is protected with the right permissions in their environments.
 The Factory Configuration setting is called **Disable built-in authentication fallback when using SAML** and can be found under **Platform Configurations**.
