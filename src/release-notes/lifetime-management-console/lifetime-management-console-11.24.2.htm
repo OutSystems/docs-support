@@ -18,8 +18,6 @@ pageprivacy: public
 <li>Fixed the Environments page in Lifetime on OutSystems Cloud infrastructures so that it would not become unavailable if there were internal communication issues fetching the Log Streaming configurations. (R11BRT-1208)</li>
 <li>Improved the user experience regarding blocked users and blocked IP addresses. Now, if a user is IP-blocked, a link to the proper screen is shown, where the IP block can be removed. (R11CT-3210)</li>
 <li>In LifeTime error logs, an entry with the message: "404 Not Found" would happen frequently when accessing Staging_Edit or Staging_Summary screens. Apart from log pollution, there was no further impact. Since it's an expected scenario this particular error is no longer logged. (R11CT-3284)</li>
-<li>Fixed an issue that caused deployments to fail when a module, added to the staging, was deleted from the environment after staging creation. 
-The staging plan will now adapt to changes, ensuring that deployments are completed successfully. (RPM-4226) <span class="cattag">Application Lifecycle</span>  <span class="cattag">LifeTime</span> </li>
 <li>Fixed an issue in the Staging Settings screen, that would not show all the site properties to be configured in a module if they were more than 50 properties. It would also not show all the modules with properties to be configured when there are more than 50 modules. Now, there is pagination that allows the user to configure all properties that need to be configured. (RPM-4232) <span class="cattag">Application Lifecycle</span>  <span class="cattag">LifeTime</span> </li>
 <li>Fixed an issue with LifeTime's landing page for PaaS infrastructures that would show more environments in the application's dropdown than the ones available in the infrastructure. The issue occurred when an application was deployed to an environment that is no longer active. Now, the application's dropdown only shows environments that are active. (RPM-4373) <span class="cattag">Application Lifecycle</span>  <span class="cattag">LifeTime</span> </li>
 <li>Improved the execution time of activity Publish to Target of the Staging process of LifeTime. 
@@ -28,3 +26,7 @@ During the deployment process, the activity Publish to Target will retrieve the 
 <li>Improved encryption mechanism. CVSSv3.1 score 6.3 (Medium). (R11CT-3034)</li>
 </ul>
 
+<h3>Known issues</h3>
+<ul>
+<li>The RPM-4754 bug fix caused an unintended issue where modules moved between applications are duplicated in the deployment, leading to publishing failures. The workaround is to re-run the deployment plan. To mitigate the issue, the RPM-4754 fix was disabled for OutSystems Cloud environments but still affects self-managed installations.</li>
+</ul>
