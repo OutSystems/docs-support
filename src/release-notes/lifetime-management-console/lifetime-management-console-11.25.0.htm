@@ -1,0 +1,32 @@
+---
+isautopublish: true
+pageprivacy: semi-private
+---
+
+<h2 id="lifetime_management_console_11.25.0" >LifeTime Management Console 11.25.0</h2>
+<div class="info"><p>This is a preliminary version of the document.</p></div>
+
+
+<style>.cattag {background: #f4f2ff; color: #6a6581; padding: 4px 10px;}</style>
+<h3 id="new_in_lifetime_management_console_11.25.0" >New in LifeTime Management Console 11.25.0</h3>
+<ul>
+<li>You can now check out the latest feature highlights that have recently been introduced to LifeTime on the new "What's New?" page. To access it, a new bell icon link has been added to the top right of the screen or it can be found at https://<lifetime-hostname>/lifetime/WhatsNew.aspx. (R11CT-3336)</li>
+<li>The Platform Server version bundled with LifeTime has been upgraded to 11.30.0. (R11CT-3362)</li>
+<li>LifeTime allows faster continuous delivery by having users add their team's applications to a deployment plan. This was inspired by Daniel Gonçalves' community <a href="https://www.outsystems.com/ideas/12353/lifetime-solution-cluster-deployment/">idea</a>. This accelerator is available by default and can be disabled/enabled by accessing the Settings screen of LifeTime. (R11CT-3471)</li>
+<li>The Staging Edit screen now includes an application counter with the number of applications added to the plan. Inspired by <a href="https://www.outsystems.com/ideas/14520/display-a-counter-with-the-number-of-apps-currently-added-to-a-plan/">João Heleno's</a> idea. (R11CT-3526)</li>
+</ul>
+<h3 id="bug_fixing_lifetime_management_console_11.25.0" >Bug Fixing</h3>
+<ul>
+<li>Fixed an issue that caused the list of affected consumers to display consumers that had already been deleted from the target environment when deploying applications with deleted producer modules. Reported by <a href="https://www.outsystems.com/profile/xy0tqv4m4n/overview">Matthias Preuter</a>. (R11CT-3396)</li>
+<li>Fixed an issue that caused an error when trying to unregister an offline environment with maintenance mode enabled in an infrastructure with OIDC. (RPM-4854) <span class="cattag">Application Lifecycle</span>  <span class="cattag">LifeTime</span> </li>
+<li>Added a validation to the export sample data process which prevents an error from being triggered. 
+This error occurred when applications with custom icons were exported as sample data during the SDK installation.
+Now, the added validation will skip incompatible images and the export process continues. (RPM-4935) <span class="cattag">Application Lifecycle</span>  <span class="cattag">LifeTime</span> </li>
+<li>Fixed an issue where the "Tag & Deploy" feature would generate tags with version numbers above the 3 digit limit, causing versions to be sorted incorrectly in the Application_History screen and LifeTime to fail to correctly identify the highest application version.
+This happened when the current application tag had a version number of 999, e.g. 0.999, and the application was marked for "Tag & Deploy" in the next staging.
+Now, when this happens, the next version number is incremented, e.g. 0.999+ is tagged as 1.0 instead of 0.1000. (RPM-5209) <span class="cattag">Application Lifecycle</span>  <span class="cattag">LifeTime</span> </li>
+<li>Fixed an issue where the /deployments/{DeploymentKey}/{Command}/ API would fail when trying to abort a plan. This happened when the target environment had the ServiceCenter site property DebugPerfShowUI set to true. (RPM-5223) <span class="cattag">Application Lifecycle</span>  <span class="cattag">LifeTime</span> </li>
+<li>Fixed an issue with the validation logic for the 'Deploy Now' button on staging. Depending on the settings of the parallel deployments feature, LifeTime incorrectly disabled the button in situations where it should have stayed enabled. (RPM-5283) <span class="cattag">Application Lifecycle</span>  <span class="cattag">LifeTime</span> </li>
+<li>Fixed ServiceStudio links in LifeTime generated to make them compatible with Chrome browser policies. (RPM-5292) <span class="cattag">Application Lifecycle</span>  <span class="cattag">LifeTime</span> </li>
+</ul>
+
