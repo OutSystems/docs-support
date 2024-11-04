@@ -34,7 +34,9 @@ Follow the procedure below to perform an upgrade in place.
 Follow the procedure below to perform a fresh install.
 
 <div class="info" markdown="1">
+
 To minimize downtime, especially for large databases, this procedure can be done twice: first with a full backup and restore with no-recovery option, and then with a differential backup and restore with recovery.
+
 </div>
 
 1. [Install a new SQL Server engine](https://docs.microsoft.com/en-us/sql/database-engine/install-windows/install-sql-server?view=sql-server-ver15) that supports the desired compatibility level.
