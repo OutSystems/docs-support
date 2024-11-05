@@ -18,6 +18,7 @@ pageprivacy: public
 <h3 id="bug_fixing_lifetime_management_console_11.25.0" >Bug Fixing</h3>
 <ul>
 <li>Fixed an issue that caused the list of affected consumers to display consumers that had already been deleted from the target environment when deploying applications with deleted producer modules. Reported by <a href="https://www.outsystems.com/profile/xy0tqv4m4n/overview">Matthias Preuter</a>. (R11CT-3396)</li>
+<li>Removed bug fix for RPM-4754 introduced in LifeTime 11.24.2 due to a known issue discovered when deploying modules moved between apps on LifeTime that lead to a deployment error. This applies for self-managed infrastructures. (R11CT-3551)</li>
 <li>Fixed an issue that caused an error when trying to unregister an offline environment with maintenance mode enabled in an infrastructure with OIDC. (RPM-4854) <span class="cattag">Application Lifecycle</span>  <span class="cattag">LifeTime</span> </li>
 <li>Added a validation to the export sample data process which prevents an error from being triggered. 
 This error occurred when applications with custom icons were exported as sample data during the SDK installation.
