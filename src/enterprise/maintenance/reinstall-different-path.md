@@ -37,7 +37,7 @@ In the server with the Deployment Controller role, do the following:
 
 1. Uninstall the current OutSystems platform using the operating system's features to manage installed programs.
 
-1. Delete all entries in the `ossys_parameter` database table that contain the older installation folder path (depending on the platform version these entries may not exist).
+1. Find existing entries in the `ossys_parameter` database table that contain the older installation folder path. Depending on the platform version these entries may not exist. If any, delete those entries from the `ossys_parameter` database table.
 
 1. In the .NET configuration files, delete all settings related to the previous installation folder. We can find these configuration settings in the machine.config file, in each of the following folders: "C:\Windows\Microsoft.NET\Framework64\v4.0.30319\Config" and "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Config"
 
