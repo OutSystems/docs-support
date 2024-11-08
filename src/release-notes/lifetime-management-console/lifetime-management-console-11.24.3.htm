@@ -23,7 +23,7 @@ pageprivacy: public
 This occurred when an exception was thrown during the final wrap-up activities of the staging process, when all applications and modules had already been successfully deployed to the target environment. (RPM-4637) <span class="cattag">Application Lifecycle</span>  <span class="cattag">LifeTime</span> </li>
 <li>Significantly improved the time it takes to access the User_Show page by users with specific application permissions. The page load time would increase as the number of application permissions grew. While a significant speed-up is expected, the actual improvement will vary, depending on the factory size and the actual application permissions the user has. (RPM-5091) <span class="cattag">Application Lifecycle</span>  <span class="cattag">Users</span> </li>
 <li>Fixed a rare issue in LifeTime that caused the staging messages to be wrongly sorted when viewing them in the Staging_Progress screen and in the staging report excel file. (RPM-5137) <span class="cattag">Application Lifecycle</span>  <span class="cattag">LifeTime</span> </li>
-<li>Fixed an issue that caused OIDC configurations to not propagate successfully to a newly registered environment in an infrastructure. (RPM-5244) <span class="cattag">Application Lifecycle</span>  <span class="cattag">LifeTime</span> </li>
+<li>Fixed an issue that caused OIDC configurations to fail to propagate successfully to a newly registered environment in an infrastructure and, under certain conditions, block the registration of an environment entirely. (RPM-5244) <span class="cattag">Application Lifecycle</span>  <span class="cattag">LifeTime</span> </li>
 </ul>
 
 <h3>Known issues</h3>
