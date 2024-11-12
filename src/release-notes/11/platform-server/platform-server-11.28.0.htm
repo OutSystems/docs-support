@@ -19,6 +19,7 @@ The new primary port is necessary for product evolution and technology resilienc
 </ul>
 <h3 id="bug_fixing_platform_server_11.28.0" >Bug Fixing</h3>
 <ul>
+<li>Improve performance when retrieving Site Properties for multiple modules simultaneously. (R11BRT-871)</li>
 <li>Fixed an issue that caused the Configuration Tool to fail when updating configurations in the database during upgrades from O10 or older versions, specifically when using Oracle as the Platform database. (R11BRT-922)</li>
 <li>Fixed an issue that caused the exported logs file to have columns with no data when Log Separation is enabled. This occurred in Errors, Traditional Web Requests, Screen Requests, Service Actions and Integrations monitoring pages. (R11PST-272)</li>
 <li>Fixed an issue that caused publications to fail due to a NullReferenceException Internal Error during the “Preparing Deploy” phase when publishing a solution.  (R11PST-282)</li>
