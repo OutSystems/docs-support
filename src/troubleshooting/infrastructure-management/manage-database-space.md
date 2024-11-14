@@ -9,21 +9,23 @@ figma: https://www.figma.com/file/6tXLupLiqfG9FOElATTGQU/Troubleshooting?node-id
 
 # Manage the database space of your personal environment
 
-Personal Environments have a database limit of 2GB. The database stores the following: 
-
-* **System data**: The metadata used by the OutSystems Platform. This includes, for example, the apps definition, data model, module configurations, logs, and app versions. The system data usually increases as you develop and deploy your app.
-
-* **Application data**: The data your apps generate and manipulate. The application data usually increases as your users access your apps.
-
 <div class="info" markdown="1">
 
 If you are [reaching the storage database limit](#check-how-much-database-space-you-have) of your Personal Environment, see [Best practices for a tidy and clean environment](https://success.outsystems.com/Documentation/Best_Practices/Lifecycle/Best_practices_for_a_tidy_and_clean_environment) to learn how to clear database space. 
 
 </div>
 
+Personal Environments have a database limit of 2GB. The database stores the following: 
+
+* **System data**: The metadata used by the OutSystems Platform. This includes, for example, the apps definition, data model, module configurations, logs, and app versions. The system data usually increases as you develop and deploy your app.
+
+* **Application data**: The data your apps generate and manipulate. The application data usually increases as your users access your apps.
+
 ## Check how much database space you have
 
-Go to your Personal Environment at `https://<yourpersonal>.outsystemscloud.com` and navigate to the **Environments** tab.
+1. Go to your Personal Environment at `https://<yourpersonal>.outsystemscloud.com`.
+
+2. Click **Environments** tab.
 
 ![Screenshot showing the OutSystems Personal Environment dashboard with 13% database usage.](images/manage-database-space_0.png "OutSystems Personal Environment Database Usage Overview")
 
