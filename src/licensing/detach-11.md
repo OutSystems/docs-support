@@ -396,7 +396,7 @@ Even if you're using the same database that previously stored OutSystems data, c
 
 #### Using a brand new database { #use-new-db }
 
-If you're cloning an existing environment on a new database, make to sure to first follow all the steps on [Migrate an Environment Using a Database Clone](../enterprise/maintenance/migrate-db-clone.md). Then proceed to the next steps.
+If you're cloning an existing environment on a new database, make to sure to first follow all the steps on [Migrate an Environment Using a Database Clone](https://www.outsystems.com/tk/redirect?g=969DB4B1-51CF-4908-A638-A345D2AB841C). Then proceed to the next steps.
 
 If you will use a new database, you have to manually reconfigure your database connection strings. To do this:
 
