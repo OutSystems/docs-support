@@ -34,7 +34,6 @@ The community account allows users to maintain and update personal account infor
 * [Close your OutSystems community account](close-community-account.md): Manage the deactivation process for accounts that are no longer in use.  
 * [Merge two profiles](merge-accounts.md): Consolidate multiple accounts to streamline access and maintain consistency across interactions.  
 
-## The value of the OutSystems community  
 
 The OutSystems community extends beyond technical resources, offering opportunities to connect and grow professionally:  
 
