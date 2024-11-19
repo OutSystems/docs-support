@@ -14,7 +14,17 @@ The OutSystems community serves as a global hub where developers, architects, an
 
 ## What can you do with an OutSystems community account?  
 
-A community account provides access to a wide range of features and resources designed to enhance productivity and engagement.  
+A community account provides access to a wide range of features and resources.
+
+## Participate in the community
+
+Your community account enables you to fully engage with the OutSystems ecosystem:
+
+* [Forums](https://www.outsystems.com/forums/): Connect with peers and experts in discussions to share knowledge and solve challenges.
+* Events and user groups: Participate in virtual and in-person events to network and stay informed about the latest trends in low-code development.
+* [Free online training](https://learn.outsystems.com/training): Access a variety of self-paced courses to enhance your skills and advance your career.
+
+To learn more, visit the [OutSystems community](https://www.outsystems.com/community/).
 
 ### Access support services  
 
