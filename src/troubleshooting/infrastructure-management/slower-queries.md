@@ -31,7 +31,7 @@ To solve this issue, you need to:
 
 To perform these tasks, you need to access the database. If your database is in OutSystems Cloud:  
 
-* You need to [ask for a database user](../../enterprise/maintenance/access-database-paas/access-database-paas.md) to be able to execute the steps of checking the last maintenance execution (applicable only for Oracle), checking the table statistics, and checking table fragmentation.  
+* You need to [ask for a database user](https://www.outsystems.com/tk/redirect?g=4cdae94f-8633-4875-98bd-a3a4ac1bd89a) to be able to execute the steps of checking the last maintenance execution (applicable only for Oracle), checking the table statistics, and checking table fragmentation.  
 * You need to [open a support case](../../community/open-support-case.md) asking to execute the steps of updating the table statistics and defragmenting the table.  
 
 You can find below the steps to solve this issue in Oracle and SQL Server. 

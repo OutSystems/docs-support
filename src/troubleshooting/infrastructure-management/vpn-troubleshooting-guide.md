@@ -1,6 +1,6 @@
 ---
 summary: This guide provides troubleshooting steps for VPN connectivity issues in OutSystems 11 (O11).
-tags: support-Cloud_Platform
+tags: 
 locale: en-us
 guid: eee4da25-8b13-4bac-b8e7-dae4ece8c3ec
 app_type: traditional web apps, mobile apps, reactive web apps
@@ -13,11 +13,11 @@ figma:
 
 OutSystems VPN is a fully automated and orchestrated service, with a defined set of possible configurations.
 
-After completing the initial [configuration steps](../maintenance/vpn/vpn-support.md#configure-gateway), should you experience any issues, you'll need to perform some troubleshooting steps and take actions. This article aims to assist you in that process.
+After completing the initial [configuration steps](https://www.outsystems.com/tk/redirect?g=f05c9cb8-7c15-4b9d-bf6c-c2da72993ff8), should you experience any issues, you'll need to perform some troubleshooting steps and take actions. This article aims to assist you in that process.
 
 ## Requirements
 
-Before starting with the VPN configuration itself, it's mandatory that your VPN Device/Firewall meets all the requirements to establish a VPN connection between the OutSystems Cloud and your private network. OutSystems accepts what customers propose as long as it meets the [OutSystems VPN Requirements](../maintenance/vpn/vpn-support.md#configure-gateway).
+Before starting with the VPN configuration itself, it's mandatory that your VPN Device/Firewall meets all the requirements to establish a VPN connection between the OutSystems Cloud and your private network. OutSystems accepts what customers propose as long as it meets the [OutSystems VPN Requirements](https://www.outsystems.com/tk/redirect?g=f05c9cb8-7c15-4b9d-bf6c-c2da72993ff8).
 
 ## Naming resolution solutions (DNS resolution)
 
@@ -163,7 +163,7 @@ OutSystems Cloud architecture allows all outbound traffic by design, and only fi
 
 #### Solution
 
-If you can't connect from inside your VPN, you'll need to check with your network team your internal firewall settings and validate if your inbound rules are allowing the full [internal IP range of your OutSystems cloud](../maintenance/ip-range-cloud.md).
+If you can't connect from inside your VPN, you'll need to check with your network team your internal firewall settings and validate if your inbound rules are allowing the full [internal IP range of your OutSystems cloud](https://www.outsystems.com/tk/redirect?g=4b1ae768-0a96-45b1-8eb5-b5590ac28274).
 
 Your network team should be able to help you with this topic.
 
@@ -189,7 +189,7 @@ In addition, the private IP addresses of the database servers change upon mainte
 
 #### Solution
 
-Allow the full [internal IP range of your OutSystems Cloud](../maintenance/ip-range-cloud.md) to guarantee that you'll be able to reach the servers even when its private IP changes.
+Allow the full [internal IP range of your OutSystems Cloud](https://www.outsystems.com/tk/redirect?g=4b1ae768-0a96-45b1-8eb5-b5590ac28274) to guarantee that you'll be able to reach the servers even when its private IP changes.
 
 Your network team should be able to help you with this topic.
 
@@ -199,7 +199,7 @@ OutSystems doesn't provide direct visibility about the private IP addresses of t
 
 #### Solution
 
-You can check our [documentation on how to obtain the IP range](../maintenance/ip-range-cloud.md) instead.
+You can check our [documentation on how to obtain the IP range](https://www.outsystems.com/tk/redirect?g=4b1ae768-0a96-45b1-8eb5-b5590ac28274) instead.
 
 ### Typical reasons for the VPN tunnel phase 1 IKE negotiation to fail
 
@@ -305,12 +305,12 @@ If the internal IP range of your on-premises network that accesses the VPN chang
 
 #### Solution 1
 
-If your VPN uses **static** routing, make sure you [change the internal IP range of your VPN in LifeTime](../maintenance/vpn/vpn-support.md#change-vpn-route) (applies only to LifeTime Management Console 11.7.0 or later).
+If your VPN uses **static** routing, make sure you [change the internal IP range of your VPN in LifeTime](https://www.outsystems.com/tk/redirect?g=f05c9cb8-7c15-4b9d-bf6c-c2da72993ff8) (applies only to LifeTime Management Console 11.7.0 or later).
 
 #### Solution 2
 
-If your VPN uses **dynamic** routing, or your LifeTime version still doesn't support changing static VPN routing in self-service mode, [open a support case](https://success.outsystems.com/Support/Enterprise_Customers/OutSystems_Support/02_How_to_Open_a_Support_Case) and ensure to include the new IP range of your on-premises network. OutSystems will then change the security groups according to your new IP range.
+If your VPN uses **dynamic** routing, or your LifeTime version still doesn't support changing static VPN routing in self-service mode, [open a support case](https://www.outsystems.com/tk/redirect?g=A82EA0CB-B101-4F08-BCFB-77559EF63801) and ensure to include the new IP range of your on-premises network. OutSystems will then change the security groups according to your new IP range.
 
 ## Further assistance
 
-Still not working? If the issue persists, [contact OutSystems Support](https://success.outsystems.com/Support/Enterprise_Customers/OutSystems_Support/01_Contact_OutSystems_technical_support "contact OutSystems Support").
+Still not working? If the issue persists, [contact OutSystems Support](https://www.outsystems.com/tk/redirect?g=A82EA0CB-B101-4F08-BCFB-77559EF63801).

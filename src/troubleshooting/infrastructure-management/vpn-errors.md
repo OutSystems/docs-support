@@ -10,9 +10,9 @@ figma:
 
 # Possible errors when setting up a VPN to your OutSystems Cloud
 
-During the process to [set up a VPN to your OutSystems Cloud](vpn-support.md), you start by requesting the creation of new a VPN (virtual private network) in the LifeTime console. You can also change the internal IP range of your static VPN in self-service mode in the LifeTime console.
+During the process to [set up a VPN to your OutSystems Cloud](https://www.outsystems.com/tk/redirect?g=f05c9cb8-7c15-4b9d-bf6c-c2da72993ff8), you start by requesting the creation of new a VPN (virtual private network) in the LifeTime console. You can also change the internal IP range of your static VPN in self-service mode in the LifeTime console.
 
-This article describes the possible errors that you can get when [creating a new VPN connection](vpn-support.md#request-vpn) or [changing the internal IP range of a static VPN](vpn-support.md#change-vpn-route) in the LifeTime console, and the guidelines on how to proceed for each case.
+This article describes the possible errors that you can get when [creating a new VPN connection](https://www.outsystems.com/tk/redirect?g=f05c9cb8-7c15-4b9d-bf6c-c2da72993ff8) or [changing the internal IP range of a static VPN](https://www.outsystems.com/tk/redirect?g=f05c9cb8-7c15-4b9d-bf6c-c2da72993ff8) in the LifeTime console, and the guidelines on how to proceed for each case.
 
 ## Errors description
 
@@ -34,7 +34,7 @@ Cause
 :   You have reached the maximum of five VPN connections to your OutSystems Cloud. You can't create more VPN connections.
 
 Recommendation
-:   Consider managing the connectivity between your data centers and the OutSystems Cloud [using an AWS Transit Gateway](../connect-tgw.md).
+:   Consider managing the connectivity between your data centers and the OutSystems Cloud [using an AWS Transit Gateway](https://www.outsystems.com/tk/redirect?g=b7342d4a-b766-4910-96d8-2f557628e2cd).
 
 ---
 
@@ -45,7 +45,7 @@ Cause
 :   The **Internet gateway public IP** address you provided is already in use by another VPN connection in the infrastructure. You can't use the same Internet gateway public IP for different VPN connections.
 
 Recommendation
-:   Make sure you provide an **Internet gateway public IP** address that isn't in use by another VPN connection in the infrastructure. You can check the existing VPN connections in your LifeTime console, under **Environments > Options > VPN Management**. If you are providing the same Internet gateway public IP as an attempt to establish redundancy, see the alternatives in [Set up a VPN to your OutSystems Cloud](vpn-support.md).
+:   Make sure you provide an **Internet gateway public IP** address that isn't in use by another VPN connection in the infrastructure. You can check the existing VPN connections in your LifeTime console, under **Environments > Options > VPN Management**. If you are providing the same Internet gateway public IP as an attempt to establish redundancy, see the alternatives in [Set up a VPN to your OutSystems Cloud](https://www.outsystems.com/tk/redirect?g=f05c9cb8-7c15-4b9d-bf6c-c2da72993ff8).
 
 ---
 
@@ -56,7 +56,7 @@ Cause
 :   You can't create a VPN connection because you are using an AWS Transit Gateway to connect to your OutSystems Cloud.
 
 Recommendation
-:   Instead of creating a new VPN connection, connect the target VPN location [using your AWS Transit Gateway](../connect-tgw.md).
+:   Instead of creating a new VPN connection, connect the target VPN location [using your AWS Transit Gateway](https://www.outsystems.com/tk/redirect?g=b7342d4a-b766-4910-96d8-2f557628e2cd).
 
 ---
 
@@ -155,7 +155,7 @@ Cause
 :   It's not possible to create or edit the VPN connection at the moment because there's another operation currently running in the infrastructure.
 
 Recommendation
-:   Try to request the creation or edition of your VPN later. If the problem persists, [contact OutSystems Support](https://success.outsystems.com/Support/Enterprise_Customers/OutSystems_Support/02_How_to_Open_a_Support_Case).
+:   Try to request the creation or edition of your VPN later. If the problem persists, [contact OutSystems Support](../../community/open-support-case.md).
 
 ---
 
@@ -166,4 +166,4 @@ Cause
 :   You have reached the maximum of 20 routes for your VPN connections. You can't add more routes.
 
 Recommendation
-:   Don't use this route, or modify the existing routes to accommodate the required IP range. You can check the existing routes in your LifeTime console, under **Environments > Options > VPN Management**. Alternatively, consider managing the connectivity between your data centers and the OutSystems Cloud [using an AWS Transit Gateway](../connect-tgw.md).
+:   Don't use this route, or modify the existing routes to accommodate the required IP range. You can check the existing routes in your LifeTime console, under **Environments > Options > VPN Management**. Alternatively, consider managing the connectivity between your data centers and the OutSystems Cloud [using an AWS Transit Gateway](https://www.outsystems.com/tk/redirect?g=b7342d4a-b766-4910-96d8-2f557628e2cd).

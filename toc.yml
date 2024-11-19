@@ -165,17 +165,18 @@
     # Infrastructure Management
     - href: troubleshooting/infrastructure-management/intro.md
     - topics:
+        - href: troubleshooting/infrastructure-management/vpn-troubleshooting-guide.md
+        - href: troubleshooting/infrastructure-management/vpn-errors.md
+        - href: troubleshooting/infrastructure-management/ssl-domain-cloud-errors.md
         - href: troubleshooting/infrastructure-management/manual-start-services.md
         - href: troubleshooting/infrastructure-management/upgrade-cloud-demo.md
         - href: troubleshooting/infrastructure-management/upgrade-latest-version.md
         - href: troubleshooting/infrastructure-management/test-env-connectivity.md
         - href: troubleshooting/infrastructure-management/manage-database-space.md
-        - href: troubleshooting/infrastructure-management/ssl-domain-cloud-errors.md
         - href: troubleshooting/infrastructure-management/restart-cloud/restart-cloud.md
         - href: troubleshooting/infrastructure-management/slower-queries.md
         - href: troubleshooting/infrastructure-management/deploy-all-workaround-11180.md
         - href: troubleshooting/infrastructure-management/change-db-endpoints.md
-        - href: troubleshooting/infrastructure-management/connectivity-experience-builder.md
 
     # Incident Models
     - href: troubleshooting/incident-models/im.md
@@ -638,12 +639,7 @@
     # Maintenance and Operations
     - href: enterprise/maintenance/enterprise-maintenance.md
     - topics:
-        - href: enterprise/maintenance/access-database-paas/access-database-paas.md
-        - topics:
-            - href: enterprise/maintenance/access-database-paas/temporary-access-database-backup.md
         - href: enterprise/maintenance/allowlist-cloud-servers/allowlist-cloud-servers.md
-        - href: enterprise/maintenance/aws-direct-connect-os-cloud.md
-        - href: enterprise/maintenance/connect-tgw.md
         - href: enterprise/maintenance/add-certificate-trusted-cloud.md
         - href: enterprise/maintenance/mobile-null-datetime.md
         - href: enterprise/maintenance/change-pw-database-users.md
@@ -657,7 +653,6 @@
         - href: enterprise/maintenance/reinstall-different-path.md
         - href: enterprise/maintenance/cloud-maintenance-window.md
         - href: enterprise/maintenance/does-safe-harbor-ecj-apply.md
-        - href: enterprise/maintenance/ip-range-cloud.md
         - href: enterprise/maintenance/protect-android-ios-certificate.md
         - href: enterprise/maintenance/multiple-db-catalogs-schemas.md
         - href: enterprise/maintenance/cloud-timezones.md
@@ -666,8 +661,6 @@
         - href: enterprise/maintenance/reinstall-lifetime.md
         - href: enterprise/maintenance/remove-infra-mgmt-console.md
         - href: enterprise/maintenance/restore-database.md
-        - href: enterprise/maintenance/vpn/vpn-support.md
-        - href: enterprise/maintenance/vpn/vpn-errors.md
         - href: enterprise/maintenance/system-updates-paas.md
         - href: enterprise/maintenance/timezone-considerations.md
         - href: enterprise/maintenance/chrome-samesite-cookie-changes.md
@@ -677,7 +670,6 @@
     # Troubleshooting
     - href: enterprise/troubleshooting/enterprise-trouble.md
     - topics:
-        - href: enterprise/troubleshooting/vpn-troubleshooting-guide.md
         - href: enterprise/troubleshooting/env-deploy-controller-twice.md
         - href: enterprise/troubleshooting/information-logged.md
         - href: enterprise/troubleshooting/troubleshoot-ios-content.md
