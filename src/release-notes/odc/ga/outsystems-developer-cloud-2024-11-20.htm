@@ -11,11 +11,26 @@ pageprivacy: public
 <h3 id="new_in_outsystems_developer_cloud_2024-11-20" > New</h3>
 <ul>
 <li>ODC Applications are now using a JavaScript bundler instead of RequireJS for a faster, more efficient bundling and improved future compatibility. (RAR-2480)</li>
+<li>Workflow Editor: Allow to assign one or more Public Roles to a Human Activity
+<ul>
+<li>Is possible while creating an end-user role in ODC Studio to set it as the "Public" then the role can be shared across Apps and Workflows.</li>
+<li>A new built-in function to check end user roles can is available.</li>
+<li>Is possible to build UI components using workflow entities  (taskbox).</li>
+</ul> (RDODCT-2749)</li>
+<li>Workflow Editor: Conditional Start and Terminate Nodes
+<ul>
+<li>Workflow editor allows to create Conditional start Nodes, to reflect the start of certain activities in case a certain event is triggered.</li>
+<li>It allows as well to create Terminate nodes, which stopped everything that is running or not started when a certain activity is reached.</li>
+</ul> (RDODCT-2751)</li>
 <li>Workflow Editor: Allow to export/import a Workflow OML
 <ul>
 <li>Workflow Editor provides the option to export a Workflow (OML) from Workflow Editor</li>
 <li>It allows as well to import a Workflow (OML) from ODC Portal » Workflows Menu</li>
 </ul> (RDODCT-2752)</li>
+<li>Workflow Editor: Wait Nodes
+<ul>
+<li>Workflow Editor allows the possibility to model workflows  with Wait Nodes, which allows to pause activities until a certain application event occurs.</li>
+</ul> (RDODCT-2753)</li>
 </ul>
 
 </ul>
