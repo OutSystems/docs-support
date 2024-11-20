@@ -23,6 +23,57 @@ The change of the MABS version is an optional feature. It’s usually enough to 
 
 See [Support provided for beta versions](mabs-beta-support.md) for more information about the OutSystems policy for supporting new versions of mobile operating systems.
 
+<div class="info" markdown="1">
+
+## **Version 11.0** - [See Release Notes](11/11.0/11.0.md)<br/>
+Released as Beta on November 20th, 2024 <br/>
+
+</div>
+
+<div class="warning" markdown="1">
+
+It's recommended to update all supported plugins to the latest version available on the Forge. For more details, please check the **[release notes](https://success.outsystems.com/Support/Release_Notes/Mobile_Apps_Build_Service_Versions/MABS_11_Release_notes#mabs-version-11.0)**.
+
+</div>
+
+This version can run your apps on:
+
+<small>![Icon representing the Android operating system.](images/android-icon.png "Android Icon") Android 10 to 15</small>
+
+<small>![Icon representing the iOS operating system.](images/iOS-icon.png "iOS Icon") iOS 15 to 18</small>
+
+**More details:**
+
+<table style="width: 632px; table-layout: fixed">
+    <tbody class="RegularLightText">
+        <tr>
+            <td style="width:156px;"></td>
+            <td style="width:231px;">Android</td>
+            <td>iOS</td>
+        </tr>
+        <tr>
+            <td style="vertical-align:middle;width:156px;">Target SDK</td>
+            <td style="width:231px;">15 (API Level 35)<br/></td>
+            <td>18.0<br/></td>
+        </tr>
+        <tr>
+            <td style="vertical-align:middle;width:156px;">Tools</td>
+            <td style="width:231px;">Build Tools 35.0.0<br/>
+            Gradle 8.5<br/>
+            Android Gradle Plugin 8.3<br/>
+            Kotlin 1.9.24<br/>
+            Cordova CLI 12.0.0<br/>
+            <a href="https://github.com/OutSystems/cordova-android/tree/outsystems/13.0.x">Cordova Android 13.0</a></td>
+            <td>Xcode 16.0<br/>
+            CocoaPods 1.15.2<br/>
+            Swift 6.0<br/>
+            Cordova CLI 12.0.0<br/>
+            <a href="https://github.com/OutSystems/cordova-ios/tree/outsystems/7.1.x">Cordova iOS 7.1</a></td>
+        </tr>
+    </tbody>
+</table>
+
+
 ## Supported
 
 You can get full support and bug fixes through OutSystem's support requests mechanism.
