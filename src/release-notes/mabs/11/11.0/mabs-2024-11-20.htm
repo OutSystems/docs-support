@@ -1,0 +1,26 @@
+---
+isautopublish: true
+pageprivacy: public
+---
+
+<h2 id="mabs_2024-11-20" >MABS 2024-11-20</h2>
+<div class="info"><p>Released on Nov 20, 2024</p></div>
+
+
+<style>.cattag {background: #f4f2ff; color: #6a6581; padding: 4px 10px;}</style>
+<h3 id="new_in_mabs_2024-11-20" >New</h3>
+<ul>
+<li>MABS 11 now uses Node 20.</li>
+<li>Updated the Native Shell to target the latest iOS 18 SDK. (RDMR-251)</li>
+<li>Updated the Native Shell to target the latest Android 15 SDK. (RDMR-251)</li>
+</ul>
+<h3> Breaking Changes</h3>
+<ul>
+<li>Changed the <code>AddUploadWidgetPermissions</code> property default value from <code>true</code> to <code>false</code>. The Android permissions associated with the upload widget are no longer added out of the box. (RDMR-299)</li>
+<li>Changed the <code>StatusBarOverlaysWebView</code> property default value from false to true. (RDMR-331)</li>
+<li>Added the <code>StatusBarStyle</code> property default value as <code>default</code>. (RDMR-331)</li>
+</ul>
+<h3> Known Issues</h3>
+<ul>
+<li>Applications with some special characters in the name might fail to build on iOS, example found is the equals sign <code>(=)</code> (RNMT-6887).</li>
+</ul>
