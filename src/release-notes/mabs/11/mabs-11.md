@@ -43,6 +43,7 @@ Plugin requirements for **MABS 11**. For more details, please check the Forge by
 |[Card IO](https://www.outsystems.com/forge/component-versions/1438)|3.2.2 or later|-|
 |[Calendar](https://www.outsystems.com/forge/component-versions/1566)|3.1.6 or later|1.0.2 or later|
 |[Ciphered Local Storage](https://www.outsystems.com/forge/component-versions/1500)|3.2.4 or later|1.0.2 or later|
+|[File](https://www.outsystems.com/forge/component-versions/1633)|3.0.7 or later|1.0.3 or later|
 |[File Viewer](https://www.outsystems.com/forge/component-versions/1606)|2.0.10 or later|1.0.2 or later|
 |[Health & Fitness](https://www.outsystems.com/forge/component-versions/11715)|2.2.1 or later|1.2.1 or later|
 |[InAppBrowser](https://www.outsystems.com/forge/component-versions/1558)|3.1.0 or later|2.1.0 or later|
@@ -52,7 +53,6 @@ The table below contains the list of plugins and their supported versions. It is
 |Plugin|Supported minimum version for O11|Supported minimum version for ODC|
 |:---|---|---|
 |[Contacts](https://www.outsystems.com/forge/component-versions/1394)|4.0.6 or later|1.0.1 or later|
-|[File](https://www.outsystems.com/forge/component-versions/1633)|3.0.6 or later|1.0.2 or later|
 |[File Transfer](https://www.outsystems.com/forge/component-versions/1409)|2.1.7 or later|1.0.2 or later|
 |[Key Store](https://www.outsystems.com/forge/component-versions/1550)|2.4.1 or later|1.1.1 or later|
 |[Location](https://www.outsystems.com/forge/component-overview/1395/location-plugin)|5.2.2 or later|1.1.2 or later|
