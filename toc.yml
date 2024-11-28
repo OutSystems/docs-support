@@ -691,7 +691,9 @@
         - href: enterprise/troubleshooting/saml-unable-decrypt-assertion.md
         - href: enterprise/troubleshooting/saml-unable-create-signature.md
 
-        # Known issues
+    # Known issues
+    - href: enterprise/troubleshooting/known-issues/enterprise-known-issues.md
+    - topics:
         - href: enterprise/troubleshooting/known-issues/ki-11_10-downtime-CT/ki-11_10-downtime-CT.md
         - href: enterprise/troubleshooting/known-issues/ki-11_10-site-properties/ki-11_10-site-properties.md
 
