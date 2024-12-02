@@ -21,6 +21,12 @@ Following are some examples of such findings and why they should be considered f
 
 #### Code injection: improper neutralization of directives in dynamically evaluated code (eval injection)
 
+<div class="info" markdown="1">
+
+OutSystems introduced an option to disallow the unsafe-inline and unsafe-eval policies. Using eval and other functions was replaced by safer alternatives that don't require these two policies. For more information, refer to [Apply Content Security Policy](https://success.outsystems.com/documentation/11/security/apply_content_security_policy).
+
+</div>
+
 **Details**: "eval(...)" is a JavaScript function that receives HTML code, evaluates it and runs every JavaScript code inside `<script>` tags, hence the potential vulnerability. 
 
 OutSystems makes heavy use of JavaScript and `<script>` inline tags. The usages are trusted and ok to be executed. Therefore, OutSystems has added the unsafe-inline and unsafe-eval policies to our default Content Security Policies directives.
