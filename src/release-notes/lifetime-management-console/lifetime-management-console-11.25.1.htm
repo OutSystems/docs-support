@@ -1,0 +1,19 @@
+---
+isautopublish: true
+pageprivacy: semi-private
+---
+
+<h2 id="lifetime_management_console_11.25.1" >LifeTime Management Console 11.25.1</h2>
+<div class="info"><p>This is a preliminary version of the document.</p></div>
+
+
+<style>.cattag {background: #f4f2ff; color: #6a6581; padding: 4px 10px;}</style>
+<h3 id="bug_fixing_lifetime_management_console_11.25.1" >Bug Fixing</h3>
+<ul>
+<li>Fixed a problem that would prevent new environments from being registered in an infrastructure (both via LifeTime UI as well as via LifeTime API) when there is another, already registered, environment of the infrastructure in maintenance mode. (R11CT-3523)</li>
+<li>Fixed an issue that caused deployments to fail when a module of an application added to the deployment plan was deleted from the source environment after the plan had been created. The staging plan will now adapt to such changes, ensuring that deployments finish successfully. (RPM-4226) <span class="cattag">Application Lifecycle</span>  <span class="cattag">LifeTime</span> </li>
+<li>Improved the execution time of activity Publish to Target of the Staging process of LifeTime and avoid the problem of duplicating modules in the situation where modules move between applications during deployment.
+During the deployment process, the activity Publish to Target will retrieve the exact versions of the modules included or selected for republish for each application included or selected for republish in the deployment. In deployments with a large number of applications, sometimes this activity would reach a timeout. By improving the query that retrieves the modules, the execution time of the activity should become much faster.
+The previous iteration of the fix (released with LifeTime 11.24.2) included a bug that could cause an error of duplicate modules during deployment, when there were modules that moved between applications. (RPM-4754) <span class="cattag">Application Lifecycle</span>  <span class="cattag">LifeTime</span> </li>
+</ul>
+
