@@ -78,10 +78,3 @@ Here is the list of changes made to MABS 11 that may affect the building of your
 * Changed the `StatusBarOverlaysWebView` property default value from `false` to `true`.
 * Added the `StatusBarStyle` property default value as `default`.
 -----
-
-## Known Issues
-
-Here is the list of changes made to MABS 11 that may affect the building of your apps.
-
-* Applications with some special characters in the name might fail to build on iOS, example found is the equals sign (=) (RNMT-6887).
------
