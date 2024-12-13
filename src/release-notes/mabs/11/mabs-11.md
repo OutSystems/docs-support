@@ -40,7 +40,7 @@ Plugin requirements for **MABS 11**. For more details, please check the Forge by
 |:---|---|---|
 |[Barcode](https://www.outsystems.com/forge/component-versions/1403)|5.5.7 or later|1.2.7 or later|
 |[Camera](https://www.outsystems.com/forge/component-versions/1390)|7.6.4 or later|1.1.4 or later|
-|[Card IO](https://www.outsystems.com/forge/component-versions/1438)|3.2.2 or later|-|
+|[Card IO](https://www.outsystems.com/forge/component-versions/1438)|3.2.3 or later|-|
 |[Calendar](https://www.outsystems.com/forge/component-versions/1566)|3.1.6 or later|1.0.2 or later|
 |[Ciphered Local Storage](https://www.outsystems.com/forge/component-versions/1500)|3.2.4 or later|1.0.2 or later|
 |[File](https://www.outsystems.com/forge/component-versions/1633)|3.0.7 or later|1.0.3 or later|
