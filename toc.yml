@@ -13,7 +13,7 @@
     # LifeTime
     - href: release-notes/lifetime-management-console/lifetime-management-console.md
     # ODC
-    - href: release-notes/odc/intro.md
+    - href: release-articles/odc/intro.md
     - topics:
         - href: release-notes/odc/ga/ga.md
         - href: release-notes/odc/odc-studio/odc-studio.md
