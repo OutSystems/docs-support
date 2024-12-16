@@ -54,8 +54,7 @@
       "locale",
       "app_type",
       "guid",
-      "platform-version",
-      "figma"
+      "platform-version"
     ],
     "additionalProperties": false
 }

@@ -1,15 +1,15 @@
 # Support
 # Release notes
-- href: release-notes/intro.md
+- href: release-articles/intro.md
 - topics:
     # OutSystems 11
-    - href: release-notes/11/intro.md
+    - href: release-articles/11/intro.md
     - topics:
         - href: release-notes/11/platform-server/platform-server.md
         - href: release-notes/11/cross-platform-service-studio/cross-platform-service-studio.md
         - href: release-notes/11/integration-studio/integration-studio.md
         - href: release-notes/11/development-environment/development-environment.md
-        - href: release-notes/11/side-effects-breaking-changes.md
+        - href: release-articles/11/side-effects-breaking-changes.md
     # LifeTime
     - href: release-notes/lifetime-management-console/lifetime-management-console.md
     # ODC
@@ -48,10 +48,10 @@
     - href: release-notes/integration-builder/integration-builder.md
     - href: release-notes/experience-builder/experience-builder.md
     - href: release-notes/workflow-builder/workflow-builder.md
-    - href: release-notes/product-lifecycle/product-lifecycle.md
-    - href: release-notes/release-cycle.md
-    - href: release-notes/tech-preview.md
-    - href: release-notes/what-version.md
+    - href: release-articles/product-lifecycle/product-lifecycle.md
+    - href: release-articles/release-cycle.md
+    - href: release-articles/tech-preview.md
+    - href: release-articles/what-version.md
 
 # Troubleshooting
 - href: troubleshooting/intro.md
