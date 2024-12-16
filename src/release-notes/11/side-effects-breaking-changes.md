@@ -16,6 +16,30 @@ As such, before introducing a breaking change for a new release, OutSystems care
 
 ## Breaking Changes
 
+### Introduced in Platform Server 11.32.0
+
+1\. <a id="bc-11320-1"></a>
+
+**Issue**: The serial number of OutSystems Platform Server installed in EC2 machines using EC2 Launch v2 was incorrectly calculated. 
+
+**Fix**: The minimum supported version for OutSystems Platform Server installations in EC2 machines using EC2 Launch v2 was bumped from version 11.29.0 to 11.32.0. 
+
+The fix to the serial number calculation done will result in a new serial number for that Platform installation which will require a new license. 
+
+1\. <a id="bc-11320-1"></a>
+
+**Issue**: Dropped support for MySQL 5.x as an external database version.
+
+**Runtime**: Traditional web, Reactive web, Mobile
+
+**Rationale**: Due to the update of the MySQL driver to a supported version(9.0.0), we are forced to drop support for MySQL databases which the driver no longer supports connecting. 
+
+As such, MySQL 5.7 or lower is no longer supported as external databases.
+
+In the future, OutSystems may, at its own discretion, drop support for other database engines and versions that are no longer suported by the database engine provider.
+
+**Fix**: Update MySQL engine version. OutSystems advises customers to choose a Long Term Release version that is both supported by MySQL and OutSystems. 
+
 ### Introduced in Platform Server 11.28.0
 
 1\. <a id="bc-11280-1"></a>
