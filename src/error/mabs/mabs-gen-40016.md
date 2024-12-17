@@ -1,11 +1,17 @@
 ---
-summary: "Couldn't generate your app. For \"<type>\" type elements with defined intent filters, you must declare the value for the attribute \"android:exported\" in all AndroidManifest.xml files."
-tags:
+summary: Couldn't generate your app. For "<type>" type elements with defined intent filters, you must declare the value for the attribute "android-exported" in all AndroidManifest.xml files.
+tags: android development, android manifest, application packaging, plugin development, mabs
 guid: c780d4d5-d779-434a-8a34-391faf16cd79
 locale: en-us
 app_type: mobile apps
 platform-version: o11, odc
 figma:
+audience:
+  - mobile developers
+outsystems-tools:
+  - service studio
+coverage-type:
+  - unblock
 ---
 
 # OS-MABS-GEN-40016

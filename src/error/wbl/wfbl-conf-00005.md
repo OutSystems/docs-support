@@ -1,11 +1,19 @@
 ---
 summary: Invalid application data. <OriginalErrorMessage>.
-tags:
+tags: error handling, data consistency, user authentication, application troubleshooting
 locale: en-us
 guid: f062e40f-49f4-4628-84d5-6c0fbaa655ee
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
 figma:
+audience:
+  - frontend developers
+  - full stack developers
+  - platform administrators
+outsystems-tools:
+  - workflow builder
+coverage-type:
+  - unblock
 ---
 
 # OS-WFBL-CONF-00005

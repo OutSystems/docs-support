@@ -1,11 +1,17 @@
 ---
 summary: Missing property {0} on {1} in your extensibility configurations. Review it and try again.
-tags:
+tags: extensibility, configuration, error handling, mobile app development, json
 guid: c77550a1-5774-42a1-a51a-89db2c68e73d
 locale: en-us
 app_type: mobile apps
 platform-version: o11, odc
 figma:
+audience:
+  - mobile developers
+outsystems-tools:
+  - service studio
+coverage-type:
+  - unblock
 ---
 
 # OS-MABS-CNF-40006

@@ -5,6 +5,16 @@ guid: 413298b7-54dc-47cd-bbcd-2c87611980fa
 app_type: reactive web apps
 platform-version: o11
 figma: https://www.figma.com/file/6tXLupLiqfG9FOElATTGQU/Troubleshooting?type=design&node-id=3431%3A267&mode=design&t=n3OfSI1cyFvKAAiH-1
+tags: content security policy, security best practices, javascript, error handling, debugging
+audience:
+  - frontend developers
+  - full stack developers
+  - platform administrators
+outsystems-tools:
+  - service studio
+  - service center
+coverage-type:
+  - unblock
 ---
 
 # Removing unsafe-eval

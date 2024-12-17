@@ -1,11 +1,20 @@
 ---
 summary: This article explains the cause, impact, and recommended action for an unimplemented error that occurs while connecting to the destination server.
-tags:
+tags: log streaming, error handling, grpc errors, server configuration, outsystems platform
 guid: 1b01900c-30d3-49fc-a562-3c6a51982738
 locale: en-us
 app_type: traditional web apps, mobile apps, reactive web apps
-figma: 
+figma:
 platform-version: o11
+audience:
+  - platform administrators
+  - full stack developers
+  - backend developers
+outsystems-tools:
+  - lifetime
+  - service center
+coverage-type:
+  - unblock
 ---
 
 # OS-DP-STREAM-00012

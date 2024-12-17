@@ -1,12 +1,22 @@
 ---
 summary: Something happened on our side. Please try again.
-tags: mabs plf error_codes
+tags: mobile app building, outsystems, error handling, troubleshooting, app deployment
 locale: en-us
 app_type: mobile apps
 guid: 816b011f-8034-4550-b68e-9130cc80234a
 platform-version: o11, odc
 figma:
+audience:
+  - mobile developers
+  - full stack developers
+  - platform administrators
+outsystems-tools:
+  - service studio
+  - service center
+coverage-type:
+  - unblock
 ---
+
 # OS-MABS-PLF-50000
 
 ## Error message

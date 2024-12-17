@@ -5,6 +5,14 @@ guid: 2a1720f7-5ef5-4e71-b15b-2511b6dc6ab5
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
 figma:
+tags: ssl/tls, web services, certificate authority, security, troubleshooting
+audience:
+  - full stack developers
+  - platform administrators
+outsystems-tools:
+  - service studio
+coverage-type:
+  - unblock
 ---
 
 # Could not establish trust relationship when consuming web services in OutSystems 

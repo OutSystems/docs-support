@@ -1,11 +1,19 @@
 ---
 summary: Environment <Hostname> isn't authorized to access the Integration Builder. Contact OutSystems Support to confirm its authorization.
-tags:
+tags: integration builder, security, environment configuration, api authorization, error handling
 locale: en-us
 guid: 5bda389f-0bd2-414f-a770-895181227675
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
 figma:
+audience:
+  - platform administrators
+  - full stack developers
+  - backend developers
+outsystems-tools:
+  - integration builder
+coverage-type:
+  - unblock
 ---
 
 # OS-INBL-API-00011

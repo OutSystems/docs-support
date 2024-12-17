@@ -1,11 +1,19 @@
 ---
 summary: There was an issue generating the app. Whitelist Plugin was renamed AllowList in newer Cordova Android engine versions. Check your plugin code and try again.
-tags:
+tags: cordova, plugin migration, mobile app development, error handling, outsystems service center
 guid: 0fdc2abc-b67c-43f0-bb3d-3bdcfcdd5496
 locale: en-us
 app_type: mobile apps
 platform-version: o11, odc
 figma:
+audience:
+  - mobile developers
+  - full stack developers
+  - platform administrators
+outsystems-tools:
+  - service center
+coverage-type:
+  - unblock
 ---
 
 # OS-MABS-GEN-40018

@@ -5,6 +5,15 @@ guid: 9807d569-fb06-45bd-8c68-ae204ee2aa8c
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
 figma:
+tags: saml authentication, certificate configuration, error handling, security, user authentication
+audience:
+  - full stack developers
+  - platform administrators
+outsystems-tools:
+  - service studio
+  - users application
+coverage-type:
+  - unblock
 ---
 
 # Error processing SAML response - Unable to decrypt the assertion

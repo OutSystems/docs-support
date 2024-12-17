@@ -1,11 +1,19 @@
 ---
 summary: Preference key <key> in the context <context> is not recognized.
-tags:
+tags: error resolution, application packaging, extensibility configuration, mobile app development
 guid: f36093fe-b533-42bb-a844-16117e6742dc
 locale: en-us
 app_type: mobile apps
 platform-version: o11, odc
 figma:
+audience:
+  - mobile developers
+  - frontend developers
+  - full stack developers
+outsystems-tools:
+  - service studio
+coverage-type:
+  - unblock
 ---
 
 # OS-MABS-PREF-40000

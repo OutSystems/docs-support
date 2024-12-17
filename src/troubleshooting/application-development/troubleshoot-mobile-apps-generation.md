@@ -1,11 +1,20 @@
 ---
 summary: Explore troubleshooting techniques for mobile app generation issues in OutSystems 11 (O11) with a focus on MABS compatibility and plugin updates.
-tags: support-Mobile_Apps-featured
+tags: mobile app generation, plugin compatibility, mabs, troubleshooting, error messages
 locale: en-us
 guid: 2705ae8e-d762-41cc-804f-0c9825d71074
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
 figma: https://www.figma.com/file/6tXLupLiqfG9FOElATTGQU/Troubleshooting?node-id=605:958
+audience:
+  - mobile developers
+  - frontend developers
+  - full stack developers
+outsystems-tools:
+  - service studio
+  - forge
+coverage-type:
+  - unblock
 ---
 
 # Troubleshooting the mobile apps generation

@@ -1,11 +1,17 @@
 ---
 summary: Please enter the right password for the alias.
-tags: mabs sig error_code
+tags: android development, keystore management, error handling, app packaging, mobile app publishing
 guid: 751b3c1c-a3d6-43d3-a5fe-16f72b90e027
 locale: en-us
 app_type: mobile apps
 platform-version: o11, odc
 figma:
+audience:
+  - mobile developers
+outsystems-tools:
+  - none
+coverage-type:
+  - unblock
 ---
 
 # OS-MABS-SIG-40014

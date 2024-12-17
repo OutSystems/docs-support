@@ -1,11 +1,17 @@
 ---
 summary: Couldn't compile the Cordova plugin <plugin_name>. Review your plugin configurations and check our documentation for more information if the problem persists.
-tags:
+tags: mobile app development, cordova plugins, compilation errors, plugin configuration, error handling
 guid: aa28c280-cf1b-4279-802f-456617bbb753
 locale: en-us
 app_type: mobile apps
 platform-version: o11, odc
 figma:
+audience:
+  - mobile developers
+outsystems-tools:
+  - service center
+coverage-type:
+  - unblock
 ---
 
 # OS-MABS-GEN-40019

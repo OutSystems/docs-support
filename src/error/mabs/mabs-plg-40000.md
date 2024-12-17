@@ -1,11 +1,18 @@
 ---
 summary: We couldn't find Cordova plugin <plugin_name>.
-tags: mabs; plg; error_codes
+tags: cordova plugins, mobile app build service, application packaging, build errors, plugin configuration
 locale: en-us
 app_type: mobile apps
 guid: c8f61a0e-3ea3-49c4-9c7a-7ddae7c6ff1f
 platform-version: o11, odc
 figma:
+audience:
+  - mobile developers
+outsystems-tools:
+  - mabs
+  - service studio
+coverage-type:
+  - unblock
 ---
 
 # OS-MABS-PLG-40000

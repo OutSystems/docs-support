@@ -1,11 +1,19 @@
 ---
 summary: There was an issue generating the app. Some plugins are using conflicting dependencies from Google Play services. Check your plugin configurations and try again.
-tags:
+tags: dependency conflicts, google play services, android, application package generation, plugin management
 guid: 01eaf9bb-abf4-40ef-862d-92541ac78355
 locale: en-us
 app_type: mobile apps
 platform-version: o11, odc
 figma:
+audience:
+  - mobile developers
+  - full stack developers
+  - platform administrators
+outsystems-tools:
+  - service studio
+coverage-type:
+  - unblock
 ---
 
 # OS-MABS-GEN-40010

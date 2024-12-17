@@ -1,11 +1,13 @@
 ---
 summary: Learn how to inspect HTTP requests in iOS mobile apps using the network inspector tool in debug builds created with MABS 6.0 or later.
-tags: 
+tags:
 locale: en-us
 guid: 2bea2ff9-7655-4952-a00c-2a3f1e3316e9
 app_type: mobile apps
 platform-version: o11, odc
 figma: https://www.figma.com/file/iBD5yo23NiW53L1zdPqGGM/Developing%20an%20Application?node-id=280:140
+coverage-type:
+  - unblock
 ---
 
 # Inspect the HTTP requests in Mobile Apps for iOS

@@ -1,11 +1,18 @@
 ---
 summary: Causes and resolution for errors during log streaming configuration.
-tags:
+tags: error handling, log streaming, application performance monitoring, configuration issues, error codes
 locale: en-us
 guid: e2842ef5-6813-4c4e-801b-407b5a265b18
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
 figma:
+audience:
+  - platform administrators
+  - full stack developers
+outsystems-tools:
+  - lifetime
+coverage-type:
+  - none
 ---
 
 # Log streaming errors

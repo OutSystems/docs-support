@@ -1,11 +1,19 @@
 ---
 summary: This article explains the cause, impact, and recommended action for a permission denied error that occurs while connecting to the destination server.
-tags:
+tags: error handling, log streaming, security, configuration, troubleshooting
 guid: 31062f99-3a03-4a8a-8a9c-70e950043509
 locale: en-us
 app_type: traditional web apps, mobile apps, reactive web apps
-figma: 
+figma:
 platform-version: o11
+audience:
+  - platform administrators
+  - full stack developers
+  - backend developers
+outsystems-tools:
+  - lifetime
+coverage-type:
+  - unblock
 ---
 
 # OS-DP-STREAM-00007

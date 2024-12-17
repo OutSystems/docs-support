@@ -1,11 +1,17 @@
 ---
 summary: Signing settings require a manually managed profile, but your provisioning profile <provision_profile> is Xcode managed.
-tags: mabs sig error_code
+tags: mobile app distribution, provisioning profiles, ios app development, deployment issues, xcode
 guid: a13df32f-10f3-4585-90fe-015f448ad93b
 locale: en-us
 app_type: mobile apps
 platform-version: o11, odc
 figma:
+audience:
+  - mobile developers
+outsystems-tools:
+  - service studio
+coverage-type:
+  - unblock
 ---
 
 # OS-MABS-SIG-40017

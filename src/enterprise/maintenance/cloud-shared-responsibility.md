@@ -1,11 +1,19 @@
 ---
 summary: Explore the shared responsibility model and security roles in ODC and OutSystems 11 Cloud.
-tags:
+tags: cloud security, cloud deployment, shared responsibility model, enterprise applications, aws
 locale: en-us
 guid: b04339ce-7b9f-4c93-94b7-e4cf397eab47
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11, odc
 figma: https://www.figma.com/file/cPLNnZfDOZ1NX3avcjmq3g/Enterprise%20Customers?node-id=618:22
+audience:
+  - platform administrators
+  - tech leads
+  - full stack developers
+outsystems-tools:
+  - none
+coverage-type:
+  - understand
 ---
 
 # OutSystems Cloud shared responsibility model

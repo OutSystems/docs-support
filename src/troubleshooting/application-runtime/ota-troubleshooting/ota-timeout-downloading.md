@@ -5,6 +5,13 @@ guid: 6C1A3620-6882-45B1-A08D-965FB2D3864B
 app_type: mobile apps
 platform-version: o11
 figma:
+tags: mobile app development, ota (over the air) updates, network connectivity issues
+audience:
+  - mobile developers
+outsystems-tools:
+  - service studio
+coverage-type:
+  - unblock
 ---
 
 # Timeout while downloading resources

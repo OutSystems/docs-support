@@ -1,12 +1,24 @@
 ---
 summary: OutSystems 11 (O11) guide on reinstalling the LifeTime management console in a dedicated environment from a shared setup.
-tags:
+tags: infrastructure management, environment setup, on-premises installation, platform server, licensing
 locale: en-us
 guid: e7dcad56-9c9a-40c2-b798-dc70d3015564
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
 figma: https://www.figma.com/file/cPLNnZfDOZ1NX3avcjmq3g/Enterprise%20Customers?node-id=4:0
+audience:
+  - platform administrators
+  - infrastructure managers
+  - full stack developers
+outsystems-tools:
+  - service center
+  - lifetime
+  - platform server
+coverage-type:
+  - understand
+  - apply
 ---
+
 # Reinstall the infrastructure management console in a dedicated environment
 
 This article describes how to remove the infrastructure management console (LifeTime) from a shared environment and installing it in a new dedicated environment.

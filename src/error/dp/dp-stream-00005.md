@@ -1,11 +1,18 @@
 ---
 summary: This article explains the cause, impact, and recommended action for a not found error that occurs while connecting to the destination server.
-tags:
+tags: error handling, server configuration, log streaming, grpc, connectivity issues
 guid: 00a6b51c-e815-4e68-83fc-e51d58eab8b8
 locale: en-us
 app_type: traditional web apps, mobile apps, reactive web apps
-figma: 
+figma:
 platform-version: o11
+audience:
+  - platform administrators
+  - full stack developers
+outsystems-tools:
+  - lifetime
+coverage-type:
+  - unblock
 ---
 
 # OS-DP-STREAM-00005

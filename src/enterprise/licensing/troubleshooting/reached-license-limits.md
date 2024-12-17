@@ -5,6 +5,15 @@ guid: dddd2596-c4b3-4963-80ae-f79be09f2f09
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
 figma: https://www.figma.com/file/cPLNnZfDOZ1NX3avcjmq3g/Enterprise%20Customers?node-id=3215:458
+tags: license management, enterprise support, subscription services, license upgrade, platform management
+audience:
+  - platform administrators
+  - tech leads
+  - full stack developers
+outsystems-tools:
+  - service center
+coverage-type:
+  - unblock
 ---
 
 # I have reached my license limits

@@ -1,11 +1,19 @@
 ---
 summary: Learn how OutSystems 11 (O11) ensures secure and efficient operation through regular patching of its cloud infrastructure servers.
-tags: support-Cloud_Platform-featured
+tags: cloud infrastructure, system maintenance, security patching, operating systems updates, platform version updates
 locale: en-us
 guid: b41ab799-b4e4-4f0f-8141-b36fef030b0d
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
 figma:
+audience:
+  - platform administrators
+  - infrastructure managers
+  - tech leads
+outsystems-tools:
+  - none
+coverage-type:
+  - understand
 ---
 
 # System Updates on OutSystems Cloud

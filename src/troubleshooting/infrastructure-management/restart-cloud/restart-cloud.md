@@ -5,6 +5,14 @@ guid: 814d4a99-9c7c-4418-9788-34b5dcdf6f88
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
 figma:
+tags: cloud services, service troubleshooting, environment management, error resolution
+audience:
+  - platform administrators
+  - full stack developers
+outsystems-tools:
+  - service center
+coverage-type:
+  - unblock
 ---
 
 # Restart services on OutSystems Cloud

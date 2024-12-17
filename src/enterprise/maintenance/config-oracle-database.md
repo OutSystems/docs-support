@@ -5,7 +5,18 @@ guid: 27d32f78-27a2-4e8a-af85-8b356928c4d7
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
 figma: https://www.figma.com/file/cPLNnZfDOZ1NX3avcjmq3g/Enterprise%20Customers?node-id=618:24
+tags: oracle database configuration, database services, java stack, .net stack, traditional web apps
+audience:
+  - backend developers
+  - full stack developers
+  - platform administrators
+  - architects
+outsystems-tools:
+  - platform server
+coverage-type:
+  - apply
 ---
+
 # Configuring Oracle database in the OutSystems platform
 
 This document details the steps needed to configure an Oracle database in the OutSystems Platform Server.

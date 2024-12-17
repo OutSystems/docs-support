@@ -5,6 +5,18 @@ guid: 3a4658d1-b73d-4842-a960-db07c21a6289
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
 figma: https://www.figma.com/file/cPLNnZfDOZ1NX3avcjmq3g/Enterprise%20Customers?node-id=618:284
+tags: database optimization, application performance, scalability, connection pooling, performance tuning
+audience:
+  - backend developers
+  - full stack developers
+  - platform administrators
+  - infrastructure managers
+  - architects
+outsystems-tools:
+  - platform server
+  - configuration tool
+coverage-type:
+  - apply
 ---
 
 # Connection pools in the OutSystems platform

@@ -1,11 +1,13 @@
 ---
-summary: 
-tags: 
+summary:
+tags:
 guid: 20bc8aa2-417c-43e5-bd61-464c615886ab
 locale: en-us
 app_type: mobile apps, reactive web apps
 platform-version: o11
-figma: 
+figma:
+coverage-type:
+  - unblock
 ---
 
 # Factory Configuration

@@ -1,11 +1,19 @@
 ---
 summary: This is an automated message returned by the external system The session ID or OAuth token used has expired or is invalid. The response body contains the message and errorCode.
-tags:
+tags: api integration, salesforce integration, authorization errors, oauth tokens, error handling
 locale: en-us
 guid: e39dec90-b129-49c1-8cd3-b712a1a653f1
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
 figma:
+audience:
+  - platform administrators
+  - full stack developers
+  - backend developers
+outsystems-tools:
+  - integration builder
+coverage-type:
+  - unblock
 ---
 
 # OS-INBL-API-00050

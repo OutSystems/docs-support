@@ -5,6 +5,15 @@ guid: 22ff6d6a-ab3a-4c2d-8c5a-13ce0d118750
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
 figma: https://www.figma.com/file/cPLNnZfDOZ1NX3avcjmq3g/Enterprise%20Customers?node-id=616:0
+tags: licensing, environment management, server upgrades, platform server administration, outsystems operations
+audience:
+  - platform administrators
+  - tech leads
+  - infrastructure managers
+outsystems-tools:
+  - none
+coverage-type:
+  - apply
 ---
 
 # How to free up an existing environment in licensing

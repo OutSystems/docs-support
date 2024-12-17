@@ -1,11 +1,20 @@
 ---
 summary: OutSystems 11 (O11) outlines criteria for "Trusted" asset designation on the OutSystems Forge, emphasizing quality, functionality, and security.
-tags: forge; forge_support; trusted
+tags: curation process, asset management, quality assurance, community contributions
 locale: en-us
 guid: a5774b9a-751e-4df6-889a-9f54f363ac40
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
 figma: https://www.figma.com/file/bGPF1cIwKxeWbPhMdOrHsM/Forge%20Components?node-id=0:1
+audience:
+  - frontend developers
+  - full stack developers
+  - ui designers
+outsystems-tools:
+  - forge
+  - service studio
+coverage-type:
+  - understand
 ---
 
 # Trusted asset requirements

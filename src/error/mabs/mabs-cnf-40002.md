@@ -1,11 +1,17 @@
 ---
 summary: Unable to copy your {0}s. Check your Resources path and try again.
-tags:
+tags: error handling, app packaging, mobile app configuration, extensibility configurations, support procedures
 guid: 7f7a3cb2-8ead-4da9-b822-e494a42f9815
 locale: en-us
 app_type: mobile apps
 platform-version: o11, odc
 figma:
+audience:
+  - mobile developers
+outsystems-tools:
+  - service studio
+coverage-type:
+  - unblock
 ---
 
 # OS-MABS-CNF-40002

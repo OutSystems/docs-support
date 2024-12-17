@@ -1,11 +1,17 @@
 ---
 summary: There's an icon missing in your extensibility configurations with {0}.
-tags:
+tags: error handling, app packaging, mobile app development, app configuration, outsystems platform
 guid: 3609e34e-2ec9-4454-bc4c-ab8094c37881
 locale: en-us
 app_type: mobile apps
 platform-version: o11, odc
 figma:
+audience:
+  - mobile developers
+outsystems-tools:
+  - service studio
+coverage-type:
+  - unblock
 ---
 
 # OS-MABS-CNF-40000

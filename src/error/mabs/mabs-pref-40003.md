@@ -1,11 +1,17 @@
 ---
-summary: <context> must have the format [].
-tags:
+summary: <context> must have the format
+tags: json configuration, application packaging, error handling, mobile app development, outsystems platform
 guid: 6ea6b45d-c137-42e4-ab53-aaffa911759c
 locale: en-us
 app_type: mobile apps
 platform-version: o11, odc
 figma:
+audience:
+  - mobile developers
+outsystems-tools:
+  - service studio
+coverage-type:
+  - unblock
 ---
 
 # OS-MABS-PREF-40003

@@ -1,11 +1,18 @@
 ---
 summary: Couldn't install the Cordova plugin {0} because it's using a framework tag with type podspec, which is not supported from MABS 10 onwards. The podspec tag must be used instead.
-tags:
+tags: cordova plugins, ios app development, mobile app build service, plugin configuration
 guid: c659ed6c-8079-4e55-8517-0f2e626af3ca
 locale: en-us
 app_type: mobile apps
 platform-version: o11, odc
 figma:
+audience:
+  - mobile developers
+  - platform administrators
+outsystems-tools:
+  - service studio
+coverage-type:
+  - unblock
 ---
 
 # OS-MABS-PLG-40020

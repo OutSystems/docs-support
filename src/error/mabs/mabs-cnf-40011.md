@@ -1,11 +1,17 @@
 ---
 summary: Restricted path for the resource declared in the extensibility configurations.
-tags:
+tags: extensibility configurations, mobile app development, cordova project, error handling
 guid: 1fba16c8-f7ca-400c-8824-9bc0a167f51c
 locale: en-us
 app_type: mobile apps
 platform-version: o11, odc
 figma:
+audience:
+  - mobile developers
+outsystems-tools:
+  - service studio
+coverage-type:
+  - unblock
 ---
 
 # OS-MABS-CNF-40011

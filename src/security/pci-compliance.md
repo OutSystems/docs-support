@@ -1,11 +1,19 @@
 ---
 summary: OutSystems 11 Sentry ensures PCI DSS compliance for secure credit card processing through multiple integration methods and enhanced security features.
-tags:
+tags: pci compliance, cloud security, payment gateway integration, tokenization, payment processing
 locale: en-us
 guid: 1fcf38a0-15c1-486a-b022-a9d21dea89b6
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
 figma:
+audience:
+  - full stack developers
+  - platform administrators
+  - architects
+outsystems-tools:
+  - none
+coverage-type:
+  - apply
 ---
 
 # PCI compliance with OutSystems 11 Sentry

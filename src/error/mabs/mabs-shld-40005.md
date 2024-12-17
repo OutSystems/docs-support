@@ -1,11 +1,17 @@
 ---
 summary: It looks like OutSystems AppShield is not accessible with your current license. Please contact the OutSystems Support team to upgrade your license.
-tags:
+tags: appshield, licensing, error handling, mobile app security, license upgrade
 guid: 89f093c3-32da-4b76-91ad-6fdfdddcf318
 locale: en-us
 app_type: mobile apps
 platform-version: o11, odc
 figma:
+audience:
+  - mobile developers
+outsystems-tools:
+  - none
+coverage-type:
+  - unblock
 ---
 
 # OS-MABS-SHLD-40005

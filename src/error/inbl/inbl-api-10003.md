@@ -1,11 +1,13 @@
 ---
-summary: "Recommended action for the error: \"Integration Manager couldn't be reached. This could be due to a network error, Integration Manager isn't present in the environment, or it's very outdated. <NetworkError>\" in Integration Builder"
+summary: Recommended action for the error "Integration Manager couldn't be reached. This could be due to a network error, Integration Manager isn't present in the environment, or it's very outdated. <NetworkError>" in Integration Builder
 tags:
 locale: en-us
 guid: 46eae534-9de4-417f-83e8-566eaa6fd946
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
 figma:
+coverage-type:
+  - unblock
 ---
 
 # OS-INBL-API-10003

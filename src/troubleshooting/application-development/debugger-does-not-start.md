@@ -2,10 +2,18 @@
 summary: OutSystems 11 (O11) debugger fails to start in Chrome version 111.0.5563.64/.65, requiring an upgrade to resolve the issue.
 locale: en-us
 guid: A46FC291-7A1D-4D99-852A-972FA5E4F8E8
-tags: 
+tags: ide usage, chrome browser issue, debugger, technical support, troubleshooting
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
 figma: https://www.figma.com/file/6tXLupLiqfG9FOElATTGQU/Troubleshooting?node-id=3327:550
+audience:
+  - mobile developers
+  - frontend developers
+  - full stack developers
+outsystems-tools:
+  - service studio
+coverage-type:
+  - unblock
 ---
 
 # Debugger does not start in Chrome

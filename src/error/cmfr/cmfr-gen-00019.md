@@ -1,11 +1,19 @@
 ---
 summary: One or more <record> Ids aren't valid GUIDs.
-tags:
+tags: error handling, data integrity, application development, case management framework, guid
 locale: en-us
 guid: f43cff40-cc15-4a4c-94ee-cfa3c2d0b676
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
 figma:
+audience:
+  - full stack developers
+  - backend developers
+  - platform administrators
+outsystems-tools:
+  - case management framework
+coverage-type:
+  - unblock
 ---
 
 # OS-CMFR-GEN-00019

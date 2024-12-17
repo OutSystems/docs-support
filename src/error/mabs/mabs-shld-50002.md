@@ -1,11 +1,19 @@
 ---
 summary: Something went wrong when validating application settings.
-tags:
+tags: application settings, error handling, mobile app build, troubleshooting, support
 guid: 6782f5cc-f425-414e-aff5-462435623894
 locale: en-us
 app_type: mobile apps
 platform-version: o11, odc
 figma:
+audience:
+  - mobile developers
+  - frontend developers
+  - full stack developers
+outsystems-tools:
+  - service center
+coverage-type:
+  - unblock
 ---
 
 # OS-MABS-SHLD-50002

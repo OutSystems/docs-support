@@ -5,8 +5,16 @@ guid: c57316a8-9575-4162-bf71-ef46a19f9b99
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
 figma: https://www.figma.com/file/cPLNnZfDOZ1NX3avcjmq3g/Enterprise%20Customers?node-id=3213:290
+tags: error tracking, performance monitoring, log database, error alerts, system recovery
+audience:
+  - platform administrators
+  - full stack developers
+outsystems-tools:
+  - service center
+  - platform server
+coverage-type:
+  - unblock
 ---
-
 
 # Troubleshooting the OutSystems Platform Server
 

@@ -1,11 +1,20 @@
 ---
 summary: That Case Status transition already exists.
-tags:
+tags: error handling, case management, debugging, application development, platform version 11
 locale: en-us
 guid: 52d4bebb-194e-43c8-ac48-70cf94ae22dc
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
 figma:
+audience:
+  - full stack developers
+  - frontend developers
+  - mobile developers
+outsystems-tools:
+  - service studio
+  - case management framework
+coverage-type:
+  - unblock
 ---
 
 # OS-CMFR-GEN-00022

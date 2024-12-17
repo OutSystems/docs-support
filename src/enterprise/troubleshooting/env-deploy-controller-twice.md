@@ -5,7 +5,18 @@ guid: 890ac8c6-b344-4119-9ad7-c1b0d8497518
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
 figma: https://www.figma.com/file/cPLNnZfDOZ1NX3avcjmq3g/Enterprise%20Customers?node-id=3213:288
+tags: environment health, deployment controller, configuration settings, service center, outsystems platform
+audience:
+  - platform administrators
+  - backend developers
+  - frontend developers
+outsystems-tools:
+  - service center
+  - configuration tool
+coverage-type:
+  - unblock
 ---
+
 # Environment Health shows a Deployment controller twice
 
 ## Symptom

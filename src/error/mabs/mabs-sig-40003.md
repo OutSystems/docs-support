@@ -1,11 +1,17 @@
 ---
 summary: Please enter the correct password for this certificate.
-tags: mabs sig error_code
+tags: ios deployment, certificate management, build errors, mobile app building, app packaging
 guid: 38b65dcf-407e-4408-9a99-2b5410be9427
 locale: en-us
 app_type: mobile apps
 platform-version: o11, odc
 figma:
+audience:
+  - mobile developers
+outsystems-tools:
+  - service studio
+coverage-type:
+  - unblock
 ---
 
 # OS-MABS-SIG-40003

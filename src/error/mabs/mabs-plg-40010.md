@@ -1,11 +1,19 @@
 ---
 summary: Couldn't install the Cordova plugin <plugin_name>. Your plugin must have a package.json file that matches the configurations in the plugin.xml file.
-tags: mabs; plg; error_codes
+tags: cordova plugins, package configuration, application packaging, error handling, outsystems
 locale: en-us
 app_type: mobile apps
 guid: d74a2381-a1ff-45a3-9d98-40e1ce28ab1e
 platform-version: o11, odc
 figma:
+audience:
+  - mobile developers
+  - frontend developers
+  - full stack developers
+outsystems-tools:
+  - service center
+coverage-type:
+  - unblock
 ---
 
 # OS-MABS-PLG-40010

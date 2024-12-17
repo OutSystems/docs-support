@@ -1,11 +1,17 @@
 ---
 summary: It looks like the application identifier is invalid.
-tags: mabs sig error_code
+tags: application packaging, application deployment, error handling, mobile app development
 guid: 8d7ed1ec-a46a-4802-bc05-08044b980f10
 locale: en-us
 app_type: mobile apps
 platform-version: o11, odc
 figma:
+audience:
+  - mobile developers
+outsystems-tools:
+  - service studio
+coverage-type:
+  - unblock
 ---
 
 # OS-MABS-SIG-40020

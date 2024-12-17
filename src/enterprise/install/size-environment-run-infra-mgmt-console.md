@@ -5,6 +5,17 @@ guid: c968ec98-068a-4ca0-a0f3-f0d2c09978e6
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
 figma: https://www.figma.com/file/cPLNnZfDOZ1NX3avcjmq3g/Enterprise%20Customers?node-id=598:870
+tags: infrastructure management, environment sizing, performance monitoring, lifetime installation, database configuration
+audience:
+  - platform administrators
+  - infrastructure managers
+  - full stack developers
+outsystems-tools:
+  - lifetime
+  - platform server
+coverage-type:
+  - understand
+  - evaluate
 ---
 
 # Size an environment to run the infrastructure management console

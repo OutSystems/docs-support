@@ -5,6 +5,15 @@ guid: 27F1C7DD-2290-4391-8A9E-64569AAEACAB
 app_type: mobile apps
 platform-version: o11
 figma:
+tags: database management, data type conversion, error handling, application deployment
+audience:
+  - mobile developers
+  - frontend developers
+  - full stack developers
+outsystems-tools:
+  - service studio
+coverage-type:
+  - unblock
 ---
 
 # Changes in Local Entity Attributes data types when they have data in the device

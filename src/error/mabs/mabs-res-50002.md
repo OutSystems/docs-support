@@ -1,11 +1,17 @@
 ---
 summary: Couldn’t fetch your app resources.
-tags:
+tags: error handling, application generation, build troubleshooting, mobile app development
 guid: b69549d9-1a98-4037-9e5a-f341b1a3f1c0
 locale: en-us
 app_type: mobile apps
 platform-version: o11, odc
 figma:
+audience:
+  - mobile developers
+outsystems-tools:
+  - none
+coverage-type:
+  - unblock
 ---
 
 # OS-MABS-RES-50002

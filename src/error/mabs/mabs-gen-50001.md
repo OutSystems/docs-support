@@ -1,11 +1,19 @@
 ---
 summary: Your app wasn’t generated because we couldn’t fetch its dependencies from the repository server {0} due to a server error. Please try again.
-tags:
+tags: mobile app generation, dependency management, server downtime, maven repository, build logs
 guid: be168032-545a-43eb-814c-b599b0b58547
 locale: en-us
 app_type: mobile apps
 platform-version: o11, odc
 figma:
+audience:
+  - mobile developers
+  - frontend developers
+  - full stack developers
+outsystems-tools:
+  - service center
+coverage-type:
+  - unblock
 ---
 
 # OS-MABS-GEN-50001

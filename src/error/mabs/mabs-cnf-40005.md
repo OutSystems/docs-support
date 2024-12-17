@@ -1,11 +1,18 @@
 ---
 summary: Invalid {0} type in your extensibility configurations. Review it and try again.
-tags:
+tags: extensibility configurations, error resolution, configuration management, mobile app development
 guid: 53eb9fbf-6dc5-43ad-ab70-69a709bfc9b4
 locale: en-us
 app_type: mobile apps
 platform-version: o11, odc
 figma:
+audience:
+  - mobile developers
+  - platform administrators
+outsystems-tools:
+  - service studio
+coverage-type:
+  - unblock
 ---
 
 # OS-MABS-CNF-40005

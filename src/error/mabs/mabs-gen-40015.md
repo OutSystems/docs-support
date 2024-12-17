@@ -1,11 +1,17 @@
 ---
 summary: There was an issue generating the app. At least one Cordova plugin is not compatible with the ”Swift Language Version” build setting that was defined. Check your plugin configurations and try again.
-tags:
+tags: mobile app development, ios, cordova plugins, swift language, error handling
 guid: 845308e6-f01c-4b24-be56-0924158c7db8
 locale: en-us
 app_type: mobile apps
 platform-version: o11, odc
 figma:
+audience:
+  - mobile developers
+outsystems-tools:
+  - service center
+coverage-type:
+  - unblock
 ---
 
 # OS-MABS-GEN-40015

@@ -1,11 +1,19 @@
 ---
 summary: There was an unexpected error. If the problem persists, contact OutSystems Support.
-tags:
+tags: integration issue, error handling, support engagement, platform troubleshooting, integration builder
 locale: en-us
 guid: 5da47aa4-a163-40bd-976d-c4c13263c03d
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
 figma:
+audience:
+  - full stack developers
+  - frontend developers
+  - platform administrators
+outsystems-tools:
+  - integration builder
+coverage-type:
+  - unblock
 ---
 
 # OS-INBL-GEN-50028

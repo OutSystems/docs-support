@@ -1,11 +1,17 @@
 ---
 summary: There were multiple errors merging the Android Manifest. Please check the build log file for more details.
-tags:
+tags: android manifest, build errors, mobile app packaging, outsystems service center, error handling
 guid: 9639e719-9135-4de8-a15d-d4fc2187f6a0
 locale: en-us
 app_type: mobile apps
 platform-version: o11, odc
 figma:
+audience:
+  - mobile developers
+outsystems-tools:
+  - service center
+coverage-type:
+  - unblock
 ---
 
 # OS-MABS-GEN-40001

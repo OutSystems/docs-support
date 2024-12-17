@@ -1,11 +1,19 @@
 ---
 summary: There was an issue generating the app. Gradle now requires you to declare dependencies using “implementation” or “api” instead of “compile”. The dependency being incorrectly declared is “{0}”. Check your plugin configurations and try again.
-tags:
+tags: android development, mobile app build, dependency management, gradle build system, troubleshooting
 guid: 90030a88-ff2b-40c8-b0d8-e8a7bc20966e
 locale: en-us
 app_type: mobile apps
 platform-version: o11, odc
 figma:
+audience:
+  - mobile developers
+  - full stack developers
+  - platform administrators
+outsystems-tools:
+  - service center
+coverage-type:
+  - unblock
 ---
 
 # OS-MABS-GEN-40017

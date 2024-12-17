@@ -1,11 +1,17 @@
 ---
 summary: Couldn't install the Cordova plugin <plugin_name> due to an error in the plugin.xml file. The specified pod wasn't found in the CocoaPods repository.
-tags: mabs; plg; error_codes
+tags: cordova, cocoapods, plugin management, mobile app development, application packaging
 locale: en-us
 app_type: mobile apps
 guid: 3c42415f-71e0-49ac-8626-52a23d2fd05a
 platform-version: o11, odc
 figma:
+audience:
+  - mobile developers
+outsystems-tools:
+  - service center
+coverage-type:
+  - unblock
 ---
 
 # OS-MABS-PLG-40006

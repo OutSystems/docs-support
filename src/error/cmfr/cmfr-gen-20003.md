@@ -1,11 +1,20 @@
 ---
 summary: It looks like you don't have access to the activity.
-tags:
+tags: error handling, case management, user access control, security, outsystems platform
 locale: en-us
 guid: 37fba356-87fc-4e24-b795-944b0ba1dedb
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
 figma:
+audience:
+  - full stack developers
+  - frontend developers
+  - platform administrators
+outsystems-tools:
+  - case management framework
+  - service studio
+coverage-type:
+  - unblock
 ---
 
 # OS-CMFR-GEN-20003

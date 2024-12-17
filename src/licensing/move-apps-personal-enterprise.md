@@ -5,6 +5,14 @@ guid: 2505a258-5861-4143-8251-a39e03821bf7
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
 figma: https://www.figma.com/file/TzqCbVlN2j4nadunA7q8VU/Licensing?node-id=0:1
+tags: application migration, environment management, outsystems deployment, solution management
+audience:
+  - full stack developers
+  - platform administrators
+outsystems-tools:
+  - service center
+coverage-type:
+  - apply
 ---
 
 # Move apps from your Personal environment to a subscription license

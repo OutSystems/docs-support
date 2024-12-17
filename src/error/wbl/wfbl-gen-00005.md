@@ -1,11 +1,13 @@
 ---
-summary: "Application version icon is larger than <MaxSize> for application version: <ApplicationVersionId>."
+summary: Application version icon is larger than <MaxSize> for application version <ApplicationVersionId>.
 tags:
 locale: en-us
 guid: 0fdba693-c956-410e-b4ce-e4f917c57620
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
 figma:
+coverage-type:
+  - unblock
 ---
 
 # OS-WFBL-GEN-00005

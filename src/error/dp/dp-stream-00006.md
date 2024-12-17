@@ -1,11 +1,18 @@
 ---
 summary: This article explains the cause, impact, and recommended action for an already exists error that occurs while connecting to the destination server.
-tags:
+tags: error handling, log streaming, server connection, debugging, grpc errors
 guid: cdf1d741-9c39-4af5-8efd-df3aca7c1a41
 locale: en-us
 app_type: traditional web apps, mobile apps, reactive web apps
-figma: 
+figma:
 platform-version: o11
+audience:
+  - platform administrators
+  - full stack developers
+outsystems-tools:
+  - lifetime
+coverage-type:
+  - unblock
 ---
 
 # OS-DP-STREAM-00006

@@ -5,6 +5,15 @@ guid: d08f59bd-a398-40a7-8106-dadd8645ee3d
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
 figma:
+tags: data masking, security best practices, data protection
+audience:
+  - mobile developers
+  - frontend developers
+  - full stack developers
+outsystems-tools:
+  - service studio
+coverage-type:
+  - understand
 ---
 
 # Data masking with OutSystems

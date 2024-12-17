@@ -1,11 +1,20 @@
 ---
 summary: Couldn't complete the Takeover. Either the user is missing access or the activity isn't assigned to anyone.
-tags:
+tags: error debugging, case management, user access control, activity management, error handling
 locale: en-us
 guid: 8c226258-db91-4ac9-93b0-ff5ed273daf2
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
 figma:
+audience:
+  - full stack developers
+  - backend developers
+  - frontend developers
+outsystems-tools:
+  - case management framework
+  - service studio
+coverage-type:
+  - unblock
 ---
 
 # OS-CMFR-GEN-20005

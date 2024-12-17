@@ -1,13 +1,21 @@
 ---
 summary: Learn how to move an app to another application pool on IIS in OutSystems 11 (O11) environments for better resource management and isolation.
-tags:
+tags: iis configuration, application pool management, resource management, server configuration, isolation techniques
 locale: en-us
 guid: ec265170-1cd0-4114-8276-47b6a14b4698
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
 figma: https://www.figma.com/file/cPLNnZfDOZ1NX3avcjmq3g/Enterprise%20Customers?node-id=619:3
+audience:
+  - platform administrators
+  - infrastructure managers
+  - full stack developers
+outsystems-tools:
+  - service studio
+coverage-type:
+  - apply
 ---
- 
+
 # Move an app to another application pool on IIS
 
 <div class="info" markdown="1">

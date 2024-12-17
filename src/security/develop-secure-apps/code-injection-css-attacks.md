@@ -5,6 +5,15 @@ guid: 65bc8210-b3fb-4b79-86dc-f580196f7f9c
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
 figma: https://www.figma.com/file/vTtFn5nl44ZLjUBYo2anCO/Security?node-id=305:319
+tags: security best practices, sql injection, cross site scripting, web application security, owasp
+audience:
+  - mobile developers
+  - frontend developers
+  - full stack developers
+outsystems-tools:
+  - service studio
+coverage-type:
+  - evaluate
 ---
 
 # Protecting OutSystems apps from code injection / Cross Site Scripting attacks

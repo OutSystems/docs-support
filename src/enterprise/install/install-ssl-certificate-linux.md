@@ -5,6 +5,16 @@ guid: 03501092-5cc4-422a-a64e-85ff2740a068
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
 figma: https://www.figma.com/file/cPLNnZfDOZ1NX3avcjmq3g/Enterprise%20Customers?node-id=3216:943
+tags: ssl certificate installation, security, https, cryptography, linux
+audience:
+  - platform administrators
+  - infrastructure managers
+  - backend developers
+  - full stack developers
+outsystems-tools:
+  - none
+coverage-type:
+  - apply
 ---
 
 # How to install an SSL Certificate for the OutSystems platform in Linux

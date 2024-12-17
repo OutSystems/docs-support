@@ -1,11 +1,20 @@
 ---
-tags: version-10.0;
+tags: .net, application lifecycle management, cloud hosting, source code management, software migration
 summary: OutSystems 11 (O11) offers a detailed guide for detaching and independently managing .NET applications.
 locale: en-us
 guid: d823e151-2350-4360-b0c3-7030f23affe3
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
 figma: https://www.figma.com/file/TzqCbVlN2j4nadunA7q8VU/Licensing?node-id=1318:936
+audience:
+  - full stack developers
+  - platform administrators
+  - tech leads
+  - infrastructure managers
+outsystems-tools:
+  - none
+coverage-type:
+  - apply
 ---
 
 # The detach process for OutSystems 10
@@ -144,7 +153,7 @@ The code is structured in the following folders:
 * **WebWidgets** – the runtime code for the various custom web controls 
 * **WidgetsRuntimeAPI** – framework to allow building custom web controls   
 
-    ![Figure 1 - Code Structure of a generated Application.png](images/Figure_1_-_Code_Structure_of_a_generated_Application.png)  
+    ![Solution Explorer in Visual Studio showing the structure of a generated application with multiple projects including ContactManager, DatabaseAbstractionLayer, OutSystems.RuntimeCommon, RuntimePlatform, SMSInterface, WebWidgets, and WidgetsRuntimeAPI.](images/Figure_1_-_Code_Structure_of_a_generated_Application.png "Code Structure of a Generated Application")  
     Figure 1: Code Structure of a generated Application.
 
 In the application folder (&lt;Project Name&gt;) there is a set of packages that hold the different types of code. These folders are
@@ -178,11 +187,11 @@ To check it:
     * **&lt;your machine name&gt;** 
     * **Sites**
     * **Default Web Site** 
-        ![Default Web Site.png](images/Default_Web_Site.png)  
+        ![Internet Information Services (IIS) Manager displaying the Default Web Site with various application pools and sites listed.](images/Default_Web_Site.png "Default Web Site in IIS Manager")  
 
 3. Make sure that there is a binding for the HTTP protocol on port 80 for IP address 127.0.0.1 at least. It is recommended that you an asterisk (*) instead as that means all IP address can access it. Leaving only the 127.0.0.1 address will mean that it can only be accessed locally.   
 
-    ![127.0.0.1.png](images/127.0.0.1.png)
+    ![IIS Manager showing the Site Bindings window with an HTTP binding for IP address 127.0.0.1 on port 80.](images/127.0.0.1.png "Site Bindings Configuration")
 
 If you are using the same Application Server that previously hosted OutSystems check Section 3.1.1. Otherwise, if a brand new Application Server is going to be used, configure it according with Section 3.1.2.
 
@@ -207,11 +216,11 @@ In case of having SEO Friendly URLs, you will need to remove the ISAPI Filter, s
 
 2. In the middle-pane, find **ISAPI Filters** and double-click it.   
 
-    ![ISAPI Filter.png](images/ISAPI_Filter.png)  
+    ![IIS Manager displaying the ISAPI Filters option under the Default Web Site Home.](images/ISAPI_Filter.png "ISAPI Filters in IIS Manager")  
 
 3. Search for OutSystems **ISAPI Filter** and delete it.   
 
-    ![ISAPI Filter - remove.jpg](images/ISAPI_Filter_-_remove.png)
+    ![IIS Manager showing the removal of the OutSystems ISAPI Filter from the ISAPI Filters list.](images/ISAPI_Filter_-_remove.png "Removing ISAPI Filter")
 
 #### Using a brand new Application Server
 
@@ -283,11 +292,11 @@ Proceed as follows:
     4. Inside **Process Model**, find the **Identity** field. By clicking it a button with … will appear.   
     Click on it.
 
-        ![Process Model-Identity.png](images/Process_Model_-_Identity.png)
+        ![Advanced Settings window in IIS Manager showing the Process Model section with the Identity field highlighted.](images/Process_Model_-_Identity.png "Advanced Settings for Application Pool")
 
     5. Inside **Application Pool Identity**, select **Built-in account** and choose **LocalSystem** from the options provided.
 
-        ![Application Pool Identity.png](images/Application_Pool_Identity.png)
+        ![Application Pool Identity window in IIS Manager showing the selection of the LocalSystem built-in account.](images/Application_Pool_Identity.png "Application Pool Identity Configuration")
 
 ### Preparing the database to host the data of your applications
 
@@ -369,15 +378,15 @@ To obtain the source code of a web application module, open the Licensing page u
 
 1. Click on ‘eSpaces Source Code’. 
 
-    ![eSpaces Source Code.png](images/eSpaces_Source_Code.png)  
+    ![OutSystems Service Center Licensing page with the Modules Source Code tab highlighted.](images/eSpaces_Source_Code.png "Licensing Page in Service Center")  
 
 2. Click on ‘Detach’ for the module whose source code you want to obtain. 
 
-    ![Detach.png](images/Detach.png)  
+    ![OutSystems Service Center showing the option to detach the source code for a specific module.](images/Detach.png "Detach Module Source Code")  
 
 3. Wait until OutSystems has finished packing the module source code and click on ‘Download’.   
     
-    ![Download.png](images/Download.png)
+    ![OutSystems Service Center displaying the option to download the packed module source code after detaching.](images/Download.png "Download Detached Source Code")
 
 4. Save the zip file and extract it. 
 
@@ -395,11 +404,11 @@ To obtain the native app source code of an Android or iOS mobile app, open the A
 
 1. Search for the application corresponding to your mobile app and click on its name to go to the detail page.
 
-    ![Select application.png](images/Select_application.png)  
+    ![OutSystems Service Center Applications page showing a list of applications with the option to select one.](images/Select_application.png "Select Application in Service Center")  
 
 2. In the Native Platforms tab click in the ‘Download source code’ icon for the desired platform build (Android or iOS).
 
-    ![Download source code.png](images/Download_source_code.png)
+    ![OutSystems Service Center showing the option to download the source code for an Android or iOS mobile app.](images/Download_source_code.png "Download Mobile App Source Code")
 
 3. Save the tar\.gz file and extract it. 
 
@@ -422,11 +431,11 @@ Before you open the application’s solution in Visual Studio, you need to make 
 
     3. **Default Web Site**   
     
-        ![Default Web Site.png](images/Default_Web_Site.png)  
+        ![Internet Information Services (IIS) Manager displaying the Default Web Site with various application pools and sites listed.](images/Default_Web_Site.png "Default Web Site in IIS Manager")  
 
-3. Look for a virtual directory ( ![virtual directory.png](images/virtual_directory.png) ) that has the same name has the module you have detached and remove it; either by clicking on it and then pressing the Del key, or by right-clicking on it to open the popup menu and then choosing the ‘Remove’ option.
+3. Look for a virtual directory ( ![IIS Manager showing a virtual directory under the Default Web Site.](images/virtual_directory.png "Virtual Directory in IIS Manager") ) that has the same name has the module you have detached and remove it; either by clicking on it and then pressing the Del key, or by right-clicking on it to open the popup menu and then choosing the ‘Remove’ option.
 
-    ![virtual directory remove.png](images/virtual_directory_remove.png)
+    ![IIS Manager displaying the option to remove a virtual directory from the Default Web Site.](images/virtual_directory_remove.png "Remove Virtual Directory")
 
 If your application uses the OutSystems SAP plugin, then the SAP .NET Connector libraries have to be manually added to the detached source code. To ensure that the application compiles successfully, you need to copy the _sapnco.dll_ and _sapnco\_utils.dll_ files, located in the _\thirdparty\lib\\_ folder in the Platform Server installation directory, into the _ThirdParty\SAP_ folder that came with the detached source code.
 
@@ -440,7 +449,7 @@ In order to deploy applications to IIS, you will need Visual Studio 2015 with Vi
 
 4. Configure the new profile:   
 
-    ![Publish Web.jpg](images/Publish_Web.png)  
+    ![Visual Studio Publish Web dialog showing the configuration for publishing a web application to IIS.](images/Publish_Web.png "Publish Web Application")  
 
 5. After a successful publication, open IIS (see section 4.3.2) and search under your **Default Web Site** for the virtual directory with the name of your published module and click on it.
 
@@ -573,11 +582,11 @@ When you need to convert your connections string to plain text, use the correspo
 
 An example is provided so that you can easily map the placeholders from the **Configuration Tool**, which can be found under **Windows Start Menu -> OutSystems -> Administration Tools** .
 
-![Appendix - Configuration Tool.png](images/Appendix_-_Configuration_Tool.png)
+![Windows Start Menu showing the OutSystems Configuration Tool under Administration Tools.](images/Appendix_-_Configuration_Tool.png "Configuration Tool in Start Menu")
 
 If it is an external database connection, you can get the same information accessing **ServiceCenter - > Administration -> Database Connections**, since the names are exactly the same.
 
-![Appendix - Database Connections.png](images/Appendix_-_Database_Connections.png)
+![OutSystems Service Center Administration page showing the Database Connections tab.](images/Appendix_-_Database_Connections.png "Database Connections in Service Center")
 
 Do not forget to change the placeholders, wrapped around curly brackets `{}`, with your own information. Also, each connection string refers to a different User; this mean that for each string you must check which User it refers to.
 
@@ -585,28 +594,28 @@ Do not forget to change the placeholders, wrapped around curly brackets `{}`, wi
     
     Server= **{Server}** ;Database= **{Schema}** ;Uid= **{User}** ;Pwd= **{Password}** ;Allow User Variables=true; ConnectionLifeTime=6000; ConnectionReset=true;
 
-![Appendix - Mysql1.png](images/Appendix_-_Mysql1.png)
+![OutSystems Configuration Tool showing the MySQL database configuration settings.](images/Appendix_-_Mysql1.png "MySQL Configuration in Configuration Tool")
 
-![Appendix - Mysql2.png](images/Appendix_-_Mysql2.png)
+![OutSystems Configuration Tool showing the MySQL session database configuration settings.](images/Appendix_-_Mysql2.png "MySQL Configuration in Configuration Tool")
 
 #### Oracle 
     
     User ID= **{User}** ;Password= **{Password}** ;Data Source= (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST= **{Host}** )(PORT= **{Port}** ))(CONNECT_DATA=(SER VICE_NAME= **{Service Name}** )));
 
-![Appendix - Oracle1.png](images/Appendix_-_Oracle1.png)
+![OutSystems Configuration Tool showing the Oracle database configuration settings.](images/Appendix_-_Oracle1.png "Oracle Configuration in Configuration Tool")
 
-![Appendix - Oracle2.png](images/Appendix_-_Oracle2.png)
+![OutSystems Configuration Tool showing the Oracle session database configuration settings.](images/Appendix_-_Oracle2.png "Oracle Configuration in Configuration Tool")
 
 #### SQL Server 
     
     User ID= **{User}** ;Password= **{Password}** ;Data Source= **{Server}** ;Initial Catalog= **{Database}** ;
     
-![Appendix - SqlServer1.png](images/Appendix_-_SqlServer1.png)
+![OutSystems Configuration Tool showing the SQL Server database configuration settings.](images/Appendix_-_SqlServer1.png "SQL Server Configuration in Configuration Tool")
 
-![Appendix - SqlServer2.png](images/Appendix_-_SqlServer2.png)
+![OutSystems Configuration Tool showing the SQL Server session database configuration settings.](images/Appendix_-_SqlServer2.png "SQL Server Configuration in Configuration Tool")
 
 #### iDB2   
     
     DataSource= **{Server}** ;Database= **{Database}** ;UserId= **{Username}** ;Password= **{Password}** ;Def aultCollection= **{Schema}** ; 
     
-![Appendix - iDB2.png](images/Appendix_-_iDB2.png)
+![OutSystems Service Center showing the configuration settings for an iDB2 database connection.](images/Appendix_-_iDB2.png "iDB2 Configuration in Service Center")

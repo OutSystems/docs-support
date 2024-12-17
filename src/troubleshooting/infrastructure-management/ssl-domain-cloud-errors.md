@@ -1,11 +1,20 @@
 ---
 summary: Explore common SSL domain certificate validation errors in OutSystems 11 (O11) and their solutions.
-tags:
+tags: ssl, certificate validation, pfx files, encryption, domain setup
 locale: en-us
 guid: 7a4d2b58-5b42-4f33-be80-e3734d161ea8
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
 figma:
+audience:
+  - platform administrators
+  - full stack developers
+  - infrastructure managers
+outsystems-tools:
+  - service center
+  - lifetime
+coverage-type:
+  - unblock
 ---
 
 # Possible errors when validating your SSL domain certificate

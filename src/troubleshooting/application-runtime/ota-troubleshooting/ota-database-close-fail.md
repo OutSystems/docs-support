@@ -5,6 +5,13 @@ guid: BEA72D64-7BE3-4509-BFFC-7DE599AA2703
 app_type: mobile apps
 platform-version: o11
 figma:
+tags: error handling, database management, application lifecycle, debugging
+audience:
+  - mobile developers
+outsystems-tools:
+  - service studio
+coverage-type:
+  - unblock
 ---
 
 # Failed to close database cannot be closed while a transaction is in progress

@@ -1,11 +1,19 @@
 ---
-summary: 
-tags: 
+summary:
+tags: error handling, support, diagnostic tools, error reporting
 guid: 46758882-076a-4055-865c-bbe63dfc9af0
 locale: en-us
 app_type: mobile apps, reactive web apps, traditional web apps
 platform-version: odc
 figma: https://www.figma.com/design/6tXLupLiqfG9FOElATTGQU/Troubleshooting?node-id=3648-246
+audience:
+  - mobile developers
+  - frontend developers
+  - full stack developers
+outsystems-tools:
+  - odc studio
+coverage-type:
+  - unblock
 ---
 
 # ODC Studio logs

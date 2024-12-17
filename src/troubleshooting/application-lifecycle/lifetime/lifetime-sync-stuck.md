@@ -1,12 +1,21 @@
 ---
 summary: Troubleshoot stuck environment synchronization in OutSystems 11 (O11) LifeTime by checking updates, connectivity, and process statuses.
-tags:
+tags: outsystems lifetime, environment synchronization, platform server, troubleshooting, connectivity issues
 locale: en-us
 guid: e6d30ec2-fd7a-4214-921b-12f021aab323
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
 figma: https://www.figma.com/file/6tXLupLiqfG9FOElATTGQU/Troubleshooting?node-id=620:53
+audience:
+  - platform administrators
+  - infrastructure managers
+outsystems-tools:
+  - lifetime
+  - platform server
+coverage-type:
+  - unblock
 ---
+
 # LifeTime synchronization is stuck
 
 ## Symptom

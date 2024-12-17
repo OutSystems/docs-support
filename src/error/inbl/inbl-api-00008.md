@@ -1,11 +1,17 @@
 ---
 summary: No integration was found for the "Key" with <value>.
-tags:
+tags: api integration, error handling, integration management, support, integration builder
 locale: en-us
 guid: 96d6ec2a-be91-4af8-813c-f94a314d5b2a
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
 figma:
+audience:
+  - full stack developers
+outsystems-tools:
+  - integration builder
+coverage-type:
+  - unblock
 ---
 
 # OS-INBL-API-00008

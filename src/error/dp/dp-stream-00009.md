@@ -1,11 +1,20 @@
 ---
 summary: This article explains the cause, impact, and recommended action for a failed precondition error that occurs while connecting to the destination server.
-tags:
+tags: error handling, log streaming, debugging, grpc errors
 guid: 2b3be8a1-a0e6-4ba0-8ff1-37539177e915
 locale: en-us
 app_type: traditional web apps, mobile apps, reactive web apps
-figma: 
+figma:
 platform-version: o11
+audience:
+  - platform administrators
+  - full stack developers
+  - backend developers
+outsystems-tools:
+  - lifetime
+  - service center
+coverage-type:
+  - unblock
 ---
 
 # OS-DP-STREAM-00009

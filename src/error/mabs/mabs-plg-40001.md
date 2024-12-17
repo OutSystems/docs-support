@@ -1,11 +1,17 @@
 ---
 summary: Invalid Cordova plugin <plugin_name>.
-tags: mabs; plg; error_codes
+tags: cordova plugins, mobile app build process, mobile app extensibility, error handling, troubleshooting
 locale: en-us
 app_type: mobile apps
 guid: 5df80ef3-c2c1-4bd6-be71-d4e8a59b30bc
 platform-version: o11, odc
 figma:
+audience:
+  - mobile developers
+outsystems-tools:
+  - service center
+coverage-type:
+  - unblock
 ---
 
 # OS-MABS-PLG-40001

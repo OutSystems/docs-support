@@ -1,11 +1,18 @@
 ---
 summary: This article explains the cause, impact, and recommended action for an authorization error that occurs while connecting to the APM tool server.
-tags:
+tags: authorization errors, error handling, server configuration, technical support
 guid: f234f28c-ba08-47d8-8a69-4e918ae3ab8c
 locale: en-us
 app_type: traditional web apps, mobile apps, reactive web apps
-figma: 
+figma:
 platform-version: o11
+audience:
+  - platform administrators
+  - full stack developers
+outsystems-tools:
+  - lifetime
+coverage-type:
+  - unblock
 ---
 
 # OS-DP-STREAM-40301

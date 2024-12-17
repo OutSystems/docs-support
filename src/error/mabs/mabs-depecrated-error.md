@@ -1,11 +1,19 @@
 ---
 summary:
-tags:
+tags: mobile app development, mabs versioning, deployment troubleshooting, mobile app package building
 locale: en-us
 guid: ad9aa61c-1690-4629-8b9f-63bf4eeaf13d
 app_type: mobile apps
 platform-version: o11, odc
 figma:
+audience:
+  - mobile developers
+  - frontend developers
+  - full stack developers
+outsystems-tools:
+  - service studio
+coverage-type:
+  - unblock
 ---
 
 # Error due to deprecated MABS versions

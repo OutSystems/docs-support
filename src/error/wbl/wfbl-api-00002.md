@@ -1,11 +1,18 @@
 ---
 summary: Token error. <OriginalErrorMessage>.
-tags:
+tags: error handling, workflow, authentication, security, outsystems platform
 locale: en-us
 guid: 27e9fff4-de23-40c7-ba8a-e2c3b7fdda09
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
 figma:
+audience:
+  - full stack developers
+  - platform administrators
+outsystems-tools:
+  - workflow builder
+coverage-type:
+  - unblock
 ---
 
 # OS-WFBL-API-00002

@@ -1,11 +1,21 @@
 ---
 summary: Your app wasn’t generated because the required dependency for the {0} node module in a plugin hook was missing. Check the product documentation on how to ensure your plugins node dependencies.
-tags:
+tags: plugin management, dependency management, build failures, mobile app build, outsystems platform
 guid: acc20652-0581-4457-83fd-992a8dbd43d6
 locale: en-us
 app_type: mobile apps
 platform-version: o11, odc
 figma:
+audience:
+  - mobile developers
+  - frontend developers
+  - full stack developers
+  - platform administrators
+outsystems-tools:
+  - service studio
+  - service center
+coverage-type:
+  - unblock
 ---
 
 # OS-MABS-GEN-20001

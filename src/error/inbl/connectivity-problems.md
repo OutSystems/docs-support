@@ -1,12 +1,22 @@
 ---
 summary: Connectivity problems with Integration Builder or Workflow Builder
-tags:
+tags: connectivity issues, environment configuration, network requirements, error handling, access troubleshooting
 helpids: 30403
 locale: en-us
 guid: 2d4d101e-fdac-4eab-a7a1-b1fbe4a4b742
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
 figma:
+audience:
+  - platform administrators
+  - full stack developers
+  - infrastructure managers
+outsystems-tools:
+  - experience builder
+  - workflow builder
+  - integration builder
+coverage-type:
+  - unblock
 ---
 
 # Integration - Workflow Builder cannot connect to your environment

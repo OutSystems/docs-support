@@ -1,12 +1,20 @@
 ---
-tags: runtime-mobileandreactiveweb;  
+tags: ios development, mobile app configuration, security best practices, mobile app troubleshooting, cross-platform compatibility
 summary: Learn how to troubleshoot OutSystems 11 (O11) apps on iOS devices, addressing iframe issues and cookie handling with custom schemes and API solutions.
 locale: en-us
 guid: f296d423-0144-4164-8c73-383013490529
 app_type: mobile apps, reactive web apps
 platform-version: o11
 figma: https://www.figma.com/file/cPLNnZfDOZ1NX3avcjmq3g/Enterprise%20Customers?node-id=3237:44
+audience:
+  - mobile developers
+  - frontend developers
+outsystems-tools:
+  - service center
+coverage-type:
+  - unblock
 ---
+
 # Troubleshooting OutSystems apps on iOS devices
 
 Since the release of [MABS version 6.0](https://success.outsystems.com/Support/Release_Notes/Mobile_Apps_Build_Service/MABS_Version_6.0), **OutSystems** mobile apps require a custom scheme in iOS in order to

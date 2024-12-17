@@ -1,12 +1,21 @@
 ---
 summary: Explore common deployment issues and troubleshooting steps for OutSystems 11 (O11) using LifeTime.
-tags:
+tags: deployment issues, troubleshooting, on-premises deployment, network connectivity, antivirus configuration
 locale: en-us
 guid: c7ebcb0a-6852-4222-9286-9fa6bc5d0675
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
 figma: https://www.figma.com/file/6tXLupLiqfG9FOElATTGQU/Troubleshooting?node-id=620:48
+audience:
+  - platform administrators
+  - full stack developers
+  - infrastructure managers
+outsystems-tools:
+  - lifetime
+coverage-type:
+  - unblock
 ---
+
 # Unable to deploy applications using LifeTime
 
 There are some situations that might prevent you from using LifeTime to deploy your applications from a **source** to a **target** environment (for example, from Development to QA).

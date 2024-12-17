@@ -5,7 +5,17 @@ guid: f88eb567-39c5-430b-ad00-64cead6e9fd0
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
 figma:
+tags: free development tools, cloud-based development, application lifecycle management
+audience:
+  - mobile developers
+  - frontend developers
+  - full stack developers
+outsystems-tools:
+  - none
+coverage-type:
+  - understand
 ---
+
 # What is an OutSystems Personal Environment
 
 The Personal Environment (PE) is the **free, cloud-based version** of OutSystems. It allows you to create, deploy, and run your personal applications.

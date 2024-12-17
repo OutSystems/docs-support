@@ -1,11 +1,20 @@
 ---
 summary: Guidelines for conducting authorized penetration, vulnerability, and load tests on OutSystems Cloud.
-tags: support-Cloud_Platform
+tags: cloud security, load testing, penetration testing, vulnerability scanning, authorization procedures
 locale: en-us
 guid: 00c90ba4-311d-43b2-a676-0613ad5f60b2
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11, odc
 figma:
+audience:
+  - platform administrators
+  - tech leads
+  - full stack developers
+outsystems-tools:
+  - service center
+  - none
+coverage-type:
+  - apply
 ---
 
 # Load and penetration tests on OutSystems Cloud

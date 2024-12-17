@@ -1,11 +1,20 @@
 ---
 summary: There's already an active Case Status defined as initial.
-tags:
+tags: case management, error handling, isinitial attribute, case status configuration, caseconfigurations_api
 locale: en-us
 guid: 00538b23-fecd-47ed-91c1-cee49b2c5b33
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
 figma:
+audience:
+  - full stack developers
+  - frontend developers
+  - backend developers
+outsystems-tools:
+  - service studio
+  - case management framework
+coverage-type:
+  - unblock
 ---
 
 # OS-CMFR-GEN-00017

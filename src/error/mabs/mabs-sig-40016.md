@@ -1,11 +1,17 @@
 ---
 summary: Your provisioning profile <provision_profile> is missing the <entitlement> entitlement.
-tags: mabs sig error_code
+tags: ios provisioning, application packaging, error handling, mobile app distribution, entitlements management
 guid: fa25cf31-dfed-4142-97f9-da8cfbc6317f
 locale: en-us
 app_type: mobile apps
 platform-version: o11, odc
 figma:
+audience:
+  - mobile developers
+outsystems-tools:
+  - service studio
+coverage-type:
+  - unblock
 ---
 
 # OS-MABS-SIG-40016

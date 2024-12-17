@@ -5,7 +5,17 @@ guid: c9a42528-9c9c-471c-aded-e5c2a0aef08e
 app_type: mobile apps, reactive web apps, traditional web apps
 platform-version: o11
 figma: https://www.figma.com/file/6tXLupLiqfG9FOElATTGQU/Troubleshooting?type=design&node-id=3534-267&mode=design&t=cOOFHu0WdxoxhhZe-0
+tags: dns configuration, secure endpoints, error handling, cloud environments, endpoint configuration
+audience:
+  - platform administrators
+  - frontend developers
+  - full stack developers
+outsystems-tools:
+  - service studio
+coverage-type:
+  - unblock
 ---
+
 # Troubleshooting error 503 - Host header does not match
 
 In the user browser, the error `503 - Host header does not match` appears when [secure endpoints](https://www.outsystems.com/tk/redirect?g=6c1dcebe-0c55-4fb3-b94b-21d162a23053) are enabled and the OutSystems Cloud environments receive a request with a host header that is not allowed. 

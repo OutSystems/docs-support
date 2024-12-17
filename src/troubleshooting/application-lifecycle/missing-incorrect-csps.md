@@ -5,6 +5,16 @@ guid: 14893878-ab23-4afd-8935-c901853a5ebe
 app_type: reactive web apps
 platform-version: o11
 figma: https://www.figma.com/file/6tXLupLiqfG9FOElATTGQU/Troubleshooting?type=design&node-id=3431%3A273&mode=design&t=klPGgLnFhGS1wmJs-1
+tags: security, content security policy, troubleshooting, browser developer tools
+audience:
+  - platform administrators
+  - frontend developers
+  - full stack developers
+outsystems-tools:
+  - service studio
+  - lifetime
+coverage-type:
+  - unblock
 ---
 
 # Troubleshooting missing or incorrect CSPs

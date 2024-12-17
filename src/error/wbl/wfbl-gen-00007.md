@@ -1,11 +1,18 @@
 ---
 summary: Cannot create EnvModule. <OriginalErrorMessage>.`
-tags:
+tags: error handling, dependency validation, application publishing, outsystems platform
 locale: en-us
 guid: fa6b8ae9-3aef-4ab1-bc3a-8ddb43c7a126
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
 figma:
+audience:
+  - full stack developers
+  - platform administrators
+outsystems-tools:
+  - service studio
+coverage-type:
+  - unblock
 ---
 
 # OS-WFBL-GEN-00007

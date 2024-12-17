@@ -5,6 +5,14 @@ guid: FD2F492E-7BEF-41F8-A4F9-4C765026C5C6
 app_type: mobile apps
 platform-version: o11
 figma:
+tags: mobile development, debugging, logging, outsystems platform, error handling
+audience:
+  - mobile developers
+  - frontend developers
+outsystems-tools:
+  - service studio
+coverage-type:
+  - unblock
 ---
 
 # Unable to find resource 

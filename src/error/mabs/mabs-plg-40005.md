@@ -1,11 +1,18 @@
 ---
 summary: Couldn't install the Cordova plugin <plugin_name> due to an error in the plugin.xml file. The Spec attribute in the Framework element related to CocoaPods is invalid.
-tags: mabs; plg; error_codes
+tags: cordova, cocoapods, plugin configuration, ios development, mobile app packaging
 locale: en-us
 app_type: mobile apps
 guid: 6ed71f5f-bef6-4a82-a1f3-9d977224a5a0
 platform-version: o11, odc
 figma:
+audience:
+  - mobile developers
+outsystems-tools:
+  - service studio
+  - service center
+coverage-type:
+  - unblock
 ---
 
 # OS-MABS-PLG-40005

@@ -1,11 +1,17 @@
 ---
 summary: This certificate has an unknown file format.
-tags: mabs sig error_code
+tags: ios deployment, mobile app packaging, certificate management, error resolution
 guid: 2c20cf31-4e34-414e-b8f4-50af2377c802
 locale: en-us
 app_type: mobile apps
 platform-version: o11, odc
 figma:
+audience:
+  - mobile developers
+outsystems-tools:
+  - mabs
+coverage-type:
+  - unblock
 ---
 
 # OS-MABS-SIG-40004

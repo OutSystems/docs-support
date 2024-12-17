@@ -1,11 +1,19 @@
 ---
 summary: Explore how OutSystems 11 (O11) handles SLOWSQL log messages for performance troubleshooting in database queries.
-tags:
+tags: performance optimization, database query, logging, troubleshooting, platform server
 locale: en-us
 guid: 4d8cc454-3db3-11ed-b72d-00155dba6401
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
 figma: https://www.figma.com/file/6tXLupLiqfG9FOElATTGQU/Troubleshooting?node-id=3327:402
+audience:
+  - platform administrators
+  - full stack developers
+outsystems-tools:
+  - service center
+  - platform server
+coverage-type:
+  - unblock
 ---
 
 # SLOWSQL log messages

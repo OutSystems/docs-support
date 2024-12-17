@@ -1,11 +1,17 @@
 ---
 summary: The APS Environment &lt;value&gt; doesn't match your provisioning profile.
-tags: mabs sig error_code
+tags: ios provisioning, mobile application packaging, application error resolution, push notification services
 guid: 794dfe3a-7086-4b35-bc0f-3b8a03415799
 locale: en-us
 app_type: mobile apps
 platform-version: o11, odc
 figma:
+audience:
+  - mobile developers
+outsystems-tools:
+  - none
+coverage-type:
+  - unblock
 ---
 
 # OS-MABS-SIG-40001

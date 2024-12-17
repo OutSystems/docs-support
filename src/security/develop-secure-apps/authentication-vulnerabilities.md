@@ -5,6 +5,15 @@ guid: bb010468-9ea8-42d8-815d-c5f8cf3ce2cd
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
 figma:
+tags: application security, https, hsts, vulnerability management, authentication security
+audience:
+  - mobile developers
+  - frontend developers
+  - full stack developers
+outsystems-tools:
+  - none
+coverage-type:
+  - evaluate
 ---
 
 # Protecting OutSystems Apps From Authentication Vulnerabilities

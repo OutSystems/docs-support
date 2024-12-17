@@ -1,11 +1,18 @@
 ---
 summary: This article explains the cause, impact, and recommended action for an operation cancelled error that occurs while connecting to the destination server.
-tags:
+tags: error handling, server configuration, logging, grpc, connection issues
 guid: 1bf25d7e-40f0-4250-83b6-873a691b6820
 locale: en-us
 app_type: traditional web apps, mobile apps, reactive web apps
-figma: 
+figma:
 platform-version: o11
+audience:
+  - full stack developers
+  - platform administrators
+outsystems-tools:
+  - lifetime
+coverage-type:
+  - unblock
 ---
 
 # OS-DP-STREAM-00001

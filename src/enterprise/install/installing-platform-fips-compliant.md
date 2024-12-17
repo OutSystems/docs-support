@@ -5,6 +5,15 @@ guid: 4f250e9c-6197-4fc6-8ee2-d6070619a935
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
 figma:
+tags: fips compliance, cryptographic algorithms, system configuration, error resolution, .net framework
+audience:
+  - platform administrators
+  - full stack developers
+  - backend developers
+outsystems-tools:
+  - none
+coverage-type:
+  - apply
 ---
 
 # Installing the OutSystems on a FIPS compliant system

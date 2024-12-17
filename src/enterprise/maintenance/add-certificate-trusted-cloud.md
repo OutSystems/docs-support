@@ -1,12 +1,20 @@
 ---
 summary: Learn how to add certificates to the trusted root store in OutSystems 11 (O11) Cloud environments to ensure secure HTTPS connections with external systems.
-tags: support-Cloud_Platform
+tags: ssl/tls, https, certificate management, cloud services, trusted root store
 locale: en-us
 guid: 94fe2273-28c4-448f-8c54-cf699d40f9f1
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
 figma:
+audience:
+  - platform administrators
+  - full stack developers
+outsystems-tools:
+  - service center
+coverage-type:
+  - remember
 ---
+
 # Add certificate to trusted root store in OutSystems Cloud
 
 

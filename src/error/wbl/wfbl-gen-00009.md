@@ -1,11 +1,19 @@
 ---
 summary: Module error. <OriginalErrorMessage>.
-tags:
+tags: error handling, application publishing, dependency management, permission issues
 locale: en-us
 guid: 4e2640ad-ac76-418e-bea8-33823fe0abfe
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
 figma:
+audience:
+  - full stack developers
+  - platform administrators
+outsystems-tools:
+  - workflow builder
+  - service studio
+coverage-type:
+  - unblock
 ---
 
 # OS-WFBL-GEN-00009

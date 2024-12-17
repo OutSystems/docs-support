@@ -5,6 +5,16 @@ guid: ab6146f9-8d06-44cb-9753-96c701e290f1
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11, odc
 figma: https://www.figma.com/file/TzqCbVlN2j4nadunA7q8VU/Licensing?node-id=1318:604
+tags: intellectual property protection, application deployment, licensing, outsystems platform, error handling
+audience:
+  - platform administrators
+  - full stack developers
+  - backend developers
+outsystems-tools:
+  - service studio
+  - ipp portal
+coverage-type:
+  - understand
 ---
 
 # OutSystems Intellectual Property Protection - IPP

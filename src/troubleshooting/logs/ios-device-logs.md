@@ -1,11 +1,17 @@
 ---
 summary: Discover methods to retrieve iOS device logs with Apple Configurator 2, Xcode, iTools, and iOSLogInfo in OutSystems 11 (O11).
-tags: 
+tags: ios development, log retrieval, debugging, troubleshooting, cross-platform tools
 locale: en-us
 guid: c05d23c9-e912-469a-ab6b-7fe6a9d97da8
 app_type: mobile apps
 platform-version: o11
 figma:
+audience:
+  - mobile developers
+outsystems-tools:
+  - none
+coverage-type:
+  - unblock
 ---
 
 # Get iOS Device Logs

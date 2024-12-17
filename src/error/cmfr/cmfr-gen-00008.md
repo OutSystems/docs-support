@@ -1,11 +1,20 @@
 ---
 summary: There's no access control for that <user/group>/<case/case definition> pairing.
-tags:
+tags: access control, case management framework, debugging, security, error handling
 locale: en-us
 guid: ea7908f7-0891-47cf-bb24-63e201da0baa
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
 figma:
+audience:
+  - full stack developers
+  - frontend developers
+  - platform administrators
+outsystems-tools:
+  - service studio
+  - case management framework
+coverage-type:
+  - unblock
 ---
 
 # OS-CMFR-GEN-00008

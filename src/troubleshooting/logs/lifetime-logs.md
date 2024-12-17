@@ -1,12 +1,21 @@
 ---
 summary: Explore how to obtain various reports in OutSystems 11 (O11) through the LifeTime troubleshooting interface.
-tags:
+tags: lifetime, troubleshooting, infrastructure management, support case assistance
 locale: en-us
 guid: 27d0fb71-1ef7-4574-a8ca-bd1126b29976
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
 figma: https://www.figma.com/file/6tXLupLiqfG9FOElATTGQU/Troubleshooting?node-id=3327:499
+audience:
+  - platform administrators
+  - infrastructure managers
+  - full stack developers
+outsystems-tools:
+  - lifetime
+coverage-type:
+  - unblock
 ---
+
 # LifeTime reports
 
 You need [Manage Infrastructure and Users](https://success.outsystems.com/Documentation/11/Managing_the_Applications_Lifecycle/Manage_IT_Teams/About_Permission_Levels) permission to get these reports. If you don’t have this permission, contact your infrastructure manager.

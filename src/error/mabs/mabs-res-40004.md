@@ -1,11 +1,18 @@
 ---
 summary: Couldn't generate your app because the connection timed out. If the problem persists, check our documentation for more information.
-tags:
+tags: mobile app development, mabs, application building, error handling, application deployment
 guid: 6837f7d5-defe-42c9-b1e9-19253bf2fc7c
 locale: en-us
 app_type: mobile apps
 platform-version: o11, odc
 figma:
+audience:
+  - mobile developers
+outsystems-tools:
+  - service center
+  - mabs
+coverage-type:
+  - unblock
 ---
 
 # OS-MABS-RES-40004

@@ -1,11 +1,19 @@
 ---
 summary: Something happened and we couldn't harden your app with AppShield. Please try again.
-tags:
+tags: error handling, troubleshooting, mobile app security, app deployment, support
 guid: b6781965-24f2-4a38-a47b-d954b1cfde48
 locale: en-us
 app_type: mobile apps
 platform-version: o11, odc
 figma:
+audience:
+  - mobile developers
+  - platform administrators
+  - full stack developers
+outsystems-tools:
+  - service studio
+coverage-type:
+  - unblock
 ---
 
 # OS-MABS-SHLD-50000

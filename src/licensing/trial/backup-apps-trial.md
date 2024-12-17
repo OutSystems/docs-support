@@ -5,6 +5,15 @@ guid: e8b59029-25f7-410c-8134-c595036907a4
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
 figma: https://www.figma.com/file/TzqCbVlN2j4nadunA7q8VU/Licensing?node-id=1318:904
+tags: ide usage, reactive web apps, tutorials for beginners, personal environment, app deployment
+audience:
+  - mobile developers
+  - frontend developers
+  - full stack developers
+outsystems-tools:
+  - service studio
+coverage-type:
+  - apply
 ---
 
 # Backing up and continuing work on your apps at the end of the trial

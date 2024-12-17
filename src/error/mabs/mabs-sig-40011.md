@@ -1,11 +1,17 @@
 ---
 summary: There was an issue generating the app. Please check if your app identifier, certificate, and provisioning profile match the Development application type.
-tags: mabs sig error_code
+tags: mobile app generation, ios publishing, provisioning profile, app certificates, error troubleshooting
 guid: 4f6e76b1-ffcf-4099-a247-d3c4b4238b84
 locale: en-us
 app_type: mobile apps
 platform-version: o11, odc
 figma:
+audience:
+  - mobile developers
+outsystems-tools:
+  - service studio
+coverage-type:
+  - unblock
 ---
 
 # OS-MABS-SIG-40011

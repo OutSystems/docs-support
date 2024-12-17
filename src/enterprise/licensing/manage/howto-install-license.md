@@ -5,6 +5,13 @@ guid: 901b198a-6fac-460e-b661-9a76c2e1093b
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
 figma: https://www.figma.com/file/cPLNnZfDOZ1NX3avcjmq3g/Enterprise%20Customers?node-id=3215:460
+tags: license management, outsystems service center, on-premises environment, environment configuration
+audience:
+  - platform administrators
+outsystems-tools:
+  - service center
+coverage-type:
+  - apply
 ---
 
 # How to install a license file

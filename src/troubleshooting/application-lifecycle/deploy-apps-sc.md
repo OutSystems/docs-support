@@ -1,12 +1,22 @@
 ---
 summary: Explore how to deploy applications in target environments using Service Center as a workaround in OutSystems 11 (O11).
-tags:
+tags: deployment strategies, environment management, deployment troubleshooting
 locale: en-us
 guid: 7755631f-f5b4-43e1-a1ca-83c677d5adc3
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
 figma: https://www.figma.com/file/6tXLupLiqfG9FOElATTGQU/Troubleshooting?node-id=22:51
+audience:
+  - full stack developers
+  - platform administrators
+  - backend developers
+outsystems-tools:
+  - service center
+  - lifetime
+coverage-type:
+  - unblock
 ---
+
 # Deploy applications through Service Center
 
 When you want to deploy an application from a **source** to a **target** environment (for example, from Development to QA) and for some reason, you aren't able to perform the deployment in LifeTime, a possible workaround is to **deploy through Service Center** using an OutSystems Solution.

@@ -1,11 +1,20 @@
 ---
 summary: Case Definition with the Id <case-definition-identifier-value> can't be purged. Change the PurgeTypeId to allow it.
-tags:
+tags: error handling, case management, application maintenance, data management, outsystems platform
 locale: en-us
 guid: 005f77d0-8e61-46ec-8395-1d3a3ec93e8a
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
 figma:
+audience:
+  - backend developers
+  - full stack developers
+  - platform administrators
+outsystems-tools:
+  - service studio
+  - case management framework
+coverage-type:
+  - unblock
 ---
 
 # OS-CMFR-GEN-00033

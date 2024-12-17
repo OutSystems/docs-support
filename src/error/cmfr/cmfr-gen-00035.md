@@ -1,11 +1,21 @@
 ---
 summary: ExternalRequesterDetails and CaseRequesterUserId input parameters cannot be both filled in. Send the CaseRequesterUserId parameter when the requester is an internal user and the ExternalRequesterDetails when the requester is external.
-tags:
+tags: error handling, case management, application development, debugging, framework usage
 locale: en-us
 guid: dd233fe7-e622-4998-ad2c-0973db37670a
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
 figma:
+audience:
+  - full stack developers
+  - frontend developers
+  - backend developers
+  - platform administrators
+outsystems-tools:
+  - service studio
+  - case management framework
+coverage-type:
+  - unblock
 ---
 
 # OS-CMFR-GEN-00035

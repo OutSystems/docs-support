@@ -1,11 +1,19 @@
 ---
 summary: This article explains the cause, impact, and recommended action for a connection error that occurs while connecting to the APM tool server.
-tags:
+tags: error handling, connection issues, apm integration, authorization errors, configuration management
 guid: 4215f2bc-42a9-4691-8b52-16081feec796
 locale: en-us
 app_type: traditional web apps, mobile apps, reactive web apps
-figma: 
+figma:
 platform-version: o11
+audience:
+  - platform administrators
+  - full stack developers
+  - infrastructure managers
+outsystems-tools:
+  - lifetime
+coverage-type:
+  - unblock
 ---
 
 # OS-DP-STREAM-40401

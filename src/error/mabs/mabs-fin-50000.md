@@ -1,11 +1,17 @@
 ---
 summary: Something happened on our side while packaging your app. Please try again.
-tags:
+tags: mobile app building, build errors, debugging, application packaging, support procedures
 guid: 7d63fef8-7edc-4f44-b79c-4c69687f43fc
 locale: en-us
 app_type: mobile apps
 platform-version: o11, odc
 figma:
+audience:
+  - mobile developers
+outsystems-tools:
+  - service center
+coverage-type:
+  - unblock
 ---
 
 # OS-MABS-FIN-500000

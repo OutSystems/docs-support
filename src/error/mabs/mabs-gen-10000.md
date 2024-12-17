@@ -1,11 +1,18 @@
 ---
 summary: Your app wasn’t generated because we couldn’t fetch its dependencies from the repository server {0}. Please check your access to this repository and try again.
-tags:
+tags: mobile app building, dependency management, android development, build issues, maven repository
 guid: 93d34f9f-2063-48a2-87c8-cecf6610a06c
 locale: en-us
 app_type: mobile apps
 platform-version: o11, odc
 figma:
+audience:
+  - mobile developers
+outsystems-tools:
+  - service studio
+  - service center
+coverage-type:
+  - unblock
 ---
 
 # OS-MABS-GEN-10000

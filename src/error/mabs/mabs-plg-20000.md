@@ -1,11 +1,17 @@
 ---
 summary: Couldn't install the Cordova plugin <plugin_name> because the required dependency for the '<dependency_name>' node module in a plugin hook was missing. Check the product documentation on how to ensure all your plugins node dependencies.
-tags: mabs plg error_codes
+tags: cordova, plugin installation, dependency management, node.js, build environment
 locale: en-us
 app_type: mobile apps
 guid: 70fb8768-b218-4aa3-9f2b-d9a600aa0436
 platform-version: o11, odc
 figma:
+audience:
+  - mobile developers
+outsystems-tools:
+  - none
+coverage-type:
+  - unblock
 ---
 
 # OS-MABS-PLG-20000

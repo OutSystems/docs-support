@@ -1,11 +1,17 @@
 ---
 summary: Couldn't install the Cordova plugin <plugin_name> because CocoaPods built in Swift are not supported.
-tags: mabs; plg; error_codes
+tags: cordova, cocoapods, mobile app packaging, error handling, outsystems plugin
 locale: en-us
 app_type: mobile apps
 guid: f46dbb03-8652-4c48-983c-52611e3515d3
 platform-version: o11, odc
 figma:
+audience:
+  - mobile developers
+outsystems-tools:
+  - service center
+coverage-type:
+  - unblock
 ---
 
 # OS-MABS-PLG-40008

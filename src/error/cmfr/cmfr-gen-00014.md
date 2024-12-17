@@ -1,11 +1,20 @@
 ---
 summary: Either CanView or CanEdit must be set to True.
-tags:
+tags: error handling, case management, debugging, access control, best practices
 locale: en-us
 guid: 862516ae-30d5-4353-8c6a-db12a33a37b3
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
 figma:
+audience:
+  - full stack developers
+  - frontend developers
+  - backend developers
+outsystems-tools:
+  - service studio
+  - case management framework
+coverage-type:
+  - unblock
 ---
 
 # OS-CMFR-GEN-00014

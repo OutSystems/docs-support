@@ -1,12 +1,15 @@
 ---
 summary: This guide provides troubleshooting steps for VPN connectivity issues in OutSystems 11 (O11).
-tags: 
+tags:
 locale: en-us
 guid: eee4da25-8b13-4bac-b8e7-dae4ece8c3ec
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
 figma:
+coverage-type:
+  - unblock
 ---
+
 # VPN connectivity and troubleshooting guide
 
 ## Overview

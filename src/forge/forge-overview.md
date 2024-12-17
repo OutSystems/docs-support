@@ -1,11 +1,19 @@
 ---
 summary: Explore the OutSystems 11 (O11) Forge, a repository for sharing diverse software projects and components that enhance platform capabilities.
-tags: forge; forge_support
+tags: forge repository, community collaboration, open-source licensing, industry expertise
 locale: en-us
 guid: 8a0a5173-e7b7-4b8a-a58a-42d43e201233
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
 figma:
+audience:
+  - full stack developers
+  - mobile developers
+  - frontend developers
+outsystems-tools:
+  - forge
+coverage-type:
+  - unblock
 ---
 
 # Overview

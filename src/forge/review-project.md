@@ -1,11 +1,19 @@
 ---
 summary: Explore how to report, review, and flag components in OutSystems 11 (O11) to ensure content quality and security.
-tags: forge; forge_support; forge_support_sharing
+tags: content moderation, security management, user reviews, component rating, issue reporting
 locale: en-us
 guid: faa4f7b0-8db6-485d-977b-ef7e703739a7
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
 figma:
+audience:
+  - full stack developers
+  - frontend developers
+  - mobile developers
+outsystems-tools:
+  - forge
+coverage-type:
+  - understand
 ---
 
 # Reviewing or Flagging a Project

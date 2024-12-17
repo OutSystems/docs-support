@@ -1,11 +1,19 @@
 ---
 summary: The AppShield's extensibility configurations can't be changed.
-tags:
+tags: error handling, plugin configuration, application building, outsystems forge, support
 guid: 98fefaf5-f364-4389-a798-b87645aa84bd
 locale: en-us
 app_type: mobile apps
 platform-version: o11, odc
 figma:
+audience:
+  - mobile developers
+  - frontend developers
+  - full stack developers
+outsystems-tools:
+  - forge
+coverage-type:
+  - unblock
 ---
 
 # OS-MABS-SHLD-40002

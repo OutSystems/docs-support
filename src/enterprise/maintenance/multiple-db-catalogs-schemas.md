@@ -5,6 +5,19 @@ guid: 1c742c8a-449c-4828-865b-7295d2f90527
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
 figma: https://www.figma.com/file/cPLNnZfDOZ1NX3avcjmq3g/Enterprise%20Customers?node-id=619:8
+tags: enterprise application management, database management, sql server, oracle, data separation
+audience:
+  - platform administrators
+  - backend developers
+  - full stack developers
+  - tech leads
+  - infrastructure managers
+outsystems-tools:
+  - service studio
+  - service center
+coverage-type:
+  - apply
+  - understand
 ---
 
 # Multiple Database Catalogs and Schemas

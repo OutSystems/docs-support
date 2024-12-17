@@ -1,11 +1,13 @@
 ---
-summary: "There was an issue fetching the Cordova plugin: <plugin_name>. We couldn't access the resource (http error <http_error_code>). Please review your plugin and server configurations."
-tags: mabs; plg; error_codes
+summary: There was an issue fetching the Cordova plugin <plugin_name>. We couldn't access the resource (http error <http_error_code>). Please review your plugin and server configurations.
+tags: mabs, plg, error_codes
 locale: en-us
 app_type: mobile apps
 guid: 6cf861b8-b5cf-4fcc-9f0f-1e7c774424b2
 platform-version: o11, odc
 figma:
+coverage-type:
+  - unblock
 ---
 
 # OS-MABS-PLG-40014

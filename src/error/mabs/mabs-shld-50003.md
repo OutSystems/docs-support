@@ -1,11 +1,17 @@
 ---
 summary: Something went wrong when validating your license.
-tags:
+tags: license validation, appshield, build process, error handling, support cases
 guid: 467851a1-bd02-4dca-a3e9-ee66f011a7ef
 locale: en-us
 app_type: mobile apps
 platform-version: o11, odc
 figma:
+audience:
+  - mobile developers
+outsystems-tools:
+  - service center
+coverage-type:
+  - unblock
 ---
 
 # OS-MABS-SHLD-50003

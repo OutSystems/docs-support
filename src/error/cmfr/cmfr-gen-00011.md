@@ -1,11 +1,19 @@
 ---
 summary: We're sorry, but this database isn't supported.
-tags:
+tags: database compatibility, error handling, case management framework, system requirements, platform version
 locale: en-us
 guid: d22ff22b-2cf5-43e8-baf9-26a28ea489dd
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
 figma:
+audience:
+  - platform administrators
+  - backend developers
+  - full stack developers
+outsystems-tools:
+  - case management framework
+coverage-type:
+  - unblock
 ---
 
 # OS-CMFR-GEN-00011

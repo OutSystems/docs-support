@@ -1,11 +1,21 @@
 ---
 summary: OutSystems 11 (O11) has a critical issue in version 11.10.0 where running the Configuration Tool may overwrite settings and cause application downtime.
-tags: known-issues
+tags: configuration management, platform server, installation, deployment issues, application runtime
 locale: en-us
 guid: 9d238745-abc2-4500-9048-17cab2d562ad
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
 figma: https://www.figma.com/file/cPLNnZfDOZ1NX3avcjmq3g/Enterprise%20Customers?node-id=3213:318
+audience:
+  - platform administrators
+  - full stack developers
+  - tech leads
+  - infrastructure managers
+outsystems-tools:
+  - platform server
+  - configuration tool
+coverage-type:
+  - unblock
 ---
 
 # Known issue in 11.10.0 - possible downtime after running Configuration Tool

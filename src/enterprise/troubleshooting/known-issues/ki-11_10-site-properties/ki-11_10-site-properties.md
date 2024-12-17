@@ -1,11 +1,20 @@
 ---
 summary: OutSystems 11 (O11) update to version 11.10.2 introduces a validation issue causing 'value cannot be null' errors due to legacy Site Property formats.
-tags: known-issues
+tags: platform upgrade, site properties, error handling, outsystems platform, best practices
 locale: en-us
 guid: a40fd69f-f60e-42c5-ad67-d5cdcda8dd1d
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
 figma: https://www.figma.com/file/cPLNnZfDOZ1NX3avcjmq3g/Enterprise%20Customers?node-id=3213:321
+audience:
+  - platform administrators
+  - full stack developers
+  - backend developers
+outsystems-tools:
+  - platform server
+  - service center
+coverage-type:
+  - unblock
 ---
 
 # Known issue after update to 11.10.2 - value cannot be null error installing Service Center

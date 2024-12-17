@@ -1,11 +1,17 @@
 ---
 summary: The configuration file is missing. Add a valid configuration file for SSLPinning. Learn more about configuration files in our documentation.
-tags:
+tags: mobile app security, ssl pinning, error handling, configuration management, outsystems platform
 guid: 27ccb435-2ddc-4006-8eef-6982959107b3
 locale: en-us
 app_type: mobile apps
 platform-version: o11, odc
 figma:
+audience:
+  - mobile developers
+outsystems-tools:
+  - service studio
+coverage-type:
+  - unblock
 ---
 
 # OS-MABS-RES-40002

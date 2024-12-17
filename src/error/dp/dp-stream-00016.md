@@ -1,11 +1,18 @@
 ---
 summary: This article explains the cause, impact, and recommended action for an unauthenticated error that occurs while connecting to the destination server.
-tags:
+tags: authentication errors, server connectivity, log streaming, error handling, grpc
 guid: e0979b47-f97c-4a5e-8938-093d0f7d3515
 locale: en-us
 app_type: traditional web apps, mobile apps, reactive web apps
-figma: 
+figma:
 platform-version: o11
+audience:
+  - platform administrators
+  - full stack developers
+outsystems-tools:
+  - lifetime
+coverage-type:
+  - unblock
 ---
 
 # OS-DP-STREAM-00016

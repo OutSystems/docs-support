@@ -1,11 +1,20 @@
 ---
 summary: The number of minutes must be greater than or equal to zero.
-tags:
+tags: error handling, debugging, case management framework, calendar management, input validation
 locale: en-us
 guid: b97679ee-618c-4492-a00d-6f9d8435b13d
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
 figma:
+audience:
+  - mobile developers
+  - frontend developers
+  - full stack developers
+outsystems-tools:
+  - service studio
+  - case management framework
+coverage-type:
+  - unblock
 ---
 
 # OS-CMFR-GEN-00006

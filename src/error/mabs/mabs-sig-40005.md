@@ -1,11 +1,18 @@
 ---
 summary: This certificate is invalid. Please choose another .p12 file.
-tags: mabs sig error_code
+tags: ios deployment, application packaging, certificate issues, error handling, .p12 certificate
 guid: 83c7e76a-1223-4d73-88d4-e07230607ba8
 locale: en-us
 app_type: mobile apps
 platform-version: o11, odc
 figma:
+audience:
+  - mobile developers
+outsystems-tools:
+  - mabs
+  - service studio
+coverage-type:
+  - unblock
 ---
 
 # OS-MABS-SIG-40005

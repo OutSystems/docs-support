@@ -1,11 +1,20 @@
 ---
 summary: Something went wrong while reading the Cordova plugins. Please try again.
-tags: mabs; plg; error_codes
+tags: error handling, mobile app development, cordova plugins, mobile app build process
 locale: en-us
 app_type: mobile apps
 guid: 3b1e4e72-abb2-4291-9f2d-8668a64fcec1
 platform-version: o11, odc
 figma:
+audience:
+  - mobile developers
+  - frontend developers
+  - full stack developers
+  - platform administrators
+outsystems-tools:
+  - service center
+coverage-type:
+  - unblock
 ---
 
 # OS-MABS-PLG-50004

@@ -1,11 +1,20 @@
 ---
 summary: There was an issue loading your resources. Please try again.
-tags:
+tags: mobile app build process, error handling, resource management, application packaging
 guid: c26c0ff1-4228-4fb0-af5c-ba4c8f2757b5
 locale: en-us
 app_type: mobile apps
 platform-version: o11, odc
 figma:
+audience:
+  - mobile developers
+  - full stack developers
+  - platform administrators
+outsystems-tools:
+  - service studio
+  - service center
+coverage-type:
+  - unblock
 ---
 
 # OS-MABS-RES-50000

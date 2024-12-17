@@ -5,6 +5,16 @@ guid: 98e7f6a1-508c-4d53-9ac9-1de52829e137
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
 figma: https://www.figma.com/file/cPLNnZfDOZ1NX3avcjmq3g/Enterprise%20Customers?node-id=3216:902
+tags: certificate management, domain certificates, security best practices, outsystems infrastructure, ssl configuration
+audience:
+  - platform administrators
+  - infrastructure managers
+  - full stack developers
+  - tech leads
+outsystems-tools:
+  - none
+coverage-type:
+  - apply
 ---
 
 # How to generate a CSR

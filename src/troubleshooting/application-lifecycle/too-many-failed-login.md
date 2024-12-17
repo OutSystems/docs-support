@@ -5,6 +5,17 @@ guid: 6da4a5dd-e192-473f-a7fc-722e888db1f6
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
 figma: https://www.figma.com/file/6tXLupLiqfG9FOElATTGQU/Troubleshooting?node-id=621:861
+tags: brute-force attack prevention, account security, it security management, user account management, error handling
+audience:
+  - platform administrators
+  - full stack developers
+  - frontend developers
+outsystems-tools:
+  - service studio
+  - service center
+  - lifetime
+coverage-type:
+  - unblock
 ---
 
 # Too many failed login attempts - causes and resolution for IT users and end users

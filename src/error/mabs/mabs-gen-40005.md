@@ -1,11 +1,19 @@
 ---
 summary: There was an issue generating the app because {0} ‘{1}’ wasn’t found. Check if your plugins are up to date and compatible with the MABS version you’re using.
-tags:
+tags: error handling, mobile app deployment, custom plugin management, application packaging
 guid: 630be946-bfad-4fc2-b194-2544bbf72ed3
 locale: en-us
 app_type: mobile apps
 platform-version: o11, odc
 figma:
+audience:
+  - mobile developers
+  - platform administrators
+outsystems-tools:
+  - service center
+  - mabs
+coverage-type:
+  - unblock
 ---
 
 # OS-MABS-GEN-40005

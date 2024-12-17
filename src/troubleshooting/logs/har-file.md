@@ -1,12 +1,20 @@
 ---
 summary: Learn how to capture Network HAR files in various browsers to troubleshoot issues in OutSystems 11 (O11).
-tags: 
+tags: network troubleshooting, performance analysis, browser developer tools
 locale: en-us
 guid: b2a4ae4c-7b24-491b-b3f2-182e0b73e0b0
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
 figma:
+audience:
+  - frontend developers
+  - full stack developers
+outsystems-tools:
+  - none
+coverage-type:
+  - unblock
 ---
+
 # Network HAR file
 
 There are different ways for getting an HAR file for different browsers. Steps to get the HAR file in popular browsers are listed below:

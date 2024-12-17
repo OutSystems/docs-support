@@ -1,11 +1,18 @@
 ---
 summary: You can only have one initial case status.
-tags:
+tags: case management, error handling, case status configuration, application lifecycle management
 locale: en-us
 guid: 0f042f7b-b512-4083-abad-80b2fa865680
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
 figma:
+audience:
+  - full stack developers
+  - platform administrators
+outsystems-tools:
+  - case management framework
+coverage-type:
+  - unblock
 ---
 
 # OS-CMFR-GEN-00018

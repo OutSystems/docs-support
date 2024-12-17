@@ -1,11 +1,17 @@
 ---
 summary: No Resources file found. Check your extensibility configurations and try again.
-tags:
+tags: mobile app development, application packaging, extensibility, configuration management, error handling
 guid: d3d3150d-b470-495a-a87e-f1f49a48892a
 locale: en-us
 app_type: mobile apps
 platform-version: o11, odc
 figma:
+audience:
+  - mobile developers
+outsystems-tools:
+  - service studio
+coverage-type:
+  - unblock
 ---
 
 # OS-MABS-CNF-40004

@@ -1,11 +1,20 @@
 ---
 summary: This user doesn't have any active delegations for you at the moment.
-tags:
+tags: error handling, case management, debugging, outsystems
 locale: en-us
 guid: e67333aa-8437-43df-b048-441b5a5f30bd
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
 figma:
+audience:
+  - full stack developers
+  - frontend developers
+  - mobile developers
+outsystems-tools:
+  - service studio
+  - case management framework
+coverage-type:
+  - unblock
 ---
 
 # OS-CMFR-GEN-20007

@@ -1,11 +1,19 @@
 ---
 summary: Couldn't install the Cordova plugin <plugin_name>. You must set a higher minimum iOS deployment target for a specific pod in the Extensibility Configurations property of your home module.
-tags: mabs; plg; error_codes
+tags: mobile app development, cordova plugins, ios deployment target, error handling, outsystems platform
 locale: en-us
 app_type: mobile apps
 guid: 333bc8b1-0225-448f-bbc5-fb27842ee8be
 platform-version: o11, odc
 figma:
+audience:
+  - mobile developers
+  - platform administrators
+  - frontend developers
+outsystems-tools:
+  - service studio
+coverage-type:
+  - unblock
 ---
 
 # OS-MABS-PLG-40007

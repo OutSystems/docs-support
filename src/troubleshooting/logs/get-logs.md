@@ -1,11 +1,19 @@
 ---
 summary: Learn how to obtain and utilize various logs for troubleshooting in OutSystems 11 (O11) by accessing detailed instructions for each component.
-tags:
+tags: troubleshooting, logging, support and maintenance, technical support, debugging
 locale: en-us
 guid: 0ffec091-70df-4b3c-9c4b-0a274efd1541
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
 figma:
+audience:
+  - frontend developers
+  - full stack developers
+  - platform administrators
+outsystems-tools:
+  - service center
+coverage-type:
+  - unblock
 ---
 
 # Getting logs for troubleshooting purposes

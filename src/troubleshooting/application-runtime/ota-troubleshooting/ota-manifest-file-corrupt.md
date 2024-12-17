@@ -5,6 +5,13 @@ guid: 03D119E4-EA0B-4593-B258-FA9CF41CA76C
 app_type: mobile apps
 platform-version: o11
 figma:
+tags: mobile app development, cache management, error handling, app performance, troubleshooting
+audience:
+  - mobile developers
+outsystems-tools:
+  - service studio
+coverage-type:
+  - unblock
 ---
 
 # Cache manifest file is corrupt or invalid

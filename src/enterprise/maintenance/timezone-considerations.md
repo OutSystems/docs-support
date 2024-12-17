@@ -5,6 +5,15 @@ guid: 95d95b60-3661-48aa-b75d-e2f670cf6b92
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
 figma:
+tags: time synchronization, application development, environment setup, best practices, operations
+audience:
+  - full stack developers
+  - platform administrators
+  - infrastructure managers
+outsystems-tools:
+  - none
+coverage-type:
+  - understand
 ---
 
 # Timezone considerations in the OutSystems Platform

@@ -1,11 +1,17 @@
 ---
 summary: Missing resource declared in the extensibility configurations.
-tags:
+tags: mobile app development, extensibility configurations, json schema, error handling, application packaging
 guid: f671b509-847d-4535-b224-6665ce2986b7
 locale: en-us
 app_type: mobile apps
 platform-version: o11, odc
 figma:
+audience:
+  - mobile developers
+outsystems-tools:
+  - service studio
+coverage-type:
+  - unblock
 ---
 
 # OS-MABS-CNF-40012

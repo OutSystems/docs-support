@@ -1,11 +1,18 @@
 ---
 summary: <record> with the Id "<input-parameter-value>" already exists.
-tags:
+tags: error handling, application development, data management, case management framework, debugging
 locale: en-us
 guid: 206291d7-5a4d-436b-b320-d82d28e0861b
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
 figma:
+audience:
+  - full stack developers
+outsystems-tools:
+  - service studio
+  - case management framework
+coverage-type:
+  - unblock
 ---
 
 # OS-CMFR-GEN-00004

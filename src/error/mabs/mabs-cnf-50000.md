@@ -1,11 +1,19 @@
 ---
 summary: There was an issue processing your extensibility configurations. Please try again.
-tags:
+tags: error handling, server-side issues, application packaging, extensibility, debugging
 guid: 0d165cfe-cef6-4d22-8c80-f5ff53207ea5
 locale: en-us
 app_type: mobile apps
 platform-version: o11, odc
 figma:
+audience:
+  - mobile developers
+  - frontend developers
+  - full stack developers
+outsystems-tools:
+  - service center
+coverage-type:
+  - unblock
 ---
 
 # OS-MABS-CNF-50000

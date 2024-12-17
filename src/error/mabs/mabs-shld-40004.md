@@ -1,11 +1,17 @@
 ---
 summary: It looks like your MABS version is outdated, please update it.
-tags:
+tags: mobile application building, appshield, plugin compatibility, error resolution, outsystems support
 guid: 442f9f37-f27e-4ddd-b2fa-4f16aad13cd6
 locale: en-us
 app_type: mobile apps
 platform-version: o11, odc
 figma:
+audience:
+  - mobile developers
+outsystems-tools:
+  - mabs
+coverage-type:
+  - unblock
 ---
 
 # OS-MABS-SHLD-40004

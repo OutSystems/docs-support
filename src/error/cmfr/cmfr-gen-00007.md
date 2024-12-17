@@ -1,11 +1,21 @@
 ---
 summary: <record/attribute> already exists for that <record/attribute>.
-tags:
+tags: error handling, case management, debugging, data integrity, application development
 locale: en-us
 guid: 2810c5b9-4ce4-4ac9-b221-cfbe70ee32f1
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
 figma:
+audience:
+  - full stack developers
+  - frontend developers
+  - mobile developers
+  - backend developers
+outsystems-tools:
+  - service studio
+  - case management framework
+coverage-type:
+  - unblock
 ---
 
 # OS-CMFR-GEN-00007

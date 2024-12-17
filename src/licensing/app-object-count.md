@@ -1,12 +1,20 @@
 ---
 summary: This article details the counting of Application Objects (AOs) on the OutSystems platform, including screens, entities, API methods, and events.
-tags:
+tags: application development, platform metrics, performance optimization, application complexity
 locale: en-us
 guid: cd994c70-9dcc-46ed-b423-84099beac39a
 app_type: traditional web apps, mobile apps, reactive web apps
 helpids: 30497, 30455
 platform-version: o11, odc
 figma:
+audience:
+  - mobile developers
+  - frontend developers
+  - full stack developers
+outsystems-tools:
+  - service studio
+coverage-type:
+  - understand
 ---
 
 # Application Objects

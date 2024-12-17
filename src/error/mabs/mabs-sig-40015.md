@@ -1,11 +1,20 @@
 ---
 summary: Your provisioning profile expired on <expiration_date>. Upload a new one and retry.
-tags: mabs sig error_code
+tags: provisioning profile, ios deployment, application package generation, mobile application publishing, error handling
 guid: f83dcb57-ca29-4b70-9114-37b7d9dcfd05
 locale: en-us
 app_type: mobile apps
 platform-version: o11, odc
 figma:
+audience:
+  - mobile developers
+  - full stack developers
+  - frontend developers
+outsystems-tools:
+  - service studio
+  - none
+coverage-type:
+  - unblock
 ---
 
 # OS-MABS-SIG-40015

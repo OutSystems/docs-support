@@ -5,6 +5,18 @@ guid: 97a691c3-79e8-4016-9437-045cb9725cc0
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
 figma: https://www.figma.com/file/cPLNnZfDOZ1NX3avcjmq3g/Enterprise%20Customers?node-id=619:15
+tags: database configuration, oracle database, linguistic sorting, character data configuration, database administration
+audience:
+  - platform administrators
+  - full stack developers
+  - backend developers
+  - tech leads
+outsystems-tools:
+  - platform server
+  - service center
+coverage-type:
+  - understand
+  - apply
 ---
 
 # Configuring linguistic sorting in an OutSystems environment using an Oracle database

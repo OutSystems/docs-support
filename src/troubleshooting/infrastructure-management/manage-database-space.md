@@ -5,6 +5,15 @@ guid: 8eb02f36-7cbc-43f1-aec7-6c00c76a6bbf
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
 figma: https://www.figma.com/file/6tXLupLiqfG9FOElATTGQU/Troubleshooting?node-id=3327:485
+tags: database management, outsystems personal environment, environment monitoring, performance optimization
+audience:
+  - full stack developers
+  - platform administrators
+  - mobile developers
+outsystems-tools:
+  - service center
+coverage-type:
+  - unblock
 ---
 
 # Manage the database space of your personal environment

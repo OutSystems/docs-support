@@ -1,11 +1,18 @@
 ---
 summary: Invalid access. <OriginalErrorMessage>.
-tags:
+tags: error handling, permission issues, security, troubleshooting, support
 locale: en-us
 guid: d528800d-d929-49dd-9ea3-8378debe4043
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
 figma:
+audience:
+  - platform administrators
+  - full stack developers
+outsystems-tools:
+  - workflow builder
+coverage-type:
+  - unblock
 ---
 
 # OS-WFBL-GEN-10001

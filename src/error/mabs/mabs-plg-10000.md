@@ -1,11 +1,18 @@
 ---
 summary: There was an issue fetching the Cordova plugin <plugin_name> because the connection timed out. Please try again.
-tags: mabs plg error_codes
+tags: cordova, plugin, timeout error, mobile app building, technical support
 locale: en-us
 app_type: mobile apps
 guid: 74f4c22e-1523-44ec-8192-2c0852aeb774
 platform-version: o11, odc
 figma:
+audience:
+  - mobile developers
+outsystems-tools:
+  - service center
+  - mabs
+coverage-type:
+  - unblock
 ---
 
 # OS-MABS-PLG-10000

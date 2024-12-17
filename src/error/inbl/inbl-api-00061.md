@@ -1,11 +1,18 @@
 ---
 summary: Internal server error. If this problem persists, contact OutSystems support.
-tags:
+tags: error handling, api issues, service management, application publishing, dependency management
 locale: en-us
 guid: 1bd71502-9292-4c96-810d-b233baa24794
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
 figma:
+audience:
+  - platform administrators
+  - full stack developers
+outsystems-tools:
+  - service center
+coverage-type:
+  - unblock
 ---
 
 # OS-INBL-API-00061

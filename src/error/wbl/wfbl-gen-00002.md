@@ -1,11 +1,18 @@
 ---
 summary: Please refresh the page and try again.
-tags:
+tags: error handling, workflow management, application development, user authentication, support resolution
 locale: en-us
 guid: 4e304906-9a8e-4174-83f2-8953c607f42d
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
 figma:
+audience:
+  - frontend developers
+  - full stack developers
+outsystems-tools:
+  - workflow builder
+coverage-type:
+  - unblock
 ---
 
 # OS-WFBL-GEN-00002

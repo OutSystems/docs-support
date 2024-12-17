@@ -1,11 +1,17 @@
 ---
 summary: lease enter the right password for the keystore.
-tags: mabs sig error_code
+tags: android app generation, keystore management, application packaging, error handling, mobile app deployment
 guid: 2817acc5-e4da-4bb9-ba5b-b8b93efdce10
 locale: en-us
 app_type: mobile apps
 platform-version: o11, odc
 figma:
+audience:
+  - mobile developers
+outsystems-tools:
+  - service studio
+coverage-type:
+  - unblock
 ---
 
 # OS-MABS-SIG-40013

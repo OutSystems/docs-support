@@ -1,11 +1,21 @@
 ---
 summary: Learn how OutSystems 11 (O11) addresses the OWASP Top 10 security risks for web and mobile applications.
-tags: support-Security-overview
+tags: security, owasp top 10, ssl, access control, cryptographic failures
 locale: en-us
 guid: 74924eac-d729-4c99-bcb4-09b40a483cfa
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
 figma:
+audience:
+  - mobile developers
+  - frontend developers
+  - full stack developers
+  - platform administrators
+outsystems-tools:
+  - service studio
+coverage-type:
+  - understand
+  - apply
 ---
 
 # How OutSystems helps you address OWASP Top 10

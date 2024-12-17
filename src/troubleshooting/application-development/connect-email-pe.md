@@ -5,6 +5,16 @@ guid: c3b7c99f-9b85-42f1-9bae-4036ee8ef145
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
 figma:
+tags: environment management, error handling, personal environment maintenance
+audience:
+  - mobile developers
+  - frontend developers
+  - full stack developers
+  - platform administrators
+outsystems-tools:
+  - none
+coverage-type:
+  - unblock
 ---
 
 # Error messages while connecting to your personal environment

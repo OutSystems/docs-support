@@ -5,8 +5,18 @@ guid: e4883c46-2022-4c8e-9ecf-f09d524329a1
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
 figma:
+tags: performance optimization, platform server, deployment, issue resolution, load balancing
+audience:
+  - platform administrators
+  - full stack developers
+  - infrastructure managers
+outsystems-tools:
+  - service center
+  - lifetime
+  - platform server
+coverage-type:
+  - unblock
 ---
-
 
 # Slow publishing in OutSystems 11.7.x
 

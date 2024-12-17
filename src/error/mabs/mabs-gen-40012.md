@@ -1,11 +1,17 @@
 ---
 summary: There was an issue generating the app. Some plugins using CocoaPods aren’t correctly configured or a pod wasn’t found in the repository. Check your plugin configurations and try again.
-tags:
+tags: mobile app deployment, cocoapods configuration, ios app packaging, build logs, outsystems support
 guid: 971cea53-2f31-4a83-91aa-c413944cd3c1
 locale: en-us
 app_type: mobile apps
 platform-version: o11, odc
 figma:
+audience:
+  - mobile developers
+outsystems-tools:
+  - service center
+coverage-type:
+  - unblock
 ---
 
 # OS-MABS-GEN-40012

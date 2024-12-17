@@ -1,11 +1,19 @@
 ---
 summary: General error. <OriginalErrorMessage>.
-tags:
+tags: error handling, workflow builder, user interface, service disruption, technical support
 locale: en-us
 guid: 7f03f69b-06b7-43ef-bbfb-6e84dfea5ee0
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
 figma:
+audience:
+  - platform administrators
+  - full stack developers
+  - frontend developers
+outsystems-tools:
+  - workflow builder
+coverage-type:
+  - unblock
 ---
 
 # OS-WFBL-GEN-40001

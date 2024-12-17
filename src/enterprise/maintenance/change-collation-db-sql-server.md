@@ -5,6 +5,17 @@ guid: e7538434-44da-476c-b203-0df42ed1ce0e
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
 figma:
+tags: database management, sql server, case sensitivity, collation configuration, on-premises installation
+audience:
+  - platform administrators
+  - backend developers
+  - full stack developers
+  - tech leads
+  - infrastructure managers
+outsystems-tools:
+  - service studio
+coverage-type:
+  - apply
 ---
 
 # Change the collation of an OutSystems database running on SQL Server

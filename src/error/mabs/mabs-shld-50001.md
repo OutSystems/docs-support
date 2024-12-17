@@ -1,11 +1,17 @@
 ---
 summary: Something happened and your request didn't go through, please try again. If the problem persists, contact our support team.
-tags:
+tags: error handling, troubleshooting, licensing issues, mobile app development, support process
 guid: cf23bbec-0ff5-42d4-a848-5425eccc0bfd
 locale: en-us
 app_type: mobile apps
 platform-version: o11, odc
 figma:
+audience:
+  - mobile developers
+outsystems-tools:
+  - service center
+coverage-type:
+  - unblock
 ---
 
 # OS-MABS-SHLD-50001

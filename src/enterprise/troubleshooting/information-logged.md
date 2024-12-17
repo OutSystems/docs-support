@@ -5,7 +5,17 @@ guid: 0c19ce88-799c-45bb-954a-c77d1364fb87
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
 figma: https://www.figma.com/file/cPLNnZfDOZ1NX3avcjmq3g/Enterprise%20Customers?node-id=3213:285
+tags: windows event viewer, error handling, event logging, system administration, application monitoring
+audience:
+  - platform administrators
+  - full stack developers
+  - backend developers
+outsystems-tools:
+  - none
+coverage-type:
+  - unblock
 ---
+
 # Information Logged by OutSystems Platform
 
 OutSystems Platform components and services use the Windows logging mechanisms to log entries about their status and operations status.

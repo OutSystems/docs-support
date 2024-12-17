@@ -1,11 +1,20 @@
 ---
 summary: Explore how OutSystems 11 (O11) addresses long deployment times due to new Entity Attributes in large databases.
-tags:
+tags: database deployment, entity modeling, performance optimization, platform server updates
 locale: en-us
 guid: f6175b88-b183-4a56-b5da-8ea4d039d836
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
 figma:
+audience:
+  - backend developers
+  - full stack developers
+  - platform administrators
+outsystems-tools:
+  - platform server
+  - service studio
+coverage-type:
+  - unblock
 ---
 
 # Application deployment takes too long after adding a new Entity Attribute

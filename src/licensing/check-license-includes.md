@@ -5,6 +5,16 @@ guid: 8fc044d9-39d5-4152-91c6-3bfe2de76768
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
 figma: https://www.figma.com/file/TzqCbVlN2j4nadunA7q8VU/Licensing?type=design&node-id=1318%3A961&mode=design&t=VnW42OvKxOaaShU8-1
+tags: licensing, environment management, outsystems platform, service center, usage statistics
+audience:
+  - platform administrators
+  - full stack developers
+  - architects
+outsystems-tools:
+  - service center
+coverage-type:
+  - apply
+  - understand
 ---
 
 # Check what your license includes, and your effective usage

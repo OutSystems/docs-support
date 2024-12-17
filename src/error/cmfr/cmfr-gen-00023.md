@@ -1,11 +1,20 @@
 ---
 summary: We couldn't find <record> with the Id <identifier-value>.
-tags:
+tags: error handling, case management framework, debugging, outsystems error messages, data validation
 locale: en-us
 guid: 4a75fcf7-e46b-4bae-8ecb-74d0a1e4883c
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
 figma:
+audience:
+  - full stack developers
+  - frontend developers
+  - backend developers
+outsystems-tools:
+  - service studio
+  - case management framework
+coverage-type:
+  - unblock
 ---
 
 # OS-CMFR-GEN-00023

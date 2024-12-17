@@ -4,7 +4,15 @@ locale: en-us
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
 figma:
-summary: 
+summary:
+tags: licensing, application development, platform versioning
+audience:
+  - frontend developers
+  - full stack developers
+outsystems-tools:
+  - none
+coverage-type:
+  - none
 ---
 
 # Licensing

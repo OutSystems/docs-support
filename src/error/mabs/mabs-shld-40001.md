@@ -1,11 +1,18 @@
 ---
 summary: The AppShield plugin has more than one reference in your app.
-tags:
+tags: error handling, dependency management, plugin configuration, mobile app development, app deployment
 guid: 23dda976-243f-411b-86bf-4447d15755a1
 locale: en-us
 app_type: mobile apps
 platform-version: o11, odc
 figma:
+audience:
+  - mobile developers
+outsystems-tools:
+  - service studio
+  - forge
+coverage-type:
+  - unblock
 ---
 
 # OS-MABS-SHLD-40001

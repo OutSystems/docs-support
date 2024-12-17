@@ -1,11 +1,21 @@
 ---
 summary: Discover how to request the removal of a component from the Forge in OutSystems 11 (O11) by following specific steps outlined for component owners.
-tags: forge; forge_support; ipp;
+tags: forge, forge component management, intellectual property protection, community support
 locale: en-us
 guid: bcc21963-f41a-445d-aff6-685a46999659
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
 figma: https://www.figma.com/file/bGPF1cIwKxeWbPhMdOrHsM/Forge%20Components?node-id=701:319
+audience:
+  - mobile developers
+  - frontend developers
+  - full stack developers
+  - platform administrators
+outsystems-tools:
+  - forge
+coverage-type:
+  - understand
+  - apply
 ---
 
 # How to remove a component from the Forge

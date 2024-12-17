@@ -1,11 +1,17 @@
 ---
 summary: Your provisioning profile has an unknown format.
-tags: mabs sig error_code
+tags: provisioning profile, ios app generation, mobile app packaging, error troubleshooting
 guid: 559f997f-6e3f-4cbb-acf6-3e1d6eff703e
 locale: en-us
 app_type: mobile apps
 platform-version: o11, odc
 figma:
+audience:
+  - mobile developers
+outsystems-tools:
+  - mabs
+coverage-type:
+  - unblock
 ---
 
 # OS-MABS-SIG-40006

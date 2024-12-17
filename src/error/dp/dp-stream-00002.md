@@ -1,11 +1,18 @@
 ---
 summary: View the causes and recommended actions for the OS-DP-STREAM-00002 error when testing a Log streaming connection
-tags:
+tags: error handling, log streaming, debugging, application performance monitoring, grpc
 guid: 1497f58c-2a4c-4816-b7f2-7d8c782fd5b2
 locale: en-us
 app_type: traditional web apps, mobile apps, reactive web apps
-figma: 
+figma:
 platform-version: o11
+audience:
+  - platform administrators
+  - full stack developers
+outsystems-tools:
+  - lifetime
+coverage-type:
+  - unblock
 ---
 
 # OS-DP-STREAM-00002

@@ -1,11 +1,17 @@
 ---
 summary: Couldn't install the Cordova plugin <plugin_name> because the plugin dependency <plugin_dependency> doesn't support this Cordova version.
-tags: mabs; plg; error_codes
+tags: mobile app build, cordova plugins, build errors, plugin dependencies, server connectivity
 locale: en-us
 app_type: mobile apps
 guid: 1f5c03a7-c755-4379-a594-3a0ccd7890b6
 platform-version: o11, odc
 figma:
+audience:
+  - mobile developers
+outsystems-tools:
+  - service center
+coverage-type:
+  - unblock
 ---
 
 # OS-MABS-PLG-50001

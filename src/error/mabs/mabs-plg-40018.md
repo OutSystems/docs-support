@@ -1,11 +1,15 @@
 ---
 summary: <plugin_id> version <plugin_version> must be <plugin_min_version> or higher.
-tags: mabs; plg; error_codes
+tags: mobile apps, plugin compatibility, error handling, outsystems mabs, cordova plugins
 locale: en-us
 app_type: mobile apps
 guid: 817de060-a43d-41aa-96d1-61dda2855929
 platform-version: o11, odc
 figma:
+audience:
+  - mobile developers
+coverage-type:
+  - unblock
 ---
 
 # OS-MABS-PLG-40018

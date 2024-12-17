@@ -1,11 +1,17 @@
 ---
 summary: Something happened on our side while installing the Cordova plugins. Please try again
-tags: mabs; plg; error_codes
+tags: mabs, cordova plugins, error handling, build logs, mobile app packaging
 locale: en-us
 app_type: mobile apps
 guid: 5afa0282-de2f-46bf-a62a-80c7f4a20b90
 platform-version: o11, odc
 figma:
+audience:
+  - mobile developers
+outsystems-tools:
+  - service center
+coverage-type:
+  - unblock
 ---
 
 # OS-MABS-PLG-50000

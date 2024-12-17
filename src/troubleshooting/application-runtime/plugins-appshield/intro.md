@@ -1,11 +1,19 @@
 ---
 summary: Troubleshooting tips for the OutSystems 11 (O11) AppShield mobile plugin with Google AppsSigning are detailed, including encoding requirements and updates.
-tags: support-mobile
+tags: appshield, google play app signing, troubleshooting, repackagingexception, encoding
 locale: en-us
 guid: b3c74743-8b2a-43c9-b435-d491b17ed38c
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
 figma:
+audience:
+  - mobile developers
+  - platform administrators
+outsystems-tools:
+  - lifetime
+  - platform server
+coverage-type:
+  - unblock
 ---
 
 # Troubleshooting the OutSystems AppShield mobile plugin

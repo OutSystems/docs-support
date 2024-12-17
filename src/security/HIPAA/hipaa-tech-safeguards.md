@@ -1,11 +1,21 @@
 ---
 summary: Explore how OutSystems 11 (O11) supports HIPAA compliance through technical safeguards, access control, and encryption features.
-tags:
+tags: hipaa compliance, technical safeguards, access control, data encryption, security compliance
 locale: en-us
 guid: 219da37e-3496-4cc3-b6e8-452dc531a608
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
 figma:
+audience:
+  - full stack developers
+  - platform administrators
+  - architects
+  - backend developers
+  - tech leads
+outsystems-tools:
+  - none
+coverage-type:
+  - apply
 ---
 
 # Checklist of HIPAA safeguards

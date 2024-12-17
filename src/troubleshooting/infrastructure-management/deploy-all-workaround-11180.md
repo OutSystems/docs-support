@@ -5,6 +5,15 @@ guid: b2c69399-56bf-4f1b-b9ba-e4be9ddddc6b
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
 figma: https://www.figma.com/file/6tXLupLiqfG9FOElATTGQU/Troubleshooting?node-id=2683:4337
+tags: deployment, on-premises, platform server, troubleshooting, upgrade issues
+audience:
+  - platform administrators
+  - full stack developers
+outsystems-tools:
+  - service center
+  - platform server
+coverage-type:
+  - unblock
 ---
 
 # Multiple new tenants after using Deploy All - RPM-3448

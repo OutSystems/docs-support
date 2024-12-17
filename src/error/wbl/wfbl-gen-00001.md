@@ -1,11 +1,13 @@
 ---
-summary: "Cannot remove case application version since it's not in Draft : <ApplicationVersionId>."
+summary: Cannot remove case application version since it's not in Draft  <ApplicationVersionId>.
 tags:
 locale: en-us
 guid: 6c71b7e6-874f-4565-98ef-df60259a491f
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
 figma:
+coverage-type:
+  - unblock
 ---
 
 # OS-WFBL-GEN-00001

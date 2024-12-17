@@ -1,12 +1,19 @@
 ---
 summary: Your app wasn't generated because we couldn't fetch its dependencies due to a CocoaPods server error. Please try again.
-tags: mabs plf error_codes
+tags: mobile app development, dependency management, ios, troubleshooting, error handling
 locale: en-us
 app_type: mobile apps
 guid: 6b5393fd-96f3-471b-b715-a7a563ef91f7
 platform-version: o11, odc
 figma:
+audience:
+  - mobile developers
+outsystems-tools:
+  - service center
+coverage-type:
+  - unblock
 ---
+
 # OS-MABS-PLF-50002
 
 ## Error message

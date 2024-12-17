@@ -5,6 +5,16 @@ guid: f05ef789-4630-41c8-83e8-34a5b43f9b78
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
 figma: https://www.figma.com/file/TzqCbVlN2j4nadunA7q8VU/Licensing?node-id=1318:464
+tags: licensing, environment management, infrastructure setup, activation code
+audience:
+  - platform administrators
+  - infrastructure managers
+  - full stack developers
+outsystems-tools:
+  - lifetime
+coverage-type:
+  - unblock
+  - understand
 ---
 
 # Identify OutSystems infrastructure and runtime environments

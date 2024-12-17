@@ -1,11 +1,17 @@
 ---
 summary: Something happened on our side while packaging your app. Please try again.
-tags:
+tags: error handling, mobile app build and deployment, cordova project, packaging errors
 guid: 11755ead-39a9-4813-badd-faa0b842780a
 locale: en-us
 app_type: mobile apps
 platform-version: o11, odc
 figma:
+audience:
+  - mobile developers
+outsystems-tools:
+  - service center
+coverage-type:
+  - unblock
 ---
 
 # OS-MABS-INT-50000

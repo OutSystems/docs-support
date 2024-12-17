@@ -5,6 +5,15 @@ guid: 41efb22b-80b4-49fa-8c0f-53d1b77a0732
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
 figma:
+tags: scalability, high availability, on-premises installation, deployment, horizontal scalability
+audience:
+  - platform administrators
+  - full stack developers
+  - infrastructure managers
+outsystems-tools:
+  - platform server
+coverage-type:
+  - apply
 ---
 
 # Add a new front-end server to your environment

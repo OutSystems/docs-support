@@ -1,11 +1,20 @@
 ---
 summary: There was an issue loading your resources. Please try again.
-tags:
+tags: mobile apps development, application packaging, mabs, error handling
 guid: 673563fd-b801-428a-874e-9f2242b06806
 locale: en-us
 app_type: mobile apps
 platform-version: o11, odc
 figma:
+audience:
+  - mobile developers
+  - frontend developers
+  - full stack developers
+  - platform administrators
+outsystems-tools:
+  - service center
+coverage-type:
+  - unblock
 ---
 
 # OS-MABS-UNX-50001

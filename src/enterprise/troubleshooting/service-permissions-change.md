@@ -1,11 +1,19 @@
 ---
 summary: OutSystems 11 (O11) installation or upgrade may fail due to service permission errors when using lower-privilege user accounts for security improvements.
-tags: 
+tags: platform server, security, installation, permissions, troubleshooting
 locale: en-us
 guid: ae2f1814-d3bb-4e38-a5ba-33423aec6c34
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
 figma: https://www.figma.com/file/cPLNnZfDOZ1NX3avcjmq3g/Enterprise%20Customers?node-id=3213:293
+audience:
+  - platform administrators
+  - infrastructure managers
+  - full stack developers
+outsystems-tools:
+  - platform server
+coverage-type:
+  - unblock
 ---
 
 # Service permissions error when installing or upgrading to Platform Server 11.12.0 or later

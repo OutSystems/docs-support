@@ -1,11 +1,20 @@
 ---
 summary: Publish failed with an error "<OriginalErrorMessage>" For more details, check the Service Center Error logs of the remote server.
-tags:
+tags: error handling, debugging, publishing integrations, log analysis, outsystems platform
 locale: en-us
 guid: b08134f6-e2e0-4c43-a55a-8990a11a011a
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
 figma:
+audience:
+  - backend developers
+  - full stack developers
+  - platform administrators
+outsystems-tools:
+  - service center
+  - integration builder
+coverage-type:
+  - unblock
 ---
 
 # OS-INBL-GEN-00032

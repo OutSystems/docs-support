@@ -5,6 +5,15 @@ guid: 61c16e5f-94d2-4a3e-ba75-c40ead245a3c
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
 figma: https://www.figma.com/file/6tXLupLiqfG9FOElATTGQU/Troubleshooting?node-id=3327:404
+tags: environment management, application management, resource optimization, application development
+audience:
+  - mobile developers
+  - frontend developers
+  - full stack developers
+outsystems-tools:
+  - none
+coverage-type:
+  - unblock
 ---
 
 # Cannot reach apps on my personal environment

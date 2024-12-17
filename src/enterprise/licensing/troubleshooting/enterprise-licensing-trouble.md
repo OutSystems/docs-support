@@ -4,7 +4,9 @@ locale: en-us
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
 figma:
-summary: 
+summary:
+coverage-type:
+  - none
 ---
 
 # Troubleshooting

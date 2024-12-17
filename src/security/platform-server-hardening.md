@@ -1,11 +1,22 @@
 ---
 summary: Explore secure configuration and best practices for OutSystems 11 (O11) Platform Server hardening in this comprehensive guide.
-tags:
+tags: security, server hardening, configuration, cloud infrastructure, platform server
 locale: en-us
 guid: 5a5dde81-af90-4f11-be5f-321b0e4b0302
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
 figma: https://www.figma.com/file/vTtFn5nl44ZLjUBYo2anCO/Security?node-id=305:327
+audience:
+  - platform administrators
+  - infrastructure managers
+  - full stack developers
+outsystems-tools:
+  - service center
+  - lifetime
+  - platform server
+coverage-type:
+  - evaluate
+  - apply
 ---
 
 # OutSystems Platform Server hardening

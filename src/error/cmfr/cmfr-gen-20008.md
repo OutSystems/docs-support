@@ -1,11 +1,18 @@
 ---
 summary: The activity couldn't be closed, either because you're missing the required access or it was already closed.
-tags:
+tags: error handling, case management, user access control, workflow automation
 locale: en-us
 guid: 3f78f979-3c62-4f73-a331-09781baf2ee5
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
 figma:
+audience:
+  - full stack developers
+  - platform administrators
+outsystems-tools:
+  - case management framework
+coverage-type:
+  - unblock
 ---
 
 # OS-CMFR-GEN-20008

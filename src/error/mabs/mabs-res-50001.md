@@ -1,11 +1,21 @@
 ---
 summary: Something happened on our side while packaging your app. Please try again.
-tags:
+tags: mobile app development, error handling, application packaging, resource management
 guid: e9dac887-7a0e-4759-aca6-b762750f4ea5
 locale: en-us
 app_type: mobile apps
 platform-version: o11, odc
 figma:
+audience:
+  - mobile developers
+  - frontend developers
+  - full stack developers
+  - platform administrators
+outsystems-tools:
+  - service studio
+  - service center
+coverage-type:
+  - unblock
 ---
 
 # OS-MABS-RES-50001

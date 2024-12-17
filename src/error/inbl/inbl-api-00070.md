@@ -1,11 +1,19 @@
 ---
 summary: There was an error contacting an internal service.
-tags:
+tags: error handling, https communication, dns configuration, ssl/tls certificates, service center configuration
 locale: en-us
 guid: ec9fa64a-a83a-4879-8f07-360d407d6cad
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
 figma:
+audience:
+  - frontend developers
+  - full stack developers
+  - platform administrators
+outsystems-tools:
+  - service center
+coverage-type:
+  - unblock
 ---
 
 # OS-INBL-API-00070

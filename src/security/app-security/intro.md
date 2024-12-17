@@ -1,11 +1,20 @@
 ---
 summary: OutSystems 11 (O11) enhances application security through built-in protections and secure development practices.
-tags: support-Security-overview; article-page
+tags: application security, secure development practices, security best practices
 locale: en-us
 guid: 5caacb13-daf1-4dbc-80ba-ac379a8da764
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
 figma:
+audience:
+  - mobile developers
+  - frontend developers
+  - full stack developers
+outsystems-tools:
+  - none
+coverage-type:
+  - understand
+  - apply
 ---
 
 # Develop secure OutSystems apps

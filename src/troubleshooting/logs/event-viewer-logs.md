@@ -1,12 +1,22 @@
 ---
 summary: OutSystems 11 (O11) provides a guide on retrieving Windows event logs for specific environments using Remote Desktop and Windows Event Viewer.
-tags:
+tags: windows event viewer, server troubleshooting, logging, application performance monitoring
 locale: en-us
 guid: c281aa1d-be12-415d-82c1-c9e186039f7f
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
 figma: https://www.figma.com/file/6tXLupLiqfG9FOElATTGQU/Troubleshooting?node-id=3327:522
+audience:
+  - platform administrators
+  - full stack developers
+  - tech leads
+  - infrastructure managers
+outsystems-tools:
+  - none
+coverage-type:
+  - unblock
 ---
+
 # Windows Event Viewer logs
 
 To get the Windows event logs for a specific environment, follow these steps:

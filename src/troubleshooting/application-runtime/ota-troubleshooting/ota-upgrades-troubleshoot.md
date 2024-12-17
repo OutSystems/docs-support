@@ -5,6 +5,14 @@ guid: 7AAE6C3B-FDB6-4187-A493-EF62F925AFFC
 app_type: mobile apps
 platform-version: o11
 figma:
+tags: over-the-air upgrades, error handling, mobile app deployment, rollback mechanisms
+audience:
+  - mobile developers
+outsystems-tools:
+  - service studio
+  - service center
+coverage-type:
+  - unblock
 ---
 
 # Troubleshooting over-the-air upgrades

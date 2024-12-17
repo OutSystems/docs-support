@@ -1,11 +1,19 @@
 ---
 summary: Communication error. <OriginalErrorMessage>.
-tags:
+tags: error handling, connectivity issues, workflow builder, service interruptions
 locale: en-us
 guid: b7df1f71-ee02-4d72-9aa3-7dd49811e479
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
 figma:
+audience:
+  - frontend developers
+  - full stack developers
+  - platform administrators
+outsystems-tools:
+  - workflow builder
+coverage-type:
+  - unblock
 ---
 
 # OS-WFBL-GEN-40002

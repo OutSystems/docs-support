@@ -1,11 +1,18 @@
 ---
 summary: Couldn't install the Cordova plugin <plugin_name> because it's not supported by MABS 6.0 and later versions. Please update your plugin.
-tags: mabs; plg; error_codes
+tags: mobile application building, cordova plugins, mobile application package generation, android manifest configuration, mabs
 locale: en-us
 app_type: mobile apps
 guid: be6c801f-e6cb-4e9e-b858-caea2d8700d1
 platform-version: o11, odc
 figma:
+audience:
+  - mobile developers
+outsystems-tools:
+  - service center
+  - mabs
+coverage-type:
+  - unblock
 ---
 
 # OS-MABS-PLG-40012

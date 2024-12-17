@@ -4,8 +4,10 @@ tags:
 guid: a8049b5c-fee5-4f3b-90e9-37ae82ed006f
 locale: en-us
 app_type: traditional web apps, mobile apps, reactive web apps
-figma: 
+figma:
 platform-version: o11
+coverage-type:
+  - unblock
 ---
 
 # OS-DP-STREAM-00003

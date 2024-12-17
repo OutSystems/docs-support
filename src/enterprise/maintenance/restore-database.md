@@ -1,11 +1,21 @@
 ---
 summary: OutSystems 11 (O11) guide on restoring a database to a new server and updating application server configurations.
-tags:
+tags: database management, .net applications, server migration, installation checklist, rollback strategy
 locale: en-us
 guid: 346a4452-9ede-4346-aeb3-9455a48e99cc
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
 figma:
+audience:
+  - platform administrators
+  - backend developers
+  - infrastructure managers
+  - full stack developers
+outsystems-tools:
+  - platform server
+coverage-type:
+  - understand
+  - apply
 ---
 
 # Restore OutSystems database to a different DB Server

@@ -1,11 +1,17 @@
 ---
 summary: Couldn't fetch the Cordova plugin <plugin_name>. If the problem persists, check our documentation for more information.
-tags:
+tags: plugin management, cordova plugins, application packaging, error handling, network issues
 guid: 70d94ff5-ef07-4793-80a5-d5fbb1a9299b
 locale: en-us
 app_type: mobile apps
 platform-version: o11, odc
 figma:
+audience:
+  - mobile developers
+outsystems-tools:
+  - none
+coverage-type:
+  - unblock
 ---
 
 # OS-MABS-PLG-50002

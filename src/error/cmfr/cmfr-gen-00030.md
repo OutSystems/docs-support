@@ -1,11 +1,19 @@
 ---
 summary: The expected rule output type does not match this rule type.
-tags:
+tags: error handling, case management framework, application development, rule management
 locale: en-us
 guid: 2229f515-fe18-40a9-a982-092610638934
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
 figma:
+audience:
+  - mobile developers
+  - frontend developers
+  - full stack developers
+outsystems-tools:
+  - case management framework
+coverage-type:
+  - unblock
 ---
 
 # OS-CMFR-GEN-00030

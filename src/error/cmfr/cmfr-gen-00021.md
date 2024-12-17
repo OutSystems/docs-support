@@ -1,11 +1,19 @@
 ---
 summary: We couldn't find a pairing for <case/case definition> and Milestone Definition.
-tags:
+tags: error handling, case management framework, debugging, outsystems platform, service studio debugging
 locale: en-us
 guid: fa5e675c-3d6a-4574-a0a7-0e224699170a
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
 figma:
+audience:
+  - mobile developers
+  - full stack developers
+outsystems-tools:
+  - service studio
+  - case management framework
+coverage-type:
+  - unblock
 ---
 
 # OS-CMFR-GEN-00021

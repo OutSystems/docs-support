@@ -6,6 +6,8 @@ locale: en-us
 app_type: mobile apps
 platform-version: o11, odc
 figma:
+coverage-type:
+  - unblock
 ---
 
 # OS-MABS-UNX-50000

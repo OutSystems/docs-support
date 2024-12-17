@@ -1,11 +1,18 @@
 ---
 summary: Application error. <OriginalErrorMessage>.
-tags:
+tags: error handling, troubleshooting, user support, service interruption, workflow systems
 locale: en-us
 guid: f0c85b4a-a151-4e34-a6b8-768c15177f78
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
 figma:
+audience:
+  - full stack developers
+  - frontend developers
+outsystems-tools:
+  - workflow builder
+coverage-type:
+  - unblock
 ---
 
 # OS-WFBL-GEN-00008

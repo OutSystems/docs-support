@@ -1,11 +1,17 @@
 ---
 summary: Preferences must have the format {}.
-tags:
+tags: error handling, json configuration, app packaging, mobile app development, support
 guid: 32d1797b-e3e5-4c00-bb48-1b0513977e9b
 locale: en-us
 app_type: mobile apps
 platform-version: o11, odc
 figma:
+audience:
+  - mobile developers
+outsystems-tools:
+  - service studio
+coverage-type:
+  - unblock
 ---
 
 # OS-MABS-PREF-40004

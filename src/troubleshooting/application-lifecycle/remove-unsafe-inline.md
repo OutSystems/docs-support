@@ -5,6 +5,16 @@ guid: 773cfac2-eed6-44ae-a2c6-f63d68e6c8a7
 app_type: reactive web apps
 platform-version: o11
 figma: https://www.figma.com/file/6tXLupLiqfG9FOElATTGQU/Troubleshooting?type=design&node-id=3431%3A270&mode=design&t=n3OfSI1cyFvKAAiH-1
+tags: content security policy, error handling, support and troubleshooting, security best practices, web development security
+audience:
+  - frontend developers
+  - full stack developers
+  - platform administrators
+outsystems-tools:
+  - service studio
+  - service center
+coverage-type:
+  - unblock
 ---
 
 # Removing unsafe-inline 

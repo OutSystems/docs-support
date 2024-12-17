@@ -1,11 +1,19 @@
 ---
 summary: OutSystems 11 (O11) allows customer-initiated penetration testing on its various deployment infrastructures, providing guidelines for managing false positives.
-tags:
+tags: penetration testing, security testing, cloud infrastructure, false positives, vulnerability scans
 locale: en-us
 guid: 43176740-324f-4592-a993-5d4f9fa660fb
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
 figma:
+audience:
+  - platform administrators
+  - full stack developers
+  - infrastructure managers
+outsystems-tools:
+  - none
+coverage-type:
+  - apply
 ---
 
 # Penetration testing

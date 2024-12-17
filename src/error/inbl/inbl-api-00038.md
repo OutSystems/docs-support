@@ -1,11 +1,19 @@
 ---
 platform-version: o11
 summary: Recomended actions for the error "An error occurred while getting a token from the Microsoft Identity Platform" in Integration Builder.
-tags:
+tags: azure ad, app registration, certificate management, token authentication, error handling
 locale: en-us
 guid: 70184542-5898-4a4d-aac5-13733efe603a
 app_type: traditional web apps, mobile apps, reactive web apps
 figma:
+audience:
+  - platform administrators
+  - full stack developers
+  - backend developers
+outsystems-tools:
+  - integration builder
+coverage-type:
+  - unblock
 ---
 
 # OS-INBL-API-00038

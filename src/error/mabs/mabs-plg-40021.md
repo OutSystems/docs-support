@@ -1,11 +1,17 @@
 ---
 summary: Couldn't install the Cordova plugin {PLUGIN_ID}. {REASON}
-tags:
+tags: cordova plugins, mobile app development, plugin installation, build errors, troubleshooting
 guid: 79efd0e4-f726-401c-bc60-f3c633a16543
 locale: en-us
 app_type: mobile apps
 platform-version: o11, odc
 figma:
+audience:
+  - mobile developers
+outsystems-tools:
+  - mobile plugins
+coverage-type:
+  - unblock
 ---
 
 # OS-MABS-PLG-40021  

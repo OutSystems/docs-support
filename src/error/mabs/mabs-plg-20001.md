@@ -1,11 +1,17 @@
 ---
 summary: Couldn't install the Cordova plugin <plugin_name> because an action was blocked due to security concerns. Contact our support team if this problem persists.
 app_type: mobile apps
-tags: mabs; plg; error_codes
+tags: cordova, plugin installation, mobile app build, security, mobile app development
 locale: en-us
 guid: ac838037-faa8-4d0f-8835-8eb6974ca969
 platform-version: o11, odc
 figma:
+audience:
+  - mobile developers
+outsystems-tools:
+  - service studio
+coverage-type:
+  - unblock
 ---
 
 # OS-MABS-PLG-20001

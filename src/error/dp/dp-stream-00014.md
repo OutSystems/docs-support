@@ -1,11 +1,19 @@
 ---
 summary: This article explains the cause, impact, and recommended action for an unavailable error that occurs while connecting to the destination server.
-tags:
+tags: error handling, server configuration, log streaming, grpc, connectivity issues
 guid: 27eae43b-b5fa-4c13-9a81-fa4a58b5e67a
 locale: en-us
 app_type: traditional web apps, mobile apps, reactive web apps
-figma: 
+figma:
 platform-version: o11
+audience:
+  - platform administrators
+  - full stack developers
+outsystems-tools:
+  - lifetime
+  - service center
+coverage-type:
+  - unblock
 ---
 
 # OS-DP-STREAM-00014

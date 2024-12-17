@@ -5,6 +5,19 @@ guid: e0ed7b1b-f7cc-42cb-9b6d-d36c808e7f0e
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
 figma: https://www.figma.com/file/cPLNnZfDOZ1NX3avcjmq3g/Enterprise%20Customers?node-id=618:298
+tags: database management, cloud infrastructure, data storage, performance optimization, best practices
+audience:
+  - platform administrators
+  - full stack developers
+  - backend developers
+  - tech leads
+  - infrastructure managers
+outsystems-tools:
+  - lifetime
+  - service studio
+coverage-type:
+  - unblock
+  - understand
 ---
 
 # Database storage on OutSystems Cloud

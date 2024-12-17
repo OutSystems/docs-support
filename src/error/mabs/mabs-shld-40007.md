@@ -1,11 +1,17 @@
 ---
 summary: The value of ‘GooglePlayAppSigningCertificate’ AppShield preference isn’t valid. Check if its format is a valid base64.
-tags:
+tags: appshield, mobile app security, base64 encoding, error handling, application packaging
 guid: 1df4d22e-47fb-4a36-8010-837d781a07fa
 locale: en-us
 app_type: mobile apps
 platform-version: o11, odc
 figma:
+audience:
+  - mobile developers
+outsystems-tools:
+  - service studio
+coverage-type:
+  - unblock
 ---
 
 # OS-MABS-SHLD-40007

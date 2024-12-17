@@ -1,11 +1,19 @@
 ---
-tags: 
+tags: database performance, database optimization, database statistics, database fragmentation, database troubleshooting
 summary: OutSystems 11 (O11) users may experience slower database queries after deleting or updating rows due to outdated statistics and data fragmentation.
 locale: en-us
 guid: 9F9D7472-775E-4F53-A6E0-F3C649680216
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
 figma:
+audience:
+  - backend developers
+  - full stack developers
+  - platform administrators
+outsystems-tools:
+  - none
+coverage-type:
+  - unblock
 ---
 
 # Queries become slower after deleting or updating rows

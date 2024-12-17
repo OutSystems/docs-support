@@ -5,8 +5,17 @@ guid: 4cdae94f-8633-4875-98bd-a3a4ac1bd89a
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
 figma: https://www.figma.com/file/cPLNnZfDOZ1NX3avcjmq3g/Enterprise%20Customers?node-id=304:0
+tags: database access, cloud services, sql server, oracle sql developer, security practices
+audience:
+  - platform administrators
+  - full stack developers
+  - backend developers
+outsystems-tools:
+  - lifetime management console
+coverage-type:
+  - understand
+  - apply
 ---
-
 
 # Access the database of your OutSystems Cloud
 

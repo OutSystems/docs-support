@@ -5,6 +5,16 @@ guid: ADFE09B6-85D4-48B0-84D6-30E2DF16CA2C
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
 figma:
+tags: database management, infrastructure management, application configuration, platform server, database connectivity
+audience:
+  - platform administrators
+  - full stack developers
+  - backend developers
+outsystems-tools:
+  - platform server
+  - configuration tool
+coverage-type:
+  - unblock
 ---
 
 # How to change the OutSystems database endpoints used by applications

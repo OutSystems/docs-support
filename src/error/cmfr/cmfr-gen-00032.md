@@ -1,11 +1,20 @@
 ---
 summary: Unknown activity action. It must match one from ActivityAction.
-tags:
+tags: error handling, case management, debugging, application development, outsystems platform
 locale: en-us
 guid: a0fb5813-b21e-4867-9da4-d64b3eccd4cb
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
 figma:
+audience:
+  - mobile developers
+  - frontend developers
+  - full stack developers
+outsystems-tools:
+  - service studio
+  - case management framework
+coverage-type:
+  - unblock
 ---
 
 # OS-CMFR-GEN-00032

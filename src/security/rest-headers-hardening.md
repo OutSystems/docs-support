@@ -1,11 +1,19 @@
 ---
 summary: OutSystems 11 (O11) addresses REST headers security hardening to mitigate potential vulnerabilities during network transit.
-tags:
+tags: security, rest api, debugging, http headers, production validation
 locale: en-us
 guid: a3c088f2-c9f4-4d3e-8b00-c2f2c441b69d
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
 figma:
+audience:
+  - mobile developers
+  - frontend developers
+  - full stack developers
+outsystems-tools:
+  - service studio
+coverage-type:
+  - apply
 ---
 
 # REST Headers security hardening

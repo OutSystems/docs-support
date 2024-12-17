@@ -1,11 +1,21 @@
 ---
 summary: The connection was updated locally, but we could not update the connection on the Microsoft's servers. You'll need to access Microsoft Azure Active Diretory if you want to update it manually. Error details <Message>
-tags:
+tags: azure active directory, connection issues, integration manager, application management, error handling
 locale: en-us
 guid: 6d91e880-d57f-4e9d-ae72-ba3d0181f4f1
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
 figma:
+audience:
+  - platform administrators
+  - full stack developers
+  - backend developers
+  - frontend developers
+  - mobile developers
+outsystems-tools:
+  - integration builder
+coverage-type:
+  - unblock
 ---
 
 # OS-INBL-API-00028

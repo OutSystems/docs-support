@@ -5,7 +5,10 @@ guid: 07ec2701-98a1-4bfc-9e32-9685ecf7fe0c
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
 figma: https://www.figma.com/file/6tXLupLiqfG9FOElATTGQU/Troubleshooting?node-id=3330:2674
+coverage-type:
+  - unblock
 ---
+
 # Personal Environment unavailable - HTTP 503
 
 ## Symptoms

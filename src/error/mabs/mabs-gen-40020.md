@@ -1,11 +1,18 @@
 ---
 summary: Couldn't generate your app. It's configured to use Android Build Tools version <used_version>, but the version can't be modified. Check if it's being overridden in your extensibility configurations or via a plugin.
-tags:
+tags: android build tools, cordova plugins, mobile application building, application errors
 guid: 72dac8b4-2950-4aa6-a249-bd7fd75b9e4a
 locale: en-us
 app_type: mobile apps
 platform-version: o11, odc
 figma:
+audience:
+  - mobile developers
+  - platform administrators
+outsystems-tools:
+  - none
+coverage-type:
+  - unblock
 ---
 
 # OS-MABS-GEN-40020

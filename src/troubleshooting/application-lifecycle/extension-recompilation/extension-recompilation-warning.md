@@ -1,11 +1,20 @@
 ---
 summary: OutSystems 11 (O11) warns of potential security flaws when extension recompilation is enabled during publishing operations.
-tags: 
+tags: security best practices, publishing operations, environment configuration, extension management, platform server
 locale: en-us
 guid: b9593f0a-5d9f-4d64-b3a3-e3e91fbcb671
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
 figma: https://www.figma.com/file/6tXLupLiqfG9FOElATTGQU/Troubleshooting?node-id=3330:2711
+audience:
+  - platform administrators
+  - full stack developers
+outsystems-tools:
+  - service studio
+  - service center
+  - platform server
+coverage-type:
+  - unblock
 ---
 
 # Publish warning - Continuing with extension recompilation enabled may result in security flaws

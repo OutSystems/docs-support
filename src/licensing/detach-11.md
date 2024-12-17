@@ -5,6 +5,16 @@ guid: 100b891e-0796-4114-a36b-5a7e0b7576ab
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
 figma: https://www.figma.com/file/TzqCbVlN2j4nadunA7q8VU/Licensing?node-id=1318:909
+tags: outsystems detachment, application maintenance, self-managed environments, cloud migration
+audience:
+  - platform administrators
+  - full stack developers
+  - tech leads
+  - infrastructure managers
+outsystems-tools:
+  - none
+coverage-type:
+  - apply
 ---
 
 # The detach process for OutSystems 11

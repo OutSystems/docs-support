@@ -1,11 +1,20 @@
 ---
 summary: There was an authentication error. Sign out and sign in again.
-tags:
+tags: authentication issues, user session management, error handling, integration troubleshooting
 locale: en-us
 guid: f3ab7e9c-b41a-4cf6-8b16-c2916b7f5f53
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
 figma:
+audience:
+  - frontend developers
+  - full stack developers
+  - platform administrators
+outsystems-tools:
+  - integration builder
+  - integration manager
+coverage-type:
+  - unblock
 ---
 
 # OS-INBL-API-20005

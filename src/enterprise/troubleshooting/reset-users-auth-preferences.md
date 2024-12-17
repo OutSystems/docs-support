@@ -5,6 +5,15 @@ guid: e8b5cd23-b031-4fca-b2ee-071f8a074def
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
 figma:
+tags: authentication, user management, security, troubleshooting, configuration
+audience:
+  - platform administrators
+  - full stack developers
+outsystems-tools:
+  - service studio
+  - users application
+coverage-type:
+  - unblock
 ---
 
 # Unblock access to Users app

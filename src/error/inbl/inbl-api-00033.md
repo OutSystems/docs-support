@@ -1,11 +1,21 @@
 ---
 summary: The connection was deleted locally, but we could not delete the connection on the Microsoft's servers. You'll need to access Microsoft Azure Active Diretory if you want to delete it manually. Error details "<"Message">".
-tags:
+tags: error handling, integration issues, azure active directory, api management, application deletion
 locale: en-us
 guid: 8870894b-d028-45f3-b936-77eca9d85d93
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
 figma:
+audience:
+  - platform administrators
+  - backend developers
+  - full stack developers
+  - tech leads
+  - infrastructure managers
+outsystems-tools:
+  - integration builder
+coverage-type:
+  - unblock
 ---
 
 # OS-INBL-API-00030

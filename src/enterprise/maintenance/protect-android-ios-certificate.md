@@ -5,6 +5,17 @@ guid: d538f88c-9a77-41e7-80df-15f9539072a3
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
 figma:
+tags: mobile app development, security, encryption, data protection, cloud services
+audience:
+  - mobile developers
+  - frontend developers
+  - full stack developers
+  - platform administrators
+outsystems-tools:
+  - service studio
+  - mobile apps builder service
+coverage-type:
+  - apply
 ---
 
 # How OutSystems protects your Android and iOS certificates

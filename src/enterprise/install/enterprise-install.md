@@ -4,7 +4,16 @@ locale: en-us
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
 figma:
-summary: 
+summary:
+tags: ide usage, reactive web apps, tutorials for beginners, installation, outsystems
+audience:
+  - mobile developers
+  - frontend developers
+  - full stack developers
+outsystems-tools:
+  - service studio
+coverage-type:
+  - none
 ---
 
 # Installation

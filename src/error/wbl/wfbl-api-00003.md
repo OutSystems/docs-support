@@ -1,11 +1,20 @@
 ---
 summary: Storage error. <OriginalErrorMessage>.
-tags:
+tags: error handling, internal storage, application publishing, platform troubleshooting, workflow automation
 locale: en-us
 guid: 3b8b45df-e5c5-4948-8be2-ecdfdaed186c
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
 figma:
+audience:
+  - frontend developers
+  - full stack developers
+  - platform administrators
+outsystems-tools:
+  - workflow builder
+  - service studio
+coverage-type:
+  - unblock
 ---
 
 # OS-WFBL-API-00003

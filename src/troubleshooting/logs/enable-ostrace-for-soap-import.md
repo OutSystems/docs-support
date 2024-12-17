@@ -1,11 +1,19 @@
 ---
 summary: Explore how OutSystems 11 (O11) enhances SOAP web service consumption troubleshooting through OSTrace in Service Studio.
-tags: support-application_development; support-Integrations_Extensions
+tags: soap web service, error handling, logging, web service integration, troubleshooting
 locale: en-us
 guid: 5BB9566B-1A9F-45B9-81D9-4F93D3BECDFC
 platform-version: o11
 app_type: traditional web apps, mobile apps, reactive web apps
 figma: https://www.figma.com/file/6tXLupLiqfG9FOElATTGQU/Troubleshooting?node-id=3327:526
+audience:
+  - mobile developers
+  - frontend developers
+  - full stack developers
+outsystems-tools:
+  - service studio
+coverage-type:
+  - unblock
 ---
 
 # Enabling OSTrace for SOAP web service consumption in Service Studio

@@ -1,12 +1,23 @@
 ---
 summary: Explore how to test connectivity between environments in OutSystems 11 (O11) by accessing the Service Center console via HTTPS.
-tags:
+tags: connectivity testing, network infrastructure, environment setup, secure communication
 locale: en-us
 guid: 4cd51773-8433-49d9-850c-0b958956e63d
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
 figma: https://www.figma.com/file/6tXLupLiqfG9FOElATTGQU/Troubleshooting?node-id=621:859
+audience:
+  - platform administrators
+  - full stack developers
+  - infrastructure managers
+  - tech leads
+outsystems-tools:
+  - service center
+  - lifetime
+coverage-type:
+  - unblock
 ---
+
 # Test the connectivity between OutSystems environments
 
 In OutSystems architecture, you need to have bidirectional communication between the LifeTime environment and all the application environments.

@@ -1,12 +1,21 @@
 ---
-tags:
+tags: cloud infrastructure, platform upgrade, environment management, cloud hosting, downtime planning
 summary: Learn how to upgrade your OutSystems 11 (O11) Cloud demo environment through self-service or automatic options, ensuring you plan for associated downtime.
 locale: en-us
 guid: D364023A-59AE-4351-843B-8A0C8E5756D8
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
 figma:
+audience:
+  - platform administrators
+  - full stack developers
+  - tech leads
+outsystems-tools:
+  - lifetime
+coverage-type:
+  - unblock
 ---
+
 # Upgrading your Cloud demo
 
 Cloud demos are OutSystems Cloud infraestructures provided to our partners for non-production purposes.

@@ -1,11 +1,20 @@
 ---
 summary: There was an error processing this rule expression. <data-type> can't be compared with <data-type>.
-tags:
+tags: error handling, data types, rule expressions, case management framework, application development
 locale: en-us
 guid: 4acd4a8a-495d-4293-a460-592fc35e4cee
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
 figma:
+audience:
+  - full stack developers
+  - frontend developers
+  - backend developers
+outsystems-tools:
+  - service studio
+  - case management framework
+coverage-type:
+  - unblock
 ---
 
 # OS-CMFR-GEN-00028

@@ -1,11 +1,20 @@
 ---
 summary: We found more than one record for this transition.
-tags:
+tags: error handling, case management framework, data consistency, application logic
 locale: en-us
 guid: 758ad019-6558-49bb-92ea-40581bfbca9e
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
 figma:
+audience:
+  - mobile developers
+  - frontend developers
+  - full stack developers
+outsystems-tools:
+  - service studio
+  - case management framework
+coverage-type:
+  - unblock
 ---
 
 # OS-CMFR-GEN-00024

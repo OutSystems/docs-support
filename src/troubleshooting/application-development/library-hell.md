@@ -5,7 +5,18 @@ guid: cefe3ea0-ea56-405d-8863-f2b366f442a3
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
 figma: https://www.figma.com/file/6tXLupLiqfG9FOElATTGQU/Troubleshooting?node-id=3082:479
+tags: deployment, library management, module dependencies, .net, java
+audience:
+  - backend developers
+  - full stack developers
+  - platform administrators
+outsystems-tools:
+  - service studio
+  - platform server
+coverage-type:
+  - unblock
 ---
+
 # Library hell - why are changes in a producer not reflected in the consumers
 
 If you're developing in multiple modules at a time, it may happen that a change is made to a producer module (for example, at an integration level) and there is the need to see the change reflected in a consumer module. In some situations, simply republishing the consumer module solves the problem. But in others, the changes don't get reflected in the consumers. 

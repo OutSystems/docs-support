@@ -5,6 +5,14 @@ guid: c36e541a-18b4-4b3d-bf80-1ff03dbaa0bc
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
 figma:
+tags: licensing, email troubleshooting, support, activation delays, ipp
+audience:
+  - platform administrators
+  - full stack developers
+outsystems-tools:
+  - service studio
+coverage-type:
+  - unblock
 ---
 
 # Used the IPP portal, but didn't receive an email

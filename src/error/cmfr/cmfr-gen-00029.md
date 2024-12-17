@@ -1,11 +1,19 @@
 ---
 summary: There was an error processing rule <rule-identifier>. <error-message>
-tags:
+tags: error handling, case management framework, rule execution, exception handling, troubleshooting
 locale: en-us
 guid: 7e1ffbaf-2933-433d-9bc1-d715c73bb891
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
 figma:
+audience:
+  - frontend developers
+  - full stack developers
+  - platform administrators
+outsystems-tools:
+  - case management framework
+coverage-type:
+  - unblock
 ---
 
 # OS-CMFR-GEN-00029

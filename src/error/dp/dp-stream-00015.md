@@ -1,11 +1,19 @@
 ---
 summary: This article explains the cause, impact, and recommended action for a data loss error that occurs while connecting to the destination server.
-tags:
+tags: error handling, server communication, log streaming, data loss, debugging
 guid: 0e51245b-0ec8-4415-86b3-f03674550674
 locale: en-us
 app_type: traditional web apps, mobile apps, reactive web apps
-figma: 
+figma:
 platform-version: o11
+audience:
+  - platform administrators
+  - full stack developers
+  - backend developers
+outsystems-tools:
+  - lifetime
+coverage-type:
+  - unblock
 ---
 
 # OS-DP-STREAM-00015

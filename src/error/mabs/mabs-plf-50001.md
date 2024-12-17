@@ -1,12 +1,22 @@
 ---
 summary: There was an issue in the connection to a server. This might be caused by a server downtime.
-tags: mabs plf error_codes
+tags: error handling, mobile app build process, dependency management, server downtime
 locale: en-us
 app_type: mobile apps
 guid: 3852bcd4-12bf-4bef-9a72-55d31e3750ce
 platform-version: o11, odc
 figma:
+audience:
+  - mobile developers
+  - frontend developers
+  - platform administrators
+outsystems-tools:
+  - service studio
+  - service center
+coverage-type:
+  - unblock
 ---
+
 # OS-MABS-PLF-50001
 
 ## Error message

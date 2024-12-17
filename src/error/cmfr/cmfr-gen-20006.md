@@ -1,11 +1,19 @@
 ---
 summary: Couldn't log in. Make sure you're accessing as a sample user.
-tags:
+tags: authentication, debugging, user management, case management framework, error troubleshooting
 locale: en-us
 guid: bc46ebc1-9248-41d3-92f5-b3f53afc304c
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
 figma:
+audience:
+  - frontend developers
+  - full stack developers
+outsystems-tools:
+  - service studio
+  - case management framework
+coverage-type:
+  - unblock
 ---
 
 # OS-CMFR-GEN-20006

@@ -1,11 +1,21 @@
 ---
-tags:
+tags: driver compatibility, enterprise applications, oracle database, .net development, technical issue resolution
 summary: Explore driver compatibility issues and solutions for OutSystems 11 (O11) when using Oracle Data Provider for .NET.
 locale: en-us
 guid: 529e7c9a-0497-4041-a583-1682bdbaead4
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
 figma: https://www.figma.com/file/cPLNnZfDOZ1NX3avcjmq3g/Enterprise%20Customers?node-id=3237:27
+audience:
+  - full stack developers
+  - platform administrators
+  - backend developers
+outsystems-tools:
+  - service studio
+  - platform server
+  - configuration tool
+coverage-type:
+  - unblock
 ---
 
 # Oracle Data Provider for .NET driver issues

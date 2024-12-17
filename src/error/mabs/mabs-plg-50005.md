@@ -1,11 +1,17 @@
 ---
 summary: Couldn't install the Cordova plugin <plugin_name> because we couldn't fetch its dependencies due to a CocoaPods server error. Please try again.
-tags: mabs; plg; error_codes
+tags: cocoapods, cordova plugins, error handling, dependency management, mobile app build
 locale: en-us
 app_type: mobile apps
 guid: f51bbdd7-5738-4e2c-ad6d-5f5106307c64
 platform-version: o11, odc
 figma:
+audience:
+  - mobile developers
+outsystems-tools:
+  - service center
+coverage-type:
+  - unblock
 ---
 
 # OS-MABS-PLG-50005

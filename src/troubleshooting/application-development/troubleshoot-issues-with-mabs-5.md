@@ -1,11 +1,17 @@
 ---
 summary: Troubleshoot MABS 5.0 issues in OutSystems 11 (O11) related to SDK updates and plugin compatibility.
-tags:
+tags: mobile apps build service, android sdk, cordova-android, plugin compatibility
 locale: en-us
 guid: c17b230d-07c0-4dd2-b977-a794555d8ba2
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
 figma:
+audience:
+  - mobile developers
+outsystems-tools:
+  - service studio
+coverage-type:
+  - unblock
 ---
 
 # Troubleshooting issues with MABS 5.0

@@ -5,6 +5,8 @@ guid: 9784BD95-44FB-4231-A892-78A363BE2F54
 app_type: mobile apps
 platform-version: o11
 figma:
+coverage-type:
+  - unblock
 ---
 
 # Healing resource build from prebundle: FAILED

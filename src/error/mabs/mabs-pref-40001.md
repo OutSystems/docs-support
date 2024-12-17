@@ -1,11 +1,17 @@
 ---
 summary: Preference key <key> in <context> wasn't found.
-tags:
+tags: error handling, extensibility configurations, application packaging, outsystems platform, mobile app development
 guid: b93a43d1-d235-4798-8b13-4e62687aeead
 locale: en-us
 app_type: mobile apps
 platform-version: o11, odc
 figma:
+audience:
+  - mobile developers
+outsystems-tools:
+  - service studio
+coverage-type:
+  - unblock
 ---
 
 # OS-MABS-PREF-40001

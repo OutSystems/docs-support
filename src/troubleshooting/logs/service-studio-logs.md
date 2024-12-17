@@ -1,12 +1,21 @@
 ---
 summary: OutSystems 11 (O11) provides detailed error reporting and enhanced logging capabilities in Service Studio to assist in troubleshooting and support.
-tags:
+tags: error handling, diagnostics, support, logging, ide usage, reactive web apps
 locale: en-us
 guid: f8cdaea8-0cdd-4466-830e-8bcf9d4ac8e7
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
 figma: https://www.figma.com/file/6tXLupLiqfG9FOElATTGQU/Troubleshooting?node-id=3327:534
+audience:
+  - mobile developers
+  - frontend developers
+  - full stack developers
+outsystems-tools:
+  - service studio
+coverage-type:
+  - unblock
 ---
+
 # Service Studio logs
 
 ## Service Studio report

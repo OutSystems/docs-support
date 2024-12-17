@@ -1,11 +1,20 @@
 ---
 summary: It's not possible to fill in both UserId and GroupId attributes.
-tags:
+tags: error handling, permissions, access control, case management framework, troubleshooting
 locale: en-us
 guid: 7b1671ce-3e39-4c51-bb58-f8f66be538a7
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
 figma:
+audience:
+  - full stack developers
+  - backend developers
+  - platform administrators
+outsystems-tools:
+  - case management framework
+  - service studio
+coverage-type:
+  - unblock
 ---
 
 # OS-CMFR-GEN-00013

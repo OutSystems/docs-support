@@ -1,11 +1,17 @@
 ---
 summary: This icon file is not supported, choose another one.
-tags:
+tags: mobile app development, application packaging, error handling, application deployment, outsystems support
 guid: b05211bd-0a4e-4fe5-bd4a-6275c681040b
 locale: en-us
 app_type: mobile apps
 platform-version: o11, odc
 figma:
+audience:
+  - mobile developers
+outsystems-tools:
+  - service studio
+coverage-type:
+  - unblock
 ---
 
 # OS-MABS-CST-400000

@@ -5,8 +5,16 @@ guid: 7429b610-e2b7-4a76-8557-6516bfda19f3
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
 figma:
+tags: ssl/tls, https, security, certificate management, server configuration
+audience:
+  - platform administrators
+  - full stack developers
+  - backend developers
+outsystems-tools:
+  - platform server
+coverage-type:
+  - apply
 ---
-
 
 # Add self signed certificate to trusted root store on OutSystems
 

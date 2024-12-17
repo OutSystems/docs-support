@@ -5,6 +5,17 @@ guid: 4a4212cb-75d1-4b18-bdfb-a1b4cdc6b1b6
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
 figma: https://www.figma.com/file/cPLNnZfDOZ1NX3avcjmq3g/Enterprise%20Customers?node-id=3215:885
+tags: license management, organizational changes, infrastructure configuration, outsystems platform operations
+audience:
+  - platform administrators
+  - full stack developers
+  - tech leads
+  - infrastructure managers
+outsystems-tools:
+  - lifetime
+  - service center
+coverage-type:
+  - apply
 ---
 
 # How to change the Activation Code of your infrastructure

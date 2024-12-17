@@ -5,6 +5,13 @@ guid: B34D4527-D30A-4149-8982-8C031DDCCE26
 app_type: mobile apps
 platform-version: o11
 figma:
+tags: mobile app deployment, update errors, resource validation, hash mismatch, troubleshooting
+audience:
+  - mobile developers
+outsystems-tools:
+  - service studio
+coverage-type:
+  - unblock
 ---
 
 # Downloaded resources do not match the resources listed in the moduleinfo

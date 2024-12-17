@@ -1,11 +1,19 @@
 ---
 summary: This article explains the cause, impact, and recommended action for an aborted error that occurs while connecting to the destination server.
-tags:
+tags: error handling, log streaming, server connection, troubleshooting, support services
 guid: a428b0f1-d7fd-47ba-9b4f-529dc92c6b21
 locale: en-us
 app_type: traditional web apps, mobile apps, reactive web apps
-figma: 
+figma:
 platform-version: o11
+audience:
+  - full stack developers
+  - platform administrators
+  - backend developers
+outsystems-tools:
+  - lifetime
+coverage-type:
+  - unblock
 ---
 
 # OS-DP-STREAM-00010

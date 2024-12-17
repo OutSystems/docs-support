@@ -1,11 +1,19 @@
 ---
-summary: This article explains the cause, impact, and recommended action for an HTTP server error on the APM tool server. 
-tags:
+summary: This article explains the cause, impact, and recommended action for an HTTP server error on the APM tool server.
+tags: http errors, server configuration, log streaming, error handling, outsystems platform
 guid: ac049693-902b-4a08-b48a-7be166c5a65a
 locale: en-us
 app_type: traditional web apps, mobile apps, reactive web apps
-figma: 
+figma:
 platform-version: o11
+audience:
+  - platform administrators
+  - full stack developers
+  - backend developers
+outsystems-tools:
+  - lifetime
+coverage-type:
+  - unblock
 ---
 
 # OS-DP-STREAM-50001

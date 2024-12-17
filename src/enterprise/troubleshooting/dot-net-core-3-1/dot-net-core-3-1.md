@@ -1,11 +1,19 @@
 ---
 summary: OutSystems 11 (O11) upgrade issues with Server.API and Server.Identity due to missing .NET Core 3.1.
-tags: 
+tags: .net core, upgrade issues, platform server, health check, error handling
 locale: en-us
 guid: c194d1df-6f2f-46c6-8085-a03fad7f8796
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
 figma: https://www.figma.com/file/cPLNnZfDOZ1NX3avcjmq3g/Enterprise%20Customers?node-id=3213:297
+audience:
+  - platform administrators
+  - backend developers
+  - full stack developers
+outsystems-tools:
+  - platform server
+coverage-type:
+  - unblock
 ---
 
 # Server.API and Server.Identity fail to initialize after upgrading to Platform Server 11.12.2 or later

@@ -1,11 +1,20 @@
 ---
 summary: This article explains the cause, impact, and recommended action for a deadline exceeded error that occurs while connecting to the destination server.
-tags:
+tags: error handling, connection issues, log streaming, outsystems platform, troubleshooting
 guid: 4612a96c-c741-4b79-9912-b01f8a05475a
 locale: en-us
 app_type: traditional web apps, mobile apps, reactive web apps
-figma: 
+figma:
 platform-version: o11
+audience:
+  - platform administrators
+  - full stack developers
+  - backend developers
+outsystems-tools:
+  - lifetime
+  - service studio
+coverage-type:
+  - unblock
 ---
 
 # OS-DP-STREAM-00004

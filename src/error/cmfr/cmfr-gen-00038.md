@@ -1,11 +1,20 @@
 ---
 summary: The user you are trying to delegate from is not a member of the selected group.
-tags:
+tags: error handling, case management, user permissions, security, debugging
 locale: en-us
 guid: e79a3f1c-3560-4d18-90f9-a666ce037b17
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
 figma:
+audience:
+  - full stack developers
+  - backend developers
+  - frontend developers
+outsystems-tools:
+  - service studio
+  - case management framework
+coverage-type:
+  - unblock
 ---
 
 # OS-CMFR-GEN-00038
