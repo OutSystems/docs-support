@@ -5,6 +5,7 @@ locale: en-us
 app_type: mobile apps
 platform-version: o11, odc
 ---
+
 # Mobile Apps Build Service Versions
 
 <div class="info" markdown="1">
@@ -129,7 +130,7 @@ This version can run your apps on:
 </table>
 
 
-# Deprecated
+## Deprecated
 
 You can select this version in the configuration and create a mobile package using it, but you receive limited support. Limited support means that you receive advice and workarounds through support requests, but there are no bug fixes for the version.
 

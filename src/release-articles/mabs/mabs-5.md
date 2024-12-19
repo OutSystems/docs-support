@@ -131,3 +131,4 @@ For common issues and solutions check also [Troubleshooting the Mobile Apps Gene
 
 ## Older releases
 Release notes for older MABS versions are available at [Mobile Apps Build Service (older versions)](older-releases.md).
+
