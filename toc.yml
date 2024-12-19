@@ -24,7 +24,7 @@
         - href: release-notes/10/development-environment/development-environment.md
         - href: release-notes/10/end-support-10.md
         - href: release-notes/10/side-effects-breaking-changes-10.md
-    # MABS
+    # MABS   
     - href: release-notes/mabs/mabs-versions.md
     - topics:
         - href: release-notes/mabs/obsolete-versions.md
