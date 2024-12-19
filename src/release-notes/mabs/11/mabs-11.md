@@ -10,7 +10,7 @@ platform-version: o11, odc
 
 <div class="info">
 
-Check the mobile stack details for each available MABS version in [Mobile Apps Build Service Versions](../mabs-versions.md).
+Check the mobile stack details for each available MABS version in [Mobile Apps Build Service Versions](../../../release-articles/mabs/mabs-versions.md).
 
 </div>
 

@@ -10,12 +10,14 @@ platform-version: o11
 
 <div class="info">
 
-Check the mobile stack details for each available MABS version in [Mobile Apps Build Service Versions](../mabs-versions.md).
+Check the mobile stack details for each available MABS version in [Mobile Apps Build Service Versions](../../../release-articles/mabs/mabs-versions.md).
+
 </div>
 
 <div class="info">
 
 For common issues and solutions check also [Troubleshooting the Mobile Apps Generation](https://success.outsystems.com/Support/Enterprise_Customers/Troubleshooting/Troubleshooting_the_Mobile_Apps_Generation).
+
 </div>
 
 MABS 9 is an important milestone for all mobile developers who publish on App Store and Play Store. MABS 9 uses iOS 16, and Android 13 with the API level 33. The stack lets you continue submitting your Android and iOS apps to the stores while taking advantage of the new features that new iOS and Android bring.

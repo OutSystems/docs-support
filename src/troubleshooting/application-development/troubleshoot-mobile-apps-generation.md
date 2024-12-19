@@ -125,7 +125,7 @@ In the following example (in the Extensibility Configurations of the module), we
 
 ![Code snippet of Extensibility Configurations specifying 'android-targetSdkVersion' as '22'.](images/troubleshoot-mobile-apps-generation-1.png "Extensibility Configurations for Android SDK Version")
 
-In this case we were using MABS 5.0 and its specifications in [MABS versions](../../release-notes/mabs/mabs-versions.md) tells us that the version 28 of the Android SDK is required. So, we must change the `value` to version 28 to be able to submit the app to the Play Store.
+In this case we were using MABS 5.0 and its specifications in [MABS versions](../../release-articles/mabs/mabs-versions.md) tells us that the version 28 of the Android SDK is required. So, we must change the `value` to version 28 to be able to submit the app to the Play Store.
 
 Although there are Cordova preferences to force the version of the native SDKs, the best option is to adapt the plugin to the target SDK version of the MABS specifications. 
 
@@ -145,7 +145,7 @@ For example, a Google Analytics plugin is using `play-services-analytics`, but a
 
 ![Code snippet from a plugin.xml file showing a dependency on 'com.google.android.gms:play-services-analytics:+' version.](images/troubleshoot-mobile-apps-generation-3.png "Plugin XML Dependency Configuration")
 
-The “+” sign allows the latest version available to be used when generating the app, but if major changes are done to `play-services-analytics`, it might become incompatible with [the MABS  requirements](../../release-notes/mabs/mabs-versions.md) or other plugins.
+The “+” sign allows the latest version available to be used when generating the app, but if major changes are done to `play-services-analytics`, it might become incompatible with [the MABS  requirements](../../release-articles/mabs/mabs-versions.md) or other plugins.
 
 Keeping these entries with a working version will ensure that results are predictable. 
 
@@ -344,7 +344,7 @@ When using plugins in mobile apps, they can sometimes be the source of issues. T
 
 #### Make sure that plugins comply with MABS
 
-When using plugins, make sure that their implementation complies with [the MABS version requirements](../../release-notes/mabs/mabs-versions.md) or, otherwise, they may be a source of problems.
+When using plugins, make sure that their implementation complies with [the MABS version requirements](../../release-articles/mabs/mabs-versions.md) or, otherwise, they may be a source of problems.
 
 For example, if the `plugin.xml` file contains engine entries like in the image below, make sure they're compatible with Cordova CLI or Android/iOS Engines:
 
@@ -376,7 +376,7 @@ This method implies knowledge about working with Cordova projects and a bit of s
 
 Create a Cordova project and add plugins, one by one, as follows:
 
-1. Set up the Cordova environment following the [Cordova instructions](https://cordova.apache.org/docs/en/latest/guide/cli/index.html) for the Cordova CLI version found in [the MABS version requirements](../../release-notes/mabs/mabs-versions.md).    
+1. Set up the Cordova environment following the [Cordova instructions](https://cordova.apache.org/docs/en/latest/guide/cli/index.html) for the Cordova CLI version found in [the MABS version requirements](../../release-articles/mabs/mabs-versions.md).    
 **Note**: In the case of iOS, you must use a macOS environment;
 
 1. Create the Cordova project
@@ -393,7 +393,7 @@ Create a Cordova project and add plugins, one by one, as follows:
 
     Where:    
     `<platform>`: is either 'android' or 'ios'    
-    `<engine version>`: is the engine version [required by the MABS version](../../release-notes/mabs/mabs-versions.md).
+    `<engine version>`: is the engine version [required by the MABS version](../../release-articles/mabs/mabs-versions.md).
 
 1. Add a plugin and build the project
 

@@ -23,7 +23,7 @@ See [Support provided for beta versions](mabs-beta-support.md) for details on Ou
 
 <div class="info" markdown="1">
 
-## **Version 11.0** - [See Release Notes](11/11.0/11.0.md)<br/>
+## **Version 11.0** - [See Release Notes](../../release-notes/mabs/11/11.0/11.0.md)<br/>
 Released as Beta on November 20th, 2024 <br/>
 
 </div>
@@ -78,7 +78,7 @@ You can get full support and bug fixes through OutSystems support requests mecha
 
 <div class="info" markdown="1">
 
-## **Version 10.0** - [See Release Notes](10/10.0/10.0.md)<br/>
+## **Version 10.0** - [See Release Notes](../../release-notes/mabs/10/10.0/10.0.md)<br/>
 Released as Beta on October 26, 2023 <br/>
 Released to GA on December 27, 2023 <br/>
 Deprecation date to be announced
@@ -135,7 +135,7 @@ You can select this version in the configuration and create a mobile package usi
 
 <div class="warning" markdown="1">
 
-## **Version 9.0** - [See Release Notes](9/9.0/9.0.md)<br/>
+## **Version 9.0** - [See Release Notes](../../release-notes/mabs/9/9.0/9.0.md)<br/>
 Released on November 23, 2022<br/>
 Deprecated on April 29, 2024
 </div>

@@ -11,11 +11,13 @@ platform-version: o11
 <div class="info">
 
 Check the mobile stack details for each available MABS version in [Mobile Apps Build Service Versions](mabs-versions.md).
+
 </div>
 
 <div class="info">
 
 For common issues and solutions check also [Troubleshooting the Mobile Apps Generation](https://success.outsystems.com/Support/Enterprise_Customers/Troubleshooting/Troubleshooting_the_Mobile_Apps_Generation).
+
 </div>
 
 ## MABS Version 5.2
@@ -24,6 +26,7 @@ For common issues and solutions check also [Troubleshooting the Mobile Apps Gene
 
 **First release:** 2019-12-26 13:30:00 UTC<br/>
 **Last update:** 2022-09-21 09:00:00 UTC.
+
 </div>
 
 ### New in this version
@@ -48,7 +51,7 @@ For common issues and solutions check also [Troubleshooting the Mobile Apps Gene
 
 ### Known Issue
 
-* The issue with the screen flickering on iPhones running iOS 12, identified in MABS 4.0, when a user selects an input field in a screen with many inputs - occurs in MABS 5 as well, due to the same stack. The flickering happens when the viewport meta tag called “viewport-fit” is set to “cover”. [Here are the instructions on how to fix the issue](../../release-notes/mabs/older-releases.md#known-issue-in-mabs-4).
+* The issue with the screen flickering on iPhones running iOS 12, identified in MABS 4.0, when a user selects an input field in a screen with many inputs - occurs in MABS 5 as well, due to the same stack. The flickering happens when the viewport meta tag called “viewport-fit” is set to “cover”. [Here are the instructions on how to fix the issue](older-releases.md#known-issue-in-mabs-4).
 
 
 ## MABS Version 5.1
@@ -57,6 +60,7 @@ For common issues and solutions check also [Troubleshooting the Mobile Apps Gene
 
 **First release:** 2019-11-06 18:30:00 UTC<br/>
 **Last update:** 2019-11-12 17:00:00 UTC.
+
 </div>
 
 ### New in this version 
@@ -73,7 +77,7 @@ For common issues and solutions check also [Troubleshooting the Mobile Apps Gene
 
 ### Known Issue
 
-* The issue with the screen flickering on iPhones running iOS 12, identified in MABS 4.0, when a user selects an input field in a screen with many inputs - occurs in MABS 5 as well, due to the same stack. The flickering happens when the viewport meta tag called “viewport-fit” is set to “cover”. [Here are the instructions on how to fix the issue](../../release-notes/mabs/older-releases.md#known-issue-in-mabs-4).
+* The issue with the screen flickering on iPhones running iOS 12, identified in MABS 4.0, when a user selects an input field in a screen with many inputs - occurs in MABS 5 as well, due to the same stack. The flickering happens when the viewport meta tag called “viewport-fit” is set to “cover”. [Here are the instructions on how to fix the issue](older-releases.md#known-issue-in-mabs-4).
 
 
 ## MABS Version 5.0
@@ -122,7 +126,7 @@ For common issues and solutions check also [Troubleshooting the Mobile Apps Gene
 
 ### Known Issue 
 
-* The issue with the screen flickering on iPhones running iOS 12, identified in MABS 4.0, when a user selects an input field in a screen with many inputs - occurs in MABS 5 as well, due to the same stack. The flickering happens when the viewport meta tag called “viewport-fit” is set to “cover”. [Here are the instructions on how to fix the issue](../../release-notes/mabs/older-releases.md#known-issue-in-mabs-4).
+* The issue with the screen flickering on iPhones running iOS 12, identified in MABS 4.0, when a user selects an input field in a screen with many inputs - occurs in MABS 5 as well, due to the same stack. The flickering happens when the viewport meta tag called “viewport-fit” is set to “cover”. [Here are the instructions on how to fix the issue](older-releases.md#known-issue-in-mabs-4).
 
 
 ## Older releases

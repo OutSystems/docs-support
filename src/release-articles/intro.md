@@ -35,7 +35,7 @@ OutSystems provides cloud services that enable additional functionality to accel
 
 | Cloud service release notes | About |
 |---|---|
-| [Mobile Apps Build Service (MABS)](../release-notes/mabs/mabs-versions.md) | [Generate mobile application packages.](https://success.outsystems.com/Documentation/11/Delivering_Mobile_Apps/Mobile_Apps_Build_Service)|
+| [Mobile Apps Build Service (MABS)](mabs/mabs-versions.md) | [Generate mobile application packages.](https://success.outsystems.com/Documentation/11/Delivering_Mobile_Apps/Mobile_Apps_Build_Service)|
 | [AI Mentor Studio](../release-notes/ai-mentor-studio/ai-mentor-studio.md) | [Monitor technical debt](https://success.outsystems.com/Documentation/11/Managing_the_Applications_Lifecycle/Manage_technical_debt) |
 | [Integration Builder](../release-notes/integration-builder/integration-builder.md) | [Implement complex integrations](https://success.outsystems.com/Documentation/11/Extensibility_and_Integration/Integration_Builder) |
 | [Experience Builder](../release-notes/experience-builder/experience-builder.md) | [Create prototypes for pixel-perfect mobile apps with great UX.](https://success.outsystems.com/Documentation/Experience_Builder/Introduction_to_Experience_Builder)
