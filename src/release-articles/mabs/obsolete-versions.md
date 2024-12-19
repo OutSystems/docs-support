@@ -1,5 +1,4 @@
 ---
-isautopublish: true
 summary: Obsolete versions that are no longer available. 
 tags: 
 guid: 400d26bc-cbcc-4592-9980-f967534d443c
@@ -9,7 +8,7 @@ platform-version: o11, odc
 figma: 
 ---
 
-# Obsolete versions
+# Obsolete MABS versions
 
 These versions are no longer available, and you can't create mobile packages using them. Support requests about an obsolete version aren't answered.
 
