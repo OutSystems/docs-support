@@ -27,6 +27,8 @@
     # MABS
     - href: release-notes/mabs/mabs-versions.md
     - topics:
+        - href: release-notes/mabs/obsolete-versions.md
+        - href: release-notes/mabs/mabs-versioning-and-lifecycle.md
         - href: release-notes/mabs/mabs-beta-support.md
         - href: release-notes/mabs/11/mabs-11.md
         - topics:
