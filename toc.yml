@@ -27,7 +27,6 @@
     # MABS
     - href: release-articles/mabs/mabs-versions.md
     - topics:
-        - href: release-articles/mabs/obsolete-versions.md
         - href: release-articles/mabs/mabs-versioning-and-lifecycle.md
         - href: release-articles/mabs/mabs-beta-support.md
         - href: release-notes/mabs/11/mabs-11.md
@@ -46,6 +45,7 @@
             - href: release-articles/mabs/mabs-7.md
             - href: release-articles/mabs/mabs-6.md
             - href: release-articles/mabs/troubleshoot-issues-with-mabs-6.md
+        - href: release-articles/mabs/obsolete-versions.md
     - href: release-notes/ai-mentor-studio/ai-mentor-studio.md
     - href: release-notes/integration-builder/integration-builder.md
     - href: release-notes/experience-builder/experience-builder.md

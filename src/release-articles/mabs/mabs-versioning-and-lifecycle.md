@@ -73,3 +73,4 @@ The way you select the MABS version differs between OutSystems platforms. For th
 OutSystems promptly embraces the latest mobile operating system versions upon their release, typically around September for Android and iOS. When OutSystems introduces a new major version of MABS, it includes support for the new mobile operating systems and SDKs. This enables your mobile app to harness the benefits of enhanced performance, stability, security, and user experience that come with the new versions of operating systems and SDKs.
 
 Customers support upcoming mobile operating system versions and new SDKs, as some compatibility aspects require their attention. For more details refer to [Support for new mobile operating system versions](mabs-beta-support.md).
+

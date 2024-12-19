@@ -16,6 +16,7 @@ To take advantage of new functionalities released with new operating system vers
 
 This generally means that customers may need to generate their mobile apps with the new MABS version. In some cases, using a different MABS version may also require an upgrade of the Platform Server (O11). For more information about the MABS versions, refer to [Mobile Apps Build Service Versions](mabs-versions.md).
 
+
 With a new major versions of MABS OutSystems supports:
 
 * Runtime primitives of the platform i.e., widgets, with the goal of finding and correcting misbehaving primitives.

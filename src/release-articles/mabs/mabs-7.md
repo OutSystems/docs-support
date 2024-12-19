@@ -11,11 +11,13 @@ platform-version: o11
 <div class="info">
 
 Check the mobile stack details for each available MABS version in [Mobile Apps Build Service Versions](mabs-versions.md).
+
 </div>
 
 <div class="info">
 
 For common issues and solutions check also [Troubleshooting the Mobile Apps Generation](https://success.outsystems.com/Support/Enterprise_Customers/Troubleshooting/Troubleshooting_the_Mobile_Apps_Generation).
+
 </div>
 
 ## MABS Version 7.2

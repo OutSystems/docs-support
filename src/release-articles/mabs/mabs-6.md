@@ -222,3 +222,4 @@ Here is the list of issues that may appear when building your apps with MABS 6.0
 * RedirectToURL Event fails
 * Web Inspector doesn't show Network information
 * Content-Security-Policy may incur new violations in iOS. Android is unaffected.
+

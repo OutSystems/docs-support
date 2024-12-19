@@ -15,6 +15,7 @@ platform-version: o11
 
 **First release:** 2019-04-08 14:00:00 UTC<br/>
 **Last update:** 2019-08-21 19:00:00 UTC.
+
 </div>
 
 ### New in this version
@@ -36,6 +37,7 @@ platform-version: o11
 
 **First release:** 2019-03-20 14:00:00 UTC<br/>
 **Last update:** 2019-04-08 14:00:00 UTC.
+
 </div>
 
 ### New in this version
@@ -72,6 +74,7 @@ platform-version: o11
 
 **First release:** 2019-01-21 09:00:00 UTC<br/>
 **Last update:** 2019-01-21 09:00:00 UTC.
+
 </div>
 
 ### New in this version
@@ -86,6 +89,7 @@ platform-version: o11
 * [2019-02-27 15:00:00 UTC] Improved handling of UI glitch due to the injection of the "viewport-fit" meta tag. You can now disable the injection of the meta tag for iOS 12 devices and change the background color of the app at runtime. (RNMT-2628)
 
 #### Known issue in MABS 4
+
 When a user selects an input field in a mobile app screen with many inputs, the screen flickers. This occurs in iPhones running iOS 12 when the viewport meta tag called “viewport-fit” is set to “cover”. This “viewport-fit” value is used by the WebView to fill the entire screen.
 
 To fix this issue, add the preference “DisableViewportFitForiOS12” to the [Extensibility Configurations property](https://success.outsystems.com/Documentation/11/Delivering_Mobile_Apps/Customize_Your_Mobile_App) and set it to “true”. This will disable the “viewport-fit” meta tag for all iPhone devices running iOS 12.
@@ -109,6 +113,7 @@ However this causes the app to stop using the entire screen, and an empty bottom
 
 **First release:** 2018-08-22 14:00:00 UTC<br/>
 **Last update:** 2020-08-25 12:00:00 UTC.
+
 </div>
 
 ### New in this version
@@ -128,7 +133,9 @@ However this causes the app to stop using the entire screen, and an empty bottom
 <h2>2018-07-31</h2>
 
 <div class="info">
+
 <p>Released on 2018-07-31 10:00:00 UTC</p>
+
 </div>
 
 <h3>New in Mobile Apps Build Service</h3>
@@ -141,7 +148,9 @@ However this causes the app to stop using the entire screen, and an empty bottom
 <h2>2018-07-11</h2>
 
 <div class="info">
+
 <p>Released on 2018-07-11 15:00:00 UTC</p>
+
 </div>
 
 <h3>New in Mobile Apps Build Service</h3>
@@ -153,7 +162,9 @@ However this causes the app to stop using the entire screen, and an empty bottom
 <h2>2018-07-04</h2>
 
 <div class="info">
+
 <p>Released on 2018-07-04 15:00:00 UTC</p>
+
 </div>
 
 <h3>Bug Fixing</h3>
@@ -165,7 +176,9 @@ However this causes the app to stop using the entire screen, and an empty bottom
 <h2>2018-06-21</h2>
 
 <div class="info">
+
 <p>Released on 2018-06-21 14:00:00 UTC</p>
+
 </div>
 
 <h3>New in Mobile Apps Build Service</h3>
@@ -177,7 +190,9 @@ However this causes the app to stop using the entire screen, and an empty bottom
 <h2>2018-05-30</h2>
 
 <div class="info">
+
 <p>Released on 2018-05-30 15:00:00 UTC</p>
+
 </div>
 
 <h3>New in Mobile Apps Build Service</h3>
@@ -189,7 +204,9 @@ However this causes the app to stop using the entire screen, and an empty bottom
 <h2>2018-03-28</h2>
 
 <div class="info">
+
 <p>Released on 2018-03-28 10:00:00 UTC</p>
+
 </div>
 
 <h3>New in Mobile Apps Build Service</h3>
@@ -201,7 +218,9 @@ However this causes the app to stop using the entire screen, and an empty bottom
 <h2>2018-01-29</h2>
 
 <div class="info">
+
 <p>Released on 2018-01-29, 2018</p>
+
 </div>
 
 <h3>New in Mobile Apps Build Service</h3>
@@ -213,7 +232,9 @@ However this causes the app to stop using the entire screen, and an empty bottom
 <h2>2017-11-08</h2>
 
 <div class="info">
+
 <p>Released on 2017-11-08 14:01:51 UTC</p>
+
 </div>
 
 <h3>New in Mobile Apps Build Service</h3>
@@ -225,7 +246,9 @@ However this causes the app to stop using the entire screen, and an empty bottom
 <h2>2017-10-30</h2>
 
 <div class="info">
+
 <p>Released on 2017-10-30 12:31:02 UTC</p>
+
 </div>
 
 <h3>New in Mobile Apps Build Service</h3>

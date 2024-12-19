@@ -191,3 +191,4 @@ The issue is associated with a pattern of bad performance when plugins have big 
 #### Android 12 Native SplashScreen 
 
 With Android 12, Google introduced a dedicated splash screen API in order to unify the look across all apps. This means that all apps system-wide running on Android 12 now show a native splash screen which by default is set by background color and the application icon. To improve the user experience, MABS 8 will update the Android native splash screen to have the same background as defined in cordova-plugin-splashscreen while also hiding the icon so that the end-user doesn't have two different loading experiences.
+
