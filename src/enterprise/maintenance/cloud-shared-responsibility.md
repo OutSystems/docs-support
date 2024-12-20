@@ -36,7 +36,7 @@ This approach relieves you of the operational burden as OutSystems operates, man
 
 ![Diagram illustrating the shared responsibility model in OutSystems Cloud, showing customer responsibilities for applications and data, OutSystems responsibilities for platform and infrastructure, and AWS infrastructure layers.](images/outsystems-cloud-shared-responsibility-model-diag.png "OutSystems Cloud Shared Responsibility Model Diagram")
 
-OutSystems uses several layers of defense to prevent various types of threats and achieve compliance with security frameworks such as  SOC 2, SOC 3, PCI-DSS, and ISO 27001 without compromising application performance. 
+OutSystems uses several layers of defense to prevent various types of threats and achieve compliance with security frameworks such as  SOC 2, PCI-DSS, and ISO 27001 without compromising application performance. 
 
 The following sections explain the shared responsibilities between OutSystems and its customers.
 
