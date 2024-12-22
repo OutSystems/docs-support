@@ -20,7 +20,7 @@ For common issues and solutions check also [Troubleshooting the Mobile Apps Gene
 
 </div>
 
-## MABS Version 7.2
+## MABS Version 7.2 { #mabs-version-7-2 }
 
 <div class="info">
 
@@ -53,7 +53,7 @@ See “System requirements and Breaking Changes” in MABS 7.0 Release Notes
 * [2022-09-21 09:00:00 UTC] Changed the minimum supported TLS version from 1.0 to 1.2. (RPM-2764)
 
 
-## MABS Version 7.1
+## MABS Version 7.1 { #mabs-version-7-1 }
 
 <div class="info">
 
@@ -133,7 +133,7 @@ Set the **AddUploadWidgetPermissions** to **false** only in the apps that don't 
 * [2021-09-01 14:30:00 UTC] Fixed an issue that could lead to resource exhaustion in Android apps. CVSSv3.1 score 4.8 (Medium) (RPM-740)
 
 
-## MABS Version 7.0
+## MABS Version 7.0 { #mabs-version-7-0 }
 
 <div class="info">
 

@@ -20,7 +20,7 @@ For common issues and solutions check also [Troubleshooting the Mobile Apps Gene
 
 </div>
 
-## MABS Version 8.1
+## MABS Version 8.1 { #mabs-version-8-1 }
 
 <div class="info" markdown="1">
 
@@ -64,7 +64,7 @@ This minor version is focused on internal improvements, mainly around logging an
 * [2022-10-12 10:00:00 UTC] Fixed an occasional crash in Android applications when the status bar overlayed the application. (RPM-3118)
 
 
-## MABS Version 8.0
+## MABS Version 8.0 { #mabs-version-8-0 }
 
 <div class="info" markdown="1">
 

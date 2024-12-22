@@ -9,7 +9,7 @@ platform-version: o11
 
 # MABS older versions
 
-## MABS Version 4.2
+## MABS Version 4.2 { #mabs-version-4-2 }
 
 <div class="info">
 
@@ -31,7 +31,7 @@ platform-version: o11
 * [2019-08-21 19:00:00 UTC] Improved detection of the build errors, so the iOS application builds no longer fail due to CocoaPods repository update errors. (RNMT-3073)
 
 
-## MABS Version 4.1
+## MABS Version 4.1 { #mabs-version-4-1 }
 
 <div class="info">
 
@@ -68,7 +68,7 @@ platform-version: o11
 * [2019-05-06 10:00:00 UTC] Fixed an issue that causes iOS app crashes when a new application version is available (RNMT-2802)
 
 
-## MABS Version 4.0
+## MABS Version 4.0 { #mabs-version-4-0 }
 
 <div class="info">
 
@@ -107,7 +107,7 @@ To fix this issue, add the preference “DisableViewportFitForiOS12” to the [E
 
 However this causes the app to stop using the entire screen, and an empty bottom bar appears over the “home” button area in iPhone X devices. Check out the [Support KB article on styling the Status Bar and setting the WebView background color](https://success.outsystems.com/Support/Troubleshooting/Application_runtime/Further_Recommendations_on_the_MABS_4.0_Viewport-Fit_Issue_in_iOS_12_Phones).
 
-## MABS Version 3.3
+## MABS Version 3.3 { #mabs-version-3-3 }
 
 <div class="info">
 
