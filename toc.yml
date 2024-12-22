@@ -214,7 +214,9 @@
             - href: troubleshooting/incident-models/o11/im-3145.md
 
             - href: troubleshooting/incident-models/o11/im-3188.md
+            - href: troubleshooting/incident-models/o11/im-3299.md
             - href: troubleshooting/incident-models/o11/im-3247.md
+
             # End O11 IMs
         - href: troubleshooting/incident-models/odc/im-odc.md
         - topics:
