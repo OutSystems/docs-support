@@ -1,0 +1,28 @@
+---
+isautopublish: true
+pageprivacy: semi-private
+---
+
+<h2 id="lifetime_management_console_11.25.3" >LifeTime Management Console 11.25.3</h2>
+<div class="info"><p>This is a preliminary version of the document.</p></div>
+
+
+<style>.cattag {background: #f4f2ff; color: #6a6581; padding: 4px 10px;}</style>
+<h3 id="new_in_lifetime_management_console_11.25.3" >New in LifeTime Management Console 11.25.3</h3>
+<ul>
+<li>Improved LifeTimeAPI Swagger documentation to include information about permissions for using the API. (R11CT-1808)</li>
+<li>Expanded the output of the following LifeTime APIs - GET /environments/{EnvironmentKey}/applications/{ApplicationKey}/, GET /environments/{EnvironmentKey}/applications/ and GET /applications/{ApplicationKey}/ to include the application version label and GET /applications/{ApplicationKey}/versions/ to include the environment key. (R11CT-3486)</li>
+<li>Added a new environment-level setting that controls if deployment plans can be created in parallel. Removed the setting to disable executing deployment plans in parallel, since it was redundant with the parallel execution limit, which can be used for the same purpose. (R11CT-3680)</li>
+</ul>
+<h3 id="bug_fixing_lifetime_management_console_11.25.3" >Bug Fixing</h3>
+<ul>
+<li>Fixed an issue while installing sample data for LifeTimeSDK on Oracle installations when there were many deployment plans to be exported. The exception raised would mention "ORA-00913 Too many values". (R11CT-3621)</li>
+<li>
+The LifeTimeAPI Swagger documentation has been updated to clarify the behavior of the 'application version creation' process. It now specifies that the application version will only become available after the required processing is completed. (R11CT-3651)</li>
+<li>Previously, when accessing the details of a user in LifeTime, the audit message could mistakenly suggest that the user was blocked in the environments they have access to. Now, the audit message indicates that information about the user's block status is being retrieved. (R11CT-371)</li>
+<li>Fixed a problem where applications created after a deployment plan had been created could not be added to the plan because they would not be visible in the add application popup window. (RPM-1107) <span class="cattag">Application Lifecycle</span>  <span class="cattag">LifeTime</span> </li>
+<li>Fixed an issue where Tag&Deploy would assign a tag lower than the highest application version in the infrastructure. Now, Tag&Deploy will tag the application in a way that respects the highest version present in the infrastructure. (RPM-4870) <span class="cattag">Application Lifecycle</span>  <span class="cattag">LifeTime</span> </li>
+<li>Improved audit logs collected during staging process by removing records that were generated unnecessarily. (RPM-5280) <span class="cattag">Application Lifecycle</span>  <span class="cattag">Service Center</span> </li>
+<li>Fixed an issue that would prevent the cleanup of some old data records from past LifeTime processes. The issue had no functional impact to the operation of LifeTime. (RPM-5365) <span class="cattag">Application Lifecycle</span>  <span class="cattag">LifeTime</span> </li>
+</ul>
+
