@@ -10,7 +10,7 @@ figma:
 
 # ODC shared experience FAQ
 
-If you are trying to signup to try ODC using a shared space, take a look at the following:
+If you are trying to sign up to try ODC using a shared space, take a look at the following:
 
 * **What is the ODC Shared experience?**
     * It's a development space suitable for the Community to learn or explore the latest ODC capabilities. Each space can accommodate up to 50 members who can use it simultaneously.
@@ -19,12 +19,12 @@ If you are trying to signup to try ODC using a shared space, take a look at the 
     * Yes, this is a free trial under the terms and conditions of the [OutSystems license trial agreement](https://www.outsystems.com/legal/trial-terms/).
 
 * **Is it time-limited?**
-    * Yes, this is a 10-day free trial. After you have finished your 10 days usage period, you're always free to join a new ODC shared space.
+    * Yes, this is a 10-day free trial. After you have finished your 10-day usage period, you're always free to join a new ODC shared space.
 
-        Keep in mind that every time you join a new shared space you’ll start fresh. This means that your previous apps, data, and configurations, won’t transpose from one space to the other. So, we advise you to download all your assets before your time in the shared space ends.
+        Keep in mind that every time you join a new shared space, you'll start fresh. This means that your previous apps, data, and configurations won't transpose from one space to the other. So, we advise you to download all your assets before your time in the shared space ends.
 
 * **With whom will I be sharing the development space?**
-    * You’ll be sharing the space with other community members. Make sure you respect the [Code of Conduct](https://www.outsystems.com/legal/odc-code-conduct/) so everyone gets the most out of this trial. Not complying with the code of conduct can lead to removal from the shared space.
+    * You'll be sharing the space with other community members. Make sure you respect the [Code of Conduct](https://www.outsystems.com/legal/odc-code-conduct/) so everyone gets the most out of this trial. Not complying with the code of conduct can lead to removal from the shared space.
 
 * **Can I create AI Agents on this trial?**
     * AI Agent Builder is available on ODC Forge. You or someone in your shared space can install it so that you can build gen-AI-powered applications.
@@ -38,7 +38,7 @@ If you are trying to signup to try ODC using a shared space, take a look at the 
     * A limited number of applications (2 apps per user, maximum 100 apps for all users)
     * No official technical support.
 
-This shared space receives regular updates with new features, so you will be also able to have access to some new features early on.
+This shared space receives regular updates with new features, so you will also have access to some new features early on.
 
 * **What permissions do I have as a developer in an ODC shared space?**
 
@@ -52,7 +52,7 @@ This shared space receives regular updates with new features, so you will be als
 
 * **Am I eligible for an "ODC-Ready Badge” at the end of this experience?**
 
-   * Yes, as long as you complete an ODC online training course. This badge might not be awarded in real time.
+   * Yes, as long as you complete an ODC online training course. This badge might not be awarded in real-time.
 
 * **Can I submit my O11 components to ODC Forge in this space?**
     * Submissions to ODC Forge are not possible on this trial because it has time-limited access, and we want to ensure the asset's long-term success. 
@@ -61,4 +61,4 @@ This shared space receives regular updates with new features, so you will be als
 
 * **I've signed up for the program but never received a confirmation e-mail. What should I do?** 
 
-    * Check your SPAM folder. If the e-mail is not there, make sure that your company policy doesn't block external e-mail addresses. If you still don't have your e-mail, you'll need to wait until a new shared space become available and sign-up again.
+    * Check your SPAM folder. If the e-mail is not there, make sure that your company policy doesn't block external e-mail addresses. Ensure that you have whitelisted the "**" email address. If you still don't have your e-mail, you'll need to wait until a new shared space becomes available and sign up again.
