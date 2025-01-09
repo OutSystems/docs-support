@@ -23,7 +23,7 @@ This document is a step-by-step guide for extracting the source code of your app
 
 ## An overview of the detach process
 
-The detach process is only applicable when you wish to completely stop using OutSystems and it applies to all applications. **It is not possible to detach only some apps from OutSystems**, while keeping other apps still using the OutSystems platform infrastructure.
+The detach process is only applicable when you wish to completely stop using OutSystems and it applies to all applications. **It is not possible to detach only some apps from OutSystems** while keeping other apps that still use the OutSystems platform infrastructure.
 
 <div class="info" markdown="1">
 
@@ -35,7 +35,7 @@ The detach process consists of a set of activities that need to be carried in se
 
 **If you're detaching from the OutSystems Cloud, you must:**
 
- 1. Reach out to your account executive or account manager, letting them know you're starting your detach process.
+ 1. Contact your account executive or account manager and let them know you're starting your detach process.
  1. Create a self-managed OutSystems environment (servers and database) to host your applications.
  1. Open a support case. Further instructions [here](#support-case-cloud).
  1. Migrate your applications and data from the OutSystems Cloud to your self-managed environment.
@@ -43,31 +43,31 @@ The detach process consists of a set of activities that need to be carried in se
 
 **If you're detaching from a self-managed installation, you must:**
 
- 1. Reach out to your account executive or account manager, letting them know you're starting your detach process.
- 1. Ensure that you have followed all of the recommendations and can meet all of the pre-requisites described in the [before you start](#before-you-start) section.
+ 1. Contact your account executive or account manager and let them know you're starting your detach process.
+ 1. Ensure that you have followed all of the recommendations and can meet all of the prerequisites described in the [before you start](#before-you-start) section.
  1. Prepare the Application Server and Database Server.
  1. Open a support case. Further instructions [here](#open-support-case-on-prem).
  1. Build the source code for the [Scheduler Service](#scheduler-service) and install it.
  1. Detach, compile, and deploy all individual modules and mobile apps.
  1. Test the resulting apps without OutSystems.
 
-Ensure that you completely read and understand this entire document before you start. Doing so will give you a better overview of all the steps required, and allow you to better plan the process.
+Ensure that you read and understand this entire document before you start. Doing so will give you a better overview of all the required steps and allow you to plan the process better.
 
-If at any step you run into any issues, you will need to repeat the previous steps until everything is working properly. Be careful and do not skip any instructions in this document, to minimize the chance of any mistakes happening. At any of these steps, you can reach out to OutSystems Support and ask for help.
+If you run into any issues at any step, you will need to repeat the previous steps until everything is working properly. Be careful and do not skip any instructions in this document to minimize the chance of mistakes. At any of these steps, you can contact OutSystems Support and ask for help.
 
 ## Before you start { #before-you-start }
 
 <div class="info" markdown="1">
 
-To detach, Platform Server must be on version 11.18.1 or later. If the environment has an older version, you must upgrade Platform Server to 11.18.1 or higher before detaching.
+To detach, the Platform Server must be on version 11.18.1 or later. If the environment has an older version, you must upgrade Platform Server to 11.18.1 or higher before detaching.
 
 </div>
 
 If you are detaching from the OutSystems Cloud, you're responsible for:
 
-* Creating the brand new Application Server and brand new database that make up the self-managed environment to be used in the detach process. OutSystems will not create those self managed environments. 
+* Creating the brand new Application Server and brand new database that make up the self-managed environment to be used in the detach process. OutSystems will not create those self-managed environments. 
 
-* Loading and boostrapping any data and configurations that your apps require into the new Application Server and new database. OutSystems will not provide any full or partial clone of your OutSystems Cloud database. OutSystems provides [access to the database of your OutSystems Cloud](https://www.outsystems.com/tk/redirect?g=4cdae94f-8633-4875-98bd-a3a4ac1bd89a), but it's your responsibility to copy any data from the OutSystems Cloud into the self-managed database.
+* Loading and bootstrapping any data and configurations that your apps require into the new Application Server and new database. OutSystems will not provide any full or partial clone of your OutSystems Cloud database. OutSystems provides [access to the database of your OutSystems Cloud](https://www.outsystems.com/tk/redirect?g=4cdae94f-8633-4875-98bd-a3a4ac1bd89a), but it's your responsibility to copy any data from the OutSystems Cloud into the self-managed database.
 
 
 ### Recommendations
@@ -83,6 +83,8 @@ To minimize the risks of getting errors during and after the detach process, Out
 <div class="warning" markdown="1">
 
 Not following the above recommendations will greatly increase the difficulty and required time to successfully complete the process.
+
+This document instructions are written regarding the latest release, some steps might not be accurate for older versions.
 
 </div>
 
@@ -141,24 +143,34 @@ When you deploy an application module using 1-Click Publish operation, the OutSy
 
 The code is structured in the following folders:
 
-* **OutSystems\.Application\.Core** – interfaces to access runtime information.
-* **OutSystems\.Application\.Session** – shared code for the session runtime service.
-* **OutSystems\.Application\.Session\.Interfaces** – session runtime service interface.
-* **OutSystems\.Application\.Session\.Persistent** – session runtime service code that implements database persisted sessions.
-* **DatabaseAbstractionLayer** – the interfaces and base code responsible for allowing the Platform access and manage the data from the database.
-* **DatabaseProviders** –
+* **Application** 
+    * **OutSystems\.Application\.Core** – interfaces to access runtime information.
+    * **OutSystems\.Application\.Initialization\.ASPNet** – base implementation for the application lifecycle in ASPNet 
+    * **OutSystems\.Application\.ManifestGeneration** – shared code generating the manifest files for reactive and mobile applications.
+    * **OutSystems\.Application\.Session** – shared code for the session runtime service.
+    * **OutSystems\.Application\.Session\.Abstractions** – session runtime service interfaces.
+    * **OutSystems\.Application\.Session\.Persistent** – session runtime service code that implements database persisted sessions.
+* **DatabaseProviders** 
     * **iDB2DatabaseProvider** – the iDB2 implementation of the DatabaseAbstractionLayer used by the platform when connected to an iDB2 database.
     * **MySQLDatabaseProvider** – the MySQL implementation of the DatabaseAbstractionLayer used by the platform when connected to a MySQL database.
     * **OracleDatabaseProvider** – the Oracle implementation of the DatabaseAbstractionLayer used by the platform when connected to an Oracle database.
+    * **PostgreSQLDatabaseProvider** – the SQLServer implementation of the DatabaseAbstractionLayer used when connected to a PostgreSQL database.
     * **SQLServerDatabaseProvider** – the SQLServer implementation of the DatabaseAbstractionLayer used when connected to a SQLServer database.
-* **OutSystems\.DebuggerClient** – the debbuger protocol code.
+* **OutSystems\.CachingCommon** – shared code used for the cache implementations
+* **OutSystems\.DebuggerClient** – the debugger protocol code.
+* **OutSystems\.HubEdition\.DatabaseAbstractionLayer** – the interfaces and base code responsible for allowing the Platform access and manage the data from the database.
 * **OutSystems\.Logging** – the logging system code.
 * **OutSystems\.Logging\.Database** – interfaces for logging libraries that log to the database.
 * **OutSystems\.ModuleServices** – shared code for BPT Activities.
-* **OutSystems\.Plugin\.RabbitMQ** – a RabbitMQ based implementation of the cache invalidation service.
+* **OutSystems\.Plugin\.FileBased** – a File-based implementation of the cache invalidation service.
+* **OutSystems\.Plugin\.RabbitMQ** – a RabbitMQ-based implementation of the cache invalidation service.
 * **OutSystems\.PluginAPI** – code and interfaces to manage plugin configurations.
-* **OutSystems\.Spreadsheet** – runtime code to load and export Excel files.
+* **OutSystems\.RESTService\.Runtime** – implementation of the controllers for the REST Services endpoints.
+* **OutSystems\.RESTService\.Runtime\.Abstractions** – shared code with base implementations for the REST Services endpoints.
 * **OutSystems\.RuntimeCommon** – the basic runtime code used by all runtime libraries and modules.
+* **OutSystems\.RuntimePlatform** – the Platform's runtime code used by the module.
+* **OutSystems\.RuntimeSettingsConfiguration** – definitions of the runtime settings.
+* **OutSystems\.Spreadsheet** – runtime code to load and export Excel files.
 * **Plugin\.SAP** –
     * **Runtime** – runtime code responsible for consuming SAP services.
     * **RuntimeAPI** – API exposed to extend the SAP functionalities.
@@ -167,18 +179,16 @@ The code is structured in the following folders:
 * **&lt;Project Name&gt;** – the module's source code.
 * **REST\.RuntimeAPI** – used to consume REST services and to extend REST behaviors using extensibility.
 * **RESTService.Runtime** – the runtime code used to expose REST services.
-* **RuntimePlatform** – the Platform's runtime code used by the module.
 * **Scheduler\.Core** – the scheduler core code.
 * **ThirdParty** – third-party components that are necessary for the applications to work.
-    * **EXIFExtractor** – the EXIFextractor is a .NET component which allows the extraction and manipulation of image files information.
     * **GemboxSpreadSheet** – the GemboxSpreadSheet .NET component which enables developers to write, read or convert spreadsheet files (XLS, CSV, XLSX, HTML, or ODS) from their .NET applications.
     * **Json\.NET** – the Newtonsoft Json\.NET is a library to serialize and deserialize between \.NET objects and JSON formats.
     * **SAP** – the SAP\.NET Connector libraries used by the SapNcoConnectionManager project.
     * **WebApi2** – the ASP\.NET Web API is a framework that makes it easy to build restful HTTP services.
 * **WebWidgets** – the runtime code for the various custom web controls.
-* **WidgetsRuntimeAPI** – framework to allow building custom web controls.
+* **WidgetsRuntimeAPI** – a framework to allow building custom web controls.
 
-The following image shows the code structure of a sample generated application:
+The following image shows the code structure of a sample-generated application:
 
 ![Screenshot of the Solution Explorer in Visual Studio showing the code structure of a generated application with multiple projects and folders.](images/Figure_1_-_Code_Structure_of_a_generated_Application-O11.png "Code Structure of a Generated Application")  
 
@@ -189,8 +199,8 @@ In the application folder (`<Project Name>`) there is a set of packages that hol
 * **Entities** – the code to manage entities.
 * **Structures** – the code to manage structures.
 * **ProcExc&lt;ProcessName&gt;** – the code generated for processes.
-* **Exceptions** – the declaration of user defined exceptions.
-* **Roles** – the code to support role based security enforcement.
+* **Exceptions** – the declaration of user-defined exceptions.
+* **Roles** – the code to support role-based security enforcement.
 * **TypeFactory** – the code used by consumers of the module so they can access the referred elements.
 * **WebServices** – the code to support all Web Services exposed by your module.
 * **WebReferences** – the code to support all Web Services consumed by your module.
@@ -663,11 +673,11 @@ If your application handles, either reads or writes, data stored in MS Excel fil
 
 To setup the professional license you need to:
 
-1. Find the `SetLicense()` method on `RuntimePlatform\GemBoxLicensing.cs` and set the method to use your own Gembox Spreadsheet license.
+1. Find the `SetLicense()` method on `OutSystems.Spreadsheet\GemBoxLicensing.cs` and set the method to use your own Gembox Spreadsheet license.
 
 1. Request from GemBox a DLL for the GemBox Professional version.
 
-1. Go to the detached source code solution and, in **References**, replace the GemBox free version DLL with the Professional version DLL. Do this in both `RuntimePlatform` and application projects.
+1. Go to the detached source code solution and, in **References**, replace the GemBox free version DLL with the Professional version DLL. Do this in both `OutSystems.Spreadsheet` and application projects.
 
 In case of not having such a license, you can use the limited Gembox Spreadsheet free edition. Although this license offers the same performance as the paid version, there are limitations in the number of rows per sheet, and the number of sheets per workbook. You should investigate these values further, since they're subject to change.
 
