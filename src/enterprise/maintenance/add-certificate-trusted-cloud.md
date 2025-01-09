@@ -17,6 +17,12 @@ coverage-type:
 
 # Add certificate to trusted root store in OutSystems Cloud
 
+<div class="warning" markdown="1">
+    
+This article applies to O11 Cloud Environments only.
+ 
+</div>
+
 
 When integrating with external systems such as, for example, consuming webservices, integrating with external databases or with an Active Directory, there is often the requirement to do so over HTTPS.
 
@@ -30,7 +36,7 @@ These certificates aren't trusted by the client servers (in this case, the OutSy
 
 `Could not establish trust relationship for the SSL/TLS`.
 
-For OutSystems Cloud environments, this operation is performed by OutSystems support. This option is available depending on your subscription, check more details at the [Cloud services catalog](https://success.outsystems.com/Support/Enterprise_Customers/OutSystems_Support/Cloud_services_catalog).
+For OutSystems Cloud environments, this operation is performed by OutSystems support. This option is available depending on your subscription. For more information, refer to the [Cloud services catalog](https://success.outsystems.com/Support/Enterprise_Customers/OutSystems_Support/Cloud_services_catalog).
 
 Refer to [TLS Cipher Suites in Windows 10 v1607](https://learn.microsoft.com/en-us/windows/win32/secauthn/tls-cipher-suites-in-windows-10-v1607) for the supported encryptions. 
 
@@ -42,10 +48,10 @@ For self-managed environments, check [this article](https://success.outsystems.c
 
 ## Requesting the service
 
-For OutSystems Cloud environments, you’ll need to [open a support case](https://www.outsystems.com/goto/submit-support-case) and:
+For OutSystems Cloud environments, you'll need to [open a support case](https://www.outsystems.com/goto/submit-support-case) and:
 
 * Provide the certificate, in .CER format.
-* Make sure to be clear on what environments should we install the certificate.
+* Ensure you're clear about the environments on which the certificate should be installed.
 
 ## What will OutSystems deliver
 
