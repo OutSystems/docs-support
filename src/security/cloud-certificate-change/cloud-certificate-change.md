@@ -21,11 +21,7 @@ coverage-type:
 
 ## Overview
 
-Most web browser vendors shared they'll be distrusting certificates with a validity that exceeds one year.
-
-To accommodate these changes, OutSystems will be rotating the `outsystemsenterprise.com` certificate, starting late September 2020, by issuing a new certificate every year.
-
-This article addresses questions you may have about the certificate change.
+OutSystems regularly rotates the `outsystemsenterprise.com` certificate. This article addresses questions you may have about the certificate change.
 
 ## FAQs
 

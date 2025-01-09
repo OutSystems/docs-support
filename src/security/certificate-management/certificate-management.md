@@ -33,11 +33,11 @@ This section describes how certificates are managed in the OutSystems cloud. The
 
 Your OutSystems cloud environments are automatically deployed with the default and valid SSL `outsystemsenterprise.com` wild card certificate. This certificate and it's domain are owned and managed by OutSystems. It can only be used by OutSystems.
 
-Furthermore, on September 1, 2020, most browser vendors will no longer trust certificates that are valid for more than 398 days. To accomodate these changes OutSystems will regularly rotate the `outsystemsenterprise.com` certificate, check [here](https://success.outsystems.com/Support/Security/OutSystems_Cloud_certificate_rotation) for more details.
+ OutSystems regularly rotates the `outsystemsenterprise.com` certificate. For more details, refer to [OutSystems Cloud certificate rotation](https://success.outsystems.com/Support/Security/OutSystems_Cloud_certificate_rotation).
 
 <div class="warning" markdown="1">
 
-OutSystems will communicate the certificate change whenever possible. However, OutSystems reserves the right to change the certificate without prior communication or in short notice.
+OutSystems reserves the right to rotate the certificate at any time, without prior communication.
 
 </div>
 
