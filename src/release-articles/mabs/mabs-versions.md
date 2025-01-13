@@ -58,8 +58,8 @@ This version can run your apps on:
         <tr>
             <td style="vertical-align:middle;width:156px;">Tools</td>
             <td style="width:231px;">Build Tools 35.0.0<br/>
-            Gradle 8.5<br/>
-            Android Gradle Plugin 8.3<br/>
+            Gradle 8.11.1<br/>
+            Android Gradle Plugin 8.7.2<br/>
             Kotlin 1.9.24<br/>
             Cordova CLI 12.0.0<br/>
             <a href="https://github.com/OutSystems/cordova-android/tree/outsystems/13.0.x">Cordova Android 13.0</a></td>
