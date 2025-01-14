@@ -14,6 +14,8 @@ pageprivacy: public
 <li>Upgraded Microsoft.AspNet.WebApi.WebHost libraries to version 5.3.0 and Microsoft.AspNet.WebApi.Client to 6.0.0 (R11BRT-1032)</li>
 <li>Upgraded MySQL driver to version 9.0.0 and Google Protobuf to version 3.26.1. Due to this, MySQL 5.7 or lower is no longer supported as external databases. (R11BRT-1039)</li>
 <li>Updated System.Text.Json library bundled with the platform from version 8.0.4 to version 8.0.5. This fixes several security vulnerabilities reported in this dependency. (R11BRT-1409)</li>
+<li>Valid from Dec 12th 2024 for any Cloud Platform Server version that supports Log Streaming: 
+For RequestEvent logs streamed through Log Streaming feature, new attributes are supported to enrich troubleshooting and performance analysis use cases (D,EC,LT,SAT,TCIE,TCIT,TEE,TET,TQE,TQT). Learn more at https://success.outsystems.com/documentation/11/monitoring_and_troubleshooting_apps/introduction_to_log_streaming/logged_data_fields/#requestevent-logs (RDUOPT-3640)</li>
 </ul>
 <h3 id="bug_fixing_platform_server_11.32.0" >Bug Fixing</h3>
 <ul>
@@ -23,6 +25,7 @@ pageprivacy: public
 <li>Fixed an issue that prevented the source code of an application from being downloaded correctly, using the LifeTime API /lifetimeapi/rest/v2/applications/{ApplicationKey}/versions/{VersionKey}/content/,  when the application includes an extension. (RPM-5136) <span class="cattag">Application Lifecycle</span>  <span class="cattag">LifeTime</span> </li>
 <li>Fixed a concurrency issue that caused the publish of an application with processes that have Conditional Start(s) to fail with "The INSERT statement conflicted with the FOREIGN KEY constraint "OSFRK_OSSYS_BPM_ACTIVITY_OSSYS_BPM_PROCESS_PROCESS_ID" while that same application is creating new processes.
 This only occurred for OutSystems Platforms running SQL Server as the platform database. (RPM-5205) <span class="cattag">Application Runtime</span>  <span class="cattag">Processes</span> </li>
+<li>Fixed a security weakness related to Improper Neutralization of Special Elements Used in a Template Engine. (RPM-5239) <span class="cattag">Application Runtime</span> </li>
 <li>Fixed an issue where the tenant page in Service Center will present multi-tenant site properties from other tenants that share the same modules with tenant being viewed in a factory with more than 900 modules. (RPM-5257) <span class="cattag">Application Lifecycle</span>  <span class="cattag">Server.API</span> </li>
 <li>Fixed an issue causing serial number for EC2 machines using EC2 Launch v2 not being calculated correctly. 
 It may be necessary to retrieve a new license for the correct serial after the upgrade. (RPM-5259) <span class="cattag">Infrastructure Management</span>  <span class="cattag">Licensing Infrastructure</span> </li>
