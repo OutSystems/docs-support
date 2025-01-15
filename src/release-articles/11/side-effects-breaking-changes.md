@@ -105,12 +105,13 @@ In the future, OutSystems may, at its own discretion, drop support for other dat
 * When a **DateTime** cell only contains the time (for example, 14:30), it will be converted to 1900-01-01 14:30 instead of 1900-01-02 14:30
 * Cells that have more than 32767 chars will be trimmed on both formats (xls and xlsx)
 * The date 29/Feb/1900 will appear as 1/Mar/1900 instead of 28/Feb/1900
+* The default font of the document changed from Arial to Calibri
 
 **Runtime**: Traditional web, Reactive web, Mobile
 
-**Rationale**: An upgrade was made in the Excel file processing used in OutSystems 11. This upgrade comes with some breaking changes when compared to the version previously used.
+**Rationale**: An upgrade was made in the Excel file processing library used in OutSystems 11. This upgrade comes with some breaking changes when compared to the version previously used.
 
-**Fix**: Change the Excel files content so that it is compliant with the breaking changes.
+**Fix**: Change the Excel files content so that it is compliant with the breaking changes related to value differences.
 
 2\. <a id="bc-11240-2"></a>
 
