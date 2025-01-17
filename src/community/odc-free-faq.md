@@ -52,7 +52,7 @@ This shared space receives regular updates with new features, so you will also h
 
 * **Am I eligible for an "ODC-Ready Badge” at the end of this experience?**
 
-   * Yes, as long as you complete an ODC online training course. This badge might not be awarded in real-time.
+   * No. The ODC-Ready badge was part of and OutSystems initiative that was time boxed and it's no longer in place.
 
 * **Can I submit my O11 components to ODC Forge in this space?**
     * Submissions to ODC Forge are not possible on this trial because it has time-limited access, and we want to ensure the asset's long-term success. 
