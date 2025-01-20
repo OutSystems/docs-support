@@ -13,3 +13,7 @@ pageprivacy: public
 <li>Fixed an issue that only affected cloud infrastructures, where the feature to request a temporary database user was no longer available. (RPM-5414) <span class="cattag">Application Lifecycle</span>  <span class="cattag">LifeTime</span> </li>
 </ul>
 
+<h3>Known issues</h3>
+<ul>
+<li>The RPM-4754 bug fix caused an unintended issue where modules moved between applications are duplicated in the deployment, leading to publishing failures. The workaround is to re-run the deployment plan. To mitigate the issue, the RPM-4754 fix was disabled for OutSystems Cloud environments but still affects self-managed installations.</li>
+</ul>
