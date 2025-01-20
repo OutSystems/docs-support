@@ -17,3 +17,7 @@ During the deployment process, the activity Publish to Target will retrieve the 
 The previous iteration of the fix (released with LifeTime 11.24.2) included a bug that could cause an error of duplicate modules during deployment, when there were modules that moved between applications. (RPM-4754) <span class="cattag">Application Lifecycle</span>  <span class="cattag">LifeTime</span> </li>
 </ul>
 
+<h3>Known issues</h3>
+<ul>
+<li>The RPM-4754 bug fix caused an unintended issue where modules moved between applications are duplicated in the deployment, leading to publishing failures. The workaround is to re-run the deployment plan. To mitigate the issue, the RPM-4754 fix was disabled for OutSystems Cloud environments but still affects self-managed installations.</li>
+</ul>
