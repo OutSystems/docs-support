@@ -44,7 +44,7 @@ The following sections explain the shared responsibilities between OutSystems an
 
 OutSystems customers are responsible for securing data and user access and permissions to their applications. Customers are responsible for the management of their applications throughout the entire lifecycle: from when it's developed to when it's deployed to production. Ultimately, OutSystems Cloud customers are responsible for:
 
-* Managing their data (including encryption options), classifying their assets, and using Identity and Access ManagementAM tools to apply for the appropriate permissions.
+* Managing their data (including encryption options), classifying their assets, and using Identity and Access Management (IAM) tools to apply for the appropriate permissions.
 
 * Applying secure development techniques and conducting code security reviews on developed applications.
 
