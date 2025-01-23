@@ -11,6 +11,14 @@ pageprivacy: public
 <h3 id="new_in_outsystems_developer_cloud_2025-01-23" > New</h3>
 <ul>
 <li>On the workflow instance detail screen, any workflow activity with an associated timeout will now display this information under the activity detail. (RDLOT-3410)</li>
+<li>Workflow Editor: Close after timeout
+<ul>
+<li>In the Workflow Editor, Wait and Human Activity nodes can now automatically close after a specified timeout.</li>
+<li>The timeout can be defined using a selected Time Unit or a Custom Expression.</li>
+<li>The close-on event for the Wait node is now optional; users must select at least one option: Close on event or Close after timeout.</li>
+<li>A new property, "HasExpired", is available in expressions for subsequent nodes created after a Wait or Human Activity, indicating whether the activity closed due to timeout.</li>
+</ul>
+</ul> (RDODCT-2909)</li>
 </ul>
 
 </ul>
