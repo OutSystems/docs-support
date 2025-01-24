@@ -4,8 +4,12 @@ guid: 61CB98BF-3C28-4590-9E19-0C1C7B7F0408
 locale: en-us
 app_type: mobile apps
 platform-version: o11, odc
+tags: mobile apps build service, mabs, versioning, android compatibility, ios compatibility
+audience:
+  - mobile developers
+outsystems-tools:
+  - forge
 ---
-
 # Mobile Apps Build Service Versions
 
 <div class="info" markdown="1">
@@ -18,14 +22,20 @@ Applies only to **Mobile Apps**.
 
 These are the available MABS versions:
 
-## Beta
-
+<!-- ## Beta
 See [Support provided for beta versions](mabs-beta-support.md) for details on OutSystems' policy regarding new mobile operating system support.
+ -->
+
+## Supported
+
+You can get full support and bug fixes through OutSystems support requests mechanism.
 
 <div class="info" markdown="1">
 
 ## **Version 11.0** - [See Release Notes](../../release-notes/mabs/11/11.0/11.0.md)<br/>
 Released as Beta on November 20th, 2024 <br/>
+Released to GA on January 22nd, 2025 <br/>
+Deprecation date to be announced
 
 </div>
 
@@ -72,18 +82,12 @@ This version can run your apps on:
     </tbody>
 </table>
 
-
-## Supported
-
-You can get full support and bug fixes through OutSystems support requests mechanism.
-
 <div class="info" markdown="1">
 
 ## **Version 10.0** - [See Release Notes](../../release-notes/mabs/10/10.0/10.0.md)<br/>
 Released as Beta on October 26, 2023 <br/>
 Released to GA on December 27, 2023 <br/>
-Deprecation date to be announced
-
+To be Deprecated on May 23, 2025<br/>
 </div>
 
 <div class="warning" markdown="1">
@@ -129,7 +133,6 @@ This version can run your apps on:
     </tbody>
 </table>
 
-
 ## Deprecated
 
 You can select this version in the configuration and create a mobile package using it, but you receive limited support. Limited support means that you receive advice and workarounds through support requests, but there are no bug fixes for the version.
@@ -138,7 +141,8 @@ You can select this version in the configuration and create a mobile package usi
 
 ## **Version 9.0** - [See Release Notes](../../release-notes/mabs/9/9.0/9.0.md)<br/>
 Released on November 23, 2022<br/>
-Deprecated on April 29, 2024
+Deprecated on April 29, 2024<br/>
+To be Obsoleted on February 24, 2025<br/>
 </div>
 
 <div class="warning" markdown="1">
