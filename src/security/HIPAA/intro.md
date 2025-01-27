@@ -30,7 +30,7 @@ OutSystems was designed for several deployment models, including third-party clo
 
 ### How OutSystems helps healthcare providers
 
-OutSystems empowers healthcare providers to move to a patient-centric model by giving them the ability to rapidly build patient-facing apps for purposes such as researching their prescribed drugs, evaluating their treatment options, accessing and controlling their medical information, and more. Applications can be pushed across any platform for any device on a single code base that’s secure and compliant to HIPAA, SOC, and HITRUST.
+OutSystems empowers healthcare providers to move to a patient-centric model by giving them the ability to rapidly build patient-facing apps for purposes such as researching their prescribed drugs, evaluating their treatment options, accessing and controlling their medical information, and more. Applications can be pushed across any platform for any device on a single code base that’s secure and HIPAA compliant.
 
 ## HIPAA compliance
 
