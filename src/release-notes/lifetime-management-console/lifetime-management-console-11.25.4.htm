@@ -1,0 +1,25 @@
+---
+isautopublish: true
+pageprivacy: public
+---
+
+<h2 id="lifetime_management_console_11.25.4" >LifeTime Management Console 11.25.4</h2>
+<div class="info"><p>Released on Jan 29, 2025</p></div>
+
+
+<style>.cattag {background: #f4f2ff; color: #6a6581; padding: 4px 10px;}</style>
+<h3 id="new_in_lifetime_management_console_11.25.4" >New in LifeTime Management Console 11.25.4</h3>
+<ul>
+<li>The Platform Server version bundled with LifeTime has been upgraded to 11.32.0. (R11CT-3663)</li>
+<li>The applications list screen now includes pagination, allowing users to navigate through applications page by page. (R11CT-3742)</li>
+</ul>
+<h3 id="bug_fixing_lifetime_management_console_11.25.4" >Bug Fixing</h3>
+<ul>
+<li>Reduced error log pollution caused by LifeTime by removing scenarios where false positive exceptions would be logged during the validation of module versions in the publishing process. (R11CT-3624)</li>
+<li>Previously, on the staging edit screen, creating a custom tag for any app caused the scrollbar to disappear.
+The scrollbar now remains visible after selecting a custom tag. (R11CT-3653)</li>
+<li>Previously, on the Applications List screen, pressing 'Enter' after typing an application's name in the search bar would clear the entered text. 
+Now, pressing 'Enter' will correctly initiate a search for the application. (R11CT-3715)</li>
+<li>Fixed an issue that caused already completed deployments to have their status changed if a user was still in the Staging_Edit screen of the same deployment and attempted to modify it (for example, by refreshing the applications in the plan). When this issue occurred, the affected deployment became inaccessible from the deployments list. Now, if a user has the deployment open in the Staging_Edit screen, they won't be able to make any changes while the deployment is either running or finished, and they will be redirected to the Staging_Progress screen when the page is automatically refreshed. (RPM-5475) <span class="cattag">Application Lifecycle</span>  <span class="cattag">LifeTime</span> </li>
+</ul>
+
