@@ -16,6 +16,35 @@ As such, before introducing a breaking change for a new release, OutSystems care
 
 ## Breaking Changes
 
+### Introduced in Platform Server 11.33.0
+
+1\. <a id="bc-11330-1"></a>
+
+**Issue**: Dropped support for SQL Server 2014 (and corresponding compatibility level) as the Platform server's database management system.
+
+**Runtime**: Traditional web, Reactive web, Mobile
+
+**Rationale**: Microsoft no longer supports SQL Server 2014. As such, we are aligning our supported databases to that of Microsoft.
+
+Furthermore, support for compatibility levels equivalent or lower to that of SQL Server 2014 (120 and lower) will be dropped as these will no longer be tested.
+
+In the future, OutSystems may, at its own discretion, drop support for other database engines and versions that are no longer supported by the database engine provider.
+
+**Fix**: Update SQL Server engine version. Ensure that the compatibility level of any applicable databases is set to a supported range as per OutSystems system requirements. OutSystems advises customers to choose a Long Term Release version that is both supported by Microsoft and OutSystems.
+
+1\. <a id="bc-11330-2"></a>
+
+**Issue**: Dropped support SQL Server versions 2014 and below (as well as corresponding compatibility levels) as external databases.
+
+**Runtime**: Traditional web, Reactive web, Mobile
+
+**Rationale**: Microsoft no longer supports SQL Server 2014. As such, we are aligning our supported external databases to that of Microsoft.
+
+Furthermore, support for compatibility levels equivalent or lower to that of SQL Server 2014 (120 and lower) will be dropped as these will no longer be tested.
+
+In the future, OutSystems may, at its own discretion, drop support for other database engines and versions that are no longer supported by the database engine provider.
+
+**Fix**: Update SQL Server engine version. Ensure that the compatibility level of any applicable databases is set to a supported range as per OutSystems system requirements. OutSystems advises customers to choose a Long Term Release version that is both supported by Microsoft and OutSystems.
 ### Introduced in Platform Server 11.32.0
 
 1\. <a id="bc-11320-1"></a>
@@ -92,7 +121,7 @@ However, when the parameter is enabled it checks if there are any **incompatible
 
 OutSystems Platform 11 no longer supported Oracle 11g as the platform database. Starting with Platform Server version 11.25, OutSystems drops the support for Oracle 11g as an external database. Since Oracle 11g reached the end of Extended Support in 2020 ([official Oracle documentation](https://support.oracle.com/knowledge/Oracle%20Cloud/2068368_1.html)), customers who are using Oracle 11g are strongly advised to upgrade their database engine.
 
-In the future, OutSystems may, at its own discretion, drop support for other database engines and versions that are no longer suported by the database engine provider.
+In the future, OutSystems may, at its own discretion, drop support for other database engines and versions that are no longer supported by the database engine provider.
 
 **Fix**: Update Oracle engine version. OutSystems advises customers to choose a Long Term Release version that is both supported by Oracle and OutSystems, which at this moment is Oracle 19c.
 
