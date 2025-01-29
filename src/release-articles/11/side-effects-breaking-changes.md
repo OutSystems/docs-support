@@ -32,7 +32,7 @@ In the future, OutSystems may, at its own discretion, drop support for other dat
 
 **Fix**: Update SQL Server engine version. Ensure that the compatibility level of any applicable databases is set to a supported range as per OutSystems system requirements. OutSystems advises customers to choose a Long Term Release version that is both supported by Microsoft and OutSystems.
 
-1\. <a id="bc-11330-2"></a>
+2\. <a id="bc-11330-2"></a>
 
 **Issue**: Dropped support SQL Server versions 2014 and below (as well as corresponding compatibility levels) as external databases.
 
@@ -55,7 +55,7 @@ In the future, OutSystems may, at its own discretion, drop support for other dat
 
 The fix to the serial number calculation done will result in a new serial number for that Platform installation which will require a new license. 
 
-1\. <a id="bc-11320-1"></a>
+2\. <a id="bc-11320-1"></a>
 
 **Issue**: Dropped support for MySQL 5.x as an external database version.
 
