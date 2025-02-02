@@ -1,0 +1,16 @@
+---
+isautopublish: true
+pageprivacy: public
+---
+
+<h2 id="outsystems_developer_cloud_2025-02-02" >OutSystems Developer Cloud 2025-02-02</h2>
+<div class="info"><p>Released on Feb 02, 2025</p></div>
+
+
+<style>.cattag {background: #f4f2ff; color: #6a6581; padding: 4px 10px;}</style>
+<h3 id="bug_fixing_outsystems_developer_cloud_2025-02-02" >Bug Fixing</h3>
+<ul>
+<li>Previously, when users logged into an stage via an external identity provider, the mapped relations between the user and all stages were unintentionally deleted. With this fix, only the mapped relation for the specific environment the user logs into is deleted, preventing the unintended removal of relations for other stages. (RDPIDT-2887)</li>
+<li>Previously, when a user logged into an application published across multiple stages using external identity providers with different group-to-role mappings in each stage, only the mapped role from the most recent login was retained. This could cause loss of roles mapped during previous logins to other stages. With this fix, users' mapped roles are preserved across all stages they log into, ensuring consistent access and functionality. (RDPIDT-2888)</li>
+</ul>
+
