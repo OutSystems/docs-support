@@ -29,3 +29,9 @@ To get Service Center logs, follow these steps:
 1. Click **Export to excel** to save the file.
 
 ![Screenshot of Service Center showing steps to export Error Logs, with Monitoring, Errors, Reset, and Export to excel highlighted.](images/get-logs-sc.png "Service Center Error Log Export")
+
+<div class="info" markdown="1">
+
+You can only view the last two weeks of logs in Service Center. Older logs are available directly in the database within the retention period. For detailed information, refer to [The rotation of logs](https://success.outsystems.com/documentation/11/monitoring_and_troubleshooting_apps/logging_database_and_architecture/the_log_tables_and_views/#the-rotation-of-the-logs).
+
+</div>
