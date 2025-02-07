@@ -146,3 +146,5 @@ The [recommended format](#formats) for sharing is an application package (.oap).
     Once your asset is uploaded, a confirmation message is displayed. 
 
     ![Screenshot displaying a confirmation message that the asset is now live in Forge and can be downloaded by any user.](images/upload-successful-fg.png "Successful Upload Confirmation on Forge")
+
+    **Note**: If you choose the **Upload** option, your asset is sent to the OutSystems Curation team for review. You are notified once the asset is approved and available in Forge.
