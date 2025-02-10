@@ -10,6 +10,7 @@ pageprivacy: public
 <style>.cattag {background: #f4f2ff; color: #6a6581; padding: 4px 10px;}</style>
 <h3 id="new_in_platform_server_11.30.0" >New in Platform Server 11.30.0</h3>
 <ul>
+<li>Update Oracle Managed Driver to version 19.23.0. See the Oracle release notes, for more information on related fixes. (R11BRT-1173)</li>
 <li>Removed some unused Microsoft.AspNetCore.Mvc dependencies. This change only affects Server.API, Server.Identity system applications and OutSystems services. (R11BRT-1182)</li>
 <li>Updated System.Text.Json library bundled with the platform from version 6.0.8 to version 8.0.4
 Updated System.Text.Encodings.Web library bundled with the platform from version 4.7.2 to version 8.0.0 (R11BRT-1199)</li>
@@ -28,8 +29,6 @@ Now, these interrupted deployments aren’t kept in a locked state after service
 <li>Fixed an issue that caused a misleading error message.
 This error occurred when attempting to publish an OML file via the application page.
 Now, only OAP files can be published through the application page. (RPM-4955) <span class="cattag">Application Lifecycle</span>  <span class="cattag">Service Center</span> </li>
-<li>Update Oracle Managed Driver to version 19.23.0. See the Oracle release notes, for more information on related fixes. 
-This includes a tentative fix for timeouts happening while retrieving connections from the connection pool in Oracle databases when the max connections is not being reached.  (RPM-4971) <span class="cattag">Application Runtime</span>  <span class="cattag">Data Access and Manipulation</span> </li>
 <li>Fixed an issue that caused modules in the detach process to not copy correctly all the third party dependencies that were necessary, causing runtime errors in particular for System.Text.Json.
 The detach process, documentation was also updated to reflect similar situations that required manual steps that could not be automated. (RPM-5102) <span class="cattag">Application Runtime</span>  <span class="cattag">Application Detach</span> </li>
 <li>Fixed 2 security issues that could cause
