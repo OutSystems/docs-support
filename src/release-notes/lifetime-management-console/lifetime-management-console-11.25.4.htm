@@ -20,6 +20,5 @@ pageprivacy: public
 The scrollbar now remains visible after selecting a custom tag. (R11CT-3653)</li>
 <li>Previously, on the Applications List screen, pressing 'Enter' after typing an application's name in the search bar would clear the entered text. 
 Now, pressing 'Enter' will correctly initiate a search for the application. (R11CT-3715)</li>
-<li>Fixed an issue that caused already completed deployments to have their status changed if a user was still in the Staging_Edit screen of the same deployment and attempted to modify it (for example, by refreshing the applications in the plan). When this issue occurred, the affected deployment became inaccessible from the deployments list. Now, if a user has the deployment open in the Staging_Edit screen, they won't be able to make any changes while the deployment is either running or finished, and they will be redirected to the Staging_Progress screen when the page is automatically refreshed. (RPM-5475) <span class="cattag">Application Lifecycle</span>  <span class="cattag">LifeTime</span> </li>
 </ul>
 
