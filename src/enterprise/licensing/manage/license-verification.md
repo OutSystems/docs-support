@@ -22,7 +22,7 @@ coverage-type:
 
 The license verification process allows customers to manually upload license consumption information to OutSystems using the Customer Portal.
 
-License verification is for customers with self-managed environments using production servers that do not automatically communicate telemetry to OutSystems due to their network setup. This online verification site allows the secure transfer of usage data. As stated in the [OutSystems Subscription Agreement](https://www.outsystems.com/legal/master-subscription-agreement/#3) Clause 3.6: Verification of License Compliance, customers are intended to complete their compliance verification once per calendar quarter.
+License verification is for customers with self-managed environments using production servers that do not automatically communicate telemetry to OutSystems due to their network setup. This online verification site allows the secure transfer of usage data. As stated in the section entitled Secure Remote Verification in [OutSystems Subscription Agreement](https://www.outsystems.com/legal/subscription-compliance-terms/), customers are intended to complete their compliance verification once per calendar quarter.
 
 [This article](https://success.outsystems.com/documentation/11/setup_and_maintain_your_outsystems_infrastructure/setting_up_outsystems/outsystems_network_requirements/) details the ports you must open to enable automatic telemetry communication.
 
