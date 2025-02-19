@@ -55,7 +55,9 @@ The jQuery versions 1.0.3 to 3.5.0 are vulnerable to the possible execution of u
 
 #### jQuery-ui flagged as a potentially vulnerable library
 
-The jQuery-UI versions prior to 1.13.0 are vulnerable to the execution of untrusted code ([CVE-2021-41182](https://cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2021-41182), [CVE-2021-41183](https://cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2021-41183), and [CVE-2021-41184](https://cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2021-41184)). OutSystems uses jQuery-UI 1.8.24, which is exposed to this vulnerability. However, there is no usage of the patterns described in the CVEs, which makes the OutSystems applications not vulnerable.
+The jQuery-UI versions prior to 1.13.0 are vulnerable to the execution of untrusted code ([CVE-2021-41182](https://cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2021-41182), [CVE-2021-41183](https://cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2021-41183), [CVE-2021-41184](https://cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2021-41184) and [CVE-2016-7103](https://cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-7103)). OutSystems uses jQuery-UI 1.8.24, which is exposed to this vulnerability. However, there is no usage of the patterns or parameters described in the CVEs, which makes the OutSystems applications not vulnerable.
+
+The jQuery versions prior to 1.13.2 are vulnerable to a cross-site scripting vulnerability for the "checkboxradio" component ([CVE-2022-31160](https://cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2022-31160))  This component was not introduced in JQuery-UI until version 1.12.0.  OutSystems uses jQuery-UI 1.8.24, so OutSystems is not vulnerable. 
 
 #### jQuery-ui-dialog flagged as a potentially vulnerable library
 
