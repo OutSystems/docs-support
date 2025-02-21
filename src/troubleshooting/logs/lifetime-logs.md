@@ -18,7 +18,7 @@ coverage-type:
 
 # LifeTime reports
 
-You need [Manage Infrastructure and Users](https://success.outsystems.com/Documentation/11/Managing_the_Applications_Lifecycle/Manage_IT_Teams/About_Permission_Levels) permission to get these reports. If you don’t have this permission, contact your infrastructure manager.
+You need [Manage Infrastructure and Users](https://www.outsystems.com/tk/redirect?g=5a167254-3be6-44df-93ef-0d801e27efbb) permission to get these reports. If you don’t have this permission, contact your infrastructure manager.
 
 ## LifeTime Report { #lifetime-report }
 To get the Lifetime report, follow these steps:
