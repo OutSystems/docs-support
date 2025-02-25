@@ -132,59 +132,8 @@ This version can run your apps on:
         </tr>
     </tbody>
 </table>
-
+<!-- 
 ## Deprecated
-
-You can select this version in the configuration and create a mobile package using it, but you receive limited support. Limited support means that you receive advice and workarounds through support requests, but there are no bug fixes for the version.
-
-<div class="warning" markdown="1">
-
-## **Version 9.0** - [See Release Notes](../../release-notes/mabs/9/9.0/9.0.md)<br/>
-Released on November 23, 2022<br/>
-Deprecated on April 29, 2024<br/>
-To be Obsoleted on February 24, 2025<br/>
-</div>
-
-<div class="warning" markdown="1">
-
-It's recommended to update all supported plugins to the latest version available on the Forge. If you upgrade from MABS 8, all plugins should already be compliant. From MABS 7 or previous, it's **MANDATORY** to upgrade to the latest version. For more details, please check the **[release notes](https://success.outsystems.com/Support/Release_Notes/Mobile_Apps_Build_Service_Versions/MABS_9_Release_notes#mabs-version-9.0)**.
-
-</div>
-
-This version can run your apps on:
-
-<small>![Icon representing the Android operating system.](images/android-icon.png "Android Icon") Android 8 (9 for ODC) to 14</small>
-
-<small>![Icon representing the iOS operating system.](images/iOS-icon.png "iOS Icon") iOS 13 to 17</small>
-
-**More details:**
-
-<table style="width: 632px; table-layout: fixed">
-    <tbody class="RegularLightText">
-        <tr>
-            <td style="width:156px;"></td>
-            <td style="width:231px;">Android</td>
-            <td>iOS</td>
-        </tr>
-        <tr>
-            <td style="vertical-align:middle;width:156px;">Target SDK</td>
-            <td style="width:231px;">14 (API Level 33)<br/></td>
-            <td>16<br/></td>
-        </tr>
-        <tr>
-            <td style="vertical-align:middle;width:156px;">Tools</td>
-            <td style="width:231px;">Build Tools 33.0.0<br/>
-            Gradle 7.5<br/>
-            Android Gradle Plugin 7.3.0<br/>
-            Kotlin 1.6.20 (Default) to 1.7.X<br/>
-            Cordova CLI 11.0.0<br/>
-            <a href="https://github.com/OutSystems/cordova-android/tree/outsystems/11.0.x">Cordova Android 11.0</a></td>
-            <td>Xcode 14.1<br/>
-            Cocoa Pods 1.11.2<br/>
-            Swift 5.7.1<br/>
-            Cordova CLI 11.0.0<br/>
-            <a href="https://github.com/OutSystems/cordova-ios/tree/outsystems/6.2.x">Cordova iOS 6.2</a></td>
-        </tr>
-    </tbody>
-</table>
+You can select this version in the configuration and create a mobile package using it, but you receive limited support. Limited support means that you receive advice and workarounds through support requests, but there are no bug fixes for the version. 
+-->
 

@@ -35,14 +35,14 @@
         - href: release-notes/mabs/10/mabs-10.md
         - topics:
             - href: release-notes/mabs/10/10.0/10.0.md
-        - href: release-notes/mabs/9/mabs-9.md
-        - topics:
-            - href: release-notes/mabs/9/9.0/9.0.md
-        - href: release-articles/mabs/mabs-8.md
-        - href: release-articles/mabs/mabs-5.md
         - href: release-articles/mabs/older-releases.md
         - topics:
+            - href: release-notes/mabs/9/mabs-9.md
+            - topics:
+                - href: release-notes/mabs/9/9.0/9.0.md
+            - href: release-articles/mabs/mabs-8.md
             - href: release-articles/mabs/mabs-7.md
+            - href: release-articles/mabs/mabs-5.md
             - href: release-articles/mabs/mabs-6.md
             - href: release-articles/mabs/troubleshoot-issues-with-mabs-6.md
         - href: release-articles/mabs/obsolete-versions.md
