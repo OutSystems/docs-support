@@ -1,0 +1,31 @@
+---
+isautopublish: true
+pageprivacy: public
+---
+
+<h2 id="lifetime_management_console_11.26.0" >LifeTime Management Console 11.26.0</h2>
+<div class="info"><p>Released on Feb 26, 2025</p></div>
+
+
+<style>.cattag {background: #f4f2ff; color: #6a6581; padding: 4px 10px;}</style>
+<h3 id="new_in_lifetime_management_console_11.26.0" >New in LifeTime Management Console 11.26.0</h3>
+<ul>
+<li>Removed <a href="https://success.outsystems.com/documentation/11/reference/outsystems_apis/lifetime_api_v1/">LifeTime REST API v1</a>, which has been deprecated since February 2021. All usages must be adjusted to <a href="https://success.outsystems.com/documentation/11/reference/outsystems_apis/lifetime_api_v2/">LifeTime REST API v2</a>. (R11CT-3696)</li>
+<li>The Platform Server version bundled with LifeTime was upgraded to 11.33.0 (R11CT-3749)</li>
+<li>Improved the user experience in the Staging_Edit screen when a user attempts to validate a deployment that has already been validated. In this scenario, when a user clicks the 'Validate' button, they are now redirected to the correct screen based on the current state of the deployment. (R11CT-3763)</li>
+<li>From the LifeTime settings screen, you can now enable/disable pagination in the application list and configure the number of applications displayed per page when pagination is enabled. If disabled, LifeTime reverts to the previous user experience with the 'Show more' and 'Show all' actions. (R11CT-3794)</li>
+<li>In the Stagings_List screen, the 'Create New Deployment Plan' button was relocated to improve visibility on ultra-wide screens. Suggestion made by <a href="https://www.outsystems.com/profile/n4tdl5jy4s/overview">Alfaro</a>. (R11CT-3841)</li>
+</ul>
+<h3 id="bug_fixing_lifetime_management_console_11.26.0" >Bug Fixing</h3>
+<ul>
+<li>Fixed an issue where the list of applications that need to be republished was not correctly calculated when deploying their producer counterparts leaving the consumers with outdated references in the target environment.
+This occurred when a consumer application had its modules moved to a new application that had not yet been deployed to the target environment, and the original application was deleted from the source environment.
+Now, the list of applications that need to be republished is calculated correctly. (RPM-4709) <span class="cattag">Application Lifecycle</span>  <span class="cattag">LifeTime</span> </li>
+<li>Improved the execution time of activity Publish to Target of the Staging process of LifeTime and avoid the problem of duplicating modules in the situation where modules move between applications included or republished during deployment.
+During the deployment process, the activity Publish to Target will retrieve the exact versions of the modules included or selected for republish for each application included or selected for republish in the deployment. In deployments with a large number of applications, sometimes this activity would reach a timeout. By improving the query that retrieves the modules, the execution time of the activity should become much faster.
+Previous attempts to include this fix were done in LifeTime 11.24.2 (introducing the duplicate modules error during deployments) and LifeTime 11.25.1 (which was incomplete, fixing only some scenarios). (RPM-4754) <span class="cattag">Application Lifecycle</span>  <span class="cattag">LifeTime</span> </li>
+<li>Fixed the LifeTime installation checklist, which previously referenced an incorrect installer file name in the platform server installation step. (RPM-5368) <span class="cattag">Application Lifecycle</span>  <span class="cattag">LifeTime</span> </li>
+<li>Fixed an issue that caused already completed deployments to have their status changed if a user was still in the Staging_Edit screen of the same deployment and attempted to modify it (for example, by refreshing the applications in the plan). When this issue occurred, the affected deployment became inaccessible from the deployments list. Now, if a user has the deployment open in the Staging_Edit screen, they won't be able to make any changes while the deployment is either running or finished, and they will be redirected to the Staging_Progress screen when the page is automatically refreshed. (RPM-5475) <span class="cattag">Application Lifecycle</span>  <span class="cattag">LifeTime</span> </li>
+<li>Improved the execution performance of the query that retrieves consumers of modules that will be deleted in the target environment. This query could cause a timeout during the deployment preparation in specific situations. (RPM-5497) <span class="cattag">Application Lifecycle</span>  <span class="cattag">LifeTime</span> </li>
+</ul>
+
