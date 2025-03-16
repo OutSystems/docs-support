@@ -15,6 +15,8 @@ outsystems-tools:
 coverage-type:
   - understand
   - apply
+topic:
+  - use-third-party-sast
 ---
 
 # Develop secure OutSystems apps

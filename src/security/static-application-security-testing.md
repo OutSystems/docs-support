@@ -16,6 +16,8 @@ outsystems-tools:
   - lifetime
 coverage-type:
   - apply
+topic:
+  - use-third-party-sast
 ---
 
 # Static application security testing

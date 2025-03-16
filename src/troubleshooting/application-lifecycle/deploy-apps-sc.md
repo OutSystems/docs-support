@@ -15,6 +15,9 @@ outsystems-tools:
   - lifetime
 coverage-type:
   - unblock
+topic:
+  - create-a-solution-in-sc
+  - publish-a-solution-in-sc
 ---
 
 # Deploy applications through Service Center

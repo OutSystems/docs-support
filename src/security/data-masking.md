@@ -14,6 +14,8 @@ outsystems-tools:
   - service studio
 coverage-type:
   - understand
+topic:
+  - data-masking
 ---
 
 # Data masking with OutSystems
