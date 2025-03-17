@@ -10,7 +10,7 @@ platform-version: o11, odc
 
 <div class="info">
 
-Check the mobile stack details for each available MABS version in [Mobile Apps Build Service Versions](../../../release-articles/mabs/mabs-versions.md).
+Check the mobile stack details for each available MABS version in [Mobile Apps Build Service Versions](mabs-versions.md).
 
 </div>
 
@@ -30,7 +30,7 @@ It's recommended to update all supported plugins to the latest version available
 
 ## MABS 10 release
 
-* [MABS 10.0 release notes](10.0/10.0.md)
+* [MABS 10.0 release notes](../../release-notes/mabs/10/10.0/10.0.md)
 
 ## System Requirements
 

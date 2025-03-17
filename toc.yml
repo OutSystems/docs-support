@@ -29,10 +29,10 @@
     - topics:
         - href: release-articles/mabs/mabs-versioning-and-lifecycle.md
         - href: release-articles/mabs/mabs-beta-support.md
-        - href: release-notes/mabs/11/mabs-11.md
+        - href: release-articles/mabs/mabs-11.md
         - topics:
             - href: release-notes/mabs/11/11.0/11.0.md
-        - href: release-notes/mabs/10/mabs-10.md
+        - href: release-articles/mabs/mabs-10.md
         - topics:
             - href: release-notes/mabs/10/10.0/10.0.md
         - href: release-articles/mabs/older-releases.md
