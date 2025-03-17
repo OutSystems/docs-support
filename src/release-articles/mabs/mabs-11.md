@@ -77,4 +77,5 @@ Here is the list of changes made to MABS 11 that may affect the building of your
 * Changed the `AddUploadWidgetPermissions` property default value from `true` to `false`. The Android permissions associated with the upload widget are no longer added out of the box.
 * Changed the `StatusBarOverlaysWebView` property default value from `false` to `true`.
 * Added the `StatusBarStyle` property default value as `default`.
+
 ----- 
