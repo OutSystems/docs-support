@@ -46,7 +46,6 @@ Plugin requirements for **MABS 11**. For more details, please check the Forge by
 |[File](https://www.outsystems.com/forge/component-versions/1633)|3.0.7 or later|1.0.3 or later|
 |[File Viewer](https://www.outsystems.com/forge/component-versions/1606)|2.0.10 or later|1.0.2 or later|
 |[Health & Fitness](https://www.outsystems.com/forge/component-versions/11715)|2.2.1 or later|1.2.1 or later|
-|[InAppBrowser](https://www.outsystems.com/forge/component-versions/1558)|3.1.0 or later|2.1.0 or later|
 
 The table below contains the list of plugins and their supported versions. It is important to note that it is recommended to always use the latest version available of a plugin.
 
@@ -67,6 +66,7 @@ The table below contains the list of plugins and their supported versions. It is
 |[SSL Pinning](https://www.outsystems.com/forge/component-versions/1873)|7.0.2 or later|1.0.2 or later|
 |[Social Login Mobile](https://www.outsystems.com/forge/component-versions/7895)|4.2.2 or later|-|
 |[Payments](https://www.outsystems.com/forge/component-versions/13678)|1.2.2 or later|1.1.2 or later|
+|[InAppBrowser](https://www.outsystems.com/forge/component-versions/1558)|3.1.0 or later|2.1.0 or later|
 
 -----
 
