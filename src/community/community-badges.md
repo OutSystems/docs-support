@@ -68,8 +68,6 @@ OutSystems offers a variety of badges to recognize community participation, cont
 
 * **OutSystems Developer School:** Awarded to users who attended a Developer School.
 
-* **ODC Ready:** Badges are awarded after ODC training is completed.
-
 ## Participation in events
 
 * **2021 Developer Survey:** Awarded to participants of the 2021 Developer Survey.
