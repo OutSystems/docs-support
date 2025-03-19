@@ -280,6 +280,7 @@
     # Vulnerabilities
     - href: security/vulnerabilities/intro.md
     - topics:
+        - href: security/vulnerabilities/vulnerability-RPM-5183.md
         - href: security/vulnerabilities/vulnerability-RRCT-5465.md
         - href: security/vulnerabilities/vulnerability-RPM-3056.md
         - href: security/vulnerabilities/vulnerability-RPM-3055.md
