@@ -15,8 +15,8 @@ pageprivacy: public
 <li>Updated System.Text.Json library bundled with the platform from version 6.0.8 to version 8.0.4
 Updated System.Text.Encodings.Web library bundled with the platform from version 4.7.2 to version 8.0.0 (R11BRT-1199)</li>
 <li>Revamped the implementation of client-side DateTime, Date, and Time types (Reactive and Mobile). This includes new protection against local timezone changes that could shift the Dates, Times, and Null values (e.g. Dates moving to the previous day, Times moving a few hours, or Null values not being null anymore). Additionally, this feature imposes that Dates and DateTimes are within the OutSystems supported validity range between #1900-01-01 00:00:00# - #3000-12-31 23:59:59#. New or existing values outside this range will be considered Null. This feature is optional and can be turned on in Factory Configuration 11.2.2. (R11DT-2566)</li>
-<li>Introduced a new feature that prevents Stale Cache in reactive and mobile apps. The feature is available in Platform Server version greater or equal to 11.30.0 and can be enabled in Factory Configuration greater or equal to 11.2.5<br/>
-More details can be found in https://success.outsystems.com/documentation/11/setup_outsystems_infrastructure_and_platform/setting_up_outsystems/using_a_cdn_with_outsystems/preventing_stale_cache/ (RPM-1497) <span class="cattag">Application Runtime</span>  <span class="cattag">Mobile Application Update</span> </li>
+<li>Introduced a new feature that prevents Stale Cache in reactive and mobile apps. The feature is available in Platform Server version greater or equal than 11.30.0 and can be enabled in Factory Configuration greater or equal than 11.2.5<br/>
+More details on this feature can be found <a href="https://success.outsystems.com/documentation/11/setup_outsystems_infrastructure_and_platform/setting_up_outsystems/using_a_cdn_with_outsystems/preventing_stale_cache/">here</a>.  (RPM-1497) <span class="cattag">Application Runtime</span>  <span class="cattag">Mobile Application Update</span> </li>
 </ul>
 <h3 id="bug_fixing_platform_server_11.30.0" >Bug Fixing</h3>
 <ul>
