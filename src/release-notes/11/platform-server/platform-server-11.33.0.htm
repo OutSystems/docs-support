@@ -31,3 +31,8 @@ Now, the desired behavior is enforced when the setting is enabled. (RPM-4980) <s
 <li>Fixed an issue in the CentralizedPlatformLogs extension that caused the GetRequestEventLogs action to incorrectly filter the logs when using the ModuleName filter. (RPM-5309) <span class="cattag">Application Runtime</span>  <span class="cattag">Logging</span> </li>
 </ul>
 
+<h3>Known issues</h3>
+<ul>
+<li>Customers who have opted out of OutSystems usage reporting mechanisms will experience Platform Services downtime after installing this version. Configuration Tool and Service Center will be unusable. Application runtime is unaffected. Customers who have blocked usage reporting via network configurations are unaffected.
+To work around this issue, either enable usage reporting or upgrade to Platform Server 11.33.1 or higher, where the issue has been resolved. </li>
+</ul>
