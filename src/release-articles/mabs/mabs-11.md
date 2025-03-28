@@ -8,13 +8,13 @@ platform-version: o11, odc
 
 # MABS 11 Release notes
 
-<div class="info">
+<div class="info" markdown="1">
 
 Check the mobile stack details for each available MABS version in [Mobile Apps Build Service Versions](mabs-versions.md).
 
 </div>
 
-<div class="info">
+<div class="info" markdown="1">
 
 For common issues and solutions check also [Troubleshooting the Mobile Apps Generation](https://success.outsystems.com/Support/Enterprise_Customers/Troubleshooting/Troubleshooting_the_Mobile_Apps_Generation).
 
@@ -22,11 +22,66 @@ For common issues and solutions check also [Troubleshooting the Mobile Apps Gene
 
 MABS 11 is an important milestone for all mobile developers who publish on App Store and Play Store. MABS 11 targets iOS 18 and Android 15, letting you continue submitting your Android and iOS apps to the stores while taking advantage of the new features that new iOS and Android versions bring.
 
-<div class="warning">
+<div class="warning" markdown="1">
 
-It's recommended to update all supported plugins to the latest version available on the Forge. For more details, please check the [System Requirements](#system-requirements) below.
+It's recommended to update all supported plugins to the latest version available on the Forge. For more details, see [System Requirements](#system-requirements).
 
 </div>
+
+## MABS 11.1 { #mabs-version-11-1 }
+
+<div class="info" markdown="1">
+
+**First release:** 2025-03-28 14:30:00 UTC<br />
+**Last update:** 2025-03-28 14:30:00 UTC.
+
+</div>
+
+<div class="warning" markdown="1">
+
+Starting with MABS 11.1 the Upload Widget by default only allows selecting pictures or videos from the device's gallery. If you wish to capture pictures or videos from the device's camera, you need to add the [capture attribute](https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/capture) with the value **environment** to the Upload Widget in the IDE (see below) and then publish your app. This change only affects Android applications with the [AddUploadWidgetPermissions preference](https://success.outsystems.com/support/release_notes/mobile_apps_build_service_versions/mabs_older_versions/mabs_7_release_notes/#upload-widget-permissions) set to `true`.
+
+</div>
+
+![Screenshot of the OutSystems IDE showing the capture attribute set to environment for the Upload Widget.](images/mabs111-upload-widget.png "Setting the capture attribute in the IDE")
+
+### What's New
+
+This minor version is focused on privacy and user experience improvements.
+
+### Android
+
+* Using the **Upload Widget** no longer requires the READ_MEDIA_IMAGES and READ_MEDIA_VIDEO permissions in order to comply with [Google Play's Photo and Video Permissions policy](https://support.google.com/googleplay/android-developer/answer/14115180?sjid=6224487226101929084-EU).
+* **Upload Widget** now uses the [Android photo picker](https://android-developers.googleblog.com/2023/04/photo-picker-everywhere.html), providing a faster user experience consistent across a range of devices with Android versions supported by MABS 11.
+
+**Before MABS 11.1**
+
+Upload Widget prompted the user for multiple permissions upfront to select a picture and didn't honor the limited access selection.
+
+![Animation showing the old behavior of the Upload Widget prompting for multiple permissions.](images/demo-before-default.gif "Upload Widget old behavior")
+
+**Staring with MABS 11.1**
+
+Upload Widget no longer prompts for any permission for media selection and the apps can only access the user selection.
+
+![Animation showing the new default behavior of the Upload Widget without prompting for permissions.](images/demo-after-default.gif "Upload Widget new default behavior")
+
+Upload Widget only prompts for a single permission and immediately opens the Camera for media capture when the **capture** attribute is set.
+
+![Animation showing the new capture behavior of the Upload Widget with the capture attribute set.](images/demo-after-capture.gif "Upload Widget new capture behavior")
+
+### Breaking Changes and Known Limitations
+
+Applies to MABS 11.1.
+
+#### Upload Widget doesn't capture media on Android 9
+
+The [capture attribute](https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/capture) doesn't work on Android 9 due to a system limitation. This means the Upload Widget cannot perform media capture regardless of the **capture** attribute.
+
+Workarounds:
+
+* Use the Camera app first to capture the picture or video, then switch to the app and select the captured media.
+* Use the OutSystems Camera Plugin.
 
 ## MABS 11 release
 
