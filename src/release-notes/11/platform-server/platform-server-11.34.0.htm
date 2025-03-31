@@ -1,0 +1,34 @@
+---
+isautopublish: true
+pageprivacy: public
+---
+
+<h2 id="platform_server_11.34.0" >Platform Server 11.34.0</h2>
+<div class="info"><p>Released on Mar 31, 2025</p></div>
+
+
+<style>.cattag {background: #f4f2ff; color: #6a6581; padding: 4px 10px;}</style>
+<h3 id="new_in_platform_server_11.34.0" >New in Platform Server 11.34.0</h3>
+<ul>
+<li>Configuration Tool & Service Center will now issue a warning when connecting to an unsupported Oracle version. (R11BRT-1012)</li>
+<li>Updated Oracle Managed Driver to version 19.26.0. See the Oracle release notes, for more information on related fixes. (R11BRT-1619)</li>
+<li>Added support for OAuth2 authentication in Platform SMTP. (R11DT-2574)</li>
+<li>Removed the usage of deprecated unload event in the App Feedback System Component. (R11DT-2776)</li>
+<li>Removed the usage of deprecated unload event in the PreviewInDevices System Component. (R11DT-2779)</li>
+<li>Improved the deployment of DDL scripts to mitigate an issue that caused locks in tables that Expose Process Events when publishing. (RPM-5314) <span class="cattag">Publish Operation</span>  <span class="cattag">Deployment stage</span> </li>
+</ul>
+<h3 id="bug_fixing_platform_server_11.34.0" >Bug Fixing</h3>
+<ul>
+<li>Fixed incorrect information in the confirmation message displayed when changing the API URL in Service Center. Previously, the message stated that all modules would be reloaded after applying the change. It now correctly indicates that modules will be reloaded only if necessary. (R11CT-3745)</li>
+<li>Fixed an issue where Structures or Entities consumed from other modules would not load their dependencies when used exclusively as a list Element Type in a given screen. (RPM-1847) <span class="cattag">Application Runtime</span>  <span class="cattag">Data Access and Manipulation</span> </li>
+<li>Optimized the compilation and validation of SQL Advanced Queries, to prevent potential timeout errors. (RPM-2216) <span class="cattag">Publish Operation</span>  <span class="cattag">Compilation</span> </li>
+<li>Fixed a bug that showed the error message “Cannot read properties of undefined (reading IndexOf)”. This occurred in runtime when redirecting or navigating between screens, in a reactive or mobile app, where the destination screen had a custom URL configured with "Path" as the URL Structure and a variable as an input parameter of any type different than Text or Number.  (RPM-3293) <span class="cattag">Application Runtime</span>  <span class="cattag">Logic Execution</span> </li>
+<li>Fixed an issue where System logs were visible to Service Center users with limited permissions. (RPM-5225) <span class="cattag">Application Lifecycle</span>  <span class="cattag">Service Center</span> </li>
+<li>Fixed an issue with reference local entities when renamed in module, or in aggregate, when fetching data (RPM-5285) <span class="cattag">Application Runtime</span>  <span class="cattag">Data Access and Manipulation</span> </li>
+<li>Fixed an issue that caused Triggers to be dropped and recreated when an Entity with Expose Process Events has old columns still in the physical table. (RPM-5373) <span class="cattag">Publish Operation</span>  <span class="cattag">Compilation</span> </li>
+<li>Fixed an issue where the DropDownMenu component did not display its arrow.
+This occurred when the MenuItem placeholder included text wrapped in a span element, caused by adding inline HTML attributes to that element. (RPM-5509) <span class="cattag">Application Runtime</span>  <span class="cattag">System Components</span> </li>
+<li>Fixed an issue where Logical Database Configurations would not be set when publishing a solution for the first time. This change may require updates to module references. Check OutSystems 11 side effects and breaking changes for more details. (RPM-5571) <span class="cattag">Publish Operation</span>  <span class="cattag">Deployment stage</span> </li>
+<li>Fixed a bug that caused "No role validation found" error messages when calling Client Action from a JavaScript node. (RPM-607) <span class="cattag">Application Runtime</span>  <span class="cattag">Logic Execution</span> </li>
+</ul>
+
