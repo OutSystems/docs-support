@@ -74,6 +74,12 @@ Upload Widget only prompts for a single permission and immediately opens the Cam
 
 Applies to MABS 11.1.
 
+#### Upload Widget no longer offers the camera to capture media by default on Android
+
+To let users take photos or videos directly with the Upload Widget on Android, set the [capture attribute](https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/capture) to **environment** and rebuild your app. OutSystems changed this to simplify things and make the widget behave like modern browsers expect. Check the release notes for more details.
+
+This change affects applications built with MABS 11 and later. When targeting MABS versions earlier than 11, this attribute setting has no effect and can be safely ignored.
+
 #### Upload Widget doesn't capture media on Android 9
 
 The [capture attribute](https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/capture) doesn't work on Android 9 due to a system limitation. This means the Upload Widget cannot perform media capture regardless of the **capture** attribute.
