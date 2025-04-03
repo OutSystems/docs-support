@@ -32,6 +32,12 @@ By default, the IPP  is **unprotected**, which means your application can be dep
 
 When IPP is **protected**, you can deploy applications across all the environments of the same infrastructure, but you can't deploy applications to environments belonging to other infrastructures.​
 
+<div class="info" markdown="1">
+
+IPP  focuses only on protecting the application logic. No data is transmitted or shared during this process.
+
+</div>
+
 If you are trying to deploy modules from other infrastructures, you might get the error message:
 
 ```error
