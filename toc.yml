@@ -718,12 +718,14 @@
 # Forge
 - href: forge/forge-intro.md
 - topics:
-    - href: forge/forge-faqs.md
+    - href: forge/components/creating-components.md
+    - href: forge/components/forge-components-best-practices.md
+    - href: forge/forge-faqs/forge-faqs.md
     - topics:
-        - href: forge/forge-overview.md
-        - href: forge/share-project.md
-        - href: forge/review-project.md
-        - href: forge/curate-project.md
+        - href: forge/forge-faqs/forge-overview.md
+        - href: forge/forge-faqs/share-project.md
+        - href: forge/forge-faqs/review-project.md
+        - href: forge/forge-faqs/curate-project.md
         - topics:
-            - href: forge/remove-project.md
-        - href: forge/trusted-requirements.md
+            - href: forge/forge-faqs/remove-project.md
+        - href: forge/forge-faqs/trusted-requirements.md
