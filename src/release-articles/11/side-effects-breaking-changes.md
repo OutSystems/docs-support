@@ -26,7 +26,7 @@ As such, before introducing a breaking change for a new release, OutSystems care
 
 **Rationale**: During a solution publish, Logical Database configurations were fetched by ExtensionID at a deployment stage where that value could be `NULL`, causing configurations to not be set correctly.
 
-**Fix**: Updated the `Async_Operation_LogicalDatabase` entity to include the SS_Key attribute, and updated the solution publish process to use it to fetch the Logical Database configuration. It is advised that customers who have referenced `Async_Operation_LogicalDatabase` in a module must refresh their module's dependency on the ServiceCenter module.
+**Fix**: Updated the `Async_Operation_LogicalDatabase` entity to include the SS_Key attribute, and updated the solution publish process to use it to fetch the Logical Database configuration. It is advised that customers who have referenced `Async_Operation_LogicalDatabase` in a module must refresh their module's dependency on the (System) module.
 
 ### Introduced in Platform Server 11.33.0
 
