@@ -32,12 +32,12 @@ This article discusses two possible paths for your operations/infrastructure tea
 
 Follow the procedure below to perform an upgrade in place.
 
-1. Stop [OutSystems Services](https://success.outsystems.com/Support/Enterprise_Customers/Troubleshooting/Manually_starting_services_of_the_OutSystems_Platform_-_how-to_and_caveats#Starting_services) and [IIS](https://docs.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2012-r2-and-2012/jj635851(v=ws.11)) to prevent database changes during the SQL Server engine upgrade.
+1. Stop [OutSystems Services](https://success.outsystems.com/Support/Enterprise_Customers/Troubleshooting/Manually_starting_services_of_the_OutSystems_Platform_-_how-to_and_caveats#Starting_services) and [IIS](https://docs.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2012-r2-and-2012/jj635851(v=ws.11)) to prevent database changes during the SQL Server engine upgrade (Please see additional considerations).
 2. Create a backup of the platform, log, and session databases. Verify that this backup can be restored if needed.
 3. [Upgrade the SQL Server engine version](https://docs.microsoft.com/en-us/sql/database-engine/install-windows/supported-version-and-edition-upgrades-version-15?view=sql-server-ver15).
 4. Change the compatibility level of the platform, log, and session databases.
 5. Rebuild all indexes of the platform, log, and session databases.
-6. Start [OutSystems Services](https://success.outsystems.com/Support/Enterprise_Customers/Troubleshooting/Manually_starting_services_of_the_OutSystems_Platform_-_how-to_and_caveats#Starting_services) and [IIS](https://docs.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2012-r2-and-2012/jj635851(v=ws.11)).
+6. Start [OutSystems Services](https://success.outsystems.com/Support/Enterprise_Customers/Troubleshooting/Manually_starting_services_of_the_OutSystems_Platform_-_how-to_and_caveats#Starting_services) and [IIS](https://docs.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2012-r2-and-2012/jj635851(v=ws.11)) (Please see additional considerations).
 
 ## Fresh install
 
@@ -50,7 +50,7 @@ To minimize downtime, especially for large databases, this procedure can be done
 </div>
 
 1. [Install a new SQL Server engine](https://docs.microsoft.com/en-us/sql/database-engine/install-windows/install-sql-server?view=sql-server-ver15) that supports the desired compatibility level.
-2. Stop [OutSystems Services](https://success.outsystems.com/Support/Enterprise_Customers/Troubleshooting/Manually_starting_services_of_the_OutSystems_Platform_-_how-to_and_caveats#Starting_services) and [IIS](https://docs.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2012-r2-and-2012/jj635851(v=ws.11)) to prevent database changes during SQL Server engine installation.
+2. Stop [OutSystems Services](https://success.outsystems.com/Support/Enterprise_Customers/Troubleshooting/Manually_starting_services_of_the_OutSystems_Platform_-_how-to_and_caveats#Starting_services) and [IIS](https://docs.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2012-r2-and-2012/jj635851(v=ws.11)) to prevent database changes during SQL Server engine installation (Please see additional considerations).
 3. Ensure that all platform, logs, and session databases are read-only.
 4. Create a full backup of the platform, log, and session databases. Verify that this backup can be restored if needed.
 5. Ensure that all platform, logs, and session databases are offline.
@@ -69,3 +69,10 @@ To minimize downtime, especially for large databases, this procedure can be done
 Because of changes introduced in the [cardinality estimator](https://docs.microsoft.com/en-us/sql/relational-databases/performance/cardinality-estimation-sql-server?view=sql-server-ver15) in SQL Server 2014, upgrading the compatibility level of previous database versions may have a negative impact on the speed of some queries in the platform/apps database.
 
 In this case, you can rewrite affected application code to improve query performance. Where this is not feasible, you may need to turn on the [Legacy Cardinality Estimator](https://docs.microsoft.com/en-us/sql/relational-databases/performance/cardinality-estimation-sql-server?view=sql-server-ver15).
+
+When starting or stopping OutSystems Services, please follow this specific order, as each service is dependent on the previous one:
+1. OutSystems Log Service
+2. OutSystems Deployment Controller Service
+3. OutSystems Deployment Service
+4. OutSystems Scheduler Service
+5. OutSystems SMS Connector Service
