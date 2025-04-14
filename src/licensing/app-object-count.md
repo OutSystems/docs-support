@@ -38,6 +38,10 @@ An Application Object (AO) is a measurement of the complexity of your applicatio
 
 ## Details on AO counting for API methods
 
+* Each API method you:
+    * *Import* through Data Fabric (for example, SAP BAPIs, SAP OData Deep Inserts, Search Services) counts as 1 AO.
+    * *Consume* through AI Models counts as 1 AO.
+    * *Create* or *consume* through [REST](https://success.outsystems.com/Documentation/11/Extensibility_and_Integration/REST/Expose_REST_APIs) and [SOAP Web Service](https://success.outsystems.com/Documentation/11/Extensibility_and_Integration/SOAP/Exposing_SOAP_Web_Services/Expose_a_SOAP_Web_Service) within each app or library counts as 1 AO.
 * Each API method you *create* ([REST](https://www.outsystems.com/tk/redirect?g=08e6c830-5f88-4645-b86f-412e1c399a1f) or [SOAP Web Service](https://success.outsystems.com/Documentation/11/Extensibility_and_Integration/SOAP/Exposing_SOAP_Web_Services/Expose_a_SOAP_Web_Service)) counts as 1 AO. 
 * Each API method you *consume* ([REST](https://success.outsystems.com/Documentation/11/Extensibility_and_Integration/REST/Consume_REST_APIs), [SOAP Web Service](https://success.outsystems.com/Documentation/11/Extensibility_and_Integration/SOAP/Consuming_SOAP_Web_Services), SAP BAPI, etc.) within each app counts as 1 AO.
 * API methods included in a library each count as 1 AO.
