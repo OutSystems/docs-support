@@ -46,4 +46,6 @@ To troubleshoot an ODC Studio behavior that doesn't generate errors, collect the
 
 1. From the **Report issue or send feedback** window that opens click **See diagnostics report**.
 
+   ![Screenshot of a diagnostics report opened in a text editor.](images/see-diagnostic-report.png "Diagnostics Report window in Text Editor, arrow on the horn icon")
+
 1. Save the report as a text file. If you need help from OutSystems support but don't have an open support case yet, you can create one in ODC Portal or Support Portal.
