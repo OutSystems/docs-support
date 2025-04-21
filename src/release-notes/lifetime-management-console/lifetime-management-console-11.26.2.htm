@@ -1,0 +1,29 @@
+---
+isautopublish: true
+pageprivacy: public
+---
+
+<h2 id="lifetime_management_console_11.26.2" >LifeTime Management Console 11.26.2</h2>
+<div class="info"><p>Released on Apr 21, 2025</p></div>
+
+
+<style>.cattag {background: #f4f2ff; color: #6a6581; padding: 4px 10px;}</style>
+<h3 id="new_in_lifetime_management_console_11.26.2" >New in LifeTime Management Console 11.26.2</h3>
+<ul>
+<li>Updated the label on the "Create new deployment plan" buttons to "Create Deployment Plan" to ensure consistency with the look and feel of other buttons in LifeTime. (R11CT-3953)</li>
+</ul>
+<h3 id="bug_fixing_lifetime_management_console_11.26.2" >Bug Fixing</h3>
+<ul>
+<li>Fixed an issue where long application names in the Applications List caused application names to overflow and extend into neighboring container spaces. (R11CT-3525)</li>
+<li>In LifeTime, the character limit for Extension names has been increased. Previously, names longer than 35 characters were truncated. Now, LifeTime allows Extension names of up to 50 characters, aligning with the limit in Integration Studio. (R11CT-3859)</li>
+<li>When downloading logs from the Audit Logs page in LifeTime, the exported logs now correctly match the user information shown in the UI. Previously, the UI displayed the user's name, while the exported file contained the username. Now, both the UI and the exported file consistently display the user's name. (R11CT-3877)</li>
+<li>On the Audit Logs page in LifeTime, you can now filter logs by the 'System' user. (R11CT-3878)</li>
+<li>Fixed an issue in the LifeTime API swagger file where the response definition of the GET /roles/ endpoint was incorrect. Now its response schema is correctly defined as an array. (RPM-5489) <span class="cattag">Application Lifecycle</span>  <span class="cattag">LifeTime</span> </li>
+<li>Fixed an issue where the value from the 'referrer' CSP directive was displayed in the UI instead of the value of the 'other' CSP directive. This occurred when adding an environment to LifeTime with a platform version where the 'referrer' directive was not yet deprecated. (RPM-5524) <span class="cattag">Application Lifecycle</span>  <span class="cattag">LifeTime</span> </li>
+<li>Fixed an issue that caused the execution of deployment plans to be aborted when there was at least one application with operation Tag & Deploy and at least one of the environments (not involved in the deployment) was having connectivity issues with LifeTime (or the requests returned with errors).
+This occurred because when tagging an application version, LifeTime will check all environments for the existence of the set of module versions that compose that application version, to create the version also in that environment.
+Now, in these situations, in case the communication of any environment returns an error, the operation will continue and the error will show as a warning in the deployment plan. (RPM-5558) <span class="cattag">Application Lifecycle</span> </li>
+<li>Fixed a bug in LifeTime that caused the staging process to abort when a module with more than 50 site properties was added and updated during the "Staging Settings" step. (RPM-5567) <span class="cattag">Application Lifecycle</span>  <span class="cattag">LifeTime</span> </li>
+<li>When a user logins to LifeTime, if they have a password with insufficient complexity, they will now be redirected to a page in LifeTime where they can change their password. Before, the user was redirected to a page in Service Center that allowed to change the password incorrectly, as LifeTime users can only be managed in LifeTime. (RPM-5686) <span class="cattag">Application Lifecycle</span>  <span class="cattag">LifeTime</span> </li>
+</ul>
+
