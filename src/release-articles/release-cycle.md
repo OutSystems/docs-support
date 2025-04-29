@@ -81,11 +81,11 @@ OutSystems ecosystem is divided into components with different release cycles.
 
 The following products are delivered as Software as a Service over the web and continuously updated and improved:
 
-* **Mobile Apps Build Service** - A cloud service developed by OutSystems that allows the generation of mobile app packages. Check out MABS release history [here](mabs/mabs-versions.md).
+* **Mobile Apps Build Service**: A cloud service developed by OutSystems that allows the generation of mobile app packages. Check out MABS release history [here](mabs/mabs-versions.md).
 
-* **AI Mentor Studio** - The OutSystems technical debt monitoring tool, delivered as a cloud service. AI Mentor Studio release history can be found [here](https://success.outsystems.com/support/release_notes/ai_mentor_studio/).
+* **AI Mentor Studio**: The OutSystems technical debt monitoring tool, delivered as a cloud service. AI Mentor Studio release history can be found [here](https://success.outsystems.com/support/release_notes/ai_mentor_studio/).
 
-* **Builders** - Cloud services to build native experiences, design workflows, and automate processes. These include [Integration Builder](https://success.outsystems.com/support/release_notes/integration_builder/), and [Workflow Builder](https://success.outsystems.com/support/release_notes/workflow_builder/).
+* **Builders**: Cloud services to build native experiences, design workflows, and automate processes. These include [Integration Builder](https://success.outsystems.com/support/release_notes/integration_builder/), and [Workflow Builder](https://success.outsystems.com/support/release_notes/workflow_builder/).
 
 
 ## Planned dates for OutSystems 11
