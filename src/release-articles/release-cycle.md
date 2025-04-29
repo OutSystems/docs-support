@@ -73,7 +73,7 @@ OutSystems ecosystem is divided into components with different release cycles.
 
 * **Platform Server**: The core server part of OutSystems product. A new version of Platform Server is released twice a quarter and you can check the latest releases [here](https://www.outsystems.com/downloads/search/Platform-Server/11).
 
-* **LifeTime management console** - The web console for DevOps processes. LifeTime is released monthly and you can check the latest releases [here](https://www.outsystems.com/downloads/search/LifeTime/11).
+* **LifeTime management console**: The web console for DevOps processes. LifeTime is released monthly and you can check the latest releases [here](https://www.outsystems.com/downloads/search/LifeTime/11).
 
 * **Service Studio**: The visual IDE, Service Studio has weekly releases. Check the latest ones [here](https://www.outsystems.com/downloads/search/Service-Studio/11).
 
