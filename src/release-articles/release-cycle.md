@@ -7,7 +7,8 @@ app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11, odc
 figma: https://www.figma.com/file/UXA74OsZxSIzLLsjhvNMjC/Release-Notes?type=design&node-id=1118%3A247&mode=design&t=PXROiQwbSufNHSiC-1
 ---
-# OutSystems Product Releases
+
+# OutSystems Product releases
 
 At OutSystems, we use a continuous delivery approach, focused on constantly releasing incremental value with minimal disruptions to our customer's operations and business.
 
@@ -70,30 +71,26 @@ OutSystems ecosystem is divided into components with different release cycles.
 
 ![Diagram showing the release cycles for Platform Server, LifeTime, and Development Environment with a legend indicating the types of releases.](images/release-cycle-diag.png "OutSystems Release Cycle Diagram")
 
-* **Platform Server** - The core server part of OutSystems product; A new version of Platform Server is released every month and you can check the latest releases [here](https://www.outsystems.com/Downloads/search/Platform-Server).
+* **Platform Server**: The core server part of OutSystems product; A new version of Platform Server is released twice a quarter and you can check the latest releases [here](https://www.outsystems.com/downloads/search/Platform-Server/11).
 
-* **LifeTime management console** - The web console for DevOps processes; LifeTime is released monthly and you can check the latest releases [here](https://www.outsystems.com/Downloads/search/LifeTime).
+* **LifeTime management console** - The web console for DevOps processes; LifeTime is released monthly and you can check the latest releases [here](https://www.outsystems.com/downloads/search/LifeTime/11).
 
-* **Development Environment** - The visual development tools, a part of OutSystems product that contains Service Studio and Integration Studio; OutSystems Development Environment has weekly releases. Check the latest ones [here](https://www.outsystems.com/Downloads/search/Development-Environment).
+* **Service Studio**: The visual IDE, Service Studio has weekly releases. Check the latest ones [here](https://www.outsystems.com/downloads/search/Service-Studio/11).
 
-* **Supported Forge components** - Components that increase the existing built-in capabilities and can be reused across applications. Each component has its own release cycle. OutSystems components can be found [here](https://www.outsystems.com/forge/list?q=&t=&o=most-popular&tr=False&oss=True&c=%20&a=&v=&hd=False&tn=&scat=forge).
+* **Supported Forge components**: Components that increase the existing built-in capabilities and can be reused across applications. Each component has its own release cycle. OutSystems components can be found [here](https://www.outsystems.com/forge/list?q=&t=&o=most-popular&tr=False&oss=True&c=%20&a=&v=&hd=False&tn=&scat=forge).
 
 The following products are delivered as Software as a Service over the web and continuously updated and improved:
 
-* **Mobile Apps Build Service** - A cloud service developed by OutSystems that allows the generation of mobile app packages. Check out MABS release history [here](https://success.outsystems.com/Support/Release_Notes/Mobile_Apps_Build_Service_Versions).
+* **Mobile Apps Build Service** - A cloud service developed by OutSystems that allows the generation of mobile app packages. Check out MABS release history [here](mabs/mabs-versions.md).
 
-* **Architecture Dashboard** - The OutSystems technical debt monitoring tool, delivered as a cloud service. Architecture Dashboard release history can be found [here](https://success.outsystems.com/Support/Release_Notes/Architecture_Dashboard).
+* **AI Mentor Studio** - The OutSystems technical debt monitoring tool, delivered as a cloud service. AI Mentor Studio release history can be found [here](https://success.outsystems.com/support/release_notes/ai_mentor_studio/).
 
-* **Builders** - Cloud services to build native experiences, design workflows, and automate processes. These include [Integration Builder](https://success.outsystems.com/Support/Release_Notes/Integration_Builder), and [Workflow Builder](https://success.outsystems.com/Support/Release_Notes/Workflow_Builder).
+* **Builders** - Cloud services to build native experiences, design workflows, and automate processes. These include [Integration Builder](https://success.outsystems.com/support/release_notes/integration_builder/), and [Workflow Builder](https://success.outsystems.com/support/release_notes/workflow_builder/).
 
-
-For more information, [check OutSystems tools and components](https://www.outsystems.com/evaluation-guide/outsystems-tools-and-components).
 
 ## Planned dates for OutSystems 11
 
 ### Platform Server
-
-**Note**: Since version 11.8.0, Platform Server is released first for OutSystems cloud, and 2 to 3 weeks later, it's available to [download](https://www.outsystems.com/downloads) for self-managed configurations.
 
 <p><iframe frameborder="0" height="300" marginheight="0" marginwidth="0" scrolling="yes" src="https://release.outsystems.net/ReleaseDashboard/O11PSReleasePlan.aspx" vspace="0" width="800"></iframe></p>
 
