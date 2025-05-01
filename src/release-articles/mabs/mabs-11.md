@@ -124,7 +124,7 @@ The table below contains the list of plugins and their supported versions. It is
 |[Performance Monitoring (Firebase)](https://www.outsystems.com/forge/component-versions/10706)|2.1.1 or later|1.1.2 or later|
 |[Touch ID](https://www.outsystems.com/forge/component-versions/1431)|3.3.9 or later|1.1.1 or later|
 |[OneSignal](https://www.outsystems.com/forge/component-versions/2119)|3.7.5 or later|1.1.1 or later|
-|[SSL Pinning](https://www.outsystems.com/forge/component-versions/1873)|7.0.2 or later|1.0.2 or later|
+|[SSL Pinning](https://www.outsystems.com/forge/component-versions/1873)|7.0.1 or later|1.0.1 or later|
 |[Social Login Mobile](https://www.outsystems.com/forge/component-versions/7895)|4.2.2 or later|-|
 |[Payments](https://www.outsystems.com/forge/component-versions/13678)|1.2.2 or later|1.1.2 or later|
 |[InAppBrowser](https://www.outsystems.com/forge/component-versions/1558)|2.4.10 or later|1.0.1 or later|
