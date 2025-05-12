@@ -1,0 +1,28 @@
+---
+isautopublish: true
+pageprivacy: public
+---
+
+<h2 id="platform_server_11.35.0" >Platform Server 11.35.0</h2>
+<div class="info"><p>Released on May 12, 2025</p></div>
+
+
+<style>.cattag {background: #f4f2ff; color: #6a6581; padding: 4px 10px;}</style>
+<h3 id="new_in_platform_server_11.35.0" >New in Platform Server 11.35.0</h3>
+<ul>
+<li>Added support for .NET Framework 4.8.1. (R11BRT-1152)</li>
+<li>Added support for Windows Server 2025. (R11BRT-1524)</li>
+<li>Build Tools is no longer a mandatory requirement for the installation of Platform Server. Build Tools is only needed when upgrading extension from previous Major Platform versions (like O10).
+
+Platform Server installer no longer installs Build Tools automatically. Checklist was updated to reflect this change. 
+ (R11BRT-1724)</li>
+</ul>
+<h3 id="bug_fixing_platform_server_11.35.0" >Bug Fixing</h3>
+<ul>
+<li>Fixed an issue where the App Feedback would not take into consideration the User's Group Control for Reactive Web Apps. Due to its current architecture, App Feedback still presents an issue in the transition between Anonymous and Authenticated. (RPM-3223) <span class="cattag">Application Lifecycle</span>  <span class="cattag">App Feedback Backoffice / ECT</span> </li>
+<li>Improved how sessions are registered when using SAML on Mobile Apps. This should prevent log in errors that could otherwise happen in some situations ("data would be truncated"/"value too large for column") (RPM-4965) <span class="cattag">Application Lifecycle</span>  <span class="cattag">Users</span> </li>
+<li>Fixed an issue that caused LifeTime to become stuck at "Creating solution pack" when messages obtained were unordered while using Oracle RAC. Due to the necessary changes, there will be an impact in performance to guarantee ordering while using Oracle RAC. (RPM-5372) <span class="cattag">Application Lifecycle</span>  <span class="cattag">LifeTime</span> </li>
+<li>Fix a concurrency issue that could cause errors during the Solution Publish operation when, on rare occurrences, the same file was being accessed by more than one thread simultaneously. (RPM-5643) <span class="cattag">Publish Operation</span>  <span class="cattag">Deployment stage</span> </li>
+<li>Renamed the authentication option from Azure ID to Microsoft Entra in Users to align with Microsoft's updated branding. (RPM-5706) <span class="cattag">Application Lifecycle</span>  <span class="cattag">Users</span> </li>
+</ul>
+
