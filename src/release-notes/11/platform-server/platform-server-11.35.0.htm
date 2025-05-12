@@ -24,5 +24,6 @@ Platform Server installer no longer installs Build Tools automatically. Checklis
 <li>Fixed an issue that caused LifeTime to become stuck at "Creating solution pack" when messages obtained were unordered while using Oracle RAC. Due to the necessary changes, there will be an impact in performance to guarantee ordering while using Oracle RAC. (RPM-5372) <span class="cattag">Application Lifecycle</span>  <span class="cattag">LifeTime</span> </li>
 <li>Fix a concurrency issue that could cause errors during the Solution Publish operation when, on rare occurrences, the same file was being accessed by more than one thread simultaneously. (RPM-5643) <span class="cattag">Publish Operation</span>  <span class="cattag">Deployment stage</span> </li>
 <li>Renamed the authentication option from Azure ID to Microsoft Entra in Users to align with Microsoft's updated branding. (RPM-5706) <span class="cattag">Application Lifecycle</span>  <span class="cattag">Users</span> </li>
+<li>Fixed a potential security issue related to mutation cross-site scripting (mXSS). CVSSv3.1 score 4.5 (Moderate). (RPM-5630) <span class="cattag">Application Runtime</span> </li>
 </ul>
 
