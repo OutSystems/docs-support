@@ -6,6 +6,12 @@ guid: 907b0fd3-bc46-4391-aae2-673296d795d9
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11, odc
 figma:
+coverage-type:
+  - remember
+  - understand
+topic:
+  - user-types
+  - users-licensing
 ---
 
 # End Users
