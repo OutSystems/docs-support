@@ -32,16 +32,16 @@ You can get full support and bug fixes through OutSystems support requests mecha
 
 <div class="info" markdown="1">
 
-## **Version 11.0** - [See Release Notes](../../release-notes/mabs/11/11.0/11.0.md)<br/>
-Released as Beta on November 20th, 2024 <br/>
-Released to GA on January 22nd, 2025 <br/>
+## **Version 11.1** - [See Release Notes](../../release-notes/mabs/11/11.0/11.0.md)<br/>
+Released as Beta on March 28th, 2025 <br/>
+Released to GA on April 2nd, 2025 <br/>
 Deprecation date to be announced
 
 </div>
 
 <div class="warning" markdown="1">
 
-It's recommended to update all supported plugins to the latest version available on the Forge. For more details, please check the **[release notes](https://success.outsystems.com/Support/Release_Notes/Mobile_Apps_Build_Service_Versions/MABS_11_Release_notes#mabs-version-11.0)**.
+It's recommended to update all supported plugins to the latest version available on the Forge. For more details, please check the **[release notes](https://success.outsystems.com/support/release_notes/mobile_apps_build_service_versions/mabs_11_release_notes/#mabs-version-11-1)**.
 
 </div>
 
@@ -132,8 +132,59 @@ This version can run your apps on:
         </tr>
     </tbody>
 </table>
-<!-- 
+ 
 ## Deprecated
 You can select this version in the configuration and create a mobile package using it, but you receive limited support. Limited support means that you receive advice and workarounds through support requests, but there are no bug fixes for the version. 
--->
+
+<div class="info" markdown="1">
+
+## **Version 11.0** - [See Release Notes](../../release-notes/mabs/11/11.0/11.0.md)<br/>
+Released as Beta on November 20th, 2024 <br/>
+Released to GA on January 22nd, 2025 <br/>
+Deprecated on April 2nd, 2025 <br/>
+To be obsolete in June 2nd, 2025 <br/>
+</div>
+
+<div class="warning" markdown="1">
+
+It's recommended to update all supported plugins to the latest version available on the Forge. For more details, please check the **[release notes](https://success.outsystems.com/Support/Release_Notes/Mobile_Apps_Build_Service_Versions/MABS_11_Release_notes#mabs-version-11.0)**.
+
+</div>
+
+This version can run your apps on:
+
+<small>![Icon representing the Android operating system.](images/android-icon.png "Android Icon") Android 9 to 15</small>
+
+<small>![Icon representing the iOS operating system.](images/iOS-icon.png "iOS Icon") iOS 15 to 18</small>
+
+**More details:**
+
+<table style="width: 632px; table-layout: fixed">
+    <tbody class="RegularLightText">
+        <tr>
+            <td style="width:156px;"></td>
+            <td style="width:231px;">Android</td>
+            <td>iOS</td>
+        </tr>
+        <tr>
+            <td style="vertical-align:middle;width:156px;">Target SDK</td>
+            <td style="width:231px;">15 (API Level 35)<br/></td>
+            <td>18.0<br/></td>
+        </tr>
+        <tr>
+            <td style="vertical-align:middle;width:156px;">Tools</td>
+            <td style="width:231px;">Build Tools 35.0.0<br/>
+            Gradle 8.11.1<br/>
+            Android Gradle Plugin 8.7.2<br/>
+            Kotlin 1.9.24<br/>
+            Cordova CLI 12.0.0<br/>
+            <a href="https://github.com/OutSystems/cordova-android/tree/outsystems/13.0.x">Cordova Android 13.0</a></td>
+            <td>Xcode 16.0<br/>
+            CocoaPods 1.15.2<br/>
+            Swift 6.0<br/>
+            Cordova CLI 12.0.0<br/>
+            <a href="https://github.com/OutSystems/cordova-ios/tree/outsystems/7.1.x">Cordova iOS 7.1</a></td>
+        </tr>
+    </tbody>
+</table>
 
