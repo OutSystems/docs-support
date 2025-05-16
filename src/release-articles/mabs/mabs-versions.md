@@ -32,7 +32,7 @@ You can get full support and bug fixes through OutSystems support requests mecha
 
 <div class="info" markdown="1">
 
-## **Version 11.1** - [See Release Notes](../../release-notes/mabs/11/11.0/11.0.md)<br/>
+## **Version 11.1** - [See Release Notes](../../release-notes/mabs/11/11.1/11.1.md)<br/>
 Released as Beta on March 28th, 2025 <br/>
 Released to GA on April 2nd, 2025 <br/>
 Deprecation date to be announced
