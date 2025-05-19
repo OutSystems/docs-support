@@ -149,11 +149,11 @@ Upon adding your Web Reference to the eSpace in the Integrations section, for ea
 
 ## Service actions timeout
 
-Communication with Service Actions is similar to a REST Consume. Underneath, it uses REST over HTTP which means there's a client starting a request and a server responding to that request. As mentioned before, the default IIS timeout value should be set to 110 seconds, which means that every request should take 110 seconds to do its computations. 
+Communication with Service Actions is similar to a REST Consume. Underneath, it uses REST over HTTP, which means there's a client initiating a request and a server responding to that request. However, unlike typical REST services hosted on IIS, Service Actions do not follow the IIS timeout configuration. Although IIS may have a default timeout of 110 seconds, Service Actions are not governed by this setting.
 
 ### Timeout symptoms
 
-After 110 seconds have passed, the connection with the Service Action is going to be aborted and the following entry logged in the error logs:
+After 100 seconds have passed without a response, the connection with the Service Action will abort the connection and log the following entry in the error logs:
 
 ```
 Message: 
@@ -176,11 +176,15 @@ In this case, a screen in the module MyApp invokes a Service Action in a produce
 
 ### Timeout setting
 
-Contrary to Server Actions, it is not possible to increase the execution time of servers answering REST calls, which means that using [SetRequestTimeout](https://success.outsystems.com/documentation/11/reference/outsystems_apis/httprequesthandler_api/#SetRequestTimeout) inside a REST Expose Action or inside a Service Action won't extend their maximum execution time. 
+Contrary to Server Actions, Service Actions execute through internal REST calls between modules, and therefore are not in-process like Server Actions. These internal REST calls do not respect IIS timeout settings, nor are they limited by any server-side timeout.
 
-For Server Actions, this does not happen because the module has the assemblies of the producer module. There isn't communication between consumer and producer module. Since there's no HTTP communication, SetRequestTimeout can effectively extend the execution time because it's only manipulating the timeout set for that particular request.
+However, on the client side, the platform has a default timeout of 100 seconds for waiting for a Service Action’s response. This is not configurable and is the actual source of the timeout behavior observed in logs.
 
-If one uses SetRequestTimeout before invoking a Service Action, in theory, this would only set how long the caller Server Action would wait for a response from the Service Action before aborting the request. In summary, Service Actions will timeout after 110 seconds by default and one can't extend this value.
+Using [SetRequestTimeout](https://success.outsystems.com/documentation/11/reference/outsystems_apis/httprequesthandler_api/#SetRequestTimeout) before invoking a Service Action will not affect the Service Action’s execution time. It only defines how long the caller will wait before timing out. Therefore, if the Service Action does not respond within 100 seconds, the operation will fail regardless of SetRequestTimeout.
+
+In contrast, Server Actions are executed within the same module context, without HTTP communication. This allows SetRequestTimeout to effectively define how long the logic should run before timing out, since it's managing in-process behavior.
+
+In summary, Service Actions have a client-side timeout of 100 seconds, which cannot be extended. To avoid timeouts, consider breaking down the logic or data processing into smaller chunks and invoking them iteratively.
 
 ## Server request timeout
 
