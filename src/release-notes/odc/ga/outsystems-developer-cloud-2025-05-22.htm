@@ -8,6 +8,25 @@ pageprivacy: public
 
 
 <style>.cattag {background: #f4f2ff; color: #6a6581; padding: 4px 10px;}</style>
+<h3 id="new_in_outsystems_developer_cloud_2025-05-22" > New</h3>
+<ul>
+<li>[Mentor AppGen]
+<ul>
+<li>Improved Requirement Processing: Mentor now more accurately extracts data model and authorization information from requirements documents</li>
+<li>UI Diversity Enhancements: Introduced a new detail screen layout, List screen with Map View, which becomes available when the entity contains attributes typically associated with an address or location</li>
+<li>Logged-in user authorization use cases expanded: Mentor can create authorizations where users can manage their own data while having limited access to all records—for example, allowing the user to view all orders but only editing their own orders</li>
+<li>AI-Suggested Menu Icons: Mentor now automatically suggests Font Awesome icons for each link in your app menu, enhancing visual clarity and user experience.</li>
+<li>Create Apps Using Your Own Theme: Mentor now detects the theme name from the prompt or requirements document and applies it to the generated app automatically.
+<ul>
+      <li>Guidelines: Ensure your theme has the layout property of "blocks" filled in and that the chosen layout has the following placeholders: Header, Breadcrumbs, Title, Actions, and MainContent</li>
+</ul>
+</li>
+</ul> (RDMAG-767)</li>
+<li>[Mentor App Editor]
+<ul>
+<li>Logged-in user authorization suggestions: AppEditor now provide authorization suggestion rules based on the logged-in user. This accelerator enables scenarios such as allowing the user to view all orders but only editing their own orders</li>
+</ul> (RDMOR-2071)</li>
+</ul>
 <h3 id="bug_fixing_outsystems_developer_cloud_2025-05-22" >Bug Fixing</h3>
 <ul>
 <li>Fixed an issue where the instance flow wasn't rendering correctly when opening the details of a workflow instance. (RDLOT-3640)</li>
