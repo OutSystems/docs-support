@@ -224,7 +224,7 @@ It is possible to enable the configuration "Allow introspection of views using D
 
 **Rationale**: The algorithm now gives precedence to the DLLs from the most recent extension published to account for some scenarios with loosely coupled dependencies, instead of the previous dependencies alphabetical order.
 
-**Fix**: Ensure the environment's extensions don’t have different incompatible versions of the same DLL. You can use the following query to identify multiple extensions that contain the same DLL. If you can see your extensions on this list, we recommend you consolidate the DLLs into a single extension or make sure they are all compatible. The query lists some OutSystems extensions, which are compatible between them.
+**Fix**: Ensure the environment's extensions don’t have different incompatible versions of the same DLL. You can use the following query to identify multiple extensions that contain the same DLL. If you can see your extensions on this list, we recommend you ensure they use a single version of the conflicting DLL or make sure they are compatible. The query lists some OutSystems extensions, which are compatible between them.
 
     SELECT REPDLLEXT.Filename DLL, ossys_Extension.Name EXTENSION FROM	
         (SELECT ossys_Extension_Dependency.Filename, ossys_Extension_Dependency.Extension_Id FROM		
