@@ -82,12 +82,16 @@ This version can run your apps on:
     </tbody>
 </table>
 
+## Deprecated
+You can select this version in the configuration and create a mobile package using it, but you receive limited support. Limited support means that you receive advice and workarounds through support requests, but there are no bug fixes for the version. 
+
 <div class="info" markdown="1">
 
 ## **Version 10.0** - [See Release Notes](../../release-notes/mabs/10/10.0/10.0.md)<br/>
 Released as Beta on October 26, 2023 <br/>
 Released to GA on December 27, 2023 <br/>
-To be Deprecated on May 23, 2025<br/>
+Deprecated on May 23, 2025<br/>
+Obsoletion date to be announced<br/>
 </div>
 
 <div class="warning" markdown="1">
@@ -133,9 +137,6 @@ This version can run your apps on:
     </tbody>
 </table>
  
-## Deprecated
-You can select this version in the configuration and create a mobile package using it, but you receive limited support. Limited support means that you receive advice and workarounds through support requests, but there are no bug fixes for the version. 
-
 <div class="info" markdown="1">
 
 ## **Version 11.0** - [See Release Notes](../../release-notes/mabs/11/11.0/11.0.md)<br/>
