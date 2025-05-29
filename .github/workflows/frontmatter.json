@@ -10,7 +10,10 @@
           {
             "type": "string",
             "pattern": "^\\d+(,\\s*\\d+)*$"
-          }
+          },
+        {
+          "type": "null"
+        }
         ]
       },
       "summary": {},
