@@ -42,7 +42,7 @@ The following procedure presents the steps required switch the front-ends from t
         1. In the **Startup type** dropdown, choose **Disabled**. Click **OK** at the bottom.
     * In Java stack:
         1. Use the command `service outsystems stop SCHEDULER` to stop the service.
-        1. Disable the service with the command `./serviceconfigurator.sh -interactive
+        1. Disable the service with the command `./serviceconfigurator.sh -interactive`
 1. On the OutSystems inactive Server(s) that should be activated, **start service OutSystems Scheduler Service and set as automatic:**
     * In .NET stack:
         1. Go to **Start** > **Services**.
