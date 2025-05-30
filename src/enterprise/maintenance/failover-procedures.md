@@ -30,7 +30,7 @@ This guide describes three procedures to execute during failover scenarios:
 An active/passive OutSystems installation is an installation where two or more front-ends grouped in:
 
 * An active group (the front-ends which are executing requests, timers and asynchronous logic) and,
-* a passive group (the front-ends in standby should failover be required).
+* A passive group (the front-ends in standby should failover be required).
 
 The following procedure presents the steps required switch the front-ends from the passive to the active group.
 
@@ -43,8 +43,6 @@ The following procedure presents the steps required switch the front-ends from t
     * In Java stack:
         1. Use the command `service outsystems stop SCHEDULER` to stop the service.
         1. Disable the service with the command `./serviceconfigurator.sh -interactive
-        1. Use the command `service outsystems stop SCHEDULER` to stop the service.
-        1. Disable the service with the command `./serviceconfigurator.sh -interactive`
 1. On the OutSystems inactive Server(s) that should be activated, **start service OutSystems Scheduler Service and set as automatic:**
     * In .NET stack:
         1. Go to **Start** > **Services**.
@@ -142,9 +140,9 @@ The following procedure presents the required steps to move controller roles and
     1. Right-click on the **RabbitMQ Service** and choose **Stop**. Right-click it again and choose **Properties**
     1. In the **Startup type** dropdown, choose **Disabled**. Click **OK** at the bottom.
 1. On the new OutSystems Deployment Controller server, **Set OutSystems Deployment Controller Startup Type as Automatic**. 
-        1. Go to **Start** > **Services**.
-        1. Right-click on the **OutSystems Deployment Controller Service** and choose **Properties**
-        1. In the **Startup type** dropdown, choose **Automatic**. Click **OK** at the bottom.
+    1. Go to **Start** > **Services**.
+    1. Right-click on the **OutSystems Deployment Controller Service** and choose **Properties**
+    1. In the **Startup type** dropdown, choose **Automatic**. Click **OK** at the bottom.
 1. On all front-ends of this environment, starting with the new Controller, **Update location of Controller and RabbitMQ in OutSystems configurations**. The value written for this setting must be equal in all front-ends of the environment.
     1. Run Configuration Tool from the Start menu.
     1. In the **Controller** tab, enter the IP address of the new Deployment Controller server
