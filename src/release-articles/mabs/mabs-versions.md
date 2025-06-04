@@ -142,8 +142,8 @@ This version can run your apps on:
 ## **Version 11.0** - [See Release Notes](../../release-notes/mabs/11/11.0/11.0.md)<br/>
 Released as Beta on November 20th, 2024 <br/>
 Released to GA on January 22nd, 2025 <br/>
-Deprecated on April 2nd, 2025 <br/>
-To be obsolete in June 2nd, 2025 <br/>
+Deprecated on May 16th, 2025 <br/>
+To be obsolete in July 16th, 2025 <br/>
 </div>
 
 <div class="warning" markdown="1">
