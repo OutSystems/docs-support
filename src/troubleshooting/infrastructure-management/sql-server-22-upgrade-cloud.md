@@ -2,7 +2,7 @@
 guid: 5cfd9485-d476-484a-a3f2-ccf3ef379da1
 locale: en-us
 summary: Check the FAQs related to the SQL Server 22 upgrade in O11 Cloud.
-figma: 
+figma: https://www.figma.com/design/6tXLupLiqfG9FOElATTGQU/Troubleshooting?node-id=5594-247&t=wdMEwcdmLXvJQ8yy-1
 coverage-type:
   - unblock
 topic: 
@@ -45,9 +45,13 @@ The upgrade window is scheduled for 8 hours, but in most cases, the operation wi
 
 OutSystems fully manages the upgrade process. Here's what we recommend:
 
+![Diagram showing recommendations for SQL Server upgrade: Review upgrade timing, limit database activity, validate app functionality.](images/sql-server-update-recommendation-diag.png "SQL Server Upgrade Recommendations")
+
 * Review your upgrade schedule when you receive the email notification.  
 * Avoid heavy database operations during the scheduled window to ensure smooth completion.  
 * Run your regular app tests after the upgrade to ensure everything works as expected.
+
+
 
 ### What new features will be available?
 
