@@ -10,6 +10,19 @@ pageprivacy: public
 <style>.cattag {background: #f4f2ff; color: #6a6581; padding: 4px 10px;}</style>
 <h3 id="new_in_outsystems_developer_cloud_2025-06-06" > New</h3>
 <ul>
+<li>[Mentor AppGen]
+<ul>
+<li>UI Diversity Enhancements: Introduced a new detail screen template, detail with sidebar and tabs, which becomes available when the entity contains a relationship with more than one entity and a high number of attributes, improving the information organization and navigation for complex data models.</li>
+<li>Enterprise integrations Enhancements: Mentor-generated apps can now write data to external systems such as Salesforce, SQL databases, and SAP. This enhancement streamlines bi-directional data flow and boosts integration capabilities
+<ul>
+      <li>Guidelines:</li>
+      <ul>
+      <li>Write operation for external entities will be available only when the entity has the createOrUpdate action available</li>
+      <li>Delete records from external entities will be available only when the entity has the delete action available</li>
+      </ul>
+</ul>
+</li>
+</ul> (RDMAG-805)</li>
 <li>Build Actions: `entitlements` action on iOS now supports writing multiple `.entitlements` files, one per build (Debug, Release, etc). (RDMR-690)</li>
 </ul>
 
