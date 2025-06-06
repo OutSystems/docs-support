@@ -279,13 +279,6 @@
     - href: security/penetration-tests.md
     - href: security/rest-headers-hardening.md
 
-    # HIPAA compliance
-    - href: security/HIPAA/intro.md
-    - topics:
-        - href: security/HIPAA/hipaa-tech-safeguards.md
-
-    - href: security/pci-compliance.md
-
     # Vulnerabilities
     - href: security/vulnerabilities/intro.md
     - topics:
