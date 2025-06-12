@@ -13,6 +13,8 @@ pageprivacy: public
 <li>New versions of Private Gateways and Cloud Connector are now available. This version improves the reliability of your private network. When activating the Private Gateway in the ODC Portal, you will see a new Address that enables you to use Cloud Connector after v2.0.0. (RDLOT-3671)</li>
 <li>The Producers tab on the ODC Portal's asset detail screen now displays the a complete runtime asset dependency tree. Drilling down, you can now see each direct and indirect producers, as well as the elements being referenced by its direct consumer. (RDLOT-3716)</li>
 </ul>
-
+<h3 id="bug_fixing_outsystems_developer_cloud_2025-06-05" >Bug Fixing</h3>
+<ul>
+<li>Fixed a PostgreSQL error  that occurred when creating unique indexes on tables selecting a varchar column with less than 9 chars and a column being a foreign key and also being a varchar above 9 chars. (RPM-5888)</li>
 </ul>
 
