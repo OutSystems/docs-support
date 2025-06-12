@@ -20,7 +20,7 @@ All managers with **infrastructure administrator** and **company administrator**
 
 ![Screenshot of the List of Certified Members with options to export to Excel or send certificates via email.](images/dowload-os-cert-3.png "Certified Members List and Export Options")
 
-You can also monitor the certification progress of everyone on your team and learn whether your developers passed or failed the exam. [Check out this article](https://success.outsystems.com/Support/Account_and_Members_Management/How_many_certified_professionals_do_I_have_on_my_team%3F).
+From the Customer Portal, you can also monitor the certification progress of everyone on your team and learn whether your developers passed or failed the exam. 
 
 <div class="info" markdown="1">
 
@@ -36,6 +36,6 @@ If you don’t see your team in the customer area portal, you might need to invi
 
 ![Screenshot showing the List of Certified Members with export and email options for partners in the OutSystems Partner Center.](images/dowload-os-cert-6.png "Exporting Partner Certifications")
 
-You can also monitor the certification progress of everyone on your team and learn whether your developers passed or failed the exam. [Check out this article](https://success.outsystems.com/Support/Account_and_Members_Management/How_many_certified_professionals_do_I_have_on_my_team%3F).
+From the Customer Portal, you can also monitor the certification progress of everyone on your team and learn whether your developers passed or failed the exam.
 
 To learn more about the available certifications [visit this page](https://www.outsystems.com/learn/certifications).
