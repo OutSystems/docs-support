@@ -10,7 +10,7 @@ pageprivacy: public
 <style>.cattag {background: #f4f2ff; color: #6a6581; padding: 4px 10px;}</style>
 <h3 id="new_in_lifetime_management_console_11.27.0" >New in LifeTime Management Console 11.27.0</h3>
 <ul>
-<li>By using the new feature Deployment Protection Policy, it is now possible to block specific applications from being deployed to selected environments to prevent accidental deployments. Overrides are allowed (publishing via Service Center or Service Studio), but will trigger a warning in the UI and notify the user who set the block and infra admins for visibility. An infrastructure-level setting can be used to define if new apps are blocked by default. (R11CT-3955)</li>
+<li>By using the new feature Deployment Protection Policy, it is now possible to block an app from being deployed to specific environments. This prevents accidental deployments to incorrect environments.  It is also possible to use LifeTime APIs to block and unblock an app from deploying to specific environments. An infrastructure-level setting can be used to define if new apps are blocked by default. (R11CT-3955)</li>
 <li>Stagings can now be relabeled. (R11CT-4070)</li>
 </ul>
 <h3 id="bug_fixing_lifetime_management_console_11.27.0" >Bug Fixing</h3>
