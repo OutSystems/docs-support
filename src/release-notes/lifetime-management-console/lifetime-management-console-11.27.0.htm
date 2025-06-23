@@ -18,3 +18,7 @@ pageprivacy: public
 <li>Fixed an issue where the 'Staging Settings' screen was being skipped when deploying an application containing 'Entities from External Databases' for the first time to the target environment. This skip was leading to errors in the deployment of such applications. (RPM-5761) <span class="cattag">Application Lifecycle</span>  <span class="cattag">LifeTime</span> </li>
 </ul>
 
+<h3>Known issues</h3>
+<ul>
+<li>On the Deployment Plans list screen, when a plan is saved but not yet started, clicking the plan label incorrectly redirects to the Staging_Progress screen. As a workaround, manually change the screen URL by replacing 'Staging_Progress' with 'Staging_Edit', then proceed with the plan as usual.</li>
+</ul>
