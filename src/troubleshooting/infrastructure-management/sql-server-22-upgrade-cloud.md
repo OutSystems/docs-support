@@ -18,7 +18,7 @@ helpids:
 
 # SQL Server 2022 upgrade in O11 Cloud
 
-OutSystems will upgrade all O11 Cloud SQL Server databases from version 2016 to 2022 between June and September 2025. This upgrade ensures continued Microsoft support until January 2033 and reinforces OutSystems' commitment to delivering a future-ready, reliable, and compliant platform.
+OutSystems will upgrade all OutSystems 11 (O11) Cloud SQL Server databases from version 2016 to 2022 between June and September 2025. This upgrade ensures continued Microsoft support for O11 Cloud and reinforces OutSystems' commitment to delivering a future-ready, reliable, and compliant platform.
 
 No customer action is required. The upgrade is designed to complete without downtime for your environments.
 
@@ -29,7 +29,7 @@ You'll receive an email notification with your specific upgrade schedule as part
 
 ### Why is OutSystems upgrading SQL Server to version 2022 in O11 Cloud?
 
-Microsoft's extended support for [SQL Server 2016](https://learn.microsoft.com/en-us/lifecycle/products/sql-server-2016) ends in July 2026\. Upgrading to [SQL Server 2022](https://learn.microsoft.com/en-us/lifecycle/products/sql-server-2022) ensures long-term support until January 2033, keeping your environments secure, stable, and compliant.
+Microsoft's extended support for [SQL Server 2016](https://learn.microsoft.com/en-us/lifecycle/products/sql-server-2016) ends in July 2026\. Upgrading to [SQL Server 2022](https://learn.microsoft.com/en-us/lifecycle/products/sql-server-2022) ensures long-term support for O11 Cloud, keeping your environments secure, stable, and compliant.
 
 ### Will the upgrade require downtime?
 
