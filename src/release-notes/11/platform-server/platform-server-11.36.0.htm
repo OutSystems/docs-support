@@ -1,0 +1,31 @@
+---
+isautopublish: true
+pageprivacy: semi-private
+---
+
+<h2 id="platform_server_11.36.0" >Platform Server 11.36.0</h2>
+<div class="info"><p>This is a preliminary version of the document.</p></div>
+
+
+<style>.cattag {background: #f4f2ff; color: #6a6581; padding: 4px 10px;}</style>
+<h3 id="new_in_platform_server_11.36.0" >New in Platform Server 11.36.0</h3>
+<ul>
+<li>Upgraded NLog libraries to version 5.4.0. (R11BRT-1818)</li>
+<li>The OutSystems Platform no longer reports that it is using JQuery-ui and JQuery-ui-dialog version 1.8.24. <br/>
+OutSystems ships a custom fork of jQuery UI 1.8.24 with back-ported fixes for all known vulnerabilities. Previously, the platform reported this fork as version 1.8.24, which led to <a href="https://success.outsystems.com/support/security/penetration_testing/">false positives in security scans</a>.<br/>
+If your application logic relies on detecting the 1.8.24 version string, it may no longer behave as expected. This is not a supported use case and should be avoided. (R11DT-3109)</li>
+</ul>
+<h3 id="bug_fixing_platform_server_11.36.0" >Bug Fixing</h3>
+<ul>
+<li>Fixed an issue in Service Center where the effective username value for consumed REST and SOAP integrations was not displayed when the authenticated user had read-only access. (R11CT-3884)</li>
+<li>Fixed an issue that prevented some javascript files from being minified correctly. Those files are now minified as expected. (R11DT-3156)</li>
+<li>Improved the Deploy Service periodic recovery mechanisms to also update modules configurations if there were any Apply Configurations operations that happened while the service was stopped or disabled.  (RPM-5428) <span class="cattag">Application Lifecycle</span>  <span class="cattag">Service Center</span> </li>
+<li>Fixed an issue that caused the "minIoThreads" and "minWorkerThreads" values defined in machine.config to be ignored when the number of CPUs in the machine is higher than 10. This would lead to sudden IIS request queuing increase and requests failing with 503 errors if the que limit was exceeded. If the number of CPUs in the machine changes, you must run configuration tool to ensure appropriate values are defined. (RPM-5465) <span class="cattag">Infrastructure Management</span> </li>
+<li>Fixed an issue when exporting the Daily Activity report from Service Center, where the 'Web Service Hits' value was the same as the 'Hits per Session' value. Now the exported Daily Activity report shows the correct value for this attribute. (RPM-5485) <span class="cattag">Application Lifecycle</span>  <span class="cattag">Service Center</span> </li>
+<li>Fixed an issue where the log details/error screen wouldn't load properly if other log filters were applied in the same session. (RPM-5519) <span class="cattag">Application Lifecycle</span>  <span class="cattag">Service Center</span> </li>
+<li>Fixed an issue with Service Center sessions potentially being lost before the expected session expiration time, forcing the user to login again. This also prevents errors about timeouts of the clean up process for refresh tokens. (RPM-5548) <span class="cattag">Application Runtime</span>  <span class="cattag">Authentication and Authorization</span> </li>
+<li>Fixed an error when trying to log-in with OpenID provider using the "Sub" user property in the Username Claim. (RPM-5670) <span class="cattag">Application Runtime</span>  <span class="cattag">Authentication and Authorization</span> </li>
+<li>Fixed an issue where the deploy service would crash on startup if the database were unreachable at the time. With this fix, the service will establish database connectivity when it is available and will no longer crash. (RPM-5779) <span class="cattag">Infrastructure Management</span>  <span class="cattag">OutSystems Services</span> </li>
+<li>Improved OIDC configurations cache. When using OIDC to authenticate IT Users, the platform caches the configurations to be reused in different scenarios. If the provider exposes bad configurations in a given moment, those might be saved leading to failures on the platform authentication. (RPM-5799) <span class="cattag">Application Lifecycle</span>  <span class="cattag">Service Center</span> </li>
+</ul>
+
