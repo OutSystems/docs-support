@@ -158,6 +158,8 @@ To move a module to a different Catalog execute the following steps:
     
     b. The Platform Server first checks that all tables of the module are created in the destination Catalog. Then it displays a **Use Matching Tables** option that is to be selected, and continue with the publishing process.
 
+    The **Use Matching Tables** option automatically detects tables or entities in the source that share the same name and structure as those already in your app. It then matches them to existing OutSystems entities to avoid creating duplicates and reuses their definitions, preserving relationships, keys, and attributes.
+
     c. If the module has Consumer modules, republish them, or build a solution with all referenced modules and publish it in a single step.
 
     d. Bring the module online using the **Bring Online** button on the module details screen.
