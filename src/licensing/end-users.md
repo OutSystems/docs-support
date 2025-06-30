@@ -33,9 +33,7 @@ For example, if your organization owns `example.com` and the end user's email is
 
 <div class="info" markdown="1">
 
-* All users in **OutSystems Developer Cloud** must have an email address.
-
-* In **OutSystems 11**, when an end-user has no email address stored on their profile, such as when you only capture a mobile phone number for the end user, this is counted as an internal end-user.  
+When an end-user has no email address stored on their profile, such as when you only capture a mobile phone number, this is counted as an internal end-user.  
 
 </div>
 
