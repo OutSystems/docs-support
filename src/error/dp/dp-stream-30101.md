@@ -15,7 +15,7 @@ coverage-type:
   - unblock
 ---
 
-# OS-DP-STREAM-40101
+# OS-DP-STREAM-30101
 
 <details>
 <summary> <strong> App analytics stream in ODC</strong></summary>
