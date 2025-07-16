@@ -93,8 +93,8 @@ A regular user who is linked to your company and will have granular access to yo
 
 At your Customer Portal: 
 
-1. click **Team** on the left-side menu
-1. and then the **Add Team Member** button.
+1. Click **Team** on the left-side menu
+1. Click **Add Team Member** button.
 
 Here you must:
 
@@ -121,7 +121,7 @@ Granting developer permissions through the Customer Portal is [audited in LifeTi
 
 #### For ODC infrastructures
 
-Users created in the ODC Portal are automatically added to your account in the Customer Portal, according to the following rules that are based on their ODC organization roles. In case they have a Community, no other action is required. However, if a Community account does not exist, the members marked as Pending will need to [create an OutSystems Community account](https://www.outsystems.com/community/) with the same email to complete their onboarding and benefit from [ODC Training Catalog](https://learn.outsystems.com/training/catalog/odc).
+Users created in the ODC Portal are automatically added to your account in the Customer Portal, according to the following rules that are based on their ODC organization roles. In case they have a [Community Account](intro.md), no other action is required. However, if a Community account does not exist, the members marked as Pending will need to [create an OutSystems Community account](https://www.outsystems.com/community/) with the same email to complete their onboarding and benefit from [ODC Training Catalog](https://learn.outsystems.com/training/catalog/odc).
 
 * ODC Administrator (built-in role) becomes an Infrastructure Admin;
 * ODC Developer (built-in role) becomes a Member;
