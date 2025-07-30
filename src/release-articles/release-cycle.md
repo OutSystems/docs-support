@@ -15,28 +15,30 @@ At OutSystems, we use a continuous delivery approach, focused on constantly rele
 ## Release terminology applicable to OutSystems 11
 
 As defined below, **Major release**, **Release**, **Cumulative patch**, and **Hotfix** are terms applicable to OutSystems 11 releases of Platform Server and LifeTime.
+OutSystems version numbers are a sequence of three numbers, separated by a period, and assigned in ascending order. The version numbering schema is as follows: **Major release**.**Release**.**Cumulative patch** **Build**
 
 ### Major release
 
 This type of release introduces significant and important features, along with bug fixes. It can also include breaking changes.
-Due to the continuous delivery approach, this type of release is very infrequent. It only occurs when it's necessary to improve previous models and paradigms of usage.
-When these releases are required, OutSystems goes to great lengths to minimize the effort of upgrading, including providing tools, services, and training so that you can easily upgrade in a timely and controlled risk-free way. When that time comes, OutSystems will provide you with at least two years of notice, so that you can easily upgrade in a timely and controlled way.
+Due to the continuous delivery approach, no further major releases are expected for OutSystems 11. See more at [OutSystems 11 product lifecycle and support calendar](product-lifecycle/product-lifecycle.md).
 
 ### Release 
 
 A version associated with a Major release that can include new features or significant improvements to current functionalities, along with bug fixes.
 Since releases introduce new features, they may also bring low impact breaking changes that will only be introduced if strictly necessary.
+This number increases when OutSystems adds functionality to a release in a backward-compatible manner (for example, from Platform Server 11 **.7**.*1*, to Platform Server 11 **.8**.0).
 
 ### Cumulative patch
 
 Meant to be a patch to an existing release with less impact and risk-free, cumulative patches (CP) introduce minor improvements of current functionalities, and bug fixes. A new cumulative patch does not introduce breaking changes to the associated release.
+This number increases when OutSystems makes backward-compatible bug fixes or minor improvements in a release (for example, from Platform Server 11.7 **.1** to 11.7 **.2**).
 
 ### Hotfix
 
 Custom product component version built on demand for a specific customer(s) to unblock a critical issue without an acceptable workaround. Hotfixes are private (not publicly available) and delivered to customers via the Product Support team.
 
 
-## Release terminology applicable to all products
+## Release terminology applicable to all products { #early-access }
 
 As defined below, **Technical preview**, **Early Access Program**, **Limited Availability**, and **Beta** can apply to both OutSystems 11 and OutSystems Developer Cloud (ODC). The features released under these programs will be free of charge for the duration of the programs.
 
@@ -87,6 +89,11 @@ The following products are delivered as Software as a Service over the web and c
 
 * **Builders**: Cloud services to build native experiences, design workflows, and automate processes. These include [Integration Builder](https://success.outsystems.com/support/release_notes/integration_builder/), and [Workflow Builder](https://success.outsystems.com/support/release_notes/workflow_builder/).
 
+<div class="info" markdown="1">
+
+The OutSystems solution template for Microsoft Azure Marketplace is updated with new Platform Server and LifeTime versions twice a year.
+
+</div>
 
 ## Planned dates for OutSystems 11
 
