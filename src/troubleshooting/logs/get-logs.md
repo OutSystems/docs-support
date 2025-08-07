@@ -42,7 +42,7 @@ The [logs for the runtime of the platform](https://success.outsystems.com/Docume
 
 <div class="info" markdown="1">
 
-When troubleshooting errors REST and SOAP integrations it may be usefull to [adjust the logging level](https://www.outsystems.com/tk/redirect?g=c215f526-4e79-416f-a7ae-4789e0a26a8c).
+When troubleshooting errors REST and SOAP integrations it may be useful to [adjust the logging level](https://www.outsystems.com/tk/redirect?g=c215f526-4e79-416f-a7ae-4789e0a26a8c).
 
 </div>
 
@@ -64,7 +64,7 @@ In some cases, it's not possible to collect the **Diagnostics Report** or the sa
 
 [Click here](service-studio-logs.md) to learn how to get a Service Studio Report and perform enhanced logging.  
 
-## LifeTime logs** 
+## LifeTime logs
 
 From the LifeTime console, you can obtain the following reports:
 
@@ -99,7 +99,7 @@ These logs are vital to understanding what's happening at the moment of a certai
 
 [BPT Utils](https://www.outsystems.com/forge/component-overview/1313/bpt-utils) is a Forge component that provides information about BPT Processes, including a troubleshooting report.
 
-You'll need BPT Utils component in your the environment. Follow the steps given below to install:
+You'll need the BPT Utils component in your environment. Follow the steps below to install:
 
 1. Download [BPT Utils](https://www.outsystems.com/forge/component-versions/1313) from OutSystems Forge. You will get an OutSystems application file (.oap). There is one version available for OutSystems 9.1, 10 and 11. Make sure to download the version corresponding to your environment.
 
@@ -127,7 +127,7 @@ HAR is the short form for **HTTP Archive Format**, which tracks all the logging 
 
 ## IIS Manager logs
 
-IIS logs are meant to record data from Internet Information Services, web pages, and apps. While IIS itself contributes to the scalability and flexibility of web resources, the log files contain specific statistics about the websites, user data, site visits, IPs, and queries. These files can help you detect a problem a specific call between your server and another external server or service and understand if there are any underlying network issues.
+IIS logs are meant to record data from Internet Information Services, web pages, and apps. While IIS itself contributes to the scalability and flexibility of web resources, the log files contain specific statistics about the websites, user data, site visits, IPs, and queries. These files can help you detect a problem in a specific call between your server and another external server or service and understand if there are any underlying network issues.
 
 [Click here](iis-logs.md) to learn how to get IIS logs.
 
