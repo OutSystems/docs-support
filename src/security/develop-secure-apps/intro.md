@@ -41,4 +41,11 @@ These attacks aren't isolated to well-defined parts of your enterprise, rather h
 
 The Open Web Application Security Project (OWASP) is a free and open software security community. OWASP TOP 10 describes the major vulnerabilities that can be found with web applications.
 
-The following articles provide you with coding best practices with OutSystems to protect your apps against these vulnerabilities.
+The following articles provide you with coding best practices with OutSystems to protect your apps against these vulnerabilities:
+
+* [Protecting OutSystems apps from access control / permissions vulnerabilities](access-control-vulnerabilities.md)
+* [Protecting OutSystems Apps from Authentication Vulnerabilities](authentication-vulnerabilities.md)
+* [Protecting OutSystems apps from code injection / Cross Site Scripting attackss](code-injection-css-attacks.md)
+* [Protecting OutSystems apps from Cross Site Request Forgery attacks](csrf-attacks.md)
+* [Protecting OutSystems apps using encryption and SSL/TLS](encryption-ssl-tls.md)
+* [Protecting OutSystems Apps From Redirects / Forwarders Vulnerabilities](redirects-forwarders-vulnerabilities.md)
