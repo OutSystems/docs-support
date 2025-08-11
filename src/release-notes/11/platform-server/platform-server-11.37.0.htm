@@ -1,0 +1,38 @@
+---
+isautopublish: true
+pageprivacy: semi-private
+---
+
+<h2 id="platform_server_11.37.0" >Platform Server 11.37.0</h2>
+<div class="info"><p>This is a preliminary version of the document.</p></div>
+
+
+<style>.cattag {background: #f4f2ff; color: #6a6581; padding: 4px 10px;}</style>
+<h3 id="new_in_platform_server_11.37.0" >New in Platform Server 11.37.0</h3>
+<ul>
+<li>Improved the performance of the Home and Module List pages of Service Center by changing the way the warnings on modules that need to published after an upgrade are calculated. The pages should be at least 80% faster on environments with more than 400 modules. (R11BRT-1444)</li>
+<li>Improved the checklist instructions regarding Virtual Memory limits, so that the recommendations make sense on machines with large amounts of RAM. The main recommendation now is to let Windows manage the page file size automatically. (R11BRT-1734)</li>
+</ul>
+<h3 id="bug_fixing_platform_server_11.37.0" >Bug Fixing</h3>
+<ul>
+<li>Using a Data Action output variable in its own On After Fetch event handler no longer causes an error. (R11DT-3102)</li>
+<li>Fixed an issue that was causing 404 errors on Reactive web pages that had page rules. 
+This occurred when deploying upgraded modules after a platform update, where the page rules were not being recreated.
+Now, the deployment recreates the missing page rules. (R11DT-3136)</li>
+<li>Fixed an issue in the Email configuration screen in Service Center. The Username and Password fields are not visible in the first access to the screen when there is no email configuration. (R11DT-3210)</li>
+<li>Fixed an instance where under rare situations, when connecting Service Studio to the Platform Server right an upgrade, the local server IP address (127.0.0.1) would get blocked due to the Brute Force Protection mechanism, affecting all developers to work. (RPM-1211) <span class="cattag">Service Studio</span> </li>
+<li>Fixed an issue where the feedback elements in a reactive app would not scroll along with the screen where feedback was being submitted. Resulting feedback would on ECT_Provider would also not scroll, and place feedback on wrong place if there was existing scrolling when feedback was submitted. (RPM-1894) <span class="cattag">Application Runtime</span>  <span class="cattag">System Components</span> </li>
+<li>Fixed an issue where RecordList data was being sent with empty values to SAP. (RPM-3107) <span class="cattag">Application Runtime</span> </li>
+<li>Fixed an issue that prevented the On Ready event not to be triggered when a back navigation was issued.
+This occurred when a user visited a page from another module or external web site and then used the back button to return to the original Reactive or Mobile app page.
+The fix can be enabled in Factory Configuration under "Trigger On Ready Event After Back Navigation from External Sites". (RPM-4693) <span class="cattag">Application Runtime</span> </li>
+<li>Resolved a naming conflict between modules and flows. It resulted in a runtime error indicating that "the invoked function does not exist in ...". (RPM-5046) <span class="cattag">Application Runtime</span>  <span class="cattag">Interface</span> </li>
+<li>Fixed the Service Center monitoring log error detail screens of Integrations, Screen Requests and Service Actions to be able to display the error information even when no extra details exist. This would happen if the log level of these elements was set to Default. (RPM-5514) <span class="cattag">Application Lifecycle</span>  <span class="cattag">Service Center</span> </li>
+<li>Improved memory cleanup of Reactive and Mobile apps, to reduce potential for memory leaks.
+The fix can be enabled in Factory Configuration under "Improve Memory Cleanup for Reactive and Mobile Applications". (RPM-5572) <span class="cattag">Application Runtime</span>  <span class="cattag">Logic Execution</span> </li>
+<li>Updated RequireJS license information to match the currently used version. (RPM-5729) <span class="cattag">Application Runtime</span> </li>
+<li>Fixed an issue in which there was an error in the Unused_eSpaces screen when there was an high value of daily usage of any module higher than the integer data type limit. Now it is possible to access the screen and see the data with high values for usage. It was also fixed for the charts in Service Center home screen in which usage is shown. (RPM-5819) <span class="cattag">Application Lifecycle</span>  <span class="cattag">Service Center</span> </li>
+<li>Fixed a validation that wasn't including changes made only to CSP rules. The issue occurred when a user changed only CSP rules in the Service Center's Security tab, and these changes were not applied. Now, changes made only to CSP rules are applied. (RPM-5900) <span class="cattag">Application Lifecycle</span>  <span class="cattag">Service Center</span> </li>
+<li>Fixed the association mechanism of referenced entities done during the 1-Click Publish to mitigate situations where the internal entity metamodel is invalid, leading to "Missing Entity" warnings. (RPM-5914) <span class="cattag">Application Runtime</span>  <span class="cattag">Data Access and Manipulation</span> </li>
+</ul>
+
