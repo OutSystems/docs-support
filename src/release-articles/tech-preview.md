@@ -11,7 +11,7 @@ figma: https://www.figma.com/file/UXA74OsZxSIzLLsjhvNMjC/Release-Notes?type=desi
 
 OutSystems gives you access to features in Technical Preview. These are specific features that allow you to enjoy new development possibilities and plan your future development sooner without upgrading to a major version.
 
-We encourage you to try them out and [send us your feedback](https://www.outsystems.com/forums/71/early-access-features). These features are released much more frequently, in smaller chunks, and before they’re generally available. Given their nature, be aware of the following:
+These features are released much more frequently, in smaller chunks, and before they’re generally available. Given their nature, be aware of the following:
 
 * These features aren't production-ready and may have limited functionality.
 * They're disabled by default and you need to explicitly opt-in and activate them manually.
