@@ -61,7 +61,7 @@ If they are not present, add the following XML immediately after the `</configSe
 </system.diagnostics>                                                                                    
 ```
  
-You'll need to specify the file where you wish your log to be written (`<**PATH-TO-LOG>**`). We suggest writing it to:`C:\Program Files\OutSystems\Platform Server\logs\<NameOfService>.log`,
+You'll need to specify the file where you wish your log to be written (`<PATH-TO-LOG>`). We suggest writing it to:`C:\Program Files\OutSystems\Platform Server\logs\<NameOfService>.log`,
 
 For example, CompilerService.exe would write to `C:\Program Files\OutSystems\Platform Server\logs\CompilerService.log`.
 
@@ -114,7 +114,7 @@ If your application is running on the .NET stack, we provide you the Factory Con
 
 4. On the **Pre-made Samples** dropdown, select **OSTrace Logs** and click the button **Fill**;
 
-5. In the **Value** text box, containing the XSLT code, you can edit the file where the logs will be written (**initializeData** directory inside `**<listeners>**` tag). If you have more than one eSpace with trace logs, please create a separate shared configuration for each one and change the output file;
+5. In the **Value** text box, containing the XSLT code, you can edit the file where the logs will be written (**initializeData** directory inside `<listeners>` tag). If you have more than one eSpace with trace logs, please create a separate shared configuration for each one and change the output file;
 
 6. Name your configuration and click **Save**;
     ![Screenshot of the Factory Configuration tool showing the process of editing a 'TraceConfig' shared configuration.](images/change-logging-levels_0.png "Factory Configuration Shared Configuration Editor")
