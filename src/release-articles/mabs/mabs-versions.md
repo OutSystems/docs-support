@@ -73,7 +73,7 @@ This version can run your apps on:
             Kotlin 1.9.24<br/>
             Cordova CLI 12.0.0<br/>
             <a href="https://github.com/OutSystems/cordova-android/tree/outsystems/13.0.x">Cordova Android 13.0</a></td>
-            <td>Xcode 16.0<br/>
+            <td>Xcode 16.1<br/>
             CocoaPods 1.15.2<br/>
             Swift 6.0<br/>
             Cordova CLI 12.0.0<br/>
