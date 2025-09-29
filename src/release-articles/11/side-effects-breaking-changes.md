@@ -16,9 +16,23 @@ As such, before introducing a breaking change for a new release, OutSystems care
 
 ## Breaking Changes
 
+### Introduced in Platform Server 11.38.0
+
+1\. <a id="bc-11380-1"></a>
+
+**Issue**: Dropped support PostgreSQL versions 12.x and below as external databases.
+
+**Runtime**: Traditional web, Reactive web, Mobile
+
+**Rationale**: PostgreSQL no longer supports version 12. As such, we are aligning our supported external databases to that of the PostgreSQL Community.
+
+In the future, OutSystems may, at its own discretion, drop support for other database engines and versions that are no longer supported by the database engine provider.
+
+**Fix**: Update PostgreSQL version. Ensure that any applicable databases are set to a supported range as per OutSystems system requirements. OutSystems advises customers to choose a Long Term Release version that is both supported by PostgreSQL and OutSystems.
+
 ### Introduced in Platform Server 11.34.0
 
-1\. <a id="bc-11330-1"></a>
+1\. <a id="bc-11340-1"></a>
 
 **Issue**: Logical Database configuration of Extensions failed on first Solution Deployment attempt.
 
@@ -57,6 +71,7 @@ Furthermore, support for compatibility levels equivalent or lower to that of SQL
 In the future, OutSystems may, at its own discretion, drop support for other database engines and versions that are no longer supported by the database engine provider.
 
 **Fix**: Update SQL Server engine version. Ensure that the compatibility level of any applicable databases is set to a supported range as per OutSystems system requirements. OutSystems advises customers to choose a Long Term Release version that is both supported by Microsoft and OutSystems.
+
 ### Introduced in Platform Server 11.32.0
 
 1\. <a id="bc-11320-1"></a>
