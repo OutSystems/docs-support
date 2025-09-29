@@ -53,6 +53,17 @@ An Application Object (AO) is a measurement of the complexity of your applicatio
 * Events in OutSystems 11 do not contribute to the AO count.
 * Please note that [Block events](https://www.outsystems.com/tk/redirect?g=6140a263-aa35-45e6-92a7-dc4453dae1c6) and [lifecycle events](https://www.outsystems.com/tk/redirect?g=9205fe77-5e90-402b-ba73-45cdc745515a) don't contribute to the AO count.
 
+## Details on AO counting for Agentic Apps
+
+Agentic Apps have two core concepts:
+
+* AOs are counted on the AI Model. Each AI Model counts as 1 AO.
+* Agent Executions. An Agent Execution is counted each time the action CallAgent is executed in runtime.
+
+The following diagram shows how this works:
+
+
+
 ## Other scenarios relating to AO counting
 
 * Within the same runtime environment, each entity and each API method only count as 1 AO, even when used by multiple apps within this same runtime.
