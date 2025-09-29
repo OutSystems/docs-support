@@ -18,7 +18,18 @@ As such, before introducing a breaking change for a new release, OutSystems care
 
 ### Introduced in Platform Server 11.38.0
 
+
 1\. <a id="bc-11380-1"></a>
+
+**Issue**: Applications using either Regex_Search or Regex_Replace methods from Text extensions may have incorrect results if the regex expression used takes more than the defined default timeout.
+
+**Runtime**: Traditional web, Reactive web, Mobile
+
+**Rationale**: This is part of a mitigation strategy for RPM-5921, to prevent catastrophic backtracking during a regex match operation which in turn could lead to DoS.
+
+**Fix**: Introduced a default regex timeout setting of 20s used in Regex_Search and Regex_Replace methods of Text extension. This setting is configurable via Factory Configuration. For specific use cases, where a different value might be needed, the new methods Regex_SearchWithTimeout and Regex_ReplaceWithTimeout should be used instead of changing the global default timeout value.
+
+1\. <a id="bc-11380-2"></a>
 
 **Issue**: Dropped support PostgreSQL versions 12.x and below as external databases.
 
