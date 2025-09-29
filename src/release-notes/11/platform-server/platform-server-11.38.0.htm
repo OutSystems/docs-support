@@ -1,0 +1,41 @@
+---
+isautopublish: true
+pageprivacy: semi-private
+---
+
+<h2 id="platform_server_11.38.0" >Platform Server 11.38.0</h2>
+<div class="info"><p>This is a preliminary version of the document.</p></div>
+
+
+<style>.cattag {background: #f4f2ff; color: #6a6581; padding: 4px 10px;}</style>
+<h3 id="new_in_platform_server_11.38.0" >New in Platform Server 11.38.0</h3>
+<ul>
+<li>Added support for MySQL 8.4 as external database. (R11BRT-1910)</li>
+<li>Upgraded RabbitMQ.Client library from version 5.1.0 to version 7.1.2 (R11BRT-1923)</li>
+<li>Changed the AES implementation used for encrypting and decrypting view state in Traditional Applications from the obsolete AESManaged to AesCryptoServiceProvider. (R11BRT-1933)</li>
+<li>OutSystems Platform can now be installed on FIPS-compliant systems. Check the FIPS-compliance section of the System Requirements page for details. (R11BRT-1981)</li>
+<li>Added support for PostgreSQL 17 as external database. (R11BRT-488)</li>
+<li>Fixed an issue that caused the filter to fail when searching logs due to untrimmed extra spaces in the message input. Suggestion made by <a href="https://www.outsystems.com/profile/wmqergfymu/overview">Evert </a>.
+ (R11CT-3782)</li>
+</ul>
+<h3 id="bug_fixing_platform_server_11.38.0" >Bug Fixing</h3>
+<ul>
+<li>Fixed an issue that caused user roles to no be considered when using Integration Builder to modify an external database connection on environments without LifeTime. Previously, a user whose role granted them access to all external database connections would not be able to access them without individual permissions for each connection. (R11BRT-1919)</li>
+<li>Fixed a Publishing Error related to the fact that ISAPI filters were not installed on the server, which is now replaced by a Warning to raise awareness of the situation while not blocking development. (RPM-2956) <span class="cattag">Application Runtime</span>  <span class="cattag">SEO Friendly URLs</span> </li>
+<li>Fixed an issue where multipart REST API requests containing binary data were being corrupted when an OnBeforeRequest callback was used. The callback logic has been corrected to ensure that binary data is no longer corrupted during these requests. (RPM-4425) <span class="cattag">Application Runtime</span>  <span class="cattag">Logic Execution</span> </li>
+<li>Fixed an issue in the deployment folder (running) clean-up mechanism that left orphaned folders after publishing. Deletion methods were improved to ensure more efficient removal of temporary artifacts. (RPM-5451) <span class="cattag">Infrastructure Management</span>  <span class="cattag">OutSystems Services</span> </li>
+<li>Fixed an issue that created duplicate entries on Logical Databases while assigning a Database Connection to a new Logical Database in the Extension's Operation tab in Service Center. The issue occurred when a Database Connection was assigned to a new Logical Database, and the screen was refreshed. Now, new Logical Databases are validated for duplicates and refreshing the page won't create any duplicate entries. (RPM-5704) <span class="cattag">Application Lifecycle</span>  <span class="cattag">Service Center</span> </li>
+<li>Fixed an issue that caused outdated modules to be included in the manifest.xml when downloading an older application version from LifeTime.
+This occurred because the logic responsible for building the manifest always fetched the latest published modules instead of those associated with the requested version. (RPM-5755) <span class="cattag">Application Lifecycle</span>  <span class="cattag">LifeTime</span> </li>
+<li>Fixed an issue in the compilation result folder (share) clean-up mechanism that left orphaned files/folders after publishing. Deletion methods were improved to ensure more efficient removal of temporary artifacts. (RPM-5907) <span class="cattag">Infrastructure Management</span>  <span class="cattag">Platform Installer</span> </li>
+<li>It is no longer possible to publish a module called ServiceCenter via ServiceStudio. Previously, doing so allowed customers to override ServiceCenter with their own module with the same name, leading to unavailability of the platform. (RPM-5962) <span class="cattag">Application Lifecycle</span>  <span class="cattag">Service Center</span> </li>
+<li>Fixed a bug in the client-side Index Built-In function that prevents an incorrect result when surrogate pairs are present in a string. (RPM-5964) <span class="cattag">Application Runtime</span>  <span class="cattag">Logic Execution</span> </li>
+<li>Fixed an issue where the export logs button in Service Center would be disabled when using Log Separation for users without permissions to access the Analytics screens. (RPM-6025) <span class="cattag">Application Lifecycle</span>  <span class="cattag">Service Center</span> </li>
+<li>Fixed an issue that allowed, in some scenarios, Exchange Online to attempt to send emails using SSL (which is not supported).
+Now, all emails sent via Exchange Online use TLS. (RPM-6079) <span class="cattag">Application Runtime</span> </li>
+<li>Fixed an issue that prevented the option “Use SSL On Connect“from being displayed in Service Center Email Configuration page.
+Now the option is available when selecting the Basic authentication. (RPM-6080) <span class="cattag">Application Lifecycle</span>  <span class="cattag">Service Center</span> </li>
+<li>Mitigated a vulnerability that would allow an attacker to perform a Denial of Service. CVSS Score 6.5 (Medium). (RPM-5921) <span class="cattag">Infrastructure Management</span>  <span class="cattag">Platform Configuration</span> </li>
+<li>Erlang was upgraded to version 27.3.4.1. RabbitMQ was upgraded to version 4.1.2. Fixes a security issue, CVSSv4.0 score 6.7 (Medium). (RPM-6002) <span class="cattag">Infrastructure Management</span>  <span class="cattag">Platform Configuration</span> </li>
+</ul>
+
