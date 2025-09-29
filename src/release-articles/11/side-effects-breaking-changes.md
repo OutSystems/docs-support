@@ -29,7 +29,7 @@ As such, before introducing a breaking change for a new release, OutSystems care
 
 **Fix**: Introduced a default regex timeout setting of 20s used in Regex_Search and Regex_Replace methods of Text extension. This setting is configurable via Factory Configuration. For specific use cases, where a different value might be needed, the new methods Regex_SearchWithTimeout and Regex_ReplaceWithTimeout should be used instead of changing the global default timeout value.
 
-1\. <a id="bc-11380-2"></a>
+2\. <a id="bc-11380-2"></a>
 
 **Issue**: Dropped support PostgreSQL versions 12.x and below as external databases.
 
