@@ -70,3 +70,4 @@ OutSystems subscriptions typically include rights to run applications up to a sp
 The AO capacity you license only applies to production runtimes. Development and non-production/QA runtimes allow unlimited AOs, but cannot be used for running apps for production use. 
 
 If you have one production runtime, you're entitled to run up to the AO capacity licensed on your subscription within that one production runtime. If you have multiple production runtimes, you're entitled to run up to this total number of AOs across all production runtimes, so you'll sum the AO usage from each production runtime to determine your total production AO usage. Please contact your OutSystems sales representative for assistance upgrading your AO capacity when needed.
+

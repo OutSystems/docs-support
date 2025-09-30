@@ -619,6 +619,7 @@
 - href: licensing/intro.md
 - topics:
     - href: licensing/how-licensing-works.md
+    - href: licensing/agent-execution.md
     - href: licensing/app-object-count.md
     - href: licensing/end-users.md
     - href: licensing/check-license-includes.md
