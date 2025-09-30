@@ -6,7 +6,7 @@ guid: 9fafc3bd-31db-46b9-99a5-36d7aaaaebc8
 app_type: traditional web apps,mobile apps,reactive web apps
 helpids:
 platform-version: o11,odc
-figma: https://www.figma.com/design/MMGFR5F26En9lwH0EhScIX/TK-Design---Stuff?node-id=6346-1078&t=ljzgyYbhWZE6lAKB-1
+figma: https://www.figma.com/design/TzqCbVlN2j4nadunA7q8VU/Licensing?node-id=1501-240&t=mzZFQ3QLMCu85O07-1
 audience:
   - mobile developers
   - frontend developers

@@ -6,7 +6,6 @@ locale: en-us
 app_type: mobile apps, reactive web apps, traditional web apps
 platform-version: odc
 figma:
-helpids: 
 ---
 
 # ODC shared experience FAQ
