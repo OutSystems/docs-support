@@ -15,12 +15,12 @@ pageprivacy: public
 <li>Changed the AES implementation used for encrypting and decrypting view state in Traditional Applications from the obsolete AESManaged to AesCryptoServiceProvider. (R11BRT-1933)</li>
 <li>OutSystems Platform can now be installed on FIPS-compliant systems. Check the FIPS-compliance section of the System Requirements page for details. (R11BRT-1981)</li>
 <li>Added support for PostgreSQL 17 as external database. (R11BRT-488)</li>
-<li>Fixed an issue that caused the filter to fail when searching logs due to untrimmed extra spaces in the message input. Suggestion made by <a href="https://www.outsystems.com/profile/wmqergfymu/overview">Evert </a>.
- (R11CT-3782)</li>
 </ul>
 <h3 id="bug_fixing_platform_server_11.38.0" >Bug Fixing</h3>
 <ul>
 <li>Fixed an issue that caused user roles to no be considered when using Integration Builder to modify an external database connection on environments without LifeTime. Previously, a user whose role granted them access to all external database connections would not be able to access them without individual permissions for each connection. (R11BRT-1919)</li>
+<li>Fixed an issue that caused the filter to fail when searching logs due to untrimmed extra spaces in the message input. Suggestion made by <a href="https://www.outsystems.com/profile/wmqergfymu/overview">Evert </a>.
+ (R11CT-3782)</li>
 <li>Fixed a Publishing Error related to the fact that ISAPI filters were not installed on the server, which is now replaced by a Warning to raise awareness of the situation while not blocking development. (RPM-2956) <span class="cattag">Application Runtime</span>  <span class="cattag">SEO Friendly URLs</span> </li>
 <li>Fixed an issue where multipart REST API requests containing binary data were being corrupted when an OnBeforeRequest callback was used. The callback logic has been corrected to ensure that binary data is no longer corrupted during these requests. (RPM-4425) <span class="cattag">Application Runtime</span>  <span class="cattag">Logic Execution</span> </li>
 <li>Fixed an issue in the deployment folder (running) clean-up mechanism that left orphaned folders after publishing. Deletion methods were improved to ensure more efficient removal of temporary artifacts. (RPM-5451) <span class="cattag">Infrastructure Management</span>  <span class="cattag">OutSystems Services</span> </li>
