@@ -5,7 +5,8 @@ guid: 7db88b8c-d474-4009-8b65-6c5179199d41
 locale: en-us
 app_type: mobile apps, reactive web apps, traditional web apps
 platform-version: odc
-figma: 
+figma:
+helpids: 
 ---
 
 # ODC shared experience FAQ
