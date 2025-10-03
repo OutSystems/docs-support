@@ -60,6 +60,53 @@ Visual Enhancements
 <li>View Screen: Text Handling - Content is always displayed below the label, creating consistency among data types.</li>
 </ul> (RDMAG-871)</li>
 </ul>
+<h3 id="bug_fixing_outsystems_developer_cloud_2025-10-03" >Bug Fixing</h3>
+<ul>
+<li>[Mentor AppGen]
 
+App Generation crashes:
+<ul>
+<li> Fixed generation crashes related to Invalid app name and authorization expressions.</li>
+</ul>
+
+Fixed Generated App Inconsistencies:
+<ul>
+<li>Popup wasn't selected as the screen type.</li>
+<li>Inconsistencies when referencing external entities.</li>
+<li>Stateflows generated around static entities that didn't reflect statuses.</li>
+<li>The user entity is only used as the TargetEntity for another entity identifier.</li>
+<li>Invalid OML when the User entity is only used as the TargetEntity for another entity identifier.</li>
+<li>Removed Unused Icon Resources from generated Apps.</li>
+<li>Dashboards
+    <ul>
+    <li>Adding an Entity breaks the dashboard counters.</li>
+    <li>Dashboards showing lists of all records, which are not suitable for that screen.</li>
+    <li>Applications without dashboards, even when requested.</li>
+    </ul>
+</li>
+<li>List Screen
+    <ul>
+    <li>For the card list, just the value should have a link.</li>
+    </ul>
+</li>
+<li>Login Screen
+    <ul>
+    <li>Typo error in the Login screen.</li>
+    </ul>
+</li>
+<li>Vertical Menu
+    <ul>
+    <li>Invalid Permission screen doesn't have the Logout option.</li>
+    </ul>
+</li>
+</ul>
+
+Fixed Sample Data Issues:
+<ul>
+<li>Wrong Foreign Keys (FKs), creating apps without sample data.</li>
+<li>Runtime Error when Extended Entity has fewer than 20 records.</li>
+<li>Sample data wasn't always being generated, or some entities lacked sample data.</li>
+<li>Some entities had the wrong data types.</li>
+</ul> (RDMAG-875)</li>
 </ul>
 
