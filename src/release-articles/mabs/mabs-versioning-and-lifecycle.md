@@ -5,7 +5,7 @@ guid: daf1e64b-7b02-4f2b-85ff-ac53435f06db
 locale: en-us
 app_type: mobile apps
 platform-version: o11, odc
-figma: https://www.figma.com/design/UXA74OsZxSIzLLsjhvNMjC/Release-Notes?node-id=1197-241&t=yKJmMz9HQRM1iqi4-1
+figma: https://www.figma.com/design/UXA74OsZxSIzLLsjhvNMjC/Release-Notes?node-id=1197-241
 ---
 
 # MABS versioning and lifecycle
@@ -34,9 +34,11 @@ In some instances, a **Beta** version may also be available. Refer to [Mobile Ap
 
 ### MABS Major Versions
 
-OutSystems typically releases MABS major versions yearly whenever the main mobile operating systems release a new SDK. Refer to [Support for new mobile operating system](mabs-beta-support.md) versions for more information on this.
+OutSystems typically releases MABS major versions yearly, in alignment with major releases from mobile operating systems. For detailed information, refer to [Support for new mobile operating system](mabs-beta-support.md).
 
-Whenever a new MABS Major version is released, the **previous version is deprecated after 4 months**. Whenever OutSystems deprecates the previous version, it moves **older versions to obsolete**.
+Whenever a MABS major version is released, 
+* the preceding major version is **deprecated after 4 months**
+* the earliest major version is moved **to obsolete**.
 
 ### MABS Minor Versions
 
@@ -46,7 +48,7 @@ Minor versions have a slightly different timeline than Major versions. For every
 
 Refer to the timeline of the typical lifecycle for three successive MABS major versions with details for the minor lifecycle in one of these majors.
 
-![Diagram illustrating the lifecycle of MABS major versions, showing the transition from active major version to deprecated and obsolete states over time.](images/mabs-major-versions-lifecycle-diag.png "MABS Major Versions Lifecycle Diagram")
+![Diagram illustrating the lifecycle of MABS major versions, showing the transition from active major version to deprecated and obsolete states over time.](images/mabs-major-versions-lifecycle-diag-V2.png "MABS Major Versions Lifecycle Diagram")
 
 MABS version numbers on this figure are indicative
 
