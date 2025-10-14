@@ -44,4 +44,3 @@ The solution for this is usually a restructure of your BPT process to use the es
 The idea is that your automatic activity which takes more than 5 minutes will now be processed in a Timer. The activity in the BPT process simply prepares the workload for the timer and (optionally) launches the timer. After this the process Waits for the timer to do what it needs to do.
 
 The timer processes the data and at the end signals the waiting BPT process to proceed. This can be done by directly closing the Wait activity, or by updating or creating an entity.
-

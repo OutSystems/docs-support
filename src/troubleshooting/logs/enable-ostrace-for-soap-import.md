@@ -22,10 +22,9 @@ coverage-type:
 
 However, sometimes a SOAP consume error message does not include enough information to find out the root cause. In this case, you can enable OSTrace, which increases the log levels and collects more information about what happened during the import process. Examining the generated logs can give you a helpful start in finding the root cause of the error and to identify problematic segments of definition files.
 
-
 ## Correcting recognized SOAP web service errors
 
-When the information displayed in the error message is specific enough, you can pinpoint the exact root cause, as seen below. 
+When the information displayed in the error message is specific enough, you can pinpoint the exact root cause, as seen below.
 
 ![Error message window showing an invalid WSDL Schema due to an undeclared prefix in 'Historikk.xsd'.](images/soap-import-fixable-issue-ss.png "SOAP Web Service Import Error Message")
 
@@ -215,7 +214,7 @@ When OSTrace is enabled, **Service Studio** runs additional code and writes addi
 To disable OSTrace for SOAP web services’ consumption:
 
 1. Exit **Service Studio**.
-2. Open the configuration file you modified earlier. Comment out the lines you edited by adding the prefix `<!--`  and the suffix `-->`  to both lines.
-3. Save the file.
+1. Open the configuration file you modified earlier. Comment out the lines you edited by adding the prefix `<!--`  and the suffix `-->`  to both lines.
+1. Save the file.
 
 New SOAP web service consumption logs are no longer written to the `general.txt` logs.

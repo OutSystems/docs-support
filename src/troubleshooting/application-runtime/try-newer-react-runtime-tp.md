@@ -28,7 +28,7 @@ OutSystems uses React 16 as the default React version for the app runtime for Pl
 
 For Platform Server versions prior to 11.12.0, Reactive Web and Mobile Apps use React 15 for the app runtime. OutSystems updates to a newer version of React after initial technical preview to get feedback and address common issues.
 
-If you're running Platform Server 11.10.0, you can use **Runtime using React 16 Technical Preview** to anticipate possible breaking changes in the app behavior. It's an OutSystems strong recommendation that you use the React 16 technical preview to test your apps and address all potential issues before React 16 becomes the new runtime default. 
+If you're running Platform Server 11.10.0, you can use **Runtime using React 16 Technical Preview** to anticipate possible breaking changes in the app behavior. It's an OutSystems strong recommendation that you use the React 16 technical preview to test your apps and address all potential issues before React 16 becomes the new runtime default.
 
 ## Prerequisites
 
@@ -37,7 +37,7 @@ To run your app with the React 16 runtime, as part of a technical preview, you n
 * Platform Server 11.10.0 or later.
 * LifeTime 11.6.0 or later.
 * Up to date Service Studio.
-* You activated the [technical preview](https://success.outsystems.com/Support/Enterprise_Customers/Upgrading/Technical_Preview_features) **Runtime using React 16** in LifeTime. Note that only the apps you **publish or republish** after activating the feature use the new React 16 runtime.   
+* You activated the [technical preview](https://success.outsystems.com/Support/Enterprise_Customers/Upgrading/Technical_Preview_features) **Runtime using React 16** in LifeTime. Note that only the apps you **publish or republish** after activating the feature use the new React 16 runtime.
 
 ## Checking for issues
 
@@ -56,7 +56,7 @@ Only the apps you **publish or republish** after activating **Runtime using Reac
 
 Here is a list of the side effects due to the differences between React 15.0.2 and React 16.13.1. For all the release notes since React 15.0.2, see the [React GitHub releases page](https://github.com/facebook/react/releases).
 
-### Widgets ignore tampered events 
+### Widgets ignore tampered events
 
 Widgets ignore events that you create or change by JavaScript. For example, OnChange Event Handlers fail to execute if you change the event before reaching the widget. This typically impacts scenarios where an input is having its value filtered / formatted / masked with JavaScript extensibility.
 
@@ -70,7 +70,6 @@ For related React documentation see [Improving inputs](https://reactjs.org/blog/
 ### All attributes show in the HTML
 
 All unknown HTML attributes now show in the resulting HTML. React previously removed all attributes except **data-** from the output. Due to this change, the runtime now applies the CSS rules that were ignored.
-
 
 For related React documentation see [DOM Attributes in React 16](https://reactjs.org/blog/2017/09/08/dom-attributes-in-react-16.html).
 

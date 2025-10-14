@@ -18,7 +18,7 @@ coverage-type:
 
 # Java server logs
 
-### JBoss logs
+## JBoss logs
 
 To obtain the JBoss logs for a specific environment, follow these steps:
 
@@ -50,5 +50,3 @@ To obtain the WebLogic logs for a specific environment, follow these steps:
 1. Find the log files at:
      * Admin Server logs: /opt/Oracle/Middleware/user_projects/domains/outsystems_domain/servers/AdminServer/logs
      * Managed Server logs: /opt/Oracle/Middleware/user_projects/domains/outsystems_domain/servers/`<ManagedServerName>`/logs
-
-

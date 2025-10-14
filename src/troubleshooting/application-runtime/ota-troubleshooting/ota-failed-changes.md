@@ -14,7 +14,7 @@ coverage-type:
   - unblock
 ---
 
-# Failed changes in the Local Storage Metamodel due to integrity checks 
+# Failed changes in the Local Storage Metamodel due to integrity checks
 
 ## What are the errors?
 

@@ -33,8 +33,8 @@ This error means that the content of the ``<Resource_Path>?<Resource_Hash>`` dow
 The following are the reasons this validation fails:
 
 * If there are any network elements caching resources. In this scenario, the app expects to download a specific resource version (from the server), but if a different version of that same resource is cached in the network interface (for example, a Load Balancer, a CDN or a Proxy), the validation fails.
-    
-* If there’s any third-party component manipulating the resource (for example, a Load Balancer, a CDN or a Proxy) before it reaches the client (for example, a mobile device), changing its content and consequently changing the value of the hash calculated by the application. 
+
+* If there’s any third-party component manipulating the resource (for example, a Load Balancer, a CDN or a Proxy) before it reaches the client (for example, a mobile device), changing its content and consequently changing the value of the hash calculated by the application.
 
 * If for some reason (for example, failed or inconsistent deployment) the resources’ content deployed in the **running** folder does not match their hashes in the **moduleinfo**.
 
@@ -42,7 +42,7 @@ The following are the reasons this validation fails:
 
 ## What is the impact of this error on the mobile application?
 
-In most cases, the mobile app is rolled back to the previous version cached in the device. Runtime issues may occur depending on the changes introduced in the new version. The impact on the end users may vary depending on the frequency and delta size of the upgrade OTA. 
+In most cases, the mobile app is rolled back to the previous version cached in the device. Runtime issues may occur depending on the changes introduced in the new version. The impact on the end users may vary depending on the frequency and delta size of the upgrade OTA.
 
 The most critical impact of this error is when **index.html** is affected. This file is the application’s main file and, if it fails to load on the WebView, the application stops working. Reinstalling the app usually fixes this error.
 
@@ -50,7 +50,7 @@ The most critical impact of this error is when **index.html** is affected. This 
 
 ### On-premises Environments
 
-If the validation fails, you need to check the following: 
+If the validation fails, you need to check the following:
 
 * What resource and resource version failed to be stored by checking the error message.
 
@@ -83,5 +83,3 @@ To troubleshoot this issue on an OutSystems Cloud Environment, you must open a s
 * If there is any network component caching the resources, ensure that this cache is completely purged before reloading the app on the mobile device.
 
 * If you have any network element or software that is tampering with the requests (for example, injecting content for monitoring purposes) disable the functionality, at least temporarily, to mitigate the situation.
-
-

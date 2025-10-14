@@ -37,4 +37,3 @@ To get the IIS Manager logs for a specific environment, follow these steps:
 
 1. Use the File Explorer to navigate to the logs directory.
 1. Zip all the directory content to attach to your support case.
-

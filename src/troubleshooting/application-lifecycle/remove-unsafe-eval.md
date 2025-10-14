@@ -36,7 +36,7 @@ The following are the breaking changes that may occur when you disable the **Enf
 * ``Content Security Policy blocked 'eval'.``
 * ``EvalError: Refused to evaluate a string as JavaScript because 'unsafe-eval' is not an allowed source of script in the following Content Security Policy directive: "script-src 'self'".``
 
-Service Center and browser errors include a stack that allows you to track the source of the error and correct it. 
+Service Center and browser errors include a stack that allows you to track the source of the error and correct it.
 
 ### Example 1
 
@@ -55,6 +55,7 @@ Reading the stack trace allows you to track the exact location of this pattern i
 ![Screenshot of a browser console error caused by a JavaScript Widget performing an eval() function.](images/javascript-error.png "Screenshot showing error caused by JavaScript Widget that is performing an eval")
 
 If you can’t resolve the error, open a support case with the OutSystems Support team. You’ll need the following information:
+
 * Service Center Error Logs (that occur when the error is observed)
 * OutSystems Solution that contains all dependencies in order to replicate the issue
 * Exact steps to reproduce the Error

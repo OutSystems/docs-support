@@ -55,14 +55,14 @@ This protection mechanism disables Personal Environments if any of following occ
 
 Your Personal Environment can be recovered in the following ways:
 
-* For symptoms 1 and 2, you get the following error in Service Studio: 
+* For symptoms 1 and 2, you get the following error in Service Studio:
 
     ![Notification dialog in Service Studio indicating the personal environment limit has been exceeded with an option to free up resources.](images/service-unavailable-503_4.png "Personal Environment Limit Exceeded Notification")
 
-    Click **Free up the resources**. You are redirected to the following page. Click the *[Free Up Resources](https://www.outsystems.com/home/FreeUpResources.aspx)* button.
+    Click **Free up the resources**. You are redirected to the following page. Click the _[Free Up Resources](https://www.outsystems.com/home/FreeUpResources.aspx)_ button.
 
     ![Screenshot of the OutSystems platform home page with a message about Personal Environment resource limits and a button to free up resources.](images/service-unavailable-503_5.png "OutSystems Free Up Resources Page")
- 
+
     <div class="info" markdown="1">
     Keep in mind that if the same conditions apply, freeing up resources in the Personal Environment won't automatically stop it from reaching the resource limit again. So, make sure that you troubleshoot the applications that you were working on that might have triggered the temporary suspension of your environment.
     </div>

@@ -17,7 +17,7 @@ coverage-type:
   - unblock
 ---
 
-# Troubleshooting HTTP 502 bad gateway 
+# Troubleshooting HTTP 502 bad gateway
 
 In this article we'll explain what an HTTP 502 error code is and how you can troubleshoot it.
 
@@ -25,8 +25,8 @@ In this article we'll explain what an HTTP 502 error code is and how you can tro
 
 An HTTP 502 - bad gateway server error response code indicates that the server, while acting as a gateway or proxy, received an invalid response from the upstream server.
 
-In typical Production scenarios, there are reverse-proxy or load-balancers in front of the server(s). 
-Imagine that a client sent a request to the Server. However, the client can't do this directly, so it connects to the proxy, establishing the client > proxy connection. 
+In typical Production scenarios, there are reverse-proxy or load-balancers in front of the server(s).
+Imagine that a client sent a request to the Server. However, the client can't do this directly, so it connects to the proxy, establishing the client > proxy connection.
 Then, the proxy creates the connection proxy-server. The HTTP 502 - bad gateway error occurs when either:
 
 * The timeout of the proxy was reached prior to the request completion.
@@ -67,6 +67,3 @@ When there is a temporary and abnormal burst of requests, it may happen that the
 The easiest way to prove this is by checking the access logs of both proxy and server. On those logs, you’ll see that the request duration in the proxy is much higher (and reached the proxy timeout) than the one from the server (there may not even be an entry for the request on the server).
 
 Also, with monitoring tools, it’s possible to see the number of requests queued. Do note that queued requests don’t necessarily mean there will be 502 errors. This is why it’s recommended to check IIS access logs to confirm this hypothesis.
-
-
-

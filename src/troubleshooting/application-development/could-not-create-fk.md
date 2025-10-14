@@ -35,7 +35,6 @@ Or also in Service Center when, for example, publishing a solution:
 
 ![Error message in OutSystems Service Center indicating a failure to create a Foreign Key while publishing a solution.](images/could-not-create-fk-sc.png "Service Center Foreign Key Error")
 
-
 ## Most common scenarios
 
 In this guide, we’ll list the most common situations that can lead to this publishing error and how to fix them. The most likely causes are listed first, so we suggest troubleshooting in this order.
@@ -60,13 +59,12 @@ Entity 'B':
 
 If we create the Foreign Key from Entity 'A' column 'User_ID' to point to Entity 'B' column 'ID', we'll obtain an error. This because the existing data in column 'User_ID' contains values that don't exist in the parent table (entity 'B').
 
-To validate this hypothesis, check the data on the physical tables that the entities are pointing to. 
+To validate this hypothesis, check the data on the physical tables that the entities are pointing to.
 
 To resolve the situation, it's necessary to correct the data in the tables such that all values referenced exist in the parent table, by either:
 
-* removing entries that don't exist 
+* removing entries that don't exist
 * adding the values to the parent table
-
 
 ### Circular dependencies or multiple cascade paths
 
@@ -82,14 +80,14 @@ In some scenarios, these delete rules run into scenarios that the database engin
 
 #### Circular dependencies
 
-In the entity diagram above, on the left, the Delete Rules loop back to the table being deleted, which would cause the database engine to follow the delete cascade path indefinitely. Since this would result in undesirable behaviors, the topology of the entity model should be reviewed such that either: 
+In the entity diagram above, on the left, the Delete Rules loop back to the table being deleted, which would cause the database engine to follow the delete cascade path indefinitely. Since this would result in undesirable behaviors, the topology of the entity model should be reviewed such that either:
 
-* One of the Foreign Key relationships doesn't exist 
+* One of the Foreign Key relationships doesn't exist
 * One of the delete rules isn't "Delete"
 
 #### Multiple cascade paths
 
-In the entity diagram above, on the right, deleting a value from table Z will ultimately cause the deletion of values in table X, however, the database engine can't determine which deletion should be made first: Y and consequently X or directly X. 
+In the entity diagram above, on the right, deleting a value from table Z will ultimately cause the deletion of values in table X, however, the database engine can't determine which deletion should be made first: Y and consequently X or directly X.
 
 This error can also happen with just two entities. If table X had both attributes referencing table Z with delete rules set to "Delete", the problem would still occur even if table Y did not exist.
 
@@ -97,7 +95,7 @@ To avoid this situation, at least one of the Foreign Key relationships causing t
 
 ### Database timeout
 
-Considering that the SQL engine validates the data present in the tables, if the tables exist, the larger their size, the more time it requires to create the FK. Validate if the tables have many records and, in that case, update the timeout value in the configuration tool. 
+Considering that the SQL engine validates the data present in the tables, if the tables exist, the larger their size, the more time it requires to create the FK. Validate if the tables have many records and, in that case, update the timeout value in the configuration tool.
 
 ![OutSystems Configuration Tool interface highlighting the Default Update Query Timeout field set to 600 seconds.](images/Conf_tool_DB_timeout.png "Configuration Tool Database Timeout Setting")
 

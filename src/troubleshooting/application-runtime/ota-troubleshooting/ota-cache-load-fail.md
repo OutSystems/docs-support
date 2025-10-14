@@ -26,11 +26,11 @@ This error occurs when the **Cache Manifest** file is missing on the device. Thi
 
 A potential scenario that can lead to this state is when the app attempts to perform an OTA upgrade to a new version on the server during the first run (which takes place during the splash screen animation, before the cache manifest file is written) but somehow gets stuck on splash screen, possibly due to faulty business logic, a frontend serving the wrong upgrade information, or poor network conditions (or any combination of the three).
 
-# What is the impact of this error on the mobile application?
+## What is the impact of this error on the mobile application?
 
 The app gets stuck on the splash screen of the application.
 
-# How to overcome this issue?
+## How to overcome this issue?
 
-* Reload the App to trigger a new application Upgrade OTA. 
+* Reload the App to trigger a new application Upgrade OTA.
 * Check the available device storage and reinstall the App from the app store.

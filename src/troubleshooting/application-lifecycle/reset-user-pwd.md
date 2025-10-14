@@ -88,4 +88,3 @@ To reset the admin password for the Users application in a self-managed infrastr
         SET password = '<hash>'
         WHERE username = 'admin'
         and tenant_id in (SELECT id FROM ossys_tenant WHERE name = 'users');
-

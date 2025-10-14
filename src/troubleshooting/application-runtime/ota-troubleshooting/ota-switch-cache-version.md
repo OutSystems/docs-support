@@ -32,5 +32,5 @@ The mobile app won't be upgraded and the version will be rolled back to the prev
 
 ## How to overcome this issue?
 
-* Reload the App  to trigger a new application Upgrade OTA. 
+* Reload the App  to trigger a new application Upgrade OTA.
 * Check the available storage device and reinstall the App from the app store.

@@ -17,7 +17,7 @@ coverage-type:
   - unblock
 ---
 
-# Removing unsafe-inline 
+# Removing unsafe-inline
 
 <div class="info" markdown="1">
 
@@ -46,6 +46,7 @@ This is an example of a JavaScript file (resource loaded when opening the App) t
 This scenario may have a small or critical impact on the app, depending on the resource that is not loaded and executed.
 
 If you can’t resolve the error, open a support case with the OutSystems Support team. You’ll need the following information:
+
 * Service Center Error Logs (that occur when the error is observed). If the issue is related to a missing resource, no errors will appear in the Service Center, reflecting this specific scenario.
 * OutSystems Solution that contains all dependencies in order to replicate the issue
 * Exact steps to reproduce the Error

@@ -22,7 +22,7 @@ coverage-type:
 
 ## Where is this occurring and what does it mean?
 
-The **cache manifest** file corresponds to a local and internal representation of the native cache within the app. The cache manifest file is not the **manifest.json** from prebundle or the content obtained from moduleinfo route ``(https://<app-domain>/<home-eSpace>/moduleservices/moduleinfo)`` on the server. 
+The **cache manifest** file corresponds to a local and internal representation of the native cache within the app. The cache manifest file is not the **manifest.json** from prebundle or the content obtained from moduleinfo route ``(https://<app-domain>/<home-eSpace>/moduleservices/moduleinfo)`` on the server.
 
 The cache manifest file is created on-demand by OSCache and is a persistent state of the cache on a device at a given time. This error occurs if this file gets corrupted, for example, if there is a lack of disk space on the device.
 
