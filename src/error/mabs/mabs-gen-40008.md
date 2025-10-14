@@ -30,7 +30,7 @@ The Android application package can't be generated.
 
 ## Recommended action
 
-Identify which custom plugins are overriding the metadata attribute more than once. Note that a metadata tag attribute can only be set once across the project. 
+Identify which custom plugins are overriding the metadata attribute more than once. Note that a metadata tag attribute can only be set once across the project.
 
 Learn more about managing these conflicts [here](https://cordova.apache.org/docs/en/latest/plugin_ref/spec.html#managing-edit-config-conflicts).
 

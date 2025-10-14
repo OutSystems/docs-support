@@ -35,7 +35,7 @@ Unable to establish a connection with the destination server. Therefore, observa
 ## Recommended action
 
 * In the ODC Portal, review the APM server configuration details.
-* Go to the APM tool and verify that the credentials provided have the correct permissions. 
+* Go to the APM tool and verify that the credentials provided have the correct permissions.
 
 </details>
 
@@ -56,7 +56,7 @@ Unable to establish a connection with the destination server. Therefore, logs ar
 
 ## Recommended action
 
-* In LifeTime, Click **Review destination information**, and on the Destination tool screen, review the APM server configuration. 
-* Go to the APM tool and verify that the credentials provided have the correct permissions. 
+* In LifeTime, Click **Review destination information**, and on the Destination tool screen, review the APM server configuration.
+* Go to the APM tool and verify that the credentials provided have the correct permissions.
 
 </details>

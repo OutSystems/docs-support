@@ -25,4 +25,3 @@ The application build process can't proceed due to the unresolved compilation st
 ## Recommended action
 
 Review logs for details about the compilation state or any associated errors. If no additional information is found, please contact [OutSystems support](https://www.outsystems.com/support/portal/open-support-case?ErrorCode=OS-NAOS-50019).
-

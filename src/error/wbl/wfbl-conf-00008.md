@@ -24,7 +24,7 @@ coverage-type:
 ## Cause
 
 This error occurs when you try to create a new application based on a predefined template available on Workflow Builder and it fails.
-The &lt;OriginalErrorMessage&gt; includes information about the cause of the error. 
+The &lt;OriginalErrorMessage&gt; includes information about the cause of the error.
 
 ## Impact
 

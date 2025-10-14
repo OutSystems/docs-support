@@ -22,11 +22,11 @@ OutSystems version numbers are a sequence of three numbers, separated by a perio
 This type of release introduces significant and important features, along with bug fixes. It can also include breaking changes.
 Due to the continuous delivery approach, no further major releases are expected for OutSystems 11. See more at [OutSystems 11 product lifecycle and support calendar](product-lifecycle/product-lifecycle.md).
 
-### Release 
+### Release
 
 A version associated with a Major release that can include new features or significant improvements to current functionalities, along with bug fixes.
 Since releases introduce new features, they may also bring low impact breaking changes that will only be introduced if strictly necessary.
-This number increases when OutSystems adds functionality to a release in a backward-compatible manner (for example, from Platform Server 11 **.7**.*1*, to Platform Server 11 **.8**.0).
+This number increases when OutSystems adds functionality to a release in a backward-compatible manner (for example, from Platform Server 11 **.7**._1_, to Platform Server 11 **.8**.0).
 
 ### Cumulative patch
 
@@ -37,7 +37,6 @@ This number increases when OutSystems makes backward-compatible bug fixes or min
 
 Custom product component version built on demand for a specific customer(s) to unblock a critical issue without an acceptable workaround. Hotfixes are private (not publicly available) and delivered to customers via the Product Support team.
 
-
 ## Release terminology applicable to all products { #early-access }
 
 As defined below, **Technical preview**, **Early Access Program**, **Limited Availability**, and **Beta** can apply to both OutSystems 11 and OutSystems Developer Cloud (ODC). The features released under these programs will be free of charge for the duration of the programs.
@@ -45,14 +44,14 @@ As defined below, **Technical preview**, **Early Access Program**, **Limited Ava
 ### Technical preview (TP)
 
 Technical previews (TP) are meant for early validation, to prove a given technology or approach from all perspectives including robustness. Because these are just a preview of the capabilities, they may not be completed, and some quirks may happen from time to time. Capabilities in TP aren't meant for production usage.
-TPs are private and limited to customers or partners, who will be invited to participate. 
+TPs are private and limited to customers or partners, who will be invited to participate.
 Any program and capability updates will be shared with the participants via email.
 
 ### Early Access Program (EAP)
 
-Early Access Programs (EAPs) are managed by OutSystems, providing early access to OutSystems' new capabilities as they roll out. 
+Early Access Programs (EAPs) are managed by OutSystems, providing early access to OutSystems' new capabilities as they roll out.
 EAPs are intended to validate the value derived from the complete capability, and the quality of the proposed solution. Even though capabilities are in a more mature state, some quirks may happen from time to time. Capabilities in EAP aren't meant for production usage.
-They can be private or public and are limited to interested partners and customers who can be invited and selected to participate. 
+They can be private or public and are limited to interested partners and customers who can be invited and selected to participate.
 Information about active Public EAPs will be shared [here](https://www.outsystems.com/eap/).
 Any program and capability updates will be shared with the participants mainly via email.
 

@@ -13,5 +13,9 @@ jobs:
     uses: OutSystems/tk-cicd/.github/workflows/style-guides-validation.yml@main
     with:
       runner-type: "ubuntu-latest"
+      markdownlint-overrides: >
+        [
+          { "pattern": "src/troubleshooting/incident-models/**/*.md", "config": "src/troubleshooting/incident-models/.markdownlint.json" }
+        ]
     secrets:
       github-token: ${{ secrets.TOOLS_PAT }}

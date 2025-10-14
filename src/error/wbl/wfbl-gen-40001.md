@@ -25,7 +25,7 @@ coverage-type:
 ## Cause
 
 This error occurs when users perform an operation that causes an error in the Workflow Builder user interface.
-The &lt;OriginalErrorMessage&gt; identifies the cause of the error. 
+The &lt;OriginalErrorMessage&gt; identifies the cause of the error.
 
 ## Impact
 

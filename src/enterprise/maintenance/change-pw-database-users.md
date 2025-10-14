@@ -34,13 +34,13 @@ Upon the Platform Server installation, the [Configuration Tool](https://success.
 The Platform Server requires the following database users (the presented users are the default values):
 
 * [Platform database users](https://success.outsystems.com/Documentation/11/Reference/Configuration_Tool/Platform_Tab):
-  * Administrator: `OSADMIN`
-    * Runtime: `OSRUNTIME`
+    * Administrator: `OSADMIN`
+        * Runtime: `OSRUNTIME`
 * [Log database users](https://success.outsystems.com/Documentation/11/Reference/Configuration_Tool/Log_Tab):
-  * Administrator: `OSADMIN_LOG`
-    * Runtime: `OSRUNTIME_LOG`
+    * Administrator: `OSADMIN_LOG`
+        * Runtime: `OSRUNTIME_LOG`
 * [Session database user](https://success.outsystems.com/Documentation/11/Reference/Configuration_Tool/Session_Tab):
-  * Session: `OSSTATE`
+    * Session: `OSSTATE`
 
 ## Use case
 
@@ -74,7 +74,7 @@ Start by performing the following steps in the deployment controller server:
 
         ![Screenshot of the Configuration Tool showing the Log database users with fields for Administrator and Runtime user names and password input.](images/change-pw-database-users-conf-tool_1.png "Configuration Tool Log Database Users")
 
-    1. On the tabs where the passwords were changed, click **Grant Permissions** (for the Platform and Log tabs) and **Create Session Database** on the Session tab. 
+    1. On the tabs where the passwords were changed, click **Grant Permissions** (for the Platform and Log tabs) and **Create Session Database** on the Session tab.
     1. Confirm that the passwords you entered in the Configuration Tool match the ones on the database by clicking on the corresponding the **Test Connection** links on the corresponding tab.
     1. Click **Create/Update Database** and wait for the process to succeed.
     1. Go to File > Export configuration and save the file as 'server.hsconf'.
@@ -117,7 +117,7 @@ It's possible that when you are using AD authentication for IT users, you won't 
 As a workaround, AD authentication needs to be temporarily disabled as follows:
 
 1. Open a connection to the environment's Platform database and run the following command:
-        
+
     ```
     update OSSYS_AUTHPROVIDER set ISACTIVE=0 
     where id= (select id from OSSYS_AUTHPROVIDER 
@@ -138,10 +138,10 @@ As a workaround, AD authentication needs to be temporarily disabled as follows:
         update ossys_user set is_Active=1 where username ='admin' and TENANT_ID = (select id from ossys_Tenant where name='ServiceCenter');
         ```
 
-    1. If after enabling the admin user you also need to reset it's password: 
-        1. Go the Configuration Tool and access the Credentials tab. 
+    1. If after enabling the admin user you also need to reset it's password:
+        1. Go the Configuration Tool and access the Credentials tab.
         1. Fill in the **Password** and **Confirm Password** fields.
-        1. Click **Apply and Exit**. 
+        1. Click **Apply and Exit**.
         1. Choose **Yes** when prompted to restart the OutSystems services.
         1. Answer **Yes** when asked if you want to install Service Center.
 
@@ -154,9 +154,9 @@ As a workaround, AD authentication needs to be temporarily disabled as follows:
     where id= (select id from OSSYS_AUTHPROVIDER 
     where name='ADAuthProvider');
     ```
+
 1. Open Configuration Tool in the deployment controller server and click on **Apply and Exit**. Answer **Yes** when asked if you want to install Service Center.
 1. Repeat step 4: create an all components solution and click **Apply Settings**. If there are warnings regarding outdated dependencies after applying the settings, you should republish the all components solution.
-
 
 ## Troubleshooting
 

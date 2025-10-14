@@ -12,7 +12,6 @@ platform-version: odc
 <h2 id="odc-studio_1.0.39" >ODC Studio 1.0.39</h2>
 <div class="info"><p>Released on Feb 02, 2023</p></div>
 
-
 <style>.cattag {background: #f4f2ff; color: #6a6581; padding: 4px 10px;}</style>
 <h3 id="new_in_odc_studio_1.0.39" >New in ODC Studio 1.0.39</h3>
 <ul>
@@ -24,7 +23,6 @@ platform-version: odc
 
 <h2 id="odc-studio_1.0.38" >ODC Studio 1.0.38</h2>
 <div class="info"><p>Released on Jan 30, 2023</p></div>
-
 
 <style>.cattag {background: #f4f2ff; color: #6a6581; padding: 4px 10px;}</style>
 <h3 id="bug_fixing_odc_studio_1.0.38" >Bug Fixing</h3>
@@ -40,7 +38,6 @@ platform-version: odc
 <h2 id="odc-studio_1.0.37" >ODC Studio 1.0.37</h2>
 <div class="info"><p>Released on Jan 23, 2023</p></div>
 
-
 <style>.cattag {background: #f4f2ff; color: #6a6581; padding: 4px 10px;}</style>
 <h3 id="bug_fixing_odc_studio_1.0.37" >Bug Fixing</h3>
 <ul>
@@ -52,7 +49,6 @@ platform-version: odc
 
 <h2 id="odc-studio_1.0.36" >ODC Studio 1.0.36</h2>
 <div class="info"><p>Released on Jan 16, 2023</p></div>
-
 
 <style>.cattag {background: #f4f2ff; color: #6a6581; padding: 4px 10px;}</style>
 <h3 id="bug_fixing_odc_studio_1.0.36" >Bug Fixing</h3>
@@ -72,7 +68,6 @@ platform-version: odc
 <h2 id="odc-studio_1.0.34" >ODC Studio 1.0.34</h2>
 <div class="info"><p>Released on Jan 02, 2023</p></div>
 
-
 <style>.cattag {background: #f4f2ff; color: #6a6581; padding: 4px 10px;}</style>
 <h3 id="new_in_odc_studio_1.0.34" >New in ODC Studio 1.0.34</h3>
 <ul>
@@ -91,7 +86,6 @@ platform-version: odc
 
 <h2 id="odc-studio_1.0.33" >ODC Studio 1.0.33</h2>
 <div class="info"><p>Released on Dec 21, 2022</p></div>
-
 
 <style>.cattag {background: #f4f2ff; color: #6a6581; padding: 4px 10px;}</style>
 <h3 id="bug_fixing_odc_studio_1.0.33" >Bug Fixing</h3>

@@ -52,13 +52,13 @@ This shared space receives regular updates with new features, so you will also h
 
 * **Am I eligible for an "ODC-Ready Badge” at the end of this experience?**
 
-   * No. The ODC-Ready badge was part of and OutSystems initiative that was time boxed and it's no longer in place.
+    * No. The ODC-Ready badge was part of and OutSystems initiative that was time boxed and it's no longer in place.
 
 * **Can I submit my O11 components to ODC Forge in this space?**
-    * Submissions to ODC Forge are not possible on this trial because it has time-limited access, and we want to ensure the asset's long-term success. 
-    
+    * Submissions to ODC Forge are not possible on this trial because it has time-limited access, and we want to ensure the asset's long-term success.
+
     We invite you to join the new ODC Forge experience, suitable for users who want to contribute to the OutSystems Community with their assets. Request your invitation [here](https://docs.google.com/forms/u/1/d/e/1FAIpQLSdGobfatQ53ekA8d8TT0OUu9gYarlcdRpjfxVUUOrh6E9eytw/viewform?usp=send_form).
 
-* **I've signed up for the program but never received a confirmation e-mail. What should I do?** 
+* **I've signed up for the program but never received a confirmation e-mail. What should I do?**
 
     * Check your SPAM folder. If the e-mail is not there, make sure that your company policy doesn't block external e-mail addresses. Ensure that you have whitelisted the "**" email address. If you still don't have your e-mail, you'll need to wait until a new shared space becomes available and sign up again.

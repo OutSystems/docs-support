@@ -22,6 +22,6 @@ Your OutSystems community account is the one you use to login at our website. Th
     ![Screenshot highlighting the 'Settings' option in the OutSystems Community user profile.](images/change-community-pw-settings.png "OutSystems Community Profile Settings")
 
 1. Click **Change email** and fill in the form.
-1. You'll receive an email to confirm the email change on your new email. 
+1. You'll receive an email to confirm the email change on your new email.
 
 Your email will be synced to your Personal Environment, the next time you login use the new email as the username.

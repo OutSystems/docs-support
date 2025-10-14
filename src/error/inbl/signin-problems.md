@@ -20,7 +20,6 @@ coverage-type:
 
 # It was not possible to sign into Integration - Workflow Builder
 
-
 ## Error message
 
 `It was not possible to sign into <Integration/Workflow> Builder. Check here for the solutions.`
@@ -33,7 +32,6 @@ The credentials provided to log in aren't valid or the user is blocked. Possible
 * The password is incorrect
 * The user is blocked due to many failed attempts
 
-
 ## Recommended action
 
 * Verify that you used the correct username and password or request an administrator to reset your password.
@@ -41,4 +39,5 @@ The credentials provided to log in aren't valid or the user is blocked. Possible
 * Ask your **LifeTime** administrator to unblock your username
 
 ## More info
+
 [Protection against brute force attacks](https://success.outsystems.com/documentation/11/security/protection_against_brute_force_attacks/#unblocking-it-users)

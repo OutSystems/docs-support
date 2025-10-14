@@ -38,7 +38,6 @@ Check if the destination/APM tool works correctly and re-establish the connectio
 
 </details>
 
-
 <details>
 <summary> <strong> Log streaming in O11</strong></summary>
 

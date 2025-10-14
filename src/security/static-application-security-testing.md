@@ -32,7 +32,7 @@ When reviewing static code analysis results, it's important to keep in mind that
 
 Following are some examples of such findings and why they should be considered false positives.
 
-#### Code injection: improper neutralization of directives in dynamically evaluated code (eval injection)
+### Code injection: improper neutralization of directives in dynamically evaluated code (eval injection)
 
 <div class="info" markdown="1">
 
@@ -40,7 +40,7 @@ OutSystems introduced an option to disallow the unsafe-inline and unsafe-eval po
 
 </div>
 
-**Details**: "eval(...)" is a JavaScript function that receives HTML code, evaluates it and runs every JavaScript code inside `<script>` tags, hence the potential vulnerability. 
+**Details**: "eval(...)" is a JavaScript function that receives HTML code, evaluates it and runs every JavaScript code inside `<script>` tags, hence the potential vulnerability.
 
 OutSystems makes heavy use of JavaScript and `<script>` inline tags. The usages are trusted and ok to be executed. Therefore, OutSystems has added the unsafe-inline and unsafe-eval policies to our default Content Security Policies directives.
 
@@ -52,15 +52,15 @@ In order to increase the security level, there is a mechanism described in [Appl
 
 More information can be found [here](develop-secure-apps/code-injection-css-attacks.md).
 
-#### Credentials management: use of hard-coded passwords
+### Credentials management: use of hard-coded passwords
 
-**Details**: Static code analysis tools typically raise a flag when the *password* word is anywhere in the code.
+**Details**: Static code analysis tools typically raise a flag when the _password_ word is anywhere in the code.
 
 The files where this flag is normally raised are, SQL Server, Oracle, PostgreSQL and DB2 database connectors. None of these files have hard-coded passwords, but they do have variables named password. All values for the password variables are obtained dynamically.
 
 This can be verified using decompiler tools and inspect the flagged DLL files to confirm that there are no hard-coded passwords there.
 
-#### Cross-site Scripting (XSS): improper neutralization of script-related HTML tags in a web page
+### Cross-site Scripting (XSS): improper neutralization of script-related HTML tags in a web page
 
 **Details**: Most of the flags will be raised on file osjs.js. This happens because OutSystems uses the jQuery query selector $, which is known for being vulnerable to XSS in some earlier versions of jQuery, including the one that the platform uses.
 
@@ -68,36 +68,35 @@ OutSystems makes its own implementation of $, protecting it against XSS, so this
 
 More information about this can be found in this [article](https://success.outsystems.com/Support/Security/FALSE_POSITIVE_-_jQuery_1.8.3_flagged_as_a_vulnerable_library).
 
-#### Cryptographic issues: use of a broken or risky cryptographic algorithm
+### Cryptographic issues: use of a broken or risky cryptographic algorithm
 
 **Details**: This issue is typically flagged when default random generators or hashing functions are used, assuming that those functions are being used for cryptographic or security related operations. This may not be the case and using a random() or hash() is perfectly fine if the results of those functions are not used to encrypt or authenticate content.
 
 Since OutSystems doesn't use weak functions for cryptographic ends, this should be considered a false positive. This finding is commonly flagged when analyzing the file OutSystems.RuntimeCommon.dll, which contains some random and hash functions but they're not used for cryptographic or security-related operations.
 
-#### Improper neutralization of special elements used in an SQL command (SQL injection)
+### Improper neutralization of special elements used in an SQL command (SQL injection)
 
 **Details**: OutSystems doesn't explicitly perform SQL Injection validation on all SQL queries that are executed by applications. However, the platform has a SQL sanitization built-in action available that allows developers to validate all user inputs that are going to be used in SQL statements.
 
 Therefore, it's the developer’s responsibility to guarantee that all user inputs are sanitizing before being used in a SQL statement. Moreover, OutSystems displays a warning at design and compile time when a pattern that may introduce a SQL Injection vulnerability is detected.
 
-#### Sensitive data exposure
+### Sensitive data exposure
 
 **Details:** "alert(…)", “confirm(…)” and “prompt(…)” creates a pop-up that can expose sensitive information.
 
 All usages of the aforementioned functions has been validated for possible sensitive data exposure. The platform makes use of the functions for error handling, not exposing any sensitive data.
 
-#### shred.bundle.js flagged as a potentially vulnerable library
+### shred.bundle.js flagged as a potentially vulnerable library
 
-**Details:** Some Static Code Analysis tools may flag OutSystems as having a vulnerable *shred.bundle.js* library.
+**Details:** Some Static Code Analysis tools may flag OutSystems as having a vulnerable _shred.bundle.js_ library.
 
-OutSystems uses *swagger-ui 2.0.0*, which is present in all applications that expose REST web services. One of its dependencies is *shred.bundle.js*, which uses the [window.postMessage()](https://developer.mozilla.org/en-US/docs/Web/API/Window/postMessage/) API with the wildcard keyword (*) in the targetOrigin argument.
+OutSystems uses _swagger-ui 2.0.0_, which is present in all applications that expose REST web services. One of its dependencies is _shred.bundle.js_, which uses the [window.postMessage()](https://developer.mozilla.org/en-US/docs/Web/API/Window/postMessage/) API with the wildcard keyword (*) in the targetOrigin argument.
 
 Best practices recommend avoiding the use of the wildcard when dealing with sensitive information, as there is no way to guarantee that the data is only accessible to the intended recipient pages, therefore allowing cross-domain messaging access.
 
-Therefore, even though this vulnerability is still present in *shred.bundle.js*, the use of the mentioned API in such conditions by OutSystems is harmless, as no sensitive information is passed on.
+Therefore, even though this vulnerability is still present in _shred.bundle.js_, the use of the mentioned API in such conditions by OutSystems is harmless, as no sensitive information is passed on.
 
-
-#### Cross-site scripting: DOM
+### Cross-site scripting: DOM
 
 **Details:** Some static code analysis tools may flag `plugins/cordova-plugin-inappbrowser/tests/resources/local.html` as being susceptible to DOM-based cross-site scripting.
 
@@ -129,5 +128,5 @@ Furthermore, the following tables can help understand the responsibilities and e
 
 |            | Responsibilities| Expectations |
 |------------|-----------------|--------------|
-| Customer   |<ul><li>Deploy and manage OutSystems on self managed servers.</li><li>Extract the applications source code for static code analysis.</li><li>Execute the static code analysis.</li></ul>|<ul><li>The customer has knowledge of how to configure and manage OutSystems and underlying technologies.</li><li>The customer has knowledge of the tool(s) used to perform static code analysis</li><li>The customer is responsible for extracting the code, submitting it for static code analysis, collecting the results, reviewing the results, performing the necessary correction and re-checking after correction.</li></ul>| 
+| Customer   |<ul><li>Deploy and manage OutSystems on self managed servers.</li><li>Extract the applications source code for static code analysis.</li><li>Execute the static code analysis.</li></ul>|<ul><li>The customer has knowledge of how to configure and manage OutSystems and underlying technologies.</li><li>The customer has knowledge of the tool(s) used to perform static code analysis</li><li>The customer is responsible for extracting the code, submitting it for static code analysis, collecting the results, reviewing the results, performing the necessary correction and re-checking after correction.</li></ul>|
 | OutSystems |<ul><li>Provide support to customers on issues related with OutSystems software.</li></ul>|<ul><li>Has expert knowledge on OutSystems.</li><li>Is able to help customers with OutSystems related issues [(support terms)](https://success.outsystems.com/Support/Enterprise_Customers/OutSystems_Support/Support_terms_and_service_level_agreements_(SLA)_of_the_OutSystems_software).</li><li>Is able to reply to customers questions.</li></ul>|

@@ -157,7 +157,7 @@ The asset code must be easy to maintain. For this, the following requirements mu
 * No disabled code
 * Extension assets have external libraries installed in Microsoft Visual Studio, preferably via NuGet Package Manager
 
-For more information about code maintainability, see [Code Analysis Patterns - Maintainability](https://success.outsystems.com/Documentation/11/Managing_the_Applications_Lifecycle/Manage_technical_debt/Code_Analysis_Patterns#maintainability) 
+For more information about code maintainability, see [Code Analysis Patterns - Maintainability](https://success.outsystems.com/Documentation/11/Managing_the_Applications_Lifecycle/Manage_technical_debt/Code_Analysis_Patterns#maintainability)
 
 #### Compliance
 
@@ -174,5 +174,3 @@ The asset owner must provide the following required support:
 
 * Reply to any comments or questions
 * Solve the reported errors
-
-

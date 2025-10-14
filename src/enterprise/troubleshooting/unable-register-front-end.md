@@ -23,6 +23,7 @@ coverage-type:
 ## Symptoms
 
 You are performing one of the following operations:
+
 * Installing a farm environment (an environment with multiple front-ends).
 * Adding front-ends to an existing environment.
 * Changing values in the Configuration Tool, without making the same change in all servers of that environment.
@@ -34,6 +35,7 @@ When looking at the Event Viewer Logs (.NET stack) or the DeployService.log (Jav
 --
 
 In **.NET**, the error looks like:
+
 ```
 Initialization error: System.InvalidOperationException: Invalid
 
@@ -53,9 +55,11 @@ Connection String : **Unable to register the Front-end Server. The server's**
 
 Retrying in 30 seconds
 ```
+
 --
 
 In **Java**, the error looks like:
+
 ```
 2017-01-23 13:26:34,123 ERROR [outsystems.hubedition.deployservice.Deploy - Thread-7] java.lang.IllegalStateException: Invalid Connection String : **Unable to register the Front-end Server. The server's connection string is different from the Deployment Controller's connection string.**
 
@@ -75,6 +79,7 @@ In **Java**, the error looks like:
 
 2017-01-23 13:26:34,123 ERROR [outsystems.hubedition.deployservice.Deploy - Thread-7]        at java.lang.Thread.run(Thread.java:662)
 ```
+
 --
 
 ## Cause
@@ -108,4 +113,3 @@ As you can imagine, the solution for this problem is to have the configuration i
 Applies to all versions of the OutSystems Platform (last reviewed with Platform 10).
 
 Applies to both .NET and Java, and to all database stacks (SQL Server, Oracle and MySQL).
-

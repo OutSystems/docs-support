@@ -31,7 +31,7 @@ All applications developed with OutSystems use cookies to identify the user to i
 
 ## Not accepting cookies
 
-If you choose to not have your browser accept cookies from applications created with OutSystems, you will still be able to access screens of the application which do not require authentication and read their content. However, functionality may be limited. For applications created with OutSystems that require you to login with a username and password some or all functionalities may not be available if cookies are disabled. 
+If you choose to not have your browser accept cookies from applications created with OutSystems, you will still be able to access screens of the application which do not require authentication and read their content. However, functionality may be limited. For applications created with OutSystems that require you to login with a username and password some or all functionalities may not be available if cookies are disabled.
 
 ## Cookies created
 

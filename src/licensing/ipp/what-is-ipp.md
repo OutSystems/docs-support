@@ -50,7 +50,7 @@ To deploy applications to an infrastructure to which they don't belong, use the 
 
 OutSystems logs all IPP portal operations. To check the IPP operations performed in your applications, [contact support](https://www.outsystems.com/legal/success/support-terms-and-service-level-agreements-sla-of-the-outsystems-software/#contacting-outsystems-support).
 
-### IPP unprotected 
+### IPP unprotected
 
 With IPP unprotected when you publish a **new module**, it's not marked with the [Activation Code](https://success.outsystems.com/support/licensing/identify_outsystems_infrastructure_and_runtime_environments/) of your infrastructure. This means you can share your modules with other infrastructures.
 
@@ -58,7 +58,7 @@ With IPP unprotected when you publish a **new module**, it's not marked with the
 
 In this example, applications developed in an ACME environment can be deployed to any ACME environment and to the EMCA infrastructure.
 
-### IPP protected 
+### IPP protected
 
 With IPP protected, when you publish a module, it's marked with the [activation code](https://success.outsystems.com/support/licensing/identify_outsystems_infrastructure_and_runtime_environments/) of your infrastructure. This means you can only deploy this module to environments with the same activation code. In addition, you can't copy and paste parts of applications that are IPP-protected.
 
@@ -69,5 +69,3 @@ In this example, applications developed in an ACME environment infrastructure ca
 ## For ODC
 
 In OutSystems Developer Cloud (ODC) you don't need transfer IPP through the IPP portal. Assets can be opened, published, and deployed in ODC Studio.
-
-

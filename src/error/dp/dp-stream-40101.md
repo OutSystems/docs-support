@@ -54,6 +54,6 @@ Unable to establish a connection with the destination server. Therefore, logs ar
 
 ## Recommended action
 
-In LifeTime, click **Review destination information**, and on the **Destination tool** screen, review the APM server configuration. Authentication credentials or endpoint URL or both may be incorrect. 
+In LifeTime, click **Review destination information**, and on the **Destination tool** screen, review the APM server configuration. Authentication credentials or endpoint URL or both may be incorrect.
 
 </details>

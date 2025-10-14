@@ -5,13 +5,12 @@ app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
 ---
 
-<div class="hidden"><h1>Integration Studio</h1></div> 
+<div class="hidden"><h1>Integration Studio</h1></div>
 
 <div class="hidden" id="integration-studio-11.14.19_start"></div>
 
 <h2 id="integration_studio_11.14.19" >Integration Studio 11.14.19</h2>
 <div class="info"><p>Released on Sep 14, 2022</p></div>
-
 
 <style>.cattag {background: #f4f2ff; color: #6a6581; padding: 4px 10px;}</style>
 <h3 id="bug_fixing_integration_studio_11.14.19" >Bug Fixing</h3>
@@ -35,4 +34,4 @@ platform-version: o11
 <li>Integration Studio is now distributed independently from Service Studio. From now on, use the Integration Studio installer file to install new versions of this component. (RTAFB-5888)</li>
 <li>Disabled unsafe connection protocol for Integration Studio start page. CVSSv3.1 score 2.6 (Low). (RPM-2207)</li>
 </ul>
-<div class="hidden" id="integration-studio-11.14.17_end"></div><div class="hidden"><h1>Integration Studio</h1></div> 
+<div class="hidden" id="integration-studio-11.14.17_end"></div><div class="hidden"><h1>Integration Studio</h1></div>

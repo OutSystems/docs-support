@@ -16,13 +16,13 @@ outsystems-tools:
 
 * **What is the OutSystems Personal Edition, and who can use it?**
 
-The OutSystems Personal Edition is the new, free version of OutSystems Developer Cloud (ODC), designed for all users, including prospects, customers, partners, and community members. Its primary purpose is to provide a dedicated space for exploring the platform, learning, and contributing to the OutSystems ecosystem. Anyone with a Community Account can request the OutSystems Personal Edition. 
+The OutSystems Personal Edition is the new, free version of OutSystems Developer Cloud (ODC), designed for all users, including prospects, customers, partners, and community members. Its primary purpose is to provide a dedicated space for exploring the platform, learning, and contributing to the OutSystems ecosystem. Anyone with a Community Account can request the OutSystems Personal Edition.
 
 * **Is the OutSystems Personal Edition free and forever?**
 
 The OutSystems Personal Edition is free of charge and can be retained indefinitely as long as you continue to use it.
 
-* Whenever you register for a new Personal Edition, you must log in within the first three days. If you don’t do so, you will need to request a new one. 
+* Whenever you register for a new Personal Edition, you must log in within the first three days. If you don’t do so, you will need to request a new one.
 
 * You need to keep using it regularly; if not, the Personal Edition will eventually be deleted. You will be notified by email about the pending deletion of your Personal Edition, and you can always download all your assets (apps, agentic app, libraries, or data) to prevent losing them.  
 
@@ -55,7 +55,7 @@ The OutSystems Personal Edition is designed for training, sandboxing, and explor
 
 All the above limits are controlled on the [subscription console](https://www.outsystems.com/tk/redirect?g=504cdfa5-68d4-46ce-8363-e08aa05e4514).
 
-* **Can I use add-ons in my Personal Edition?** 
+* **Can I use add-ons in my Personal Edition?**
 
 Add-ons are not included in the Personal Edition, except for Private Gateways.
 
@@ -89,7 +89,7 @@ As described above, AI trial models cannot be renewed.  If you have your own pa
 
 * **Is Mentor available in the OutSystems Personal Edition?**
 
-Yes. Mentor is available in Personal Edition with the known [usage restrictions](https://www.outsystems.com/tk/redirect?g=D940C32D-0409-4D49-B6FE-BB831E5EF12C). 
+Yes. Mentor is available in Personal Edition with the known [usage restrictions](https://www.outsystems.com/tk/redirect?g=D940C32D-0409-4D49-B6FE-BB831E5EF12C).
 
 * **Can the Personal Edition be used to integrate with external databases or services?**
 
@@ -105,7 +105,7 @@ No. The OutSystems Personal Edition is limited to one stage, the Development sta
 
 * **Is there any limit on the number of users who can access the apps built with the Personal Edition?**
 
-Yes. Up to 100 users; however, we don’t recommend exceeding dozens of users since these tenants are not ready for production loads, and the experience will be affected. 
+Yes. Up to 100 users; however, we don’t recommend exceeding dozens of users since these tenants are not ready for production loads, and the experience will be affected.
 
 * **Are we retiring O11 Personal Edition?**
 
@@ -117,9 +117,9 @@ Yes, a user can have both Personal Editions.
 
 * **Can a prospect migrate their apps from O11 Personal Edition to OutSystems Personal Edition?**
 
-No. A direct app upgrade path from an O11 Personal Environment to OutSystems Personal Edition does not exist. 
+No. A direct app upgrade path from an O11 Personal Environment to OutSystems Personal Edition does not exist.
 
-* **Can a user move their apps from one OutSystems Personal Edition to another OutSystems Personal Edition?** 
+* **Can a user move their apps from one OutSystems Personal Edition to another OutSystems Personal Edition?**
 
 Yes. Although no direct migration between OutSystems Personal Editions is in place, you can export and import your apps from one OutSystems Personal Edition to another. Note that configurations and applicational data will be lost.
 

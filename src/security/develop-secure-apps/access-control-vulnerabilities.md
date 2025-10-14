@@ -25,7 +25,7 @@ You can grant user/role permissions to:
 * Perform actions. For example, adding a user or deleting an asset.
 * See information. For example, payroll data or health records.
 
-## How to do it with OutSystems Platform 
+## How to do it with OutSystems Platform
 
 The following sections describe the recommended actions to deal with common access control use cases with OutSystems Platform:
 
@@ -46,7 +46,6 @@ The following sections describe the recommended actions to deal with common acce
 |------------|-----------|
 |Display information on screens |Check in **Preparation** if current user is allowed to view this information.  |
 
-
-## More information 
+## More information
 
 To learn how to protect your OutSystems apps against other common types of attacks, check [how the OutSystems Platform helps you develop secure applications](intro.md).

@@ -24,14 +24,13 @@ helpids:
 At OutSystems, we strive to ensure that our customers can continuously benefit from our latest innovations and features, which truly help to speed up digital transformation. With this goal in mind, we’ve devised a product lifecycle that allows OutSystems to keep our product innovative and up to date with current market trends.
 OutSystems Developer Cloud (ODC) is an evergreen platform that is regularly updated with no downtime or impact on customers. OutSystems 11 (O11) is normally upgraded by customer request and follows a well-defined lifecycle policy with releases and cumulative patches.
 
-
 ![Diagram illustrating the OutSystems product lifecycle stages including major releases, releases, and cumulative patches.](images/product-lifecycle-diag.png "OutSystems Product Lifecycle Diagram")
 
 Our product is updated through several types of releases:
 
-* **Major release** - Since O11 availability in 2018, OutSystems has continuously launched new features, while keeping the same Major release. 
+* **Major release** - Since O11 availability in 2018, OutSystems has continuously launched new features, while keeping the same Major release.
 
-* **Release** - We will periodically release new features in O11. OutSystems informs customers and developers through press releases, [Product Releases and Updates pages](https://www.outsystems.com/product-updates/), community digests, social media posts, and others. All customers’ registered users in OutSystems Community are informed of these changes. 
+* **Release** - We will periodically release new features in O11. OutSystems informs customers and developers through press releases, [Product Releases and Updates pages](https://www.outsystems.com/product-updates/), community digests, social media posts, and others. All customers’ registered users in OutSystems Community are informed of these changes.
 
 * **Cumulative patch** - these are mainly focused on bug fixing but may include minor features. This type of release is communicated through release notes published on our website.
 
@@ -45,7 +44,7 @@ OutSystems occasionally offers early access to new capabilities through differen
 
 OutSystems will support O11 and ODC indefinitely. In case of a future change to this policy, (for example, caused by disruptions in the technology stack), OutSystems will notify affected customers at least 5 years in advance of the targeted end-of-support date.
 
-### Support calendar 
+### Support calendar
 
 The below calendar shows the past, current, and planned dates for OutSystems product mainstream support.
 
@@ -55,7 +54,7 @@ The below calendar shows the past, current, and planned dates for OutSystems pro
 
 OutSystems ecosystem is divided into components with different release cycles. To find out more about each component check [OutSystems tools and components](https://www.outsystems.com/evaluation-guide/architecture/) and for release cycles check [OutSystems Product Releases](../release-cycle.md).
 
-Upgrading to a new release is optional (but recommended) for self-managed customers. For OutSystems 11 Cloud, upgrades can be scheduled and are then [performed by the OutSystems Support team](https://www.outsystems.com/tk/redirect?g=617e2ef6-9fca-4cf0-9840-a0277670083e). In extreme cases, the upgrades may require very small downtimes. 
+Upgrading to a new release is optional (but recommended) for self-managed customers. For OutSystems 11 Cloud, upgrades can be scheduled and are then [performed by the OutSystems Support team](https://www.outsystems.com/tk/redirect?g=617e2ef6-9fca-4cf0-9840-a0277670083e). In extreme cases, the upgrades may require very small downtimes.
 
 For Service Studio upgrades, developers are free to update to the latest release as soon as it becomes available, or turn on auto-update.
 

@@ -39,7 +39,7 @@ You can then use tools such as SQL Server Management Studio or Oracle SQL Develo
 
 <div class="info" markdown="1">
 
-The direct database access user does not have backup privileges. 
+The direct database access user does not have backup privileges.
 
 </div>
 

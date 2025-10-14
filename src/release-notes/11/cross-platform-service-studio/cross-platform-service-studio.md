@@ -5,13 +5,12 @@ app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
 ---
 
-<div class="hidden"><h1>Cross-platform Service Studio</h1></div> 
+<div class="hidden"><h1>Cross-platform Service Studio</h1></div>
 
 <div class="hidden" id="cross-platform-service-studio-11.53.38_start"></div>
 
 <h2 id="cross-platform_service_studio_11.53.38" >Cross-platform Service Studio 11.53.38</h2>
 <div class="info"><p>Released on Feb 06, 2023</p></div>
-
 
 <style>.cattag {background: #f4f2ff; color: #6a6581; padding: 4px 10px;}</style>
 <h3 id="bug_fixing_cross-platform_service_studio_11.53.38" >Bug Fixing</h3>
@@ -24,7 +23,6 @@ platform-version: o11
 
 <h2 id="cross-platform_service_studio_11.53.37" >Cross-platform Service Studio 11.53.37</h2>
 <div class="info"><p>Released on Jan 30, 2023</p></div>
-
 
 <style>.cattag {background: #f4f2ff; color: #6a6581; padding: 4px 10px;}</style>
 <h3 id="bug_fixing_cross-platform_service_studio_11.53.37" >Bug Fixing</h3>
@@ -39,7 +37,6 @@ Now, the REST refreshes and the mappings are still valid. (RMAC-10722)</li>
 
 <h2 id="cross-platform_service_studio_11.53.36" >Cross-platform Service Studio 11.53.36</h2>
 <div class="info"><p>Released on Jan 23, 2023</p></div>
-
 
 <style>.cattag {background: #f4f2ff; color: #6a6581; padding: 4px 10px;}</style>
 <h3 id="new_in_cross-platform_service_studio_11.53.36" >New in Cross-platform Service Studio 11.53.36</h3>
@@ -58,7 +55,6 @@ Now, the REST refreshes and the mappings are still valid. (RMAC-10722)</li>
 <h2 id="cross-platform_service_studio_11.53.35" >Cross-platform Service Studio 11.53.35</h2>
 <div class="info"><p>Released on Jan 16, 2023</p></div>
 
-
 <style>.cattag {background: #f4f2ff; color: #6a6581; padding: 4px 10px;}</style>
 <h3 id="bug_fixing_cross-platform_service_studio_11.53.35" >Bug Fixing</h3>
 <ul>
@@ -71,7 +67,6 @@ Now, the REST refreshes and the mappings are still valid. (RMAC-10722)</li>
 <h2 id="cross-platform_service_studio_11.53.34" >Cross-platform Service Studio 11.53.34</h2>
 <div class="info"><p>Released on Jan 09, 2023</p></div>
 
-
 <style>.cattag {background: #f4f2ff; color: #6a6581; padding: 4px 10px;}</style>
 <h3 id="bug_fixing_cross-platform_service_studio_11.53.34" >Bug Fixing</h3>
 <ul>
@@ -83,7 +78,6 @@ Now, the REST refreshes and the mappings are still valid. (RMAC-10722)</li>
 
 <h2 id="cross-platform_service_studio_11.53.33" >Cross-platform Service Studio 11.53.33</h2>
 <div class="info"><p>Released on Jan 04, 2023</p></div>
-
 
 <style>.cattag {background: #f4f2ff; color: #6a6581; padding: 4px 10px;}</style>
 <h3 id="bug_fixing_cross-platform_service_studio_11.53.33" >Bug Fixing</h3>
@@ -108,7 +102,6 @@ Now, the double click correctly navigates to the Placeholder's parent Block. (RM
 <h2 id="cross-platform_service_studio_11.53.32" >Cross-platform Service Studio 11.53.32</h2>
 <div class="info"><p>Released on Jan 03, 2023</p></div>
 
-
 <style>.cattag {background: #f4f2ff; color: #6a6581; padding: 4px 10px;}</style>
 <h3 id="bug_fixing_cross-platform_service_studio_11.53.32" >Bug Fixing</h3>
 <ul>
@@ -121,7 +114,6 @@ Now, the double click correctly navigates to the Placeholder's parent Block. (RM
 
 <h2 id="cross-platform_service_studio_11.53.31" >Cross-platform Service Studio 11.53.31</h2>
 <div class="info"><p>Released on Dec 26, 2022</p></div>
-
 
 <style>.cattag {background: #f4f2ff; color: #6a6581; padding: 4px 10px;}</style>
 <h3 id="new_in_cross-platform_service_studio_11.53.31" >New in Cross-platform Service Studio 11.53.31</h3>
@@ -143,7 +135,6 @@ Now, the double click correctly navigates to the Placeholder's parent Block. (RM
 <h2 id="cross-platform_service_studio_11.53.30" >Cross-platform Service Studio 11.53.30</h2>
 <div class="info"><p>Released on Dec 19, 2022</p></div>
 
-
 <style>.cattag {background: #f4f2ff; color: #6a6581; padding: 4px 10px;}</style>
 <h3 id="new_in_cross-platform_service_studio_11.53.30" >New in Cross-platform Service Studio 11.53.30</h3>
 <ul>
@@ -163,7 +154,6 @@ Now, the double click correctly navigates to the Placeholder's parent Block. (RM
 <h2 id="cross-platform_service_studio_11.53.29" >Cross-platform Service Studio 11.53.29</h2>
 <div class="info"><p>Released on Dec 12, 2022</p></div>
 
-
 <style>.cattag {background: #f4f2ff; color: #6a6581; padding: 4px 10px;}</style>
 <h3 id="new_in_cross-platform_service_studio_11.53.29" >New in Cross-platform Service Studio 11.53.29</h3>
 <ul>
@@ -181,7 +171,6 @@ This occurred when another windows user has Service Studio open, and the current
 
 <h2 id="cross-platform_service_studio_11.53.28" >Cross-platform Service Studio 11.53.28</h2>
 <div class="info"><p>Released on Dec 05, 2022</p></div>
-
 
 <style>.cattag {background: #f4f2ff; color: #6a6581; padding: 4px 10px;}</style>
 <h3 id="new_in_cross-platform_service_studio_11.53.28" >New in Cross-platform Service Studio 11.53.28</h3>
@@ -201,7 +190,6 @@ This occurred when another windows user has Service Studio open, and the current
 
 <h2 id="cross-platform_service_studio_11.53.27" >Cross-platform Service Studio 11.53.27</h2>
 <div class="info"><p>Released on Nov 28, 2022</p></div>
-
 
 <style>.cattag {background: #f4f2ff; color: #6a6581; padding: 4px 10px;}</style>
 <h3 id="new_in_cross-platform_service_studio_11.53.27" >New in Cross-platform Service Studio 11.53.27</h3>
@@ -223,7 +211,6 @@ This occurred when another windows user has Service Studio open, and the current
 <h2 id="cross-platform_service_studio_11.53.26" >Cross-platform Service Studio 11.53.26</h2>
 <div class="info"><p>Released on Nov 21, 2022</p></div>
 
-
 <style>.cattag {background: #f4f2ff; color: #6a6581; padding: 4px 10px;}</style>
 <h3 id="new_in_cross-platform_service_studio_11.53.26" >New in Cross-platform Service Studio 11.53.26</h3>
 <ul>
@@ -241,7 +228,6 @@ This occurred when another windows user has Service Studio open, and the current
 
 <h2 id="cross-platform_service_studio_11.53.25" >Cross-platform Service Studio 11.53.25</h2>
 <div class="info"><p>Released on Nov 14, 2022</p></div>
-
 
 <style>.cattag {background: #f4f2ff; color: #6a6581; padding: 4px 10px;}</style>
 <h3 id="new_in_cross-platform_service_studio_11.53.25" >New in Cross-platform Service Studio 11.53.25</h3>
@@ -261,7 +247,6 @@ This occurred when another windows user has Service Studio open, and the current
 <h2 id="cross-platform_service_studio_11.53.24" >Cross-platform Service Studio 11.53.24</h2>
 <div class="info"><p>Released on Nov 07, 2022</p></div>
 
-
 <style>.cattag {background: #f4f2ff; color: #6a6581; padding: 4px 10px;}</style>
 <h3 id="new_in_cross-platform_service_studio_11.53.24" >New in Cross-platform Service Studio 11.53.24</h3>
 <ul>
@@ -278,7 +263,6 @@ This occurred when another windows user has Service Studio open, and the current
 <h2 id="cross-platform_service_studio_11.53.23" >Cross-platform Service Studio 11.53.23</h2>
 <div class="info"><p>Released on Oct 31, 2022</p></div>
 
-
 <style>.cattag {background: #f4f2ff; color: #6a6581; padding: 4px 10px;}</style>
 <h3 id="bug_fixing_cross-platform_service_studio_11.53.23" >Bug Fixing</h3>
 <ul>
@@ -293,7 +277,6 @@ This occurred when another windows user has Service Studio open, and the current
 <h2 id="cross-platform_service_studio_11.53.22" >Cross-platform Service Studio 11.53.22</h2>
 <div class="info"><p>Released on Oct 24, 2022</p></div>
 
-
 <style>.cattag {background: #f4f2ff; color: #6a6581; padding: 4px 10px;}</style>
 <h3 id="bug_fixing_cross-platform_service_studio_11.53.22" >Bug Fixing</h3>
 <ul>
@@ -305,7 +288,6 @@ This occurred when another windows user has Service Studio open, and the current
 
 <h2 id="cross-platform_service_studio_11.53.21" >Cross-platform Service Studio 11.53.21</h2>
 <div class="info"><p>Released on Oct 17, 2022</p></div>
-
 
 <style>.cattag {background: #f4f2ff; color: #6a6581; padding: 4px 10px;}</style>
 <h3 id="new_in_cross-platform_service_studio_11.53.21" >New in Cross-platform Service Studio 11.53.21</h3>
@@ -336,7 +318,6 @@ This occurred when another windows user has Service Studio open, and the current
 <h2 id="cross-platform_service_studio_11.53.20" >Cross-platform Service Studio 11.53.20</h2>
 <div class="info"><p>Released on Oct 10, 2022</p></div>
 
-
 <style>.cattag {background: #f4f2ff; color: #6a6581; padding: 4px 10px;}</style>
 <h3 id="new_in_cross-platform_service_studio_11.53.20" >New in Cross-platform Service Studio 11.53.20</h3>
 <ul>
@@ -357,7 +338,6 @@ This occurred when another windows user has Service Studio open, and the current
 
 <h2 id="cross-platform_service_studio_11.53.19" >Cross-platform Service Studio 11.53.19</h2>
 <div class="info"><p>Released on Oct 03, 2022</p></div>
-
 
 <style>.cattag {background: #f4f2ff; color: #6a6581; padding: 4px 10px;}</style>
 <h3 id="new_in_cross-platform_service_studio_11.53.19" >New in Cross-platform Service Studio 11.53.19</h3>
@@ -384,7 +364,6 @@ This occurred when another windows user has Service Studio open, and the current
 <h2 id="cross-platform_service_studio_11.53.18" >Cross-platform Service Studio 11.53.18</h2>
 <div class="info"><p>Released on Sep 26, 2022</p></div>
 
-
 <style>.cattag {background: #f4f2ff; color: #6a6581; padding: 4px 10px;}</style>
 <h3 id="bug_fixing_cross-platform_service_studio_11.53.18" >Bug Fixing</h3>
 <ul>
@@ -396,7 +375,6 @@ This occurred when another windows user has Service Studio open, and the current
 
 <h2 id="cross-platform_service_studio_11.53.17" >Cross-platform Service Studio 11.53.17</h2>
 <div class="info"><p>Released on Sep 19, 2022</p></div>
-
 
 <style>.cattag {background: #f4f2ff; color: #6a6581; padding: 4px 10px;}</style>
 <h3 id="new_in_cross-platform_service_studio_11.53.17" >New in Cross-platform Service Studio 11.53.17</h3>
@@ -420,7 +398,6 @@ This occurred when another windows user has Service Studio open, and the current
 <h2 id="cross-platform_service_studio_11.53.16" >Cross-platform Service Studio 11.53.16</h2>
 <div class="info"><p>Released on Sep 12, 2022</p></div>
 
-
 <style>.cattag {background: #f4f2ff; color: #6a6581; padding: 4px 10px;}</style>
 <h3 id="bug_fixing_cross-platform_service_studio_11.53.16" >Bug Fixing</h3>
 <ul>
@@ -434,7 +411,6 @@ This occurred when another windows user has Service Studio open, and the current
 
 <h2 id="cross-platform_service_studio_11.53.15" >Cross-platform Service Studio 11.53.15</h2>
 <div class="info"><p>Released on Sep 06, 2022</p></div>
-
 
 <style>.cattag {background: #f4f2ff; color: #6a6581; padding: 4px 10px;}</style>
 <h3 id="new_in_cross-platform_service_studio_11.53.15" >New in Cross-platform Service Studio 11.53.15</h3>
@@ -457,7 +433,6 @@ This occurred when another windows user has Service Studio open, and the current
 <h2 id="cross-platform_service_studio_11.53.14" >Cross-platform Service Studio 11.53.14</h2>
 <div class="info"><p>Released on Aug 29, 2022</p></div>
 
-
 <style>.cattag {background: #f4f2ff; color: #6a6581; padding: 4px 10px;}</style>
 <h3 id="new_in_cross-platform_service_studio_11.53.14" >New in Cross-platform Service Studio 11.53.14</h3>
 <ul>
@@ -474,7 +449,6 @@ This occurred when another windows user has Service Studio open, and the current
 
 <h2 id="cross-platform_service_studio_11.53.13" >Cross-platform Service Studio 11.53.13</h2>
 <div class="info"><p>Released on Aug 22, 2022</p></div>
-
 
 <style>.cattag {background: #f4f2ff; color: #6a6581; padding: 4px 10px;}</style>
 <h3 id="new_in_cross-platform_service_studio_11.53.13" >New in Cross-platform Service Studio 11.53.13</h3>
@@ -496,13 +470,12 @@ This occurred when another windows user has Service Studio open, and the current
 <h2 id="cross-platform_service_studio_11.53.12" >Cross-platform Service Studio 11.53.12</h2>
 <div class="info"><p>Released on Aug 16, 2022</p></div>
 
-
 <style>.cattag {background: #f4f2ff; color: #6a6581; padding: 4px 10px;}</style>
 <h3 id="new_in_cross-platform_service_studio_11.53.12" >New in Cross-platform Service Studio 11.53.12</h3>
 <ul>
 <li>It is now possible to do Find and Replace within the Expression Editor and the Advanced Query Editor. (RDOIBT-826)</li>
 <li>It is now possible to copy Service Studio version information from the "About Service Studio" dialog. (RDOIBT-827)</li>
-<li>All Server Actions created by Integration Builder will 
+<li>All Server Actions created by Integration Builder will
 now also appear in the Logic Tab, under the Integrate With External System menu item. (RIMPT-2131)</li>
 </ul>
 <h3 id="bug_fixing_cross-platform_service_studio_11.53.12" >Bug Fixing</h3>
@@ -516,7 +489,6 @@ now also appear in the Logic Tab, under the Integrate With External System menu 
 
 <h2 id="cross-platform_service_studio_11.53.11" >Cross-platform Service Studio 11.53.11</h2>
 <div class="info"><p>Released on Aug 08, 2022</p></div>
-
 
 <style>.cattag {background: #f4f2ff; color: #6a6581; padding: 4px 10px;}</style>
 <h3 id="new_in_cross-platform_service_studio_11.53.11" >New in Cross-platform Service Studio 11.53.11</h3>

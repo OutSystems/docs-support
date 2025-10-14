@@ -27,7 +27,7 @@ This is a destructive operation. You’ll lose your OutSystems rating, private m
 
     ![Screenshot highlighting the 'Settings' option in the OutSystems community profile.](images/change-community-pw-settings.png "Settings Access")
 
-1.  Click **Close my account**.
+1. Click **Close my account**.
 
     ![Screenshot of the 'Close My Account' button in the OutSystems community profile settings.](images/close-community-account.png "Close Account Option")
 

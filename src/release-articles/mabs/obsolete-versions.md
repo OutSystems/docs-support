@@ -12,10 +12,10 @@ figma:
 
 These versions are no longer available, and you can't create mobile packages using them. Support requests about an obsolete version aren't answered.
 
-
 <div class="warning" markdown="1">
 
 ## **Version 11.0** - [See Release Notes](../../release-notes/mabs/11/11.0/11.0.md)<br/>
+
 Released as Beta on November 20th, 2024 <br/>
 Released to GA on January 22nd, 2025 <br/>
 Deprecated on May 16th, 2025 <br/>
@@ -68,6 +68,7 @@ This version can run your apps on:
 <div class="warning" markdown="1">
 
 ## **Version 9.0** - [See Release Notes](../../release-notes/mabs/9/9.0/9.0.md)<br/>
+
 Released on November 23, 2022<br/>
 Deprecated on April 29, 2024<br/>
 Obsolete on February 24, 2025<br/>
@@ -116,10 +117,10 @@ This version can run your apps on:
     </tbody>
 </table>
 
-
 <div class="warning" markdown="1">
 
 ## **Version 8.1** - [See Release Notes](mabs-8.md#mabs-version-8-1)<br/>
+
 Released on April 6 2022 <br/>
 Deprecated on May 11 2023<br/>
 Obsolete on January 29th 2024</div>
@@ -161,11 +162,10 @@ This version can run your apps on:
     </tbody>
 </table>
 
-
-
 <div class="warning" markdown="1">
 
 ## **Version 5.2** - [See Release Notes](mabs-5.md#mabs-version-5-2)<br/>
+
 <small>Released on Dec 26 2019<br/>
 Deprecated on May 20 2020<br/>
 Obsolete on Aug 29 2023</small>
@@ -217,8 +217,9 @@ This version can run your apps on:
 <div class="warning" markdown="1">
 
 ## **Version 7.2** - [See Release Notes](mabs-7.md#mabs-version-7-2)<br/>
-<small>Released on Oct 7 2021<br/> 
-Deprecated on Mar 24 2022<br/> 
+
+<small>Released on Oct 7 2021<br/>
+Deprecated on Mar 24 2022<br/>
 Obsolete on Feb 10 2023</small>
 
 </div>
@@ -263,8 +264,9 @@ This version can run your apps on:
 <div class="warning" markdown="1">
 
 ## **Version 8.0**  - [See Release Notes](mabs-8.md#mabs-version-8-0)<br/>
+
 <small>Released on October 11 2021<br/>
-Deprecated on May 23 2022<br/> 
+Deprecated on May 23 2022<br/>
 Obsolete on Jul 25 2022</small>
 
 </div>
@@ -309,6 +311,7 @@ This version can run your apps on:
 <div class="warning" markdown="1">
 
 ## **Version 6.3** - [See Release Notes](mabs-6.md#mabs-version-6-3)<br/>
+
 <small>Released on Sep 23 2020<br/>Deprecated on May 26 2021<br/>Obsolete on Jan 5 2022</small>
 
 </div>
@@ -359,6 +362,7 @@ This version can run your apps on:
 <div class="warning" markdown="1">
 
 ## **Version 7.1** - [See Release Notes](mabs-7.md#mabs-version-7-1)<br/>
+
 <small>Released on Jun 16 2021<br/>
 Deprecated on Oct 07 2021<br/>
 Obsolete on Dec 13 2021</small>
@@ -468,6 +472,7 @@ This version can run your apps on:
 <div class="warning" markdown="1">
 
 ## **Version 6.2** - [See Release Notes](mabs-6.md#mabs-version-6-2)<br/>
+
 <small>Released on Jun 08 2020<br/>Deprecated on Nov 03 2020<br/>Obsolete on Dec 21 2020</small>
 
 </div>
@@ -520,6 +525,7 @@ This version can run your apps on:
 <div class="warning" markdown="1">
 
 ## **Version 6.1** - [See Release Notes](mabs-6.md#mabs-version-6-1)<br/>
+
 <small>Released on Feb 12 2020<br/>Deprecated on Aug 12 2020<br/>Obsolete on Sep 08 2020</small>
 
 </div>
@@ -570,6 +576,7 @@ This version can run your apps on:
 <div class="warning" markdown="1">
 
 ## **Version 6.0** - [See Release Notes](mabs-6.md#mabs-version-6-0)<br/>
+
 <small>Released on Jan 02 2020<br/>Deprecated on Mar 06 2020<br/>Obsolete on May 07 2020</small>
 
 </div>
@@ -620,6 +627,7 @@ This version can run your apps on:
 <div class="warning" markdown="1">
 
 ## **Version 5.1** - [See Release Notes](mabs-5.md#mabs-version-5-1)<br/>
+
 <small>Released on Nov 07 2019<br/>
 Deprecated on Jan 09 2020<br/>
 Obsolete on Mar 09 2020</small>
@@ -671,6 +679,7 @@ This version can run your apps on:
 <div class="warning" markdown="1">
 
 ## **Version 5.0** - [See Release Notes](mabs-5.md#mabs-version-5-0)<br/>
+
 <small>Released on Jun 03 2019<br/>Deprecated on Dec 17 2019<br/>Obsolete on Feb 17 2020</small>
 
 </div>
@@ -720,6 +729,7 @@ This version can run your apps on:
 <div class="warning" markdown="1">
 
 ## **Version 4.2** - [See Release Notes](older-releases.md#mabs-version-4-2)<br/>
+
 <small>Released on Apr 08 2019<br/>Deprecated on Oct 01 2019<br/>Obsolete on Mar 02 2020</small>
 
 </div>
@@ -769,6 +779,7 @@ This version can run your apps on:
 <div class="warning" markdown="1">
 
 ## **Version 4.1** - [See Release Notes](older-releases.md#mabs-version-4-1)<br/>
+
 <small>Released on Mar 20 2019<br/>Deprecated on Jun 10 2019<br/>Obsolete on Aug 12 2019</small>
 
 </div>
@@ -818,6 +829,7 @@ This version can run your apps on:
 <div class="warning" markdown="1">
 
 ## **Version 4.0** - [See Release Notes](older-releases.md#mabs-version-4-0)<br/>
+
 <small>Released on Jan 21 2019<br/>Deprecated on May 20 2019<br/>Obsolete on Jul 23 2019</small>
 
 </div>
@@ -867,6 +879,7 @@ This version can run your apps on:
 <div class="warning" markdown="1">
 
 ## **Version 3.3** - [See Release Notes](older-releases.md#mabs-version-3-3)<br/>
+
 <small>Released on Dec 19 2018<br/>Deprecated on Nov 18 2019<br/>Obsolete on Jan 04 2021</small>
 
 </div>
@@ -912,4 +925,3 @@ This version can run your apps on:
         </tr>
     </tbody>
 </table>
-

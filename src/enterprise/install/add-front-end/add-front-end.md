@@ -49,13 +49,12 @@ Scaling of resources in OutSystems Cloud depends on the customer's subscription.
 When scaling is needed, [submit a request to OutSystems support](https://success.outsystems.com/Support/OutSystems_community/Opening_a_support_case_with_OutSystems), which responds according to the request priority and respective SLAs.
 
 * For Horizontal scaling requests, the new front-end server is created and added to the load balancer automatically, becoming immediately available after provisioning ends.
- 
+
 * For Vertical scaling of front-end servers, upon customer request, OutSystems proposes a schedule for the upgrade, subject to customer confirmation.
 
 **Note that for environments with only 1 front-end, the front-end scale-up operation causes a downtime of approximately 30 minutes.**
 
 For production environments with 2 or more front-ends, the front-end scale-up causes a reduction of processing capacity, but there is no downtime. All front-ends are scaled up to the same server class.
-
 
 ### On self-managed environments
 
@@ -83,4 +82,3 @@ It's possible to automate horizontal scalability using OutSystems unattended ins
 #### OutSystems on Microsoft Azure
 
 If you're using [OutSystems solution template for Microsoft Azure Marketplace](https://success.outsystems.com/Documentation/11/Setting_Up_OutSystems/OutSystems_on_Microsoft_Azure), you can take advantage of Azure scale sets for horizontal scalability. For complete instructions, check [Using Azure scale sets](https://success.outsystems.com/Documentation/11/Setting_Up_OutSystems/OutSystems_on_Microsoft_Azure/Additional_Configurations_for_OutSystems_on_Microsoft_Azure#Scale_Your_Environments_Using_Azure_Scale_Sets).
-

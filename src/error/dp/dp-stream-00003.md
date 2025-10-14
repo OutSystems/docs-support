@@ -18,6 +18,7 @@ coverage-type:
 ## Error message
 
 `The client specified an invalid argument. Please review the connection.`
+
 ## Cause
 
 The error occurs when testing the connection and the destination server responds with gRPC 3 (Invalid argument) error.

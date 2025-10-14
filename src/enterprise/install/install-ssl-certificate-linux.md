@@ -21,7 +21,7 @@ coverage-type:
 
 <div class="info" markdown="1">
 
-This article applies to **on-premise** or **private cloud** infrastructures. 
+This article applies to **on-premise** or **private cloud** infrastructures.
 **OutSystems PaaS** environments include by default valid SSL certificates with the outsystemsenterprise.com domain. Should you wish to customize your environment domain please refer to [this article](https://success.outsystems.com/Support/Enterprise_Customers/Installation/Enable_Custom_SSL_Domain_In_OutSystems_PaaS).
 </div>
 
@@ -41,7 +41,7 @@ All commands must be run as a user with root privileges:
 
 1. Login as root, or as a regular user and then elevate your privileges to root;
 
-2. Execute the following commands:
+1. Execute the following commands:
 
     * `source /etc/sysconfig/outsystems`
 
@@ -49,33 +49,33 @@ All commands must be run as a user with root privileges:
 
 The following commands depend on your specific application server and its version, so we will use a variable and instantiate it appropriately.
 
-3. If your application server is Jboss 6 EAP or JBoss 7 Community, execute the following commands:
+1. If your application server is Jboss 6 EAP or JBoss 7 Community, execute the following commands:
 
     * `KEYSTORE=$JBOSS_HOME/standalone/configuration/server.keystore`
 
     * `ASUSER=jboss`
 
-4. If your application server is Wildfly 8, execute the following commands:
+1. If your application server is Wildfly 8, execute the following commands:
 
     * `KEYSTORE=$WILDFLY_HOME/standalone/configuration/server.keystore`
 
     * `ASUSER=wildfly`
 
-5. If your application server is Weblogic, execute the following commands:
+1. If your application server is Weblogic, execute the following commands:
 
     * `KEYSTORE=$MW_HOME/wlserver/user_projects/domains/outsystems_domain/server.keystore`
 
     * `ASUSER=wls_outsystems`
- 
-6. Create a Java keystore and a key pair for your domain (if the keystore exists, you will be prompted for its password; if it doesn’t exist it will be created and you will be prompted to enter and re-enter a password for it), by executing the following command:
+
+1. Create a Java keystore and a key pair for your domain (if the keystore exists, you will be prompted for its password; if it doesn’t exist it will be created and you will be prompted to enter and re-enter a password for it), by executing the following command:
 
     * `keytool -genkey -keyalg RSA -alias <your_server_friendly_name> -keysize 2048 -keystore $KEYSTORE`
 
     * Keytool will now ask you to enter some information needed for your certificate:
 
 ![Terminal output showing the process of generating a key pair using keytool command.](images/install-SSL-certificate-outsystems-linux_0.png "Command Line Interface for Generating a Key Pair")
- 
-7. Generate a Certificate Signing Request (CSR) for your domain, by executing the following command:
+
+1. Generate a Certificate Signing Request (CSR) for your domain, by executing the following command:
 
     * `keytool -certreq -keyalg RSA -alias <your_server_friendly_name> -file certreq.csr -keystore $KEYSTORE`
 
@@ -97,7 +97,7 @@ Once you have obtained the certificate, you need to install it in your applicati
 
 ## Installing the certificate
 
-After you have acquired your certificate (see the previous section), you can now proceed to install it on your application server. 
+After you have acquired your certificate (see the previous section), you can now proceed to install it on your application server.
 
 All commands must be run as a user with root privileges.
 
@@ -107,29 +107,29 @@ If your certification authority provided you with a root and/or one or more inte
 
 1. Login as root, or as a regular user and then elevate your privileges to root;
 
-2. Execute the following command:
+1. Execute the following command:
 
     * `source /etc/sysconfig/outsystems`
 
-    * `alias keytool="$JAVA_HOME/bin/keytool"` 
+    * `alias keytool="$JAVA_HOME/bin/keytool"`
 
-3. Add your **CA Root** certificate to the list of trusted certificates, by executing the following command:
+1. Add your **CA Root** certificate to the list of trusted certificates, by executing the following command:
 
     * `keytool -import -trustcacerts -alias root -file <path/to/root.crt> -keystore $JAVA_HOME/jre/lib/security/cacerts`
 
-    * If you have never changed the password for your cacerts keystore, then the default password is *changeit*;
- 
-4. Add your **CA Intermediate** certificate to the list of trusted certificates, by executing the following command (be sure to change the alias and path if you need to add more than one intermediate certificates):
+    * If you have never changed the password for your cacerts keystore, then the default password is _changeit_;
+
+1. Add your **CA Intermediate** certificate to the list of trusted certificates, by executing the following command (be sure to change the alias and path if you need to add more than one intermediate certificates):
 
     * `keytool -import -trustcacerts -alias intermediate -file <path/to/intermediate.crt> -keystore $JAVA_HOME/jre/lib/security/cacerts`
 
-    * If you have never changed the password for your cacerts keystore, then the default password is *changeit*;
+    * If you have never changed the password for your cacerts keystore, then the default password is _changeit_;
 
 ### Importing the server certificate and its chain
 
 1. Login as root, or as a regular user and then elevate your privileges to root;
 
-2. Execute the following command:
+1. Execute the following command:
 
     * `source /etc/sysconfig/outsystems`
 
@@ -137,37 +137,37 @@ If your certification authority provided you with a root and/or one or more inte
 
 The following commands depend on your specific application server and its version, so we will use a variable and instantiate it appropriately.
 
-3. If your application server is Jboss 6 EAP or JBoss 7 Community, execute the following commands:
+1. If your application server is Jboss 6 EAP or JBoss 7 Community, execute the following commands:
 
     * `KEYSTORE=$JBOSS_HOME/standalone/configuration/server.keystore`
 
-    * `ASUSER=jboss` 
+    * `ASUSER=jboss`
 
-4. If your application server is Wildfly 8, execute the following commands:
+1. If your application server is Wildfly 8, execute the following commands:
 
     * `KEYSTORE=$WILDFLY_HOME/standalone/configuration/server.keystore`
 
-    * `ASUSER=wildfly` 
+    * `ASUSER=wildfly`
 
-5. If your application server is Weblogic, execute the following commands:
+1. If your application server is Weblogic, execute the following commands:
 
     * `KEYSTORE=$MW_HOME/wlserver/user_projects/domains/outsystems_domain/server.keystore`
 
-    * `ASUSER=wls_outsystems` 
+    * `ASUSER=wls_outsystems`
 
-6. Import your root CA certificate to your keystore by executing the following command:
+1. Import your root CA certificate to your keystore by executing the following command:
 
     * `keytool -import -trustcacerts -alias root -file /path/to/rootCA.crt -keystore $KEYSTORE`
- 
-7. Import your intermediate CA certificate to your keystore by executing the following command (be sure to change the alias and path if you need to import more than one intermediate certificate):
+
+1. Import your intermediate CA certificate to your keystore by executing the following command (be sure to change the alias and path if you need to import more than one intermediate certificate):
 
     * `keytool -import -trustcacerts -alias intermediate -file /path/to/intermediate.crt -keystore $KEYSTORE`
 
-8. Import your server certificate to your keystore by executing the following command (make sure the alias is the same you used when you created the CSR):
+1. Import your server certificate to your keystore by executing the following command (make sure the alias is the same you used when you created the CSR):
 
     * `keytool -import -trustcacerts -alias <your_server_friendly_name> -file /path/to/yourserver.crt -keystore $KEYSTORE`
 
-9. Ensure that your keystore has the appropriate ownership, by executing the following command:
+1. Ensure that your keystore has the appropriate ownership, by executing the following command:
 
     * `chown $ASUSER:$ASUSER $KEYSTORE`
 
@@ -177,11 +177,11 @@ The following commands depend on your specific application server and its versio
 
 1. Login as root, or as a regular user and then elevate your privileges to root;
 
-2. Execute the following command:
+1. Execute the following command:
 
     * `source /etc/sysconfig/outsystems`
- 
-3. Edit the file **$JBOSS_HOME/standalone/configuration/standalone-outsystems.xml** and add an entry like the one below (or update the existing one, if it already exists):
+
+1. Edit the file **$JBOSS_HOME/standalone/configuration/standalone-outsystems.xml** and add an entry like the one below (or update the existing one, if it already exists):
 
 ```
 <connector name="https" protocol="HTTP/1.1" scheme="https" socket-binding="https" secure="true">
@@ -189,9 +189,9 @@ The following commands depend on your specific application server and its versio
         certificate-key-file="${jboss.server.config.dir}/server.keystore"
         ca-certificate-file="${jboss.server.config.dir}/cacerts.truststore"/>
 </connector>
-``` 
+```
 
-4. Restart Jboss, execute the following command:
+1. Restart Jboss, execute the following command:
 
     * `/etc/init.d/jboss-outsystems restart`
 
@@ -199,11 +199,11 @@ The following commands depend on your specific application server and its versio
 
 1. Login as root, or as a regular user and then elevate your privileges to root;
 
-2. Execute the following command:
+1. Execute the following command:
 
     * source /etc/sysconfig/outsystems
 
-3. Edit the file **$WILDFLY_HOME/standalone/configuration/standalone-outsystems.xml** and add  the following (or update it, if it already exists) below the *security-realms* element:
+1. Edit the file **$WILDFLY_HOME/standalone/configuration/standalone-outsystems.xml** and add  the following (or update it, if it already exists) below the _security-realms_ element:
 
 ```
 <security-realm name="SecureApplicationRealm">
@@ -217,14 +217,14 @@ The following commands depend on your specific application server and its versio
 </security-realm>
 ```
 
-And the following inside the undertow subsystem after the *http-listener*:
+And the following inside the undertow subsystem after the _http-listener_:
 
 ```
 <https-listener name="https" socket-binding="https"
 security-realm="SecureApplicationRealm"/>
 ```
 
-4. Restart Wildfly, execute the following command:
+1. Restart Wildfly, execute the following command:
 
     * `/etc/init.d/wildfly-outsystems restart`
 
@@ -232,24 +232,21 @@ security-realm="SecureApplicationRealm"/>
 
 1. Open the WebLogic Administration Console, usually available at **`http://<admin_server>:7001/console`**;
 
-2. In the Change Center panel (top left of the screen), click **Lock & Edit**;
+1. In the Change Center panel (top left of the screen), click **Lock & Edit**;
 
-3. In the Domain Structure panel (left of the screen), under **outsystems_domain**, click on **Environment** and then on **Servers**:
+1. In the Domain Structure panel (left of the screen), under **outsystems_domain**, click on **Environment** and then on **Servers**:
 
 ![Screenshot of the Oracle WebLogic Server Administration Console displaying the Summary of Servers.](images/install-SSL-certificate-outsystems-linux_1.png "WebLogic Administration Console - Summary of Servers")
- 
 
-4. On the **Summary of Servers** panel, locate your server and click on its name:
+1. On the **Summary of Servers** panel, locate your server and click on its name:
 
 ![Screenshot showing the settings for a specific server in the WebLogic Administration Console.](images/install-SSL-certificate-outsystems-linux_2.png "WebLogic Server Settings")
- 
 
-5. On the General tab, ensure that **SSL Listen Port Enabled** is checked, and that the port being used is **8443**:
+1. On the General tab, ensure that **SSL Listen Port Enabled** is checked, and that the port being used is **8443**:
 
 ![Screenshot of the SSL Listen Port configuration section in the WebLogic Administration Console.](images/install-SSL-certificate-outsystems-linux_3.png "WebLogic SSL Listen Port Configuration")
- 
 
-6. On the **Keystores** tab, ensure that:
+1. On the **Keystores** tab, ensure that:
 
     * **Keystores** is set to **Custom Identity and Java Standard Trust;**
 
@@ -258,18 +255,16 @@ security-realm="SecureApplicationRealm"/>
     * **Custom Identity Keystore Passphrase** is set (**Confirm Custom Identity Keystore Passphrase**).
 
 ![Screenshot of the Keystores configuration tab in the WebLogic Administration Console.](images/install-SSL-certificate-outsystems-linux_4.png "WebLogic Keystores Configuration")
- 
 
-7. Click **Save**;
+1. Click **Save**;
 
-8. In the Change Center panel (top left of the screen), click **Activate Changes**:
+1. In the Change Center panel (top left of the screen), click **Activate Changes**:
 
 ![Screenshot of the WebLogic Administration Console with the Activate Changes option highlighted.](images/install-SSL-certificate-outsystems-linux_5.png "WebLogic Administration Console - Activate Changes")
- 
 
-9. Login as root, or as a regular user and then elevate your privileges to root;
+1. Login as root, or as a regular user and then elevate your privileges to root;
 
-10. Execute the following command:
+1. Execute the following command:
 
     * `/etc/init.d/weblogic-outsystems restart`
 
@@ -282,4 +277,3 @@ Once you have installed the certificate by following the steps above, you will a
 * In OutSystems 10 and later, you can control this behavior in the same way as before in Web Applications, i.e. at Flow or Screen level, but also for the whole environment, which applies to all Web Applications in the environment, or for specific Web Applications. This is done via LifeTime, when it is installed, or Service Center, when LifeTime is not available.
 
 **NOTE:** You can’t control this behavior for Mobile Applications since they always use HTTPS.
-

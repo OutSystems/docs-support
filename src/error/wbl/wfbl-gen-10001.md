@@ -31,4 +31,5 @@ The &lt;OriginalErrorMessage&gt; indicates the cause of the permission error.
 Users can't execute the operation.
 
 ## Recommended action
+
 Verify the user has the permission to perform the operation. If the user has permission for the operation, Logout and Login again from Workflow Builder. If the problem persists, create a case with [OutSystems support](https://success.outsystems.com/Support).

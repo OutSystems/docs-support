@@ -33,6 +33,7 @@ You can get full support and bug fixes through OutSystems support requests mecha
 <div class="info" markdown="1">
 
 ## **Version 11.1** - [See Release Notes](../../release-notes/mabs/11/11.1/11.1.md)<br/>
+
 Released as Beta on March 28th, 2025 <br/>
 Released to GA on April 2nd, 2025 <br/>
 Deprecation date to be announced
@@ -83,11 +84,13 @@ This version can run your apps on:
 </table>
 
 ## Deprecated
-You can select this version in the configuration and create a mobile package using it, but you receive limited support. Limited support means that you receive advice and workarounds through support requests, but there are no bug fixes for the version. 
+
+You can select this version in the configuration and create a mobile package using it, but you receive limited support. Limited support means that you receive advice and workarounds through support requests, but there are no bug fixes for the version.
 
 <div class="info" markdown="1">
 
 ## **Version 10.0** - [See Release Notes](../../release-notes/mabs/10/10.0/10.0.md)<br/>
+
 Released as Beta on October 26, 2023 <br/>
 Released to GA on December 27, 2023 <br/>
 Deprecated on May 23, 2025<br/>
@@ -136,4 +139,3 @@ This version can run your apps on:
         </tr>
     </tbody>
 </table>
- 

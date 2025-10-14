@@ -57,7 +57,7 @@ The jQuery versions 1.0.3 to 3.5.0 are vulnerable to the possible execution of u
 
 The jQuery-UI versions prior to 1.13.0 are vulnerable to the execution of untrusted code ([CVE-2021-41182](https://cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2021-41182), [CVE-2021-41183](https://cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2021-41183), [CVE-2021-41184](https://cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2021-41184) and [CVE-2016-7103](https://cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-7103)). OutSystems uses jQuery-UI 1.8.24, which is exposed to this vulnerability. However, there is no usage of the patterns or parameters described in the CVEs, which makes the OutSystems applications not vulnerable.
 
-The jQuery versions prior to 1.13.2 are vulnerable to a cross-site scripting vulnerability for the "checkboxradio" component ([CVE-2022-31160](https://cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2022-31160))  This component was not introduced in JQuery-UI until version 1.12.0.  OutSystems uses jQuery-UI 1.8.24, so OutSystems is not vulnerable. 
+The jQuery versions prior to 1.13.2 are vulnerable to a cross-site scripting vulnerability for the "checkboxradio" component ([CVE-2022-31160](https://cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2022-31160))  This component was not introduced in JQuery-UI until version 1.12.0.  OutSystems uses jQuery-UI 1.8.24, so OutSystems is not vulnerable.
 
 #### jQuery-ui-dialog flagged as a potentially vulnerable library
 
@@ -71,7 +71,7 @@ As for applications developed by the customer that make use of this library, you
 
 #### jQuery-ui-tooltip flagged as a potentially vulnerable library
 
-Some penetration testing tools may flag OutSystems as having a vulnerable jQuery-ui-tooltip library - [CVE-2012-6662](https://nvd.nist.gov/vuln/detail/cve-2012-6662). 
+Some penetration testing tools may flag OutSystems as having a vulnerable jQuery-ui-tooltip library - [CVE-2012-6662](https://nvd.nist.gov/vuln/detail/cve-2012-6662).
 
 OutSystems doesn't use jQuery-ui-tooltip widget. It's not present on our code.
 
@@ -109,5 +109,5 @@ Furthermore, the following tables can help you understand the responsibilities a
 
 |            | Responsibilities| Expectations |
 |------------|-----------------|--------------|
-| Customer   | <ul><li>Deploy and manage OutSystems on self managed servers</li><li>Execute the penetration tests</li></ul>|<ul><li>The customer has knowledge of how to configure and manage OutSystems and  underlying technologies</li><li>The customer has knowledge of the tool(s) used to perform penetration tests</li><li>The customer is responsible for executing the tests, collecting the results, reviewing the results, performing the necessary correction and re-checking</li></ul>| 
+| Customer   | <ul><li>Deploy and manage OutSystems on self managed servers</li><li>Execute the penetration tests</li></ul>|<ul><li>The customer has knowledge of how to configure and manage OutSystems and  underlying technologies</li><li>The customer has knowledge of the tool(s) used to perform penetration tests</li><li>The customer is responsible for executing the tests, collecting the results, reviewing the results, performing the necessary correction and re-checking</li></ul>|
 | OutSystems | <ul><li>Provide support to customers on issues related to the product</li></ul>|<ul><li>Has expert knowledge on OutSystems</li><li>Is able to help Customers with OutSystems related issues [(support terms)](https://www.outsystems.com/legal/success/support-terms-and-service-level-agreements-sla-of-the-outsystems-software/)</li><li>Is able to reply to customer questions</li></ul>|

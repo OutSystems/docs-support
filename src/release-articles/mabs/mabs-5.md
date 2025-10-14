@@ -53,7 +53,6 @@ For common issues and solutions check also [Troubleshooting the Mobile Apps Gene
 
 * The issue with the screen flickering on iPhones running iOS 12, identified in MABS 4.0, when a user selects an input field in a screen with many inputs - occurs in MABS 5 as well, due to the same stack. The flickering happens when the viewport meta tag called “viewport-fit” is set to “cover”. [Here are the instructions on how to fix the issue](older-releases.md#known-issue-in-mabs-4).
 
-
 ## MABS Version 5.1 { #mabs-version-5-1 }
 
 <div class="info">
@@ -63,7 +62,7 @@ For common issues and solutions check also [Troubleshooting the Mobile Apps Gene
 
 </div>
 
-### New in this version 
+### New in this version
 
 * Performance improvements in the update mechanism of the apps.
 
@@ -71,14 +70,13 @@ For common issues and solutions check also [Troubleshooting the Mobile Apps Gene
 
 * We improved the cache troubleshooting by adding new logs to track how the cache works.
 
-### Bug fixing 
+### Bug fixing
 
 * [2019-11-12 17:00:00 UTC] Fixed an issue that causes iOS applications, whose name is composed of a single word, to not open successfully. (RNMT-3550)
 
 ### Known Issue
 
 * The issue with the screen flickering on iPhones running iOS 12, identified in MABS 4.0, when a user selects an input field in a screen with many inputs - occurs in MABS 5 as well, due to the same stack. The flickering happens when the viewport meta tag called “viewport-fit” is set to “cover”. [Here are the instructions on how to fix the issue](older-releases.md#known-issue-in-mabs-4).
-
 
 ## MABS Version 5.0 { #mabs-version-5-0 }
 
@@ -87,20 +85,20 @@ For common issues and solutions check also [Troubleshooting the Mobile Apps Gene
 **First release:** 2019-05-06 16:00:00 UTC<br/>
 **Last update:** 2019-10-23 14:00:00 UTC.
 </div>
- 
+
 **On 2019-10-10 we released an important fix for the Native apps that we strongly advise to request a new build of your Mobile App to get those fixes.**
 
-## New in this version 
+## New in this version
 
 * MABS 5.0 uses the Android API level 28, so you will be able to continue submitting your Android apps to Google Play, in line with the recent Google announcement.
 
 * MABS 5.0 uses Cordova Android engine 8.0.0 for Android apps. It is highly recommended that you revise your plugins to be compatible with this version.
 
-* MABS 5.0 now uses [version 28 of Android support libraries](https://success.outsystems.com/Documentation/11/Delivering_Mobile_Apps/Mobile_Apps_Build_Service/Android_Support_Library_Versions_for_MABS). This may cause breaking changes. If your builds have errors, check the document [MABS Upgrade Troubleshooting Guide](https://success.outsystems.com/Support/Troubleshooting/Application_development/MABS_Upgrade_Troubleshooting_Guide_-_Android). 
+* MABS 5.0 now uses [version 28 of Android support libraries](https://success.outsystems.com/Documentation/11/Delivering_Mobile_Apps/Mobile_Apps_Build_Service/Android_Support_Library_Versions_for_MABS). This may cause breaking changes. If your builds have errors, check the document [MABS Upgrade Troubleshooting Guide](https://success.outsystems.com/Support/Troubleshooting/Application_development/MABS_Upgrade_Troubleshooting_Guide_-_Android).
 
 * With this release, we have dropped support for Android 4.4.
 
-### Bug fixing 
+### Bug fixing
 
 * [2019-06-18 14:00:00 UTC] Fixed an issue where some Android applications with bad extensibility configuration were not showing the correct error message after a build failed. (RNMT-2957)
 * [2019-06-18 17:00:00 UTC] Fixed an issue that caused iOS apps that use CocoaPods not to deploy to the correct target target. (RNMT-2965)
@@ -124,12 +122,10 @@ For common issues and solutions check also [Troubleshooting the Mobile Apps Gene
 * [2019-10-17 11:00:00 UTC] We fixed the Jitpack URL for the core plugins. This issue was causing conflicts with other plugins that made use of the Jitpack repository to import libraries. (RNMT-3405)
 * [2019-10-23 14:00:00 UTC] Now all network requests contain the User-Agent header from the WebView instance. This means that every request carries information about the version of the app, which you can use to implement behavior based on the version. (RNMT-3428)
 
-### Known Issue 
+### Known Issue
 
 * The issue with the screen flickering on iPhones running iOS 12, identified in MABS 4.0, when a user selects an input field in a screen with many inputs - occurs in MABS 5 as well, due to the same stack. The flickering happens when the viewport meta tag called “viewport-fit” is set to “cover”. [Here are the instructions on how to fix the issue](older-releases.md#known-issue-in-mabs-4).
-
 
 ## Older releases
 
 Release notes for older MABS versions are available at [Mobile Apps Build Service (older versions)](older-releases.md).
-

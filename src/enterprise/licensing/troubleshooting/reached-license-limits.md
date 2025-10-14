@@ -18,7 +18,7 @@ coverage-type:
 
 # I have reached my license limits
 
-Each license has certain usage limits, such as number of users, Application Objects, or environments. 
+Each license has certain usage limits, such as number of users, Application Objects, or environments.
 
 OutSystems will work with you to ensure that overuse of your subscription won't impact your current activities. Your account executive will be able to assist you in upgrading your licenses.
 
@@ -27,4 +27,3 @@ OutSystems will work with you to ensure that overuse of your subscription won't 
 ![Screenshot of the OutSystems Service Center Licensing page highlighting the 'Audit License' and 'Activation Code' sections.](images/reached-license-limits_0.png "OutSystems Service Center Licensing Screen")
 
 For more information check the [OutSystems Platform licensing FAQ](https://success.outsystems.com/Support/Enterprise_Customers/Licensing/Overview/01_How_OutSystems_Platform_licensing_works).
-

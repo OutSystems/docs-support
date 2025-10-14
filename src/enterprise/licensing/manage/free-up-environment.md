@@ -20,7 +20,7 @@ coverage-type:
 
 This article explains how you can release an environment serial number in the [Customer Portal](https://www.outsystems.com/licensing/), which may be necessary when performing the following operations:
 
-* upgrade the OutSystems Platform Server; 
+* upgrade the OutSystems Platform Server;
 
 * transfer an OutSystems environment across servers;
 

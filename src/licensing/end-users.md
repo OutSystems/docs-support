@@ -22,12 +22,12 @@ An end user is a unique individual who uses your OutSystems apps. Each non-anony
 
 You license internal and external end-user capacities separately on your subscription. Each end user of your OutSystems applications is classified as either internal or external. Internal is intended for employees and contractors of your organization. External is for your customers, partners, or other external parties who use your OutSystems apps.
 
-By default in OutSystems, all end users are classified as internal until you configure the domains that you own. You only need to configure your domains when you license external end-user capacity on your subscription because doing so allows you to track the internal and external end-user counts separately. 
+By default in OutSystems, all end users are classified as internal until you configure the domains that you own. You only need to configure your domains when you license external end-user capacity on your subscription because doing so allows you to track the internal and external end-user counts separately.
 
 * For ODC (OutSystems Developer Cloud) you can [define your domains in the ODC Portal](https://www.outsystems.com/tk/redirect?g=f3211746-db90-4515-8175-888d00e14bd9).
 * For OutSystems 11, [domains are configured in Service Center](https://www.outsystems.com/tk/redirect?g=8cb73d92-a60d-4133-9f95-67ef4505932d).
 
-When you do this, all end users with email addresses belonging to these domains are classified as internal, and all end users with email addresses outside these domains are classified as external. 
+When you do this, all end users with email addresses belonging to these domains are classified as internal, and all end users with email addresses outside these domains are classified as external.
 
 For example, if your organization owns `example.com` and the end user's email is `adam@example.com`, then the end user will be classified as internal. Make sure to configure all the email domains used by employees who use your apps, including domains owned by your parent or affiliate organizations.  
 
@@ -67,14 +67,13 @@ Each OutSystems subscription has an associated end-user capacity: the maximum nu
 
     * Versions prior to Platform Server 11.7.0 don't support classifying end users as internal or external, so customers should update to the latest version to take advantage of this. Older licensing models licensed "named" users, which didn't require end users to be classified as internal or external.
 
-
 ## End user limits
 
 OutSystems subscriptions typically include rights to run applications serving up to a specific number of internal end users and a specific number of external end users, with options for upgrading these end-user capacities that vary by subscription. When you exceed the internal or external end-user capacities specified on your subscription, you need to upgrade your subscription to remain in compliance with the license terms. Please contact your OutSystems sales representative for assistance.
 
 * In **ODC**, because there's a single production runtime, all your users are licenced individually.
 
-* In **OutSystems 11** infrastructures, customers may have more than one production runtime where their apps are hosted and delivered to end users. When the same individual accesses apps hosted on multiple runtimes, this individual is tracked as an end user in each and contributes to the reported end user count in each. 
+* In **OutSystems 11** infrastructures, customers may have more than one production runtime where their apps are hosted and delivered to end users. When the same individual accesses apps hosted on multiple runtimes, this individual is tracked as an end user in each and contributes to the reported end user count in each.
 Nonetheless, the individual will count as a unique user towards the end user limits.
 
 ## Managing your end users

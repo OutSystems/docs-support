@@ -40,6 +40,7 @@ A **service name** is a logical representation of a database. It can identify mu
 To connect to a database service, clients may use a **connect descriptor** that provides the location of the database and the name of the database service. A connect descriptor is comprised of one or more protocol addresses of the listener and the connect information for the destination service.
 
 As an example of a simple connect descriptor, we may have the following in a tnsnames.ora file:
+
 ```
 outsystemsdb=
 
@@ -51,6 +52,7 @@ outsystemsdb=
 
        (SERVICE_NAME=outsystemsdb.mycompany.com)))
 ```
+
 ## Configure Oracle in OutSystems Platform
 
 The database used in the OutSystems platform is configured via the Configuration Tool. It is also possible to define external database connections to be used in extensions, which are configured in Service Center.
@@ -74,6 +76,7 @@ When using the "Service Name" naming method you must fill in the following param
 ![Screenshot of the OutSystems Configuration Tool for .NET stack showing fields for Host, Port, and Service Name.](images/config-oracle-database_0.png "OutSystems Configuration Tool - .NET Stack Service Name")
 
 **Java stack**
+
 ```
 ===== OutSystems Platform Database =====
 
@@ -117,6 +120,7 @@ By selecting the "TNS Name" naming method it is possible to configure a connect 
 ![Screenshot of the OutSystems Configuration Tool for .NET stack with the TNS Name field highlighted.](images/config-oracle-database_1.png "OutSystems Configuration Tool - .NET Stack TNS Name")
 
 **Java stack**
+
 ```
 ===== OutSystems Platform Database =====
 
@@ -181,13 +185,12 @@ In the OutSystems Java stack, the TNS configuration must follow the JDBC driver 
 
 ![Service Center interface showing the Advanced Configuration mode for an Oracle database connection in the Java stack.](images/config-oracle-database_5.png "Service Center Advanced Configuration for Oracle Database - Java Stack")
 
- 
-
 ## Connecting to databases using SID
 
 To connect the OutSystems platform to an Oracle database instance using the SID, use the TNS Name configuration. The connect descriptor is similar as the one described previously, but should be adapted to reflect the database configuration using SID.
 
 Considering the same example above, the tnsnames.ora file should changed to contain the database SID:
+
 ```
 outsystemsdb=
 
@@ -203,6 +206,3 @@ outsystemsdb=
 If an external database connection is using an Oracle database using SID, the Advanced Configuration should reflect this by with the appropriate connect descriptor:
 
 ![Service Center interface showing the Advanced Configuration mode with fields for an Oracle database connection using SID.](images/config-oracle-database_6.png "Service Center Advanced Configuration Using SID")
-
- 
-

@@ -79,7 +79,7 @@ Vulnerability reports must contain the following information:
 
     LifeTime contains an insecure object reference vulnerability where any user can view the details of any other user. This may lead to data leak since details of the users can be accessed by any user.
 
-2. Proof of concept or detailed steps to reproduce or exploit the vulnerability
+1. Proof of concept or detailed steps to reproduce or exploit the vulnerability
 
     **Example (not real):**
 
@@ -87,7 +87,7 @@ Vulnerability reports must contain the following information:
     1. Go to https://[URL]/users?uid=2
     1. Confirm you’re seeing the details of another user.
 
-If this information isn't consistently provided, the support case may ultimately be closed. There should be only one vulnerability being addressed per incident in order to facilitate the communication and the proper investigation. 
+If this information isn't consistently provided, the support case may ultimately be closed. There should be only one vulnerability being addressed per incident in order to facilitate the communication and the proper investigation.
 
 Reports will be handled within the [scope and SLA's](https://success.outsystems.com/Support/Enterprise_Customers/OutSystems_Support/Support_terms_and_service_level_agreements_(SLA)_of_the_OutSystems_software) of customers' and partners' contracts.
 
@@ -122,7 +122,7 @@ During the embargo phase, the following steps occur:
 
 1. **Identification:**
 OutSystems learns about the vulnerability.
- 
+
 1. **Classification:**
 OutSystems classifies reported vulnerabilities and attributes a risk score and severity. This is done using the version 3.1 of the [Common Vulnerability Scoring System](https://www.first.org/cvss/) (CVSS). This framework assigns a vulnerability score to a vulnerability which is then translated into five possible severities, ranging from **Info** up to **Critical**, according to the risk score.
 
@@ -131,16 +131,15 @@ For all vulnerabilities, study the vulnerability and come up with a recommended 
   
 1. **Plan and fix:**
 For all vulnerabilities planned to be fixed, OutSystems defines a schedule and a deadline for the fix, according to internal criteria defined to mitigate vulnerabilities. The fix and / or workaround for the vulnerability is prepared.
- 
+
 1. **Publish security bulletin and fix release:**
 A fix is publicly released along with installation details. A security bulletin for each vulnerability is published and listed under this section (expand the tree on the left to see the list). At this point, the bulletins don't disclose any technical details.
 
 1. **Patch OutSystems Cloud and ODC:**
 For OutSystems Cloud customers, a patch schedule may also be communicated for all affected environments. If the patch has no impact on normal operations and availability, it won’t require scheduling. OutSystems reserves the right to start scheduling patches to OutSystems Cloud environments as soon as a fix or workaround is found.
 Self-managed infrastructures can be patched at the customer’s discretion.
-For OutSystems Developer Cloud (ODC) customers, all fixes are automatically propagated to all customer accounts. 
+For OutSystems Developer Cloud (ODC) customers, all fixes are automatically propagated to all customer accounts.
 
 ### Public disclosure { #disclosure }
 
 Approximately 90 days after the fix release, OutSystems discloses further details about the vulnerability by updating the respective security bulletin.
-

@@ -25,7 +25,7 @@ coverage-type:
 ## Cause
 
 This error occurs when users try to publish an application and the system can't obtain the external dependencies that are needed from the users infrastructure.
-The &lt;OriginalErrorMessage&gt;should include information about the cause of the error. 
+The &lt;OriginalErrorMessage&gt;should include information about the cause of the error.
 
 ## Impact
 

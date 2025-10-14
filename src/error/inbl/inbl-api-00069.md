@@ -26,7 +26,7 @@ coverage-type:
 ## Cause
 
 Integration Manager failed to access an internal service using HTTPS.
-This can happen if the server's address (configured in Service Center) can’t be resolved through DNS, or if the server’s certificate doesn’t match that address. 
+This can happen if the server's address (configured in Service Center) can’t be resolved through DNS, or if the server’s certificate doesn’t match that address.
 
 ## Impact
 

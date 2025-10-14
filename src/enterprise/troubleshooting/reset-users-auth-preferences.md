@@ -22,7 +22,6 @@ coverage-type:
 
 You've been locked out of your [Users app](https://www.outsystems.com/tk/redirect?g=2cbb2e7d-9936-4bb4-8791-240ade1d1ad6) and can't login.
 
-
 ## Cause
 
 Usually, this happens when you activate **External Authentication** with incorrect configurations, thus failing all logins.
@@ -36,6 +35,3 @@ If your authentication configuration is incorrect and prevents you from logging 
 The default Users app login page is available at: `https://<your_server_name>/Users/Login`.aspx
 
 For more information on how to create an admin user, refer to [Configure the Administrator user of the Users app](https://success.outsystems.com/documentation/11/developing_an_application/secure_the_application/end_users/configure_the_administrator_user_of_the_users_app/).
-
-
-

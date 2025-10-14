@@ -29,6 +29,7 @@ This error occurs when MABS is not able to correctly parse the application icon.
 Users can't generate the application package.
 
 ## Recommended action
+
 Validate that the application icon of your app is valid image file in the correct format.
 
 Find more information about how to modify the application icon [here](https://success.outsystems.com/Documentation/11/Delivering_Mobile_Apps/Customize_Your_Mobile_App/Modify_the_App_Icon).

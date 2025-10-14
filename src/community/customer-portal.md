@@ -43,7 +43,7 @@ On this screen, you can see everyone who is currently associated with your compa
 
 As Administrator, you have full visibility and control over who has access to your company’s area in the Customer Portal. Please ensure your team members are effectively allowed to do it, at all times.
 
-### OutSystems Customer Portal permissions 
+### OutSystems Customer Portal permissions
 
 The rules to manage members differ depending on whether the infrastructure is O11 or ODC. For ODC, members are managed in the ODC Portal and then synchronized to the Customer Portal.
 
@@ -79,7 +79,6 @@ This person will be able to:
 
 OutSystems will set by default as the first Infrastructure administrator, the person that was identified as such in your initial purchase order. It can, however, be changed to your preference at a later stage.
 
-
 #### Member
 
 A regular user who is linked to your company and will have granular access to your tools:
@@ -91,7 +90,7 @@ A regular user who is linked to your company and will have granular access to yo
 
 #### For O11 infrastructures
 
-At your Customer Portal: 
+At your Customer Portal:
 
 1. Click **Team** on the left-side menu
 1. Click **Add Team Member** button.
@@ -111,7 +110,7 @@ The option to grant Development Permissions is only available while adding new u
 
 <div class="info" markdown="1">
 
-The option to grant **Development Permissions** is only available while adding new users. 
+The option to grant **Development Permissions** is only available while adding new users.
 
 [IT users' permissions](https://success.outsystems.com/Documentation/11/Managing_the_Applications_Lifecycle/Manage_IT_Users) can be managed by your Administrators in your infrastructure's management console, LifeTime.
 
@@ -138,7 +137,7 @@ To change a user’s permissions click **Edit** under the **ACTION** column. You
 
 #### For ODC infrastructures
 
-To change a user’s permissions or remove them you must use the ODC Portal. Users updated in the ODC Portal are automatically updated in the Customer Portal, based on their deletion, deactivation, or changes in their ODC organization roles. 
+To change a user’s permissions or remove them you must use the ODC Portal. Users updated in the ODC Portal are automatically updated in the Customer Portal, based on their deletion, deactivation, or changes in their ODC organization roles.
 
 ### Defining the security contact
 

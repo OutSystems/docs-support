@@ -30,7 +30,7 @@ As opposed to previous versions, installing LifeTime in  another environment (fo
 
 Once you install OutSystems platform, it automatically starts to collect client-side metrics of the applications running in the Production environment. You can then use LifeTime to customize which applications you want to monitor and which it doesn't make sense to do so. For the application you choose to monitor the user experience, OutSystems automatically adds monitoring probes, and for each client request to those applications, metrics are collected and stored in the environment in which the application is running for a period of 48 hours.
 
-The LifeTime environment has the same requirements as any other environment, but due to its capabilities, you need to understand how to properly size the storage capacity of the server in which it will run. 
+The LifeTime environment has the same requirements as any other environment, but due to its capabilities, you need to understand how to properly size the storage capacity of the server in which it will run.
 
 You can estimate the storage needed for the applications you are monitoring. Consider you're only monitoring a subset of the applications running in production:
 
@@ -56,4 +56,3 @@ LifeTime will only keep the analytics data for a default period of 365 days. Thi
 ## Install the infrastructure management console
 
 The infrastructure management console (LifeTime) must be installed in a **dedicated environment**. [Learn how to install the infrastructure management console.](https://success.outsystems.com/Documentation/11/Setting_Up_OutSystems#Install_the_infrastructure_management_console)
-

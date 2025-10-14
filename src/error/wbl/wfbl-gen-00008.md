@@ -24,7 +24,7 @@ coverage-type:
 ## Cause
 
 This error occurs when users try to perform an action over an application and it fails.
-The &lt;OriginalErrorMessage&gt; includes information about the cause of the error. 
+The &lt;OriginalErrorMessage&gt; includes information about the cause of the error.
 
 ## Impact
 
