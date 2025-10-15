@@ -184,6 +184,7 @@
         - href: troubleshooting/infrastructure-management/deploy-all-workaround-11180.md
         - href: troubleshooting/infrastructure-management/change-db-endpoints.md
         - href: troubleshooting/infrastructure-management/sql-server-22-upgrade-cloud.md
+        - href: troubleshooting/infrastructure-management/win-server-22-upgrade-cloud.md
 
     # Incident Models
     - href: troubleshooting/incident-models/im.md
