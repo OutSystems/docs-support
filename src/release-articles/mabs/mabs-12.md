@@ -45,9 +45,7 @@ MABS 12.0 comes packed with new features and enhancements.
 - Status bar for Android can now be customized on the Mobile Tab - Requires ODC Studio version 1.5.28-8307 or later
 - Extensibility now has auto-complete when setting preferences using the modern schema, and it will also display any errors - Requires ODC Studio version 1.5.28-8307 or later
 
-For additonal details please refer to:
-
-[MABS 12 release notes](../../release-notes/mabs/12/12.0/12.0.md)
+For additonal details please refer to: [MABS 12 release notes](../../release-notes/mabs/12/12.0/12.0.md)
 
 ## System Requirements
 
