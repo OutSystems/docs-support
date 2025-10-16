@@ -12,11 +12,7 @@ platform-version: o11, odc
 
 For information about mobile stack details for each available MABS version, refer to [Mobile Apps Build Service Versions](mabs-versions.md).
 
-</div>
-
-<div class="info" markdown="1">
-
-For detailed information about common issues and solutions, refer to [Troubleshooting the Mobile Apps Generation](https://success.outsystems.com/Support/Enterprise_Customers/Troubleshooting/Troubleshooting_the_Mobile_Apps_Generation).
+For detailed information about common issues and solutions, refer to [Troubleshooting the Mobile Apps Generation](../../troubleshooting/application-development/troubleshoot-mobile-apps-generation.md).
 
 </div>
 
@@ -38,9 +34,6 @@ OutSystems recommends updating all supported plugins to the latest version avail
 
 </div>
 
-<div class="warning" markdown="1">
- 
-
 ### What's New
 
 MABS 12.0 comes packed with new features and enhancements.
@@ -55,8 +48,6 @@ MABS 12.0 comes packed with new features and enhancements.
 For additonal details please refer to:
 
 [MABS 12 release notes](../../release-notes/mabs/12/12.0/12.0.md)
-
-</div>
 
 ## System Requirements
 
