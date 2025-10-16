@@ -29,8 +29,12 @@
     - topics:
         - href: release-articles/mabs/mabs-versioning-and-lifecycle.md
         - href: release-articles/mabs/mabs-beta-support.md
+        - href: release-articles/mabs/mabs-12.md
+        - topics:
+            - href: release-notes/mabs/12/12.0/12.0.md        
         - href: release-articles/mabs/mabs-11.md
         - topics:
+            - href: release-notes/mabs/11/11.2/11.2.md
             - href: release-notes/mabs/11/11.1/11.1.md
             - href: release-notes/mabs/11/11.0/11.0.md
         - href: release-articles/mabs/mabs-10.md
@@ -736,4 +740,5 @@
         - topics:
             - href: forge/forge-faqs/remove-project.md
         - href: forge/forge-faqs/trusted-requirements.md
+
     

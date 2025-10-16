@@ -28,6 +28,34 @@ It's recommended to update all supported plugins to the latest version available
 
 </div>
 
+## MABS 11.2 (#mabs-version-11-2)
+
+<div class="info" markdown="1">
+
+**First release:** 2025-10-15 10:30:00 UTC<br />
+**Last update:** 2025-10-15 14:30:00 UTC.
+
+</div>
+
+<div class="warning" markdown="1">
+
+This minor release brings architecture improvements to unify the O11 and ODC mobile application build service. In order to support this change, some supported plugins were also updated. If you are building production apps with these specific plugins, we recommend you start upgrading the plugin versions for your apps to 11.2 immediately.
+
+[MABS 11.2 release notes](../../release-notes/mabs/11/11.2/11.2.md)
+
+</div>
+
+## System Requirements
+
+For more details, click the plugin name on Forge. OutSystems recommends always using the latest version available of a supported plugin.
+
+|Plugin|Minimum supported version for O11|Minimum supported version for ODC|
+|:---|---|---|
+|[SSL Pinning](https://www.outsystems.com/forge/component-versions/1873)|7.0.1 or later|1.0.8 or later|
+|[Payments](https://www.outsystems.com/forge/component-versions/13678)|1.2.2 or later|1.1.10 or later|
+
+
+
 ## MABS 11.1 { #mabs-version-11-1 }
 
 <div class="info" markdown="1">
