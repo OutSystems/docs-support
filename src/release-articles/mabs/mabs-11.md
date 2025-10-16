@@ -28,7 +28,7 @@ It's recommended to update all supported plugins to the latest version available
 
 </div>
 
-## MABS 11.2 (#mabs-version-11-2)
+## MABS 11.2 { #mabs-version-11-2 }
 
 <div class="info" markdown="1">
 

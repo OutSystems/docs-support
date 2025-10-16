@@ -29,7 +29,7 @@ OutSystems recommends updating all supported plugins to the latest version avail
 
 </div>
 
-## MABS 12 (#mabs-version-12.0)
+## MABS 12 { #mabs-version-12-0 }
 
 <div class="info" markdown="1">
 
@@ -63,7 +63,7 @@ For additonal details please refer to:
 Plugin requirements for **MABS 12**. For more details, click the plugin name on the Forge.
 
 |Plugin|Required minimum version for O11|Required minimum version for ODC|
-|:---|---|---|
+|---|---|---|
 |[Barcode](https://www.outsystems.com/forge/component-versions/1403)|5.5.7 or later|1.3.0 or later|
 |[Calendar](https://www.outsystems.com/forge/component-versions/1566)|3.1.6 or later|1.0.6 or later|
 |[Ciphered Local Storage](https://www.outsystems.com/forge/component-versions/1500)|3.2.4 or later|1.1.3 or later|
@@ -74,7 +74,7 @@ Plugin requirements for **MABS 12**. For more details, click the plugin name on 
 The table below contains the list of plugins and their supported versions. It is important to note that it is recommended to always use the latest version available of a plugin.
 
 |Plugin|Supported minimum version for O11|Supported minimum version for ODC|
-|:---|---|---|
+|---|---|---|
 |[Camera](https://www.outsystems.com/forge/component-versions/1390)|7.6.4 or later|7.8.1 or later|
 |[Card IO](https://www.outsystems.com/forge/component-versions/1438)|3.2.3 or later| 3.2.4 or later|
 |[Contacts](https://www.outsystems.com/forge/component-versions/1394)|4.0.6 or later|1.0.3 or later|
@@ -93,4 +93,3 @@ The table below contains the list of plugins and their supported versions. It is
 |[Social Login Mobile](https://www.outsystems.com/forge/component-versions/7895)|4.2.2 or later|-|
 |[Payments](https://www.outsystems.com/forge/component-versions/13678)|1.2.2 or later|1.2.4 or later|
 |[InAppBrowser](https://www.outsystems.com/forge/component-versions/1558)|2.4.10 or later|3.3.1 or later|
------
