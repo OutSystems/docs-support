@@ -68,6 +68,9 @@ On the environments you manage, follow a standard server installation:
 
 1. Make sure all the [Installation prerequisites](https://success.outsystems.com/Documentation/11/Setting_Up_OutSystems#Installation_prerequisites) are met.
 1. Download the Platform Server installation binaries. Make sure you download the same version that's already running on the other servers of the environment.
+1. Export the following files from the Controller server:
+    * `..\Outsystems\Platform\private.key`
+    * Configuration file from the Platform Server Configuration tool
 1. Follow the installation checklist that's bundled with the Platform Server by:
     * Selecting the **First install** task
     * Choosing the role (the name of the role depends on the Platform Server version):
