@@ -15,7 +15,8 @@ jobs:
       runner-type: "ubuntu-latest"
       markdownlint-overrides: >
         [
-          { "pattern": "src/troubleshooting/incident-models/**/*.md", "config": "src/troubleshooting/incident-models/.markdownlint.json" }
+          { "pattern": "src/troubleshooting/incident-models/**/*.md", "config": "src/troubleshooting/incident-models/.markdownlint.json" },
+          { "pattern": "src/release-notes/**/*.md", "config": "src/release-notes/.markdownlint.json" }
         ]
     secrets:
       github-token: ${{ secrets.TOOLS_PAT }}
