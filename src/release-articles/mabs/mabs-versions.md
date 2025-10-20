@@ -89,7 +89,7 @@ Deprecation date to be announced
 
 <div class="warning" markdown="1">
 
-It's recommended to update all supported plugins to the latest version available on the Forge. For more details, please check the **[release notes](https://extranetinternalapps-prd.outsystems.net/Documentation_UI_Staging/support/release_notes/mobile_apps_build_service_versions/mabs_11_release_notes/#mabs-version-11-2)**.
+It's recommended to update all supported plugins to the latest version available on the Forge. For more details, please check the **[release notes](https://success.outsystems.com/support/release_notes/mobile_apps_build_service_versions/mabs_11_release_notes/#mabs-version-11-2)**.
 
 </div>
 
