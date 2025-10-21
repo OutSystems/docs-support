@@ -20,7 +20,7 @@ For RequestEvent logs streamed through Log Streaming feature, new attributes are
 </ul>
 <h3 id="bug_fixing_platform_server_11.32.0" >Bug Fixing</h3>
 <ul>
-<li>Fixed incorrect database version deprecation notice appearing in Configuration Tool when installing/upgrading on SQL Server 2014 and Azure SQL. (R11BRT-1456)</li>
+<li>Fixed incorrect database version deprecation notice appearing in Configuration Tool and Database Connections when using a SQL Server 2014 and Azure SQL databases. (R11BRT-1456)</li>
 <li>Fixed the filename of the exported log file from Service Center for the screen requests and traditional web request logs. Reported by <a href="https://www.outsystems.com/profile/tw1mjitbcc/overview">João Martins Pereira</a>. (R11CT-3395)</li>
 <li>Fixed an issue on the error page where the default error message appeared on the first render instead of the custom-defined one. Now, when a custom error message is set, the default error message no longer appears initially. This applies to Mobile applications only. (RPM-4231) <span class="cattag">Application Runtime</span>  <span class="cattag">Data Access and Manipulation</span> </li>
 <li>Fixed an issue that prevented the source code of an application from being downloaded correctly, using the LifeTime API /lifetimeapi/rest/v2/applications/{ApplicationKey}/versions/{VersionKey}/content/,  when the application includes an extension. (RPM-5136) <span class="cattag">Application Lifecycle</span>  <span class="cattag">LifeTime</span> </li>
