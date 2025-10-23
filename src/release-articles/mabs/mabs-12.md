@@ -53,32 +53,45 @@ Plugin requirements for **MABS 12**. For more details, click the plugin name on 
 
 |Plugin|Required minimum version for O11|Required minimum version for ODC|
 |---|---|---|
+|[Analytics (Firebase)](https://www.outsystems.com/forge/component-versions/10704)|-|1.3.0 or later|
 |[Barcode](https://www.outsystems.com/forge/component-versions/1403)|5.5.7 or later|1.3.0 or later|
+|[Camera](https://www.outsystems.com/forge/component-versions/1390)|7.6.4 or later|1.3.3 or later|
+|[Card IO](https://www.outsystems.com/forge/component-versions/1438)|3.2.3 or later|-|
 |[Calendar](https://www.outsystems.com/forge/component-versions/1566)|3.1.6 or later|1.0.6 or later|
 |[Ciphered Local Storage](https://www.outsystems.com/forge/component-versions/1500)|3.2.4 or later|1.1.3 or later|
+|[Contacts](https://www.outsystems.com/forge/component-versions/1394)|-|1.0.3 or later|
+|[Cloud Messaging (Firebase)](https://www.outsystems.com/forge/component-versions/12174)|-|2.3.1 or later|
+|[Crash Reporting (Firebase)](https://www.outsystems.com/forge/component-versions/10705)|-|1.2.0 or later|
 |[File](https://www.outsystems.com/forge/component-versions/1633)|3.0.7 or later|2.0.0 or later|
+|[File Transfer](https://www.outsystems.com/forge/component-versions/1409)|-|2.0.0 or later|
 |[File Viewer](https://www.outsystems.com/forge/component-versions/1606)|2.0.10 or later|2.0.0 or later|
-|[Health & Fitness](https://www.outsystems.com/forge/component-versions/11715)|2.2.1 or later|1.4.1 or later|
+|[Health & Fitness](https://www.outsystems.com/forge/component-versions/11715)|2.2.1 or later|1.4.2 or later|
+|[Key Store](https://www.outsystems.com/forge/component-versions/1550)|-|1.2.3 or later|
+|[InAppBrowser](https://www.outsystems.com/forge/component-versions/1558)|-|2.2.0 or later|
+|[Local Notifications](https://www.outsystems.com/forge/component-overview/1541/local-notifications-plugin)|-|1.0.5 or later|
+|[Location](https://www.outsystems.com/forge/component-overview/1395/location-plugin)|-|2.0.1 or later|
+|[OneSignal](https://www.outsystems.com/forge/component-versions/2119)|-|1.1.6 or later|
+|[Payments](https://www.outsystems.com/forge/component-versions/13678)|-|1.1.10 or later|
+|[Performance Monitoring (Firebase)](https://www.outsystems.com/forge/component-versions/10706)|-|1.2.0 or later|
+|[SSL Pinning](https://www.outsystems.com/forge/component-versions/1873)|-|1.0.8 or later|
+|[Touch ID](https://www.outsystems.com/forge/component-versions/1431)|-|1.2.0 or later|
 
 The table below contains the list of plugins and their supported versions. It is important to note that it is recommended to always use the latest version available of a plugin.
 
 |Plugin|Supported minimum version for O11|Supported minimum version for ODC|
 |---|---|---|
-|[Camera](https://www.outsystems.com/forge/component-versions/1390)|7.6.4 or later|7.8.1 or later|
-|[Card IO](https://www.outsystems.com/forge/component-versions/1438)|3.2.3 or later| 3.2.4 or later|
-|[Contacts](https://www.outsystems.com/forge/component-versions/1394)|4.0.6 or later|1.0.3 or later|
-|[File Transfer](https://www.outsystems.com/forge/component-versions/1409)|2.1.7 or later|2.0.0 or later|
-|[Key Store](https://www.outsystems.com/forge/component-versions/1550)|2.4.1 or later|1.2.0 or later|
-|[Location](https://www.outsystems.com/forge/component-overview/1395/location-plugin)|5.2.2 or later|2.0.1 or later|
-|[Local Notifications](https://www.outsystems.com/forge/component-overview/1541/local-notifications-plugin)|7.2.1 or later|1.0.5 or later|
 |[Analytics (Firebase)](https://www.outsystems.com/forge/component-versions/10704)|2.2.2 or later|1.3.0 or later|
-|[Cloud Messaging (Firebase)](https://www.outsystems.com/forge/component-versions/12174)|4.4.0 or later|2.3.0 or later|
+|[Contacts](https://www.outsystems.com/forge/component-versions/1394)|4.0.6 or later|1.0.3 or later|
+|[Cloud Messaging (Firebase)](https://www.outsystems.com/forge/component-versions/12174)|4.4.0 or later|2.3.1 or later|
 |[Crash Reporting (Firebase)](https://www.outsystems.com/forge/component-versions/10705)|2.1.1 or later|1.2.0 or later|
-|[Dynamic Links (Firebase)](https://www.outsystems.com/forge/component-versions/10988)|2.1.1 or later|1.1.2 or later|
-|[Performance Monitoring (Firebase)](https://www.outsystems.com/forge/component-versions/10706)|2.1.1 or later|1.2.0 or later|
-|[Touch ID](https://www.outsystems.com/forge/component-versions/1431)|3.3.9 or later|1.2.0 or later|
+|[File Transfer](https://www.outsystems.com/forge/component-versions/1409)|2.1.7 or later|2.0.0 or later|
+|[Key Store](https://www.outsystems.com/forge/component-versions/1550)|2.4.1 or later|1.2.3 or later|
+|[InAppBrowser](https://www.outsystems.com/forge/component-versions/1558)|2.4.10 or later|2.2.0 or later|
+|[Local Notifications](https://www.outsystems.com/forge/component-overview/1541/local-notifications-plugin)|7.2.1 or later|1.0.5 or later|
+|[Location](https://www.outsystems.com/forge/component-overview/1395/location-plugin)|5.2.2 or later|2.0.1 or later|
 |[OneSignal](https://www.outsystems.com/forge/component-versions/2119)|3.7.5 or later|1.1.6 or later|
-|[SSL Pinning](https://www.outsystems.com/forge/component-versions/1873)|7.0.1 or later|1.0.8 or later|
+|[Payments](https://www.outsystems.com/forge/component-versions/13678)|1.2.2 or later|1.1.10 or later|
+|[Performance Monitoring (Firebase)](https://www.outsystems.com/forge/component-versions/10706)|2.1.1 or later|1.2.0 or later|
 |[Social Login Mobile](https://www.outsystems.com/forge/component-versions/7895)|4.2.2 or later|-|
-|[Payments](https://www.outsystems.com/forge/component-versions/13678)|1.2.2 or later|1.2.4 or later|
-|[InAppBrowser](https://www.outsystems.com/forge/component-versions/1558)|2.4.10 or later|3.3.1 or later|
+|[SSL Pinning](https://www.outsystems.com/forge/component-versions/1873)|7.0.1 or later|1.0.8 or later|
+|[Touch ID](https://www.outsystems.com/forge/component-versions/1431)|3.3.9 or later|1.2.0 or later|

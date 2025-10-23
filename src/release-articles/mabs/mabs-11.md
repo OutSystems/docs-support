@@ -47,6 +47,10 @@ For more details, click the plugin name on Forge. OutSystems recommends always u
 
 |Plugin|Minimum supported version for O11|Minimum supported version for ODC|
 |:---|---|---|
+|[Ciphered Local Storage](https://www.outsystems.com/forge/component-versions/1500)|3.2.4 or later|1.1.2 or later|
+|[Cloud Messaging (Firebase)](https://www.outsystems.com/forge/component-versions/12174)|4.4.0 or later|2.3.1 or later|
+|[Health & Fitness](https://www.outsystems.com/forge/component-versions/11715)|2.2.1 or later|1.4.0 or later|
+|[Key Store](https://www.outsystems.com/forge/component-versions/1550)|2.4.1 or later|1.2.3 or later|
 |[SSL Pinning](https://www.outsystems.com/forge/component-versions/1873)|7.0.1 or later|1.0.8 or later|
 |[Payments](https://www.outsystems.com/forge/component-versions/13678)|1.2.2 or later|1.1.10 or later|
 
