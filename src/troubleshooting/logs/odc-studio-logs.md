@@ -18,7 +18,7 @@ coverage-type:
 
 # ODC Studio logs
 
-## Unexpcted errors
+## Unexpected errors
 
 When an unexpected error occurs in ODC Studio, you'll get an **Unexpected Error** window. In this window, you can obtain the error report to send to OutSystems Support.
 
