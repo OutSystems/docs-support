@@ -20,3 +20,4 @@ jobs:
         ]
     secrets:
       github-token: ${{ secrets.TOOLS_PAT }}
+      copilot-token: ${{ secrets.TK_COPILOT_TOKEN }}
