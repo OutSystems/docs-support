@@ -6,7 +6,7 @@ app_type: mobile apps
 platform-version: o11, odc
 ---
 
-# MABS 12 Release notes
+# MABS 12 release notes
 
 <div class="info" markdown="1">
 
@@ -16,8 +16,7 @@ For detailed information about common issues and solutions, refer to [Troublesho
 
 </div>
 
-OutSystems is excited to announce the release of MABS 12, which helps you stay ahead of the latest mobile requirements and allows you to try the next-generation mobile runtime, **Capacitor**, for enhanced performance and flexibility. In addition, MABS 12 supports the latest SDKs from iOS and Android to meet the store submission compliance needs for 2026. 
-
+OutSystems is excited to announce the release of [MABS 12](https://www.outsystems.com/tk/redirect?g=6b8e1729-3b16-4945-bf72-c22628e71421). This version helps you stay ahead of the latest mobile requirements. It also allows you to try the next-generation mobile runtime, **Capacitor**, for enhanced performance and flexibility. In addition, MABS 12 supports the latest SDKs from iOS and Android to meet the store submission compliance needs for 2026.
 
 <div class="warning" markdown="1">
 
@@ -34,20 +33,20 @@ OutSystems recommends updating all supported plugins to the latest version avail
 
 </div>
 
-### What's New
+### What's new
 
 MABS 12.0 comes packed with new features and enhancements.
 
-- Introduction of Capacitor, next generation hybrid mobile framework offering great performance and flexibility
-- Support for the iOS 26 SDKs and Android API level 36, aligning with the upcoming Apple and Google app store requirements for 2026
-- Introduction of modern concepts, such as build actions and universal extensibility, giving you more control over building your Capacitor applications
-- Access to a highly active Capacitor developer community with a growing library of [plugins](https://capacitorjs.com/docs/plugins) to use
-- Status bar for Android can now be customized on the Mobile Tab - Requires ODC Studio version 1.5.28-8307 or later
-- Extensibility now has auto-complete when setting preferences using the modern schema, and it will also display any errors - Requires ODC Studio version 1.5.28-8307 or later
+* Introduction of Capacitor, next generation hybrid mobile framework offering great performance and flexibility
+* Support for the iOS 26 SDKs and Android API level 36, aligning with the upcoming Apple and Google app store requirements for 2026
+* Introduction of modern concepts, such as [build actions](https://www.outsystems.com/tk/redirect?g=35892a80-96be-43bf-a89f-8d535b5b6f09) and [universal extensibility](https://www.outsystems.com/tk/redirect?g=941e56cf-aacf-43bf-9d1c-f131565036e6), giving you more control over building your Capacitor apps.
+* Access to a highly active Capacitor developer community with a growing library of [plugins](https://capacitorjs.com/docs/plugins) to use
+* Ability to customize the status bar for Android on the Mobile Tab - Requires ODC Studio version 1.5.28-8307 or later
+* Auto-complete and syntactical validation for preferences and values when using universal extensibility schema. Requires ODC Studio version 1.5.28-8307 or later
 
 For additonal details please refer to: [MABS 12 release notes](../../release-notes/mabs/12/12.0/12.0.md)
 
-## System Requirements
+## System requirements
 
 Plugin requirements for **MABS 12**. For more details, click the plugin name on the Forge.
 
@@ -95,3 +94,20 @@ The table below contains the list of plugins and their supported versions. It is
 |[Social Login Mobile](https://www.outsystems.com/forge/component-versions/7895)|4.2.2 or later|-|
 |[SSL Pinning](https://www.outsystems.com/forge/component-versions/1873)|7.0.1 or later|1.0.8 or later|
 |[Touch ID](https://www.outsystems.com/forge/component-versions/1431)|3.3.9 or later|1.2.0 or later|
+
+## Breaking changes
+
+Here's the list of breaking changes that apply to MABS 12 for building **Capacitor** apps.
+
+* WebView version 102 or higher is required for mobile applications to run on Android devices. Ensure your WebView is up to date by visiting the Play Store.
+* The Inspector is no longer available for iOS debug builds. If you need to inspect the network requests you can set one of the many interactive HTTPS proxies available.
+* The `DeepLinksHandlerType` configuration no longer has any effect. Deeplinks are only customizable via the `window.handleOpenURL` function, which must be defined in a script that is loaded by the application module. If not defined, the application navigates to the deeplink URL by default.
+
+## Known issues
+
+Here's the list of known issues:
+
+* Users cannot upload custom xcprivacymanifest for Capacitor apps  **(Capacitor only)**
+* Updates over the air fail for apps that use build actions YAML file provided as OutSystems app resources **(Capacitor only)**
+* Back navigation with back button or gesture navigation doesn't affect in-app navigation when running in Android 16 **(Capacitor only)**
+* Edge to Edge is now mandatory for Android 16/API 36. Support is still limited.
