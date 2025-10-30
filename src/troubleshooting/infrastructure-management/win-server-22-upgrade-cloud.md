@@ -28,7 +28,7 @@ OutSystems will upgrade all Windows Server 2016 environments in OutSystems 11 Cl
 
 As part of this change, OutSystems will also:
 
-* Upgrade environments to a recent Platform Server (PS) version, ensuring compatibility with Windows Server 2022 and access to the latest stability, security improvements, and platform unification features.  
+* Upgrade environments to Platform Server (PS) version 11.40.0, ensuring compatibility with Windows Server 2022 and access to the latest stability, security improvements, and platform unification features.  
 * Enable TLS 1.3 and disable TLS 1.0 and 1.1, aligning with modern security standards.
 
 To minimize disruption, OutSystems will roll out this upgrade in phases throughout the first half of 2026. Customers will receive advance notice and a confirmed schedule well ahead of the operation. There will also be flexibility to adjust planned dates if needed, ensuring you have time to prepare and align with your internal release or freeze periods.  
@@ -36,7 +36,7 @@ This page provides all the details you need to understand the impact of this cha
 
 <div class="info" markdown="1">
 
-Start preparing now. Most preparation tasks do not depend on your specific schedule and can be completed in advance.
+Start preparing now. Most preparation tasks do not depend on your specific schedule and can be completed in advance. While Platform Server 11.40.0 has not been released yet, you can begin reviewing breaking changes up to the latest available Platform Server version to identify potential impacts on your applications.
 
 </div>
 
@@ -145,7 +145,7 @@ Temporary files saved to the local disk will be lost.
 
 ### Platform Server upgrade impacts {#platform-server-upgrade-impacts}
 
-Upgrading the Platform Server is required before the Windows Server upgrade. This step may introduce breaking changes depending on your current version.
+Upgrading the Platform Server to version 11.40.0 is required before the Windows Server upgrade. This step may introduce breaking changes depending on your current version.
 
 #### Impact
 
@@ -153,7 +153,7 @@ Depending on your starting version, this may introduce breaking changes to platf
 
 #### Actions required
 
-1. Review the [OutSystems 11 side effects and breaking changes](../../release-articles/11/side-effects-breaking-changes.md) for the versions you’re moving across.  
+1. Review the [OutSystems 11 side effects and breaking changes](../../release-articles/11/side-effects-breaking-changes.md) for the versions you're moving across. Since Platform Server 11.40.0 has not been released yet, you can begin preparing by reviewing breaking changes up to the latest available version to identify potential impacts on your applications.  
 1. Adapt applications and extensions where needed ahead of the upgrade.
 
 ## FAQ
@@ -182,7 +182,7 @@ In rare cases where it isn’t possible to disable older TLS versions on depende
 
 **Can I upgrade Windows without upgrading the Platform Server?**
 
-No. The Platform Server upgrade is required to ensure compatibility with Windows Server 2022 and to benefit from the latest stability and security improvements.
+No. The Platform Server upgrade to version 11.40.0 is required to ensure compatibility with Windows Server 2022 and to benefit from the latest stability and security improvements.
 
 **How will I be notified about the upgrade?**
 
