@@ -18,7 +18,7 @@ Applies only to Mobile Apps.
 
 </div>
 
-Use the network inspector to see the network activity of your iOS app. The user interface of the network inspector consists of a toolbar and a button that opens the screen with the network traffic details. 
+Use the network inspector to see the network activity of your iOS app. The user interface of the network inspector consists of a toolbar and a button that opens the screen with the network traffic details.
 
 ![Screenshot of the network inspector toolbar in an iOS app.](images/network-inspector-toolbar.png "Network Inspector Toolbar")
 
@@ -27,7 +27,6 @@ Use the network inspector to see the network activity of your iOS app. The user 
 The network inspector is available in the debug builds created with MABS 6.0 and later. For apps built with the earlier versions of MABS, use Web Inspector in Safari.
 
 </div>
-
 
 ## Enabling and opening the network inspection on iOS
 

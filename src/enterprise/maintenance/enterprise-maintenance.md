@@ -18,4 +18,3 @@ coverage-type:
 ---
 
 # Maintenance and Operations
-

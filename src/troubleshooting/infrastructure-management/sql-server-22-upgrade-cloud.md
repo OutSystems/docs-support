@@ -24,7 +24,6 @@ No customer action is required. The upgrade is designed to complete without down
 
 You'll receive an email notification with your specific upgrade schedule as part of OutSystems Cloud maintenance communications.
 
-
 ## FAQs
 
 ### Why is OutSystems upgrading SQL Server to version 2022 in O11 Cloud?
@@ -51,15 +50,13 @@ OutSystems fully manages the upgrade process. Here's what we recommend:
 * Avoid heavy database operations during the scheduled window to ensure smooth completion.  
 * Run your regular app tests after the upgrade to ensure everything works as expected.
 
-
-
 ### What new features will be available?
 
 You'll benefit from an updated technology stack with no impact on your experience. Your queries will continue working just as before. We are also updating the compatibility level of the database from 130 to 150. This means you can take full advantage of new features introduced in [SQL Server 2017](https://learn.microsoft.com/en-us/sql/sql-server/what-s-new-in-sql-server-2017?view=sql-server-ver17) and [SQL Server 2019](https://learn.microsoft.com/en-us/sql/sql-server/what-s-new-in-sql-server-2019?view=sql-server-ver15).
 
 ### Are there any breaking changes?
 
-No. This upgrade will improve the reliability and future readiness of OutSystems Cloud. We'll ensure that the upgrade is transparent so that you can continue to use your environments without needing to adapt your code or configurations. 
+No. This upgrade will improve the reliability and future readiness of OutSystems Cloud. We'll ensure that the upgrade is transparent so that you can continue to use your environments without needing to adapt your code or configurations.
 
 ### When will the upgrade occur?
 
@@ -68,8 +65,8 @@ The upgrade schedule is planned as follows:
 * Rollout phase: June to September 2025  
 * Operations take place during your defined maintenance window (extended to 8 hours for this operation)  
 * You'll receive an operation notification via email describing:  
-  * Affected environments  
-  * Exact UTC time of the operation
+    * Affected environments  
+    * Exact UTC time of the operation
 
 <div class="info" markdown="1">
 

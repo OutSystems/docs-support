@@ -31,6 +31,6 @@ If you see no devices on the list that is printed, please validate that USB Debu
 1. Run the following command to extract the logs:
 `adb.exe logcat -d > device.log`
 1. Wait for a couple of seconds and click **CTRL + C** in the command line to stop the process.
-1. Send the **device.log** file found in `<directory_path>` to OutSystems Support. 
+1. Send the **device.log** file found in `<directory_path>` to OutSystems Support.
 
 If none of these steps failed, you should have a file with entries on it. If the file has a size of 0kb (empty), please review all the previous steps.

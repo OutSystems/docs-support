@@ -18,7 +18,7 @@ These features are released much more frequently, in smaller chunks, and before 
 * OutSystems doesn't provide support for these features.
 * Features in Technical Preview may change significantly or even be removed.
 
-Starting from LifeTime Release May.2019, you can enjoy these features before they're generally available. In LifeTime, toggle the switch to **ON** to activate the feature you want to use. 
+Starting from LifeTime Release May.2019, you can enjoy these features before they're generally available. In LifeTime, toggle the switch to **ON** to activate the feature you want to use.
 
 <div class="info" markdown="1">
 
@@ -34,8 +34,8 @@ For self-managed installations, Technical Preview is at **Infrastructure** > **T
 
 ![Screenshot of the Technical Preview section in the LifeTime Management Console with environment features and LifeTime features.](images/tech-preview-lt.png "Technical Preview in LifeTime Management Console")
 
-
 ## Features currently in Technical Preview
+
 * **PATCH method on exposed REST services**: PATCH in an exposed REST Service. This new feature enables users to partially update a resource. [Learn more about this feature](https://success.outsystems.com/Documentation/11/Extensibility_and_Integration/REST/Expose_REST_APIs/PATCH_method_on_exposed_REST_services).
 
 * **Configure mobile apps update distribution**:  Choose how your existing users receive mobile apps' updates: automatically through your servers or manually through app stores. To use this feature, it must be enabled in all environments. [Learn more about this feature](https://success.outsystems.com/Documentation/11/Delivering_Mobile_Apps/Technical_Preview_-_Configure_mobile_apps_updates_distribution).

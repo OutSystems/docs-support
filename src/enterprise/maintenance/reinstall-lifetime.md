@@ -77,7 +77,7 @@ To reinstall LifeTime in a new dedicated environment the following requirements 
 
 1. Download the latest [LifeTime Management Console binaries](https://www.outsystems.com/goto/lifetime-installer) from the downloads area.
 
-1. Follow [LifeTime's installation checklist](https://www.outsystems.com/goto/checklist-lifetime) to install LifeTime in a new dedicated environment. 
+1. Follow [LifeTime's installation checklist](https://www.outsystems.com/goto/checklist-lifetime) to install LifeTime in a new dedicated environment.
 
 1. Get a [license file](https://www.outsystems.com/licensing) for the new LifeTime dedicated environment and apply the license in the new environment.
 
@@ -114,7 +114,7 @@ Tip: You can use [LifeTime Services API](<https://success.outsystems.com/Documen
 1. For all registered environments, choose **Edit** and select **Unregister environment**. After unregistering all environments, you will see the following screen:
 
     ![Screenshot of the 'Manage Environments' screen in LifeTime with options to register OutSystems environments.](images/reinstall-lifetime-02.png "Manage Environments Screen in LifeTime")
- 
+
 1. Go to the Service Center console of the original LifeTime environment and log in as Administrator, `https://<original-lifetime-environment>/ServiceCenter`.
 
 1. Go to the **Factory** section and choose **LifeTimePerformanceMonitor** application from the Applications list.
@@ -122,7 +122,7 @@ Tip: You can use [LifeTime Services API](<https://success.outsystems.com/Documen
 1. Disable **LifeTimePerformanceMonitor** application.
 
     ![Screenshot of the LifeTimePerformanceMonitor application in the Service Center with the 'Disable' button highlighted.](images/reinstall-lifetime-03.png "Disable LifeTimePerformanceMonitor Application")
- 
+
 1. From the Applications list, choose **LifeTime** application and **Disable** it.
 
 1. From the Applications list, choose **LifeTimeSDK** application and **Disable** it.
@@ -138,7 +138,7 @@ Tip: You can use [LifeTime Services API](<https://success.outsystems.com/Documen
     <div class="info" markdown="1">
 
     Tip: If you used LifeTime Services API to retrieve the Roles from the original LifeTime environment, use the retrieved data to create the Roles in the new dedicated environment. Check [BackupLTPermissions](<https://www.outsystems.com/forge/4043/>) component in OutSystems Forge as an example on how to retrieve these data from LifeTime.
-    
+
     </div>
 
 1. Go to the **INFRASTRUCTURE** area and [register all your OutSystems environments](<https://success.outsystems.com/Support/Enterprise_Customers/Installation/Configure_the_infrastructure_management_console>).
@@ -160,8 +160,8 @@ If the original LifeTime environment version is **Platform Server 10.0.804.0 or 
 1. Delete **LifeTimePerformanceMonitor** application.
 
     ![Screenshot of the LifeTimePerformanceMonitor application in the Service Center with the 'Delete' button highlighted.](images/reinstall-lifetime-07.png "Delete LifeTimePerformanceMonitor Application")
- 
-1. From the Applications list, choose **LifeTime** application and **Delete** it. 
+
+1. From the Applications list, choose **LifeTime** application and **Delete** it.
 
 1. From the Applications list, choose **LifeTimeSDK** application and **Delete** it.
 

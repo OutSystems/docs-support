@@ -21,7 +21,7 @@ Since the release of [MABS version 6.0](https://success.outsystems.com/Support/R
 
 * Enable offline support with WKWebView
 * Navigate to other **OutSystems** mobile applications
-* Access other **OutSystems** mobile applications with InAppBrowser 
+* Access other **OutSystems** mobile applications with InAppBrowser
 
 For Android and InAppBrowser windows, **OutSystems** native mobile apps run under the `https://` scheme. On iOS the `outsystems://` scheme is used.
 
@@ -47,7 +47,6 @@ https://YOUR_APP_URL
 
 You can get more information if you notice this behavior from the **Service Center**  [monitoring page](#monitoring). You can identify the issue by searching the **Interrupting main resource load due to CSP frame-ancestors or X-Frame-Options** error log.
 
-
 ### iframe content is displayed but does not behave as expected
 
 With the [version 2.3](https://webkit.org/blog/9521/intelligent-tracking-prevention-2-3/) release of Apple’s Webkit Intelligent Tracking Prevention (ITP) in 2017, Safari on iOS 13 and iPadOS beta, and Safari 13 on macOS, blocks all cookies for cross-site resources by default.
@@ -67,8 +66,7 @@ You can read more about this issue in the [Safari Blocks Third-Party Cookies by 
 
 </div>
 
-In March 2020, Apple published a blog post ([Full Third-Party Cookie Blocking](https://webkit.org/blog/10218/full-third-party-cookie-blocking-and-more/)) that suggested two workarounds to address developer concerns about legitimate third-party cookies, such as those used by **OutSystems** to store login and session information. 
-
+In March 2020, Apple published a blog post ([Full Third-Party Cookie Blocking](https://webkit.org/blog/10218/full-third-party-cookie-blocking-and-more/)) that suggested two workarounds to address developer concerns about legitimate third-party cookies, such as those used by **OutSystems** to store login and session information.
 
 #### OAuth 2.0 Authorization
 
@@ -76,10 +74,9 @@ One method requires the end-user to authenticate third-party apps (such as `http
 
 For more information about implementing this solution see the following documents:
 
-* [OAuth 2.0 Authorization](https://tools.ietf.org/html/rfc6749) 
+* [OAuth 2.0 Authorization](https://tools.ietf.org/html/rfc6749)
 * [Using HTTP Cookies](https://developer.mozilla.org/en-US/docs/Web/HTTP/Cookies#Secure_and_HttpOnly_cookies)
 * [Manage cookies and website data in Safari on Mac](https://support.apple.com/en-gb/guide/safari/sfri11471/mac)
-
 
 #### Storage Access API
 
@@ -99,17 +96,15 @@ Designers may use the following code snippets to implement a solution based on S
 
 <div class="info" markdown="1">
 
-Change URLs to reflect actual project addresses. 
+Change URLs to reflect actual project addresses.
 
 </div>
-
 
 ##### Portal page
 
 Include the following elements on the portal page (`https://portal.example.com`):
 
-
-* A sandbox within the iframe element. Sample text is shown below: 
+* A sandbox within the iframe element. Sample text is shown below:
 
 ```HTML
     <iframe
@@ -120,6 +115,7 @@ Include the following elements on the portal page (`https://portal.example.com`)
       sandbox="allow-storage-access-by-user-activation allow-scripts allow-same-origin">
     </iframe>
 ```
+
 * A script that checks if the browser supports Storage Access API, sets cookie properties, and then navigates to the hosted **OutSystems** app in the iframe.
 
 ```javascript

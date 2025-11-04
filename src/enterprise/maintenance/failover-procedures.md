@@ -49,7 +49,7 @@ The following procedure presents the steps required switch the front-ends from t
         1. Right-click on the **OutSystems Scheduler Service** and chose **Start**.
         1. Right-click it again and chose **Properties**
         1. In the **Startup type** dropdown, choose **Automatic**. Click **OK** at the bottom.
-1. On every OutSystems server, 	**start service OutSystems Deployment Service and set it as automatic.**
+1. On every OutSystems server,  **start service OutSystems Deployment Service and set it as automatic.**
     * In .NET stack:
         1. Go to **Start** > **Services**.
         1. Right-click on the **OutSystems Deployment Service** and chose **Start**.
@@ -139,7 +139,7 @@ The following procedure presents the required steps to move controller roles and
     1. Go to **Start** > **Services**.
     1. Right-click on the **RabbitMQ Service** and choose **Stop**. Right-click it again and choose **Properties**
     1. In the **Startup type** dropdown, choose **Disabled**. Click **OK** at the bottom.
-1. On the new OutSystems Deployment Controller server, **Set OutSystems Deployment Controller Startup Type as Automatic**. 
+1. On the new OutSystems Deployment Controller server, **Set OutSystems Deployment Controller Startup Type as Automatic**.
     1. Go to **Start** > **Services**.
     1. Right-click on the **OutSystems Deployment Controller Service** and choose **Properties**
     1. In the **Startup type** dropdown, choose **Automatic**. Click **OK** at the bottom.

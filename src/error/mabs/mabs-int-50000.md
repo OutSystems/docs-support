@@ -29,6 +29,7 @@ This error occurs when MABS fails to create the cordova project.
 Users can't generate the application package.
 
 ## Recommended action
+
 Try to repeat the operation and check the build logs on Service Center.
 
 If the problem persists, create a case with [OutSystems support](https://www.outsystems.com/support/portal/open-support-case?ErrorCode=OS-MABS-INT-50000).

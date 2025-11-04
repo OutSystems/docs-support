@@ -50,7 +50,6 @@ While setting up the VPN, OutSystems provisions internal DNS servers that should
 
     * Domain to be resolved: xxxx.rds.amazonaws.com (provided in the database access configuration).
 
-
 ## Establishing a stable connection
 
 To establish a stable VPN connection to OutSystems Cloud you need to take in consideration the following:

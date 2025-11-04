@@ -31,7 +31,7 @@ Your session has more than the defined number of OPEN_CURSORS.
 
 ## Resolution
 
-**Option 1**: 
+**Option 1**:
 
 Depending on the value of the **OPEN_CURSORS** you have defined in your Oracle database, you may need to change the value. To do this, run this query:
 
@@ -39,11 +39,11 @@ Depending on the value of the **OPEN_CURSORS** you have defined in your Oracle d
 
 Remember that the maximum value is 65535.
 
-**Option 2**: 
+**Option 2**:
 
-Modify your logic so that it doesn’t use the aggregate output as a direct input for the server action. To do this, follow these steps: 
+Modify your logic so that it doesn’t use the aggregate output as a direct input for the server action. To do this, follow these steps:
 
-1. Create and assign a local variable (with the Assign widget) to the existing aggregate output. 
+1. Create and assign a local variable (with the Assign widget) to the existing aggregate output.
 
     ![Screenshot showing the process of creating and assigning a local variable in a development environment.](images/create-local-variable-ss.png "Creating a Local Variable in the Development Environment")
 
@@ -56,4 +56,3 @@ The following is example logic:
 ![Flowchart screenshot depicting an example logic flow with a decision node and actions using a local variable.](images/example-logic-ss.png "Example Logic Flow")
 
 For more information about preventing too many **OPEN_CURSORS** in a session, see Oracle’s [OPEN_ CURSORS](https://docs.oracle.com/en/database/oracle/oracle-database/19/refrn/OPEN_CURSORS.html#GUID-FAFD1247-06E5-4E64-917F-AEBD4703CF40) documentation.
- 

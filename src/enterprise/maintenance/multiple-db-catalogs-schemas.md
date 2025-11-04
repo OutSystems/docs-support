@@ -32,7 +32,7 @@ Enterprise applications often require thorough data separation down to database 
 
 ## Introduction
 
-OutSystems supports both Microsoft SQL Server and Oracle. While these database management systems use different terminology, for a matter of simplicity this technical note uses the term **database** to refer to an SQL Server Catalog and Oracle Schema. 
+OutSystems supports both Microsoft SQL Server and Oracle. While these database management systems use different terminology, for a matter of simplicity this technical note uses the term **database** to refer to an SQL Server Catalog and Oracle Schema.
 
 ## Why use Multiple Database Catalogs and Schemas
 
@@ -139,7 +139,7 @@ To move a module to a different Catalog execute the following steps:
     1. Click **Apply**.
 
         The module won't be moved right away but marked for to be moved, therefore, it will still be operating with its old Catalog.
- 
+
 1. Copy the database data.
 
     | For Version 8 or lower| For Platform 9 or higher|
@@ -155,7 +155,7 @@ To move a module to a different Catalog execute the following steps:
 1. Finish the module move
 
     a. In Service Center, publish the module.
-    
+
     b. The Platform Server first checks that all tables of the module are created in the destination Catalog. Then it displays a **Use Matching Tables** option that is to be selected, and continue with the publishing process.
 
     The **Use Matching Tables** option automatically detects tables or entities in the source that share the same name and structure as those already in your app. It then matches them to existing OutSystems entities to avoid creating duplicates and reuses their definitions, preserving relationships, keys, and attributes.
@@ -171,7 +171,7 @@ To move a module to a different Catalog execute the following steps:
 To stage a solution to a Production environment with modules  moved to a different Catalog, proceed as follows:
 
 1. Make backups of the databases.
- 
+
 1. Stage the solution
 
     a. Open Service Center of the Production environment.
@@ -179,14 +179,14 @@ To stage a solution to a Production environment with modules  moved to a differe
     b. In the Solution list screen, upload the solution.
 
     c. Because the solution contains moved modules, a table detailing them is displayed during the upload, and their move should be confirmed.
- 
+
 1. Copy the database data
 
     a. Once the module is marked to be moved, take offline the application that contains the module (using the **Take Offline** button, on the application details screen).
-    b. Create a SQL script to copy the module data to the destination catalog (run it in SQL Server Management Studio). 
-    c. Ensure that the move operation was successful and the application is working properly. 
+    b. Create a SQL script to copy the module data to the destination catalog (run it in SQL Server Management Studio).
+    c. Ensure that the move operation was successful and the application is working properly.
 
-1.  Finish the solution staging
+1. Finish the solution staging
 
     a. In Service Center, publish the solution.
 
@@ -205,7 +205,7 @@ To stage a solution to a Production environment with modules  moved to a differe
 To move an module to a different Schema execute the following steps:
 
 1. Backup the source and destination databases
- 
+
 1. Mark the module to be moved
 
     a. Open Service Center.
@@ -213,14 +213,14 @@ To move an module to a different Schema execute the following steps:
     b. Go to the module details screen, select the Operation tab and select the Catalog where the module is to be moved to.
 
     c. Click **Apply**.
-    
+
     The module won’t be moved right away but marked to be moved, therefore, it will still be operating with its old Schema.
- 
+
 1. Copy the database data
 
-    a. Once the module is marked to be moved, take offline the application that contains the module (using the **Take Offline** button, on the application details screen). 
-    b. Create and run a SQL script to copy the module data to the destination Schema. 
-    c. Ensure that the move operation was successful and the application is working properly. 
+    a. Once the module is marked to be moved, take offline the application that contains the module (using the **Take Offline** button, on the application details screen).
+    b. Create and run a SQL script to copy the module data to the destination Schema.
+    c. Ensure that the move operation was successful and the application is working properly.
 
 1. Finish the module move
 
@@ -239,7 +239,7 @@ To move an module to a different Schema execute the following steps:
 To stage a Solution to a Production environment with modules moved to a different Schema, proceed as follows:
 
 1. Make backups of the databases in question.
- 
+
 1. Stage the solution.
 
     a. Open Service Center of the Production environment.
@@ -247,12 +247,12 @@ To stage a Solution to a Production environment with modules moved to a differen
     b. In the Solution list screen, upload the solution.
 
     c. Because the solution contains moved modules, a table detailing them is displayed during the upload, and their move should be confirmed.
- 
+
 1. Copy the database data
 
     a. Once the module is marked to be moved, take offline the application that contains the module (using the **Take Offline** button, on the application details screen).
     b. Create and run a SQL script to copy the module data to the destination Schema.
-    c. Ensure that the move operation was successful and the application is working properly. 
+    c. Ensure that the move operation was successful and the application is working properly.
 
 1. Finish the solution staging.
 
@@ -265,4 +265,3 @@ To stage a Solution to a Production environment with modules moved to a differen
     d. Bring the modules online through the **Bring Online** button on the details screen of each of the application that contains the modules moved.
 
     e. The solution is now staged and all moved modules using their new Schemas.
-

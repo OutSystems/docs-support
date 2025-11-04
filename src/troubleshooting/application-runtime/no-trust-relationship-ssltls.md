@@ -15,7 +15,7 @@ coverage-type:
   - unblock
 ---
 
-# Could not establish trust relationship when consuming web services in OutSystems 
+# Could not establish trust relationship when consuming web services in OutSystems
 
 ## Symptoms
 
@@ -60,4 +60,3 @@ The resolution depends on the what's causing the SSL certificate validation to f
 | The Certificate Root Authority that issued the certificate is not trusted by the server. | Make sure to add the certificate to the trusted store on OutSystems servers. Check the instructions:<ul><li>[For OutSystems cloud](https://success.outsystems.com/Support/Enterprise_Customers/Maintenance_and_Operations/Add_certificate_to_trusted_root_store_in_OutSystems_cloud).</li><li>[For self managed environments](https://success.outsystems.com/Support/Enterprise_Customers/Installation/Add_self_signed_certificate_to_trusted_root_store_on_OutSystems).</li></ul> |
 | The certificate is self-signed. | Make sure to install the certificate as trusted. Check the instructions:<ul><li>[For OutSystems cloud](https://success.outsystems.com/Support/Enterprise_Customers/Maintenance_and_Operations/Add_certificate_to_trusted_root_store_in_OutSystems_cloud).</li><li>[For self managed environments](https://success.outsystems.com/Support/Enterprise_Customers/Installation/Add_self_signed_certificate_to_trusted_root_store_on_OutSystems).</li></ul> |
 |Protocol and ciphers mismatch| The server and client might not be able to communicate if the two don’t share the same protocols and at least one Cipher Suite per protocol. If the server and client machines are accessible over the internet, you can use online tools like SSL Labs to check protocols and ciphers for each endpoint. If they aren't accessible from the internet, go to the command line interface inside one of the machines (either client or server side) and execute the following command for each endpoint: ``nmap -sV --script ssl-enum-ciphers -p 443 <host>``|
-

@@ -640,7 +640,7 @@ Released on Mar 01, 2021</div>
 
 Released on Feb 22, 2021</div>
 
-This release of Service Studio focuses on internal improvements ― this will help our team improve Service Studio faster. Your work shouldn't be impacted by these changes. 
+This release of Service Studio focuses on internal improvements ― this will help our team improve Service Studio faster. Your work shouldn't be impacted by these changes.
 
 <div class="hidden" id="development-environment-11.10.11_end"></div><div class="hidden" id="development-environment-11.10.10_start"></div>
 
@@ -677,7 +677,7 @@ Released on Feb 08, 2021</div>
 
 Released on Feb 01, 2021</div>
 
-This release of Service Studio focuses on internal improvements ― this will help our team improve Service Studio faster. Your work shouldn't be impacted by these changes. 
+This release of Service Studio focuses on internal improvements ― this will help our team improve Service Studio faster. Your work shouldn't be impacted by these changes.
 
 <div class="hidden" id="development-environment-11.10.8_end"></div><div class="hidden" id="development-environment-11.10.7_start"></div>
 
@@ -686,7 +686,7 @@ This release of Service Studio focuses on internal improvements ― this will he
 
 Released on Jan 25, 2021</div>
 
-This release of Service Studio focuses on internal improvements ― this will help our team improve Service Studio faster. Your work shouldn't be impacted by these changes. 
+This release of Service Studio focuses on internal improvements ― this will help our team improve Service Studio faster. Your work shouldn't be impacted by these changes.
 
 <div class="hidden" id="development-environment-11.10.7_end"></div><div class="hidden" id="development-environment-11.10.6_start"></div>
 
@@ -860,7 +860,7 @@ Released on Oct 26, 2020</div>
 
 Released on Oct 19, 2020</div>
 
-This release of Service Studio focuses on internal improvements ― this will help our team improve Service Studio faster. Your work shouldn't be impacted by these changes. 
+This release of Service Studio focuses on internal improvements ― this will help our team improve Service Studio faster. Your work shouldn't be impacted by these changes.
 
 <div class="hidden" id="development-environment-11.8.11_end"></div><div class="hidden" id="development-environment-11.8.10_start"></div>
 
@@ -997,7 +997,7 @@ Released on Aug 10, 2020</div>
 Released on Jul 27, 2020</div>
 <h3 id="new_in_development_environment_11.8.2">New in Development Environment 11.8.2</h3>
 <ul>
-<li>You can now use the Create Structure from Type to generate a structure from an anonymous structure type that will be used in the original variable. 
+<li>You can now use the Create Structure from Type to generate a structure from an anonymous structure type that will be used in the original variable.
 Inspired by <a href="https://www.outsystems.com/ideas/6044/" target="_blank" rel="noopener noreferrer">Maycon Oleczinski's idea</a>. (RDEV-1532)</li>
 </ul>
 <h3 id="bug_fixing_11.8.2">Bug Fixing</h3>
@@ -1171,7 +1171,7 @@ Released on May 11, 2020</div>
 <h3 id="new_in_development_environment_11.7.6">New in Development Environment 11.7.6</h3>
 <ul>
 <li>Fixed a problem with Service Studio that would result in public processes in a module being incorrectly exposed to other modules. (RICT-2463)</li>
-<li>It is now possible to check the publish status through a visual cue in the module tab. 
+<li>It is now possible to check the publish status through a visual cue in the module tab.
 inspired by <a href="https://www.outsystems.com/ideas/2466/" target="_blank" rel="noopener noreferrer">João Martins' idea</a>. (RDEV-1529)</li>
 <li>It's now possible to quickly identify disabled elements in your search results through their greyed out icon. (RDEV-1530)</li>
 <li>We updated the preview of the empty Screen in the list of Screen Templates for Reactive Web  and Mobile Apps. (RTAF-2683)</li>
@@ -1194,7 +1194,7 @@ Released on Apr 27, 2020</div>
 <ul>
 <li>Fixed a problem with Service Studio that would result in public processes in a module being incorrectly exposed to other modules. (RICT-2463)</li>
 <li>It's now possible to quickly identify disabled elements in your search results through their greyed out icon. (RDEV-1530)</li>
-<li>It is now possible to check the publish status through a visual cue in the module tab. 
+<li>It is now possible to check the publish status through a visual cue in the module tab.
 inspired by <a href="https://www.outsystems.com/ideas/2466/" target="_blank" rel="noopener noreferrer">João Martins' idea</a>. (RDEV-1529)</li>
 </ul>
 <h3 id="bug_fixing_11.7.4">Bug Fixing</h3>
@@ -1256,7 +1256,7 @@ Released on Apr 06, 2020</div>
 Inspired by <a href="https://www.outsystems.com/ideas/3128/" target="_blank" rel="noopener noreferrer">Menno Hoogsteen's idea</a>. (RDEV-1252)</li>
 <li>It is now possible to go directly to a widget in the Widget Tree by right-clicking it and selecting the See in Widget Tree option. Inspired by <a href="https://www.outsystems.com/ideas/6288/" target="_blank" rel="noopener noreferrer">Robert B's idea</a>.
 (RDEV-1253)</li>
-<li>It is now possible to clear the text filtering of the applications in the Application List. 
+<li>It is now possible to clear the text filtering of the applications in the Application List.
 Inspired by <a href="https://www.outsystems.com/ideas/7845/" target="_blank" rel="noopener noreferrer">Daniël Kuhlmann's idea</a>. (RDEV-1274)</li>
 <li>You’ll now be able to track the number of conflicts that are left to solve when facing conflicting module versions in Service Studio publish process! Additionally, we’ve increased the overall experience of the process, giving the option to ignore all conflicts and accept the local version right away. (RMAC-1400)</li>
 <li>Now you can use the Table widget in your Mobile applications. Fetch data to your Screen, drop Table to the Screen and select the data in the Source property. Then, drop Attributes to the Table. Add sorting by creating a new OnSort Action that triggers an accelerator with the logic. (RTAFB-2155)</li>
@@ -1281,7 +1281,7 @@ Released on Mar 23, 2020</div>
 <ul>
 <li>The AI-assisted development feature will now also consider Service Actions with Boolean outputs in advanced IF suggestions (RAID-473)</li>
 <li>We tweaked the AI-assisted development feature so it does a better job automatically filling actions' arguments (RAID-520)</li>
-<li>It is now possible to clear the text filtering of the applications in the Application List. 
+<li>It is now possible to clear the text filtering of the applications in the Application List.
 Inspired by <a href="https://www.outsystems.com/ideas/7845/" target="_blank" rel="noopener noreferrer">Daniël Kuhlmann's idea</a>. (RDEV-1274)</li>
 </ul>
 <h3 id="bug_fixing_11.6.32">Bug Fixing</h3>

@@ -19,6 +19,7 @@ coverage-type:
 ---
 
 # Known issue in 11.10.0 - possible downtime after running Configuration Tool
+
 ## Issue description
 
 Starting in Platform Server 11.10.0, the Configuration Tool (CT) writes settings in some configuration files, including the machine.config file. With this change, CT no longer validates existing settings and overwrites them.
@@ -38,22 +39,20 @@ This known issue has a **very high impact**:  application downtime that starts a
 ## How to confirm if you’re affected
 
 * When executing the Configuration tool you can see warnings like:
-    
+
     `Current virtual directory "C:\Program Files\OutSystems\Platform Server\CustomHandlers" was replaced by "C:\Program Files\OutSystems\Platform Server 11.0\CustomHandlers"`
 
     ![Screenshot of the Configuration Tool displaying a warning message about the current virtual directory being replaced.](images/known-issue-11_10-CT.png "Configuration Tool Warning Message")
 
 * The typical symptoms on application runtime are the following:
 
-    * 500 internal errors in requests to the application server 
+    * 500 internal errors in requests to the application server
     * missing assembly errors in Service Center error logs:
 
         `Could not load file or assembly '<module>ReferencesProxy, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. The system cannot find the file specified.`
 
-
 These behaviors should only occur in the front ends servers where **Apply and Exit** was used in the Configuration Tool and changed the paths. To confirm which servers are affected, access one of the affected applications in each server individually (instead of reaching the load balancer hostname).
-For example: if *ApplicationX* is one of the modules where you are experiencing issues, the hostname to access it directly in the FE server would look like: *https://front-end_hostname/ApplicationX*.
-
+For example: if _ApplicationX_ is one of the modules where you are experiencing issues, the hostname to access it directly in the FE server would look like: _https://front-end_hostname/ApplicationX_.
 
 ## Mitigation
 
@@ -66,11 +65,9 @@ This issue will typically affect only front end (FE) servers and not all servers
 
 Now it’s time to recover the environment by applying a corrective measure.
 
-
 ### Corrective measure
 
 Republish all the modules of your factory by [creating and publishing an "all components" solution.](https://success.outsystems.com/Support/Enterprise_Customers/Maintenance_and_Operations/Creating_and_using_an_%22All_Components%22_solution)
-
 
 ### Avoid recurrence
 
@@ -79,9 +76,3 @@ Always execute the Configuration Tool from the same path. For example, if you us
 ## Resolution
 
 A fix for this issue will be available in future Platform Server releases. When fixed, the issue will be identified with RPM-776 in the [Platform Server release notes](https://success.outsystems.com/Support/Release_Notes/11/Platform_Server). To avoid using the suggested workarounds, update to a version with the fix as soon as possible.
-
-
-
-
-
-

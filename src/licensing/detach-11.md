@@ -19,7 +19,7 @@ coverage-type:
 
 # The detach process for OutSystems 11
 
-This document is a step-by-step guide for extracting the source code of your applications (web and mobile) from the .NET version of OutSystems and how to set it up to be executed and maintained independently of OutSystems, if you ever decide to detach from it. 
+This document is a step-by-step guide for extracting the source code of your applications (web and mobile) from the .NET version of OutSystems and how to set it up to be executed and maintained independently of OutSystems, if you ever decide to detach from it.
 
 ## An overview of the detach process
 
@@ -65,10 +65,9 @@ To detach, the Platform Server must be on version 11.18.1 or later. If the envir
 
 If you are detaching from the OutSystems Cloud, you're responsible for:
 
-* Creating the brand new Application Server and brand new database that make up the self-managed environment to be used in the detach process. OutSystems will not create those self-managed environments. 
+* Creating the brand new Application Server and brand new database that make up the self-managed environment to be used in the detach process. OutSystems will not create those self-managed environments.
 
 * Loading and bootstrapping any data and configurations that your apps require into the new Application Server and new database. OutSystems will not provide any full or partial clone of your OutSystems Cloud database. OutSystems provides [access to the database of your OutSystems Cloud](https://www.outsystems.com/tk/redirect?g=4cdae94f-8633-4875-98bd-a3a4ac1bd89a), but it's your responsibility to copy any data from the OutSystems Cloud into the self-managed database.
-
 
 ### Recommendations
 
@@ -101,16 +100,18 @@ Since you will lose most of the OutSystems capabilities, you must guarantee that
 ### Technical pre-requisites { #technical-pre-requisites }
 
 If you are creating a new self-managed environment, you must:
- * Identify the exact Platform Server version and release from which you are detaching;
- * Create the new environment so that it fulfills the [system requirements](https://www.outsystems.com/tk/redirect?g=244db17a-7a98-4cb0-93c0-db91f1c91fd8);
- * Install Microsoft Visual Studio 2022 on the environment;
- * Download the [installation checklist](http://www.outsystems.com/goto/checklist-11) for the exact Platform Server version and release from which you are detaching;
- * Follow all of the steps in the **Pre-installation checklist** section of the installation checklist;
- * Follow the mandatory steps in the **Tuning and Security checklist** section of the installation checklist.
+
+* Identify the exact Platform Server version and release from which you are detaching;
+* Create the new environment so that it fulfills the [system requirements](https://www.outsystems.com/tk/redirect?g=244db17a-7a98-4cb0-93c0-db91f1c91fd8);
+* Install Microsoft Visual Studio 2022 on the environment;
+* Download the [installation checklist](http://www.outsystems.com/goto/checklist-11) for the exact Platform Server version and release from which you are detaching;
+* Follow all of the steps in the **Pre-installation checklist** section of the installation checklist;
+* Follow the mandatory steps in the **Tuning and Security checklist** section of the installation checklist.
 
 If you are reusing an existing self-managed environment, which is only possible if you are detaching from a self-managed environment, you will likely already have almost everything that you need installed and you probably don't need anything else. You will still need to install Microsoft Visual Studio 2022 on the environment, though.
 
 For the Visual Studio installation ensure that the following workloads and components are selected in the installation:
+
 * .NET desktop development workload
 * ASP.NET and web development workload
 * .NET Framework 4.6.1 SDK selected in individual components
@@ -118,11 +119,11 @@ For the Visual Studio installation ensure that the following workloads and compo
 * .NET Framework 4.7.2 SDK selected in individual components
 * .NET Framework 4.7.2 targeting pack selected individual components
 * .NET SDK selected individual components
- 
+
 ### What will you lose?
 
 If you choose to stop using OutSystems, you will no longer have access to all the application development, management, and operation capabilities of the platform. Also, you'll no longer benefit from the Embedded Change Technology (ECT), performance monitoring, and logging capabilities, which means you'll have to implement such functionality by resorting to other tools.
- 
+
 You will retain all core functionality of the applications you developed using Service Studio and Integration Studio. **However, any changes made to the detached source are not supported by OutSystems.**
 
 After detaching the source code of your applications, all OutSystems tools and services will become unavailable (including Service Studio, Integration Studio, Service Center, and LifeTime), along with all of their features for visual development and composition, services repository, integration adapters automatic generation, database, and application hot deployment, configuration management and versioning, packaging, and staging, automatic code containment and optimization, factory access control management, performance monitoring, and analytics.
@@ -131,7 +132,7 @@ Detaching is a one-way street. Once you detach the source code and start develop
 
 ### OutSystems Scheduler Service { #scheduler-service }
 
-If you are using Timers, BPT Activities, or emails in your applications, you can keep such functionality even after detaching from the OutSystems Platform. Unlike other OutSystems services, the source code of the Scheduler Service will be provided for this purpose. 
+If you are using Timers, BPT Activities, or emails in your applications, you can keep such functionality even after detaching from the OutSystems Platform. Unlike other OutSystems services, the source code of the Scheduler Service will be provided for this purpose.
 
 If you choose to re-implement such functionality using external tools, you can later remove this dependency manually.
 
@@ -143,14 +144,14 @@ When you deploy an application module using 1-Click Publish operation, the OutSy
 
 The code is structured in the following folders:
 
-* **Application** 
+* **Application**
     * **OutSystems\.Application\.Core** – interfaces to access runtime information.
-    * **OutSystems\.Application\.Initialization\.ASPNet** – base implementation for the application lifecycle in ASPNet 
+    * **OutSystems\.Application\.Initialization\.ASPNet** – base implementation for the application lifecycle in ASPNet
     * **OutSystems\.Application\.ManifestGeneration** – shared code generating the manifest files for reactive and mobile applications.
     * **OutSystems\.Application\.Session** – shared code for the session runtime service.
     * **OutSystems\.Application\.Session\.Abstractions** – session runtime service interfaces.
     * **OutSystems\.Application\.Session\.Persistent** – session runtime service code that implements database persisted sessions.
-* **DatabaseProviders** 
+* **DatabaseProviders**
     * **iDB2DatabaseProvider** – the iDB2 implementation of the DatabaseAbstractionLayer used by the platform when connected to an iDB2 database.
     * **MySQLDatabaseProvider** – the MySQL implementation of the DatabaseAbstractionLayer used by the platform when connected to a MySQL database.
     * **OracleDatabaseProvider** – the Oracle implementation of the DatabaseAbstractionLayer used by the platform when connected to an Oracle database.
@@ -207,14 +208,14 @@ In the application folder (`<Project Name>`) there is a set of packages that hol
 
 ## The actual detach process { #actual-detach-process }
 
-The detach process starts with you reaching out to your account manager to start the detach process. 
+The detach process starts with you reaching out to your account manager to start the detach process.
 
 ### If you're using the OutSystems Cloud
 
 Detaching from OutSystems means you'll no longer be running on OutSystems Cloud. Instead, you'll be hosting a .NET application on a system you fully manage. The high-level overview of detaching from OutSystems Cloud is:
 
 1. **Move your OutSystems Cloud production environment to a self-managed environment**
-    
+
     This is the high-level sequence of steps to move your production OutSystems Cloud environment to a hosting environment controlled by you:
 
     1. Install a brand new OutSystems environment to receive your applications, ensuring the [technical pre-requisites](#technical-pre-requisites) covered earlier.
@@ -229,16 +230,16 @@ Detaching from OutSystems means you'll no longer be running on OutSystems Cloud.
         * Include the serial number of your new self-managed environment.
 
         You'll receive a detach bundle containing the instructions you need to follow, together with license files and the scheduler source code.
-    
+
     1. Install your OutSystems applications in your new self-managed environment.
 
         Download all the applications from your production OutSystems Cloud environment and publish them to your new self-managed environment. Refer to [Creating and using an All Components solution](https://www.outsystems.com/tk/redirect?g=065b4d9d-5b4a-4892-9e82-bdfc77ea98d3) for a simple way to perform this step.
 
     1. Move the data of your OutSystems Cloud apps to your new self-managed environment.
 
-       Request [access to the database of your OutSystems Cloud](https://www.outsystems.com/tk/redirect?g=4cdae94f-8633-4875-98bd-a3a4ac1bd89a) and use that database user to copy app data from the OutSystems Cloud into the self-managed database. The direct database access user doesn't have backup privileges. Use tools such as SQL Server Management Studio or Oracle SQL Developer to manually transfer data from the OutSystems Cloud into the self-managed database using SQL queries. You can also implement APIs in your application that export the data and then call them from the new self-managed environment. Refer to [this article](https://www.outsystems.com/forums/discussion/14620/how-to-map-servicestudio-entities-to-actual-table-names/) to understand how to map physical table names in the database to OutSystems entities. 
+       Request [access to the database of your OutSystems Cloud](https://www.outsystems.com/tk/redirect?g=4cdae94f-8633-4875-98bd-a3a4ac1bd89a) and use that database user to copy app data from the OutSystems Cloud into the self-managed database. The direct database access user doesn't have backup privileges. Use tools such as SQL Server Management Studio or Oracle SQL Developer to manually transfer data from the OutSystems Cloud into the self-managed database using SQL queries. You can also implement APIs in your application that export the data and then call them from the new self-managed environment. Refer to [this article](https://www.outsystems.com/forums/discussion/14620/how-to-map-servicestudio-entities-to-actual-table-names/) to understand how to map physical table names in the database to OutSystems entities.
 
-    1. Confirm that your applications behave as expected in your new self-managed environment. 
+    1. Confirm that your applications behave as expected in your new self-managed environment.
 
         This may include functional and scalability validation. We advise not moving past this point until you are sure your self-managed system would be able to replace your OuSystems Cloud system at this point.
 
@@ -487,7 +488,6 @@ To have a system that replicates your previous factory, you must deploy all the 
 
 Some specific OutSystems applications, like Service Center and LifeTime, are used for application and environment configuration and management. As such, they can't be detached.
 
-
 <div class="info" markdown="1">
 
 You must follow all the steps described in this section for a successful detach of all modules. This includes OutSystems modules that your applications most likely depend on, like RichWidgets and Users applications.
@@ -569,8 +569,6 @@ Before you open the application's solution in Visual Studio, you need to make su
 
 If your application uses the OutSystems SAP plugin, then the SAP .NET Connector libraries have to be manually added to the detached source code. To ensure that the application compiles successfully, you need to copy the `sapnco.dll` and `sapnco_utils.dll` files, located in the `\thirdparty\lib\` folder in the Platform Server installation directory, into the `ThirdParty\SAP` folder that came with the detached source code.
 
-
-
 To deploy applications to IIS, you need Visual Studio, as explained in the [technical pre-requisites](#technical-pre-requisites) section.
 
 To deploy your applications, proceed as follows:
@@ -580,7 +578,7 @@ To deploy your applications, proceed as follows:
 1. Execute the Visual Studio's **Build Solution** command to compile your application.
 
 1. Since the code is generated using the minimum requirements the OutSystems Platform (.Net Framework 4.7.2), if there are dependent Extensions that were created using .Net Framework 4.8 or above, the build might fail with warnings or errors mentioning "which was built against the '.NETFramework,Version=v4.8' framework. This is a higher version than the currently targeted framework '.NETFramework,Version=v4.7.2'". To fix that, change the `<ModuleName>` and `<ModuleName>ReferencesProxy` project to the appropriate target framework and retry the build process.
- 
+
 1. Look for a warning with the "Found conflicts between different versions of the same dependent assembly" message. Do as the warning recommends and "double-click this warning (or select it and press Enter) to fix the conflicts". This is necessary to make Visual Studio calculate attempt to calculate best possible version of all third parties libraries that are consistent with each other and adjust the config files. For more information read the correspondent [Microsoft documentation](https://learn.microsoft.com/en-us/dotnet/framework/configure-apps/how-to-enable-and-disable-automatic-binding-redirection#enable-automatic-binding-redirects-in-web-apps).
 
 1. After the Build has finished successfully, execute the Visual Studio's **Publish &lt;Project Name&gt;** command to publish your application to IIS by creating a **Custom** profile. When asked, choose the **Custom** option and give a name to the profile.
@@ -665,7 +663,7 @@ OutSystems already includes database plugins that come within the source code of
 ### Extensions
 
 Extension modules don't generate source code. As such, source code for custom extensions are always available for detachment and reuse.
-Download the extension files and use Integration Studio to open the source code using the "Edit Source Code" button and save it from there. 
+Download the extension files and use Integration Studio to open the source code using the "Edit Source Code" button and save it from there.
 
 ### Microsoft Excel files
 
@@ -701,7 +699,6 @@ Now application A is ready to be compiled and deployed. This procedure is the sa
 * For mobile apps, check [Get the source code of mobile apps](#source-code-mobile) and [Compiling and deploying mobile apps](#compile-mobile).
 
 If an application depends on another applications, you might need to deploy all its dependencies to guarantee that it keeps working correctly.
-
 
 ## Final steps { #final-steps }
 

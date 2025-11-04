@@ -33,7 +33,7 @@ In an obfuscated app, an error stack trace might look like this:
 These are the prerequisites to deobfuscate the logs.
 
 * Android Studio on Mac, Linux, or Windows.
-* The **mapping.txt** file from the build. Please reach Support and request the mapping file. 
+* The **mapping.txt** file from the build. Please reach Support and request the mapping file.
 * A stack trace to deobfuscate and retrace.
 
 **Steps**
@@ -42,11 +42,11 @@ These are the prerequisites to deobfuscate the logs.
 1. Locate the proguard tools, located under your Android SDK folder, usually in `$ANDROID_HOME/tools/proguard/bin`.
 1. Inside, you should have the retrace cli, or the proguardgui.
 
-    With **retrace cli**. Use the retrace command, followed by the path to the mapping file and the file with the stack trace. Or, run the command without the stack trace file and then paste the log content. 
+    With **retrace cli**. Use the retrace command, followed by the path to the mapping file and the file with the stack trace. Or, run the command without the stack trace file and then paste the log content.
 
     With **proguardgui**. Click the **ReTrace** button in the left pane and locate your mapping file. Paste the obfuscated stack trace and click **ReTrace!**.
 
-    ![Screenshot of the ProGuard Retrace tool interface showing the process of deobfuscating a stack trace.](images/proguard-log.png "ProGuard Retrace Tool Interface") 
+    ![Screenshot of the ProGuard Retrace tool interface showing the process of deobfuscating a stack trace.](images/proguard-log.png "ProGuard Retrace Tool Interface")
 
 <div class="warning" markdown="1>
 
@@ -66,7 +66,7 @@ Customized and non-supported mobile plugins might not work correctly with obfusc
 
 * A misconfigured dependency
 * Java code plugins or code from libraries imported using Gradle or JAR/AAR file
-* Reflection to perform operations based on class/method name 
+* Reflection to perform operations based on class/method name
 
 For example, different class names can cause a ClassNotFound exception, or different method names can cause a MethodNotFound exception. Getting a `ClassNotFoundException` or `MethodNotFoundException` at runtime is a sign you're missing classes or methods. The class or method name might be obfuscated or missing because of some misconfigured dependencies.
 

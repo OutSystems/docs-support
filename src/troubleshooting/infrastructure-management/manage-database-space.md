@@ -20,11 +20,11 @@ coverage-type:
 
 <div class="info" markdown="1">
 
-If you are [reaching the storage database limit](#check-how-much-database-space-you-have) of your Personal Environment, see [Best practices for a tidy and clean environment](https://success.outsystems.com/Documentation/Best_Practices/Lifecycle/Best_practices_for_a_tidy_and_clean_environment) to learn how to clear database space. 
+If you are [reaching the storage database limit](#check-how-much-database-space-you-have) of your Personal Environment, see [Best practices for a tidy and clean environment](https://success.outsystems.com/Documentation/Best_Practices/Lifecycle/Best_practices_for_a_tidy_and_clean_environment) to learn how to clear database space.
 
 </div>
 
-Personal Environments have a database limit of 2GB. The database stores the following: 
+Personal Environments have a database limit of 2GB. The database stores the following:
 
 * **System data**: The metadata used by the OutSystems Platform. This includes, for example, the apps definition, data model, module configurations, logs, and app versions. The system data usually increases as you develop and deploy your app.
 
@@ -34,7 +34,7 @@ Personal Environments have a database limit of 2GB. The database stores the foll
 
 1. Go to your Personal Environment at `https://<yourpersonal>.outsystemscloud.com`.
 
-2. Click **Environments** tab.
+1. Click **Environments** tab.
 
 ![Screenshot showing the OutSystems Personal Environment dashboard with 13% database usage.](images/manage-database-space_0.png "OutSystems Personal Environment Database Usage Overview")
 
@@ -55,4 +55,3 @@ Note that these metrics are updated every hour, so they might not represent the 
 If the personal environment becomes unavailable or the space used reaches 100% on LifeTime Environment Health, by reaching the 2GB allocated to the environments, it will be necessary to open a Support Case with OutSystems to unblock the environment and suggest specific cleanup actions according to each use case.
 
 </div>
-

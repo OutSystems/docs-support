@@ -26,11 +26,11 @@ Follow these steps to install the license file on your environment:
 
 1. Navigate to the environment management console at `http://<yourenvironment>/ServiceCenter`;
 
-2. Click the '**Administration**' tab, and navigate to the '**Licensing**' submenu;
+1. Click the '**Administration**' tab, and navigate to the '**Licensing**' submenu;
 
-3. Use the '**Backup License**' (1) link to download the license currently installed. It's always a good idea to keep backups;
+1. Use the '**Backup License**' (1) link to download the license currently installed. It's always a good idea to keep backups;
 
-4. Click the '**Upload New License**' (2) link, to install the new license.
+1. Click the '**Upload New License**' (2) link, to install the new license.
 
 ![Screenshot of the OutSystems Service Center Licensing page highlighting the 'Backup License' and 'Upload New License' options.](images/licensing-update-ss.png "OutSystems Service Center Licensing Screen")
 

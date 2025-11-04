@@ -25,4 +25,3 @@ Find under this section articles that can assist in troubleshooting issues that 
 * Creating deployment plans
 * Managing users and roles
 * Configuring applications in LifeTime or Service Center
-

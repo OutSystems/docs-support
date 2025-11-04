@@ -18,13 +18,13 @@ coverage-type:
 
 # Timeouts under the hood
 
-This article describes the different types of timeouts that can occur during the runtime or development of an OutSystems application (Reactive Web, Mobile and Traditional Web). Understand how different timeouts are triggered, how to identify them in the Error Logs, and all configurations that can be made to fine-tune them. 
+This article describes the different types of timeouts that can occur during the runtime or development of an OutSystems application (Reactive Web, Mobile and Traditional Web). Understand how different timeouts are triggered, how to identify them in the Error Logs, and all configurations that can be made to fine-tune them.
 
 ## About timeouts
 
-The OutSystems platform is composed of interconnected web application servers, databases, external integrations, and others. These components communicate with each others and the connections should have their own timeouts. 
+The OutSystems platform is composed of interconnected web application servers, databases, external integrations, and others. These components communicate with each others and the connections should have their own timeouts.
 
-For example, if a query exceeds the execution timeout in the database, the server request waiting for its result will receive a timeout error. Another example is when a request executing on the server is waiting for the response of an external integration for more than a specified timeout limit. 
+For example, if a query exceeds the execution timeout in the database, the server request waiting for its result will receive a timeout error. Another example is when a request executing on the server is waiting for the response of an external integration for more than a specified timeout limit.
 
 Reactive Web apps and Mobile apps behave in an asynchronous way, where the client-side running on the browser or native operating system performs several different asynchronous requests to the server. To protect the apps from slow server performance or other events that may make the responses slower, these contain a definition for the maximum time the client side can wait for a response from the server before aborting the request.
 
@@ -85,7 +85,7 @@ Every web request done to an OutSystems application takes its time to process by
 
 This error can occur practically anywhere during the execution of the application request. If one is accessing a particular screen and this takes longer that the specified request timeout to execute, the IIS can abort its execution in any of its lifecycle stages. So, you can see an error message associated with a query, an extension, integration, some part of the logic, etc.
 
-These runtime errors are logged in Service Center, under the Error Logs page. In ASP.NET, the message *Thread was being aborted* is the common way of logging this timeout event. Sometimes one can also idenfify the message *Request timed out* right after the previous error. For example, the following error stack is caused by a web request timeout event that occurred right when a SQL query was being executed:
+These runtime errors are logged in Service Center, under the Error Logs page. In ASP.NET, the message _Thread was being aborted_ is the common way of logging this timeout event. Sometimes one can also idenfify the message _Request timed out_ right after the previous error. For example, the following error stack is caused by a web request timeout event that occurred right when a SQL query was being executed:
 
 ```
 Message:
@@ -100,7 +100,8 @@ Thread was being aborted.
    at System.Web.UI.Page.ProcessRequestMain()
 ```
 
-Below is another example when the timeout event occured during a extension method invocation: 
+Below is another example when the timeout event occured during a extension method invocation:
+
 ```
 Message: 
 Thread was being aborted.
@@ -115,13 +116,13 @@ Thread was being aborted.
 
 ### Timeout setting
 
-This timeout event value is defined in the machine.config file under the **httpRuntime** section, with the parameter **executionTimeout**. By default, this value is not set and it will default to 110 seconds. In the [OutSystems installation checklist](https://www.outsystems.com/downloads/search/Platform-Server/), you'll find the instructions for setting the executionTimeout for your application server (notice that this can't be modified in Cloud environments). 
+This timeout event value is defined in the machine.config file under the **httpRuntime** section, with the parameter **executionTimeout**. By default, this value is not set and it will default to 110 seconds. In the [OutSystems installation checklist](https://www.outsystems.com/downloads/search/Platform-Server/), you'll find the instructions for setting the executionTimeout for your application server (notice that this can't be modified in Cloud environments).
 
 But the IIS default timeout value can also be changed during the execution of the requests with [SetRequestTimeout](https://success.outsystems.com/documentation/11/reference/outsystems_apis/httprequesthandler_api/#SetRequestTimeout). This method can be placed in the begining of a Server Action to inform IIS that the request being executed will timeout after the value you've defined.
 
 ## Web Service request timeout
 
-When integrating with external APIs (SOAP or REST), the OutSystems applications can invoke methods remotely through web services. The web service itself will also have a invocation timeout event. This timeout event defines the total elapsed amount of time since the web service invocation until the complete reception of its response. 
+When integrating with external APIs (SOAP or REST), the OutSystems applications can invoke methods remotely through web services. The web service itself will also have a invocation timeout event. This timeout event defines the total elapsed amount of time since the web service invocation until the complete reception of its response.
 
 ### Timeout symptoms
 
@@ -141,6 +142,7 @@ The operation has timed out
    at OutSystems.HubEdition.WebWidgets.Button.RaisePostBackEvent(...)
    at System.Web.UI.Page.ProcessRequestMain(...)
 ```
+
 In this case, one clicked a button that invoked the endpoint MyMethod from the API MyRestAPI and this didn't provide an answer before the Timeout in Seconds defined for the method.
 
 ### Timeout setting
@@ -194,7 +196,7 @@ The requests are aborted by the client but not on the server and will continue e
 
 ### Timeout symptoms
 
-The most common symptom is when a Communication Exception is thrown on the apps, sometimes displaying a red error popup to the user saying *The Connection has timed out*. On the logs, an error will be logged for the exact request that caused the timeout (this improvement was introduced in PS 11.21.0):
+The most common symptom is when a Communication Exception is thrown on the apps, sometimes displaying a red error popup to the user saying _The Connection has timed out_. On the logs, an error will be logged for the exact request that caused the timeout (this improvement was introduced in PS 11.21.0):
 
 ```
 Error Message:
@@ -234,11 +236,12 @@ System.Net.WebException: The operation has timed-out.
    at OutSystems.HubEdition.RuntimePlatform.TimerHandler.ExecuteTimer(...)
    at OutSystems.HubEdition.Scheduler.Scheduler.ExecuteJob(...)
 ```
+
 Since it's the OutSystems Scheduler Service that invokes the timer of the application to run, it will also catch the error exception associated with the timeout event occurrence, which will abort the timer's execution. In this case, the timer execution took 1439 seconds, before being aborted.
 
 ### Timeout setting
 
-For each one of timers, its possible to specify the *Timeout in Minutes* property. This value is the maximum elapsed period of time that the OutSystems Platform has to completely execute the action associated with the timer. For more information on how timers are handled by the OutSystems platform please check [Timers documentation](https://www.outsystems.com/tk/redirect?g=7b104f5a-3077-4eab-9dd0-90c28ade4b67).
+For each one of timers, its possible to specify the _Timeout in Minutes_ property. This value is the maximum elapsed period of time that the OutSystems Platform has to completely execute the action associated with the timer. For more information on how timers are handled by the OutSystems platform please check [Timers documentation](https://www.outsystems.com/tk/redirect?g=7b104f5a-3077-4eab-9dd0-90c28ade4b67).
 
 ## Email sending timeout
 
@@ -254,6 +257,7 @@ The first step is managed by a timeout while rendering the page to send by email
 ### Timeout symptoms
 
 When the timeout value is reached, you get an error message like this:
+
 ```
 Error creating Email. The operation has timed out
    at System.Net.HttpWebRequest.GetResponse()
@@ -268,7 +272,6 @@ Error creating Email. The operation has timed out
 
 When the email being sent is taking too long to render, you need to reduce the time it takes to render the email because there's no timeout setting that you can configure to overcome the limitation of the page rendering process of the email engine.
 
-Note that resorting to HTTPRequestHander.SetRequestTimeout to extend the duration of email processing won't have any effect. The timeout is not related to the length of the request to render the email. Instead, the limit is in the method that calls the email (*OutSystems.HubEdition.RuntimePlatform.Email.EmailHelper.HttpGetContent*) is limited in time to ensure best practices.
+Note that resorting to HTTPRequestHander.SetRequestTimeout to extend the duration of email processing won't have any effect. The timeout is not related to the length of the request to render the email. Instead, the limit is in the method that calls the email (_OutSystems.HubEdition.RuntimePlatform.Email.EmailHelper.HttpGetContent_) is limited in time to ensure best practices.
 
 In a simplified way, it's the caller that is not waiting long enough for the request to be ready. The solution, is to reduce the time it takes to render the page.
-

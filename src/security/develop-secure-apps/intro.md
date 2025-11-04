@@ -29,7 +29,7 @@ Failing to secure your apps may have severely damaging results for your business
 * Identity theft
 * Loss of revenue
 
-## Keeping your enterprise secure 
+## Keeping your enterprise secure
 
 As attackers are moving faster, exploiting far-reaching vulnerabilities, holding files for ransom, stealing identities and deploying more malicious code, it becomes paramount that you know how to develop applications that are as secure as possible against these attacks.
 

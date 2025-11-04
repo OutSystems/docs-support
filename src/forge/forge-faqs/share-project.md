@@ -35,7 +35,7 @@ Alternatively, you can download the application in the Service Center console:
 
 1. To access Service Center, open the application in Service Studio, click the **Environment** menu, and select **Application Management in Service Center...**. This redirects you to the application details page in Service Center, under the **Factory** section.
 
-2. On the application details page, click the **Download** button.
+1. On the application details page, click the **Download** button.
 
 ## How do I export an OutSystems Module for sharing? { #export-oml }
 
@@ -45,7 +45,7 @@ Alternatively, you can download the module in the Service Center console:
 
 1. To access Service Center, open the module in Service Studio, click the **Module** menu and select **Module Management in Service Center...**. This redirects you to the module details page in Service Center, under the **Factory** section.
 
-2. On the module details page, click the **Download Published Version** button.
+1. On the module details page, click the **Download Published Version** button.
 
 ## How do I upload an asset? { #publish }
 
@@ -57,11 +57,11 @@ Once your asset is ready, follow the steps below to upload it to Forge.
 
 1. Make sure you [remove the unused dependencies](https://success.outsystems.com/Documentation/11/Getting_started/Service_Studio_Tips_and_Tricks#Make_sure_you_Remove_Unused_Dependencies) from your asset.
 
-1. [Download the application package (.oap)](#export-oap) for your asset. 
+1. [Download the application package (.oap)](#export-oap) for your asset.
 
 The [recommended format](#formats) for sharing is an application package (.oap). If the file is too big, consider compressing any used image files or resources. The maximum file size you can upload to Forge is 256MB.
 
-1. [Download the application package (.oap)](#export-oap) of the [demo application](https://success.outsystems.com/Documentation/Best_Practices/Development/Forge_components_best_practices#demo). 
+1. [Download the application package (.oap)](#export-oap) of the [demo application](https://success.outsystems.com/Documentation/Best_Practices/Development/Forge_components_best_practices#demo).
 
     Again, consider compressing any used image files or resources if the file is too big.
 
@@ -71,7 +71,7 @@ The [recommended format](#formats) for sharing is an application package (.oap).
 
     ![Screenshot highlighting the 'Upload asset' button on the OutSystems Forge website.](images/upload-asset-fg.png "Upload Asset Button on Forge")
 
-1. In the **Add file** section, upload the asset file that you previously downloaded and in the **Upload demo** section, upload the demo application file. Click **Continue**. 
+1. In the **Add file** section, upload the asset file that you previously downloaded and in the **Upload demo** section, upload the demo application file. Click **Continue**.
 
     ![Screenshot of the 'Add file' and 'Upload demo' sections with OAP files listed and a 'Continue' button on the Forge upload page.](images/add-files-fg.png "Add Files to Upload on Forge")
 
@@ -90,17 +90,17 @@ The [recommended format](#formats) for sharing is an application package (.oap).
     * Select the **app type** - Reactive, Mobile, Service, or Web.
 
     * Upload **screenshots** that best illustrate the asset's features, main use cases, and behavior.
-    
+
     * Enter a **detailed description** for your asset.
-        
+
         Follow the [best practices](https://success.outsystems.com/Documentation/Best_Practices/Development/Forge_components_best_practices#name-desc) and make sure it fully describes the asset's features and options.
 
-1. Enter the **version control and ownership details**. 
+1. Enter the **version control and ownership details**.
 
     ![Screenshot of the 'Version control and ownership' section for specifying version number and asset ownership on the Forge upload page.](images/version-control-fg.png "Version Control and Ownership Section on Forge")
 
     * Enter the project version.
-        
+
         Keep in mind that version numbers are unique. Forge suggests a version number, but you can change it. The version is visible on the main page and in the **Versions** tab. Assign an incremental number for each new version update so people can easily identify the latest version.
 
     * Select the platform version.
@@ -111,16 +111,16 @@ The [recommended format](#formats) for sharing is an application package (.oap).
 
         ![Screenshot of the version control and requirements section for OutSystems version 10 assets on the Forge upload page.](images/version-control-o10-fg.png "Version Control for OutSystems Version 10 on Forge")
 
-1. Enter the **categorization** details. 
+1. Enter the **categorization** details.
 
     ![Screenshot of the 'Categorization' section with options for selecting the appropriate category and subcategory for an asset on the Forge upload page.](images/categorization-fg.png "Categorization Section on Forge")
 
-    * Select at least one subcategory within the category that suits your asset best. 
-    
+    * Select at least one subcategory within the category that suits your asset best.
+
         The category helps users find your asset.
 
-    * Add any relevant tags. 
-        
+    * Add any relevant tags.
+
         Tags help users find your asset and filter published assets.
 
 1. Click **Continue**.
@@ -143,7 +143,7 @@ The [recommended format](#formats) for sharing is an application package (.oap).
 
     ![Screenshot of the upload confirmation dialog asking if the user wishes to upload the asset to Forge.](images/upload-confirmation-fg.png "Upload Confirmation on Forge")
 
-    Once your asset is uploaded, a confirmation message is displayed. 
+    Once your asset is uploaded, a confirmation message is displayed.
 
     ![Screenshot displaying a confirmation message that the asset is now live in Forge and can be downloaded by any user.](images/upload-successful-fg.png "Successful Upload Confirmation on Forge")
 

@@ -40,7 +40,7 @@ This applies to mobile apps in all environments installed before Platform Server
 
 When writing the null DateTime value from local storage or saving it to the local storage, or when exchanging it on the server, the time and date remain the null value.
 
-For example, a mobile device in New York initializes a variable `myDateTime` with `myDateTime = NullDate()`. What is saved in the local storage is `myDateTime = #1900-01-01 00:00:00# `, because the UTC-5 time zone is not converted to UTC. If the value is read in Paris, in UTC+1, the returned value
+For example, a mobile device in New York initializes a variable `myDateTime` with `myDateTime = NullDate()`. What is saved in the local storage is `myDateTime = #1900-01-01 00:00:00#`, because the UTC-5 time zone is not converted to UTC. If the value is read in Paris, in UTC+1, the returned value
 is still `myDateTime = #1900-01-01 00:00:00#`.
 
 This applies to mobile apps in all new environment installations with the version number 10.0.804.0 or greater.
@@ -63,7 +63,4 @@ Follow these steps if your have Platform Server deployed to your own infrastruct
 
 ### In Cloud Environments
 
-Please contact Support and request changes to your Platform settings. 
-
-
-
+Please contact Support and request changes to your Platform settings.

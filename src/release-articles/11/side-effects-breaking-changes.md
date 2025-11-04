@@ -12,13 +12,37 @@ This document lists the side effects and breaking changes introduced in the diff
 
 OutSystems is committed to minimizing your effort when upgrading to a new release of OutSystems.
 
-As such, before introducing a breaking change for a new release, OutSystems carefully analyzes its impact, namely, the expected number of occurrences in its customers' installations. A breaking change is introduced only if it affects a small number of customers. 
+As such, before introducing a breaking change for a new release, OutSystems carefully analyzes its impact, namely, the expected number of occurrences in its customers' installations. A breaking change is introduced only if it affects a small number of customers.
 
 ## Breaking Changes
 
+### Introduced in Platform Server 11.38.0
+
+1\. <a id="bc-11380-1"></a>
+
+**Issue**: Applications using either Regex_Search or Regex_Replace methods from Text extensions may have incorrect results if the regex expression used takes more than the defined default timeout.
+
+**Runtime**: Traditional web, Reactive web, Mobile
+
+**Rationale**: This is part of a mitigation strategy for RPM-5921, to prevent catastrophic backtracking during a regex match operation which in turn could lead to DoS.
+
+**Fix**: Introduced a default regex timeout setting of 20s used in Regex_Search and Regex_Replace methods of Text extension. This setting is configurable via Factory Configuration. For specific use cases, where a different value might be needed, the new methods Regex_SearchWithTimeout and Regex_ReplaceWithTimeout should be used instead of changing the global default timeout value.
+
+2\. <a id="bc-11380-2"></a>
+
+**Issue**: Dropped support PostgreSQL versions 12.x and below as external databases.
+
+**Runtime**: Traditional web, Reactive web, Mobile
+
+**Rationale**: PostgreSQL no longer supports version 12. As such, we are aligning our supported external databases to that of the PostgreSQL Community.
+
+In the future, OutSystems may, at its own discretion, drop support for other database engines and versions that are no longer supported by the database engine provider.
+
+**Fix**: Update PostgreSQL version. Ensure that any applicable databases are set to a supported range as per OutSystems system requirements. OutSystems advises customers to choose a Long Term Release version that is both supported by PostgreSQL and OutSystems.
+
 ### Introduced in Platform Server 11.34.0
 
-1\. <a id="bc-11330-1"></a>
+1\. <a id="bc-11340-1"></a>
 
 **Issue**: Logical Database configuration of Extensions failed on first Solution Deployment attempt.
 
@@ -57,15 +81,16 @@ Furthermore, support for compatibility levels equivalent or lower to that of SQL
 In the future, OutSystems may, at its own discretion, drop support for other database engines and versions that are no longer supported by the database engine provider.
 
 **Fix**: Update SQL Server engine version. Ensure that the compatibility level of any applicable databases is set to a supported range as per OutSystems system requirements. OutSystems advises customers to choose a Long Term Release version that is both supported by Microsoft and OutSystems.
+
 ### Introduced in Platform Server 11.32.0
 
 1\. <a id="bc-11320-1"></a>
 
-**Issue**: The serial number of OutSystems Platform Server installed in EC2 machines using EC2 Launch v2 was incorrectly calculated. 
+**Issue**: The serial number of OutSystems Platform Server installed in EC2 machines using EC2 Launch v2 was incorrectly calculated.
 
-**Fix**: The minimum supported version for OutSystems Platform Server installations in EC2 machines using EC2 Launch v2 was bumped from version 11.29.0 to 11.32.0. 
+**Fix**: The minimum supported version for OutSystems Platform Server installations in EC2 machines using EC2 Launch v2 was bumped from version 11.29.0 to 11.32.0.
 
-The fix to the serial number calculation done will result in a new serial number for that Platform installation which will require a new license. 
+The fix to the serial number calculation done will result in a new serial number for that Platform installation which will require a new license.
 
 2\. <a id="bc-11320-1"></a>
 
@@ -73,13 +98,13 @@ The fix to the serial number calculation done will result in a new serial number
 
 **Runtime**: Traditional web, Reactive web, Mobile
 
-**Rationale**: Due to the update of the MySQL driver to a supported version(9.0.0), we are forced to drop support for MySQL databases which the driver no longer supports connecting. 
+**Rationale**: Due to the update of the MySQL driver to a supported version(9.0.0), we are forced to drop support for MySQL databases which the driver no longer supports connecting.
 
 As such, MySQL 5.7 or lower is no longer supported as external databases.
 
 In the future, OutSystems may, at its own discretion, drop support for other database engines and versions that are no longer suported by the database engine provider.
 
-**Fix**: Update MySQL engine version. OutSystems advises customers to choose a Long Term Release version that is both supported by MySQL and OutSystems. 
+**Fix**: Update MySQL engine version. OutSystems advises customers to choose a Long Term Release version that is both supported by MySQL and OutSystems.
 
 ### Introduced in Platform Server 11.28.0
 
@@ -93,7 +118,7 @@ In the future, OutSystems may, at its own discretion, drop support for other dat
 
 **Workaround**: If you have a customized version of these custom handlers, you should back them up before the upgrade and customize the new versions after the upgrade.
 
-### Introduced in LifeTime 11.22.0 
+### Introduced in LifeTime 11.22.0
 
 1\. <a id="bc-11220-1"></a>
 
@@ -105,7 +130,7 @@ In the future, OutSystems may, at its own discretion, drop support for other dat
 
 **Fix**: Implemented scenarios that take the output of the ``PUT /deployments/{DeploymentKey}/`` method as their source of data must be validated.
 
-### Introduced in Platform Server 11.27.0 
+### Introduced in Platform Server 11.27.0
 
 1\. <a id="bc-11270-1"></a>
 
@@ -117,11 +142,11 @@ In the future, OutSystems may, at its own discretion, drop support for other dat
 
 When disabled it checks if there are any **different** signatures in the referenced elements of a consumer module and refreshes all of them (within that module) in case it finds one, which can unnecessarily increase publishing times.
 
-However, when the parameter is enabled it checks if there are any **incompatible** signatures in the referenced elements of a consumer module and only refreshes all of them (within that module) in case it finds one. Making this the new default behaviour shouldn’t cause any disruption in the solution publication experience, and will overall result in better publishing times. 
+However, when the parameter is enabled it checks if there are any **incompatible** signatures in the referenced elements of a consumer module and only refreshes all of them (within that module) in case it finds one. Making this the new default behaviour shouldn’t cause any disruption in the solution publication experience, and will overall result in better publishing times.
 
 **Fix**: This behaviour can be changed back by installing version 11.2.0 of the Factory Configuration application or higher and unchecking the option “Refresh only broken dependencies in solution publish” under the Platform Configurations screen.
 
-### Introduced in Platform Server 11.25.0 
+### Introduced in Platform Server 11.25.0
 
 1\. <a id="bc-11250-1"></a>
 
@@ -129,7 +154,7 @@ However, when the parameter is enabled it checks if there are any **incompatible
 
 **Runtime**: Traditional web, Reactive web, Mobile
 
-**Rationale**: Due to a security vulnerability in the Oracle Data Provider for .NET Managed driver, OutSystems 11 is now using Oracle Data Provider for .NET Managed driver in version 19.21.0. Starting with version 19.19 of that driver, Oracle calculates timezones based on regions (Europe, America, etc). This change in behaviour of the driver may cause "failure to connect" issues when the driver identifies regions (for example: UTC for Oracle 11g R2) that don't match any region on the Oracle server's timezone files. 
+**Rationale**: Due to a security vulnerability in the Oracle Data Provider for .NET Managed driver, OutSystems 11 is now using Oracle Data Provider for .NET Managed driver in version 19.21.0. Starting with version 19.19 of that driver, Oracle calculates timezones based on regions (Europe, America, etc). This change in behaviour of the driver may cause "failure to connect" issues when the driver identifies regions (for example: UTC for Oracle 11g R2) that don't match any region on the Oracle server's timezone files.
 
 OutSystems Platform 11 no longer supported Oracle 11g as the platform database. Starting with Platform Server version 11.25, OutSystems drops the support for Oracle 11g as an external database. Since Oracle 11g reached the end of Extended Support in 2020 ([official Oracle documentation](https://support.oracle.com/knowledge/Oracle%20Cloud/2068368_1.html)), customers who are using Oracle 11g are strongly advised to upgrade their database engine.
 
@@ -137,7 +162,7 @@ In the future, OutSystems may, at its own discretion, drop support for other dat
 
 **Fix**: Update Oracle engine version. OutSystems advises customers to choose a Long Term Release version that is both supported by Oracle and OutSystems, which at this moment is Oracle 19c.
 
-### Introduced in Platform Server 11.24.0 
+### Introduced in Platform Server 11.24.0
 
 1\. <a id="bc-11240-1"></a>
 
@@ -226,8 +251,8 @@ It is possible to enable the configuration "Allow introspection of views using D
 
 **Fix**: Ensure the environment's extensions don’t have different incompatible versions of the same DLL. You can use the following query to identify multiple extensions that contain the same DLL. If you can see your extensions on this list, we recommend you ensure they use a single version of the conflicting DLL or make sure they are compatible. The query lists some OutSystems extensions, which are compatible between them.
 
-    SELECT REPDLLEXT.Filename DLL, ossys_Extension.Name EXTENSION FROM	
-        (SELECT ossys_Extension_Dependency.Filename, ossys_Extension_Dependency.Extension_Id FROM		
+    SELECT REPDLLEXT.Filename DLL, ossys_Extension.Name EXTENSION FROM 
+        (SELECT ossys_Extension_Dependency.Filename, ossys_Extension_Dependency.Extension_Id FROM  
             (SELECT Filename FROM
                 (SELECT Filename, Extension_Id FROM
                 ossys_Extension_Dependency
@@ -235,7 +260,7 @@ It is possible to enable the configuration "Allow introspection of views using D
                 WHERE Filename LIKE '%.dll'
                 AND ossys_Extension.IS_ACTIVE = 1
                 AND ossys_Extension.Name NOT IN 
-				('OMLProcessor', 'IntegrationStudio', 'DeviceDetectionWithWURFL',
+                ('OMLProcessor', 'IntegrationStudio', 'DeviceDetectionWithWURFL',
                 'SAPDevServiceExtension', 'RESTDevServiceExtension',
                 'SOAPDevServiceExtension', 'SCBootstrap', 'UsersSecurity')
                 GROUP BY Filename, Extension_Id) DLLEXT
@@ -247,7 +272,7 @@ It is possible to enable the configuration "Allow introspection of views using D
     where ossys_Extension.IS_ACTIVE = 1
     order by DLL
 
-### Introduced in Platform Server 11.18.0 
+### Introduced in Platform Server 11.18.0
 
 1\. <a id="bc-11180-1"></a>
 
@@ -324,7 +349,7 @@ In case you can't use any of the above fixes, do the following:
 
 **Issue**: When using Active Directory authentication, OutSystems only supports configuring a default domain that ensures all traversed paths between domains are bidirectional in terms of trust.  
 
-The Active Directory APIs used by the Platform require all traversed paths between domains during the search process to be bidirectional in terms of trust between said domains. If this is not possible, all the synchronization and access to users' details from the external system are unavailable. Some of the issues of using  a default domain with restricted access are: 
+The Active Directory APIs used by the Platform require all traversed paths between domains during the search process to be bidirectional in terms of trust between said domains. If this is not possible, all the synchronization and access to users' details from the external system are unavailable. Some of the issues of using  a default domain with restricted access are:
 
 * Users deactivated in the external system will still be active on the Platform.
 
@@ -339,7 +364,6 @@ From Platform Server 11.18.0, users get errors when using this unsupported setup
 **Fix**: Configure the default domain in your Active Directory infrastructure with a domain that ensures all traversed paths between domains are bidirectional in terms of trust.  
 
 If this is not possible, you have to upgrade to Platform Server 11.21.0  or above and enable the `BypassADUsersSynchronization` site property in the Users module. Enabling this site property will avoid getting errors, but won't fix the issues of using a default domain with restricted access.
-
 
 ### Introduced in Platform Server 11.17.0
 
@@ -373,7 +397,7 @@ The Factory Configuration setting is called **Disable built-in authentication fa
 * The title is dynamically generated through an input parameter.
 * The value of the input parameter contains special characters.
 * The value of the input parameter is encoded.
-    
+
 **Runtime**: Traditional web
 
 **Rationale**: These widgets now encode the Title by default to prevent cross site scripting (XSS) attacks.
@@ -431,6 +455,7 @@ This affects custom implementations of a native dropdown making use of HTML Elem
 **Workaround**: For the example stated above, the workaround is to change the returned status code from 204 (No Content) to a different status code, if you wish to include data in the body. Alternatively, keep returning the 204 status code but don't include any content in the response body.
 
 ### Introduced in Platform Server 11.9.0
+
 1\. <a id="bc119-1"></a>
 
 **Issue**: The platform now gives preference to usage of specific versions of third-party assemblies that are included in extensions. As a consequence, extensions that incorrectly include .NET Framework assemblies can prevent applications from working correctly due to conflicts between the included assemblies and the assemblies of the .NET Framework installed in the machine.
@@ -531,7 +556,7 @@ You should only use this workaround if it's not viable to fix all the affected e
 
 **Workaround**: Remove any SMS flows from your modules and any related dependencies before publishing them.
 
-#### Database 
+#### Database
 
 4\. <a id="bc-4"></a>
 
@@ -648,7 +673,7 @@ To check which Modules are affected, run the following query against your Oracle
 
 **Workaround**: Use the [SOAP Extensibility API](https://success.outsystems.com/Documentation/11/Reference/OutSystems_APIs/SOAP_Extensibility_API) to authenticate requests using client-side certificates in consumed SOAP web services that were created in OutSystems 11. Check the [client certificate authentication example](https://success.outsystems.com/Documentation/11/Extensibility_and_Integration/SOAP/Consuming_SOAP_Web_Services/Use_Advanced_Extensibility/Example%3A_Authenticate_using_a_client_certificate) provided in the API documentation.
 
-#### Web Server Configuration (IIS) 
+#### Web Server Configuration (IIS)
 
 13\. <a id="bc-13"></a>
 
@@ -665,7 +690,7 @@ To check which Modules are affected, run the following query against your Oracle
 14\. <a id="bc-14"></a>
 
 **Issue**: Built-in time and data comparison functions `DiffHours`, `DiffMinutes`, and `DiffSeconds` now ignore the milliseconds.
-    
+
 **Runtime**: Traditional web, Reactive web, Mobile
 
 **Rationale**: OutSystems enables you to manipulate time values on a second-level granularity. Some integrations introduce values at the millisecond-level granularity and these milliseconds could not be properly handled by the built-in functions, causing them to return an incorrect value in some cases. Ignoring the milliseconds part in the data values will prevent time manipulation functions from returning possibly incorrect values.
@@ -688,7 +713,7 @@ To check which Modules are affected, run the following query against your Oracle
 
 16\. <a id="bc-16"></a>
 
-**Issue**: Removed 'alt' attribute from the HTML rendering of links. 
+**Issue**: Removed 'alt' attribute from the HTML rendering of links.
 
 **Runtime**: Traditional web
 
@@ -714,7 +739,7 @@ To check which Modules are affected, run the following query against your Oracle
 
 **Issue**: Custom Handlers is a folder where you can define custom pages for common runtime errors.  
 From OutSystems 11 onwards, if a default language is not defined in the Custom Handler folder's `web.config` file, it will be automatically set to "VB" (Visual Basic).
-    
+
 **Runtime**: Traditional web
 
 **Rationale**: The Custom Handlers folder is now deployed along with every application (to a sub-folder of the application folder), while previously the Custom Handlers folder was referenced by applications as needed from its location inside the Platform Server installation folder.  
@@ -882,7 +907,6 @@ Upgrading a module in Service Studio will remove any dependencies on these entit
 
 **Workaround**: Ensure that there is at least one server in each Deployment Zone that is able to "Send Emails", if it contains modules with Email screens. You can set this configuration in Service Center (Administration > Servers).
 
-
 #### Resources
 
 32\. <a id="bc-32"></a>
@@ -895,7 +919,7 @@ Upgrading a module in Service Studio will remove any dependencies on these entit
 
 **Workaround**: None. We changed the reference semantics in binary resources: they are now copied to the consumers and will trigger a recompilation when a binary resource is changed.
 
-#### OSP Tool 
+#### OSP Tool
 
 33\. <a id="bc-33"></a>
 
@@ -903,7 +927,7 @@ Upgrading a module in Service Studio will remove any dependencies on these entit
 
 **Runtime**: Traditional web, Reactive web, Mobile
 
-**Rationale**: The "Upload" button was also publishing the solution and not just uploading it, as it should. This behavior was fixed. 
+**Rationale**: The "Upload" button was also publishing the solution and not just uploading it, as it should. This behavior was fixed.
 
 **Workaround**: Click the "1-Click Publish" button to publish the solution.
 
@@ -949,11 +973,11 @@ Upgrading a module in Service Studio will remove any dependencies on these entit
 
 **Runtime**: Traditional web, Reactive web, Mobile
 
-**Rationale**: When using JSONDeserialized widget in Server Actions to deserialize a JSON string data to a record or list. If the deserialized data type contains a Text attribute but in the JSON string data that attribute value is sent as a Decimal, the trailing zeros are preserved when deserializing that Decimal attribute to Text. 
+**Rationale**: When using JSONDeserialized widget in Server Actions to deserialize a JSON string data to a record or list. If the deserialized data type contains a Text attribute but in the JSON string data that attribute value is sent as a Decimal, the trailing zeros are preserved when deserializing that Decimal attribute to Text.
 
-For example, the sent decimal values `10.000` and `10.1000` are deserialized to `10.000` and `10.1000` and not to `10` and `10.1`. 
+For example, the sent decimal values `10.000` and `10.1000` are deserialized to `10.000` and `10.1000` and not to `10` and `10.1`.
 
-**Workaround**: To truncate a value, change the deserialized attribute data type to Decimal instead of  Text. 
+**Workaround**: To truncate a value, change the deserialized attribute data type to Decimal instead of  Text.
 
 ## Side Effects
 

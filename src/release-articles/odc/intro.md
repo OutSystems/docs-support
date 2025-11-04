@@ -11,8 +11,6 @@ platform-version: odc
 
 The following are the release notes for OutSystems Developer Cloud:
 
-
 * [OutSystems Developer Cloud](../../release-notes/odc/ga/ga.md)
 
 * [ODC Studio](../../release-notes/odc/odc-studio/odc-studio.md)
-

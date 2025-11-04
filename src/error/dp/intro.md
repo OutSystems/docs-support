@@ -17,7 +17,6 @@ coverage-type:
 
 # Streaming errors
 
-Streaming errors may occur when configuring a connection to an application performance monitoring (APM) tool. 
+Streaming errors may occur when configuring a connection to an application performance monitoring (APM) tool.
 The connection details are used to establish a connection to the APM tool. If that connection fails, a specific error code is thrown.
 Check the specific error page on the table of contents for information about the cause and resolution of a specific error.
-

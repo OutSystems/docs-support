@@ -71,6 +71,6 @@ For any environments not upgraded during the self-service upgrade period, OutSys
 
     Yes, your environment won't be accessible during the upgrade. The upgrade process usually takes between 1 to 4 hours.
 
-* **Can I request the upgrade before the self-service upgrade period?** 
+* **Can I request the upgrade before the self-service upgrade period?**
 
     No, it isn't possible to request an upgrade before the self-service upgrade period.

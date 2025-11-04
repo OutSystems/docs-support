@@ -37,7 +37,7 @@ By clicking on **View details** you can see the breakdown between System and App
 * Module and solution versions
 * Processes
 * Emails
-* Logs 
+* Logs
 
 **Application data** is all the information that's stored in the database Entities of your applications. This includes deleted Entities and Attributes of the data model.
 

@@ -23,7 +23,7 @@ coverage-type:
 
 ## Cause
 
-This error idicates Wokflow Builder encountered an unknown error. 
+This error idicates Wokflow Builder encountered an unknown error.
 
 ## Impact
 

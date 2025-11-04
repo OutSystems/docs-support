@@ -31,7 +31,6 @@ Users can't generate the application package.
 
 ## Recommended action
 
-
 Fix the mismatch and retry.
 
 You can find more information about the APS Environment entitlement in the [official iOS Apple documentation](https://developer.apple.com/documentation/bundleresources/entitlements/aps-environment).

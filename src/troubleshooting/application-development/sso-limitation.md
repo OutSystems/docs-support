@@ -32,7 +32,7 @@ To achieve this, follow these steps:
     The traditional application’s web screen will be targeted by the reactive and mobile apps.
 
 1. In each reactive or mobile app module, do the following:
-    
+
     (a) In the **Client Actions**, add the **OnApplicationReady** action (if it doesn't already exist).
 
     (b) Inside the action, add a JavaScript node with the following code, replacing the ``<ModuleName>``with the traditional module name, the ``<ScreenName>`` with the traditional screen name, the ``<TimeoutMs>`` with the request timeout in milliseconds and the ``<RequestInterval>`` with the minimum waiting time the traditional web page should be requested:

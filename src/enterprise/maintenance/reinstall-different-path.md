@@ -20,7 +20,7 @@ coverage-type:
 
 # Re-Install the OutSystems Platform on a different path
 
-Follow the steps in this article when moving the Platform Server installation **from one path to another**, for example from "C:\Program Files\OutSystems\Platform Server" to "D:\Program Files\OutSystems\Platform Server". 
+Follow the steps in this article when moving the Platform Server installation **from one path to another**, for example from "C:\Program Files\OutSystems\Platform Server" to "D:\Program Files\OutSystems\Platform Server".
 
 <div class="info" markdown="1">
 

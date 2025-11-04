@@ -21,7 +21,6 @@ coverage-type:
 <details>
 <summary> <strong> App analytics stream in ODC</strong></summary>
 
-
 ## Error message
 
 `There was an unknown error reaching your APM tool server. If the problem persists, contact OutSystems Support.`

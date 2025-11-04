@@ -51,9 +51,8 @@ You can overcome this problem by having someone access your server and perform t
     * No need to install Service Center
 
 * In every machine of your environment, you must restart IIS:
- 
+
     ![OutSystems Configuration Tool window showing the Network tab with options to set Internal Network IP addresses.](images/mgmt-console-not-authorized_1.png "OutSystems Configuration Tool")
- 
 
 **OutSystems 10 or later**
 
@@ -66,6 +65,5 @@ The Internal Network is configured in ServiceCenter. A user with local access to
 * Apply changes:
 
     ![OutSystems ServiceCenter Network Security screen with fields for Internal network addresses and Trusted proxy addresses.](images/mgmt-console-not-authorized_2.png "OutSystems ServiceCenter Network Security")
- 
-If the correct addresses were added, you should now be able to access your management consoles again.
 
+If the correct addresses were added, you should now be able to access your management consoles again.

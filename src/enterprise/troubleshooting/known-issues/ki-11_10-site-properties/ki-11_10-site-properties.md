@@ -18,6 +18,7 @@ coverage-type:
 ---
 
 # Known issue after update to 11.10.2 - value cannot be null error installing Service Center
+
 ## Issue description { #issue-description }
 
 This issue occurs upon an upgrade of the Platform Server on an environment that is meets all the following conditions:
@@ -35,7 +36,6 @@ Before OutSystems version 5, Site Properties had a non-standard composite key in
 
 When upgrading to OutSystems version 5, **active** Site Property identifiers were properly upgraded to the new GUID format. However, those that were deleted (that marks then as inactive in the database) weren’t upgraded in OutSystems 5, which means they remained with the old non-standard format.
 When the new validation mechanism attempts to parse “old” Site Properties, it will fail with the above error message.
-
 
 ## Impact
 
@@ -59,7 +59,6 @@ If any of the queries returns results, the environment is or will be affected by
 If you already updated to 11.10.2, in addition to analyzing the results of the queries, you can find the following error in the error logs or during Service Center installation:
 `Value cannot be null.Parameter name: key`.
 
-
 ## Resolution
 
 To resolve this, you'll need to delete the Site Properties with old IDs directly in the database. As these Site Properties were already removed from Service Center, this won’t have any impact on your running apps. And that can be done by following these steps:
@@ -68,12 +67,8 @@ To resolve this, you'll need to delete the Site Properties with old IDs directly
 
     `DELETE FROM ossys_Site_Property where SITE_PROPERTY_DEFINITION_ID in (select id from ossys_Site_Property_Definition where is_active = 0 and ss_key like 'site%')`
 
-
     `DELETE FROM ossys_Site_Property_Shared where SITE_PROPERTY_DEFINITION_ID in (select id from ossys_Site_Property_Definition where is_active = 0 and ss_key like 'site%')`
-
 
 1. Only after deleting the Site Properties, delete their definitions:
 
     `DELETE FROM ossys_Site_Property_Definition where is_active = 0 and ss_key like 'site%'`
-
-

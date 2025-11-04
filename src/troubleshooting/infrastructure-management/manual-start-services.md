@@ -20,6 +20,7 @@ coverage-type:
 # Manually starting OutSystems services - how-to and caveats
 
 OutSystems Platform uses 5 services:
+
 * Log (OutSystems 10 and previous),
 * Deployment Controller (or simply Controller)
 * Deployment
@@ -52,7 +53,7 @@ For that, [NET STOP](https://technet.microsoft.com/en-us/library/bb490715.aspx) 
 
 IIS should be started and stopped using appropriate commands: `IISRESET /START` and `IISRESET /STOP`.
 
-### Precedences 
+### Precedences
 
 On startup, Log, Controller, and SMS Connector initiate on their own. After they're started, after a limited period in time, they complete initiation.
 
@@ -116,4 +117,4 @@ There are two ways to deal with this behavior:
 
 After each service is started, it's possible to confirm that initialization is correct by consulting Event Log.
 
-**Note**: The order for stopping services is the same for starting them. 
+**Note**: The order for stopping services is the same for starting them.

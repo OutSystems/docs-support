@@ -28,7 +28,7 @@ As such, before introducing a breaking change for a new release, OutSystems care
 
 ## Breaking changes
 
-#### Data Types
+### Data Types
 
 1\. <a id="bc-1"></a>
 
@@ -54,7 +54,7 @@ As such, before introducing a breaking change for a new release, OutSystems care
 
 ---
 
-#### Built-in Functions
+### Built-in Functions
 
 3\. <a id="bc-3"></a>
 
@@ -128,7 +128,7 @@ As such, before introducing a breaking change for a new release, OutSystems care
 
 ---
 
-#### Extensions
+### Extensions
 
 9\. <a id="bc-9"></a>
 
@@ -223,7 +223,7 @@ The upgrade process for extensions detects the entities from an Oracle database 
 
 ---
 
-#### REST APIs
+### REST APIs
 
 15\. <a id="bc-15"></a>
 
@@ -278,7 +278,7 @@ If you need to use the attribute as a Date (for example in a scenario where the 
 
 ---
 
-#### Database Connections
+### Database Connections
 
 17\. <a id="bc-17"></a>
 
@@ -295,7 +295,7 @@ If you need to use the attribute as a Date (for example in a scenario where the 
 
 ---
 
-#### Security and Authentication
+### Security and Authentication
 
 18\. <a id="bc-18"></a>
 
@@ -339,7 +339,7 @@ Supported formats:
 
 ---
 
-#### Internal Network
+### Internal Network
 
 21\. <a id="bc-21"></a>
 
@@ -378,7 +378,7 @@ The configuration of Internal Network is now executed in the Service Center, und
 
 ---
 
-#### Factory Configuration
+### Factory Configuration
 
 23\. <a id="bc-23"></a>
 
@@ -395,7 +395,7 @@ To understand if a XSLT has some of the patterns that Microsoft describes as "di
 
 ---
 
-#### OutDoc
+### OutDoc
 
 24\. <a id="bc-24"></a>
 
@@ -409,9 +409,9 @@ To understand if a XSLT has some of the patterns that Microsoft describes as "di
 
 ---
 
-### Side Effects
+## Side Effects
 
-#### Built-in Functions
+### Built-in Functions
 
 1\. <a id="se-1"></a>
 
@@ -437,7 +437,7 @@ To understand if a XSLT has some of the patterns that Microsoft describes as "di
 
 ---
 
-#### System Actions
+### System Actions
 
 3\. <a id="se-3"></a>
 
@@ -451,7 +451,7 @@ To understand if a XSLT has some of the patterns that Microsoft describes as "di
 
 ---
 
-#### Security
+### Security
 
 4\. <a id="se-4"></a>
 
@@ -477,7 +477,7 @@ To understand if a XSLT has some of the patterns that Microsoft describes as "di
 
 ---
 
-#### Meta-Model
+### Meta-Model
 
 6\. <a id="se-6"></a>
 
@@ -503,7 +503,7 @@ To understand if a XSLT has some of the patterns that Microsoft describes as "di
 
 ---
 
-#### Service Studio UI
+### Service Studio UI
 
 8\. <a id="se-8"></a>
 

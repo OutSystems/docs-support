@@ -10,7 +10,7 @@ figma: https://www.figma.com/file/mP34OzloL9EPqXml1E0tfC/Community?node-id=1356:
 
 # Merging two OutSystems community accounts
 
-OutSystems community accounts are created using your email. 
+OutSystems community accounts are created using your email.
 
 Sometimes, it may happen that you have two community accounts created with distinct emails. For example, one with your personal email and another with your work email. You can, if you choose to, merge two accounts into one.
 When merging two accounts, the account you wish to keep will receive all the information, and the account that will be merged is deleted.
@@ -45,7 +45,6 @@ Do the following to merge two accounts:
 
 The following will be transferred from **account B** into **account A**. The result will be a combination of both the information from account A and B merged in account A.
 
-
 * Community forums posts and votes on those posts
 * Forge components ownership, votes, and subscriptions
 * Online courses progression
@@ -59,7 +58,6 @@ The following will be transferred from **account B** into **account A**. The res
 The profile creation date will be the oldest date. That can be either the creation date of account A or account B. The same applies to the dates of the badges: Welcome, Profile Superstar, First Idea, First Component, First Post, and MVP
 
 </div>
-
 
 ## What information won’t be transferred?
 

@@ -18,15 +18,14 @@ coverage-type:
 # Add certificate to trusted root store in OutSystems Cloud
 
 <div class="warning" markdown="1">
-    
-This article applies to O11 Cloud Environments only.
- 
-</div>
 
+This article applies to O11 Cloud Environments only.
+
+</div>
 
 When integrating with external systems such as, for example, consuming webservices, integrating with external databases or with an Active Directory, there is often the requirement to do so over HTTPS.
 
-When those external servers possess an SSL certificate issued by a public certificate authority (CA), the HTTPS connection is successfully established without the need for further configuration. 
+When those external servers possess an SSL certificate issued by a public certificate authority (CA), the HTTPS connection is successfully established without the need for further configuration.
 
 ## Applicable use case
 
@@ -38,7 +37,7 @@ These certificates aren't trusted by the client servers (in this case, the OutSy
 
 For OutSystems Cloud environments, this operation is performed by OutSystems support. This option is available depending on your subscription. For more information, refer to the [Cloud services catalog](https://success.outsystems.com/Support/Enterprise_Customers/OutSystems_Support/Cloud_services_catalog).
 
-Refer to [TLS Cipher Suites in Windows 10 v1607](https://learn.microsoft.com/en-us/windows/win32/secauthn/tls-cipher-suites-in-windows-10-v1607) for the supported encryptions. 
+Refer to [TLS Cipher Suites in Windows 10 v1607](https://learn.microsoft.com/en-us/windows/win32/secauthn/tls-cipher-suites-in-windows-10-v1607) for the supported encryptions.
 
 <div class="info" markdown="1">
 

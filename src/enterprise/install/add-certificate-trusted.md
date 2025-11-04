@@ -32,7 +32,6 @@ OutSystems servers must have a valid SSL certificate issued by a public Certific
 
 For OutSystems Cloud environments check [this article](https://success.outsystems.com/Support/Enterprise_Customers/Maintenance_and_Operations/Add_certificate_to_trusted_root_store_in_OutSystems_cloud) instead.
 
-
 ## Certificate installation
 
 1. Open the Microsoft Management Console (Start > MMC);
@@ -48,7 +47,6 @@ For OutSystems Cloud environments check [this article](https://success.outsystem
         1. right click the store and choose **All Tasks** > **Import**  ;
         1. Follow the wizard and provide the certificate file you have.
 
-
 ## Export the certificate
 
 Export the public certificate to the following path: D:\Certificates:
@@ -61,6 +59,3 @@ Export the public certificate to the following path: D:\Certificates:
 1. save the file into D:\Certificates.
 
 For environments with more than one front-end, these instructions must be followed on all front-end servers.
-
-
-

@@ -19,7 +19,8 @@ coverage-type:
 
 There are different ways for getting an HAR file for different browsers. Steps to get the HAR file in popular browsers are listed below:
 
-### HAR file for Google Chrome
+## HAR file for Google Chrome
+
 To get the Network HAR file in Google Chrome, follow these steps:
 
 1. Navigate to the page of the application that is facing the issue.
@@ -31,6 +32,7 @@ To get the Network HAR file in Google Chrome, follow these steps:
 1. Right-click the log and Save as HAR with content.
 
 ### HAR file for Firefox
+
 To get the Network HAR file in Firefox, follow these steps:
 
 1. Navigate to the page of the application that is facing the issue.
@@ -42,6 +44,7 @@ To get the Network HAR file in Firefox, follow these steps:
 1. Once you have reproduced the issue and you see that all of the actions have been generated in the Developer Network Panel, right-click anywhere under the **File** column, and click **Save all as Har**.
 
 ### HAR file for Edge
+
 To get the Network HAR file in Edge, follow these steps:
 
 1. Press **F12** to open the debug pane.

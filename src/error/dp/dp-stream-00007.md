@@ -59,5 +59,3 @@ Unable to establish a connection with the destination server. Therefore, logs ar
 In LifeTime Log Streaming, review the destination server configuration. The authentication credentials, endpoint URL, or both, may be incorrect.
 
 </details>
-
-

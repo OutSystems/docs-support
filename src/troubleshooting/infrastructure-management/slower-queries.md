@@ -42,7 +42,7 @@ To perform these tasks, you need to access the database. If your database is in 
 * You need to [ask for a database user](https://www.outsystems.com/tk/redirect?g=4cdae94f-8633-4875-98bd-a3a4ac1bd89a) to be able to execute the steps of checking the last maintenance execution (applicable only for Oracle), checking the table statistics, and checking table fragmentation.  
 * You need to [open a support case](../../community/open-support-case.md) asking to execute the steps of updating the table statistics and defragmenting the table.  
 
-You can find below the steps to solve this issue in Oracle and SQL Server. 
+You can find below the steps to solve this issue in Oracle and SQL Server.
 
 <div class="info" markdown="1">
 We strongly recommend engaging with your DBA to supervise the execution of the steps.
@@ -72,7 +72,7 @@ Follow these steps:
 1. To check if the table statistics are up to date, execute the following queries, changing &lt;owner_name&gt; by the owner of the table and &lt;table_name&gt; by the table in which you deleted/updated the records.
 
     1. Check the last time Oracle updated the table statistics and how many records it had at that time:  
-        
+
             select 
                 to_char(t.last_analyzed,'YYYY/MM/DD HH24:MI:SS') table_last_analyzed, 
                 t.num_rows
@@ -90,7 +90,7 @@ Follow these steps:
             from 
                 <owner_name>.<table_name>
             ;
-        
+
         Compare the number of rows in the table to the number of rows obtained in the previous step.
 
         Note: A small difference between the number of rows presented by the statistics and the current number of rows in the table is considered normal.  
@@ -100,12 +100,12 @@ Execute the following query, changing &lt;owner_name&gt; by the owner of the tab
 
         EXEC DBMS_STATS.GATHER_TABLE_STATS( OWNNAME => '<owner_name>', TABNAME => '<table_name>', ESTIMATE_PERCENT => 100);
 
-1. With the statistics updated, check table fragmentation. 
+1. With the statistics updated, check table fragmentation.
 
     <div class="info" markdown="1">
     If the statistics are outdated, the table fragmentation may not be accurate.
     </div>
-    
+
     1. Retrieve the database block size:  
 
             select 
@@ -115,7 +115,7 @@ Execute the following query, changing &lt;owner_name&gt; by the owner of the tab
             where 
                 name = 'db_block_size'
             ;
-    
+
     1. Execute the following query, changing &lt;block_size&gt; by the database block size, &lt;owner_name&gt; by the owner of the table and &lt;table_name&gt; by the table in which you deleted/updated the records.  
 
             select
@@ -139,12 +139,11 @@ Execute the following query, changing &lt;owner_name&gt; by the owner of the tab
 
 1. In case there is table fragmentation, the table needs to be defragmented. There are a few ways to defragment the table and the best way depends on the Oracle license (Enterprise/Standard), table size, data type of the columns and indexes. Contact your DBA, as they should know the best way to defragment the table.
 
-
 ### SQL Server
 
-Up to SQL Server 2014, the number of records in the table is used to determine if the statistics are up to date or not. From the 2016 version onwards, SQL Server calculates whether the table statistic is stale according to the table cardinality. As an example, a statistic for a table with 2 million rows will be considered stale if at least 44.721 rows have been modified. You can find more information on the [official documentation](https://docs.microsoft.com/en-us/sql/relational-databases/statistics/statistics?view=sql-server-ver15). 
+Up to SQL Server 2014, the number of records in the table is used to determine if the statistics are up to date or not. From the 2016 version onwards, SQL Server calculates whether the table statistic is stale according to the table cardinality. As an example, a statistic for a table with 2 million rows will be considered stale if at least 44.721 rows have been modified. You can find more information on the [official documentation](https://docs.microsoft.com/en-us/sql/relational-databases/statistics/statistics?view=sql-server-ver15).
 
-SQL Server has no default maintenance plan and no maintenance window. This should be set by a DBA. However, SQL Server can update statistics automatically at any time if the "Auto Update Statistics" parameter is set to "True", which is the default value. 
+SQL Server has no default maintenance plan and no maintenance window. This should be set by a DBA. However, SQL Server can update statistics automatically at any time if the "Auto Update Statistics" parameter is set to "True", which is the default value.
 
 Follow these steps:
 
@@ -163,7 +162,7 @@ Follow these steps:
                 stat.object_id = OBJECT_ID('<schema_name>.<table_name>')
             ;
 
-    1.  Check the current number of rows in the table:  
+    1. Check the current number of rows in the table:  
 
             select 
                 count(1) 
@@ -172,7 +171,7 @@ Follow these steps:
             ;
 
         Compare the number of rows in the table to the number of rows obtained in the previous step.
-        
+
         Note: A small difference between the number of rows presented by the statistic and the current number of rows in the table is considered normal.
 
 1. If the statistics are outdated, update them manually.  
@@ -180,7 +179,7 @@ Execute the following query, changing &lt;schema_name&gt; by the schema of the t
 
         update statistics <schema_name>.<table_name> with fullscan;
 
-1. With the statistics updated, check table fragmentation. 
+1. With the statistics updated, check table fragmentation.
 
     <div class="info" markdown="1">
     If the statistics are outdated, the table fragmentation may not be accurate.
@@ -214,4 +213,3 @@ Execute the following query, changing &lt;schema_name&gt; by the schema of the t
         ; 
 
 1. There are some parameters that can be used to defragment the table/index and the best combination depends on the SQL Server license (Enterprise/Standard) and the size of the table. Contact your DBA, as they should know the best way to defragment the objects.
-

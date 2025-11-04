@@ -32,7 +32,7 @@ However, some of the links in the application misbehave. Some of the possible mi
 
 Typically, this type of problem happens in the production environment but not in other (earlier) staging environments (development, test, etc).
 
-Additionally, in the affected environment(s), the problem will typically not happen if accessing the application in a browser running locally in the server, by accessing with [http://127.0.0.1/](http://127.0.0.1/) . 
+Additionally, in the affected environment(s), the problem will typically not happen if accessing the application in a browser running locally in the server, by accessing with [http://127.0.0.1/](http://127.0.0.1/) .
 
 ## Cause
 
@@ -83,4 +83,3 @@ Refer to the following contents for more information on the subject:
 Applies to OutSystems Platform, all stacks.
 
 Applies to version 8.0.x.x and above (last reviewed under 9.1.600.0).
-

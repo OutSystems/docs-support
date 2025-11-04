@@ -37,11 +37,11 @@ While troubleshooting process of a support case, one of our support engineers mi
     Only collect memory dumps if this information was requested by the Support engineer. Collecting memory dumps increases the tool execution time and causes a temporary unavailability of the applications in the respective application pool.
 
     </div>
-    
+
 1. On the Database configurations, you can add/remove tables of the Platform Server metamodel and export them. For database troubleshooting, it's necessary to use database credentials that can query system tables (Oracle and SQL Server).
 
     _Note:_ Test the connection of the database user before running the tool.
-    
+
 1. Send the generated ZIP file to OutSystems Support.
 
 Below you can find the **General Configurations** and **Database Configurations** tab:

@@ -34,7 +34,7 @@ Unable to establish a connection with the destination server. Therefore, observa
 
 ## Recommended action
 
-Check if the APM tool works correctly and re-establish the connection. 
+Check if the APM tool works correctly and re-establish the connection.
 
 </details>
 
@@ -55,6 +55,6 @@ Unable to establish a connection with the destination server. Therefore, logs ar
 
 ## Recommended action
 
-Check if the APM tool works correctly and re-establish the connection. 
+Check if the APM tool works correctly and re-establish the connection.
 
 </details>

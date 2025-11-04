@@ -34,11 +34,11 @@ Security of these REST endpoints is automatically ensured by OutSystems through 
 * All accesses are encrypted
 * All accesses are subject to server-side access control
 
-### Encryption 
+### Encryption
 
 All communication to OutSystems generated REST endpoints is done over HTTPS and is therefore encrypted. Any attempt to use one of these APIs over HTTP will issue an error on the server side
 
-### Server-side access control 
+### Server-side access control
 
 Access control is done on the server side to make sure no unauthorized accesses are made to the generated REST endpoints. This access control is done using a secure user token that is sent whenever there’s a call to one of these endpoints. For more information about the authorization mechanism for OutSystems mobile apps, check [Configure Mobile App Authentication](https://success.outsystems.com/Documentation/11/Managing_the_Applications_Lifecycle/Secure_the_Applications/Configure_App_Authentication).
 
@@ -62,8 +62,6 @@ OutSystems automatically computes access control for each endpoint based on usag
 
 **Exception handlers defined on UI flows** that access the server create public endpoints. This ensures any user of your application will see the correct information about any error that might occur, even if the user hasn’t logged yet.
 
-
-**Application Events** (for example, *OnApplicationReady*, *OnApplicationResume*) that access the server create public endpoints. Public endpoints are the best solution since these events often occur before the user has had a chance to log in.
-
+**Application Events** (for example, _OnApplicationReady_, _OnApplicationResume_) that access the server create public endpoints. Public endpoints are the best solution since these events often occur before the user has had a chance to log in.
 
 You can customize access control of a particular endpoint. Developers have access to OutSystems built-in functions that can be used to check roles and permissions whenever there's an access to the server. A security exception can then be raised if an unauthorized access is detected.

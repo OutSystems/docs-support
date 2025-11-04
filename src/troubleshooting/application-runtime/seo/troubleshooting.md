@@ -35,7 +35,7 @@ Do the following in Google Chrome to get the React version your apps are using:
 1. Paste the following code into the console: `console.log("React Version " + require("react").version);`
 1. Press **Enter** to confirm. The console returns the React version.
 
-If your React version is **lower than 16**, contact OutSystems Support and inform them that your OutSystems Cloud environment isn't running React 16. There may be a valid technical reason why your OutSystems Cloud is still using React 15. 
+If your React version is **lower than 16**, contact OutSystems Support and inform them that your OutSystems Cloud environment isn't running React 16. There may be a valid technical reason why your OutSystems Cloud is still using React 15.
 
 ### Empty string in a required parameter causes an error
 
@@ -66,6 +66,7 @@ setTimeout(function() {
     window.location.href = url
 }, 0);
 ```
+
 Here is a screenshot of the fix:
 
 ![Screenshot of OutSystems Service Studio showing the JavaScript workaround for redirecting to a URL within the SecurityException logic flow.](images/workaround-js-redirect-url-ss.png "JavaScript Redirect Workaround in OutSystems")

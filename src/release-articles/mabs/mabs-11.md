@@ -12,11 +12,7 @@ platform-version: o11, odc
 
 Check the mobile stack details for each available MABS version in [Mobile Apps Build Service Versions](mabs-versions.md).
 
-</div>
-
-<div class="info" markdown="1">
-
-For common issues and solutions check also [Troubleshooting the Mobile Apps Generation](https://success.outsystems.com/Support/Enterprise_Customers/Troubleshooting/Troubleshooting_the_Mobile_Apps_Generation).
+For common issues and solutions check also [Troubleshooting the Mobile Apps Generation](../../troubleshooting/application-development/troubleshoot-mobile-apps-generation.md).
 
 </div>
 
@@ -27,6 +23,38 @@ MABS 11 is an important milestone for all mobile developers who publish on App S
 It's recommended to update all supported plugins to the latest version available on the Forge. For more details, see [System Requirements](#system-requirements).
 
 </div>
+
+## MABS 11.2 { #mabs-version-11-2 }
+
+<div class="info" markdown="1">
+
+**First release:** 2025-10-15 10:30:00 UTC<br />
+**Last update:** 2025-10-15 14:30:00 UTC.
+
+</div>
+
+<div class="warning" markdown="1">
+
+This minor release brings architecture improvements to unify the O11 and ODC mobile application build service. In order to support this change, some supported plugins were also updated. If you are building production apps with these specific plugins, we recommend you start upgrading the plugin versions for your apps to 11.2 immediately.
+
+[MABS 11.2 release notes](../../release-notes/mabs/11/11.2/11.2.md)
+
+</div>
+
+## System Requirements
+
+For more details, click the plugin name on Forge. OutSystems recommends always using the latest version available of a supported plugin.
+
+|Plugin|Minimum supported version for O11|Minimum supported version for ODC|
+|:---|---|---|
+|[Ciphered Local Storage](https://www.outsystems.com/forge/component-versions/1500)|3.2.4 or later|1.1.2 or later|
+|[Cloud Messaging (Firebase)](https://www.outsystems.com/forge/component-versions/12174)|4.4.0 or later|2.3.1 or later|
+|[Health & Fitness](https://www.outsystems.com/forge/component-versions/11715)|2.2.1 or later|1.4.0 or later|
+|[Key Store](https://www.outsystems.com/forge/component-versions/1550)|2.4.1 or later|1.2.3 or later|
+|[SSL Pinning](https://www.outsystems.com/forge/component-versions/1873)|7.0.1 or later|1.0.8 or later|
+|[Payments](https://www.outsystems.com/forge/component-versions/13678)|1.2.2 or later|1.1.10 or later|
+
+
 
 ## MABS 11.1 { #mabs-version-11-1 }
 
@@ -39,7 +67,7 @@ It's recommended to update all supported plugins to the latest version available
 
 <div class="warning" markdown="1">
 
-Starting with MABS 11.1 the Upload Widget by default only allows selecting pictures or videos from the device's gallery. If you wish to capture pictures or videos from the device's camera, you need to add the [capture attribute](https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/capture) with the value **environment** to the Upload Widget in the IDE (see below) and then publish your app. This change only affects Android applications with the [AddUploadWidgetPermissions preference](https://success.outsystems.com/support/release_notes/mobile_apps_build_service_versions/mabs_older_versions/mabs_7_release_notes/#upload-widget-permissions) set to `true`.
+Starting with MABS 11.1 the Upload Widget by default only allows selecting pictures or videos from the device's gallery. If you wish to capture pictures or videos from the device's camera, you need to add the [capture attribute](https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/capture) with the value **environment** to the Upload Widget in the IDE (see below) and then publish your app. This change only affects Android applications with the [AddUploadWidgetPermissions preference](./mabs-7.md#upload-widget-permissions) set to `true`.
 
 </div>
 
@@ -111,7 +139,7 @@ Plugin requirements for **MABS 11**. For more details, please check the Forge by
 The table below contains the list of plugins and their supported versions. It is important to note that it is recommended to always use the latest version available of a plugin.
 
 |Plugin|Supported minimum version for O11|Supported minimum version for ODC|
-|:---|---|---|
+|---|---|---|
 |[Contacts](https://www.outsystems.com/forge/component-versions/1394)|4.0.6 or later|1.0.1 or later|
 |[File Transfer](https://www.outsystems.com/forge/component-versions/1409)|2.1.7 or later|1.0.2 or later|
 |[Key Store](https://www.outsystems.com/forge/component-versions/1550)|2.4.1 or later|1.1.1 or later|
@@ -129,8 +157,6 @@ The table below contains the list of plugins and their supported versions. It is
 |[Payments](https://www.outsystems.com/forge/component-versions/13678)|1.2.2 or later|1.1.2 or later|
 |[InAppBrowser](https://www.outsystems.com/forge/component-versions/1558)|2.4.10 or later|1.0.1 or later|
 
------
-
 ## Breaking Changes
 
 Here is the list of changes made to MABS 11 that may affect the building of your apps.
@@ -138,5 +164,3 @@ Here is the list of changes made to MABS 11 that may affect the building of your
 * Changed the `AddUploadWidgetPermissions` property default value from `true` to `false`. The Android permissions associated with the upload widget are no longer added out of the box.
 * Changed the `StatusBarOverlaysWebView` property default value from `false` to `true`.
 * Added the `StatusBarStyle` property default value as `default`.
-
------ 

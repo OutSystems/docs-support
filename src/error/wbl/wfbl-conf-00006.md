@@ -19,7 +19,7 @@ coverage-type:
 ## Cause
 
 This error occurs when you try to create or update a field of Dropdown type that has inconsistent data.
-The &lt;Name&gt; and &lt;Id&gt; indicates which field has the error. 
+The &lt;Name&gt; and &lt;Id&gt; indicates which field has the error.
 
 ## Impact
 

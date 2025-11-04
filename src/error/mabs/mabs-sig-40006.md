@@ -29,6 +29,7 @@ This error occurs when generating an iOS app and MABS is not able to parse the p
 Users can't generate the application package.
 
 ## Recommended action
+
 Check if the provisioning profile has the correct format (only `.mobileprovision` extension is valid). Otherwise, replace it and retry.
 
 Find more information about generating iOS mobile applications [here](https://success.outsystems.com/Documentation/11/Delivering_Mobile_Apps/Generate_and_Distribute_Your_Mobile_App/Generate_and_Publish_Your_Mobile_App_to_the_Mobile_App_Stores/Publish_Your_Mobile_iOS_Application_to_the_Apple_App_Store).

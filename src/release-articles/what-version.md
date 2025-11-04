@@ -18,7 +18,6 @@ To display the version of Service Studio and Integration Studio click **Help** >
 
 ![Screenshot showing how to find the version number in OutSystems Service Studio via the Help and About menu options.](images/what-version-ss.png "Service Studio Version Information")
 
-
 ## LifeTime
 
 Once logged into LifeTime, the version will display at the bottom of the page.
@@ -33,7 +32,7 @@ In a proper instalation, all these components will have the same version. You ca
 
 ### Platform Server binaries
 
-In the OutSystems Cloud, this version will always be the same that's seen in Service Center. 
+In the OutSystems Cloud, this version will always be the same that's seen in Service Center.
 If, in a self-managed instalation, you suspect there's any inconsistency, you can check the installed version of the Platform Server by accessing the server remotely and opening Configuration Tool. Go to **Help** > **About** to see the version.
 
 ### Service Center

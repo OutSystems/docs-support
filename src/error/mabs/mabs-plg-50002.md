@@ -22,7 +22,7 @@ coverage-type:
 
 ## Cause
 
-This error indicates that something wrong happened when trying to access the plugin's source URL, for example the URL can't be found or isn't reachable. The **&lt;plugin_name&gt;** refers to the Cordova plugin name. The most frequent causes for this error to occur are the following: 
+This error indicates that something wrong happened when trying to access the plugin's source URL, for example the URL can't be found or isn't reachable. The **&lt;plugin_name&gt;** refers to the Cordova plugin name. The most frequent causes for this error to occur are the following:
 
 * Connection interrupted while fetching the plugin.
 * Connection interrupted due to timeout issue while fetching the plugin.

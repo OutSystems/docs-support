@@ -88,7 +88,7 @@ You can solve this problem in one of the following ways:
 
 * Don't close the Chrome window and click the **Start Debugging** button again. The Chrome window is reused and you can start debugging on the **Debug** tab in **Service Studio**.
 
-* Go to [chrome://settings/?search=proxy](chrome://settings/?search=proxy) and click **Open your computer's proxy settings** then disable Automatically detect settings. 
+* Go to [chrome://settings/?search=proxy](chrome://settings/?search=proxy) and click **Open your computer's proxy settings** then disable Automatically detect settings.
 
     ![Screenshot of Chrome settings showing how to disable the 'Automatically detect settings' option in the proxy setup.](images/error-debugging-solution.png "Chrome Proxy Settings")
 

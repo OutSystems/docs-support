@@ -5,7 +5,7 @@ app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
 ---
 
-<div class="hidden"><h1>Development Environment</h1></div> 
+<div class="hidden"><h1>Development Environment</h1></div>
 
 <div class="hidden" id="development-environment-10.0.1116.0_start"></div>
 
@@ -978,4 +978,4 @@ platform-version: o11
 <li>Added null values to Static Entity test value drop down menu. (#1375889)</li>
 <li>Allow NullIdentifier() and CurrDate() in Aggregate test values. (#1375892)</li>
 </ul>
-<p> </p><div class="hidden" id="development-environment-10.0.1116.0_end"></div><div class="hidden"><h1>Development Environment</h1></div> 
+<p> </p><div class="hidden" id="development-environment-10.0.1116.0_end"></div><div class="hidden"><h1>Development Environment</h1></div>

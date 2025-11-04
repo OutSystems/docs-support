@@ -5,13 +5,12 @@ app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
 ---
 
-<div class="hidden"><h1>Lifetime Management Console</h1></div> 
+<div class="hidden"><h1>Lifetime Management Console</h1></div>
 
 <div class="hidden" id="lifetime-management-console-11.16.2_start"></div>
 
 <h2 id="lifetime_management_console_11.16.2" >LifeTime Management Console 11.16.2</h2>
 <div class="info"><p>Released on Jan 17, 2023</p></div>
-
 
 <style>.cattag {background: #f4f2ff; color: #6a6581; padding: 4px 10px;}</style>
 <h3 id="new_in_lifetime_management_console_11.16.2" >New in LifeTime Management Console 11.16.2</h3>
@@ -28,7 +27,6 @@ platform-version: o11
 <h2 id="lifetime_management_console_11.16.1" >LifeTime Management Console 11.16.1</h2>
 <div class="info"><p>Released on Jan 05, 2023</p></div>
 
-
 <style>.cattag {background: #f4f2ff; color: #6a6581; padding: 4px 10px;}</style>
 <h3 id="new_in_lifetime_management_console_11.16.1" >New in LifeTime Management Console 11.16.1</h3>
 <ul>
@@ -37,7 +35,7 @@ platform-version: o11
 <h3 id="bug_fixing_lifetime_management_console_11.16.1" >Bug Fixing</h3>
 <ul>
 <li>Fixed a solution publish operation issue where more than one publish request was triggered to the target environment when a timeout occurred in the publish process. (RPM-1525) <span class="cattag">Application Lifecycle</span>  <span class="cattag">LifeTime</span> </li>
-<li>Fixed an issue that caused the suspension of the synchronization process of the environments which would lead to problems when executing subsequent operations such as deployments, and setting configurations, among others. 
+<li>Fixed an issue that caused the suspension of the synchronization process of the environments which would lead to problems when executing subsequent operations such as deployments, and setting configurations, among others.
 This occurred in infrastructures with multiple applications that weren't deployed in every environment. The suspension was due to too many requests inside the process.
 The issue was fixed in an internal query that will avoid the excessive number of requests that led to the suspension. (RPM-2117) <span class="cattag">Application Lifecycle</span>  <span class="cattag">LifeTime</span> </li>
 <li>Fixed an issue which prevented a user with 'Change and Deploy' permissions over an environment to access the 'Settings' link in the Application_Details of an application from that environment. (RPM-2210) <span class="cattag">Application Lifecycle</span>  <span class="cattag">LifeTime</span> </li>
@@ -48,7 +46,7 @@ This occurred when old LifeTimeAnalytics tables don't exist, the process was rel
 <li>Fixed an issue with wrong audit message. In a cloud infrastructure, when changing the Maintenance Window of an environment the logged message had the wrong environment name and the user who made the request wasn't recorded. (RPM-3207) <span class="cattag">Application Lifecycle</span>  <span class="cattag">LifeTime</span> </li>
 <li>Fixed the issue that was causing the Username claim field to display default value always even when it was changed and saved. (RPM-3458) <span class="cattag">Application Lifecycle</span>  <span class="cattag">LifeTime</span> </li>
 <li>Fixed an issue that was not letting to enable legacy provider with Built-in authentication activated and throwing error. (RPM-3471) <span class="cattag">Application Lifecycle</span>  <span class="cattag">LifeTime</span> </li>
-<li>Fixed an issue that caused an error when a user had Access permissions in the environment but Change&amp;Deploy in a specific Application.<br/> 
+<li>Fixed an issue that caused an error when a user had Access permissions in the environment but Change&amp;Deploy in a specific Application.<br/>
 This occurred when LifeTime would add a dependency of that app that the user has no permission to deploy.<br/>
 Now, the user will get an exception saying that he does not have permission to deploy one or more of the added dependencies. (RPM-672) <span class="cattag">Application Lifecycle</span>  <span class="cattag">LifeTime</span> </li>
 <li>Made the automatic abort due to errors on deployment plans more resilient.
@@ -69,7 +67,6 @@ If the issue is hit, the workaround is to activate the Built-in authentication a
 
 <h2 id="lifetime_management_console_11.16.0" >LifeTime Management Console 11.16.0</h2>
 <div class="info"><p>Released on Nov 28, 2022 and removed from availability on Dec 20, 2022.</p></div>
-
 
 <style>.cattag {background: #f4f2ff; color: #6a6581; padding: 4px 10px;}</style>
 <h3 id="new_in_lifetime_management_console_11.16.0" >New in LifeTime Management Console 11.16.0</h3>
@@ -105,7 +102,6 @@ If the issue is hit, the workaround is to activate the Built-in authentication a
 <h2 id="lifetime_management_console_11.15.1" >LifeTime Management Console 11.15.1</h2>
 <div class="info"><p>Released on Nov 03, 2022</p></div>
 
-
 <style>.cattag {background: #f4f2ff; color: #6a6581; padding: 4px 10px;}</style>
 <h3 id="new_in_lifetime_management_console_11.15.1" >New in LifeTime Management Console 11.15.1</h3>
 <ul>
@@ -126,7 +122,6 @@ This issue occurred in apps that included special characters in the app name. (R
 <h2 id="lifetime_management_console_11.15.0" >LifeTime Management Console 11.15.0</h2>
 <div class="info"><p>Released on Oct 19, 2022</p></div>
 
-
 <style>.cattag {background: #f4f2ff; color: #6a6581; padding: 4px 10px;}</style>
 <h3 id="new_in_lifetime_management_console_11.15.0" >New in LifeTime Management Console 11.15.0</h3>
 <ul>
@@ -143,7 +138,6 @@ Find more information about this breaking change <a href="https://success.outsys
 
 <h2 id="lifetime_management_console_11.14.2" >LifeTime Management Console 11.14.2</h2>
 <div class="info"><p>Released on Sep 21, 2022</p></div>
-
 
 <style>.cattag {background: #f4f2ff; color: #6a6581; padding: 4px 10px;}</style>
 <h3 id="new_in_lifetime_management_console_11.14.2" >New in LifeTime Management Console 11.14.2</h3>
@@ -168,7 +162,6 @@ The installation steps have been revised and updated. (RPM-2558) <span class="ca
 
 <h2 id="lifetime_management_console_11.14.1" >LifeTime Management Console 11.14.1</h2>
 <div class="info"><p>Released on Aug 17, 2022</p></div>
-
 
 <style>.cattag {background: #f4f2ff; color: #6a6581; padding: 4px 10px;}</style>
 <h3 id="new_in_lifetime_management_console_11.14.1" >New in LifeTime Management Console 11.14.1</h3>

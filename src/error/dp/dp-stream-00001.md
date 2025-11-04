@@ -59,5 +59,3 @@ Unable to establish a connection with the destination server, therefore, logs ar
 Check if the destination works correctly and re-establish the connection.
 
 </details>
-
-

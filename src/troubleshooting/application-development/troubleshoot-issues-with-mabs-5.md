@@ -42,11 +42,11 @@ Some plugins can perform these directory-dependent tasks in the new Cordova-andr
 
 From the plugins supported by OutSystems, there are five affected by a change in the libraries versions, namely:
 
-- Barcode Plugin
-- Camera Plugin
-- Local Notifications Plugin
-- OneSignal Plugin
-- PushWoosh Plugin
+* Barcode Plugin
+* Camera Plugin
+* Local Notifications Plugin
+* OneSignal Plugin
+* PushWoosh Plugin
 
 Older versions can work with MABS 5.0 but it's not guaranteed. On the other hand, plugins using Android support libraries version 28 aren't compatible with previous MABS versions. Check the table in the section Supported Plugins Versions to prevent gradle resolution issues.
 
@@ -64,7 +64,6 @@ You should use the following versions for the supported OutSystems plugins:
 | OneSignal Plugin           | 2.x.x              | 3.x.x              |
 | PushWoosh Plugin           | 3.x.x              | 4.x.x              |
 
-
 ## Frequent errors
 
 In this section you can find descriptions of some common errors and how to fix them.
@@ -75,16 +74,16 @@ In this section you can find descriptions of some common errors and how to fix t
 
 When requesting a build, you're getting an error similar to:
 
- - Error generating application. This happened because script 'platforms/android/app/cordova-android-support-gradle-release/properties.gradle' wasn't found. Please check your script path and try again.
- - Error installing Cordova plugin: cordova-plugin-firebase': Error: ENOENT: no such file or directory, scandir 'platforms/android/assets/www/google-services.
+* Error generating application. This happened because script 'platforms/android/app/cordova-android-support-gradle-release/properties.gradle' wasn't found. Please check your script path and try again.
+* Error installing Cordova plugin: cordova-plugin-firebase': Error: ENOENT: no such file or directory, scandir 'platforms/android/assets/www/google-services.
 
 #### Cause
 
 This error occurs when building an app with a plugin that tries to access a file that can't be found. This can be caused by multiple reasons:
 
-- A plugin isn't compatible with the MABS version that's used due to the Cordova-android version
-- A plugin isn't configured correctly
-- There is an error in the plugin code
+* A plugin isn't compatible with the MABS version that's used due to the Cordova-android version
+* A plugin isn't configured correctly
+* There is an error in the plugin code
 
 If you are using the OneSignal Plugin and the file that wasn't found is `platforms/android/app/cordova-android-support-gradle-release/properties.gradle` then it's highly likely that you aren't using the correct OneSignal Plugin version.
 
@@ -92,16 +91,16 @@ If you are using the OneSignal Plugin and the file that wasn't found is `platfor
 
 If you are using the OneSignal Plugin:
 
-- Refer to the table in the section Supported Plugins Versions
+* Refer to the table in the section Supported Plugins Versions
 
 If the previous step doesn't fix it:
 
-- Check your plugins documentation to make sure they're correctly configured
-- Try to upgrade your plugins to more recent versions that may support newer Cordova-android versions
+* Check your plugins documentation to make sure they're correctly configured
+* Try to upgrade your plugins to more recent versions that may support newer Cordova-android versions
 
 If the issue remains:
 
-- Modify the plugin(s) to account for the Cordova-android directory changes (refer to the directory changes explained in this section)
+* Modify the plugin(s) to account for the Cordova-android directory changes (refer to the directory changes explained in this section)
 
 ### Minimum Android SDK incompatibility
 
@@ -109,7 +108,7 @@ If the issue remains:
 
 When requesting a build, you're getting an error similar to:
 
-- Error generating application. Library :some-lib: requires minimum Android SDK 21, which is higher than the 16 that's required by the application. Check if this value is being overridden in your Extensibility Configurations.
+* Error generating application. Library :some-lib: requires minimum Android SDK 21, which is higher than the 16 that's required by the application. Check if this value is being overridden in your Extensibility Configurations.
 
 #### Cause
 
@@ -127,13 +126,12 @@ The log file should contain something similar to this, when the application has 
    or use tools:overrideLibrary="com.some.api.some" to force usage (may lead to runtime failures)
 ```
 
-
 #### Resolution
 
 You can try to:
 
-- Check if the minimum SDK value is defined in your Extensibility Configurations
+* Check if the minimum SDK value is defined in your Extensibility Configurations
 
 If the issue remains:
 
-- Try using a different version of the plugin that uses the problematic library
+* Try using a different version of the plugin that uses the problematic library

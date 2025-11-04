@@ -1,0 +1,118 @@
+---
+isautopublish: true
+pageprivacy: public
+---
+
+<h2 id="outsystems_developer_cloud_2025-10-03" >OutSystems Developer Cloud 2025-10-03</h2>
+<div class="info"><p>Released on Oct 03, 2025</p></div>
+
+
+<style>.cattag {background: #f4f2ff; color: #6a6581; padding: 4px 10px;}</style>
+<h3 id="new_in_outsystems_developer_cloud_2025-10-03" > New</h3>
+<ul>
+<li>[Mentor AppGen] 
+List Screen Composition
+<ul>
+<li>Mentor now intelligently selects the optimal UI pattern for lists based on data volume and type, offering a diverse range of options including tables, card lists, maps, galleries, and master-detail views.</li>
+<ul>
+<li>These patterns can be explicitly defined in prompts or embedded within requirement documents, ensuring generated applications deliver list UIs that are functionally accurate, navigable, and aligned with OutSystems UX guidelines.</li>
+</ul>
+</ul>
+
+Sample Data Enhancements
+<ul>
+<li>Expanded the categories of data that have sample images.</li>
+<li>Increased sample data records to 13 to add pagination for galleries.</li>
+<li>Added a default image when ImageURL is empty, ensuring consistent layout.</li>
+</ul>
+
+Visual Enhancements
+<ul>
+<li>App Menu: App Icon styling reviewed to create contrast with Menu color.</li>
+<li>Dashboards:
+    <ul>
+    <li>Charts:
+        <ul>
+        <li>Pie and Donut charts now feature legends positioned alongside the chart.</li>
+        <li>Bar and Column charts have been updated with rounded borders.</li>
+        </ul>
+    </li>
+    <li>Counters: The secondary text size in counters has been reduced for improved readability.</li>
+    <li>Layout: Headings and padding between screen elements have been reviewed and adjusted for a more consistent look.</li>
+    </ul>
+</li>
+
+<li>Master Detail Screen:
+    <ul>
+    <li>Screen styling has been enhanced, improving the alignment of the card with the table height and the pagination component's position relative to the table.</li>
+    <li>Flow actions in Master Details are now created inside of the card area.</li>
+    </ul>
+</li>
+
+<li>List Screen:
+    <ul>
+    <li>The filters component has been improved to display items sorted, without cropping content or breaking the layout.</li>
+    <li>To ensure consistency, Boolean check icons have been replaced with "Yes/No" indicators.</li>
+    <li>Tables' columns now follow the standard alignment used in ODC Studio.</li>
+    <li>Styling reviewed to apply the primary color to buttons.</li>
+    </ul>
+</li>
+<li>View Screen: Text Handling - Content is always displayed below the label, creating consistency among data types.</li>
+</ul> (RDMAG-871)</li>
+</ul>
+<h3 id="bug_fixing_outsystems_developer_cloud_2025-10-03" >Bug Fixing</h3>
+<ul>
+<li>[Mentor AppGen]
+
+App Generation crashes:
+<ul>
+<li> Fixed generation crashes related to Invalid app name and authorization expressions.</li>
+</ul>
+
+Fixed Generated App Inconsistencies:
+<ul>
+<li>Popup wasn't selected as the screen type.</li>
+<li>Inconsistencies when referencing external entities.</li>
+<li>Stateflows generated around static entities that didn't reflect statuses.</li>
+<li>The user entity is only used as the TargetEntity for another entity identifier.</li>
+<li>Invalid OML when the User entity is only used as the TargetEntity for another entity identifier.</li>
+<li>Removed Unused Icon Resources from generated Apps.</li>
+<li>Dashboards
+    <ul>
+    <li>Adding an Entity breaks the dashboard counters.</li>
+    <li>Dashboards showing lists of all records, which are not suitable for that screen.</li>
+    <li>Applications without dashboards, even when requested.</li>
+    </ul>
+</li>
+<li>List Screen
+    <ul>
+    <li>For the card list, just the value should have a link.</li>
+    </ul>
+</li>
+<li>Login Screen
+    <ul>
+    <li>Typo error in the Login screen.</li>
+    </ul>
+</li>
+<li>Vertical Menu
+    <ul>
+    <li>Invalid Permission screen doesn't have the Logout option.</li>
+    </ul>
+</li>
+</ul>
+
+Fixed Sample Data Issues:
+<ul>
+<li>Wrong Foreign Keys (FKs), creating apps without sample data.</li>
+<li>Runtime Error when Extended Entity has fewer than 20 records.</li>
+<li>Sample data wasn't always being generated, or some entities lacked sample data.</li>
+<li>Some entities had the wrong data types.</li>
+</ul> (RDMAG-875)</li>
+<li>App Editor
+<ul>
+<li>Fixed the Infinite cycle message in the sitemap when opening the app</li>
+<li>Fixed an issue with the Orphan screen after deleting a List Screen</li>
+<li>Fixed the issue where some screens were disconnected from the sitemap</li>
+</ul> (RDMOR-2665)</li>
+</ul>
+

@@ -44,12 +44,12 @@ This minor version is focused on internal improvements, mainly around logging an
 * Improved validation of Extensibility Configurations preferences.
 * Removed Plugin installation and compilation operation specific timeouts. Now the timeout is applied to the whole build, and no timeout exists for a specific operation.
 
-
 **iOS**
 
 * iOS builds now use Xcode 13.3.
 
 ### Bug fixing
+
 * [2022-05-20 14:00:00 UTC] Fixed a bug where apps with & or ' in their names, or & in their extensibility configurations failed to build. (RPM-1891)
 * [2022-05-20 14:00:00 UTC] Updated NPM version to overcome github changes related to the usage of the `git://` protocol. [More info here](https://github.blog/2021-09-01-improving-git-protocol-security-github/)
 * [2022-06-22 15:00:00 UTC] We added new build errors that uniquely identify build failures caused by CocoaPods CDN problems. (RNMT-5601)
@@ -62,7 +62,6 @@ This minor version is focused on internal improvements, mainly around logging an
 * [2022-09-22 09:00:00 UTC] We fixed a bug where a wrong Xcode version was being used on `cordova platform add` and `cordova plugin add` commands for some iOS builds. These could lead to Pods being installed and configured with different Xcode tools than the ones used for the build process. (RNMT-5717)
 * [2022-09-22 09:00:00 UTC] We made small security improvements in the MABS build process. (RNMT-5820)
 * [2022-10-12 10:00:00 UTC] Fixed an occasional crash in Android applications when the status bar overlayed the application. (RPM-3118)
-
 
 ## MABS Version 8.0 { #mabs-version-8-0 }
 
@@ -81,7 +80,7 @@ MABS 8.0 is an important milestone for all mobile developers who publish on App 
 
 </div>
 
-### What's New 
+### What's New
 
 * Android
 
@@ -107,7 +106,7 @@ MABS 8.0 is an important milestone for all mobile developers who publish on App 
 
 * Mobile build requests that failed due to requiring an updated plugin version will now display an error message containing the plugin name and version as defined in the Forge
 
-### Bug Fixing 
+### Bug Fixing
 
 * [2021-12-02 12:00:00 UTC] The MABS version has been added to the supported plugins validation error message. (RNMT-5248)
 * [2021-12-02 12:00:00 UTC] Fixed an issue that prevented the provisioning profile entitlement com.apple.application-identifier being considered as a valid entitlement. (RNMT-5244)
@@ -117,7 +116,7 @@ MABS 8.0 is an important milestone for all mobile developers who publish on App 
 * [2022-03-16 15:30:00 UTC] Fixed an issue with the Upload Widget that prevented end users from receiving a request for capture and storage access permission. This occurred on the first app usage of Android builds, preventing the upload from being used. (RPM-2099)
 * [2022-05-19 13:00:00 UTC] Updated NPM version to overcome github changes related to the usage of the `git://` protocol. [More info here](https://github.blog/2021-09-01-improving-git-protocol-security-github/)
 
-### System Requirements 
+### System Requirements
 
 Plugin requirements for **MABS**. For more details, please check the Forge by clicking on the plugin name
 
@@ -145,31 +144,31 @@ Plugin requirements for **MABS**. For more details, please check the Forge by cl
 |[Health and Fitness](https://www.outsystems.com/forge/component-versions/11715.)|1.0.1 or later|
 |[File Transfer](https://www.outsystems.com/forge/component-versions/1409)|2.1.3 or later|
 
-### Breaking Changes and Known Limitations 
+### Breaking Changes and Known Limitations
 
 Here is the list of issues that may affect the building of your apps with MABS 8.0.
 
-#### App installation fails due to safer component exporting in Android 
+#### App installation fails due to safer component exporting in Android
 
 On MABS 8, due to targeting Android 12, apps that have activities, services or broadcast receivers that use intent filters must explicitly declare the **android:exported** attribute for these components in AndroidManifest.xml. Any case where the attribute is missing leads to a failed build with the error "Apps targeting Android 12 and higher are required to specify an explicit value for android:exported when the corresponding component has an intent filter defined".
 
-If this error occurs to you, it means that you have a non-supported plugin with a breaking change. To fix the issue, set the **android:exported** attribute in AndroidManifest.xml to **true** or **false**. Set to **true** depending so any device can start the affected components. 
+If this error occurs to you, it means that you have a non-supported plugin with a breaking change. To fix the issue, set the **android:exported** attribute in AndroidManifest.xml to **true** or **false**. Set to **true** depending so any device can start the affected components.
 
 This is required not only for the AndroidManifest.xml file in the app but also in **every dependency**, such as the ones declared via Gradle.
 
-If you have plugins that declare these elements in the** plugin.xml**, review the settings and add the attribute. Dependent plugins may also need reviewing. If builds are still failing after adding the attribute to  plugin.xml files, the issue most likely lies in AndroidManifest.xml files of other dependencies, such as Gradle dependencies declared in plugins (including dependent plugins). These dependencies can include their own AndroidManifest.xml files which must also comply with this requirement.
+If you have plugins that declare these elements in the **plugin.xml**, review the settings and add the attribute. Dependent plugins may also need reviewing. If builds are still failing after adding the attribute to plugin.xml files, the issue most likely lies in AndroidManifest.xml files of other dependencies, such as Gradle dependencies declared in plugins (including dependent plugins). These dependencies can include their own AndroidManifest.xml files which must also comply with this requirement.
 
 For more information see the section [Safer component exporting](https://developer.android.com/about/versions/12/behavior-changes-12#exported) in the document [Behavior changes: Apps targeting Android 12](https://developer.android.com/about/versions/12/behavior-changes-12) by Android.
 
-#### Gradle compile() configuration is now obsolete 
+#### Gradle compile() configuration is now obsolete
 
-If a plugin uses **compile** configuration in the Gradle files, the build fails. On MABS 8, due to using Gradle 7.1.1 on Android builds, the **compile** configuration to declare dependencies is no longer available. 
+If a plugin uses **compile** configuration in the Gradle files, the build fails. On MABS 8, due to using Gradle 7.1.1 on Android builds, the **compile** configuration to declare dependencies is no longer available.
 
 As an alternative, use **implementation** and **api** configurations. The **api** has the same behavior as the deprecated **compile**.
 
 For more information see [Removal of compile and runtime configurations](https://docs.gradle.org/current/userguide/upgrading_version_6.html#sec:configuration_removal) by Gradle.
 
-#### Whitelist Plugin is now to AllowList in newer Cordova Android engine versions 
+#### Whitelist Plugin is now to AllowList in newer Cordova Android engine versions
 
 Before MABS 8, the Cordova Android engine didn’t include logic to allow a list of URLs, intents and navigations. To handle that, a plugin called Whitelist Plugin was used. This plugin was included in all MABS builds.
 
@@ -179,7 +178,7 @@ For plugins that directly import the classes of the deprecated plugin, update th
 
 For more details about the plugin deprecation see [Apache Cordova - Whitelist Plugin](https://github.com/apache/cordova-plugin-whitelist#deprecation-notice). To have a look at a pull request that adds AllowList to Cordova Android can  see this [pull request](https://github.com/apache/cordova-android/pull/1138).
 
-#### Plugin Installation Timeout (RPM-2222) 
+#### Plugin Installation Timeout (RPM-2222)
 
 There’s currently a known issue with some plugins that may cause the app build to time out and fail.
 The issue is associated with a pattern of bad performance when plugins have big files (for example, ios .frameworks, .a libs, or android .so libraries). Since these files are binary files, when they are committed to a Git repository, they increase the history size exponentially.Depending on the situation, try the following to mitigate the performance issues:
@@ -188,7 +187,6 @@ The issue is associated with a pattern of bad performance when plugins have big 
 * Point the plugin to the main branch. This will effectively make a shallow clone, with depth one of the tip of the master, pulling in only one commit and not all the history of the repo
 * Separate the plugin into two distinct plugins, one for each platform (android and iOS).
 
-#### Android 12 Native SplashScreen 
+#### Android 12 Native SplashScreen
 
 With Android 12, Google introduced a dedicated splash screen API in order to unify the look across all apps. This means that all apps system-wide running on Android 12 now show a native splash screen which by default is set by background color and the application icon. To improve the user experience, MABS 8 will update the Android native splash screen to have the same background as defined in cordova-plugin-splashscreen while also hiding the icon so that the end-user doesn't have two different loading experiences.
-

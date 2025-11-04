@@ -42,7 +42,7 @@ You can download the license verification file for a production service by doing
 
     ![Screenshot of the License Verification panel in the Customer Portal with an upload option.](images/license-verification.png "Customer Portal License Verification Panel")
 
-<div class="info" markdown="1">    
+<div class="info" markdown="1">
 
 Make sure you download the file from the production server with the same activation code you want to verify in the Customer Portal.
 

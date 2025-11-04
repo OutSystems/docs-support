@@ -127,7 +127,7 @@ The section should then look like this.
 
 1. To generate the logs, Service Studio must be launched as an Administrator.
 
-1. The logs will be written to a file named `general.txt`, located in the same folder of the `ServiceStudio.exe.config` file. 
+1. The logs will be written to a file named `general.txt`, located in the same folder of the `ServiceStudio.exe.config` file.
 Example: `C:\Program Files\OutSystems\Development Environment X.X\Service Studio`
 
 <div class="info" markdown="1">

@@ -38,11 +38,10 @@ In a personal environment, you can't directly access the front-end or database s
 
 If you want to extract your data, you can:
 
-* [Expose a REST API ](https://success.outsystems.com/Documentation/11/Extensibility_and_Integration/REST/Expose_REST_APIs/Expose_a_REST_API) that makes your data available
+* [Expose a REST API](https://success.outsystems.com/Documentation/11/Extensibility_and_Integration/REST/Expose_REST_APIs/Expose_a_REST_API) that makes your data available
 
 * Implement functionality that allows [downloading an Excel file](https://success.outsystems.com/Documentation/How-to_Guides/Data/How_to_Export_Entity_Data_to_Excel) with the data
 
 ## More Information
 
 To learn more about personal environments, see [What is a personal environment?](whats-a-personal.md).
-

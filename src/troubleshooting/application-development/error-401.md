@@ -31,7 +31,7 @@ These errors are rare in cloud environments and a typical network configuration 
 
 ## Network component interfering with the token authorization
 
-A common issue when the developer has a proxy between their computer and the Platform Server **and** the proxy is tampering with the authorization tokens. 
+A common issue when the developer has a proxy between their computer and the Platform Server **and** the proxy is tampering with the authorization tokens.
 
 **How to fix**
 

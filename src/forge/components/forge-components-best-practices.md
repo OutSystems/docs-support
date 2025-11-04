@@ -35,7 +35,7 @@ Before [publishing your OutSystems component to Forge](https://success.outsystem
 
 People will use your component in different contexts; keep in mind the developer experience and skill set.
 
-Start with a simple, small component that focuses on the most common use cases, to promote broad usage across the community. Other options can come through an extensibility mechanism. 
+Start with a simple, small component that focuses on the most common use cases, to promote broad usage across the community. Other options can come through an extensibility mechanism.
 
 ### Follow the development best practices { #best-practices }
 
@@ -108,7 +108,7 @@ Make sure the component's **documentation**:
 
 ### Provide a demo application { #demo }
 
-Whenever possible, make sure you create a **separate application** that consumes your component logic and **demonstrates the most common use cases**. By doing this, you enable better testing on your side and make it easier for community members to understand what the component does. 
+Whenever possible, make sure you create a **separate application** that consumes your component logic and **demonstrates the most common use cases**. By doing this, you enable better testing on your side and make it easier for community members to understand what the component does.
 
 Additionally, having an application for demo purposes only avoids the need to push demo code to production along with the component's core functionality, as developers can publish the demo only in the development environment.
 
