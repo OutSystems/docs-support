@@ -53,7 +53,7 @@ For more details, click the plugin name on Forge. OutSystems recommends always u
 |[Key Store](https://www.outsystems.com/forge/component-versions/1550)|2.4.1 or later|1.2.3 or later|
 |[SSL Pinning](https://www.outsystems.com/forge/component-versions/1873)|7.0.1 or later|1.0.8 or later|
 |[Payments](https://www.outsystems.com/forge/component-versions/13678)|1.2.2 or later|1.1.10 or later|
-
+|[OutSystems AppShield](https://www.outsystems.com/forge/component-overview/9379/outsystems-appshield-o11)|1.14.1 or later|1.0.0 or later|
 
 
 ## MABS 11.1 { #mabs-version-11-1 }
