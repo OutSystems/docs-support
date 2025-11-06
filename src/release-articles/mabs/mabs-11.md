@@ -45,15 +45,13 @@ This minor release brings architecture improvements to unify the O11 and ODC mob
 
 For more details, click the plugin name on Forge. OutSystems recommends always using the latest version available of a supported plugin.
 
-|Plugin|Minimum supported version for O11|Minimum supported version for ODC|
-|:---|---|---|
-|[Ciphered Local Storage](https://www.outsystems.com/forge/component-versions/1500)|3.2.4 or later|1.1.2 or later|
-|[Cloud Messaging (Firebase)](https://www.outsystems.com/forge/component-versions/12174)|4.4.0 or later|2.3.1 or later|
-|[Health & Fitness](https://www.outsystems.com/forge/component-versions/11715)|2.2.1 or later|1.4.0 or later|
-|[Key Store](https://www.outsystems.com/forge/component-versions/1550)|2.4.1 or later|1.2.3 or later|
-|[SSL Pinning](https://www.outsystems.com/forge/component-versions/1873)|7.0.1 or later|1.0.8 or later|
-|[Payments](https://www.outsystems.com/forge/component-versions/13678)|1.2.2 or later|1.1.10 or later|
-|[OutSystems AppShield](https://www.outsystems.com/forge/component-overview/9379/outsystems-appshield-o11)|1.14.1 or later|1.0.0 or later|
+|Plugin|Minimum supported version for ODC|
+|:---|---|
+|[Cloud Messaging (Firebase)](https://www.outsystems.com/forge/component-versions/12174)|2.3.1 or later|
+|[Health & Fitness](https://www.outsystems.com/forge/component-versions/11715)|1.4.0 or later|
+|[Key Store](https://www.outsystems.com/forge/component-versions/1550)|1.2.3 or later|
+|[Payments](https://www.outsystems.com/forge/component-versions/13678)|1.1.10 or later|
+|[OutSystems AppShield](https://www.outsystems.com/forge/component-overview/9379/outsystems-appshield-o11)|1.0.0 or later|
 
 ## MABS 11.1 { #mabs-version-11-1 }
 
