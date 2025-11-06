@@ -6,7 +6,7 @@ app_type: mobile apps
 platform-version: o11, odc
 ---
 
-# MABS 11 Release notes
+# MABS 11 release notes
 
 <div class="info" markdown="1">
 
@@ -41,7 +41,7 @@ This minor release brings architecture improvements to unify the O11 and ODC mob
 
 </div>
 
-## System Requirements
+## System requirements
 
 For more details, click the plugin name on Forge. OutSystems recommends always using the latest version available of a supported plugin.
 
@@ -53,8 +53,7 @@ For more details, click the plugin name on Forge. OutSystems recommends always u
 |[Key Store](https://www.outsystems.com/forge/component-versions/1550)|2.4.1 or later|1.2.3 or later|
 |[SSL Pinning](https://www.outsystems.com/forge/component-versions/1873)|7.0.1 or later|1.0.8 or later|
 |[Payments](https://www.outsystems.com/forge/component-versions/13678)|1.2.2 or later|1.1.10 or later|
-
-
+|[OutSystems AppShield](https://www.outsystems.com/forge/component-overview/9379/outsystems-appshield-o11)|1.14.1 or later|1.0.0 or later|
 
 ## MABS 11.1 { #mabs-version-11-1 }
 
@@ -73,7 +72,7 @@ Starting with MABS 11.1 the Upload Widget by default only allows selecting pictu
 
 ![Screenshot of the OutSystems IDE showing the capture attribute set to environment for the Upload Widget.](images/mabs111-upload-widget.png "Setting the capture attribute in the IDE")
 
-### What's New
+### What's new
 
 This minor version is focused on privacy and user experience improvements.
 
@@ -121,7 +120,7 @@ Workarounds:
 
 * [MABS 11.0 release notes](../../release-notes/mabs/11/11.0/11.0.md)
 
-## System Requirements
+## System requirements
 
 Plugin requirements for **MABS 11**. For more details, please check the Forge by clicking on the plugin name.
 
@@ -157,7 +156,7 @@ The table below contains the list of plugins and their supported versions. It is
 |[Payments](https://www.outsystems.com/forge/component-versions/13678)|1.2.2 or later|1.1.2 or later|
 |[InAppBrowser](https://www.outsystems.com/forge/component-versions/1558)|2.4.10 or later|1.0.1 or later|
 
-## Breaking Changes
+## Breaking changes
 
 Here is the list of changes made to MABS 11 that may affect the building of your apps.
 

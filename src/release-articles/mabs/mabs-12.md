@@ -74,6 +74,7 @@ Plugin requirements for **MABS 12**. For more details, click the plugin name on 
 |[Performance Monitoring (Firebase)](https://www.outsystems.com/forge/component-versions/10706)|-|1.2.0 or later|
 |[SSL Pinning](https://www.outsystems.com/forge/component-versions/1873)|-|1.0.8 or later|
 |[Touch ID](https://www.outsystems.com/forge/component-versions/1431)|-|1.2.0 or later|
+|[OutSystems AppShield](https://www.outsystems.com/forge/component-overview/9379/outsystems-appshield-o11)|1.15.0 or later|1.0.0 or later|
 
 The table below contains the list of plugins and their supported versions. It is important to note that it is recommended to always use the latest version available of a plugin.
 
