@@ -35,7 +35,7 @@ It's recommended to update all supported plugins to the latest version available
 
 <div class="warning" markdown="1">
 
-This minor release brings architecture improvements to unify the O11 and ODC mobile application build service. In order to support this change, some supported plugins were also updated. If you are building production apps with these specific plugins, we recommend you start upgrading the plugin versions for your apps to 11.2 immediately.
+This minor release brings architecture improvements to unify the O11 and ODC mobile application build service. In order to support this change, some supported plugins were also updated (ODC ONLY). If you are building production apps on ODC with these specific plugins, we recommend you start upgrading the plugin versions for your apps to 11.2 immediately.
 
 [MABS 11.2 release notes](../../release-notes/mabs/11/11.2/11.2.md)
 
