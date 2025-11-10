@@ -6,3 +6,19 @@ pageprivacy: semi-private
 <h2 id="platform_server_11.39.0" >Platform Server 11.39.0</h2>
 <div class="info"><p>This is a preliminary version of the document.</p></div>
 
+
+<style>.cattag {background: #f4f2ff; color: #6a6581; padding: 4px 10px;}</style>
+<h3 id="new_in_platform_server_11.39.0" >New in Platform Server 11.39.0</h3>
+<ul>
+<li>Added a new capability that allows the expose of views for entities in the database using LifeTime, allowing names to be consistent between environments. This capability will require a future version of LifeTime to use it. (R11BRT-1998)</li>
+</ul>
+<h3 id="bug_fixing_platform_server_11.39.0" >Bug Fixing</h3>
+<ul>
+<li>Fixed an issue that caused DBCleaner_API's Attribute_ListDeleted to return attributes when they were in use after renames. (R11BRT-2027)</li>
+<li>Fixed an issue in Server.API that caused slowness in some endpoints related to Entities. (R11BRT-2037)</li>
+<li>Fixed an issue that caused false positives in the detection of breaking changes of processes during a publication. 
+This occurred when the processes had a loop pattern.
+Created a new algorithm to reduce the number of false positives. This algorithm has a performance impact and can be enabled via Factory Configuration. (RPM-6022) <span class="cattag">Publish Operation</span>  <span class="cattag">Impact Analysis</span> </li>
+<li>Fixed an issue where Service Center would fail to call the compiler service due to a cached telemetry initialization error. (RPM-6035) <span class="cattag">Publish Operation</span>  <span class="cattag">Compilation</span> </li>
+</ul>
+
