@@ -132,7 +132,7 @@ Detaching is a one-way street. Once you detach the source code and start develop
 
 ### OutSystems Scheduler Service { #scheduler-service }
 
-If you are using Timers, BPT Activities, or emails in your applications, you can keep such functionality even after detaching from the OutSystems Platform. Unlike other OutSystems services, the source code of the Scheduler Service will be provided for this purpose.
+If you are using Timers, BPT Activities, or emails in your applications, you can keep such functionality even after detaching from the OutSystems platform. Unlike other OutSystems services, the source code of the Scheduler Service will be provided for this purpose.
 
 If you choose to re-implement such functionality using external tools, you can later remove this dependency manually.
 
@@ -220,7 +220,7 @@ Detaching from OutSystems means you'll no longer be running on OutSystems Cloud.
 
     1. Install a brand new OutSystems environment to receive your applications, ensuring the [technical pre-requisites](#technical-pre-requisites) covered earlier.
 
-        We advise you to install the environment with the exact setup you expect to have moving forward (number of front-ends, same database engine as your OutSystems Cloud, etc), as it will simplify the detachment and later maintenance of the system. To install a new OutSystems environment, always use the exact same OutSystems Platform Server major and minor versions. Refer to [Setting Up OutSystems](https://www.outsystems.com/tk/redirect?g=079418c8-7a3d-4b5e-9c13-c1ae7a1f122e).
+        We advise you to install the environment with the exact setup you expect to have moving forward (number of front-ends, same database engine as your OutSystems Cloud, etc), as it will simplify the detachment and later maintenance of the system. To install a new OutSystems environment, always use the exact same OutSystems platform server major and minor versions. Refer to [Setting Up OutSystems](https://www.outsystems.com/tk/redirect?g=079418c8-7a3d-4b5e-9c13-c1ae7a1f122e).
 
     1. <p id="support-case-cloud"> Reach out to OutSystems Support and open a support case. The support case must: </p>
 
@@ -237,7 +237,7 @@ Detaching from OutSystems means you'll no longer be running on OutSystems Cloud.
 
     1. Move the data of your OutSystems Cloud apps to your new self-managed environment.
 
-       Request [access to the database of your OutSystems Cloud](https://www.outsystems.com/tk/redirect?g=4cdae94f-8633-4875-98bd-a3a4ac1bd89a) and use that database user to copy app data from the OutSystems Cloud into the self-managed database. The direct database access user doesn't have backup privileges. Use tools such as SQL Server Management Studio or Oracle SQL Developer to manually transfer data from the OutSystems Cloud into the self-managed database using SQL queries. You can also implement APIs in your application that export the data and then call them from the new self-managed environment. Refer to [this article](https://www.outsystems.com/forums/discussion/14620/how-to-map-servicestudio-entities-to-actual-table-names/) to understand how to map physical table names in the database to OutSystems entities.
+       Request [access to the database of your OutSystems Cloud](https://www.outsystems.com/tk/redirect?g=4cdae94f-8633-4875-98bd-a3a4ac1bd89a) and use this access to manually transfer your application data to the new self-managed database. The direct database access user doesn't have backup privileges. This includes the data in your app entities.
 
     1. Confirm that your applications behave as expected in your new self-managed environment.
 
@@ -259,6 +259,20 @@ To perform a complete detach, you will need to:
 1. Test the result application(s) without OutSystems as presented in [Final steps](#final-steps).
 
 ## Preparing your systems to run detached { #prepare }
+
+<div class="warning" markdown="1">
+
+The Platform Server [uninstallation](#final-steps)  will delete the built-in RabbitMQ service, which breaks cache invalidation. Before you uninstall the platform, you must do the following:
+
+1. Install new, standalone versions of Erlang and RabbitMQ in a separate folder. For example, `C:\Program Files\RabbitMQ`.
+
+1. Open the **Configuration Tool**, go to the **Cache** tab, and point it to your new RabbitMQ installation.
+
+1. Click **Apply and exit**.
+
+This updates all apps automatically. If you do not do this before uninstalling, your cache invalidation will fail.
+
+</div>
 
 ### Preparing the Application Server to deploy the generated code { #prepare-app-server }
 
@@ -416,6 +430,12 @@ Change the `value` attribute of this element to point to the new location of the
 Even if you're using the same database that previously stored OutSystems data, connection strings may need to be changed if the database credentials were altered. If that's the case, please refer to the instructions at [Using a brand new database](#use-new-db) to change the connection strings.
 
 #### Using a brand new database { #use-new-db }
+
+<div class="info" markdown="1">
+
+Your new self-managed environment can't decrypt sensitive configurations or application data migrated from the Cloud. If your apps store any encrypted data, you may need to run a process to decrypt data in your Cloud environment before you copy it to the new database.
+
+</div>
 
 If you're cloning an existing environment on a new database, make to sure to first follow all the steps on [Migrate an Environment Using a Database Clone](https://www.outsystems.com/tk/redirect?g=969DB4B1-51CF-4908-A638-A345D2AB841C). Then proceed to the next steps.
 
@@ -702,11 +722,11 @@ If an application depends on another applications, you might need to deploy all 
 
 ## Final steps { #final-steps }
 
-When all applications have been successfully published, it's recommended that you test everything first before uninstalling OutSystems Platform Server. If you moved from Application Server, skip the [Before uninstalling](#before-uninstall) and test your applications, since no uninstallation needs to be performed.
+When all applications have been successfully published, it's recommended that you test everything first before uninstalling OutSystems platform server. If you moved from Application Server, skip the [Before uninstalling](#before-uninstall) and test your applications, since no uninstallation needs to be performed.
 
 ### Before uninstalling { #before-uninstall }
 
-If no error was found there's a great chance you followed everything correctly, nevertheless some errors may appear when you uninstall the OutSystems Platform Server. To safely test this without having to reinstall everything follow this steps:
+If no error was found there's a great chance you followed everything correctly, nevertheless some errors may appear when you uninstall the OutSystems platform server. To safely test this without having to reinstall everything follow this steps:
 
 * Stop all OutSystems services.
 
