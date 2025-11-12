@@ -15,7 +15,7 @@ pageprivacy: public
 </ul>
 <h3 id="bug_fixing_platform_server_11.39.0" >Bug Fixing</h3>
 <ul>
-<li>Fixed an issue that caused DBCleaner_API's Attribute_ListDeleted to return attributes when they were in use after renames. (R11BRT-2027)</li>
+<li>Fixed an issue that caused DBCleaner_API's Attribute_ListDeleted to return active attributes which have the same name as one that was previously deleted. (R11BRT-2027)</li>
 <li>Fixed an issue in Server.API that caused slowness in some endpoints related to Entities. (R11BRT-2037)</li>
 <li>Fixed an issue that caused false positives in the detection of breaking changes of processes during a publication. 
 This occurred when the processes had a loop pattern.
