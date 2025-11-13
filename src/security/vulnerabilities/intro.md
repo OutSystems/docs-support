@@ -24,7 +24,6 @@ The OutSystems vulnerability policy covers:
     * AI Mentor Studio
     * Integration Builder
     * Workflow Builder
-    * Experience Builder
     * OutSystems Developer Cloud (ODC)
     * OutSystems Developer Cloud (ODC) Studio
 
@@ -53,7 +52,7 @@ This means that customers and partners must first analyze the findings in such r
 
 1. It’s related to application logic and was introduced during the development (related to application logic). In this case, it’s the customer's responsibility to address it.
 1. The finding is a false positive or not. It’s the customer's responsibility to consult the available documentation.
-1. Understand if the vulnerability falls under the customer's or OutSystem's responsibility.
+1. Understand if the vulnerability falls under the customer's or OutSystems' responsibility.
 
 Read the following articles before performing any type of testing on your OutSystems applications:
 
