@@ -146,8 +146,8 @@ You can select the deprecated MABS version when creating a mobile package, but y
 
 Released as Beta on March 28th, 2025 <br/>
 Released to GA on April 2nd, 2025 <br/>
-Deprecated on October 30, 2025 <br/>
-Obsoletion date to be announced
+Deprecated on October 30th, 2025 <br/>
+Obsoletion on January 31st, 2026
 
 </div>
 
