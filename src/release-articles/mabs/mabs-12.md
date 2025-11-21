@@ -104,6 +104,14 @@ Here's the list of breaking changes that apply to MABS 12 for building **Capacit
 * The Inspector is no longer available for iOS debug builds. If you need to inspect the network requests you can set one of the many interactive HTTPS proxies available.
 * The `DeepLinksHandlerType` configuration no longer has any effect. Deeplinks are only customizable via the `window.handleOpenURL` function, which must be defined in a script that is loaded by the application module. If not defined, the application navigates to the deeplink URL by default.
 
+Here's a list of breaking changes that apply to MABS 12 for building **Cordova** apps.
+
+* On Android apps, the WebView no longer takes up the entire screen out of the box and instead respects the system bars, such as the status bar and navigation bar.
+    * The status bar background color defaults to the app's primary color. You can customize it using `StatusBarBackgroundColor`.
+* OutSystems [cordova-plugin-statusbar](https://github.com/OutSystems/cordova-plugin-statusbar/) is no longer available in Android and iOS apps.
+    * The preferences `StatusBarOverlaysWebView`, `StatusBarStyle`, and `StatusBarDefaultScrollToTop` are no longer supported and have no effect.
+* CSS custom property `--status-bar-height` is no longer available in Android apps.
+
 ## Known issues
 
 Here's the list of known issues:
@@ -111,4 +119,3 @@ Here's the list of known issues:
 * Users cannot upload custom xcprivacymanifest for Capacitor apps  **(Capacitor only)**
 * Updates over the air fail for apps that use build actions YAML file provided as OutSystems app resources **(Capacitor only)**
 * Back navigation with back button or gesture navigation doesn't affect in-app navigation when running in Android 16 **(Capacitor only)**
-* Edge to Edge is now mandatory for Android 16/API 36. Support is still limited.
