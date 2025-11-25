@@ -116,6 +116,5 @@ Here's a list of breaking changes that apply to MABS 12 for building **Cordova**
 
 Here's the list of known issues:
 
-* Users cannot upload custom xcprivacymanifest for Capacitor apps  **(Capacitor only)**
 * Updates over the air fail for apps that use build actions YAML file provided as OutSystems app resources **(Capacitor only)**
 * Back navigation with back button or gesture navigation doesn't affect in-app navigation when running in Android 16 **(Capacitor only)**
