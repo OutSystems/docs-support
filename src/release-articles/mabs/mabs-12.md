@@ -111,6 +111,10 @@ Here's a list of breaking changes that apply to MABS 12 for building **Cordova**
 * OutSystems [cordova-plugin-statusbar](https://github.com/OutSystems/cordova-plugin-statusbar/) is no longer available in Android and iOS apps.
     * The preferences `StatusBarOverlaysWebView`, `StatusBarStyle`, and `StatusBarDefaultScrollToTop` are no longer supported and have no effect.
 * CSS custom property `--status-bar-height` is no longer available in Android apps.
+* Android Cordova template has some file names changed, and it may impact customer hooks:
+    * strings.xml file has been renamed to cdv_strings.xml
+    * colors.xml file has been renamed to cdv_colors.xml
+    * themes.xml file has been renamed to cdv_themes.xml
 
 ## Known issues
 
