@@ -19,7 +19,7 @@ coverage-type:
 
 # Upgrading SQL Server to a new compatibility level
 
-OutSystems Platform Server 11.12.0 supports Microsoft SQL Server 2019  (15.x).  Customers with self-managed installations may choose to upgrade to this database engine, either to remain up-to-date or because of company compliance requirements.
+Platform Server 11.12.0 supports Microsoft SQL Server 2019  (15.x).  Customers with self-managed installations may choose to upgrade to this database engine, either to remain up-to-date or because of company compliance requirements.
 
 By following the upgrade process described in this article, you can also safeguard correct application behavior for databases created with lower SQL Server compatibility levels.
 
@@ -56,7 +56,7 @@ To minimize downtime, especially for large databases, this procedure can be done
 1. Ensure that all platform, logs, and session databases are offline.
 1. Restore platform, log, and session databases in the new SQL Server engine.
 1. Ensure that all platform, logs, and session databases are read-write in the new server.
-1. [Transfer user logins](https://docs.microsoft.com/en-us/troubleshoot/sql/security/transfer-logins-passwords-between-instances) from the old database server to the new database server.
+1. [Transfer SQL user logins](https://docs.microsoft.com/en-us/troubleshoot/sql/security/transfer-logins-passwords-between-instances) from the old database server to the new database server.
 1. Change the compatibility level of each of the platform and log databases.
 1. Rebuild all indexes.
 1. Run the OutSystems [Configuration Tool](https://success.outsystems.com/Documentation/11/Reference/Configuration_Tool) to point the platform, logs, and session database at the new database engine.
