@@ -28,7 +28,7 @@ OutSystems will upgrade all Windows Server 2016 environments in OutSystems 11 Cl
 
 As part of this change, OutSystems will also:
 
-* Upgrade environments to Platform Server (PS) version 11.40.0, ensuring compatibility with Windows Server 2022 and access to the latest stability, security improvements, and platform unification features.  
+* Upgrade environments to Platform Server (PS) version 11.40.0 and LifeTime 11.28.0, ensuring compatibility with Windows Server 2022 and access to the latest stability, security improvements, and platform unification features.  
 * Enable TLS 1.3 and disable TLS 1.0 and 1.1, aligning with modern security standards.
 
 To minimize disruption, OutSystems will roll out this upgrade in phases throughout the first half of 2026. Customers will receive advance notice and a confirmed schedule well ahead of the operation. There will also be flexibility to adjust planned dates if needed, ensuring you have time to prepare and align with your internal release or freeze periods.  
