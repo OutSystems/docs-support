@@ -28,7 +28,7 @@ See [Support provided for beta versions](mabs-beta-support.md) for details on th
 
 <div class="info" markdown="1">
 
-## **Version 12.0** - [See release notes](../../release-notes/mabs/12/12.0/12.0.md)<br/>
+## **Version 12.0 (Currently in distribution)** - [See release notes](../../release-notes/mabs/12/12.0/12.0.md)<br/>
 
 Released as Beta on October 15th, 2025 <br/>
 GA date to be announced <br/>
