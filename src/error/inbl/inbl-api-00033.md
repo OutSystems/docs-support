@@ -26,7 +26,7 @@ coverage-type:
 
 ## Cause
 
-While deleting a connection, Integration Manager failed to delete the matching Application in Microsoft Azure Active Directory (AAD). 
+While deleting a connection, Integration Manager failed to delete the matching Application in Microsoft Azure Active Directory (AAD).
 Typically, this means the Application has already been deleted in AAD.
 
 ## Impact
@@ -40,4 +40,3 @@ Access Microsoft Azure Active Directory to delete the Application manually if it
 ## More info
 
 [What is application management in Azure Active Directory](https://docs.microsoft.com/en-us/azure/active-directory/manage-apps/what-is-application-management)
-

@@ -23,6 +23,7 @@ coverage-type:
 ## Cause
 
 This error occurs when MABS wasn't able to validate your license to use AppShield.
+
 ## Impact
 
 The application package can't be generated.

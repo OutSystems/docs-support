@@ -30,7 +30,7 @@ This can cause potential security vulnerability, because  if you use the headers
 
 The potential impact of the applying the mentioned fix can be that consumed REST services can expect problems during calling the REST methods in runtime, since before the fix,  the headers removal operations are not executed correctly.
 
-This can produce differences only visible at runtime. Depending on how the invoked service is implemented, and whether it was using the supposably removed headers or not, some changes in behavior can occur. 
+This can produce differences only visible at runtime. Depending on how the invoked service is implemented, and whether it was using the supposably removed headers or not, some changes in behavior can occur.
 
 Please do the following validations before changing this in Production environments.
 
@@ -43,15 +43,16 @@ In order to verify if you can apply the security hardening , follow the next ste
 1. If the `OnBeforeRequest` callback is used, check if there were removed headers in the flow:
     1. Analyse if the `CustomizedRequest.headers` list does not have headers that are present  in  the input headers of the flow, present in the list `Request.headers`. This can be done by using the `ListRemove` action, for instance.
 
-1. If there’s no REST consumption service in this situation, it should be safe to activate the security hardening parameter. 
+1. If there’s no REST consumption service in this situation, it should be safe to activate the security hardening parameter.
 
 1. Otherwise, it is recommended to test affected services to detect any potential impact and do the necessary changes.
 
 ## How to apply the security hardening on REST headers
+
 To make sure that the headers are removed:
 
 1. Access the Forge component [Factory Configuration](https://www.outsystems.com/forge/component-overview/25/factory-configuration).
 
-1. Change the **Allow headers removal inside onBeforeRequest REST callback** setting to  **Enabled**. 
+1. Change the **Allow headers removal inside onBeforeRequest REST callback** setting to  **Enabled**.
 
 1. Republish your modules to respect the new value.

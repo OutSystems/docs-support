@@ -27,7 +27,7 @@ Only available in OutSystems on-premises installations.
 
 </div>
 
-This document explains how you can configure linguistic sorting for character data in an OutSystems environment using an Oracle database. 
+This document explains how you can configure linguistic sorting for character data in an OutSystems environment using an Oracle database.
 
 Different countries have different ways of sorting characters, and Oracle provides mechanisms for the Database Administrator to configure and control the database string sorting behavior. Check [Oracle's documentation](https://docs.oracle.com/cd/B28359_01/server.111/b28298/ch5lingsort.htm#i1009059) for more information on Oracle linguistic sorting settings.
 
@@ -38,15 +38,15 @@ In OutSystems, in Platform Server versions before 11.7.0, all Oracle databases m
 * NLS_CHARACTERSET: **AL32UTF8** (Unicode support) or **WE8MSWIN1252** (no Unicode support)
 * NLS_DATE_FORMAT: **DD-MON-RR**
 
-However, with this configuration, there might be a few unexpected query results. One of the issues has to do with accented characters in languages like Japanese. 
+However, with this configuration, there might be a few unexpected query results. One of the issues has to do with accented characters in languages like Japanese.
 
 For example, if you have the word "セト" (romanization: Seto) stored in the database and search for the word "ゼト" (romanization: Zeto), the query results will include the record containing "セト" (romanization: Seto) when using the configuration stated above. This record is included in the query results because the default string sorting algorithm for Oracle used by the platform is `BINARY_AI`, which is accent insensitive.
 
-Starting with Platform Server 11.7.0, OutSystems system administrators can change the linguistic sorting configuration (the value of the `NLS_SORT` parameter) of the Oracle database from `BINARY_AI` (the default value) to `BINARY_CI` on the OutSystems platform database. Changing this configuration requires you to republish applications for the setting to become active. 
+Starting with Platform Server 11.7.0, OutSystems system administrators can change the linguistic sorting configuration (the value of the `NLS_SORT` parameter) of the Oracle database from `BINARY_AI` (the default value) to `BINARY_CI` on the OutSystems platform database. Changing this configuration requires you to republish applications for the setting to become active.
 
 Check the next section for instructions on changing the linguistic sorting for the platform database.
 
-## Configure linguistic sorting 
+## Configure linguistic sorting
 
 To change the linguistic sorting **for the platform database**, do the following:
 

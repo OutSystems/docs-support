@@ -26,7 +26,7 @@ coverage-type:
 
 ## Cause
 
-While trying to edit a connection, Integration Manager failed to edit the matching Application in Microsoft Azure Active Directory (AAD). 
+While trying to edit a connection, Integration Manager failed to edit the matching Application in Microsoft Azure Active Directory (AAD).
 The most common cause for this error is that the Application that matches the Connection on AAD has been deleted.
 
 ## Impact

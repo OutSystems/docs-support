@@ -99,4 +99,3 @@ To deploy the Solution in the target environment, do the following:
 Validate if the Solution is successfully published.
 
 ![Screenshot displaying a confirmation message indicating successful publication of a Solution in Service Center.](images/deploy-apps-sc-7.png "Successful Solution Publication Confirmation")
-    

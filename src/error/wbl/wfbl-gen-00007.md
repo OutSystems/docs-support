@@ -23,7 +23,7 @@ coverage-type:
 
 ## Cause
 
-This error occurs when users try to publish the application and the system is unable to validate external dependencies (of the application) that rely on modules existing in the users infrastructure. 
+This error occurs when users try to publish the application and the system is unable to validate external dependencies (of the application) that rely on modules existing in the users infrastructure.
 The &lt;OriginalErrorMessage&gt; includes information about the cause of the error.
 
 ## Impact

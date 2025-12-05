@@ -33,8 +33,6 @@ Specifically for the following use cases, the corresponding actions are recommen
 |Send sensitive information in clear text   |Use **HTTPS**, enable [**HSTS**](https://cheatsheetseries.owasp.org/cheatsheets/HTTP_Strict_Transport_Security_Cheat_Sheet.html) (see [Enforce HTTPS Security](https://success.outsystems.com/Documentation/11/Managing_the_Applications_Lifecycle/Secure_the_Applications/Enforce_HTTPS_Security)) |
 |Send session ID in clear text  |Use **HTTPS**, enable [**HSTS**](https://cheatsheetseries.owasp.org/cheatsheets/HTTP_Strict_Transport_Security_Cheat_Sheet.html) (see [Enforce HTTPS Security](https://success.outsystems.com/Documentation/11/Managing_the_Applications_Lifecycle/Secure_the_Applications/Enforce_HTTPS_Security)) |
 
-
 ## More Information
 
 To learn how to protect your OutSystems apps against other common types of attacks, check [how OutSystems Platfom helps you develop secure applications](intro.md).
-

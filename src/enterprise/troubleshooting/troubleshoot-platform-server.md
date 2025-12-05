@@ -32,7 +32,7 @@ Effective error tracking, monitoring and alert strategies can be put in practice
 
 Error tracking is achieved via Service Center, accessing Monitoring tab. Check [here](https://success.outsystems.com/Documentation/11/Managing_the_Applications_Lifecycle/Monitor_and_Troubleshoot/View_the_Environment_Logs_and_Status#Monitoring_Area) the details about each screen of the Monitoring area.
 
-The same information can be accessed directly in the OutSystems Log Database, accessing data in tables named as *os_log_log_kind_n *(e.g. *os_log_screen_1*). Due to rotation purposes, there are 10 distinct tables for each kind of log. Nevertheless, a specific view exists for current data, as presented in Service Center. These views are named, simply as *os_log_log_kind*.
+The same information can be accessed directly in the OutSystems Log Database, accessing data in tables named as _os_log_log_kind_n_(e.g. _os_log_screen_1_). Due to rotation purposes, there are 10 distinct tables for each kind of log. Nevertheless, a specific view exists for current data, as presented in Service Center. These views are named, simply as _os_log_log_kind_.
 
 Error alerts are based on the Windows Event Viewer entries. The OutSystems Platform Server produces Windows Event Viewer entries in the Application Log every time a severe error condition or every time any other type of error occurs several times in a period of time. Error alerts are issued based on its source and description.
 
@@ -58,10 +58,9 @@ OutSystems Platform Server produces its own performance information, compliant w
 
 **"OutSystems Deployment Controller Service Status: No connection could be made because the target machine actively refused it"**
 
-|Cause| The "OutSystems Deployment Controller Service" is stopped at the *Deployment Controller Server| 
+|Cause| The "OutSystems Deployment Controller Service" is stopped at the *Deployment Controller Server|
 |-----|-----|
 | **Resolution / Recovery Action**| <ol><li>Login to Deployment Controller Server and go to Windows Services.</li><li>Confirm that "OutSystems Deployment Controller Service" is not Started. Start it.</li><li>If it is running, check the network and communication conditions between the Deployment Controller Server and every Front-end Server.</li></ol>|
-
 
 ### OutSystems Deployment Service Errors
 
@@ -115,7 +114,6 @@ OutSystems Platform Server produces its own performance information, compliant w
 |-----|-----|
 | **Resolution / Recovery Action** |<ol><li>Login to Service Center and go to the Monitoring tab.</li><li>Check if the job is still pending for execution in the Timers section. Pending jobs will show a warning indicator.</li><li>If the problem persists, click on every Scheduler indicator for details about each of them.</li><li>Check all "Job Worker" thread statuses and click on the Refresh Data link to confirm that the statuses are maintained.</li><li>If there are "Job Worker" threads not in "Error" status, go back to the Monitoring page, refreshing data until the job is executed.</li><li>If they all become "Error":<br/><ol><li>Login to the corresponding Front-end Server, go to Windows Services and restart the "OutSystems Scheduler Service".</li><li>Execute "iisreset" in console mode.</li></ol></li><li> Go back to Service Center's Monitoring and check in the Scheduler details if the problem persists.</li></ol>|
 
-
 ### OutSystems Log Service Errors
 
 **"OutSystems Log Service Stopped. Please restart"**
@@ -142,7 +140,6 @@ OutSystems Platform Server produces its own performance information, compliant w
 |-----|-----|
 | **Resolution / Recovery Action** |<ol><li>Login to Service Center and go to the Monitoring tab. </li><li>Click on the corresponding Front-end Server Log indicator in Front-end Servers section for details.</li><li>Check "Logger Listener" thread status and click on the Refresh Data link to confirm that the statuses are maintained.</li><li>If the status is still "SQL Exception" or "Error":<br/><ol><li>Login to the corresponding server and check network configuration and communication conditions between the Front-end Server and the Platform Database Servers.</li><li>Login to the Platform Database Server and check SQL Server availability and runtime conditions (CPU, memory, etc.).</li><li>Execute any specific recovery action.</li></ol></li><li> If the problem persists, login to the corresponding server, go to Windows Services and restart the "OutSystems Log Service".</li><li>Go back to Service Center's Monitoring and check in the Log details if the problem persists.</li></ol>|
 
-
 ### Windows Server Base Service Errors
 
 **"Message Queue Service is not available"**
@@ -158,7 +155,6 @@ OutSystems Platform Server produces its own performance information, compliant w
 | Cause | Microsoft Internet Information Server at the Front-end Server referred in the message is not responding or is stopped.|
 |-----|-----|
 | **Resolution / Recovery Action** |<ol><li>Login to Service Center and go to the Monitoring tab. </li><li>Check the corresponding Front-end Server IIS indicator status, in Frontend Servers section, and click on the Refresh Data link to confirm that the status is maintained.</li><li>If the indicator is not green:<br/><ol><li>Login to the corresponding Front-end Server</li><li>In console mode execute "iisreset".</li></ol></li><li>Go back to Service Center's Monitoring and check if the problem persists.</li></ol>|
-
 
 ### Common application errors
 
@@ -179,5 +175,3 @@ OutSystems Platform Server produces its own performance information, compliant w
 | Cause| If any of the above is reported consecutively for every request to a specific application, possibly the ASP.NET Temporary Files are corrupted. (Microsoft known defect)|
 |-----|-----|
 | **Resolution / Recovery Action** |<ol><li>Login to Service Center and go to page Error Log in Monitoring tab.</li><li>Refresh the page to check if the same error occurs several times in a single server.</li><li>If the error occurs repeatedly:<br/><ol><li>In Service Center, go to tab Factory and select the corresponding eSpace from the eSpaces list.</li><li>Press "Redeploy Published Version" button.</li><li>Go to the Monitoring tab and check the Deploy.Controller status and click on the Refresh Data link until the indicator turns green.</li><li>If the indicator doesn't turn green, go directly to step 5.1.</li></ol></li><li> Go to page Error Log again and refresh it.</li><li>If the error occurs repeatedly:<br/><ol><li>Login to the corresponding server and go to Windows Services.</li><li>Stop all "OutSystems" services.</li><li>In `"Control Panel"->"Administrative Tools"->" Internet Services Manager"`, stop the "Default Web Site".</li><li>In console mode, run the command "iisreset".</li><li>Delete all the contents of the Temporary ASP.NET Files folder.</li><li>In "Control Panel"->"Administrative Tools"->" Internet Services Manager", start the "Default Web Site".</li><li>Start all OutSystems services.</li></ol></li><li>Go back to Service Center, refresh Error log page and check if the problem persists.</li></ol>|
-
-

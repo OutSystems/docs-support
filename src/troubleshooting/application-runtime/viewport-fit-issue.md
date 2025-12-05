@@ -18,9 +18,9 @@ coverage-type:
 
 # Further Recommendations on the MABS 4.0 Viewport-Fit Issue in iOS 12 Phones
 
-OutSystems proposes a way to solve the [known issue about the "viewport-fit" meta tag](https://success.outsystems.com/Support/Release_Notes/Mobile_Apps_Build_Service/MABS_Version_4.0#Known_issue) in iPhones running iOS 12. However this causes the app to stop using the entire screen, and an empty bottom bar appears over the "home" button area in iPhone X devices. 
+OutSystems proposes a way to solve the [known issue about the "viewport-fit" meta tag](https://success.outsystems.com/Support/Release_Notes/Mobile_Apps_Build_Service/MABS_Version_4.0#Known_issue) in iPhones running iOS 12. However this causes the app to stop using the entire screen, and an empty bottom bar appears over the "home" button area in iPhone X devices.
 
-The following images show a mobile app with and without the "viewport-fit" meta tag: 
+The following images show a mobile app with and without the "viewport-fit" meta tag:
 
 ![Comparison of a mobile app interface on an iPhone with the viewport-fit meta tag applied, showing an empty bottom bar above the home button.](images/viewport-fit-issue-1.png "Mobile App with Viewport-Fit Meta Tag")
 
@@ -38,7 +38,7 @@ if (typeof(window.StatusBar) !== 'undefined') {
 }
 ```
 
-**Note:** With this workaround, [using the Status Bar preference "StatusBarOverlaysWebView"](https://success.outsystems.com/Documentation/11/Delivering_Mobile_Apps/Customize_Your_Mobile_App/Customize_the_Application_Status_Bar#Transparent_Status_Bar_in_Full_Screen_App) is no longer recommended because this places the transparent Status Bar over an empty top bar with the default background color of the WebView. 
+**Note:** With this workaround, [using the Status Bar preference "StatusBarOverlaysWebView"](https://success.outsystems.com/Documentation/11/Delivering_Mobile_Apps/Customize_Your_Mobile_App/Customize_the_Application_Status_Bar#Transparent_Status_Bar_in_Full_Screen_App) is no longer recommended because this places the transparent Status Bar over an empty top bar with the default background color of the WebView.
 
 ## To change the default background color of the WebView in runtime
 

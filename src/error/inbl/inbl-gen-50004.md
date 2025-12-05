@@ -31,5 +31,5 @@ Integration Builder can't publish the integration, nor can it provide an applica
 
 ## Recommended action
 
-In Integration Builder, go back to the **Review Integration** screen and click **Publish**. 
+In Integration Builder, go back to the **Review Integration** screen and click **Publish**.
 If the issue persists, please create a case with [OutSystems support](https://success.outsystems.com/Support).

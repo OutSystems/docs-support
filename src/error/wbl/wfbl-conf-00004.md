@@ -23,7 +23,7 @@ The &lt;Name&gt; and &lt;Id&gt; indicates the field with the error.
 
 ## Impact
 
-Workflow Builder can't save the application field because you can't change the length of the field. 
+Workflow Builder can't save the application field because you can't change the length of the field.
 
 ## Recommended action
 

@@ -5,7 +5,7 @@ guid: daf1e64b-7b02-4f2b-85ff-ac53435f06db
 locale: en-us
 app_type: mobile apps
 platform-version: o11, odc
-figma: https://www.figma.com/design/UXA74OsZxSIzLLsjhvNMjC/Release-Notes?node-id=1197-241&t=yKJmMz9HQRM1iqi4-1
+figma: https://www.figma.com/design/UXA74OsZxSIzLLsjhvNMjC/Release-Notes?node-id=1197-241
 ---
 
 # MABS versioning and lifecycle
@@ -22,11 +22,11 @@ OutSystems recommends that OutSystems mobile developers always use the latest MA
 
 OutSystems marks MABS versions as **Supported**, **Deprecated**, or **Obsolete**:
 
-- **Supported-**  A supported version is typically the latest version available of MABS and will increase the minor version every time a new feature is released to the public.
+* **Supported-**  A supported version is typically the latest version available of MABS and will increase the minor version every time a new feature is released to the public.
 
-- **Deprecated**- Versions marked as deprecated don't get new features but still receive security updates. These remain available to customers to use to build their mobile applications.
+* **Deprecated**- Versions marked as deprecated don't get new features but still receive security updates. These remain available to customers to use to build their mobile applications.
 
-- **Obsolete**-  When a version reaches the **Obsolete** state, it's no longer available for use in the mobile package creation process.
+* **Obsolete**-  When a version reaches the **Obsolete** state, it's no longer available for use in the mobile package creation process.
 
 In some instances, a **Beta** version may also be available. Refer to [Mobile Apps Build Service Versions](mabs-versions.md#beta) for more details.
 
@@ -34,9 +34,12 @@ In some instances, a **Beta** version may also be available. Refer to [Mobile Ap
 
 ### MABS Major Versions
 
-OutSystems typically releases MABS major versions yearly whenever the main mobile operating systems release a new SDK. Refer to [Support for new mobile operating system](mabs-beta-support.md) versions for more information on this.
+OutSystems typically releases MABS major versions yearly, in alignment with major releases from mobile operating systems. For detailed information, refer to [Support for new mobile operating system](mabs-beta-support.md).
 
-Whenever a new MABS Major version is released, the **previous version is deprecated after 4 months**. Whenever OutSystems deprecates the previous version, it moves **older versions to obsolete**.
+Whenever a MABS major version is released,
+
+* the preceding major version is **deprecated after 4 months**
+* the earliest major version is moved **to obsolete**.
 
 ### MABS Minor Versions
 
@@ -46,7 +49,7 @@ Minor versions have a slightly different timeline than Major versions. For every
 
 Refer to the timeline of the typical lifecycle for three successive MABS major versions with details for the minor lifecycle in one of these majors.
 
-![Diagram illustrating the lifecycle of MABS major versions, showing the transition from active major version to deprecated and obsolete states over time.](images/mabs-major-versions-lifecycle-diag.png "MABS Major Versions Lifecycle Diagram")
+![Diagram illustrating the lifecycle of MABS major versions, showing the transition from active major version to deprecated and obsolete states over time.](images/mabs-major-versions-lifecycle-diag-V2.png "MABS Major Versions Lifecycle Diagram")
 
 MABS version numbers on this figure are indicative
 
@@ -64,7 +67,7 @@ You select the MABS version for **each app** and **each mobile platform** at the
 
 * **Specific version**: Create mobile app packages in the current environment with the MABS version.
 
-OutSystems recommends using the same MABS version to maintain a consistent mobile app across stages. You use the MABS version to create a mobile package, **and save the app version tag to promote that consistency**. 
+OutSystems recommends using the same MABS version to maintain a consistent mobile app across stages. You use the MABS version to create a mobile package, **and save the app version tag to promote that consistency**.
 
 The way you select the MABS version differs between OutSystems platforms. For the specificities of each platform, check Setting the MABS version on OutSystems 11 and Setting the MABS version on OutSystems ODC.
 
@@ -73,4 +76,3 @@ The way you select the MABS version differs between OutSystems platforms. For th
 OutSystems promptly embraces the latest mobile operating system versions upon their release, typically around September for Android and iOS. When OutSystems introduces a new major version of MABS, it includes support for the new mobile operating systems and SDKs. This enables your mobile app to harness the benefits of enhanced performance, stability, security, and user experience that come with the new versions of operating systems and SDKs.
 
 Customers support upcoming mobile operating system versions and new SDKs, as some compatibility aspects require their attention. For more details refer to [Support for new mobile operating system versions](mabs-beta-support.md).
-

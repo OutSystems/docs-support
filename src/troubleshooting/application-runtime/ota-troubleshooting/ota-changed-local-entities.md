@@ -28,7 +28,7 @@ coverage-type:
 
 ## Where is this occurring and what does it mean?
 
-This occurs when a change in the Metamodel of a Local Entity can’t be performed. This is because an Attribute Data Type in the Local Entity can’t be converted into another Data Type (for example, changing an attribute data type from Binary to Text) for local entities that already contain Data. 
+This occurs when a change in the Metamodel of a Local Entity can’t be performed. This is because an Attribute Data Type in the Local Entity can’t be converted into another Data Type (for example, changing an attribute data type from Binary to Text) for local entities that already contain Data.
 
 **Note**: This only affects devices that contain data in the affected Local Entities.
 

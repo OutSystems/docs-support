@@ -44,6 +44,7 @@ If you were looking for a different use case, please check the other documented 
 * [Migrate an Environment Using a Database Clone](https://success.outsystems.com/support/enterprise_customers/maintenance_and_operations/migrate_an_environment_using_a_database_clone/) if you want to create a new OutSystems environment with a clone of the data from an existing database.
 
 ## Procedure
+
 This document guides you through the necessary steps to change the database endpoints and make those effective on the OutSystems applications.
 
 <div class=“warning” markdown=”1”>

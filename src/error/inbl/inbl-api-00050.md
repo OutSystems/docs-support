@@ -24,8 +24,7 @@ coverage-type:
 
 ## Cause
 
-
-This is a Salesforce error message returned when Integration Builder tried to call Salesforce API. 
+This is a Salesforce error message returned when Integration Builder tried to call Salesforce API.
 Typically, this means the authorization to access Salesforce that was granted to Integration builder by the user has expired, or was revoked.
 
 ## Impact

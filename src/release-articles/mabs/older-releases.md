@@ -30,7 +30,6 @@ platform-version: o11
 * [2019-08-21 19:00:00 UTC] Fixed an issue with images failing to load with SSL Pinning plug-in. (RNMT-3176)
 * [2019-08-21 19:00:00 UTC] Improved detection of the build errors, so the iOS application builds no longer fail due to CocoaPods repository update errors. (RNMT-3073)
 
-
 ## MABS Version 4.1 { #mabs-version-4-1 }
 
 <div class="info">
@@ -66,7 +65,6 @@ platform-version: o11
 * [2019-04-08 14:00:00 UTC] Fixed an issue where iOS application builds failed when using plugins that require a deployment target higher than iOS 8.0. (RNMT-2741)
 * [2019-04-22 16:00:00 UTC] Fixed a missing configuration so that iOS applications will no longer be rejected by the App Store. (RNMT-2763)
 * [2019-05-06 10:00:00 UTC] Fixed an issue that causes iOS app crashes when a new application version is available (RNMT-2802)
-
 
 ## MABS Version 4.0 { #mabs-version-4-0 }
 
@@ -128,7 +126,6 @@ However this causes the app to stop using the entire screen, and an empty bottom
 * [2019-08-21 19:00:00 UTC] Fixed an issue with images failing to load with SSL Pinning plug-in. (RNMT-3176)
 * [2019-08-21 19:00:00 UTC] Improved detection of the build errors, so the iOS application builds no longer fail due to CocoaPods repository update errors. (RNMT-3073)
 * [2020-08-25 12:00:00 UTC] The build logs in Service Center now have more details to help you troubleshoot faster when an app fails to build.
-
 
 <h2>2018-07-31</h2>
 

@@ -10,7 +10,7 @@ figma: https://www.figma.com/file/mP34OzloL9EPqXml1E0tfC/Community?node-id=1394:
 
 # Transfer your certifications to another account
 
-OutSystems community accounts are created with your email as the username. 
+OutSystems community accounts are created with your email as the username.
 
 You may happen to have created two community accounts created with diferent emails. For example, one with your personal email and another with your work email.
 You can, if you choose to, transfer your OutSystems certifications from one account to the other.

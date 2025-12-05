@@ -24,7 +24,6 @@ coverage-type:
 
 This error occurs when a resource defined in extensibility configurations' `resources` has its `src` pointing to a missing file.
 
-
 ## Impact
 
 The application package can't be generated.

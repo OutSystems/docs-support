@@ -12,7 +12,6 @@ platform-version: o11
 <h2 id="integration_builder_1.43.0" >Integration Builder 1.43.0</h2>
 <div class="info"><p>Released on Jan 24, 2023</p></div>
 
-
 <style>.cattag {background: #f4f2ff; color: #6a6581; padding: 4px 10px;}</style>
 <h3 id="new_in_integration_builder_1.43.0" >New in Integration Builder 1.43.0</h3>
 <ul>
@@ -30,7 +29,6 @@ platform-version: o11
 <h2 id="integration_builder_1.42.1" >Integration Builder 1.42.1</h2>
 <div class="info"><p>Released on Dec 22, 2022</p></div>
 
-
 <style>.cattag {background: #f4f2ff; color: #6a6581; padding: 4px 10px;}</style>
 <h3 id="bug_fixing_integration_builder_1.42.1" >Bug Fixing</h3>
 <ul>
@@ -42,7 +40,6 @@ platform-version: o11
 
 <h2 id="integration_builder_1.42.0" >Integration Builder 1.42.0</h2>
 <div class="info"><p>Released on Dec 12, 2022</p></div>
-
 
 <style>.cattag {background: #f4f2ff; color: #6a6581; padding: 4px 10px;}</style>
 <h3 id="new_in_integration_builder_1.42.0" >New in Integration Builder 1.42.0</h3>
@@ -58,7 +55,6 @@ platform-version: o11
 
 <h2 id="integration_builder_1.41.0" >Integration Builder 1.41.0</h2>
 <div class="info"><p>Released on Nov 15, 2022</p></div>
-
 
 <style>.cattag {background: #f4f2ff; color: #6a6581; padding: 4px 10px;}</style>
 <h3 id="new_in_integration_builder_1.41.0" >New in Integration Builder 1.41.0</h3>
@@ -82,7 +78,6 @@ platform-version: o11
 <h2 id="integration_builder_1.40.0" >Integration Builder 1.40.0</h2>
 <div class="info"><p>Released on Oct 25, 2022</p></div>
 
-
 <style>.cattag {background: #f4f2ff; color: #6a6581; padding: 4px 10px;}</style>
 <h3 id="new_in_integration_builder_1.40.0" >New in Integration Builder 1.40.0</h3>
 <ul>
@@ -104,7 +99,6 @@ platform-version: o11
 <h2 id="integration_builder_1.39.1" >Integration Builder 1.39.1</h2>
 <div class="info"><p>Released on Oct 14, 2022</p></div>
 
-
 <style>.cattag {background: #f4f2ff; color: #6a6581; padding: 4px 10px;}</style>
 <h3 id="bug_fixing_integration_builder_1.39.1" >Bug Fixing</h3>
 <ul>
@@ -120,7 +114,6 @@ platform-version: o11
 
 <h2 id="integration_builder_1.39.0" >Integration Builder 1.39.0</h2>
 <div class="info"><p>Released on Sep 21, 2022</p></div>
-
 
 <style>.cattag {background: #f4f2ff; color: #6a6581; padding: 4px 10px;}</style>
 <h3 id="new_in_integration_builder_1.39.0" >New in Integration Builder 1.39.0</h3>
@@ -138,7 +131,6 @@ platform-version: o11
 
 <h2 id="integration_builder_1.38.0" >Integration Builder 1.38.0</h2>
 <div class="info"><p>Released on Aug 23, 2022</p></div>
-
 
 <style>.cattag {background: #f4f2ff; color: #6a6581; padding: 4px 10px;}</style>
 <h3 id="new_in_integration_builder_1.38.0" >New in Integration Builder 1.38.0</h3>
@@ -160,7 +152,6 @@ platform-version: o11
 
 <h2 id="integration_builder_1.37.0" >Integration Builder 1.37.0</h2>
 <div class="info"><p>Released on Aug 09, 2022</p></div>
-
 
 <style>.cattag {background: #f4f2ff; color: #6a6581; padding: 4px 10px;}</style>
 <h3 id="new_in_integration_builder_1.37.0" >New in Integration Builder 1.37.0</h3>
@@ -291,7 +282,7 @@ platform-version: o11
 <li>Improved the layout of the "Review" screen for Microsoft Dataverse, Microsoft Dynamics 365, Salesforce, SAP OData, and Sharepoint Online integrations. (RCNT-4278)</li>
 <li>Added a visual indicator that table rows can be clicked on the "Add tables" step of the integration creation wizard for relational databases. (RCNT-4576)</li>
 <li>A MongoDB integration is now available, as a Technical Preview.
-This new integration allows you to easily connect your apps with the most popular no-SQL database, MongoDB. 
+This new integration allows you to easily connect your apps with the most popular no-SQL database, MongoDB.
 The MongoDB integrations are available exclusively in the latest version of Integration Builder and are fully supported by the OutSystems platform. Find out more about MongoDB integrations in our <a href="https://www.outsystems.com/goto/ib-mongodb-doc" target="_blank" rel="noopener noreferrer">documentation</a>.  (RCNT-4673)</li>
 </ul>
 <h3 id="bug_fixing_1.32.0">Bug Fixing</h3>

@@ -18,7 +18,7 @@ coverage-type:
 
 # Allowlist your OutSystems Cloud environments on your firewall
 
-In the OutSystems Cloud you can integrate with several external services. And sometimes, those services are behind a firewall or have strict access rules. To establish a connection, you'll need to allowlist the addresses of your OutSystems Cloud environments. 
+In the OutSystems Cloud you can integrate with several external services. And sometimes, those services are behind a firewall or have strict access rules. To establish a connection, you'll need to allowlist the addresses of your OutSystems Cloud environments.
 This article guides you on how to find the right IP addresses to allow on your network.
 
 <div class="info" markdown="1">
@@ -43,24 +43,21 @@ To get the public IPs of your environments front-ends execute these 2 steps in s
 
     ![Screenshot of the OutSystems Service Center showing the Environment Health section with Front-end Servers details.](images/allowlist-cloud-servers-sc.png "Service Center Environment Health Screen")
 
-
 1. Resolve the hostnames to their respective public IPs.
 
     You can use any method or tool such as, for example, [this one](https://mxtoolbox.com/DnsLookup.aspx).
 
     It's important to allowlist all the IP addresses. If in Service Center (step 1) you have more than one Front-end Server you should resolve and allowlist all. Outgoing requests can originate from any of the front-end servers. And if they're not all allowlisted, some requests may be blocked.
 
-    
     <div class="warning" markdown="1">
 
     When new front ends are added to an environment make sure to retrieve and allowlist its public IP. Existing integrations can be affected until you do so.
 
     </div>
 
-
 ### Common mistakes
 
-It's important not to use the IPs obtained when resolving the environment address. For example: ``<my_production>.outsystemsenterprise.com``.   
+It's important not to use the IPs obtained when resolving the environment address. For example: ``<my_production>.outsystemsenterprise.com``.
 
 Some of your environments have load balancers (LB) and if you resolve ``<my_production>.outsystemsenterprise.com`` what you'll get is the LB IPs.
 
@@ -69,8 +66,7 @@ In outgoing requests to external servers, the connection originates from the fro
 Thus, the LB address isn't the correct one to allowlist. As a note, OutSystems Cloud LBs **do not** have static IP addresses.
 
 ## Connecting via VPN
- 
+
 When the external servers are not publicly accessible, you can establish a VPN connection to the OutSystems Cloud. In that case, you'll need to allowlist the full [private IP range of your OutSystems Cloud](https://success.outsystems.com/Support/Enterprise_Customers/Maintenance_and_Operations/Find_out_Internal_IP_Address_Range_of_Your_OutSystems_Cloud) on your firewall.
 
 The **private** IP addresses **are not static** so it's important to allowlist the entire range.
-

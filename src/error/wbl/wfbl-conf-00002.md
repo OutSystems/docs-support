@@ -23,7 +23,7 @@ The &lt;OriginalErrorMessage&gt; includes information about the cause of the err
 
 ## Impact
 
-Workflow Builder can't save the application field because the data is inconsistent. 
+Workflow Builder can't save the application field because the data is inconsistent.
 
 ## Recommended action
 

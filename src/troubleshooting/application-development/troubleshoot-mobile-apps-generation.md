@@ -21,7 +21,7 @@ coverage-type:
 
 This article contains information that's intended to help in the troubleshooting of issues when generating mobile apps to native platforms.
 
-**Note**: 
+**Note**:
 
 * In this article, the [the MABS versions article](https://success.outsystems.com/Support/Release_Notes/Mobile_Apps_Build_Service_Versions) is used to troubleshoot some of the issues. If you need to know more about MABS, you can [read this article](https://success.outsystems.com/Documentation/11/Delivering_Mobile_Apps/Mobile_Apps_Build_Service).
 
@@ -36,6 +36,7 @@ This section contains frequent issues with solutions, to help you in troubleshoo
 If there's a mismatch between the version of any of the plugins in the app and the plugin versions required by MABS, the build fails with one of the following messages, depending on the MABS version:
 
 #### MABS 8 and above
+
 ```
 In Android on [date] at [time] - Generation failed due to a plugin version incompatibility with your current version of MABS ([MABS version]). Review the following and try rebuilding your app:
 
@@ -50,6 +51,7 @@ The error message contains this information:
 * Version. The version information refers to the Forge version.
 
 #### MABS 7 and below
+
 ```
 In Android on [date] at [time] - Generation failed due to a plugin version incompatibility with your current version of MABS ([MABS Version]). Review the following and try rebuilding your app:
 
@@ -73,9 +75,9 @@ To resolve this issue, update the Platform Server to version 10.0.1016 or 11.0.5
 
 If a Platform Server update isn't an option, one workaround is to turn off the Disable Web SQL feature in Safari:
 
-1. Go to **Settings > Safari Options** 
+1. Go to **Settings > Safari Options**
 
-1. Go to **Advanced > Experimental Features** 
+1. Go to **Advanced > Experimental Features**
 
     ![Screenshot of iOS Safari Experimental Features settings highlighting the 'Disable Web SQL' option.](images/error-installing-via-qr-code-in-ios-13.png "iOS Safari Experimental Features Settings")
 
@@ -102,19 +104,19 @@ There are three things you should do to fix this:
 1. Switch to MABS 6.1 or later.
 1. Update any Forge components to their latest versions. All the supported Forge components were updated to remove UIWebView references and additionally, our community has also updated many of the commonly used components.
 1. Find any remaining references for UIWebView on the rest of your plugins and remove them.
-    
-    The reason why this message shows, even after switching to MABS 6.1 or later, is due to the remaining UIWebView references detected by Apple and their code analysis after you submit the app. 
+
+    The reason why this message shows, even after switching to MABS 6.1 or later, is due to the remaining UIWebView references detected by Apple and their code analysis after you submit the app.
 
     For example, if your app is using a Cordova plugin, the app can have references to UIWebView. You can find them by searching for `UIWebView` in the plugins source code (on a macOS you can use `grep -ri UIWebView [plugin folder]`). Detecting references in a plugin library (for example, in CocoaPods) requires you to use a [blank Cordova app](#reproduce-in-a-clean-cordova-project) before searching for references. Alternatively, you can also check the documentation of those libraries.
 
-### Using an invalid iOS certificate 
+### Using an invalid iOS certificate
 
 Sometimes there are issues with the iOS certificates that can block the mobile app generation. Check the log files and one of the following situations may be happening:
 
-* The certificate entered in Service Studio isn't compatible with the provisioning profile also introduced in Service Studio.    
+* The certificate entered in Service Studio isn't compatible with the provisioning profile also introduced in Service Studio.
 We recommend following the steps in [this article](https://success.outsystems.com/Documentation/11/Delivering_Mobile_Apps/Generate_and_Distribute_Your_Mobile_App/More_Information_on_Generating_and_Distributing_Mobile_Apps#For_iOS).
 
-* The certificate isn't valid for code signing.    
+* The certificate isn't valid for code signing.
     Check if the certificate was revoked or has expired.
 
 ### Targeting the wrong version of a native SDK
@@ -127,13 +129,13 @@ In the following example (in the Extensibility Configurations of the module), we
 
 In this case we were using MABS 5.0 and its specifications in [MABS versions](../../release-articles/mabs/mabs-versions.md) tells us that the version 28 of the Android SDK is required. So, we must change the `value` to version 28 to be able to submit the app to the Play Store.
 
-Although there are Cordova preferences to force the version of the native SDKs, the best option is to adapt the plugin to the target SDK version of the MABS specifications. 
+Although there are Cordova preferences to force the version of the native SDKs, the best option is to adapt the plugin to the target SDK version of the MABS specifications.
 
 ### Not using a tagged Version of a plugin
 
 It’s recommended that we use a tagged version of a plugin. If not, we’ll be always using the latest version of the master branch directly. It means that we’ll be consuming a version of the code that's not stable, because developers might be constantly pushing changes to the main branch.
 
-For instance, with GitHub repositories we should use `<GitHubLink>#<TagVersion>` as the following example shows in the Extensibility Configurations of the module: 
+For instance, with GitHub repositories we should use `<GitHubLink>#<TagVersion>` as the following example shows in the Extensibility Configurations of the module:
 
 ![Code snippet of Extensibility Configurations with a plugin URL pointing to a GitHub repository.](images/troubleshoot-mobile-apps-generation-2.png "Extensibility Configurations for Plugin with GitHub URL")
 
@@ -147,7 +149,7 @@ For example, a Google Analytics plugin is using `play-services-analytics`, but a
 
 The “+” sign allows the latest version available to be used when generating the app, but if major changes are done to `play-services-analytics`, it might become incompatible with [the MABS  requirements](../../release-articles/mabs/mabs-versions.md) or other plugins.
 
-Keeping these entries with a working version will ensure that results are predictable. 
+Keeping these entries with a working version will ensure that results are predictable.
 
 This is just one example, but you may find more entries also used with the same purpose (of obtaining a plugin dependency) using the "+" in their specification. This includes other `dependency` entries in the same `plugin.xml` file and `dependency` blocks in Gradle files.
 
@@ -164,7 +166,7 @@ As an example, this log file shows a conflict caused by a plugin overriding the 
     Suggestion: add 'tools:replace="android:value"' to <meta-data> element at AndroidManifest.xml:18:9-133 to override.
 ```
 
-In this case, a solution would be reviewing the plugin implementation and fixing the override of the value of the meta-data tag. 
+In this case, a solution would be reviewing the plugin implementation and fixing the override of the value of the meta-data tag.
 
 ### Conflict with AndroidX support libraries
 
@@ -176,20 +178,20 @@ In this type of issues, the log file can contain something like:
 * What went wrong:
 Execution failed for task ':app:processReleaseManifest'.
 > Manifest merger failed : Attribute application@appComponentFactory value=(android.support.v4.app.CoreComponentFactory) from [com.android.support:support-compat:28.0.0] AndroidManifest.xml:22:18-91
-  	is also present at [androidx.core:core:1.0.0] AndroidManifest.xml:22:18-86 value=(androidx.core.app.CoreComponentFactory).
-  	Suggestion: add 'tools:replace="android:appComponentFactory"' to <application> element at AndroidManifest.xml:5:5-20:19 to override.
+   is also present at [androidx.core:core:1.0.0] AndroidManifest.xml:22:18-86 value=(androidx.core.app.CoreComponentFactory).
+   Suggestion: add 'tools:replace="android:appComponentFactory"' to <application> element at AndroidManifest.xml:5:5-20:19 to override.
 ```
 
 To fix this issue you can enable AndroidX for your app. It's available since MABS 6.3. To enable AndroidX, see [Building apps with AndroidX](https://success.outsystems.com/Documentation/11/Delivering_Mobile_Apps/Mobile_Apps_Build_Service/Building_apps_with_AndroidX).
 
-Alternatively you can review the implementation of your plugins and look for Gradle dependencies that may be using AndroidX. 
+Alternatively you can review the implementation of your plugins and look for Gradle dependencies that may be using AndroidX.
 
 Some of these situations can happen with dependencies to Google when the version isn't locked, like for example:
 
     implementation "com.google.android.gms:play-services-maps:+"`
 
 This means it will use the latest version, which can be AndroidX.
-To fix this kind of issue, find the plugin(s) originating dependencies to AndroidX and lock their version so that they will use a non-AndroidX version. 
+To fix this kind of issue, find the plugin(s) originating dependencies to AndroidX and lock their version so that they will use a non-AndroidX version.
 
 In case you are using a plugin version that needs AndroidX to work, consider upgrading or downgrading that plugin to a version that doesn't use AndroidX.
 
@@ -266,7 +268,7 @@ MABS 6 raises the Cordova-android version used from 8.0.0 to 8.1.0, which remove
 <edit-config file="AndroidManifest.xml" target="/manifest/uses-sdk" mode="merge">
     <uses-sdk android:minSdkVersion="19" />
 </edit-config>
-``` 
+```
 
 In the log files you can find errors similar to this:
 
@@ -285,11 +287,11 @@ To solve this issue you can try to update the plugin to the latest version. If t
 ### App can't be installed on Android 7.1 or lower
 
 Androids apps with an **applicationId** that begin with a capital letter (ex: `MyCompany.App`) can't be installed on Android 7.1 or lower
-This is an Android issue found on prior versions of the operative system. 
+This is an Android issue found on prior versions of the operative system.
 
 The alternatives to deal with this issue are:
 
-* Do nothing, and drop support for those Android versions, or   
+* Do nothing, and drop support for those Android versions, or
 * Change the **applicationId**. Because the **applicationId** uniquely identifies an app, changing it should be carefully considered. More information in the [official Android documentation](https://developer.android.com/studio/build/application-id).
 
 ## Some troubleshooting techniques
@@ -356,7 +358,7 @@ When troubleshooting an app that has plugins, start by finding a plugin that's t
 
 This section introduces some techniques to find out which plugin (or plugins) are causing issues.
 
-##### Reproduce in a clean OutSystems app 
+##### Reproduce in a clean OutSystems app
 
 This is the low-code way to try to reproduce issues with plugins. It's typically used when we have a strong hint of which plugin or plugins may be causing problems.
 
@@ -364,11 +366,11 @@ Create a clean app and add plugins, one by one, as follows:
 
 1. Create a new Mobile app in Service Studio;
 
-2. Add a plugin to the app and generate the mobile app;
+1. Add a plugin to the app and generate the mobile app;
 
-3. If the problem is reproduced, stop and use the logs to troubleshoot the problem;
+1. If the problem is reproduced, stop and use the logs to troubleshoot the problem;
 
-4. Add another plugin and repeat from step 2.
+1. Add another plugin and repeat from step 2.
 
 ##### Reproduce in a clean Cordova project
 
@@ -376,7 +378,7 @@ This method implies knowledge about working with Cordova projects and a bit of s
 
 Create a Cordova project and add plugins, one by one, as follows:
 
-1. Set up the Cordova environment following the [Cordova instructions](https://cordova.apache.org/docs/en/latest/guide/cli/index.html) for the Cordova CLI version found in [the MABS version requirements](../../release-articles/mabs/mabs-versions.md).    
+1. Set up the Cordova environment following the [Cordova instructions](https://cordova.apache.org/docs/en/latest/guide/cli/index.html) for the Cordova CLI version found in [the MABS version requirements](../../release-articles/mabs/mabs-versions.md).
 **Note**: In the case of iOS, you must use a macOS environment;
 
 1. Create the Cordova project
@@ -391,8 +393,8 @@ Create a Cordova project and add plugins, one by one, as follows:
 
         cordova platform add <platform>@<engine version>
 
-    Where:    
-    `<platform>`: is either 'android' or 'ios'    
+    Where:
+    `<platform>`: is either 'android' or 'ios'
     `<engine version>`: is the engine version [required by the MABS version](../../release-articles/mabs/mabs-versions.md).
 
 1. Add a plugin and build the project

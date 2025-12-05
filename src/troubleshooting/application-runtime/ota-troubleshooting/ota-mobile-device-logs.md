@@ -15,7 +15,7 @@ coverage-type:
   - unblock
 ---
 
-# Unable to find resource 
+# Unable to find resource
 
 ## What is the error?
 
@@ -25,9 +25,9 @@ This error can only be observed in the Mobile Device Logs.
 
 ## Where is this occurring and what does it mean?
 
-* These are debugging logs that can be observed directly on the Device Logs and aren’t sent over to Service Center. 
+* These are debugging logs that can be observed directly on the Device Logs and aren’t sent over to Service Center.
 
-* The error occurs whenever WebView requests to load some specific resource that isn’t part of a cache frame and thus, the cache will ignore it and allows the request to continue for the remaining interested parts that may be able to respond back with content. 
+* The error occurs whenever WebView requests to load some specific resource that isn’t part of a cache frame and thus, the cache will ignore it and allows the request to continue for the remaining interested parts that may be able to respond back with content.
 
 * Special cases are Cordova resources, such as JavaScript from Cordova plugins. These resources aren’t served by a cache frame nor from the web, but are served locally from the shell.
 

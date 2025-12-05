@@ -41,15 +41,13 @@ Stack:
 
 Increasing these limits involves increasing the `maxRequestLength`and `maxAllowedContentLength`parameters of the web.config file associated with that application. However, this alteration shouldn't be done directly in the web.config file on the server: every time an eSpace is republished, the web.config file is regenerated and any custom configurations are lost. The Platform Server forces this behavior to ensure all the configurations are correct.
 
-
-
 Instead, to ensure alterations to the web.config files at the application level are persistent, the [Factory Configuration component](https://www.outsystems.com/forge/component-overview/25/factory-configuration) should be used.
 
 ### Create a shared configuration
 
 1. Open Factory Configuration on the browser and login with your LifeTime credentials.
 1. In the **Shared Configurations** tab click **Create New Shared Configuration**.
-    
+
     ![Screenshot showing the 'Create New Shared Configuration' button in the Factory Configuration interface.](images/altering-file-limits-new-config.png "Creating a New Shared Configuration in Factory Configuration")
 
 1. On the **Pre-made Samples** drop-down, choose **Custom HttpRuntime Parameters (.NET)** and click **Fill**.

@@ -18,7 +18,7 @@ coverage-type:
 
 # Getting logs for troubleshooting purposes
 
-This article explains how to get the logs and report files from several OutSystems components and other system components. 
+This article explains how to get the logs and report files from several OutSystems components and other system components.
 
 In the context of a support case, OutSystems Support might require that you provide some of these files so they can troubleshoot the issues you are experiencing. In this situation, you should get the required files as described in this article and **attach them to your support case**.
 
@@ -28,21 +28,21 @@ Troubleshooting logs allow you to understand the probable cause of slowness in y
 
 The [logs for the runtime of the platform](https://success.outsystems.com/Documentation/11/Managing_the_Applications_Lifecycle/Monitor_and_Troubleshoot/View_the_Environment_Logs_and_Status#monitoring-area) are available in the **Service Center** console of each environment - application and LifeTime environments. These logs can be helpful when trying to debug a specific feature or behavior and understanding exactly what is happening within that process. You can access the following logs from Service Center:
 
- * Errors
- * General
- * Traditional Web requests
- * Screen requests
- * Service Actions
- * Integrations
- * Extensions
- * Timers
- * Emails
- * Processes
- * Mobile Apps
+* Errors
+* General
+* Traditional Web requests
+* Screen requests
+* Service Actions
+* Integrations
+* Extensions
+* Timers
+* Emails
+* Processes
+* Mobile Apps
 
 <div class="info" markdown="1">
 
-When troubleshooting errors REST and SOAP integrations it may be usefull to [adjust the logging level](https://www.outsystems.com/tk/redirect?g=c215f526-4e79-416f-a7ae-4789e0a26a8c).
+When troubleshooting errors REST and SOAP integrations it may be useful to [adjust the logging level](https://www.outsystems.com/tk/redirect?g=c215f526-4e79-416f-a7ae-4789e0a26a8c).
 
 </div>
 
@@ -64,13 +64,13 @@ In some cases, it's not possible to collect the **Diagnostics Report** or the sa
 
 [Click here](service-studio-logs.md) to learn how to get a Service Studio Report and perform enhanced logging.  
 
-## LifeTime logs** 
+## LifeTime logs
 
 From the LifeTime console, you can obtain the following reports:
 
- * LifeTime report
- * Staging report
- * User permissions report
+* LifeTime report
+* Staging report
+* User permissions report
 
 [Click here](lifetime-logs.md) to learn how to get these reports.
 
@@ -78,18 +78,19 @@ From the LifeTime console, you can obtain the following reports:
 
 The Windows Event Viewer shows a log of application and system messages, including errors, information messages, and warnings.
 
- * Application Section: In the Application section, you'll find OutSystems services messages. OutSystems Services will log their startup and shutdown information messages here, as well as more severe errors that prevent them from starting or functioning correctly. The value in the Source column will be `OutSystems <service name>`.
+* Application Section: In the Application section, you'll find OutSystems services messages. OutSystems Services will log their startup and shutdown information messages here, as well as more severe errors that prevent them from starting or functioning correctly. The value in the Source column will be `OutSystems <service name>`.
 
- * System Section: In the System section, you’ll also find IIS messages. Examples are application pool recycling events or crash of processes. Application pool recycles are logged as WAS (for Windows Application Server) in the Source column.
+* System Section: In the System section, you’ll also find IIS messages. Examples are application pool recycling events or crash of processes. Application pool recycles are logged as WAS (for Windows Application Server) in the Source column.
 
 [Click here](event-viewer-logs.md) to learn how to get Event Viewer logs.
 
 ## Android and iOS device logs
 
 These logs are vital to understanding what's happening at the moment of a certain action or logic point when trying to debug or find a specific cause for an erroneous state (for example, an application crash). The Android device logs list all the actions happening on an Android device such as:
- * Faulty actions that lead to errors
- * Unhandled exceptions
- * Other information that can be used for debugging purposes
+
+* Faulty actions that lead to errors
+* Unhandled exceptions
+* Other information that can be used for debugging purposes
 
 [Click here](android-device-logs.md) to learn how to get Android Device logs.
 
@@ -99,7 +100,7 @@ These logs are vital to understanding what's happening at the moment of a certai
 
 [BPT Utils](https://www.outsystems.com/forge/component-overview/1313/bpt-utils) is a Forge component that provides information about BPT Processes, including a troubleshooting report.
 
-You'll need BPT Utils component in your the environment. Follow the steps given below to install:
+You'll need the BPT Utils component in your environment. Follow the steps below to install:
 
 1. Download [BPT Utils](https://www.outsystems.com/forge/component-versions/1313) from OutSystems Forge. You will get an OutSystems application file (.oap). There is one version available for OutSystems 9.1, 10 and 11. Make sure to download the version corresponding to your environment.
 
@@ -116,18 +117,19 @@ You'll need BPT Utils component in your the environment. Follow the steps given 
 BPT Utils is now installed in your LifeTime environment.
 
 [Click here](bpt-report.md) to learn how to get the BPT Utils troubleshooting report.
-    
+
 ## Network HAR file
 
 HAR is the short form for **HTTP Archive Format**, which tracks all the logging of web browser's interaction with a site. You may need this file if you encounter the following issues:
-  * Performance issues: slow page load, a timeout when performing a certain task, etc.
-  * Page rendering: incorrect page format, missing information, etc.
+
+* Performance issues: slow page load, a timeout when performing a certain task, etc.
+* Page rendering: incorrect page format, missing information, etc.
 
 [Click here](har-file.md) to learn how to get the HAR file from different browsers.
 
 ## IIS Manager logs
 
-IIS logs are meant to record data from Internet Information Services, web pages, and apps. While IIS itself contributes to the scalability and flexibility of web resources, the log files contain specific statistics about the websites, user data, site visits, IPs, and queries. These files can help you detect a problem a specific call between your server and another external server or service and understand if there are any underlying network issues.
+IIS logs are meant to record data from Internet Information Services, web pages, and apps. While IIS itself contributes to the scalability and flexibility of web resources, the log files contain specific statistics about the websites, user data, site visits, IPs, and queries. These files can help you detect a problem in a specific call between your server and another external server or service and understand if there are any underlying network issues.
 
 [Click here](iis-logs.md) to learn how to get IIS logs.
 

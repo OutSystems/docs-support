@@ -11,7 +11,7 @@ platform-version: o11
 <div class="info" markdown="1">
 
 Check the mobile stack details for each available MABS version in [Mobile Apps Build Service Versions](mabs-versions.md).
-    
+
 </div>
 
 <div class="info" markdown="1">
@@ -40,8 +40,8 @@ See “System requirements and Breaking Changes” in MABS 6.0 Release Notes
 * [2020-11-26 19:00:00 UTC] We fixed an issue that was causing apps to show an error screen at startup when the SSL Pinning Plugin configurations were incorrect. (RNMT-4514)
 * [2020-11-27 20:10:00 UTC] We fixed app crashes in Android related to SSL Pinning Plugin. An app could crash when there was an exception without a message while the app was obtaining a pinned resource. (RNMT-4520)
 * [2020-12-21 15:00:00 UTC] We improved the overall stability and security, with a focus on the **Android** mobile apps that use plugins with hooks. We recommend rebuilding your mobile apps and confirming they are working as expected. In cases where there are errors due to these security improvements, you'll see the error codes ERR-PLG-1017  (Error installing Cordova plugin) and ERR-GEN-1016 (Error generating application).
-* [2020-12-23 15:00:00 UTC] Adds a new error message in the error handler for plugins with missing dependencies for node modules due to the security improvements. 
-* [2020-12-23 15:00:00 UTC] Added a new error message in the error handler for plugins with missing dependencies for node modules due to the security improvements. 
+* [2020-12-23 15:00:00 UTC] Adds a new error message in the error handler for plugins with missing dependencies for node modules due to the security improvements.
+* [2020-12-23 15:00:00 UTC] Added a new error message in the error handler for plugins with missing dependencies for node modules due to the security improvements.
 * [2020-12-23 15:00:00 UTC] We fixed error messages in the error handler for maven repository operations. (RNMT-4542)
 * [2020-12-28 14:30:00 UTC] We improved the overall stability and security, with a focus on the iOS mobile apps that use plugins with hooks. We recommend rebuilding your mobile apps and confirming they are working as expected. In cases where there are errors due to these security improvements, you'll see the error codes ERR-PLG-1017  (Error installing Cordova plugin) and ERR-GEN-1016 (Error generating application).
 * [2021-01-15 09:30:00 UTC] Improved the robustness of the build process in scenarios with potential permission errors. (RNMT-4586)
@@ -57,13 +57,12 @@ See “System requirements and Breaking Changes” in MABS 6.0 Release Notes
 * [2021-05-19 15:30:00 UTC] Fixed an issue that was causing the Native Logger to perform concurrent network requests to the server on iOS (RNMT-4892)
 * [2021-07-01 11:30:00 UTC] Added validation to prevent native mobile apps from using SSL Pinning Plugin to pin to OutSystems managed certificates. For more information, [check the documentation](https://success.outsystems.com/Documentation/11/Extensibility_and_Integration/Mobile_Plugins/SSL_Pinning_Plugin#important-note-about-certificates).
 * [2021-09-29 14:00:00 UTC] Fixed an issue that potentially leads to resource exhaustion in Android apps in MABS 6. CVSSv3.1 score 4.8 (Medium) (RPM-740)
- 
 
 ### How to fix "Error installing a Cordova plugin"
 
 Some customers started getting the following error in MABS 6, after MABS security improvements in December 2020:
 
-*Error installing a Cordova plugin. Due to security concerns, the required dependency for the '{0}' node module in a plugin hook was missing. For more details, check the product documentation on how to ensure your plugins node dependencies.*
+_Error installing a Cordova plugin. Due to security concerns, the required dependency for the '{0}' node module in a plugin hook was missing. For more details, check the product documentation on how to ensure your plugins node dependencies._
 
 MABS no longer uses a shared cache for NPM dependencies, which means that you need to make sure that MABS has all the available dependencies for the build. Do this by installing the dependencies for the hooks.
 
@@ -125,7 +124,7 @@ For example, if you’re getting an error because the build cannot find the depe
 
 * [2020-02-05 15:00:00 UTC] Fixed an issue with the custom scheme handler for the WKWebView that was causing iOS apps to crash.
 * [2020-02-26 14:30:00 UTC] We fixed an issue with the cache that prevented the app from starting correctly. Upon closing the app, the app would not launch again after the native cache failed to cache a new app version. (RNMT-3841)
-* [2020-03-11 16:00:00 UTC] We fixed the Network Inspector notifications on Android versions Android N and earlier, so the push notification title now shows correctly. (RNMT-3764) 
+* [2020-03-11 16:00:00 UTC] We fixed the Network Inspector notifications on Android versions Android N and earlier, so the push notification title now shows correctly. (RNMT-3764)
 * [2020-03-11 16:00:00 UTC] Minor improvements to increase the robustness of the cache mechanism. (RNMT-3788)
 * [2020-03-11 16:00:00 UTC] We fixed an issue where MABS was not correctly handling Git URLs from less common domains. (RNMT-3897)
 * [2020-03-24 12:30:00 UTC] Fixed OneSignal registration for the push notifications. (RNMT-3855)
@@ -192,12 +191,12 @@ To have access to MABS 6.0 you need the following versions of Platform Server:
 
 **Service Studio**
 
-The minimal version of Service Studio that ensures proper work of the Mobile Debugger with MABS 6.0: 
+The minimal version of Service Studio that ensures proper work of the Mobile Debugger with MABS 6.0:
 
 * Service Studio 10 - 10.0.1017.0 or later
 * Service Studio 11 - 11.5.44.2557 or later
 
-**SSL Pinning **
+**SSL Pinning**
 
 SSL Pinning plugin must be the latest version (4.0.0 or later) to be supported correctly in MABS 6.0.
 
@@ -222,4 +221,3 @@ Here is the list of issues that may appear when building your apps with MABS 6.0
 * RedirectToURL Event fails
 * Web Inspector doesn't show Network information
 * Content-Security-Policy may incur new violations in iOS. Android is unaffected.
-

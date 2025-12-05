@@ -15,7 +15,7 @@ coverage-type:
   - unblock
 ---
 
-# Application renamed unexpectedly after staging 
+# Application renamed unexpectedly after staging
 
 ## Symptoms
 
@@ -23,11 +23,11 @@ Your app is unexpectedly renamed after staging your app to the target environmen
 
 **Example**:
 
-- You have 3 environments registered in LifeTime - Development, QA, and Production.
-- You have AppA in the 3 environments.
-- In the Dev environment, you change the name of the app to ToBeDeleted_AppA.
-- You execute the staging process (which includes your app) between the QA and Production environments.
-- When staging is complete, the application name in the Production environment is ToBeDeleted_AppA.
+* You have 3 environments registered in LifeTime - Development, QA, and Production.
+* You have AppA in the 3 environments.
+* In the Dev environment, you change the name of the app to ToBeDeleted_AppA.
+* You execute the staging process (which includes your app) between the QA and Production environments.
+* When staging is complete, the application name in the Production environment is ToBeDeleted_AppA.
 
 ## Cause
 

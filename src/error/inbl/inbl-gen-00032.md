@@ -35,7 +35,3 @@ Integration Builder can't publish the integration.
 ## Recommended action
 
 Check the Service Center Error logs of your environment. If neither the error logs nor the included "&lt;"OriginalErrorMessage"&gt;" provide enough information to solve the issue, please create a case with [OutSystems support](https://success.outsystems.com/Support).
-
-
-
-

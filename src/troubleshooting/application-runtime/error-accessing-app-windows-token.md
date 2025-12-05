@@ -49,11 +49,11 @@ Solving this problem involves either:
 
 1. Removing the "Run As" credentials, if they are not needed. This is the solution for all cloud customers, since "Run As" is not available for cloud customers.
 
-2. Fixing the privileges for the user.
+1. Fixing the privileges for the user.
 
 ### Method 1:
 
-To remove the "Run As" credentials, access the details of the eSpace, and check the Operation tab. You will see the username set up. To remove these credentials, simply delete the value, click **Apply Run As settings**. 
+To remove the "Run As" credentials, access the details of the eSpace, and check the Operation tab. You will see the username set up. To remove these credentials, simply delete the value, click **Apply Run As settings**.
 
 ![Screenshot of the Operation tab in OutSystems Service Center showing where to remove 'Run As' credentials.](images/error-accessing-app-windows-token_1.png "eSpace Operation Tab")
 
@@ -74,4 +74,3 @@ After you have found the user, log in to your server, and in Manage Users and Ro
 ## Properties
 
 Applies to OutSystems Platform for .NET, all versions.
-

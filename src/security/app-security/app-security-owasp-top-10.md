@@ -130,13 +130,13 @@ For more information on how to achieve the highest level of security for your Ou
 
 ### Account Impersonation (LCNC-SEC-01)
 
-OutSystems creates and manages application credentials without requiring developer access. Developers cannot access or change the credentials applications use to run and access resources. 
+OutSystems creates and manages application credentials without requiring developer access. Developers cannot access or change the credentials applications use to run and access resources.
 
-Apps are staged across multiple environments, from Development to Production and custom integrations with third-party services can leverage environment-wide configurations, that will not propagate to other environments. 
+Apps are staged across multiple environments, from Development to Production and custom integrations with third-party services can leverage environment-wide configurations, that will not propagate to other environments.
 
 To further increase security, you can use roles to allow developers to publish applications only to non-production environments and reserve the privilege to change environment configurations for a small set of DevOps staff.
 
-**See also** 
+**See also**
 
 [Protecting OutSystems apps from access control / permissions vulnerabilities](https://success.outsystems.com/Support/Security/How_the_OutSystems_Platform_Helps_You_Develop_Secure_Applications/Protecting_OutSystems_apps_from_access_control_/_permissions_vulnerabilities)
 [Configure Web Service Authentication](https://success.outsystems.com/Documentation/11/Extensibility_and_Integration/SOAP/Consuming_SOAP_Web_Services/Configure_Web_Service_Authentication)
@@ -144,9 +144,9 @@ To further increase security, you can use roles to allow developers to publish a
   
 ### Authorization Misuse (LCNC-SEC-02)
 
-OutSystems was built with productivity and speed of development in mind, but no shortcuts to authentication and authorization exist that may put your applications in danger. 
+OutSystems was built with productivity and speed of development in mind, but no shortcuts to authentication and authorization exist that may put your applications in danger.
 
-Each application can create its own authentication and authorization flows for itself or for integration with third-party services with no shared connections. 
+Each application can create its own authentication and authorization flows for itself or for integration with third-party services with no shared connections.
 
 Furthermore, OutSystems role-based access control restricts access to the application’s pages depending on specific application-level roles. Developers define application-level permissions for roles using visual building blocks.
 
@@ -156,13 +156,13 @@ See also [Protecting OutSystems apps from access control / permissions vulnerabi
 
 ### Data Leakage (LCNC-SEC-03)
 
-OutSystems and the applications you develop do not perform any data movement or any data processing for that matter without explicit coding from the application developer. 
+OutSystems and the applications you develop do not perform any data movement or any data processing for that matter without explicit coding from the application developer.
 
 As with other development tools, development privileges should be restricted to dedicated personnel. OutSystems provides roles that can be leveraged to provide developers different levels of access to different applications, environments, and data.  
 
 ### Authentication and Secure Communication Failures (LCNC-SEC-04)
 
-OutSystems environments can easily be configured to accept only secure encrypted connections. Configurations can be done per application or enforced across all applications via environment settings. 
+OutSystems environments can easily be configured to accept only secure encrypted connections. Configurations can be done per application or enforced across all applications via environment settings.
 
 Applications are staged across multiple environments, and role-based authorization can be used to restrict access to environment settings.
 
@@ -170,11 +170,11 @@ Applications are staged across multiple environments, and role-based authorizati
 
 OutSystems follows best practices in governance and security to ensure that proper defaults are in place, providing an optimal balance between security by design and out-of-the-box functionality.
 
-OutSystems provides configuration settings both at the application level and at the environment level. 
+OutSystems provides configuration settings both at the application level and at the environment level.
 
 Environment-level configurations can be used combined with role-based authorization to ensure, for example, that developers only have access to their applications or to non-production environments and that any production environment configuration can only be made by high-privileged DevOps staff.
 
-OutSystems includes a set of capabilities that enable you to define and implement the security controls required by your applications. See [Application security overview](https://success.outsystems.com/Support/Security/Develop_secure_OutSystems_apps). 
+OutSystems includes a set of capabilities that enable you to define and implement the security controls required by your applications. See [Application security overview](https://success.outsystems.com/Support/Security/Develop_secure_OutSystems_apps).
 
 Moreover, [AI Mentor Studio can scan your applications and identify risky patterns](https://success.outsystems.com/Documentation/11/Managing_the_Applications_Lifecycle/Manage_technical_debt/Code_Analysis_Patterns#Security)
 
@@ -186,21 +186,21 @@ Injection handling failures or injection / input validation failures are common 
 
 OutSystems constantly monitors for vulnerabilities in the platform and the generated code, using a continuous delivery approach to constantly release incremental value with minimal disruptions to the customers’ operations and business.
 
-OutSystems enables the use of shared components. For this, OutSystems recommends using the OutSystems Forge where components, modules and applications are published, shared and scrutinized by the community. 
+OutSystems enables the use of shared components. For this, OutSystems recommends using the OutSystems Forge where components, modules and applications are published, shared and scrutinized by the community.
 
 As with open-source projects, OutSystems components shared in Forge can be downloaded, opened, analyzed, tested, and changed before use or being published to production. The platform provides full visibility over all application components and dependencies making it easier to spot and address unauthorized components.
 
-You can also choose to only download and use OutSystems [Supported or Trusted Forge components](https://success.outsystems.com/Support/Forge_Components/Forge_FAQs/Curating_Projects) to make sure you only use components that have been curated and validated by OutSystems. 
+You can also choose to only download and use OutSystems [Supported or Trusted Forge components](https://success.outsystems.com/Support/Forge_Components/Forge_FAQs/Curating_Projects) to make sure you only use components that have been curated and validated by OutSystems.
 
 ### Data and Secret Handling Failures (LCNC-SEC-08)
 
-OutSystems recommends not hardcoding secrets in the code but using other provided methods. 
+OutSystems recommends not hardcoding secrets in the code but using other provided methods.
 
-For example, you can use site properties to store configuration data to be available to applications in an environment and have different configuration data or credentials across environments. 
+For example, you can use site properties to store configuration data to be available to applications in an environment and have different configuration data or credentials across environments.
 
-Role-based authorization can again be used to make sure the developers only have access to code and reserve the permission to change environment configuration and particularly production configuration for high-privileged IT users. 
+Role-based authorization can again be used to make sure the developers only have access to code and reserve the permission to change environment configuration and particularly production configuration for high-privileged IT users.
 
-If the preference is to store that data away from the managed database, applications built with OutSystems can be extended through extensions and can be integrated with third-party services and external databases. 
+If the preference is to store that data away from the managed database, applications built with OutSystems can be extended through extensions and can be integrated with third-party services and external databases.
 
 Integration with third-party services, for example, can be used to store sensitive data in a secret management service. It’s up to the customer, however, to choose where and how to store the data. Moreover, OutSystems will never move any data out of its original geo-location in compliance with data residency regulations.
 
@@ -208,22 +208,21 @@ Integration with third-party services, for example, can be used to store sensiti
 
 OutSystems provides tools that enable full visibility and management of the platform, applications, application dependencies and integration with third-party services.
 
-[**LifeTime**](https://success.outsystems.com/Documentation/11/Managing_the_Applications_Lifecycle/Manage_Your_OutSystems_Infrastructure) is the centralized console for managing your OutSystems environments, applications, IT users, and security, covering the full application life cycle from development to deployment. 
+[**LifeTime**](https://success.outsystems.com/Documentation/11/Managing_the_Applications_Lifecycle/Manage_Your_OutSystems_Infrastructure) is the centralized console for managing your OutSystems environments, applications, IT users, and security, covering the full application life cycle from development to deployment.
 
 On the other hand, Service Center provides further details and visibility for each environment. OutSystems customers have, therefore, access to all the tools and information required for proper governance of their applications throughout the whole application lifecycle.
- 
+
 ### Security Logging & Monitoring Failures (LCNC-SEC-10)
 
-[Lifetime](https://success.outsystems.com/Documentation/11/Managing_the_Applications_Lifecycle/Manage_Your_OutSystems_Infrastructure) provides full governance over applications throughout the full lifecycle. From Lifetime you can monitor every application version across all environments. Lifetime also provides user management and auditing capabilities for IT users access, configuration and application changes. [Service Center](https://success.outsystems.com/Documentation/11/Managing_the_Applications_Lifecycle/Monitor_and_Troubleshoot/View_the_Environment_Logs_and_Status) provides further logging details per environment. 
+[Lifetime](https://success.outsystems.com/Documentation/11/Managing_the_Applications_Lifecycle/Manage_Your_OutSystems_Infrastructure) provides full governance over applications throughout the full lifecycle. From Lifetime you can monitor every application version across all environments. Lifetime also provides user management and auditing capabilities for IT users access, configuration and application changes. [Service Center](https://success.outsystems.com/Documentation/11/Managing_the_Applications_Lifecycle/Monitor_and_Troubleshoot/View_the_Environment_Logs_and_Status) provides further logging details per environment.
 
-OutSystems out-of-the-box logs all access to external systems through web services, custom integration logic, or web service requests to applications running inside the platform. The logs keep a record of who made the request, the request’s target, the method called, how long the request took, and the exact time of the request. This enables you to track down any security issues efficiently. 
+OutSystems out-of-the-box logs all access to external systems through web services, custom integration logic, or web service requests to applications running inside the platform. The logs keep a record of who made the request, the request’s target, the method called, how long the request took, and the exact time of the request. This enables you to track down any security issues efficiently.
 
 OutSystems applications can be built and extended through built-in logging actions to generate further logging according to application and business needs.
 
 Customers who choose to manage their own OutSystems installation benefit from the OutSystems standard runtime architecture to leverage their know-how and tools for logging and monitoring all system components.
 
 OutSystems Cloud customers benefit from the logging and monitoring capabilities bundled in the service with a choice between the secure baseline of the standard configuration and the more advanced [OutSystems Sentry](https://www.outsystems.com/sentry/) offer.
-
 
 ## OWASP Mobile Top 10 - Final List 2016
 

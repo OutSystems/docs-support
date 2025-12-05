@@ -22,7 +22,7 @@ To learn details about any Boot Camp you are interested in participating in, you
 * Boot Camp price
 * Schedule
 * Location (onsite or remote)
-* Details on what you will learn 
+* Details on what you will learn
 * Request to confirm, or not, your registration to proceed with payment
 
 Whether you wish to participate, or even just learn information about a specific class, the best way to go is to enroll in it, as the Training Partner delivering the class will reply to your registration with these details.

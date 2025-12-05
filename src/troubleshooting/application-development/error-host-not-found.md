@@ -34,16 +34,15 @@ When trying to connect to your personal environment from the IDE, you get the fo
 
 Since you're reading this, you can assume your internet connection is working fine. On your IDE, try reconnecting to your personal environment again.
 
-If the problem has not been solved yet, it's probable that you haven't used your personal environment in quite some time, so it fell asleep or was deleted. 
+If the problem has not been solved yet, it's probable that you haven't used your personal environment in quite some time, so it fell asleep or was deleted.
 
-### Step 1 
+### Step 1
 
 Go to `https://<yourpersonal>.outsystemscloud.com` and check the state of your environment.
 
 * If you can see your applications, then your personal environment is up and running and you **should** be able to connect to it from the IDE.
 
 * If you are redirected to [https://www.outsystems.com/home/](https://www.outsystems.com/home/), then your personal environment fell asleep or was deleted.
-
 
 ### Step 2
 

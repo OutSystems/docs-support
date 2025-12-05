@@ -41,7 +41,7 @@ The following example from the [OWASP documentation](https://www.owasp.org/index
 |Manually build URLs in redirects with dynamic URLs |Use the [EncodeURL()](https://success.outsystems.com/Documentation/11/Reference/OutSystems_Language/Logic/Built-in_Functions/Text#EncodeUrl) function to replace all non-alphanumeric characters in a string so that you can safely use it in URL parameter values. |
 |Allowlist allowed external sites |[Apply a Content Security Policy](https://success.outsystems.com/Documentation/11/Managing_the_Applications_Lifecycle/Secure_the_Applications/Apply_Content_Security_Policy) as a way to prevent and mitigate the impact of XSS attacks. |
 
-Service Studio will issue design-time warnings about the patterns that can lead to code injection attacks. 
+Service Studio will issue design-time warnings about the patterns that can lead to code injection attacks.
 
 ## More information
 

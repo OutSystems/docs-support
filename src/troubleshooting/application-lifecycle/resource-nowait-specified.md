@@ -29,7 +29,7 @@ When trying to publish an module (via LifeTime, Service Center or Service Studio
 
 The error may also present in other situations where the platform needs to change the data model.
 
-The environment runs on an Oracle database. 
+The environment runs on an Oracle database.
 
 ## Cause
 
@@ -46,15 +46,15 @@ To resolve this issue, one should increase the Oracle DDL Timeout setting. This 
     * For .NET, typically `C:\Program Files\OutSystems\Platform Server`
 
     * For Java, typically `/opt/outsystems/platform`
- 
-2. Locate setting DDLLockTimeout under `<PlatformDatabaseConfiguration ProviderKey="Oracle">`. You should find a line similar to this:
+
+1. Locate setting DDLLockTimeout under `<PlatformDatabaseConfiguration ProviderKey="Oracle">`. You should find a line similar to this:
 `<DDLLockTimeout encrypted="false">600</DDLLockTimeout>`
 
-Note that there is a similar setting for `<SessionDatabaseConfiguration ProviderKey="Oracle">`. Typically you don't want to change this one. 
+Note that there is a similar setting for `<SessionDatabaseConfiguration ProviderKey="Oracle">`. Typically you don't want to change this one.
 
-3. Increase the value in the setting. For example, change `600` to `1200` or `1800`
+1. Increase the value in the setting. For example, change `600` to `1200` or `1800`
 
-4. Run the configuration tool:
+1. Run the configuration tool:
 
     * For .NET, locate the shortcut in the Start menu. After opening the Configuration Tool, click "Apply and Exit". Allow restart of all services. You don't need to execute installation of Service Center;
 

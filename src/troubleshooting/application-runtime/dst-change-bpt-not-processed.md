@@ -76,14 +76,11 @@ WHERE
 ORDER BY NEXT_RUN ASC
 ```
 
-
 ## What do I do to fix the issue, if I am affected?
 
 If you are affected by this problem, all you need to do is schedule the activity to be executed outside the missing hour from Daylight Savings. You can do this with the following query:
 
 `update ossys_bpm_activity set next_run = getdate() where next_run between '<start_date>' and '<end_date>'`
-
-
 
 If, for some reason, you do not want these activities to be processed anymore, you can use the information from the query in "How do I detect if the issue is affecting me" section to identify the processes that have the problematic activities and terminate them in Service Center. You can also use the BPT API if you have a large number of processes in this state and terminating them in Service Center is not a viable option.
 
@@ -101,4 +98,3 @@ OutSystems will not be issuing a fix for customers running on Platform 7 (7.0.1.
 ## Final notes
 
 If you have further questions regarding this problem, feel free to contact OutSystems Support through the [usual means](https://success.outsystems.com/Support/Enterprise_Customers/OutSystems_Support/01_Contact_OutSystems_technical_support).
-

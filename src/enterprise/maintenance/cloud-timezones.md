@@ -29,4 +29,3 @@ Applications that need to deal with time zone differences from UTC need to consi
 Techniques for achieving the result can be found in components such as the (unsupported) [Timezone forge component](http://www.outsystems.com/forge/component/500/time-zone/).
 
 Other techniques may be used to obtain the same effect.
-

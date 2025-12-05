@@ -57,6 +57,6 @@ If you choose to accept the risk, do the following:
 
 1. **Temporarily** [enable automatic upgrade and recompilation of extensions](extension-recompilation.md#enable-disable) in your environment. This operation must be performed by a Service Center administrator.
 
-2. Repeat the publishing operation.
+1. Repeat the publishing operation.
 
-3. [Disable the option](extension-recompilation.md#enable-disable). This operation must be performed by a Service Center administrator.
+1. [Disable the option](extension-recompilation.md#enable-disable). This operation must be performed by a Service Center administrator.

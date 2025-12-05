@@ -43,13 +43,13 @@ To transfer applications from a Personal or Trial environment to an enterprise e
 
     ![Screenshot showing the option to 'Include dependencies as components' checked in the 'Associate Components with Solution' section.](images/moveapp-include-dep-sc.png "Include Dependencies Option")
 
-1.  Click **Save** 
+1. Click **Save**
 
     You are brought back to the **Solution** screen.
 
 1. Click **Download** on the **Current Running Version** of the solution. This will compile a file with the .osp extension that you will be able to Download.
 
-1. To remove IP protections, upload this file to [Intellectual Property Protection](https://www.outsystems.com/IPP). 
+1. To remove IP protections, upload this file to [Intellectual Property Protection](https://www.outsystems.com/IPP).
 
     ![Screenshot of the Intellectual Property Protection (IPP) Rights Validation page with fields for Email, Destination Activation Code, and file upload.](images/moveapp-ipp.png "Intellectual Property Protection Rights Validation")
 
@@ -57,9 +57,9 @@ To transfer applications from a Personal or Trial environment to an enterprise e
 
 1. Once you have this file, in the Enterprise Environment, go to the development environment instance of Service Center and go to **Factory** > **Solutions**.
 
-1.  Click **Upload and Publish a Solution**. 
+1. Click **Upload and Publish a Solution**.
 
-1.  Choose the file and upload it. 
+1. Choose the file and upload it.
 
     This uploads and publishes all of the components of the solution into the new environment.
 
@@ -67,8 +67,8 @@ To transfer applications from a Personal or Trial environment to an enterprise e
 
 **FAQs**
 
-*Can I transfer more apps from my Personal Edition in the future?*
+_Can I transfer more apps from my Personal Edition in the future?_
 
-Following the terms of use for the Personal Edition, you can share your apps with the Community through the Forge. If you don't intend to share your apps with the Community, develop them in your paid Enterprise Edition. 
+Following the terms of use for the Personal Edition, you can share your apps with the Community through the Forge. If you don't intend to share your apps with the Community, develop them in your paid Enterprise Edition.
 
 **Note**: OutSystems reserves the right of preventing transfer requests that are not meant to be part of the one-time migration process from a Personal Environment to a paid subscription.

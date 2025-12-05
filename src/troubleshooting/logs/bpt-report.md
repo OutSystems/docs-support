@@ -18,7 +18,7 @@ coverage-type:
 
 # BPT troubleshooting report
 
-*You must install BPT Utils component in your LifeTime environment (you need “Full Control” permissions in the environment).*
+_You must install BPT Utils component in your LifeTime environment (you need “Full Control” permissions in the environment)._
 
 To get the BPTUtils troubleshooting report, follow these steps:
 
@@ -27,5 +27,3 @@ To get the BPTUtils troubleshooting report, follow these steps:
 1. Click **Download Troubleshooting Report** to save the file.
 
     ![Screenshot of BPT Utils application showing the 'Troubleshooting Processes' page with the 'Download Troubleshooting Report' button highlighted.](images/get-logs-12.png "BPT Utils Troubleshooting Processes Screen")
-
-

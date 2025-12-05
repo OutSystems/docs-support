@@ -21,6 +21,7 @@ coverage-type:
 You need [Manage Infrastructure and Users](https://www.outsystems.com/tk/redirect?g=5a167254-3be6-44df-93ef-0d801e27efbb) permission to get these reports. If you don’t have this permission, contact your infrastructure manager.
 
 ## LifeTime Report { #lifetime-report }
+
 To get the Lifetime report, follow these steps:
 
 ### Get LifeTime report in OutSystems 11
@@ -48,6 +49,7 @@ If you are getting this report by request of OutSystems Support, fetch the file 
 If you are getting this report by request of OutSystems Support, fetch the file you saved from the local download folder and **attach it to your support case**.
 
 ## Staging Report
+
 To get the staging report, follow these steps:
 
 ### Get the staging report in OutSystems 11
@@ -84,6 +86,7 @@ If you are getting this report by request of OutSystems Support, fetch the file 
 If you are getting this report by request of OutSystems Support, fetch the file you saved from the local download folder and **attach it to your support case**.
 
 ## User Permissions Report
+
 To get the user permissions report, follow these steps.
 
 ### Get the user permissions report in OutSystems 11

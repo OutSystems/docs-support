@@ -74,11 +74,11 @@ Set the correct permissions to create the configuration folder.
 1. In the Sharing & Permissions section, select the line that corresponds to your username and change the **Privilege** value to **Read & Write**.
 
     ![Privilege dropdown menu showing 'Read & Write' selected for custom access.](images/privilage-mac.png "MacOS Folder Privilege Settings")
-    
+
     If your username isn’t listed in the Name column:
 
     a. Click the lock icon and enter your password.
-    
+
     b. Click the **Add+** button to add a new user.
 
     ![Dialog box for adding a new user to the Sharing & Permissions section in MacOS.](images/newuser-mac.png "MacOS Add New User Dialog")
@@ -115,7 +115,7 @@ For more information, see [Apple’s official guide to change permissions for fi
 
 1. Right click the **OutSystems** folder and select **Properties**.
 
-1. Select the **Security** tab. 
+1. Select the **Security** tab.
 
 1. Ensure that the **Users** group has the **Read & execute**, **List folder contents**, and **Read** permissions.
 

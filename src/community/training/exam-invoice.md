@@ -17,7 +17,7 @@ OutSystems exams are delivered and monitored by a third-party service provider, 
 1. Click on the **Expand View** option where it says **full Confirmation/Receipt/Summary**;
 1. Click on the **Receipt** button to receive by email.
 
-Prometric is an United States vendor and therefore, has no tax or legal demands for invoicing. 
+Prometric is an United States vendor and therefore, has no tax or legal demands for invoicing.
 
 **As the OutSystems exams are purchased via Prometric, an invoice is not issued. What candidates have access to the purchase of an exam, is a receipt of payment, which contains the following information:**
 
@@ -33,4 +33,3 @@ The receipts are issued by the service provider, therefore candidates have a doc
 "Tax identification numbers of the supplier of goods or service provider and the acquirer or recipient, whenever they're entities with residence or permanent establishment in the national territory."
 
 In Portugal, the receipt provided by Prometric can, and should, be accepted because in Portuguese fiscal law requirements are for national entities only (residence or permanent establishment).
-

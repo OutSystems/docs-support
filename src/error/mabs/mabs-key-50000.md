@@ -30,6 +30,7 @@ This error occurs when MABS fails to create the signing assets in the build proc
 Users can't generate the application package.
 
 ## Recommended action
+
 Validate the correctness of your signing assets and try to repeat the operation and check the build logs on Service Center.
 
 Find more information about the signing assets needed for iOS [here](https://success.outsystems.com/Documentation/11/Delivering_Mobile_Apps/Generate_and_Distribute_Your_Mobile_App/More_Information_on_Generating_and_Distributing_Mobile_Apps#for-ios) and for Android [here](https://success.outsystems.com/Documentation/11/Delivering_Mobile_Apps/Generate_and_Distribute_Your_Mobile_App/More_Information_on_Generating_and_Distributing_Mobile_Apps#for-android).

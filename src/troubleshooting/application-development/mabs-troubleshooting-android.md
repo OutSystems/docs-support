@@ -117,10 +117,12 @@ When requesting a build with MABS 4 or older, you're getting an error similar to
 This error occurs when building an app with MABS 4 or prior that's using at least one plugin that references an Android support library version 28.
 
 The log file should contain something similar to this error, where support libraries try to use resources that can't be found because they only exist in Android target SDK 28 or newer:
+
 ```
 platforms/android/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml:90: error: resource android:attr/fontVariationSettings not found.
 platforms/android/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml:90: error: resource android:attr/ttcIndex not found.
 ```
+
 #### Resolution
 
 There are two things you can try:
@@ -146,6 +148,7 @@ When requesting a build, you're getting the following error:
 This error occurs when building an app with a plugin that uses an AndroidX support library or a dependency that uses one. AndroidX is currently not compatible with MABS. There is a conflict caused by using AndroidX support libraries together with older Android support libraries. A common example of the dependency issue is Google Mobile Services (GMS) dependencies.
 
 The log file should contain something similar to:
+
 ```
 * What went wrong:
 Execution failed for task ':app:processReleaseManifest'.
@@ -153,6 +156,7 @@ Execution failed for task ':app:processReleaseManifest'.
     is also present at [androidx.core:core:1.0.0] AndroidManifest.xml:22:18-86 value=(androidx.core.app.CoreComponentFactory).
     Suggestion: add 'tools:replace="android:appComponentFactory"' to <application> element at AndroidManifest.xml:5:5-20:19 to override.
 ```
+
 #### Resolution
 
 Check your plugins code and look for gradle dependencies that may use AndroidX. Dependencies related to Google that don't have their versions locked (so the latest version is always used) are the most likely culprits.
@@ -184,16 +188,19 @@ This error occurs when building an app that uses Google Services but the app's c
 Regarding the supported plugins, PushWoosh requires you to provide a ZIP file with the configuration JSON file for Android. Check the plugin documentation for more information.
 
 The log file should contain something similar to this, where the google-services.json file wasn't found in the correct directory:
+
 ```
 Execution failed for task ':app:processDebugGoogleServices'.
 > File google-services.json is missing. The Google Services Plugin cannot function without it.
 ```
+
 Or, when the google-services.json file was found in the correct directory but isn't correctly filled (package name in the JSON file doesn't match the package name of the application):
 
 ```
 Execution failed for task ':app:processDebugGoogleServices'.
 > No matching client found for package name 'com.some.some'
 ```
+
 #### Resolution
 
 There are two things you can try:
@@ -287,11 +294,13 @@ When requesting a build, you're getting the following error:
 This error occurs when building an app that uses multiple dependencies of Google Play Services whose versions conflict with each other.
 
 The log file should contain something similar to this example, where the application tries to use at least two Google Play services library dependencies whose versions aren't compatible with each other:
+
 ```
 Failed to capture fingerprint of input files for task ':app:preDebugBuild' property 'compileManifests' during up-to-date check.
 > In project 'app' a resolved Google Play services library dependency depends on another at an exact version (e.g. "[11.0.
   0]", but isn't being resolved to that version. Behavior exhibited by the library will be unknown.
 ```
+
 #### Resolution
 
 You can try to:
@@ -317,6 +326,7 @@ This error occurs when building an app that uses a library that requires a minim
 This can be caused by having overridden this value in the Extensibility Configurations of your application.
 
 The log file should contain something similar to this, when the application has a minimum SDK of 16 but uses a library some-lib that has a minimum SDK of 21:
+
 ```
 * What went wrong:
 > Manifest merger failed : uses-sdk:minSdkVersion 16 cannot be smaller than version 21 declared in library [:some-lib:] .gradle/caches/transforms-1/files-1.1/some-debug.aar/0123456790abcdef0123456789abcdef/AndroidManifest.xml as the library might be using APIs not available in 16
@@ -324,6 +334,7 @@ The log file should contain something similar to this, when the application has 
    or increase this project's minSdk version to at least 21,
    or use tools:overrideLibrary="com.some.api.some" to force usage (may lead to runtime failures)
 ```
+
 #### Resolution
 
 You can try to:
@@ -333,4 +344,3 @@ You can try to:
 If the issue remains:
 
 * Try using a different version of the plugin that uses the problematic library
-

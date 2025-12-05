@@ -29,8 +29,13 @@
     - topics:
         - href: release-articles/mabs/mabs-versioning-and-lifecycle.md
         - href: release-articles/mabs/mabs-beta-support.md
+        - href: release-articles/mabs/mabs-12.md
+        - topics:
+            - href: release-notes/mabs/12/12.0/12.0.md        
         - href: release-articles/mabs/mabs-11.md
         - topics:
+            - href: release-notes/mabs/11/11.2/11.2.md
+            - href: release-notes/mabs/11/11.1/11.1.md
             - href: release-notes/mabs/11/11.0/11.0.md
         - href: release-articles/mabs/mabs-10.md
         - topics:
@@ -182,6 +187,8 @@
         - href: troubleshooting/infrastructure-management/slower-queries.md
         - href: troubleshooting/infrastructure-management/deploy-all-workaround-11180.md
         - href: troubleshooting/infrastructure-management/change-db-endpoints.md
+        - href: troubleshooting/infrastructure-management/sql-server-22-upgrade-cloud.md
+        - href: troubleshooting/infrastructure-management/win-server-22-upgrade-cloud.md
 
     # Incident Models
     - href: troubleshooting/incident-models/im.md
@@ -218,7 +225,12 @@
             - href: troubleshooting/incident-models/o11/im-3247.md
             - href: troubleshooting/incident-models/o11/im-3320.md
             - href: troubleshooting/incident-models/o11/im-3350.md
+            - href: troubleshooting/incident-models/o11/im-3506.md
             - href: troubleshooting/incident-models/o11/im-3508.md
+            - href: troubleshooting/incident-models/o11/im-3575.md
+            - href: troubleshooting/incident-models/o11/im-3557.md
+            - href: troubleshooting/incident-models/o11/im-2411.md
+            - href: troubleshooting/incident-models/o11/im-3789.md
             # End O11 IMs
         - href: troubleshooting/incident-models/odc/im-odc.md
         - topics:
@@ -251,6 +263,16 @@
             - href: troubleshooting/incident-models/odc/im-3426.md
             - href: troubleshooting/incident-models/odc/im-3416.md            
             - href: troubleshooting/incident-models/odc/im-3458.md
+            - href: troubleshooting/incident-models/odc/im-3528.md
+            - href: troubleshooting/incident-models/odc/im-3519.md
+            - href: troubleshooting/incident-models/odc/im-3595.md
+            - href: troubleshooting/incident-models/odc/im-3648.md
+            - href: troubleshooting/incident-models/odc/im-3726.md
+            - href: troubleshooting/incident-models/odc/im-3727.md
+            - href: troubleshooting/incident-models/odc/im-3792.md
+            - href: troubleshooting/incident-models/odc/im-3668.md
+            - href: troubleshooting/incident-models/odc/im-3813.md
+            
             # End ODC IMs
     # End Incident Models
 
@@ -271,13 +293,6 @@
     - href: security/cloud-certificate-change/cloud-certificate-change.md
     - href: security/penetration-tests.md
     - href: security/rest-headers-hardening.md
-
-    # HIPAA compliance
-    - href: security/HIPAA/intro.md
-    - topics:
-        - href: security/HIPAA/hipaa-tech-safeguards.md
-
-    - href: security/pci-compliance.md
 
     # Vulnerabilities
     - href: security/vulnerabilities/intro.md
@@ -516,6 +531,7 @@
         - href: error/dp/dp-stream-40401.md
         - href: error/dp/dp-stream-40301.md
         - href: error/dp/dp-stream-40101.md
+        - href: error/dp/dp-stream-30101.md
         - href: error/dp/dp-stream-00001.md
         - href: error/dp/dp-stream-00002.md
         - href: error/dp/dp-stream-00003.md
@@ -596,7 +612,7 @@
     - href: community/merge-accounts.md
     - href: community/community-badges.md
     - href: community/customer-portal.md
-    - href: community/odc-free-faq.md                  
+    - href: community/personal-edition-faq.md                  
     # Training
     - href: community/training/training-intro.md
     - topics:
@@ -615,6 +631,7 @@
 - href: licensing/intro.md
 - topics:
     - href: licensing/how-licensing-works.md
+    - href: licensing/agent-execution.md
     - href: licensing/app-object-count.md
     - href: licensing/end-users.md
     - href: licensing/check-license-includes.md
@@ -730,4 +747,5 @@
         - topics:
             - href: forge/forge-faqs/remove-project.md
         - href: forge/forge-faqs/trusted-requirements.md
-        
+
+    

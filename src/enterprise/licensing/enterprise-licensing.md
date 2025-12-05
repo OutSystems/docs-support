@@ -16,4 +16,3 @@ coverage-type:
 ---
 
 # Licensing
- 

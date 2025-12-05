@@ -66,7 +66,6 @@ Because the iOS applications from MABS 6 load with `outsystems://`, and not `htt
 
 ![Screenshot of the RedirectToURL event properties in an OutSystems application showing the URL set to 'outsystems://myapp.example.com'.](images/event-redirecttourl-prop.png "RedirectToURL Event Properties")
 
-
 You can try these workarounds with RedirectToUrl:
 
 * In MABS 6: for iOS use the custom scheme `outsystems://`, for Android use `https://`.

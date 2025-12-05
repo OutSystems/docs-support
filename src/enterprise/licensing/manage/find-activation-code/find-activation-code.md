@@ -28,4 +28,3 @@ On the right side, you'll find:
 * The Serial Number of the environment, each environment has it's own distinct serial number,
 
 ![Screenshot of the Service Center Licensing page showing the location of the Activation Code and Serial Number.](images/find-activation-code.png "Service Center Licensing Screen")
-

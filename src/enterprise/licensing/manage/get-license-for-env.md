@@ -42,8 +42,8 @@ Only [authorized members](../../../community/customer-portal.md) will be able to
 Once in Customer Portal, you'll need to:
 
 1. Register the serial number of the environment.
-1. Get the license file. 
-1. Install it in your environment. 
+1. Get the license file.
+1. Install it in your environment.
 
 Check the following sections for instructions.
 

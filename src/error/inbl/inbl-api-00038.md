@@ -39,5 +39,6 @@ The Dataverse, Dynamics, or SharePoint connector fails to get data from the exte
 
 * If you are an Microsoft Entra administrator, in Integration Manager, create a new connection automatically. This should ensure its configuration is correct.
 * If you created the connection manually:
-	1. Ensure the Microsoft Entra App Registration's Application, Object and Tenant IDs, match the values of the connection in Integration Manager.
-	1. Ensure that the certificate uploaded to the App Registration is the public part of the certificate uploaded to Integration Manager.
+
+  1. Ensure the Microsoft Entra App Registration's Application, Object and Tenant IDs, match the values of the connection in Integration Manager.
+  1. Ensure that the certificate uploaded to the App Registration is the public part of the certificate uploaded to Integration Manager.

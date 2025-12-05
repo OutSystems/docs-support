@@ -44,12 +44,11 @@ The community account allows users to maintain and update personal account infor
 * [Close your OutSystems community account](close-community-account.md): Manage the deactivation process for accounts that are no longer in use.  
 * [Merge two profiles](merge-accounts.md): Consolidate multiple accounts to streamline access and maintain consistency across interactions.  
 
-
 The OutSystems community extends beyond technical resources, offering opportunities to connect and grow professionally:  
 
-+ **Global collaboration:** Engage with peers and experts from around the world to exchange insights and solutions.  
+* **Global collaboration:** Engage with peers and experts from around the world to exchange insights and solutions.  
+
 * **Access to powerful resources:** Utilize forums, training modules, and the OutSystems Forge to accelerate project development.  
 * **Integrated security workflows:** Use your community account to manage sensitive data securely within the OutSystems ecosystem.  
-
 
 An OutSystems community account is a key resource for maximizing the potential of the platform. It provides a centralized way to manage support, maintain profile information, and access company resources. By leveraging the tools and connections available, users can enhance their productivity and foster professional growth.

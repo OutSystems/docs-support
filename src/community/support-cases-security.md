@@ -28,7 +28,7 @@ This policy will only affect you if you are missing key contacts, or they aren't
 
 * **As the new user**, please refer to your administrators to approve your requests.
 
-## How can administrators ensure that member's cases' don't get suspended? 
+## How can administrators ensure that member's cases' don't get suspended?
 
 Review your [company permissions](https://www.outsystems.com/cs-home/) and members:
 

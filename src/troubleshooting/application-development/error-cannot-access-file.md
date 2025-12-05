@@ -39,7 +39,7 @@ The presented causes and their respective solutions apply to self-managed OutSys
 
 ### Antivirus software
 
-This is the most common cause for this error. 
+This is the most common cause for this error.
 
 #### Problem
 
@@ -49,11 +49,10 @@ Antivirus software may perform regular scans on the Platform Server's files and 
 
 OutSystems recommends to [exclude some folders from antivirus scanning](https://success.outsystems.com/Documentation/Best_Practices/Performance/Performance_Best_Practices_-_Infrastructure#Exclude_some_folders_from_antivirus_scanning). Make sure that those folders are on the exclusions list. If they aren't, add them and retry the publication.
 
-
 ### Other processes
 
-Various other processes from third party software may also lock OutSystem files while the Platform Server is trying to access them. 
+Various other processes from third party software may also lock OutSystem files while the Platform Server is trying to access them.
 
-You can identify the specific process with tools like [Process Explorer](https://docs.microsoft.com/en-gb/sysinternals/downloads/process-explorer) or [Process Monitor](https://docs.microsoft.com/en-gb/sysinternals/downloads/procmon). 
+You can identify the specific process with tools like [Process Explorer](https://docs.microsoft.com/en-gb/sysinternals/downloads/process-explorer) or [Process Monitor](https://docs.microsoft.com/en-gb/sysinternals/downloads/procmon).
 
 Identifying the process and the program running it allows you to act on it, either by killing the process or reconsidering the use of those programs. While the way to tackle it highly varies with the program at hand, these tools provide the information necessary to make a decision.

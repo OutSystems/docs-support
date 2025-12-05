@@ -30,4 +30,3 @@ There you can check:
 * And other limits and usage statistics.
 
 ![Screenshot of the Environment Management Console showing the Licensing screen with various platform features and their usage limits.](images/check-license-includes_0.png "Environment Management Console Licensing Screen")
-

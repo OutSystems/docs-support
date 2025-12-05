@@ -23,12 +23,9 @@ There's another variant of these logs that shows healing from the web instead of
 
 ## What is the impact of this error on the mobile application?
 
-The app is in an invalid state and may only recover with an app store update and not an OTA. 
+The app is in an invalid state and may only recover with an app store update and not an OTA.
 
 ## How to overcome this issue?
 
-* Try to reload the App. 
+* Try to reload the App.
 * If the issue remains, reinstall the App from the app store.
-
-
-

@@ -20,7 +20,7 @@ You can format text, here are some examples:
 
 **this is bold text**: use it for options that show in the interface. You can also use it fo emphasis, but don't overuse it.
 
-`this is code text`: use it to point values that users need to fill in. It's more suitable in the context of development. 
+`this is code text`: use it to point values that users need to fill in. It's more suitable in the context of development.
 
 Underlined text? Nope, don't use it. Browsers use underline for links.
 

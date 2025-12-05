@@ -43,4 +43,3 @@ Go to [http://www.outsystems.com/home/](http://www.outsystems.com/home/) and log
 OutSystems sends you an email letting you know that your personal environment will be recycled.
 
 If you need your personal environment running 24/7, check your emails regularly. A couple of visits per week to your apps is enough to keep the environment active.
-

@@ -39,6 +39,4 @@ The name in the list of Front-End Servers must match the name configured as Depl
 
 * Change the name of the Front-end Server to match the Deployment Controller Hostname,
 
-
 See the [Configuration Tool documentation](https://success.outsystems.com/Documentation/11/Reference/Configuration_Tool) for more information on its menus and options.
-

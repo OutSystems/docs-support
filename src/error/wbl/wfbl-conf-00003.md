@@ -23,7 +23,7 @@ The &lt;Name&gt; and &lt;Id&gt; includes information about the cause of the erro
 
 ## Impact
 
-Workflow Builder can't save the application field because you can't change the data type. 
+Workflow Builder can't save the application field because you can't change the data type.
 
 ## Recommended action
 

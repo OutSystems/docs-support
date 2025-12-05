@@ -23,7 +23,7 @@ coverage-type:
 
 This article describes how to remove OutSystems infrastructure management console (LifeTime) from an environment where you don’t need it anymore. This operation applies only to **on-premises installations**.
 
-Removing LifeTime from an environment implies **deleting LifeTime's applications** in the environment. This operation does not delete any table or data from the database. 
+Removing LifeTime from an environment implies **deleting LifeTime's applications** in the environment. This operation does not delete any table or data from the database.
 
 ## Prerequisites
 
@@ -47,9 +47,9 @@ To remove LifeTime from an environment you need to:
 
 1. Login as Administrator in the LifeTime of that environment, `http://<lifetime-to-remove>/lifetime`.
 
-2. Go to the **INFRASTRUCTURE** tab and choose **Manage Environments**.
+1. Go to the **INFRASTRUCTURE** tab and choose **Manage Environments**.
 
-3. For all registered environments, choose **Edit** and select **Unregister environment**.
+1. For all registered environments, choose **Edit** and select **Unregister environment**.
 
 After unregistering all environments, you will see the following screen:
 
@@ -59,23 +59,19 @@ After unregistering all environments, you will see the following screen:
 
 1. Having no environments registered in LifeTime, go to the Service Center console of the environment from where you want to remove LifeTime and log in as Administrator, `http://<lifetime-to-remove>/ServiceCenter`.
 
-2. Go to the **Factory** section and choose **LifeTimePerformanceMonitor** application from the Applications list.
+1. Go to the **Factory** section and choose **LifeTimePerformanceMonitor** application from the Applications list.
 
-3. Delete **LifeTimePerformanceMonitor** application.
+1. Delete **LifeTimePerformanceMonitor** application.
 
 ![Screenshot of the Service Center console highlighting the 'Delete' button for the LifeTimePerformanceMonitor application.](images/remove-infra-mgmt-console_1.png "Delete LifeTimePerformanceMonitor Application")
- 
 
-4. From the Applications list, choose **LifeTime** application. Delete **LifeTime** application.
+1. From the Applications list, choose **LifeTime** application. Delete **LifeTime** application.
 
 ![Screenshot of the Service Center console highlighting the 'Delete' button for the LifeTime application.](images/remove-infra-mgmt-console_2.png "Delete LifeTime Application")
- 
 
-5. From the Applications list, choose **LifeTimeSDK** application. Delete **LifeTimeSDK** application.
+1. From the Applications list, choose **LifeTimeSDK** application. Delete **LifeTimeSDK** application.
 
 ![Screenshot of the Service Center console highlighting the 'Delete' button for the LifeTimeSDK application.](images/remove-infra-mgmt-console_3.png "Delete LifeTimeSDK Application")
-
- 
 
 After you delete these three applications, LifeTime is no longer installed in your environment. Please note that you must delete the applications by the order indicated in the procedure above.
 
@@ -84,4 +80,3 @@ Deleting LifeTime’s applications in Service Center does not delete any table o
 ## Disable LifeTime's Applications
 
 If the environment version is lower than **Platform Server 10.0.804.0**, you will not be able to delete LifeTime's applications from the environment. Alternatively, you can disable LifeTime's applications by following [Remove LifeTime from an Environment](https://success.outsystems.com/Support/Enterprise_Customers/Maintenance_and_Operations/Remove_the_infrastructure_management_console_from_an_environment#Remove_LifeTime_from_an_Environment) procedure and choosing to **Disable** LifeTime's applications instead of deleting them.
-

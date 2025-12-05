@@ -1,0 +1,16 @@
+---
+isautopublish: true
+pageprivacy: public
+---
+
+<h2 id="outsystems_developer_cloud_2025-10-29" >OutSystems Developer Cloud 2025-10-29</h2>
+<div class="info"><p>Released on Oct 29, 2025</p></div>
+
+
+<style>.cattag {background: #f4f2ff; color: #6a6581; padding: 4px 10px;}</style>
+<h3 id="bug_fixing_outsystems_developer_cloud_2025-10-29" >Bug Fixing</h3>
+<ul>
+<li>Fixed a vulnerability where an API Client could still obtain new authentication tokens with an expired secret, allowing unauthorized access to services. The token issuance logic has been updated to correctly verify secret expiration, ensuring clients with expired secrets can no longer receive new tokens. (RDPIB-2904)</li>
+<li>Fixed an issue on the User Management screen where applying the Active filter could incorrectly display users with a Pending Registration status. The filter now accurately returns only users matching the selected status. (RDPIB-2966)</li>
+</ul>
+

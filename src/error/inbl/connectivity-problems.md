@@ -21,7 +21,6 @@ coverage-type:
 
 # Integration - Workflow Builder cannot connect to your environment
 
-
 ## Error message
 
 `We were unable to reach your environment and we couldn't sign you into <Integration/Workflow> Builder. Check here for the solutions.`
@@ -30,13 +29,12 @@ coverage-type:
 
 * There is an error in the environment name
 * Integration Builder cannot connect to the environments where you deploy integrations
-* Workflow Builder cannot connect to the environment where you want it to publish apps 
-
+* Workflow Builder cannot connect to the environment where you want it to publish apps
 
 ## Recommended action
 
 Verify with your IT department that your Integration/Workflow Builder has access to the correct source and destination on your network.
 
 ## More info
-* [OutSystems network requirements](https://success.outsystems.com/Documentation/11/Setting_Up_OutSystems/OutSystems_network_requirements)
 
+* [OutSystems network requirements](https://success.outsystems.com/Documentation/11/Setting_Up_OutSystems/OutSystems_network_requirements)

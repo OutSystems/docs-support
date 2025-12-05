@@ -1,0 +1,24 @@
+---
+isautopublish: true
+pageprivacy: public
+---
+
+<h2 id="lifetime_management_console_11.27.0" >LifeTime Management Console 11.27.0</h2>
+<div class="info"><p>Released on Jun 18, 2025</p></div>
+
+
+<style>.cattag {background: #f4f2ff; color: #6a6581; padding: 4px 10px;}</style>
+<h3 id="new_in_lifetime_management_console_11.27.0" >New in LifeTime Management Console 11.27.0</h3>
+<ul>
+<li>By using the new feature Deployment Protection Policy, it is now possible to block an app from being deployed to specific environments. This prevents accidental deployments to incorrect environments.  It is also possible to use LifeTime APIs to block and unblock an app from deploying to specific environments. An infrastructure-level setting can be used to define if new apps are blocked by default. (R11CT-3955)</li>
+<li>Stagings can now be relabeled. (R11CT-4070)</li>
+</ul>
+<h3 id="bug_fixing_lifetime_management_console_11.27.0" >Bug Fixing</h3>
+<ul>
+<li>Fixed an issue where the 'Staging Settings' screen was being skipped when deploying an application containing 'Entities from External Databases' for the first time to the target environment. This skip was leading to errors in the deployment of such applications. (RPM-5761) <span class="cattag">Application Lifecycle</span>  <span class="cattag">LifeTime</span> </li>
+</ul>
+
+<h3>Known issues</h3>
+<ul>
+<li>On the Deployment Plans list screen, when a plan is saved but not yet started, clicking the plan label incorrectly redirects to the Staging_Progress screen. As a workaround, manually change the screen URL by replacing 'Staging_Progress' with 'Staging_Edit', then proceed with the plan as usual. This issue was fixed in LifeTime 11.27.1.</li>
+</ul>

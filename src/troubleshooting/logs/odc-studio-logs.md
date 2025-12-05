@@ -18,7 +18,7 @@ coverage-type:
 
 # ODC Studio logs
 
-## Unexpcted errors
+## Unexpected errors
 
 When an unexpected error occurs in ODC Studio, you'll get an **Unexpected Error** window. In this window, you can obtain the error report to send to OutSystems Support.
 
@@ -29,7 +29,7 @@ To get the ODC Studio report after an unexpected error, follow these steps:
    ![Screenshot of the expanded Unexpected Error window in ODC Studio with the option to help fix the issue.](images/report-issue-ss.png "Expanded UnexpectedError Window")
 
 1. Click **See diagnostics report** to open the report in a text editor.
-   
+
    ![Screenshot of a diagnostics report opened in a text editor.](images/text-editor.png "Diagnostics Report in Text Editor")
 
 1. Save the report as a text file. If you need help from OutSystems support but don't have an open support case yet, you can create one in ODC Portal or Support Portal.
@@ -44,8 +44,10 @@ To troubleshoot an ODC Studio behavior that doesn't generate errors, collect the
 
 1. Click the **Give Us Feedback!** icon next to the question mark icon from the top menu bar.
 
+   ![Screenshot of the give us feedback icon.](images/horn-icon.png "Give us feedback icon")
+
 1. From the **Report issue or send feedback** window that opens click **See diagnostics report**.
 
-   ![Screenshot of a diagnostics report opened in a text editor.](images/see-diagnostic-report.png "Diagnostics Report window in Text Editor, arrow on the horn icon")
+   ![Screenshot of a diagnostics report opened in a text editor.](images/diagnostic-report.png "Diagnostics Report window in Text Editor, highlight on - see diagnostics report link")
 
 1. Save the report as a text file. If you need help from OutSystems support but don't have an open support case yet, you can create one in ODC Portal or Support Portal.

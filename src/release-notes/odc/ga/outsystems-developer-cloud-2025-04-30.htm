@@ -1,0 +1,22 @@
+---
+isautopublish: true
+pageprivacy: public
+---
+
+<h2 id="outsystems_developer_cloud_2025-04-30" >OutSystems Developer Cloud 2025-04-30</h2>
+<div class="info"><p>Released on Apr 30, 2025</p></div>
+
+
+<style>.cattag {background: #f4f2ff; color: #6a6581; padding: 4px 10px;}</style>
+<h3 id="new_in_outsystems_developer_cloud_2025-04-30" > New</h3>
+<ul>
+<li>Monthly Security Update (April 2025): Updated application container base image, including security fixes. Check Microsoft .NET 8.0.15/8.0.15 release for more details: https://github.com/dotnet/core/blob/main/release-notes/8.0/8.0.15/8.0.15.md (RRCT-6372)</li>
+</ul>
+<h3 id="bug_fixing_outsystems_developer_cloud_2025-04-30" >Bug Fixing</h3>
+<ul>
+<li>Using a Data Action output variable in its own On After Fetch event handler no longer causes an error. (RAR-3319)</li>
+<li>Using a block id in an input parameter of an On After Fetch handler no longer causes an error. (RAR-3336)</li>
+<li>Fixed an issue that caused the builtin and external login processes to become stuck when the end-user's system clock was ahead of the real time by at least 5 minutes and no more than 12 hours. Now, the login process will fail and an error will be logged informing that the user's system clock might be wrong. (RPM-5787)</li>
+<li>Fix sanitization of formulae when generating Excel files using the RecordListToExcel tool. Now, the single quotation mark is no longer part of the value. Instead, the cell is marked to be quoted internally which hides the visible quotation mark from being displayed. (RRCT-6335)</li>
+</ul>
+

@@ -20,7 +20,7 @@ coverage-type:
 
 # Resolve an intellectual property error
 
-During development you may receive an "Invalid Intellectual Property" (IPP) error message. 
+During development you may receive an "Invalid Intellectual Property" (IPP) error message.
 These error messages can occur if you are publishing a module for the first time in your environment or this module was protected at some point. Errors occur during development when publishing your module in Service Studio, in Service Center, or deploying through LifeTime.
 
 ![Screenshot of an 'Invalid Intellectual Property' error message in OutSystems Service Studio.](images/ipp-error-publish_SS.png "Service Studio IPP Error Message")
@@ -67,7 +67,7 @@ To confirm you have any modules that will have the IPP error when published, fol
 1. Publish the ActivationCodeCheck app in your environment.
 1. Open the ActivationCodeCheck app in your browser and login with your IT user credentials.
 
-    If both checks are green, the modules present in your environment won't return an IPP error when re-published. In this case, no further action is necessary. 
+    If both checks are green, the modules present in your environment won't return an IPP error when re-published. In this case, no further action is necessary.
 
     ![Screenshot showing a successful check with green checkmarks indicating no IPP errors in OutSystems environment.](images/ipp-error-check-ok.png "Activation Code Check - All Clear")
 
@@ -99,11 +99,10 @@ To fix the errors, follow these steps:
 
 ## Resolve the error for a single application
 
-
 The [IPP portal](http://www.outsystems.com/ipp/) allows you to transfer the intellectual property of modules. Once the intellectual property is transferred to your Activation Code, the IPP error no longer occurs.
 
 To transfer the intellectual property, follow these steps:
 
 1. Upload the application in the [IPP portal](http://www.outsystems.com/ipp/) to change the activation code.
 
-1. When you receive the email, publish the app received in the email in the environment. 
+1. When you receive the email, publish the app received in the email in the environment.

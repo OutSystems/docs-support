@@ -20,7 +20,7 @@ If you have colleagues that you feel should always be involved in your company's
 
 </div>
 
-## How to include case followers 
+## How to include case followers
 
 ### When opening a case
 
@@ -31,8 +31,7 @@ In [Support Portal](https://www.outsystems.com/SPP_Ticket_UI/open-support-case),
 After you add a member, the complete list of followers of the case will be visible under **People who will receive notifications via email**.
 
 ![Screenshot displaying the list of followers who will receive notifications for the support case.](images/add-case-followers-1.png "List of Case Followers")
- 
- 
+
 ### On an existing case
 
 1. Navigate to [your open cases](https://www.outsystems.com/SupportPortal/Support/) and open the case you wish to add followers.
@@ -42,5 +41,3 @@ After you add a member, the complete list of followers of the case will be visib
 1. Type the email(s) separated by commas and click add. From then on, the followers will be allowed to contribute to the case.
 
     ![Screenshot showing how to add email addresses to include new followers to an existing support case.](images/add-case-followers-3.png "Adding Followers to Existing Case")
-
-

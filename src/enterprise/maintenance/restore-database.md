@@ -94,6 +94,6 @@ After applying the configurations to all servers:
 
 1. If there is a warning to republish the modules, publish the solution by clicking **Publish** for the Current Running Version. (Note that new versions of the modules are created.)
 
-### Step 3. Decommission the old database server 
+### Step 3. Decommission the old database server
 
 After making sure that everything is working as expected, you can decommission the old database server.

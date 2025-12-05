@@ -31,7 +31,7 @@ If you want to share your component in [OutSystems Forge](https://www.outsystems
 
 ## What's a component?
 
-A component is a reusable object that speeds up application creation and delivery. It can be either an application or a module that provides additional features. It should be easy to use and understand, and it should focus on a common use case. 
+A component is a reusable object that speeds up application creation and delivery. It can be either an application or a module that provides additional features. It should be easy to use and understand, and it should focus on a common use case.
 
 After you create a component, you can apply it in any of these ways:
 
@@ -283,7 +283,7 @@ The second recommendation is to **use the same image from the Application level 
 
 Setting an application icon defines the **main icon of your component**. Users can relate everything that has this icon to the component. The application icon appears  throughout the component and its references. For example, it could even appear in the component's documentation.
 
-For application icons, use *.png* format to allow transparencies and 1024 x 1024 px as the size. Keep in mind the file size as large files slow the screen-loading speed.
+For application icons, use _.png_ format to allow transparencies and 1024 x 1024 px as the size. Keep in mind the file size as large files slow the screen-loading speed.
 
 ![Screenshot of an application icon representing a component in OutSystems.](images/The-Complete-Guide-to-Creating-Components_12.png "Application Icon Example")
 

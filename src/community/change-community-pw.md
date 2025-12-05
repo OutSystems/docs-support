@@ -26,17 +26,15 @@ If you forgot your password, click [Forgot password?](http://www.outsystems.com/
 1. Access the **Settings** area.
 
     ![Screenshot highlighting the 'Settings' option in the OutSystems Community profile.](images/change-community-pw-settings.png "OutSystems Profile Settings")
-    
+
 1. Click **Change password** and fill in the form.
 
 Your password will be synced to your Personal Environment, the next time you login use the new password.
 
 <div class="info" markdown="1">
 
-
 After you reset your password, allow for 3 minutes before trying to sign in again to your Personal Environment. This is necessary for the password from the community profile to sync with your Personal Environment.
 
 After unsuccessful attempts to sign in, your account may be blocked for 1 hour. The lock remains even after you reset your password.
 
 </div>
-    

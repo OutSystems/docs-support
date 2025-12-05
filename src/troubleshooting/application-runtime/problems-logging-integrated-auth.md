@@ -38,7 +38,7 @@ The NEGOTIATE protocol uses a Kerberos ticket for authentication. This requires 
 
 By default, Internet Explorer and Microsoft Edge favor using NEGOTIATE rather than NTLM for Windows Integrated Authentication; which means that an Internet Information Services (IIS) with NEGOTIATE protocol active causes that misbehavior.
 
-Other browsers (Chrome, Safari, Firefox) usually don't have NEGOTIATE active, so they use NTLM by default - which causes authentication to work. 
+Other browsers (Chrome, Safari, Firefox) usually don't have NEGOTIATE active, so they use NTLM by default - which causes authentication to work.
 
 ### Confirm the cause
 
@@ -46,16 +46,15 @@ Disable NEGOTIATE protocol in the client workstation to confirm the issue is the
 
 1. Open the Registry Editor (start - run - regedit.exe)
 
-2. Navigate to `HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Internet Settings\`
+1. Navigate to `HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Internet Settings\`
 
-3. Locate the registry entry EnableNegotiate
+1. Locate the registry entry EnableNegotiate
 
-4. Change the value to 0
+1. Change the value to 0
 
-5. Restart the client workstation.
+1. Restart the client workstation.
 
 After performing the steps above, authentication should start working in Internet Explorer / Microsoft Edge in the client workstation where the change was performed.
-
 
 ## Solution: disable the NEGOTIATE protocol in IIS
 
@@ -63,20 +62,19 @@ The solution for this is to disable the NEGOTIATE protocol in IIS, so that NTLM 
 
 1. Access IIS Manager;
 
-2. Expand `<server>` Sites Default Web Site;
+1. Expand `<server>` Sites Default Web Site;
 
-3. In the IIS group, choose Authentication;
+1. In the IIS group, choose Authentication;
 
-4. Click Windows Authentication. On the side bar, option Providers shows up; if not, first activate Windows Authentication so it does show up;
+1. Click Windows Authentication. On the side bar, option Providers shows up; if not, first activate Windows Authentication so it does show up;
 
-5. Remove NEGOTIATE provider.
+1. Remove NEGOTIATE provider.
 
-6. If you added Windows Authentication on step 4, deactivate it again;
+1. If you added Windows Authentication on step 4, deactivate it again;
 
-7. Do an IISReset
+1. Do an IISReset
 
 After performing the steps above, authentication should start working in Internet Explorer / Microsoft Edge.
-
 
 ## More information
 

@@ -22,7 +22,7 @@ coverage-type:
 
 Patching is the process of repairing system vulnerabilities that are discovered after the infrastructure components have been released on the market. Patching is necessary to keep servers secure from attackers and viruses as well as free from bugs, which can weaken productivity.
 
-We perform regular patching on all OutSystems Cloud infrastructures' servers. 
+We perform regular patching on all OutSystems Cloud infrastructures' servers.
 
 ## When will this maintenance occur?
 
@@ -35,6 +35,3 @@ Related information:
 * [Security Update Severity Rating System](https://www.microsoft.com/en-us/msrc/security-update-severity-rating-system) (Microsoft)
 
 * [Security Update Guide](https://portal.msrc.microsoft.com/en-us/security-guidance) (Microsoft)
-
-
-

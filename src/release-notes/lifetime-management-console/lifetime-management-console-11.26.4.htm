@@ -1,0 +1,24 @@
+---
+isautopublish: true
+pageprivacy: public
+---
+
+<h2 id="lifetime_management_console_11.26.4" >LifeTime Management Console 11.26.4</h2>
+<div class="info"><p>Released on May 21, 2025</p></div>
+
+
+<style>.cattag {background: #f4f2ff; color: #6a6581; padding: 4px 10px;}</style>
+<h3 id="new_in_lifetime_management_console_11.26.4" >New in LifeTime Management Console 11.26.4</h3>
+<ul>
+<li>Now when syncing an app version, LifeTime evaluates if that version is a hotfix based on the versions available in the first environment where the app is published (following LifeTime environments order). Previously, LifeTime would always compare against the app versions available in the first environment of the infrastructure. (RPM-5742) <span class="cattag">Application Lifecycle</span>  <span class="cattag">LifeTime</span> </li>
+</ul>
+<h3 id="bug_fixing_lifetime_management_console_11.26.4" >Bug Fixing</h3>
+<ul>
+<li>Fixed an issue where the 'Prepare Deployment' button would not become enabled after a user clicked the 'Continue with Deploy' link, preventing users from performing a 2-stage deployment. (RPM-5483) <span class="cattag">Application Lifecycle</span>  <span class="cattag">LifeTime</span> </li>
+<li>Removed the low database space warning from the database image used in Enterprise PaaS infrastructures, as the warning text itself was deprecated and removed in LT 11.25.0. (RPM-5490) <span class="cattag">Application Lifecycle</span>  <span class="cattag">LifeTime</span> </li>
+<li>Resolved an edge case that prevented role updates across all environments connected to LifeTime when an inactive environment shared the same identifier as an active one. (RPM-5515) <span class="cattag">Application Lifecycle</span>  <span class="cattag">LifeTime</span> </li>
+<li>Fixed an issue that would cause excessive resource usage while checking for consumer modules when showing log messages in the Staging Progress screen. The issue occurred when there were modules to be deleted in the target environment during the staging. Now, if there are modules to be deleted in the target environment, they will be identified only once, preventing unnecessary resource consumption. (RPM-5617) <span class="cattag">Application Lifecycle</span>  <span class="cattag">LifeTime</span> </li>
+<li>Fixed an issue that didn't allow users to abort a plan using the LifeTimeAPI when the plan had an extension that required configurations for an external DB connection and was waiting for the configuration to be done. Now the plan can be aborted using the LifeTimeAPI matching what can be done in the UI. (RPM-5699) <span class="cattag">Application Lifecycle</span>  <span class="cattag">LifeTime</span> </li>
+<li>Fixed issue that was leading to unnecessary apply settings on registered environments when OIDC is enabled and maintenance mode is disabled. Settings were being propagated to the environment even when they haven't changed. (RPM-5754) <span class="cattag">Application Lifecycle</span>  <span class="cattag">LifeTime</span> </li>
+</ul>
+

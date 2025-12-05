@@ -53,7 +53,6 @@ Each environment has a [dedicated User tenant](https://success.outsystems.com/Do
 
     ![OutSystems Users application showing the 'Change Password' option for the Administrator user.](images/platform-server-hardening-set-password.png "Changing the Administrator Password in OutSystems")
 
-
 ### LifeTime
 
 LifeTime console [manages the IT users](https://success.outsystems.com/Documentation/11/Managing_the_Applications_Lifecycle/Manage_IT_Users/Create_an_IT_User). It's a good practice to perform an initial password change and apply a rotation policy for any administrator users.
@@ -65,7 +64,6 @@ LifeTime console [manages the IT users](https://success.outsystems.com/Documenta
 1. Edit the password:
 
     ![](images/platform-server-hardening-change-pw-LTadmin.png?with=150)
-
 
 #### External authentication provider
 
@@ -101,7 +99,7 @@ Learn how to [secure data at rest with encryption](https://success.outsystems.co
 
 OutSystems allows specific elements of applications (Web UI Flows, exposed SOAP services, and exposed REST APIs) to be available only within an internal network, while other parts of the application are available to the general public. Depending on the type of applications developed, make sure to check the configuration of the [internal network](https://success.outsystems.com/Documentation/11/Managing_the_Applications_Lifecycle/Secure_the_Applications/Configure_an_Internal_Network). It's a good practice to apply restricted internal network rules when developing back office or any other type of internal management application that should only be accessed by a limited range of IP addresses.
 
-## VPN (to OutSystems cloud) 
+## VPN (to OutSystems cloud)
 
 A Virtual Private Network (VPN) allows the extension of a private network across the internet. This enables you to create a private network between your OutSystems cloud infrastructure and your on-premises systems by establishing a secure communication channel between the two. After making sure [all requirements are fulfilled](https://success.outsystems.com/Support/Enterprise_Customers/Maintenance_and_Operations/Set_Up_a_VPN_to_your_OutSystems_Cloud#before-begin), you can [enable the VPN connection](https://success.outsystems.com/Support/Enterprise_Customers/Maintenance_and_Operations/Set_Up_a_VPN_to_your_OutSystems_Cloud).
 
@@ -138,7 +136,6 @@ To implement multi-factor authentication, multiple methods of authentication fro
 
 [Google Authenticator](https://www.outsystems.com/forge/component-overview/967/googleauthenticator) and [Touch ID Plugin](https://www.outsystems.com/forge/component-overview/1431/touch-id-plugin) are Forge components that implement possession and inherence factors. However, please note that Google Authenticator isn't supported by OutSystems.
 
-
 ## Secure the applications
 
 The following sub-sections describe advanced configurations that protect against common attacks. They can also prevent the generation of false positives when performing penetration tests.
@@ -171,7 +168,7 @@ Check the [AppShield documentation](https://success.outsystems.com/Documentation
   This component is useful in cloud infrastructures, where the infrastructure isn't under your control. To understand how to use the component please visit the following [discussion](https://www.outsystems.com/forums/discussion/60471/how-to-setup-the-web-config-file-to-send-http-security-headers-to-your-app/). In fact, the given example provides an template that sets two headers for increased security. A list of headers that can be considered is:
 
 * **X-Frame-Options**: used to indicate whether or not a browser is allowed to render a page in a `<frame>`, `<iframe>`, `<embed>` or `<object>`. Can be used avoid click-jacking attacks. The added security is provided only if the user accessing the application is using a browser that supports this header.
-  * **X-XSS-Protection**: used to stop pages from loading when they detect reflected cross-site scripting. This header is used to provide protection in older browsers that don't support the Content Security Policy.
+* **X-XSS-Protection**: used to stop pages from loading when they detect reflected cross-site scripting. This header is used to provide protection in older browsers that don't support the Content Security Policy.
 
 ## OutSystems CSIRT
 

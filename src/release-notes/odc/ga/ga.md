@@ -5,7 +5,7 @@ app_type: mobile apps, reactive web apps
 platform-version: odc
 ---
 
-<div class="hidden"><h1>OutSystems Developer Cloud</h1></div> 
+<div class="hidden"><h1>OutSystems Developer Cloud</h1></div>
 
 <div class="hidden" id="outsystems-developer-cloud-2023-03-09_start"></div>
 
@@ -23,7 +23,6 @@ platform-version: odc
 
 <h2 id="outsystems_developer_cloud_2023-03-02" >OutSystems Developer Cloud 2023-03-02</h2>
 <div class="info"><p>Released on Mar 02, 2023</p></div>
-
 
 <style>.cattag {background: #f4f2ff; color: #6a6581; padding: 4px 10px;}</style>
 <h3 id="new_in_outsystems_developer_cloud_2023-03-02" > New</h3>
@@ -43,7 +42,6 @@ platform-version: odc
 <h2 id="outsystems_developer_cloud_2023-02-17" >OutSystems Developer Cloud 2023-02-17</h2>
 <div class="info"><p>Released on Feb 17, 2023</p></div>
 
-
 <style>.cattag {background: #f4f2ff; color: #6a6581; padding: 4px 10px;}</style>
 <h3 id="new_in_outsystems_developer_cloud_2023-02-17" > New</h3>
 <ul>
@@ -62,14 +60,12 @@ platform-version: odc
 <h2 id="outsystems_developer_cloud_2023-02-16" >OutSystems Developer Cloud 2023-02-16</h2>
 <div class="info"><p>Released on Feb 16, 2023</p></div>
 
-
 <style>.cattag {background: #f4f2ff; color: #6a6581; padding: 4px 10px;}</style>
 <h3 id="new_in_outsystems_developer_cloud_2023-02-16" > New</h3>
 <ul>
 <li>Apps - New experience when editing configurations on the App detail page. The configuration details are now presented on a new page instead of in a sidebar. (RDLOT-1349)</li>
 <li>ODC Portal Identity Provides have an improved experience to better guide the creation of a new External Provider (OpenId or Social Login) and an improved structured way to see the Redirect URLs highlighting the ones that are assigned. The built-in provider is now branded as OutSystems Developer Cloud built-in. (RDPP-1015)</li>
 </ul>
-
 
 <div class="hidden" id="outsystems-developer-cloud-2023-02-16_end"></div><div class="hidden"><h1>OutSystems Developer Cloud</h1></div>
 <div class="hidden" id="outsystems-developer-cloud-2023-02-04_start"></div>
@@ -122,7 +118,6 @@ platform-version: odc
 <div class="hidden" id="outsystems-developer-cloud-2023-01-20_end"></div><div class="hidden" id="outsystems-developer-cloud-2023-01-13_start"></div>
 <h2 id="outsystems_developer_cloud_2023-01-13" >OutSystems Developer Cloud 2023-01-13</h2>
 <div class="info"><p>Released on Jan 13, 2023</p></div>
-
 
 <style>.cattag {background: #f4f2ff; color: #6a6581; padding: 4px 10px;}</style>
 <h3 id="new_in_outsystems_developer_cloud_2023-01-13" > New</h3>

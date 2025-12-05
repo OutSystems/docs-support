@@ -102,7 +102,7 @@ Detaching the source code of your applications is only available for subscriptio
 
 * **No SEO optimizations:** Personal Environments don't support the use of [SEO optimization for your applications](https://www.outsystems.com/tk/redirect?g=C07BCA11-7DB2-49FD-B01B-97EBFBDCF36F).
 
-* **No Factory Configuration:** This component isn´t supported in Personal environments. Personal environments are offered on shared infrastructure where advanced configurations may affect other users and are therefore not supported. 
+* **No Factory Configuration:** This component isn´t supported in Personal environments. Personal environments are offered on shared infrastructure where advanced configurations may affect other users and are therefore not supported.
 
 ## Can I upgrade my personal environment (or cancel an upgrade on it)?
 

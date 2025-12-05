@@ -10,7 +10,7 @@ figma: https://www.figma.com/file/mP34OzloL9EPqXml1E0tfC/Community?node-id=1394:
 
 OutSystems certification is an important step in a developer’s career. Because it’s also an assurance of proficiency and skill, we're making it easier for managers to access their employees’ certificates and track their career progress.
 
- ## You are a customer manager
+## You are a customer manager
 
 All managers with **infrastructure administrator** and **company administrator** roles ([read about these roles here](https://success.outsystems.com/Support/Enterprise_Customers/OutSystems_Support/Managing_your_company_permissions_on_OutSystems_Customer_Portal)) can download all their team certificates in the Account Settings tab in the Customer Portal. If you’re a manager with one of these roles, do the following:
 
@@ -20,7 +20,7 @@ All managers with **infrastructure administrator** and **company administrator**
 
 ![Screenshot of the List of Certified Members with options to export to Excel or send certificates via email.](images/dowload-os-cert-3.png "Certified Members List and Export Options")
 
-You can also monitor the certification progress of everyone on your team and learn whether your developers passed or failed the exam. [Check out this article](https://success.outsystems.com/Support/Account_and_Members_Management/How_many_certified_professionals_do_I_have_on_my_team%3F).
+From the Customer Portal, you can also monitor the certification progress of everyone on your team and learn whether your developers passed or failed the exam.
 
 <div class="info" markdown="1">
 
@@ -36,6 +36,6 @@ If you don’t see your team in the customer area portal, you might need to invi
 
 ![Screenshot showing the List of Certified Members with export and email options for partners in the OutSystems Partner Center.](images/dowload-os-cert-6.png "Exporting Partner Certifications")
 
-You can also monitor the certification progress of everyone on your team and learn whether your developers passed or failed the exam. [Check out this article](https://success.outsystems.com/Support/Account_and_Members_Management/How_many_certified_professionals_do_I_have_on_my_team%3F).
+From the Customer Portal, you can also monitor the certification progress of everyone on your team and learn whether your developers passed or failed the exam.
 
 To learn more about the available certifications [visit this page](https://www.outsystems.com/learn/certifications).

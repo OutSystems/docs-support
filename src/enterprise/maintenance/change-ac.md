@@ -34,7 +34,7 @@ During the lifecycle of your subscription, you may need to replace the license o
 
 Changing the Activation Code of your infrastructure ensures that downtime is avoided and that your development activities continue as usual.
 
-This article covers a scenario where a full infrastructure, including LifeTime, is moved from a source activation code AAA to a destination activation code BBB. It also covers a [rollback procedure](#rollback) in case of any problems. 
+This article covers a scenario where a full infrastructure, including LifeTime, is moved from a source activation code AAA to a destination activation code BBB. It also covers a [rollback procedure](#rollback) in case of any problems.
 
 In this scenario, we begin with a single infrastructure containing the following environments:
 
@@ -55,7 +55,7 @@ This scenario still applies if you have more environments than the ones depicted
 
 Don't change your Activation Code if **any** of the following apply:
 
-* Your infrastructure has environments that are either not registered in LifeTime or are registered in another LifeTime. 
+* Your infrastructure has environments that are either not registered in LifeTime or are registered in another LifeTime.
 * You don’t want to change the Activation Code of one or more environments controlled by this LifeTime.
 * You don’t want to change the Activation Code of the LifeTime environment.
 
@@ -101,7 +101,7 @@ To move from the previous Activation Code (AAA in this text) to the new Activati
 
     ![Screenshot of the OutSystems Service Center Licensing page highlighting the Intellectual Property filter with options 'Protected' and 'Unprotected'.](images/change-ac-ipp-sc.png "Service Center Licensing Page")
 
-    If the Intellectual Property is **Protected** or **Unprotected**, continue to the next environment. 
+    If the Intellectual Property is **Protected** or **Unprotected**, continue to the next environment.
 
     If not, your license is not prepared for the migration. For more information, see  [FAQ 3](#faqs) below.
 
@@ -111,11 +111,11 @@ Once the change of the Activation Code is complete, you won't be able to publish
 
 </div>
 
-### Test the changes 
+### Test the changes
 
 To test if changing the Activation Code was successful, republish a module, for example, the ECT_Provider module.
 
-1. Go to **Factory** > **Modules** and filter by **ECT_Provider**. 
+1. Go to **Factory** > **Modules** and filter by **ECT_Provider**.
 
 1. Open the details of the module, locate the version that's currently published, and click **Publish** for that version.
 
@@ -125,11 +125,11 @@ To test if changing the Activation Code was successful, republish a module, for 
 
 ### Rollback { #rollback }
 
-Before rolling back, read the complete procedure first. If you have any questions, contact [OutSystems Support](https://success.outsystems.com/Support). 
+Before rolling back, read the complete procedure first. If you have any questions, contact [OutSystems Support](https://success.outsystems.com/Support).
 
 To move to the previous Activation Code (AAA in this text), follow these steps:
 
-1. Pause all deployments to the Production environment. 
+1. Pause all deployments to the Production environment.
 Development activities on the other environments can continue.
 
 1. Restore all license files (including those backed up in step 2 above), for all environments that have licenses from Activation Code BBB.
@@ -144,7 +144,7 @@ Development activities on the other environments can continue.
 
 After rolling back, test if the procedure was successful by republishing any module, for example, the ECT_Provider module.
 
-1. Go to **Factory** > **Modules** and filter by **ECT_Provider**. 
+1. Go to **Factory** > **Modules** and filter by **ECT_Provider**.
 
 1. Open the details of the module, locate the version that's currently published, and click **Publish** for that version.
 
@@ -163,7 +163,7 @@ If something unexpected happens, refer to the Frequently Asked Questions below o
 1. **The license I uploaded from the old Activation Code AAA is not prepared for the migration**
 
     Please contact OutSystems Support to obtain a license file in a different way. Before contacting Support, please finish uploading all licenses to the environments, so you can provide the complete list of environments that don't mention "Intellectual Property: Ignore" so we can help assist for all environments at once.
-    
+
 1. **The license I uploaded from the new Activation Code BBB is not prepared for the migration**
 
     Please contact OutSystems Support so we can correct the license definition. Following that, you'll need to repeat the obtaining of the licenses for all environments under Activation Code BBB.

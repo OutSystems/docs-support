@@ -90,10 +90,10 @@ Figures 2 and 3 show the metadata of the assembles for both drivers.
 ![Code snippet displaying the metadata of the previous version of the ODP.NET driver.](images/oracle-odp-net-issues_2.png "Previous ODP.NET Driver Metadata")
 
 Figure 2 - The previous ODP.NET driver metadata
- 
+
 ![Code snippet showing the metadata of the new version of the ODP.NET driver.](images/oracle-odp-net-issues_3.png "New ODP.NET Driver Metadata")
 
-Figure 3 - The new ODP.NET driver metadata 
+Figure 3 - The new ODP.NET driver metadata
 
 ## Resolution
 
@@ -101,9 +101,9 @@ If this happens, do the following:
 
 1. Check if there are applications using the Oracle.ManagedDataAccess.dll in the GAC (This is not an easy task. You can try using [fuslogvw](http://msdn.microsoft.com/en-us/library/e74a18c4%28VS.71%29.aspx) or [process explorer](https://technet.microsoft.com/en-us/sysinternals/bb896653.aspx), but they will only show the assemblies that were/are loaded in memory).
 
-2. If there are applications using the DLL in the GAC, copy the DLL from the GAC to the APPBase directory of those applications.
+1. If there are applications using the DLL in the GAC, copy the DLL from the GAC to the APPBase directory of those applications.
 
-3. Remove the DLL from the GAC. You can do it using the Oracle OraProvCfg.exe (this application can be downloaded in the Oracle website and is part of the [Oracle Data Access components](http://www.oracle.com/technetwork/database/windows/downloads/utilsoft-087491.html)) command below (Open the Command Prompt as Administrator);
+1. Remove the DLL from the GAC. You can do it using the Oracle OraProvCfg.exe (this application can be downloaded in the Oracle website and is part of the [Oracle Data Access components](http://www.oracle.com/technetwork/database/windows/downloads/utilsoft-087491.html)) command below (Open the Command Prompt as Administrator);
 
 ```
 OraProvCfg.exe /action:ungac /providerpath:"Oracle.ManagedDataAccess"
@@ -123,4 +123,3 @@ OraProvCfg.exe /action:gac /providerpath:"Oracle.ManagedDataAccess.dll"
 ![Command Prompt output showing the successful registration of 'Oracle.ManagedDataAccess.dll' in the GAC.](images/oracle-odp-net-issues_5.png "Command Prompt Adding DLL to GAC")
 
 Figure 5 - Update/Add Oracle.ManagedDataAccess.dll to the GAC
-

@@ -32,6 +32,6 @@ The application package can't be generated.
 
 Check the extensibility configurations of your app to ensure that the icon has the required density and/or size and fix it, as needed.
 
-Find more information about how to modify the application icon [here](https://success.outsystems.com/Documentation/11/Delivering_Mobile_Apps/Customize_Your_Mobile_App/Modify_the_App_Icon).
+Find more information about how to modify the application icon in [OutSystems 11](https://www.outsystems.com/tk/redirect?g=4d07edaa-0b7b-41b8-bd1f-59c4b1bfd103) and [in ODC](https://www.outsystems.com/tk/redirect?g=941e56cf-aacf-43bf-9d1c-f131565036e6).
 
 If the problem persists, create a case with [OutSystems Support](https://www.outsystems.com/support/portal/open-support-case?ErrorCode=OS-MABS-CNF-40000).

@@ -29,13 +29,12 @@ OutSystems regularly rotates the `outsystemsenterprise.com` certificate. This ar
 
 As long as you are pinning your mobile applications to your own certificate, this operation won't impact your mobile apps.
 
-However, if you are pinning your mobile apps on the `outsystemsenterprise.com`.com certificate, this rotation will cause your applications to stop connecting to the OutSystems Cloud environment. 
+However, if you are pinning your mobile apps on the `outsystemsenterprise.com`.com certificate, this rotation will cause your applications to stop connecting to the OutSystems Cloud environment.
 
 If you're already using the `outsystemsenterprise.com` certificate for SSL Pinning:
 
 * To avoid any downtime, take this opportunity to [use your own certificate](https://success.outsystems.com/Support/Enterprise_Customers/Installation/Use_your_SSL_domain_in_OutSystems_Cloud), for which you have the certificate keys, and use your certificate fingerprint on your mobile apps.
 * Make sure to plan and switch to use your own SSL certificate for SSL Pinning.
-
 
 Note that you should keep the current fingerprint and add the new one so that your app continues to function as expected before and after the certificate renewal. For more information on how to add a new fingerprint to your SSL Pinning component please visit the component official documentation [here](https://success.outsystems.com/Documentation/11/Extensibility_and_Integration/Mobile_Plugins/SSL_Pinning_Plugin).
 

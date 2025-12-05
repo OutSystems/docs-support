@@ -37,4 +37,3 @@ To resolve this issue, please run the following script in the databases of the L
 `commit;`
 
 After that you will be able to login on LifeTime/Service Center with your previous credentials.
-

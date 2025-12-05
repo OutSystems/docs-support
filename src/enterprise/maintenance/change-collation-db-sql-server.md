@@ -22,7 +22,7 @@ coverage-type:
 
 ## Introduction
 
-When a customer installs the OutSystems Platform on-premises using SQL Server as a database backend, a choice is made regarding the database collation to be used. 
+When a customer installs the OutSystems Platform on-premises using SQL Server as a database backend, a choice is made regarding the database collation to be used.
 
 Collations come at several levels: at database instance level, at the database level, and at the individual column level. OutSystems Platform is only certified to be installed or to integrate with SQL Server databases if they are installed as case-insensitive. This means:
 
@@ -54,7 +54,7 @@ This means that the choice of a collation should be very well thought considerin
 
 If you have just installed the platform and detected that you did it with the wrong collation, the easiest approach is to "start over": recreate the database from zero, setup the platform on top of it, and start developing.
 
-However, if you have been using your environment for a while and find that out at that time, things get a little trickier. 
+However, if you have been using your environment for a while and find that out at that time, things get a little trickier.
 
 There is no easy way to fix the collation of an existent database.
 

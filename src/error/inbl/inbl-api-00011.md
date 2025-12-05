@@ -26,7 +26,7 @@ coverage-type:
 
 The &lt;Hostname&gt; environment isn't registered in Integration Builder.
 For security reasons, the Integration Builder APIs only accept requests from registered environments.
-    
+
 ## Impact
 
 Integration Manager can't create connections for integrations, and it can't redirect you to Integration Builder.

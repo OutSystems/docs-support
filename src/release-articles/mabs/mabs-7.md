@@ -52,7 +52,6 @@ See “System requirements and Breaking Changes” in MABS 7.0 Release Notes
 * [2022-05-19 13:00:00 UTC] Updated NPM version to overcome github changes related to the usage of the `git://` protocol. [More info here](https://github.blog/2021-09-01-improving-git-protocol-security-github/)
 * [2022-09-21 09:00:00 UTC] Changed the minimum supported TLS version from 1.0 to 1.2. (RPM-2764)
 
-
 ## MABS Version 7.1 { #mabs-version-7-1 }
 
 <div class="info">
@@ -113,8 +112,6 @@ All OutSystems apps can use the Upload widget. The consequence of this is that t
 
 Set the **AddUploadWidgetPermissions** to **false** only in the apps that don't use the Upload widget. If you later need the Upload widget in the app, add the widget and then set **AddUploadWidgetPermissions** to **true** and create a new build.
 
- 
-
 ### Bug Fixing
 
 * [2021-06-30 16:00:00 UTC] Fixed wrong log messages for the self-healing mechanism. (RNMT-4923)
@@ -131,7 +128,6 @@ Set the **AddUploadWidgetPermissions** to **false** only in the apps that don't 
 * [2021-08-18 14:00:00 UTC] We fixed the issue that prevented users from installing the app generated with MABS 7 on devices with iOS 15 beta. The device showed the error "The developer of this app needs to update it to work with this version of iOS" and blocked the installation. The error occurred because Apple changed code signing in Xcode and MABS needed to adjust. (RPM-1390)
 * [2021-09-01 14:30:00 UTC] We improved MABS error messages so they guide you better in fixing the issues (RNMT-4946)
 * [2021-09-01 14:30:00 UTC] Fixed an issue that could lead to resource exhaustion in Android apps. CVSSv3.1 score 4.8 (Medium) (RPM-740)
-
 
 ## MABS Version 7.0 { #mabs-version-7-0 }
 
@@ -151,7 +147,7 @@ MABS 7.0 is an important milestone for all developers who publish on App Store a
 
 * Latest Android API level 30. This lets you submit your Android apps with the most recent target SDK to Google Play.
 
-* iOS apps now support iPhone 12, iPhone 12 Pro, and iPhone 12 Mini. 
+* iOS apps now support iPhone 12, iPhone 12 Pro, and iPhone 12 Mini.
 
 * Cordova iOS engine 6.1.1 for iOS apps. We highly recommend you revise your plugins for compatibility with this version.
 
@@ -192,21 +188,18 @@ MABS 7.0 is an important milestone for all developers who publish on App Store a
 * [2021-07-01 11:30:00 UTC] Added validation to prevent native mobile apps from using SSL Pinning Plugin to pin to OutSystems managed certificates. For more information, [check the documentation](https://success.outsystems.com/Documentation/11/Extensibility_and_Integration/Mobile_Plugins/SSL_Pinning_Plugin#important-note-about-certificates).
 * [2021-07-14 12:30:00 UTC] Fixed invalid prebundle resource indexing in the OSCache healing process that caused the error "Could not get InputStream".  (RNMT-4922)]
 * [2021-07-14 12:30:00 UTC] Fixed a bug that caused some builds to fail when installing the cordova-whitelist-plugin with the message "An unexpected error has occurred while installing the Cordova plugins. Please try again. If the problem persists, contact OutSystems Support." (RNMT-4983)
- 
 
 ### System Requirements for MABS 7.0
 
 Some plugin requirements for **MABS**.
 
-|Plugin|Required minimum version|MABS
+|Plugin|Required minimum version|MABS |
 |:--|:--|:--|
 |[SSL Pinning](https://www.outsystems.com/forge/component-versions/1873)|6.0.0 or later|MABS 7.0 and later|
 |[InAppBrowser](https://www.outsystems.com/forge/component-versions/1558)|2.4.0 or later|MABS 7.0 and later|
 |[Camera](https://www.outsystems.com/forge/component-versions/1390)|6.2.0 or later|MABS 7.0 and later|
 |[Ciphered Local Storage](https://www.outsystems.com/forge/component-versions/1500)|3.1.0 or later|MABS 7.0 and later|
 |[OneSignal](https://www.outsystems.com/forge/component-versions/2119)|3.5.0 or later|MABS 7.0 and later|
-
- 
 
 ### Breaking Changes and Known Limitations for MABS 7.0
 

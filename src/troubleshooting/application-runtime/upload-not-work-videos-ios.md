@@ -37,4 +37,3 @@ We tried different workarounds but were not able to read the video files because
 We are communicating with Apple about the matter, trying to solve the issue that is impacting our developers.
 
 This is an underlying technology problem, and we are limited in what we can do to fix the problem.
-

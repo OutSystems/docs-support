@@ -19,7 +19,6 @@ coverage-type:
 
 # How to generate a CSR
 
-
 Sometimes you may need to request a new certificate or renew an existing one and your Certificate Authority (CA) will ask for a Certificate Signing Request (CSR) file in order to issue it. This article describes the options to generate a CSR.
 
 You don’t need to create the CSR in the OutSystems server. You can create it on another computer and keep the .CSR file for later use.
@@ -57,7 +56,6 @@ You can generate a CSR in multiple operating systems or tools and can chose the 
 * [On a MacOS](#other)
 * [On Microsoft Azure Key Vault](#other)
 
-
 ### Using IIS { #IIS }
 
 One of the options to generate a CSR is to use Internet Information Services (IIS). Windows Servers already have IIS enabled by default, but if you are on a Windows computer where IIS is not enabled, you can [enable it in the Control Panel](https://docs.microsoft.com/en-us/dynamics-nav/how-to--install-and-configure-internet-information-services-for-microsoft-dynamics-nav-web-client#install-iis-on-windows-7-8-81-and-10).
@@ -94,11 +92,11 @@ You must run all commands as a user with **Administrator** privileges
 1. Enter the following information at **Cryptographic Service Provider Properties**:
     * **Cryptographic service provider** - In the drop-down list, select Microsoft RSA SChannel..., unless you have a specific cryptographic provider.
     * **Bit length** - In the drop-down list, select 2048 (or higher).
-    
+
     ![Screenshot showing the Cryptographic Service Provider Properties step in the Request Certificate Wizard.](images/generate-csr-iis_4.png "Cryptographic Service Provider Properties")
 
 1. Click **Next**.
-1. In the **File Name** menu, click the  **...**  button on the right side to browse the location where you want to save the Certificate Signing Request (a text file). If you enter a filename without browsing to a location, your CSR is stored in your computer’s default folder (for example, *Documents*).
+1. In the **File Name** menu, click the  **...**  button on the right side to browse the location where you want to save the Certificate Signing Request (a text file). If you enter a filename without browsing to a location, your CSR is stored in your computer’s default folder (for example, _Documents_).
 
     <div class="info" markdown="1">
 
@@ -129,7 +127,7 @@ When you create a Certificate Signing Request, you generate a private key too. P
     ![Screenshot of the Add or Remove Snap-ins interface in the Microsoft Management Console.](images/install-ssl-platform-mmc_3.png "Add or Remove Snap-ins in MMC")
 
 1. Select **Certificates** and click **Add**. The **Certificate snap-in** window opens.
-    
+
     ![Screenshot showing the selection of the Certificates snap-in in the Add or Remove Snap-ins interface.](images/install-ssl-platform-mmc_4.png "Selecting Certificates Snap-in")
 
 1. Select **Computer Account** and click **Next >**.
@@ -139,7 +137,7 @@ When you create a Certificate Signing Request, you generate a private key too. P
 
 1. Click **OK** to close the **add/remove snap-in** window.
 1. Expand the **Certificates (Local Computer)** entry on the left side.
-    
+
     ![Screenshot of the expanded Certificates (Local Computer) tree in the Microsoft Management Console.](images/install-ssl-platform-mmc_6.png "Certificates (Local Computer) in MMC")
 
 1. Go to **Certificate Enrollment Requests**, expand it, and select the **Certificates** entry.
@@ -182,7 +180,6 @@ When you create a Certificate Signing Request, you generate a private key too. P
 
     ![Screenshot of the Certificate Export Wizard's success confirmation dialog box.](images/generate-csr-iis_14.png "Certificate Export Success Confirmation")
 
-
 The certificate export is complete.
 
 ### Using OpenSSL { #OpenSSL }
@@ -191,7 +188,7 @@ The certificate export is complete.
 
 1. Open a terminal and browse to a folder where you would like to generate your keypair
 
-1. Input the openssl command with the following arguments to generate the private key and CSR request: 
+1. Input the openssl command with the following arguments to generate the private key and CSR request:
 
 | Field               | Example                                     |
 |---------------------|---------------------------------------------|
@@ -202,11 +199,9 @@ The certificate export is complete.
 | Organizational Unit | **IT** (Optional, e.g. a department)        |
 | Common Name*        | **www.example.com** (Domain or Entity name) |
 
-
-**required*
+*_required_
 
 You should now have a Private Key (privatekey.key) in PEM format, which should stay on your computer, and a Certificate Signing Request (CSR.csr), which can be submitted to a Certificate Authority (CA) to sign your public key.
-
 
 ### Other options { #other }
 

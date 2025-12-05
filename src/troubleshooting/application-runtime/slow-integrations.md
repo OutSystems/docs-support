@@ -38,7 +38,6 @@ The problems you may find in either of these patterns are:
 
 * In BPT, since you can't to increase the timeout ([it's fixed at 5 minutes](https://success.outsystems.com/Support/Enterprise_Customers/Maintenance_and_Operations/BPT_-_Automatic_Activities_Timeout)), you typically get stuck in a timeout, not knowing what to do.
 
-
 ## Dealing with the issue
 
 Solving this type of problem requires that you think **asynchronously**. This means pulling the workload to a separate thread, but leaving your current workload in **idle wait** to avoid starvation (rather than keeping in [busy-waiting](https://en.wikipedia.org/wiki/Busy_waiting), which is always bad).

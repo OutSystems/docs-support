@@ -24,11 +24,9 @@ When acessing the **Users** application at `https://<environment_address>/Users`
 
 ![Screenshot showing the absence of an application in the Users app's Applications tab.](images/app-not-in-users.png "Missing Application in Users App")
 
-
 As a consequence, you also can't assign the app's role to an user.
 
 ![Screenshot depicting the inability to assign roles to a user due to the missing application.](images/app-not-in-users-role.png "Unable to Assign Roles for Missing Application")
-
 
 ## Cause
 
@@ -42,11 +40,9 @@ When it doesn't have a "Home" module defined you'll notice that:
 * the **Open in browser** button is disabled
 * all it's modules with show with the "Set as Home" icon ![Icon indicating the option to set a module as the Home module in Service Studio.](images/app-not-in-users-set-home-ss.png "Set as Home Icon in Service Studio")
 
-
 ![Screenshot of Service Studio with the Open in Browser button disabled due to no Home module being set.](images/app-not-in-users-home-disabled-ss.png "Disabled Open in Browser Button in Service Studio")
 
 Once you have confirmed in Service Studio that your app doesn't have a home module defined, you can proceed to the resolution.
-
 
 ### Identifying the app doesn't have a home module in Service Center
 
@@ -66,7 +62,7 @@ Once you have confirmed this is the case, you can proceed to the resolution.
 
 ## Resolution
 
-Define a home module for the app. 
+Define a home module for the app.
 
 Connect Service Studio to your environment and click the app you wish to set the home module.
 In front of the module that should be the home module, click the "Set as Home" icon ![Icon indicating the option to set a module as the Home module in Service Studio.](images/app-not-in-users-set-home-ss.png "Set as Home Icon in Service Studio")

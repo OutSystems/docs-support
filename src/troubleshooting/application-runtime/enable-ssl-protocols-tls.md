@@ -66,37 +66,37 @@ For that, please follow this steps:
 
 1. Start the registry editor by clicking on **Start** and **Run**. Type in "regedit" into the **Run** field (without quotations).
 
-2. Highlight **Computer** at the top of the registry tree.  Backup the registry first by clicking on **File** and then on **Export**.  Select a file location to save the registry file.
-    *Note: You will be editing the registry.  This could have detrimental effects on your computer if done incorrectly, so it is strongly advised to make a backup.*
+1. Highlight **Computer** at the top of the registry tree.  Backup the registry first by clicking on **File** and then on **Export**.  Select a file location to save the registry file.
+    _Note: You will be editing the registry.  This could have detrimental effects on your computer if done incorrectly, so it is strongly advised to make a backup._
 
-3. Browse to the following registry key:
+1. Browse to the following registry key:
     `HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols`
 
-4. Right click on the **Protocols** folder and select **New** and then **Key** from the drop-down menu. This will create new folder.  Rename this folder to **TLS 1.1** or **TLS 1.2** (depending on the protocol you want to enable)
+1. Right click on the **Protocols** folder and select **New** and then **Key** from the drop-down menu. This will create new folder.  Rename this folder to **TLS 1.1** or **TLS 1.2** (depending on the protocol you want to enable)
 
-5. Right click on the **TLS 1.1 **or** TLS 1.2** key and add a new key underneath it.
+1. Right click on the **TLS 1.1 **or** TLS 1.2** key and add a new key underneath it.
 
-6. Rename the new key as:
+1. Rename the new key as:
 
     * Client
 
-7. Right click on the **Client** key and select **New** and then **DWORD (32-bit) Value** from the drop-down list.
+1. Right click on the **Client** key and select **New** and then **DWORD (32-bit) Value** from the drop-down list.
 
-8. Rename the **DWORD** to **DisabledByDefault**.
+1. Rename the **DWORD** to **DisabledByDefault**.
 
-9. Right-click the name **DisabledByDefault** and select **Modify**... from the drop-down menu.
+1. Right-click the name **DisabledByDefault** and select **Modify**... from the drop-down menu.
 
-10. Ensure that the **Value** data field is set to **0** and the **Base** is **Hexadecimal**.  Click on OK.
+1. Ensure that the **Value** data field is set to **0** and the **Base** is **Hexadecimal**.  Click on OK.
 
-11. Create another **DWORD** for the **Client** key as you did in **Step 7**.
+1. Create another **DWORD** for the **Client** key as you did in **Step 7**.
 
-12. Rename this second **DWORD** to **Enabled**.
+1. Rename this second **DWORD** to **Enabled**.
 
-13. Right-click the name **Enabled** and select **Modify**... from the drop-down menu.
+1. Right-click the name **Enabled** and select **Modify**... from the drop-down menu.
 
-14. Ensure that the **Value** data field is set to **1** and the **Base** is **Hexadecimal**. Click on OK.
+1. Ensure that the **Value** data field is set to **1** and the **Base** is **Hexadecimal**. Click on OK.
 
-15. **Reboot the server**
+1. **Reboot the server**
 
 After the reboot, the server will be able to communicate through the SSL protocol you enabled. However, you need now to add it to your applications requests.
 
@@ -106,19 +106,19 @@ If you want to make sure strong cryptography is enabled and the SSL protocols fo
 
 1. Start the registry editor by clicking on **Start** and **Run**. Type in "regedit" into the **Run** field (without quotations).
 
-2. Highlight **Computer** at the top of the registry tree.  Backup the registry first by clicking on **File** and then on **Export**.  Select a file location to save the registry file.
-    *Note: You will be editing the registry.  This could have detrimental effects on your computer if done incorrectly, so it is strongly advised to make a backup.*
+1. Highlight **Computer** at the top of the registry tree.  Backup the registry first by clicking on **File** and then on **Export**.  Select a file location to save the registry file.
+    _Note: You will be editing the registry.  This could have detrimental effects on your computer if done incorrectly, so it is strongly advised to make a backup._
 
-3. Browse to the following registry key:
+1. Browse to the following registry key:
     `HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NetFramework\v4.0.30319`
 
-4. Right-click on the right pane and create a new DWORD (32-bit) Value with Name **SchUseStrongCrypto**.
+1. Right-click on the right pane and create a new DWORD (32-bit) Value with Name **SchUseStrongCrypto**.
 
-5. Ensure that the **Value** data field is set to **1** and the **Base** is **Hexadecimal**. Click on OK.
+1. Ensure that the **Value** data field is set to **1** and the **Base** is **Hexadecimal**. Click on OK.
 
-6. Repeat steps 4 and 5 for the registry key: HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\.NetFramework\v4.0.30319
+1. Repeat steps 4 and 5 for the registry key: HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\.NetFramework\v4.0.30319
 
-7. **Reboot the server** 
+1. **Reboot the server**
 
 ## Applies to
 
@@ -135,4 +135,3 @@ Applies to Platform 9.0.x.y and 9.1.x.y (last reviewed under 9.1.600.0).
 [3] [https://msdn.microsoft.com/en-us/lib...v=vs.110).aspx](https://msdn.microsoft.com/en-us/library/system.net.securityprotocoltype(v=vs.110).aspx)
 
 [4] [http://blogs.perficient.com/microsof...d-net-support/](http://blogs.perficient.com/microsoft/2016/04/tsl-1-2-and-net-support/)
-

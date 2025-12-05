@@ -32,4 +32,3 @@ To get the Windows event logs for a specific environment, follow these steps:
 1. Click **Save All Events As…** on the right panel to save the file.
 
     ![Screenshot of Windows Event Viewer with an arrow pointing to 'Application' under Windows Logs and the 'Save All Events As...' option highlighted in the Actions panel.](images/get-logs-13.png "Windows Event Viewer Save Option")
-

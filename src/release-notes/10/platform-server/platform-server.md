@@ -5,7 +5,7 @@ app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
 ---
 
-<div class="hidden"><h1>Platform Server</h1></div> 
+<div class="hidden"><h1>Platform Server</h1></div>
 
 <div class="hidden" id="platform-server-10.0.1115.0_start"></div>
 <h2 id="platform_server_10.0.1115.0">Platform Server 10.0.1115.0</h2>
@@ -1244,4 +1244,4 @@ The performance of LifeTime Analytics was significantly improved. Check out to <
 <li>Fixed issue where attributes in the request or response of a web reference were not properly handled in runtime. (#1344068)</li>
 <li>Fixed SU/AO count for Silk Universal Template. (#1507615)</li>
 <li>Fixed error in lifetime synchronization when an application doesn't have security settings active (#1342984)</li>
-</ul><div class="hidden" id="platform-server-10.0.1115.0_end"></div><div class="hidden"><h1>Platform Server</h1></div> 
+</ul><div class="hidden" id="platform-server-10.0.1115.0_end"></div><div class="hidden"><h1>Platform Server</h1></div>

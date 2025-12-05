@@ -40,11 +40,11 @@ The problem manifests if the following combination of factors occurs in the targ
 
 1. Self-managed installations;
 
-2. Running Platform Server 11.7.x;
+1. Running Platform Server 11.7.x;
 
-3. Farm installations (with 2 or more front-ends);
+1. Farm installations (with 2 or more front-ends);
 
-4. The [deployment zone address](https://success.outsystems.com/Documentation/11/Managing_the_Applications_Lifecycle/Deploy_Applications/Selective_Deployment_Using_Deployment_Zones/Deployment_Zones_Reference) is the load balancer's hostname
+1. The [deployment zone address](https://success.outsystems.com/Documentation/11/Managing_the_Applications_Lifecycle/Deploy_Applications/Selective_Deployment_Using_Deployment_Zones/Deployment_Zones_Reference) is the load balancer's hostname
 
 **OutSystems Cloud customers are not affected**
 
@@ -53,6 +53,7 @@ The problem manifests if the following combination of factors occurs in the targ
 1. **Confirm the bottleneck on the Deployment phase**
 
 Analyze the detailed publishing log (in Service Center or LifeTime) to confirm that each individual step of the Deployment phase takes longer than before (consult a prior deployment log if needed). Moreover, for each module (not extensions) the deployment takes approximately 1 minute and 30 seconds, as depicted below, instead of a few seconds as previously.
+
 ```
 Updating tenant views of module ‘AdminLead_cs’.
 Updating tenant views of module ‘AutomatedEmails_cs’.
@@ -63,17 +64,17 @@ Deploying module ‘Countries’. (Last Step took 1m 28s).
 Deploying module ‘WorldTimezone’. (Last Step took 1m 28s).
 Deploying module ‘DiffEntityDataToText’. (Last Step took Im 28s).
 ```
- 
 
 1. **Identify the slow RefreshISAPIFilters action calls**
 
 Once you confirm the previous pattern, filter the Service Center's General logs for SLOWEXTENSION and identify multiple entries like the below, during the deployment period for each module deployed, with durations of approximately 90.000 ms:
 
-* *OMLProcessor.RefreshISAPIFilters took 88765 ms [actual value may vary]*
+* _OMLProcessor.RefreshISAPIFilters took 88765 ms [actual value may vary]_
 
 1. **Identify the errors connecting to Deployment Service**
 
 After confirming the pattern above, locate errors like the below in Service Center's Error log - approximately one for each slow RefreshISAPIFilters in the same time period. Note the entry referring to **_RefreshPathRules_** - this is the important part. If you don’t see this, it’s not the relevant error:
+
 ```
 A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond 10.0.21.8:12001
 (...)
@@ -86,11 +87,10 @@ Exception rethrown at [0]:
    at OutSystems.HubEdition.ServerCommon.Tasks.AbstractTask.Execute()
    
 ```
- 
 
 ## Cause
 
-The problem occurs because the deployment controller service is trying to communicate with the deployment service through the IP address of the deployment zone address, instead of the front-end server address. 
+The problem occurs because the deployment controller service is trying to communicate with the deployment service through the IP address of the deployment zone address, instead of the front-end server address.
 
 In situations where that communication is not possible and the network connection is not explicitly rejected, the deployment controller will wait until a timeout is attained. This wait occurs for each module being deployed.
 
@@ -102,20 +102,21 @@ A workaround is already available for this problem in the most frequent farm con
 
 <div class="info" markdown="1">
 
-**This workaround can only be applied when the controller server is also a front-end,** and it has the deployment service running. 
+**This workaround can only be applied when the controller server is also a front-end,** and it has the deployment service running.
 </div>
 
 To overcome this situation, reconfigure the platform so that the deployment controller communicates with its own deployment service on IP 127.0.0.1.
 
-To do that, the required steps are: 
+To do that, the required steps are:
 
 1. Execute the following query in the environment's database:
+
 ```
 insert into ossys_parameter (name, VAL) VALUES ('Compiler.UseFrontEndAddressRefreshPaths', 'False')
 ```
-2. Restart the deployment controller service in the controller server.
+
+1. Restart the deployment controller service in the controller server.
 
 #### Resolution
 
 Platform Server version 11.8.0 includes the fix for this problem. The fix is identified with the reference RPD-4770 on our [Release Notes](https://success.outsystems.com/Support/Release_Notes/11/Platform_Server).
-

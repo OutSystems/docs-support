@@ -16,7 +16,6 @@ To take advantage of new functionalities released with new operating system vers
 
 This generally means that customers may need to generate their mobile apps with the new MABS version. In some cases, using a different MABS version may also require an upgrade of the Platform Server (O11). For more information about the MABS versions, refer to [Mobile Apps Build Service Versions](mabs-versions.md).
 
-
 With a new major versions of MABS OutSystems supports:
 
 * Runtime primitives of the platform i.e., widgets, with the goal of finding and correcting misbehaving primitives.
@@ -36,4 +35,3 @@ Customers play a part in supporting upcoming versions of mobile operating system
 OutSystems strongly recommends that customers begin testing their apps with the first official public previews of upcoming versions of mobile operating systems. After the release of the first public previews OutSystems begins accepting support requests from customers. However, due to the instability of Beta version operating systems, OutSystems can't guarantee a stable mobile offer over those Beta versions.
 
 OutSystems also strongly recommends that customers begin testing their apps with the new SDKs as soon as OutSystems releases a new MABS major version. OutSystems begins accepting customer support requests from that moment. OutSystems assigns the severity levels of those requests according to the MABS version (Beta or stable).
-

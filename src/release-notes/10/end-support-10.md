@@ -19,7 +19,7 @@ Start planning your company’s upgrade to OutSystems 11. By upgrading to OutSys
 
 ## OutSystems Cloud
 
-If you are on the OutSystems Cloud, a timely upgrade is mandatory. 
+If you are on the OutSystems Cloud, a timely upgrade is mandatory.
 
 The majority of OutSystems Cloud customers in OutSystems 10 will be able to benefit from this extension right away. However, customers in OutSystems Cloud using Oracle may need to update earlier, since AWS announced the end of Oracle 11 and 12c support, which are the database versions currently supported by OutSystems 10. A plan was rolled out to minimize the impact on those infrastructures and ensure  they benefit from the extension and have a smooth transition to OutSystems 11.
 
@@ -43,22 +43,19 @@ If you have a self-managed installation, you are responsible for the upgrade pro
 
 If you have a hybrid deployment model that combines self-managed and OutSystems Cloud environments, we have scheduled your OutSystems  Cloud environments to be upgraded before the end of extended support.
 
-
 ## Java and MySQL
 
 A few customers are running OutSystems on Java, or using MySQL as their platform database, and have a specific support plan.
 
-### OutSystems 10 support calendar for Java 
+### OutSystems 10 support calendar for Java
 
 As the OutSystems platform evolves to match tomorrow’s technology stacks, we stopped investing in traditional Java application servers.
-OutSystems discussed individually with each customer the best stack evolution plan and will be helping customers with this transition. 
+OutSystems discussed individually with each customer the best stack evolution plan and will be helping customers with this transition.
 Mainstream support continues until **the end of 2021** for customers running OutSystems on Java application servers.
 
-### OutSystems 10 support calendar for MySQL 
+### OutSystems 10 support calendar for MySQL
 
 OutSystems 11 continues to support MySQL as an external database, allowing OutSystems applications to work seamlessly on data managed in MySQL external databases.
 On the other hand, OutSystems 11 no longer supports MySQL as a platform database.
 OutSystems has discussed individually with each customer the best database evolution plan and will be helping customers with this transition.
 Mainstream support continues until **the end of 2021** for customers running OutSystems with MySQL as their platform database.
-
-

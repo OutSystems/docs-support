@@ -19,19 +19,19 @@ coverage-type:
 
 # Library hell - why are changes in a producer not reflected in the consumers
 
-If you're developing in multiple modules at a time, it may happen that a change is made to a producer module (for example, at an integration level) and there is the need to see the change reflected in a consumer module. In some situations, simply republishing the consumer module solves the problem. But in others, the changes don't get reflected in the consumers. 
+If you're developing in multiple modules at a time, it may happen that a change is made to a producer module (for example, at an integration level) and there is the need to see the change reflected in a consumer module. In some situations, simply republishing the consumer module solves the problem. But in others, the changes don't get reflected in the consumers.
 
-This situation can be time-consuming and lead to frustration by the developer - who may believe there is a problem with their code and trigger a wild goose chase. 
+This situation can be time-consuming and lead to frustration by the developer - who may believe there is a problem with their code and trigger a wild goose chase.
 
 Most times, this problem happens because of a reason: Library hell. This is something that can happen as your OutSystems app becomes more complex, with more levels of consumer/producer modules. Library Hell is a generalization of concepts already in use in the software industry, which are the root cause of the behavior (particularly DLL hell and Jar hell).
 
 This article explains:
 
-- What the concept means (both in the context of the native technologies and from an OutSystems app's perspective)
+* What the concept means (both in the context of the native technologies and from an OutSystems app's perspective)
 
-- Common pitfalls and dealing with them;
+* Common pitfalls and dealing with them;
 
-- Avoiding or dealing with the problem.
+* Avoiding or dealing with the problem.
 
 ## The basics of deployment for an OutSystems app
 
@@ -57,15 +57,15 @@ Image 1: Application structure
 
 Explaining the app:
 
-- **APIProvider** is a bottom-line producer: it exposes calls to public API
+* **APIProvider** is a bottom-line producer: it exposes calls to public API
 
-- **DataLayer** is a bottom-line producer: it exposes the data of the app
+* **DataLayer** is a bottom-line producer: it exposes the data of the app
 
-- **BrokerLogic** consumes both **APIProvider** and **DataLayer** to provide actions to list products
+* **BrokerLogic** consumes both **APIProvider** and **DataLayer** to provide actions to list products
 
-- **Purchasing** consumes both **APIProvider** and **DataLayer** to provide actions to buy products
+* **Purchasing** consumes both **APIProvider** and **DataLayer** to provide actions to buy products
 
-- **UI_Public** is the front end used by customers 
+* **UI_Public** is the front end used by customers
 
 Based on the example above, we'll describe some scenarios and explain what happens when the platform deploys the above app.
 
@@ -73,15 +73,15 @@ Based on the example above, we'll describe some scenarios and explain what happe
 
 In an IIS VDir / Java WAR, for each module of the sample app, the following libraries are present:
 
-- **APIProvider**: only itself
+* **APIProvider**: only itself
 
-- **DataLayer**: only itself
+* **DataLayer**: only itself
 
-- **BrokerLogic**: itself, APIProvider, DataLayer
+* **BrokerLogic**: itself, APIProvider, DataLayer
 
-- **Purchasing**: itself, APIProvider, DataLayer
+* **Purchasing**: itself, APIProvider, DataLayer
 
-- **UI_Public**: itself, APIProvider, DataLayer, BrokerLogic, Purchasing
+* **UI_Public**: itself, APIProvider, DataLayer, BrokerLogic, Purchasing
 
 A library being present means that the DLL (.NET) or JAR (Java) are present in the deployment unit (IIS VDir / Java WAR).
 
@@ -170,12 +170,12 @@ How does it work generically for the platform?
 
     **In our example**: if only **BrokerLogic** consumed **APIProvider**, the library for APIProvider would come from **BrokerLogic**.
 
-* If (*as our example*) the module / Extension isn't a direct producer and is a producer of more than one of the direct producers, then **the library can come from any of the producers that consume it**.
+* If (_as our example_) the module / Extension isn't a direct producer and is a producer of more than one of the direct producers, then **the library can come from any of the producers that consume it**.
 
     **In our example**: since there are only two direct producers, if you republish the two and then republish **UI_Public** the change gets reflected and purchases start echoing "Simon says".
 
 But in more complex reference scenarios, this may be extremely complex or even impossible (for example, in certain scenarios of circular references, which OutSystems allows using).
- 
+
 ## How to solve a producer library inconsistency?
 
 ### What is a **DLL Hell**?
@@ -192,7 +192,7 @@ While the symptoms can be triggered by different root causes, usually errors sim
 
 ``Could not load file or assembly 'Namespace, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. The system cannot find the file specified.``
 
-``Could not load type 'Microsoft.IdentityModel.Tokens.TokenHandler' from assembly 'Microsoft.IdentityModel.Tokens, Version=5.2.2.0, Culture=neutral, PublicKeyToken=885c28607f98e604 ``
+``Could not load type 'Microsoft.IdentityModel.Tokens.TokenHandler' from assembly 'Microsoft.IdentityModel.Tokens, Version=5.2.2.0, Culture=neutral, PublicKeyToken=885c28607f98e604``
 
 ### Troubleshooting steps
 
@@ -201,7 +201,7 @@ There are some options to fix the issue:
 #### Check dependencies
 
 1. Look for the producers of the app where the error is happening.
-    
+
 1. If you have outdated dependencies, refresh them.
 
 #### Open similar extensions
@@ -209,11 +209,11 @@ There are some options to fix the issue:
 1. Check if the same DLL is being used by those extensions. To do this, check the **Resources** tab in **Integration Studio**, or go to **Visual Studio** > **Solution Explorer** > **References** tree.
 
 1. Check the version of each DLL.
-    
+
     You can find all DLLs currently in use inside the platform folder, within the repository folder. Alternatively:
-    
+
     1. Open the extension in **Integration Studio**.
-    
+
     1. In the **Resources** tab, right-click the folder where the conflicting DLL is and select **Open**.
 
         ![Screenshot highlighting the 'Open' option for a conflicting DLL in the Resources tab of Integration Studio.](images/open-conflicting-dll-usr.png "Open conflicting DLL option in Integration Studio")
@@ -232,17 +232,17 @@ There are some options to fix the issue:
 
 1. Understand which DLL version should be used:
 
-    * If one of the extensions is from a system component, keep the DLL version from that component as the base from now on. 
+    * If one of the extensions is from a system component, keep the DLL version from that component as the base from now on.
 
     * If none of the extensions is from a system component, check the differences between each version to understand which one to use.
 
 1. After choosing the right version, update other extensions to the chosen version.
-    
+
     If the DLL was added using NuGet: open the package manager, go to the **Installed** tab and update to the desired version.
 
     If not, copy the chosen DLL to the same folder in other extensions and publish the extension.
 
-#### Publish all consumers of the changed extensions, 
+#### Publish all consumers of the changed extensions,
 
 If all other options failed, publish an [all components solution](https://success.outsystems.com/documentation/how_to_guides/devops/creating_and_using_an_all_components_solution/) with full compilation enabled to ensure each module and extension is recompiled.
 
@@ -260,7 +260,6 @@ In practical terms, instead of referencing through public action, this means ref
 
 This solution may pose other concerns: it's not transactional (the web-service logic runs in a separate transaction, so uncommitted changes from the original logic won't be visible), and can incur a performance penalty for the web-service call (especially if the service is called multiple times in the same request).
 
-2. **The temporary hack**: add a direct reference from your top-level consumer (for example, **UI_Public**) to your core producer (for example, **APIProvider**).
+1. **The temporary hack**: add a direct reference from your top-level consumer (for example, **UI_Public**) to your core producer (for example, **APIProvider**).
 Even if that reference isn't used in your code, by having this reference the platform is forced to obtain the library directly from the producer.
 This should be seen as an emergency solution only: widespread use will make the reference model unmanageable. Wear with care!
-
