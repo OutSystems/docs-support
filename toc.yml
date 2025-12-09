@@ -469,6 +469,41 @@
         - href: error/mabs/mabs-undocumented-error.md
         - href: error/mabs/os-naos-50005.md
         - href: error/mabs/os-naos-50019.md
+        - href: error/mabs/os-mco-40001.md
+        - href: error/mabs/os-mco-40002.md
+        - href: error/mabs/os-mco-40003.md
+        - href: error/mabs/os-mco-40004.md
+        - href: error/mabs/os-mco-40005.md
+        - href: error/mabs/os-mco-40006.md
+        - href: error/mabs/os-mco-40007.md
+        - href: error/mabs/os-mco-40008.md
+        - href: error/mabs/os-mco-40009.md
+        - href: error/mabs/os-mco-40010.md
+        - href: error/mabs/os-mco-40011.md
+        - href: error/mabs/os-mco-40012.md
+        - href: error/mabs/os-mco-40013.md
+        - href: error/mabs/os-mco-50001.md
+        - href: error/mabs/os-mco-50002.md
+        - href: error/mabs/os-mco-50003.md
+        - href: error/mabs/os-mco-50004.md
+        - href: error/mabs/os-mco-50005.md
+        - href: error/mabs/os-mco-50006.md
+        - href: error/mabs/os-mco-50007.md
+        - href: error/mabs/os-mco-50008.md
+        - href: error/mabs/os-mco-50009.md
+        - href: error/mabs/os-mco-50010.md
+        - href: error/mabs/os-mco-50011.md
+        - href: error/mabs/os-mco-50012.md
+        - href: error/mabs/os-mco-50013.md
+        - href: error/mabs/os-mco-50014.md
+        - href: error/mabs/os-mco-50015.md
+        - href: error/mabs/os-mco-50016.md
+        - href: error/mabs/os-mco-50017.md
+        - href: error/mabs/os-mco-50018.md
+        - href: error/mabs/os-mco-50019.md
+        - href: error/mabs/os-mco-50020.md
+        - href: error/mabs/os-mco-50021.md
+        - href: error/mabs/os-mco-50022.md
     #Integration Builder
     - href: error/inbl/intro.md
     - topics:
