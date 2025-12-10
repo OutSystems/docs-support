@@ -2,6 +2,11 @@ name: Style Guide Validation
 
 on:
   workflow_call:
+    inputs:
+      changed-files:
+        description: 'List of changed files to validate'
+        type: string
+        required: true
 
 concurrency: style-guide-validation-${{ github.ref }}
 
@@ -18,6 +23,7 @@ jobs:
           { "pattern": "src/troubleshooting/incident-models/**/*.md", "config": "src/troubleshooting/incident-models/.markdownlint.json" },
           { "pattern": "src/release-notes/**/*.md", "config": "src/release-notes/.markdownlint.json" }
         ]
+      changed-files: ${{ inputs.changed-files }}
     secrets:
       github-token: ${{ secrets.TOOLS_PAT }}
       copilot-token: ${{ secrets.TK_COPILOT_TOKEN }}
