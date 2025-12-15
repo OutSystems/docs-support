@@ -10,11 +10,11 @@ audience:
 outsystems-tools:
   - forge
 ---
-# Mobile Apps Build Service versions
+# Mobile apps build service versions
 
 <div class="info" markdown="1">
 
-Applies only to **Mobile Apps**.
+Applies only to **Mobile apps**.
 
 </div>
 
@@ -22,17 +22,25 @@ Applies only to **Mobile Apps**.
 
 These are the available MABS versions:
 
+<!--
 ## Beta
 
-See [Support provided for beta versions](mabs-beta-support.md) for details on the OutSystems policy regarding new mobile operating system support.
+See [Support provided for beta versions](mabs-beta-support.md) for details on the OutSystems policy regarding new mobile operating system support. -->
+
+## Supported
+
+You can get full support and bug fixes through OutSystems support requests mechanism.
 
 <div class="info" markdown="1">
 
-## **Version 12.0 (Currently in distribution)** - [See release notes](../../release-notes/mabs/12/12.0/12.0.md)<br/>
+## **Version 12.0 (currently in distribution)**
+
+[See release notes](../../release-notes/mabs/12/12.0/12.0.md)<br/>
 
 Released as Beta on October 15th, 2025 <br/>
-GA date to be announced <br/>
-Deprecation date to be announced
+Released to GA on December 15th, 2025 <br/>
+Deprecation date to be announced <br/>
+Obsolete date to be announced <br/>
 
 </div>
 
@@ -79,17 +87,16 @@ This version can run your apps on:
     </tbody>
 </table>
 
-## Supported
-
-You can get full support and bug fixes through OutSystems support requests mechanism.
-
 <div class="info" markdown="1">
 
-## **Version 11.2** - [See Release Notes](../../release-notes/mabs/11/11.2/11.2.md)<br/>
+## **Version 11.2**
+
+[See release notes](../../release-notes/mabs/11/11.2/11.2.md)<br/>
 
 Released as Beta on October 15th, 2025 <br/>
 Released to GA on October 30th, 2025 <br/>
-Deprecation date to be announced
+Deprecation on April 15th, 2026 <br/>
+Obsolete date to be announced <br/>
 
 </div>
 
@@ -142,12 +149,14 @@ You can select the deprecated MABS version when creating a mobile package, but y
 
 <div class="info" markdown="1">
 
-## **Version 11.1** - [See Release Notes](../../release-notes/mabs/11/11.1/11.1.md)<br/>
+## **Version 11.1**
+
+[See release notes](../../release-notes/mabs/11/11.1/11.1.md)<br/>
 
 Released as Beta on March 28th, 2025 <br/>
 Released to GA on April 2nd, 2025 <br/>
 Deprecated on October 30th, 2025 <br/>
-Obsoletion on January 31st, 2026
+Obsolete on January 31st, 2026 <br/>
 
 </div>
 
@@ -196,12 +205,14 @@ This version can run your apps on:
 
 <div class="info" markdown="1">
 
-## **Version 10.0** - [See Release Notes](../../release-notes/mabs/10/10.0/10.0.md)<br/>
+## **Version 10.0**
 
-Released as Beta on October 26, 2023 <br/>
-Released to GA on December 27, 2023 <br/>
-Deprecated on May 23, 2025<br/>
-Obsoletion date to be announced<br/>
+[See release notes](../../release-notes/mabs/10/10.0/10.0.md)<br/>
+
+Released as Beta on October 26th, 2023 <br/>
+Released to GA on December 27th, 2023 <br/>
+Deprecated on May 23rd, 2025<br/>
+Obsolete on January 31st, 2026<br/>
 </div>
 
 <div class="warning" markdown="1">
