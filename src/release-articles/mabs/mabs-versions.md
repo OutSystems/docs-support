@@ -33,7 +33,7 @@ You can get full support and bug fixes through OutSystems support requests mecha
 
 <div class="info" markdown="1">
 
-## **Version 12.0 (currently in distribution)**
+## **Version 12.0**
 
 [See release notes](../../release-notes/mabs/12/12.0/12.0.md)<br/>
 
