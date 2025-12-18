@@ -16,7 +16,7 @@ outsystems-tools:
 
 **What is the OutSystems Personal Edition, and who can use it?**
 
-The OutSystems Personal Edition is the new, free version of OutSystems Developer Cloud (ODC), designed for all users, including prospects, customers, partners, and community members. Its primary purpose is to provide a dedicated space for exploring the platform, learning, and contributing to the OutSystems ecosystem. Anyone with a Community Account can request the OutSystems Personal Edition.
+The OutSystems Personal Edition (also referred to as PE) is the new, free version of OutSystems Developer Cloud (ODC), designed for all users, including prospects, customers, partners, and community members. Its primary purpose is to provide a dedicated space for exploring the platform, learning, and contributing to the OutSystems ecosystem. Anyone with a Community Account can request the OutSystems Personal Edition.
 
 **Is the OutSystems Personal Edition free and forever?**
 
@@ -59,7 +59,7 @@ The OutSystems Personal Edition is designed for training, sandboxing, and explor
 
 All the above limits are controlled on the [subscription console](https://www.outsystems.com/tk/redirect?g=504cdfa5-68d4-46ce-8363-e08aa05e4514).
 
-**Can I use add-ons in my Personal Edition?** 
+**Can I use add-ons in my Personal Edition?**
 
 Add-ons are not included in the Personal Edition, except for Private Gateways.
 
@@ -123,7 +123,7 @@ Yes, a user can have both Personal Editions.
 
 No. A direct app upgrade path from an O11 Personal Environment to OutSystems Personal Edition does not exist.
 
-**Can a user move their apps from one OutSystems Personal Edition to another OutSystems Personal Edition?** 
+**Can a user move their apps from one OutSystems Personal Edition to another OutSystems Personal Edition?**
 
 Yes. Although no direct migration between OutSystems Personal Editions is in place, you can export and import your apps from one OutSystems Personal Edition to another. Note that configurations and applicational data will be lost.
 
