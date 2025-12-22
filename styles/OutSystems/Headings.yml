@@ -3,7 +3,7 @@
 # Previous link: https://docs.microsoft.com/en-us/style-guide/capitalization
 extends: capitalization
 message: "'%s' should use sentence-style capitalization."
-level: warning
+level: error
 scope: heading
 match: $sentence
 indicators:
@@ -21,6 +21,9 @@ exceptions:
   - O11
   - ODC
   - OutSystems
+  - OutSystems Cloud
+  - OutSystems Developer Cloud
+  - Personal Edition
   - Portal
   - Workflow Builder
   - AI Mentor Studio
@@ -28,6 +31,14 @@ exceptions:
   - MABS
   - Mobile Apps Builder Service
   - UsersIdP
+  - Build Operations
+  - Build Operations API
+  - Dependency Management
+  - Dependency Management API
+  - Asset Repository
+  - Asset Repository API
+  - Asset Configurations
+  - Asset Configurations API
 # Concepts
   - Action
   - Activity
@@ -84,6 +95,13 @@ exceptions:
   - Traditional
   - Variable
   - Web
+  - WCAG 2.2 AA
+  - GetAcessToken
+  - SendNotificationToTopics
+  - SendNotificationToUsers
+  - SendSilentNotificationToTopics
+  - SendSilentNotificationToUsers
+  - Create/Upgrade
 # Events
   - On Initialize
   - On Ready
@@ -117,15 +135,19 @@ exceptions:
   - Amazon Kendra
   - Android
   - Apple Developer
+  - AWS Firehose
+  - JSON
   - Azure
   - Cascading Style Sheets
   - CSS
   - Chrome
   - Code
   - Docker
+  - DOM
   - Excel
   - Git
   - Google Play
+  - HIPPA
   - iOS
   - Integrated Authentication
   - Kubernetes
@@ -137,12 +159,52 @@ exceptions:
   - Windows
   - Visual Studio
   - SAP
+  - Cross-site Scripting
+  - XSS
+  - shred.bundle.js
+  - CSV
+  - Firebase Cloud Messaging
+  - Firebase Performance
+  - Platform Tab in Oracle
 # Industry
   - API
+  - APIs
   - IP
   - FAQ
   - TLS
   - AI
   - DNS
   - TLS
+  - UI
   - SAST
+  - REST
+  - HTTP
+  - FCM
+  - CI/CD
+  - CICD
+# Country
+  - US East
+  - North Virginia
+  - Canada
+  - Central
+  - South America
+  - São Paulo
+  - Europe
+  - London
+  - Ireland
+  - Frankfurt
+  - South Africa
+  - Cape Town
+  - Middle East
+  - Tel Aviv
+  - UAE
+  - Asia Pacific
+  - Mumbai
+  - Singapore
+  - Seoul
+  - Tokyo
+  - Hong Kong
+  - Sydney
+  - Jakarta
+  - Europe
+  - London

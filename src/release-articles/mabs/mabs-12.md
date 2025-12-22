@@ -29,7 +29,7 @@ OutSystems recommends updating all supported plugins to the latest version avail
 <div class="info" markdown="1">
 
 **First release:** 2025-10-15 10:30:00 UTC<br />
-**Last update:** 2025-10-15 10:30:00 UTC.
+**Last update:** 2025-12-15 10:30:00 UTC.
 
 </div>
 
