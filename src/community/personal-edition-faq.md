@@ -103,6 +103,10 @@ Yes. Extensibility is available in the OutSystems Personal Edition. The OutSyste
 
 Yes, at the Applicational level. You can use your external IdP in your applications, but you cannot use it to log in to the OutSystems Personal Edition. To use your external IdP, you need to configure it on the ODC Portal. To log in to the OutSystems Personal Edition, you will always need to use your Community account..
 
+**Can I use external Static Application Security Testing (SAST) analysis tools on my Personal Edition apps?**
+
+No. Integration with SAST tools is not available on Personal Editions.
+
 **Can I deploy my OutSystems Personal Edition application to the Production stage?**
 
 No. The OutSystems Personal Edition is limited to one stage, the Development stage.
