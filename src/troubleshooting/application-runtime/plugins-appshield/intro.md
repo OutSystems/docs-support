@@ -32,7 +32,7 @@ If you have Google Play App Signing feature enabled in the Google Play Console y
 
 In LifeTime, if you edit the **Extensibility Configurations**, you must encode the value of the  **GooglePlayAppSigningCertificate** key. To encode the value of the certificate, follow these steps:
 
-1. In Google Chrome developer tools, open the console.
+1. In Google Chrome Developer Tools, open the console.
 1. Run the following JavaScript code: `encodeURIComponent("[public-key-certificate]")`.
 1. Copy the output of the command as the new value for the **GooglePlayAppSigningCertificate** key.
 
