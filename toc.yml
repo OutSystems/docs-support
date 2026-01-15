@@ -274,6 +274,7 @@
             - href: troubleshooting/incident-models/odc/im-3668.md
             - href: troubleshooting/incident-models/odc/im-3813.md
             
+            - href: troubleshooting/incident-models/odc/im-3927.md
             # End ODC IMs
     # End Incident Models
 
@@ -484,6 +485,7 @@
         - href: error/mabs/os-mco-40011.md
         - href: error/mabs/os-mco-40012.md
         - href: error/mabs/os-mco-40013.md
+        - href: error/mabs/os-mco-40014.md
         - href: error/mabs/os-mco-50001.md
         - href: error/mabs/os-mco-50002.md
         - href: error/mabs/os-mco-50003.md

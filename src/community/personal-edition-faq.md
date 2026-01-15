@@ -24,11 +24,11 @@ The OutSystems Personal Edition is free of charge and can be retained indefinite
 
 * Whenever you register for a new Personal Edition, you must log in within the first three days. If you don’t do so, you will need to request a new one.
 
-* You need to keep using it regularly; if not, the Personal Edition will eventually be deleted. You will be notified by email about the pending deletion of your Personal Edition, and you can always download all your assets (apps, agentic app, libraries, or data) to prevent losing them.  
+* You need to use it regularly; if not, the Personal Edition will be deleted, and you will permanently lose all your progress, configurations, and data. To avoid losing your work, export your apps’ OML files before deletion. This allows you to save your apps locally and import them into a new Personal Edition at a later time.
 
 * Even if your current Personal Edition gets deleted, you can always request a new one. To do it, you must go to the [Personal Edition](https://www.outsystems.com/personaledition/) portal and request a new one.
 
-**I've requested a Personal Edition but it's not yet available. What happened?**
+**I've requested a Personal Edition, but it's not yet available. What happened?**
 
 Personal Editions are usually available right away. In rare cases, high demand might mean your Personal Edition takes longer to create, and you'll be placed on a waiting list. Creation times vary, we'll email you as soon as your Personal Edition is ready.
 
@@ -38,7 +38,7 @@ Yes. The invite is done from the ODC portal, and users will access the ODC porta
 
 **What is included in the OutSystems Personal Edition?**
 
-The OutSystems Personal Edition is designed for training, sandboxing, and exploring ODC, and it is thus different from the commercial*grade ODC tenant we provide our customers and includes the following:
+The OutSystems Personal Edition is designed for training, sandboxing, and exploring ODC, and it is thus different from the commercial-grade ODC tenant we provide our customers and includes the following:
 
 * 1 Development stage
 
@@ -66,7 +66,7 @@ Add-ons are not included in the Personal Edition, except for Private Gateways.
 **What kind of apps can be built in the OutSystems Personal Edition?**
 
 The OutSystems Personal Edition can be used to develop any type of OutSystems application, from mobile to web, agentic apps, and workflows.
-Note that OutSystems Personal Editions are designed for exploration, training, and sandboxing use cases, so they are best suited for small developments. It's not supported for mission*critical or heavy-usage apps.
+Note that OutSystems Personal Editions are designed for exploration, training, and sandboxing use cases, so they are best suited for small developments. It's not supported for mission-critical or heavy-usage apps.
 
 **Is the Agent Workbench available in OutSystems Personal Edition?**
 
@@ -87,7 +87,7 @@ Yes. Trial models, Claude 3.7 Sonnet, and Amazon Nova Pro are supported by defau
 **What happens when I reach the limit of my Trial model when using an Agent?**
 
 Once the limit is reached, additional calls return an error. In the ODC Portal's AI models console, the trial card shows that the limit has been reached.
-Passing the error information to the agent's end*user sees the error depends on your design of the Agentic app, but the event is always logged and shown in the ODC Portal, on the Logs page.
+Passing the error information to the agent's end user depends on your design of the Agentic app, but the event is always logged and shown in the ODC Portal, on the Logs page.
 
 As described above, AI trial models cannot be renewed.  If you have your own paid AI models, you can add them to your OutSystems Personal Edition.
 
