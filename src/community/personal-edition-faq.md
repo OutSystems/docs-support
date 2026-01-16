@@ -42,6 +42,8 @@ The OutSystems Personal Edition is designed for training, sandboxing, and explor
 
 * 1 Development stage
 
+* 2 API clients
+
 * Up to 100 internal users
 
 * Up to 8 active components running at any given time. This total includes applications, workflows, AI agents, and timers.
