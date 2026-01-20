@@ -19,7 +19,7 @@ coverage-type:
 # OS-DP-STREAM-00001
 
 <details>
-<summary> <strong> App analytics stream in ODC</strong></summary>
+<summary> <strong> Streaming audit and observability data in ODC</strong></summary>
 
 ## Error message
 
@@ -48,7 +48,7 @@ Check if the destination works correctly and re-establish the connection.
 
 ## Cause
 
-The error occurs when testing the connection after [Configuring the log streaming service in LifeTime](https://www.outsystems.com/tk/redirect?g=172ac547-add4-4cc5-9adf-d72fbe379d35) and the destination server responds with a a gRPC 1 (Cancelled) error.
+The error occurs when testing the connection after [Configuring the log streaming service in LifeTime](https://www.outsystems.com/tk/redirect?g=172ac547-add4-4cc5-9adf-d72fbe379d35) and the destination server responds with a gRPC 1 (Cancelled) error.
 
 ## Impact
 
