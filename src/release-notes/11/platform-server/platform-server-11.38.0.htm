@@ -13,8 +13,8 @@ pageprivacy: public
 <li>Added support for MySQL 8.4 as external database. (R11BRT-1910)</li>
 <li>Upgraded RabbitMQ.Client library from version 5.1.0 to version 7.1.2 (R11BRT-1923)</li>
 <li>Changed the AES implementation used for encrypting and decrypting view state in Traditional Applications from the obsolete AESManaged to AesCryptoServiceProvider. (R11BRT-1933)</li>
-<li>OutSystems Platform can now be installed on FIPS-compliant systems. Check the FIPS-compliance section of the System Requirements page for details. (R11BRT-1981)</li>
-<li>Added support for PostgreSQL 17 as external database. (R11BRT-488)</li>
+<li>OutSystems Platform can now be installed on FIPS-compliant systems. Check the FIPS-compliance section of the System Requirements page for details. (R11BRT-1981)</li>
+<li>Added support for PostgreSQL 17 as external database. Upgraded Npgsql (PostgreSQL library) from version 5.0.18 to 8.0.7. These versions include breaking changes that may cause custom connectors or extensions using the Npgsql driver from working properly. If you are still using ardoPostgreSQL to connect to a PostgreSQL database, please follow our official documentation on <a href="https://success.outsystems.com/documentation/how_to_guides/integrations/migrate_from_ardopostgresql_to_supported_postgresql_connector/">how to migrate to the support PostgreSQL connector</a>. (R11BRT-488)</li>
 </ul>
 <h3 id="bug_fixing_platform_server_11.38.0" >Bug Fixing</h3>
 <ul>
