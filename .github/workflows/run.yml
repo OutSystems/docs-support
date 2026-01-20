@@ -84,7 +84,17 @@ jobs:
     secrets: inherit
     with:
       changed-files: ${{ needs.pr-info.outputs.changed-files }}
+      pull-request: ${{ needs.pr-info.outputs.pull-request }}
 
+  validate-toc:
+    name: Validate files in TOC
+    needs: [pr-info]
+    if: needs.pr-info.outputs.changed-files != ''
+    uses: ./.github/workflows/validate-toc.yml
+    with:
+      changed-files: ${{ needs.pr-info.outputs.changed-files }}
+    secrets: inherit
+  
   frontmatter:
     name: Frontmatter
     uses: ./.github/workflows/validate-frontmatter.yml

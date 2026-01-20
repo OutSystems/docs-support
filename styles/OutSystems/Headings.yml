@@ -11,6 +11,8 @@ indicators:
   - '.'
 exceptions:
 # Product
+  - Application Objects
+  - AO
   - Center
   - Conversion Assessment Tool
   - Integration Builder
@@ -39,6 +41,9 @@ exceptions:
   - Asset Repository API
   - Asset Configurations
   - Asset Configurations API
+  - Forge
+  - Self-hosted
+  
 # Concepts
   - Action
   - Activity
@@ -55,14 +60,20 @@ exceptions:
   - Business Process
   - Callback
   - Client
+  - EC
   - Email
   - Entity
   - Entities
   - EPA_Taskbox
   - EPA_TaskboxExtension
   - Exception
+  - GetUserId
+  - HMAC
   - Identifier
   - IT
+  - JWT
+  - JSON Web Keys
+  - JWK
   - Library
   - Local
   - Method
@@ -80,6 +91,7 @@ exceptions:
   - Refresh
   - Resource
   - Role
+  - RSA
   - Screen
   - Server
   - Service
@@ -96,6 +108,72 @@ exceptions:
   - Variable
   - Web
   - WCAG 2.2 AA
+  - GetAcessToken
+  - SendNotificationToTopics
+  - SendNotificationToUsers
+  - SendSilentNotificationToTopics
+  - SendSilentNotificationToUsers
+  - Create/Upgrade
+  - appName
+  - manifest
+  - gradle
+  - res
+  - json
+  - xml
+  - copy
+  - code
+  - tar
+  - displayName
+  - productName
+  - buildSettings
+  - buildPhases
+  - plist
+  - xcprivacy
+  - entitlements
+  - frameworks
+  - xcconfig
+  - strings
+  - JSON
+  - pluginConfigurations
+  - properties
+  - cordova
+  - preferences
+  - capacitor
+  - configurations
+  - android {#android-2
+  - ios {#ios-2}
+  - permissions
+  - ios
+  - android
+  - ios additional properties
+  - buildConfigurations
+  - properties {#properties-1}
+  - cordova {#cordova-1}
+  - source
+  - npm
+  - variables
+  - resources
+  - capacitor {#capacitor-1}
+  - source {#source-1}'
+  - npm {#npm-1}
+  - android {#android-1}
+  - ios {#ios-1
+  - config
+  - parameters
+  - Cordova-based
+  - Cordova-only
+  - ViewState
+  - WorkflowNewCustomerLoan
+  - NSCameraUsageDescription
+  - ScanOrientation
+  - OS-BERT-60400
+  - Intake
+  - Enrichment
+  - Underwriter
+  - Communication
+  - Paula
+  - USB
+  - PC
 # Events
   - On Initialize
   - On Ready
@@ -120,31 +198,43 @@ exceptions:
   - Swipe Events
   - Switch
   - Touch Events
+  - Dropdown Server Side
 # Widgets
   - Widget
   - Link
   - List Item
 # Third Party
   - Active Directory
+  - AgentFlow
+  - Agent Flow
   - Amazon Kendra
   - Android
+  - Google
   - Apple Developer
   - AWS Firehose
   - JSON
+  - IdP
+  - IdPs
   - Azure
+  - BuildMessages
+  - Microsoft Entra ID
   - Cascading Style Sheets
+  - CallAgent01_Intake 
   - CSS
   - Chrome
   - Code
   - Docker
   - DOM
   - Excel
+  - Okta
   - Git
   - Google Play
   - HIPPA
   - iOS
   - Integrated Authentication
   - Kubernetes
+  - Loan Origination
+  - LoanOrigination
   - Package
   - Store
   - Tips
@@ -152,15 +242,33 @@ exceptions:
   - TypeScript
   - Windows
   - Visual Studio
+  - URI
+  - URIs
   - SAP
   - Cross-site Scripting
   - XSS
   - shred.bundle.js
   - CSV
   - Firebase Cloud Messaging
-  - Firebase Peformance
+  - Firebase Performance
+  - Platform Tab in Oracle
+  - Privacy Policy file
+  - Health and Fitness Plugin
+  - HealthKit
+  - Health Connect
+  - Firebase Analytics
+  - Firebase Crashlytics
+  - SSL Pinning
+  - OpenTelemetry Collector
+  - Amazon Bedrock
+  - IBM
+  - GPT-4o
+  - Claude 3.7 Sonnet
+  - Amazon Nova Pro
+  - Chrome DevTools
 # Industry
   - API
+  - HTML
   - APIs
   - IP
   - FAQ
@@ -171,6 +279,13 @@ exceptions:
   - UI
   - SAST
   - REST
+  - HTTP
+  - FCM
+  - CI/CD
+  - CICD
+  - EAP
+  - JavaScript
+  - UI
 # Country
   - US East
   - North Virginia
@@ -197,3 +312,30 @@ exceptions:
   - Jakarta
   - Europe
   - London
+# Certifications and Boot Camps
+  - Associate Developer
+  - Boot Camp
+# Errors
+  - OS-DP-STREAM-00001
+  - OS-DP-STREAM-00002
+  - OS-DP-STREAM-00003
+  - OS-DP-STREAM-00004
+  - OS-DP-STREAM-00005
+  - OS-DP-STREAM-00006
+  - OS-DP-STREAM-00007
+  - OS-DP-STREAM-00008
+  - OS-DP-STREAM-00009
+  - OS-DP-STREAM-00010
+  - OS-DP-STREAM-00011
+  - OS-DP-STREAM-00012
+  - OS-DP-STREAM-00013
+  - OS-DP-STREAM-00014
+  - OS-DP-STREAM-00015
+  - OS-DP-STREAM-00016
+  - OS-DP-STREAM-30101
+  - OS-DP-STREAM-40101
+  - OS-DP-STREAM-40301
+  - OS-DP-STREAM-40401
+  - OS-DP-STREAM-50001
+  - OS-DP-STREAM-50002
+  - OS-DP-STREAM-50003
