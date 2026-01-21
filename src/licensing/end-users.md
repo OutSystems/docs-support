@@ -57,13 +57,13 @@ Each OutSystems subscription has an associated end-user capacity: the maximum nu
 
     * If the same individual uses apps in different production runtimes, it is counted in the estimate presented for each of the production runtimes.
 
-    * For the purpose of counting users, the platform deduplicates records with the same email address or login, as long as they are assigned to a [default tenant](https://success.outsystems.com/documentation/how_to_guides/development/how_to_build_a_multi_tenant_application/#multi-tenancy-in-outsystems-platform), even across [user providers](intro.md#User-providers).
+    * For the purpose of counting users, the platform deduplicates records with the same email address or login, as long as they are assigned to different [default tenant](https://success.outsystems.com/documentation/how_to_guides/development/how_to_build_a_multi_tenant_application/#multi-tenancy-in-outsystems-platform). This means that users that exist in the default tenant (different [user providers](intro.md#User-providers)) will count as one unique user. Note that the deduplication does not apply to users assigned to non-default tenants. This means that records with the same email address or login that belong to non-default tenants (same or different User Providers) will still count as distinct users.
 
     * Users without an email in neither the **Email** nor **Username** fields always count as internal.
 
     * The values displayed on the **User Distribution Per User Provider** table in Service Center show the total number of users without deduplication.
 
-    * From Platform Server version 11.11.3 and higher, users are counted by deduplicating records with the same email address or login, as long as they are assigned to a [default tenant](https://success.outsystems.com/documentation/how_to_guides/development/how_to_build_a_multi_tenant_application/#multi-tenancy-in-outsystems-platform), even across user providers. In earlier versions, all users were counted individually without deduplication.
+    * From Platform Server version 11.11.3 and higher, users are counted by deduplicating records with the same email address or login, as long as they are assigned to different [default tenant](https://success.outsystems.com/documentation/how_to_guides/development/how_to_build_a_multi_tenant_application/#multi-tenancy-in-outsystems-platform), across user providers. In earlier versions, all users were counted individually without deduplication.
 
     * Versions prior to Platform Server 11.7.0 don't support classifying end users as internal or external, so customers should update to the latest version to take advantage of this. Older licensing models licensed "named" users, which didn't require end users to be classified as internal or external.
 
