@@ -32,7 +32,7 @@ There are two ways to choose how to upgrade your OutSystems Cloud demo environme
 
 ## Self-service upgrade
 
-You can schedule the upgrade of each of your environments on your own once you receive a communication from OutSystems regarding a new platform version. Usually, we provide a two-week window for self-service upgrades. To schedule an upgrade to the latest available version follow these steps:
+You can schedule the upgrade of each of your environments on your own once you receive a communication from OutSystems regarding a new platform version. Usually, we provide a one-week window for self-service upgrades. To schedule an upgrade to the latest available version follow these steps:
 
 1. Access your Cloud demo LifeTime console, and navigate to the Environments tab.
 
