@@ -1,0 +1,25 @@
+---
+isautopublish: true
+pageprivacy: semi-private
+---
+
+<h2 id="lifetime_management_console_11.28.1" >LifeTime Management Console 11.28.1</h2>
+<div class="info"><p>This is a preliminary version of the document.</p></div>
+
+
+<style>.cattag {background: #f4f2ff; color: #6a6581; padding: 4px 10px;}</style>
+<h3 id="bug_fixing_lifetime_management_console_11.28.1" >Bug Fixing</h3>
+<ul>
+<li>Added the TeamKey attribute to the Application&#39;s response structure used in the following endpoints: Applications_Get, Applications_List, Environments_GetRunningApp, Environments_GetRunningApps. By adding the TeamKey we&#39;re providing the unique identifier for the Team in the case an application is included in a team. (R11CT-4551)</li>
+<li>Fixed an issue in the &quot;Expose Entities&quot; feature where the &quot;Entity not public&quot; label was incorrectly shown on the &#39;Propagate Views&#39; screen.<br/>
+This happened when an entity view had been removed from the source environment but was still exposed in the target environment.<br/>
+The label is now correctly displayed. (R11CT-4555)</li>
+<li>Fixed an issue in the &quot;Expose Entities&quot; feature where removing an entity view could fail with a &quot;Not Found&quot; exception if the associated entity no longer existed.<br/>
+The view is now properly removed from the local cache. (R11CT-4558)</li>
+<li>Fixed an issue in the &quot;Expose Entities&quot; feature that caused the modules dropdown to appear empty on the &#39;ManageAccess&#39; screen.<br/>
+This occurred when the baseline environment was running a Platform Server version earlier than 11.38.0.<br/>
+The list of available modules is now fetched correctly. (R11CT-4596)</li>
+<li>Fixed an issue in the &quot;Expose Entities&quot; feature that caused the modules dropdown on the &#39;ManageAccess&#39; screen to list extensions. External entities from extensions aren&#39;t supported by this feature.<br/>
+The list of available modules is now fetched correctly by excluding extensions. (RPM-6449)</li>
+</ul>
+
