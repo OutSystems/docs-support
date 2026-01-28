@@ -11,8 +11,7 @@ pageprivacy: public
 <h3 id="bug_fixing_lifetime_management_console_11.28.1" >Bug Fixing</h3>
 <ul>
 <li>Added the TeamKey attribute to the Application&#39;s response structure used in the following endpoints: Applications_Get, Applications_List, Environments_GetRunningApp, Environments_GetRunningApps. By adding the TeamKey we&#39;re providing the unique identifier for the Team in the case an application is included in a team. (R11CT-4551)</li>
-<li>Fixed an issue in the &quot;Expose Entities&quot; feature where the &quot;Entity not public&quot; label was incorrectly shown on the &#39;Propagate Views&#39; screen.<br/>
-This happened when an entity view had been removed from the source environment but was still exposed in the target environment.<br/>
+<li>Fixed an issue in the &quot;Expose Entities&quot; feature where the &quot;Entity not public&quot; label was incorrectly shown on the &#39;Propagate Views&#39; screen. This happened when an entity view had been removed from the source environment but was still exposed in the target environment.<br/>
 The label is now correctly displayed. (R11CT-4555)</li>
 <li>Fixed an issue in the &quot;Expose Entities&quot; feature where removing an entity view could fail with a &quot;Not Found&quot; exception if the associated entity no longer existed.<br/>
 The view is now properly removed from the local cache. (R11CT-4558)</li>
