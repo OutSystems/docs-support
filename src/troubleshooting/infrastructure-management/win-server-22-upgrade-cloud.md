@@ -107,8 +107,7 @@ Custom extensions built for Windows Server 2016 may not behave as expected on Wi
 
 #### Actions required
 
-1. Review your custom extensions for explicit dependencies on Windows Server 2016.  
-1. Rebuild or retarget any extensions using legacy .NET Framework configurations that are incompatible with Windows Server 2022.
+* Review your custom extensions for explicit dependencies on Windows Server 2016 or configurations that are incompatible with Windows Server 2022.
 
 ### Private IP address changes {#private-ip-address-changes}
 
