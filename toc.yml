@@ -37,11 +37,11 @@
             - href: release-notes/mabs/11/11.2/11.2.md
             - href: release-notes/mabs/11/11.1/11.1.md
             - href: release-notes/mabs/11/11.0/11.0.md
-        - href: release-articles/mabs/mabs-10.md
-        - topics:
-            - href: release-notes/mabs/10/10.0/10.0.md
         - href: release-articles/mabs/older-releases.md
         - topics:
+            - href: release-articles/mabs/mabs-10.md
+            - topics:
+                - href: release-notes/mabs/10/10.0/10.0.md
             - href: release-notes/mabs/9/mabs-9.md
             - topics:
                 - href: release-notes/mabs/9/9.0/9.0.md
