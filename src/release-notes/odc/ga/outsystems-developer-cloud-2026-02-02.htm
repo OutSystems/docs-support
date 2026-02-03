@@ -12,5 +12,6 @@ pageprivacy: public
 <ul>
 <li>Fixed an issue that caused an error when displaying workflow instances with nested branches on parallel paths. (RDLOT-4169)</li>
 <li>Improved the O11 connection creation experience for cases where the O11 infrastructure does not meet the requirements. Now, when one of the requisites is not met, an appropriate informational banner will be displayed. (RPM-6459)</li>
+<li>Fixed an issue where certain External Libraries (such as UltimatePDF) failed to locate bundled resources due to the new isolation structure. While assemblies remain isolated, static assets and resources are now correctly mapped to the host directory to ensure compatibility with libraries using AppDomain.CurrentDomain.BaseDirectory. (RTAFB-8901)</li>
 </ul>
 
