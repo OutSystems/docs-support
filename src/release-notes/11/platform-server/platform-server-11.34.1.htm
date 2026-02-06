@@ -10,8 +10,8 @@ pageprivacy: public
 <style>.cattag {background: #f4f2ff; color: #6a6581; padding: 4px 10px;}</style>
 <h3 id="new_in_platform_server_11.34.1" >New in Platform Server 11.34.1</h3>
 <ul>
-<li>The OutSystems Platform no longer reports that it is using JQuery-ui and JQuery-ui-dialog version 1.8.24. 
-OutSystems ships a custom fork of jQuery UI 1.8.24 with back-ported fixes for all known vulnerabilities. Previously, the platform reported this fork as version 1.8.24, which led to false positives in security scans.
+<li>The OutSystems Platform no longer reports that it is using JQuery-ui and JQuery-ui-dialog version 1.8.24. <br/>
+OutSystems ships a custom fork of jQuery UI 1.8.24 with back-ported fixes for all known vulnerabilities. Previously, the platform reported this fork as version 1.8.24, which led to <a href="https://success.outsystems.com/support/security/penetration_testing/">false positives in security scans</a>.<br/>
 If your application logic relies on detecting the 1.8.24 version string, it may no longer behave as expected. This is not a supported use case and should be avoided. (R11DT-3109)</li>
 </ul>
 
