@@ -15,12 +15,12 @@ pageprivacy: public
 </ul>
 <h3 id="bug_fixing_platform_server_11.39.0" >Bug Fixing</h3>
 <ul>
-<li>Fixed an issue that caused DBCleaner_API&#39;s Attribute_ListDeleted to return active attributes which have the same name as one that was previously deleted. (R11BRT-2027)</li>
+<li>Fixed an issue that caused DBCleaner_API's Attribute_ListDeleted to return active attributes which have the same name as one that was previously deleted. (R11BRT-2027)</li>
 <li>Fixed an issue in Server.API that caused slowness in some endpoints related to Entities. (R11BRT-2037)</li>
-<li>Fixed an issue that caused false positives in the detection of breaking changes of processes during a publication. <br/>
-This occurred when the processes had a loop pattern.<br/>
-Created a new algorithm to reduce the number of false positives. This algorithm has a performance impact and can be enabled via Factory Configuration. (RPM-6022)</li>
-<li>Fixed an issue where Service Center would fail to call the compiler service due to a cached telemetry initialization error. (RPM-6035)</li>
+<li>Fixed an issue that caused false positives in the detection of breaking changes of processes during a publication. 
+This occurred when the processes had a loop pattern.
+Created a new algorithm to reduce the number of false positives. This algorithm has a performance impact and can be enabled via Factory Configuration. (RPM-6022) <span class="cattag">Publish Operation</span>  <span class="cattag">Impact Analysis</span> </li>
+<li>Fixed an issue where Service Center would fail to call the compiler service due to a cached telemetry initialization error. (RPM-6035) <span class="cattag">Publish Operation</span>  <span class="cattag">Compilation</span> </li>
 <li>Updated a third-party Platform dependency to address a known vulnerability (CVSS 9.1). Detailed analysis confirmed the Platform and Applications are not vulnerable to the reported vulnerability prior to this update. No immediate action is required regarding this vulnerability. (R11DT-3356)</li>
 </ul>
 
