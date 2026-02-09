@@ -1,0 +1,21 @@
+---
+isautopublish: true
+pageprivacy: semi-private
+---
+
+<h2 id="platform_server_11.40.1" >Platform Server 11.40.1</h2>
+<div class="info"><p>This is a preliminary version of the document.</p></div>
+
+
+<style>.cattag {background: #f4f2ff; color: #6a6581; padding: 4px 10px;}</style>
+<h3 id="new_in_platform_server_11.40.1" >New in Platform Server 11.40.1</h3>
+<ul>
+<li>To enhance data privacy, REST Expose now automatically redacts Authorization headers in integration logs, ensuring consistency with the existing REST Consume logic. (R11DT-3426)</li>
+</ul>
+<h3 id="bug_fixing_platform_server_11.40.1" >Bug Fixing</h3>
+<ul>
+<li>Fixed warnings in detached Applications and Scheduler source related to the usage of third party libraries that are not supported in older .Net Framework versions. This change has no runtime impacts, as all versions were already compatible with the current OutSystems Platform system requirements. (R11BRT-2206)</li>
+<li>Fixed an issue on the Extension log page where sometimes the user wasn't able to see any results if filtering by (All) extensions while using Log Separation. (RPM-4823) <span class="cattag">Application Lifecycle</span>  <span class="cattag">Service Center</span> </li>
+<li>Fixed a security vulnerability that could lead to account takeover when using SAML based authentication mechanisms. (RPM-6374) <span class="cattag">Infrastructure Management</span>  <span class="cattag">Cloud Backbone</span> </li>
+</ul>
+
