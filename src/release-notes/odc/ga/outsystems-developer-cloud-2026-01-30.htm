@@ -1,8 +1,19 @@
 ---
 isautopublish: true
-pageprivacy: semi-private
+pageprivacy: public
 ---
 
-<h2 id="outsystems_developer_cloud_new" >OutSystems Developer Cloud new</h2>
-<div class="info"><p>This is a preliminary version of the document.</p></div>
+<h2 id="outsystems_developer_cloud_2026-01-30" >OutSystems Developer Cloud 2026-01-30</h2>
+<div class="info"><p>Released on Jan 30, 2026</p></div>
+
+
+<style>.cattag {background: #f4f2ff; color: #6a6581; padding: 4px 10px;}</style>
+<h3 id="bug_fixing_outsystems_developer_cloud_2026-01-30" >Bug Fixing</h3>
+<ul>
+<li>Fixed an issue where the platform's messaging system could become out-of-sync, causing Events and Workflows not to be executed.
+This occurred when message filtering rules were dynamically updated, preventing some platform services from correctly processing messages.
+Affected scenarios:
+- Event handlers not triggered despite successful event publication
+- Workflow execution not triggered (RPM-6095)</li>
+</ul>
 
