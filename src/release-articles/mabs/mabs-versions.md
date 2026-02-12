@@ -4,6 +4,7 @@ guid: 61CB98BF-3C28-4590-9E19-0C1C7B7F0408
 locale: en-us
 app_type: mobile apps
 platform-version: o11, odc
+figma: https://www.figma.com/design/UXA74OsZxSIzLLsjhvNMjC/Release-Notes?node-id=1296-2
 tags: mobile apps build service, mabs, versioning, android compatibility, ios compatibility
 audience:
   - mobile developers
@@ -52,9 +53,9 @@ It's recommended to update all supported plugins to the latest version available
 
 This version can run your apps on:
 
-<small>![Icon representing the Android operating system.](images/android-icon.png "Android Icon") Android 9 to 16</small>
+<small>![Icon representing the Android operating system.](images/android-icon-ss.png "Android Icon") Android 9 to 16</small>
 
-<small>![Icon representing the iOS operating system.](images/iOS-icon.png "iOS Icon") iOS 15 to 26</small>
+<small>![Icon representing the iOS operating system.](images/ios-icon-ss.png "iOS Icon") iOS 15 to 26</small>
 
 **More details:**
 
@@ -108,9 +109,9 @@ It's recommended to update all supported plugins to the latest version available
 
 This version can run your apps on:
 
-<small>![Icon representing the Android operating system.](images/android-icon.png "Android Icon") Android 9 to 15</small>
+<small>![Icon representing the Android operating system.](images/android-icon-ss.png "Android Icon") Android 9 to 15</small>
 
-<small>![Icon representing the iOS operating system.](images/iOS-icon.png "iOS Icon") iOS 15 to 18</small>
+<small>![Icon representing the iOS operating system.](images/ios-icon-ss.png "iOS Icon") iOS 15 to 18</small>
 
 **More details:**
 
@@ -147,7 +148,7 @@ This version can run your apps on:
 
 <div class="info" markdown="1">
 
-CUrrently, there are no deprecated MABS versions.
+Currently, there are no deprecated MABS versions.
 
 </div>
 

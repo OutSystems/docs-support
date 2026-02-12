@@ -5,7 +5,7 @@ guid: 400d26bc-cbcc-4592-9980-f967534d443c
 locale: en-us
 app_type: mobile apps
 platform-version: o11, odc
-figma: 
+figma: https://www.figma.com/design/UXA74OsZxSIzLLsjhvNMjC/Release-Notes?node-id=1296-2
 ---
 
 # Obsolete MABS versions
@@ -33,9 +33,9 @@ It's recommended to update all supported plugins to the latest version available
 
 This version can run your apps on:
 
-<small>![Icon representing the Android operating system.](images/android-icon.png "Android Icon") Android 9 to 15</small>
+<small>![Icon representing the Android operating system.](images/android-icon-ss.png "Android Icon") Android 9 to 15</small>
 
-<small>![Icon representing the iOS operating system.](images/iOS-icon.png "iOS Icon") iOS 15 to 18</small>
+<small>![Icon representing the iOS operating system.](images/ios-icon-ss.png "iOS Icon") iOS 15 to 18</small>
 
 **More details:**
 
@@ -88,9 +88,9 @@ It's recommended to update all supported plugins to the latest version available
 
 This version can run your apps on:
 
-<small>![Icon representing the Android operating system.](images/android-icon.png "Android Icon") Android 9 to 15</small>
+<small>![Icon representing the Android operating system.](images/android-icon-ss.png "Android Icon") Android 9 to 15</small>
 
-<small>![Icon representing the iOS operating system.](images/iOS-icon.png "iOS Icon") iOS 14 to 18</small>
+<small>![Icon representing the iOS operating system.](images/ios-icon-ss.png "iOS Icon") iOS 14 to 18</small>
 
 **More details:**
 
@@ -141,9 +141,9 @@ It's recommended to update all supported plugins to the latest version available
 
 This version can run your apps on:
 
-<small>![Icon representing the Android operating system.](images/android-icon.png "Android Icon") Android 9 to 15</small>
+<small>![Icon representing the Android operating system.](images/android-icon-ss.png "Android Icon") Android 9 to 15</small>
 
-<small>![Icon representing the iOS operating system.](images/iOS-icon.png "iOS Icon") iOS 15 to 18</small>
+<small>![Icon representing the iOS operating system.](images/ios-icon-ss.png "iOS Icon") iOS 15 to 18</small>
 
 **More details:**
 
@@ -193,9 +193,9 @@ It's recommended to update all supported plugins to the latest version available
 
 This version can run your apps on:
 
-<small>![Icon representing the Android operating system.](images/android-icon.png "Android Icon") Android 8 (9 for ODC) to 14</small>
+<small>![Icon representing the Android operating system.](images/android-icon-ss.png "Android Icon") Android 8 (9 for ODC) to 14</small>
 
-<small>![Icon representing the iOS operating system.](images/iOS-icon.png "iOS Icon") iOS 13 to 17</small>
+<small>![Icon representing the iOS operating system.](images/ios-icon-ss.png "iOS Icon") iOS 13 to 17</small>
 
 **More details:**
 
@@ -238,7 +238,7 @@ Obsolete on January 29th 2024</div>
 
 This version can run your apps on:
 
-<small>![Icon representing the Android operating system.](images/android-icon.png "Android Icon") Android 8 to 13 ![Icon representing the iOS operating system.](images/iOS-icon.png "iOS Icon") iOS 13 to 16</small>
+<small>![Icon representing the Android operating system.](images/android-icon-ss.png "Android Icon") Android 8 to 13 ![Icon representing the iOS operating system.](images/ios-icon-ss.png "iOS Icon") iOS 13 to 16</small>
 
 **More details:**
 
@@ -285,7 +285,7 @@ Obsolete on Aug 29 2023</small>
 
 This version can run your apps on:
 
-<small>![Icon representing the Android operating system.](images/android-icon.png "Android Icon") Android 5.0 to 10.0 ![Icon representing the iOS operating system.](images/iOS-icon.png "iOS Icon") iOS 10.0 to 13.3</small>
+<small>![Icon representing the Android operating system.](images/android-icon-ss.png "Android Icon") Android 5.0 to 10.0 ![Icon representing the iOS operating system.](images/ios-icon-ss.png "iOS Icon") iOS 10.0 to 13.3</small>
 
 **More details:**
 
@@ -337,7 +337,7 @@ Obsolete on Feb 10 2023</small>
 
 This version can run your apps on:
 
-<small>![Icon representing the Android operating system.](images/android-icon.png "Android Icon") Android 6 to 12 ![Icon representing the iOS operating system.](images/iOS-icon.png "iOS Icon") iOS 12 to 15</small>
+<small>![Icon representing the Android operating system.](images/android-icon-ss.png "Android Icon") Android 6 to 12 ![Icon representing the iOS operating system.](images/ios-icon-ss.png "iOS Icon") iOS 12 to 15</small>
 
 **More details:**
 
@@ -384,7 +384,7 @@ Obsolete on Jul 25 2022</small>
 
 This version can run your apps on:
 
-<small>![Icon representing the Android operating system.](images/android-icon.png "Android Icon") Android 8 to 12  ![Icon representing the iOS operating system.](images/iOS-icon.png "iOS Icon") iOS 13 to 15</small>
+<small>![Icon representing the Android operating system.](images/android-icon-ss.png "Android Icon") Android 8 to 12  ![Icon representing the iOS operating system.](images/ios-icon-ss.png "iOS Icon") iOS 13 to 15</small>
 
 **More details:**
 
@@ -429,7 +429,7 @@ This version can run your apps on:
 
 This version can run your apps on:
 
-<small>![Icon representing the Android operating system.](images/android-icon.png "Android Icon") Android 5.0 to 11.0 ![Icon representing the iOS operating system.](images/iOS-icon.png "iOS Icon") iOS 11.0 to 14.5</small>
+<small>![Icon representing the Android operating system.](images/android-icon-ss.png "Android Icon") Android 5.0 to 11.0 ![Icon representing the iOS operating system.](images/ios-icon-ss.png "iOS Icon") iOS 11.0 to 14.5</small>
 
 **More details:**
 
@@ -482,7 +482,7 @@ Obsolete on Dec 13 2021</small>
 
 This version can run your apps on:
 
-<small>![Icon representing the Android operating system.](images/android-icon.png "Android Icon") Android 6.0 to 12.0 ![Icon representing the iOS operating system.](images/iOS-icon.png "iOS Icon") iOS 12.0 to 15.0</small>
+<small>![Icon representing the Android operating system.](images/android-icon-ss.png "Android Icon") Android 6.0 to 12.0 ![Icon representing the iOS operating system.](images/ios-icon-ss.png "iOS Icon") iOS 12.0 to 15.0</small>
 
 **More details:**
 
@@ -537,7 +537,7 @@ Obsolete on Sep 15 2021</small>
 
 This version can run your apps on:
 
-<small>![Icon representing the Android operating system.](images/android-icon.png "Android Icon") Android 6.0 to 12.0 ![Icon representing the iOS operating system.](images/iOS-icon.png "iOS Icon") iOS 12.0 to 14.6</small>
+<small>![Icon representing the Android operating system.](images/android-icon-ss.png "Android Icon") Android 6.0 to 12.0 ![Icon representing the iOS operating system.](images/ios-icon-ss.png "iOS Icon") iOS 12.0 to 14.6</small>
 
 **More details:**
 
@@ -590,7 +590,7 @@ This version can run your apps on:
 
 This version can run your apps on:
 
-<small>![Icon representing the Android operating system.](images/android-icon.png "Android Icon") Android 5.0 to 11.0 ![Icon representing the iOS operating system.](images/iOS-icon.png "iOS Icon") iOS 11.0 to 14.0</small>
+<small>![Icon representing the Android operating system.](images/android-icon-ss.png "Android Icon") Android 5.0 to 11.0 ![Icon representing the iOS operating system.](images/ios-icon-ss.png "iOS Icon") iOS 11.0 to 14.0</small>
 
 **More details:**
 
@@ -643,7 +643,7 @@ This version can run your apps on:
 
 This version can run your apps on:
 
-<small>![Icon representing the Android operating system.](images/android-icon.png "Android Icon") Android 5.0 to 10.0 ![Icon representing the iOS operating system.](images/iOS-icon.png "iOS Icon") iOS 11.0 to 13.3</small>
+<small>![Icon representing the Android operating system.](images/android-icon-ss.png "Android Icon") Android 5.0 to 10.0 ![Icon representing the iOS operating system.](images/ios-icon-ss.png "iOS Icon") iOS 11.0 to 13.3</small>
 
 **More details:**
 
@@ -694,7 +694,7 @@ This version can run your apps on:
 
 This version can run your apps on:
 
-<small>![Icon representing the Android operating system.](images/android-icon.png "Android Icon") Android 5.0 to 10.0 ![Icon representing the iOS operating system.](images/iOS-icon.png "iOS Icon") iOS 11.0 to 13.3</small>
+<small>![Icon representing the Android operating system.](images/android-icon-ss.png "Android Icon") Android 5.0 to 10.0 ![Icon representing the iOS operating system.](images/ios-icon-ss.png "iOS Icon") iOS 11.0 to 13.3</small>
 
 **More details:**
 
@@ -747,7 +747,7 @@ Obsolete on Mar 09 2020</small>
 
 This version can run your apps on:
 
-<small>![Icon representing the Android operating system.](images/android-icon.png "Android Icon") Android 5.0 to 10.0 ![Icon representing the iOS operating system.](images/iOS-icon.png "iOS Icon") iOS 10.0 to 13.3</small>
+<small>![Icon representing the Android operating system.](images/android-icon-ss.png "Android Icon") Android 5.0 to 10.0 ![Icon representing the iOS operating system.](images/ios-icon-ss.png "iOS Icon") iOS 10.0 to 13.3</small>
 
 **More details:**
 
@@ -797,7 +797,7 @@ This version can run your apps on:
 
 This version can run your apps on:
 
-<small>![Icon representing the Android operating system.](images/android-icon.png "Android Icon") Android 5.0 to 10.0 ![Icon representing the iOS operating system.](images/iOS-icon.png "iOS Icon") iOS 10.0 to 13.1</small>
+<small>![Icon representing the Android operating system.](images/android-icon-ss.png "Android Icon") Android 5.0 to 10.0 ![Icon representing the iOS operating system.](images/ios-icon-ss.png "iOS Icon") iOS 10.0 to 13.1</small>
 
 **More details:**
 
@@ -847,7 +847,7 @@ This version can run your apps on:
 
 This version can run your apps on:
 
-<small>![Icon representing the Android operating system.](images/android-icon.png "Android Icon") Android 4.4 to 9.0 ![Icon representing the iOS operating system.](images/iOS-icon.png "iOS Icon") iOS 10.0 to 13.0</small>
+<small>![Icon representing the Android operating system.](images/android-icon-ss.png "Android Icon") Android 4.4 to 9.0 ![Icon representing the iOS operating system.](images/ios-icon-ss.png "iOS Icon") iOS 10.0 to 13.0</small>
 
 **More details:**
 
@@ -897,7 +897,7 @@ This version can run your apps on:
 
 This version can run your apps on:
 
-<small>![Icon representing the Android operating system.](images/android-icon.png "Android Icon") Android 4.4 to 9.0 ![Icon representing the iOS operating system.](images/iOS-icon.png "iOS Icon") iOS 10.0 to 12.1</small>
+<small>![Icon representing the Android operating system.](images/android-icon-ss.png "Android Icon") Android 4.4 to 9.0 ![Icon representing the iOS operating system.](images/ios-icon-ss.png "iOS Icon") iOS 10.0 to 12.1</small>
 
 **More details:**
 
@@ -947,7 +947,7 @@ This version can run your apps on:
 
 This version can run your apps on:
 
-<small>![Icon representing the Android operating system.](images/android-icon.png "Android Icon") Android 4.4 to 9.0 ![Icon representing the iOS operating system.](images/iOS-icon.png "iOS Icon") iOS 10.0 to 12.1</small>
+<small>![Icon representing the Android operating system.](images/android-icon-ss.png "Android Icon") Android 4.4 to 9.0 ![Icon representing the iOS operating system.](images/ios-icon-ss.png "iOS Icon") iOS 10.0 to 12.1</small>
 
 **More details:**
 
@@ -997,7 +997,7 @@ This version can run your apps on:
 
 This version can run your apps on:
 
-<small>![Icon representing the Android operating system.](images/android-icon.png "Android Icon") Android 4.4 to 9.0 ![Icon representing the iOS operating system.](images/iOS-icon.png "iOS Icon") iOS 8.0 to 12.4</small>
+<small>![Icon representing the Android operating system.](images/android-icon-ss.png "Android Icon") Android 4.4 to 9.0 ![Icon representing the iOS operating system.](images/ios-icon-ss.png "iOS Icon") iOS 8.0 to 12.4</small>
 
 **More details:**
 
