@@ -1,6 +1,6 @@
 ---
-summary: Learn how OutSystems 11 (O11) ensures secure and efficient operation through regular patching of its cloud infrastructure servers.
-tags: cloud infrastructure, system maintenance, security patching, operating systems updates, platform version updates
+summary: Learn about security updates on OutSystems 11 (O11) Cloud, including maintenance schedules, PCI DSS compliance, and expected downtime.
+tags: cloud infrastructure, system maintenance, security patching, operating systems updates, PCI DSS compliance
 locale: en-us
 guid: b41ab799-b4e4-4f0f-8141-b36fef030b0d
 app_type: traditional web apps, mobile apps, reactive web apps
@@ -16,22 +16,86 @@ coverage-type:
   - understand
 ---
 
-# System Updates on OutSystems Cloud
+# System updates on OutSystems Cloud
 
-## Why updating/patching operating systems?
+OutSystems performs regular security updates on all OutSystems Cloud infrastructure to protect against vulnerabilities and maintain system performance. These updates are required for Microsoft compliance, namely PCI DSS compliance, and help ensure your environment meets industry security standards.
 
-Patching is the process of repairing system vulnerabilities that are discovered after the infrastructure components have been released on the market. Patching is necessary to keep servers secure from attackers and viruses as well as free from bugs, which can weaken productivity.
+## PCI DSS compliance
 
-We perform regular patching on all OutSystems Cloud infrastructures' servers.
+These system updates fulfill PCI DSS Requirement 6.2, which mandates that all system components be protected from known vulnerabilities through the timely application of security patches. The regular patching schedule helps maintain your PCI-compliant environment by:
 
-## When will this maintenance occur?
+* Installing critical security patches within required timeframes
+* Maintaining current security baselines across all infrastructure
+* Documenting all security updates for compliance audits
 
-OutSystems will notify Cloud customers of scheduled maintenance operations by email. To receive such notifications, you should be registered as an [infrastructure admin in your company's Customer Portal](https://success.outsystems.com/Support/Enterprise_Customers/OutSystems_Support/Managing_your_company_permissions_on_outsystems.com#Customer_Portal_permissions). These emails will include the list of affected environments and the planned maintenance schedule (UTC 24 hour format).
+## Maintenance schedule
 
-All Microsoft's critical, important and moderate updates to the Windows operating system, as well as relevant updates to the remaining software are installed regularly.
+The following table shows the maintenance frequency and advance notice periods for each platform.
 
-Related information:
+| Platform                | Frequency | Maintenance window        | Advance notice |
+| ----------------------- | --------- | ------------------------- | -------------- |
+| OutSystems Cloud        | Quarterly | Defined by your settings  | 2 months       |
+| OutSystems Cloud Sentry | Monthly   | Defined by your settings  | 3 weeks        |
 
-* [Security Update Severity Rating System](https://www.microsoft.com/en-us/msrc/security-update-severity-rating-system) (Microsoft)
+Emergency security patches may be applied outside scheduled windows, with a minimum of 4 hours' notice.
 
-* [Security Update Guide](https://portal.msrc.microsoft.com/en-us/security-guidance) (Microsoft)
+To configure your maintenance window, see [Define a maintenance window for OutSystems Cloud environments](cloud-maintenance-window.md).
+
+### Rescheduling maintenance
+
+You can reschedule maintenance up to two hours before the scheduled window. To reschedule, contact Support or [create a support case](https://www.outsystems.com/support/portal/).
+
+## What to expect
+
+This section describes the maintenance process and its impact on your services.
+
+### Preparation phase
+
+Background system preparation begins 24 hours before the scheduled maintenance window. There's no impact on your services during this phase.
+
+### Maintenance execution window
+
+During the maintenance window, OutSystems applies security patches and operating system updates. Brief service interruptions are possible depending on your infrastructure configuration.
+
+## High availability
+
+OutSystems uses the following methods to minimize service disruption during maintenance:
+
+* **Rolling updates**: Maintenance is performed using a rolling update methodology
+* **Load balancing**: Load balancing ensures continuous service availability
+* **Automatic failover**: Failover mechanisms remain active throughout maintenance
+
+## Expected downtime
+
+The following table shows the maximum expected downtime based on your infrastructure configuration.
+
+| Infrastructure configuration | Maximum downtime |
+| ---------------------------- | ---------------- |
+| Single front-end             | 60 minutes       |
+| Multiple front-ends          | No downtime      |
+| Load balancer                | No downtime      |
+
+If you experience longer downtime than expected, contact support immediately. OutSystems monitors all maintenance operations and investigates any issues.
+
+## Email notifications
+
+You receive two emails per environment during the maintenance process:
+
+1. **Initial notice**: Sent according to the advance notice period in the maintenance schedule
+1. **Confirmation**: Sent after maintenance completes
+
+If maintenance is delayed or cancelled, you receive updated notifications at least 4 hours before any schedule changes.
+
+<div class="info" markdown="1">
+
+To receive notifications, you must be registered as an Infrastructure Admin in your [Customer Portal](https://www.outsystems.com/csportal/).
+
+</div>
+
+## Required actions
+
+No action is required from you throughout this maintenance process.
+
+## Need help?
+
+If you need assistance, contact support through the [Support Portal](https://www.outsystems.com/support/portal/) or one of the [alternative phone contacts](https://success.outsystems.com/Support/Enterprise_Customers/OutSystems_Support/01_Contact_OutSystems_technical_support#Phone_Support).
