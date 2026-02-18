@@ -19,32 +19,32 @@ coverage-type:
 
 # Mobile app to server communication and security
 
-In an OutSystems Mobile application, all the communication between the app and the Platform Server is done through REST calls. All the calls to Aggregates/Data Actions and Server Actions in Mobile modules will have REST endpoints generated automatically by the platform.
+In an OutSystems mobile application, the app communicates with the Platform Server through REST calls. The platform automatically generates REST endpoints for all calls to Aggregates, Data Actions, and Server Actions in mobile modules.
 
 ![Diagram illustrating the communication flow between the mobile app and server, showing client-side and server-side components.](images/mobile-app-server-communication.png "Mobile App to Server Communication Diagram")
 
-Whenever data is fetched from the server or a Server action needs to run, JavaScript code from the app’s Controller files performs HTTP calls to the generated REST endpoints.
+When the app fetches data from the server or runs a server action, JavaScript code from the app's controller files performs HTTP calls to the generated REST endpoints.
 
-In the case of data fetching, the controller, upon receiving the answer from the contacted REST endpoint, sends the data received to the Model. If this data is being in use by the UI, the View gets alerted and updates it on the screen.
+When fetching data, the controller receives the response from the REST endpoint and sends the data to the Model. If the UI uses this data, the View receives an alert and updates the screen.
 
 ## Security of the endpoints
 
-Security of these REST endpoints is automatically ensured by OutSystems through the use of two approaches:
+OutSystems automatically secures these REST endpoints through two approaches:
 
-* All accesses are encrypted
-* All accesses are subject to server-side access control
+* Encryption for all requests
+* Server-side access control for all requests
 
 ### Encryption
 
-All communication to OutSystems generated REST endpoints is done over HTTPS and is therefore encrypted. Any attempt to use one of these APIs over HTTP will issue an error on the server side
+All communication to OutSystems-generated REST endpoints uses HTTPS encryption. Any attempt to use these APIs over HTTP issues an error on the server side.
 
 ### Server-side access control
 
-Access control is done on the server side to make sure no unauthorized accesses are made to the generated REST endpoints. This access control is done using a secure user token that is sent whenever there’s a call to one of these endpoints. For more information about the authorization mechanism for OutSystems mobile apps, check [Configure Mobile App Authentication](https://success.outsystems.com/Documentation/11/Managing_the_Applications_Lifecycle/Secure_the_Applications/Configure_App_Authentication).
+The server enforces access control to prevent unauthorized requests to the generated REST endpoints. The server uses a secure user token sent with each call to these endpoints. For more information about the authorization mechanism for OutSystems mobile apps, see [Configure Mobile App Authentication](https://success.outsystems.com/Documentation/11/Managing_the_Applications_Lifecycle/Secure_the_Applications/Configure_App_Authentication).
 
 ![Diagram depicting the secure token request process between the mobile app and the OutSystems Platform Server.](images/mobile-app-server-access-control.png "Mobile App Server Access Control Diagram")
 
-OutSystems automatically computes access control for each endpoint based on usage and the security definitions made by the developer.
+OutSystems automatically computes access control for each endpoint based on usage and the security definitions the developer sets.
 
 **Screens** that access the server create endpoints that have the same security permissions as the screen:
 
@@ -53,15 +53,15 @@ OutSystems automatically computes access control for each endpoint based on usag
 
 **Blocks** that access the server create endpoints that have the minimum set of permissions of the screens that use them:
 
-* If an anonymous screen uses the block it generates a public endpoint.
-* If a screen that requires "Manager" permissions uses the block it generates an endpoint that requires "Manager" permission.
-* If a screen that requires "Manager" permission and a screen that requires "Employee" use the block it generates an endpoint that requires either "Manager" or "Employee" permission.
-* If a screen that requires "Manager" permission and an anonymous screen use the block it generates a public endpoint.
+* If an anonymous screen uses the block, it generates a public endpoint.
+* If a screen that requires "Manager" permissions uses the block, it generates an endpoint that requires "Manager" permission.
+* If a screen that requires "Manager" permission and a screen that requires "Employee" use the block, it generates an endpoint that requires either "Manager" or "Employee" permission.
+* If a screen that requires "Manager" permission and an anonymous screen use the block, it generates a public endpoint.
 
-**Global client actions** that access the server create endpoints that have the minimum set of permissions of the screens or blocks that use them.
+**Global client actions** that access the server create endpoints that inherit permissions at runtime from the calling screen or block context.
 
-**Exception handlers defined on UI flows** that access the server create public endpoints. This ensures any user of your application will see the correct information about any error that might occur, even if the user hasn’t logged yet.
+**Exception handlers defined on UI flows** that access the server create public endpoints. This ensures any user of your application sees the correct information about any error that might occur, even if the user hasn't logged in yet. This also applies to server endpoints that client actions use indirectly, meaning that the action becomes publicly available even if screens protected by roles also use it.
 
-**Application Events** (for example, _OnApplicationReady_, _OnApplicationResume_) that access the server create public endpoints. Public endpoints are the best solution since these events often occur before the user has had a chance to log in.
+**Application events**, such as _OnApplicationReady_ and _OnApplicationResume_, that access the server create public endpoints. These events require public endpoints because they often occur before the user logs in. This also applies to server endpoints that client actions use indirectly, meaning that the action becomes publicly available even if screens protected by roles also use it.
 
-You can customize access control of a particular endpoint. Developers have access to OutSystems built-in functions that can be used to check roles and permissions whenever there's an access to the server. A security exception can then be raised if an unauthorized access is detected.
+You can customize access control for a particular endpoint. OutSystems provides built-in functions to check roles and permissions whenever there is access to the server. You can raise a security exception if you detect an unauthorized access.
