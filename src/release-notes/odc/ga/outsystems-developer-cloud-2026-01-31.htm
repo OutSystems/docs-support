@@ -10,14 +10,16 @@ pageprivacy: public
 <style>.cattag {background: #f4f2ff; color: #6a6581; padding: 4px 10px;}</style>
 <h3 id="new_in_outsystems_developer_cloud_2026-01-31" > New</h3>
 <ul>
-<li>Monthly Security Update (January 2026):<br/>
-<br/>
-Updated application container base image, including security fixes. Check Microsoft .NET 8.0.23/8.0.23 release for more details: <a href="https://github.com/dotnet/core/blob/main/release-notes/8.0/8.0.23/8.0.23.md">https://github.com/dotnet/core/blob/main/release-notes/8.0/8.0.23/8.0.23.md</a><br/>
-<br/>
-Vulnerability fixes on Swagger.UI:<br/>
-CVE-2025-64718 - js-yaml has prototype pollution in merge. More details: <a href="https://github.com/advisories/GHSA-mh29-5h37-fv8m">https://github.com/advisories/GHSA-mh29-5h37-fv8m</a><br/>
-CVE-2025-9288 - Function Call With Incorrect Argument Type. More details: <a href="https://security.snyk.io/vuln/SNYK-JS-SHAJS-12089400">https://security.snyk.io/vuln/SNYK-JS-SHAJS-12089400</a> (RRCT-6777)</li>
-</ul>
+<li>Monthly Security Update (January 2026):
 
+Updated application container base image, including security fixes. Check Microsoft .NET 8.0.23/8.0.23 release for more details: https://github.com/dotnet/core/blob/main/release-notes/8.0/8.0.23/8.0.23.md
+
+Vulnerability fixes on Swagger.UI:
+CVE-2025-64718 - js-yaml has prototype pollution in merge. More details: https://github.com/advisories/GHSA-mh29-5h37-fv8m
+CVE-2025-9288 - Function Call With Incorrect Argument Type. More details: https://security.snyk.io/vuln/SNYK-JS-SHAJS-12089400 (RRCT-6777)</li>
+</ul>
+<h3 id="bug_fixing_outsystems_developer_cloud_2026-01-31" >Bug Fixing</h3>
+<ul>
+<li>Fixes an issue that caused JSON Serialize nodes in Client Actions to not serialize mandatory attributes when the "Serialize default values" option was set to "No". (RPM-6394)</li>
 </ul>
 
