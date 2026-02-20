@@ -11,5 +11,8 @@ pageprivacy: public
 <h3 id="bug_fixing_outsystems_developer_cloud_2026-02-16" >Bug Fixing</h3>
 <ul>
 <li>Fixed an issue where some consoles errors appeared for empty stylesheets (RPM-6443)</li>
+<li>Fixed an issue that allowed new timers to start while an instance was already active.
+The issue was introduced after Jan 8th, 2026 and occurred in the second attempt to initiate a new Timer instance: the first concurrency check succeeded but the second failed, and a new Timer instance would be allowed.
+Now, timer concurrency is correctly enforced, preventing duplicate instances. (RTAFB-8949)</li>
 </ul>
 
