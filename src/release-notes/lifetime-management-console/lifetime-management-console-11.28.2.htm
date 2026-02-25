@@ -1,0 +1,20 @@
+---
+isautopublish: true
+pageprivacy: public
+---
+
+<h2 id="lifetime_management_console_11.28.2" >LifeTime Management Console 11.28.2</h2>
+<div class="info"><p>Released on Feb 25, 2026</p></div>
+
+
+<style>.cattag {background: #f4f2ff; color: #6a6581; padding: 4px 10px;}</style>
+<h3 id="new_in_lifetime_management_console_11.28.2" >New in LifeTime Management Console 11.28.2</h3>
+<ul>
+<li>In "Expose Entities", it is now possible to select a different target environment when promoting entity views within an infrastructure. Target environments must have a higher order than the source environment, and backward promotion is not supported. (R11CT-4632) <span class="cattag">Application Lifecycle</span>  <span class="cattag">LifeTime</span> </li>
+<li>In "Expose Entities", it is now possible to filter the list of displayed environments using environment filters created by users. Note that environment filters must be created in the "Applications_List" screen. (R11CT-4633) <span class="cattag">Application Lifecycle</span>  <span class="cattag">LifeTime</span> </li>
+</ul>
+<h3 id="bug_fixing_lifetime_management_console_11.28.2" >Bug Fixing</h3>
+<ul>
+<li>Fixed an issue where users with no permissions were redirected to the Internal Error instead of the No Permissions screen. The issue occurred when a user without permissions accessed the AuditLogs screen. Now, the user is redirected to the proper NoPermissions screen. (RPM-6441) <span class="cattag">Application Lifecycle</span>  <span class="cattag">LifeTime</span> </li>
+</ul>
+
