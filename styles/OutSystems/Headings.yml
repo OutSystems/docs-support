@@ -13,6 +13,7 @@ exceptions:
 # Product
   - Application Objects
   - AO
+  - Agent Workbench
   - Center
   - Conversion Assessment Tool
   - Integration Builder
@@ -31,18 +32,37 @@ exceptions:
   - AI Mentor Studio
   - AIMS
   - MABS
+  - Mentor
   - Mobile Apps Builder Service
   - UsersIdP
   - Build Operations
   - Build Operations API
   - Dependency Management
   - Dependency Management API
+  - GetGroundingData
+  - Data
+  - GetGroundingData
+  - Call Agent
+  - StoreMemory
+  - Agent Workbench
   - Asset Repository
   - Asset Repository API
   - Asset Configurations
   - Asset Configurations API
   - Forge
   - Self-hosted
+  - Cloud demo
+  - Data Fabric
+  - Integration Studio
+  - Platform Server
+  - 1-Click Publish
+  - True Change
+  - IdP
+  - IdPs
+  - Customer Portal
+  - Workflows Editor
+  - Workflows
+  - PWA
   
 # Concepts
   - Action
@@ -52,6 +72,7 @@ exceptions:
   - Ajax
   - App
   - Application
+  - App Auth Service
   - Area
   - Attribute
   - Block
@@ -70,6 +91,7 @@ exceptions:
   - GetUserId
   - HMAC
   - Identifier
+  - IDE
   - IT
   - JWT
   - JSON Web Keys
@@ -92,15 +114,17 @@ exceptions:
   - Resource
   - Role
   - RSA
+  - RAG
   - Screen
   - Server
   - Service
   - Session
-  - Site Property
   - SQL
   - Static
   - Structure
   - Taskbox
+  - Task
+  - Epic
   - Template
   - Theme
   - Timer
@@ -114,52 +138,7 @@ exceptions:
   - SendSilentNotificationToTopics
   - SendSilentNotificationToUsers
   - Create/Upgrade
-  - appName
-  - manifest
-  - gradle
-  - res
-  - json
-  - xml
-  - copy
-  - code
-  - tar
-  - displayName
-  - productName
-  - buildSettings
-  - buildPhases
-  - plist
-  - xcprivacy
-  - entitlements
-  - frameworks
-  - xcconfig
-  - strings
   - JSON
-  - pluginConfigurations
-  - properties
-  - cordova
-  - preferences
-  - capacitor
-  - configurations
-  - android {#android-2
-  - ios {#ios-2}
-  - permissions
-  - ios
-  - android
-  - ios additional properties
-  - buildConfigurations
-  - properties {#properties-1}
-  - cordova {#cordova-1}
-  - source
-  - npm
-  - variables
-  - resources
-  - capacitor {#capacitor-1}
-  - source {#source-1}'
-  - npm {#npm-1}
-  - android {#android-1}
-  - ios {#ios-1
-  - config
-  - parameters
   - Cordova-based
   - Cordova-only
   - ViewState
@@ -174,7 +153,46 @@ exceptions:
   - Paula
   - USB
   - PC
-  
+  - NaN
+  - EXTRACT
+  - AdvancedQuery
+  - GetWorkoutsData
+  - Read-Only
+  - Read-Write
+  - LLM
+  - CSP
+  - Web Application Firewall
+  - ChangePassword
+  - FinishResetPassword
+  - FinishUserRegistration
+  - GetPasswordComplexityPolicy
+  - GetUserProfile
+  - IsExternalUser
+  - StartResetPassword 
+  - StartUserRegistration
+  - UpdateUserProfile
+  - ValidatePasswordComplexity
+  - ChangePasswordResult
+  - FinishPasswordResetResult
+  - FinishUserRegistrationResult
+  - PasswordComplexityPolicy
+  - PasswordValidationResult
+  - StartResetPasswordResult
+  - FinishResetPasswordFailureReason
+  - UserInfo
+  - StartUserRegistrationResult
+  - UserUpdateInfo
+  - UpdateUserResult
+  - CameraDirection
+  - TakePicture
+  - PlayVideo
+  - EditPicture
+  - MediaType
+  - CheckCameraPlugin
+  - MediaResult data
+  - MediaMetadata data
+  - Employee
+
 # Events
   - On Initialize
   - On Ready
@@ -182,6 +200,12 @@ exceptions:
   - On After Fetch
   - On Parameters Changed
   - On Destroy
+  - On Application Ready
+  - On Application Resume
+  - OnSync
+  - SyncCompanies
+  - SyncContacts
+  - ServerDataSync
 # UI Patterns and Widgets
   - Pattern
   - Columns
@@ -199,6 +223,7 @@ exceptions:
   - Swipe Events
   - Switch
   - Touch Events
+  - Dropdown Server Side
 # Widgets
   - Widget
   - Link
@@ -217,6 +242,7 @@ exceptions:
   - IdPs
   - Azure
   - BuildMessages
+  - Microsoft Entra
   - Microsoft Entra ID
   - Cascading Style Sheets
   - CallAgent01_Intake 
@@ -228,7 +254,11 @@ exceptions:
   - Excel
   - Okta
   - Git
-    - Google Play
+  - GitHub
+  - Figma
+  - Jira
+  - Confluence
+  - Google Play
   - HIPPA
   - iOS
   - Integrated Authentication
@@ -245,9 +275,7 @@ exceptions:
   - URI
   - URIs
   - SAP
-  - Cross-site Scripting
   - XSS
-  - shred.bundle.js
   - CSV
   - Firebase Cloud Messaging
   - Firebase Performance
@@ -266,11 +294,23 @@ exceptions:
   - Claude 3.7 Sonnet
   - Amazon Nova Pro
   - Chrome DevTools
+  - Microsoft Visual Studio
+  - Visual Studio Code
+  - .NET
+  - NuGet
+  - Key Store Plugin
+  - Camera Plugin
+  - SAML
+  - Plugin Manager
+  - Phosphor
+  - Font Awesome
+  
 # Industry
   - API
   - HTML
   - APIs
   - IP
+  - ID
   - FAQ
   - TLS
   - AI
@@ -285,6 +325,18 @@ exceptions:
   - CICD
   - EAP
   - JavaScript
+  - MCP
+  - PR
+  - UI
+  - DREAD
+  - DevOps
+  - SOAP
+  - PaaS
+  - SDK
+  - QA
+  - DEV
+  - PRD
+  - SEO
 # Country
   - US East
   - North Virginia
@@ -311,3 +363,12 @@ exceptions:
   - Jakarta
   - Europe
   - London
+# Certifications and Boot Camps
+  - Associate Developer
+  - Boot Camp
+  - Mobile Developer specialization
+  - Front-end Developer specialization
+  - Tech Lead exam
+  - Platform Ops exam
+# Errors
+  - \bOS-(?:[A-Z]+-){1,2}\d+\b

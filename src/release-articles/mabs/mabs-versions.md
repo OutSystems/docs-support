@@ -4,6 +4,7 @@ guid: 61CB98BF-3C28-4590-9E19-0C1C7B7F0408
 locale: en-us
 app_type: mobile apps
 platform-version: o11, odc
+figma: https://www.figma.com/design/UXA74OsZxSIzLLsjhvNMjC/Release-Notes?node-id=1296-2
 tags: mobile apps build service, mabs, versioning, android compatibility, ios compatibility
 audience:
   - mobile developers
@@ -52,9 +53,9 @@ It's recommended to update all supported plugins to the latest version available
 
 This version can run your apps on:
 
-<small>![Icon representing the Android operating system.](images/android-icon.png "Android Icon") Android 9 to 16</small>
+<small>![Icon representing the Android operating system.](images/android-icon-ss.png "Android Icon") Android 9 to 16</small>
 
-<small>![Icon representing the iOS operating system.](images/iOS-icon.png "iOS Icon") iOS 15 to 26</small>
+<small>![Icon representing the iOS operating system.](images/ios-icon-ss.png "iOS Icon") iOS 15 to 26</small>
 
 **More details:**
 
@@ -108,9 +109,9 @@ It's recommended to update all supported plugins to the latest version available
 
 This version can run your apps on:
 
-<small>![Icon representing the Android operating system.](images/android-icon.png "Android Icon") Android 9 to 15</small>
+<small>![Icon representing the Android operating system.](images/android-icon-ss.png "Android Icon") Android 9 to 15</small>
 
-<small>![Icon representing the iOS operating system.](images/iOS-icon.png "iOS Icon") iOS 15 to 18</small>
+<small>![Icon representing the iOS operating system.](images/ios-icon-ss.png "iOS Icon") iOS 15 to 18</small>
 
 **More details:**
 
@@ -145,115 +146,10 @@ This version can run your apps on:
 
 ## Deprecated
 
-You can select the deprecated MABS version when creating a mobile package, but you will receive limited support. Limited support means that you receive advice and workarounds through support requests, but there are no bug fixes for the version.
-
 <div class="info" markdown="1">
 
-## **Version 11.1**
-
-[See release notes](../../release-notes/mabs/11/11.1/11.1.md)<br/>
-
-Released as Beta on March 28th, 2025 <br/>
-Released to GA on April 2nd, 2025 <br/>
-Deprecated on October 30th, 2025 <br/>
-Obsolete on January 31st, 2026 <br/>
+Currently, there are no deprecated MABS versions.
 
 </div>
 
-<div class="warning" markdown="1">
-
-It's recommended to update all supported plugins to the latest version available on the Forge. For more details, please check the **[release notes](https://success.outsystems.com/support/release_notes/mobile_apps_build_service_versions/mabs_11_release_notes/#mabs-version-11-1)**.
-
-</div>
-
-This version can run your apps on:
-
-<small>![Icon representing the Android operating system.](images/android-icon.png "Android Icon") Android 9 to 15</small>
-
-<small>![Icon representing the iOS operating system.](images/iOS-icon.png "iOS Icon") iOS 15 to 18</small>
-
-**More details:**
-
-<table style="width: 632px; table-layout: fixed">
-    <tbody class="RegularLightText">
-        <tr>
-            <td style="width:156px;"></td>
-            <td style="width:231px;">Android</td>
-            <td>iOS</td>
-        </tr>
-        <tr>
-            <td style="vertical-align:middle;width:156px;">Target SDK</td>
-            <td style="width:231px;">15 (API Level 35)<br/></td>
-            <td>18.0<br/></td>
-        </tr>
-        <tr>
-            <td style="vertical-align:middle;width:156px;">Tools</td>
-            <td style="width:231px;">Build Tools 35.0.0<br/>
-            Gradle 8.11.1<br/>
-            Android Gradle Plugin 8.7.2<br/>
-            Kotlin 1.9.24<br/>
-            Cordova CLI 12.0.0<br/>
-            <a href="https://github.com/OutSystems/cordova-android/tree/outsystems/13.0.x">Cordova Android 13.0</a></td>
-            <td>Xcode 16.1<br/>
-            CocoaPods 1.15.2<br/>
-            Swift 6.0<br/>
-            Cordova CLI 12.0.0<br/>
-            <a href="https://github.com/OutSystems/cordova-ios/tree/outsystems/7.1.x">Cordova iOS 7.1</a></td>
-        </tr>
-    </tbody>
-</table>
-
-<div class="info" markdown="1">
-
-## **Version 10.0**
-
-[See release notes](../../release-notes/mabs/10/10.0/10.0.md)<br/>
-
-Released as Beta on October 26th, 2023 <br/>
-Released to GA on December 27th, 2023 <br/>
-Deprecated on May 23rd, 2025<br/>
-Obsolete on January 31st, 2026<br/>
-</div>
-
-<div class="warning" markdown="1">
-
-It's recommended to update all supported plugins to the latest version available on the Forge. For more details, please check the **[release notes](https://success.outsystems.com/Support/Release_Notes/Mobile_Apps_Build_Service_Versions/MABS_10_Release_notes#mabs-version-10.0)**.
-
-</div>
-
-This version can run your apps on:
-
-<small>![Icon representing the Android operating system.](images/android-icon.png "Android Icon") Android 9 to 15</small>
-
-<small>![Icon representing the iOS operating system.](images/iOS-icon.png "iOS Icon") iOS 14 to 18</small>
-
-**More details:**
-
-<table style="width: 632px; table-layout: fixed">
-    <tbody class="RegularLightText">
-        <tr>
-            <td style="width:156px;"></td>
-            <td style="width:231px;">Android</td>
-            <td>iOS</td>
-        </tr>
-        <tr>
-            <td style="vertical-align:middle;width:156px;">Target SDK</td>
-            <td style="width:231px;">14 (API Level 34)<br/></td>
-            <td>17.2<br/></td>
-        </tr>
-        <tr>
-            <td style="vertical-align:middle;width:156px;">Tools</td>
-            <td style="width:231px;">Build Tools 34.0.0<br/>
-            Gradle 8.5<br/>
-            Android Gradle Plugin 8.2.0<br/>
-            Kotlin 1.9.21<br/>
-            Cordova CLI 12.0.0<br/>
-            <a href="https://github.com/OutSystems/cordova-android/tree/outsystems/12.0.x">Cordova Android 12.0</a></td>
-            <td>Xcode 15.1<br/>
-            CocoaPods 1.14.3<br/>
-            Swift 5.9.2<br/>
-            Cordova CLI 12.0.0<br/>
-            <a href="https://github.com/OutSystems/cordova-ios/tree/outsystems/7.0.x">Cordova iOS 7.0</a></td>
-        </tr>
-    </tbody>
-</table>
+You can select a deprecated MABS version when creating a mobile package, but you will receive limited support. Limited support means that you receive advice and workarounds through support requests, but there are no bug fixes for the version.

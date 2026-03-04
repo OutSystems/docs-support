@@ -20,7 +20,7 @@ coverage-type:
 # OS-DP-STREAM-00012
 
 <details>
-<summary> <strong> App analytics stream in ODC</strong></summary>
+<summary> <strong> Streaming audit and observability data in ODC</strong></summary>
 
 ## Error message
 
