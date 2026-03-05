@@ -207,15 +207,17 @@ exceptions:
   - SyncContacts
   - ServerDataSync
 # UI Patterns and Widgets
-  - Pattern
+  - Animated Label
   - Columns
   - Carousel
   - Checkbox
   - Columns
   - Date Picker
+  - Dropdown Server Side
   - Gallery
   - Lightbox Image
   - Master Detail
+  - Progress Circle
   - Range Slider
   - Range Slider Interval
   - Split Screen
@@ -223,7 +225,7 @@ exceptions:
   - Swipe Events
   - Switch
   - Touch Events
-  - Dropdown Server Side
+  - User Avatar
 # Widgets
   - Widget
   - Link
