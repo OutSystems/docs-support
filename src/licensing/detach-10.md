@@ -27,7 +27,7 @@ To extract the source code of your applications (web and mobile) from Java infra
 
 </div>
 
-## Detach Process Overview
+## Detach process overview
 
 ### If you're using the OutSystems Cloud
 
@@ -75,7 +75,7 @@ Make sure you read the full content of this document before you start to get a b
 
 If at any step you run into a problem, you may need to repeat the previous steps until you get things working properly. Be careful and do not skip any instructions in the document to minimize the chance of making mistakes. In the case of not being able to proceed at any of those steps, you are free to contact OutSystems Support and we will happily help you.
 
-## Before You Start
+## Before you start
 
 Do you want to evaluate the detach source code process? For the purpose of evaluating the detach source code process, OutSystems provides a Service Studio embedded tutorial to guide you through the process.  
 The steps described in this document are to be used only if you decide to stop using OutSystems.  
@@ -106,7 +106,7 @@ Since you will lose most of the OutSystems capabilities, you must guarantee that
 * Has access to the Database Server and have the ability to modify the existing data; During the detach process, it is necessary to change some of the OutSystems metadata. This is typically done by a DataBase Administrator (DBA);
 * Knows how to develop, build and deploy Android and/or iOS apps (applies to mobile apps only).
 
-### OutSystems Scheduler Service
+### OutSystems `Scheduler Service`
 
 If you are using Timers or BPT Activities in your applications, you will be able to keep this functionality even after detaching. Unlike other OutSystems services, the source code of the Scheduler Service will be provided for this purpose, just contact OutSystems by opening a Support Case and requesting it.
 
@@ -169,7 +169,7 @@ In the application folder (&lt;Project Name&gt;) there is a set of packages that
 * **WebServices** – the code to support all Web Services exposed by your module;
 * **WebReferences** – the code to support all Web Services consumed by your module.
 
-## Preparing Your Systems to Run Detached
+## Preparing your systems to run detached
 
 ### Preparing the Application Server to deploy the Generated Code
 
@@ -329,15 +329,15 @@ Open them with a text editor;
 
 * Change the connection strings under _&lt;appSettings&gt;_. You will not be able to use them since their value attribute is encrypted, hence the need to convert them to plain text format. These strings vary with the different database providers and are provided in Section 6.1. There are 7 connection strings to declare. You can find them searching for the values presented in the table in the key attribute:
 
-    |**Connection** |
-    |---|
-    |OutSystems.DB.Application.Log.ConnectionString|
-    |OutSystems.DB.Application.Runtime.ConnectionString|  
-    |OutSystems.DB.Application.Session.ConnectionString|
-    |OutSystems.DB.Services.Admin.ConnectionString|
-    |OutSystems.DB.Services.Log.ConnectionString|
-    |OutSystems.DB.Services.Runtime.ConnectionString|  
-    |OutSystems.DB.Services.Session.ConnectionString|
+    | **Connection** |
+    | --- |
+    | OutSystems.DB.Application.Log.ConnectionString |
+    | OutSystems.DB.Application.Runtime.ConnectionString |
+    | OutSystems.DB.Application.Session.ConnectionString |
+    | OutSystems.DB.Services.Admin.ConnectionString |
+    | OutSystems.DB.Services.Log.ConnectionString |
+    | OutSystems.DB.Services.Runtime.ConnectionString |
+    | OutSystems.DB.Services.Session.ConnectionString |
   
     An example using SQL Server and one of the connection strings is provided:
 
@@ -410,7 +410,7 @@ The obtained source code corresponds to the source code of the most recent build
 
 **Note:** The mobile app source code is only kept for 7 days after a successful build. You will need to generate the mobile app again if the last build was made more than 7 days ago.
 
-### Compiling and Deploying Applications
+### Compiling and deploying applications
 
 #### Web applications
 
@@ -537,7 +537,7 @@ Now application A is ready to be compiled and deploy. This procedure is the same
 
 If an application depends on another applications, you might need to deploy all its dependencies in order to guarantee that it keeps working correctly.
 
-## Final Steps
+## Final steps
 
 When all applications have been successfully published, it is recommended that you test everything first before uninstalling OutSystems Platform Server. If you moved from Application Server, skip section 5.1 and test your applications, since no uninstallation needs to be performed.
 

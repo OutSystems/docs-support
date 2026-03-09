@@ -193,13 +193,13 @@ MABS 7.0 is an important milestone for all developers who publish on App Store a
 
 Some plugin requirements for **MABS**.
 
-|Plugin|Required minimum version|MABS |
-|:--|:--|:--|
-|[SSL Pinning](https://www.outsystems.com/forge/component-versions/1873)|6.0.0 or later|MABS 7.0 and later|
-|[InAppBrowser](https://www.outsystems.com/forge/component-versions/1558)|2.4.0 or later|MABS 7.0 and later|
-|[Camera](https://www.outsystems.com/forge/component-versions/1390)|6.2.0 or later|MABS 7.0 and later|
-|[Ciphered Local Storage](https://www.outsystems.com/forge/component-versions/1500)|3.1.0 or later|MABS 7.0 and later|
-|[OneSignal](https://www.outsystems.com/forge/component-versions/2119)|3.5.0 or later|MABS 7.0 and later|
+| Plugin | Required minimum version | MABS |
+| :-- | :-- | :-- |
+| [SSL Pinning](https://www.outsystems.com/forge/component-versions/1873) | 6.0.0 or later | MABS 7.0 and later |
+| [InAppBrowser](https://www.outsystems.com/forge/component-versions/1558) | 2.4.0 or later | MABS 7.0 and later |
+| [Camera](https://www.outsystems.com/forge/component-versions/1390) | 6.2.0 or later | MABS 7.0 and later |
+| [Ciphered Local Storage](https://www.outsystems.com/forge/component-versions/1500) | 3.1.0 or later | MABS 7.0 and later |
+| [OneSignal](https://www.outsystems.com/forge/component-versions/2119) | 3.5.0 or later | MABS 7.0 and later |
 
 ### Breaking Changes and Known Limitations for MABS 7.0
 

@@ -46,14 +46,14 @@ To create a Foreign Key (FK) from one table to another, it's important that the 
 Entity 'A':
 
 | ID | User_ID | Task |
-|----|----|----|
+| ---- | ---- | ---- |
 | 1 | 10 | Create |
 | 2 | 11 | Review |
 
 Entity 'B':
 
 | ID | Username | Email |
-|----|----|----|
+| ---- | ---- | ---- |
 | 5 | Ruben | ruben@example.com |
 | 6 | Capitao | capitao@example.com |
 

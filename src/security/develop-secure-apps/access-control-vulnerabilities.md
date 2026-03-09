@@ -31,20 +31,20 @@ The following sections describe the recommended actions to deal with common acce
 
 ### Protecting Actions
 
-|Use case    |Actions    |
-|------------|-----------|
-|Disable action from UI |**Avoid disabling actions from the UI**. Disabling a widget in the UI doesn't prevent the sensitive action code to be run by forcing or forging the POST request. |
-|Hide action from UI    |**Avoid hiding actions from the UI**. Action is still available on the page. Hiding a widget in the UI doesn't prevent the sensitive action code to be run by forcing or forging the POST request. |
-|Validate based on **Preparation** check    |**Avoid performing validations only in Preparation**.  If using old page or screen values (for example, having a second tab open, or in case the user clicks the back button on the browser), the server must validate if the actions can still apply instead of relying on information calculated in the Preparation |
-|Implement a page for a role    |Tailor a page with actions available for that role.    |
-|Check permissions in action    |Before executing any code, check if the current session has permissions to do it. |
-|Set IDs    |Use non-guessable IDs.  |
+| Use case | Actions |
+| ------------ | ----------- |
+| Disable action from UI | **Avoid disabling actions from the UI**. Disabling a widget in the UI doesn't prevent the sensitive action code to be run by forcing or forging the POST request. |
+| Hide action from UI | **Avoid hiding actions from the UI**. Action is still available on the page. Hiding a widget in the UI doesn't prevent the sensitive action code to be run by forcing or forging the POST request. |
+| Validate based on **Preparation** check | **Avoid performing validations only in Preparation**.  If using old page or screen values (for example, having a second tab open, or in case the user clicks the back button on the browser), the server must validate if the actions can still apply instead of relying on information calculated in the Preparation |
+| Implement a page for a role | Tailor a page with actions available for that role. |
+| Check permissions in action | Before executing any code, check if the current session has permissions to do it. |
+| Set IDs | Use non-guessable IDs. |
 
 ### Protecting Information
 
-|Use case    |Actions    |
-|------------|-----------|
-|Display information on screens |Check in **Preparation** if current user is allowed to view this information.  |
+| Use case | Actions |
+| ------------ | ----------- |
+| Display information on screens | Check in **Preparation** if current user is allowed to view this information. |
 
 ## More information
 

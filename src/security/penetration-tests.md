@@ -100,14 +100,14 @@ Furthermore, the following tables can help you understand the responsibilities a
 
 **OutSystems Cloud & hybrid**
 
-|            | Responsibilities |Expectations  |
-|------------|------------------|--------------|
-| Customer   | <ul><li>Deploy and manage OutSystems on self managed servers</li><li>Execute the penetration tests</li></ul>|<ul><li>The customer has knowledge of how to configure and manage OutSystems and underlying technologies</li><li>The customer has knowledge of the tool(s) used to perform penetration tests</li><li>The customer is responsible for executing the tests, collecting the results, reviewing the results, performing the necessary correction and re-checking</li></ul>|
-| OutSystems | <ul><li>Maintain and manage OutSystems Cloud</li><li>Help customers set up the hybrid infrastructure</li><li>Provide support to customers on issues related to the product and deployment</li></ul>|<ul><li>Has expert knowledge on OutSystems cloud</li><li>Has expert knowledge on OutSystems</li><li>Is able to help customers with OutSystems related issues [(support terms)](https://www.outsystems.com/legal/success/support-terms-and-service-level-agreements-sla-of-the-outsystems-software/)</li><li>Is able to reply to Customer questions</li></ul>|
+| | Responsibilities | Expectations |
+| ------------ | ------------------ | -------------- |
+| Customer | <ul><li>Deploy and manage OutSystems on self managed servers</li><li>Execute the penetration tests</li></ul> | <ul><li>The customer has knowledge of how to configure and manage OutSystems and underlying technologies</li><li>The customer has knowledge of the tool(s) used to perform penetration tests</li><li>The customer is responsible for executing the tests, collecting the results, reviewing the results, performing the necessary correction and re-checking</li></ul> |
+| OutSystems | <ul><li>Maintain and manage OutSystems Cloud</li><li>Help customers set up the hybrid infrastructure</li><li>Provide support to customers on issues related to the product and deployment</li></ul> | <ul><li>Has expert knowledge on OutSystems cloud</li><li>Has expert knowledge on OutSystems</li><li>Is able to help customers with OutSystems related issues [(support terms)](https://www.outsystems.com/legal/success/support-terms-and-service-level-agreements-sla-of-the-outsystems-software/)</li><li>Is able to reply to Customer questions</li></ul> |
 
 **Self-managed**
 
-|            | Responsibilities| Expectations |
-|------------|-----------------|--------------|
-| Customer   | <ul><li>Deploy and manage OutSystems on self managed servers</li><li>Execute the penetration tests</li></ul>|<ul><li>The customer has knowledge of how to configure and manage OutSystems and  underlying technologies</li><li>The customer has knowledge of the tool(s) used to perform penetration tests</li><li>The customer is responsible for executing the tests, collecting the results, reviewing the results, performing the necessary correction and re-checking</li></ul>|
-| OutSystems | <ul><li>Provide support to customers on issues related to the product</li></ul>|<ul><li>Has expert knowledge on OutSystems</li><li>Is able to help Customers with OutSystems related issues [(support terms)](https://www.outsystems.com/legal/success/support-terms-and-service-level-agreements-sla-of-the-outsystems-software/)</li><li>Is able to reply to customer questions</li></ul>|
+| | Responsibilities | Expectations |
+| ------------ | ----------------- | -------------- |
+| Customer | <ul><li>Deploy and manage OutSystems on self managed servers</li><li>Execute the penetration tests</li></ul> | <ul><li>The customer has knowledge of how to configure and manage OutSystems and  underlying technologies</li><li>The customer has knowledge of the tool(s) used to perform penetration tests</li><li>The customer is responsible for executing the tests, collecting the results, reviewing the results, performing the necessary correction and re-checking</li></ul> |
+| OutSystems | <ul><li>Provide support to customers on issues related to the product</li></ul> | <ul><li>Has expert knowledge on OutSystems</li><li>Is able to help Customers with OutSystems related issues [(support terms)](https://www.outsystems.com/legal/success/support-terms-and-service-level-agreements-sla-of-the-outsystems-software/)</li><li>Is able to reply to customer questions</li></ul> |

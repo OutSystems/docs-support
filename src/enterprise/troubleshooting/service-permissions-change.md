@@ -74,13 +74,13 @@ The following table summarizes permissions for the new user accounts for each im
 ### For Platform Server versions prior to 11.18.0
 
 | OutSystems Service | New user associated with service | User permissions |
-|---|---|---|
-| Deployment Controller Service | OSControllerUser | Full control on the platform folder <br/>Local policies added:<ul><li>Log on as service</li><li>Log on as batch job</li><li>Create symbolic links</li></ul>  |
+| --- | --- | --- |
+| Deployment Controller Service | OSControllerUser | Full control on the platform folder <br/>Local policies added:<ul><li>Log on as service</li><li>Log on as batch job</li><li>Create symbolic links</li></ul> |
 | Scheduler Service | OSSchedulerUser | Full control on the platform folder <br/>Local policies added:<ul><li>Log on as service</li><li>Log on as batch job</li><li>Create symbolic links</li></ul> |
 
 ### For Platform Server versions 11.18.0 or later
 
 | OutSystems Service | New user associated with service | User permissions |
-|---|---|---|
+| --- | --- | --- |
 | Deployment Controller Service | NT Service\OutSystems Deployment Controller Service | Full control on the platform folder <br/>Local policies added:<ul><li>Log on as service</li><li>Log on as batch job</li><li>Create symbolic links</li></ul> |
 | Scheduler Service | NT Service\OutSystems Scheduler Service | Full control on the platform folder <br/>Local policies added:<ul><li>Log on as service</li><li>Log on as batch job</li><li>Create symbolic links</li></ul> |

@@ -77,8 +77,8 @@ Make sure the component **name**:
 * Indicates what the component does
 * Doesn't contain file extensions or a lot of special characters
 
-| Do      | Don't   |
-|---------|---------|
+| Do | Don't |
+| --------- | --------- |
 | Simple CRUD Example | Create,read,update,delete app |
 | Environment Dashboard | EnvDashboard_v4.oml |
 | Google Calendar Connector | Calendar |
@@ -91,8 +91,8 @@ Make sure the component **description**:
 * Showcases note-worthy features
 * Lists URLs for libraries included, API versions, and references to external resources
 
-| Do      | Don't   |
-|---------|---------|
+| Do | Don't |
+| --------- | --------- |
 | If you're working with a lot of services, it can be hard to know which applications are consuming web service methods. This component aims to improve visibility for web services consumed and exposed in your OutSystems environment. Works by inspecting the OutSystems metamodel and presenting that information in a more readable format. | Know which web services are being consumed and exposed in your OutSystems environment. |
 | This application aims to showcase best practices when integrating with external services. In this app, you can learn how to consume and expose a REST API, with a focus on how to authenticate. | How to make a wrapper for a simple external service. |
 

@@ -63,7 +63,7 @@ For Service Studio upgrades, developers are free to update to the latest release
 The following table shows the different types of documentation and the moments when they're updated:
 
 | | Major release | Release | Cumulative patch |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | [Training](https://learn.outsystems.com/training) | Updated | Updated | Not applicable<sup>1</sup> |
 | [Product documentation](https://success.outsystems.com/documentation/) | Updated | Updated | Not applicable<sup>1</sup> |
 | [Breaking changes](../11/side-effects-breaking-changes.md) | Updated | Updated | Not applicable<sup>1</sup> |

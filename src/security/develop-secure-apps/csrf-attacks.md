@@ -40,10 +40,10 @@ The most robust and generic form of CSRF protection is to perform server-side va
 
 With OutSystems, the development of APIs is entirely in the responsibility of the developer. APIs don't include anti-CSRF tokens by default. To secure your OutSystems APIs against CSRF attacks, we recommend the following actions:
 
-|**Use case** |**Actions** |
-|-------------|------------|
-|Perform GET requests |<ul><li>**Don't** run actions in the **Preparation**.</li><li>When designing your REST API, **don't** use cookies.</li></ul>|
-|Perform POST requests |<ul><li>Make sure there is a [unique token in your request](https://www.outsystems.com/forums/discussion/13556/cross-site-request-forger-token).</li><li>Validate against the expected value in the session.</li></ul>|
+| **Use case** | **Actions** |
+| ------------- | ------------ |
+| Perform GET requests | <ul><li>**Don't** run actions in the **Preparation**.</li><li>When designing your REST API, **don't** use cookies.</li></ul> |
+| Perform POST requests | <ul><li>Make sure there is a [unique token in your request](https://www.outsystems.com/forums/discussion/13556/cross-site-request-forger-token).</li><li>Validate against the expected value in the session.</li></ul> |
 
 ## More information
 
