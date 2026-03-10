@@ -63,7 +63,7 @@ LifeTime console [manages the IT users](https://success.outsystems.com/Documenta
 
 1. Edit the password:
 
-    ![](images/platform-server-hardening-change-pw-LTadmin.png?with=150)
+    ![LifeTime screen for editing the IT Administrator password.](images/platform-server-hardening-change-pw-LTadmin.png?with=150)
 
 #### External authentication provider
 

@@ -83,9 +83,9 @@ To create a shared configuration from scratch:
 
 1. Click **Create New Shared Configuration**.
 
-1. Click **Create** when you are ready to create a new configuration.![](/path/to/image.png)
+1. Click **Create** when you are ready to create a new configuration.
 
-![](/path/to/image.png)
+![Create button in the new shared configuration dialog.](/path/to/image.png)
 
 ### Pre-made samples
 
@@ -112,17 +112,17 @@ Pre-made samples are found in the **Pre-made Samples** field. Use the following 
 
 After creating a shared configuration, associate them with the eSpaces by following these steps:
 
-![](/path/to/image.png)
+![Shared Configurations or eSpaces tab in Factory Configuration.](/path/to/image.png)
 
 1. Navigate to the eSpaces tab.
 
 1. Click on the eSpace name.
 
-![](/path/to/image.png)
+![eSpace name selected in the list.](/path/to/image.png)
 
 1. Select the shared configuration to be associated.
 
-![](/path/to/image.png)
+![Shared configuration selected for the eSpace.](/path/to/image.png)
 
 **Note**: You can also link multiple shared configurations to a single eSpace.
 
@@ -136,7 +136,7 @@ Configuration changes done in Factory Configuration 11 might not be applied imme
 
 The **Platform Configurations** tab lists several internal configurations that affect the whole platform. To view the description of each configuration and the effects of enabling or modifying it, hover the mouse over each question mark.
 
-![](/path/to/image.png)
+![Platform Configurations tab listing internal configurations.](/path/to/image.png)
 
 Here's a list of relevant platform configurations and their parameters used inside the OutSystems database:
 
