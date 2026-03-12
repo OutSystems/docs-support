@@ -12,6 +12,8 @@ pageprivacy: public
 <ul>
 <li>The ODC Portal has a new "Platform updates" area, where you can find a list of all scheduled updates on your infrastructure, see their details and reschedule the operations. Patches for app vulnerabilities, previously found under "App security" can now also be found in this area. (RDLOT-4293)</li>
 </ul>
-
+<h3 id="bug_fixing_outsystems_developer_cloud_2026-03-12" >Bug Fixing</h3>
+<ul>
+<li>Fixed an issue that caused Aggregate filters comparing DateTime values to return incorrect results. Now, CurrDateTime() generates timestamps truncated to second precision, ensuring consistent comparisons between stored values and input parameters. This fix applies to new records inserted after the application is republished. (RPM-5696)</li>
 </ul>
 
