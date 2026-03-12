@@ -28,10 +28,10 @@ The recommended strategy is that you **always** use an **HTTPS** channel.
 
 Specifically for the following use cases, the corresponding actions are recommended:
 
-|Use case    |Actions    |
-|------------|-----------|
-|Send sensitive information in clear text   |Use **HTTPS**, enable [**HSTS**](https://cheatsheetseries.owasp.org/cheatsheets/HTTP_Strict_Transport_Security_Cheat_Sheet.html) (see [Enforce HTTPS Security](https://success.outsystems.com/Documentation/11/Managing_the_Applications_Lifecycle/Secure_the_Applications/Enforce_HTTPS_Security)) |
-|Send session ID in clear text  |Use **HTTPS**, enable [**HSTS**](https://cheatsheetseries.owasp.org/cheatsheets/HTTP_Strict_Transport_Security_Cheat_Sheet.html) (see [Enforce HTTPS Security](https://success.outsystems.com/Documentation/11/Managing_the_Applications_Lifecycle/Secure_the_Applications/Enforce_HTTPS_Security)) |
+| Use case | Actions |
+| ------------ | ----------- |
+| Send sensitive information in clear text | Use **HTTPS**, enable [**HSTS**](https://cheatsheetseries.owasp.org/cheatsheets/HTTP_Strict_Transport_Security_Cheat_Sheet.html) (see [Enforce HTTPS Security](https://success.outsystems.com/Documentation/11/Managing_the_Applications_Lifecycle/Secure_the_Applications/Enforce_HTTPS_Security)) |
+| Send session ID in clear text | Use **HTTPS**, enable [**HSTS**](https://cheatsheetseries.owasp.org/cheatsheets/HTTP_Strict_Transport_Security_Cheat_Sheet.html) (see [Enforce HTTPS Security](https://success.outsystems.com/Documentation/11/Managing_the_Applications_Lifecycle/Secure_the_Applications/Enforce_HTTPS_Security)) |
 
 ## More Information
 

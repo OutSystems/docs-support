@@ -142,15 +142,15 @@ To move a module to a different Catalog execute the following steps:
 
 1. Copy the database data.
 
-    | For Version 8 or lower| For Platform 9 or higher|
-    |-----|-----|
-    | a. Once the module is marked to be moved, go to the module  details screen, click the **Download Data Copy Script** link to download the script that will copy the module data. | a. Once the module is marked to be moved, take offline the application that contains the module (using the **Take Offline** button, on the application details screen).|
+    | For Version 8 or lower | For Platform 9 or higher |
+    | ----- | ----- |
+    | a. Once the module is marked to be moved, go to the module  details screen, click the **Download Data Copy Script** link to download the script that will copy the module data. | a. Once the module is marked to be moved, take offline the application that contains the module (using the **Take Offline** button, on the application details screen). |
     | b. Bring the application that contains the module offline using the **Take Offline** button, on the application details screen. | b. Create a SQL script to copy the module data to the destination catalog (run it in SQL Server Management Studio). |
-    | c. Run the script in SQL Server Management Studio, to copy the module data. You must have the same privileges as the admin user of the Platform. | c. Ensure that the move operation was successful and the application is working properly.|
-    | d. The script creates the source tables and views into the destination Catalog, copies their data, and creates the constraints.| |
-    | e. Ensure that the move operation was successful and the application is working properly.| |
-    | f. In the source Catalog, tables are kept for any eventual data recovery situation, but are renamed with an **OLD_** prefix. To definitely delete them, use the commented (not executed) SQL commands at the end of the script.| |
-    | g. In case of moving large amounts of data, require the DBA assistance to examine data copy steps on the script, and possibly make them more efficient. |  |
+    | c. Run the script in SQL Server Management Studio, to copy the module data. You must have the same privileges as the admin user of the Platform. | c. Ensure that the move operation was successful and the application is working properly. |
+    | d. The script creates the source tables and views into the destination Catalog, copies their data, and creates the constraints. | |
+    | e. Ensure that the move operation was successful and the application is working properly. | |
+    | f. In the source Catalog, tables are kept for any eventual data recovery situation, but are renamed with an **OLD_** prefix. To definitely delete them, use the commented (not executed) SQL commands at the end of the script. | |
+    | g. In case of moving large amounts of data, require the DBA assistance to examine data copy steps on the script, and possibly make them more efficient. | |
 
 1. Finish the module move
 

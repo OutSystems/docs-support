@@ -28,8 +28,8 @@ When applications redirect users to other pages using dynamic URLs in its parame
 
 To prevent attackers from using unvalidated redirects or forwarders, the following actions are recommended:
 
-|**Use case** |**Actions** |
-|-------------|------------|
-|Use Dynamic URLs redirects from input parameters |**To prevent attackers from using unvalidated redirects or forwarders, avoid using dynamic URL external sites** <br/> If you absolutely must use them, then check the input URL against a allowlist. |
+| **Use case** | **Actions** |
+| ------------- | ------------ |
+| Use Dynamic URLs redirects from input parameters | **To prevent attackers from using unvalidated redirects or forwarders, avoid using dynamic URL external sites** <br/> If you absolutely must use them, then check the input URL against a allowlist. |
 
 To learn how to protect your OutSystems apps against other common types of attacks, check [how OutSystems helps you develop secure applications](intro.md).

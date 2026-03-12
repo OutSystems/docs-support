@@ -189,12 +189,14 @@ exceptions:
   - EditPicture
   - MediaType
   - CheckCameraPlugin
+  - Plugin Manager
   - MediaResult data
   - MediaMetadata data
   - Employee
 
 # Events
   - OnClick
+  - On Click
   - On Initialize
   - On Ready
   - On Render
@@ -208,6 +210,7 @@ exceptions:
   - SyncContacts
   - ServerDataSync
 # UI Patterns and Widgets
+  - Action Sheet
   - Animated Label
   - Columns
   - Carousel
@@ -221,6 +224,8 @@ exceptions:
   - Progress Circle
   - Range Slider
   - Range Slider Interval
+  - Section Index
+  - Section Index Item
   - Split Screen
   - Stacked Cards
   - Submenu
@@ -310,37 +315,38 @@ exceptions:
   - Font Awesome
   
 # Industry
+  - AI
   - API
-  - HTML
+  - ARIA
   - APIs
+  - CI/CD
+  - CICD
+  - DEV
+  - DNS
+  - DREAD
+  - DevOps
+  - EAP
+  - FAQ
+  - FCM
   - IP
   - ID
-  - FAQ
+  - JavaScript
+  - MCP
   - TLS
-  - AI
-  - DNS
   - TLS
   - UI
   - SAST
   - REST
+  - HTML
   - HTTP
-  - FCM
-  - CI/CD
-  - CICD
-  - EAP
-  - JavaScript
-  - MCP
   - PR
   - UI
-  - DREAD
-  - DevOps
   - SOAP
-  - PaaS
   - SDK
   - QA
-  - DEV
   - PRD
   - SEO
+  - VPN
 # Country
   - US East
   - North Virginia
@@ -374,5 +380,7 @@ exceptions:
   - Front-end Developer specialization
   - Tech Lead exam
   - Platform Ops exam
+  - Delivery Specialist exam
+  - Web Developer Specialist exam
 # Errors
   - \bOS-(?:[A-Z]+-){1,2}\d+\b
