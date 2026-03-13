@@ -168,13 +168,13 @@ However, when the parameter is enabled it checks if there are any **incompatible
 
 **Runtime**: Traditional web, Reactive web, Mobile
 
-**Rationale**: Due to a security vulnerability in the Oracle Data Provider for .NET Managed driver, OutSystems 11 is now using Oracle Data Provider for .NET Managed driver in version 19.21.0. Starting with version 19.19 of that driver, Oracle calculates timezones based on regions (Europe, America, etc). This change in behaviour of the driver may cause "failure to connect" issues when the driver identifies regions (for example: UTC for Oracle 11g R2) that don't match any region on the Oracle server's timezone files.
+**Rationale**: Due to a security vulnerability in the Oracle Data Provider for .NET Managed driver, OutSystems 11 is now using Oracle Data Provider for .NET Managed driver in version 19.21.0. Starting with version 19.19 of that driver, Oracle calculates timezones based on regions (Europe, America, etc). This change in behavior of the driver may cause "failure to connect" issues when the driver identifies regions (for example: UTC for Oracle 11g R2) that don't match any region on the Oracle server's timezone files.
 
-OutSystems Platform 11 no longer supported Oracle 11g as the platform database. Starting with Platform Server version 11.25, OutSystems drops the support for Oracle 11g as an external database. Since Oracle 11g reached the end of Extended Support in 2020 ([official Oracle documentation](https://support.oracle.com/knowledge/Oracle%20Cloud/2068368_1.html)), customers who are using Oracle 11g are strongly advised to upgrade their database engine.
+OutSystems 11 no longer supported Oracle 11g as the platform database. Starting with Platform Server version 11.25, OutSystems drops the support for Oracle 11g as an external database. Since Oracle 11g reached the end of Extended Support in 2020 ([official Oracle documentation](https://support.oracle.com/knowledge/Oracle%20Cloud/2068368_1.html)), customers who are using Oracle 11g are strongly advised to upgrade their database engine.
 
 In the future, OutSystems may, at its own discretion, drop support for other database engines and versions that are no longer supported by the database engine provider.
 
-**Fix**: Update Oracle engine version. OutSystems advises customers to choose a Long Term Release version that is both supported by Oracle and OutSystems, which at this moment is Oracle 19c.
+**Fix**: Update Oracle engine version and ensure Oracle server's timezone file is up-to-date. OutSystems advises customers to choose a Long Term Release version that is both supported by Oracle and OutSystems, which at this moment is Oracle 19c.
 
 ### Introduced in Platform Server 11.24.0
 
