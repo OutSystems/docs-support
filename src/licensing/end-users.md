@@ -1,6 +1,6 @@
 ---
 summary: Explore end user management and classification in OutSystems 11 (O11), including internal, external, and anonymous user distinctions and capacities.
-tags: 
+tags:
 locale: en-us
 guid: 907b0fd3-bc46-4391-aae2-673296d795d9
 app_type: traditional web apps, mobile apps, reactive web apps
@@ -12,9 +12,10 @@ coverage-type:
 topic:
   - user-types
   - users-licensing
+isautopublish: true
 ---
 
-# End Users
+# End users
 
 An end user is a unique individual who uses your OutSystems apps. Each non-anonymous end user who interacts with your apps counts toward the end user capacities established on your subscription. People who develop your OutSystems apps but do not use them are not considered end users.
 
@@ -22,9 +23,18 @@ An end user is a unique individual who uses your OutSystems apps. Each non-anony
 
 You license internal and external end-user capacities separately on your subscription. Each end user of your OutSystems applications is classified as either internal or external. Internal is intended for employees and contractors of your organization. External is for your customers, partners, or other external parties who use your OutSystems apps.
 
-By default in OutSystems, all end users are classified as internal until you configure the domains that you own. You only need to configure your domains when you license external end-user capacity on your subscription because doing so allows you to track the internal and external end-user counts separately.
+By default in OutSystems, all end users are classified as internal until internal user domains are defined for your subscription. You only need to configure internal user domains when you license external end-user capacity on your subscription because doing so allows you to track the internal and external end-user counts separately.
 
-* For ODC (OutSystems Developer Cloud) you can [define your domains in the ODC Portal](https://www.outsystems.com/tk/redirect?g=f3211746-db90-4515-8175-888d00e14bd9).
+<div class="info" markdown="1">
+
+For ODC subscriptions provisioned after March 20, 2026, OutSystems defines those internal user domains using the email domain of the owner on the contract. New subscriptions therefore already have internal user domains defined, without an extra setup step. Change the domains in the **ODC Portal** when you need a different configuration than that default.
+
+OutSystems 11 maintains the default behavior where all end users are classified as internal until internal user domains are defined.
+
+</div>
+
+* For ODC (OutSystems Developer Cloud) you can [define your domains in the **ODC Portal**](https://www.outsystems.com/tk/redirect?g=f3211746-db90-4515-8175-888d00e14bd9).
+
 * For OutSystems 11, [domains are configured in Service Center](https://www.outsystems.com/tk/redirect?g=8cb73d92-a60d-4133-9f95-67ef4505932d).
 
 When you do this, all end users with email addresses belonging to these domains are classified as internal, and all end users with email addresses outside these domains are classified as external.
