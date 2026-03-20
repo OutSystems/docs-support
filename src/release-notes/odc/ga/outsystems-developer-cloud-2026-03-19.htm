@@ -17,6 +17,8 @@ pageprivacy: public
 <li>Click on that option and the documentation related with that activity will be open in a new tab.
 </ul> (RDODCT-4087)</li>
 </ul>
-
+<h3 id="bug_fixing_outsystems_developer_cloud_2026-03-19" >Bug Fixing</h3>
+<ul>
+<li>Fixed an issue that caused Aggregate filters using NullTextIdentifier() to return no results, even when records with empty Text Identifier attributes existed. This occurred when NullTextIdentifier() was used directly in an Aggregate filter expression, where it was incorrectly serialized as null in the generated SQL query instead of "" (empty string). Now, NullTextIdentifier() is correctly evaluated as an empty string in Aggregate filters, consistent with the documented behavior where NullTextIdentifier() = "" returns true. (RPM-6423)</li>
 </ul>
 
