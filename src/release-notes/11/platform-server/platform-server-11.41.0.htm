@@ -1,0 +1,30 @@
+---
+isautopublish: true
+pageprivacy: semi-private
+---
+
+<h2 id="platform_server_11.41.0" >Platform Server 11.41.0</h2>
+<div class="info"><p>This is a preliminary version of the document.</p></div>
+
+
+<style>.cattag {background: #f4f2ff; color: #6a6581; padding: 4px 10px;}</style>
+<h3 id="new_in_platform_server_11.41.0" >New in Platform Server 11.41.0</h3>
+<ul>
+<li>Added underlying infrastructure capabilities to support future O11 to ODC Data Interoperability, specifically for some system entities. (R11BCT-194)</li>
+<li>Updated Oracle Managed Driver to version 23.26.100. See the Oracle release notes, for more information on related fixes. (R11BCT-321)</li>
+<li>Updated Swagger UI dependency js-yaml to version 4.1.1. This update has no runtime impact. (R11DT-3581)</li>
+<li>Updated Swagger UI dependency lodash to version 4.17.23. This update has no runtime impact. (R11DT-3616)</li>
+</ul>
+<h3 id="bug_fixing_platform_server_11.41.0" >Bug Fixing</h3>
+<ul>
+<li>Fixed an issue in Monitoring screens that allow "errors only" filter to work properly. Suggestion made by <a href="https://www.outsystems.com/profile/wmqergfymu/overview">Evert </a>. (R11CT-3514) <span class="cattag">Application Lifecycle</span>  <span class="cattag">Service Center</span> </li>
+<li>Fixed an issue where the "Active with Errors" filter failed to update correctly.
+This occurred in the Process Details page, specifically when a process instance with the "Active with Errors" status had its error skipped. Although the instance's status changed to "Active", it remained visible in the "Active with Errors" filtered list. Suggestion made by <a href="https://www.outsystems.com/profile/zbx7fxyfxj/overview">Kilian</a>. (R11CT-3515) <span class="cattag">Application Lifecycle</span>  <span class="cattag">Service Center</span> </li>
+<li>Fixed an issue within Traditional applications where an incomplete surrogate pair in an input field led to application unresponsiveness. (RPM-1709) <span class="cattag">Application Runtime</span>  <span class="cattag">Interface</span> </li>
+<li>Fixed an issue where "If" Widgets within emails would fail to render styles or evaluate expressions correctly in some scenarios, leading to unstyled content or missing data in the final email output. (RPM-4660) <span class="cattag">Application Runtime</span>  <span class="cattag">Interface</span> </li>
+<li>Fixed an issue in Service Center Extension logs page where the exported logs didn't match the logs shown on the screen. This would only happen if Log Separation was active and no specific extension was selected in the dropdown filter. (RPM-6481) <span class="cattag">Application Runtime</span>  <span class="cattag">Logging</span> </li>
+<li>Fixed an issue in Service Center Extension logs page when clicking the "Next" button triggered an error message indicating an invalid filter operator. This would only happen if Log Separation was active. (RPM-6520) <span class="cattag">Application Runtime</span>  <span class="cattag">Logging</span> </li>
+<li>Fixed an issue in Service Center Extension logs page which triggered an error message indicating an inline attribute placeholder was already initialized. This would only happen if Log Separation was active and an invalid date filter was used.  (RPM-6522) <span class="cattag">Application Runtime</span>  <span class="cattag">Logging</span> </li>
+<li>It is now possible to see a log in Service Center when deleting modules, extensions and apps. These new logs will contain the User performing the action, and the components being deleted when applicable. (RPM-870) <span class="cattag">Application Lifecycle</span>  <span class="cattag">Service Center</span> </li>
+</ul>
+
