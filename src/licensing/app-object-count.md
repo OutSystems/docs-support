@@ -15,6 +15,7 @@ outsystems-tools:
   - service studio
 coverage-type:
   - understand
+isautopublish: true
 ---
 
 # Application Objects
@@ -33,21 +34,20 @@ An Application Object (AO) is a measurement of the complexity of your applicatio
 
 * Entities you create within OutSystems (both normal [entities](https://success.outsystems.com/Documentation/11/Developing_an_Application/Use_Data/Data_Modeling/Entities) and [static entities](https://success.outsystems.com/Documentation/11/Developing_an_Application/Use_Data/Data_Modeling/Static_Entities)) each count as 1 AO.
 * Entities you import from external databases (for example, a table or a view) for use in your app each count as 1 AO.
-* [OutSystems 11 entities you consume in ODC apps or agents](https://www.outsystems.com/tk/redirect?g=42156dc2-2ec5-4f2d-bf5c-b5af28072cfa) through ODC Data Fabric don't contribute to the AO count.
+* [OutSystems 11 entities you import in OutSystems Developer Cloud](https://www.outsystems.com/tk/redirect?g=42156dc2-2ec5-4f2d-bf5c-b5af28072cfa) through Data Fabric don't contribute to the AO count.
 * Entities using local storage, such as for use with mobile apps, each count as 1 AO.
 * Static entities included in a library each count as 1 AO.
 * Tables created by the OutSystems platform, such as the Users table where end user information is stored, don't contribute to the AO count.
 
 ## Details on AO counting for API methods
 
-* Each API method you:
-    * _Import_ through Data Fabric (for example, SAP BAPIs, SAP OData Deep Inserts, Search Services, MCP tools) counts as 1 AO.
-    * _Consume_ through AI Models counts as 1 AO.
-    * _Create_ or _consume_ through [REST](https://success.outsystems.com/Documentation/11/Extensibility_and_Integration/REST/Expose_REST_APIs) and [SOAP Web Service](https://success.outsystems.com/Documentation/11/Extensibility_and_Integration/SOAP/Exposing_SOAP_Web_Services/Expose_a_SOAP_Web_Service) within each app or library counts as 1 AO.
-* Each API method you _create_ ([REST](https://www.outsystems.com/tk/redirect?g=08e6c830-5f88-4645-b86f-412e1c399a1f) or [SOAP Web Service](https://success.outsystems.com/Documentation/11/Extensibility_and_Integration/SOAP/Exposing_SOAP_Web_Services/Expose_a_SOAP_Web_Service)) counts as 1 AO.
-* Each API method you _consume_ ([REST](https://success.outsystems.com/Documentation/11/Extensibility_and_Integration/REST/Consume_REST_APIs), [SOAP Web Service](https://success.outsystems.com/Documentation/11/Extensibility_and_Integration/SOAP/Consuming_SOAP_Web_Services), SAP BAPI, etc.) within each app counts as 1 AO.
-* API methods included in a library each count as 1 AO.
-* APIs that are within a C#-based extension don't contribute to the AO count.
+* Each API method you import in OutSystems Developer Cloud through Data Fabric (for example, SAP BAPIs, SAP OData Deep Inserts, Search Services, MCP tools) counts as 1 AO.
+* Each SAP BAPI method you consume in OutSystems 11 through Service Studio counts as 1 AO.
+* Each API method you consume through AI Models counts as 1 AO.
+* Each API method you create or consume through [SOAP Web Services](https://success.outsystems.com/Documentation/11/Extensibility_and_Integration/SOAP/Exposing_SOAP_Web_Services/Expose_a_SOAP_Web_Service) within each app or library counts as 1 AO.
+* Each REST API method you create or consume within each app or library counts as 1 AO.
+* REST API methods exposed in OutSystems 11 and consumed only in OutSystems Developer Cloud, or exposed in OutSystems Developer Cloud and consumed only in OutSystems 11, don't contribute to the AO count. For more information, see [Logic interoperability](https://www.outsystems.com/tk/redirect?g=1edc897d-d7ca-494f-9379-d8ce57467cc9).
+* API methods within a C#-based extension don't contribute to the AO count.
 
 ## Details on AO counting for Events
 
@@ -63,7 +63,7 @@ An Application Object (AO) is a measurement of the complexity of your applicatio
 * In OutSystems Developer Cloud, you can deploy multiple versions of the same library. Only the version with the highest number of AOs contributes to the AO count.
 * In OutSystems 11, libraries that are published contribute to the AO count, even when they are not referenced by any applications. In OutSystems Developer Cloud, unreferenced libraries do not contribute to the AO count.
 * With libraries, the AO count contributed includes all API methods and static entities in the library, even when not all are referenced or used by apps.
-* In OutSystems Developer Cloud, all selected entities of a connection contribute to the AO count if the entity is referenced in an app. For example, if 50 Salesforce entities are selected in the external database connection and only one is used in one or multiple apps, the connection counts as 50 AOs.
+* In OutSystems Developer Cloud, all selected entities of a connection contribute to the AO count if the connection is referenced in an app. For example, if 50 Salesforce entities are selected in the external database connection and only one is used in one or multiple apps, the connection counts as 50 AOs.
 
 ## AO limits
 
