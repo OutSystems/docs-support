@@ -14,6 +14,7 @@ outsystems-tools:
   - service studio
 coverage-type:
   - unblock
+isautopublish: true
 ---
 
 # There was an error contacting outsystemscloud.com - Host not found
@@ -42,7 +43,7 @@ Go to `https://<yourpersonal>.outsystemscloud.com` and check the state of your e
 
 * If you can see your applications, then your personal environment is up and running and you **should** be able to connect to it from the IDE.
 
-* If you are redirected to [https://www.outsystems.com/home/](https://www.outsystems.com/home/), then your personal environment fell asleep or was deleted.
+* If you are redirected to [https://www.outsystems.com/home/](https://www.outsystems.com/Portal/Trial_Portal), then your personal environment fell asleep or was deleted.
 
 ### Step 2
 
