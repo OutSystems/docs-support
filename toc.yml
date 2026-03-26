@@ -51,6 +51,8 @@
             - href: release-articles/mabs/mabs-6.md
             - href: release-articles/mabs/troubleshoot-issues-with-mabs-6.md
         - href: release-articles/mabs/obsolete-versions.md
+    ## Mobile UI
+    - href: release-articles/mobile-ui/mobile-ui-versioning.md
     - href: release-notes/ai-mentor-studio/ai-mentor-studio.md
     - href: release-notes/integration-builder/integration-builder.md
     - href: release-notes/cat/cat.md
