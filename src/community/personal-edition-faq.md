@@ -2,14 +2,15 @@
 guid: 2f0b4814-c8d5-41be-a9bf-c0a15b5cc917
 locale: en-us
 summary: Frequently asked questions about OutSystems Personal Edition
-figma: 
-coverage-type: 
-topic: 
+figma:
+coverage-type:
+topic:
 app_type: reactive web apps,mobile apps
 platform-version: odc
-audience: 
-tags: 
-outsystems-tools: 
+audience:
+tags:
+outsystems-tools:
+isautopublish: true
 ---
 
 # OutSystems Personal Edition FAQ
@@ -119,7 +120,7 @@ Yes. Up to 100 users; however, we don’t recommend exceeding dozens of users si
 
 **Are we retiring O11 Personal Edition?**
 
-No. OutSystems 11 Personal Edition continues to exist, and you can still use it for O11 training and O11 Forge community use cases. The OutSystems 11 Personal Edition is accessible in the Community menu, Tools > O11.
+No. OutSystems 11 Personal Edition continues to exist, and you can still use it for O11 training and O11 Forge community use cases. The OutSystems 11 Personal Edition is accessible in the Community menu, Platform > O11.
 
 **Can a user have both the OutSystems Personal Edition and the OutSystems 11 Personal Edition?**
 
