@@ -15,6 +15,7 @@ outsystems-tools:
   - none
 coverage-type:
   - apply
+isautopublish: true
 ---
 
 # The detach process for OutSystems 11
@@ -55,7 +56,7 @@ Ensure that you read and understand this entire document before you start. Doing
 
 If you run into any issues at any step, you will need to repeat the previous steps until everything is working properly. Be careful and do not skip any instructions in this document to minimize the chance of mistakes. At any of these steps, you can contact OutSystems Support and ask for help.
 
-## Before you start { #before-you-start }
+## Before you start {#before-you-start}
 
 <div class="info" markdown="1">
 
@@ -97,14 +98,14 @@ Since you will lose most of the OutSystems capabilities, you must guarantee that
 
 * Knows how to develop, build, and deploy Android and/or iOS apps (applies to mobile apps only).
 
-### Technical pre-requisites { #technical-pre-requisites }
+### Technical pre-requisites {#technical-pre-requisites}
 
 If you are creating a new self-managed environment, you must:
 
 * Identify the exact Platform Server version and release from which you are detaching;
 * Create the new environment so that it fulfills the [system requirements](https://www.outsystems.com/tk/redirect?g=244db17a-7a98-4cb0-93c0-db91f1c91fd8);
 * Install Microsoft Visual Studio 2022 on the environment;
-* Download the [installation checklist](http://www.outsystems.com/goto/checklist-11) for the exact Platform Server version and release from which you are detaching;
+* Open the installation checklist for the exact Platform Server version and release from which you are detaching;
 * Follow all of the steps in the **Pre-installation checklist** section of the installation checklist;
 * Follow the mandatory steps in the **Tuning and Security checklist** section of the installation checklist.
 
@@ -130,7 +131,7 @@ After detaching the source code of your applications, all OutSystems tools and s
 
 Detaching is a one-way street. Once you detach the source code and start developing your applications using Visual Studio or some other IDE, there is no reverse engineering process to get those applications back into OutSystems.
 
-### OutSystems Scheduler Service { #scheduler-service }
+### OutSystems scheduler service {#scheduler-service}
 
 If you are using Timers, BPT Activities, or emails in your applications, you can keep such functionality even after detaching from the OutSystems platform. Unlike other OutSystems services, the source code of the Scheduler Service will be provided for this purpose.
 
@@ -191,7 +192,7 @@ The code is structured in the following folders:
 
 The following image shows the code structure of a sample-generated application:
 
-![Screenshot of the Solution Explorer in Visual Studio showing the code structure of a generated application with multiple projects and folders.](images/Figure_1_-_Code_Structure_of_a_generated_Application-O11.png "Code Structure of a Generated Application")  
+![Solution Explorer in Visual Studio showing the ContactManager solution with multiple OutSystems runtime and provider projects.](images/Figure_1_-_Code_Structure_of_a_generated_Application-O11.png "Code structure of a generated OutSystems 11 application in Visual Studio")  
 
 In the application folder (`<Project Name>`) there is a set of packages that hold the different types of code. These folders are:
 
@@ -206,7 +207,7 @@ In the application folder (`<Project Name>`) there is a set of packages that hol
 * **WebServices** – the code to support all Web Services exposed by your module.
 * **WebReferences** – the code to support all Web Services consumed by your module.
 
-## The actual detach process { #actual-detach-process }
+## The actual detach process {#actual-detach-process}
 
 The detach process starts with you reaching out to your account manager to start the detach process.
 
@@ -258,7 +259,7 @@ To perform a complete detach, you will need to:
 1. Detach, compile, and deploy all individual modules and mobile apps as detailed in [Detaching an application from OutSystems](#detach-app);
 1. Test the result application(s) without OutSystems as presented in [Final steps](#final-steps).
 
-## Preparing your systems to run detached { #prepare }
+## Preparing your systems to run detached {#prepare}
 
 <div class="warning" markdown="1">
 
@@ -274,7 +275,7 @@ This updates all apps automatically. If you do not do this before uninstalling, 
 
 </div>
 
-### Preparing the Application Server to deploy the generated code { #prepare-app-server }
+### Preparing the Application Server to deploy the generated code {#prepare-app-server}
 
 The machine that will run the detached applications must be prepared for that purpose. Making sure that all the requirements are met minimizes the chance of failure of this process.
 
@@ -290,15 +291,15 @@ To check it do the following:
 
     **&lt;your machine name&gt;** > **Sites** > **Default Web Site**
 
-    ![Screenshot of the Internet Information Services (IIS) Manager showing the Default Web Site expanded with various options and settings.](images/Default_Web_Site.png "Default Web Site in IIS Manager")  
+    ![Internet Information Services Manager with the Default Web Site selected and its features displayed in the center pane.](images/Default_Web_Site.png "Default Web Site in IIS Manager")  
 
 1. Make sure that there is a binding for the HTTP protocol on port 80 for IP address 127.0.0.1 at least. It's recommended that you use an asterisk (`*`) instead, as that means all IP address can access it. Leaving only the 127.0.0.1 address means that it can only be accessed locally.
 
-    ![Screenshot of the Site Bindings window in IIS Manager showing an HTTP binding for IP address 127.0.0.1 on port 80.](images/127.0.0.1.png "127.0.0.1 Binding in IIS")
+    ![IIS Manager showing the Site Bindings dialog with an HTTP binding on port 80 for IP address 127.0.0.1.](images/127.0.0.1.png "IIS site bindings with localhost HTTP entry")
 
 If you are using the same Application Server that previously hosted OutSystems, check [Using the Application Server that previously hosted OutSystems](#use-existing-app-server). Otherwise, if you're going to use a brand new Application Server, configure it according to [Using a brand new Application Server](#use-new-app-server).
 
-#### Using the Application Server that previously hosted OutSystems { #use-existing-app-server }
+#### Using the Application Server that previously hosted OutSystems {#use-existing-app-server}
 
 In case of having SEO Friendly URLs, you will need to remove the ISAPI Filter, since SEO Rules will no longer work after detaching. To accomplish that:
 
@@ -306,13 +307,13 @@ In case of having SEO Friendly URLs, you will need to remove the ISAPI Filter, s
 
 1. In the middle-pane, find **ISAPI Filters** and double-click it.
 
-    ![Screenshot of the ISAPI Filters option in IIS Manager highlighted under the Default Web Site settings.](images/ISAPI_Filter.png "ISAPI Filters in IIS")  
+    ![IIS Manager with the Default Web Site selected and the ISAPI Filters icon highlighted in the features view.](images/ISAPI_Filter.png "ISAPI Filters feature in IIS Default Web Site")  
 
 1. Search for **OutSystems ISAPI Filter** and delete it.
 
-    ![Screenshot showing the removal of the OutSystems ISAPI Filter from the ISAPI Filters list in IIS Manager.](images/ISAPI_Filter_-_remove.png "Remove ISAPI Filter")
+    ![ISAPI Filters list in IIS Manager with the OutSystems ISAPI Filter selected and the context menu open on the Remove option.](images/ISAPI_Filter_-_remove.png "Removing the OutSystems ISAPI filter in IIS")
 
-#### Using a brand new Application Server { #use-new-app-server }
+#### Using a brand new Application Server {#use-new-app-server}
 
 If you want, you can deploy your module in a new server where you never installed OutSystems. If you're not considering this option, skip this section.
 
@@ -397,11 +398,11 @@ Do the following:
 
     1. Inside **Process Model**, find the **Identity** field. By clicking it a button with **...** appears. Click on that button.
 
-        ![Screenshot of the Advanced Settings window in IIS Manager showing the Process Model Identity field with a button to change the identity.](images/Process_Model_-_Identity.png "Process Model Identity in IIS")
+        ![Advanced Settings dialog for DefaultAppPool in IIS showing the Process Model Identity property selected.](images/Process_Model_-_Identity.png "Advanced settings of an IIS application pool")
 
     1. Inside **Application Pool Identity**, select **Built-in account** and choose **LocalSystem** from the provided options.
 
-        ![Screenshot of the Application Pool Identity window in IIS Manager showing the selection of the LocalSystem built-in account.](images/Application_Pool_Identity.png "Application Pool Identity in IIS")
+        ![Application Pool Identity dialog in IIS with the Built-in account option set to LocalSystem.](images/Application_Pool_Identity.png "Selecting LocalSystem for the application pool identity")
 
 ### Preparing the database to host the data of your applications
 
@@ -409,7 +410,7 @@ Your application data will be preserved either in the same databases/schemas and
 
 If you're keeping the same database, follow the procedure in [Using the database that previously kept the OutSystems data](#use-existing-db). If you're moving to a new database server, follow the instructions in [Using a brand new database](#use-new-db).
 
-#### Using the database that previously kept the OutSystems data { #use-existing-db }
+#### Using the database that previously kept the OutSystems data {#use-existing-db}
 
 OutSystems encrypts sensitive configuration data such as passwords. To secure that data, an encryption key was generated when you installed OutSystems.
 
@@ -429,7 +430,7 @@ Change the `value` attribute of this element to point to the new location of the
 
 Even if you're using the same database that previously stored OutSystems data, connection strings may need to be changed if the database credentials were altered. If that's the case, please refer to the instructions at [Using a brand new database](#use-new-db) to change the connection strings.
 
-#### Using a brand new database { #use-new-db }
+#### Using a brand new database {#use-new-db}
 
 <div class="info" markdown="1">
 
@@ -475,7 +476,7 @@ If you will use a new database, you have to manually reconfigure your database c
 
     To create a correct `{CONNECTION_STRING_IN_PLAIN_TEXT}`, check [Connection strings](#connection-strings). Make sure the connection string is correctly configured for the selected database provider, while keeping in mind that the parameter names used may not align with the placeholder names.
 
-## Open a support case { #open-support-case-on-prem }
+## Open a support case {#open-support-case-on-prem}
 
 If you are originally detaching from the OutSystems Cloud, you will already have done this step after you finished setting up the new self-managed environment. In that case, skip this section.
 
@@ -486,7 +487,7 @@ Reach out to OutSystems Support, open a new support case and request the source 
 * Include the exact OutSystems Platform Server major and minor versions, release and build number from which you are detaching (eg. 11.18.1 build 37828).
 * Request the source code for the [Scheduler Service](#scheduler-service). You'll receive a bundle containing the scheduler source code.
 
-## Build the source code for the Scheduler Service { #build-install-scheduler-service }
+## Build the source code for the Scheduler Service {#build-install-scheduler-service}
 
 To compile the scheduler, do the following:
 
@@ -500,7 +501,7 @@ To compile the scheduler, do the following:
 
     This installs a service called Detached Scheduler Service. To uninstall it, run `installutil /u scheduler.exe`. If any problem happens, check the scheduler logs in the Event Viewer.
 
-## Detaching an application from OutSystems { #detach-app }
+## Detaching an application from OutSystems {#detach-app}
 
 This chapter covers how to detach, compile, and deploy a single module.
 
@@ -514,21 +515,21 @@ You must follow all the steps described in this section for a successful detach 
 
 </div>
 
-### Get the source code of web applications { #source-code-web }
+### Get the source code of web applications {#source-code-web}
 
 To obtain the source code of a web application module, open the **Licensing** page under the **Administration** tab in Service Center and detach the source code as follows:
 
 1. Click on the **Modules Source Code** link.
 
-    ![Screenshot of the Licensing page in OutSystems Service Center with the Modules Source Code link highlighted.](images/eSpaces_Source_Code.png "Modules Source Code in Service Center")  
+    ![OutSystems Service Center Licensing page with the Modules Source Code link highlighted in the Administration menu bar.](images/eSpaces_Source_Code.png "Licensing page with Modules Source Code link in Service Center")  
 
 1. Click **Detach** for the module whose source code you want to obtain.
 
-    ![Screenshot of the Module Source Code page in OutSystems Service Center showing the Detach button for a module.](images/Detach.png "Detach Module Source Code")  
+    ![Module Source Code page in OutSystems Service Center showing a list of modules with a Detach button on the right.](images/Detach.png "Detach module source code in Service Center")  
 
 1. Wait until OutSystems has finished packing the module source code and click **Download**.
 
-    ![Screenshot of the Source Code of a Module page in OutSystems Service Center showing the Download button for the packed module source code.](images/Download.png "Download Detached Source Code")
+    ![Source Code of Module page in Service Center showing compile and pack steps completed and a Download button highlighted.](images/Download.png "Download detached module source code package")
 
 1. Save the ZIP file and extract it.
 
@@ -545,7 +546,7 @@ Locate the application configuration file, `appSettings.config`, present on the 
 
         `ProviderKey=SqlServer&#xD;&#xA;&lt;DBConfiguration&gt;&lt;ConnectionStringOverride&gt;{CONNECTION_STRING_IN_PLAIN_TEXT}&lt;/ConnectionStringOverride&gt;&lt;/DBConfiguration&gt;`
 
-### Get the source code of mobile apps  { #source-code-mobile }
+### Get the source code of mobile apps  {#source-code-mobile}
 
 To fully detach a **mobile** app from OutSystems you need to:
 
@@ -559,11 +560,11 @@ To obtain the native app source code of an Android or iOS mobile app, open the *
 
 1. Search for the application corresponding to your mobile app and click on its name to go to the detail page.
 
-    ![Screenshot of the Applications page in OutSystems Service Center showing a list of applications with one selected.](images/Select_application.png "Select Application in Service Center")  
+    ![Applications list in the Factory tab of Service Center showing several applications with their last published information.](images/Select_application.png "Selecting an application in Service Center Factory")  
 
 1. In the **Native Platforms** tab click in the **Download source code** icon for the desired platform build (Android or iOS).
 
-    ![Screenshot of the Application detail page in OutSystems Service Center showing the Download source code icon for Android.](images/Download_source_code.png "Download Mobile App Source Code")
+    ![Application detail page in Service Center with the Native Platforms tab selected and the Download Android source code icon highlighted.](images/Download_source_code.png "Download native mobile app source code")
 
 1. Save the `tar.gz` file and extract it.
 
@@ -571,7 +572,7 @@ The obtained source code corresponds to the source code of the most recent build
 
 **Note:** The mobile app source code is only kept for 7 days after a successful build. You'll need to generate the mobile app again if the last build was made more than 7 days ago.
 
-### Compiling and deploying web applications { #compile-web }
+### Compiling and deploying web applications {#compile-web}
 
 Before you open the application's solution in Visual Studio, you need to make sure that no application or module publication has occurred in the local machine or otherwise you'll get errors. To do this, check for any existing application publication data in Internet Information Services (IIS) and clear it out with the following steps:
 
@@ -581,11 +582,11 @@ Before you open the application's solution in Visual Studio, you need to make su
 
     **&lt;your machine name&gt;** > **Sites** > **Default Web Site**
 
-    ![Screenshot of the Internet Information Services (IIS) Manager showing the Default Web Site expanded with various options and settings.](images/Default_Web_Site.png "Default Web Site in IIS Manager")  
+    ![Internet Information Services Manager with the Default Web Site selected and its features displayed in the center pane.](images/Default_Web_Site.png "Default Web Site in IIS Manager")  
 
-1. Look for a virtual directory (![Icon representing a virtual directory in IIS Manager.](images/virtual_directory.png "Virtual Directory Icon in IIS") with the same name as the module you have detached and remove it; either by clicking on it and then pressing the **Del** key, or by right-clicking on it to open the popup menu and then choosing the **Remove** option.
+1. Look for a virtual directory (![Small IIS icon representing a virtual directory used in the Default Web Site tree.](images/virtual_directory.png "Virtual directory icon in IIS Manager") with the same name as the module you have detached and remove it; either by clicking on it and then pressing the **Del** key, or by right-clicking on it to open the popup menu and then choosing the **Remove** option.
 
-    ![Screenshot of the context menu in IIS Manager showing the Remove option for a virtual directory.](images/virtual_directory_remove.png "Remove Virtual Directory in IIS")
+    ![IIS Manager with a module virtual directory selected under Default Web Site and the context menu open on the Remove option.](images/virtual_directory_remove.png "Removing a virtual directory for a detached module")
 
 If your application uses the OutSystems SAP plugin, then the SAP .NET Connector libraries have to be manually added to the detached source code. To ensure that the application compiles successfully, you need to copy the `sapnco.dll` and `sapnco_utils.dll` files, located in the `\thirdparty\lib\` folder in the Platform Server installation directory, into the `ThirdParty\SAP` folder that came with the detached source code.
 
@@ -603,18 +604,18 @@ To deploy your applications, proceed as follows:
 
 1. After the Build has finished successfully, execute the Visual Studio's **Publish &lt;Project Name&gt;** command to publish your application to IIS by creating a **Custom** profile. When asked, choose the **Custom** option and give a name to the profile.
 
-    ![Screenshot of the Publish window in Visual Studio showing the selection of IIS, FTP, Web Deploy as the publish target.](images/pick-publish-target.png "Pick a Publish Target in Visual Studio")
+    ![Visual Studio Pick a publish target dialog with IIS, FTP, etc selected and the Publish button highlighted.](images/pick-publish-target.png "Choosing IIS, FTP, Web Deploy as the publish target")
 
 1. Configure the new profile and press **Save**.
 
-    ![Screenshot of the Publish window in Visual Studio showing the configuration of a custom profile for publishing a web application.](images/Publish_11Web.png "Publish Web Application in Visual Studio")  
+    ![Visual Studio Publish dialog showing connection settings for publishing a web application to Default Web Site.](images/Publish_11Web.png "Configuring a custom publish profile for a web app")  
 
 1. After a successful publication, open IIS and search under your **Default Web Site** for the virtual directory with the name of your published module and click on it.
 
 1. Make sure that your application is running under an Application Pool that uses .NET 4.0.  
 To change the application pool of the underlying web site, select the web site and in the **Actions** pane click **Basic Settings**. Click **Select**, and select an application pool configured to use .NET 4.0.
 
-### Compiling and deploying mobile apps { #compile-mobile }
+### Compiling and deploying mobile apps {#compile-mobile}
 
 <div class="info" markdown="1">
 
@@ -720,11 +721,11 @@ Now application A is ready to be compiled and deployed. This procedure is the sa
 
 If an application depends on another applications, you might need to deploy all its dependencies to guarantee that it keeps working correctly.
 
-## Final steps { #final-steps }
+## Final steps {#final-steps}
 
 When all applications have been successfully published, it's recommended that you test everything first before uninstalling OutSystems platform server. If you moved from Application Server, skip the [Before uninstalling](#before-uninstall) and test your applications, since no uninstallation needs to be performed.
 
-### Before uninstalling { #before-uninstall }
+### Before uninstalling {#before-uninstall}
 
 If no error was found there's a great chance you followed everything correctly, nevertheless some errors may appear when you uninstall the OutSystems platform server. To safely test this without having to reinstall everything follow this steps:
 
@@ -744,17 +745,17 @@ If you changed the name of the folders where OutSystems server was installed, to
 
 ## Appendix
 
-### Connection strings { #connection-strings }
+### Connection strings {#connection-strings}
 
 When you need to convert your connections string to plain text, use the corresponding string according with your database provider(s).
 
 An example is provided so that you can easily map the placeholders from the **Configuration Tool**, which can be found under **Windows Start Menu** > **OutSystems** > **Administration Tools**.
 
-![Screenshot of the Windows Start Menu showing the Configuration Tool option under the OutSystems folder.](images/Appendix_-_Configuration_Tool.png "Configuration Tool in Start Menu")
+![Windows Start menu expanded with the OutSystems folder and Configuration Tool shortcut highlighted.](images/Appendix_-_Configuration_Tool.png "Opening OutSystems Configuration Tool from Start menu")
 
 If it's an external database connection, you can get the same information accessing **Service Center** > **Administration** > **Database Connections**, since the names are exactly the same.
 
-![Screenshot of the Database Connections page in OutSystems Service Center with the Database Connections tab highlighted.](images/Appendix_-_Database_Connections.png "Database Connections in Service Center")
+![OutSystems Service Center Administration page with the Database Connections tab selected in the top navigation bar.](images/Appendix_-_Database_Connections.png "Database Connections tab in Service Center")
 
 Don't forget to change the placeholders, wrapped around curly brackets `{}`, with your own information. Also, each connection string refers to a different User; this mean that for each string you must check which User it refers to.
 
@@ -788,7 +789,7 @@ User ID= {User}; Password= {Password}; Data Source= (DESCRIPTION=(ADDRESS=(PROTO
 DataSource= {Server}; Database= {Database}; UserId= {Username}; Password= {Password}; Def aultCollection= {Schema};
 ```
 
-![Screenshot of the Create Database Connection page in OutSystems Service Center showing the iDB2 connection string settings.](images/Appendix_-_iDB2.png "iDB2 Connection String Example")
+![Create Database Connection form in Service Center filled with example fields for an iDB2 connection, including username, server, database, and schema.](images/Appendix_-_iDB2.png "iDB2 external database connection example")
 
 #### MySQL
 
@@ -796,4 +797,4 @@ DataSource= {Server}; Database= {Database}; UserId= {Username}; Password= {Passw
 Server= {Server}; Database= {Schema}; Uid= {User}; Pwd= {Password}; Allow User Variables=true; ConnectionLifeTime=6000; ConnectionReset=true;
 ```
 
-![Screenshot of the Create Database Connection page in OutSystems Service Center showing the MySQL connection string settings.](images/Appendix_-11_Mysql1.png "MySQL Connection String Example")
+![Create Database Connection form in Service Center filled with example fields for a MySQL connection, including username, server, and schema.](images/Appendix_-11_Mysql1.png "MySQL external database connection example")
