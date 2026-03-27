@@ -46,7 +46,7 @@ You need to request a new personal environment before using it.
 
 Go to [www.outsystems.com/home](https://www.outsystems.com/home), ensure you're logged in, and click **Fetch a new environment**.
 
-![OutSystems dashboard showing a notification that the personal environment has been deleted due to inactivity with a 'Fetch a new environment' button.](images/    .png "OutSystems Personal Environment Deactivated Notification")
+![OutSystems dashboard showing a notification that the personal environment has been deleted due to inactivity with a 'Fetch a new environment' button.](images/pe-del.png "OutSystems Personal Environment Deactivated Notification")
 
 If your environment has been deleted less than six months ago, download your apps by clicking **download a backup**. After you create a new personal environment, you can re-publish your apps.
 
