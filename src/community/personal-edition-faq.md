@@ -23,9 +23,9 @@ The OutSystems Personal Edition (also referred to as PE) is the new, free versio
 
 The OutSystems Personal Edition is free of charge and can be retained indefinitely as long as you continue to use it.
 
-* Whenever you register for a new Personal Edition, you must log in within the first three days. If you don’t do so, you will need to request a new one.
+* Whenever you register for a new Personal Edition, you must log in within the first three days. If you don't log in, you need to request a new one.
 
-* You need to use it regularly; if not, the Personal Edition will be deleted, and you will permanently lose all your progress, configurations, and data. To avoid losing your work, export your apps’ OML files before deletion. This allows you to save your apps locally and import them into a new Personal Edition at a later time.
+* You need to use it regularly; if you don't, your Personal Edition is deleted and you permanently lose all your progress, configurations, and data. To avoid losing your work, export your apps' OML files before deletion. You can then import them into a new Personal Edition later.
 
 * Even if your current Personal Edition gets deleted, you can always request a new one. To do it, you must go to the [Personal Edition](https://www.outsystems.com/personaledition/) portal and request a new one.
 
@@ -35,11 +35,11 @@ Personal Editions are usually available right away. In rare cases, high demand m
 
 **Can I invite my team to access my OutSystems Personal Edition?**
 
-Yes. The invite is done from the ODC portal, and users will access the ODC portal from the invitation email. If they are already Community users, they will input their Community credentials and access OutSystems. If not, they will be redirected to the sign-up form before accessing the ODC portal.
+Yes. The invite is done from the ODC portal, and users access the ODC portal from the invitation email. If they are already Community users, they input their Community credentials and access OutSystems. If not, they are redirected to the sign-up form before accessing the ODC portal.
 
 **What is included in the OutSystems Personal Edition?**
 
-The OutSystems Personal Edition is designed for training, sandboxing, and exploring ODC, and it is thus different from the commercial-grade ODC tenant we provide our customers and includes the following:
+The OutSystems Personal Edition is designed for training, sandboxing, and exploring ODC. It differs from the commercial-grade ODC tenant and includes the following:
 
 * 1 Development stage
 
@@ -90,7 +90,7 @@ Yes. Trial models, Claude 3.7 Sonnet, and Amazon Nova Pro are supported by defau
 **What happens when I reach the limit of my Trial model when using an Agent?**
 
 Once the limit is reached, additional calls return an error. In the ODC Portal's AI models console, the trial card shows that the limit has been reached.
-Passing the error information to the agent's end user depends on your design of the Agentic app, but the event is always logged and shown in the ODC Portal, on the Logs page.
+How the error information reaches the agent's end user depends on your Agentic app design. The event is always logged and visible in the ODC Portal, on the Logs page.
 
 As described above, AI trial models cannot be renewed.  If you have your own paid AI models, you can add them to your OutSystems Personal Edition.
 
@@ -98,13 +98,17 @@ As described above, AI trial models cannot be renewed.  If you have your own pa
 
 Yes. Mentor is available in Personal Edition with the known [usage restrictions](https://www.outsystems.com/tk/redirect?g=D940C32D-0409-4D49-B6FE-BB831E5EF12C).
 
+**Is Mentor Studio available in the OutSystems Personal Edition?**
+
+Yes. Mentor Studio is available in the OutSystems Personal Edition. You can use Mentor Studio to modify existing apps through conversational AI directly in ODC Studio, including generating and modifying logic, screens, and data structures. For details on what Mentor Studio can do, refer to [AI development in Mentor Studio](https://www.outsystems.com/tk/redirect?g=27f4f846-5c2d-44fd-b9a2-99f5d2770cb2).
+
 **Can the Personal Edition be used to integrate with external databases or services?**
 
 Yes. Extensibility is available in the OutSystems Personal Edition. The OutSystems Personal Edition includes the Private Gateway add-on, which allows you to connect to your own private external databases and services.
 
-**Can I connect my OutSystems Personal Edition to my external  Identity Provider (IdP)?**
+**Can I connect my OutSystems Personal Edition to my external Identity Provider (IdP)?**
 
-Yes, at the Applicational level. You can use your external IdP in your applications, but you cannot use it to log in to the OutSystems Personal Edition. To use your external IdP, you need to configure it on the ODC Portal. To log in to the OutSystems Personal Edition, you will always need to use your Community account..
+Yes, at the application level. You can use your external IdP in your applications, but you cannot use it to log in to the OutSystems Personal Edition. To use your external IdP, you need to configure it on the ODC Portal. To log in to the OutSystems Personal Edition, you always need to use your Community account.
 
 **Can I use external Static Application Security Testing (SAST) analysis tools on my Personal Edition apps?**
 
@@ -116,7 +120,7 @@ No. The OutSystems Personal Edition is limited to one stage, the Development sta
 
 **Is there any limit on the number of users who can access the apps built with the Personal Edition?**
 
-Yes. Up to 100 users; however, we don’t recommend exceeding dozens of users since these tenants are not ready for production loads, and the experience will be affected.
+Yes. Up to 100 users; however, we don’t recommend exceeding dozens of users since these tenants are not ready for production loads, and the experience degrades.
 
 **Are we retiring O11 Personal Edition?**
 
@@ -132,7 +136,7 @@ No. A direct app upgrade path from an O11 Personal Environment to OutSystems Per
 
 **Can a user move their apps from one OutSystems Personal Edition to another OutSystems Personal Edition?**
 
-Yes. Although no direct migration between OutSystems Personal Editions is in place, you can export and import your apps from one OutSystems Personal Edition to another. Note that configurations and applicational data will be lost.
+Yes. Although no direct migration between OutSystems Personal Editions is in place, you can export and import your apps from one OutSystems Personal Edition to another. Note that configurations and application data are lost.
 
 **What's the service level agreement (SLA) for the OutSystems Personal Edition?**
 
@@ -148,16 +152,16 @@ Yes. The new Personal Edition makes it easier for every developer to contribute 
 
 **Can I upload assets to Forge in my individual name?**
 
-Yes. You can use your OutSystems Personal Edition to submit assets to ODC Forge. Assets submitted this way will be attached to your Personal Edition. The displayed publisher name in ODC Forge will be the **First and Last Name** of your Community Account..
+Yes. You can use your OutSystems Personal Edition to submit assets to ODC Forge. Assets submitted this way are attached to your Personal Edition. The displayed publisher name in ODC Forge is the **First and Last Name** of your Community Account.
 
 **Can I have other Community members collaborating on my ODC Forge assets?**
 
-Yes. You’ll be able to invite other team members to your own Personal Edition. This allows others to make changes to your assets and submit new versions of them to ODC Forge.
+Yes. You can invite other team members to your own Personal Edition. This allows others to make changes to your assets and submit new versions of them to ODC Forge.
 
 **Will my Forge assets contribute to my Community Profile ranking?**
 
-Yes. Not immediately at the ONE Conference. However, the Developer Relations team is planning to ensure that ODC Forge assets will count towards your community profile ranking in the future. Importantly, any points you’ve already earned from Forge assets will also be taken into account when this is rolled out.
+Yes. Not immediately at the ONE Conference. However, the Developer Relations team plans to ensure that ODC Forge assets count towards your community profile ranking. Any points you've already earned from Forge assets are also taken into account when this is rolled out.
 
 **Can I transfer the Forge assets I uploaded in my Company’s tenant to my OutSystems Personal Edition?**
 
-There won’t be an automated process to ensure this. After having submitted a first asset through their OutSystems Personal Edition to Forge, users from the Community should request this by Support Case, with proof that their Company acknowledges the ownership transfer of the Forge asset.
+There isn't an automated process for this. After submitting a first asset through their OutSystems Personal Edition to Forge, Community users should open a Support Case. The request must include proof that their Company acknowledges the ownership transfer of the Forge asset.
