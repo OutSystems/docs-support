@@ -6,6 +6,7 @@ guid: 235255BA-1C28-4CB7-B99C-DB343416DC38
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
 figma: https://www.figma.com/file/mP34OzloL9EPqXml1E0tfC/Community?node-id=1394:240
+isautopublish: true
 ---
 
 # Transfer your certifications to another account
@@ -32,4 +33,4 @@ To transfer your certificates to another account do the following:
     ![Screenshot showing the Move certifications option within the Manage Accounts section of OutSystems settings.](images/move-certifications.png "Move Certifications Option")
 
 1. On the form, enter the email address and password of **account B**. This lets us know you own the account.
-1. Confirm by clicking **Migrate**. Your OutSystems certifications were moved into **account A**.
+1. Confirm by clicking **Migrate**. Your OutSystems certifications are now in **account B**.
