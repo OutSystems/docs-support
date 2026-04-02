@@ -144,7 +144,14 @@ There aren’t SLAs for OutSystems Personal Editions. The OutSystems Personal Ed
 
 **What kind of support is available?**
 
-Support for OutSystems Personal Edition is provided; you can open a support ticket via the ODC Portal. Also, Community members can access other supporting resources, such as [ODC documentation](https://success.outsystems.com/documentation/outsystems_developer_cloud/), [online training](https://learn.outsystems.com/training?_gl=1*10dgdh9*_gcl_aw*R0NMLjE3NTc0MDgzMDUuQ2owS0NRandvUF9GQmhERkFSSXNBTlBHMjRPM1lLVURlUzdsTlJxNXdNMmlKcXNSeFlnUEFpbzlxWE9SWk1tcmZONWMwY1l2Z2NkWnBja2FBcFFQRUFMd193Y0I.*_gcl_au*MzgyNjc2NjQxLjE3NTE1MzcyODIuNzczMzc0NDUuMTc1ODAyNjI5MS4xNzU4MDI2Mjkx*_ga*ODg2NDg1NzgxLjE2NzE2MzI4NjA.*_ga_ZD4DTMHWR2*czE3NTg3OTAxMDUkbzE0OCRnMSR0MTc1ODc5Mzc5NyRqNjAkbDAkaDA.*_ga_HGKNZZMWJS*czE3NTg3OTAxMDYkbzQ3NSRnMSR0MTc1ODc5Mzc5NyRqNjAkbDEkaDE4OTU5NDcyOTI.*_ga_G11QMS1MBT*czE3NTg3OTAxMDUkbzMkZzEkdDE3NTg3OTM3OTckajYwJGwwJGgw), [community support](intro.md), and [AI-powered assistance](https://www.outsystems.com/DSUP_AI_UI/AISearchAgent?Search=). If you need help evaluating how OutSystems can address your app challenges today, [talk to us](https://www.outsystems.com/schedule-demo/) or check our [Evaluation Guide](https://www.outsystems.com/evaluation-guide/).
+Support for OutSystems Personal Edition is provided at best effort. You can open a support ticket via the ODC Portal. Community members can also access these resources:
+
+* [ODC documentation](https://success.outsystems.com/documentation/outsystems_developer_cloud/)
+* [Online training](https://learn.outsystems.com/training)
+* [Community support](intro.md)
+* [AI-powered assistance](https://www.outsystems.com/DSUP_AI_UI/AISearchAgent?Search=)
+
+To evaluate how OutSystems fits your needs, [talk to us](https://www.outsystems.com/schedule-demo/) or check our [Evaluation Guide](https://www.outsystems.com/evaluation-guide/).
 
 **Is it possible to contribute to ODC Forge in a Personal Edition?**
 
