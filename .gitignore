@@ -16,3 +16,6 @@ config.yml
 styles/*
 # Ignore all mcp.json files anywhere in the repo
 **/mcp.json
+
+# Ignore MacOS specific folder customization files
+.DS_Store

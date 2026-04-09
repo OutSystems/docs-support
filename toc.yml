@@ -472,8 +472,12 @@
         - href: error/mabs/mabs-vld-50000.md
         - href: error/mabs/mabs-depecrated-error.md
         - href: error/mabs/mabs-undocumented-error.md
+        - href: error/mabs/os-naos-40007.md
+        - href: error/mabs/os-naos-40008.md
+        - href: error/mabs/os-naos-40009.md
         - href: error/mabs/os-naos-50005.md
         - href: error/mabs/os-naos-50019.md
+        - href: error/mabs/os-naos-50024.md
         - href: error/mabs/os-mco-40001.md
         - href: error/mabs/os-mco-40002.md
         - href: error/mabs/os-mco-40003.md
