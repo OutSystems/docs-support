@@ -20,7 +20,9 @@ coverage-type:
 
 OutSystems allows the development of enterprise web and mobile applications that run in different infrastructure models:
 
-* **OutSystems Developer Cloud (ODC)**: a [cloud-native app development platform](https://www.outsystems.com/tk/redirect?g=9a0cb62a-f11b-4d1a-9e79-0ca7d398e57b) with a modern architecture.
+* **OutSystems Developer Cloud (ODC)**: a [cloud-native app development platform](https://www.outsystems.com/tk/redirect?g=9a0cb62a-f11b-4d1a-9e79-0ca7d398e57b) with a modern architecture hosted by OutSystems.
+
+*  **Self-hosted ODC**: a hybrid deployment model that combines the control and compliance benefits of customer-managed infrastructure with the stability and agility of a cloud-managed development experience. If you're using Self-hosted ODC, see the [self-hosted shared responsibility model](https://www.outsystems.com/tk/redirect?g=7d901e26-3b77-4d4f-923d-956d78cd146d) instead.
   
 * **OutSystems 11 Cloud**: deployed on Amazon Web Services (AWS) and managed by OutSystems
 
