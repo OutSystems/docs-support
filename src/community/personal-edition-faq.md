@@ -100,7 +100,7 @@ Yes. Mentor is available in Personal Edition with the known [usage restrictions]
 
 **Is Mentor Studio available in the OutSystems Personal Edition?**
 
-Yes. Mentor Studio is available in the OutSystems Personal Edition. You can use Mentor Studio to modify existing apps through conversational AI directly in ODC Studio, including generating and modifying logic, screens, and data structures. For details on what Mentor Studio can do, refer to [AI development in Mentor Studio](https://www.outsystems.com/tk/redirect?g=27f4f846-5c2d-44fd-b9a2-99f5d2770cb2).
+Yes. Mentor Studio is in gradual release for the OutSystems Personal Edition from April 2026 onwards. You can use Mentor Studio to modify existing apps through conversational AI directly in ODC Studio, including generating and modifying logic, screens, and data structures. For details on what Mentor Studio can do, refer to [AI development in Mentor Studio](https://www.outsystems.com/tk/redirect?g=27f4f846-5c2d-44fd-b9a2-99f5d2770cb2).
 
 **Can the Personal Edition be used to integrate with external databases or services?**
 
