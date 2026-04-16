@@ -10,6 +10,7 @@ audience:
   - mobile developers
 outsystems-tools:
   - forge
+isautopublish: true
 ---
 # Mobile apps build service versions
 
@@ -88,6 +89,10 @@ This version can run your apps on:
     </tbody>
 </table>
 
+## Deprecated
+
+You can select a deprecated MABS version when creating a mobile package, but you will receive limited support. Limited support means that you receive advice and workarounds through support requests, but there are no bug fixes for the version.
+
 <div class="info" markdown="1">
 
 ## **Version 11.2**
@@ -96,7 +101,7 @@ This version can run your apps on:
 
 Released as Beta on October 15th, 2025 <br/>
 Released to GA on October 30th, 2025 <br/>
-Deprecation on April 15th, 2026 <br/>
+Deprecated on April 15th, 2026 <br/>
 Obsolete date to be announced <br/>
 
 </div>
@@ -143,13 +148,3 @@ This version can run your apps on:
         </tr>
     </tbody>
 </table>
-
-## Deprecated
-
-<div class="info" markdown="1">
-
-Currently, there are no deprecated MABS versions.
-
-</div>
-
-You can select a deprecated MABS version when creating a mobile package, but you will receive limited support. Limited support means that you receive advice and workarounds through support requests, but there are no bug fixes for the version.
