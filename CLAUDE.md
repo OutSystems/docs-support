@@ -118,43 +118,6 @@ Validations run on PRs via `.github/workflows/`. Workflow names and checks vary 
 * `build.yml` — Documentation build
 * `visual-assets-validate.yml` / `visual-assets-pr.yml` — Image/diagram validation
 
-## Fixing release notes ordering
-
-Release notes for ODC live in `src/release-notes/odc/ga/`. Each release
-date has its own `.htm` file (for example,
-`outsystems-developer-cloud-2026-04-07.htm`). The parent page `ga.md`
-holds legacy entries up to March 2023; all newer entries are individual
-`.htm` child pages with `isautopublish: true` frontmatter.
-
-The autopublish system on success.outsystems.com orders entries by
-**commit/publish time**, not by the release date in the content. When
-`cdagent` (the automated release-notes bot) pushes files after later
-dates have already been published, the new entries appear above more
-recent ones, breaking chronological order.
-
-To fix the ordering:
-
-1. Save the content of every out-of-order `.htm` file (and any file
-   that should appear above them).
-1. Delete all of them in a **single commit** and push to master.
-1. Re-add each file in **chronological order** (oldest date first),
-   one commit + push per file, with a delay between pushes so the
-   autopublish system processes each one individually.
-1. The last file pushed becomes the topmost entry on the page.
-
-Example commit sequence for Apr 7, 8, 10, 11:
-
-```
-commit 1: delete all four .htm files
-commit 2: add back Apr 7  -> push -> wait
-commit 3: add back Apr 8  -> push -> wait
-commit 4: add back Apr 10 -> push -> wait
-commit 5: add back Apr 11 -> push -> wait
-```
-
-Use the same commit-message pattern as cdagent:
-`Update release notes of outsystems-developer-cloud-YYYY-MM-DD`
-
 ## Editor settings
 
 * Indent with 4 spaces (configured in `.editorconfig`)
