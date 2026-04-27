@@ -15,6 +15,7 @@ outsystems-tools:
   - service center
 coverage-type:
   - unblock
+isautopublish: true
 ---
 
 # Troubleshoot Could not create Foreign Key errors during deployment
@@ -52,8 +53,8 @@ Entity 'B':
 
 | ID | Username | Email |
 | ---- | ---- | ---- |
-| 5 | Ruben | ruben@example.com |
-| 6 | Capitao | capitao@example.com |
+| 5 | Ruben | `ruben@example.com` |
+| 6 | Capitao | `capitao@example.com` |
 
 If we create the Foreign Key from Entity 'A' column 'User_ID' to point to Entity 'B' column 'ID', we'll obtain an error. This because the existing data in column 'User_ID' contains values that don't exist in the parent table (entity 'B').
 

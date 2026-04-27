@@ -14,6 +14,7 @@ outsystems-tools:
   - none
 coverage-type:
   - apply
+isautopublish: true
 ---
 
 # How to generate a CSR
@@ -55,7 +56,7 @@ You can generate a CSR in multiple operating systems or tools and can chose the 
 * [On a MacOS](#other)
 * [On Microsoft Azure Key Vault](#other)
 
-### Using IIS { #IIS }
+### Using IIS {#IIS}
 
 One of the options to generate a CSR is to use Internet Information Services (IIS). Windows Servers already have IIS enabled by default, but if you are on a Windows computer where IIS is not enabled, you can [enable it in the Control Panel](https://docs.microsoft.com/en-us/dynamics-nav/how-to--install-and-configure-internet-information-services-for-microsoft-dynamics-nav-web-client#install-iis-on-windows-7-8-81-and-10).
 
@@ -80,7 +81,7 @@ You must run all commands as a user with **Administrator** privileges
     ![Screenshot of the Request Certificate Wizard interface in IIS Manager.](images/generate-csr-iis_3.png "Request Certificate Wizard")
 
 1. Enter the following information at **Distinguished Name Properties**:
-    * **Common Name** - The name through which the certificate will be accessed (usually the fully-qualified domain name, e.g., www.domain.com or mail.domain.com).
+    * **Common Name** - The name through which the certificate will be accessed (usually the fully-qualified domain name, e.g., `www.domain.com` or `mail.domain.com`).
     * **Organization** - The legally registered name of your organization/company;
     * **Organizational unit** - The name of your department within the organization (frequently this entry is "IT," "Web Security," or left blank).
     * **City/locality** - The city in which your organization is located.
@@ -181,7 +182,7 @@ When you create a Certificate Signing Request, you generate a private key too. P
 
 The certificate export is complete.
 
-### Using OpenSSL { #OpenSSL }
+### Using OpenSSL {#OpenSSL}
 
 [OpenSSL](https://www.openssl.org/) can be used to generate a Certificate Signing Request (CSR). You can also refer to [this tutorial](https://www.ssl.com/how-to/manually-generate-a-certificate-signing-request-csr-using-openssl/) instead.
 
@@ -196,13 +197,13 @@ The certificate export is complete.
 | Locality            | **Dallas** (Full City name)                 |
 | Organization        | **Example Inc** (Entity's Legal Name)       |
 | Organizational Unit | **IT** (Optional, e.g. a department)        |
-| Common Name*        | **www.example.com** (Domain or Entity name) |
+| Common Name*        | `www.example.com` (Domain or Entity name)   |
 
 *_required_
 
 You should now have a Private Key (privatekey.key) in PEM format, which should stay on your computer, and a Certificate Signing Request (CSR.csr), which can be submitted to a Certificate Authority (CA) to sign your public key.
 
-### Other options { #other }
+### Other options {#other}
 
 There are several other options and tools to create a CSR. [This guide](https://www.ssl.com/category/task/csr-creation/), for example, offers a good collection of articles to generate a CSR in various platforms.
 

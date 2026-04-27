@@ -13,6 +13,7 @@ outsystems-tools:
   - service studio
 coverage-type:
   - unblock
+isautopublish: true
 ---
 
 # Windows Integrated Authentication login popup keeps showing for end users
@@ -80,8 +81,8 @@ Refer to [2] on how to do it for Internet Explorer. Other browsers have similar 
 
 ## More information
 
-[1] (www.outsystems.com/help/ServiceStudio/9.1/#t=Handling_security%2FAuthenticating_End_Users.htm)
-[2] (https://support.microsoft.com/en-us/kb/258063)
-[3] (www.outsystems.com/help/ServiceStudio/9.1/#t=Handling_security%2FAbout_Roles.htm)
-[4] (www.outsystems.com/help/ServiceStudio/9.1/#t=Handling_security%2FAbout_Integrated_Authentication.htm)
-[5] (www.outsystems.com/help/ServiceStudio/9.1/#t=Web_User_Interface%2FWeb_Screen_Properties.htm)
+[1] (`https://www.outsystems.com/help/ServiceStudio/9.1/#t=Handling_security%2FAuthenticating_End_Users.htm`)
+[2] (`https://support.microsoft.com/en-us/kb/258063`)
+[3] (`https://www.outsystems.com/help/ServiceStudio/9.1/#t=Handling_security%2FAbout_Roles.htm`)
+[4] (`https://www.outsystems.com/help/ServiceStudio/9.1/#t=Handling_security%2FAbout_Integrated_Authentication.htm`)
+[5] (`https://www.outsystems.com/help/ServiceStudio/9.1/#t=Web_User_Interface%2FWeb_Screen_Properties.htm`)
