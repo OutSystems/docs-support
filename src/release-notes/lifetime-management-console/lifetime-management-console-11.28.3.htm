@@ -1,0 +1,24 @@
+---
+isautopublish: true
+pageprivacy: public
+---
+
+<h2 id="lifetime_management_console_11.28.3" >LifeTime Management Console 11.28.3</h2>
+<div class="info"><p>Released on Apr 27, 2026</p></div>
+
+
+<style>.cattag {background: #f4f2ff; color: #6a6581; padding: 4px 10px;}</style>
+<h3 id="new_in_lifetime_management_console_11.28.3" >New in LifeTime Management Console 11.28.3</h3>
+<ul>
+<li>You can now dismiss the information alert about system entities being exposed by default in the Expose Entities Manage Access screen. 
+Once dismissed, the alert will not appear again for that user. (R11CT-4666) <span class="cattag">Application Lifecycle</span>  <span class="cattag">LifeTime</span> </li>
+</ul>
+<h3 id="bug_fixing_lifetime_management_console_11.28.3" >Bug Fixing</h3>
+<ul>
+<li>Fixed a Firefox-specific issue where the browser's autofill feature triggered an infinite save loop on the effective value input of secret site properties. This occurred during the 'Configure applications settings' step of a deployment, where the browser repeatedly injected credentials into the 'Secret' input fields. Issue reported by <a href="https://www.outsystems.com/profile/2thje4vyof/overview">Jo&#xE3;o Heleno</a>. (R11CT-3513) <span class="cattag">Application Lifecycle</span>  <span class="cattag">LifeTime</span> </li>
+<li>Fixed an issue that caused LifeTime to display the deployment progress screen indicating the deployment was in progress, when the deployment plan had not yet started. This occurred when navigating directly to the deployment progress screen before the deployment had been initiated. Now, users are redirected to the staging edit step and an informative message is displayed explaining the redirection. Issue reported by <a href="https://www.outsystems.com/profile/psonomp8dh/overview">Nuno Reis</a>. (R11CT-4277) <span class="cattag">Application Lifecycle</span>  <span class="cattag">LifeTime</span> </li>
+<li>In the "Expose Entities" feature, system entity views (User and Tenant) are no longer incorrectly listed. This occurred in infrastructures with Platform Server 11.41.0, where these entities are exposed by default. Now, only user-defined views are displayed. (R11CT-4748) <span class="cattag">Application Lifecycle</span>  <span class="cattag">LifeTime</span> </li>
+<li>Removed the low database space warning from the database image used in Enterprise PaaS infrastructures, as the warning text itself was deprecated and removed in LT 11.25.0. (RPM-5490) <span class="cattag">Application Lifecycle</span>  <span class="cattag">LifeTime</span> </li>
+<li>Fixed a vulnerability related with service account JWT token. CVSSv3.1 score 2.7 (Low). (RPM-6559) <span class="cattag">Application Lifecycle</span>  <span class="cattag">LifeTime</span> </li>
+</ul>
+
