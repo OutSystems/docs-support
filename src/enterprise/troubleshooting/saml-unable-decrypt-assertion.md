@@ -7,8 +7,8 @@ platform-version: o11
 figma:
 tags: saml authentication, certificate configuration, error handling, security, user authentication
 audience:
-  - full stack developers
-  - platform administrators
+  - Developer
+  - Platform administrator
 outsystems-tools:
   - service studio
   - users application

@@ -7,7 +7,7 @@ platform-version: o11
 figma:
 tags: mabs upgrade, android sdk compatibility, cordova-android, plugin compatibility, troubleshooting
 audience:
-  - mobile developers
+  - Developer
 outsystems-tools:
   - service studio
 coverage-type:

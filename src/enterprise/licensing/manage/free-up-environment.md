@@ -7,9 +7,8 @@ platform-version: o11
 figma: https://www.figma.com/file/cPLNnZfDOZ1NX3avcjmq3g/Enterprise%20Customers?node-id=616:0
 tags: licensing, environment management, server upgrades, platform server administration, outsystems operations
 audience:
-  - platform administrators
-  - tech leads
-  - infrastructure managers
+  - Platform administrator
+  - Tech lead
 outsystems-tools:
   - none
 coverage-type:

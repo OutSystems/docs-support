@@ -7,10 +7,9 @@ platform-version: o11
 figma: https://www.figma.com/file/6tXLupLiqfG9FOElATTGQU/Troubleshooting?type=design&node-id=3371%3A45&mode=design&t=yxrwP6nyFMM4MyQJ-1
 tags: error handling, deployment, web applications, server administration, http status codes
 audience:
-  - frontend developers
-  - full stack developers
-  - backend developers
-  - platform administrators
+  - Front-end developer
+  - Developer
+  - Platform administrator
 outsystems-tools:
   - service studio
   - service center

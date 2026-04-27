@@ -7,8 +7,8 @@ figma:
 summary:
 tags: troubleshooting, outsystems, error handling
 audience:
-  - frontend developers
-  - full stack developers
+  - Front-end developer
+  - Developer
 outsystems-tools:
   - service studio
 coverage-type:

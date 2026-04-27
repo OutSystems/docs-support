@@ -7,8 +7,8 @@ platform-version: o11
 figma: https://www.figma.com/file/TzqCbVlN2j4nadunA7q8VU/Licensing?node-id=0:1
 tags: application migration, environment management, outsystems deployment, solution management
 audience:
-  - full stack developers
-  - platform administrators
+  - Developer
+  - Platform administrator
 outsystems-tools:
   - service center
 coverage-type:

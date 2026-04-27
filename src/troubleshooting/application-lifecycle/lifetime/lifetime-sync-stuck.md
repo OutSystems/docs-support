@@ -7,8 +7,7 @@ app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
 figma: https://www.figma.com/file/6tXLupLiqfG9FOElATTGQU/Troubleshooting?node-id=620:53
 audience:
-  - platform administrators
-  - infrastructure managers
+  - Platform administrator
 outsystems-tools:
   - lifetime
   - platform server

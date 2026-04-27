@@ -7,11 +7,10 @@ platform-version: o11
 figma:
 tags: static application security testing (sast), outsystems 11, code analysis, security best practices
 audience:
-  - frontend developers
-  - full stack developers
-  - backend developers
-  - platform administrators
-  - architects
+  - Front-end developer
+  - Developer
+  - Platform administrator
+  - Architect
 outsystems-tools:
   - lifetime
 coverage-type:

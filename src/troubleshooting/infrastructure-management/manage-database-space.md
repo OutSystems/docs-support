@@ -7,9 +7,8 @@ platform-version: o11
 figma: https://www.figma.com/file/6tXLupLiqfG9FOElATTGQU/Troubleshooting?node-id=3327:485
 tags: database management, outsystems personal environment, environment monitoring, performance optimization
 audience:
-  - full stack developers
-  - platform administrators
-  - mobile developers
+  - Developer
+  - Platform administrator
 outsystems-tools:
   - service center
 coverage-type:

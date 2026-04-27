@@ -7,10 +7,8 @@ platform-version: o11
 figma:
 tags: http error codes, troubleshooting, server configuration, load balancers, reverse proxy
 audience:
-  - platform administrators
-  - infrastructure managers
-  - full stack developers
-  - backend developers
+  - Platform administrator
+  - Developer
 outsystems-tools:
   - none
 coverage-type:

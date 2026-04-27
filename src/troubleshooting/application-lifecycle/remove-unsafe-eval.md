@@ -7,9 +7,9 @@ platform-version: o11
 figma: https://www.figma.com/file/6tXLupLiqfG9FOElATTGQU/Troubleshooting?type=design&node-id=3431%3A267&mode=design&t=n3OfSI1cyFvKAAiH-1
 tags: content security policy, security best practices, javascript, error handling, debugging
 audience:
-  - frontend developers
-  - full stack developers
-  - platform administrators
+  - Front-end developer
+  - Developer
+  - Platform administrator
 outsystems-tools:
   - service studio
   - service center

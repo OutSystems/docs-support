@@ -7,9 +7,8 @@ platform-version: o11
 figma: https://www.figma.com/file/6tXLupLiqfG9FOElATTGQU/Troubleshooting?node-id=620:33
 tags: error resolution, .net framework, application deployment, user authentication, platform operations
 audience:
-  - platform administrators
-  - full stack developers
-  - backend developers
+  - Platform administrator
+  - Developer
 outsystems-tools:
   - service studio
   - service center

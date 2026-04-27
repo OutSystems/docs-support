@@ -7,10 +7,9 @@ figma:
 summary: OutSystems 11 (O11) mandates UTC time zone settings across all servers, impacting application development.
 tags: time zone handling, cloud deployment, application configuration, best practices, outsystems cloud
 audience:
-  - frontend developers
-  - full stack developers
-  - mobile developers
-  - platform administrators
+  - Front-end developer
+  - Developer
+  - Platform administrator
 outsystems-tools:
   - service studio
   - forge

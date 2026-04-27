@@ -7,9 +7,9 @@ platform-version: o11
 figma: https://www.figma.com/file/cPLNnZfDOZ1NX3avcjmq3g/Enterprise%20Customers?node-id=3215:458
 tags: license management, enterprise support, subscription services, license upgrade, platform management
 audience:
-  - platform administrators
-  - tech leads
-  - full stack developers
+  - Platform administrator
+  - Tech lead
+  - Developer
 outsystems-tools:
   - service center
 coverage-type:

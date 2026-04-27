@@ -7,8 +7,8 @@ platform-version: o11
 figma:
 tags: authentication, user management, security, troubleshooting, configuration
 audience:
-  - platform administrators
-  - full stack developers
+  - Platform administrator
+  - Developer
 outsystems-tools:
   - service studio
   - users application

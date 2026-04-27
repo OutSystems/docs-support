@@ -7,10 +7,9 @@ platform-version: o11
 figma: https://www.figma.com/file/TzqCbVlN2j4nadunA7q8VU/Licensing?node-id=1318:909
 tags: outsystems detachment, application maintenance, self-managed environments, cloud migration
 audience:
-  - platform administrators
-  - full stack developers
-  - tech leads
-  - infrastructure managers
+  - Platform administrator
+  - Developer
+  - Tech lead
 outsystems-tools:
   - none
 coverage-type:
@@ -192,7 +191,7 @@ The code is structured in the following folders:
 
 The following image shows the code structure of a sample-generated application:
 
-![Solution Explorer in Visual Studio showing the ContactManager solution with multiple OutSystems runtime and provider projects.](images/Figure_1_-_Code_Structure_of_a_generated_Application-O11.png "Code structure of a generated OutSystems 11 application in Visual Studio")  
+![Visual Studio Solution Explorer showing the ContactManager solution with OutSystems runtime, database provider, and application projects.](images/Figure_1_-_Code_Structure_of_a_generated_Application-O11.png "Code structure of a detached OutSystems 11 application in Visual Studio")  
 
 In the application folder (`<Project Name>`) there is a set of packages that hold the different types of code. These folders are:
 
@@ -291,11 +290,11 @@ To check it do the following:
 
     **&lt;your machine name&gt;** > **Sites** > **Default Web Site**
 
-    ![Internet Information Services Manager with the Default Web Site selected and its features displayed in the center pane.](images/Default_Web_Site.png "Default Web Site in IIS Manager")  
+    ![Internet Information Services Manager with Default Web Site selected and its features listed in the center pane.](images/Default_Web_Site.png "Default Web Site selected in IIS Manager")  
 
 1. Make sure that there is a binding for the HTTP protocol on port 80 for IP address 127.0.0.1 at least. It's recommended that you use an asterisk (`*`) instead, as that means all IP address can access it. Leaving only the 127.0.0.1 address means that it can only be accessed locally.
 
-    ![IIS Manager showing the Site Bindings dialog with an HTTP binding on port 80 for IP address 127.0.0.1.](images/127.0.0.1.png "IIS site bindings with localhost HTTP entry")
+    ![IIS Site Bindings dialog for Default Web Site showing an HTTP binding on port 80 using IP address 127.0.0.1.](images/127.0.0.1.png "IIS HTTP binding for localhost on port 80")
 
 If you are using the same Application Server that previously hosted OutSystems, check [Using the Application Server that previously hosted OutSystems](#use-existing-app-server). Otherwise, if you're going to use a brand new Application Server, configure it according to [Using a brand new Application Server](#use-new-app-server).
 
@@ -307,7 +306,7 @@ In case of having SEO Friendly URLs, you will need to remove the ISAPI Filter, s
 
 1. In the middle-pane, find **ISAPI Filters** and double-click it.
 
-    ![IIS Manager with the Default Web Site selected and the ISAPI Filters icon highlighted in the features view.](images/ISAPI_Filter.png "ISAPI Filters feature in IIS Default Web Site")  
+    ![Default Web Site home view in IIS Manager with the ISAPI Filters icon highlighted in the features list.](images/ISAPI_Filter.png "ISAPI Filters feature in IIS Default Web Site")  
 
 1. Search for **OutSystems ISAPI Filter** and delete it.
 
@@ -402,7 +401,7 @@ Do the following:
 
     1. Inside **Application Pool Identity**, select **Built-in account** and choose **LocalSystem** from the provided options.
 
-        ![Application Pool Identity dialog in IIS with the Built-in account option set to LocalSystem.](images/Application_Pool_Identity.png "Selecting LocalSystem for the application pool identity")
+        ![Application Pool Identity dialog in IIS with Built-in account selected and LocalSystem chosen from the dropdown list.](images/Application_Pool_Identity.png "Selecting LocalSystem for the application pool identity")
 
 ### Preparing the database to host the data of your applications
 
@@ -525,11 +524,11 @@ To obtain the source code of a web application module, open the **Licensing** pa
 
 1. Click **Detach** for the module whose source code you want to obtain.
 
-    ![Module Source Code page in OutSystems Service Center showing a list of modules with a Detach button on the right.](images/Detach.png "Detach module source code in Service Center")  
+    ![Module Source Code page in Service Center showing a list of modules with a Detach button for each row.](images/Detach.png "Detach module source code in Service Center")  
 
 1. Wait until OutSystems has finished packing the module source code and click **Download**.
 
-    ![Source Code of Module page in Service Center showing compile and pack steps completed and a Download button highlighted.](images/Download.png "Download detached module source code package")
+    ![Source Code of Module page in Service Center showing compile and pack steps completed and a Download button.](images/Download.png "Download detached module source code package")
 
 1. Save the ZIP file and extract it.
 
@@ -560,7 +559,7 @@ To obtain the native app source code of an Android or iOS mobile app, open the *
 
 1. Search for the application corresponding to your mobile app and click on its name to go to the detail page.
 
-    ![Applications list in the Factory tab of Service Center showing several applications with their last published information.](images/Select_application.png "Selecting an application in Service Center Factory")  
+    ![Applications list under the Factory tab in Service Center showing several applications with last published information.](images/Select_application.png "Selecting an application in Service Center Factory")  
 
 1. In the **Native Platforms** tab click in the **Download source code** icon for the desired platform build (Android or iOS).
 
@@ -582,9 +581,9 @@ Before you open the application's solution in Visual Studio, you need to make su
 
     **&lt;your machine name&gt;** > **Sites** > **Default Web Site**
 
-    ![Internet Information Services Manager with the Default Web Site selected and its features displayed in the center pane.](images/Default_Web_Site.png "Default Web Site in IIS Manager")  
+    ![Internet Information Services Manager with Default Web Site selected and its features listed in the center pane.](images/Default_Web_Site.png "Default Web Site selected in IIS Manager")  
 
-1. Look for a virtual directory (![Small IIS icon representing a virtual directory used in the Default Web Site tree.](images/virtual_directory.png "Virtual directory icon in IIS Manager") with the same name as the module you have detached and remove it; either by clicking on it and then pressing the **Del** key, or by right-clicking on it to open the popup menu and then choosing the **Remove** option.
+1. Look for a virtual directory (![Small IIS icon representing a virtual directory within the Default Web Site tree.](images/virtual_directory.png "Virtual directory icon in IIS Manager") with the same name as the module you have detached and remove it; either by clicking on it and then pressing the **Del** key, or by right-clicking on it to open the popup menu and then choosing the **Remove** option.
 
     ![IIS Manager with a module virtual directory selected under Default Web Site and the context menu open on the Remove option.](images/virtual_directory_remove.png "Removing a virtual directory for a detached module")
 
@@ -608,7 +607,7 @@ To deploy your applications, proceed as follows:
 
 1. Configure the new profile and press **Save**.
 
-    ![Visual Studio Publish dialog showing connection settings for publishing a web application to Default Web Site.](images/Publish_11Web.png "Configuring a custom publish profile for a web app")  
+    ![Visual Studio Publish dialog showing connection settings for publishing a web application to the Default Web Site in IIS.](images/Publish_11Web.png "Configuring a custom publish profile for a web app")  
 
 1. After a successful publication, open IIS and search under your **Default Web Site** for the virtual directory with the name of your published module and click on it.
 
@@ -751,7 +750,7 @@ When you need to convert your connections string to plain text, use the correspo
 
 An example is provided so that you can easily map the placeholders from the **Configuration Tool**, which can be found under **Windows Start Menu** > **OutSystems** > **Administration Tools**.
 
-![Windows Start menu expanded with the OutSystems folder and Configuration Tool shortcut highlighted.](images/Appendix_-_Configuration_Tool.png "Opening OutSystems Configuration Tool from Start menu")
+![Windows Start menu expanded with the OutSystems folder and the Configuration Tool shortcut highlighted.](images/Appendix_-_Configuration_Tool.png "Opening OutSystems Configuration Tool from Start menu")
 
 If it's an external database connection, you can get the same information accessing **Service Center** > **Administration** > **Database Connections**, since the names are exactly the same.
 
@@ -789,7 +788,7 @@ User ID= {User}; Password= {Password}; Data Source= (DESCRIPTION=(ADDRESS=(PROTO
 DataSource= {Server}; Database= {Database}; UserId= {Username}; Password= {Password}; Def aultCollection= {Schema};
 ```
 
-![Create Database Connection form in Service Center filled with example fields for an iDB2 connection, including username, server, database, and schema.](images/Appendix_-_iDB2.png "iDB2 external database connection example")
+![Create Database Connection form in Service Center filled with example fields for an iDB2 connection including username, server, database, and schema.](images/Appendix_-_iDB2.png "iDB2 external database connection example")
 
 #### MySQL
 
@@ -797,4 +796,4 @@ DataSource= {Server}; Database= {Database}; UserId= {Username}; Password= {Passw
 Server= {Server}; Database= {Schema}; Uid= {User}; Pwd= {Password}; Allow User Variables=true; ConnectionLifeTime=6000; ConnectionReset=true;
 ```
 
-![Create Database Connection form in Service Center filled with example fields for a MySQL connection, including username, server, and schema.](images/Appendix_-11_Mysql1.png "MySQL external database connection example")
+![Create Database Connection form in Service Center filled with example fields for a MySQL connection including username, server, and schema.](images/Appendix_-11_Mysql1.png "MySQL external database connection example")

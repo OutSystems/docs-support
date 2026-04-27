@@ -7,7 +7,7 @@ platform-version: o11
 figma:
 tags: mobile app development, database integrity, local storage, sqlite, error handling
 audience:
-  - mobile developers
+  - Developer
 outsystems-tools:
   - service studio
 coverage-type:

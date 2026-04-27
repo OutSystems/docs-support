@@ -7,9 +7,8 @@ platform-version: o11
 figma:
 tags: password management, database administration, cloud infrastructure, self-managed infrastructure
 audience:
-  - platform administrators
-  - full stack developers
-  - infrastructure managers
+  - Platform administrator
+  - Developer
 outsystems-tools:
   - service center
   - platform server

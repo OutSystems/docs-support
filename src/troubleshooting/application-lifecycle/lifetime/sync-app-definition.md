@@ -7,9 +7,9 @@ platform-version: o11
 figma: https://www.figma.com/file/6tXLupLiqfG9FOElATTGQU/Troubleshooting?type=design&node-id=3599%3A53&mode=design&t=42fmTjympCA6AMpf-1
 tags: application synchronization, lifetime, application management, environment configuration
 audience:
-  - platform administrators
-  - full stack developers
-  - frontend developers
+  - Platform administrator
+  - Developer
+  - Front-end developer
 outsystems-tools:
   - service studio
   - lifetime

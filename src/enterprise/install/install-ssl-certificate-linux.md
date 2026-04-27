@@ -7,10 +7,8 @@ platform-version: o11
 figma: https://www.figma.com/file/cPLNnZfDOZ1NX3avcjmq3g/Enterprise%20Customers?node-id=3216:943
 tags: ssl certificate installation, security, https, cryptography, linux
 audience:
-  - platform administrators
-  - infrastructure managers
-  - backend developers
-  - full stack developers
+  - Platform administrator
+  - Developer
 outsystems-tools:
   - none
 coverage-type:

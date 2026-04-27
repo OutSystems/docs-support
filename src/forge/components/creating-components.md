@@ -7,9 +7,8 @@ platform-version: o11
 figma: https://www.figma.com/design/bGPF1cIwKxeWbPhMdOrHsM/Forge-Components?node-id=1401-240&t=qVFOfPg3yypkjjPO-1
 tags: component libraries, code reusability, application development best practices, outsystems forge, low-code platforms
 audience:
-  - mobile developers
-  - frontend developers
-  - full stack developers
+  - Developer
+  - Front-end developer
 outsystems-tools:
   - service studio
   - forge

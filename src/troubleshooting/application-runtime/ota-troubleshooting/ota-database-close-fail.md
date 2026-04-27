@@ -7,7 +7,7 @@ platform-version: o11
 figma:
 tags: error handling, database management, application lifecycle, debugging
 audience:
-  - mobile developers
+  - Developer
 outsystems-tools:
   - service studio
 coverage-type:

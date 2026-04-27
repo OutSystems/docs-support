@@ -7,9 +7,8 @@ platform-version: o11
 figma: https://www.figma.com/file/cPLNnZfDOZ1NX3avcjmq3g/Enterprise%20Customers?node-id=598:870
 tags: infrastructure management, environment sizing, performance monitoring, lifetime installation, database configuration
 audience:
-  - platform administrators
-  - infrastructure managers
-  - full stack developers
+  - Platform administrator
+  - Developer
 outsystems-tools:
   - lifetime
   - platform server

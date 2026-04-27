@@ -7,9 +7,8 @@ app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
 figma: https://www.figma.com/file/cPLNnZfDOZ1NX3avcjmq3g/Enterprise%20Customers?node-id=3216:900
 audience:
-  - platform administrators
-  - full stack developers
-  - infrastructure managers
+  - Platform administrator
+  - Developer
 outsystems-tools:
   - service center
 coverage-type:

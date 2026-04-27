@@ -7,8 +7,8 @@ platform-version: o11
 figma:
 tags: staging environments, lifetime, application deployment, name conflicts, environment management
 audience:
-  - platform administrators
-  - full stack developers
+  - Platform administrator
+  - Developer
 outsystems-tools:
   - lifetime
 coverage-type:

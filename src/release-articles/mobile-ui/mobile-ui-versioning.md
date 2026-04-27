@@ -11,9 +11,8 @@ topic:
 app_type: mobile apps
 platform-version: odc
 audience:
-  - frontend developers
-  - mobile developers
-  - ui designers
+  - Front-end developer
+  - Developer
 tags: semantic versioning, versioning strategy, Mobile UI framework, update procedures, breaking changes policy
 outsystems-tools:
   - odc studio

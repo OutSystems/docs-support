@@ -7,9 +7,8 @@ guid: 70184542-5898-4a4d-aac5-13733efe603a
 app_type: traditional web apps, mobile apps, reactive web apps
 figma:
 audience:
-  - platform administrators
-  - full stack developers
-  - backend developers
+  - Platform administrator
+  - Developer
 outsystems-tools:
   - integration builder
 coverage-type:

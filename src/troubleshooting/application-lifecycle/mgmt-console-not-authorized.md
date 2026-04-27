@@ -7,9 +7,8 @@ platform-version: o11
 figma: https://www.figma.com/file/6tXLupLiqfG9FOElATTGQU/Troubleshooting?node-id=3330:2690
 tags: access control, network configuration, error handling, security
 audience:
-  - platform administrators
-  - full stack developers
-  - infrastructure managers
+  - Platform administrator
+  - Developer
 outsystems-tools:
   - service center
   - lifetime

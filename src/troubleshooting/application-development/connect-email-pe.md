@@ -7,10 +7,9 @@ platform-version: o11
 figma: https://www.figma.com/design/6tXLupLiqfG9FOElATTGQU/Troubleshooting?node-id=5716-5503
 tags: environment management, error handling, personal environment maintenance
 audience:
-  - mobile developers
-  - frontend developers
-  - full stack developers
-  - platform administrators
+  - Developer
+  - Front-end developer
+  - Platform administrator
 outsystems-tools:
   - none
 coverage-type:

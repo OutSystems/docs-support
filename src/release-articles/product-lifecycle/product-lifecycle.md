@@ -10,9 +10,8 @@ coverage-type:
   - remember
 topic:
 audience:
-  - architects
-  - infrastructure managers
-  - tech leads
+  - Architect
+  - Tech lead
 outsystems-tools:
   - platform server
   - lifetime

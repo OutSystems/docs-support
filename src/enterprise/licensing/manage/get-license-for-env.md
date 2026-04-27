@@ -7,9 +7,8 @@ platform-version: o11
 figma: https://www.figma.com/file/cPLNnZfDOZ1NX3avcjmq3g/Enterprise%20Customers?node-id=1261:2374
 tags: licensing, self-managed environments, installation, customer portal, environment activation
 audience:
-  - platform administrators
-  - tech leads
-  - infrastructure managers
+  - Platform administrator
+  - Tech lead
 outsystems-tools:
   - service center
 coverage-type:

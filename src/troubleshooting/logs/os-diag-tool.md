@@ -7,11 +7,9 @@ platform-version: o11
 figma: https://www.figma.com/file/6tXLupLiqfG9FOElATTGQU/Troubleshooting?node-id=3327:513
 tags: system diagnostics, application logs, outsystems platform, windows server, system administration
 audience:
-  - platform administrators
-  - full stack developers
-  - backend developers
-  - tech leads
-  - infrastructure managers
+  - Platform administrator
+  - Developer
+  - Tech lead
 outsystems-tools:
   - platform server
 coverage-type:

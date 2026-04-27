@@ -7,9 +7,8 @@ platform-version: o11
 figma:
 tags: rest api, client-side authentication, security, certificate management, tls configuration
 audience:
-  - mobile developers
-  - frontend developers
-  - full stack developers
+  - Developer
+  - Front-end developer
 outsystems-tools:
   - service studio
   - integration builder

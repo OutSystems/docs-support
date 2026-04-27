@@ -7,9 +7,8 @@ platform-version: o11
 figma:
 tags: personal environment, multi-tenant architecture, data storage, api, data export
 audience:
-  - mobile developers
-  - frontend developers
-  - full stack developers
+  - Developer
+  - Front-end developer
 outsystems-tools:
   - none
 coverage-type:

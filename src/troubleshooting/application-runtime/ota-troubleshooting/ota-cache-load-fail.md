@@ -7,7 +7,7 @@ platform-version: o11
 figma:
 tags: error handling, outsystems mobile, ota upgrade, application troubleshooting, performance issues
 audience:
-  - mobile developers
+  - Developer
 outsystems-tools:
   - service studio
 coverage-type:

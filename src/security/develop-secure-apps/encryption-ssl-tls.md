@@ -7,9 +7,8 @@ platform-version: o11
 figma: https://www.figma.com/file/vTtFn5nl44ZLjUBYo2anCO/Security?node-id=305:322
 tags: app security, data encryption, ssl/tls, mitm attacks, on-premise deployment
 audience:
-  - platform administrators
-  - backend developers
-  - full stack developers
+  - Platform administrator
+  - Developer
 outsystems-tools:
   - none
 coverage-type:

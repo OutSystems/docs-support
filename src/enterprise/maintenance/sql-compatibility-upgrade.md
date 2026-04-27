@@ -7,10 +7,8 @@ platform-version: o11
 figma:
 tags: database upgrade, sql server 2019, database compatibility, outsystems platform server, database maintenance
 audience:
-  - platform administrators
-  - infrastructure managers
-  - backend developers
-  - full stack developers
+  - Platform administrator
+  - Developer
 outsystems-tools:
   - platform server
 coverage-type:

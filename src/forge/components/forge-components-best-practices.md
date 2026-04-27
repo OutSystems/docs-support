@@ -7,9 +7,8 @@ platform-version: o11
 figma:
 tags: component development, code reuse, best practices, outsystems forge, developer experience
 audience:
-  - mobile developers
-  - frontend developers
-  - full stack developers
+  - Developer
+  - Front-end developer
 outsystems-tools:
   - forge
   - service studio

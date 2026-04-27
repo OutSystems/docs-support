@@ -7,11 +7,11 @@ figma:
 summary: Explore the features and benefits of OutSystems 11 (O11) for enterprise customers.
 tags: enterprise solutions, platform scalability, application development, deployment strategies, integration capabilities
 audience:
-  - tech leads
-  - architects
-  - full stack developers
-  - platform administrators
-  - business analysts
+  - Tech lead
+  - Architect
+  - Developer
+  - Platform administrator
+  - Business analyst
 outsystems-tools:
   - none
 coverage-type:

@@ -7,9 +7,8 @@ platform-version: o11
 figma:
 tags: scalability, high availability, on-premises installation, deployment, horizontal scalability
 audience:
-  - platform administrators
-  - full stack developers
-  - infrastructure managers
+  - Platform administrator
+  - Developer
 outsystems-tools:
   - platform server
 coverage-type:

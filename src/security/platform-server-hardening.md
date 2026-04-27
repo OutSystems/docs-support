@@ -7,9 +7,8 @@ app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
 figma: https://www.figma.com/file/vTtFn5nl44ZLjUBYo2anCO/Security?node-id=305:327
 audience:
-  - platform administrators
-  - infrastructure managers
-  - full stack developers
+  - Platform administrator
+  - Developer
 outsystems-tools:
   - service center
   - lifetime
@@ -47,11 +46,11 @@ Each environment has a [dedicated User tenant](https://success.outsystems.com/Do
 
 1. Select the **Administrator** user:
 
-    ![OutSystems Users application interface highlighting the Administrator user selection.](images/platform-server-hardening-select-admin.png "Selecting the Administrator User in OutSystems")
+    ![OutSystems Users screen showing the user list with the Administrator account link highlighted.](images/platform-server-hardening-select-admin.png "Select the Administrator user in the Users application")
 
 1. Choose **Change Password**:
 
-    ![OutSystems Users application showing the 'Change Password' option for the Administrator user.](images/platform-server-hardening-set-password.png "Changing the Administrator Password in OutSystems")
+    ![OutSystems Administrator user details page with the Change Password option highlighted in the header links.](images/platform-server-hardening-set-password.png "Change the Administrator password in the Users application")
 
 ### LifeTime
 
@@ -59,7 +58,7 @@ LifeTime console [manages the IT users](https://success.outsystems.com/Documenta
 
 1. To rotate the password navigate to the User Management tab in `<lifetime address>/Lifetime`, select the user assigned administrator privileges:
 
-    ![OutSystems LifeTime management console highlighting the IT Administrator user selection.](images/platform-server-hardening-select-LTadmin.png "Selecting the IT Administrator in LifeTime")
+    ![OutSystems LifeTime User Management screen with the Administrator user link highlighted in the Active Users list.](images/platform-server-hardening-select-LTadmin.png "Select the IT Administrator in LifeTime User Management")
 
 1. Edit the password:
 

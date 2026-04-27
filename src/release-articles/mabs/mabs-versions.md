@@ -7,7 +7,7 @@ platform-version: o11, odc
 figma: https://www.figma.com/design/UXA74OsZxSIzLLsjhvNMjC/Release-Notes?node-id=1296-2
 tags: mobile apps build service, mabs, versioning, android compatibility, ios compatibility
 audience:
-  - mobile developers
+  - Developer
 outsystems-tools:
   - forge
 isautopublish: true

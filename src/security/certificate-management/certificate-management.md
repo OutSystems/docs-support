@@ -7,10 +7,9 @@ platform-version: o11
 figma:
 tags: ssl certificate, certificate management, cloud deployments, security, browser compatibility
 audience:
-  - platform administrators
-  - full stack developers
-  - tech leads
-  - infrastructure managers
+  - Platform administrator
+  - Developer
+  - Tech lead
 outsystems-tools:
   - service center
 coverage-type:

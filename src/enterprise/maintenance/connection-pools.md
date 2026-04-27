@@ -7,11 +7,9 @@ platform-version: o11
 figma: https://www.figma.com/file/cPLNnZfDOZ1NX3avcjmq3g/Enterprise%20Customers?node-id=618:284
 tags: database optimization, application performance, scalability, connection pooling, performance tuning
 audience:
-  - backend developers
-  - full stack developers
-  - platform administrators
-  - infrastructure managers
-  - architects
+  - Developer
+  - Platform administrator
+  - Architect
 outsystems-tools:
   - platform server
   - configuration tool

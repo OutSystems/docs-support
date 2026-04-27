@@ -7,10 +7,9 @@ platform-version: o11
 figma:
 tags: server management, on-premises setup, installation & configuration, platform services, application deployment
 audience:
-  - platform administrators
-  - infrastructure managers
-  - full stack developers
-  - tech leads
+  - Platform administrator
+  - Developer
+  - Tech lead
 outsystems-tools:
   - platform server
 coverage-type:

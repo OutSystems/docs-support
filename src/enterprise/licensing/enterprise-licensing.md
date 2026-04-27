@@ -7,8 +7,8 @@ figma:
 summary:
 tags: licensing, application development, platform versioning
 audience:
-  - frontend developers
-  - full stack developers
+  - Front-end developer
+  - Developer
 outsystems-tools:
   - none
 coverage-type:

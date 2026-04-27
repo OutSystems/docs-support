@@ -7,11 +7,10 @@ platform-version: o11
 figma: https://www.figma.com/file/6tXLupLiqfG9FOElATTGQU/Troubleshooting?node-id=3327:408
 tags: network configuration, https issues, production environment, url behavior, load balancers
 audience:
-  - platform administrators
-  - frontend developers
-  - full stack developers
-  - infrastructure managers
-  - tech leads
+  - Platform administrator
+  - Front-end developer
+  - Developer
+  - Tech lead
 outsystems-tools:
   - service studio
 coverage-type:

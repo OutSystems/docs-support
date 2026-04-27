@@ -7,7 +7,7 @@ guid: 817de060-a43d-41aa-96d1-61dda2855929
 platform-version: o11, odc
 figma:
 audience:
-  - mobile developers
+  - Developer
 coverage-type:
   - unblock
 ---

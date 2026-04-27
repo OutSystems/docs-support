@@ -7,9 +7,8 @@ platform-version: o11
 figma:
 tags: database configuration, oracle database, error handling, deployment issues, configuration management
 audience:
-  - platform administrators
-  - full stack developers
-  - backend developers
+  - Platform administrator
+  - Developer
 outsystems-tools:
   - service studio
   - service center

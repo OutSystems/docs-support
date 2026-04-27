@@ -7,7 +7,7 @@ app_type: mobile apps
 platform-version: o11, odc
 figma:
 audience:
-  - mobile developers
+  - Developer
 outsystems-tools:
   - service center
   - mabs

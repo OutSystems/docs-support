@@ -7,9 +7,8 @@ platform-version: o11
 figma: https://www.figma.com/file/TzqCbVlN2j4nadunA7q8VU/Licensing?node-id=1318:464
 tags: licensing, environment management, infrastructure setup, activation code
 audience:
-  - platform administrators
-  - infrastructure managers
-  - full stack developers
+  - Platform administrator
+  - Developer
 outsystems-tools:
   - lifetime
 coverage-type:

@@ -7,9 +7,9 @@ platform-version: o11
 figma:
 tags: eu data protection, cookie management, web compliance, security, privacy
 audience:
-  - frontend developers
-  - full stack developers
-  - platform administrators
+  - Front-end developer
+  - Developer
+  - Platform administrator
 outsystems-tools:
   - none
 coverage-type:

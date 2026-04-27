@@ -7,9 +7,8 @@ platform-version: o11
 figma:
 tags: outsystems infrastructure, cloud setups, self-managed setups, licensing, system requirements
 audience:
-  - platform administrators
-  - full stack developers
-  - infrastructure managers
+  - Platform administrator
+  - Developer
 outsystems-tools:
   - lifetime
   - service studio

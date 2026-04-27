@@ -7,7 +7,7 @@ platform-version: o11
 figma:
 tags: ios issues, video upload, uiwebview, cordova, known issues
 audience:
-  - mobile developers
+  - Developer
 outsystems-tools:
   - none
 coverage-type:

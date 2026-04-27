@@ -7,9 +7,8 @@ app_type: traditional web apps,mobile apps,reactive web apps
 platform-version: o11
 figma: https://www.figma.com/design/6tXLupLiqfG9FOElATTGQU/Troubleshooting?node-id=5614-254&t=peLZnCPF35ZGXEzb-1
 audience:
-  - backend developers
-  - infrastructure managers
-  - tech leads
+  - Developer
+  - Tech lead
 outsystems-tools:
   - platform server
 coverage-type:

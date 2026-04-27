@@ -7,7 +7,7 @@ guid: 896b87e9-3200-4c79-bc48-f06de30c6b0f
 platform-version: o11, odc
 figma:
 audience:
-  - mobile developers
+  - Developer
 outsystems-tools:
   - service center
 coverage-type:

@@ -7,9 +7,8 @@ platform-version: o11
 figma:
 tags: database management, infrastructure management, application configuration, platform server, database connectivity
 audience:
-  - platform administrators
-  - full stack developers
-  - backend developers
+  - Platform administrator
+  - Developer
 outsystems-tools:
   - platform server
   - configuration tool

@@ -7,9 +7,8 @@ app_type: mobile apps, reactive web apps, traditional web apps
 platform-version: odc
 figma: https://www.figma.com/design/6tXLupLiqfG9FOElATTGQU/Troubleshooting?node-id=3648-246
 audience:
-  - mobile developers
-  - frontend developers
-  - full stack developers
+  - Developer
+  - Front-end developer
 outsystems-tools:
   - odc studio
 coverage-type:

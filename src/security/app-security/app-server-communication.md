@@ -7,9 +7,8 @@ platform-version: o11, odc
 figma: https://www.figma.com/file/vTtFn5nl44ZLjUBYo2anCO/Security?node-id=910:244
 tags: security, encryption, rest api, https, access control, authentication
 audience:
-  - mobile developers
-  - frontend developers
-  - full stack developers
+  - Developer
+  - Front-end developer
 outsystems-tools:
   - service studio
   - odc studio

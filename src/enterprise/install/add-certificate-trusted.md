@@ -7,9 +7,8 @@ platform-version: o11
 figma:
 tags: ssl/tls, https, security, certificate management, server configuration
 audience:
-  - platform administrators
-  - full stack developers
-  - backend developers
+  - Platform administrator
+  - Developer
 outsystems-tools:
   - platform server
 coverage-type:

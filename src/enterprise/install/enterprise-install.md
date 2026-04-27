@@ -7,9 +7,8 @@ figma:
 summary:
 tags: ide usage, reactive web apps, tutorials for beginners, installation, outsystems
 audience:
-  - mobile developers
-  - frontend developers
-  - full stack developers
+  - Developer
+  - Front-end developer
 outsystems-tools:
   - service studio
 coverage-type:

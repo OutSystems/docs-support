@@ -7,9 +7,8 @@ app_type: traditional web apps, mobile apps, reactive web apps
 figma:
 platform-version: o11, odc
 audience:
-  - full stack developers
-  - platform administrators
-  - backend developers
+  - Developer
+  - Platform administrator
 outsystems-tools:
   - lifetime
 coverage-type:

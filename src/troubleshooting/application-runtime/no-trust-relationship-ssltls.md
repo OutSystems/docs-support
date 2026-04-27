@@ -7,8 +7,8 @@ platform-version: o11
 figma:
 tags: ssl/tls, web services, certificate authority, security, troubleshooting
 audience:
-  - full stack developers
-  - platform administrators
+  - Developer
+  - Platform administrator
 outsystems-tools:
   - service studio
 coverage-type:

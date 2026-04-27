@@ -7,9 +7,8 @@ platform-version: o11
 figma:
 tags: ssl/tls, security, .net framework, integration, error handling
 audience:
-  - full stack developers
-  - backend developers
-  - platform administrators
+  - Developer
+  - Platform administrator
 outsystems-tools:
   - service studio
 coverage-type:

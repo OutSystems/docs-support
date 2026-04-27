@@ -7,9 +7,8 @@ platform-version: o11
 figma: https://www.figma.com/file/6tXLupLiqfG9FOElATTGQU/Troubleshooting?type=design&node-id=3355%3A267&mode=design&t=ij3x5ruUOocdxrEu-1
 tags: data management, entity relationships, deployment best practices, platform metamodel
 audience:
-  - mobile developers
-  - frontend developers
-  - full stack developers
+  - Developer
+  - Front-end developer
 outsystems-tools:
   - service studio
 coverage-type:

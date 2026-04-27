@@ -7,10 +7,9 @@ platform-version: o11
 figma:
 tags: network issues, authentication errors, template management, proxy configuration, iis authentication
 audience:
-  - mobile developers
-  - frontend developers
-  - full stack developers
-  - platform administrators
+  - Developer
+  - Front-end developer
+  - Platform administrator
 outsystems-tools:
   - service studio
   - platform server

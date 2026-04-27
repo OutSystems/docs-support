@@ -8,11 +8,10 @@ helpids:
 platform-version: o11,odc
 figma: https://www.figma.com/design/TzqCbVlN2j4nadunA7q8VU/Licensing?node-id=1501-240&t=mzZFQ3QLMCu85O07-1
 audience:
-  - mobile developers
-  - frontend developers
-  - full stack developers
-  - tech leads
-  - architects
+  - Developer
+  - Front-end developer
+  - Tech lead
+  - Architect
 outsystems-tools:
   - service studio
   - odc studio

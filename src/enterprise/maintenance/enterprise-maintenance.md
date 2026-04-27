@@ -7,10 +7,9 @@ figma:
 summary: Explore maintenance and operations features in OutSystems 11 (O11).
 tags: maintenance, operations, platform versioning, application lifecycle management, performance monitoring
 audience:
-  - platform administrators
-  - full stack developers
-  - mobile developers
-  - frontend developers
+  - Platform administrator
+  - Developer
+  - Front-end developer
 outsystems-tools:
   - none
 coverage-type:

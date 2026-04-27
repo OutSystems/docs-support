@@ -7,11 +7,9 @@ platform-version: o11
 figma: https://www.figma.com/file/6tXLupLiqfG9FOElATTGQU/Troubleshooting?node-id=3330:2686
 tags: database management, error handling, entity relationships, data integrity, deployment issues
 audience:
-  - mobile developers
-  - frontend developers
-  - full stack developers
-  - backend developers
-  - platform administrators
+  - Developer
+  - Front-end developer
+  - Platform administrator
 outsystems-tools:
   - service studio
   - service center

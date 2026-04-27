@@ -7,10 +7,9 @@ app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
 figma: https://www.figma.com/file/TzqCbVlN2j4nadunA7q8VU/Licensing?node-id=1318:936
 audience:
-  - full stack developers
-  - platform administrators
-  - tech leads
-  - infrastructure managers
+  - Developer
+  - Platform administrator
+  - Tech lead
 outsystems-tools:
   - none
 coverage-type:

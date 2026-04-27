@@ -7,7 +7,7 @@ platform-version: o11
 figma:
 tags: over-the-air upgrades, error handling, mobile app deployment, rollback mechanisms
 audience:
-  - mobile developers
+  - Developer
 outsystems-tools:
   - service studio
   - service center

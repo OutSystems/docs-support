@@ -7,10 +7,9 @@ platform-version: o11
 figma:
 tags: disaster recovery, high availability, server management, it operations, infrastructure management
 audience:
-  - platform administrators
-  - full stack developers
-  - infrastructure managers
-  - tech leads
+  - Platform administrator
+  - Developer
+  - Tech lead
 outsystems-tools:
   - platform server
 coverage-type:

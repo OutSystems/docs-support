@@ -7,8 +7,7 @@ app_type: mobile apps
 platform-version: o11, odc
 figma:
 audience:
-  - mobile developers
-  - full stack developers
+  - Developer
 outsystems-tools:
   - service center
 coverage-type:

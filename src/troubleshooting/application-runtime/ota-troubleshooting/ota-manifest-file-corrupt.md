@@ -7,7 +7,7 @@ platform-version: o11
 figma:
 tags: mobile app development, cache management, error handling, app performance, troubleshooting
 audience:
-  - mobile developers
+  - Developer
 outsystems-tools:
   - service studio
 coverage-type:

@@ -7,9 +7,8 @@ platform-version: o11
 figma: https://www.figma.com/file/cPLNnZfDOZ1NX3avcjmq3g/Enterprise%20Customers?node-id=619:22
 tags: outsystems platform, infrastructure management, on-premises, lifetime, environment setup
 audience:
-  - platform administrators
-  - infrastructure managers
-  - full stack developers
+  - Platform administrator
+  - Developer
 outsystems-tools:
   - service center
   - lifetime

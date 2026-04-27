@@ -7,9 +7,8 @@ platform-version: o11
 figma:
 tags: fips compliance, cryptographic algorithms, system configuration, error resolution, .net framework
 audience:
-  - platform administrators
-  - full stack developers
-  - backend developers
+  - Platform administrator
+  - Developer
 outsystems-tools:
   - none
 coverage-type:

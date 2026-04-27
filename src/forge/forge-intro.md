@@ -7,9 +7,8 @@ figma:
 summary: Explore the capabilities and features of Forge components in OutSystems 11 (O11) for enhanced application development.
 tags: ide usage, reactive web apps, tutorials for beginners, component-based development
 audience:
-  - mobile developers
-  - frontend developers
-  - full stack developers
+  - Developer
+  - Front-end developer
 outsystems-tools:
   - service studio
   - forge

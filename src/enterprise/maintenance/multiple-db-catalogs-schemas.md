@@ -7,11 +7,9 @@ platform-version: o11
 figma: https://www.figma.com/file/cPLNnZfDOZ1NX3avcjmq3g/Enterprise%20Customers?node-id=619:8
 tags: enterprise application management, database management, sql server, oracle, data separation
 audience:
-  - platform administrators
-  - backend developers
-  - full stack developers
-  - tech leads
-  - infrastructure managers
+  - Platform administrator
+  - Developer
+  - Tech lead
 outsystems-tools:
   - service studio
   - service center

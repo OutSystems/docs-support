@@ -7,10 +7,9 @@ platform-version: o11
 figma:
 tags: user management, security, authentication, service center, multi-tenancy
 audience:
-  - platform administrators
-  - full stack developers
-  - backend developers
-  - frontend developers
+  - Platform administrator
+  - Developer
+  - Front-end developer
 outsystems-tools:
   - service studio
   - service center

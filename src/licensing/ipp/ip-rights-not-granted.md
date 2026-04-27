@@ -7,7 +7,7 @@ platform-version: o11
 figma:
 tags: ipp, intellectual property protection, licensing issues, activation code, platform administration
 audience:
-  - platform administrators
+  - Platform administrator
 outsystems-tools:
   - service studio
   - ipp portal

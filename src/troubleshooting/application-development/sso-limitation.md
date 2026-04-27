@@ -7,10 +7,9 @@ platform-version: o11
 figma:
 tags: session management, sso integration, cross-platform authentication, application security
 audience:
-  - frontend developers
-  - full stack developers
-  - mobile developers
-  - architects
+  - Front-end developer
+  - Developer
+  - Architect
 outsystems-tools:
   - service studio
 coverage-type:

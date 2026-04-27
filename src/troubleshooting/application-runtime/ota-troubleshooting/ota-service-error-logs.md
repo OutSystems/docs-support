@@ -7,7 +7,7 @@ platform-version: o11
 figma:
 tags: mobile app development, error handling, resource management, application performance
 audience:
-  - mobile developers
+  - Developer
 outsystems-tools:
   - none
 coverage-type:

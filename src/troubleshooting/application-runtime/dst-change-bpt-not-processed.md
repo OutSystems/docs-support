@@ -7,8 +7,8 @@ platform-version: o11
 figma:
 tags: daylight savings, bug tracking, bpt (business process technology), .net stack, cloud infrastructure
 audience:
-  - platform administrators
-  - full stack developers
+  - Platform administrator
+  - Developer
 outsystems-tools:
   - service center
 coverage-type:

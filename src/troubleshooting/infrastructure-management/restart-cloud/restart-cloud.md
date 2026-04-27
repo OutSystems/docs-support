@@ -7,8 +7,8 @@ platform-version: o11
 figma:
 tags: cloud services, service troubleshooting, environment management, error resolution
 audience:
-  - platform administrators
-  - full stack developers
+  - Platform administrator
+  - Developer
 outsystems-tools:
   - service center
 coverage-type:

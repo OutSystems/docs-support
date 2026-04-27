@@ -8,9 +8,8 @@ helpids: 30497, 30455
 platform-version: o11, odc
 figma:
 audience:
-  - mobile developers
-  - frontend developers
-  - full stack developers
+  - Developer
+  - Front-end developer
 outsystems-tools:
   - service studio
 coverage-type:

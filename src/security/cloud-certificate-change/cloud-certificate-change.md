@@ -7,10 +7,9 @@ platform-version: o11
 figma:
 tags: ssl pinning, security, outsystems cloud, certificate rotation, cloud platforms
 audience:
-  - mobile developers
-  - frontend developers
-  - platform administrators
-  - infrastructure managers
+  - Developer
+  - Front-end developer
+  - Platform administrator
 outsystems-tools:
   - service studio
 coverage-type:

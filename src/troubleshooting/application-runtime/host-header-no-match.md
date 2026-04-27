@@ -7,9 +7,9 @@ platform-version: o11
 figma: https://www.figma.com/file/6tXLupLiqfG9FOElATTGQU/Troubleshooting?type=design&node-id=3534-267&mode=design&t=cOOFHu0WdxoxhhZe-0
 tags: dns configuration, secure endpoints, error handling, cloud environments, endpoint configuration
 audience:
-  - platform administrators
-  - frontend developers
-  - full stack developers
+  - Platform administrator
+  - Front-end developer
+  - Developer
 outsystems-tools:
   - service studio
 coverage-type:

@@ -7,9 +7,9 @@ figma:
 summary: Explore common licensing operations for OutSystems 11 (O11) in our detailed management and upgrade guide.
 tags: licensing, license management, license upgrade, application development, outsystems platform
 audience:
-  - platform administrators
-  - full stack developers
-  - tech leads
+  - Platform administrator
+  - Developer
+  - Tech lead
 outsystems-tools:
   - service center
 coverage-type:

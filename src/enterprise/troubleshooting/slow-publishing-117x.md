@@ -7,9 +7,8 @@ platform-version: o11
 figma:
 tags: performance optimization, platform server, deployment, issue resolution, load balancing
 audience:
-  - platform administrators
-  - full stack developers
-  - infrastructure managers
+  - Platform administrator
+  - Developer
 outsystems-tools:
   - service center
   - lifetime

@@ -7,9 +7,8 @@ platform-version: o11
 figma:
 tags: database management, data type conversion, error handling, application deployment
 audience:
-  - mobile developers
-  - frontend developers
-  - full stack developers
+  - Developer
+  - Front-end developer
 outsystems-tools:
   - service studio
 coverage-type:

@@ -7,10 +7,9 @@ platform-version: o11
 figma: https://www.figma.com/file/cPLNnZfDOZ1NX3avcjmq3g/Enterprise%20Customers?node-id=616:8
 tags: licensing, server management, hardware changes, virtual machines, deployment
 audience:
-  - platform administrators
-  - full stack developers
-  - infrastructure managers
-  - tech leads
+  - Platform administrator
+  - Developer
+  - Tech lead
 outsystems-tools:
   - service center
 coverage-type:

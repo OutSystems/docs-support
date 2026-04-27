@@ -7,7 +7,7 @@ platform-version: o11
 figma:
 tags: authentication, security, troubleshooting, outsystems platform, database scripts
 audience:
-  - platform administrators
+  - Platform administrator
 outsystems-tools:
   - service studio
   - service center

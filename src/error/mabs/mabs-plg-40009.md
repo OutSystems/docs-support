@@ -7,10 +7,8 @@ guid: b5e10182-7b82-440f-9892-0cebd7e29755
 platform-version: o11, odc
 figma:
 audience:
-  - mobile developers
-  - backend developers
-  - full stack developers
-  - platform administrators
+  - Developer
+  - Platform administrator
 outsystems-tools:
   - mobile plugins
 coverage-type:

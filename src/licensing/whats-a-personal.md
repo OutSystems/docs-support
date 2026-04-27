@@ -7,9 +7,8 @@ platform-version: o11
 figma:
 tags: free development tools, cloud-based development, application lifecycle management
 audience:
-  - mobile developers
-  - frontend developers
-  - full stack developers
+  - Developer
+  - Front-end developer
 outsystems-tools:
   - none
 coverage-type:

@@ -7,9 +7,8 @@ platform-version: o11
 figma:
 tags: time synchronization, application development, environment setup, best practices, operations
 audience:
-  - full stack developers
-  - platform administrators
-  - infrastructure managers
+  - Developer
+  - Platform administrator
 outsystems-tools:
   - none
 coverage-type:

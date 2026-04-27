@@ -7,10 +7,9 @@ platform-version: o11
 figma: https://www.figma.com/file/cPLNnZfDOZ1NX3avcjmq3g/Enterprise%20Customers?node-id=3215:885
 tags: license management, organizational changes, infrastructure configuration, outsystems platform operations
 audience:
-  - platform administrators
-  - full stack developers
-  - tech leads
-  - infrastructure managers
+  - Platform administrator
+  - Developer
+  - Tech lead
 outsystems-tools:
   - lifetime
   - service center

@@ -7,10 +7,9 @@ platform-version: o11
 figma: https://www.figma.com/file/cPLNnZfDOZ1NX3avcjmq3g/Enterprise-Customers?type=design&node-id=3213%3A267&mode=design&t=FYaMOnIz87CLkC0F-1
 tags: server configuration, error handling, deployment troubleshooting, environment setup, server farm management
 audience:
-  - platform administrators
-  - full stack developers
-  - backend developers
-  - frontend developers
+  - Platform administrator
+  - Developer
+  - Front-end developer
 outsystems-tools:
   - service center
   - configuration tool

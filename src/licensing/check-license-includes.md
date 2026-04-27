@@ -7,9 +7,9 @@ platform-version: o11
 figma: https://www.figma.com/file/TzqCbVlN2j4nadunA7q8VU/Licensing?type=design&node-id=1318%3A961&mode=design&t=VnW42OvKxOaaShU8-1
 tags: licensing, environment management, outsystems platform, service center, usage statistics
 audience:
-  - platform administrators
-  - full stack developers
-  - architects
+  - Platform administrator
+  - Developer
+  - Architect
 outsystems-tools:
   - service center
 coverage-type:

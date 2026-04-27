@@ -7,9 +7,9 @@ platform-version: o11
 figma:
 tags: cookie policy, chrome browser, .net, integration, patch management
 audience:
-  - platform administrators
-  - full stack developers
-  - frontend developers
+  - Platform administrator
+  - Developer
+  - Front-end developer
 outsystems-tools:
   - service studio
   - platform server

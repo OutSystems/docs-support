@@ -7,10 +7,9 @@ platform-version: o11
 figma:
 tags: mobile app development, security, encryption, data protection, cloud services
 audience:
-  - mobile developers
-  - frontend developers
-  - full stack developers
-  - platform administrators
+  - Developer
+  - Front-end developer
+  - Platform administrator
 outsystems-tools:
   - service studio
   - mobile apps builder service

@@ -7,11 +7,9 @@ platform-version: o11
 figma: https://www.figma.com/file/cPLNnZfDOZ1NX3avcjmq3g/Enterprise%20Customers?node-id=618:298
 tags: database management, cloud infrastructure, data storage, performance optimization, best practices
 audience:
-  - platform administrators
-  - full stack developers
-  - backend developers
-  - tech leads
-  - infrastructure managers
+  - Platform administrator
+  - Developer
+  - Tech lead
 outsystems-tools:
   - lifetime
   - service studio

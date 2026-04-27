@@ -7,7 +7,7 @@ platform-version: o11
 figma:
 tags: mobile app development, ota (over the air) updates, network connectivity issues
 audience:
-  - mobile developers
+  - Developer
 outsystems-tools:
   - service studio
 coverage-type:

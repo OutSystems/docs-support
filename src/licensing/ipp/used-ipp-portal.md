@@ -7,8 +7,8 @@ platform-version: o11
 figma:
 tags: licensing, email troubleshooting, support, activation delays, ipp
 audience:
-  - platform administrators
-  - full stack developers
+  - Platform administrator
+  - Developer
 outsystems-tools:
   - service studio
 coverage-type:

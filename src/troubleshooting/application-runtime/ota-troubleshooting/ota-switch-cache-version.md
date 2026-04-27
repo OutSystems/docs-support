@@ -7,7 +7,7 @@ platform-version: o11
 figma:
 tags: mobile app development, error handling, outsystems platform, application upgrade, cache management
 audience:
-  - mobile developers
+  - Developer
 outsystems-tools:
   - none
 coverage-type:

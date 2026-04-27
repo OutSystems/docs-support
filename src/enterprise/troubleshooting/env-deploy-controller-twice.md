@@ -7,9 +7,9 @@ platform-version: o11
 figma: https://www.figma.com/file/cPLNnZfDOZ1NX3avcjmq3g/Enterprise%20Customers?node-id=3213:288
 tags: environment health, deployment controller, configuration settings, service center, outsystems platform
 audience:
-  - platform administrators
-  - backend developers
-  - frontend developers
+  - Platform administrator
+  - Developer
+  - Front-end developer
 outsystems-tools:
   - service center
   - configuration tool

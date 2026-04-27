@@ -7,10 +7,9 @@ platform-version: o11
 figma: https://www.figma.com/file/cPLNnZfDOZ1NX3avcjmq3g/Enterprise%20Customers?node-id=618:24
 tags: oracle database configuration, database services, java stack, .net stack, traditional web apps
 audience:
-  - backend developers
-  - full stack developers
-  - platform administrators
-  - architects
+  - Developer
+  - Platform administrator
+  - Architect
 outsystems-tools:
   - platform server
 coverage-type:
