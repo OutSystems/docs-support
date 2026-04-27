@@ -645,6 +645,15 @@
         - href: error/cmfr/cmfr-gen-20006.md
         - href: error/cmfr/cmfr-gen-20007.md
         - href: error/cmfr/cmfr-gen-20008.md
+        
+    # Authentication and authorization 
+    - href: error/identity/intro.md
+    - topics:
+        - href: error/identity/os-idco-conf-40102.md
+        - href: error/identity/os-Idco-conf-40001.md
+        - href: error/identity/os-xxxx-xxxx-xxxxx.md
+        - href: error/identity/os-idco-auth-40101
+        - href: error/identity/os-idco-cong-40002
 
 # Community
 - href: community/intro.md

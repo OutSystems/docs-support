@@ -1,0 +1,33 @@
+---
+summary: The login with the external identity provider (Idp) failed.Displayed with error Code: OS-IDCO-CONF-40002
+tags:
+guid: b8c9d0e1-f2a3-4b5c-6d7e-8f9a0b1c2d3e
+locale: en-us
+app_type: mobile apps, reactive web apps
+platform-version: odc
+figma:
+outsystems-tools:
+coverage-type:
+- unblock
+audience: 
+topic:
+isautopublish: true
+---
+
+# Error message
+`The login with the external identity provider (Idp) failed. Try again. If this keeps happening, contact your administrator. Displayed with error Code: "OS-IDCO-CONF-40002."`
+
+## Cause
+This error occurs when an end user attempts to log in via an external IdP, but the system encounters a data conflict. Specifically, the system tries to update a profile with an email address that is already associated with a different existing user profile from another IdP.
+
+## Impact
+The user is blocked from logging in and cannot access the app.
+
+## Recommended Action
+To resolve this error, you should:
+
+* **Remove Conflicts**: Identify and delete the redundant or conflicting user profile in the database (e.g., the duplicate profile created by an initial SAML login attempt).
+
+* **Retry Login**: Once the duplicate is removed, the user should retry the login process; the system should then correctly update the intended profile.
+
+* **Audit IdP Configuration**: Review the Idp configurations to determine how account linking is managed when duplicate emails are encountered across different IdPs.
