@@ -143,9 +143,18 @@ jobs:
       PR_NUMBER: ${{ needs.pr-info.outputs.pull-request }}
       TK_CICD_BRANCH: 'main'
 
+  metadata-updates:
+    name: Metadata
+    needs: [pr-info]
+    uses: ./.github/workflows/metadata-updates.yml
+    with:
+      changed-files: ${{ needs.pr-info.outputs.changed-files }}
+      pull-request: ${{ needs.pr-info.outputs.pull-request }}
+    secrets: inherit
+    
   tools:
     name: Tools
-    needs: [pr-info, frontmatter, validate-toc]
+    needs: [pr-info, frontmatter, metadata-updates, validate-toc]
     uses: ./.github/workflows/build.yml
     secrets: inherit
 
