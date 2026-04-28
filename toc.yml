@@ -652,8 +652,8 @@
         - href: error/identity/os-idco-conf-40102.md
         - href: error/identity/os-Idco-conf-40001.md
         - href: error/identity/os-xxxx-xxxx-xxxxx.md
-        - href: error/identity/os-idco-auth-40101
-        - href: error/identity/os-idco-cong-40002
+        - href: error/identity/os-idco-auth-40101.md
+        - href: error/identity/os-idco-cong-40002.md
 
 # Community
 - href: community/intro.md

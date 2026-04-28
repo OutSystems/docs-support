@@ -1,5 +1,5 @@
 ---
-summary: 
+summary:
 tags:
 guid: b8c9d0e1-f2a3-4b5c-6d7e-8f9a0b1c2d3e
 locale: en-us
@@ -9,7 +9,7 @@ figma:
 outsystems-tools:
 coverage-type:
   - unblock
-audience: 
+audience:
 topic:
 isautopublish: true
 ---
