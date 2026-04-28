@@ -649,8 +649,8 @@
     # Authentication and authorization 
     - href: error/identity/intro.md
     - topics:
+        - href: error/identity/os-idco-cong-40001.md
         - href: error/identity/os-idco-cong-40002.md
-        - href: error/identity/os-Idco-conf-40001.md
         - href: error/identity/os-idco-auth-40101.md
         - href: error/identity/os-idco-conf-40102.md
         - href: error/identity/os-uauc-60040.md

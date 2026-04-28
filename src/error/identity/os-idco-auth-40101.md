@@ -1,6 +1,6 @@
 ---
 summary:
-tags:
+tags: external identity provider, profile matching
 guid: b8c9d0e1-f2a3-4b5c-6d7e-8f9a0b1c2d3e
 locale: en-us
 app_type: mobile apps, reactive web apps
