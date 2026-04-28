@@ -14,11 +14,11 @@ topic:
 isautopublish: true
 ---
 
-# OS-xxxx-xxxx-xxxxx
+# OS-UAUC-60040
 
 ## Error message
 
-`Couldn't authenticate you because your email isn't verified or the identity provider configuration is incorrect. Try again. If the problem persists, contact your administrator. Displayed with “error code OS-xxxx-xxxx-xxxxx.`
+`Couldn't authenticate you because your email isn't verified or the identity provider configuration is incorrect. Try again. If the problem persists, contact your administrator. Displayed with “error code OS-UAUC-60040.`
 
 ## Cause
 
