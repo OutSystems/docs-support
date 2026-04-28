@@ -10,6 +10,7 @@ outsystems-tools:
 coverage-type:
   - unblock
 audience:
+  - Platform administrator
 topic:
 isautopublish: true
 ---
@@ -18,7 +19,7 @@ isautopublish: true
 
 ## Error message
 
-`The login with the external identity provider fails. Try again. If this keeps happening, contact your administrator. Displayed alongside the error code OS-IDCO-CONF-40001.`
+`The login with the external identity provider fails. Try again. If this keeps happening, contact your administrator. Displayed alongside the error code "OS-IDCO-CONF-40001."`
 
 ## Cause
 

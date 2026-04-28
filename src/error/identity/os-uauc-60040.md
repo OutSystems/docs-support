@@ -10,6 +10,7 @@ outsystems-tools:
 coverage-type:
   - unblock
 audience:
+  - Platform administrator
 topic:
 isautopublish: true
 ---
@@ -18,7 +19,7 @@ isautopublish: true
 
 ## Error message
 
-`Couldn't authenticate you because your email isn't verified or the identity provider configuration is incorrect. Try again. If the problem persists, contact your administrator. Displayed with “error code OS-UAUC-60040.`
+`Couldn't authenticate you because your email isn't verified or the identity provider configuration is incorrect. Try again. If the problem persists, contact your administrator. Displayed with error code "OS-UAUC-60040."`
 
 ## Cause
 

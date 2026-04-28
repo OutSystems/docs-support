@@ -10,6 +10,7 @@ outsystems-tools:
 coverage-type:
   - unblock
 audience:
+  - Platform administrator
 topic:
 isautopublish: true
 ---
@@ -18,7 +19,7 @@ isautopublish: true
 
 ## Error message
 
-`The login attempt with the external identity provider failed because your account has been deactivated. Displayed with “error code OS-IDCO-CONF-40xxx.`
+`The login attempt with the external identity provider failed because your account has been deactivated. Displayed with error code "OS-IDCO-CONF-40xxx."`
 
 ## Cause
 
