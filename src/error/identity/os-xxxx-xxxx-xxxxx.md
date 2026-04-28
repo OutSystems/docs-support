@@ -1,5 +1,5 @@
 ---
-summary: Couldn't authenticate you because your email isn't verified or the identity provider configuration is incorrect.
+summary:
 tags: email enforcement, external identity provider
 guid: a20a16f3-9092-4032-8bdb-e10b93b0438e
 locale: en-us
@@ -14,7 +14,9 @@ topic:
 isautopublish: true
 ---
 
-# Error message
+# OS-xxxx-xxxx-xxxxx
+
+## Error message
 
 `Couldn't authenticate you because your email isn't verified or the identity provider configuration is incorrect. Try again. If the problem persists, contact your administrator. Displayed with “error code OS-xxxx-xxxx-xxxxx.`
 

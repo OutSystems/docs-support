@@ -1,5 +1,5 @@
 ---
-summary: The login attempt with the external identity provider failed because your account has been deactivated.
+summary: 
 tags:
 guid: b8c9d0e1-f2a3-4b5c-6d7e-8f9a0b1c2d3e
 locale: en-us
@@ -14,7 +14,9 @@ topic:
 isautopublish: true
 ---
 
-# Error message
+# OS-IDCO-AUTH-40101
+
+## Error message
 
 `The login attempt with the external identity provider failed because your account has been deactivated. Displayed with “error code OS-IDCO-CONF-40xxx.`
 

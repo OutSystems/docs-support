@@ -1,5 +1,5 @@
 ---
-summary: The login with the external identity provider failed. Error code OS-IDCO-CONF-40102.
+summary:
 tags: external identity provider, profile matching
 guid: a0fad8df-d275-460c-9b41-66ce4ed56230
 locale: en-us
@@ -14,7 +14,9 @@ topic:
 isautopublish: true
 ---
 
-# Error message
+# OS-IDCO-CONF-40102
+
+## Error message
 
 `The login with the external identity provider failed. Please try again. If this issue persists, contact your administrator. Displayed with error code “OS-IDCO-CONF-40102.”`
 

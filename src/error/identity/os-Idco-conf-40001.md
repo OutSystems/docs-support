@@ -14,7 +14,9 @@ topic:
 isautopublish: true
 ---
 
-# Error message
+# OS-IDCO-CONF-40001
+
+## Error message
 
 `The login with the external identity provider fails. Try again. If this keeps happening, contact your administrator. Displayed alongside the error code OS-IDCO-CONF-40001.`
 
