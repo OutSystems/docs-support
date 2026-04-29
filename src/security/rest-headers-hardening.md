@@ -1,6 +1,10 @@
 ---
 summary: OutSystems 11 (O11) addresses REST headers security hardening to mitigate potential vulnerabilities during network transit.
-tags: security, rest api, debugging, http headers, production validation
+tags:
+  - Forge
+  - REST
+  - Security
+  - Troubleshooting
 locale: en-us
 guid: a3c088f2-c9f4-4d3e-8b00-c2f2c441b69d
 app_type: traditional web apps, mobile apps, reactive web apps
@@ -8,14 +12,14 @@ platform-version: o11
 figma:
 audience:
   - Developer
-  - Front-end developer
 outsystems-tools:
   - service studio
 coverage-type:
   - apply
+isautopublish: true
 ---
 
-# REST Headers security hardening
+# REST headers security hardening
 
 When customizing the request headers of a consumed REST API the list of headers sent in the request is not the same as the final state of the `CustomizedRequest` list of headers.
 
