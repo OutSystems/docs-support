@@ -31,7 +31,7 @@
         - href: release-articles/mabs/mabs-beta-support.md
         - href: release-articles/mabs/mabs-12.md
         - topics:
-            - href: release-notes/mabs/12/12.0/12.0.md        
+            - href: release-notes/mabs/12/12.0/12.0.md
         - href: release-articles/mabs/mabs-11.md
         - topics:
             - href: release-notes/mabs/11/11.2/11.2.md
@@ -71,7 +71,7 @@
         - href: troubleshooting/logs/service-center-logs.md
         - href: troubleshooting/logs/lifetime-logs.md
         - href: troubleshooting/logs/service-studio-logs.md
-        - href: troubleshooting/logs/odc-studio-logs.md 
+        - href: troubleshooting/logs/odc-studio-logs.md
         - href: troubleshooting/logs/mabs-logs.md
         - href: troubleshooting/logs/android-device-logs.md
         - href: troubleshooting/logs/ios-device-logs.md
@@ -127,7 +127,7 @@
         - href: troubleshooting/application-lifecycle/extension-recompilation/extension-upgrade-disabled-error.md
         - href: troubleshooting/application-lifecycle/extension-recompilation/extension-recompilation.md
         - href: troubleshooting/application-lifecycle/missing-incorrect-csps.md
-      
+
     # Application Runtime
     - href: troubleshooting/application-runtime/intro.md
     - topics:
@@ -196,7 +196,7 @@
     # Incident Models
     - href: troubleshooting/incident-models/im.md
     - topics:
-        #- href: 
+        #- href:
         - href: troubleshooting/incident-models/o11/im-o11.md
         - topics:
             - href: troubleshooting/incident-models/o11/im-1778.md
@@ -263,7 +263,7 @@
             - href: troubleshooting/incident-models/odc/im-3231.md
             - href: troubleshooting/incident-models/odc/im-3392.md
             - href: troubleshooting/incident-models/odc/im-3426.md
-            - href: troubleshooting/incident-models/odc/im-3416.md            
+            - href: troubleshooting/incident-models/odc/im-3416.md
             - href: troubleshooting/incident-models/odc/im-3458.md
             - href: troubleshooting/incident-models/odc/im-3528.md
             - href: troubleshooting/incident-models/odc/im-3519.md
@@ -274,7 +274,7 @@
             - href: troubleshooting/incident-models/odc/im-3792.md
             - href: troubleshooting/incident-models/odc/im-3668.md
             - href: troubleshooting/incident-models/odc/im-3813.md
-            
+
             - href: troubleshooting/incident-models/odc/im-3927.md
             - href: troubleshooting/incident-models/odc/im-3974.md
             - href: troubleshooting/incident-models/odc/im-4109.md
@@ -376,6 +376,7 @@
         - href: error/mabs/mabs-gen-40023.md
         - href: error/mabs/mabs-gen-50000.md
         - href: error/mabs/mabs-gen-50001.md
+        - href: error/mabs/mabs-gen-50002.md
         - href: error/mabs/mabs-act-40000.md
         - href: error/mabs/mabs-plf-50000.md
         - href: error/mabs/mabs-plf-50001.md
@@ -595,7 +596,7 @@
         - href: error/dp/dp-stream-00014.md
         - href: error/dp/dp-stream-00015.md
         - href: error/dp/dp-stream-00016.md
-        
+
      #Case Management framework
     - href: error/cmfr/intro.md
     - topics:
@@ -618,7 +619,7 @@
         - href: error/cmfr/cmfr-gen-00016.md
         - href: error/cmfr/cmfr-gen-00017.md
         - href: error/cmfr/cmfr-gen-00018.md
-        - href: error/cmfr/cmfr-gen-00019.md  
+        - href: error/cmfr/cmfr-gen-00019.md
         - href: error/cmfr/cmfr-gen-00020.md
         - href: error/cmfr/cmfr-gen-00021.md
         - href: error/cmfr/cmfr-gen-00022.md
@@ -660,7 +661,7 @@
 - href: community/intro.md
 - topics:
     - href: community/open-support-case.md
-    - href: community/add-case-followers.md    
+    - href: community/add-case-followers.md
     - href: community/support-cases-security.md
     - href: community/change-community-pw.md
     - href: community/change-community-email.md
@@ -668,7 +669,7 @@
     - href: community/merge-accounts.md
     - href: community/community-badges.md
     - href: community/customer-portal.md
-    - href: community/personal-edition-faq.md                  
+    - href: community/personal-edition-faq.md
     # Training
     - href: community/training/training-intro.md
     - topics:
@@ -681,7 +682,7 @@
         - href: community/training/exam-voucher.md
         - href: community/training/prometric-score.md
         - href: community/training/transfer-certification.md
-        - href: community/online-training-offline-access.md        
+        - href: community/online-training-offline-access.md
 
 # Licensing
 - href: licensing/intro.md
@@ -804,4 +805,4 @@
             - href: forge/forge-faqs/remove-project.md
         - href: forge/forge-faqs/trusted-requirements.md
 
-    
+
