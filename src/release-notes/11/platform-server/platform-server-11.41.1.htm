@@ -1,0 +1,32 @@
+---
+isautopublish: true
+pageprivacy: semi-private
+---
+
+<h2 id="platform_server_11.41.1" >Platform Server 11.41.1</h2>
+<div class="info"><p>This is a preliminary version of the document.</p></div>
+
+
+<style>.cattag {background: #f4f2ff; color: #6a6581; padding: 4px 10px;}</style>
+<h3 id="new_in_platform_server_11.41.1" >New in Platform Server 11.41.1</h3>
+<ul>
+<li><p>Added support for the form-action and report-to Content Security Policy (CSP) directives. The platform now sends the modern Reporting-Endpoints HTTP header, used by report-to, alongside the legacy report-uri directive for CSP violation reporting, providing improved browser compatibility with the latest CSP specification.</p> (R11DT-3597)</li>
+</ul>
+<h3 id="bug_fixing_platform_server_11.41.1" >Bug Fixing</h3>
+<ul>
+<li>Fixed an issue that caused process events to accumulate indefinitely after processing failures, even after the configured backoff period had elapsed.
+
+This occurred because failed events were requeued without checking if they had already exceeded the backoff window, preventing old events from ever being cleaned up.
+
+Now, before requeuing a failed event, the platform checks whether the event has been waiting longer than the allowed backoff period and deletes it instead of requeuing it.
+
+Normal events are removed after 7 days, and light events after 30 days. (RPM-4745) <span class="cattag">Application Runtime</span> </li>
+<li>Added support for more SAP date/time formats, including the 24:00:00 midnight convention. You can configure these formats in Factory Configuration > Platform Configurations > Runtime > SAP DateTime Format (RPM-4905) <span class="cattag">Application Runtime</span>  <span class="cattag">Logic Execution</span> </li>
+<li>&nbsp;Fixed an issue that could cause user registration failures when usernames exceeded 50 characters (RPM-4932) <span class="cattag">Application Lifecycle</span>  <span class="cattag">Service Center</span> </li>
+<li>Fix issue where deleting entity attributes did not trigger the refresh warning indicating structural changes in Exposed Entity on Lifetime. (RPM-6379) <span class="cattag">Application Lifecycle</span>  <span class="cattag">Server.API</span> </li>
+<li>Fixed an issue that caused the Feedback_AjaxWait component to fail or trigger console errors.
+This occurred during rapid asynchronous requests where the feedback message state was not properly synchronized with the AJAX lifecycle. (RPM-6398) <span class="cattag">Application Runtime</span>  <span class="cattag">System Components</span> </li>
+<li>Fix CleanLoginAttempts Timer from Users runs multiple times due to the fact it's incorrectly marked as Multi-Tenant. (RPM-6608) <span class="cattag">Application Runtime</span>  <span class="cattag">Authentication and Authorization</span> </li>
+<li>Fixed an issue that caused deployment of Static Entities with Multilingual be aborted due to missing index in Oracle Databases when deployed to a different database schema other than Main. (RPM-6618) <span class="cattag">Publish Operation</span>  <span class="cattag">Deployment stage</span> </li>
+</ul>
+
