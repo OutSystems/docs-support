@@ -1,6 +1,12 @@
 ---
-summary:
-tags: external identity provider, profile matching
+summary: "OS-IDCO-AUTH-40101 error in OutSystems Developer Cloud (ODC) occurs when a user's account is deactivated, blocking external identity provider login."
+tags:
+  - Authentication
+  - End-user Authentication
+  - End-users
+  - External Authentication
+  - IdP
+  - Troubleshooting
 guid: d1b7f555-e0ae-4e21-b6f1-566878c9a86d
 locale: en-us
 app_type: mobile apps, reactive web apps
@@ -8,6 +14,7 @@ platform-version: odc
 figma:
 outsystems-tools:
 coverage-type:
+  - apply
   - unblock
 audience:
   - Platform administrator
@@ -19,7 +26,7 @@ isautopublish: true
 
 ## Error message
 
-`The login attempt with the external identity provider failed because your account has been deactivated. Displayed with error code "OS-IDCO-CONF-40xxx."`
+`The login attempt with the external identity provider failed because your account has been deactivated. Displayed with error code "OS-IDCO-AUTH-40101"`
 
 ## Cause
 
