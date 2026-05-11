@@ -10,6 +10,6 @@ pageprivacy: public
 <style>.cattag {background: #f4f2ff; color: #6a6581; padding: 4px 10px;}</style>
 <h3 id="bug_fixing_outsystems_developer_cloud_2026-05-02" >Bug Fixing</h3>
 <ul>
-<li><p>Reverted the fix introduced for NullTextIdentifier() in Aggregate filters. While the previous fix aligned with documented behavior, it introduced an unintended breaking change for some scenarios. The original behavior is restored - NullTextIdentifier() is once again serialized as 'null' in the generated SQL query when used in Aggregate filter expressions.</p> (RPLAT-3865)</li>
+<li>Reverted the fix introduced for NullTextIdentifier() in Aggregate filters. While the previous fix aligned with documented behavior, it introduced an unintended breaking change for some scenarios. The original behavior is restored - NullTextIdentifier() is once again serialized as 'null' in the generated SQL query when used in Aggregate filter expressions. (RPLAT-3865)</li>
 </ul>
 
