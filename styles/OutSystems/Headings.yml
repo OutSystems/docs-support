@@ -54,7 +54,7 @@ exceptions:
   - Platform Server
   - Private Gateway
   - 1-Click Publish
-  - True Change
+  - TrueChange
   - IdP
   - IdPs
   - Customer Portal
@@ -203,6 +203,7 @@ exceptions:
   - Agent Flow
   - Amazon Kendra
   - Android
+  - CALL
   - Google
   - Apple Developer
   - AWS Firehose
@@ -270,7 +271,9 @@ exceptions:
   - SQL Server
   - MCP
   - A2A
-  
+  - INSERT
+  - UPSERT
+
 # Industry
   - AI
   - API
@@ -288,6 +291,7 @@ exceptions:
   - DREAD
   - DevOps
   - EAP
+  - E2E
   - FAQ
   - FCM
   - IP
@@ -297,6 +301,9 @@ exceptions:
   - MongoDB
   - MySQL
   - Nginx
+  - APM
+  - BDD
+  - RUM
   - TLS
   - TLS
   - UI
