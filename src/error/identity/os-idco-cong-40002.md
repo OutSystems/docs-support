@@ -1,6 +1,11 @@
 ---
-summary:
-tags: external identity provider, profile matching
+summary: OS-IDCO-CONF-40002 in OutSystems Developer Cloud (ODC) fails when an external IdP email is a duplicate; remove the conflicting profile to unblock.
+tags:
+  - Authentication
+  - End-user Authentication
+  - External Authentication
+  - IdP
+  - Troubleshooting
 guid: b8c9d0e1-f2a3-4b5c-6d7e-8f9a0b1c2d3e
 locale: en-us
 app_type: mobile apps, reactive web apps
@@ -19,7 +24,7 @@ isautopublish: true
 
 ## Error message
 
-`The login with the external identity provider (Idp) failed. Try again. If this keeps happening, contact your administrator. Displayed with error Code: "OS-IDCO-CONF-40002."`
+`There was an unexpected error authenticating you. Try again. If the problem continues, contact your administrator. Displayed alongside the error code "OS-IDCO-CONF-40002."`
 
 ## Cause
 

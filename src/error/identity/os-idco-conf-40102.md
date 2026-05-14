@@ -1,6 +1,11 @@
 ---
-summary:
-tags: external identity provider, profile matching
+summary: "OS-IDCO-CONF-40102 error in ODC occurs when automatic user creation is disabled for an external IdP, blocking end-user login."
+tags:
+  - Authentication
+  - End-user Authentication
+  - External Authentication
+  - IdP
+  - Troubleshooting
 guid: a0fad8df-d275-460c-9b41-66ce4ed56230
 locale: en-us
 app_type: mobile apps, reactive web apps
@@ -10,6 +15,7 @@ outsystems-tools:
 coverage-type:
   - unblock
 audience:
+  - Platform administrator
 topic:
 isautopublish: true
 ---
@@ -18,7 +24,7 @@ isautopublish: true
 
 ## Error message
 
-`The login with the external identity provider failed. Please try again. If this issue persists, contact your administrator. Displayed with error code “OS-IDCO-CONF-40102.”`
+`There was an unexpected error authenticating you. Try again. If the problem continues, contact your administrator. Displayed alongside the error code “OS-IDCO-CONF-40102.”`
 
 ## Cause
 

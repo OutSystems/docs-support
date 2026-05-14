@@ -1,6 +1,11 @@
 ---
-summary:
-tags: email enforcement, external identity provider
+summary: "OS-UAUC-60040 ODC error occurs when the email_verified claim is missing or invalid in your external IdP configuration, blocking end-user login."
+tags:
+  - Authentication
+  - End-user Authentication
+  - External Authentication
+  - IdP
+  - Troubleshooting
 guid: a20a16f3-9092-4032-8bdb-e10b93b0438e
 locale: en-us
 app_type: mobile apps, reactive web apps
@@ -23,7 +28,7 @@ isautopublish: true
 
 ## Cause
 
-An end user attempts to log in with an external Identity Provider (IdP) using the **Trust identity provider** setting, but the **email_verified** claim is invalid or missing.
+An end user attempts to log in with an external IdP using the **Trust identity provider** setting, but the **email_verified** claim is invalid or missing.
 
 ## Impact
 
