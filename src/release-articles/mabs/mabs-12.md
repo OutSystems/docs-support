@@ -1,9 +1,23 @@
 ---
-summary: MABS 12 release notes
+summary: MABS 12 introduces Capacitor support, iOS 26 and Android API 36 SDKs, breaking changes, and plugin requirements for the OutSystems platform.
 guid: 26d0470e-56c4-4e62-aa69-7170e8bfc180
 locale: en-us
 app_type: mobile apps
 platform-version: o11, odc
+isautopublish: true
+audience:
+  - Developer
+  - Tech lead
+coverage-type:
+  - remember
+tags:
+  - Android
+  - Capacitor
+  - Cordova
+  - Forge
+  - iOS
+  - Mobile app
+  - Plugins
 ---
 
 # MABS 12 release notes
@@ -57,22 +71,22 @@ Plugin requirements for **MABS 12**. For more details, click the plugin name on 
 |[Camera](https://www.outsystems.com/forge/component-versions/1390)|7.6.4 or later|1.3.3 or later|
 |[Card IO](https://www.outsystems.com/forge/component-versions/1438)|3.2.3 or later|-|
 |[Calendar](https://www.outsystems.com/forge/component-versions/1566)|3.1.6 or later|1.0.6 or later|
-|[Ciphered Local Storage](https://www.outsystems.com/forge/component-versions/1500)|3.2.4 or later|1.1.3 or later|
+|[Ciphered Local Storage](https://www.outsystems.com/forge/component-versions/1500)|3.2.6 or later|1.1.4 or later|
 |[Contacts](https://www.outsystems.com/forge/component-versions/1394)|-|1.0.3 or later|
-|[Cloud Messaging (Firebase)](https://www.outsystems.com/forge/component-versions/12174)|-|2.3.1 or later|
+|[Cloud Messaging (Firebase)](https://www.outsystems.com/forge/component-versions/12174)|4.4.2 or later|3.0.1 or later|
 |[Crash Reporting (Firebase)](https://www.outsystems.com/forge/component-versions/10705)|-|1.2.0 or later|
 |[File](https://www.outsystems.com/forge/component-versions/1633)|3.0.7 or later|2.0.0 or later|
 |[File Transfer](https://www.outsystems.com/forge/component-versions/1409)|-|2.0.0 or later|
 |[File Viewer](https://www.outsystems.com/forge/component-versions/1606)|2.0.10 or later|2.0.0 or later|
 |[Health & Fitness](https://www.outsystems.com/forge/component-versions/11715)|2.2.1 or later|1.4.2 or later|
-|[Key Store](https://www.outsystems.com/forge/component-versions/1550)|-|1.2.3 or later|
+|[Key Store](https://www.outsystems.com/forge/component-versions/1550)|2.4.3 or later|1.2.5 or later|
 |[InAppBrowser](https://www.outsystems.com/forge/component-versions/1558)|-|2.2.0 or later|
 |[Local Notifications](https://www.outsystems.com/forge/component-overview/1541/local-notifications-plugin)|-|1.0.5 or later|
 |[Location](https://www.outsystems.com/forge/component-overview/1395/location-plugin)|-|2.0.1 or later|
-|[OneSignal](https://www.outsystems.com/forge/component-versions/2119)|-|1.1.6 or later|
-|[Payments](https://www.outsystems.com/forge/component-versions/13678)|-|1.1.10 or later|
+|[OneSignal](https://www.outsystems.com/forge/component-versions/2119)|-|1.1.9 or later|
+|[Payments](https://www.outsystems.com/forge/component-versions/13678)|1.2.5 or later|1.1.12 or later|
 |[Performance Monitoring (Firebase)](https://www.outsystems.com/forge/component-versions/10706)|-|1.2.0 or later|
-|[SSL Pinning](https://www.outsystems.com/forge/component-versions/1873)|-|1.0.8 or later|
+|[SSL Pinning](https://www.outsystems.com/forge/component-versions/1873)|-|1.2.0 or later|
 |[Touch ID](https://www.outsystems.com/forge/component-versions/1431)|-|1.2.0 or later|
 |[OutSystems AppShield](https://www.outsystems.com/forge/component-overview/9379/outsystems-appshield-o11)|1.15.0 or later|1.0.0 or later|
 
