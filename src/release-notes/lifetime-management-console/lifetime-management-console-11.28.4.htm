@@ -1,0 +1,16 @@
+---
+isautopublish: true
+pageprivacy: semi-private
+---
+
+<h2 id="lifetime_management_console_11.28.4" >LifeTime Management Console 11.28.4</h2>
+<div class="info"><p>This is a preliminary version of the document.</p></div>
+
+
+<style>.cattag {background: #f4f2ff; color: #6a6581; padding: 4px 10px;}</style>
+<h3 id="bug_fixing_lifetime_management_console_11.28.4" >Bug Fixing</h3>
+<ul>
+<li><p>Fixed an issue in LifeTime that caused modules not to display their most up-to-date version in the Deploy Custom selection after clicking the Refresh Application button. This occurred when the deployment option was set to Deploy Custom. Reported by <a href="https://www.outsystems.com/profile/wmqergfymu/overview">Evert</a>.</p> (R11CT-3542) <span class="cattag">Application Lifecycle</span>  <span class="cattag">LifeTime</span> </li>
+<li>Fixed an issue where modules excluded from a deployment plan (because their version matched in source and target at the time the plan was saved) were not re-evaluated during a plan refresh if a hotfix had been published directly to the target environment. As a result, the deployment would skip those modules and leave an outdated version in the target environment. (RPM-5855) <span class="cattag">Application Lifecycle</span>  <span class="cattag">LifeTime</span> </li>
+</ul>
+
