@@ -8,10 +8,15 @@ pageprivacy: public
 
 
 <style>.cattag {background: #f4f2ff; color: #6a6581; padding: 4px 10px;}</style>
+<h3 id="new_in_cross-platform_service_studio_11.55.72" >New in Cross-platform Service Studio 11.55.72</h3>
+<ul>
+<li><p>You can now right-click the “Server Actions” folder to use the new 'Create Exposed to Client-Side Actions' command, which automatically generates wrapper actions inside a dedicated “ExposedToClientSide” folder and updates their usage throughout your codebase. This structural separation gives you clear visibility into all actions called by the client side, making it easier to review and enforce proper security measures. Available for Reactive Apps only.</p> (R11DT-3955)</li>
+</ul>
 <h3 id="bug_fixing_cross-platform_service_studio_11.55.72" >Bug Fixing</h3>
 <ul>
 <li><p>Updated Studio's SQLite version and fixed CVE 2025-6965.</p> (RDEV-9615)</li>
 <li><p>Fixed an issue that caused an unexpected error when cloning a protected app.</p> (RDEV-9634)</li>
+<li><p>Fixed an issue where content copied in the editor could not be pasted back into the application.</p> (RDEV-9657)</li>
 <li>Fixed an issue that would prevent users to publish an app due to a block incompatibility with its definition. (RPM-6749)</li>
 <li>Fixed an issue where the paste shortcut pasted content into the main area of the editor instead of the search input. (RPM-6836) <span class="cattag">Service Studio</span> </li>
 </ul>
