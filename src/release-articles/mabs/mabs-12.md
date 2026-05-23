@@ -10,6 +10,7 @@ audience:
   - Tech lead
 coverage-type:
   - remember
+  - understand
 tags:
   - Android
   - Capacitor
@@ -96,18 +97,17 @@ The table below contains the list of plugins and their supported versions. It is
 |---|---|---|
 |[Analytics (Firebase)](https://www.outsystems.com/forge/component-versions/10704)|2.2.2 or later|1.3.0 or later|
 |[Contacts](https://www.outsystems.com/forge/component-versions/1394)|4.0.6 or later|1.0.3 or later|
-|[Cloud Messaging (Firebase)](https://www.outsystems.com/forge/component-versions/12174)|4.4.0 or later|2.3.1 or later|
 |[Crash Reporting (Firebase)](https://www.outsystems.com/forge/component-versions/10705)|2.1.1 or later|1.2.0 or later|
 |[File Transfer](https://www.outsystems.com/forge/component-versions/1409)|2.1.7 or later|2.0.0 or later|
-|[Key Store](https://www.outsystems.com/forge/component-versions/1550)|2.4.1 or later|1.2.3 or later|
+|[Haptics](https://www.outsystems.com/forge/component-overview/22851/haptics-plugin-odc)|-|1.2.0 or later|
+|[Keyboard](https://www.outsystems.com/forge/component-overview/22852/keyboard-plugin-odc)|-|1.2.2 or later|
 |[InAppBrowser](https://www.outsystems.com/forge/component-versions/1558)|2.4.10 or later|2.2.0 or later|
 |[Local Notifications](https://www.outsystems.com/forge/component-overview/1541/local-notifications-plugin)|7.2.1 or later|1.0.5 or later|
 |[Location](https://www.outsystems.com/forge/component-overview/1395/location-plugin)|5.2.2 or later|2.0.1 or later|
-|[OneSignal](https://www.outsystems.com/forge/component-versions/2119)|3.7.5 or later|1.1.6 or later|
-|[Payments](https://www.outsystems.com/forge/component-versions/13678)|1.2.2 or later|1.1.10 or later|
+|[OneSignal](https://www.outsystems.com/forge/component-versions/2119)|3.7.5 or later|1.1.9 or later|
 |[Performance Monitoring (Firebase)](https://www.outsystems.com/forge/component-versions/10706)|2.1.1 or later|1.2.0 or later|
 |[Social Login Mobile](https://www.outsystems.com/forge/component-versions/7895)|4.2.2 or later|-|
-|[SSL Pinning](https://www.outsystems.com/forge/component-versions/1873)|7.0.1 or later|1.0.8 or later|
+|[SSL Pinning](https://www.outsystems.com/forge/component-versions/1873)|7.0.1 or later|1.2.0 or later|
 |[Touch ID](https://www.outsystems.com/forge/component-versions/1431)|3.3.9 or later|1.2.0 or later|
 
 ## Breaking changes
