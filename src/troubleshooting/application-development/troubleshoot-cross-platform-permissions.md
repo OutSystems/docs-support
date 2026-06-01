@@ -1,9 +1,9 @@
 ---
-summary: Learn how to resolve launch issues in OutSystems 11 (O11) due to missing permissions for configuration folders on both MacOS and Windows.
+summary: Learn how to resolve Service Studio and ODC Studio launch issues due to missing permissions for configuration folders on both macOS and Windows.
 locale: en-us
 guid: 8EE47E91-1685-47CA-8A64-50C4A5CD8150
 app_type: traditional web apps, mobile apps, reactive web apps
-platform-version: o11
+platform-version: o11, odc
 figma: https://www.figma.com/file/6tXLupLiqfG9FOElATTGQU/Troubleshooting?node-id=2616:4337
 tags: ide usage, reactive web apps, troubleshooting, permissions errors, cross-platform development
 audience:
@@ -12,33 +12,39 @@ audience:
   - Platform administrator
 outsystems-tools:
   - service studio
+  - odc studio
+helpids: 30434
 coverage-type:
   - unblock
+isautopublish: true
 ---
 
-# Cross-platform Service Studio cannot be launched due to missing permissions to create the configuration folder
+# Studio cannot be launched due to missing permissions to create the configuration folder
 
 ## Symptoms
 
-Cross-platform Service Studio doesn't load properly. The splash screen doesn’t disappear and a dialog is shown to warn users about missing permissions in the configuration folder.
+Service Studio or ODC Studio doesn’t load properly. The splash screen doesn’t disappear and a dialog is shown to warn users about missing permissions in the configuration folder. Error messages include:
 
-![Error dialog indicating Service Studio cannot start due to missing configuration folder permissions.](images/permission-error-ss.png "Service Studio Permission Error Dialog")
+* We couldn’t start Service Studio because it’s configuration folder is missing.
+* We couldn’t start ODC Studio because it’s configuration folder is missing.
+
+![Example error dialog indicating Studio cannot start due to missing configuration folder permissions.](images/permission-error-ss.png "Studio Permission Error Dialog")
 
 ## Cause
 
-OutSystems cross-platform Service Studio needs a local directory to store configurations and other files. This directory is located in the user’s home area, therefore, the cross-platform environment must have permissions to create and read it (both in Windows and MacOS). However, in some cases, those permissions are lost.  
+Studio needs a local directory to store configurations and other files. This directory is located in the user’s home area, therefore, the cross-platform environment must have permissions to create and read it (both in Windows and MacOS). However, in some cases, those permissions are lost.  
 
 ## Solution
 
 Set the correct permissions to create the configuration folder.
 
-### MacOS
+### If you're using macOS
 
 #### **Using Terminal**
 
-1. Search for **Terminal.app** in MacOS Spotlight and open it.
+1. Search for **Terminal.app** in macOS Spotlight and open it.
 
-    ![MacOS Spotlight search showing Terminal.app as the top result.](images/terminal-mac.png "MacOS Terminal Search Result")
+    ![macOS Spotlight search showing Terminal.app as the top result.](images/terminal-mac.png "macOS Terminal Search Result")
 
 1. Go to the `~/.config` folder.
 
@@ -52,7 +58,7 @@ Set the correct permissions to create the configuration folder.
 
     * `~/.local/share/OutSystems`
 
-1. Open the cross-platform Service Studio again.
+1. Open Studio again.
 
 #### **Using Finder**
 
@@ -92,11 +98,11 @@ Set the correct permissions to create the configuration folder.
 
 1. Repeat steps a-c for the Directory folder `~/.local/share/OutSystems`.
 
-1. Open the cross-platform Service Studio again.
+1. Open Studio again.
 
 For more information, see [Apple’s official guide to change permissions for files and folders on Mac](https://support.apple.com/en-ie/guide/mac-help/mchlp1203/mac).
 
-### Windows
+### If you're usingWindows
 
 1. Open File Explorer and go to the ``C:\Users\<user>\AppData\Local`` folder changing ``user`` to your username.
 
@@ -120,4 +126,4 @@ For more information, see [Apple’s official guide to change permissions for fi
 
     ![Security tab in Windows showing the Users group with specific permissions for the OutSystems folder.](images/usersgroup-win.png "Windows Users Group Permissions")
 
-1. Open the cross-platform Service Studio again.
+1. Open Studio again.
