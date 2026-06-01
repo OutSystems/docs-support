@@ -10,7 +10,19 @@ pageprivacy: public
 <style>.cattag {background: #f4f2ff; color: #6a6581; padding: 4px 10px;}</style>
 <h3 id="new_in_platform_server_11.41.1" >New in Platform Server 11.41.1</h3>
 <ul>
-<li>Added support for the form-action and report-to Content Security Policy (CSP) directives. The platform now sends the modern Reporting-Endpoints HTTP header, used by report-to, alongside the legacy report-uri directive for CSP violation reporting, providing improved browser compatibility with the latest CSP specification. (R11DT-3597)</li>
+<li><p>Added support for the form-action and report-to Content Security Policy (CSP) directives. The platform now sends the modern Reporting-Endpoints HTTP header, used by report-to, alongside the legacy report-uri directive for CSP violation reporting, providing improved browser compatibility with the latest CSP specification.</p> (R11DT-3597)</li>
+<li>New security configurations have been introduced to NativeAppBuilder to provide more granular control over mobile app accessibility. Previously, apps could be downloaded by any user in possession of a valid app key.
+
+To enhance protection against unauthorized access, two new site properties are now available in the NativeAppBuilder module:
+
+<ul>
+&nbsp;&nbsp;<li>
+&nbsp;&nbsp;&nbsp;&nbsp;<strong>AvailableInProductionModes:</strong> This property restricts app downloads based on the environment type, allowing for the prevention of downloads from Production and Non-Production environments.
+&nbsp;&nbsp;</li>
+&nbsp;&nbsp;<li>
+&nbsp;&nbsp;&nbsp;&nbsp;<strong>PublicDownloadEnabled:</strong> This property serves as a global toggle to completely enable or disable the ability to download apps through NativeAppBuilder.
+&nbsp;&nbsp;</li>
+</ul> (RPM-6412) <span class="cattag">Mobile Apps Builder</span>  <span class="cattag">Application Package</span> </li>
 </ul>
 <h3 id="bug_fixing_platform_server_11.41.1" >Bug Fixing</h3>
 <ul>
