@@ -8,6 +8,7 @@ platform-version: o11
 figma: https://www.figma.com/design/6tXLupLiqfG9FOElATTGQU/Troubleshooting?node-id=5614-254&t=peLZnCPF35ZGXEzb-1
 audience:
   - Developer
+  - Platform administrator
   - Tech lead
 outsystems-tools:
   - platform server
@@ -16,7 +17,8 @@ coverage-type:
   - understand
   - unblock
 topic:
-helpids: 
+helpids:
+isautopublish: true
 ---
 
 # Windows Server 2022 upgrade in O11 Cloud
@@ -153,6 +155,25 @@ Depending on your starting version, this may introduce breaking changes to platf
 
 1. Review the [OutSystems 11 side effects and breaking changes](../../release-articles/11/side-effects-breaking-changes.md) for the versions you're moving across. Since Platform Server 11.40.0 has not been released yet, you can begin preparing by reviewing breaking changes up to the latest available version to identify potential impacts on your applications.  
 1. Adapt applications and extensions where needed ahead of the upgrade.
+
+## What happens during the upgrade
+
+The Windows Server 2022 upgrade runs in two sequential operations: a Platform Server upgrade followed by a Windows Server upgrade.
+
+### Platform Server upgrade
+
+The Platform Server upgrade includes the following steps:
+
+1. **Module preparation**: Runs automatically as part of the Platform Server upgrade.
+1. **You must do a Deploy All**: After the Platform Server upgrade completes and before the Windows Server upgrade starts, you must do a **Deploy All**. This ensures all modules are consistent and ready to run on Windows Server 2022.
+
+### Windows Server upgrade
+
+The Windows Server upgrade includes the following steps:
+
+1. **New front-end servers are added**: New front-end servers running Windows Server 2022 are provisioned to replace the existing ones. The platform syncs binaries directly from the old front-end servers to the new ones. In environments with multiple front-ends, this ensures no downtime.
+1. **Module preparation**: This step runs again automatically to ensure the new controller has all the necessary binaries freshly compiled.
+1. **Post-upgrade Deploy All**: While a **Deploy All** is not strictly required after the Windows Server upgrade, it's highly recommended as a best practice. This ensures all binaries are compiled and deployed directly on the new Windows Server 2022 front-end servers, preventing issues in edge cases or if new front-ends are requested.
 
 ## FAQ
 
