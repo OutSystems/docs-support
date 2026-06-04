@@ -31,7 +31,7 @@ Your personal environment can stay asleep for up to 15 days, after that it's del
 
 ### Recommended action
 
-Go to [www.outsystems.com/home](https://www.outsystems.com/home), ensure you're logged in, and click **Wake up**.
+Go to the [Trial Portal](https://www.outsystems.com/Portal/Trial_Portal), ensure you're logged in, and click **Wake up**.
 
 ![OutSystems dashboard showing a notification that the personal environment is asleep with a 'Wake up' button.](images/pe-sleep-usr.png "OutSystems Personal Environment Asleep Notification")
 
@@ -44,7 +44,7 @@ You need to request a new personal environment before using it.
 
 ### Recommended action
 
-Go to [www.outsystems.com/home](https://www.outsystems.com/home), ensure you're logged in, and click **Fetch a new environment**.
+Go to the [Trial Portal](https://www.outsystems.com/Portal/Trial_Portal), ensure you're logged in, and click **Fetch a new environment**.
 
 ![OutSystems dashboard showing a notification that the personal environment has been deleted due to inactivity with a 'Fetch a new environment' button.](images/pe-fetch-usr.png "OutSystems Personal Environment Deactivated Notification")
 
@@ -62,7 +62,7 @@ Your account was deactivated since we didn't receive your email confirmation in 
 
 Follow the instructions in the email we sent you to confirm your email and activate your OutSystems account.
 If you can't find the email, check your spam folder.
-If you didn't receive the email, go to [www.outsystems.com/home](https://www.outsystems.com/home), and click the link in the message to resend the email.
+If you didn't receive the email, go to the [Trial Portal](https://www.outsystems.com/Portal/Trial_Portal), and click the link in the message to resend the email.
 
 ![Message prompting to reactivate an OutSystems account with a link to resend the confirmation email.](images/email-wakeup-usr.png "OutSystems Account Reactivation Prompt")
 
@@ -74,7 +74,7 @@ Your personal environment is still being set up.
 
 ### Recommended action
 
-Check your environment status in [www.outsystems.com/home](https://www.outsystems.com/home), and wait until it's ready.
+Check your environment status in the [Trial Portal](https://www.outsystems.com/Portal/Trial_Portal), and wait until it's ready.
 
 ![OutSystems dashboard indicating the personal environment setup is complete and ready for use.](images/environment-status-usr.png "OutSystems Account Setup Completion")
 
