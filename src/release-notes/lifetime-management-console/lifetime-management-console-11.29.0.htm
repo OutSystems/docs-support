@@ -1,0 +1,18 @@
+---
+isautopublish: true
+pageprivacy: public
+---
+
+<h2 id="lifetime_management_console_11.29.0" >LifeTime Management Console 11.29.0</h2>
+<div class="info"><p>Released on Jun 19, 2026</p></div>
+
+
+<style>.cattag {background: #f4f2ff; color: #6a6581; padding: 4px 10px;}</style>
+<h3 id="new_in_lifetime_management_console_11.29.0" >New in LifeTime Management Console 11.29.0</h3>
+<ul>
+<li><p>It is now possible to use service account tokens with a 24-hour overlap period when rotating authentication tokens. When a new token is generated for a service account, the previous token remains valid for 24 hours, allowing integrations to be updated without service interruptions. For this overlap to also apply to Performance Monitoring API calls, the target environment must be running Platform Server 11.42.0 or later.</p> (R11CT-4861)</li>
+<li><p>It is now possible to <a href="https://success.outsystems.com/documentation/11/reference/outsystems_apis/lifetime_api_v2/rest_api_authentication/">create LifeTime service accounts</a> that are bound to a specific ODC organization. Going forward, this is the recommended approach, offering the highest security, to support scenarios where ODC tenants interact with O11 infrastructures, for instance for data and logic integrations or for application conversion needs.</p> (RDUCO-343)</li>
+</ul>
+
+</ul>
+
