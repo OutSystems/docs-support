@@ -647,6 +647,24 @@
         - href: error/cmfr/cmfr-gen-20006.md
         - href: error/cmfr/cmfr-gen-20007.md
         - href: error/cmfr/cmfr-gen-20008.md
+
+    #Mobile plugins errors
+    - href: error/plug/intro.md
+    - topics:
+        - href: error/plug/os-plug-file-0001.md
+        - href: error/plug/os-plug-file-0002.md
+        - href: error/plug/os-plug-file-0003.md
+        - href: error/plug/os-plug-file-0004.md
+        - href: error/plug/os-plug-file-0005.md
+        - href: error/plug/os-plug-file-0006.md
+        - href: error/plug/os-plug-file-0007.md
+        - href: error/plug/os-plug-file-0008.md
+        - href: error/plug/os-plug-file-0009.md
+        - href: error/plug/os-plug-file-0010.md
+        - href: error/plug/os-plug-file-0011.md
+        - href: error/plug/os-plug-file-0012.md
+        - href: error/plug/os-plug-file-0013.md
+
         
     # Authentication and authorization 
     - href: error/identity/intro.md
