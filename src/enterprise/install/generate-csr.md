@@ -186,6 +186,12 @@ The certificate export is complete.
 
 [OpenSSL](https://www.openssl.org/) can be used to generate a Certificate Signing Request (CSR). You can also refer to [this tutorial](https://www.ssl.com/how-to/manually-generate-a-certificate-signing-request-csr-using-openssl/) instead.
 
+<div class="info" markdown="1">
+
+OpenSSL 3.x changed its default algorithm in pkcs12, which is not compatible with embedded Security frameworks in macOS/iOS and subsequently - in MABS. You can alternatively use OpenSSL 1.x. (more details in [Apple Developer forum](https://developer.apple.com/forums/thread/697030?answerId=701291022#701291022) and in [OpenRadar](https://openradar.appspot.com/FB8988319))
+
+</div>
+
 1. Open a terminal and browse to a folder where you would like to generate your keypair
 
 1. Input the openssl command with the following arguments to generate the private key and CSR request:
