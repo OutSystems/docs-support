@@ -24,7 +24,7 @@ isautopublish: true
 
 ## Error message
 
-"Cordova bridge isn't initialized."
+Cordova bridge isn't initialized.
 
 ## Platform
 

@@ -31,7 +31,7 @@ isautopublish: true
 
 ## Error message
 
-"The app is running with an old version of the plugin. Please create a new mobile package."
+The app is running with an old version of the plugin. Please create a new mobile package.
 
 ## Platform
 

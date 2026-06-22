@@ -30,7 +30,7 @@ isautopublish: true
 
 ## Error message
 
-"Cannot delete directory with children; received recursive=false but directory has contents."
+Cannot delete directory with children; received recursive=false but directory has contents.
 
 ## Platform
 

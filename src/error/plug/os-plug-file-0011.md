@@ -30,7 +30,7 @@ isautopublish: true
 
 ## Error message
 
-"Missing parent directory – possibly recursive=false was passed or parent directory creation failed."
+Missing parent directory – possibly recursive=false was passed or parent directory creation failed.
 
 ## Platform
 

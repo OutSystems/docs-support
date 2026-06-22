@@ -30,7 +30,7 @@ isautopublish: true
 
 ## Error message
 
-"Unable to do file operation, user denied permission request."
+Unable to do file operation, user denied permission request.
 
 ## Platform
 

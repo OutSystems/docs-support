@@ -30,7 +30,7 @@ isautopublish: true
 
 ## Error message
 
-"Invalid `<path>` path."
+Invalid `<path>` path.
 
 ## Platform
 

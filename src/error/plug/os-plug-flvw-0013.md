@@ -24,7 +24,7 @@ isautopublish: true
 
 ## Error message
 
-"The file has no extension."
+The file has no extension.
 
 ## Platform
 

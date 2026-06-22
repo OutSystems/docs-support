@@ -31,7 +31,7 @@ isautopublish: true
 
 ## Error message
 
-"`<method-name>` failed because file at `<path>` does not exist."
+`<method-name>` failed because file at `<path>` does not exist.
 
 ## Platform
 

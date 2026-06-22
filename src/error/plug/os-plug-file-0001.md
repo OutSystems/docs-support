@@ -36,11 +36,11 @@ The error message differs depending on the platform version.
 
 ### Error message on O11
 
-"Cordova isn't defined."
+Cordova isn't defined.
 
 ### Error message on ODC
 
-"Cordova / Capacitor isn't defined."
+Cordova / Capacitor isn't defined.
 
 ## Platform
 

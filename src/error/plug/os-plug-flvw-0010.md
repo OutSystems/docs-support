@@ -24,7 +24,7 @@ isautopublish: true
 
 ## Error message
 
-"There is no app to open this document."
+There is no app to open this document.
 
 ## Platform
 

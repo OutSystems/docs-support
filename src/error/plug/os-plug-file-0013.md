@@ -31,7 +31,7 @@ isautopublish: true
 
 ## Error message
 
-"`<method-name>` failed with: `<error-details>`."
+`<method-name>` failed with: `<error-details>`.
 
 ## Platform
 

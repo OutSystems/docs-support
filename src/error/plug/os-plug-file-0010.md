@@ -30,7 +30,7 @@ isautopublish: true
 
 ## Error message
 
-"Directory at `<path>` already exists, cannot be overwritten."
+Directory at `<path>` already exists, cannot be overwritten.
 
 ## Platform
 

@@ -24,7 +24,7 @@ isautopublish: true
 
 ## Error message
 
-"The file you are trying to open does not exist."
+The file you are trying to open does not exist.
 
 ## Platform
 

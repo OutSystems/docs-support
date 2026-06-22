@@ -24,7 +24,7 @@ isautopublish: true
 
 ## Error message
 
-"Invalid parameters."
+Invalid parameters.
 
 ## Platform
 

@@ -30,7 +30,7 @@ isautopublish: true
 
 ## Error message
 
-"The File plugin is not defined. Make sure the mobile package is valid."
+The File plugin is not defined. Make sure the mobile package is valid.
 
 ## Platform
 

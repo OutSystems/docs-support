@@ -24,7 +24,7 @@ isautopublish: true
 
 ## Error message
 
-"Could not open the document."
+Could not open the document.
 
 ## Platform
 

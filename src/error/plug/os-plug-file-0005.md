@@ -30,7 +30,7 @@ isautopublish: true
 
 ## Error message
 
-"The `<method-name>` input parameters aren't valid."
+The `<method-name>` input parameters aren't valid.
 
 ## Platform
 

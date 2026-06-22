@@ -24,7 +24,7 @@ isautopublish: true
 
 ## Error message
 
-"The download failed."
+The download failed.
 
 ## Platform
 

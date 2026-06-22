@@ -24,7 +24,7 @@ isautopublish: true
 
 ## Error message
 
-"Path of the file to open is either null or empty."
+Path of the file to open is either null or empty.
 
 ## Platform
 

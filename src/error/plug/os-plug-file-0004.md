@@ -35,11 +35,11 @@ The error message differs depending on the platform version.
 
 ### Error message on O11
 
-"Cordova bridge isn't initialized."
+Cordova bridge isn't initialized.
 
 ### Error message on ODC
 
-"Cordova / Capacitor bridge isn't initialized."
+Cordova / Capacitor bridge isn't initialized.
 
 ## Platform
 

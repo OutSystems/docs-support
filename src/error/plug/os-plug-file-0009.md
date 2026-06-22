@@ -29,7 +29,7 @@ isautopublish: true
 
 ## Error message
 
-"`<method-name>` not supported for `<target>`."
+`<method-name>` not supported for `<target>`.
 
 ## Platform
 

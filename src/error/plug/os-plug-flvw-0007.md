@@ -24,7 +24,7 @@ isautopublish: true
 
 ## Error message
 
-"URL to open is either null or empty."
+URL to open is either null or empty.
 
 ## Platform
 

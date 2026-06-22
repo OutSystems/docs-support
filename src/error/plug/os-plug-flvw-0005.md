@@ -24,7 +24,7 @@ isautopublish: true
 
 ## Error message
 
-"The URL you are trying to open is malformed - `<url>`."
+The URL you are trying to open is malformed - `<url>`.
 
 ## Platform
 

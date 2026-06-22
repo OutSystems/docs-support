@@ -24,7 +24,7 @@ isautopublish: true
 
 ## Error message
 
-"File Viewer Plugin is not loaded."
+File Viewer Plugin is not loaded.
 
 ## Platform
 
