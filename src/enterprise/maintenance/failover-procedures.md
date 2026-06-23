@@ -14,6 +14,7 @@ outsystems-tools:
   - platform server
 coverage-type:
   - apply
+isautopublish: true
 ---
 
 # OutSystems Platform Server failover procedures
@@ -145,14 +146,14 @@ The following procedure presents the required steps to move controller roles and
 1. On all front-ends of this environment, starting with the new Controller, **Update location of Controller and RabbitMQ in OutSystems configurations**. The value written for this setting must be equal in all front-ends of the environment.
     1. Run Configuration Tool from the Start menu.
     1. In the **Controller** tab, enter the IP address of the new Deployment Controller server
-    1. In the **Cache** tab, enter the address of the new New OutSystems Deployment Controller server and, if needed, reconfigure the Port, Virtual Host, and Credentials values.
+    1. In the **Cache** tab, enter the address of the new OutSystems Deployment Controller server and, if needed, reconfigure the Port, Virtual Host, and Credentials values.
     1. Click **Create/Upgrade Service**.
     1. Click **Test Connection** to validate if the service creation was successful.
     1. Click **Apply** and **Exit**.
     1. Accept the restart of all OutSystems services.
     1. Answer **No/Cancel** when a pop-up asks you to run the Service Center installation and Prepare Modules.
     1. Close the Configuration Tool and **Save** the configuration
-    1. Run **install.bat** as Administrator from OutSystems Platform Server installation directory
+    1. Run **SCInstall.bat** as Administrator from OutSystems Platform Server installation directory
     1. Repeat steps 1-7 from this list in remaining Front-Ends
 1. In the licensing portal, **obtain a new license (optional)**. After moving the Controller role to another machine your license may become invalid. If you don't have the license file for the new Controller you need to request one. Check the following instructions:
     * [Free up an existing environment in licensing](../licensing/manage/free-up-environment.md)
@@ -169,4 +170,4 @@ In case you need assistance [contact OutSystems Support](https://success.outsyst
 
 ## More information
 
-Check the [OutSystems Platform installation guide](https://success.outsystems.com/Documentation/11/Setting_Up_OutSystems#Install_OutSystems_Platform_Server) to learn more about the steps to follow for your specific stack.
+Check the [OutSystems platform installation guide](https://success.outsystems.com/Documentation/11/Setting_Up_OutSystems#Install_OutSystems_Platform_Server) to learn more about the steps to follow for your specific stack.
