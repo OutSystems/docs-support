@@ -10,6 +10,9 @@ pageprivacy: public
 <style>.cattag {background: #f4f2ff; color: #6a6581; padding: 4px 10px;}</style>
 <h3 id="new_in_outsystems_developer_cloud_2026-06-22" > New</h3>
 <ul>
+<li><p>The Traces console now lets you filter traces by agent. Pick an agent from the Assets dropdown and the console returns the traces where that agent is the origin of the request. Apps and agents sit side-by-side in the same control, so you can switch workload types without leaving the page.</p>
+
+<p>One detail on scope. A trace is filtered by its origin asset. An agent is the origin only when its execution starts from an Event Handler, a Timer, or a REST Expose. When an agent is called from an app, it runs as a span inside that app's trace, so you'll find those runs by filtering for the app.</p> (RDASS-3877)</li>
 <li><p>Enhanced security by enforcing single-use refresh token rotation globally. Once a refresh token is used to obtain a new access token, it is immediately invalidated and replaced, preventing unauthorized reuse.</p> (RDPIB-3180)</li>
 </ul>
 
