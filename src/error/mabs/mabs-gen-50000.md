@@ -1,6 +1,9 @@
 ---
-summary: Couldn't generate your app. If the problem persists, check our documentation for more information.
-tags: mobile app generation, cordova build, application package, error handling, support
+summary: OS-MABS-GEN-50000 error occurs when the Cordova build process fails; regenerate the app and check build logs in Service Center or ODC Portal.
+tags:
+  - Cordova
+  - Mobile app
+  - Troubleshooting
 guid: ea9787f4-136a-458d-82dc-3df4e57168b8
 locale: en-us
 app_type: mobile apps
@@ -14,6 +17,7 @@ outsystems-tools:
   - service center
 coverage-type:
   - unblock
+isautopublish: true
 ---
 
 # OS-MABS-GEN-50000
@@ -32,7 +36,7 @@ Users can't generate the application package.
 
 ## Recommended action
 
-Try to repeat the operation and check the build logs on Service Center.
+Regenerate your app package and check the build logs on Service Center for O11 and ODC Portal for ODC.
 
 Learn more about generating mobile apps and how to get the build logs [here](https://success.outsystems.com/Documentation/11/Delivering_Mobile_Apps/Generate_and_Distribute_Your_Mobile_App#download-mobile-app-build-logs).
 

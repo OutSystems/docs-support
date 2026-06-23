@@ -19,8 +19,11 @@ tags:
   - iOS
   - Mobile app
   - Plugins
+outsystems-tools:
+  - forge
+  - odc studio
+  - odc portal
 ---
-
 # MABS 12 release notes
 
 <div class="info" markdown="1">
@@ -39,12 +42,65 @@ OutSystems recommends updating all supported plugins to the latest version avail
 
 </div>
 
-## MABS 12 { #mabs-version-12-0 }
+## MABS 12.1 { #mabs-version-12-1 }
+
+<div class="info" markdown="1">
+
+**First release:** 2026-05-26 10:30:00 UTC<br />
+
+</div>
+
+### What's new
+
+MABS 12.1 release introduces the following new features and enhancements:
+
+* Support for Swift Package Manager (SPM) in OutSystems Developer Cloud (ODC). For more details, refer to [`spmPreview`](https://www.outsystems.com/tk/redirect?g=fc8b0661-525c-4f75-8217-4d9aec2cd312#spmPreview) in  [App extensibility configuration JSON schema](https://www.outsystems.com/tk/redirect?g=fc8b0661-525c-4f75-8217-4d9aec2cd312).
+* A true native splash screen now replaces the web-rendered approach for Capacitor apps, eliminating startup blinks on both iOS and Android. For more details, refer to [Customize splash screen](https://www.outsystems.com/tk/redirect?g=b7c4e8f2-1a3d-4e5f-9b6c-8d7e2f1a0b9c)
+* Added support for Xcode 26.3
+
+For additonal details, refer to [MABS 12.1 release notes](../../release-notes/mabs/12/12.1/12.1.md)
+
+## System requirements
+
+The table below contains a list of plugins and their supported versions for **MABS 12.1**. For more details, click the plugin name on the Forge.
+
+| Plugin | Required minimum version for ODC |
+| --- | --- |
+| [Analytics (Firebase)](https://www.outsystems.com/forge/component-versions/10704) | 1.7.0 or later |
+| [Cloud Messaging (Firebase)](https://www.outsystems.com/forge/component-versions/12174) | 3.3.0 or later |
+| [Crash Reporting (Firebase)](https://www.outsystems.com/forge/component-versions/10705) | 1.5.0 or later |
+| [OneSignal](https://www.outsystems.com/forge/component-versions/2119) | 1.2.0 or later |
+| [Payments](https://www.outsystems.com/forge/component-versions/13678) | 1.2.0 or later |
+| [Performance Monitoring (Firebase)](https://www.outsystems.com/forge/component-versions/10706) | 1.4.0 or later |
+
+## Changes
+
+Here's the list of changes that apply to MABS 12.1 for building Capacitor apps.
+
+* [Splash screens](https://www.outsystems.com/tk/redirect?g=b7c4e8f2-1a3d-4e5f-9b6c-8d7e2f1a0b9c) are now driven by a new OutSystems implementation that replaces the @capacitor/splash-screen plugin, providing a refreshed UX and an expanded set of configuration options in the IDE.
+* [Splash screen settings](https://success.outsystems.com/documentation/outsystems_developer_cloud/building_apps/mobile_apps/configure_mobile_apps/) are now configured in the IDE rather than through extensibility configurations. The app settings defined in the IDE always take precedence over any values defined in the extensibility. This affects appConfigurations.backgroundColor and buildConfigurations.splashscreens.*.logo.
+* The splash screen lifecycle is now controlled by the app runtime. As a consequence, the `autoHide` and `duration` entries under `appConfigurations` no longer have any effect.
+* The branding image must be a 1024×1024 file, with PNG recommended. Other sizes are rejected at build time, and some formats may be as well.
+* The full branding image is now used as the splash logo, instead of only the inner 2/3 of the canvas dictated by the Android convention. As a result, the app icon is no longer downscaled to fit the smaller circular area.
+* On iOS, the branding image is no longer cropped to a circle. On Android, the image continues to be circle-masked, in line with the platform's splash screen guidelines.
+* [`spmPreview`](https://www.outsystems.com/tk/redirect?g=fc8b0661-525c-4f75-8217-4d9aec2cd312#spmPreview) boolean is available under `buildConfigurations` in app extensibility to enable iOS builds with Swift Package Manager.
+
+Here's the list of changes that apply to all other mobile apps, meaning anything that isn't a MABS 12.1 Capacitor app: MABS 11 Cordova, MABS 12.0 Cordova or Capacitor, and MABS 12.1 Cordova.
+
+* Since the splash screen lifecycle is now controlled by the app runtime.The **Splash screen type** setting applies to every mobile app, regardless of mobile framework or MABS version. The **Native** splash screen option only produces a true native splash screen when building a Capacitor app with MABS 12.1 or later. In all other configurations, including older MABS versions and Cordova-based apps, selecting **Native** displays a web-based splash screen styled to visually provide a native experience. The remaining splash screen settings, however, still apply and control the appearance of that web-based screen.
+
+## Known issues
+
+Here's the list of known issues:
+
+* Building a Capacitor app with MABS 12.1 and with the `spmPreview` extensibility configuration set to `true` with Cocoapods-only Cordova plugins results in a generic [OS-MABS-GEN-5000 error](../../error/mabs/mabs-gen-50000.md). Review the build logs to get additional information on plugin incompatibility.
+
+## MABS 12.0 { #mabs-version-12-0 }
 
 <div class="info" markdown="1">
 
 **First release:** 2025-10-15 10:30:00 UTC<br />
-**Last update:** 2025-12-15 10:30:00 UTC.
+**Last update:** 2025-12-15 10:30:00 UTC
 
 </div>
 
@@ -134,5 +190,5 @@ Here's a list of breaking changes that apply to MABS 12 for building **Cordova**
 
 Here's the list of known issues:
 
-* Updates over the air fail for apps that use build actions YAML file provided as OutSystems app resources **(Capacitor only)**
-* Back navigation with back button or gesture navigation doesn't affect in-app navigation when running in Android 16 **(Capacitor only)**
+* Updates over the air fail for apps that use build actions YAML file provided as OutSystems app resources **(Capacitor only)**.
+* Back navigation with back button or gesture navigation doesn't affect in-app navigation when running in Android 16 **(Capacitor only)**.
