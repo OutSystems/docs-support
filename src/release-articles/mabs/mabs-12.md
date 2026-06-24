@@ -87,7 +87,7 @@ Here's the list of changes that apply to MABS 12.1 for building Capacitor apps.
 
 Here's the list of changes that apply to all other mobile apps, meaning anything that isn't a MABS 12.1 Capacitor app: MABS 11 Cordova, MABS 12.0 Cordova or Capacitor, and MABS 12.1 Cordova.
 
-* Since the splash screen lifecycle is now controlled by the app runtime.The **Splash screen type** setting applies to every mobile app, regardless of mobile framework or MABS version. The **Native** splash screen option only produces a true native splash screen when building a Capacitor app with MABS 12.1 or later. In all other configurations, including older MABS versions and Cordova-based apps, selecting **Native** displays a web-based splash screen styled to visually provide a native experience. The remaining splash screen settings, however, still apply and control the appearance of that web-based screen.
+* The **Splash screen type** setting now applies to every mobile app, regardless of mobile framework or MABS version, because the app runtime controls the splash screen lifecycle. The **Native** splash screen option only produces a true native splash screen when building a Capacitor app with MABS 12.1 or later. In all other configurations, including older MABS versions and Cordova-based apps, selecting **Native** displays a web-based splash screen styled to visually provide a native experience. The remaining splash screen settings, however, still apply and control the appearance of that web-based screen.
 
 ## Known issues
 
