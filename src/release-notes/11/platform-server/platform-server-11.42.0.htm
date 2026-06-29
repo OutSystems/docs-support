@@ -1,0 +1,37 @@
+---
+isautopublish: true
+pageprivacy: semi-private
+---
+
+<h2 id="platform_server_11.42.0" >Platform Server 11.42.0</h2>
+<div class="info"><p>This is a preliminary version of the document.</p></div>
+
+
+<style>.cattag {background: #f4f2ff; color: #6a6581; padding: 4px 10px;}</style>
+<h3 id="new_in_platform_server_11.42.0" >New in Platform Server 11.42.0</h3>
+<ul>
+<li><p>Added support for SQL Server 2025 and compatibility level 170. This applies to the platform database, as well as external databases.
+Configuration Tool and Service Center now feature distinct options for SQL Server and Azure SQL to improve setup clarity.</p> (R11BCT-443)</li>
+<li><p>Downgraded Oracle Managed Driver to version 19.26 due to thread pooling issues with version 23.26.100.</p> (R11BCT-462)</li>
+<li><p>Service Center's Site Properties page now shows descriptions for each property and includes a notice warning that these are internal settings. Their default values are recommended and should only be changed when instructed by OutSystems Support.</p> (R11BRT-1668)</li>
+<li><p>It is now possible to use service account tokens with a 24-hour overlap period when rotating authentication tokens for the Performance Monitoring API. When a new token is generated in LifeTime, the previous token remains valid for 24 hours, allowing integrations to be updated without service interruptions. This requires LifeTime 11.29.0 or later.</p> (R11CT-4373)</li>
+<li><p>Added support for the form-action and report-to Content Security Policy (CSP) directives. The platform now sends the modern Reporting-Endpoints HTTP header, used by report-to, alongside the legacy report-uri directive for CSP violation reporting, providing improved browser compatibility with the latest CSP specification.</p> (R11CT-4724)</li>
+<li><p>DropdownCustom now follows the ARIA combobox pattern (combobox/listbox/option roles, aria-expanded, aria-selected) when EnableWCAG22 is enabled, ensuring WCAG 2.2 (4.1.2 — Name, Role, Value) compliance for assistive technologies.</p> (R11DT-3623)</li>
+<li><p>Updated Swagger UI dependencies dompurify (3.4.0) , immutable (3.8.3) ,  lodash (4.18.1) and swagger-client (3.37.2) to ensure continued security compliance. This update has no runtime impact.</p> (R11DT-3830)</li>
+<li>Fixed an issue where Mobile applications embedded in an iframe would fail to load on Safari (macOS) and all browsers on iOS/iPadOS. (RPM-6421) <span class="cattag">Application Runtime</span> </li>
+</ul>
+<h3 id="bug_fixing_platform_server_11.42.0" >Bug Fixing</h3>
+<ul>
+<li><p>Fixed an issue that caused unnecessary folders in the running directory on frontends to be created for library modules. These folders would not be cleaned up by the automatic cleanup processes.</p> (R11BCT-331)</li>
+<li><p>Fixed an issue that could trigger a "You are not allowed to upload this Extension. Please contact your OutSystems Administrator." error when doing a solution publish in an environment registered in LifeTime.
+The issue would occur in very specific scenarios, when the extension already existed in the system but was not associated to any application.</p> (R11BCT-392)</li>
+<li>Fixed an issue that caused unnecessary folders in the running directory on frontends to be created if there were license errors during Publish. These folders would not be cleaned up by the automatic cleanup processes. (RPM-2158) <span class="cattag">Infrastructure Management</span>  <span class="cattag">OutSystems Services</span> </li>
+<li>Fix unnecessary FK Index recreation during module publishing. (RPM-2402) <span class="cattag">Application Lifecycle</span>  <span class="cattag">LifeTime</span> </li>
+<li>Fixed an issue where BCC recipients did not receive emails when sending through the modern SMTP implementation (OAuth 2.0) (RPM-6750) <span class="cattag">Application Runtime</span>  <span class="cattag">Interface</span> </li>
+<li>Removed form-action CSP directive from Service Center and LifeTime applications since it was conflicting OIDC login. A fix to this conflict was introduced that can be enable by a setting. (RPM-6844) <span class="cattag">Application Lifecycle</span>  <span class="cattag">Service Center</span> </li>
+<li>Fixed an issue that caused "The operation was canceled" errors to flood Service Center logs (Errors and Integrations tabs) whenever a client cancelled a request to an exposed REST service - for example, by navigating away or closing the browser tab. Now, these cancellations are no longer logged as errors.
+You can revert to the previous behavior via Factory Configuration setting "Hide Operation Canceled Exception in Logs". (RPM-778) <span class="cattag">Application Runtime</span>  <span class="cattag">Logic Execution</span> </li>
+<li>HtmlSanitizer has been upgraded from version 8.0.838 to the latest patched version (9.0.892+). This upgrade resolves CVE-2026-25543 by shipping a patched version of the library as part of the Sanitization System Component. (RPM-6634) <span class="cattag">Application Runtime</span> </li>
+<li>Updated MailKit to version 4.16.0. (RPM-6797) <span class="cattag">Application Runtime</span> </li>
+</ul>
+
