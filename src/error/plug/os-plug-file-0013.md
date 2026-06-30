@@ -31,7 +31,7 @@ isautopublish: true
 
 ## Error message
 
-`<method-name>` failed with: `<error-details>`.
+`METHOD_NAME` failed with: `ERROR_DETAILS`.
 
 ## Platform
 
@@ -53,9 +53,9 @@ The requested filesystem operation won't be executed.
 
 ## Recommended action
 
-Check the `<error-details>` portion of the error message for more information about the specific failure. Based on those details:
+Check the `ERROR_DETAILS` portion of the error message for more information about the specific failure. Based on those details:
 
 * If storage is the issue, guide the user to free up space on the device.
 * If the issue appears to be a transient OS or permission problem, retry the operation.
 
-If the problem persists, create a case with [OutSystems support](https://www.outsystems.com/support/portal/open-support-case?ErrorCode=OS-PLUG-FILE-0013).
+If the problem persists, open a support case with [OutSystems support](https://www.outsystems.com/support/portal/open-support-case?ErrorCode=OS-PLUG-FILE-0013).

@@ -69,10 +69,10 @@ Ensure that filesystem plugin methods are only called after the native bridge ha
 
 Call plugin methods only after the screen or block is ready, for example in the **OnReady** event, and use the `CheckFilePlugin` client action to confirm the plugin is available before calling other actions. Avoid invoking plugin methods during the earliest stages of app startup.
 
-If the problem persists, create a case with [OutSystems support](https://www.outsystems.com/support/portal/open-support-case?ErrorCode=OS-PLUG-FILE-0004).
+If the problem persists, open a support case with [OutSystems support](https://www.outsystems.com/support/portal/open-support-case?ErrorCode=OS-PLUG-FILE-0004).
 
 ### Recommended action on ODC
 
 Call plugin methods only after the app is fully mounted and Cordova or Capacitor has been initialized. Avoid invoking plugin methods during the earliest stages of app startup.
 
-If the problem persists, create a case with [OutSystems support](https://www.outsystems.com/support/portal/open-support-case?ErrorCode=OS-PLUG-FILE-0004).
+If the problem persists, open a support case with [OutSystems support](https://www.outsystems.com/support/portal/open-support-case?ErrorCode=OS-PLUG-FILE-0004).

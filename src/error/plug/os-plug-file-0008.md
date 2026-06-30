@@ -31,7 +31,7 @@ isautopublish: true
 
 ## Error message
 
-`<method-name>` failed because file at `<path>` does not exist.
+`METHOD_NAME` failed because file at `PATH` does not exist.
 
 ## Platform
 
@@ -53,4 +53,4 @@ Verify that the file or directory exists at the specified path before attempting
 * If the resource is expected to be created by a previous step, ensure that step completed successfully before proceeding.
 * Handle the not-found case in your application logic to provide a meaningful experience to the user.
 
-If the problem persists, create a case with [OutSystems support](https://www.outsystems.com/support/portal/open-support-case?ErrorCode=OS-PLUG-FILE-0008).
+If the problem persists, open a support case with [OutSystems support](https://www.outsystems.com/support/portal/open-support-case?ErrorCode=OS-PLUG-FILE-0008).

@@ -1,6 +1,12 @@
 ---
-summary: The URL you are trying to open is malformed.
-tags: error handling,troubleshooting,system messages,user experience,application deployment
+summary: OS-PLUG-FLVW-0005 occurs in OutSystems platform mobile apps when the URL passed to a plugin to open or download a document is invalid or malformed.
+tags:
+  - Android
+  - iOS
+  - Mobile app
+  - Native App
+  - Plugins
+  - Troubleshooting
 locale: en-us
 guid: db0409e4-e963-41aa-8805-2d5953880e60
 app_type: mobile apps
@@ -24,7 +30,7 @@ isautopublish: true
 
 ## Error message
 
-The URL you are trying to open is malformed - `<url>`.
+The URL you are trying to open is malformed - `URL`.
 
 ## Platform
 

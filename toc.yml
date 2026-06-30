@@ -275,7 +275,6 @@
             - href: troubleshooting/incident-models/odc/im-3792.md
             - href: troubleshooting/incident-models/odc/im-3668.md
             - href: troubleshooting/incident-models/odc/im-3813.md
-
             - href: troubleshooting/incident-models/odc/im-3927.md
             - href: troubleshooting/incident-models/odc/im-3974.md
             - href: troubleshooting/incident-models/odc/im-4109.md
@@ -659,9 +658,20 @@
         - href: error/cmfr/cmfr-gen-20007.md
         - href: error/cmfr/cmfr-gen-20008.md
 
-    #Mobile plugins errors
+ #Mobile plugins errors
     - href: error/plug/intro.md
-    - topics:
+    - topics: 
+        - href: error/plug/os-plug-fltr-0001.md
+        - href: error/plug/os-plug-fltr-0002.md
+        - href: error/plug/os-plug-fltr-0003.md
+        - href: error/plug/os-plug-fltr-0004.md
+        - href: error/plug/os-plug-fltr-0005.md
+        - href: error/plug/os-plug-fltr-0006.md
+        - href: error/plug/os-plug-fltr-0007.md
+        - href: error/plug/os-plug-fltr-0008.md
+        - href: error/plug/os-plug-fltr-0009.md
+        - href: error/plug/os-plug-fltr-0010.md
+        - href: error/plug/os-plug-fltr-0011.md
         - href: error/plug/os-plug-file-0001.md
         - href: error/plug/os-plug-file-0002.md
         - href: error/plug/os-plug-file-0003.md
@@ -688,7 +698,6 @@
         - href: error/plug/os-plug-flvw-0011.md
         - href: error/plug/os-plug-flvw-0012.md
         - href: error/plug/os-plug-flvw-0013.md
-
 
     # Authentication and authorization 
     - href: error/identity/intro.md

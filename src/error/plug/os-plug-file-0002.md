@@ -53,4 +53,4 @@ Generate a new mobile package that includes the updated version of the File plug
 1. Generate a new mobile package (native build).
 1. Distribute the new package through your app distribution channel (app store or enterprise distribution).
 
-If the problem persists, create a case with [OutSystems support](https://www.outsystems.com/support/portal/open-support-case?ErrorCode=OS-PLUG-FILE-0002).
+If the problem persists, open a support case with [OutSystems support](https://www.outsystems.com/support/portal/open-support-case?ErrorCode=OS-PLUG-FILE-0002).

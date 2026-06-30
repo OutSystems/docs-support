@@ -29,7 +29,7 @@ isautopublish: true
 
 ## Error message
 
-`<method-name>` not supported for `<target>`.
+`METHOD_NAME` not supported for `TARGET`.
 
 ## Platform
 
@@ -55,4 +55,4 @@ Ensure the operation is compatible with the target type:
 * When calling file operations, confirm the target is a file and not a directory, and vice versa. Use the `GetMetadata` client action to inspect the `PathType` beforehand.
 * For copy operations, ensure that at least the destination uses a local (non-content scheme) path.
 
-If the problem persists, create a case with [OutSystems support](https://www.outsystems.com/support/portal/open-support-case?ErrorCode=OS-PLUG-FILE-0009).
+If the problem persists, open a support case with [OutSystems support](https://www.outsystems.com/support/portal/open-support-case?ErrorCode=OS-PLUG-FILE-0009).

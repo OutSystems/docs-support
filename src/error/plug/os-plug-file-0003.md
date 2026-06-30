@@ -1,5 +1,5 @@
 ---
-summary: The File plugin is not defined. Make sure the mobile package is valid.
+summary: OS-PLUG-FILE-0003 means the OutSystems File plugin is absent from the mobile package and filesystem operations fail until you regenerate it.
 tags:
   - Android
   - Cordova
@@ -59,4 +59,4 @@ Verify the File plugin is correctly included in the app and regenerate the mobil
 1. Verify the build completed successfully without errors.
 1. Distribute and install the new package.
 
-If the issue persists after regenerating the package, create a case with [OutSystems support](https://www.outsystems.com/support/portal/open-support-case?ErrorCode=OS-PLUG-FILE-0003) and include the build logs for further investigation.
+If the issue persists after regenerating the package, open a support case with [OutSystems support](https://www.outsystems.com/support/portal/open-support-case?ErrorCode=OS-PLUG-FILE-0003) and include the build logs for further investigation.

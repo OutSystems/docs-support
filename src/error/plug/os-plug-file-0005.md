@@ -30,7 +30,7 @@ isautopublish: true
 
 ## Error message
 
-The `<method-name>` input parameters aren't valid.
+The `METHOD_NAME` input parameters aren't valid.
 
 ## Platform
 
@@ -52,4 +52,4 @@ Review the documentation for the method referenced in the error message and veri
 * Ensure that the `Directory` parameter uses one of the accepted values from its static entity, rather than providing a string directly.
 * Check that no required parameter is missing or has an empty value.
 
-If the problem persists, create a case with [OutSystems support](https://www.outsystems.com/support/portal/open-support-case?ErrorCode=OS-PLUG-FILE-0005).
+If the problem persists, open a support case with [OutSystems support](https://www.outsystems.com/support/portal/open-support-case?ErrorCode=OS-PLUG-FILE-0005).

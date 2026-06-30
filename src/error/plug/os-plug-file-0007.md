@@ -54,4 +54,4 @@ Ensure your app requests the necessary file access permissions before performing
 * Handle the denial gracefully and avoid retrying the operation without user interaction.
 * Guide users to manually grant the required permissions through the device's app settings if they have permanently denied the request.
 
-If the problem persists, create a case with [OutSystems support](https://www.outsystems.com/support/portal/open-support-case?ErrorCode=OS-PLUG-FILE-0007).
+If the problem persists, open a support case with [OutSystems support](https://www.outsystems.com/support/portal/open-support-case?ErrorCode=OS-PLUG-FILE-0007).

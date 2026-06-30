@@ -30,7 +30,7 @@ isautopublish: true
 
 ## Error message
 
-Invalid `<path>` path.
+Invalid `PATH` path.
 
 ## Platform
 
@@ -51,4 +51,4 @@ Verify that the path you are providing is well-formed and points to an accessibl
 * Don't build paths manually. Use the plugin's directory location values and the `GetFileUri` client action to obtain valid paths.
 * When you pass a URI obtained from another source, such as an image picker, make sure it still points to an existing file.
 
-If the problem persists, create a case with [OutSystems support](https://www.outsystems.com/support/portal/open-support-case?ErrorCode=OS-PLUG-FILE-0006).
+If the problem persists, open a support case with [OutSystems support](https://www.outsystems.com/support/portal/open-support-case?ErrorCode=OS-PLUG-FILE-0006).

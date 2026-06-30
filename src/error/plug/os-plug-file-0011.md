@@ -56,4 +56,4 @@ Ensure all parent directories in the target path exist before performing the ope
 * For copy and rename operations, create the destination's parent directory first if it doesn't already exist.
 * If the error occurs during a `Recursive=True` call, verify that the path is well-formed and that you have write access to the parent locations.
 
-If the problem persists, create a case with [OutSystems support](https://www.outsystems.com/support/portal/open-support-case?ErrorCode=OS-PLUG-FILE-0011).
+If the problem persists, open a support case with [OutSystems support](https://www.outsystems.com/support/portal/open-support-case?ErrorCode=OS-PLUG-FILE-0011).

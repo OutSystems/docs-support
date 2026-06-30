@@ -51,4 +51,4 @@ Choose the approach that suits your use case:
 * To delete the directory along with all its contents, call `DeleteDirectory` with `Recursive=True`.
 * To delete only an empty directory, first delete all files and subdirectories within it individually before calling `DeleteDirectory`.
 
-If the problem persists, create a case with [OutSystems support](https://www.outsystems.com/support/portal/open-support-case?ErrorCode=OS-PLUG-FILE-0012).
+If the problem persists, open a support case with [OutSystems support](https://www.outsystems.com/support/portal/open-support-case?ErrorCode=OS-PLUG-FILE-0012).

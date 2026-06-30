@@ -70,4 +70,4 @@ Ensure the app is running as a native mobile application with a valid mobile pac
 * Do not call filesystem plugin methods in web-only or PWA contexts where the native bridge is unavailable.
 * If the error occurs in a native app, regenerate the mobile package and verify that the plugin is included in the build.
 
-If the problem persists, create a case with [OutSystems support](https://www.outsystems.com/support/portal/open-support-case?ErrorCode=OS-PLUG-FILE-0001).
+If the problem persists, open a support case with [OutSystems support](https://www.outsystems.com/support/portal/open-support-case?ErrorCode=OS-PLUG-FILE-0001).

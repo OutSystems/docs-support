@@ -30,7 +30,7 @@ isautopublish: true
 
 ## Error message
 
-Directory at `<path>` already exists, cannot be overwritten.
+Directory at `PATH` already exists, cannot be overwritten.
 
 ## Platform
 
@@ -51,4 +51,4 @@ Check whether a directory already exists at the target path before attempting to
 * If the directory already existing is an acceptable state for your use case, catch this specific error and treat it as a non-failure scenario.
 * If you intend to replace the directory, delete it first using `DeleteDirectory` before recreating it.
 
-If the problem persists, create a case with [OutSystems support](https://www.outsystems.com/support/portal/open-support-case?ErrorCode=OS-PLUG-FILE-0010).
+If the problem persists, open a support case with [OutSystems support](https://www.outsystems.com/support/portal/open-support-case?ErrorCode=OS-PLUG-FILE-0010).
