@@ -1,6 +1,10 @@
 ---
-summary: Explore end user management and classification in OutSystems 11 (O11), including internal, external, and anonymous user distinctions and capacities.
+audience:
+  - Platform administrator
+summary: "End users in the OutSystems platform: classify, count, and manage internal, external, and anonymous users across ODC and O11."
 tags:
+  - Domains
+  - End-users
 locale: en-us
 guid: 907b0fd3-bc46-4391-aae2-673296d795d9
 app_type: traditional web apps, mobile apps, reactive web apps
@@ -13,8 +17,9 @@ topic:
   - user-types
   - users-licensing
 isautopublish: true
+outsystems-tools:
+  - odc portal
 ---
-
 # End users
 
 An end user is a unique individual who uses your OutSystems apps. Each non-anonymous end user who interacts with your apps counts toward the end user capacities established on your subscription. People who develop your OutSystems apps but do not use them are not considered end users.
@@ -33,7 +38,7 @@ OutSystems 11 maintains the default behavior where all end users are classified 
 
 </div>
 
-* For ODC (OutSystems Developer Cloud) you can [define your domains in the **ODC Portal**](https://www.outsystems.com/tk/redirect?g=f3211746-db90-4515-8175-888d00e14bd9).
+* For ODC (OutSystems Developer Cloud), you can [define domains in the **ODC Portal**](https://www.outsystems.com/tk/redirect?g=f3211746-db90-4515-8175-888d00e14bd9).
 
 * For OutSystems 11, [domains are configured in Service Center](https://www.outsystems.com/tk/redirect?g=8cb73d92-a60d-4133-9f95-67ef4505932d).
 
@@ -47,7 +52,7 @@ When an end-user has no email address stored on their profile, such as when you 
 
 </div>
 
-Independent Software Vendors (ISVs) and Managed Services Providers (MSPs) delivering apps to their clients should configure the domains of their clients (rather than the domains of their own company) as internal. Internal and external end users are from the perspective of the client that is licensing usage of apps from the ISV or MSP, not from the perspective of the ISV or MSP that is licensing the OutSystems platform.
+Independent Software Vendors (ISVs) and Managed Service Providers (MSPs) delivering apps to their clients should configure the domains of their clients (rather than the domains of their own company) as internal. Internal and external end users are from the perspective of the client that is licensing app usage from the ISV or MSP, not from the perspective of the ISV or MSP that is licensing the OutSystems platform.
 
 ## Anonymous end users
 
@@ -69,7 +74,7 @@ Each OutSystems subscription has an associated end-user capacity: the maximum nu
 
     * For the purpose of counting users, the platform deduplicates records with the same email address or login, as long as they are assigned to a [default tenant](https://success.outsystems.com/documentation/how_to_guides/development/how_to_build_a_multi_tenant_application/#multi-tenancy-in-outsystems-platform), even across [user providers](intro.md#User-providers).
 
-    * Users without an email in neither the **Email** nor **Username** fields always count as internal.
+    * Users without an email in either the **Email** or **Username** fields always count as internal.
 
     * The values displayed on the **User Distribution Per User Provider** table in Service Center show the total number of users without deduplication.
 
@@ -81,10 +86,9 @@ Each OutSystems subscription has an associated end-user capacity: the maximum nu
 
 OutSystems subscriptions typically include rights to run applications serving up to a specific number of internal end users and a specific number of external end users, with options for upgrading these end-user capacities that vary by subscription. When you exceed the internal or external end-user capacities specified on your subscription, you need to upgrade your subscription to remain in compliance with the license terms. Please contact your OutSystems sales representative for assistance.
 
-* In **ODC**, because there's a single production runtime, all your users are licenced individually.
+* In **ODC**, your end-user count includes each end-user who is active and has logged in to any production runtime in the organization. Each end-user counts only once, regardless of how many production runtimes they access. You can review your end-user usage in the [**Subscription**](https://www.outsystems.com/tk/redirect?g=504cdfa5-68d4-46ce-8363-e08aa05e4514) section of the ODC Portal.
 
-* In **OutSystems 11** infrastructures, customers may have more than one production runtime where their apps are hosted and delivered to end users. When the same individual accesses apps hosted on multiple runtimes, this individual is tracked as an end user in each and contributes to the reported end user count in each.
-Nonetheless, the individual will count as a unique user towards the end user limits.
+* In **OutSystems 11** infrastructures, customers may have more than one production runtime where their apps are hosted and delivered to end users. When the same individual accesses apps hosted on multiple runtimes, this individual is tracked as an end user in each and contributes to the reported end user count in each. Nonetheless, the individual will count as a unique user towards the end-user limits.
 
 ## Managing your end users
 
@@ -97,4 +101,4 @@ You may periodically deactivate end users who you know won't continue to use you
 
 * [Classify users in ODC](https://www.outsystems.com/tk/redirect?g=f3211746-db90-4515-8175-888d00e14bd9)
 * [Classify users in O11](https://www.outsystems.com/tk/redirect?g=8cb73d92-a60d-4133-9f95-67ef4505932d)
-* [O11 Multi-tenant applications](https://www.outsystems.com/tk/redirect?g=6e1bb224-5f33-4233-adc5-57dc98793113): managing different cohorts of users from different tenants.
+* [O11 multi-tenant applications](https://www.outsystems.com/tk/redirect?g=6e1bb224-5f33-4233-adc5-57dc98793113): managing different cohorts of users from different tenants.
