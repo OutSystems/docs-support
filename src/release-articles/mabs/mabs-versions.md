@@ -130,7 +130,7 @@ This version can run your apps on:
         <tr>
             <td style="vertical-align:middle;width:156px;">Target SDK</td>
             <td style="width:231px;">15 (API Level 35)<br/></td>
-            <td>18.0<br/></td>
+            <td>18.1<br/></td>
         </tr>
         <tr>
             <td style="vertical-align:middle;width:156px;">Tools</td>
