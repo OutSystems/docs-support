@@ -10,7 +10,7 @@ pageprivacy: public
 <style>.cattag {background: #f4f2ff; color: #6a6581; padding: 4px 10px;}</style>
 <h3 id="new_in_outsystems_developer_cloud_2026-07-02" > New</h3>
 <ul>
-<li><p>Workflow Editor: Scheduled Triggers</p>
+<li>Workflow Editor: Scheduled Triggers</p>
 
 <p><ul></p>
 
@@ -36,10 +36,11 @@ pageprivacy: public
 
 <p></li></p>
 
-<p></ul></p> (RDODCT-4409)</li>
+<p></ul> (RDODCT-4409)</li>
 </ul>
 <h3 id="bug_fixing_outsystems_developer_cloud_2026-07-02" >Bug Fixing</h3>
 <ul>
 <li>Fixed an issue where end-user roles remained in the UI and APIs after an app was undeployed from an environment. Now, when an app is undeployed from a stage, ODC automatically removes its end-user roles from that environment. Roles in other stages where the app remains deployed are unaffected. (RPM-6799)</li>
+<li>Network requests failed due to poor network conditions no longer cause the user's session to be lost. (RPM-6967)</li>
 </ul>
 
