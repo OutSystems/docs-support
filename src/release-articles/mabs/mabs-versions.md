@@ -116,7 +116,7 @@ Obsolete date September 30, 2026 <br/>
 
 <div class="warning" markdown="1">
 
-It's recommended to update all supported plugins to the latest version available on the Forge. For more details, please check the **[release notes](https://success.outsystems.com/support/release_notes/mobile_apps_build_service_versions/mabs_12_release_notes/#mabs-version-12-0)**.
+It's recommended to update all supported plugins to the latest version available on the Forge. For more details, refer to the **[release notes](https://success.outsystems.com/support/release_notes/mobile_apps_build_service_versions/mabs_12_release_notes/#mabs-version-12-0)**.
 
 </div>
 
