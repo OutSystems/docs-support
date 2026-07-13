@@ -45,7 +45,7 @@ You can get full support and bug fixes through OutSystems support requests mecha
 
 ## Version 12.1
 
-[See release notes](../../release-notes/mabs/12/12.1/12.1.md)<br/>
+[See release notes](https://success.outsystems.com/support/release_notes/mobile_apps_build_service_versions/mabs_12_release_notes/mabs_12_1/)<br/>
 
 Released as Beta on June 24th, 2026 <br/>
 Released to GA on July 10th, 2026 <br/>
