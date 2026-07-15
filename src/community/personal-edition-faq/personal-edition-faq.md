@@ -15,10 +15,10 @@ tags:
   - Agentic
   - AI
   - Forge
+  - Lifecycle
   - Mentor
   - Mentor Studio
   - Private Gateway
-  - Workflows
 outsystems-tools:
   - odc portal
 isautopublish: true
@@ -35,13 +35,13 @@ The OutSystems Personal Edition is free of charge and can be retained indefinite
 
 * Whenever you register for a new Personal Edition, you must log in within the first three days. If you don't log in, you need to request a new one.
 
-* You need to use it regularly; if you don't, your Personal Edition is deleted and you permanently lose all your progress, configurations, and data. To avoid losing your work, export your apps' OML files before deletion. You can then import them into a new Personal Edition later.
+* You need to use it regularly. If you don't, your Personal Edition enters hibernation after 72 hours of inactivity. Prolonged inactivity may result in permanent deletion and loss of all progress, configurations, and data. To avoid losing your work, export your apps' OML files before deletion. You can then import them into a new Personal Edition later.
 
 * Even if your current Personal Edition gets deleted, you can always request a new one. To do it, you must go to the [Personal Edition](https://www.outsystems.com/personaledition/) portal and request a new one.
 
-**What is PE Hibernation and how do I reactivate my PE?**
+**What is PE hibernation and how do I reactivate my PE?**
 
-Your ODC PE automatically enters hibernation after 72 hours of inactivity. Hibernation is a low-resource sleep state where all your work is fully preserved. This is different from deletion: your PE is never removed unless it remains inactive for an extended period, as described in the ODC PE lifecycle.
+Your ODC PE automatically enters [hibernation](pe-hibernation-faq.md) after 72 hours of inactivity. Hibernation is a low-resource sleep state where all your work is fully preserved. This is different from deletion: your PE is never removed unless it remains inactive for an extended period, as described in the ODC PE lifecycle.
 
 To reactivate your PE, you can either manually wake it from the **Manage Organization** console in the ODC Portal, or it automatically wakes when you perform a developer action such as logging in to ODC Studio or publishing your apps.
 

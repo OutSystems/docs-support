@@ -18,7 +18,7 @@ outsystems-tools:
   - odc portal
 isautopublish: true
 ---
-# Outsystems Personal Edition (PE) hibernation FAQ
+# Outsystems Personal Edition hibernation FAQ
 
 **What is PE hibernation?**
 
