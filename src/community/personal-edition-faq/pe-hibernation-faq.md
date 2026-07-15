@@ -34,7 +34,6 @@ Activity that prevents hibernation includes:
 
 * Logging in to ODC Studio
 * Publishing or promoting applications
-* Accessing ODC Portal
 * Running tests or debugging your apps
 * Any developer action that requires the environment to be online
 
@@ -58,7 +57,7 @@ Reactivation is fast, typically up to 2 minutes.
 No. These are two different states:
 
 * **Hibernated**: your PE is asleep but fully preserved. You can wake it up at any time.
-* **Deleted**: your PE is removed. This happens only after an extended period of inactivity, as described in the PE lifecycle, and waking up doesn't reverse it.
+* **Deleted**: your PE is removed. This happens only after an extended period of inactivity, as described in the PE lifecycle.
 
 **What happens to my published apps when my PE hibernates?**
 
@@ -76,7 +75,7 @@ The PE is free for prospects evaluating OutSystems and for community developers 
 
 **Will my PE still be deleted if I don't use it?**
 
-The PE lifecycle still applies. PEs that remain inactive for an extended period are eventually removed. Hibernation doesn't replace deletion. It sits between active use and deletion, giving you a longer window to come back. Waking your PE up resets the inactivity clock.
+The PE lifecycle still applies. PEs that remain inactive for an extended period are eventually removed.
 
 **Does hibernation cost anything?**
 

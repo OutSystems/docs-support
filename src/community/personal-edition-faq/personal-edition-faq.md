@@ -41,7 +41,8 @@ The OutSystems Personal Edition is free of charge and can be retained indefinite
 
 **What is PE hibernation and how do I reactivate my PE?**
 
-Your ODC PE automatically enters [hibernation](pe-hibernation-faq.md) after 72 hours of inactivity. Hibernation is a low-resource sleep state where all your work is fully preserved. This is different from deletion: your PE is never removed unless it remains inactive for an extended period, as described in the ODC PE lifecycle.
+Your ODC PE automatically enters hibernation after 72 hours of inactivity. Hibernation is a low-resource sleep state where all your work is fully preserved. This is different from deletion: your PE is never removed unless it remains inactive for an extended period, as described in the ODC PE lifecycle.
+For additional information on PE hibernation, please refer to the [OutSystems PE Hibernation FAQ](pe-hibernation-faq.md).
 
 To reactivate your PE, you can either manually wake it from the **Manage Organization** console in the ODC Portal, or it automatically wakes when you perform a developer action such as logging in to ODC Studio or publishing your apps.
 
