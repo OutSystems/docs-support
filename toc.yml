@@ -720,7 +720,10 @@
     - href: community/merge-accounts.md
     - href: community/community-badges.md
     - href: community/customer-portal.md
-    - href: community/personal-edition-faq.md
+    # Outsystems Personal Edition
+    - href: community/personal-edition-faq/personal-edition-faq.md
+    - topics:
+        - href: community/personal-edition-faq/pe-hibernation-faq.md
     # Training
     - href: community/training/training-intro.md
     - topics:

@@ -1,18 +1,28 @@
 ---
 guid: 2f0b4814-c8d5-41be-a9bf-c0a15b5cc917
 locale: en-us
-summary: Frequently asked questions about OutSystems Personal Edition
+summary: OutSystems Developer Cloud (ODC) Personal Edition FAQ covering features, usage limits, AI trial models, Forge contributions, and support.
 figma:
 coverage-type:
+  - remember
+  - understand
 topic:
 app_type: reactive web apps,mobile apps
 platform-version: odc
 audience:
+  - Developer
 tags:
+  - Agentic
+  - AI
+  - Forge
+  - Mentor
+  - Mentor Studio
+  - Private Gateway
+  - Workflows
 outsystems-tools:
+  - odc portal
 isautopublish: true
 ---
-
 # OutSystems Personal Edition FAQ
 
 **What is the OutSystems Personal Edition, and who can use it?**
@@ -28,6 +38,12 @@ The OutSystems Personal Edition is free of charge and can be retained indefinite
 * You need to use it regularly; if you don't, your Personal Edition is deleted and you permanently lose all your progress, configurations, and data. To avoid losing your work, export your apps' OML files before deletion. You can then import them into a new Personal Edition later.
 
 * Even if your current Personal Edition gets deleted, you can always request a new one. To do it, you must go to the [Personal Edition](https://www.outsystems.com/personaledition/) portal and request a new one.
+
+**What is PE Hibernation and how do I reactivate my PE?**
+
+Your ODC PE automatically enters hibernation after 72 hours of inactivity. Hibernation is a low-resource sleep state where all your work is fully preserved. This is different from deletion: your PE is never removed unless it remains inactive for an extended period, as described in the ODC PE lifecycle.
+
+To reactivate your PE, you can either manually wake it from the **Manage Organization** console in the ODC Portal, or it automatically wakes when you perform a developer action such as logging in to ODC Studio or publishing your apps.
 
 **I've requested a Personal Edition, but it's not yet available. What happened?**
 
@@ -148,7 +164,7 @@ Support for OutSystems Personal Edition is provided at best effort. You can open
 
 * [ODC documentation](https://success.outsystems.com/documentation/outsystems_developer_cloud/)
 * [Online training](https://learn.outsystems.com/training)
-* [Community support](intro.md)
+* [Community support](../intro.md)
 * [AI-powered assistance](https://www.outsystems.com/DSUP_AI_UI/AISearchAgent?Search=)
 
 To evaluate how OutSystems fits your needs, [talk to us](https://www.outsystems.com/schedule-demo/) or check our [Evaluation Guide](https://www.outsystems.com/evaluation-guide/).
