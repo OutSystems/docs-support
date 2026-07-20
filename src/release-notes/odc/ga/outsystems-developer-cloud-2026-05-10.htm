@@ -10,6 +10,7 @@ pageprivacy: public
 <style>.cattag {background: #f4f2ff; color: #6a6581; padding: 4px 10px;}</style>
 <h3 id="new_in_outsystems_developer_cloud_2026-05-10" > New</h3>
 <ul>
+<li>When Rest Consume receives a 3xx status code, it throws a “Not Supported” error and logs that redirects are unsupported, instead of treating the request as successful and crashing during serialization or failing silently. (RRCT-5152)</li>
 <li>Monthly Security Update (April 2026): Updated application container base image, including security fixes. Check the Microsoft .NET 8.0.26 release for more details: https://github.com/dotnet/core/blob/main/release-notes/8.0/8.0.26/8.0.126.md (RRCT-7009)</li>
 </ul>
 
