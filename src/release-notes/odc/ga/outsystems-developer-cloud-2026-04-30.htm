@@ -10,21 +10,22 @@ pageprivacy: public
 <style>.cattag {background: #f4f2ff; color: #6a6581; padding: 4px 10px;}</style>
 <h3 id="new_in_outsystems_developer_cloud_2026-04-30" > New</h3>
 <ul>
-<li><p>Workflow Editor: Publish with message
+<li>Workflow Editor: Publish with message
 <ul>
 <li>In the Workflow Editor, it's now possible to publish a new revision of a workflow, with a message.
 <li>This feature lets users attach an optional message to a publish operation in the Workflow Editor.
 <li>The message is stored with the revision and is displayed in the revision history timeline, in publish-conflict dialogs, and in the open-workflow conflict dialog, giving users a clear audit trail of what each revision contained.
-</ul></p> (RDODCT-4220)</li>
-<li><p>Monthly Security Update (April 2026): Updated application container base image, including security fixes. Check the Microsoft .NET 8.0.26 release for more details: https://github.com/dotnet/core/blob/main/release-notes/8.0/8.0.26/8.0.126.md</p> (RRCT-7009)</li>
+</ul> (RDODCT-4220)</li>
+<li>Monthly Security Update (April 2026): Updated application container base image, including security fixes. Check the Microsoft .NET 8.0.26 release for more details: https://github.com/dotnet/core/blob/main/release-notes/8.0/8.0.26/8.0.126.md (RRCT-7009)</li>
 </ul>
 <h3 id="bug_fixing_outsystems_developer_cloud_2026-04-30" >Bug Fixing</h3>
 <ul>
-<li><p>Content-Length header value is no longer ignored when explicitly set in the OnBeforeRequest callback of a Rest Consume output. Content-Length is not present in the input parameter. When it is not present in the output parameter, the value will be automatically calculated based on text/binary size.</p> (RRCT-6548)</li>
-<li><p>HTTPMethod value is no longer ignored when explicitly set in the OnBeforeRequest callback of a Rest Consume output.</p> (RRCT-6550)</li>
-<li><p>Content-Type header is now present in the list of headers in the OnBeforeRequest input parameter.</p> (RRCT-6553)</li>
-<li><p>Rest Consume URL Path is no longer partially encoded in runtime and is now consistent with the expected behavior developers set and test in ODC Studio.</p> (RRCT-6556)</li>
-<li><p>Content-Type header defined in Rest Consume HTTP Headers and input parameters no longer enforces the UTF-8 charset. The value defined by the developer will be used without any transformation.</p> (RRCT-6559)</li>
-<li><p>URL query parameters are now consistently encoded when compared with path parameters, and the plus character is avoided to prevent ambiguous encoding.</p> (RRCT-6927)</li>
+<li>Fix keyboard  accessibility issue on Button Group Widget. (RPM-6337)</li>
+<li>Content-Length header value is no longer ignored when explicitly set in the OnBeforeRequest callback of a Rest Consume output. Content-Length is not present in the input parameter. When it is not present in the output parameter, the value will be automatically calculated based on text/binary size. (RRCT-6548)</li>
+<li>HTTPMethod value is no longer ignored when explicitly set in the OnBeforeRequest callback of a Rest Consume output. (RRCT-6550)</li>
+<li>Content-Type header is now present in the list of headers in the OnBeforeRequest input parameter. (RRCT-6553)</li>
+<li>Rest Consume URL Path is no longer partially encoded in runtime and is now consistent with the expected behavior developers set and test in ODC Studio. (RRCT-6556)</li>
+<li>Content-Type header defined in Rest Consume HTTP Headers and input parameters no longer enforces the UTF-8 charset. The value defined by the developer will be used without any transformation. (RRCT-6559)</li>
+<li>URL query parameters are now consistently encoded when compared with path parameters, and the plus character is avoided to prevent ambiguous encoding. (RRCT-6927)</li>
 </ul>
 
