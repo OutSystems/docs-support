@@ -4,7 +4,7 @@ locale: en-us
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
 figma:
-summary:
+summary: OutSystems 11 (O11) Forge FAQs answer common questions about sharing, curating, reviewing, and removing projects in the Forge marketplace.
 coverage-type:
   - unblock
   - understand

@@ -1,5 +1,5 @@
 ---
-summary:
+summary: OutSystems 11 (O11) support case security policy requires Customer Portal contacts to be authorized before cases proceed.
 tags:
 locale: en-us
 guid: FD44BBCC-5FF2-41D9-8685-911E353DCF16

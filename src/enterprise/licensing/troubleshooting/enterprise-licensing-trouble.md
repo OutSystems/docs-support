@@ -4,7 +4,7 @@ locale: en-us
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
 figma:
-summary:
+summary: OutSystems 11 (O11) enterprise licensing troubleshooting guides you through identifying and resolving common licensing errors.
 coverage-type:
   - none
 ---
