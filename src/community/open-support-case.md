@@ -1,5 +1,7 @@
 ---
 summary: The article provides a guide on how to open a support case with OutSystems through their web portal.
+coverage-type:
+- apply
 tags:
 locale: en-us
 guid: A82EA0CB-B101-4F08-BCFB-77559EF63801

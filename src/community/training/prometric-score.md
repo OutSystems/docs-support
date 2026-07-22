@@ -2,6 +2,9 @@
 summary: Exam candidate who did not receive exam results looking to how to get it
 locale: en-us
 guid: C23D1280-132D-41F8-B27F-F58F719F4FCE
+coverage-type:
+    - apply
+    - unblock
 tags: 
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11

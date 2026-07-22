@@ -1,6 +1,8 @@
 ---
 summary: An error occurred while fetching the extensibility configurations
 tags: 
+coverage-type:
+    - unblock
 guid: 9592decf-8fae-4e63-8867-3a9c60ff334e
 locale: en-us
 app_type: mobile apps
