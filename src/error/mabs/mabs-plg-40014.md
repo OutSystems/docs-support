@@ -8,6 +8,8 @@ platform-version: o11, odc
 figma:
 coverage-type:
   - unblock
+audience:
+  - Developer
 ---
 
 # OS-MABS-PLG-40014
