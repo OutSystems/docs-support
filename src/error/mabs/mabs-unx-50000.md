@@ -1,6 +1,10 @@
 ---
 summary: There was an issue loading your resources. Please try again.
 tags:
+- Mobile app
+- Native App
+- Plugins
+- Troubleshooting
 guid: 435aea8b-2b36-441a-b44f-1d1d004fbc1a
 locale: en-us
 app_type: mobile apps

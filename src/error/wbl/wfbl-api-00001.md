@@ -1,6 +1,8 @@
 ---
 summary: Cannot save icon in the storage <OriginalErrorMessage>.
 tags:
+  - Troubleshooting
+  - Workflows
 locale: en-us
 guid: c5ade4d7-8446-46b6-a55e-d7dd7624a065
 app_type: traditional web apps, mobile apps, reactive web apps
