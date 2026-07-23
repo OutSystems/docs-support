@@ -8,6 +8,8 @@ platform-version: o11
 figma:
 coverage-type:
   - unblock
+audience:
+  - Platform administrator
 ---
 
 # Possible errors when setting up a VPN to your OutSystems Cloud

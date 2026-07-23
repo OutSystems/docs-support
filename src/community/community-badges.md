@@ -1,6 +1,8 @@
 ---
 summary: Explore the conditions to get any of OutSystems Community badges.
 tags:
+audience:
+  - Developer
 locale: en-us
 guid: E5117917-82DD-48FC-971A-85ABCD02C306
 app_type: traditional web apps, reactive web apps, mobile apps
