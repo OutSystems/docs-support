@@ -6,6 +6,8 @@ guid: E5117917-82DD-48FC-971A-85ABCD02C306
 app_type: traditional web apps, reactive web apps, mobile apps
 platform-version: o11, odc
 figma:
+coverage-type:
+- remember
 ---
 
 # Community Badges overview

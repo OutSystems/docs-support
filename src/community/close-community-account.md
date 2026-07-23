@@ -1,5 +1,7 @@
 ---
 summary: Learn how to close your OutSystems community account.
+coverage-type:
+    - apply
 tags:
 locale: en-us
 guid: 7486F578-3FAD-420D-9229-1E57E2555991
