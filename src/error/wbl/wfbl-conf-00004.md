@@ -1,6 +1,8 @@
 ---
 summary: Cannot decrease the Length of an existing attribute <Name> (<Id>).
 tags:
+  - Troubleshooting
+  - Workflows
 locale: en-us
 guid: 2f1e24e8-0a0e-4d2f-b45f-8f3db0bb127d
 app_type: traditional web apps, mobile apps, reactive web apps
