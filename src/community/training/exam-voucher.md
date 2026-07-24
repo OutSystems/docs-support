@@ -6,6 +6,11 @@ tags:
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
 figma:
+audience:
+  - Architect
+  - Developer
+  - Front-end developer
+  - Tech lead
 ---
 
 # How to use an exam voucher to register for an exam
