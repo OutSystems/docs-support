@@ -1,5 +1,7 @@
 ---
 summary: Learn the process of merging two community accounts into one and what information will be transferred.
+coverage-type:
+  - apply
 tags:
 locale: en-us
 guid: 6EDE38E2-A209-4BB9-8C48-CE902CD0094C

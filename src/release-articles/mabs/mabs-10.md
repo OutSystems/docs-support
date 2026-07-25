@@ -4,6 +4,8 @@ guid: d7a23497-14cd-434f-8364-6f9949a02ff2
 locale: en-us
 app_type: mobile apps
 platform-version: o11, odc
+coverage-type:
+  - remember
 ---
 
 # MABS 10 Release notes
