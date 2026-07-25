@@ -1,6 +1,6 @@
 ---
 tags:
-summary:
+summary: MABS older versions release notes for OutSystems 11 (O11), including iOS SDK updates, Cordova stack upgrades, and bug fixes for versions 4.x and 3.x.
 locale: en-us
 guid: CBEDB43A-1C6A-4EB2-A0C5-1FBC5DD2A0BC
 app_type: mobile apps

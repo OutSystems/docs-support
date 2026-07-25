@@ -1,5 +1,5 @@
 ---
-summary:
+summary: OutSystems platform release notes covering ODC, O11, Platform Server, ODC Studio, and cloud services like MABS and AI Mentor Studio.
 tags:
 locale: en-us
 guid: c2f21145-4392-4501-a5dc-cb16270164e3

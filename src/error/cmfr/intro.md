@@ -1,5 +1,5 @@
 ---
-summary:
+summary: "Case Management framework errors in OutSystems 11 (O11): find causes, impact, and fixes for each error."
 tags: case management, error handling, technical support, framework errors, troubleshooting
 locale: en-us
 guid: bdd24b00-5544-4ea8-b7ba-07a9685aeb97

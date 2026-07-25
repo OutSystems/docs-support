@@ -1,5 +1,5 @@
 ---
-summary:
+summary: "OutSystems 11 (O11) error handling intro for web, mobile, and reactive apps, addressing platform-specific issues and troubleshooting."
 tags: error handling, web development, mobile development, app troubleshooting, platform-specific issues
 locale: en-us
 guid: b1e5a7bd-d0ec-4c03-ba86-196b3402965e
