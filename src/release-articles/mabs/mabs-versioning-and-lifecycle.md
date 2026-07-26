@@ -1,5 +1,7 @@
 ---
 summary: Learn about MABS versioning and lifecycle. 
+coverage-type:
+  - understand
 tags: 
 guid: daf1e64b-7b02-4f2b-85ff-ac53435f06db
 locale: en-us

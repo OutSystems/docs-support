@@ -2,6 +2,9 @@
 summary: How do I get access to my exam’s payment receipt or invoice?
 locale: en-us
 guid: FD42AFA9-83F9-4074-83E3-718B93BBDE24
+coverage-type:
+    - apply
+    - unblock
 tags: 
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11

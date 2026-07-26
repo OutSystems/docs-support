@@ -4,6 +4,8 @@ locale: en-us
 guid: 6201ced2-dd45-4d61-96af-714f4f170512
 app_type: mobile apps
 platform-version: o11, odc
+coverage-type:
+  - understand
 ---
 
 # Support for new mobile operating system versions

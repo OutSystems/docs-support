@@ -1,5 +1,7 @@
 ---
 summary: MABS 6 may cause some breaking changes in your builds after you upgrade from MABS 5. Here is information how to address the issues.
+coverage-type:
+- unblock
 tags:
 locale: en-us
 guid: f5ab33b1-bc12-4d9f-bf96-16c6c4d11690
