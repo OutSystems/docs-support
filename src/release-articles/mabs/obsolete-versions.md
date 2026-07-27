@@ -1,5 +1,7 @@
 ---
 summary: Obsolete versions that are no longer available. 
+coverage-type:
+  - remember
 tags: 
 guid: 400d26bc-cbcc-4592-9980-f967534d443c
 locale: en-us

@@ -2,7 +2,10 @@
 summary: What is the price of an OutSystems Boot Camp and how can I register for one?
 locale: en-us
 guid: 219387DC-4207-4882-A16E-DD363A44F7BD
-tags: 
+tags:
+coverage-type:
+    - understand
+    - apply
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
 figma: https://www.figma.com/file/mP34OzloL9EPqXml1E0tfC/Community?node-id=1394:261

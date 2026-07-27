@@ -5,6 +5,9 @@ guid: bc76e550-bfca-40a6-ad24-7fe3db432331
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
 figma: https://www.figma.com/file/vTtFn5nl44ZLjUBYo2anCO/Security?type=design&node-id=0%3A1&mode=design&t=kgeN4DPQGpzW3OrE-1
+coverage-type:
+  - understand
+  - apply
 ---
 
 # Vulnerabilities
