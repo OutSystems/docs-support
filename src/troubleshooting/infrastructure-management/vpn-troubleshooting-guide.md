@@ -8,6 +8,8 @@ platform-version: o11
 figma:
 coverage-type:
   - unblock
+audience:
+  - Platform administrator
 ---
 
 # VPN connectivity and troubleshooting guide

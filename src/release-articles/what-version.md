@@ -8,6 +8,9 @@ guid: 98a6a460-e03e-4610-ab03-d9e1eda2239c
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
 figma: https://www.figma.com/file/UXA74OsZxSIzLLsjhvNMjC/Release-Notes?type=design&node-id=401%3A343&mode=design&t=PXROiQwbSufNHSiC-1
+audience:
+  - Developer
+  - Platform administrator
 ---
 
 # Check what OutSystems version you are using
