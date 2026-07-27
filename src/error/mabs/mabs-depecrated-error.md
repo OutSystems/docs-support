@@ -1,5 +1,5 @@
 ---
-summary:
+summary: Deprecated MABS version error in the OutSystems platform prevents mobile app package builds and requires switching to a supported MABS version.
 tags: mobile app development, mabs versioning, deployment troubleshooting, mobile app package building
 locale: en-us
 guid: ad9aa61c-1690-4629-8b9f-63bf4eeaf13d

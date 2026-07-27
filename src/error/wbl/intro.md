@@ -1,5 +1,5 @@
 ---
-summary:
+summary: Workflow Builder errors in OutSystems 11 (O11), with articles covering the causes, impact, and how to fix each error type.
 tags: workflow builder, error handling, app development, debugging, troubleshooting
 locale: en-us
 guid: 4f1d7e36-c833-47f7-bbe9-e587c9d2102e
