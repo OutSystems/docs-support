@@ -1,6 +1,10 @@
 ---
 summary: Url to binary for <resource-type> '<resource-name>' cannot be empty
 tags:
+- Mobile app
+- Native App
+- Settings
+- Troubleshooting
 guid: dd18367c-ed40-4224-b761-2ad6a333744b
 locale: en-us
 app_type: mobile apps

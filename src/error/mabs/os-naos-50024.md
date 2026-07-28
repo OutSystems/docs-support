@@ -1,6 +1,8 @@
 ---
 summary: An internal error has occurred while fetching mobile configurations
 tags:
+    - Mobile app
+    - Troubleshooting
 guid: b35dc1e2-7bbc-410c-9683-721e7d7ebe83
 locale: en-us
 app_type: mobile apps

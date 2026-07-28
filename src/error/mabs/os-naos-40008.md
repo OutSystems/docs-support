@@ -1,6 +1,8 @@
 ---
 summary: Binary for <resource-type> '<resource-name>' cannot be null or empty
 tags:
+  - Mobile app
+  - Troubleshooting
 guid: fad0b7cc-8bf9-45e6-83e1-e0ecbc152620
 locale: en-us
 app_type: mobile apps

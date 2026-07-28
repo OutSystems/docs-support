@@ -1,6 +1,9 @@
 ---
 summary: Secret for <resource-type> '<resource-name>' cannot be empty
 tags:
+- Mobile app
+- Settings
+- Troubleshooting
 guid: fdc5bbb9-327b-4390-b903-752dfce7f560
 locale: en-us
 app_type: mobile apps

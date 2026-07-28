@@ -1,6 +1,7 @@
 ---
 summary: When you have two OutSystems community accounts, you can transfer your OutSystems certifications between them. Learn here how to do it.
 tags:
+  - Settings
 locale: en-us
 guid: 235255BA-1C28-4CB7-B99C-DB343416DC38
 app_type: traditional web apps, mobile apps, reactive web apps
