@@ -4,7 +4,7 @@ locale: en-us
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
 figma:
-summary:
+summary: OutSystems 11 (O11) installation steps for enterprise environments, covering setup for traditional web, mobile, and reactive web apps.
 tags: ide usage, reactive web apps, tutorials for beginners, installation, outsystems
 audience:
   - Developer

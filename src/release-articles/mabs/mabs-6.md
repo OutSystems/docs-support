@@ -1,5 +1,5 @@
 ---
-summary:
+summary: MABS 6 release notes for OutSystems 11 (O11) mobile apps, covering versions 6.0 to 6.3 with WKWebView, AndroidX, Android 10, iOS 13 support, and bug fixes.
 guid: BDA4BE15-1C6E-4CAE-B8FF-95DD58F6C711
 locale: en-us
 app_type: mobile apps

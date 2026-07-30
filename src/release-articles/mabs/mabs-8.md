@@ -1,5 +1,5 @@
 ---
-summary:
+summary: "MABS 8 release notes for OutSystems 11 (O11): iOS 15 and Android 12 support, Gradle 7.1.1, breaking changes, and plugin requirements."
 guid: B1341BF3-3BC3-4E07-B06F-8BD292160229
 locale: en-us
 app_type: mobile apps

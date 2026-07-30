@@ -4,7 +4,7 @@ locale: en-us
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
 figma:
-summary:
+summary: OutSystems 11 (O11) licensing overview for traditional web, mobile, and reactive web app development across platform versions.
 tags: licensing, application development, platform versioning
 audience:
   - Front-end developer
