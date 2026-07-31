@@ -8,6 +8,8 @@ figma:
 platform-version: o11, odc
 coverage-type:
   - unblock
+audience:
+  - Platform administrator
 ---
 
 # OS-DP-STREAM-00003
