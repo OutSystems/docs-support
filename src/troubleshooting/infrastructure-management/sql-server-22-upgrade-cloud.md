@@ -10,7 +10,11 @@ app_type: mobile apps,reactive web apps,traditional web apps
 platform-version: o11
 audience:
   - Platform administrator
-tags: 
+tags:
+  - Infrastructure
+  - Security
+  - SQL
+  - Troubleshooting
 outsystems-tools: 
 helpids:
 ---

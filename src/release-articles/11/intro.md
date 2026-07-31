@@ -1,6 +1,7 @@
 ---
 summary: Release notes for OutSystems 11 - Platform Server, LifeTime, Cross-platform Service Studio and Development Environment.
 tags:
+  - Platform Server
 locale: en-us
 guid: 624ca4e6-e0b8-4f61-aa84-efb47591588c
 app_type: traditional web apps, mobile apps, reactive web apps

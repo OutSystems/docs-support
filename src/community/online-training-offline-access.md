@@ -1,6 +1,7 @@
 ---
 summary: A workaround for accessing OutSystems training videos when Vimeo is blocked by allowing users to download the videos and subtitles directly.
 tags:
+- Troubleshooting
 locale: en-us
 guid: b5211c0e-2a18-413a-b995-d511ac8586eb
 app_type: traditional web apps, mobile apps, reactive web apps
