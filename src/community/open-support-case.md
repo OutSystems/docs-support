@@ -3,6 +3,8 @@ summary: The article provides a guide on how to open a support case with OutSyst
 coverage-type:
 - apply
 tags:
+  - Infrastructure
+  - Troubleshooting
 locale: en-us
 guid: A82EA0CB-B101-4F08-BCFB-77559EF63801
 app_type: traditional web apps, mobile apps, reactive web apps

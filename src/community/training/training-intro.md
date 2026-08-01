@@ -7,6 +7,7 @@ platform-version: o11
 figma:
 coverage-type:
   - remember
+tags: []
 ---
 
 # Training and certifications support

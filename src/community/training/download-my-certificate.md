@@ -7,6 +7,7 @@ platform-version: o11
 figma:
 coverage-type:
   - apply
+tags: []
 ---
 
 # How to download your OutSystems certificate

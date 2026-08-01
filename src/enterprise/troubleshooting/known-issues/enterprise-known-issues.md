@@ -2,7 +2,11 @@
 summary: Known issues for enterprise customers
 coverage-type:
   - unblock
-tags: 
+tags:
+  - Mobile app
+  - Traditional Web
+  - Troubleshooting
+  - Web
 guid: 42aaef4e-0793-43eb-9a9f-340986c43da8
 locale: en-us
 app_type: mobile apps, reactive web apps, traditional web apps

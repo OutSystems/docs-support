@@ -5,7 +5,10 @@ guid: C23D1280-132D-41F8-B27F-F58F719F4FCE
 coverage-type:
     - apply
     - unblock
-tags: 
+tags:
+    - Quality Assurance
+    - Testing
+    - Troubleshooting
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
 figma:
