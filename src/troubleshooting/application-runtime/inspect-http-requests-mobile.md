@@ -1,5 +1,5 @@
 ---
-summary: Learn how to inspect HTTP requests in mobile apps using developer tools and network proxy applications.
+summary: Mobile app network traffic inspection in OutSystems using Chrome DevTools, HTTP Toolkit, or Charles to debug requests and simulate network conditions.
 tags:
 locale: en-us
 guid: 2bea2ff9-7655-4952-a00c-2a3f1e3316e9

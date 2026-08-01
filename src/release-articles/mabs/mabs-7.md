@@ -1,5 +1,5 @@
 ---
-summary:
+summary: "MABS 7 release notes for OutSystems 11 (O11) — covers new features in versions 7.0–7.2, bug fixes, system requirements, and breaking changes for Android and iOS builds."
 locale: en-us
 guid: 8D6C234D-4B36-424C-8A41-7813025ADF11
 app_type: mobile apps

@@ -1,5 +1,5 @@
 ---
-summary:
+summary: MABS 5 release notes for OutSystems 11 (O11) mobile apps, covering new features, bug fixes, and known issues across versions 5.0, 5.1, and 5.2.
 guid: B954C234-277C-412D-AD66-578F98FEE428
 locale: en-us
 app_type: mobile apps
