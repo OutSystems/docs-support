@@ -11,6 +11,9 @@ audience:
   - Developer
   - Front-end developer
   - Tech lead
+coverage-type:
+  - apply
+  - unblock
 ---
 
 # OutSystems exams scheduling, cancelation and refund policies

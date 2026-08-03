@@ -8,6 +8,8 @@ platform-version: odc, o11
 figma: 
 audience:
   - Developer
+coverage-type:
+  - unblock
 ---
 
 # OS-NAOS-50019

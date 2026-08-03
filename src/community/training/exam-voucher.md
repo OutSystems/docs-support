@@ -11,6 +11,9 @@ audience:
   - Developer
   - Front-end developer
   - Tech lead
+coverage-type:
+  - apply
+  - unblock
 ---
 
 # How to use an exam voucher to register for an exam
