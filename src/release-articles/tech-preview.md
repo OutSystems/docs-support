@@ -1,6 +1,10 @@
 ---
 summary: OutSystems offers Technical Preview features for early testing and feedback, which are not production-ready and require manual activation.
 tags:
+    - Infrastructure
+    - Lifecycle
+    - Mobile app
+    - REST
 locale: en-us
 guid: 60B738CE-9DC3-4C1F-8269-9B857668FBE4
 app_type: traditional web apps, mobile apps, reactive web apps

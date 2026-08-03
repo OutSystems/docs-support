@@ -8,6 +8,8 @@ summary: OutSystems 11 (O11) Forge FAQs answer common questions about sharing, c
 coverage-type:
   - unblock
   - understand
+tags:
+  - Forge
 ---
 
 # Forge FAQs

@@ -7,6 +7,8 @@ figma:
 summary: OutSystems 11 (O11) enterprise licensing troubleshooting guides you through identifying and resolving common licensing errors.
 coverage-type:
   - none
+tags:
+  - Troubleshooting
 ---
 
 # Troubleshooting

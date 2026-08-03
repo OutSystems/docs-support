@@ -5,6 +5,11 @@ guid: 5DB16DC0-2CF7-4EDF-813F-4E99EDAD455C
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
 figma: https://www.figma.com/file/mP34OzloL9EPqXml1E0tfC/Community?node-id=1394:252
+tags:
+  - IT Roles
+  - IT Teams
+  - Roles
+  - Settings
 ---
 # How to download OutSystems certificates of your team
 
