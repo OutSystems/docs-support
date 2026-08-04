@@ -1,5 +1,8 @@
 ---
 summary: Learn how to manage your team's access to OutSystems online tools such as Customer Portal, Support Portal, and Licensing.
+coverage-type:
+    - understand
+    - apply
 tags:
 locale: en-us
 guid: 5bd7f106-3784-4821-a603-0ad0c0fd8f82

@@ -1,5 +1,8 @@
 ---
 summary: OutSystems 11 (O11) community account provides access to forums, training, support cases, company settings, and profile management.
+coverage-type:
+- understand
+- remember
 tags:
 locale: en-us
 guid: 8b638c85-2070-4663-aae0-2152dc45e327
