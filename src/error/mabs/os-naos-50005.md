@@ -1,6 +1,8 @@
 ---
 summary: An error occurred while fetching the extensibility configurations
 tags: 
+audience:
+    - Developer
 coverage-type:
     - unblock
 guid: 9592decf-8fae-4e63-8867-3a9c60ff334e
