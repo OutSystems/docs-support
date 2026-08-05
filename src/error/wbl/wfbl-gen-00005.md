@@ -1,6 +1,10 @@
 ---
 summary: Application version icon is larger than <MaxSize> for application version <ApplicationVersionId>.
 tags:
+  - Mobile app
+  - Traditional Web
+  - Troubleshooting
+  - UI
 locale: en-us
 guid: 0fdba693-c956-410e-b4ce-e4f917c57620
 app_type: traditional web apps, mobile apps, reactive web apps
