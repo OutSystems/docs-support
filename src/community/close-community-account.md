@@ -1,5 +1,9 @@
 ---
 summary: Learn how to close your OutSystems community account.
+audience:
+    - Developer
+    - Front-end developer
+    - Tech lead
 coverage-type:
     - apply
 tags:
