@@ -1,6 +1,8 @@
 ---
 summary: Learn how to change the email for your OutSystems Personal Environment and community account.
 tags:
+- End-users
+- Settings
 coverage-type:
 - apply
 locale: en-us

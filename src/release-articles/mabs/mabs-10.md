@@ -6,6 +6,13 @@ app_type: mobile apps
 platform-version: o11, odc
 coverage-type:
   - remember
+tags:
+  - Android
+  - Forge
+  - iOS
+  - Mobile app
+  - Native App
+  - Plugins
 ---
 
 # MABS 10 Release notes

@@ -3,6 +3,9 @@ summary: Learn the process of merging two community accounts into one and what i
 coverage-type:
   - apply
 tags:
+  - End-users
+  - Forge
+  - Settings
 locale: en-us
 guid: 6EDE38E2-A209-4BB9-8C48-CE902CD0094C
 app_type: traditional web apps, mobile apps, reactive web apps
