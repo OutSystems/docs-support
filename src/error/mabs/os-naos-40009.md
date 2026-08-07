@@ -11,6 +11,8 @@ app_type: mobile apps
 platform-version: odc
 figma:
 isautopublish: true
+coverage-type:
+- unblock
 ---
 
 # OS-NAOS-40009
