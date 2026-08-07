@@ -1,6 +1,8 @@
 ---
 summary: Agent Execution in the OutSystems platform counts each CallAgent action call at runtime, regardless of tools used, AI model calls, or loop iterations.
-tags: 
+tags:
+  - AI
+  - Agentic
 locale: en-us
 guid: 9fafc3bd-31db-46b9-99a5-36d7aaaaebc8
 app_type: traditional web apps,mobile apps,reactive web apps

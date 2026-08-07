@@ -7,6 +7,14 @@ platform-version: o11, odc
 coverage-type:
   - remember
   - apply
+tags:
+  - Android
+  - Forge
+  - iOS
+  - Mobile app
+  - Native App
+  - Plugins
+  - Widgets
 ---
 
 # MABS 11 release notes
