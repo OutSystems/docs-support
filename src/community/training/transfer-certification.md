@@ -8,6 +8,8 @@ app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
 figma: https://www.figma.com/file/mP34OzloL9EPqXml1E0tfC/Community?node-id=1394:240
 isautopublish: true
+coverage-type:
+  - apply
 ---
 
 # Transfer your certifications to another account
