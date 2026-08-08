@@ -1,5 +1,5 @@
 ---
-summary:
+summary: "OutSystems certification download steps: access your profile's Learn tab or the certifications page to get a PDF of all your passed exams."
 locale: en-us
 guid: 21E2D2B1-D673-4DFD-9DD7-DCCBE8782E77
 app_type: traditional web apps, mobile apps, reactive web apps
