@@ -7,6 +7,9 @@ platform-version: o11
 coverage-type:
   - remember
   - unblock
+audience:
+  - Developer
+  - Tech lead
 ---
 
 # MABS 8 Release notes

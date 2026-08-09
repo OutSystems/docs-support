@@ -8,6 +8,9 @@ coverage-type:
   - remember
   - apply
   - unblock
+audience:
+  - Developer
+  - Tech lead
 ---
 
 # MABS 6 Release notes
