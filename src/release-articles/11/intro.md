@@ -10,6 +10,8 @@ audience:
   - Developer
   - Platform administrator
   - Tech lead
+coverage-type:
+  - remember
 ---
 
 # 11

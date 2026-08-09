@@ -8,6 +8,9 @@ platform-version: o11
 figma:
 audience:
   - Platform administrator
+coverage-type:
+  - understand
+  - apply
 ---
 
 # Enhanced security for OutSystems support cases
