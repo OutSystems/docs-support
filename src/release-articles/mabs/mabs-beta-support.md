@@ -6,6 +6,9 @@ app_type: mobile apps
 platform-version: o11, odc
 coverage-type:
   - understand
+audience:
+  - Developer
+  - Tech lead
 ---
 
 # Support for new mobile operating system versions
