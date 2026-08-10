@@ -2,6 +2,8 @@
 summary: Users who did not receive exam appointment confirmation email. Learn how to get the details of your exam appointment.
 locale: en-us
 guid: 40106156-CA28-4D1B-ADDD-DEA0F6736E71
+coverage-type:
+    - unblock
 tags: 
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
