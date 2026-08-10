@@ -8,6 +8,10 @@ pageprivacy: public
 
 
 <style>.cattag {background: #f4f2ff; color: #6a6581; padding: 4px 10px;}</style>
+<h3 id="new_in_outsystems_developer_cloud_2026-08-10" > New</h3>
+<ul>
+<li>GET /code-quality/v1/analysis-status now takes an optional portfolioKey parameter. Pass it to scope the analysis status to one portfolio instead of the whole tenant. Leave it out and the response aggregates every portfolio's latest analysis run into one result. If no analysis has run yet for the scope you asked for, the endpoint now returns a 200 with an empty result instead of a 404. The <tt>isLatest</tt> filter on <tt>GET /code-quality/v1/findings</tt> follows the same rule: add <tt>portfolioKey</tt> for one portfolio's latest findings, or leave it off for the latest findings across every portfolio. (RDASS-3893)</li>
+</ul>
 <h3 id="bug_fixing_outsystems_developer_cloud_2026-08-10" >Bug Fixing</h3>
 <ul>
 <li>Fix an issue that prevented the O11 infrastructure name from being displayed for O11 Self-Managed connections. (RPM-7045)</li>
