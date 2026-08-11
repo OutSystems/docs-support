@@ -167,13 +167,19 @@ The Platform Server upgrade includes the following steps:
 1. **Module preparation**: Runs automatically as part of the Platform Server upgrade.
 1. **You must do a Deploy All**: After the Platform Server upgrade completes and before the Windows Server upgrade starts, you must do a **Deploy All**. This ensures all modules are consistent and ready to run on Windows Server 2022.
 
+<div class="warning" markdown="1">
+
+**Timing and subsequent deployments**: This consistency guarantee is valid only if no further application changes occur before the Windows Server upgrade. If several days elapse before the Windows Server upgrade, or if any application deployments or publishes take place between the two operations, re-run the Deploy All or Solution Publish. Do this directly before the Windows Server upgrade window.
+
+</div>
+
 ### Windows Server upgrade
 
 The Windows Server upgrade includes the following steps:
 
 1. **New front-end servers are added**: New front-end servers running Windows Server 2022 are provisioned to replace the existing ones. The platform syncs binaries directly from the old front-end servers to the new ones. In environments with multiple front-ends, this ensures no downtime.
 1. **Module preparation**: This step runs again automatically to ensure the new controller has all the necessary binaries freshly compiled.
-1. **Post-upgrade Deploy All**: While a **Deploy All** is not strictly required after the Windows Server upgrade, it's highly recommended as a best practice. This ensures all binaries are compiled and deployed directly on the new Windows Server 2022 front-end servers, preventing issues in edge cases or if new front-ends are requested.
+1. **You must do a post-upgrade Deploy All**: After the Windows Server upgrade finishes, you must do a **Deploy All** or **Solution Publish** for all modules. This ensures all binaries are compiled and deployed directly on the new Windows Server 2022 front-end servers, preventing issues in edge cases or if new front-ends are requested.
 
 ## FAQ
 
