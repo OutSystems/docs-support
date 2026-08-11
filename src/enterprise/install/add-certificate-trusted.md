@@ -1,5 +1,5 @@
 ---
-summary: Learn how to add a self-signed certificate to the trusted root store on OutSystems 11 (O11) to ensure secure HTTPS connections.
+summary: Self-signed certificate installation in the OutSystems 11 (O11) trusted root store using MMC to establish trust for HTTPS integrations.
 locale: en-us
 guid: 7429b610-e2b7-4a76-8557-6516bfda19f3
 app_type: traditional web apps, mobile apps, reactive web apps

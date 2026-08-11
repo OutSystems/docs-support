@@ -1,5 +1,5 @@
 ---
-summary: Explore the process of installing an SSL certificate for OutSystems 11 (O11) on Linux to secure application connections.
+summary: "SSL certificate installation on OutSystems 11 (O11) Linux: generate a CSR with keytool, import into a Java keystore, and configure JBoss, Wildfly, or WebLogic."
 locale: en-us
 guid: 03501092-5cc4-422a-a64e-85ff2740a068
 app_type: traditional web apps, mobile apps, reactive web apps
