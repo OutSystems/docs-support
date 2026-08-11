@@ -9,6 +9,11 @@ coverage-type:
   - unblock
 audience:
   - Developer
+tags:
+  - Logging
+  - Mobile app
+  - Native App
+  - Troubleshooting
 ---
 
 # Healing resource build from prebundle: FAILED

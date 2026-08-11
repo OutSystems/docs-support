@@ -9,6 +9,10 @@ coverage-type:
   - unblock
 audience:
   - Developer
+tags:
+  - 1-Click Publish
+  - Deploy
+  - Troubleshooting
 ---
 
 # Personal Environment unavailable - HTTP 503
