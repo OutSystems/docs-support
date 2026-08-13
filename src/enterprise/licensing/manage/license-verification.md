@@ -12,8 +12,8 @@ audience:
 outsystems-tools:
   - service center
 coverage-type:
-  - unblock
   - remember
+  - apply
 ---
 
 # License verification

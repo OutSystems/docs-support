@@ -12,8 +12,7 @@ audience:
   - Tech lead
 outsystems-tools:
   - service center
-coverage-type:
-  - none
+coverage-type: []
 ---
 
 # Manage and Upgrade

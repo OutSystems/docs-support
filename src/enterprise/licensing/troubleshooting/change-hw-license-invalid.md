@@ -15,6 +15,7 @@ outsystems-tools:
 coverage-type:
   - remember
   - understand
+  - unblock
 ---
 
 # Changed the hardware and the license stopped being valid
