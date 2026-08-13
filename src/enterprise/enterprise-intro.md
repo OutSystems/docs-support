@@ -4,7 +4,7 @@ locale: en-us
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
 figma:
-summary: Explore the features and benefits of OutSystems 11 (O11) for enterprise customers.
+summary: OutSystems 11 (O11) enterprise capabilities, including scalability, integrations, and deployment strategies for large-scale application development.
 tags: enterprise solutions, platform scalability, application development, deployment strategies, integration capabilities
 audience:
   - Tech lead
