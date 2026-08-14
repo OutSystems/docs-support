@@ -1,5 +1,5 @@
 ---
-summary: OutSystems 11 (O11) optimizes application scalability and performance through database connection pools.
+summary: "OutSystems 11 (O11) database connection pools manage .NET and Java stack connections, letting you control pool sizes via the Configuration Tool to optimize performance."
 locale: en-us
 guid: 3a4658d1-b73d-4842-a960-db07c21a6289
 app_type: traditional web apps, mobile apps, reactive web apps

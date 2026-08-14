@@ -1,5 +1,5 @@
 ---
-summary: Guide on changing the Activation Code in OutSystems 11 (O11) self-managed environments to ensure continuous operation during organizational changes.
+summary: Activation Code migration in OutSystems 11 (O11) self-managed infrastructures using LifeTime and Service Center, including IP protection and rollback.
 locale: en-us
 guid: 4a4212cb-75d1-4b18-bdfb-a1b4cdc6b1b6
 app_type: traditional web apps, mobile apps, reactive web apps

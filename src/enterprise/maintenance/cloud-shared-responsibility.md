@@ -1,5 +1,5 @@
 ---
-summary: Explore the shared responsibility model and security roles in ODC and OutSystems 11 Cloud.
+summary: "OutSystems Cloud shared responsibility model for ODC and O11 Cloud: security roles, customer duties, and OutSystems infrastructure protections."
 tags: cloud security, cloud deployment, shared responsibility model, enterprise applications, aws
 locale: en-us
 guid: b04339ce-7b9f-4c93-94b7-e4cf397eab47

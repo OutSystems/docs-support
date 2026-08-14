@@ -1,5 +1,5 @@
 ---
-summary: OutSystems 11 (O11) provides patches to address Google Chrome's upcoming changes in cookie handling.
+summary: Chrome SameSite cookie changes affect OutSystems 11 (O11) cross-site integrations; configure the SameSite and Secure settings in LifeTime or apply the platform patch.
 locale: en-us
 guid: 5a2750dc-43e6-4404-85c3-413b433c630a
 app_type: traditional web apps, mobile apps, reactive web apps
