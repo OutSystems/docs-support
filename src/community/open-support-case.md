@@ -1,5 +1,10 @@
 ---
 summary: The article provides a guide on how to open a support case with OutSystems through their web portal.
+audience:
+  - Architect
+  - Developer
+  - Platform administrator
+  - Tech lead
 coverage-type:
 - apply
 tags:
