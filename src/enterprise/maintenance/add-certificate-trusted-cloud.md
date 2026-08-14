@@ -12,7 +12,7 @@ audience:
 outsystems-tools:
   - service center
 coverage-type:
-  - remember
+  - apply
 ---
 
 # Add certificate to trusted root store in OutSystems Cloud

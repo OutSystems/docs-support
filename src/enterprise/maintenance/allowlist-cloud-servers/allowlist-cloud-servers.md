@@ -12,6 +12,7 @@ audience:
 outsystems-tools:
   - service center
 coverage-type:
+  - apply
   - unblock
 ---
 
