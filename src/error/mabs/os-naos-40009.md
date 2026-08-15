@@ -13,6 +13,8 @@ figma:
 isautopublish: true
 coverage-type:
 - unblock
+audience:
+- Developer
 ---
 
 # OS-NAOS-40009

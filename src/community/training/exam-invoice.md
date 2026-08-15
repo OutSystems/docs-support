@@ -11,6 +11,8 @@ tags:
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
 figma:
+audience:
+    - Developer
 ---
 
 # Learn how to get your certification or specialization exam receipt

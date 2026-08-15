@@ -6,6 +6,10 @@ app_type: mobile apps
 platform-version: o11, odc
 coverage-type:
   - remember
+audience:
+  - Developer
+  - Front-end developer
+  - Tech lead
 tags:
   - Android
   - Forge
