@@ -1,0 +1,21 @@
+---
+isautopublish: true
+pageprivacy: public
+---
+
+<h2 id="outsystems_developer_cloud_2026-08-15" >OutSystems Developer Cloud 2026-08-15</h2>
+<div class="info"><p>Released on Aug 15, 2026</p></div>
+
+
+<style>.cattag {background: #f4f2ff; color: #6a6581; padding: 4px 10px;}</style>
+<h3 id="new_in_outsystems_developer_cloud_2026-08-15" > New</h3>
+<ul>
+<li>The Code Quality pattern "Server call in the logic of a screen accessible to everyone" splits into two patterns: "Server call exposed on a screen accessible to everyone" and "Database operation in the client-side logic of a screen".</p>
+
+<p>We split it because it combined two separate findings, and one poses an elevated risk relative to the other.</p>
+
+<p>Server call exposed on a screen accessible to everyone moves from High to Critical, because it fires on screens with the Anonymous role: the server calls those screens make turn into endpoints anyone can call over the internet without logging in. (RDASS-4063)</li>
+</ul>
+
+</ul>
+
