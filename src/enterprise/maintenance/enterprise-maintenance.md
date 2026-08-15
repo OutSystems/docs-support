@@ -4,7 +4,7 @@ locale: en-us
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
 figma:
-summary: Explore maintenance and operations features in OutSystems 11 (O11).
+summary: "OutSystems 11 (O11) maintenance and operations: platform versioning, application lifecycle management, and performance monitoring reference."
 tags: maintenance, operations, platform versioning, application lifecycle management, performance monitoring
 audience:
   - Platform administrator

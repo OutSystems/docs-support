@@ -1,5 +1,5 @@
 ---
-summary: OutSystems 11 (O11) guide on reinstalling the LifeTime management console in a dedicated environment from a shared setup.
+summary: "LifeTime management console reinstall on OutSystems 11 (O11): move it from a shared to a dedicated on-premises environment."
 tags: infrastructure management, environment setup, on-premises installation, platform server, licensing
 locale: en-us
 guid: e7dcad56-9c9a-40c2-b798-dc70d3015564

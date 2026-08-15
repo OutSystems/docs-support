@@ -1,5 +1,5 @@
 ---
-summary: Learn how OutSystems 11 (O11) and AWS handle data storage and transfers in compliance with international data protection laws.
+summary: Safe Harbor ECJ ruling does not apply to OutSystems 11 (O11) customers who host their infrastructure in an EU AWS Region, keeping data local.
 locale: en-us
 guid: 6cfcd36b-554f-40f5-ae3f-b5030dc4312a
 app_type: traditional web apps, mobile apps, reactive web apps
