@@ -2,7 +2,12 @@
 summary: Learn about MABS versioning and lifecycle. 
 coverage-type:
   - understand
-tags: 
+tags:
+  - Android
+  - iOS
+  - Lifecycle
+  - Mobile app
+  - Native App
 audience:
   - Developer
   - Tech lead

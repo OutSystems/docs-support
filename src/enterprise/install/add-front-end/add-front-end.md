@@ -5,7 +5,10 @@ guid: 41efb22b-80b4-49fa-8c0f-53d1b77a0732
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
 figma:
-tags: scalability, high availability, on-premises installation, deployment, horizontal scalability
+tags:
+  - Front-End
+  - Infrastructure
+  - Platform Server
 audience:
   - Platform administrator
   - Developer

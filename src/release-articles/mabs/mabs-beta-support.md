@@ -9,6 +9,14 @@ coverage-type:
 audience:
   - Developer
   - Tech lead
+tags:
+  - Android
+  - Forge
+  - iOS
+  - Mobile app
+  - Native App
+  - Platform Server
+  - Plugins
 ---
 
 # Support for new mobile operating system versions

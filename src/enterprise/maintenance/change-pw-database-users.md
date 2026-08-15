@@ -5,7 +5,14 @@ guid: 9c278333-131f-4be3-9109-1a22630abdf6
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
 figma: https://www.figma.com/file/cPLNnZfDOZ1NX3avcjmq3g/Enterprise%20Customers?node-id=3215:893
-tags: database management, security best practices, infrastructure management, password management
+tags:
+  - Active Directory
+  - Infrastructure
+  - Platform Server
+  - Security
+  - Settings
+  - SQL
+  - Troubleshooting
 audience:
   - Platform administrator
   - Developer
