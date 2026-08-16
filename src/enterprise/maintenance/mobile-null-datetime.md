@@ -1,6 +1,11 @@
 ---
 summary: Explore how OutSystems 11 (O11) handles the null DateTime value behavior in mobile apps across different Platform Server versions.
-tags: date and time handling, null values, mobile application development, compatibility issues, platform server
+tags:
+  - Data Integrity
+  - Mobile app
+  - Platform Server
+  - SQL
+  - Troubleshooting
 locale: en-us
 guid: 9a463cd2-53c3-4e1f-8040-e71ac11ae99b
 app_type: traditional web apps, mobile apps, reactive web apps

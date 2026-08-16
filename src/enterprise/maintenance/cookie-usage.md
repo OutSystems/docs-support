@@ -5,7 +5,14 @@ guid: 60f532d6-5fa3-4b1e-91cc-9e4ec6686e87
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
 figma:
-tags: eu data protection, cookie management, web compliance, security, privacy
+tags:
+  - Authentication
+  - End-user Authentication
+  - Monitoring
+  - Pagination
+  - Security
+  - Traditional Web
+  - Web
 audience:
   - Front-end developer
   - Developer
