@@ -1,0 +1,60 @@
+---
+isautopublish: true
+pageprivacy: semi-private
+---
+
+<h2 id="platform_server_11.43.0" >Platform Server 11.43.0</h2>
+<div class="info"><p>This is a preliminary version of the document.</p></div>
+
+
+<style>.cattag {background: #f4f2ff; color: #6a6581; padding: 4px 10px;}</style>
+<h3 id="new_in_platform_server_11.43.0" >New in Platform Server 11.43.0</h3>
+<ul>
+<li>Updated System.Text.Json library bundled with the platform from version 8.0.5 to version 10.0.8. Also raises other Microsoft dependent libraries to be consistent at 10.0.8. (R11BCT-465)</li>
+<li>Added support for Azure SQL Managed Instance (for the SQL Server 2025 engine and compatibility level 170). This applies to the platform database, as well as external databases.</p>
+
+<p>Configuration Tool and Service Center now feature a specific option for Azure SQL Managed Instance to improve setup clarity. (R11BCT-469)</li>
+<li>Tentative fix for an issue that caused indexes to be created without dropping them first when using 2 stage deployment (
+    <span class="jira-issue-macro resolved" data-jira-key="RPM-6830" >
+                <a href="https://outsystemsrd.atlassian.net/browse/RPM-6830" class="jira-issue-macro-key issue-link"  title="CreateIndexes.sql executed without preceding DropIndexes.sql in 2-stage solution publish" >
+            <img class="icon" src="https://outsystemsrd.atlassian.net/servicedesk/issue-type-icons?icon=problem" />
+            RPM-6830
+        </a>
+                                                    <span class="aui-lozenge aui-lozenge-subtle aui-lozenge-success jira-macro-single-issue-export-pdf">Closed</span>
+            </span>
+). (R11BCT-511)</li>
+<li>Added public, read-only <tt>Espace_CommitMessage</tt> entity, allowing access to messages added during publish. (R11BRT-2393)</li>
+<li>Action Links now expose role="button" and support Space/Enter keyboard activation (Space activates on key release, matching native <button>) when EnableWCAG22 is enabled, ensuring WCAG 2.2 (4.1.2 — Name, Role, Value) compliance for assistive technologies. (R11DT-3620)</li>
+<li>  Sortable Table column headers now expose aria-sort (none/ascending/descending) to communicate the current sort state to assistive technologies, and support the default-sort-direction Extended Property on the Header Cell to let custom OnSort actions declare a descending-first direction, when EnableWCAG22 is enabled, ensuring WCAG 2.2 (1.3.1 — Info and Relationships) compliance. (R11DT-3621)</li>
+<li>ListItemSwipeable now exposes its swipe actions through a single-pointer alternative — right-click (context menu) on desktop and long-press (500ms) on touch devices — when EnableWCAG22 is enabled, ensuring WCAG 2.2 (2.5.7 — Dragging Movements) compliance for users who cannot perform dragging gestures. (R11DT-3622)</li>
+<li>DropdownCustom now follows the ARIA combobox pattern (combobox/listbox/option roles, aria-expanded, aria-selected) when EnableWCAG22 is enabled, ensuring WCAG 2.2 (4.1.2 — Name, Role, Value) compliance for assistive technologies. (R11DT-3623)</li>
+<li>List and ListItem widgets now expose explicit role="list" and role="listitem" (on non-semantic tags) when EnableWCAG22 is enabled, ensuring consistent screen reader behavior and WCAG 2.2 (1.3.1 / 4.1.2) compliance. (R11DT-3624)</li>
+<li>Popover now follows the ARIA button/dialog pattern — the trigger exposes role="button", aria-haspopup="dialog", aria-expanded, and aria-controls (set only when expanded), and the popover content exposes role="dialog" and aria-modal="false" — when EnableWCAG22 is enabled, ensuring WCAG 2.2 (4.1.2 — Name, Role, Value) compliance for assistive technologies. (R11DT-3625)</li>
+<li>Popup now exposes aria-label="Dialog" (unless the consumer provides aria-label or aria-labelledby) and invokes a new onEscape event when the user presses the Escape key while focus is inside the popup when EnableWCAG22 is enabled, ensuring WCAG 2.2 (4.1.2 — Name, Role, Value, and 2.1.2 — No Keyboard Trap) compliance for assistive technologies. To close the popup on Escape, wire the onEscape event to a client action that sets the visibility variable to False. (R11DT-3626)</li>
+<li>Switch now exposes role="switch" and aria-checked (reflecting the current on/off state) when EnableWCAG22 is enabled, so assistive technologies announce it as a switch rather than a checkbox, ensuring WCAG 2.2 (4.1.2 — Name, Role, Value) compliance. (R11DT-3627)</li>
+<li>The Upload widget's file input is now kept in the accessibility tree using a visually-hidden CSS pattern (instead of display: none) when EnableWCAG22 is enabled, so screen readers can announce it and keyboard users can reach it directly. The visible label no longer acts as a fake button — Enter/Space activation is handled natively by the input — and a focus ring is forwarded to the label via :focus-within so sighted keyboard users see where focus is. This ensures WCAG 2.2 compliance for 4.1.2 (Name, Role, Value) and 2.4.7 (Focus Visible). (R11DT-3774)</li>
+<li>Button, Checkbox, RadioButton, and Switch widgets now enforce a minimum 24×24 CSS pixel interactive hit area when EnableWCAG22 is enabled, ensuring WCAG 2.2 (2.5.8 — Target Size, Minimum) compliance for touch and pointer-based interactions. (R11DT-3775)</li>
+<li>Button, Input, Dropdown, Popover, and Popup widgets now remain usable at 200% browser zoom — fixed-height containers reflow with min-height + auto sizing, the popup minimum width collapses on narrow viewports (min(300px, 100%)), and overflowing dropdown rows stay reachable via vertical scroll — when EnableWCAG22 is enabled, ensuring WCAG 2.2 (1.4.4 — Resize Text) compliance. (R11DT-3776)</li>
+<li>Dropdown, Popover, Popup, List, and Table Records widgets now fit within a 320px viewport without triggering page-level horizontal scroll — dropdown and popover panels clamp to the viewport edge, popup dialogs collapse their fixed minimum width on narrow viewports (min(300px, 100%)), lists wrap long item content, and Table Records scopes horizontal overflow to a keyboard-accessible scroll region — when EnableWCAG22 is enabled, ensuring WCAG 2.2 (1.4.10 — Reflow) compliance. (R11DT-3777)</li>
+<li>Button, Dropdown, List, and TableRecords widgets now preserve content and functionality when users override text-spacing properties (line-height ≥ 1.5, letter-spacing ≥ 0.12em, word-spacing ≥ 0.16em) — overflow stays visible so text can grow beyond fixed heights, dropdown labels and options wrap instead of being clipped, and table cells use vertical-align: middle instead of line-height-based centering — when EnableWCAG22 is enabled, ensuring WCAG 2.2 (1.4.12 — Text Spacing) compliance. (R11DT-3778)</li>
+<li>Button, Checkbox, Dropdown, Link, RadioGroup, Switch, and Upload widgets now reliably expose their visible label as part of the accessible name when EnableWCAG22 is enabled, ensuring WCAG 2.2 (2.5.3 — Label in Name) compliance for speech-input and assistive-technology users. (R11DT-3780)</li>
+<li>Input and List widgets now expose dynamic updates to assistive technologies via ARIA live regions when EnableWCAG22 is enabled — Input validation messages are announced automatically through a role="alert" region kept in the DOM (no focus movement required), and List announces its current status ("N items", "No items", "1 item", "Failed to load items") through a visually hidden polite live region linked to the list via aria-describedby, with status text routed through the platform's TranslationsService so it can be localized — ensuring WCAG 2.2 (4.1.3 — Status Messages) compliance. (R11DT-3781)</li>
+<li>TableRecords now accepts a table-caption extended property to render a <caption> element, an optional table-role="table" extended property to switch from role="grid" to native table semantics, and enforces a 24×24 CSS pixel minimum on sortable header cells; RadioGroup and CheckboxGroup now expose their validation message via aria-describedby (deduplicated against any developer-provided value); when EnableWCAG22 is enabled, closing WCAG 2.2 gaps for 1.3.1 (Info and Relationships), 2.5.8 (Target Size, Minimum), 3.3.1 (Error Identification), and 4.1.2 (Name, Role, Value). (R11DT-4047)</li>
+<li>Popup widget now contains keyboard focus within open modal dialogs — Tab and Shift+Tab cycle only among focusable elements inside the popup, focus returns to the element that opened the popup when it closes, and the dialog itself becomes programmatically focusable (tabindex="-1") as a fallback for popups with no focusable children — when EnableWCAG22 is enabled, ensuring WCAG 2.2 (2.4.3 — Focus Order, 2.1.2 — No Keyboard Trap) compliance for keyboard users. (R11DT-4064)</li>
+<li>It is now possible to configure how long Platform Server deployments wait for SQL Server table locks before failing. Three new settings in Factory Configuration let administrators raise the wait times used when schema changes hit tables that are already locked, preventing deployments from failing with the "Lock request time out period exceeded" error. Applies to SQL Server, Azure SQL, and Azure SQL Managed Instance. (RPM-6542) <span class="cattag">Publish Operation</span>  <span class="cattag">Deployment stage</span> </li>
+</ul>
+<h3 id="bug_fixing_platform_server_11.43.0" >Bug Fixing</h3>
+<ul>
+<li>Upgraded System.Security.Cryptography.Xml to version 8.0.3. It includes a security vulnerability fix introduced by that version. This change only affects the Server.API and the Server.Identity system applications, and the OutSystems services. (R11BCT-463)</li>
+<li>Fixed an issue where translations were not applied for locales whose language code combines a script and a region (for example, Simplified Chinese for Singapore, zh-Hans-SG), causing screens to display text in the default language instead of the selected one. (RPM-3945) <span class="cattag">Service Studio</span> </li>
+<li>Fixed an issue that prevented a module from publishing when a Server Action used an Assign to copy a list (for  example, the output of an Aggregate joining multiple Entities) into a Record List of an Entity, and the attribute mapping inside the Assign was set manually. (RPM-6639) <span class="cattag">Application Runtime</span>  <span class="cattag">Logic Execution</span> </li>
+<li>Fixed an issue where the Daily History tab in Service Center Analytics was not displaying any data on Oracle databases. (RPM-6861) <span class="cattag">Application Lifecycle</span>  <span class="cattag">Service Center</span> </li>
+<li>Fixed a scenario where native mobile binaries (apk, aab or ipa) would have 0 bytes upon downloading. (RPM-6871) <span class="cattag">Mobile Apps Builder</span>  <span class="cattag">Application Package</span> </li>
+<li>Updated OutSystems RabbitMQ plugin to improve compatibility with newer Oracle driver versions (23.26.x)  (RPM-6876) <span class="cattag">Application Runtime</span> </li>
+<li>Fixed an issue that caused the Feedback Message in RichWidgets to instantly reopen after being dismissed.
+This occurred when accessing the application on a mobile device, where touch interaction delays or event bubbling mistakenly triggered the open sequence again right after the close action completed. (RPM-6891) <span class="cattag">Application Runtime</span>  <span class="cattag">System Components</span> </li>
+<li>License uploads in Service Center are now recorded in the General Logs, including details of which user performed the upload. (RPM-6932) <span class="cattag">Application Lifecycle</span>  <span class="cattag">Service Center</span> </li>
+<li>Fixed an issue that caused the Richwidgets/Input_Calendar to render with broken layout alignments.
+This occurred when developers used specific alignment configurations—such as left (“l”), right (“r”), or center (“c”) values—which failed to map correctly to the element's underlying positioning styles. (RPM-7002) <span class="cattag">Application Runtime</span>  <span class="cattag">System Components</span> </li>
+</ul>
+
