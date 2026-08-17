@@ -1,0 +1,23 @@
+---
+isautopublish: true
+pageprivacy: semi-private
+---
+
+<h2 id="cross-platform_service_studio_11.55.84" >Cross-platform Service Studio 11.55.84</h2>
+<div class="info"><p>This is a preliminary version of the document.</p></div>
+
+
+<style>.cattag {background: #f4f2ff; color: #6a6581; padding: 4px 10px;}</style>
+<h3 id="new_in_cross-platform_service_studio_11.55.84" >New in Cross-platform Service Studio 11.55.84</h3>
+<ul>
+<li>The Convert to Reactive command now automatically converts OutSystemsUIWeb and OutSystemsChartsWeb widgets, mapping them to their OutSystemsUI and OutSystemsCharts equivalents. Now supports widgets Accordion Item, Animate, Columns 2, Progress Bar, Separator, User Avatar from OutsystemsUIWeb, and widgets Area Chart, Bar Chart, Column Chart, Line Chart, Pie Chart from OutsystemsCharts. (R11DT-4025)</li>
+<li>Improved Traditional To Reactive tool Server Action bundling. Server actions are now bundled with the nodes Assign, JSON Serialize/Deserialize and Excel conversions, into a single Server Action call, reducing unnecessary round-trips after conversion. (R11DT-4049)</li>
+<li>Buttons and toolbar items now ignore repeated clicks made in quick succession, so a burst of clicks triggers its action only once. (RDEV-10059)</li>
+</ul>
+<h3 id="bug_fixing_cross-platform_service_studio_11.55.84" >Bug Fixing</h3>
+<ul>
+<li>Fixed an issue where screen template storage could not be reconstructed when a malformed template was detected. (RDEV-10068)</li>
+<li>Fixed an issue that caused an internal identifier to be inserted instead of the parameter name when dragging a parameter into the SQL statement of an Advanced Query. (RDPIM-4356)</li>
+<li>Fixed an issue in UI Editor that caused the preview of some blocks to display 'Expression' instead of the configured property values, such as the column headers of a data grid. (RDPIM-4363)</li>
+</ul>
+
