@@ -9,6 +9,9 @@ app_type:  mobile apps, reactive web apps
 platform-version: odc
 coverage-type:
 - remember
+audience:
+- Developer
+- Tech lead
 ---
 
 # OutSystems Developer Cloud releases

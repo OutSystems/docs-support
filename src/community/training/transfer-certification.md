@@ -10,6 +10,8 @@ figma: https://www.figma.com/file/mP34OzloL9EPqXml1E0tfC/Community?node-id=1394:
 isautopublish: true
 coverage-type:
   - apply
+audience:
+  - Developer
 ---
 
 # Transfer your certifications to another account

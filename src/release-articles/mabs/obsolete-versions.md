@@ -9,6 +9,9 @@ tags:
   - Lifecycle
   - Mobile app
   - Plugins
+audience:
+  - Developer
+  - Tech lead
 guid: 400d26bc-cbcc-4592-9980-f967534d443c
 locale: en-us
 app_type: mobile apps

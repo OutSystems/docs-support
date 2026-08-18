@@ -15,6 +15,8 @@ tags:
   - Native App
   - Plugins
   - Widgets
+audience:
+  - Developer
 ---
 
 # MABS 11 release notes
