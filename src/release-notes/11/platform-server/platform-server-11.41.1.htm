@@ -10,8 +10,8 @@ pageprivacy: public
 <style>.cattag {background: #f4f2ff; color: #6a6581; padding: 4px 10px;}</style>
 <h3 id="new_in_platform_server_11.41.1" >New in Platform Server 11.41.1</h3>
 <ul>
-<li>It is now possible to debug Reactive Web applications from any IP address. This is disabled by default to prevent unauthorised machines from capturing your debug session; this setting can be modified using Factory Configuration. (R11DT-1755)</li>
 <li>Added support for the form-action and report-to Content Security Policy (CSP) directives. The platform now sends the modern Reporting-Endpoints HTTP header, used by report-to, alongside the legacy report-uri directive for CSP violation reporting, providing improved browser compatibility with the latest CSP specification. (R11DT-3597)</li>
+<li>It is now possible to debug Reactive Web applications from any IP address. This is disabled by default to prevent unauthorized machines from capturing your debug session; this setting can be modified using Factory Configuration. (RPM-2886) <span class="cattag">Application Runtime</span>  <span class="cattag">Debugger</span> </li>
 <li>New security configurations have been introduced to NativeAppBuilder to provide more granular control over mobile app accessibility. Previously, apps could be downloaded by any user in possession of a valid app key.
 
 To enhance protection against unauthorized access, two new site properties are now available in the NativeAppBuilder module:
