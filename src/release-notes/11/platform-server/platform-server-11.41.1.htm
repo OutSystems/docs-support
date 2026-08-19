@@ -41,5 +41,6 @@ Normal events are removed after 7 days, and light events after 30 days. (RPM-474
 This occurred during rapid asynchronous requests where the feedback message state was not properly synchronized with the AJAX lifecycle. (RPM-6398) <span class="cattag">Application Runtime</span>  <span class="cattag">System Components</span> </li>
 <li>Fix CleanLoginAttempts Timer from Users runs multiple times due to the fact it's incorrectly marked as Multi-Tenant. (RPM-6608) <span class="cattag">Application Runtime</span>  <span class="cattag">Authentication and Authorization</span> </li>
 <li>Fixed an issue that caused deployment of Static Entities with Multilingual be aborted due to missing index in Oracle Databases when deployed to a different database schema other than Main. (RPM-6618) <span class="cattag">Publish Operation</span>  <span class="cattag">Deployment stage</span> </li>
+<li>Fixed a potential security issue related to potential Prototype Pollution attacks (RPM-6693) <span class="cattag">Application Runtime</span> </li>
 </ul>
 
