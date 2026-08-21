@@ -7,6 +7,9 @@ audience:
 coverage-type:
     - apply
 tags:
+    - End-users
+    - Settings
+    - UI
 locale: en-us
 guid: 7486F578-3FAD-420D-9229-1E57E2555991
 app_type: traditional web apps, mobile apps, reactive web apps

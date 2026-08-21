@@ -7,6 +7,14 @@ platform-version: o11
 coverage-type:
     - remember
     - unblock
+tags:
+    - Android
+    - Cordova
+    - iOS
+    - Logging
+    - Mobile app
+    - Native App
+    - Plugins
 ---
 
 # MABS 7 Release notes

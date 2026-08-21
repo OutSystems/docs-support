@@ -1,6 +1,9 @@
 ---
 summary: An error occurred due to an unexpected state in the compilation process
-tags: 
+tags:
+  - Logging
+  - Mobile app
+  - Troubleshooting
 guid: 03f1201a-10a9-4434-ab6b-1246f5487bb2
 locale: en-us
 app_type: mobile apps

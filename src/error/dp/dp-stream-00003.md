@@ -1,6 +1,9 @@
 ---
 summary: This article explains the cause, impact, and recommended action for an invalid argument error that occurs while connecting to the destination server.
 tags:
+  - Logging
+  - Monitoring
+  - Troubleshooting
 guid: a8049b5c-fee5-4f3b-90e9-37ae82ed006f
 locale: en-us
 app_type: traditional web apps, mobile apps, reactive web apps

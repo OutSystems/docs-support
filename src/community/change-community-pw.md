@@ -1,6 +1,9 @@
 ---
 summary: Learn how to change the password for your OutSystems Personal Environment and community account.
 tags:
+- Authentication
+- Security
+- Settings
 locale: en-us
 guid: 1A216E07-414F-4AA8-86ED-56F3FF608450
 app_type: traditional web apps, mobile apps, reactive web apps

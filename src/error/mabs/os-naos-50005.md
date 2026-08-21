@@ -1,6 +1,11 @@
 ---
 summary: An error occurred while fetching the extensibility configurations
-tags: 
+tags:
+    - Extensions
+    - Mobile app
+    - Native App
+    - Plugins
+    - Troubleshooting
 audience:
     - Developer
 coverage-type:
