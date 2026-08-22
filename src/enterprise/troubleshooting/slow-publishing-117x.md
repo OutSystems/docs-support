@@ -1,5 +1,5 @@
 ---
-summary: Explore the resolution of slow publishing issues in OutSystems 11 (O11) due to specific configurations and their fixes in subsequent updates.
+summary: Slow publishing in OutSystems 11.7.x on self-managed farm installations with a load balancer deployment zone address and how to apply the workaround.
 locale: en-us
 guid: e4883c46-2022-4c8e-9ecf-f09d524329a1
 app_type: traditional web apps, mobile apps, reactive web apps

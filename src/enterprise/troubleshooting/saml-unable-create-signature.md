@@ -1,5 +1,5 @@
 ---
-summary: Explore troubleshooting tips for the "Unable to create SAML signature" error in OutSystems 11 (O11) during user logout.
+summary: '"Unable to create SAML signature" in OutSystems 11 (O11) occurs during SAML logout in personal environments due to hosting infrastructure security constraints.'
 locale: en-us
 guid: 0304263d-9ae2-41dd-8cdf-b766e79613f1
 app_type: traditional web apps, mobile apps, reactive web apps

@@ -1,5 +1,5 @@
 ---
-summary: OutSystems 11 (O11) installation or upgrade may fail due to service permission errors when using lower-privilege user accounts for security improvements.
+summary: "OutSystems 11 (O11) service permissions error on install or upgrade: update Active Directory Group Policy to allow lower-privilege service accounts."
 tags: platform server, security, installation, permissions, troubleshooting
 locale: en-us
 guid: ae2f1814-d3bb-4e38-a5ba-33423aec6c34

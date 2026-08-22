@@ -1,6 +1,6 @@
 ---
 tags: ios development, mobile app configuration, security best practices, mobile app troubleshooting, cross-platform compatibility
-summary: Learn how to troubleshoot OutSystems 11 (O11) apps on iOS devices, addressing iframe issues and cookie handling with custom schemes and API solutions.
+summary: "OutSystems 11 (O11) iOS iframe troubleshooting: fix blocked content with the outsystems:// scheme, CSP frame-ancestors, and Safari cookie workarounds."
 locale: en-us
 guid: f296d423-0144-4164-8c73-383013490529
 app_type: mobile apps, reactive web apps
