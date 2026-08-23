@@ -1,5 +1,5 @@
 ---
-summary: <record/attribute> already exists for that <record/attribute>.
+summary: "OS-CMFR-GEN-00007 OutSystems 11 (O11) error occurs when the Case Management framework detects a duplicate record or attribute during a create or update action."
 tags: error handling, case management, debugging, data integrity, application development
 locale: en-us
 guid: 2810c5b9-4ce4-4ac9-b221-cfbe70ee32f1

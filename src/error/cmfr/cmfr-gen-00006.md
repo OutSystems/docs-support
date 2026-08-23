@@ -1,5 +1,5 @@
 ---
-summary: The number of minutes must be greater than or equal to zero.
+summary: "OS-CMFR-GEN-00006 error in OutSystems 11 (O11) occurs when Calendar_GetEndDate receives a negative Minutes value. Set Minutes to zero or above."
 tags: error handling, debugging, case management framework, calendar management, input validation
 locale: en-us
 guid: b97679ee-618c-4492-a00d-6f9d8435b13d
