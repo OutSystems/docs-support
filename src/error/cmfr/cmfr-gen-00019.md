@@ -1,5 +1,5 @@
 ---
-summary: One or more <record> Ids aren't valid GUIDs.
+summary: "OS-CMFR-GEN-00019 error in OutSystems 11 (O11) Case Management Framework occurs when record Ids aren't valid GUIDs in Bootstrap/Setup actions."
 tags: error handling, data integrity, application development, case management framework, guid
 locale: en-us
 guid: f43cff40-cc15-4a4c-94ee-cfa3c2d0b676

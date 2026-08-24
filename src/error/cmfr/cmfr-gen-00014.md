@@ -1,5 +1,5 @@
 ---
-summary: Either CanView or CanEdit must be set to True.
+summary: "OS-CMFR-GEN-00014 error in OutSystems 11 (O11) Case Management Framework occurs when both CanView and CanEdit are False in access actions."
 tags: error handling, case management, debugging, access control, best practices
 locale: en-us
 guid: 862516ae-30d5-4353-8c6a-db12a33a37b3

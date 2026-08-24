@@ -1,5 +1,5 @@
 ---
-summary: We couldn't retrieve the record <case-identifier> of object <entity-name>.
+summary: "OS-CMFR-GEN-00015 error in OutSystems 11 (O11) Case Management Framework occurs when Email_ProcessPlaceholders or Email_Send can't find the case record."
 tags: error handling, case management framework, debugging, email processing, data retrieval
 locale: en-us
 guid: ad580017-47bb-4144-8027-88a9d851972d

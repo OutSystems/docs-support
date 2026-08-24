@@ -1,5 +1,5 @@
 ---
-summary: We couldn't find a pairing for <case/case definition> and Milestone Definition.
+summary: "OS-CMFR-GEN-00021 OutSystems 11 (O11) Case Management Framework error: missing case/milestone pairing in Case_IsMilestoneAchieved."
 tags: error handling, case management framework, debugging, outsystems platform, service studio debugging
 locale: en-us
 guid: fa5e675c-3d6a-4574-a0a7-0e224699170a

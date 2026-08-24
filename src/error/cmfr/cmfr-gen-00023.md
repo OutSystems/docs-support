@@ -1,5 +1,5 @@
 ---
-summary: We couldn't find <record> with the Id <identifier-value>.
+summary: "OS-CMFR-GEN-00023 error in OutSystems 11 (O11) Case Management Framework occurs when a record isn't found by ID during a create or update action."
 tags: error handling, case management framework, debugging, outsystems error messages, data validation
 locale: en-us
 guid: 4a75fcf7-e46b-4bae-8ecb-74d0a1e4883c

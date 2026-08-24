@@ -1,5 +1,5 @@
 ---
-summary: There's already an active Case Status defined as initial.
+summary: "OS-CMFR-GEN-00017 in OutSystems 11 Case Management Framework: two case statuses have IsInitial True. Set one to False to resolve it."
 tags: case management, error handling, isinitial attribute, case status configuration, caseconfigurations_api
 locale: en-us
 guid: 00538b23-fecd-47ed-91c1-cee49b2c5b33
