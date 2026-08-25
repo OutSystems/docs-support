@@ -13,6 +13,8 @@ outsystems-tools:
   - none
 coverage-type:
   - understand
+topic:
+  - timezone-sync-requirements
 ---
 
 # Timezone considerations in the OutSystems Platform

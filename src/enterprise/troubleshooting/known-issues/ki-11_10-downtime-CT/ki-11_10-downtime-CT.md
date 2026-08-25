@@ -15,6 +15,8 @@ outsystems-tools:
   - configuration tool
 coverage-type:
   - unblock
+topic:
+  - fix-ct-symlink-downtime
 ---
 
 # Known issue in 11.10.0 - possible downtime after running Configuration Tool

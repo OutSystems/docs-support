@@ -15,6 +15,8 @@ outsystems-tools:
   - configuration tool
 coverage-type:
   - unblock
+topic:
+  - fix-odp-net-conflict
 ---
 
 # Oracle Data Provider for .NET driver issues

@@ -13,6 +13,10 @@ outsystems-tools:
   - none
 coverage-type:
   - understand
+topic:
+  - cloud-maintenance-schedule
+  - cloud-update-downtime
+  - pci-dss-patching-compliance
 ---
 
 # System updates on OutSystems Cloud

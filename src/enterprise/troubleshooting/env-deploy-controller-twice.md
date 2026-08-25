@@ -15,6 +15,8 @@ outsystems-tools:
   - configuration tool
 coverage-type:
   - unblock
+topic:
+  - fix-controller-duplication
 ---
 
 # Environment Health shows a Deployment controller twice

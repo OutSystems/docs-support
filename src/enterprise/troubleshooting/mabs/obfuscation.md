@@ -13,6 +13,9 @@ outsystems-tools:
   - service studio
 coverage-type:
   - unblock
+topic:
+  - plugin-obfuscation-errors
+  - retrace-obfuscated-logs
 ---
 
 # Obfuscation and retracing logs of mobile builds

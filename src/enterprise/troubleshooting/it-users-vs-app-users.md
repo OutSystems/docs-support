@@ -16,6 +16,9 @@ outsystems-tools:
   - lifetime
 coverage-type:
   - unblock
+topic:
+  - it-vs-app-users
+  - login-provider-mismatch
 ---
 
 # Understanding the difference between Service Center logins and Users login - IT Users vs Application Users

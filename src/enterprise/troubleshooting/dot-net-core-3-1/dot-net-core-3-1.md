@@ -13,6 +13,8 @@ outsystems-tools:
   - platform server
 coverage-type:
   - unblock
+topic:
+  - fix-net-core-upgrade
 ---
 
 # Server.API and Server.Identity fail to initialize after upgrading to Platform Server 11.12.2 or later

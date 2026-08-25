@@ -14,6 +14,8 @@ outsystems-tools:
   - service center
 coverage-type:
   - unblock
+topic:
+  - fix-site-property-upgrade
 ---
 
 # Known issue after update to 11.10.2 - value cannot be null error installing Service Center

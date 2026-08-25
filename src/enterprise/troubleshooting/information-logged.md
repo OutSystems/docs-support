@@ -13,6 +13,9 @@ outsystems-tools:
   - none
 coverage-type:
   - unblock
+topic:
+  - o11-platform-log-sources
+  - o11-windows-event-logs
 ---
 
 # Information logged by OutSystems Platform
