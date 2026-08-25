@@ -1,6 +1,9 @@
 ---
 summary: Not all <records> reference the same <record>. Change them accordingly.
-tags: error handling, case management, data consistency, troubleshooting, bootstrap actions
+tags:
+  - Case Management framework
+  - Data Integrity
+  - Troubleshooting
 locale: en-us
 guid: fc9d78d9-1345-411d-91f8-72b2d8652cab
 app_type: traditional web apps, mobile apps, reactive web apps

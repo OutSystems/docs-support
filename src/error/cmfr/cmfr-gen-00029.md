@@ -1,6 +1,8 @@
 ---
 summary: There was an error processing rule <rule-identifier>. <error-message>
-tags: error handling, case management framework, rule execution, exception handling, troubleshooting
+tags:
+  - Case Management framework
+  - Troubleshooting
 locale: en-us
 guid: 7e1ffbaf-2933-433d-9bc1-d715c73bb891
 app_type: traditional web apps, mobile apps, reactive web apps

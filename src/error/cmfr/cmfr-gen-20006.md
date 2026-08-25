@@ -1,6 +1,10 @@
 ---
 summary: Couldn't log in. Make sure you're accessing as a sample user.
-tags: authentication, debugging, user management, case management framework, error troubleshooting
+tags:
+  - Authentication
+  - Case Management framework
+  - Debugging
+  - Troubleshooting
 locale: en-us
 guid: bc46ebc1-9248-41d3-92f5-b3f53afc304c
 app_type: traditional web apps, mobile apps, reactive web apps

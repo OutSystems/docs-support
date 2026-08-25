@@ -1,6 +1,12 @@
 ---
 summary: The user you are trying to delegate from is not a member of the selected group.
-tags: error handling, case management, user permissions, security, debugging
+tags:
+  - Case Management framework
+  - Debugging
+  - Groups
+  - Roles
+  - Security
+  - Troubleshooting
 locale: en-us
 guid: e79a3f1c-3560-4d18-90f9-a666ce037b17
 app_type: traditional web apps, mobile apps, reactive web apps
