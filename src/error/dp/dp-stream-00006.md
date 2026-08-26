@@ -1,5 +1,5 @@
 ---
-summary: This article explains the cause, impact, and recommended action for an already exists error that occurs while connecting to the destination server.
+summary: "OS-DP-STREAM-00006 gRPC \"already exists\" error in OutSystems platform log streaming: check your APM tool and reconnect."
 tags: error handling, log streaming, server connection, debugging, grpc errors
 guid: cdf1d741-9c39-4af5-8efd-df3aca7c1a41
 locale: en-us

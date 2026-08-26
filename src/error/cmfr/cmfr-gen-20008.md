@@ -1,5 +1,5 @@
 ---
-summary: The activity couldn't be closed, either because you're missing the required access or it was already closed.
+summary: OS-CMFR-GEN-20008 error in OutSystems 11 (O11) Case Management occurs when closing an activity fails due to missing user access or the activity being already closed.
 tags: error handling, case management, user access control, workflow automation
 locale: en-us
 guid: 3f78f979-3c62-4f73-a331-09781baf2ee5

@@ -1,5 +1,5 @@
 ---
-summary: This article explains the cause, impact, and recommended action for a resource exhausted error that occurs while connecting to the destination server.
+summary: OS-DP-STREAM-00008 resource exhausted error in OutSystems log streaming occurs when the destination server returns a gRPC 8 response.
 tags: error handling, logging, server connectivity, performance issues, application monitoring
 guid: 8a776202-d9d4-4a64-adcc-bac23d58ac49
 locale: en-us

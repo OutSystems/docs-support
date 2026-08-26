@@ -1,5 +1,5 @@
 ---
-summary: This article explains the cause, impact, and recommended action for a not found error that occurs while connecting to the destination server.
+summary: OS-DP-STREAM-00005 gRPC 5 not found error blocks log streaming in ODC and O11 when the destination server endpoint URL is misconfigured.
 tags: error handling, server configuration, log streaming, grpc, connectivity issues
 guid: 00a6b51c-e815-4e68-83fc-e51d58eab8b8
 locale: en-us
