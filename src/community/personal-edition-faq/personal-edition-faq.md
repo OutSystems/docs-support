@@ -23,32 +23,37 @@ outsystems-tools:
   - odc portal
 isautopublish: true
 ---
+
 # OutSystems Personal Edition FAQ
 
 **What is the OutSystems Personal Edition, and who can use it?**
 
 The OutSystems Personal Edition (also referred to as PE) is the new, free version of OutSystems Developer Cloud (ODC), designed for all users, including prospects, customers, partners, and community members. Its primary purpose is to provide a dedicated space for exploring the platform, learning, and contributing to the OutSystems ecosystem. Anyone with a Community Account can request the OutSystems Personal Edition.
 
-**Is the OutSystems Personal Edition free and forever?**
+**Is the OutSystems PE free and forever?**
 
-The OutSystems Personal Edition is free of charge and can be retained indefinitely as long as you continue to use it.
+The OutSystems PE is free of charge, and you can keep it for as long as you're actively building with it.
 
-* Whenever you register for a new Personal Edition, you must log in within the first three days. If you don't log in, you need to request a new one.
+* When you request a new PE, it stays active for 15 days by default and continues to renew while you're using it to build.
 
-* You need to use it regularly. If you don't, your Personal Edition enters hibernation after 72 hours of inactivity. Prolonged inactivity may result in permanent deletion and loss of all progress, configurations, and data. To avoid losing your work, export your apps' OML files before deletion. You can then import them into a new Personal Edition later.
+* If you become inactive, we assume you no longer need it, and your PE expires, keeping the free program healthy for the whole developer community.
 
-* Even if your current Personal Edition gets deleted, you can always request a new one. To do it, you must go to the [Personal Edition](https://www.outsystems.com/personaledition/) portal and request a new one.
+* We'll email you 3 days before your PE is deleted, so you have time to log back in or save your work.
+
+* To avoid losing your work, export your apps' OML files if you think you'll become inactive for an extended period. You can import them into a new PE later.
+
+* Even if your PE expires, you can always request a new one. To do it, you must go to the [Personal Edition](https://www.outsystems.com/personaledition/) portal and request a new one.
 
 **What is PE hibernation and how do I reactivate my PE?**
 
 Your ODC PE automatically enters hibernation after 72 hours of inactivity. Hibernation is a low-resource sleep state where all your work is fully preserved. This is different from deletion: your PE is never removed unless it remains inactive for an extended period, as described in the ODC PE lifecycle.
-For additional information on PE hibernation, please refer to the [OutSystems PE Hibernation FAQ](pe-hibernation-faq.md).
+For additional information on PE hibernation, refer to the [OutSystems PE Hibernation FAQ](pe-hibernation-faq.md).
 
 To reactivate your PE, you can either manually wake it from the **Manage Organization** console in the ODC Portal, or it automatically wakes when you perform a developer action such as logging in to ODC Studio or publishing your apps.
 
 **I've requested a Personal Edition, but it's not yet available. What happened?**
 
-Personal Editions are usually available right away. In rare cases, high demand might mean your Personal Edition takes longer to create, and you'll be placed on a waiting list. Creation times vary, we'll email you as soon as your Personal Edition is ready.
+Personal Editions are usually available right away. In rare cases, high demand might mean your Personal Edition takes longer to create, and you'll be placed on a waiting list. Creation times vary. We'll email you as soon as your Personal Edition is ready.
 
 **Can I invite my team to access my OutSystems Personal Edition?**
 
@@ -94,7 +99,7 @@ Yes, Agent Workbench is available for free for everyone in the OutSystems Person
 
 **Are AI trial models available in the OutSystems Personal Edition?**
 
-Yes. Trial models, Claude 3.7 Sonnet, and Amazon Nova Pro are supported by default in OutSystems Personal Edition to help prospects test Agent Workbench without needing their own AI models.  These trial AI Models have the following fixed usage limits and cannot be renewed:
+Yes. Trial models, Claude 3.7 Sonnet, and Amazon Nova Pro are supported by default in OutSystems Personal Edition to help prospects test Agent Workbench without needing their own AI models.Â  These trial AI Models have the following fixed usage limits and cannot be renewed:
 
 * Request Limits per Tenant: 1000
 
@@ -109,7 +114,7 @@ Yes. Trial models, Claude 3.7 Sonnet, and Amazon Nova Pro are supported by defau
 Once the limit is reached, additional calls return an error. In the ODC Portal's AI models console, the trial card shows that the limit has been reached.
 How the error information reaches the agent's end user depends on your Agentic app design. The event is always logged and visible in the ODC Portal, on the Logs page.
 
-As described above, AI trial models cannot be renewed.  If you have your own paid AI models, you can add them to your OutSystems Personal Edition.
+As described above, AI trial models cannot be renewed. If you have your own paid AI models, you can add them to your OutSystems Personal Edition.
 
 **Is Mentor available in the OutSystems Personal Edition?**
 
@@ -137,7 +142,7 @@ No. The OutSystems Personal Edition is limited to one stage, the Development sta
 
 **Is there any limit on the number of users who can access the apps built with the Personal Edition?**
 
-Yes. Up to 100 users; however, we don’t recommend exceeding dozens of users since these tenants are not ready for production loads, and the experience degrades.
+Yes. Up to 100 users; however, we donâ€™t recommend exceeding dozens of users since these tenants are not ready for production loads, and the experience degrades.
 
 **Are we retiring O11 Personal Edition?**
 
@@ -157,7 +162,7 @@ Yes. Although no direct migration between OutSystems Personal Editions is in pla
 
 **What's the service level agreement (SLA) for the OutSystems Personal Edition?**
 
-There aren’t SLAs for OutSystems Personal Editions. The OutSystems Personal Edition is set to be up and running 24x7 without interruptions. However, as a free offering, there are no SLAs for availability or performance.
+There arenâ€™t SLAs for OutSystems Personal Editions. The OutSystems Personal Edition is set to be up and running 24x7 without interruptions. However, as a free offering, there are no SLAs for availability or performance.
 
 **What kind of support is available?**
 
@@ -186,6 +191,6 @@ Yes. You can invite other team members to your own Personal Edition. This allows
 
 Yes. Not immediately at the ONE Conference. However, the Developer Relations team plans to ensure that ODC Forge assets count towards your community profile ranking. Any points you've already earned from Forge assets are also taken into account when this is rolled out.
 
-**Can I transfer the Forge assets I uploaded in my Company’s tenant to my OutSystems Personal Edition?**
+**Can I transfer the Forge assets I uploaded in my Companyâ€™s tenant to my OutSystems Personal Edition?**
 
 There isn't an automated process for this. After submitting a first asset through their OutSystems Personal Edition to Forge, Community users should open a Support Case. The request must include proof that their Company acknowledges the ownership transfer of the Forge asset.
