@@ -1,6 +1,10 @@
 ---
 summary: OutSystems 11 (O11) allows customer-initiated penetration testing on its various deployment infrastructures, providing guidelines for managing false positives.
-tags: penetration testing, security testing, cloud infrastructure, false positives, vulnerability scans
+tags:
+  - Infrastructure
+  - Security
+  - Testing
+  - Troubleshooting
 locale: en-us
 guid: 43176740-324f-4592-a993-5d4f9fa660fb
 app_type: traditional web apps, mobile apps, reactive web apps
@@ -13,6 +17,8 @@ outsystems-tools:
   - none
 coverage-type:
   - apply
+  - unblock
+isautopublish: true
 ---
 
 # Penetration testing
@@ -82,6 +88,10 @@ The .js.map files are used during debugging to unminify source code. These files
 
 The version of IdentityServer4 used by the OutSystems platform is vulnerable to [CVE-2024-39694](https://nvd.nist.gov/vuln/detail/cve-2024-39694). The OutSystems Platform code is not affected by this vulnerability.
 
+#### Newtonsoft.Json flagged as a vulnerable library
+
+A version of Newtonsoft.Json vulnerable to [CVE-2024-21907](https://nvd.nist.gov/vuln/detail/CVE-2024-21907) is installed by O11 Platform Server. However, it is not used in a manner which is exploitable.
+
 ## Support from OutSystems
 
 OutSystems support and security teams are ready to discuss the findings of the penetration tests with you under the following conditions:
@@ -97,14 +107,14 @@ Support's reply may include the following:
 
 Furthermore, the following tables can help you understand the responsibilities and expectations by deployment model:
 
-**OutSystems Cloud & hybrid**
+### OutSystems Cloud & hybrid
 
 | | Responsibilities | Expectations |
 | ------------ | ------------------ | -------------- |
 | Customer | <ul><li>Deploy and manage OutSystems on self managed servers</li><li>Execute the penetration tests</li></ul> | <ul><li>The customer has knowledge of how to configure and manage OutSystems and underlying technologies</li><li>The customer has knowledge of the tool(s) used to perform penetration tests</li><li>The customer is responsible for executing the tests, collecting the results, reviewing the results, performing the necessary correction and re-checking</li></ul> |
 | OutSystems | <ul><li>Maintain and manage OutSystems Cloud</li><li>Help customers set up the hybrid infrastructure</li><li>Provide support to customers on issues related to the product and deployment</li></ul> | <ul><li>Has expert knowledge on OutSystems cloud</li><li>Has expert knowledge on OutSystems</li><li>Is able to help customers with OutSystems related issues [(support terms)](https://www.outsystems.com/legal/success/support-terms-and-service-level-agreements-sla-of-the-outsystems-software/)</li><li>Is able to reply to Customer questions</li></ul> |
 
-**Self-managed**
+### Self-managed
 
 | | Responsibilities | Expectations |
 | ------------ | ----------------- | -------------- |
