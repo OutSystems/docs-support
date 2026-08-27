@@ -1,5 +1,5 @@
 ---
-summary: This article explains the cause, impact, and recommended action for an out of range error that occurs while connecting to the destination server.
+summary: "OS-DP-STREAM-00011 gRPC out of range error prevents log streaming to your destination server in OutSystems platform — check your APM tool."
 tags: error handling, server configuration, log streaming, debugging
 guid: 5e81b73d-2962-44ad-91ca-b798d1106975
 locale: en-us

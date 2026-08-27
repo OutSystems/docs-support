@@ -1,5 +1,5 @@
 ---
-summary: This article explains the cause, impact, and recommended action for an internal error that occurs while connecting to the destination server.
+summary: OS-DP-STREAM-00013 error occurs when the destination server returns a gRPC 13 (Internal) response during log streaming setup in OutSystems platform.
 tags: log streaming, error handling, connection issues, grpc, application performance management
 guid: 1b6ec9da-271f-450b-9ae3-da4202959284
 locale: en-us

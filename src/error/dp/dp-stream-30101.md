@@ -1,5 +1,5 @@
 ---
-summary: This article explains the cause, impact, and recommended action for an error that occurs when trying to establish a connection with the destination server.
+summary: OS-DP-STREAM-30101 error occurs when the destination server returns HTTP 301. Update the endpoint URL in ODC Portal or LifeTime to fix log streaming.
 tags: authentication errors, apm integration, error handling, server configuration, troubleshooting
 guid: 042164ed-3061-4065-aab9-6ee49b6ea162
 locale: en-us

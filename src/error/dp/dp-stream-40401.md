@@ -1,5 +1,5 @@
 ---
-summary: This article explains the cause, impact, and recommended action for a connection error that occurs while connecting to the APM tool server.
+summary: "OS-DP-STREAM-40401 error occurs when an authorization failure blocks the APM tool connection, stopping log or observability data streaming in OutSystems platform."
 tags: error handling, connection issues, apm integration, authorization errors, configuration management
 guid: 4215f2bc-42a9-4691-8b52-16081feec796
 locale: en-us

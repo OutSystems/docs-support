@@ -1,5 +1,5 @@
 ---
-summary: This article explains the cause, impact, and recommended action for an HTTP server error on the APM tool server.
+summary: OS-DP-STREAM-50001 error occurs when the destination server returns HTTP 501, blocking log streaming to your APM tool in OutSystems platform.
 tags: http errors, server configuration, log streaming, error handling, outsystems platform
 guid: ac049693-902b-4a08-b48a-7be166c5a65a
 locale: en-us

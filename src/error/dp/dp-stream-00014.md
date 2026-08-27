@@ -1,5 +1,5 @@
 ---
-summary: This article explains the cause, impact, and recommended action for an unavailable error that occurs while connecting to the destination server.
+summary: OS-DP-STREAM-00014 error in OutSystems platform log streaming occurs when the destination server returns a gRPC 14 (Unavailable) response.
 tags: error handling, server configuration, log streaming, grpc, connectivity issues
 guid: 27eae43b-b5fa-4c13-9a81-fa4a58b5e67a
 locale: en-us

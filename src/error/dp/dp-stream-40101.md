@@ -1,5 +1,5 @@
 ---
-summary: This article explains the cause, impact, and recommended action for an authentication error that occurs while connecting to the APM tool server.
+summary: "OS-DP-STREAM-40101 authentication error blocks APM tool streaming in OutSystems platform: review endpoint URL and credentials."
 tags: authentication errors, apm integration, error handling, server configuration, troubleshooting
 guid: dc20e2a7-e5a2-4ef3-91b9-adfc0c905209
 locale: en-us

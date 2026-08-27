@@ -1,5 +1,5 @@
 ---
-summary: This article explains the cause, impact, and recommended action for an authorization error that occurs while connecting to the APM tool server.
+summary: "OS-DP-STREAM-40301 authorization error when connecting to the APM tool server in OutSystems platform: causes, impact, and fix steps."
 tags: authorization errors, error handling, server configuration, technical support
 guid: f234f28c-ba08-47d8-8a69-4e918ae3ab8c
 locale: en-us
