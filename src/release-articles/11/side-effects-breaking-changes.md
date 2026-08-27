@@ -1,10 +1,26 @@
 ---
-summary: The article details the side effects and breaking changes in OutSystems 11
-tags: 
+summary: OutSystems 11 (O11) side effects and breaking changes by Platform Server version, covering database deprecations, regex timeouts, and upgrade impacts.
+tags:
+  - Authentication
+  - Deploy
+  - Extensions
+  - External Databases
+  - Platform Server
+  - SAML
+  - Security
 locale: en-us
 guid: 2cfe6cf6-118b-41dc-b4f3-a36ed20a3841
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
+isautopublish: true
+coverage-type:
+  - remember
+  - apply
+  - unblock
+audience:
+  - Developer
+  - Platform administrator
+  - Tech lead
 ---
 # OutSystems 11 side effects and breaking changes
 
@@ -457,6 +473,16 @@ This affects custom implementations of a native dropdown making use of HTML Elem
 **Rationale**: Upgrading to React 16 allows to take advantage of performance and security improvements while keeping an updated framework.
 
 **Fix**: A temporary workaround is to remove the children of the option element and create a `label` attribute with the desired text.
+
+4\. <a id="bc-11120-4"></a>
+
+**Issue**: Publishing a module with a static entity whose identifier is a foreign key to a static entity in another module fails with an `Invalid compiler output` internal error.
+
+**Runtime**: Traditional web, Reactive web, Mobile
+
+**Rationale**: Assigning a hardcoded value to the identifier of a static entity record isn't supported when that identifier is a foreign key to another static entity, because the platform doesn't validate that the value matches a record of the referenced static entity. In earlier versions, the pattern worked unintentionally.
+
+**Fix**: Change the data model so that the static entity has its own identifier, and add a separate attribute that holds the foreign key to the other static entity.
 
 ### Introduced in Platform Server 11.11.1
 
