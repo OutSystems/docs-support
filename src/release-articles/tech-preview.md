@@ -1,18 +1,24 @@
 ---
 summary: OutSystems offers Technical Preview features for early testing and feedback, which are not production-ready and require manual activation.
 tags:
-    - Infrastructure
-    - Lifecycle
-    - Mobile app
-    - REST
+  - Development lifecycle
+  - Infrastructure
+  - Lifecycle
+  - Mobile app
+  - REST
 coverage-type:
-    - understand
-    - apply
+  - understand
+  - apply
 locale: en-us
 guid: 60B738CE-9DC3-4C1F-8269-9B857668FBE4
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
 figma: https://www.figma.com/file/UXA74OsZxSIzLLsjhvNMjC/Release-Notes?type=design&node-id=908%3A326&mode=design&t=PXROiQwbSufNHSiC-1
+isautopublish: true
+audience:
+  - Developer
+  - Platform administrator
+  - Tech lead
 ---
 # Technical Preview features
 
@@ -46,3 +52,5 @@ For self-managed installations, Technical Preview is at **Infrastructure** > **T
 * **PATCH method on exposed REST services**: PATCH in an exposed REST Service. This new feature enables users to partially update a resource. [Learn more about this feature](https://success.outsystems.com/Documentation/11/Extensibility_and_Integration/REST/Expose_REST_APIs/PATCH_method_on_exposed_REST_services).
 
 * **Configure mobile apps update distribution**:  Choose how your existing users receive mobile apps' updates: automatically through your servers or manually through app stores. To use this feature, it must be enabled in all environments. [Learn more about this feature](https://success.outsystems.com/Documentation/11/Delivering_Mobile_Apps/Technical_Preview_-_Configure_mobile_apps_updates_distribution).
+
+* **Performance Analytics for Reactive and Mobile apps**: Monitor real-time performance metrics for your Reactive and Mobile apps in Lifetime Analytics, including latency, error rates, and screen load times. [Learn more about this feature](https://success.outsystems.com/documentation/11/monitoring_and_troubleshooting_apps/performance_analytics_for_reactive_and_mobile_apps/).
