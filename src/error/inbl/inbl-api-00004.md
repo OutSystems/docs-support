@@ -1,5 +1,5 @@
 ---
-summary: User with username <Username> was not found.
+summary: OS-INBL-API-00004 OutSystems 11 (O11) error appears when your Integration Builder username isn't registered, blocking Integration Manager connections.
 tags: error handling, api integration, user management, debugging, technical support
 locale: en-us
 guid: a15f4363-343a-45aa-8bc2-89948feb02f6

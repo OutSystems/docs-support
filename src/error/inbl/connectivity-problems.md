@@ -1,5 +1,5 @@
 ---
-summary: Connectivity problems with Integration Builder or Workflow Builder
+summary: "Integration Builder or Workflow Builder connectivity error in OutSystems 11 (O11): fix environment name errors and network access issues."
 tags: connectivity issues, environment configuration, network requirements, error handling, access troubleshooting
 helpids: 30403
 locale: en-us

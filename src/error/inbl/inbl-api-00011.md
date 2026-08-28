@@ -1,5 +1,5 @@
 ---
-summary: Environment <Hostname> isn't authorized to access the Integration Builder. Contact OutSystems Support to confirm its authorization.
+summary: "OS-INBL-API-00011 error in OutSystems 11 (O11) occurs when an environment isn't registered in Integration Builder. Add it in Settings."
 tags: integration builder, security, environment configuration, api authorization, error handling
 locale: en-us
 guid: 5bda389f-0bd2-414f-a770-895181227675

@@ -1,5 +1,5 @@
 ---
-summary: This is an automated message returned by the external system The session ID or OAuth token used has expired or is invalid. The response body contains the message and errorCode.
+summary: OS-INBL-API-00050 error in OutSystems 11 (O11) Integration Builder occurs when a Salesforce OAuth token expires or is revoked. Reauthorize to fix it.
 tags: api integration, salesforce integration, authorization errors, oauth tokens, error handling
 locale: en-us
 guid: e39dec90-b129-49c1-8cd3-b712a1a653f1

@@ -1,6 +1,6 @@
 ---
 platform-version: o11
-summary: Recomended actions for the error "An error occurred while getting a token from the Microsoft Identity Platform" in Integration Builder.
+summary: OS-INBL-API-00038 error in Integration Manager occurs when a Microsoft Entra App Registration has an expired or mismatched certificate.
 tags: azure ad, app registration, certificate management, token authentication, error handling
 locale: en-us
 guid: 70184542-5898-4a4d-aac5-13733efe603a
