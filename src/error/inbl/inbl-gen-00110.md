@@ -8,7 +8,6 @@ app_type: traditional web apps, mobile apps, reactive web apps
 figma:
 audience:
   - Developer
-  - Platform administrator
 outsystems-tools:
   - integration builder
   - service studio
