@@ -12,7 +12,7 @@ audience:
 outsystems-tools:
   - lifetime
 coverage-type:
-  - none
+  - unblock
 ---
 
 # Streaming errors
