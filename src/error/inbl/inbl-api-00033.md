@@ -1,6 +1,8 @@
 ---
-summary: "OS-INBL-API-00030 in OutSystems 11 (O11): Integration Builder deleted the connection locally but failed to remove it from Azure Active Directory."
-tags: error handling, integration issues, azure active directory, api management, application deletion
+summary: The connection was deleted locally, but we could not delete the connection on the Microsoft's servers. You'll need to access Microsoft Azure Active Diretory if you want to delete it manually. Error details "<"Message">".
+tags:
+  - Active Directory
+  - Troubleshooting
 locale: en-us
 guid: 8870894b-d028-45f3-b936-77eca9d85d93
 app_type: traditional web apps, mobile apps, reactive web apps

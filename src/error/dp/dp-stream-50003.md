@@ -1,6 +1,9 @@
 ---
-summary: OS-DP-STREAM-50003 error in OutSystems Developer Cloud (ODC) indicates an HTTP 503 response from the APM tool, blocking observability data or log streaming.
-tags: error handling, troubleshooting, outsystems platform, http errors
+summary: This article explains the cause, impact, and recommended action for an HTTP server error on the APM tool server.
+tags:
+  - Logging
+  - Monitoring
+  - Troubleshooting
 guid: 39bf1b0d-e7a6-48b8-aece-5bc20b49e0ff
 locale: en-us
 app_type: traditional web apps, mobile apps, reactive web apps

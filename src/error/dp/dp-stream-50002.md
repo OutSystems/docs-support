@@ -1,6 +1,9 @@
 ---
-summary: OS-DP-STREAM-50002 occurs when the APM tool server returns HTTP 502, blocking observability data or log streaming in OutSystems platform.
-tags: apm integration, http errors, troubleshooting, server communication, error handling
+summary: This article explains the cause, impact, and recommended action for an HTTP server error on the APM tool server.
+tags:
+  - Logging
+  - Monitoring
+  - Troubleshooting
 guid: d02885d3-84f9-48a0-bc4a-29576356ebc6
 locale: en-us
 app_type: traditional web apps, mobile apps, reactive web apps

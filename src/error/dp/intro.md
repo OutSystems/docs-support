@@ -1,6 +1,9 @@
 ---
 summary: Causes and resolution for errors during log streaming configuration.
-tags: error handling, log streaming, application performance monitoring, configuration issues, error codes
+tags:
+  - Logging
+  - Monitoring
+  - Troubleshooting
 locale: en-us
 guid: e2842ef5-6813-4c4e-801b-407b5a265b18
 app_type: traditional web apps, mobile apps, reactive web apps

@@ -1,6 +1,8 @@
 ---
-summary: "OS-INBL-API-00021 in OutSystems 11 (O11) Integration Builder: Salesforce refused the request due to missing permissions or exceeded API limits."
-tags: api limit, error handling, salesforce integration, connection setup, permission issues
+summary: This is an automated message returned by the external system "The request has been refused. Verify that the logged-in user has appropriate permissions. If the error code is REQUEST_LIMIT_EXCEEDED, you’ve exceeded API request limits in your org.
+tags:
+  - Authorization
+  - Troubleshooting
 locale: en-us
 guid: 0f597359-a284-4333-9c8d-188d2bca134f
 app_type: traditional web apps, mobile apps, reactive web apps

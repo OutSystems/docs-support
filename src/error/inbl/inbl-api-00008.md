@@ -1,6 +1,7 @@
 ---
-summary: OS-INBL-API-00008 Integration Builder error when the integration key is not found or deleted, blocking connection assignment in Integration Manager.
-tags: api integration, error handling, integration management, support, integration builder
+summary: No integration was found for the "Key" with <value>.
+tags:
+  - Troubleshooting
 locale: en-us
 guid: 96d6ec2a-be91-4af8-813c-f94a314d5b2a
 app_type: traditional web apps, mobile apps, reactive web apps
