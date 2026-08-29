@@ -1,5 +1,5 @@
 ---
-summary: Publish failed with an error "<OriginalErrorMessage>" For more details, check the Service Center Error logs of the remote server.
+summary: OS-INBL-GEN-00032 error in OutSystems 11 (O11) Integration Builder occurs during publish; check Service Center logs to find the original error.
 tags: error handling, debugging, publishing integrations, log analysis, outsystems platform
 locale: en-us
 guid: b08134f6-e2e0-4c43-a55a-8990a11a011a

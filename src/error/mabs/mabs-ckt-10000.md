@@ -1,5 +1,5 @@
 ---
-summary: It looks like the connection timed out. Please try again.
+summary: "OS-MABS-CKT-10000 connection timeout stops mobile app package generation on the OutSystems platform; retry the build and check Service Center logs."
 tags: error handling, application building, mobile app development, troubleshooting, support procedures
 guid: d7be5dc1-bd90-4322-892e-fd67a8a2aabc
 locale: en-us

@@ -1,5 +1,5 @@
 ---
-summary: There was an unexpected error. If the problem persists, contact OutSystems Support.
+summary: OS-INBL-GEN-50002 error in OutSystems 11 (O11) Integration Builder occurs when module generation fails, blocking integration publishing.
 tags: error handling, integration publishing issues, support procedures, troubleshooting
 locale: en-us
 guid: 9fd36cc7-2725-4147-9c40-c087a9e5e50d

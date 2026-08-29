@@ -1,5 +1,5 @@
 ---
-summary: There's an icon missing in your extensibility configurations with {0}.
+summary: OS-MABS-CNF-40000 error occurs when an icon is missing in extensibility configurations, preventing app package generation in OutSystems.
 tags: error handling, app packaging, mobile app development, app configuration, outsystems platform
 guid: 3609e34e-2ec9-4454-bc4c-ab8094c37881
 locale: en-us
