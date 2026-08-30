@@ -1,5 +1,5 @@
 ---
-summary: This icon file is not supported, choose another one.
+summary: OS-MABS-CST-40000 MABS error means the app icon is invalid. Validate the icon format to generate your OutSystems platform mobile application package.
 tags: mobile app development, application packaging, error handling, application deployment, outsystems support
 guid: b05211bd-0a4e-4fe5-bd4a-6275c681040b
 locale: en-us

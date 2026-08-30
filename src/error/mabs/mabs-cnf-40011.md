@@ -1,5 +1,5 @@
 ---
-summary: Restricted path for the resource declared in the extensibility configurations.
+summary: OS-MABS-CNF-40011 error occurs when a resource in extensibility configurations points to a restricted path outside the Cordova project root.
 tags: extensibility configurations, mobile app development, cordova project, error handling
 guid: 1fba16c8-f7ca-400c-8824-9bc0a167f51c
 locale: en-us

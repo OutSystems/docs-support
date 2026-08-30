@@ -1,5 +1,5 @@
 ---
-summary: Missing property {0} on {1} in your extensibility configurations. Review it and try again.
+summary: MABS error OS-MABS-CNF-40006 on the OutSystems platform occurs when a required property is missing in extensibility configurations.
 tags: extensibility, configuration, error handling, mobile app development, json
 guid: c77550a1-5774-42a1-a51a-89db2c68e73d
 locale: en-us

@@ -1,5 +1,5 @@
 ---
-summary: No Resources file found. Check your extensibility configurations and try again.
+summary: OS-MABS-CNF-40004 error occurs when the resource path in extensibility configurations doesn't exist, blocking mobile app package generation in OutSystems.
 tags: mobile app development, application packaging, extensibility, configuration management, error handling
 guid: d3d3150d-b470-495a-a87e-f1f49a48892a
 locale: en-us
