@@ -12,6 +12,8 @@ pageprivacy: public
 <ul>
 <li>Service Studio now warns when LDAP_Search, LDAP_Search_WithAuthenticationType, or LDAP_Login from the Authentication extension are used with a filter that may contain unescaped, unsafe user input, helping prevent LDAP injection. The warning clears once the filter is built safely with LdapFilterEncode. (R11BRT-2509)</li>
 </ul>
-
+<h3 id="bug_fixing_cross-platform_service_studio_11.55.86" >Bug Fixing</h3>
+<ul>
+<li>Fixed memory leaks when switching between screens and blocks. (RDEV-10097)</li>
 </ul>
 
