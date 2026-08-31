@@ -1,5 +1,5 @@
 ---
-summary: Your app wasn’t generated because we couldn’t fetch its dependencies from the repository server {0}. Please check your access to this repository and try again.
+summary: OS-MABS-GEN-10000 error blocks Android app generation in OutSystems MABS when plugin dependencies fail to load from a Maven repository.
 tags: mobile app building, dependency management, android development, build issues, maven repository
 guid: 93d34f9f-2063-48a2-87c8-cecf6610a06c
 locale: en-us

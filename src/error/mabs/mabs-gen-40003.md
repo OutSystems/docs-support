@@ -1,5 +1,5 @@
 ---
-summary: There was an issue generating the app. At least one Cordova plugin used in the build requires Swift, but no ”Swift Language Version” build setting was defined. Check your plugin configurations and try again.
+summary: OS-MABS-GEN-40003 error occurs in OutSystems platform when a Cordova plugin requires Swift but no Swift Language Version is set in the iOS build.
 tags: ios app development, cordova plugins, swift configuration, mobile app build, error resolution
 guid: dcef6454-300b-4c9a-a6ae-4bbca583a32a
 locale: en-us

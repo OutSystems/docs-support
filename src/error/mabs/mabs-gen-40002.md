@@ -1,5 +1,5 @@
 ---
-summary: We couldn’t process your resources because at least one file isn’t in PNG format. Please review your image files.
+summary: OS-MABS-GEN-40002 error occurs when Android app build fails due to a non-PNG resource file. Check build logs and replace the invalid file.
 tags: error handling, android app development, build process, application packaging, debugging
 guid: 1e0b2a2a-0e47-43e8-93f3-ea34f9a5bc9f
 locale: en-us

@@ -1,5 +1,5 @@
 ---
-summary: Your app wasn’t generated because the required dependency for the {0} node module in a plugin hook was missing. Check the product documentation on how to ensure your plugins node dependencies.
+summary: OS-MABS-GEN-20001 causes OutSystems platform app generation to fail when a custom plugin hook has a missing node module dependency.
 tags: plugin management, dependency management, build failures, mobile app build, outsystems platform
 guid: acc20652-0581-4457-83fd-992a8dbd43d6
 locale: en-us

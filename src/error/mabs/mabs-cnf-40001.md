@@ -1,5 +1,5 @@
 ---
-summary: There's a splash screen missing in your extensibility configurations with {0}.
+summary: OS-MABS-CNF-40001 error occurs when the splash screen density or size is missing in the OutSystems platform extensibility configurations.
 tags: mobile app development, splash screen configuration, extensibility, error handling, mobile app packaging
 guid: 8fce2d5f-62b5-41fa-b865-61ce9d8ead3f
 locale: en-us
