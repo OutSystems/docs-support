@@ -1,5 +1,5 @@
 ---
-summary: Couldn't generate your app. For "<type>" type elements with defined intent filters, you must declare the value for the attribute "android-exported" in all AndroidManifest.xml files.
+summary: "OS-MABS-GEN-40016 error fix: declare android:exported in AndroidManifest.xml for custom plugins using MABS 8.0 or higher."
 tags: android development, android manifest, application packaging, plugin development, mabs
 guid: c780d4d5-d779-434a-8a34-391faf16cd79
 locale: en-us

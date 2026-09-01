@@ -1,5 +1,5 @@
 ---
-summary: There was an issue generating the app. At least one Cordova plugin is not compatible with the ”Swift Language Version” build setting that was defined. Check your plugin configurations and try again.
+summary: "OS-MABS-GEN-40015 error occurs when a Cordova plugin is incompatible with the Swift Language Version build setting in OutSystems mobile app generation."
 tags: mobile app development, ios, cordova plugins, swift language, error handling
 guid: 845308e6-f01c-4b24-be56-0924158c7db8
 locale: en-us

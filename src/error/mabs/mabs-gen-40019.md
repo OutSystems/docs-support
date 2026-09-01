@@ -1,5 +1,5 @@
 ---
-summary: Couldn't compile the Cordova plugin <plugin_name>. Review your plugin configurations and check our documentation for more information if the problem persists.
+summary: OS-MABS-GEN-40019 Cordova plugin compilation failure on OutSystems platform due to malformed resources; check Service Center build logs to resolve.
 tags: mobile app development, cordova plugins, compilation errors, plugin configuration, error handling
 guid: aa28c280-cf1b-4279-802f-456617bbb753
 locale: en-us

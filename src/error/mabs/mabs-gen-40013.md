@@ -1,5 +1,5 @@
 ---
-summary: There was an issue generating the app. Using “requireCordovaModule” to load non-cordova module {0} is not supported. Instead, add this module to your dependencies and use regular “require” to load it.
+summary: "OS-MABS-GEN-40013 in OutSystems platform mobile builds: replace requireCordovaModule with require in your Cordova plugin to load non-cordova modules."
 tags: cordova plugins, mobile app build and deployment, error handling, plugin development, debugging
 guid: 9e1ac667-436a-488a-bfa5-9dd2c4ad2de9
 locale: en-us

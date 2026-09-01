@@ -1,5 +1,5 @@
 ---
-summary: There was an issue generating the app. Some plugins using CocoaPods aren’t correctly configured or a pod wasn’t found in the repository. Check your plugin configurations and try again.
+summary: OS-MABS-GEN-40012 iOS app generation fails due to misconfigured CocoaPods plugins; check build logs and plugin configuration to resolve it.
 tags: mobile app deployment, cocoapods configuration, ios app packaging, build logs, outsystems support
 guid: 971cea53-2f31-4a83-91aa-c413944cd3c1
 locale: en-us
