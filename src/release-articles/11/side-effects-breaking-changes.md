@@ -22,6 +22,7 @@ audience:
   - Platform administrator
   - Tech lead
 ---
+
 # OutSystems 11 side effects and breaking changes
 
 This document lists the side effects and breaking changes introduced in the different versions of OutSystems 11.
@@ -30,7 +31,7 @@ OutSystems is committed to minimizing your effort when upgrading to a new releas
 
 As such, before introducing a breaking change for a new release, OutSystems carefully analyzes its impact, namely, the expected number of occurrences in its customers' installations. A breaking change is introduced only if it affects a small number of customers.
 
-## Breaking Changes
+## Breaking changes
 
 ### Introduced in Platform Server 11.40.0
 
@@ -172,9 +173,9 @@ In the future, OutSystems may, at its own discretion, drop support for other dat
 
 When disabled it checks if there are any **different** signatures in the referenced elements of a consumer module and refreshes all of them (within that module) in case it finds one, which can unnecessarily increase publishing times.
 
-However, when the parameter is enabled it checks if there are any **incompatible** signatures in the referenced elements of a consumer module and only refreshes all of them (within that module) in case it finds one. Making this the new default behaviour shouldn’t cause any disruption in the solution publication experience, and will overall result in better publishing times.
+However, when the parameter is enabled it checks if there are any **incompatible** signatures in the referenced elements of a consumer module and only refreshes all of them (within that module) in case it finds one. Making this the new default behavior shouldn’t cause any disruption in the solution publication experience, and will overall result in better publishing times.
 
-**Fix**: This behaviour can be changed back by installing version 11.2.0 of the Factory Configuration application or higher and unchecking the option “Refresh only broken dependencies in solution publish” under the Platform Configurations screen.
+**Fix**: This behavior can be changed back by installing version 11.2.0 of the Factory Configuration application or higher and unchecking the option “Refresh only broken dependencies in solution publish” under the Platform Configurations screen.
 
 ### Introduced in Platform Server 11.25.0
 
@@ -205,7 +206,7 @@ In the future, OutSystems may, at its own discretion, drop support for other dat
 
 **Runtime**: Traditional web, Reactive web, Mobile
 
-**Rationale**: An upgrade was made in the Excel file processing library used in OutSystems 11. This upgrade comes with some breaking changes when compared to the version previously used.
+**Rationale**: An upgrade was made in the Excel file processing library (GemBox.Spreadsheet) used in OutSystems 11. This upgrade comes with some breaking changes when compared to the version previously used.
 
 **Fix**: Change the Excel files content so that it is compliant with the breaking changes related to value differences.
 
@@ -225,9 +226,27 @@ In the future, OutSystems may, at its own discretion, drop support for other dat
 
 **Runtime**: Traditional web, Reactive web, Mobile
 
-**Rationale**: An upgrade was made in the Excel file processing that is used in OutSystems 11. Now, it is not possible to use the Strict Open XML format.
+**Rationale**: An upgrade was made in the Excel file processing library (GemBox.Spreadsheet) used in OutSystems 11. This upgrade comes with some breaking changes when compared to the version previously used. Now, it's not possible to use the Strict Open XML format.
 
 **Fix**: Save the file using the **Excel Workbook** option.
+
+4\. <a id="bc-11240-4"></a>
+
+**Issue**: In-cell line breaks (text wrapped via `Alt+Enter` in Excel files) are now imported as `LF (\n)` instead of `CRLF (\r\n)` when processed with **ExcelToRecordList**.
+
+* Multi-line cell values from **ExcelToRecordList** now contain `LF (\n)` instead of `CRLF (\r\n)`. The difference lies in a behavioral change inside the GemBox.Spreadsheet DLL: v3.3 internally normalized in-cell `LF` to `CRLF` on Windows; v4.5 and later, removed that normalization and returns the character as stored in the `.xlsx` XML (`LF` only, per ECMA-376).
+
+**Runtime**: Traditional web, Reactive web, Mobile
+
+**Rationale**: An upgrade was made in the Excel file processing library (GemBox.Spreadsheet) used in OutSystems 11. This upgrade comes with some breaking changes when compared to the version previously used. The new `LF` behavior is correct and expected, as it aligns with the standard OOXML specification.
+
+**Fix**: For application logic requiring strict `CRLF` line breaks, add an **Assign** node immediately after **ExcelToRecordList** to normalize the text. Example:
+
+    NormalizedText = Replace(
+        Replace(ExcelToRecordList.Current.Column1, Chr(13) + Chr(10), Chr(10)),
+        Chr(10),
+        Chr(13) + Chr(10)
+    )
 
 ### Introduced in Platform Server 11.21.0 { #bc-11210-1 }
 
@@ -403,7 +422,7 @@ If this is not possible, you have to upgrade to Platform Server 11.21.0  or abov
 
 **Runtime**: Traditional web, Reactive web, Mobile  
 
-**Rationale**: This is a security fix to ensure that our customers do not have a backdoor in their business applications once they configure a Federated SSO mechanism in their environments. Disallowing local users is the intended behaviour of the SAML authentication feature (for example, OKTA, Microsoft Entra, and SAML 2.0) when configured as the authentication mechanism.  
+**Rationale**: This is a security fix to ensure that our customers do not have a backdoor in their business applications once they configure a Federated SSO mechanism in their environments. Disallowing local users is the intended behavior of the SAML authentication feature (for example, OKTA, Microsoft Entra, and SAML 2.0) when configured as the authentication mechanism.  
 
 **Workaround**: This security fix can be disabled in Factory Configuration to allow built-in authentication fallback when using SAML providers. The security fix will be enabled by default to ensure customers are aware of the implications and the decision to turn it off should be a well-thought decision. Any customer that decides to opt-out of this security fix is responsible to ensure that the backdoor they have in their business applications is protected with the right permissions in their environments.
 The Factory Configuration setting is called **Disable built-in authentication fallback when using SAML** and can be found under **Platform Configurations**.
@@ -1019,7 +1038,7 @@ For example, the sent decimal values `10.000` and `10.1000` are deserialized to 
 
 **Workaround**: To truncate a value, change the deserialized attribute data type to Decimal instead of  Text.
 
-## Side Effects
+## Side effects
 
 ### Introduced in Platform Server 11.14.0
 
