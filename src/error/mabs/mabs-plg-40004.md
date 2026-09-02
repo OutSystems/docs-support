@@ -1,5 +1,5 @@
 ---
-summary: Couldn't install the Cordova plugin <plugin_name> due to an error in the plugin.xml file. The Spec attribute in the Framework element related to CocoaPods is invalid.
+summary: "Cordova plugin.xml errors on the OutSystems platform: a missing Spec attribute in the Framework element blocks CocoaPods-based iOS packaging."
 tags: cordova, ios development, plugin configuration, cocoapods, error handling
 locale: en-us
 app_type: mobile apps
