@@ -1,5 +1,5 @@
 ---
-summary: There was an issue in the connection to a server. This might be caused by a server downtime.
+summary: OS-MABS-PLF-50001 occurs when OutSystems platform fails to download dependencies bootstrapping your mobile app build; retry and check build logs.
 tags: error handling, mobile app build process, dependency management, server downtime
 locale: en-us
 app_type: mobile apps

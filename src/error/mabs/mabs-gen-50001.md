@@ -1,5 +1,5 @@
 ---
-summary: Your app wasn’t generated because we couldn’t fetch its dependencies from the repository server {0} due to a server error. Please try again.
+summary: OS-MABS-GEN-50001 error occurs when a maven repository server outage blocks dependency downloads during Android app package generation in OutSystems.
 tags: mobile app generation, dependency management, server downtime, maven repository, build logs
 guid: be168032-545a-43eb-814c-b599b0b58547
 locale: en-us

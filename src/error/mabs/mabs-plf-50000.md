@@ -1,5 +1,5 @@
 ---
-summary: Something happened on our side. Please try again.
+summary: OS-MABS-PLF-50000 troubleshooting resolves mobile app package generation failures from MABS cordova bootstrap errors on the OutSystems platform.
 tags: mobile app building, outsystems, error handling, troubleshooting, app deployment
 locale: en-us
 app_type: mobile apps

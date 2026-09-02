@@ -1,5 +1,5 @@
 ---
-summary: Something happened on our side while packaging your app. Please try again.
+summary: MABS app packaging fails when cordova project creation breaks; retry the build or check Service Center logs to resolve it.
 tags: error handling, mobile app build and deployment, cordova project, packaging errors
 guid: 11755ead-39a9-4813-badd-faa0b842780a
 locale: en-us
