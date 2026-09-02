@@ -8,8 +8,6 @@ platform-version: o11, odc
 figma:
 audience:
   - Developer
-  - Platform administrator
-  - Front-end developer
 outsystems-tools:
   - service studio
 coverage-type:
