@@ -1,6 +1,11 @@
 ---
 summary: Your app wasn't generated because we couldn't fetch its dependencies due to a CocoaPods server error. Please try again.
-tags: mobile app development, dependency management, ios, troubleshooting, error handling
+tags:
+  - Cordova
+  - iOS
+  - Mobile app
+  - Native App
+  - Troubleshooting
 locale: en-us
 app_type: mobile apps
 guid: 6b5393fd-96f3-471b-b715-a7a563ef91f7

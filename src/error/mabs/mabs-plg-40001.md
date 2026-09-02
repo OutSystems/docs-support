@@ -1,6 +1,10 @@
 ---
 summary: Invalid Cordova plugin <plugin_name>.
-tags: cordova plugins, mobile app build process, mobile app extensibility, error handling, troubleshooting
+tags:
+  - Cordova
+  - Mobile app
+  - Plugins
+  - Troubleshooting
 locale: en-us
 app_type: mobile apps
 guid: 5df80ef3-c2c1-4bd6-be71-d4e8a59b30bc

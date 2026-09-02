@@ -1,6 +1,10 @@
 ---
 summary: Couldn't install the Cordova plugin <plugin_name> because one or more plugin variables are missing
-tags: cordova plugins, application packaging, plugin configuration, extensibility, mobile app development
+tags:
+  - Cordova
+  - Mobile app
+  - Plugins
+  - Troubleshooting
 locale: en-us
 app_type: mobile apps
 guid: 71e5b5d3-235f-4a68-90ee-c2d7b74d9f21

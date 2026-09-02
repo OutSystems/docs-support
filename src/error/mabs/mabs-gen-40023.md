@@ -1,6 +1,11 @@
 ---
 summary: There was an issue generating the app. A plugin is trying to access an XML file that was renamed in Cordova Android 14. The files strings.xml, colors.xml, and themes.xml are now named with a 'cdv_' prefix.
-tags: cordova android, mobile app build and deployment, error handling, plugins, debugging, cordova android 14
+tags:
+  - Android
+  - Cordova
+  - Mobile app
+  - Plugins
+  - Troubleshooting
 guid: a4c8f5e2-9d3b-4f1e-8e7a-2b6c9d4f1e3a
 locale: en-us
 app_type: mobile apps

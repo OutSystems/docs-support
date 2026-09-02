@@ -1,6 +1,10 @@
 ---
 summary: There was an issue fetching the Cordova plugin <plugin_name> because the connection timed out. Please try again.
-tags: cordova, plugin, timeout error, mobile app building, technical support
+tags:
+  - Cordova
+  - Mobile app
+  - Plugins
+  - Troubleshooting
 locale: en-us
 app_type: mobile apps
 guid: 74f4c22e-1523-44ec-8192-2c0852aeb774

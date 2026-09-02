@@ -1,6 +1,11 @@
 ---
 summary: Couldn't generate your app. Kotlin version <used_version> isn't compatible with this app. Update it to <minimum_version> or higher.
-tags: mobile development, kotlin, app generation, compatibility issues, gradle
+tags:
+  - Android
+  - Mobile app
+  - Native App
+  - Plugins
+  - Troubleshooting
 guid: 95ca1b7b-faec-4f9c-a88b-6316f0e19a88
 locale: en-us
 app_type: mobile apps

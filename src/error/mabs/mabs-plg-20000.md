@@ -1,6 +1,10 @@
 ---
 summary: Couldn't install the Cordova plugin <plugin_name> because the required dependency for the '<dependency_name>' node module in a plugin hook was missing. Check the product documentation on how to ensure all your plugins node dependencies.
-tags: cordova, plugin installation, dependency management, node.js, build environment
+tags:
+  - Cordova
+  - Mobile app
+  - Plugins
+  - Troubleshooting
 locale: en-us
 app_type: mobile apps
 guid: 70fb8768-b218-4aa3-9f2b-d9a600aa0436

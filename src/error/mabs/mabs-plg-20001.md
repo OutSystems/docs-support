@@ -1,7 +1,11 @@
 ---
 summary: Couldn't install the Cordova plugin <plugin_name> because an action was blocked due to security concerns. Contact our support team if this problem persists.
 app_type: mobile apps
-tags: cordova, plugin installation, mobile app build, security, mobile app development
+tags:
+  - Cordova
+  - Mobile app
+  - Plugins
+  - Troubleshooting
 locale: en-us
 guid: ac838037-faa8-4d0f-8835-8eb6974ca969
 platform-version: o11, odc

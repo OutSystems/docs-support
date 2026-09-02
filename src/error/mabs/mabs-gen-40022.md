@@ -1,6 +1,9 @@
 ---
 summary: There was an issue generating the app. A plugin compilation failed with the following reason{REASON}.
-tags: mobile app development, plugin development, error handling, build process, app troubleshooting
+tags:
+  - Mobile app
+  - Plugins
+  - Troubleshooting
 guid: e387366d-10b4-40bf-9212-6adbcefb0583
 locale: en-us
 app_type: mobile apps
