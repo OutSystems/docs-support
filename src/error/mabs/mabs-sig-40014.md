@@ -1,5 +1,5 @@
 ---
-summary: Please enter the right password for the alias.
+summary: "Android keystore alias password error blocks app package generation on the OutSystems platform; verify or replace the alias password to resolve it."
 tags: android development, keystore management, error handling, app packaging, mobile app publishing
 guid: 751b3c1c-a3d6-43d3-a5fe-16f72b90e027
 locale: en-us

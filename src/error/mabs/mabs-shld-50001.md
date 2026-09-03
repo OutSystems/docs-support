@@ -1,5 +1,5 @@
 ---
-summary: Something happened and your request didn't go through, please try again. If the problem persists, contact our support team.
+summary: MABS AppShield license validation error blocks app package generation; check Service Center build logs to resolve it.
 tags: error handling, troubleshooting, licensing issues, mobile app development, support process
 guid: cf23bbec-0ff5-42d4-a848-5425eccc0bfd
 locale: en-us

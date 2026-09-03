@@ -1,5 +1,5 @@
 ---
-summary: Something went wrong when validating application settings.
+summary: OS-MABS-SHLD-50002 occurs when MABS can't validate your application settings, blocking mobile app package generation.
 tags: application settings, error handling, mobile app build, troubleshooting, support
 guid: 6782f5cc-f425-414e-aff5-462435623894
 locale: en-us
