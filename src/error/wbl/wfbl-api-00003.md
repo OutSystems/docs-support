@@ -1,5 +1,5 @@
 ---
-summary: Storage error. <OriginalErrorMessage>.
+summary: OutSystems 11 (O11) Workflow Builder storage error occurs when the app can't access internal storage, blocking icon display or publishing.
 tags: error handling, internal storage, application publishing, platform troubleshooting, workflow automation
 locale: en-us
 guid: 3b8b45df-e5c5-4948-8be2-ecdfdaed186c
