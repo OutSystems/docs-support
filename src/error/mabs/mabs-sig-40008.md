@@ -1,6 +1,9 @@
 ---
 summary: There was an issue reading the certificate keys.
-tags: mobile application provisioning, ios app distribution, certificate key errors, application package generation
+tags:
+  - iOS
+  - Mobile app
+  - Troubleshooting
 guid: 95cb4024-e26a-4fe7-9775-ee5a0885cd72
 locale: en-us
 app_type: mobile apps

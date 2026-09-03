@@ -1,6 +1,9 @@
 ---
 summary: Your application identifier (<application_identifier>) and provisioning profile (<provisioning_profile>) don't match. Confirm the information for both of them.
-tags: mobile app development, ios deployment, application packaging, provisioning profiles, error handling
+tags:
+  - iOS
+  - Mobile app
+  - Troubleshooting
 guid: fb4055dc-0fe4-4c40-a86c-11a5295cda8e
 locale: en-us
 app_type: mobile apps

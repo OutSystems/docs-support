@@ -1,6 +1,9 @@
 ---
 summary: The application build type (<requestBuildType>) must match the provisioning profile (<provisioningBuildType>).
-tags: mobile app building, ios deployment, provisioning profiles, application packaging, error handling
+tags:
+  - iOS
+  - Mobile app
+  - Troubleshooting
 guid: 723b286b-06ff-494c-8160-bc6307e0b1e7
 locale: en-us
 app_type: mobile apps

@@ -1,6 +1,9 @@
 ---
 summary: Your provisioning profile has an unknown format.
-tags: provisioning profile, ios app generation, mobile app packaging, error troubleshooting
+tags:
+  - iOS
+  - Mobile app
+  - Troubleshooting
 guid: 559f997f-6e3f-4cbb-acf6-3e1d6eff703e
 locale: en-us
 app_type: mobile apps

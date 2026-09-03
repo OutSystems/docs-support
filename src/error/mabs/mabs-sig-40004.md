@@ -1,6 +1,9 @@
 ---
 summary: This certificate has an unknown file format.
-tags: ios deployment, mobile app packaging, certificate management, error resolution
+tags:
+  - iOS
+  - Mobile app
+  - Troubleshooting
 guid: 2c20cf31-4e34-414e-b8f4-50af2377c802
 locale: en-us
 app_type: mobile apps

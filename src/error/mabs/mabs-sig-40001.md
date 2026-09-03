@@ -1,6 +1,10 @@
 ---
 summary: The APS Environment &lt;value&gt; doesn't match your provisioning profile.
-tags: ios provisioning, mobile application packaging, application error resolution, push notification services
+tags:
+  - iOS
+  - Mobile app
+  - Native App
+  - Troubleshooting
 guid: 794dfe3a-7086-4b35-bc0f-3b8a03415799
 locale: en-us
 app_type: mobile apps
