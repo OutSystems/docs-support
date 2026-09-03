@@ -46,6 +46,12 @@ Common causes include:
 * The plugin was removed from the app's dependencies before the package was built.
 * The mobile package build process completed with errors that silently excluded the plugin.
 
+<div class="info" markdown="1">
+
+Before File plugin version 2.2.2 (ODC) / 4.1.3 (O11), a bug in `CheckFilePlugin` sometimes misreported this error. This happened in the OTA scenario described in [OS-PLUG-FILE-0002](os-plug-file-0002.md), where the native app was running a File plugin version older than 2.0.0 (ODC) / 4.0.0 (O11) and received an OTA update expecting the newer plugin. In that case, the plugin wasn't actually missing. The check was wrong. This bug was fixed in File plugin version 2.2.2 (ODC) / 4.1.3 (O11). After the fix, this scenario correctly returns the `OS-PLUG-FILE-0002` warning instead.
+
+</div>
+
 ## Impact
 
 All filesystem operations will fail. No file reads, writes, or directory operations can be performed.
