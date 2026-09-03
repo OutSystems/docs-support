@@ -1,5 +1,5 @@
 ---
-summary: There was an issue loading your resources. Please try again.
+summary: OS-MABS-RES-50000 resolves resource-loading failures in OutSystems mobile app builds caused by custom icons, splashscreens, or plugins.
 tags: mobile app build process, error handling, resource management, application packaging
 guid: c26c0ff1-4228-4fb0-af5c-ba4c8f2757b5
 locale: en-us
