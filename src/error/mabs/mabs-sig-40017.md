@@ -1,6 +1,9 @@
 ---
 summary: Signing settings require a manually managed profile, but your provisioning profile <provision_profile> is Xcode managed.
-tags: mobile app distribution, provisioning profiles, ios app development, deployment issues, xcode
+tags:
+  - iOS
+  - Mobile app
+  - Troubleshooting
 guid: a13df32f-10f3-4585-90fe-015f448ad93b
 locale: en-us
 app_type: mobile apps

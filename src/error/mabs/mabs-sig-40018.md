@@ -1,6 +1,9 @@
 ---
 summary: This certificate expired on <expiration_date>. Create a new certificate or check our documentation to know how.
-tags: ios certificate renewal, ios application signing, application package generation, error handling
+tags:
+  - iOS
+  - Mobile app
+  - Troubleshooting
 guid: 3696cb6f-2ac5-47f4-a678-71b729b6fa01
 locale: en-us
 app_type: mobile apps

@@ -1,6 +1,9 @@
 ---
 summary: Your provisioning profile expired on <expiration_date>. Upload a new one and retry.
-tags: provisioning profile, ios deployment, application package generation, mobile application publishing, error handling
+tags:
+  - iOS
+  - Mobile app
+  - Troubleshooting
 guid: f83dcb57-ca29-4b70-9114-37b7d9dcfd05
 locale: en-us
 app_type: mobile apps

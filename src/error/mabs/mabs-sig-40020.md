@@ -1,6 +1,8 @@
 ---
 summary: It looks like the application identifier is invalid.
-tags: application packaging, application deployment, error handling, mobile app development
+tags:
+  - Mobile app
+  - Troubleshooting
 guid: 8d7ed1ec-a46a-4802-bc05-08044b980f10
 locale: en-us
 app_type: mobile apps
