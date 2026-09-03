@@ -8,7 +8,6 @@ platform-version: o11, odc
 figma:
 audience:
   - Developer
-  - Front-end developer
 outsystems-tools:
   - forge
 coverage-type:
