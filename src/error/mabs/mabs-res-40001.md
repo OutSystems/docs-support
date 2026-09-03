@@ -13,6 +13,8 @@ outsystems-tools:
   - mobile plugins
 coverage-type:
   - unblock
+topic:
+  - ssl-pinning-domain-error
 ---
 
 # OS-MABS-RES-40001

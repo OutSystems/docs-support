@@ -12,6 +12,8 @@ outsystems-tools:
   - service center
 coverage-type:
   - unblock
+topic:
+  - missing-xml-node-error
 ---
 
 # OS-MABS-PLG-40013

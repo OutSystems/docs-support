@@ -13,6 +13,8 @@ outsystems-tools:
   - mabs
 coverage-type:
   - unblock
+topic:
+  - plugin-sdk-tag-error
 ---
 
 # OS-MABS-PLG-40012

@@ -13,6 +13,8 @@ outsystems-tools:
   - service center
 coverage-type:
   - unblock
+topic:
+  - plugin-config-mismatch-error
 ---
 
 # OS-MABS-PLG-40010

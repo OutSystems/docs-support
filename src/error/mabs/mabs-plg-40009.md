@@ -13,6 +13,8 @@ outsystems-tools:
   - mobile plugins
 coverage-type:
   - unblock
+topic:
+  - cordova-version-mismatch-error
 ---
 
 # OS-MABS-PLG-40009

@@ -12,6 +12,8 @@ outsystems-tools:
   - service center
 coverage-type:
   - unblock
+topic:
+  - swift-cocoapods-error
 ---
 
 # OS-MABS-PLG-40008

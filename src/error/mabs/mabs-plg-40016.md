@@ -13,6 +13,8 @@ outsystems-tools:
   - service center
 coverage-type:
   - unblock
+topic:
+  - missing-module-dependency-error
 ---
 
 # OS-MABS-PLG-40016

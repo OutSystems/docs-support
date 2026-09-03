@@ -12,6 +12,8 @@ outsystems-tools:
   - service center
 coverage-type:
   - unblock
+topic:
+  - cocoapods-pod-not-found-error
 ---
 
 # OS-MABS-PLG-40006

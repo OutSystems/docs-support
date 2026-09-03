@@ -12,6 +12,8 @@ outsystems-tools:
   - service center
 coverage-type:
   - unblock
+topic:
+  - invalid-plugin-spec-error
 ---
 
 # OS-MABS-PLG-40011

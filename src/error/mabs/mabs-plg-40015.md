@@ -13,6 +13,8 @@ outsystems-tools:
   - service center
 coverage-type:
   - unblock
+topic:
+  - non-cordova-module-error
 ---
 
 # OS-MABS-PLG-40015
