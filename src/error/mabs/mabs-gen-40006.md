@@ -12,6 +12,8 @@ outsystems-tools:
   - service studio
 coverage-type:
   - unblock
+topic:
+  - support-library-error
 ---
 
 # OS-MABS-GEN-40006

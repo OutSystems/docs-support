@@ -12,6 +12,8 @@ outsystems-tools:
   - service center
 coverage-type:
   - unblock
+topic:
+  - build-action-errors
 ---
 
 # OS-MABS-ACT-40000

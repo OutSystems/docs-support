@@ -12,6 +12,8 @@ outsystems-tools:
   - service center
 coverage-type:
   - unblock
+topic:
+  - android-manifest-error
 ---
 
 # OS-MABS-GEN-40001

@@ -13,6 +13,8 @@ outsystems-tools:
   - service center
 coverage-type:
   - unblock
+topic:
+  - invalid-cocoapods-spec-error
 ---
 
 # OS-MABS-PLG-40005

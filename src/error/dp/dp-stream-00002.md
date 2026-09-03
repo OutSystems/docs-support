@@ -13,6 +13,8 @@ outsystems-tools:
   - lifetime
 coverage-type:
   - unblock
+topic:
+  - fix-streaming-unknown
 ---
 
 # OS-DP-STREAM-00002

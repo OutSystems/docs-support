@@ -14,6 +14,8 @@ outsystems-tools:
   - case management framework
 coverage-type:
   - unblock
+topic:
+  - fix-activity-case-mismatch
 ---
 
 # OS-CMFR-GEN-00034

@@ -12,6 +12,8 @@ outsystems-tools:
   - service studio
 coverage-type:
   - unblock
+topic:
+  - metadata-conflict-error
 ---
 
 # OS-MABS-GEN-40008

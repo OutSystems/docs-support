@@ -12,6 +12,8 @@ outsystems-tools:
   - service studio
 coverage-type:
   - unblock
+topic:
+  - google-services-error
 ---
 
 # OS-MABS-GEN-40011
