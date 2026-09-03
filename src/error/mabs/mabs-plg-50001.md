@@ -1,5 +1,5 @@
 ---
-summary: Couldn't install the Cordova plugin <plugin_name> because the plugin dependency <plugin_dependency> doesn't support this Cordova version.
+summary: Cordova plugin fetch fails on the OutSystems platform when MABS loses server connection during mobile app build.
 tags: mobile app build, cordova plugins, build errors, plugin dependencies, server connectivity
 locale: en-us
 app_type: mobile apps

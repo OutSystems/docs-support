@@ -1,5 +1,5 @@
 ---
-summary: Something went wrong while reading the Cordova plugins. Please try again.
+summary: "MABS Cordova plugin build error: check Service Center build logs and plugin extensibility to fix package generation failures."
 tags: error handling, mobile app development, cordova plugins, mobile app build process
 locale: en-us
 app_type: mobile apps
