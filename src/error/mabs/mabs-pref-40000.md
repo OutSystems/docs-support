@@ -1,6 +1,8 @@
 ---
 summary: Preference key <key> in the context <context> is not recognized.
-tags: error resolution, application packaging, extensibility configuration, mobile app development
+tags:
+  - Mobile app
+  - Troubleshooting
 guid: f36093fe-b533-42bb-a844-16117e6742dc
 locale: en-us
 app_type: mobile apps

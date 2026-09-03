@@ -1,6 +1,11 @@
 ---
 summary: Couldn't install the Cordova plugin {PLUGIN_ID}. {REASON}
-tags: cordova plugins, mobile app development, plugin installation, build errors, troubleshooting
+tags:
+  - Cordova
+  - Mobile app
+  - Native App
+  - Plugins
+  - Troubleshooting
 guid: 79efd0e4-f726-401c-bc60-f3c633a16543
 locale: en-us
 app_type: mobile apps

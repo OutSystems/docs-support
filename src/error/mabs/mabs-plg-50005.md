@@ -1,6 +1,11 @@
 ---
 summary: Couldn't install the Cordova plugin <plugin_name> because we couldn't fetch its dependencies due to a CocoaPods server error. Please try again.
-tags: cocoapods, cordova plugins, error handling, dependency management, mobile app build
+tags:
+  - Cordova
+  - iOS
+  - Mobile app
+  - Plugins
+  - Troubleshooting
 locale: en-us
 app_type: mobile apps
 guid: f51bbdd7-5738-4e2c-ad6d-5f5106307c64

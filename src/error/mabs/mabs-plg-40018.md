@@ -1,6 +1,10 @@
 ---
 summary: <plugin_id> version <plugin_version> must be <plugin_min_version> or higher.
-tags: mobile apps, plugin compatibility, error handling, outsystems mabs, cordova plugins
+tags:
+  - Cordova
+  - Mobile app
+  - Plugins
+  - Troubleshooting
 locale: en-us
 app_type: mobile apps
 guid: 817de060-a43d-41aa-96d1-61dda2855929

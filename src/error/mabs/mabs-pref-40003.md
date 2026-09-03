@@ -1,6 +1,8 @@
 ---
 summary: <context> must have the format
-tags: json configuration, application packaging, error handling, mobile app development, outsystems platform
+tags:
+  - Mobile app
+  - Troubleshooting
 guid: 6ea6b45d-c137-42e4-ab53-aaffa911759c
 locale: en-us
 app_type: mobile apps

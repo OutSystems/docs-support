@@ -1,6 +1,8 @@
 ---
 summary: Preference key <key> in <context> has a wrong type.
-tags: extensibility configurations, mobile app packaging, application errors, application configuration, developer support
+tags:
+  - Mobile app
+  - Troubleshooting
 guid: 4eaf6851-f4c7-4770-b005-805cf8ed8bac
 locale: en-us
 app_type: mobile apps

@@ -1,6 +1,8 @@
 ---
 summary: Preference key <key> in <context> wasn't found.
-tags: error handling, extensibility configurations, application packaging, outsystems platform, mobile app development
+tags:
+  - Mobile app
+  - Troubleshooting
 guid: b93a43d1-d235-4798-8b13-4e62687aeead
 locale: en-us
 app_type: mobile apps

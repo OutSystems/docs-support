@@ -1,6 +1,10 @@
 ---
 summary: Couldn't install the Cordova plugin <plugin_name> because the plugin dependency <plugin_dependency> doesn't support this Cordova version.
-tags: cordova, plugin compatibility, mobile app generation, error handling, mabs
+tags:
+  - Cordova
+  - Mobile app
+  - Plugins
+  - Troubleshooting
 locale: en-us
 app_type: mobile apps
 guid: b050a69e-17e6-46a8-aef5-d1c21a4f1c1f
