@@ -1192,6 +1192,14 @@ knowledge-needs:
         RowItemsPhone, ItemsGap, and ExtendedClass — in ODC Studio, so that groups
         of images or content are displayed in a browsable, sequential grid across
         different device types.
+    - name: Use Gallery pattern (O11)
+      id: use-gallery-pattern-o11
+      description: Wants to add the Gallery UI Pattern to a screen and configure
+        its responsive layout properties — including RowItemsDesktop, RowItemsTablet,
+        RowItemsPhone, ItemsGap, and ExtendedClass — in Service Studio for
+        OutSystems 11, so that groups of images or content are displayed in a
+        browsable, sequential grid across different device types, in mobile
+        apps and reactive web apps.
     - name: Use Floating Content
       id: use-floating-content
       description: Wants to add the Floating Content UI Pattern to a screen and
