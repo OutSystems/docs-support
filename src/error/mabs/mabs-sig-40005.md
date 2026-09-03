@@ -1,5 +1,5 @@
 ---
-summary: This certificate is invalid. Please choose another .p12 file.
+summary: OS-MABS-SIG-40005 error occurs when MABS can't parse an invalid .p12 certificate file during iOS app package generation.
 tags: ios deployment, application packaging, certificate issues, error handling, .p12 certificate
 guid: 83c7e76a-1223-4d73-88d4-e07230607ba8
 locale: en-us
