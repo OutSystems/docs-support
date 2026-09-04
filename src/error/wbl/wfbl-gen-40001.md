@@ -1,5 +1,5 @@
 ---
-summary: General error. <OriginalErrorMessage>.
+summary: OS-WFBL-GEN-40001 flags a Workflow Builder error in OutSystems 11 (O11); check the original error message and contact support if it persists.
 tags: error handling, workflow builder, user interface, service disruption, technical support
 locale: en-us
 guid: 7f03f69b-06b7-43ef-bbfb-6e84dfea5ee0

@@ -1,5 +1,5 @@
 ---
-summary: Please refresh the page and try again.
+summary: OutSystems 11 (O11) Workflow Builder validation error blocks workflow edits; log out and back in to resolve it, or contact support.
 tags: error handling, workflow management, application development, user authentication, support resolution
 locale: en-us
 guid: 4e304906-9a8e-4174-83f2-8953c607f42d

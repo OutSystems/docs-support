@@ -1,5 +1,5 @@
 ---
-summary: Application error. <OriginalErrorMessage>.
+summary: Workflow Builder application error occurs when an action fails; log out and log back in, or contact OutSystems support if it persists.
 tags: error handling, troubleshooting, user support, service interruption, workflow systems
 locale: en-us
 guid: f0c85b4a-a151-4e34-a6b8-768c15177f78
