@@ -8,7 +8,6 @@ platform-version: o11
 figma: https://www.figma.com/file/6tXLupLiqfG9FOElATTGQU/Troubleshooting?node-id=620:51
 audience:
   - Platform administrator
-  - Developer
 outsystems-tools:
   - service center
   - lifetime
