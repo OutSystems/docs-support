@@ -1,6 +1,11 @@
 ---
 summary: Learn how OutSystems 11 (O11) helps develop secure applications by mitigating risks and protecting against common vulnerabilities.
-tags: application security, owasp top 10, security best practices
+tags:
+  - Authentication
+  - Authorization
+  - Best Practices
+  - OWASP
+  - Security
 locale: en-us
 guid: c6a9c1dc-0b63-422a-a299-634ad131e49b
 app_type: traditional web apps, mobile apps, reactive web apps

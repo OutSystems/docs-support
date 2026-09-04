@@ -1,6 +1,8 @@
 ---
 summary: Guidelines for conducting authorized penetration, vulnerability, and load tests on OutSystems Cloud.
-tags: cloud security, load testing, penetration testing, vulnerability scanning, authorization procedures
+tags:
+  - Security
+  - Testing
 locale: en-us
 guid: 00c90ba4-311d-43b2-a676-0613ad5f60b2
 app_type: traditional web apps, mobile apps, reactive web apps

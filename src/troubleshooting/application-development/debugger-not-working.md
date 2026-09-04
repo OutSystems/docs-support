@@ -5,7 +5,9 @@ guid: 0818cc08-cca4-4780-bbc5-6e1cb8b77a10
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
 figma: https://www.figma.com/file/6tXLupLiqfG9FOElATTGQU/Troubleshooting?node-id=3330:2682
-tags: debugging, connection issues, server configuration, ide usage, troubleshooting
+tags:
+  - Debugging
+  - Troubleshooting
 audience:
   - Developer
   - Front-end developer

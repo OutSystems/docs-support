@@ -5,7 +5,9 @@ guid: d08f59bd-a398-40a7-8106-dadd8645ee3d
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
 figma:
-tags: data masking, security best practices, data protection
+tags:
+  - Best Practices
+  - Security
 audience:
   - Developer
   - Front-end developer
