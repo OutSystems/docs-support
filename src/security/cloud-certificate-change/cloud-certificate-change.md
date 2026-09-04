@@ -1,5 +1,5 @@
 ---
-summary: OutSystems 11 (O11) will implement annual certificate rotations for `outsystemsenterprise.com` starting late September 2020.
+summary: "OutSystems Cloud certificate rotation affects SSL Pinning fingerprints and lets you switch to your own SSL certificate to avoid downtime."
 locale: en-us
 guid: 5e5d5f1d-c924-4605-bea5-d3141274a6e1
 app_type: traditional web apps, mobile apps, reactive web apps
