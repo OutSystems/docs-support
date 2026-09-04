@@ -1,5 +1,5 @@
 ---
-summary: Removing unsafe-inline
+summary: Unsafe-inline CSP errors in OutSystems 11 (O11) reactive apps after disabling Enforce Unsafe Inline Reactive, with browser and log troubleshooting.
 locale: en-us
 guid: 773cfac2-eed6-44ae-a2c6-f63d68e6c8a7
 app_type: reactive web apps

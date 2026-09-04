@@ -1,5 +1,5 @@
 ---
-summary: Removing unsafe-eval
+summary: "OutSystems 11 (O11) unsafe-eval errors: diagnose CSP violations from disabling Enforce Unsafe Eval Reactive and trace eval() sources."
 locale: en-us
 guid: 413298b7-54dc-47cd-bbcd-2c87611980fa
 app_type: reactive web apps
