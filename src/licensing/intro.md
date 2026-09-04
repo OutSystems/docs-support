@@ -1,5 +1,4 @@
 ---
-tags: outsystems licensing, license management, license troubleshooting, application licensing
 summary: Explore how OutSystems 11 (O11) licensing functions, including common operations and troubleshooting tips.
 locale: en-us
 guid: 7E7916DA-1877-4A34-B535-4ED0CC8F2F38
@@ -14,6 +13,8 @@ outsystems-tools:
   - service studio
 coverage-type:
   - apply
+tags:
+  - Troubleshooting
 ---
 
 # Licensing

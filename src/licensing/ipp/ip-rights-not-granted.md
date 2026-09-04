@@ -5,7 +5,8 @@ guid: 42bdf1cf-495e-418a-ab73-c34981039088
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
 figma:
-tags: ipp, intellectual property protection, licensing issues, activation code, platform administration
+tags:
+  - Troubleshooting
 audience:
   - Platform administrator
 outsystems-tools:

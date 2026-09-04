@@ -1,5 +1,11 @@
 ---
-tags: .net, application lifecycle management, cloud hosting, source code management, software migration
+tags:
+  - .NET
+  - Android
+  - Deploy
+  - iOS
+  - Mobile app
+  - Platform Server
 summary: OutSystems 11 (O11) offers a detailed guide for detaching and independently managing .NET applications.
 locale: en-us
 guid: d823e151-2350-4360-b0c3-7030f23affe3

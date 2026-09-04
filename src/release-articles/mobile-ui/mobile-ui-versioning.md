@@ -13,7 +13,10 @@ platform-version: odc
 audience:
   - Front-end developer
   - Developer
-tags: semantic versioning, versioning strategy, Mobile UI framework, update procedures, breaking changes policy
+tags:
+  - Front-End
+  - Lifecycle
+  - Mobile app
 outsystems-tools:
   - odc studio
 helpids:

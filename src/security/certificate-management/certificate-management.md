@@ -5,7 +5,10 @@ guid: 5790c5c1-1cc3-4598-a2a9-b247fd26a9a0
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
 figma:
-tags: ssl certificate, certificate management, cloud deployments, security, browser compatibility
+tags:
+  - Platform Server
+  - Security
+  - Web services
 audience:
   - Platform administrator
   - Developer

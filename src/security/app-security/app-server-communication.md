@@ -5,7 +5,10 @@ guid: 1f406792-8109-434a-95c8-c8898ccb0800
 app_type: mobile apps, reactive web apps
 platform-version: o11, odc
 figma: https://www.figma.com/file/vTtFn5nl44ZLjUBYo2anCO/Security?node-id=910:244
-tags: security, encryption, rest api, https, access control, authentication
+tags:
+  - Authorization
+  - REST
+  - Security
 audience:
   - Developer
   - Front-end developer
