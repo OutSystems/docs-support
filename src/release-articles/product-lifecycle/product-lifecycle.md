@@ -11,6 +11,7 @@ coverage-type:
 topic:
 audience:
   - Architect
+  - Platform administrator
   - Tech lead
 outsystems-tools:
   - platform server
