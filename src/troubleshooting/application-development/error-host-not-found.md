@@ -8,7 +8,6 @@ figma: https://www.figma.com/file/6tXLupLiqfG9FOElATTGQU/Troubleshooting?node-id
 tags: troubleshooting, connectivity issues, outsystems cloud, environment management, error handling
 audience:
   - Developer
-  - Front-end developer
 outsystems-tools:
   - service studio
 coverage-type:

@@ -8,7 +8,6 @@ figma:
 tags: rest api, client-side authentication, security, certificate management, tls configuration
 audience:
   - Developer
-  - Front-end developer
 outsystems-tools:
   - service studio
   - integration builder
