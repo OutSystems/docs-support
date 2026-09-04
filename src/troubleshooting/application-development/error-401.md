@@ -5,7 +5,11 @@ guid: 292ae0af-338c-48d8-be72-b23cc3d84380
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
 figma:
-tags: network issues, authentication errors, template management, proxy configuration, iis authentication
+tags:
+  - Authentication
+  - Platform Server
+  - Templates
+  - Troubleshooting
 audience:
   - Developer
   - Front-end developer

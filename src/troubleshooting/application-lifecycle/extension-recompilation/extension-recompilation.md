@@ -1,6 +1,11 @@
 ---
 summary: OutSystems 11 (O11) blocks server-side automatic extension recompilation on upgrade to prevent unattended code modifications.
-tags: server-side security, extension management, code integration, upgrade issues, secure development practices
+tags:
+  - C#
+  - Extensions
+  - Platform Server
+  - Security
+  - Troubleshooting
 locale: en-us
 guid: 3dfe03fb-1a93-4db1-8407-dd55881d44ef
 app_type: traditional web apps, mobile apps, reactive web apps

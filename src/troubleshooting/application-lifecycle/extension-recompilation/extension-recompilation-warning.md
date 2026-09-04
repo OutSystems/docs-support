@@ -1,6 +1,10 @@
 ---
 summary: OutSystems 11 (O11) warns of potential security flaws when extension recompilation is enabled during publishing operations.
-tags: security best practices, publishing operations, environment configuration, extension management, platform server
+tags:
+  - Extensions
+  - Platform Server
+  - Security
+  - Troubleshooting
 locale: en-us
 guid: b9593f0a-5d9f-4d64-b3a3-e3e91fbcb671
 app_type: traditional web apps, mobile apps, reactive web apps

@@ -5,7 +5,10 @@ guid: 828DA276-1480-4EA6-B5B1-66E488182743
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
 figma:
-tags: application deployment, environment management, application lifecycle management
+tags:
+  - Deploy
+  - Development lifecycle
+  - Troubleshooting
 audience:
   - Platform administrator
   - Developer

@@ -5,7 +5,10 @@ guid: 970FB4B3-B224-4FFA-A675-1BA893CA0DCE
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
 figma:
-tags: staging environments, lifetime, application deployment, name conflicts, environment management
+tags:
+  - Deploy
+  - Lifecycle
+  - Troubleshooting
 audience:
   - Platform administrator
   - Developer

@@ -1,6 +1,8 @@
 ---
 summary: Explore how to deploy applications in target environments using Service Center as a workaround in OutSystems 11 (O11).
-tags: deployment strategies, environment management, deployment troubleshooting
+tags:
+  - Deploy
+  - Troubleshooting
 locale: en-us
 guid: 7755631f-f5b4-43e1-a1ca-83c677d5adc3
 app_type: traditional web apps, mobile apps, reactive web apps

@@ -5,7 +5,12 @@ guid: 882d32b2-39e0-4d08-9d40-e30f80cd467f
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
 figma:
-tags: mabs upgrade, android sdk compatibility, cordova-android, plugin compatibility, troubleshooting
+tags:
+  - Android
+  - Cordova
+  - Mobile app
+  - Plugins
+  - Troubleshooting
 audience:
   - Developer
 outsystems-tools:

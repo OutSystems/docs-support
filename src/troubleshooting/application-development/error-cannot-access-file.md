@@ -5,7 +5,9 @@ guid: 1305808c-05bc-4f19-939b-09877f5681c1
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
 figma:
-tags: error handling, file system access, troubleshooting, antivirus interference, concurrent file access
+tags:
+  - Platform Server
+  - Troubleshooting
 audience:
   - Platform administrator
   - Developer
