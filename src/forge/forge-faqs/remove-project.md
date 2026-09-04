@@ -8,8 +8,6 @@ platform-version: o11
 figma: https://www.figma.com/file/bGPF1cIwKxeWbPhMdOrHsM/Forge%20Components?node-id=701:319
 audience:
   - Developer
-  - Front-end developer
-  - Platform administrator
 outsystems-tools:
   - forge
 coverage-type:

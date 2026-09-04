@@ -8,7 +8,6 @@ platform-version: o11
 figma: https://www.figma.com/file/bGPF1cIwKxeWbPhMdOrHsM/Forge%20Components?node-id=801:320
 audience:
   - Developer
-  - Front-end developer
 outsystems-tools:
   - service studio
   - service center
