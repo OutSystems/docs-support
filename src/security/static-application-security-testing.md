@@ -15,6 +15,7 @@ outsystems-tools:
   - lifetime
 coverage-type:
   - apply
+  - unblock
 topic:
   - use-third-party-sast
 ---
