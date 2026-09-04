@@ -1,5 +1,5 @@
 ---
-summary: Explore secure configuration and best practices for OutSystems 11 (O11) Platform Server hardening in this comprehensive guide.
+summary: OutSystems 11 (O11) Platform Server hardening covers authentication, encryption, and network security configuration to protect your infrastructure.
 tags: security, server hardening, configuration, cloud infrastructure, platform server
 locale: en-us
 guid: 5a5dde81-af90-4f11-be5f-321b0e4b0302
