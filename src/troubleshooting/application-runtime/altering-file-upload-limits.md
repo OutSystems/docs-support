@@ -5,7 +5,11 @@ guid: 0575cae0-16ef-4d80-b1ae-4517eec2661c
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
 figma: https://www.figma.com/file/6tXLupLiqfG9FOElATTGQU/Troubleshooting?node-id=3303:388
-tags: file upload, configuration management, application server, web.config, error handling
+tags:
+  - Forge
+  - Platform Server
+  - Settings
+  - Troubleshooting
 audience:
   - Developer
   - Platform administrator

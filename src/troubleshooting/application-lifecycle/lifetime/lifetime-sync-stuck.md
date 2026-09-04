@@ -1,6 +1,9 @@
 ---
 summary: Troubleshoot stuck environment synchronization in OutSystems 11 (O11) LifeTime by checking updates, connectivity, and process statuses.
-tags: outsystems lifetime, environment synchronization, platform server, troubleshooting, connectivity issues
+tags:
+  - Data Synchronization
+  - Platform Server
+  - Troubleshooting
 locale: en-us
 guid: e6d30ec2-fd7a-4214-921b-12f021aab323
 app_type: traditional web apps, mobile apps, reactive web apps

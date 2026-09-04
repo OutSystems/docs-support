@@ -1,6 +1,10 @@
 ---
 summary: Explore how OutSystems 11 (O11) handles disabled automatic extension recompilation during upgrades to prevent unattended code modifications.
-tags: outsystems upgrade, platform server, automatic recompilation, publish error, extension management
+tags:
+  - Deploy
+  - Extensions
+  - Platform Server
+  - Troubleshooting
 locale: en-us
 guid: c37d5792-0a07-4eda-a3a2-a1e6be408968
 app_type: traditional web apps, mobile apps, reactive web apps

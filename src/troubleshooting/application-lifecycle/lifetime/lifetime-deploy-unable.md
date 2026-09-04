@@ -1,6 +1,9 @@
 ---
 summary: Explore common deployment issues and troubleshooting steps for OutSystems 11 (O11) using LifeTime.
-tags: deployment issues, troubleshooting, on-premises deployment, network connectivity, antivirus configuration
+tags:
+  - Deploy
+  - Monitoring
+  - Troubleshooting
 locale: en-us
 guid: c7ebcb0a-6852-4222-9286-9fa6bc5d0675
 app_type: traditional web apps, mobile apps, reactive web apps
