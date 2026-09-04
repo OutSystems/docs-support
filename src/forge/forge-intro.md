@@ -5,7 +5,8 @@ app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
 figma:
 summary: Explore the capabilities and features of Forge components in OutSystems 11 (O11) for enhanced application development.
-tags: ide usage, reactive web apps, tutorials for beginners, component-based development
+tags:
+  - Forge
 audience:
   - Developer
   - Front-end developer

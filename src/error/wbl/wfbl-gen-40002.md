@@ -1,6 +1,7 @@
 ---
 summary: Communication error. <OriginalErrorMessage>.
-tags: error handling, connectivity issues, workflow builder, service interruptions
+tags:
+  - Troubleshooting
 locale: en-us
 guid: b7df1f71-ee02-4d72-9aa3-7dd49811e479
 app_type: traditional web apps, mobile apps, reactive web apps

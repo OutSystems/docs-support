@@ -5,7 +5,8 @@ guid: fa47e66e-155d-4b3c-b64d-945de079d123
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
 figma:
-tags: outsystems infrastructure, cloud setups, self-managed setups, licensing, system requirements
+tags:
+  - Infrastructure
 audience:
   - Platform administrator
   - Developer

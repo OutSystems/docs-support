@@ -1,6 +1,9 @@
 ---
 summary: Invalid application data. <OriginalErrorMessage>.
-tags: error handling, data consistency, user authentication, application troubleshooting
+tags:
+  - Data Integrity
+  - Troubleshooting
+  - Workflows
 locale: en-us
 guid: f062e40f-49f4-4628-84d5-6c0fbaa655ee
 app_type: traditional web apps, mobile apps, reactive web apps

@@ -5,7 +5,14 @@ locale: en-us
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
 figma: https://www.figma.com/design/bGPF1cIwKxeWbPhMdOrHsM/Forge-Components?node-id=1401-240&t=qVFOfPg3yypkjjPO-1
-tags: component libraries, code reusability, application development best practices, outsystems forge, low-code platforms
+tags:
+  - Best Practices
+  - Blocks
+  - CSS
+  - Forge
+  - JavaScript
+  - Performance
+  - Security
 audience:
   - Developer
   - Front-end developer
