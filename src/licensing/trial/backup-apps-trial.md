@@ -8,7 +8,6 @@ figma: https://www.figma.com/file/TzqCbVlN2j4nadunA7q8VU/Licensing?node-id=1318:
 tags: ide usage, reactive web apps, tutorials for beginners, personal environment, app deployment
 audience:
   - Developer
-  - Front-end developer
 outsystems-tools:
   - service studio
 coverage-type:

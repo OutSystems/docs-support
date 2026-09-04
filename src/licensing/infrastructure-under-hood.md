@@ -8,7 +8,6 @@ figma:
 tags: personal environment, multi-tenant architecture, data storage, api, data export
 audience:
   - Developer
-  - Front-end developer
 outsystems-tools:
   - none
 coverage-type:
