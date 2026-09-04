@@ -1,5 +1,5 @@
 ---
-summary: Learn how to detach and independently run applications from OutSystems 11 (O11) with this comprehensive guide.
+summary: OutSystems 11 (O11) detachment covers extracting .NET application source code and running apps independently, including Scheduler Service setup.
 locale: en-us
 guid: 100b891e-0796-4114-a36b-5a7e0b7576ab
 app_type: traditional web apps, mobile apps, reactive web apps
