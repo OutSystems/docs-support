@@ -12,7 +12,7 @@ audience:
 outsystems-tools:
   - service studio
 coverage-type:
-  - evaluate
+  - apply
 ---
 
 # Protecting OutSystems apps from code injection / Cross Site Scripting attacks

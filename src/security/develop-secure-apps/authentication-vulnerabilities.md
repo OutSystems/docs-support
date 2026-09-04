@@ -12,7 +12,7 @@ audience:
 outsystems-tools:
   - none
 coverage-type:
-  - evaluate
+  - apply
 ---
 
 # Protecting OutSystems Apps From Authentication Vulnerabilities
