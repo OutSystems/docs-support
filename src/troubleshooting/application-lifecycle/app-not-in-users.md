@@ -9,6 +9,7 @@ tags: application configuration, user management, troubleshooting, application d
 audience:
   - Developer
   - Front-end developer
+  - Platform administrator
 outsystems-tools:
   - service studio
 coverage-type:
