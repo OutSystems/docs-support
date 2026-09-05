@@ -9,7 +9,6 @@ tags: environment management, error handling, personal environment maintenance
 audience:
   - Developer
   - Front-end developer
-  - Platform administrator
 outsystems-tools:
   - none
 coverage-type:

@@ -8,8 +8,6 @@ figma: https://www.figma.com/file/cPLNnZfDOZ1NX3avcjmq3g/Enterprise%20Customers?
 tags: certificate management, domain certificates, security best practices, outsystems infrastructure, ssl configuration
 audience:
   - Platform administrator
-  - Developer
-  - Tech lead
 outsystems-tools:
   - none
 coverage-type:
