@@ -15,6 +15,8 @@ outsystems-tools:
   - odc studio
 coverage-type:
   - unblock
+topic:
+  - branding-image-format-error
 isautopublish: true
 ---
 

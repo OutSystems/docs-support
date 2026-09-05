@@ -17,6 +17,7 @@ coverage-type:
 audience:
   - Platform administrator
 topic:
+  - automatic-user-creation
 isautopublish: true
 ---
 

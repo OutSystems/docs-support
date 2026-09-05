@@ -21,6 +21,8 @@ outsystems-tools:
 coverage-type:
   - understand
   - unblock
+topic:
+  - incompatible-plugin-error
 isautopublish: true
 ---
 

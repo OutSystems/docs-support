@@ -13,6 +13,8 @@ audience:
   - Developer
 outsystems-tools:
   - odc studio
+topic:
+  - branding-image-size-error
 coverage-type:
   - unblock
 isautopublish: true

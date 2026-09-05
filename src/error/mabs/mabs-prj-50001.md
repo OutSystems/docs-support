@@ -15,6 +15,8 @@ outsystems-tools:
   - odc portal
 coverage-type:
   - unblock
+topic:
+  - invalid-project-config-error
 isautopublish: true
 ---
 

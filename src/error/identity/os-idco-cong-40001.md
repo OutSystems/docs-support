@@ -19,6 +19,7 @@ coverage-type:
 audience:
   - Platform administrator
 topic:
+  - username-claim-mapping
 isautopublish: true
 ---
 

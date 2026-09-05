@@ -19,6 +19,8 @@ outsystems-tools:
   - odc studio
 coverage-type:
   - unblock
+topic:
+  - resource-file-missing-error
 isautopublish: true
 ---
 

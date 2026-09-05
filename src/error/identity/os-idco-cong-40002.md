@@ -17,6 +17,7 @@ coverage-type:
 audience:
   - Platform administrator
 topic:
+  - duplicate-idp-email-conflict
 isautopublish: true
 ---
 

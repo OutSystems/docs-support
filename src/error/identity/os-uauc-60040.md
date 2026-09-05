@@ -17,6 +17,7 @@ coverage-type:
 audience:
   - Platform administrator
 topic:
+  - email-verified-claim
 isautopublish: true
 ---
 
