@@ -8,7 +8,6 @@ platform-version: o11
 figma: https://www.figma.com/file/6tXLupLiqfG9FOElATTGQU/Troubleshooting?node-id=3327:544
 audience:
   - Platform administrator
-  - Developer
   - Tech lead
 outsystems-tools:
   - service center
