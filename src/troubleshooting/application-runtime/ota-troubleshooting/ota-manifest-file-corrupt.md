@@ -12,6 +12,8 @@ outsystems-tools:
   - service studio
 coverage-type:
   - unblock
+topic:
+  - cache-manifest-corrupt-error
 ---
 
 # Cache manifest file is corrupt or invalid

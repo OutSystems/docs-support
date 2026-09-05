@@ -19,6 +19,7 @@ coverage-type:
 audience:
   - Platform administrator
 topic:
+  - activate-deactivated-user
 isautopublish: true
 ---
 

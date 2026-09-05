@@ -12,6 +12,8 @@ outsystems-tools:
   - none
 coverage-type:
   - unblock
+topic:
+  - switch-cache-version-error
 ---
 
 # Unable to switch to cache version

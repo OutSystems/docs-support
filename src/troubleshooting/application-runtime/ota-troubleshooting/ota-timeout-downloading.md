@@ -12,6 +12,8 @@ outsystems-tools:
   - service studio
 coverage-type:
   - unblock
+topic:
+  - fix-ota-download-timeout
 ---
 
 # Timeout while downloading resources

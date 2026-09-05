@@ -12,6 +12,8 @@ outsystems-tools:
   - service studio
 coverage-type:
   - unblock
+topic:
+  - fix-local-entity-type-error
 ---
 
 # Failed changes in the Local Storage Metamodel due to integrity checks

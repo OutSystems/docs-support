@@ -13,6 +13,8 @@ outsystems-tools:
   - service studio
 coverage-type:
   - unblock
+topic:
+  - resource-not-found-error
 ---
 
 # Unable to find resource

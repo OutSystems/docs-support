@@ -12,6 +12,8 @@ outsystems-tools:
   - service studio
 coverage-type:
   - unblock
+topic:
+  - database-close-error
 ---
 
 # Failed to close database cannot be closed while a transaction is in progress

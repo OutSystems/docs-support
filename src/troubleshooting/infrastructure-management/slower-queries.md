@@ -13,6 +13,8 @@ outsystems-tools:
   - none
 coverage-type:
   - unblock
+topic:
+  - database-query-slowdown
 ---
 
 # Queries become slower after deleting or updating rows

@@ -12,6 +12,8 @@ outsystems-tools:
   - none
 coverage-type:
   - unblock
+topic:
+  - inputstream-cache-error
 ---
 
 # Could not get InputStream while trying to get cache resource  

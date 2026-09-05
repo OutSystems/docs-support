@@ -13,6 +13,8 @@ outsystems-tools:
   - service center
 coverage-type:
   - unblock
+topic:
+  - ota-rollback-behavior
 ---
 
 # Troubleshooting over-the-air upgrades
