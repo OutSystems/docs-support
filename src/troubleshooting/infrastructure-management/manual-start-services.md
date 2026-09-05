@@ -1,6 +1,6 @@
 ---
 tags: manual service management, service management, windows services, outsystems services, system administration
-summary: Explore manual service management techniques and potential issues for OutSystems 11 (O11) in this detailed guide.
+summary: OutSystems 11 (O11) service startup order determines how Controller, Deployment, and Scheduler initialize without errors.
 locale: en-us
 guid: EDE2A61C-EA58-461F-89ED-A434C449A3A9
 app_type: traditional web apps, mobile apps, reactive web apps
