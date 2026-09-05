@@ -8,7 +8,6 @@ figma: https://www.figma.com/file/6tXLupLiqfG9FOElATTGQU/Troubleshooting?node-id
 tags: deployment, on-premises, platform server, troubleshooting, upgrade issues
 audience:
   - Platform administrator
-  - Developer
 outsystems-tools:
   - service center
   - platform server
