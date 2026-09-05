@@ -1,6 +1,10 @@
 ---
 summary: Explore troubleshooting and known issues with SEO-friendly URLs for Reactive Web Apps in OutSystems 11 (O11).
-tags: seo, troubleshooting, outsystems, react, web development
+tags:
+  - Front-End
+  - JavaScript
+  - Troubleshooting
+  - Web
 locale: en-us
 guid: ad3c2ce2-f393-4385-affd-10eb46bf944c
 app_type: traditional web apps, mobile apps, reactive web apps

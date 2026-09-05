@@ -5,7 +5,11 @@ guid: fef0d982-a3ee-45db-93e7-cd3f26aecd0d
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
 figma:
-tags: ios issues, video upload, uiwebview, cordova, known issues
+tags:
+  - Cordova
+  - iOS
+  - Mobile app
+  - Troubleshooting
 audience:
   - Developer
 outsystems-tools:

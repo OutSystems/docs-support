@@ -5,7 +5,14 @@ guid: 6663ad0f-9ee9-4a61-8d03-e8fa4e21b052
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
 figma:
-tags: performance optimization, error handling, database management
+tags:
+  - Performance
+  - REST
+  - Settings
+  - SQL
+  - Timers
+  - Troubleshooting
+  - Web services
 audience:
   - Developer
   - Front-end developer

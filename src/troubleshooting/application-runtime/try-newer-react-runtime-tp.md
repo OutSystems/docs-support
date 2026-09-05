@@ -1,6 +1,10 @@
 ---
 summary: Explore the transition to React 16 for Reactive Web and Mobile apps in OutSystems 11 (O11) and its associated challenges and side effects.
-tags: react 16, platform server, migration, technical preview, breaking changes
+tags:
+  - Front-End
+  - Mobile app
+  - Platform Server
+  - Troubleshooting
 locale: en-us
 guid: e601102f-30c6-4911-a440-e9bd70d47901
 app_type: traditional web apps, mobile apps, reactive web apps
