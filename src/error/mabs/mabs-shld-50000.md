@@ -13,6 +13,8 @@ outsystems-tools:
   - service studio
 coverage-type:
   - unblock
+topic:
+  - appshield-generic-error
 ---
 
 # OS-MABS-SHLD-50000

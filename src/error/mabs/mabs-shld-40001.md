@@ -13,6 +13,8 @@ outsystems-tools:
   - forge
 coverage-type:
   - unblock
+topic:
+  - duplicate-appshield-reference
 ---
 
 # OS-MABS-SHLD-40001

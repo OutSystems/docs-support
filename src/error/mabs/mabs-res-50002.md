@@ -10,6 +10,8 @@ audience:
   - Developer
 outsystems-tools:
   - none
+topic:
+  - fetch-resources-error
 coverage-type:
   - unblock
 ---

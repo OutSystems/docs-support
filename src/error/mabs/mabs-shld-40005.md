@@ -12,6 +12,8 @@ outsystems-tools:
   - none
 coverage-type:
   - unblock
+topic:
+  - license-upgrade-error
 ---
 
 # OS-MABS-SHLD-40005

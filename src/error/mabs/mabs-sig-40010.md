@@ -12,6 +12,8 @@ outsystems-tools:
   - service studio
 coverage-type:
   - unblock
+topic:
+  - signing-certificate-error
 ---
 
 # OS-MABS-SIG-40010

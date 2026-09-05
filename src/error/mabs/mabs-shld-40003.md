@@ -12,6 +12,8 @@ outsystems-tools:
   - service studio
 coverage-type:
   - unblock
+topic:
+  - appshield-settings-error
 ---
 
 # OS-MABS-SHLD-40003

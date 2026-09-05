@@ -12,6 +12,8 @@ outsystems-tools:
   - service studio
 coverage-type:
   - unblock
+topic:
+  - cache-manifest-not-found-error
 ---
 
 # Failed to load cache manifest: Filepath file not found. The file was never created

@@ -12,6 +12,8 @@ outsystems-tools:
   - mabs
 coverage-type:
   - unblock
+topic:
+  - outdated-mabs-version-error
 ---
 
 # OS-MABS-SHLD-40004

@@ -13,6 +13,8 @@ outsystems-tools:
   - service studio
 coverage-type:
   - unblock
+topic:
+  - fix-local-entity-type-error
 ---
 
 # Changes in Local Entity Attributes data types when they have data in the device
