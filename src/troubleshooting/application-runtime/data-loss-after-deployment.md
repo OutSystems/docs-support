@@ -8,7 +8,6 @@ figma: https://www.figma.com/file/6tXLupLiqfG9FOElATTGQU/Troubleshooting?type=de
 tags: data management, entity relationships, deployment best practices, platform metamodel
 audience:
   - Developer
-  - Front-end developer
 outsystems-tools:
   - service studio
 coverage-type:

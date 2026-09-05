@@ -7,9 +7,8 @@ platform-version: o11
 figma:
 tags: business process technology, process automation, automatic activities, performance optimization
 audience:
-  - Developer
   - Architect
-  - Platform administrator
+  - Developer
 outsystems-tools:
   - service studio
 coverage-type:
