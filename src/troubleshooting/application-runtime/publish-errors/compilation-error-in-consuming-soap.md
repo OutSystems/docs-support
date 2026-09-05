@@ -8,7 +8,6 @@ figma: https://www.figma.com/file/6tXLupLiqfG9FOElATTGQU/Troubleshooting?type=de
 tags: compilation errors, soap web services, wsdl, error troubleshooting, outsystems service studio
 audience:
   - Developer
-  - Front-end developer
 outsystems-tools:
   - service studio
 coverage-type:
