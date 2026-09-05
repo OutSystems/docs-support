@@ -1,6 +1,9 @@
 ---
 summary: Explore how to retrieve and export Service Center logs in OutSystems 11 (O11) using the monitoring section.
-tags: log management, troubleshooting, outsystems service center, exporting data, system monitoring
+tags:
+  - Logging
+  - Monitoring
+  - Troubleshooting
 locale: en-us
 guid: 85487f8d-7eb3-4c11-98b5-03706c741c57
 app_type: traditional web apps, mobile apps, reactive web apps

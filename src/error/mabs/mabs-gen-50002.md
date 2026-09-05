@@ -2,7 +2,6 @@
 summary: OS-MABS-GEN-50002 occurs when a network timeout interrupts npm install on the OutSystems platform, blocking MABS app package generation.
 tags:
   - Mobile app
-  - Plugins
   - Troubleshooting
 guid: 482e34ad-101e-47df-90ca-8234f43d2a47
 locale: en-us

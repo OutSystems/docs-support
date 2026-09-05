@@ -1,6 +1,12 @@
 ---
 summary: Explore solutions for recurring login popups in applications built with OutSystems 11 (O11) using Windows Integrated Authentication on the .NET stack.
-tags: authentication issues, .net integration, user session management
+tags:
+  - .NET
+  - Authentication
+  - End-user Authentication
+  - Roles
+  - Security
+  - Traditional Web
 locale: en-us
 guid: 221907f5-bdfa-4767-916d-6c2fb1769489
 app_type: traditional web apps, mobile apps, reactive web apps

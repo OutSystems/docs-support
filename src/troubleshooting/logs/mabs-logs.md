@@ -1,6 +1,9 @@
 ---
 summary: Explore how to access mobile app generation logs in OutSystems 11 (O11) for troubleshooting and monitoring.
-tags: mobile app deployment, troubleshooting, logging, mobile app distribution
+tags:
+  - Logging
+  - Mobile app
+  - Troubleshooting
 locale: en-us
 guid: 5a5f216b-421f-447a-b822-f1ec74910523
 app_type: mobile apps
