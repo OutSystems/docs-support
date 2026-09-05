@@ -8,6 +8,7 @@ figma:
 tags: mobile app deployment, update errors, resource validation, hash mismatch, troubleshooting
 audience:
   - Developer
+  - Platform administrator
 outsystems-tools:
   - service studio
 coverage-type:
