@@ -16,6 +16,7 @@ outsystems-tools:
   - service studio
 coverage-type:
   - apply
+  - unblock
 isautopublish: true
 ---
 
