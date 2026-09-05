@@ -5,7 +5,13 @@ guid: eafe431f-ca4d-4305-93bc-0b964fb9efc6
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
 figma:
-tags: android development, local storage, memory management, performance optimization, sqlite
+tags:
+  - Android
+  - Entities
+  - Mobile app
+  - Performance
+  - Plugins
+  - Troubleshooting
 audience:
   - Developer
   - Front-end developer

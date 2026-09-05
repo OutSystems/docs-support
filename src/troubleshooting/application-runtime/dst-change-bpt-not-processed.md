@@ -5,7 +5,14 @@ guid: 29199635-c75e-4142-aa64-14044cd0f851
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
 figma:
-tags: daylight savings, bug tracking, bpt (business process technology), .net stack, cloud infrastructure
+tags:
+  - .NET
+  - Business Processes
+  - Java
+  - Monitoring
+  - SQL
+  - Troubleshooting
+  - Workflows
 audience:
   - Platform administrator
   - Developer

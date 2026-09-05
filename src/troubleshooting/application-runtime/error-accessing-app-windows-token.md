@@ -5,7 +5,9 @@ guid: 6d5b466c-0819-4e81-a080-6089039c0394
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
 figma: https://www.figma.com/file/6tXLupLiqfG9FOElATTGQU/Troubleshooting?node-id=620:33
-tags: error resolution, .net framework, application deployment, user authentication, platform operations
+tags:
+  - .NET
+  - Troubleshooting
 audience:
   - Platform administrator
   - Developer

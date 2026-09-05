@@ -1,6 +1,10 @@
 ---
 summary: Explore troubleshooting strategies for "Error Deserializing ViewState- Cannot decrypt the content" in OutSystems 11 (O11) web applications.
-tags: asp.net, viewstate, security, performance optimization, error handling
+tags:
+  - .NET
+  - Security
+  - Traditional Web
+  - Troubleshooting
 locale: en-us
 guid: 353db22a-7853-4498-a2a1-62c184f291ff
 app_type: traditional web apps, mobile apps, reactive web apps

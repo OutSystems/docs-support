@@ -1,6 +1,9 @@
 ---
 summary: Explore troubleshooting tips for OutSystems 11 (O11) applications on browsers, mobile devices, and during timer or business process execution.
-tags: troubleshooting, application runtime, timers, business processes, mobile device compatibility
+tags:
+  - Business Processes
+  - Timers
+  - Troubleshooting
 locale: en-us
 guid: 36cc341a-9af4-4394-9441-a5680b138747
 app_type: traditional web apps, mobile apps, reactive web apps
