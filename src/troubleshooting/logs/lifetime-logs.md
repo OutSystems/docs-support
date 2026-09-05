@@ -1,6 +1,9 @@
 ---
 summary: Explore how to obtain various reports in OutSystems 11 (O11) through the LifeTime troubleshooting interface.
-tags: lifetime, troubleshooting, infrastructure management, support case assistance
+tags:
+  - Infrastructure
+  - Logging
+  - Troubleshooting
 locale: en-us
 guid: 27d0fb71-1ef7-4574-a8ca-bd1126b29976
 app_type: traditional web apps, mobile apps, reactive web apps

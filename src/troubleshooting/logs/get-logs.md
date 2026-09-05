@@ -1,6 +1,11 @@
 ---
 summary: Learn how to obtain and utilize various logs for troubleshooting in OutSystems 11 (O11) by accessing detailed instructions for each component.
-tags: troubleshooting, logging, support and maintenance, technical support, debugging
+tags:
+  - Debugging
+  - Java
+  - Logging
+  - Mobile app
+  - Troubleshooting
 locale: en-us
 guid: 0ffec091-70df-4b3c-9c4b-0a274efd1541
 app_type: traditional web apps, mobile apps, reactive web apps

@@ -1,6 +1,8 @@
 ---
 summary: OutSystems 11 (O11) provides a guide on retrieving Windows event logs for specific environments using Remote Desktop and Windows Event Viewer.
-tags: windows event viewer, server troubleshooting, logging, application performance monitoring
+tags:
+  - Logging
+  - Troubleshooting
 locale: en-us
 guid: c281aa1d-be12-415d-82c1-c9e186039f7f
 app_type: traditional web apps, mobile apps, reactive web apps

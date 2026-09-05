@@ -1,6 +1,13 @@
 ---
 summary: Explore database performance troubleshooting in OutSystems 11 (O11) using Oracle's AWR and ADDM reports.
-tags: database performance, oracle awr, oracle addm, performance troubleshooting, database monitoring
+tags:
+  - External Databases
+  - Logging
+  - Monitoring
+  - Optimization
+  - Performance
+  - SQL
+  - Troubleshooting
 locale: en-us
 guid: 8aafea3c-07b4-4435-9ff3-62e6607e1ee3
 app_type: traditional web apps, mobile apps, reactive web apps
