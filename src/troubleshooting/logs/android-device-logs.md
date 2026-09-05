@@ -11,6 +11,7 @@ audience:
 outsystems-tools:
   - none
 coverage-type:
+  - apply
   - unblock
 ---
 

@@ -13,6 +13,7 @@ outsystems-tools:
   - lifetime
   - service studio
 coverage-type:
+  - apply
   - unblock
 ---
 

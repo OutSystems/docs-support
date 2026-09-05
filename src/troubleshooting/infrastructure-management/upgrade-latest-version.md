@@ -14,7 +14,7 @@ outsystems-tools:
   - service studio
   - service center
 coverage-type:
-  - unblock
+  - apply
 ---
 
 # Upgrade a personal environment to the latest version

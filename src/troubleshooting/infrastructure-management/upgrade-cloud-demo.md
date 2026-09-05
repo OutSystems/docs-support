@@ -13,7 +13,7 @@ audience:
 outsystems-tools:
   - lifetime
 coverage-type:
-  - unblock
+  - apply
 ---
 
 # Upgrading your Cloud demo
