@@ -13,6 +13,8 @@ coverage-type:
   - unblock
 audience:
   - Developer
+topic:
+  - wfb-attribute-type-error
 ---
 
 # OS-WFBL-CONF-00003

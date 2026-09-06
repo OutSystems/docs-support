@@ -12,6 +12,8 @@ coverage-type:
   - unblock
 audience:
   - Developer
+topic:
+  - wfb-discard-version-error
 ---
 
 # OS-WFBL-GEN-00006

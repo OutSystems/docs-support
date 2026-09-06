@@ -12,6 +12,10 @@ coverage-type:
   - unblock
 audience:
   - Platform administrator
+topic:
+  - fix-vpn-asn-errors
+  - fix-vpn-ip-errors
+  - fix-vpn-route-errors
 ---
 
 # Possible errors when setting up a VPN to your OutSystems Cloud

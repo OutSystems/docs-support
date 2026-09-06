@@ -12,6 +12,8 @@ coverage-type:
   - unblock
 audience:
   - Developer
+topic:
+  - wfb-status-update-error
 ---
 
 # OS-WFBL-GEN-00004

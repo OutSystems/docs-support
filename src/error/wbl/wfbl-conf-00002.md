@@ -14,6 +14,8 @@ platform-version: o11
 figma:
 coverage-type:
   - unblock
+topic:
+  - wfb-attribute-data-error
 ---
 
 # OS-WFBL-CONF-00002

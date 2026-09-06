@@ -12,6 +12,8 @@ platform-version: o11
 figma:
 coverage-type:
   - unblock
+topic:
+  - wfb-icon-size-error
 audience:
   - Developer
   - Front-end developer
