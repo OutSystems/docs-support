@@ -3,6 +3,8 @@ summary: What is the price of an OutSystems Boot Camp and how can I register for
 locale: en-us
 guid: 219387DC-4207-4882-A16E-DD363A44F7BD
 tags:
+topic:
+  - boot-camp-registration
 coverage-type:
     - understand
     - apply
