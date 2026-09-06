@@ -12,6 +12,8 @@ coverage-type:
   - unblock
 audience:
   - Developer
+topic:
+  - wfb-attribute-length-error
 ---
 
 # OS-WFBL-CONF-00004

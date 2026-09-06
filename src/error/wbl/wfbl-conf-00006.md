@@ -12,6 +12,8 @@ coverage-type:
   - unblock
 audience:
   - Developer
+topic:
+  - wfb-dropdown-id-error
 ---
 
 # OS-WFBL-CONF-00006
