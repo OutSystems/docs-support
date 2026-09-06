@@ -11,6 +11,8 @@ platform-version: o11
 figma:
 coverage-type:
   - unblock
+topic:
+  - fix-salesforce-api-error
 audience:
   - Developer
 ---

@@ -5,7 +5,10 @@ summary: Check the FAQs related to the SQL Server 22 upgrade in O11 Cloud.
 figma: https://www.figma.com/design/6tXLupLiqfG9FOElATTGQU/Troubleshooting?node-id=5594-247&t=wdMEwcdmLXvJQ8yy-1
 coverage-type:
   - unblock
-topic: 
+topic:
+  - cloud-maintenance-schedule
+  - cloud-update-downtime
+  - sql-server-2022-upgrade
 app_type: mobile apps,reactive web apps,traditional web apps
 platform-version: o11
 audience:

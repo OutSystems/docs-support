@@ -10,6 +10,8 @@ figma: https://www.figma.com/file/mP34OzloL9EPqXml1E0tfC/Community?node-id=1356:
 coverage-type:
 - apply
 - unblock
+topic:
+  - access-blocked-videos
 ---
 # Access to Online Training when Vimeo is Blocked
 

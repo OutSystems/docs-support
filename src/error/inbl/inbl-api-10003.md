@@ -15,6 +15,8 @@ coverage-type:
 audience:
   - Developer
   - Platform administrator
+topic:
+  - fix-im-unreachable
 ---
 
 # OS-INBL-API-10003
