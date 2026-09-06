@@ -10,6 +10,8 @@ audience:
   - Platform administrator
 coverage-type:
   - apply
+topic:
+  - add-case-followers
 ---
 # Adding followers to a Support case
 

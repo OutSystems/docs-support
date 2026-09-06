@@ -13,6 +13,8 @@ platform-version: o11
 figma:
 coverage-type:
   - unblock
+topic:
+  - wfb-delete-version-error
 ---
 
 # OS-WFBL-GEN-00001

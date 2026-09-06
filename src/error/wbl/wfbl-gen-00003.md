@@ -12,6 +12,8 @@ coverage-type:
   - unblock
 audience:
   - Developer
+topic:
+  - resolve-app-not-found
 ---
 
 # OS-WFBL-GEN-00003
