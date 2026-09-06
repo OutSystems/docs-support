@@ -11,6 +11,10 @@ audience:
 coverage-type:
   - remember
   - understand
+topic:
+  - mabs-12-1-splash-changes
+  - mabs-12-breaking-changes
+  - mabs-12-upgrade-overview
 tags:
   - Android
   - Capacitor

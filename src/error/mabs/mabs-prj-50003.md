@@ -16,6 +16,8 @@ outsystems-tools:
 coverage-type:
   - unblock
 isautopublish: true
+topic:
+  - file-write-copy-error
 ---
 
 # OS-MABS-PRJ-50003

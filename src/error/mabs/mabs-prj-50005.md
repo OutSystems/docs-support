@@ -17,6 +17,8 @@ outsystems-tools:
   - odc portal
 coverage-type:
   - unblock
+topic:
+  - cordova-dependency-error
 isautopublish: true
 ---
 

@@ -16,6 +16,8 @@ outsystems-tools:
   - odc portal
 coverage-type:
   - unblock
+topic:
+  - splash-image-resize-error
 isautopublish: true
 ---
 

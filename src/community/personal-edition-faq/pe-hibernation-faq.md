@@ -6,6 +6,9 @@ figma:
 coverage-type:
   - understand
 topic:
+  - pe-hibernation-basics
+  - pe-hibernation-vs-deletion
+  - wake-hibernated-pe
 app_type: reactive web apps,mobile apps
 platform-version: odc
 audience:

@@ -17,6 +17,8 @@ outsystems-tools:
   - service center
 coverage-type:
   - unblock
+topic:
+  - cordova-build-failure-error
 isautopublish: true
 ---
 

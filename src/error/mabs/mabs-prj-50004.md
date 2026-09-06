@@ -16,6 +16,8 @@ outsystems-tools:
 coverage-type:
   - unblock
 isautopublish: true
+topic:
+  - invalid-code-structure-error
 ---
 
 # OS-MABS-PRJ-50004

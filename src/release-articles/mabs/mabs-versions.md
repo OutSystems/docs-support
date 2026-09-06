@@ -19,6 +19,8 @@ coverage-type:
 outsystems-tools:
   - forge
 isautopublish: true
+topic:
+  - mabs-version-support
 ---
 # Mobile apps build service versions
 

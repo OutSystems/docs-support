@@ -22,6 +22,9 @@ outsystems-tools:
 coverage-type:
   - remember
   - understand
+topic:
+  - ao-counting-rules
+  - ao-limits-usage
 isautopublish: true
 ---
 

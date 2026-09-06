@@ -18,6 +18,8 @@ outsystems-tools:
   - odc portal
 coverage-type:
   - unblock
+topic:
+  - template-preparation-error
 isautopublish: true
 ---
 
