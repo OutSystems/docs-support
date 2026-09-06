@@ -8,6 +8,9 @@ platform-version: o11, odc
 figma:
 coverage-type:
   - unblock
+topic:
+  - inspect-network-traffic
+  - simulate-mobile-network-conditions
 ---
 
 # Inspect network traffic

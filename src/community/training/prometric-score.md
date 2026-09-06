@@ -5,6 +5,8 @@ guid: C23D1280-132D-41F8-B27F-F58F719F4FCE
 coverage-type:
     - apply
     - unblock
+topic:
+    - access-exam-score-report
 tags:
     - Quality Assurance
     - Testing

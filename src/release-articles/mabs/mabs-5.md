@@ -6,6 +6,8 @@ app_type: mobile apps
 platform-version: o11
 coverage-type:
   - remember
+topic:
+  - ios-12-viewport-flicker
 ---
 
 # MABS 5 Release notes
