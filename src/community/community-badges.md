@@ -11,6 +11,8 @@ platform-version: o11, odc
 figma:
 coverage-type:
 - remember
+topic:
+  - community-badge-criteria
 ---
 
 # Community Badges overview

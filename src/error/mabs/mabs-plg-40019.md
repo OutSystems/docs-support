@@ -14,6 +14,8 @@ platform-version: o11, odc
 figma:
 coverage-type:
   - unblock
+topic:
+  - forge-plugin-version-error
 ---
 
 # OS-MABS-PLG-40019

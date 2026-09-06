@@ -12,6 +12,8 @@ platform-version: o11, odc
 figma:
 coverage-type:
   - unblock
+topic:
+  - resource-load-timeout-error
 audience:
   - Developer
 ---

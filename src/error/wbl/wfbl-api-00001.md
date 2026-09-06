@@ -12,6 +12,8 @@ coverage-type:
   - unblock
 audience:
   - Developer
+topic:
+  - wfb-icon-save-error
 ---
 
 # OS-WFBL-API-00001
