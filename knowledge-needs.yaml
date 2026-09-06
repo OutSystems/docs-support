@@ -1415,6 +1415,13 @@ knowledge-needs:
         Service Studio''s Debugger before calling Case_DiscardActivity in the
         Case Management Framework in OutSystems 11, so that the action
         executes successfully.'
+    - name: Fix invalid GUID
+      id: fix-invalid-guid
+      description: 'Wants to fix the "<record> Id is not a valid GUID:
+        <input-parameter-value>" error by verifying the input parameter''s
+        value is a properly formatted GUID using Service Studio''s Debugger
+        in OutSystems 11, so that the Case Management Framework action
+        executes successfully.'
 - name: App Configuration Management
   guid: 22a71e1c-da01-468c-9633-29c791104e7e
   topics:
@@ -2061,6 +2068,22 @@ knowledge-needs:
         Workflow Builder, by creating a new field with the desired data
         type instead, in OutSystems 11, so that the application field saves
         successfully.'
+    - name: WFB attribute length error
+      id: wfb-attribute-length-error
+      description: 'Wants to resolve the "Cannot decrease the Length of an
+        existing attribute: <Name> (<Id>)" error that occurs when trying to
+        decrease the Length of a Text field that''s already published in
+        Workflow Builder, by creating a new field with the desired Length
+        instead, in OutSystems 11, so that the application field saves
+        successfully.'
+    - name: WFB dropdown id error
+      id: wfb-dropdown-id-error
+      description: 'Wants to resolve the "Cannot create new dropdown entry. Id
+        is invalid for dropdown: <Name> (<Id>)" error that occurs when
+        creating or updating a Dropdown field with inconsistent data in
+        Workflow Builder, by deleting and re-creating the unpublished field
+        (or contacting support if already published), in OutSystems 11, so
+        that they can successfully save the field.'
 - name: Component testing
   guid: 7e2fb431-16fd-487e-8c9b-77fe350b092b
   topics:
