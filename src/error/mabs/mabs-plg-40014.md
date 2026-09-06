@@ -10,6 +10,8 @@ coverage-type:
   - unblock
 audience:
   - Developer
+topic:
+  - plugin-fetch-http-error
 ---
 
 # OS-MABS-PLG-40014

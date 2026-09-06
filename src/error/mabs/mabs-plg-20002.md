@@ -8,6 +8,8 @@ platform-version: o11, odc
 figma:
 coverage-type:
   - unblock
+topic:
+  - plugin-auth-error
 audience:
   - Developer
 ---

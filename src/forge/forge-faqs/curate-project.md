@@ -11,6 +11,9 @@ audience:
   - Tech lead
 coverage-type:
   - unblock
+topic:
+  - forge-project-classifications
+  - forge-project-support
 ---
 
 # Curating Projects

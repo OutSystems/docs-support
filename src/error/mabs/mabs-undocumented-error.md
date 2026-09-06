@@ -12,6 +12,8 @@ outsystems-tools:
   - none
 coverage-type:
   - unblock
+topic:
+  - undocumented-mabs-error
 ---
 
 # MABS error without documentation
