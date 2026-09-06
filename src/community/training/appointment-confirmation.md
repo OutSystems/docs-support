@@ -4,6 +4,8 @@ locale: en-us
 guid: 40106156-CA28-4D1B-ADDD-DEA0F6736E71
 coverage-type:
     - unblock
+topic:
+    - missing-exam-appointment
 tags: 
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11

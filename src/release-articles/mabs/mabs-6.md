@@ -11,6 +11,9 @@ coverage-type:
 audience:
   - Developer
   - Tech lead
+topic:
+  - mabs-6-upgrade-overview
+  - missing-module-dependency-error
 ---
 
 # MABS 6 Release notes

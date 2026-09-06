@@ -10,6 +10,9 @@ coverage-type:
 audience:
   - Developer
   - Tech lead
+topic:
+  - mabs-8-breaking-changes
+  - mabs-8-upgrade-overview
 ---
 
 # MABS 8 Release notes
