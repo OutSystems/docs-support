@@ -141,6 +141,14 @@ knowledge-needs:
         can handle JavaScript errors that occur during an Ajax refresh of an
         unescaped expression or during the RunJavaScript action of the
         HTTPRequestHandler extension, in Traditional Web Apps (O11).
+    - name: Fix Log Error warning
+      id: fix-log-error-warning
+      description: 'Wants to fix the audit suggestion warning "''Log Error''
+        should be set to ''Yes'' for ''AllExceptions'' error handler at screen
+        flow level" by setting the Log Error property to Yes on the screen
+        flow''s AllExceptions error handler in Service Studio, so that
+        OutSystems logs detailed exception information for troubleshooting,
+        in OutSystems 11.'
   - name: Using Expressions
     id: using-expressions
     subtopics:
@@ -458,6 +466,22 @@ knowledge-needs:
         allowed range or of the wrong type, by editing the property or
         attribute to a valid numeric value, so that the module compiles and
         publishes successfully.'
+    - name: Fix reserved attribute
+      id: fix-reserved-attribute-name
+      description: Wants to fix the "'<attribute>' is an invalid attribute name in
+        <database>." warning caused by naming an entity attribute using an
+        Oracle reserved word, by renaming the attribute to a non-reserved word,
+        so that the attribute compiles successfully against an Oracle database,
+        in OutSystems 11.
+    - name: Fix entity warning
+      id: fix-unexpected-entity
+      description: 'Wants to fix the "Unexpected Entity" warning family in
+        Service Studio for OutSystems 11, caused by an entity composed
+        solely of an Auto Number attribute, having more than one Binary
+        Data attribute, or specifying an invalid physical table name, by
+        adding another attribute, moving binary data to a new entity, or
+        correcting the table name, so that the entity compiles and
+        publishes successfully.'
   - name: Querying data
     id: querying-data
     subtopics:
@@ -517,6 +541,13 @@ knowledge-needs:
         by adjusting Fetch properties, merging or referencing data via a
         client variable, or removing the circular dependency, so that the
         module compiles and publishes successfully.'
+    - name: Fix maintenance warning
+      id: fix-maintenance-suggestion-warning
+      description: Wants to fix the "Complete enumeration of <entity> attributes
+        found" maintenance suggestion warning in Service Studio, caused by a
+        SQL query selecting all attributes individually instead of using the
+        entity wildcard, by replacing the attribute list with <entity>.*, so
+        that the query is easier to maintain, in OutSystems 11.
   - name: Sharing Data defined in OutSystems
     id: share-data-outsystems
     subtopics:
@@ -880,6 +911,42 @@ knowledge-needs:
         ensuring only one class implements the OSInterface-decorated interface
         in their C# external library project, so that they can successfully
         publish the external library.'
+    - name: Missing file warning
+      id: missing-file-warning
+      description: 'Wants to resolve the "The file ''<file>'' was not found on
+        the file system" warning that occurs when a previously added resource
+        file can''t be found on the file system during extension creation,
+        merge, or save in Integration Studio, by re-opening the extension to
+        recover the files, so that the extension resource is restored.'
+    - name: Overwritten file warning
+      id: overwritten-file-warning
+      description: 'Wants to resolve the "The file ''<file>'' was overridden"
+        warning in Integration Studio by understanding that a merge operation
+        replaces file-system files with newer, extension-generated ones when
+        Last Modified timestamps differ, and by locating the automatic backup
+        saved in the extension''s Backups folder, so that they don''t lose
+        manual file-system changes.'
+    - name: Fix source code warning
+      id: fix-source-code-warning
+      description: 'Wants to resolve the "The Extension has no [.NET] source
+        code to update/compile" warning in Integration Studio by adding at
+        least one action to the extension, so that the extension has
+        associated source code to update and compile, in OutSystems 11.'
+    - name: Fix missing options warning
+      id: fix-missing-options-warning
+      description: 'Wants to resolve the "The .NET Software Development Kit
+        options are not correctly defined" warning that blocks compiling and
+        1-Click Publishing an extension, by setting the .NET SDK options
+        correctly in the Options Window, in Integration Studio, so that the
+        extension compiles and publishes successfully.'
+    - name: Fix resource warning
+      id: fix-resource-warning
+      description: 'Wants to fix the "The Resource <file> should not be included
+        in the Extension" or "...has a reserved file name..." warnings in
+        OutSystems 11, caused by naming an extension resource with the reserved
+        OutSystemsHubEdition prefix or a reserved system filename (for example,
+        compressor or web.config), by renaming the resource file to remove the
+        prefix or reserved name, so that the resource deploys correctly.'
     - name: Authenticate mTLS library
       id: authenticate-mtls-library
       description: 'Wants to implement mutual TLS (mTLS) authentication in an
@@ -1095,6 +1162,14 @@ knowledge-needs:
         default escaping, and Encode functions (EncodeSQL, EncodeHTML, EncodeJavaScript,
         EncodeURL) and parameterized queries, so that they can protect their ODC
         applications against SQL injection and XSS attacks.
+    - name: Fix JS injection warning
+      id: fix-js-injection-warning
+      description: Wants to resolve the Service Studio warning that an expression
+        using end-user input isn't protected against JavaScript injection, by
+        wrapping it with the EncodeJavascript() built-in function or
+        VerifyJavascriptLiteral() from the Sanitization extension, in OutSystems
+        11, so that malicious script content can't be injected via that
+        expression.
   - name: Access control risks
     id: access-control-risks
     description: Wants to protect OutSystems 11 applications from access control
@@ -2929,6 +3004,15 @@ knowledge-needs:
         action''s argument, by checking whether the Web Service is consumed
         by the module or correcting the argument name, in OutSystems 11, so
         that the module compiles and publishes successfully.'
+    - name: Invalid argument warning
+      id: invalid-argument-warning
+      description: 'Wants to understand the cause of the "Unable to validate
+        if the argument of the action refers a web service consumed in your
+        module because the name supplied is not a literal" warning in
+        Service Studio, triggered by passing a non-literal (variable) value
+        to an action parameter that expects a consumed Web Service name, so
+        that they understand why Service Studio can''t validate the web
+        service reference at design time, in OutSystems 11.'
     - name: Invalid Blocks error
       id: invalid-blocks-error
       description: 'Wants to resolve the "Invalid Blocks" "Block loop detected"
@@ -2963,6 +3047,14 @@ knowledge-needs:
         Dropdown, or dragging an Entity or Static Entity Identifier variable
         into it to auto-configure the Dropdown, in OutSystems 11, so that
         the module compiles and publishes successfully.'
+    - name: Invalid widget warning
+      id: invalid-widget-warning
+      description: 'Wants to resolve the "Screen ''<screen name>'' contained
+        a corrupted <widget kind> Widget that was re-created. Please check
+        its properties" warning in Service Studio, caused by Service Studio
+        automatically detecting and recreating a corrupted widget, by
+        reviewing and correcting the properties of the recreated widget, in
+        OutSystems 11, so that the screen behaves as expected.'
     - name: Invalid Data Action error
       id: invalid-data-action-error
       description: 'Wants to resolve the "Invalid Data Action" error in
@@ -2987,6 +3079,14 @@ knowledge-needs:
         Center administrator which Platform Server version is in use and
         what needs to be upgraded, so that the module publishes
         successfully.'
+    - name: Fix Incomplete Upgrade error
+      id: fix-incomplete-upgrade-error
+      description: 'Wants to resolve the "Incomplete Upgrade" error when
+        publishing a module in Service Studio, caused by the module
+        consuming other modules that weren''t upgraded yet to the new
+        Platform Server version after a server upgrade, by publishing the
+        consumed modules first, in OutSystems 11, so that the module
+        publishes successfully.'
     - name: Invalid Reference error
       id: invalid-reference-error
       description: 'Wants to resolve the "Invalid Reference" error in Service
@@ -3061,6 +3161,32 @@ knowledge-needs:
         only in-module Entities/Structures, or adjusting/removing the
         Destination argument or the block''s Public property, in OutSystems
         11, so that the module compiles and publishes successfully.'
+    - name: Incompatible consumer warning
+      id: incompatible-consumer-warning
+      description: 'Wants to resolve the "Consumer module has incompatible
+        dependencies" warning in OutSystems 11, caused by changing a
+        producer module''s exposed signature in a way that breaks a
+        consumer module, by refreshing the dependency in the consumer
+        module in Service Studio, adapting the logic, and republishing it,
+        so that runtime errors are avoided.'
+    - name: Inconsistent dependency
+      id: inconsistent-dependency-warning
+      description: 'Wants to resolve the "Producer is inconsistent" warning
+        in OutSystems 11, caused by a Producer (module or Extension) that
+        isn''t consistent in the Platform Server where it was deployed, by
+        1-Click Publishing the producer module and notifying the Service
+        Center administrator, so that runtime errors are prevented.'
+    - name: Fix invalid theme warning
+      id: fix-invalid-theme-warning
+      description: 'Wants to resolve the "Invalid Theme" warning family in
+        Service Studio, caused by using a Web Block as a theme''s Layout,
+        Info Balloon, Pop-up Editor, Email, or Menu without the required
+        placeholders (''Title'' and ''MainContent'' for Layout;
+        ''MainContent'' for Info Balloon/Pop-up Editor/Email; or the
+        Menu-specific requirements), by editing the Web Block to add the
+        missing placeholders or comply with Menu requirements, or choosing
+        a different compliant Web Block, in OutSystems 11, so that the
+        theme compiles and publishes successfully.'
   - name: Troubleshoot SEO-friendly URLs
     id: troubleshoot-seo-friendly-urls
     subtopics:
@@ -4004,6 +4130,28 @@ knowledge-needs:
         for the OnKeyboardWillShow, OnKeyboardDidShow, OnKeyboardWillHide, and
         OnKeyboardDidHide events, so that the app can react to keyboard
         visibility changes.
+  - name: Using Capacitor Plugins
+    id: using-capacitor-plugins
+    subtopics:
+    - name: Integrate plugin in app
+      id: integrate-plugin-in-app
+      description: Wants to integrate a Capacitor plugin (official, community,
+        or custom-built) into an ODC app by creating a mobile library
+        wrapper, configuring its extensibility settings to reference the
+        plugin package and permissions, adding a client action that calls
+        the plugin via window.CapacitorPlugins, using the library in the
+        app, and building the mobile package, so that the plugin's native
+        functionality becomes available to the app.
+    - name: Vet plugin security
+      id: vet-plugin-security
+      description: Wants to assess whether a Capacitor plugin is safe to
+        include in a mobile app, given that bundled plugins share the
+        global JavaScript environment and can access device APIs, app
+        data, and user information, by installing only from trusted
+        sources, reviewing the plugin's source code and community
+        signals, and keeping plugins updated or removing unused ones, so
+        that the app's security risk from third-party plugin code stays
+        low.
 - name: Lifecycle Independence
   guid: 4b3a44cd-2a86-462c-81b2-89a841284aab
   topics:
@@ -4675,6 +4823,16 @@ knowledge-needs:
         plugin, or community Capacitor plugin), so that they avoid
         unnecessary investment in custom native plugin development for ODC
         mobile apps.
+    - name: Migrate Cordova plugin
+      id: migrate-cordova-plugin
+      description: Wants to adapt an existing Cordova plugin's plugin.xml
+        preferences, hooks, and config-file changes, plus Cordova-specific
+        JavaScript API references, for compatibility with Capacitor, by
+        migrating preferences to extensibility settings, replacing hooks with
+        build actions, converting config-file changes to extensibility
+        configurations or build actions, and refactoring JavaScript checks,
+        in MABS 12, so that an OutSystems library's existing Cordova plugin
+        works in a Capacitor-based ODC mobile app.
     - name: Plan custom Capacitor plugin
       id: plan-custom-capacitor-plugin
       description: Wants to plan a custom Capacitor plugin for an ODC mobile
@@ -5920,6 +6078,28 @@ knowledge-needs:
 - name: Log streaming (ODC)
   guid: 5e4d826e-41ed-47ae-9f2e-9c87b56d41f2
   topics:
+  - name: Stream overview
+    id: odc-stream-overview
+    subtopics:
+    - name: Analytics Stream overview
+      id: understand-analytics-stream
+      description: Wants to understand what streaming observability data
+        (Analytics Stream) is, how ODC uses the OpenTelemetry standard and
+        OTLP to export logs, traces, and metrics to third-party APM tools,
+        and its benefits, so they can decide whether and how to adopt it
+        for monitoring ODC apps, agents, and workflows.
+    - name: Supported APM tools
+      id: supported-apm-tools
+      description: Wants to know which APM tools ODC's Analytics Stream supports natively
+        vs. via the OpenTelemetry collector, so they can pick a compatible
+        destination for their observability data.
+    - name: Connectivity requirements
+      id: stream-connectivity-requirements
+      description: Wants to understand the connectivity and security
+        requirements (public endpoint exposure, encryption, authentication,
+        IP allowlisting) for streaming observability data from ODC to an
+        APM tool, so they can prepare their APM tool's ingestion endpoint
+        before configuring a stream.
   - name: Stream configuration
     id: odc-stream-configuration
     subtopics:
@@ -6116,6 +6296,28 @@ knowledge-needs:
       not found" error while opening or editing an application that no
       longer exists, so they can confirm the app was removed and contact
       OutSystems Support if the issue persists.
+  - name: Resolve shared config
+    id: resolve-shared-config
+    description: 'Wants to know what to do when OutSystems 11 shows a "Shared
+      Configuration ''<Shared Configuration>'' is invalid and will be
+      ignored" warning, so they can ask the application manager or Service
+      Center administrator to correct it using the Service Center Factory
+      Configuration solution and republish the module.'
+  - name: Renew server license
+    id: renew-server-license
+    description: Wants to know how to respond to a Service Center warning
+      that their OutSystems 11 server license will expire soon or has
+      already expired, by contacting their Service Center administrator to
+      request a new license from OutSystems before losing access to
+      licensed features.
+  - name: License limit exceeded
+    id: license-limit-exceeded
+    description: Wants to resolve a Service Center warning that their
+      OutSystems 11 server has exceeded its licensed resource usage or
+      Software Units publishing limit, by cleaning up obsolete users,
+      modules, or data, or asking their Service Center administrator to
+      change the license contract, so that they can keep using licensed
+      features and publish new modules.
 - name: Project Tracking and Collaboration
   guid: ''
   topics:
@@ -6190,3 +6392,21 @@ knowledge-needs:
         (posting, contributing Forge assets, attending events, publishing
         content, and similar activities), so that they can understand
         which recognition badges they've earned or how to earn new ones.
+- name: SEO
+  guid: 54a1d9e5-0f3e-4a8b-b897-7c5c8838b0ff
+  topics:
+  - name: Sitemap and robots configuration
+    id: sitemap-and-robots-configuration
+    subtopics:
+    - name: Generate dynamic sitemap
+      id: generate-dynamic-sitemap
+      description: 'Wants to generate a valid sitemap.xml for their app by
+        creating a REST API endpoint that outputs an XML-formatted list of
+        static and dynamic screen URLs, in ODC Studio, so that search engine
+        crawlers can discover and index all public pages.'
+    - name: Create robots.txt file
+      id: create-robots-txt-file
+      description: 'Wants to control which parts of their site search engine
+        crawlers can access by creating a static robots.txt file that
+        defines allow/disallow rules and references the sitemap.xml
+        endpoint, in ODC, so that crawler behavior is properly restricted.'
