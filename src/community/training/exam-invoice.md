@@ -5,6 +5,8 @@ guid: FD42AFA9-83F9-4074-83E3-718B93BBDE24
 coverage-type:
     - apply
     - unblock
+topic:
+    - exam-payment-receipt
 tags:
     - Testing
     - Troubleshooting

@@ -4,6 +4,10 @@ coverage-type:
     - understand
     - apply
 tags:
+topic:
+    - add-customer-portal-member
+    - customer-portal-access-levels
+    - set-customer-portal-security-contact
 locale: en-us
 guid: 5bd7f106-3784-4821-a603-0ad0c0fd8f82
 app_type: traditional web apps, mobile apps, reactive web apps

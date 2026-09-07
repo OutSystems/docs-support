@@ -5,6 +5,8 @@ tags:
 - Settings
 coverage-type:
 - apply
+topic:
+  - change-community-email
 audience:
 - Developer
 locale: en-us

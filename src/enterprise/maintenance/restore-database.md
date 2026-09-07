@@ -11,6 +11,8 @@ audience:
   - Developer
 outsystems-tools:
   - platform server
+topic:
+  - restore-database-server
 coverage-type:
   - understand
   - apply

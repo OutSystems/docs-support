@@ -16,6 +16,8 @@ outsystems-tools:
 coverage-type:
   - understand
   - apply
+topic:
+  - relocate-lifetime-console
 ---
 
 # Reinstall the infrastructure management console in a dedicated environment

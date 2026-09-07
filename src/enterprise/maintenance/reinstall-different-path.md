@@ -15,6 +15,8 @@ outsystems-tools:
 coverage-type:
   - understand
   - apply
+topic:
+  - reinstall-different-path
 ---
 
 # Re-Install the OutSystems Platform on a different path

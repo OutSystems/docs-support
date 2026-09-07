@@ -11,6 +11,8 @@ figma:
 isautopublish: true
 coverage-type:
   - unblock
+topic:
+  - fix-empty-extensibility-file-error
 audience:
   - Developer
 ---

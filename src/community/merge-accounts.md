@@ -3,6 +3,8 @@ audience: []
 summary: Learn the process of merging two community accounts into one and what information will be transferred.
 coverage-type:
   - apply
+topic:
+  - merge-community-accounts
 tags:
   - End-users
   - Forge
