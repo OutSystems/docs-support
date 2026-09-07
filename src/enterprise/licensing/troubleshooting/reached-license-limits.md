@@ -14,6 +14,8 @@ outsystems-tools:
   - service center
 coverage-type:
   - unblock
+topic:
+  - license-limits-reached
 ---
 
 # I have reached my license limits

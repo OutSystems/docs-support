@@ -16,6 +16,9 @@ coverage-type:
   - remember
   - understand
   - unblock
+topic:
+  - license-invalid-hardware
+  - retain-vm-mac
 ---
 
 # Changed the hardware and the license stopped being valid

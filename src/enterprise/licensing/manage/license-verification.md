@@ -14,6 +14,8 @@ outsystems-tools:
 coverage-type:
   - remember
   - apply
+topic:
+  - license-verification
 ---
 
 # License verification

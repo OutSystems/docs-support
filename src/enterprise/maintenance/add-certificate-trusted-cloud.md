@@ -13,6 +13,8 @@ outsystems-tools:
   - service center
 coverage-type:
   - apply
+topic:
+  - add-cloud-trusted-cert
 ---
 
 # Add certificate to trusted root store in OutSystems Cloud
