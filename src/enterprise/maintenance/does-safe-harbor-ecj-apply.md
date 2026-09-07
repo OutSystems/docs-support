@@ -14,6 +14,8 @@ outsystems-tools:
   - none
 coverage-type:
   - understand
+topic:
+  - safe-harbor-compliance
 ---
 
 # Does the Safe Harbor ECJ ruling apply to my OutSystems service
