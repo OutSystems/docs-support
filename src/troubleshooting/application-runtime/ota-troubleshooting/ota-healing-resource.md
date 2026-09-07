@@ -9,6 +9,8 @@ coverage-type:
   - unblock
 audience:
   - Developer
+topic:
+  - healing-resource-error
 tags:
   - Logging
   - Mobile app

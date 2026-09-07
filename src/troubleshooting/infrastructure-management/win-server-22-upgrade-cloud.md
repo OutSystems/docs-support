@@ -17,6 +17,9 @@ coverage-type:
   - understand
   - unblock
 topic:
+  - cloud-maintenance-schedule
+  - cloud-update-downtime
+  - windows-server-upgrade-breaking-changes
 helpids:
 isautopublish: true
 ---

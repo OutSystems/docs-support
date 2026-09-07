@@ -11,6 +11,10 @@ platform-version: o11
 figma:
 coverage-type:
   - unblock
+topic:
+  - configure-vpn-dns-resolution
+  - fix-vpn-phase-1-phase-2-negotiation-failures
+  - test-vpn-connectivity
 audience:
   - Platform administrator
 ---

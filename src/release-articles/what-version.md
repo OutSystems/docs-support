@@ -2,6 +2,8 @@
 summary: Check what's the installed version of the several components of OutSystems - Service Studio, Integration Studio, LifeTime and Platform Server.
 coverage-type:
 - apply
+topic:
+  - check-outsystems-version
 tags:
   - Platform Server
   - Troubleshooting
