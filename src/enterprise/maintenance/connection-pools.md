@@ -15,6 +15,9 @@ outsystems-tools:
   - configuration tool
 coverage-type:
   - apply
+topic:
+  - calculate-runtime-connections
+  - configure-connection-pool-size
 ---
 
 # Connection pools in the OutSystems platform

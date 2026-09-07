@@ -15,6 +15,8 @@ guid: A82EA0CB-B101-4F08-BCFB-77559EF63801
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
 figma: https://www.figma.com/file/mP34OzloL9EPqXml1E0tfC/Community?node-id=1013:320
+topic:
+  - open-support-case
 ---
 # Opening a support case with OutSystems
 
