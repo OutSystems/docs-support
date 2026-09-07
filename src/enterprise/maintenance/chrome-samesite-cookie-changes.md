@@ -16,6 +16,9 @@ outsystems-tools:
 coverage-type:
   - understand
   - apply
+topic:
+  - fix-cross-site-cookies-o10
+  - fix-cross-site-cookies-o11
 ---
 
 # Upcoming changes in cookie handling in Google Chrome

@@ -15,6 +15,10 @@ outsystems-tools:
   - service center
 coverage-type:
   - apply
+topic:
+  - ac-migration-issues
+  - migrate-activation-code
+  - rollback-activation-code
 ---
 
 # How to change the Activation Code of your infrastructure

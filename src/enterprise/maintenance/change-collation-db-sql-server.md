@@ -15,6 +15,10 @@ outsystems-tools:
 coverage-type:
   - understand
   - apply
+topic:
+  - avoid-collation-conflicts
+  - change-db-collation
+  - collation-requirements
 ---
 
 # Change the collation of an OutSystems database running on SQL Server

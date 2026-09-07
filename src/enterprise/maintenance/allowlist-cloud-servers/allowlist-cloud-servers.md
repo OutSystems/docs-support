@@ -14,6 +14,9 @@ outsystems-tools:
 coverage-type:
   - apply
   - unblock
+topic:
+  - allowlist-frontend-public-ips
+  - allowlist-vpn-private-ip-range
 ---
 
 # Allowlist your OutSystems Cloud environments on your firewall

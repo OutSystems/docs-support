@@ -13,6 +13,8 @@ outsystems-tools:
   - lifetime
 coverage-type:
   - apply
+topic:
+  - set-maintenance-window
 ---
 
 # Define a maintenance window for OutSystems Cloud environments

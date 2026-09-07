@@ -14,6 +14,10 @@ outsystems-tools:
   - none
 coverage-type:
   - understand
+topic:
+  - cloud-customer-duties
+  - outsystems-cloud-duties
+  - shared-responsibility-overview
 ---
 
 # OutSystems Cloud shared responsibility model
