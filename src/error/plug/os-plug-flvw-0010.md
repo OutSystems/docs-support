@@ -1,6 +1,11 @@
 ---
 summary: There is no app to open this document.
-tags: error handling,troubleshooting,system messages,user experience,application deployment
+tags:
+  - Android
+  - Cordova
+  - Mobile app
+  - Plugins
+  - Troubleshooting
 locale: en-us
 guid: 4da5bce3-ae49-475d-abee-56381d51dc71
 app_type: mobile apps

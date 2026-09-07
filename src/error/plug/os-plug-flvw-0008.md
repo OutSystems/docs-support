@@ -1,6 +1,12 @@
 ---
 summary: Could not open the document.
-tags: error handling,troubleshooting,system messages,user experience,application deployment
+tags:
+  - Android
+  - Cordova
+  - iOS
+  - Mobile app
+  - Plugins
+  - Troubleshooting
 locale: en-us
 guid: 6ce56132-97ab-41ae-8b45-ae02588456fb
 app_type: mobile apps

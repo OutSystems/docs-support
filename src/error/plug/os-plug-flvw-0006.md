@@ -1,6 +1,12 @@
 ---
 summary: Path of the file to open is either null or empty.
-tags: error handling,troubleshooting,system messages,user experience,application deployment
+tags:
+  - Android
+  - Cordova
+  - iOS
+  - Mobile app
+  - Plugins
+  - Troubleshooting
 locale: en-us
 guid: d0fcaf60-5ffc-4363-8bcf-b0620d6f737b
 app_type: mobile apps

@@ -1,6 +1,12 @@
 ---
 summary: The file you are trying to open does not exist.
-tags: error handling,troubleshooting,system messages,user experience,application deployment
+tags:
+  - Android
+  - Cordova
+  - iOS
+  - Mobile app
+  - Plugins
+  - Troubleshooting
 locale: en-us
 guid: 506043ba-e5e6-4ec8-9a2a-4bffa976f873
 app_type: mobile apps

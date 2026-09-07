@@ -1,6 +1,12 @@
 ---
 summary: Invalid parameters.
-tags: error handling,troubleshooting,system messages,user experience,application deployment
+tags:
+  - Android
+  - Cordova
+  - iOS
+  - Mobile app
+  - Plugins
+  - Troubleshooting
 locale: en-us
 guid: c01f84cb-556b-4c62-90f7-b146682231e1
 app_type: mobile apps

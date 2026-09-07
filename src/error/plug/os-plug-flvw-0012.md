@@ -1,6 +1,11 @@
 ---
 summary: The download failed.
-tags: error handling,troubleshooting,system messages,user experience,application deployment
+tags:
+  - Cordova
+  - iOS
+  - Mobile app
+  - Plugins
+  - Troubleshooting
 locale: en-us
 guid: 8977ad13-f3a0-4c56-bdfd-b413a096c12a
 app_type: mobile apps

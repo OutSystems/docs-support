@@ -1,6 +1,11 @@
 ---
 summary: Cordova bridge isn't initialized.
-tags: error handling,troubleshooting,system messages,user experience,application deployment
+tags:
+  - Cordova
+  - iOS
+  - Mobile app
+  - Plugins
+  - Troubleshooting
 locale: en-us
 guid: c2b12d6a-503d-4d94-a4e4-1538e9d20f89
 app_type: mobile apps

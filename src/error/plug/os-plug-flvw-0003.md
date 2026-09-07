@@ -1,6 +1,10 @@
 ---
 summary: File Viewer Plugin is not loaded.
-tags: error handling,troubleshooting,system messages,user experience,application deployment
+tags:
+  - Cordova
+  - Mobile app
+  - Plugins
+  - Troubleshooting
 locale: en-us
 guid: 337a269c-d6ae-4b23-8f7e-9c8281f08462
 app_type: mobile apps

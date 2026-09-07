@@ -1,6 +1,12 @@
 ---
 summary: Cordova / Capacitor isn't defined
-tags: error handling,troubleshooting,system messages,user experience,application deployment
+tags:
+  - Capacitor
+  - Cordova
+  - Mobile app
+  - Native App
+  - Plugins
+  - Troubleshooting
 locale: en-us
 guid: 508a2b0f-cd31-42bb-8685-a24a03c8a877
 app_type: mobile apps

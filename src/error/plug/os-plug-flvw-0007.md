@@ -1,6 +1,12 @@
 ---
 summary: URL to open is either null or empty.
-tags: error handling,troubleshooting,system messages,user experience,application deployment
+tags:
+  - Android
+  - Cordova
+  - iOS
+  - Mobile app
+  - Plugins
+  - Troubleshooting
 locale: en-us
 guid: 481c7cb4-5eb5-403e-a111-fc3dc8ea99b7
 app_type: mobile apps
