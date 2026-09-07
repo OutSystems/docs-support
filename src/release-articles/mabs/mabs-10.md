@@ -6,6 +6,9 @@ app_type: mobile apps
 platform-version: o11, odc
 coverage-type:
   - remember
+topic:
+  - mabs-10-breaking-changes
+  - mabs-10-upgrade-overview
 audience:
   - Developer
   - Front-end developer
