@@ -2060,6 +2060,28 @@ knowledge-needs:
   topics:
   - name: Integration Patterns - Basics (decision tree)
     id: integration-pattern-basics
+  - name: HTTP library actions
+    id: http-library-actions
+    subtopics:
+    - name: Inspect HTTP request
+      id: inspect-http-request
+      description: Wants to read details of the current HTTP request, such as
+        cookies, headers, HTTP method, URL, domain, and submitted files, using
+        the ODC HTTP library's Request_Get* actions, in ODC Studio, so that
+        server-side logic can react to incoming request data.
+    - name: Customize HTTP response
+      id: customize-http-response
+      description: Wants to customize the current HTTP response by adding a header, setting
+        a cookie, or setting the status code, using the ODC HTTP library's
+        response actions, in ODC Studio, so that server-side logic can control
+        what's sent back to the client.
+    - name: Build and submit HTTP URLs
+      id: build-submit-http-urls
+      description: Wants to generate an absolute URL, replace a URL's domain,
+        and submit an outbound HTTP GET request, using the ODC HTTP library's
+        Request_AbsoluteURL, Request_ReplaceDomain, and
+        Request_SubmitGetRequest actions, in ODC Studio, so that apps can
+        normalize URLs and call external HTTP endpoints.
   - name: Expose webservices
     id: expose-webservices
     subtopics:
@@ -3268,6 +3290,40 @@ knowledge-needs:
         immediate, permanent, and only possible for a non-default subdomain,
         so that they safely retire the old address once all dependent
         configurations have been updated.
+    - name: Reauthenticate users after domain change
+      id: reauthenticate-users-domain-change
+      description: Wants to manage member or end-user reauthentication after
+        an organization or stage domain change in ODC, understanding that
+        both the previous and new domain stay active until the previous one
+        is deleted, so that they avoid access disruptions when retiring the
+        old domain.
+    - name: Update OIDC redirect URIs after domain change
+      id: update-oidc-redirect-uris-domain-change
+      description: Wants to update OIDC redirect URIs after an organization
+        or stage domain change in ODC, understanding that both the previous
+        and new domain stay active until the previous one is deleted, so
+        that sign-in flows keep working when they retire the old domain.
+    - name: Rebuild native mobile apps after domain change
+      id: rebuild-native-mobile-apps-domain-change
+      description: Wants to rebuild native mobile apps after an organization
+        or stage domain change in ODC, understanding that both the previous
+        and new domain stay active until the previous one is deleted, so
+        that distributed mobile apps keep pointing to the active domain
+        after the old one is removed.
+    - name: Reconnect private gateway connectors after domain change
+      id: reconnect-private-gateway-connectors-domain-change
+      description: Wants to reconnect private gateway connectors after an
+        organization or stage domain change in ODC, understanding that both
+        the previous and new domain stay active until the previous one is
+        deleted, so that private connectivity keeps working when they retire
+        the old domain.
+    - name: Reconnect self-hosted configurator after domain change
+      id: reconnect-self-hosted-configurator-domain-change
+      description: Wants to reconnect the self-hosted configurator after an
+        organization or stage domain change in ODC, understanding that both
+        the previous and new domain stay active until the previous one is
+        deleted, so that self-hosted setup keeps working when they retire
+        the old domain.
     - name: Reorder pipeline stages
       id: reorder-pipeline-stages
       description: Wants to change the sequence of non-production stages in
@@ -4482,6 +4538,22 @@ knowledge-needs:
       description: Wants to understand which regions trigger cross-region
         data transfers for knowledge bases, so they can plan for data
         residency compliance.
+    - name: Choose chunking strategy
+      id: choose-chunking-strategy
+      description: Wants to compare ODC knowledge base chunking strategies and their trade-
+        offs, so they can select the strategy that optimizes retrieval quality
+        for their data structure and expected query type.
+    - name: Manage KB lifecycle
+      id: manage-kb-lifecycle
+      description: Wants to create, upload files to, view, edit, and delete
+        a knowledge base in the ODC Portal, so they can manage a knowledge
+        base's full life cycle without using ODC Studio.
+    - name: Add KB server action
+      id: add-kb-server-action
+      description: Wants to add the auto-generated Server Action for a
+        published knowledge base to an app in ODC Studio, so the app can
+        run semantic search against that knowledge base's indexed content
+        without custom integration code.
   - name: Agent guardrails
     id: agent-guardrails
     subtopics:
