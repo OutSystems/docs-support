@@ -28,7 +28,7 @@ A community account provides access to a wide range of features and resources.
 Your community account enables you to fully engage with the OutSystems ecosystem:
 
 * [Forums](https://www.outsystems.com/forums/): Connect with peers and experts in discussions to share knowledge and solve challenges.
-* [Events and user groups](https://https://usergroups.outsystems.com/): Participate in virtual and in-person events to network and stay informed about the latest trends in low-code development.
+* [Events and user groups](https://usergroups.outsystems.com/): Participate in virtual and in-person events to network and stay informed about the latest trends in low-code development.
 * [Free online training](https://learn.outsystems.com/training/create-path): Share your learning goals to get a customized plan designed to boost your skills and advance your career.
 
 To learn more, visit the [OutSystems community](https://www.outsystems.com/community/).
