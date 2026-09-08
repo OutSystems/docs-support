@@ -15,6 +15,8 @@ outsystems-tools:
   - integration builder
 coverage-type:
   - unblock
+topic:
+  - fix-salesforce-access
 ---
 
 # OS-INBL-API-00021

@@ -16,6 +16,8 @@ outsystems-tools:
   - integration builder
 coverage-type:
   - unblock
+topic:
+  - fix-aad-delete-error
 ---
 
 # OS-INBL-API-00030

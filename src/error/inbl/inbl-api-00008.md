@@ -13,6 +13,8 @@ outsystems-tools:
   - integration builder
 coverage-type:
   - unblock
+topic:
+  - fix-integration-key-error
 ---
 
 # OS-INBL-API-00008

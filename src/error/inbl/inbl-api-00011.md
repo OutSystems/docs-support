@@ -17,6 +17,8 @@ outsystems-tools:
   - integration builder
 coverage-type:
   - unblock
+topic:
+  - fix-environment-not-authorized
 ---
 
 # OS-INBL-API-00011
