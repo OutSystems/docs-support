@@ -18,6 +18,8 @@ outsystems-tools:
   - integration builder
 coverage-type:
   - unblock
+topic:
+  - fix-builder-connection
 ---
 
 # Integration - Workflow Builder cannot connect to your environment

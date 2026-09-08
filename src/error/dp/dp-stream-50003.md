@@ -16,6 +16,8 @@ outsystems-tools:
   - none
 coverage-type:
   - unblock
+topic:
+  - fix-streaming-http-503
 ---
 
 # OS-DP-STREAM-50003

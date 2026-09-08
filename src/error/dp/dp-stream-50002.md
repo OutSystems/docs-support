@@ -16,6 +16,8 @@ outsystems-tools:
   - none
 coverage-type:
   - unblock
+topic:
+  - fix-streaming-bad-gateway
 ---
 
 # OS-DP-STREAM-50002

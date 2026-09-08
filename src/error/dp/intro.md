@@ -16,6 +16,8 @@ outsystems-tools:
   - lifetime
 coverage-type:
   - unblock
+topic:
+  - understand-stream-errors
 ---
 
 # Streaming errors

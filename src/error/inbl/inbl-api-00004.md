@@ -14,6 +14,8 @@ outsystems-tools:
   - integration builder
 coverage-type:
   - unblock
+topic:
+  - fix-username-not-found
 ---
 
 # OS-INBL-API-00004
