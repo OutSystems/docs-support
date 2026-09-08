@@ -13,6 +13,8 @@ audience:
   - Developer
 coverage-type:
   - unblock
+topic:
+  - compilation-state-error
 ---
 
 # OS-NAOS-50019

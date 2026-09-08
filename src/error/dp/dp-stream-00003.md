@@ -13,6 +13,8 @@ coverage-type:
   - unblock
 audience:
   - Platform administrator
+topic:
+  - fix-streaming-invalid-argument
 ---
 
 # OS-DP-STREAM-00003

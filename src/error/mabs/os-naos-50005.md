@@ -15,6 +15,8 @@ locale: en-us
 app_type: mobile apps
 platform-version: odc, o11
 figma: 
+topic:
+    - extensibility-fetch-error
 ---
 
 # OS-NAOS-50005
