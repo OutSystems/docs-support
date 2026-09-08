@@ -5,7 +5,11 @@ guid: F37D9C82-F3C8-4CBD-B3E8-4D89A88877C5
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
 figma: https://www.figma.com/file/6tXLupLiqfG9FOElATTGQU/Troubleshooting?type=design&node-id=3355%3A267&mode=design&t=ij3x5ruUOocdxrEu-1
-tags: data management, entity relationships, deployment best practices, platform metamodel
+tags:
+  - Data Integrity
+  - Deploy
+  - Entities
+  - Troubleshooting
 audience:
   - Developer
 outsystems-tools:

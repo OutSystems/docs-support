@@ -5,7 +5,10 @@ guid: 97fd90c0-7378-45c1-b40d-116cbf79ab2a
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
 figma:
-tags: ssl/tls, security, .net framework, integration, error handling
+tags:
+  - .NET
+  - Security
+  - Troubleshooting
 audience:
   - Developer
   - Platform administrator

@@ -5,7 +5,10 @@ guid: c9a42528-9c9c-471c-aded-e5c2a0aef08e
 app_type: mobile apps, reactive web apps, traditional web apps
 platform-version: o11
 figma: https://www.figma.com/file/6tXLupLiqfG9FOElATTGQU/Troubleshooting?type=design&node-id=3534-267&mode=design&t=cOOFHu0WdxoxhhZe-0
-tags: dns configuration, secure endpoints, error handling, cloud environments, endpoint configuration
+tags:
+  - Infrastructure
+  - Security
+  - Troubleshooting
 audience:
   - Developer
   - Platform administrator

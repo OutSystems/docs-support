@@ -1,6 +1,8 @@
 ---
 summary: Explore troubleshooting steps for registering a new environment in LifeTime with OutSystems 11 (O11).
-tags: environment setup, integration issues, network connectivity, ssl certificates, troubleshooting
+tags:
+  - Infrastructure
+  - Troubleshooting
 locale: en-us
 guid: d8ee4abf-9875-4696-a24f-a4608645ab33
 app_type: traditional web apps, mobile apps, reactive web apps

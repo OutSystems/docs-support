@@ -1,6 +1,12 @@
 ---
 summary: Explore effective strategies for managing slow integrations in OutSystems 11 (O11) triggered by screen actions or processes.
-tags: performance optimization, external system integration, session management
+tags:
+  - Asynchronous Processes
+  - Business Processes
+  - Optimization
+  - Performance
+  - Timers
+  - Troubleshooting
 locale: en-us
 guid: 2BD5C654-4CE7-4752-8407-C9F185D060DB
 app_type: traditional web apps, mobile apps, reactive web apps
