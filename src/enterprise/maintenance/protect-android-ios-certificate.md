@@ -17,6 +17,9 @@ audience:
 outsystems-tools:
   - service studio
   - mobile apps builder service
+topic:
+  - certificate-access-scope
+  - protect-signing-key
 coverage-type:
   - apply
 ---

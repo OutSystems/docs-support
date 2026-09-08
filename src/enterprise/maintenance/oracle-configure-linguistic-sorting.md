@@ -19,6 +19,8 @@ outsystems-tools:
 coverage-type:
   - understand
   - apply
+topic:
+  - configure-oracle-linguistic-sorting
 ---
 
 # Configuring linguistic sorting in an OutSystems environment using an Oracle database
