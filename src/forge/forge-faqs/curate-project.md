@@ -1,6 +1,7 @@
 ---
 summary: Explore the classification and support details of projects in OutSystems 11 (O11), including Supported, Trusted, Featured, and Deprecated projects.
-tags: forge
+tags:
+  - Forge
 locale: en-us
 guid: d6049875-7b13-4af6-b907-fa767a1e7104
 app_type: traditional web apps, mobile apps, reactive web apps

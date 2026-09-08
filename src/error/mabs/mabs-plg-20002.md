@@ -1,7 +1,11 @@
 ---
 summary: Couldn't fetch the Cordova plugin <plugin_name> due to an authentication error. Please review your server and plugin access permissions.
 app_type: mobile apps
-tags: mabs; plg; error_codes
+tags:
+  - Authentication
+  - Cordova
+  - Plugins
+  - Troubleshooting
 locale: en-us
 guid: fb510c78-2deb-4083-be98-d4211406cba4
 platform-version: o11, odc

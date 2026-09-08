@@ -1,6 +1,10 @@
 ---
 summary: There was an issue fetching the Cordova plugin <plugin_name>. We couldn't access the resource (http error <http_error_code>). Please review your plugin and server configurations.
-tags: mabs, plg, error_codes
+tags:
+  - Cordova
+  - Mobile app
+  - Plugins
+  - Troubleshooting
 locale: en-us
 app_type: mobile apps
 guid: 6cf861b8-b5cf-4fcc-9f0f-1e7c774424b2

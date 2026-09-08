@@ -1,6 +1,8 @@
 ---
 summary: "MABS error without documentation on the OutSystems platform: contact OutSystems Support to resolve your mobile app build issue."
-tags: mobile app development, error handling, support process, outsystems platform, technical issues
+tags:
+  - Mobile app
+  - Troubleshooting
 locale: en-us
 guid: f39e54a5-6deb-4721-a3a4-c054355ba82d
 app_type: mobile apps
