@@ -5,7 +5,9 @@ guid: 03501092-5cc4-422a-a64e-85ff2740a068
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
 figma: https://www.figma.com/file/cPLNnZfDOZ1NX3avcjmq3g/Enterprise%20Customers?node-id=3216:943
-tags: ssl certificate installation, security, https, cryptography, linux
+tags:
+  - Platform Server
+  - Security
 audience:
   - Platform administrator
   - Developer

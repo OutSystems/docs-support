@@ -1,6 +1,10 @@
 ---
 summary: "ODC authentication and authorization errors: causes, impact, and steps to diagnose and fix user access issues in mobile and reactive web apps."
-tags: authentication and authorization failure, profile matching, email enforcement, external identity provider
+tags:
+  - Authentication
+  - Authorization
+  - External Authentication
+  - Troubleshooting
 locale: en-us
 guid: 02b57209-f724-431e-956f-f926340a5070
 app_type: mobile apps, reactive web apps

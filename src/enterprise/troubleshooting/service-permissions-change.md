@@ -1,6 +1,10 @@
 ---
 summary: "OutSystems 11 (O11) service permissions error on install or upgrade: update Active Directory Group Policy to allow lower-privilege service accounts."
-tags: platform server, security, installation, permissions, troubleshooting
+tags:
+  - Active Directory
+  - Platform Server
+  - Security
+  - Troubleshooting
 locale: en-us
 guid: ae2f1814-d3bb-4e38-a5ba-33423aec6c34
 app_type: traditional web apps, mobile apps, reactive web apps

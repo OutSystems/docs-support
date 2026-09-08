@@ -5,7 +5,11 @@ guid: 0304263d-9ae2-41dd-8cdf-b766e79613f1
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
 figma:
-tags: saml authentication, error handling, security, troubleshooting, personal environment
+tags:
+  - Authentication
+  - End-user Authentication
+  - SAML
+  - Troubleshooting
 audience:
   - Developer
   - Front-end developer
