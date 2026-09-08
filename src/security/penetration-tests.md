@@ -19,6 +19,10 @@ coverage-type:
   - apply
   - unblock
 isautopublish: true
+topic:
+  - pentest-false-positives
+  - pentest-support-process
+  - run-penetration-tests
 ---
 
 # Penetration testing

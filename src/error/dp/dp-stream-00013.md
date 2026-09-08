@@ -13,6 +13,8 @@ outsystems-tools:
   - lifetime
 coverage-type:
   - unblock
+topic:
+  - fix-streaming-internal
 ---
 
 # OS-DP-STREAM-00013

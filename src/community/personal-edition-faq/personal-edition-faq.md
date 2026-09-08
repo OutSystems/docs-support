@@ -7,6 +7,9 @@ coverage-type:
   - remember
   - understand
 topic:
+  - pe-expiration-policy
+  - pe-hibernation-basics
+  - pe-resource-limits
 app_type: reactive web apps,mobile apps
 platform-version: odc
 audience:

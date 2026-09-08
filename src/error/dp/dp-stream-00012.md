@@ -14,6 +14,8 @@ outsystems-tools:
   - service center
 coverage-type:
   - unblock
+topic:
+  - fix-streaming-unimplemented
 ---
 
 # OS-DP-STREAM-00012

@@ -14,6 +14,8 @@ outsystems-tools:
   - service center
 coverage-type:
   - unblock
+topic:
+  - fix-streaming-unavailable
 ---
 
 # OS-DP-STREAM-00014

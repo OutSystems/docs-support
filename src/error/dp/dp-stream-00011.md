@@ -14,6 +14,8 @@ outsystems-tools:
   - service center
 coverage-type:
   - unblock
+topic:
+  - fix-streaming-out-of-range
 ---
 
 # OS-DP-STREAM-00011
