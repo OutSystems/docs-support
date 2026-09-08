@@ -16,6 +16,8 @@ outsystems-tools:
   - service studio
 coverage-type:
   - unblock
+topic:
+  - fix-takeover-access-error
 ---
 
 # OS-CMFR-GEN-20005

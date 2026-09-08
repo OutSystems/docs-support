@@ -13,6 +13,8 @@ outsystems-tools:
   - lifetime
 coverage-type:
   - unblock
+topic:
+  - fix-streaming-already-exists
 ---
 
 # OS-DP-STREAM-00006

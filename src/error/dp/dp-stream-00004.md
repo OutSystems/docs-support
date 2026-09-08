@@ -14,6 +14,8 @@ outsystems-tools:
   - service studio
 coverage-type:
   - unblock
+topic:
+  - fix-streaming-timeout
 ---
 
 # OS-DP-STREAM-00004

@@ -15,6 +15,8 @@ outsystems-tools:
   - case management framework
 coverage-type:
   - unblock
+topic:
+  - fix-unassigned-activity-error
 ---
 
 # OS-CMFR-GEN-20004

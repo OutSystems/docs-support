@@ -13,6 +13,8 @@ outsystems-tools:
   - lifetime
 coverage-type:
   - unblock
+topic:
+  - fix-streaming-permission-denied
 ---
 
 # OS-DP-STREAM-00007

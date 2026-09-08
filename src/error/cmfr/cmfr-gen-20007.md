@@ -17,6 +17,8 @@ outsystems-tools:
   - case management framework
 coverage-type:
   - unblock
+topic:
+  - use-cmf-delegation
 ---
 
 # OS-CMFR-GEN-20007

@@ -18,6 +18,8 @@ outsystems-tools:
   - case management framework
 coverage-type:
   - unblock
+topic:
+  - fix-sample-user-login
 ---
 
 # OS-CMFR-GEN-20006
