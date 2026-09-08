@@ -19,6 +19,8 @@ outsystems-tools:
   - forge
 coverage-type:
   - understand
+topic:
+  - cloud-utc-timezone
 ---
 
 # OutSystems Cloud and time zones

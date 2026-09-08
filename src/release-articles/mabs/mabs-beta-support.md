@@ -6,6 +6,9 @@ app_type: mobile apps
 platform-version: o11, odc
 coverage-type:
   - understand
+topic:
+  - beta-os-testing
+  - os-support-process
 audience:
   - Developer
   - Tech lead
