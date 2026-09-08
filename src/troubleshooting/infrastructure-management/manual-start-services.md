@@ -1,5 +1,8 @@
 ---
-tags: manual service management, service management, windows services, outsystems services, system administration
+tags:
+  - Infrastructure
+  - Platform Server
+  - Troubleshooting
 summary: OutSystems 11 (O11) service startup order determines how Controller, Deployment, and Scheduler initialize without errors.
 locale: en-us
 guid: EDE2A61C-EA58-461F-89ED-A434C449A3A9

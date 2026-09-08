@@ -1,6 +1,9 @@
 ---
 summary: This guide explains how to retrieve IIS Manager logs for OutSystems 11 (O11) environments.
-tags: server administration, iis configuration, log management, troubleshooting, support documentation
+tags:
+  - Logging
+  - Platform Server
+  - Troubleshooting
 locale: en-us
 guid: 71ebf09d-b6ac-4453-8c92-e4e86204ed8a
 app_type: traditional web apps, mobile apps, reactive web apps

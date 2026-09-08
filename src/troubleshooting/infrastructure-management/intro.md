@@ -1,6 +1,9 @@
 ---
 summary: Troubleshooting tips for managing OutSystems 11 (O11) infrastructure and connectivity.
-tags: infrastructure management, installing outsystems, upgrading outsystems, connectivity issues
+tags:
+  - Infrastructure
+  - Platform Server
+  - Troubleshooting
 locale: en-us
 guid: f3b240fe-a16d-4d15-b4f5-043abf3128c6
 app_type: traditional web apps, mobile apps, reactive web apps

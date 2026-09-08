@@ -5,7 +5,8 @@ guid: c3b7c99f-9b85-42f1-9bae-4036ee8ef145
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
 figma: https://www.figma.com/design/6tXLupLiqfG9FOElATTGQU/Troubleshooting?node-id=5716-5503
-tags: environment management, error handling, personal environment maintenance
+tags:
+  - Troubleshooting
 audience:
   - Developer
   - Front-end developer
