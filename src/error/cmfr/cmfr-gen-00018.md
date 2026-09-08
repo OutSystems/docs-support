@@ -13,6 +13,8 @@ outsystems-tools:
   - case management framework
 coverage-type:
   - unblock
+topic:
+  - fix-initial-status-error
 ---
 
 # OS-CMFR-GEN-00018

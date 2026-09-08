@@ -15,6 +15,8 @@ outsystems-tools:
   - case management framework
 coverage-type:
   - unblock
+topic:
+  - fix-cmf-email-record
 ---
 
 # OS-CMFR-GEN-00015

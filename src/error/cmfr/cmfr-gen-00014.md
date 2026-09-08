@@ -14,6 +14,8 @@ outsystems-tools:
   - case management framework
 coverage-type:
   - unblock
+topic:
+  - fix-access-flag-error
 ---
 
 # OS-CMFR-GEN-00014

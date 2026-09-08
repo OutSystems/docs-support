@@ -7,6 +7,9 @@ platform-version: o11
 coverage-type:
     - remember
     - unblock
+topic:
+    - mabs-7-breaking-changes
+    - mabs-7-upgrade-overview
 tags:
     - Android
     - Cordova

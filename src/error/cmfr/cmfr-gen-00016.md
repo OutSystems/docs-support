@@ -14,6 +14,8 @@ outsystems-tools:
   - case management framework
 coverage-type:
   - unblock
+topic:
+  - fix-cmf-no-entities
 ---
 
 # OS-CMFR-GEN-00016
