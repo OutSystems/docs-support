@@ -1,6 +1,11 @@
 ---
 summary: The file has no extension.
-tags: error handling,troubleshooting,system messages,user experience,application deployment
+tags:
+  - Cordova
+  - iOS
+  - Mobile app
+  - Plugins
+  - Troubleshooting
 locale: en-us
 guid: 2816fe8e-7366-4e7a-9682-45c5d837d8ed
 app_type: mobile apps

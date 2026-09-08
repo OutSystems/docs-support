@@ -1,6 +1,10 @@
 ---
 summary: "OS-PLUG-FLTR-0010 HTTP error in the OutSystems platform File Transfer plugin: causes, impact, and fixes for 401, 403, 404, and 5xx status codes."
-tags: Cordova,Mobile app,Plugins,Troubleshooting
+tags:
+  - Cordova
+  - Mobile app
+  - Plugins
+  - Troubleshooting
 locale: en-us
 guid: 46c3c3d1-a01c-484b-a7ff-29e1dbb37811
 app_type: mobile apps

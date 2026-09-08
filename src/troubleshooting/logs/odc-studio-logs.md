@@ -1,6 +1,8 @@
 ---
 summary: "ODC Studio diagnostics report: collect and send error or behavior reports to OutSystems Support after unexpected errors or non-error issues."
-tags: error handling, support, diagnostic tools, error reporting
+tags:
+  - Logging
+  - Troubleshooting
 guid: 46758882-076a-4055-865c-bbe63dfc9af0
 locale: en-us
 app_type: mobile apps, reactive web apps, traditional web apps
