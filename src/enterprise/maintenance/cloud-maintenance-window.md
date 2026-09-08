@@ -1,6 +1,7 @@
 ---
 summary: "OutSystems 11 (O11) Cloud maintenance window configuration lets you schedule database maintenance and downtime for production and non-production environments via LifeTime."
-tags: cloud environment management, database maintenance, maintenance scheduling, performance optimization
+tags:
+  - Infrastructure
 locale: en-us
 guid: 3b1083ab-f9d5-4387-8c29-2d48f3ebbe2b
 app_type: traditional web apps, mobile apps, reactive web apps

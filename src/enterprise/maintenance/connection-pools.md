@@ -5,7 +5,13 @@ guid: 3a4658d1-b73d-4842-a960-db07c21a6289
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
 figma: https://www.figma.com/file/cPLNnZfDOZ1NX3avcjmq3g/Enterprise%20Customers?node-id=618:284
-tags: database optimization, application performance, scalability, connection pooling, performance tuning
+tags:
+  - .NET
+  - External Databases
+  - Java
+  - Optimization
+  - Performance
+  - Platform Server
 audience:
   - Developer
   - Platform administrator
