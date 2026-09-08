@@ -1,5 +1,11 @@
 ---
-tags: ios development, mobile app configuration, security best practices, mobile app troubleshooting, cross-platform compatibility
+tags:
+  - iOS
+  - Mobile app
+  - Native App
+  - OAuth
+  - Security
+  - Troubleshooting
 summary: "OutSystems 11 (O11) iOS iframe troubleshooting: fix blocked content with the outsystems:// scheme, CSP frame-ancestors, and Safari cookie workarounds."
 locale: en-us
 guid: f296d423-0144-4164-8c73-383013490529

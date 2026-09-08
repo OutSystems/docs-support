@@ -1,6 +1,10 @@
 ---
 summary: "OS-CMFR-GEN-00002 error in OutSystems 11 Case Management Framework: record not found. Verify input parameters and confirm the record exists."
-tags: error handling, debugging, data management, case management framework, entity reference
+tags:
+  - Case Management framework
+  - Debugging
+  - Entities
+  - Troubleshooting
 locale: en-us
 guid: 0dfe737e-6cb9-41a0-87ff-3be28aaf5b1a
 app_type: traditional web apps, mobile apps, reactive web apps

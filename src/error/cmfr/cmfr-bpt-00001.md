@@ -1,6 +1,10 @@
 ---
 summary: "OS-CMFR-BPT-00001 error in OutSystems 11 Case Management Framework: BPT process stays open due to pending events — no action required."
-tags: business process technology (bpt), case management framework, exception handling, process management, system events
+tags:
+  - Business Processes
+  - Case Management framework
+  - Events
+  - Troubleshooting
 locale: en-us
 guid: a31308f8-ce4e-4e83-b7d1-5440deec8bb3
 app_type: traditional web apps, mobile apps, reactive web apps

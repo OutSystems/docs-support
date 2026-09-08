@@ -1,6 +1,9 @@
 ---
 summary: "OS-CMFR-GEN-00001 OutSystems 11 (O11) error: fix incorrect or null input parameters in Case Management Framework actions."
-tags: error handling, debugging, case management framework, parameter validation, application troubleshooting
+tags:
+  - Case Management framework
+  - Debugging
+  - Troubleshooting
 locale: en-us
 guid: 1c906e50-cee0-4a8a-a135-152791ce2492
 app_type: traditional web apps, mobile apps, reactive web apps

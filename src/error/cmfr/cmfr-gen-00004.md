@@ -1,6 +1,9 @@
 ---
 summary: "OS-CMFR-GEN-00004 error in OutSystems 11 (O11) occurs when a duplicate ID is passed to a Case Management Framework create action."
-tags: error handling, application development, data management, case management framework, debugging
+tags:
+  - Case Management framework
+  - Debugging
+  - Troubleshooting
 locale: en-us
 guid: 206291d7-5a4d-436b-b320-d82d28e0861b
 app_type: traditional web apps, mobile apps, reactive web apps

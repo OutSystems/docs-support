@@ -1,6 +1,8 @@
 ---
 summary: "OS-CMFR-GEN-00006 error in OutSystems 11 (O11) occurs when Calendar_GetEndDate receives a negative Minutes value. Set Minutes to zero or above."
-tags: error handling, debugging, case management framework, calendar management, input validation
+tags:
+  - Case Management framework
+  - Troubleshooting
 locale: en-us
 guid: b97679ee-618c-4492-a00d-6f9d8435b13d
 app_type: traditional web apps, mobile apps, reactive web apps

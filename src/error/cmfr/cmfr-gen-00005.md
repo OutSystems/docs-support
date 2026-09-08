@@ -1,6 +1,9 @@
 ---
 summary: OS-CMFR-GEN-00005 error in OutSystems 11 (O11) occurs when WorkingHourStart is not set before WorkingHourEnd in Calendar_Create or Calendar_Update.
-tags: error handling, debugging, time management, case management, input validation
+tags:
+  - Case Management framework
+  - Debugging
+  - Troubleshooting
 locale: en-us
 guid: 9891f258-6e5f-4aed-a866-30d0e46241fc
 app_type: traditional web apps, mobile apps, reactive web apps
