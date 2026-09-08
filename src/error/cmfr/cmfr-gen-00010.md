@@ -1,6 +1,9 @@
 ---
 summary: "OS-CMFR-GEN-00010 OutSystems 11 (O11) error occurs when CaseTag_Create receives a tag and case from different case definitions. Fix the input values."
-tags: case management framework, debugging, error handling, application development, traditional web apps
+tags:
+  - Case Management framework
+  - Debugging
+  - Troubleshooting
 locale: en-us
 guid: 00419394-e881-4fe4-a946-41bdf2a010f8
 app_type: traditional web apps, mobile apps, reactive web apps

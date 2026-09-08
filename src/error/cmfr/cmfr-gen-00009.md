@@ -1,6 +1,9 @@
 ---
 summary: OS-CMFR-GEN-00009 error in OutSystems 11 (O11) Case Management Framework occurs when CaseTag_Create finds the tag already linked to the case.
-tags: case management framework, error handling, debugging, service studio debugger, action execution
+tags:
+  - Case Management framework
+  - Debugging
+  - Troubleshooting
 locale: en-us
 guid: 2eebed55-459b-454d-8208-4eaf9aa123f9
 app_type: traditional web apps, mobile apps, reactive web apps

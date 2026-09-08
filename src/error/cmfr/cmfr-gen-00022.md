@@ -1,6 +1,9 @@
 ---
 summary: "OS-CMFR-GEN-00022 error in OutSystems 11 (O11) Case Management framework occurs when a duplicate case status transition is detected between CaseStatusId values."
-tags: error handling, case management, debugging, application development, platform version 11
+tags:
+  - Case Management framework
+  - Debugging
+  - Troubleshooting
 locale: en-us
 guid: 52d4bebb-194e-43c8-ac48-70cf94ae22dc
 app_type: traditional web apps, mobile apps, reactive web apps

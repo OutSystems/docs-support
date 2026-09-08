@@ -1,6 +1,9 @@
 ---
 summary: "OS-CMFR-GEN-00011 in OutSystems 11 (O11) Case Management framework signals an unsupported database; supported options are SQL Server and Oracle."
-tags: database compatibility, error handling, case management framework, system requirements, platform version
+tags:
+  - Case Management framework
+  - SQL
+  - Troubleshooting
 locale: en-us
 guid: d22ff22b-2cf5-43e8-baf9-26a28ea489dd
 app_type: traditional web apps, mobile apps, reactive web apps
