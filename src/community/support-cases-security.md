@@ -13,6 +13,8 @@ audience:
 coverage-type:
   - understand
   - apply
+topic:
+  - get-support-case-approved
 ---
 
 # Enhanced security for OutSystems support cases

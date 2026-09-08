@@ -16,6 +16,8 @@ audience:
 coverage-type:
   - apply
   - unblock
+topic:
+  - use-exam-voucher
 ---
 
 # How to use an exam voucher to register for an exam

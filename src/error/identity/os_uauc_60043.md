@@ -17,6 +17,7 @@ coverage-type:
 audience:
   - Platform administrator
 topic:
+  - fix-invalid-invitation
 isautopublish: true
 ---
 

@@ -18,6 +18,8 @@ outsystems-tools:
   - service studio
 coverage-type:
   - unblock
+topic:
+  - deprecated-signer-cert-error
 isautopublish: true
 ---
 

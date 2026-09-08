@@ -13,6 +13,8 @@ audience:
 - Developer
 coverage-type:
 - apply
+topic:
+  - change-community-password
 ---
 
 # How to change your OutSystems community password

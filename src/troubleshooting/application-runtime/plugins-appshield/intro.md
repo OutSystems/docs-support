@@ -21,6 +21,8 @@ outsystems-tools:
   - platform server
 coverage-type:
   - unblock
+topic:
+  - encode-signer-certificate
 isautopublish: true
 ---
 

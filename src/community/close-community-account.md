@@ -6,6 +6,8 @@ audience:
     - Tech lead
 coverage-type:
     - apply
+topic:
+    - close-community-account
 tags:
     - End-users
     - Settings
