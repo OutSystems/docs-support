@@ -15,6 +15,8 @@ outsystems-tools:
   - none
 coverage-type:
   - apply
+topic:
+  - release-environment-serial
 ---
 
 # How to free up an existing environment in licensing

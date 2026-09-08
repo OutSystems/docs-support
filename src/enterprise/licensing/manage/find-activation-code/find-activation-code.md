@@ -15,6 +15,8 @@ outsystems-tools:
   - service center
 coverage-type:
   - remember
+topic:
+  - find-activation-code
 ---
 
 # Find the Activation Code and the Serial Number

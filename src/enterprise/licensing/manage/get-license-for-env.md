@@ -14,6 +14,8 @@ outsystems-tools:
   - service center
 coverage-type:
   - apply
+topic:
+  - get-environment-license
 ---
 
 # Get a license file for an environment

@@ -21,6 +21,9 @@ outsystems-tools:
   - platform server
 coverage-type:
   - apply
+topic:
+  - ad-auth-login-workaround
+  - change-database-user-passwords
 ---
 
 # How to change the password of OutSystems database users

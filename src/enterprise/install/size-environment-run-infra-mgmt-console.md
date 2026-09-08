@@ -19,6 +19,9 @@ outsystems-tools:
 coverage-type:
   - understand
   - evaluate
+topic:
+  - lifetime-dedicated-env
+  - lifetime-storage-sizing
 ---
 
 # Size an environment to run the infrastructure management console

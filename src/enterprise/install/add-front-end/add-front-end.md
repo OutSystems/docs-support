@@ -16,6 +16,10 @@ outsystems-tools:
   - platform server
 coverage-type:
   - apply
+topic:
+  - automate-server-scaling-o11
+  - install-front-end-server-o11
+  - request-cloud-horizontal-front-end-scaling
 ---
 
 # Add a new front-end server to your environment
