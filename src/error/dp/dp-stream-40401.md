@@ -1,6 +1,10 @@
 ---
 summary: "OS-DP-STREAM-40401 error occurs when an authorization failure blocks the APM tool connection, stopping log or observability data streaming in OutSystems platform."
-tags: error handling, connection issues, apm integration, authorization errors, configuration management
+tags:
+  - Authorization
+  - Logging
+  - Monitoring
+  - Troubleshooting
 guid: 4215f2bc-42a9-4691-8b52-16081feec796
 locale: en-us
 app_type: traditional web apps, mobile apps, reactive web apps

@@ -1,6 +1,7 @@
 ---
 summary: There was an error contacting an internal service.
-tags: service configuration, dns resolution, https certificate, error handling, service center
+tags:
+  - Troubleshooting
 locale: en-us
 guid: 3890e4cb-b087-4422-9e09-c7e2337add12
 app_type: traditional web apps, mobile apps, reactive web apps

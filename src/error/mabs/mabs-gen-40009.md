@@ -1,6 +1,12 @@
 ---
 summary: There was an issue generating the app. Library {2} requires minimum Android SDK {1}, which is higher than the {0} required by the app. Check if this value is being overridden in your extensibility configurations.
-tags: android development, sdk configuration, app build failure, cordova plugins, outsystems mobile
+tags:
+  - Android
+  - Cordova
+  - Mobile app
+  - Native App
+  - Plugins
+  - Troubleshooting
 guid: 596468f6-899f-40c4-94d4-1d9a8e33e88a
 locale: en-us
 app_type: mobile apps

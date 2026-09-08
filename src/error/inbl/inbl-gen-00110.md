@@ -1,7 +1,9 @@
 ---
 platform-version: o11
 summary: Recomended actions for the error "The attribute has recursive references, which are not supported by OutSystems. Please deselect it before proceeding." in Integration Builder.
-tags: ide usage, reactive web apps, tutorials for beginners, error handling, sap odata integrations
+tags:
+  - Entities
+  - Troubleshooting
 locale: en-us
 guid: 81e9c04e-3962-4cdd-af49-b53826872f0a
 app_type: traditional web apps, mobile apps, reactive web apps

@@ -1,6 +1,9 @@
 ---
 summary: OS-DP-STREAM-00010 error occurs when the destination server returns a gRPC Aborted response during OutSystems log streaming connection tests.
-tags: error handling, log streaming, server connection, troubleshooting, support services
+tags:
+  - Logging
+  - Monitoring
+  - Troubleshooting
 guid: a428b0f1-d7fd-47ba-9b4f-529dc92c6b21
 locale: en-us
 app_type: traditional web apps, mobile apps, reactive web apps
