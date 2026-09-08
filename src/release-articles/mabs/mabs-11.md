@@ -7,6 +7,10 @@ platform-version: o11, odc
 coverage-type:
   - remember
   - apply
+topic:
+  - mabs-11-1-upload-widget-changes
+  - mabs-11-breaking-changes
+  - mabs-11-upgrade-overview
 tags:
   - Android
   - Forge

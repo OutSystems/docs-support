@@ -2,6 +2,8 @@
 summary: MABS 6 may cause some breaking changes in your builds after you upgrade from MABS 5. Here is information how to address the issues.
 coverage-type:
 - unblock
+topic:
+  - mabs-6-breaking-changes
 tags:
 - iOS
 - Mobile app
