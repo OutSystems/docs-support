@@ -5,7 +5,10 @@ guid: 54604809-efce-4a72-b05a-2459b4ba5aa9
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
 figma:
-tags: rest api, client-side authentication, security, certificate management, tls configuration
+tags:
+  - Authentication
+  - REST
+  - Security
 audience:
   - Developer
 outsystems-tools:

@@ -5,7 +5,8 @@ guid: 1772e0b0-ad78-4f95-851f-89323b298934
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
 figma: https://www.figma.com/file/6tXLupLiqfG9FOElATTGQU/Troubleshooting?node-id=3327:559
-tags: troubleshooting, connectivity issues, outsystems cloud, environment management, error handling
+tags:
+  - Troubleshooting
 audience:
   - Developer
 outsystems-tools:

@@ -1,6 +1,13 @@
 ---
 summary: Explore troubleshooting techniques for mobile app generation issues in OutSystems 11 (O11) with a focus on MABS compatibility and plugin updates.
-tags: mobile app generation, plugin compatibility, mabs, troubleshooting, error messages
+tags:
+  - Android
+  - Cordova
+  - iOS
+  - Mobile app
+  - Native App
+  - Plugins
+  - Troubleshooting
 locale: en-us
 guid: 2705ae8e-d762-41cc-804f-0c9825d71074
 app_type: traditional web apps, mobile apps, reactive web apps
