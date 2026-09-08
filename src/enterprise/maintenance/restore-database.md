@@ -1,6 +1,10 @@
 ---
 summary: "OutSystems 11 (O11) database restore to a new DB server: update Configuration Tool settings across all application servers in a .NET farm."
-tags: database management, .net applications, server migration, installation checklist, rollback strategy
+tags:
+  - .NET
+  - Infrastructure
+  - Platform Server
+  - Traditional Web
 locale: en-us
 guid: 346a4452-9ede-4346-aeb3-9455a48e99cc
 app_type: traditional web apps, mobile apps, reactive web apps

@@ -1,6 +1,11 @@
 ---
 summary: "LifeTime management console reinstall on OutSystems 11 (O11): move it from a shared to a dedicated on-premises environment."
-tags: infrastructure management, environment setup, on-premises installation, platform server, licensing
+tags:
+  - Infrastructure
+  - IT Roles
+  - IT Teams
+  - IT Users
+  - Roles
 locale: en-us
 guid: e7dcad56-9c9a-40c2-b798-dc70d3015564
 app_type: traditional web apps, mobile apps, reactive web apps

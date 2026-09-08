@@ -5,7 +5,9 @@ guid: 6b46a4ee-85c8-482d-96dd-e555863e7935
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
 figma:
-tags: server management, on-premises setup, installation & configuration, platform services, application deployment
+tags:
+  - Infrastructure
+  - Platform Server
 audience:
   - Platform administrator
   - Developer
