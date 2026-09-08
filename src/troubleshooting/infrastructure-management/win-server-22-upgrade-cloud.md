@@ -1,6 +1,9 @@
 ---
 summary: OutSystems 11 (O11) will upgrade all Windows Server 2016 environments to Windows Server 2022 in phases throughout the first half of 2026, enhancing security, performance, and compliance.
-tags: windows server upgrade,security,tls upgrade
+tags:
+  - Infrastructure
+  - Platform Server
+  - Security
 locale: en-us
 guid: 23b00976-abec-464c-8b72-4d4fedae3029
 app_type: traditional web apps,mobile apps,reactive web apps

@@ -1,6 +1,7 @@
 ---
 summary: Learn how to allowlist IP addresses for OutSystems 11 (O11) Cloud environments to ensure connectivity with external services through firewalls.
-tags: cloud infrastructure, network security, ip allowlisting, aws ec2, firewall configuration
+tags:
+  - IP Filters
 locale: en-us
 guid: c412c4a8-a910-4e1a-a16d-5defcc3e171a
 app_type: traditional web apps, mobile apps, reactive web apps

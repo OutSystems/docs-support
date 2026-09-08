@@ -1,6 +1,10 @@
 ---
 summary: Learn how to add certificates to the trusted root store in OutSystems 11 (O11) Cloud environments to ensure secure HTTPS connections with external systems.
-tags: ssl/tls, https, certificate management, cloud services, trusted root store
+tags:
+  - Active Directory
+  - External Databases
+  - Security
+  - Web services
 locale: en-us
 guid: 94fe2273-28c4-448f-8c54-cf699d40f9f1
 app_type: traditional web apps, mobile apps, reactive web apps

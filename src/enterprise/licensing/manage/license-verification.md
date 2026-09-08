@@ -5,7 +5,8 @@ app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
 figma: https://www.figma.com/file/cPLNnZfDOZ1NX3avcjmq3g/Enterprise-Customers?type=design&node-id=3361-267&mode=design
 summary: Discover the manual license verification process for OutSystems 11 (O11) in self-managed environments.
-tags: license compliance, self-managed environments, telemetry communication, network setup
+tags:
+  - Platform Server
 audience:
   - Platform administrator
   - Developer
