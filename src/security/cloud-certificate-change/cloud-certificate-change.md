@@ -5,7 +5,10 @@ guid: 5e5d5f1d-c924-4605-bea5-d3141274a6e1
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
 figma:
-tags: ssl pinning, security, outsystems cloud, certificate rotation, cloud platforms
+tags:
+  - Infrastructure
+  - Mobile app
+  - Security
 audience:
   - Developer
   - Front-end developer

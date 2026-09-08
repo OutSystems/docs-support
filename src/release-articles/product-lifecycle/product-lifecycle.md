@@ -1,6 +1,8 @@
 ---
 summary: OutSystems 11 (O11) updates its platform with periodic releases, ensuring indefinite support.
-tags: product lifecycle,major release,feature updates,cumulative patch,version numbers
+tags:
+  - Lifecycle
+  - Platform Server
 locale: en-us
 guid: d18db4ef-572c-4961-a7aa-097259242aca
 app_type: traditional web apps,mobile apps,reactive web apps

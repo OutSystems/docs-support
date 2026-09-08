@@ -1,6 +1,10 @@
 ---
 summary: Learn how OutSystems 11 (O11) incorporates built-in CSRF protection and guidelines for securing APIs against CSRF attacks.
-tags: security, csrf protection, anti-csrf token, token based mitigation, web application security
+tags:
+  - Authentication
+  - OWASP
+  - REST
+  - Security
 locale: en-us
 guid: 888ae7de-2001-459d-894a-e0001aeba86f
 app_type: traditional web apps, mobile apps, reactive web apps

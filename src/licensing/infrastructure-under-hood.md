@@ -5,7 +5,10 @@ guid: 5b26b215-56f9-460e-9794-f4b7fcb15a16
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
 figma:
-tags: personal environment, multi-tenant architecture, data storage, api, data export
+tags:
+  - Infrastructure
+  - Multi-Tenant
+  - REST
 audience:
   - Developer
 outsystems-tools:

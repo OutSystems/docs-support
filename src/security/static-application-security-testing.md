@@ -5,7 +5,10 @@ guid: ed956c15-115d-4728-ad1a-1b9319ef4e8d
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
 figma:
-tags: static application security testing (sast), outsystems 11, code analysis, security best practices
+tags:
+  - Security
+  - Testing
+  - Troubleshooting
 audience:
   - Front-end developer
   - Developer
