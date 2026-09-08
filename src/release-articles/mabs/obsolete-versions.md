@@ -17,6 +17,8 @@ locale: en-us
 app_type: mobile apps
 platform-version: o11, odc
 figma: https://www.figma.com/design/UXA74OsZxSIzLLsjhvNMjC/Release-Notes?node-id=1296-2
+topic:
+  - mabs-version-support
 ---
 
 # Obsolete MABS versions

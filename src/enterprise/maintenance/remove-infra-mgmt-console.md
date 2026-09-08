@@ -18,6 +18,8 @@ outsystems-tools:
 coverage-type:
   - understand
   - apply
+topic:
+  - remove-lifetime-console
 ---
 
 # Remove the infrastructure management console from an environment

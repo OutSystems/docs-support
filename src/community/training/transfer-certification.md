@@ -12,6 +12,8 @@ coverage-type:
   - apply
 audience:
   - Developer
+topic:
+  - transfer-certifications
 ---
 
 # Transfer your certifications to another account

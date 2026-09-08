@@ -5,6 +5,8 @@ tags:
     - Troubleshooting
 coverage-type:
     - unblock
+topic:
+    - fetch-mobile-config-error
 audience:
     - Developer
 guid: b35dc1e2-7bbc-410c-9683-721e7d7ebe83

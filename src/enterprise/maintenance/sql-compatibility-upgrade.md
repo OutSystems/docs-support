@@ -18,6 +18,8 @@ outsystems-tools:
   - platform server
 coverage-type:
   - apply
+topic:
+  - upgrade-sql-compatibility
 ---
 
 # Upgrading SQL Server to a new compatibility level

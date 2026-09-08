@@ -9,6 +9,8 @@ audience:
   - Platform administrator
 coverage-type:
   - apply
+topic:
+  - download-team-certs
 tags:
   - IT Roles
   - IT Teams

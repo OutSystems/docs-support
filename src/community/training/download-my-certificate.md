@@ -10,6 +10,8 @@ coverage-type:
 audience:
   - Developer
 tags: []
+topic:
+  - download-exam-certificate
 ---
 
 # How to download your OutSystems certificate

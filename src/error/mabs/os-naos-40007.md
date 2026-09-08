@@ -12,6 +12,8 @@ coverage-type:
 - unblock
 app_type: mobile apps
 platform-version: odc
+topic:
+  - fix-empty-secret-error
 figma:
 isautopublish: true
 ---
