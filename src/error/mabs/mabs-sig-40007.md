@@ -1,6 +1,9 @@
 ---
 summary: OS-MABS-SIG-40007 error resolves an invalid .mobileprovision provisioning profile blocking iOS app package generation on the OutSystems platform.
-tags: ios deployment, provisioning profile, mobile app packaging, app store distribution
+tags:
+  - iOS
+  - Mobile app
+  - Troubleshooting
 guid: a37c9452-1bcc-4ea4-9256-262fe83c9e91
 locale: en-us
 app_type: mobile apps

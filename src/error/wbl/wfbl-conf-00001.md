@@ -1,6 +1,8 @@
 ---
 summary: Workflow Builder field label error in OutSystems 11 (O11) occurs when a label exceeds the maximum length; shorten it to save the application.
-tags: error handling, form design, ui guidelines, application development, data validation
+tags:
+  - Troubleshooting
+  - Workflows
 locale: en-us
 guid: 6a7db33a-d226-4f04-afb4-833bbdb6428a
 app_type: traditional web apps, mobile apps, reactive web apps

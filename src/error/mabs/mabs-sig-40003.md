@@ -1,6 +1,10 @@
 ---
 summary: iOS certificate password errors block OutSystems platform mobile app builds; verify the certificate password to resolve package generation failures.
-tags: ios deployment, certificate management, build errors, mobile app building, app packaging
+tags:
+  - Deploy
+  - iOS
+  - Mobile app
+  - Troubleshooting
 guid: 38b65dcf-407e-4408-9a99-2b5410be9427
 locale: en-us
 app_type: mobile apps

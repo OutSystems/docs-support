@@ -1,6 +1,8 @@
 ---
 summary: "Workflow Builder API error blocks OutSystems 11 (O11) app publishing when an external API call fails; log out and back in to resolve it."
-tags: error handling, api integration, troubleshooting, outsystems platform, workflow automation
+tags:
+  - Platform Server
+  - Troubleshooting
 locale: en-us
 guid: 2e6292db-6e88-4f58-8629-ae877dd523ee
 app_type: traditional web apps, mobile apps, reactive web apps

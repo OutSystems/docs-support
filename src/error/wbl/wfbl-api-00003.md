@@ -1,6 +1,8 @@
 ---
 summary: OutSystems 11 (O11) Workflow Builder storage error occurs when the app can't access internal storage, blocking icon display or publishing.
-tags: error handling, internal storage, application publishing, platform troubleshooting, workflow automation
+tags:
+  - Troubleshooting
+  - Workflows
 locale: en-us
 guid: 3b8b45df-e5c5-4948-8be2-ecdfdaed186c
 app_type: traditional web apps, mobile apps, reactive web apps

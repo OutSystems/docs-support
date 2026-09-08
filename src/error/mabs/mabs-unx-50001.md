@@ -1,6 +1,8 @@
 ---
 summary: There was an issue loading your resources. Please try again.
-tags: mobile apps development, application packaging, mabs, error handling
+tags:
+  - Mobile app
+  - Troubleshooting
 guid: 673563fd-b801-428a-874e-9f2242b06806
 locale: en-us
 app_type: mobile apps
