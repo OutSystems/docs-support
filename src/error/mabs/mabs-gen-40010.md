@@ -1,6 +1,10 @@
 ---
 summary: There was an issue generating the app. Some plugins are using conflicting dependencies from Google Play services. Check your plugin configurations and try again.
-tags: dependency conflicts, google play services, android, application package generation, plugin management
+tags:
+  - Android
+  - Mobile app
+  - Plugins
+  - Troubleshooting
 guid: 01eaf9bb-abf4-40ef-862d-92541ac78355
 locale: en-us
 app_type: mobile apps

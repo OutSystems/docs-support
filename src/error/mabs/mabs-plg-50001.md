@@ -1,6 +1,10 @@
 ---
 summary: Cordova plugin fetch fails on the OutSystems platform when MABS loses server connection during mobile app build.
-tags: mobile app build, cordova plugins, build errors, plugin dependencies, server connectivity
+tags:
+  - Cordova
+  - Mobile app
+  - Plugins
+  - Troubleshooting
 locale: en-us
 app_type: mobile apps
 guid: 1f5c03a7-c755-4379-a594-3a0ccd7890b6

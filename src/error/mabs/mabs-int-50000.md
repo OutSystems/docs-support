@@ -1,6 +1,9 @@
 ---
 summary: MABS app packaging fails when cordova project creation breaks; retry the build or check Service Center logs to resolve it.
-tags: error handling, mobile app build and deployment, cordova project, packaging errors
+tags:
+  - Cordova
+  - Mobile app
+  - Troubleshooting
 guid: 11755ead-39a9-4813-badd-faa0b842780a
 locale: en-us
 app_type: mobile apps

@@ -1,6 +1,10 @@
 ---
 summary: OS-MABS-PLF-50001 occurs when OutSystems platform fails to download dependencies bootstrapping your mobile app build; retry and check build logs.
-tags: error handling, mobile app build process, dependency management, server downtime
+tags:
+  - Cordova
+  - Mobile app
+  - Native App
+  - Troubleshooting
 locale: en-us
 app_type: mobile apps
 guid: 3852bcd4-12bf-4bef-9a72-55d31e3750ce

@@ -1,6 +1,11 @@
 ---
 summary: Couldn't install the Cordova plugin <plugin_name>. You must set a higher minimum iOS deployment target for a specific pod in the Extensibility Configurations property of your home module.
-tags: mobile app development, cordova plugins, ios deployment target, error handling, outsystems platform
+tags:
+  - Cordova
+  - iOS
+  - Mobile app
+  - Plugins
+  - Troubleshooting
 locale: en-us
 app_type: mobile apps
 guid: 333bc8b1-0225-448f-bbc5-fb27842ee8be

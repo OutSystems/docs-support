@@ -1,6 +1,10 @@
 ---
 summary: OS-MABS-KEY-50000 error occurs when MABS fails to create signing assets during mobile app packaging on OutSystems.
-tags: mobile app packaging, signing assets, build process, error handling, support
+tags:
+  - Android
+  - iOS
+  - Mobile app
+  - Troubleshooting
 guid: 8b3f6a2b-5fb0-44a4-9380-fac1d4c76d1e
 locale: en-us
 app_type: mobile apps

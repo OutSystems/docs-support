@@ -1,6 +1,10 @@
 ---
 summary: OS-MABS-PLG-50000 error occurs when MABS fails to install a custom Cordova plugin, blocking mobile app package generation in OutSystems.
-tags: mabs, cordova plugins, error handling, build logs, mobile app packaging
+tags:
+  - Cordova
+  - Mobile app
+  - Plugins
+  - Troubleshooting
 locale: en-us
 app_type: mobile apps
 guid: 5afa0282-de2f-46bf-a62a-80c7f4a20b90

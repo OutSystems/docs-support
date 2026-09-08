@@ -1,6 +1,11 @@
 ---
 summary: "Cordova plugin.xml errors on the OutSystems platform: a missing Spec attribute in the Framework element blocks CocoaPods-based iOS packaging."
-tags: cordova, ios development, plugin configuration, cocoapods, error handling
+tags:
+  - Cordova
+  - iOS
+  - Mobile app
+  - Plugins
+  - Troubleshooting
 locale: en-us
 app_type: mobile apps
 guid: 896b87e9-3200-4c79-bc48-f06de30c6b0f
