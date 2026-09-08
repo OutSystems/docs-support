@@ -1,6 +1,8 @@
 ---
 summary: OS-MABS-SHLD-50003 occurs when the OutSystems platform fails to validate your AppShield license, blocking mobile app package generation.
-tags: license validation, appshield, build process, error handling, support cases
+tags:
+  - Mobile app
+  - Troubleshooting
 guid: 467851a1-bd02-4dca-a3e9-ee66f011a7ef
 locale: en-us
 app_type: mobile apps

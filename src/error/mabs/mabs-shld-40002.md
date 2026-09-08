@@ -1,6 +1,10 @@
 ---
 summary: The AppShield's extensibility configurations can't be changed.
-tags: error handling, plugin configuration, application building, outsystems forge, support
+tags:
+  - Forge
+  - Mobile app
+  - Plugins
+  - Troubleshooting
 guid: 98fefaf5-f364-4389-a798-b87645aa84bd
 locale: en-us
 app_type: mobile apps

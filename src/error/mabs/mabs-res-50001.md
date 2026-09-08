@@ -1,6 +1,10 @@
 ---
 summary: OS-MABS-RES-50001 error occurs when MABS fails processing app resources like icons, splash screens, or custom plugins during packaging.
-tags: mobile app development, error handling, application packaging, resource management
+tags:
+  - Cordova
+  - Mobile app
+  - Plugins
+  - Troubleshooting
 guid: e9dac887-7a0e-4759-aca6-b762750f4ea5
 locale: en-us
 app_type: mobile apps

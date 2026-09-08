@@ -1,6 +1,8 @@
 ---
 summary: "OS-MABS-PREF-40004 fixes invalid JSON preferences in mobile app extensibility configurations, following the property schema to rebuild your package."
-tags: error handling, json configuration, app packaging, mobile app development, support
+tags:
+  - Mobile app
+  - Troubleshooting
 guid: 32d1797b-e3e5-4c00-bb48-1b0513977e9b
 locale: en-us
 app_type: mobile apps

@@ -1,6 +1,8 @@
 ---
 summary: OS-MABS-RES-40005 occurs when the platform sends MABS inaccessible resource links, blocking app package generation.
-tags: error handling, mobile application building, debugging, application packaging, outsystems platform
+tags:
+  - Mobile app
+  - Troubleshooting
 guid: 4258f7a1-f2e9-4d9a-b25f-2807f1b1f610
 locale: en-us
 app_type: mobile apps
