@@ -16,6 +16,9 @@ outsystems-tools:
   - service studio
 coverage-type:
   - apply
+topic:
+  - move-app-to-new-pool
+  - revert-app-pool-move
 ---
 
 # Move an app to another application pool on IIS

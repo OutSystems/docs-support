@@ -22,6 +22,9 @@ outsystems-tools:
 coverage-type:
   - remember
   - understand
+topic:
+  - cookie-reference-o11
+  - disabled-cookies-impact-o11
 ---
 
 # Cookie usage in OutSystems applications

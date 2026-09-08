@@ -19,6 +19,9 @@ outsystems-tools:
 coverage-type:
   - understand
   - apply
+topic:
+  - change-null-datetime-behavior
+  - null-datetime-behavior
 ---
 
 # Behavior of the Null DateTime Value in Mobile Apps

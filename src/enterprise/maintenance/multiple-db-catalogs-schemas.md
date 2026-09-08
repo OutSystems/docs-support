@@ -20,6 +20,10 @@ outsystems-tools:
 coverage-type:
   - apply
   - understand
+topic:
+  - move-module-database-catalog-schema
+  - publish-module-to-catalog-schema
+  - setup-database-catalog-schema
 ---
 
 # Multiple Database Catalogs and Schemas

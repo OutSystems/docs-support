@@ -1,5 +1,9 @@
 ---
 summary: Learn about MABS versioning and lifecycle. 
+topic:
+  - choose-mabs-version
+  - mabs-lifecycle-timeline
+  - mabs-version-support
 coverage-type:
   - understand
 tags:

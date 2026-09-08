@@ -17,6 +17,9 @@ audience:
   - Architect
 outsystems-tools:
   - platform server
+topic:
+  - configure-oracle-connection
+  - external-oracle-db-connection
 coverage-type:
   - apply
 ---

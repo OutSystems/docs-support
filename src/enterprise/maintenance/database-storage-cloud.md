@@ -22,6 +22,9 @@ outsystems-tools:
 coverage-type:
   - unblock
   - understand
+topic:
+  - database-storage-autogrow-safety
+  - database-storage-overview-lifetime
 ---
 
 # Database storage on OutSystems Cloud
