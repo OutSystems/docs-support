@@ -14,6 +14,8 @@ outsystems-tools:
   - case management framework
 coverage-type:
   - unblock
+topic:
+  - fix-requester-conflict
 ---
 
 # OS-CMFR-GEN-00035

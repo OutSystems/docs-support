@@ -14,6 +14,8 @@ outsystems-tools:
   - case management framework
 coverage-type:
   - unblock
+topic:
+  - cmf-login-requirement
 ---
 
 # OS-CMFR-GEN-20001
