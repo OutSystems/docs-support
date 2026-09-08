@@ -14,6 +14,8 @@ outsystems-tools:
   - service studio
 coverage-type:
   - unblock
+topic:
+  - fix-activity-access-error
 ---
 
 # OS-CMFR-GEN-20003

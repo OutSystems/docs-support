@@ -16,6 +16,8 @@ outsystems-tools:
   - case management framework
 coverage-type:
   - unblock
+topic:
+  - fix-rule-processing-error
 ---
 
 # OS-CMFR-GEN-00029

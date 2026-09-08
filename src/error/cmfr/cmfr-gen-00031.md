@@ -16,6 +16,8 @@ outsystems-tools:
   - service studio
 coverage-type:
   - unblock
+topic:
+  - fix-missing-rule-config
 ---
 
 # OS-CMFR-GEN-00031

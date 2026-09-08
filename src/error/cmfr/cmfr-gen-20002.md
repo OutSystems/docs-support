@@ -21,6 +21,8 @@ outsystems-tools:
   - case management framework
 coverage-type:
   - unblock
+topic:
+  - cmf-access-denied
 ---
 
 # OS-CMFR-GEN-20002

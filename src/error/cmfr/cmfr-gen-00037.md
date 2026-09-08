@@ -17,6 +17,8 @@ outsystems-tools:
   - case management framework
 coverage-type:
   - unblock
+topic:
+  - fix-fromdate-todate-error
 ---
 
 # OS-CMFR-GEN-00037

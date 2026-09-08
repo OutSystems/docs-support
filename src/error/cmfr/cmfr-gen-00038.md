@@ -20,6 +20,8 @@ outsystems-tools:
   - case management framework
 coverage-type:
   - unblock
+topic:
+  - fix-delegation-group-mismatch
 ---
 
 # OS-CMFR-GEN-00038
