@@ -16,6 +16,8 @@ outsystems-tools:
   - experience builder
 coverage-type:
   - unblock
+topic:
+  - fix-builder-credentials
 ---
 
 # It was not possible to sign into Integration - Workflow Builder

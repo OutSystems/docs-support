@@ -14,6 +14,8 @@ outsystems-tools:
   - service center
 coverage-type:
   - unblock
+topic:
+  - connection-timeout-error
 ---
 
 # OS-MABS-CKT-10000
