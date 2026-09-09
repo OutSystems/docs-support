@@ -12,6 +12,8 @@ outsystems-tools:
   - service center
 coverage-type:
   - unblock
+topic:
+  - cocoapods-config-error
 ---
 
 # OS-MABS-GEN-40012

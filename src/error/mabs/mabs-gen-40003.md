@@ -12,6 +12,8 @@ outsystems-tools:
   - service center
 coverage-type:
   - unblock
+topic:
+  - swift-language-error
 ---
 
 # OS-MABS-GEN-40003

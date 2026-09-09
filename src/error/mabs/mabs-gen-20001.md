@@ -15,6 +15,8 @@ outsystems-tools:
   - service center
 coverage-type:
   - unblock
+topic:
+  - missing-hook-dependency-error
 ---
 
 # OS-MABS-GEN-20001

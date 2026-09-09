@@ -13,6 +13,8 @@ outsystems-tools:
   - service center
 coverage-type:
   - unblock
+topic:
+  - png-resource-error
 ---
 
 # OS-MABS-GEN-40002

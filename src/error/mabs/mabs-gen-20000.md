@@ -13,6 +13,8 @@ outsystems-tools:
   - service center
 coverage-type:
   - unblock
+topic:
+  - blocked-plugin-action-error
 ---
 
 # OS-MABS-GEN-20000

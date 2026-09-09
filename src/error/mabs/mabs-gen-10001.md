@@ -13,6 +13,8 @@ outsystems-tools:
   - service center
 coverage-type:
   - unblock
+topic:
+  - maven-fetch-error
 ---
 
 # OS-MABS-GEN-10001
