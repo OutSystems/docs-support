@@ -12,6 +12,8 @@ outsystems-tools:
   - service studio
 coverage-type:
   - unblock
+topic:
+  - missing-exported-attribute-error
 ---
 
 # OS-MABS-GEN-40016

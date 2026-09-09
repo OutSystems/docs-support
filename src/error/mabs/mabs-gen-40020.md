@@ -13,6 +13,8 @@ outsystems-tools:
   - none
 coverage-type:
   - unblock
+topic:
+  - android-build-tools-error
 ---
 
 # OS-MABS-GEN-40020

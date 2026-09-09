@@ -12,6 +12,8 @@ outsystems-tools:
   - service center
 coverage-type:
   - unblock
+topic:
+  - plugin-compile-error
 ---
 
 # OS-MABS-GEN-40019

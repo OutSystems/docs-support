@@ -13,6 +13,8 @@ outsystems-tools:
   - service center
 coverage-type:
   - unblock
+topic:
+  - whitelist-plugin-error
 ---
 
 # OS-MABS-GEN-40018

@@ -17,6 +17,8 @@ outsystems-tools:
   - service studio
 coverage-type:
   - unblock
+topic:
+  - kotlin-version-error
 ---
 
 # OS-MABS-GEN-40021
