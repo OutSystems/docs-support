@@ -13,6 +13,8 @@ outsystems-tools:
   - service studio
 coverage-type:
   - unblock
+topic:
+  - invalid-property-type-error
 ---
 
 # OS-MABS-CNF-40005

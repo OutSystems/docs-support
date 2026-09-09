@@ -12,6 +12,8 @@ outsystems-tools:
   - service studio
 coverage-type:
   - unblock
+topic:
+  - missing-property-error
 ---
 
 # OS-MABS-CNF-40006

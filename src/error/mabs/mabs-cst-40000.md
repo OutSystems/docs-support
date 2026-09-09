@@ -12,6 +12,8 @@ outsystems-tools:
   - service studio
 coverage-type:
   - unblock
+topic:
+  - fix-invalid-icon-format-error
 ---
 
 # OS-MABS-CST-400000

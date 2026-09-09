@@ -12,6 +12,8 @@ outsystems-tools:
   - service studio
 coverage-type:
   - unblock
+topic:
+  - no-resources-file-error
 ---
 
 # OS-MABS-CNF-40004

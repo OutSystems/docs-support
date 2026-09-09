@@ -13,6 +13,8 @@ outsystems-tools:
   - service center
 coverage-type:
   - unblock
+topic:
+  - server-config-error
 ---
 
 # OS-MABS-CNF-50000
