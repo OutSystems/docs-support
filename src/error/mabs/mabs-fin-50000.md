@@ -12,6 +12,8 @@ outsystems-tools:
   - service center
 coverage-type:
   - unblock
+topic:
+  - fix-app-zip-error
 ---
 
 # OS-MABS-FIN-500000

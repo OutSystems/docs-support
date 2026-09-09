@@ -12,6 +12,8 @@ outsystems-tools:
   - service studio
 coverage-type:
   - unblock
+topic:
+  - fix-missing-splash-error
 ---
 
 # OS-MABS-CNF-40001
