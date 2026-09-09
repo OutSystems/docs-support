@@ -14,6 +14,8 @@ outsystems-tools:
   - mabs
 coverage-type:
   - unblock
+topic:
+  - missing-plugin-file-error
 ---
 
 # OS-MABS-GEN-40005

@@ -13,6 +13,8 @@ outsystems-tools:
   - service center
 coverage-type:
   - unblock
+topic:
+  - fix-plugin-swift-version
 ---
 
 # OS-MABS-GEN-40014

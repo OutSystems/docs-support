@@ -12,6 +12,8 @@ outsystems-tools:
   - service center
 coverage-type:
   - unblock
+topic:
+  - non-cordova-module-load-error
 ---
 
 # OS-MABS-GEN-40013
