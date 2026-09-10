@@ -16,6 +16,8 @@ outsystems-tools:
   - none
 coverage-type:
   - unblock
+topic:
+  - aps-environment-mismatch-error
 ---
 
 # OS-MABS-SIG-40001

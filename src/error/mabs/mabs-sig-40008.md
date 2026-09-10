@@ -17,6 +17,8 @@ outsystems-tools:
   - service studio
 coverage-type:
   - unblock
+topic:
+  - certificate-keys-error
 ---
 
 # OS-MABS-SIG-40008

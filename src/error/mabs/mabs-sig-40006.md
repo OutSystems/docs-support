@@ -15,6 +15,8 @@ outsystems-tools:
   - mabs
 coverage-type:
   - unblock
+topic:
+  - provisioning-format-error
 ---
 
 # OS-MABS-SIG-40006

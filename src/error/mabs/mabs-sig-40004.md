@@ -15,6 +15,8 @@ outsystems-tools:
   - mabs
 coverage-type:
   - unblock
+topic:
+  - certificate-format-error
 ---
 
 # OS-MABS-SIG-40004
