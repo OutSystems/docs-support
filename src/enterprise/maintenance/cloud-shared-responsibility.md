@@ -20,6 +20,7 @@ topic:
   - cloud-customer-duties
   - outsystems-cloud-duties
   - shared-responsibility-overview
+isautopublish: true
 ---
 
 # OutSystems Cloud shared responsibility model
@@ -28,7 +29,7 @@ OutSystems allows the development of enterprise web and mobile applications that
 
 * **OutSystems Developer Cloud (ODC)**: a [cloud-native app development platform](https://www.outsystems.com/tk/redirect?g=9a0cb62a-f11b-4d1a-9e79-0ca7d398e57b) with a modern architecture hosted by OutSystems.
 
-*  **Self-hosted ODC**: a hybrid deployment model that combines the control and compliance benefits of customer-managed infrastructure with the stability and agility of a cloud-managed development experience. If you're using Self-hosted ODC, see the [self-hosted shared responsibility model](https://www.outsystems.com/tk/redirect?g=7d901e26-3b77-4d4f-923d-956d78cd146d) instead.
+* **Self-hosted ODC**: a hybrid deployment model that combines the control and compliance benefits of customer-managed infrastructure with the stability and agility of a cloud-managed development experience. If you're using Self-hosted ODC, see the [self-hosted shared responsibility model](https://www.outsystems.com/tk/redirect?g=7d901e26-3b77-4d4f-923d-956d78cd146d) instead.
   
 * **OutSystems 11 Cloud**: deployed on Amazon Web Services (AWS) and managed by OutSystems
 
@@ -62,6 +63,8 @@ OutSystems customers are responsible for securing data and user access and permi
 
 * Adopting application development, testing, and monitoring practices recommended for their performance and scalability goals.
 
+* Hosting and maintaining the availability of the Cloud Connector instance that connects a Private Gateway to your ODC private network endpoints. Update your Cloud Connector instance regularly to benefit from available fixes and security improvements.
+
 OutSystems provides extensive [training options](https://www.outsystems.com/evaluation-guide/getting-started-with-outsystems/training/) and a [range of success offers](https://www.outsystems.com/evaluation-guide/getting-started-with-outsystems/app-support/) to ensure customers can follow and adopt best practices.
 
 ## OutSystems responsibilities
@@ -85,6 +88,8 @@ Identity and access management: OutSystems integrates with Active Directory and 
 * **Compute/Storage/Database/Networking**. OutSystems delivers hardware and software tools to its customers over the internet. Therefore, OutSystems is responsible for managing the underlying infrastructure such as servers, storage, database management systems, and networking resources that supports its customers complete application lifecycle: developing, testing, deploying, managing, and updating.  
 
 * **Availability Zones & Regions**. OutSystems is responsible for managing remote data center infrastructures such as computing environments, data storage, and network resources. OutSystems performs replication at each datacenter (availability zones/region), annual disaster recovery tests for the service to verify the project recovery times. OutSystems ensures customer data between datacenters are performed through encrypted channels. OutSystems ensures its customers' applications inherit cloud characteristics such as scalability, high-availability, multi-tenancy.
+
+* **Private Gateway and Cloud Connector software (ODC only)**. OutSystems develops, maintains, and releases updates for the Private Gateway service and the Cloud Connector software, the components that connect ODC apps to private network endpoints. For more information, refer to [OutSystems Cloud Connector](https://github.com/OutSystems/cloud-connector).
 
 OutSystems communicates its cloud security and controls in a number of different ways:
 
