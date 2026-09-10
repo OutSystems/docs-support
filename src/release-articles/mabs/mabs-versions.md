@@ -9,9 +9,7 @@ tags:
   - Android
   - Cordova
   - iOS
-  - Lifecycle
   - Mobile app
-  - Plugins
 audience:
   - Developer
 coverage-type:
@@ -64,7 +62,7 @@ It's recommended to update all supported plugins to the latest version available
 
 This version can run your apps on:
 
-<small>![Icon representing the Android operating system.](images/android-icon-ss.png "Android Icon") Android 9 to 16</small>
+<small>![Icon representing the Android operating system.](images/android-icon-ss.png "Android Icon") Android 9 to 17</small>
 
 <small>![Icon representing the iOS operating system.](images/ios-icon-ss.png "iOS Icon") iOS 15 to 26</small>
 
