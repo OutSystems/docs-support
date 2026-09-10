@@ -14,6 +14,8 @@ outsystems-tools:
   - service studio
 coverage-type:
   - unblock
+topic:
+  - wrong-preference-format-error
 ---
 
 # OS-MABS-PREF-40003

@@ -17,6 +17,8 @@ outsystems-tools:
   - service center
 coverage-type:
   - unblock
+topic:
+  - cocoapods-plugin-fetch-error
 ---
 
 # OS-MABS-PLG-50005

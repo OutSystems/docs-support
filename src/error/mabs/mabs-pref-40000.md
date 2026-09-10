@@ -15,6 +15,8 @@ outsystems-tools:
   - service studio
 coverage-type:
   - unblock
+topic:
+  - invalid-preference-key-error
 ---
 
 # OS-MABS-PREF-40000
