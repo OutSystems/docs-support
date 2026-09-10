@@ -17,6 +17,8 @@ outsystems-tools:
   - mobile plugins
 coverage-type:
   - unblock
+topic:
+  - plugin-install-failure
 ---
 
 # OS-MABS-PLG-40021  

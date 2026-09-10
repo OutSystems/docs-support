@@ -16,6 +16,8 @@ outsystems-tools:
   - service studio
 coverage-type:
   - unblock
+topic:
+  - generic-plugin-error
 ---
 
 # OS-MABS-PLG-50003

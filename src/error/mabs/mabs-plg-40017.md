@@ -17,6 +17,8 @@ outsystems-tools:
   - service center
 coverage-type:
   - unblock
+topic:
+  - plugin-dependency-error
 ---
 
 # OS-MABS-PLG-40017

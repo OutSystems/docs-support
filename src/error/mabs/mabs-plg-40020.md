@@ -18,6 +18,8 @@ outsystems-tools:
   - service studio
 coverage-type:
   - unblock
+topic:
+  - resolve-podspec-error
 ---
 
 # OS-MABS-PLG-40020

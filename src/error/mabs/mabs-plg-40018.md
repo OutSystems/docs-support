@@ -14,6 +14,8 @@ audience:
   - Developer
 coverage-type:
   - unblock
+topic:
+  - plugin-min-version-error
 ---
 
 # OS-MABS-PLG-40018
