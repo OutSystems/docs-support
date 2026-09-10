@@ -15,6 +15,8 @@ outsystems-tools:
   - mabs
 coverage-type:
   - unblock
+topic:
+  - custom-plugin-error
 ---
 
 # OS-MABS-GEN-40022  

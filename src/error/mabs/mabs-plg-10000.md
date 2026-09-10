@@ -17,6 +17,8 @@ outsystems-tools:
   - mabs
 coverage-type:
   - unblock
+topic:
+  - fix-plugin-fetch-timeout
 ---
 
 # OS-MABS-PLG-10000

@@ -13,6 +13,8 @@ outsystems-tools:
   - service center
 coverage-type:
   - unblock
+topic:
+  - gradle-dependency-error
 ---
 
 # OS-MABS-GEN-40017

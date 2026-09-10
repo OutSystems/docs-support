@@ -17,6 +17,8 @@ outsystems-tools:
   - service center
 coverage-type:
   - unblock
+topic:
+  - cocoapods-server-error
 ---
 
 # OS-MABS-PLF-50002

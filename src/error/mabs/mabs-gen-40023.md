@@ -17,6 +17,8 @@ outsystems-tools:
   - service center
 coverage-type:
   - unblock
+topic:
+  - renamed-xml-error
 ---
 
 # OS-MABS-GEN-40023
