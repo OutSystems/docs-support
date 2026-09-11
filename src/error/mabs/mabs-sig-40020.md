@@ -14,6 +14,8 @@ outsystems-tools:
   - service studio
 coverage-type:
   - unblock
+topic:
+  - invalid-app-identifier-error
 ---
 
 # OS-MABS-SIG-40020

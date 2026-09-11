@@ -17,6 +17,8 @@ outsystems-tools:
   - service center
 coverage-type:
   - unblock
+topic:
+  - mabs-generic-validation-error
 ---
 
 # OS-MABS-VLD-50000

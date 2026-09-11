@@ -17,6 +17,8 @@ outsystems-tools:
   - integration builder
 coverage-type:
   - unblock
+topic:
+  - keystore-alias-cert-error
 ---
 
 # OS-MABS-SIG-40019
