@@ -13,6 +13,8 @@ outsystems-tools:
   - service studio
 coverage-type:
   - unblock
+topic:
+  - wfb-envmodule-error
 ---
 
 # OS-WFBL-GEN-00007

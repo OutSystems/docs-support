@@ -13,6 +13,8 @@ outsystems-tools:
   - workflow builder
 coverage-type:
   - unblock
+topic:
+  - wfb-template-error
 ---
 
 # OS-WFBL-CONF-00008

@@ -13,6 +13,8 @@ outsystems-tools:
   - workflow builder
 coverage-type:
   - unblock
+topic:
+  - wfb-refresh-page-error
 ---
 
 # OS-WFBL-GEN-00002
