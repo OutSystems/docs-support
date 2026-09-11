@@ -15,6 +15,8 @@ outsystems-tools:
   - service studio
 coverage-type:
   - unblock
+topic:
+  - certificate-expired-error
 ---
 
 # OS-MABS-SIG-40018

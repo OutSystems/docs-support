@@ -17,6 +17,8 @@ outsystems-tools:
   - none
 coverage-type:
   - unblock
+topic:
+  - provisioning-expiry-error
 ---
 
 # OS-MABS-SIG-40015

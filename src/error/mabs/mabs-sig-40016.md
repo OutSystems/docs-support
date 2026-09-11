@@ -15,6 +15,8 @@ outsystems-tools:
   - service studio
 coverage-type:
   - unblock
+topic:
+  - missing-entitlement-error
 ---
 
 # OS-MABS-SIG-40016

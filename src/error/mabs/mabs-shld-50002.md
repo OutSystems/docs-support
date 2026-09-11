@@ -13,6 +13,8 @@ outsystems-tools:
   - service center
 coverage-type:
   - unblock
+topic:
+  - app-settings-validation-error
 ---
 
 # OS-MABS-SHLD-50002

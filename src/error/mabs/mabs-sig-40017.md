@@ -15,6 +15,8 @@ outsystems-tools:
   - service studio
 coverage-type:
   - unblock
+topic:
+  - xcode-profile-mismatch
 ---
 
 # OS-MABS-SIG-40017
