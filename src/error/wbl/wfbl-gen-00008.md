@@ -11,6 +11,8 @@ audience:
   - Front-end developer
 outsystems-tools:
   - workflow builder
+topic:
+  - wfb-application-error
 coverage-type:
   - unblock
 ---

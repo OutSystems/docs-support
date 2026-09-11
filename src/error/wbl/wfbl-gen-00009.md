@@ -14,6 +14,8 @@ outsystems-tools:
   - service studio
 coverage-type:
   - unblock
+topic:
+  - wfb-module-error
 ---
 
 # OS-WFBL-GEN-00009

@@ -16,6 +16,8 @@ outsystems-tools:
   - workflow builder
 coverage-type:
   - unblock
+topic:
+  - wfb-token-error
 ---
 
 # OS-WFBL-API-00002
