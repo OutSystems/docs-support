@@ -17,6 +17,8 @@ outsystems-tools:
   - workflow builder
 coverage-type:
   - unblock
+topic:
+  - wfb-invalid-application-data-error
 ---
 
 # OS-WFBL-CONF-00005

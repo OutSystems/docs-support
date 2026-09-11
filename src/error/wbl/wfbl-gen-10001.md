@@ -13,6 +13,8 @@ outsystems-tools:
   - workflow builder
 coverage-type:
   - unblock
+topic:
+  - wfb-invalid-access-error
 ---
 
 # OS-WFBL-GEN-10001

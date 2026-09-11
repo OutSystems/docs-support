@@ -10,6 +10,8 @@ audience:
   - Developer
 outsystems-tools:
   - forge
+topic:
+  - deactivate-forge-component
 coverage-type:
   - understand
   - apply

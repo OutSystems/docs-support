@@ -12,6 +12,8 @@ outsystems-tools:
   - forge
 coverage-type:
   - understand
+topic:
+  - report-forge-content
 ---
 
 # Reviewing or Flagging a Project
