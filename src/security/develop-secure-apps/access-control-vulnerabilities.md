@@ -17,6 +17,8 @@ outsystems-tools:
   - service studio
 coverage-type:
   - evaluate
+topic:
+  - access-control-risks
 ---
 
 # Protecting OutSystems apps from access control / permissions vulnerabilities

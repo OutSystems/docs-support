@@ -15,6 +15,9 @@ outsystems-tools:
   - none
 coverage-type:
   - apply
+topic:
+  - data-encryption
+  - secure-data-in-transit
 ---
 
 # Protecting OutSystems apps using encryption and SSL/TLS

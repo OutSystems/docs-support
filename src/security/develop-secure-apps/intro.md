@@ -17,6 +17,8 @@ audience:
   - Architect
 outsystems-tools:
   - none
+topic:
+  - owasp-top-10-lists
 coverage-type:
   - understand
 ---

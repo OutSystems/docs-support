@@ -14,6 +14,8 @@ outsystems-tools:
   - service center
 coverage-type:
   - apply
+topic:
+  - transfer-pe-apps-enterprise
 ---
 
 # Move apps from your Personal environment to a subscription license

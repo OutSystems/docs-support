@@ -18,6 +18,9 @@ outsystems-tools:
   - platform server
 coverage-type:
   - understand
+topic:
+  - rest-endpoint-permissions
+  - secure-data-in-transit
 ---
 
 # App-to-server communication and security

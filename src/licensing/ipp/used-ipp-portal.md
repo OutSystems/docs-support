@@ -14,6 +14,8 @@ outsystems-tools:
   - service studio
 coverage-type:
   - unblock
+topic:
+  - ipp-email-delay
 ---
 
 # Used the IPP portal, but didn't receive an email
