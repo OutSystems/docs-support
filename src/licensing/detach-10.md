@@ -20,6 +20,10 @@ outsystems-tools:
   - none
 coverage-type:
   - apply
+topic:
+  - compile-deploy-detached-web-app
+  - detach-process-overview
+  - prepare-detach-infrastructure
 ---
 
 # The detach process for OutSystems 10

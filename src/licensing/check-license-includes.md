@@ -16,6 +16,8 @@ outsystems-tools:
 coverage-type:
   - apply
   - understand
+topic:
+  - check-license-limits-o11
 ---
 
 # Check what your license includes, and your effective usage

@@ -14,6 +14,8 @@ outsystems-tools:
   - ipp portal
 coverage-type:
   - unblock
+topic:
+  - ip-rights-not-granted
 ---
 
 # The IP rights of your applications could not be granted

@@ -15,6 +15,9 @@ outsystems-tools:
 coverage-type:
   - unblock
   - understand
+topic:
+  - get-environment-license
+  - licensing-identifiers
 ---
 
 # Identify OutSystems infrastructure and runtime environments

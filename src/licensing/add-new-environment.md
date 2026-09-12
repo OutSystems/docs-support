@@ -15,6 +15,9 @@ outsystems-tools:
   - service studio
 coverage-type:
   - apply
+topic:
+  - add-new-cloud-environment
+  - add-new-self-managed-environment
 ---
 
 # Add a new environment to your infrastructure
