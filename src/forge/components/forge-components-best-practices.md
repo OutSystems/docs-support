@@ -16,6 +16,10 @@ outsystems-tools:
   - service studio
 coverage-type:
   - evaluate
+topic:
+  - component-service-studio-preview
+  - plan-design-components
+  - present-share-components
 ---
 
 # Forge components best practices

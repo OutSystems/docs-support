@@ -14,6 +14,10 @@ outsystems-tools:
   - forge
 coverage-type:
   - unblock
+topic:
+  - forge-licensing-model
+  - forge-overview
+  - forge-project-types
 ---
 
 # Overview

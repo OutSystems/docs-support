@@ -23,6 +23,10 @@ coverage-type:
   - evaluate
   - understand
   - apply
+topic:
+  - component-styling-script-customization
+  - plan-design-components
+  - present-share-components
 ---
 
 # The complete guide to creating components

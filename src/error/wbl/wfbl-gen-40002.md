@@ -15,6 +15,8 @@ outsystems-tools:
   - workflow builder
 coverage-type:
   - unblock
+topic:
+  - wfb-communication-error
 ---
 
 # OS-WFBL-GEN-40002
