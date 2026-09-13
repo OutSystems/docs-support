@@ -14,6 +14,8 @@ outsystems-tools:
   - none
 coverage-type:
   - unblock
+topic:
+  - wake-sleeping-pe-o11
 ---
 
 # Cannot reach apps on my personal environment

@@ -20,6 +20,10 @@ outsystems-tools:
   - service center
 coverage-type:
   - unblock
+topic:
+  - detect-dst-bpt-issue
+  - dst-bpt-bug-overview
+  - fix-dst-bpt-activities
 ---
 
 # Daylight Savings time change can cause some BPT activities to not be processed

@@ -16,6 +16,8 @@ outsystems-tools:
   - service center
 coverage-type:
   - unblock
+topic:
+  - fix-windows-token-error
 ---
 
 # Error accessing application - Could not create Windows user token from the credentials specified in the config file
