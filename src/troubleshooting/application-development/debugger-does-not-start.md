@@ -15,6 +15,8 @@ outsystems-tools:
   - service studio
 coverage-type:
   - unblock
+topic:
+  - fix-debugger-chrome-issue
 ---
 
 # Debugger does not start in Chrome

@@ -15,6 +15,10 @@ outsystems-tools:
   - service studio
 coverage-type:
   - unblock
+topic:
+  - fix-chrome-debug-delay
+  - fix-debugger-hang
+  - fix-stopped-debug-session
 ---
 
 # Debugger in Service Studio is not working

@@ -18,6 +18,8 @@ outsystems-tools:
   - service studio
 coverage-type:
   - unblock
+topic:
+  - slow-deploy-new-attribute
 ---
 
 # Application deployment takes too long after adding a new Entity Attribute

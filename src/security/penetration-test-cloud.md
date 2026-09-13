@@ -17,6 +17,8 @@ outsystems-tools:
   - none
 coverage-type:
   - apply
+topic:
+  - authorize-cloud-testing
 ---
 
 # Load and penetration tests on OutSystems Cloud
