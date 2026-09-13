@@ -16,6 +16,8 @@ outsystems-tools:
   - lifetime
 coverage-type:
   - unblock
+topic:
+  - rename-staging-conflict
 ---
 
 # LifeTime staging aborts after renaming an app or module

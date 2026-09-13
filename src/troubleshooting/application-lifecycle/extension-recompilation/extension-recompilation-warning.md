@@ -19,6 +19,8 @@ outsystems-tools:
   - platform server
 coverage-type:
   - unblock
+topic:
+  - fix-recompilation-warning
 ---
 
 # Publish warning - Continuing with extension recompilation enabled may result in security flaws

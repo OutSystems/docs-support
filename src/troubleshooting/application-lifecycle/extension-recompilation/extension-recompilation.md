@@ -19,6 +19,10 @@ outsystems-tools:
   - platform server
 coverage-type:
   - unblock
+topic:
+  - configure-recompilation
+  - fix-recompilation-warning
+  - fix-upgrade-disabled
 ---
 
 # Server extension recompilation on upgrade

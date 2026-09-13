@@ -17,6 +17,10 @@ outsystems-tools:
   - service studio
 coverage-type:
   - unblock
+topic:
+  - mabs-5-breaking-changes
+  - mabs5-file-not-found-error
+  - min-sdk-incompatibility-error
 ---
 
 # Troubleshooting issues with MABS 5.0

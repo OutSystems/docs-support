@@ -17,6 +17,9 @@ outsystems-tools:
   - service studio
 coverage-type:
   - unblock
+topic:
+  - mabs-5-breaking-changes
+  - mabs-build-errors
 ---
 
 # MABS upgrade troubleshooting guide - Android

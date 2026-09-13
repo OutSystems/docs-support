@@ -16,6 +16,8 @@ outsystems-tools:
   - lifetime
 coverage-type:
   - unblock
+topic:
+  - unexpected-app-rename
 ---
 
 # Application renamed unexpectedly after staging

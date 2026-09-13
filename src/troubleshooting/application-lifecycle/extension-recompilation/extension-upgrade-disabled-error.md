@@ -19,6 +19,9 @@ outsystems-tools:
   - platform server
 coverage-type:
   - unblock
+topic:
+  - configure-recompilation
+  - fix-upgrade-disabled
 ---
 
 # Publish error - Extension recompilation on upgrade is disabled
