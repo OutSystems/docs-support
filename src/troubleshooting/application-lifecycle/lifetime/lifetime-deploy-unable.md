@@ -16,6 +16,8 @@ outsystems-tools:
   - lifetime
 coverage-type:
   - unblock
+topic:
+  - diagnose-lifetime-deploy
 ---
 
 # Unable to deploy applications using LifeTime

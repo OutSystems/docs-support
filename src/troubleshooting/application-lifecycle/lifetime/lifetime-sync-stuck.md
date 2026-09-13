@@ -16,6 +16,8 @@ outsystems-tools:
   - platform server
 coverage-type:
   - unblock
+topic:
+  - lifetime-sync-stuck
 ---
 
 # LifeTime synchronization is stuck

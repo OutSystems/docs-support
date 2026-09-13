@@ -17,6 +17,8 @@ audience:
   - Front-end developer
 outsystems-tools:
   - mobile plugins
+topic:
+  - sqlite-attribute-limit
 coverage-type:
   - unblock
 ---
