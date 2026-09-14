@@ -12,6 +12,7 @@ coverage-type:
   - apply
 topic:
   - add-case-followers
+isautopublish: true
 ---
 # Adding followers to a Support case
 
@@ -40,7 +41,7 @@ After you add a member, the complete list of followers of the case will be visib
 
 ### On an existing case
 
-1. Navigate to [your open cases](https://www.outsystems.com/SupportPortal/Support/) and open the case you wish to add followers.
+1. Navigate to [your open cases](https://www.outsystems.com/support/portal/my-support-activity) and open the case you wish to add followers.
 
     ![Screenshot of the user interface to navigate and open existing cases in the support portal.](images/add-case-followers-2.png "Open Cases List")
 
