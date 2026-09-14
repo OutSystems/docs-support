@@ -16,6 +16,8 @@ outsystems-tools:
   - service studio
 coverage-type:
   - unblock
+topic:
+  - diagnose-ssl-trust-error-o11
 ---
 
 # Could not establish trust relationship when consuming web services in OutSystems

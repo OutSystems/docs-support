@@ -16,6 +16,8 @@ outsystems-tools:
 coverage-type:
   - apply
   - unblock
+topic:
+  - test-environment-connectivity
 ---
 
 # Test the connectivity between OutSystems environments

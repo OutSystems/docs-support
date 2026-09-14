@@ -17,6 +17,8 @@ outsystems-tools:
   - lifetime
 coverage-type:
   - unblock
+topic:
+  - fix-csp-headers-o11
 ---
 
 # Troubleshooting missing or incorrect CSPs

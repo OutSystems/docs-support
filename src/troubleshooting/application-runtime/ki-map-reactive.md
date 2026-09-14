@@ -16,6 +16,8 @@ outsystems-tools:
   - forge
 coverage-type:
   - unblock
+topic:
+  - map-component-issues
 ---
 
 # Known issues with the Map component for Reactive Web apps

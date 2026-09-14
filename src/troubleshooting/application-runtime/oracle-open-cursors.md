@@ -18,6 +18,8 @@ outsystems-tools:
   - service center
 coverage-type:
   - unblock
+topic:
+  - fix-open-cursors-error
 ---
 
 # Maximum number of open cursors exceeded in a session
