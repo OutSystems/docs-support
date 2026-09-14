@@ -15,6 +15,8 @@ outsystems-tools:
 coverage-type:
   - apply
   - unblock
+topic:
+  - generate-bpt-troubleshooting-report
 ---
 
 # BPT troubleshooting report

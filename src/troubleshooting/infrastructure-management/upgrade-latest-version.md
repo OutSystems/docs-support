@@ -15,6 +15,9 @@ outsystems-tools:
   - service center
 coverage-type:
   - apply
+topic:
+  - cancel-scheduled-pe-upgrade
+  - schedule-pe-upgrade
 ---
 
 # Upgrade a personal environment to the latest version

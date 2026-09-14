@@ -13,6 +13,8 @@ outsystems-tools:
 coverage-type:
   - apply
   - unblock
+topic:
+  - android-device-logs
 ---
 
 # Android device logs

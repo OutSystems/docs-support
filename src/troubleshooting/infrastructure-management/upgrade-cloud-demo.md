@@ -14,6 +14,10 @@ outsystems-tools:
   - lifetime
 coverage-type:
   - apply
+topic:
+  - cancel-scheduled-demo-upgrade
+  - demo-upgrade-timing
+  - schedule-demo-upgrade
 ---
 
 # Upgrading your Cloud demo
