@@ -19,6 +19,10 @@ outsystems-tools:
   - platform server
 coverage-type:
   - unblock
+topic:
+  - measure-true-query-elapsed-time
+  - slowsql-duration-behavior
+  - slowsql-log-messages
 ---
 
 # SLOWSQL log messages
