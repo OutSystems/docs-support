@@ -19,6 +19,10 @@ outsystems-tools:
   - service center
 coverage-type:
   - unblock
+topic:
+  - capture-har-file
+  - generate-bpt-troubleshooting-report
+  - log-source-catalog
 ---
 
 # Getting logs for troubleshooting purposes

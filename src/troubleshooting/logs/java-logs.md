@@ -15,6 +15,8 @@ audience:
   - Developer
 outsystems-tools:
   - none
+topic:
+  - obtain-java-logs
 coverage-type:
   - unblock
 ---

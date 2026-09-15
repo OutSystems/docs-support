@@ -16,6 +16,8 @@ outsystems-tools:
   - none
 coverage-type:
   - unblock
+topic:
+  - ios-device-logs
 ---
 
 # Get iOS Device Logs

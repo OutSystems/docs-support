@@ -17,6 +17,8 @@ outsystems-tools:
   - service center
 coverage-type:
   - unblock
+topic:
+  - access-mabs-generation-log
 ---
 
 # Mobile app generation logs

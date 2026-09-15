@@ -16,6 +16,8 @@ outsystems-tools:
   - none
 coverage-type:
   - unblock
+topic:
+  - export-windows-event-logs
 ---
 
 # Windows Event Viewer logs

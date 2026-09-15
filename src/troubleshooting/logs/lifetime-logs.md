@@ -16,6 +16,10 @@ outsystems-tools:
   - lifetime
 coverage-type:
   - unblock
+topic:
+  - lifetime-infrastructure-report
+  - lifetime-staging-report
+  - lifetime-user-permissions-report
 ---
 
 # LifeTime reports

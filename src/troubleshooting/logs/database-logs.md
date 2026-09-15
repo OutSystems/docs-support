@@ -19,6 +19,8 @@ audience:
   - Tech lead
 outsystems-tools:
   - none
+topic:
+  - get-awr-addm-reports
 coverage-type:
   - unblock
 ---

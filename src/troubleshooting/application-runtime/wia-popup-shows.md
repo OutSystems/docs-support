@@ -20,6 +20,8 @@ outsystems-tools:
 coverage-type:
   - unblock
 isautopublish: true
+topic:
+  - fix-recurring-wia-popup
 ---
 
 # Windows Integrated Authentication login popup keeps showing for end users
