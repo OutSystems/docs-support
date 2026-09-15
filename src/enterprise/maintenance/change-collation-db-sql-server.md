@@ -18,11 +18,11 @@ outsystems-tools:
   - service studio
 coverage-type:
   - understand
-  - apply
 topic:
   - avoid-collation-conflicts
   - change-db-collation
   - collation-requirements
+isautopublish: true
 ---
 
 # Change the collation of an OutSystems database running on SQL Server
@@ -39,7 +39,15 @@ Collations come at several levels: at database instance level, at the database l
 
 * The [column collation](https://msdn.microsoft.com/en-us/library/ms190920.aspx) is inherited from the database collation.
 
-The collations for the instance and the database can be different, as in the example above; but both must be Case Insensitive (CI).
+The collations for the instance and the database can be different, as in the preceding examples, but both must be case-insensitive (CI).
+
+<div class="info" markdown="1">
+
+OutSystems requires instance collations with case-mapping rules that follow the Latin alphabet standard. In these collations, the uppercase and lowercase Latin letters match correctly. SQL Server compares the names of variables, labels, and temporary objects using the instance collation instead of the database collation. Using collations with non-Latin case-mapping rules can result in runtime errors regardless of the database collation.
+
+For more information, refer to [COLLATE (Transact-SQL)](https://learn.microsoft.com/en-us/sql/t-sql/statements/collations) in Microsoft's SQL Server documentation.
+
+</div>
 
 Collations should be consistent between all environments in an OutSystems infrastructure: Development, Quality, Pre-Production, Production, etc. should all be in the same collation. It's rare, but applications may behave differently in regards of international support if collations are not the same in all environments.
 
