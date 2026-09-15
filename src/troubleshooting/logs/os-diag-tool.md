@@ -17,6 +17,8 @@ outsystems-tools:
   - platform server
 coverage-type:
   - unblock
+topic:
+  - use-osdiagtool
 ---
 
 # OSDiagTool - OutSystems Support Diagnostics Tool
