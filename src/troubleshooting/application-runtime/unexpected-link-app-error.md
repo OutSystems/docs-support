@@ -17,6 +17,8 @@ outsystems-tools:
   - service studio
 coverage-type:
   - unblock
+topic:
+  - fix-broken-app-links
 ---
 
 # Unexpected link in application - changes from HTTPS to HTTP or shows an internal server name

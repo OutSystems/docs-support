@@ -20,6 +20,10 @@ outsystems-tools:
   - platform server
 coverage-type:
   - unblock
+topic:
+  - react-16-known-issues
+  - react-16-preview-prereqs
+  - react-16-runtime-side-effects
 ---
 
 # Issues and side effects with Reactive Web and Mobile apps on React 16

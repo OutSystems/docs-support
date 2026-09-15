@@ -15,6 +15,8 @@ audience:
 outsystems-tools:
   - platform server
   - configuration tool
+topic:
+  - change-database-address
 coverage-type:
   - unblock
 ---

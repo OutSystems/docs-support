@@ -17,6 +17,8 @@ outsystems-tools:
   - service studio
 coverage-type:
   - unblock
+topic:
+  - fix-viewport-fit-empty-bar
 ---
 
 # Further Recommendations on the MABS 4.0 Viewport-Fit Issue in iOS 12 Phones

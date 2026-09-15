@@ -16,6 +16,8 @@ outsystems-tools:
   - service center
 coverage-type:
   - unblock
+topic:
+  - pe-database-space
 ---
 
 # Manage the database space of your personal environment

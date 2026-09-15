@@ -20,6 +20,10 @@ outsystems-tools:
   - service studio
 coverage-type:
   - unblock
+topic:
+  - diagnose-timeout-errors
+  - email-render-timeout
+  - service-action-timeout
 ---
 
 # Timeouts under the hood

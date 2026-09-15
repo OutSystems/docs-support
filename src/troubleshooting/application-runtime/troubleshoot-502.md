@@ -15,6 +15,8 @@ outsystems-tools:
   - none
 coverage-type:
   - unblock
+topic:
+  - diagnose-http-502-errors
 ---
 
 # Troubleshooting HTTP 502 bad gateway

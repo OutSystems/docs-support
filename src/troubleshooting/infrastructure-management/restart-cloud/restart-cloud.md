@@ -15,6 +15,8 @@ outsystems-tools:
   - service center
 coverage-type:
   - unblock
+topic:
+  - restart-cloud-services
 ---
 
 # Restart services on OutSystems Cloud

@@ -16,6 +16,8 @@ outsystems-tools:
   - none
 coverage-type:
   - unblock
+topic:
+  - ios-video-upload-issue
 ---
 
 # Known issue - Upload widget not working for videos in iOS 10.3
