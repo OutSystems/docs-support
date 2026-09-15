@@ -12,6 +12,8 @@ audience:
   - Developer
 outsystems-tools:
   - service center
+topic:
+  - mabs-build-errors
 coverage-type:
   - unblock
 isautopublish: true
