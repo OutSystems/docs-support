@@ -17,6 +17,8 @@ outsystems-tools:
   - case management framework
 coverage-type:
   - unblock
+topic:
+  - fix-tag-case-mismatch
 ---
 
 # OS-CMFR-GEN-00010

@@ -17,6 +17,8 @@ outsystems-tools:
   - case management framework
 coverage-type:
   - unblock
+topic:
+  - fix-working-hours-error
 ---
 
 # OS-CMFR-GEN-00005

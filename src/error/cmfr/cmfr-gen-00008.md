@@ -18,6 +18,8 @@ outsystems-tools:
   - case management framework
 coverage-type:
   - unblock
+topic:
+  - fix-missing-access-grant
 ---
 
 # OS-CMFR-GEN-00008

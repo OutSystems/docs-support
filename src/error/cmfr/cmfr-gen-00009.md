@@ -17,6 +17,8 @@ outsystems-tools:
   - case management framework
 coverage-type:
   - unblock
+topic:
+  - fix-duplicate-tag
 ---
 
 # OS-CMFR-GEN-00009

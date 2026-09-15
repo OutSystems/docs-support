@@ -16,6 +16,8 @@ outsystems-tools:
   - case management framework
 coverage-type:
   - unblock
+topic:
+  - fix-unsupported-database
 ---
 
 # OS-CMFR-GEN-00011

@@ -16,6 +16,8 @@ outsystems-tools:
   - case management framework
 coverage-type:
   - unblock
+topic:
+  - fix-duplicate-id
 ---
 
 # OS-CMFR-GEN-00004
