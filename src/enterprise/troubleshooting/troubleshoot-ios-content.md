@@ -19,6 +19,9 @@ outsystems-tools:
   - service center
 coverage-type:
   - unblock
+topic:
+  - configure-csp-mobile-app-iframes
+  - fix-safari-cookie-block
 ---
 
 # Troubleshooting OutSystems apps on iOS devices

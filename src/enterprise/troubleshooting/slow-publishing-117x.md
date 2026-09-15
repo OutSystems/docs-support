@@ -19,6 +19,8 @@ outsystems-tools:
   - platform server
 coverage-type:
   - unblock
+topic:
+  - slow-farm-publishing
 ---
 
 # Slow publishing in OutSystems 11.7.x

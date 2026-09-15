@@ -17,6 +17,8 @@ outsystems-tools:
   - platform server
 coverage-type:
   - unblock
+topic:
+  - fix-service-permissions
 ---
 
 # Service permissions error when installing or upgrading to Platform Server 11.12.0 or later

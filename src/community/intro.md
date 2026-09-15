@@ -12,6 +12,9 @@ figma:
 audience:
   - Developer
   - Platform administrator
+topic:
+  - community-account-settings-overview
+  - community-participation-overview
 isautopublish: true
 ---
 

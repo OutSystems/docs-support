@@ -18,6 +18,8 @@ outsystems-tools:
   - case management framework
 coverage-type:
   - unblock
+topic:
+  - process-still-running
 ---
 
 # OS-CMFR-BPT-00001

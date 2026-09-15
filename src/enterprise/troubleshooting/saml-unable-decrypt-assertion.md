@@ -20,6 +20,8 @@ outsystems-tools:
   - users application
 coverage-type:
   - unblock
+topic:
+  - fix-saml-decrypt-error
 ---
 
 # Error processing SAML response - Unable to decrypt the assertion

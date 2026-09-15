@@ -18,6 +18,8 @@ outsystems-tools:
   - none
 coverage-type:
   - unblock
+topic:
+  - fix-saml-signature-error
 ---
 
 # Unable to create SAML signature
