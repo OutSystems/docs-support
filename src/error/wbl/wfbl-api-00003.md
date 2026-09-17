@@ -17,6 +17,8 @@ outsystems-tools:
   - service studio
 coverage-type:
   - unblock
+topic:
+  - wfb-storage-error
 ---
 
 # OS-WFBL-API-00003

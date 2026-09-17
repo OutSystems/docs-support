@@ -15,6 +15,8 @@ outsystems-tools:
   - none
 coverage-type:
   - apply
+topic:
+  - secure-data-in-transit
 ---
 
 # Protecting OutSystems Apps From Authentication Vulnerabilities

@@ -17,6 +17,9 @@ outsystems-tools:
   - service studio
 coverage-type:
   - understand
+topic:
+  - app-server-certificates
+  - check-ssl-pinning-hash-validity
 ---
 
 # OutSystems Cloud certificate rotation
