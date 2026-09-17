@@ -18,6 +18,8 @@ outsystems-tools:
   - configuration tool
 coverage-type:
   - unblock
+topic:
+  - fix-registration-mismatch
 ---
 
 # Unable to register the Front-end Server. The server's connection string is different from the Deployment Controller's connection string

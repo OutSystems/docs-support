@@ -16,6 +16,8 @@ outsystems-tools:
   - lifetime
 coverage-type:
   - unblock
+topic:
+  - fix-streaming-unimplemented
 ---
 
 # OS-DP-STREAM-50001

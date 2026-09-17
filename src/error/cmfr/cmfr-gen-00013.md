@@ -17,6 +17,8 @@ outsystems-tools:
   - service studio
 coverage-type:
   - unblock
+topic:
+  - fix-userid-groupid-conflict
 ---
 
 # OS-CMFR-GEN-00013

@@ -16,6 +16,8 @@ outsystems-tools:
   - case management framework
 coverage-type:
   - unblock
+topic:
+  - update-case-status
 ---
 
 # OS-CMFR-GEN-00020

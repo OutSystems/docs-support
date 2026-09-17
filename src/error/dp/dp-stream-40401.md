@@ -17,6 +17,8 @@ outsystems-tools:
   - lifetime
 coverage-type:
   - unblock
+topic:
+  - fix-streaming-40401
 ---
 
 # OS-DP-STREAM-40401
