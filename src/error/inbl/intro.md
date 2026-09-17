@@ -1,6 +1,7 @@
 ---
 summary: Integration Builder errors in OutSystems 11 (O11) reference covering causes, impact, and fixes for each error type.
-tags: integration builder, error handling, technical support, troubleshooting, application development
+tags:
+  - Troubleshooting
 locale: en-us
 guid: 6d78a021-1ab8-4144-8636-6273c18ad1db
 app_type: traditional web apps, mobile apps, reactive web apps

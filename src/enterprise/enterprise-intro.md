@@ -5,7 +5,11 @@ app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
 figma:
 summary: OutSystems 11 (O11) enterprise capabilities, including scalability, integrations, and deployment strategies for large-scale application development.
-tags: enterprise solutions, platform scalability, application development, deployment strategies, integration capabilities
+tags:
+  - Deploy
+  - Infrastructure
+  - Platform Server
+  - Troubleshooting
 audience:
   - Tech lead
   - Architect
