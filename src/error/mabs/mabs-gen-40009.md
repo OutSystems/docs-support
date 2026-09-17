@@ -18,6 +18,8 @@ outsystems-tools:
   - service studio
 coverage-type:
   - unblock
+topic:
+  - min-sdk-incompatibility-error
 ---
 
 # OS-MABS-GEN-40009

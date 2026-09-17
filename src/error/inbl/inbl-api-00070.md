@@ -15,6 +15,8 @@ outsystems-tools:
   - service center
 coverage-type:
   - unblock
+topic:
+  - fix-internal-service-error
 ---
 
 # OS-INBL-API-00070

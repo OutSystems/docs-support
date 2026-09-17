@@ -15,6 +15,8 @@ outsystems-tools:
   - integration builder
 coverage-type:
   - unblock
+topic:
+  - fix-aad-update-error
 ---
 
 # OS-INBL-API-00028

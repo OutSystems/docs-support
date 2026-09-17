@@ -17,6 +17,8 @@ outsystems-tools:
   - integration builder
 coverage-type:
   - unblock
+topic:
+  - fix-salesforce-token-error
 ---
 
 # OS-INBL-API-00050

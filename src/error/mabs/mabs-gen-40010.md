@@ -5,6 +5,8 @@ tags:
   - Mobile app
   - Plugins
   - Troubleshooting
+topic:
+  - mabs-build-errors
 guid: 01eaf9bb-abf4-40ef-862d-92541ac78355
 locale: en-us
 app_type: mobile apps
