@@ -14,6 +14,8 @@ outsystems-tools:
   - integration builder
 coverage-type:
   - unblock
+topic:
+  - fix-missing-fields
 ---
 
 # OS-INBL-GEN-50028

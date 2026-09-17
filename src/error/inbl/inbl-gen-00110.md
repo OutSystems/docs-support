@@ -15,6 +15,8 @@ outsystems-tools:
   - service studio
 coverage-type:
   - unblock
+topic:
+  - fix-recursive-refs
 ---
 
 # OS-INBL-GEN-00110

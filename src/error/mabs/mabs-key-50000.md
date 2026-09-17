@@ -17,6 +17,8 @@ outsystems-tools:
   - mabs
 coverage-type:
   - unblock
+topic:
+  - mabs-build-errors
 ---
 
 # OS-MABS-KEY-50000
