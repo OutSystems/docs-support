@@ -7438,6 +7438,35 @@ knowledge-needs:
       description: Wants to navigate the ODC Studio IDE as a newcomer by understanding what
         each major area of the interface is for, so they can move through the
         tool without getting blocked by layout or navigation friction.
+    - name: ODC Studio commands
+      id: odc-studio-commands
+      description: 'Wants to run ODC Studio command-line switches from the installation
+        directory by prefixing each command with `.\odcstudio.exe`, including
+        `-create`, so that they can execute supported CLI tasks from Windows
+        Command Prompt or PowerShell.'
+    - name: Compare locally saved apps
+      id: compare-locally-saved-apps
+      description: 'Wants to compare two locally saved apps with `-diff`, so
+        that they can review differences from the command line.'
+    - name: Merge locally saved apps
+      id: merge-locally-saved-apps
+      description: 'Wants to merge two locally saved apps with `-merge`, so
+        that they can attempt an automatic merge from the command line.'
+    - name: Open remote apps
+      id: open-remote-apps
+      description: 'Wants to open a remote app with `-openModuleFromUrl`, so
+        that they can manage apps from the command line when working with
+        remote locations.'
+    - name: Refresh local apps
+      id: refresh-local-apps
+      description: 'Wants to refresh a local app with `-refresh`, so that they
+        can manage apps from the command line when working with local
+        app updates.'
+    - name: Recover local apps
+      id: recover-local-apps
+      description: 'Wants to recover a local app with `-recover`, so that they
+        can manage apps from the command line when working with corrupted
+        `.oml` files.'
     - name: Get diagnostics report
       id: diagnostics-report
       description: Wants to obtain and send a diagnostics report to OutSystems
@@ -9252,6 +9281,14 @@ knowledge-needs:
         web blocks, and related data structures and static entities, so that
         they can implement push notification and deep-linking functionality in
         an O11 mobile app using this plugin version.
+      subtopics:
+      - name: Cloud Messaging actions
+        id: cloud-messaging-actions
+        description: Wants to implement push notification behavior in an ODC mobile app
+          using the Firebase Cloud Messaging plugin client actions and blocks, by
+          registering devices, retrieving tokens, managing topic subscriptions,
+          handling notification clicks and custom actions, and configuring notification
+          behavior, so that the app responds correctly to incoming notifications.
     - name: Cloud Messaging APIs
       id: cloud-messaging-apis
       description: Wants to look up the deprecated Cloud Messaging Configurator REST
@@ -10934,6 +10971,12 @@ knowledge-needs:
         configurations, by retrying the operation and escalating to
         OutSystems Support if the problem persists, so that the mobile
         compilation and native mobile build succeed.'
+    - name: Shutdown reasons
+      id: appshield-shutdown-reasons
+      description: 'Wants to map AppShield shutdown reason codes from Android crash logs
+        and iOS ExitOnURL values to the documented reason when AppShield closes
+        the app because it detects a security threat, so that they can identify
+        why the app exited.'
   - name: Custom plugin development
     id: custom-plugin-development
     subtopics:
@@ -11024,6 +11067,13 @@ knowledge-needs:
         Capacitor plugin after the plugin package is ready, so that ODC mobile
         app developers can call the plugin through reusable OutSystems
         elements instead of hand-writing JavaScript integration code.
+  - name: App lifecycle handling
+    id: app-lifecycle-transitions
+    description: Wants to react to foreground, background, resume, and pause
+      transitions in an ODC mobile app by using the On Application Resume
+      event for resume handling and a JavaScript pause listener for
+      background handling, so that lifecycle-specific logic runs in the
+      correct layer.
   - name: Deep linking
     id: deep-linking
     subtopics:
