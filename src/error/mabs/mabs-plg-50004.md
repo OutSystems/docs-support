@@ -18,6 +18,8 @@ outsystems-tools:
   - service center
 coverage-type:
   - unblock
+topic:
+  - mabs-build-errors
 ---
 
 # OS-MABS-PLG-50004

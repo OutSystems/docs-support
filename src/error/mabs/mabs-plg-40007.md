@@ -17,6 +17,8 @@ outsystems-tools:
   - service studio
 coverage-type:
   - unblock
+topic:
+  - fix-ios-deployment-target
 ---
 
 # OS-MABS-PLG-40007

@@ -18,6 +18,8 @@ outsystems-tools:
   - service center
 coverage-type:
   - unblock
+topic:
+  - cordova-bootstrap-error
 ---
 
 # OS-MABS-PLF-50000

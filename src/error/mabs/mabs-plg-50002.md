@@ -15,6 +15,8 @@ outsystems-tools:
   - none
 coverage-type:
   - unblock
+topic:
+  - plugin-source-url-error
 ---
 
 # OS-MABS-PLG-50002

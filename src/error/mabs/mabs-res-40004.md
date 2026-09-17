@@ -3,6 +3,8 @@ summary: OS-MABS-RES-40004 error occurs when MABS times out waiting for resource
 tags:
   - Mobile app
   - Troubleshooting
+topic:
+  - resource-load-timeout-error
 guid: 6837f7d5-defe-42c9-b1e9-19253bf2fc7c
 locale: en-us
 app_type: mobile apps

@@ -14,6 +14,8 @@ outsystems-tools:
   - none
 coverage-type:
   - unblock
+topic:
+  - fetch-resources-error
 ---
 
 # OS-MABS-RES-40005
