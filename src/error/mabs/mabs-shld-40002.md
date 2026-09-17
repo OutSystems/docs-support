@@ -16,6 +16,8 @@ outsystems-tools:
   - forge
 coverage-type:
   - unblock
+topic:
+  - changed-appshield-config
 ---
 
 # OS-MABS-SHLD-40002

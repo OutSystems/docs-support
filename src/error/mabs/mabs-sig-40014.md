@@ -15,6 +15,8 @@ outsystems-tools:
   - none
 coverage-type:
   - unblock
+topic:
+  - keystore-alias-password-error
 ---
 
 # OS-MABS-SIG-40014

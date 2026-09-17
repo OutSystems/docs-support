@@ -15,6 +15,8 @@ outsystems-tools:
   - service studio
 coverage-type:
   - unblock
+topic:
+  - provisioning-format-error
 ---
 
 # OS-MABS-SIG-40007

@@ -19,6 +19,8 @@ outsystems-tools:
   - service center
 coverage-type:
   - unblock
+topic:
+  - resource-processing-error
 ---
 
 # OS-MABS-RES-50001

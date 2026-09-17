@@ -16,6 +16,8 @@ outsystems-tools:
   - service studio
 coverage-type:
   - unblock
+topic:
+  - certificate-password-error
 ---
 
 # OS-MABS-SIG-40003
