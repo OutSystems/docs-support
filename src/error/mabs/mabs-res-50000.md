@@ -17,6 +17,8 @@ outsystems-tools:
   - service center
 coverage-type:
   - unblock
+topic:
+  - mabs-build-errors
 ---
 
 # OS-MABS-RES-50000

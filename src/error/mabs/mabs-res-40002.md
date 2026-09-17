@@ -15,6 +15,8 @@ outsystems-tools:
   - service studio
 coverage-type:
   - unblock
+topic:
+  - ssl-pinning-config-error
 ---
 
 # OS-MABS-RES-40002

@@ -16,6 +16,8 @@ outsystems-tools:
   - service studio
 coverage-type:
   - unblock
+topic:
+  - keystore-alias-cert-error
 ---
 
 # OS-MABS-SIG-40005
