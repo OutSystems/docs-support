@@ -576,6 +576,13 @@ knowledge-needs:
         reactive SPAs differ from traditional web models, so they can map Java
         web app concepts and client-side logic to OutSystems apps when choosing
         an app model.
+    - name: Application layers overview
+      id: application-layers-overview
+      description: Wants to understand how OutSystems organizes an application
+        into Data, Logic, and Interface layers, and how those layers map to
+        Java persistence, business logic, and presentation layers, so they can
+        place each concern in the correct layer when building an OutSystems
+        app.
   - name: Modules
     id: modules
     subtopics:
