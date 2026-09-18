@@ -82,6 +82,13 @@ knowledge-needs:
         on a condition, by using If and Switch nodes in Service Studio, in
         OutSystems 11 (O11) apps, so that different logic paths run depending
         on runtime values.
+    - name: Calculation and algorithm examples
+      id: calculation-and-algorithm-examples
+      subtopics:
+      - name: Calculate factorial
+        id: calculate-factorial
+        description: Wants to implement a factorial calculation in a server
+          action, so that a button click returns the factorial for a number.
     - name: Conditional paths (ODC)
       id: create-conditional-paths-odc
       description: Wants to branch logic execution in an action based on a
@@ -4167,6 +4174,9 @@ knowledge-needs:
       id: changing-endpoints
     - name: Consume and refresh methods
       id: consume-refresh-methods
+    - name: Write SOAP data
+      id: write-soap-data
+      description: 'Wants to create and update contact records through a consumed SOAP web service by loading an existing contact with GetContact when the Email input parameter is set, calling CreateContact when it is empty, and saving the form data back to the external system, so that users can maintain contacts in the SOAP service.'
     - name: Show webservice errors
       id: show-webservice-errors
       description: Wants to handle the outcome of a webservice method call in the
@@ -8871,6 +8881,22 @@ knowledge-needs:
         request and response formatting, and error codes, so that custom
         or third-party models can be called from ODC Studio like natively
         supported models.
+    - name: Add custom AI model
+      id: add-custom-ai-model
+      description: Wants to add a custom AI model in the AI Agent Builder app by
+        opening Configurations, selecting Custom connection, entering the model
+        details, adding endpoints and authentication headers, and saving the
+        configuration, so that the app can call a custom or third-party LLM.
+    - name: Configure Amazon Bedrock
+      id: configure-amazon-bedrock
+      description: Wants to request access to Amazon Bedrock Claude foundation models,
+        create an IAM user, and assign the minimum permissions needed to use the
+        model in AI Agent Builder, so they can set up the model connection.
+    - name: Configure Azure OpenAI
+      id: configure-azure-openai
+      description: Wants to create and deploy an Azure OpenAI service, retrieve the
+        API keys and endpoint, and prepare them for AI Agent Builder, so that they
+        can configure an Azure OpenAI model connection.
     - name: Search services for RAG
       id: search-services-rag
       description: Wants to connect ODC apps to external knowledge bases
@@ -8885,6 +8911,12 @@ knowledge-needs:
           Storage, upload files, build an index, and retrieve the endpoint,
           key, and index name, so that they can add the source to AI Agent
           Builder.
+      - name: Configure Amazon Kendra
+        id: configure-amazon-kendra
+        description: Wants to create an Amazon Kendra index backed by Amazon S3,
+          upload source data, configure the data source, and retrieve the
+          details needed to add the source to AI Agent Builder, so that they
+          can ground agents on Amazon Kendra content.
     - name: Add Azure AI Search
       id: add-azure-ai-search-data-source
       description: Wants to add an Azure AI Search data source in the AI
@@ -11553,6 +11585,11 @@ knowledge-needs:
         Center and correctly allowlist them on their firewall instead of
         the load balancer's IP, so that outgoing connections to external
         services through the firewall aren't blocked.
+    - name: Allowlist ODC public IPs
+      id: allowlist-odc-public-ips
+      description: Wants to identify which ODC public IP addresses to allowlist by region
+        when private network endpoints need to accept traffic from ODC services,
+        so that those endpoints can receive the correct ODC traffic.
     - name: Allowlist VPN IP range
       id: allowlist-vpn-private-ip-range
       description: Wants to allowlist the full private IP range of their
