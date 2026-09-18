@@ -17,6 +17,8 @@ outsystems-tools:
   - lifetime
 coverage-type:
   - unblock
+topic:
+  - ssl-domain-errors
 ---
 
 # Possible errors when validating your SSL domain certificate

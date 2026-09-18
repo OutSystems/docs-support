@@ -16,6 +16,8 @@ outsystems-tools:
   - service center
 coverage-type:
   - unblock
+topic:
+  - troubleshoot-infra-issues
 ---
 
 # Infrastructure management

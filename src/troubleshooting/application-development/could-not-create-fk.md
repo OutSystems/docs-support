@@ -21,6 +21,10 @@ outsystems-tools:
 coverage-type:
   - unblock
 isautopublish: true
+topic:
+  - fix-foreign-key-data
+  - review-delete-rules
+  - troubleshoot-fk-timeout
 ---
 
 # Troubleshoot Could not create Foreign Key errors during deployment
