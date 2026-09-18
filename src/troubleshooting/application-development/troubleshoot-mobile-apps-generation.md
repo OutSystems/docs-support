@@ -20,6 +20,9 @@ outsystems-tools:
   - forge
 coverage-type:
   - unblock
+topic:
+  - access-mabs-generation-log
+  - mabs-build-errors
 ---
 
 # Troubleshooting the mobile apps generation

@@ -16,6 +16,10 @@ coverage-type:
   - unblock
   - understand
   - apply
+topic:
+  - document-forge-asset
+  - export-forge-asset
+  - submit-asset-to-forge
 ---
 
 # Sharing a project

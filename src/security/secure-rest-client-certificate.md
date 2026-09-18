@@ -16,6 +16,8 @@ outsystems-tools:
   - integration builder
 coverage-type:
   - apply
+topic:
+  - authenticate-rest-client-cert
 ---
 
 # Secure Rest APIs with client side authentication

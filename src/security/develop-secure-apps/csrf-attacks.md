@@ -19,6 +19,8 @@ outsystems-tools:
 coverage-type:
   - understand
   - evaluate
+topic:
+  - prevent-csrf-attacks
 ---
 
 # Protecting OutSystems apps from Cross Site Request Forgery attacks

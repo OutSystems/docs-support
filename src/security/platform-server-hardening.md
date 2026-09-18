@@ -23,6 +23,8 @@ outsystems-tools:
 coverage-type:
   - evaluate
   - apply
+topic:
+  - platform-server-hardening
 ---
 
 # OutSystems Platform Server hardening
