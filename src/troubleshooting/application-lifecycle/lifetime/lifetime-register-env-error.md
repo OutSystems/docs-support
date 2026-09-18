@@ -15,6 +15,8 @@ outsystems-tools:
   - lifetime
 coverage-type:
   - unblock
+topic:
+  - env-registration-error
 ---
 
 # Error registering an environment in LifeTime

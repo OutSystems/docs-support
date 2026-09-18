@@ -17,6 +17,8 @@ outsystems-tools:
   - configuration tool
 coverage-type:
   - unblock
+topic:
+  - restore-console-access
 ---
 
 # Error accessing management consoles - You are not authorized to view this page

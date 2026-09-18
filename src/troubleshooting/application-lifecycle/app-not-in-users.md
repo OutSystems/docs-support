@@ -16,6 +16,8 @@ outsystems-tools:
   - service studio
 coverage-type:
   - unblock
+topic:
+  - users-app-visibility
 ---
 
 # Application is not present in the Users app

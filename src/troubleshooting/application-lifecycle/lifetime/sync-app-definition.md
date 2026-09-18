@@ -16,6 +16,8 @@ outsystems-tools:
   - lifetime
 coverage-type:
   - unblock
+topic:
+  - sync-app-definition
 ---
 
 # Synchronize app definition

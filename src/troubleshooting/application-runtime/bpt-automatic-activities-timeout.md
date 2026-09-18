@@ -18,6 +18,8 @@ outsystems-tools:
   - service studio
 coverage-type:
   - unblock
+topic:
+  - fix-bpt-activity-timeout
 ---
 
 # BPT - Automatic Activities Timeout
