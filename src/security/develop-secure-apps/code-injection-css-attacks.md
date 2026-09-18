@@ -16,6 +16,9 @@ outsystems-tools:
   - service studio
 coverage-type:
   - apply
+topic:
+  - encode-custom-html-javascript
+  - injection-attack-types
 ---
 
 # Protecting OutSystems apps from code injection / Cross Site Scripting attacks

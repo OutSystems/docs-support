@@ -15,6 +15,9 @@ outsystems-tools:
   - none
 coverage-type:
   - understand
+topic:
+  - extract-pe-data-rest-api
+  - pe-infrastructure-limits
 ---
 
 # Personal environment hosting infrastructure under the hood

@@ -16,6 +16,8 @@ outsystems-tools:
   - workflow builder
 coverage-type:
   - unblock
+topic:
+  - wfb-field-label-error
 ---
 
 # OS-WFBL-CONF-00001

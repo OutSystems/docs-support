@@ -14,6 +14,8 @@ outsystems-tools:
   - service studio
 coverage-type:
   - apply
+topic:
+  - back-up-trial-apps
 ---
 
 # Backing up and continuing work on your apps at the end of the trial

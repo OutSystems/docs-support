@@ -11,6 +11,9 @@ figma: https://www.figma.com/design/UXA74OsZxSIzLLsjhvNMjC/Release-Notes?node-id
 coverage-type:
   - remember
 topic:
+  - install-o11-releases
+  - o11-lifecycle-overview
+  - update-docs-cadence
 audience:
   - Architect
   - Platform administrator
