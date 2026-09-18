@@ -20,6 +20,10 @@ outsystems-tools:
 coverage-type:
   - apply
   - unblock
+topic:
+  - async-processes-basics
+  - connect-process-ui
+  - timer-overview
 ---
 
 # Dealing with slow integrations triggered by a screen action or by a process

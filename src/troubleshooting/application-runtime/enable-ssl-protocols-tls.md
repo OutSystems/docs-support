@@ -17,6 +17,8 @@ outsystems-tools:
 coverage-type:
   - apply
   - unblock
+topic:
+  - enable-tls-protocols
 ---
 
 # Enable SSL for your integrations - TLS 1.1 and TLS 1.2

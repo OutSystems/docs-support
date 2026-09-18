@@ -18,6 +18,8 @@ outsystems-tools:
 coverage-type:
   - apply
   - unblock
+topic:
+  - fix-wia-negotiate-login
 ---
 
 # Issues logging in with Integrated Authentication in Internet Explorer or Edge

@@ -16,6 +16,8 @@ outsystems-tools:
   - service studio
 coverage-type:
   - unblock
+topic:
+  - prevent-entity-data-loss
 ---
 
 # Entities lose data after deployment

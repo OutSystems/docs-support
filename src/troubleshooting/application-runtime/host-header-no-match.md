@@ -16,6 +16,8 @@ outsystems-tools:
   - service studio
 coverage-type:
   - unblock
+topic:
+  - host-header-mismatch
 ---
 
 # Troubleshooting error 503 - Host header does not match

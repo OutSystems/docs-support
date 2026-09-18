@@ -19,6 +19,8 @@ outsystems-tools:
   - forge
 coverage-type:
   - unblock
+topic:
+  - data-grid-known-issues
 ---
 
 # Known issues with the Data Grid component for Reactive Web apps
