@@ -7297,6 +7297,13 @@ knowledge-needs:
       id: screen-scaffolding
     - name: Create screen from screen template
       id: screen-template
+    - name: Create screen templates
+      id: create-screen-templates
+      description: Wants to create custom Screen Templates in a Custom Screen
+        Templates Module, add metadata and a preview image, choose whether to
+        bootstrap the template with content or start empty, and publish the
+        module so other developers can create reusable screens with compatible
+        themes, generic prompts, shared logic, and data replacement support.
     - name: Set screen access
       id: set-screen-access
       description: Wants to configure a screen's Accessible by property to Everyone in ODC Studio so the screen is available to all users during initial app setup.
