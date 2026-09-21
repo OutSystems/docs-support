@@ -1,0 +1,35 @@
+---
+isautopublish: true
+pageprivacy: semi-private
+---
+
+<h2 id="platform_server_11.44.0" >Platform Server 11.44.0</h2>
+<div class="info"><p>This is a preliminary version of the document.</p></div>
+
+
+<style>.cattag {background: #f4f2ff; color: #6a6581; padding: 4px 10px;}</style>
+<h3 id="new_in_platform_server_11.44.0" >New in Platform Server 11.44.0</h3>
+<ul>
+<li>Removed support for SQL Server 2016 and compatibility level 130. This applies to the platform database, as well as external databases. (R11BCT-508)</li>
+<li>Updated System.Security.Cryptography.Xml library bundled with the platform from version 10.0.8 to version 10.0.10. (R11BCT-559)</li>
+<li>Upgraded Swagger-UI dependencies, addressing Security Vulnerabilites. (R11DT-4120)</li>
+</ul>
+<h3 id="bug_fixing_platform_server_11.44.0" >Bug Fixing</h3>
+<ul>
+<li>You can now use the Documentation = No setting in your Exposed REST APIs to also hide https://hostname/ModuleName/rest/RESTAPI/swagger.json and the REST API documentation page. (RPM-1378) <span class="cattag">Application Runtime</span>  <span class="cattag">Logic Execution</span> </li>
+<li>Fixed an issue in Service Center that caused a disabled server to be re-enabled after saving its configuration. This occurred even when no changes were made to the server settings. The 'Save' button now only saves the server configuration without changing its enabled/disabled status, and is only enabled when there are unsaved changes. (RPM-2861) <span class="cattag">Application Lifecycle</span>  <span class="cattag">Service Center</span> </li>
+<li>Fixed an issue that caused Weekly Active Users (WAU) and monthly telemetry metrics to be missing from the Customer Portal and Compass. This occurred when telemetry processing exceeded timeout thresholds due to accumulated visitor tracking records in the platform's database. The underlying data cleanup mechanism has been fixed to prevent future occurrences. (RPM-6814) <span class="cattag">Application Lifecycle</span>  <span class="cattag">Service Center</span> </li>
+<li>Fixed an issue that caused the preview of submitted App Feedback to render without its original styling. This occurred when viewing feedback captured through App Feedback, because same-origin and relative resources were being removed together with the external ones. Now, the preview preserves same-origin, relative, and allowed-host resources, while resources from external domains remain blocked. You can add allowed hosts with new ECT_Provider Site Property AllowedHosts. (RPM-6916) <span class="cattag">Application Lifecycle</span>  <span class="cattag">App Feedback Backoffice / ECT</span> </li>
+<li>Fixes crash on Configuration Tool GUI when SQL Server database is configured with Windows authentication and the logged user is not the one configured as the Admin service account (RPM-7093) <span class="cattag">Infrastructure Management</span>  <span class="cattag">Platform Configuration</span> </li>
+<li>Fixed an issue where browser Content Security Policy (CSP) violation reports were logged as errors when they arrived as a single report instead of a list. (RPM-7112) <span class="cattag">Application Runtime</span>  <span class="cattag">System Components</span> </li>
+<li>Fixed a vulnerability that could lead to remote code execution via tampered OMLs. (RPM-6968) <span class="cattag">Publish Operation</span>  <span class="cattag">Compilation</span> </li>
+<li>Hardened C# code generation by validating and sanitizing custom email header names in module metadata during compilation, addressing a potential Remote Code Execution (RCE) vulnerability (RPM-6970) <span class="cattag">Publish Operation</span>  <span class="cattag">Compilation</span> </li>
+<li>Improved the security of the REST API compiler by implementing strict sanitization on incoming OML metadata, resolving a potential Remote Code Execution (RCE) vulnerability during application compilation. (RPM-6974) <span class="cattag">Publish Operation</span>  <span class="cattag">Compilation</span> </li>
+<li>Fixed a security vulnerability in OSP Tool and O11 Integration Studio that could lead to arbitrary files being written to the file system of the machine executing OSP Tool or O11 Integration Studio. (RPM-6996) <span class="cattag">Integration Studio</span> </li>
+<li>Fixed a vulnerability that could lead to remote code execution via tampered OMLs. (RPM-7024) <span class="cattag">Publish Operation</span>  <span class="cattag">Compilation</span> </li>
+<li>Fixed a security vulnerability that could lead to remote code execution of Frontend Platform servers. (RPM-7025) <span class="cattag">Publish Operation</span>  <span class="cattag">Compilation</span> </li>
+<li>Enhanced the security of Reactive Web error pages by safely processing error messages to prevent potential Cross-Site Scripting (XSS) vulnerabilities. (RPM-7053) <span class="cattag">Application Runtime</span> </li>
+<li>Fixed a vulnerability that could lead to remote code execution on Personal environments via tampered OMLs or extensions. (RPM-7068) <span class="cattag">Infrastructure Management</span>  <span class="cattag">SandBox Manager</span> </li>
+<li>HtmlSanitizer has been upgraded from version 9.0.892 to the latest patched version 9.1.982. This upgrade brings in a patched AngleSharp, which resolves CVE-2026-54570. The patched libraries ship as part of the Sanitization System Component. (RPM-7097) <span class="cattag">Application Runtime</span> </li>
+</ul>
+
