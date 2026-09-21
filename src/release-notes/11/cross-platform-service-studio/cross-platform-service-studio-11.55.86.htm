@@ -17,5 +17,6 @@ pageprivacy: public
 <ul>
 <li>Fixed an issue that caused a memory leak when switching between screens and blocks. (RDEV-10097)</li>
 <li>Fixed an issue that caused the debugger to fail on devices running iOS 26 and later. (RPM-6705) <span class="cattag">Service Studio</span>  <span class="cattag">Debugger</span> </li>
+<li>Hardened LDAP filter construction to ensure usernames are properly escaped before being used during end-users login flow with LDAP standard. Service Studio now warns when LDAP_Search, LDAP_Search_WithAuthenticationType, or LDAP_Login from the Authentication extension are used with a filter that may contain unescaped, unsafe user input, helping prevent LDAP injection. The warning clears once the filter is built safely with LdapFilterEncode. (RPM-6982) <span class="cattag">Application Runtime</span>  <span class="cattag">System Components</span> </li>
 </ul>
 
