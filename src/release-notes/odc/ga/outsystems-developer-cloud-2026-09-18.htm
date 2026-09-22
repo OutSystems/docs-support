@@ -10,6 +10,8 @@ pageprivacy: public
 <style>.cattag {background: #f4f2ff; color: #6a6581; padding: 4px 10px;}</style>
 <h3 id="new_in_outsystems_developer_cloud_2026-09-18" > New</h3>
 <ul>
+<li>Fixed an issue that caused an error when exposing O11 entities to ODC from a non-default database catalog.
+This occurred when using LifeTime to expose O11 entities that were published in a database catalog different from the main one configured in the registered environment. Now, the O11 Data Fabric connector correctly identifies where the O11 entities are stored, allowing the expose operation to complete successfully. (RDDFT-1764)</li>
 <li>Added support for consuming Oracle stored procedures, including those defined inside packages, that return primitive-type output parameters, when connecting to an external Oracle database. (RDDFT-326)</li>
 </ul>
 
