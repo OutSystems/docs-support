@@ -1,8 +1,16 @@
 ---
 isautopublish: true
-pageprivacy: semi-private
+pageprivacy: public
 ---
 
-<h2 id="outsystems_developer_cloud_new" >OutSystems Developer Cloud new</h2>
-<div class="info"><p>This is a preliminary version of the document.</p></div>
+<h2 id="outsystems_developer_cloud_2026-09-22" >OutSystems Developer Cloud 2026-09-22</h2>
+<div class="info"><p>Released on Sep 22, 2026</p></div>
+
+
+<style>.cattag {background: #f4f2ff; color: #6a6581; padding: 4px 10px;}</style>
+<h3 id="bug_fixing_outsystems_developer_cloud_2026-09-22" >Bug Fixing</h3>
+<ul>
+<li>Fixed an issue that caused an error when exposing O11 entities to ODC from a non-default database catalog.
+This occurred when using LifeTime to expose O11 entities that were published in a database catalog different from the main one configured in the registered environment. Now, the O11 Data Fabric connector correctly identifies where the O11 entities are stored, allowing the expose operation to complete successfully. (RDDFT-1870)</li>
+</ul>
 
