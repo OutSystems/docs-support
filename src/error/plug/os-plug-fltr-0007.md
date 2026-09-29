@@ -21,6 +21,7 @@ outsystems-tools:
 coverage-type:
   - unblock
 topic:
+  - resolve-missing-file
   - using-cordova-plugins
   - wrap-cordova-plugin
 isautopublish: true
