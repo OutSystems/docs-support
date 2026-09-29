@@ -22,8 +22,7 @@ outsystems-tools:
 coverage-type:
   - unblock
 topic:
-  - using-cordova-plugins
-  - wrap-cordova-plugin
+  - file-plugin-availability
 isautopublish: true
 helpids:
 ---

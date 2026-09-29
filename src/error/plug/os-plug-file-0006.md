@@ -21,8 +21,7 @@ outsystems-tools:
 coverage-type:
   - unblock
 topic:
-  - using-cordova-plugins
-  - wrap-cordova-plugin
+  - resolve-invalid-path
 isautopublish: true
 ---
 
