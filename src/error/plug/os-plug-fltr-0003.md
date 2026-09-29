@@ -1,5 +1,5 @@
 ---
-summary: The File Transfer plugin is not loaded. Make sure the mobile package is valid.
+summary: File Transfer plugin missing in the OutSystems platform, add it in O11 or ODC and generate a new mobile package.
 tags:
   - Android
   - Capacitor
