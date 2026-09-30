@@ -2238,6 +2238,43 @@ knowledge-needs:
         recommendations, so that they can identify the root cause of database
         performance problems such as CPU statistics, wait time statistics, and
         workload profile issues.
+    - name: Built-in DB optimizations
+      id: built-in-db-optimizations
+      description: Wants to understand the built-in database optimizations that
+        OutSystems applies automatically, so they can rely on the platform's
+        automatic performance behavior when it accesses the database.
+    - name: Maintain indexes for database queries
+      id: maintain-database-query-indexes
+      description: Wants to add indexes for frequently queried fields and
+        remove indexes that are no longer useful, so database queries remain
+        efficient without unnecessary index maintenance.
+    - name: Isolate large database fields
+      id: isolate-large-database-fields
+      description: Wants to isolate large text and binary fields from
+        frequently accessed data, so routine database queries transfer less
+        data.
+    - name: Avoid cross-server database joins
+      id: avoid-cross-server-database-joins
+      description: Wants to avoid joins across database servers when designing
+        data access, so database queries remain efficient.
+    - name: Cache repeatedly accessed database data
+      id: cache-repeatedly-accessed-database-data
+      description: Wants to use platform caching for data that is accessed
+        repeatedly, so the application makes fewer database calls.
+    - name: Follow database installation checklist
+      id: follow-database-installation-checklist
+      description: Wants to follow database-related recommendations in the
+        OutSystems installation checklist, so that database configuration
+        supports efficient query performance.
+    - name: Database sharding support
+      id: database-sharding-support
+      description: Wants to know whether OutSystems supports database sharding
+        when evaluating database scaling options for OutSystems applications.
+    - name: Read-only replica routing support
+      id: read-only-replica-routing-support
+      description: Wants to know whether OutSystems supports read-only replica
+        routing when evaluating database scaling options for OutSystems
+        applications.
   - name: Indexes
     id: indexes
     subtopics:
@@ -2295,6 +2332,9 @@ knowledge-needs:
       id: api-rate-limit
     - name: Customize headers
       id: customize-headers
+    - name: Add WS-Addressing
+      id: add-ws-addressing
+      description: Wants to add WS-Addressing elements to consumed SOAP requests in OutSystems 11 by creating an Integration Studio extension that changes the SOAP binding and calling it from the OnBeforeRequestAdvanced callback, so that the generated requests include the required WS-Addressing headers.
     - name: Choose log level
       id: choose-log-level
       description: Wants to choose the appropriate logging level for REST APIs and consumed
@@ -2318,6 +2358,15 @@ knowledge-needs:
         environment in Service Center and map the extension's logical database
         to it, so that applications using extension modules can read and write
         data from the correct external database after deployment.
+    - name: Grant publish access
+      id: grant-publish-access
+      description: Wants to let a developer publish an extension that uses a
+        database connection without changing its settings by assigning the
+        developer a default role with Change and Deploy Applications and
+        granting Publish on the connection in Service Center, with Full
+        Control required for the user who configures the extension to use the
+        connection, so they can publish the extension without needing to alter
+        connection settings.
     - name: Import external tables
       id: import-external-tables
       description: Wants to import entities from external tables or views in Integration Studio by selecting the database connection, selecting the tables and views, defining the logical database, reviewing the data types, and publishing the extension so that they create entities from external database data.
@@ -4971,6 +5020,9 @@ knowledge-needs:
       id: document-apis
     - name: Develop the logic of web services
       id: webservice-logic-dev
+    - name: Expose SOAP web service
+      id: expose-soap-web-service
+      description: Wants to expose a SOAP web service in OutSystems 11 by creating the service, adding methods, setting the module namespace, and checking the generated WSDL endpoint and bindings, so that clients can call the published service.
     - name: Test SOAP with SoapUI
       id: test-soap-soapui
       description: 'Wants to test a SOAP web service method built in OutSystems by installing
@@ -5095,6 +5147,16 @@ knowledge-needs:
         output parameter in the error details, locating the related
         complexType and maxOccurs definition in the WSDL, and adding a dummy
         element so the module publishes successfully, in OutSystems 11.'
+    - name: Unsupported SOAP imports
+      id: unsupported-soap-imports
+      description: Wants to identify SOAP WSDL constructs and action names that
+        Service Studio cannot import, so they know when a service needs WSDL
+        changes before consumption.
+    - name: Edit exported WSDL
+      id: edit-exported-wsdl
+      description: Wants to export SOAP definition files from Service Studio,
+        edit them locally to remove or replace unsupported WSDL constructs, and
+        re-import them, so the service can be consumed successfully.
     - name: Changing endpoints
       id: changing-endpoints
     - name: Consume and refresh methods
@@ -8563,6 +8625,38 @@ knowledge-needs:
       id: deploy-dependency-management
     - name: Deployment plan
       id: deployment-plan
+    - name: Understand environment filters
+      id: understand-environment-filters
+      description: Wants to understand what LifeTime environment filters are,
+        how they narrow the Applications list to a user-specific subset of
+        environments, and why smaller filters improve visibility and loading
+        performance, so that they can manage the right environments for a
+        given workflow.
+    - name: Create environment filters
+      id: create-environment-filters
+      description: Wants to create a LifeTime environment filter from the
+        Applications list screen by naming it and selecting environments, so
+        they can focus on the environments relevant to their work.
+    - name: Edit environment filters
+      id: edit-environment-filters
+      description: Wants to edit a LifeTime environment filter from the
+        Applications list screen by changing its name or selected environments,
+        so the filter remains useful as their needs change.
+    - name: Delete environment filters
+      id: delete-environment-filters
+      description: Wants to delete an obsolete LifeTime environment filter from
+        the Applications list screen, so it is no longer available as a view.
+    - name: Switch active environment filter
+      id: switch-active-environment-filter
+      description: Wants to switch the active LifeTime environment filter from
+        the Applications list screen or set a filter as the default view, so the
+        list shows the intended subset of environments.
+    - name: Configure filter screens
+      id: configure-filter-screens
+      description: Wants to enable or disable LifeTime environment filters
+        for the Application Details screen and the Create deployment plan
+        popup in LifeTime Settings, so that the same filter applies
+        consistently across related screens.
     - name: Deploy apps in LT/Portal
       id: deploy-apps-in-lt-portal
     - name: Deploy single module
@@ -9284,6 +9378,30 @@ knowledge-needs:
       publishing it to the LifeTime environment via Service Center, so that they
       can extend LifeTime with functionality tailored to their organization's
       governance or automation needs.
+    subtopics:
+    - name: Plugin development setup
+      id: plugin-development-setup
+      description: Wants to set up a LifeTime plugin development environment by
+        using the application development environment, importing and refreshing
+        sample data from LifeTime, and keeping LifeTime-only APIs, dependency
+        boundaries, and feature toggles in mind, so that plugin work uses the
+        right environment and data.
+    - name: Plugin production deploy
+      id: plugin-production-deploy
+      description: Wants to deploy a LifeTime plugin to the LifeTime environment
+        by packaging it as an .oap or .osp from Service Center and configuring
+        deployment permissions there, so that the final production deploy
+        succeeds.
+    - name: Plugin QA environment decision
+      id: plugin-qa-planning
+      description: Wants to decide whether a LifeTime plugin should use a QA
+        environment, so they can plan an appropriate environment for testing
+        the plugin.
+    - name: Plugin QA environment setup
+      id: plugin-qa-environment-setup
+      description: Wants to install the LifeTime SDK and sample data in a QA
+        environment for a LifeTime plugin and keep the sample data refreshed
+        periodically, so that QA reflects the plugin lifecycle.
   - name: Customize authentication plugin
     id: customize-authentication-plugin
     description: Wants to customize or implement an authentication plugin
@@ -14836,6 +14954,14 @@ knowledge-needs:
         API, and instead continue to use username and password or LT login
         authentication plugins, in OutSystems 11, so that they can identify
         exceptions when planning an External IdP rollout.
+    - name: Troubleshoot IdP errors
+      id: troubleshoot-idp-errors
+      description: Wants to troubleshoot common external IdP OIDC
+        configuration and sign-in errors in OutSystems 11 when activating
+        the provider or logging in through the IdP, by checking LifeTime
+        settings, proxy configuration, client secret and client ID values,
+        redirect URIs, and IdP response codes, so that they can restore
+        external IdP sign-in.
     - name: Change authentication provider
       id: change-authentication-provider
       description: Wants to change an OutSystems 11 environment's
@@ -14953,6 +15079,24 @@ knowledge-needs:
         Users component, and redirecting back to the original URL, so that the
         app can use an external identity system while keeping the local
         session.'
+    - name: Auth plugin methods
+      id: auth-plugin-methods
+      description: Wants to implement the OSPlatformAuthentication SOAP methods
+        for configurations, capabilities, activation, deactivation, testing,
+        and user authentication, so that the platform can manage the
+        authentication plugin and authenticate users through it.
+    - name: Auth plugin structures
+      id: auth-plugin-structures
+      description: Wants to define the PluginAPIStatus, Capability, and
+        PluginAPIConfigurationParameter structures and supported capability
+        values for an authentication plugin, so that the plugin returns the
+        expected inputs and outputs.
+    - name: SOAP auth plugin
+      id: soap-auth-plugin
+      description: Wants to implement an external authentication plugin as the
+        OSPlatformAuthentication SOAP web service and assign it as the
+        platform authentication provider, so that OutSystems can call the
+        plugin when activating it and when authenticating IT users.
     - name: External IDPs
       id: external-idps
     - name: Replace external IdP
@@ -15754,6 +15898,12 @@ knowledge-needs:
       id: assign-team-role
       description: Wants to assign roles within a LifeTime team, so that they can
         control team members' access across the applications included in the team.
+    - name: Delegate team permissions
+      id: delegate-team-permissions
+      description: Wants to let a LifeTime team manager add users and assign roles
+        within an IT team by creating a role with Manage Teams and Application Roles
+        and giving that role to the manager, so that the infrastructure manager can
+        delegate team permission management without giving broader access.
     - name: Create a team
       id: create-a-team
       description: Wants to create a LifeTime team, so that they can organize
@@ -16932,6 +17082,22 @@ knowledge-needs:
       description: Wants to start the demo infrastructure VMs and open the LifeTime console
         so they can prepare the infrastructure demo environment before running
         the demo steps.
+  - name: LifeTime management
+    id: lifetime-management
+    subtopics:
+    - name: LifeTime overview
+      id: lifetime-overview
+      description: Wants to understand LifeTime as the unified console for visibility over
+        all environments and for managing deployment, IT users, and security,
+        so that they can control the application lifecycle across their
+        infrastructure.
+    - name: Daily sync schedule
+      id: daily-sync-schedule
+      description: Wants to change LifeTime's daily synchronization schedule so it
+        runs during low activity, by editing the Daily Synchronization schedule
+        in LifeTime Settings for self-managed infrastructures or OutSystems
+        Cloud, so that LifeTime and the environments stay in sync at the
+        preferred time.
   - name: Add new cloud environment
     id: add-new-cloud-environment
     description: Wants to add a new Cloud environment to their OutSystems
@@ -17034,6 +17200,12 @@ knowledge-needs:
         option, receiving time-limited read-and-write credentials for ad-hoc
         troubleshooting, provided their LifeTime version supports the feature
         and they have an existing VPN or AWS Transit Gateway connection.
+    - name: Temporary backup access
+      id: temporary-backup-access
+      description: Wants to request temporary access to an OutSystems Cloud database
+        backup through a support case when they need to recover data from a
+        point in time within the backup retention window, so that they can
+        extract data or run tests against the snapshot.
     - name: Permanent database access
       id: permanent-database-access
       description: Wants to request a permanent database user for an OutSystems Cloud
@@ -17109,6 +17281,33 @@ knowledge-needs:
         application source code and compiled applications are stored, so
         that they can prepare the application server layer before
         deployment.
+    - name: Platform Server storage folders
+      id: platform-server-storage-folders
+      description: Wants to identify the main Platform Server folders that
+        consume disk space, what each folder stores, and which server
+        roles or environment types contain them, so they can understand
+        where disk usage comes from.
+    - name: Safe Platform Server folder deletion
+      id: platform-server-safe-folder-deletion
+      description: Wants to identify which Platform Server cache and
+        application folders can be deleted safely, so they can free disk
+        space without breaking the platform.
+    - name: Recover deleted Platform Server folder content
+      id: recover-platform-server-folder-content
+      description: Wants to know how to recover deleted content from
+        Platform Server folders, so they can restore files needed by the
+        platform.
+    - name: Platform Server automatic cleanup
+      id: platform-server-automatic-cleanup
+      description: Wants to know when the automatic cleanup service removes
+        old running and repository files, so they can understand when the
+        platform reclaims storage automatically.
+    - name: Platform Server disk sizing
+      id: platform-server-disk-sizing
+      description: Wants to estimate the disk space required for a
+        Platform Server factory based on application size and
+        environment characteristics, so they can provision enough
+        storage and avoid fragmentation.
     - name: Deploy All feature
       id: deploy-all-feature-upgrade
       description: Wants to use the optional modules deployment step (Deploy All)
