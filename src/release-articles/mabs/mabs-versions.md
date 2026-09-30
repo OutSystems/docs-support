@@ -46,7 +46,7 @@ You can get full support and bug fixes through OutSystems support requests mecha
 
 <div class="info" markdown="1">
 
-## Version 12.1
+### Version 12.1
 
 [See release notes](https://success.outsystems.com/support/release_notes/mobile_apps_build_service_versions/mabs_12_release_notes/mabs_12_1/)<br/>
 
@@ -106,7 +106,7 @@ You can select a deprecated MABS version when creating a mobile package, but you
 
 <div class="info" markdown="1">
 
-## Version 11.2
+### Version 11.2
 
 [See release notes](../../release-notes/mabs/11/11.2/11.2.md)<br/>
 
