@@ -1,10 +1,10 @@
 ---
-summary: Obsolete versions that are no longer available. 
+summary: Obsolete MABS versions for the OutSystems platform list retired releases, supported Android and iOS ranges, and release dates.
 coverage-type:
   - remember
 tags:
   - Android
-  - Cordova
+  - Forge
   - iOS
   - Lifecycle
   - Mobile app
@@ -19,6 +19,7 @@ platform-version: o11, odc
 figma: https://www.figma.com/design/UXA74OsZxSIzLLsjhvNMjC/Release-Notes?node-id=1296-2
 topic:
   - mabs-version-support
+isautopublish: true
 ---
 
 # Obsolete MABS versions
@@ -27,7 +28,63 @@ These versions are no longer available, and you can't create mobile packages usi
 
 <div class="info" markdown="1">
 
-## **Version 11.1**
+## Version 12.0
+
+[See release notes](../../release-notes/mabs/12/12.0/12.0.md)<br/>
+
+Released as Beta on October 15th, 2025 <br/>
+Released to GA on December 15th, 2025 <br/>
+Deprecation date July 24th, 2026 <br/>
+Obsolete date September 30, 2026 <br/>
+
+</div>
+
+<div class="warning" markdown="1">
+
+It's recommended to update all supported plugins to the latest version available on the Forge. For more details, refer to the **[release notes](https://success.outsystems.com/support/release_notes/mobile_apps_build_service_versions/mabs_12_release_notes/#mabs-version-12-0)**.
+
+</div>
+
+This version can run your apps on:
+
+<small>![Icon representing the Android operating system.](images/android-icon-ss.png "Android Operating System Icon") Android 9 to 16</small>
+
+<small>![Icon representing the iOS operating system.](images/ios-icon-ss.png "iOS Operating System Icon") iOS 15 to 26</small>
+
+**More details:**
+
+<table style="width: 632px; table-layout: fixed">
+    <tbody class="RegularLightText">
+        <tr>
+            <td style="width:156px;"></td>
+            <td style="width:231px;">Android</td>
+            <td>iOS</td>
+        </tr>
+        <tr>
+            <td style="vertical-align:middle;width:156px;">Target SDK</td>
+            <td style="width:231px;">16 (API Level 36)<br/></td>
+            <td>26.0<br/></td>
+        </tr>
+        <tr>
+            <td style="vertical-align:middle;width:156px;">Tools</td>
+            <td style="width:231px;">Build Tools 35.0.0<br/>
+            Gradle 8.14.3<br/>
+            Android Gradle Plugin 8.7.2<br/>
+            Kotlin 1.9.24<br/>
+            Cordova CLI 12.0.0<br/>
+            <a href="https://github.com/OutSystems/cordova-android/tree/outsystems/13.0.x">Cordova Android 13.0</a></td>
+            <td>Xcode 26.0<br/>
+            CocoaPods 1.16.2<br/>
+            Swift 6.2<br/>
+            Cordova CLI 12.0.0<br/>
+            <a href="https://github.com/OutSystems/cordova-ios/tree/outsystems/7.1.x">Cordova iOS 7.1</a></td>
+        </tr>
+    </tbody>
+</table>
+
+<div class="info" markdown="1">
+
+## Version 11.1
 
 [See release notes](../../release-notes/mabs/11/11.1/11.1.md)<br/>
 
@@ -46,9 +103,9 @@ It's recommended to update all supported plugins to the latest version available
 
 This version can run your apps on:
 
-<small>![Icon representing the Android operating system.](images/android-icon-ss.png "Android Icon") Android 9 to 15</small>
+<small>![Icon representing the Android operating system.](images/android-icon-ss.png "Android Operating System Icon") Android 9 to 15</small>
 
-<small>![Icon representing the iOS operating system.](images/ios-icon-ss.png "iOS Icon") iOS 15 to 18</small>
+<small>![Icon representing the iOS operating system.](images/ios-icon-ss.png "iOS Operating System Icon") iOS 15 to 18</small>
 
 **More details:**
 
@@ -83,7 +140,7 @@ This version can run your apps on:
 
 <div class="info" markdown="1">
 
-## **Version 10.0**
+## Version 10.0
 
 [See release notes](../../release-notes/mabs/10/10.0/10.0.md)<br/>
 
@@ -101,9 +158,9 @@ It's recommended to update all supported plugins to the latest version available
 
 This version can run your apps on:
 
-<small>![Icon representing the Android operating system.](images/android-icon-ss.png "Android Icon") Android 9 to 15</small>
+<small>![Icon representing the Android operating system.](images/android-icon-ss.png "Android Operating System Icon") Android 9 to 15</small>
 
-<small>![Icon representing the iOS operating system.](images/ios-icon-ss.png "iOS Icon") iOS 14 to 18</small>
+<small>![Icon representing the iOS operating system.](images/ios-icon-ss.png "iOS Operating System Icon") iOS 14 to 18</small>
 
 **More details:**
 
@@ -138,7 +195,9 @@ This version can run your apps on:
 
 <div class="warning" markdown="1">
 
-## **Version 11.0** - [See Release Notes](../../release-notes/mabs/11/11.0/11.0.md)<br/>
+## Version 11.0
+
+[See release notes](../../release-notes/mabs/11/11.0/11.0.md)<br/>
 
 Released as Beta on November 20th, 2024 <br/>
 Released to GA on January 22nd, 2025 <br/>
@@ -154,9 +213,9 @@ It's recommended to update all supported plugins to the latest version available
 
 This version can run your apps on:
 
-<small>![Icon representing the Android operating system.](images/android-icon-ss.png "Android Icon") Android 9 to 15</small>
+<small>![Icon representing the Android operating system.](images/android-icon-ss.png "Android Operating System Icon") Android 9 to 15</small>
 
-<small>![Icon representing the iOS operating system.](images/ios-icon-ss.png "iOS Icon") iOS 15 to 18</small>
+<small>![Icon representing the iOS operating system.](images/ios-icon-ss.png "iOS Operating System Icon") iOS 15 to 18</small>
 
 **More details:**
 
@@ -191,7 +250,9 @@ This version can run your apps on:
 
 <div class="warning" markdown="1">
 
-## **Version 9.0** - [See Release Notes](../../release-notes/mabs/9/9.0/9.0.md)<br/>
+## Version 9.0
+
+[See release notes](../../release-notes/mabs/9/9.0/9.0.md)<br/>
 
 Released on November 23, 2022<br/>
 Deprecated on April 29, 2024<br/>
@@ -206,9 +267,9 @@ It's recommended to update all supported plugins to the latest version available
 
 This version can run your apps on:
 
-<small>![Icon representing the Android operating system.](images/android-icon-ss.png "Android Icon") Android 8 (9 for ODC) to 14</small>
+<small>![Icon representing the Android operating system.](images/android-icon-ss.png "Android Operating System Icon") Android 8 (9 for ODC) to 14</small>
 
-<small>![Icon representing the iOS operating system.](images/ios-icon-ss.png "iOS Icon") iOS 13 to 17</small>
+<small>![Icon representing the iOS operating system.](images/ios-icon-ss.png "iOS Operating System Icon") iOS 13 to 17</small>
 
 **More details:**
 
@@ -243,7 +304,9 @@ This version can run your apps on:
 
 <div class="warning" markdown="1">
 
-## **Version 8.1** - [See Release Notes](mabs-8.md#mabs-version-8-1)<br/>
+## Version 8.1
+
+[See release notes](mabs-8.md#mabs-version-8-1)<br/>
 
 Released on April 6 2022 <br/>
 Deprecated on May 11 2023<br/>
@@ -251,7 +314,7 @@ Obsolete on January 29th 2024</div>
 
 This version can run your apps on:
 
-<small>![Icon representing the Android operating system.](images/android-icon-ss.png "Android Icon") Android 8 to 13 ![Icon representing the iOS operating system.](images/ios-icon-ss.png "iOS Icon") iOS 13 to 16</small>
+<small>![Icon representing the Android operating system.](images/android-icon-ss.png "Android Operating System Icon") Android 8 to 13 ![Icon representing the iOS operating system.](images/ios-icon-ss.png "iOS Operating System Icon") iOS 13 to 16</small>
 
 **More details:**
 
@@ -288,7 +351,9 @@ This version can run your apps on:
 
 <div class="warning" markdown="1">
 
-## **Version 5.2** - [See Release Notes](mabs-5.md#mabs-version-5-2)<br/>
+## Version 5.2
+
+[See release notes](mabs-5.md#mabs-version-5-2)<br/>
 
 <small>Released on Dec 26 2019<br/>
 Deprecated on May 20 2020<br/>
@@ -298,7 +363,7 @@ Obsolete on Aug 29 2023</small>
 
 This version can run your apps on:
 
-<small>![Icon representing the Android operating system.](images/android-icon-ss.png "Android Icon") Android 5.0 to 10.0 ![Icon representing the iOS operating system.](images/ios-icon-ss.png "iOS Icon") iOS 10.0 to 13.3</small>
+<small>![Icon representing the Android operating system.](images/android-icon-ss.png "Android Operating System Icon") Android 5.0 to 10.0 ![Icon representing the iOS operating system.](images/ios-icon-ss.png "iOS Operating System Icon") iOS 10.0 to 13.3</small>
 
 **More details:**
 
@@ -340,7 +405,9 @@ This version can run your apps on:
 
 <div class="warning" markdown="1">
 
-## **Version 7.2** - [See Release Notes](mabs-7.md#mabs-version-7-2)<br/>
+## Version 7.2
+
+[See release notes](mabs-7.md#mabs-version-7-2)<br/>
 
 <small>Released on Oct 7 2021<br/>
 Deprecated on Mar 24 2022<br/>
@@ -350,7 +417,7 @@ Obsolete on Feb 10 2023</small>
 
 This version can run your apps on:
 
-<small>![Icon representing the Android operating system.](images/android-icon-ss.png "Android Icon") Android 6 to 12 ![Icon representing the iOS operating system.](images/ios-icon-ss.png "iOS Icon") iOS 12 to 15</small>
+<small>![Icon representing the Android operating system.](images/android-icon-ss.png "Android Operating System Icon") Android 6 to 12 ![Icon representing the iOS operating system.](images/ios-icon-ss.png "iOS Operating System Icon") iOS 12 to 15</small>
 
 **More details:**
 
@@ -387,7 +454,9 @@ This version can run your apps on:
 
 <div class="warning" markdown="1">
 
-## **Version 8.0**  - [See Release Notes](mabs-8.md#mabs-version-8-0)<br/>
+## Version 8.0
+
+[See release notes](mabs-8.md#mabs-version-8-0)<br/>
 
 <small>Released on October 11 2021<br/>
 Deprecated on May 23 2022<br/>
@@ -397,7 +466,7 @@ Obsolete on Jul 25 2022</small>
 
 This version can run your apps on:
 
-<small>![Icon representing the Android operating system.](images/android-icon-ss.png "Android Icon") Android 8 to 12  ![Icon representing the iOS operating system.](images/ios-icon-ss.png "iOS Icon") iOS 13 to 15</small>
+<small>![Icon representing the Android operating system.](images/android-icon-ss.png "Android Operating System Icon") Android 8 to 12  ![Icon representing the iOS operating system.](images/ios-icon-ss.png "iOS Operating System Icon") iOS 13 to 15</small>
 
 **More details:**
 
@@ -434,7 +503,9 @@ This version can run your apps on:
 
 <div class="warning" markdown="1">
 
-## **Version 6.3** - [See Release Notes](mabs-6.md#mabs-version-6-3)<br/>
+## Version 6.3
+
+[See release notes](mabs-6.md#mabs-version-6-3)<br/>
 
 <small>Released on Sep 23 2020<br/>Deprecated on May 26 2021<br/>Obsolete on Jan 5 2022</small>
 
@@ -442,7 +513,7 @@ This version can run your apps on:
 
 This version can run your apps on:
 
-<small>![Icon representing the Android operating system.](images/android-icon-ss.png "Android Icon") Android 5.0 to 11.0 ![Icon representing the iOS operating system.](images/ios-icon-ss.png "iOS Icon") iOS 11.0 to 14.5</small>
+<small>![Icon representing the Android operating system.](images/android-icon-ss.png "Android Operating System Icon") Android 5.0 to 11.0 ![Icon representing the iOS operating system.](images/ios-icon-ss.png "iOS Operating System Icon") iOS 11.0 to 14.5</small>
 
 **More details:**
 
@@ -485,7 +556,9 @@ This version can run your apps on:
 
 <div class="warning" markdown="1">
 
-## **Version 7.1** - [See Release Notes](mabs-7.md#mabs-version-7-1)<br/>
+## Version 7.1
+
+[See release notes](mabs-7.md#mabs-version-7-1)<br/>
 
 <small>Released on Jun 16 2021<br/>
 Deprecated on Oct 07 2021<br/>
@@ -495,7 +568,7 @@ Obsolete on Dec 13 2021</small>
 
 This version can run your apps on:
 
-<small>![Icon representing the Android operating system.](images/android-icon-ss.png "Android Icon") Android 6.0 to 12.0 ![Icon representing the iOS operating system.](images/ios-icon-ss.png "iOS Icon") iOS 12.0 to 15.0</small>
+<small>![Icon representing the Android operating system.](images/android-icon-ss.png "Android Operating System Icon") Android 6.0 to 12.0 ![Icon representing the iOS operating system.](images/ios-icon-ss.png "iOS Operating System Icon") iOS 12.0 to 15.0</small>
 
 **More details:**
 
@@ -540,7 +613,9 @@ This version can run your apps on:
 
 <div class="warning" markdown="1">
 
-## **Version 7.0** - [See Release Notes](mabs-7.md#mabs-version-7-0)<br/>
+## Version 7.0
+
+[See release notes](mabs-7.md#mabs-version-7-0)<br/>
 
 <small>Released on Dec 09 2020<br/>
 Deprecated on Jul 14 2021<br/>
@@ -550,7 +625,7 @@ Obsolete on Sep 15 2021</small>
 
 This version can run your apps on:
 
-<small>![Icon representing the Android operating system.](images/android-icon-ss.png "Android Icon") Android 6.0 to 12.0 ![Icon representing the iOS operating system.](images/ios-icon-ss.png "iOS Icon") iOS 12.0 to 14.6</small>
+<small>![Icon representing the Android operating system.](images/android-icon-ss.png "Android Operating System Icon") Android 6.0 to 12.0 ![Icon representing the iOS operating system.](images/ios-icon-ss.png "iOS Operating System Icon") iOS 12.0 to 14.6</small>
 
 **More details:**
 
@@ -595,7 +670,9 @@ This version can run your apps on:
 
 <div class="warning" markdown="1">
 
-## **Version 6.2** - [See Release Notes](mabs-6.md#mabs-version-6-2)<br/>
+## Version 6.2
+
+[See release notes](mabs-6.md#mabs-version-6-2)<br/>
 
 <small>Released on Jun 08 2020<br/>Deprecated on Nov 03 2020<br/>Obsolete on Dec 21 2020</small>
 
@@ -603,7 +680,7 @@ This version can run your apps on:
 
 This version can run your apps on:
 
-<small>![Icon representing the Android operating system.](images/android-icon-ss.png "Android Icon") Android 5.0 to 11.0 ![Icon representing the iOS operating system.](images/ios-icon-ss.png "iOS Icon") iOS 11.0 to 14.0</small>
+<small>![Icon representing the Android operating system.](images/android-icon-ss.png "Android Operating System Icon") Android 5.0 to 11.0 ![Icon representing the iOS operating system.](images/ios-icon-ss.png "iOS Operating System Icon") iOS 11.0 to 14.0</small>
 
 **More details:**
 
@@ -648,7 +725,9 @@ This version can run your apps on:
 
 <div class="warning" markdown="1">
 
-## **Version 6.1** - [See Release Notes](mabs-6.md#mabs-version-6-1)<br/>
+## Version 6.1
+
+[See release notes](mabs-6.md#mabs-version-6-1)<br/>
 
 <small>Released on Feb 12 2020<br/>Deprecated on Aug 12 2020<br/>Obsolete on Sep 08 2020</small>
 
@@ -656,7 +735,7 @@ This version can run your apps on:
 
 This version can run your apps on:
 
-<small>![Icon representing the Android operating system.](images/android-icon-ss.png "Android Icon") Android 5.0 to 10.0 ![Icon representing the iOS operating system.](images/ios-icon-ss.png "iOS Icon") iOS 11.0 to 13.3</small>
+<small>![Icon representing the Android operating system.](images/android-icon-ss.png "Android Operating System Icon") Android 5.0 to 10.0 ![Icon representing the iOS operating system.](images/ios-icon-ss.png "iOS Operating System Icon") iOS 11.0 to 13.3</small>
 
 **More details:**
 
@@ -699,7 +778,9 @@ This version can run your apps on:
 
 <div class="warning" markdown="1">
 
-## **Version 6.0** - [See Release Notes](mabs-6.md#mabs-version-6-0)<br/>
+## Version 6.0
+
+[See release notes](mabs-6.md#mabs-version-6-0)<br/>
 
 <small>Released on Jan 02 2020<br/>Deprecated on Mar 06 2020<br/>Obsolete on May 07 2020</small>
 
@@ -707,7 +788,7 @@ This version can run your apps on:
 
 This version can run your apps on:
 
-<small>![Icon representing the Android operating system.](images/android-icon-ss.png "Android Icon") Android 5.0 to 10.0 ![Icon representing the iOS operating system.](images/ios-icon-ss.png "iOS Icon") iOS 11.0 to 13.3</small>
+<small>![Icon representing the Android operating system.](images/android-icon-ss.png "Android Operating System Icon") Android 5.0 to 10.0 ![Icon representing the iOS operating system.](images/ios-icon-ss.png "iOS Operating System Icon") iOS 11.0 to 13.3</small>
 
 **More details:**
 
@@ -750,7 +831,9 @@ This version can run your apps on:
 
 <div class="warning" markdown="1">
 
-## **Version 5.1** - [See Release Notes](mabs-5.md#mabs-version-5-1)<br/>
+## Version 5.1
+
+[See release notes](mabs-5.md#mabs-version-5-1)<br/>
 
 <small>Released on Nov 07 2019<br/>
 Deprecated on Jan 09 2020<br/>
@@ -760,7 +843,7 @@ Obsolete on Mar 09 2020</small>
 
 This version can run your apps on:
 
-<small>![Icon representing the Android operating system.](images/android-icon-ss.png "Android Icon") Android 5.0 to 10.0 ![Icon representing the iOS operating system.](images/ios-icon-ss.png "iOS Icon") iOS 10.0 to 13.3</small>
+<small>![Icon representing the Android operating system.](images/android-icon-ss.png "Android Operating System Icon") Android 5.0 to 10.0 ![Icon representing the iOS operating system.](images/ios-icon-ss.png "iOS Operating System Icon") iOS 10.0 to 13.3</small>
 
 **More details:**
 
@@ -802,7 +885,9 @@ This version can run your apps on:
 
 <div class="warning" markdown="1">
 
-## **Version 5.0** - [See Release Notes](mabs-5.md#mabs-version-5-0)<br/>
+## Version 5.0
+
+[See release notes](mabs-5.md#mabs-version-5-0)<br/>
 
 <small>Released on Jun 03 2019<br/>Deprecated on Dec 17 2019<br/>Obsolete on Feb 17 2020</small>
 
@@ -810,7 +895,7 @@ This version can run your apps on:
 
 This version can run your apps on:
 
-<small>![Icon representing the Android operating system.](images/android-icon-ss.png "Android Icon") Android 5.0 to 10.0 ![Icon representing the iOS operating system.](images/ios-icon-ss.png "iOS Icon") iOS 10.0 to 13.1</small>
+<small>![Icon representing the Android operating system.](images/android-icon-ss.png "Android Operating System Icon") Android 5.0 to 10.0 ![Icon representing the iOS operating system.](images/ios-icon-ss.png "iOS Operating System Icon") iOS 10.0 to 13.1</small>
 
 **More details:**
 
@@ -852,7 +937,9 @@ This version can run your apps on:
 
 <div class="warning" markdown="1">
 
-## **Version 4.2** - [See Release Notes](older-releases.md#mabs-version-4-2)<br/>
+## Version 4.2
+
+[See release notes](older-releases.md#mabs-version-4-2)<br/>
 
 <small>Released on Apr 08 2019<br/>Deprecated on Oct 01 2019<br/>Obsolete on Mar 02 2020</small>
 
@@ -860,7 +947,7 @@ This version can run your apps on:
 
 This version can run your apps on:
 
-<small>![Icon representing the Android operating system.](images/android-icon-ss.png "Android Icon") Android 4.4 to 9.0 ![Icon representing the iOS operating system.](images/ios-icon-ss.png "iOS Icon") iOS 10.0 to 13.0</small>
+<small>![Icon representing the Android operating system.](images/android-icon-ss.png "Android Operating System Icon") Android 4.4 to 9.0 ![Icon representing the iOS operating system.](images/ios-icon-ss.png "iOS Operating System Icon") iOS 10.0 to 13.0</small>
 
 **More details:**
 
@@ -902,7 +989,9 @@ This version can run your apps on:
 
 <div class="warning" markdown="1">
 
-## **Version 4.1** - [See Release Notes](older-releases.md#mabs-version-4-1)<br/>
+## Version 4.1
+
+[See release notes](older-releases.md#mabs-version-4-1)<br/>
 
 <small>Released on Mar 20 2019<br/>Deprecated on Jun 10 2019<br/>Obsolete on Aug 12 2019</small>
 
@@ -910,7 +999,7 @@ This version can run your apps on:
 
 This version can run your apps on:
 
-<small>![Icon representing the Android operating system.](images/android-icon-ss.png "Android Icon") Android 4.4 to 9.0 ![Icon representing the iOS operating system.](images/ios-icon-ss.png "iOS Icon") iOS 10.0 to 12.1</small>
+<small>![Icon representing the Android operating system.](images/android-icon-ss.png "Android Operating System Icon") Android 4.4 to 9.0 ![Icon representing the iOS operating system.](images/ios-icon-ss.png "iOS Operating System Icon") iOS 10.0 to 12.1</small>
 
 **More details:**
 
@@ -952,7 +1041,9 @@ This version can run your apps on:
 
 <div class="warning" markdown="1">
 
-## **Version 4.0** - [See Release Notes](older-releases.md#mabs-version-4-0)<br/>
+## Version 4.0
+
+[See release notes](older-releases.md#mabs-version-4-0)<br/>
 
 <small>Released on Jan 21 2019<br/>Deprecated on May 20 2019<br/>Obsolete on Jul 23 2019</small>
 
@@ -960,7 +1051,7 @@ This version can run your apps on:
 
 This version can run your apps on:
 
-<small>![Icon representing the Android operating system.](images/android-icon-ss.png "Android Icon") Android 4.4 to 9.0 ![Icon representing the iOS operating system.](images/ios-icon-ss.png "iOS Icon") iOS 10.0 to 12.1</small>
+<small>![Icon representing the Android operating system.](images/android-icon-ss.png "Android Operating System Icon") Android 4.4 to 9.0 ![Icon representing the iOS operating system.](images/ios-icon-ss.png "iOS Operating System Icon") iOS 10.0 to 12.1</small>
 
 **More details:**
 
@@ -1002,7 +1093,9 @@ This version can run your apps on:
 
 <div class="warning" markdown="1">
 
-## **Version 3.3** - [See Release Notes](older-releases.md#mabs-version-3-3)<br/>
+## Version 3.3
+
+[See release notes](older-releases.md#mabs-version-3-3)<br/>
 
 <small>Released on Dec 19 2018<br/>Deprecated on Nov 18 2019<br/>Obsolete on Jan 04 2021</small>
 
@@ -1010,7 +1103,7 @@ This version can run your apps on:
 
 This version can run your apps on:
 
-<small>![Icon representing the Android operating system.](images/android-icon-ss.png "Android Icon") Android 4.4 to 9.0 ![Icon representing the iOS operating system.](images/ios-icon-ss.png "iOS Icon") iOS 8.0 to 12.4</small>
+<small>![Icon representing the Android operating system.](images/android-icon-ss.png "Android Operating System Icon") Android 4.4 to 9.0 ![Icon representing the iOS operating system.](images/ios-icon-ss.png "iOS Operating System Icon") iOS 8.0 to 12.4</small>
 
 **More details:**
 
