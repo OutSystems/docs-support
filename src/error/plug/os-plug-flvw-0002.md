@@ -23,8 +23,8 @@ coverage-type:
   - apply
   - unblock
 topic:
-  - using-cordova-plugins
-  - wrap-cordova-plugin
+  - file-viewer-rebuild
+  - file-viewer-fallback
 isautopublish: true
 ---
 
