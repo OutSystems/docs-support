@@ -11780,6 +11780,24 @@ knowledge-needs:
         paths, app resources, or remote URLs in O11 mobile apps and PWAs,
         check plugin availability, and preview supported media on iOS, so that
         users can view supported files in the right platform context.
+    - name: File Viewer parameters
+      id: file-viewer-parameters
+      description: 'Wants to resolve the OS-PLUG-FLVW-0009 invalid-parameters
+        error by validating File Viewer inputs and using the required
+        `resources/` prefix for OpenDocumentFromResources and
+        PreviewMediaContentFromResources, so file and media content open
+        successfully.'
+    - name: Document open error
+      id: document-open-error
+      description: 'Wants to resolve the OS-PLUG-FLVW-0008 "Could not open the
+        document." error by retrying the open action, re-creating or
+        re-downloading corrupted or unsupported files, and opening a support
+        case if the problem persists, so the document opens successfully.'
+    - name: File Viewer URL
+      id: file-viewer-url
+      description: Wants to resolve the OS-PLUG-FLVW-0007 error by ensuring the
+        URL passed to the File Viewer action is non-empty before the action
+        runs, so the app opens or downloads the file successfully.
     - name: File Viewer resources
       id: file-viewer-resources
       description: Wants to add a file as an app resource and reference it with
