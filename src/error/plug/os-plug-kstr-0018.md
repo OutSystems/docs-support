@@ -23,7 +23,7 @@ coverage-type:
   - unblock
 topic:
   - using-cordova-plugins
-  - wrap-cordova-plugin
+  - keystore-browser-fallback
 isautopublish: true
 ---
 

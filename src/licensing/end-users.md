@@ -14,8 +14,8 @@ coverage-type:
   - remember
   - understand
 topic:
-  - user-types
-  - users-licensing
+  - configure-user-domains
+  - end-user-counting
 isautopublish: true
 outsystems-tools:
   - odc portal

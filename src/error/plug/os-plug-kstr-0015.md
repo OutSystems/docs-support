@@ -19,8 +19,7 @@ outsystems-tools:
 coverage-type:
   - unblock
 topic:
-  - using-cordova-plugins
-  - wrap-cordova-plugin
+  - keystore-access-error
 isautopublish: true
 ---
 
