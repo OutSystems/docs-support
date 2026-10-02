@@ -20,8 +20,7 @@ outsystems-tools:
 coverage-type:
   - unblock
 topic:
-  - using-cordova-plugins
-  - wrap-cordova-plugin
+  - missing-viewer-app
 isautopublish: true
 ---
 
