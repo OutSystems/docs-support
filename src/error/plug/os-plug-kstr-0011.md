@@ -20,7 +20,7 @@ coverage-type:
   - unblock
 topic:
   - using-cordova-plugins
-  - wrap-cordova-plugin
+  - keystore-unhandled-error
 isautopublish: true
 ---
 
