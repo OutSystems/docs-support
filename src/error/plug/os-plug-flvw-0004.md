@@ -22,7 +22,7 @@ coverage-type:
   - unblock
 topic:
   - using-cordova-plugins
-  - wrap-cordova-plugin
+  - file-viewer-actions
 isautopublish: true
 ---
 
