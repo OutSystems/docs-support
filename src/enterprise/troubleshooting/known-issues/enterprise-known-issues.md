@@ -1,5 +1,5 @@
 ---
-summary: Known issues for enterprise customers
+summary: OutSystems 11 (O11) enterprise known issues, with impact checks and resolution steps for mobile, reactive, and traditional web apps.
 coverage-type:
   - unblock
 tags:
