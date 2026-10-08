@@ -60,7 +60,7 @@ Personal Editions are usually available right away. In rare cases, high demand m
 
 **Can I invite my team to access my OutSystems Personal Edition?**
 
-Yes. The invite is done from the ODC portal, and users access the ODC portal from the invitation email. If they are already Community users, they input their Community credentials and access OutSystems. If not, they are redirected to the sign-up form before accessing the ODC portal.
+Yes. You send the invite from the ODC Portal, and users access the ODC Portal from the invitation email. If they are already Community users, they input their Community credentials and access OutSystems. If not, they are redirected to the sign-up form before accessing the ODC Portal.
 
 **What is included in the OutSystems Personal Edition?**
 
@@ -102,20 +102,20 @@ Yes, Agent Workbench is available for free for everyone in the OutSystems Person
 
 **Are AI trial models available in the OutSystems Personal Edition?**
 
-Yes. Trial models, Claude 3.7 Sonnet, and Amazon Nova Pro are supported by default in OutSystems Personal Edition to help prospects test Agent Workbench without needing their own AI models.Â  These trial AI Models have the following fixed usage limits and cannot be renewed:
+Yes. Trial models, Claude 3.7 Sonnet, and Amazon Nova Pro are supported by default in OutSystems Personal Edition to help prospects test Agent Workbench without needing their own AI models. These trial AI models have the following fixed usage limits and cannot be renewed:
 
-* Request Limits per Tenant: 1000
+* Request Limit per Tenant: 1,000
 
-* Request Limits per Tenant per Minute: 20
+* Request Limit per Tenant per Minute: 20
 
-* Token Limits per Tenant per min: 100k
+* Token Limit per Tenant per min: 100k
 
 * Token Limit per Tenant: 4M
 
 **What happens when I reach the limit of my Trial model when using an Agent?**
 
 Once the limit is reached, additional calls return an error. In the ODC Portal's AI models console, the trial card shows that the limit has been reached.
-How the error information reaches the agent's end user depends on your Agentic app design. The event is always logged and visible in the ODC Portal, on the Logs page.
+How the error information reaches the agent's end user depends on your agentic app design. The event is always logged and visible in the ODC Portal, on the Logs page.
 
 As described above, AI trial models cannot be renewed. If you have your own paid AI models, you can add them to your OutSystems Personal Edition.
 
@@ -145,7 +145,7 @@ No. The OutSystems Personal Edition is limited to one stage, the Development sta
 
 **Is there any limit on the number of users who can access the apps built with the Personal Edition?**
 
-Yes. Up to 100 users; however, we donâ€™t recommend exceeding dozens of users since these tenants are not ready for production loads, and the experience degrades.
+Yes. Up to 100 users; however, we don't recommend exceeding dozens of users because these tenants are not ready for production loads, and the experience degrades.
 
 **Are we retiring O11 Personal Edition?**
 
@@ -165,7 +165,7 @@ Yes. Although no direct migration between OutSystems Personal Editions is in pla
 
 **What's the service level agreement (SLA) for the OutSystems Personal Edition?**
 
-There arenâ€™t SLAs for OutSystems Personal Editions. The OutSystems Personal Edition is set to be up and running 24x7 without interruptions. However, as a free offering, there are no SLAs for availability or performance.
+There aren't SLAs for OutSystems Personal Editions. The OutSystems Personal Edition is set to be up and running 24x7 without interruptions. However, as a free offering, there are no SLAs for availability or performance.
 
 **What kind of support is available?**
 
@@ -194,6 +194,6 @@ Yes. You can invite other team members to your own Personal Edition. This allows
 
 Yes. Not immediately at the ONE Conference. However, the Developer Relations team plans to ensure that ODC Forge assets count towards your community profile ranking. Any points you've already earned from Forge assets are also taken into account when this is rolled out.
 
-**Can I transfer the Forge assets I uploaded in my Companyâ€™s tenant to my OutSystems Personal Edition?**
+**Can I transfer the Forge assets I uploaded in my Company's tenant to my OutSystems Personal Edition?**
 
-There isn't an automated process for this. After submitting a first asset through their OutSystems Personal Edition to Forge, Community users should open a Support Case. The request must include proof that their Company acknowledges the ownership transfer of the Forge asset.
+There isn't an automated process for this. After submitting a first asset through their OutSystems Personal Edition to Forge, Community users should open a support case. The request must include proof that their company acknowledges the ownership transfer of the Forge asset.
