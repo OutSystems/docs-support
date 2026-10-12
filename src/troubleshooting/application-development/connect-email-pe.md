@@ -14,6 +14,9 @@ outsystems-tools:
   - none
 coverage-type:
   - unblock
+topic:
+  - recover-pe-access
+  - set-up-pe-access
 isautopublish: true
 ---
 
