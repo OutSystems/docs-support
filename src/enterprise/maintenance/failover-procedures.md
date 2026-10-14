@@ -21,6 +21,8 @@ outsystems-tools:
   - platform server
 coverage-type:
   - apply
+topic:
+  - platform-server-failover
 isautopublish: true
 ---
 
