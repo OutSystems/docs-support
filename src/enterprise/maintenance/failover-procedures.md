@@ -5,7 +5,14 @@ guid: a981ba0b-3a4d-4a75-b410-b38be75bea82
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
 figma:
-tags: disaster recovery, high availability, server management, it operations, infrastructure management
+tags:
+  - .NET
+  - Front-End
+  - Infrastructure
+  - Java
+  - Platform Server
+  - Roles
+  - Troubleshooting
 audience:
   - Platform administrator
   - Developer
