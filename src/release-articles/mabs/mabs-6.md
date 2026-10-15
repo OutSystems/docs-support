@@ -14,6 +14,15 @@ audience:
 topic:
   - mabs-6-upgrade-overview
   - missing-module-dependency-error
+isautopublish: true
+tags:
+  - Android
+  - Cordova
+  - iOS
+  - Mobile app
+  - Plugins
+  - Security
+  - Troubleshooting
 ---
 
 # MABS 6 Release notes
@@ -30,7 +39,7 @@ For common issues and solutions check also [Troubleshooting the Mobile Apps Gene
 
 </div>
 
-## MABS Version 6.3 { #mabs-version-6-3 }
+## MABS Version 6.3 {#mabs-version-6-3}
 
 First release: 2020-09-23 16:00:00 UTC
 Last update: 2021-09-29 14:00:00 UTC
@@ -40,7 +49,7 @@ See “System requirements and Breaking Changes” in MABS 6.0 Release Notes
 
 ### What's New
 
-* In MABS 6.3 we introduce the option to compile the Android apps using AndroidX instead of the legacy Android Support Library. AndroidX is optional, so you need to enable the AndroidX support in your apps. For more information see [Building apps with AndroidX](https://success.outsystems.com/Documentation/11/Delivering_Mobile_Apps/Mobile_Apps_Build_Service/Building_apps_with_AndroidX).
+* In MABS 6.3 we introduce the option to compile the Android apps using AndroidX instead of the legacy Android Support Library. AndroidX is optional, so you need to enable the AndroidX support in your apps.
 
 ### Bug fixing
 
@@ -82,7 +91,7 @@ For example, if you’re getting an error because the build cannot find the depe
 1. To install the dependencies, create a JavaScript file to run the **npm install** command. [Check out an example here](https://github.com/OutSystems/outsystems-plugin-disable-backup/blob/master/hooks/dependencyInstaller.js).
 1. Add the JavaScript file to the **plugin.xml** as a hook of the type **before_plugin_install**. [See this code for an example](https://github.com/OutSystems/outsystems-plugin-disable-backup/blob/master/plugin.xml#L14).
 
-## MABS Version 6.2 { #mabs-version-6-2 }
+## MABS Version 6.2 {#mabs-version-6-2}
 
 <div class="info">
 
@@ -113,7 +122,7 @@ For example, if you’re getting an error because the build cannot find the depe
 * [2020-09-09 15:30:00 UTC] Fixed an issue that prevented users from logging in iOS apps when the environment was hosted in a port that is not the default HTTPS port. (RNMT-4279)
 * [2020-10-07 16:00:00 UTC] Fixed an issue with the initialization of the HTTP clients for the cache mechanism of the Android apps. (RNMT-4344)
 
-## MABS Version 6.1 { #mabs-version-6-1 }
+## MABS Version 6.1 {#mabs-version-6-1}
 
 <div class="info">
 
@@ -158,7 +167,7 @@ For example, if you’re getting an error because the build cannot find the depe
 
 InAppBrowser plugin must be the latest version (2.3.0 or later) to be supported correctly in MABS 6.1.
 
-## MABS Version 6.0 { #mabs-version-6-0 }
+## MABS Version 6.0 {#mabs-version-6-0}
 
 <div class="info">
 

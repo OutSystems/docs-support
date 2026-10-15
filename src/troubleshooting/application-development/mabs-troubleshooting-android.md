@@ -8,6 +8,7 @@ figma:
 tags:
   - Android
   - Cordova
+  - Debugging
   - Mobile app
   - Plugins
   - Troubleshooting
@@ -20,6 +21,7 @@ coverage-type:
 topic:
   - mabs-5-breaking-changes
   - mabs-build-errors
+isautopublish: true
 ---
 
 # MABS upgrade troubleshooting guide - Android
@@ -142,44 +144,6 @@ There are two things you can try:
 If the issue remains:
 
 * Modify the plugin(s) to lower the support library versions (this may cause build or runtime issues)
-
-### AndroidX support library usage
-
-#### Symptoms
-
-When requesting a build, you're getting the following error:
-
-* Error generating application. At least one Cordova plugin used in the build requires an AndroidX library, which isn't currently compatible with MABS. Check your plugins configuration.
-
-#### Cause
-
-This error occurs when building an app with a plugin that uses an AndroidX support library or a dependency that uses one. AndroidX is currently not compatible with MABS. There is a conflict caused by using AndroidX support libraries together with older Android support libraries. A common example of the dependency issue is Google Mobile Services (GMS) dependencies.
-
-The log file should contain something similar to:
-
-```
-* What went wrong:
-Execution failed for task ':app:processReleaseManifest'.
-> Manifest merger failed : Attribute application@appComponentFactory value=(android.support.v4.app.CoreComponentFactory) from [com.android.support:support-compat:28.0.0] AndroidManifest.xml:22:18-91
-    is also present at [androidx.core:core:1.0.0] AndroidManifest.xml:22:18-86 value=(androidx.core.app.CoreComponentFactory).
-    Suggestion: add 'tools:replace="android:appComponentFactory"' to <application> element at AndroidManifest.xml:5:5-20:19 to override.
-```
-
-#### Resolution
-
-Check your plugins code and look for gradle dependencies that may use AndroidX. Dependencies related to Google that don't have their versions locked (so the latest version is always used) are the most likely culprits.
-
-An example:
-
-* `implementation "com.google.android.gms:play-services-maps:+"`
-
-After you find the plugin(s) with the problematic dependencies you can:
-
-* Try to upgrade/downgrade the plugin(s) to another version that may lock these dependencies
-
-If the issue remains:
-
-* Modify the plugin(s) to lock the problematic dependency versions
 
 ### Incorrect Google Services usage
 

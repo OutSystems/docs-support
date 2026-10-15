@@ -5,19 +5,20 @@ guid: 8D6C234D-4B36-424C-8A41-7813025ADF11
 app_type: mobile apps
 platform-version: o11
 coverage-type:
-    - remember
-    - unblock
+  - remember
+  - unblock
 topic:
-    - mabs-7-breaking-changes
-    - mabs-7-upgrade-overview
+  - mabs-7-breaking-changes
+  - mabs-7-upgrade-overview
 tags:
-    - Android
-    - Cordova
-    - iOS
-    - Logging
-    - Mobile app
-    - Native App
-    - Plugins
+  - Android
+  - Cordova
+  - iOS
+  - Logging
+  - Mobile app
+  - Native App
+  - Plugins
+isautopublish: true
 ---
 
 # MABS 7 Release notes
@@ -157,7 +158,7 @@ MABS 7.0 is an important milestone for all developers who publish on App Store a
 
 * Mobile Apps Build Service (MABS) now uses the iOS SDK 14.2. This means that you can continue submitting your iOS apps to the App Store while complying with the requirements by Apple.
 
-* AndroidX is enabled by default. Fore more information see [Building apps with AndroidX](https://success.outsystems.com/Documentation/11/Delivering_Mobile_Apps/Mobile_Apps_Build_Service/Building_apps_with_AndroidX)
+* AndroidX is enabled by default.
 
 * Latest Android API level 30. This lets you submit your Android apps with the most recent target SDK to Google Play.
 

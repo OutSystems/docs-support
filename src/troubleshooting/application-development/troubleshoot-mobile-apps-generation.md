@@ -2,7 +2,7 @@
 summary: Explore troubleshooting techniques for mobile app generation issues in OutSystems 11 (O11) with a focus on MABS compatibility and plugin updates.
 tags:
   - Android
-  - Cordova
+  - Forge
   - iOS
   - Mobile app
   - Native App
@@ -19,10 +19,12 @@ outsystems-tools:
   - service studio
   - forge
 coverage-type:
+  - apply
   - unblock
 topic:
   - access-mabs-generation-log
   - mabs-build-errors
+isautopublish: true
 ---
 
 # Troubleshooting the mobile apps generation
@@ -176,49 +178,9 @@ As an example, this log file shows a conflict caused by a plugin overriding the 
 
 In this case, a solution would be reviewing the plugin implementation and fixing the override of the value of the meta-data tag.
 
-### Conflict with AndroidX support libraries
+### Plugin uses the Android Support Library
 
-When building an app with a plugin (or a plugin dependency) that's using an AndroidX support library, the support library may not be compatible with the MABS version.
-
-In this type of issues, the log file can contain something like:
-
-```
-* What went wrong:
-Execution failed for task ':app:processReleaseManifest'.
-> Manifest merger failed : Attribute application@appComponentFactory value=(android.support.v4.app.CoreComponentFactory) from [com.android.support:support-compat:28.0.0] AndroidManifest.xml:22:18-91
-   is also present at [androidx.core:core:1.0.0] AndroidManifest.xml:22:18-86 value=(androidx.core.app.CoreComponentFactory).
-   Suggestion: add 'tools:replace="android:appComponentFactory"' to <application> element at AndroidManifest.xml:5:5-20:19 to override.
-```
-
-To fix this issue you can enable AndroidX for your app. It's available since MABS 6.3. To enable AndroidX, see [Building apps with AndroidX](https://success.outsystems.com/Documentation/11/Delivering_Mobile_Apps/Mobile_Apps_Build_Service/Building_apps_with_AndroidX).
-
-Alternatively you can review the implementation of your plugins and look for Gradle dependencies that may be using AndroidX.
-
-Some of these situations can happen with dependencies to Google when the version isn't locked, like for example:
-
-    implementation "com.google.android.gms:play-services-maps:+"`
-
-This means it will use the latest version, which can be AndroidX.
-To fix this kind of issue, find the plugin(s) originating dependencies to AndroidX and lock their version so that they will use a non-AndroidX version.
-
-In case you are using a plugin version that needs AndroidX to work, consider upgrading or downgrading that plugin to a version that doesn't use AndroidX.
-
-### Incompatibility between Android support libraries
-
-Building an app that uses Android support library dependencies targeting different versions can cause mobile generation issues.
-
-Here's an example of the log message when using multiple support libraries with different versions that define different values for the `android.support.VERSION` meta-data tag:
-
-```
-* What went wrong:
-> Manifest merger failed : Attribute meta-data#android.support.VERSION@value value=(25.4.0) from [com.android.support:exifinterface:25.4.0] AndroidManifest.xml:25:13-35
-    is also present at [com.android.support:support-v4:26.1.0] AndroidManifest.xml:28:13-35 value=(26.1.0).
-    Suggestion: add 'tools:replace="android:value"' to <meta-data> element at AndroidManifest.xml:23:9-25:38 to override.
-```
-
-To resolve this issue upgrade (or downgrade) plugins that can be causing the incompatibility. Alternatively, change MABS to a version that makes it compatible with the Android support libraries used by the MABS built-in plugins.
-
-If the issue remains, modify the plugin(s) implementation to make the problematic dependency versions compatible.
+If a plugin uses the Android Support Library, the build fails with [OS-MABS-GEN-40006](../../error/mabs/mabs-gen-40006.md). Migrate the plugin to AndroidX.
 
 ### Issues with Google Services configuration files
 
