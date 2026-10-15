@@ -831,7 +831,6 @@
         - href: enterprise/maintenance/does-safe-harbor-ecj-apply.md
         - href: enterprise/maintenance/protect-android-ios-certificate.md
         - href: enterprise/maintenance/multiple-db-catalogs-schemas.md
-        - href: enterprise/maintenance/cloud-timezones.md
         - href: enterprise/maintenance/failover-procedures.md
         - href: enterprise/maintenance/cloud-shared-responsibility.md
         - href: enterprise/maintenance/reinstall-lifetime.md
