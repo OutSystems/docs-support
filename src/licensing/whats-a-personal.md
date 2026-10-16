@@ -1,11 +1,18 @@
 ---
-summary: Learn about the free OutSystems 11 (O11) Personal Environment for developing personal applications.
+summary: OutSystems 11 (O11) Personal Environment explains free cloud app hosting, 2GB storage, recycling, and best-effort support.
 locale: en-us
 guid: f88eb567-39c5-430b-ad00-64cead6e9fd0
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
 figma:
-tags: free development tools, cloud-based development, application lifecycle management
+tags:
+  - Deploy
+  - Development lifecycle
+  - External Databases
+  - Infrastructure
+  - Mobile app
+  - Web
+  - Web services
 audience:
   - Developer
   - Front-end developer
@@ -104,6 +111,12 @@ Detaching the source code of your applications is only available for subscriptio
 * **No SEO optimizations:** Personal Environments don't support the use of [SEO optimization for your applications](https://www.outsystems.com/tk/redirect?g=C07BCA11-7DB2-49FD-B01B-97EBFBDCF36F).
 
 * **No Factory Configuration:** This component isn´t supported in Personal environments. Personal environments are offered on shared infrastructure where advanced configurations may affect other users and are therefore not supported.
+
+## Can I use the Service Studio MCP server with a personal environment?
+
+Yes, the Service Studio MCP server works when Service Studio is connected to your Personal Environment. The server runs inside Service Studio on your machine and gives the agent in your MCP host access to the module you have open.
+
+To install the OutSystems skill for O11, start the server, and connect your MCP host, refer to [Get started with OutSystems MCP](https://www.outsystems.com/tk/redirect?g=9fefed39-c894-483b-b625-0c88caf81f51). For more information about the server, refer to [OutSystems MCP](https://www.outsystems.com/tk/redirect?g=716a959b-9b36-4098-9e85-182bba489d8c). The support level described in [What kind of support is available?](#what-kind-of-support-is-available) applies.
 
 ## Can I upgrade my personal environment (or cancel an upgrade on it)?
 
