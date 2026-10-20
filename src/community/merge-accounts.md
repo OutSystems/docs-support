@@ -1,74 +1,93 @@
 ---
-audience: []
-summary: Learn the process of merging two community accounts into one and what information will be transferred.
+audience:
+  - Developer
+summary: Learn the process of merging two community accounts into one and what information transfers.
 coverage-type:
   - apply
 topic:
   - merge-community-accounts
 tags:
+  - Authentication
   - End-users
   - Forge
   - Settings
 locale: en-us
 guid: 6EDE38E2-A209-4BB9-8C48-CE902CD0094C
 app_type: traditional web apps, mobile apps, reactive web apps
-platform-version: o11
+platform-version: o11, odc
 figma: https://www.figma.com/file/mP34OzloL9EPqXml1E0tfC/Community?node-id=1356:241
+isautopublish: true
 ---
 
 # Merging two OutSystems community accounts
 
-OutSystems community accounts are created using your email.
+If you have two community accounts with distinct emails, for example one with your personal email and another with your work email, you can merge them into one. The merge moves your community information into the account you keep and deletes the other account.
 
-Sometimes, it may happen that you have two community accounts created with distinct emails. For example, one with your personal email and another with your work email. You can, if you choose to, merge two accounts into one.
-When merging two accounts, the account you wish to keep will receive all the information, and the account that will be merged is deleted.
+For more information about transferring your certifications while keeping both accounts active, refer to [Transfer certification](training/transfer-certification.md).
 
-For the purposes of this article:
+The following terms identify the two accounts in this article:
 
-* **Account A** is the account you wish to keep and that will receive all the information.
-* **Account B** is the account that will be merged into account A and deleted. You'll be able to create another account with the email used in this account, but the Personal Environment and account information won't be recovered.
+* Account A is the account you want to keep.
+* Account B is the account that merges into account A and is deleted.
 
 <div class="warning" markdown="1">
 
-Although most of your community information will be merged into **account A**, this operation will destroy the Personal Environment of **account B**.
+The merge destroys the Personal Environment and Personal Edition of account B. Most other community information moves to account A. OutSystems deletes anything else linked to account B, including account permissions.
 
-It's not possible to revert an account merge.
+To avoid losing work, back up any assets or data from account B that you want to keep before you merge.
+
+You can't revert an account merge.
 
 </div>
 
-If you need to transfer your certifications while keeping both accounts active, check [this article](training/transfer-certification.md) instead.
+Before you begin, make sure you can access the email address of account B, because the verification code goes to that address.
 
-Do the following to merge two accounts:
+To merge two accounts, follow these steps:
 
-1. Login with **account A**.
-1. Access the **Settings** area.
+1. Log in to the OutSystems website with account A.
 
-    ![Screenshot highlighting the 'Settings' option in an OutSystems community account profile.](images/change-community-pw-settings.png "OutSystems Community Account Settings Option")
+    If you forgot your password, select [Forgot password?](https://www.outsystems.com/home/RequestPassword.aspx) on the login page.
 
-1. Click **Merge Accounts**.
-1. On the form, enter the email address and password of **account B**. This lets us know you own the account.
-1. You'll receive an email to confirm the merge.
+1. In your profile menu, select **Settings**.
 
-## What information will be transferred?
+    ![Profile menu of the OutSystems community with the Settings option highlighted](images/merge-account-profile-menu-pl.png "Profile Menu Settings Option")
 
-The following will be transferred from **account B** into **account A**. The result will be a combination of both the information from account A and B merged in account A.
+1. Select the **More options** icon, then select **Merge activity**.
 
-* Community forums posts and votes on those posts
-* Forge components ownership, votes, and subscriptions
-* Online courses progression
-* All your certifications (including technical and sales certifications) and bootcamps
+    ![Account settings page with the More options menu open and the Merge activity option displayed](images/merge-account-settings-pl.png "Merge Activity Option")
+
+1. Enter the email address of account B and select **Send code**. Then check the inbox of account B for the verification code.
+
+    ![Merge activity form with the email address field and the Send code button](images/merge-select-account-pl.png "Email Address and Send Code")
+
+1. Enter the verification code, then select **Merge accounts**.
+
+    ![Merge activity form with the verification code field and the Merge accounts button](images/merge-account-verification-code-pl.png "Verification Code")
+
+1. In the confirmation dialog, select **Merge accounts**.
+
+    ![Confirmation dialog for the account merge with the Merge accounts button](images/merge-account-confirmation-pl.png "Merge Confirmation Dialog")
+
+    OutSystems sends two emails: one to account A to confirm the merge, and one to account B to notify you that it's closed.
+
+## Information transferred during a merge
+
+The merge transfers the following from account B into account A, which then contains the combined information from both accounts.
+
+* Community forum posts and votes on those posts
+* Forge component ownership, votes, and subscriptions
+* Online course progress
+* Technical certifications, sales certifications, and bootcamps
 * Ideas, comments, and likes on ideas
-* Accomplishments (Overview tab on your profile) and Achievements
+* Accomplishments on the Overview tab of your profile and achievements
 * Private messages
 
 <div class="info" markdown="1">
 
-The profile creation date will be the oldest date. That can be either the creation date of account A or account B. The same applies to the dates of the badges: Welcome, Profile Superstar, First Idea, First Component, First Post, and MVP
+The profile creation date is the earlier of the creation dates of account A and account B. The same applies to the dates of the following badges: Welcome, Profile Superstar, First Idea, First Component, First Post, and MVP.
 
 </div>
 
-## What information won’t be transferred?
+## Information not transferred during a merge
 
-For security reasons, it won’t be possible to keep your Customer Portal or Partner Center permissions. You should ask the administrators to add you after the merge.
-
-Customer Portal and Partner Center have sensitive information, and we want to make sure that only authorized people can access them.
+The merge doesn't keep your Customer Portal or Partner Center permissions, because both contain sensitive information that only authorized people can access. Ask the administrators of those tools to add you after the merge.
