@@ -1,6 +1,7 @@
 ---
 summary: The article provides guidance on adding followers to a support case both during its creation and after it has been opened.
 tags:
+  - UI
 locale: en-us
 guid: 106363F9-E2BA-436E-9CD7-F81BE980BECD
 app_type: traditional web apps, mobile apps, reactive web apps
