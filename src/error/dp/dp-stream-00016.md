@@ -1,6 +1,11 @@
 ---
 summary: OS-DP-STREAM-00016 gRPC 16 Unauthenticated error in OutSystems platform log streaming when credentials or endpoint URL are incorrect.
-tags: authentication errors, server connectivity, log streaming, error handling, grpc
+tags:
+  - Authentication
+  - Logging
+  - Monitoring
+  - Platform Server
+  - Troubleshooting
 guid: e0979b47-f97c-4a5e-8938-093d0f7d3515
 locale: en-us
 app_type: traditional web apps, mobile apps, reactive web apps

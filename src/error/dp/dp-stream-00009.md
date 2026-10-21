@@ -1,6 +1,11 @@
 ---
 summary: OS-DP-STREAM-00009 error means your destination server returned a gRPC 9 failed precondition response, blocking log streaming in the OutSystems platform.
-tags: error handling, log streaming, debugging, grpc errors
+tags:
+  - Debugging
+  - Logging
+  - Monitoring
+  - Troubleshooting
+  - Web services
 guid: 2b3be8a1-a0e6-4ba0-8ff1-37539177e915
 locale: en-us
 app_type: traditional web apps, mobile apps, reactive web apps

@@ -1,6 +1,10 @@
 ---
 summary: OS-DP-STREAM-00015 error occurs when your destination server returns a gRPC 15 data loss response during OutSystems log or observability streaming setup.
-tags: error handling, server communication, log streaming, data loss, debugging
+tags:
+  - Debugging
+  - Logging
+  - Monitoring
+  - Troubleshooting
 guid: 0e51245b-0ec8-4415-86b3-f03674550674
 locale: en-us
 app_type: traditional web apps, mobile apps, reactive web apps

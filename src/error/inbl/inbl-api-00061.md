@@ -1,6 +1,9 @@
 ---
 summary: OS-INBL-API-00061 error in OutSystems 11 (O11) blocks Integration Manager sign-in due to broken references; republish modules via Service Center to resolve.
-tags: error handling, api issues, service management, application publishing, dependency management
+tags:
+  - Blocks
+  - Deploy
+  - Troubleshooting
 locale: en-us
 guid: 1bd71502-9292-4c96-810d-b233baa24794
 app_type: traditional web apps, mobile apps, reactive web apps

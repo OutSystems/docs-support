@@ -1,6 +1,9 @@
 ---
 summary: OS-INBL-GEN-00032 error in OutSystems 11 (O11) Integration Builder occurs during publish; check Service Center logs to find the original error.
-tags: error handling, debugging, publishing integrations, log analysis, outsystems platform
+tags:
+  - Debugging
+  - Logging
+  - Troubleshooting
 locale: en-us
 guid: b08134f6-e2e0-4c43-a55a-8990a11a011a
 app_type: traditional web apps, mobile apps, reactive web apps

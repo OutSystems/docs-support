@@ -1,6 +1,9 @@
 ---
 summary: "OS-DP-STREAM-00001 gRPC Cancelled error when streaming logs in the OutSystems platform: causes, impact, and fix."
-tags: error handling, server configuration, logging, grpc, connection issues
+tags:
+  - Infrastructure
+  - Logging
+  - Troubleshooting
 guid: 1bf25d7e-40f0-4250-83b6-873a691b6820
 locale: en-us
 app_type: traditional web apps, mobile apps, reactive web apps
