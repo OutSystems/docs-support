@@ -14,7 +14,7 @@ audience:
 outsystems-tools:
   - service studio
 coverage-type:
-  - none
+  - apply
 ---
 
 # Installation

@@ -16,7 +16,7 @@ audience:
 outsystems-tools:
   - none
 coverage-type:
-  - none
+  - unblock
 ---
 
 # Errors

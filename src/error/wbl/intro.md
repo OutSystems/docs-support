@@ -14,7 +14,9 @@ audience:
 outsystems-tools:
   - workflow builder
 coverage-type:
-  - none
+  - understand
+  - apply
+  - unblock
 ---
 
 # Workflow Builder errors

@@ -14,7 +14,7 @@ audience:
 outsystems-tools:
   - case management framework
 coverage-type:
-  - none
+  - unblock
 ---
 
 # Case Management framework errors

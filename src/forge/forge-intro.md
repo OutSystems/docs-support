@@ -14,7 +14,7 @@ outsystems-tools:
   - service studio
   - forge
 coverage-type:
-  - none
+  - understand
 ---
 
 # Forge Components

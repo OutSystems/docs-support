@@ -14,7 +14,7 @@ outsystems-tools:
   - service studio
   - integration builder
 coverage-type:
-  - none
+  - unblock
 ---
 
 # Integration Builder errors
