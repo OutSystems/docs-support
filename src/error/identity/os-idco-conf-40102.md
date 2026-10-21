@@ -1,5 +1,5 @@
 ---
-summary: "OS-IDCO-CONF-40102 error in ODC occurs when automatic user creation is disabled for an external IdP, blocking end-user login."
+summary: "OS-IDCO-CONF-40102 error in ODC occurs when a user logs in with the wrong account or automatic user creation is disabled for the IdP."
 tags:
   - Authentication
   - End-user Authentication
@@ -29,7 +29,7 @@ isautopublish: true
 
 ## Cause
 
-An end user attempted to log in with an external Identity Provider (IdP), but their account could not be created because the **_automatic user creation_** setting is disabled for this IdP configuration.
+An end user attempted to log in with an external Identity Provider (IdP) using the wrong account. Alternatively, the IdP couldn't create the account because **Automatic user creation** is disabled for this IdP configuration.
 
 ## Impact
 
@@ -39,6 +39,8 @@ The user cannot log in or access the app.
 
 Depending on your organization's security policies, this error can be resolved in one of the following ways:
 
-* **Enable automatic creation**: If users from this IdP should have accounts generated automatically upon their first successful authentication, navigate to your external IdP settings in ODC and toggle **_Automatic user creation_** to True.
+* **Log in with the correct account**: Verify that the account used to log in is your actual account. If not, log out, log in with the correct account, and try again.
 
-* **Manual provisioning**: If automatic user creation is intentionally turned off for security reasons, the IT administrator must manually provision the user's profile in the system before the user attempts to log in again.
+* **Enable automatic user creation**: If users from this IdP need accounts generated automatically on their first successful authentication, go to your external IdP settings in ODC and set **Automatic user creation** to **True**.
+
+* **Provision users manually**: If you turned off automatic user creation intentionally for security reasons, the IT administrator must provision the user's profile in the system. The user then logs in again.
