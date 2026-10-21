@@ -1,6 +1,11 @@
 ---
 summary: Couldn't install the Cordova plugin <plugin_name> due to an error in the plugin.xml file. The specified pod wasn't found in the CocoaPods repository.
-tags: cordova, cocoapods, plugin management, mobile app development, application packaging
+tags:
+  - Cordova
+  - iOS
+  - Mobile app
+  - Plugins
+  - Troubleshooting
 locale: en-us
 app_type: mobile apps
 guid: 3c42415f-71e0-49ac-8626-52a23d2fd05a

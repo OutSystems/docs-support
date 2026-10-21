@@ -1,6 +1,12 @@
 ---
 summary: There was an issue generating the app. Meta-data {0} is being defined more than once. Check the plugin documentation to ensure the setup is right.
-tags: android development, mobile app deployment, debugging, cordova plugins, error resolution
+tags:
+  - Android
+  - Cordova
+  - Debugging
+  - Mobile app
+  - Plugins
+  - Troubleshooting
 guid: 375d8fd7-8061-4086-920a-e76ba2941f57
 locale: en-us
 app_type: mobile apps

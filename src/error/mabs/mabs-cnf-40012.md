@@ -1,6 +1,10 @@
 ---
 summary: Missing resource declared in the extensibility configurations.
-tags: mobile app development, extensibility configurations, json schema, error handling, application packaging
+tags:
+  - Extensions
+  - Mobile app
+  - Plugins
+  - Troubleshooting
 guid: f671b509-847d-4535-b224-6665ce2986b7
 locale: en-us
 app_type: mobile apps

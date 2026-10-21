@@ -1,6 +1,11 @@
 ---
 summary: Something went wrong while executing your Capacitor Build Actions. Check your build action JSON configurations.
-tags: capacitor, build actions, mobile app generation, extensibility, error handling, troubleshooting
+tags:
+  - Capacitor
+  - Debugging
+  - Mobile app
+  - Native App
+  - Troubleshooting
 guid: a1b2c3d4-e5f6-7890-abcd-ef1234567890
 locale: en-us
 app_type: mobile apps

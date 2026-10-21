@@ -1,6 +1,12 @@
 ---
 summary: There was an issue generating the app. At least one Cordova plugin uses Android Support Library components, which are not compatible with MABS 10 and onwards. Check your plugin configurations and try again.
-tags: mobile application generation, cordova plugins, android support library, androidx migration
+tags:
+  - Android
+  - Cordova
+  - Libraries
+  - Mobile app
+  - Plugins
+  - Troubleshooting
 guid: 7aa8edd7-5d70-4fec-92d7-1a524db83f1e
 locale: en-us
 app_type: mobile apps

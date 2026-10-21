@@ -1,6 +1,12 @@
 ---
 summary: Couldn't install the Cordova plugin <plugin_name> because CocoaPods built in Swift are not supported.
-tags: cordova, cocoapods, mobile app packaging, error handling, outsystems plugin
+tags:
+  - Cordova
+  - Debugging
+  - iOS
+  - Mobile app
+  - Plugins
+  - Troubleshooting
 locale: en-us
 app_type: mobile apps
 guid: f46dbb03-8652-4c48-983c-52611e3515d3

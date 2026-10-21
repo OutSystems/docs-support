@@ -1,6 +1,11 @@
 ---
 summary: Couldn't install the Cordova plugin <plugin_name> due to an error in the plugin.xml file. The Spec attribute in the Framework element related to CocoaPods is invalid.
-tags: cordova, cocoapods, plugin configuration, ios development, mobile app packaging
+tags:
+  - Cordova
+  - iOS
+  - Mobile app
+  - Plugins
+  - Troubleshooting
 locale: en-us
 app_type: mobile apps
 guid: 6ed71f5f-bef6-4a82-a1f3-9d977224a5a0

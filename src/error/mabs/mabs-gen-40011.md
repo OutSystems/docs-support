@@ -1,6 +1,10 @@
 ---
 summary: There was an issue generating the app. Some plugins using Google Services aren’t correctly configured. Check the plugin documentation to ensure the setup is right.
-tags: mobile app development, google services configuration, android app packaging, error resolution
+tags:
+  - Android
+  - Mobile app
+  - Plugins
+  - Troubleshooting
 guid: 3134ab75-e67b-4c76-8e2a-bb48ab632be4
 locale: en-us
 app_type: mobile apps
