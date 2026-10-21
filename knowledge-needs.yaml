@@ -9356,6 +9356,12 @@ knowledge-needs:
         App, bind it to a UI element, enter pop-up content, and configure
         its position, trigger, and optional styling so that additional
         information appears next to the target element.
+    - name: Balloon reference
+      id: balloon-reference
+      description: Wants to look up the Balloon UI Pattern layout, CSS classes,
+        events, and AdvancedFormat options in Service Studio for Traditional
+        Web Apps (O11), so they can configure its display and animation
+        behavior.
     - name: Use Tooltip pattern
       id: use-tooltip-pattern
       description: Wants to add the Tooltip UI Pattern to a screen, add the
@@ -9812,6 +9818,13 @@ knowledge-needs:
         the Toolbox, enter the label text, and set a name and type for the
         Input variable, in Service Studio, so that an animated label
         displays for user input.
+    - name: Animated Label reference
+      id: animated-label-reference
+      description: Wants to look up the layout and CSS selectors for the Animated
+        Label UI Pattern, including the inline and active label classes, and
+        reposition the active label with custom CSS in Service Studio for an
+        OutSystems 11 Traditional Web App, so they can customize the pattern's
+        appearance.
     - name: Animate Alert pattern
       id: animate-alert-pattern
       description: Wants to add an enter animation to the Alert UI Pattern, using
@@ -17189,6 +17202,8 @@ knowledge-needs:
       id: non-cordova-module-load-error
       description: 'Wants to resolve the OS-MABS-GEN-40013 "Using
         requireCordovaModule to load a non-cordova module is not supported"
+        or OS-MABS-PLG-40015 "Couldn''t install the Cordova plugin. Using
+        requireCordovaModule to load a non-Cordova module is not supported"
         error, by checking the Service Center build logs to identify the
         custom plugin using requireCordovaModule and replacing it with
         require, so that the mobile app package generates successfully.'
@@ -17291,12 +17306,11 @@ knowledge-needs:
         files, so that the mobile app package generates successfully.'
     - name: Plugin SDK tag error
       id: plugin-sdk-tag-error
-      description: 'Wants to resolve the OS-MABS-PLG-40012 "Couldn''t install
-        the Cordova plugin because it''s not supported by MABS 6.0 and later
-        versions" error, caused by the plugin trying to change the
-        <uses-sdk> tag in the AndroidManifest.xml file, by updating the
-        plugin or changing the MABS version, so that the mobile app package
-        generates successfully.'
+      description: 'Wants to resolve the OS-MABS-PLG-40012 error indicating that
+        a Cordova plugin isn''t supported by the mobile app build system, caused
+        by the plugin trying to change the <uses-sdk> tag in the
+        AndroidManifest.xml file, by updating the plugin or changing the MABS
+        version, so that the mobile app package generates successfully.'
     - name: Missing XML node error
       id: missing-xml-node-error
       description: 'Wants to resolve the OS-MABS-PLG-40013 "Couldn''t install
@@ -17304,14 +17318,6 @@ knowledge-needs:
         node" error, caused by an XML selector not finding the target node
         in the config file, by checking the Service Center build logs and
         fixing the selector path, so that the mobile app package generates
-        successfully.'
-    - name: Non-Cordova module error
-      id: non-cordova-module-error
-      description: 'Wants to resolve the OS-MABS-PLG-40015 "Couldn''t install
-        the Cordova plugin. Using requireCordovaModule to load a non-Cordova
-        module is not supported" error, by checking the Service Center build
-        logs to identify the plugin using requireCordovaModule and replacing
-        it with require, so that the mobile app package generates
         successfully.'
     - name: Missing module dependency error
       id: missing-module-dependency-error
