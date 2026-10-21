@@ -1,6 +1,10 @@
 ---
 summary: There was an error processing this rule expression. <data-type> can't be compared with <data-type>.
-tags: error handling, data types, rule expressions, case management framework, application development
+tags:
+  - Case Management framework
+  - Data
+  - Logic
+  - Troubleshooting
 locale: en-us
 guid: 4acd4a8a-495d-4293-a460-592fc35e4cee
 app_type: traditional web apps, mobile apps, reactive web apps

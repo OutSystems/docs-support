@@ -5,7 +5,10 @@ guid: 95d95b60-3661-48aa-b75d-e2f670cf6b92
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
 figma:
-tags: time synchronization, application development, environment setup, best practices, operations
+tags:
+  - Best Practices
+  - Data Synchronization
+  - Timers
 audience:
   - Developer
   - Platform administrator

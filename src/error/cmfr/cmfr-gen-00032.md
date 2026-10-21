@@ -1,6 +1,9 @@
 ---
 summary: Unknown activity action. It must match one from ActivityAction.
-tags: error handling, case management, debugging, application development, outsystems platform
+tags:
+  - Case Management framework
+  - Debugging
+  - Troubleshooting
 locale: en-us
 guid: a0fb5813-b21e-4867-9da4-d64b3eccd4cb
 app_type: traditional web apps, mobile apps, reactive web apps

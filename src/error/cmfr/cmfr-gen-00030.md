@@ -1,6 +1,8 @@
 ---
 summary: The expected rule output type does not match this rule type.
-tags: error handling, case management framework, application development, rule management
+tags:
+  - Case Management framework
+  - Troubleshooting
 locale: en-us
 guid: 2229f515-fe18-40a9-a982-092610638934
 app_type: traditional web apps, mobile apps, reactive web apps

@@ -5,7 +5,14 @@ guid: de98a7b8-ecf1-4b7e-adbf-5cfdcb6f9894
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
 figma:
-tags: user management, security, authentication, service center, multi-tenancy
+tags:
+  - Authentication
+  - End-user Authentication
+  - End-users
+  - External Authentication
+  - IT Users
+  - Multi-Tenant
+  - Troubleshooting
 audience:
   - Platform administrator
   - Developer

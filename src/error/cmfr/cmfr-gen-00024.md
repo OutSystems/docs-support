@@ -1,6 +1,12 @@
 ---
 summary: We found more than one record for this transition.
-tags: error handling, case management framework, data consistency, application logic
+tags:
+  - Case Management framework
+  - Data Integrity
+  - Data Model
+  - Entities
+  - Logic
+  - Troubleshooting
 locale: en-us
 guid: 758ad019-6558-49bb-92ea-40581bfbca9e
 app_type: traditional web apps, mobile apps, reactive web apps

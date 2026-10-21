@@ -1,6 +1,10 @@
 ---
 summary: Access permissions for that Case Definition have already been granted to that <user/group>.
-tags: case management, access control, error handling, debugging, permissions
+tags:
+  - Authorization
+  - Case Management framework
+  - Debugging
+  - Troubleshooting
 locale: en-us
 guid: 96307f01-fa1c-4478-b43f-aea3e54655e5
 app_type: traditional web apps, mobile apps, reactive web apps

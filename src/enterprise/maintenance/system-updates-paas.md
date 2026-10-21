@@ -1,6 +1,8 @@
 ---
 summary: Learn about security updates on OutSystems 11 (O11) Cloud, including maintenance schedules, PCI DSS compliance, and expected downtime.
-tags: cloud infrastructure, system maintenance, security patching, operating systems updates, PCI DSS compliance
+tags:
+  - Infrastructure
+  - Security
 locale: en-us
 guid: b41ab799-b4e4-4f0f-8141-b36fef030b0d
 app_type: traditional web apps, mobile apps, reactive web apps
