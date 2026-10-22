@@ -1,6 +1,10 @@
 ---
 summary: OS-MABS-GEN-10001 error means Android app dependencies failed to fetch from a Maven repository. Check build logs in Service Center to resolve.
-tags: mobile app build, dependency management, maven repository, android apk, build errors
+tags:
+  - Android
+  - Mobile app
+  - Plugins
+  - Troubleshooting
 guid: fb00d9ef-9caa-4f9f-9921-f8b334c61336
 locale: en-us
 app_type: mobile apps

@@ -1,6 +1,11 @@
 ---
 summary: "OS-MABS-GEN-40013 in OutSystems platform mobile builds: replace requireCordovaModule with require in your Cordova plugin to load non-cordova modules."
-tags: cordova plugins, mobile app build and deployment, error handling, plugin development, debugging
+tags:
+  - Cordova
+  - Debugging
+  - Mobile app
+  - Plugins
+  - Troubleshooting
 guid: 9e1ac667-436a-488a-bfa5-9dd2c4ad2de9
 locale: en-us
 app_type: mobile apps

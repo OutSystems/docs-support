@@ -1,6 +1,9 @@
 ---
 summary: OS-MABS-FIN-50000 OutSystems platform error occurs when MABS fails to zip app source code at the end of the build, blocking app package generation.
-tags: mobile app building, build errors, debugging, application packaging, support procedures
+tags:
+  - Debugging
+  - Mobile app
+  - Troubleshooting
 guid: 7d63fef8-7edc-4f44-b79c-4c69687f43fc
 locale: en-us
 app_type: mobile apps

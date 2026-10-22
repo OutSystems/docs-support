@@ -1,6 +1,10 @@
 ---
 summary: OS-MABS-GEN-20000 error occurs when a custom plugin runs non-permitted actions, blocking mobile app package generation in OutSystems 11 (O11).
-tags: security, application building, error handling, plugin management, support and troubleshooting
+tags:
+  - Mobile app
+  - Plugins
+  - Security
+  - Troubleshooting
 guid: 9807a6d6-d714-4390-b24c-0240e2c0058a
 locale: en-us
 app_type: mobile apps

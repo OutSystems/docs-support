@@ -1,6 +1,8 @@
 ---
 summary: OS-MABS-CST-50000 error in OutSystems MABS indicates an invalid app icon file that prevents mobile package generation.
-tags: app development, mobile app packaging, icon configuration, build errors, outsystems troubleshooting
+tags:
+  - Mobile app
+  - Troubleshooting
 guid: 71820c70-522c-475b-924f-921ef32accba
 locale: en-us
 app_type: mobile apps

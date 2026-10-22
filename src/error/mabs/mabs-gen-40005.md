@@ -1,6 +1,10 @@
 ---
 summary: OS-MABS-GEN-40005 error occurs when a custom plugin references a missing file, preventing Android app generation in OutSystems MABS.
-tags: error handling, mobile app deployment, custom plugin management, application packaging
+tags:
+  - Android
+  - Mobile app
+  - Plugins
+  - Troubleshooting
 guid: 630be946-bfad-4fc2-b194-2544bbf72ed3
 locale: en-us
 app_type: mobile apps
