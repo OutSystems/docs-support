@@ -5,7 +5,14 @@ guid: 5D8B648B-356D-4A9C-BBFD-61308633C8A3
 app_type: mobile apps
 platform-version: o11
 figma:
-tags: mobile app development, database integrity, local storage, sqlite, error handling
+tags:
+  - Caching
+  - Data
+  - Data Integrity
+  - Debugging
+  - Entities
+  - Mobile app
+  - Troubleshooting
 audience:
   - Developer
 outsystems-tools:

@@ -1,6 +1,11 @@
 ---
 summary: Some AppShield plugin settings have invalid values, please review them.
-tags: mobile apps security, appshield, extensibility configurations, error troubleshooting, build errors
+tags:
+  - Mobile app
+  - Plugins
+  - Security
+  - Settings
+  - Troubleshooting
 guid: 605da399-f238-48aa-8b8e-82a1a57028b7
 locale: en-us
 app_type: mobile apps

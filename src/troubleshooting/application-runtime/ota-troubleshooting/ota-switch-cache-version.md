@@ -5,7 +5,11 @@ guid: 7A2E41BB-9F8D-457B-A519-19AA00BE98E3
 app_type: mobile apps
 platform-version: o11
 figma:
-tags: mobile app development, error handling, outsystems platform, application upgrade, cache management
+tags:
+  - Caching
+  - Mobile app
+  - Native App
+  - Troubleshooting
 audience:
   - Developer
 outsystems-tools:

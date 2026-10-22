@@ -1,6 +1,11 @@
 ---
 summary: Something happened and we couldn't harden your app with AppShield. Please try again.
-tags: error handling, troubleshooting, mobile app security, app deployment, support
+tags:
+  - Debugging
+  - Logging
+  - Mobile app
+  - Security
+  - Troubleshooting
 guid: b6781965-24f2-4a38-a47b-d954b1cfde48
 locale: en-us
 app_type: mobile apps

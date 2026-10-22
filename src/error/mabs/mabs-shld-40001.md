@@ -1,6 +1,11 @@
 ---
 summary: The AppShield plugin has more than one reference in your app.
-tags: error handling, dependency management, plugin configuration, mobile app development, app deployment
+tags:
+  - Extensions
+  - Forge
+  - Mobile app
+  - Plugins
+  - Troubleshooting
 guid: 23dda976-243f-411b-86bf-4447d15755a1
 locale: en-us
 app_type: mobile apps

@@ -5,7 +5,13 @@ guid: E91A6136-86E0-48EC-94B0-AD38D06A203D
 app_type: mobile apps
 platform-version: o11
 figma:
-tags: mobile app development, error handling, resource management, application performance
+tags:
+  - Caching
+  - Debugging
+  - Logging
+  - Mobile app
+  - Performance
+  - Troubleshooting
 audience:
   - Developer
 outsystems-tools:

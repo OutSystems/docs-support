@@ -5,7 +5,11 @@ guid: 51BD8983-3791-4EBE-8132-2D20EB1F366A
 app_type: mobile apps
 platform-version: o11
 figma:
-tags: error handling, outsystems mobile, ota upgrade, application troubleshooting, performance issues
+tags:
+  - Caching
+  - Debugging
+  - Mobile app
+  - Troubleshooting
 audience:
   - Developer
 outsystems-tools:

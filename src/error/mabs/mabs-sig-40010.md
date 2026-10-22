@@ -1,6 +1,10 @@
 ---
 summary: Your certificate and provisioning profile don't match. Confirm the information for both of them.
-tags: error resolution, certificate management, provisioning profile, application packaging, mobile application deployment
+tags:
+  - iOS
+  - Mobile app
+  - Native App
+  - Troubleshooting
 guid: 344fa10a-3f35-41d2-b92c-1430074d69fd
 locale: en-us
 app_type: mobile apps

@@ -5,7 +5,14 @@ guid: 27F1C7DD-2290-4391-8A9E-64569AAEACAB
 app_type: mobile apps
 platform-version: o11
 figma:
-tags: database management, data type conversion, error handling, application deployment
+tags:
+  - Data
+  - Data Integrity
+  - Data Model
+  - Deploy
+  - Entities
+  - Mobile app
+  - Troubleshooting
 audience:
   - Developer
   - Front-end developer
