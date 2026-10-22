@@ -1,6 +1,8 @@
 ---
 summary: The Case Definition must have an initial status defined.
-tags: case management, error handling, initial status configuration, case initialization, outsystems platform
+tags:
+  - Case Management framework
+  - Troubleshooting
 locale: en-us
 guid: bc90f398-4ce3-4ad8-a047-c8777a949a81
 app_type: traditional web apps, mobile apps, reactive web apps

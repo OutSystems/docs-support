@@ -1,6 +1,13 @@
 ---
 summary: OS-DP-STREAM-00005 gRPC 5 not found error blocks log streaming in ODC and O11 when the destination server endpoint URL is misconfigured.
-tags: error handling, server configuration, log streaming, grpc, connectivity issues
+tags:
+  - Debugging
+  - Infrastructure
+  - Logging
+  - Monitoring
+  - Settings
+  - Troubleshooting
+  - Web services
 guid: 00a6b51c-e815-4e68-83fc-e51d58eab8b8
 locale: en-us
 app_type: traditional web apps, mobile apps, reactive web apps

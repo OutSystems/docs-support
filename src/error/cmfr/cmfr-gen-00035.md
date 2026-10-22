@@ -1,6 +1,11 @@
 ---
 summary: ExternalRequesterDetails and CaseRequesterUserId input parameters cannot be both filled in. Send the CaseRequesterUserId parameter when the requester is an internal user and the ExternalRequesterDetails when the requester is external.
-tags: error handling, case management, application development, debugging, framework usage
+tags:
+  - Case Management framework
+  - Data Integrity
+  - Debugging
+  - Logic
+  - Troubleshooting
 locale: en-us
 guid: dd233fe7-e622-4998-ad2c-0973db37670a
 app_type: traditional web apps, mobile apps, reactive web apps

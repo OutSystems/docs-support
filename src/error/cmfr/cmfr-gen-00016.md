@@ -1,6 +1,11 @@
 ---
 summary: OS-CMFR-GEN-00016 error in the OutSystems 11 (O11) Case Management Framework occurs when a case definition has no associated entities.
-tags: error handling, case management framework, debugging, traditional web apps, outsystems platform
+tags:
+  - Case Management framework
+  - Debugging
+  - Entities
+  - Traditional Web
+  - Troubleshooting
 locale: en-us
 guid: 80d3e7fa-7c18-4554-8d22-fddcf981fd0f
 app_type: traditional web apps, mobile apps, reactive web apps

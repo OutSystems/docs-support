@@ -1,6 +1,11 @@
 ---
 summary: It looks like you don't have access to the activity.
-tags: error handling, case management, user access control, security, outsystems platform
+tags:
+  - Authorization
+  - Case Management framework
+  - Groups
+  - Security
+  - Troubleshooting
 locale: en-us
 guid: 37fba356-87fc-4e24-b795-944b0ba1dedb
 app_type: traditional web apps, mobile apps, reactive web apps

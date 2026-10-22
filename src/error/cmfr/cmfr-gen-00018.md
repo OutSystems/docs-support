@@ -1,6 +1,8 @@
 ---
 summary: OS-CMFR-GEN-00018 error in OutSystems 11 (O11) Case Management Framework occurs when more than one case status has IsInitial set to True.
-tags: case management, error handling, case status configuration, application lifecycle management
+tags:
+  - Case Management framework
+  - Troubleshooting
 locale: en-us
 guid: 0f042f7b-b512-4083-abad-80b2fa865680
 app_type: traditional web apps, mobile apps, reactive web apps
