@@ -1,6 +1,10 @@
 ---
 summary: OutSystems 11 (O11) Integration Builder or Workflow Builder sign-in errors caused by invalid credentials, blocked users, or brute force protection.
-tags: authentication issues, user management, security, account recovery, brute force protection
+tags:
+  - Authentication
+  - IT Users
+  - Security
+  - Troubleshooting
 helpids: 30402
 locale: en-us
 guid: 038ff0e6-06fa-46c7-83e2-e59c83ff90fe

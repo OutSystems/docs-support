@@ -1,6 +1,13 @@
 ---
 summary: "OS-DP-STREAM-00012 log streaming error: gRPC 12 (Unimplemented) response from your destination server in OutSystems platform, with cause and fix."
-tags: log streaming, error handling, grpc errors, server configuration, outsystems platform
+tags:
+  - Debugging
+  - Infrastructure
+  - Logging
+  - Monitoring
+  - Settings
+  - Troubleshooting
+  - Web services
 guid: 1b01900c-30d3-49fc-a562-3c6a51982738
 locale: en-us
 app_type: traditional web apps, mobile apps, reactive web apps

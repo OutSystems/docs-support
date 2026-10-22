@@ -1,6 +1,9 @@
 ---
 summary: "OS-DP-STREAM-00007 permission denied error in OutSystems platform log streaming: gRPC 7 response, wrong credentials or endpoint URL."
-tags: error handling, log streaming, security, configuration, troubleshooting
+tags:
+  - Authentication
+  - Logging
+  - Troubleshooting
 guid: 31062f99-3a03-4a8a-8a9c-70e950043509
 locale: en-us
 app_type: traditional web apps, mobile apps, reactive web apps

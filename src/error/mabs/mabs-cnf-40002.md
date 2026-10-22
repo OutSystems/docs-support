@@ -1,6 +1,9 @@
 ---
 summary: OS-MABS-CNF-40002 error occurs when an extensibility configuration image file is missing, blocking mobile app package generation.
-tags: error handling, app packaging, mobile app configuration, extensibility configurations, support procedures
+tags:
+  - Extensions
+  - Mobile app
+  - Troubleshooting
 guid: 7f7a3cb2-8ead-4da9-b822-e494a42f9815
 locale: en-us
 app_type: mobile apps

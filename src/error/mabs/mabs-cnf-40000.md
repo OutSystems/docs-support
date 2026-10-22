@@ -1,6 +1,11 @@
 ---
 summary: OS-MABS-CNF-40000 error occurs when an icon is missing in extensibility configurations, preventing app package generation in OutSystems.
-tags: error handling, app packaging, mobile app development, app configuration, outsystems platform
+tags:
+  - Extensions
+  - Mobile app
+  - Native App
+  - Settings
+  - Troubleshooting
 guid: 3609e34e-2ec9-4454-bc4c-ab8094c37881
 locale: en-us
 app_type: mobile apps

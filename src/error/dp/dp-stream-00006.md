@@ -1,6 +1,11 @@
 ---
 summary: "OS-DP-STREAM-00006 gRPC \"already exists\" error in OutSystems platform log streaming: check your APM tool and reconnect."
-tags: error handling, log streaming, server connection, debugging, grpc errors
+tags:
+  - Debugging
+  - Logging
+  - Monitoring
+  - Troubleshooting
+  - Web services
 guid: cdf1d741-9c39-4af5-8efd-df3aca7c1a41
 locale: en-us
 app_type: traditional web apps, mobile apps, reactive web apps

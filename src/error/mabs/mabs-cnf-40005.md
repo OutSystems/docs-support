@@ -1,6 +1,10 @@
 ---
 summary: OS-MABS-CNF-40005 occurs when an extensibility configuration has an invalid property type, or a Secret or Binary Setting in ODC has no value set.
-tags: extensibility configurations, error resolution, configuration management, mobile app development
+tags:
+  - Extensions
+  - Mobile app
+  - Settings
+  - Troubleshooting
 guid: 53eb9fbf-6dc5-43ad-ab70-69a709bfc9b4
 locale: en-us
 app_type: mobile apps

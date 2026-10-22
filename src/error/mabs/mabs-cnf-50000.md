@@ -1,6 +1,10 @@
 ---
 summary: OS-MABS-CNF-50000 error occurs when a server-side failure prevents extensibility configurations from being processed, blocking app package generation.
-tags: error handling, server-side issues, application packaging, extensibility, debugging
+tags:
+  - Debugging
+  - Extensions
+  - Mobile app
+  - Troubleshooting
 guid: 0d165cfe-cef6-4d22-8c80-f5ff53207ea5
 locale: en-us
 app_type: mobile apps

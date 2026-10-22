@@ -1,6 +1,10 @@
 ---
 summary: OS-DP-STREAM-00013 error occurs when the destination server returns a gRPC 13 (Internal) response during log streaming setup in OutSystems platform.
-tags: log streaming, error handling, connection issues, grpc, application performance management
+tags:
+  - Logging
+  - Monitoring
+  - Troubleshooting
+  - Web services
 guid: 1b6ec9da-271f-450b-9ae3-da4202959284
 locale: en-us
 app_type: traditional web apps, mobile apps, reactive web apps

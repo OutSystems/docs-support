@@ -1,6 +1,9 @@
 ---
 summary: MABS error OS-MABS-CNF-40006 on the OutSystems platform occurs when a required property is missing in extensibility configurations.
-tags: extensibility, configuration, error handling, mobile app development, json
+tags:
+  - Extensions
+  - Mobile app
+  - Troubleshooting
 guid: c77550a1-5774-42a1-a51a-89db2c68e73d
 locale: en-us
 app_type: mobile apps
