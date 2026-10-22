@@ -5,7 +5,13 @@ guid: 4109983c-357c-4cf5-b51f-19ef2cda02a5
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
 figma: https://www.figma.com/file/6tXLupLiqfG9FOElATTGQU/Troubleshooting?node-id=3327:496
-tags: logging, troubleshooting, .net stack, performance monitoring, technical support
+tags:
+  - .NET
+  - Debugging
+  - Java
+  - Logging
+  - Platform Server
+  - Troubleshooting
 audience:
   - Developer
   - Platform administrator

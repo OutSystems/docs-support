@@ -1,6 +1,10 @@
 ---
 summary: The configuration file has an invalid format. Add a file with a valid format for SSLPinning. Learn more about configuration files in our documentation.
-tags: error handling, ssl pinning, configuration management, mobile app deployment, outsystems platform
+tags:
+  - Mobile app
+  - Plugins
+  - Security
+  - Troubleshooting
 guid: 304aa7a9-1cef-4535-b1ed-9b3c0b1b1b84
 locale: en-us
 app_type: mobile apps

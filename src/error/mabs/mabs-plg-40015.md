@@ -1,6 +1,12 @@
 ---
 summary: Couldn't install the Cordova plugin <plugin_name>. Using "requireCordovaModule" to load a non-Cordova module <node_module> is not supported. Add this module to your dependencies and use the regular "require" to load it.
-tags: mobile app build, cordova plugins, plugin installation error, dependency management, build logs
+tags:
+  - Cordova
+  - Debugging
+  - Logging
+  - Mobile app
+  - Plugins
+  - Troubleshooting
 locale: en-us
 app_type: mobile apps
 guid: 93b1a435-7e75-4617-a687-9e41697beef6

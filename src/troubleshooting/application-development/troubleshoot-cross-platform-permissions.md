@@ -5,7 +5,8 @@ guid: 8EE47E91-1685-47CA-8A64-50C4A5CD8150
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11, odc
 figma: https://www.figma.com/file/6tXLupLiqfG9FOElATTGQU/Troubleshooting?node-id=2616:4337
-tags: ide usage, reactive web apps, troubleshooting, permissions errors, cross-platform development
+tags:
+  - Troubleshooting
 audience:
   - Developer
   - Front-end developer

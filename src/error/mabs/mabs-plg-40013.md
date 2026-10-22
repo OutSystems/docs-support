@@ -1,6 +1,11 @@
 ---
 summary: Couldn't install the Cordova plugin <plugin_name> because the plugin tried to edit a missing XML node <xml_node>.
-tags: cordova, xml configuration, plugin installation, error handling, mobile app development
+tags:
+  - Cordova
+  - Debugging
+  - Mobile app
+  - Plugins
+  - Troubleshooting
 locale: en-us
 app_type: mobile apps
 guid: 3a786d63-2283-4abe-8842-894d0ce6cf1b

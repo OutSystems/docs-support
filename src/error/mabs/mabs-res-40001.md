@@ -1,6 +1,11 @@
 ---
 summary: The configuration file for SSLPinning must not contain OutSystems domains. Review the JSON file and delete any OutSystems domains.
-tags: ssl pinning, mobile app security, error handling, application building, outsystems mabs
+tags:
+  - Domains
+  - Mobile app
+  - Plugins
+  - Security
+  - Troubleshooting
 guid: 30dec9fe-2fc7-4f3b-8572-6baf5c73958d
 locale: en-us
 app_type: mobile apps

@@ -1,6 +1,10 @@
 ---
 summary: Couldn't install the Cordova plugin <plugin_name> because your plugin doesn't support this Cordova version.
-tags: cordova plugins, mabs, compatibility issues, application packaging, technical support
+tags:
+  - Cordova
+  - Mobile app
+  - Plugins
+  - Troubleshooting
 locale: en-us
 app_type: mobile apps
 guid: b5e10182-7b82-440f-9892-0cebd7e29755

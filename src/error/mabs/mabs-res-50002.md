@@ -1,6 +1,8 @@
 ---
 summary: Couldn’t fetch your app resources.
-tags: error handling, application generation, build troubleshooting, mobile app development
+tags:
+  - Mobile app
+  - Troubleshooting
 guid: b69549d9-1a98-4037-9e5a-f341b1a3f1c0
 locale: en-us
 app_type: mobile apps

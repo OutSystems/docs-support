@@ -1,6 +1,11 @@
 ---
 summary: Couldn't install the Cordova plugin due to a missing dependency in module <node_module>. Check your plugin dependencies and try again.
-tags: cordova plugins, dependency management, mobile app build, error resolution
+tags:
+  - Cordova
+  - Debugging
+  - Mobile app
+  - Plugins
+  - Troubleshooting
 locale: en-us
 app_type: mobile apps
 guid: fc687c8b-e95e-4241-9995-48bf3ec6c96d

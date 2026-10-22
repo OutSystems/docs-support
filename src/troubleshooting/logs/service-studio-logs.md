@@ -1,6 +1,10 @@
 ---
 summary: OutSystems 11 (O11) provides detailed error reporting and enhanced logging capabilities in Service Studio to assist in troubleshooting and support.
-tags: error handling, diagnostics, support, logging, ide usage, reactive web apps
+tags:
+  - Debugging
+  - Logging
+  - Settings
+  - Troubleshooting
 locale: en-us
 guid: f8cdaea8-0cdd-4466-830e-8bcf9d4ac8e7
 app_type: traditional web apps, mobile apps, reactive web apps
