@@ -1,6 +1,11 @@
 ---
 summary: OS-MABS-GEN-40019 Cordova plugin compilation failure on OutSystems platform due to malformed resources; check Service Center build logs to resolve.
-tags: mobile app development, cordova plugins, compilation errors, plugin configuration, error handling
+tags:
+  - Cordova
+  - Debugging
+  - Mobile app
+  - Plugins
+  - Troubleshooting
 guid: aa28c280-cf1b-4279-802f-456617bbb753
 locale: en-us
 app_type: mobile apps

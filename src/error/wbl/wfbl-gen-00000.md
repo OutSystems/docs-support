@@ -1,6 +1,8 @@
 ---
 summary: OutSystems 11 (O11) Workflow Builder unknown error indicates an unspecified service disruption; retry the action or contact OutSystems support.
-tags: error handling, workflow builder, outsystems platform, service interruption
+tags:
+  - Troubleshooting
+  - Workflows
 locale: en-us
 guid: 341753fa-a48f-4926-89ec-25f1de0c10d2
 app_type: traditional web apps, mobile apps, reactive web apps

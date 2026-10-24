@@ -1,6 +1,12 @@
 ---
 summary: OS-MABS-GEN-40020 occurs when MABS can't modify the Android Build Tools version, overridden in extensibility configurations or a Cordova plugin.
-tags: android build tools, cordova plugins, mobile application building, application errors
+tags:
+  - Android
+  - Cordova
+  - Extensions
+  - Mobile app
+  - Plugins
+  - Troubleshooting
 guid: 72dac8b4-2950-4aa6-a249-bd7fd75b9e4a
 locale: en-us
 app_type: mobile apps

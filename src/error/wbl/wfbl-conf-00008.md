@@ -1,6 +1,10 @@
 ---
 summary: Workflow Builder template error in OutSystems 11 (O11) blocks app creation from a predefined template and requires contacting support.
-tags: error handling, application creation, troubleshooting, outsystems workflow builder, template configuration
+tags:
+  - Blocks
+  - Templates
+  - Troubleshooting
+  - Workflows
 locale: en-us
 guid: 7d72d8b6-f845-4326-aa90-118dc708ba1f
 app_type: traditional web apps, mobile apps, reactive web apps

@@ -1,6 +1,10 @@
 ---
 summary: "OutSystems 11 (O11) EnvModule creation error blocks publishing when external module dependency validation fails."
-tags: error handling, dependency validation, application publishing, outsystems platform
+tags:
+  - Deploy
+  - Infrastructure
+  - Platform Server
+  - Troubleshooting
 locale: en-us
 guid: fa6b8ae9-3aef-4ab1-bc3a-8ddb43c7a126
 app_type: traditional web apps, mobile apps, reactive web apps

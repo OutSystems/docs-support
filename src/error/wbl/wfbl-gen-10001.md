@@ -1,6 +1,10 @@
 ---
 summary: OutSystems 11 (O11) Workflow Builder invalid access error occurs when a user lacks permission to perform an operation.
-tags: error handling, permission issues, security, troubleshooting, support
+tags:
+  - Authorization
+  - Security
+  - Troubleshooting
+  - Workflows
 locale: en-us
 guid: d528800d-d929-49dd-9ea3-8378debe4043
 app_type: traditional web apps, mobile apps, reactive web apps

@@ -1,6 +1,10 @@
 ---
 summary: OS-MABS-GEN-40017 occurs in OutSystems MABS 8+ when a plugin uses a Gradle compile dependency; update it to implementation or api to fix the error.
-tags: android development, mobile app build, dependency management, gradle build system, troubleshooting
+tags:
+  - Android
+  - Mobile app
+  - Plugins
+  - Troubleshooting
 guid: 90030a88-ff2b-40c8-b0d8-e8a7bc20966e
 locale: en-us
 app_type: mobile apps

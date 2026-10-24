@@ -1,6 +1,12 @@
 ---
 summary: OS-MABS-GEN-40018 error in OutSystems MABS 8+ occurs when the Whitelist plugin is referenced; rename it to AllowList in your Cordova Android plugin.
-tags: cordova, plugin migration, mobile app development, error handling, outsystems service center
+tags:
+  - Android
+  - Cordova
+  - Debugging
+  - Mobile app
+  - Plugins
+  - Troubleshooting
 guid: 0fdc2abc-b67c-43f0-bb3d-3bdcfcdd5496
 locale: en-us
 app_type: mobile apps

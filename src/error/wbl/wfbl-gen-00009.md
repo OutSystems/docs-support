@@ -1,6 +1,12 @@
 ---
 summary: Workflow Builder module error blocks OutSystems 11 (O11) app publishing when external entity dependencies lack download permission.
-tags: error handling, application publishing, dependency management, permission issues
+tags:
+  - Authorization
+  - Deploy
+  - Entities
+  - Infrastructure
+  - Troubleshooting
+  - Workflows
 locale: en-us
 guid: 4e2640ad-ac76-418e-bea8-33823fe0abfe
 app_type: traditional web apps, mobile apps, reactive web apps
