@@ -1,6 +1,10 @@
 ---
 summary: Explore how to test connectivity between environments in OutSystems 11 (O11) by accessing the Service Center console via HTTPS.
-tags: connectivity testing, network infrastructure, environment setup, secure communication
+tags:
+  - Architecture
+  - Infrastructure
+  - Testing
+  - Troubleshooting
 locale: en-us
 guid: 4cd51773-8433-49d9-850c-0b958956e63d
 app_type: traditional web apps, mobile apps, reactive web apps

@@ -1,6 +1,11 @@
 ---
 summary: Learn how to extract Android device logs using adb and logcat to troubleshoot issues with OutSystems 11 (O11).
-tags: android, adb, logcat, debugging, troubleshooting
+tags:
+  - Android
+  - Debugging
+  - Logging
+  - Mobile app
+  - Troubleshooting
 locale: en-us
 guid: 36b333c2-1bf0-4e3e-9162-6894bb2c76f7
 app_type: mobile apps

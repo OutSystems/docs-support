@@ -5,7 +5,6 @@ tags:
   - iOS
   - Mobile app
   - Plugins
-  - Service Center
   - Settings
   - Troubleshooting
 guid: f98cf59e-ed4f-4b06-9f97-e755adc0c2d9

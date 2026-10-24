@@ -5,7 +5,11 @@ guid: 17dce373-e3a1-42e2-94c0-eda549d76cb5
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
 figma: https://www.figma.com/file/6tXLupLiqfG9FOElATTGQU/Troubleshooting?node-id=3327:480
-tags: platform upgrade, personal environment, environment management, scheduled upgrade
+tags:
+  - Infrastructure
+  - Lifecycle
+  - Platform Server
+  - Troubleshooting
 audience:
   - Platform administrator
   - Developer

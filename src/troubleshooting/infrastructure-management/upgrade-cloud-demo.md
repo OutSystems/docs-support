@@ -1,5 +1,8 @@
 ---
-tags: cloud infrastructure, platform upgrade, environment management, cloud hosting, downtime planning
+tags:
+  - Infrastructure
+  - Lifecycle
+  - Platform Server
 summary: Learn how to upgrade your OutSystems 11 (O11) Cloud demo environment through self-service or automatic options, ensuring you plan for associated downtime.
 locale: en-us
 guid: D364023A-59AE-4351-843B-8A0C8E5756D8
