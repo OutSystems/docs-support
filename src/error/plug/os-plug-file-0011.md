@@ -22,8 +22,6 @@ coverage-type:
   - unblock
 topic:
   - resolve-missing-parent-directory
-  - using-cordova-plugins
-  - wrap-cordova-plugin
 isautopublish: true
 ---
 
