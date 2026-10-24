@@ -8,7 +8,7 @@ coverage-type:
 topic:
   - pe-hibernation-basics
   - pe-hibernation-vs-deletion
-  - wake-hibernated-pe
+  - wake-hibernated-pe-odc
 app_type: reactive web apps,mobile apps
 platform-version: odc
 audience:
