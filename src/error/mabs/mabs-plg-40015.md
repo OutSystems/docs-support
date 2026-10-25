@@ -20,7 +20,7 @@ outsystems-tools:
 coverage-type:
   - unblock
 topic:
-  - non-cordova-module-error
+  - non-cordova-module-load-error
 ---
 
 # OS-MABS-PLG-40015

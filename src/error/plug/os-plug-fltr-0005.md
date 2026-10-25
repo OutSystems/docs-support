@@ -22,8 +22,6 @@ coverage-type:
   - unblock
 topic:
   - file-transfer-server-url-validation
-  - using-cordova-plugins
-  - wrap-cordova-plugin
 isautopublish: true
 ---
 

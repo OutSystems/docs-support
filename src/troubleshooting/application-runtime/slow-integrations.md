@@ -21,8 +21,7 @@ coverage-type:
   - apply
   - unblock
 topic:
-  - async-processes-basics
-  - connect-process-ui
+  - queue-integration-work
   - timer-overview
 ---
 
