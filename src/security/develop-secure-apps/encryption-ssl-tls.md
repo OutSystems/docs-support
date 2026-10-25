@@ -16,7 +16,7 @@ outsystems-tools:
 coverage-type:
   - apply
 topic:
-  - data-encryption
+  - encrypt-sensitive-data
   - secure-data-in-transit
 ---
 

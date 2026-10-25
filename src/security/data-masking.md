@@ -16,7 +16,7 @@ outsystems-tools:
 coverage-type:
   - understand
 topic:
-  - data-masking
+  - data-masking-techniques
 ---
 
 # Data masking with OutSystems

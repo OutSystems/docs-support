@@ -20,8 +20,8 @@ outsystems-tools:
 coverage-type:
   - unblock
 topic:
-  - using-cordova-plugins
-  - wrap-cordova-plugin
+  - check-file-plugin-version
+  - file-plugin-rebuild
 isautopublish: true
 ---
 
