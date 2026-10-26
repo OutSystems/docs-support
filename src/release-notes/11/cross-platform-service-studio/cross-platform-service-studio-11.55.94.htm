@@ -1,0 +1,23 @@
+---
+isautopublish: true
+pageprivacy: semi-private
+---
+
+<h2 id="cross-platform_service_studio_11.55.94" >Cross-platform Service Studio 11.55.94</h2>
+<div class="info"><p>This is a preliminary version of the document.</p></div>
+
+
+<style>.cattag {background: #f4f2ff; color: #6a6581; padding: 4px 10px;}</style>
+<h3 id="new_in_cross-platform_service_studio_11.55.94" >New in Cross-platform Service Studio 11.55.94</h3>
+<ul>
+<li>Service Studio now brings its window to the foreground, restoring it if minimized, when an MCP agent requests a connection or an interactive merge conflict needs resolving, so the popup is no longer missed. (R11DT-4105)</li>
+<li>Fixed an issue that caused the Studio to freeze and use excessive memory while searching. (RDEV-10344)</li>
+</ul>
+<h3 id="bug_fixing_cross-platform_service_studio_11.55.94" >Bug Fixing</h3>
+<ul>
+<li>Fixed an error during Traditional-to-Reactive conversion involving disabled Aggregates referencing input parameters or server action outputs. (R11DT-4377)</li>
+<li>Fixed an issue where setting the MCP Server port to a value between 1024 and 9999 was rejected and fell back to the default port. Now you can configure the MCP Server port using any port in the registered range from 1024 to 49151. (R11DT-4394)</li>
+<li>Improved the edit data experience: the context menus now show disabled items correctly and group options with separators, the confirmation message shown when you apply edited data is now centered, and secondary buttons now use the correct background color in the light theme. (RDEV-10141)</li>
+<li>Fixed an issue that caused the Check for Updates option in the Help menu to download the Intel (x64) version of Service Studio on Mac computers with Apple silicon. (RDPIM-4443)</li>
+</ul>
+
