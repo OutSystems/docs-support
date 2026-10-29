@@ -29,171 +29,142 @@ isautopublish: true
 
 # OutSystems Personal Edition FAQ
 
-**What is the OutSystems Personal Edition, and who can use it?**
+## At a glance
 
-The OutSystems Personal Edition (also referred to as PE) is the new, free version of OutSystems Developer Cloud (ODC), designed for all users, including prospects, customers, partners, and community members. Its primary purpose is to provide a dedicated space for exploring the platform, learning, and contributing to the OutSystems ecosystem. Anyone with a Community Account can request the OutSystems Personal Edition.
+| Topic | Detail |
+| :-: | :-: |
+| Price | Free, no credit card required |
+| How long does it last? | Active for 15 days by default, and it stays active while you build and govern |
+| AI | Conversational development (Mentor) and agent orchestration (Agent Workbench) included. Mentor: 11.5M tokens per day, also used through MCP |
+| Users | Up to 100 internal users |
+| Stages | Development only; production isn't included |
+| Support | Best effort, no Service-Level Agreement (SLA) |
+| Can I move to a paid edition? | [Contact us](https://www.outsystems.com/). You can export your apps and agents to take them with you. |
 
-**Is the OutSystems PE free and forever?**
+## Can I build and govern apps and AI agents for free with OutSystems?
 
-The OutSystems PE is free of charge, and you can keep it for as long as you're actively building with it.
+Yes. OutSystems Personal Edition is free and requires no credit card. Everything you build web apps, mobile apps, AI agents, and agentic workflows is built within your own governed portfolio, under your own rules, guardrails, and architecture. Nothing is built outside it. Create through conversational development (Mentor), orchestrate agents that work together (Agent Workbench), and connect to your existing systems and data (Private Gateway). Governance is applied from the first prompt, so what you prototype stays secure and consistent as it grows. Personal Edition is for evaluating, learning, development, and testing, not production.
 
-* When you request a new PE, it stays active for 15 days by default and continues to renew while you're using it to build.
+Personal Edition also suits personal apps and hobby projects. Your free environment stays active while you keep building.
 
-* If you become inactive, we assume you no longer need it, and your PE expires, keeping the free program healthy for the whole developer community.
+## Can I use Claude Code or other AI coding assistants to build and govern OutSystems apps and agents?
 
-* We'll email you 3 days before your PE is deleted, so you have time to log back in or save your work.
+Yes. Supported AI tools such as Claude Code, Cursor, or AWS Kiro, or any tool compatible with the Model Context Protocol (MCP) can connect to OutSystems MCP to read, build, and govern apps and agents in your Personal Edition. Start by requesting a Personal Edition, then follow the [OutSystems MCP setup guide](https://success.outsystems.com/documentation/outsystems_developer_cloud/agentic_development/outsystems_mcp/get_started_with_outsystems_mcp/).
 
-* To avoid losing your work, export your apps' OML files if you think you'll become inactive for an extended period. You can import them into a new PE later.
+## Does using OutSystems MCP use my Mentor tokens?
 
-* Even if your PE expires, you can always request a new one. To do it, you must go to the [Personal Edition](https://www.outsystems.com/personaledition/) portal and request a new one.
+Yes. Each Personal Edition includes 11.5M Mentor tokens per day, shared across all the ways you use Mentor: in Mentor, Mentor Studio, and through OutSystems MCP. When your AI coding assistant (such as Claude Code, Cursor, or AWS Kiro) asks Mentor to build or change apps through MCP, that usage counts toward the same daily allowance. Your AI assistant’s own model usage, for example, your Claude Code plan, is billed separately by that provider.
 
-**What is PE hibernation and how do I reactivate my PE?**
+## Can I prototype enterprise apps and AI agents for free?
 
-Your ODC PE automatically enters hibernation after 72 hours of inactivity. Hibernation is a low-resource sleep state where all your work is fully preserved. This is different from deletion: your PE is never removed unless it remains inactive for an extended period, as described in the ODC PE lifecycle.
-For additional information on PE hibernation, refer to the [OutSystems PE Hibernation FAQ](pe-hibernation-faq.md).
+Yes. Create your first agentic system and prototype end-to-end business apps, AI agents, and workflows connected to your own systems. Personal Edition isn't meant for production, but it's the fastest way to explore and evaluate OutSystems: build your proofs of concept, then share them with up to 100 colleagues and business stakeholders in your organization before you decide what comes next.
 
-To reactivate your PE, you can either manually wake it from the **Manage Organization** console in the ODC Portal, or it automatically wakes when you perform a developer action such as logging in to ODC Studio or publishing your apps.
+Start today: request a Personal Edition with no credit card, connect your AI tools, and turn an idea into a working prototype. [Request your Personal Edition.](https://www.outsystems.com/personaledition/)
 
-**I've requested a Personal Edition, but it's not yet available. What happened?**
+## What is Personal Edition, and who is it for?
 
-Personal Editions are usually available right away. In rare cases, high demand might mean your Personal Edition takes longer to create, and you'll be placed on a waiting list. Creation times vary. We'll email you as soon as your Personal Edition is ready.
+Personal Edition (PE) is a free OutSystems Developer Cloud (ODC) environment for learning, evaluating, building, and prototyping on the platform. Anyone with an OutSystems account can request one. It includes conversational development (Mentor) and agent orchestration (Agent Workbench), lets you connect to your existing systems and data (Private Gateway), and needs no credit card.
 
-**Can I invite my team to access my OutSystems Personal Edition?**
+* **Price**:
+    * Free, no credit card required, and free for as long as you keep building with it.
+* **Team access**:
+    * Invite up to 100 internal users.
+* **Best for**:
+    * Learning ODC, training, sandboxing ideas, and contributing to the Forge.
+    * Build and govern proofs of concept and explore ideas before you commit.
+    * Connect to your own external databases and services through the Private Gateway, which is included.
+* **Not included**:
+    * Production stage. The free Personal Edition has a Development stage only. For mission-critical apps and agents, ODC is built for production; [contact us](https://www.outsystems.com/) to plan the move.
 
-Yes. You send the invite from the ODC Portal, and users access the ODC Portal from the invitation email. If they are already Community users, they input their Community credentials and access OutSystems. If not, they are redirected to the sign-up form before accessing the ODC Portal.
+## How do I get started?
 
-**What is included in the OutSystems Personal Edition?**
+Request a Personal Edition after logging in or signing up on the [Personal Edition page](https://www.outsystems.com/personaledition/). During high demand, you can be placed on a waiting list, and OutSystems emails you as soon as it's ready.
 
-The OutSystems Personal Edition is designed for training, sandboxing, and exploring ODC. It differs from the commercial-grade ODC tenant and includes the following:
+## Can I invite my team?
 
-* 1 Development stage
+Yes. To collaborate with teammates or share what you've built, invite them from the ODC Portal. They sign in with their credentials, or create an account if they don't have one.
 
-* 2 API clients
+## What can I build?
 
-* Up to 100 internal users
+You can build and govern any type of application: web, mobile, agentic apps, and workflows. Each Personal Edition includes these resources:
 
-* Up to 8 active components running at any given time. This total includes applications, workflows, AI agents, and timers.
-  For example, your OutSystems Personal Edition can run 3 applications, 2 workflows, 2 AI agents, and 1 timer simultaneously.
+| Resource | Included |
+| :-: | :-: |
+| Development stage | 1 |
+| API clients | 2 |
+| Internal users | Up to 100 |
+| Active components at one time | Up to 8, for example 3 apps, 2 workflows, 2 AI agents, and 1 timer |
+| Database storage | 1 GB |
+| Custom code execution | 10 min per day |
+| Timer execution | 30 min per day |
+| External libraries | 10 min per day |
+| Application logs | 50 per minute |
+| Private Gateway | Included |
 
-* Up to 1GB of database storage
+Track your consumption in the [subscription console](https://www.outsystems.com/tk/redirect?g=504cdfa5-68d4-46ce-8363-e08aa05e4514). When you need more, paid ODC adds production stages, more capacity, and add-ons such as self-hosting and higher uptime on top of these baseline features. [Contact us](https://www.outsystems.com/) to plan your move.
 
-* Up to 10 min/day of custom code execution
+## Which AI features are included?
 
-* Up to 30 min/day of timer execution
+The following table lists the AI capabilities in Personal Edition and their limits.
 
-* Up to 10 min/day of external libraries execution
+| Capability | What it does | Limits in Personal Edition |
+| --- | --- | --- |
+| Mentor | Generates new apps from a prompt | 11.5M tokens per day, refreshed daily and shared with Mentor Studio and MCP. Covers everything you build with Mentor: web and mobile apps, AI agents, and agentic workflows. Up to 20 apps generated per day, 2 per minute. [Mentor limits](https://www.outsystems.com/tk/redirect?g=D940C32D-0409-4D49-B6FE-BB831E5EF12C) |
+| Mentor Studio | Changes existing apps (logic, screens, data) through conversation in ODC Studio | Shares the same 11.5M daily tokens. [AI development in Mentor Studio](https://www.outsystems.com/tk/redirect?g=27f4f846-5c2d-44fd-b9a2-99f5d2770cb2) |
+| Through MCP (Claude Code, Cursor, AWS Kiro, or any MCP-compatible tool) | Asks Mentor to build or change apps from your AI coding tool | Shares the same 11.5M daily tokens. Your AI tool's own model usage is billed separately by that provider. [OutSystems MCP setup guide](https://success.outsystems.com/documentation/outsystems_developer_cloud/agentic_development/outsystems_mcp/get_started_with_outsystems_mcp/) |
+| Agent Workbench trial models | Run the AI agents you build, without connecting your own model | Claude 3.7 Sonnet and Amazon Nova Pro: 4M tokens and 1,000 requests in total per Personal Edition, **not renewable**. 20 requests and 100k tokens per minute. Connect your own model to keep going. |
 
-* Up to 50 application logs/minute
+Mentor usage counts toward the same 11.5M-token daily allowance whether you use it in Mentor, Mentor Studio, or through OutSystems MCP. The Agent Workbench trial-model tokens are a separate allowance; using one doesn’t use up the other.
 
-All the above limits are controlled on the [subscription console](https://www.outsystems.com/tk/redirect?g=504cdfa5-68d4-46ce-8363-e08aa05e4514).
+For reference, 11.5M tokens per day is enough to build a medium-sized app, such as an internal business app with 10 to 20 screens, multiple entities, and integrations with external systems, and keep iterating on it the same day.
 
-**Can I use add-ons in my Personal Edition?**
+Agent Workbench is included for everyone at no cost. You can connect your own AI models at any time.
 
-Add-ons are not included in the Personal Edition, except for Private Gateways.
+## Is Personal Edition free, and how long does it last?
 
-**What kind of apps can be built in the OutSystems Personal Edition?**
+Your Personal Edition stays free and active while you keep building with it. A new Personal Edition is active for 15 days by default.
 
-The OutSystems Personal Edition can be used to develop any type of OutSystems application, from mobile to web, agentic apps, and workflows.
-Note that OutSystems Personal Editions are designed for exploration, training, and sandboxing use cases, so they are best suited for small developments. It's not supported for mission-critical or heavy-usage apps.
+* If you use it during the last 5 days of that period, it extends automatically by 7 days, and keeps extending while you stay active.
+* After 72 hours without activity, it enters [hibernation](https://www.outsystems.com/tk/redirect?g=b8e8a5da-3f85-4be0-b75f-e85ade6b30d4). Your work is saved. To wake it, use **Manage Organization** in the ODC Portal, or run any developer action, such as logging in to ODC Studio or publishing an app.
+* If there's no activity by the end of the period, it's deleted. OutSystems emails you 3 days before.
+* To keep your work, export your apps and agents and import them into a new Personal Edition. Only the apps move; configurations and application data are lost. You can request a new [Personal Edition](https://www.outsystems.com/personaledition/) at any time.
 
-**Is the Agent Workbench available in OutSystems Personal Edition?**
+## Can I connect external systems, use my own identity provider, or deploy to production?
 
-Yes, Agent Workbench is available for free for everyone in the OutSystems Personal Edition. We encourage everyone to take advantage of it.
+* **External databases and services**: Connect through Private Gateway, which reaches your own private external systems.
+* **Identity**: Connect your external identity provider (IdP) to your applications. The ODC Portal itself stays on your Community account login.
+* **Deployment**: Personal Edition has one development stage. It's built for development and testing, not production.
+* **Security scanning**: External Static Application Security Testing (SAST) tools aren't available in Personal Edition.
 
-**Are AI trial models available in the OutSystems Personal Edition?**
+## What support is included?
 
-Yes. Trial models, Claude 3.7 Sonnet, and Amazon Nova Pro are supported by default in OutSystems Personal Edition to help prospects test Agent Workbench without needing their own AI models. These trial AI models have the following fixed usage limits and cannot be renewed:
+Get help from [ODC documentation](https://success.outsystems.com/documentation/outsystems_developer_cloud/), [online training](https://learn.outsystems.com/training), the [Community forums](https://www.outsystems.com/forums), and [AI-powered assistance](https://www.outsystems.com/DSUP_AI_UI/AISearchAgent). You can also open a support ticket in the ODC Portal. Support for Personal Edition is provided on a best-effort basis and has no SLA.
 
-* Request Limit per Tenant: 1,000
+## Can I use pre-built components to build faster?
 
-* Request Limit per Tenant per Minute: 20
+Yes. Start from pre-built components, connectors and agents (Forge) instead of building everything from scratch. [Browse the Forge](https://www.outsystems.com/forge/).
 
-* Token Limit per Tenant per min: 100k
+You can also contribute your own assets from your Personal Edition. Upload them under your name and invite other Community members to collaborate. Forge assets will count toward your Community profile ranking soon, and points you have already earned will be included.
 
-* Token Limit per Tenant: 4M
+Forge has more than 8,800 assets available, and the number keeps growing.
 
-**What happens when I reach the limit of my Trial model when using an Agent?**
+## How does Personal Edition compare with paid ODC?
 
-Once the limit is reached, additional calls return an error. In the ODC Portal's AI models console, the trial card shows that the limit has been reached.
-How the error information reaches the agent's end user depends on your agentic app design. The event is always logged and visible in the ODC Portal, on the Logs page.
+Personal Edition is free. When you outgrow it, contact us to discuss your move to ODC. There's no self-serve upgrade path to an ODC tenant. You can export the apps and agents you have built in your Personal Edition and take them with you.
 
-As described above, AI trial models cannot be renewed. If you have your own paid AI models, you can add them to your OutSystems Personal Edition.
+| | Personal Edition | ODC (paid) |
+| :-: | :-: | :-: |
+| Price | Free, no credit card required | Get an estimate, based on application objects, end users, and add-ons |
+| Runtimes | Development | Development, test, and production |
+| Hosting | OutSystems Cloud | OutSystems Cloud, or self-hosted as an add-on |
+| Uptime guarantee | None | 99.5%, or 99.95% as an add-on |
+| Compliance | None | ISO 27001 (limited), more with add-ons |
+| Users | Up to 100 internal users | Starts with 100 internal users, add internal and external users |
+| Applications | Proof-of-concept applications | Starts with 1 medium production app, scale with add-ons |
 
-**Is Mentor available in the OutSystems Personal Edition?**
+## Can I move my apps and agents to another edition?
 
-Yes. Mentor is available in Personal Edition with the known [usage restrictions](https://www.outsystems.com/tk/redirect?g=D940C32D-0409-4D49-B6FE-BB831E5EF12C).
-
-**Is Mentor Studio available in the OutSystems Personal Edition?**
-
-Yes. Mentor Studio is available in the OutSystems Personal Edition. You can use Mentor Studio to modify existing apps through conversational AI directly in ODC Studio, including generating and modifying logic, screens, and data structures. For details on what Mentor Studio can do, refer to [AI development in Mentor Studio](https://www.outsystems.com/tk/redirect?g=27f4f846-5c2d-44fd-b9a2-99f5d2770cb2).
-
-**Can the Personal Edition be used to integrate with external databases or services?**
-
-Yes. Extensibility is available in the OutSystems Personal Edition. The OutSystems Personal Edition includes the Private Gateway add-on, which allows you to connect to your own private external databases and services.
-
-**Can I connect my OutSystems Personal Edition to my external Identity Provider (IdP)?**
-
-Yes, at the application level. You can use your external IdP in your applications, but you cannot use it to log in to the OutSystems Personal Edition. To use your external IdP, you need to configure it on the ODC Portal. To log in to the OutSystems Personal Edition, you always need to use your Community account.
-
-**Can I use external Static Application Security Testing (SAST) analysis tools on my Personal Edition apps?**
-
-No. Integration with SAST tools is not available on Personal Editions.
-
-**Can I deploy my OutSystems Personal Edition application to the Production stage?**
-
-No. The OutSystems Personal Edition is limited to one stage, the Development stage.
-
-**Is there any limit on the number of users who can access the apps built with the Personal Edition?**
-
-Yes. Up to 100 users; however, we don't recommend exceeding dozens of users because these tenants are not ready for production loads, and the experience degrades.
-
-**Are we retiring O11 Personal Edition?**
-
-No. OutSystems 11 Personal Edition continues to exist, and you can still use it for O11 training and O11 Forge community use cases. The OutSystems 11 Personal Edition is accessible in the Community menu, Platform > O11.
-
-**Can a user have both the OutSystems Personal Edition and the OutSystems 11 Personal Edition?**
-
-Yes, a user can have both Personal Editions.
-
-**Can a prospect migrate their apps from O11 Personal Edition to OutSystems Personal Edition?**
-
-No. A direct app upgrade path from an O11 Personal Environment to OutSystems Personal Edition does not exist.
-
-**Can a user move their apps from one OutSystems Personal Edition to another OutSystems Personal Edition?**
-
-Yes. Although no direct migration between OutSystems Personal Editions is in place, you can export and import your apps from one OutSystems Personal Edition to another. Note that configurations and application data are lost.
-
-**What's the service level agreement (SLA) for the OutSystems Personal Edition?**
-
-There aren't SLAs for OutSystems Personal Editions. The OutSystems Personal Edition is set to be up and running 24x7 without interruptions. However, as a free offering, there are no SLAs for availability or performance.
-
-**What kind of support is available?**
-
-Support for OutSystems Personal Edition is provided at best effort. You can open a support ticket via the ODC Portal. Community members can also access these resources:
-
-* [ODC documentation](https://success.outsystems.com/documentation/outsystems_developer_cloud/)
-* [Online training](https://learn.outsystems.com/training)
-* [Community support](../intro.md)
-* [AI-powered assistance](https://www.outsystems.com/DSUP_AI_UI/AISearchAgent?Search=)
-
-To evaluate how OutSystems fits your needs, [talk to us](https://www.outsystems.com/schedule-demo/) or check our [Evaluation Guide](https://www.outsystems.com/evaluation-guide/).
-
-**Is it possible to contribute to ODC Forge in a Personal Edition?**
-
-Yes. The new Personal Edition makes it easier for every developer to contribute and collaborate on the Forge. By making it easier for the community to contribute, OutSystems can scale the number of AI Agents available to customers. This helps accelerate the adoption of the AI Agent Workbench and provides customers with a wider variety of ready-to-use solutions.
-
-**Can I upload assets to Forge in my individual name?**
-
-Yes. You can use your OutSystems Personal Edition to submit assets to ODC Forge. Assets submitted this way are attached to your Personal Edition. The displayed publisher name in ODC Forge is the **First and Last Name** of your Community Account.
-
-**Can I have other Community members collaborating on my ODC Forge assets?**
-
-Yes. You can invite other team members to your own Personal Edition. This allows others to make changes to your assets and submit new versions of them to ODC Forge.
-
-**Will my Forge assets contribute to my Community Profile ranking?**
-
-Yes. Not immediately at the ONE Conference. However, the Developer Relations team plans to ensure that ODC Forge assets count towards your community profile ranking. Any points you've already earned from Forge assets are also taken into account when this is rolled out.
-
-**Can I transfer the Forge assets I uploaded in my Company's tenant to my OutSystems Personal Edition?**
-
-There isn't an automated process for this. After submitting a first asset through their OutSystems Personal Edition to Forge, Community users should open a support case. The request must include proof that their company acknowledges the ownership transfer of the Forge asset.
+* **Between Personal Editions**: Export your apps and import them into a new one. Configurations and application data are lost, so export and import moves only the apps.
+* **From OutSystems 11 Personal Edition**: There's no direct migration path. OutSystems 11 Personal Edition is still available from the Community menu.
+* **Both can coexist**: You can use an ODC Personal Edition and an OutSystems 11 Personal Edition at the same time.
+* **Forge assets from a company tenant**: A transfer to your Personal Edition needs a support case with proof that your company acknowledges the transfer.
