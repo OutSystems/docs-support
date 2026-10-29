@@ -32,7 +32,7 @@ isautopublish: true
 ## At a glance
 
 | Topic | Detail |
-| :-: | :-: |
+| --- | --- |
 | Price | Free, no credit card required |
 | How long does it last? | Active for 15 days by default, and it stays active while you build and govern |
 | AI | Conversational development (Mentor) and agent orchestration (Agent Workbench) included. Mentor: 11.5M tokens per day, also used through MCP |
@@ -89,7 +89,7 @@ Yes. To collaborate with teammates or share what you've built, invite them from 
 You can build and govern any type of application: web, mobile, agentic apps, and workflows. Each Personal Edition includes these resources:
 
 | Resource | Included |
-| :-: | :-: |
+| --- | --- |
 | Development stage | 1 |
 | API clients | 2 |
 | Internal users | Up to 100 |
@@ -153,7 +153,7 @@ Forge has more than 8,800 assets available, and the number keeps growing.
 Personal Edition is free. When you outgrow it, contact us to discuss your move to ODC. There's no self-serve upgrade path to an ODC tenant. You can export the apps and agents you have built in your Personal Edition and take them with you.
 
 | | Personal Edition | ODC (paid) |
-| :-: | :-: | :-: |
+| --- | --- | --- |
 | Price | Free, no credit card required | Get an estimate, based on application objects, end users, and add-ons |
 | Runtimes | Development | Development, test, and production |
 | Hosting | OutSystems Cloud | OutSystems Cloud, or self-hosted as an add-on |
