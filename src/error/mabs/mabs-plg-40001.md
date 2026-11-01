@@ -1,5 +1,5 @@
 ---
-summary: Invalid Cordova plugin <plugin_name>.
+summary: MABS invalid Cordova plugin errors block OutSystems platform builds; check Service Center logs and plugin package.json to fix package generation.
 tags:
   - Cordova
   - Mobile app
