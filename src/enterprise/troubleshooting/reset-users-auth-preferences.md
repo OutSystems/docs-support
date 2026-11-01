@@ -20,6 +20,8 @@ outsystems-tools:
   - users application
 coverage-type:
   - unblock
+topic:
+  - users-app-lockout
 ---
 
 # Unblock access to Users app
