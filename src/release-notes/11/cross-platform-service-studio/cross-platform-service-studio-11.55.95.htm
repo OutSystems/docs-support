@@ -8,12 +8,9 @@ pageprivacy: public
 
 
 <style>.cattag {background: #f4f2ff; color: #6a6581; padding: 4px 10px;}</style>
-<h3 id="new_in_cross-platform_service_studio_11.55.95" >New in Cross-platform Service Studio 11.55.95</h3>
-<ul>
-<li>Fixed an issue where element change-tracking properties (such as Created By and Last Modified By) could be incorrectly overwritten when applying Model API changes via MCP. Now, Model API changes applied via MCP automatically attribute element authorship and timestamps to the signed-in developer. (R11DT-4256)</li>
-</ul>
 <h3 id="bug_fixing_cross-platform_service_studio_11.55.95" >Bug Fixing</h3>
 <ul>
+<li>Fixed an issue where element change-tracking properties (such as Created By and Last Modified By) could be incorrectly overwritten when applying Model API changes via MCP. Now, Model API changes applied via MCP automatically attribute element authorship and timestamps to the signed-in developer. (R11DT-4256)</li>
 <li>Fixed an issue that caused Service Studio to stop responding for several seconds while validating modules with many widgets that have width or margin values. (RDEV-10508)</li>
 <li>Fixed an issue that caused Service Studio to stop responding for several seconds when refreshing the Toolbox in environments with many screen templates and sample blocks. (RDEV-10509)</li>
 <li>Fixed an issue on macOS where the login in Service Studio never completed after developers signed in through the browser. This occurred on some machines after Service Studio was updated, and also affected other links that open Service Studio from the browser. (RDEV-10521)</li>
