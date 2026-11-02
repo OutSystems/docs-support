@@ -3,6 +3,11 @@ build:
     input-folder: src
     output-folder: build
     related-title: See Also   
+    # Release notes are generated upstream and cannot be fixed here, but the current Markdown rejects
+    # their broken HTML. Report those errors as warnings (docs-toolkit, builddocs README) until they
+    # are fixed upstream, then remove this setting (TK-24666).
+    tolerate-html-errors-in:
+        - "release-notes/*"
 publish:
     url: https://success.outsystems.com/
     root_path: Support
