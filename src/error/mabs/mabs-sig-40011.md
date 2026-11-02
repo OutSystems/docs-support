@@ -3,6 +3,7 @@ summary: There was an issue generating the app. Please check if your app identif
 tags:
   - iOS
   - Mobile app
+  - Native App
   - Troubleshooting
 guid: 4f6e76b1-ffcf-4099-a247-d3c4b4238b84
 locale: en-us
