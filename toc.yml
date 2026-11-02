@@ -485,6 +485,16 @@
         - href: error/mabs/mabs-res-50002.md
         - href: error/mabs/mabs-unx-50000.md
         - href: error/mabs/mabs-unx-50001.md
+        - href: error/mabs/mabs-upld-40001.md
+        - href: error/mabs/mabs-upld-40003.md
+        - href: error/mabs/mabs-upld-40005.md
+        - href: error/mabs/mabs-upld-40006.md
+        - href: error/mabs/mabs-upld-40007.md
+        - href: error/mabs/mabs-upld-40008.md
+        - href: error/mabs/mabs-upld-40009.md
+        - href: error/mabs/mabs-upld-40010.md
+        - href: error/mabs/mabs-upld-40011.md
+        - href: error/mabs/mabs-upld-50003.md
         - href: error/mabs/mabs-vld-50000.md
         - href: error/mabs/mabs-depecrated-error.md
         - href: error/mabs/mabs-undocumented-error.md
