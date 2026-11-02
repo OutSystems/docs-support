@@ -23,7 +23,7 @@ coverage-type:
 
 # How to change the OutSystems database endpoints used by applications
 
-<div class=”info” markdown=”1”>
+<div class="info" markdown="1">
 
 This procedure applies only to self managed infrastructures on OutSystems 11.
 
@@ -51,7 +51,7 @@ If you were looking for a different use case, please check the other documented 
 
 This document guides you through the necessary steps to change the database endpoints and make those effective on the OutSystems applications.
 
-<div class=“warning” markdown=”1”>
+<div class="warning" markdown="1">
 
 This procedure assumes that both old/current database address and new address are accessible. Otherwise, the procedure will cause downtime from the moment the old/current database address is unavailable or not responding until the procedure finishes.
 

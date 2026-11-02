@@ -59,7 +59,7 @@ These are the prerequisites to deobfuscate the logs.
 
     ![Screenshot of the ProGuard Retrace tool interface showing the process of deobfuscating a stack trace.](images/proguard-log.png "ProGuard Retrace Tool Interface")
 
-<div class="warning" markdown="1>
+<div class="warning" markdown="1">
 
 The lines for the purposes of parsing can't have the timestamp, which is what logcat tools usually produce. Instead, the lines must start with the **at** keyword.
 

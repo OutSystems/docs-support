@@ -468,6 +468,7 @@ If you detached the back-end source code of the mobile application and deployed 
 
 _&lt;content src="https:// ** &lt;new_endpoint_hostname&gt; ** /MyAppName/" /&gt;_  
 _&lt;preference name="DefaultHostname" value=" ** &lt;new_endpoint_hostname&gt; ** " /&gt;_
+
 </div>
 
 ##### Android mobile apps
