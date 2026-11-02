@@ -1,5 +1,5 @@
 ---
-summary: lease enter the right password for the keystore.
+summary: MABS Android keystore password errors, verify the password to generate your mobile app package.
 tags:
   - Android
   - Mobile app
