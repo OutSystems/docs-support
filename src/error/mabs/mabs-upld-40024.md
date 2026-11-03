@@ -19,6 +19,7 @@ outsystems-tools:
 coverage-type:
   - unblock
 topic:
+  - fix-running-build
 ---
 
 # OS-MABS-UPLD-40024

@@ -18,6 +18,7 @@ outsystems-tools:
 coverage-type:
   - unblock
 topic:
+  - fix-unavailable-package
 ---
 
 # OS-MABS-UPLD-40023

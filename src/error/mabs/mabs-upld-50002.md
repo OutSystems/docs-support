@@ -18,6 +18,7 @@ outsystems-tools:
 coverage-type:
   - unblock
 topic:
+  - 1-click-publish-errors
 ---
 
 # OS-MABS-UPLD-50002
