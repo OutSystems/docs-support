@@ -14,8 +14,6 @@ tags:
   - Troubleshooting
 audience:
   - Platform administrator
-  - Developer
-  - Front-end developer
 outsystems-tools:
   - service studio
   - service center
