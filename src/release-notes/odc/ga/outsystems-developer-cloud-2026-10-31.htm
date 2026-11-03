@@ -14,6 +14,7 @@ pageprivacy: public
 </ul>
 <h3 id="bug_fixing_outsystems_developer_cloud_2026-10-31" >Bug Fixing</h3>
 <ul>
+<li>Fixed an issue where, in apps using external IdPs, users could get stuck on the login redirect page if the login state was lost; the app now redirects to the home screen, if no other redirect occurred while handling the exception. (RPM-7283)</li>
 <li>Fixed an issue where, after a Back navigation with a transition animation, later screen navigations played that Back transition in the wrong direction until the app was reloaded. (RPM-7382)</li>
 </ul>
 
