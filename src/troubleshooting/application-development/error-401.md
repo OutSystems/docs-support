@@ -1,5 +1,5 @@
 ---
-summary: Explore troubleshooting steps for network issues preventing new app creation in OutSystems 11 (O11) due to authentication errors.
+summary: OutSystems 11 (O11) 401 errors prevent Service Studio app creation when proxy headers or IIS authentication settings are incorrect.
 locale: en-us
 guid: 292ae0af-338c-48d8-be72-b23cc3d84380
 app_type: traditional web apps, mobile apps, reactive web apps
