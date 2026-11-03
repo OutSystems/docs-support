@@ -15,6 +15,7 @@ outsystems-tools:
   - service studio
 coverage-type:
   - understand
+  - apply
 ---
 
 # Protecting OutSystems Apps From Redirects / Forwarders Vulnerabilities
