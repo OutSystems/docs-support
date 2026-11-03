@@ -18,6 +18,7 @@ outsystems-tools:
 coverage-type:
   - unblock
 topic:
+  - fix-missing-app-store-app
 ---
 
 # OS-MABS-UPLD-40007

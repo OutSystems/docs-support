@@ -8,7 +8,7 @@ tags:
 coverage-type:
   - unblock
 topic:
-  - google-play-console-upload-errors
+  - fix-target-sdk-error
 audience:
   - Developer
   - Platform administrator

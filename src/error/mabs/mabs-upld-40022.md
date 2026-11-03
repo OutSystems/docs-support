@@ -20,6 +20,7 @@ outsystems-tools:
 coverage-type:
   - unblock
 topic:
+  - fix-missing-credentials
 ---
 
 # OS-MABS-UPLD-40022

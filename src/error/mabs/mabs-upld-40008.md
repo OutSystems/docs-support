@@ -18,6 +18,7 @@ outsystems-tools:
 coverage-type:
   - unblock
 topic:
+  - fix-app-store-rejection
 ---
 
 # OS-MABS-UPLD-40008

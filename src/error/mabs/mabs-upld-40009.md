@@ -18,6 +18,7 @@ outsystems-tools:
 coverage-type:
   - unblock
 topic:
+  - fix-duplicate-version
 ---
 
 # OS-MABS-UPLD-40009

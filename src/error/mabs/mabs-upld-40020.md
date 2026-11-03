@@ -17,6 +17,7 @@ outsystems-tools:
 coverage-type:
   - unblock
 topic:
+  - fix-upload-in-progress
 ---
 
 # OS-MABS-UPLD-40020

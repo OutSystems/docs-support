@@ -8,7 +8,7 @@ tags:
 coverage-type:
     - unblock
 topic:
-    - google-play-console-upload-errors
+    - mabs-build-errors
 audience:
     - Developer
 guid: 43cd412b-b26d-44c4-96fe-6763233c55e8

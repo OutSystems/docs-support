@@ -7,7 +7,7 @@ tags:
 coverage-type:
   - unblock
 topic:
-  - google-play-console-upload-errors
+  - fix-version-code-error
 audience:
   - Developer
 guid: d5d200dc-5835-4785-a7dd-9ce0ef50667f

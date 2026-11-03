@@ -19,6 +19,7 @@ outsystems-tools:
 coverage-type:
   - unblock
 topic:
+  - fix-agreement-error
 ---
 
 # OS-MABS-UPLD-40011

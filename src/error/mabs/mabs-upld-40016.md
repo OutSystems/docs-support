@@ -9,7 +9,7 @@ tags:
 coverage-type:
   - unblock
 topic:
-  - google-play-console-upload-errors
+  - fix-play-service-account
 audience:
   - Developer
   - Platform administrator

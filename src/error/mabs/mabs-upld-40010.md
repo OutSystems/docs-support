@@ -19,6 +19,7 @@ outsystems-tools:
 coverage-type:
   - unblock
 topic:
+  - fix-app-store-role
 ---
 
 # OS-MABS-UPLD-40010

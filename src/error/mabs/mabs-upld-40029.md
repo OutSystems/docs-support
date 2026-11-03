@@ -8,7 +8,7 @@ coverage-type:
   - apply
   - unblock
 topic:
-  - google-play-console-upload-errors
+  - fix-cert-expiry
 audience:
   - Developer
 guid: 363a6658-b94f-4c3a-92b4-3b0e8e0313f2
