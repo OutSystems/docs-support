@@ -2,7 +2,7 @@
 summary: OS-MABS-UPLD-40018 error occurs when the Google Play Console rejects your app release for a reason that doesn't match a more specific ODC error.
 tags:
     - Android
-    - Google Play
+    - Deploy
     - Mobile app
     - Troubleshooting
 coverage-type:

@@ -1,6 +1,7 @@
 ---
 summary: Explore how to deploy applications in target environments using Service Center as a workaround in OutSystems 11 (O11).
 tags:
+  - 1-Click Publish
   - Deploy
   - Troubleshooting
 locale: en-us

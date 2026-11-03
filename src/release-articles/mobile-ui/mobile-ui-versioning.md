@@ -14,9 +14,11 @@ audience:
   - Front-end developer
   - Developer
 tags:
+  - Development lifecycle
   - Front-End
   - Lifecycle
   - Mobile app
+  - UI
 outsystems-tools:
   - odc studio
 helpids:
