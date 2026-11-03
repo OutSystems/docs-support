@@ -8,7 +8,7 @@ tags:
 coverage-type:
   - unblock
 topic:
-  - google-play-console-upload-errors
+  - fix-app-identifier-error
 audience:
   - Developer
 guid: b79bbf86-11a3-4b7b-a520-9062092997c2

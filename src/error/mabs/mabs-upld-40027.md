@@ -7,7 +7,7 @@ tags:
 coverage-type:
   - unblock
 topic:
-  - google-play-console-upload-errors
+  - fix-signing-key-mismatch
 audience:
   - Developer
   - Platform administrator

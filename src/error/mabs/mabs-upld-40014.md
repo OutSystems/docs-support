@@ -8,7 +8,7 @@ tags:
 coverage-type:
   - unblock
 topic:
-  - google-play-console-upload-errors
+  - enable-play-developer-api
 audience:
   - Developer
 guid: 253bbaf3-71da-446e-b0fa-d624cfd1d60e

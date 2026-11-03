@@ -18,6 +18,7 @@ outsystems-tools:
 coverage-type:
   - unblock
 topic:
+  - mabs-build-errors
 ---
 
 # OS-MABS-UPLD-50003
