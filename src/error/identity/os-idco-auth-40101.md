@@ -3,7 +3,6 @@ summary: "OS-IDCO-AUTH-40101 error in OutSystems Developer Cloud (ODC) occurs wh
 tags:
   - Authentication
   - End-user Authentication
-  - End-users
   - External Authentication
   - IdP
   - Troubleshooting

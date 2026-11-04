@@ -6,7 +6,9 @@ app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
 figma: https://www.figma.com/file/6tXLupLiqfG9FOElATTGQU/Troubleshooting?type=design&node-id=3371%3A45&mode=design&t=yxrwP6nyFMM4MyQJ-1
 tags:
+  - Debugging
   - Deploy
+  - Infrastructure
   - Platform Server
   - Troubleshooting
 audience:
