@@ -1,5 +1,5 @@
 ---
-summary: Cannot change the type of an existing attribute <Name> (<Id>).
+summary: Workflow Builder attribute type errors in OutSystems 11 (O11) explain why published fields cannot change type and how to create a replacement.
 tags:
   - Data Model
   - Troubleshooting

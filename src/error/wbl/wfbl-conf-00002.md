@@ -1,5 +1,5 @@
 ---
-summary: Atribute data is not valid <OriginalErrorMessage>.
+summary: Workflow Builder attribute data errors in OutSystems 11 (O11) identify inconsistent field data and the steps to restore access.
 tags:
   - Data
   - Data Integrity

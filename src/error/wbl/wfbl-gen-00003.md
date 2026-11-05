@@ -1,5 +1,5 @@
 ---
-summary: Application not found <ApplicationId>.
+summary: OutSystems 11 (O11) application not found errors occur when an application ID no longer exists; verify visibility before contacting support.
 tags:
   - Troubleshooting
   - Workflows

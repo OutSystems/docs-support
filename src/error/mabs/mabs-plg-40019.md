@@ -1,5 +1,5 @@
 ---
-summary: <plugin_name>
+summary: OutSystems platform MABS Forge plugin compatibility errors require updating the plugin before application package generation.
 tags:
   - Forge
   - Mobile app

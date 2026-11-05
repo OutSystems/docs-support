@@ -1,5 +1,5 @@
 ---
-summary: Specified application version do not exists or the status update is invalid <ApplicationVersionId>.
+summary: Workflow Builder application version errors in OutSystems 11 (O11) identify invalid ApplicationVersionId values and restore status updates.
 tags:
   - Troubleshooting
   - Workflows

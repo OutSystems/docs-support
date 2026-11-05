@@ -1,5 +1,5 @@
 ---
-summary: Cannot create Group <OriginalErrorMessage>.
+summary: OutSystems 11 (O11) Workflow Builder group creation errors occur when member operations fail; retry the operation or contact support.
 tags:
   - Groups
   - Troubleshooting

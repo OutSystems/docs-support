@@ -1,5 +1,5 @@
 ---
-summary: Unable to discard version. It has published versions <ApplicationVersionId>.
+summary: OutSystems 11 (O11) Workflow Builder errors occur when published application versions block deletion; log out and log in again to resolve the issue.
 tags:
   - Troubleshooting
   - Workflows
