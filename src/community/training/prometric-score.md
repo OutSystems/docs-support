@@ -1,5 +1,5 @@
 ---
-summary: Exam candidate who did not receive exam results looking to how to get it
+summary: Prometric score report access helps OutSystems 11 (O11) exam candidates retrieve results with a confirmation number and last name.
 locale: en-us
 guid: C23D1280-132D-41F8-B27F-F58F719F4FCE
 coverage-type:

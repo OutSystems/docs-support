@@ -1,5 +1,5 @@
 ---
-summary: <ErrorCode> <Message>, a Salesforce error message.
+summary: Salesforce API errors in Integration Builder for OutSystems 11 (O11) identify connection failures and recovery steps.
 tags:
   - REST
   - Troubleshooting
