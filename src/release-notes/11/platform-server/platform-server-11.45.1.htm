@@ -1,0 +1,44 @@
+---
+isautopublish: true
+pageprivacy: semi-private
+---
+
+<h2 id="platform_server_11.45.1" >Platform Server 11.45.1</h2>
+<div class="info"><p>This is a preliminary version of the document.</p></div>
+
+
+<style>.cattag {background: #f4f2ff; color: #6a6581; padding: 4px 10px;}</style>
+<h3 id="new_in_platform_server_11.45.1" >New in Platform Server 11.45.1</h3>
+<ul>
+<li>MySQL 8.0.x is no longer supported as an external database, following its end of life in April 2026. Connections to MySQL 8.0.x servers continue to work but Service Center now shows an "unsupported version" warning when you create or test the connection. Upgrade affected servers to MySQL 8.4 or later. (R11BCT-601)</li>
+<li>Added support for Oracle 26ai. This applies to the platform database, as well as external databases. (R11BCT-624)</li>
+</ul>
+<h3 id="bug_fixing_platform_server_11.45.1" >Bug Fixing</h3>
+<ul>
+<li>Fixed an issue where publishing a mobile app with a native build would throw an error if MABS was disabled (R11BCT-650)</li>
+<li>Fixed an issue that caused a compilation error when mapping inner structures using top level context structures/attributes. (RPM-1335) <span class="cattag">Publish Operation</span>  <span class="cattag">Compilation</span> </li>
+<li>Fixed a JavaScript error that blocked remaining widgets from initializing on screen load. This was triggered when a Combo Box inside a read-only Form or Editable Table had spaces or special characters in its selected record ID. (RPM-306) <span class="cattag">Application Runtime</span>  <span class="cattag">Interface</span> </li>
+<li>Fixed an issue where publishing a Reactive Web or Mobile module failed when a screen's aggregate filtered on a Static Entity record that was passed into a function. (RPM-3294) <span class="cattag">Publish Operation</span>  <span class="cattag">Compilation</span> </li>
+<li>Improved resilience over inconsistencies in external database configurations during compilation. (RPM-3722) <span class="cattag">Publish Operation</span>  <span class="cattag">Compilation</span> </li>
+<li>Fixed an issue where REST Consume actions incorrectly replaced '+' characters with spaces in query parameters. You can enable this fix via Factory Configuration (disabled by default to prevent breaking changes). (RPM-3952) <span class="cattag">Application Runtime</span>  <span class="cattag">Logic Execution</span> </li>
+<li>Fixed an issue that caused "Module doesn't exist in the environment
+" errors when synchronising environments in LifeTime. (RPM-431) <span class="cattag">Application Lifecycle</span>  <span class="cattag">Server.API</span> </li>
+<li>Fixed an issue that caused slow responses and timeouts when using Redis. You can limit the concurrent Redis session operations via Factory Configuration and then republishing your applications. (RPM-6076) <span class="cattag">Application Runtime</span>  <span class="cattag">Data Access and Manipulation</span> </li>
+<li>Fixed an issue that caused the API definition (OpenAPI/Swagger specification) of an exposed REST API to declare a required property that did not exist. This occurred when a Structure used as a parameter had mandatory Attributes whose Name in JSON was different from the Attribute name: the "required" list used the Attribute name, while the "properties" object correctly used the Name in JSON. Now, the "required" list also uses the Name in JSON, so it always matches the property names in the specification. The runtime behavior of the REST API was not affected. (RPM-651) <span class="cattag">Application Runtime</span>  <span class="cattag">Public APIs</span> </li>
+<li>Fixed an issue that caused the CleanSAMLLogs Timer of the Users application to fail when using SAML authentication with SQL Server and a date format other than the default. (RPM-7124) <span class="cattag">Application Lifecycle</span>  <span class="cattag">Users</span> </li>
+<li>Fixed an issue that caused SAML authentication to fail with an "Unable to Process Request" error and a data truncation error in the logs for the RelatedURL column of the SAML Message Log. (RPM-7126) <span class="cattag">Application Lifecycle</span>  <span class="cattag">Users</span> </li>
+<li>Fixed an issue that prevented Multiple Database Catalogs (MDC) to be configured in Service Center when using Azure Managed Instances as the Platform Server database provider. (RPM-7302) <span class="cattag">Application Lifecycle</span>  <span class="cattag">Service Center</span> </li>
+<li>Fixed a security vulnerability that could allow impersonation of platform users. (RPM-7082) <span class="cattag">Application Lifecycle</span>  <span class="cattag">LifeTime</span> </li>
+<li>Fixed an issue that allowed the logout page of the Users module to redirect end-users to an external site when they opened it from a link on that site. Now, end-users stay on the environment's own domain after logout, unless you allow other domains in the login redirect site properties. (RPM-7207) <span class="cattag">Application Lifecycle</span>  <span class="cattag">Service Center</span> </li>
+<li>Fixed a security vulnerability that allowed low-privileged IT users to bypass some Service Center authorization checks. (RPM-7289) <span class="cattag">Application Lifecycle</span>  <span class="cattag">Service Center</span> </li>
+<li>Fixed a security vulnerability that allowed low-privileged IT users to change the configurations of the OIDC identity provider. (RPM-7326) <span class="cattag">Application Lifecycle</span>  <span class="cattag">Service Center</span> </li>
+<li>Fixed a security vulnerability that allowed low-privileged IT users to change the environment purpose and bypass Production restrictions. (RPM-7349) <span class="cattag">Application Lifecycle</span>  <span class="cattag">Service Center</span> </li>
+<li>Fixed a security vulnerability that allowed low-privileged IT users to extract platform database data. (RPM-7352) <span class="cattag">Application Lifecycle</span>  <span class="cattag">Service Center</span> </li>
+<li>Fixed a security vulnerability that allowed low-privileged IT users to change the LDAP authentication provider configuration. (RPM-7354) <span class="cattag">Application Lifecycle</span>  <span class="cattag">Service Center</span> </li>
+<li>Fixed a security vulnerability that allowed low-privileged IT users to replace the environment-wide peer-environment compatibility inventory used by Service Studio. (RPM-7357) <span class="cattag">Application Lifecycle</span>  <span class="cattag">Service Center</span> </li>
+<li>Fixed a security vulnerability that allowed low-privileged IT users to retrieve mobile signing keystore and plaintext passwords. (RPM-7364) <span class="cattag">Application Lifecycle</span>  <span class="cattag">Service Center</span> </li>
+<li>Fixed a security vulnerability that allowed low-privileged IT users to permanently delete saved application versions. (RPM-7369) <span class="cattag">Application Lifecycle</span>  <span class="cattag">Service Center</span> </li>
+<li>Fixed a security vulnerability that allowed low-privileged IT users to create or overwrite saved application versions. (RPM-7373) <span class="cattag">Application Lifecycle</span>  <span class="cattag">Service Center</span> </li>
+<li>Upgraded the BouncyCastle.Cryptography library bundled with the platform to version 2.7.0. This fixes several security vulnerabilities reported in this dependency. (RPM-7399) <span class="cattag">Application Runtime</span> </li>
+</ul>
+
