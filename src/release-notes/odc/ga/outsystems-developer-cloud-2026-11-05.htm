@@ -1,0 +1,15 @@
+---
+isautopublish: true
+pageprivacy: public
+---
+
+<h2 id="outsystems_developer_cloud_2026-11-05" >OutSystems Developer Cloud 2026-11-05</h2>
+<div class="info"><p>Released on Nov 05, 2026</p></div>
+
+
+<style>.cattag {background: #f4f2ff; color: #6a6581; padding: 4px 10px;}</style>
+<h3 id="bug_fixing_outsystems_developer_cloud_2026-11-05" >Bug Fixing</h3>
+<ul>
+<li>Fixed an issue that caused an app to stop responding until it was redeployed, with every request that reads or writes data failing with a timeout after about a minute. This occurred when the browser cancelled requests that were starting a database operation, for example when an end user navigated to another screen or closed the page while it was still loading. Each such request left one of the app's database connections unusable, so the issue built up over time. Apps with high traffic, or with screens that run many Data Actions at once (such as a Block on each row of a list that runs its own Data Action), reached it sooner. Now, cancelled requests release their database connections.<br>The fix applies to an app after you publish it again and <a href="https://success.outsystems.com/documentation/outsystems_developer_cloud/deploying_assets/">deploy</a> the new revision to each stage where it runs. Deploying a revision published before the fix does not apply it. (RPLAT-4668)</li>
+</ul>
+
