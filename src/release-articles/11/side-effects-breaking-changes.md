@@ -1,13 +1,13 @@
 ---
 summary: OutSystems 11 (O11) side effects and breaking changes by Platform Server version, covering database deprecations, regex timeouts, and upgrade impacts.
 tags:
-  - Authentication
   - Deploy
   - Extensions
   - External Databases
   - Platform Server
-  - SAML
   - Security
+  - SQL
+  - Web services
 locale: en-us
 guid: 2cfe6cf6-118b-41dc-b4f3-a36ed20a3841
 app_type: traditional web apps, mobile apps, reactive web apps
@@ -18,6 +18,7 @@ coverage-type:
   - apply
   - unblock
 audience:
+  - Architect
   - Developer
   - Platform administrator
   - Tech lead
@@ -33,11 +34,25 @@ As such, before introducing a breaking change for a new release, OutSystems care
 
 ## Breaking changes
 
+### Introduced in Platform Server 11.45.1
+
+1\. <a id="bc-11451-1"></a>
+
+**Issue**: Dropped support for MySQL versions 8.0.x and below as external databases.
+
+**Runtime**: Traditional web, Reactive web, Mobile
+
+**Rationale**: MySQL no longer supports version 8.0. As such, we are aligning our supported external databases to that of the MySQL Community.
+
+In the future, OutSystems may, at its own discretion, drop support for other database engines and versions that are no longer supported by the database engine provider.
+
+**Fix**: Update MySQL version. Ensure that any applicable databases are set to a supported range as per OutSystems system requirements. OutSystems advises customers to choose a Long Term Release version that is both supported by MySQL and OutSystems.
+
 ### Introduced in Platform Server 11.40.0
 
 1\. <a id="bc-11400-1"></a>
 
-**Issue**: Dropped support PostgreSQL versions 13.x and below as external databases.
+**Issue**: Dropped support for PostgreSQL versions 13.x and below as external databases.
 
 **Runtime**: Traditional web, Reactive web, Mobile
 
@@ -61,7 +76,7 @@ In the future, OutSystems may, at its own discretion, drop support for other dat
 
 2\. <a id="bc-11380-2"></a>
 
-**Issue**: Dropped support PostgreSQL versions 12.x and below as external databases.
+**Issue**: Dropped support for PostgreSQL versions 12.x and below as external databases.
 
 **Runtime**: Traditional web, Reactive web, Mobile
 
@@ -87,7 +102,7 @@ In the future, OutSystems may, at its own discretion, drop support for other dat
 
 1\. <a id="bc-11330-1"></a>
 
-**Issue**: Dropped support for SQL Server 2014 (and corresponding compatibility level) as the Platform server's database management system.
+**Issue**: Dropped support for SQL Server 2014 (and corresponding compatibility level) as the platform's database management system.
 
 **Runtime**: Traditional web, Reactive web, Mobile
 
@@ -101,7 +116,7 @@ In the future, OutSystems may, at its own discretion, drop support for other dat
 
 2\. <a id="bc-11330-2"></a>
 
-**Issue**: Dropped support SQL Server versions 2014 and below (as well as corresponding compatibility levels) as external databases.
+**Issue**: Dropped support for SQL Server versions 2014 and below (as well as corresponding compatibility levels) as external databases.
 
 **Runtime**: Traditional web, Reactive web, Mobile
 
@@ -290,7 +305,7 @@ It is possible to enable the configuration "Allow introspection of views using D
 
 ### Introduced in Platform Server 11.19.0 { #bc-11190-1 }
 
-#### Solution Publish
+#### Solution publish
 
 **Issue**: In a Solution Publish, if a module references (directly or indirectly) multiple extensions and those extensions contain different versions of the same DLL, the Publish process chooses one of those DLLs to deploy. There was never a guarantee that the final application would work if those DLLs or their dependencies were incompatible with each other. In version 11.19.0, the algorithm that chooses the DLLs to deploy changed. It's possible that applications that were previously working, because the algorithm picked one DLL, stop working because it now picks another.
 
@@ -567,7 +582,7 @@ You should only use this workaround if it's not viable to fix all the affected e
 
 **Workaround**: This change has an impact on extensions that are using SharpZipLib to read ZIP files, or in extensions using libraries that have SharpZipLib as a dependency (like NPOI). It's recommended that you test any Zip and Excel-related functionalities of your applications after upgrading. If you find any issues, you must change any OutSystems extensions using third-party libraries that depend on SharpZipLib version 0.86.0. In the extensions, update the version of these third-party libraries to a version that uses SharpZipLib version 1.1.0.
 
-### Introduced in Platform Server Oct.2019
+### Introduced in Platform Server 11.0.606.0
 
 **Issue**:  Integrations with external databases that use Oracle Database 10g Release 2 will stop working.
 
@@ -577,7 +592,7 @@ You should only use this workaround if it's not viable to fix all the affected e
 
 **Workaround**: Upgrade your Oracle engine to version 11g Release 2 or later.
 
-### Introduced in Platform Server Sep.2018
+### Introduced in Platform Server 11.0.108.0
 
 #### LifeTime and Service Center
 
@@ -732,7 +747,7 @@ To check which Modules are affected, run the following query against your Oracle
 
 **Workaround**: Use the [SOAP Extensibility API](https://success.outsystems.com/Documentation/11/Reference/OutSystems_APIs/SOAP_Extensibility_API) to authenticate requests using client-side certificates in consumed SOAP web services that were created in OutSystems 11. Check the [client certificate authentication example](https://success.outsystems.com/Documentation/11/Extensibility_and_Integration/SOAP/Consuming_SOAP_Web_Services/Use_Advanced_Extensibility/Example%3A_Authenticate_using_a_client_certificate) provided in the API documentation.
 
-#### Web Server Configuration (IIS)
+#### Web server configuration (IIS)
 
 13\. <a id="bc-13"></a>
 
@@ -744,7 +759,7 @@ To check which Modules are affected, run the following query against your Oracle
 
 **Workaround**: None. You should check if all the applications in those application pools work in Integrated mode. Issues will only arise if you have included settings that are only applicable to Classic mode in `web.config` files.
 
-#### Built-in Functions
+#### Built-in functions
 
 14\. <a id="bc-14"></a>
 
@@ -756,7 +771,7 @@ To check which Modules are affected, run the following query against your Oracle
 
 **Workaround**: None.  
 
-#### JavaScript and HTML Rendering
+#### JavaScript and HTML rendering
 
 15\. <a id="bc-15"></a>
 
@@ -792,7 +807,7 @@ To check which Modules are affected, run the following query against your Oracle
 
 **Workaround**: If you are using the AddPostProcessingFilter action of the HTTPRequestHandler extension to add filters that somehow rely on the presence of the 'scheme' attribute of meta elements, you should adapt your source regular expression of the action to improve its handling of optional attributes of meta tags.
 
-#### Custom Handlers
+#### Custom handlers
 
 18\. <a id="bc-18"></a>
 
@@ -978,7 +993,7 @@ Upgrading a module in Service Studio will remove any dependencies on these entit
 
 **Workaround**: None. We changed the reference semantics in binary resources: they are now copied to the consumers and will trigger a recompilation when a binary resource is changed.
 
-#### OSP Tool
+#### OSPTool
 
 33\. <a id="bc-33"></a>
 
@@ -1012,7 +1027,7 @@ Upgrading a module in Service Studio will remove any dependencies on these entit
 
 **Workaround**: If you generated and distributed mobile apps between July 31, 2019 and October 9, 2019, generate those mobile apps again and then distribute them to the users before upgrading.
 
-#### Mobile Runtime
+#### Mobile runtime
 
 36\. <a id="bc-36"></a>
 
@@ -1042,7 +1057,7 @@ For example, the sent decimal values `10.000` and `10.1000` are deserialized to 
 
 ### Introduced in Platform Server 11.14.0
 
-#### Identity Service
+#### Identity service
 
 1\. <a id="se1114-1"></a>
 
@@ -1054,7 +1069,7 @@ For example, the sent decimal values `10.000` and `10.1000` are deserialized to 
 
 **Workaround**: None.
 
-### Introduced in Platform Server Sep.2018
+### Introduced in Platform Server 11.0.108.0
 
 #### OutSystems APIs
 
@@ -1068,7 +1083,7 @@ For example, the sent decimal values `10.000` and `10.1000` are deserialized to 
 
 **Workaround**: None.
 
-#### User Provider
+#### User provider
 
 2\. <a id="se-2"></a>
 
@@ -1081,7 +1096,7 @@ For example, the sent decimal values `10.000` and `10.1000` are deserialized to 
 **Workaround**: Determine what should be the User Provider of your factory (by default it should be 'Users') and set the 'User Provider' property accordingly. If a module is supposed to be a User Provider, change the 'Is User Provider' property value to 'Yes'.  
 Note: It's not recommended to change the User Provider of modules with Processes or Multi-tenant Entities/Timers/Site Properties.
 
-#### Custom Handlers
+#### Custom handlers
 
 3\. <a id="se-3"></a>
 
@@ -1093,7 +1108,7 @@ Note: It's not recommended to change the User Provider of modules with Processes
 
 **Workaround**: None.
 
-#### Debug Mode
+#### Debug mode
 
 4\. <a id="se-4"></a>
 
@@ -1105,7 +1120,7 @@ Note: It's not recommended to change the User Provider of modules with Processes
 
 **Workaround**: None.
 
-#### Solution Publish
+#### Solution publish
 
 5\. <a id="se-5"></a>
 
