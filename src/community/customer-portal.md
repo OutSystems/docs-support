@@ -1,20 +1,28 @@
 ---
-summary: Learn how to manage your team's access to OutSystems online tools such as Customer Portal, Support Portal, and Licensing.
+summary: OutSystems Customer Portal permissions let you manage O11 and ODC members, assign roles, and set the O11 security contact.
 coverage-type:
-    - understand
-    - apply
+  - understand
+  - apply
 tags:
+  - Authorization
+  - Infrastructure
+  - IT Roles
+  - IT Teams
+  - IT Users
+  - Roles
+  - Security
 topic:
-    - add-customer-portal-member
-    - customer-portal-access-levels
-    - set-customer-portal-security-contact
+  - add-customer-portal-member
+  - customer-portal-access-levels
+  - set-customer-portal-security-contact
 locale: en-us
 guid: 5bd7f106-3784-4821-a603-0ad0c0fd8f82
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11, odc
 audience:
-    - Platform administrator
+  - Platform administrator
 figma:
+isautopublish: true
 ---
 
 # Manage your company permissions in OutSystems Customer Portal
@@ -133,7 +141,7 @@ Granting developer permissions through the Customer Portal is [audited in LifeTi
 
 #### For ODC infrastructures
 
-Users created in the ODC Portal are automatically added to your account in the Customer Portal, based on their ODC organization roles. If they have a [Community account](intro.md), no other action is required. If a Community account doesn't exist, members marked as Pending need to [create an OutSystems Community account](https://www.outsystems.com/community/) with the same email to complete their onboarding and access the [ODC Training Catalog](https://learn.outsystems.com/training/catalog/odc).
+The Customer Portal can't create ODC members directly. Users created in the ODC Portal are automatically added to your account in the Customer Portal, based on their ODC organization roles. If they have a [Community account](intro.md), no other action is required. If a Community account doesn't exist, members marked as Pending need to [create an OutSystems Community account](https://www.outsystems.com/community/) with the same email. This completes their onboarding and grants access to the [ODC Training Catalog](https://learn.outsystems.com/training/catalog/odc).
 
 * ODC Administrator (built-in role) becomes an infrastructure admin.
 * ODC Developer (built-in role) becomes a member.
@@ -154,11 +162,18 @@ To change a user's permissions or remove them, use the ODC Portal. Users updated
 
 ### Define the security contact
 
-The security contact receives all security-related communications and notifications. This contact may have other permissions.
+The security contact receives all security-related communications and notifications. This contact can have other permissions.
+
+<div class="info" markdown="1">
+
+The security contact applies to O11 infrastructures. ODC doesn't have a security contact.
+
+</div>
 
 Security contacts are members that have the **Role** set to **Security**.
 
 In the **Security Contact** field, enter the phone number.
+
 Only users with **Company admin** or **Infrastructure admin** permissions can manage the security contact.
 
 If you need assistance managing your permissions, [contact OutSystems Support](https://www.outsystems.com/goto/contact-outsystems-support).
