@@ -8,6 +8,7 @@ coverage-type:
   - remember
 topic:
   - ios-12-viewport-flicker
+  - mabs-5-release-notes
 ---
 
 # MABS 5 Release notes
