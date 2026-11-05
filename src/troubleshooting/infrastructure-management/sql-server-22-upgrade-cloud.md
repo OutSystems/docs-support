@@ -15,7 +15,6 @@ audience:
   - Platform administrator
 tags:
   - Infrastructure
-  - Security
   - SQL
   - Troubleshooting
 outsystems-tools: 

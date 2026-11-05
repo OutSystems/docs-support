@@ -1,7 +1,8 @@
 ---
 summary: Explore the conditions to get any of OutSystems Community badges.
 tags:
-- Forge
+  - Events
+  - Forge
 audience:
   - Developer
 locale: en-us
