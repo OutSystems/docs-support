@@ -1,5 +1,5 @@
 ---
-summary: Binary for <resource-type> '<resource-name>' cannot be null or empty
+summary: MABS OS-NAOS-40008 errors in OutSystems Developer Cloud (ODC) when empty extensibility or mobile configuration files block package creation.
 tags:
   - Mobile app
   - Troubleshooting

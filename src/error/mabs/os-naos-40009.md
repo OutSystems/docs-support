@@ -1,5 +1,5 @@
 ---
-summary: Url to binary for <resource-type> '<resource-name>' cannot be empty
+summary: MABS OS-NAOS-40009 error in OutSystems Developer Cloud (ODC), replace empty binary files in mandatory extensibility settings.
 tags:
 - Mobile app
 - Native App

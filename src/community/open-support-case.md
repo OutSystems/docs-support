@@ -1,5 +1,5 @@
 ---
-summary: The article provides a guide on how to open a support case with OutSystems through their web portal.
+summary: OutSystems 11 (O11) support cases, choose infrastructure and case types in the Support Portal to route requests correctly.
 audience:
   - Architect
   - Developer

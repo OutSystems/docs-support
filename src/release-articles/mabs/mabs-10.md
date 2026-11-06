@@ -1,5 +1,5 @@
 ---
-summary: MABS 10 release notes
+summary: MABS 10 release notes cover Android 14 and iOS 17 targets, plugin requirements, and AndroidX breaking changes for OutSystems apps.
 guid: d7a23497-14cd-434f-8364-6f9949a02ff2
 locale: en-us
 app_type: mobile apps
