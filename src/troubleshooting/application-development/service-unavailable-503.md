@@ -12,6 +12,7 @@ audience:
 tags:
   - 1-Click Publish
   - Deploy
+  - Performance
   - Troubleshooting
 topic:
   - pe-503-resource-limit
