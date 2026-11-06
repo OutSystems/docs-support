@@ -8,6 +8,9 @@ summary: OutSystems 11 (O11) Forge FAQs answer common questions about sharing, c
 coverage-type:
   - unblock
   - understand
+topic:
+  - forge-overview
+  - forge-project-removal
 audience:
   - Developer
   - Front-end developer

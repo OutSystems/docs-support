@@ -15,6 +15,8 @@ outsystems-tools:
   - none
 coverage-type:
   - apply
+topic:
+  - resolve-fips-crypto-error
 ---
 
 # Installing the OutSystems on a FIPS compliant system

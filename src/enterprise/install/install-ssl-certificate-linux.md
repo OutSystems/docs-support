@@ -15,6 +15,10 @@ outsystems-tools:
   - none
 coverage-type:
   - apply
+topic:
+  - configure-app-server-ssl
+  - generate-csr-keytool
+  - import-ssl-cert-keystore
 ---
 
 # How to install an SSL Certificate for the OutSystems platform in Linux

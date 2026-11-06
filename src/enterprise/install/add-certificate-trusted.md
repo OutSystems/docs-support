@@ -15,6 +15,8 @@ outsystems-tools:
   - platform server
 coverage-type:
   - apply
+topic:
+  - trust-self-signed-cert-o11
 ---
 
 # Add self signed certificate to trusted root store on OutSystems

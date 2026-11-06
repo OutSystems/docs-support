@@ -16,6 +16,10 @@ audience:
 coverage-type:
   - apply
   - unblock
+topic:
+  - exam-refund-eligibility
+  - exam-reschedule-windows
+  - use-exam-voucher
 ---
 
 # OutSystems exams scheduling, cancelation and refund policies
