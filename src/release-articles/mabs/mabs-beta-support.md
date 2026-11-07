@@ -18,8 +18,8 @@ tags:
   - iOS
   - Mobile app
   - Native App
-  - Platform Server
   - Plugins
+  - Testing
 ---
 
 # Support for new mobile operating system versions

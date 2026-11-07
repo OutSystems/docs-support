@@ -3,7 +3,6 @@ summary: "ODC authentication and authorization errors: causes, impact, and steps
 tags:
   - Authentication
   - Authorization
-  - External Authentication
   - Troubleshooting
 locale: en-us
 guid: 02b57209-f724-431e-956f-f926340a5070

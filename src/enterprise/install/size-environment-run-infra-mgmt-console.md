@@ -10,6 +10,7 @@ tags:
   - Monitoring
   - Performance
   - Platform Server
+  - SQL
 audience:
   - Platform administrator
   - Developer
