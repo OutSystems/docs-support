@@ -15,6 +15,7 @@ outsystems-tools:
   - service center
 coverage-type:
   - remember
+  - apply
 topic:
   - find-activation-code
 ---
