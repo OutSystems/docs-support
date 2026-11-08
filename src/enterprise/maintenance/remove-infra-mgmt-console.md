@@ -10,7 +10,6 @@ tags:
   - Platform Server
 audience:
   - Platform administrator
-  - Developer
 outsystems-tools:
   - service center
   - lifetime

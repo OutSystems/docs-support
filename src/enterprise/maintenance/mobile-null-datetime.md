@@ -13,6 +13,7 @@ platform-version: o11
 figma:
 audience:
   - Developer
+  - Platform administrator
   - Front-end developer
 outsystems-tools:
   - platform server
