@@ -5,12 +5,12 @@ coverage-type:
 topic:
   - mabs-6-breaking-changes
 tags:
-- iOS
-- Mobile app
-- Native App
-- Plugins
-- Security
-- Troubleshooting
+  - Cordova
+  - iOS
+  - Mobile app
+  - Native App
+  - Plugins
+  - Troubleshooting
 audience:
 - Developer
 - Front-end developer

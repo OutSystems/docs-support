@@ -7,6 +7,8 @@ platform-version: o11
 figma: https://www.figma.com/file/cPLNnZfDOZ1NX3avcjmq3g/Enterprise%20Customers?node-id=619:8
 tags:
   - Data
+  - Deploy
+  - External Databases
   - Infrastructure
   - Platform Server
   - SQL

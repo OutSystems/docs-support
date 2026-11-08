@@ -1,6 +1,7 @@
 ---
 summary: Secret for <resource-type> '<resource-name>' cannot be empty
 tags:
+- Extensions
 - Mobile app
 - Settings
 - Troubleshooting

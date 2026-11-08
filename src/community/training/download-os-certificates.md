@@ -15,7 +15,6 @@ tags:
   - IT Roles
   - IT Teams
   - Roles
-  - Settings
 ---
 # How to download OutSystems certificates of your team
 
