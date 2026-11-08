@@ -21,6 +21,7 @@ topic:
   - certificate-access-scope
   - protect-signing-key
 coverage-type:
+  - understand
   - apply
 ---
 
