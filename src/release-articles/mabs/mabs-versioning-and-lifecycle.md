@@ -1,5 +1,5 @@
 ---
-summary: Learn about MABS versioning and lifecycle. 
+summary: MABS lifecycle covers major and minor releases, support states, beta versions, and mobile package version selection on the OutSystems platform.
 topic:
   - choose-mabs-version
   - mabs-lifecycle-timeline

@@ -1,5 +1,5 @@
 ---
-summary: The milestone has already been achieved.
+summary: Case Management framework milestone errors, diagnose Milestone_SetAchieved failures when a milestone is already achieved in Service Studio.
 tags:
   - Case Management framework
   - Debugging
