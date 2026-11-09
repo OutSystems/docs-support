@@ -4356,6 +4356,13 @@ knowledge-needs:
     - name: Configure Visual Studio
       id: configure-visual-studio
       description: Wants to install Microsoft Visual Studio with the .NET desktop development workload and have Integration Studio detect and use it, so they can develop C# extensions.
+    - name: Use .NET Standard library
+      id: use-netstandard-library
+      description: Wants to use .NET Standard libraries in an OutSystems 11
+        extension by targeting a supported .NET Framework version, configuring
+        Visual Studio and Integration Studio, and excluding unnecessary system
+        assemblies, so the extension builds and runs without runtime issues
+        when it depends on those libraries.
     - name: Extension source files
       id: extension-source-files
       description: Wants to understand which source files Integration Studio generates for an extension after it creates the extension, where those files are stored, and which generated files they should not edit in the .NET IDE, so they can work with the extension bootstrap files correctly.
@@ -17332,6 +17339,12 @@ knowledge-needs:
       actions with their equivalents, so the app benefits from dedicated release
       cycles, OutSystems support, and new features.
     subtopics:
+    - name: Migrate Firebase plugin
+      id: migrate-firebase-plugin
+      description: Wants to migrate an OutSystems mobile app from unsupported
+        Firebase-based plugins to supported Firebase plugins by setting up the
+        supported replacements and replacing legacy actions with their
+        equivalents, so the app receives ongoing support and compatible updates.
     - name: Migrate LogEvent action
       id: migrate-analytics-logevent
       description: Wants to replace the LogEvent action of the unsupported Firebase
