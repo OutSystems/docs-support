@@ -1,5 +1,5 @@
 ---
-summary: An error occurred due to an unexpected state in the compilation process
+summary: OutSystems mobile app compilation errors, including OS-NAOS-50019, explain unexpected build states and guide log review.
 tags:
   - Logging
   - Mobile app

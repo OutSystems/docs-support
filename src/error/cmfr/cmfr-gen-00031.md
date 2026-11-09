@@ -1,5 +1,5 @@
 ---
-summary: This rule isn't configured or doesn't exist.
+summary: OutSystems 11 (O11) Case Management framework rules, configure missing rules with RuleGroup_CreateOrUpdate in CaseConfigurations_API.
 tags:
   - Case Management framework
   - Troubleshooting

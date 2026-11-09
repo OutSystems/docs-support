@@ -1,5 +1,5 @@
 ---
-summary: There was an error processing rule <rule-identifier>. <error-message>
+summary: OutSystems 11 (O11) Case Management framework rule errors, identify the error code and follow its recommended action to restore execution.
 tags:
   - Case Management framework
   - Troubleshooting

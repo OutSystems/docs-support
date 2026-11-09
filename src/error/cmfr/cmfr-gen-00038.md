@@ -1,5 +1,5 @@
 ---
-summary: The user you are trying to delegate from is not a member of the selected group.
+summary: Case Management framework delegation errors in OutSystems 11 (O11) resolve by matching FromUserId with a member of the FromGroupId group.
 tags:
   - Case Management framework
   - Debugging

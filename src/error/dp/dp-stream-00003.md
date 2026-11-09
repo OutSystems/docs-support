@@ -1,5 +1,5 @@
 ---
-summary: This article explains the cause, impact, and recommended action for an invalid argument error that occurs while connecting to the destination server.
+summary: OutSystems platform log streaming invalid argument errors, identify gRPC 3 responses and correct destination server credentials or endpoint URLs.
 tags:
   - Logging
   - Monitoring
