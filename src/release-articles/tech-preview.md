@@ -5,6 +5,8 @@ tags:
   - Infrastructure
   - Lifecycle
   - Mobile app
+  - Monitoring
+  - Performance
   - REST
 coverage-type:
   - understand

@@ -2,8 +2,10 @@
 summary: "OutSystems 11 (O11) database restore to a new DB server: update Configuration Tool settings across all application servers in a .NET farm."
 tags:
   - .NET
+  - External Databases
   - Infrastructure
   - Platform Server
+  - Settings
   - Traditional Web
 locale: en-us
 guid: 346a4452-9ede-4346-aeb3-9455a48e99cc
