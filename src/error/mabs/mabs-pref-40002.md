@@ -1,6 +1,7 @@
 ---
 summary: Preference key <key> in <context> has a wrong type.
 tags:
+  - Extensions
   - Mobile app
   - Troubleshooting
 guid: 4eaf6851-f4c7-4770-b005-805cf8ed8bac
