@@ -2,6 +2,7 @@
 summary: OutSystems 11 (O11) allows customer-initiated penetration testing on its various deployment infrastructures, providing guidelines for managing false positives.
 tags:
   - Infrastructure
+  - Platform Server
   - Security
   - Testing
   - Troubleshooting
