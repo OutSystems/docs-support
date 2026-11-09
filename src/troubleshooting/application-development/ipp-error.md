@@ -9,6 +9,7 @@ tags:
   - Deploy
   - Troubleshooting
 audience:
+  - Platform administrator
   - Developer
   - Front-end developer
 outsystems-tools:

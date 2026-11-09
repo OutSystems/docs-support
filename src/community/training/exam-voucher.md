@@ -9,10 +9,7 @@ app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
 figma:
 audience:
-  - Architect
-  - Developer
-  - Front-end developer
-  - Tech lead
+  []
 coverage-type:
   - apply
   - unblock
