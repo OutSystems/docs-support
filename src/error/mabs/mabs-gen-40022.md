@@ -1,5 +1,5 @@
 ---
-summary: There was an issue generating the app. A plugin compilation failed with the following reason{REASON}.
+summary: MABS plugin compilation errors block mobile app generation on the OutSystems platform, with the plugin owner's reason guiding troubleshooting.
 tags:
   - Mobile app
   - Plugins

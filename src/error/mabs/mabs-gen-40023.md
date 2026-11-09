@@ -1,5 +1,5 @@
 ---
-summary: There was an issue generating the app. A plugin is trying to access an XML file that was renamed in Cordova Android 14. The files strings.xml, colors.xml, and themes.xml are now named with a 'cdv_' prefix.
+summary: MABS OS-MABS-GEN-40023 error, fix plugins that reference renamed strings.xml, colors.xml, or themes.xml files in Cordova Android 14.
 tags:
   - Android
   - Cordova

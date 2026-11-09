@@ -1,5 +1,5 @@
 ---
-summary: This is an automated message returned by the external system "The request has been refused. Verify that the logged-in user has appropriate permissions. If the error code is REQUEST_LIMIT_EXCEEDED, you’ve exceeded API request limits in your org.
+summary: OutSystems 11 (O11) Salesforce Integration Builder connection errors, resolve permission issues and configure a Connected App for Salesforce access.
 tags:
   - Authorization
   - Troubleshooting
