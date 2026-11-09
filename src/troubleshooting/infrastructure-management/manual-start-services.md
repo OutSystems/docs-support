@@ -15,6 +15,7 @@ audience:
 outsystems-tools:
   - platform server
 coverage-type:
+  - apply
   - unblock
 ---
 
