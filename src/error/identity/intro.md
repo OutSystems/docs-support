@@ -4,6 +4,8 @@ tags:
   - Authentication
   - Authorization
   - Troubleshooting
+topic:
+  - troubleshoot-auth-errors
 locale: en-us
 guid: 02b57209-f724-431e-956f-f926340a5070
 app_type: mobile apps, reactive web apps
