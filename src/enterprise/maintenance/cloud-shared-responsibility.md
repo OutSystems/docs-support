@@ -9,9 +9,10 @@ app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11, odc
 figma: https://www.figma.com/file/cPLNnZfDOZ1NX3avcjmq3g/Enterprise%20Customers?node-id=618:22
 audience:
+  - Architect
+  - Developer
   - Platform administrator
   - Tech lead
-  - Developer
 outsystems-tools:
   - none
 coverage-type:
