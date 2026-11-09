@@ -2,6 +2,7 @@
 summary: FromDate must be set to a date before ToDate.
 tags:
   - Case Management framework
+  - Data Integrity
   - Debugging
   - Troubleshooting
 locale: en-us

@@ -2,6 +2,7 @@
 summary: There was an issue fetching the Cordova plugin <plugin_name>. We couldn't access the resource (http error <http_error_code>). Please review your plugin and server configurations.
 tags:
   - Cordova
+  - Debugging
   - Mobile app
   - Plugins
   - Troubleshooting

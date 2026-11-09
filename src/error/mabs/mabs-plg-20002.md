@@ -4,6 +4,7 @@ app_type: mobile apps
 tags:
   - Authentication
   - Cordova
+  - Mobile app
   - Plugins
   - Troubleshooting
 locale: en-us
