@@ -16,8 +16,7 @@ audience:
 outsystems-tools:
   - service center
 coverage-type:
-  - remember
-  - understand
+  - apply
   - unblock
 topic:
   - license-invalid-hardware
