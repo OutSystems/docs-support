@@ -17,6 +17,8 @@ outsystems-tools:
   - ODC Portal
 coverage-type:
   - unblock
+topic:
+  - fix-streaming-cancelled
 ---
 
 # OS-DP-STREAM-00001

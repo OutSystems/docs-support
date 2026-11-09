@@ -5,6 +5,8 @@ tags:
   - Monitoring
   - Troubleshooting
 guid: 8a776202-d9d4-4a64-adcc-bac23d58ac49
+topic:
+  - fix-streaming-resource-exhausted
 locale: en-us
 app_type: traditional web apps, mobile apps, reactive web apps
 figma:

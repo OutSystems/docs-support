@@ -16,6 +16,8 @@ outsystems-tools:
   - service studio
 coverage-type:
   - unblock
+topic:
+  - blocked-plugin-security-error
 ---
 
 # OS-MABS-PLG-20001

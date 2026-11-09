@@ -19,6 +19,8 @@ outsystems-tools:
   - service center
 coverage-type:
   - unblock
+topic:
+  - fix-streaming-failed-precondition
 ---
 
 # OS-DP-STREAM-00009

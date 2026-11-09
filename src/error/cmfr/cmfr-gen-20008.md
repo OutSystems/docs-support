@@ -17,6 +17,8 @@ outsystems-tools:
   - case management framework
 coverage-type:
   - unblock
+topic:
+  - fix-close-activity-error
 ---
 
 # OS-CMFR-GEN-20008

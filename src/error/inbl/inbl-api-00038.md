@@ -17,6 +17,8 @@ outsystems-tools:
   - integration builder
 coverage-type:
   - unblock
+topic:
+  - fix-identity-token-error
 ---
 
 # OS-INBL-API-00038

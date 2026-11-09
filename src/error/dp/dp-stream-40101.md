@@ -15,6 +15,8 @@ audience:
   - Developer
 outsystems-tools:
   - lifetime
+topic:
+  - fix-streaming-auth
 coverage-type:
   - unblock
 ---

@@ -16,6 +16,8 @@ outsystems-tools:
   - none
 coverage-type:
   - unblock
+topic:
+  - missing-hook-node-module-error
 ---
 
 # OS-MABS-PLG-20000

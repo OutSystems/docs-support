@@ -18,6 +18,8 @@ outsystems-tools:
   - lifetime
 coverage-type:
   - unblock
+topic:
+  - fix-streaming-unauthenticated
 ---
 
 # OS-DP-STREAM-00016
