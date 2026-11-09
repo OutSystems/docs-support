@@ -6,9 +6,13 @@ app_type: reactive web apps
 platform-version: o11
 figma: https://www.figma.com/file/6tXLupLiqfG9FOElATTGQU/Troubleshooting?type=design&node-id=3431%3A270&mode=design&t=n3OfSI1cyFvKAAiH-1
 tags:
+  - Front-End
+  - JavaScript
   - Logging
   - Security
+  - Settings
   - Troubleshooting
+  - Web
 audience:
   - Front-end developer
   - Developer

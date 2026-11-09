@@ -6,9 +6,12 @@ app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
 figma:
 tags:
+  - JavaScript
+  - Mobile app
   - SSO
   - Traditional Web
   - Troubleshooting
+  - Web
 audience:
   - Front-end developer
   - Developer

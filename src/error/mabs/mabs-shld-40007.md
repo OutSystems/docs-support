@@ -2,6 +2,8 @@
 summary: The 'GooglePlayAppSigningCertificate' AppShield preference is deprecated
   and no longer supported. Use 'ApplicationSignerCertificate' instead.
 tags:
+  - Android
+  - Blocks
   - Mobile app
   - Native App
   - Plugins
