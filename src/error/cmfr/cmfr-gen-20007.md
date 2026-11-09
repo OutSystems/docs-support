@@ -1,5 +1,5 @@
 ---
-summary: This user doesn't have any active delegations for you at the moment.
+summary: OutSystems 11 (O11) Case Management errors, troubleshoot invalid DelegatedBy values in deprecated case actions.
 tags:
   - Case Management framework
   - Debugging

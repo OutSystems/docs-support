@@ -1,5 +1,5 @@
 ---
-summary: The activity must be assigned to a user before it can be released.
+summary: OutSystems 11 (O11) Case Management framework resolves unassigned activity errors by assigning users before Case_ReleaseActivity runs.
 tags:
   - Case Management framework
   - Troubleshooting

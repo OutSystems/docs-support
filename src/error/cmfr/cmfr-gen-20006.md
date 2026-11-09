@@ -1,5 +1,5 @@
 ---
-summary: Couldn't log in. Make sure you're accessing as a sample user.
+summary: OutSystems 11 (O11) Case Management framework login errors, fix SampleUser_Login inputs and verify the UserId belongs to a sample user.
 tags:
   - Authentication
   - Case Management framework
