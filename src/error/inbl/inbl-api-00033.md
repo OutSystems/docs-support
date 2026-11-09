@@ -11,7 +11,6 @@ figma:
 audience:
   - Platform administrator
   - Developer
-  - Tech lead
 outsystems-tools:
   - integration builder
 coverage-type:
