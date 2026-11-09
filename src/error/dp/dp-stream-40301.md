@@ -19,6 +19,8 @@ outsystems-tools:
   - lifetime
 coverage-type:
   - unblock
+topic:
+  - fix-streaming-authz
 ---
 
 # OS-DP-STREAM-40301

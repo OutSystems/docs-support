@@ -17,6 +17,8 @@ outsystems-tools:
   - integration builder
 coverage-type:
   - unblock
+topic:
+  - fix-publish-error
 ---
 
 # OS-INBL-GEN-00032

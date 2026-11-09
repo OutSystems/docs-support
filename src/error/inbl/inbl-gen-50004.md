@@ -15,6 +15,8 @@ outsystems-tools:
   - integration builder
 coverage-type:
   - unblock
+topic:
+  - fix-module-gen-error
 ---
 
 # OS-INBL-GEN-50004

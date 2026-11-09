@@ -14,6 +14,8 @@ audience:
   - Developer
 outsystems-tools:
   - service center
+topic:
+  - invalid-plugin-error
 coverage-type:
   - unblock
 ---

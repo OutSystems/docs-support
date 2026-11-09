@@ -6,6 +6,8 @@ tags:
   - Troubleshooting
 locale: en-us
 guid: 8ab0c7e8-d92f-4662-85e3-2b7dbbbf266f
+topic:
+  - fix-module-gen-error
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
 figma:

@@ -17,6 +17,8 @@ coverage-type:
   - remember
   - apply
   - unblock
+topic:
+  - review-o11-changes
 audience:
   - Architect
   - Developer

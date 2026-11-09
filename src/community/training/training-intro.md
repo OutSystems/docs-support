@@ -7,6 +7,8 @@ platform-version: o11
 figma:
 coverage-type:
   - remember
+topic:
+  - training-options-overview
 tags: []
 audience:
   - Developer

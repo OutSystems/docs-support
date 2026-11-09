@@ -16,6 +16,8 @@ outsystems-tools:
   - service center
 coverage-type:
   - unblock
+topic:
+  - fix-im-signin-error
 ---
 
 # OS-INBL-API-00061
