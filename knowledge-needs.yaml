@@ -25709,6 +25709,14 @@ knowledge-needs:
         for one, when planning to attend instructor-led training, so that they
         can enroll through a Training Partner and receive schedule, location,
         and payment details.
+  - name: Training and certification
+    id: training-and-certification
+    subtopics:
+    - name: Training options overview
+      id: training-options-overview
+      description: Wants to understand the available OutSystems training and
+        certification pathways, so that they can choose a learning or
+        certification path.
   - name: Training videos
     id: training-videos
     subtopics:
