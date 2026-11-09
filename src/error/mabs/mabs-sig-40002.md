@@ -1,5 +1,5 @@
 ---
-summary: The application build type (<requestBuildType>) must match the provisioning profile (<provisioningBuildType>).
+summary: MABS iOS provisioning profiles must match the application build type in the OutSystems platform to generate a mobile app package.
 tags:
   - iOS
   - Mobile app

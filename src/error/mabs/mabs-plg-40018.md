@@ -1,5 +1,5 @@
 ---
-summary: <plugin_id> version <plugin_version> must be <plugin_min_version> or higher.
+summary: MABS plugin version compatibility requires updating Cordova plugins to meet the minimum version for your MABS build.
 tags:
   - Cordova
   - Mobile app

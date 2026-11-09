@@ -1,5 +1,5 @@
 ---
-summary: This certificate has an unknown file format.
+summary: MABS iOS certificate format errors, fix invalid certificate files with the required `.p12` format to generate your mobile app package.
 tags:
   - iOS
   - Mobile app

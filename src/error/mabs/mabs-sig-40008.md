@@ -1,5 +1,5 @@
 ---
-summary: There was an issue reading the certificate keys.
+summary: MABS certificate key errors on the OutSystems platform, validate profiles and replace invalid .mobileprovision files to generate iOS packages.
 tags:
   - iOS
   - Mobile app

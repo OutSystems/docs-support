@@ -1,5 +1,5 @@
 ---
-summary: Couldn't install the Cordova plugin <plugin_name>. If the problem persists, check our documentation for more information.
+summary: MABS Cordova plugin installation errors reveal hook or missing-file issues that block app package generation in the OutSystems platform.
 tags:
   - Cordova
   - Mobile app

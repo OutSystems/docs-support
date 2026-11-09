@@ -1,5 +1,5 @@
 ---
-summary: <context> must have the format
+summary: MABS PREF 40003 error in OutSystems platform occurs when an extensibility configuration property isn't a JSON array; fix the property format.
 tags:
   - Mobile app
   - Troubleshooting
