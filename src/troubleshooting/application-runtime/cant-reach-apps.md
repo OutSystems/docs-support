@@ -16,29 +16,35 @@ coverage-type:
   - unblock
 topic:
   - wake-sleeping-pe-o11
+isautopublish: true
 ---
 
 # Cannot reach apps on my personal environment
 
+<div class="info" markdown="1">
+
+This article applies to OutSystems 11 (O11) personal environments only.
+
+</div>
+
 ## Symptoms
 
-You're trying to access an application running on your personal environment, but you're being redirected to [http://www.outsystems.com/home/](http://www.outsystems.com/home/) with a message telling you that your personal environment fell asleep or has been deleted.
+You're trying to access an app running on your O11 personal environment, but you're redirected to [http://www.outsystems.com/home/](http://www.outsystems.com/home/). A message tells you that your personal environment fell asleep or was deleted.
 
 ## Cause
 
-Your personal environment is asleep. This occurs if:
+Your O11 personal environment is asleep. This occurs when:
 
-* you've stopped developing for a while or
+* You stopped developing for a while.
+* Your apps aren't being used.
 
-* your apps aren't being used.
-
-This happens as part the recycling mechanism to save resources for active personal environments.
+This happens as part of the recycling mechanism that saves resources for active personal environments.
 
 ## Resolution
 
-Go to [http://www.outsystems.com/home/](http://www.outsystems.com/home/) and login with your OutSystems credentials. Click the **Wake up** button and wait a few seconds while the personal environment is restored.
+Go to the [Trial Portal](https://www.outsystems.com/Portal/Trial_Portal) and log in with your OutSystems Community account. Select **Wake up** and wait a few seconds while the personal environment is restored.
 
-![Screenshot of the OutSystems personal environment page with a notification that the environment fell asleep and a 'Wake up' button highlighted.](images/pe-sleep.png "OutSystems Personal Environment Wake Up Interface")
+![Screenshot of the OutSystems personal environment page with a notification that the environment fell asleep and a 'Wake up' button highlighted.](images/pe-sleep-usr.png "OutSystems Personal Environment Wake Up Interface")
 
 ## More information
 
