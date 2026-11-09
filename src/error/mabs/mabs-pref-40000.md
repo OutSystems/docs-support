@@ -1,6 +1,7 @@
 ---
 summary: Preference key <key> in the context <context> is not recognized.
 tags:
+  - Extensions
   - Mobile app
   - Troubleshooting
 guid: f36093fe-b533-42bb-a844-16117e6742dc

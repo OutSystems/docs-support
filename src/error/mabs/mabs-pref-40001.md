@@ -1,6 +1,7 @@
 ---
 summary: Preference key <key> in <context> wasn't found.
 tags:
+  - Extensions
   - Mobile app
   - Troubleshooting
 guid: b93a43d1-d235-4798-8b13-4e62687aeead

@@ -5,6 +5,8 @@ tags:
   - IT Roles
   - IT Teams
   - IT Users
+  - Platform Server
+  - Plugins
   - Roles
 locale: en-us
 guid: e7dcad56-9c9a-40c2-b798-dc70d3015564
