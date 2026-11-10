@@ -1,5 +1,5 @@
 ---
-summary: Token error. <OriginalErrorMessage>.
+summary: Workflow Builder token error in OutSystems 11 (O11) indicates an invalid environment token and requires logging in again.
 tags:
   - Authentication
   - Troubleshooting

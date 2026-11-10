@@ -1,5 +1,5 @@
 ---
-summary: Invalid application data. <OriginalErrorMessage>.
+summary: Workflow Builder invalid application data errors in OutSystems 11 (O11) prevent saves when application data is inconsistent.
 tags:
   - Data Integrity
   - Troubleshooting
