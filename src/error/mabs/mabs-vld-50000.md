@@ -1,5 +1,5 @@
 ---
-summary: Something happened on our side. Please try again.
+summary: MABS validation errors in the OutSystems platform, troubleshoot package generation failures by checking Service Center build logs.
 tags:
   - Debugging
   - Mobile app
