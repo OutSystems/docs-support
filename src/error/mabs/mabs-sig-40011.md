@@ -16,6 +16,8 @@ outsystems-tools:
   - service studio
 coverage-type:
   - unblock
+topic:
+  - dev-app-type-mismatch
 ---
 
 # OS-MABS-SIG-40011

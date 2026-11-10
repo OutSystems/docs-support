@@ -15,6 +15,8 @@ outsystems-tools:
   - service center
 coverage-type:
   - unblock
+topic:
+  - appshield-license-error
 ---
 
 # OS-MABS-SHLD-50001

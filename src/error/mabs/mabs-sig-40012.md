@@ -15,6 +15,8 @@ outsystems-tools:
   - none
 coverage-type:
   - unblock
+topic:
+  - invalid-keystore-error
 ---
 
 # OS-MABS-SIG-40012

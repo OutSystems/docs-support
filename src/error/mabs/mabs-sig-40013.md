@@ -15,6 +15,8 @@ outsystems-tools:
   - service studio
 coverage-type:
   - unblock
+topic:
+  - keystore-password-error
 ---
 
 # OS-MABS-SIG-40013

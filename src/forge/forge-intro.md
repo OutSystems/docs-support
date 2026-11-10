@@ -15,6 +15,8 @@ outsystems-tools:
   - forge
 coverage-type:
   - understand
+topic:
+  - forge-overview
 ---
 
 # Forge Components
