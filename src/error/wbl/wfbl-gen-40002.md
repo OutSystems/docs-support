@@ -1,5 +1,5 @@
 ---
-summary: Communication error. <OriginalErrorMessage>.
+summary: Workflow Builder errors in OutSystems 11 (O11) point to server connectivity issues; verify workstation access to Workflow Builder servers.
 tags:
   - Troubleshooting
 locale: en-us

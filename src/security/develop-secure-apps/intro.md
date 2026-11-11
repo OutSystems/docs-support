@@ -1,5 +1,5 @@
 ---
-summary: Learn how OutSystems 11 (O11) helps develop secure applications by mitigating risks and protecting against common vulnerabilities.
+summary: OutSystems 11 (O11) security guidance covers OWASP risks, access control, authentication, injection, CSRF, encryption, and redirects.
 tags:
   - Authentication
   - Authorization

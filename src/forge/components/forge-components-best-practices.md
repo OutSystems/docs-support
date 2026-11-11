@@ -1,5 +1,5 @@
 ---
-summary: Learn best practices for sharing and developing Forge components in OutSystems 11 (O11) to enhance code reuse and application delivery.
+summary: Forge component best practices in OutSystems 11 (O11) cover OAP distribution, Service Studio previews, documentation, demos, and maintenance.
 guid: 6f1265f0-a96e-45cb-b813-8460434ba1ab
 locale: en-us
 app_type: traditional web apps, mobile apps, reactive web apps

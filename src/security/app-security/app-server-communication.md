@@ -1,5 +1,5 @@
 ---
-summary: OutSystems ensures secure app-to-server communication through encrypted REST calls and server-side access control.
+summary: OutSystems platform app-server communication secures REST endpoints with HTTPS encryption and server-side access control.
 locale: en-us
 guid: 1f406792-8109-434a-95c8-c8898ccb0800
 app_type: mobile apps, reactive web apps
