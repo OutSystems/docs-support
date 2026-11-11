@@ -18,7 +18,8 @@ outsystems-tools:
 coverage-type:
   - evaluate
 topic:
-  - access-control-risks
+  - restrict-logic-with-roles
+  - restrict-screen-access
 ---
 
 # Protecting OutSystems apps from access control / permissions vulnerabilities
