@@ -9,7 +9,6 @@ tags:
   - Infrastructure
 audience:
   - Platform administrator
-  - Developer
 outsystems-tools:
   - lifetime
   - service studio

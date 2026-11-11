@@ -8,6 +8,7 @@ figma: https://www.figma.com/file/TzqCbVlN2j4nadunA7q8VU/Licensing?node-id=1318:
 tags:
   - Infrastructure
 audience:
+  - Architect
   - Platform administrator
   - Developer
 outsystems-tools:
