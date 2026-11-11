@@ -8,6 +8,8 @@ figma: https://www.figma.com/file/vTtFn5nl44ZLjUBYo2anCO/Security?node-id=305:32
 tags:
   - OWASP
   - Security
+topic:
+  - prevent-open-redirects
 audience:
   - Developer
   - Front-end developer

@@ -17,6 +17,10 @@ outsystems-tools:
   - service center
 coverage-type:
   - understand
+topic:
+  - app-server-certificates
+  - install-client-side-cert-o11
+  - trust-self-signed-cert-o11
 ---
 
 # OutSystems certificate management

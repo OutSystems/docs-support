@@ -16,6 +16,9 @@ outsystems-tools:
   - ipp portal
 coverage-type:
   - understand
+topic:
+  - ipp-protection-concept
+  - use-ipp-portal
 ---
 
 # OutSystems Intellectual Property Protection - IPP

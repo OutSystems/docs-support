@@ -18,6 +18,8 @@ outsystems-tools:
   - lifetime
 coverage-type:
   - unblock
+topic:
+  - file-access-publish-error
 ---
 
 # Publish error - the process cannot access the file

@@ -19,6 +19,9 @@ outsystems-tools:
   - platform server
 coverage-type:
   - unblock
+topic:
+  - fix-iis-basic-auth-401
+  - fix-proxy-auth-401
 ---
 
 # Unable to create a new app due to 401 error or missing templates
