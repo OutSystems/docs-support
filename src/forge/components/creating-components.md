@@ -20,9 +20,10 @@ outsystems-tools:
   - service studio
   - forge
 coverage-type:
-  - evaluate
+  - remember
   - understand
   - apply
+  - evaluate
 topic:
   - component-styling-script-customization
   - plan-design-components

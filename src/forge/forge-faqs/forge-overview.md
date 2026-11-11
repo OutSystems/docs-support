@@ -13,7 +13,8 @@ audience:
 outsystems-tools:
   - forge
 coverage-type:
-  - unblock
+  - remember
+  - understand
 topic:
   - forge-licensing-model
   - forge-overview
