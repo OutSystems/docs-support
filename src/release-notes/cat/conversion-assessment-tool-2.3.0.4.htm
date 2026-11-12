@@ -1,0 +1,33 @@
+---
+isautopublish: true
+pageprivacy: public
+---
+
+<h2 id="conversion_assessment_tool_2.3.0.4" >Conversion Assessment Tool 2.3.0.4</h2>
+<div class="info"><p>Released on Nov 12, 2026</p></div>
+
+
+<style>.cattag {background: #f4f2ff; color: #6a6581; padding: 4px 10px;}</style>
+<h3 id="new_in_conversion_assessment_tool_2.3.0.4" >New in Conversion Assessment Tool 2.3.0.4</h3>
+<ul>
+<li>Fixed an issue where deleting an ODC Library did not trigger a confirmation prompt. Now, the confirmation dialog appears as expected before deletion. (RADRT-4049)</li>
+<li>The deletion of a Migration Plan is now an asynchronous action that runs in the background, providing immediate feedback to users and increasing the robustness of the deletion process. (RADRT-4068)</li>
+<li>Improved the probe management capabilities in the Maintenance screen. (RADRT-4334)</li>
+<li>Improved the user feedback provided during the LDAP login flow to help users navigate potential complications. (RADRT-4343)</li>
+<li>The "Self-managed" infrastructure blocker has been removed, as this configuration is now supported. (RADRT-4459)</li>
+<li>Improved the size of the Probe installation binary to ensure faster installation and a higher success rate on lower-resource infrastructures. (RADRT-4472)</li>
+<li>Deleting an ODC asset that belongs to a plan is now restricted. You must first remove the asset from the plan. (RADRT-4507)</li>
+<li>It’s now possible to opt for a fix in ODC in the "Application consuming a non-read-only Entity" pattern. (RADRT-4520)</li>
+<li>It is now possible to assess ODC Assets containing Traditional Web applications by choosing Partial Conversion for the asset. (RADRT-4541)</li>
+<li>You can now use a table view in Blueprint to validate the conversion mode set on each ODC asset, sort by attributes (Name, Findings count, Assessment status, and Conversion mode), and update the conversion mode via the three-dot menu. (RADRT-4635)</li>
+</ul>
+<h3 id="bug_fixing_conversion_assessment_tool_2.3.0.4" >Bug Fixing</h3>
+<ul>
+<li>Fixed an issue that caused data corruption. This occurred when moving O11 modules between applications and deleting applications. Now, these scenarios are correctly identified, preventing data corruption. (RADRT-4395)</li>
+<li>Fixed an issue that caused crashes during assessments. This occurred when specific unexpected code patterns were present. Now, these patterns are handled correctly, allowing assessments to run successfully. (RADRT-4422)</li>
+<li>Fixed an issue in the Conversion Assessment Tool (CAT) where duplicate external IDs caused incorrect or missing data. CAT now blocks actions and alerts users upon detecting duplicate IDs to prevent authorization issues. (RADRT-4430)</li>
+<li>Fixed an issue that caused an infinite loop in the Assessment screen. This occurred when selecting tabs in quick succession. Now, the screen correctly handles rapid tab selection without entering an infinite loop. (RADRT-4477)</li>
+<li>Fixed an issue that caused certain duplicated user emails to be left out of the duplicated user emails listing. Now, all duplicated user emails are successfully detected and included in the listing. (RADRT-4492)</li>
+<li>Fixed an issue that prevented users from saving a new service account token. This occurred in the Maintenance screen when the previously stored token was invalid. Now, you can successfully save a new token regardless of the previous token's state. (RADRT-4663)</li>
+</ul>
+
