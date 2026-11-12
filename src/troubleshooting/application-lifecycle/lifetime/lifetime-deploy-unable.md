@@ -1,5 +1,5 @@
 ---
-summary: Explore common deployment issues and troubleshooting steps for OutSystems 11 (O11) using LifeTime.
+summary: OutSystems 11 (O11) LifeTime deployment troubleshooting covers connectivity, service health, process errors, and Service Center workarounds.
 tags:
   - Deploy
   - Monitoring
