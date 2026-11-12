@@ -19,6 +19,8 @@ outsystems-tools:
   - service studio
 coverage-type:
   - unblock
+topic:
+  - increase-upload-limit
 ---
 
 # Altering file upload limits in OutSystems apps

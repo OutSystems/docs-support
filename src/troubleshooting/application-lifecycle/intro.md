@@ -19,6 +19,8 @@ outsystems-tools:
   - lifetime
 coverage-type:
   - unblock
+topic:
+  - troubleshooting-overview
 ---
 
 # Application lifecycle

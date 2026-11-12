@@ -21,6 +21,8 @@ outsystems-tools:
   - service studio
 coverage-type:
   - unblock
+topic:
+  - fix-viewstate-decrypt-error
 ---
 
 # Troubleshooting Error Deserializing ViewState - Cannot decrypt the content

@@ -23,6 +23,8 @@ outsystems-tools:
   - platform server
 coverage-type:
   - unblock
+topic:
+  - fix-ora-00054-error
 ---
 
 # ORA-00054 error when deploying an OutSystems app

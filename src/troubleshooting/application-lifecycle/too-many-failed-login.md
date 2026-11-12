@@ -20,6 +20,9 @@ outsystems-tools:
   - lifetime
 coverage-type:
   - unblock
+topic:
+  - diagnose-failed-login
+  - unblock-user-login
 ---
 
 # Too many failed login attempts - causes and resolution for IT users and end users

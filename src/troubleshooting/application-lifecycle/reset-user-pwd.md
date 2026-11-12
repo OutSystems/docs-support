@@ -20,6 +20,9 @@ outsystems-tools:
   - platform server
 coverage-type:
   - unblock
+topic:
+  - reset-end-user-admin-password
+  - reset-it-admin-password
 ---
 
 # Resetting the admin password for IT users and end users

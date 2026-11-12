@@ -17,6 +17,8 @@ outsystems-tools:
   - lifetime
 coverage-type:
   - unblock
+topic:
+  - reset-lifetime-auth
 ---
 
 # Reset LifeTime authentication preferences
