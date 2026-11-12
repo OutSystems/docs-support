@@ -3,6 +3,7 @@ summary: Explore how OutSystems 11 (O11) handles disabled automatic extension re
 tags:
   - Deploy
   - Extensions
+  - Forge
   - Platform Server
   - Troubleshooting
 locale: en-us

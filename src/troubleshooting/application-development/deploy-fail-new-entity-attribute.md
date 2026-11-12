@@ -1,10 +1,12 @@
 ---
 summary: Explore how OutSystems 11 (O11) addresses long deployment times due to new Entity Attributes in large databases.
 tags:
+  - Data Model
   - Deploy
   - Entities
   - Performance
   - Platform Server
+  - Troubleshooting
 locale: en-us
 guid: f6175b88-b183-4a56-b5da-8ea4d039d836
 app_type: traditional web apps, mobile apps, reactive web apps

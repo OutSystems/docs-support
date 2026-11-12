@@ -8,7 +8,6 @@ figma:
 tags:
   - .NET
   - Business Processes
-  - Java
   - Monitoring
   - SQL
   - Troubleshooting

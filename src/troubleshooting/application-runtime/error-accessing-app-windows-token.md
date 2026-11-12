@@ -7,6 +7,11 @@ platform-version: o11
 figma: https://www.figma.com/file/6tXLupLiqfG9FOElATTGQU/Troubleshooting?node-id=620:33
 tags:
   - .NET
+  - Groups
+  - Infrastructure
+  - Platform Server
+  - Settings
+  - Timers
   - Troubleshooting
 audience:
   - Platform administrator

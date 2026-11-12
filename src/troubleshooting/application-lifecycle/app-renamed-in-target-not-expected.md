@@ -8,6 +8,7 @@ figma:
 tags:
   - Deploy
   - Development lifecycle
+  - Lifecycle
   - Troubleshooting
 audience:
   - Platform administrator

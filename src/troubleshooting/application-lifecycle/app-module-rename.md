@@ -7,6 +7,7 @@ platform-version: o11
 figma:
 tags:
   - Deploy
+  - Development lifecycle
   - Lifecycle
   - Troubleshooting
 audience:

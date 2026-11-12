@@ -11,6 +11,7 @@ tags:
   - Mobile app
   - Performance
   - Plugins
+  - SQL
   - Troubleshooting
 audience:
   - Developer
