@@ -1,5 +1,5 @@
 ---
-summary: Troubleshooting missing or incorrect CSPs
+summary: OutSystems 11 (O11) CSP headers, verify browser responses and resolve overrides from apps, environments, and Shared Configurations.
 locale: en-us
 guid: 14893878-ab23-4afd-8935-c901853a5ebe
 app_type: reactive web apps
