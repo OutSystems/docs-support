@@ -7,6 +7,8 @@ platform-version: o11
 figma: https://www.figma.com/file/6tXLupLiqfG9FOElATTGQU/Troubleshooting?node-id=3327:410
 tags:
   - CSS
+  - Front-End
+  - JavaScript
   - Multi-language
   - Platform Server
   - Translation

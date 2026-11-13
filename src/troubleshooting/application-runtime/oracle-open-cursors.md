@@ -8,7 +8,9 @@ figma: https://www.figma.com/file/6tXLupLiqfG9FOElATTGQU/Troubleshooting?node-id
 tags:
   - Aggregates
   - External Databases
+  - Logic
   - Performance
+  - SQL
   - Troubleshooting
 audience:
   - Developer

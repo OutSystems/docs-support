@@ -2,6 +2,7 @@
 summary: Explore how OutSystems 11 (O11) handles SLOWSQL log messages for performance troubleshooting in database queries.
 tags:
   - Logging
+  - Optimization
   - Performance
   - Platform Server
   - SQL
