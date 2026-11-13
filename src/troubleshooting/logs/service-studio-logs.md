@@ -18,6 +18,9 @@ outsystems-tools:
 coverage-type:
   - apply
   - unblock
+topic:
+  - diagnostics-report
+  - enable-service-studio-logging
 ---
 
 # Service Studio logs

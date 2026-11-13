@@ -19,6 +19,9 @@ outsystems-tools:
 coverage-type:
   - apply
   - unblock
+topic:
+  - enable-ostrace-soap-import
+  - fix-soap-name-collision
 ---
 
 # Enabling OSTrace for SOAP web service consumption in Service Studio

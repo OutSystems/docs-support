@@ -18,6 +18,9 @@ outsystems-tools:
   - service studio
 coverage-type:
   - unblock
+topic:
+  - fix-blocked-external-url
+  - fix-seo-redirects
 ---
 
 # Troubleshooting and known issues with SEO-friendly URLs for Reactive Web Apps

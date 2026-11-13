@@ -21,6 +21,9 @@ outsystems-tools:
 coverage-type:
   - apply
   - unblock
+topic:
+  - o11-increase-app-log-levels
+  - o11-increase-service-log-levels
 ---
 
 # Change OutSystems platform logging levels - OSTrace

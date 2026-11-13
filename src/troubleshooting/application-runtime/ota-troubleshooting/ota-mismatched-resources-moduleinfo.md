@@ -20,6 +20,8 @@ outsystems-tools:
   - service studio
 coverage-type:
   - unblock
+topic:
+  - fix-hash-mismatch-error
 ---
 
 # Downloaded resources do not match the resources listed in the moduleinfo

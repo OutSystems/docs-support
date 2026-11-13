@@ -18,6 +18,8 @@ helpids: 30434
 coverage-type:
   - apply
   - unblock
+topic:
+  - fix-studio-permissions
 isautopublish: true
 ---
 

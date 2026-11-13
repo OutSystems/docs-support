@@ -20,6 +20,9 @@ outsystems-tools:
   - service center
 coverage-type:
   - unblock
+topic:
+  - fix-invoke-ping-error
+  - fix-ping-content-error
 ---
 
 # Troubleshoot failed deployments due to an error in ping
