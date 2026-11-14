@@ -1,5 +1,5 @@
 ---
-summary: Learn how to obtain and utilize various logs for troubleshooting in OutSystems 11 (O11) by accessing detailed instructions for each component.
+summary: OutSystems 11 troubleshooting logs help you collect Service Center, LifeTime, mobile, database, and system reports for support cases.
 tags:
   - Debugging
   - Java
