@@ -7,6 +7,7 @@ platform-version: o11
 figma: https://www.figma.com/file/6tXLupLiqfG9FOElATTGQU/Troubleshooting?node-id=3327:408
 tags:
   - Infrastructure
+  - Platform Server
   - Troubleshooting
 audience:
   - Platform administrator

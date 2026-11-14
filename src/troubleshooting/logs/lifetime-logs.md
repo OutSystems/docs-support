@@ -1,6 +1,8 @@
 ---
 summary: Explore how to obtain various reports in OutSystems 11 (O11) through the LifeTime troubleshooting interface.
 tags:
+  - Debugging
+  - Deploy
   - Infrastructure
   - Logging
   - Troubleshooting
