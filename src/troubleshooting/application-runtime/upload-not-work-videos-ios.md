@@ -12,6 +12,7 @@ tags:
   - Troubleshooting
 audience:
   - Developer
+  - Front-end developer
 outsystems-tools:
   - none
 coverage-type:
