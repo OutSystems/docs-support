@@ -1,6 +1,7 @@
 ---
 summary: "OS-CMFR-GEN-00008 error in OutSystems 11 (O11) Case Management Framework: no access control record found for the user/group and case pairing."
 tags:
+  - Authorization
   - Case Management framework
   - Debugging
   - Troubleshooting

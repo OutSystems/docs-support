@@ -6,7 +6,10 @@ app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
 figma:
 tags:
+  - Debugging
   - Deploy
+  - Infrastructure
+  - Logging
   - Performance
   - Platform Server
   - Troubleshooting
