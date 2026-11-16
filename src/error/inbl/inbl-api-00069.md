@@ -1,5 +1,5 @@
 ---
-summary: There was an error contacting an internal service.
+summary: OutSystems 11 (O11) Integration Builder errors, configure the Service Center server address to match the HTTPS certificate and resolve DNS issues.
 tags:
   - Troubleshooting
 locale: en-us

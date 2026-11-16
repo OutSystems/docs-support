@@ -1,5 +1,5 @@
 ---
-summary: There was an error contacting an internal service.
+summary: OutSystems 11 (O11) internal service errors, troubleshoot Service Center HTTPS and certificate mismatches to restore Integration Builder access.
 tags:
   - Security
   - Troubleshooting

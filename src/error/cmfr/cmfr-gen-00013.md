@@ -1,5 +1,5 @@
 ---
-summary: It's not possible to fill in both UserId and GroupId attributes.
+summary: OutSystems 11 (O11) Case Management framework resolves UserId and GroupId conflicts in access control actions.
 tags:
   - Authorization
   - Case Management framework

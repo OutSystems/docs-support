@@ -1,5 +1,5 @@
 ---
-summary: The connection was updated locally, but we could not update the connection on the Microsoft's servers. You'll need to access Microsoft Azure Active Diretory if you want to update it manually. Error details <Message>
+summary: Integration Builder Azure Active Directory errors, fix deleted applications and update or recreate connections in OutSystems 11 (O11).
 tags:
   - Active Directory
   - Troubleshooting
