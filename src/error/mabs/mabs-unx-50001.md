@@ -1,5 +1,5 @@
 ---
-summary: There was an issue loading your resources. Please try again.
+summary: MABS build timeout troubleshooting on the OutSystems platform covers resource fetching, plugin installation, and native library downloads.
 tags:
   - Mobile app
   - Troubleshooting

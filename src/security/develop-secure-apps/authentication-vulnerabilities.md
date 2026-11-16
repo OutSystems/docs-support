@@ -1,5 +1,5 @@
 ---
-summary: Explore how OutSystems 11 (O11) enhances app security by mandating HTTPS and HSTS to protect against authentication vulnerabilities.
+summary: OutSystems 11 (O11) authentication security guidance covers HTTPS and HSTS for protecting sensitive data and session IDs from cleartext exposure.
 locale: en-us
 guid: bb010468-9ea8-42d8-815d-c5f8cf3ce2cd
 app_type: traditional web apps, mobile apps, reactive web apps
