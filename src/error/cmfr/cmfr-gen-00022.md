@@ -14,6 +14,8 @@ audience:
 outsystems-tools:
   - service studio
   - case management framework
+topic:
+  - fix-duplicate-transition
 coverage-type:
   - unblock
 ---

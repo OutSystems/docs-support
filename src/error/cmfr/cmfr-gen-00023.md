@@ -17,6 +17,8 @@ outsystems-tools:
   - case management framework
 coverage-type:
   - unblock
+topic:
+  - fix-record-not-found
 ---
 
 # OS-CMFR-GEN-00023

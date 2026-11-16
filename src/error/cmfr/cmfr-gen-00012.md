@@ -17,6 +17,8 @@ outsystems-tools:
   - case management framework
 coverage-type:
   - unblock
+topic:
+  - fix-milestone-achieved
 ---
 
 # OS-CMFR-GEN-00012
