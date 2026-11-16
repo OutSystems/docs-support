@@ -1,8 +1,10 @@
 ---
 summary: SSL Pinning configuration file errors block OutSystems mobile app packaging when the SSLPinning plugin lacks its required config file.
 tags:
+  - Blocks
   - Mobile app
   - Plugins
+  - Security
   - Troubleshooting
 guid: 27ccb435-2ddc-4006-8eef-6982959107b3
 locale: en-us
