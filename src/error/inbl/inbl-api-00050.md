@@ -1,6 +1,7 @@
 ---
 summary: OS-INBL-API-00050 error in OutSystems 11 (O11) Integration Builder occurs when a Salesforce OAuth token expires or is revoked. Reauthorize to fix it.
 tags:
+  - Authentication
   - Authorization
   - External Authentication
   - OAuth

@@ -3,6 +3,7 @@ summary: There was an issue generating the app. Library {2} requires minimum And
 tags:
   - Android
   - Cordova
+  - Libraries
   - Mobile app
   - Native App
   - Plugins

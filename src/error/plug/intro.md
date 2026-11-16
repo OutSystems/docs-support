@@ -1,6 +1,7 @@
 ---
 summary: Troubleshoot mobile plugins errors on the OutSystems platform by identifying causes, understanding impact, and applying effective debugging and fixes.
 tags:
+  - Debugging
   - Mobile app
   - Plugins
   - Troubleshooting
