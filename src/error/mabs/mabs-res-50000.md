@@ -19,6 +19,7 @@ coverage-type:
   - unblock
 topic:
   - mabs-build-errors
+  - resource-processing-error
 ---
 
 # OS-MABS-RES-50000

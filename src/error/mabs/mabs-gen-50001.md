@@ -18,6 +18,7 @@ coverage-type:
   - unblock
 topic:
   - mabs-build-errors
+  - maven-repository-outage
 ---
 
 # OS-MABS-GEN-50001

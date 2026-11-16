@@ -18,7 +18,7 @@ outsystems-tools:
 coverage-type:
   - unblock
 topic:
-  - invalid-cocoapods-spec-error
+  - missing-cocoapods-spec-error
 ---
 
 # OS-MABS-PLG-40004

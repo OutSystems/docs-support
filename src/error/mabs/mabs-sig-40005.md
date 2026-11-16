@@ -17,7 +17,7 @@ outsystems-tools:
 coverage-type:
   - unblock
 topic:
-  - keystore-alias-cert-error
+  - certificate-format-error
 ---
 
 # OS-MABS-SIG-40005
