@@ -1,20 +1,29 @@
 ---
-summary: Learn how OutSystems 11 (O11) addresses the OWASP Top 10 security risks for web and mobile applications.
-tags: security, owasp top 10, ssl, access control, cryptographic failures
+summary: OutSystems 11 (O11) OWASP Top 10 guidance covers access control, injection defenses, and mobile app protection.
+tags:
+  - Authentication
+  - Authorization
+  - Logging
+  - Mobile app
+  - Monitoring
+  - OWASP
+  - Security
 locale: en-us
 guid: 74924eac-d729-4c99-bcb4-09b40a483cfa
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
 figma:
 audience:
-  - Developer
-  - Front-end developer
   - Platform administrator
+  - Developer
+  - Architect
+  - Front-end developer
 outsystems-tools:
   - service studio
 coverage-type:
   - understand
   - apply
+isautopublish: true
 ---
 
 # How OutSystems helps you address OWASP Top 10
@@ -25,9 +34,9 @@ This article describes how OutSystems helps you address the vulnerabilities iden
 
 For more information on how to achieve the highest level of security for your OutSystems applications, see [Application security overview](intro.md).
 
-## OWASP Top 10 - Final List 2021
+## OWASP Top 10 - final list 2021
 
-### Broken Access Control (A1)
+### Broken access control (`A1`)
 
 OutSystems role-based access control restricts access to the application’s pages depending on specific application-level roles. Developers define application-level permissions for roles using visual building blocks.
 
@@ -35,11 +44,11 @@ Once users are registered to use an application, role-based access control ensur
 
 See also [Protecting OutSystems apps from access control / permissions vulnerabilities](../develop-secure-apps/access-control-vulnerabilities.md).
 
-### Cryptographic Failures (A2)
+### Cryptographic failures (`A2`)
 
 To protect your data in transit, OutSystems allows you to enable SSL in your infrastructure, thus you can use HTTPS to ensure that any content will load over a secure connection. You can enforce the HTTPS security for the applications running in an environment, and enable HTTP Strict Transport Security (HSTS) for the whole environment.
 
-If you need extra layers of compliance, and opt for a [high-compliance OutSystems Cloud](https://www.outsystems.com/sentry/), you have enforced HTTPS communications for all web applications.
+If you need extra layers of compliance, and add the [Sentry add-on](https://www.outsystems.com/tk/redirect?g=9e584e22-a5a0-4ae9-8338-e1c4b33dcfbb), you have enforced HTTPS communications for all web applications.
 
 To protect your application-sensitive data, OutSystems enables integration with existing cryptographic pre-built components.
 
@@ -47,7 +56,7 @@ In OutSystems Cloud environments, you can activate the database encryption servi
 
 See also [Protecting OutSystems apps using encryption and SSL/TLS](../develop-secure-apps/encryption-ssl-tls.md).
 
-### Injection (A3)
+### Injection (`A3`)
 
 By default, OutSystems escapes content before showing it on the UI. Escaping untrusted HTTP request data based on the context in the HTML output (body, attribute, JavaScript, CSS, or URL) resolves reflected and stored XSS vulnerabilities. When developers need to override the default secure code patterns for advanced customization scenarios, they receive design-time warnings for potential injection flaw patterns, along with guidelines to fix them.
 
@@ -61,17 +70,17 @@ In the OutSystems Cloud, host header injection can be prevented with [secure end
 
 See also [Protecting OutSystems apps from code injection / Cross Site Scripting attacks](../develop-secure-apps/code-injection-css-attacks.md).
 
-### Insecure Design (A4)
+### Insecure design (`A4`)
 
 OutSystems allows developers to override the default secure code patterns for advanced customization scenarios. In this case, OutSystems security checks proactively warn developers of potential security issues as they publish their applications.
 
 OutSystems generates standard applications from its runtime, enabling standard security assessment tools, such as static code analysis.
 
-### Security Misconfiguration (A5)
+### Security misconfiguration (`A5`)
 
 OutSystems Cloud infrastructures are automatically provisioned, configured, and tuned for high performance, security, and reliability. The physical infrastructure of the OutSystems Cloud is hosted in the secure data centers of Amazon Web Services.
 
-If you need extra layers of security and compliance, you can opt for the [OutSystems Sentry](https://www.outsystems.com/sentry/) offer.
+If you need extra layers of security and compliance, you can add the [Sentry add-on](https://www.outsystems.com/tk/redirect?g=9e584e22-a5a0-4ae9-8338-e1c4b33dcfbb).
 
 For self-managed deployments, OutSystems provides system administrators with clear and concise instructions on how to make the platform installation secure.
 
@@ -79,13 +88,13 @@ Additionally, OutSystems includes a set of capabilities that enable you to defin
 
 For both exposure and consumption of SOAP Web Services, OutSystems escapes XML parsing. Additionally, to help you protect your applications from XML External Entity attacks, OutSystems supports the use of the latest deserialization and XML processor library versions, and SOAP 1.2.
 
-### Vulnerable and Outdated Components (A6)
+### Vulnerable and outdated components (`A6`)
 
 OutSystems constantly monitors for vulnerabilities in the product and the generated code, using a continuous delivery approach to constantly release incremental value with minimal disruptions to the customers’ operations and business.
 
 [This policy](../vulnerabilities/intro.md) describes the OutSystems response to vulnerabilities that might affect customer applications. Security fixes are proactively applied in OutSystems Cloud.
 
-### Identification and Authentication Failures (A7)
+### Identification and authentication failures (`A7`)
 
 By default, OutSystems ensures that:
 
@@ -101,11 +110,11 @@ Cookies may contain sensitive information that shouldn't be accessible to an att
 
 Additionally, OutSystems provides built-in protection mechanisms against brute force attacks for the application end users and IT users.
 
-### Software and Data Integrity Failures (A8)
+### Software and data integrity failures (`A8`)
 
 OutSystems serializes and deserializes session data using a built-in anti-tampering JSON deserialization mechanism. This mechanism compares incoming JSON data with predefined application models and performs strict type verification during deserialization. Additionally, it runs a salted hash-based algorithm over the serialized session data to validate potential tampering before deserialization.
 
-### Security Logging and Monitoring Failures (A9)
+### Security logging and monitoring failures (`A9`)
 
 OutSystems tracks the details of every access to application screens. These logs include the component and screen accessed, which end users accessed it, when the access occurred, and exactly which node served the screen.
 
@@ -113,21 +122,21 @@ OutSystems also logs all access to external systems through web services, custom
 
 Customers who choose to manage their own OutSystems installation benefit from the OutSystems standard runtime architecture to leverage their know-how and tools for logging and monitoring all system components.
 
-OutSystems Cloud customers benefit from the logging and monitoring capabilities bundled in the service with a choice between the secure baseline of the standard configuration and the more advanced [OutSystems Sentry](https://www.outsystems.com/sentry/) offer.
+OutSystems Cloud customers benefit from the logging and monitoring capabilities bundled in the service with a choice between the secure baseline of the standard configuration and the more advanced [Sentry add-on](https://www.outsystems.com/tk/redirect?g=9e584e22-a5a0-4ae9-8338-e1c4b33dcfbb).
 
-### Server-Side Request Forgery (SSRF) (A10)
+### Server-side request forgery (SSRF) (`A10`)
 
 OutSystems enables integration with external systems that you can statically configure. For example, when using the development environment to consume a third-party REST API, you must explicitly set the service's external fully qualified domain name (FQDN) as the base URL. This address can then be overwritten with a static configuration for each environment.
 
 In case you need a more dynamic way of setting third-party addresses, OutSystems recommends using server-side data from the database or site properties to build the FQDN instead of relying on external data. If you really need external data, such as a URL shared on demand by a third-party service,  make sure your applications validate that URL. For example, check the FQDN against a predefined list of valid, allowed third-party addresses. Then, use the OnBeforeRequest event action to set the customized base URL. Any time you want to make sure you only use static addresses throughout all your services, check all your OnBeforeRequest and make sure the base URL is not being customized there.
 
-## OWASP Low Code/No Code Top 10 - July 2022
+## OWASP low code/no code Top 10 - July 2022
 
 This section describes how OutSystems helps you address the Top 10  Low Code/No Code Security Risks as  identified by OWASP.
 
 For more information on how to achieve the highest level of security for your OutSystems applications, see [Application security overview](https://success.outsystems.com/Support/Security/Develop_secure_OutSystems_apps).
 
-### Account Impersonation (LCNC-SEC-01)
+### Account impersonation (`LCNC-SEC-01`)
 
 OutSystems creates and manages application credentials without requiring developer access. Developers cannot access or change the credentials applications use to run and access resources.
 
@@ -135,13 +144,13 @@ Apps are staged across multiple environments, from Development to Production and
 
 To further increase security, you can use roles to allow developers to publish applications only to non-production environments and reserve the privilege to change environment configurations for a small set of DevOps staff.
 
-**See also**
+For more information, refer to the following:
 
-[Protecting OutSystems apps from access control / permissions vulnerabilities](https://success.outsystems.com/Support/Security/How_the_OutSystems_Platform_Helps_You_Develop_Secure_Applications/Protecting_OutSystems_apps_from_access_control_/_permissions_vulnerabilities)
-[Configure Web Service Authentication](https://success.outsystems.com/Documentation/11/Extensibility_and_Integration/SOAP/Consuming_SOAP_Web_Services/Configure_Web_Service_Authentication)
-[Consume REST APIs](https://success.outsystems.com/Documentation/11/Extensibility_and_Integration/REST/Consume_REST_APIs)
+* [Protecting OutSystems apps from access control / permissions vulnerabilities](https://success.outsystems.com/Support/Security/How_the_OutSystems_Platform_Helps_You_Develop_Secure_Applications/Protecting_OutSystems_apps_from_access_control_/_permissions_vulnerabilities)
+* [Configure Web Service Authentication](https://success.outsystems.com/Documentation/11/Extensibility_and_Integration/SOAP/Consuming_SOAP_Web_Services/Configure_Web_Service_Authentication)
+* [Consume REST APIs](https://success.outsystems.com/Documentation/11/Extensibility_and_Integration/REST/Consume_REST_APIs)
   
-### Authorization Misuse (LCNC-SEC-02)
+### Authorization misuse (`LCNC-SEC-02`)
 
 OutSystems was built with productivity and speed of development in mind, but no shortcuts to authentication and authorization exist that may put your applications in danger.
 
@@ -153,19 +162,19 @@ Once users are registered to use an application, role-based access control ensur
 
 See also [Protecting OutSystems apps from access control / permissions vulnerabilities](https://success.outsystems.com/Support/Security/How_the_OutSystems_Platform_Helps_You_Develop_Secure_Applications/Protecting_OutSystems_apps_from_access_control_/_permissions_vulnerabilities).
 
-### Data Leakage (LCNC-SEC-03)
+### Data leakage (`LCNC-SEC-03`)
 
 OutSystems and the applications you develop do not perform any data movement or any data processing for that matter without explicit coding from the application developer.
 
 As with other development tools, development privileges should be restricted to dedicated personnel. OutSystems provides roles that can be leveraged to provide developers different levels of access to different applications, environments, and data.  
 
-### Authentication and Secure Communication Failures (LCNC-SEC-04)
+### Authentication and secure communication failures (`LCNC-SEC-04`)
 
 OutSystems environments can easily be configured to accept only secure encrypted connections. Configurations can be done per application or enforced across all applications via environment settings.
 
 Applications are staged across multiple environments, and role-based authorization can be used to restrict access to environment settings.
 
-### Security Misconfiguration (LCNC-SEC-05)
+### Security misconfiguration (`LCNC-SEC-05`)
 
 OutSystems follows best practices in governance and security to ensure that proper defaults are in place, providing an optimal balance between security by design and out-of-the-box functionality.
 
@@ -177,11 +186,11 @@ OutSystems includes a set of capabilities that enable you to define and implemen
 
 Moreover, [AI Mentor Studio can scan your applications and identify risky patterns](https://success.outsystems.com/Documentation/11/Managing_the_Applications_Lifecycle/Manage_technical_debt/Code_Analysis_Patterns#Security)
 
-### Injection Handling Failures (LCNC-SEC-06)
+### Injection handling failures (`LCNC-SEC-06`)
 
 Injection handling failures or injection / input validation failures are common to all applications in all technologies. OutSystems defenses are described in [How OutSystems helps you address (generic) OWASP Top 10](#injection-a3).
 
-### Vulnerable and Untrusted Components (LCNC-SEC-07)
+### Vulnerable and untrusted components (`LCNC-SEC-07`)
 
 OutSystems constantly monitors for vulnerabilities in the platform and the generated code, using a continuous delivery approach to constantly release incremental value with minimal disruptions to the customers’ operations and business.
 
@@ -191,7 +200,7 @@ As with open-source projects, OutSystems components shared in Forge can be downl
 
 You can also choose to only download and use OutSystems [Supported or Trusted Forge components](https://success.outsystems.com/Support/Forge_Components/Forge_FAQs/Curating_Projects) to make sure you only use components that have been curated and validated by OutSystems.
 
-### Data and Secret Handling Failures (LCNC-SEC-08)
+### Data and secret handling failures (`LCNC-SEC-08`)
 
 OutSystems recommends not hardcoding secrets in the code but using other provided methods.
 
@@ -203,7 +212,7 @@ If the preference is to store that data away from the managed database, applicat
 
 Integration with third-party services, for example, can be used to store sensitive data in a secret management service. It’s up to the customer, however, to choose where and how to store the data. Moreover, OutSystems will never move any data out of its original geo-location in compliance with data residency regulations.
 
-### Asset Management Failures (LCNC-SEC-09)
+### Asset management failures (`LCNC-SEC-09`)
 
 OutSystems provides tools that enable full visibility and management of the platform, applications, application dependencies and integration with third-party services.
 
@@ -211,7 +220,7 @@ OutSystems provides tools that enable full visibility and management of the plat
 
 On the other hand, Service Center provides further details and visibility for each environment. OutSystems customers have, therefore, access to all the tools and information required for proper governance of their applications throughout the whole application lifecycle.
 
-### Security Logging & Monitoring Failures (LCNC-SEC-10)
+### Security logging & monitoring failures (`LCNC-SEC-10`)
 
 [Lifetime](https://success.outsystems.com/Documentation/11/Managing_the_Applications_Lifecycle/Manage_Your_OutSystems_Infrastructure) provides full governance over applications throughout the full lifecycle. From Lifetime you can monitor every application version across all environments. Lifetime also provides user management and auditing capabilities for IT users access, configuration and application changes. [Service Center](https://success.outsystems.com/Documentation/11/Managing_the_Applications_Lifecycle/Monitor_and_Troubleshoot/View_the_Environment_Logs_and_Status) provides further logging details per environment.
 
@@ -221,13 +230,13 @@ OutSystems applications can be built and extended through built-in logging actio
 
 Customers who choose to manage their own OutSystems installation benefit from the OutSystems standard runtime architecture to leverage their know-how and tools for logging and monitoring all system components.
 
-OutSystems Cloud customers benefit from the logging and monitoring capabilities bundled in the service with a choice between the secure baseline of the standard configuration and the more advanced [OutSystems Sentry](https://www.outsystems.com/sentry/) offer.
+OutSystems Cloud customers benefit from the logging and monitoring capabilities bundled in the service with a choice between the secure baseline of the standard configuration and the more advanced [Sentry add-on](https://www.outsystems.com/tk/redirect?g=9e584e22-a5a0-4ae9-8338-e1c4b33dcfbb).
 
-## OWASP Mobile Top 10 - Final List 2016
+## OWASP Mobile Top 10 - final list 2016
 
 Find below the set of OutSystems capabilities that help you address each vulnerability identified by [OWASP Mobile Top 10](https://owasp.org/www-project-mobile-top-10/).
 
-### Improper Platform Usage (M1)
+### Improper platform usage (`M1`)
 
 The OutSystems approach to mobile is a React-based hybrid client built on top of the Open-Source Apache Cordova library.
 
@@ -235,37 +244,37 @@ Special care is taken to guarantee that our generated code complies with all And
 
 Additionally, the [AppShield add-on](https://www.outsystems.com/forge/component-overview/9379/outsystems-appshield) includes root and jailbreak detection, blocks emulators, and identifies the permissions enabled on the device.
 
-### Insecure Data Storage (M2)
+### Insecure data storage (`M2`)
 
 OutSystems provides you a set of pre-built components, such as the [Key Store Plugin](https://www.outsystems.com/forge/component-overview/1550/key-store-plugin) or the [Ciphered Local Storage Plugin](https://www.outsystems.com/forge/component-overview/1500/ciphered-local-storage-plugin), to handle the storage of sensitive data in the device.
 
 The AppShield add-on blocks screen readers and key loggers. It also provides a secure local storage mechanism that blocks the copying of data to another device.
 
-### Insecure Communication (M3)
+### Insecure communication (`M3`)
 
 OutSystems mobile apps communicate with the server endpoints over HTTPS and therefore encrypts all communication. Any attempt to use one of these endpoints over HTTP issues an error on the server-side.
 
 To add an extra layer of security on top of HTTPS communications, you can use the [SSL Pinning Plugin](https://www.outsystems.com/forge/component-overview/1873/ssl-pinning-plugin) to prevent man-in-the-middle attacks.
 
-### Insecure Authentication (M4)
+### Insecure authentication (`M4`)
 
 OutSystems includes a robust built-in authentication mechanism that keeps user authentication information encrypted within authentication cookies. You are able to adjust the authentication cache, idle, and expiration periods per environment according to your application requirements.
 
 See [Configure App Authentication](https://success.outsystems.com/Documentation/11/Managing_the_Applications_Lifecycle/Secure_the_Applications/Configure_App_Authentication) for further details.
 
-### Insufficient Cryptography (M5)
+### Insufficient cryptography (`M5`)
 
 You can use pre-built components, such as the [Key Store Plugin](https://www.outsystems.com/forge/component-overview/1550/key-store-plugin) or the [Ciphered Local Storage Plugin](https://www.outsystems.com/forge/component-overview/1500/ciphered-local-storage-plugin), to encrypt the application sensitive data in the device.
 
 Additionally, the AppShield add-on blocks the copying of local data and assures it’s properly encrypted, includes repackaging protection, and ensures the security mechanisms can’t be removed from the app.
 
-### Insecure Authorization (M6)
+### Insecure authorization (`M6`)
 
 OutSystems role-based access control restricts access to the application’s pages depending on specific application-level roles. Developers define application-level permissions for roles using visual building blocks.
 
 Once users are registered to use an application, role-based access control ensures that only authorized users are allowed to perform specific business functions.
 
-### Client Code Quality (M7)
+### Client code quality (`M7`)
 
 As visual application models translate into standard code-React.JS for the device, .NET for the backend-OutSystems uses secure code patterns that protect applications from common vulnerabilities.
 
@@ -273,14 +282,14 @@ When developers need to override the default secure code patterns for advanced c
 
 Additionally, the AppShield add-on includes code injection protection, repackaging detection, and verification of the application signature. It removes debug information from the application code, and blocks debugger and emulator access. Also, it allows the report of security controls and device anomalies to application code for specific handling.
 
-### Code Tampering (M8)
+### Code tampering (`M8`)
 
 To prevent code modification of the apps via malicious forms, the AppShield add-on includes root, jailbreak, and repackaging detection. Also, it blocks debugger and emulator access.
 
-### Reverse engineering (M9)
+### Reverse engineering (`M9`)
 
 The AppShield add-on includes code obfuscation, and blocks debugger and emulator access, thus preventing reverse engineering of your mobile app.
 
-### Extraneous Functionality (M10)
+### Extraneous functionality (`M10`)
 
 Using OutSystems built-in application debugging capabilities during the development and testing stages reduces the need of creating extraneous code for testing and debugging purposes. This reduces the risk of deploying extraneous code to production.

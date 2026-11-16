@@ -3,6 +3,8 @@ summary: This guide provides troubleshooting steps for VPN connectivity issues i
 tags:
   - Infrastructure
   - Security
+  - Settings
+  - Testing
   - Troubleshooting
 locale: en-us
 guid: eee4da25-8b13-4bac-b8e7-dae4ece8c3ec
@@ -10,6 +12,7 @@ app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
 figma:
 coverage-type:
+  - apply
   - unblock
 topic:
   - configure-vpn-dns-resolution
@@ -17,6 +20,7 @@ topic:
   - test-vpn-connectivity
 audience:
   - Platform administrator
+isautopublish: true
 ---
 
 # VPN connectivity and troubleshooting guide
@@ -148,7 +152,7 @@ We force traffic over the internal load balancers that resolve to non-static IP 
 For this option, ensure that the DNS conditional forwarder mentioned in the requirements section is configured beforehand.
 </div>
 
-1. Perform a **telnet** session to one of the Fully Qualified Domain Names (FQDNs) of the OutSystems Cloud environments (outsystemsenterprise.com) over TCP/IP network protocol on port(s) 80 and 443. For Sentry editions allow only port 443.
+1. Perform a **telnet** session to one of the Fully Qualified Domain Names (FQDNs) of the OutSystems Cloud environments (outsystemsenterprise.com) over TCP/IP network protocol on port(s) 80 and 443. For infrastructures with the Sentry add-on, allow only port 443.
 
     `$ telnet  example-dev.outsystemsenterprise.com 443`
 

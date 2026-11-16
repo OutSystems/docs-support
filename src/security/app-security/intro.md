@@ -1,14 +1,24 @@
 ---
-summary: OutSystems 11 (O11) enhances application security through built-in protections and secure development practices.
-tags: application security, secure development practices, security best practices
+summary: OutSystems 11 (O11) application security covers built-in protections, access control, encryption, secure development, and post-development testing.
+tags:
+  - Authentication
+  - Authorization
+  - Best Practices
+  - External Authentication
+  - OWASP
+  - Security
+  - Testing
 locale: en-us
 guid: 5caacb13-daf1-4dbc-80ba-ac379a8da764
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
-figma:
+figma: https://www.figma.com/design/vTtFn5nl44ZLjUBYo2anCO/Security?node-id=910-242
 audience:
+  - Architect
   - Developer
   - Front-end developer
+  - Platform administrator
+  - Tech lead
 outsystems-tools:
   - none
 coverage-type:
@@ -16,6 +26,7 @@ coverage-type:
   - apply
 topic:
   - use-third-party-sast
+isautopublish: true
 ---
 
 # Develop secure OutSystems apps
@@ -46,9 +57,9 @@ Additionally, this article describes the set of **post-development mechanisms** 
 
 See also [how OutSystems helps you address the vulnerabilities identified by OWASP](app-security-owasp-top-10.md).
 
-## What OutSystems provides by default { #os-default-security }
+## What OutSystems provides by default {#os-default-security}
 
-### Secure application code { #secure-code }
+### Secure application code {#secure-code}
 
 Applications built with OutSystems benefit from an extra level of security in the application code itself. As visual application models are translated into standard .NET code, OutSystems uses secure code patterns that protect applications from the common web and mobile application vulnerabilities.
 
@@ -58,47 +69,47 @@ By default, OutSystems escapes content before showing it on the UI. Escaping unt
 
 The OutSystems approach to mobile is a React-based hybrid client built on top of the Open-Source Apache Cordova library. Special care is taken to guarantee that the generated code complies with all Android and iOS specifications.
 
-### Secure session data { #secure-session-data }
+### Secure session data {#secure-session-data}
 
 OutSystems includes built-in protection against session fixation attacks. It ensures that the session identifier is transparently changed on each login, and validates this on every request, thus preventing session fixation attacks.
 
 OutSystems serializes and deserializes session data using a built-in anti-tampering JSON deserialization mechanism. This mechanism compares incoming JSON data with predefined application models and performs strict type verification during deserialization. Additionally, it runs a salted hash-based algorithm over the serialized session data to validate potential tampering before deserialization.
 
-### Secure authentication mechanism { #secure-auth }
+### Secure authentication mechanism {#secure-auth}
 
 The OutSystems built-in authentication mechanism keeps user authentication information encrypted within two authentication cookies. This mechanism is configurable per environment to meet different security requirements.
 
 Also, OutSystems provides [single sign-on capabilities](https://success.outsystems.com/Documentation/11/Developing_an_Application/Secure_the_Application/End_User_Management/End_Users_Authentication/Single_Sign-On) by default for modules where cookies are enabled. After authenticating in one of the applications, end users can access all other applications without having to authenticate again.
 
-### Role-based access control for applications { #role-based-app-control }
+### Role-based access control for applications {#role-based-app-control}
 
 OutSystems role-based access control restricts access to the application’s pages depending on specific application-level roles. Developers define application-level permissions for roles using visual building blocks.
 
 Once users are registered to use an application, role-based access control ensures that only authorized users are allowed to perform specific business functions.
 
-### Role-based access control for IT users { #role-based-it-control }
+### Role-based access control for IT users {#role-based-it-control}
 
 IT team responsibilities are defined based on roles, and users can specify what each role can do in each environment. For example, the developer role might not be allowed to push applications to production, while the operations role can.
 
-### Protection against brute force attacks { #brute-force-protection }
+### Protection against brute force attacks {#brute-force-protection}
 
 OutSystems provides built-in protection mechanisms against brute force attacks for the application end users and IT users. You can adjust this mechanism to your business needs, such as the number of failed login attempts before a backoff or blocking period.
 
 See [Protection against Brute Force Attacks](https://success.outsystems.com/Documentation/11/Managing_the_Applications_Lifecycle/Secure_the_Applications/Protection_against_Brute_Force_Attacks) for further details on this mechanism and how to configure it.
 
-### Enforced HTTPS { #enforced-https }
+### Enforced HTTPS {#enforced-https}
 
 OutSystems mobile apps communicate with the server endpoints over HTTPS and therefore encrypts all communication. Any attempt to use one of these endpoints over HTTP issues an error on the server-side.
 
-If you need extra layers of compliance, and opt for a [high-compliance OutSystems Cloud](https://www.outsystems.com/sentry/), you also have enforced HTTPS communications for web applications. Alternatively, OutSystems allows [selective enforcement of HTTPS security](https://success.outsystems.com/Documentation/11/Developing_an_Application/Secure_the_Application/Secure_HTTP_Requests).
+If you need extra layers of compliance, and add the [Sentry add-on](https://www.outsystems.com/tk/redirect?g=9e584e22-a5a0-4ae9-8338-e1c4b33dcfbb), you also have enforced HTTPS communications for web applications. Alternatively, OutSystems allows [selective enforcement of HTTPS security](https://success.outsystems.com/Documentation/11/Developing_an_Application/Secure_the_Application/Secure_HTTP_Requests).
 
-### Application auditing { #app-audit }
+### Application auditing {#app-audit}
 
 OutSystems provides you [built-in monitoring tools](https://success.outsystems.com/Documentation/11/Managing_the_Applications_Lifecycle/Monitor_and_Troubleshoot) that collect and present data about the running applications.
 
 You can [view the logs and status](https://success.outsystems.com/Documentation/11/Managing_the_Applications_Lifecycle/Monitor_and_Troubleshoot/View_the_Environment_Logs_and_Status) of a specific environment, such as application logs and errors, screen requests, integration calls, business processes, and security audits.
 
-### System activity auditing { #system-audit }
+### System activity auditing {#system-audit}
 
 You can [monitor the tasks performed by IT users](https://success.outsystems.com/Documentation/11/Managing_the_Applications_Lifecycle/Monitor_and_Troubleshoot/Monitor_Usage_with_Audit_Logs) in the infrastructure. This ensures traceability in your infrastructure, and that you can follow up when problems arise.
 
@@ -111,23 +122,23 @@ Tracked events include:
 
 Furthermore, system audits and version control subsystems of the OutSystems platform allow auditors to identify when a modification to an application was applied, and by which user. The version control system even allows the inspection of the exact content of that change, using the OutSystems Service Studio visual difference and merge tool.
 
-### Vulnerability management { #vulnerability-mngm }
+### Vulnerability management {#vulnerability-mngm}
 
 OutSystems constantly monitors for vulnerabilities in the product and the generated code, using a continuous delivery approach to constantly release incremental value with minimal disruptions to our customers’ operations and business. Keeping your OutSystems infrastructure updated enables you to benefit from the latest features and fixes.
 
 [This policy](../vulnerabilities/intro.md) describes OutSystems response to vulnerabilities that might affect the customers’ applications. Security fixes are proactively applied in our OutSystems Cloud.
 
-## Develop secure applications { #secure-apps-dev }
+## Develop secure applications {#secure-apps-dev}
 
 On top of the default level of security that OutSystems grants to your applications, there are additional aspects that you must consider during application development to ensure that the developed applications are secure.
 
-### Define and implement the application permissions model { #permission-model }
+### Define and implement the application permissions model {#permission-model}
 
 Use the OutSystems built-in [role-based access control](https://success.outsystems.com/Documentation/11/Developing_an_Application/Secure_the_Application/User_Roles) to restrict or allow end users to access specific screens and operations of your application. Aside from the two default roles available (Anonymous and Registered), you can [create new custom roles](https://success.outsystems.com/Documentation/11/Developing_an_Application/Secure_the_Application/User_Roles/Create_and_Use_Roles) to accommodate your permission-model requirements.
 
 Use the built-in actions and functions available for each role to [validate the permissions](https://success.outsystems.com/Documentation/11/Developing_an_Application/Secure_the_Application/User_Roles/Validate_End_User_Permissions_in_the_Application) of end users to screen elements or actions of the application.
 
-### Implement application logging { #app-logging }
+### Implement application logging {#app-logging}
 
 Application logging plays an important role in security, as it allows you to track temporal information on significant events.
 
@@ -135,7 +146,7 @@ When designing application logic, make sure that you [log relevant information](
 
 See [Audit Trail](https://success.outsystems.com/Documentation/Best_Practices/Performance_and_Monitoring/Audit_Trail) for further information.
 
-### Implement proper error handling { #error-handling }
+### Implement proper error handling {#error-handling}
 
 Handling errors correctly is very important to the security of an application. When applications don’t handle errors properly, attackers might take advantage of this flaw and retrieve sensitive data they can use for exploitation.
 
@@ -145,23 +156,23 @@ When designing the logic of your application, make sure you correctly [handle co
 
 * Don’t include sensitive data or too much information in an error message.
 
-### Secure your advanced code customizations { #advanced-customizations }
+### Secure your advanced code customizations {#advanced-customizations}
 
 When using OutSystems building blocks to design your application screens and logic, such as Aggregates or UI widgets, your application translates them, by default, into secure code patterns against the most common vulnerabilities.
 
 However, when developers need to override the default secure code patterns for advanced customization scenarios, they receive design-time warnings for potential injection flaw patterns, along with guidelines to fix them. This ensures that developers are aware of these patterns before deploying the application.
 
-![Screenshot of OutSystems security warnings indicating potential SQL and HTML injection vulnerabilities.](images/app-security-overview-warning-ss.png "OutSystems Security Warning Screenshot")
+![Screenshot of OutSystems security warnings indicating potential SQL and HTML injection vulnerabilities.](images/app-security-overview-warning-ss.png "SQL and HTML Injection Warnings")
 
 The [Sanitization API](https://success.outsystems.com/Documentation/11/Reference/OutSystems_APIs/Sanitization_API) provides a set of actions that developers can use in advanced scenarios to avoid code injection in HTML, JavaScript, and SQL snippets.
 
-### Increase the security level of specific HTTP requests { #http-requests-security }
+### Increase the security level of specific HTTP requests {#http-requests-security}
 
 When [SSL is enabled for the environment]( #secure-data-in-transit), you can [enforce HTTPS security](https://success.outsystems.com/Documentation/11/Managing_the_Applications_Lifecycle/Secure_the_Applications/Enforce_HTTPS_Security) for specific applications or for the whole environment.
 
 However, for scenarios where part of your application does not require SSL, OutSystems allows you to [increase the security level of HTTP requests](https://success.outsystems.com/Documentation/11/Developing_an_Application/Secure_the_Application/Secure_HTTP_Requests) during the design phase for individual screens, UI flows, or integration endpoints. Do keep in mind that disabling SSL goes against many compliance and security standards in the industry.
 
-### Encrypt the application sensitive data { #encrypt-app-data }
+### Encrypt the application sensitive data {#encrypt-app-data}
 
 You should ensure that the sensitive data of your application, such as usernames, passwords, tokens, or certificates, is protected.
 
@@ -242,7 +253,7 @@ OutSystems also gives you the capability to [implement your own authentication p
 
 As an additional note, see the [SAML Platform Authentication](https://www.outsystems.com/forge/component-overview/4311/saml-platform-authentication) component, available in OutSystems Forge, as a sample implementation that allows your OutSystems tools, such as Service Studio, Integration Studio, Service Center, and LifeTime, to integrate with most common identity providers that support SAML 2.0 protocol for authentication purposes.
 
-### Secure data in transit { #secure-data-in-transit}
+### Secure data in transit {#secure-data-in-transit}
 
 Make sure that data in transit is encrypted using secure communication channels. An SSL certificate binds a cryptographic key to an organization’s details. When such a certificate is installed in an application server, the HTTPS protocol is activated. This creates an encrypted channel between your web server and your visitor’s web browser, allowing private information to be transmitted without eavesdropping or tampering.
 
