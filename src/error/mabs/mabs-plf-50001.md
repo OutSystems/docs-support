@@ -20,7 +20,7 @@ outsystems-tools:
 coverage-type:
   - unblock
 topic:
-  - cordova-bootstrap-error
+  - platform-dependency-error
 ---
 
 # OS-MABS-PLF-50001

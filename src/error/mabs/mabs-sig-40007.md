@@ -16,7 +16,7 @@ outsystems-tools:
 coverage-type:
   - unblock
 topic:
-  - provisioning-format-error
+  - invalid-profile-error
 ---
 
 # OS-MABS-SIG-40007
