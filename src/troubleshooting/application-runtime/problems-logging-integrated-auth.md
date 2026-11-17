@@ -8,6 +8,7 @@ figma: https://www.figma.com/file/6tXLupLiqfG9FOElATTGQU/Troubleshooting?node-id
 tags:
   - Active Directory
   - Authentication
+  - End-user Authentication
   - Troubleshooting
 audience:
   - Platform administrator

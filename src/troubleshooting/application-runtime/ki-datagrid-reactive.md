@@ -1,10 +1,12 @@
 ---
 tags:
   - Forge
+  - Front-End
   - Optimization
   - Performance
   - Table
   - Troubleshooting
+  - UI
 summary: Data Grid component known issues in OutSystems 11 (O11) cover CSV/Excel export, number column validation, filter resets, and animation scroll bugs.
 locale: en-us
 guid: 8f709280-5c8a-4fae-a64c-233553f80c86
