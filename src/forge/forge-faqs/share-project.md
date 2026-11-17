@@ -22,7 +22,7 @@ coverage-type:
 topic:
   - document-forge-asset
   - export-forge-asset
-  - submit-asset-to-forge
+  - upload-forge-asset
 ---
 
 # Sharing a project

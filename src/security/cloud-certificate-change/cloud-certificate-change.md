@@ -20,6 +20,7 @@ coverage-type:
 topic:
   - app-server-certificates
   - check-ssl-pinning-hash-validity
+  - cloud-cert-rotation
 ---
 
 # OutSystems Cloud certificate rotation
