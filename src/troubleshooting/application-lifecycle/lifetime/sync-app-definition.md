@@ -6,6 +6,8 @@ app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
 figma: https://www.figma.com/file/6tXLupLiqfG9FOElATTGQU/Troubleshooting?type=design&node-id=3599%3A53&mode=design&t=42fmTjympCA6AMpf-1
 tags:
+  - Data Synchronization
+  - Development lifecycle
   - Lifecycle
   - Troubleshooting
 audience:

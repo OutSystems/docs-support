@@ -1,7 +1,6 @@
 ---
 summary: Learn how OutSystems 11 (O11) incorporates built-in CSRF protection and guidelines for securing APIs against CSRF attacks.
 tags:
-  - Authentication
   - OWASP
   - REST
   - Security

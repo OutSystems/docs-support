@@ -7,8 +7,12 @@ platform-version: o11
 figma:
 tags:
   - .NET
+  - Platform Server
+  - REST
   - Security
+  - SOAP
   - Troubleshooting
+  - Web services
 audience:
   - Developer
   - Platform administrator

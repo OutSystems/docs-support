@@ -7,6 +7,9 @@ platform-version: o11
 figma: https://www.figma.com/file/6tXLupLiqfG9FOElATTGQU/Troubleshooting?node-id=3330:2690
 tags:
   - Authorization
+  - Infrastructure
+  - IP Filters
+  - Settings
   - Security
   - Troubleshooting
 audience:

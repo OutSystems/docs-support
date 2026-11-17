@@ -6,8 +6,10 @@ app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
 figma:
 tags:
+  - Asynchronous Processes
   - Batch Processing
   - Business Processes
+  - Optimization
   - Performance
   - Timers
   - Troubleshooting

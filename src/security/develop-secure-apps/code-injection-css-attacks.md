@@ -6,6 +6,7 @@ app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
 figma: https://www.figma.com/file/vTtFn5nl44ZLjUBYo2anCO/Security?node-id=305:319
 tags:
+  - JavaScript
   - OWASP
   - Security
   - SQL

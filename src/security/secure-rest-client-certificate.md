@@ -7,8 +7,10 @@ platform-version: o11
 figma:
 tags:
   - Authentication
+  - Extensions
   - REST
   - Security
+  - Web services
 audience:
   - Developer
 outsystems-tools:

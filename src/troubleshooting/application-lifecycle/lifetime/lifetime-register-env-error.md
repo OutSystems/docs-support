@@ -2,6 +2,8 @@
 summary: Explore troubleshooting steps for registering a new environment in LifeTime with OutSystems 11 (O11).
 tags:
   - Infrastructure
+  - Monitoring
+  - SOAP
   - Troubleshooting
 locale: en-us
 guid: d8ee4abf-9875-4696-a24f-a4608645ab33
