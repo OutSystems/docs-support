@@ -15,6 +15,8 @@ outsystems-tools:
   - service studio
 coverage-type:
   - unblock
+topic:
+  - fix-soap-compile-error
 ---
 
 # Compilation errors after consuming a SOAP web service

@@ -21,6 +21,8 @@ outsystems-tools:
 coverage-type:
   - apply
   - unblock
+topic:
+  - keep-session-alive
 ---
 
 # Troubleshoot SSO sessions for Traditional Web Apps

@@ -19,6 +19,9 @@ outsystems-tools:
 coverage-type:
   - apply
   - unblock
+topic:
+  - check-ipp-errors
+  - use-ipp-portal
 ---
 
 # Resolve an intellectual property error

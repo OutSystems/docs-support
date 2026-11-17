@@ -20,6 +20,9 @@ outsystems-tools:
   - platform server
 coverage-type:
   - unblock
+topic:
+  - check-deploy-all-impact
+  - clean-deploy-all-tenants
 ---
 
 # Multiple new tenants after using Deploy All - RPM-3448

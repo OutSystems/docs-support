@@ -8,6 +8,8 @@ figma: https://www.figma.com/file/cPLNnZfDOZ1NX3avcjmq3g/Enterprise%20Customers?
 tags:
   - Infrastructure
   - Security
+topic:
+  - generate-csr-request
 audience:
   - Platform administrator
 outsystems-tools:

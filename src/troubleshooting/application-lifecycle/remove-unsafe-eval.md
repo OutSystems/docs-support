@@ -22,6 +22,8 @@ outsystems-tools:
   - service center
 coverage-type:
   - unblock
+topic:
+  - csp-directive-impacts
 ---
 
 # Removing unsafe-eval
