@@ -8,6 +8,11 @@ pageprivacy: public
 
 
 <style>.cattag {background: #f4f2ff; color: #6a6581; padding: 4px 10px;}</style>
+<h3 id="new_in_outsystems_developer_cloud_2026-11-15" > New</h3>
+<ul>
+<li>Mentor now checks the Mentor permission on the server, so developers whose role doesn't include it can't use Mentor from any client. (RDCAG-380)</li>
+<li>OutSystems MCP: You can now call the OutSystems MCP tools from ODC agentic apps, using an API client with a System to system (OAuth) connection, so agents that run in ODC can read your tenant and use Mentor. (RDEV-10821)</li>
+</ul>
 <h3 id="bug_fixing_outsystems_developer_cloud_2026-11-15" >Bug Fixing</h3>
 <ul>
 <li>Fixed an issue where values assigned through List.Current on the output of an Aggregate or SQL node were reverted to the database values. This occurred in server-side logic when the list was first read, by iterating or indexing it, after the assignment. Now, the assigned values are kept. (RPM-7470)</li>
