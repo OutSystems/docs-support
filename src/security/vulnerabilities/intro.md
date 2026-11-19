@@ -8,6 +8,12 @@ figma: https://www.figma.com/file/vTtFn5nl44ZLjUBYo2anCO/Security?type=design&no
 coverage-type:
   - understand
   - apply
+tags:
+  - Security
+audience:
+  - Developer
+  - Platform administrator
+isautopublish: true
 ---
 
 # Vulnerabilities
@@ -71,7 +77,7 @@ After analysis, if the findings are related to the OutSystems platform, please s
 
 #### How to submit a vulnerability report
 
-To submit a vulnerability report, use [Support Portal](https://www.outsystems.com/supportportal) by raising an incident.
+To submit a vulnerability report, use [Support Portal](https://www.outsystems.com/supportportal) to create a support case.
 
 Vulnerability reports must contain the following information:
 
@@ -89,7 +95,7 @@ Vulnerability reports must contain the following information:
     1. Go to https://[URL]/users?uid=2
     1. Confirm you’re seeing the details of another user.
 
-If this information isn't consistently provided, the support case may ultimately be closed. There should be only one vulnerability being addressed per incident in order to facilitate the communication and the proper investigation.
+If this information isn't consistently provided, the support case may ultimately be closed. There should be only one vulnerability being addressed per support case in order to facilitate the communication and the proper investigation.
 
 Reports will be handled within the [scope and SLA's](https://success.outsystems.com/Support/Enterprise_Customers/OutSystems_Support/Support_terms_and_service_level_agreements_(SLA)_of_the_OutSystems_software) of customers' and partners' contracts.
 
