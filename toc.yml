@@ -303,6 +303,14 @@
     # Vulnerabilities
     - href: security/vulnerabilities/intro.md
     - topics:
+        - href: security/vulnerabilities/vulnerability-RPM-7373.md
+        - href: security/vulnerabilities/vulnerability-RPM-7369.md
+        - href: security/vulnerabilities/vulnerability-RPM-7364.md
+        - href: security/vulnerabilities/vulnerability-RPM-7354.md
+        - href: security/vulnerabilities/vulnerability-RPM-7352.md
+        - href: security/vulnerabilities/vulnerability-RPM-7349.md
+        - href: security/vulnerabilities/vulnerability-RPM-7326.md
+        - href: security/vulnerabilities/vulnerability-RPM-7289.md
         - href: security/vulnerabilities/vulnerability-RPM-6842.md
         - href: security/vulnerabilities/vulnerability-RPM-6669.md
         - href: security/vulnerabilities/vulnerability-RPM-6441.md
