@@ -1,11 +1,17 @@
 ---
-summary: Explore the OutSystems 11 (O11) Forge, a repository for sharing diverse software projects and components that enhance platform capabilities.
+summary: Forge projects for O11 and ODC include apps, integrations, libraries, and plugins, with guidance on licensing, sharing, support, and vulnerability coverage.
 tags:
   - Forge
+  - Libraries
+  - Plugins
+  - Security
+  - Themes
+  - UI
+  - Widgets
 locale: en-us
 guid: 8a0a5173-e7b7-4b8a-a58a-42d43e201233
 app_type: traditional web apps, mobile apps, reactive web apps
-platform-version: o11
+platform-version: o11, odc
 figma:
 audience:
   - Developer
@@ -19,6 +25,7 @@ topic:
   - forge-licensing-model
   - forge-overview
   - forge-project-types
+isautopublish: true
 ---
 
 # Overview
@@ -95,6 +102,10 @@ Guides and examples that demonstrate how specific tasks, capabilities, or how co
 
 [OutSystems Maps Sample](https://www.outsystems.com/forge/component-overview/10984/outsystems-maps-sample) and [Data Grid Sample Reactive](https://www.outsystems.com/forge/component-overview/9765/data-grid-sample-reactive) are examples of Demos & samples projects.
 
-## What level of curation and support can I expect from Forge projects? { #curation }
+## What level of curation, support, and vulnerability coverage can I expect from Forge projects? { #curation }
 
-See [Curating Projects](curate-project.md) for detailed information about the level of curation of the projects shared in the Forge and the support you can get for those projects.
+OutSystems develops, maintains, and supports OutSystems Supported projects. The community supports Trusted projects and projects that are neither supported nor trusted.
+
+The [OutSystems vulnerability policy](https://success.outsystems.com/support/security/vulnerabilities/) covers OutSystems Supported projects only. For Trusted projects and projects that are neither supported nor trusted, run your own security scans. The scans confirm that these third-party, community-led projects meet your company's security requirements.
+
+For more information about the curation levels and the support you can get for each project, refer to [Curating projects](curate-project.md).

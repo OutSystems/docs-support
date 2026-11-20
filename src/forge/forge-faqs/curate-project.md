@@ -1,24 +1,27 @@
 ---
-summary: Explore the classification and support details of projects in OutSystems 11 (O11), including Supported, Trusted, Featured, and Deprecated projects.
+summary: Explore the classification and support details of Forge projects in O11 and ODC, including Supported, Trusted, Featured, and Deprecated projects.
 tags:
-  - Best Practices
   - Forge
+  - Security
 locale: en-us
 guid: d6049875-7b13-4af6-b907-fa767a1e7104
 app_type: traditional web apps, mobile apps, reactive web apps
-platform-version: o11
+platform-version: o11, odc
 figma:
 audience:
   - Developer
   - Tech lead
+  - Platform administrator
 coverage-type:
-  - unblock
+  - remember
+  - understand
 topic:
   - forge-project-classifications
   - forge-project-support
+isautopublish: true
 ---
 
-# Curating Projects
+# Curating projects
 
 ## What is a Supported project? { #supported }
 
@@ -30,7 +33,9 @@ An OutSystems Supported project is a component or application that's developed, 
 
 ## What is a Trusted project? { #trusted }
 
-A trusted project is a component that has been validated by the OutSystems Curation Team. This ensures the component delivers the promised functionality and that it was built based on best practices for security, documentation and code quality. Trusted components are supported by the Community.
+A trusted project is a component that the OutSystems Curation Team reviewed to check that it met the requirements for functionality, security, documentation, and code quality at the time of the review. The Community supports trusted components.
+
+Before you use trusted projects, run your own static application security testing (SAST) or other security scans. The scans confirm that these third-party, community-led components meet your company's security requirements. If you find vulnerabilities, you can modify the components, or contribute fixes and collaborate with the component owners to resolve them. OutSystems isn't responsible for vulnerability remediation outside OutSystems Supported projects.
 
 You can find the detailed requirements to trust a component in the [Trusted components requirements](trusted-requirements.md).
 

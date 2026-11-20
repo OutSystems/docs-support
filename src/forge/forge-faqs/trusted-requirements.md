@@ -1,19 +1,30 @@
 ---
 summary: OutSystems 11 (O11) outlines criteria for "Trusted" asset designation on the OutSystems Forge, emphasizing quality, functionality, and security.
-tags: curation process, asset management, quality assurance, community contributions
+tags:
+  - Architecture
+  - Best Practices
+  - Forge
+  - Mentor Studio
+  - Performance
+  - Quality Assurance
+  - Security
 locale: en-us
 guid: a5774b9a-751e-4df6-889a-9f54f363ac40
 app_type: traditional web apps, mobile apps, reactive web apps
 platform-version: o11
 figma: https://www.figma.com/file/bGPF1cIwKxeWbPhMdOrHsM/Forge%20Components?node-id=0:1
 audience:
-  - Front-end developer
+  - Architect
   - Developer
+  - Front-end developer
+  - Tech lead
 outsystems-tools:
   - forge
   - service studio
 coverage-type:
   - understand
+  - evaluate
+isautopublish: true
 ---
 
 # Trusted asset requirements
@@ -145,7 +156,7 @@ The asset must comply with the following performance best practices:
 * No query data passing from Preparation to Screen Actions through the ViewState (applies only to Traditional Web)
 * No screen Local Variables of type Compound or Collection (applies only to Traditional Web)
 
-For more information about performance, see the [OutSystems Platform Best Practices - Performance](https://success.outsystems.com/Documentation/Best_Practices/Development/OutSystems_Platform_Best_Practices#performance).
+For more information about performance, see the [OutSystems platform Best Practices - Performance](https://success.outsystems.com/Documentation/Best_Practices/Development/OutSystems_Platform_Best_Practices#performance).
 
 #### Code maintainability
 
