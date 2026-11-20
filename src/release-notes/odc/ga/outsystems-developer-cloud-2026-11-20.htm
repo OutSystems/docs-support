@@ -11,5 +11,6 @@ pageprivacy: public
 <h3 id="bug_fixing_outsystems_developer_cloud_2026-11-20" >Bug Fixing</h3>
 <ul>
 <li>Fixed an issue that prevented agents using the OutSystems MCP server from finding consumed REST integrations, because they looked in context_connections, which lists only AI model connections. Now, the tool descriptions point agents to context_search with the restIntegrations object for REST integrations. (RDEV-10831)</li>
+<li>Fixed an issue related to icon libraries that caused HTTP 404 errors in the browser console when a screen used library blocks. (RPM-7466)</li>
 </ul>
 
