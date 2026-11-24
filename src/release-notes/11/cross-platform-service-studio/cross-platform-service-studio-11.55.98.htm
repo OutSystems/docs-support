@@ -10,6 +10,7 @@ pageprivacy: public
 <style>.cattag {background: #f4f2ff; color: #6a6581; padding: 4px 10px;}</style>
 <h3 id="new_in_cross-platform_service_studio_11.55.98" >New in Cross-platform Service Studio 11.55.98</h3>
 <ul>
+<li>The Service Studio MCP server now lets AI agents find the applications and modules of the environment Service Studio is connected to, including modules that aren't open, with the new searchApps tool. The listApps tool, which used to list the open modules, is now named listOpenModules. (R11DT-4381)</li>
 <li>Convert to Reactive now maps the RichWidgets date and address functions used by server actions to OutSystemsReactiveMigration, and fixes aggregate pagination, default sort, LineCount replacement and CheckRegisteredRole conversion issues. (R11DT-4475)</li>
 <li>The Traditional to Reactive command now converts expressions correctly when an extracted node's name appears more than once, no longer repeating its output prefix. (R11DT-4482)</li>
 <li>The Traditional to Reactive command now provides the functions that converted logic calls: RichWidgets functions, CheckRegisteredRole and GetApplicationName. Functions that OutSystemsReactiveMigration already offers as client actions are bound to them instead of being mocked. (R11DT-4483)</li>
